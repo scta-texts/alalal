@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="405"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i84685"><!-- l4d38a7 -->
+            <head xml:id="alalal-i84685-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-i84685-Hd1e101" type="question-title">An votum dicatur de voto secundum
+unam rationem ?</head>
+            <p xml:id="alalal-i84685-d1e104">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="11"/>ARTICULUS VII.
+<lb ed="#Bf" n="12"/>An votum dicatur de voto secundum
+<lb ed="#Bf" n="13"/>unam rationem ?
+</p>
+            <p xml:id="alalal-i84685-d1e115">
+               <lb ed="#Bf" n="14"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bf" n="15"/>B, <quote xml:id="alalal-i84685-Qd1e121"> Sciendum vero, quod votorum
+<lb ed="#Bf" n="16"/>aliud est commune, etc. </quote>
+            </p>
+            <p xml:id="alalal-i84685-d1e127">
+               <lb ed="#Bf" n="17"/>Et queruntur hic quatuor.
+<lb ed="#Bf" n="18"/>Primum est, Utrum secundum unam
+<lb ed="#Bf" n="19"/>rationem votum dicatur de voto 
+com<lb break="no" ed="#Bf" n="20"/>muni et proprio ?
+<lb ed="#Bf" n="21"/>Secundum, Utrum transgressio voti
+<lb ed="#Bf" n="22"/>communis faciat speciale peccatum, vel
+<lb ed="#Bf" n="23"/>peccati deformitatem, sicut facit 
+trans<lb break="no" ed="#Bf" n="24"/>gressio voti singularis ?
+<lb ed="#Bf" n="25"/>Tertio queritur, Quare dicatur 
+com<lb break="no" ed="#Bf" n="26"/>mune et singulare ?
+<lb ed="#Bf" n="27"/>Quartum, Utrum commune recipiat
+<lb ed="#Bf" n="28"/>dispensationem et commutationem, sicut
+<lb ed="#Bf" n="29"/>quandoque facit singulare ?
+</p>
+            <p xml:id="alalal-i84685-d1e159">
+               <lb ed="#Bf" n="30"/>Ab primum sic objicitur :
+<lb ed="#Bf" n="31"/>1. Quecumque dividunt unum 
+com<lb break="no" ed="#Bf" n="32"/>mune, illa sunt unius rationis in nomine
+<lb ed="#Bf" n="33"/>illius communis: votum autem 
+com<lb break="no" ed="#Bf" n="34"/>mune et singulare dividunt unum votum
+<cb ed="#Bf" n="c"/>
+               <lb ed="#Bf" n="35"/>in communi : ergo sunt unius rationis in
+<lb ed="#Bf" n="36"/>nomine voti: ergo votum est unius 
+ra<lb break="no" ed="#Bf" n="37"/>tionis prout dicitur de communi et de
+<lb ed="#Bf" n="38"/>proprio sive singulari.
+</p>
+            <p xml:id="alalal-i84685-d1e183">
+               <lb ed="#Bf" n="39"/>2. Item, Utrumque est sponsio votiva
+<lb ed="#Bf" n="40"/>animi de his quae pertinent ad 
+religio<lb break="no" ed="#Bf" n="41"/>nem: et haec fuit supra diffinitio voti in
+<lb ed="#Bf" n="42"/>communi : ergo una ratione votum 
+pre<lb break="no" ed="#Bf" n="43"/>dicatur de utroque.
+</p>
+            <p xml:id="alalal-i84685-d1e196">
+               <lb ed="#Bf" n="44"/>In conrrarium hujus est, quod
+<lb ed="#Bf" n="45"/>1. Quandocumque aliqua in una 
+ra<lb break="no" ed="#Bf" n="46"/>tione participant genus, unum non 
+ma<lb break="no" ed="#Bf" n="47"/>gis proprie recipit predicationem illius
+<lb ed="#Bf" n="48"/>generis, quam aliud : sed votum 
+singu<lb break="no" ed="#Bf" n="49"/>lare magis proprie recipit predicationem
+<lb ed="#Bf" n="50"/>voli: ergo non univoce dicitur de voto
+<lb ed="#Bf" n="51"/>communi et singulari. Prima patet per
+<lb ed="#Bf" n="52"/>se. Szecunpa probatur ex hoc, quod com- |
+<lb ed="#Bf" n="53"/>mune votum non est de voluntariis, sed
+<lb ed="#Bf" n="54"/>de necessariis: votum autem diciltur a
+<lb ed="#Bf" n="55"/>voluntate.
+</p>
+            <p xml:id="alalal-i84685-d1e225">
+               <lb ed="#Bf" n="56"/>2. Item, De voti ratione est, quod a
+<lb ed="#Bf" n="57"/>deliberatione voventis confirmetur : sed
+<lb ed="#Bf" n="58"/>votum commune non est deliberatione
+<lb ed="#Bf" n="59"/>voventis confirmatum, sed auctoritate
+<lb ed="#Bf" n="60"/>precepti: ergo votum non plena ratione
+<lb ed="#Bf" n="61"/>predicatur de communi, sed de speciali :
+<lb ed="#Bf" n="62"/>ergo commune et singulare non sunt 
+uni<lb break="no" ed="#Bf" n="63"/>voca in ratione voli.
+</p>
+            <p xml:id="alalal-i84685-d1e245">
+               <lb ed="#Bf" n="64"/>Utrerivs autem quaeritur de voto 
+stul<lb break="no" ed="#Bf" n="65"/>torum, de quo ante fecit mentionem in
+<pb ed="#Bf" n="406"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Littera: illud enim omnino videtur 
+equi<lb break="no" ed="#Bf" n="2"/>voce dici votum cum his duobus: unde
+<lb ed="#Bf" n="3"/>actus voli qui est obligare ad faciendum,
+<lb ed="#Bf" n="4"/>non est in illo.
+</p>
+            <p xml:id="alalal-i84685-d1e265">
+               <lb ed="#Bf" n="5"/>In contrarium autem hujus est, quod
+<lb ed="#Bf" n="6"/>votum etiam stultorum est deliberata
+<lb ed="#Bf" n="7"/>promissio, sicut et singulare volum : ergo
+<lb ed="#Bf" n="8"/>videtur, quod una ratione cum singulari
+<lb ed="#Bf" n="9"/>voto recipiat predicationem,.
+</p>
+            <p xml:id="alalal-i84685-d1e279">
+               <lb ed="#Bf" n="10"/>Respoxsto. Dicendum, quod secundum
+<lb ed="#Bf" n="11"/>prius et posterius dicitur votum de 
+com<lb break="no" ed="#Bf" n="12"/>muni et de singulari : et est divisio 
+ana<lb break="no" ed="#Bf" n="13"/>logi et non pure uniyoci.
+</p>
+            <p xml:id="alalal-i84685-d1e290">
+               <lb ed="#Bf" n="14"/>Ad primum ergo dicendum, quod 
+divi<lb break="no" ed="#Bf" n="15"/>sio dicitur dupliciter: quaedam enim 
+di<lb break="no" ed="#Bf" n="16"/>vidunt commune per differentias, qua
+<lb ed="#Bf" n="17"/>sunt in dlo communi potestate : et de illis
+<lb ed="#Bf" n="18"/>non est prima propositio. Quidam autem
+<lb ed="#Bf" n="19"/>non divyidunt ipsum proprie, sed dicunt
+<lb ed="#Bf" n="20"/>diversos modos ipsius: et talia sunt 
+ana<lb break="no" ed="#Bf" n="21"/>loga in noimine divisi : et talis divisio est
+<lb ed="#Bf" n="22"/>hie.
+</p>
+            <p xml:id="alalal-i84685-d1e312">
+               <lb ed="#Bf" n="23"/>Ad aliud dicendum, quod sponsio
+<lb ed="#Bf" n="24"/>non est uno modo in necessaris et 
+volun<lb break="no" ed="#Bf" n="25"/>tariis: et ideo ralio ila etiam secundum
+<lb ed="#Bf" n="26"/>diversos modos convenit voto communi
+<lb ed="#Bf" n="27"/>et singulari.
+</p>
+            <p xml:id="alalal-i84685-d1e325">
+               <lb ed="#Bf" n="28"/>Duae autem rationes quae sunt in 
+con<lb break="no" ed="#Bf" n="29"/>trarium, sunt simpliciler concedende.
+</p>
+            <p xml:id="alalal-i84685-d1e332">
+               <lb ed="#Bf" n="30"/>Ad id aulem quod ulterias queritur
+<lb ed="#Bf" n="31"/>de voto stullorum, dicondum quod illud
+<lb ed="#Bf" n="32"/>minus habet inter tria de ratione voti:
+<lb ed="#Bf" n="33"/>tamen per posterius et non omnino 
+equi<lb break="no" ed="#Bf" n="34"/>voce accipit predicalionem voll.
+</p>
+            <p xml:id="alalal-i84685-d1e345">
+               <lb ed="#Bf" n="35"/>Ad opsrctum dicendum, quod non obli+
+<lb ed="#Bf" n="36"/>vat, ideo quia non vere votum est: sed
+<lb ed="#Bf" n="37"/>tamen mutatur votum ex parte voventis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

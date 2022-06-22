@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 21</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 21</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="798"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h71891"><!-- l4d18a21 -->
+            <head xml:id="alalal-h71891-Hd1e99">Articulus 21</head>
+            <head xml:id="alalal-h71891-Hd1e101" type="question-title">An participare cum excommunicato sit
+peccatum mortale ?</head>
+            <p xml:id="alalal-h71891-d1e104">
+               <lb ed="#Be" n="59"/>ARTICULUS XXI.
+<lb ed="#Be" n="60"/>An participare cum excommunicato sit
+<lb ed="#Be" n="61"/>peccatum mortale ?
+</p>
+            <p xml:id="alalal-h71891-d1e113">
+               <lb ed="#Be" n="62"/>Sexto et ultimo queritur, Utrum 
+par<lb break="no" ed="#Be" n="63"/>ticipare cum excommunicato sit 
+pecca<lb break="no" ed="#Be" n="64"/>tum mortale ?
+</p>
+            <p xml:id="alalal-h71891-d1e122">
+               <lb ed="#Be" n="65"/>Videtur autem, quod sic : quia
+<lb ed="#Be" n="66"/>1. Tamquam de mortali redarguit
+<lb ed="#Be" n="67"/>Apostolus Corinthios, qui 
+communicave<lb break="no" ed="#Be" n="68"/>runt tali, <ref xml:id="alalal-h71891-Rd1e132">I ad Corinth. v, 6</ref>, ubi dicit,
+<lb ed="#Be" n="69"/>quod <quote xml:id="alalal-h71891-Qd1e137"
+                      source="http://scta.info/resource/Icor5_6@7-11">modicum fermentum totam massam
+<lb ed="#Be" n="70"/>corrumpit</quote>. Ergo videtur, quod in aliis sit
+<lb ed="#Be" n="71"/>peccatum mortale.
+</p>
+            <p xml:id="alalal-h71891-d1e146">
+               <lb ed="#Be" n="72"/>2. Adhuc, Facere contra preceptum
+<lb ed="#Be" n="73"/>est peccatum mortale : sed preceptum
+<lb ed="#Be" n="74"/>Ecclesiae est, ut talibus nullus 
+communi<lb break="no" ed="#Be" n="75"/>cet : ergo videtur, quod communicare
+<lb ed="#Be" n="76"/>talibus sit peccatum mortale.
+</p>
+            <p xml:id="alalal-h71891-d1e159">
+               <lb ed="#Be" n="77"/>SED CONTRA :
+<lb ed="#Be" n="78"/>Ego video, quod excommunicans 
+com<lb break="no" ed="#Be" n="79"/>municat ei in cibo et verbo et osculo,
+<lb ed="#Be" n="80"/>si oportet, et hoc tota die videtur in
+<lb ed="#Be" n="81"/>Episcopis nostri temporis. Cum igitur
+<lb ed="#Be" n="82"/>ego perfectior esse non teneor meo 
+Pre<lb break="no" ed="#Be" n="83"/>lato, videtur quod et ego possum licite
+<lb ed="#Be" n="84"/>talibus communicare.
+</p>
+            <p xml:id="alalal-h71891-d1e179">
+               <pb ed="#Be" n="799"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Solutio. Ad hoc sine praejudicio 
+dicen<lb break="no" ed="#Be" n="2"/>dum videtur, quod aliud est 
+communica<lb break="no" ed="#Be" n="3"/>re ei qui est excommunicatus, et aliud
+<lb ed="#Be" n="4"/>communicare excommunicato in 
+quan<lb break="no" ed="#Be" n="5"/>tum excommunicatus est : communicans
+<lb ed="#Be" n="6"/>enim secundo modo, communicat ei in
+<lb ed="#Be" n="7"/>causa excommunicationis, sive in crimine
+<lb ed="#Be" n="8"/>pro quo ille excommunicatus est : et ille
+<lb ed="#Be" n="9"/>est excommunicatus majori 
+excommuni<lb break="no" ed="#Be" n="10"/>catione sicut et primus.
+</p>
+            <p xml:id="alalal-h71891-d1e208">
+               <lb ed="#Be" n="11"/>Communicare autem ei qui est 
+ex<lb break="no" ed="#Be" n="12"/>communicatus, fit dupliciter,  scilicet
+<lb ed="#Be" n="13"/>majori excommunicatione, et minori.
+<lb ed="#Be" n="14"/>Communicans autem excommunicato
+<lb ed="#Be" n="15"/>minori excommunicatione, non est 
+ex<lb break="no" ed="#Be" n="16"/>communicatus : sed peccat communicans
+<lb ed="#Be" n="17"/>excommunicato excommunicatione 
+ma<lb break="no" ed="#Be" n="18"/>jori in casu non concesso. Casus autem
+<lb ed="#Be" n="19"/>concessi sunt illis quorum conversatio
+<lb ed="#Be" n="20"/>non. potest esse sine illo: sicut si sit
+<lb ed="#Be" n="21"/>uxor, filius, servus, balivus, rusticus, vel
+<lb ed="#Be" n="22"/>hujusmodi, quae ad civilem respiciunt
+<lb ed="#Be" n="23"/>conversalionem, si ignorat, si utilitas
+<lb ed="#Be" n="24"/>evidens, vel necessitas sit. Et hoc nota--
+<lb ed="#Be" n="25"/>tur hoc versu:
+<lb ed="#Be" n="26"/>
+               <quote xml:id="alalal-h71891-Qd1e244">Utile, lex, humile, res ignorata, necesse.</quote>
+               <lb ed="#Be" n="27"/>Lex dicitur matrimonium, et humile 
+sci<lb break="no" ed="#Be" n="28"/>licet servitus, et alia patent. Tamen si
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="29"/>duo tali communione in casu non 
+con<lb break="no" ed="#Be" n="30"/>cesso excommunicati sunt, unus potest
+<lb ed="#Be" n="31"/>absolvere alium. Et ideo dicunt 
+commu<lb break="no" ed="#Be" n="32"/>niter, quod excommunicato 
+communi<lb break="no" ed="#Be" n="33"/>cans, vel non curans, vel contemnens
+<lb ed="#Be" n="34"/>vinculum Ecclesiae, peccat mortaliter.
+<lb ed="#Be" n="35"/>Qui autem metus causa, vel 
+conjun<lb break="no" ed="#Be" n="36"/>ctione amicitiae seductus, tantum verbo
+<lb ed="#Be" n="37"/>cum timore communicat, non auderem
+<lb ed="#Be" n="38"/>dicere, quod mortaliter eo ipso peccaret.
+</p>
+            <p xml:id="alalal-h71891-d1e276">
+               <lb ed="#Be" n="39"/>Ad 1p quod objicitur, patet solutio per
+<lb ed="#Be" n="40"/>distinctionem.
+</p>
+            <p xml:id="alalal-h71891-d1e283">
+               <lb ed="#Be" n="41"/>Nota etiam, quod non tenetur aliquis
+<lb ed="#Be" n="42"/>credere aliquem excommunicatum, nisi
+<lb ed="#Be" n="43"/>intersit denuntiationi, vel per 
+denuntian<lb break="no" ed="#Be" n="44"/>tem intimetur ei, vel ita certificetur per
+<lb ed="#Be" n="45"/>publicam famam, quod nullo modo sibi
+<lb ed="#Be" n="46"/>de hoc dubium possit generari: quia de
+<lb ed="#Be" n="47"/>quolibet presumendum est bonum, 
+do<lb break="no" ed="#Be" n="48"/>nec contrarium probetur.
+</p>
+            <p xml:id="alalal-h71891-d1e304">
+               <lb ed="#Be" n="49"/>Deinde notandi sunt versus de hoc
+<lb ed="#Be" n="50"/>quod dicit, ibi, G, § 2, post imitium :
+<lb ed="#Be" n="51"/>
+               <quote xml:id="alalal-h71891-Qd1e312"> Sententia Ecclesia a loco orationis,
+<lb ed="#Be" n="52"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-h71891-d1e318">
+               <lb ed="#Be" n="53"/>
+               <quote xml:id="alalal-h71891-Qd1e322">Gratia subtrahitur, magis ac magis obice rupto,
+<lb ed="#Be" n="54"/>De vitio ruit in vilium, suffragia perdit
+<lb ed="#Be" n="55"/>Ecclesiae, Satane vexandus traditur ille,
+<lb ed="#Be" n="56"/>Quem ligat ex propriis anathematizatio culpis.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

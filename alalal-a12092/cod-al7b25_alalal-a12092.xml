@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="61"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a12092"><!-- l1d2a8 -->
+            <head xml:id="alalal-a12092-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-a12092-Hd1e101" type="question-title">Quid melius dicitur de Patre, Filio, et
+Spiritu sancto, quod unum sunt, vel
+quod unum est ?</head>
+            <p xml:id="alalal-a12092-d1e104">
+               <lb ed="#Ba" n="15"/>ARTICULUS VIII.
+<lb ed="#Ba" n="16"/>Quid melius dicitur de Patre, Filio, et
+<lb ed="#Ba" n="17"/>Spiritu sancto, quod unum sunt, vel
+<lb ed="#Ba" n="18"/>quod unum est ?
+</p>
+            <p xml:id="alalal-a12092-d1e115">
+               <lb ed="#Ba" n="19"/>Deinde quaeritur de his quae dicuntur
+<lb ed="#Ba" n="20"/>in secunda parte quae incipit, ibi, <quote xml:id="alalal-a12092-Qd1e121"> 
+Om<lb break="no" ed="#Ba" n="21"/>nes autem Catholici. </quote> Thi enim est 
+que<lb break="no" ed="#Ba" n="22"/>dam notula quae dicit : <quote xml:id="alalal-a12092-Qd1e128"> Ubi dixerunt de
+<lb ed="#Ba" n="23"/>Patre et Filio : qui gignit, et quem gignit,
+<lb ed="#Ba" n="24"/>unum est. </quote> quaeritur enim ibi de 
+ra<lb break="no" ed="#Ba" n="25"/>tione retractationis Augustini. Cam enim
+<lb ed="#Ba" n="26"/>ly es¢ sit verbum substantivum, et 
+signi<lb break="no" ed="#Ba" n="27"/>licet substantiam : videtur potius sequi
+<lb ed="#Ba" n="28"/>humerum essentiae, quam numerum
+<lb ed="#Ba" n="29"/>personarum : et ita dicendum erat, quod
+<lb ed="#Ba" n="30"/>Pater et Filius unum est.
+</p>
+            <p xml:id="alalal-a12092-d1e149">
+               <lb ed="#Ba" n="31"/>Solutio. Dicendum, quod licet ly est
+<lb ed="#Ba" n="32"/>significet substantiam, tamen signat eam
+<lb ed="#Ba" n="33"/>ut actum, et per consequens ut in aliquo
+<lb ed="#Ba" n="34"/>supposito quod reddit sibi personam :
+<lb ed="#Ba" n="35"/>etcum verbum numerum accipiat a 
+sub<lb break="no" ed="#Ba" n="36"/>stantia supponente sibi, numerato illo
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="37"/>supposito, necesse est intelligi numerari
+<lb ed="#Ba" n="38"/>actum : et ila verbum necesse est poni
+<lb ed="#Ba" n="39"/>in numero plurali: et ideo melius 
+dici<lb break="no" ed="#Ba" n="40"/>tur, unum sunt, quam, unum est. 
+Ob<lb break="no" ed="#Ba" n="41"/>jectio autem procedit de substantia 
+sig<lb break="no" ed="#Ba" n="42"/>nificata, ut in quiete, sicut nominaliter
+<lb ed="#Ba" n="43"/>significatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

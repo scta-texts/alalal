@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="370"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e70585"><!-- l3d20a12 -->
+            <head xml:id="alalal-e70585-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-e70585-Hd1e101" type="question-title">Utrum passio Christi potest dici bona
+et mala ex diversis circumstantiis ?</head>
+            <p xml:id="alalal-e70585-d1e104">
+               <lb ed="Bd" n="16"/>ARTICULUS XII.
+<lb ed="Bd" n="17"/>Utrum passio Christi potest dici bona
+<lb ed="Bd" n="18"/>et mala ex diversis circumstantiis ?
+</p>
+            <p xml:id="alalal-e70585-d1e113">
+               <lb ed="Bd" n="19"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="20"/>ibi, G, circa medium <quote xml:id="alalal-e70585-Qd1e119"> Respicientes
+<lb ed="Bd" n="21"/>enim ad passionem, unum opus illorum
+<lb ed="Bd" n="22"/>dicunt, etc. </quote>
+            </p>
+            <p xml:id="alalal-e70585-d1e127">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="23"/>Videtur esse impossibile : quia
+<lb ed="Bd" n="24"/>1. In natura non potest una materia
+<lb ed="Bd" n="25"/>simul habere diversas formas et contra~
+<lb ed="Bd" n="26"/>rias : ergo et in motibus unum opus non
+<lb ed="Bd" n="27"/>potest informari diversis et contrariis 
+cir<lb break="no" ed="Bd" n="28"/>cumstantiis.
+</p>
+            <p xml:id="alalal-e70585-d1e146">
+               <lb ed="Bd" n="29"/>2. Item, Secundum hoc unum et idem
+<lb ed="Bd" n="30"/>essel optimum et pessimum : opus enim
+<lb ed="Bd" n="31"/>Patris et Christi non potest esse nisi 
+op<lb break="no" ed="Bd" n="32"/>timum, opus autem Jude et Judaeorum
+<lb ed="Bd" n="33"/>non potuit esse nisi pessimum in hoc
+<lb ed="Bd" n="34"/>facto.
+</p>
+            <p xml:id="alalal-e70585-d1e162">
+               <lb ed="Bd" n="35"/>Solutio Distinguendum est, quod est
+<lb ed="Bd" n="36"/>opus operans quod est operatio ipsa, actio
+<lb ed="Bd" n="37"/>scilicet prout est ab agente, et in ipso ut
+<lb ed="Bd" n="38"/>in subjecto : et est opus operatum, 
+scili<lb break="no" ed="Bd" n="39"/>cet res constituta et effecta per 
+operatio<lb break="no" ed="Bd" n="40"/>nem et actionem : et quod dicit Magister,
+<lb ed="Bd" n="41"/>intelligitur de opere operato, et non de
+<lb ed="Bd" n="42"/>opere operante quod’pessimum fuit. 
+Cir<lb break="no" ed="Bd" n="43"/>ca idem autem operatum possunt 
+concur<lb break="no" ed="Bd" n="44"/>rere diverse voluntates et operationes
+<lb ed="Bd" n="45"/>bone et male : hoc enim non est 
+incon<lb break="no" ed="Bd" n="46"/>veniens, quia circumstantiae non 
+referun<lb break="no" ed="Bd" n="47"/>tur ad opus operatum, sed ad opus 
+ope<lb break="no" ed="Bd" n="48"/>rans : et ideo non ponuntur contrarie
+<lb ed="Bd" n="49"/>forme in eodem.
+</p>
+            <p xml:id="alalal-e70585-d1e197">
+               <lb ed="Bd" n="50"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

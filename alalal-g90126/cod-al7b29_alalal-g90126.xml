@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 17</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 17</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="433"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g90126"><!-- l4d14a17 -->
+            <head xml:id="alalal-g90126-Hd1e99">Articulus 17</head>
+            <head xml:id="alalal-g90126-Hd1e101" type="question-title">An velle non peccare aut cessare a 
+peccato sit vera paenitentia ?</head>
+            <p xml:id="alalal-g90126-d1e104">
+               <lb ed="#Be" n="28"/>ARTICULUS XVII.
+<lb ed="#Be" n="29"/>An velle non peccare aut cessare a 
+pec<lb break="no" ed="#Be" n="30"/>cato sit vera paenitentia ?
+</p>
+            <p xml:id="alalal-g90126-d1e113">
+               <lb ed="#Be" n="31"/>Deinde queritur de hoc quod dicit in
+<lb ed="#Be" n="32"/>principio secunde partis in solutione
+<lb ed="#Be" n="33"/>sua, ibi, A, § 4: <quote xml:id="alalal-g90126-Qd1e121"> Sed Ambrosius 
+di<lb break="no" ed="#Be" n="34"/>cit: Haec vera poenitentia est, cessare a
+<lb ed="#Be" n="35"/>peccate. </quote>
+            </p>
+            <p xml:id="alalal-g90126-d1e129">
+               <lb ed="#Be" n="36"/>Videtur enim hoc esse falsum : quia
+<lb ed="#Be" n="37"/>1. Cessare a peccato pura est privatio :
+<lb ed="#Be" n="38"/>et poenitentiam agere est aliquid agere:
+<lb ed="#Be" n="39"/>ergo cessare a peccato non est vera 
+poe<lb break="no" ed="#Be" n="40"/>nitentia.
+</p>
+            <p xml:id="alalal-g90126-d1e143">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="41"/>2. Si forte dicas, quod cessare a 
+pecca<lb break="no" ed="#Be" n="42"/>to ponit actum interiorem anime, licet
+<lb ed="#Be" n="43"/>privet actum exteriorem, sicut dicunt
+<lb ed="#Be" n="44"/>Doctores de praeceptis negativis. Unde
+<lb ed="#Be" n="45"/>sensus est, cessare a peccato, id est,
+<lb ed="#Be" n="46"/>velle non peccare. Adhuc falsum videtur
+<lb ed="#Be" n="47"/>quod dicunt : quia, sicut supra habitum
+<lb ed="#Be" n="48"/>est, poenitentia totam essentiam habet
+<lb ed="#Be" n="49"/>respectu preteriti peccati : voluntas 
+au<lb break="no" ed="#Be" n="50"/>tem non peccandi et respectu peccati 
+fu<lb break="no" ed="#Be" n="51"/>turi : ergo voluntas non peccandi non
+<lb ed="#Be" n="52"/>est vera pceenitentia : ergo mec cessare a
+<lb ed="#Be" n="53"/>peccato, ut videtur.
+</p>
+            <p xml:id="alalal-g90126-d1e176">
+               <lb ed="#Be" n="54"/>Solutio. Dicendum, quod si fiat vis
+<lb ed="#Be" n="55"/>in verbo Ambrosii, optimum est 
+ver<lb break="no" ed="#Be" n="56"/>bum et subtile : quia non. cessat a 
+pec<lb break="no" ed="#Be" n="57"/>cato, qui peccat : unde qui omittit, non
+<lb ed="#Be" n="58"/>cessat a peccato. Item, qui transgreditur,
+<lb ed="#Be" n="59"/>non cessat a peccato. Est autem 
+prece<lb break="no" ed="#Be" n="60"/>ptum affirmativum ut poeniteamus, sicut
+<lb ed="#Be" n="61"/>habemus, Marci, 1, 4, et Matth. ut, 2!:
+<lb ed="#Be" n="62"/>et licet hoc non obliget ad semper, 
+ta<lb break="no" ed="#Be" n="63"/>men tunc obligat, quando homo peccavit,
+<lb ed="#Be" n="64"/>et de peccato recordatur : ergo si tunc
+<lb ed="#Be" n="65"/>non poenitet, non cessat a peccato: quia
+<lb ed="#Be" n="66"/>non facit quod debet.
+</p>
+            <p xml:id="alalal-g90126-d1e207">
+               <lb ed="#Be" n="67"/>Item, Preceptum negativum est, non
+<lb ed="#Be" n="68"/>peccare, non velle peccare, nec in 
+pre<lb break="no" ed="#Be" n="69"/>terito nec in futuro: et ex hoc 
+obliga<lb break="no" ed="#Be" n="70"/>tur omnis homo semper velle non 
+pec<lb break="no" ed="#Be" n="71"/>casse, et ad velle non peccare: et si
+<lb ed="#Be" n="72"/>faciat contrarium, tunc non cessat a 
+pec<lb break="no" ed="#Be" n="73"/>cato.
+</p>
+            <p xml:id="alalal-g90126-d1e225">
+               <lb ed="#Be" n="74"/>Patet igitur, quod.cessare a peccato,
+<lb ed="#Be" n="75"/>importat poenitere, et velle non peccasse,
+<lb ed="#Be" n="76"/>et velle non peccare : et hac sunt quae
+<lb ed="#Be" n="77"/>exiguntur in poenitentia.
+</p>
+            <p xml:id="alalal-g90126-d1e236">
+               <lb ed="#Be" n="78"/>Et per hoc patet solutio ad utrumque
+<lb ed="#Be" n="79"/>objectorum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

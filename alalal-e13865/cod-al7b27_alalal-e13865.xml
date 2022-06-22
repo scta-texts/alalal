@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="670"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e13865"><!-- l2d43a1 -->
+            <head xml:id="alalal-e13865-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-e13865-Hd1e101" type="question-title">Quid sit esse peccatum in Spiritum
+sanctum ?</head>
+            <p xml:id="alalal-e13865-d1e104">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="38"/>ARTICULUS TI.
+<lb ed="#Bc" n="39"/>Quid sit esse peccatum in Spiritum
+<lb ed="#Bc" n="40"/>sanctum ?
+</p>
+            <p xml:id="alalal-e13865-d1e115">
+               <lb ed="#Bc" n="41"/>Incidunt autem circa primam. partem
+<lb ed="#Bc" n="42"/>hic tria inquirenda, quorum primum est,
+<lb ed="#Bc" n="43"/>Quid sit esse peccatum in Spiritum 
+san<lb break="no" ed="#Bc" n="44"/>ctum ?
+<lb ed="#Bc" n="45"/>Secundum, Quare peccatum in 
+Spiri<lb break="no" ed="#Bc" n="46"/>tum sanctum dicatur ad mortem?
+<lb ed="#Bc" n="47"/>Tertium, Utrum sit peccatum speciale
+<lb ed="#Bc" n="48"/>separatum ab aliis, vel sit conjunctum
+<lb ed="#Bc" n="49"/>peccatis aliis ut circumstantia peccati vel
+<lb ed="#Bc" n="50"/>accidens ejus? .
+</p>
+            <p xml:id="alalal-e13865-d1e139">
+               <lb ed="#Bc" n="51"/>Ap primum proceditur sic :
+<lb ed="#Bc" n="52"/>1. Omne peccatum est contra gratiam
+<lb ed="#Bc" n="53"/>que est. effectus Spiritus sancti : cum
+<lb ed="#Bc" n="54"/>igitur hoc sit esse peccatum in Spiritum
+<lb ed="#Bc" n="55"/>sanctum, quod est contra attributum
+<lb ed="#Bc" n="56"/>Spiritus sancti, videtur quod omne 
+pec<lb break="no" ed="#Bc" n="57"/>catum sit in Spiritum sanctum.
+</p>
+            <p xml:id="alalal-e13865-d1e158">
+               <lb ed="#Bc" n="58"/>2. Item, Omne malum opponitur 
+bo<lb break="no" ed="#Bc" n="59"/>nitati : sed malitia est in omni peccato.
+<lb ed="#Bc" n="60"/>mortali: ergo omne mortale opponitur
+<lb ed="#Bc" n="61"/>bonitati : sed peccatum in Spiritum 
+san<lb break="no" ed="#Bc" n="62"/>ctum dicitur, eo quod opponitur bonitati
+<lb ed="#Bc" n="63"/>Spiritus sancti : ergo omne peccatum
+<lb ed="#Bc" n="64"/>mortale est peccatum in Spiritum 
+san<lb break="no" ed="#Bc" n="65"/>ctum.
+</p>
+            <p xml:id="alalal-e13865-d1e178">
+               <pb ed="#Bc" n="671"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>3. Preeterea, Videtur potius peccatum
+<lb ed="#Bc" n="2"/>esse in Spiritum sanctum, in quo male
+<lb ed="#Bc" n="3"/>sentitur de Spiritu sancto, sicut Eutyches
+<lb ed="#Bc" n="4"/>qui dicebat Spiritum sanctum esse 
+ser<lb break="no" ed="#Bc" n="5"/>vum : ergo videtur, quod peccatum in
+<lb ed="#Bc" n="6"/>Spiritum sanctum sit peccatum  
+proce<lb break="no" ed="#Bc" n="7"/>dens ex errore contra Spiritum sanctum.
+<lb ed="#Bc" n="8"/>Si autem hoc concedatur. Contra : Peé-
+<lb ed="#Bc" n="9"/>catum procedens ex ignorantia, est 
+pec<lb break="no" ed="#Bc" n="10"/>catum in Filium : sed peccatum de quo
+<lb ed="#Bc" n="11"/>male sentitur de Spiritu sancto, est
+<lb ed="#Bc" n="12"/>peccatum procedens ex ignorantia: ergo
+<lb ed="#Bc" n="13"/>est peccatum in Filium : non ergo est in
+<lb ed="#Bc" n="14"/>Spiritum sanctum,
+</p>
+            <p xml:id="alalal-e13865-d1e215">
+               <lb ed="#Bc" n="15"/>4, Item, Videtur quod nullum 
+pecca<lb break="no" ed="#Bc" n="16"/>tum sit in Spiritum sanctum : quia 
+om<lb break="no" ed="#Bc" n="17"/>ne peccatum nascitur ex infirmitate et
+<lb ed="#Bc" n="18"/>corruptione nature : ergo omne 
+pecca<lb break="no" ed="#Bc" n="19"/>tum est ex infirmitate : hoc autem est
+<lb ed="#Bc" n="20"/>peccare in Patrem : ergo omne peccatum
+<lb ed="#Bc" n="21"/>est in Patrem : ergo videtur, quod 
+nul<lb break="no" ed="#Bc" n="22"/>lum peccatum sit in Spiritum 
+san<lb break="no" ed="#Bc" n="23"/>ctum.
+</p>
+            <p xml:id="alalal-e13865-d1e237">
+               <lb ed="#Bc" n="24"/>5. Item, Videtur quod omne_ 
+pecca<lb break="no" ed="#Bc" n="25"/>tum sit in Filium : quia dicit 
+Philoso<lb break="no" ed="#Bc" n="26"/>phus, quod omnis malus est ignorans :
+<lb ed="#Bc" n="27"/>ergo peccatum est ex ignorantia : hoc
+<lb ed="#Bc" n="28"/>autem est peccare in Filium : ergo omne
+<lb ed="#Bc" n="29"/>peccatum est in Filium : ergo nullum
+<lb ed="#Bc" n="30"/>peccatum est in Spiritum sanctum.
+</p>
+            <p xml:id="alalal-e13865-d1e255">
+               <lb ed="#Bc" n="31"/>6. Item, Videtur quod qui peccat in
+<lb ed="#Bc" n="32"/>unum, peccat in alium : quia sicut una
+<lb ed="#Bc" n="33"/>substantia est trium, ita una offensa
+<lb ed="#Bc" n="34"/>trium : ergo qui peccat in unum, peccat
+<lb ed="#Bc" n="35"/>etiam in alium.
+</p>
+            <p xml:id="alalal-e13865-d1e268">
+               <lb ed="#Bc" n="36"/>7. Item, Una est bonitas trium :-ergo
+<lb ed="#Bc" n="37"/>qui peccat in unum, peccat in alium :
+<lb ed="#Bc" n="38"/>ergo peccare contra bonitatem, est 
+pec<lb break="no" ed="#Bc" n="39"/>care contra tres personas aequaliter : ergo
+<lb ed="#Bc" n="40"/>peccare in bonitatem, est peccare contra
+<lb ed="#Bc" n="41"/>tres personas. .
+</p>
+            <p xml:id="alalal-e13865-d1e285">
+               <lb ed="#Bc" n="42"/>8. Item, Majorem unionem habent
+<lb ed="#Bc" n="43"/>tres persone quam virtutes cum 
+chari<lb break="no" ed="#Bc" n="44"/>tate : sed propter unionem virtutis cum
+<lb ed="#Bc" n="45"/>charitate, qui offendit in uno, factus est
+<lb ed="#Bc" n="46"/>omnium reus '.; ergo multo magis prop-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="47"/>ter unionem personarum ad invicem, 
+pec<lb break="no" ed="#Bc" n="48"/>cans in unam, peccat contra omnes.
+</p>
+            <p xml:id="alalal-e13865-d1e305">
+               <lb ed="#Bc" n="49"/>Si autem hoc concedatur, in 
+contra<lb break="no" ed="#Bc" n="50"/>rium erit quod dicitur in Liétera.
+</p>
+            <p xml:id="alalal-e13865-d1e312">
+               <lb ed="#Bc" n="51"/>Solutio. Dicendum, quod peccatum
+<lb ed="#Bc" n="52"/>quoddam nomine suo exprimit tantam
+<lb ed="#Bc" n="53"/>peccatum : et quoddam peccatum 
+no<lb break="no" ed="#Bc" n="54"/>mine suo exprimit peccatum, et causam
+<lb ed="#Bc" n="55"/>peccati. Exemplum primi est fornicatio,
+<lb ed="#Bc" n="56"/>que non nominat nisi actum illicitum
+<lb ed="#Bc" n="57"/>vel coitum soluti cum soluta. Quoddam
+<lb ed="#Bc" n="58"/>autem peccatum nominat simul causam
+<lb ed="#Bc" n="59"/>moventem ex parte peccantis, ut 
+pecca<lb break="no" ed="#Bc" n="60"/>tum in Patrem, et peccatum in Filium,
+<lb ed="#Bc" n="61"/>et peccatum in Spiritum sanctum : illud
+<lb ed="#Bc" n="62"/>enim dicit peccatum, et causam 
+moven<lb break="no" ed="#Bc" n="63"/>tem, quae est infirmitas, vel ignorantia,
+<lb ed="#Bc" n="64"/>vel malitia. Est autem tertius modus.
+<lb ed="#Bc" n="65"/>appellationis, quando nomen peccati 
+ex<lb break="no" ed="#Bc" n="66"/>primit et actum peccati, et 
+circumstan<lb break="no" ed="#Bc" n="67"/>tiam, ut incestus, vel defloratio, vel 
+sa<lb break="no" ed="#Bc" n="68"/>crilegium, vel hujusmodi : sed ad 
+pro<lb break="no" ed="#Bc" n="69"/>positum hoc non facit ille modus.
+</p>
+            <p xml:id="alalal-e13865-d1e356">
+               <lb ed="#Bc" n="70"/>Ap primum. ergo dicendum, quod pec~
+<lb ed="#Bc" n="71"/>catum in Spiritum sanctum dicitur 
+du<lb break="no" ed="#Bc" n="72"/>pliciter, scilicet ab objecto circa quod est
+<lb ed="#Bc" n="73"/>peccatum, et a causa movente ad 
+pecca<lb break="no" ed="#Bc" n="74"/>tum. Ab objecto, quando scilicet est
+<lb ed="#Bc" n="75"/>contra personam Spiritus sancti, sicut
+<lb ed="#Bc" n="76"/>etiam multi peccant contra personam 
+Fi<lb break="no" ed="#Bc" n="77"/>lii, et pauciores contra personam Patris.
+<lb ed="#Bc" n="78"/>Sed non ita accipitur hic peccatum in
+<lb ed="#Bc" n="79"/>Spiritum sanctum : sed potius in causa
+<lb ed="#Bc" n="80"/>movente ad peccatum, habet 
+contrarieta<lb break="no" ed="#Bc" n="81"/>tem ad bonitatem Spiritus, sicut 
+pecca<lb break="no" ed="#Bc" n="82"/>tum ex malitia contrariatur bonitati 
+Spi<lb break="no" ed="#Bc" n="83"/>ritus sancti, in qua remittuntur peccata
+<lb ed="#Bc" n="84"/>in Ecclesia. Et per hoc patet, quod non
+<lb ed="#Bc" n="85"/>omne peccatum est in Spiritum sanctum,
+<lb ed="#Bc" n="86"/>quia non habet talem causam 
+moven<lb break="no" ed="#Bc" n="87"/>tem : sed omne peccatum privat gratia
+<lb ed="#Bc" n="88"/>per contrarietatem quam habet ad 
+gra<lb break="no" ed="#Bc" n="89"/>tiam :. tamen causa movens ad 
+pecca<lb break="no" ed="#Bc" n="90"/>tum, bonitati Spiritus sancti in qua 
+re<lb break="no" ed="#Bc" n="91"/>mittit peccata, non contrariatur.
+</p>
+            <p xml:id="alalal-e13865-d1e406">
+               <pb ed="#Bc" n="672"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Per hoc patet solutio ad secundum.
+</p>
+            <p xml:id="alalal-e13865-d1e415">
+               <lb ed="#Bc" n="2"/>Ap tertium dicendum, quod hoc est
+<lb ed="#Bc" n="3"/>peceatum in Spiritum sanctum primo
+<lb ed="#Bc" n="4"/>modo dictum : et sic non tractatur hic de
+<lb ed="#Bc" n="5"/>peccato in Spiritum sanctum: hoc enim
+<lb ed="#Bc" n="6"/>modo dicitur peccatum in Spiritum 
+san<lb break="no" ed="#Bc" n="7"/>clum, sicut peccatum in hominem, vel
+<lb ed="#Bc" n="8"/>in se, velin Deum.
+</p>
+            <p xml:id="alalal-e13865-d1e434">
+               <lb ed="#Bc" n="9"/>Ad aliud dicendum, quod aliud est
+<lb ed="#Bc" n="10"/>esse peccatum ex infirmitate, et aliud
+<lb ed="#Bc" n="11"/>cum infirmitate corruptionis unde trahit
+<lb ed="#Bc" n="12"/>originem., Cum enim dicitur esse ex 
+in<lb break="no" ed="#Bc" n="13"/>firmitate : tune intelligitur infirmitas
+ <lb ed="#Bc" n="14"/>esse causa movens: sicut quando quis
+<lb ed="#Bc" n="15"/>blasphemat metu poenarum, vel peccat
+<lb ed="#Bc" n="16"/>metu paupertatis : et hoc vocatur 
+pro<lb break="no" ed="#Bc" n="17"/>prie peccatum in Patrem. Sed non 
+om<lb break="no" ed="#Bc" n="18"/>ne peccatum procedit ex tali motivo, sed
+<lb ed="#Bc" n="19"/>quandoque non movet nisi malitia et 
+in<lb break="no" ed="#Bc" n="20"/>dustria peccati, Dicitur etiam peccatum
+<lb ed="#Bc" n="21"/>cum infirmitate corruptionis ex qua 
+ori<lb break="no" ed="#Bc" n="22"/>tur tentatio peccati, et sie post statum
+<lb ed="#Bc" n="23"/>corruptionis omne peccatum est ex 
+infir<lb break="no" ed="#Bc" n="24"/>mitate : sed tune preepositio ex non notat
+<lb ed="#Bc" n="25"/>causam moventem proxime ad actum,
+<lb ed="#Bc" n="26"/>sed remotam : quia scilicet infirmitas
+<lb ed="#Bc" n="27"/>corruptionis est origo unde statuitur et
+<lb ed="#Bc" n="28"/>oritur omnis peccati tentatio : et hee
+<lb ed="#Bc" n="29"/>infirmitas admittit aliam causam 
+moven<lb break="no" ed="#Bc" n="30"/>tem proxime, quae est malitia propter
+<lb ed="#Bc" n="31"/>quam dicetur i Sprritum sanctum.
+</p>
+            <p xml:id="alalal-e13865-d1e486">
+               <lb ed="#Bc" n="32"/>Ad aliud dicendum, quod 
+Philoso<lb break="no" ed="#Bc" n="33"/>phus loquitur de ignorantia quae est 
+pri<lb break="no" ed="#Bc" n="34"/>vatio scientie, non cujuscumque, sed
+<lb ed="#Bc" n="35"/>illius quae dicitur scientia approbationis,
+<lb ed="#Bc" n="36"/>quando scilicet in operibus bonum non
+<lb ed="#Bc" n="37"/>approbatur : et illa scientia privatur in
+<lb ed="#Bc" n="38"/>actu omnis malus. Sed illa ignorantia
+<lb ed="#Bc" n="39"/>non facit peccatum in Filium, sed potius
+<lb ed="#Bc" n="40"/>illa quae absolutam vel secundum quid
+<lb ed="#Bc" n="41"/>dicit privationem scientiae regentis in
+<lb ed="#Bc" n="42"/>operibus, propter quam excusabilis fit
+<lb ed="#Bc" n="43"/>culpa commissa vel in toto vel in tanto.
+</p>
+            <p xml:id="alalal-e13865-d1e515">
+               <lb ed="#Bc" n="44"/>Ad aliud dicendum, quod licet tres
+<lb ed="#Bc" n="45"/>persone conveniant et sint unum in 
+sub<lb break="no" ed="#Bc" n="46"/>jecto, non tamen conveniunt et unum
+<lb ed="#Bc" n="47"/>sunt in propriis : et quoad propria potest
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="48"/>aliquid esse uni contrarium, quod non
+<lb ed="#Bc" n="49"/>erit contra alium.
+</p>
+            <p xml:id="alalal-e13865-d1e533">
+               <lb ed="#Bc" n="50"/>Item, Medium quoad modum 
+intelli<lb break="no" ed="#Bc" n="51"/>gendi inter substantialia et notionalia
+<lb ed="#Bc" n="52"/>sunt appropriata : et haec considerantur
+<lb ed="#Bc" n="53"/>dupliciter, scilicet secundum id quod
+<lb ed="#Bc" n="54"/>sunt, et sic dicunt substantiam : et 
+se<lb break="no" ed="#Bc" n="55"/>cundum appropriata, et sic non 
+cogno<lb break="no" ed="#Bc" n="56"/>scuntur nisi ex ratione propriorum : et
+<lb ed="#Bc" n="57"/>quoad hoc aliquid potest esse contra
+<lb ed="#Bc" n="58"/>appropriatum unius persone, quod non
+<lb ed="#Bc" n="59"/>contingit contra appropriatum alterius
+<lb ed="#Bc" n="60"/>persone : et hoc modo loquimur hic.
+<lb ed="#Bc" n="61"/>Unde licet una sit offensa, non tamen
+<lb ed="#Bc" n="62"/>causa offense unam habet oppositionem
+<lb ed="#Bc" n="63"/>ad appropriata personarum, in quantum
+<lb ed="#Bc" n="64"/>sunt appropriata.
+</p>
+            <p xml:id="alalal-e13865-d1e568">
+               <lb ed="#Bc" n="65"/>Ad aliud dicendum, quod una est 
+bo<lb break="no" ed="#Bc" n="66"/>nitas trium, in quantum bonitas 
+consi<lb break="no" ed="#Bc" n="67"/>deratur secundum se et substantialiter :
+<lb ed="#Bc" n="68"/>sed si consideretur sub ratione 
+appro<lb break="no" ed="#Bc" n="69"/>priati, tune accipit rationem specialem
+<lb ed="#Bc" n="70"/>que attribuilur Spiritui sancto : et hoe
+<lb ed="#Bc" n="71"/>modo est peccatum in Spiritum sanctum
+<lb ed="#Bc" n="72"/>quoad causam moventem quae 
+contraria<lb break="no" ed="#Bc" n="73"/>tur el.
+</p>
+            <p xml:id="alalal-e13865-d1e590">
+               <lb ed="#Bc" n="74"/>Ad aliud dicendum, quod per 
+offen<lb break="no" ed="#Bc" n="75"/>sam est contra omnes: sed sicut est in
+<lb ed="#Bc" n="76"/>peccato, quod per rationem malitie 
+pri<lb break="no" ed="#Bc" n="77"/>vat omni virtute, et tamen per rationem
+<lb ed="#Bc" n="78"/>actus non contrariatur nisi uni: ita est
+<lb ed="#Bc" n="79"/>de peccato in Spiritum sanctum, scilicet
+<lb ed="#Bc" n="80"/>quod per offensam est contra tres 
+perso<lb break="no" ed="#Bc" n="81"/>nas, tamen per causam moventem non
+<lb ed="#Bc" n="82"/>contrariatur nisi attributo Spiritus 
+san<lb break="no" ed="#Bc" n="83"/>cti.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

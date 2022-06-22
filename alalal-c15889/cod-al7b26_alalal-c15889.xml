@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="85"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c15889"><!-- l1d29a9 -->
+            <head xml:id="alalal-c15889-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-c15889-Hd1e101" type="question-title">Quare a quinario notionum Deus non
+dicitur quinus ?</head>
+            <p xml:id="alalal-c15889-d1e104">
+               <lb ed="#Bb" n="7"/>ARTICULUS IX.
+<lb ed="#Bb" n="8"/>Quare a quinario notionum Deus non
+<lb ed="#Bb" n="9"/>dicitur quinus ?
+</p>
+            <p xml:id="alalal-c15889-d1e113">
+               <lb ed="#Bb" n="10"/>Secundo queritur, Quare a quinario
+<lb ed="#Bb" n="11"/>notionum Deus non dicatur guinus ?
+</p>
+            <p xml:id="alalal-c15889-d1e120">
+               <lb ed="#Bb" n="12"/>Videtur, quod sic esse debeat : quia
+<lb ed="#Bb" n="13"/>1. Sicut se habet 
+numerus_persona<lb break="no" ed="#Bb" n="14"/>rum ad essentiam, ita numerus 
+notio<lb break="no" ed="#Bb" n="15"/>num ad personam : sed unitas essentia
+<lb ed="#Bb" n="16"/>non excludit quin dicatur Deus trinus
+<lb ed="#Bb" n="17"/>propter tres personas : ergo unitas 
+per<lb break="no" ed="#Bb" n="18"/>sone Patris non excludit quin persona
+<lb ed="#Bb" n="19"/>Patris dicatur trina, et persona Filii 
+bi<lb break="no" ed="#Bb" n="20"/>na, et Deus quinus.
+</p>
+            <p xml:id="alalal-c15889-d1e143">
+               <lb ed="#Bb" n="21"/>2. Item, Quinque notiones sunt : ergo
+<lb ed="#Bb" n="22"/>quinarius notionum est: et est etiam
+<lb ed="#Bb" n="23"/>unitas essentiae. Cum igitur unitas 
+essen<lb break="no" ed="#Bb" n="24"/>tiw et ternarius personarum  sufficiant
+<lb ed="#Bb" n="25"/>ad rationem trini, unitas eadem cum
+<lb ed="#Bb" n="26"/>quinario notionum sufficiet ad 
+ratio<lb break="no" ed="#Bb" n="27"/>nem quini.
+</p>
+            <p xml:id="alalal-c15889-d1e161">
+               <lb ed="#Bb" n="28"/>3. Item, Bene sequitur, quinarius 
+lapi<lb break="no" ed="#Bb" n="29"/>dum est: ergo quinque lapides sunt.
+<lb ed="#Bb" n="30"/>Ergo similiter sequi videtur, quinarius
+<lb ed="#Bb" n="31"/>notionum in divinis est : ergo quinque
+<lb ed="#Bb" n="32"/>noti sunt : sed quinque noti sunt 
+quin<lb break="no" ed="#Bb" n="33"/>que persone: ergo quinque persone
+<lb ed="#Bb" n="34"/>sunt in divinis.
+</p>
+            <p xml:id="alalal-c15889-d1e179">
+               <lb ed="#Bb" n="35"/>4. Item, Nihil est numerabile in 
+divi<lb break="no" ed="#Bb" n="36"/>nis, nisi quod consistit in pluralitate :
+<lb ed="#Bb" n="37"/>sed id quod est absolutum, non 
+con<lb break="no" ed="#Bb" n="38"/>sistit in pluralitate : ergo solum 
+numera<lb break="no" ed="#Bb" n="39"/>tur quod est ad alterum : hoc autem sola
+<lb ed="#Bb" n="40"/>notio est : ergo sole notiones 
+numeran<lb break="no" ed="#Bb" n="41"/>tur : ergo videtur, quod magis dici
+<lb ed="#Bb" n="42"/>debeat quinus, quam trinus.
+</p>
+            <p xml:id="alalal-c15889-d1e199">
+               <lb ed="#Bb" n="43"/>Solutio. Dicendum, quod in nulla
+<lb ed="#Bb" n="44"/>natura numerum simpliciter qui est 
+sup<lb break="no" ed="#Bb" n="45"/>positorum, facit proprietas ut proprietas
+<lb ed="#Bb" n="46"/>est, nisi effective constituendo personas :
+<lb ed="#Bb" n="47"/>et hoc non facit nisi proprietas 
+persona<lb break="no" ed="#Bb" n="48"/>lis: et ideo tres proprietates in divinis
+<lb ed="#Bb" n="49"/>tantum faciunt numerum : et tres 
+hy<lb break="no" ed="#Bb" n="50"/>postases sunt numeratae eo modo quo
+<lb ed="#Bb" n="51"/>numerus potest esse in divinis.
+</p>
+            <p xml:id="alalal-c15889-d1e221">
+               <lb ed="#Bb" n="52"/>Ad PRIMUM autem respondent quidam,
+<lb ed="#Bb" n="53"/>quod innascibilitas et principium sunt
+<lb ed="#Bb" n="54"/>quasi paternitatis partes, et sunt unum
+<lb ed="#Bb" n="55"/>in Patre. Et hoc absurdum est, quod una
+<lb ed="#Bb" n="56"/>notio sit alterius pars, cum mnumerus
+<lb ed="#Bb" n="57"/>earum accipiatur a modis innotescendi,
+<lb ed="#Bb" n="58"/>vel referendi, ut supra est habitum. 
+Li<lb break="no" ed="#Bb" n="59"/>cet autem omnes quinque notiones in
+<lb ed="#Bb" n="60"/>essentia unum sint quod est essentia,
+<lb ed="#Bb" n="61"/>non tamen sunt una notio: unde hoc
+<lb ed="#Bb" n="62"/>nihil est. Sed dicendum, quod distincte
+<lb ed="#Bb" n="63"/>sunt notiones : tamen non ab eis dicitur
+<lb ed="#Bb" n="64"/>persona trina, vel bina: quia notio
+<lb ed="#Bb" n="65"/>non facit numerum nisi sit personalis,
+<lb ed="#Bb" n="66"/>et non numeratur, sed potius hypostasis :
+<lb ed="#Bb" n="67"/>et ideo numerus notionis minus habet de
+<lb ed="#Bb" n="68"/>ratione numeri, quam personarum.
+</p>
+            <p xml:id="alalal-c15889-d1e260">
+               <lb ed="#Bb" n="69"/>Av aLiup dicendum, quod quinque 
+no<lb break="no" ed="#Bb" n="70"/>tiones non faciunt quinque personas
+<lb ed="#Bb" n="71"/>quas competit numerari sub essentia :
+<lb ed="#Bb" n="72"/>quia notio non dicit existens per se 
+perfe<lb break="no" ed="#Bb" n="73"/>ctum, et in se distinctum, sicut persona,
+<lb ed="#Bb" n="74"/>sed potius dicit existens in alio 
+secun<lb break="no" ed="#Bb" n="75"/>dum modum, quo illud in quo est, 
+inno<lb break="no" ed="#Bb" n="76"/>nescit : et tales multi modi possunt 
+con<lb break="no" ed="#Bb" n="77"/>venire uni supposito.
+</p>
+            <p xml:id="alalal-c15889-d1e283">
+               <lb ed="#Bb" n="78"/>Ad aliud dicendum, quod non 
+sequi<lb break="no" ed="#Bb" n="79"/>tur : sicut non sequitur, quinarius 
+mo<lb break="no" ed="#Bb" n="80"/>dorum innotescendi lapides est : ergo
+<lb ed="#Bb" n="81"/>quinque lapides sunt. Nec sequitur, 
+quin<lb break="no" ed="#Bb" n="82"/>que sunt modi quibus iste innotescit vel
+<lb ed="#Bb" n="83"/>refertur : ergo quinque noti sunt: quia
+<lb ed="#Bb" n="84"/>multis modis potest unum et idem 
+co<lb break="no" ed="#Bb" n="85"/>gnosci et referri.
+</p>
+            <p xml:id="alalal-c15889-d1e303">
+               <lb ed="#Bb" n="86"/>Ad uLTimum dicendum, quod procedit
+<lb ed="#Bb" n="87"/>ex falsis : quia hypostasis quae non est
+<lb ed="#Bb" n="88"/>absolutum, enumeratur in divinis : et
+<lb ed="#Bb" n="89"/>huic numerus attribuitur proprie, et non
+<lb ed="#Bb" n="90"/>proprietati, vel notioni,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

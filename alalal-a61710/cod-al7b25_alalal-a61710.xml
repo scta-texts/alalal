@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="309"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a61710"><!-- l1d10a2 -->
+            <head xml:id="alalal-a61710-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-a61710-Hd1e101" type="question-title">Utrum Spiritus sanctus procedit ut
+amor, et utrum charitas in homine
+et Angelo sit habitus voluntatis ?</head>
+            <p xml:id="alalal-a61710-d1e104">
+               <lb ed="#Ba" n="26"/>ARTICULUS II.
+<lb ed="#Ba" n="27"/>Utrum Spiritus sanctus procedit ut
+<lb ed="#Ba" n="28"/>amor, et utrum charitas in homine
+<lb ed="#Ba" n="29"/>et Angelo sit habitus voluntatis ?
+</p>
+            <p xml:id="alalal-a61710-d1e115">
+               <lb ed="#Ba" n="30"/>Secundo quaeritur, Utram Spiritus
+<lb ed="#Ba" n="31"/>sanctus procedat ut amor? Et videtur
+<lb ed="#Ba" n="32"/>multiplici ratione, quod non.
+</p>
+            <p xml:id="alalal-a61710-d1e124">
+               <lb ed="#Ba" n="33"/>1. Primo sic: Omne nomen quod non
+<lb ed="#Ba" n="34"/>nominat ut distinctum ens, sed ut in alio,
+<lb ed="#Ba" n="35"/>non convenit persone per se existenti:
+<lb ed="#Ba" n="36"/>amor autem id quod nominag, dicit ut in
+<lb ed="#Ba" n="37"/>aliquo existere : ergo non competit 
+per<lb break="no" ed="#Ba" n="38"/>son# per se existenti perfecte : Spiritus
+<lb ed="#Ba" n="39"/>sanctus est persona per se perfecta
+<lb ed="#Ba" n="40"/>ergo non competit e1 procedere ut amor.
+</p>
+            <p xml:id="alalal-a61710-d1e145">
+               <lb ed="#Ba" n="41"/>2. Item, Amor est ejus in quo 
+requie<lb break="no" ed="#Ba" n="42"/>scit affectus : ergo accipitur semper ut in
+<lb ed="#Ba" n="43"/>aliud procedens: Spiritus autem sanctus
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="44"/>non procedit in aliud, imo ipse procedens
+<lb ed="#Ba" n="45"/>manet in seipso distinctus : ergo non 
+pro<lb break="no" ed="#Ba" n="46"/>cedit ut amor.
+</p>
+            <p xml:id="alalal-a61710-d1e163">
+               <lb ed="#Ba" n="47"/>3. Item, Persone divine hypostases
+<lb ed="#Ba" n="48"/>sunt perfecte, sicut Filius et Pater
+<lb ed="#Ba" n="49"/>nullus autem amor secundum rationem
+<lb ed="#Ba" n="50"/>amoris dicit hypostasim, sed habitum,
+<lb ed="#Ba" n="51"/>et accidens hypostasis : ergo Spiritus
+<lb ed="#Ba" n="52"/>sanctus non procedit ut amor.
+</p>
+            <p xml:id="alalal-a61710-d1e179">
+               <lb ed="#Ba" n="53"/>4. Item, Tantum amatur Spiritus a
+<lb ed="#Ba" n="54"/>Patre sicut Filius : ergo amor medius
+<lb ed="#Ba" n="55"/>est nexus Patris et Spiritus sancti: si
+<lb ed="#Ba" n="56"/>ergo Spiritus sanctus est amor, erit amor
+<lb ed="#Ba" n="57"/>amoris, quod in nullo est, quia sic 
+ire<lb break="no" ed="#Ba" n="58"/>tur in infinitum: ergo Spiritus sanctus
+<lb ed="#Ba" n="59"/>non procedit ut amor.
+</p>
+            <p xml:id="alalal-a61710-d1e197">
+               <lb ed="#Ba" n="60"/>5. Siforte dicas, quod amor dicat 
+di<lb break="no" ed="#Ba" n="61"/>stinctum ab amante : et ideo illa 
+distin<lb break="no" ed="#Ba" n="62"/>clio personalitatem facit et personam.
+<lb ed="#Ba" n="63"/>Contra : Essentia divina est ejus amor
+<lb ed="#Ba" n="64"/>quo Deus amat etse et alia : tamen cum
+<lb ed="#Ba" n="65"/>dicat distinctionem secundum nomen,
+<lb ed="#Ba" n="66"/>non distinguitur essentia a Patre : ergo
+<lb ed="#Ba" n="67"/>talis distinctio non sufficit ad faciendum
+<lb ed="#Ba" n="68"/>personam. Praeterea, Pater nominat 
+sub<lb break="no" ed="#Ba" n="69"/>stantiam distinctam, et similiter Filius,
+<lb ed="#Ba" n="70"/>et generatio dicit actum nature in 
+com<lb break="no" ed="#Ba" n="71"/>municatione nature a Patre in Filium :
+<lb ed="#Ba" n="72"/>amor autem nec dicit substantiam 
+se<lb break="no" ed="#Ba" n="73"/>cundum nomen, nec dicit rationem 
+pro<lb break="no" ed="#Ba" n="74"/>cessionis substantialis: ergo videtur ad
+<lb ed="#Ba" n="75"/>distinctionem personalem non pertinere.
+</p>
+            <p xml:id="alalal-a61710-d1e234">
+               <lb ed="#Ba" n="76"/>6. Praeterea, Cum in natura 
+intelle<lb break="no" ed="#Ba" n="77"/>ctuali sint alie potenti, et alii habitus,
+<lb ed="#Ba" n="78"/>quam voluntas et amor, videtur quod
+<lb ed="#Ba" n="79"/>processio cujuslibet potentie in habitum
+<lb ed="#Ba" n="80"/>vel actum deberet facere personalem 
+di<lb break="no" ed="#Ba" n="81"/>stinctionem, sicut potentia quae est ad
+<lb ed="#Ba" n="82"/>arduum, quae irascibilis vocatur, 
+dividi<lb break="no" ed="#Ba" n="83"/>tur contra concupiscibilem, cujus habitus
+<lb ed="#Ba" n="84"/>amor attribuitur Spiritui sancto.
+</p>
+            <p xml:id="alalal-a61710-d1e256">
+               <lb ed="#Ba" n="85"/>7. Item, Apprehensio boni est ante
+<lb ed="#Ba" n="86"/>amorem boni: et ita videtur secundum
+<lb ed="#Ba" n="87"/>naturam prius in Deo procedere boni
+<lb ed="#Ba" n="88"/>apprehensio quam amor: et ita magis
+<lb ed="#Ba" n="89"/>illa processio debet causare personam
+<lb ed="#Ba" n="90"/>quam ista.
+</p>
+            <p xml:id="alalal-a61710-d1e273">
+               <lb ed="#Ba" n="91"/>8. Si forte dicas, quod apprehensio
+<lb ed="#Ba" n="92"/>boni pertinet ad Filium, eo quod ipse est
+<pb ed="#Ba" n="310"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ars et ratio Patris. Contra : Filio 
+adscri<lb break="no" ed="#Ba" n="2"/>bitur veritas : ergo boni apprehensio
+<lb ed="#Ba" n="3"/>cum secundum rationem differat, sicut
+<lb ed="#Ba" n="4"/>intellectus speculativus et practicus, vi~
+<lb ed="#Ba" n="5"/>detur ad alterius persone distinctionem
+<lb ed="#Ba" n="6"/>pertinere.
+</p>
+            <p xml:id="alalal-a61710-d1e297">
+               <lb ed="#Ba" n="7"/>9. Item, Cum multi sint motus et 
+pas<lb break="no" ed="#Ba" n="8"/>siones concupiscibilis, sicut 
+concupisce<lb break="no" ed="#Ba" n="9"/>re, desiderare, velle, quare penes actus
+<lb ed="#Ba" n="10"/>istos vel habitus non accipitur aliqua
+<lb ed="#Ba" n="11"/>persona distincta ?
+</p>
+            <p xml:id="alalal-a61710-d1e310">
+               <lb ed="#Ba" n="12"/>10. Praeterea, In mente amor procedit
+<lb ed="#Ba" n="13"/>a mente, ut actus, non ut potentia 
+distin<lb break="no" ed="#Ba" n="14"/>cta : ergo videtur, quod nulla in divinis
+<lb ed="#Ba" n="15"/>persona penes hanc processionem 
+distin<lb break="no" ed="#Ba" n="16"/>gui debeat.
+</p>
+            <p xml:id="alalal-a61710-d1e323">
+               <lb ed="#Ba" n="17"/>Si rorte propter hoc dicatur, quod
+<lb ed="#Ba" n="18"/>Spiritus sanctus non procedit ut amor.
+</p>
+            <p xml:id="alalal-a61710-d1e330">
+               <lb ed="#Ba" n="19"/>Contra:
+<lb ed="#Ba" n="20"/>1. Quidam Philosophus dicit, quod 
+sub<lb break="no" ed="#Ba" n="21"/>stantia separate spirituales dividuntur
+<lb ed="#Ba" n="22"/>per potentiam intellectus et voluntatis, et
+<lb ed="#Ba" n="23"/>non plus: ergo sicut in Deo habemus
+<lb ed="#Ba" n="24"/>unam processionem personalem ex parte
+<lb ed="#Ba" n="25"/>intellectus, ita unam debemus habere ex
+<lb ed="#Ba" n="26"/>parte affectus: illa autem non est nisi
+<lb ed="#Ba" n="27"/>amoris : ergo amor notabit in divinis
+<lb ed="#Ba" n="28"/>personalem distinctionem.
+</p>
+            <p xml:id="alalal-a61710-d1e354">
+               <lb ed="#Ba" n="29"/>2. Item, Homines bene viventes non
+<lb ed="#Ba" n="30"/>concordant in natura tantum, sed potius
+<lb ed="#Ba" n="31"/>querunt consensum amicitie: quia dicit
+<lb ed="#Ba" n="32"/>Philosophus, quod amicitia est 
+beatitu<lb break="no" ed="#Ba" n="33"/>do, aut non sine beatitudine : ergo Pater
+<lb ed="#Ba" n="34"/>et Filius cum non in paucioribus 
+con<lb break="no" ed="#Ba" n="35"/>veniant quam nos, conveniunt etiam
+<lb ed="#Ba" n="36"/>in consensu amicitie : amicitia autem
+<lb ed="#Ba" n="37"/>semper spirat amorem ergo 
+spira<lb break="no" ed="#Ba" n="38"/>tus ipse sic amor est, et procedit ut
+<lb ed="#Ba" n="39"/>amor.
+</p>
+            <p xml:id="alalal-a61710-d1e381">
+               <lb ed="#Ba" n="40"/>3, item, Hilarius in libro de Synodis :
+<lb ed="#Ba" n="41"/>Quod scriptum est, ut sint quidem per
+<lb ed="#Ba" n="42"/>substantiam tria, per consonantiam vero
+<lb ed="#Ba" n="43"/>unum, non habet calumniam : quia 
+co<lb break="no" ed="#Ba" n="44"/>gnominato Spiritu, id est, Paraclito,
+<lb ed="#Ba" n="45"/>consonantie potius quam essentia, per
+<lb ed="#Ba" n="46"/>similitudinein essentia praedicare 
+conve<lb break="no" ed="#Ba" n="47"/>nit unitatem. Ex hoc accipitur, quod 
+Pa<lb break="no" ed="#Ba" n="48"/>ter et Filius non tantum conveniunt in
+<lb ed="#Ba" n="49"/>similitudine sive identitate essentiae, sed
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="50"/>etiam in consonantia amoris: cum ergo
+<lb ed="#Ba" n="51"/>ille amor in Deo existens non possit esse
+<lb ed="#Ba" n="52"/>nisi Deus, erit illa consonantia Spiritus
+<lb ed="#Ba" n="53"/>sanctus.
+</p>
+            <p xml:id="alalal-a61710-d1e416">
+               <lb ed="#Ba" n="54"/>4. Item, Cum mens nostra amat se,
+<lb ed="#Ba" n="55"/>ita est aliquid in ipsa amor sui, sicut 
+no<lb break="no" ed="#Ba" n="56"/>titia sui : sed notitie in divinis respondei
+<lb ed="#Ba" n="57"/>persona Filii: ergo amori respondebit
+<lb ed="#Ba" n="58"/>alia persona, et illam vocamus personam
+<lb ed="#Ba" n="59"/>Spiritus sancti.
+</p>
+            <p xml:id="alalal-a61710-d1e432">
+               <lb ed="#Ba" n="60"/>SoLunio. Dicimus, quod Spiritus 
+san<lb break="no" ed="#Ba" n="61"/>ctus procedit a Patre et Filio ut amor
+<lb ed="#Ba" n="62"/>quose invicem diligunt : ethoe precipue
+<lb ed="#Ba" n="63"/>cogit ista ratio : quia absurdum est 
+po<lb break="no" ed="#Ba" n="64"/>nere, quod Pater et Filius in nullo 
+con<lb break="no" ed="#Ba" n="65"/>veniant in quantum distincti sunt: in
+<lb ed="#Ba" n="66"/>essentia autem conveniunt in quantum
+<lb ed="#Ba" n="67"/>unum sunt : sed nos videmus, quod
+<lb ed="#Ba" n="68"/>in omni natura rationali et non 
+ratio<lb break="no" ed="#Ba" n="69"/>nali omnes deliciae et jucunditates quas
+<lb ed="#Ba" n="70"/>possunt habere in vita in quantum
+<lb ed="#Ba" n="71"/>sunt differentes persone, fundantur 
+om<lb break="no" ed="#Ba" n="72"/>nes super mutuum amorem : propter
+<lb ed="#Ba" n="73"/>quod etiam quidam Philosophi 
+prin<lb break="no" ed="#Ba" n="74"/>cipia omnis nature ponebant litem
+<lb ed="#Ba" n="75"/>et amicitiam, tamquam alterum natura
+<lb ed="#Ba" n="76"/>ab ipso universitatis principio ut divinum
+<lb ed="#Ba" n="77"/>quoddam acciperet, scilicet amicitiam,
+<lb ed="#Ba" n="78"/>quod congregat et unit: alterum autem
+<lb ed="#Ba" n="79"/>haberet, scilicet litem, ex ipsa privatione
+<lb ed="#Ba" n="80"/>materi sibi concretum: unde Pater et
+<lb ed="#Ba" n="81"/>Filius in eo quod persone distinctz
+<lb ed="#Ba" n="82"/>sunt, conveniunt in hoc amore qui 
+pro<lb break="no" ed="#Ba" n="83"/>cedit ab ipsis quo se invicem amant : et
+<lb ed="#Ba" n="84"/>ille est Spiritus sanctus.
+</p>
+            <p xml:id="alalal-a61710-d1e489">
+               <lb ed="#Ba" n="85"/>Ap 1p ergo quod primo objicitur, 
+di<lb break="no" ed="#Ba" n="86"/>cendum quod amor dupliciter 
+conside<lb break="no" ed="#Ba" n="87"/>rari potest, scilicet secundum id quod
+<lb ed="#Ba" n="88"/>nominat, et sic non nominat hypostasim
+<lb ed="#Ba" n="89"/>completam, sicut nec verbum : verbum
+<lb ed="#Ba" n="90"/>enim nostri intellectus notitia est, que
+<lb ed="#Ba" n="91"/>accidentalis est intellectui. Alio modo
+<lb ed="#Ba" n="92"/>consideratur secundum proportionem
+<lb ed="#Ba" n="93"/>ad naturam in qua est, scilicet divinam
+<lb ed="#Ba" n="94"/>vel humanam: et secundum hoc erit
+<lb ed="#Ba" n="95"/>perfectus vel imperfectus, sicut et 
+ver<lb break="no" ed="#Ba" n="96"/>bum : unde cum in natura divina nihil
+<lb ed="#Ba" n="97"/>sit imperfectum, oportet Spiritum a per-
+<pb ed="#Ba" n="311"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>sonis ut persone sunt procedentem esse
+<lb ed="#Ba" n="2"/>perfectam in substantia personam.
+</p>
+            <p xml:id="alalal-a61710-d1e528">
+               <lb ed="#Ba" n="3"/>Ad aliud dicendum, quod Spiritus
+<lb ed="#Ba" n="4"/>sanctus procedit ut in aliud, et manet in
+<lb ed="#Ba" n="5"/>seipso distinctus: hac enim non sunt 
+op<lb break="no" ed="#Ba" n="6"/>posita ; in quantum enim refertur ad 
+Pa<lb break="no" ed="#Ba" n="7"/>trem et Filium ut ad unum principium
+<lb ed="#Ba" n="8"/>sui, sic manet in se distinctus ab utroque
+<lb ed="#Ba" n="9"/>per relativam oppositionem, sed in 
+quan<lb break="no" ed="#Ba" n="10"/>tum in ratione amoris personalis 
+proce<lb break="no" ed="#Ba" n="11"/>dit, nihil prohibet quod a Patre procedat
+<lb ed="#Ba" n="12"/>in Filium, et e converso a Filio in 
+Pa<lb break="no" ed="#Ba" n="13"/>trem, precipue cum haecsit vera, Pater
+<lb ed="#Ba" n="14"/>et Filius diligunt se Spiritu sancto, et
+<lb ed="#Ba" n="15"/>Pater diligit Filium Spiritu sancto, et
+<lb ed="#Ba" n="16"/>Filius diligit Patrem Spiritu sancto : in
+<lb ed="#Ba" n="17"/>quibus omnibus accipitur quod 
+proces<lb break="no" ed="#Ba" n="18"/>sionis est, et quod amoris qui specificat
+<lb ed="#Ba" n="19"/>modum procedendi : et si accipitur 
+pro<lb break="no" ed="#Ba" n="20"/>cessio in se, non causabit nisi 
+distinctio<lb break="no" ed="#Ba" n="21"/>nem procedentis ab his a quibus 
+proce<lb break="no" ed="#Ba" n="22"/>dit: si accipitur modus quo specificatur,
+<lb ed="#Ba" n="23"/>sic causatur nexus Patris et Filii in 
+vin<lb break="no" ed="#Ba" n="24"/>culo amoris qui est Spiritus sanctus.
+</p>
+            <p xml:id="alalal-a61710-d1e578">
+               <lb ed="#Ba" n="25"/>Ad aliud dicendum, quod haecest
+<lb ed="#Ba" n="26"/>falsa, nullus amor secundum rationem
+<lb ed="#Ba" n="27"/>amoris, etc.: quia amor personarum 
+di<lb break="no" ed="#Ba" n="28"/>vinarum cui non convenit nisi perfectio
+<lb ed="#Ba" n="29"/>substantiae, et non accidens, est amor
+<lb ed="#Ba" n="30"/>perfectus in hypostasi.
+</p>
+            <p xml:id="alalal-a61710-d1e595">
+               <lb ed="#Ba" n="31"/>Ad aliud dicendum, quod Spiritus
+<lb ed="#Ba" n="32"/>sanctus amatur a Patre et Filio dilectione
+<lb ed="#Ba" n="33"/>essentiali, et non amore qui distinguatur
+<lb ed="#Ba" n="34"/>a Spiritu sancto : et hoc patet in simili :
+<lb ed="#Ba" n="35"/>quia sive attendamus in imagine, sive in
+<lb ed="#Ba" n="36"/>distinctis hominibus, numquam amor
+<lb ed="#Ba" n="37"/>causat alium amorem quo diligatur ile.
+<lb ed="#Ba" n="38"/>In imagine quidem, quia bene videmus,
+<lb ed="#Ba" n="39"/>quod a noscente et notitia causatur amor
+<lb ed="#Ba" n="40"/>ejus quod notum est: sed ulterior amor
+<lb ed="#Ba" n="41"/>non causatur, sed ipse amor diligitur 
+eo<lb break="no" ed="#Ba" n="42"/>dem amore. Similiter inter homines 
+di<lb break="no" ed="#Ba" n="43"/>versos consensus causat amorem quo
+<lb ed="#Ba" n="44"/>conspirant et concordant homines : sed
+<lb ed="#Ba" n="45"/>non ab hoc amore causatur alter quo 
+di<lb break="no" ed="#Ba" n="46"/>ligatur ille. Si dicas, quod non est 
+si<lb break="no" ed="#Ba" n="47"/>mile : quia amor in inferioribus non est
+<lb ed="#Ba" n="48"/>persona distincta amabilis: secundum
+<lb ed="#Ba" n="49"/>hoc facilius habeo propositum, quod non
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="50"/>est alter amor: persona enim illa in
+<lb ed="#Ba" n="51"/>nullo distinguitur ab aliis personis nisi
+<lb ed="#Ba" n="52"/>in oppositione relativa: ille secundus
+<lb ed="#Ba" n="53"/>amor aut distinguitur oppositione relativa
+<lb ed="#Ba" n="54"/>a primo, aut non. Si sic: ergo speciali
+<lb ed="#Ba" n="55"/>proprietate differunt ab eo: ergo sicut
+<lb ed="#Ba" n="56"/>Pater et Filius in quantum sunt unum
+<lb ed="#Ba" n="57"/>principium Spiritus sancti, non dicuntur
+<lb ed="#Ba" n="58"/>amor personalis: ita ille amor secundus
+<lb ed="#Ba" n="59"/>non debet dici amor, sed ab alia 
+proprie<lb break="no" ed="#Ba" n="60"/>tate opposita denominari, sicut fit in 
+Pa<lb break="no" ed="#Ba" n="61"/>tre et Filio, quod falsum est. Si autem
+<lb ed="#Ba" n="62"/>non differt, habeo proposilum quod est
+<lb ed="#Ba" n="63"/>idem isti, et non sunt duo, sed unus
+<lb ed="#Ba" n="64"/>amor.
+</p>
+            <p xml:id="alalal-a61710-d1e673">
+               <lb ed="#Ba" n="65"/>Ad aliud dicendum, quod essentia 
+di<lb break="no" ed="#Ba" n="66"/>vina est amor Patris et Filii, sed aliter
+<lb ed="#Ba" n="67"/>quam amor personalis. Sicut enim 
+dixi<lb break="no" ed="#Ba" n="68"/>mus, ponere Patri et Filio convenientiam
+<lb ed="#Ba" n="69"/>in essentia tantum, hoc est parum : 
+quin<lb break="no" ed="#Ba" n="70"/>imo si ponamus pec impossibile Patrem
+<lb ed="#Ba" n="71"/>et Filtum non esse unum Deum, sicut
+<lb ed="#Ba" n="72"/>sunt, sed duos et perfectos, adhue 
+con<lb break="no" ed="#Ba" n="73"/>venient in amore qui procedit ab eis
+<lb ed="#Ba" n="74"/>etiam distinctis, et in quantum persone
+<lb ed="#Ba" n="75"/>sunt : et ille amor qui sic procedit ab eis
+<lb ed="#Ba" n="76"/>distinctis non unde unum sunt in 
+essen<lb break="no" ed="#Ba" n="77"/>tia, personalis et notionalis est: unde
+<lb ed="#Ba" n="78"/>quod essentia amor est et dicitur, hoe
+<lb ed="#Ba" n="79"/>non est Patris et Fulii in quantum sunt
+<lb ed="#Ba" n="80"/>persone distinct, sed potius in quantum
+<lb ed="#Ba" n="81"/>unus Deus : et ideo non est eorum ut ab
+<lb ed="#Ba" n="82"/>ipsis, sed potius est eorum ut ipse est;
+<lb ed="#Ba" n="83"/>ideo non est distinctus ille; sed 
+perso<lb break="no" ed="#Ba" n="84"/>nalis qui est eorum, non unde sunt unus
+<lb ed="#Ba" n="85"/>Deus, sed in quantum persone sunt 
+con<lb break="no" ed="#Ba" n="86"/>spirantes, ille est eorum ut ab ipsis: et
+<lb ed="#Ba" n="87"/>ideo distinguitur ille ab utroque.
+</p>
+            <p xml:id="alalal-a61710-d1e725">
+               <lb ed="#Ba" n="88"/>Ad aliud dicendum, quod natura 
+spi<lb break="no" ed="#Ba" n="89"/>ritualis multiplex est: quaedam enim est
+<lb ed="#Ba" n="90"/>que refertur ad corpus multarum et 
+dis<lb break="no" ed="#Ba" n="91"/>similium partium, sicut anima 
+rationa<lb break="no" ed="#Ba" n="92"/>lis ad corpus organicum : et illa habet
+<lb ed="#Ba" n="93"/>varietatem partium multarum secundum
+<lb ed="#Ba" n="94"/>proportionem ad partes corporis, quas
+<lb ed="#Ba" n="95"/>suis partibus perficit et movet: quedam
+<lb ed="#Ba" n="96"/>vero non habet relationem talem ad 
+cor<lb break="no" ed="#Ba" n="97"/>pus: et ideo non oportet quod habeat
+<lb ed="#Ba" n="98"/>partes hujusmodi : unde dicit Commen-
+<pb ed="#Ba" n="312"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>tator super metaphysicam, quod in 
+sub<lb break="no" ed="#Ba" n="2"/>stantiis separatis non manifestantur 
+po<lb break="no" ed="#Ba" n="3"/>tentia nisi intellectus et voluntatis : et
+<lb ed="#Ba" n="4"/>quidquid sit de hoc, sive verum sit dictum
+<lb ed="#Ba" n="5"/>sive non, dicendum quod ile substantiae
+<lb ed="#Ba" n="6"/>non habent multas dlarum potentiarum
+<lb ed="#Ba" n="7"/>que sunt anime in corpore, et precipue
+<lb ed="#Ba" n="8"/>vegetabilis, et etiam quasdam sensibilis
+<lb ed="#Ba" n="9"/>anime non habent : licet enim 
+cogno<lb break="no" ed="#Ba" n="10"/>scant sensibilia particularia,et sic dicantur
+<lb ed="#Ba" n="11"/>habere sensum, erit sensus aequivoce 
+di<lb break="no" ed="#Ba" n="12"/>ctus ad nostrum sensum, eo quod nostra
+<lb ed="#Ba" n="13"/>sensibilis cognitio non sit in actu nisi 
+va<lb break="no" ed="#Ba" n="14"/>riata ab ipsorum sensibilium 
+immuta<lb break="no" ed="#Ba" n="15"/>tione, quod absurdum esset in talibus
+<lb ed="#Ba" n="16"/>substantus ponere. Similiter autem in
+<lb ed="#Ba" n="17"/>Deo secundum hoc non erit ponere 
+se<lb break="no" ed="#Ba" n="18"/>cundum naturam virtutes nisi intellectus
+<lb ed="#Ba" n="19"/>et voluntatis : quia amplioris potentie
+<lb ed="#Ba" n="20"/>erunt in eo quam in nobis: quia 
+intel<lb break="no" ed="#Ba" n="21"/>lectus erit respectu sensibilium et 
+univer<lb break="no" ed="#Ba" n="22"/>salium, et voluntas respectu omnium 
+bo<lb break="no" ed="#Ba" n="23"/>norum: et ita non oportet, quod penes
+<lb ed="#Ba" n="24"/>potentias plures sint plures persone 
+pro<lb break="no" ed="#Ba" n="25"/>cedentes.
+</p>
+            <p xml:id="alalal-a61710-d1e810">
+               <lb ed="#Ba" n="26"/>De habitibus autem quod quaerit etiam
+<lb ed="#Ba" n="27"/>illa objectio, dicendum quod secundum
+<lb ed="#Ba" n="28"/>rationem multi sunt habitus rationalis
+<lb ed="#Ba" n="29"/>substantia, sed nullus est intimi affectus
+<lb ed="#Ba" n="30"/>demonstrativus nisi charitas: omnes enim
+<lb ed="#Ba" n="31"/>alii aut imperfecti sunt, aut ad aliquid
+<lb ed="#Ba" n="32"/>extra, et non ad id quod est in eadem
+<lb ed="#Ba" n="33"/>natura : amor autem pracipue est 
+inti<lb break="no" ed="#Ba" n="34"/>mus, et in id quod pertinet ad nature
+<lb ed="#Ba" n="35"/>ejusdem societatem et unionem : et ideo
+<lb ed="#Ba" n="36"/>penes ipsum accipitur processio 
+perso<lb break="no" ed="#Ba" n="37"/>ne, et non penes alios habitus.
+</p>
+            <p xml:id="alalal-a61710-d1e839">
+               <lb ed="#Ba" n="38"/>Kadem autem objectio ponit 
+questio<lb break="no" ed="#Ba" n="39"/>nem de irascibili, quod scilicet penes 
+ip<lb break="no" ed="#Ba" n="40"/>sam debet accipi persona sicut penes
+<lb ed="#Ba" n="41"/>concupiscibilem : et hane objectionem
+<lb ed="#Ba" n="42"/>faciunt quidam supponentes, quod in 
+na<lb break="no" ed="#Ba" n="43"/>tura anime rationalis ut rationalis est,
+<lb ed="#Ba" n="44"/>et in natura Angeli, et in natura divina,
+<lb ed="#Ba" n="45"/>secundum rationem debeant esse 
+concu<lb break="no" ed="#Ba" n="46"/>piscibilis et irascibilis: et hoc a nullo
+<lb ed="#Ba" n="47"/>Auctore habetur omnino, nisi ab eo libro
+<lb ed="#Ba" n="48"/>qui falso adscribitur Augustino, qui 
+dici<lb break="no" ed="#Ba" n="49"/>tur de Spirits et anima. Philosophus
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="50"/>enim in fine primi Ethicorum, 
+Dama<lb break="no" ed="#Ba" n="51"/>scenus, Gregorius Nicenus, et Avicenna,
+<lb ed="#Ba" n="52"/>dicunt contrarium. Similiter Glossa 
+su<lb break="no" ed="#Ba" n="53"/>per principium Ezechielis quae recitat
+<lb ed="#Ba" n="54"/>sententiam Platonis, quod 
+concupiscibi<lb break="no" ed="#Ba" n="55"/>lem posuit in hepate, irascibilem autem
+<lb ed="#Ba" n="56"/>in felle : et ratio hujus est, quia ille 
+po<lb break="no" ed="#Ba" n="57"/>tentia sunt denominate a passionibus
+<lb ed="#Ba" n="58"/>que sunt ira et concupiscentia: omnibus
+<lb ed="#Ba" n="59"/>autem (etiam qui parum noverunt) patet
+<lb ed="#Ba" n="60"/>hoc quod passiones non sunt rationalis
+<lb ed="#Ba" n="61"/>nature, sed sunt inferentes vel illatee in
+<lb ed="#Ba" n="62"/>sensu: unde plane possumus dicere,
+<lb ed="#Ba" n="63"/>quod questio falsum supponit, scilicet in
+<lb ed="#Ba" n="64"/>natura omnino spirituali esse 
+concupi<lb break="no" ed="#Ba" n="65"/>scibilem et irascibilem, in qua proprie est
+<lb ed="#Ba" n="66"/>voluntas : quia sicut dicit Philosophus,
+<lb ed="#Ba" n="67"/>in rationali voluntas fit, i irrationali 
+de<lb break="no" ed="#Ba" n="68"/>siderium et animus.
+</p>
+            <p xml:id="alalal-a61710-d1e911">
+               <lb ed="#Ba" n="69"/>Si autem secundum hoc queratur, 
+Cu<lb break="no" ed="#Ba" n="70"/>jus ergo vis est charitas quae in Deo et in
+<lb ed="#Ba" n="71"/>Angelo ponitur? Dicendum, quod 
+vo<lb break="no" ed="#Ba" n="72"/>luntatis. Si objiciatur, quod etiam amor
+<lb ed="#Ba" n="73"/>nominat passionem, et ita est alicujus
+<lb ed="#Ba" n="74"/>partis sensibilis anime, et non Dei vel
+<lb ed="#Ba" n="75"/>Angeli. Dicendum, quod non est verum
+<lb ed="#Ba" n="76"/>generaliter: sed per corporalem actum,
+<lb ed="#Ba" n="77"/>et habens contrarium, veruin est quod
+<lb ed="#Ba" n="78"/>nominat passionem, sed non amor qui
+<lb ed="#Ba" n="79"/>dicit affectum voluntatis rationalis. Si
+<lb ed="#Ba" n="80"/>autem non fiat in hoc vis, sed volumus
+<lb ed="#Ba" n="81"/>concedere duplicem irascibilem, et 
+du<lb break="no" ed="#Ba" n="82"/>plicem concupiscibilem, scilicet 
+huma<lb break="no" ed="#Ba" n="83"/>nam et sensibilem, tunc dicimus, quod
+<lb ed="#Ba" n="84"/>non est simile de habitu irascibilis, et
+<lb ed="#Ba" n="85"/>concupiscibilis : quia irascibilis est 
+re<lb break="no" ed="#Ba" n="86"/>spectu ejus quod est extra, quod repelli
+<lb ed="#Ba" n="87"/>habet per victoriam super ipsum: 
+concu<lb break="no" ed="#Ba" n="88"/>piscibilis autem est respectu eorum que
+<lb ed="#Ba" n="89"/>unienda sunt intus, et respectu 
+unien<lb break="no" ed="#Ba" n="90"/>tium : et ideo penes habitum 
+concupi<lb break="no" ed="#Ba" n="91"/>scibilis est processio persone, et non
+<lb ed="#Ba" n="92"/>penes habitum irascibilis.
+</p>
+            <p xml:id="alalal-a61710-d1e967">
+               <lb ed="#Ba" n="93"/>Ad aliud dicendum, quod 
+apprehen<lb break="no" ed="#Ba" n="94"/>sio omnis attribuitur Filio, et pracipue
+<lb ed="#Ba" n="95"/>apprehensio boni: quia illa spirare facit
+<lb ed="#Ba" n="96"/>amorem, et est operativa ut ars 
+opera<lb break="no" ed="#Ba" n="97"/>tur : speculativa enim est in universali,
+<lb ed="#Ba" n="98"/>et non est de rebus nisi in potentia exi-
+<pb ed="#Ba" n="313"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>stentibus. Licet autem speculativus et
+<lb ed="#Ba" n="2"/>practicus differant, non tamen penes 
+spe<lb break="no" ed="#Ba" n="3"/>culativum accipitur verbum quod est 
+Fi<lb break="no" ed="#Ba" n="4"/>lius, quia verbum illud (ut dicit 
+Augu<lb break="no" ed="#Ba" n="5"/>stinus in libro VIIT de Trinitate) est 
+no<lb break="no" ed="#Ba" n="6"/>titia amata, et ideo est in ratione optimi:
+<lb ed="#Ba" n="7"/>sed penes speculativum per 
+appropria<lb break="no" ed="#Ba" n="8"/>tionem non ita convenit accipere 
+perso<lb break="no" ed="#Ba" n="9"/>nam duabus de causis, quarum una est :
+<lb ed="#Ba" n="10"/>quia ipse est a re intus procedens in 
+spe<lb break="no" ed="#Ba" n="11"/>culationem: et ideo oppositum modum
+<lb ed="#Ba" n="12"/>habet ad processionem personie de 
+per<lb break="no" ed="#Ba" n="13"/>sona : sed practicus est procedens de 
+in<lb break="no" ed="#Ba" n="14"/>telligente in opus, et ideo ille similior
+<lb ed="#Ba" n="15"/>est processioni personarum. Secunda
+<lb ed="#Ba" n="16"/>causa est, quod speculativus non est rei
+<lb ed="#Ba" n="17"/>in propria natura, sed potius in ratione
+<lb ed="#Ba" n="18"/>universali in qua res non est nisi in 
+po<lb break="no" ed="#Ba" n="19"/>tentia : sed practicus est de propria natura
+<lb ed="#Ba" n="20"/>rei: et ideo iterum magis convenit 
+per<lb break="no" ed="#Ba" n="21"/>sonarum processioni, quae propriam 
+na<lb break="no" ed="#Ba" n="22"/>turam accipiunt a persona a qua 
+pro<lb break="no" ed="#Ba" n="23"/>cedunt.
+</p>
+            <p xml:id="alalal-a61710-d1e1037">
+               <lb ed="#Ba" n="24"/>Ad aliud dicendum, quod Filio non
+<lb ed="#Ba" n="25"/>attribuitur speculativum nisi attributione
+<lb ed="#Ba" n="26"/>minus propria : quia idealis intellectus in
+<lb ed="#Ba" n="27"/>divinis est operativus omnium rerum
+<lb ed="#Ba" n="28"/>ideatarum quae procedunt in opus: et ille
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="29"/>secundum Augustinus in libro LXXXIII
+<lb ed="#Ba" n="30"/>Questionum, attribuitur Filio.
+</p>
+            <p xml:id="alalal-a61710-d1e1057">
+               <lb ed="#Ba" n="31"/>Ad aliud dicendum, quod 
+supponen<lb break="no" ed="#Ba" n="32"/>do, quod charitas vel amor sint 
+concu<lb break="no" ed="#Ba" n="33"/>piscibilis in natura spiritual, nullus 
+alio<lb break="no" ed="#Ba" n="34"/>rum actuum dicit completam et intimam
+<lb ed="#Ba" n="35"/>inchnationem affectus ad amatum: et
+<lb ed="#Ba" n="36"/>hoc sic probatur: Velle dicit actum 
+vo<lb break="no" ed="#Ba" n="37"/>luntatis per se, qui communis est intimo
+<lb ed="#Ba" n="38"/>et completo, et non intimis et 
+incomple<lb break="no" ed="#Ba" n="39"/>tis. Cetera autem patent per Psalmum
+<lb ed="#Ba" n="40"/>oxvinl, 20, ubi dicit: Coneupivit anima
+<lb ed="#Ba" n="41"/>mea desiderare justificationes tuas. Unde
+<lb ed="#Ba" n="42"/>concupiscere minus est quam desiderare,
+<lb ed="#Ba" n="43"/>desiderare autem adhuc minus quam velle,
+<lb ed="#Ba" n="44"/>et velle minus quam amare ex charitate.
+</p>
+            <p xml:id="alalal-a61710-d1e1090">
+               <lb ed="#Ba" n="45"/>Ap vLtimum dicendum, quod secus est
+<lb ed="#Ba" n="46"/>de imagine creata a Deo : quia imago in
+<lb ed="#Ba" n="47"/>multis est dissimilis, praecipue in 
+simpli<lb break="no" ed="#Ba" n="48"/>citate nature et perfectione: et ideo quod
+<lb ed="#Ba" n="49"/>accidens est in ipsa, hypostasis divina
+<lb ed="#Ba" n="50"/>distincta est in Deo, ut patet per ante
+<lb ed="#Ba" n="51"/>dicta : tamen si quis consideret dicta 
+Au<lb break="no" ed="#Ba" n="52"/>gustini supra notata, amor et notitia
+<lb ed="#Ba" n="53"/>non omnino sunt accidentalia menti, sed
+<lb ed="#Ba" n="54"/>secundum aliquem modum substantialia
+<lb ed="#Ba" n="55"/>sunt.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

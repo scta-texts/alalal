@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="79"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e15493"><!-- l3d4dt2 -->
+            <head xml:id="alalal-e15493-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e15493-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="12"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-e15493-d1e108">
+               <lb ed="Bd" n="13"/>
+               <quote xml:id="alalal-e15493-Qd1e112"> Sed non est in hoc diutius 
+immo<lb break="no" ed="Bd" n="14"/>randum, etc. </quote>
+            </p>
+            <p xml:id="alalal-e15493-d1e118">
+               <lb ed="Bd" n="15"/>Hic Magister objicit contra 
+predeter<lb break="no" ed="Bd" n="16"/>minata prius: quia si opus incarnationis
+<lb ed="Bd" n="17"/>attribuitur Spiritui sancto, et quidquid
+<lb ed="Bd" n="18"/>operatur formam corporis in generatione,
+<lb ed="Bd" n="19"/>videtur esse pater : videbitur, quod 
+Spi<lb break="no" ed="Bd" n="20"/>ritus sanctus sit pater Christi secundum
+<lb ed="Bd" n="21"/>generationem humanam.
+</p>
+            <p xml:id="alalal-e15493-d1e136">
+               <lb ed="Bd" n="22"/>Et haec pars habet tria capitula : in
+<lb ed="Bd" n="23"/>quorum primo tangit objectionem 
+di<lb break="no" ed="Bd" n="24"/>ctam, et solvif. In secundo, dat 
+instan<lb break="no" ed="Bd" n="25"/>tiam huic propositioni, Quidquid ex aqua
+<lb ed="Bd" n="26"/>renascitur, est filius illius, ibi, § 2:
+<lb ed="Bd" n="27"/>
+               <quote xml:id="alalal-e15493-Qd1e151"> Non est autem concedendum, etc. </quote> In
+<lb ed="Bd" n="28"/>tertio, dat instantiam huic, Omne quod
+<lb ed="Bd" n="29"/>est filius alicujus, de illo natum est, ibi,
+<lb ed="Bd" n="30"/>§ 3: <quote xml:id="alalal-e15493-Qd1e159"> Sic ergo de Spiritu sancto natus
+<lb ed="Bd" n="31"/>est, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

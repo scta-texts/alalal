@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="500"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d87026"><!-- l2d30a2 -->
+            <head xml:id="alalal-d87026-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-d87026-Hd1e101" type="question-title">An originale peccatum sit culpa ?</head>
+            <p xml:id="alalal-d87026-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="15"/>ARTICULUS II.
+<lb ed="#Bc" n="16"/>An originale peccatum sit culpa ?
+</p>
+            <p xml:id="alalal-d87026-d1e113">
+               <lb ed="#Bc" n="17"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="18"/>ibi, <quote xml:id="alalal-d87026-Qd1e119"> Sed quod originale peccatum culpa
+<lb ed="#Bc" n="19"/>sit, etc. </quote>
+            </p>
+            <p xml:id="alalal-d87026-d1e125">
+               <lb ed="#Bc" n="20"/>Videtur enim originale peccatum non
+<lb ed="#Bc" n="21"/>esse in genere culpa : quia
+</p>
+            <p xml:id="alalal-d87026-d1e133">
+               <lb ed="#Bc" n="22"/>1. Involuntarium etiam in actu non 
+ha<lb break="no" ed="#Bc" n="23"/>bet culpam, sed ignoscentiam et 
+miseri<lb break="no" ed="#Bc" n="24"/>cordiam, ut dicit Philosophus : ergo 
+mul<lb break="no" ed="#Bc" n="25"/>to minus involuntarium, in, quo nihil agit
+<lb ed="#Bc" n="26"/>ille qui subjacet ei : tale autem est 
+origi<lb break="no" ed="#Bc" n="27"/>nale: ergo videtur, quod ipsum non sit
+<lb ed="#Bc" n="28"/>in culpa.
+</p>
+            <p xml:id="alalal-d87026-d1e151">
+               <lb ed="#Bc" n="29"/>2. Item, Augustinus dicit, quod nemo
+<lb ed="#Bc" n="30"/>peccat in hoc quod vitari nullo modo 
+pot<lb break="no" ed="#Bc" n="31"/>est: sed parvuli nullo modo vitare 
+pos<lb break="no" ed="#Bc" n="32"/>sunt originale vitium : ergo non peccant,
+</p>
+            <p xml:id="alalal-d87026-d1e162">
+               <lb ed="#Bc" n="33"/>Solutio. Dicendum, quod peccatum
+<lb ed="#Bc" n="34"/>originale est peccatum nature, ut habi-
+<cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="35"/>tum est: et quia illa justitia obligat, ut -
+<lb ed="#Bc" n="36"/>dicit Anselmus : quia si stetisset, 
+origi<lb break="no" ed="#Bc" n="37"/>nalem justitiam profudisset in filios, 
+sic<lb break="no" ed="#Bc" n="38"/>ut profudit postea injustitiam.
+</p>
+            <p xml:id="alalal-d87026-d1e180">
+               <lb ed="#Bc" n="39"/>Quod qualiter fiat, intelligende sunt
+<lb ed="#Bc" n="40"/>alie dug vie praeter illam quae habita est
+<lb ed="#Bc" n="41"/>in precedenti questione: quarum una
+<lb ed="#Bc" n="42"/>est magistralis, scilicet quod natura 
+cor<lb break="no" ed="#Bc" n="43"/>rupta generat, et non intendit generare:
+<lb ed="#Bc" n="44"/>corpus tantum, sed compositum : et ideo
+<lb ed="#Bc" n="45"/>licet anima non educatur de materia, 
+ta<lb break="no" ed="#Bc" n="46"/>men opus nature attingit animam per |
+<lb ed="#Bc" n="47"/>intentionem, in quantum etiam in semine.
+<lb ed="#Bc" n="48"/>operatur anima: Quod autem ab opere
+<lb ed="#Bc" n="49"/>corrupto attingitur, illud maculatur: et
+<lb ed="#Bc" n="50"/>ideo anima in quantum est forma, quae
+ <lb ed="#Bc" n="51"/>est finis actus generationis nature 
+cor<lb break="no" ed="#Bc" n="52"/>rupte, in quo quiescit actus generantis,
+<lb ed="#Bc" n="53"/>necessario corrumpitur : etideo in 
+om<lb break="no" ed="#Bc" n="54"/>nibus aliis habent isti eumdem ordinem
+<lb ed="#Bc" n="55"/>responsionis ad objecta, qui prius est ha~
+<lb ed="#Bc" n="56"/>bitus.
+</p>
+            <p xml:id="alalal-d87026-d1e222">
+               <lb ed="#Bc" n="57"/>Alia via solvendi est cujusdam Domini
+<lb ed="#Bc" n="58"/>Ebdoms Episcopi Cameracensis, qui po-.
+<lb ed="#Bc" n="59"/>nit, quod natura communis participat in
+<lb ed="#Bc" n="60"/>persona in agendo in corpore: sequitur
+<lb ed="#Bc" n="61"/>enim si hic homo peccat, quod homo .
+<lb ed="#Bc" n="62"/>peccat : et si hic homo peccato corrumpi-
+<pb ed="#Bc" n="501"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>tur, quod homo peccato corrumpitur : eo
+<lb ed="#Bc" n="2"/>quod natura communis secundum esse
+<lb ed="#Bc" n="3"/>non est nisi in isto, praecipue in Adam
+<lb ed="#Bc" n="4"/>antequam derivaretur in alios. Ergo in 
+<lb ed="#Bc" n="5"/>jpso natura tota et omnis corrupta fuit.
+<lb ed="#Bc" n="6"/>Sed universali respondet particulare :
+<lb ed="#Bc" n="7"/>ergo nature corrupte in communi 
+opor<lb break="no" ed="#Bc" n="8"/>tet respondere quodlibet particulare 
+cor<lb break="no" ed="#Bc" n="9"/>rupltum per actum generationis ex illo in
+<lb ed="#Bc" n="10"/>quo ipsa corrupta est. Et hoc redit in
+<lb ed="#Bc" n="11"/>idem cum via prehabita, licet sint alia
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="12"/>verba: et postea est iterum idem modus
+<lb ed="#Bc" n="13"/>solvendi.
+</p>
+            <p xml:id="alalal-d87026-d1e272">
+               <lb ed="#Bc" n="14"/>Ad id ergo quod primo hic objicitur,
+<lb ed="#Bc" n="15"/>dicendum quod involuntaria est culpa illa,
+<lb ed="#Bc" n="16"/>et tenet dictum Philosophi in actu 
+perso<lb break="no" ed="#Bc" n="17"/>ne, et nonin culpa nature,
+</p>
+            <p xml:id="alalal-d87026-d1e284">
+               <lb ed="#Bc" n="18"/>Ad aliud dicendum, quod vilare 
+po<lb break="no" ed="#Bc" n="19"/>tuit natura in Adam, licet non in isto:
+<lb ed="#Bc" n="20"/>et alia ratio est, quia de naturali 
+Augu<lb break="no" ed="#Bc" n="21"/>stinus non intelligit, sed de illo cujus nos
+<lb ed="#Bc" n="22"/>causa sumus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

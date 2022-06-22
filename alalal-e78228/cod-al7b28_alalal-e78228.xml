@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="412"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e78228"><!-- l3d23dt2 -->
+            <head xml:id="alalal-e78228-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e78228-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="11"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-e78228-d1e108">
+               <lb ed="Bd" n="12"/>
+               <quote xml:id="alalal-e78228-Qd1e112"> Accipitur autem fides tribus modis,
+<lb ed="Bd" n="13"/>etc. </quote>
+               <lb ed="Bd" n="14"/>Hic explanat Magister diffinitionem
+<lb ed="Bd" n="15"/>Augustini, et inducit quinque capitula :
+<lb ed="Bd" n="16"/>in quorum primo explanat qualiter fides
+<lb ed="Bd" n="17"/>sit virtus. In secundo, explanat hoc quod
+<lb ed="Bd" n="18"/>dicit, quae creduntur, ibi, D, <quote xml:id="alalal-e78228-Qd1e128"> Aliud
+<lb ed="Bd" n="19"/>est credere, etc. </quote> In tertio quaerit,
+<lb ed="Bd" n="20"/>Utrum fides quae non est virtus, possit
+<lb ed="Bd" n="21"/>fieri virtus ? ibi, E, <quote xml:id="alalal-e78228-Qd1e137"> Si vero Guerwur,
+<lb ed="Bd" n="22"/>etc. </quote> In quarto, determinat de 
+universi<lb break="no" ed="Bd" n="23"/>tate fidei, ibi, F, <quote xml:id="alalal-e78228-Qd1e145"> Cumgue diversis 
+mo<lb break="no" ed="Bd" n="24"/>dis, etc.</quote> In quinto, explanat ultimum,
+<lb ed="Bd" n="25"/>quod est quae non videntur, scilicet 
+qua<lb break="no" ed="Bd" n="26"/>liter fides sit de non apparentibus, ibi,
+<lb ed="Bd" n="27"/>G, <quote xml:id="alalal-e78228-Qd1e156"> Notandum quoque est, quod fides
+<lb ed="Bd" n="28"/>proprie denon apparentibus, ete. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

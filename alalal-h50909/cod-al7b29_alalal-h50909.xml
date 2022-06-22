@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 31</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 31</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="700"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h50909"><!-- l4d17a31 -->
+            <head xml:id="alalal-h50909-Hd1e99">Articulus 31</head>
+            <head xml:id="alalal-h50909-Hd1e101" type="question-title">An confessio est virtus ? </head>
+            <p xml:id="alalal-h50909-d1e104">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="11"/>ARTICULUS XXXI.
+<lb ed="#Be" n="12"/>An confessio est virtus ? 
+</p>
+            <p xml:id="alalal-h50909-d1e113">
+               <lb ed="#Be" n="13"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="14"/>ibi, B, sub finem: <quote xml:id="alalal-h50909-Qd1e119"> Jam donum 
+Spiri<lb break="no" ed="#Be" n="15"/>tus sancti habet, etc. </quote>
+            </p>
+            <p xml:id="alalal-h50909-d1e125">
+               <lb ed="#Be" n="16"/>Videtur enim secundum hoc quod 
+con<lb break="no" ed="#Be" n="17"/>fessio sit virtus, quod falsum est: cum
+<cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="18"/>sit actus quidam exterior, conveniens 
+bo<lb break="no" ed="#Be" n="19"/>nis et malis.
+</p>
+            <p xml:id="alalal-h50909-d1e139">
+               <lb ed="#Be" n="20"/>Rusponsio. Ad hoc est dicendum, quod
+<lb ed="#Be" n="21"/>loquitur de confessione fructifera, quae
+<lb ed="#Be" n="22"/>est actus meritorius, et dicitur donum
+<lb ed="#Be" n="23"/>Dei, eo quod non est a nobis ea parte
+<lb ed="#Be" n="24"/>qua meritorius est, licet liberum 
+arbi<lb break="no" ed="#Be" n="25"/>trium det actum et substantiam. Et de
+<lb ed="#Be" n="26"/>hoc plura notata sunt super secundum
+<lb ed="#Be" n="27"/>Sententiarum. Per totum autem istud
+<lb ed="#Be" n="28"/>caput solutio Magistri notabilis est et
+<lb ed="#Be" n="29"/>bona, et concordans hactenus 
+disputa<lb break="no" ed="#Be" n="30"/>tis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="563"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d96211"><!-- l2d35a3 -->
+            <head xml:id="alalal-d96211-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-d96211-Hd1e101" type="question-title">Utrum diffinitiones peccati quas 
+Magister ponit in Littera, sint bene 
+assignate ?</head>
+            <p xml:id="alalal-d96211-d1e104">
+               <lb ed="#Bc" n="45"/>ARTICULUS III.
+<lb ed="#Bc" n="46"/>Utrum diffinitiones peccati quas 
+Magi<lb break="no" ed="#Bc" n="47"/>ster ponit in Littera, sint bene 
+assig<lb break="no" ed="#Bc" n="48"/>nate ?
+</p>
+            <p xml:id="alalal-d96211-d1e115">
+               <lb ed="#Bc" n="49"/>Tertio, Queritur de diffinitionibus 
+posi<lb break="no" ed="#Bc" n="50"/>tis in Litlera, et primo de ista, quod
+<lb ed="#Bc" n="51"/>
+               <quote xml:id="alalal-d96211-Qd1e123"> peccatum est dictum, vel factum, vel
+<lb ed="#Bc" n="52"/>concupitum, contra legem Dei. </quote>
+            </p>
+            <p xml:id="alalal-d96211-d1e129">
+               <lb ed="#Bc" n="53"/>1. Originale autem non est dictum vel
+<lb ed="#Bc" n="54"/>factum vel concupitum contra legem
+<lb ed="#Bc" n="55"/>Dei: ergo non est peccatum, quod falsum
+<lb ed="#Bc" n="56"/>est.
+</p>
+            <p xml:id="alalal-d96211-d1e141">
+               <lb ed="#Bc" n="57"/>2. Item, Omissionis peccatum non est
+<lb ed="#Bc" n="58"/>factum : ergo non est peccatum. Et he
+<lb ed="#Bc" n="59"/>due objectiones jacent in Liétera.
+</p>
+            <p xml:id="alalal-d96211-d1e150">
+               <lb ed="#Bc" n="60"/>3.Item, Veniale peccatum non est 
+con<lb break="no" ed="#Bc" n="61"/>tralegem Dei: quia quidquid est contra
+<lb ed="#Bc" n="62"/>legem Dei, est mortale peccatum: ergo
+<lb ed="#Bc" n="63"/>veniale peccatum non est peccatum, quod
+<lb ed="#Bc" n="64"/>falsum est.
+</p>
+            <p xml:id="alalal-d96211-d1e163">
+               <lb ed="#Bc" n="65"/>4. Item, Si non esset: lex Dei, adhuc
+<lb ed="#Bc" n="66"/>esset peccatum: ergo male diffinitur per
+<lb ed="#Bc" n="67"/>esse contra legem Dei.
+</p>
+            <p xml:id="alalal-d96211-d1e172">
+               <lb ed="#Bc" n="68"/>5. Item, Queadam sunt mala, quia 
+pro<lb break="no" ed="#Bc" n="69"/>hibita, ut comestio de ligno scientiae boni
+<lb ed="#Bc" n="70"/>et mali: quaedam autem prohibita, quia
+<lb ed="#Bc" n="71"/>mala, et illa sunt vere mala: ergo non
+<lb ed="#Bc" n="72"/>est ratio peccati, quod sit contra legem
+<lb ed="#Bc" n="73"/>Dei, et potius ideo prohibet lex, quia est
+<lb ed="#Bc" n="74"/>peccatum : ergo male diffinitur peccatum
+<lb ed="#Bc" n="75"/>per esse contra legem Dei.
+</p>
+            <p xml:id="alalal-d96211-d1e192">
+               <lb ed="#Bc" n="76"/>Objicitur autem contra secundam 
+pec<lb break="no" ed="#Bc" n="77"/>cati diffinitionem  ; quia
+</p>
+            <p xml:id="alalal-d96211-d1e199">
+               <lb ed="#Bc" n="78"/>1. Queedam peccata sunt, in quibus
+<lb ed="#Bc" n="79"/>nihil vult consequi vel retinere, sed 
+po<lb break="no" ed="#Bc" n="80"/>tius destruere, ut odium, ira, et invidia :
+<lb ed="#Bc" n="81"/>ergo male diffinitur peccatum per illa.
+</p>
+            <p xml:id="alalal-d96211-d1e211">
+               <lb ed="#Bc" n="82"/>2. Item, Singularia peccata contrarian-_
+<lb ed="#Bc" n="83"/>
+               <quote xml:id="alalal-d96211-Qd1e217"> vel consequendi quod justitie vetat. </quote>
+               <pb ed="#Bc" n="564"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>tur particularibus virtutibus : non igitur
+<lb ed="#Bc" n="2"/>omne peccatum vetatur a justitia, sed
+<lb ed="#Bc" n="3"/>etiam ab aliis virtutibus.
+</p>
+            <p xml:id="alalal-d96211-d1e231">
+               <lb ed="#Bc" n="4"/>Objicitur autem de tertia quae est 
+Am<lb break="no" ed="#Bc" n="5"/>brosii, hac scilicet, <quote xml:id="alalal-d96211-Qd1e237"> Peccatum est 
+pra<lb break="no" ed="#Bc" n="6"/>varicatio legis divine, et ccelestium 
+in<lb break="no" ed="#Bc" n="7"/>obedientia mandatorum. </quote>
+            </p>
+            <p xml:id="alalal-d96211-d1e245">
+               <lb ed="#Bc" n="8"/>1. Peccatum enim non est 
+prevarica<lb break="no" ed="#Bc" n="9"/>tio nisi lege posita, ut videtur velle 
+Apo<lb break="no" ed="#Bc" n="10"/>stolus: sed ante legem positam 
+pecca<lb break="no" ed="#Bc" n="11"/>tum est: ergo accidit ei, quod. sit 
+preva<lb break="no" ed="#Bc" n="12"/>ricatio : et sic male diffinitur per 
+preeva<lb break="no" ed="#Bc" n="13"/>ricationem.
+</p>
+            <p xml:id="alalal-d96211-d1e261">
+               <lb ed="#Bc" n="14"/>2. Item, Non omnis virtus est 
+obedien<lb break="no" ed="#Bc" n="15"/>tia: ergo non omne vitium vel peccatum
+<lb ed="#Bc" n="16"/>est inobedientia: ergo male dicitur esse
+<lb ed="#Bc" n="17"/>inobedientia ccelestium mandatorum.
+</p>
+            <p xml:id="alalal-d96211-d1e272">
+               <lb ed="#Bc" n="18"/>Sunt preterea aliae diffinitiones peccati,
+<lb ed="#Bc" n="19"/>sicut illa Augustini: <quote xml:id="alalal-d96211-Qd1e278"> Peccatum est actus
+<lb ed="#Bc" n="20"/>incidens ex defectu boni. </quote>
+            </p>
+            <p xml:id="alalal-d96211-d1e284">
+               <lb ed="#Bc" n="21"/>Et contra hanc etiam objicitur :
+</p>
+            <p xml:id="alalal-d96211-d1e290">
+               <lb ed="#Bc" n="22"/>Omne enim peccatum est ex proposito
+<lb ed="#Bc" n="23"/>determinato : propositum autem 
+determi<lb break="no" ed="#Bc" n="24"/>natum est causa determinata: et quod
+<lb ed="#Bc" n="25"/>est a causa determinata, non incidit:
+<lb ed="#Bc" n="26"/>ergo peccatum non incidit: ergo 
+pecca<lb break="no" ed="#Bc" n="27"/>tum non est incidens actus. ,
+</p>
+            <p xml:id="alalal-d96211-d1e306">
+               <lb ed="#Bc" n="28"/>Item, Si dicatur incidens ex defectu
+<lb ed="#Bc" n="29"/>boni, queratur, Ex cujus boni defectu
+<lb ed="#Bc" n="30"/>incidat ? Si dicas quod ex defectu boni
+<lb ed="#Bc" n="31"/>increati: tunc videtur, quod omnis actus
+<lb ed="#Bc" n="32"/>nature sit peccatum. Idem sequitur, si
+<lb ed="#Bc" n="33"/>incidit ex defectu boni gratia. Si 
+au<lb break="no" ed="#Bc" n="34"/>tem dicatur incidere ex defectu finis boni,
+<lb ed="#Bc" n="35"/>videtur esse indifferens omne peccatum,
+<lb ed="#Bc" n="36"/>cum illud non habeat finem, et tamen 
+fa<lb break="no" ed="#Bc" n="37"/>ctum est.
+</p>
+            <p xml:id="alalal-d96211-d1e330">
+               <lb ed="#Bc" n="38"/>Sunt et alia diffinitiones peccati, sicut
+<lb ed="#Bc" n="39"/>illa quam ponit Augustinus, quod <quote xml:id="alalal-d96211-Qd1e336"> 
+pec<lb break="no" ed="#Bc" n="40"/>cafum est spreto incommutabili bono,
+<lb ed="#Bc" n="41"/>rebus mutabilibus adherere. </quote>
+            </p>
+            <p xml:id="alalal-d96211-d1e344">
+               <lb ed="#Bc" n="42"/>litem, Augustinus : <quote xml:id="alalal-d96211-Qd1e348"> Peccatum est 
+ap<lb break="no" ed="#Bc" n="43"/>petere quae Christus contempsit, vel 
+fu<lb break="no" ed="#Bc" n="44"/>gere quae Christus sustinuit. </quote>
+            </p>
+            <p xml:id="alalal-d96211-d1e356">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="45"/>Item, Augustinus : <quote xml:id="alalal-d96211-Qd1e362"> Peccatum est cor.
+<lb ed="#Bc" n="46"/>ruptio modi, speciei, et ordinis. </quote>
+               <lb ed="#Bc" n="47"/>Item, <quote xml:id="alalal-d96211-Qd1e369"> Peccatum est meritum poenae. </quote>
+            </p>
+            <p xml:id="alalal-d96211-d1e372">
+               <lb ed="#Bc" n="48"/>Queritur ergo, Penes quid sumatur 
+dif<lb break="no" ed="#Bc" n="49"/>ferentia istarum diffinitionum ?
+</p>
+            <p xml:id="alalal-d96211-d1e380">
+               <lb ed="#Bc" n="50"/>Item, Cum sit malum, culpa, pecca.
+<lb ed="#Bc" n="51"/>tum, macula, vitium, et reatus, penes
+<lb ed="#Bc" n="52"/>quid ista differunt ?
+</p>
+            <p xml:id="alalal-d96211-d1e389">
+               <lb ed="#Bc" n="53"/>Solutio. Dicendum, quod sicut Magi.
+<lb ed="#Bc" n="54"/>ster dicit in Littera, in his diffinitionibus
+<lb ed="#Bc" n="55"/>non diffinitur nisi mortale peccatum, quod
+<lb ed="#Bc" n="56"/>etiam solum simpliciter est peccatum.
+</p>
+            <p xml:id="alalal-d96211-d1e400">
+               <lb ed="#Bc" n="57"/>Tres autem ille diffinitiones quae sunt
+<lb ed="#Bc" n="58"/>in Littera, sumuntur penes triplicem 
+con<lb break="no" ed="#Bc" n="59"/>siderationem peccati, ita quod prima 
+su<lb break="no" ed="#Bc" n="60"/>mitur penes substantiam peccati per 
+com<lb break="no" ed="#Bc" n="61"/>parationem ad difformitatem, que, 
+in<lb break="no" ed="#Bc" n="62"/>quam, substantia subjicitur difformitati:
+<lb ed="#Bc" n="63"/>ila enim est <quote xml:id="alalal-d96211-Qd1e417"> dictum vel factum, etc. </quote>
+               <lb ed="#Bc" n="64"/>Et difformitas importatur per hoc quod
+<lb ed="#Bc" n="65"/>dicitur, contra legem Dei.
+</p>
+            <p xml:id="alalal-d96211-d1e424">
+               <lb ed="#Bc" n="66"/>Secunda autem sumitur per causam
+<lb ed="#Bc" n="67"/>efficientem peccati per comparationem ad
+<lb ed="#Bc" n="68"/>rationem difformitatis: <quote xml:id="alalal-d96211-Qd1e432"> voluntas enim
+<lb ed="#Bc" n="69"/>retinendi vel consequendi, etc., </quote> causa
+<lb ed="#Bc" n="70"/>est omnis peccati. Vetatio autem justitie
+<lb ed="#Bc" n="71"/>ratio est deformitatis. ;
+</p>
+            <p xml:id="alalal-d96211-d1e443">
+               <lb ed="#Bc" n="72"/>Tertia sumitur penes contrarietatem ad
+<lb ed="#Bc" n="73"/>legem regulantem nos in bona vita : hoc
+<lb ed="#Bc" n="74"/>enim est lex divina, et ccelestia mandata.
+</p>
+            <p xml:id="alalal-d96211-d1e452">
+               <lb ed="#Bc" n="75"/>Quarta autem diffinitio Augustini datur
+<lb ed="#Bc" n="76"/>de peccato, secundum quod habet 
+ratio<lb break="no" ed="#Bc" n="77"/>nem mali, quia sic non est intentio, sed
+<lb ed="#Bc" n="78"/>incidit, ut supra habitum est ex defectu
+<lb ed="#Bc" n="79"/>boni.
+</p>
+            <p xml:id="alalal-d96211-d1e466">
+               <lb ed="#Bc" n="80"/>Quinta vero sumitur per aversionem
+<lb ed="#Bc" n="81"/>summi boni, et conversionem indebitam
+<lb ed="#Bc" n="82"/>ad bonum commutabile.? Hec scilicet,
+<lb ed="#Bc" n="83"/>
+               <quote xml:id="alalal-d96211-Qd1e476"> Spreto incommutabili bono, etc., </quote> ita
+<lb ed="#Bc" n="84"/>quod spernere dicatur generaliter pro eo
+<lb ed="#Bc" n="85"/>quod est nolle adherere, et adherere 
+di<lb break="no" ed="#Bc" n="86"/>cat adhesionem fruitionis.
+</p>
+            <p xml:id="alalal-d96211-d1e486">
+               <lb ed="#Bc" n="87"/>Sexta vero sumitur per defectum 
+exem<lb break="no" ed="#Bc" n="88"/>plaris regulantis nos in vita: Christus
+<lb ed="#Bc" n="89"/>enim exemplum nobis dedit, ut quemad-
+<pb ed="#Bc" n="565"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>modum ipse fecit, ita et nos faciamus-t,
+</p>
+            <p xml:id="alalal-d96211-d1e502">
+               <lb ed="#Bc" n="2"/>Septima sumitur penes effectum 
+pec<lb break="no" ed="#Bc" n="3"/>cati in bono nature.
+</p>
+            <p xml:id="alalal-d96211-d1e509">
+               <lb ed="#Bc" n="4"/>Octava sumitur per comparationem
+<lb ed="#Bc" n="5"/>peccati ad reatum.
+</p>
+            <p xml:id="alalal-d96211-d1e516">
+               <lb ed="#Bc" n="6"/>Ad id ergo quod objicitur contra 
+pri<lb break="no" ed="#Bc" n="7"/>mam, dicendum quod hic non diffinitur
+<lb ed="#Bc" n="8"/>originale secundum Magistrum. Vel 
+ali<lb break="no" ed="#Bc" n="9"/>ter dicendum, quod est originale 
+origi<lb break="no" ed="#Bc" n="10"/>nans, et hoc est actuale peccatum: Ada,
+<lb ed="#Bc" n="11"/>et de illo tenent dictae diffinitiones : et est
+<lb ed="#Bc" n="12"/>originale originatum, et hoc consideratur
+<lb ed="#Bc" n="13"/>dupliciter, scilicet inse, et sic non tenent
+<lb ed="#Bc" n="14"/>iste dicte diffinitiones: et in sua causa
+<lb ed="#Bc" n="15"/>prima, et sic est dictum vel factum, non
+<lb ed="#Bc" n="16"/>quod proprium, sed quod alienum, quia
+<lb ed="#Bc" n="17"/>primi parentis. Sic etiam supra habitum
+<lb ed="#Bc" n="18"/>est, quod est voluntarium voluntate 
+re<lb break="no" ed="#Bc" n="19"/>mota, et non propinqua. ©
+</p>
+            <p xml:id="alalal-d96211-d1e549">
+               <lb ed="#Bc" n="20"/>Ad aliud dicendum, quod secundum
+<lb ed="#Bc" n="21"/>probabiliorem opinionem Doctorum, 
+nul<lb break="no" ed="#Bc" n="22"/>lum est peccatum omissionis quod non
+<lb ed="#Bc" n="23"/>habet aliquem actum, sicut etiam dicitur
+<lb ed="#Bc" n="24"/>in Littera. Omittere enim id de quo 
+num<lb break="no" ed="#Bc" n="25"/>quam est cogitatio, nec voluntas, est 
+pri<lb break="no" ed="#Bc" n="26"/>vatio pura, et non dicit aliquid quod sit
+<lb ed="#Bc" n="27"/>a nobis. Unde omissio fit duobus modis,
+<lb ed="#Bc" n="28"/>scilicet cum in tempore omissionis 
+vo<lb break="no" ed="#Bc" n="29"/>luntas est de contrario, sicut in tempore
+<lb ed="#Bc" n="30"/>necessitatis non subveniens miseris, non
+<lb ed="#Bc" n="31"/>vult subvenire, et velle non subvenire 
+di<lb break="no" ed="#Bc" n="32"/>cit actum voluntatis, et gratia hujus 
+effi<lb break="no" ed="#Bc" n="33"/>citur peccatum concupitum contra legem
+<lb ed="#Bc" n="34"/>Dei. Licet autem haec opinio sit celebrior,
+<lb ed="#Bc" n="35"/>tamen alii sunt qui dicunt, quod <quote xml:id="alalal-d96211-Qd1e585"> dictum
+<lb ed="#Bc" n="36"/>et factum, etc., </quote> accipitur communiter
+<lb ed="#Bc" n="37"/>ad dictum et non dictum secundum 
+le<lb break="no" ed="#Bc" n="38"/>gem, et ad factum et non factum 
+secun<lb break="no" ed="#Bc" n="39"/>dum legem. Secundus modus est cum ante
+<lb ed="#Bc" n="40"/>tempus impletionis mandati vult aliquid,
+<lb ed="#Bc" n="41"/>quod non potest stare cum impletione
+<lb ed="#Bc" n="42"/>mandati: ut ille qui tenetur surgere ad
+<lb ed="#Bc" n="43"/>Matutinas, ante tempus surgendi vult se
+<lb ed="#Bc" n="44"/>inebriare vel nimisinordinate vigilare,cum
+<lb ed="#Bc" n="45"/>qua voluntate non potest esse impletio
+<lb ed="#Bc" n="46"/>debiti, scilicet quod surgat ad Matutinas.
+</p>
+            <p xml:id="alalal-d96211-d1e614">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="47"/>Si autem quaeritur de hoc, Quare 
+voce<lb break="no" ed="#Bc" n="48"/>tur omissio, cum omne peccatum 
+secun<lb break="no" ed="#Bc" n="49"/>dum hoc omissio aliqua sit ? Dicendum,
+<lb ed="#Bc" n="50"/>quod ideo vocatur omissio, quia omittit
+<lb ed="#Bc" n="51"/>actum qui est in precepto, licet alio actu
+<lb ed="#Bc" n="52"/>committat.
+</p>
+            <p xml:id="alalal-d96211-d1e632">
+               <lb ed="#Bc" n="53"/>Ad aliud dicendum, quod veniale non
+<lb ed="#Bc" n="54"/>est peccatum simpliciter : quia peccatum
+<lb ed="#Bc" n="55"/>per prius et posterius predicatur de 
+ve<lb break="no" ed="#Bc" n="56"/>niali et mortali, ut prius habitum est:
+<lb ed="#Bc" n="57"/>sed veniale proprie est praeter legem, et
+<lb ed="#Bc" n="58"/>dispositio ad id quod est contrarium legi,
+<lb ed="#Bc" n="59"/>et sic indirecte contra legem Dei est.
+</p>
+            <p xml:id="alalal-d96211-d1e650">
+               <lb ed="#Bc" n="60"/>Ad aliud dicendum, quod lex Dei 
+com<lb break="no" ed="#Bc" n="61"/>muniter sumitur ad legem interiorem, et
+<lb ed="#Bc" n="62"/>exteriorem: et sicut rectum est ante 
+cur<lb break="no" ed="#Bc" n="63"/>vum, quia est judex sui et obliqui, eo
+<lb ed="#Bc" n="64"/>quod recto ipsum cognoscimus, ut dicit
+<lb ed="#Bc" n="65"/>Philosophus, et obliquum : ita lex Dei sic
+<lb ed="#Bc" n="66"/>communiter sumpta, estjsecundum 
+ratio<lb break="no" ed="#Bc" n="67"/>nem ante judicium omnis actus curvi, et
+<lb ed="#Bc" n="68"/>sic secundum rationem ante peccatum:
+<lb ed="#Bc" n="69"/>et omne peccatum est peccatum per hoc
+<lb ed="#Bc" n="70"/>quod discordat ab ea, et hoc modo 
+intel<lb break="no" ed="#Bc" n="71"/>ligitur quod ponitur in tribus 
+diffinitioni<lb break="no" ed="#Bc" n="72"/>bus : et sic planum est, quod omne malum
+<lb ed="#Bc" n="73"/>eo malum est, quia est contra legem Dei
+<lb ed="#Bc" n="74"/>sic sumptam, cum malitie ratio sit 
+discor<lb break="no" ed="#Bc" n="75"/>dantia ad rectitudinem legis.
+</p>
+            <p xml:id="alalal-d96211-d1e687">
+               <lb ed="#Bc" n="76"/>Et hoc modo cessant ille objectiones
+<lb ed="#Bc" n="77"/>que fiunt de hoc, quod quaedam sunt 
+pro<lb break="no" ed="#Bc" n="78"/>hibita, quia mala: et quaedam mala, quia
+<lb ed="#Bc" n="79"/>prohibita.
+</p>
+            <p xml:id="alalal-d96211-d1e698">
+               <lb ed="#Bc" n="80"/>Ap i quod objicitur de secunda 
+diffi<lb break="no" ed="#Bc" n="81"/>nitione, dicendum quod omnia 
+hujus<lb break="no" ed="#Bc" n="82"/>modi posita, ut in sequenti diffinitione
+<lb ed="#Bc" n="83"/>patebit, procedunt a voluntate aliquid
+<lb ed="#Bc" n="84"/>consequendi: et ita destruunt alienum,
+<lb ed="#Bc" n="85"/>ut consequantur vel retineant proprium :
+<lb ed="#Bc" n="86"/>et sic de illis etiam tenet diffinitio.
+</p>
+            <p xml:id="alalal-d96211-d1e716">
+               <lb ed="#Bc" n="87"/>Ad aliud dicendum, quod justitia 
+di<lb break="no" ed="#Bc" n="88"/>citur hic generaliter totus ordo 
+rectitu<lb break="no" ed="#Bc" n="89"/>dinis quae continetur in lege naturali et
+<lb ed="#Bc" n="90"/>scripta, et non ponitur pro speciali 
+vir<lb break="no" ed="#Bc" n="91"/>tute, nec etiam ponitur pro generali 
+vir<lb break="no" ed="#Bc" n="92"/>tute quae justitia generalis vocatur, sed
+<pb ed="#Bc" n="566"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>potius: pro regula vitee contenta in lege
+<lb ed="#Bc" n="2"/>naturali et scripta.
+</p>
+            <p xml:id="alalal-d96211-d1e741">
+               <lb ed="#Bc" n="3"/>Ab Hoc quod objicitur de tertia, 
+di<lb break="no" ed="#Bc" n="4"/>cendum quod lex sumitur communiter,
+<lb ed="#Bc" n="5"/>ut habitum est, et sic prevaricationem
+<lb ed="#Bc" n="6"/>esse non est peccatum, sed est potius
+<lb ed="#Bc" n="7"/>peccali ratio: et ideo bene diffinitur per
+<lb ed="#Bc" n="8"/>prevaricationem. ,
+</p>
+            <p xml:id="alalal-d96211-d1e757">
+               <lb ed="#Bc" n="9"/>AD atiup dicendum, quod obedientia
+<lb ed="#Bc" n="10"/>accipitur dupliciter, scilicet pro speciali
+<lb ed="#Bc" n="11"/>virtute, et haec est voluntas implendi
+<lb ed="#Bc" n="12"/>mandatum, quia mandatum est, et de
+<lb ed="#Bc" n="13"/>illa obedientia et inobedientia tenet 
+ob<lb break="no" ed="#Bc" n="14"/>jectio. Aliter dicitur obedientia genera-~
+<lb ed="#Bc" n="15"/>liter impletio ejus quod est mandatum,
+<lb ed="#Bc" n="16"/>non quia mandatum, et sic omnis 
+vir<lb break="no" ed="#Bc" n="17"/>tus implet mandatum et cadit sub 
+obe<lb break="no" ed="#Bc" n="18"/>dientia in generali dicta, et huic 
+opponi<lb break="no" ed="#Bc" n="19"/>tur inobedientia generaliter sumpta quae
+ <lb ed="#Bc" n="20"/>est omne peccatum: et hoc nihil aliud
+<lb ed="#Bc" n="21"/>est quam non impletio mandati quae fit
+<lb ed="#Bc" n="22"/>in omni peccato, et sic accipitar in 
+dif<lb break="no" ed="#Bc" n="23"/>finitione Ambrosii. |
+</p>
+            <p xml:id="alalal-d96211-d1e792">
+               <lb ed="#Bc" n="24"/>AD ip quod objicitur de quarta, 
+di<lb break="no" ed="#Bc" n="25"/>cendum quod illa diffinitio datur de
+<lb ed="#Bc" n="26"/>peccato secundum rationem mali, et de
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="27"/>illo probatum est supra, quod non est:4”
+<lb ed="#Bc" n="28"/>voluntate vel proposito, nec habet cau. 
+<lb ed="#Bc" n="29"/>sam, sed potius incidit ex defectu bonj.
+<lb ed="#Bc" n="30"/>primi, a quo deflectitur in actu peccati, :
+<lb ed="#Bc" n="31"/>secundum guod habet peccatum causam
+<lb ed="#Bc" n="32"/>deficientem, ut supra est ostensum.
+</p>
+            <p xml:id="alalal-d96211-d1e816">
+               <lb ed="#Bc" n="33"/>Et hoc quod objicitur, nihil valet: .
+<lb ed="#Bc" n="34"/>quia natura non deflectitur deflectibiliter
+<lb ed="#Bc" n="35"/>a bono primo, licet per actum voluntatis
+<lb ed="#Bc" n="36"/>non semper convertatur: deflecti enim
+<lb ed="#Bc" n="37"/>est exire ab ordine qui est principium
+<lb ed="#Bc" n="38"/>primi moventis continue ad finem, qui
+<lb ed="#Bc" n="39"/>idem est cum primo, ut superius est
+<lb ed="#Bc" n="40"/>dictum. 
+</p>
+            <p xml:id="alalal-d96211-d1e836">
+               <lb ed="#Bc" n="41"/>Per hoc patet solutio de incidenti.
+</p>
+            <p xml:id="alalal-d96211-d1e841">
+               <lb ed="#Bc" n="42"/>Relique autem diffinitiones explanate
+<lb ed="#Bc" n="43"/>sunt in principio lectionis hujus_ 
+proble<lb break="no" ed="#Bc" n="44"/>matis.
+</p>
+            <p xml:id="alalal-d96211-d1e851">
+               <lb ed="#Bc" n="45"/>Ad ultimum dicendum, quod peccatum
+<lb ed="#Bc" n="46"/>magis respicit actum, malum autem 
+de<lb break="no" ed="#Bc" n="47"/>formitatem, et culpa contrarietatem ad
+<lb ed="#Bc" n="48"/>gratiam, macula autem infectionem 
+ima<lb break="no" ed="#Bc" n="49"/>ginis, vidiwm autem depravationem 
+na<lb break="no" ed="#Bc" n="50"/>turalium, et reaéus dicit obligationem ad
+<lb ed="#Bc" n="51"/>penam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

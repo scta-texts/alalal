@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="38"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-cc7164"><!-- l1d27et -->
+            <head xml:id="alalal-cc7164-Hd1e99">Expositio textus</head>
+            <p xml:id="alalal-cc7164-d1e101">
+               <cb ed="#Bb" n="d"/>
+               <lb ed="#Bb" n="33"/>Expositio textus.
+</p>
+            <p xml:id="alalal-cc7164-d1e108">
+               <lb ed="#Bb" n="34"/>Omnne queritur de hoc quod dicit
+<lb ed="#Bb" n="35"/>Magister in secunda parte istius distin-
+<cb ed="#Bb" n="e"/>
+               <lb ed="#Bb" n="36"/>ctionis, ibi, <quote xml:id="alalal-cc7164-Qd1e118"> Illae enim proprietate 
+sin<lb break="no" ed="#Bb" n="37"/>gulae singulis, etc. </quote>
+            </p>
+            <p xml:id="alalal-cc7164-d1e124">
+               <lb ed="#Bb" n="38"/>Hoc enim videtur falsum : quia 
+in<lb break="no" ed="#Bb" n="39"/>communicabile non habet determinari,
+<lb ed="#Bb" n="40"/>sed potius commune et universale : ergo
+<lb ed="#Bb" n="41"/>videtur, quod cum nihil sit commune
+<lb ed="#Bb" n="42"/>nisi essentia, quod illa habeat distingui
+<lb ed="#Bb" n="43"/>et derterminari.
+</p>
+            <p xml:id="alalal-cc7164-d1e140">
+               <pb ed="#Bb" n="39"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>Ad hoc dicendum, quod 
+estcommu<lb break="no" ed="#Bb" n="2"/>ne ut universale, et hoc habet 
+deter<lb break="no" ed="#Bb" n="3"/>minari et distingui secundum quod 
+con<lb break="no" ed="#Bb" n="4"/>trahitur ad hoc vel ad illud: est etiam 
+<lb ed="#Bb" n="5"/>commune re tota, id est, quod totum :
+</p>
+            <p xml:id="alalal-cc7164-d1e159">
+               <lb ed="#Bb" n="6"/>convenit singulis suis suppositis, et hoc
+<lb ed="#Bb" n="7"/>non habet determinari, sed est potius
+<lb ed="#Bb" n="8"/>hypostasis, quae non est commune nisi
+<lb ed="#Bb" n="9"/>ratione, ut supra probatum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

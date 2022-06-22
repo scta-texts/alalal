@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 22</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 22</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="305"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a60942"><!-- l1d9a22 -->
+            <head xml:id="alalal-a60942-Hd1e99">Articulus 22</head>
+            <head xml:id="alalal-a60942-Hd1e101" type="question-title">An vivum tantum nascatur ex vivo ?</head>
+            <p xml:id="alalal-a60942-d1e104">
+               <lb ed="#Ba" n="16"/>ARTICULUS XXII.
+<lb ed="#Ba" n="17"/>An vivum tantum nascatur ex vivo ?
+</p>
+            <p xml:id="alalal-a60942-d1e111">
+               <lb ed="#Ba" n="18"/>Deinde quaeritur de hoc quod dicit 
+Hi<lb break="no" ed="#Ba" n="19"/>larius, ibi, N, <quote xml:id="alalal-a60942-Qd1e117"> Quod autem ex vivo
+<lb ed="#Ba" n="20"/>vivum natum est, habet nativitatis 
+per<lb break="no" ed="#Ba" n="21"/>fectum, etc.</quote>
+            </p>
+            <p xml:id="alalal-a60942-d1e125">
+               <lb ed="#Ba" n="22"/>Hoc enim videtur falsum: quia puer
+<lb ed="#Ba" n="23"/>nascitur de vivo: et tamen non habet
+<lb ed="#Ba" n="24"/>nativitatis perfectum : nascitur enim de
+<lb ed="#Ba" n="25"/>patre et matre viventibus.
+</p>
+            <p xml:id="alalal-a60942-d1e137">
+               <lb ed="#Ba" n="26"/>Ap xoc dicendum, quod nihil nascitur
+<lb ed="#Ba" n="27"/>ex omnino vivo, nisi quod nascitur ex 
+vi<lb break="no" ed="#Ba" n="28"/>ta ipsa prima : et ideo solus Filius 
+nasci<lb break="no" ed="#Ba" n="29"/>tur ex vivo. Et hoc probatur sic : In 
+ge<lb break="no" ed="#Ba" n="30"/>neratione simplicium mineralium nihil
+<lb ed="#Ba" n="31"/>est vivum : quia illa non vivunt : sicut si
+<lb ed="#Ba" n="32"/>luminosum proferat lucem, vel elemen-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="33"/>tum speciem suam, vel ex commixtione
+<lb ed="#Ba" n="34"/>elementorum fiant lapides vel metalla.
+<lb ed="#Ba" n="35"/>In generatione autem vivorum duplex
+<lb ed="#Ba" n="36"/>modus est, scilicet ex generante uno, et
+<lb ed="#Ba" n="37"/>ex mortuo : sicut in his quae ex 
+putrefa<lb break="no" ed="#Ba" n="38"/>ctis nascuntur, quorum. modum 
+genera<lb break="no" ed="#Ba" n="39"/>tionis supra tetigimus : et in ills patet,
+<lb ed="#Ba" n="40"/>quod non est generatio ex vivo. Ex vivo
+<lb ed="#Ba" n="41"/>autem generante, neque in plantis, neque
+<lb ed="#Ba" n="42"/>in animalibus, neque in hominibus fit
+<lb ed="#Ba" n="43"/>generatio nisi ex semine, quod non vivit
+<lb ed="#Ba" n="44"/>actu anime : et illa ex quo ut 
+essentiali<lb break="no" ed="#Ba" n="45"/>ter in nato remanente, non fit generatio
+<lb ed="#Ba" n="46"/>ex vivo. Sed in divinis si prepositio notat
+<lb ed="#Ba" n="47"/>identitatem essentiae, quia nihil nisi 
+vi<lb break="no" ed="#Ba" n="48"/>vum estin Patre, fit generatio ex ipsa 
+vi<lb break="no" ed="#Ba" n="49"/>ta et vivo et hoc attendit Hilarius,
+<lb ed="#Ba" n="50"/>quando dicit, quod non potest esse nisi
+<lb ed="#Ba" n="51"/>vivum quod est ex vivo natum. Unde,
+<lb ed="#Ba" n="52"/>Joan. v, 26: Sieut Pater habet vitam in
+<lb ed="#Ba" n="53"/>semetipso, sic dedit et Filio habere vitam
+<lb ed="#Ba" n="54"/>im semetipso.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

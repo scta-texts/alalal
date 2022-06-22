@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="481"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a94887"><!-- l1d17dt2 -->
+            <head xml:id="alalal-a94887-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a94887-d1e101">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="6"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-a94887-d1e108">
+               <lb ed="#Ba" n="7"/>
+               <quote xml:id="alalal-a94887-Qd1e112"> Hic quaeritur, Si charitas Spiritus
+<lb ed="#Ba" n="8"/>sanctus est, etc. </quote>
+               <lb ed="#Ba" n="9"/>Hic incipit secunda pars istius 
+distin<lb break="no" ed="#Ba" n="10"/>clionis, in qua Magister solvit contra se
+<lb ed="#Ba" n="11"/>objecta. Et dividitur in tres partes : in
+<lb ed="#Ba" n="12"/>quarum prima objicit per rationem et
+<lb ed="#Ba" n="13"/>solvit. In secunda, objicit per 
+auctorita<lb break="no" ed="#Ba" n="14"/>tes et solvit, ibi, L, <quote xml:id="alalal-a94887-Qd1e130"> Supra dictum est,
+<lb ed="#Ba" n="15"/>quod Spiritus sanctus, etc. </quote> In tertia,
+<lb ed="#Ba" n="16"/>objicit per unam auctoritatem, qua 
+ma<lb break="no" ed="#Ba" n="17"/>xime videtur esse contra eum, et solvit,
+<lb ed="#Ba" n="18"/>ibi, Q, <quote xml:id="alalal-a94887-Qd1e142"> Alias quoque inducunt 
+ratio<lb break="no" ed="#Ba" n="19"/>nes, etc. </quote>
+            </p>
+            <p xml:id="alalal-a94887-d1e148">
+               <lb ed="#Ba" n="20"/>In prima parte sunt tria capitula, 
+quo<lb break="no" ed="#Ba" n="21"/>rum primum habet objectionem : 
+secun<lb break="no" ed="#Ba" n="22"/>dum, solutionem, ibi, H, <quote xml:id="alalal-a94887-Qd1e156"> His itaque
+<lb ed="#Ba" n="23"/>respondemus, etc. </quote> Tertium, 
+confirma<lb break="no" ed="#Ba" n="24"/>tionem solutionis, sicut patet in Lettera,
+<lb ed="#Ba" n="25"/>ibi, K, <quote xml:id="alalal-a94887-Qd1e166"> Ut autem certius fiat, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

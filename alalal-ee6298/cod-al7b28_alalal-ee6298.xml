@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="33"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee6298"><!-- l3d2a9 -->
+            <head xml:id="alalal-ee6298-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-ee6298-Hd1e101" type="question-title">An in unione ad carnem indiguit
+medio ?</head>
+            <p xml:id="alalal-ee6298-d1e104">
+               <lb ed="Bd" n="15"/>ARTICULUS IX.
+<lb ed="Bd" n="16"/>An in unione ad carnem indiguit
+<lb ed="Bd" n="17"/>medio ?
+</p>
+            <p xml:id="alalal-ee6298-d1e113">
+               <lb ed="Bd" n="18"/>Circa primum autem horum sunt duo
+<lb ed="Bd" n="19"/>dubia : quorum primum est, utrum 
+dei<lb break="no" ed="Bd" n="20"/>tas in unione ad carnem indiguerit 
+me<lb break="no" ed="Bd" n="21"/>dio ?
+</p>
+            <p xml:id="alalal-ee6298-d1e124">
+               <lb ed="Bd" n="22"/>Secundum est, quale sit illud 
+me<lb break="no" ed="Bd" n="23"/>dium ?
+</p>
+            <p xml:id="alalal-ee6298-d1e132">
+               <lb ed="Bd" n="24"/>Circa pRImuM sic objicitur :
+<lb ed="Bd" n="25"/>1. Extrema multum distantia non 
+uni<lb break="no" ed="Bd" n="26"/>untur nisi per medium aliquod : multum .
+<lb ed="Bd" n="27"/>autem distant corporeum corruptibile
+<lb ed="Bd" n="28"/>creatum, et incorporeum incorruptibile
+<lb ed="Bd" n="29"/>increatum : ergo non nisi aliquo medio
+<lb ed="Bd" n="30"/>uniuntur : talia autem sunt corpus et
+<lb ed="Bd" n="31"/>deitas : ergo videtur, quod talis 
+conjun<lb break="no" ed="Bd" n="32"/>ctio indigeat medio.
+</p>
+            <p xml:id="alalal-ee6298-d1e154">
+               <lb ed="Bd" n="33"/>2. Item, Minus distant creatum cor-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="34"/>ruptibile corporeum, et creatum 
+incor<lb break="no" ed="Bd" n="35"/>ruptibile et incorporeum, quam deitas
+<lb ed="Bd" n="36"/>et corpus : et tamen illa duo uniuntur
+<lb ed="Bd" n="37"/>per medium, scilicet per spiritum 
+corpo<lb break="no" ed="Bd" n="38"/>reum qui movetur in corpore ad modum
+<lb ed="Bd" n="39"/>luminarium in mundo : ergo videtur,
+<lb ed="Bd" n="40"/>quod multo magis deitas et caro debeant
+<lb ed="Bd" n="41"/>habere medium.
+</p>
+            <p xml:id="alalal-ee6298-d1e178">
+               <lb ed="Bd" n="42"/>SED CONTRA:
+<lb ed="Bd" n="43"/>1. Quidquid aliquid per se facere 
+po<lb break="no" ed="Bd" n="44"/>terit sine medio, si utitur medio illo, in
+<lb ed="Bd" n="45"/>illo medium erit superfluum : sed deitas
+<lb ed="Bd" n="46"/>se sine medio potest unire carni : ergo
+<lb ed="Bd" n="47"/>medium erit superfluum.
+</p>
+            <p xml:id="alalal-ee6298-d1e194">
+               <lb ed="Bd" n="48"/>2. Praeterea, Videtur, quod non 
+ha<lb break="no" ed="Bd" n="49"/>buerit animam Christus. Ad vitam enim
+<lb ed="Bd" n="50"/>non requiritur nisi quod est causa vite,
+<lb ed="Bd" n="51"/>et quod est vitam suscipiens : deitas 
+au<lb break="no" ed="Bd" n="52"/>tem precipue est causa omnis vite, 
+cor<lb break="no" ed="Bd" n="53"/>pus autem suscipiens : ergo superfluam
+<lb ed="Bd" n="54"/>habuit animam.
+</p>
+            <p xml:id="alalal-ee6298-d1e212">
+               <lb ed="Bd" n="55"/>3. Praeterea, Hoc videtur dicere 
+Evan<lb break="no" ed="Bd" n="56"/>gelium cum dicit: Verbum caro factum
+<lb ed="Bd" n="57"/>est, Non dicit aliquid de anima.
+</p>
+            <p xml:id="alalal-ee6298-d1e221">
+               <lb ed="Bd" n="58"/>4, Praeterea, Unio redimens suffecit in
+<lb ed="Bd" n="59"/>origine peccati : sed origo peccati in
+<lb ed="Bd" n="60"/>carne est : ergo videtur, quod suffecit
+<lb ed="Bd" n="61"/>unio deitatis ad carnem,
+</p>
+            <p xml:id="alalal-ee6298-d1e233">
+               <lb ed="Bd" n="62"/>3. Item, Christus venitre dimere 
+propa<lb break="no" ed="Bd" n="63"/>ginem : sed tantum secundum carnem
+<lb ed="Bd" n="64"/>propagamur : ergo secundum carnem
+<lb ed="Bd" n="65"/>tantum est unio, et non secundum 
+spi<lb break="no" ed="Bd" n="66"/>ritum : quia animas omnes Deus de 
+no<lb break="no" ed="Bd" n="67"/>vo creat.
+</p>
+            <p xml:id="alalal-ee6298-d1e249">
+               <lb ed="Bd" n="68"/>ConTRA :
+<lb ed="Bd" n="69"/>1. Totum totus assumpsit me, ut toti
+<lb ed="Bd" n="70"/>mihi salutem gratificaret ; sed precipua
+<lb ed="Bd" n="71"/>pars nostri est anima : ergo illam prin~
+<lb ed="Bd" n="72"/>cipaliter assumpsit.
+</p>
+            <p xml:id="alalal-ee6298-d1e262">
+               <lb ed="Bd" n="73"/>2. Item, Precipua mors eratin anima:
+<lb ed="Bd" n="74"/>ergo cum mortem destruere vencrit, 
+pra<lb break="no" ed="Bd" n="75"/>cipue assumere animam debuit.
+</p>
+            <p xml:id="alalal-ee6298-d1e271">
+               <lb ed="Bd" n="76"/>Solutio Dicendum, quod Christus 
+as<lb break="no" ed="Bd" n="77"/>sumpsit animam, et corpus, et omnes
+<lb ed="Bd" n="78"/>partes utriusque.
+</p>
+            <p xml:id="alalal-ee6298-d1e280">
+               <lb ed="Bd" n="79"/>Ad id quod quaeritur de medio, dicen-
+<pb ed="#Bd" n="34"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>dum quod ibi medium aliquo modo est
+<lb ed="Bd" n="2"/>unum ad alterum, sicut dicunt Sancti.
+</p>
+            <p xml:id="alalal-ee6298-d1e293">
+               <lb ed="Bd" n="3"/>Ad id autem quod contra objicitur,
+<lb ed="Bd" n="4"/>dicendum quod deitas ex parte sui non
+<lb ed="Bd" n="5"/>indiget medio : sed congruebat mediam
+<lb ed="Bd" n="6"/>ex parte carnis, et hoc medium quale sit
+<lb ed="Bd" n="7"/>in sequenti arliculo questionis 
+determi<lb break="no" ed="Bd" n="8"/>nabitur.
+</p>
+            <p xml:id="alalal-ee6298-d1e310">
+               <lb ed="Bd" n="9"/>Ad i quod objicitur, quod Christus
+<lb ed="Bd" n="10"/>non habuit animam, dicendum quod 
+li<lb break="no" ed="Bd" n="11"/>cet deitas sit per se causa vite, tamen
+<lb ed="Bd" n="12"/>non est causa vite, ut actus corporis
+<lb ed="Bd" n="13"/>physici : quia sic esset forma corpori
+<lb ed="Bd" n="14"/>unita, et faciens compositionem : quod
+<lb ed="Bd" n="15"/>absurdum est. Et talis causa vite 
+exigi<lb break="no" ed="Bd" n="16"/>tur in vita naturali : unde non esset 
+ve<lb break="no" ed="Bd" n="17"/>rus homo si corpus tantum assumpsissct,
+<lb ed="Bd" n="18"/>nec vila sua esset ut a forma et causa
+<lb ed="Bd" n="19"/>naturali : sed potius essct per effectum
+<lb ed="Bd" n="20"/>miraculi, et non valeret nobis, eo quod
+<lb ed="Bd" n="21"/>ille talis non haberet convenientiam 
+no<lb break="no" ed="Bd" n="22"/>biscum in natura speciei, et ideo 
+debi<lb break="no" ed="Bd" n="23"/>tum nostrum solvere non potuisset.
+</p>
+            <p xml:id="alalal-ee6298-d1e345">
+               <lb ed="Bd" n="24"/>Ad auvp dicendum, quod caro in
+<lb ed="Bd" n="25"/>Evangelio ponitur pro toto homine : sed
+<lb ed="Bd" n="26"/>nominatur defectibilior pars, ideo ut 
+os<lb break="no" ed="Bd" n="27"/>tendatur Christum nullam partem 
+no<lb break="no" ed="Bd" n="28"/>stre nature despexisse, et infirmiora
+<lb ed="Bd" n="29"/>nosira accepisse.
+</p>
+            <p xml:id="alalal-ee6298-d1e361">
+               <lb ed="Bd" n="30"/>Ad aliud dicendum, quod licet 
+pecca<lb break="no" ed="Bd" n="31"/>tum in posteris sit 1m origine In corpore,
+<lb ed="Bd" n="32"/>tamen primo tantum est ab anima, et
+<lb ed="Bd" n="33"/>etiam in posteris inficit animam.
+</p>
+            <p xml:id="alalal-ee6298-d1e372">
+               <lb ed="Bd" n="34"/>Item, In posteris non redimet tantum
+<lb ed="Bd" n="35"/>ab originali, sed etiam ab actuali : quia
+<lb ed="Bd" n="36"/>nostra pcenitentia mhil valeret, si sua
+<lb ed="Bd" n="37"/>salisfactio non occideret peccatum ante
+<lb ed="Bd" n="38"/>actuale, quod ut a causa prima ab 
+ani<lb break="no" ed="Bd" n="39"/>ma est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

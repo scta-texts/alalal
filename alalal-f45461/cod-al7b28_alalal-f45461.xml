@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="749"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f45461"><!-- l3d40a3 -->
+            <head xml:id="alalal-f45461-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-f45461-Hd1e101" type="question-title">An lex decalogi justificabat, ex quo 
+prohibuit manum et animum?</head>
+            <p xml:id="alalal-f45461-d1e104">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="60"/>ARTICULUS III.
+<lb ed="Bd" n="61"/>An lex decalogi justificabat, ex quo 
+pro<lb break="no" ed="Bd" n="62"/>hibuit manum et animum?
+</p>
+            <p xml:id="alalal-f45461-d1e115">
+               <lb ed="Bd" n="63"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="64"/>ibi, A, § 3: <quote xml:id="alalal-f45461-Qd1e121"> Sed cum hic prohibeatur
+<lb ed="Bd" n="65"/>concupiscentia alien uxoris, etc. </quote>
+            </p>
+            <p xml:id="alalal-f45461-d1e127">
+               <lb ed="Bd" n="66"/>Gratia enim hujus quaeritur, Au lex
+<lb ed="Bd" n="67"/>decalogi justilicabat, ex quo prohibuit
+<lb ed="Bd" n="68"/>manum et animum ?
+</p>
+            <p xml:id="alalal-f45461-d1e137">
+               <lb ed="Bd" n="69"/>Videtur autem quod sic :
+<lb ed="Bd" n="70"/>1. Justitia enim est abstinentia mali in
+<lb ed="Bd" n="71"/>corde, ore, et manu : omnia autem hec
+<lb ed="Bd" n="72"/>tangunt praecepta et ordinant : ergo 
+vi<lb break="no" ed="Bd" n="73"/>detur, quod justificabat.
+</p>
+            <p xml:id="alalal-f45461-d1e150">
+               <lb ed="Bd" n="74"/>2. Item, Matth. xrx, 17: Si vis ad 
+vi<lb break="no" ed="Bd" n="75"/>tam ingredi, serva mandata. Et 
+determi<lb break="no" ed="Bd" n="76"/>nat ea, scilicet, Non occides, non 
+mecha<lb break="no" ed="Bd" n="77"/>beris, etc.: cum ergo ad vitam aeternam
+<lb ed="Bd" n="78"/>nemo ingrediatur nisi per justitiam, 
+vi<lb break="no" ed="Bd" n="79"/>detur quod mandata justificabant.
+</p>
+            <p xml:id="alalal-f45461-d1e166">
+               <pb ed="#Bd" n="750"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>3. Item, Beda : <quote xml:id="alalal-f45461-Qd1e174"> Justitia legis suo
+<lb ed="Bd" n="2"/>tempore custodita, non solum bona 
+tem<lb break="no" ed="Bd" n="3"/>poralia, sed et vitam conferebat #
+ter<lb break="no" ed="Bd" n="4"/>nam :</quote> haec autem non confertur nisi
+<lb ed="Bd" n="5"/>justificato : ergo lex decalogi justificabat.
+</p>
+            <p xml:id="alalal-f45461-d1e186">
+               <lb ed="Bd" n="6"/>4, Item, Ad Roman. ut, 20: <quote xml:id="alalal-f45461-Qd1e190">Ex 
+ope<lb break="no" ed="Bd" n="7"/>ribus legis non fustificabitur omnis caro
+<lb ed="Bd" n="8"/>coram illo</quote>. Ibi dicit Glossa Augustini :
+<lb ed="Bd" n="9"/>
+               <quote xml:id="alalal-f45461-Qd1e199"> De lege loquitur secundum 
+cerimonia<lb break="no" ed="Bd" n="10"/>lia, non secundum moralia qu 
+justifica<lb break="no" ed="Bd" n="11"/>bant. </quote> Ergo justificabat decalogus.
+</p>
+            <p xml:id="alalal-f45461-d1e207">
+               <lb ed="Bd" n="12"/>5. Si dicatur, quod non justificabant
+<lb ed="Bd" n="13"/>nisi ex charitate facta : et ideo opus 
+ope<lb break="no" ed="Bd" n="14"/>ratum non justificabat, sed opus operans :
+<lb ed="Bd" n="15"/>tune videtur nulla fuisse differentia inter
+<lb ed="Bd" n="16"/>moralia et cerimonialia, quia in 
+cerimo<lb break="no" ed="Bd" n="17"/>nialibus etiam opus operans ex charitate,
+<lb ed="Bd" n="18"/>valebat ad salutem, et non opus 
+opera<lb break="no" ed="Bd" n="19"/>tum.
+</p>
+            <p xml:id="alalal-f45461-d1e227">
+               <lb ed="Bd" n="20"/>Sed contra :
+<lb ed="Bd" n="21"/>1. Ad Roman. in, 20: <quote xml:id="alalal-f45461-Qd1e233">Ex operibus 
+le<lb break="no" ed="Bd" n="22"/>gis non justificabitur omnis cara coram
+<lb ed="Bd" n="23"/>illo</quote>. Et loquitur de opere decalogi : ergo
+<lb ed="Bd" n="24"/>non justificabat.
+</p>
+            <p xml:id="alalal-f45461-d1e244">
+               <lb ed="Bd" n="25"/>2. Item, Ad Roman. vin, 15: <quote xml:id="alalal-f45461-Qd1e248">Non 
+ac<lb break="no" ed="Bd" n="26"/>cepistis spiritum servilutis tterum in
+<lb ed="Bd" n="27"/>timore</quote>, etc., dicit Glossa : <quote xml:id="alalal-f45461-Qd1e255"> Praecepta in
+<lb ed="Bd" n="28"/>veteri lege, timore servili servabantur : </quote>
+               <lb ed="Bd" n="29"/>timor autem servilis est cum peccato
+<lb ed="Bd" n="30"/>mortali, et non potest simul aliquis esse
+<lb ed="Bd" n="31"/>justus et in peecato mortali : ergo timor
+<lb ed="Bd" n="32"/>servilis non justificat : ergo nec 
+manda<lb break="no" ed="Bd" n="33"/>tum quod timore servili movente 
+imple<lb break="no" ed="Bd" n="34"/>batur.
+</p>
+            <p xml:id="alalal-f45461-d1e274">
+               <lb ed="Bd" n="35"/>3. Item, Exod. xx, 47, super illud :
+<lb ed="Bd" n="36"/>Non concupisces domum proximi tut,
+<lb ed="Bd" n="37"/>dicit Glossa : <quote xml:id="alalal-f45461-Qd1e282"> Lex prohibet manum,
+<lb ed="Bd" n="38"/>non animum : </quote> cum igitur justilia 
+prin<lb break="no" ed="Bd" n="39"/>cipaliter sit in corde, non in manu, lex
+<lb ed="Bd" n="40"/>decalogi non justificabat, ut videtur.
+</p>
+            <p xml:id="alalal-f45461-d1e293">
+               <lb ed="Bd" n="41"/>4. Item, Super lud Psalmi xvin, 8 :
+<lb ed="Bd" n="42"/>Lex Domini immaculata, etc., dicit 
+Glos<lb break="no" ed="Bd" n="43"/>sa: <quote xml:id="alalal-f45461-Qd1e301"> Lex vetus non fecit animas 
+imma<lb break="no" ed="Bd" n="44"/>culatas : </quote> decalogus autem erat in veteri
+<lb ed="Bd" n="45"/>lege : ergo non faciebat animas 
+immacu<lb break="no" ed="Bd" n="46"/>Jatas : ergo nec justas.
+</p>
+            <p xml:id="alalal-f45461-d1e312">
+               <lb ed="Bd" n="47"/>5. Item, IF ad Corinth. m, 6 : <quote xml:id="alalal-f45461-Qd1e316">Littera
+<lb ed="Bd" n="48"/>accidit, spiritus autem vivificat</quote>. Et dicit
+<lb ed="Bd" n="49"/>Magister in Zettera, quod littera occidens,
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>est decalogus : constat autem, quod id
+<lb ed="Bd" n="51"/>quod vivificat, non occidit : ergo 
+decalo<lb break="no" ed="Bd" n="52"/>gus non justificat.
+</p>
+            <p xml:id="alalal-f45461-d1e333">
+               <lb ed="Bd" n="53"/>Solutio Dicendum, quod justificans
+<lb ed="Bd" n="54"/>dicitur quadrupliciter, scilicet effective,
+<lb ed="Bd" n="55"/>et sic solus Deus justificat. Formaliter,
+<lb ed="Bd" n="56"/>et hoc duobus modis, scilicet ut forma
+<lb ed="Bd" n="57"/>propria faciens actum justum, sicut 
+al<lb break="no" ed="Bd" n="58"/>bedo album, et sic sola justitia justificat -
+<lb ed="Bd" n="59"/>et ut removens dispositionem contrariam,
+<lb ed="Bd" n="60"/>et sic gratia sacramentalis justificat, quae
+<lb ed="Bd" n="61"/>principaliter ordinata est contra 
+pecca<lb break="no" ed="Bd" n="62"/>tum, ut probatur tm principio quarti
+<lb ed="Bd" n="63"/>Sententiarum. Tertio modo dicitur 
+justi<lb break="no" ed="Bd" n="64"/>ficans, faciens dignum vita aeterna et
+<lb ed="Bd" n="65"/>merito operis, et sic sola charitas 
+justi<lb break="no" ed="Bd" n="66"/>ficat. Quarto modo dicitur justificans,
+<lb ed="Bd" n="67"/>consuetudinem justitiae inducens, et sic
+<lb ed="Bd" n="68"/>opus justificat, et per consequens 
+pra<lb break="no" ed="Bd" n="69"/>ceptum quod ligat ad observantiam 
+ope<lb break="no" ed="Bd" n="70"/>ris : et hoc modo decalogus semper 
+justi<lb break="no" ed="Bd" n="71"/>ficat : sed tamen dupliciter, scilicet 
+re<lb break="no" ed="Bd" n="72"/>trahendo a malo, et sic justificabat in
+<lb ed="Bd" n="73"/>prohibitionibus : vel in ordine ad bonum,
+<lb ed="Bd" n="74"/>et sic justificabat in affirmativis.
+</p>
+            <p xml:id="alalal-f45461-d1e383">
+               <lb ed="Bd" n="75"/>Sed tamen notandum, quod cum 
+que<lb break="no" ed="Bd" n="76"/>ritur, utrum decalogus justificabat, 
+que<lb break="no" ed="Bd" n="77"/>ritur de justificatione tertio modo : quia
+<lb ed="Bd" n="78"/>habitus justitiae politic, et etiam opus
+<lb ed="Bd" n="79"/>potest esse cum mortali peccato : et ideo
+<lb ed="Bd" n="80"/>non quaeritur de justilicatione secundo
+<lb ed="Bd" n="81"/>modo, sed terlio modo.
+</p>
+            <p xml:id="alalal-f45461-d1e402">
+               <lb ed="Bd" n="82"/>Dicendum igitur, quod secundum 
+in<lb break="no" ed="Bd" n="83"/>tellectum illum questionis non 
+justifica<lb break="no" ed="Bd" n="84"/>bat : quia ex legislatione Veteris 
+Testa<lb break="no" ed="Bd" n="85"/>menti non conferebat gratiam, eo quod
+<lb ed="Bd" n="86"/>sacramenta ila essent figure gratiae, et
+<lb ed="Bd" n="87"/>non veritas : sed in Novo in quantum
+<lb ed="Bd" n="88"/>hujusmodi justificat, id est, quod implens
+<lb ed="Bd" n="89"/>decalogum, habeat habitum 
+sacramenlo<lb break="no" ed="Bd" n="90"/>rum novorum : quia ex legislatione 
+No<lb break="no" ed="Bd" n="91"/>vi Testamenti confertur gratia, qua 
+im<lb break="no" ed="Bd" n="92"/>pletur et informatur opus decalogi : et
+<lb ed="Bd" n="93"/>ideo justificat.
+</p>
+            <p xml:id="alalal-f45461-d1e431">
+               <lb ed="Bd" n="94"/>Est tamen notandum verbum 
+Augu<lb break="no" ed="Bd" n="95"/>stini, scilicet quod justi in Veteri 
+Testa<lb break="no" ed="Bd" n="96"/>mento pertinebant ad Novum : quia 
+ju<lb break="no" ed="Bd" n="97"/>stitiam in fide Novi aeceperunt : et mali
+<pb ed="#Bd" n="751"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>in Novo, timore servili servientes, 
+perti<lb break="no" ed="Bd" n="2"/>nent ad Vetus quoad non habere 
+gra<lb break="no" ed="Bd" n="3"/>tiam.
+</p>
+            <p xml:id="alalal-f45461-d1e453">
+               <lb ed="Bd" n="4"/>Dicendum ergo ad primum, quod opus
+<lb ed="Bd" n="5"/>cordis, oris, et manus non justificat nisi
+<lb ed="Bd" n="6"/>serviliter consuetudinalem justitiam 
+in<lb break="no" ed="Bd" n="7"/>ducendo : et hance non remunerat Deus,
+<lb ed="Bd" n="8"/>sed illam quae ex charitate procedit.
+</p>
+            <p xml:id="alalal-f45461-d1e466">
+               <lb ed="Bd" n="9"/>Ad aliud dicendum, quod Dominus 
+di<lb break="no" ed="Bd" n="10"/>cit illi obstacula vita, ut removeat, non
+<lb ed="Bd" n="11"/>ut hoc solum sufficiat. Vel dicatur 
+me<lb break="no" ed="Bd" n="12"/>hus : quia ibi Dominus intelligit includi
+<lb ed="Bd" n="13"/>praeceptum de charitate, ad quam omnia
+<lb ed="Bd" n="14"/>mandata referuntur, ut patuit ex superius
+<lb ed="Bd" n="15"/>habitis.
+</p>
+            <p xml:id="alalal-f45461-d1e484">
+               <lb ed="Bd" n="16"/>Ad aliuddicendum, quod justitia illa
+<lb ed="Bd" n="17"/>servata, non conferebat vitam nisi in
+<lb ed="Bd" n="18"/>pertinentibus ad Novum Testamentum,
+<lb ed="Bd" n="19"/>ct ex gratia Novi Testamenti : et ita 
+in<lb break="no" ed="Bd" n="20"/>telligit <name xml:id="alalal-f45461-Nd1e497">Beda</name>.
+</p>
+            <p xml:id="alalal-f45461-d1e500">
+               <lb ed="Bd" n="21"/>Ad aliud dicendum, quod Augustinus
+  <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="22"/>intelligit decalogum pertinere ad statum
+<lb ed="Bd" n="23"/>justitiae perfects, quia moralis est : sed
+<lb ed="Bd" n="24"/>non cerimonialia quae ad justitiam 
+figu<lb break="no" ed="Bd" n="25"/>ralem pertinebant : et ideo decalogus {uit
+<lb ed="Bd" n="26"/>in omni lege, et naturali, et Moysi, et
+<lb ed="Bd" n="27"/>gratia : quia opus suum materiale est in
+<lb ed="Bd" n="28"/>merito semper, quod non est opus 
+ceri<lb break="no" ed="Bd" n="29"/>monialium.
+</p>
+            <p xml:id="alalal-f45461-d1e525">
+               <lb ed="Bd" n="30"/>Ad ultimum dicendum, quod licet in
+<lb ed="Bd" n="31"/>hoc non sit differentia inter cerimonialia
+<lb ed="Bd" n="32"/>et moralia, quia neutra valebant ad 
+me<lb break="no" ed="Bd" n="33"/>ritum sine charitate, tamen est 
+differen<lb break="no" ed="Bd" n="34"/>tia, quia decalogus est de per se bonis
+<lb ed="Bd" n="35"/>semper moventibus in merito, sed non
+<lb ed="Bd" n="36"/>cerimonialia : sicut etiam alie@ virtutes
+<lb ed="Bd" n="37"/>praeter charitatem non valent ad 
+meri<lb break="no" ed="Bd" n="38"/>tum, et tamen per se bone sunt, et 
+ma<lb break="no" ed="Bd" n="39"/>nent in merito, et specificant ipsum in
+<lb ed="Bd" n="40"/>hoc actu et in illo quem singule virtutes
+<lb ed="Bd" n="41"/>eliciunt.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

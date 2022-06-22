@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="406"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e76991"><!-- l3d23a2 -->
+            <head xml:id="alalal-e76991-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-e76991-Hd1e101" type="question-title">An fides sit virtus ?</head>
+            <p xml:id="alalal-e76991-d1e104">
+               <lb ed="Bd" n="29"/>ARTICULUS II.
+<lb ed="Bd" n="30"/>An fides sit virtus ?
+</p>
+            <p xml:id="alalal-e76991-d1e111">
+               <lb ed="Bd" n="31"/>Secundo quaeritur, Utrum fides sit 
+vir<lb break="no" ed="Bd" n="32"/>tus, vel non ?
+</p>
+            <p xml:id="alalal-e76991-d1e118">
+               <lb ed="Bd" n="33"/>Et videtur, quod non :
+<lb ed="Bd" n="34"/>1. Dicit enim Tullius, quod <quote xml:id="alalal-e76991-Qd1e124"> virtus
+<lb ed="Bd" n="35"/>est habitus voluntarius per modum 
+natu<lb break="no" ed="Bd" n="36"/>re, rationi consentaneus : </quote> fides autem
+<lb ed="Bd" n="37"/>nec habitus voluntarius esse videtur,
+<lb ed="Bd" n="38"/>quia non est in voluntate : nec etiam per
+<lb ed="Bd" n="39"/>modum nature, cum natura non inclinet
+<lb ed="Bd" n="40"/>per modum cognitionis, fides autem sit
+<lb ed="Bd" n="41"/>cognitio quaedam : ergo videtur, quod
+<lb ed="Bd" n="42"/>fides non est virtus.
+</p>
+            <p xml:id="alalal-e76991-d1e146">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="43"/>2. Item, Philosophus dicit, quod <quote xml:id="alalal-e76991-Qd1e152"> 
+vir<lb break="no" ed="Bd" n="44"/>tus est in passionibus et operationibus
+<lb ed="Bd" n="45"/>optimorum operativa : </quote> fides autem nec
+<lb ed="Bd" n="46"/>in passionibus est, nec in operationibus,
+<lb ed="Bd" n="47"/>ut videtur : quia operationes sunt super
+<lb ed="Bd" n="48"/>aliquod extra, et in materia determinata:
+<lb ed="Bd" n="49"/>nec est optimorum operativa, sed potius
+<lb ed="Bd" n="50"/>innititur vero : ergo videtur, quod fides
+<lb ed="Bd" n="51"/>non sit virtus.
+</p>
+            <p xml:id="alalal-e76991-d1e173">
+               <lb ed="Bd" n="52"/>3. Item, Dicit Philosophus in Il prime
+<lb ed="Bd" n="53"/>philosophiae, quod <quote xml:id="alalal-e76991-Qd1e179"> finis intelligentie
+<lb ed="Bd" n="54"/>speculative est verum, practice vero
+<lb ed="Bd" n="55"/>opus : </quote> sed sicut se habent potentia, ita
+<lb ed="Bd" n="56"/>et habitus perficientes potentias : ergo
+<lb ed="Bd" n="57"/>omnis habitus cujus finis est verum, est
+<lb ed="Bd" n="58"/>in intellectu speculativo : fides autem est
+<lb ed="Bd" n="59"/>habitus cujus finis est verum : ergo fides
+<lb ed="Bd" n="60"/>est in intellectu speculativo : sed in 
+in<lb break="no" ed="Bd" n="61"/>tellectu speculativo non est virtus aliqua:
+<lb ed="Bd" n="62"/>ergo fides non est virtus.
+</p>
+            <p xml:id="alalal-e76991-d1e202">
+               <lb ed="Bd" n="63"/>4, Item, Non videtur esse verum quod
+<lb ed="Bd" n="64"/>dictum est, quod fides est in intellectu
+<lb ed="Bd" n="65"/>prout consequenter ordinatur ad 
+volun<lb break="no" ed="Bd" n="66"/>tatem : quia omnem motum voluntatis
+<lb ed="Bd" n="67"/>et affectus precedit affectio per 
+cognitio<lb break="no" ed="Bd" n="68"/>nem: prius enim fit nuntiatio affectui,
+<lb ed="Bd" n="69"/>et postea surgit affectus in id quod 
+nun<lb break="no" ed="Bd" n="70"/>tiatur : ergo videtur, quod fides cum 
+nun<lb break="no" ed="Bd" n="71"/>tiet divina, et aperiat oculum, sicut dicit
+<lb ed="Bd" n="72"/>Augustinus, sit prior omni affectu : ergo
+<lb ed="Bd" n="73"/>non habet nisi id quod cognitionis est :
+<lb ed="Bd" n="74"/>ergo non est virtus : quia nulla pura 
+co<lb break="no" ed="Bd" n="75"/>gnitio est virtus, eo quod nullo modo est
+<lb ed="Bd" n="76"/>a nobis: licet enim consentiamus vero
+<lb ed="Bd" n="77"/>cognito, hoc non est a nobis, sed a rei
+<lb ed="Bd" n="78"/>veritate cogente rationem.
+</p>
+            <p xml:id="alalal-e76991-d1e239">
+               <lb ed="Bd" n="79"/>Si forte dicas, quod fides est veri per
+<lb ed="Bd" n="80"/>modum boni, et ita est in intellectu 
+pra<lb break="no" ed="Bd" n="81"/>ctico : hoc non potest esse verum: quia
+<lb ed="Bd" n="82"/>sic verum in fide esset materiale, et 
+bo<lb break="no" ed="Bd" n="83"/>num formale: ergo quoad formale in
+<lb ed="Bd" n="84"/>objecto non distingueretur a charitate,
+<lb ed="Bd" n="85"/>cujus finis et objectum est bonum : ergo
+<lb ed="Bd" n="86"/>fides et charitas non differrent nisi 
+mate<lb break="no" ed="Bd" n="87"/>rialiter, quod falsum est.
+</p>
+            <p xml:id="alalal-e76991-d1e261">
+               <lb ed="Bd" n="88"/>Si autem dicas, quod differrent in hoc
+<lb ed="Bd" n="89"/>quod verum est bonum rationalis 
+poten<lb break="no" ed="Bd" n="90"/>tiae, et quoad hoc fides tendit in ipsum :
+<lb ed="Bd" n="91"/>sed hoc iterum nihil est ; quia nulla po-
+<pb ed="#Bd" n="407"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>tentia est adeo speculativa, quin habeat
+<lb ed="Bd" n="2"/>finem : et ille secundum quod est finis,
+<lb ed="Bd" n="3"/>ita est bonum illi potentia, et 
+desidera<lb break="no" ed="Bd" n="4"/>tus ab ipsa: et sic jam omnis scientia
+<lb ed="Bd" n="5"/>virtus efficeretur, quod falsum est : ergo
+<lb ed="Bd" n="6"/>fides non est virtus.
+</p>
+            <p xml:id="alalal-e76991-d1e290">
+               <lb ed="Bd" n="7"/>SED CONTRA :
+<lb ed="Bd" n="8"/>1. Omnis habitus movens potentiam
+<lb ed="Bd" n="9"/>non permodum artis et scientiae, sed per
+<lb ed="Bd" n="10"/>modum nature (ut vult Tullius) est 
+vir<lb break="no" ed="Bd" n="11"/>tus: fides est talis habitus : ergo fides est
+<lb ed="Bd" n="12"/>virtus. Prima scribitur a Tullio. Secunpa
+<lb ed="Bd" n="13"/>probatur per antedicta : quia habitus qui
+<lb ed="Bd" n="14"/>est ars et scientia, habet rationes, et 
+in<lb break="no" ed="Bd" n="15"/>nititur ilis : fides autem non habet, nec
+<lb ed="Bd" n="16"/>innilitur eis : ergo movet per modum 
+na<lb break="no" ed="Bd" n="17"/>ture, sicut grave deorsum, et leve 
+sur<lb break="no" ed="Bd" n="18"/>sum, praeter hoc quod cognoscat 
+ratio<lb break="no" ed="Bd" n="19"/>nem.
+</p>
+            <p xml:id="alalal-e76991-d1e322">
+               <lb ed="Bd" n="20"/>2. Item, Virtus (ut dicit Philosophus)
+<lb ed="Bd" n="21"/>est dispositio perfecti ad optimum : fides
+<lb ed="Bd" n="22"/>autem omne quod perficit et disponit,
+<lb ed="Bd" n="23"/>ordinat ad optimum, quia ad Deum : 
+er<lb break="no" ed="Bd" n="24"/>go fides est virtus.
+</p>
+            <p xml:id="alalal-e76991-d1e335">
+               <lb ed="Bd" n="25"/>3. Item, Omne id quod est principium
+<lb ed="Bd" n="26"/>justificationis et purificationis cordis, est
+<lb ed="Bd" n="27"/>virtus : fides est hujusmodi: ergo est
+<lb ed="Bd" n="28"/>virtus. Prosatio prima : quia nihil 
+justi<lb break="no" ed="Bd" n="29"/>ficat nisi quod formaliter contrariatur
+<lb ed="Bd" n="30"/>impuro peccati: et hoc est etiam tantum
+<lb ed="Bd" n="31"/>virtus. Srcunpa scribitur, Act. xv, 9:
+<lb ed="Bd" n="32"/>Fide purificans corda eorum. El 
+Augu<lb break="no" ed="Bd" n="33"/>stinus dicit, quod fides est qua 
+justifica<lb break="no" ed="Bd" n="34"/>mur. Et, ad Roman. tv, 11: Signum 
+ac<lb break="no" ed="Bd" n="35"/>cepul earcumeisionis, signaculum justitie
+<lb ed="Bd" n="36"/>fidet quae erat in preputio.
+</p>
+            <p xml:id="alalal-e76991-d1e364">
+               <lb ed="Bd" n="37"/>4. Item, Augustinus dicit, quod fides
+<lb ed="Bd" n="38"/>est virtus : et ponitur in Letéera.
+</p>
+            <p xml:id="alalal-e76991-d1e371">
+               <lb ed="Bd" n="39"/>5. Item, Apostolus ad Webr. x1, 6:
+<lb ed="Bd" n="40"/>Sine fide impossibile est placere Deo. Et,
+<lb ed="Bd" n="41"/>Kecli. xnv, 4: In fide et lenitate ipsius
+<lb ed="Bd" n="42"/>sanctum fecit illum. Et, ad mulierem quae
+<lb ed="Bd" n="43"/>erat in fluxu sanguinis ab annis 
+duode<lb break="no" ed="Bd" n="44"/>cim, Luc. vi, 48: Fides tua te salvam
+<lb ed="Bd" n="45"/>fecut'. Et quia tota Scriptura hoc clamat,
+<lb ed="Bd" n="46"/>ideo ista sufficiant.
+</p>
+            <p xml:id="alalal-e76991-d1e391">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="47"/>Solutio Dicendum, quod fides est 
+vir<lb break="no" ed="Bd" n="48"/>tus theologica. Sunt enim virtutes 
+theo<lb break="no" ed="Bd" n="49"/>logice immediate ordinantes in Deum,
+<lb ed="Bd" n="50"/>sicut cardinales ordinant in medium 
+pas<lb break="no" ed="Bd" n="51"/>sionum et operationum laudabilium : et
+<lb ed="Bd" n="52"/>ideo aliter et aliter iste habent suas 
+re<lb break="no" ed="Bd" n="53"/>ctiludines : quia cardinales dicuntur re~
+<lb ed="Bd" n="54"/>cta ex actu, vel cx appropinquatione ad
+<lb ed="Bd" n="55"/>medium, et curvum earum oppositum,
+<lb ed="Bd" n="56"/>est deflexus in superfluum vel 
+diminu<lb break="no" ed="Bd" n="57"/>tum : rectitudo autem theologicarum
+<lb ed="Bd" n="58"/>consistit in recto ordine in finem, 
+secun<lb break="no" ed="Bd" n="59"/>dum quod est ratio beatitudinis in vero
+<lb ed="Bd" n="60"/>et bono et indeficienti, alto et arduo: et
+<lb ed="Bd" n="61"/>obliquatio illi opposita, est deflexus a fine
+<lb ed="Bd" n="62"/>ad bonum commutabile. Sie igitur 
+dici<lb break="no" ed="Bd" n="63"/>mus, quod fides est una virtutum 
+theolo<lb break="no" ed="Bd" n="64"/>gicarum.
+</p>
+            <p xml:id="alalal-e76991-d1e435">
+               <lb ed="Bd" n="65"/>Ad primum ergo dicendum, quod virtus
+<lb ed="Bd" n="66"/>non dicitur habitus voluntarius, eo quod
+<lb ed="Bd" n="67"/>omnis virtus sit in voluntate sicutin 
+sub<lb break="no" ed="Bd" n="68"/>jecto : sed potius ideo, quia in opere
+<lb ed="Bd" n="69"/>virtutis et generationis habitus principrum
+<lb ed="Bd" n="70"/>movens est voluntas ; et hoc sane dicitur
+<lb ed="Bd" n="71"/>in consuetudinalibus : sed voluntas in
+<lb ed="Bd" n="72"/>theologicis et infusis ad minus 
+coopera<lb break="no" ed="Bd" n="73"/>tur per consensum. Similiter fides est 
+in<lb break="no" ed="Bd" n="74"/>clinans per modum nature : quia non
+<lb ed="Bd" n="75"/>habet rationem sufficientem consensui,
+<lb ed="Bd" n="76"/>et si haberet, non tamen innititur. Unde
+<lb ed="Bd" n="77"/>in scientia et artibus ratio est causa 
+con<lb break="no" ed="Bd" n="78"/>sensus, et prius accipitur ratio uc postea
+<lb ed="Bd" n="79"/>consentiatur : in fide autem est e 
+contra<lb break="no" ed="Bd" n="80"/>rio: prius enim consentitur prime 
+veri<lb break="no" ed="Bd" n="81"/>tali propter se, et postea quaeritur ratio
+<lb ed="Bd" n="82"/>ut aliqualiter intelligatur creditum : et
+<lb ed="Bd" n="83"/>postquam inventa est, adhue non 
+inniti<lb break="no" ed="Bd" n="84"/>tur ei fides : et ideo patet, quod totum
+<lb ed="Bd" n="85"/>ex libertate voluntatis procedit, quod 
+fa<lb break="no" ed="Bd" n="86"/>cit fidem assentire : et ideo inclinat ut 
+na<lb break="no" ed="Bd" n="87"/>tura.
+</p>
+            <p xml:id="alalal-e76991-d1e488">
+               <lb ed="Bd" n="88"/>Ad aliud dicendum, quod Philosophus
+<lb ed="Bd" n="89"/>Joquitur de politicis et consuetudinalibus,
+<lb ed="Bd" n="90"/>et non de intellectuali virtute : quia etiam
+<lb ed="Bd" n="91"/>in V Ethicorum, dat aliam doctrinam de
+<lb ed="Bd" n="92"/>intellectu et prudentia et ¢edvqs., quam
+<lb ed="Bd" n="93"/>ipse dedit de castitate et fortitudine. Vel
+<pb ed="#Bd" n="408"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>potest dici, quod fides habet opus 
+inte<lb break="no" ed="Bd" n="2"/>rius, quod est tendere in veritatem 
+pri<lb break="no" ed="Bd" n="3"/>mam, et in illa potentia operatur 
+opti<lb break="no" ed="Bd" n="4"/>mum: sed non habet passiones. quia non
+<lb ed="Bd" n="5"/>omnis virtus est in passionibus proprie
+<lb ed="Bd" n="6"/>loquendo.
+</p>
+            <p xml:id="alalal-e76991-d1e521">
+               <lb ed="Bd" n="7"/>Ad aliud dicendum, quod est verum
+<lb ed="Bd" n="8"/>finis speculationis, quod est ut 
+princi<lb break="no" ed="Bd" n="9"/>pium scientiae rei: et hoc est quasi 
+mo<lb break="no" ed="Bd" n="10"/>tum a re ad intellectum, et consistit in
+<lb ed="Bd" n="11"/>universali ratione rei : et est verum 
+bea<lb break="no" ed="Bd" n="12"/>lificans intellectum, et hoc est verum 
+ex<lb break="no" ed="Bd" n="13"/>tra intelleetum, in quod ipse tendit: et
+<lb ed="Bd" n="14"/>non est ratio ret, sed potius res summa,
+<lb ed="Bd" n="15"/>et una lux felivitatis aeterne : et illa lux
+<lb ed="Bd" n="16"/>est finis intelligentiae affecte circa ipsum
+<lb ed="Bd" n="17"/>verum. Unde bene coneedo, quod nulla
+<lb ed="Bd" n="18"/>est solutio dicentium, quod fides est in
+<lb ed="Bd" n="19"/>veruin per wodum boni : hoc enim est
+<lb ed="Bd" n="20"/>unpossibile, cum imnitatur prime veritati
+<lb ed="Bd" n="21"/>propter se: si enim tenderet in eam in
+<lb ed="Bd" n="22"/>ratione boni, jam non inniteretur ei 
+pro<lb break="no" ed="Bd" n="23"/>pter se, sed propter bonum, quod falsum
+<lb ed="Bd" n="24"/>est. Et ideo dictum Philosophi non 
+im<lb break="no" ed="Bd" n="25"/>pedit nos: quia verum de quo ipse dicit,
+<lb ed="Bd" n="26"/>est equivocum ad finem fidei.
+</p>
+            <p xml:id="alalal-e76991-d1e567">
+               <lb ed="Bd" n="27"/>Ad aliud dicendum, quod dictum est
+<lb ed="Bd" n="28"/>supra, quod hoc necessarium est quoad
+<lb ed="Bd" n="29"/>consensum, qui est substantia actus fidei:
+<lb ed="Bd" n="30"/>quia illa est post aliquam cognitionem
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="31"/>ad quam efficaciter tendit voluntas per
+<lb ed="Bd" n="32"/>consensum : sed verum quod est acceptio
+<lb ed="Bd" n="33"/>credibilis per auditum, precedit 
+affe<lb break="no" ed="Bd" n="34"/>ctum : sed ille intellectus non est nisi
+<lb ed="Bd" n="35"/>quid est, quod dicitur per nomen 
+credi<lb break="no" ed="Bd" n="36"/>bilis, accipiens : et ideo non per rationem
+<lb ed="Bd" n="37"/>probantem, quod vel quare ita sit : sed
+<lb ed="Bd" n="38"/>libera voluntate consentit. Et sic patet,
+<lb ed="Bd" n="39"/>quod ratio non procedit nisi de intellectu
+<lb ed="Bd" n="40"/>qui est quid est quod dicitur per nomen.
+</p>
+            <p xml:id="alalal-e76991-d1e602">
+               <lb ed="Bd" n="41"/>Tamen si quis subtiliter vellet 
+distin<lb break="no" ed="Bd" n="42"/>guere, posset dicere, quod est intellectus
+<lb ed="Bd" n="43"/>ut intellectus, et in illo nulla virtus est : et
+<lb ed="Bd" n="44"/>est intellectus ut est per extensionem ad
+<lb ed="Bd" n="45"/>opus : et haec extensio fit duobus modis.
+<lb ed="Bd" n="46"/>Primo modo, quia affectus principatur in
+<lb ed="Bd" n="47"/>eo qui facit inquiri operabilia. Alio 
+mo<lb break="no" ed="Bd" n="48"/>do, quia forma accepta ab ipso est 
+prin<lb break="no" ed="Bd" n="49"/>cipium operis et scientiae : et sic 
+exten<lb break="no" ed="Bd" n="50"/>ditur in affectum modo primo, et verum
+<lb ed="Bd" n="51"/>scibile in bonum operabile modo 
+secun<lb break="no" ed="Bd" n="52"/>do. Et iste est intellectus practicus in
+<lb ed="Bd" n="53"/>quo sunt virtutes quaedam, ut prudentia,
+<lb ed="Bd" n="54"/>epdvnets, et intellectus, et hujusmodi 
+vir<lb break="no" ed="Bd" n="55"/>tutes intellectuales. Est autem intellectus
+<lb ed="Bd" n="56"/>veri, cujus consensus principium est 
+vo<lb break="no" ed="Bd" n="57"/>luntas : et ille est affectivus intellectus :
+<lb ed="Bd" n="58"/>et in illo est fides : et licet unus sit 
+sub<lb break="no" ed="Bd" n="59"/>jecto, tamen esse suum per hujusmodi
+<lb ed="Bd" n="60"/>formas, et ratio sua non est una.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="651"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e10312"><!-- l2d42dt -->
+            <head xml:id="alalal-e10312-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e10312-d1e101">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="24"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-e10312-d1e108">
+               <lb ed="#Bc" n="25"/>
+               <quote xml:id="alalal-e10312-Qd1e112"> Cum autem voluntas mala et 
+opera<lb break="no" ed="#Bc" n="26"/>tio sint peccatum, etc. </quote>
+               <lb ed="#Bc" n="27"/>Hic incipit agere de modis peccatorum.
+<lb ed="#Bc" n="28"/>Et habet duas partes : in quarum
+<cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="29"/>prima tangit generales diffinitiones 
+radi<lb break="no" ed="#Bc" n="30"/>cum peccati. In secunda, specialiter 
+tan<lb break="no" ed="#Bc" n="31"/>git diversitatem peccati maximi, quod est
+<lb ed="#Bc" n="32"/>peccatum in Spiritum sanctum, quae 
+in<lb break="no" ed="#Bc" n="33"/>cipit infra, distinct. XLII, ibi, A, <quote xml:id="alalal-e10312-Qd1e134"> Est
+<lb ed="#Bc" n="34"/>preterea quoddam peccatum, etc. </quote>
+            </p>
+            <p xml:id="alalal-e10312-d1e140">
+               <lb ed="#Bc" n="35"/>Hec autem distinctio habet partes
+<lb ed="#Bc" n="36"/>quinque : in quarum prima querit,
+<lb ed="#Bc" n="37"/>Utrum voluntas actualis interior, et opus
+<lb ed="#Bc" n="38"/>exterius, sint unum peccatum, vel non?
+<pb ed="#Bc" n="652"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>In secunda, qualiter peccatum transit
+<lb ed="#Bc" n="2"/>actu, et manet reatu? ibi, D, <quote xml:id="alalal-e10312-Qd1e159"> Preterea
+<lb ed="#Bc" n="3"/>solet queri, Cum ab aliquo, etc. </quote> In
+<lb ed="#Bc" n="4"/>tertia, tangit diversitatem radicum 
+pec<lb break="no" ed="#Bc" n="5"/>cati, ibi, F, <quote xml:id="alalal-e10312-Qd1e169"> Modi autem peccatorum,
+<lb ed="#Bc" n="6"/>etc. </quote> In quarta, agit de septem vitiis
+<lb ed="#Bc" n="7"/>capitalibus, ibi, H, <quote xml:id="alalal-e10312-Qd1e176"> Preterea sciendum
+<lb ed="#Bc" n="8"/>est, etc. </quote> In quinta, ostendit qualiter
+<lb ed="#Bc" n="9"/>ex superbia et cupiditate omnia vitia
+<lb ed="#Bc" n="10"/>oriuntur, ibi, I, <quote xml:id="alalal-e10312-Qd1e185"> Hz. superbia tamen
+<lb ed="#Bc" n="11"/>omnia mala, etc. </quote>
+            </p>
+            <p xml:id="alalal-e10312-d1e191">
+               <lb ed="#Bc" n="12"/>Et per haec et disputationem 
+sequen<lb break="no" ed="#Bc" n="13"/>tem patebit sententia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

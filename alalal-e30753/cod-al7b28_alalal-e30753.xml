@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="161"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e30753"><!-- l3d8dt1 -->
+            <head xml:id="alalal-e30753-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e30753-d1e101">
+               <pb ed="#Bd" n="161"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-e30753-d1e110">
+               <lb ed="Bd" n="2"/>
+               <quote xml:id="alalal-e30753-Qd1e114"> Post haec inquiri debet, etc. </quote>
+               <lb ed="Bd" n="3"/>Hic incipit pars illa quae est de 
+con<lb break="no" ed="Bd" n="4"/>venientibus conjuncto ex unitate et 
+uni<lb break="no" ed="Bd" n="5"/>pili.
+</p>
+            <p xml:id="alalal-e30753-d1e123">
+               <lb ed="Bd" n="6"/>Sunt autem tria secundum Dionysium
+<lb ed="Bd" n="7"/>in omni perfecto uno consideranda, 
+sci<lb break="no" ed="Bd" n="8"/>licet substantia, virtus, et operatio: et
+<lb ed="Bd" n="9"/>vocatur substantia compositum sive 
+per<lb break="no" ed="Bd" n="10"/>sona, virtus autem potentia naturalis ad
+<lb ed="Bd" n="11"/>actum vel passionem, operatio autem
+<lb ed="Bd" n="12"/>opus qued est hypostasis constitute et
+<lb ed="Bd" n="13"/>perfect secundum virtutem quae inest ei.
+<lb ed="Bd" n="14"/>Et ideo etiam proprictates Christi uniti
+<lb ed="Bd" n="15"/>sunt triplices. Aut enim sunt uniti 
+secun<lb break="no" ed="Bd" n="16"/>dum quod unitum est : et de illis agitur
+<lb ed="Bd" n="17"/>in prima parte. Aut sunt Christi 
+secun<lb break="no" ed="Bd" n="18"/>dum potentiam vel virtutem sumptam ex
+<lb ed="Bd" n="19"/>parte anime vel corporis: et de illis
+<lb ed="Bd" n="20"/>agitur in parte secunda, quae incipit, 
+dis<lb break="no" ed="Bd" n="21"/>tinct. XH, ibi, A, <quote xml:id="alalal-e30753-Qd1e159"> Praeterea sciendum
+<lb ed="Bd" n="22"/>est, Christum secundum hominem ab 
+ip<lb break="no" ed="Bd" n="23"/>sa conceptione, etc. </quote> Et quod hoc verum
+<lb ed="Bd" n="24"/>sit, patet : quia ibi agit de sapientia et
+<lb ed="Bd" n="25"/>gratia Christi, quae insunt secundum 
+po<lb break="no" ed="Bd" n="26"/>tentiam sumptam in anima: et in 
+dis<lb break="no" ed="Bd" n="27"/>tinct. XV agit de defectibus nostris 
+as<lb break="no" ed="Bd" n="28"/>sumptis, qui insunt secundum 
+impoten<lb break="no" ed="Bd" n="29"/>tiam sumptam ex parte corporis. Aut
+<lb ed="Bd" n="30"/>sunt etiam proprietates secundum opera
+<lb ed="Bd" n="31"/>sumpte : et de his agit in distinct. XVIII
+<lb ed="Bd" n="32"/>que incipit ibi, A, <quote xml:id="alalal-e30753-Qd1e186"> De merito cliam
+<lb ed="Bd" n="33"/>Christi praetermittendum non est, etc. </quote>
+               <lb ed="Bd" n="34"/>Et quod hoc etiam verum sit, patet :
+<lb ed="Bd" n="35"/>quia omnia quae ponuntur ibi, sunt de
+<lb ed="Bd" n="36"/>merito, de mediatione, et redemptione,
+<lb ed="Bd" n="37"/>et de morte quae fuit opus 
+precellentissi<lb break="no" ed="Bd" n="38"/>me fortitudinis: et ideo in illa finitur
+<lb ed="Bd" n="39"/>tractatus de incarnatione.
+</p>
+            <p xml:id="alalal-e30753-d1e205">
+               <lb ed="Bd" n="40"/>De proprietatibus igitur Christi 
+homi<lb break="no" ed="Bd" n="41"/>nisin quantum est Deus et homo, habetur
+<lb ed="Bd" n="42"/>in prima parte : et dividitur in duas 
+par<lb break="no" ed="Bd" n="43"/>tes. Quedam enim proprietates insunt ei
+<lb ed="Bd" n="44"/>in esse : quaedam autem non insunt ei,
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="45"/>nisi secundum posse per intellectum, 
+sic<lb break="no" ed="Bd" n="46"/>ut est posse assumere alium, posse 
+as<lb break="no" ed="Bd" n="47"/>sumere in sexu muliebri. De his ergo
+<lb ed="Bd" n="48"/>que primo modo insunt, agit im primis
+<lb ed="Bd" n="49"/>quatuor distinctionibus, et etiam in 
+pri<lb break="no" ed="Bd" n="50"/>mo capite quinte distinctionis quae est
+<lb ed="Bd" n="51"/>duodecima. De his vero qu secundo
+<lb ed="Bd" n="52"/>modo insunt, agit in alia parte 
+duodcci<lb break="no" ed="Bd" n="53"/>me distinctionis, ibi, B, <quote xml:id="alalal-e30753-Qd1e239"> Solet autem
+<lb ed="Bd" n="54"/>queri, Utrum alium hominem, ete.</quote>
+            </p>
+            <p xml:id="alalal-e30753-d1e246">
+               <lb ed="Bd" n="55"/>Proprietates quae insunt in esse, 
+cau<lb break="no" ed="Bd" n="56"/>santur a principiis essentialibus Christi.
+<lb ed="Bd" n="57"/>Illa autem aut sunt extrinseca, sicut
+<lb ed="Bd" n="58"/>pater et mater : aut intrinseca, ut 
+utra<lb break="no" ed="Bd" n="59"/>que natura. Et ideo prior dividitur in
+<lb ed="Bd" n="60"/>tres partes : in quarum prima agitur de
+<lb ed="Bd" n="61"/>proprietatibus consequentibus Christum
+<lb ed="Bd" n="62"/>unitum secundum comparationem ad
+<lb ed="Bd" n="63"/>principium a quo sicut per generationem,
+<lb ed="Bd" n="64"/>sicut est nasci, vel bis nasci: et de istigs
+<lb ed="Bd" n="65"/>agitur in ista distinctione octava. Aut
+<lb ed="Bd" n="66"/>causantur a divina natura, sicut est 
+ho<lb break="no" ed="Bd" n="67"/>nor, et adoratio, et hujusmodi: et de
+<lb ed="Bd" n="68"/>istis agit in distinct. EX, ibi, A, <quote xml:id="alalal-e30753-Qd1e278"> 
+Pre<lb break="no" ed="Bd" n="69"/>terea investigare oporiet, ete. </quote> Aut 
+con<lb break="no" ed="Bd" n="70"/>sequuntur ipsum et humana natura : et
+<lb ed="Bd" n="71"/>de ilis est dicendum decima et undecima
+<lb ed="Bd" n="72"/>distinctione, et in primo capite 
+duode<lb break="no" ed="Bd" n="73"/>cimee. Hac autem pars incipit ibi, dist.
+<lb ed="Bd" n="74"/>X, A, <quote xml:id="alalal-e30753-Qd1e294"> Solet etiama quibusdam 
+inqui<lb break="no" ed="Bd" n="75"/>vi, etc. </quote>
+            </p>
+            <p xml:id="alalal-e30753-d1e300">
+               <lb ed="Bd" n="76"/>In ista autem distinctione quae 
+presen<lb break="no" ed="Bd" n="77"/>tis est lectionis, sunt duo capitula, scilicet
+<lb ed="Bd" n="78"/>utrum debeat dici divinitas nata et 
+con<lb break="no" ed="Bd" n="79"/>cepta? Et, Utrum debeat dici Christus
+<lb ed="Bd" n="80"/>bis natus, ibi, B, <quote xml:id="alalal-e30753-Qd1e313"> Queri etiam solet,
+<lb ed="Bd" n="81"/>etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

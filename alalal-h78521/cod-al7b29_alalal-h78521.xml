@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="832"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h78521"><!-- l4d20a2 -->
+            <head xml:id="alalal-h78521-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-h78521-Hd1e101" type="question-title">An sanus poenitens potest conjicere de
+certitudine charitatis, an odio an
+amore dignus sit ?</head>
+            <p xml:id="alalal-h78521-d1e104">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="35"/>ARTICULUS II.
+<lb ed="#Be" n="36"/>An sanus poenitens potest conjicere de
+<lb ed="#Be" n="37"/>certitudine charitatis, an odio an
+<lb ed="#Be" n="38"/>amore dignus sit ?
+</p>
+            <p xml:id="alalal-h78521-d1e117">
+               <lb ed="#Be" n="39"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="40"/>ibi, A, paulo post : <quote xml:id="alalal-h78521-Qd1e123"> Tene certum, et
+<lb ed="#Be" n="41"/>dimitte incertum. </quote>
+            </p>
+            <p xml:id="alalal-h78521-d1e129">
+               <lb ed="#Be" n="42"/>ConTRA:
+<lb ed="#Be" n="43"/>Eccle. rx, 1 : <quote xml:id="alalal-h78521-Qd1e135">Nescit homo utrum 
+amo<lb break="no" ed="#Be" n="44"/>re an odio dignus sit</quote>. Ergo poenitens et
+<lb ed="#Be" n="45"/>confitens sanus; non est certus.
+</p>
+            <p xml:id="alalal-h78521-d1e144">
+               <lb ed="#Be" n="46"/>Responsio. Intelligit hoc de certitudine
+<lb ed="#Be" n="47"/>conjecture : quia conjicere potest de
+<lb ed="#Be" n="48"/>amore charitatis, quando poenitet sanus :
+<lb ed="#Be" n="49"/>sed signum est timoris tantum, quando .
+<lb ed="#Be" n="50"/>non pcenitet nisi infirmus. Ecclesiastes
+<lb ed="#Be" n="51"/>autem loquitur de certitudine scientiae :
+<lb ed="#Be" n="52"/>hanc enim nullus habet.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

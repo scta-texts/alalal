@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="7"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-cc1345"><!-- l1d26a4 -->
+            <head xml:id="alalal-cc1345-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-cc1345-Hd1e101" type="question-title">Qualiter se habet hypostasis ad 
+personam ?</head>
+            <p xml:id="alalal-cc1345-d1e104">
+               <lb ed="#Bb" n="80"/>ARTICULUS IV.
+<lb ed="#Bb" n="81"/>Qualiter se habet hypostasis ad 
+perso<lb break="no" ed="#Bb" n="82"/>nam ?
+</p>
+            <p xml:id="alalal-cc1345-d1e113">
+               <lb ed="#Bb" n="83"/>Quarto queritur, Qualiter se habeat
+<lb ed="#Bb" n="84"/>hypostasis ad personam ?
+</p>
+            <p xml:id="alalal-cc1345-d1e120">
+               <lb ed="#Bb" n="85"/>1. Videtur autem, quod sicut 
+distin<lb break="no" ed="#Bb" n="86"/>guibile ad distinctum : quia
+</p>
+            <p xml:id="alalal-cc1345-d1e128">
+               <lb ed="#Bb" n="87"/>1. Supra positam diffinitio claudit in
+<lb ed="#Bb" n="88"/>se distinctionem, cum dicitur, Persona est
+<lb ed="#Bb" n="89"/>individua substantia rationalis nature :
+<pb ed="#Bb" n="8"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>hypostasis autem non claudit in se 
+fa<lb break="no" ed="#Bb" n="2"/>ctam distinctionem.
+</p>
+            <p xml:id="alalal-cc1345-d1e146">
+               <lb ed="#Bb" n="3"/>2. Praeterea, Magister dicit sepe, quod
+<lb ed="#Bb" n="4"/>proprietates sunt in hypostasibus: non
+<lb ed="#Bb" n="5"/>autem sunt in ipsis nisi sicut in 
+distin<lb break="no" ed="#Bb" n="6"/>ctis : ergo hypostases sine proprietati~
+<lb ed="#Bb" n="7"/>bus sunt distinguibiles.
+</p>
+            <p xml:id="alalal-cc1345-d1e159">
+               <lb ed="#Bb" n="8"/>SED CONTRA :
+<lb ed="#Bb" n="9"/>1. In divinis nihil est in posse : ergo
+<lb ed="#Bb" n="10"/>idem est ibi distinguibile et distinctum :
+<lb ed="#Bb" n="11"/>ergo idem est hypostasis et persona.
+</p>
+            <p xml:id="alalal-cc1345-d1e170">
+               <lb ed="#Bb" n="12"/>2. Item, Damascenus dicit, quod in
+<lb ed="#Bb" n="13"/>omnibus idem sunt praeter 
+ingeneratio<lb break="no" ed="#Bb" n="14"/>nem, et generationem, et processionem :
+<lb ed="#Bb" n="15"/>ergo quidquid est ante hoc, est de 
+uni<lb break="no" ed="#Bb" n="16"/>tate essentiae : ergo si hypostasis est
+<lb ed="#Bb" n="17"/>ante hoc, est de unitate essentiae : sed
+<lb ed="#Bb" n="18"/>hoc falsum est: ergo hypostasis habet
+<lb ed="#Bb" n="19"/>intellectum proprietatis : ergo idem
+<lb ed="#Bb" n="20"/>est quod persona.
+</p>
+            <p xml:id="alalal-cc1345-d1e192">
+               <lb ed="#Bb" n="21"/>Solutio. Dicendum, quod in divinis
+<lb ed="#Bb" n="22"/>nihil est in potentia sicut probat 
+ob<lb break="no" ed="#Bb" n="23"/>jectio : et ideo hypostasis secundum
+<lb ed="#Bb" n="24"/>rem est persona: et bene concedo 
+ulte<lb break="no" ed="#Bb" n="25"/>rius, quod supposita hypostasi 
+supponi<lb break="no" ed="#Bb" n="26"/>tur persona : quia hypostasi convenit
+<lb ed="#Bb" n="27"/>quidquid convenit person, scilicet dis—
+<lb ed="#Bb" n="28"/>tingui, generari, generare, procedere,
+<lb ed="#Bb" n="29"/>et omnia hujugmodi.
+</p>
+            <p xml:id="alalal-cc1345-d1e214">
+               <lb ed="#Bb" n="30"/>Veruin est tamen quod aliter 
+signi<lb break="no" ed="#Bb" n="31"/>ficatur per nomen hypostasis, et aliter
+<lb ed="#Bb" n="32"/>per nomen persone. Et ad hoc 
+intelli<lb break="no" ed="#Bb" n="33"/>gendum, notandum quod in 
+inferiori<lb break="no" ed="#Bb" n="34"/>bus sunt quatuor, scilicet res nature,
+<lb ed="#Bb" n="35"/>subjectum, suppositum, individuum,
+<lb ed="#Bb" n="36"/>quibus etiam in natura rationali 
+adji<lb break="no" ed="#Bb" n="37"/>citur quintum quod est persona : et rem
+<lb ed="#Bb" n="38"/>nature intelligimus compositum ex 
+ma<lb break="no" ed="#Bb" n="39"/>teria et forma, vel quod est et quo est,
+<lb ed="#Bb" n="40"/>in natura et sub natura communi, et hoc
+<lb ed="#Bb" n="41"/>est hoc aliquid in natura. Suppositum
+<lb ed="#Bb" n="42"/>autem addit rei nature respectum ad
+<lb ed="#Bb" n="43"/>naturam communem, cui supponitur ut
+<lb ed="#Bb" n="44"/>incommunicabile. Subjectum autem, ut
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="45"/>dicit Philosophus, est ens in se 
+com<lb break="no" ed="#Bb" n="46"/>pletum, occasio alteri existendi in eo:
+<lb ed="#Bb" n="47"/>et hoc habet respectum ad accidens, licet
+<lb ed="#Bb" n="48"/>non sit in intellectu sui nominis habitus
+<lb ed="#Bb" n="49"/>accidentis : et hoc vocatur ab 
+Aristo<lb break="no" ed="#Bb" n="50"/>tele substantia, et a Graecis Snéoractc. 
+In<lb break="no" ed="#Bb" n="51"/>dividuum autem est habens accidentia
+<lb ed="#Bb" n="52"/>individuantia. Persona autem in 
+ratio<lb break="no" ed="#Bb" n="53"/>nali natura dicit incommunicabile 
+se<lb break="no" ed="#Bb" n="54"/>cundum modum, praeter solum _ 
+intelle<lb break="no" ed="#Bb" n="55"/>ctum compositionis, quiin divinis non
+<lb ed="#Bb" n="56"/>est. A Sanctis autem inveniuntur posita
+<lb ed="#Bb" n="57"/>quatuor, scilicet res natures quam ponit
+<lb ed="#Bb" n="58"/>Hilarius, et suppositum, et hypostasim,
+<lb ed="#Bb" n="59"/>et personam : individuum enim et 
+singu<lb break="no" ed="#Bb" n="60"/>lare non proprie sunt in divinis. Et
+<lb ed="#Bb" n="61"/>res natura erit in divinis hic, quis,
+<lb ed="#Bb" n="62"/>vel aliquis in natura divina : 
+supposi<lb break="no" ed="#Bb" n="63"/>tum autem per habitudinem ad naturam
+<lb ed="#Bb" n="64"/>communem : hypostasis autem per 
+ha<lb break="no" ed="#Bb" n="65"/>bitudinem ad proprietatem : sed 
+perso<lb break="no" ed="#Bb" n="66"/>na hypostasis distincta proprietate.
+</p>
+            <p xml:id="alalal-cc1345-d1e300">
+               <lb ed="#Bb" n="67"/>Ad Hoc ergo quod objicitur primo,
+<lb ed="#Bb" n="68"/>dicendum quod non sequitur ex hoc
+<lb ed="#Bb" n="69"/>quod sint distinguibiles : sed sequitur
+<lb ed="#Bb" n="70"/>ex hoc quod important in nomine 
+habi<lb break="no" ed="#Bb" n="71"/>tudinem distincti ad distinguens, quam
+<lb ed="#Bb" n="72"/>habitudinem non importat nomen 
+per<lb break="no" ed="#Bb" n="73"/>sone, sed potius importat ipsum dis~
+<lb ed="#Bb" n="74"/>tinctum secundum quod est distinctum :
+<lb ed="#Bb" n="75"/>sicut cum dico, hoc celum est celum,
+<lb ed="#Bb" n="76"/>ly hoc celum importat habitudinem
+<lb ed="#Bb" n="77"/>materiae ad formam, ut dicit 
+Philoso<lb break="no" ed="#Bb" n="78"/>phus : non tamen sequitur, quod 
+mate<lb break="no" ed="#Bb" n="79"/>ria illa umquam fuerit sine forma 
+se<lb break="no" ed="#Bb" n="80"/>cundum naturam.
+</p>
+            <p xml:id="alalal-cc1345-d1e333">
+               <lb ed="#Bb" n="81"/>Ad id quod contra objicitur, jam 
+re<lb break="no" ed="#Bb" n="82"/>sponsum est.
+</p>
+            <p xml:id="alalal-cc1345-d1e340">
+               <lb ed="#Bb" n="83"/>Ad aliud dicendum, quod (ut dictum
+<lb ed="#Bb" n="84"/>est) distinctum in divinis meo judicio
+<lb ed="#Bb" n="85"/>secundum intellectum est post 
+distin<lb break="no" ed="#Bb" n="86"/>guens : ideo non procedit illa objectio :
+<lb ed="#Bb" n="87"/>et tamen non habet in se intellectum
+<lb ed="#Bb" n="88"/>proprietatis, sed potius habitudinis ad
+<lb ed="#Bb" n="89"/>proprietatem distinguentem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

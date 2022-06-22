@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="510"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a99430"><!-- l1d19dt1 -->
+            <head xml:id="alalal-a99430-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a99430-d1e101">
+               <lb ed="#Ba" n="21"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-a99430-d1e106">
+               <lb ed="#Ba" n="22"/>
+               <quote xml:id="alalal-a99430-Qd1e110"> Nunc postyuam coeternitatem trium
+<lb ed="#Ba" n="23"/>personarum, etc, </quote>
+               <lb ed="#Ba" n="24"/>Hic incipit secunda pars ishius 
+tracta<lb break="no" ed="#Ba" n="25"/>tus de Trinitate, in qua Magister agit de
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="26"/>equalitate personarum. Ad distinctionem
+  <lb ed="#Ba" n="27"/>enim personarum in divinis, sicut supra
+  <lb ed="#Ba" n="28"/>dictum est ’, exigebatur, quod remaneret
+  <lb ed="#Ba" n="29"/>equalitas essentiae in natura sub qua 
+di<lb break="no" ed="#Ba" n="30"/>stinguuntur, et aequalitas pradicationis :
+  <lb ed="#Ba" n="31"/>et de his Magister determinat usque ad
+  <lb ed="#Ba" n="32"/>XXVI distinctionem.</p>
+            <p xml:id="alalal-a99430-d1e138">
+               <lb ed="#Ba" n="33"/>Dividitur autem in tres partes : in 
+qua<lb break="no" ed="#Ba" n="34"/>rum prima agit de hisin quibus attenditur
+<pb ed="#Ba" n="511"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>aequalitas personarum. In secunda autem
+<lb ed="#Ba" n="2"/>de diversitate nominum substantialiter
+<lb ed="#Ba" n="3"/>et personaliter dictorum, ut accipiantur
+<lb ed="#Ba" n="4"/>notionalia et personalia, de quibus 
+in<lb break="no" ed="#Ba" n="5"/>tendit : et haecincipit distinctione XXII,
+<lb ed="#Ba" n="6"/>ibi, <quote xml:id="alalal-a99430-Qd1e161"> Post praedicta disserendum nobis
+<lb ed="#Ba" n="7"/>videtur de nominun diversitate, etc. </quote>
+               <lb ed="#Ba" n="8"/>In tertia agit de dictionibus numeralibus
+<lb ed="#Ba" n="9"/>qua adjungi habent et essentialibus et
+<lb ed="#Ba" n="10"/>personalibus et notionalibus : et haec
+in<lb break="no" ed="#Ba" n="11"/>cipit distinctione XXIV, ibi, <quote xml:id="alalal-a99430-Qd1e175"> Mee 
+dilr<lb break="no" ed="#Ba" n="12"/>genter inquiri oporiet,cum in Trinitate,
+<lb ed="#Ba" n="13"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-a99430-d1e183">
+               <lb ed="#Ba" n="14"/>Prima haram duas habet partes, 
+scili<lb break="no" ed="#Ba" n="15"/>cet illam quae est de his in quibus 
+perso<lb break="no" ed="#Ba" n="16"/>ne attenditur aequalitas, et illam que
+<lb ed="#Ba" n="17"/>occasionalur ex ista, scilicet quid sit 
+di<lb break="no" ed="#Ba" n="18"/>ctum, cum dicitur, solus Pater, cam
+<lb ed="#Ba" n="19"/>equalitas ponat pluralitatem : et de aliis
+<lb ed="#Ba" n="20"/>significationibus dictionum exclusivarum
+<lb ed="#Ba" n="21"/>que incipit distinctione XXI, ibi, <quote xml:id="alalal-a99430-Qd1e202"> Mic
+<lb ed="#Ba" n="22"/>ortiur questio trahens originem ex 
+pre<lb break="no" ed="#Ba" n="23"/>dictis. </quote>
+            </p>
+            <p xml:id="alalal-a99430-d1e211">
+               <lb ed="#Ba" n="24"/>Harum anterior adhuc scinditur in
+<lb ed="#Ba" n="25"/>duas : in quaruim prima venando in 
+qui<lb break="no" ed="#Ba" n="26"/>bus attendatur awqualitas, probat tres
+<lb ed="#Ba" n="27"/>personas wquales esse in magnitudine.
+<lb ed="#Ba" n="28"/>In secunda, probat aequales esse in 
+po<lb break="no" ed="#Ba" n="29"/>tentia, distinctione XX, ibi, <quote xml:id="alalal-a99430-Qd1e226"> Nene 
+os<lb break="no" ed="#Ba" n="30"/>tendere restat, quomodo aliqua harum
+<lb ed="#Ba" n="31"/>personarum, etc. </quote>
+            </p>
+            <p xml:id="alalal-a99430-d1e234">
+               <lb ed="#Ba" n="32"/>Haec distinctio dividitur in tres partes :
+<lb ed="#Ba" n="33"/>in quarum prima ostendit in quibus est
+<lb ed="#Ba" n="34"/>equalitas. In secunda, ostendit qualiter
+<lb ed="#Ba" n="35"/>equales sunt magnitudine, ibi,C, <quote xml:id="alalal-a99430-Qd1e244"> Nene
+<lb ed="#Ba" n="36"/>igitur superest ostendere, etc. </quote> In ter-~
+<lb ed="#Ba" n="37"/>tia, repetit ut quaedam addat, ibi, R,
+<lb ed="#Ba" n="38"/>
+               <quote xml:id="alalal-a99430-Qd1e254"> Sciendum est ergo tantam aequalitatem
+<lb ed="#Ba" n="39"/>esse in Trinitate, etc. </quote>
+            </p>
+            <p xml:id="alalal-a99430-d1e260">
+               <lb ed="#Ba" n="40"/>Prima harum habet tria capitula : in
+<lb ed="#Ba" n="41"/>quorum primo venatur ea in quibus est
+<lb ed="#Ba" n="42"/>equalitas. In secundo ostendit, quod
+<lb ed="#Ba" n="43"/>realiter ab essentia non differunt, ibi, B,
+<lb ed="#Ba" n="44"/>
+               <quote xml:id="alalal-a99430-Qd1e273"> Cum enumerentur ista quasi diversa,
+<lb ed="#Ba" n="45"/>etc. </quote> In tertio dicit, quod de squalitate
+<lb ed="#Ba" n="46"/>zternitatis jam habitum est : unde restat
+<lb ed="#Ba" n="47"/>dicere de magnitudine, ibi, in fine cap.
+<lb ed="#Ba" n="48"/>B, <quote xml:id="alalal-a99430-Qd1e284"> Qued autem aeternitate, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

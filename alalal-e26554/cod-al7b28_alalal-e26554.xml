@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="134"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e26554"><!-- l3d6dt2 -->
+            <head xml:id="alalal-e26554-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e26554-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="21"/>DIVISIO TEXTUS.
+<lb ed="Bd" n="22"/>
+               <quote xml:id="alalal-e26554-Qd1e109"> Sunt autem et alii qui istis in parte 
+<lb ed="Bd" n="23"/>consentiunt, etc. </quote>
+            </p>
+            <p xml:id="alalal-e26554-d1e115">
+               <lb ed="Bd" n="24"/>Hic incipit secunda opinio quam fere
+<lb ed="Bd" n="25"/>omnes moderni defendunt : eo quod in
+<lb ed="Bd" n="26"/>ipsa magis exprimitur sacramentum
+<lb ed="Bd" n="27"/>unionis. Et habet duas partes: in 
+qua<lb break="no" ed="Bd" n="28"/>rum prima ponuntur suae positiones : et
+<lb ed="Bd" n="29"/>in secunda, probationes suarum 
+positio<lb break="no" ed="Bd" n="30"/>num, ibi, E, <quote xml:id="alalal-e26554-Qd1e132"> De hoc Augustinus in 
+li<lb break="no" ed="Bd" n="31"/>bro Sententiarum Prosperi, etc. </quote>
+            </p>
+            <p xml:id="alalal-e26554-d1e138">
+               <lb ed="Bd" n="32"/>Sicut autem ex Littera prioris capituli
+<lb ed="Bd" n="33"/>colligi potest, quatuor sunt positiones
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="34"/>istius, scilicet quod cum dicitur, hic 
+ho<lb break="no" ed="Bd" n="35"/>mo, supponitur Christus in duabus na~
+<lb ed="Bd" n="36"/>turis compositus ex tribus substantiis,
+<lb ed="Bd" n="37"/>scilicet carne, anima, et deitate: et 
+ex<lb break="no" ed="Bd" n="38"/>trahitur in principio capituli, ubi dicit :
+<lb ed="Bd" n="39"/>
+               <quote xml:id="alalal-e26554-Qd1e159"> Dicunt hominem illum non ex anima,
+<lb ed="Bd" n="40"/>etc </quote> Secunda est, quod Christus sit
+<lb ed="Bd" n="41"/>unum tantum, et non duo ; et accipitur,
+<lb ed="Bd" n="42"/>ibi, <quote xml:id="alalal-e26554-Qd1e169"> Non ut due essent persone, etc., </quote>
+               <lb ed="Bd" n="43"/>quia in veritate, sicut supra patuit, ad
+<lb ed="Bd" n="44"/>duo supposita esse, sequitur duas 
+perso<lb break="no" ed="Bd" n="45"/>nas esse, cum nihil sit dictum, quod
+<lb ed="Bd" n="46"/>unio facta fuerit in proprietate personali
+<lb ed="Bd" n="47"/>tantum, et non in eo quod est persona.
+<lb ed="Bd" n="48"/>Tertia est, quod homo non sit 
+assump<lb break="no" ed="Bd" n="49"/>tus, nec hic homo, nec persona: et hee
+<lb ed="Bd" n="50"/>accipitur, ibi, <quote xml:id="alalal-e26554-Qd1e188"> Persona ergo quae prius
+<lb ed="Bd" n="51"/>erat simplex, etc.,</quote> quia non dicunt
+<pb ed="#Bd" n="135"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>assumptum, id est, compositum ei nisi
+<lb ed="Bd" n="2"/>naturam. Quarta vero est, quod non 
+di<lb break="no" ed="Bd" n="3"/>citur absoiute persona illa facta nisi 
+ad<lb break="no" ed="Bd" n="4"/>datur secundum hominis naturam, vel
+<lb ed="Bd" n="5"/>facta est composita, vel hujusmodi : et
+<lb ed="Bd" n="6"/>haec extrahiturinde: <quote xml:id="alalal-e26554-Qd1e211"> Nec famen 
+perso<lb break="no" ed="Bd" n="7"/>na illa debet dici facta persona, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="408"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c77370"><!-- l1d45a6 -->
+            <head xml:id="alalal-c77370-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-c77370-Hd1e101" type="question-title">An voluntas divina sit communis vel
+propria, necessaria vel contingens
+omnium causa ?</head>
+            <p xml:id="alalal-c77370-d1e104">
+               <lb ed="#Bb" n="70"/>ARTICULUS VI.
+<lb ed="#Bb" n="71"/>An voluntas divina sit communis vel
+<lb ed="#Bb" n="72"/>propria, necessaria vel contingens
+<lb ed="#Bb" n="73"/>omnium causa ?
+</p>
+            <p xml:id="alalal-c77370-d1e115">
+               <lb ed="#Bb" n="74"/>Tertio queritur, Utrum sit causa 
+pro<lb break="no" ed="#Bb" n="75"/>pria vel communis, necessaria vel 
+con<lb break="no" ed="#Bb" n="76"/>tingens ?
+</p>
+            <p xml:id="alalal-c77370-d1e124">
+               <lb ed="#Bb" n="77"/>Videtur autem, quod communis
+<lb ed="#Bb" n="78"/>quia
+<lb ed="#Bb" n="79"/>1. Communis est quam non sequitur
+<lb ed="#Bb" n="80"/>esse causati : sed voluntatem Dei ab
+<lb ed="#Bb" n="81"/>eterno non sequitur esse causati: ergo
+<lb ed="#Bb" n="82"/>voluntas Dei est causa communis.
+</p>
+            <p xml:id="alalal-c77370-d1e141">
+               <lb ed="#Bb" n="83"/>2. Item, Videtur quod sit contingens :
+<lb ed="#Bb" n="84"/>quia dicit Augustinus : <quote xml:id="alalal-c77370-Qd1e147"> Quod voluntate
+<lb ed="#Bb" n="85"/>omnibus abyssis.
+<pb ed="#Bb" n="409"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" n="1"/>fit, non fit ex necessitate : quod autem
+<lb ed="#Bb" n="2"/>fit et non necessario, fit contingenter : </quote>
+               <lb ed="#Bb" n="3"/>ergo quod voluntate fit, contingenter fit :
+<lb ed="#Bb" n="4"/>ergo voluntas est causa contingens.
+</p>
+            <p xml:id="alalal-c77370-d1e165">
+               <lb ed="#Bb" n="5"/>SED CONTRA
+<lb ed="#Bb" n="6"/>1. Communis causa est aliquo 
+indi<lb break="no" ed="#Bb" n="7"/>gens ad hoc ut causet: voluntas Dei
+<lb ed="#Bb" n="8"/>nullo indiget : ergo non est causa 
+com<lb break="no" ed="#Bb" n="9"/>munis.
+</p>
+            <p xml:id="alalal-c77370-d1e178">
+               <lb ed="#Bb" n="10"/>2. Item, Omnis causa communis est
+<lb ed="#Bb" n="11"/>determinabilis per aliquid addibile sibi :
+<lb ed="#Bb" n="12"/>voluntas Dei nujlo determinabilis est :
+<lb ed="#Bb" n="13"/>ergo ut prius,
+</p>
+            <p xml:id="alalal-c77370-d1e189">
+               <lb ed="#Bb" n="14"/>Item videtur, quod nec sit contingens.
+<lb ed="#Bb" n="15"/>Omne contingens mutabile est : dicit
+<lb ed="#Bb" n="16"/>enim Aristoteles : <quote xml:id="alalal-c77370-Qd1e197"> Quod contingit esse,
+<lb ed="#Bb" n="17"/>contingit non esse: </quote> Deus autem et in
+<lb ed="#Bb" n="18"/>potentia et scientia et voluntate omnino
+<lb ed="#Bb" n="19"/>est immutabilis : ergo sua voluntas non
+<lb ed="#Bb" n="20"/>est causa contingens.
+</p>
+            <p xml:id="alalal-c77370-d1e210">
+               <lb ed="#Bb" n="21"/>Solutio. Ista questio supra notata est
+<lb ed="#Bb" n="22"/>in questione, Utrum praedestinatio 
+ha<lb break="no" ed="#Bb" n="23"/>beat causam  ? Et sicut ibi dictum est,
+<lb ed="#Bb" n="24"/>voluntas est causa determinata, et 
+pro<lb break="no" ed="#Bb" n="25"/>pria rerum omnium. Sed non sequitur,
+<lb ed="#Bb" n="26"/>siistaest ab wterno, quod effectus sit
+<lb ed="#Bb" n="27"/>ab aeterno : quia impeditur hoc ex parte
+<lb ed="#Bb" n="28"/>ordinis sapientiae, et ex parte causati, de
+<lb ed="#Bb" n="29"/>cujus ratione est, quod fluxit in esse
+<lb ed="#Bb" n="30"/>post non esse: et per hoc patet solutio
+<lb ed="#Bb" n="31"/>ad primum.
+</p>
+            <p xml:id="alalal-c77370-d1e236">
+               <lb ed="#Bb" n="32"/>Ad aliud dicendum, quod ipsa non
+<lb ed="#Bb" n="33"/>est causa contingens : sed contingentis
+<lb ed="#Bb" n="34"/>et necessarii est ipsa causa necessaria :
+<lb ed="#Bb" n="35"/>sed necessitas est multiplex, ut 
+distin<lb break="no" ed="#Bb" n="36"/>ctum est supra? : et in Deo cadit bene
+<lb ed="#Bb" n="37"/>necessitas simplex, quae est immutabilis,
+<lb ed="#Bb" n="38"/>que nec sonat coactionem, nec 
+obliga<lb break="no" ed="#Bb" n="39"/>tlonem.
+</p>
+            <p xml:id="alalal-c77370-d1e257">
+               <lb ed="#Bb" n="40"/>Ad pictum autem Augustini dicendum,
+<lb ed="#Bb" n="41"/>quod ipse loquitur de voluntate creature
+<lb ed="#Bb" n="42"/>et non Creatoris.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

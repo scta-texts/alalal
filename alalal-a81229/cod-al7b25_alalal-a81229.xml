@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="410"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a81229"><!-- l1d15a1 -->
+            <head xml:id="alalal-a81229-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-a81229-Hd1e101" type="question-title">Utrum missio et datio sunt temporalia et
+aeterna sicut processio ?</head>
+            <p xml:id="alalal-a81229-d1e104">
+               <lb ed="#Ba" n="19"/>ARTICULUS I.
+<lb ed="#Ba" n="20"/>Utrum missio et datio sunt temporalia et
+<lb ed="#Ba" n="21"/>aeterna sicut processio ?
+</p>
+            <p xml:id="alalal-a81229-d1e113">
+               <lb ed="#Ba" n="22"/>Incidit autem hic dubium ante 
+Litte<lb break="no" ed="#Ba" n="23"/>ram, Utrum missio et datio sint 
+tempo<lb break="no" ed="#Ba" n="24"/>ralia et aeterna sicut processio ?
+</p>
+            <p xml:id="alalal-a81229-d1e122">
+               <lb ed="#Ba" n="25"/>Videtur autem, quod sic : quia
+<lb ed="#Ba" n="26"/>1. Mitti est cognosci quod ab alio sit :
+<lb ed="#Ba" n="27"/>cognosci autem potest esse ex parte 
+ap<lb break="no" ed="#Ba" n="28"/>titudinis cogniti, vel ex parte 
+cognoscen<lb break="no" ed="#Ba" n="29"/>tis secundum actum: sicut etiam dicit
+<lb ed="#Ba" n="30"/>Augustinus quod ab aeterno Spiritus 
+do<lb break="no" ed="#Ba" n="31"/>num est secundum aptitudinem  cum
+<lb ed="#Ba" n="32"/>ergo ab e#terno ab alio sint Filius et
+<lb ed="#Ba" n="33"/>Spiritus sanctus, ab aeterno convenit eis
+<lb ed="#Ba" n="34"/>quod sint missi secundum habitum vel
+<lb ed="#Ba" n="35"/>aptitudinem.
+</p>
+            <p xml:id="alalal-a81229-d1e149">
+               <lb ed="#Ba" n="36"/>2. Praeterea, In hac eadem lectione
+<lb ed="#Ba" n="37"/>habetur, quod quidam dicebant, quod
+<lb ed="#Ba" n="38"/>secundum aeternam generationem mis-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="39"/>sus dicitur Filius, et non 
+reprehendun<lb break="no" ed="#Ba" n="40"/>tur : cum ergo hoc non possit esse nisi
+<lb ed="#Ba" n="41"/>missio sit aeterna, videtur quod mitti 
+se<lb break="no" ed="#Ba" n="42"/>cundum modum convenit ab aeterno : et
+<lb ed="#Ba" n="43"/>sic erit duplex missio, aeterna, et 
+tempo<lb break="no" ed="#Ba" n="44"/>ralis.
+</p>
+            <p xml:id="alalal-a81229-d1e173">
+               <lb ed="#Ba" n="45"/>3. Item, Datum esse vel donum 
+ma<lb break="no" ed="#Ba" n="46"/>gis se tenet ex parte creature, quam
+<lb ed="#Ba" n="47"/>mitti, ut superius probatum est : sed
+<lb ed="#Ba" n="48"/>Spiritui sancto ab aeterno convenit, quod
+<lb ed="#Ba" n="49"/>sitdonum : ergo multo magis quod sit
+<lb ed="#Ba" n="50"/>missus.
+</p>
+            <p xml:id="alalal-a81229-d1e189">
+               <lb ed="#Ba" n="51"/>SED CONTRA :
+<lb ed="#Ba" n="52"/>1. Mitti est cognosci quod ab alio sit
+<lb ed="#Ba" n="53"/>in effectu appropriabili persone, quo 
+in<lb break="no" ed="#Ba" n="54"/>telligitur propriufn illius persone : 
+effe<lb break="no" ed="#Ba" n="55"/>ctus autem non est nisi in tempore : 
+er<lb break="no" ed="#Ba" n="56"/>go missio et datio non sunt aeterna.
+</p>
+            <p xml:id="alalal-a81229-d1e205">
+               <lb ed="#Ba" n="57"/>2. Item, Supra habitum est, quod
+<lb ed="#Ba" n="58"/>missio dicit comparationem ad eum cul
+<lb ed="#Ba" n="59"/>mittitur : sed ille cui missio fit non est
+<lb ed="#Ba" n="60"/>ab aeterno.
+</p>
+            <p xml:id="alalal-a81229-d1e216">
+               <lb ed="#Ba" n="61"/>Solutio. Dicendum ad hoc quod 
+mis<lb break="no" ed="#Ba" n="62"/>sio et datio non dicuntur nisi 
+temporali<lb break="no" ed="#Ba" n="63"/>ter sive ex tempore.
+</p>
+            <p xml:id="alalal-a81229-d1e225">
+               <lb ed="#Ba" n="64"/>Ad hoc quod contra objicitur, 
+dicen<lb break="no" ed="#Ba" n="65"/>dum quod cognilio quae importatur in 
+ra<lb break="no" ed="#Ba" n="66"/>tione missionis, est cognitio quae fit in
+<lb ed="#Ba" n="67"/>effectu appropriabili persone, sicut fuit
+<lb ed="#Ba" n="68"/>objectum in contrarium.
+</p>
+            <p xml:id="alalal-a81229-d1e239">
+               <lb ed="#Ba" n="69"/>Ad aliud dicendum, quod secundum
+<lb ed="#Ba" n="70"/>zternam generationem non dicitur 
+mis<lb break="no" ed="#Ba" n="71"/>sio secundum completam rationem 
+mis<lb break="no" ed="#Ba" n="72"/>sionis : sed habetur congruitas ad hoc
+<lb ed="#Ba" n="73"/>quod genitus possit mitti: quia ex hoc
+<lb ed="#Ba" n="74"/>ipso quod ab alio est, mitti potest : et
+<lb ed="#Ba" n="75"/>hoc intendunt illi qui hoc dixcrunt, et
+<lb ed="#Ba" n="76"/>non quod missio sua fuerit ab aeterno.
+</p>
+            <p xml:id="alalal-a81229-d1e259">
+               <lb ed="#Ba" n="77"/>Ad aliud dicendum, quod ab aeterno
+<lb ed="#Ba" n="78"/>Spiritus dicitur donum ab aptitudine
+<lb ed="#Ba" n="79"/>donandi: sed missio, datio, et 
+hujusmo<lb break="no" ed="#Ba" n="80"/>dinomina verbalia sunt, et respiciunt
+<lb ed="#Ba" n="81"/>magis actum missionis qui non est nisi
+<lb ed="#Ba" n="82"/>in tempore : et ideo non dicuntur 
+dupli<lb break="no" ed="#Ba" n="83"/>citer : sicut processio quae de se magis
+<lb ed="#Ba" n="84"/>dicit comparationem ad principium a
+<lb ed="#Ba" n="85"/>quo, quam ad eum ad quem procedit vel
+<lb ed="#Ba" n="86"/>procedere potest.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="571"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f10726"><!-- l3d30a3 -->
+            <head xml:id="alalal-f10726-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-f10726-Hd1e101" type="question-title">An melius sit diligere inimicum, quam
+amicum ?</head>
+            <p xml:id="alalal-f10726-d1e104">
+               <lb ed="Bd" n="26"/>ARTICULUS III.
+<lb ed="Bd" n="27"/>An melius sit diligere inimicum, quam
+<lb ed="Bd" n="28"/>amicum ?
+</p>
+            <p xml:id="alalal-f10726-d1e113">
+               <lb ed="Bd" n="29"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="Bd" n="30"/>principio lectionis : <quote xml:id="alalal-f10726-Qd1e119"> Mie queri solet,
+<lb ed="Bd" n="31"/>Quid potius sit plurisque meriti, etc. </quote>
+            </p>
+            <p xml:id="alalal-f10726-d1e125">
+               <lb ed="Bd" n="32"/>Videtur enim, quod diligere inimicos
+<lb ed="Bd" n="33"/>sit melius et majoris meriti : quia
+</p>
+            <p xml:id="alalal-f10726-d1e133">
+               <lb ed="Bd" n="34"/>i. Dicit Glossa Matth. v, 43, quod
+<lb ed="Bd" n="35"/>hoc est cumulus perfectionis : ergo hoc
+<lb ed="Bd" n="36"/>est melius.
+</p>
+            <p xml:id="alalal-f10726-d1e142">
+               <lb ed="Bd" n="37"/>2. Item, Glossa super illud Psalmi
+<lb ed="Bd" n="38"/>exvinl, 18 : Considerabo mirabilia de lege
+<lb ed="Bd" n="39"/>tua, dicit : <quote xml:id="alalal-f10726-Qd1e150"> In operibus Dei nihil mira-
+<cb ed="#Bd" n="b"/>
+                  <lb ed="Bd" n="40"/>bilius est, quam diligere inimicos : </quote>
+               <lb ed="Bd" n="41"/>ergo nihil altius et melius.
+</p>
+            <p xml:id="alalal-f10726-d1e160">
+               <lb ed="Bd" n="42"/>3. Item, <name xml:id="alalal-f10726-Nd1e164">Bernardus</name> super illud 
+Joan<lb break="no" ed="Bd" n="43"/>nis, xv, 13 : <quote xml:id="alalal-f10726-Qd1e168">Majorem hae dilectionem
+<lb ed="Bd" n="44"/>nemo habet, ut animam suam ponat
+<lb ed="Bd" n="45"/>guis pro amicis suis</quote>, addit: <quote xml:id="alalal-f10726-Qd1e175"> Imo tu,
+<lb ed="Bd" n="46"/>Domine, majorem habuisti, qui animam
+<lb ed="Bd" n="47"/>tuam pro amicis et inimicis posuisti. </quote>
+               <lb ed="Bd" n="48"/>Ergo videtur esse melius et potius.
+</p>
+            <p xml:id="alalal-f10726-d1e186">
+               <lb ed="Bd" n="49"/>4, Viem, Matth. v, 46 : <quote xml:id="alalal-f10726-Qd1e190">Si diligitis eos
+<lb ed="Bd" n="50"/>gui vos diligunt, quam mercedem 
+habe<lb break="no" ed="Bd" n="51"/>bitis ?</quote> Glossa : <quote xml:id="alalal-f10726-Qd1e197"> Nullamin ceelo. </quote> Ergo
+<lb ed="Bd" n="52"/>diligere inimicos est melius.
+</p>
+            <p xml:id="alalal-f10726-d1e202">
+               <lb ed="Bd" n="53"/>5. Item, Ad Roman. v, 8 et 9: <quote xml:id="alalal-f10726-Qd1e206">
+Com<lb break="no" ed="Bd" n="54"/>mendati autem charitatem suam Deus in
+<lb ed="Bd" n="55"/>nobis, gquontiam cum udhue inunici' 
+esse<lb break="no" ed="Bd" n="56"/>mus, secundum tempus Chrisius pro
+<lb ed="Bd" n="57"/>nobis</quote>, scilicet impiis, mortwus est. Si
+<lb ed="Bd" n="58"/>ergo Dei charitas in hoc est 
+commen<lb break="no" ed="Bd" n="59"/>dabilis, nostra erit commendabilis ex
+<lb ed="Bd" n="60"/>eodem.
+</p>
+            <p xml:id="alalal-f10726-d1e224">
+               <lb ed="Bd" n="61"/>6. Item, Matth. v, 44, super illud :
+<lb ed="Bd" n="62"/>
+               <quote xml:id="alalal-f10726-Qd1e230">Diligite inimicos vestros</quote>, dicit Glossa :
+<lb ed="Bd" n="63"/>
+               <quote xml:id="alalal-f10726-Qd1e234"> Ecce ad quantam perfectionem nos
+<lb ed="Bd" n="64"/>provehit! </quote> Ergo penes illud est 
+perfe<lb break="no" ed="Bd" n="65"/>ctlo : ergo est melius.
+</p>
+            <p xml:id="alalal-f10726-d1e244">
+               <lb ed="Bd" n="66"/>7. Item, Virtus dicitur ultimum 
+poten<lb break="no" ed="Bd" n="67"/>tiae de re vel in re : sed majoris potentie
+<lb ed="Bd" n="68"/>charitas est super naturam, cum diligit
+<lb ed="Bd" n="69"/>inimicum, quam cum diligit amicum :
+<lb ed="Bd" n="70"/>ergo major est virtus cjus : ergo est
+<lb ed="Bd" n="71"/>melius hoc, quam illud.
+</p>
+            <p xml:id="alalal-f10726-d1e260">
+               <lb ed="Bd" n="72"/>8. Hem, Quod est majoris pugne, est
+<lb ed="Bd" n="73"/>majoris glori# : diligere autem 
+inimi<lb break="no" ed="Bd" n="74"/>cum, est majoris pugnae ergo majoris
+<lb ed="Bd" n="75"/>glorie : ergo melius,
+</p>
+            <p xml:id="alalal-f10726-d1e271">
+               <lb ed="Bd" n="76"/>9. tem, Ad amicum diuigendum 
+in<lb break="no" ed="Bd" n="77"/>clinat natura et gratia : sed quanto 
+ma<lb break="no" ed="Bd" n="78"/>gis gratia elevat naturam, tanto motus
+<lb ed="Bd" n="79"/>purior et melior, quia sic magis accedit
+<lb ed="Bd" n="80"/>ad conformitatem gratiae : hoc autem
+<lb ed="Bd" n="81"/>maxime est in dilectione inimicorum :
+<lb ed="Bd" n="82"/>ergo diligere inimicos est melius absolu-—
+<lb ed="Bd" n="83"/>le loquendo, quam diligere amicos.
+</p>
+            <p xml:id="alalal-f10726-d1e291">
+               <lb ed="Bd" n="84"/>SED CONTRA :
+<lb ed="Bd" n="85"/>1. Meritum esse in quantitate, est esse
+<lb ed="Bd" n="86"/>secundum quantitatem charitatis : sed in
+<pb ed="#Bd" n="572"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>gradibus charitatis dilectio inimicoruam
+<lb ed="Bd" n="2"/>ponitur in ultimo loco : ergo hoc est
+<lb ed="Bd" n="3"/>meriti, ut videtur.
+</p>
+            <p xml:id="alalal-f10726-d1e311">
+               <lb ed="Bd" n="4"/>2. Item, Si sit comparatio unius ad
+<lb ed="Bd" n="5"/>alterum, hoc non potest esse gratia 
+ha<lb break="no" ed="Bd" n="6"/>bitus : quia sine contradictione verum
+  <lb ed="Bd" n="7"/>est, quod actus majoris charitalis in
+<lb ed="Bd" n="8"/>quantum sic, est majoris merili : ergo
+<lb ed="Bd" n="9"/>hoc fuit in eodem actu vel aequali. Sed
+<lb ed="Bd" n="10"/>tunc video, quod magis fervet dilectio
+<lb ed="Bd" n="11"/>amici: ergo videlur, quod majoris sit
+<lb ed="Bd" n="12"/>merili propter fervorem.
+</p>
+            <p xml:id="alalal-f10726-d1e333">
+               <lb ed="Bd" n="13"/>3. Item, Amicus et inimicus sunt 
+con<lb break="no" ed="Bd" n="14"/>traria : diligere et odire sunt etiam 
+con<lb break="no" ed="Bd" n="15"/>traria : sed odire amicum est magis 
+ma<lb break="no" ed="Bd" n="16"/>lum, quam odire inimicum : ergo ejus
+<lb ed="Bd" n="17"/>oppositum est magis bonum et magis
+<lb ed="Bd" n="18"/>eligendum, quam oppositum alterius :
+<lb ed="Bd" n="19"/>est autem oppositum diligere amicum :
+<lb ed="Bd" n="20"/>ergo hoc est magis bonum, quam 
+dilige<lb break="no" ed="Bd" n="21"/>re inimicum : et hoc videtur Philosophus
+<lb ed="Bd" n="22"/>concedere.
+</p>
+            <p xml:id="alalal-f10726-d1e358">
+               <lb ed="Bd" n="23"/>Solutio Dicendum meo judicio, quod
+<lb ed="Bd" n="24"/>melius absolute et simpliciter est diligere
+<lb ed="Bd" n="25"/>inimicum, quam diligere amicum, sicut
+<lb ed="Bd" n="26"/>probant prime rationes. Dicunt tamen
+<lb ed="Bd" n="27"/>aliqui, quod potest fieri in his duobus
+<lb ed="Bd" n="28"/>comparatio status ad statum, vel actus
+<lb ed="Bd" n="29"/>ad actum, vel habitus ad habitum : et
+<lb ed="Bd" n="30"/>hac omnia vel in codem homine, vel in
+<lb ed="Bd" n="31"/>diversis. Si fiat comparatio status ad 
+sta<lb break="no" ed="Bd" n="32"/>tum in diversis hominibus, dicunt quod
+<lb ed="Bd" n="33"/>melius est diligere inimicum : quia hoc
+<lb ed="Bd" n="34"/>indicat statam perfectionis, aliud autem
+<lb ed="Bd" n="35"/>non. Si autem in eodem homine fiat 
+com<lb break="no" ed="Bd" n="36"/>paratio, adhuc melius est : quia diligere
+<lb ed="Bd" n="37"/>inimicum presupponit multo magis 
+di<lb break="no" ed="Bd" n="38"/>ligere etiam amicum, sed non 
+converti<lb break="no" ed="Bd" n="39"/>tur: et sicut duo sunt meliora, quam
+<lb ed="Bd" n="40"/>alterum istorum, ita et hic tune erit:
+<lb ed="Bd" n="41"/>qui enim est in tali statu, quod diligit
+<lb ed="Bd" n="42"/>inimicum, est etiam in statu illo, quod
+<lb ed="Bd" n="43"/>diligit amicum. Si autem fiat 
+compara<lb break="no" ed="Bd" n="44"/>tio habitus ad habitum in eodem 
+homi<lb break="no" ed="Bd" n="45"/>ne, nulla est comparalio : quia idem est
+<lb ed="Bd" n="46"/>habitus, sed in diversis habent se ut 
+ex<lb break="no" ed="Bd" n="47"/>cedentia et excessa. Si vero fiat 
+compa<lb break="no" ed="Bd" n="48"/>ratio actus ad actum : quia actus et in
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>eodem et in diversis sunt separati, et Io.
+<lb ed="Bd" n="50"/>quor de actu in comparatione ad obje.
+<lb ed="Bd" n="51"/>ctum tantum : tune dicunt, quod secun.
+<lb ed="Bd" n="52"/>dum quid est unus melhor, secundum
+<lb ed="Bd" n="53"/>quid alius : cum enim sint aequales ha.
+<lb ed="Bd" n="54"/>bitus sicut supponit comparatio, tune
+<lb ed="Bd" n="55"/>propter dulcedinem et fervorem valet
+<lb ed="Bd" n="56"/>plus dilectio amici ad cumulum beatitu.
+<lb ed="Bd" n="57"/>dinis : propter difficultatem autem et la.
+<lb ed="Bd" n="58"/>borem valet plus dilectio inimici ad 
+pec<lb break="no" ed="Bd" n="59"/>cati dimissionem quoad pcenam quam
+<lb ed="Bd" n="60"/>solvere tenemur pro peccato: et ad hoc
+<lb ed="Bd" n="61"/>redit solutio fere omnium Magistrorum,
+<lb ed="Bd" n="62"/>Sed mihi videtur, quod Christus inten.
+<lb ed="Bd" n="63"/>dit, quod melius simpliciter sit diligere
+<lb ed="Bd" n="64"/>inimicum : quia est fortioris charitatis
+<lb ed="Bd" n="65"/>super naturam, et quia presupponit
+<lb ed="Bd" n="66"/>etiam diligere amicum : quia sicut ignis
+<lb ed="Bd" n="67"/>fortior est, qui agit in propinquum et 
+re<lb break="no" ed="Bd" n="68"/>motum, quam qui agit in propinguum
+<lb ed="Bd" n="69"/>tantum, ita etiam ignis charitatis fortior
+<lb ed="Bd" n="70"/>est ad distans a natura, quam a 
+propin<lb break="no" ed="Bd" n="71"/>quum nature. Et ideo ego concedo 
+ra<lb break="no" ed="Bd" n="72"/>tiones primo inductas.
+</p>
+            <p xml:id="alalal-f10726-d1e471">
+               <lb ed="Bd" n="73"/>Ad 1 quod contra objicitur, 
+dicen<lb break="no" ed="Bd" n="74"/>dum quod Ambrosius ponit ordinem
+<lb ed="Bd" n="75"/>charitatis, non secundum quod charitas
+<lb ed="Bd" n="76"/>est fortioris potentiae in hoc vel illud, sed
+<lb ed="Bd" n="77"/>secundum quod congruit natura quam
+<lb ed="Bd" n="78"/>perficit. Et ex hoc non sequitur, quod
+<lb ed="Bd" n="79"/>unum sit melius alio : quia meritum
+<lb ed="Bd" n="80"/>non attenditur penes charitatem 
+secun<lb break="no" ed="Bd" n="81"/>dum quod movet cum natura, sed potius
+<lb ed="Bd" n="82"/>secundum quod movet secundum 
+mo<lb break="no" ed="Bd" n="83"/>dum gratiae tantum.
+</p>
+            <p xml:id="alalal-f10726-d1e497">
+               <lb ed="Bd" n="84"/>Ad aliud dicendum, quod ille fervor
+<lb ed="Bd" n="85"/>non accipil nisi premium accidentale :
+<lb ed="Bd" n="86"/>quia comparatio supponit habitus 
+utrius<lb break="no" ed="Bd" n="87"/>que actus esse aequales, quia aliter nulla
+<lb ed="Bd" n="88"/>esset ratio : sed huic accidentali puto
+<lb ed="Bd" n="89"/>preponderare posse charitatis in difficili.
+</p>
+            <p xml:id="alalal-f10726-d1e513">
+               <lb ed="Bd" n="90"/>Ad aliud dicendum, quod haec ratio
+<lb ed="Bd" n="91"/>multipliciter peccat. Uno modo : quia a
+<lb ed="Bd" n="92"/>Philosopho ponitur secundum quod 
+di<lb break="no" ed="Bd" n="93"/>cit diversitatem amoris alicujus stulti,
+<lb ed="Bd" n="94"/>qui diligit inimicum in quantum est 
+ini<lb break="no" ed="Bd" n="95"/>micus, et non propter Deum vel ad
+<lb ed="Bd" n="96"/>Deum: et ille meretur vituperationes :
+<lb ed="Bd" n="97"/>et sic solvitur auctoritas. Sed Sancti di-
+<pb ed="#Bd" n="573"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ligunt inimicos, ut fiant amici Deo, vel
+<lb ed="Bd" n="2"/>ad Deum. Aho modo: quia talis forma
+<lb ed="Bd" n="3"/>arguendi magis attenditur in 
+consequen<lb break="no" ed="Bd" n="4"/>tia e contrario, quam in consequentia in
+<lb ed="Bd" n="5"/>jpso: et in ratione est processus 
+secun<lb break="no" ed="Bd" n="6"/>dum consequentiam in ipso : et tunc 
+su<lb break="no" ed="Bd" n="7"/>mitur odire amicos, et odire inimicos :
+<lb ed="Bd" n="8"/>et consequenter infertur ex quo 
+antece<lb break="no" ed="Bd" n="9"/>dens est minus eligendum quam 
+se<lb break="no" ed="Bd" n="10"/>quens, quod oppositum est ejus, scilicet
+<lb ed="Bd" n="11"/>diligere amicos sit magis eligendum
+<lb ed="Bd" n="12"/>quatn oppositum consequentis, quod est
+<lb ed="Bd" n="13"/>diligere inimicos, et magis oppositum
+<lb ed="Bd" n="14"/>antecedentis sequeretur ad oppositum
+<lb ed="Bd" n="15"/>consequentis secundum magis et minus
+<lb ed="Bd" n="16"/>eligendum. Tertio, peceat : quia dato,
+<lb ed="Bd" n="17"/>quod consequentia sit bona secundum
+<lb ed="Bd" n="18"/>eligendum et non eligendum, adhuc 
+ni<lb break="no" ed="Bd" n="19"/>hil valebit in his quorum unum positum
+<lb ed="Bd" n="20"/>presupponit alterum : et ita est hic,
+<lb ed="Bd" n="21"/>quia in charitate et viris sanctis diligere
+<lb ed="Bd" n="22"/>inimicos presupponit diligere amicos :
+<lb ed="Bd" n="23"/>ideo non valet.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

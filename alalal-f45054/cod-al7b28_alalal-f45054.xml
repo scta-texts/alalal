@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="748"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f45054"><!-- l3d40dt1 -->
+            <head xml:id="alalal-f45054-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-f45054-d1e101">
+               <pb ed="#Bd" n="748"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-f45054-d1e110">
+               <lb ed="Bd" n="2"/>
+               <quote xml:id="alalal-f45054-Qd1e114"> Sextum praeceptum est, Non 
+deside<lb break="no" ed="Bd" n="3"/>rabis uxorem proximi tui, etc. </quote>
+               <lb ed="Bd" n="4"/>Hic incipit agere ultimo de praeceptis
+<lb ed="Bd" n="5"/>duobus pertinentibus ad cor.
+</p>
+            <p xml:id="alalal-f45054-d1e124">
+               <lb ed="Bd" n="6"/>Et habet distinctio ista duas partes :
+<lb ed="Bd" n="7"/>in quarum prima determinat breviter de
+<lb ed="Bd" n="8"/>duobus praeceptis preedictis. In secunda,
+<lb ed="Bd" n="9"/>tangitur de diiferentia veteris legis et 
+no<lb break="no" ed="Bd" n="10"/>ve quoad decalogum qui est in utraque,
+<lb ed="Bd" n="11"/>ibi, B, <quote xml:id="alalal-f45054-Qd1e139"> Si vero quaeritur, quam dicat
+<lb ed="Bd" n="12"/>Apostolus, etc. </quote>
+            </p>
+            <p xml:id="alalal-f45054-d1e145">
+               <lb ed="Bd" n="13"/>In prima parte facit iria. Primo 
+expli<lb break="no" ed="Bd" n="14"/>cat duo mandata. Secundo, objicit 
+con<lb break="no" ed="Bd" n="15"/>trarium mandatorum et solvit, ibi, A,
+<lb ed="Bd" n="16"/>§ 2: <quote xml:id="alalal-f45054-Qd1e155"> Sed videtur praeceptum de non
+<lb ed="Bd" n="17"/>concupiscendis, etc. </quote> In tertia, movet
+<lb ed="Bd" n="18"/>questionem, qualiter dicatur vetus lex
+<lb ed="Bd" n="19"/>non comprimere animum, cum haec duo
+<lb ed="Bd" n="20"/>praecepta animum comprimant ? et solvit,
+<lb ed="Bd" n="21"/>ibi, A, § 3: <quote xml:id="alalal-f45054-Qd1e169"> Sed cum hic prohibeatur
+<lb ed="Bd" n="22"/>concupiscentia, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

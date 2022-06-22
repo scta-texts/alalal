@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="52"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g10269"><!-- l4d2a7 -->
+            <head xml:id="alalal-g10269-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-g10269-Hd1e101" type="question-title">An baptizati a Joanne fuerint 
+rebaptisandi ?</head>
+            <p xml:id="alalal-g10269-d1e104">
+               <lb ed="#Be" n="14"/>ARTICULUS VII.
+<lb ed="#Be" n="15"/>An baptizati a Joanne fuerint 
+rebapti<lb break="no" ed="#Be" n="16"/>sandi ?
+</p>
+            <p xml:id="alalal-g10269-d1e113">
+               <lb ed="#Be" n="17"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="18"/>ibi, F, <quote xml:id="alalal-g10269-Qd1e119"> Mic considerandum est, si 
+ba<lb break="no" ed="#Be" n="19"/>ptisali a Joanne iterum bapiizati sunt,
+<lb ed="#Be" n="20"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-g10269-d1e127">
+               <lb ed="#Be" n="21"/>Videtur enim, quod Joannes aliquos
+<lb ed="#Be" n="22"/>baptizabat, qui non erant baptizandi :
+<lb ed="#Be" n="23"/>quia
+</p>
+            <p xml:id="alalal-g10269-d1e137">
+               <lb ed="#Be" n="24"/>1. Dicitur in Littera, quod si aliquis
+<lb ed="#Be" n="25"/>baptizabatur a Joanne, spem non ponens
+<lb ed="#Be" n="26"/>in suo baptismo, sed fidem habens 
+Tri<lb break="no" ed="#Be" n="27"/>nitatis, quod ille non rebaptizabatur :
+<lb ed="#Be" n="28"/>ergo non omnes erant iterum 
+bapti<lb break="no" ed="#Be" n="29"/>zandi. :
+</p>
+            <p xml:id="alalal-g10269-d1e153">
+               <lb ed="#Be" n="30"/>2. Item, Act. vin, 15 et seq., dicitur,
+<lb ed="#Be" n="31"/>quod Petrus et Joannes <quote xml:id="alalal-g10269-Qd1e159">oraverunt pro
+<lb ed="#Be" n="32"/>ipsis, scilicet conversis in Samaria, zt
+<lb ed="#Be" n="33"/>acciperent Spiritum sanctum : nondum
+<cb ed="#Be" n="b"/>
+                  <lb ed="#Be" n="34"/>enim in quemquam illorum venerat, sed
+<lb ed="#Be" n="35"/>baptizati tantum erant in nomine 
+Domi<lb break="no" ed="#Be" n="36"/>ni Jesu. Tune imponebant manus super
+<lb ed="#Be" n="37"/>llos, et acciptebant Spiritum sanctum.</quote>
+               <lb ed="#Be" n="38"/>Ergo videtur, quod per manus 
+impositio<lb break="no" ed="#Be" n="39"/>nem tantum supplebatur quod illis de~
+<lb ed="#Be" n="40"/>fuit, et non iterum baptizandi erant.
+</p>
+            <p xml:id="alalal-g10269-d1e185">
+               <lb ed="#Be" n="41"/>3. Item, Ponamus, quod aliquis 
+ba<lb break="no" ed="#Be" n="42"/>ptizatus sit tantum baptismo Joannis, et
+<lb ed="#Be" n="43"/>habeat fiderm totius Trinitatis : numquid
+<lb ed="#Be" n="44"/>audebimus dicere, quod ille baptizatus
+<lb ed="#Be" n="45"/>sit propter fidem quam habet ? Videtur,
+<lb ed="#Be" n="46"/>quod non: quia tunc nihil esset forma
+<lb ed="#Be" n="47"/>verborum expressa, quae exigitur in ba-_
+<lb ed="#Be" n="48"/>ptismo : ergo videtur, quod tales fuerunt
+<lb ed="#Be" n="49"/>baptizandi.
+</p>
+            <p xml:id="alalal-g10269-d1e207">
+               <lb ed="#Be" n="50"/>4. Item, Nullus baptismus confert 
+gra<lb break="no" ed="#Be" n="51"/>tiam in quo non potest haberi spes 
+gra<lb break="no" ed="#Be" n="52"/>tiae, sicut habetur spes in sacramento :
+<lb ed="#Be" n="53"/>ergo nihil est dictum, ut videtur, quod
+<lb ed="#Be" n="54"/>spem non ponentes in suo baptismo 
+con<lb break="no" ed="#Be" n="55"/>sequebantur in eo gratiam, spem autem
+<lb ed="#Be" n="56"/>ponentes non consequuntur.
+</p>
+            <p xml:id="alalal-g10269-d1e225">
+               <lb ed="#Be" n="57"/>5. Item, Licet infra dicatur, quod 
+ver<lb break="no" ed="#Be" n="58"/>bum quod facit baptismum esse 
+sacra<lb break="no" ed="#Be" n="59"/>mentum, sit invocatio Trinitatis : non
+<lb ed="#Be" n="60"/>quia dicitur, sed quia creditur : tamen
+<pb ed="#Be" n="53"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>oportet exprimi tres personas, sive 
+cre<lb break="no" ed="#Be" n="2"/>datur, sive nen: ergo videtur, quod 
+no<lb break="no" ed="#Be" n="3"/>stra spes vel fides non confert baptismo
+<lb ed="#Be" n="4"/>formam sanctificalionis aliquam : ergo
+<lb ed="#Be" n="5"/>sive posuerunt spem, sive non, erant
+<lb ed="#Be" n="6"/>semper baptizandi qui baptismate 
+Joan<lb break="no" ed="#Be" n="7"/>nis fuerunt baptizati.
+</p>
+            <p xml:id="alalal-g10269-d1e256">
+               <lb ed="#Be" n="8"/>Soxutio. Super illa questione inducere
+<lb ed="#Be" n="9"/>nituntur quidam opiniones, tamquam 
+li<lb break="no" ed="#Be" n="10"/>ceat alicui opinari, quod sine forma 
+sa<lb break="no" ed="#Be" n="11"/>cramenti possit esse sacramentum a 
+no<lb break="no" ed="#Be" n="12"/>stra fide, vel a nostra spe.
+</p>
+            <p xml:id="alalal-g10269-d1e270">
+               <lb ed="#Be" n="13"/>Unde dicendum, quod absque dubio
+<lb ed="#Be" n="14"/>numquam in baptismo Joannis gratia
+<lb ed="#Be" n="15"/>conferebatur, ut dicunt omnes Sancti
+<lb ed="#Be" n="16"/>communiter : sicut etiam ipse dixit,
+<lb ed="#Be" n="17"/>Joan. 1, 26: Ego baptizo in aqua, etc.
+</p>
+            <p xml:id="alalal-g10269-d1e283">
+               <lb ed="#Be" n="18"/>Ad 1p ergo quod dicitur in Litéera, sic
+<lb ed="#Be" n="19"/>potest responderi, quod baptizatus a
+<lb ed="#Be" n="20"/>Joanne non spem ponens, et ex hoc ipso
+<lb ed="#Be" n="21"/>aliud baptisma querens, ut discipulo-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="22"/>rum Christi post pnssionem, non 
+bapti<lb break="no" ed="#Be" n="23"/>zabatur.
+</p>
+            <p xml:id="alalal-g10269-d1e301">
+               <lb ed="#Be" n="24"/>Adhoc autem quod objicitur de 
+Acti<lb break="no" ed="#Be" n="25"/>bus, nihil cogit : quia ibi loquitur de
+<lb ed="#Be" n="26"/>hoc quod est confirmationis, non 
+baptis<lb break="no" ed="#Be" n="27"/>matis. Confirmatio autem supplet 
+defe<lb break="no" ed="#Be" n="28"/>ctum baptismatis, ut videtur innuere
+<lb ed="#Be" n="29"/>Augustinus : non in esse sacramenti,
+<lb ed="#Be" n="30"/>quia baptismus est perfectum 
+sacramen<lb break="no" ed="#Be" n="31"/>tum, sed potius in eo, quod baptismus
+<lb ed="#Be" n="32"/>diminuit fomitem, et non exstinguit :
+<lb ed="#Be" n="33"/>sed confirmatio amplius debilitat 
+eum<lb break="no" ed="#Be" n="34"/>dem. Et hoc patet in Actibus, x1x, 2, ubi
+<lb ed="#Be" n="35"/>inveniuntur baptizati a Joanne non 
+ha<lb break="no" ed="#Be" n="36"/>bentes notitiam Spiritus sancti in auditu
+<lb ed="#Be" n="37"/>forme baptismi: et ideo illi baptizati 
+fue<lb break="no" ed="#Be" n="38"/>runt.
+</p>
+            <p xml:id="alalal-g10269-d1e336">
+               <lb ed="#Be" n="39"/>Ad aliud autem ego bene concedo,
+<lb ed="#Be" n="40"/>quod fides et spes non dant esse 
+baptis<lb break="no" ed="#Be" n="41"/>mi, sed tantum removent fictionem, ut
+<lb ed="#Be" n="42"/>baptismus possit consequi effectum 
+ju<lb break="no" ed="#Be" n="43"/>stificationis in nobis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

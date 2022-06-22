@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="439"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d77648"><!-- l2d25a7 -->
+            <head xml:id="alalal-d77648-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-d77648-Hd1e101" type="question-title">Quomodo est triplex libertas ? et, 
+Quomodo accipiuntur divisiones 
+libertatis? ef, Utrum xqualiter in omnibus
+sit libertas a coactione ?</head>
+            <p xml:id="alalal-d77648-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="4"/>ARTICULUS VII.
+<lb ed="#Bc" n="5"/>Quomodo est triplex libertas ? et, 
+Quo<lb break="no" ed="#Bc" n="6"/>modo accipiuntur divisiones 
+liberta<lb break="no" ed="#Bc" n="7"/>tis? ef, Utrum xqualiter in omnibus
+<lb ed="#Bc" n="8"/>sit libertas a coactione ?
+</p>
+            <p xml:id="alalal-d77648-d1e120">
+               <lb ed="#Bc" n="9"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bc" n="10"/>I, <quote xml:id="alalal-d77648-Qd1e126"> Est namque triplex libertas, etc. </quote>
+            </p>
+            <p xml:id="alalal-d77648-d1e129">
+               <lb ed="#Bc" n="11"/>Inveniuntur autem et aliae divisiones
+<lb ed="#Bc" n="12"/>libertatis, ut Bernardus ponit istam,
+<lb ed="#Bc" n="13"/>quod est libertas arbitrii, consilii, et
+<lb ed="#Bc" n="14"/>complaciti . Et Anselmus ponit hanc,
+</p>
+            <p xml:id="alalal-d77648-d1e141">
+               <lb ed="#Bc" n="15"/>quod est libertas habens rectitudinem, et
+<lb ed="#Bc" n="16"/>libertas non habens eam. Illa autem quae
+ <lb ed="#Bc" n="17"/>habet : una quidem habet amissibiliter,
+<lb ed="#Bc" n="18"/>alia habet inamissibiliter. Illa quae habet
+<lb ed="#Bc" n="19"/>inamissibiliter : alia est data sive accepta,
+<lb ed="#Bc" n="20"/>alia non data sive accepta, sed dans aliis
+<lb ed="#Bc" n="21"/>habentibus eam. Non data est divina :
+<lb ed="#Bc" n="22"/>data creature : et habens quidem 
+recti<lb break="no" ed="#Bc" n="23"/>tudinem datam inamissibiliter, est beata
+<lb ed="#Bc" n="24"/>rationalis creatura, ut Angelus, vel 
+ho<lb break="no" ed="#Bc" n="25"/>mo, et anima : habens autem datam
+<lb ed="#Bc" n="26"/>amissibiliter, est homo ingratia 
+consti<lb break="no" ed="#Bc" n="27"/>tutus in via. Non autem habens : aut 
+re<lb break="no" ed="#Bc" n="28"/>cuperabiliter caret, et sic homo vivens
+<lb ed="#Bc" n="29"/>in peccato mortali : aut caret 
+irrecupera<lb break="no" ed="#Bc" n="30"/>biliter, et sic habent damnate anime et
+<lb ed="#Bc" n="31"/>Angeli.
+</p>
+            <p xml:id="alalal-d77648-d1e180">
+               <lb ed="#Bc" n="32"/>Quaeritur ergo, Penes quid accipiantur
+<lb ed="#Bc" n="33"/>iste: divisiones ?
+</p>
+            <p xml:id="alalal-d77648-d1e187">
+               <lb ed="#Bc" n="34"/>Item, Magister dicit in ZLitéera, quod
+<lb ed="#Bc" n="35"/>libertas a coactione aequaliter est in 
+om<lb break="no" ed="#Bc" n="36"/>nibus : et hoc non videtur verum : quia
+</p>
+            <p xml:id="alalal-d77648-d1e196">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="37"/>1. Deus liberior est in agendo et 
+abso<lb break="no" ed="#Bc" n="38"/>lutione coactionis, quam homo : et 
+ho<lb break="no" ed="#Bc" n="39"/>mo sanctus, quam peccator : cujus 
+pro<lb break="no" ed="#Bc" n="40"/>batio est : quia liberius est a coactione,
+<lb ed="#Bc" n="41"/>quod non trahitur nec vincitur, quam id
+<lb ed="#Bc" n="42"/>quod trahitur et non vincitur : et liberius
+<lb ed="#Bc" n="43"/>est quod trahitur et non vincitur, quam
+<lb ed="#Bc" n="44"/>id quod trahitur et vincitur : cum ergo
+<lb ed="#Bc" n="45"/>secundum hos gradus sit in beatis, et 
+bo<lb break="no" ed="#Bc" n="46"/>nis, et malis, videtur quod non sit aque
+<lb ed="#Bc" n="47"/>liberum a coactione.
+</p>
+            <p xml:id="alalal-d77648-d1e225">
+               <lb ed="#Bc" n="48"/>2. Item, Omne creabile vertibile est :
+<lb ed="#Bc" n="49"/>ergo libertas creature vertibilis est in
+<lb ed="#Bc" n="50"/>malum et non ens: libertas autem divina
+<lb ed="#Bc" n="51"/>nec vertibilis est, nec trahitur, nec 
+vinci<lb break="no" ed="#Bc" n="52"/>tur : ergo ipsa est liberrima.
+</p>
+            <p xml:id="alalal-d77648-d1e238">
+               <lb ed="#Bc" n="53"/>Sorutio. Dicendum, quod libertas est
+<lb ed="#Bc" n="54"/>potentia ordinata ad actum et ad finem,
+<lb ed="#Bc" n="55"/>remota universaliter vel particulariter ab
+<lb ed="#Bc" n="56"/>habitibus contrariis. Unde potest dari 
+di<lb break="no" ed="#Bc" n="57"/>visio aut penes habitum contrarium 
+li<lb break="no" ed="#Bc" n="58"/>bertati, separatum ab ipsa : et hoc vocant
+<lb ed="#Bc" n="59"/>Magistri penes terminum a quo : et tunc
+<lb ed="#Bc" n="60"/>est divisio quae datur in Littera, scilicet,
+<lb ed="#Bc" n="61"/>libertas a coactione, a culpa, et a 
+mise<lb break="no" ed="#Bc" n="62"/>ria.
+</p>
+            <p xml:id="alalal-d77648-d1e263">
+               <lb ed="#Bc" n="63"/>Et accipitur divisio sic, quod habitus
+<lb ed="#Bc" n="64"/>inducens servitutem : aut est a natura,
+<lb ed="#Bc" n="65"/>aut ab actu meriti. Sia natura: tune est
+<lb ed="#Bc" n="66"/>obligatio cum materia, ut potius agatur,
+<lb ed="#Bc" n="67"/>quam agat-: et contra illum est libertas a
+<lb ed="#Bc" n="68"/>coactione. Si autem est ab actu 
+volunta<lb break="no" ed="#Bc" n="69"/>tis, et meriti : auf est habitus cui 
+volun<lb break="no" ed="#Bc" n="70"/>tas se subdit, et hic est culpa, et contra
+<lb ed="#Bc" n="71"/>eum est libertas a peccato : aut cui 
+sub<lb break="no" ed="#Bc" n="72"/>ditur ex ordine justitiae vindicantis, et
+<lb ed="#Bc" n="73"/>sic est miseria peenalitatum : et contra
+<lb ed="#Bc" n="74"/>hune est Jibertas a miseria. Prima igitur
+<lb ed="#Bc" n="75"/>est per libertatem rationalis nature, 
+se<lb break="no" ed="#Bc" n="76"/>cunda per gratiam, et tertia per gloriam.
+</p>
+            <p xml:id="alalal-d77648-d1e296">
+               <pb ed="#Bc" n="440"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Secunda autem quae est Bernardi, 
+da<lb break="no" ed="#Bc" n="2"/>tur penes disponentia ad actum libertatis
+<lb ed="#Bc" n="3"/>proprium : hic autem aut est secundum
+<lb ed="#Bc" n="4"/>potestatem nature libere, et sic est 
+di<lb break="no" ed="#Bc" n="5"/>bertas arbitrii : aut in his quae sunt 
+su<lb break="no" ed="#Bc" n="6"/>pra naturam : et hoc dupliciter, scilicet
+<lb ed="#Bc" n="7"/>in optimis secundum statum vie, et de
+<lb ed="#Bc" n="8"/>his est liberias consilit : aut in optimis.
+<lb ed="#Bc" n="9"/>secundum statum patrie, et de his est
+<lb ed="#Bc" n="10"/>libertas.complaciti : et hac omnia 
+acci<lb break="no" ed="#Bc" n="11"/>pienda sunt secundum relationem 
+unius<lb break="no" ed="#Bc" n="12"/>cujusque istorum ad optimum actum.
+<lb ed="#Bc" n="13"/>Unde dicit Bernardus, quod libertas 
+ar<lb break="no" ed="#Bc" n="14"/>bitrii discernere habet quid liceat, 
+liber<lb break="no" ed="#Bc" n="15"/>tas autem consilii probare quid expediat,
+<lb ed="#Bc" n="16"/>libertas autem complaciti experiri quid
+<lb ed="#Bc" n="17"/>libeat.
+</p>
+            <p xml:id="alalal-d77648-d1e340">
+               <lb ed="#Bc" n="18"/>Divisio autem <name xml:id="alalal-d77648-Nd1e344">Anselmi</name> datur per 
+cau<lb break="no" ed="#Bc" n="19"/>sam efficientem et finem simul : quia.
+<lb ed="#Bc" n="20"/>datum et non datum dicunt efficientis 
+ra<lb break="no" ed="#Bc" n="21"/>tionem : et rectitudo est finis potestatis
+<lb ed="#Bc" n="22"/>servandi eam.
+</p>
+            <p xml:id="alalal-d77648-d1e356">
+               <lb ed="#Bc" n="23"/>Alia autem divisio ad artem reducta
+<lb ed="#Bc" n="24"/>est in objiciendo.
+</p>
+            <p xml:id="alalal-d77648-d1e363">
+               <lb ed="#Bc" n="25"/>Ad id quod ulterius quaeritur de 
+liber<lb break="no" ed="#Bc" n="26"/>tate. a coactione, dicendum quod 
+duplici<lb break="no" ed="#Bc" n="27"/>ter consideratur, scilicet primo modo
+<lb ed="#Bc" n="28"/>secundum id a quo liberat, et secundo
+<lb ed="#Bc" n="29"/>modo in comparatione facultatis naturali
+<lb ed="#Bc" n="30"/>habitu perfect ad actum. Si primo 
+mo<lb break="no" ed="#Bc" n="31"/>do: tunc non est nisi privatio, et idem
+<lb ed="#Bc" n="32"/>est quod non habere coactionem : et 
+pri<lb break="no" ed="#Bc" n="33"/>vatio non est magis aliquid in uno, quam
+<lb ed="#Bc" n="34"/>in alio : nec magis aliquid in Deo, quam
+<lb ed="#Bc" n="35"/>in rationali creatura : nec magis aliquid
+<lb ed="#Bc" n="36"/>in damnato, quam in justo : quia 
+nega<lb break="no" ed="#Bc" n="37"/>tio et privatio nec intenditur, nec 
+remit<lb break="no" ed="#Bc" n="38"/>titur : et nihil horum habet obligationem
+<lb ed="#Bc" n="39"/>cum materia. Unde Bernardus : <quote xml:id="alalal-d77648-Qd1e397"> 
+Li<lb break="no" ed="#Bc" n="40"/>bertas a necessitate aque et indifferenter
+<lb ed="#Bc" n="41"/>Deo, universeque, tam bone quam ma-
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" n="42"/>lae, rationali convenit creature : nec peg
+<lb ed="#Bc" n="43"/>cato, nec miseria amittitur, vel minuitur.
+<lb ed="#Bc" n="44"/>nec major in justo est, quam in 
+pecca<lb break="no" ed="#Bc" n="45"/>tore : nec plenior in Angelo, quam jp
+<lb ed="#Bc" n="46"/>homine. Quomodo namque ad bonum
+<lb ed="#Bc" n="47"/>conversus per gratiam humane 
+volunta<lb break="no" ed="#Bc" n="48"/>tis consensus, eo libere bonum, et in bo.
+<lb ed="#Bc" n="49"/>no liberum facit hominem, quo 
+volunta<lb break="no" ed="#Bc" n="50"/>rius efficitur, et non invitus protrahitur :
+<lb ed="#Bc" n="51"/>sic sponte devolutus in malum, in malo
+<lb ed="#Bc" n="52"/>nihilominus tam liberum quam sponta~-
+<lb ed="#Bc" n="53"/>neum constituit sua utique voluntate 
+du<lb break="no" ed="#Bc" n="54"/>ctum, non aliunde coactum ut malus
+<lb ed="#Bc" n="55"/>sit. Et sicut ccelestis Angelus, aut etiam
+<lb ed="#Bc" n="56"/>Deus ipse permanet libere bonus propria
+<lb ed="#Bc" n="57"/>videlicet voluntate, non aliqua extrinseca
+<lb ed="#Bc" n="58"/>necessitate : sic profecto diabolus eque
+<lb ed="#Bc" n="59"/>libere in malum et corruit, et. persistit,
+<lb ed="#Bc" n="60"/>suo utique voluntario nutu, non alieno
+<lb ed="#Bc" n="61"/>impulsu. Manet ergo libertas voluntatis,
+<lb ed="#Bc" n="62"/>ubi etiam fit capacitas mentis, tam 
+ple<lb break="no" ed="#Bc" n="63"/>na quidem in malis quam infbonis, sed in
+<lb ed="#Bc" n="64"/>bonis ordinatior :. tam integra quoque
+<lb ed="#Bc" n="65"/>pro suo modo in creatura quam in 
+Crea<lb break="no" ed="#Bc" n="66"/>tore, sed in illo potentior. </quote> Si autem
+<lb ed="#Bc" n="67"/>consideratur ad actum, tune non eque
+<lb ed="#Bc" n="68"/>inest : quia ubi nobilior natura, ibi 
+ex<lb break="no" ed="#Bc" n="69"/>peditior actus.
+</p>
+            <p xml:id="alalal-d77648-d1e468">
+               <lb ed="#Bc" n="70"/>Ad omnia autem alia est una solutio,
+<lb ed="#Bc" n="71"/>preter ultimum : quia procedunt de 
+li<lb break="no" ed="#Bc" n="72"/>bertate a peccato, et a miseria : et hee
+<lb ed="#Bc" n="73"/>est habitus gratia, et gloriae: et bene 
+ac<lb break="no" ed="#Bc" n="74"/>cipit intensionem et remissionem.
+</p>
+            <p xml:id="alalal-d77648-d1e482">
+               <lb ed="#Bc" n="75"/>Ad ultimum dicendum, quod hac 
+ver<lb break="no" ed="#Bc" n="76"/>tibilitas dicit ordinem ad actum, et non
+<lb ed="#Bc" n="77"/>considerationem ejus a quo liberat 
+tan<lb break="no" ed="#Bc" n="78"/>tum : et conceditur bene, quod sic 
+po<lb break="no" ed="#Bc" n="79"/>tentior est in Creatore, ut dicit 
+Bernar<lb break="no" ed="#Bc" n="80"/>dus, et ordinatior in bono quam in malo.
+</p>
+            <p xml:id="alalal-d77648-d1e498">
+               <lb ed="#Bc" n="81"/>In alio autem opere plura de 
+libertati<lb break="no" ed="#Bc" n="82"/>bus istis inveniuntur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

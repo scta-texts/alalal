@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="21"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-aa3708"><!-- l1d1a7 -->
+            <head xml:id="alalal-aa3708-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-aa3708-Hd1e101" type="question-title">An Sacramenta veteris legis conferebant
+gratiam ?</head>
+            <p xml:id="alalal-aa3708-d1e104">
+               <lb ed="#Ba" n="22"/>ARTICULUS VII.
+<lb ed="#Ba" n="23"/>An Sacramenta veteris legis conferebant
+<lb ed="#Ba" n="24"/>gratiam ?
+</p>
+            <p xml:id="alalal-aa3708-d1e113">
+               <lb ed="#Ba" n="25"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Ba" n="26"/>quod <quote xml:id="alalal-aa3708-Qd1e119"> Horum, scilicet signorum, aligua
+<lb ed="#Ba" n="27"/>sunt, quorum omnis usus est in 
+signi<lb break="no" ed="#Ba" n="28"/>ficando, non in justificando, etc.</quote> Ex
+<lb ed="#Ba" n="29"/>hoc enim videtur, quod sacramenta 
+vete<lb break="no" ed="#Ba" n="30"/>ris legis graliam conferebant.
+</p>
+            <p xml:id="alalal-aa3708-d1e131">
+               <lb ed="#Ba" n="31"/>1. Etenim, Apostolus, ad Galat. im, 2, de
+<lb ed="#Ba" n="32"/>Patribus legis dicit: Qui fecerit ea, vivet
+<lb ed="#Ba" n="33"/>in illis : sed vita non est nisi per 
+gra<lb break="no" ed="#Ba" n="34"/>tiam : ergo opera sacramentorum veteris
+<lb ed="#Ba" n="35"/>legis gratiam conferebant.
+</p>
+            <p xml:id="alalal-aa3708-d1e145">
+               <lb ed="#Ba" n="36"/>2. Item, Hugo de sancto Victore in 
+li<lb break="no" ed="#Ba" n="37"/>bro de Sacramentis, in octava parte 
+pri<lb break="no" ed="#Ba" n="38"/>mi libri, dicit sic: Ex quo homo a statu
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="39"/>prime incorruptionis lapsus, in corpore
+<lb ed="#Ba" n="40"/>per mortalitatem, et in anima per 
+ini<lb break="no" ed="#Ba" n="41"/>quitatem wgrotare ceepit, continuo Deus
+<lb ed="#Ba" n="42"/>reparando homini in sacramentis suis
+<lb ed="#Ba" n="43"/>medicinam preparavit: sed non 
+prepa<lb break="no" ed="#Ba" n="44"/>ravit tunc nisi per sacramenta veteris 
+lc<lb break="no" ed="#Ba" n="45"/>gis: ergo ipsa erant medicima, et non
+<lb ed="#Ba" n="46"/>nisi per gratiam : ergo, etc.
+</p>
+            <p xml:id="alalal-aa3708-d1e174">
+               <lb ed="#Ba" n="47"/>SED CONTRA:
+<lb ed="#Ba" n="48"/>1. Apostolus, ad Galat. m, 24: S7
+<lb ed="#Ba" n="49"/>data esset lex quae posset justificare’,
+<lb ed="#Ba" n="50"/>vere ex lege esset justitia : sed per legem
+<lb ed="#Ba" n="51"/>non est justitia: ergo lex ex suis sacra-~
+<lb ed="#Ba" n="52"/>mentis legalibus justificare non potuit.
+</p>
+            <p xml:id="alalal-aa3708-d1e190">
+               <lb ed="#Ba" n="53"/>2. Item, Ad Hebr. 1x, 410, dicitur, quod
+<lb ed="#Ba" n="54"/>fuerunt justitie carnis usque ad tempus
+<lb ed="#Ba" n="55"/>correctionis imposite?: ergo ‘non 
+fue<lb break="no" ed="#Ba" n="56"/>runt justitie spiritus.
+</p>
+            <p xml:id="alalal-aa3708-d1e201">
+               <lb ed="#Ba" n="57"/>3. Item, ibidem, ¥. 13: Cinis vitule
+<lb ed="#Ba" n="58"/>aspersus inguinatos sanctificat ad 
+emun<lb break="no" ed="#Ba" n="59"/>dationem carnis.
+</p>
+            <p xml:id="alalal-aa3708-d1e210">
+               <lb ed="#Ba" n="60"/>4. Item, ibidem, ¥. 9, Numquam 
+po<lb break="no" ed="#Ba" n="61"/>tuerunt accedentem perfectum facere :
+<lb ed="#Ba" n="62"/>ergo non justificabant.
+</p>
+            <p xml:id="alalal-aa3708-d1e219">
+               <lb ed="#Ba" n="63"/>5. Item, Ad Hebr. x, 4: Umbram 
+ha<lb break="no" ed="#Ba" n="64"/>bens lex futurorum bonorum, non 
+ip<lb break="no" ed="#Ba" n="65"/>sam imaginem, etc.
+</p>
+            <p xml:id="alalal-aa3708-d1e229">
+               <lb ed="#Ba" n="66"/>Prarerea quaeritur ulterius, Quare 
+di<lb break="no" ed="#Ba" n="67"/>cit Magister, ut aliqua sacramenta 
+lega<lb break="no" ed="#Ba" n="68"/>lia, tamquam aliqua contulerant gratiam,
+<lb ed="#Ba" n="69"/>et aliqua non?
+</p>
+            <p xml:id="alalal-aa3708-d1e240">
+               <lb ed="#Ba" n="70"/>Et dicitur communiter, quod hoc dicit
+<lb ed="#Ba" n="71"/>propter circumcisionem quae gratiam
+<lb ed="#Ba" n="72"/>conferebat, sicut dicunt Beda et 
+Gregu<lb break="no" ed="#Ba" n="73"/>rius, sic: <quote xml:id="alalal-aa3708-Qd1e250"> Idem salutifere curationis
+<lb ed="#Ba" n="74"/>auxilium circumcisio in lege contra
+<lb ed="#Ba" n="75"/>vulnus originalis peceati prebebat,
+<lb ed="#Ba" n="76"/>quod baptismus revelate tempore 
+gra<lb break="no" ed="#Ba" n="77"/>tie facere consuevit, excepto quod 
+ja<lb break="no" ed="#Ba" n="78"/>nuam regni ceelestis non aperuit. </quote>
+            </p>
+            <p xml:id="alalal-aa3708-d1e264">
+               <lb ed="#Ba" n="79"/>SED CONTRA :
+<lb ed="#Ba" n="80"/>1 Sacramentum non causat nisi per
+<lb ed="#Ba" n="81"/>modum per quem signat: sed circumci-
+<pb ed="#Ba" n="22"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>sio non signat nisi per ablationem: ergo
+<lb ed="#Ba" n="2"/>non causat nisi id quod aufertur: sed
+<lb ed="#Ba" n="3"/>non aufertur gratia, sed peccatum: ergo
+<lb ed="#Ba" n="4"/>non causabat gratia collalionem.
+</p>
+            <p xml:id="alalal-aa3708-d1e286">
+               <lb ed="#Ba" n="5"/>2. Item, Ablatio in parte non est 
+si<lb break="no" ed="#Ba" n="6"/>gnum ablationis in toto: sed in 
+cireum<lb break="no" ed="#Ba" n="7"/>cisione pars tantum aulerebatur : ergo
+<lb ed="#Ba" n="8"/>non causabat ablationem ejus quod 
+to<lb break="no" ed="#Ba" n="9"/>tum aufertur, sed ablationem ejus quod
+<lb ed="#Ba" n="10"/>auferebatur in parte : sed hoc est pena
+<lb ed="#Ba" n="11"/>concupiscenti, et non peccatum : quia
+<lb ed="#Ba" n="12"/>peccatum in toto, pronitas autem in
+<lb ed="#Ba" n="13"/>parte auferebatur : ergo circumcisio non
+<lb ed="#Ba" n="14"/>causabat nisi pronitatis concupiscentie
+<lb ed="#Ba" n="15"/>diminutionem,et non ablationem 
+peccati<lb break="no" ed="#Ba" n="16"/>Soruno. Dicendum, quod triplex
+<lb ed="#Ba" n="17"/>erat diferentia sacramentorum  veteris
+<lb ed="#Ba" n="18"/>et nove legis: quarum prima et 
+princi<lb break="no" ed="#Ba" n="19"/>palis sumitur ex parte sacramenti qua
+<lb ed="#Ba" n="20"/>causat 1d quod designat. Illa enim 
+tan<lb break="no" ed="#Ba" n="21"/>tum significabant gratiam : nostra autem
+<lb ed="#Ba" n="22"/>significant, et causant. Secunda est 
+se<lb break="no" ed="#Ba" n="23"/>cundum Hiugonem de sancto Victore,
+<lb ed="#Ba" n="24"/>que sumitur ex parte modi significandi,
+<lb ed="#Ba" n="25"/>scilicet, quod illa significabant nostra
+<lb ed="#Ba" n="26"/>sacramenta, et ita erant signa signorum :
+<lb ed="#Ba" n="27"/>nostra autem significant gratiam, et sunt
+<lb ed="#Ba" n="28"/>signa rerum. Tertia est, quod illis (ut 
+di<lb break="no" ed="#Ba" n="29"/>cit Hugo) ambuebantur antiqui justi, qui
+<lb ed="#Ba" n="30"/>januam regni ceelestis non intraverunt :
+<lb ed="#Ba" n="31"/>nostris autem imbuuntur injusti, aut qui
+<lb ed="#Ba" n="32"/>volunt injustitiam deponere, et januam
+<lb ed="#Ba" n="33"/>regni ceelestis aperuerunt. Unde 
+Magi<lb break="no" ed="#Ba" n="34"/>ster verum dicit.
+</p>
+            <p xml:id="alalal-aa3708-d1e354">
+               <lb ed="#Ba" n="35"/>Ad idp quod contra objicitur, dicendum
+<lb ed="#Ba" n="36"/>quod Apostolus, ad Galatas, 1, 12, 
+lo<lb break="no" ed="#Ba" n="37"/>quitur de decalogo, et non de operibus
+<lb ed="#Ba" n="38"/>sacramentorum. Vel dicatur (sicut 
+anti<lb break="no" ed="#Ba" n="39"/>qui Magistri dixerunt et bene) quod est
+<lb ed="#Ba" n="40"/>operantis opus, et quod est operatio
+<lb ed="#Ba" n="41"/>ipsa, et haecattenditur secundum 
+radi<lb break="no" ed="#Ba" n="42"/>cem a qua egredilur, quae in antiquis
+<lb ed="#Ba" n="43"/>sanctis fuit charitas Dei instituentis 
+sa<lb break="no" ed="#Ba" n="44"/>cramenta, et obedientia legis, et quoad
+<lb ed="#Ba" n="45"/>hoc conferebant vitam.i st autem opus
+<lb ed="#Ba" n="46"/>operatum sicut immolatus hireus vel 
+vitu<lb break="no" ed="#Ba" n="47"/>lus, et hoc nihil conferebat : in 
+sacramen<lb break="no" ed="#Ba" n="48"/>tis autem novie legis utrumque confert.</p>
+            <p xml:id="alalal-aa3708-d1e387">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="49"/>Ad aliud dicendum, quod est 
+praepa<lb break="no" ed="#Ba" n="50"/>ratio secundum rationem significand:, et
+<lb ed="#Ba" n="51"/>hane Deus fecit ab initio mundi ex quo
+<lb ed="#Ba" n="52"/>peccavit homo, et m lege nature, et
+<lb ed="#Ba" n="53"/>Moysi. Est etiam praparatio medicine
+<lb ed="#Ba" n="54"/>secundum rationem causandi, et hane
+<lb ed="#Ba" n="55"/>non exhibmt usque ad Novi Testaments
+<lb ed="#Ba" n="56"/>inceptionem
+</p>
+            <p xml:id="alalal-aa3708-d1e410">
+               <lb ed="#Ba" n="57"/>Auctoritales autem qua inducuntur in
+<lb ed="#Ba" n="58"/>contrarrum, loquuntur de operibus 
+ope<lb break="no" ed="#Ba" n="59"/>ratis.
+</p>
+            <p xml:id="alalal-aa3708-d1e419">
+               <lb ed="#Ba" n="60"/>Ap iw quod ulterius objicitur de 
+cir<lb break="no" ed="#Ba" n="61"/>cumcisione, dicendum quod sicut 
+pro<lb break="no" ed="#Ba" n="62"/>bat objectio, cireumcisio non delevit
+<lb ed="#Ba" n="63"/>peccatum nist indirecle. Quod  
+quali<lb break="no" ed="#Ba" n="64"/>ter fuerit sic patet : Culpa originalis
+<lb ed="#Ba" n="65"/>et ille reatus qui est carentia visionis
+<lb ed="#Ba" n="66"/>Dei, annexa fuerunt, et similiter his 
+an<lb break="no" ed="#Ba" n="67"/>nexuin est incendium fomitis : et si 
+dire<lb break="no" ed="#Ba" n="68"/>cle deberet tolli peccatum, oporterct
+<lb ed="#Ba" n="69"/>quod aliquid per se tolleret peccatum, ct
+<lb ed="#Ba" n="70"/>per consequens imeendiuin fomitis 
+dimi<lb break="no" ed="#Ba" n="71"/>nueret : nune autem circumcisio 
+perso<lb break="no" ed="#Ba" n="72"/>ne diminutt incendium quod in parte
+<lb ed="#Ba" n="73"/>tollitur : sed quia hoc diminui non 
+pot<lb break="no" ed="#Ba" n="74"/>test nisi tollatur reatus carentie et culpa,
+<lb ed="#Ba" n="75"/>que non possunt in parte sed in toto 
+tol<lb break="no" ed="#Ba" n="76"/>li: ideo per consequens circumcisio 
+au<lb break="no" ed="#Ba" n="77"/>fert culpam. Et hoc est quod dixerunt
+<lb ed="#Ba" n="78"/>antiqui Magistri, quod circumcisio non
+<lb ed="#Ba" n="79"/>per se, sed per meritum fidei delevit 
+cul<lb break="no" ed="#Ba" n="80"/>pam : et hoc non directe signilicabat, sed
+<lb ed="#Ba" n="81"/>indirecte, significatum suum ponendo
+<lb ed="#Ba" n="82"/>super id quod posterus est secundum
+<lb ed="#Ba" n="83"/>naturam in deletione peccati. Quia vero
+<lb ed="#Ba" n="84"/>homo non potest esse in statu medio 
+in<lb break="no" ed="#Ba" n="85"/>ter culpam, et gratiam : ideo deletionem
+<lb ed="#Ba" n="86"/>culpx sequitur collatio gratia, et sic 
+in<lb break="no" ed="#Ba" n="87"/>directe per accidens conferebat gratiam,
+<lb ed="#Ba" n="88"/>et propler hoc excipitur a Magistro ab
+<lb ed="#Ba" n="89"/>alus sacramentis veleris legis, quae nullo
+<lb ed="#Ba" n="90"/>modo secundum se gratiam 
+confere<lb break="no" ed="#Ba" n="91"/>bant : non ideo quod sit ex lege 
+circum<lb break="no" ed="#Ba" n="92"/>cisio, sed ex patribus.
+</p>
+            <p xml:id="alalal-aa3708-d1e493">
+               <lb ed="#Ba" n="93"/>Ap Xaucronitatem Bede dicendum, quod
+<lb ed="#Ba" n="94"/>conferebat, sed non eodem modo: quia
+<lb ed="#Ba" n="95"/>baptismus operatione directa, 
+circumci<lb break="no" ed="#Ba" n="96"/>sio autem indirecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

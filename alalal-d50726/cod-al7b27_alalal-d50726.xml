@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="275"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d50726"><!-- l2d15a3 -->
+            <head xml:id="alalal-d50726-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-d50726-Hd1e101" type="question-title">Quid hic dicitur firmamentum ?</head>
+            <p xml:id="alalal-d50726-d1e104">
+               <lb ed="#Bc" n="36"/>ARTICULUS III.
+<lb ed="#Bc" n="37"/>Quid hic dicitur firmamentum ?
+</p>
+            <p xml:id="alalal-d50726-d1e111">
+               <lb ed="#Bc" n="38"/>Tertio uaeritur Quid dicatur hic
+<lb ed="#Bc" n="39"/>firmam entum ?
+</p>
+            <p xml:id="alalal-d50726-d1e118">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="40"/>Si enim firmamentum dicitur coelum
+<lb ed="#Bc" n="41"/>stellarum fixarum, hoc non competit:
+<lb ed="#Bc" n="42"/>quia sol, et luna, et alizs quaedam stelle,
+<lb ed="#Bc" n="43"/>quinque scilicet planete, non sunt posite
+<lb ed="#Bc" n="44"/>in ceelo stellarum fixarum.
+</p>
+            <p xml:id="alalal-d50726-d1e135">
+               <lb ed="#Bc" n="45"/>Av noc dicendum, quod si <name xml:id="alalal-d50726-Nd1e139">Ptolemeum</name>
+               <lb ed="#Bc" n="46"/>et <name xml:id="alalal-d50726-Nd1e143">Nicolaum</name> in commento super 
+Alma<lb break="no" ed="#Bc" n="47"/>gesti, et <name xml:id="alalal-d50726-Nd1e148">Messehalach</name> vellemus sequi,
+<lb ed="#Bc" n="48"/>nos praeter coelum empyreum quod
+<lb ed="#Bc" n="49"/>Philosophi non cognoverunt, poneremus.
+<lb ed="#Bc" n="50"/>decem coelos: quorum primum est quod
+<lb ed="#Bc" n="51"/>revolvitur super polos #quinoctiales, et
+<lb ed="#Bc" n="52"/>omnem stellam revolvit motu diurno.
+<lb ed="#Bc" n="53"/>Secundum autem est ccoelum non 
+stella<lb break="no" ed="#Bc" n="54"/>tum quod revolvitur super polos orbis
+<lb ed="#Bc" n="55"/>declivis, id est, obliqui, et omnem
+<lb ed="#Bc" n="56"/>stellam revolvit ab Occidente in 
+Orien<lb break="no" ed="#Bc" n="57"/>fem secundum quantitatem sui circuli:
+<lb ed="#Bc" n="58"/>quia aequali velocitate movetur secundum
+<lb ed="#Bc" n="59"/>dictos Philosophos, et etiam secundum
+<lb ed="#Bc" n="60"/>Thebith, Luna, Saturnus, et stella fixa:
+<lb ed="#Bc" n="61"/>sed quod Luna viginti et octo diebus
+<lb ed="#Bc" n="62"/>peragit circulum, Saturnus in triginta
+<lb ed="#Bc" n="63"/>fere annis, et stella fixa in triginta sex
+<lb ed="#Bc" n="64"/>millibus annorum, hoc contingit, quia
+<lb ed="#Bc" n="65"/>in tali proportione quantitatis quantitas
+<lb ed="#Bc" n="66"/>circuli unius superat circulum alterius,
+<lb ed="#Bc" n="67"/>cum tamen spatia sint aequalia quae 
+per<lb break="no" ed="#Bc" n="68"/>ambulant omni die naturali aequali.
+<lb ed="#Bc" n="69"/>Tertius orbis est stellarum fixarum in
+<lb ed="#Bc" n="70"/>una superficie existentium : non fixarum
+<lb ed="#Bc" n="71"/>ideo, quia non moveantur: sed ideo 
+fixa<lb break="no" ed="#Bc" n="72"/>rum, quia imagines et distantias situs ad
+<lb ed="#Bc" n="73"/>invicem non mutant, ut probatur in 
+Al<lb break="no" ed="#Bc" n="74"/>magestt. Quartus est orbis Saturni.
+<lb ed="#Bc" n="75"/>Quintus est orbis Jovis. Sextus Martis.
+<lb ed="#Bc" n="76"/>Septimus Solis secundum dictos 
+Philo<lb break="no" ed="#Bc" n="77"/>sophos. Octavus Veneris. Nonus Mercu-_
+<lb ed="#Bc" n="78"/>rii. Decimus Lune. Geber autem in
+<lb ed="#Bc" n="79"/>commento quodam Almagesti 
+singula<lb break="no" ed="#Bc" n="80"/>rem tenet viam in Mercurio et Venere:
+<lb ed="#Bc" n="81"/>quia ponit eos super Solem: et tunc
+<lb ed="#Bc" n="82"/>quoad illos duos secundum illum 
+muta<lb break="no" ed="#Bc" n="83"/>tur ordo, sed non numerus: et ideo di~
+<lb ed="#Bc" n="84"/>cendum, quod secundum sacram 
+Seri<lb break="no" ed="#Bc" n="85"/>pturam tota natura quinti corporis fir-
+<pb ed="#Bc" n="276"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>mamentum dicitur : apud Philosophos
+<lb ed="#Bc" n="2"/>autem dicitur firmamentum octave sphera
+<lb ed="#Bc" n="3"/>sursum ascendendo.
+</p>
+            <p xml:id="alalal-d50726-d1e244">
+               <lb ed="#Bc" n="4"/>Utrum autem totum sit continuum
+<lb ed="#Bc" n="5"/>corpus et unum, vel diversa, et de 
+lon<lb break="no" ed="#Bc" n="6"/>giori longitudine. et propriori, longum
+<lb ed="#Bc" n="7"/>exigit sermonem et multas 
+demonstra<lb break="no" ed="#Bc" n="8"/>tiones : et hoc pertinet alii negotio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

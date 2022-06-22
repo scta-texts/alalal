@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="48"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-aa9498"><!-- l1d1dt4 -->
+            <head xml:id="alalal-aa9498-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-aa9498-d1e101">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="19"/>DIVISIO TEXTUS.
+<lb ed="#Ba" n="20"/>Littera autem per se est plana.
+</p>
+            <p xml:id="alalal-aa9498-d1e110">
+               <lb ed="#Ba" n="21"/>
+               <quote xml:id="alalal-aa9498-Qd1e114"> Hic considerandum est, Utrum 
+vir<lb break="no" ed="#Ba" n="22"/>tutibus, etc. </quote> Istud est ullimum 
+capi<lb break="no" ed="#Ba" n="23"/>tulum istius partis in quo quaerit, Ulrum
+<lb ed="#Ba" n="24"/>virtutibus fruendum sit ?
+</p>
+            <p xml:id="alalal-aa9498-d1e124">
+               <lb ed="#Ba" n="25"/>Et dividitur istud capitulum in duas
+<lb ed="#Ba" n="26"/>partes. In prima determinat, quod 
+vir<lb break="no" ed="#Ba" n="27"/>tutibus non est fruendum, sed per 
+virtu<lb break="no" ed="#Ba" n="28"/>tes. In secunda, dicit idem de voluntate,
+<lb ed="#Ba" n="29"/>et ceteris anime potentis, ibi, <quote xml:id="alalal-aa9498-Qd1e137"> [fa et
+<lb ed="#Ba" n="30"/>de voluntate bona, etc. </quote>
+            </p>
+            <p xml:id="alalal-aa9498-d1e143">
+               <lb ed="#Ba" n="31"/>Prima habet quinque partes. In prima
+<lb ed="#Ba" n="32"/>probat, quod non est fruendum 
+virtuti<lb break="no" ed="#Ba" n="33"/>bus. In secunda objicitur, contra hoe,
+<lb ed="#Ba" n="34"/>ibi, <quote xml:id="alalal-aa9498-Qd1e153"> Adiis vero contra, etc.</quote> In 
+ter<lb break="no" ed="#Ba" n="35"/>tia, solvit, ibi, <quote xml:id="alalal-aa9498-Qd1e158"> Nos autem, etc. </quote> In
+<lb ed="#Ba" n="36"/>quarta, objicit contra solutionem, ibi,
+<cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="37"/>
+               <quote xml:id="alalal-aa9498-Qd1e166"> Sed dicet aliguis, etc. </quote> In quinta, 
+sol<lb break="no" ed="#Ba" n="38"/>vit, ibi, <quote xml:id="alalal-aa9498-Qd1e171"> dd quod dicumus, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

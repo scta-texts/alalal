@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 19</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 19</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="59"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e11942"><!-- l3d3a19 -->
+            <head xml:id="alalal-e11942-Hd1e99">Articulus 19</head>
+            <head xml:id="alalal-e11942-Hd1e101" type="question-title">An caro Christi fuerit ex purissimis
+sanguinibus ?</head>
+            <p xml:id="alalal-e11942-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="38"/>ARTICULUS XIX,.
+<lb ed="Bd" n="39"/>An caro Christi fuerit ex purissimis
+<lb ed="Bd" n="40"/>sanguinibus ?
+</p>
+            <p xml:id="alalal-e11942-d1e115">
+               <lb ed="Bd" n="41"/>Deinde, quaeritur de hoc quod dicit
+<lb ed="Bd" n="42"/>ibi, A, versus medium, quod <quote xml:id="alalal-e11942-Qd1e121">copulavit
+<lb ed="Bd" n="43"/>sibiipst ex sanctissimis et purissimis
+<lb ed="Bd" n="44"/>sanguinibus, etc. </quote>
+            </p>
+            <p xml:id="alalal-e11942-d1e129">
+               <lb ed="Bd" n="45"/>Ex hoc enim videtur, quod ut de 
+ma<lb break="no" ed="Bd" n="46"/>teria Christus sit ex sanguine.
+</p>
+            <p xml:id="alalal-e11942-d1e137">
+               <lb ed="Bd" n="47"/>ConTRA :
+<lb ed="Bd" n="48"/>1. Augustinus infra dicit, quod ex
+<lb ed="Bd" n="49"/>carne.
+</p>
+            <p xml:id="alalal-e11942-d1e146">
+               <lb ed="Bd" n="50"/>2. Praterea, Vicinior est caro ad 
+car<lb break="no" ed="Bd" n="51"/>nem quam caro ad sanguinem, vel e 
+con<lb break="no" ed="Bd" n="52"/>verso ; sed habentium symbolum facilior
+<lb ed="Bd" n="53"/>est unio: ergo congrucntius fuit 
+assume<lb break="no" ed="Bd" n="54"/>re excarne quam ex sanguine. Sed si hoc
+<lb ed="Bd" n="55"/>dicatur, tunc etiam oportuit sumere ex
+<lb ed="Bd" n="56"/>ossibus ogsa, ex nervis nervos, et sic de
+<lb ed="Bd" n="57"/>aliis.
+</p>
+            <p xml:id="alalal-e11942-d1e166">
+               <lb ed="Bd" n="58"/>Solutio Dicendum, quod ex 
+purissi<lb break="no" ed="Bd" n="59"/>mis sanguinibus accepit: quia sanguis
+<lb ed="Bd" n="60"/>est potentia totum corpus, non autem
+<lb ed="Bd" n="61"/>caro.
+</p>
+            <p xml:id="alalal-e11942-d1e177">
+               <lb ed="Bd" n="62"/>Ad picrum Augustini dicendum, quod 
+<lb ed="Bd" n="63"/>intelligit carnem pro eo quod est materia
+<lb ed="Bd" n="64"/>earnis : et hoc est sanguis,
+</p>
+            <p xml:id="alalal-e11942-d1e186">
+               <lb ed="Bd" n="65"/>Ad aliud dicendum, quod caro carni
+<lb ed="Bd" n="66"/>vicinior est in forma speciei: sed non in
+<lb ed="Bd" n="67"/>via generationis: quia non ex carne fit
+<lb ed="Bd" n="68"/>caro, nisi corrumpatur in cibis, et per
+<lb ed="Bd" n="69"/>digestionem in sanguinem convertatur,
+<lb ed="Bd" n="70"/>et tunc tandem generetur inde caro. Ex
+<lb ed="Bd" n="71"/>sanguine autem statim fit caro per 
+con<lb break="no" ed="Bd" n="72"/>versionem et formationem generative
+<lb ed="Bd" n="73"/>virtutis, vel etiam nutritive in 
+quibus<lb break="no" ed="Bd" n="74"/>dam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

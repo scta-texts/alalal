@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="601"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f16662"><!-- l3d32a3 -->
+            <head xml:id="alalal-f16662-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-f16662-Hd1e101" type="question-title">Quare Apostolus attribuit charitati 
+opera aliarum virtutum ?</head>
+            <p xml:id="alalal-f16662-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="45"/>ARTICULUS III.
+<lb ed="Bd" n="46"/>Quare Apostolus attribuit charitati 
+ope<lb break="no" ed="Bd" n="47"/>ra aliarum virtutum ?
+</p>
+            <p xml:id="alalal-f16662-d1e115">
+               <lb ed="Bd" n="48"/>Tertio quaeritur, Quare Apostolus 
+attri<lb break="no" ed="Bd" n="49"/>buit charitati opera aliarum virtutum ?
+<lb ed="Bd" n="50"/>Est enim justitia generalis virtus, ut 
+di<lb break="no" ed="Bd" n="51"/>cunt Sancti: ergo videtur, quod magis
+<lb ed="Bd" n="52"/>justitiae quam charitatis sint hujusmodi
+<lb ed="Bd" n="53"/>opera.
+</p>
+            <p xml:id="alalal-f16662-d1e131">
+               <lb ed="Bd" n="54"/>PrererEa queeritur, Penes quid 
+acci<lb break="no" ed="Bd" n="55"/>piuntur?
+</p>
+            <p xml:id="alalal-f16662-d1e139">
+               <lb ed="Bd" n="56"/>Solutio Dicendum, quod in veritate,
+<lb ed="Bd" n="57"/>sicut prius dictum est, charitas est 
+qua<lb break="no" ed="Bd" n="58"/>dam similitudo divine bonitatis in nobis,
+<lb ed="Bd" n="59"/>et calor omnia movens, sicut calor solis:
+<lb ed="Bd" n="60"/>et ideo ei non tantum illa, meo judicio,
+<lb ed="Bd" n="61"/>sed omnia opera attribui possunt. Justitia
+<lb ed="Bd" n="62"/>autem non est generalis motor, sed 
+ge<lb break="no" ed="Bd" n="63"/>neralis virtus, et generalis status virtutis.
+<lb ed="Bd" n="64"/>Philosophus enim dicit, quod justitia 
+ge<lb break="no" ed="Bd" n="65"/>neralis est idem quod virtus: et hoc ego
+<lb ed="Bd" n="66"/>intelligo, id est, idem quod quidam 
+sta<lb break="no" ed="Bd" n="67"/>tus generaliter virtutem continens : ct
+<lb ed="Bd" n="68"/>hic status est ordo rectus hominis vel
+<lb ed="Bd" n="69"/>anime: in substantia anime et in viribus
+<lb ed="Bd" n="70"/>ad se et ad proximum et ad Deum : et
+<lb ed="Bd" n="71"/>ideo cum non sit ordinans in actum ut
+<lb ed="Bd" n="72"/>generalis motor, non possunt ej attribul
+<lb ed="Bd" n="73"/>opera virtutum aliarum.
+</p>
+            <p xml:id="alalal-f16662-d1e181">
+               <lb ed="Bd" n="74"/>Ad aliud dicendum, quod opera illa aut
+<lb ed="Bd" n="75"/>sunt a malo, aut sunt in bonum 
+ordinan<lb break="no" ed="Bd" n="76"/>tia diligentem. Si in bonum : aut in 
+bo<lb break="no" ed="Bd" n="77"/>num quod est finis, aut in bonum quod
+<lb ed="Bd" n="78"/>est ad finem. Si in finem : aut respectu
+<lb ed="Bd" n="79"/>boni, aut respectu modi se habendi ad
+<lb ed="Bd" n="80"/>utrumque in statu meriti. Si respectu ve-
+<pb ed="#Bd" n="602"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ri: tunc omnia credit. Si respectu boni :
+<lb ed="Bd" n="2"/>tunc omnia quae credit, sperat. Si 
+respe<lb break="no" ed="Bd" n="3"/>clu modi habendi se ad utrumque in 
+sta<lb break="no" ed="Bd" n="4"/>tu meriti in quo promissa differuntur :
+<lb ed="Bd" n="5"/>tune omnia sustinet dilata et promissa.
+<lb ed="Bd" n="6"/>Si autem respectu ejus quod est finem :
+<lb ed="Bd" n="7"/>tunc aut hoc est respectu boni existentis
+<lb ed="Bd" n="8"/>in se, aut respectu ejus quod est in 
+pro<lb break="no" ed="Bd" n="9"/>ximo, aut utrogue modo, aut respectu
+<lb ed="Bd" n="10"/>habiti, aut respectu non habiti. Si 
+respe<lb break="no" ed="Bd" n="11"/>ctu habiti in se: tune non inflatur in se
+<lb ed="Bd" n="12"/>de bono accepto. Si autem respectu non
+<lb ed="Bd" n="13"/>habiti quod non accipit : tunc on est
+<lb ed="Bd" n="14"/>ambitiosa, quia non quaerit ea quae sunt
+<lb ed="Bd" n="15"/>supra se, quae non vult Deus dare. Si 
+au<lb break="no" ed="Bd" n="16"/>tem respectu habiti in proximo, aut 
+se<lb break="no" ed="Bd" n="17"/>cundum ordinem in verum, aut secundum
+<lb ed="Bd" n="18"/>ordinem in honum. Si secundum 
+ordi<lb break="no" ed="Bd" n="19"/>nem in verum : tune congaudet veritati.
+<lb ed="Bd" n="20"/>Si autem secundum ordinem in bonum :
+<lb ed="Bd" n="21"/>tunc non emulatur. Si autem est 
+respe<lb break="no" ed="Bd" n="22"/>ctu habendi non habiti a proximo: tunc
+<lb ed="Bd" n="23"/>non impedit, eo quod non quaerit quae
+<lb ed="Bd" n="24"/>sua sunt, sed potius quae aliorum. Si 
+au<lb break="no" ed="Bd" n="25"/>tem secundum ordinem a malo a quo
+<lb ed="Bd" n="26"/>avertit, aut a malo pene, aut a malo
+<lb ed="Bd" n="27"/>culpse. Sia malo culpe, aut illud est 
+in<lb break="no" ed="Bd" n="28"/>tus, aut extra. Si intus natum est esse,
+<lb ed="Bd" n="29"/>aut est natum inesse secundum 
+rationa<lb break="no" ed="Bd" n="30"/>lem, et sic non cogitat malum: aut 
+se<lb break="no" ed="Bd" n="31"/>cundum concupiscibilem, et sic non 
+gau<lb break="no" ed="Bd" n="32"/>det super iniquitate : aut secundum 
+ira<lb break="no" ed="Bd" n="33"/>scibilem, et sic non irritatur. Si autem
+<lb ed="Bd" n="34"/>natum est malum esse extra, sic non agit
+<lb ed="Bd" n="35"/>perperam. Si autem est a malo pene :
+<lb ed="Bd" n="36"/>aut illud malum est in alio, et sic 
+beni<lb break="no" ed="Bd" n="37"/>gna est in penis aliarum quasi boniigne
+<lb ed="Bd" n="38"/>liquefacta fluens ad auxilium 
+tribulato<lb break="no" ed="Bd" n="39"/>rum: aut est im se, et tunc aut est 
+con<lb break="no" ed="Bd" n="40"/>tractum, et tunc illud suffert +, id est,
+<lb ed="Bd" n="41"/>portat propter amorem justitic influentis :
+<lb ed="Bd" n="42"/>aut est illati ab alio, et sic patiens est 
+in<lb break="no" ed="Bd" n="43"/>juriis sibi illatis.
+</p>
+            <p xml:id="alalal-f16662-d1e296">
+               <lb ed="Bd" n="44"/>Et ex hoc patet solutio quesiti: et hec
+<lb ed="Bd" n="45"/>etiam est una causa, quare ista est 
+maxi<lb break="no" ed="Bd" n="46"/>me divina virtus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

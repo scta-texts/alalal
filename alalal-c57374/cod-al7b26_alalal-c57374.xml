@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="305"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c57374"><!-- l1d40a2 -->
+            <head xml:id="alalal-c57374-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-c57374-Hd1e101" type="question-title">Quid est praedestinatio in re ?</head>
+            <p xml:id="alalal-c57374-d1e104">
+               <lb ed="#Bb" n="31"/>ARTICULUS II.
+<lb ed="#Bb" n="32"/>Quid est praedestinatio in re ?
+</p>
+            <p xml:id="alalal-c57374-d1e111">
+               <lb ed="#Bb" n="33"/>Deinde queritur quid sit?
+</p>
+            <p xml:id="alalal-c57374-d1e116">
+               <lb ed="#Bb" n="34"/>Et hoc dividitur in duo, scilicet ut
+<lb ed="#Bb" n="35"/>queratur primo, Quid sit re? et secundo,
+<lb ed="#Bb" n="36"/>Quid sit diffinitione ?
+</p>
+            <p xml:id="alalal-c57374-d1e126">
+               <lb ed="#Bb" n="37"/>Ad pPRimMuM proceditur sic :
+<lb ed="#Bb" n="38"/>1. Videtur, quod praedestinatio sit
+<lb ed="#Bb" n="39"/>aliquid creatum, et non Deus: quia cum
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="40"/>dico, iste est praedestinatus, dico aliquid
+<lb ed="#Bb" n="41"/>significando passive: ergo significo illud
+<lb ed="#Bb" n="42"/>esse ab alio in isto: talis autem modus
+<lb ed="#Bb" n="43"/>significandi non convenit Deo, quia nihil
+<lb ed="#Bb" n="44"/>habet ab alio: ergo praedestinatio 
+prae<lb break="no" ed="#Bb" n="45"/>destinati non est Deus.
+</p>
+            <p xml:id="alalal-c57374-d1e150">
+               <lb ed="#Bb" n="46"/>2. Praeterea, Nihil quod est Deus,
+<lb ed="#Bb" n="47"/>denominat hune praedestinatum : ergo
+<lb ed="#Bb" n="48"/>predestinatio non est Deus.
+</p>
+            <p xml:id="alalal-c57374-d1e159">
+               <lb ed="#Bb" n="49"/>3. Item, Actio, et passio sunt entia
+<lb ed="#Bb" n="50"/>que secum habent oppositos respectus :
+<lb ed="#Bb" n="51"/>quod patet ex eorum diffinitionibus cum
+<lb ed="#Bb" n="52"/>dicitur, actio est secundum quam in id
+<lb ed="#Bb" n="53"/>quod subjicitur agere dicimur: et 
+pas<lb break="no" ed="#Bb" n="54"/>sio est effectus illatioque actionis. Ergo
+<lb ed="#Bb" n="55"/>non conveniunt eidem, nec possunt 
+ei<lb break="no" ed="#Bb" n="56"/>dem inesse. Cum ergo Deus sit 
+prede<lb break="no" ed="#Bb" n="57"/>stinans, ipse non erit pradestinatio qua
+<lb ed="#Bb" n="58"/>ille vel ille est praedestinatus: ergo cum
+<lb ed="#Bb" n="59"/>predestinatio sit preedestinati, 
+pradesti<lb break="no" ed="#Bb" n="60"/>natio non est Deus.
+</p>
+            <p xml:id="alalal-c57374-d1e188">
+               <lb ed="#Bb" n="61"/>4. Item, Cum dicitur, Deus creat, res
+<lb ed="#Bb" n="62"/>verbi quae est creatio, idem est quod
+<lb ed="#Bb" n="63"/>eductio de nihilo in aliquid: haec autem
+<lb ed="#Bb" n="64"/>eductio ut forma est in educto: ergo in
+<lb ed="#Bb" n="65"/>creatura, et non in Creatore: ergo 
+si<lb break="no" ed="#Bb" n="66"/>militer praedestinatio erit in 
+predesti<lb break="no" ed="#Bb" n="67"/>nato, et non in Deo: ergo realiter non
+<lb ed="#Bb" n="68"/>est Deus.
+</p>
+            <p xml:id="alalal-c57374-d1e208">
+               <lb ed="#Bb" n="69"/>5. Item, Absurdum videtur, quod Deus
+<lb ed="#Bb" n="70"/>dicatur damnandorum reprobatio. Cum
+<lb ed="#Bb" n="71"/>ergo non plus ponat praedestinatio in
+<lb ed="#Bb" n="72"/>creatura, quam reprobatio, videtur etiam
+<lb ed="#Bb" n="73"/>predestinatio non esse Deus.
+</p>
+            <p xml:id="alalal-c57374-d1e221">
+               <lb ed="#Bb" n="74"/>SED CONTRA :
+<lb ed="#Bb" n="75"/>1. Nihil est ab aeterno nisisolus Deus:
+<lb ed="#Bb" n="76"/>predestinatio autem qua omnes sunt
+<lb ed="#Bb" n="77"/>predestinati qui salvabuntur, est ab
+<lb ed="#Bb" n="78"/>aeterno : ergo ipsa est Deus.
+</p>
+            <p xml:id="alalal-c57374-d1e235">
+               <lb ed="#Bb" n="79"/>2. Item, Cum dicitur, praedestinatio
+<lb ed="#Bb" n="80"/>est propositum miserendi, nihil cadit in
+<lb ed="#Bb" n="81"/>diffinitione in recto quod non sit Deus.
+<lb ed="#Bb" n="82"/>Similiter cum dicitur, preparatio gratiae
+<lb ed="#Bb" n="83"/>in presenti et glorie in futuro: prepa~
+<lb ed="#Bb" n="84"/>ratio enim est Deus praeparans, 
+quo<lb break="no" ed="#Bb" n="85"/>niam Deus agens est sua actio: gratia
+<lb ed="#Bb" n="86"/>autem et gloria cadunt ibi in obliquo:
+<lb ed="#Bb" n="87"/>ergo videtur, quod praedestinatio 
+pre<lb break="no" ed="#Bb" n="88"/>destinatorum sit Deus ipse.
+</p>
+            <p xml:id="alalal-c57374-d1e259">
+               <pb ed="#Bb" n="306"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>Solutio. Sine prejudicio loquendo,
+<lb ed="#Bb" n="2"/>consentio ultimis duabus rationibus, quod
+<lb ed="#Bb" n="3"/>predestinatio secundum id quod est 
+ac<lb break="no" ed="#Bb" n="4"/>cepta, sive sumatur ex parte 
+predesti<lb break="no" ed="#Bb" n="5"/>nantis, seu ex parte praedestinati, 
+sem<lb break="no" ed="#Bb" n="6"/>per Deus est. Si enim accipiatur in eo
+<lb ed="#Bb" n="7"/>quod est praedestinatio, nihil ponit in
+<lb ed="#Bb" n="8"/>tempore aliquo: et si habeat effectum
+<lb ed="#Bb" n="9"/>quandoque in pradestinato respectu
+<lb ed="#Bb" n="10"/>cujus est, hoc accidit ei ex parte effectus
+<lb ed="#Bb" n="11"/>connotati. Sciendum igitur, quod 
+pre<lb break="no" ed="#Bb" n="12"/>destinatio est quasi medium inter Deum
+<lb ed="#Bb" n="13"/>predestinantem et hominem 
+predeslina<lb break="no" ed="#Bb" n="14"/>tum, et praedestinatio ipsa dicit habitudi -
+<lb ed="#Bb" n="15"/>nem Dei proponentis salvare ad 
+salvan<lb break="no" ed="#Bb" n="16"/>dum : et ideo praedestinatio non ponitur
+<lb ed="#Bb" n="17"/>in praedestinato, secundum quod ipse est
+<lb ed="#Bb" n="18"/>diversus a Deo in natura propria 
+exi<lb break="no" ed="#Bb" n="19"/>stens, sed secundum quod ipse est in
+<lb ed="#Bb" n="20"/>scientia Creatoris : sed secundum hoc
+<lb ed="#Bb" n="21"/>quod ibi est, probatum est supra, quod
+<lb ed="#Bb" n="22"/>ipse est creatrix essentia, et non natura
+<lb ed="#Bb" n="23"/>creata : ergo quod sic ponit circa ipsum,
+<lb ed="#Bb" n="24"/>non distinguitur ab essentia divina, sed
+<lb ed="#Bb" n="25"/>est ipsa essentia divina, et cointelligitur
+<lb ed="#Bb" n="26"/>respectus ad rem quam operabitur Deus
+<lb ed="#Bb" n="27"/>in futuro.
+</p>
+            <p xml:id="alalal-c57374-d1e324">
+               <lb ed="#Bb" n="28"/>DicenpuM ergo ad primum, quod cum
+<lb ed="#Bb" n="29"/>dicitur, praedestinatus, non significatur
+<lb ed="#Bb" n="30"/>ibi passive nisi quoad modum quoad nos,
+<lb ed="#Bb" n="31"/>et non secundum rem: est enim sensus,
+<lb ed="#Bb" n="32"/>quod iste est pravisus salvari, et ly 
+pre<lb break="no" ed="#Bb" n="33"/>visus non ponit aliquid secundum rem
+<lb ed="#Bb" n="34"/>extra previdentem, licet ponat 
+respe<lb break="no" ed="#Bb" n="35"/>ctum quoad aliquid, quod in futuro erit
+<lb ed="#Bb" n="36"/>aliud a Deo, circa quod erit effectus
+<lb ed="#Bb" n="37"/>predestinationis. Unde tali modo 
+signifi<lb break="no" ed="#Bb" n="38"/>candi active vel passive sufficit 
+diversi<lb break="no" ed="#Bb" n="39"/>tas rationis quae est inter previdentem,
+<lb ed="#Bb" n="40"/>et previsum non in se, sed in ratione
+<lb ed="#Bb" n="41"/>ideali, in qua fuit ab #terno.
+</p>
+            <p xml:id="alalal-c57374-d1e357">
+               <lb ed="#Bb" n="42"/>Av aliup dicendum, quod 
+predestina<lb break="no" ed="#Bb" n="43"/>tio formaliter non est in praedestinato:
+<lb ed="#Bb" n="44"/>quia non dicit formam cujus esse 
+abso<lb break="no" ed="#Bb" n="45"/>lute terminetur in eo, sed potius 
+re<lb break="no" ed="#Bb" n="46"/>spectum ad salvandum, cui sufficit ut sit
+<lb ed="#Bb" n="47"/>secundum quid, scilicet in idea, ut talis
+<lb ed="#Bb" n="48"/>forma significetur in ipso.
+</p>
+            <p xml:id="alalal-c57374-d1e375">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="49"/>Ad aliud dicendum, quod 
+praedesti<lb break="no" ed="#Bb" n="50"/>nans et praedestinatus non se habent ut
+<lb ed="#Bb" n="51"/>simpliciter activa et passiva secundum
+<lb ed="#Bb" n="52"/>naturam, sed tantum secundum aliquem
+<lb ed="#Bb" n="53"/>modum significandi in quo notatur 
+de<lb break="no" ed="#Bb" n="54"/>pendentia salvandi ad salvantem 
+secun<lb break="no" ed="#Bb" n="55"/>dum rationem, id est, cause efficientis,
+<lb ed="#Bb" n="56"/>et non e converso.
+</p>
+            <p xml:id="alalal-c57374-d1e397">
+               <lb ed="#Bb" n="57"/>Ad aliud dicendum, quod non est 
+si<lb break="no" ed="#Bb" n="58"/>mile: quia cum dicitur, Deus creat, hoc
+<lb ed="#Bb" n="59"/>non convenit Deo, nisi ex tempore :
+<lb ed="#Bb" n="60"/>unde non nominat tantum respectum ad
+<lb ed="#Bb" n="61"/>creaturam, sed etiam effectum in 
+crea<lb break="no" ed="#Bb" n="62"/>tura, et illa potest essentialiter esse res
+<lb ed="#Bb" n="63"/>verbi, licet sita Deo: sed cum dicitur,
+<lb ed="#Bb" n="64"/>Deus praedestinavit Petrum vel Paulum,
+<lb ed="#Bb" n="65"/>non notatur nisi respectus ad creaturam,
+<lb ed="#Bb" n="66"/>qui convenit ab aeterno, et ideo nihil
+<lb ed="#Bb" n="67"/>ponit extra Deum.
+</p>
+            <p xml:id="alalal-c57374-d1e424">
+               <lb ed="#Bb" n="68"/>Ad aliud dicendum, quod meo judicio
+<lb ed="#Bb" n="69"/>non est absurdum, ut dicatur Deus 
+re<lb break="no" ed="#Bb" n="70"/>probatio: in reprobatione enim non 
+di<lb break="no" ed="#Bb" n="71"/>cuntur nisi duo, scilicet previsio 
+iniqui<lb break="no" ed="#Bb" n="72"/>tatis, et preparatio pene: et utrumque
+<lb ed="#Bb" n="73"/>quod in recto cadit in diffinitione 
+repro<lb break="no" ed="#Bb" n="74"/>bationis, nominat essentiam divinam
+<lb ed="#Bb" n="75"/>cum respectu ad id quod oblique cadit in
+<lb ed="#Bb" n="76"/>diffinitione illa, scilicet iniquitatem et
+<lb ed="#Bb" n="77"/>peenam: quorum primum non’ ponit in
+<lb ed="#Bb" n="78"/>Deo speciem propriam, secundum 
+au<lb break="no" ed="#Bb" n="79"/>tem habet ibi speciem. Unde non reputo
+<lb ed="#Bb" n="80"/>absurdum, quod Deus dicatur reprobatio
+<lb ed="#Bb" n="81"/>ipsa qua reprobantur iniqui.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

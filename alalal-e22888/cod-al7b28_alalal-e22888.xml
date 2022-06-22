@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 15</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 15</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="115"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e22888"><!-- l3d5a15 -->
+            <head xml:id="alalal-e22888-Hd1e99">Articulus 15</head>
+            <head xml:id="alalal-e22888-Hd1e101" type="question-title">Quare persona repugnat unibilitati ?</head>
+            <p xml:id="alalal-e22888-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="7"/>ARTICULUS XV.
+<lb ed="Bd" n="8"/>Quare persona repugnat unibilitati ?
+</p>
+            <p xml:id="alalal-e22888-d1e113">
+               <lb ed="Bd" n="9"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="Bd" n="10"/>
+               <quote xml:id="alalal-e22888-Qd1e119"> Ideo vero non personam hominis 
+as<lb break="no" ed="Bd" n="11"/>sumpsit, etc. </quote>
+            </p>
+            <p xml:id="alalal-e22888-d1e125">
+               <lb ed="Bd" n="12"/>Ratio Magistri est eadem cum nostra
+<lb ed="Bd" n="13"/>supra, quod numquam corpus et anima
+<lb ed="Bd" n="14"/>fecerunt unum singularitate propria.
+</p>
+            <p xml:id="alalal-e22888-d1e135">
+               <lb ed="Bd" n="15"/>Si quaeritur, Quare persona repugnat
+<lb ed="Bd" n="16"/>sic unibilitati ?
+</p>
+            <p xml:id="alalal-e22888-d1e142">
+               <lb ed="Bd" n="17"/>Ad Hoc dicendum, quod persona de
+<lb ed="Bd" n="18"/>tellectu suo ponit per se unum: po-
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="19"/>nit etiam per se 
+incommunicabilita<lb break="no" ed="Bd" n="20"/>tem ad alterum : quia non est 
+alte<lb break="no" ed="Bd" n="21"/>rius in potentia, nec alterius ut 
+predi<lb break="no" ed="Bd" n="22"/>catum, ut supra dictum est. Similiter
+<lb ed="Bd" n="23"/>ponit de se singularitatem. Et ista sunt
+<lb ed="Bd" n="24"/>tria, scilicet unitas, singularitas, et 
+in<lb break="no" ed="Bd" n="25"/>communicabilitas. Et unitas est a 
+mate<lb break="no" ed="Bd" n="26"/>ria : quia idem est unum numero et 
+ma<lb break="no" ed="Bd" n="27"/>teria, ut dicit Philosophus. Singularitas
+<lb ed="Bd" n="28"/>autem est ab individuantibus. 
+Incommu<lb break="no" ed="Bd" n="29"/>nicabilitas autem a distinctione ultimo
+<lb ed="Bd" n="30"/>complente et perficiente. Unde cum 
+con<lb break="no" ed="Bd" n="31"/>junctum illud ex corpore et anima non
+<lb ed="Bd" n="32"/>sit unum nec fuerit unum per se, nec
+<lb ed="Bd" n="33"/>distinctum per se, sed unitum alii in
+<lb ed="Bd" n="34"/>singularitatem alterius et distinctionem
+<lb ed="Bd" n="35"/>personalem, patet quod persona assumi
+<lb ed="Bd" n="36"/>non potuit, et quod intellectus personae
+<lb ed="Bd" n="37"/>
+               <sic>ontrariatur</sic> assumptioni expresse.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

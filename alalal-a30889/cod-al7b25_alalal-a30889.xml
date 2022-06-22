@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="153"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a30889"><!-- l1d3et2 -->
+            <head xml:id="alalal-a30889-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-a30889-d1e101">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="13"/>Expositio textus.</p>
+            <p xml:id="alalal-a30889-d1e108">
+               <lb ed="#Ba" n="14"/>
+               <quote xml:id="alalal-a30889-Qd1e112"> Quapropter juxta istam 
+considera<lb break="no" ed="#Ba" n="15"/>Hionem, etc, </quote>
+               <lb ed="#Ba" n="16"/>Haec est ultima pars in qua scilicet,
+  <lb ed="#Ba" n="17"/>quasi concludendo determinat quid 
+te<lb break="no" ed="#Ba" n="18"/>nendum est de Trinitate et unitate in
+  <lb ed="#Ba" n="19"/>quam ducit imago. Quod totum est 
+pla<lb break="no" ed="#Ba" n="20"/>num praeter hoc quod dicit, quod <quote xml:id="alalal-a30889-Qd1e128"> 
+so<lb break="no" ed="#Ba" n="21"/>lus essentialiter de seipso Filium unum
+  <lb ed="#Ba" n="22"/>yerut. </quote> Per hoc enim generatio 
+vide<lb break="no" ed="#Ba" n="23"/>tur esse actus essentiae. Si hoc diceretur,
+  <cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="24"/>tunc objicitur in contrarium : quia cujus
+<lb ed="#Ba" n="25"/>est actus, illud agit illo actu : essentiae
+<lb ed="#Ba" n="26"/>est actus : ergo essentia agit illo actu :
+<lb ed="#Ba" n="27"/>sed ille actus est generatio Filii : ergo
+<lb ed="#Ba" n="28"/>essentia generat Filium : et generatum
+<lb ed="#Ba" n="29"/>non est gignens, ut infra habebitur : 
+er<lb break="no" ed="#Ba" n="30"/>go Filius non est essentia, quod falsum
+<lb ed="#Ba" n="31"/>est.
+</p>
+            <p xml:id="alalal-a30889-d1e158">
+               <lb ed="#Ba" n="32"/>Solutio. Essentialiter genuit, id est,
+<lb ed="#Ba" n="33"/>genuit Filium habentem eamdem 
+essen<lb break="no" ed="#Ba" n="34"/>tiam secum : et ita cessabit objectio : et
+<lb ed="#Ba" n="35"/>in aliis Littera plana est.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

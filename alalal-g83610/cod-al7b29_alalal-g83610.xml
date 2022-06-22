@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="406"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g83610"><!-- l4d14a2 -->
+            <head xml:id="alalal-g83610-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-g83610-Hd1e101" type="question-title">An poenitentia sit secunda tabula post
+naufragium ?</head>
+            <p xml:id="alalal-g83610-d1e104">
+               <pb ed="#Be" n="406"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>ARTICULUS II.
+<lb ed="#Be" n="2"/>An poenitentia sit secunda tabula post
+<lb ed="#Be" n="3"/>naufragium ?
+</p>
+            <p xml:id="alalal-g83610-d1e117">
+               <lb ed="#Be" n="4"/>Secundo queritur, Qualiter dicatur
+<lb ed="#Be" n="5"/>secunda tabula?
+</p>
+            <p xml:id="alalal-g83610-d1e124">
+               <lb ed="#Be" n="6"/>Naufragium enim primo factum est
+<lb ed="#Be" n="7"/>per originale peccatum, et tabula 
+sal<lb break="no" ed="#Be" n="8"/>vans est baptismus : secundum autem
+<lb ed="#Be" n="9"/>naufragium est per actuale sive 
+persona<lb break="no" ed="#Be" n="10"/>le peccatum, et tabula salvans est. 
+peeni<lb break="no" ed="#Be" n="11"/>tentia ; queritur igitur, Utrum sit tabula
+<lb ed="#Be" n="12"/>in quantum virtus est, vel in quantum
+<lb ed="#Be" n="13"/>est gratia, vel in quantum est 
+sacramen<lb break="no" ed="#Be" n="14"/>tum ?
+</p>
+            <p xml:id="alalal-g83610-d1e147">
+               <lb ed="#Be" n="15"/>In omnibus enim his generibus est, ut
+<lb ed="#Be" n="16"/>infra patebit.
+</p>
+            <p xml:id="alalal-g83610-d1e154">
+               <lb ed="#Be" n="17"/>Si dicatur, In quantum virtus. 
+Con<lb break="no" ed="#Be" n="18"/>TRA : Secunda virtus communicare debet
+<lb ed="#Be" n="19"/>alicui prime virtuti : non enim congrue
+<lb ed="#Be" n="20"/>dicitur, quod Petrus secundus est homo,
+<lb ed="#Be" n="21"/>si prior eo fuit asinus : ergo baptismus
+<lb ed="#Be" n="22"/>esset prima virtus : et hoc est falsum :
+<lb ed="#Be" n="23"/>ergo non in quantum virtus est secunda
+<lb ed="#Be" n="24"/>tabula. .
+</p>
+            <p xml:id="alalal-g83610-d1e174">
+               <lb ed="#Be" n="25"/>Si dicatur, quod est secunda in 
+quan<lb break="no" ed="#Be" n="26"/>tum gratia : videtur falsum : quia multae
+<lb ed="#Be" n="27"/>gratia praecedunt, scilicet 
+confirmatio<lb break="no" ed="#Be" n="28"/>nis, Eucharistiae, et baptismi.
+</p>
+            <p xml:id="alalal-g83610-d1e185">
+               <lb ed="#Be" n="29"/>Eodem modo objicitur si dicatur, In
+<lb ed="#Be" n="30"/>quantum est sacramentum : prius enim
+<lb ed="#Be" n="31"/>habitum est, quod non est secundum 
+sa<lb break="no" ed="#Be" n="32"/>cramentum : ergo videtur, quod nullo
+<lb ed="#Be" n="33"/>modo sit secunda tabula.
+</p>
+            <p xml:id="alalal-g83610-d1e198">
+               <lb ed="#Be" n="34"/>Solutio. Dicendum, quod secunda 
+ta<lb break="no" ed="#Be" n="35"/>bula est, in quantum est sacramentum
+<lb ed="#Be" n="36"/>contra morbum, qui est culpa, 
+ordina<lb break="no" ed="#Be" n="37"/>tum : quia, sicut prius dictum est, poena
+<lb ed="#Be" n="38"/>non facit naufragium in quantum 
+hujus<lb break="no" ed="#Be" n="39"/>modi : quia multz# poene promovent ad
+<lb ed="#Be" n="40"/>meritum : et ille qui meretur, non 
+pati<lb break="no" ed="#Be" n="41"/>tur naufragium : unde non est secundum
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="42"/>sacramentum simpliciter, sed secundum
+<lb ed="#Be" n="43"/>contra culpam ordinatum. Et per hog
+<lb ed="#Be" n="44"/>patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

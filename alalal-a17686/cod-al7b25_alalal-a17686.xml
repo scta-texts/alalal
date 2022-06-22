@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 28</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 28</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="89"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a17686"><!-- l1d2a28 -->
+            <head xml:id="alalal-a17686-Hd1e99">Articulus 28</head>
+            <head xml:id="alalal-a17686-Hd1e101" type="question-title">An pronomina ista distinctionem 
+aliquam notent cum dicitur, Ex ipso, et
+per ipsum, et in ipso?</head>
+            <p xml:id="alalal-a17686-d1e104">
+               <lb ed="#Ba" n="4"/>ARTICULUS XXVIII.
+<lb ed="#Ba" n="5"/>An pronomina ista distinctionem 
+ali<lb break="no" ed="#Ba" n="6"/>quam notent cum dicitur, Ex ipso, et
+<lb ed="#Ba" n="7"/>per ipsum, et in ipso?
+</p>
+            <p xml:id="alalal-a17686-d1e115">
+               <lb ed="#Ba" n="8"/>Deinde objicitur de hoc quod dicit :
+<lb ed="#Ba" n="9"/>
+               <quote xml:id="alalal-a17686-Qd1e121"> Quoniam ex ipso, et per ipsum, et in
+<lb ed="#Ba" n="10"/>ipso sunt omnia, etc. </quote>
+            </p>
+            <p xml:id="alalal-a17686-d1e127">
+               <lb ed="#Ba" n="11"/>Videntur enim prepositiones quidem
+<lb ed="#Ba" n="12"/>diversitatem notare, eo quod transitive
+<lb ed="#Ba" n="13"/>sunt. Sed quia unum est pronomen
+<lb ed="#Ba" n="14"/>quod accipitur cum ipsis, videtur quod
+<lb ed="#Ba" n="15"/>ad idem pertineant, et ita non videntur
+<lb ed="#Ba" n="16"/>nolare nisi essentiae identitatem : et sic
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="17"/>non valet ad proposituin Magistri 
+confir<lb break="no" ed="#Ba" n="18"/>mandum.
+</p>
+            <p xml:id="alalal-a17686-d1e150">
+               <lb ed="#Ba" n="19"/>Solutio. Ad hoc dicendum, quod sicut
+<lb ed="#Ba" n="20"/>probat objectio, prepositiones transitive
+<lb ed="#Ba" n="21"/>sunt, et ex eo quod prepositiones sunt
+<lb ed="#Ba" n="22"/>habent notare personarum 
+distinctio<lb break="no" ed="#Ba" n="23"/>nem: in quantum tamen considerantur
+<lb ed="#Ba" n="24"/>ut he propositiones, pertinent ad 
+perso<lb break="no" ed="#Ba" n="25"/>nas distincte : ex enim prepositio notal
+<lb ed="#Ba" n="26"/>causam originis, et ideo notatur attribui
+<lb ed="#Ba" n="27"/>Patri qui est principium non de 
+princi<lb break="no" ed="#Ba" n="28"/>pio : notat etiam ly ex causam 
+essentia<lb break="no" ed="#Ba" n="29"/>lem quae est materia quae una remanet in
+<lb ed="#Ba" n="30"/>matenato, et sic transfertur ad 
+identita<lb break="no" ed="#Ba" n="31"/>tem essen in Patre qui est origo, et
+<lb ed="#Ba" n="32"/>Filio qui est ab ipso significandam. Per
+<lb ed="#Ba" n="33"/>autem notat quasi causam mediam, et
+<lb ed="#Ba" n="34"/>significat Filtum qui est a Patre, et per
+<lb ed="#Ba" n="35"/>ipsum Pater operatur. Jn autem notat
+<lb ed="#Ba" n="36"/>continentiam, et attribuitur Spiritui 
+san<lb break="no" ed="#Ba" n="37"/>cto, cujus bonitate omnia continentur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

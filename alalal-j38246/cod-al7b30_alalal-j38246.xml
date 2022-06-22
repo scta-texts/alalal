@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="669"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j38246"><!-- l4d49a4 -->
+            <head xml:id="alalal-j38246-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-j38246-Hd1e101" type="question-title">Quid sit claritas anime ?</head>
+            <p xml:id="alalal-j38246-d1e104">
+               <lb ed="#Bf" n="47"/>ARTICULUS IV.
+<lb ed="#Bf" n="48"/>Quid sit claritas anime ?
+</p>
+            <p xml:id="alalal-j38246-d1e111">
+               <lb ed="#Bf" n="49"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bf" n="50"/>ibi, A, paulo ante finem: <quote xml:id="alalal-j38246-Qd1e117"> Habere 
+v1<lb break="no" ed="#Bf" n="51"/>iam, est videre vilam, etc. </quote>
+            </p>
+            <p xml:id="alalal-j38246-d1e123">
+               <lb ed="#Bf" n="52"/>Queruntur enim hic duo.
+<lb ed="#Bf" n="53"/>Primo queritur, Quae sit claritas 
+ani<lb break="no" ed="#Bf" n="54"/>me de qua loquitur in Liftera?
+</p>
+            <p xml:id="alalal-j38246-d1e133">
+               <lb ed="#Bf" n="55"/>Et secundo, Quid sit videre in specie ?
+<lb ed="#Bf" n="56"/>de quo etiam facit mentionem in Lidéera.
+</p>
+            <p xml:id="alalal-j38246-d1e140">
+               <lb ed="#Bf" n="57"/>Cetera autem in primo Sententiarum,
+<lb ed="#Bf" n="58"/>et supra in precedenti distinctione de
+<lb ed="#Bf" n="59"/>visione Dei in patria hic queri possunt.
+</p>
+            <p xml:id="alalal-j38246-d1e149">
+               <lb ed="#Bf" n="60"/>OvsiciTuR autem ad primum sic:
+<lb ed="#Bf" n="61"/>1. Videndo nihil efficitur clarum : ergo
+<lb ed="#Bf" n="62"/>claritas non est visio, ut videtur dicere
+<lb ed="#Bf" n="63"/>in Littera.
+</p>
+            <p xml:id="alalal-j38246-d1e160">
+               <lb ed="#Bf" n="64"/>2. Item, Claritas in corpore consistit
+<lb ed="#Bf" n="65"/>in lumine penetrante et illustrante 
+sub<lb break="no" ed="#Bf" n="66"/>stantiam corporis, et non in visione
+<lb ed="#Bf" n="67"/>luminis: ergo similiter consistit claritas
+<lb ed="#Bf" n="68"/>anime in lumine aliquo spirituali: et
+<lb ed="#Bf" n="69"/>ita nihil est quod dicit de visione.
+</p>
+            <p xml:id="alalal-j38246-d1e176">
+               <lb ed="#Bf" n="70"/>3. Item, Anima de se obscura est 
+du<lb break="no" ed="#Bf" n="71"/>pliciter, scilicet ex peccato, et ex hoc
+<lb ed="#Bf" n="72"/>quod est de nihilo et mutabilis: ergo 
+du<lb break="no" ed="#Bf" n="73"/>plici indiget glorificativo, si debeat fieri
+<lb ed="#Bf" n="74"/>beata: sed neutrum horum tollitur per
+<lb ed="#Bf" n="75"/>visionem : ergo claritas anime nullo
+<lb ed="#Bf" n="76"/>modo consistit in visione.
+</p>
+            <p xml:id="alalal-j38246-d1e194">
+               <lb ed="#Bf" n="77"/>4. Item, In Angelis est alia claritas,
+<lb ed="#Bf" n="78"/>quam visio intelligentiae : ergo et in 
+ani<lb break="no" ed="#Bf" n="79"/>ma erit.
+</p>
+            <p xml:id="alalal-j38246-d1e204">
+               <lb ed="#Bf" n="80"/>Responsio. Bene concedo, quod 
+clari<lb break="no" ed="#Bf" n="81"/>tas erit in anima etiam in substantia,
+<pb ed="#Bf" n="670"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>sicut objectiones probant: sed quod 
+di<lb break="no" ed="#Bf" n="2"/>eitur in Littera, dictum est per causam:
+<lb ed="#Bf" n="3"/>quia per visionem accipitur claritas 
+sa<lb break="no" ed="#Bf" n="4"/>pientiae, quae totam animam glorificando
+<lb ed="#Bf" n="5"/>penetrat : et hujus imaginatio est, sicut
+<lb ed="#Bf" n="6"/>si quis videndo lumen, in se per oculos
+<lb ed="#Bf" n="7"/>traheret tamen, quod ingressum in ipsum
+<lb ed="#Bf" n="8"/>totum faceret clarum.
+</p>
+            <p xml:id="alalal-j38246-d1e233">
+               <lb ed="#Bf" n="9"/>Et per hoc patet solutio ad omnia 
+ob<lb break="no" ed="#Bf" n="10"/>jecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

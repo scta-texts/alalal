@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 16</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 16</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="536"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b04404"><!-- l1d19a16 -->
+            <head xml:id="alalal-b04404-Hd1e99">Articulus 16</head>
+            <head xml:id="alalal-b04404-Hd1e101" type="question-title">Utrum in divinis essentia sit genus ?</head>
+            <p xml:id="alalal-b04404-d1e104">
+               <lb ed="#Ba" n="87"/>ARTICULUS XVI.
+<lb ed="#Ba" n="88"/>Utrum in divinis essentia sit genus ?
+</p>
+            <p xml:id="alalal-b04404-d1e111">
+               <lb ed="#Ba" n="89"/>Deinde quaeritur de hoc quod dicit,
+<pb ed="#Ba" n="537"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ibi, H, <quote xml:id="alalal-b04404-Qd1e121"> Se essentia genus est, species
+<lb ed="#Ba" n="2"/>autem persona, etc. </quote>
+            </p>
+            <p xml:id="alalal-b04404-d1e127">
+               <lb ed="#Ba" n="3"/>Videtur enim non valere : quia
+<lb ed="#Ba" n="4"/>1. Multae species de uno solo 
+praedi<lb break="no" ed="#Ba" n="5"/>cantur, ut sol, et luna.
+</p>
+            <p xml:id="alalal-b04404-d1e137">
+               <lb ed="#Ba" n="6"/>2. Praeterea, Sepe supra habuimus in
+<lb ed="#Ba" n="7"/>verbis Hilarii, quod genus essentiam
+<lb ed="#Ba" n="8"/>vocavit : ergo videtur, quod ipsa sit 
+ge<lb break="no" ed="#Ba" n="9"/>nus.
+</p>
+            <p xml:id="alalal-b04404-d1e148">
+               <lb ed="#Ba" n="10"/>Solutio. Augustinus hie loquitur de
+<lb ed="#Ba" n="11"/>his universalibus quae habent plura 
+sup<lb break="no" ed="#Ba" n="12"/>posita : et deillis non habet instantiam,
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="13"/>quando multiplicatur forma ad 
+multipli<lb break="no" ed="#Ba" n="14"/>cationem suppositorum secundum esse :
+<lb ed="#Ba" n="15"/>sed divina natura plura habet supposita,
+<lb ed="#Ba" n="16"/>et tamen secundum esse non 
+multiplica<lb break="no" ed="#Ba" n="17"/>tur in illis.
+</p>
+            <p xml:id="alalal-b04404-d1e170">
+               <lb ed="#Ba" n="18"/>Ad aliud dicendum, quod modus 
+lo<lb break="no" ed="#Ba" n="19"/>quendi Hilarii, quod naturam vocat 
+ge<lb break="no" ed="#Ba" n="20"/>nus, non est quod sit materia, vel 
+subje<lb break="no" ed="#Ba" n="21"/>ctum primum, vel generationis 
+princi<lb break="no" ed="#Ba" n="22"/>pium : sed quia generaliter convenit
+<lb ed="#Ba" n="23"/>personis non ut universale, sed ut idem
+<lb ed="#Ba" n="24"/>et commune secundum rem et esse, ut
+<lb ed="#Ba" n="25"/>prius dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

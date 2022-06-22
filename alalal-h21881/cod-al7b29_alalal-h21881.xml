@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 16</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 16</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="575"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h21881"><!-- l4d16a16 -->
+            <head xml:id="alalal-h21881-Hd1e99">Articulus 16</head>
+            <head xml:id="alalal-h21881-Hd1e101" type="question-title">An diffinitiones poenitentiae sint bene
+date ?</head>
+            <p xml:id="alalal-h21881-d1e104">
+               <lb ed="#Be" n="27"/>ARTICULUS XVI.
+<lb ed="#Be" n="28"/>An diffinitiones poenitentiae sint bene
+<lb ed="#Be" n="29"/>date ?
+</p>
+            <p xml:id="alalal-h21881-d1e113">
+               <lb ed="#Be" n="30"/>Quinto queritur, Quid sit diffinitione
+<lb ed="#Be" n="31"/>et essentia ?
+</p>
+            <p xml:id="alalal-h21881-d1e120">
+               <lb ed="#Be" n="32"/>Inveniuntur autem plures diffinitiones
+<lb ed="#Be" n="33"/>confessionis, quas omnes quae occurrunt
+<lb ed="#Be" n="34"/>ponemus.
+</p>
+            <p xml:id="alalal-h21881-d1e130">
+               <lb ed="#Be" n="35"/>Diffinitur autem a Magistris qui 
+pre<lb break="no" ed="#Be" n="36"/>cesserunt nos sic: <quote xml:id="alalal-h21881-Qd1e136"> Confessio est 
+pecca<lb break="no" ed="#Be" n="37"/>torum sacramentalis delinquentis 
+accusa<lb break="no" ed="#Be" n="38"/>tio, ex erubescentia et per claves satis-
+<cb ed="#Be" n="b"/>
+                  <lb ed="#Be" n="39"/>factoria, obligans ad peragendum 
+pceni<lb break="no" ed="#Be" n="40"/>tentiam injunctam. </quote>
+            </p>
+            <p xml:id="alalal-h21881-d1e150">
+               <lb ed="#Be" n="41"/>Alii autem predecessores nostri 
+diffi<lb break="no" ed="#Be" n="42"/>niunt eam sic: <quote xml:id="alalal-h21881-Qd1e156"> Confessio est legitima
+<lb ed="#Be" n="43"/>peccatorum explanatio. </quote>
+            </p>
+            <p xml:id="alalal-h21881-d1e162">
+               <lb ed="#Be" n="44"/>Gregorius : <quote xml:id="alalal-h21881-Qd1e166"> Confessio est peccatorum
+<lb ed="#Be" n="45"/>detectio, et ruptio vulneris, </quote>
+            </p>
+            <p xml:id="alalal-h21881-d1e172">
+               <lb ed="#Be" n="46"/>Augustinus sic: <quote xml:id="alalal-h21881-Qd1e176"> Confessio est per
+<lb ed="#Be" n="47"/>quam morbus latens, spe venie 
+aperi<lb break="no" ed="#Be" n="48"/>tur. </quote>
+            </p>
+            <p xml:id="alalal-h21881-d1e184">
+               <lb ed="#Be" n="49"/>Alii quidem novitii, ut Raymundus,
+<lb ed="#Be" n="50"/>diffinierunt sic: <quote xml:id="alalal-h21881-Qd1e190"> Confessio est legitima
+<lb ed="#Be" n="51"/>coram sacerdote peccatorum declaratio. </quote>
+            </p>
+            <p xml:id="alalal-h21881-d1e196">
+               <lb ed="#Be" n="52"/>Objicitur de prima diffinitione sic:
+<lb ed="#Be" n="53"/>1. Sacramentale est denominativum a
+<lb ed="#Be" n="54"/>sacramento : nullum autem denominans
+<lb ed="#Be" n="55"/>fit substantiale illi quod denominat : ergo
+<lb ed="#Be" n="56"/>sacramentum non est substantiale 
+con<lb break="no" ed="#Be" n="57"/>fessioni, quod falsum est, cum confessio
+<lb ed="#Be" n="58"/>sub sacramento sit sicut pars sub toto.
+</p>
+            <p xml:id="alalal-h21881-d1e215">
+               <lb ed="#Be" n="59"/>2. Item, Cum confessio sit actus 
+virtu<lb break="no" ed="#Be" n="60"/>tis moventis ad confessionem, ita 
+debe<lb break="no" ed="#Be" n="61"/>ret dicere, virtutis delinquentis accusatio,
+<lb ed="#Be" n="62"/>etc., sicut sacramentalis.
+</p>
+            <p xml:id="alalal-h21881-d1e226">
+               <lb ed="#Be" n="63"/>3. Item, Sicut se habet actus virtutis
+<lb ed="#Be" n="64"/>ad virtutem, ita se habet actus 
+sacramen<lb break="no" ed="#Be" n="65"/>ti ad sacramentum : sed nullus actus
+<lb ed="#Be" n="66"/>virtutis dicitur esse virtuosus, sed potius
+<lb ed="#Be" n="67"/>virtutis proprie : ergo nullus actus 
+sa<lb break="no" ed="#Be" n="68"/>cramenti debet esse sacramentalis, sed
+<lb ed="#Be" n="69"/>potius sacramenti.
+</p>
+            <p xml:id="alalal-h21881-d1e244">
+               <lb ed="#Be" n="70"/>4. Item, Intinctio non dicitur esse 
+bap<lb break="no" ed="#Be" n="71"/>tismalis, nec signatio confirmationalis
+<lb ed="#Be" n="72"/>actus : ergo videtur, quod nec confessio
+<lb ed="#Be" n="73"/>debet dici sacramentalis.
+</p>
+            <p xml:id="alalal-h21881-d1e255">
+               <lb ed="#Be" n="74"/>5. Item, Quare non denominatur a
+<lb ed="#Be" n="75"/>proximo genere, ita quod diceretur, 
+Con<lb break="no" ed="#Be" n="76"/>fessio est poenitentialis delinquentis, etc.
+<lb ed="#Be" n="77"/>Videtur enim, quod sic fieri deberet :
+<lb ed="#Be" n="78"/>quia proximius se habet confessio ad
+<lb ed="#Be" n="79"/>poenitentiam, quam ad sacramentum in
+<lb ed="#Be" n="80"/>genere : ergo magis debuit denominari
+<lb ed="#Be" n="81"/>ab illa.
+</p>
+            <p xml:id="alalal-h21881-d1e275">
+               <lb ed="#Be" n="82"/>6. Item, Objicitur de hoc quod dicitur,
+<pb ed="#Be" n="576"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Delinquentis : confessio enim non videtur
+<lb ed="#Be" n="2"/>esse delinquentis, sed qui deliquit, et 
+pee<lb break="no" ed="#Be" n="3"/>nitet.
+</p>
+            <p xml:id="alalal-h21881-d1e291">
+               <lb ed="#Be" n="4"/>7. Item, Nullus delinguens in quantum
+<lb ed="#Be" n="5"/>hujusmodi, est poenitens : sed omnis 
+con<lb break="no" ed="#Be" n="6"/>fitens in quantum hujusmodi, est 
+poeni<lb break="no" ed="#Be" n="7"/>tens: ergo nullus poenitens in quantum
+<lb ed="#Be" n="8"/>hujusmodi, est delinquens : ergo 
+confes<lb break="no" ed="#Be" n="9"/>sio non est delinquentis.
+</p>
+            <p xml:id="alalal-h21881-d1e308">
+               <lb ed="#Be" n="10"/>8. Si forte tu dicas, quod intelligitur .
+<lb ed="#Be" n="11"/>de delicto veniali, quo in multis 
+offendi<lb break="no" ed="#Be" n="12"/>mus omnes : sine quo, ut dicit 
+Augusti<lb break="no" ed="#Be" n="13"/>nus, vita non ducitur. Contra: 
+Hujus<lb break="no" ed="#Be" n="14"/>modi delinquentis actus est oratio et
+<lb ed="#Be" n="15"/>alia multa : ergo sicut cadit in 
+diffinitio<lb break="no" ed="#Be" n="16"/>ne confessionis, ita cadere deberet in 
+de<lb break="no" ed="#Be" n="17"/>finitione orationis, contritionis, 
+charita<lb break="no" ed="#Be" n="18"/>tis, et omnium aliorum. ,
+</p>
+            <p xml:id="alalal-h21881-d1e330">
+               <lb ed="#Be" n="19"/>9. Praeterea, Hac est per accidens 
+se<lb break="no" ed="#Be" n="20"/>cundum istam expositionem, confessio
+<lb ed="#Be" n="21"/>est peccatorum sacramentalis 
+delinguen<lb break="no" ed="#Be" n="22"/>tis accusatio : quia sénsus est, ejus qui
+<lb ed="#Be" n="23"/>quotidie delinquit : nihil autem per 
+acci<lb break="no" ed="#Be" n="24"/>dens debet poniin diffinitione, pracipue
+<lb ed="#Be" n="25"/>quod est per accidens hujusmodi, quia
+<lb ed="#Be" n="26"/>hoc infinitum est, et nihil per ipsum 
+pot<lb break="no" ed="#Be" n="27"/>est notificari : ergo male dixerunt 
+anti<lb break="no" ed="#Be" n="28"/>qui diffiniendo, quod confessio est 
+accu<lb break="no" ed="#Be" n="29"/>satio delinquentis.
+</p>
+            <p xml:id="alalal-h21881-d1e356">
+               <lb ed="#Be" n="30"/>10. Ulterius, Objicitur de hoc quod 
+di<lb break="no" ed="#Be" n="31"/>citur, Accusatio. Apud rhetorem enim et
+<lb ed="#Be" n="32"/>civilem non est idem accusans et reus :
+<lb ed="#Be" n="33"/>hic autem ut reum se presentat confitens:
+<lb ed="#Be" n="34"/>ergo videtur, quod non sit accusans :
+<lb ed="#Be" n="35"/>ergo confessio non est accusatio.
+</p>
+            <p xml:id="alalal-h21881-d1e372">
+               <lb ed="#Be" n="36"/>11. Item, Nullus accusatur juste in ju-_
+<lb ed="#Be" n="37"/>dicio cui non conceditur locus 
+defensio<lb break="no" ed="#Be" n="38"/>nis : si ergo confitens accusatur ab 
+ali<lb break="no" ed="#Be" n="39"/>quo, sive ab alio, sive a seipso, debet ei
+<lb ed="#Be" n="40"/>in eodem foro concedi locus defensionis :
+<lb ed="#Be" n="41"/>et ita non erit vitium confessionis si sit
+<lb ed="#Be" n="42"/>cum defensione peccatorum, quod falsum
+<lb ed="#Be" n="43"/>est, cum dicat Psalmus axt, 4 : Non
+<lb ed="#Be" n="44"/>declines cor meum in verba malitiz,
+<lb ed="#Be" n="45"/>ad excusandas excusationes in 
+pecca<lb break="no" ed="#Be" n="46"/>tts.
+</p>
+            <p xml:id="alalal-h21881-d1e398">
+               <lb ed="#Be" n="47"/>Preterea queritur, Cum conscientia
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="48"/>sit testis, quare non dicitur, testificatio
+<lb ed="#Be" n="49"/>sicut accusatio? .
+</p>
+            <p xml:id="alalal-h21881-d1e409">
+               <lb ed="#Be" n="50"/>12. Ulterius queritur de hoc quod dicit,
+<lb ed="#Be" n="51"/>Ex erubescentia. Quia hoc non videtuy
+<lb ed="#Be" n="52"/>esse substantiale confessioni: quia nop
+<lb ed="#Be" n="53"/>omnes possunt habere erubescentiam.
+</p>
+            <p xml:id="alalal-h21881-d1e421">
+               <lb ed="#Be" n="54"/>13. Item, Sicut se habet dolor sensibj.
+<lb ed="#Be" n="55"/>lis ad contritionem, ita se habet erube.
+<lb ed="#Be" n="56"/>scentia ad confessionem : sed contritig
+<lb ed="#Be" n="57"/>non diffinitur per dolorem sensibilem -
+<lb ed="#Be" n="58"/>ergo nec confessio est diffinienda per
+<lb ed="#Be" n="59"/>erubescentiam, ut videtur.
+</p>
+            <p xml:id="alalal-h21881-d1e437">
+               <lb ed="#Be" n="60"/>14. Item, Super illud Psalmi LXVIN,
+<lb ed="#Be" n="61"/>20: <quote xml:id="alalal-h21881-Qd1e443">Tu scis improperium meum, et 
+con<lb break="no" ed="#Be" n="62"/>fusionem meam</quote>, etc., distinguit 
+Augu<lb break="no" ed="#Be" n="63"/>stinus in Glossa inter erubescentiam sive
+<lb ed="#Be" n="64"/>verecundiam, et confusionem : quia 
+con<lb break="no" ed="#Be" n="65"/>fusio est cum remorsu conscientiae, 
+quan<lb break="no" ed="#Be" n="66"/>do vera objiciuntur. Erubescentia autem
+<lb ed="#Be" n="67"/>est, quando falsa objiciuntur cum 
+vere<lb break="no" ed="#Be" n="68"/>cundia. Cum ergo confitens verecundetur
+<lb ed="#Be" n="69"/>cum remorsu conscienti#, videtur quod
+<lb ed="#Be" n="70"/>potius debuit dicere, ex confusione, quam.
+<lb ed="#Be" n="71"/>erubescentia.
+</p>
+            <p xml:id="alalal-h21881-d1e469">
+               <lb ed="#Be" n="72"/>15, Item, Non videtur esse’ verum,
+<lb ed="#Be" n="73"/>quod ex hac erubescentia sit 
+satisfacto<lb break="no" ed="#Be" n="74"/>ria: quia erubescentia illa passio etiam
+<lb ed="#Be" n="75"/>corporalis est : et nulla passio corporalis
+<lb ed="#Be" n="76"/>est meritoria : ergo ex illa satisfactoria
+<lb ed="#Be" n="77"/>non est confessio.
+</p>
+            <p xml:id="alalal-h21881-d1e485">
+               <lb ed="#Be" n="78"/>16. Ulterius queritur de hoc quod 
+di<lb break="no" ed="#Be" n="79"/>cit, Per claves. Quod enim sine clavibus
+<lb ed="#Be" n="80"/>est satisfactorium, non habet vim 
+satisfa<lb break="no" ed="#Be" n="81"/>ciendi per claves : confessio est 
+hujusmo<lb break="no" ed="#Be" n="82"/>di: ergo non habet vim satisfaciendi per
+<lb ed="#Be" n="83"/>claves. Prima patet per se. Szcunpa 
+pro<lb break="no" ed="#Be" n="84"/>batur : quia in Veteri Testamento non
+<lb ed="#Be" n="85"/>fuerunt claves, et tamen fuit ibi aliquo
+<lb ed="#Be" n="86"/>modo confessio sacramentalis : et in 
+No<lb break="no" ed="#Be" n="87"/>vo Testamento quandoque fit confessio
+<lb ed="#Be" n="88"/>non habenti claves, et tamen 
+satisfacto<lb break="no" ed="#Be" n="89"/>ria est confessio.
+</p>
+            <p xml:id="alalal-h21881-d1e514">
+               <lb ed="#Be" n="90"/>17. Praeterea, Objicitur de hoc quod
+<lb ed="#Be" n="91"/>dicitur, Satisfactoria. Quia satisfactio est
+<lb ed="#Be" n="92"/>pars condividens poenitentiam cum con |
+<lb ed="#Be" n="93"/>fessione : ergo una non debet poni in
+<lb ed="#Be" n="94"/>diffinitione alterius.
+</p>
+            <p xml:id="alalal-h21881-d1e527">
+               <pb ed="#Be" n="577"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>18. Item. Quae diversa sunt specie,
+<lb ed="#Be" n="2"/>horum actus et effectus proprii sunt 
+di<lb break="no" ed="#Be" n="3"/>versi: confessio et satisfactio diverse
+<lb ed="#Be" n="4"/>sunt specie : ergo actus earum et 
+effe<lb break="no" ed="#Be" n="5"/>ctus proprii sunt diversi : constat autem,
+<lb ed="#Be" n="6"/>quod satisfactionis actus propriissimus
+<lb ed="#Be" n="7"/>est satisfacere : ergo ille actus non est
+<lb ed="#Be" n="8"/>confessionis : ergo confessio non est 
+sa<lb break="no" ed="#Be" n="9"/>tisfactoria, ut videtur.
+</p>
+            <p xml:id="alalal-h21881-d1e554">
+               <lb ed="#Be" n="10"/>19. Ulterius quaeritur de hoc quod 
+di<lb break="no" ed="#Be" n="11"/>cit, Obligans, etc. Confitens enim non
+<lb ed="#Be" n="12"/>est obligatus ex hoc quod confitetur, sed
+<lb ed="#Be" n="13"/>potius ex voluntate sequenti, qua 
+audi<lb break="no" ed="#Be" n="14"/>tam et taxatam sibi recipit 
+satisfactio<lb break="no" ed="#Be" n="15"/>nem : ergo confessio non est obligans,
+<lb ed="#Be" n="16"/>ut videtur.
+</p>
+            <p xml:id="alalal-h21881-d1e572">
+               <lb ed="#Be" n="17"/>20. Item, Si obligat ad satisfactionem :
+<lb ed="#Be" n="18"/>ergo omnis confessio obligat ad illam.
+<lb ed="#Be" n="19"/>Ponamus ergo, quod aliquis sepe 
+confi<lb break="no" ed="#Be" n="20"/>teatur idem peccatum pluribus 
+sacerdoti<lb break="no" ed="#Be" n="21"/>bus, et illi diversas injungant 
+poeniten<lb break="no" ed="#Be" n="22"/>tias, quarum quelibet per se sufficeret :
+<lb ed="#Be" n="23"/>ergo iste obligatur ad omnes illas_ 
+per<lb break="no" ed="#Be" n="24"/>agendas : ergo ex confessione obligatur
+<lb ed="#Be" n="25"/>ad majorem poenitentiam, quam ex 
+pec<lb break="no" ed="#Be" n="26"/>cato sustinere debeat. Et hoc est 
+incon<lb break="no" ed="#Be" n="27"/>veniens, cum confessio aliquid diminuat
+<lb ed="#Be" n="28"/>de poena peccato debita secundum se.
+</p>
+            <p xml:id="alalal-h21881-d1e601">
+               <lb ed="#Be" n="29"/>21. Item, Sive injuncta est insufticiens,
+<lb ed="#Be" n="30"/>vel nimis magna : adhuc videtur, quod
+<lb ed="#Be" n="31"/>obligetur ad illam : et sic confessio 
+gra<lb break="no" ed="#Be" n="32"/>varet eum, et non alleviaret, quod est
+<lb ed="#Be" n="33"/>valde inconveniens.
+</p>
+            <p xml:id="alalal-h21881-d1e614">
+               <lb ed="#Be" n="34"/>22. Item, Objicitur de hoc quod dicit,
+<lb ed="#Be" n="35"/>Injunctam. Videtur enim ex hoc quod
+<lb ed="#Be" n="36"/>non possit mutari per alium poenitentia
+<lb ed="#Be" n="37"/>illa : et hoc falsum est.
+</p>
+            <p xml:id="alalal-h21881-d1e625">
+               <lb ed="#Be" n="38"/>23. Item, Videmus de injunctis 
+peeni<lb break="no" ed="#Be" n="39"/>tentiis tota die fieri relaxationes per 
+in<lb break="no" ed="#Be" n="40"/>dulgentias : ergo videtur, quod 
+confiten<lb break="no" ed="#Be" n="41"/>tes non obligantur ad peragendum 
+peeni<lb break="no" ed="#Be" n="42"/>tentias injunctas.
+</p>
+            <p xml:id="alalal-h21881-d1e638">
+               <lb ed="#Be" n="43"/>De secunda autem diffinitione objicitur,
+<lb ed="#Be" n="44"/>qua dixerunt antiquiores, quod confessio
+<lb ed="#Be" n="45"/>est legitima peccatorum explanatio.
+</p>
+            <p xml:id="alalal-h21881-d1e648">
+               <lb ed="#Be" n="46"/>1. Legitima enim est quae lege docetur,
+<lb ed="#Be" n="47"/>vel lege editur : et modum confessionis
+<lb ed="#Be" n="48"/>non invenimus expressum in nova vel
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="49"/>veteri lege : ergo videtur, quod non sit
+<lb ed="#Be" n="50"/>legitima explanatio peccatorum.
+</p>
+            <p xml:id="alalal-h21881-d1e664">
+               <lb ed="#Be" n="51"/>2. Item, Videtur, quod non sit tantum
+<lb ed="#Be" n="52"/>peccatorum : quia etiam circumstantias
+<lb ed="#Be" n="53"/>aliquando confiteri tenetur : et sic 
+vide<lb break="no" ed="#Be" n="54"/>tur esse diminuta.
+</p>
+            <p xml:id="alalal-h21881-d1e675">
+               <lb ed="#Be" n="55"/>3. Item, Non videtur esse explanatio,
+<lb ed="#Be" n="56"/>sed simplex enarratio : non enim expo—
+<lb ed="#Be" n="57"/>nit peccata confitens, sed simpliciter 
+enar<lb break="no" ed="#Be" n="58"/>rat. ,
+</p>
+            <p xml:id="alalal-h21881-d1e686">
+               <lb ed="#Be" n="59"/>OxsicituR etiam de illa quae est Gregorii
+<lb ed="#Be" n="60"/>de hoc quod dicit, Peccatorum detectio.
+<lb ed="#Be" n="61"/>1. Cum enim detegere peccatum 
+ordi<lb break="no" ed="#Be" n="62"/>netur ad scandalum proximi, videtur
+<lb ed="#Be" n="63"/>quod peccata non sunt detegenda, sed
+<lb ed="#Be" n="64"/>potius tegenda.
+</p>
+            <p xml:id="alalal-h21881-d1e702">
+               <lb ed="#Be" n="65"/>2. Item, Isa. u1, 9, vituperaatur qui 
+de<lb break="no" ed="#Be" n="66"/>tegunt peccata sua, cum dicit : <quote xml:id="alalal-h21881-Qd1e708">
+Pecca<lb break="no" ed="#Be" n="67"/>tum suum sieut Sodoma predicaverunt,
+<lb ed="#Be" n="68"/>nec absconderunt</quote>. Ergo confessio non
+<lb ed="#Be" n="69"/>erit detectio. .
+</p>
+            <p xml:id="alalal-h21881-d1e718">
+               <lb ed="#Be" n="70"/>3. Ulterius queritur de hoc quod dicit,
+<lb ed="#Be" n="71"/>Ruptio vulneris. Hee enim locutio 
+me<lb break="no" ed="#Be" n="72"/>taphorica est : ergo non debet poni in
+<lb ed="#Be" n="73"/>diffinitione ejus cui aptatur metaphora :
+<lb ed="#Be" n="74"/>hee autem est confessio : ergo non debet
+<lb ed="#Be" n="75"/>poni in diffinitione confessionis.
+</p>
+            <p xml:id="alalal-h21881-d1e735">
+               <lb ed="#Be" n="76"/>4. Item, Constat, quod idem est non
+<lb ed="#Be" n="77"/>differens nisi per locutionem 
+significati<lb break="no" ed="#Be" n="78"/>vam, detectio peccatt et ruptio vulneris :
+<lb ed="#Be" n="79"/>ergo neutrum contrahit alterum : sed 
+de<lb break="no" ed="#Be" n="80"/>tectio peccati potest fieri bene et male,
+<lb ed="#Be" n="81"/>et confessio non nisi bene : ergo 
+com<lb break="no" ed="#Be" n="82"/>munius se habet peccati detectio, quam
+<lb ed="#Be" n="83"/>confessio, et contrahitur : ergo diffinitio
+<lb ed="#Be" n="84"/>non est convertibilis cum diffinito : ergo
+<lb ed="#Be" n="85"/>non est propria ipsius : quod est 
+inconve<lb break="no" ed="#Be" n="86"/>niens, sive sit diffinitio, sive descriptio
+<lb ed="#Be" n="87"/>per propria.
+</p>
+            <p xml:id="alalal-h21881-d1e764">
+               <lb ed="#Be" n="88"/>Urerivs queritur de illa quae est 
+Au<lb break="no" ed="#Be" n="89"/>gustini : <quote xml:id="alalal-h21881-Qd1e770">Confessio est per quam morbus
+<lb ed="#Be" n="90"/>latens spe vente aperitur.</quote>
+            </p>
+            <p xml:id="alalal-h21881-d1e776">
+               <lb ed="#Be" n="91"/>1. Non enim confessione tantum 
+ape<lb break="no" ed="#Be" n="92"/>ritur morbus latens, sed etiam morbus
+<lb ed="#Be" n="93"/>apertus : quia generalis est confessio de
+<lb ed="#Be" n="94"/>omnibus, sive occultis, sive apertis : 
+er<lb break="no" ed="#Be" n="95"/>go male dicit, Morbus latens. “
+</p>
+            <p xml:id="alalal-h21881-d1e789">
+               <pb ed="#Be" n="578"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>2. Item, Si latens est : tune queratur,
+<lb ed="#Be" n="2"/>Quem est latens? Aut sacerdotem et alios :
+<lb ed="#Be" n="3"/>aut sacerdotem solum, vel alios solos. Et
+<lb ed="#Be" n="4"/>quodcumque istorum detur, non erit 
+con<lb break="no" ed="#Be" n="5"/>fessio de crimine aperto sacerdoti et aliis,
+<lb ed="#Be" n="6"/>vel sacerdoti soli,vel aliis solis : quod est
+<lb ed="#Be" n="7"/>inconveniens, cum de omnibus sit 
+con<lb break="no" ed="#Be" n="8"/>fessio.
+</p>
+            <p xml:id="alalal-h21881-d1e813">
+               <lb ed="#Be" n="9"/>3. Praeterea, Queritur de hoc quod
+<lb ed="#Be" n="10"/>dicit, Spe veniz. Quia ut frequenter,
+<lb ed="#Be" n="11"/>confessio fit magis timore poene : ergo
+<lb ed="#Be" n="12"/>diffinienda erat per poene timorem.
+</p>
+            <p xml:id="alalal-h21881-d1e824">
+               <lb ed="#Be" n="13"/>4. Item, Demus quod iste non 
+confi<lb break="no" ed="#Be" n="14"/>teatur spe veniae : et tamen nihil eorum
+<lb ed="#Be" n="15"/>que fecit, celet sacerdoti : ergo iste non
+<lb ed="#Be" n="16"/>erit confessus, et tenetur iterare 
+confes<lb break="no" ed="#Be" n="17"/>sionem, quod non dicitur.
+</p>
+            <p xml:id="alalal-h21881-d1e838">
+               <lb ed="#Be" n="18"/>5. Ulterius queritur de hoc quod dicit,
+<lb ed="#Be" n="19"/>Aperitur. Videtur enim, quod magis
+<lb ed="#Be" n="20"/>clauditur : quia illud quod dicitur in 
+con<lb break="no" ed="#Be" n="21"/>fessione, sigillo confessionis clauditur :
+<lb ed="#Be" n="22"/>ergo non aperit.
+</p>
+            <p xml:id="alalal-h21881-d1e851">
+               <lb ed="#Be" n="23"/>Unrerius queritur de ultima, quae 
+di<lb break="no" ed="#Be" n="24"/>cit, quod confessio est legitima 
+peccato<lb break="no" ed="#Be" n="25"/>rum coram sacerdote enarratio.
+</p>
+            <p xml:id="alalal-h21881-d1e860">
+               <lb ed="#Be" n="26"/>Videtur enim,quod nonsempersitcoram
+<lb ed="#Be" n="27"/>sacerdote, cum dicatur, Jacobi, v, 16 :
+<lb ed="#Be" n="28"/>
+               <quote xml:id="alalal-h21881-Qd1e868">Confitemini alterutrum peccata vestra.</quote>
+               <lb ed="#Be" n="29"/>Et ibi dicit Glossa : <quote xml:id="alalal-h21881-Qd1e873"> Majora majoribus,
+<lb ed="#Be" n="30"/>minora minoribus. </quote> Et non dicit, quod
+<lb ed="#Be" n="31"/>semper debeat fieri sacerdoti.
+</p>
+            <p xml:id="alalal-h21881-d1e881">
+               <lb ed="#Be" n="32"/>Et quia de hoc magnus occurrit 
+tracta<lb break="no" ed="#Be" n="33"/>tus in sequenti distinctione, nunc ista
+<lb ed="#Be" n="34"/>sufficiant.
+</p>
+            <p xml:id="alalal-h21881-d1e890">
+               <lb ed="#Be" n="35"/>Solutio. Dicendum, quod prima 
+diffi<lb break="no" ed="#Be" n="36"/>nitio melior est omnibus aliis : quia 
+col<lb break="no" ed="#Be" n="37"/>ligit essentialia omnia, et subjectum 
+pro<lb break="no" ed="#Be" n="38"/>prium, et finem, et ea unde trahit 
+virtu<lb break="no" ed="#Be" n="39"/>tem delendi peccatum. Essentialia enim
+<lb ed="#Be" n="40"/>sunt ea quae tanguntur cum dicitur, 
+Sa<lb break="no" ed="#Be" n="41"/>cramentalis accusatio. Accusatio enim 
+ge<lb break="no" ed="#Be" n="42"/>nus est, et sacramentalis differentia 
+distin<lb break="no" ed="#Be" n="43"/>guens ab accusatione civili et rhetorica.
+<lb ed="#Be" n="44"/>Delinguentis autem contrahit sicut 
+subje<lb break="no" ed="#Be" n="45"/>clum specificat passionem : quia sicut 
+di<lb break="no" ed="#Be" n="46"/>cit <ref xml:id="alalal-h21881-Rd1e918">Commentator super VII Metaphysice</ref> :
+<lb ed="#Be" n="47"/>
+               <quote xml:id="alalal-h21881-Qd1e922"> Subjectum proprium in diffinitione pas-
+<cb ed="#Be" n="b"/>
+                  <lb ed="#Be" n="48"/>sionis est loco differentia ultima
+<lb ed="#Be" n="49"/>convertibilis est, ut dicit Philosophus in
+<lb ed="#Be" n="50"/>VII prime Philosophiae. </quote> Ea autem 
+un<lb break="no" ed="#Be" n="51"/>de trahit virtutem delendi peccatum, sunt tio
+<lb ed="#Be" n="52"/>erubescentia et claves : finis autem ejus
+<lb ed="#Be" n="53"/>est ut taxetur satisfactio ad quam obligat
+<lb ed="#Be" n="54"/>se peragendam.
+</p>
+            <p xml:id="alalal-h21881-d1e943">
+               <lb ed="#Be" n="55"/>Ad Hoc ergo quod primo objicitur dg no:
+<lb ed="#Be" n="56"/>hoc quod dicit, Sacramentalis, dicen.
+<lb ed="#Be" n="57"/>dum quod differentia contrahens per
+<lb ed="#Be" n="58"/>modum qualitatis est in diffinitione, liget
+<lb ed="#Be" n="59"/>sit qualitas essentialis : et quia accusatig in
+<lb ed="#Be" n="60"/>non est sacramentum proprie, sed actys
+<lb ed="#Be" n="61"/>ejus, ideo non est qualitas essentialis sq
+<lb ed="#Be" n="62"/>cramenti nisi informative et denomina.
+<lb ed="#Be" n="63"/>tive : et ideo licet confessio secundum ge
+<lb ed="#Be" n="64"/>sit sacramentum, tamen quia diffinitur
+<lb ed="#Be" n="65"/>hic per actum, et actus denominatur a
+<lb ed="#Be" n="66"/>sacramento, ideo denominative diftinitur.
+</p>
+            <p xml:id="alalal-h21881-d1e973">
+               <lb ed="#Be" n="67"/>Vel potest dici, quod sacramentale,
+<lb ed="#Be" n="68"/>sicut et rationale dicitur dupliciter, 
+scili<lb break="no" ed="#Be" n="69"/>cet ut differentia quae facit sacramentum
+<lb ed="#Be" n="70"/>esse sacramentum : et hoc modo non
+<lb ed="#Be" n="71"/>preedicatur denominative de diffinito, 
+sic<lb break="no" ed="#Be" n="72"/>ut nec rationale, quando dicitur, Homo
+<lb ed="#Be" n="73"/>est animal rationale : et ita dicitur hic
+<lb ed="#Be" n="74"/>accusatio sacramentalis, quae est 
+sacra<lb break="no" ed="#Be" n="75"/>mentum quoddam, sicut animal 
+ratio<lb break="no" ed="#Be" n="76"/>nale animal quoddam : et non ponitur
+<lb ed="#Be" n="77"/>sacramentale ut denominans, sed potius
+<lb ed="#Be" n="78"/>in actu differentiae constituentis. Alio
+<lb ed="#Be" n="79"/>modo dicitur sacramentale a potentia 
+sa<lb break="no" ed="#Be" n="80"/>cramenti consequente esse sacramenti
+<lb ed="#Be" n="81"/>ipsius : et de illo verum est, quod est
+<lb ed="#Be" n="82"/>denominativum, sicut et rationale: 
+acce<lb break="no" ed="#Be" n="83"/>ptum de potentia ratiocinandi 
+conse<lb break="no" ed="#Be" n="84"/>quente esse hominis : et per hoc patet
+<lb ed="#Be" n="85"/>solutio ad primum.
+</p>
+            <p xml:id="alalal-h21881-d1e1017">
+               <lb ed="#Be" n="86"/>Ad sEcunpUM, dicendum, quod falsum #}
+<lb ed="#Be" n="87"/>supponitur in objectione : quia actus
+<lb ed="#Be" n="88"/>quandoque denominatur a virtute : unde
+<lb ed="#Be" n="89"/>dicitur actus virtualis vel virtutis : et ta
+<lb ed="#Be" n="90"/>men si non fieri concedatur, solvendum
+<lb ed="#Be" n="91"/>est sicut praecedens. .
+</p>
+            <p xml:id="alalal-h21881-d1e1033">
+               <lb ed="#Be" n="92"/>Ad aliud dicendum, quod tinctio 
+sa<lb break="no" ed="#Be" n="93"/>cramentalis dicitur baptismus, sed 102
+<lb ed="#Be" n="94"/>baptismalis proprie : quia baptismus 20
+<lb ed="#Be" n="95"/>minat totam speciem sacramenti, et no?
+<lb ed="#Be" n="96"/>solam differentiam ipsius qua signabilis
+<pb ed="#Be" n="579"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>est per modum qualitatis, sed non 
+spe<lb break="no" ed="#Be" n="2"/>cies : et ita dicitur hic sacramentalis et
+<lb ed="#Be" n="3"/>non poenitentialis ; et per hoc patet 
+solu<lb break="no" ed="#Be" n="4"/>tio ad sequens.
+</p>
+            <p xml:id="alalal-h21881-d1e1059">
+               <lb ed="#Be" n="5"/>Ad Hoc quod objicitur de hoc quod 
+di<lb break="no" ed="#Be" n="6"/>cit, Delinguentis, solvendum est quod 
+di<lb break="no" ed="#Be" n="7"/>citur hic delinguentis secundum habitum,
+<lb ed="#Be" n="8"/>non secundum actum : non ita quod 
+ha<lb break="no" ed="#Be" n="9"/>beat habitum peccatorum, sed quia 
+ha<lb break="no" ed="#Be" n="10"/>buit ipsum, et est in mutando eum in
+<lb ed="#Be" n="11"/>habitu virtutum : et talis bene potest esse
+<lb ed="#Be" n="12"/>in statu poenitentia.
+</p>
+            <p xml:id="alalal-h21881-d1e1079">
+               <lb ed="#Be" n="13"/>Ad aliud dicendum, quod verum est,
+<lb ed="#Be" n="14"/>quod nullus delinquens in actu est 
+pe<lb break="no" ed="#Be" n="15"/>nitens, sed delinquens modo predicto
+<lb ed="#Be" n="16"/>potest esse pcenitens.
+</p>
+            <p xml:id="alalal-h21881-d1e1090">
+               <lb ed="#Be" n="17"/>Ad aliud dicendum, quod bene 
+con<lb break="no" ed="#Be" n="18"/>cedo, quod non intelligitur de delicto
+<lb ed="#Be" n="19"/>veniali.
+</p>
+            <p xml:id="alalal-h21881-d1e1100">
+               <lb ed="#Be" n="20"/>Ad noc quod ulterius queritur 
+obji<lb break="no" ed="#Be" n="21"/>ciendo de accusatione, dicendum quod
+<lb ed="#Be" n="22"/>aliud est in foro poenitentiae, et aliud in
+<lb ed="#Be" n="23"/>foro judicii. In foro enim poenitentia
+<lb ed="#Be" n="24"/>nulli quantumcumque veraci creditur
+<lb ed="#Be" n="25"/>contra confitentem, sed tamen sibi cre~
+<lb ed="#Be" n="26"/>ditur contrase : et ideo statur 
+accusa<lb break="no" ed="#Be" n="27"/>tioni confitentis. Sed in foro judicii 
+ex<lb break="no" ed="#Be" n="28"/>terioris totum econtra : quia homini
+<lb ed="#Be" n="29"/>nihil creditur ibi pro se, sed potius alii
+<lb ed="#Be" n="30"/>qui exceptione est major : et ideo in illo
+<lb ed="#Be" n="31"/>judicio alius est accusans, et alius est.
+<lb ed="#Be" n="32"/>reus et accusatus.
+</p>
+            <p xml:id="alalal-h21881-d1e1131">
+               <lb ed="#Be" n="33"/>Ad aliud dicendum, quod quando 
+ac<lb break="no" ed="#Be" n="34"/>cusatio fit post convictionem, non datur
+<lb ed="#Be" n="35"/>locus defensionis. Et simile est in 
+con<lb break="no" ed="#Be" n="36"/>fessione : quia accusatio est testimonium
+<lb ed="#Be" n="37"/>convincens confitentem per relationem
+<lb ed="#Be" n="38"/>ad conscientiam : et ideo nullus datur 
+si<lb break="no" ed="#Be" n="39"/>bi locus defensionis.
+</p>
+            <p xml:id="alalal-h21881-d1e1149">
+               <lb ed="#Be" n="40"/>Abd ativp dicendum, quod 
+erubescen<lb break="no" ed="#Be" n="41"/>tia duplex est, scilicet spiritualis, et illa
+<lb ed="#Be" n="42"/>que relinquit passionem in corpore.
+<lb ed="#Be" n="43"/>Spiritualis autem timor est in turpi 
+ac<lb break="no" ed="#Be" n="44"/>cusatione ne manifestetur, vel cum 
+ma<lb break="no" ed="#Be" n="45"/>nifestatur : sicut trahi potest de verbis
+<lb ed="#Be" n="46"/>Damasceni : et illa quae est spiritualis
+<lb ed="#Be" n="47"/>exigitur ad confessionem, et non illa quae
+<lb ed="#Be" n="48"/>fit in corpore per exteriorem ruborem :
+<lb ed="#Be" n="49"/>sicut enim in praecedentibus habitum est,
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="50"/>illa variatur secundum hominum 
+diver<lb break="no" ed="#Be" n="51"/>sam complexionem.
+</p>
+            <p xml:id="alalal-h21881-d1e1180">
+               <lb ed="#Be" n="52"/>Ad aliud dicendum, quod illa 
+pro<lb break="no" ed="#Be" n="53"/>batio satis bona est : quia conceditur,
+<lb ed="#Be" n="54"/>quod non exigitur nisi erubescentia 
+spi<lb break="no" ed="#Be" n="55"/>ritualis.
+</p>
+            <p xml:id="alalal-h21881-d1e1191">
+               <lb ed="#Be" n="56"/>Ad aliud dicendum, quod Glossa illa
+<lb ed="#Be" n="57"/>propriissime accipit confusionem et 
+eru<lb break="no" ed="#Be" n="58"/>bescentiam : sed hic communiter 
+sumi<lb break="no" ed="#Be" n="59"/>tur erubescentia pro confusione.
+</p>
+            <p xml:id="alalal-h21881-d1e1202">
+               <lb ed="#Be" n="60"/>Ad aliud dicendum, quod passio 
+se<lb break="no" ed="#Be" n="61"/>cundum quod est facta et voluntate 
+in<lb break="no" ed="#Be" n="62"/>formata, etiamsi sit illata, meritoria est,
+<lb ed="#Be" n="63"/>sicut patet in questione praecedenti de
+<lb ed="#Be" n="64"/>contritione.
+</p>
+            <p xml:id="alalal-h21881-d1e1216">
+               <lb ed="#Be" n="65"/>Ad aliud dicendum, quod confessio
+<lb ed="#Be" n="66"/>que non subjicitur clavibus actualiter,
+<lb ed="#Be" n="67"/>non est simpliciter confessio, sed 
+secun<lb break="no" ed="#Be" n="68"/>dum quid : et bene concedo, quod in
+<lb ed="#Be" n="69"/>Veteri Testamento non fuit confessio
+<lb ed="#Be" n="70"/>nisi secundum quid : et ratio hujus patet
+<lb ed="#Be" n="71"/>ex praecedenti articulo questionis. 
+Con<lb break="no" ed="#Be" n="72"/>fessio autem quae fit alii quam sacerdoti,
+<lb ed="#Be" n="73"/>non est confessio nisi in quantum 
+sup<lb break="no" ed="#Be" n="74"/>plet locum confessionis : sicut baptismus
+<lb ed="#Be" n="75"/>poenitentiae non est baptismus, nisi
+<lb ed="#Be" n="76"/>in quantum supplet locum baptismi.
+</p>
+            <p xml:id="alalal-h21881-d1e1245">
+               <lb ed="#Be" n="77"/>Ad Atiup dicendum, quod alius modus
+<lb ed="#Be" n="78"/>satisfactionis est in confessione, et alius
+<lb ed="#Be" n="79"/>est in ea parte quae stricte dicitur 
+satis<lb break="no" ed="#Be" n="80"/>factio : quia in confessione est 
+satisfa<lb break="no" ed="#Be" n="81"/>ctio per mortem et passionem Christi de
+<lb ed="#Be" n="82"/>parte poene quae improportionabilis est,
+<lb ed="#Be" n="83"/>et ideo inarbitrabilis : sed in satisfactione
+<lb ed="#Be" n="84"/>est deletio delicti pene taxate. Nec est
+<lb ed="#Be" n="85"/>inconveniens, quod contritio et confessio
+<lb ed="#Be" n="86"/>induant aliquo modo satisfactionis 
+ra<lb break="no" ed="#Be" n="87"/>tionem, secundum quod large sumitur
+<lb ed="#Be" n="88"/>satisfactio : quia, sicut supra habitum
+<lb ed="#Be" n="89"/>est, poenitentia aliquo modo totum 
+homo<lb break="no" ed="#Be" n="90"/>genium est in suis partibus : et sic poena
+<lb ed="#Be" n="91"/>satisfaciens est in omnibus tribus.
+</p>
+            <p xml:id="alalal-h21881-d1e1280">
+               <lb ed="#Be" n="92"/>Ad aliud dicendum, quod illae partes
+<lb ed="#Be" n="93"/>mediae sunt inter diversas et 
+homoge<lb break="no" ed="#Be" n="94"/>nias : et ideo cum non omnino sint 
+di<lb break="no" ed="#Be" n="95"/>verse, non tenet id quod objectum est.
+<lb ed="#Be" n="96"/>Et hujus ratio valde de facili patet, si
+<lb ed="#Be" n="97"/>respiciatur id quod notatum est de 
+parti<lb break="no" ed="#Be" n="98"/>bus illis in principio hujus distinctionis.
+</p>
+            <p xml:id="alalal-h21881-d1e1298">
+               <pb ed="#Be" n="580"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Ad aliud dicendum, quod in veritate
+<lb ed="#Be" n="2"/>voluntas amplectendi poenitentiam 
+in<lb break="no" ed="#Be" n="3"/>junctam significatur in confessione : quia
+<lb ed="#Be" n="4"/>sicut preponit sibi secundum rationem
+<lb ed="#Be" n="5"/>et tempus contritionem in re vel in 
+pra<lb break="no" ed="#Be" n="6"/>sumptione sacerdotis, ita coexigit 
+vo<lb break="no" ed="#Be" n="7"/>luntatem obediendi in susceptione 
+in<lb break="no" ed="#Be" n="8"/>juncte satisfactionis : et ideo ex ipsa
+<lb ed="#Be" n="9"/>confessione ratione ejus quod exigit in
+<lb ed="#Be" n="10"/>penitente, obligatur ad-illam.
+</p>
+            <p xml:id="alalal-h21881-d1e1327">
+               <lb ed="#Be" n="11"/>Ad aliud dicendum, quod sacerdotes
+<lb ed="#Be" n="12"/>proprios nullus pcenitens et confitens
+<lb ed="#Be" n="13"/>habet plures, sed unum solum, et illius
+<lb ed="#Be" n="14"/>solius tenetur . poenitentiam peragere,
+<lb ed="#Be" n="15"/>que est injuncla secundum canonum
+<lb ed="#Be" n="16"/>statuta : quia alias non proprie dicitur -
+<lb ed="#Be" n="17"/>injuncta satisfactio. Si autem alii ex
+<lb ed="#Be" n="18"/>abundanti confitetur, ille debet inquirere
+<lb ed="#Be" n="19"/>injuncta a proprio sacerdote, et nihil 
+su<lb break="no" ed="#Be" n="20"/>perordinare,si secundum canonum.
+statu<lb break="no" ed="#Be" n="21"/>ta injuncta est.
+</p>
+            <p xml:id="alalal-h21881-d1e1353">
+               <lb ed="#Be" n="22"/>Ad aliud patet solutio per jam dicta :
+<lb ed="#Be" n="23"/>quia non est satisfactio proprie, nisi quae
+<lb ed="#Be" n="24"/>est secundum arbitrium canonum vel
+<lb ed="#Be" n="25"/>canonici sacerdotis, et non secundum
+<lb ed="#Be" n="26"/>arbitrium voluntatis hominis, quam
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="27"/>injungit aliquis ignorans vel 
+malitio<lb break="no" ed="#Be" n="28"/>sus.
+</p>
+            <p xml:id="alalal-h21881-d1e1374">
+               <lb ed="#Be" n="29"/>Ad aliud dicendum, quod ex causa
+<lb ed="#Be" n="30"/>mutari potest injuncta ab eo qui habet
+<lb ed="#Be" n="31"/>auctoritatem : sed tune perficit eam in
+<lb ed="#Be" n="32"/>equivalenti vel simpliciter vel secundum
+<lb ed="#Be" n="33"/>reputationem Ecclesie.
+</p>
+            <p xml:id="alalal-h21881-d1e1387">
+               <lb ed="#Be" n="34"/>Per habita patet etiam solutio ad 
+ulti<lb break="no" ed="#Be" n="35"/>mum : quia indulgentiae fiunt in 
+com<lb break="no" ed="#Be" n="36"/>mutationibus secundum equivalens in
+<lb ed="#Be" n="37"/>reputatione Ecclesiae, vel simpliciter.
+</p>
+            <p xml:id="alalal-h21881-d1e1398">
+               <lb ed="#Be" n="38"/>Ad id quod objicitur de secunda ', 
+di<lb break="no" ed="#Be" n="39"/>ceendum quod illa non colligit nisi 
+es<lb break="no" ed="#Be" n="40"/>sentialia constituentia confessionem.
+</p>
+            <p xml:id="alalal-h21881-d1e1407">
+               <lb ed="#Be" n="41"/>Ad id autem quod primo objicitur,
+<lb ed="#Be" n="42"/>dicendum quod legitima dicitur a lege
+<lb ed="#Be" n="43"/>erdinante modum accusationis in foro
+<lb ed="#Be" n="44"/>eonfessionis : et hac quidem lex in 
+uni<lb break="no" ed="#Be" n="45"/>versali promulgata est a Deo, ut patuit
+<cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="46"/>supra cum disputaretur, cujusmodi pra.
+<lb ed="#Be" n="47"/>ceptum esset quod est de confessions .
+<lb ed="#Be" n="48"/>sed hoc quod universaliter dictum est 4
+<lb ed="#Be" n="49"/>Deo, explanatum et interpretatum egt ab
+<lb ed="#Be" n="50"/>Ecclesiasticis Doctoribus et Pralatis et
+<lb ed="#Be" n="51"/>ideo legitima dicitur et lege veteri et les
+<lb ed="#Be" n="52"/>ge nova et lege patrum.
+</p>
+            <p xml:id="alalal-h21881-d1e1438">
+               <lb ed="#Be" n="53"/>Ad aliud dicendum, quod circumstan.
+<lb ed="#Be" n="54"/>tia aliquid peccati ponit: et ideo pecea
+<lb ed="#Be" n="55"/>tum secundum se non explanatur, Nisi
+<lb ed="#Be" n="56"/>circumstantiis suppositis, ut dicetur infty
+<lb ed="#Be" n="57"/>in hac eadem distinctione.
+</p>
+            <p xml:id="alalal-h21881-d1e1451">
+               <lb ed="#Be" n="58"/>Ad aliud dicendum, quod’ non est
+<lb ed="#Be" n="59"/>enarratio simplex, sed oportet ut expla.
+<lb ed="#Be" n="60"/>netur modus, ut intelligat sacerdos quan.
+<lb ed="#Be" n="61"/>titatem criminis. Enarratio autem sim.
+<lb ed="#Be" n="62"/>plex ad hoc non sufficit.
+</p>
+            <p xml:id="alalal-h21881-d1e1465">
+               <lb ed="#Be" n="63"/>Ad aliud autem quod objicitur de 
+ter<lb break="no" ed="#Be" n="64"/>tia quae est Gregorii in Moralibus 2, tra.
+<lb ed="#Be" n="65"/>ctantis illud Isaie, xxxvur1, 241 : Jussit
+<lb ed="#Be" n="66"/>Isaias ut tollerent massam de ficis, et
+<lb ed="#Be" n="67"/>cataplasmarent super vulnus, etc.
+</p>
+            <p xml:id="alalal-h21881-d1e1478">
+               <lb ed="#Be" n="68"/>Dicendum, quod non est diffinitio vel
+<lb ed="#Be" n="69"/>descriptio, sed potius quaedam adaptatio
+<lb ed="#Be" n="70"/>allegoria. Et per hoc patet solutio ad
+<lb ed="#Be" n="71"/>primum.
+</p>
+            <p xml:id="alalal-h21881-d1e1489">
+               <lb ed="#Be" n="72"/>Ad aliud dicendum, quod est peccati
+<lb ed="#Be" n="73"/>ut peccati detectio, et detectio ejus quod
+<lb ed="#Be" n="74"/>est peccatum. Peccatum autem ut 
+pecca<lb break="no" ed="#Be" n="75"/>tum non detegitur nisi in confessione
+<lb ed="#Be" n="76"/>sacerdoti : sicut nature morbus ut 
+mor<lb break="no" ed="#Be" n="77"/>bus non detegitur nisi medico, vel ei qui
+<lb ed="#Be" n="78"/>est inloco mediciin consilio et adjutorio
+<lb ed="#Be" n="79"/>medicine. Sed id quod est peccatum,
+<lb ed="#Be" n="80"/>detegitur quandoque jactanter : sed tunc
+<lb ed="#Be" n="81"/>detegitur ut laudabilis actus, secundum
+<lb ed="#Be" n="82"/>quod laudabile est apud eos qui letantur 
+<lb ed="#Be" n="83"/>cum malefecerint, et exsultant in rebus
+<lb ed="#Be" n="84"/>pessimis. Et de illis loquitur, Proverb.u,
+<lb ed="#Be" n="85"/>14 et seq.
+</p>
+            <p xml:id="alalal-h21881-d1e1522">
+               <lb ed="#Be" n="86"/>Ad aliud dicendum ut prius dictum
+<lb ed="#Be" n="87"/>est.
+</p>
+            <p xml:id="alalal-h21881-d1e1529">
+               <lb ed="#Be" n="88"/>Ad aliud dicendum, quod si per se 
+in<lb break="no" ed="#Be" n="89"/>telligatur locutio, tune convertibilis est
+<lb ed="#Be" n="90"/>ut proprium, sed non ut diffinitio :
+<pb ed="#Be" n="581"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>quia bene videtur mihi, quod Gregorius
+<lb ed="#Be" n="2"/>diffinire confessionem vel describere non
+<lb ed="#Be" n="3"/>intendit.
+</p>
+            <p xml:id="alalal-h21881-d1e1549">
+               <lb ed="#Be" n="4"/>AD ID quod ulterius queritur de 
+quar<lb break="no" ed="#Be" n="5"/>ta, dicendum quod illa data est in
+<lb ed="#Be" n="6"/>comparatione ad movens sive inclinans
+<lb ed="#Be" n="7"/>ad confessionem : hoc enim est spes ve-
+</p>
+            <p xml:id="alalal-h21881-d1e1561">
+               <lb ed="#Be" n="8"/>Ad id autem quod contra objicitur, 
+di<lb break="no" ed="#Be" n="9"/>cendum quod aperitur et clauditur pecca~
+<lb ed="#Be" n="10"/>tum in confessione : clauditur enim ab
+<lb ed="#Be" n="11"/>aliis, sed aperitur ei qui est in loco
+<lb ed="#Be" n="12"/>Dei: et hoc vocat Augustinus hic 
+aper<lb break="no" ed="#Be" n="13"/>tionem. .
+</p>
+            <p xml:id="alalal-h21881-d1e1577">
+               <lb ed="#Be" n="14"/>2. Ad aliud dicendum, quod etiam si
+<lb ed="#Be" n="15"/>sciatur, non tamen scitur per modum
+<lb ed="#Be" n="16"/>convictionis : sicut etiam judex non 
+ju<lb break="no" ed="#Be" n="17"/>dicat de hoc quod scit ut homo, sed de
+<lb ed="#Be" n="18"/>hoc quod scit ut judex. Similiter 
+pecca<lb break="no" ed="#Be" n="19"/>tum dicitur /atens quando de eo non
+<lb ed="#Be" n="20"/>potest fieri judicium : quia in foro illo,
+<lb ed="#Be" n="21"/>scilicet confessionis non est 
+denuntia<lb break="no" ed="#Be" n="22"/>tum.
+</p>
+            <p xml:id="alalal-h21881-d1e1599">
+               <lb ed="#Be" n="23"/>Ad aliud dicendum, quod non est ita
+<lb ed="#Be" n="24"/>essentialis timor confessioni sicut spes :
+<lb ed="#Be" n="25"/>timor enim si solus esset, non inclinaret
+<lb ed="#Be" n="26"/>ad confessionem, sed potius ad 
+taciturni<lb break="no" ed="#Be" n="27"/>tatem propter desperationem : etideo non
+<lb ed="#Be" n="28"/>erat ita diffinienda confessio per timorem
+<lb ed="#Be" n="29"/>sicut per spem. .
+</p>
+            <p xml:id="alalal-h21881-d1e1617">
+               <lb ed="#Be" n="30"/>Ad aliud dicendum, quod si aliquis
+<lb ed="#Be" n="31"/>sine spe confiteatur, non tenetur iterare
+<lb ed="#Be" n="32"/>confessionem, propter hoc quod sacerdos
+<lb ed="#Be" n="33"/>scit quidquid fecit : sed desperationem
+<lb ed="#Be" n="34"/>tenetur confiteri eidem. Si autem alii
+<lb ed="#Be" n="35"/>confiteatur, cum ipse non acceperit 
+sa<lb break="no" ed="#Be" n="36"/>tisfactionem condignam, dico quod in
+<lb ed="#Be" n="37"/>toto cum spe opinata ad minus tenetur
+<lb ed="#Be" n="38"/>facere confessionem.
+</p>
+            <p xml:id="alalal-h21881-d1e1639">
+               <lb ed="#Be" n="39"/>Ad aliud patet solutio per ante dicta :
+<lb ed="#Be" n="40"/>juia id quod dicitur in confessione, ei
+<lb ed="#Be" n="41"/>clauditur et aperitur.
+</p>
+            <p xml:id="alalal-h21881-d1e1648">
+               <lb ed="#Be" n="42"/>Ad id quod queritur de ultima 2,dicen
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="43"/>dum quod est eadem cum secunda, nisi
+<lb ed="#Be" n="44"/>quod apponit proprium auditorem 
+con<lb break="no" ed="#Be" n="45"/>fessionis qui est sacerdos.
+</p>
+            <p xml:id="alalal-h21881-d1e1662">
+               <lb ed="#Be" n="46"/>Ad id autem quod contra objicitur,
+<lb ed="#Be" n="47"/>dicendum quod majora in Glossa 
+dicun<lb break="no" ed="#Be" n="48"/>tur peccata mortalia, et minora dicuntur
+<lb ed="#Be" n="49"/>venialia quae non tenemur confiteri nisi
+<lb ed="#Be" n="50"/>in generali confessione : et hac est 
+con<lb break="no" ed="#Be" n="51"/>fessio non confessio simpliciter, sed se~
+<lb ed="#Be" n="52"/>cundum quid
+</p>
+            <p xml:id="alalal-h21881-d1e1680">
+               <lb ed="#Be" n="53"/>Et ita patet solutio ad omnia 
+que<lb break="no" ed="#Be" n="54"/>sita.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

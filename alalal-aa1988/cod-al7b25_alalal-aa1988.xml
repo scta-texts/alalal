@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="14"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-aa1988"><!-- l1d1et1 -->
+            <head xml:id="alalal-aa1988-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-aa1988-d1e101">
+               <pb ed="#Ba" n="14"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Expositio Textus.</p>
+            <p xml:id="alalal-aa1988-d1e110">
+               <lb ed="#Ba" n="2"/>Littera sic exponitur ;
+<lb ed="#Ba" n="3"/>
+               <quote xml:id="alalal-aa1988-Qd1e116"> Previa Dei gratia </quote> quia intellectus
+<lb ed="#Ba" n="4"/>sacre Scripture quaerit revelationem :
+<lb ed="#Ba" n="5"/>unde, Psal. cxvm, 18 : Revela oculos
+<lb ed="#Ba" n="6"/>meos, et considerabo mirabilia de lege
+<lb ed="#Ba" n="7"/>tua.
+</p>
+            <p xml:id="alalal-aa1988-d1e128">
+               <lb ed="#Ba" n="8"/>
+               <quote xml:id="alalal-aa1988-Qd1e132"> Diligenti indagine, </quote> id est, 
+dili<lb break="no" ed="#Ba" n="9"/>genti inquisitione.
+</p>
+            <p xml:id="alalal-aa1988-d1e137">
+               <lb ed="#Ba" n="10"/>
+               <quote xml:id="alalal-aa1988-Qd1e141"> Etiam atque etiam, </quote> quia per 
+le<lb break="no" ed="#Ba" n="11"/>ctionem et meditationem, vel rationem
+<lb ed="#Ba" n="12"/>et revelationem, vel litteraliter et mystice.
+</p>
+            <p xml:id="alalal-aa1988-d1e149">
+               <lb ed="#Ba" n="13"/>
+               <quote xml:id="alalal-aa1988-Qd1e153"> Speculatio studiosa, </quote> quoad 
+exer<lb break="no" ed="#Ba" n="14"/>citium.
+</p>
+            <p xml:id="alalal-aa1988-d1e158">
+               <lb ed="#Ba" n="15"/>
+               <quote xml:id="alalal-aa1988-Qd1e162"> Modesta, </quote> ne limites fidei 
+transgre<lb break="no" ed="#Ba" n="16"/>diantur.
+</p>
+            <p xml:id="alalal-aa1988-d1e167">
+               <lb ed="#Ba" n="17"/>
+               <quote xml:id="alalal-aa1988-Qd1e171"> Primum de rebus, </quote> in tribus primis
+<lb ed="#Ba" n="18"/>libris : <quote xml:id="alalal-aa1988-Qd1e175"> et postea de signis, disseremus, </quote>
+               <lb ed="#Ba" n="19"/>in quarto libro.
+</p>
+            <p xml:id="alalal-aa1988-d1e180">
+               <lb ed="#Ba" n="20"/>SED CONTRA :
+<lb ed="#Ba" n="21"/>1. Jam supra dixit, quod res per signa
+<lb ed="#Ba" n="22"/>discuntur : sed principium cognoscendi
+<lb ed="#Ba" n="23"/>aliquid est prius illo: ergo prius de signis
+<lb ed="#Ba" n="24"/>quam de rebus est agendum.
+</p>
+            <p xml:id="alalal-aa1988-d1e193">
+               <lb ed="#Ba" n="25"/>2. Praeterea, Signum facit rei 
+noti<lb break="no" ed="#Ba" n="26"/>tiam : ergo est prius illo.
+</p>
+            <p xml:id="alalal-aa1988-d1e200">
+               <lb ed="#Ba" n="27"/>Solutio. Hoc esset verum si signum et
+<lb ed="#Ba" n="28"/>res acciperentur in eodem ordine, scilicet,
+<lb ed="#Ba" n="29"/>quod signum esset illius rei signum, de
+<lb ed="#Ba" n="30"/>qua est locutio : sed hoc non est verum:
+<lb ed="#Ba" n="31"/>quia res sunt fruibiles, et utibiles, 
+fruen<lb break="no" ed="#Ba" n="32"/>tes et utentes, quae non per se 
+signifi<lb break="no" ed="#Ba" n="33"/>cantur illis signis, de quibus agitur in
+<lb ed="#Ba" n="34"/>libro quarto : et ideo objectio illa non
+<lb ed="#Ba" n="35"/>procedit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="353"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d63441"><!-- l2d21a1 -->
+            <head xml:id="alalal-d63441-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-d63441-Hd1e101" type="question-title">Tentatio quid sit per definitionem ?</head>
+            <p xml:id="alalal-d63441-d1e104">
+               <lb ed="#Bc" n="14"/>ARTICULUS I.
+<lb ed="#Bc" n="15"/>Tentatio quid sit per definitionem ?
+</p>
+            <p xml:id="alalal-d63441-d1e111">
+               <lb ed="#Bc" n="16"/>Incidunt autem circa primum 
+quin<lb break="no" ed="#Bc" n="17"/>que dubia: quorum primum est, Quid sit
+<lb ed="#Bc" n="18"/>tentatio ?
+<lb ed="#Bc" n="19"/>Secundum, Quis sit tentator ?
+ <lb ed="#Bc" n="20"/>Tertium, Utrum tentatio sit 
+appe<lb break="no" ed="#Bc" n="21"/>tenda ?
+<lb ed="#Bc" n="22"/>Quartum, Utrum omnis tentatio sit
+<lb ed="#Bc" n="23"/>peccatum, vel cum peccato necessario ?
+<lb ed="#Bc" n="24"/>Quintum, An omnis tentatio sit a 
+dia<lb break="no" ed="#Bc" n="25"/>bolo?
+</p>
+            <p xml:id="alalal-d63441-d1e135">
+               <lb ed="#Bc" n="26"/>AD PRIMUM Sic proceditur :
+<lb ed="#Bc" n="27"/>
+               <name xml:id="alalal-d63441-Nd1e141">Cassiodorus</name> in Origine super Psalmos
+<lb ed="#Bc" n="28"/>dicit, <quote xml:id="alalal-d63441-Qd1e145"> Tentatio est assimilatio boni ad
+<lb ed="#Bc" n="29"/>fallendum. </quote>
+            </p>
+            <p xml:id="alalal-d63441-d1e152">
+               <lb ed="#Bc" n="30"/>Magister Hugo de sancto Victore sic
+<lb ed="#Bc" n="31"/>diffinit : <quote xml:id="alalal-d63441-Qd1e158"> Tentare est callide experiri, et
+<lb ed="#Bc" n="32"/>ante violentam impulsionem quasi 
+qui<lb break="no" ed="#Bc" n="33"/>busdam blandis conatibus probare. </quote>
+            </p>
+            <p xml:id="alalal-d63441-d1e166">
+               <lb ed="#Bc" n="34"/>Objicitur autem contra primam 
+diffi<lb break="no" ed="#Bc" n="35"/>nitionem : quia
+<lb ed="#Bc" n="36"/>1. Genes. XXII: 1: Tentavit Deus Abra-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="37"/>ham: constat autem, quod non ad 
+fallen<lb break="no" ed="#Bc" n="38"/>dum: ergo illa diffinito non convenit
+<lb ed="#Bc" n="39"/>omni tentationi.
+</p>
+            <p xml:id="alalal-d63441-d1e184">
+               <lb ed="#Bc" n="40"/>2. Item, Glossa, ibidem, Tentare pro
+<lb ed="#Bc" n="41"/>eo quod est probare dicimus : unde 
+scri<lb break="no" ed="#Bc" n="42"/>ptum est, Tenéat vos Dominus Deus 
+ve<lb break="no" ed="#Bc" n="43"/>ster, ut palam fiat utrum diligatis eum
+<lb ed="#Bc" n="44"/>an non ? Vires enim dilectionis suae
+<lb ed="#Bc" n="45"/>ignorat homo nisi experimento 
+cogno<lb break="no" ed="#Bc" n="46"/>scat: ergo videtur, quod non sit semper
+<lb ed="#Bc" n="47"/>tentatio ad fallendum.
+</p>
+            <p xml:id="alalal-d63441-d1e204">
+               <lb ed="#Bc" n="48"/>3. Si dicas, quod intelligit Cassiodorus
+<lb ed="#Bc" n="49"/>de tentatione diaboli. Contra : Diabolus
+<lb ed="#Bc" n="50"/>non semper tentat in assimilatione boni,
+<lb ed="#Bc" n="51"/>sed potius quandoque de aperto malo:
+<lb ed="#Bc" n="52"/>ergo adhuc non convenit illa diffinitio,
+<lb ed="#Bc" n="53"/>ut videtur.
+</p>
+            <p xml:id="alalal-d63441-d1e220">
+               <lb ed="#Bc" n="54"/>4. Item, Tentatio est ad acceptionem
+<lb ed="#Bc" n="55"/>experimenti, ut videtur dicere Glossa
+<lb ed="#Bc" n="56"/>super Genesim. Tentator autem (ut dicit
+<lb ed="#Bc" n="57"/>Philosophus) non accipit experimentum
+<lb ed="#Bc" n="58"/>scientia, sed ignorantiae semper: ergo
+<lb ed="#Bc" n="59"/>videtur, quod diabolus tentando 
+num<lb break="no" ed="#Bc" n="60"/>quam accipit experimentum peccati 
+no<lb break="no" ed="#Bc" n="61"/>stri, sed remanebit ignorans peccatum.
+</p>
+            <p xml:id="alalal-d63441-d1e240">
+               <lb ed="#Bc" n="62"/>Si dicas, quod hoc non est 
+intelligen<lb break="no" ed="#Bc" n="63"/>dum de tentatione diaboli, de qua 
+Ma<lb break="no" ed="#Bc" n="64"/>gister hic agit, sed de tentatione 
+tenta<lb break="no" ed="#Bc" n="65"/>toris in scibilibus, quia tentator imitatur
+<lb ed="#Bc" n="66"/>dialecticum. Contra : Dicit Augustinus
+<lb ed="#Bc" n="67"/>in libro Questionum Veteris,et Novi 
+Te<lb break="no" ed="#Bc" n="68"/>stamenti, In illa questione, Tentatio vos
+<lb ed="#Bc" n="69"/>non apprehendat, etc.:<quote xml:id="alalal-d63441-Qd1e259"> Omne quod 
+pro<lb break="no" ed="#Bc" n="70"/>batum non est, tentatur, et in dubium
+<lb ed="#Bc" n="71"/>venit 2: </quote> ergo hoc idem est quod. dicit
+<lb ed="#Bc" n="72"/>Philosophus : ergo tentator numquam
+<lb ed="#Bc" n="73"/>accipit experimentum scientia.
+</p>
+            <p xml:id="alalal-d63441-d1e272">
+               <lb ed="#Bc" n="74"/>CONTRA SECUNDAM DIFFINITIONEM Sic 
+pro<lb break="no" ed="#Bc" n="75"/>ceditur :
+</p>
+            <p xml:id="alalal-d63441-d1e279">
+               <lb ed="#Bc" n="76"/>Videtur enim falsum quod dicit,
+<lb ed="#Bc" n="77"/>
+               <quote xml:id="alalal-d63441-Qd1e285"> Tentare est callide experiri: </quote> quia
+<lb ed="#Bc" n="78"/>1. Dicit Augustinus in libro 
+memo<lb break="no" ed="#Bc" n="79"/>rato : <quote xml:id="alalal-d63441-Qd1e292"> In tentatione robusti omnino
+<lb ed="#Bc" n="80"/>esse debemus, scientes non ad diminu-
+<pb ed="#Bc" n="354"/>
+                  <cb ed="#Bc" n="a"/>
+                  <lb ed="#Bc" n="1"/>tionem nostram proficere, sed ad aug~-
+<lb ed="#Bc" n="2"/>mentum, si modo equo animo_ 
+tole<lb break="no" ed="#Bc" n="3"/>remus propter Christum. </quote> Constat 
+au<lb break="no" ed="#Bc" n="4"/>tem, quod haec non est interrogatio
+<lb ed="#Bc" n="5"/>callida, nec callide experiri.
+</p>
+            <p xml:id="alalal-d63441-d1e313">
+               <lb ed="#Bc" n="6"/>2. Videtur etiam, quod seqvens pars
+<lb ed="#Bc" n="7"/>non conveniat, quia numquam est 
+im<lb break="no" ed="#Bc" n="8"/>pulsus violentus in tentatione. Dicit enim
+<lb ed="#Bc" n="9"/>Gregorius, et Bernardus, quod 
+debi<lb break="no" ed="#Bc" n="10"/>lis est hostis, qui non potest vincere nisi
+<lb ed="#Bc" n="11"/>volentem : ergo nulli potest facere 
+impul<lb break="no" ed="#Bc" n="12"/>sum violentum.
+</p>
+            <p xml:id="alalal-d63441-d1e331">
+               <lb ed="#Bc" n="13"/>3. Item, Quod sequitur, non semper
+<lb ed="#Bc" n="14"/>convenit, <quote xml:id="alalal-d63441-Qd1e337"> blandis conatibus probare: </quote>
+               <lb ed="#Bc" n="15"/>quia, ut infra in questione habebitur,
+<lb ed="#Bc" n="16"/>quandoque tentando comminando terret,
+<lb ed="#Bc" n="17"/>quandoque autem desperando frangit,
+<lb ed="#Bc" n="18"/>quandoque autem opprimendo rapit: et
+<lb ed="#Bc" n="19"/>tune non probat blandis conatibus, ut
+<lb ed="#Bc" n="20"/>videtur.
+</p>
+            <p xml:id="alalal-d63441-d1e353">
+               <lb ed="#Bc" n="21"/>Solutio. Dicendum videtur, quod iste
+<lb ed="#Bc" n="22"/>diffinitiones non intelliguntur de 
+tenta<lb break="no" ed="#Bc" n="23"/>tione qua tentat Deus, et homo: sed de
+<lb ed="#Bc" n="24"/>illa quae est motus et instinctus ad_ 
+illi<lb break="no" ed="#Bc" n="25"/>citum, a diabolo, vel a carne vel a
+<lb ed="#Bc" n="26"/>mundo procedens.
+</p>
+            <p xml:id="alalal-d63441-d1e369">
+               <lb ed="#Bc" n="27"/>Et ad hoc intelligendum, sciendum
+<lb ed="#Bc" n="28"/>quod ftentatio dicitur multis modis :
+<lb ed="#Bc" n="29"/>quandoque enim est interrogatio 
+expe<lb break="no" ed="#Bc" n="30"/>rimentiin scibilibus secundum 
+intelle<lb break="no" ed="#Bc" n="31"/>ctum speculativum: et hoc potest esse
+<lb ed="#Bc" n="32"/>duobus modis, scilicet circa universalia
+<lb ed="#Bc" n="33"/>principia artis, quibus scilis non neces—
+<lb ed="#Bc" n="34"/>sario scitur ars, ignoratis tamen 
+necessa<lb break="no" ed="#Bc" n="35"/>rio ignoratur : et hoc modo tentator
+<lb ed="#Bc" n="36"/>imitatur dialecticum qui procedit ex
+<lb ed="#Bc" n="37"/>communibus quae inveniuntur in 
+singu<lb break="no" ed="#Bc" n="38"/>lis, et numquam accipit experimentum
+<lb ed="#Bc" n="39"/>scientie, sed ignorantie. Quandoque
+<lb ed="#Bc" n="40"/>autem tentat circa propria, quibus scitis
+<lb ed="#Bc" n="41"/>necessario sciuntur conclusiones propric
+<lb ed="#Bc" n="42"/>arti, et ille tentator accipit 
+experimen<lb break="no" ed="#Bc" n="43"/>tum et ignorantia et scientie: et hoe
+<lb ed="#Bc" n="44"/>modo non agitur hic de tentatione.
+</p>
+            <p xml:id="alalal-d63441-d1e412">
+               <lb ed="#Bc" n="45"/>Est item fentatio probatio per 
+expe<lb break="no" ed="#Bc" n="46"/>rimentum operis, ut habeatur certitudo
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="47"/>quantitatis virtutis quae inest, cujus ex:
+<lb ed="#Bc" n="48"/>perimentum utile est, vel ad humiliatig.
+<lb ed="#Bc" n="49"/>nem si est parva, et creditur esse ma.
+<lb ed="#Bc" n="50"/>gna: vel ad presumendum de Deo gj est
+<lb ed="#Bc" n="51"/>magna, et creditur esse parva: vel aq
+<lb ed="#Bc" n="52"/>exercitium im quantitate meriti: et hog
+<lb ed="#Bc" n="53"/>modo Deus tentat Sanctos, ut dicit Ay.
+<lb ed="#Bc" n="54"/>gustinus in libro Questionum Veteris o¢
+<lb ed="#Bc" n="55"/>Novi Testament: <quote xml:id="alalal-d63441-Qd1e440"> Est et alia tentatio
+<lb ed="#Bc" n="56"/>qua tentatus est Abraham, et Tobias,
+<lb ed="#Bc" n="57"/>Job, famuli Dei: ut Abraham per triby.
+<lb ed="#Bc" n="58"/>lationem oblati unici et dilectissimi filii,
+<lb ed="#Bc" n="59"/>ut uberiorem justitie fructum haberet aq
+<lb ed="#Bc" n="60"/>zternam gloriam. Job autem amissione
+<lb ed="#Bc" n="61"/>totius substantia, ut augmentaretur 
+dj<lb break="no" ed="#Bc" n="62"/>vitiis locupletatus in ccelo et in terra,
+<lb ed="#Bc" n="63"/>Tobias vero cecitatem luminum passus,
+<lb ed="#Bc" n="64"/>sic provectior exstitit ut ad presens 
+glo<lb break="no" ed="#Bc" n="65"/>riosus fieret acceptis oculis, et in futurum
+<lb ed="#Bc" n="66"/>servaretur ei claritas perpetua: quia ad
+<lb ed="#Bc" n="67"/>hoc probantur justi, ut proficiant : et hoc
+<lb ed="#Bc" n="68"/>modo tentat Deus. </quote>
+            </p>
+            <p xml:id="alalal-d63441-d1e472">
+               <lb ed="#Bc" n="69"/>Item, Tertio modo est fentatio, 
+inter<lb break="no" ed="#Bc" n="70"/>rogatio per flagella: et hoc duobus 
+mo<lb break="no" ed="#Bc" n="71"/>dis, scilicet utrum sit fidelis, ut homo,
+<lb ed="#Bc" n="72"/>non ut Deus hoc cognoscat : et hoc modo
+<lb ed="#Bc" n="73"/>dicitur : Deus tentavit eos, et invenit eos
+<lb ed="#Bc" n="74"/>dignos se. Impii interrogatio ut 
+reco<lb break="no" ed="#Bc" n="75"/>gnoscatur: quia, sicut dicit Gregorius,
+<lb ed="#Bc" n="76"/>
+               <quote xml:id="alalal-d63441-Qd1e491"> Oculos quos culpa clausit, pcoena 
+ape<lb break="no" ed="#Bc" n="77"/>rit: </quote> et de hoc dicit Augustinus in pre- .
+<lb ed="#Bc" n="78"/>dicto libro;: <quote xml:id="alalal-d63441-Qd1e498"> Propter diffidentiam 
+ten<lb break="no" ed="#Bc" n="79"/>tantur Judei, ut angustiati pcenitentes
+<lb ed="#Bc" n="80"/>redeant in viam: cum enim diffiderent
+<lb ed="#Bc" n="81"/>de providentia Dei, tentati sunt a 
+ser<lb break="no" ed="#Bc" n="82"/>pentibus, ut dolore correpti 
+emendaren<lb break="no" ed="#Bc" n="83"/>tur. </quote> Deus enim sic tentat, ut corrigat
+<lb ed="#Bc" n="84"/>hujusmodi homines.
+</p>
+            <p xml:id="alalal-d63441-d1e515">
+               <lb ed="#Bc" n="85"/>Quarto modo dicitur fentatio, probatio
+<lb ed="#Bc" n="86"/>divinee providentiae vel divini  verbi,
+<lb ed="#Bc" n="87"/>utrum ita sit ut Scriptura dicit: et hoe
+<lb ed="#Bc" n="88"/>contingit duobus modis, scilicet per 
+con<lb break="no" ed="#Bc" n="89"/>trarium actum provocantem Deum: ¢t.
+<lb ed="#Bc" n="90"/>hoc fit quando diffiditur de potestate Dei,
+<lb ed="#Bc" n="91"/>et creditur non esse potéstas, sicut Judai
+<lb ed="#Bc" n="92"/>fecerunt, sicut dicitur in Psalmo cv, 14:
+<lb ed="#Bc" n="93"/>Tentaverunt Deum in deserto. Kit alibi,
+<pb ed="#Bc" n="355"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Tentaverunt me patres vestri, et 
+proba<lb break="no" ed="#Bc" n="2"/>verunt me, et viderunt operea mea 4: et
+<lb ed="#Bc" n="3"/>hanc tentationem vocat Augustinus 
+divi<lb break="no" ed="#Bc" n="4"/>nam, eo quod illa est tentare Deum, ct
+<lb ed="#Bc" n="5"/>illa est gravissima. Alio modo est 
+expe<lb break="no" ed="#Bc" n="6"/>rimentum querere apud Deum, quant
+<lb ed="#Bc" n="7"/>sit estimationis is qui tentat, utrum 
+mi<lb break="no" ed="#Bc" n="8"/>raculum pro ¢o velit facere potius quam
+<lb ed="#Bc" n="9"/>periclitetur : et hoc modo dixit Deus ad
+<lb ed="#Bc" n="10"/>diabolum, Matth. iw, 7: Non tentabis
+<lb ed="#Bc" n="11"/>Dominum Deum tuum. De primo dicit
+<lb ed="#Bc" n="12"/>Augustinus in libro eodem qui dictus est:
+<lb ed="#Bc" n="13"/>
+               <quote xml:id="alalal-d63441-Qd1e569"> Non sine providentia, ut arbitror, 
+ma<lb break="no" ed="#Bc" n="14"/>gister Gentium Apostolus, non ut 
+tenta<lb break="no" ed="#Bc" n="15"/>tio nos non apprehendat, exoptat, sed ut
+<lb ed="#Bc" n="16"/>humana duntaxat: quia divina tentatio
+<lb ed="#Bc" n="17"/>perniciem parit. Hac enim Judai 
+ap<lb break="no" ed="#Bc" n="18"/>prehensis, a serpentibus perierunt :
+<lb ed="#Bc" n="19"/>agentes enim sub lege Dei, de 
+providen<lb break="no" ed="#Bc" n="20"/>tia ejus dubitabant : ac per hoc ne divina
+<lb ed="#Bc" n="21"/>nos, sed humana tentatio apprehendat,
+<lb ed="#Bc" n="22"/>hortatur. Hic enim tentari a Deo dicitur,
+<lb ed="#Bc" n="23"/>qui sub nomine ejus agens, ab idolis
+<lb ed="#Bc" n="24"/>sperat salutem: quia non habet Deum
+<lb ed="#Bc" n="25"/>probatum .</quote> Et intelligit Augustinus
+<lb ed="#Bc" n="26"/>quod talis dicitur Deum tentare. De 
+se<lb break="no" ed="#Bc" n="27"/>cundo autem modo tentationis divine
+<lb ed="#Bc" n="28"/>dicitur in Glossa Deuter. vi, 16, quod
+<lb ed="#Bc" n="29"/>tentat Deum qui habens quod faciat,
+<lb ed="#Bc" n="30"/>sine ratione committit se periculis, 
+ex<lb break="no" ed="#Bc" n="31"/>periens utrum possit liberari a Deo.
+<lb ed="#Bc" n="32"/>Quinto modo dicitur tenfatio, 
+interro<lb break="no" ed="#Bc" n="33"/>gatio per meditationem de auxilio quod
+<lb ed="#Bc" n="34"/>potest impendere homo: et cum 
+inveni<lb break="no" ed="#Bc" n="35"/>tur homo debilis desperare de adjutorio
+<lb ed="#Bc" n="36"/>humano: et hance tentationem (ut dicit
+<lb ed="#Bc" n="37"/>Augustinus) optat nobis Apostolus, i ad
+<lb ed="#Bc" n="38"/>Corinth. x, 18, cum dicit: Zentatio vos
+<lb ed="#Bc" n="39"/>non apprehendat nist humana. Et heec
+<lb ed="#Bc" n="40"/>sunt verba Augustini: <quote xml:id="alalal-d63441-Qd1e630"> Humana autem
+<lb ed="#Bc" n="41"/>tentatio salutaris est: quia sicut de Deo
+<lb ed="#Bc" n="42"/>teniare perniciosum est, ita de homine
+<lb ed="#Bc" n="43"/>desperare propter Deilegem 
+saluberri<lb break="no" ed="#Bc" n="44"/>mum est.</quote> Dicitur autem ab eodem
+<lb ed="#Bc" n="45"/>Augustino etiam humana tentatio ibi-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="46"/>dem : qua tentamur ab homine 
+secun<lb break="no" ed="#Bc" n="47"/>dum humanum sensum: et desperatur
+<lb ed="#Bc" n="48"/>de nobis sub lege Dei agentibus: et ideo
+<lb ed="#Bc" n="49"/>tribulamur ab homine : et haec sunt ejus
+<lb ed="#Bc" n="50"/>verba: <quote xml:id="alalal-d63441-Qd1e657"> Feniatio, inquit, vos non 
+ap<lb break="no" ed="#Bc" n="51"/>prehendat nisi humana: ut propter 
+le<lb break="no" ed="#Bc" n="52"/>gem Dei ab hominibus tentati, fortes 
+in<lb break="no" ed="#Bc" n="53"/>vyeniamur, dubitantibus de nobis 
+homi<lb break="no" ed="#Bc" n="54"/>nibus carnalibus : Deo autem probati
+<lb ed="#Bc" n="55"/>simus, quia qui probati non sunt, 
+ten<lb break="no" ed="#Bc" n="56"/>tantur ut emendentur. </quote>
+            </p>
+            <p xml:id="alalal-d63441-d1e674">
+               <lb ed="#Bc" n="57"/>Nullo istoruam modcrum sumitur 
+fen<lb break="no" ed="#Bc" n="58"/>tatio prout est diffinita in prehabitis 
+dif<lb break="no" ed="#Bc" n="59"/>finitionibus. Sed dicitur quinto modo,
+<lb ed="#Bc" n="60"/>quando sub simulatione boni apparentis
+<lb ed="#Bc" n="61"/>machinatur malum tentator, ut inclinet
+<lb ed="#Bc" n="62"/>consensum voluntatis ad illicitum: et
+<lb ed="#Bc" n="63"/>hee tentatio est quandoque ab hoste,
+<lb ed="#Bc" n="64"/>quandoque a carne, et quandogque a
+<lb ed="#Bc" n="65"/>mundo, ut infra patebit.
+</p>
+            <p xml:id="alalal-d63441-d1e696">
+               <lb ed="#Bc" n="66"/>Secundum hoc igitur respondendum
+<lb ed="#Bc" n="67"/>est ad objecta, dicendo ad primum et 
+se<lb break="no" ed="#Bc" n="68"/>cundum, quod non intelliguntur de illis
+<lb ed="#Bc" n="69"/>tentationibus quibus tentat Deus vel
+<lb ed="#Bc" n="70"/>homo.
+</p>
+            <p xml:id="alalal-d63441-d1e709">
+               <lb ed="#Bc" n="71"/>Ad aliud dicendum, quod malum ut
+<lb ed="#Bc" n="72"/>malum non movet appetitum: sed 
+opor<lb break="no" ed="#Bc" n="73"/>tet, quod sit in ratione boni ut nunc: et
+<lb ed="#Bc" n="74"/>hoc vocatur assimilatio boni: et bene
+<lb ed="#Bc" n="75"/>potest esse, quod tentat de eo quod est
+<lb ed="#Bc" n="76"/>aperte peccatum, et tunc in ratione boni
+<lb ed="#Bc" n="77"/>est non simpliciter, sed ut tunc: ut 
+for<lb break="no" ed="#Bc" n="78"/>nicatio est aperte malum, sed tamen 
+ha<lb break="no" ed="#Bc" n="79"/>bet delectatio ut nunc, ex cujus specie
+<lb ed="#Bc" n="80"/>movet tentalionem. ,
+</p>
+            <p xml:id="alalal-d63441-d1e734">
+               <lb ed="#Bc" n="81"/>Ad aliud dicendum, quod diabolus
+<lb ed="#Bc" n="82"/>non tentat ut experiatur, sed potius ut
+<lb ed="#Bc" n="83"/>inclinet consensum: unde ille rationes
+<lb ed="#Bc" n="84"/>non valent. Et quod dicit Augustinus,
+<lb ed="#Bc" n="85"/>intelligitur de tentatione hominis qua
+<lb ed="#Bc" n="86"/>tentat Deum: divina enim tentatio ab eo
+<lb ed="#Bc" n="87"/>vocatur illa qua tentatur Deus, ut prius
+<lb ed="#Bc" n="88"/>habitum est.
+</p>
+            <p xml:id="alalal-d63441-d1e754">
+               <lb ed="#Bc" n="89"/>Ap iw quod objicitur de secunda dif-
+<pb ed="#Bc" n="356"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>finitione, dicendum quod. callide non
+<lb ed="#Bc" n="2"/>experitur diabolus scientiam peccati: sed
+<lb ed="#Bc" n="3"/>potius inclinabilitatem consensus 
+consi<lb break="no" ed="#Bc" n="4"/>derat callide, etin quod vitium facilius
+<lb ed="#Bc" n="5"/>inclinetur, ut ipsi paret decipulam.
+</p>
+            <p xml:id="alalal-d63441-d1e774">
+               <lb ed="#Bc" n="6"/>Ad atv dicendum, quod violentus
+<lb ed="#Bc" n="7"/>tmpulsus dicitur duobus modis, scilicet
+<lb ed="#Bc" n="8"/>a violentia vim inferente, vel a violentia
+<lb ed="#Bc" n="9"/>trahente et instigante : et hoc ultimo 
+mo<lb break="no" ed="#Bc" n="10"/>do sumitur in diffinitione.
+</p>
+            <p xml:id="alalal-d63441-d1e787">
+               <lb ed="#Bc" n="11"/>Ad aliud dicendum, quod ille 
+tenta<lb break="no" ed="#Bc" n="12"/>tiones quibus comminando terret, et 
+hu<lb break="no" ed="#Bc" n="13"/>jusmodi,etiam procedunt ex blandimento
+<lb ed="#Bc" n="14"/>proprii boni: nihil enim timetur nisi
+<lb ed="#Bc" n="15"/>propter nimium amorem proprii boni,
+<lb ed="#Bc" n="16"/>ut dicit Augustinus. Quod autem dicitur,
+<lb ed="#Bc" n="17"/>
+               <quote xml:id="alalal-d63441-Qd1e804"> opprimendo rapit, et desperando 
+fran<lb break="no" ed="#Bc" n="18"/>git, </quote> illa duo non dicunt primum motum
+<lb ed="#Bc" n="19"/>tentationis, sed potius effectum 
+sequen<lb break="no" ed="#Bc" n="20"/>tem consensum et opus peccati: et-ideo
+<lb ed="#Bc" n="21"/>non proprie sunt machinationes 
+tenta<lb break="no" ed="#Bc" n="22"/>tionis, sed effectus quos facit in peccante
+<lb ed="#Bc" n="23"/>qui dedit demoni in se locum per 
+meri<lb break="no" ed="#Bc" n="24"/>tum peccati.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

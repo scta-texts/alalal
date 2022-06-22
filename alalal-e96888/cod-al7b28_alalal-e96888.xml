@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="500"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e96888"><!-- l3d26a5 -->
+            <head xml:id="alalal-e96888-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-e96888-Hd1e101" type="question-title">An spes potest esse informis sicut fides ?</head>
+            <p xml:id="alalal-e96888-d1e104">
+               <lb ed="Bd" n="16"/>ARTICULUS V.
+<lb ed="Bd" n="17"/>An spes potest esse informis sicut fides ?
+</p>
+            <p xml:id="alalal-e96888-d1e111">
+               <lb ed="Bd" n="18"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="19"/>ibi, A, in fine: <quote xml:id="alalal-e96888-Qd1e117"> Sine meritis enim 
+ali<lb break="no" ed="Bd" n="20"/>quid sperare non spes, sed presumptio
+<lb ed="Bd" n="21"/>diet potest.</quote>
+            </p>
+            <p xml:id="alalal-e96888-d1e125">
+               <lb ed="Bd" n="22"/>Ex hoc enim videtur, quod numquam
+<lb ed="Bd" n="23"/>sit spes informis : quod quidam etiam
+<lb ed="Bd" n="24"/>aliis modis nituntur probare sic:
+</p>
+            <p xml:id="alalal-e96888-d1e135">
+               <lb ed="Bd" n="25"/>4. Quod fides potest esse informis,
+<lb ed="Bd" n="26"/>hoc habet ex hoc quod aliquid ejus est
+<lb ed="Bd" n="27"/>in cognilione, quod remanet, ablato eo
+<lb ed="Bd" n="28"/>quod est affectionis : ergo ubi non est illa
+<lb ed="Bd" n="29"/>causa, non est informitas: sed spes tota
+<lb ed="Bd" n="30"/>est in affectu, et nihil habet in parte 
+co<lb break="no" ed="Bd" n="31"/>gnitiva: ergo aut tota manet, aut tota
+<lb ed="Bd" n="32"/>tollitur : ergo informis non potest esse,
+<lb ed="Bd" n="33"/>ut videtur.
+</p>
+            <p xml:id="alalal-e96888-d1e157">
+               <lb ed="Bd" n="34"/>2. Item, Spes non potest tendere sine
+<lb ed="Bd" n="35"/>amore, et si non tendit, non manet:
+<lb ed="Bd" n="36"/>ergo videtur, quod sine charitate non
+<lb ed="Bd" n="37"/>manet aliquid de spe.
+</p>
+            <p xml:id="alalal-e96888-d1e168">
+               <lb ed="Bd" n="38"/>3. Item, Si maneret, tunc postea 
+ea<lb break="no" ed="Bd" n="39"/>dem fierct formata, quando adveniret
+<lb ed="Bd" n="40"/>gratia: qualiter ergo illud quod adveni-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="41"/>ret, haberet se ad illud quod remanet ?
+<lb ed="Bd" n="42"/>non enim potest dici, quod sicut 
+mate<lb break="no" ed="Bd" n="43"/>riale, sicut dictum est de fide: quia non
+<lb ed="Bd" n="44"/>est de duplici essentia, scilicet affectiva
+<lb ed="Bd" n="45"/>et intellectiva spes, sicut fides.
+</p>
+            <p xml:id="alalal-e96888-d1e190">
+               <lb ed="Bd" n="46"/>SED CONTRA:
+<lb ed="Bd" n="47"/>1. Fides generat spem: fides ergo 
+in<lb break="no" ed="Bd" n="48"/>formis generabit spem informem, et fides
+<lb ed="Bd" n="49"/>formata spem formatam.
+</p>
+            <p xml:id="alalal-e96888-d1e201">
+               <lb ed="Bd" n="50"/>2. Item, Sic se habet fides ad 
+timo<lb break="no" ed="Bd" n="51"/>rem, quod informis generat timorem 
+in<lb break="no" ed="Bd" n="52"/>formem, qui servilis est : formata autem
+<lb ed="Bd" n="53"/>timorem formatum, qui est initialis vel
+<lb ed="Bd" n="54"/>castus: ergo similiter faciet secundum
+<lb ed="Bd" n="55"/>ordinem in bonum de spe.
+</p>
+            <p xml:id="alalal-e96888-d1e217">
+               <lb ed="Bd" n="56"/>3. Item, Si spes esset semper formata,
+<lb ed="Bd" n="57"/>jam nobilior esset effectus quam causa:
+<lb ed="Bd" n="58"/>quia secundum naturam fides est causa
+<lb ed="Bd" n="59"/>spei, et potest esse informis et formata
+<lb ed="Bd" n="60"/>fides, ut supra habitum est.
+</p>
+            <p xml:id="alalal-e96888-d1e231">
+               <lb ed="Bd" n="61"/>4. Item, Spes est ex parte, sicut et
+<lb ed="Bd" n="62"/>fides : ergo videtur, quod accidit eadem
+<lb ed="Bd" n="63"/>imperfectio quae et illi: haec autem est
+<lb ed="Bd" n="64"/>informitas : ergo et potest esse informis.
+</p>
+            <p xml:id="alalal-e96888-d1e242">
+               <lb ed="Bd" n="65"/>5. Item, Augustinus vult, quod sola
+<lb ed="Bd" n="66"/>charitas dividat inter filios regni, et
+<lb ed="Bd" n="67"/>filios perditionis : ergo spes sicut et fides
+<lb ed="Bd" n="68"/>non dividet: ergo erit bonis et malis
+<lb ed="Bd" n="69"/>communis : non autem potest inesse
+<lb ed="Bd" n="70"/>malis nisi informis: ergo potest esse 
+in<lb break="no" ed="Bd" n="71"/>formis.
+</p>
+            <p xml:id="alalal-e96888-d1e260">
+               <lb ed="Bd" n="72"/>Sed st hoc datur, tune quaeritur, Que
+<lb ed="Bd" n="73"/>sit differentia inter spem quae non habet
+<lb ed="Bd" n="74"/>merita et est informis, et 
+prasumptio<lb break="no" ed="Bd" n="75"/>nem quae etiam non habet merita et
+<lb ed="Bd" n="76"/>exspectat beatitudinem ?
+</p>
+            <p xml:id="alalal-e96888-d1e273">
+               <lb ed="Bd" n="77"/>Solutio Dicendum, quod spes_ potest
+<lb ed="Bd" n="78"/>esse informis sicut et fides. Et ad 
+ulti<lb break="no" ed="Bd" n="79"/>mum respondeo primo, quod spes 
+infor<lb break="no" ed="Bd" n="80"/>mis non est sine meritis, sed non habet
+<lb ed="Bd" n="81"/>ea nisi in proposito: et ille fuit quintus
+<lb ed="Bd" n="82"/>modus quo merita precedunt actum
+<lb ed="Bd" n="83"/>spei, ut prius diximus ': sed preesumptio
+<lb ed="Bd" n="84"/>que dicitur spes stultorum, est ex gratia
+<lb ed="Bd" n="85"/>largitatis Dei sine omnibus meritis : ex~-
+<pb ed="#Bd" n="501"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>spectat enim prasumptuosus 
+beatitudi<lb break="no" ed="Bd" n="2"/>nem etiam continuando in peccatis, eo
+<lb ed="Bd" n="3"/>quod reputal Dei misericordiam dare
+<lb ed="Bd" n="4"/>beatitudinem sine conversione, et non
+<lb ed="Bd" n="5"/>attendere peccata. Et per hoc patet 
+diffe<lb break="no" ed="Bd" n="6"/>rentia.
+</p>
+            <p xml:id="alalal-e96888-d1e312">
+               <lb ed="Bd" n="7"/>Av primum dicendum, quod in 
+argu<lb break="no" ed="Bd" n="8"/>mento illo est suppositio falsi : quia etiam
+<lb ed="Bd" n="9"/>fides informis habet aliquid affectionis,
+<lb ed="Bd" n="10"/>ul supra ostendimus : et ideo non est
+<lb ed="Bd" n="11"/>causa quam ponit pro causa.
+</p>
+            <p xml:id="alalal-e96888-d1e325">
+               <lb ed="Bd" n="12"/>Ad aliud dicendum, quod omnis virtus
+<lb ed="Bd" n="13"/>theologica de se habet ut tendat, et non
+<lb ed="Bd" n="14"/>ab amore, nis: quodammodo: et quod
+<lb ed="Bd" n="15"/>spes informis non tendit, hoc est a 
+con<lb break="no" ed="Bd" n="16"/>trarietate quam habet in subjecto, et non
+<lb ed="Bd" n="17"/>de se.
+</p>
+            <p xml:id="alalal-e96888-d1e342">
+               <lb ed="Bd" n="18"/>Ad aliud dicendum, quod hoc bene
+<lb ed="Bd" n="19"/>concedo, sicut supra de fide, quod 
+adve<lb break="no" ed="Bd" n="20"/>niente gratia formatur id quod informe
+<lb ed="Bd" n="21"/>fuit, et est imperfectum respectu ipsius
+<lb ed="Bd" n="22"/>et materiale, sicut et in fide, sicut 
+dis<lb break="no" ed="Bd" n="23"/>positio materialis est respectu speciei :
+<lb ed="Bd" n="24"/>non tamen ita differt, sicut dispositio a
+<lb ed="Bd" n="25"/>specie, sed sicut imperfectum a perfecto
+<lb ed="Bd" n="26"/>in eodem genere qualitatis, et sicut 
+im<lb break="no" ed="Bd" n="27"/>perfectum ad actuin sperandi quem bene
+<lb ed="Bd" n="28"/>spes informis elicit, sed sicut 
+imperfe<lb break="no" ed="Bd" n="29"/>ctum ad tendendum.
+</p>
+            <p xml:id="alalal-e96888-d1e371">
+               <lb ed="Bd" n="30"/>Ad noc autem quod posset objici,
+<lb ed="Bd" n="31"/>quod due qualitates ejusdem speciei non
+<lb ed="Bd" n="32"/>sunt in eodem secundum idem: quia
+<lb ed="Bd" n="33"/>simplex non unitur simplici, et 
+hujus<lb break="no" ed="Bd" n="34"/>modi, supra in questione de fide 
+re<lb break="no" ed="Bd" n="35"/>sponsum est,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

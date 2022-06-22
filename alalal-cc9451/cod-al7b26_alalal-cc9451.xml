@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="52"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-cc9451"><!-- l1d28dt -->
+            <head xml:id="alalal-cc9451-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-cc9451-d1e101">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="7"/>DivIsloO TEXTUS.
+</p>
+            <p xml:id="alalal-cc9451-d1e108">
+               <lb ed="#Bb" n="8"/>
+               <quote xml:id="alalal-cc9451-Qd1e112"> Praeterea considerart oportet, etc. </quote>
+               <lb ed="#Bb" n="9"/>Hic Magister incipit tractare de 
+pro<lb break="no" ed="#Bb" n="10"/>prietatibus personarum non 
+persona<lb break="no" ed="#Bb" n="11"/>lium, quae sunt due, scilicet 
+innascibi<lb break="no" ed="#Bb" n="12"/>litas, quae est unius persone: et ideo
+<lb ed="#Bb" n="13"/>de illa agit primo in hac distinctione: et
+<lb ed="#Bb" n="14"/>de conimuni principio, scilicet spiratione
+<lb ed="#Bb" n="15"/>activa, quo Pater et Filius sunt 
+princi<lb break="no" ed="#Bb" n="16"/>pium Spiritus sancti, quae est 
+proprie<lb break="no" ed="#Bb" n="17"/>tas duarum personarum: et de hac agit
+<lb ed="#Bb" n="18"/>in secunda parte, ibi, <quote xml:id="alalal-cc9451-Qd1e136"> Est Praeterea
+<lb ed="#Bb" n="19"/>aliud nomen, etc., </quote> in distinctione 
+se<lb break="no" ed="#Bb" n="20"/>quenti.
+</p>
+            <p xml:id="alalal-cc9451-d1e144">
+               <lb ed="#Bb" n="21"/>Ista autem distinctio dividitur in 
+qua<lb break="no" ed="#Bb" n="22"/>tuor partes: in quarum prima Magister
+<lb ed="#Bb" n="23"/>investigat rationem innascibilitatis. In
+<lb ed="#Bb" n="24"/>secunda, inducit Ambrosium arguentem
+<lb ed="#Bb" n="25"/>novitatem nominis, cum in Scripturis
+<lb ed="#Bb" n="26"/>non legatur, ibi, D, <quote xml:id="alalal-cc9451-Qd1e159"> Lllud autem 
+ta<lb break="no" ed="#Bb" n="27"/>cere non oportet, etc. </quote> In tertia querit,
+<lb ed="#Bb" n="28"/>Utrum eodem intellectu  dici possit
+<lb ed="#Bb" n="29"/>Pater non esse Filius, quo dicitur aliud
+<lb ed="#Bb" n="30"/>esse ingenitum et aliud genitum? ibi, E,
+<lb ed="#Bb" n="31"/>
+               <quote xml:id="alalal-cc9451-Qd1e173"> Praeterea queri solet etc. </quote> In quarta
+<lb ed="#Bb" n="32"/>et ultima querit, Utrum solus Filius
+<lb ed="#Bb" n="33"/>dicatur nata sapientia sicut solus 
+dici<lb break="no" ed="#Bb" n="34"/>tur imago et verbum? ibi, F, <quote xml:id="alalal-cc9451-Qd1e181"> 
+Scien<lb break="no" ed="#Bb" n="35"/>dum quoque est, quod sicut solus Filius,
+<lb ed="#Bb" n="36"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-cc9451-d1e189">
+               <lb ed="#Bb" n="37"/>Prima harum subdividitur in tres. In
+<lb ed="#Bb" n="38"/>prima probatur, quod ingenitus est in
+<lb ed="#Bb" n="39"/>predicamento relationis, et quod idem
+<cb ed="#Bb" n="c"/>
+               <lb ed="#Bb" n="40"/>est quod non genitus, sive non filius.
+<lb ed="#Bb" n="41"/>In secunda queritur, Utrum solus Pater
+<lb ed="#Bb" n="42"/>dicitur non genitus, sicut solus Pater 
+di<lb break="no" ed="#Bb" n="43"/>citur ingenitus ? ibi, B, <quote xml:id="alalal-cc9451-Qd1e208"> Jdeo solet
+<lb ed="#Bb" n="44"/>queri, etc. </quote> In tertia, determinatur 
+no<lb break="no" ed="#Bb" n="45"/>men notionis qua Pater dicitur 
+ingent<lb break="no" ed="#Bb" n="46"/>tus, ibi, C, <quote xml:id="alalal-cc9451-Qd1e218"> Si autem vis scire, ete. </quote>
+            </p>
+            <p xml:id="alalal-cc9451-d1e222">
+               <lb ed="#Bb" n="47"/>Nota autem hic, quod supra, Dist.
+<lb ed="#Bb" n="48"/>XUI, cap. E, <quote xml:id="alalal-cc9451-Qd1e228"> Nune considerandum est,
+<lb ed="#Bb" n="49"/>cum Spiritus sanctus non sit genitus,
+<lb ed="#Bb" n="50"/>etc., </quote> determinate sunt questiones tres
+<lb ed="#Bb" n="51"/>de innascibilitate, quae adduci possunt
+<lb ed="#Bb" n="52"/>hic, scilicet quot modis dicatur, et 
+quali<lb break="no" ed="#Bb" n="53"/>ter est notio solius Patris, et qualiter
+<lb ed="#Bb" n="54"/>convenit Patri et Filio et etiam essentiae
+<lb ed="#Bb" n="55"/>divine. Quod ergo ibi determinatum est ’,
+<lb ed="#Bb" n="56"/>hic supponatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

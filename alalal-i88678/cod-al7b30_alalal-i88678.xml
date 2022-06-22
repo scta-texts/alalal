@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 21</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 21</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="423"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i88678"><!-- l4d38a21 -->
+            <head xml:id="alalal-i88678-Hd1e99">Articulus 21</head>
+            <head xml:id="alalal-i88678-Hd1e101" type="question-title">An adulterium homicidio et aliis 
+peccatis sit gravius ?</head>
+            <p xml:id="alalal-i88678-d1e104">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="9"/>ARTICULUS XXI.
+<lb ed="#Bf" n="10"/>An adulterium homicidio et aliis 
+pecca<lb break="no" ed="#Bf" n="11"/>tis sit gravius ?
+</p>
+            <p xml:id="alalal-i88678-d1e115">
+               <lb ed="#Bf" n="12"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bf" n="13"/>ibi, D, post initium: <quote xml:id="alalal-i88678-Qd1e121"> Quid in omnibus
+<lb ed="#Bf" n="14"/>peceatis adulterio, etc. </quote>
+            </p>
+            <p xml:id="alalal-i88678-d1e127">
+               <lb ed="#Bf" n="15"/>Videtur enim falsum : quia
+<lb ed="#Bf" n="16"/>1. Homicidium in genere moris, 
+gra<lb break="no" ed="#Bf" n="17"/>vius est adulterio, et infidelitas gravior
+<lb ed="#Bf" n="18"/>est simpliciter.
+</p>
+            <p xml:id="alalal-i88678-d1e139">
+               <lb ed="#Bf" n="19"/>2. Item, Adulterium est peccatum ex
+<lb ed="#Bf" n="20"/>infirmitate carnis exortum: sed. illo 
+gra<lb break="no" ed="#Bf" n="21"/>vius est peccatum in Spiritum sanctum:
+<lb ed="#Bf" n="22"/>ergo adulterium non est in omnibus 
+pec<lb break="no" ed="#Bf" n="23"/>catis gravius.
+</p>
+            <p xml:id="alalal-i88678-d1e152">
+               <lb ed="#Bf" n="24"/>Item queritur, Quare in poenis 
+secun<lb break="no" ed="#Bf" n="25"/>dum tenet locum ? ,
+</p>
+            <p xml:id="alalal-i88678-d1e159">
+               <lb ed="#Bf" n="26"/>Sienim dicas, quod secundum tenet
+<lb ed="#Bf" n="27"/>locum, quia secundum preceptum 
+trans<lb break="no" ed="#Bf" n="28"/>greditur, Conrra: Tria praecepta sunt in
+<lb ed="#Bf" n="29"/>prima tabula, ex quibus nullum 
+transgre<lb break="no" ed="#Bf" n="30"/>ditur.
+</p>
+            <p xml:id="alalal-i88678-d1e172">
+               <lb ed="#Bf" n="31"/>Si dicas quod tenet transgressionem
+<lb ed="#Bf" n="32"/>secundam in secunda tabula. Contra:
+<lb ed="#Bf" n="33"/>Secundum praceptum est : Non occides,
+<lb ed="#Bf" n="34"/>et non contra hoc est adulterium.
+<cb ed="#Bf" n="c"/>
+               <lb ed="#Bf" n="35"/>Si forte dicas, quod habet 
+transgres<lb break="no" ed="#Bf" n="36"/>sionem secundam in negativis. Conrra :
+<lb ed="#Bf" n="37"/>Hoc erit contra Litteram: quia dicit,
+<lb ed="#Bf" n="38"/>quod primum locum habent hi qui 
+aber<lb break="no" ed="#Bf" n="39"/>rant a Deo: quod non diceret, si 
+pradi<lb break="no" ed="#Bf" n="40"/>cto modo intelligeret, sed potius, quod
+<lb ed="#Bf" n="41"/>primum locum tenerent homicide.
+</p>
+            <p xml:id="alalal-i88678-d1e201">
+               <lb ed="#Bf" n="42"/>Si vero dicas, quod secundum locum
+<lb ed="#Bf" n="43"/>tenet in poenis : quia lapidantur sicut 
+aber<lb break="no" ed="#Bf" n="44"/>rans a Deo. Contra: Jus majus peccatum
+<lb ed="#Bf" n="45"/>debet magis punire : sed homicidium
+<lb ed="#Bf" n="46"/>est majus peccatum, quam adulterium:
+<lb ed="#Bf" n="47"/>ergo lege juris magis debet puniri.
+</p>
+            <p xml:id="alalal-i88678-d1e217">
+               <lb ed="#Bf" n="48"/>Item, Illa quae fornicatur in domo 
+pa<lb break="no" ed="#Bf" n="49"/>tris sui, lapidatur, sicut dicitur, Deuter.
+<lb ed="#Bf" n="50"/>xxut, 23 et 24.
+</p>
+            <p xml:id="alalal-i88678-d1e227">
+               <lb ed="#Bf" n="51"/>Item, Filius contumax lapidatur: quia
+<lb ed="#Bf" n="52"/>non vult audire monita patris ?.
+</p>
+            <p xml:id="alalal-i88678-d1e234">
+               <lb ed="#Bf" n="53"/>Ergo videtur, quod nullo modo 
+secun<lb break="no" ed="#Bf" n="54"/>dum locum tenet in poenis.
+</p>
+            <p xml:id="alalal-i88678-d1e241">
+               <lb ed="#Bf" n="55"/>Responsio. Sine prejudicio dicendum,
+<lb ed="#Bf" n="56"/>quod aberrans a Deo frangit fidem 
+uni<lb break="no" ed="#Bf" n="57"/>tatis spiritus quam habet cum Deo in
+<lb ed="#Bf" n="58"/>significato matrimonii quantum ad 
+bo<lb break="no" ed="#Bf" n="59"/>num sacramenti. Adulterans autem 
+fran<lb break="no" ed="#Bf" n="60"/>git fidem thori et individuitatis 
+matrimo<lb break="no" ed="#Bf" n="61"/>nii, quae significat societatem anime
+<lb ed="#Bf" n="62"/>cum Deo: et ideo exemplariter et quoad
+<lb ed="#Bf" n="63"/>quantitatem reatus est in secundo loco
+<lb ed="#Bf" n="64"/>aberrans a fide: et ideo Dominus per
+<lb ed="#Bf" n="65"/>Isaiam aberranti loquitur per modum
+<lb ed="#Bf" n="66"/>adultere, Isa. xxvitt, 20: <quote xml:id="alalal-i88678-Qd1e269">Coangustatum
+<lb ed="#Bf" n="67"/>est enim stratum, tta ut alter decidat : et
+<pb ed="#Bf" n="424"/>
+                  <cb ed="#Bf" n="a"/>
+                  <lb ed="#Bf" n="1"/>pallium breve utrumque operire non 
+pot<lb break="no" ed="#Bf" n="2"/>est</quote>. Et, ibidem, tv, 8: <quote xml:id="alalal-i88678-Qd1e282">Jexta me disco- 
+<lb ed="#Bf" n="3"/>operuisti, et suscepisti adulterum.</quote>
+            </p>
+            <p xml:id="alalal-i88678-d1e288">
+               <lb ed="#Bf" n="4"/>Et similiter, Ezechiel. xvi, 1 et seq.,
+<lb ed="#Bf" n="5"/>et Osee, m, 4, et in aliis multis locis.
+</p>
+            <p xml:id="alalal-i88678-d1e295">
+               <lb ed="#Bf" n="6"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="842"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h80680"><!-- l4d20a11 -->
+            <head xml:id="alalal-h80680-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-h80680-Hd1e101" type="question-title">An si peccator semper viveret, semper
+peccaret ?</head>
+            <p xml:id="alalal-h80680-d1e104">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="20"/>ARTICULUS XI.
+<lb ed="#Be" n="21"/>An si peccator semper viveret, semper
+<lb ed="#Be" n="22"/>peccaret ?
+</p>
+            <p xml:id="alalal-h80680-d1e115">
+               <lb ed="#Be" n="23"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="24"/>ibi, B, in fine: <quote xml:id="alalal-h80680-Qd1e121"> St enim semper 
+vive<lb break="no" ed="#Be" n="25"/>ret, semper peccaret. </quote>
+            </p>
+            <p xml:id="alalal-h80680-d1e127">
+               <lb ed="#Be" n="26"/>Ista conditionalis videtur esse 
+impos<lb break="no" ed="#Be" n="27"/>sibilis : quia consequentia nulla esse 
+vi<lb break="no" ed="#Be" n="28"/>detur, Iste qui peccavit, semper vivit :
+<lb ed="#Be" n="29"/>ergo semper peccat : potest enim non
+<lb ed="#Be" n="30"/>peccare, et tamen semper vivere.
+</p>
+            <p xml:id="alalal-h80680-d1e141">
+               <lb ed="#Be" n="31"/>Responsio. Dicendum, quod homo est
+<lb ed="#Be" n="32"/>sptritus vadens, et non rediens* : unde
+<lb ed="#Be" n="33"/>de se habet homo, quod peccet : sed de
+<lb ed="#Be" n="34"/>se non habet homo, quod resurgat. _
+</p>
+            <p xml:id="alalal-h80680-d1e152">
+               <lb ed="#Be" n="35"/>Dicendum ergo ad Litteram, quod 
+sic<lb break="no" ed="#Be" n="36"/>ut videre secundum Philosophum 
+dupli<lb break="no" ed="#Be" n="37"/>citer dicitur, scilicet habere visum, et 
+vi<lb break="no" ed="#Be" n="38"/>su uti : ita et peccare dicitur ad habere
+<lb ed="#Be" n="39"/>peccatum, et uti peccato. Et hoc 
+intelli<lb break="no" ed="#Be" n="40"/>gitur ad habere peccatum : quia qui 
+se<lb break="no" ed="#Be" n="41"/>mel peccat, quantum est de se, semper
+<lb ed="#Be" n="42"/>est in peccato et erit : et secundum hoc
+<lb ed="#Be" n="43"/>consequentia est bona : et ita intelligitur
+<lb ed="#Be" n="44"/>Littera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="455"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a90150"><!-- l1d16a11 -->
+            <head xml:id="alalal-a90150-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-a90150-Hd1e101" type="question-title">Utrum Christus secundum quod homa,
+sii minor Patre, et Spiritu sancto, et se?</head>
+            <p xml:id="alalal-a90150-d1e104">
+               <lb ed="#Ba" n="20"/>ARTICULUS XI.
+<lb ed="#Ba" n="21"/>Utrum Christus secundum quod homa,
+<lb ed="#Ba" n="22"/>sii minor Patre, et Spiritu sancto, et se?
+</p>
+            <p xml:id="alalal-a90150-d1e113">
+               <lb ed="#Ba" n="23"/>Hic autem incidit dubium, Utrum
+<lb ed="#Ba" n="24"/>Christus secundum quod homo, sit 
+mi<lb break="no" ed="#Ba" n="25"/>nor Patre, et se, et Spiritu sancto? quia
+<lb ed="#Ba" n="26"/>haecquestio ad idem redit in illis tribus
+<lb ed="#Ba" n="27"/>modis.
+</p>
+            <p xml:id="alalal-a90150-d1e126">
+               <lb ed="#Ba" n="28"/>1. Videtur autem, quod sic : quia 
+se<lb break="no" ed="#Ba" n="29"/>cundum quod homo, possum dicere,
+<lb ed="#Ba" n="30"/>quod est factus, et creatura, et 
+hujus<lb break="no" ed="#Ba" n="31"/>modi, quae omnia sonant 
+minoratio<lb break="no" ed="#Ba" n="32"/>nem : ergo ipse secundum quod homo,
+<cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="33"/>est minor Patre, et seipso, et Spiritu
+<lb ed="#Ba" n="34"/>sancto
+</p>
+            <p xml:id="alalal-a90150-d1e147">
+               <lb ed="#Ba" n="35"/>2. Item, Hoc concorditer dicunt omnes
+<lb ed="#Ba" n="36"/>Sancti.
+</p>
+            <p xml:id="alalal-a90150-d1e154">
+               <lb ed="#Ba" n="37"/>Sed CONTRA:
+<lb ed="#Ba" n="38"/>1. Christus secundum quod homo, est
+<lb ed="#Ba" n="39"/>homo: si ergo Christus secundum quod
+<lb ed="#Ba" n="40"/>homo, minor est se : ergo Christus 
+mi<lb break="no" ed="#Ba" n="41"/>nor est seipso: et hoc non potest esse,
+<lb ed="#Ba" n="42"/>quia nulla res minor est seipsa.
+</p>
+            <p xml:id="alalal-a90150-d1e170">
+               <lb ed="#Ba" n="43"/>2. Item, Christus non videtur esse
+<lb ed="#Ba" n="44"/>nisi unius quantitatis : ergo videtur, quod
+<lb ed="#Ba" n="45"/>secundum illam aut sit major tantum,
+<lb ed="#Ba" n="46"/>aut minor tantum, aut aequalis.
+</p>
+            <p xml:id="alalal-a90150-d1e181">
+               <lb ed="#Ba" n="47"/>3. Item, Christus secundum quod
+<lb ed="#Ba" n="48"/>homo est minor se: ergo Christus 
+se<lb break="no" ed="#Ba" n="49"/>cundum quod homo est, non est zqualis
+<lb ed="#Ba" n="50"/>sibi: quia minus et magis opponuntur
+<lb ed="#Ba" n="51"/>equali.
+</p>
+            <p xml:id="alalal-a90150-d1e194">
+               <lb ed="#Ba" n="52"/>Sonutio. Ad hujusmodi respondere
+<lb ed="#Ba" n="53"/>leve est: quia cum dicitur, Christus se~
+<lb ed="#Ba" n="54"/>cundum quod homo minor est Patre’ et
+<lb ed="#Ba" n="55"/>Spiritu sancto, absolute vera est. Si 
+au<lb break="no" ed="#Ba" n="56"/>tem dicatur, Christus secundum quod
+<lb ed="#Ba" n="57"/>homo minor est se, relativam potest 
+re<lb break="no" ed="#Ba" n="58"/>ferre antecedens cum determinatione, et
+<lb ed="#Ba" n="59"/>est falsa : vel sine determinatione, et est
+<lb ed="#Ba" n="60"/>vera: quia non supponit tunc nisi 
+per<lb break="no" ed="#Ba" n="61"/>sonam simpliciter : et tunc non sequitur,
+<lb ed="#Ba" n="62"/>ergo Christus homo: quia cum dicitur,
+<lb ed="#Ba" n="63"/>Christus homo, dicttur Christus ens
+<lb ed="#Ba" n="64"/>homo, et hoc non dicit nisi personam. In
+<lb ed="#Ba" n="65"/>persona autem ly secundum dicebat 
+na<lb break="no" ed="#Ba" n="66"/>ture conditionem, sicut Magister dicit .
+</p>
+            <p xml:id="alalal-a90150-d1e229">
+               <lb ed="#Ba" n="67"/>Similiter cum dicitur, Christus 
+se<lb break="no" ed="#Ba" n="68"/>cundum quod homo, est aequalis sibi,
+<lb ed="#Ba" n="69"/>haecvera est, si ly sibi referat antecedens
+<lb ed="#Ba" n="70"/>cum determinatione: si sine 
+determina<lb break="no" ed="#Ba" n="71"/>tione, est falsa: et haecsolutio tota in
+<pb ed="#Ba" n="456"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>hoc fundatur quod ly secundum non 
+di<lb break="no" ed="#Ba" n="2"/>cat nisi causam secundum nature 
+condi<lb break="no" ed="#Ba" n="3"/>tionem: si autem diceret unitatem 
+per<lb break="no" ed="#Ba" n="4"/>sone, tunc cum dicitur, Christus secun- 
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="5"/>dum quod homo, sensus esset, Christus
+  <lb ed="#Ba" n="6"/>homo personaliter est minor se, et falsa
+  <lb ed="#Ba" n="7"/>esset locutio: et vera, si diceretur sibi
+  <lb ed="#Ba" n="8"/>aequalis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

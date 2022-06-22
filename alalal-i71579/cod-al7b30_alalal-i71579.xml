@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 13</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 13</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="341"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i71579"><!-- l4d34a13 -->
+            <head xml:id="alalal-i71579-Hd1e99">Articulus 13</head>
+            <head xml:id="alalal-i71579-Hd1e101" type="question-title">An adulter potest contrahere cum
+adultera ?</head>
+            <p xml:id="alalal-i71579-d1e104">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="27"/>ARTICULUS XIII.
+<lb ed="#Bf" n="28"/>An adulter potest contrahere cum
+<lb ed="#Bf" n="29"/>adultera ?
+</p>
+            <p xml:id="alalal-i71579-d1e115">
+               <lb ed="#Bf" n="30"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bf" n="31"/>E, paulo ante finem : <quote xml:id="alalal-i71579-Qd1e121"> Adultera vero
+<lb ed="#Bf" n="32"/>nunquam, etsi mortuus fuerit vir efus,
+<lb ed="#Bf" n="33"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-i71579-d1e129">
+               <lb ed="#Bf" n="34"/>Videtur enim falsum : quia
+<lb ed="#Bf" n="35"/>1. Videmus multos adulteros 
+contra<lb break="no" ed="#Bf" n="36"/>here.
+</p>
+            <p xml:id="alalal-i71579-d1e139">
+               <lb ed="#Bf" n="37"/>2. Item, Jura dicunt, quod etiam 
+adul<lb break="no" ed="#Bf" n="38"/>ter potest contrahere cum ea quam prius
+<lb ed="#Bf" n="39"/>polluit per adulterium, nisi in tribus 
+casi<lb break="no" ed="#Bf" n="40"/>bus qui in Littera habentur : ergo multo
+<lb ed="#Bf" n="41"/>magis contrahere potest cum alia.
+</p>
+            <p xml:id="alalal-i71579-d1e152">
+               <lb ed="#Bf" n="42"/>Responsio. De rigore juris est quod 
+di<lb break="no" ed="#Bf" n="43"/>cit hic : unde tangit Gregorius quid 
+face<lb break="no" ed="#Bf" n="44"/>re debeat de contrarietate sui criminis,
+<lb ed="#Bf" n="45"/>sed non quid facere oporteat si continere
+<lb ed="#Bf" n="46"/>non velit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

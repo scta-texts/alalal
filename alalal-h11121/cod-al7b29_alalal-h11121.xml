@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 42</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 42</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="528"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h11121"><!-- l4d15a42 -->
+            <head xml:id="alalal-h11121-Hd1e99">Articulus 42</head>
+            <head xml:id="alalal-h11121-Hd1e101" type="question-title">Quid sit restitutio ?</head>
+            <p xml:id="alalal-h11121-d1e104">
+               <lb ed="#Be" n="30"/>ARTICULUS XLII.
+<lb ed="#Be" n="31"/>Quid sit restitutio ?
+</p>
+            <p xml:id="alalal-h11121-d1e111">
+               <lb ed="#Be" n="32"/>Deinde queritur de hoc quod dicitur,
+<lb ed="#Be" n="33"/>ibi, G, sub finem : <quote xml:id="alalal-h11121-Qd1e117"> Nee ideo quisquam
+<lb ed="#Be" n="34"/>putet, qui rem alienam inguste abstulit,
+<lb ed="#Be" n="35"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-h11121-d1e125">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="36"/>Queruntur hic de restitutione quatuor,
+<lb ed="#Be" n="37"/>scilicet quid sit restitutio ?
+<lb ed="#Be" n="38"/>Secundo, Quid debeat restitui ?
+<lb ed="#Be" n="39"/>Tertio, Cui debeatur restitutio fier} 9
+<lb ed="#Be" n="40"/>Et quarto, Qualiter se habeat restitutig
+<lb ed="#Be" n="41"/>ad opera poenitentiae ?
+</p>
+            <p xml:id="alalal-h11121-d1e144">
+               <lb ed="#Be" n="42"/>Ad primum sic dicunt Jurisperiti, quod
+<lb ed="#Be" n="43"/>restitutio est ablate rei redditio vel re.
+<lb ed="#Be" n="44"/>compensatio.
+</p>
+            <p xml:id="alalal-h11121-d1e153">
+               <lb ed="#Be" n="45"/>Videtur autem, quod non conveniat :
+<lb ed="#Be" n="46"/>quia
+<lb ed="#Be" n="47"/>1. Multa restituuntur non ablata, sicut
+<lb ed="#Be" n="48"/>deposita, locata, et mutuata : ergo vide-~
+<lb ed="#Be" n="49"/>tur, quod illa descriptio non valet.
+</p>
+            <p xml:id="alalal-h11121-d1e166">
+               <lb ed="#Be" n="50"/>2. Item, Contingit aliquid auferri quod
+<lb ed="#Be" n="51"/>non potest recompensari, sicut fama,
+<lb ed="#Be" n="52"/>que melior est omni temporali bono
+<lb ed="#Be" n="53"/>alio : ergo per illud non recompensatur :
+<lb ed="#Be" n="54"/>ergo non fit restitutio per illud.
+</p>
+            <p xml:id="alalal-h11121-d1e179">
+               <lb ed="#Be" n="55"/>3. Item, Virginitas violenter aufertur
+<lb ed="#Be" n="56"/>alicui puelle : et illa non potest 
+recom<lb break="no" ed="#Be" n="57"/>pensari: et tamen contingit satisfacere
+<lb ed="#Be" n="58"/>de peccato : ergo videtur, quod non sit
+<lb ed="#Be" n="59"/>recompensatio rei ablate.
+</p>
+            <p xml:id="alalal-h11121-d1e192">
+               <lb ed="#Be" n="60"/>4. Item, Multi tenentur ad 
+restitutio<lb break="no" ed="#Be" n="61"/>nem qui non auferunt, sed jubent auferri,
+<lb ed="#Be" n="62"/>vel consilium dant de auferendo, vel 
+ali<lb break="no" ed="#Be" n="63"/>quid hujusmodi faciunt : ergo videtur,
+<lb ed="#Be" n="64"/>quod non sit generaliter verum, quod 
+re<lb break="no" ed="#Be" n="65"/>stitutio sit ablate rei, etc.
+</p>
+            <p xml:id="alalal-h11121-d1e208">
+               <lb ed="#Be" n="66"/>Gratia hujus queritur ulterius, Qui
+<lb ed="#Be" n="67"/>sunt qui restituere tenentur ? Et dantur
+<lb ed="#Be" n="68"/>versus de hoc :
+</p>
+            <p xml:id="alalal-h11121-d1e218">
+               <lb ed="#Be" n="69"/>
+               <quote xml:id="alalal-h11121-Qd1e222">Jussio, consilium, consensus, palpo, recursus,
+<lb ed="#Be" n="70"/>Participans, mutus, non obstans, non manife-
+[stans.</quote>
+            </p>
+            <p xml:id="alalal-h11121-d1e228">
+               <lb ed="#Be" n="71"/>Videtur autem de primo, quod non
+<lb ed="#Be" n="72"/>semper jussio faciat teneri ad 
+restitutio<lb break="no" ed="#Be" n="73"/>nem : quia .
+</p>
+            <p xml:id="alalal-h11121-d1e237">
+               <lb ed="#Be" n="74"/>4. Est jussio non habentis 
+jurisdictio<lb break="no" ed="#Be" n="75"/>nem super eum cui jubet: et lunc non
+<lb ed="#Be" n="76"/>fit propter suam jussionem : ergo non
+<lb ed="#Be" n="77"/>tenetur restituere.
+</p>
+            <p xml:id="alalal-h11121-d1e248">
+               <lb ed="#Be" n="78"/>2. Item, Non exigitur plus in 
+restitu<lb break="no" ed="#Be" n="79"/>tione, quam illatum est in damno : sed
+<pb ed="#Be" n="529"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>damnum non intulit nisi unus, scilicet
+<lb ed="#Be" n="2"/>rapiens : ergo ille solus tenetur 
+restitue<lb break="no" ed="#Be" n="3"/>re, et non jubens.
+</p>
+            <p xml:id="alalal-h11121-d1e266">
+               <lb ed="#Be" n="4"/>OpsiaTouR etiam de secundo quod est
+<lb ed="#Be" n="5"/>consifium : consulens enim factum, non
+<lb ed="#Be" n="6"/>directe operatur ad hoc quod fiat : ergo
+<lb ed="#Be" n="7"/>yidetur, quod non directe facit : ergo etiam
+<lb ed="#Be" n="8"/>non directe tenetur ad restitutionem.
+</p>
+            <p xml:id="alalal-h11121-d1e279">
+               <lb ed="#Be" n="9"/>OxsiciruR autem de tertio quod est
+<lb ed="#Be" n="10"/>consensus : omnes enim consentiunt,
+<lb ed="#Be" n="11"/>quod fiat aliquid quod volunt fieri, et
+<lb ed="#Be" n="12"/>gaudent de facto: si ergo consensus 
+fa<lb break="no" ed="#Be" n="13"/>cit teneri ad restitutionem, videtur quod
+<lb ed="#Be" n="14"/>omnes qui volunt damnum alicujus, et
+<lb ed="#Be" n="15"/>gaudent de illato damno, tenentur ad
+<lb ed="#Be" n="16"/>restitutionem : quod grave esset dicere,
+<lb ed="#Be" n="17"/>quia
+</p>
+            <p xml:id="alalal-h11121-d1e302">
+               <lb ed="#Be" n="18"/>1. Non omnes tales possunt induci ad
+<lb ed="#Be" n="19"/>restitutionem,
+</p>
+            <p xml:id="alalal-h11121-d1e309">
+               <lb ed="#Be" n="20"/>2. Item, Philosophus in quinto £¢
+hi<lb break="no" ed="#Be" n="21"/>corum, ubi loquitur de justitia, videtar
+<lb ed="#Be" n="22"/>velle, quod non teneatur restituere, nisi
+<lb ed="#Be" n="23"/>qui habet plus quam debet : sed nec 
+con<lb break="no" ed="#Be" n="24"/>sulens nec consentiens propter hoc quod
+<lb ed="#Be" n="25"/>consentit vel consulit, habet plus quam
+<lb ed="#Be" n="26"/>debet : ergo videtur injustum esse, quod
+<lb ed="#Be" n="27"/>cogatur ad restitutionem.
+</p>
+            <p xml:id="alalal-h11121-d1e329">
+               <lb ed="#Be" n="28"/>OxsicituR ulterius de palpone. Palpo
+<lb ed="#Be" n="29"/>enim est adulator : videtur autem, quod
+<lb ed="#Be" n="30"/>ille nihil operatur ad damnum 
+inferen<lb break="no" ed="#Be" n="31"/>dum : ergo videtur, quod damnum 
+resti<lb break="no" ed="#Be" n="32"/>tuere non tenetur.
+</p>
+            <p xml:id="alalal-h11121-d1e342">
+               <lb ed="#Be" n="33"/>Praeterea, Si palpo tenetur, quid erit
+<lb ed="#Be" n="34"/>de clericis et religiosis qui suadent 
+prin<lb break="no" ed="#Be" n="35"/>cipi terre tales acceptiones quae injuste
+<lb ed="#Be" n="36"/>sunt, vel non faciunt eum restituere, vel
+<lb ed="#Be" n="37"/>tacent ? Si enim palpo tenetur, etiam isti
+<lb ed="#Be" n="38"/>tenentur : et hoc illi non concedunt.
+</p>
+            <p xml:id="alalal-h11121-d1e358">
+               <lb ed="#Be" n="39"/>Utrerius queritur de hoc quod dicitur
+<lb ed="#Be" n="40"/>recursus. Intelligitur enim de eo ad
+<lb ed="#Be" n="41"/>quem habent recursum illicite rapientes,
+<lb ed="#Be" n="42"/>sicut ad defensorem, vel conservatorem,
+<lb ed="#Be" n="43"/>ete.: et cum ille nihil recipiat de 
+alie<lb break="no" ed="#Be" n="44"/>no, ut hic supponitur, sed pro affectu vel
+<lb ed="#Be" n="45"/>consanguinitate recurrentes ad se 
+con<lb break="no" ed="#Be" n="46"/>servat, videtur quod non tenetur 
+resti<lb break="no" ed="#Be" n="47"/>tuere,
+</p>
+            <p xml:id="alalal-h11121-d1e380">
+               <lb ed="#Be" n="48"/>De participatione autem queritur,
+<lb ed="#Be" n="49"/>utrum ipsi in solidum teneantur? Et
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="50"/>videtur, quod non, cum tantum partem
+<lb ed="#Be" n="51"/>recipiant.
+</p>
+            <p xml:id="alalal-h11121-d1e394">
+               <lb ed="#Be" n="52"/>Orsicitur etiam de mufo : Mutus enim
+<lb ed="#Be" n="53"/>est, qui non reprehendit, nec reclamat :
+<lb ed="#Be" n="54"/>sed multi sunt tales, maxime im rapina
+<lb ed="#Be" n="55"/>principum, etiam religiosi: ergo omnes
+<lb ed="#Be" n="56"/>illi tales ad restitutionem tenentur, quod
+<lb ed="#Be" n="57"/>difficile est dicere.
+</p>
+            <p xml:id="alalal-h11121-d1e410">
+               <lb ed="#Be" n="58"/>Ulterius objicitur de non obstante.
+<lb ed="#Be" n="59"/>Quia non omnes de facili restituerent,
+<lb ed="#Be" n="60"/>qui possent prohibere, et non prohibent.
+</p>
+            <p xml:id="alalal-h11121-d1e419">
+               <lb ed="#Be" n="61"/>Item, Non tenentur prohibere: ergo
+<lb ed="#Be" n="62"/>videtur, quod non peccant si non 
+prohi<lb break="no" ed="#Be" n="63"/>bent.
+</p>
+            <p xml:id="alalal-h11121-d1e428">
+               <lb ed="#Be" n="64"/>Urrimum precipue non verum videtur,
+<lb ed="#Be" n="65"/>scilicet non manifestans. Quandoque
+<lb ed="#Be" n="66"/>enim cum periculo corporis auferens 
+ma<lb break="no" ed="#Be" n="67"/>nifestaretur : et tunc videtur, quod etiam
+<lb ed="#Be" n="68"/>teneatur non manifestare.
+</p>
+            <p xml:id="alalal-h11121-d1e441">
+               <lb ed="#Be" n="69"/>Item, Fures sepe sciuntur a sanctis
+<lb ed="#Be" n="70"/>viris : et non manifestantur : ergo 
+vide<lb break="no" ed="#Be" n="71"/>tur, quod hoc non faciat teneri ad 
+_resti<lb break="no" ed="#Be" n="72"/>tutionem,
+</p>
+            <p xml:id="alalal-h11121-d1e452">
+               <lb ed="#Be" n="73"/>Sorurto. Dicendum, quod restitutio
+<lb ed="#Be" n="74"/>satis bene diffinita est per illum modum,
+<lb ed="#Be" n="75"/>scilicet quod sit rei ablate redditio vel
+<lb ed="#Be" n="76"/>recompensatio. Quia ablatum aut 
+resti<lb break="no" ed="#Be" n="77"/>tuitur idem numero, et tune redditur :
+<lb ed="#Be" n="78"/>aut in aequalitate, et tunc 
+recompensa<lb break="no" ed="#Be" n="79"/>tur.
+</p>
+            <p xml:id="alalal-h11121-d1e471">
+               <lb ed="#Be" n="80"/>Apt autem quod primo objicitur, 
+di<lb break="no" ed="#Be" n="81"/>cendum quod restitutio non est nisi 
+abla<lb break="no" ed="#Be" n="82"/>ti: et illud etiam respicit redditio : quia
+<lb ed="#Be" n="83"/>non redditur quod habetur, sed quod
+<lb ed="#Be" n="84"/>aliquo modo erat amissum : et ideo aliis
+<lb ed="#Be" n="85"/>nihil est quod objicitur de locatis, et
+<lb ed="#Be" n="86"/>aliis hujusmodi.
+</p>
+            <p xml:id="alalal-h11121-d1e489">
+               <lb ed="#Be" n="87"/>Ad aliud dicendum, quod haec et talia
+<lb ed="#Be" n="88"/>solvuntur in Liétera, scilicet quod 
+intel<lb break="no" ed="#Be" n="89"/>ligitur de rebus fortunae quae restitui 
+pos<lb break="no" ed="#Be" n="90"/>sunt: quia si inanis est actio quam 
+ino<lb break="no" ed="#Be" n="91"/>pia debitoris excludit, multo magis 
+ina<lb break="no" ed="#Be" n="92"/>nis est actio quam excludit 
+impossibili<lb break="no" ed="#Be" n="93"/>tas restitutionis.
+</p>
+            <p xml:id="alalal-h11121-d1e507">
+               <lb ed="#Be" n="94"/>Vel potest dici, quod contingit 
+resti<lb break="no" ed="#Be" n="95"/>tuere dupliciter, scilicet secundum rei
+<lb ed="#Be" n="96"/>ablate valorem, vel secundum 
+acceptio<lb break="no" ed="#Be" n="97"/>nem ejus cui ablatum est aliquid. Et li-
+<pb ed="#Be" n="530"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>cet primo modo quaedam restitui non
+<lb ed="#Be" n="2"/>possunt, contingit tamen ea secundo 
+mo<lb break="no" ed="#Be" n="3"/>do restitui : et haec est restitutio ad 
+arbi<lb break="no" ed="#Be" n="4"/>trium bonorum : et hoc fit 
+quotiescum<lb break="no" ed="#Be" n="5"/>que facit debitor quidquid potest ad 
+sa<lb break="no" ed="#Be" n="6"/>tisfaciendum leso : sive enim tunc lesus
+<lb ed="#Be" n="7"/>remittat, sive non, nihilominus est 
+excu<lb break="no" ed="#Be" n="8"/>satus coram Deo ille qui abstulit.
+</p>
+            <p xml:id="alalal-h11121-d1e540">
+               <lb ed="#Be" n="9"/>Ad id quod ulterius queritur de 
+nu<lb break="no" ed="#Be" n="10"/>mero eorum quae operantur ad ablatio—
+<lb ed="#Be" n="11"/>nem, et faciunt teneri ad restitutionem :
+<lb ed="#Be" n="12"/>dixerunt quidam, quod non omnia illa
+<lb ed="#Be" n="13"/>faciunt teneri, sed quinque de iliis faciunt
+<lb ed="#Be" n="14"/>teneri simpliciter, et alia non nisi in
+<lb ed="#Be" n="15"/>quibusdam casibus. Et videtur mihi,
+<lb ed="#Be" n="16"/>quod illi dicant verum. Quinque autem
+<lb ed="#Be" n="17"/>que simpliciter teneri faciunt ad 
+restitu<lb break="no" ed="#Be" n="18"/>tionem, illa sunt, jussio, consensus, 
+re<lb break="no" ed="#Be" n="19"/>cursus, participans, non obstans cum 
+ob<lb break="no" ed="#Be" n="20"/>stare tenetur.
+</p>
+            <p xml:id="alalal-h11121-d1e569">
+               <lb ed="#Be" n="21"/>1. Jussio autem facit teneri: quia
+<lb ed="#Be" n="22"/>principaliter agit, qui precipit fieri : et
+<lb ed="#Be" n="23"/>in usum ejus vel suorum cedit res 
+abla<lb break="no" ed="#Be" n="24"/>ta: aliter enim domini qui manibus 
+pro<lb break="no" ed="#Be" n="25"/>priis non auferunt, sed precipiunt 
+aufer<lb break="no" ed="#Be" n="26"/>ri, non tenerentur ad restitutionem.
+</p>
+            <p xml:id="alalal-h11121-d1e585">
+               <lb ed="#Be" n="27"/>Et per hoc patet solutio ad primum
+<lb ed="#Be" n="28"/>quod de hoc objicitur,
+</p>
+            <p xml:id="alalal-h11121-d1e593">
+               <lb ed="#Be" n="29"/>Ad aliud dicendum, quod haec est 
+fal<lb break="no" ed="#Be" n="30"/>sa, quod damnum non intulit nisi unus :
+<lb ed="#Be" n="31"/>imo multi et diversi inferunt damnum,
+<lb ed="#Be" n="32"/>et ideo tenentur ad restitutionem : 
+pre<lb break="no" ed="#Be" n="33"/>cipue tamen cum res ablata cedit in usus
+<lb ed="#Be" n="34"/>precipientis : sed tamen etiamsi non 
+ce<lb break="no" ed="#Be" n="35"/>deret, si propter suum imperium 
+perdi<lb break="no" ed="#Be" n="36"/>tur res, ipse tenetur restituere.
+</p>
+            <p xml:id="alalal-h11121-d1e613">
+               <lb ed="#Be" n="37"/>Ad id quod objicitur de secundo, 
+scili<lb break="no" ed="#Be" n="38"/>cet de consilio, dicendum, quod non
+<lb ed="#Be" n="39"/>omnis consulens meo judicio tenetur,
+<lb ed="#Be" n="40"/>sed ille solum qui efficax dat consilium,
+<lb ed="#Be" n="41"/>ita quod probabiliter suum consilium
+<lb ed="#Be" n="42"/>facit rem perdi.
+</p>
+            <p xml:id="alalal-h11121-d1e629">
+               <lb ed="#Be" n="43"/>Ad id quod de consilio et de consensu
+<lb ed="#Be" n="44"/>objicitur, dicendum quod ipse consulens
+<lb ed="#Be" n="45"/>vel consentiens operatur directe suo
+<lb ed="#Be" n="46"/>modo : quia multa concurrunt ad unum
+<lb ed="#Be" n="47"/>actum, sine quorum nullo fieret : sicut
+<lb ed="#Be" n="48"/>sunt consiliarii similes Achitophel, qui
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="49"/>malos extorquendi modos et auferend;,
+<lb ed="#Be" n="50"/>volentes placere latronibus et tyrannig,
+<lb ed="#Be" n="51"/>inveniunt : et emissarii qui exsequuntyp
+<lb ed="#Be" n="52"/>quod illorum consilio dictatum est - et
+<lb ed="#Be" n="53"/>de illis intelligitur, quod tenentur regtj_
+<lb ed="#Be" n="54"/>tuere.
+</p>
+            <p xml:id="alalal-h11121-d1e660">
+               <lb ed="#Be" n="55"/>Ad aliud dicendum, quod Aristoteles
+<lb ed="#Be" n="56"/>valde large accipit habere plus. Plys
+<lb ed="#Be" n="57"/>enim dicitur habere qui quocumque 
+mo<lb break="no" ed="#Be" n="58"/>do extorsit rem alterius, non quod ha.
+<lb ed="#Be" n="59"/>beat in usu, sed quia injuria perdidit
+<lb ed="#Be" n="60"/>alter : et hoc modo directum justum fa.
+<lb ed="#Be" n="61"/>cit eum recompensare damnum quod 
+in<lb break="no" ed="#Be" n="62"/>tulit.
+</p>
+            <p xml:id="alalal-h11121-d1e680">
+               <lb ed="#Be" n="63"/>Ad id quod dicitur de palpone, 
+dicen<lb break="no" ed="#Be" n="64"/>dum quod non omnis palpo tenetur : sed
+<lb ed="#Be" n="65"/>qui laudando in actu auferendi incitat
+<lb ed="#Be" n="66"/>ad auferendum : dicens quod hoc sit 
+si<lb break="no" ed="#Be" n="67"/>gnum. strenuitatis, vel quod aliter non
+<lb ed="#Be" n="68"/>possit dominari, vel quod hoc jure 
+com<lb break="no" ed="#Be" n="69"/>muni sibi debeatur tamquam terre 
+do<lb break="no" ed="#Be" n="70"/>mino, vel aliud hujusmodi.
+</p>
+            <p xml:id="alalal-h11121-d1e700">
+               <lb ed="#Be" n="71"/>Ad aliud dicendum, quod, ut mihi
+<lb ed="#Be" n="72"/>videtur, sive clerici, sive religiosi, in .
+<lb ed="#Be" n="73"/>hoc palpantes, tenentur ad restitutionem,
+</p>
+            <p xml:id="alalal-h11121-d1e710">
+               <lb ed="#Be" n="74"/>Ad 1p quod objicitur de recursu, 
+di<lb break="no" ed="#Be" n="75"/>cendum quod intelligitur de illo ad quem
+<lb ed="#Be" n="76"/>habetur recursus, sicut ad defensorem et
+<lb ed="#Be" n="77"/>conservatorem latronum. et latrocinii:
+<lb ed="#Be" n="78"/>sicut sunt quidam hospites furum, et alii
+<lb ed="#Be" n="79"/>qui faciunt se defensores et advocatos
+<lb ed="#Be" n="80"/>talium. Si autem propinquitate 
+sangui<lb break="no" ed="#Be" n="81"/>nis quandoque tenetur, non credo quod
+<lb ed="#Be" n="82"/>propter hoc ille teneatur ad_ 
+restitutio<lb break="no" ed="#Be" n="83"/>nem : vel si etiam teneatur, cum 
+queri<lb break="no" ed="#Be" n="84"/>tur ad judicium, ratione compassionis
+<lb ed="#Be" n="85"/>nature et spe poenitentiae, credo quod in
+<lb ed="#Be" n="86"/>tali casu meretur ille ad quem recurrit.
+</p>
+            <p xml:id="alalal-h11121-d1e741">
+               <lb ed="#Be" n="87"/>Av w quod objicitur ulterius de muéo,
+<lb ed="#Be" n="88"/>dicendum quod solus ille mutus 
+judica<lb break="no" ed="#Be" n="89"/>tur, qui ex officio tenetur reclamare, et
+<lb ed="#Be" n="90"/>non reclamat : et etiam ille non credo
+<lb ed="#Be" n="91"/>quod teneatur universaliter 
+ad_restitu<lb break="no" ed="#Be" n="92"/>tionem, sed potius tune quando tacet
+<lb ed="#Be" n="93"/>consentiens et promovens ad hoc quod
+<lb ed="#Be" n="94"/>fiat. Sed verum est, quod si ex officio
+<lb ed="#Be" n="95"/>tenetur reclamare, et non reclamat: 1
+<lb ed="#Be" n="96"/>vult poenitentiam agere, tenetur 
+claman<lb break="no" ed="#Be" n="97"/>do cooperari leso. ut satisfiat ei.
+</p>
+            <p xml:id="alalal-h11121-d1e767">
+               <pb ed="#Be" n="531"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Et per hoc patet solutio ad id quod
+<lb ed="#Be" n="2"/>contra hoc objectum est.
+</p>
+            <p xml:id="alalal-h11121-d1e778">
+               <lb ed="#Be" n="3"/>Av ip quod objicitur de non obstante,
+<lb ed="#Be" n="4"/>videtur dicendum, quod intelligitur de
+<lb ed="#Be" n="5"/>illo qui ex officio obstare tenetur: sicut
+<lb ed="#Be" n="6"/>baro, vel princeps, qui tributa terres cum
+<lb ed="#Be" n="7"/>recipit ut pacificet terram, si non obstet
+<lb ed="#Be" n="8"/>illicite auferentibus, ipse restituere 
+tene<lb break="no" ed="#Be" n="9"/>tur.
+</p>
+            <p xml:id="alalal-h11121-d1e796">
+               <lb ed="#Be" n="10"/>De vxtimo, scilicet de non 
+manife<lb break="no" ed="#Be" n="11"/>stante, dicendum quod non intelligitur de
+<lb ed="#Be" n="12"/>omni non manifestante, sed solum de illo
+<lb ed="#Be" n="13"/>qui celando particeps est lucri et 
+crimi<lb break="no" ed="#Be" n="14"/>nis.
+</p>
+            <p xml:id="alalal-h11121-d1e809">
+               <lb ed="#Be" n="15"/>Et ideo objecta contra hoc non 
+te<lb break="no" ed="#Be" n="16"/>nent.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

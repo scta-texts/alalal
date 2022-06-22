@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="238"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e46152"><!-- l3d13a2 -->
+            <head xml:id="alalal-e46152-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-e46152-Hd1e101" type="question-title">Qualiter Christus dicatur caput 
+nostrum ?</head>
+            <p xml:id="alalal-e46152-d1e104">
+               <pb ed="#Bd" n="238"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ARTICULUS II.
+<lb ed="Bd" n="2"/>Qualiter Christus dicatur caput 
+no<lb break="no" ed="Bd" n="3"/>strum ?
+</p>
+            <p xml:id="alalal-e46152-d1e117">
+               <lb ed="Bd" n="4"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="5"/>ibi, A, <quote xml:id="alalal-e46152-Qd1e123"> Ut in nostro corpore inest 
+sen<lb break="no" ed="Bd" n="6"/>sus singulis membris, sed non tantum
+<lb ed="Bd" n="7"/>quantum in capite, etc. </quote>
+            </p>
+            <p xml:id="alalal-e46152-d1e131">
+               <lb ed="Bd" n="8"/>Ex hoc enim vult probare, quod 
+Chri<lb break="no" ed="Bd" n="9"/>stus accepit spiritum ut caput, nos 
+au<lb break="no" ed="Bd" n="10"/>tem ut membra.
+</p>
+            <p xml:id="alalal-e46152-d1e141">
+               <lb ed="Bd" n="11"/>Hic autem incidit duplex questlio,
+<lb ed="Bd" n="12"/>scilicet qualiter Christus dicatur caput?
+<lb ed="Bd" n="13"/>Et, quae sit gratia capitis ?
+</p>
+            <p xml:id="alalal-e46152-d1e150">
+               <lb ed="Bd" n="14"/>Ad primum proceditur sic:
+<lb ed="Bd" n="15"/>1. Ad Ephes. n, 206, dicit Glossa,
+<lb ed="Bd" n="16"/>quod Christus est caput secundum 
+dei<lb break="no" ed="Bd" n="17"/>tatem.
+</p>
+            <p xml:id="alalal-e46152-d1e161">
+               <lb ed="Bd" n="18"/>2. Item, Hilarius dicit, quod caput
+<lb ed="Bd" n="19"/>omnium Christus, caput autem Christi
+<lb ed="Bd" n="20"/>Deus: sed omnium non potest esse 
+ca<lb break="no" ed="Bd" n="21"/>put secundum conformitatem nature :
+<lb ed="Bd" n="22"/>ergo ipse est caput omnium secundum
+<lb ed="Bd" n="23"/>deitatem.
+</p>
+            <p xml:id="alalal-e46152-d1e177">
+               <lb ed="Bd" n="24"/>3. Item, A capite uit sensus et motus
+<lb ed="Bd" n="25"/>in omnia membra: sed sensus et motus
+<lb ed="Bd" n="26"/>Koclesie non sunt a Christe nisi 
+secun<lb break="no" ed="Bd" n="27"/>dum divinam naturam: ergo ipse est
+<lb ed="Bd" n="28"/>caput secundum divinam naturam.
+</p>
+            <p xml:id="alalal-e46152-d1e190">
+               <lb ed="Bd" n="29"/>SED CONTRA:
+<lb ed="Bd" n="30"/>Caput quod non est unius nature cum
+<lb ed="Bd" n="31"/>aliis membris, facit corpus monstrucsum :
+<lb ed="Bd" n="32"/>ergo Ecclesiae caput est in conformitate
+<lb ed="Bd" n="33"/>nature cum aliis membris.
+</p>
+            <p xml:id="alalal-e46152-d1e203">
+               <lb ed="Bd" n="34"/>Solutio Dicimus, quod caput habet
+<lb ed="Bd" n="35"/>tria in se in comparatione ad corpus:
+<lb ed="Bd" n="36"/>quorum unum est virtus, quae 
+princi<lb break="no" ed="Bd" n="37"/>pium est effective influens virtutem sensus
+<lb ed="Bd" n="38"/>et motus: quia sensus fluit ab anteriori
+<lb ed="Bd" n="39"/>parte capitis, motus autem a posteriori
+<lb ed="Bd" n="40"/>per nervos sensibiles et motivos. Secun-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="41"/>dum autem est id quod anima formaliter
+<lb ed="Bd" n="42"/>influit membris assimilando ea sibi in
+<lb ed="Bd" n="43"/>virtute sensitiva influxa, quae quasi for~
+<lb ed="Bd" n="44"/>maliter adheret membris. Tertium 
+au<lb break="no" ed="Bd" n="45"/>tem est conformitas nature) cum 
+mem<lb break="no" ed="Bd" n="46"/>bris. Et sic tripliciter considerari potest
+<lb ed="Bd" n="47"/>caput spirituale quod est Christus. Si
+<lb ed="Bd" n="48"/>autem consideretur ut principium 
+in<lb break="no" ed="Bd" n="49"/>fluens effective tantum, tunc est caput
+<lb ed="Bd" n="50"/>omnino secundum deitatem. Si autem
+<lb ed="Bd" n="51"/>ut est principium effectivum et 
+assimi<lb break="no" ed="Bd" n="52"/>lans sibi per aliquod quod influit quod
+<lb ed="Bd" n="53"/>est ut forma: sic est caput beatorum et
+<lb ed="Bd" n="54"/>existentium in gratia, quibus influit
+<lb ed="Bd" n="55"/>quasi similitudinem suse vite, et sui 
+mo<lb break="no" ed="Bd" n="56"/>tus, et sui sensus, in donis perficientibus
+<lb ed="Bd" n="57"/>intellectum et affectum. Si autem tertio
+<lb ed="Bd" n="58"/>modo consideretur, tunc est caput 
+ho<lb break="no" ed="Bd" n="59"/>minum tantum.
+</p>
+            <p xml:id="alalal-e46152-d1e265">
+               <lb ed="Bd" n="60"/>Et per hoc patet solutio ad omnia
+<lb ed="Bd" n="61"/>objecta praeter ultimum.
+</p>
+            <p xml:id="alalal-e46152-d1e272">
+               <lb ed="Bd" n="62"/>Ad quod dicendum, quod illud quod
+<lb ed="Bd" n="63"/>est diverse nature et gratiae non facit
+<lb ed="Bd" n="64"/>monstrucsitatem, dummodo habeat ad
+<lb ed="Bd" n="65"/>corpus ordinem, ut influens extra: quia
+<lb ed="Bd" n="66"/>aliter monstruosa esset conjunctio anime
+<lb ed="Bd" n="67"/>cum corpore: sedid quod est diversas 
+na<lb break="no" ed="Bd" n="68"/>ture, et non habet virtuicm: influendi
+<lb ed="Bd" n="69"/>in corpus, ut caput leonis, vel 
+hujus<lb break="no" ed="Bd" n="70"/>modi, illud facit monstrum in 
+comzosi<lb break="no" ed="Bd" n="71"/>tione sui ad corpus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

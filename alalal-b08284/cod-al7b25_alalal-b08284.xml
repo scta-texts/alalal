@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="560"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b08284"><!-- l1d21a3 -->
+            <head xml:id="alalal-b08284-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-b08284-Hd1e101" type="question-title">An ista sit vera, Pater est solus Deus, et
+ista, Pater est unus solus Deus ?</head>
+            <p xml:id="alalal-b08284-d1e104">
+               <lb ed="#Ba" n="25"/>ARTICULUS II.
+<lb ed="#Ba" n="26"/>An ista sit vera, Pater est solus Deus, et
+<lb ed="#Ba" n="27"/>ista, Pater est unus solus Deus ?
+</p>
+            <p xml:id="alalal-b08284-d1e113">
+               <lb ed="#Ba" n="28"/>Deinde quaeritur de ista quam ponit,
+<lb ed="#Ba" n="29"/>ibidem, B, <quote xml:id="alalal-b08284-Qd1e119"> Pater est solus Deus, etc. </quote>
+            </p>
+            <p xml:id="alalal-b08284-d1e122">
+               <lb ed="#Ba" n="30"/>Et dicit in Littera, quod si solus sit in
+<lb ed="#Ba" n="31"/>parte pradicati, quidam concedunt,
+<lb ed="#Ba" n="32"/>quod Pater est solus Deus.
+</p>
+            <p xml:id="alalal-b08284-d1e132">
+               <lb ed="#Ba" n="33"/>Hoc videtur inconveniens :
+</p>
+            <p xml:id="alalal-b08284-d1e137">
+               <lb ed="#Ba" n="34"/>1. Cum enim ly <mentioned>solus</mentioned> dicat 
+associatio<lb break="no" ed="#Ba" n="35"/>nis privationem, non videtur proprie
+<lb ed="#Ba" n="36"/>poni circa terminum communem : ergo
+<lb ed="#Ba" n="37"/>nihil est dictu, Pater est solus Deus:
+<lb ed="#Ba" n="38"/>sicut nihil est dictu, Socrates est solus
+<lb ed="#Ba" n="39"/>homo.
+</p>
+            <p xml:id="alalal-b08284-d1e155">
+               <lb ed="#Ba" n="40"/>2. Item, Si ly <mentioned>solus</mentioned> sit in praedicato,
+<lb ed="#Ba" n="41"/>erit adjectivum hujus termini, Dew, et
+<lb ed="#Ba" n="42"/>sic notabit similitudinem circa ipsum :
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="43"/>ergo idem est, Pater est solus Deus,
+<lb ed="#Ba" n="44"/>quod Pater est solitarius Deus : haec 
+au<lb break="no" ed="#Ba" n="45"/>tem est falsa, ut supra determinavit 
+Hi<lb break="no" ed="#Ba" n="46"/>larius : ergo et haec est falsa, Pater est
+<lb ed="#Ba" n="47"/>solus Deus.
+</p>
+            <p xml:id="alalal-b08284-d1e179">
+               <lb ed="#Ba" n="48"/>3. Item, Dictio exclusiva, solzes, 
+dici<lb break="no" ed="#Ba" n="49"/>tur differre ab hac dictione tantum, que
+<lb ed="#Ba" n="50"/>etiam notat exclusionem in duobus, 
+sci<lb break="no" ed="#Ba" n="51"/>licet quod ¢antum potest adjungi 
+termi<lb break="no" ed="#Ba" n="52"/>no communi, sods autem singulari: et
+<lb ed="#Ba" n="53"/>quod tantum notat adequationem 
+pre<lb break="no" ed="#Ba" n="54"/>dicati cum subjecto, solus autem 
+priva<lb break="no" ed="#Ba" n="55"/>tionem associationis : ergo videtur, quod
+<lb ed="#Ba" n="56"/>non possit haecrecipi, Pater est solus
+<lb ed="#Ba" n="57"/>Deus, nisi ly sodus tantum valeat 
+quan<lb break="no" ed="#Ba" n="58"/>tum solum adverbialiter sumptum, ut
+<lb ed="#Ba" n="59"/>sit sensus, Pater est solus Deus, id est,
+<lb ed="#Ba" n="60"/>solum Deus, hoc est, tantum Deus : sed
+<lb ed="#Ba" n="61"/>hec est vera, Pater est tantum Deus : ergo
+<lb ed="#Ba" n="62"/>et hec, Pater est solus Deus: et tamen
+<lb ed="#Ba" n="63"/>Magister negat eam in Lztéera.
+</p>
+            <p xml:id="alalal-b08284-d1e216">
+               <lb ed="#Ba" n="64"/>4, Praeterea, Magister in Littera 
+vide<lb break="no" ed="#Ba" n="65"/>tur dicere, quod dictio exclusiva sit 
+ad<lb break="no" ed="#Ba" n="66"/>jectivum praedicati, et exponit per 
+mo<lb break="no" ed="#Ba" n="67"/>dum illum quo est adjectivum subjecti
+<lb ed="#Ba" n="68"/>sic, Pater est solus Deus, et non alius a
+<lb ed="#Ba" n="69"/>Patre est Deus : sic enim patet, quod
+<lb ed="#Ba" n="70"/>exclusio notatur fieri circa subjectum
+<lb ed="#Ba" n="71"/>in comparatione ad praedicatum : ergo
+<lb ed="#Ba" n="72"/>male exponit : quia Augustinus intendit,
+<lb ed="#Ba" n="73"/>quod cadat in subjecto, ut patet in 
+ex<lb break="no" ed="#Ba" n="74"/>positione, etipse dicit quod in 
+predi<lb break="no" ed="#Ba" n="75"/>cato.
+</p>
+            <p xml:id="alalal-b08284-d1e245">
+               <lb ed="#Ba" n="76"/>Uxrerivs quaeritur de hac, Pater est
+<lb ed="#Ba" n="77"/>unus solus Deus, utrum ly Dews teneatur
+<lb ed="#Ba" n="78"/>essentialiter, vel personaliter ? Si 
+essen<lb break="no" ed="#Ba" n="79"/>tialiter, tunc est sensus, unus solus Deus
+<lb ed="#Ba" n="80"/>est qui est Pater : contra hoc quod dicit
+<lb ed="#Ba" n="81"/>Hhlarius, quod nobis solitarius Deus non
+<lb ed="#Ba" n="82"/>est confitendus. Si autem personaliter :
+<lb ed="#Ba" n="83"/>tunc sensus est, una sola persona est
+<lb ed="#Ba" n="84"/>que est Pater : et hoc quoque falsum
+<lb ed="#Ba" n="85"/>est, quia plures persone sunt.
+</p>
+            <p xml:id="alalal-b08284-d1e270">
+               <lb ed="#Ba" n="86"/>Solutio. Ad hoc dicendum, quod cum
+<lb ed="#Ba" n="87"/>dicitur, Pater est solus Deus, locutio est -
+<lb ed="#Ba" n="88"/>duplex ex eo quod ly solus potest esse
+<lb ed="#Ba" n="89"/>adjectum subjecti: et tunc distinguendum
+<pb ed="#Ba" n="561"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>est, sicut anteimmediate dictum est. Si
+<lb ed="#Ba" n="2"/>autem sit adjectum praedicati : tunc abs~
+<lb ed="#Ba" n="3"/>que dubio improprie et fere incongrue
+<lb ed="#Ba" n="4"/>ponitur, eo quod adjungitur termino qui
+<lb ed="#Ba" n="5"/>est locutio communis in divinis. Potest
+<lb ed="#Ba" n="6"/>tamen dici propter Magistrum, quod 
+pot<lb break="no" ed="#Ba" n="7"/>est teneri adverbialiter, et sic est vera :
+<lb ed="#Ba" n="8"/>vel nominaliter, et tunc notabit 
+solitudi<lb break="no" ed="#Ba" n="9"/>nem circa Deum, et tunc est falsa: licet
+<lb ed="#Ba" n="10"/>enim confiteamur unum Deum, non 
+ta<lb break="no" ed="#Ba" n="11"/>men dicimus solum Deum : et licet 
+dica<lb break="no" ed="#Ba" n="12"/>mus unum solum Deum, non tamen 
+di<lb break="no" ed="#Ba" n="13"/>cimus solum Deum esse: et hujus 
+ra<lb break="no" ed="#Ba" n="14"/>tio patet ex pradictis.
+</p>
+            <p xml:id="alalal-b08284-d1e316">
+               <lb ed="#Ba" n="15"/>Dicendum ergo ad primum, quod 
+Ma<lb break="no" ed="#Ba" n="16"/>gister accipit solus loco hujus dictionis
+<lb ed="#Ba" n="17"/>tantum.
+</p>
+            <p xml:id="alalal-b08284-d1e325">
+               <lb ed="#Ba" n="18"/>Ad aliud patet solutio per praedicta.
+</p>
+            <p xml:id="alalal-b08284-d1e330">
+               <lb ed="#Ba" n="19"/>Av sequens dicendum quod non 
+pro<lb break="no" ed="#Ba" n="20"/>prie ponitur : sed, ut dictum est, 
+adver<lb break="no" ed="#Ba" n="21"/>bialiter.
+</p>
+            <p xml:id="alalal-b08284-d1e339">
+               <lb ed="#Ba" n="22"/>Ad id quod ulterius quaeritur, 
+dicen<lb break="no" ed="#Ba" n="23"/>dum quod haecest vera, Pater est unus
+<lb ed="#Ba" n="24"/>solus Deus : et ly Deus tenetur 
+essentia<lb break="no" ed="#Ba" n="25"/>liter. Nec sequitur ex hoc : ergo 
+solita<lb break="no" ed="#Ba" n="26"/>rius est Deus: licet enim sit unus solus
+<lb ed="#Ba" n="27"/>Deus, non tamen sequitur, quod sit 
+so<lb break="no" ed="#Ba" n="28"/>lus Deus absolute : quia ly unus notat
+<lb ed="#Ba" n="29"/>distinctionem circa formam Dei, et dictio
+<lb ed="#Ba" n="30"/>exclusiva adveniens excludit plura a 
+par<lb break="no" ed="#Ba" n="31"/>ticipatione illius forme, quibus pluribus
+<lb ed="#Ba" n="32"/>vel multis opponitur unitas importata per
+<lb ed="#Ba" n="33"/>ly wnus : cum autem dicitur solus 
+abso<lb break="no" ed="#Ba" n="34"/>lute, notaretur solitudo : quia aliter 
+con<lb break="no" ed="#Ba" n="35"/>grue non adderetur ei ly sodus, ut dictum
+<lb ed="#Ba" n="36"/>est.
+</p>
+            <p xml:id="alalal-b08284-d1e374">
+               <lb ed="#Ba" n="37"/>Av 10 quod objicitur de expositione
+<lb ed="#Ba" n="38"/>Magistri, dicendum quod in veritate 
+Au<lb break="no" ed="#Ba" n="39"/>gustinus intendit, quod cadat in 
+subje<lb break="no" ed="#Ba" n="40"/>cto: sed Magister accipit sensum 
+secun<lb break="no" ed="#Ba" n="41"/>dum ordinem verborum, et non 
+secun<lb break="no" ed="#Ba" n="42"/>dum intentionem Augustini.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

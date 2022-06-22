@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="338"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e64426"><!-- l3d19a2 -->
+            <head xml:id="alalal-e64426-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-e64426-Hd1e101" type="question-title">Utrum morte sua quidquid culparum
+fuit, Christus uno sacrificio 
+destruait ?</head>
+            <p xml:id="alalal-e64426-d1e104">
+               <lb ed="Bd" n="66"/>ARTICULUS II.
+<lb ed="Bd" n="67"/>Utrum morte sua quidquid culparum
+<lb ed="Bd" n="68"/>fuit, Christus uno sacrificio 
+destru<lb break="no" ed="Bd" n="69"/>ait ?
+</p>
+            <p xml:id="alalal-e64426-d1e115">
+               <lb ed="Bd" n="70"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="Bd" n="71"/>A, circa medium : <quote xml:id="alalal-e64426-Qd1e121"> Morte quippe sua,
+<lb ed="Bd" n="72"/>uno verissimo sacrificio, quidquid 
+cul<lb break="no" ed="Bd" n="73"/>parum erat, unde nos diabolus ad 
+luen<lb break="no" ed="Bd" n="74"/>da supplicia detinebat, Christus 
+exstin<lb break="no" ed="Bd" n="75"/>zit, etc. </quote>
+            </p>
+            <p xml:id="alalal-e64426-d1e133">
+               <lb ed="Bd" n="76"/>Hoc enim falsum videtur : quia
+<lb ed="Bd" n="77"/>1. Adhuc multa peccata sunt, quibus
+<lb ed="Bd" n="78"/>diabolus nos ad luenda supplicia detinet,
+<lb ed="Bd" n="79"/>et hic, et in futuro: ergo non destruxit
+<lb ed="Bd" n="80"/>quidquid erat culparum.
+</p>
+            <p xml:id="alalal-e64426-d1e147">
+               <lb ed="Bd" n="81"/>2. Item, Si ipse destruxit quidquid
+<lb ed="Bd" n="82"/>erat culparum, quia culpa habet 
+opposi<lb break="no" ed="Bd" n="83"/>tum ad gratiam, pcena autem satisfaciens
+<lb ed="Bd" n="84"/>habet ordinem contra peenam : sed 
+Chri<lb break="no" ed="Bd" n="85"/>stus per pcenam passionis satisfecit pro
+<lb ed="Bd" n="86"/>nobis : ergo sacrificium hoc ordinabatur
+<pb ed="#Bd" n="339"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>contra peenam, et non contra culpam, ut
+<lb ed="Bd" n="2"/>videtur : et ita non delevit quidquid 
+cul<lb break="no" ed="Bd" n="3"/>parum erat, sed potius quidquid erat 
+poe<lb break="no" ed="Bd" n="4"/>narum.
+</p>
+            <p xml:id="alalal-e64426-d1e176">
+               <lb ed="Bd" n="5"/>3. Preeterea, Videtur aliqua culpa illa
+<lb ed="Bd" n="6"/>passione non posse deleri : quia 
+quan<lb break="no" ed="Bd" n="7"/>tum bonum erat vita Christi, tantum
+<lb ed="Bd" n="8"/>malum erat occisio, vel majus, propter
+<lb ed="Bd" n="9"/>offensam adjunctam damno : ergo 
+vide<lb break="no" ed="Bd" n="10"/>tur, cum minus bonum non posset in
+<lb ed="Bd" n="11"/>majus malum, quod mors Christi non
+<lb ed="Bd" n="12"/>valuerit ctiam delere solam illam 
+cul<lb break="no" ed="Bd" n="13"/>pam quam perpetraverant occisores sui
+<lb ed="Bd" n="14"/>occidendo eum : ergo multo minus valuit
+<lb ed="Bd" n="15"/>delere illam cum omnibus aliis culpis.
+<lb ed="Bd" n="16"/>Quod tamen falsum est : quia multi de
+<lb ed="Bd" n="17"/>occisoribus salvati sunt, sicut Longinus,
+<lb ed="Bd" n="18"/>Centurio, et alii, ut dicunt Sancti.
+</p>
+            <p xml:id="alalal-e64426-d1e209">
+               <lb ed="Bd" n="19"/>Solutio Dicendum, quod in peccato
+<lb ed="Bd" n="20"/>quatuor sunt, quorum tria ita sunt 
+con<lb break="no" ed="Bd" n="21"/>juncta, quod unum non solvitur sine
+<lb ed="Bd" n="22"/>alio : quartum autem solubile est ab aliis
+<lb ed="Bd" n="23"/>tiibus. Primum est culpa quae 
+contraria<lb break="no" ed="Bd" n="24"/>tur gratia. Secundum est macula foedans
+<lb ed="Bd" n="25"/>imaginem, Tertium est reatus pans
+<lb ed="Bd" n="26"/>weterne : et ista tria sunt conjuncta.
+<lb ed="Bd" n="27"/>Quartum est reatus pene temporalis.
+<lb ed="Bd" n="28"/>Bene igitur concedo, quod passio Christi
+<lb ed="Bd" n="29"/>sufficienter delet culpam : sed tamen 
+ac<lb break="no" ed="Bd" n="30"/>tio passionis in culpam incipit ex parte
+<lb ed="Bd" n="31"/>reatus pcene weternie, sicut probat 
+obje<lb break="no" ed="Bd" n="32"/>clio. Sed quia non est solubilis reatus,
+<lb ed="Bd" n="33"/>nisi solvatur macula et culpa, ideo 
+poste<lb break="no" ed="Bd" n="34"/>rius vis passionis agit in culpam et 
+ma<lb break="no" ed="Bd" n="35"/>culam : sed hoc habet passio in 
+quan<lb break="no" ed="Bd" n="36"/>tum in ipsa affluit nobis yratia ab ipso
+<lb ed="Bd" n="37"/>patiente : quia directe est operari contra
+<lb ed="Bd" n="38"/>culpam, et per consequens contra 
+macu<lb break="no" ed="Bd" n="39"/>lam et contra reatum. Et per hoc patet
+<lb ed="Bd" n="40"/>solutio ad secundum,
+</p>
+            <p xml:id="alalal-e64426-d1e259">
+               <lb ed="Bd" n="41"/>Ab primum dicendum, quod _passio
+<lb ed="Bd" n="42"/>Christi delet sufficienter per seipsam :
+<lb ed="Bd" n="43"/>sed efficienter delet cum fide et charitate,
+<lb ed="Bd" n="44"/>sicut in precedenti questione dictum
+<lb ed="Bd" n="45"/>est.
+</p>
+            <p xml:id="alalal-e64426-d1e272">
+               <lb ed="Bd" n="46"/>Ad aliud dicendum, quod 
+argumen<lb break="no" ed="Bd" n="47"/>tum illud Anselmus facit, et solvit, 
+di<lb break="no" ed="Bd" n="48"/>cens, quod ignorantia illa qua credebant
+<lb ed="Bd" n="49"/>eum esse purum hominem excusabat a
+<lb ed="Bd" n="50"/>tanto : et ideo minorabatur peccatum : et
+<lb ed="Bd" n="51"/>cum aliis expiabile esse potuit, sicut 
+di<lb break="no" ed="Bd" n="52"/>xit ipse: Pater, dimitte tllis, non enim
+<lb ed="Bd" n="53"/>sciunt quid faciunt'. Sed tamen in 
+ar<lb break="no" ed="Bd" n="54"/>gumento est suppositio falsi duabus de
+<lb ed="Bd" n="55"/>causis : quarum una est, quia malum
+<lb ed="Bd" n="56"/>non pensatur ex circumstantiis negotii
+<lb ed="Bd" n="57"/>tantum, sed ex circumstantia facientis :
+<lb ed="Bd" n="58"/>et similiter bonum : sed semper in 
+infi<lb break="no" ed="Bd" n="59"/>nitum excedit illud in bono.
+</p>
+            <p xml:id="alalal-e64426-d1e305">
+               <lb ed="Bd" n="60"/>Et si dicas, quod factum hominis erat
+<lb ed="Bd" n="61"/>occisio Dei, et ex parte illa erat 
+infini<lb break="no" ed="Bd" n="62"/>tum malum. Dicendum, quod hoc nihil
+<lb ed="Bd" n="63"/>est : quia ex parte patientis erat bonum,
+<lb ed="Bd" n="64"/>et non malum :‘sed ex parte facientium
+<lb ed="Bd" n="65"/>malum tantum : et ideo actus peccati
+<lb ed="Bd" n="66"/>eorum attenditur, prout est in faciente,
+<lb ed="Bd" n="67"/>et non in patiente : et sic stat ratio 
+in<lb break="no" ed="Bd" n="68"/>ducta.
+</p>
+            <p xml:id="alalal-e64426-d1e328">
+               <lb ed="Bd" n="69"/>Secunda ratio est : quia si etiam 
+po<lb break="no" ed="Bd" n="70"/>natur aequalitas, adhuc potentius erat 
+bo<lb break="no" ed="Bd" n="71"/>num in malum destruendo, quam e 
+con<lb break="no" ed="Bd" n="72"/>verso : quia bonum habet virtutem de se
+<lb ed="Bd" n="73"/>impugnandi : malum autem non habet
+<lb ed="Bd" n="74"/>virtutem de se, sed ex alio, ut dicit 
+Dio<lb break="no" ed="Bd" n="75"/>nysius 2.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

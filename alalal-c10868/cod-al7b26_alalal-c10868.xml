@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="58"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c10868"><!-- l1d28a3 -->
+            <head xml:id="alalal-c10868-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-c10868-Hd1e101" type="question-title">Utrum innascibilitas et paternitas sint
+una notio, vel duae ?</head>
+            <p xml:id="alalal-c10868-d1e104">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="43"/>ARTICULUS III.
+<lb ed="#Bb" n="44"/>Utrum innascibilitas et paternitas sint
+<lb ed="#Bb" n="45"/>una notio, vel duae ?
+</p>
+            <p xml:id="alalal-c10868-d1e115">
+               <lb ed="#Bb" n="46"/>Deinde queritur de hoc quod dicit, ibi,
+<lb ed="#Bb" n="47"/>A, <quote xml:id="alalal-c10868-Qd1e121"> Aliam designai notionem quam 
+Pa<lb break="no" ed="#Bb" n="48"/>genitor.ter vel </quote> Hoc enim falsum 
+vide<lb break="no" ed="#Bb" n="49"/>tur: quia
+</p>
+            <p xml:id="alalal-c10868-d1e129">
+               <lb ed="#Bb" n="50"/>1. Innascibilitas in Patre idem videtur
+<lb ed="#Bb" n="51"/>quod paternitas: proprietas enim aut
+<lb ed="#Bb" n="52"/>constituilt personam, aut persona 
+inno<lb break="no" ed="#Bb" n="53"/>tescit per ipsam : sed sufficienter 
+innote<lb break="no" ed="#Bb" n="54"/>scit et constituitur persona Patris a 
+pro<lb break="no" ed="#Bb" n="55"/>prietate quae est paternitas : ergo 
+innasci<lb break="no" ed="#Bb" n="56"/>bilitas aut eadem est in Patre, aut
+<lb ed="#Bb" n="57"/>superfluit.
+</p>
+            <p xml:id="alalal-c10868-d1e150">
+               <lb ed="#Bb" n="58"/>2. Item, In divinis non distinguit nisi
+<lb ed="#Bb" n="59"/>relationis oppositio : non aatem est 
+rela<lb break="no" ed="#Bb" n="60"/>tionis oppositio inter paternifatem et 
+in<lb break="no" ed="#Bb" n="61"/>nascibilitatem : ergo sunt eadem notio
+<lb ed="#Bb" n="62"/>secundum rem.
+</p>
+            <p xml:id="alalal-c10868-d1e163">
+               <lb ed="#Bb" n="63"/>3. Item, Nihil videtur dicere 
+innasci<lb break="no" ed="#Bb" n="64"/>bilitas nisi comparationem quamdam 
+Pa<lb break="no" ed="#Bb" n="65"/>tris ad privationem principii ante : 
+com<lb break="no" ed="#Bb" n="66"/>paratio autem talis nihil addit nisi 
+ne<lb break="no" ed="#Bb" n="67"/>gationem : ergo cum negatio nihil faciat
+<lb ed="#Bb" n="68"/>differre, videtur quod non dicat aliam
+<lb ed="#Bb" n="69"/>notionem quam paternitas.
+</p>
+            <p xml:id="alalal-c10868-d1e181">
+               <lb ed="#Bb" n="70"/>4. Item In divinis non est numerus 
+ni<lb break="no" ed="#Bb" n="71"/>si ex hypostasi: ergo proprietates non
+<lb ed="#Bb" n="72"/>numerantur nisi ex numero hypostasis :
+<lb ed="#Bb" n="73"/>ergo omnes proprietates cjusdem persone
+<lb ed="#Bb" n="74"/>suntuna secundum quod sunt in ipsa :
+<lb ed="#Bb" n="75"/>ergo innascibilitas in Patre non differt a
+<lb ed="#Bb" n="76"/>paternitate in Patre.
+</p>
+            <p xml:id="alalal-c10868-d1e199">
+               <lb ed="#Bb" n="77"/>5. Item, In Filio nascibilitas non est
+<lb ed="#Bb" n="78"/>alia proprietas a filiatione : ergo videtur,
+<lb ed="#Bb" n="79"/>quod nec in Patre innascibilitas sit alia
+<lb ed="#Bb" n="80"/>a paternitate. ,
+</p>
+            <p xml:id="alalal-c10868-d1e210">
+               <lb ed="#Bb" n="81"/>Solutio. Dicendum, quod alia est 
+no<lb break="no" ed="#Bb" n="82"/>tio in Patre innascibilitas, et paternitas
+<pb ed="#Bb" n="59"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>alia : quia dislinctio notionum est 
+secun<lb break="no" ed="#Bb" n="2"/>dum modum innotescendi personam ut
+<lb ed="#Bb" n="3"/>personam, hoc est, secundum rationem
+<lb ed="#Bb" n="4"/>dignitatis : sicut autem supra dictum est,
+<lb ed="#Bb" n="5"/>in ordine nature oportet principium esse
+<lb ed="#Bb" n="6"/>non de principio: et illud innotescit in
+<lb ed="#Bb" n="7"/>omni re qua est principium non de 
+prin<lb break="no" ed="#Bb" n="8"/>cipio : erit ergo unus modus 
+innotescen<lb break="no" ed="#Bb" n="9"/>di ipsum ex parte illa qua non est de
+<lb ed="#Bb" n="10"/>principio, et alius ex parte illa qua est
+<lb ed="#Bb" n="11"/>principium, et unus modus non est alius.
+<lb ed="#Bb" n="12"/>Ex parte illa qua innotescit ut non de
+<lb ed="#Bb" n="13"/>principio, est innascibilitas notio. Ex
+<lb ed="#Bb" n="14"/>parte altera innotescit secundum rationes
+<lb ed="#Bb" n="15"/>quibus est principium totius divinitatis :
+<lb ed="#Bb" n="16"/>hoc autem est generando, et spirando :
+<lb ed="#Bb" n="17"/>et ideo erunt due notiones Patris, una
+<lb ed="#Bb" n="18"/>paternitas, et alia communis spiratio. |
+</p>
+            <p xml:id="alalal-c10868-d1e260">
+               <lb ed="#Bb" n="19"/>Ad PRIMUM ergo dicendum, quod 
+inna<lb break="no" ed="#Bb" n="20"/>scibilitas non superfluit : quia paternitate
+<lb ed="#Bb" n="21"/>sufficienter innotescit Pater in ratione
+<lb ed="#Bb" n="22"/>principii : non tamen ipse sufficienter 
+in<lb break="no" ed="#Bb" n="23"/>notescit in quantum est non de 
+princi<lb break="no" ed="#Bb" n="24"/>pio : et hoc convenit ei personaliter, et
+<lb ed="#Bb" n="25"/>pertinet ad dignitatem person, 
+secun<lb break="no" ed="#Bb" n="26"/>dum quod in ordine nature ipse Pater
+<lb ed="#Bb" n="27"/>ponitur principium non de principio.
+</p>
+            <p xml:id="alalal-c10868-d1e283">
+               <lb ed="#Bb" n="28"/>Ad aliud dicendum, quod realiter non
+<lb ed="#Bb" n="29"/>distinguit in divinis nisi relationis 
+oppo<lb break="no" ed="#Bb" n="30"/>sitio, id est, quod distinctio faciat rem
+<lb ed="#Bb" n="31"/>per se entem et subsistentem : et sic non
+<lb ed="#Bb" n="32"/>distinguitur notio a notione, sed polius
+<lb ed="#Bb" n="33"/>secundum modum supponendi et-
+attri<lb break="no" ed="#Bb" n="34"/>buendi, ut superius dictum est.
+</p>
+            <p xml:id="alalal-c10868-d1e301">
+               <lb ed="#Bb" n="35"/>Av auiup dicendum, quod non dicit
+<lb ed="#Bb" n="36"/>comparationem paternitatis, sed ejus quit
+<lb ed="#Bb" n="37"/>est Pater secundum illam rationem qua
+<lb ed="#Bb" n="38"/>est principium non de principio: unde
+<lb ed="#Bb" n="39"/>illa ratio ex falsis procedit. ;
+</p>
+            <p xml:id="alalal-c10868-d1e314">
+               <lb ed="#Bb" n="40"/>Ad aliud dicendum, quod non est 
+nu<lb break="no" ed="#Bb" n="41"/>merus rerum distinctarum in divinis, 
+ni<lb break="no" ed="#Bb" n="42"/>si personarum tantum : nec notio in 
+divi<lb break="no" ed="#Bb" n="43"/>nis habet esse distinctum extra personas,
+<lb ed="#Bb" n="44"/>et numeratur secundum rationes 
+inno<lb break="no" ed="#Bb" n="45"/>tescendi et attribuendi. Tamen bene 
+di<lb break="no" ed="#Bb" n="46"/>co, quod relatio et notio est res in 
+divi<lb break="no" ed="#Bb" n="47"/>nis, licet non numeretur extra personam:
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="48"/>sed diversitas ejus innotescit secundum
+<lb ed="#Bb" n="49"/>diversitatem modi significandi in attri~
+<lb ed="#Bb" n="50"/>buendo, ut superius dictum est.
+</p>
+            <p xml:id="alalal-c10868-d1e343">
+               <lb ed="#Bb" n="51"/>Ad aliud dicendum, quod nascibilitas
+<lb ed="#Bb" n="52"/>secundum idem in ratione facit 
+innote<lb break="no" ed="#Bb" n="53"/>scere Filium, secundum quod facit eum
+<lb ed="#Bb" n="54"/>innotescere filiatio, secundum _ scilicet
+<lb ed="#Bb" n="55"/>quod est de principio in ordine nature :
+<lb ed="#Bb" n="56"/>et ideo non est diversa notio in Filio 
+na<lb break="no" ed="#Bb" n="57"/>scibilitas et filiatio : sed non secundum
+<lb ed="#Bb" n="58"/>idem facit innotescere Patrem 
+innascibi<lb break="no" ed="#Bb" n="59"/>litas et paternitas, secundum quod in
+<lb ed="#Bb" n="60"/>ordine nature est principium non de
+<lb ed="#Bb" n="61"/>principio : et ideo in Patre est alio modo
+<lb ed="#Bb" n="62"/>notio innascibilitas, et paternitas : sicut
+<lb ed="#Bb" n="63"/>etin Filio alia notio est filiatio, et 
+com<lb break="no" ed="#Bb" n="64"/>munis spiratio : quia non secundum
+<lb ed="#Bb" n="65"/>unam rationem innotescit Filius per eas,
+<lb ed="#Bb" n="66"/>secundum quod refertur ad ordinem 
+na<lb break="no" ed="#Bb" n="67"/>ture, ut principium de principio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

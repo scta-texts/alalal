@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="621"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b19929"><!-- l1d24a8 -->
+            <head xml:id="alalal-b19929-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-b19929-Hd1e101" type="question-title">An bene dicatur Deus trinus et unus : et
+an trinitas sit trium unitas ?</head>
+            <p xml:id="alalal-b19929-d1e104">
+               <pb ed="#Ba" n="621"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ARTICULUS VIII.
+<lb ed="#Ba" n="2"/>An bene dicatur Deus trinus et unus : et
+<lb ed="#Ba" n="3"/>an trinitas sit trium unitas ?
+</p>
+            <p xml:id="alalal-b19929-d1e117">
+               <lb ed="#Ba" n="4"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="#Ba" n="5"/>ultima parte K: <quote xml:id="alalal-b19929-Qd1e123"> Zrinitas vero multiplex
+<lb ed="#Ba" n="6"/>est et numerabilis : quia trinitas est
+<lb ed="#Ba" n="7"/>trium unitas. </quote>
+            </p>
+            <p xml:id="alalal-b19929-d1e131">
+               <lb ed="#Ba" n="8"/>1. Contra enim videtur esse, quod 
+Pa<lb break="no" ed="#Ba" n="9"/>ter est trium unitas, quia est essentia
+<lb ed="#Ba" n="10"/>que est unitas trium : ergo Pater est 
+tri<lb break="no" ed="#Ba" n="11"/>nitas,
+</p>
+            <p xml:id="alalal-b19929-d1e143">
+               <lb ed="#Ba" n="12"/>2. Praeterea, Cum dicatur trinitas 
+nu<lb break="no" ed="#Ba" n="13"/>merabilis, quare non dicitur Deus esse
+<lb ed="#Ba" n="14"/>tres, velduo: cum omne numerabile 
+se<lb break="no" ed="#Ba" n="15"/>cundum aliquam speciem numeri 
+nume<lb break="no" ed="#Ba" n="16"/>rabile sit.
+</p>
+            <p xml:id="alalal-b19929-d1e156">
+               <lb ed="#Ba" n="17"/>3. Item, Cum dicitur, Deus est trinus
+<lb ed="#Ba" n="18"/>etunus : aut ly Deus supponit essentiam,
+<lb ed="#Ba" n="19"/>aut personam. Si essentiam : ergo 
+essen<lb break="no" ed="#Ba" n="20"/>tia est trina, quod falsum est. Si 
+perso<lb break="no" ed="#Ba" n="21"/>nam : ergo aliqua persona est trina et
+<lb ed="#Ba" n="22"/>una, quod falsum est : ergo videtur non
+<lb ed="#Ba" n="23"/>esse concedendum Deum esse trinum et
+<lb ed="#Ba" n="24"/>unum.
+</p>
+            <p xml:id="alalal-b19929-d1e176">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="25"/>Sed contra : In hymno cantatur, 
+To<lb break="no" ed="#Ba" n="26"/>tius mundi machinam gubernat trinus et
+<lb ed="#Ba" n="27"/>unus.</p>
+            <p xml:id="alalal-b19929-d1e187">
+               <lb ed="#Ba" n="28"/>Solutio. Dicendum ad primum, quod
+<lb ed="#Ba" n="29"/>in argumento incidit fallacia accidentis :
+<lb ed="#Ba" n="30"/>sicut si sic procedatur, Socrates est omne
+<lb ed="#Ba" n="31"/>animal, quia animal est unum in quo
+<lb ed="#Ba" n="32"/>uniuntur omnia animalia. Tamen 
+qui<lb break="no" ed="#Ba" n="33"/>dam dicunt, quod cum dicitur, trinitas
+<lb ed="#Ba" n="34"/>trium est unitas, etymologia nominis est :
+<lb ed="#Ba" n="35"/>sed de hoc supra diximus, quia licet 
+se<lb break="no" ed="#Ba" n="36"/>cundum nomen importet essentiam in
+<lb ed="#Ba" n="37"/>recto, tamen secundum significationem
+<lb ed="#Ba" n="38"/>rei e converso est: et ideo trinitas est
+<lb ed="#Ba" n="39"/>tres uniti in una essentia.
+</p>
+            <p xml:id="alalal-b19929-d1e216">
+               <lb ed="#Ba" n="40"/>Ad aliud dicendum, quod Deus non
+<lb ed="#Ba" n="41"/>est numerabilis : et si trinitas numerabilis
+<lb ed="#Ba" n="42"/>dicatur, hoc intelligitur de numero 
+quo<lb break="no" ed="#Ba" n="43"/>dam, scilicet notionum et personarum,
+<lb ed="#Ba" n="44"/>et non simpliciter : nec iste humerus 
+ex<lb break="no" ed="#Ba" n="45"/>cludit simplicitatem vel unitatem 
+essen<lb break="no" ed="#Ba" n="46"/>tie, sed potius solitudinem et 
+singulari<lb break="no" ed="#Ba" n="47"/>tatem.
+</p>
+            <p xml:id="alalal-b19929-d1e236">
+               <lb ed="#Ba" n="48"/>Ad aliud dicendum, quod hac est vera,
+<lb ed="#Ba" n="49"/>Deus est trinus et unus: et ly Deus 
+sup<lb break="no" ed="#Ba" n="50"/>ponit essentiam in supposito in communi:
+<lb ed="#Ba" n="51"/>et ideo gratia essentiae convenit ei unus,
+<lb ed="#Ba" n="52"/>et gratia suppositorum trinum, supple,
+<lb ed="#Ba" n="53"/>esse.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

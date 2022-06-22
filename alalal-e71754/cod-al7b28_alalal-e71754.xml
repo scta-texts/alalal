@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="378"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e71754"><!-- l3d21a2 -->
+            <head xml:id="alalal-e71754-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-e71754-Hd1e101" type="question-title">Quomodo debet intelligi quod dicit 
+Christus, Ego pono animam meam ?</head>
+            <p xml:id="alalal-e71754-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="18"/>ARTICULUS I.
+<lb ed="Bd" n="19"/>Quomodo debet intelligi quod dicit 
+Chri<lb break="no" ed="Bd" n="20"/>stus, Ego pono animam meam ?
+</p>
+            <p xml:id="alalal-e71754-d1e115">
+               <lb ed="Bd" n="21"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="22"/>tbi, C, <quote xml:id="alalal-e71754-Qd1e121"> Ego pono animam meam, ut
+<lb ed="Bd" n="23"/>ilerum sumam eam. </quote>
+            </p>
+            <p xml:id="alalal-e71754-d1e127">
+               <lb ed="Bd" n="24"/>1. Quid enim est ponere ? Si ponere est
+<lb ed="Bd" n="25"/>deponere : cum hoc pronomen, ego, 
+si<lb break="no" ed="Bd" n="26"/>gnificet quemlibet suum prolatorem, et
+<lb ed="Bd" n="27"/>prolator hujus verbi fuit Christus 
+secun<lb break="no" ed="Bd" n="28"/>dum quod persona, tune persona in eo
+<lb ed="Bd" n="29"/>quod persona posuit et deposuit 
+ani<lb break="no" ed="Bd" n="30"/>mam: quod falsum est, quia sie non
+<lb ed="Bd" n="31"/>fuisset unitus anime in triduo. Si au-
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="32"/>tem ponere est in aliquo loco collocare,
+<lb ed="Bd" n="33"/>cum multa locare possint seipsa, 
+videbi<lb break="no" ed="Bd" n="34"/>tur quod anima potuit ponere seipsam,
+<lb ed="Bd" n="35"/>Contrarium autem hujus dicit 
+Augusti<lb break="no" ed="Bd" n="36"/>2. Item, Ponere dicit potestatem 
+effi<lb break="no" ed="Bd" n="37"/>ciendi aliquid : nulla autem potestas 
+ef<lb break="no" ed="Bd" n="38"/>ficiendi aliquid est in corpore, sed 
+tan<lb break="no" ed="Bd" n="39"/>tum in anima vel deitate : ergo videtur,
+<lb ed="Bd" n="40"/>quod alterius illorum fuit ponere 
+ani<lb break="no" ed="Bd" n="41"/>mam, et non carnis, ut videtur dicere ia
+<lb ed="Bd" n="42"/>Littera ?
+</p>
+            <p xml:id="alalal-e71754-d1e174">
+               <lb ed="Bd" n="43"/>3. Item, Si ponere est separare : tunc
+<lb ed="Bd" n="44"/>eadem ratione caro ponebatur, qua 
+ani<lb break="no" ed="Bd" n="45"/>ma posita dicitur esse : quare ergo non
+<lb ed="Bd" n="46"/>dixit, Nemo tollit carnem meam a me,
+<lb ed="Bd" n="47"/>sed ego pono cam, et iterum sumo
+<lb ed="Bd" n="48"/>eam?
+</p>
+            <p xml:id="alalal-e71754-d1e190">
+               <lb ed="Bd" n="49"/>4. Item, Videtur falsum esse, quia
+<lb ed="Bd" n="50"/>cum unio naturalis solubilis sit, et cum
+<lb ed="Bd" n="51"/>inter Christi animam et corpus non fuit
+<pb ed="#Bd" n="379"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>nisi unio naturalis, ipsa fuit solubilis.
+<lb ed="Bd" n="2"/>Dupliciter autem omnis talis unio 
+solu<lb break="no" ed="Bd" n="3"/>bilis est, scilicet per violentiam, et 
+natu<lb break="no" ed="Bd" n="4"/>ralem separationem : ergo Christi anima
+<lb ed="Bd" n="5"/>poterat extorqueri per violentiam : ergo
+<lb ed="Bd" n="6"/>tolli poterat ab eo: ergo falsam videtur
+<lb ed="Bd" n="7"/>quod dicitur, Nemo tollit eam, scilicet
+<lb ed="Bd" n="8"/>animam meam, @ me.
+</p>
+            <p xml:id="alalal-e71754-d1e221">
+               <lb ed="Bd" n="9"/>Solutio Dicendum ad primum, quod
+<lb ed="Bd" n="10"/>ponere est deponere ab eo cui naturaliter
+<lb ed="Bd" n="11"/>est unita anima, et hoc est caro: et non
+<lb ed="Bd" n="12"/>est ponere simpliciter ab eo removere
+<lb ed="Bd" n="13"/>cui unita est quocumque modo. Et bene
+<lb ed="Bd" n="14"/>concedo, quod persona ponit animam :
+<lb ed="Bd" n="15"/>sed quia omne quod agit persona, in 
+na<lb break="no" ed="Bd" n="16"/>tura agit, necesse est quod ponat 
+ani<lb break="no" ed="Bd" n="17"/>mam in natura, vel parte nature. Cum
+<lb ed="Bd" n="18"/>igitur non sit idem secundum naturam
+<lb ed="Bd" n="19"/>depositum, et in quo sit depositio sive
+<lb ed="Bd" n="20"/>deponens, patet quod nec anima animam,
+<lb ed="Bd" n="21"/>nec Filius Dei animam in anima 
+depo<lb break="no" ed="Bd" n="22"/>nere potuit: ergo Filius Dei posuit in
+<lb ed="Bd" n="23"/>corpore animam. Et hoc vult dicere 
+Au<lb break="no" ed="Bd" n="24"/>gustinus, quod corpus animam posuit
+<lb ed="Bd" n="25"/>virtute latentis in se divinitatis: quia
+<lb ed="Bd" n="26"/>corpori convenit separatio quae est in
+<lb ed="Bd" n="27"/>morte, non Filio Dei, vel deitati.
+</p>
+            <p xml:id="alalal-e71754-d1e265">
+               <lb ed="Bd" n="28"/>Ad aliud dicendum, quod licet in 
+cor<lb break="no" ed="Bd" n="29"/>pore mortuo non unito potent: nature,
+<lb ed="Bd" n="30"/>nulla sit potestas efficiendi aliquid : 
+ta<lb break="no" ed="Bd" n="31"/>men in corpore Christi sic non fuit,
+<lb ed="Bd" n="32"/>quia deitas summe potens adhuc latebat
+<lb ed="Bd" n="33"/>in corpore.
+</p>
+            <p xml:id="alalal-e71754-d1e281">
+               <lb ed="Bd" n="34"/>Ad aliud dicendum, quod Dominus
+<lb ed="Bd" n="35"/>loquitur respondendo ad_ intentionem
+<lb ed="Bd" n="36"/>Judeorum : quia persecutor et tyrannus
+<lb ed="Bd" n="37"/>insequitur causam vite: et ideo etiam
+<lb ed="Bd" n="38"/>separata causa vite, quiescit a 
+persecu<lb break="no" ed="Bd" n="39"/>tione corporis: et ei quod ipsi 
+extor<lb break="no" ed="Bd" n="40"/>quere cupiebant, Dominus respondit,
+<lb ed="Bd" n="41"/>quod a potestale sua persecutione 
+aliena<lb break="no" ed="Bd" n="42"/>nare non potuerunt, scilicet animam :
+<lb ed="Bd" n="43"/>quia anima semper in sua potestate 
+ma<lb break="no" ed="Bd" n="44"/>nebat.
+</p>
+            <p xml:id="alalal-e71754-d1e307">
+               <lb ed="Bd" n="45"/>Ad aliud dicendum, quod aliud est in
+<lb ed="Bd" n="46"/>Christo, et in aliis hominibus : quia licet
+<lb ed="Bd" n="47"/>Christus habuit naturalem unionem 
+ani<lb break="no" ed="Bd" n="48"/>me et corporis quae dissolubilia crant,
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>tamen habebat fortius potens agere in
+<lb ed="Bd" n="50"/>contrarium, scilicet deitatem : et ideo
+<lb ed="Bd" n="51"/>tyranni persecutio ab eo nihil 
+extorque<lb break="no" ed="Bd" n="52"/>ret si ipse non vellet : in aliis autem non
+<lb ed="Bd" n="53"/>est resistens violentiae, et ideo in aliis
+<lb ed="Bd" n="54"/>bene anima extorquetur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

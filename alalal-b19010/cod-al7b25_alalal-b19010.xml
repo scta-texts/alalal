@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="615"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b19010"><!-- l1d24a4 -->
+            <head xml:id="alalal-b19010-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-b19010-Hd1e101" type="question-title">Utrum termini numerales in divinis 
+predicent essentiam vel personam ?</head>
+            <p xml:id="alalal-b19010-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="7"/>ARTICULUS IV.
+<lb ed="#Ba" n="8"/>Utrum termini numerales in divinis 
+pre<lb break="no" ed="#Ba" n="9"/>dicent essentiam vel personam ?
+</p>
+            <p xml:id="alalal-b19010-d1e115">
+               <lb ed="#Ba" n="10"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="11"/>
+               <quote xml:id="alalal-b19010-Qd1e121"> Cum enim dicitur, unus Deus, 
+mil<lb break="no" ed="#Ba" n="12"/>titudo deorum excluditur. </quote>
+            </p>
+            <p xml:id="alalal-b19010-d1e127">
+               <lb ed="#Ba" n="13"/>Hic incidunt tres questiones, scilicet
+<lb ed="#Ba" n="14"/>utrum termini numerales in divinis 
+pre<lb break="no" ed="#Ba" n="15"/>dicent divinam essentiam vel personam ?
+<lb ed="#Ba" n="16"/>Secunda, Utrum univoce praedicentur de
+<lb ed="#Ba" n="17"/>essentia et persona et notione? Tertia,
+<lb ed="#Ba" n="18"/>Utrum Pater et Filius et Spiritus 
+san<lb break="no" ed="#Ba" n="19"/>ctus aliquo modo possint dici nes ?
+</p>
+            <p xml:id="alalal-b19010-d1e146">
+               <lb ed="#Ba" n="20"/>Ap primum, proceditur sic :
+<lb ed="#Ba" n="21"/>1. Supra habitum est pro regula, quod
+<lb ed="#Ba" n="22"/>omne nomen non relative dictum, in
+<lb ed="#Ba" n="23"/>Deo praedicat essentiam : termini 
+nume<lb break="no" ed="#Ba" n="24"/>rales non sunt relative dicti : ergo 
+pre<lb break="no" ed="#Ba" n="25"/>dicant essentiam.
+</p>
+            <p xml:id="alalal-b19010-d1e162">
+               <lb ed="#Ba" n="26"/>2. Item, Boetius Omnia 
+predica<lb break="no" ed="#Ba" n="27"/>menta in substantia  vertuntur 
+predica<lb break="no" ed="#Ba" n="28"/>tionem praeter relationem : hujusmodi
+<lb ed="#Ba" n="29"/>autem termini dicunt ens in 
+predica<lb break="no" ed="#Ba" n="30"/>mento quantitatis : ergo in substantia
+<lb ed="#Ba" n="31"/>vertuntur praedicationem,
+</p>
+            <p xml:id="alalal-b19010-d1e178">
+               <cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="32"/>3. Item, Eadem est ratio rei et unius
+<lb ed="#Ba" n="33"/>rei, et eadem praedicatio essentiae et
+<lb ed="#Ba" n="34"/>unius essentia : ergo cum essentia 
+pra<lb break="no" ed="#Ba" n="35"/>dicet naturam et substantiam, in divinis
+<lb ed="#Ba" n="36"/>unum et duo et hujusmodi pradicabunt
+<lb ed="#Ba" n="37"/>essentiam.
+</p>
+            <p xml:id="alalal-b19010-d1e196">
+               <lb ed="#Ba" n="38"/>4, Item, Unum convertitur cum ente :
+<lb ed="#Ba" n="39"/>ergo praedicat hoc quod praedicat ens in
+<lb ed="#Ba" n="40"/>divinis : sed ens pradicat substantiam :
+<lb ed="#Ba" n="41"/>ergo et unus.
+</p>
+            <p xml:id="alalal-b19010-d1e207">
+               <lb ed="#Ba" n="42"/>5. Item, Consignificatum non variat
+<lb ed="#Ba" n="43"/>rationem significati, idem enim significat
+<lb ed="#Ba" n="44"/>albus, alba, album : ergo etiam unum
+<lb ed="#Ba" n="45"/>significat unus, Una, unum sed unum
+<lb ed="#Ba" n="46"/>in diyinis pradicat substantiam : ergo
+<lb ed="#Ba" n="47"/>unus et una.
+</p>
+            <p xml:id="alalal-b19010-d1e223">
+               <lb ed="#Ba" n="48"/>SED CONTRA
+<lb ed="#Ba" n="49"/>Quidquid essentiam significat, de 
+tri<lb break="no" ed="#Ba" n="50"/>bus singulariter dicitur in summa et de
+<lb ed="#Ba" n="51"/>uno : ergo si unus et plures vel duo vel
+<lb ed="#Ba" n="52"/>tres, essentiam praedicant, possumus 
+di<lb break="no" ed="#Ba" n="53"/>cere, Pater est duo, et Pater est plures,
+<lb ed="#Ba" n="54"/>et Pater et Filius sunt unus : quae cum
+<lb ed="#Ba" n="55"/>falsa sint, patet quod ista non praedicent
+<lb ed="#Ba" n="56"/>essentiam.
+</p>
+            <p xml:id="alalal-b19010-d1e246">
+               <lb ed="#Ba" n="57"/>Solutio. Dicendum, quod in 
+masculi<lb break="no" ed="#Ba" n="58"/>no non praedicant essentiain nisi ex 
+ad<lb break="no" ed="#Ba" n="59"/>juncto substantivo, circa quod ponunt
+<lb ed="#Ba" n="60"/>rem suam, et accipiunt substantiam ab
+<lb ed="#Ba" n="61"/>ipso : ut si dicam, Pater et Filius sunt
+<lb ed="#Ba" n="62"/>unus Deus, vel alind hujusmodi ; et hoc
+<pb ed="#Ba" n="616"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>convenit ratione triplici, scilicet 
+discre<lb break="no" ed="#Ba" n="2"/>tionis quam habent hujusmodi nomina
+<lb ed="#Ba" n="3"/>in principali significato, et generis quod
+<lb ed="#Ba" n="4"/>dicit discretionem persone, quia non est
+<lb ed="#Ba" n="5"/>in rationali natura ens formatum nisi 
+di<lb break="no" ed="#Ba" n="6"/>stinctum in persona: et ralione articuli
+<lb ed="#Ba" n="7"/>inclusi in talibus nominibus. In neutro
+<lb ed="#Ba" n="8"/>autem genere licet remancant duo ex
+<lb ed="#Ba" n="9"/>illis, seilicet discretio significati et 
+arti<lb break="no" ed="#Ba" n="10"/>cul, tamen non habent tertium quod
+<lb ed="#Ba" n="11"/>precipue trahit ad personam : quia 
+ge<lb break="no" ed="#Ba" n="12"/>nus non accidit nomini nisi ex parte
+<lb ed="#Ba" n="13"/>substantiae significate et determinate 
+se<lb break="no" ed="#Ba" n="14"/>cundum modum ad minus : et ideo tune
+<lb ed="#Ba" n="15"/>predicant essentiam.
+</p>
+            <p xml:id="alalal-b19010-d1e298">
+               <lb ed="#Ba" n="16"/>Ap itu ergo quod primo objicitur,
+<lb ed="#Ba" n="17"/>dicendum quod talia nomina dicunt 
+rela<lb break="no" ed="#Ba" n="18"/>tionem : sunt enim consequentia actum
+<lb ed="#Ba" n="19"/>proprietatis distinguentis : relatio enim
+<lb ed="#Ba" n="20"/>est multis modis in divinis, ut supra 
+no<lb break="no" ed="#Ba" n="21"/>tatum est.
+</p>
+            <p xml:id="alalal-b19010-d1e314">
+               <lb ed="#Ba" n="22"/>Ad aliud dicendum, quod in Deo 
+hu<lb break="no" ed="#Ba" n="23"/>jusmodi nomina non dicunt quantitatem,
+<lb ed="#Ba" n="24"/>nec sumuntur in specie quantitatis, ut
+<lb ed="#Ba" n="25"/>prius dictum est.
+</p>
+            <p xml:id="alalal-b19010-d1e325">
+               <lb ed="#Ba" n="26"/>Ad aliud dicendum, quod hoc verum
+<lb ed="#Ba" n="27"/>est secundum quod unum convertitur
+<lb ed="#Ba" n="28"/>cum ente : et bene concedo hoc quod illi
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="29"/>termini quando ponuntur cum adjuncto,
+<lb ed="#Ba" n="30"/>predicant naturam illius in divinis - sed
+<lb ed="#Ba" n="31"/>quando absolute ponuntur in masculino
+<lb ed="#Ba" n="32"/>genere, substantivantur, vel adjective 
+re<lb break="no" ed="#Ba" n="33"/>feruntur ad personas. Per hoc patet
+<lb ed="#Ba" n="34"/>etiam solutio ad sequens.
+</p>
+            <p xml:id="alalal-b19010-d1e349">
+               <lb ed="#Ba" n="35"/>Ad aliud dicendum, quod aliud est in
+<lb ed="#Ba" n="36"/>albus, etc., quia unus et unum sunt ab
+<lb ed="#Ba" n="37"/>actu forme generaliter accepte in omni
+<lb ed="#Ba" n="38"/>ente : album autem et hujusmodi dicunt
+<lb ed="#Ba" n="39"/>speciem determinatam : et ideo termini
+<lb ed="#Ba" n="40"/>numerales non aequivocantur secundum
+<lb ed="#Ba" n="41"/>quod applicantur diversis : quia mensura
+<lb ed="#Ba" n="42"/>non accipit rationem a mensuratis : quia
+<lb ed="#Ba" n="43"/>aliter non esset idem numerus quo 
+nu<lb break="no" ed="#Ba" n="44"/>meramus canes, et homines : sed accipit
+<lb ed="#Ba" n="45"/>diversitatem a diversa ratione 
+mensuran<lb break="no" ed="#Ba" n="46"/>di, sicut modius, et ulna: sed quia 
+nu<lb break="no" ed="#Ba" n="47"/>merus in omni quantitatis specie 
+simpli<lb break="no" ed="#Ba" n="48"/>cior est, ideo non capit diversitatem 
+ra<lb break="no" ed="#Ba" n="49"/>tionis a numeratis, sed potest alicui 
+ap<lb break="no" ed="#Ba" n="50"/>propriari in uno genere, cul non 
+appro<lb break="no" ed="#Ba" n="51"/>priatur in alto : et ideo absolute dicta
+<lb ed="#Ba" n="52"/>unus, una, unum, unius rationis sunt :
+<lb ed="#Ba" n="53"/>et tamen unus ad personam refertur, et
+<lb ed="#Ba" n="54"/>unum ad essentiam, quando sumuntur
+<lb ed="#Ba" n="55"/>absolute propter causam prius dictam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

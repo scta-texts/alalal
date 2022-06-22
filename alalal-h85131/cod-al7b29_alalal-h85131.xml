@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="865"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h85131"><!-- l4d21a4 -->
+            <head xml:id="alalal-h85131-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-h85131-Hd1e101" type="question-title">An ignis purgatorius sit vel non sit
+post mortem ?</head>
+            <p xml:id="alalal-h85131-d1e104">
+               <pb ed="#Be" n="865"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>ARTICULUS IV.
+<lb ed="#Be" n="2"/>An ignis purgatorius sit vel non sit
+<lb ed="#Be" n="3"/>post mortem ?
+</p>
+            <p xml:id="alalal-h85131-d1e117">
+               <lb ed="#Be" n="4"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="5"/>ibi, A, ante finem : <quote xml:id="alalal-h85131-Qd1e123"> Non redarguo :
+<lb ed="#Be" n="6"/>quia forsitan verum, etc. </quote>
+            </p>
+            <p xml:id="alalal-h85131-d1e129">
+               <lb ed="#Be" n="7"/>Videtur enim hic dubitare 
+Augusti<lb break="no" ed="#Be" n="8"/>nus, utrum purgatorium sit, vel non?
+<lb ed="#Be" n="9"/>Et eodem modo dubitationis loquitur
+<lb ed="#Be" n="10"/>Gregorius in libro IV Dialogorum.
+</p>
+            <p xml:id="alalal-h85131-d1e141">
+               <lb ed="#Be" n="11"/>Queritur ergo, Utrum sit vel non sit
+<lb ed="#Be" n="12"/>purgatorius ignis post mortem ?
+</p>
+            <p xml:id="alalal-h85131-d1e148">
+               <lb ed="#Be" n="13"/>Videtur autem non esse sic :
+<lb ed="#Be" n="14"/>1. Contrariorum contrarii sunt 
+effe<lb break="no" ed="#Be" n="15"/>ctus : charitas et mortale peccatum sunt
+<lb ed="#Be" n="16"/>contraria ; ergo contrarii sunt eorum
+<lb ed="#Be" n="17"/>effectus : sed peccatum mortale post
+<lb ed="#Be" n="18"/>mortem damnat statim : ergo charitas
+<lb ed="#Be" n="19"/>post mortem statim salvat ; ergo non est
+<lb ed="#Be" n="20"/>locus aliquis purgatorius inter 
+salu<lb break="no" ed="#Be" n="21"/>tem et damnationem.
+</p>
+            <p xml:id="alalal-h85131-d1e170">
+               <lb ed="#Be" n="22"/>2. Adhuc, Non minoris efficacie est
+<lb ed="#Be" n="23"/>charitas in salvando, quam peccatum
+<lb ed="#Be" n="24"/>mortale in condemnando : sed peccatum
+<lb ed="#Be" n="25"/>mortale damnat statim post mortem,
+<lb ed="#Be" n="26"/>etiamsi multa adsint opera de genere
+<lb ed="#Be" n="27"/>bonorum, quae sunt dispositiones ad 
+bo<lb break="no" ed="#Be" n="28"/>num : ergo et charitas statim salvat
+<lb ed="#Be" n="29"/>post mortem, etiamsi multa adsint, quae
+<lb ed="#Be" n="30"/>sunt dispositiones ad malum : haec 
+au<lb break="no" ed="#Be" n="31"/>tem sunt venialia : ergo multitudini 
+ve<lb break="no" ed="#Be" n="32"/>nialium non debetur purgatorium : et
+<lb ed="#Be" n="33"/>non est ad alium usum : ergo non est
+<lb ed="#Be" n="34"/>purgatorium, ut videtur.
+</p>
+            <p xml:id="alalal-h85131-d1e201">
+               <lb ed="#Be" n="35"/>3. Adhuc, Duo genera sunt malorum,
+<lb ed="#Be" n="36"/>scilicet veniale, et mortale. Item, Duo
+<lb ed="#Be" n="37"/>genera bonorum, scilicet bonum 
+gratui<lb break="no" ed="#Be" n="38"/>tum, et opera de genere bonorum. Item,
+<lb ed="#Be" n="39"/>Duo genera premiorum, aeternum, et
+<lb ed="#Be" n="40"/>temporale : et iterum duo genera 
+pe<lb break="no" ed="#Be" n="41"/>narum, scilicet, temporalis, et sterna.
+<lb ed="#Be" n="42"/>Inde sic: procedo : Sicut se habet bonum
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="43"/>ad premium, ita se habet malum ad
+<lb ed="#Be" n="44"/>penam : sed bonum de genere 
+bono<lb break="no" ed="#Be" n="45"/>rum non meretur aliquod premium :
+<lb ed="#Be" n="46"/>ergo nec malum sibi respondens, 
+ali<lb break="no" ed="#Be" n="47"/>quam poenam : ergo pro nullo est 
+pur<lb break="no" ed="#Be" n="48"/>gatorium. Propatio mediae est: Si ille
+<lb ed="#Be" n="49"/>qui facit opera de genere bonorum,
+<lb ed="#Be" n="50"/>mereretur premium, tunc injuste ageret
+<lb ed="#Be" n="51"/>Deus secum, quod non conferret : sed
+<lb ed="#Be" n="52"/>videmus, quod sepe non confert : ergo
+<lb ed="#Be" n="53"/>nihil meruit : quia inconveniens est
+<lb ed="#Be" n="54"/>Deum injuste agere cum aliquo.
+</p>
+            <p xml:id="alalal-h85131-d1e249">
+               <lb ed="#Be" n="55"/>4. Adhuc, Super eadem divisione :
+<lb ed="#Be" n="56"/>sicut se habent mortale et veniale ad
+<lb ed="#Be" n="57"/>penam aeternam et temporalem simul :
+<lb ed="#Be" n="58"/>ita se habent charitas et bonum in 
+gene<lb break="no" ed="#Be" n="59"/>re ad premium utriusque simul : ergo
+<lb ed="#Be" n="60"/>sicut se habent mortale et opus de 
+gene<lb break="no" ed="#Be" n="61"/>re bonorum simul ad poenam aeternam
+<lb ed="#Be" n="62"/>et premium temporale, ita se habent
+<lb ed="#Be" n="63"/>charitas et veniale ad premium 
+eter<lb break="no" ed="#Be" n="64"/>num et poenam temporalem : sed video,
+<lb ed="#Be" n="65"/>quod mortali cum bono in genere, non
+<lb ed="#Be" n="66"/>debetur ex condigno nisi poena aeterna,
+<lb ed="#Be" n="67"/>et nullum temporale premium : ergo
+<lb ed="#Be" n="68"/>veniali cum charitate, ex condigno non
+<lb ed="#Be" n="69"/>debetur nisi,premium aeternum et nulla
+<lb ed="#Be" n="70"/>transitoria poena. Cum igitur non nisi
+<lb ed="#Be" n="71"/>propter tales sit purgatorium, videtur
+<lb ed="#Be" n="72"/>purgatorium non esse.
+</p>
+            <p xml:id="alalal-h85131-d1e291">
+               <lb ed="#Be" n="73"/>5. Adhuc, Deus non remunerat post
+<lb ed="#Be" n="74"/>mortem, nisi similem sibi per 
+charita<lb break="no" ed="#Be" n="75"/>tem et dilectionem : ergo non punit post
+<lb ed="#Be" n="76"/>mortem, nisi aversum a se per 
+super<lb break="no" ed="#Be" n="77"/>biam et odium divinum : sed talis solus
+<lb ed="#Be" n="78"/>est ille qui decedit in mortali peccato :
+<lb ed="#Be" n="79"/>ergo videtur, quod solus ille puniatur
+<lb ed="#Be" n="80"/>post mortem : ergo videtur, quod 
+venia<lb break="no" ed="#Be" n="81"/>le non punitur post mortem : et propter
+<lb ed="#Be" n="82"/>illud est purgatorium : ergo videtur,
+<lb ed="#Be" n="83"/>quod purgatorium nullum sit post 
+mor<lb break="no" ed="#Be" n="84"/>tem.
+</p>
+            <p xml:id="alalal-h85131-d1e321">
+               <lb ed="#Be" n="85"/>In contrarium hujus objicitur sic :
+<lb ed="#Be" n="86"/>4. Matth. xu, 31 et 32, dicitur, quod
+<lb ed="#Be" n="87"/>spiritus blasphemia non remitietur,
+<lb ed="#Be" n="88"/>neque in hoc seculo, neque in futuro.
+<lb ed="#Be" n="89"/>Ex hoc innuitur, quod aliqua peccata
+<lb ed="#Be" n="90"/>dimittentur in futuro : constat, quod non
+<lb ed="#Be" n="91"/>in regno, neque in inferno, quia in in-
+<pb ed="#Be" n="866"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>ferno. nulla est redemptio : ergo necesse
+<lb ed="#Be" n="2"/>est, quod sit locus aliquis purgatorius
+<lb ed="#Be" n="3"/>talium: et hunc vocamus purgatorium.
+</p>
+            <p xml:id="alalal-h85131-d1e350">
+               <lb ed="#Be" n="4"/>2. Adhuc, I ad Corinth. ur, 15: <quote xml:id="alalal-h85131-Qd1e354"
+                      source="http://scta.info/resource/Icor3_15@7-15">Ipse
+<lb ed="#Be" n="5"/>autem salvus erit, sic tamen quasi per
+<lb ed="#Be" n="6"/>ignem</quote>. Et constat, quod loquitur post
+<lb ed="#Be" n="7"/>mortem, quia non est. vera salus nisi
+<lb ed="#Be" n="8"/>post mortem : et certificando dicit, 
+Sal<lb break="no" ed="#Be" n="9"/>vus erit : ergo ignis purgans criminalia
+<lb ed="#Be" n="10"/>erit post mortem.
+</p>
+            <p xml:id="alalal-h85131-d1e371">
+               <lb ed="#Be" n="11"/>Et hoc concedimus.
+<lb ed="#Be" n="12"/>3. Adhuc, Quidam Grecus expositor
+<lb ed="#Be" n="13"/>dicit super illud Apostoli : Sic tamen
+<lb ed="#Be" n="14"/>quasi per ignem,etc.*. <quote xml:id="alalal-h85131-Qd1e381"> Huncignem 
+cre<lb break="no" ed="#Be" n="15"/>dimus esse xz§zg:dt1v, id est, 
+mundifica<lb break="no" ed="#Be" n="16"/>tionem, in quo defunctorum anima 
+pro<lb break="no" ed="#Be" n="17"/>bantur tamquam aurum in fornace. </quote>
+               <lb ed="#Be" n="18"/>Ex hoc accipitur, quod ignis 
+purgato<lb break="no" ed="#Be" n="19"/>rius est port mortem.
+</p>
+            <p xml:id="alalal-h85131-d1e396">
+               <lb ed="#Be" n="20"/>4. Adhuc, <name xml:id="alalal-h85131-Nd1e400">Anselmus</name> in libro, Cur
+<lb ed="#Be" n="21"/>Deus homo: <quote xml:id="alalal-h85131-Qd1e404"> Impossibile est animam
+<lb ed="#Be" n="22"/>coinquinatam paradisum intrare : </quote> sed,
+<lb ed="#Be" n="23"/>ut supra probatum est, multi moriuntur
+<lb ed="#Be" n="24"/>coinquinati veniali peccato : ergo 
+ne<lb break="no" ed="#Be" n="25"/>cesse est esse locum in quo purgentur :
+<lb ed="#Be" n="26"/>et illum vocamus purgatorium.
+</p>
+            <p xml:id="alalal-h85131-d1e419">
+               <lb ed="#Be" n="27"/>5. Ad idem objcitur per rationem :
+<lb ed="#Be" n="28"/>Tn U Ethicorum : <quote xml:id="alalal-h85131-Qd1e425"> Peccatorum civilium
+<lb ed="#Be" n="29"/>duo sunt genera poenarum, scilicet 
+in<lb break="no" ed="#Be" n="30"/>crepationes actuum civilitatis, et 
+con<lb break="no" ed="#Be" n="31"/>demnationes perpetue : </quote> ergo videtur,
+<lb ed="#Be" n="32"/>quod. similiter sint in judicio divino :
+<lb ed="#Be" n="33"/>ergo aliqui judicabuntur et punientur
+<lb ed="#Be" n="34"/>levi poena cum restitutione, et alii 
+perpe<lb break="no" ed="#Be" n="35"/>tuo condemnabuntur : sed talem modum
+<lb ed="#Be" n="36"/>punitionis qui est cum restitutione post
+<lb ed="#Be" n="37"/>poenitentiam, vocamus purgatorium :
+<lb ed="#Be" n="38"/>ergo videtur, quod purgatorium sit.
+</p>
+            <p xml:id="alalal-h85131-d1e450">
+               <lb ed="#Be" n="39"/>6. Adhuc, Duo sunt habitus 
+perficien<lb break="no" ed="#Be" n="40"/>tes naturam, scilicet gratia, et gloria :
+<lb ed="#Be" n="41"/>sed differenter : quia gratia compatitur
+<lb ed="#Be" n="42"/>dispositionem ad oppositum, gloria 
+au<lb break="no" ed="#Be" n="43"/>tem non : sed constat ex predictis, quod
+<lb ed="#Be" n="44"/>aliqui a vita ista recedunt cum pravis
+<lb ed="#Be" n="45"/>dispositionibus : ergo necesse est ut isti
+<lb ed="#Be" n="46"/>purgentur, antequam induant. habitum
+<lb ed="#Be" n="47"/>glorie : sed locum purgationis vocamus
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="48"/>purgatorium : ergo videtur, quod 
+pur<lb break="no" ed="#Be" n="49"/>gatorius sit.
+</p>
+            <p xml:id="alalal-h85131-d1e480">
+               <lb ed="#Be" n="50"/>7. Adhuc, In omni natura videmus,
+<lb ed="#Be" n="51"/>quod antequam inducatur ultima 
+perfe<lb break="no" ed="#Be" n="52"/>ctio, oportet purgari subjectum a 
+con<lb break="no" ed="#Be" n="53"/>trariis dispositionibus : ergo cum purior
+<lb ed="#Be" n="54"/>sit glorie forma, quam aliqua natura-s
+<lb ed="#Be" n="55"/>lis forma, oportet similiter purgari sub- .
+<lb ed="#Be" n="56"/>jectum ante illam. Constat aulem ex
+<lb ed="#Be" n="57"/>prehabitis, quod tales dispositiones post
+<lb ed="#Be" n="58"/>mortem in multis animabus 
+inveniun<lb break="no" ed="#Be" n="59"/>tur : ergo necesse eérit eas purgari 
+ante<lb break="no" ed="#Be" n="60"/>quam glorificentur.
+</p>
+            <p xml:id="alalal-h85131-d1e506">
+               <lb ed="#Be" n="61"/>8. Adhuc, In medicinalibus ante 
+indu<lb break="no" ed="#Be" n="62"/>clionem sanitatis, necesse est purgari
+<lb ed="#Be" n="63"/>naturam ab humoribus corruptis : sed
+<lb ed="#Be" n="64"/>in ethicis vitia humoribus 
+proportionan<lb break="no" ed="#Be" n="65"/>tur: ergo etiam in illis necesse est 
+pra<lb break="no" ed="#Be" n="66"/>cedere purgationes ad sanitatem 
+perfe<lb break="no" ed="#Be" n="67"/>ctam ; sed sanitas perfecta est secundum
+<lb ed="#Be" n="68"/>gloriam tantum, quae excludit culpam et
+<lb ed="#Be" n="69"/>peenam : ergo uecesse est post mortem
+<lb ed="#Be" n="70"/>purgationem fieri ante gloriae 
+inductio<lb break="no" ed="#Be" n="71"/>nem.
+</p>
+            <p xml:id="alalal-h85131-d1e532">
+               <lb ed="#Be" n="72"/>Resronsio. Dicendum, quod omnibus
+<lb ed="#Be" n="73"/>modis necesse est secundum omnem 
+ra<lb break="no" ed="#Be" n="74"/>tionem et fidem, quod purgatorius sit.
+<lb ed="#Be" n="75"/>Rationes hic principales sunt morales:
+<lb ed="#Be" n="76"/>et constat, quod secundum illas 
+compe<lb break="no" ed="#Be" n="77"/>tit esse purgatorium. —
+</p>
+            <p xml:id="alalal-h85131-d1e548">
+               <lb ed="#Be" n="78"/>Praeterea, Sancti expresse dicunt :
+<lb ed="#Be" n="79"/>ideo heresis est negare.
+</p>
+            <p xml:id="alalal-h85131-d1e555">
+               <lb ed="#Be" n="80"/>Ad DuBITATIONEM igitur Augustini, 
+di<lb break="no" ed="#Be" n="81"/>cendum quod ipse non dubitavit quin sit :
+<lb ed="#Be" n="82"/>sed dubitavit, utrum hoc intellexit 
+Apo<lb break="no" ed="#Be" n="83"/>stolus quod dicit. Quod enim non dubites
+<lb ed="#Be" n="84"/>esse purgatorium, patet per multa sua 
+ver<lb break="no" ed="#Be" n="85"/>ba quae hic in pracedenti distinctione
+<lb ed="#Be" n="86"/>ponuntur.
+</p>
+            <p xml:id="alalal-h85131-d1e573">
+               <lb ed="#Be" n="87"/>Eodem modo dicendum ad. 
+dubitatio<lb break="no" ed="#Be" n="88"/>nem aliorum Sanctorum: talis enim 
+du<lb break="no" ed="#Be" n="89"/>bitatio est boni et humilis Expositoris,
+<lb ed="#Be" n="90"/>qui quantumcumque bene et divine 
+expo<lb break="no" ed="#Be" n="91"/>nat, non presumit hoc esse intellectum —
+<lb ed="#Be" n="92"/>divini eloquii, quem auctor Spiritu sancto
+<lb ed="#Be" n="93"/>inspiratus intendit.
+</p>
+            <p xml:id="alalal-h85131-d1e592">
+               <pb ed="#Be" n="867"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Ad aliud dicendum, quod non est 
+si<lb break="no" ed="#Be" n="2"/>mile de charitate conjuncta cum malo 
+ve<lb break="no" ed="#Be" n="3"/>niali, et de mortali conjuncto cum bono
+<lb ed="#Be" n="4"/>in genere: quia malum veniale cum 
+cha<lb break="no" ed="#Be" n="5"/>ritate, est in esse mali, et disponit ad
+<lb ed="#Be" n="6"/>contrarium charitati: sed id quod est de
+<lb ed="#Be" n="7"/>genere bonorum cum mortali, non est in
+<lb ed="#Be" n="8"/>esse boni, sed potius mortuum, nullam
+<lb ed="#Be" n="9"/>habens efficaciam adaliud bonum post
+<lb ed="#Be" n="10"/>mortem. Et ideo non sequitur, si 
+pecca<lb break="no" ed="#Be" n="11"/>tum mortale statim damnat non 
+impe<lb break="no" ed="#Be" n="12"/>dientibus operibus de genere bonorum,
+<lb ed="#Be" n="13"/>quod statim salvat charitas non 
+impe<lb break="no" ed="#Be" n="14"/>dientibus venialibus.
+</p>
+            <p xml:id="alalal-h85131-d1e629">
+               <lb ed="#Be" n="15"/>Ad Auiup dicendum, quod charitas 
+ma<lb break="no" ed="#Be" n="16"/>joris efficacia est. ad salvandum, quam
+<lb ed="#Be" n="17"/>mortale peccatum ad condemnandum :
+<lb ed="#Be" n="18"/>sed ex hoc non sequitur, quod citius 
+sal<lb break="no" ed="#Be" n="19"/>vet, quam illud damnet, non obstantibus
+<lb ed="#Be" n="20"/>bonis et malis sibi conjunctis, sed quod
+<lb ed="#Be" n="21"/>plenius salvat, et a pluribus liberat: et
+<lb ed="#Be" n="22"/>hoe verum est, quia liberat ab omni 
+pec<lb break="no" ed="#Be" n="23"/>cato una charitas, et ab omni poena: quod
+<lb ed="#Be" n="24"/>non facit peccatum unum respectu 
+pcena<lb break="no" ed="#Be" n="25"/>rum. Similiter confert omnem virtutem,
+<lb ed="#Be" n="26"/>et gloriam secundum quamlibet 
+virtu<lb break="no" ed="#Be" n="27"/>tem: sed nullum peccatum unum confert
+<lb ed="#Be" n="28"/>omne peccatum, et condemnari 
+secun<lb break="no" ed="#Be" n="29"/>dum guodlibet genus peccatorum. 
+In<lb break="no" ed="#Be" n="30"/>stantia autem’ est ad argumenta, quod
+<lb ed="#Be" n="31"/>omnis forma artis et nature fortior est
+<lb ed="#Be" n="32"/>ad perficiendum, quam corruptio ad 
+de<lb break="no" ed="#Be" n="33"/>struendum : ettamen citius destruitur res,
+<lb ed="#Be" n="34"/>quam generetur et perficiatur.
+</p>
+            <p xml:id="alalal-h85131-d1e675">
+               <lb ed="#Be" n="35"/>Ad aliud dicendum, quod illa quae in
+<lb ed="#Be" n="36"/>divisione ponuntur, non sunt vera.
+</p>
+            <p xml:id="alalal-h85131-d1e682">
+               <lb ed="#Be" n="37"/>Ad primam autem objectionem super
+<lb ed="#Be" n="38"/>divisionem illam, dicendum quod non
+<lb ed="#Be" n="39"/>sequitur quod infertur: quia malum 
+ve<lb break="no" ed="#Be" n="40"/>niale et bonum de genere bonorum non
+<lb ed="#Be" n="41"/>opponuntur: quia malum veniale non est
+<lb ed="#Be" n="42"/>malum in genere quod bene possit aliqua
+<lb ed="#Be" n="43"/>circumstantia fieri, et tamen bonum in
+<lb ed="#Be" n="44"/>genere sive de genere bonorum, potest
+<lb ed="#Be" n="45"/>male fieri aliqua circumstantia.
+</p>
+            <p xml:id="alalal-h85131-d1e704">
+               <lb ed="#Be" n="46"/>Item, Sicut in primo libro Sententia-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="47"/>rum dictum est, bonum in genere est 
+im<lb break="no" ed="#Be" n="48"/>perfectum secundum esse boni: sed 
+ma<lb break="no" ed="#Be" n="49"/>lum veniale species est in esse mali: et
+<lb ed="#Be" n="50"/>ideo non sequitur, si illud non habet 
+pre<lb break="no" ed="#Be" n="51"/>mium, quod istud non habeat poenam:
+<lb ed="#Be" n="52"/>nec est una proportio in omnibus quae
+<lb ed="#Be" n="53"/>dicit, quod sicut se habet tale bonum ad
+<lb ed="#Be" n="54"/>premium, ita se habet tale malum ad
+<lb ed="#Be" n="55"/>penam. . ;
+</p>
+            <p xml:id="alalal-h85131-d1e730">
+               <lb ed="#Be" n="56"/>Ad Atiup dicendum, quod utraque 
+pro<lb break="no" ed="#Be" n="57"/>portio falsa est, vel universalis non est:
+<lb ed="#Be" n="58"/>non enim est verum, quod sicut se habent
+<lb ed="#Be" n="59"/>mortale et veniale simul ad poenam 
+eter<lb break="no" ed="#Be" n="60"/>nam et temporalem, ita se habeat 
+cha<lb break="no" ed="#Be" n="61"/>ritas et id quod est de genere bonorum ad
+<lb ed="#Be" n="62"/>premium aeternum et temporale simul:
+<lb ed="#Be" n="63"/>veniali enim conjuncto cum mortali, 
+de<lb break="no" ed="#Be" n="64"/>betur aeterna poena: et tamen nihil est
+<lb ed="#Be" n="65"/>dictum, quod operi de genere bonorum
+<lb ed="#Be" n="66"/>conjuncto cum charitate debetur aeternum
+<lb ed="#Be" n="67"/>premium. Si autem illa proportio aliquo
+<lb ed="#Be" n="68"/>modo concedatur, secunda nihil valet,
+<lb ed="#Be" n="69"/>scilicet quod sicut se habet mortale cum
+<lb ed="#Be" n="70"/>opere de genere bonorum ad poenam et
+<lb ed="#Be" n="71"/>premium temporale, ita se habet charitas
+<lb ed="#Be" n="72"/>cum veniali ad poenam et premium 
+ater<lb break="no" ed="#Be" n="73"/>num. Et ratio hujus assignata est supra:
+<lb ed="#Be" n="74"/>quia veniale conjunctum charitati, adhuc
+<lb ed="#Be" n="75"/>remanet in esse mali et peccati habens
+<lb ed="#Be" n="76"/>rationem : sed opus de. genere bonorum
+<lb ed="#Be" n="77"/>cum mortali non remanet in esse boni,
+<lb ed="#Be" n="78"/>et habens rationem remunerabilis: et si
+<lb ed="#Be" n="79"/>remuneretur, hoc est ex misericordia, et
+<lb ed="#Be" n="80"/>non ex condigno: ideo non sequitur, si
+<lb ed="#Be" n="81"/>illinulla est coordinata remuneratio ante
+<lb ed="#Be" n="82"/>poenae condemnationem, quod illi nulla
+<lb ed="#Be" n="83"/>ordinatur poena purgatoria ante aeternam
+<lb ed="#Be" n="84"/>preminationem. .
+</p>
+            <p xml:id="alalal-h85131-d1e796">
+               <lb ed="#Be" n="85"/>Ad aliud dicendum, quod. verum est,
+<lb ed="#Be" n="86"/>quod Deus post mortem nullum 
+remune<lb break="no" ed="#Be" n="87"/>rat nisi similem sibi. per charitatem, et
+<lb ed="#Be" n="88"/>nullum condemnat nisi ase aversum ét
+<lb ed="#Be" n="89"/>se odientem : sed non sequitur, non 
+con<lb break="no" ed="#Be" n="90"/>demnat: ergo non punit purgando :- quia
+<lb ed="#Be" n="91"/>nullus eorum qui purgantur, 
+condemna<lb break="no" ed="#Be" n="92"/>bitur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

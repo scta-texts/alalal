@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="472"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c88610"><!-- l1d48dt -->
+            <head xml:id="alalal-c88610-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-c88610-d1e101">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="11"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-c88610-d1e108">
+               <lb ed="#Bb" n="12"/>
+               <quote xml:id="alalal-c88610-Qd1e112"> Sciendum quoque est, quod 
+aliquan<lb break="no" ed="#Bb" n="13"/>do mala est voluntas hominis idem 
+vo<lb break="no" ed="#Bb" n="14"/>lentis, etc. </quote>
+               <lb ed="#Bb" n="15"/>In hac ultima distinctione agit de 
+con<lb break="no" ed="#Bb" n="16"/>formitate nostrae voluntatis ad 
+volunta<lb break="no" ed="#Bb" n="17"/>tem divinam. .
+</p>
+            <p xml:id="alalal-c88610-d1e126">
+               <lb ed="#Bb" n="18"/>Et dividitur in tres partes : in quarum
+<lb ed="#Bb" n="19"/>prima Magister tangit medum 
+conformi<lb break="no" ed="#Bb" n="20"/>tatis in genere. In secunda autem 
+mo<lb break="no" ed="#Bb" n="21"/>dum conformitatis in passione Christi,
+<lb ed="#Bb" n="22"/>ibi, B, <quote xml:id="alalal-c88610-Qd1e139"> Wlud quoque non est preter-
+<lb ed="#Bb" n="23"/>mittendum, quod aliquando voluntas
+<lb ed="#Bb" n="24"/>Dei, etc. </quote> In tertia autem ostendit 
+qua<lb break="no" ed="#Bb" n="25"/>liter nos debeamus habere in passionibus
+<lb ed="#Bb" n="26"/>Sanctorum, quas vult Deus, ibi, E, <quote xml:id="alalal-c88610-Qd1e150"> Si
+<lb ed="#Bb" n="27"/>vero queritur, Utrum eodem modo 
+sen<lb break="no" ed="#Bb" n="28"/>tiendum sit de passionibus et martyriis
+<lb ed="#Bb" n="29"/>Sanctorum ?</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

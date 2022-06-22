@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 34</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 34</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="706"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h52182"><!-- l4d17a34 -->
+            <head xml:id="alalal-h52182-Hd1e99">Articulus 34</head>
+            <head xml:id="alalal-h52182-Hd1e101" type="question-title">An recognoscens peccata sua potest 
+aljquid adversus proximum in corde suo
+tenere ?</head>
+            <p xml:id="alalal-h52182-d1e104">
+               <lb ed="#Be" n="45"/>ARTICULUS XXXIV.
+<lb ed="#Be" n="46"/>An recognoscens peccata sua potest 
+alj<lb break="no" ed="#Be" n="47"/>quid adversus proximum in corde suo
+<lb ed="#Be" n="48"/>tenere ?
+</p>
+            <p xml:id="alalal-h52182-d1e115">
+               <lb ed="#Be" n="49"/>Deinde queritur de hoc quod dicit, ibi,
+<lb ed="#Be" n="50"/>C, circa medium : <quote xml:id="alalal-h52182-Qd1e121"> Si habueris peccata
+<lb ed="#Be" n="51"/>tua in mente, etc.</quote> :
+</p>
+            <p xml:id="alalal-h52182-d1e127">
+               <lb ed="#Be" n="52"/>Videtur enim hoc non esse 
+necessa<lb break="no" ed="#Be" n="53"/>rium : multos enim videmus sua mala
+<lb ed="#Be" n="54"/>recognoscere, qui tamen proximo non
+<lb ed="#Be" n="55"/>indulgent, et multa mala recogitant.
+</p>
+            <p xml:id="alalal-h52182-d1e139">
+               <lb ed="#Be" n="56"/>Resronsio. Dicendum, quod intelligi- s
+<lb ed="#Be" n="57"/>tur de tentione in memoria cum 
+detesta<lb break="no" ed="#Be" n="58"/>tione perfecta : qui enim peccatum 
+me<lb break="no" ed="#Be" n="59"/>moratum perfecte detestatur, sicut facit
+<lb ed="#Be" n="60"/>vere poenitens, non multiplicat suum
+<lb ed="#Be" n="61"/>peccatum, malum proximo cogitando.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

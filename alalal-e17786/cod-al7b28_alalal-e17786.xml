@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="89"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e17786"><!-- l3d4a10 -->
+            <head xml:id="alalal-e17786-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-e17786-Hd1e101" type="question-title">An Verbo potest dici humana natura
+concreta? et, An Verbum 
+corporaliter divina gratia fuerit repletum ?</head>
+            <p xml:id="alalal-e17786-d1e104">
+               <lb ed="Bd" n="4"/>ARTICULUS X.
+<lb ed="Bd" n="5"/>An Verbo potest dici humana natura
+<lb ed="Bd" n="6"/>concreta? et, An Verbum 
+corporali<lb break="no" ed="Bd" n="7"/>ter divina gratia fuerit repletum ?
+</p>
+            <p xml:id="alalal-e17786-d1e115">
+               <lb ed="Bd" n="8"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="9"/>ibi, B, § 3 in fine: <quote xml:id="alalal-e17786-Qd1e121"> Homo... ineffabile
+<lb ed="Bd" n="10"/>modo Verbo Dei est adjunctus atque
+<lb ed="Bd" n="11"/>connerus, etc. </quote>
+            </p>
+            <p xml:id="alalal-e17786-d1e129">
+               <lb ed="Bd" n="12"/>Videtur autem, quod non concretus :
+<lb ed="Bd" n="13"/>quia
+<lb ed="Bd" n="14"/>1. Concretum denominat subjectum
+<lb ed="Bd" n="15"/>ut accidens : unde videtur, quod alia
+<lb ed="Bd" n="16"/>istarum naturarum vergit in accidens.
+</p>
+            <p xml:id="alalal-e17786-d1e143">
+               <lb ed="Bd" n="17"/>2. Praeterea, Queritur de hoc quod
+<lb ed="Bd" n="18"/>dicitur, corporaliter repletus : quia 
+cor<lb break="no" ed="Bd" n="19"/>pus non est proprium subjectum divine
+<lb ed="Bd" n="20"/>gratiae : ergo Christus divina gratia non
+<lb ed="Bd" n="21"/>est corporaliter repletus.
+</p>
+            <p xml:id="alalal-e17786-d1e156">
+               <lb ed="Bd" n="22"/>Solutio Quidam dixerunt, quod 
+hu<lb break="no" ed="Bd" n="23"/>mana natura in Christo vergit in 
+acci<lb break="no" ed="Bd" n="24"/>dens : et ideo non facit in eo 
+personali<lb break="no" ed="Bd" n="25"/>iatem, nec personam. Sed ego non 
+au<lb break="no" ed="Bd" n="26"/>deo hoc dicere : tamen infra de hoc 
+tra<lb break="no" ed="Bd" n="27"/>ctabitur. Sed hic dicendum, quod 
+concre<lb break="no" ed="Bd" n="28"/>tus capitur improprie pro unitus : et sic
+<lb ed="Bd" n="29"/>cessat objectio.
+</p>
+            <p xml:id="alalal-e17786-d1e176">
+               <lb ed="Bd" n="30"/>Av ariup dicendum, quod corporaliter
+<lb ed="Bd" n="31"/>replert dicitur quoad gratiam unionis:
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="32"/>unio enim est ad corpus et ad animam.
+<lb ed="Bd" n="33"/>Licet ergo non sit subjectum corpus gra~
+<lb ed="Bd" n="34"/>tiae in qua sunt habitus virtutum, 
+ta<lb break="no" ed="Bd" n="35"/>men corpus Christi deitali unitum potest
+<lb ed="Bd" n="36"/>dici subjectum divine gratie: quia in
+<lb ed="Bd" n="37"/>ipso, ut dicit Apostolus, plenitudo deitatis
+<lb ed="Bd" n="38"/>habitavit corporaliter :,
+</p>
+            <p xml:id="alalal-e17786-d1e200">
+               <lb ed="Bd" n="39"/>Alii tamen voluerunt subtilius dicere,
+<lb ed="Bd" n="40"/>et minus ad propositum, dicentes quod
+<lb ed="Bd" n="41"/>sunt tres dimensiones gratia divine :
+<lb ed="Bd" n="42"/>quarum una est simplicitatis Dei, gratia
+<lb ed="Bd" n="43"/>cujus Deus est in omnibus, attingens a
+<lb ed="Bd" n="44"/>fine usque ad finem fortiter, et 
+dispo<lb break="no" ed="Bd" n="45"/>nens omnia suaviter, quasi protensione
+<lb ed="Bd" n="46"/>a puncto principii primi usque ad 
+ulti<lb break="no" ed="Bd" n="47"/>mum punctum creature novissime, 
+se<lb break="no" ed="Bd" n="48"/>cundum quod Deus est in omnibus 
+es<lb break="no" ed="Bd" n="49"/>sentialiter, presentialiter, et 
+potentiali<lb break="no" ed="Bd" n="50"/>ter : et ista est dimensio longitudinis
+<lb ed="Bd" n="51"/>per modum longitudinis per omnes 
+gra<lb break="no" ed="Bd" n="52"/>dus entium. Est autem dimensio per
+<lb ed="Bd" n="53"/>modum latitudinis, sed in longitudine
+<lb ed="Bd" n="54"/>magis contracta, secundum quam Deus
+<lb ed="Bd" n="55"/>per charitatem et gratiam inhabitatin
+<lb ed="Bd" n="56"/>Sanctis, de qua inhabitatione dicitur :
+<lb ed="Bd" n="57"/>Latum mandatum tuum nimis’. Tertio
+<lb ed="Bd" n="58"/>modo conjungit duos priores in Christo,
+<lb ed="Bd" n="59"/>et adjungit profundum soliditatis gratie
+<lb ed="Bd" n="60"/>unionis im esse persone: et sic quasi
+<lb ed="Bd" n="61"/>trina dimensione inhabitat in Christo,
+<lb ed="Bd" n="62"/>bina in Sanctis, et una in omnibus.
+</p>
+            <p xml:id="alalal-e17786-d1e255">
+               <lb ed="Bd" n="63"/>Alii exponunt, quod corporaliter 
+dici<lb break="no" ed="Bd" n="64"/>tur hic figurative : quia umbra non est
+<lb ed="Bd" n="65"/>nisi ex objecto alicujus corporis quod
+<lb ed="Bd" n="66"/>stat’ ante lucem: unde in umbra hujus
+<lb ed="Bd" n="67"/>gralie Patres fuerunt : corpus aulem
+<lb ed="Bd" n="68"/>veritatis gratiae Christus : sed redemptio
+<lb ed="Bd" n="69"/>sequens est lumen.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

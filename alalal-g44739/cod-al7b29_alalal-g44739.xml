@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="224"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g44739"><!-- l4d9a7 -->
+            <head xml:id="alalal-g44739-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-g44739-Hd1e101" type="question-title">An mali accedentes, aliquid accipiant
+corporis Chrisit ? et, Quomodo maneat
+in tpsis corpus Christi ?</head>
+            <p xml:id="alalal-g44739-d1e104">
+               <lb ed="#Be" n="30"/>ARTICULUS VII.
+<lb ed="#Be" n="31"/>An mali accedentes, aliquid accipiant
+<lb ed="#Be" n="32"/>corporis Chrisit ? et, Quomodo maneat
+<lb ed="#Be" n="33"/>in tpsis corpus Christi ?
+</p>
+            <p xml:id="alalal-g44739-d1e115">
+               <lb ed="#Be" n="34"/>Ad primum autem horum objicitur sic:
+<lb ed="#Be" n="35"/>i. Major est disconvenientia Christi ad
+<lb ed="#Be" n="36"/>peccatum, quam ad corpus: sed non
+<lb ed="#Be" n="37"/>transit in corpus, ut habitum est supra :
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="38"/>ergo non transil in animam peccatricem:
+<lb ed="#Be" n="39"/>ergo nihil percipit in sacramento: quia
+<lb ed="#Be" n="40"/>statim evolat, ut dicunt quidam.
+</p>
+            <p xml:id="alalal-g44739-d1e135">
+               <lb ed="#Be" n="41"/>2. Item, Sapient. 1,5: <quote xml:id="alalal-g44739-Qd1e139">Spiritus 
+san<lb break="no" ed="#Be" n="42"/>ctus discipline effugiet fictum</quote> : non est
+<lb ed="#Be" n="43"/>autem minoris sanctitatis Christus quam
+<lb ed="#Be" n="44"/>Spiritus sanctus : ergo etiam Christus
+<lb ed="#Be" n="45"/>effugiet eum : ergo malus nihil percipit
+<lb ed="#Be" n="46"/>de Christo in sacramento.
+</p>
+            <p xml:id="alalal-g44739-d1e155">
+               <lb ed="#Be" n="47"/>3. Item, Sapient. 1, 4: <quote xml:id="alalal-g44739-Qd1e159">In malevolam
+<lb ed="#Be" n="48"/>animam non introibit sapientia, nec 
+ha<lb break="no" ed="#Be" n="49"/>bitabit in corpore subdito peccatis</quote>. Ergo
+<lb ed="#Be" n="50"/>nec in corpore nec in anima peccatoris
+<lb ed="#Be" n="51"/>remanet Christus: ergo discedit ab 
+utro<lb break="no" ed="#Be" n="52"/>que: ergo nihil percipit quando accedit.
+</p>
+            <p xml:id="alalal-g44739-d1e173">
+               <lb ed="#Be" n="53"/>4. Item, Res hujus sacramenti excedit
+<lb ed="#Be" n="54"/>rem aliorum sacramentorum, ut dicitur
+<lb ed="#Be" n="55"/>in Littera, quia hic totus Christus sumitur
+<lb ed="#Be" n="56"/>et in aliis sacramentis percipitur secun—
+<lb ed="#Be" n="57"/>dum effectum gratie: ergo minus 
+vide<lb break="no" ed="#Be" n="58"/>tur, quod res aliorum sacramentorum
+<lb ed="#Be" n="59"/>discedant a peccatore, quam res hujus
+<lb ed="#Be" n="60"/>sacramenti: et discedunt, quia nihil de
+<lb ed="#Be" n="61"/>re aliorum sacramentorum percipit : ergo
+<lb ed="#Be" n="62"/>et ab isto discedit: ergo nihil percipitur
+<lb ed="#Be" n="63"/>a malis nisi tantum species exterior.
+</p>
+            <p xml:id="alalal-g44739-d1e199">
+               <lb ed="#Be" n="64"/>3. Item, Indecens et nocivum non est
+<lb ed="#Be" n="65"/>opus sapientis : sed indecens est 
+sapien<lb break="no" ed="#Be" n="66"/>tem esse in loco non competenti sibi: 
+er<lb break="no" ed="#Be" n="67"/>go et nocivum si presentia sua nocet et
+<lb ed="#Be" n="68"/>non prodest: si ergo hoc non facit 
+sa<lb break="no" ed="#Be" n="69"/>piens, multo minus facit haec 
+sapientis<lb break="no" ed="#Be" n="70"/>simus Dominus Jesus Christus: sed 
+in<lb break="no" ed="#Be" n="71"/>decentissimus locus est peccator, et 
+ite<lb break="no" ed="#Be" n="72"/>rum presentia sua noceret ei qui 
+perci<lb break="no" ed="#Be" n="73"/>pit: ergo videtur, quod subtrahit se, et
+<lb ed="#Be" n="74"/>non percipitur a peccatore.
+</p>
+            <p xml:id="alalal-g44739-d1e225">
+               <lb ed="#Be" n="75"/>6. Item, Quod datum est ad peccati
+<lb ed="#Be" n="76"/>deletionem, non debet augere peccatum :
+<lb ed="#Be" n="77"/>perceptio autem Christi in sacramento ad
+<lb ed="#Be" n="78"/>deletionem peccati inventa est: ergo non
+<lb ed="#Be" n="79"/>augebit : augeret autem si maneret: ergo
+<lb ed="#Be" n="80"/>videtur, quod Christus in speciebus non
+<lb ed="#Be" n="81"/>manet quando percipiuntur a peccatore.
+</p>
+            <p xml:id="alalal-g44739-d1e243">
+               <lb ed="#Be" n="82"/>7. Item, Minor est disconvenientia
+<lb ed="#Be" n="83"/>Christi ad creaturam irrationalem quam
+<lb ed="#Be" n="84"/>ipse creavit, quam ad peccatorem: sed
+<lb ed="#Be" n="85"/>non dicimus, quod brutum percipiat 
+ip<lb break="no" ed="#Be" n="86"/>sum in sacramento: ergo multo minus
+<pb ed="#Be" n="225"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>percipit ipsum in sacramento peccator.
+</p>
+            <p xml:id="alalal-g44739-d1e263">
+               <lb ed="#Be" n="2"/>8. Item, Psal. xurx, 16: <quote xml:id="alalal-g44739-Qd1e267">Pececatori 
+au<lb break="no" ed="#Be" n="3"/>tenet dixit Deus: Quare tu enarras 
+ju<lb break="no" ed="#Be" n="4"/>stitias meas? et assumis testamentum
+<lb ed="#Be" n="5"/>meum per os tuum?</quote> Sed minor est laus
+<lb ed="#Be" n="6"/>Ohristi quam ipse Christus. Si ergo 
+au<lb break="no" ed="#Be" n="7"/>fert laudem suam ab ore peccatoris, 
+mul<lb break="no" ed="#Be" n="8"/>to magis aufert seipsum.
+</p>
+            <p xml:id="alalal-g44739-d1e284">
+               <lb ed="#Be" n="9"/>9. Item, Exod. xvi, 20, dicitur, quod
+<lb ed="#Be" n="10"/>qui contra preceptum Domini die non
+<lb ed="#Be" n="11"/>debita, vel quantitate non debita, collegit
+<lb ed="#Be" n="12"/>manna, quod computruit et scaturivit
+<lb ed="#Be" n="13"/>vermibus : ergo multo magis hoc erit
+<lb ed="#Be" n="14"/>verum de sacramento Kucharistiae, quod
+<lb ed="#Be" n="15"/>incomparabiliter majoris sanctitatis est -
+<lb ed="#Be" n="16"/>ergo accipiens indigne, nihil accepit: 
+sic<lb break="no" ed="#Be" n="17"/>uli accipiens putridum manna vel 
+sca<lb break="no" ed="#Be" n="18"/>tens vermibus, non accipiebat manna.
+</p>
+            <p xml:id="alalal-g44739-d1e308">
+               <lb ed="#Be" n="19"/>Verum iste rationes et consimiles 
+oc<lb break="no" ed="#Be" n="20"/>caslonaverunt errorem qui inducilur in
+<lb ed="#Be" n="21"/>Littera, et auctoritates quas Magister
+<lb ed="#Be" n="22"/>apponit et exponit.
+</p>
+            <p xml:id="alalal-g44739-d1e319">
+               <lb ed="#Be" n="23"/>SED CONTRA :
+<lb ed="#Be" n="24"/>i. Dicit Hugo, quod quamdiu sensus
+<lb ed="#Be" n="25"/>corporalis aflicitur, presentia corporalis
+<lb ed="#Be" n="26"/>non tollitur : sed in ore peccatoris sensus
+<lb ed="#Be" n="27"/>corporalis afficitur manentibus speciebus:
+<lb ed="#Be" n="28"/>ergo non tollitur presentia corporalis.
+</p>
+            <p xml:id="alalal-g44739-d1e335">
+               <lb ed="#Be" n="29"/>2. Item, Si peccatum percipientis fugit
+<lb ed="#Be" n="30"/>Deus, tunc multo magis peccatum fugit
+<lb ed="#Be" n="31"/>conficientis et consecrantis : ergo 
+secun<lb break="no" ed="#Be" n="32"/>dum hoc mali sacerdotes non possent
+<lb ed="#Be" n="33"/>conficere corpus Christi, quod est faisum.
+</p>
+            <p xml:id="alalal-g44739-d1e348">
+               <lb ed="#Be" n="34"/>3. Item, Cum nemo sciat, utrum odio
+<lb ed="#Be" n="35"/>vel amore dignus sit!, nemo sciret 
+se<lb break="no" ed="#Be" n="36"/>cundum hoc, ulrum perciperet 
+sacramen<lb break="no" ed="#Be" n="37"/>ium vel non: et sic generaretur maxima
+<lb ed="#Be" n="38"/>dubitatio circa id quod precipuum est in
+<lb ed="#Be" n="39"/>fide, quod stultum est dicere.
+</p>
+            <p xml:id="alalal-g44739-d1e364">
+               <lb ed="#Be" n="40"/>4. ITem, Quae esset ratio, quod 
+recede<lb break="no" ed="#Be" n="41"/>ret? peccatum enim percipientis non 
+in<lb break="no" ed="#Be" n="42"/>dit in Christum, et non est alia causa:
+<lb ed="#Be" n="43"/>ergo non evolata speciebus, ut quidam
+<lb ed="#Be" n="44"/>minus caute dixerunt quandoque.
+</p>
+            <p xml:id="alalal-g44739-d1e378">
+               <lb ed="#Be" n="45"/>Sorurice. Albsque omni ambiguitate 
+te<lb break="no" ed="#Be" n="46"/>nendum et sentiendum est, quod mali
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="47"/>accipiunt in sacramento verum corpus
+<lb ed="#Be" n="48"/>Christi, quod de Virgine traxit, et quod
+<lb ed="#Be" n="49"/>in cruce pependit, et non evolat nisi
+<lb ed="#Be" n="50"/>quande de speciebus panis et vini nihil
+<lb ed="#Be" n="51"/>amplius manet, sed quando totum 
+trans<lb break="no" ed="#Be" n="52"/>ivit in alium humorem guod erat in
+<lb ed="#Be" n="53"/>speciebus, scilicet color, sapor, quantitas.
+<lb ed="#Be" n="54"/>et sic de aliis : tunc enim sensus qui 
+spe<lb break="no" ed="#Be" n="55"/>ciebus afficiebatur, desinit, et tunc 
+pra<lb break="no" ed="#Be" n="56"/>sentia corporalis desinit, ut dicit Hugo.
+</p>
+            <p xml:id="alalal-g44739-d1e409">
+               <lb ed="#Be" n="57"/>Ad primum ergo dicendum, quod 
+Chri<lb break="no" ed="#Be" n="58"/>stus non transit a corpore percipientis,
+<lb ed="#Be" n="59"/>sed non transit in corpus. Aliud enim est
+<lb ed="#Be" n="60"/>a corpore, et aliud in corpus transire : et
+<lb ed="#Be" n="61"/>bene coneedo, quod non transit in 
+ani<lb break="no" ed="#Be" n="62"/>mam per gratiam, tamen habetur 
+pre<lb break="no" ed="#Be" n="63"/>sentia sui in sacramento: quamdiu 
+spe<lb break="no" ed="#Be" n="64"/>cies sacramentales sunt in corpore 
+perci<lb break="no" ed="#Be" n="65"/>pientis.
+</p>
+            <p xml:id="alalal-g44739-d1e431">
+               <lb ed="#Be" n="66"/>Ad aliud dicendum, quod Christus 
+ef<lb break="no" ed="#Be" n="67"/>fugit fictum quoad inhabitationem per
+<lb ed="#Be" n="68"/>gratiam, et ita intelligitur illud verbum :
+<lb ed="#Be" n="69"/>sed propter efficaciam sacramenti non
+<lb ed="#Be" n="70"/>effugit sacramentum in quocumque sit
+<lb ed="#Be" n="71"/>loco, quia sacramentum semper retinet
+<lb ed="#Be" n="72"/>propriam sanctitatem, et immunditia lo-
+<lb ed="#Be" n="73"/>clin quo est sacramentum, non abolet
+<lb ed="#Be" n="74"/>eam.
+</p>
+            <p xml:id="alalal-g44739-d1e453">
+               <lb ed="#Be" n="75"/>Ad aliud dicendum, quod hoc etiam
+<lb ed="#Be" n="76"/>intelligitur per inhabitantem gratiam, et
+<lb ed="#Be" n="77"/>non de recessu Christi a speciebus 
+sacra<lb break="no" ed="#Be" n="78"/>menti:
+</p>
+            <p xml:id="alalal-g44739-d1e464">
+               <lb ed="#Be" n="79"/>Ad aliud dicendum, quod res hujus
+<lb ed="#Be" n="80"/>sacramenti rem aliorum excedit : tamen
+<lb ed="#Be" n="81"/>non est simile : quia locus rei 
+sacramen<lb break="no" ed="#Be" n="82"/>torum aliorum est anima suscipientis :
+<lb ed="#Be" n="83"/>et ideo non fit res in anima habente 
+con<lb break="no" ed="#Be" n="84"/>trarietatem ad rem aliorum 
+sacramento<lb break="no" ed="#Be" n="85"/>rum: sed locus rei hujus sacramenti, non
+<lb ed="#Be" n="86"/>est in anima, sed potius species 
+sacra<lb break="no" ed="#Be" n="87"/>mentales: et ideo illis formis 
+manenti<lb break="no" ed="#Be" n="88"/>bus, ubicumque sint, est in eis Christus.
+<lb ed="#Be" n="89"/>Habet tamen hoc sacramentum etiam
+<lb ed="#Be" n="90"/>aliam rem, ut supra dictum est : et hee
+<lb ed="#Be" n="91"/>non est in peccatore, quia illa est gratia.
+</p>
+            <p xml:id="alalal-g44739-d1e495">
+               <lb ed="#Be" n="92"/>Ab autuo dicendum, quod illud non est
+<lb ed="#Be" n="93"/>indecens nec nocivum nisi per accidens:
+<pb ed="#Be" n="226"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>indecens non est: quia jam ostensum
+<lb ed="#Be" n="2"/>est, quod locus Christi non est anima 
+pec<lb break="no" ed="#Be" n="3"/>catoris, sed species sanctissimorum 
+sym<lb break="no" ed="#Be" n="4"/>bolorum in quibus percipitur Christus:
+<lb ed="#Be" n="5"/>quod autem species sit in hoc loco vel in
+<lb ed="#Be" n="6"/>illo, fit ab ordinatione usus sacramenti,
+<lb ed="#Be" n="7"/>qui presto est omnibus. Et in hoc 
+con<lb break="no" ed="#Be" n="8"/>sideratur magna benignitas Domini, 
+com<lb break="no" ed="#Be" n="9"/>muniter sacramentum suum omnibus
+<lb ed="#Be" n="10"/>concedentis ad usum. Quod autem nocet,
+<lb ed="#Be" n="11"/>hoc est per accidens, in quantum sibi 
+ali<lb break="no" ed="#Be" n="12"/>quis prestat causam nocumenti: sicut
+<lb ed="#Be" n="13"/>etiam est de cibo corporali, qui sumitur
+<lb ed="#Be" n="14"/>ad utilitatem : si autem sumpto cibo 
+su<lb break="no" ed="#Be" n="15"/>mat aliquid quod non permittit cibum
+<lb ed="#Be" n="16"/>digeri vel emitti, putrescit cibus, et 
+le<lb break="no" ed="#Be" n="17"/>ditur corpus.
+</p>
+            <p xml:id="alalal-g44739-d1e544">
+               <lb ed="#Be" n="18"/>Ad aliud dicendum, quod 
+sacramen<lb break="no" ed="#Be" n="19"/>tum dese semper valet contra peccatum :
+<lb ed="#Be" n="20"/>et si nocet, hoc est ex causa suscipientis,
+<lb ed="#Be" n="21"/>ut jam dictum est.
+</p>
+            <p xml:id="alalal-g44739-d1e555">
+               <lb ed="#Be" n="22"/>Ad aliud dicendum, quod secundum
+<lb ed="#Be" n="23"/>aliquid est major convenientia in illa 
+pro<lb break="no" ed="#Be" n="24"/>portione, secundum aliquid est minor. Si
+<lb ed="#Be" n="25"/>enim comparatur natura ad naturam,
+<lb ed="#Be" n="26"/>major est convenientia hominis 
+peccato<lb break="no" ed="#Be" n="27"/>ris cum Deo, et sacramentis, quam bruti:
+<lb ed="#Be" n="28"/>quia brutum in signis sacramentalibus
+<lb ed="#Be" n="29"/>nihil suspicit seu percipit, nec intelligit :
+<lb ed="#Be" n="30"/>sed homo etiam peccator ad minus 
+ralio<lb break="no" ed="#Be" n="31"/>ne movetur et fide ex signo in signatum.
+<lb ed="#Be" n="32"/>Si autem attenditur inidoneitas quae est
+<lb ed="#Be" n="33"/>ex parte peccati, tunc major est 
+discon<lb break="no" ed="#Be" n="34"/>venientia : sed hoc non impedit, quia
+<lb ed="#Be" n="35"/>non attingit ad Christum cujus locus
+<lb ed="#Be" n="36"/>proprius est non anima suscipientis in
+<lb ed="#Be" n="37"/>peccato, sed potius species sacramentales :
+<lb ed="#Be" n="38"/>sed bene impedit effectum gratiae, quia
+<lb ed="#Be" n="39"/>locus gratiae est anima, quae peccato 
+in<lb break="no" ed="#Be" n="40"/>formata non est susceptibilis gratia.
+</p>
+            <p xml:id="alalal-g44739-d1e599">
+               <lb ed="#Be" n="41"/>Ad aliud dicendum, quod non est 
+si<lb break="no" ed="#Be" n="42"/>mile de laude et corpore Christi in sa~
+<lb ed="#Be" n="43"/>cramento : quia cum laus sit preeconium
+<lb ed="#Be" n="44"/>virtutis alicujus, aliquid est nostrum :
+<lb ed="#Be" n="45"/>actus enim preconii elicitur a libero 
+ar<lb break="no" ed="#Be" n="46"/>bitrio : et ex parte illa potest esse foeda
+<lb ed="#Be" n="47"/>in ore peccatoris : sed de sacramento
+<lb ed="#Be" n="48"/>nihil est nostrum, sed totum est virtulis
+<lb ed="#Be" n="49"/>divine : etideo a nullo tollitur, sed in
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="50"/>omnibus in communi datur usus: ipsi
+<lb ed="#Be" n="51"/>autem videant qualiter utantur.
+</p>
+            <p xml:id="alalal-g44739-d1e628">
+               <lb ed="#Be" n="52"/>Ad uitimum dicendum, quod manna
+<lb ed="#Be" n="53"/>non continebat Christum : unde 
+putre<lb break="no" ed="#Be" n="54"/>factio mannatis significat nocumentum
+<lb ed="#Be" n="55"/>quod nos facimus nobis, Eucharistiam
+<lb ed="#Be" n="56"/>indigne percipiendo, et non significat
+<lb ed="#Be" n="57"/>corruptionem Christi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

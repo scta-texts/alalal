@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="505"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a98751"><!-- l1d18a9 -->
+            <head xml:id="alalal-a98751-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-a98751-Hd1e101" type="question-title">An isti sunt tres modi generationis 
+tantum per defectionem, processionem, et
+derivationem ?</head>
+            <p xml:id="alalal-a98751-d1e104">
+               <lb ed="#Ba" n="36"/>ARTICULUS IX.
+<lb ed="#Ba" n="37"/>An isti sunt tres modi generationis 
+tan<lb break="no" ed="#Ba" n="38"/>tum per defectionem, processionem, et
+<lb ed="#Ba" n="39"/>derivationem ?
+</p>
+            <p xml:id="alalal-a98751-d1e115">
+               <lb ed="#Ba" n="40"/>Deinde quaeritur de hoc quod dicit
+<lb ed="#Ba" n="41"/>Hilarius : <quote xml:id="alalal-a98751-Qd1e121"> Per defectionem, aut 
+pro<lb break="no" ed="#Ba" n="42"/>tenstonem, aut derivationem, etc. </quote>
+            </p>
+            <p xml:id="alalal-a98751-d1e127">
+               <lb ed="#Ba" n="43"/>Hac enim dicunt tres modos 
+genera<lb break="no" ed="#Ba" n="44"/>tionis: et quaeritur, In quo differunt ?
+</p>
+            <p xml:id="alalal-a98751-d1e135">
+               <lb ed="#Ba" n="45"/>Et dicendum, quod omne quod 
+nasci<lb break="no" ed="#Ba" n="46"/>tur ex aliquo modo materialiter, aut
+<lb ed="#Ba" n="47"/>exit de potentia cum abjectione forme
+<lb ed="#Ba" n="48"/>prius existentis in materia, aut exit 
+re<lb break="no" ed="#Ba" n="49"/>tinendo formam aillius substantialem. Si
+<lb ed="#Ba" n="50"/>primo modo, vocat Hilarius per 
+defe<lb break="no" ed="#Ba" n="51"/>clionem generani, sicut calamus ex grano.
+<lb ed="#Ba" n="52"/>Si autem generatur ita quod retinet 
+for<lb break="no" ed="#Ba" n="53"/>mam specificam, tunc non accipit nisi
+<lb ed="#Ba" n="54"/>formam artis, et illa forma est per 
+mate<lb break="no" ed="#Ba" n="55"/>rie extensionem, vel collectionem, vel
+<lb ed="#Ba" n="56"/>diffusionem : et primo modo producitur
+<lb ed="#Ba" n="57"/>aliquid ex ferro et metallis quae 
+produ<lb break="no" ed="#Ba" n="58"/>cuntur per extensionem materia, 
+secun<lb break="no" ed="#Ba" n="59"/>do modo lacus ex rivo, et tertio modo
+<lb ed="#Ba" n="60"/>rivus de fonte: et illos secundos modos
+<lb ed="#Ba" n="61"/>comprehendit sub uno.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

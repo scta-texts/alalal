@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="630"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e06715"><!-- l2d40a3 -->
+            <head xml:id="alalal-e06715-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-e06715-Hd1e101" type="question-title">Quid est indifferens ?</head>
+            <p xml:id="alalal-e06715-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="24"/>ARTICULUS III.
+<lb ed="#Bc" n="25"/>Quid est indifferens ?
+</p>
+            <p xml:id="alalal-e06715-d1e113">
+               <lb ed="#Bc" n="26"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bc" n="27"/>C, <quote xml:id="alalal-e06715-Qd1e119"> Sed Augustinus evidentissime docet,
+<lb ed="#Bc" n="28"/>etc, </quote>
+            </p>
+            <p xml:id="alalal-e06715-d1e125">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="29"/>Et queruntur duo. Primo, Quid sit 
+in<lb break="no" ed="#Bc" n="30"/>differens ?
+</p>
+            <p xml:id="alalal-e06715-d1e135">
+               <lb ed="#Bc" n="31"/>Secundo, An aliquid secundum 
+Theo<lb break="no" ed="#Bc" n="32"/>logum sit indifferens in operibus 
+volunta<lb break="no" ed="#Bc" n="33"/>tis deliberative: ?
+</p>
+            <p xml:id="alalal-e06715-d1e144">
+               <lb ed="#Bc" n="34"/>AD PRIMUM SIC :
+<lb ed="#Bc" n="35"/>Indifferens quod ponitur inter bonum
+<lb ed="#Bc" n="36"/>et malum, est quod nec bonum est nec
+<lb ed="#Bc" n="37"/>malum : talia autem multa sunt in 
+ope<lb break="no" ed="#Bc" n="38"/>ribus hominum, sive sint boni, sive
+<pb ed="#Bc" n="631"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>mali, sicut comedere, bibere, movere
+<lb ed="#Bc" n="2"/>manum, et hujusmodi: ergo indifferens
+<lb ed="#Bc" n="3"/>videtur esse opus humanum a voluntate
+<lb ed="#Bc" n="4"/>procedens, quod nec est bonum, nec 
+ma<lb break="no" ed="#Bc" n="5"/>lum.
+</p>
+            <p xml:id="alalal-e06715-d1e173">
+               <lb ed="#Bc" n="6"/>Sed contra hoc videtur esse, quod
+<lb ed="#Bc" n="7"/>1. Bonum et malum inter ea medium
+<lb ed="#Bc" n="8"/>habent quae sunt in eodem genere aliquo:
+<lb ed="#Bc" n="9"/>igitur necesse est, quod habeant eamdem
+<lb ed="#Bc" n="10"/>causam : sed boni causa proxima, et 
+si<lb break="no" ed="#Bc" n="11"/>militer mali, est voluntas deliberativa:
+<lb ed="#Bc" n="12"/>non ergo erit indifferens nisi quod 
+pro<lb break="no" ed="#Bc" n="13"/>cedit a deliberatione, et nec est bonum
+<lb ed="#Bc" n="14"/>neque malum.
+</p>
+            <p xml:id="alalal-e06715-d1e195">
+               <lb ed="#Bc" n="15"/>2. Preterea, Est bonum nature, et
+<lb ed="#Bc" n="16"/>bonum moris: medium autem inter 
+ali<lb break="no" ed="#Bc" n="17"/>qua extrema debet esse ejusdem ordinis
+<lb ed="#Bc" n="18"/>secundum naturam cum ipsis: ergo id
+<lb ed="#Bc" n="19"/>quod est bonum nature, non debet esse
+<lb ed="#Bc" n="20"/>indifferens quod ponitur esse medium
+<lb ed="#Bc" n="21"/>inter bonum et malum in moribus. Et hoc
+<lb ed="#Bc" n="22"/>dictum sit contra quosdam qui ponunt 
+in<lb break="no" ed="#Bc" n="23"/>differens in bono nature, vel in bono in
+<lb ed="#Bc" n="24"/>genere.
+</p>
+            <p xml:id="alalal-e06715-d1e219">
+               <lb ed="#Bc" n="25"/>3. Preterea, Si quodlibet quod non
+<lb ed="#Bc" n="26"/>est bonum nec est malum in moribus,
+<lb ed="#Bc" n="27"/>esset indifferens, jam manus. et pedes et
+<lb ed="#Bc" n="28"/>hujusmodi essent indifferentes, quod 
+fal<lb break="no" ed="#Bc" n="29"/>sum est: ergo oportet, quod indifferens
+<lb ed="#Bc" n="30"/>reducatur in idem genus cause cum 
+bo<lb break="no" ed="#Bc" n="31"/>no et malo: illa autem habent causam
+<lb ed="#Bc" n="32"/>deliberativam : ergo indifferens actus
+<lb ed="#Bc" n="33"/>procederet a voluntate deliberativa, qui
+<lb ed="#Bc" n="34"/>non est bonus nec malus.
+</p>
+            <p xml:id="alalal-e06715-d1e243">
+               <lb ed="#Bc" n="35"/>Sep contra: Cum omne bonum a fine
+<lb ed="#Bc" n="36"/>sit bonum, et malum sit malum a 
+priva<lb break="no" ed="#Bc" n="37"/>tione finis, id quod neque est bonum 
+ne<lb break="no" ed="#Bc" n="38"/>que malum, est id quod caret ratione
+<lb ed="#Bc" n="39"/>juste necessitatis et pie utilitatis : ergo
+<lb ed="#Bc" n="40"/>est otiosum, quia Gregorius dicit, quod
+<lb ed="#Bc" n="41"/>
+               <quote xml:id="alalal-e06715-Qd1e260"> otiosum est id quod caret ratione juste
+<lb ed="#Bc" n="42"/>necessitatis et pie utilitatis : </quote> otiosum
+<lb ed="#Bc" n="43"/>autem in Scriptura reputatur peccatum !:
+<lb ed="#Bc" n="44"/>ergo indifferens est peccatum : et 
+pecca<lb break="no" ed="#Bc" n="45"/>tum est malum : ergo indifferens est 
+ma<lb break="no" ed="#Bc" n="46"/>lum, quod falsum est.
+</p>
+            <p xml:id="alalal-e06715-d1e276">
+               <lb ed="#Bc" n="47"/>Item, Videtur indifferens idem esse
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="48"/>quod vanum vel frustra: quia, ut dicit
+<lb ed="#Bc" n="49"/>Philosophus, <quote xml:id="alalal-e06715-Qd1e286"> Vanum vel frustra est,
+<lb ed="#Bc" n="50"/>quod est ad aliquem finem, et non 
+in<lb break="no" ed="#Bc" n="51"/>cludit ipsum : </quote> indifferens autem eo ipso
+<lb ed="#Bc" n="52"/>quod potest bene fieri, est ad aliquem
+<lb ed="#Bc" n="53"/>finem, et non includit illum cum non fiat
+<lb ed="#Bc" n="54"/>bene : ergo est idem quod vanum, ut 
+vi<lb break="no" ed="#Bc" n="55"/>detur.
+</p>
+            <p xml:id="alalal-e06715-d1e303">
+               <lb ed="#Bc" n="56"/>Soiurio. Dicendum, quod indifferens
+<lb ed="#Bc" n="57"/>accipitur dupliciter, scilicet large, et 
+pro<lb break="no" ed="#Bc" n="58"/>prie: et hoc loquendo in moribus 
+tan<lb break="no" ed="#Bc" n="59"/>tum. Large dicitur indifferens omnis
+<lb ed="#Bc" n="60"/>actus qui de se nec bonum virtutis nec
+<lb ed="#Bc" n="61"/>malum vitii determinat: et hoc 
+duplici<lb break="no" ed="#Bc" n="62"/>ter: de se enim non determinat quantum
+<lb ed="#Bc" n="63"/>ad substantiam actus in se consideratam:
+<lb ed="#Bc" n="64"/>et sic omnis actus est indifferens, ut dicit
+<lb ed="#Bc" n="65"/>prima opinio : et hoc modo non loquitur
+<lb ed="#Bc" n="66"/>hic de indifferenti. Secundo modo adhuc
+<lb ed="#Bc" n="67"/>large dicitur indifferens actus voluntatis
+<lb ed="#Bc" n="68"/>de sua forma nec bonum nec malum 
+de<lb break="no" ed="#Bc" n="69"/>terminans, sed ordinabilis in utrumque
+<lb ed="#Bc" n="70"/>per intentionem: et ille actus procedit
+<lb ed="#Bc" n="71"/>aliquando a voluntate justitie : sicut est
+<lb ed="#Bc" n="72"/>comedere, ire, moveri, et hujusmodi: et
+<lb ed="#Bc" n="73"/>hoc modo iterum non loquitur de 
+indif<lb break="no" ed="#Bc" n="74"/>ferenti. Proprie autem dicitur indifferens
+<lb ed="#Bc" n="75"/>id quod procedit a voluntate deliberativa,
+<lb ed="#Bc" n="76"/>et nec est bonum nec est malum, sed
+<lb ed="#Bc" n="77"/>ordinabile in utrumque: et hoc modo
+<lb ed="#Bc" n="78"/>queeritur de indifferenti, quia hoc habet
+<lb ed="#Bc" n="79"/>eamdem causam, et ordinatur in eodem
+<lb ed="#Bc" n="80"/>genere cum bono et malo in moribus: et
+<lb ed="#Bc" n="81"/>hoc nihil prohibet ponere secundum 
+ethi<lb break="no" ed="#Bc" n="82"/>cum Philosophum : sed an etiam 
+secun<lb break="no" ed="#Bc" n="83"/>dum Theologum poni possit, erit quastio
+<lb ed="#Bc" n="84"/>in sequenti problemate. a
+</p>
+            <p xml:id="alalal-e06715-d1e368">
+               <lb ed="#Bc" n="85"/>Ad id quod primo objicitur, dicendum
+<lb ed="#Bc" n="86"/>quod illud est indifferens large acceptum :
+<lb ed="#Bc" n="87"/>ea autem gue contra objiciuntur, 
+proce<lb break="no" ed="#Bc" n="88"/>dunt de indifferenti propriissime sumpto,
+</p>
+            <p xml:id="alalal-e06715-d1e379">
+               <lb ed="#Bc" n="89"/>Av w autem quod ulterius objicitur,
+<lb ed="#Bc" n="90"/>indifferens idem esse quod otiosum, sine
+<lb ed="#Bc" n="91"/>prejudicio videtur mihi proprie sumptum
+<lb ed="#Bc" n="92"/>indifferens idem esse quod otiosum : sed
+<lb ed="#Bc" n="93"/>tamen non reputo semper otiosum actum
+<pb ed="#Bc" n="632"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>voluntatis deliberative, quando non 
+im<lb break="no" ed="#Bc" n="2"/>mediate refertur in Deum: quia otiosum
+<lb ed="#Bc" n="3"/>est, quod caret ratione juste necessitatis
+<lb ed="#Bc" n="4"/>aut pie utilitatis. Justa autem necessitas
+<lb ed="#Bc" n="5"/>nature, ut quae requirit comedere, et 
+bi<lb break="no" ed="#Bc" n="6"/>bere : et pia utilitas est quacumque 
+uti<lb break="no" ed="#Bc" n="7"/>litas circa se vel circa proximum, sicut
+<lb ed="#Bc" n="8"/>sunt quaedam circa se ex dilectione ad
+<lb ed="#Bc" n="9"/>tedium amovendum vel tristitiam, ut
+<lb ed="#Bc" n="10"/>ludi liciti, et symphonie, exercitationes,
+<lb ed="#Bc" n="11"/>et locutiones, et cantus, et hujusmodi :
+<lb ed="#Bc" n="12"/>propter quod et dicit Philosophus in
+<lb ed="#Bc" n="13"/>Il Ethicorum, quod circa delectabile
+<lb ed="#Bc" n="14"/>quod in ludo est, medians quidem est Eu- .
+<lb ed="#Bc" n="15"/>trapeles ', id est, bene moderatus, et 
+dis<lb break="no" ed="#Bc" n="16"/>positio Eutrapelia. Superfluitas autem
+<lb ed="#Bc" n="17"/>Bomolochia: et qui habet eam, vocatur
+<lb ed="#Bc" n="18"/>Bomolochus . Quiautem deficit, vocatur
+<lb ed="#Bc" n="19"/>
+               <foreign>éypros</foreign> velagrestis : et dispositio agricolia.
+<lb ed="#Bc" n="20"/>Quecumgue autem fiunt talibus finibus
+<lb ed="#Bc" n="21"/>sive in se, sive in proximo, non reputo
+<lb ed="#Bc" n="22"/>indifferentia neque otiosa. Quecumque
+<lb ed="#Bc" n="23"/>autem a voluntate deliberante aliter 
+pro<lb break="no" ed="#Bc" n="24"/>cedunt, reputo otiosa et peccata, 
+secun<lb break="no" ed="#Bc" n="25"/>dum quod vanum a Theologo peccatum
+<lb ed="#Bc" n="26"/>reputatur.
+</p>
+            <p xml:id="alalal-e06715-d1e455">
+               <lb ed="#Bc" n="27"/>Ad id quod objicitur de vano, 
+dicen<lb break="no" ed="#Bc" n="28"/>dum quod differt vanum proprie sumptum
+<lb ed="#Bc" n="29"/>ab otioso indifferenti : quia vanum est 
+re<lb break="no" ed="#Bc" n="30"/>latum ad finem, sed non consequitur
+<lb ed="#Bc" n="31"/>eum : sed otiosum et indifferens carent
+<lb ed="#Bc" n="32"/>illa relatione.
+</p>
+            <p xml:id="alalal-e06715-d1e471">
+               <lb ed="#Bc" n="33"/>Nota autem, quod sunt quidam circa
+<lb ed="#Bc" n="34"/>hoc opinantes diversimode : quidam enim
+<lb ed="#Bc" n="35"/>dicunt, quod indifferens est proprie actus
+<lb ed="#Bc" n="36"/>voluntatis sive deliberantis, sive non, non
+<lb ed="#Bc" n="37"/>relatus ad finem boni vel mali, nec de se
+<lb ed="#Bc" n="38"/>determinans alterum eorum, sicut ire,
+<lb ed="#Bc" n="39"/>exercitari, comedere, et hujusmodi. Sunt
+<lb ed="#Bc" n="40"/>enim quidam actus de se habentes bonum
+<lb ed="#Bc" n="41"/>finem, sicut credere, diligere, sperare et
+<lb ed="#Bc" n="42"/>hujusmodi. Et isti dicunt indifferens 
+ali<lb break="no" ed="#Bc" n="43"/>quid esse et secundum Ethicum et 
+secun<lb break="no" ed="#Bc" n="44"/>dum Theologum. Alii dicunt, quod 
+indiffe<lb break="no" ed="#Bc" n="45"/>rens non est actus procedens a voluntate
+<lb ed="#Bc" n="46"/>quocumque modo se habente, sed a vo-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="47"/>luntate deliberativa, perse neutrum ha~
+<lb ed="#Bc" n="48"/>bens, idest, nec bonum nec malum, nec
+<lb ed="#Bc" n="49"/>relatus in aliquid istorum : et hoc dicunt
+<lb ed="#Bc" n="50"/>in verbo esse peccatum, eo quod verbum
+<lb ed="#Bc" n="51"/>ad alterum est: sed non in opere, eo
+<lb ed="#Bc" n="52"/>quod hoc non est ordinatum ad alterum.
+<lb ed="#Bc" n="53"/>Et isti salva pace eorum nesciunt quid.
+<lb ed="#Bc" n="54"/>dicunt : quia quando verbum dicitur ad
+<lb ed="#Bc" n="55"/>alterum, non dicitur ad alterum ut ad
+<lb ed="#Bc" n="56"/>finem boni, sed dicitur ad alterum ut 
+ma<lb break="no" ed="#Bc" n="57"/>nifestans alteri intentionem loquentis : et
+<lb ed="#Bc" n="58"/>tunc secundum eumdem modum 
+deter<lb break="no" ed="#Bc" n="59"/>minatur factum et verbum voluntatis de- .
+<lb ed="#Bc" n="60"/>liberative. Unde et bene dicit Gregorius:
+<lb ed="#Bc" n="61"/>
+               <quote xml:id="alalal-e06715-Qd1e538"> Quod verbum condemnavit, non est
+<lb ed="#Bc" n="62"/>credendum quod verbum permiserit, cum
+<lb ed="#Bc" n="63"/>majus sit factum quam verbum. </quote> Tertii
+<lb ed="#Bc" n="64"/>tenent opinionem supra determinatam,
+<lb ed="#Bc" n="65"/>quod sit indifferens idem otioso, secun-_
+<lb ed="#Bc" n="66"/>dum quod stricte sumitur indifferens: et
+<lb ed="#Bc" n="67"/>ideo non est magna diversitas inter 
+pri<lb break="no" ed="#Bc" n="68"/>mam opinionem et tertiam.
+</p>
+            <p xml:id="alalal-e06715-d1e558">
+               <lb ed="#Bc" n="69"/>De hoc tamen in sequenti problemate,
+<lb ed="#Bc" n="70"/>et de multis aliis plura inveniuntur in
+<lb ed="#Bc" n="71"/>alio tractatu nostro de Virtutibus, 
+que<lb break="no" ed="#Bc" n="72"/>stione de bono in genere.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

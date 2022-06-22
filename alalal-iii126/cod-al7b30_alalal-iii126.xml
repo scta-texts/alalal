@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="2"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-iii126"><!-- l4d23a1 -->
+            <head xml:id="alalal-iii126-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-iii126-Hd1e101" type="question-title">An extrema unctio sit sacramentum ?</head>
+            <p xml:id="alalal-iii126-d1e104">
+               <lb ed="#Bf" n="22"/>ARTICULUS I.
+<lb ed="#Bf" n="23"/>An extrema unctio sit sacramentum ?
+</p>
+            <p xml:id="alalal-iii126-d1e111">
+               <lb ed="#Bf" n="24"/>Videtur autem, quod non sit 
+sacra<lb break="no" ed="#Bf" n="25"/>mentam :
+<lb ed="#Bf" n="26"/>1. Omne enim sacramentum nove 
+le<lb break="no" ed="#Bf" n="27"/>gis ordinatur contra aliquem morbum
+<lb ed="#Bf" n="28"/>peceali specialem : sed extrema unctio
+<lb ed="#Bf" n="29"/>non ordinatur contra morbum specialem :
+<lb ed="#Bf" n="30"/>ergo extrema unctio non est 
+sacramen<lb break="no" ed="#Bf" n="31"/>tum. Prosarcr autem prima per 
+distin<lb break="no" ed="#Bf" n="32"/>clionent gratiae in virtutibus et 
+sacra<lb break="no" ed="#Bf" n="33"/>mentis in principio istius operis 
+proba<lb break="no" ed="#Bf" n="34"/>tain. Secunpa autem probatur: quia
+<lb ed="#Bf" n="35"/>morbus non est nisi originale, et actuale
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="36"/>mortale, et veniale, et infirmitas relicta
+<lb ed="#Bf" n="37"/>ex utrisque : sed contra originale 
+suffi<lb break="no" ed="#Bf" n="38"/>cienter ordinatur Baptismus, contra 
+mor<lb break="no" ed="#Bf" n="39"/>tale actuale Poenitentia, contra 
+infirmi<lb break="no" ed="#Bf" n="40"/>tatem ex utroque relictam Confirmatio,
+<lb ed="#Bf" n="41"/>propter quod etiam confirmatio vocatur:
+<lb ed="#Bf" n="42"/>contra multitudinem autem venialium
+<lb ed="#Bf" n="43"/>Rucharistia, ut multi dicunt : ergo vide~
+<lb ed="#Bf" n="44"/>tur, quod contra nullum morbum 
+ordi<lb break="no" ed="#Bf" n="45"/>netur Extrema unctio.
+</p>
+            <p xml:id="alalal-iii126-d1e163">
+               <lb ed="#Bf" n="46"/>2. Adhuc, Omne sacramentum nove
+<lb ed="#Bf" n="47"/>legis aliquo modo precessit in figura
+<lb ed="#Bf" n="48"/>legis veleris: sed unctio extrema non
+<lb ed="#Bf" n="49"/>precessit : ergo videtur, quod non sit
+<lb ed="#Bf" n="50"/>sacramentum, Prosatur prima 
+indu<lb break="no" ed="#Bf" n="51"/>cendo. Sxcunpa autem probatur ex hoc
+<lb ed="#Bf" n="52"/>quod nihil in Veteri Testamento fiebat
+<lb ed="#Bf" n="53"/>circa infirmos, quod unctioni extreme
+<lb ed="#Bf" n="54"/>responderct.
+</p>
+            <p xml:id="alalal-iii126-d1e186">
+               <lb ed="#Bf" n="55"/>3. Adhuc, Omne sacramentum nove
+<lb ed="#Bf" n="56"/>legis est effectivum gratiae spiritualis :
+<lb ed="#Bf" n="57"/>unctio ista non est effectiva gratia 
+spiri<lb break="no" ed="#Bf" n="58"/>tualis, sed corporalis : ergo videtur, quod
+<lb ed="#Bf" n="59"/>non sit sacramcntum, sed medicina 
+cor<lb break="no" ed="#Bf" n="60"/>poralis. Prima patet ex diffinitione 
+sa<lb break="no" ed="#Bf" n="61"/>cramenti nove legis in principio hujus
+<lb ed="#Bf" n="62"/>quarti libri Sendentiarum posita. 
+Sr<lb break="no" ed="#Bf" n="63"/>cunpa seribilur in Litéera, quod valet ad
+<lb ed="#Bf" n="64"/>corporis allevialionem : et si valet ad
+<lb ed="#Bf" n="65"/>gratiam, ut dicunt mulli, quod hoc est
+<lb ed="#Bf" n="66"/>per orationem fidei conjunctam cum
+<lb ed="#Bf" n="67"/>contritione: et sic per se non valet nisi
+<lb ed="#Bf" n="68"/>ad corpus.
+</p>
+            <p xml:id="alalal-iii126-d1e219">
+               <lb ed="#Bf" n="69"/>In conrrarium hujis est, quod
+<lb ed="#Bf" n="70"/>1. Tota Ecclesia enumerat septem 
+sa<lb break="no" ed="#Bf" n="71"/>cramenta nove legis et istud pro uno:
+<lb ed="#Bf" n="72"/>non autem potest esse falsum quod tota
+<lb ed="#Bf" n="73"/>Ecelesia tenet : ergo istud est 
+sacramen<lb break="no" ed="#Bf" n="74"/>tum.
+</p>
+            <p xml:id="alalal-iii126-d1e235">
+               <lb ed="#Bf" n="75"/>2, Adhuc video, quod unum est 
+sacra<lb break="no" ed="#Bf" n="76"/>mentum infantium, sicut baptismus. Est
+<lb ed="#Bf" n="77"/>iterum unum progredientium, sicut 
+via<lb break="no" ed="#Bf" n="78"/>ticum. Unum stantium, sicut confirmatio.
+<lb ed="#Bf" n="79"/>Unum redeuntium, ut penitentia. Uaum
+<lb ed="#Bf" n="80"/>ministrantium, ut ordo. Ergo etiam erit
+<lb ed="#Bf" n="81"/>unum exeuntium : et hoc non potest esse
+<lb ed="#Bf" n="82"/>nisi unctio extrema : ergo videtur, quod
+<pb ed="#Bf" n="3"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>sit sacramentum, vel Ecclesia esset 
+dimi<lb break="no" ed="#Bf" n="2"/>nuta in suis sacramentis.
+</p>
+            <p xml:id="alalal-iii126-d1e264">
+               <lb ed="#Bf" n="3"/>3. Adhuc, Omne illud quod gratiam
+<lb ed="#Bf" n="4"/>invisibilem confert representatam in 
+cle<lb break="no" ed="#Bf" n="5"/>mento visibili, est sacramentum : sed 
+ex<lb break="no" ed="#Bf" n="6"/>trema unctio est aliquid tale: ergo est
+<lb ed="#Bf" n="7"/>sacramentum, Prima patet per hoc quod
+<lb ed="#Bf" n="8"/>cui convenit diffinitio, et diffinitum.
+<lb ed="#Bf" n="9"/>Secunpa autem per hoc quod dicitur,
+<lb ed="#Bf" n="10"/>Jacob. v, 14 et 15 : <quote xml:id="alalal-iii126-Qd1e283">Ungentes eum oleo
+<lb ed="#Bf" n="11"/>in nomine Domini: et oratio fidei 
+sal<lb break="no" ed="#Bf" n="12"/>vabit infirmum, et alleviabit eum 
+Domi<lb break="no" ed="#Bf" n="13"/>nus : et si in peccatis sit , remittentur ei.</quote>
+               <lb ed="#Bf" n="14"/>Peccatum autem non dimittitur nisi per
+<lb ed="#Bf" n="15"/>gratiam. Ergo constat propositum.
+</p>
+            <p xml:id="alalal-iii126-d1e297">
+               <lb ed="#Bf" n="16"/>Responsio. Dicendum, quod absque
+<lb ed="#Bf" n="17"/>omni dubio est sacramentum extrema
+<lb ed="#Bf" n="18"/>unctio, quod a Domino et Apostolis 
+ha<lb break="no" ed="#Bf" n="19"/>buit ortum sua institutionis, ut mfra 
+pa<lb break="no" ed="#Bf" n="20"/>tebit.
+</p>
+            <p xml:id="alalal-iii126-d1e310">
+               <lb ed="#Bf" n="21"/>Dicenptm ergo ad primum, quod illud
+<lb ed="#Bf" n="22"/>sacramentum est ordinatum contra 
+mor<lb break="no" ed="#Bf" n="23"/>bum specialem peccati, contra quem 
+nul<lb break="no" ed="#Bf" n="24"/>lum aliud specialiter ordinatur, etsi 
+se<lb break="no" ed="#Bf" n="25"/>cundario aliud possit cooperari. Est 
+au<lb break="no" ed="#Bf" n="26"/>tem ille morbus reliquie infirmitatis 
+spi<lb break="no" ed="#Bf" n="27"/>rilualis ex originali et actuali 
+remanen<lb break="no" ed="#Bf" n="28"/>tis : et hoc multum fuit supra discussum
+<lb ed="#Bf" n="29"/>circa principium, ubi accipiebatur divisio
+<lb ed="#Bf" n="30"/>et necessitas sacramentorum *.
+</p>
+            <p xml:id="alalal-iii126-d1e335">
+               <lb ed="#Bf" n="31"/>Nec est verum quod dicit, quod alind
+<lb ed="#Bf" n="32"/>sacramentum substantialem ordinem 
+ha<lb break="no" ed="#Bf" n="33"/>beat contra ventale : et hac omnia supra
+<lb ed="#Bf" n="34"/>in predicta questione requirantur : et
+<lb ed="#Bf" n="35"/>ibi perfecta patet solutio istius 
+quiestio<lb break="no" ed="#Bf" n="36"/>nis.
+</p>
+            <p xml:id="alalal-iii126-d1e351">
+               <lb ed="#Bf" n="37"/>Ad aliud dicendum, quod istud 
+sacra<lb break="no" ed="#Bf" n="38"/>mentum non habuit aliquod 
+sacramen<lb break="no" ed="#Bf" n="39"/>tum in lege veteri sibi respondens 
+prop<lb break="no" ed="#Bf" n="40"/>ter sui perfectionem, et legis veteris 
+im<lb break="no" ed="#Bf" n="41"/>perfectionem. Sicut enim dicitur, ad
+  <lb ed="#Bf" n="42"/>Hebr. vu, 19: <quote xml:id="alalal-iii126-Qd1e366"
+                      source="http://scta.info/resource/hebr7_19@1-6">Nihil ad perfectum 
+addu<lb break="no" ed="#Bf" n="43"/>cit lex</quote>. Unde in ea decedentes 
+traheban<lb break="no" ed="#Bf" n="44"/>tur ad limbum. Unctio autem propter
+<lb ed="#Bf" n="45"/>hoc quod tollit reliqaias, valet ad 
+im<lb break="no" ed="#Bf" n="46"/>mediatam evolationem : et ideo non
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="47"/>habuit locum in Veteri Testamento nee
+<lb ed="#Bf" n="48"/>figura ejus.
+</p>
+            <p xml:id="alalal-iii126-d1e385">
+               <lb ed="#Bf" n="49"/>Hoc autem optime invenitur in 
+Hvan<lb break="no" ed="#Bf" n="50"/>gelio Nicodemi, ubi innuitur, quod Adam
+<lb ed="#Bf" n="51"/>misit filium suum Seth ad accipiendum
+<lb ed="#Bf" n="52"/>ab Angelo paradisi oleum misericordie,
+<lb ed="#Bf" n="53"/>quo ungeretur corpus suum quod 
+infir<lb break="no" ed="#Bf" n="54"/>mabatur : et negatum fuit ei donec 
+veni<lb break="no" ed="#Bf" n="55"/>ret Christus, qui sua unctione corpora et
+<lb ed="#Bf" n="56"/>animas reficeret : quia talis unctio non
+<lb ed="#Bf" n="57"/>habet locum, nisi in gratia plena quae 
+fa<lb break="no" ed="#Bf" n="58"/>cla est per Christum : et ideo etiam typo
+<lb ed="#Bf" n="59"/>nullo ostendi poterat, quia typus talis
+<lb ed="#Bf" n="60"/>circa infirmos omnino inutilis fuisset.
+</p>
+            <p xml:id="alalal-iii126-d1e414">
+               <lb ed="#Bf" n="61"/>Ad aliud dicendum, quod falsum 
+sup<lb break="no" ed="#Bf" n="62"/>ponitur in objectione : et puto, quod
+<lb ed="#Bf" n="63"/>presumptio est dicere, quod istud 
+sacra<lb break="no" ed="#Bf" n="64"/>mentum non conferat gratiam gratum
+<lb ed="#Bf" n="65"/>facientem invisibilem : et tamen hoc
+<lb ed="#Bf" n="66"/>quidam dixerunt et scripserunt, nulla
+<lb ed="#Bf" n="67"/>fulti auctoritate, nec etiam ratione forti.
+<lb ed="#Bf" n="68"/>Unde dicimus, quod confert gratiam 
+prin<lb break="no" ed="#Bf" n="69"/>cipaliter contra peccatum operantem, et
+<lb ed="#Bf" n="70"/>secundario contra infirmitatem corporis.
+<lb ed="#Bf" n="71"/>Nec importatur ex verbis Jacobi, quod ex
+<lb ed="#Bf" n="72"/>oratione et non cx unctione detur gratia :
+<lb ed="#Bf" n="73"/>sed potius ex verbis illis innuitur, quod
+<lb ed="#Bf" n="74"/>datur ex ambobus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

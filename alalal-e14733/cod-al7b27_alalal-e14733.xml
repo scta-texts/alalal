@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="674"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e14733"><!-- l2d43a3 -->
+            <head xml:id="alalal-e14733-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-e14733-Hd1e101" type="question-title">Utrum peccatum in Spiritum sanctum
+sit speciale peccatum separatum ab
+omnibus altis ?</head>
+            <p xml:id="alalal-e14733-d1e104">
+               <lb ed="#Bc" n="29"/>ARTICULUS III.
+<lb ed="#Bc" n="30"/>Utrum peccatum in Spiritum sanctum
+<lb ed="#Bc" n="31"/>sit speciale peccatum separatum ab
+<lb ed="#Bc" n="32"/>omnibus altis ?
+</p>
+            <p xml:id="alalal-e14733-d1e115">
+               <lb ed="#Bc" n="33"/>Tertio queritur, Utrum sit speciale
+<lb ed="#Bc" n="34"/>peccatum separatum ab alilis peccatis ?
+</p>
+            <p xml:id="alalal-e14733-d1e122">
+               <lb ed="#Bc" n="35"/>Et videtur, quod sic: quia
+<lb ed="#Bc" n="36"/>1. Remissibile et irremissibile sunt
+<lb ed="#Bc" n="37"/>passiones quae conveniunt peccato 
+secun<lb break="no" ed="#Bc" n="38"/>dum quod ipsum in specie consideratur :
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="39"/>cum igitur peccatum in Spiritum san--
+<lb ed="#Bc" n="40"/>ctum dicat irremissibile esse, ipsum erit
+<lb ed="#Bc" n="41"/>species peccati secundum se. .
+</p>
+            <p xml:id="alalal-e14733-d1e143">
+               <lb ed="#Bc" n="42"/>2. Item, Hlud peccatum, ut 
+consueve<lb break="no" ed="#Bc" n="43"/>runt dicere Magistri, opponitur gratia
+<lb ed="#Bc" n="44"/>specialiin qua fit remissio peccati cum.
+<lb ed="#Bc" n="45"/>gratia informante liberum arbitrium aq.
+<lb ed="#Bc" n="46"/>actum : quod autem opponitur gratia
+<lb ed="#Bc" n="47"/>speciali, est speciale peccatum : ergo.
+<lb ed="#Bc" n="48"/>peccatum in Spiritum sanctum est pec~
+<lb ed="#Bc" n="49"/>catum speciale.
+</p>
+            <p xml:id="alalal-e14733-d1e163">
+               <lb ed="#Bc" n="50"/>3. Item, In Litiera dicitur, quod est
+<lb ed="#Bc" n="51"/>quoddam peccatum pre ceteris gravius :
+<lb ed="#Bc" n="52"/>non autem comparatur ad alia peccata
+<lb ed="#Bc" n="53"/>specialia nisi peccatum speciale : ergo
+<lb ed="#Bc" n="54"/>ipsum est peccatum speciale.
+</p>
+            <p xml:id="alalal-e14733-d1e176">
+               <lb ed="#Bc" n="55"/>4, Item, Non dividitur in species nisi
+<lb ed="#Bc" n="56"/>peccatum in genere determinato 
+acce<lb break="no" ed="#Bc" n="57"/>ptum : sed peccatum in Spiritum 
+san<lb break="no" ed="#Bc" n="58"/>ctum, hic in Litfera et a Magistris 
+divi<lb break="no" ed="#Bc" n="59"/>ditur in species : ergo ipsum genus est
+<lb ed="#Bc" n="60"/>peccati secundum se.
+</p>
+            <p xml:id="alalal-e14733-d1e192">
+               <lb ed="#Bc" n="61"/>5. Item, Oppugnare gratiam agnitam 
+<lb ed="#Bc" n="62"/>vel invidere gratia fraterne, dicunt 
+spe<lb break="no" ed="#Bc" n="63"/>ciales actus: sed istiactus sunt peccatum
+<lb ed="#Bc" n="64"/>in Spiritum sanctum : ergo peccata 
+mo<lb break="no" ed="#Bc" n="65"/>ventia ad ipsos, sunt specialia peccata: |
+<lb ed="#Bc" n="66"/>ergo et peccata specialia sunt etiam alia
+<lb ed="#Bc" n="67"/>species peccati in Spiritum sanctum.
+</p>
+            <p xml:id="alalal-e14733-d1e210">
+               <lb ed="#Bc" n="68"/>SED CONTRA :
+<lb ed="#Bc" n="69"/>1. Peccatum in Patrem, est peccatum
+<lb ed="#Bc" n="70"/>ex infirmitate: et peccatum in Filium,
+<lb ed="#Bc" n="71"/>est peccatum ex ignorantia : talia autem
+<lb ed="#Bc" n="72"/>non sunt peccatum speciale, sed multa
+<lb ed="#Bc" n="73"/>peccata diversa secundum speciem actus
+<lb ed="#Bc" n="74"/>possunt esse ex infirmitate, et etiam ex
+<lb ed="#Bc" n="75"/>ignorantia : ergo cum peccatum in 
+Spi<lb break="no" ed="#Bc" n="76"/>ritum sanctum e diverso dividit peccatum
+<lb ed="#Bc" n="77"/>cum illis, ipsum potius videtur dicere
+<lb ed="#Bc" n="78"/>circumstantiam peccati, quam peccatum ..
+<lb ed="#Bc" n="79"/>speciale.
+</p>
+            <p xml:id="alalal-e14733-d1e239">
+               <lb ed="#Bc" n="80"/>2. Item, Peccare ex certa malitia di-.
+<lb ed="#Bc" n="81"/>cit circumstantiam accusantem ex parte
+<lb ed="#Bc" n="82"/>peccantis : hoc autem est peccatum in
+<lb ed="#Bc" n="83"/>Spiritum sanctum : ergo videtur, quod
+<pb ed="#Bc" n="675"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>peccatum in Spiritum sanctum non sit
+<lb ed="#Bc" n="2"/>peccati species, sed peccati circumstan
+<lb ed="#Bc" n="3"/>tia.
+</p>
+            <p xml:id="alalal-e14733-d1e262">
+               <lb ed="#Bc" n="4"/>3. Item, Id quod potest circumstare
+<lb ed="#Bc" n="5"/>actum eumdem in specie, circumstaniia
+<lb ed="#Bc" n="6"/>est : peccare autem ex coactione per init
+<lb ed="#Bc" n="7"/>delitatem, ut dicit Richardus de sancto Vi
+<lb ed="#Bc" n="8"/>ctore in epist. de spiritu blasphemiz, ¢t
+<lb ed="#Bc" n="9"/>peccare ex ignorantia, et peccare ex mia-~
+<lb ed="#Bc" n="10"/>litia, possunt esse circa actum eumdeom
+<lb ed="#Bc" n="11"/>specie, sicut circa negare vel blasphema -
+<lb ed="#Bc" n="12"/>re Christum : ergo sunt circumstantia,
+<lb ed="#Bc" n="13"/>et non species peccatorum.
+</p>
+            <p xml:id="alalal-e14733-d1e286">
+               <lb ed="#Bc" n="14"/>4. Item, Speciale peccatum quaerit iia -
+<lb ed="#Bc" n="15"/>turam determinatam : sed peccatum in
+<lb ed="#Bc" n="16"/>Spiritum sanctum non habet naturam
+<lb ed="#Bc" n="17"/>determinatam, sed potius fundatur supcr
+<lb ed="#Bc" n="18"/>alia peccata, ut patet in obstinatione, et
+<lb ed="#Bc" n="19"/>desperatione, et praesumptione, et 
+  impa<lb break="no" ed="#Bc" n="20"/>nitentia finali : ergo peccatum in 
+Spiri<lb break="no" ed="#Bc" n="21"/>tum sanctum non est peccatum speciale
+<lb ed="#Bc" n="22"/>separatum ab aliis.
+</p>
+            <p xml:id="alalal-e14733-d1e308">
+               <lb ed="#Bc" n="23"/>Solutio. Dicendum, quod peccatiua
+<lb ed="#Bc" n="24"/>in Spiritum sanctum secundum rationvia
+<lb ed="#Bc" n="25"/>qua trahitur in speciem, separatum est a
+<lb ed="#Bc" n="26"/>peceatis aliis. Ex parte autem materice
+<lb ed="#Bc" n="27"/>circa quam esi, quandoque est conjun
+<lb ed="#Bc" n="28"/>cium peccatis aliis, quandoque separatunr.
+<lb ed="#Bc" n="29"/>Secundum duas enim species quae stn
+<lb ed="#Bc" n="30"/>invidentia fraterne gratie, et oppugnatio
+<lb ed="#Bc" n="31"/>veritatis agnite, non supponit alia pe-
+c<lb break="no" ed="#Bc" n="32"/>cata pro materia : sed in quatuor allis
+<lb ed="#Bc" n="33"/>speciebus supponit alia peccata in 
+subja<lb break="no" ed="#Bc" n="34"/>cto: sed non supponit ea ut sit 
+circun<lb break="no" ed="#Bc" n="35"/>stantia actus earum, quia actum semper
+<lb ed="#Bc" n="36"/>habet separatum ab actibus aliorum 
+pec<lb break="no" ed="#Bc" n="37"/>catorum, licet non habeat actum 
+separi<lb break="no" ed="#Bc" n="38"/>tum, ita quod alia peccata sint materia
+<lb ed="#Bc" n="39"/>circa quam fit actus istius peccati.
+</p>
+            <p xml:id="alalal-e14733-d1e347">
+               <lb ed="#Bc" n="40"/>Dicendum ergo ad primum quod contra
+<lb ed="#Bc" n="41"/>objicitur, quod peccatum in Spiritum
+<lb ed="#Bc" n="42"/>sanctum dividitur contra peccatum in
+<lb ed="#Bc" n="43"/>Patrem et in Filium, ratione cause quam
+<lb ed="#Bc" n="44"/>dicit cum actu, et non ratione actus: et
+<lb ed="#Bc" n="45"/>ideo non sequitur, quod ipsum sit 
+cir<lb break="no" ed="#Bc" n="46"/>cumstantia peccati tantum sicut 
+pecca<lb break="no" ed="#Bc" n="47"/>tum in Patrem, sed quia dicit 
+circium<lb break="no" ed="#Bc" n="48"/>staniiam, ratione cujus opponitur peo-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="49"/>cato in Patrem, et peccato in Filiu~
+<lb ed="#Bc" n="50"/>Tamen, ut supra dictum est, peccatum
+<lb ed="#Bc" n="51"/>Patrem dupliciter dicitur, scilicet 
+secun<lb break="no" ed="#Bc" n="52"/>dum quod est contra Patrem, ut Pater
+<lb ed="#Bc" n="53"/>sit materia actus et objectum : et 
+secun<lb break="no" ed="#Bc" n="54"/>dum quod est ex causa quae est contra
+<lb ed="#Bc" n="55"/>Patris attributum : et hoc ultimo modo
+<lb ed="#Bc" n="56"/>sumitur hic a Magistro. Si autem primo
+<lb ed="#Bc" n="57"/>modo sumeretur, actum haberet 
+specia<lb break="no" ed="#Bc" n="58"/>lem, et esset speciale peccatum separatum
+<lb ed="#Bc" n="59"/>ab aliis.
+</p>
+            <p xml:id="alalal-e14733-d1e395">
+               <lb ed="#Bc" n="60"/>Ad aliud dicendum, quod licet certa
+<lb ed="#Bc" n="61"/>nalitia dicat causam manentem quae 
+so<lb break="no" ed="#Bc" n="62"/>nat circumstantiam ex parte peccantis,
+<lb ed="#Bc" n="63"/>tamen illa etiam supponit actum 
+volun<lb break="no" ed="#Bc" n="64"/>tatis interiorem : quia non peccat ex
+<lb ed="#Bc" n="65"/>certa malitia nisi quod vult malum, et
+<lb ed="#Bc" n="66"/>placet ei propter se, ut dicitur in Litera :
+<lb ed="#Bc" n="67"/>et hoc est moveri speciali actu circa 
+pec<lb break="no" ed="#Bc" n="68"/>catum. Sic autem non est in peccato ex
+<lb ed="#Bc" n="69"/>infirmitate, nec ex ignorantia : quia talis
+<lb ed="#Bc" n="70"/>non vult infirmitatem vel ignorantiam
+<lb ed="#Bc" n="71"/>vel etiam malum : et ideo illa sunt 
+tan<lb break="no" ed="#Bc" n="72"/>tum circumstantie : sed peccatum in
+<lb ed="#Bc" n="73"/>Spiritum sanctum est circumstantia et
+<lb ed="#Bc" n="74"/>actus.
+</p>
+            <p xml:id="alalal-e14733-d1e430">
+               <lb ed="#Bc" n="75"/>Ad aliud dicendum, quod id quod est
+<lb ed="#Bc" n="76"/>circumstantia in peccato in Spiritum
+<lb ed="#Bc" n="77"/>sanctum, potest esse circa actum 
+simi<lb break="no" ed="#Bc" n="78"/>lem in specie circa quem est infirmitas
+<lb ed="#Bc" n="79"/>movens et ignorantia : sed ex hoc non
+<lb ed="#Bc" n="80"/>dicitur peccatum speciale, sed potius ex
+<lb ed="#Bc" n="81"/>hoc quod tali circumstantia posita 
+poni<lb break="no" ed="#Bc" n="82"/>tur etiam actus voluntas mali, scilicet
+<lb ed="#Bc" n="83"/>interioris propter quem speciale efficitur
+<lb ed="#Bc" n="84"/>peceatum.
+</p>
+            <p xml:id="alalal-e14733-d1e455">
+               <lb ed="#Bc" n="85"/>Ad ultimum patet solutio per 
+princi<lb break="no" ed="#Bc" n="86"/>pium solutionis istius : quia non semper
+<lb ed="#Bc" n="87"/>queerit peccatum speciale materiam 
+spe<lb break="no" ed="#Bc" n="88"/>cialem, sed sufficit sibi actus, et materia
+<lb ed="#Bc" n="89"/>sua quandoque sunt peccata alia.
+</p>
+            <p xml:id="alalal-e14733-d1e468">
+               <lb ed="#Bc" n="90"/>Et per hoc patet solutio ad totum
+<lb ed="#Bc" n="91"/>quod quaesitum est. .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="98"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a19462"><!-- l1d3a8 -->
+            <head xml:id="alalal-a19462-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-a19462-Hd1e101" type="question-title">Quod Deus est incorporeus, et 
+immutabilis.</head>
+            <p xml:id="alalal-a19462-d1e104">
+               <lb ed="#Ba" n="7"/>ARTICULUS VHI.
+<lb ed="#Ba" n="8"/>Quod Deus est incorporeus, et 
+immuta<lb break="no" ed="#Ba" n="9"/>bilis.
+</p>
+            <p xml:id="alalal-a19462-d1e113">
+               <lb ed="#Ba" n="10"/>
+               <quote xml:id="alalal-a19462-Qd1e117"> Alio modo Dei veritatem, etc. </quote>
+               <lb ed="#Ba" n="11"/>Haec est secunda ratio in qua ductu 
+ra<lb break="no" ed="#Ba" n="12"/>tionis per dispositiones inventas in 
+crea<lb break="no" ed="#Ba" n="13"/>turis probatur Deus in corporeus, et 
+im<lb break="no" ed="#Ba" n="14"/>mutabilis. Et haec ratio est magis physica
+<lb ed="#Ba" n="15"/>quam praecedens, et fundatur super duas
+<lb ed="#Ba" n="16"/>propositiones quae non hic probantur,
+<lb ed="#Ba" n="17"/>sed accipiuntur ut per se note.
+</p>
+            <p xml:id="alalal-a19462-d1e135">
+               <lb ed="#Ba" n="18"/>Prima propositio est, quod nullum
+<lb ed="#Ba" n="19"/>corpus est Deus, et hoc probatur sic :
+<lb ed="#Ba" n="20"/>Nullum corpus movet nisi motum : omne
+<lb ed="#Ba" n="21"/>movens motum est movens secundum :
+<lb ed="#Ba" n="22"/>ergo corpus movens motum est movens
+<lb ed="#Ba" n="23"/>secundum, et non primum. Prosatio
+<lb ed="#Ba" n="24"/>prima est, quod omne corpus movens
+<lb ed="#Ba" n="25"/>componitur ex motore et mobili, ut 
+cw<lb break="no" ed="#Ba" n="26"/>lum, et omnia moventia, ut probant
+<lb ed="#Ba" n="27"/>Philosophi : cum igitur Deus sit prima
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="28"/>causa movens non mota (sicut dicit 
+Boe<lb break="no" ed="#Ba" n="29"/>tius: Stabilisque manens dat cuncta 
+mo<lb break="no" ed="#Ba" n="30"/>veri) non potest Deus esse corpus.
+</p>
+            <p xml:id="alalal-a19462-d1e169">
+               <lb ed="#Ba" n="31"/>Secunda propositio est, quod Deus
+<lb ed="#Ba" n="32"/>non sit mutabilis spiritus, et hoc proba-~
+<lb ed="#Ba" n="33"/>tur sic : Omnis spiritus mutabilis 
+muta<lb break="no" ed="#Ba" n="34"/>tur per se, vel per accidens: primum
+<lb ed="#Ba" n="35"/>movens non mutatur per se, nec per 
+ac<lb break="no" ed="#Ba" n="36"/>cidens : ergo primum movens non est
+<lb ed="#Ba" n="37"/>mutabilis spiritus. Propatio media : 
+Pri<lb break="no" ed="#Ba" n="38"/>mum movens est movens nullo modo
+<lb ed="#Ba" n="39"/>motum : ergo nec per se, nec per 
+acci<lb break="no" ed="#Ba" n="40"/>dens. Detur enim, quod primum movens
+<lb ed="#Ba" n="41"/>mutetursper accidens, scilicet motu 
+alte<lb break="no" ed="#Ba" n="42"/>rius, sicut anima motu corporis, 
+sequi<lb break="no" ed="#Ba" n="43"/>quitur quod primum sit receptibile 
+aeci<lb break="no" ed="#Ba" n="44"/>dentalis mutationis, et sic non erit in
+<lb ed="#Ba" n="45"/>ratione primi, quia primum est omnino
+<lb ed="#Ba" n="46"/>eodem modo semper se habens. Ex ista
+<lb ed="#Ba" n="47"/>ratione de necessitate concluditur 
+ulte<lb break="no" ed="#Ba" n="48"/>rius, quod Deus non est virtus aliqua in
+<lb ed="#Ba" n="49"/>corpore, ut anima, vel intellectus cceli,
+<lb ed="#Ba" n="50"/>sicut quidam Philosophi dixerunt : quia
+<lb ed="#Ba" n="51"/>si ita esset, mutaretur per accidens ipsius
+<lb ed="#Ba" n="52"/>quod esse non potest.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

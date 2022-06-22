@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="473"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a93722"><!-- l1d17a5 -->
+            <head xml:id="alalal-a93722-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-a93722-Hd1e101" type="question-title">An aliquis potest scire in via se habere
+charitatem ?</head>
+            <p xml:id="alalal-a93722-d1e104">
+               <lb ed="#Ba" n="34"/>ARTICULUS V.
+<lb ed="#Ba" n="35"/>An aliquis potest scire in via se habere
+<lb ed="#Ba" n="36"/>charitatem ?
+</p>
+            <p xml:id="alalal-a93722-d1e113">
+               <lb ed="#Ba" n="37"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="38"/>
+               <quote xml:id="alalal-a93722-Qd1e119"> Quiainieriorem, quia certiorem, etc. </quote>
+            </p>
+            <p xml:id="alalal-a93722-d1e122">
+               <lb ed="#Ba" n="39"/>1. Ex hoc enim videtur, quod certa sit
+<lb ed="#Ba" n="40"/>nobis charitas in nobis : ergo aliquis in
+<lb ed="#Ba" n="41"/>vita potest se scire habere charitatem.
+</p>
+            <p xml:id="alalal-a93722-d1e132">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="42"/>2. Quod etiam videtur per illud 
+Apo<lb break="no" ed="#Ba" n="43"/>stoli, ad Roman. vin, 38 : Certus sum
+<lb ed="#Ba" n="44"/>quia neque mors, neque vita,... neque
+<lb ed="#Ba" n="45"/>alia creatura poterit nos separare a 
+cha<lb break="no" ed="#Ba" n="46"/>ritate Dei, etc.
+</p>
+            <p xml:id="alalal-a93722-d1e148">
+               <lb ed="#Ba" n="47"/>3. Item, Si charitas est nobis certior,
+<lb ed="#Ba" n="48"/>quam proximus : sed proximum ita 
+no<lb break="no" ed="#Ba" n="49"/>vimus, quod de ipso non dubitamus
+<lb ed="#Ba" n="50"/>ergo videtur, quod nos etiam ita 
+novi<lb break="no" ed="#Ba" n="51"/>mus esse in charitate, quod de charitate
+<lb ed="#Ba" n="52"/>nostra nihil dubitamus.
+</p>
+            <p xml:id="alalal-a93722-d1e164">
+               <lb ed="#Ba" n="53"/>4, Ytem, Charitas lumen est. Prima 
+ca<lb break="no" ed="#Ba" n="54"/>non. Joan. u, 10 : Qui diligit fratrem
+<lb ed="#Ba" n="55"/>suum, in lumine manet : lumen autem
+<lb ed="#Ba" n="56"/>seipso manifestatur : ergo videtur, quod
+<lb ed="#Ba" n="57"/>nullus justorum habeat aliquod dubium
+<lb ed="#Ba" n="58"/>de charitate sua.
+</p>
+            <p xml:id="alalal-a93722-d1e180">
+               <lb ed="#Ba" n="59"/>Sed contra : Eccle. 1x, 1: Nescit 
+ho<lb break="no" ed="#Ba" n="60"/>mo ulrum amore an odio dignus sit.
+</p>
+            <p xml:id="alalal-a93722-d1e187">
+               <lb ed="#Ba" n="61"/>Solutio. Dicendum, quod nullus sine
+<lb ed="#Ba" n="62"/>revelatione ad se facta, potest scire se 
+es<lb break="no" ed="#Ba" n="63"/>se in charitate, duabus de causis quarum
+<lb ed="#Ba" n="64"/>una jam dicta est : quia licet charitas
+<lb ed="#Ba" n="65"/>manifesta sit de se, non tamen nobis ita
+<lb ed="#Ba" n="66"/>manifestatur propter tumultum 
+concu<lb break="no" ed="#Ba" n="67"/>piscentiae et phantasmatum in cordibus
+<lb ed="#Ba" n="68"/>nostris. Alia causa est : quia amor 
+natu<lb break="no" ed="#Ba" n="69"/>ralis simillimum habet actum cum actu
+<lb ed="#Ba" n="70"/>charitatis quandoque : et ideo una 
+vide<lb break="no" ed="#Ba" n="71"/>tur pro alia, scilicet dilectio naturalis pro
+<lb ed="#Ba" n="72"/>gratuita.
+</p>
+            <p xml:id="alalal-a93722-d1e216">
+               <lb ed="#Ba" n="73"/>Ap pPrimuM ergo dicendum, sicut in
+<lb ed="#Ba" n="74"/>precedenti questione dictum cst, quod
+<lb ed="#Ba" n="75"/>hoc est verum quoad primum modum
+<lb ed="#Ba" n="76"/>intellectus et intelligibilis, et non quoad
+<lb ed="#Ba" n="77"/>secundum utriusque.
+</p>
+            <p xml:id="alalal-a93722-d1e230">
+               <lb ed="#Ba" n="78"/>Ab aLtup dicendum, quod aut 
+Aposto<lb break="no" ed="#Ba" n="79"/>lus loquitur ex revelatione ad se facta,
+<lb ed="#Ba" n="80"/>aut vocat notitiam charitatis ex signo
+<lb ed="#Ba" n="81"/>fervoris, et hujusmodi.
+</p>
+            <p xml:id="alalal-a93722-d1e241">
+               <lb ed="#Ba" n="82"/>Ap TERTIUM in prima solutione et in
+<lb ed="#Ba" n="83"/>questione praecedenti responsum est.
+</p>
+            <p xml:id="alalal-a93722-d1e248">
+               <lb ed="#Ba" n="84"/>Ad aliud dicendum, quod charitas 
+lu<lb break="no" ed="#Ba" n="85"/>men est effective, quia pellit tenebras
+<lb ed="#Ba" n="86"/>peccati : et etiamsi lumen esset per se
+<lb ed="#Ba" n="87"/>spirituale, quod tamen magis convenit
+<pb ed="#Ba" n="474"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>veritati, non sequitur, quod seipsa 
+vide<lb break="no" ed="#Ba" n="2"/>retur propter causas prius dictas, 
+quam<lb break="no" ed="#Ba" n="3"/>vis esset visibilis de se.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

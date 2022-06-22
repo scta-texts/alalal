@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 35</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 35</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="706"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h52242"><!-- l4d17a35 -->
+            <head xml:id="alalal-h52242-Hd1e99">Articulus 35</head>
+            <head xml:id="alalal-h52242-Hd1e101" type="question-title">An aliquis potest confiteri suo conserva ?</head>
+            <p xml:id="alalal-h52242-d1e104">
+               <lb ed="#Be" n="62"/>ARTICULUS XXXV.
+<lb ed="#Be" n="63"/>An aliquis potest confiteri suo conserva ?
+</p>
+            <p xml:id="alalal-h52242-d1e111">
+               <lb ed="#Be" n="64"/>Deinde queritur de hoc quod dicit, ibi,
+<lb ed="#Be" n="65"/>C, circa medium : <quote xml:id="alalal-h52242-Qd1e117"> Non dico ut 
+confitea<lb break="no" ed="#Be" n="66"/>ris ea, etc. </quote>
+            </p>
+            <p xml:id="alalal-h52242-d1e123">
+               <lb ed="#Be" n="67"/>Conservus enim hominis est quilibet
+<lb ed="#Be" n="68"/>homo : ergo nulli homini debet confiteri:
+<lb ed="#Be" n="69"/>et sic totum falsum est, quod supra 
+dis<lb break="no" ed="#Be" n="70"/>putatum est.
+</p>
+            <p xml:id="alalal-h52242-d1e135">
+               <pb ed="#Be" n="707"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Responsio. Dicendum, quod potest fieri
+<lb ed="#Be" n="2"/>vis in conservo : quia conservus potest
+<lb ed="#Be" n="3"/>dici aequalis conditione et gradu, et sic
+<lb ed="#Be" n="4"/>sacerdos non est conservus : et tunc non
+<lb ed="#Be" n="5"/>intelligitur hic nisi confessio laici et 
+po<lb break="no" ed="#Be" n="6"/>pularis, quae sepe fit ad exprobrationem :
+<lb ed="#Be" n="7"/>quia laici non habentes discretionem 
+si<lb break="no" ed="#Be" n="8"/>gilli confessionis, exprobrant audita 
+con<lb break="no" ed="#Be" n="9"/>fitenti.
+</p>
+            <p xml:id="alalal-h52242-d1e161">
+               <lb ed="#Be" n="10"/>Vel aliter potest dici, quia vis est 
+in<lb break="no" ed="#Be" n="11"/>hoc quod dicit, <quote xml:id="alalal-h52242-Qd1e167"> Ut tibi exprobret: </quote>
+               <lb ed="#Be" n="12"/>quod licet sacerdos conservus sit, non
+<lb ed="#Be" n="13"/>tamen debet confiteri ut homini, quia
+<lb ed="#Be" n="14"/>sic posset exprobrare confitenti, sed debet
+<lb ed="#Be" n="15"/>confiteri ut Deo : quia sic prohibetur ab
+<lb ed="#Be" n="16"/>exprobratione sacerdos sigillo 
+confessio<lb break="no" ed="#Be" n="17"/>nis : quia novit hoc ut secretum Dei, et
+<lb ed="#Be" n="18"/>non ut narrationem humanam. ,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

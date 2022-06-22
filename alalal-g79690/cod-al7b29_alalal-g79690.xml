@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="386"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g79690"><!-- l4d13dt4 -->
+            <head xml:id="alalal-g79690-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-g79690-d1e101">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="11"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-g79690-d1e108">
+               <lb ed="#Be" n="12"/>Deinde transeundum est ad aliam 
+par<lb break="no" ed="#Be" n="13"/>tem distinctionis quae incipit, ibi, H,
+<lb ed="#Be" n="14"/>
+               <quote xml:id="alalal-g79690-Qd1e116"> Solet etiam queri, Utrum pravi 
+sacer<lb break="no" ed="#Be" n="15"/>dotes, etc. </quote>
+            </p>
+            <p xml:id="alalal-g79690-d1e122">
+               <lb ed="#Be" n="16"/>In hac enim parte agitur de his quae
+<lb ed="#Be" n="17"/>hoc sacramentum requirit in 
+conse<lb break="no" ed="#Be" n="18"/>crante,
+</p>
+            <p xml:id="alalal-g79690-d1e131">
+               <lb ed="#Be" n="19"/>Et habet tres partes : in quarum 
+pri<lb break="no" ed="#Be" n="20"/>ma ostendit quid requirit in vita, scilicet
+<lb ed="#Be" n="21"/>quod intra Ecclesiam. In secunda, 
+osten<lb break="no" ed="#Be" n="22"/>dit quod requirit ordinem et 
+intentio<lb break="no" ed="#Be" n="23"/>nem, ibi, H, §3: <quote xml:id="alalal-g79690-Qd1e144">In hujus autem 
+myste<lb break="no" ed="#Be" n="24"/>rut expletione, etc. </quote> In tertia vero dicit,
+<lb ed="#Be" n="25"/>quid requiritur ex parte sumentis, 
+scili<lb break="no" ed="#Be" n="26"/>cet quod sit rationalis. Et illis in fine par
+<lb ed="#Be" n="27"/>accidens adjungit, quid sit hereticus, eo
+<lb ed="#Be" n="28"/>quod dixit in epilogo, quod qui hic 
+de<lb break="no" ed="#Be" n="29"/>terminatis contradicit, est haereticus : haec
+<lb ed="#Be" n="30"/>autem incipit, ibi, H, § 4: <quote xml:id="alalal-g79690-Qd1e162"> Llud etiam
+<lb ed="#Be" n="31"/>sane potest dict, etc. </quote>
+            </p>
+            <p xml:id="alalal-g79690-d1e169">
+               <lb ed="#Be" n="32"/>Duo autem dicuntur in prima parte :
+<lb ed="#Be" n="33"/>in quarum secunda ostendit multis 
+aucto<lb break="no" ed="#Be" n="34"/>ritatibus et rationibus, quia qui non est
+<lb ed="#Be" n="35"/>intus, sed exclusus per schisma vel 
+here<lb break="no" ed="#Be" n="36"/>sim vel excommunicationem,non conficit
+<lb ed="#Be" n="37"/>communionem, id est, Eucharistiam. In
+<lb ed="#Be" n="38"/>prima autem ostendit, quod mali qui
+<lb ed="#Be" n="39"/>sunt intus non preecisi ab Ecclesia confi-
+<cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="40"/>ciunt, licet mali sint. Secunda incipit,
+<lb ed="#Be" n="41"/>ibi, H, § 2: <quote xml:id="alalal-g79690-Qd1e195"> Ll vero qui 
+excommuni<lb break="no" ed="#Be" n="42"/>catt sunt, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

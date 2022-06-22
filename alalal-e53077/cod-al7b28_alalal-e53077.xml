@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="274"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e53077"><!-- l3d15a5 -->
+            <head xml:id="alalal-e53077-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-e53077-Hd1e101" type="question-title">An Christus omnes defectus acceperit,
+vel quosdam, et quosdam non?</head>
+            <p xml:id="alalal-e53077-d1e104">
+               <pb ed="#Bd" n="274"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ARTICULUS V.
+<lb ed="Bd" n="2"/>An Christus omnes defectus acceperit,
+<lb ed="Bd" n="3"/>vel quosdam, et quosdam non?
+</p>
+            <p xml:id="alalal-e53077-d1e117">
+               <lb ed="Bd" n="4"/>Deinde quaeritur, Si omnes accepit
+<lb ed="Bd" n="5"/>vel quosdam ?
+</p>
+            <p xml:id="alalal-e53077-d1e124">
+               <lb ed="Bd" n="6"/>Videtur autem, quod omnes : quia
+<lb ed="Bd" n="7"/>i. Omnes curare venit: ergo omnes
+<lb ed="Bd" n="8"/>assumpsit.
+</p>
+            <p xml:id="alalal-e53077-d1e134">
+               <lb ed="Bd" n="9"/>2. Item, Damascenus, <quote xml:id="alalal-e53077-Qd1e138"> Totus totum
+<lb ed="Bd" n="10"/>assumpsit me, ut toti mihi salutem 
+gra<lb break="no" ed="Bd" n="11"/>tificaret: </quote> ergo videtur, quod omnes
+<lb ed="Bd" n="12"/>assumpsit.
+</p>
+            <p xml:id="alalal-e53077-d1e148">
+               <lb ed="Bd" n="13"/>3. Item, Damascenus, <quote xml:id="alalal-e53077-Qd1e152"> Quod non est
+<lb ed="Bd" n="14"/>assumptibile, non est curabile: </quote> ergo si
+<lb ed="Bd" n="15"/>aliquem defectum non assumpsit, ille 
+cu<lb break="no" ed="Bd" n="16"/>rabilis non fuit, ut videtur : ergo 
+assump<lb break="no" ed="Bd" n="17"/>sit omnes.
+</p>
+            <p xml:id="alalal-e53077-d1e164">
+               <lb ed="Bd" n="18"/>4. Item, Si ex his quae passus est, 
+di<lb break="no" ed="Bd" n="19"/>dicit obedientiam et misericordiam: tunc
+<lb ed="Bd" n="20"/>maxime in omnibus defectibus nostris
+<lb ed="Bd" n="21"/>pati debuit : quia si in aliquo non fuit
+<lb ed="Bd" n="22"/>passus, secundum illud non didicit passis
+<lb ed="Bd" n="23"/>auxiliari.
+</p>
+            <p xml:id="alalal-e53077-d1e180">
+               <lb ed="Bd" n="24"/>Praeterea, Que esset ratio, quod 
+ali<lb break="no" ed="Bd" n="25"/>quos assumeret, et aliquos dimitterct,
+<lb ed="Bd" n="26"/>cum nullus eorum sit peccatum ? Ergo
+<lb ed="Bd" n="27"/>videtur, quod omnes assumpsit, vel
+<lb ed="Bd" n="28"/>nullum : sed nullum non assumpsit: ergo
+<lb ed="Bd" n="29"/>omnes.
+</p>
+            <p xml:id="alalal-e53077-d1e196">
+               <lb ed="Bd" n="30"/>SED CONTRA:
+<lb ed="Bd" n="31"/>Non fuit leprosus, nec gibbosus, nec
+<lb ed="Bd" n="32"/>claudus : ergo non omnes defectus etiam
+<lb ed="Bd" n="33"/>corporales assumpsit.
+</p>
+            <p xml:id="alalal-e53077-d1e207">
+               <lb ed="Bd" n="34"/>Similiter, Nec fuit ignorans, nec 
+im<lb break="no" ed="Bd" n="35"/>potens bene agere: ergo nec omnes 
+de<lb break="no" ed="Bd" n="36"/>fectus animae assumpsit.
+</p>
+            <p xml:id="alalal-e53077-d1e217">
+               <lb ed="Bd" n="37"/>Solutio Hie considerandum per 
+re<lb break="no" ed="Bd" n="38"/>gulam Damasceni supra habitam, quod
+<lb ed="Bd" n="39"/>omnes defectus assumpsit, quos in nostra
+<lb ed="Bd" n="40"/>natura plantavit. Considerandum igitur,
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="41"/>quod natura nostra plantata est duobus
+<lb ed="Bd" n="42"/>modis, scilicet in principiis naturalibus,
+<lb ed="Bd" n="43"/>et gratia innocentiae, et utramque 
+plan<lb break="no" ed="Bd" n="44"/>tationem fecit Deus: gratia autem amis.
+<lb ed="Bd" n="45"/>sionem non fecit Deus, sed culpa 
+homi<lb break="no" ed="Bd" n="46"/>nis : et ideo quae praeter naturam conse
+<lb ed="Bd" n="47"/>cuta sunt culpam, non assumpsit, quia
+<lb ed="Bd" n="48"/>illa non plantavit, sicut est ignorantia,
+<lb ed="Bd" n="49"/>et infirmitas bene agendi in anima, et
+<lb ed="Bd" n="50"/>fomes libidinis in corpore, et pugna 
+car<lb break="no" ed="Bd" n="51"/>nis adversus spiritum: et ideo illa non
+<lb ed="Bd" n="52"/>assumpsit. In plantatione autem naturalj
+<lb ed="Bd" n="53"/>plantavit Deus corpora nostra conver.
+<lb ed="Bd" n="54"/>tendo elementa in humores, et humores
+<lb ed="Bd" n="55"/>in membra similia et dissimilia : et de
+<lb ed="Bd" n="56"/>plantatione illorum sunt quaedam ex 
+par<lb break="no" ed="Bd" n="57"/>te corporis, et quaedam ex parte anima:
+<lb ed="Bd" n="58"/>ex parte corporis, ut mortalitas: ex
+<lb ed="Bd" n="59"/>parte dissolulionis, sicut fames ex 
+agen<lb break="no" ed="Bd" n="60"/>tibus qualitatibus primis in substantiam :
+<lb ed="Bd" n="61"/>et ideo illos assumpsit. In anima autem
+<lb ed="Bd" n="62"/>affectus naturales conjunctos consequitur
+<lb ed="Bd" n="63"/>dolor et tristitia separationis et mortis, et
+<lb ed="Bd" n="64"/>illos assumpsit: et isti sunt naturales
+<lb ed="Bd" n="65"/>defectus omnis hominis: sed lepra, et
+<lb ed="Bd" n="66"/>gibbus, etc., sunt defectus personales 
+is<lb break="no" ed="Bd" n="67"/>tius vel illius, et ideo non sunt per se
+<lb ed="Bd" n="68"/>nature: et cum ipse venit totam natu
+<lb ed="Bd" n="69"/>ram reparare, ideo illos non debuit 
+as<lb break="no" ed="Bd" n="70"/>sumere. Idem judicium est de febre, 
+epi<lb break="no" ed="Bd" n="71"/>lepsia, et hujusmodi.
+</p>
+            <p xml:id="alalal-e53077-d1e298">
+               <lb ed="Bd" n="72"/>Aliam regulam considerandi inter 
+de<lb break="no" ed="Bd" n="73"/>fectus assumptos et non assumptos dat
+<lb ed="Bd" n="74"/>Magister in Litlera, scilicet quod accepit
+<lb ed="Bd" n="75"/>illos quos accipere eum non dedecebat,
+<lb ed="Bd" n="76"/>et nobis expediebat : et hoc idem est :
+<lb ed="Bd" n="77"/>quia illos quos ipse in principio nature
+<lb ed="Bd" n="78"/>plantavit, non dedecebat eum suscipere,
+<lb ed="Bd" n="79"/>et non personales et consequentes ex 
+cul<lb break="no" ed="Bd" n="80"/>pa: et isti fuerunt nobis expedientes,
+<lb ed="Bd" n="81"/>quia isti sunt ad nature, et non unius
+<lb ed="Bd" n="82"/>hominis curationem.
+</p>
+            <p xml:id="alalal-e53077-d1e324">
+               <lb ed="Bd" n="83"/>Praeterea, Si personales assumpsisset,
+<lb ed="Bd" n="84"/>ut lepram, vel gibbum, fuisset impeditus
+<lb ed="Bd" n="85"/>a preedicatione verbi: quia auditum ab
+<lb ed="Bd" n="86"/>eo non fuisset propter persone 
+despe<lb break="no" ed="Bd" n="87"/>ctionem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

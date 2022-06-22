@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praefatio</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praefatio</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="1"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-aa1000"><!-- l1praefatio -->
+            <head xml:id="alalal-aa1000-Hd1e99">Praefatio</head>
+            <p xml:id="alalal-aa1000-d1e101">
+               <pb ed="#Ba" n="1"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>D. ALBERTI MAGNI,
+<lb ed="#Ba" n="2"/>RATISBONENSIS EPISCOPI, ORDINIS PRADICATORUM,
+<lb ed="#Ba" n="3"/>COMMENTARII
+<lb ed="#Ba" n="4"/>IN PRIMUM LIBRUM SENTENTIARUM.
+  <lb ed="#Ba" n="5"/>PRAEFATIO
+</p>
+            <p xml:id="alalal-aa1000-d1e119">
+               <lb ed="#Ba" n="6"/>
+               <quote xml:id="alalal-aa1000-Qd1e123"> Ego ex ore Altissimt prodivi primogenita ante omnem creaturam : ego fect in
+<lb ed="#Ba" n="7"/>celis ut ortretur lumen indeficiens, et sicut nebula texi omnem terram'. </quote>
+            </p>
+            <p xml:id="alalal-aa1000-d1e129">
+               <lb ed="#Ba" n="8"/>Hic secundum ordinem tanguntur quatuor : ex quibus secundum seriem Libri
+<lb ed="#Ba" n="9"/>islius trahitur materia quatuor Librorum.
+</p>
+            <p xml:id="alalal-aa1000-d1e136">
+               <lb ed="#Ba" n="10"/>In primo enim notatur distinctio personarum, et processio unius ab alia, Motors prt
+<lb ed="#Ba" n="11"/>cum dicit: Ego ex ore Altissemt prodivt. Per ly Ego supponitur sapientia loquens:
+<lb ed="#Ba" n="12"/>per ly Ore autem Pater secundum quod ipse per generationem principium
+<lb ed="#Ba" n="13"/>Vilii est ut est Verbum. Nec os autem unde Verbum procedit, nec ipsum 
+Ver<lb break="no" ed="#Ba" n="14"/>bum est sine Spiritu: et ideo in ore et in Verbo significatur processio Spiritus
+<lb ed="#Ba" n="15"/>sancti ab utroque. Quod probatur ex hoc quod dicit Damascenus in libro I de
+<lb ed="#Ba" n="16"/>Fide orthodoxa : In divina natura simplici et incomposita esse quidem Spiritum
+<lb ed="#Ba" n="17"/>Dei pie confitendum est: propterea quod non est Dei Verbum deficientius 
+no<lb break="no" ed="#Ba" n="18"/>stro verbo. Non est autem pium quippiam alienum spiritum extra Deum 
+pro<lb break="no" ed="#Ba" n="19"/>fusum existimare, sicut fitin nobis compositis. Hoc est etiam quod dicit 
+Au<lb break="no" ed="#Ba" n="20"/>gustinus in libro IX de Trinitate : Verbum quod insinuare contendimus, cum
+<lb ed="#Ba" n="21"/>amore notitia est. Per ly Al¢éssimi autem supponitur Pater, qui licet non sit
+<pb ed="#Ba" n="2"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>altior Filio vel Spiritu sancto, eo quod una sit altitudo trium, sicut una 
+digni<lb break="no" ed="#Ba" n="2"/>tas et unus honor, tamen per appropriationem convenit Patri esse altissimum,
+<lb ed="#Ba" n="3"/>eo quod ipse principium est totius divinitatis, ut dicit Augustinus, eo quod
+<lb ed="#Ba" n="4"/>ipse principium est non de principio : Filius autem principium de principio:
+<lb ed="#Ba" n="5"/>Spiritus sanctus autem non est principium respectu alicujus persone, sed 
+re<lb break="no" ed="#Ba" n="6"/>spectu creature tantum, et est de utroque principio, scilicet, Patre et Filio.
+</p>
+            <p xml:id="alalal-aa1000-d1e183">
+               <lb ed="#Ba" n="7"/>Secundum est quod dicit :
+<lb ed="#Ba" n="8"/>Primogenita ante omnem creaturam:in quo notatur materia secundi Libri,
+<lb ed="#Ba" n="9"/>in quo de creaturis agitur. Et per verbum illud significatur creatura duobus
+<lb ed="#Ba" n="10"/>modis, scilicet, secundum exitum suum per creationem a prima causa que
+<lb ed="#Ba" n="11"/>Deus est, cum dicit: Primogenita, etc., et secundum quod est in propria natura
+<lb ed="#Ba" n="12"/>et universitate, cum dicit: Omnem creaturam. Sicut enim dicit, Psal. xxxu, 9:
+<lb ed="#Ba" n="13"/>Ipse dixit, et facta sunt. Bt dicit Augustinus, id est, Verbum genuit in quo erat
+<lb ed="#Ba" n="14"/>ut fieret. Erat, inquam, in Verbo secundum quod Verbum est ars Patris plena
+<lb ed="#Ba" n="15"/>rationum omnium viventium, id est, qui omnes in ipso vivunt et vita sunt.
+<lb ed="#Ba" n="16"/>casters.  Hrat autem creatura in hoc Verbo dupliciter, scilicet, sicut in medio 
+cogno<lb break="no" ed="#Ba" n="17"/>scendi secundum rationem, et sicut in causa operativa et productiva : et ideo,
+<lb ed="#Ba" n="18"/>Joan. 1, 3 et 4, dicitur: Sine ipso factum est nihil quod factum est. In ipso vita
+<lb ed="#Ba" n="19"/>erat, et vita erat lux hominum. Lux, inquam, irradians super omnia cognita:
+<lb ed="#Ba" n="20"/>sicut dicit, Psal. crx, 3: Bx ulero ante luciferum genui te, in splendoribus 
+san<lb break="no" ed="#Ba" n="21"/>clorum, id est, sanctitatis et puritatis aeterna. Vita autem erat secundum quod
+<lb ed="#Ba" n="22"/>est operativum Verbum : quod enim respectu quorumdam a Philosophis 
+attri<lb break="no" ed="#Ba" n="23"/>buitur motui coeli, dicendo quod est immortale et sine quiete in his quae sunt,
+<lb ed="#Ba" n="24"/>ut vita quaedam natura existentibus omnibus: hoc per prius convenit Verbo
+<lb ed="#Ba" n="25"/>respectu omnium creaturarum : quia omnia sunt inipso ut in causa, et 
+por<lb break="no" ed="#Ba" n="26"/>tantur ab ipso ne intereant. Unde, Apostolus ad Hebr. 1, 3: Portans omnia Verbo
+<lb ed="#Ba" n="27"/>virtulis sue. Haecc enim duo (ut dicit Augustinus et Anselmus) significant 
+dupli<lb break="no" ed="#Ba" n="28"/>cem motum effluxus creature a Creatore : secundum enim quod sunt vita in
+<lb ed="#Ba" n="29"/>ipso, effluunt a Verbo, ut subsistant in natura propria: et secundum quod
+<lb ed="#Ba" n="30"/>sunt lux, effluendo manifestantur in intelligentia angelica. Et quod Verbum
+<lb ed="#Ba" n="31"/>sit principium, patet per Augustinum in libro 1 super Genesim, sic : Ante 
+om<lb break="no" ed="#Ba" n="32"/>nia meminerimus non temporalibus, quasi animi sui aut corporis motibus
+<lb ed="#Ba" n="33"/>operari Deum, sicut operatur homo vel Angelus: sed aeternis atque 
+incommu<lb break="no" ed="#Ba" n="34"/>tabilibus et stabilibus rationibus cowterni sibi Verbi sui‘. De secundo autem
+<lb ed="#Ba" n="35"/>dicit idem, ibidem, libro IW, ubi sic dicit : Primo creabatur lux in qua. fieret
+<lb ed="#Ba" n="36"/>cognitio Verbi Dei per quod creabatur, atque ipsa cognitio illi esset ab 
+infor<lb break="no" ed="#Ba" n="37"/>mitate sua converti ad formantem Deum.
+</p>
+            <p xml:id="alalal-aa1000-d1e253">
+               <lb ed="#Ba" n="38"/>Sed objicitur de hoc quod dicit: Primogenita, etc. Quia hoc videtur ponere
+<lb ed="#Ba" n="39"/>ordinem sui ad creaturam: et cum omnis ordo sit secundum aliquod commune
+<pb ed="#Ba" n="3"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ipsis ordinatis, videtur Creator aliquid commune habere cum creatura : quod
+<lb ed="#Ba" n="2"/>non est verum. So.urio. Dicendum, quod notatur ibi ordo cause ad causatum,
+<lb ed="#Ba" n="3"/>et aeternitatis ad tempus: et nihil prohibet aliquid esse commune, non univoce
+<lb ed="#Ba" n="4"/>ens in utroque, sed per prius et posterius. Quod autem hoc sit verum patet per
+<lb ed="#Ba" n="5"/>Basilium in quodam sermone de Fide divinitatés, ubi sic dicit: Accipere 
+natu<lb break="no" ed="#Ba" n="6"/>ram Filio cum omni creatura commune est: habere autem naturaliter 
+pro<lb break="no" ed="#Ba" n="7"/>prium est ejus, quia ex natura est Patris. Per aliam autem partem 
+supponi<lb break="no" ed="#Ba" n="8"/>tur creatura in proprio genere, scilicet, in se per nomen creature, et in 
+uni<lb break="no" ed="#Ba" n="9"/>versitate per signum distributionis secundum quod habetur, Genes. 1, 31:
+<lb ed="#Ba" n="10"/>Vidit Deus cuncta quae fecerat, et erant valde bona : ubi dicit Glossa quod in se
+<lb ed="#Ba" n="11"/>quodlibet creatum bonum erat: sed universalitas erat optima.
+</p>
+            <p xml:id="alalal-aa1000-d1e288">
+               <lb ed="#Ba" n="12"/>Sequitur :
+<lb ed="#Ba" n="13"/>Ego fect in celts ut ortretur lumen indeficiens. Per hoc autem habetur materia
+<lb ed="#Ba" n="14"/>tertii Libri. Ortus enim luminis est ortus solis justitiee Christi Dei nostri, quando
+<lb ed="#Ba" n="15"/>per viscera misericordie sux, in quibus visitavit nos oriens ex alto: illuminare his
+<lb ed="#Ba" n="16"/>qui in tenebris et in umbra mortis sedent : in quo accipitur sacramentum 
+in<lb break="no" ed="#Ba" n="17"/>carnationis et passionis. Lumen autem indeficiens ex se, licet ex nobis 
+quando<lb break="no" ed="#Ba" n="18"/>que deficiat, est gratia virtutum, donorum, et praeceptorum, de quibus agitur
+  <lb ed="#Ba" n="19"/>in secunda parte tertii Libri. Unde. <ref xml:id="alalal-aa1000-Rd1e307">Jacob. 1,17</ref>: <quote xml:id="alalal-aa1000-Qd1e309"
+                      source="http://scta.info/resource/iac1_17">Omne datum optimum et omne
+<lb ed="#Ba" n="20"/>donum perfectum desursum est, descendens a Patre luminum, apud quem non est
+<lb ed="#Ba" n="21"/>transmutatio, nec vicissttudinis obumbratio</quote>. Hoc autem lumen fecit in ceelis ad
+<lb ed="#Ba" n="22"/>litteram, quia captivam duxit captivitatem, et dedit dona hominibus. Vel, in
+<lb ed="#Ba" n="23"/>colis, id est, in Sanctis.
+</p>
+            <p xml:id="alalal-aa1000-d1e322">
+               <lb ed="#Ba" n="24"/>Sequitur :
+<lb ed="#Ba" n="25"/>Sicut nebula, etc. Per hoc habetur materia quarti Libri. Nebula enim est |
+<lb ed="#Ba" n="26"/>obscura, et reliquie pluvie, et signum serenitatis, ut dicit Philosophus: et
+<lb ed="#Ba" n="27"/>per obscuritatem significat gratiam sacramentorum elementis corporalibus
+<lb ed="#Ba" n="28"/>obscuratam. Reliquie autem pluvie : quia tempestas peccati et obnubilatio
+<lb ed="#Ba" n="29"/>causat sacramenta, ut habetur in libro 1V, ut homo per idem redeat, per quod
+<lb ed="#Ba" n="30"/>recessit a Deo. In quantum autem signum serenilatis est, significat rem 
+om<lb break="no" ed="#Ba" n="31"/>nium sacramentorum significatam, et non contentam quae est gloria 
+resur<lb break="no" ed="#Ba" n="32"/>gentium, de quibus agitur in secunda parte quarti. Hac est nebula de qua
+<lb ed="#Ba" n="33"/>dicitur, Eccli. xiii, 24: Medicina omnium in festinatione nebule : quia per
+<lb ed="#Ba" n="34"/>sacramenta medetur culpe, per gloriam resurrectionis medetur miserie.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

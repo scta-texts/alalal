@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 13</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 13</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="112"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e22461"><!-- l3d5a13 -->
+            <head xml:id="alalal-e22461-Hd1e99">Articulus 13</head>
+            <head xml:id="alalal-e22461-Hd1e101" type="question-title">An ista sit concedenda, Divina natura
+est incarnata ?</head>
+            <p xml:id="alalal-e22461-d1e104">
+               <lb ed="Bd" n="57"/>ARTICULUS XIII.
+<lb ed="Bd" n="58"/>An ista sit concedenda, Divina natura
+<lb ed="Bd" n="59"/>est incarnata ?
+</p>
+            <p xml:id="alalal-e22461-d1e113">
+               <lb ed="Bd" n="60"/>Deinde, Queritur de hoc quod dicitur,
+<lb ed="Bd" n="61"/>ibi, B, circa medium : <quote xml:id="alalal-e22461-Qd1e119"> Omni enim 
+hu<lb break="no" ed="Bd" n="62"/>mane nature aimus esse unitam 
+om<lb break="no" ed="Bd" n="63"/>nem deitatis naturam vel substantiam. </quote>
+            </p>
+            <p xml:id="alalal-e22461-d1e127">
+               <lb ed="Bd" n="64"/>Quod enim simplex est, non videtur
+<lb ed="Bd" n="65"/>habere partes. Quid est ergo quod dicit,
+<lb ed="Bd" n="66"/>omnem deitatis naturam ?
+</p>
+            <p xml:id="alalal-e22461-d1e137">
+               <lb ed="Bd" n="67"/>Solutio Dicit, omnis, propter modos
+<lb ed="Bd" n="68"/>significandi per attributa, ut sapientia,
+<lb ed="Bd" n="69"/>potentia, et hujusmodi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

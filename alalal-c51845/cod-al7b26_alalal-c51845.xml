@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 28</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 28</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="273"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c51845"><!-- l1d37a28 -->
+            <head xml:id="alalal-c51845-Hd1e99">Articulus 28</head>
+            <head xml:id="alalal-c51845-Hd1e101" type="question-title">An potius dicendum sit, quod Deus est
+alicubi, vel alia sunt in ipso ?</head>
+            <p xml:id="alalal-c51845-d1e104">
+               <lb ed="#Bb" n="87"/>ARTICULUS XXVHT.
+<lb ed="#Bb" n="88"/>An potius dicendum sit, quod Deus est
+<lb ed="#Bb" n="89"/>alicubi, vel alia sunt in ipso ?
+</p>
+            <p xml:id="alalal-c51845-d1e113">
+               <lb ed="#Bb" n="90"/>Postea queritur de hoc quod dicit,
+<lb ed="#Bb" n="91"/>ibi, O, sub finem: <quote xml:id="alalal-c51845-Qd1e119"> Jn illo sunt 
+po<lb break="no" ed="#Bb" n="92"/>tius omnia quam tlle alicubi, etc. </quote>
+            </p>
+            <p xml:id="alalal-c51845-d1e125">
+               <pb ed="#Bb" n="274"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>1. Videtur enim sibi esse contrarius :
+<lb ed="#Bb" n="2"/>quoniam ante concessit Deum esse hic
+<lb ed="#Bb" n="3"/>totum, et in loco esse, et locum esse.
+</p>
+            <p xml:id="alalal-c51845-d1e139">
+               <lb ed="#Bb" n="4"/>2. Praeterea, Videtur contra 
+Augu<lb break="no" ed="#Bb" n="5"/>stinum ese quod dicit Angelum 
+move<lb break="no" ed="#Bb" n="6"/>ri, et non Deum, cum dicat 
+Augusti<lb break="no" ed="#Bb" n="7"/>nus Angelum non moveri per locum.
+</p>
+            <p xml:id="alalal-c51845-d1e150">
+               <lb ed="#Bb" n="8"/>Sed Ad hoc solvere leve est secundum
+<lb ed="#Bb" n="9"/>prius habita, ut dicatur Deum non esse
+<lb ed="#Bb" n="10"/>alicubi, secundum quod alicubi 
+partici<lb break="no" ed="#Bb" n="11"/>pare potest discretionem loci circa 
+lo<lb break="no" ed="#Bb" n="12"/>catum, quia sic removeret ab eo quod
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="13"/>non posset esset in locis aliis, et Deum
+<lb ed="#Bb" n="14"/>non esse proprie locum, sed per trans~
+<lb ed="#Bb" n="15"/>lationem ab aliqua loci proprietate.
+</p>
+            <p xml:id="alalal-c51845-d1e172">
+               <lb ed="#Bb" n="16"/>Ad aliud dicendum, quod Augusti~
+<lb ed="#Bb" n="17"/>nus (ut in Litfera determinatum est)
+<lb ed="#Bb" n="18"/>dicit Angelum non moveri localiter :
+<lb ed="#Bb" n="19"/>quia non commetitur se spatio, ut supra:
+<lb ed="#Bb" n="20"/>habitum est: sed catholice non potest
+<lb ed="#Bb" n="21"/>negari, quin Angeli moveantur, cum
+<lb ed="#Bb" n="22"/>hoc dicat canonica Scriptura, et non 
+as<lb break="no" ed="#Bb" n="23"/>sumptis corporibus tantum : sicut dixit
+<lb ed="#Bb" n="24"/>Zacharias : Angelus qui loquebatur in
+<lb ed="#Bb" n="25"/>me.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

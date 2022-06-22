@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="185"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a37317"><!-- l1d5a7 -->
+            <head xml:id="alalal-a37317-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-a37317-Hd1e101" type="question-title">An Filius bene dicatur consilium de
+consilio, et voluntas de voluntate ?</head>
+            <p xml:id="alalal-a37317-d1e104">
+               <lb ed="#Ba" n="30"/>ARTICULUS VII.
+<lb ed="#Ba" n="31"/>An Filius bene dicatur consilium de
+<lb ed="#Ba" n="32"/>consilio, et voluntas de voluntate ?
+</p>
+            <p xml:id="alalal-a37317-d1e113">
+               <lb ed="#Ba" n="33"/>Deinde quaeritur de hoc quod dicit:
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="34"/>
+               <quote xml:id="alalal-a37317-Qd1e121"> Dicitur Filius consilum de consilio,
+<lb ed="#Ba" n="35"/>et voluntas de voluntate, etc. </quote>
+            </p>
+            <p xml:id="alalal-a37317-d1e127">
+               <lb ed="#Ba" n="36"/>1. Dicit enim Damascenus quod 
+consi<lb break="no" ed="#Ba" n="37"/>liam non cadit in Deum, eo quod sit
+<lb ed="#Ba" n="38"/>ignorantis : ergo Filius non est 
+consi<lb break="no" ed="#Ba" n="39"/>lium de consilio.
+</p>
+            <p xml:id="alalal-a37317-d1e139">
+               <lb ed="#Ba" n="40"/>2. Praeterea, Supra habitum est',
+<lb ed="#Ba" n="41"/>quod voluntas attribuitur Spiritui 
+san<lb break="no" ed="#Ba" n="42"/>cto : ergo Filius non est voluntas de 
+vo<lb break="no" ed="#Ba" n="43"/>luntate, sed potius Spiritus sanctus, ut
+<lb ed="#Ba" n="44"/>videtur.
+</p>
+            <p xml:id="alalal-a37317-d1e152">
+               <lb ed="#Ba" n="45"/>Sotunio. Consilium dicitur duobus
+<lb ed="#Ba" n="46"/>modis, sicut et consulo : est enim 
+consi<lb break="no" ed="#Ba" n="47"/>lium ex parte querentis, et illud est
+<lb ed="#Ba" n="48"/>ignorantis : est etiam consilium ex parte
+<lb ed="#Ba" n="49"/>dantis, et hoc significat abundantiam et
+<lb ed="#Ba" n="50"/>plenitudinem scientie super ea quae 
+du<lb break="no" ed="#Ba" n="51"/>bitabilia sunt alii, et sic consilium in Deo
+<lb ed="#Ba" n="52"/>dicitur aeterna dispositio sapientie suze
+<lb ed="#Ba" n="53"/>de rebus fiendis, et hoc modo dicitur
+<lb ed="#Ba" n="54"/>Filius consilium de consilio, eo quod in
+<lb ed="#Ba" n="55"/>ipso ex precipua parte consilium 
+im<lb break="no" ed="#Ba" n="56"/>pletum est per incarnationem et 
+passio<lb break="no" ed="#Ba" n="57"/>nem. Unde etiam secundum aliam
+<lb ed="#Ba" n="58"/>translationem, Isa. ix, 6,  dicitur
+<lb ed="#Ba" n="59"/>
+               <quote xml:id="alalal-a37317-Qd1e186"> magni consilii Angelus. </quote> Et, Isa. x1,
+<lb ed="#Ba" n="60"/>2, dicitur Spiritus consilii super eum
+<lb ed="#Ba" n="61"/>requieyisse .
+</p>
+            <p xml:id="alalal-a37317-d1e194">
+               <lb ed="#Ba" n="62"/>Ad aliud dicendum, quod voluntas
+<lb ed="#Ba" n="63"/>licet approprietur Spiritui sancto, non
+<lb ed="#Ba" n="64"/>tamen est propria sibi : quia una est 
+vo<lb break="no" ed="#Ba" n="65"/>luntas trium : et ideo convenit Filio 
+ha<lb break="no" ed="#Ba" n="66"/>bere voluntatem per hoc quod eam a 
+Pa<lb break="no" ed="#Ba" n="67"/>tre accepit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

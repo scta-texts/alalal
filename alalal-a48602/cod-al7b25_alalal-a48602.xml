@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="244"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a48602"><!-- l1d8dt2 -->
+            <head xml:id="alalal-a48602-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a48602-d1e101">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="5"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-a48602-d1e108">
+               <lb ed="#Ba" n="6"/>
+               <quote xml:id="alalal-a48602-Qd1e112"> Dei etiam solius essentia proprie 
+in<lb break="no" ed="#Ba" n="7"/>commutabilis dicitur, etc. </quote>
+               <lb ed="#Ba" n="8"/>Hic ostendit Magister Dei naturam
+<lb ed="#Ba" n="9"/>solam esse incommutabilem : et hoc
+<lb ed="#Ba" n="10"/>duobus, scilicet quod non mutatur, et
+<lb ed="#Ba" n="11"/>quia mutari non potest. Omnis autem
+<lb ed="#Ba" n="12"/>natura creata de natura sua mutatur,
+<lb ed="#Ba" n="13"/>vel mutari potest. Et ex hoc in hoc 
+ca<lb break="no" ed="#Ba" n="14"/>pitulo concludit ulterius, quod sola 
+na<lb break="no" ed="#Ba" n="15"/>tura divina est immortalis, eo quod 
+va<lb break="no" ed="#Ba" n="16"/>riatio creature est mors. Et tandem in
+<lb ed="#Ba" n="17"/>fine capituli infertur, quod 
+predica<lb break="no" ed="#Ba" n="18"/>menta quando in divina praedicatione
+<lb ed="#Ba" n="19"/>referuntur, quod proprias essentias non
+<lb ed="#Ba" n="20"/>predicant, sed substantiam. Et hoc est
+<lb ed="#Ba" n="21"/>quod dicit in hoc capitulo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prologus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prologus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="6"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-aa1396"><!-- l1prol -->
+            <head xml:id="alalal-aa1396-Hd1e99">Prologus</head>
+            <p xml:id="alalal-aa1396-d1e101">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="25"/>IN PROLOGUM MAGISTRI EXPOSITIO.
+  <lb ed="#Ba" n="26"/>
+               <quote xml:id="alalal-aa1396-Qd1e109"> Cupientes aliquid, etc. </quote>
+               <lb ed="#Ba" n="27"/>Procemium istud dividitur in tres par~
+<lb ed="#Ba" n="28"/>tes, quarum prima sumitur ex parte 
+scri<lb break="no" ed="#Ba" n="29"/>pti sive operis, cujus assignat causas
+<lb ed="#Ba" n="30"/>moventes : finalem, materialem, et 
+for<lb break="no" ed="#Ba" n="31"/>malem. Secunda autem sumitur ex 
+par<lb break="no" ed="#Ba" n="32"/>te scripti ejus cui scribitur, sive quibus
+<lb ed="#Ba" n="33"/>fit opus istud, quae incipit, ibi, <quote xml:id="alalal-aa1396-Qd1e127"> Non
+<lb ed="#Ba" n="34"/>igitur debet. </quote> Tertia autem sumitur ex
+<lb ed="#Ba" n="35"/>parte scribentis, in qua Auctor 
+determi<lb break="no" ed="#Ba" n="36"/>nat dispositionem suam in scribendo,
+<cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="37"/>dicens se querere pium lectorem et 
+libe<lb break="no" ed="#Ba" n="38"/>rum correctorem in hoc scripto, et hec
+<lb ed="#Ba" n="39"/>incipit, ibi, <quote xml:id="alalal-aa1396-Qd1e145"> Jn hoc autem tractatu non
+<lb ed="#Ba" n="40"/>solum, etc. </quote>
+            </p>
+            <p xml:id="alalal-aa1396-d1e151">
+               <lb ed="#Ba" n="41"/>Prima harum partium dividitur in
+<lb ed="#Ba" n="42"/>duas, in quarum prima tangit causas
+<lb ed="#Ba" n="43"/>moventes ex parte Dei et proximi. In 
+se<lb break="no" ed="#Ba" n="44"/>cunda autem ex causis moventibus 
+con<lb break="no" ed="#Ba" n="45"/>cludit etiam alias causas hujus operis,
+<lb ed="#Ba" n="46"/>ibi, <quote xml:id="alalal-aa1396-Qd1e166"> Horum igitur et Deo odibilem, etc. </quote>
+            </p>
+            <p xml:id="alalal-aa1396-d1e169">
+               <lb ed="#Ba" n="47"/>Prima autem quae continet causas
+<lb ed="#Ba" n="48"/>moventes ad scribendum, dividitur in
+<lb ed="#Ba" n="49"/>duas partes secundum duos ramos 
+cha<lb break="no" ed="#Ba" n="50"/>ritatis. In prima enim dicit moventes
+<pb ed="#Ba" n="7"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ex parte dilectionis Dei. In secunda 
+au<lb break="no" ed="#Ba" n="2"/>tem dicit moventes ex parte dilectionis
+<lb ed="#Ba" n="3"/>proximi : et haecincipit, ibi, <quote xml:id="alalal-aa1396-Qd1e190"> Non 
+va<lb break="no" ed="#Ba" n="4"/>lentes studiosorum, etc. </quote>
+            </p>
+            <p xml:id="alalal-aa1396-d1e196">
+               <lb ed="#Ba" n="5"/>Adhuc, prima quae continet causas 
+mo<lb break="no" ed="#Ba" n="6"/>ventes ex parte dilectionis Dei, 
+subdividi<lb break="no" ed="#Ba" n="7"/>tur in quatuor. In prima tangit causam
+<lb ed="#Ba" n="8"/>moventem ex parte mercedis promiss®
+<lb ed="#Ba" n="9"/>scribentibus. In secunda miscet duas
+<lb ed="#Ba" n="10"/>moventes : unam per se, aliam per aliud,
+<lb ed="#Ba" n="11"/>cum duabus retrahentibus, ibi, <quote xml:id="alalal-aa1396-Qd1e213"> Delectat
+<lb ed="#Ba" n="12"/>nos veritas pollicentis, etc. </quote> In tertia 
+po<lb break="no" ed="#Ba" n="13"/>nit unam vincentem, et duas 
+retrahen<lb break="no" ed="#Ba" n="14"/>tes, ibi, <quote xml:id="alalal-aa1396-Qd1e222"> Quam vincit zelus, etc. </quote> In
+<lb ed="#Ba" n="15"/>quarta istarum ex causis istis 
+sufficien<lb break="no" ed="#Ba" n="16"/>tibus ad movendum ex parte dilectionis
+<lb ed="#Ba" n="17"/>Dei tangit{succincte quid seribere 
+inten<lb break="no" ed="#Ba" n="18"/>dat: juxta quod infra post omnes alias
+<lb ed="#Ba" n="19"/>causas hoc prolixius exsequi disposuit:
+<lb ed="#Ba" n="20"/>et haecincipit, ibi, <quote xml:id="alalal-aa1396-Qd1e238"> Quo inardescentes
+<lb ed="#Ba" n="21"/>fidem nostram, etc. </quote>
+            </p>
+            <p xml:id="alalal-aa1396-d1e245">
+               <lb ed="#Ba" n="22"/>Littera sic exponitur :
+<lb ed="#Ba" n="23"/>
+               <quote xml:id="alalal-aa1396-Qd1e251"> Cupientes aliquid, etc. </quote> 
+Humilita<lb break="no" ed="#Ba" n="24"/>tem offert, et difficultatem : quia aliquid
+<lb ed="#Ba" n="25"/>sonat parum. Unde, Job, xxvi, 14: Cum
+<lb ed="#Ba" n="26"/>viae parvam stillam sermonis ejus 
+audie<lb break="no" ed="#Ba" n="27"/>rimus, quis poterit tonitruum 
+magni<lb break="no" ed="#Ba" n="28"/>tudinis illius intueri ? Parva stilla est
+<lb ed="#Ba" n="29"/>sermo de creaturis. Tonitruum obruens
+<lb ed="#Ba" n="30"/>et emicans de nube obscuritatis, est 
+ser<lb break="no" ed="#Ba" n="31"/>mo de Trinitate et unitate. Hoc autem
+<lb ed="#Ba" n="32"/>contingit propter materi difficultatem :
+<lb ed="#Ba" n="33"/>sicut habetur, Eccle. 1, 8 : Cuncte res
+<lb ed="#Ba" n="34"/>difficiles : non potest eas homo 
+explica<lb break="no" ed="#Ba" n="35"/>re sermone.
+</p>
+            <p xml:id="alalal-aa1396-d1e280">
+               <lb ed="#Ba" n="36"/>
+               <quote xml:id="alalal-aa1396-Qd1e284"> In gazophylacium, etc. </quote> Gaze 
+di<lb break="no" ed="#Ba" n="37"/>vitias persice sonant, gvddccew greece 
+ser<lb break="no" ed="#Ba" n="38"/>vare: unde gazophylacium servatorium
+<lb ed="#Ba" n="39"/>sive theca divitiarum est. Hoc autem in
+<lb ed="#Ba" n="40"/>hoe Libro studium  significat sancte
+<lb ed="#Ba" n="41"/>Ecclesia, in quo reposuerunt Doctores
+<lb ed="#Ba" n="42"/>sancti suos libros.
+</p>
+            <p xml:id="alalal-aa1396-d1e300">
+               <lb ed="#Ba" n="43"/>Erat autem apud veteres triplex 
+gazo<lb break="no" ed="#Ba" n="44"/>phylacium, scilicet, musach quod erat
+<lb ed="#Ba" n="45"/>ad oblationes regum, de quo habetur,
+<lb ed="#Ba" n="46"/>IV Regum, xvi, 18, quod Achaz musach
+<lb ed="#Ba" n="47"/>sabbati, quod exdificaverat in templo, et
+<lb ed="#Ba" n="48"/>ingressum regis exterius, convertil in
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="49"/>templum Domini, propter regem 
+Assy<lb break="no" ed="#Ba" n="50"/>rierum. Corban autem vel corbona erat
+<lb ed="#Ba" n="51"/>ad donaria sacerdotum, de Squo legitur,
+<lb ed="#Ba" n="52"/>Matth. xxvu, 6: Non licet eos mittere in
+<lb ed="#Ba" n="53"/>corbonam, etc. Tertium communiter 
+di<lb break="no" ed="#Ba" n="54"/>citur gazophylacium, quod erat ad 
+obla<lb break="no" ed="#Ba" n="55"/>tiones plebis, de quo habetur, Luce,
+<lb ed="#Ba" n="56"/>xxl, 1: Respiciens, scilicet Jesus, vidit
+<lb ed="#Ba" n="57"/>eos qui mittebant munera sua in 
+gazo<lb break="no" ed="#Ba" n="58"/>phylacium, divites, etc. Ali aliter 
+di<lb break="no" ed="#Ba" n="59"/>cunt : eo enim quod legitur masach 
+sab<lb break="no" ed="#Ba" n="60"/>bati, dicunt quod in illo reponebantur
+<lb ed="#Ba" n="61"/>oblationes festive : quia vero corban 
+he<lb break="no" ed="#Ba" n="62"/>braice idem est quod votum, dicunt
+<lb ed="#Ba" n="63"/>quod in illo reponebantur oblationes 
+vo<lb break="no" ed="#Ba" n="64"/>tive, in gazophylacio autem  
+sponta<lb break="no" ed="#Ba" n="65"/>nee.
+</p>
+            <p xml:id="alalal-aa1396-d1e355">
+               <lb ed="#Ba" n="66"/>Et sequitur :
+<lb ed="#Ba" n="67"/>
+               <quote xml:id="alalal-aa1396-Qd1e361"> De penuria, etc. </quote> Penuria dicit 
+de<lb break="no" ed="#Ba" n="68"/>fectum bonorum acquisitorum, et 
+secun<lb break="no" ed="#Ba" n="69"/>dum translationem ad spiritualia, dicit
+<lb ed="#Ba" n="70"/>defectum habitus acquisiti in intellectu
+<lb ed="#Ba" n="71"/>qui est scientia. Tenuitas autem dicit
+<lb ed="#Ba" n="72"/>diminutionem quantitatis debite,et 
+trans<lb break="no" ed="#Ba" n="73"/>latum dicit exiguitatem ingenii ad actum
+<lb ed="#Ba" n="74"/>inventionis scientia. Quod autem 
+sequi<lb break="no" ed="#Ba" n="75"/>tur: <quote xml:id="alalal-aa1396-Qd1e381"> Ardua scandere, etc., </quote> 
+respon<lb break="no" ed="#Ba" n="76"/>det penuriae : quia divina dicuntur ardua
+<lb ed="#Ba" n="77"/>respectu scitorum de quibus est scientia.
+<lb ed="#Ba" n="78"/>Quod vero dicit : <quote xml:id="alalal-aa1396-Qd1e389"> Opus ulira vires, </quote>
+               <lb ed="#Ba" n="79"/>respondet secundo quod est tenuitas :
+<lb ed="#Ba" n="80"/>quia hoc dicebat hebetudinem vis 
+natu<lb break="no" ed="#Ba" n="81"/>ralis, quod est ingenium.
+</p>
+            <p xml:id="alalal-aa1396-d1e399">
+               <lb ed="#Ba" n="82"/>
+               <quote xml:id="alalal-aa1396-Qd1e403"> Ardua scandere, etc. </quote> Notat, quod
+<lb ed="#Ba" n="83"/>ardua sunt alta‘quedam, sed non 
+eleva<lb break="no" ed="#Ba" n="84"/>ta supra potentiam nostri intellectus.
+<lb ed="#Ba" n="85"/>Opus autem ultra vires est, quod est 
+ele<lb break="no" ed="#Ba" n="86"/>vatum supra nostram potentiam. 
+Scan<lb break="no" ed="#Ba" n="87"/>duntur autem ardua triplici gradu : 
+que<lb break="no" ed="#Ba" n="88"/>dam enim accedunt ad animam nostram
+<lb ed="#Ba" n="89"/>sensu, imaginatione, et intellectu : 
+que<lb break="no" ed="#Ba" n="90"/>dam imaginatione, et intellectu tantum :
+<lb ed="#Ba" n="91"/>quedam autem intellectu tantum. Prima
+<lb ed="#Ba" n="92"/>sunt alta tantum, secunda altiora, tertia
+<lb ed="#Ba" n="93"/>allissima. Unde, Augustinus super, 
+Ge<lb break="no" ed="#Ba" n="94"/>nesim : Tria visionum genera occurrunt.
+<lb ed="#Ba" n="95"/>Unum per oculos, quibus res corporales
+<lb ed="#Ba" n="96"/>videntur : alterum per spiritum, quo res
+<lb ed="#Ba" n="97"/>absentes corporales cogitantur ; tertium
+<pb ed="#Ba" n="8"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>per contuitum mentis, quo species rerum
+<lb ed="#Ba" n="2"/>intellecta conspicitur'. Et hac 
+respon<lb break="no" ed="#Ba" n="3"/>dent tribus in Prophetia, scilicet, 
+con<lb break="no" ed="#Ba" n="4"/>junctis secundum rationem diffinitivam
+<lb ed="#Ba" n="5"/>cum motu et materia, quae sunt 
+natura<lb break="no" ed="#Ba" n="6"/>lia: et separatis secundum rationem a
+<lb ed="#Ba" n="7"/>motu et materia, sed tamen per esse 
+con<lb break="no" ed="#Ba" n="8"/>junctis, et haec sunt mathematicalia : et
+<lb ed="#Ba" n="9"/>separatis per esse et per diffimtionem a
+<lb ed="#Ba" n="10"/>motu et materia, et haecsunt divina a
+<lb ed="#Ba" n="11"/>quibus trahuntur rationes naturales ad
+<lb ed="#Ba" n="12"/>cognoscendum Creaiorem, sicut facit,
+<lb ed="#Ba" n="13"/>infra, distinctione III et IV.
+</p>
+            <p xml:id="alalal-aa1396-d1e471">
+               <lb ed="#Ba" n="14"/>
+               <quote xml:id="alalal-aa1396-Qd1e475"> Opus autem ultra vires, etc., </quote> est
+<lb ed="#Ba" n="15"/>cognitio Trinitatis et unitatis.
+</p>
+            <p xml:id="alalal-aa1396-d1e481">
+               <lb ed="#Ba" n="16"/>Sed videtur esse contra quod dicit 
+Ke<lb break="no" ed="#Ba" n="17"/>clesiasticus, 1, 22 : Altiora te ne 
+quesie<lb break="no" ed="#Ba" n="18"/>ris, et fortiora te ne scrutatus fueris.
+<lb ed="#Ba" n="19"/>Item, in Proverb, xxi, 5 : Ne erigas
+<lb ed="#Ba" n="20"/>oculos ad opes quas non poles habere,
+<lb ed="#Ba" n="21"/>quia facient sibi pennas quasi aquile,
+<lb ed="#Ba" n="22"/>et volabunt in celum. Responsio, quod
+<lb ed="#Ba" n="23"/>ultra vires nostras est secundum se : sed
+<lb ed="#Ba" n="24"/>cum ratio fide juvatur, valet in id in quod
+<lb ed="#Ba" n="25"/>ante non valuit. Unde, ad Hebr. x1, 1: Asé
+<lb ed="#Ba" n="26"/>fides sperandarum substantia rerum, 
+ar<lb break="no" ed="#Ba" n="27"/>gumentum non apparentium, Et, Had
+<lb ed="#Ba" n="28"/>Corinth. in, 5: Non quod sufficientes
+<lb ed="#Ba" n="29"/>simus cogitare aliquid a nobis quasi ex
+<lb ed="#Ba" n="30"/>nobis, sed sufficientia nostra ex Deo est.
+</p>
+            <p xml:id="alalal-aa1396-d1e516">
+               <lb ed="#Ba" n="31"/>
+               <quote xml:id="alalal-aa1396-Qd1e520"> Quam vincit zelus domus Dei, etc. </quote>
+               <lb ed="#Ba" n="32"/>Psal. uxvm, 10 : Zelus domus tue 
+com<lb break="no" ed="#Ba" n="33"/>edit me. Et hoc inducitur, Joan. u, 17,
+<lb ed="#Ba" n="34"/>et ibi dicit Glossa : Zelus bonus est quo
+<lb ed="#Ba" n="35"/>animus, abjecto timore humano, 
+accen<lb break="no" ed="#Ba" n="36"/>ditur et eo comeditur, quod quaelibet
+<lb ed="#Ba" n="37"/>prava quae viderit, corrigere satagit : si
+<lb ed="#Ba" n="38"/>nequiverit, tolerat, et gemit.
+</p>
+            <p xml:id="alalal-aa1396-d1e538">
+               <lb ed="#Ba" n="39"/>
+               <quote xml:id="alalal-aa1396-Qd1e542"> Adversus errores carnaiwum, etc. </quote>
+               <lb ed="#Ba" n="40"/>I ad Corinth. u, 14: <quote xml:id="alalal-aa1396-Qd1e546"
+                      source="http://scta.info/resource/Icor2_14">Animalis homo
+<lb ed="#Ba" n="41"/>non percipit ea quae sunt Spiritus Dei:
+<lb ed="#Ba" n="42"/>stultitia enim est illi, et non potest 
+in<lb break="no" ed="#Ba" n="43"/>telligere, quia spiritualiter examinatur</quote>,
+<lb ed="#Ba" n="44"/>id est, fit examinatio spiritualium, Et
+<lb ed="#Ba" n="45"/>quos Magister me distinguendo vocat
+<lb ed="#Ba" n="46"/>carnales et animales, Apostolus 
+commu<lb break="no" ed="#Ba" n="47"/>niter animales vocat. Unde Glossa ibi-
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>dem: Animalis homo dicitur vel vita, vel
+<lb ed="#Ba" n="49"/>sensu : vita autem homo animalis dicitur, 
+<lb ed="#Ba" n="50"/>qui fertur dissoluta lascivia anime sue,
+<lb ed="#Ba" n="51"/>quam infra naturalis ordinis metas 
+spiri<lb break="no" ed="#Ba" n="52"/>tus rector non continet, eo quod ipse Deo
+<lb ed="#Ba" n="53"/>se regenti non subjicit : homo vero 
+sen<lb break="no" ed="#Ba" n="54"/>su dicitur animalis, qui de Deo juxta 
+cor<lb break="no" ed="#Ba" n="55"/>porum phantasiam, vel legis litteram,
+<lb ed="#Ba" n="56"/>vel rationem physicam judicat.
+</p>
+            <p xml:id="alalal-aa1396-d1e587">
+               <lb ed="#Ba" n="57"/>
+               <quote xml:id="alalal-aa1396-Qd1e591"> Davidice turris clypeis, etc. </quote> 
+Can<lb break="no" ed="#Ba" n="58"/>tic. iv, 4: Sieut turris David collum
+<lb ed="#Ba" n="59"/>tuum, quae edificata est cum 
+propugna<lb break="no" ed="#Ba" n="60"/>culis : mille clypei pendent ex ea, etc.
+<lb ed="#Ba" n="61"/>Collum autem est per quod corpus 
+con<lb break="no" ed="#Ba" n="62"/>jungitur capiti, et in quo verba 
+forman<lb break="no" ed="#Ba" n="63"/>tur, et significat fidem quae lcclesiam
+<lb ed="#Ba" n="64"/>Deo jungil. Clypei autem sunt 
+auctorita<lb break="no" ed="#Ba" n="65"/>tes veritatis reperte a Sanctis, habentes
+<lb ed="#Ba" n="66"/>signa ducum nostrorum, scilicet, 
+Au<lb break="no" ed="#Ba" n="67"/>gustini, Hicronymi, et aliorum 
+Docto<lb break="no" ed="#Ba" n="68"/>rum, Armatura autem fortium est 
+syllo<lb break="no" ed="#Ba" n="69"/>gismus et similitudo congrua quibus 
+pro<lb break="no" ed="#Ba" n="70"/>gredimur in hae scientia.
+</p>
+            <p xml:id="alalal-aa1396-d1e622">
+               <lb ed="#Ba" n="71"/>
+               <quote xml:id="alalal-aa1396-Qd1e626"> Non valentes studiosorum, etc. </quote> Hic
+<lb ed="#Ba" n="72"/>tangit, causam moventem ex parte 
+dile<lb break="no" ed="#Ba" n="73"/>ctionis proximi, et sicut prius miscct
+<lb ed="#Ba" n="74"/>cum hae causa etiam causam 
+retrahen<lb break="no" ed="#Ba" n="75"/>tem, et sic sunt hic duo. Primo, causa
+<lb ed="#Ba" n="76"/>movens est amor proximi. Secundo,
+<lb ed="#Ba" n="77"/>causa retrahens, obtrectatio invidorum,
+<lb ed="#Ba" n="78"/>ibi, <quote xml:id="alalal-aa1396-Qd1e643"> Quamvis non ambigamus, etc. </quote>
+            </p>
+            <p xml:id="alalal-aa1396-d1e646">
+               <lb ed="#Ba" n="79"/>Prima habet duo, scilicet 
+efflagitatio<lb break="no" ed="#Ba" n="80"/>nem studiosorum, quia excitat auditorum
+<lb ed="#Ba" n="81"/>studium : secundo etiam charitas Christi
+<lb ed="#Ba" n="82"/>in membris. Secunda autem dividitur in
+<lb ed="#Ba" n="83"/>duas partes, in quarum prima describit
+<lb ed="#Ba" n="84"/>detrahentes. Quia vero aperta malitia
+<lb ed="#Ba" n="85"/>nocere non potest, ideoin secunda 
+tan<lb break="no" ed="#Ba" n="86"/>git modum  simulationis eorum, _ ibi,
+<lb ed="#Ba" n="87"/>
+               <quote xml:id="alalal-aa1396-Qd1e667"> Habent rationem sapientia in 
+supersti<lb break="no" ed="#Ba" n="88"/>tione, elec </quote>
+            </p>
+            <p xml:id="alalal-aa1396-d1e674">
+               <lb ed="#Ba" n="89"/>In prima tangit duo, scilicet, quod 
+de<lb break="no" ed="#Ba" n="90"/>trectatio amulorum non valet eum 
+re<lb break="no" ed="#Ba" n="91"/>trahere, et descriptioneni wmulorum,
+<lb ed="#Ba" n="92"/>thi, <quote xml:id="alalal-aa1396-Qd1e684"> Guta dessentiaentibus, etc. </quote> Et hee
+<lb ed="#Ba" n="93"/>secunda hahet quatuor, scilicel descrip-
+  <pb ed="#Ba" n="9"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>tionem eorum a causa proxima 
+pertina<lb break="no" ed="#Ba" n="2"/>ciz. Secundo, a causa extrinseca 
+sugge<lb break="no" ed="#Ba" n="3"/>rente, ibi, <quote xml:id="alalal-aa1396-Qd1e700"> Quam Deus hujus seculi. </quote>
+               <lb ed="#Ba" n="4"/>Tertio, a perversitate ordinis in anima,
+<lb ed="#Ba" n="5"/>ibi, <quote xml:id="alalal-aa1396-Qd1e706"> Quos iniqgua voluntas. </quote> Quarto,
+<lb ed="#Ba" n="6"/>a studio, ibi, <quote xml:id="alalal-aa1396-Qd1e710"> Quorum professio est 
+lin<lb break="no" ed="#Ba" n="7"/>gua ae stylo : </quote> quorum prima scientia
+<lb ed="#Ba" n="8"/>docetur, secundo perpetuatur. Vel, 
+din<lb break="no" ed="#Ba" n="9"/>gua dicit, quia alicubi, licet parum vox
+<lb ed="#Ba" n="10"/>sua insonuit : sfylo autem, propter hoc
+<lb ed="#Ba" n="11"/>quod ponit scripta sub stylo Patrum,
+</p>
+            <p xml:id="alalal-aa1396-d1e725">
+               <lb ed="#Ba" n="12"/>
+               <quote xml:id="alalal-aa1396-Qd1e729"> Agitat Christi charitas, etc. </quote> 
+Con<lb break="no" ed="#Ba" n="13"/>tra: Eeccle.ix, 1: Neseit homo utrum
+<lb ed="#Ba" n="14"/>amore an odio dignus sit. Souurio. 
+Cha<lb break="no" ed="#Ba" n="15"/>ritas potest sumi secundum virtutem
+<lb ed="#Ba" n="16"/>nominis, scilicet, ut est amor appretians
+<lb ed="#Ba" n="17"/>multum amatum, et sic certi possumus
+<lb ed="#Ba" n="18"/>esse de charitate per conjecturas 
+expe<lb break="no" ed="#Ba" n="19"/>rientie : vel potest sumi pro habitu 
+di<lb break="no" ed="#Ba" n="20"/>stinguente inter filios regni et 
+perditio<lb break="no" ed="#Ba" n="21"/>nis, et sic nemo est certus in via.
+</p>
+            <p xml:id="alalal-aa1396-d1e751">
+               <lb ed="#Ba" n="22"/>Objicitur de hoc quod dicit: <quote xml:id="alalal-aa1396-Qd1e755"> Veritati
+<lb ed="#Ba" n="23"/>non intellecte vel offendenti, etc. </quote> Hoc
+<lb ed="#Ba" n="24"/>enim videtur dicere Hieronymus, dicens
+<lb ed="#Ba" n="25"/>quod veritas odium parit. Sed contra :
+<lb ed="#Ba" n="26"/>Ill Esdre, wv, 36: Omnis terra 
+verita<lb break="no" ed="#Ba" n="27"/>tem invocat, celum, etiam ipsam 
+bene<lb break="no" ed="#Ba" n="28"/>dicit, et omnia opera moventur, et 
+tre<lb break="no" ed="#Ba" n="29"/>munt eam. Item, ibidem, yy. 89 et 40:
+<lb ed="#Ba" n="30"/>Omnes benignantur in operibus ejus, 
+sci<lb break="no" ed="#Ba" n="31"/>licet veritatis : e¢ non est in Judicio epus
+<lb ed="#Ba" n="32"/>iniguum.
+</p>
+            <p xml:id="alalal-aa1396-d1e780">
+               <lb ed="#Ba" n="33"/>Praeterea, Philosophus dicit, quod finis
+<lb ed="#Ba" n="34"/>intelligentiae speculative est veritas : 
+ni<lb break="no" ed="#Ba" n="35"/>hil autem odit finem, sed potius 
+deside<lb break="no" ed="#Ba" n="36"/>rat. Sed contra, Joan. 11, 20 : Omnis qui
+<lb ed="#Ba" n="37"/>male agit, odit lucem, et non venit ad
+<lb ed="#Ba" n="38"/>lucem, ut non arguantur opera ejus.
+<lb ed="#Ba" n="39"/>Solutio. Veritas per se delectabilis est
+<lb ed="#Ba" n="40"/>omni homini, et omni nature 
+intellecti<lb break="no" ed="#Ba" n="41"/>ve et rationali : sed per accidens 
+offen<lb break="no" ed="#Ba" n="42"/>dit, aut habet contradictores. Et hoc 
+ac<lb break="no" ed="#Ba" n="43"/>cidens est ut frequenter triplex, scilicet,
+<lb ed="#Ba" n="44"/>quia est contraria volito, et sic loquitur
+<lb ed="#Ba" n="45"/>hic Magister, ut patet in Littera : vel
+<lb ed="#Ba" n="46"/>quia ab aliquo cu invidetur, est inventa:
+<lb ed="#Ba" n="47"/>vel quia arguit malitiam in audiente, 
+sic<lb break="no" ed="#Ba" n="48"/>ulhabetur, Wi Regum, xxu, 8: Remansit
+<lb ed="#Ba" n="49"/>vir UnUS per Guem possumus interrogare
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="50"/>Dominum : sed ego odi eum, quia non
+<lb ed="#Ba" n="51"/>prophetat mihi bonum, sed semper 
+ma<lb break="no" ed="#Ba" n="52"/>lum, Michexsas, filius Jemla.
+</p>
+            <p xml:id="alalal-aa1396-d1e828">
+               <lb ed="#Ba" n="53"/>
+               <quote xml:id="alalal-aa1396-Qd1e832"> Quam Deus hujus secult operatur,
+<lb ed="#Ba" n="54"/>etc. </quote> JI ad Corinth. wv, 4: Deus hujus
+<lb ed="#Ba" n="55"/>seculi excecavit mentes infidelium, ut
+<lb ed="#Ba" n="56"/>non fulgeat illis illuminatio Evangelit
+<lb ed="#Ba" n="57"/>glorie Christi, qui est imago Dei, 
+sci<lb break="no" ed="#Ba" n="58"/>licet invisibilis : et exponitur ibi a Glossa
+<lb ed="#Ba" n="59"/>quatuor modis, scilicet pro Deo justo
+<lb ed="#Ba" n="60"/>qui regit bonos, et pro merito impietatis
+<lb ed="#Ba" n="61"/>in infidelitatem permittit precipitari 
+ma<lb break="no" ed="#Ba" n="62"/>los. Secundo, pro diabolo qui Deus et
+<lb ed="#Ba" n="63"/>princeps hujus mundiest. Joan. xiv, 30:
+<lb ed="#Ba" n="64"/>Venit enim princeps mundi hujus, etc.
+<lb ed="#Ba" n="65"/>Tertio, de superbia quae est causa 
+exce<lb break="no" ed="#Ba" n="66"/>cationis. Quarto, de ventre. Unde, ad
+<lb ed="#Ba" n="67"/>Philip. m, 19 : Quorum Deus venter est.
+</p>
+            <p xml:id="alalal-aa1396-d1e866">
+               <lb ed="#Ba" n="68"/>Objicitur autem contra hoc quod 
+di<lb break="no" ed="#Ba" n="69"/>cit: <quote xml:id="alalal-aa1396-Qd1e872"> Diffidentiae filris, etc. </quote> Quia dicit
+<lb ed="#Ba" n="70"/>Hieronymus, quod de nemine 
+desperan<lb break="no" ed="#Ba" n="71"/>dum est, dum est in via. Solutio. 
+Quan<lb break="no" ed="#Ba" n="72"/>tum est de misericordia Dei et ratione
+<lb ed="#Ba" n="73"/>vie non est desperandum : sed 
+quan<lb break="no" ed="#Ba" n="74"/>tum est de ratione morbi: quia 
+pecca<lb break="no" ed="#Ba" n="75"/>tum incredulitatis vix deseritur, eo quod
+<lb ed="#Ba" n="76"/>alludere videtur rationi.
+</p>
+            <p xml:id="alalal-aa1396-d1e891">
+               <lb ed="#Ba" n="77"/>
+               <quote xml:id="alalal-aa1396-Qd1e895"> Non rationi voluntatem subsiciunt,
+<lb ed="#Ba" n="78"/>etc. </quote> Hoc secundum Avicennam est
+<lb ed="#Ba" n="79"/>principium mali : sicut etiam dicit 
+ver<lb break="no" ed="#Ba" n="80"/>sus :
+<lb ed="#Ba" n="81"/>
+               <quote xml:id="alalal-aa1396-Qd1e907">Sic volo, sic jubeo, sit pro ratione voluntas</quote>
+            </p>
+            <p xml:id="alalal-aa1396-d1e910">
+               <lb ed="#Ba" n="82"/>Haec enim est perversitas recti ordinis :
+<lb ed="#Ba" n="83"/>de quibus, Eccle. 1,15: Perversi difficile
+<lb ed="#Ba" n="84"/>corriguntur, et stultorum infinitus est
+<lb ed="#Ba" n="85"/>numerus.
+</p>
+            <p xml:id="alalal-aa1396-d1e921">
+               <lb ed="#Ba" n="86"/>
+               <quote xml:id="alalal-aa1396-Qd1e925"> Sed his quae somniarunt, etc. </quote> Bene
+<lb ed="#Ba" n="87"/>vocat heresim somnium : quod in 
+som<lb break="no" ed="#Ba" n="88"/>nio simulacra ex imaginatione moventur
+<lb ed="#Ba" n="89"/>ad organum sensus communis : et fit
+<lb ed="#Ba" n="90"/>conversio anime super simulacrum sicut
+<lb ed="#Ba" n="91"/>super rem. Ita heretici de corde suo
+<lb ed="#Ba" n="92"/>phantastico proferunt simulacra et 
+con<lb break="no" ed="#Ba" n="93"/>vertuntur ad ea, sicut ad rerum 
+verita<lb break="no" ed="#Ba" n="94"/>tem.
+</p>
+            <p xml:id="alalal-aa1396-d1e945">
+               <lb ed="#Ba" n="95"/>
+               <quote xml:id="alalal-aa1396-Qd1e949"> Ad fabulas, etc. </quote> Mira dicere 
+que<lb break="no" ed="#Ba" n="96"/>runt : quia dicit Philosophus in primo
+<pb ed="#Ba" n="10"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Metaphysice, quod fabula composita est
+<lb ed="#Ba" n="2"/>ex miris. II ad Timoth. iv, 4: A veritate
+<lb ed="#Ba" n="3"/>quidem auditum avertent, ad fabulas
+<lb ed="#Ba" n="4"/>autem convertentur.
+</p>
+            <p xml:id="alalal-aa1396-d1e967">
+               <lb ed="#Ba" n="5"/>
+               <quote xml:id="alalal-aa1396-Qd1e971"> Magis placita, etc. </quote> Isa. xxx, 10:
+<lb ed="#Ba" n="6"/>Dicunt videntibus : Nolite videre : et 
+ad<lb break="no" ed="#Ba" n="7"/>spicientibus : Nolite adspicere nobis ea
+<lb ed="#Ba" n="8"/>que recta sunt : loguimini nobis 
+pla<lb break="no" ed="#Ba" n="9"/>centia : videte nobis errores.
+</p>
+            <p xml:id="alalal-aa1396-d1e983">
+               <lb ed="#Ba" n="10"/>
+               <quote xml:id="alalal-aa1396-Qd1e987"> Habent rationem sapientiaex, etc. </quote>
+               <lb ed="#Ba" n="11"/>Haec pars quae est de modo simulationis
+<lb ed="#Ba" n="12"/>eorum, habet tres partes. Prima continet
+<lb ed="#Ba" n="13"/>pietatis simulationes : secunda, 
+simula<lb break="no" ed="#Ba" n="14"/>tionis falsitatem et mendacium, ibi,
+<lb ed="#Ba" n="15"/>
+               <quote xml:id="alalal-aa1396-Qd1e1000"> Ipsamque simulatam pietatem. </quote> 
+Ter<lb break="no" ed="#Ba" n="16"/>tio, ponit hujus mendacii et falsitatis 
+pro<lb break="no" ed="#Ba" n="17"/>bationem, ibi, <quote xml:id="alalal-aa1396-Qd1e1006"> False doctrine 
+institu<lb break="no" ed="#Ba" n="18"/>tis. </quote>
+            </p>
+            <p xml:id="alalal-aa1396-d1e1013">
+               <lb ed="#Ba" n="19"/>
+               <quote xml:id="alalal-aa1396-Qd1e1017"> In superstitione, etc. </quote> Augustinus :
+<lb ed="#Ba" n="20"/>
+               <quote xml:id="alalal-aa1396-Qd1e1021"> Religio supra modum observata, 
+su<lb break="no" ed="#Ba" n="21"/>perstitio est vocata. </quote>
+            </p>
+            <p xml:id="alalal-aa1396-d1e1027">
+               <lb ed="#Ba" n="22"/>Sequitur : <quote xml:id="alalal-aa1396-Qd1e1031"> Quia fidei defectionem,
+<lb ed="#Ba" n="23"/>etc.</quote> Lad Timoth. iv, 1: Spiritus 
+mani<lb break="no" ed="#Ba" n="24"/>feste dicit, quia in novissimis temporibus
+<lb ed="#Ba" n="25"/>discedent quidam a fide, attendentes 
+sprri<lb break="no" ed="#Ba" n="26"/>tibus erroris et doctrinis demoniorum,
+<lb ed="#Ba" n="27"/>in hypocrist loguentium mendacium, et
+<lb ed="#Ba" n="28"/>cauteriatam habentium suam 
+conscien<lb break="no" ed="#Ba" n="29"/>liam.
+</p>
+            <p xml:id="alalal-aa1396-d1e1050">
+               <lb ed="#Ba" n="30"/>Sequitur: <quote xml:id="alalal-aa1396-Qd1e1054"> Ut sit in verbis pietas,
+<lb ed="#Ba" n="31"/>etc. </quote> II ad Timoth. 11, 5 : Habentes 
+qui<lb break="no" ed="#Ba" n="32"/>dem speciem pietatis, virtutem autem
+<lb ed="#Ba" n="33"/>ejus abnegantes : et hos devita.
+</p>
+            <p xml:id="alalal-aa1396-d1e1064">
+               <lb ed="#Ba" n="34"/>Objicitur autem de hoc quod dicit
+<lb ed="#Ba" n="35"/>
+               <quote xml:id="alalal-aa1396-Qd1e1070"> Omni verborum mendacio, etc. </quote> 
+Con<lb break="no" ed="#Ba" n="36"/>ra: Supra ulud Lue. xvu, 12: Occur
+<lb ed="#Ba" n="37"/>rerunt ei decem viri leprosi, ibi Glossa
+<lb ed="#Ba" n="38"/>Bede : Leprosi sunt heretici, qui quasi
+<lb ed="#Ba" n="39"/>varios colores habentes in eodem 
+corpo<lb break="no" ed="#Ba" n="40"/>ré, varias sectas nunc falsitaiis, nunc
+<lb ed="#Ba" n="41"/>veritatis permiscent in eadem 
+pradica<lb break="no" ed="#Ba" n="42"/>tione. Solutio. Licet non semper quoad
+<lb ed="#Ba" n="43"/>dicta, tamen quoad finem semper 
+men<lb break="no" ed="#Ba" n="44"/>tiuntur : et ita intelligit Magister.
+</p>
+            <p xml:id="alalal-aa1396-d1e1093">
+               <lb ed="#Ba" n="45"/>Sequitur :
+<lb ed="#Ba" n="46"/>
+               <quote xml:id="alalal-aa1396-Qd1e1099"> False doctrine institutis, etc. </quote> In
+<lb ed="#Ba" n="47"/>hac parte tres ponit rationes manifestan-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>tes mendacium hereticorum. Prima 
+su<lb break="no" ed="#Ba" n="49"/>mitur ab institutis fallacibus, id est, 
+prin<lb break="no" ed="#Ba" n="50"/>ciptis et articulis. Secunda sumitur a
+<lb ed="#Ba" n="51"/>modo dictorum ab eis : quod novella 
+di<lb break="no" ed="#Ba" n="52"/>cunt. Novum autem est quod quoad sui
+<lb ed="#Ba" n="53"/>initium est propinquum, ibi, <quote xml:id="alalal-aa1396-Qd1e1119"> Sub 
+no<lb break="no" ed="#Ba" n="54"/>vello, etc. </quote> Contra quod dicitur, ad
+<lb ed="#Ba" n="55"/>Hebr. x1, 2: Jn hac, scilicet fide, 
+festimo<lb break="no" ed="#Ba" n="56"/>nium consecuti sunt senes. Et, Proverb.
+<lb ed="#Ba" n="57"/>xxn, 28 : Ne transgrediaris terminos
+<lb ed="#Ba" n="58"/>antiguos quos posuerunt patres tui. 
+Ter<lb break="no" ed="#Ba" n="59"/>tia sumitura modo disputandi, qui est
+<lb ed="#Ba" n="60"/>cum contentione’et clamoribus, ibi, <quote xml:id="alalal-aa1396-Qd1e1137"> Qui
+<lb ed="#Ba" n="61"/>contentiont studentes, etc. </quote>
+            </p>
+            <p xml:id="alalal-aa1396-d1e1143">
+               <lb ed="#Ba" n="62"/>
+               <quote xml:id="alalal-aa1396-Qd1e1147"> Auriumque pruriginem, etc. </quote> II ad
+<lb ed="#Ba" n="63"/>Timoth. iv, 3 : Brit tempus, cum sanam
+<lb ed="#Ba" n="64"/>doctrinam non sustinebunt : sed ad sua
+<lb ed="#Ba" n="65"/>desideria coacervabunt sibi magisiros,
+<lb ed="#Ba" n="66"/>prurientes auribus. Est autem prurigo
+<lb ed="#Ba" n="67"/>ex evaporatione corrupta tangere organa
+<lb ed="#Ba" n="68"/>sensibilia, et est similis heeresis.
+</p>
+            <p xml:id="alalal-aa1396-d1e1164">
+               <lb ed="#Ba" n="69"/>Sequitur :
+<lb ed="#Ba" n="70"/>
+               <quote xml:id="alalal-aa1396-Qd1e1170"> Qui contentioni, etc.</quote> Ambrosius in
+<lb ed="#Ba" n="71"/>Glossa super Epistolam ad Roman. 1,
+<lb ed="#Ba" n="72"/>29 : Contentio est impugnatio veritatis
+<lb ed="#Ba" n="73"/>cum confidentia clamoris. Et Tullius in
+<lb ed="#Ba" n="74"/>II Rhetorice dicit, quod contentio est
+<lb ed="#Ba" n="75"/>oratio acris, et ad confirmandum et ad
+<lb ed="#Ba" n="76"/>confutandum accommodata.
+</p>
+            <p xml:id="alalal-aa1396-d1e1186">
+               <lb ed="#Ba" n="77"/>
+               <quote xml:id="alalal-aa1396-Qd1e1190"> Dum et se veritas tenet, etc. </quote> Psal.
+<lb ed="#Ba" n="78"/>cxvi, 2: Veritas Domini manet in 
+eter<lb break="no" ed="#Ba" n="79"/>num. I Esdra, 11, 12: Super omnia 
+vin<lb break="no" ed="#Ba" n="80"/>cit veritas. Et subdit, rv, 38: Veritas 
+ma<lb break="no" ed="#Ba" n="81"/>net, et invalescit in aeternum, et oblinet in
+<lb ed="#Ba" n="82"/>secula seculorum.
+</p>
+            <p xml:id="alalal-aa1396-d1e1204">
+               <lb ed="#Ba" n="83"/>
+               <quote xml:id="alalal-aa1396-Qd1e1208"> Horum igitur odibilem Deo, etc. </quote>
+               <lb ed="#Ba" n="84"/>Psal. xxv, 5: Odwi Ecclesiam 
+mali<lb break="no" ed="#Ba" n="85"/>gnantium.
+</p>
+            <p xml:id="alalal-aa1396-d1e1215">
+               <lb ed="#Ba" n="86"/>In hac parte ex causis moventibus
+<lb ed="#Ba" n="87"/>etiam alias hujus operis causas concludit.
+<lb ed="#Ba" n="88"/>Et habet sex partes: in quarum prima
+<lb ed="#Ba" n="89"/>repetit breviter causas moventes duas,
+<lb ed="#Ba" n="90"/>scilicet eversionem hereticorum, et 
+exal<lb break="no" ed="#Ba" n="91"/>tationem lucerne veritatis, quae sumitur
+<lb ed="#Ba" n="92"/>secundum duplex opus sapientis 
+deter<lb break="no" ed="#Ba" n="93"/>minatum a Philosopho, quod et non
+<lb ed="#Ba" n="94"/>mentiri eum de quibus novilt, et 
+men<lb break="no" ed="#Ba" n="95"/>tientem manifestare posse.
+</p>
+            <p xml:id="alalal-aa1396-d1e1239">
+               <pb ed="#Ba" n="11"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>In secunda tangit Auctorem, ibi, <quote xml:id="alalal-aa1396-Qd1e1247"> In
+<lb ed="#Ba" n="2"/>labore multo, etc. </quote> Et dicit tria, scilicet
+<lb ed="#Ba" n="3"/>laborem compilationis ut attentos 
+red<lb break="no" ed="#Ba" n="4"/>dat : modum compositionis per hoc quod
+<lb ed="#Ba" n="5"/>dicit : <quote xml:id="alalal-aa1396-Qd1e1259"> Compegimus, etc. </quote> Compactum
+<lb ed="#Ba" n="6"/>enim est quod est ex diversis 
+conjun<lb break="no" ed="#Ba" n="7"/>ctum : sicut diverse sunt questiones, et
+<lb ed="#Ba" n="8"/>auctoritates in hoc opere, Dicit etiam
+<lb ed="#Ba" n="9"/>supponendo Auctorem, cum dicit
+<lb ed="#Ba" n="10"/>
+               <quote xml:id="alalal-aa1396-Qd1e1272"> Compegimus, </quote> quia in verbo prime
+<lb ed="#Ba" n="11"/>persone determinata persona agens 
+in<lb break="no" ed="#Ba" n="12"/>telligitur.
+</p>
+            <p xml:id="alalal-aa1396-d1e1279">
+               <lb ed="#Ba" n="13"/>In tertia tangit materiam, cum dicit :
+<lb ed="#Ba" n="14"/>
+               <quote xml:id="alalal-aa1396-Qd1e1285"> Lax tlestimoniis veritatis in xternum
+<lb ed="#Ba" n="15"/>fundatis, etc., </quote> id est, in aeternitate :
+<lb ed="#Ba" n="16"/>quia fides quae in ipsis exprimitur, est de
+<lb ed="#Ba" n="17"/>veritate prima et aeterna. Unde 
+Diony<lb break="no" ed="#Ba" n="18"/>sius in libro de Divinis nominibus : Fides
+<lb ed="#Ba" n="19"/>est unicum credentium fundamentum,
+<lb ed="#Ba" n="20"/>eos collocans in veritate, et in eis 
+veri<lb break="no" ed="#Ba" n="21"/>tatem, incredibili incommutabilitate 
+sim<lb break="no" ed="#Ba" n="22"/>plam veritatis scientiam habentibus 
+cre<lb break="no" ed="#Ba" n="23"/>dulis . Et Apostolus, I ad Corinth. m,
+  <lb ed="#Ba" n="24"/>11: <quote xml:id="alalal-aa1396-Qd1e1310"
+                      source="http://scta.info/resource/Icor3_11">Fundamentum aliud nemo potest
+<lb ed="#Ba" n="25"/>ponere, praeter id quod positum est, quod
+<lb ed="#Ba" n="26"/>est Christus Jesus</quote>, id est, fides Jesu 
+Chri<lb break="no" ed="#Ba" n="27"/>sti.
+</p>
+            <p xml:id="alalal-aa1396-d1e1321">
+               <lb ed="#Ba" n="28"/>In quarta tangit formam duplicem,
+<lb ed="#Ba" n="29"/>scilicet distinctionis materie secundum
+<lb ed="#Ba" n="30"/>illam actum forme, quo distinguit 
+for<lb break="no" ed="#Ba" n="31"/>matum ab aliis, cum dicit : <quote xml:id="alalal-aa1396-Qd1e1331"> In quatuor
+<lb ed="#Ba" n="32"/>libris, etc. </quote> Et modum probationum 
+sua<lb break="no" ed="#Ba" n="33"/>rum quibus utitur secundum actum 
+for<lb break="no" ed="#Ba" n="34"/>me quo agit, et est principium 
+actio<lb break="no" ed="#Ba" n="35"/>num, cum dicit: <quote xml:id="alalal-aa1396-Qd1e1343"> In quo majorum
+<lb ed="#Ba" n="36"/>exempla, etc. </quote> Et exempla referuntur
+<lb ed="#Ba" n="37"/>ad similitudines quibus utitur : doctrina
+<lb ed="#Ba" n="38"/>autem ad auctoritates, et rationes alias.
+</p>
+            <p xml:id="alalal-aa1396-d1e1353">
+               <lb ed="#Ba" n="39"/>In quinta tangit finem, cum dicit
+<lb ed="#Ba" n="40"/>
+               <quote xml:id="alalal-aa1396-Qd1e1359"> In quo per Dominice, etc. </quote> Et sincera
+<lb ed="#Ba" n="41"/>professio fidei est finis per se : proditio
+<lb ed="#Ba" n="42"/>autem haresis est finis per accidens : et
+<lb ed="#Ba" n="43"/>hos fines consequi contingit uno et 
+eo<lb break="no" ed="#Ba" n="44"/>dem actu : quia manifestatio veritatis est
+<lb ed="#Ba" n="45"/>destructio falsitatis. Unde, Dionysius in
+<lb ed="#Ba" n="46"/>Epistola ad Polycarpum Epise. : Hoc
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="47"/>quodcumque est secundum legem veritatis
+<lb ed="#Ba" n="48"/>recte demonstrato et puro existente, omne
+<lb ed="#Ba" n="49"/>quod aliter habet, et veritatem similat,
+<lb ed="#Ba" n="50"/>reprehendetur, etc.
+</p>
+            <p xml:id="alalal-aa1396-d1e1386">
+               <lb ed="#Ba" n="51"/>In sexta et ultima tangit modum 
+agen<lb break="no" ed="#Ba" n="52"/>di triplicem, scilicet, pertingentie ad
+<lb ed="#Ba" n="53"/>veritatis aditum per rationes fidei, et 
+ex<lb break="no" ed="#Ba" n="54"/>cludendo errores, et hoc, ibi, <quote xml:id="alalal-aa1396-Qd1e1396"> Adifum
+<lb ed="#Ba" n="55"/>demonstrande. </quote> Secundo, tangit 
+mo<lb break="no" ed="#Ba" n="56"/>dum inter subtile et grossum, cum 
+di<lb break="no" ed="#Ba" n="57"/>cit : <quote xml:id="alalal-aa1396-Qd1e1406"> Temperato inter utrumque. </quote>
+               <lb ed="#Ba" n="58"/>Tertio, tangit modum inter proprium
+<lb ed="#Ba" n="59"/>inventum, et alienum, ibi, <quote xml:id="alalal-aa1396-Qd1e1412"> Sicubi vero
+<lb ed="#Ba" n="60"/>parum, etc. </quote>
+            </p>
+            <p xml:id="alalal-aa1396-d1e1418">
+               <lb ed="#Ba" n="61"/>
+               <quote xml:id="alalal-aa1396-Qd1e1422"> Et lucernam veritatis, etc. </quote> Matth, 
+<lb ed="#Ba" n="62"/>v, 15 : Neque accendunt lucernam, et
+<lb ed="#Ba" n="63"/>ponunt eam sub modio, etc. Lucerna 
+au<lb break="no" ed="#Ba" n="64"/>tem est lux in testa : et hic ponitur pro
+<lb ed="#Ba" n="65"/>intellectu rationis in littera: quia sicut
+<lb ed="#Ba" n="66"/>dicit Commentator super primum caput
+<lb ed="#Ba" n="67"/>de Divinis nominibus : Nihil aliud est
+<lb ed="#Ba" n="68"/>auctoritas quam rationis reperta veritas,
+<lb ed="#Ba" n="69"/>ob posteritatis utihtatem scripto 
+com<lb break="no" ed="#Ba" n="70"/>mendata.
+</p>
+            <p xml:id="alalal-aa1396-d1e1444">
+               <lb ed="#Ba" n="71"/>Sequitur :
+<lb ed="#Ba" n="72"/>
+               <quote xml:id="alalal-aa1396-Qd1e1450"> Non a paternis discessit limitibus. </quote>
+               <lb ed="#Ba" n="73"/>Fecit Magister sicut docet Dionysius, in
+<lb ed="#Ba" n="74"/>libro de Divinis nominibus : 
+Universali<lb break="no" ed="#Ba" n="75"/>ter non audendum est dicere, nec eliam
+<lb ed="#Ba" n="76"/>cogitare aliud de supersubstantiali et
+<lb ed="#Ba" n="77"/>occulta divinitate, praeter ea quae 
+divi<lb break="no" ed="#Ba" n="78"/>nitus nobis ex sacris eloquiis sunt 
+ex<lb break="no" ed="#Ba" n="79"/>pressa .
+</p>
+            <p xml:id="alalal-aa1396-d1e1468">
+               <lb ed="#Ba" n="80"/>
+               <quote xml:id="alalal-aa1396-Qd1e1472"> Non igitur debet hic labor, etc. </quote>
+               <lb ed="#Ba" n="81"/>Tic est pars secunda totius procemii, in
+<lb ed="#Ba" n="82"/>qua determinantur hujus voluminis 
+uti<lb break="no" ed="#Ba" n="83"/>litates ex parte auditoris, vel lectoris. Et
+<lb ed="#Ba" n="84"/>tangit tria, scilicet cui utile est, scilicet
+<lb ed="#Ba" n="85"/>unpigro indocto : et primo notat 
+stu<lb break="no" ed="#Ba" n="86"/>dium, quod imnuit operis aliquam 
+diffi<lb break="no" ed="#Ba" n="87"/>cultatem : secundo autem notat scientiae
+<lb ed="#Ba" n="88"/>indigentiam, quod facit inquisitionem,
+<lb ed="#Ba" n="89"/>quia non quaeritur nisi quod non habetur.
+<lb ed="#Ba" n="90"/>Secundo, tangit rationem utilitatis ex
+<pb ed="#Ba" n="12"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>brevitate, cum dicit : <quote xml:id="alalal-aa1396-Qd1e1502"> Brevi volumine,
+<lb ed="#Ba" n="2"/>etc. </quote> Tertio, tangit rationem utilitatis ex
+<lb ed="#Ba" n="3"/>materia, cum dicit : <quote xml:id="alalal-aa1396-Qd1e1510"> Patrum 
+senten<lb break="no" ed="#Ba" n="4"/>tias. </quote> Et nota quod Avicenna dicit,
+<lb ed="#Ba" n="5"/>quod sententia est conceptio definita et
+<lb ed="#Ba" n="6"/>cerlissima. Isaac autem in libro 
+Diffini<lb break="no" ed="#Ba" n="7"/>teonum fere idem dicit sic : Sententia est
+<lb ed="#Ba" n="8"/>conceptio alterius partis contradictionis.
+<lb ed="#Ba" n="9"/>Et a certitudine harum sententiarum
+<lb ed="#Ba" n="10"/>qu hie collecte sunt, vocatur Liber
+<lb ed="#Ba" n="11"/>Sententiarum.
+</p>
+            <p xml:id="alalal-aa1396-d1e1532">
+               <lb ed="#Ba" n="12"/>
+               <quote xml:id="alalal-aa1396-Qd1e1536"> In hoc autem tractatu, cte. </quote> Hic
+<lb ed="#Ba" n="13"/>tangitur ultima pars totius procemil, in
+<lb ed="#Ba" n="14"/>qua Auctor tangit habitudinem sui ad
+<lb ed="#Ba" n="15"/>legentes. Et tangit tria, scilicet, qualem
+<lb ed="#Ba" n="16"/>desiderat lectorem, quia pium, fidelem,
+<lb ed="#Ba" n="17"/>et benevolum ex charitate. Unde 
+Bernar<lb break="no" ed="#Ba" n="18"/>dus super Cantica: Ante carnem 
+disci<lb break="no" ed="#Ba" n="19"/>pling studiis edomitam, et mancipatam
+<lb ed="#Ba" n="20"/>spiritui, ante spretam et abjectam saculi
+<lb ed="#Ba" n="21"/>pompam et sarcinam, indigne ab impuris
+<lb ed="#Ba" n="22"/>lectio sancta praesumitur.
+</p>
+            <p xml:id="alalal-aa1396-d1e1561">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="23"/>Secundo, tangit qualem, et ubi vult 
+ha<lb break="no" ed="#Ba" n="24"/>bere correctorem, quia liberum. Est 
+au<lb break="no" ed="#Ba" n="25"/>tem corrector liber, sicut et homo liber.
+<lb ed="#Ba" n="26"/>Dicit autem Philosophus, quod dicimus
+<lb ed="#Ba" n="27"/>hominem hberum cum sui tantum causa
+<lb ed="#Ba" n="28"/>est, et non alterius ;: ita etiam corrector
+<lb ed="#Ba" n="29"/>est hber, quando tantum corrigit causa
+<lb ed="#Ba" n="30"/>correctionis, et non causa subsannationis
+<lb ed="#Ba" n="31"/>vel invidiae : et de hoc bene dicit 
+Augusti<lb break="no" ed="#Ba" n="32"/>nus, sic: Magis amabo imspici a rectis,
+<lb ed="#Ba" n="33"/>quam timebo morderi a perversis : 
+gra<lb break="no" ed="#Ba" n="34"/>tanter enim suscipit osculum columbinum
+<lb ed="#Ba" n="35"/>pulcherrima et modestissima charitas :
+<lb ed="#Ba" n="36"/>dentem autem caninum vel evitat 
+cautis<lb break="no" ed="#Ba" n="37"/>sima humilitas, vel retundit solidissima
+<lb ed="#Ba" n="38"/>veritas : magisque oplabo a quolibet 
+re<lb break="no" ed="#Ba" n="39"/>prehendi, quam sive ab errante sive ab
+<lb ed="#Ba" n="40"/>adulante laudari ’.
+</p>
+            <p xml:id="alalal-aa1396-d1e1605">
+               <lb ed="#Ba" n="41"/>Tertio, terminat proemium in hoc
+<lb ed="#Ba" n="42"/>quod titulos ad faciliorem adjungit 
+in<lb break="no" ed="#Ba" n="43"/>ventionem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

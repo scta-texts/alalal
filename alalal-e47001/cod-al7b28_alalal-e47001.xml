@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="241"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e47001"><!-- l3d13a6 -->
+            <head xml:id="alalal-e47001-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-e47001-Hd1e101" type="question-title">An Christus fuit plenus sapientia et 
+gratia ab ipsa conceptione ?</head>
+            <p xml:id="alalal-e47001-d1e104">
+               <lb ed="Bd" n="48"/>ARTICULUS VI.
+<lb ed="Bd" n="49"/>An Christus fuit plenus sapientia et 
+gra<lb break="no" ed="Bd" n="50"/>tia ab ipsa conceptione ?
+</p>
+            <p xml:id="alalal-e47001-d1e113">
+               <lb ed="Bd" n="51"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="52"/>ibi, A, sub finem: <quote xml:id="alalal-e47001-Qd1e119"> Plenus sapientia et
+<lb ed="Bd" n="53"/>gratia fuit ab ipsa conceptione, etc. </quote>
+            </p>
+            <p xml:id="alalal-e47001-d1e125">
+               <lb ed="Bd" n="54"/>Hoc enim videtur falsum : quia, Luce,
+<lb ed="Bd" n="55"/>iv, 21, super illud : Hodie impleta
+<lb ed="Bd" n="56"/>est haec seriptura in auribus vestris,
+<lb ed="Bd" n="57"/>etc., dicit Glossa : <quote xml:id="alalal-e47001-Qd1e135"> Pro omnibus
+<lb ed="Bd" n="58"/>sanctis unctus est unctione  spirituali,
+<lb ed="Bd" n="59"/>quando Spiritus sanctus descendit super
+<lb ed="Bd" n="60"/>eum in specie columba. </quote> Hoc autem
+<lb ed="Bd" n="61"/>factum est, cum erat incipiens quasi esse
+<lb ed="Bd" n="62"/>annorum triginta. Non ergo plenus fuit
+<lb ed="Bd" n="63"/>ab instanti conceptionis.
+</p>
+            <p xml:id="alalal-e47001-d1e153">
+               <lb ed="Bd" n="64"/>Solutio Dicendum, quod est plenitudo
+<lb ed="Bd" n="65"/>ad actum perficiendi ipsum plenum : et
+<lb ed="Bd" n="66"/>est plenitudo ipsa redundans ex pleno, et
+<lb ed="Bd" n="67"/>infundens alia. Et prima fuit in Christo
+<lb ed="Bd" n="68"/>ab instanti conceptionis. Secunda autem
+<lb ed="Bd" n="69"/>fuit ex quo missus est Spiritus corporali
+<lb ed="Bd" n="70"/>specie sicut columba in ipsum : quia tunc
+<lb ed="Bd" n="71"/>cffluxit vis regenerativa in aquas, et
+<lb ed="Bd" n="72"/>etiam in alios per gratiam predicationis
+<lb ed="Bd" n="73"/>et miraculorum. Et de hac plenitudine
+<lb ed="Bd" n="74"/>loquitur Glossa.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

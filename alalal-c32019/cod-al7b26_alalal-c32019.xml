@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="175"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c32019"><!-- l1d35dt -->
+            <head xml:id="alalal-c32019-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-c32019-d1e101">
+               <lb ed="#Bb" n="10"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-c32019-d1e106">
+               <lb ed="#Bb" n="11"/>
+               <quote xml:id="alalal-c32019-Qd1e110"> Cumque supra disseruerimus, etc. </quote>
+               <lb ed="#Bb" n="12"/>Hic incipit pars illa quae est de 
+cogni<lb break="no" ed="#Bb" n="13"/>tione Trinitatis et unitatis, prout 
+consi<lb break="no" ed="#Bb" n="14"/>deratur in his quae faciunt sufficientiam
+<lb ed="#Bb" n="15"/>cause ad processum creaturarum ex ipsa,
+<lb ed="#Bb" n="16"/>que sunt scientia, potentia, voluntas :
+<lb ed="#Bb" n="17"/>ad operari enim non exigitur amplius
+<lb ed="#Bb" n="18"/>quam scire, et velle, et posse.
+</p>
+            <p xml:id="alalal-c32019-d1e128">
+               <lb ed="#Bb" n="19"/>Dividitur autem in tres partes 
+secun<lb break="no" ed="#Bb" n="20"/>dum tria praedicta. In prima agit de
+<lb ed="#Bb" n="21"/>scientia. In secunda, de potentia quae 
+in<lb break="no" ed="#Bb" n="22"/>cipit in distinctione XLIE, ibi, A, <quote xml:id="alalal-c32019-Qd1e138"> Nane
+<lb ed="#Bb" n="23"/>de omnipotentia, etc. </quote> In tertia, agit de
+<lb ed="#Bb" n="24"/>voluntate quae incipit in 
+distinctio<lb break="no" ed="#Bb" n="25"/>ne XLV, ibi, A, <quote xml:id="alalal-c32019-Qd1e148"> Jam de voluntate,
+<lb ed="#Bb" n="26"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-c32019-d1e154">
+               <lb ed="#Bb" n="27"/>Prima harum dividitur in duas 
+par<lb break="no" ed="#Bb" n="28"/>tes. In prima agit de scientia in 
+genera<lb break="no" ed="#Bb" n="29"/>li. In secunda autem descendit ad species
+<lb ed="#Bb" n="30"/>scientiae divine, quae sunt 
+predestina<lb break="no" ed="#Bb" n="31"/>tio, et reprobatio : et hac incipit in 
+di<lb break="no" ed="#Bb" n="32"/>stinctione XL, ibi, A, <quote xml:id="alalal-c32019-Qd1e169"> Predestinatio
+<lb ed="#Bb" n="33"/>vero de bonis salutaribus est, etc. </quote>
+            </p>
+            <p xml:id="alalal-c32019-d1e176">
+               <lb ed="#Bb" n="34"/>Prima autem quae est de scientia in
+<lb ed="#Bb" n="35"/>genere, subdividitur in tres. In prima
+<lb ed="#Bb" n="36"/>ostenditur scientia et secundum$ 
+distin<lb break="no" ed="#Bb" n="37"/>ctionem et proprietatem nominum, et
+<lb ed="#Bb" n="38"/>quantum ad ea quae sunt in ipsa, ut de
+<lb ed="#Bb" n="39"/>quibus est. In secunda autem ostenditur
+<lb ed="#Bb" n="40"/>e converso, qualiter Deus est in omni-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="41"/>bus a se factis et creatis : et hac incipit
+<lb ed="#Bb" n="42"/>in distinctione XXXVI, ibi, A, <quote xml:id="alalal-c32019-Qd1e199"> £¢
+<lb ed="#Bb" n="43"/>quoniam demonstratum est ex parte,
+<lb ed="#Bb" n="44"/>etc. </quote> In tertia autem ostendit Magister
+<lb ed="#Bb" n="45"/>dispositiones scientiae magis quam ipsam
+<lb ed="#Bb" n="46"/>scientiam, scilicet utrum necessitatem
+<lb ed="#Bb" n="47"/>imponat rebus, vel falli possit, vel 
+au<lb break="no" ed="#Bb" n="48"/>geri, et hujusmodi? et incipit in 
+distin<lb break="no" ed="#Bb" n="49"/>tinctione XXXVI, ibi, A, <quote xml:id="alalal-c32019-Qd1e217"> Nune ergo
+<lb ed="#Bb" n="50"/>ad propositum revertentes, etc. </quote>
+            </p>
+            <p xml:id="alalal-c32019-d1e223">
+               <lb ed="#Bb" n="51"/>Adhuc, prima ulterius dividitur in
+<lb ed="#Bb" n="52"/>duas. In prima ostendit intentiones 
+no<lb break="no" ed="#Bb" n="53"/>minum, et in genere, qualiter est de 
+ob<lb break="no" ed="#Bb" n="54"/>jectis, quia de omnibus aeternis et 
+tem<lb break="no" ed="#Bb" n="55"/>poralibus. In secunda autem ostendit,
+<lb ed="#Bb" n="56"/>qualiter aliud est esse in scientia Dei, et
+<lb ed="#Bb" n="57"/>aliud est esse in natura, et qualiter 
+diffe<lb break="no" ed="#Bb" n="58"/>renter est de objectis bonis et malis
+<lb ed="#Bb" n="59"/>et haec incipit in sequenti 
+distinctio<lb break="no" ed="#Bb" n="60"/>ne XXXVI, ibi, A, <quote xml:id="alalal-c32019-Qd1e246"> Solet hic queri,
+<lb ed="#Bb" n="61"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-c32019-d1e252">
+               <lb ed="#Bb" n="62"/>Hec autem distinctio dividitur in tres
+<lb ed="#Bb" n="63"/>partes. In prima determinat generaliter
+<lb ed="#Bb" n="64"/>de omnibus nominibus quibus significari
+<lb ed="#Bb" n="65"/>consuevit scientia divina. In secunda 
+au<lb break="no" ed="#Bb" n="66"/>tem movet questionem quae ex 
+determi<lb break="no" ed="#Bb" n="67"/>natione et distinctione nominum oritur,
+<lb ed="#Bb" n="68"/>scilicet utrum scientia Dei esset in Deo,
+<lb ed="#Bb" n="69"/>si nulla fuissent futura? ibi, B, <quote xml:id="alalal-c32019-Qd1e271"> Mie
+<lb ed="#Bb" n="70"/>considerari oportet, Utrum  scientia,
+<lb ed="#Bb" n="71"/>etc. </quote> In tertia, principaliter ostendit 
+ob<lb break="no" ed="#Bb" n="72"/>jecta scientiea secundum generalem 
+de<lb break="no" ed="#Bb" n="73"/>clarationem, ibi, D, <quote xml:id="alalal-c32019-Qd1e283"> Scientia vero vel
+<lb ed="#Bb" n="74"/>saptentia non tantum, etc. </quote>
+            </p>
+            <p xml:id="alalal-c32019-d1e289">
+               <lb ed="#Bb" n="75"/>Ex his satis patet sententia
+<lb ed="#Bb" n="76"/>disputatione patebunt.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="585"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d99713"><!-- l2d36a2 -->
+            <head xml:id="alalal-d99713-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-d99713-Hd1e101" type="question-title">Utrum omni peccato essentialiter pena
+conjuncta sit ?</head>
+            <p xml:id="alalal-d99713-d1e104">
+               <lb ed="#Bc" n="10"/>ARTICULUS II.
+<lb ed="#Bc" n="11"/>Utrum omni peccato essentialiter pena
+<lb ed="#Bc" n="12"/>conjuncta sit ?
+</p>
+            <p xml:id="alalal-d99713-d1e113">
+               <lb ed="#Bc" n="13"/>Secundo queritur, Utrum omni 
+pec<lb break="no" ed="#Bc" n="14"/>cato essentialiter pena conjuncta sit ?
+</p>
+            <p xml:id="alalal-d99713-d1e120">
+               <lb ed="#Bc" n="15"/>Et videtur, quod sic: quia
+<lb ed="#Bc" n="16"/>1. Posita causa, ponitur effectus : 
+cau<lb break="no" ed="#Bc" n="17"/>sa autem poenae, peccatum est ergo
+<lb ed="#Bc" n="18"/>peccato posito, de necessitate 
+inducere<lb break="no" ed="#Bc" n="19"/>tur poena.
+</p>
+            <p xml:id="alalal-d99713-d1e134">
+               <lb ed="#Bc" n="20"/>2. Item, Gregorius : <quote xml:id="alalal-d99713-Qd1e138"> Nulla nocebit
+<lb ed="#Bc" n="21"/>adversitas, si nulla dominetur 
+iniqui<lb break="no" ed="#Bc" n="22"/>tas. </quote> Ergo videtur a contrario. sensu,
+<lb ed="#Bc" n="23"/>quod omnis adversitas sit a dominio 
+ini<lb break="no" ed="#Bc" n="24"/>quitatis.
+</p>
+            <p xml:id="alalal-d99713-d1e150">
+               <lb ed="#Bc" n="25"/>3. Item, Psal. cu, 3: Qui propitiatur
+<lb ed="#Bc" n="26"/>omnibus iniguitatibus tuis, qui sanat 
+om<lb break="no" ed="#Bc" n="27"/>nes infirmitates tuas. Ex hoc enim, ut
+<lb ed="#Bc" n="28"/>dicit Augustinus, accipitur, quod non est
+<lb ed="#Bc" n="29"/>infirmitas nisi ex iniquitate.
+</p>
+            <p xml:id="alalal-d99713-d1e163">
+               <lb ed="#Bc" n="30"/>4. Item, Hieronymus: <quote xml:id="alalal-d99713-Qd1e167"> Quidquid 
+pa<lb break="no" ed="#Bc" n="31"/>timur, peccata nostra meruerunt, </quote>
+            </p>
+            <p xml:id="alalal-d99713-d1e173">
+               <lb ed="#Bc" n="32"/>Sep contra : Peena invenitur sine 
+pec<lb break="no" ed="#Bc" n="33"/>cato: ergo et peccatum potest inveniri
+<lb ed="#Bc" n="34"/>sine poena. Prima probatur in Christo,
+<lb ed="#Bc" n="35"/>et in Job qui dicit, Non peccavi, et in
+<lb ed="#Bc" n="36"/>amaritudinibus, etc. ', Et in ca#co nato,
+<lb ed="#Bc" n="37"/>de quo dicit Dominus : Neque hic 
+pecca<lb break="no" ed="#Bc" n="38"/>vit, neque parentes ejus .
+</p>
+            <p xml:id="alalal-d99713-d1e191">
+               <lb ed="#Bc" n="39"/>Solutio. Dicendum, quod peccato 
+es<lb break="no" ed="#Bc" n="40"/>sentialiter ut cause conjuncta est peena,
+<lb ed="#Bc" n="41"/>sicut probant prime objectiones : et 
+pe<lb break="no" ed="#Bc" n="42"/>na quadruplex ad minus, quarum due
+<lb ed="#Bc" n="43"/>sunt peene damni, una scilicet in 
+amis<lb break="no" ed="#Bc" n="44"/>sione incommutabilis boni quod 
+inhabi<lb break="no" ed="#Bc" n="45"/>tat Sanctos. Alia est in spoliatione 
+gra<lb break="no" ed="#Bc" n="46"/>tuitorum, per quae inhabitat Sanctos
+<lb ed="#Bc" n="47"/>Deus. Tertia est corruptio naturalis 
+bo<lb break="no" ed="#Bc" n="48"/>ni, de qua multum supra habitum est.
+<lb ed="#Bc" n="49"/>Quarta est inordinatio virium in regno
+<lb ed="#Bc" n="50"/>anime : quia superiores ancillantur, et
+<lb ed="#Bc" n="51"/>inferiores dominantur. Preter has sunt
+<lb ed="#Bc" n="52"/>ali quae non ita sentiuntur, ut major
+<lb ed="#Bc" n="53"/>potestas demonis, et impotentia 
+surgen<lb break="no" ed="#Bc" n="54"/>di a malo, et defectus ad bonum, et in=
+<lb ed="#Bc" n="55"/>clinatio in malum, et obtenebratio lumi-
+<pb ed="#Bc" n="586"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>nis in intellectu ad bonum, et infinita
+<lb ed="#Bc" n="2"/>alia, ut scilicet verum sit quod dicitur,
+<lb ed="#Bc" n="3"/>quod qui in uno oiffendit, multa bona
+<lb ed="#Bc" n="4"/>perdit.
+</p>
+            <p xml:id="alalal-d99713-d1e243">
+               <lb ed="#Bc" n="5"/>AbD ip ergo quod objicitur in 
+contra<lb break="no" ed="#Bc" n="6"/>rium, dicendum quod nihil valet : quia
+<lb ed="#Bc" n="7"/>pena non est colligata peccato, sicut e
+<lb ed="#Bc" n="8"/>converso, et quod poena est satisfactoria
+<lb ed="#Bc" n="9"/>pro peccato tam in membris, quam in
+<lb ed="#Bc" n="10"/>capite : et ideo ex misericordia Dei 
+in<lb break="no" ed="#Bc" n="11"/>flicta quandoque nobis, et capiti, ut per
+<lb ed="#Bc" n="12"/>eam fiat satisfactio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

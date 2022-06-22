@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="256"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d46989"><!-- l2d14dt1 -->
+            <head xml:id="alalal-d46989-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-d46989-d1e101">
+               <pb ed="#Bc" n="256"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-d46989-d1e110">
+               <lb ed="#Bc" n="2"/>
+               <quote xml:id="alalal-d46989-Qd1e114"> Dixit quoque Deus : Fiat 
+firmamen<lb break="no" ed="#Bc" n="3"/>tum, etc. </quote> ,
+<lb ed="#Bc" n="4"/>Hic ponitur secunde diei opus, in qu
+<lb ed="#Bc" n="5"/>distinguitur natura media ab extremo
+<lb ed="#Bc" n="6"/>superiori. Et cirea opus istud movet 
+Ma<lb break="no" ed="#Bc" n="7"/>gister quinque queestiones: quarum prima
+<lb ed="#Bc" n="8"/>est de aquis supra firmamentum. 
+Se<lb break="no" ed="#Bc" n="9"/>cunda, de natura ceeli, ibi, B, <quote xml:id="alalal-d46989-Qd1e132"> Quidam
+<lb ed="#Bc" n="10"/>vero coelum, etc. </quote> Tertia, de figura eceli,
+<lb ed="#Bc" n="11"/>ibi, C, <quote xml:id="alalal-d46989-Qd1e139"> Quert etiam solet, etc. </quote>
+               <lb ed="#Bc" n="12"/>Quarta, de motu ceeli, ibi, in medio cap.
+<lb ed="#Bc" n="13"/>C, <quote xml:id="alalal-d46989-Qd1e146"> Queritur etiam, Si stet, etc. </quote>
+               <lb ed="#Bc" n="14"/>Quinta, quare opus istius diei caret 
+be<lb break="no" ed="#Bc" n="15"/>nedictione, ibi, D, <quote xml:id="alalal-d46989-Qd1e152"> Post hoc quert 
+so<lb break="no" ed="#Bc" n="16"/>let, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

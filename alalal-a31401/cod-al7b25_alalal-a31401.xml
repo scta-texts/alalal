@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="156"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a31401"><!-- l1d4a2 -->
+            <head xml:id="alalal-a31401-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-a31401-Hd1e101" type="question-title">Quid sit generatio ?</head>
+            <p xml:id="alalal-a31401-d1e104">
+               <lb ed="#Ba" n="20"/>ARTICULUS II.
+<lb ed="#Ba" n="21"/>Quid sit generatio ?
+</p>
+            <p xml:id="alalal-a31401-d1e111">
+               <lb ed="#Ba" n="22"/>Sed hic incidit multiplex questio.
+<lb ed="#Ba" n="23"/>quaeritur enim primo, quid sit generatio ?
+<lb ed="#Ba" n="24"/>Secundo, an generatio conveniat Deo ?
+<lb ed="#Ba" n="25"/>quia si non convenit, tunc nulla est 
+que<lb break="no" ed="#Ba" n="26"/>stio Magistri. Tertio, utram per prius
+<lb ed="#Ba" n="27"/>conveniat Deo vel creature? Quarto de
+<lb ed="#Ba" n="28"/>argumentatione quam hic ponit Magister
+<lb ed="#Ba" n="29"/>et solvit, utrum habeat processum vel
+<lb ed="#Ba" n="30"/>non?
+</p>
+            <p xml:id="alalal-a31401-d1e133">
+               <lb ed="#Ba" n="31"/>Circa primum proceditur sic :
+<lb ed="#Ba" n="32"/>Dicit Damascenus : Generatio est, ex
+<lb ed="#Ba" n="33"/>substantia generantis produci quod 
+ge<lb break="no" ed="#Ba" n="34"/>neratur simile secundum substantiam '.
+<lb ed="#Ba" n="35"/>Aliam definitionem generationis divine
+<lb ed="#Ba" n="36"/>dat idem sic : Generatio quidem sine
+<lb ed="#Ba" n="37"/>principio et aeterna nature opus est, et
+<lb ed="#Ba" n="38"/>ex substantia ejus profecta : ita ut is qui
+<lb ed="#Ba" n="39"/>generat, mutationem non subeat ullam,
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="40"/>et ut non Deus primus et Deus posterior
+<lb ed="#Ba" n="41"/>sit, atque adjectionem suscipiat.
+</p>
+            <p xml:id="alalal-a31401-d1e163">
+               <lb ed="#Ba" n="42"/>Objicitur autem contra primam sic:
+<lb ed="#Ba" n="43"/>1. Cum dicitur, ix substantia 
+generan<lb break="no" ed="#Ba" n="44"/>lis, praepositio ex notat aliquam 
+habitadi<lb break="no" ed="#Ba" n="45"/>nem cause aut igitur materialis, aut
+<lb ed="#Ba" n="46"/>essentiahs : non materalis, quia dicit
+<lb ed="#Ba" n="47"/>Damascenus, ibidem Nam cum Deus
+<lb ed="#Ba" n="48"/>sit impassibilis et influxibilis, ul simplex
+<lb ed="#Ba" n="49"/>et non composilus, non aptus natus est
+<lb ed="#Ba" n="50"/>sustinere passionem, neque in generando,
+<lb ed="#Ba" n="51"/>neque in ereando, neque im aliqua 
+ope<lb break="no" ed="#Ba" n="52"/>rauione indiget altero : omnis autem 
+ma<lb break="no" ed="#Ba" n="53"/>terialis causa est passibilis : ergo 
+praepo<lb break="no" ed="#Ba" n="54"/>silio non notat causam materialem ex
+<lb ed="#Ba" n="55"/>parte substantiae Patris. Si autem notat
+<lb ed="#Ba" n="56"/>essentialem, ut fere omnes dicunt. 
+Con<lb break="no" ed="#Ba" n="57"/>tra : Essentialis causa estin generatione :
+<lb ed="#Ba" n="58"/>sed essentialis causa est essentia : ergo
+<lb ed="#Ba" n="59"/>essentia aliquo modo est causa 
+genera<lb break="no" ed="#Ba" n="60"/>tionis : non autem ut efficiens, vel 
+gene<lb break="no" ed="#Ba" n="61"/>rans, vel ut finis, vel ut forma, quia sic
+<lb ed="#Ba" n="62"/>esset terminus generationis per 
+genera<lb break="no" ed="#Ba" n="63"/>tionem in genilo inducta, et hoc non
+<lb ed="#Ba" n="64"/>conceditur, quia sic ad minus 
+distingue<lb break="no" ed="#Ba" n="65"/>retur in genito, sicut essentia Socratis
+<lb ed="#Ba" n="66"/>nati distinguitur in ipso, in quantum per
+<lb ed="#Ba" n="67"/>generationem accepta est: ergo crit 
+sub<lb break="no" ed="#Ba" n="68"/>jicibilis generationi : sed omne 
+subje<lb break="no" ed="#Ba" n="69"/>ctum generationis in genito distinguitur
+<lb ed="#Ba" n="70"/>per formam geniti : ergo essentia 
+distin<lb break="no" ed="#Ba" n="71"/>guilur in Filio proprietate Filu, quod
+<lb ed="#Ba" n="72"/>falsum est: ergo videtur quod ly ez,
+<lb ed="#Ba" n="73"/>nullam possit notare habitudinein 
+cau<lb break="no" ed="#Ba" n="74"/>se.
+</p>
+            <p xml:id="alalal-a31401-d1e237">
+               <lb ed="#Ba" n="75"/>2. Praeterea, quaeritur, pro quo 
+sup<lb break="no" ed="#Ba" n="76"/>ponit ibi substantia ? aut enim stat ibi
+<lb ed="#Ba" n="77"/>pro natura, aut pro persona : si pro 
+na<lb break="no" ed="#Ba" n="78"/>tura et recipit prepositionem, et verbum
+<lb ed="#Ba" n="79"/>notionale quod est generare, tunc 
+vide<lb break="no" ed="#Ba" n="80"/>tur quod natura est generans et genita.
+<lb ed="#Ba" n="81"/>Si autem pro persona. Contra: Cum
+<lb ed="#Ba" n="82"/>dico, Pater est ex substantia sua 
+gene<lb break="no" ed="#Ba" n="83"/>rans Filium, substantia dicit quod est in
+<lb ed="#Ba" n="84"/>utroque, scilicet generante, et genito :
+<lb ed="#Ba" n="85"/>sed hoc non est persona Patris : quia in
+<lb ed="#Ba" n="86"/>persona Pater et Filius non sunt unum :
+<pb ed="#Ba" n="157"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ergo substantia non supponit ibi 
+perso<lb break="no" ed="#Ba" n="2"/>nain Patris.
+</p>
+            <p xml:id="alalal-a31401-d1e274">
+               <lb ed="#Ba" n="3"/>3. Praeterea, quaeritur de hoc quod
+<lb ed="#Ba" n="4"/>dicit, product: hoc enim videtur dicere
+<lb ed="#Ba" n="5"/>actum generationis : produci autem est
+<lb ed="#Ba" n="6"/>in apertum de occulto duci: et ita 
+vide<lb break="no" ed="#Ba" n="7"/>tur quod Filius aliquando fuerit in 
+oc<lb break="no" ed="#Ba" n="8"/>cullo potentiae, et sic eductus in apertum.
+</p>
+            <p xml:id="alalal-a31401-d1e290">
+               <lb ed="#Ba" n="9"/>4. Praeterea, Produci dicit actum, aut
+<lb ed="#Ba" n="10"/>in fieri, aut in facto esse. Si in fieri,
+<lb ed="#Ba" n="11"/>aut finibile, aut non finibile. Si primo
+<lb ed="#Ba" n="12"/>modo, sequitur quod Filius quandoque
+<lb ed="#Ba" n="13"/>non fuerit : quia quod est in fieri non
+<lb ed="#Ba" n="14"/>esl, sed erit cum factum fuerit : et hoc
+<lb ed="#Ba" n="15"/>dico, si ipsum est de permanentibus. Si
+<lb ed="#Ba" n="16"/>secundo modo, tunc sequitur quod Filius
+<lb ed="#Ba" n="17"/>numquam fuerit, sed semper sit in via
+<lb ed="#Ba" n="18"/>ad esse. Si autem dicit generationem in
+<lb ed="#Ba" n="19"/>facto esse, tunc sequitur quod ante hoc
+<lb ed="#Ba" n="20"/>fucrit in fieri : quia factum esse semper
+<lb ed="#Ba" n="21"/>est terminus fieri.
+</p>
+            <p xml:id="alalal-a31401-d1e321">
+               <lb ed="#Ba" n="22"/>5. Item, Ille actus qui importatur per
+<lb ed="#Ba" n="23"/>produci, medius est inter producentem
+<lb ed="#Ba" n="24"/>et productum : ergo distinctionem habet
+<lb ed="#Ba" n="25"/>ab utroque, et sic aliquid est inter 
+Pa<lb break="no" ed="#Ba" n="26"/>trem et Filtum, habens distinctionem
+<lb ed="#Ba" n="27"/>ab utroque, quod falsum est. Si dicatur,
+<lb ed="#Ba" n="28"/>quod actus ille non est ibi nisi 
+secun<lb break="no" ed="#Ba" n="29"/>dum rationem intelligendi. Conrra :
+<lb ed="#Ba" n="30"/>Ratio intelligendi cassa est et vana, que
+<lb ed="#Ba" n="31"/>nec oritur a re, et circa rem aliquo modo
+<lb ed="#Ba" n="32"/>polest pom : sicut mathematicorum 
+ra<lb break="no" ed="#Ba" n="33"/>tiones, licet non possunt poni circa rem
+<lb ed="#Ba" n="34"/>secundum suum esse quod habent in na-
+(ura, possunt tamen poni circa 
+intelle<lb break="no" ed="#Ba" n="35"/>clum quantitatis qui est in re. Iste 
+au<lb break="no" ed="#Ba" n="36"/>tem intellectus producendi, ut videtur
+<lb ed="#Ba" n="37"/>nullo modo est applicabilis ipsi rei.
+</p>
+            <p xml:id="alalal-a31401-d1e358">
+               <lb ed="#Ba" n="38"/>6. Ulterius quaeritur de hoc quod
+<lb ed="#Ba" n="39"/>dicit, Quod generatur simile secundum
+<lb ed="#Ba" n="40"/>substantiam : hoc enim videtur 
+incon<lb break="no" ed="#Ba" n="41"/>veniens : non enim in divinis generatur
+<lb ed="#Ba" n="42"/>quod, sed quis.
+</p>
+            <p xml:id="alalal-a31401-d1e372">
+               <lb ed="#Ba" n="43"/>Eovrem Mopo quaeritur de secunda 
+dif<lb break="no" ed="#Ba" n="44"/>finitione Damasceni.
+</p>
+            <p xml:id="alalal-a31401-d1e379">
+               <lb ed="#Ba" n="45"/>1. Dicit enim : Naturae opus est :
+<lb ed="#Ba" n="46"/>dicit autem infra Magister, quod natura
+<lb ed="#Ba" n="47"/>nec gencrat, nec generatur.
+</p>
+            <p xml:id="alalal-a31401-d1e388">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>2. Praeterea, Nihil videtur esse 
+di<lb break="no" ed="#Ba" n="49"/>ctum, nature opus existens, et ex 
+sub<lb break="no" ed="#Ba" n="50"/>stantia producens : quia natura est 
+sub<lb break="no" ed="#Ba" n="51"/>stantia, et sic generatio erit substantiae
+<lb ed="#Ba" n="52"/>opus, et ex substantia, quae omnia in
+<lb ed="#Ba" n="53"/>sequenti distinctione improbantur.
+</p>
+            <p xml:id="alalal-a31401-d1e406">
+               <lb ed="#Ba" n="54"/>3. Praeterea, Hoc videtur esse 
+im<lb break="no" ed="#Ba" n="55"/>possibile quod dicit, ué non Deus 
+pri<lb break="no" ed="#Ba" n="56"/>mus et Deus posterior sit: quia 
+com<lb break="no" ed="#Ba" n="57"/>munis animi conceptio est, quod id
+<lb ed="#Ba" n="58"/>quod alii dat substantiam et esse, est
+<lb ed="#Ba" n="59"/>prius illo duratione quod accepit ab
+<lb ed="#Ba" n="60"/>eo substantiam et esse : nec est simile
+<lb ed="#Ba" n="61"/>de splendore et luce, quia lux in 
+lumino<lb break="no" ed="#Ba" n="62"/>so non dat splendor totum esse suum,
+<lb ed="#Ba" n="63"/>sicut pater filio: unde non dicimus
+<lb ed="#Ba" n="64"/>splendorem filium lucis.
+</p>
+            <p xml:id="alalal-a31401-d1e432">
+               <lb ed="#Ba" n="65"/>Solutio. Dicendum, quod utraque
+<lb ed="#Ba" n="66"/>diffinitio satis bona est : et prima diffinit
+<lb ed="#Ba" n="67"/>generationem univocam in genere: et
+<lb ed="#Ba" n="68"/>voco generationem univocam, illam que
+<lb ed="#Ba" n="69"/>est in similem formam et speciem cum
+<lb ed="#Ba" n="70"/>generante, sicut homo generat 
+homi<lb break="no" ed="#Ba" n="71"/>nem: in genere autem voco 
+generatio<lb break="no" ed="#Ba" n="72"/>nem, quia diffinitio secundum aliquem
+<lb ed="#Ba" n="73"/>modum convenit divine generation, et
+<lb ed="#Ba" n="74"/>hominis, et aliarum creaturarum, 
+conve<lb break="no" ed="#Ba" n="75"/>nit enim per prius et per posterius, ut
+<lb ed="#Ba" n="76"/>infra patebit.
+</p>
+            <p xml:id="alalal-a31401-d1e461">
+               <lb ed="#Ba" n="77"/>Dicendum ergo ad primum, quod 
+pre<lb break="no" ed="#Ba" n="78"/>positio ex notat ibi identitatem essentiae.
+<lb ed="#Ba" n="79"/>Sicut enim in materiahbus dicimus,
+<lb ed="#Ba" n="80"/>Cultellus est ex ferro, sighificantes non
+<lb ed="#Ba" n="81"/>tantum materiam, sed etiam quod est
+<lb ed="#Ba" n="82"/>esse ferri in cultello esse, eo quod
+<lb ed="#Ba" n="83"/>materia maneat in materiato : ita 
+trans<lb break="no" ed="#Ba" n="84"/>suminus in divina, abjiciendo quod 
+im<lb break="no" ed="#Ba" n="85"/>perfectum est, et attribuimus Deo 
+perfe<lb break="no" ed="#Ba" n="86"/>ctum. Cum igitur tria notentur in tali
+<lb ed="#Ba" n="87"/>locutione, scilicet quod ferrum fuit 
+sub<lb break="no" ed="#Ba" n="88"/>jectum operationis et ipsius fieri quo
+<lb ed="#Ba" n="89"/>fiebat cultellus, et quod cultellus 
+poten<lb break="no" ed="#Ba" n="90"/>tia fuit in ferro, et quod habet essentiam
+<lb ed="#Ba" n="91"/>ferriin se: duo prima sunt 
+imperfe<lb break="no" ed="#Ba" n="92"/>ctionis, et ideo Deo non conveniunt :
+<lb ed="#Ba" n="93"/>sed tertium perfectionis est, et hoc Deo
+<lb ed="#Ba" n="94"/>convenit, scilicet substantiam habere
+<lb ed="#Ba" n="95"/>generanlis eamdem. Et si queratur,
+<pb ed="#Ba" n="158"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Utrum notet habitudinem cause respectu
+<lb ed="#Ba" n="2"/>essentiae ? dico quod non, sed potius
+<lb ed="#Ba" n="3"/>lam habitudiaem ponit respectu  ejus
+<lb ed="#Ba" n="4"/>qui habet essentiam, et ile est Pater,
+<lb ed="#Ba" n="5"/>respectu cujus notat originis rationem,
+<lb ed="#Ba" n="6"/>que ratio licet causa proprie non. sil,
+<lb ed="#Ba" n="7"/>tamen habitudinem quodammodo 
+simi<lb break="no" ed="#Ba" n="8"/>lem habet. Objectio autem procedit in his
+<lb ed="#Ba" n="9"/>substantus generatorum quae fiunt, ubi
+<lb ed="#Ba" n="10"/>actus educitur de potentia: et hoc 
+nul<lb break="no" ed="#Ba" n="11"/>lo modo convemt in gencratione divina.
+</p>
+            <p xml:id="alalal-a31401-d1e534">
+               <lb ed="#Ba" n="12"/>Ad id quod quaeritur de substantia,
+<lb ed="#Ba" n="13"/>dicendum quod substantia stat pro 
+na<lb break="no" ed="#Ba" n="14"/>tura secundum quod substat et 
+subsi<lb break="no" ed="#Ba" n="15"/>sit, id est, secundum quod est in 
+haben<lb break="no" ed="#Ba" n="16"/>te eam, sicut significatur in hoc 
+nomi<lb break="no" ed="#Ba" n="17"/>ne, Deus. Licet enim Pater generet, et
+<lb ed="#Ba" n="18"/>non substantia divina: tamen Pater
+<lb ed="#Ba" n="19"/>non generat nisi secundum substantiam :
+<lb ed="#Ba" n="20"/>generare enim est a potentia nature 
+se<lb break="no" ed="#Ba" n="21"/>cundum quod natura est: et ideo non
+<lb ed="#Ba" n="22"/>oportel, quod substantia distinguatur
+<lb ed="#Ba" n="23"/>vel in Patre, vel in Filto: quia sicut
+<lb ed="#Ba" n="24"/>Pater secundum substantiam generat,
+<lb ed="#Ba" n="25"/>ita Filius secundum substantiam et 
+na<lb break="no" ed="#Ba" n="26"/>turam generatur : quia eadem potestas
+<lb ed="#Ba" n="27"/>nature quae est im Patre ad hoc ut 
+ge<lb break="no" ed="#Ba" n="28"/>neret, est in Filio ad hoc ut 
+genere<lb break="no" ed="#Ba" n="29"/>tur, ut Magister mfra dicet' : et ideo
+<lb ed="#Ba" n="30"/>patet quod manet indistincta in 
+gene<lb break="no" ed="#Ba" n="31"/>rante et genito, sed im utroque est sicut
+<lb ed="#Ba" n="32"/>idem.
+</p>
+            <p xml:id="alalal-a31401-d1e582">
+               <lb ed="#Ba" n="33"/>Ad hoc quod querrtur de actu 
+gene<lb break="no" ed="#Ba" n="34"/>rationis, dicendum quod non est ibi fieri
+<lb ed="#Ba" n="35"/>vel actus medius inter generantem et 
+ge<lb break="no" ed="#Ba" n="36"/>nitum, et actus non dicit nisi notionem
+<lb ed="#Ba" n="37"/>sub alio modo significandi : quia nolwo
+<lb ed="#Ba" n="38"/>nominat proprietalem secundum quod
+<lb ed="#Ba" n="39"/>per ipsam persona cognoseitur, sed 
+ac<lb break="no" ed="#Ba" n="40"/>tus nominat eam secundum rationem
+<lb ed="#Ba" n="41"/>acceptionis vel dationis essentiae : hee
+<lb ed="#Ba" n="42"/>est enim vera, quod Pater dat ecssentiam
+<lb ed="#Ba" n="43"/>Filo, et Filius accipit essentiam a Pa~
+<lb ed="#Ba" n="44"/>tre: rationem autem istius dationis et
+<lb ed="#Ba" n="45"/>acceptionis per modum intelligendi 
+no<lb break="no" ed="#Ba" n="46"/>minat actus nolionalis : Filius enim per
+<lb ed="#Ba" n="47"/>generationem accipit essentiam a Pa-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>tre . nec tamen essentia veneratur, nec
+<lb ed="#Ba" n="49"/>per accidens, sed nec per consequens.
+</p>
+            <p xml:id="alalal-a31401-d1e624">
+               <lb ed="#Ba" n="50"/>Ad id autem quod objicitur, quod 
+m<lb break="no" ed="#Ba" n="51"/>tellectus sit cassus, dicendum quod hoe
+<lb ed="#Ba" n="52"/>est verum, si nulla ratione posset poni
+<lb ed="#Ba" n="53"/>in re: sed licet non sit in 
+divi<lb break="no" ed="#Ba" n="54"/>nis ut fier, vel ut medium inter 
+agen<lb break="no" ed="#Ba" n="55"/>tem et id in quod agit, tamen sunt in
+<lb ed="#Ba" n="56"/>hoc quod persona non tantum persona
+<lb ed="#Ba" n="57"/>est, sed etiam origo est alterius 
+perso<lb break="no" ed="#Ba" n="58"/>ne quae est CX ipsa. et ipsam rationem
+<lb ed="#Ba" n="59"/>originandi exprimunt actus notionales.
+<lb ed="#Ba" n="60"/>Ad aliud dicendum, quod 
+substan<lb break="no" ed="#Ba" n="61"/>tia Filii non generatur, neo substantia
+<lb ed="#Ba" n="62"/>in Filio generatur, sed tamen substantia
+<lb ed="#Ba" n="63"/>Fibi per generationem accipitur. Regula
+<lb ed="#Ba" n="64"/>enim est, quod quidquid habet et 
+quid<lb break="no" ed="#Ba" n="65"/>quid est in persona primeipiata ab alia,
+<lb ed="#Ba" n="66"/>habet et est et accipit ab illa a qua est:
+<lb ed="#Ba" n="67"/>el istam rationem habendi essentiam
+<lb ed="#Ba" n="68"/>significat Damascenus cum dicil, quod
+<lb ed="#Ba" n="69"/>simile secundum substantiam generatur.
+</p>
+            <p xml:id="alalal-a31401-d1e670">
+               <lb ed="#Ba" n="70"/>Ad id quod quieritur de aha 
+diffinitio<lb break="no" ed="#Ba" n="71"/>ne. Dicendum quod Damascenus accipit
+<lb ed="#Ba" n="72"/>bi ratione natura: licet
+<lb ed="#Ba" n="73"/>enim idem sitin divinis nalura et 
+sub<lb break="no" ed="#Ba" n="74"/>stantia, non tamen habent eamdem 
+ra<lb break="no" ed="#Ba" n="75"/>tionem significandi in nomine secundum
+<lb ed="#Ba" n="76"/>diffinitionem quam dat Boetius de 
+natu<lb break="no" ed="#Ba" n="77"/>ra: natura enim dicitur secundum quod
+<lb ed="#Ba" n="78"/>est prme:pium producendt ex se simile,
+<lb ed="#Ba" n="79"/>et hoc principium est Pater, sed 
+secun<lb break="no" ed="#Ba" n="80"/>dum virtutem nature quae est 
+commu<lb break="no" ed="#Ba" n="81"/>nicabilis ali supposito sine divisione sui.
+<lb ed="#Ba" n="82"/>Et sic patet quod in hac ratione natura
+<lb ed="#Ba" n="83"/>aliquid attribuitur nature quod non 
+at<lb break="no" ed="#Ba" n="84"/>tribuitur substantia, licet idem sint. Et
+<lb ed="#Ba" n="85"/>per hoc patet solutio etiam ad sequens :
+<lb ed="#Ba" n="86"/>quia hunc modum significandi non habet
+<lb ed="#Ba" n="87"/>substantia quem habet natura: et ideo
+<lb ed="#Ba" n="88"/>generatio melius dicitur opus naturae,
+<lb ed="#Ba" n="89"/>quam opus substantia.</p>
+            <p xml:id="alalal-a31401-d1e716">
+               <lb ed="#Ba" n="90"/>Ap aLiup dicendum, quod virtute
+<lb ed="#Ba" n="91"/>illius generalionis sequitur quod unus
+<lb ed="#Ba" n="92"/>non sit posterior altero hoc modo: quia
+<lb ed="#Ba" n="93"/>in natura in qua nihil est in potentia
+<pb ed="#Ba" n="159"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ante actum,.non est Pater ante ens quam
+<lb ed="#Ba" n="2"/>Pater vel generans : haecemm generatio
+<lb ed="#Ba" n="3"/>pont ordinem nature quo alter sit
+<lb ed="#Ba" n="4"/>ry altero, non quo alter sit prior altero,
+<lb ed="#Ba" n="5"/>ut habetur infra! ; et ideo virtute 
+hu<lb break="no" ed="#Ba" n="6"/>jus generations in quantum est hee
+<lb ed="#Ba" n="7"/>in divinis, et non in quantum generalio
+<lb ed="#Ba" n="8"/>mmpliciter, habet quod alter non est
+<lb ed="#Ba" n="9"/>prior altero, et quod Pater non 
+subjici<lb break="no" ed="#Ba" n="10"/>tur versioni, quia non commutatur, cum
+<lb ed="#Ba" n="11"/>numquam exiverit de potentia ad actuin,
+<lb ed="#Ba" n="12"/>vel de otio in operationem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

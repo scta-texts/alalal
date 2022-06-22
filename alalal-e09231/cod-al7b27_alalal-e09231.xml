@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="643"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e09231"><!-- l2d41a3 -->
+            <head xml:id="alalal-e09231-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-e09231-Hd1e101" type="question-title">Utrum intentio quantitatem det operi
+bono vel malo, et faciat opus bonum
+vel malum ? oo</head>
+            <p xml:id="alalal-e09231-d1e104">
+               <lb ed="#Bc" n="71"/>ARTICULUS III.
+<lb ed="#Bc" n="72"/>Utrum intentio quantitatem det operi
+<lb ed="#Bc" n="73"/>bono vel malo, et faciat opus bonum
+<lb ed="#Bc" n="74"/>vel malum ? oo
+</p>
+            <p xml:id="alalal-e09231-d1e115">
+               <lb ed="#Bc" n="75"/>Tertio queritur, Utrum intentio 
+quan<lb break="no" ed="#Bc" n="76"/>titatem det operi bono vel malo ?
+</p>
+            <p xml:id="alalal-e09231-d1e122">
+               <lb ed="#Bc" n="77"/>Videtur autem quod sic: Glossa enim
+<lb ed="#Bc" n="78"/>super illud Luce, xu, 45: <quote xml:id="alalal-e09231-Qd1e128">Bonus homo
+<lb ed="#Bc" n="79"/>de bono thesauro</quote>, etc., dicit: <quote xml:id="alalal-e09231-Qd1e133"> 
+Quan<lb break="no" ed="#Bc" n="80"/>tum boni intendis, tantum boni facis. </quote>
+               <lb ed="#Bc" n="81"/>Et alia super illud, <quote xml:id="alalal-e09231-Qd1e141"> Malus homo de
+<lb ed="#Bc" n="82"/>malo thesauro, etc.: </quote>
+               <quote xml:id="alalal-e09231-Qd1e146"> Quantum mali
+<lb ed="#Bc" n="83"/>intendis, tantum mali facis. </quote> Ergo 
+vide<lb break="no" ed="#Bc" n="84"/>tur, quod et bonum et malum opus 
+acci<lb break="no" ed="#Bc" n="85"/>pit quantitatem ab intentione bona vel
+<lb ed="#Bc" n="86"/>mala: sed iste per dationem eleemosyne .
+<lb ed="#Bc" n="87"/>vel solam voluntatem martyrii intendit
+<pb ed="#Bc" n="644"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>esse martyr : ergo ipse est martyr. Et in
+<lb ed="#Bc" n="2"/>malo similiter, iste fornicando intendit
+<lb ed="#Bc" n="3"/>peccare venialiter: ergo ipse peccat 
+ve<lb break="no" ed="#Bc" n="4"/>nialiter: quorum utrumque falsum est :
+<lb ed="#Bc" n="5"/>non ergo quantum intendis, tantum 
+fa<lb break="no" ed="#Bc" n="6"/>cis.
+</p>
+            <p xml:id="alalal-e09231-d1e179">
+               <lb ed="#Bc" n="7"/>Solutio. Ad hoc potest dici, sicut 
+su<lb break="no" ed="#Bc" n="8"/>pra responsum est: et illam reputo 
+so<lb break="no" ed="#Bc" n="9"/>lutionem melidrem. Sed tamen 
+Antisio<lb break="no" ed="#Bc" n="10"/>dorensis distinguit hic dicendo, quod
+<lb ed="#Bc" n="11"/>cum dicitur, <quote xml:id="alalal-e09231-Qd1e192"> Quantum intendis, tantum
+<lb ed="#Bc" n="12"/>facis : </quote> tantum et quantum possunt
+<lb ed="#Bc" n="13"/>sumi nominaliter, et adverbialiter. Si 
+no<lb break="no" ed="#Bc" n="14"/>minaliter: tance sunt in accusativo casu,
+<lb ed="#Bc" n="15"/>et est sensus : Quantam rem intendis,
+<lb ed="#Bc" n="16"/>tantam facis : et tunc in bonis non tenet
+<lb ed="#Bc" n="17"/>propter causas supradictas: quia bonum
+<lb ed="#Bc" n="18"/>causaiur ex una tota et sola causa, et
+<lb ed="#Bc" n="19"/>non a sola intentione. In malis autem
+<lb ed="#Bc" n="20"/>comparatione habita ad pejus, tenet ex
+<lb ed="#Bc" n="21"/>parte reatus, licet non teneat ex parte
+<lb ed="#Bc" n="22"/>conversionis ad bonum commutabile, ut
+<lb ed="#Bc" n="23"/>prius dictum est: sed descendendo 
+re<lb break="no" ed="#Bc" n="24"/>specitu minus mali non tenet : quia non
+<lb ed="#Bc" n="25"/>sequitur, si intendis fornicando peccare
+<lb ed="#Bc" n="26"/>venialiter, quod pecces venialiter. Si 
+au<lb break="no" ed="#Bc" n="27"/>tem sumuntur adverbialiter: tunc 
+pos<lb break="no" ed="#Bc" n="28"/>sunt notare intentionem in genere et 
+si<lb break="no" ed="#Bc" n="29"/>militudinem, vel in specie in wqualitate.
+<lb ed="#Bc" n="30"/>Primo modo vera est, <quote xml:id="alalal-e09231-Qd1e236"> Quantum 
+inten<lb break="no" ed="#Bc" n="31"/>dis, tantum facis, </quote> id est, si multum,
+<lb ed="#Bc" n="32"/>multum. Si secundo modo, falsa est :
+<lb ed="#Bc" n="33"/>quia non ad aequalitatem intentionis
+<lb ed="#Bc" n="34"/>semper commensuratur opus.
+</p>
+            <p xml:id="alalal-e09231-d1e248">
+               <lb ed="#Bc" n="35"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

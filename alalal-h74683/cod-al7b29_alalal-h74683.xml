@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="812"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h74683"><!-- l4d19a10 -->
+            <head xml:id="alalal-h74683-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-h74683-Hd1e101" type="question-title">An aliquis clave jurisdictionis potest uti
+in subditos alienos ?</head>
+            <p xml:id="alalal-h74683-d1e104">
+               <lb ed="#Be" n="19"/>ARTICULUS X.
+<lb ed="#Be" n="20"/>An aliquis clave jurisdictionis potest uti
+<lb ed="#Be" n="21"/>in subditos alienos ?
+</p>
+            <p xml:id="alalal-h74683-d1e113">
+               <lb ed="#Be" n="22"/>Tertio queritur, Utrum potest ea uti
+<lb ed="#Be" n="23"/>in alienos subditos ?
+</p>
+            <p xml:id="alalal-h74683-d1e120">
+               <lb ed="#Be" n="24"/>Videtur, quod sic : quia
+<lb ed="#Be" n="25"/>1. Dioecesanus potest ratione delicti,
+<lb ed="#Be" n="26"/>etiam non sibi subditos excommunicare
+<lb ed="#Be" n="27"/>et absolvere, sicut dicit <ref xml:id="alalal-h74683-Rd1e130">
+                  <title>Decretalis</title>
+               </ref>: ergo
+<lb ed="#Be" n="28"/>et sacerdos.
+</p>
+            <p xml:id="alalal-h74683-d1e140">
+               <lb ed="#Be" n="29"/>2. Item, Legatus in transitu etiam illos 
+<lb ed="#Be" n="30"/>qui non sunt de legatione sua absolvit :
+<lb ed="#Be" n="31"/>ergo parochianus et Episcopus potest si- |
+<lb ed="#Be" n="32"/>militer facere.
+</p>
+            <p xml:id="alalal-h74683-d1e151">
+               <lb ed="#Be" n="33"/>3. Item, Matth. xv, 24, ubi dicit Christus:
+<lb ed="#Be" n="34"/>
+               <quote xml:id="alalal-h74683-Qd1e157">Non sum missus</quote>, etc., tamen salvavit
+<lb ed="#Be" n="35"/>alienigenam : ergo, etc.
+</p>
+            <p xml:id="alalal-h74683-d1e162">
+               <lb ed="#Be" n="36"/>Item, Per Samaritanam quae non erat
+<lb ed="#Be" n="37"/>de Israel, probatur idem.
+</p>
+            <p xml:id="alalal-h74683-d1e169">
+               <lb ed="#Be" n="38"/>SED CONTRA :
+<lb ed="#Be" n="39"/>1. Dicit Constitutio,quod nullus mittat
+<lb ed="#Be" n="40"/>falcem in messem alienam: sed aliena
+<lb ed="#Be" n="41"/>messis, alienus est subditus : ergo non
+<lb ed="#Be" n="42"/>licet ei alienum excommunicare vel 
+absol<lb break="no" ed="#Be" n="43"/>vere.
+</p>
+            <p xml:id="alalal-h74683-d1e185">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="44"/>2. Item, Multa sunt decreta, quod Fee
+<lb ed="#Be" n="45"/>scopis AEgypti subditi sunt AEgyptii :
+<lb ed="#Be" n="46"/>Episcopis Thracie, Ecclesia Thracia : ot
+<lb ed="#Be" n="47"/>quod non liceat subditum alterius alteri
+<lb ed="#Be" n="48"/>Episcopo ordinare vel recipere : ergo non
+<lb ed="#Be" n="49"/>excommunicare potest eum vel. 
+absol<lb break="no" ed="#Be" n="50"/>vere.
+</p>
+            <p xml:id="alalal-h74683-d1e205">
+               <lb ed="#Be" n="51"/>Responsio. Dicendum, quod nullus
+<lb ed="#Be" n="52"/>potest jurisdictionem suam ultra: quam
+<lb ed="#Be" n="53"/>sibi a suo superiori permissum est in
+<lb ed="#Be" n="54"/>alienum subditum extendere 
+excommu<lb break="no" ed="#Be" n="55"/>nicando vel absolvendo, vel etiam in 
+pe<lb break="no" ed="#Be" n="56"/>nitentia absolvendo, nisi eo modo quo
+<lb ed="#Be" n="57"/>supra dictum est ?.
+</p>
+            <p xml:id="alalal-h74683-d1e224">
+               <lb ed="#Be" n="58"/>Ad PRIMUM dicimus, quod ratione 
+de<lb break="no" ed="#Be" n="59"/>licti ex constitutione Papali efficitur quis
+<lb ed="#Be" n="60"/>alterius fori : ethoc factum est in poenam:
+<lb ed="#Be" n="61"/>unde in aliis casibus non potest fieri.
+</p>
+            <p xml:id="alalal-h74683-d1e235">
+               <lb ed="#Be" n="62"/>Ad aliud dicimus, quod non est simile
+<lb ed="#Be" n="63"/>de Legatis et aliis: Legatus enim 
+Apo<lb break="no" ed="#Be" n="64"/>stolice sedis, debet habere reverentiam :
+<lb ed="#Be" n="65"/>et ideo patitur Papa ut his per quos 
+tran<lb break="no" ed="#Be" n="66"/>sit, beneficium impendat, ut devotiores
+<lb ed="#Be" n="67"/>sint ad honorem sibi exhibendum : 
+se<lb break="no" ed="#Be" n="68"/>cus autem est in aliis Episcopis et 
+pleba<lb break="no" ed="#Be" n="69"/>nis : et ideo talia facere non possunt.
+</p>
+            <p xml:id="alalal-h74683-d1e255">
+               <lb ed="#Be" n="70"/>Ad aliud dicendum, quod loco Christi
+<lb ed="#Be" n="71"/>in terris non est nisi unus Papa: et ille
+<lb ed="#Be" n="72"/>potest facere in omnibus - sed alii in 
+par<lb break="no" ed="#Be" n="73"/>tem sollicitudinis vocati sunt, et ideo non
+<lb ed="#Be" n="74"/>licet eis extendere jurisdictionem ultra
+<lb ed="#Be" n="75"/>quam permissum est eis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

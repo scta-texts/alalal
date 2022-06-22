@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="328"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d59321"><!-- l2d19a1 -->
+            <head xml:id="alalal-d59321-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-d59321-Hd1e101" type="question-title">Utrum homo secundum animam sit
+immortalis?</head>
+            <p xml:id="alalal-d59321-d1e104">
+               <pb ed="#Bc" n="328"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS I.
+<lb ed="#Bc" n="2"/>Utrum homo secundum animam sit
+<lb ed="#Bc" n="3"/>immortalis?
+</p>
+            <p xml:id="alalal-d59321-d1e117">
+               <lb ed="#Bc" n="4"/>Circa primum incidunt duae questiones
+<lb ed="#Bc" n="5"/>que ambe alibi diligenter tractatae sunt.
+<lb ed="#Bc" n="6"/>Est autem prima, Utrum homo 
+secun<lb break="no" ed="#Bc" n="7"/>dum animam sit immortalis ?
+<lb ed="#Bc" n="8"/>Secunda, Utrum primus homo in 
+cor<lb break="no" ed="#Bc" n="9"/>pore poterat esse immortalis ?
+</p>
+            <p xml:id="alalal-d59321-d1e133">
+               <lb ed="#Bc" n="10"/>Ap primum proceditur sic Videtur,
+<lb ed="#Bc" n="11"/>quod anima moriatur cum = corpore :
+<lb ed="#Bc" n="12"/>quia
+</p>
+            <p xml:id="alalal-d59321-d1e143">
+               <lb ed="#Bc" n="13"/>1. Dicit Salomon, Unus est. interitus
+<lb ed="#Bc" n="14"/>hominum et jumentorum”.
+</p>
+            <p xml:id="alalal-d59321-d1e150">
+               <lb ed="#Bc" n="15"/>2. Item, Sapient. u, i : <quote xml:id="alalal-d59321-Qd1e154">Non est qui
+<lb ed="#Bc" n="16"/>agnitus sit reversus ab inferis.</quote>
+            </p>
+            <p xml:id="alalal-d59321-d1e160">
+               <lb ed="#Bc" n="17"/>3. Item, per rationes physicas sic :
+<lb ed="#Bc" n="18"/>Quecumque diffiniuntur ad se invicem
+<lb ed="#Bc" n="19"/>diffinitione essentiali, neutrum eorum
+<lb ed="#Bc" n="20"/>potest esse sine alio : corpus et anima
+<lb ed="#Bc" n="21"/>diffiniuntur ad se invicem diffinitione
+<lb ed="#Bc" n="22"/>essentiali : ergo neutrum eorum potest
+<lb ed="#Bc" n="23"/>esse sine alio. Pra patet per se. 
+Sz<lb break="no" ed="#Bc" n="24"/>CUNDA probatur per diffinitionem, quod
+<lb ed="#Bc" n="25"/>anima est actus corporis physici 
+poten<lb break="no" ed="#Bc" n="26"/>tia vitam habentis. Et quod sit 
+essentia<lb break="no" ed="#Bc" n="27"/>lis, patet quia anima aliter per accidens
+<lb ed="#Bc" n="28"/>uniretur corpori : et sic non fieret unum
+<lb ed="#Bc" n="29"/>substantialiter de corpore et anima, quod
+<lb ed="#Bc" n="30"/>falsum est.
+</p>
+            <p xml:id="alalal-d59321-d1e193">
+               <lb ed="#Bc" n="31"/>4. Item, Nulla forma habet esse nisi
+<lb ed="#Bc" n="32"/>in subjecto et in materia : anima est 
+for<lb break="no" ed="#Bc" n="33"/>ma, ut dicit Philosophus : ergo non 
+ha<lb break="no" ed="#Bc" n="34"/>bet esse nisi in subjecto et materia : ergo
+<lb ed="#Bc" n="35"/>non existente corpore, non esi anima.
+</p>
+            <p xml:id="alalal-d59321-d1e206">
+               <lb ed="#Bc" n="36"/>5. Item, Dupliciter secundum 
+Philo<lb break="no" ed="#Bc" n="37"/>sophum est aliquid corporale, scilicet
+<lb ed="#Bc" n="38"/>quia est ex contrariis, vel quia delatum
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="39"/>per esse est super compositum ex contra.
+<lb ed="#Bc" n="40"/>riis, sive conjunctum illi essentialiter .
+<lb ed="#Bc" n="41"/>et illa corrumpuntur per accidens : anj.
+<lb ed="#Bc" n="42"/>ma autem sic delata vel conjuncta egt
+<lb ed="#Bc" n="43"/>super compositum ex contrariis : ergo
+<lb ed="#Bc" n="44"/>est corporalis.
+</p>
+            <p xml:id="alalal-d59321-d1e230">
+               <lb ed="#Bc" n="45"/>Sep conrra objiciunt Magistri rationj- Sut
+<lb ed="#Bc" n="46"/>bus probabilibus, sumentes auctoritates
+<lb ed="#Bc" n="47"/>Philosophi omnino probatas, scilicet,
+</p>
+            <p xml:id="alalal-d59321-d1e240">
+               <lb ed="#Bc" n="48"/>1. Intellectus nullius corporis est ac.
+<lb ed="#Bc" n="49"/>tus : ergo non. corrumpitur corruptione
+<lb ed="#Bc" n="50"/>alicujus corporis.
+</p>
+            <p xml:id="alalal-d59321-d1e249">
+               <lb ed="#Bc" n="51"/>2. Item, Anima se habet ad corpus sic.
+<lb ed="#Bc" n="52"/>ut nauta ad navem : nauta autem 
+separa<lb break="no" ed="#Bc" n="53"/>bilis est : ergo intellectus et anima.
+</p>
+            <p xml:id="alalal-d59321-d1e258">
+               <lb ed="#Bc" n="54"/>3. Item, Objiciunt ex quibusdam 
+con<lb break="no" ed="#Bc" n="55"/>venientiis sic : Quoniam ubi est invenire
+<lb ed="#Bc" n="56"/>extrema, necesse est esse medium: sed.
+<lb ed="#Bc" n="57"/>invenimus substantiam spiritualem 
+in<lb break="no" ed="#Bc" n="58"/>corruptibilem non conjunctam corpori, ut
+<lb ed="#Bc" n="59"/>Angelos : et substantiam spiritualem
+<lb ed="#Bc" n="60"/>corruptibilem conjunctam  corpori, ut
+<lb ed="#Bc" n="61"/>anima sensibilis et vegetabilis : ergo erit
+<lb ed="#Bc" n="62"/>substantia media, scilicet substantia 
+spi<lb break="no" ed="#Bc" n="63"/>ritualis incorruptibilis conjuncta 
+corpo<lb break="no" ed="#Bc" n="64"/>ri : et hac non potest esse corruptibilis:
+<lb ed="#Bc" n="65"/>quia si sit corruptibilis, aut est 
+corrupti<lb break="no" ed="#Bc" n="66"/>bilis per se, aut per accidens : non per
+<lb ed="#Bc" n="67"/>se : quia nibil est corruptibile per se nisi
+<lb ed="#Bc" n="68"/>compositum ex contrarlis, quod non 
+pot<lb break="no" ed="#Bc" n="69"/>est convenire substantie spirituali : per
+<lb ed="#Bc" n="70"/>accidens autem non potest esse 
+corrup<lb break="no" ed="#Bc" n="71"/>tibilis, cum sit conjuncta corruptibili per
+<lb ed="#Bc" n="72"/>se: ergo remanet unum medium, scilicet
+<lb ed="#Bc" n="73"/>substantia spiritualis incorruptibilis 
+con<lb break="no" ed="#Bc" n="74"/>juncta corpori. Et alia similia his multa
+<lb ed="#Bc" n="75"/>posui alibi.
+</p>
+            <p xml:id="alalal-d59321-d1e308">
+               <lb ed="#Bc" n="76"/>Una est ratio Avicenne, quae melior
+<lb ed="#Bc" n="77"/>est omnibus aliis : dubium enim est quid
+<lb ed="#Bc" n="78"/>alii qui Philosophiam sequuntur, 
+respon<lb break="no" ed="#Bc" n="79"/>derent ad tales propositiones si 
+propo<lb break="no" ed="#Bc" n="80"/>nerentur eis. Ratio autem Avicenne 
+phy<lb break="no" ed="#Bc" n="81"/>sica est, et hac est : Si anima corrumpitur
+<lb ed="#Bc" n="82"/>corrupto corpore: aut corrumpitur per se,
+<lb ed="#Bc" n="83"/>aut per accidens. Si per se, cum secundum
+<lb ed="#Bc" n="84"/>Philosophiam nihil corrumpatur per se,
+<pb ed="#Bc" n="329"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>nisi quod habet potentiam ex 
+composi<lb break="no" ed="#Bc" n="2"/>tione contrariorum ad non esse, oportet
+<lb ed="#Bc" n="3"/>animam simul habere actum existendi
+<lb ed="#Bc" n="4"/>ut nunc, et potentiam non existendi: aut
+<lb ed="#Bc" n="5"/>secundum idem, aut secundum diversa.
+<lb ed="#Bc" n="6"/>Non secundum idem: gquoniam 
+num<lb break="no" ed="#Bc" n="7"/>quam idem est principium existentie :
+<lb ed="#Bc" n="8"/>guia existentia est a forma, et principium
+<lb ed="#Bc" n="9"/>corruptionis est compositio ex 
+contra<lb break="no" ed="#Bc" n="10"/>riis : ergo habebit hoc a diversis: ergo
+<lb ed="#Bc" n="11"/>habet in se compositum ex contraris,
+<lb ed="#Bc" n="12"/>scilicet calido, frigido, humido, sicco,
+<lb ed="#Bc" n="13"/>et formam : ergo est corpus, vel 
+harmo<lb break="no" ed="#Bc" n="14"/>nia corporis : et utrumque horum 
+im<lb break="no" ed="#Bc" n="15"/>probatum est a Philosopho in primo de
+<lb ed="#Bc" n="16"/>Anima. Si autem corrumpitur per 
+acci<lb break="no" ed="#Bc" n="17"/>dens : hoc non potest esse, nisi quia 
+se<lb break="no" ed="#Bc" n="18"/>cundum esse dependet a corpore. Aut
+<lb ed="#Bc" n="19"/>igitur dependet ab eo tamquam ab eo
+<lb ed="#Bc" n="20"/>quod est simul secundum naturam et
+<lb ed="#Bc" n="21"/>esse, aut tamquam a priori, aut tamquam
+<lb ed="#Bc" n="22"/>a posteriori. Sitamquam ab eo quod est
+<lb ed="#Bc" n="23"/>simul, tune oporteret quod essent 
+relati<lb break="no" ed="#Bc" n="24"/>va ad invicem : quia sola illa per 
+intelle<lb break="no" ed="#Bc" n="25"/>ctum sunt simul: omnia autem 
+correla<lb break="no" ed="#Bc" n="26"/>tiva sunt opposita, ex quibus numquam
+<lb ed="#Bc" n="27"/>fit unum : ergo ex corpore et anima
+<lb ed="#Bc" n="28"/>numquam filet unum. Si tamquam ex
+<lb ed="#Bc" n="29"/>priori : aut sicut ex priori tempore,
+<lb ed="#Bc" n="30"/>aut sicut ex priori causa. Si primo :
+<lb ed="#Bc" n="31"/>ergo mode anima rationalis erit in
+<lb ed="#Bc" n="32"/>materia sicut in potentia : omnis 
+au<lb break="no" ed="#Bc" n="33"/>tem talis forma educitur de materia et
+<lb ed="#Bc" n="34"/>est actus ipsius, et -non habet 
+operatio<lb break="no" ed="#Bc" n="35"/>nem nisiim materia: ergo anima 
+ratio<lb break="no" ed="#Bc" n="36"/>nalis est actus corporis, et non habet
+<lb ed="#Bc" n="37"/>operationem nisiin corpore, quod supra
+<lb ed="#Bc" n="38"/>improbatum est, cum ejus principalis
+<lb ed="#Bc" n="39"/>operatio non perficiatur nisi abstrahendo
+&amp; corpore et appenditiis materia, sicut
+<lb ed="#Bc" n="40"/>est intelligere. Si autem dependet sicut
+<lb ed="#Bc" n="41"/>ex priori causa : hoc non potest esse 
+sic<lb break="no" ed="#Bc" n="42"/>ut ex materia, quoniam jam hoc 
+impro<lb break="no" ed="#Bc" n="43"/>batum est : ergo sicut ex efficienti, vel
+<lb ed="#Bc" n="44"/>finali: et unumquodque illorum per se
+<lb ed="#Bc" n="45"/>patet esse falsum : quoniam in 
+cansalita<lb break="no" ed="#Bc" n="46"/>te efficientis, et forme, et finis, magis se
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="47"/>habet anima ad corpus, quam e 
+conver<lb break="no" ed="#Bc" n="48"/>so. Preterea, Efficiens et materia non
+<lb ed="#Bc" n="49"/>coincidunt in idem, et corpus, ut 
+proba<lb break="no" ed="#Bc" n="50"/>tum est per omnes Philosophos, est 
+ma<lb break="no" ed="#Bc" n="51"/>teria animee: ergo non estefficiens causa,
+<lb ed="#Bc" n="52"/>vel finis. Si autem dependet ab eo 
+tam<lb break="no" ed="#Bc" n="53"/>quam ex posteriori. Contra: Prius 
+pot<lb break="no" ed="#Bc" n="54"/>est esse sine posteriori : ergo anima 
+pot<lb break="no" ed="#Bc" n="55"/>est esse sine corpore.
+</p>
+            <p xml:id="alalal-d59321-d1e456">
+               <lb ed="#Bc" n="56"/>Scias autem, quod haec dispositio 
+de<lb break="no" ed="#Bc" n="57"/>pendet ex duabus aliis: quarum una est,
+<lb ed="#Bc" n="58"/>quod anima sit substantia: et alia, quod
+<lb ed="#Bc" n="59"/>non sit virtus corporea quae dividatur
+<lb ed="#Bc" n="60"/>diviso corpere : et omnes iste rationes
+<lb ed="#Bc" n="61"/>cum questionibus preambulis secundum
+<lb ed="#Bc" n="62"/>ordinem physicum alibi posite: sunt.
+</p>
+            <p xml:id="alalal-d59321-d1e474">
+               <lb ed="#Bc" n="63"/>Solutio. Non est dubitandum quin 
+ani<lb break="no" ed="#Bc" n="64"/>ma sit immortalis , nec est qui dubitat,
+<lb ed="#Bc" n="65"/>nisi diligens vitam pecudum. ~
+</p>
+            <p xml:id="alalal-d59321-d1e484">
+               <lb ed="#Bc" n="66"/>Ap primum igitur dicendum, quod 
+Sa<lb break="no" ed="#Bc" n="67"/>lomon loquitur ibi more concionantis,
+<lb ed="#Bc" n="68"/>sed non more asserentis : unde et alia
+<lb ed="#Bc" n="69"/>multa stulta ibidem colligendo dicit.
+</p>
+            <p xml:id="alalal-d59321-d1e495">
+               <lb ed="#Bc" n="70"/>Ad aliud dicendum, quod illud 
+dixe<lb break="no" ed="#Bc" n="71"/>runt impii errantes, qui non judicant
+<lb ed="#Bc" n="72"/>honorem animarum sanctarum.
+</p>
+            <p xml:id="alalal-d59321-d1e504">
+               <lb ed="#Bc" n="73"/>Ad aliud dicendum, quod anima est en-~
+<lb ed="#Bc" n="74"/>delechia corporis physici: sed non ex
+<lb ed="#Bc" n="75"/>hoe sequitur, quod non sit separabilis :
+<lb ed="#Bc" n="76"/>sed potius quod substantialem 
+dependen<lb break="no" ed="#Bc" n="77"/>tiam habeat, quia non est perfecta, sicut
+<lb ed="#Bc" n="78"/>omnes operationes exercens in corpore,
+<lb ed="#Bc" n="79"/>sed quasdam : et ideo probatur esse 
+se<lb break="no" ed="#Bc" n="80"/>parabilis.
+</p>
+            <p xml:id="alalal-d59321-d1e524">
+               <lb ed="#Bc" n="81"/>Ad aliud dicendum, quod si esset 
+con<lb break="no" ed="#Bc" n="82"/>juncta corpori sicut forma educta de illo,
+<lb ed="#Bc" n="83"/>que omnes operationes suas explet in
+<lb ed="#Bc" n="84"/>illo, tunc procederet argumentum : sed
+<lb ed="#Bc" n="85"/>sic non est, et ideo etiam anima 
+sensibi<lb break="no" ed="#Bc" n="86"/>lis, et vegetabilis, in brutis et plantis
+<lb ed="#Bc" n="87"/>corruptibiles sunt : et non sunt ad 
+ima<lb break="no" ed="#Bc" n="88"/>ginem Dei : sed anima rationalis 
+immor<lb break="no" ed="#Bc" n="89"/>talis est ad imaginem Dei. Unde super
+<lb ed="#Bc" n="90"/>illud, In imagine pertransit homo +, dicit
+<lb ed="#Bc" n="91"/>Glossa-: <quote xml:id="alalal-d59321-Qd1e550"> Anima immortalis facta est,
+<lb ed="#Bc" n="92"/>ne a sui Creatoris imagine discrepare vi-
+<pb ed="#Bc" n="330"/>
+                  <cb ed="#Bc" n="a"/>
+                  <lb ed="#Bc" n="1"/>deretur. Non enim esset imago si 
+mor<lb break="no" ed="#Bc" n="2"/>tis termino clauderetur.</quote> Et Gregorius in
+<lb ed="#Bc" n="3"/>libro Dialogorum : <quote xml:id="alalal-d59321-Qd1e565"> Homo sicut in 
+me<lb break="no" ed="#Bc" n="4"/>dio creatus est, ita communicat cum 
+na<lb break="no" ed="#Bc" n="5"/>tura superiori et inferiori, immortalis 
+spi<lb break="no" ed="#Bc" n="6"/>rita cum Angelo, mortalis et 
+corruptibi<lb break="no" ed="#Bc" n="7"/>lis corpore cum jumento. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

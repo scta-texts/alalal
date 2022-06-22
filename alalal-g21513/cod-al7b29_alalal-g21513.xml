@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="117"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g21513"><!-- l4d6a1 -->
+            <head xml:id="alalal-g21513-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-g21513-Hd1e101" type="question-title">An quilibet potest esse minister
+Ecclesiae?</head>
+            <p xml:id="alalal-g21513-d1e104">
+               <lb ed="#Be" n="37"/>ARTICULUS I.
+<lb ed="#Be" n="38"/>An quilibet potest esse minister
+<lb ed="#Be" n="39"/>Ecclesiae?
+</p>
+            <p xml:id="alalal-g21513-d1e113">
+               <lb ed="#Be" n="40"/>Incidit autem dubium circa primam
+<lb ed="#Be" n="41"/>partem, Utrum minister baptismi sit
+<lb ed="#Be" n="42"/>quilibet, sicut in Littera dici videtur?
+</p>
+            <p xml:id="alalal-g21513-d1e122">
+               <lb ed="#Be" n="43"/>Videtur autem, quod non : quia
+<lb ed="#Be" n="44"/>1. Baptismus est sacramentum 
+Eccle<lb break="no" ed="#Be" n="45"/>siae : sed sacramenta Ecclesie 
+commit<lb break="no" ed="#Be" n="46"/>tuntur dispensationi ministrorum 
+Eccle<lb break="no" ed="#Be" n="47"/>siae : ergo et baptismus. Cum igitur 
+mi<lb break="no" ed="#Be" n="48"/>nistri Ecclesiae non sint nisi Prelati,
+<lb ed="#Be" n="49"/>videtur quod non habeant potestatem
+<lb ed="#Be" n="50"/>baptizandi nisi soli Prelati.
+</p>
+            <p xml:id="alalal-g21513-d1e143">
+               <lb ed="#Be" n="51"/>2. Item, Inter sacramenta est unum
+<lb ed="#Be" n="52"/>quod est sacramentum sacramentorum,
+<lb ed="#Be" n="53"/>scilicet Ordinis : ergo videtur, quod ad~
+<lb ed="#Be" n="54"/>ministratio omnium aliorum pertinet ad
+<lb ed="#Be" n="55"/>ordinatum : non ergo ad quemlibet, ut
+<lb ed="#Be" n="56"/>videtur in Litéera dici.
+</p>
+            <p xml:id="alalal-g21513-d1e159">
+               <lb ed="#Be" n="57"/>3. Item, Matth. xxvin, 18 et 19, non
+<lb ed="#Be" n="58"/>misit Christus nisi Apostolos et 
+discipu<lb break="no" ed="#Be" n="59"/>los ad baptizandum : ergo videtur, quod
+<lb ed="#Be" n="60"/>non habent potestatem baptizandi nisi
+<lb ed="#Be" n="61"/>successores illorum : hi autem sunt 
+Pre<lb break="no" ed="#Be" n="62"/>lati : ergo videtur, quod non debeat 
+bap<lb break="no" ed="#Be" n="63"/>tizare nisi Preelatus.
+</p>
+            <p xml:id="alalal-g21513-d1e177">
+               <lb ed="#Be" n="64"/>4. Item, Non est potestas nisi a Deo,
+<lb ed="#Be" n="65"/>ut dicitur, ad Roman. xm, 1 : <quote xml:id="alalal-g21513-Qd1e183"
+                      source="http://scta.info/resource/rom13_1@14-20">quae 
+au<lb break="no" ed="#Be" n="66"/>tem a Deo sunt, ordinata sunt</quote> : ergo 
+vi<lb break="no" ed="#Be" n="67"/>detur, quod sub ordine illo cadit baptis-
+<pb ed="#Be" n="118"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>mi potestas : nullus autem. actus 
+ordi<lb break="no" ed="#Be" n="2"/>natus ex potestate aliqua committitur
+<lb ed="#Be" n="3"/>omnibus indifferenter : ergo nec actus
+<lb ed="#Be" n="4"/>ergo non quilibet potest
+<lb ed="#Be" n="5"/>baptizare, ut videtur.
+</p>
+            <p xml:id="alalal-g21513-d1e206">
+               <lb ed="#Be" n="6"/>6. Item, Apostolus dicit, quod <quote xml:id="alalal-g21513-Qd1e210">sicut
+<lb ed="#Be" n="7"/>in uno corpore multa membra habemus,
+<lb ed="#Be" n="8"/>omnia autem membra, cum sint multa,
+<lb ed="#Be" n="9"/>non eumdem actum habent ita multe
+<lb ed="#Be" n="10"/>unum corpus sumus in Christo</quote>: ergo .
+<lb ed="#Be" n="11"/>sicut est in corpore naturali, ita debet
+<lb ed="#Be" n="12"/>esse in corpore mystico : sed in corpore
+<lb ed="#Be" n="13"/>naturali in uno membro digeritur 
+nutri<lb break="no" ed="#Be" n="14"/>mentum et transmittitur ad alia, quod
+<lb ed="#Be" n="15"/>non immediate datur singulis : ergo 
+si<lb break="no" ed="#Be" n="16"/>militer debet esse in corpore mystico :
+<lb ed="#Be" n="17"/>ergo determinati erunt ministri per quos
+<lb ed="#Be" n="18"/>detur baptismus et gratia baptismalis, et
+<lb ed="#Be" n="19"/>non quilibet erit baptizans, ut videtur.
+</p>
+            <p xml:id="alalal-g21513-d1e241">
+               <lb ed="#Be" n="20"/>Sed contra hoc est quod
+<lb ed="#Be" n="21"/>1. Dicitur in Litiera.
+</p>
+            <p xml:id="alalal-g21513-d1e248">
+               <lb ed="#Be" n="22"/>2. Item, Quia baptismus est 
+sacramen<lb break="no" ed="#Be" n="23"/>tum necessitatis : et si quibusdam 
+com<lb break="no" ed="#Be" n="24"/>mitteretur, cum illi non possint esse 
+pro<lb break="no" ed="#Be" n="25"/>ximi omnibus, multos contingeret 
+peri<lb break="no" ed="#Be" n="26"/>clitari, quod esset contra Dei 
+misericor<lb break="no" ed="#Be" n="27"/>diam, et providentiam Ecclesie : ergo
+<lb ed="#Be" n="28"/>potestas baptizandi debebat omnibus
+<lb ed="#Be" n="29"/>committi.
+</p>
+            <p xml:id="alalal-g21513-d1e269">
+               <lb ed="#Be" n="30"/>Solutio. Dicendum, quod est potestas
+<lb ed="#Be" n="31"/>et commissio potestatis. Debita 
+pote<lb break="no" ed="#Be" n="32"/>stas est in eo qui habet potestatem ex
+<lb ed="#Be" n="33"/>ordine, et auctoritatem sive 
+jurisdictio<lb break="no" ed="#Be" n="34"/>nem ex auctoritate, et idoneitatem ex
+<lb ed="#Be" n="35"/>vite merito : et talis solus est digne 
+et<lb break="no" ed="#Be" n="36"/>vere minister : ille autem qui habet 
+or<lb break="no" ed="#Be" n="37"/>dinem et jurisdictionem et non vitam,
+<lb ed="#Be" n="38"/>vere quidem minister est, sed non 
+ido<lb break="no" ed="#Be" n="39"/>nee vel digne : et hoc modo procedunt
+<lb ed="#Be" n="40"/>rationes primo inducte. Sed propter 
+ne<lb break="no" ed="#Be" n="41"/>cessitatem hujus sacramenti et modum
+<lb ed="#Be" n="42"/>culpe contra quam est, accipit illud 
+sa<lb break="no" ed="#Be" n="43"/>cramentum administrationem a 
+quocum<lb break="no" ed="#Be" n="44"/>que : et necessitas est a generalitate 
+pe<lb break="no" ed="#Be" n="45"/>riculi, sicut dictum est in objiciendo, sed
+<lb ed="#Be" n="46"/>modus culpe est originalis pro quo.
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="47"/>satisfecit Christus quoad se, et sufficit
+<lb ed="#Be" n="48"/>fides aliena ut valeat baptizatis illa 
+satis<lb break="no" ed="#Be" n="49"/>factio. Hec autem fides potest esse 
+pro<lb break="no" ed="#Be" n="50"/>testata in actu cujuscumque : et ideo
+<lb ed="#Be" n="51"/>tempore necessitatis quilibet potest 
+bap<lb break="no" ed="#Be" n="52"/>tizare.
+</p>
+            <p xml:id="alalal-g21513-d1e324">
+               <lb ed="#Be" n="53"/>Dicrenpum ergo ad primum, secundum,
+<lb ed="#Be" n="54"/>tertium, et quartum, quod hoc verum
+<lb ed="#Be" n="55"/>est quoad ordinem ex jurisdictione et
+<lb ed="#Be" n="56"/>idoneitate : sed aliud reformat pactum
+<lb ed="#Be" n="57"/>in baptismo, ut dictum est.
+</p>
+            <p xml:id="alalal-g21513-d1e337">
+               <lb ed="#Be" n="58"/>Ad aliud dicendum, quod gratia quae
+<lb ed="#Be" n="59"/>est nutrimentum corporis mystici, 
+quo<lb break="no" ed="#Be" n="60"/>ad vitam spiritualem, immediate a Deo
+<lb ed="#Be" n="61"/>datur cuilibet membro, et ideo quoad
+<lb ed="#Be" n="62"/>hoc non est simile. Sed est quaedam 
+uti<lb break="no" ed="#Be" n="63"/>litas in gratiis exterioribus quae sunt ad
+<lb ed="#Be" n="64"/>bene esse, ut prophetia, scientia, et 
+hu<lb break="no" ed="#Be" n="65"/>jusmodi : et quoad illas est simile inter
+<lb ed="#Be" n="66"/>corpus mysticum et naturale : et talis
+<lb ed="#Be" n="67"/>gratia est ordo potestatis et 
+jurisdictio<lb break="no" ed="#Be" n="68"/>nis. Et ideo in talibus gratiis unum’
+mem<lb break="no" ed="#Be" n="69"/>brum mystici corporis recipit ab alio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

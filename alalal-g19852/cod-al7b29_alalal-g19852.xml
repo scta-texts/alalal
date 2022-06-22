@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="106"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g19852"><!-- l4d5a2 -->
+            <head xml:id="alalal-g19852-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-g19852-Hd1e101" type="question-title">Utrum ebriosus, homicida, adulter pos~
+sunt baptizare ?</head>
+            <p xml:id="alalal-g19852-d1e104">
+               <lb ed="#Be" n="36"/>ARTICULUS II.
+<lb ed="#Be" n="37"/>Utrum ebriosus, homicida, adulter pos~
+<lb ed="#Be" n="38"/>sunt baptizare ?
+</p>
+            <p xml:id="alalal-g19852-d1e113">
+               <lb ed="#Be" n="39"/>Deinde queritur de hoc quod dicitur,
+<lb ed="#Be" n="40"/>ibi, A, circa medium: <quote xml:id="alalal-g19852-Qd1e119"> Si gues ergo
+<lb ed="#Be" n="41"/>baptisavit ebriosus, homicida, adulter. </quote>
+            </p>
+            <p xml:id="alalal-g19852-d1e125">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="42"/>Ebriosus enim dicit oppilationem 
+dis<lb break="no" ed="#Be" n="43"/>eretionis : et si non habetur discretio,
+<lb ed="#Be" n="44"/>non habetur intentio, sed perversitas in
+<lb ed="#Be" n="45"/>actu baptizandi: non habita autem 
+in<lb break="no" ed="#Be" n="46"/>tentione et actu-debito, non est 
+baptis<lb break="no" ed="#Be" n="47"/>mus : ergo ebriosus baptizare non 
+pot<lb break="no" ed="#Be" n="48"/>est, ut videtur.
+</p>
+            <p xml:id="alalal-g19852-d1e146">
+               <lb ed="#Be" n="49"/>Juxta hoc queritur, Cum aliquis est
+<lb ed="#Be" n="50"/>ita ebriosus ut ligata sit lingua, et non
+<lb ed="#Be" n="51"/>amissus sit usus rationis et discrctionis,
+<lb ed="#Be" n="52"/>ulrum possit baptizare ?
+</p>
+            <p xml:id="alalal-g19852-d1e157">
+               <lb ed="#Be" n="53"/>Si sic: tune non prolata forma 
+ver<lb break="no" ed="#Be" n="54"/>borum ab eo qui gnarus est latini 
+elo<lb break="no" ed="#Be" n="55"/>quii potest esse baptismus, quod videtur
+<lb ed="#Be" n="56"/>esse falsum, quia forma est de 
+substan<lb break="no" ed="#Be" n="57"/>tia sacramenti. Sinon: hoc videtur 
+fal<lb break="no" ed="#Be" n="58"/>sum: quia ponamus, quod sit tempus
+<lb ed="#Be" n="59"/>necessitatis, et nullo modo adsit qui 
+pos<lb break="no" ed="#Be" n="60"/>sit baptizare, nisi talis, et ille non amisit
+<lb ed="#Be" n="61"/>discretionem per vinum : ergo dictat ei
+<lb ed="#Be" n="62"/>conscientia quia debet isti subvenire :
+<lb ed="#Be" n="63"/>ergo si non facit, peccat mortaliter : 
+er<lb break="no" ed="#Be" n="64"/>go esset perplexus, quod est contra
+<lb ed="#Be" n="65"/>Doctores qui dicunt neminem esse 
+per<lb break="no" ed="#Be" n="66"/>plexum.
+</p>
+            <p xml:id="alalal-g19852-d1e190">
+               <lb ed="#Be" n="67"/>Solutio. Dicendum ad primum, quod
+<lb ed="#Be" n="68"/>aliud est de ebrio et_ebrioso: ebriosus
+<lb ed="#Be" n="69"/>enim non semper est ebrius: et idec
+<lb ed="#Be" n="70"/>quando sobrius est, habens tamen 
+pec<lb break="no" ed="#Be" n="71"/>catum ebrietatis, potest baptizare non
+<lb ed="#Be" n="72"/>resistente peccato : et in tali casu 
+loqui<lb break="no" ed="#Be" n="73"/>tur Augustinus. Ebrius autem in quo
+<lb ed="#Be" n="74"/>suffocata est ratio, non videlur posse
+<lb ed="#Be" n="75"/>baptizare.
+</p>
+            <p xml:id="alalal-g19852-d1e212">
+               <lb ed="#Be" n="76"/>Ad ALtum casum dicendum, quod si
+<lb ed="#Be" n="77"/>non esset alius, tunc talis debet 
+bapti<lb break="no" ed="#Be" n="78"/>zare : quia etsi ebrietas talis percutiat
+<lb ed="#Be" n="79"/>nervos inordinato motu linguw, tamen
+<lb ed="#Be" n="80"/>potest formare dictiones cum studio: et
+<lb ed="#Be" n="81"/>quia discretionem habet, ad hoc studere
+<lb ed="#Be" n="82"/>potest et debet : sed si nullam posset 
+ex<lb break="no" ed="#Be" n="83"/>primere formam, secus esset : sed 
+tan<lb break="no" ed="#Be" n="84"/>tum effectum non valet habere  talis
+<lb ed="#Be" n="85"/>ebrietas quae non ligat rationem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

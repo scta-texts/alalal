@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="636"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e07926"><!-- l2d40a5 -->
+            <head xml:id="alalal-e07926-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-e07926-Hd1e101" type="question-title">Utrum unus et idem numero actus potest
+esse bonus et malus ?</head>
+            <p xml:id="alalal-e07926-d1e104">
+               <pb ed="#Bc" n="636"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS V.
+<lb ed="#Bc" n="2"/>Utrum unus et idem numero actus potest
+<lb ed="#Bc" n="3"/>esse bonus et malus ?
+</p>
+            <p xml:id="alalal-e07926-d1e117">
+               <lb ed="#Bc" n="4"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="5"/>ibi,.C, circa finem : <quote xml:id="alalal-e07926-Qd1e123"> In quibus aliqui
+<lb ed="#Bc" n="6"/>ponunt actum Judeorum, qui 
+crucifi<lb break="no" ed="#Bc" n="7"/>gendo, etc. </quote>
+            </p>
+            <p xml:id="alalal-e07926-d1e131">
+               <lb ed="#Bc" n="8"/>Videtur enim sequi ex hoc quod
+<lb ed="#Bc" n="9"/>unus numero actus possit esse bonus et
+<lb ed="#Bc" n="10"/>malus.
+</p>
+            <p xml:id="alalal-e07926-d1e141">
+               <lb ed="#Bc" n="11"/>1. Unus enim numero actus fuit 
+crucifi<lb break="no" ed="#Bc" n="12"/>xio Judeorum : et ideo placuit passio
+<lb ed="#Bc" n="13"/>Christi Judeis, et actus Judeorum 
+dis<lb break="no" ed="#Bc" n="14"/>plicuit Deo; ergo idem placuit et 
+displi<lb break="no" ed="#Bc" n="15"/>cuit: nihil autem placet Deo nisi bonum,
+<lb ed="#Bc" n="16"/>nihil displicet nisi malum.
+</p>
+            <p xml:id="alalal-e07926-d1e157">
+               <lb ed="#Bc" n="17"/>2. Item, Hoc etiam videtur in multis
+<lb ed="#Bc" n="18"/>exemplis, sicut in omnibus tentationibus
+<lb ed="#Bc" n="19"/>Sanctorum quae ex parte tentantium 
+dis<lb break="no" ed="#Bc" n="20"/>plicent, et ex parte patientium placent,
+<lb ed="#Bc" n="21"/>cum tamen una et eadem numero sit
+<lb ed="#Bc" n="22"/>actio.
+</p>
+            <p xml:id="alalal-e07926-d1e173">
+               <lb ed="#Bc" n="23"/>3. Item, Pracipit dominus bonus servo
+<lb ed="#Bc" n="24"/>malo ut det eleemosynam, et ille dat
+<lb ed="#Bc" n="25"/>eam mala voluntate : illa datio est una
+<lb ed="#Bc" n="26"/>numero, et meritoria domino, et 
+deme<lb break="no" ed="#Bc" n="27"/>ritoria servo : ergo eadem actio est bona
+<lb ed="#Bc" n="28"/>et mala.
+</p>
+            <p xml:id="alalal-e07926-d1e189">
+               <lb ed="#Bc" n="29"/>4. Item, Hee objectio est de suffragiis
+<lb ed="#Bc" n="30"/>que fiunt pro mortuis bonis a vivis ma~
+<lb ed="#Bc" n="31"/>lis, in quibus una numero actio videtur
+<lb ed="#Bc" n="32"/>esse meritoria diminutionis pene, et non
+<lb ed="#Bc" n="33"/>meritoria. Si dicas, quod hoc non est 
+in<lb break="no" ed="#Bc" n="34"/>conveniens respectu diversorum. Hoc 
+ni<lb break="no" ed="#Bc" n="35"/>hil est : quia bonum et malum sunt 
+for<lb break="no" ed="#Bc" n="36"/>mae absolute inherentes, et non in 
+com<lb break="no" ed="#Bc" n="37"/>paratione ad alterum : ergo videtur,
+<lb ed="#Bc" n="38"/>quod actio quae alicui est bona, in se sit
+<lb ed="#Bc" n="39"/>bona: et quae alicui sit mala, in se est
+<lb ed="#Bc" n="40"/>mala: ergo eadem numero actio est in
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="41"/>se mala, et in se bona, quod impossibile
+<lb ed="#Bc" n="42"/>est.
+</p>
+            <p xml:id="alalal-e07926-d1e224">
+               <lb ed="#Bc" n="43"/>5. Preterea, Videtur hoc verificari de
+<lb ed="#Bc" n="44"/>aliquo actu continuo, quem aliquis primo
+<lb ed="#Bc" n="45"/>facit propter Deum, et postea antequam
+<lb ed="#Bc" n="46"/>finiat, convertit intentionem ad inanem
+<lb ed="#Bc" n="47"/>gloriam : tunc enim actus est unus, quia
+<lb ed="#Bc" n="48"/>agens unus, et tempus unum, et 
+termi<lb break="no" ed="#Bc" n="49"/>nus motus unus: et tamen est primo 
+bo<lb break="no" ed="#Bc" n="50"/>nus, et postea malus: ergo una numero
+<lb ed="#Bc" n="51"/>actio potest esse bona et mala, quod 
+vi<lb break="no" ed="#Bc" n="52"/>detur esse impossibile, cum bonum et
+<lb ed="#Bc" n="53"/>malum sunt opposita, vel ut contraria,
+<lb ed="#Bc" n="54"/>vel ut privatio et habitus, ut supra 
+de<lb break="no" ed="#Bc" n="55"/>terminatum est.
+</p>
+            <p xml:id="alalal-e07926-d1e255">
+               <lb ed="#Bc" n="56"/>Solutio. Dicendum, quod meo judicio
+<lb ed="#Bc" n="57"/>unus et idem actus sic positus ut idem
+<lb ed="#Bc" n="58"/>sumatur in essentia, non potest esse 
+si<lb break="no" ed="#Bc" n="59"/>mul bonus et malus. .
+</p>
+            <p xml:id="alalal-e07926-d1e267">
+               <lb ed="#Bc" n="60"/>Ap primum ergo et secundum 
+dicen<lb break="no" ed="#Bc" n="61"/>dum, quod non est idem actio et passio :
+<lb ed="#Bc" n="62"/>quia actio est in agente sicut accidens in -
+<lb ed="#Bc" n="63"/>subjecto, licet sit ab ipso sicut a causa :
+<lb ed="#Bc" n="64"/>et ideo licet passio placeat, non oportet
+<lb ed="#Bc" n="65"/>quod actio placeat : quia non sunt idem
+<lb ed="#Bc" n="66"/>essentialiter, licet simul sint, et unum
+<lb ed="#Bc" n="67"/>efficiatur ab altero.
+</p>
+            <p xml:id="alalal-e07926-d1e287">
+               <lb ed="#Bc" n="68"/>Ad aliud dicendum, quod ibi sunt due
+<lb ed="#Bc" n="69"/>actiones realiter, scilicet voluntas dandi
+<lb ed="#Bc" n="70"/>in domino, et voluntas non dandi in 
+ser<lb break="no" ed="#Bc" n="71"/>vo: et ideo domini actio est simpliciter
+<lb ed="#Bc" n="72"/>bona : sed actio servi habet duo, scilicet
+<lb ed="#Bc" n="73"/>essentiam actionis secundum quod est in
+<lb ed="#Bc" n="74"/>agente et ab ipso, et haec est absolute
+<lb ed="#Bc" n="75"/>mala: et actum ipsum, et hoc per 
+au<lb break="no" ed="#Bc" n="76"/>ctoritatem domini, licet ministerium sit
+<lb ed="#Bc" n="77"/>servi : et hoc est bonum secundum quod
+<lb ed="#Bc" n="78"/>auctoritas est, et rectum est illud 
+mini<lb break="no" ed="#Bc" n="79"/>sterium, licet absolute sit malum.
+</p>
+            <p xml:id="alalal-e07926-d1e316">
+               <lb ed="#Bc" n="80"/>Ad aliud dicendum, quod opus 
+suffra<lb break="no" ed="#Bc" n="81"/>gii factum per malum, habet primum
+<lb ed="#Bc" n="82"/>motivum illum qui est in purgatorio, et
+<lb ed="#Bc" n="83"/>illius gratia informat actum ipsum : sed
+<cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="84"/>actio ipsa substantialiter est mala et 
+de<lb break="no" ed="#Bc" n="85"/>meritoria facienti, vel ad minus non
+<lb ed="#Bc" n="86"/>bona.
+</p>
+            <p xml:id="alalal-e07926-d1e336">
+               <lb ed="#Bc" n="87"/>Ad aliud dicendum, quod in tali 
+ac<lb break="no" ed="#Bc" n="88"/>tione sunt due actiones morales, licet -
+<pb ed="#Bc" n="637"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>una sit naturaliter : et quoad diversas
+<lb ed="#Bc" n="2"/>sui partes ab intentione diversimode 
+in<lb break="no" ed="#Bc" n="3"/>formatur : est enim in moribus intentio
+<lb ed="#Bc" n="4"/>principaliter movens : et cum ibi sint
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="5"/>duae intentiones, sunt duo moventia, et
+<lb ed="#Bc" n="6"/>ad duo moventia sequuntur duae 
+actio<lb break="no" ed="#Bc" n="7"/>nes, et non una.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

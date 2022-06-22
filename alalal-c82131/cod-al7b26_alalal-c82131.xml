@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="436"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c82131"><!-- l1d46a7 -->
+            <head xml:id="alalal-c82131-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-c82131-Hd1e101" type="question-title">Penes quid accipitur divisio bonorum et
+defectuum quos Magister enumerat in
+Littera ?</head>
+            <p xml:id="alalal-c82131-d1e104">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="16"/>ARTICULUS VI.
+<lb ed="#Bb" n="17"/>Penes quid accipitur divisio bonorum et
+<lb ed="#Bb" n="18"/>defectuum quos Magister enumerat in
+<lb ed="#Bb" n="19"/>Littera ?
+</p>
+            <p xml:id="alalal-c82131-d1e117">
+               <lb ed="#Bb" n="20"/>Deinde quentur de hoc quod dicit in
+<lb ed="#Bb" n="21"/>tertio capitulo, ibi, H, <quote xml:id="alalal-c82131-Qd1e123"> Est enim aliquid
+<lb ed="#Bb" n="22"/>quod in se bonnm est, etc. </quote>
+            </p>
+            <p xml:id="alalal-c82131-d1e129">
+               <lb ed="#Bb" n="23"/>Licet enim hocin secundo sententiarum
+<lb ed="#Bb" n="24"/>magis habeat discuti, ubi agitur de 
+dief<lb break="no" ed="#Bb" n="25"/>rentius boni: tamen potest queri hic,
+<cb ed="#Bb" n="c"/>
+               <lb ed="#Bb" n="26"/>Penes quid accipitur ista divisio bonorum
+<lb ed="#Bb" n="27"/>et defectuum quos hic enumerat?
+</p>
+            <p xml:id="alalal-c82131-d1e146">
+               <lb ed="#Bb" n="28"/>Et dicenpud, quod actus moralis 
+ha<lb break="no" ed="#Bb" n="29"/>bet duplicem comparationem ad agentem,
+<lb ed="#Bb" n="30"/>scilicet ut ad agentem intendentem et
+<lb ed="#Bb" n="31"/>proportionantem suum opus ad 
+mate<lb break="no" ed="#Bb" n="32"/>riam : et sic egreditur bonum opus et in
+<lb ed="#Bb" n="33"/>se, et facienti propter intentionem, et cur
+<lb ed="#Bb" n="34"/>fit propter agentem proportionantem ad
+<lb ed="#Bb" n="35"/>debitam materiam. Alia autem fiunt ex
+<lb ed="#Bb" n="36"/>particularibus defectibus. Si enim deficiat
+<lb ed="#Bb" n="37"/>ex parte agentis intendentis, cum 
+inten<lb break="no" ed="#Bb" n="38"/>tio bonum opus agent: faciat, et.
+inten<lb break="no" ed="#Bb" n="39"/>tionem fides dirigat, ut dicit Augustinus,
+<lb ed="#Bb" n="40"/>erit opus illud bonum inse, et ei cur fit,
+<pb ed="#Bb" n="437"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>sed non agenti. Si autem deficiat ex 
+par<lb break="no" ed="#Bb" n="2"/>te materie proportionate ad opus, tunc
+<lb ed="#Bb" n="3"/>erit bonum facienti, et in se, sed non ei
+<lb ed="#Bb" n="4"/>cui fit. Si autem in se deficiens sit, tunc
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="5"/>deficit agenti qui male vult hoc, et male
+<lb ed="#Bb" n="6"/>intendit : sed tamen elicitur bonum 
+occa<lb break="no" ed="#Bb" n="7"/>sionatum ex ilo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

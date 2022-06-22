@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="670"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h43812"><!-- l4d17dt2 -->
+            <head xml:id="alalal-h43812-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-h43812-d1e101">
+               <lb ed="#Be" n="12"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-h43812-d1e106">
+               <lb ed="#Be" n="13"/>
+               <quote xml:id="alalal-h43812-Qd1e110"> Non potest quisquam justificari a
+<lb ed="#Be" n="14"/>peccaio, etc. </quote>
+               <lb ed="#Be" n="15"/>De justificatione impii queruntur hic
+<lb ed="#Be" n="16"/>novem.
+<lb ed="#Be" n="17"/>Primo, Quid sit?
+<lb ed="#Be" n="18"/>Secundo, Quae exiguntur ad impii 
+ju<lb break="no" ed="#Be" n="19"/>stificationem ?
+<lb ed="#Be" n="20"/>Tertio, De ordine illorum.
+<lb ed="#Be" n="21"/>Quarto, Utrum sit naturalis vel 
+mira<lb break="no" ed="#Be" n="22"/>culosa ?
+<lb ed="#Be" n="23"/>Quinto, Cujus attributi sit effectus
+<lb ed="#Be" n="24"/>proprius ?
+<lb ed="#Be" n="25"/>Sexto, Quid sit motivum ad ipsam?
+<lb ed="#Be" n="26"/>Septimo, Utrum sit opus justitiae, vel
+<lb ed="#Be" n="27"/>misericordiz, vel utriusque?
+<lb ed="#Be" n="28"/>Octavo, De comparatione ipsius ad
+<lb ed="#Be" n="29"/>dilectionem, et vocationem, et 
+magnifi<lb break="no" ed="#Be" n="30"/>cationem.
+<lb ed="#Be" n="31"/>Nono, De comparatione ipsius ad 
+sa<lb break="no" ed="#Be" n="32"/>nationem mentis et innovationem 
+ima<lb break="no" ed="#Be" n="33"/>ginis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

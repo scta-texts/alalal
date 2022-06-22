@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="162"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c30027"><!-- l1d34a1 -->
+            <head xml:id="alalal-c30027-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-c30027-Hd1e101" type="question-title">Utrum persona sit essentia, vel non, 
+sicut dixit Gilbertus Porretanus ?</head>
+            <p xml:id="alalal-c30027-d1e104">
+               <lb ed="#Bb" n="36"/>ARTICULUS I.
+<lb ed="#Bb" n="37"/>Utrum persona sit essentia, vel non, 
+si<lb break="no" ed="#Bb" n="38"/>cut dixit Gilbertus Porretanus ?
+</p>
+            <p xml:id="alalal-c30027-d1e113">
+               <lb ed="#Bb" n="39"/>Incidit autem hic questio <name xml:id="alalal-c30027-Nd1e117">Gilberti
+<cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" n="40"/>Porretani</name>, cui iste error imponitur, licet
+<lb ed="#Bb" n="41"/>postea se correxerit, Utrum persona sit
+<lb ed="#Bb" n="42"/>essentia ?
+</p>
+            <p xml:id="alalal-c30027-d1e129">
+               <lb ed="#Bb" n="43"/>Videtur autem, quod non : quia
+<lb ed="#Bb" n="44"/>1. In nulla natura affirmatio et 
+nega<lb break="no" ed="#Bb" n="45"/>tio simul verificantur de eodem : si ergo
+<lb ed="#Bb" n="46"/>persona est essentia, persona et essentia
+<lb ed="#Bb" n="47"/>sunt idem in re: sed persona est 
+in<lb break="no" ed="#Bb" n="48"/>communicabilis, essentia autem est 
+com<lb break="no" ed="#Bb" n="49"/>municabilis : ergo de eodem in re verum
+<lb ed="#Bb" n="50"/>est dicere, quod ipsum est communicabile
+<lb ed="#Bb" n="51"/>et non communicabile, et commune et
+<lb ed="#Bb" n="52"/>non commune, et proprium et non 
+pro<lb break="no" ed="#Bb" n="53"/>prium, et distinctum et non distinctum, et
+<lb ed="#Bb" n="54"/>relatum etnonrelatum, et hujusmodi 
+om<lb break="no" ed="#Bb" n="55"/>nia : cum igitur hoc sit impossibile, 
+vide<lb break="no" ed="#Bb" n="56"/>tur quod impossibile sit personam et es~
+<lb ed="#Bb" n="57"/>sentiam omnino esse idem in re. Si forte
+<lb ed="#Bb" n="58"/>dicas, quod secundum aliquid convenit ei
+<lb ed="#Bb" n="59"/>unum, et secundum aliquid alterum: tune
+<lb ed="#Bb" n="60"/>sequitur, quod idem ibi sit unum et
+<lb ed="#Bb" n="61"/>alterum, et sic non esset penitus idem.
+</p>
+            <p xml:id="alalal-c30027-d1e174">
+               <lb ed="#Bb" n="62"/>2. Item, In divinis remanent duo 
+pre<lb break="no" ed="#Bb" n="63"/>dicamenta, quorum neutrum transit in
+<lb ed="#Bb" n="64"/>alterum, scilicet substantia, et ad 
+ali<lb break="no" ed="#Bb" n="65"/>quid: nulla autem duo praedicamenta
+<lb ed="#Bb" n="66"/>sunt nisi per hoc quod unum non est 
+al<lb break="no" ed="#Bb" n="67"/>terum : ergo ad aliquid non est 
+substan<lb break="no" ed="#Bb" n="68"/>tia : persona est ad aliquid, quia Pater
+<lb ed="#Bb" n="69"/>ad Filium : ergo Pater non est substantia
+<lb ed="#Bb" n="70"/>divina.
+</p>
+            <p xml:id="alalal-c30027-d1e196">
+               <lb ed="#Bb" n="71"/>3. Item, Essentia in aliqua habitudine
+<lb ed="#Bb" n="72"/>se habet ad personam : aut ergo ut idem
+<lb ed="#Bb" n="73"/>omnino, aut ut aliquo modo differens.
+<lb ed="#Bb" n="74"/>Si ut idem omnino : ergo Pater omnino
+<lb ed="#Bb" n="75"/>idem est quod essentia, et Filius omnino
+<lb ed="#Bb" n="76"/>idem est quod essentia : sed quecumque
+<lb ed="#Bb" n="77"/>uniet eidem omnino sunt eadem, ipsa
+<lb ed="#Bb" n="78"/>inter se sunt eadem, ut dicit 
+Philoso<lb break="no" ed="#Bb" n="79"/>phus : ergo Pater est Filius : et haec ra+
+<lb ed="#Bb" n="80"/>tio videtur innui in Littera, quod scilicet
+<lb ed="#Bb" n="81"/>ista induxit Gilbertum ad hoc quod hoc
+<lb ed="#Bb" n="82"/>diceret.
+</p>
+            <p xml:id="alalal-c30027-d1e225">
+               <lb ed="#Bb" n="83"/>4. Item, Philosophus dicit, quod
+<lb ed="#Bb" n="84"/>quantulamcumque differentiam 
+attuleri<lb break="no" ed="#Bb" n="85"/>mus, ostendentes erimus quod non idem,
+<lb ed="#Bb" n="86"/>ad minus ostendemus quod non omnino
+<lb ed="#Bb" n="87"/>idem : sed dicimus essentiam 
+commu<lb break="no" ed="#Bb" n="88"/>nem re, proprium autem re dicimus esse
+<pb ed="#Bb" n="163"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>Patrem : ergo differentia realis 
+inveni<lb break="no" ed="#Bb" n="2"/>tur : ergo non sunt omnino idem 
+perso<lb break="no" ed="#Bb" n="3"/>na et essentia.
+</p>
+            <p xml:id="alalal-c30027-d1e251">
+               <lb ed="#Bb" n="4"/>5. Item, Communis animi conceptio
+<lb ed="#Bb" n="5"/>est, differentes hypostases omnino idem
+<lb ed="#Bb" n="6"/>sibi realiter non posse participare : quia,
+<lb ed="#Bb" n="7"/>detur quod omnino idem : ergo 
+conve<lb break="no" ed="#Bb" n="8"/>niunt in eo quod est omnino idem : ergo
+<lb ed="#Bb" n="9"/>cum hoc in omnibus sit, facit omnino
+<lb ed="#Bb" n="10"/>idem : et sic non essent plures 
+hyposta<lb break="no" ed="#Bb" n="11"/>ses : ergo haec est vera, quod differentes
+<lb ed="#Bb" n="12"/>hypostases omnino idem sibi non 
+parti<lb break="no" ed="#Bb" n="13"/>cipabunt : habent autem naturam vel
+<lb ed="#Bb" n="14"/>essentiam unam tres divine hypostases :
+<lb ed="#Bb" n="15"/>ergo essentia non est idem sibi.
+</p>
+            <p xml:id="alalal-c30027-d1e280">
+               <lb ed="#Bb" n="16"/>6. Item, Philosophus dicit, quod a 
+pri<lb break="no" ed="#Bb" n="17"/>ma substantia nulla omnino erit 
+predi<lb break="no" ed="#Bb" n="18"/>catio : sed, sicut habitum est supra‘, 
+per<lb break="no" ed="#Bb" n="19"/>sona est ut prima substantia : ergo non
+<lb ed="#Bb" n="20"/>predicatur de aliquo: ergo nec de 
+es<lb break="no" ed="#Bb" n="21"/>sentia praedicabitur, ut dicatur, Essentia
+<lb ed="#Bb" n="22"/>divina est Pater.
+</p>
+            <p xml:id="alalal-c30027-d1e298">
+               <lb ed="#Bb" n="23"/>7. Item, Sepe habuimus, quod Pater
+<lb ed="#Bb" n="24"/>divina essentia est, et quod est ibi 
+con<lb break="no" ed="#Bb" n="25"/>structio secundum causam formalem : 
+er<lb break="no" ed="#Bb" n="26"/>go essentia divina se habet ad 
+hyposta<lb break="no" ed="#Bb" n="27"/>sim, sicut forma ad formatum. Inter illa
+<lb ed="#Bb" n="28"/>autem oppositio est cause et causati:
+<lb ed="#Bb" n="29"/>cum igitur causa et causatum numquam
+<lb ed="#Bb" n="30"/>sint idem, essentia et hypostatis 
+num<lb break="no" ed="#Bb" n="31"/>quam erunt idem. Hic autem inducit
+<lb ed="#Bb" n="32"/>Gilbertus, vel potest inducere sophismata
+<lb ed="#Bb" n="33"/>Prepositivi, quae supra posuimus?. Detur
+<lb ed="#Bb" n="34"/>enim, quod essentia sit persona : tunc
+<lb ed="#Bb" n="35"/>haec erit vera, essentia est Pater : Pater
+<lb ed="#Bb" n="36"/>autem alicujus est Pater : et non nisi
+<lb ed="#Bb" n="37"/>Filii : ergo essentia est Pater Filii :
+<lb ed="#Bb" n="38"/>go genuit Filium.
+</p>
+            <p xml:id="alalal-c30027-d1e336">
+               <lb ed="#Bb" n="39"/>Item, Aliquo est Pater: non nisi pa~
+<lb ed="#Bb" n="40"/>ternitate : ergo paternitas inest 
+essen<lb break="no" ed="#Bb" n="41"/>tiae : ergo determinat eam.
+</p>
+            <p xml:id="alalal-c30027-d1e345">
+               <lb ed="#Bb" n="42"/>Szep contra objicitur secundum dicta
+<lb ed="#Bb" n="43"/>beati Bernardi super Cantica.
+</p>
+            <p xml:id="alalal-c30027-d1e352">
+               <lb ed="#Bb" n="44"/>1. Dicit enim <name xml:id="alalal-c30027-Nd1e356">Gilbertus</name> super librum
+<lb ed="#Bb" n="45"/>Boetii de 7rinitate ; Deitate qua Deus est,
+<lb ed="#Bb" n="46"/>non quae Deus est. Aut ergo aliquid ma-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="47"/>jus est, aut aequale, aut minus Deo. Patet,
+<lb ed="#Bb" n="48"/>quod non est majus. Si autem aequale.
+<lb ed="#Bb" n="49"/>Contra : AEquale non facit sibi aequale :
+<lb ed="#Bb" n="50"/>quia non est potens in ipsum : ergo hec
+<lb ed="#Bb" n="51"/>deitas non facit Deum. Si minus: ergo
+<lb ed="#Bb" n="52"/>Deus degenerat, fiendo Deus per illud,
+<lb ed="#Bb" n="53"/>quod iterum absurdum est : ergo deitas
+<lb ed="#Bb" n="54"/>est ipse qui Deus est : ergo est 
+hyposta<lb break="no" ed="#Bb" n="55"/>sis et persona.
+</p>
+            <p xml:id="alalal-c30027-d1e385">
+               <lb ed="#Bb" n="56"/>2. Item, Si non est idem : ergo 
+perso<lb break="no" ed="#Bb" n="57"/>na est composita ex illo, et allio quodam:
+<lb ed="#Bb" n="58"/>ergo non est simplex, quod hereticum.
+</p>
+            <p xml:id="alalal-c30027-d1e394">
+               <lb ed="#Bb" n="59"/>3. Item, Omne compositum resolubile
+<lb ed="#Bb" n="60"/>est in sua componentia ut priora se et
+<lb ed="#Bb" n="61"/>simpliciora : ergo Deus esset resolubilis
+<lb ed="#Bb" n="62"/>in alia priora se et simpliciora, et sic nec
+<lb ed="#Bb" n="63"/>primum esset nec simplex, quod absur=
+<lb ed="#Bb" n="64"/>dum est.
+</p>
+            <p xml:id="alalal-c30027-d1e410">
+               <lb ed="#Bb" n="65"/>4. Item, Omne compositum esse suum
+<lb ed="#Bb" n="66"/>habet ab alio vel ab aliis : ergo Deus 
+es<lb break="no" ed="#Bb" n="67"/>set jam factura alterius Dei prioris se,
+<lb ed="#Bb" n="68"/>quod falsum est.
+</p>
+            <p xml:id="alalal-c30027-d1e422">
+               <lb ed="#Bb" n="69"/>Soxrutio. Patet cuilibet, quod ultime
+<lb ed="#Bb" n="70"/>rationes necessari# sunt, et prius 
+indu<lb break="no" ed="#Bb" n="71"/>cte sophistice : et hoc postea videns
+<lb ed="#Bb" n="72"/>Gilbertus correxit dictum suum, in quo
+<lb ed="#Bb" n="73"/>etiam, ut dicetur, prius sensum sanum
+<lb ed="#Bb" n="74"/>habuit, licet incauta verba protulerit.
+</p>
+            <p xml:id="alalal-c30027-d1e438">
+               <lb ed="#Bb" n="75"/>Dicendum ergo et credendum 
+simpli<lb break="no" ed="#Bb" n="76"/>citer, quod propter finem simplicitatis
+<lb ed="#Bb" n="77"/>Dei, non differunt in eo esse et quod est,
+<lb ed="#Bb" n="78"/>et essentia et persona re: differunt tamen
+<lb ed="#Bb" n="79"/>in modo supponendi et attribuendi.
+</p>
+            <p xml:id="alalal-c30027-d1e451">
+               <lb ed="#Bb" n="80"/>Si autem queras, Unde hoc fiat, cum
+<lb ed="#Bb" n="81"/>omnino idem sit re, quod diversa 
+attri<lb break="no" ed="#Bb" n="82"/>buuntur ? Dicendum, quod illa simplici=
+<lb ed="#Bb" n="83"/>tas privat compositionem per hoc quod
+<lb ed="#Bb" n="84"/>tollit diversitatem ab eis quae sibi in 
+eo<lb break="no" ed="#Bb" n="85"/>dem uniuntur : et siilla diversa 
+remane<lb break="no" ed="#Bb" n="86"/>rent, tunc facerent compositionem sicut
+<lb ed="#Bb" n="87"/>forma et materia in compositione : sed
+<lb ed="#Bb" n="88"/>licet sic tollat compositionem, tamen 
+ve<lb break="no" ed="#Bb" n="89"/>ritatem uniuscujusque eorum non tollit,
+<lb ed="#Bb" n="90"/>sicut supra diximus de attributis °, Licet
+<lb ed="#Bb" n="91"/>enim sapientia Dei sit idem cum sub-
+<pb ed="#Bb" n="164"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>stantia propter simplicitatem, tamen 
+sa<lb break="no" ed="#Bb" n="2"/>pientia Dei verissime sapientia est: 
+ali<lb break="no" ed="#Bb" n="3"/>ter enim nonaliquid esset in Dei 
+sapien<lb break="no" ed="#Bb" n="4"/>tia, quod non esset in Dei essentia. Ita
+<lb ed="#Bb" n="5"/>et haec simplicitas persone non tollit
+<lb ed="#Bb" n="6"/>veritatem hypostasis, nec veritatem 
+na<lb break="no" ed="#Bb" n="7"/>ture : et ideo remanet illa 
+communica<lb break="no" ed="#Bb" n="8"/>bilis.
+</p>
+            <p xml:id="alalal-c30027-d1e501">
+               <lb ed="#Bb" n="9"/>Et per hoc patet solutio ad primum :
+<lb ed="#Bb" n="10"/>quia licet persona et essentia sint idem,
+<lb ed="#Bb" n="11"/>tamen utrumque retinet ea quae sunt de
+<lb ed="#Bb" n="12"/>ratione sua propria : et ita 
+contradicto<lb break="no" ed="#Bb" n="13"/>ria non referuntur ad idem in ratione
+<lb ed="#Bb" n="14"/>illa qua realiter ratio est, quia realiter 
+in<lb break="no" ed="#Bb" n="15"/>communicabile convenit persone, et
+<lb ed="#Bb" n="16"/>realiter communicabile convenit nature,
+<lb ed="#Bb" n="17"/>et sic de aliis.
+</p>
+            <p xml:id="alalal-c30027-d1e523">
+               <lb ed="#Bb" n="18"/>Ad aliud dicendum, quod non 
+rema<lb break="no" ed="#Bb" n="19"/>nent ibi modi praedicandi per hoc quod
+<lb ed="#Bb" n="20"/>relatio est accidens,quia quoad hoc 
+trans<lb break="no" ed="#Bb" n="21"/>it im substantiam : sed per hoc quod ad
+<lb ed="#Bb" n="22"/>alterum est, et hoc est proprium persone,
+<lb ed="#Bb" n="23"/>non impediente simplicitate : quia 
+sim<lb break="no" ed="#Bb" n="24"/>plicitas veritatem nature non tollit, sed
+<lb ed="#Bb" n="25"/>tantum diversitatem communicabilis et
+<lb ed="#Bb" n="26"/>incommunicabilis quae sunt in eodem.
+</p>
+            <p xml:id="alalal-c30027-d1e545">
+               <lb ed="#Bb" n="27"/>Ad aliud dicendum, quod hoc 
+argu<lb break="no" ed="#Bb" n="28"/>mentum teneret, si essentidem omnino:
+<lb ed="#Bb" n="29"/>ita quod unum virtute sue nature et
+<lb ed="#Bb" n="30"/>identitate rationis esset idem cum altero:
+<lb ed="#Bb" n="31"/>sed hac retinent rationes diversas, eo
+<lb ed="#Bb" n="32"/>quod vere incommunicabile est unum,
+<lb ed="#Bb" n="33"/>et vere communicabile est alterum : et
+<lb ed="#Bb" n="34"/>ideo cum ratione ejus quod 
+incommuni<lb break="no" ed="#Bb" n="35"/>cabile est, Pater opponatur Filio 
+relati<lb break="no" ed="#Bb" n="36"/>ve : et similiter Filius ratione ejus quod
+<lb ed="#Bb" n="37"/>est incommunicabile, opponatur Patri
+<lb ed="#Bb" n="38"/>relative : non sequitur, quod unus sit
+<lb ed="#Bb" n="39"/>alius, sed tantum quod sit idem sibi in
+<lb ed="#Bb" n="40"/>substantia. Et huic aliquod simile 
+imagi<lb break="no" ed="#Bb" n="41"/>nari possumus in puncto et unitate : 
+po<lb break="no" ed="#Bb" n="42"/>namus enim punctum per id quod est,
+<lb ed="#Bb" n="43"/>uniri unitati per id quod est: et tamen
+<lb ed="#Bb" n="44"/>retinere utrumque proprietatem nature
+<lb ed="#Bb" n="45"/>sue : dicimus, quod punctum cum 
+uni<lb break="no" ed="#Bb" n="46"/>tate omnino idem est in substantia et 
+es<lb break="no" ed="#Bb" n="47"/>sentia : et tamen opponetur eiin rela-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="48"/>tione ad continuum : quia unitas habet
+<lb ed="#Bb" n="49"/>relationem ad discretum : et tunc 
+sequi<lb break="no" ed="#Bb" n="50"/>tur, quod habens relationem ad 
+conti<lb break="no" ed="#Bb" n="51"/>nuum, omnino idem sit in substantia 
+ha<lb break="no" ed="#Bb" n="52"/>benti relationem ad discretum secundum
+<lb ed="#Bb" n="53"/>quod hujusmodi. Simile tamen illud 
+de<lb break="no" ed="#Bb" n="54"/>ficit, sicut omnia similia terrena.
+</p>
+            <p xml:id="alalal-c30027-d1e611">
+               <lb ed="#Bb" n="55"/>Ad aliud dicendum, quod vim 
+facien<lb break="no" ed="#Bb" n="56"/>do in differentia, vera est propositio : sed
+<lb ed="#Bb" n="57"/>per hoc quod essentia est communis, 
+po<lb break="no" ed="#Bb" n="58"/>nitur potius convenientia quam 
+differen<lb break="no" ed="#Bb" n="59"/>tia : sicut si probamus animal esse 
+ge<lb break="no" ed="#Bb" n="60"/>nus, et esse genus hominis, per hoc 
+ma<lb break="no" ed="#Bb" n="61"/>gis probamus quod sit homo, quam quod
+<lb ed="#Bb" n="62"/>differat ab homine : et si esset simplex,
+<lb ed="#Bb" n="63"/>probaremus per hoc quod est commune
+<lb ed="#Bb" n="64"/>ad hominem, etiam quod esset idem 
+ho<lb break="no" ed="#Bb" n="65"/>mini : unde naturam esse 
+communicabi<lb break="no" ed="#Bb" n="66"/>lem non ponit causam differentiae, sed
+<lb ed="#Bb" n="67"/>potius unitatis et convenientiae cum 
+om<lb break="no" ed="#Bb" n="68"/>nibus personis in quibus est.
+</p>
+            <p xml:id="alalal-c30027-d1e644">
+               <lb ed="#Bb" n="69"/>Ad aliud dicendum, quod non est
+<lb ed="#Bb" n="70"/>communis animi conceptio, nisi in 
+natu<lb break="no" ed="#Bb" n="71"/>ra in qua guo est differt a quod est : et
+<lb ed="#Bb" n="72"/>in illa necesse est multiplicari quo est 
+se<lb break="no" ed="#Bb" n="73"/>cundum esse, secundum quod 
+multipli<lb break="no" ed="#Bb" n="74"/>cantur hypostases sive quod est: sed in
+<lb ed="#Bb" n="75"/>divinis non est ita : ergo non oportet ibi
+<lb ed="#Bb" n="76"/>illud. concipere. Ad id per quod probat,
+<lb ed="#Bb" n="77"/>patet solutio per ante dicta : quia licet
+<lb ed="#Bb" n="78"/>simplicitas faciat identitatem persone et
+<lb ed="#Bb" n="79"/>essentiae : non tamen tollit veritatem
+<lb ed="#Bb" n="80"/>utriusque : et ideo quoad rationem 
+per<lb break="no" ed="#Bb" n="81"/>sone quae realis est, eo quod est vere
+<lb ed="#Bb" n="82"/>proprietatis et hypostasis, adhuc ille
+<lb ed="#Bb" n="83"/>hypostases sunt plures.
+</p>
+            <p xml:id="alalal-c30027-d1e679">
+               <lb ed="#Bb" n="84"/>Ad aliud dicendum, quod hoc nihil
+<lb ed="#Bb" n="85"/>est : quia a prima substantia non erit
+<lb ed="#Bb" n="86"/>predicatio secundum  coordinationem
+<lb ed="#Bb" n="87"/>predicabilium in genere : et hoc intendit
+<lb ed="#Bb" n="88"/>Philosophus dicere: sed quod ipsa de
+<lb ed="#Bb" n="89"/>nullo vere praedicetur, non intendit : in
+<lb ed="#Bb" n="90"/>divinis autem etiam de communi potest
+<lb ed="#Bb" n="91"/>predicari, sicut supra ubi haec questio
+<lb ed="#Bb" n="92"/>tractata est, ostendimus .
+</p>
+            <p xml:id="alalal-c30027-d1e701">
+               <lb ed="#Bb" n="93"/>Ad ALIA jam saepius supra solutum
+<lb ed="#Bb" n="94"/>est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

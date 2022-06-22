@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="689"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e17276"><!-- l2d44a3 -->
+            <head xml:id="alalal-e17276-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-e17276-Hd1e101" type="question-title">Utrum potentia peccandi sit una, vel
+plures ?</head>
+            <p xml:id="alalal-e17276-d1e104">
+               <lb ed="#Bc" n="54"/>ARTICULUS III.
+<lb ed="#Bc" n="55"/>Utrum potentia peccandi sit una, vel
+<lb ed="#Bc" n="56"/>plures ?
+</p>
+            <p xml:id="alalal-e17276-d1e113">
+               <lb ed="#Bc" n="57"/>Tertio queritur, Utrum sit una, vel
+<lb ed="#Bc" n="58"/>plures ?
+</p>
+            <p xml:id="alalal-e17276-d1e120">
+               <lb ed="#Bc" n="59"/>Videtur autem, quod plures : quia 
+lo<lb break="no" ed="#Bc" n="60"/>quendo fit malum, et ambulando, 
+cogi<lb break="no" ed="#Bc" n="61"/>tando, volendo, et eligendo, et multis
+<lb ed="#Bc" n="62"/>aliis actionibus, quas impossibile est 
+re<lb break="no" ed="#Bc" n="63"/>ducere in potentiam unam : ergo 
+poten<lb break="no" ed="#Bc" n="64"/>tia faciendi malum est plures potentia,
+<lb ed="#Bc" n="65"/>et non una.
+</p>
+            <p xml:id="alalal-e17276-d1e139">
+               <lb ed="#Bc" n="66"/>SED CONTRA :
+<lb ed="#Bc" n="67"/>1. Augustinus dicit, quod omni malo
+<lb ed="#Bc" n="68"/>sola voluntas culpatur : ergo sola 
+volun<lb break="no" ed="#Bc" n="69"/>tas est potentia mali, vel peccandi.
+</p>
+            <p xml:id="alalal-e17276-d1e150">
+               <lb ed="#Bc" n="70"/>2. Item, Supra habuimus, quod actus
+<lb ed="#Bc" n="71"/>hujus potentie naturalis quae est 
+volun<lb break="no" ed="#Bc" n="72"/>tas, dicitur malus, et non aliarum : ergo
+<lb ed="#Bc" n="73"/>sola voluntas est potentia peccandi.
+</p>
+            <p xml:id="alalal-e17276-d1e161">
+               <lb ed="#Bc" n="74"/>SoLutio. Dicendum, quod potentia
+<lb ed="#Bc" n="75"/>peccandi, scilicet peccatum exsequens,
+<lb ed="#Bc" n="76"/>multiplex est in homine : sed potentia
+<lb ed="#Bc" n="77"/>imperans peccatum, non est nisi una sola
+<lb ed="#Bc" n="78"/>quae est voluntas.
+</p>
+            <p xml:id="alalal-e17276-d1e174">
+               <lb ed="#Bc" n="79"/>Et per hoc patet solutio ad totum.
+</p>
+            <p xml:id="alalal-e17276-d1e179">
+               <lb ed="#Bc" n="80"/>Supra tamen notata est distinctio 
+qua<lb break="no" ed="#Bc" n="81"/>liter peccatum differenter est in ratione,
+<lb ed="#Bc" n="82"/>et libero arbitrio, et voluntate, et 
+cete<lb break="no" ed="#Bc" n="83"/>ris potentiis : et illa etiam valent hic.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

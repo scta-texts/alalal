@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="552"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h16390"><!-- l4d16a7 -->
+            <head xml:id="alalal-h16390-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-h16390-Hd1e101" type="question-title">Quid sit contritio propria diffinitione ?</head>
+            <p xml:id="alalal-h16390-d1e104">
+               <lb ed="#Be" n="64"/>ARTICULUS VII.
+<lb ed="#Be" n="65"/>Quid sit contritio propria diffinitione ?
+</p>
+            <p xml:id="alalal-h16390-d1e111">
+               <lb ed="#Be" n="66"/>Secundo queritur, Quid sit contritio
+<lb ed="#Be" n="67"/>propria diffinitione et essentia, sive quid
+<lb ed="#Be" n="68"/>est dicenda ?
+</p>
+            <p xml:id="alalal-h16390-d1e120">
+               <lb ed="#Be" n="69"/>Dicunt autem quidam, quod est dolor
+<lb ed="#Be" n="70"/>voluntarius pro peccatis semper puniens
+<lb ed="#Be" n="71"/>in se quod dolet commisisse.
+</p>
+            <p xml:id="alalal-h16390-d1e130">
+               <lb ed="#Be" n="72"/>SED CONTRA :
+<lb ed="#Be" n="73"/>1. Sicut supra habitum est, ista est
+<lb ed="#Be" n="74"/>diffinitio quaedam poenitentiae : ergo male
+<lb ed="#Be" n="75"/>aptatur parti poenitentiae.
+</p>
+            <p xml:id="alalal-h16390-d1e141">
+               <lb ed="#Be" n="76"/>2. Praeterea, Videtur non esse dolor :
+<lb ed="#Be" n="77"/>quia dicit Augustinus in libro de Civitate
+<lb ed="#Be" n="78"/>Dei: <quote xml:id="alalal-h16390-Qd1e149">Dolor ex carne, est dolor 
+que<lb break="no" ed="#Be" n="79"/>dam ab ejus passione dissensio: sicut
+<lb ed="#Be" n="80"/>anime dolor, qui vocatur J¢ristitia, est
+<lb ed="#Be" n="81"/>dissensio ab his rebus quae nobis 
+nolen<lb break="no" ed="#Be" n="82"/>tibus acciderunt *. </quote> Constat autem,quod
+<lb ed="#Be" n="83"/>peccata non acciderunt nobis nolentibus,
+<lb ed="#Be" n="84"/>precipue actualia mortalia, contra quae
+<lb ed="#Be" n="85"/>specialiter ordinatur contritio.Ergo vide-
+<pb ed="#Be" n="553"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>tur, quod non sit dolor de illis : et 
+con<lb break="no" ed="#Be" n="2"/>tritio est de illis : ergo contritio non est
+<lb ed="#Be" n="3"/>dolor, ut videtur.
+</p>
+            <p xml:id="alalal-h16390-d1e179">
+               <lb ed="#Be" n="4"/>3. Item, Videtur quod nihil sit dictum,
+<lb ed="#Be" n="5"/>dolor voluntarius: aut enim hoc est
+<lb ed="#Be" n="6"/>dictum, quod voluntas doleat, aut quod
+<lb ed="#Be" n="7"/>yoluntas sit de dolore quo aliud aliquid
+<lb ed="#Be" n="8"/>dolet quam ipsa voluntas. Si primo 
+mo<lb break="no" ed="#Be" n="9"/>do. Contra : Nihil de quo est voluntas ut
+<lb ed="#Be" n="10"/>voliti afficientis voluntatem, dolet 
+volun<lb break="no" ed="#Be" n="11"/>tas, sed potius gaudet in illius 
+consecu<lb break="no" ed="#Be" n="12"/>tione : sed hoc modo, sicut dicit 
+adversa<lb break="no" ed="#Be" n="13"/>rius, de dolore est voluntas: ergo non
+<lb ed="#Be" n="14"/>dolet, sed gaudet in illius consecutione.
+</p>
+            <p xml:id="alalal-h16390-d1e205">
+               <lb ed="#Be" n="15"/>4. Item, Non videtur philosophicum
+<lb ed="#Be" n="16"/>dictum esse, quod voluntas dolet: sic
+<lb ed="#Be" n="17"/>enim dicunt Damascenus, Gregorius 
+Na<lb break="no" ed="#Be" n="18"/>zianzenus, et Aristoteles : <quote xml:id="alalal-h16390-Qd1e215"> Omnis 
+vo<lb break="no" ed="#Be" n="19"/>luntas in ratione est: et si rationalis non
+<lb ed="#Be" n="20"/>est, voluntas non est.</quote> Dicit autem
+<lb ed="#Be" n="21"/>Aristotelesin VII Ethicorum,quod <quote xml:id="alalal-h16390-Qd1e225"> omnis
+<lb ed="#Be" n="22"/>delectatio est generatio vel motus in
+<lb ed="#Be" n="23"/>sensibilem animam : </quote> ergo nulla 
+dele<lb break="no" ed="#Be" n="24"/>ctatio est in rationali: et voluntas est
+<lb ed="#Be" n="25"/>pars anime rationalis : ergo nulla 
+dele<lb break="no" ed="#Be" n="26"/>ctatio est in voluntate : sed opposita
+<lb ed="#Be" n="27"/>habent fieri circa idem : ergo etiam 
+nul<lb break="no" ed="#Be" n="28"/>la tristitia est in voluntate : sed dolor
+<lb ed="#Be" n="29"/>est tristitia, ut dicit Augustinus in 
+au<lb break="no" ed="#Be" n="30"/>ctoritate, sic quod ipsa dolore afficiatur,
+<lb ed="#Be" n="31"/>ut videtur.
+</p>
+            <p xml:id="alalal-h16390-d1e250">
+               <lb ed="#Be" n="32"/>5. Item, Nihil dolore potest affici 
+se<lb break="no" ed="#Be" n="33"/>cundum se, nisi quod habet contrarium
+<lb ed="#Be" n="34"/>secundum se: sed voluntas secundum se
+<lb ed="#Be" n="35"/>accepta prout est pars anime rationalis,
+<lb ed="#Be" n="36"/>non habet contrarium secundum se : 
+er<lb break="no" ed="#Be" n="37"/>go dolore non afficitur secundum se.
+</p>
+            <p xml:id="alalal-h16390-d1e266">
+               <lb ed="#Be" n="38"/>6. Si autem dicitur dolor secundo 
+mo<lb break="no" ed="#Be" n="39"/>do voluntarius, scilicet quia est voluntas
+<lb ed="#Be" n="40"/>de dolore quo aliquid dolet extra 
+volun<lb break="no" ed="#Be" n="41"/>tatem. Contra : Dolor qui est generaliter
+<lb ed="#Be" n="42"/>destructivus peccati, est de omni 
+pecca<lb break="no" ed="#Be" n="43"/>to : dolor autem in sensibili anima 
+acce<lb break="no" ed="#Be" n="44"/>ptus, non est de omni peccato: ergo
+<lb ed="#Be" n="45"/>non est destructivus peccati. Prima patet
+<lb ed="#Be" n="46"/>per se. Secunda autem probatur ex hoc
+<lb ed="#Be" n="47"/>quod multa peccata sunt quae nullum ha-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="48"/>bent. objectum vel delectationem in 
+sen<lb break="no" ed="#Be" n="49"/>sibili anima.
+</p>
+            <p xml:id="alalal-h16390-d1e298">
+               <lb ed="#Be" n="50"/>Inde sic : Dolor contritionis est 
+gene<lb break="no" ed="#Be" n="51"/>ralis, et generaliter destructivus peccati :
+<lb ed="#Be" n="52"/>dolor autem predicto modo dictus non
+<lb ed="#Be" n="53"/>est generalis, generaliter peccati 
+destru<lb break="no" ed="#Be" n="54"/>ctivus : ergo non est dolor contritionis :
+<lb ed="#Be" n="55"/>dictum autem erat, quod est dolor 
+con<lb break="no" ed="#Be" n="56"/>tritionis.
+</p>
+            <p xml:id="alalal-h16390-d1e316">
+               <lb ed="#Be" n="57"/>7. Ulterius queritur de hoc quod 
+di<lb break="no" ed="#Be" n="58"/>cit ibi, Semper puniens. Constat autem,
+<lb ed="#Be" n="59"/>quod non loquitur de poena secundum
+<lb ed="#Be" n="60"/>habitum, sed secundum actum: sed 
+exi<lb break="no" ed="#Be" n="61"/>stente poena secundum actum, non potest
+<lb ed="#Be" n="62"/>intense inesse alius actus : ergo non 
+pos<lb break="no" ed="#Be" n="63"/>set intense moveri umquam alio actu :
+<lb ed="#Be" n="64"/>ergo non posset intense diligere, vel
+<lb ed="#Be" n="65"/>credere, vel aliud hujusmodi : quod 
+ma<lb break="no" ed="#Be" n="66"/>gnum est inconviens.
+</p>
+            <p xml:id="alalal-h16390-d1e340">
+               <lb ed="#Be" n="67"/>Uxtertus queritur de aliis 
+compluri<lb break="no" ed="#Be" n="68"/>bus diffinitionibus quae inveniuntur.
+</p>
+            <p xml:id="alalal-h16390-d1e347">
+               <lb ed="#Be" n="69"/>Isidorus enim sic diffinit : <quote xml:id="alalal-h16390-Qd1e351"> Contritio
+<lb ed="#Be" n="70"/>est compunctio et humilitas mentis cum
+<lb ed="#Be" n="71"/>lacrymis, veniens de recordatione 
+pec<lb break="no" ed="#Be" n="72"/>cati, et timore judicii. </quote>
+            </p>
+            <p xml:id="alalal-h16390-d1e361">
+               <lb ed="#Be" n="73"/>Videtur autem, quod illa diffinitio sit
+<lb ed="#Be" n="74"/>insufficiens mullis rationibus.
+</p>
+            <p xml:id="alalal-h16390-d1e368">
+               <lb ed="#Be" n="75"/>1. Primo, quia humilitas est virtus 
+di<lb break="no" ed="#Be" n="76"/>visa a contritione, sive sacramentum, 
+si<lb break="no" ed="#Be" n="77"/>ve virtus sit: ergo non debet cadere in
+<lb ed="#Be" n="78"/>diffinitione ipsius. .
+</p>
+            <p xml:id="alalal-h16390-d1e380">
+               <lb ed="#Be" n="79"/>2. Secundo autem, quia videtur 
+com<lb break="no" ed="#Be" n="80"/>punctio sive contritio non esse mentis
+<lb ed="#Be" n="81"/>proprie, sed potius partis sensibilis : quia
+<lb ed="#Be" n="82"/>omnis dolor est in parte sensibili, sicut
+<lb ed="#Be" n="83"/>innuit Augustinus dicens, quod <quote xml:id="alalal-h16390-Qd1e393"> dolor
+<lb ed="#Be" n="84"/>est sensus eorum a quibus dissentit 
+ani<lb break="no" ed="#Be" n="85"/>ma, ex carne ortorum. </quote>
+            </p>
+            <p xml:id="alalal-h16390-d1e401">
+               <lb ed="#Be" n="86"/>Item, Philosophus dicit, quod <quote xml:id="alalal-h16390-Qd1e405"> dolor
+<lb ed="#Be" n="87"/>est sensus divisionis continui: </quote> ergo
+<lb ed="#Be" n="88"/>videtur, quod non sit mentis proprie.
+</p>
+            <p xml:id="alalal-h16390-d1e413">
+               <lb ed="#Be" n="89"/>Si dicas, quod mens est faciens 
+com<lb break="no" ed="#Be" n="90"/>punctionem : tunc quaero, Quid vocatur
+<lb ed="#Be" n="91"/>ibi mens ? Constat enim, quod mens non
+<lb ed="#Be" n="92"/>dicit ibi aliquam partem sensibilis 
+ani<lb break="no" ed="#Be" n="93"/>me aut igitur dicit rationem, aut me-
+<pb ed="#Be" n="554"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>moriam, aut voluntatem, aut aliquid
+<lb ed="#Be" n="2"/>aliud quod sit in parte rationalis anime.
+<lb ed="#Be" n="3"/>Si rationem. Contra: Dolor dicitur esse
+<lb ed="#Be" n="4"/>voluntarius, sicut jam habitum est ex
+<lb ed="#Be" n="5"/>precedenti diffinitione : ergo non dicit
+<lb ed="#Be" n="6"/>rationem, sed voluntatem. Si dicat 
+me<lb break="no" ed="#Be" n="7"/>moriam, idem objicitur. Si autem dicat
+<lb ed="#Be" n="8"/>voluntatem, hoc constat esse contra 
+di<lb break="no" ed="#Be" n="9"/>cta Sanctorum et Philosophorum, qui
+<lb ed="#Be" n="10"/>numquam mentem pro voluntate 
+posue<lb break="no" ed="#Be" n="11"/>runt.
+</p>
+            <p xml:id="alalal-h16390-d1e455">
+               <lb ed="#Be" n="12"/>3. Si dicas, quod ponitur pro 
+superio<lb break="no" ed="#Be" n="13"/>ri parte anime, in qua sunt tres 
+poten<lb break="no" ed="#Be" n="14"/>tiae anime, scilicet memoria, intellectus,
+<lb ed="#Be" n="15"/>et voluntas. Contra : Conteri actus 
+qui<lb break="no" ed="#Be" n="16"/>dam est determinatus: ergo egreditur
+<lb ed="#Be" n="17"/>a potentia determinata: ergo non est
+<lb ed="#Be" n="18"/>mentis, secundum quod est communis
+<lb ed="#Be" n="19"/>illis tribus potentiis.
+</p>
+            <p xml:id="alalal-h16390-d1e475">
+               <lb ed="#Be" n="20"/>4. Praeterea, Quid est quod dicit, Cum
+<lb ed="#Be" n="21"/>lacrymis ? quia multi conteruntur sine
+<lb ed="#Be" n="22"/>lacrymis, sicut habitum est supra in
+<lb ed="#Be" n="23"/>aia distinctione. .
+</p>
+            <p xml:id="alalal-h16390-d1e486">
+               <lb ed="#Be" n="24"/>5. Item queritur, Quare dicit, Veniens
+<lb ed="#Be" n="25"/>de recordatione peccati ? Recordatio:
+<lb ed="#Be" n="26"/>enim peccati nata est inducere 
+delectatio<lb break="no" ed="#Be" n="27"/>nem: cum igitur idem eodem modo se
+<lb ed="#Be" n="28"/>habens non sit causa contrariorum, 
+vide<lb break="no" ed="#Be" n="29"/>tur quod non debeat inducere dolorem.
+</p>
+            <p xml:id="alalal-h16390-d1e503">
+               <lb ed="#Be" n="30"/>6. Item, Timor judicii est timor 
+ser<lb break="no" ed="#Be" n="31"/>vilis : et ille non est in contritione :
+<lb ed="#Be" n="32"/>ergo contritio non venit ex timore 
+judi<lb break="no" ed="#Be" n="33"/>cli, ut videtur.
+</p>
+            <p xml:id="alalal-h16390-d1e514">
+               <lb ed="#Be" n="34"/>Ivem, Aliam adhuc descriptionem 
+po<lb break="no" ed="#Be" n="35"/>nunt quidam ex verbis Gregorii sic
+<lb ed="#Be" n="36"/>
+               <quote xml:id="alalal-h16390-Qd1e522"> Contritio est humilitas spiritus, 
+annihi<lb break="no" ed="#Be" n="37"/>lans peccatum inter spem et timorem. </quote>
+            </p>
+            <p xml:id="alalal-h16390-d1e528">
+               <lb ed="#Be" n="38"/>1. Cum autem multe virtutes moveant
+<lb ed="#Be" n="39"/>ad contritionem, videtur quod non sit
+<lb ed="#Be" n="40"/>solum diffinienda per humilitatem, sed
+<lb ed="#Be" n="41"/>etiam per alias.
+</p>
+            <p xml:id="alalal-h16390-d1e539">
+               <lb ed="#Be" n="42"/>2. Item, Non potest esse essentialis
+<lb ed="#Be" n="43"/>predicatio, quando dicitur, contritio est
+<lb ed="#Be" n="44"/>humilitas : aut igitur contritio est causa
+<lb ed="#Be" n="45"/>humilitatis, aut e converso. Si primo
+<lb ed="#Be" n="46"/>modo: hoc non videtur potius quam 
+al<lb break="no" ed="#Be" n="47"/>terius virtutis: quia sic est causa 
+justi<lb break="no" ed="#Be" n="48"/>tiae, et temperantiae, et aliarum virtutum,
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="49"/>quae in contritione infunduntur ; ergo
+<lb ed="#Be" n="50"/>cum aliarum non dicitur esse causa, neg
+<lb ed="#Be" n="51"/>istius causa esse videtur. Si secundo
+<lb ed="#Be" n="52"/>modo. Contra: Fides et timor potiyg
+<lb ed="#Be" n="53"/>sunt causa: quia una ostendit unde non
+<lb ed="#Be" n="54"/>superbiendum, et altera fugit in quan.
+<lb ed="#Be" n="55"/>tum ordinatur ad poenam: ergo non de.
+<lb ed="#Be" n="56"/>bet dici contritio humilitatis, sed Potius
+<lb ed="#Be" n="57"/>contritio fidei et timoris.
+</p>
+            <p xml:id="alalal-h16390-d1e578">
+               <lb ed="#Be" n="58"/>3. Queritur etiam de hoc quod dicié
+<lb ed="#Be" n="59"/>Gregorius, Peccatum annihilans. Quia
+<lb ed="#Be" n="60"/>super illud Job, III, 19: <quote xml:id="alalal-h16390-Qd1e586">Servus liber g
+<lb ed="#Be" n="61"/>domino suo</quote>, dicit Gregorius, quod a
+<lb ed="#Be" n="62"/>peccato non liberatur perfecte in hag
+<lb ed="#Be" n="63"/>vita qui commisit illud: ergo videtur,
+<lb ed="#Be" n="64"/>quod in hac vita peccatum annihilari non.
+<lb ed="#Be" n="65"/>potest.
+</p>
+            <p xml:id="alalal-h16390-d1e601">
+               <lb ed="#Be" n="66"/>4. item, Queritur de hoc quod dicit;,
+<lb ed="#Be" n="67"/>Inter spem et timorem. Fides enim prima
+<lb ed="#Be" n="68"/>virtutum est : ergo magis movetur 
+peeni<lb break="no" ed="#Be" n="69"/>tens inter fidem et timorem, quam inter.
+<lb ed="#Be" n="70"/>spem et timorem.
+</p>
+            <p xml:id="alalal-h16390-d1e615">
+               <lb ed="#Be" n="71"/>3. Item, Spes non exsurgit nisi ex 
+me<lb break="no" ed="#Be" n="72"/>rilis et ex gratia, sicut patet ex sua diffi-,
+<lb ed="#Be" n="73"/>nitione : sed contritus in hoc presenti
+<lb ed="#Be" n="74"/>nunc primo non habet merita: ergo nec
+<lb ed="#Be" n="75"/>spei actum potest habere: ergo non 
+mo<lb break="no" ed="#Be" n="76"/>vetur inter spem et timorem, ut videtur
+<lb ed="#Be" n="77"/>velle Gregorius.
+</p>
+            <p xml:id="alalal-h16390-d1e633">
+               <lb ed="#Be" n="78"/>Inventrur etiam alia diffinitio in Glossa,
+<lb ed="#Be" n="79"/>super Psalmum, ut, 3: Miserere mei,
+<lb ed="#Be" n="80"/>Deus: ubi sic dicitur, <quote xml:id="alalal-h16390-Qd1e641"> Contritio cordis
+<lb ed="#Be" n="81"/>est sacrificium in quo peccata solvun-.
+<lb ed="#Be" n="82"/>tur. </quote>
+            </p>
+            <p xml:id="alalal-h16390-d1e649">
+               <lb ed="#Be" n="83"/>4. Queritur autem hic, Quare dicitur
+<lb ed="#Be" n="84"/>contritio cordis, cum sit generalis ?
+</p>
+            <p xml:id="alalal-h16390-d1e656">
+               <lb ed="#Be" n="85"/>2. Praeterea, Queritur de hoc quod
+<lb ed="#Be" n="86"/>dicit, Sacrificium. Hoc enim maxime
+<lb ed="#Be" n="87"/>videtur convenire illi parti pcenitentie
+<lb ed="#Be" n="88"/>in qua homo se offert ministro Ecclesia;
+<lb ed="#Be" n="89"/>cui sacrificium debet offerre: sed hoc
+<lb ed="#Be" n="90"/>fit in confessione: ergo confessio magis
+<lb ed="#Be" n="91"/>est sacrificium quam contritio.
+</p>
+            <p xml:id="alalal-h16390-d1e674">
+               <lb ed="#Be" n="92"/>3. Queritur etiam de hoc quod dicit
+<lb ed="#Be" n="93"/>ibi, In quo peccata solvuntur, Cum enim
+<lb ed="#Be" n="94"/>tota poenitentia non sit nisi ad peccati
+<lb ed="#Be" n="95"/>solutionem, videtur quod alie duae 
+<lb ed="#Be" n="96"/>tes superfluant.
+</p>
+            <p xml:id="alalal-h16390-d1e687">
+               <pb ed="#Be" n="555"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>4. Item queritur, Qualiter peccata
+<lb ed="#Be" n="2"/>solvuntur in contritione? Si quoad 
+cul<lb break="no" ed="#Be" n="3"/>pam. Contra: Contritio quaedam poena
+<lb ed="#Be" n="4"/>est contriti, aut quidam actus 
+conte<lb break="no" ed="#Be" n="5"/>rentis, ut patet ex prehabitis. Si est
+<lb ed="#Be" n="6"/>peena contriti, cum poena non 
+contrarie<lb break="no" ed="#Be" n="7"/>tur culpe, non videtur debere solvere &gt;
+<lb ed="#Be" n="8"/>culpam. Si autem est actus conterentis,
+<lb ed="#Be" n="9"/>gic est actus virtutis alicujus, qui est 
+in<lb break="no" ed="#Be" n="10"/>formatus gratia: ergo ante actum illum
+<lb ed="#Be" n="11"/>fuit remissa culpa: ergo non remittitur
+<lb ed="#Be" n="12"/>per actum illum: ergo peccata non 
+sol<lb break="no" ed="#Be" n="13"/>vuntur quoad culpam in sacrificio 
+con<lb break="no" ed="#Be" n="14"/>tritionis.
+</p>
+            <p xml:id="alalal-h16390-d1e725">
+               <lb ed="#Be" n="15"/>Si dicas, quod solvuntur quoad 
+po<lb break="no" ed="#Be" n="16"/>nam. Contra: Quoad poenam etiam 
+sol<lb break="no" ed="#Be" n="17"/>vuntur in confessione et satisfactione :
+<lb ed="#Be" n="18"/>ergo non est proprium contritionis, et
+<lb ed="#Be" n="19"/>ita non debet ponitamquam differentia
+<lb ed="#Be" n="20"/>ultima in diffinitione ipsius.
+</p>
+            <p xml:id="alalal-h16390-d1e741">
+               <lb ed="#Be" n="21"/>InveniruR adhuc alia quae est 
+Augu<lb break="no" ed="#Be" n="22"/>stini, scilicet hec: <quote xml:id="alalal-h16390-Qd1e747"> Contritio est dolor
+<lb ed="#Be" n="23"/>cum. remissione peccati vel remittens
+<lb ed="#Be" n="24"/>peccatum. </quote>
+            </p>
+            <p xml:id="alalal-h16390-d1e755">
+               <lb ed="#Be" n="25"/>Et ista habet objectionem eamdem
+<lb ed="#Be" n="26"/>cum illa, et aliam propriam.
+</p>
+            <p xml:id="alalal-h16390-d1e762">
+               <lb ed="#Be" n="27"/>1. Contritionis enim dolor, aut est
+<lb ed="#Be" n="28"/>finitus, aut infinitus. Si finitus: constat
+<lb ed="#Be" n="29"/>autem, quod culpa et peccatum sunt 
+in<lb break="no" ed="#Be" n="30"/>finita : ergo finitum potest in infinitum,
+<lb ed="#Be" n="31"/>quod est contra Philosophum. Si 
+infini<lb break="no" ed="#Be" n="32"/>tus: constat autem, quod est contriti
+<lb ed="#Be" n="33"/>passio, vel actus conterentis, et 
+praci<lb break="no" ed="#Be" n="34"/>pue est passio: ergo finiti erit passio
+<lb ed="#Be" n="35"/>infinita, quod iterum est contra 
+Philoso<lb break="no" ed="#Be" n="36"/>phum. Ergo videtur quod non sit dolor
+<lb ed="#Be" n="37"/>remittens peccatum.
+</p>
+            <p xml:id="alalal-h16390-d1e788">
+               <lb ed="#Be" n="38"/>2. Item, Constat quod dolor illea 
+no<lb break="no" ed="#Be" n="39"/>bis est, et noster est: sed remissivum
+<lb ed="#Be" n="40"/>peccati numquam a nobis et nostrum
+<lb ed="#Be" n="41"/>est: ergo remissivum peccati non est
+<lb ed="#Be" n="42"/>dolor. Prima patet ex hoc quod dolere
+<lb ed="#Be" n="43"/>non competit nisi nature infirme 
+sen<lb break="no" ed="#Be" n="44"/>sibili qualis est nostra. Szcunpa patet
+<lb ed="#Be" n="45"/>per illud Isaiw, xumz, 25: go sum, ego
+<lb ed="#Be" n="46"/>sum ipse qui deleo iniquitates tuas propter
+<lb ed="#Be" n="47"/>me: et illud Augustini, <quote xml:id="alalal-h16390-Qd1e811"> Qui creavit te
+<lb ed="#Be" n="48"/>sine te, non justificabit te sine te. </quote>
+            </p>
+            <p xml:id="alalal-h16390-d1e817">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="49"/>Responsio. Dicendum, quod omnibus
+<lb ed="#Be" n="50"/>his descriptionibus satis bene describitur
+<lb ed="#Be" n="51"/>contritio : et in fine dicemus penes quid
+<lb ed="#Be" n="52"/>differunt.
+</p>
+            <p xml:id="alalal-h16390-d1e831">
+               <lb ed="#Be" n="53"/>Licet enim prima detur de poenitentia,
+<lb ed="#Be" n="54"/>tamen sibi maxime competit propter 
+con<lb break="no" ed="#Be" n="55"/>tritionem, sicut dixerunt quidam ante
+<lb ed="#Be" n="56"/>nos quibus nos in hoc consentimus: et
+<lb ed="#Be" n="57"/>per hoc patet solutio ad primum. Quia,
+<lb ed="#Be" n="58"/>sicut supra dictum est, licet poenitentia
+<lb ed="#Be" n="59"/>tres habeat partes, tamen maxime esse
+<lb ed="#Be" n="60"/>suum salvatur in prima quae est 
+contri<lb break="no" ed="#Be" n="61"/>tio, eo quod oportet illam secundum
+<lb ed="#Be" n="62"/>actum in omni poenitentia esse: et aliz
+<lb ed="#Be" n="63"/>quandoque non sunt, nisi in voluntate,
+<lb ed="#Be" n="64"/>sive in voto, vel proposito.
+</p>
+            <p xml:id="alalal-h16390-d1e860">
+               <lb ed="#Be" n="65"/>Ad aliud dicendum, quod voluntas
+<lb ed="#Be" n="66"/>duplex est, vel potius dupliciter 
+conside<lb break="no" ed="#Be" n="67"/>ratur, scilicet ante actum, et post actum
+<lb ed="#Be" n="68"/>quantum ad id quod remanet de actu in
+<lb ed="#Be" n="69"/>agente, ut dispositio, vel habitus, vel
+<lb ed="#Be" n="70"/>reatus, vel macula, vel omnia hec.
+<lb ed="#Be" n="71"/>Unde licet peccatum non acciderit 
+no<lb break="no" ed="#Be" n="72"/>bis volentibus voluntate antecedente
+<lb ed="#Be" n="73"/>actum, inest tamen nobis volentibus 
+vo<lb break="no" ed="#Be" n="74"/>luntate sequenti: et hoc sufficit ad 
+exci<lb break="no" ed="#Be" n="75"/>tandum dolorem hoc modo. quo in 
+pre<lb break="no" ed="#Be" n="76"/>cedenti questionis articulo notatum est.
+</p>
+            <p xml:id="alalal-h16390-d1e889">
+               <lb ed="#Be" n="77"/>Ad aliud dicendum, quod utroque
+<lb ed="#Be" n="78"/>modo dicitur dolor voluntarius: nec 
+di<lb break="no" ed="#Be" n="79"/>cimus hoc ita esse solvendum, ut quidam
+<lb ed="#Be" n="80"/>scripserunt, scilicet quod voluntas 
+du<lb break="no" ed="#Be" n="81"/>plex est: ut deliberans, et ut natura: et
+<lb ed="#Be" n="82"/>ut deliberans est, sic est de dolore, et 
+di<lb break="no" ed="#Be" n="83"/>citur dolor voluntarius: et ut natura
+<lb ed="#Be" n="84"/>est, sic dolet. Quia hoc omnino nihil
+<lb ed="#Be" n="85"/>est : quia voluntas ut natura dolet de 
+<lb ed="#Be" n="86"/>contrariis nature, et gaudet de 
+conve<lb break="no" ed="#Be" n="87"/>nientibus eidem: et talia non sunt 
+pec<lb break="no" ed="#Be" n="88"/>cata vel gratia: quia peccatum non 
+con<lb break="no" ed="#Be" n="89"/>trariatur natura: individui, licet bono
+<lb ed="#Be" n="90"/>nature contrarietur: quod qualiter sit,
+<lb ed="#Be" n="91"/>in secundo Sententiarum discussimus.
+</p>
+            <p xml:id="alalal-h16390-d1e924">
+               <lb ed="#Be" n="92"/>Sed dicendum, quod voluntas 
+delibe<lb break="no" ed="#Be" n="93"/>rativa est qua dolor est voluntarius, et
+<lb ed="#Be" n="94"/>que dolet, uno modo, secundum quod
+<lb ed="#Be" n="95"/>dicit beatus Bernardus, quod <quote xml:id="alalal-h16390-Qd1e934"> nihil 
+pu<lb break="no" ed="#Be" n="96"/>nitur nisi voluntas : </quote> non enim est 
+incon<lb break="no" ed="#Be" n="97"/>veniens yoluntatem esse de dolore : et
+<pb ed="#Be" n="556"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>ideo dolor est ibi materia circa quam est
+<lb ed="#Be" n="2"/>voluntas : et ideo gaudium de assecutione
+<lb ed="#Be" n="3"/>voliti et dolor non secundum unam 
+ra<lb break="no" ed="#Be" n="4"/>tionem se habent ad voluntatem: et ideo
+<lb ed="#Be" n="5"/>non sunt contraria: quia iste dolor est
+<lb ed="#Be" n="6"/>factus a voluntate, et est dolor in 
+quan<lb break="no" ed="#Be" n="7"/>tum est punitivus delicti, et voluntarius
+<lb ed="#Be" n="8"/>in quantum curativus et expulsivus 
+pec<lb break="no" ed="#Be" n="9"/>cati: et hoc modo nihil prohibet idem
+<lb ed="#Be" n="10"/>dolere et gaudere de dolore illo in 
+quan<lb break="no" ed="#Be" n="11"/>tum est talis virtutis. Hujus autem 
+exem<lb break="no" ed="#Be" n="12"/>plum est in secto in apostemate: ex 
+vo<lb break="no" ed="#Be" n="13"/>luntate enim sibi facit dolorem, et gaudet
+<lb ed="#Be" n="14"/>in eo secundum quod curativus est 
+apo<lb break="no" ed="#Be" n="15"/>stematis.-
+</p>
+            <p xml:id="alalal-h16390-d1e979">
+               <lb ed="#Be" n="16"/>Contra hoc quidam objiciunt sic: quia
+<lb ed="#Be" n="17"/>secundum hoc dolor contritionis non est
+<lb ed="#Be" n="18"/>voluntarius per se, sed per accidens: et
+<lb ed="#Be" n="19"/>hoc reputant inconveniens. Ego autem
+<lb ed="#Be" n="20"/>reputo inconveniens, guod aliquis dolor
+<lb ed="#Be" n="21"/>per se expetatur: cum omnis dolor sit
+<lb ed="#Be" n="22"/>malum pene, et nulla poena in quantum
+<lb ed="#Be" n="23"/>hujusmodi sit desiderata.
+</p>
+            <p xml:id="alalal-h16390-d1e999">
+               <lb ed="#Be" n="24"/>Per hoc patet solutio ad primum quod
+<lb ed="#Be" n="25"/>de hoc objicitur.
+</p>
+            <p xml:id="alalal-h16390-d1e1007">
+               <lb ed="#Be" n="26"/>Ad aliud dicendum, quod delectatio
+<lb ed="#Be" n="27"/>dicitur dupliciter, scilicet proprie, et 
+im<lb break="no" ed="#Be" n="28"/>proprie. Proprie loquendo secundum
+<lb ed="#Be" n="29"/>usum nostrum, delectatio est passio 
+sen<lb break="no" ed="#Be" n="30"/>sibilis anime proveniens ex conjunctione
+<lb ed="#Be" n="31"/>convenientis sibi cum conveniente: et
+<lb ed="#Be" n="32"/>sic loquitur Philosophus de delectatione,
+<lb ed="#Be" n="33"/>reducens omnes delectationes ad sensum,
+<lb ed="#Be" n="34"/>et adhuc ad delectationem quae est in
+<lb ed="#Be" n="35"/>tactu, quae solum secundum eum et
+<lb ed="#Be" n="36"/>Avicennam simpliciter delectatio est.
+<lb ed="#Be" n="37"/>Sed nos magis extendimus delectationis
+<lb ed="#Be" n="38"/>nomen, scilicet pro gaudio et 
+jucun<lb break="no" ed="#Be" n="39"/>ditate qualibet facta ex conjunctione
+<lb ed="#Be" n="40"/>convenientis cum convenienti : et sic
+<lb ed="#Be" n="41"/>convenit delectari anime rationali, 
+sic<lb break="no" ed="#Be" n="42"/>ut dicit Psalmus xxxvi, 4: Delectare in
+<lb ed="#Be" n="43"/>Domino, et dabit tibi petitiones cordis
+<lb ed="#Be" n="44"/>tui. Et huic opposita tristitia sive dolor
+<lb ed="#Be" n="45"/>etiam potest esse in rationali.
+</p>
+            <p xml:id="alalal-h16390-d1e1053">
+               <lb ed="#Be" n="46"/>Ad aliud dicendum, quod simpliciter
+<lb ed="#Be" n="47"/>spirituale non habet contrarium in esse,
+<lb ed="#Be" n="48"/>sed prout ordinatur ad aliquid, potest
+<lb ed="#Be" n="49"/>habere contrarium ordini ili: et hoc
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="50"/>modo anima rationalis habet contrarium
+<lb ed="#Be" n="51"/>peccatum, quia contrariatur conjunction;
+<lb ed="#Be" n="52"/>et ordini ad Deum.
+</p>
+            <p xml:id="alalal-h16390-d1e1073">
+               <lb ed="#Be" n="53"/>Ad aliud dicendum, quod si dolor sit
+<lb ed="#Be" n="54"/>in sensu, est particularis: in contritione
+<lb ed="#Be" n="55"/>autem adhuc est universalis. Dupliciter
+<lb ed="#Be" n="56"/>enim attenditur, scilicet ex parte subje~
+<lb ed="#Be" n="57"/>cti in quo fit, et ex parte efficientis cum
+<lb ed="#Be" n="58"/>quo etiam in ipsum influit forma qua
+<lb ed="#Be" n="59"/>perficit efficientem. Si primo modo:
+<lb ed="#Be" n="60"/>tune est particularis : et sic procedit 
+ob<lb break="no" ed="#Be" n="61"/>jectio. Sisecundo modo: tunc est 
+uni<lb break="no" ed="#Be" n="62"/>versalis, sicut voluntas quae est 
+universa<lb break="no" ed="#Be" n="63"/>lis motor omnium eorum quae sunt in
+<lb ed="#Be" n="64"/>regno anime : et hoc modo gratia 
+perfi<lb break="no" ed="#Be" n="65"/>ciens voluntatem, cum motu voluntatis
+<lb ed="#Be" n="66"/>fluit in ipsum, ratione cujus potest 
+ex<lb break="no" ed="#Be" n="67"/>pellere peccatum.
+</p>
+            <p xml:id="alalal-h16390-d1e1108">
+               <lb ed="#Be" n="68"/>Ad aliud dicendum, quod meo judicio
+<lb ed="#Be" n="69"/>senuper puniens dicitur in habitu 
+punien<lb break="no" ed="#Be" n="70"/>tis, non inactu. Vel dicatur, quod punire
+<lb ed="#Be" n="71"/>semper contingit dupliciter, scilicet 
+pro<lb break="no" ed="#Be" n="72"/>prio actu contritionis, et sic non semper
+<lb ed="#Be" n="73"/>actu punit: vel actu tenente vel 
+conti<lb break="no" ed="#Be" n="74"/>nente carnem ne ex ipsa oriatur pecca-.
+<lb ed="#Be" n="75"/>tum, et obviante radici peccati: et hac
+<lb ed="#Be" n="76"/>pena fit in difficultate omnis virtutis:
+<lb ed="#Be" n="77"/>et sic potest pcenitere semper. Sed 
+ta<lb break="no" ed="#Be" n="78"/>men prima solutio est magis ad prope
+<lb ed="#Be" n="79"/>situm.
+</p>
+            <p xml:id="alalal-h16390-d1e1137">
+               <lb ed="#Be" n="80"/>Ad id quod ulterius objicitur de 
+diffi<lb break="no" ed="#Be" n="81"/>nitione Isidori, dicendum quod 
+humili<lb break="no" ed="#Be" n="82"/>tas non ponitur ibi pro ipsa virtute
+<lb ed="#Be" n="83"/>humilitatis, sed potius pro humiliatione
+<lb ed="#Be" n="84"/>que idem est quod dejectio: et hoc est
+<lb ed="#Be" n="85"/>primum in contritione, scilicet quod 
+de<lb break="no" ed="#Be" n="86"/>jicit mentem erectam contra 
+precipien<lb break="no" ed="#Be" n="87"/>tem et preceptum in transgressione quae
+<lb ed="#Be" n="88"/>est peccatum : et ideo locutio debet 
+ex<lb break="no" ed="#Be" n="89"/>poni per causam: quia contritio dicitur
+<lb ed="#Be" n="90"/>esse humilitas non per essentiam, sed
+<lb ed="#Be" n="91"/>per causam, quia est causa illius: sicut
+<lb ed="#Be" n="92"/>dicitur, Dies est sol lucens super terram.
+</p>
+            <p xml:id="alalal-h16390-d1e1168">
+               <lb ed="#Be" n="93"/>Ad aliud dicendum, quod mens ibi
+<lb ed="#Be" n="94"/>sumitur meo judicio pro toto interiori
+<lb ed="#Be" n="95"/>homine.
+</p>
+            <p xml:id="alalal-h16390-d1e1178">
+               <lb ed="#Be" n="96"/>Et ad hoc quod objicitur, quod contert
+<lb ed="#Be" n="97"/>est actus spiritualis : dicendum quod
+<pb ed="#Be" n="557"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>conteri secundum essentiam est actus
+<lb ed="#Be" n="2"/>spiritualis: sed aliquid ipsius est unius,
+<lb ed="#Be" n="3"/>et aliquid alterius est: est enim conteri,
+<lb ed="#Be" n="4"/>detestari peccatum dolendo de ipso: et
+<lb ed="#Be" n="5"/>ad hoc requiritur peccati consideratio in
+<lb ed="#Be" n="6"/>statu, in culpa, in tempore, et in aliis
+<lb ed="#Be" n="7"/>que Augustinus dicit in Litera: quae
+<lb ed="#Be" n="8"/>consideratio rationis est et intellectus.
+<lb ed="#Be" n="9"/>Exigitur etiam notitia preteriti peccati,
+<lb ed="#Be" n="10"/>et haec est memoriae: et exigitur 
+dissen<lb break="no" ed="#Be" n="11"/>sug qui est voluntatis. Unde licet unus
+<lb ed="#Be" n="12"/>sit actus secundum se, tamen plura 
+exi<lb break="no" ed="#Be" n="13"/>git et coexigit sibi, et ratione illorum
+<lb ed="#Be" n="14"/>habet etiam aliquid in aliis potentiis 
+ani<lb break="no" ed="#Be" n="15"/>me.
+</p>
+            <p xml:id="alalal-h16390-d1e1222">
+               <lb ed="#Be" n="16"/>Et per hoc patet solutio ad totum
+<lb ed="#Be" n="17"/>quod objectum est de mente.
+</p>
+            <p xml:id="alalal-h16390-d1e1229">
+               <lb ed="#Be" n="18"/>Ad aliud dicendum, quod lacryme
+<lb ed="#Be" n="19"/>sunt ibi voluntatis lacryme : et ratio
+<lb ed="#Be" n="20"/>hujus patet ex dictis in praecedenti 
+dis<lb break="no" ed="#Be" n="21"/>tinctione. Vel si quandoque sunt 
+oculo<lb break="no" ed="#Be" n="22"/>rum lacryme, ille sunt ibi ut signum,
+<lb ed="#Be" n="23"/>et non ut essentia contritionis, vel 
+ali<lb break="no" ed="#Be" n="24"/>quid essentiale ipsius: nec Sancti curant
+<lb ed="#Be" n="25"/>ita de propriis diffinitionibus in quibus
+<lb ed="#Be" n="26"/>nihil sit nisi essentiale: quia intendunt
+<lb ed="#Be" n="27"/>notificare rem de qua loquuntur: et hac
+<lb ed="#Be" n="28"/>frequenter quoad nos melius innotescit
+<lb ed="#Be" n="29"/>per signa, quam per substantialia.
+</p>
+            <p xml:id="alalal-h16390-d1e1258">
+               <lb ed="#Be" n="30"/>Ad aliud dicendum, quod recordatio
+<lb ed="#Be" n="31"/>peccatorum dicit commune quoddam
+<lb ed="#Be" n="32"/>quod potest facere delectationem, vel
+<lb ed="#Be" n="33"/>dolorem : sed hic intelligitur recordatio
+<lb ed="#Be" n="34"/>peccatorum cum indignatione sui et 
+de<lb break="no" ed="#Be" n="35"/>testatione peccati: et sic recordatio non
+<lb ed="#Be" n="36"/>est nata nisi facere tristitiam et dolorem.
+</p>
+            <p xml:id="alalal-h16390-d1e1276">
+               <lb ed="#Be" n="37"/>Ad aliud dicendum, quod timor judicii
+<lb ed="#Be" n="38"/>dicitur dupliciter, scilicet qui 
+principa<lb break="no" ed="#Be" n="39"/>lem oculum habet ad judicium: et ille
+<lb ed="#Be" n="40"/>causatur a fide informi: et vivit in eo
+<lb ed="#Be" n="41"/>secundum Gregorium peccandi voluntas :
+<lb ed="#Be" n="42"/>et sequeretur opus si speraretur 
+impu<lb break="no" ed="#Be" n="43"/>nitas: et iste est timor servilis, et non
+<lb ed="#Be" n="44"/>est in contritione, sed attritione. Est 
+ite<lb break="no" ed="#Be" n="45"/>rum timor judicii, potius judicis quam
+<lb ed="#Be" n="46"/>judicii, qui principalem oculum habet ad
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="47"/>aeterna, scilicet ad Deum qui est judex, a
+<lb ed="#Be" n="48"/>quo propter dilectionem horret separari,
+<lb ed="#Be" n="49"/>et ex illa separatione incidere in poenas
+<lb ed="#Be" n="50"/>judicandorum: et ille est timor initialis,
+<lb ed="#Be" n="51"/>qui est in contritione. Dicit enim 
+Grego<lb break="no" ed="#Be" n="52"/>rius: <quote xml:id="alalal-h16390-Qd1e1315"> Cum sic poena timetur, quod 
+fa<lb break="no" ed="#Be" n="53"/>cies judicis non amatur, timor est ex 
+ti<lb break="no" ed="#Be" n="54"/>more, non ex amore: cum autem sic 
+ti<lb break="no" ed="#Be" n="55"/>metur, quod facies judicis amatur, timor
+<lb ed="#Be" n="56"/>ex amore est, non ex timore: </quote> et hoc
+<lb ed="#Be" n="57"/>modo intelligitur timor judicii in 
+diffini<lb break="no" ed="#Be" n="58"/>tione Isidori.
+</p>
+            <p xml:id="alalal-h16390-d1e1331">
+               <lb ed="#Be" n="59"/>Ad id quod ulterius queritur de 
+diffi<lb break="no" ed="#Be" n="60"/>nitione Gregorii, dicendum quod 
+humili<lb break="no" ed="#Be" n="61"/>tas hic sumitur pro humiliatione, sicut
+<lb ed="#Be" n="62"/>dictum est: tamen humilitatis actus 
+cau<lb break="no" ed="#Be" n="63"/>satur ab actu contritionis, ut jam dictum
+<lb ed="#Be" n="64"/>est: et sic loquitur hic Gregorius: et sic
+<lb ed="#Be" n="65"/>vicinior est sibi humilitas quam alia 
+vir<lb break="no" ed="#Be" n="66"/>tus propter conformitatem in actu 
+de<lb break="no" ed="#Be" n="67"/>jectionis in dolente et humiliato, qui 
+ubi<lb break="no" ed="#Be" n="68"/>cumque se dejicit.
+</p>
+            <p xml:id="alalal-h16390-d1e1356">
+               <lb ed="#Be" n="69"/>Ad aliud quod contra hoc videtur esse,
+<lb ed="#Be" n="70"/>quod contritio causet humiliationem :
+<lb ed="#Be" n="71"/>dicendum quod contritio quodammodo
+<lb ed="#Be" n="72"/>causat omnes alias, sicut supra notatum
+<lb ed="#Be" n="73"/>est: sed tamen specialiter humilitatem
+<lb ed="#Be" n="74"/>in actu : quia dejectio sui initium est 
+re<lb break="no" ed="#Be" n="75"/>conciliationis divine, sicut superbia 
+ini<lb break="no" ed="#Be" n="76"/>tium apostatandi a Deo, ut dicitur,
+<lb ed="#Be" n="77"/>Eeccli. x, 14?.
+</p>
+            <p xml:id="alalal-h16390-d1e1378">
+               <lb ed="#Be" n="78"/>Ad Hoc autem quod objicitur de fide,
+<lb ed="#Be" n="79"/>que non superbiendum esse ostendit, et
+<lb ed="#Be" n="80"/>timore qui poenam fugit: dicendum quod
+<lb ed="#Be" n="81"/>hec duo sunt moventia ad contritionem
+<lb ed="#Be" n="82"/>non proxime, sed quasi ante quae nihil:
+<lb ed="#Be" n="83"/>unum secundum intellectum, et alterum
+<lb ed="#Be" n="84"/>secundum affectum: sed humiliatio est
+<lb ed="#Be" n="85"/>proximum consequens contritionem, 
+se<lb break="no" ed="#Be" n="86"/>cundum quod per ipsam est accessus ad
+<lb ed="#Be" n="87"/>Deum: quia oportet se dejicere ut 
+sub<lb break="no" ed="#Be" n="88"/>datur precepto et precipienti. Alie 
+au<lb break="no" ed="#Be" n="89"/>tem virtutes causantur aliquo modo a
+<lb ed="#Be" n="90"/>contritione, secundum quod est terminus
+<lb ed="#Be" n="91"/>justificationis, non tamquam conjuncte
+<pb ed="#Be" n="558"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>actui contritionis secundum quod 
+con<lb break="no" ed="#Be" n="2"/>tritio.
+</p>
+            <p xml:id="alalal-h16390-d1e1420">
+               <lb ed="#Be" n="3"/>Ad aliud dicendum, quod peccatum
+<lb ed="#Be" n="4"/>annihilari potest tripliciter, scilicet 
+se<lb break="no" ed="#Be" n="5"/>cundum reatum culpe, et secundum 
+ti<lb break="no" ed="#Be" n="6"/>morem ne surgat, sive secundum 
+poten<lb break="no" ed="#Be" n="7"/>tiam peccandi, et secundum 
+certitudi<lb break="no" ed="#Be" n="8"/>nem remissionis. Primo autem modo
+<lb ed="#Be" n="9"/>peccatum annihilatur in poenitente: sed -
+<lb ed="#Be" n="10"/>non secundo et tertio: quia quamdiu
+<lb ed="#Be" n="11"/>vivit homo, potest peccare, et ideo 
+ti<lb break="no" ed="#Be" n="12"/>met: et quamdiu vivit, non habet 
+certi<lb break="no" ed="#Be" n="13"/>tudinem remissionis, quia sicut dicitur,
+<lb ed="#Be" n="14"/>Kiccle. 1x, 1: Nescit homo utrum 
+amo<lb break="no" ed="#Be" n="15"/>re an odio dignus sit. Ht haec est 
+servi<lb break="no" ed="#Be" n="16"/>tus de qua dicit Gregorius quod non 
+li<lb break="no" ed="#Be" n="17"/>beratur servus qui semel servivit 
+pec<lb break="no" ed="#Be" n="18"/>cato, dum vivit.
+</p>
+            <p xml:id="alalal-h16390-d1e1457">
+               <lb ed="#Be" n="19"/>Ad aliud dicendum, quod inter spem
+<lb ed="#Be" n="20"/>et timorem movetur poenitens et 
+con<lb break="no" ed="#Be" n="21"/>tritus, potius quam inter fidem et 
+timo<lb break="no" ed="#Be" n="22"/>rem: quia fides non nisi ostendit, sed
+<lb ed="#Be" n="23"/>spes elevat desiderium ad exspectandum.
+<lb ed="#Be" n="24"/>et timor interius pungendo incitat ad
+<lb ed="#Be" n="25"/>peccati fugam : unde cum contritus 
+ele<lb break="no" ed="#Be" n="26"/>vetur in aeterna, et fugiat peccatum,
+<lb ed="#Be" n="27"/>potius movetur inter spem et timorem,
+<lb ed="#Be" n="28"/>quam inter fidem et spem, vel inter fidem
+<lb ed="#Be" n="29"/>et timorem.
+</p>
+            <p xml:id="alalal-h16390-d1e1483">
+               <lb ed="#Be" n="30"/>Ad id quod objicitur de illa 
+diffini<lb break="no" ed="#Be" n="31"/>tione quae ponitur super Psalmum, t, 3:
+<lb ed="#Be" n="32"/>Miserere mei, Deus : dicendum quod 
+me<lb break="no" ed="#Be" n="33"/>taphorica est, nec proprie diffinitio, sed
+<lb ed="#Be" n="34"/>quedam assignatio cujusdam 
+proprieta<lb break="no" ed="#Be" n="35"/>tis contritionis, per quam similis est 
+sa<lb break="no" ed="#Be" n="36"/>crificio: fiunt enim duo in sacrificio,
+<lb ed="#Be" n="37"/>scilicet corporis animalis in igne assum-~
+<lb ed="#Be" n="38"/>ptio, et in offerente purificatio : et his
+<lb ed="#Be" n="39"/>duobus assimilatur contritio : quia in
+<lb ed="#Be" n="40"/>igne cordis consumit bestiales mores qui
+<lb ed="#Be" n="41"/>sunt peccata, sicut dicit Psal. xxxvin, 4:
+<lb ed="#Be" n="42"/>Concaluit cor meum intra me : et in 
+medi<lb break="no" ed="#Be" n="43"/>tatione,etc. Et remittitur in ea peccatum.
+</p>
+            <p xml:id="alalal-h16390-d1e1516">
+               <lb ed="#Be" n="44"/>Ad id quod contra objicitur, 
+dicen<lb break="no" ed="#Be" n="45"/>dum quod non in hoc sumitur similitudo,
+<lb ed="#Be" n="46"/>sed potius in sacrificii intentione.
+</p>
+            <p xml:id="alalal-h16390-d1e1526">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="47"/>Ad aliud dicendum, quod peccatum
+<lb ed="#Be" n="48"/>dupliciter consideratur, scilicet in culpa
+<lb ed="#Be" n="49"/>sibi debita per se in quantum peccatyum
+<lb ed="#Be" n="50"/>est, et in poena quae debetur ei ex eventy
+<lb ed="#Be" n="51"/>sequenti. Primo quidem modo debetur
+<lb ed="#Be" n="52"/>ei poena aeterna. Secundo autem modo
+<lb ed="#Be" n="53"/>temporalis, eo quod contritio fuit de
+<lb ed="#Be" n="54"/>ipso et confessio : et quoad primum 
+mo<lb break="no" ed="#Be" n="55"/>dum solvitur in contritione : et ideo 
+dij<lb break="no" ed="#Be" n="56"/>citur ibi proprie solvi. Sed quando 
+dici<lb break="no" ed="#Be" n="57"/>tur, quod poenitentia quoad omnes 
+par<lb break="no" ed="#Be" n="58"/>tes ordinatur contra peccatum, 
+intelligi<lb break="no" ed="#Be" n="59"/>tur peccatum in culpa, et poena 
+commu<lb break="no" ed="#Be" n="60"/>niter sibi debita per se et ex eventu :
+<lb ed="#Be" n="61"/>quia contra illam quae facta est venialis
+<lb ed="#Be" n="62"/>ex eventu, ordinatur confessio, et 
+satis<lb break="no" ed="#Be" n="63"/>factio, ut prius habitum est.
+</p>
+            <p xml:id="alalal-h16390-d1e1568">
+               <lb ed="#Be" n="64"/>Ad aliud dicendum, quod contritio
+<lb ed="#Be" n="65"/>sive sit passio, sive sit actus, destructiva
+<lb ed="#Be" n="66"/>est peccati, et etiam dolor, quia non est
+<lb ed="#Be" n="67"/>dolor secundum se, sed informatus gra~
+<lb ed="#Be" n="68"/>tia: et ideo potest expellere peccatum.
+</p>
+            <p xml:id="alalal-h16390-d1e1581">
+               <lb ed="#Be" n="69"/>Ad voc autem quod objicitur, quod si 
+<lb ed="#Be" n="70"/>est actus virtutis, quod est consequens
+<lb ed="#Be" n="71"/>expulsionem peccati: dicendum, quod
+<lb ed="#Be" n="72"/>verum est, quod est consequens 
+secun<lb break="no" ed="#Be" n="73"/>dum naturam, sed tamen simul est 
+se<lb break="no" ed="#Be" n="74"/>cundum tempus: et ideo operatur ad
+<lb ed="#Be" n="75"/>peccati expulsionem.
+</p>
+            <p xml:id="alalal-h16390-d1e1599">
+               <lb ed="#Be" n="76"/>Ad noc guod ulterius queritur de illa
+<lb ed="#Be" n="77"/>que videtur esse Augustini, dicendum,
+<lb ed="#Be" n="78"/>quod dolor infinitus ratione forme quae
+<lb ed="#Be" n="79"/>virtutis est infinite, scilicet gratia, 
+pot<lb break="no" ed="#Be" n="80"/>est in infinitum : et ideo cessat objectio
+<lb ed="#Be" n="81"/>que est de illo.
+</p>
+            <p xml:id="alalal-h16390-d1e1615">
+               <lb ed="#Be" n="82"/>Si autem aliquis dubitat, qualiter 
+gra<lb break="no" ed="#Be" n="83"/>tia sit virtutis infinite, querat in 
+que<lb break="no" ed="#Be" n="84"/>stionibus habitis de gratia super 
+secun<lb break="no" ed="#Be" n="85"/>dum. librum Sententiarum': et inveniet
+<lb ed="#Be" n="86"/>ibi omnia quae expediunt ad solutionem
+<lb ed="#Be" n="87"/>istius difficultatis. 
+</p>
+            <p xml:id="alalal-h16390-d1e1631">
+               <lb ed="#Be" n="88"/>Si autem queritur, Penes quae 
+atten<lb break="no" ed="#Be" n="89"/>ditur diversitas harum diffinitionum ?
+</p>
+            <p xml:id="alalal-h16390-d1e1639">
+               <lb ed="#Be" n="90"/>Dicendum, quod contritio 
+considera<lb break="no" ed="#Be" n="91"/>tur dupliciter, scilicet quoad essentialia, 
+<pb ed="#Be" n="559"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>quae sunt dolor voluntarius, et punitio
+<lb ed="#Be" n="2"/>sui, et objectum proprium quod est 
+pec<lb break="no" ed="#Be" n="3"/>catum: et secundum accidentalia quae
+<lb ed="#Be" n="4"/>manifestant ipsam per modum signorum.
+<lb ed="#Be" n="5"/>Et primo quidem modo supra datur 
+pri<lb break="no" ed="#Be" n="6"/>ma diffinitico. Accidentalia autem 
+varian<lb break="no" ed="#Be" n="7"/>tur: aut enim sunt in actu, aut in 
+com<lb break="no" ed="#Be" n="8"/>paratione ad causam excitantem ad 
+con<lb break="no" ed="#Be" n="9"/>terendum, aut in comparatione ad_ 
+effe<lb break="no" ed="#Be" n="10"/>ctum, aut in comparatione ad virtutes
+<lb ed="#Be" n="11"/>juvantes in actu, quia una virtus juvat
+<lb ed="#Be" n="12"/>aliam. Et primo modo per signum actus
+<lb ed="#Be" n="13"/>et per comparationem ad causam 
+exci<lb break="no" ed="#Be" n="14"/>tantem sumitur secunda quae est Isidori,
+<lb ed="#Be" n="15"/>que causa est recordatio peccati, et 
+ti<lb break="no" ed="#Be" n="16"/>mor judicii. Tertia autem quae est 
+Grego<lb break="no" ed="#Be" n="17"/>rii, sumitur per signum et effectum.
+<lb ed="#Be" n="18"/>Quarta autem per conformitatem ad 
+figu<lb break="no" ed="#Be" n="19"/>ram suam in Veteri Testamento. Quinta
+<lb ed="#Be" n="20"/>autem et ultima per instrumentum et
+<lb ed="#Be" n="21"/>effectum: quia dolor est quasi 
+instru<lb break="no" ed="#Be" n="22"/>mentum contritionis, quo conterit 
+pec<lb break="no" ed="#Be" n="23"/>catum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

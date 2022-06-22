@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="427"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i89212"><!-- l4d39dt1 -->
+            <head xml:id="alalal-i89212-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-i89212-d1e101">
+               <pb ed="#Bf" n="427"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-i89212-d1e110">
+               <lb ed="#Bf" n="2"/>
+               <quote xml:id="alalal-i89212-Qd1e114"> Post haec de dispart cultu  videndum
+<lb ed="#Bf" n="3"/>est, etc. </quote>
+               <lb ed="#Bf" n="4"/>Hic agitur de impedimento quod 
+impe<lb break="no" ed="#Bf" n="5"/>dit ex parte fundamenti quod destruit.
+</p>
+            <p xml:id="alalal-i89212-d1e124">
+               <lb ed="#Bf" n="6"/>Magister autem quatuor in hac 
+dis<lb break="no" ed="#Bf" n="7"/>tinctione tangit, scilicet quare dispar 
+cul<lb break="no" ed="#Bf" n="8"/>tus faciat personas illegitimas ?
+<lb ed="#Bf" n="9"/>Secundo, Quid sit fornicatio 
+spiritua<lb break="no" ed="#Bf" n="10"/>lis ?
+<lb ed="#Bf" n="11"/>Et tertio, Utrum fidelis dimissus se 
+al<lb break="no" ed="#Bf" n="12"/>teri potest copulare ?
+<lb ed="#Bf" n="13"/>Et ultimo, Utrum inter infideles verum
+<lb ed="#Bf" n="14"/>matrimomium possit esse?
+</p>
+            <p xml:id="alalal-i89212-d1e146">
+               <lb ed="#Bf" n="15"/>Et per se patet ubi ista incipiant.
+</p>
+            <p xml:id="alalal-i89212-d1e152">
+               <lb ed="#Bf" n="16"/>Circa primum autem duo inducit. 
+Pri<lb break="no" ed="#Bf" n="17"/>ma enim opinio est, quod dispar cultus
+<lb ed="#Bf" n="18"/>impedit matrimonium contrahendum et
+<lb ed="#Bf" n="19"/>dirimit contractum. Secundo autem 
+con<lb break="no" ed="#Bf" n="20"/>tra objicit, et solvit: et iteram patet ubi
+<lb ed="#Bf" n="21"/>hoe facit.
+</p>
+            <p xml:id="alalal-i89212-d1e168">
+               <lb ed="#Bf" n="22"/>Incipunt autem hic tria querenda.
+<lb ed="#Bf" n="23"/>Primum est, An dispar cultus faciat
+<lb ed="#Bf" n="24"/>personam illegitimam ?
+<lb ed="#Bf" n="25"/>Secundo, Quare hoc potius facit 
+oppo<lb break="no" ed="#Bf" n="26"/>situm fidei, quam alterius virtutis ?
+<lb ed="#Bf" n="27"/>Tertio, Ratione cujus articuli fides habet
+<lb ed="#Bf" n="28"/>personam facere legitimam ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

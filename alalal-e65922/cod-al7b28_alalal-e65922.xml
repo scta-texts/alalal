@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="346"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e65922"><!-- l3d19a8 -->
+            <head xml:id="alalal-e65922-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-e65922-Hd1e101" type="question-title">An Christus vere dicitur redemptor ?</head>
+            <p xml:id="alalal-e65922-d1e104">
+               <lb ed="Bd" n="23"/>ARTICULUS VIII.
+<lb ed="Bd" n="24"/>An Christus vere dicitur redemptor ?
+</p>
+            <p xml:id="alalal-e65922-d1e111">
+               <lb ed="Bd" n="25"/>Incidit autem dubium circa primam
+<lb ed="Bd" n="26"/>partem, secundum quam rationem dica~
+<lb ed="Bd" n="27"/>tur Christus redemptor.
+</p>
+            <p xml:id="alalal-e65922-d1e120">
+               <lb ed="Bd" n="28"/>1. Si enim dicatur usu potestatis, ut
+<lb ed="Bd" n="29"/>videtur dicere in Littera : tunc ab initio
+<lb ed="Bd" n="30"/>fuil redemptor : et cum redemptoris sit
+<lb ed="Bd" n="31"/>redimere, quia redemptor est nomen 
+ver<lb break="no" ed="Bd" n="32"/>bale, et pertinet ad actum redimendi,
+<lb ed="Bd" n="33"/>videtur quod ab initio redemit, quod.
+<lb ed="Bd" n="34"/>falsum est.
+</p>
+            <p xml:id="alalal-e65922-d1e139">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="35"/>2. Item, Supra habitum est in hac 
+ea<lb break="no" ed="Bd" n="36"/>dem distinctione, quod usu potestatis
+<lb ed="Bd" n="37"/>non erat utendum in redemptione 
+homi<lb break="no" ed="Bd" n="38"/>nis, sed potius justitia utendum erat:
+<lb ed="Bd" n="39"/>cum igitur illa non sit nisi sacramenta
+<lb ed="Bd" n="40"/>redemptionis in se suscipiendo, videtur
+<lb ed="Bd" n="41"/>quod potius Filius redemptor sit, et non
+<lb ed="Bd" n="42"/>Pater vel Spiritus sanctus.
+</p>
+            <p xml:id="alalal-e65922-d1e161">
+               <lb ed="Bd" n="43"/>3. Item, Usus potestatis est in 
+omni<lb break="no" ed="Bd" n="44"/>bus actibus divinis, sed non omnes actus
+<lb ed="Bd" n="45"/>divint sunt opera redemptionis : ergo
+<lb ed="Bd" n="46"/>usus potestatis non sufficit ad hoc quod
+<lb ed="Bd" n="47"/>aliquis dicatur redemptor : ergo Pater et
+<lb ed="Bd" n="48"/>Spiritus sanctus non debent dici 
+redem<lb break="no" ed="Bd" n="49"/>ptor, sed solus Filius.
+</p>
+            <p xml:id="alalal-e65922-d1e179">
+               <lb ed="Bd" n="50"/>Solutio Dicendum, quod in veritate
+<lb ed="Bd" n="51"/>dupliciter dicitur redemptor, ut dicit in
+<lb ed="Bd" n="52"/>Littera, scilicet usu potestatis, et 
+humi<lb break="no" ed="Bd" n="53"/>litatis effectu : sed usus potestatis 
+abso<lb break="no" ed="Bd" n="54"/>lute non facit redemptoren, sed usus
+<lb ed="Bd" n="55"/>potestatis in illo opere per quod est 
+red<lb break="no" ed="Bd" n="56"/>emptio : nisi enim in passione Christi
+<lb ed="Bd" n="57"/>fuisset divina potestas, non mortem
+<lb ed="Bd" n="58"/>morte superasset, nec infernum vicisset,
+<lb ed="Bd" n="59"/>sed solus inter mortuos liber fuisset : et
+<lb ed="Bd" n="60"/>in hoc potestatis usu cum Christo 
+opera<lb break="no" ed="Bd" n="61"/>batur Pater et Spiritus sanctus, licet non
+<lb ed="Bd" n="62"/>in sustinentia passionis, et effectu 
+humi<lb break="no" ed="Bd" n="63"/>litatis. Et hoc intendit Magister. Unde
+<lb ed="Bd" n="64"/>ipse Christus dicit, Joan. xiv, 10 : Pater
+<lb ed="Bd" n="65"/>in me manens, ipse facit opera. Et, Luc.
+<lb ed="Bd" n="66"/>x1, 20, dicit de Spiritu sancto : Sz in 
+di<lb break="no" ed="Bd" n="67"/>gito Dei ejicio demonia, profecto 
+per<lb break="no" ed="Bd" n="68"/>venit in vos regnum Dei.
+</p>
+            <p xml:id="alalal-e65922-d1e223">
+               <lb ed="Bd" n="69"/>Et per hoc patet solutio ad omnia 
+ob<lb break="no" ed="Bd" n="70"/>jecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

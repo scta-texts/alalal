@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="31"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-dd6072"><!-- l2d1dt2 -->
+            <head xml:id="alalal-dd6072-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-dd6072-d1e101">
+               <cb ed="#Bc" n="d"/>
+               <lb ed="#Bc" n="24"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-dd6072-d1e108">
+               <lb ed="#Bc" n="25"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bc" n="26"/>C, §2: <quote xml:id="alalal-dd6072-Qd1e114"> Credamus ergo rerum 
+creata<lb break="no" ed="#Bc" n="27"/>rum, etc. </quote>
+            </p>
+            <p xml:id="alalal-dd6072-d1e120">
+               <lb ed="#Bc" n="28"/>Hic incipit secunda pars in qua 
+Magi<lb break="no" ed="#Bc" n="29"/>ster tangit qualiter creature exeunt a Deo.
+</p>
+            <p xml:id="alalal-dd6072-d1e127">
+               <lb ed="#Bc" n="30"/>Et dividitur in quinque partes: in 
+qua<lb break="no" ed="#Bc" n="31"/>rum prima agit Auctor de causa universi
+<lb ed="#Bc" n="32"/>esse in communi. In secunda, agit spe~
+<cb ed="#Bc" n="e"/>
+               <lb ed="#Bc" n="33"/>cialiter de causa rationalis creature in 
+ge<lb break="no" ed="#Bc" n="34"/>nere, ibi, D, <quote xml:id="alalal-dd6072-Qd1e142"> Et quia non valet ejus 
+bea<lb break="no" ed="#Bc" n="35"/>titudinis, etc. </quote> In tertia, specialiter de
+<lb ed="#Bc" n="36"/>modo creationis, ibi, H, <quote xml:id="alalal-dd6072-Qd1e149"> Et sicut factus
+<lb ed="#Bc" n="37"/>est homo, etc. </quote> Et in quarta agit 
+specia<lb break="no" ed="#Bc" n="38"/>liter de creatione anime rationalis, et
+<lb ed="#Bc" n="39"/>quare conjuncta est corpori, ibi, K, <quote xml:id="alalal-dd6072-Qd1e159"> 
+So<lb break="no" ed="#Bc" n="40"/>let etiam queri, Cum mazjoris, etc. </quote> In
+<lb ed="#Bc" n="41"/>quinta, finit partem procemialem, et 
+con<lb break="no" ed="#Bc" n="42"/>tinuat se ad tractatum sequentem, ibi,
+<lb ed="#Bc" n="43"/>L, <quote xml:id="alalal-dd6072-Qd1e170"> Ex premissis apparet rationalem
+<lb ed="#Bc" n="44"/>creaturam, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

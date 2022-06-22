@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="490"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h02429"><!-- l4d15et1 -->
+            <head xml:id="alalal-h02429-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-h02429-d1e101">
+               <lb ed="#Be" n="16"/>Expositio textus.
+</p>
+            <p xml:id="alalal-h02429-d1e106">
+               <lb ed="#Be" n="17"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="18"/>ibi, C, § 2, in medio : <quote xml:id="alalal-h02429-Qd1e112"> Date 
+eleemosy<lb break="no" ed="#Be" n="19"/>nam, et ecce omnia munda sunt vobis,
+<lb ed="#Be" n="20"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-h02429-d1e120">
+               <lb ed="#Be" n="21"/>In hac enim parte est magna questio
+<lb ed="#Be" n="22"/>de eleemosyna, quam dividemus in 
+par<lb break="no" ed="#Be" n="23"/>tes propter Litteram.
+</p>
+            <p xml:id="alalal-h02429-d1e129">
+               <lb ed="#Be" n="24"/>Et hic queremus sex articulos, scilicet
+<lb ed="#Be" n="25"/>in quo genere sit eleemosyna, quid sit,
+<lb ed="#Be" n="26"/>et utrum sit in precepto vel in consilio?
+<lb ed="#Be" n="27"/>Ubi etiam determinabitur ad quod 
+pre<lb break="no" ed="#Be" n="28"/>ceptum reducatur, et qualiter 
+distingui<lb break="no" ed="#Be" n="29"/>tur ab aliis partibus satisfactionis : et
+<lb ed="#Be" n="30"/>utrum magis consistat in voluntate 
+inte<lb break="no" ed="#Be" n="31"/>riori, vel in dato exteriori, sive in 
+quan<lb break="no" ed="#Be" n="32"/>titate dati exterioris? Et sexto, utrum
+<lb ed="#Be" n="33"/>eleemosyna possit esse sine 
+compassio<lb break="no" ed="#Be" n="34"/>ne, vel compassio sit ei essentialis? Hee
+<lb ed="#Be" n="35"/>enim sex queruntur de eleemosyna 
+se<lb break="no" ed="#Be" n="36"/>cundum se.
+</p>
+            <p xml:id="alalal-h02429-d1e161">
+               <lb ed="#Be" n="37"/>Postea autem procedendo in Littera
+<lb ed="#Be" n="38"/>queremus de eleemosyna secundum tres
+<lb ed="#Be" n="39"/>alias considerationes, scilicet ex parte
+<lb ed="#Be" n="40"/>dantis, et dati, et ejus cui danda est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

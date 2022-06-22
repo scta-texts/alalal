@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="288"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i59988"><!-- l4d33dt1 -->
+            <head xml:id="alalal-i59988-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-i59988-d1e101">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="19"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-i59988-d1e108">
+               <lb ed="#Bf" n="20"/>
+               <quote xml:id="alalal-i59988-Qd1e112"> Queritur hic de antiquis patribus,
+<lb ed="#Bf" n="21"/>etc.</quote>
+               <lb ed="#Bf" n="22"/>In hac distinctione agitur de diversis
+<lb ed="#Bf" n="23"/>conjugii statibus.
+</p>
+            <p xml:id="alalal-i59988-d1e122">
+               <lb ed="#Bf" n="24"/>Quatuor autem hic queruntur a 
+Ma<lb break="no" ed="#Bf" n="25"/>gistro.
+<lb ed="#Bf" n="26"/>Primum est, Quare antiqui aliqui
+<lb ed="#Bf" n="27"/>plures uxores habuerunt ?
+<lb ed="#Bf" n="28"/>Secundum, de matrimonit 
+compara<lb break="no" ed="#Bf" n="29"/>tione ipsorum ad ccelibatum nove 
+gra<lb break="no" ed="#Bf" n="30"/>ti, ibi, B, <quote xml:id="alalal-i59988-Qd1e139"> Quod vero castitas 
+virgina<lb break="no" ed="#Bf" n="31"/>lis, etc. </quote>
+               <lb ed="#Bf" n="32"/>Tertio queritur, Utrum licuit unam
+<lb ed="#Bf" n="33"/>mulierem habere plures viros, ibi, D,
+<lb ed="#Bf" n="34"/>
+               <quote xml:id="alalal-i59988-Qd1e151"> Sed numguid sub lege, etc ? </quote>
+               <cb ed="#Bf" n="c"/>
+               <lb ed="#Bf" n="35"/>Quarto, tangit statum ceelibum et 
+cm<lb break="no" ed="#Bf" n="36"/>libatus, ibi, iM, <quote xml:id="alalal-i59988-Qd1e159"> Melior est autem 
+virgi<lb break="no" ed="#Bf" n="37"/>nitas mentis quan carnis, etc. </quote>
+            </p>
+            <p xml:id="alalal-i59988-d1e165">
+               <lb ed="#Bf" n="38"/>Et haec de divisione sufficiant.
+</p>
+            <p xml:id="alalal-i59988-d1e171">
+               <lb ed="#Bf" n="39"/>Incidunt autem circa principium 
+ra<lb break="no" ed="#Bf" n="40"/>tione primi capituli hic querenda sex.
+<lb ed="#Bf" n="41"/>Primum est, An matrimonium sift 
+na<lb break="no" ed="#Bf" n="42"/>turale ?
+<lb ed="#Bf" n="43"/>Secundum est, Utrum habere plures
+<lb ed="#Bf" n="44"/>uxores sit naturale, vel contra naturam ?
+<lb ed="#Bf" n="45"/>Tertium, Utrum unam mulierem 
+ha<lb break="no" ed="#Bf" n="46"/>bere plures viros sit contra naturam vel
+<lb ed="#Bf" n="47"/>ordinem nature ?
+<lb ed="#Bf" n="48"/>Quartum, Utrum soli libidinosi tune
+<lb ed="#Bf" n="49"/>perpetraverunt bigamiam, sicut videtur
+<lb ed="#Bf" n="50"/>velle in Littera ?
+<lb ed="#Bf" n="51"/>Quintum, Utrum tunc licuit vel 
+ali<lb break="no" ed="#Bf" n="52"/>quando licuit habere concubinam ?
+<lb ed="#Bf" n="53"/>Sextum, Qualiter bonum matrimonii
+<lb ed="#Bf" n="54"/>quod est sacramentum, salvabatur in
+<lb ed="#Bf" n="55"/>matrimoniis antiquorum patrum ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

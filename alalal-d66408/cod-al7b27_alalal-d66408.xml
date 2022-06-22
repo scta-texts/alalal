@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="368"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d66408"><!-- l2d21a10 -->
+            <head xml:id="alalal-d66408-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-d66408-Hd1e101" type="question-title">Uirum homo in primo statu potuit 
+  peccare venialiter ?</head>
+            <p xml:id="alalal-d66408-d1e104">
+               <lb ed="#Bc" n="44"/>ARTICULUS X.
+<lb ed="#Bc" n="45"/>Uirum homo in primo statu potuit 
+  pec<lb break="no" ed="#Bc" n="46"/>care venialiter ?
+</p>
+            <p xml:id="alalal-d66408-d1e113">
+               <lb ed="#Bc" n="47"/>Deinde quaeritur de hoc quod dicit,
+ <lb ed="#Bc" n="48"/>ibi, &amp;, circa medium: <quote xml:id="alalal-d66408-Qd1e119"> Tanto gravius
+<lb ed="#Bc" n="49"/>plectendus erat, etc. </quote>
+            </p>
+            <p xml:id="alalal-d66408-d1e125">
+               <lb ed="#Bc" n="50"/>Et quaeritur hic, Utrum homo in 
+pri<lb break="no" ed="#Bc" n="51"/>mo statu potuit peccare venialiter ?
+</p>
+            <p xml:id="alalal-d66408-d1e133">
+               <lb ed="#Bc" n="52"/>Videtur autem, quod sic : quia
+<lb ed="#Bc" n="53"/>1. Potuit diligere uxorem plus quam
+<lb ed="#Bc" n="54"/>debuit citra Deum : ergo peccasset 
+venia<lb break="no" ed="#Bc" n="55"/>liter.
+</p>
+            <p xml:id="alalal-d66408-d1e144">
+               <lb ed="#Bc" n="56"/>2. Si dicas, quod hoc esse non potuit.
+<lb ed="#Bc" n="57"/>Contra : Dilexit uxorem, et potuit 
+cre<lb break="no" ed="#Bc" n="58"/>scere illa dilectio : crescat ergo, et 
+inten<lb break="no" ed="#Bc" n="59"/>datur usque ad hoc quod sit priusquam
+<lb ed="#Bc" n="60"/>debet et citra Deum : ergo habebitur 
+pro<lb break="no" ed="#Bc" n="61"/>positum.
+</p>
+            <p xml:id="alalal-d66408-d1e160">
+               <lb ed="#Bc" n="62"/>3. Item, Est status in quo non potest
+<lb ed="#Bc" n="63"/>fieri peccatum, nec mortale, nec veniale:
+<lb ed="#Bc" n="64"/>et est status in quo sunt semper in 
+pec<lb break="no" ed="#Bc" n="65"/>cato mortali, ut illi qui sunt in statu
+<lb ed="#Bc" n="66"/>damnatorum.
+</p>
+            <p xml:id="alalal-d66408-d1e173">
+               <lb ed="#Bc" n="67"/>Item, Est status in quo peccatur 
+ve<lb break="no" ed="#Bc" n="68"/>nialiter et mortaliter, ut est status 
+mili<lb break="no" ed="#Bc" n="69"/>tantis Ecclesie. Ergo ad hoc quod 
+com<lb break="no" ed="#Bc" n="70"/>pleatur divisio, exigitur quod sit aliquis
+<lb ed="#Bc" n="71"/>status in quo peccalur venialiter et non
+<lb ed="#Bc" n="72"/>mortaliter : et ille non potest esse nisi
+<lb ed="#Bc" n="73"/>status innocentie prime : ergo Adam
+<lb ed="#Bc" n="74"/>potuit peccare venialiter.
+</p>
+            <p xml:id="alalal-d66408-d1e193">
+               <lb ed="#Bc" n="75"/>4. Item, Omne quod efficitur curvum a
+<lb ed="#Bc" n="76"/>recto, prius est in parva obliquitate quam
+<lb ed="#Bc" n="77"/>in magna : sed liberum arbitrium in 
+pri<lb break="no" ed="#Bc" n="78"/>mo statu fuit rectum, in secundo autem
+<lb ed="#Bc" n="79"/>curvum in magna curvilate, scilicet in
+<pb ed="#Bc" n="369"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>mortali : ergo in medio statu debuil esse
+<lb ed="#Bc" n="2"/>deflexibile in veniale, et non in mortale :
+<lb ed="#Bc" n="3"/>ergo videtur, quod potuit peccare 
+venia<lb break="no" ed="#Bc" n="4"/>liter.
+</p>
+            <p xml:id="alalal-d66408-d1e219">
+               <lb ed="#Bc" n="5"/>SED CONTRA:
+<lb ed="#Bc" n="6"/>1. Primus homo in primo statu omnia
+<lb ed="#Bc" n="7"/>inferiora subjecta habuit rationi : ergo
+<lb ed="#Bc" n="8"/>inordinatio non nisi ex parte rationis
+<lb ed="#Bc" n="9"/>exorbitantis accidere potuit: in ratione
+<lb ed="#Bc" n="10"/>autem, ut habebitur infra, est peccatum
+<lb ed="#Bc" n="11"/>mortale : ergo non potuit peccare 
+venia<lb break="no" ed="#Bc" n="12"/>liter, sed mortaliter tantum.
+</p>
+            <p xml:id="alalal-d66408-d1e240">
+               <lb ed="#Bc" n="13"/>2. Item, In veniali peccato parvum est
+<lb ed="#Bc" n="14"/>delectabile quod movet : sed parvum 
+de<lb break="no" ed="#Bc" n="15"/>lectabile vires sub ordine rationis 
+con<lb break="no" ed="#Bc" n="16"/>junctas avertere non potest : ergo quod
+<lb ed="#Bc" n="17"/>avertit ab ordine primo, oportuit esse
+<lb ed="#Bc" n="18"/>magnum : ergo oportuit esse peccatum
+<lb ed="#Bc" n="19"/>mortale : quiain illo movet commutabile
+<lb ed="#Bc" n="20"/>bonum ad fructum,
+</p>
+            <p xml:id="alalal-d66408-d1e260">
+               <lb ed="#Bc" n="21"/>3. Item, Innuitur in astutia serpentis,
+<lb ed="#Bc" n="22"/>qui non parvum promisit, sed magnum,
+<lb ed="#Bc" n="23"/>scilicet, Hritis steut dit, scientes, etc. .
+</p>
+            <p xml:id="alalal-d66408-d1e269">
+               <lb ed="#Bc" n="24"/>Solutio. Dicendum, quod meo judicio
+<lb ed="#Bc" n="25"/>ultimis rationibus consentiendum est,
+<lb ed="#Bc" n="26"/>quod non potuit peccare venialiter, et due
+<lb ed="#Bc" n="27"/>cause tactee sunt in objiciendo. Tertia
+<lb ed="#Bc" n="28"/>autem tangitur in Littera: quia scilicet
+<lb ed="#Bc" n="29"/>non habuit incitans : et ita ei ad mortem
+<lb ed="#Bc" n="30"/>debuit imputari peccatum.
+</p>
+            <p xml:id="alalal-d66408-d1e287">
+               <lb ed="#Bc" n="31"/>Dicendum ergo ad primum, quod 
+con<lb break="no" ed="#Bc" n="32"/>tra hoc objicitur, quod non diligeret 
+ex<lb break="no" ed="#Bc" n="33"/>tra rationem : quia ratio supposita erat
+<lb ed="#Bc" n="34"/>Deo continenti eam: et ideo nihil 
+inor<lb break="no" ed="#Bc" n="35"/>dinatum nec parvum nec magnum esse
+<lb ed="#Bc" n="36"/>poterat, nisi inciperet ab ea.
+</p>
+            <p xml:id="alalal-d66408-d1e303">
+               <lb ed="#Bc" n="37"/>Ad aliud dicendum, quod non potuit
+<lb ed="#Bc" n="38"/>crescere dilectio extra ordinem rationis,
+<lb ed="#Bc" n="39"/>tali manente statu. Unde incrementum
+<lb ed="#Bc" n="40"/>ejus impediebatur per accidens. Et hoc
+<lb ed="#Bc" n="41"/>bene contingeret in multis quae crescerent
+<lb ed="#Bc" n="42"/>quantum est dese, nisi quod per accidens
+<lb ed="#Bc" n="43"/>impediuntur.
+</p>
+            <p xml:id="alalal-d66408-d1e321">
+               <lb ed="#Bc" n="44"/>Ad aliud dicendum, quod tales 
+argu<lb break="no" ed="#Bc" n="45"/>mentationes nullam habent necessitatem,
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="46"/>et praecipue in illa divisione: quia hic
+<lb ed="#Bc" n="47"/>posse peccare venialiter, causatur ex
+<lb ed="#Bc" n="48"/>posse peccare mortaliter, et ideo 
+sequi<lb break="no" ed="#Bc" n="49"/>tur ipsum. Unde nullus status potest esse
+<lb ed="#Bc" n="50"/>in quo peccetur venialiter, et non 
+morta<lb break="no" ed="#Bc" n="51"/>liter.
+</p>
+            <p xml:id="alalal-d66408-d1e344">
+               <lb ed="#Bc" n="52"/>Ad aliud dicendum, quod in curvitate
+<lb ed="#Bc" n="53"/>ligni vel alterius corporis procedit illa 
+ob<lb break="no" ed="#Bc" n="54"/>jectio, sed non in curvitate voluntatis :
+<lb ed="#Bc" n="55"/>quia illa non incurvatur nisi magna 
+cur<lb break="no" ed="#Bc" n="56"/>vitate prius : quia ipsa non venit in 
+ma<lb break="no" ed="#Bc" n="57"/>gnam curvitatem per parvam, sed e 
+con<lb break="no" ed="#Bc" n="58"/>verso in parvam per magnam, ut dictum
+<lb ed="#Bc" n="59"/>est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

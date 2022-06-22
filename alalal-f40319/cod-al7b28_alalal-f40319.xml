@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="718"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f40319"><!-- l3d38a5 -->
+            <head xml:id="alalal-f40319-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-f40319-Hd1e101" type="question-title">An mendacium obstetricum fuit mortale
+vel veniale peccatum ?</head>
+            <p xml:id="alalal-f40319-d1e104">
+               <lb ed="Bd" n="83"/>ARTICULUS V.
+<lb ed="Bd" n="84"/>An mendacium obstetricum fuit mortale
+<lb ed="Bd" n="85"/>vel veniale peccatum ?
+</p>
+            <p xml:id="alalal-f40319-d1e113">
+               <lb ed="Bd" n="86"/>Deinde quaeritur de hoc quod dicit, ib,
+<lb ed="Bd" n="87"/>A, § 2 circa medium : <quote xml:id="alalal-f40319-Qd1e119"> De mendacio
+<lb ed="Bd" n="88"/>autem obstetricum, etc. </quote>
+            </p>
+            <p xml:id="alalal-f40319-d1e125">
+               <lb ed="Bd" n="89"/>Videtur autem, quod fuit veniale : quia
+<pb ed="#Bd" n="719"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>1. Hoc dicit Augustinus in Litiera.
+</p>
+            <p xml:id="alalal-f40319-d1e137">
+               <lb ed="Bd" n="2"/>2. em, Officiosum fuit: ergo 
+mini<lb break="no" ed="Bd" n="3"/>mum inter mendacia : ergo veniale.
+</p>
+            <p xml:id="alalal-f40319-d1e144">
+               <lb ed="Bd" n="4"/>3. Itein, Obstetrices non fuerunt in
+<lb ed="Bd" n="5"/>statu perfectionis : ergo poterant 
+veniali<lb break="no" ed="Bd" n="6"/>ier mentiri, et precipue in mendacio 
+of<lb break="no" ed="Bd" n="7"/>ficioso : ergo venialiter peccaverunt.
+</p>
+            <p xml:id="alalal-f40319-d1e155">
+               <lb ed="Bd" n="8"/>4. Item, Si fuisset mortale, 
+impedivis<lb break="no" ed="Bd" n="9"/>set meritum: sed nou impedivit, quia
+<lb ed="Bd" n="10"/>dicit Augustinus, quod quia timuerunt
+<lb ed="Bd" n="11"/>obstetrices Deum, edilicavit illis domos
+<lb ed="Bd" n="12"/>ad litteram, ditando eas et fillos dando.
+<lb ed="Bd" n="13"/>Et Hieronymus, quod editicavit eis 
+do<lb break="no" ed="Bd" n="14"/>mos spirituales. Ergo non peccaverunt
+<lb ed="Bd" n="15"/>mortaliter, sed venialiter, ut videtur.
+</p>
+            <p xml:id="alalal-f40319-d1e175">
+               <lb ed="Bd" n="16"/>Sed contra objicitur per Gregorium,
+<lb ed="Bd" n="17"/>qui in Glossa ibidem dicit sic: <quote xml:id="alalal-f40319-Qd1e181"> 
+Beni<lb break="no" ed="Bd" n="18"/>gnitalis eorum merces quae externa vita
+<lb ed="Bd" n="19"/>remunerari poterat, pro culpa mendacii
+<lb ed="Bd" n="20"/>in terrenam compensationem commutata
+<lb ed="Bd" n="21"/>est, ut in vita sua quam tueri menticndo
+<lb ed="Bd" n="22"/>voluerant, perciperent bona : et quod 
+ul<lb break="no" ed="Bd" n="23"/>terius exspectarcent, premium non 
+habe<lb break="no" ed="Bd" n="24"/>rent.</quote> Nihil autem commutat mercedem
+<lb ed="Bd" n="25"/>eternam in temporalem, nisi mortale
+<lb ed="Bd" n="26"/>peccatum. Ergo videtur, quod 
+menda<lb break="no" ed="Bd" n="27"/>cium earum fuerit mortale peccatum.
+</p>
+            <p xml:id="alalal-f40319-d1e207">
+               <lb ed="Bd" n="28"/>Solutio Dicendum, quod meo judicio
+<lb ed="Bd" n="29"/>mendacium obstetricum veniale fuit : sed
+<lb ed="Bd" n="30"/>non conliteri veritatem propter timorem
+<lb ed="Bd" n="31"/>corporis in loco confessionis fidei et 
+ju<lb break="no" ed="Bd" n="32"/>stitia poterat esse mortale peccatum.
+<lb ed="Bd" n="33"/>Primo enim parcendo infantibus bene
+<lb ed="Bd" n="34"/>fecerant : sed postea vocatew a Pharaone
+<lb ed="Bd" n="35"/>et in judicio constitute, debuerunt 
+con<lb break="no" ed="Bd" n="36"/>fiteri fidem Dei et justitiam, et non 
+men<lb break="no" ed="Bd" n="37"/>tiendo prolongare vitam suam : et pro
+<lb ed="Bd" n="38"/>hac timiiditate in loco confessionis potest
+<lb ed="Bd" n="39"/>esse, quod mortaliter peccaverunt, et non
+<lb ed="Bd" n="40"/>in mendacio secundum se. Et quod hec
+<lb ed="Bd" n="41"/>sit sententia Gregorii, patet : quia sic
+<lb ed="Bd" n="42"/>addit in eadem Glossa : <quote xml:id="alalal-f40319-Qd1e241"> Nam si 
+subtili<lb break="no" ed="Bd" n="43"/>ter perpendatur, amore presentis vite
+<lb ed="Bd" n="44"/>mentite sunt, non intentione mercedis:
+<lb ed="Bd" n="45"/>parcendo enim conate sunt infantium 
+te<lb break="no" ed="Bd" n="46"/>gere vitam, mentiendo vero suam. </quote>
+            </p>
+            <p xml:id="alalal-f40319-d1e253">
+               <lb ed="Bd" n="47"/>Aliter dicunt aliqui, scilicet quod 
+tri<lb break="no" ed="Bd" n="48"/>plex fuit voluatas in obstetricibus, scili-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>cet voluntas parcendi, et haec fuit 
+remu<lb break="no" ed="Bd" n="50"/>nerabilis secundum Augustinum et 
+Mie<lb break="no" ed="Bd" n="51"/>ronymum,. Alia fuit voluntas mentiendi,
+<lb ed="Bd" n="52"/>etfuit veniale peccatum. Tertia fuit 
+vo<lb break="no" ed="Bd" n="53"/>luntas liberandi se per mendacium : quae
+<lb ed="Bd" n="54"/>voluntas conjuncta fuit actui peccati in
+<lb ed="Bd" n="55"/>mentiendo, et hoc fuit in tali casu 
+quan<lb break="no" ed="Bd" n="56"/>do tempus fuit confitendi et fidem et 
+ju<lb break="no" ed="Bd" n="57"/>stitiam : et ideo fuit mortale peccatum :
+<lb ed="Bd" n="58"/>et de hoc dicunt loqui Gregorium.
+</p>
+            <p xml:id="alalal-f40319-d1e285">
+               <lb ed="Bd" n="59"/>Quod autem secundum Gregorium 
+ea<lb break="no" ed="Bd" n="60"/>rum mendacium secundum se non fuit
+<lb ed="Bd" n="61"/>mortale peccatuin, patet in principio 
+ejus<lb break="no" ed="Bd" n="62"/>dem Gloss, ubi dicit sic : <quote xml:id="alalal-f40319-Qd1e295"> 
+Summope<lb break="no" ed="Bd" n="63"/>re cavendum est mendacium, quamvis
+<lb ed="Bd" n="64"/>sit culpae levioris : nec quisquam 
+men<lb break="no" ed="Bd" n="65"/>tiatur prestando beneficium. </quote> Levior
+<lb ed="Bd" n="66"/>autem culpa consuevit non vocari a
+<lb ed="Bd" n="67"/>Sanctis nisi venialis.
+</p>
+            <p xml:id="alalal-f40319-d1e310">
+               <lb ed="Bd" n="68"/>Item, Gregorius in eadem Glossa, 
+in<lb break="no" ed="Bd" n="69"/>fra: <quote xml:id="alalal-f40319-Qd1e316"> Si quelibet culpa sequenti pia
+<lb ed="Bd" n="70"/>operatione purgatur, quanto magis hac
+<lb ed="Bd" n="71"/>facile abstergitur, quam mater boni 
+ope<lb break="no" ed="Bd" n="72"/>ris pietas comitatur! </quote> Per hoc patet,
+<lb ed="Bd" n="73"/>quod non vult dicere, quod mendacium
+<lb ed="Bd" n="74"/>secundum se sit moriale peccatum, sed
+<lb ed="Bd" n="75"/>veniale.
+</p>
+            <p xml:id="alalal-f40319-d1e333">
+               <lb ed="Bd" n="76"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

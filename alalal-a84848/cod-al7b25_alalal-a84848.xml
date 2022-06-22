@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="428"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a84848"><!-- l1d15dt3 -->
+            <head xml:id="alalal-a84848-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a84848-d1e101">
+               <lb ed="#Ba" n="7"/>DIVISIO TEXTUS.
+<lb ed="#Ba" n="8"/>
+               <quote xml:id="alalal-a84848-Qd1e107"> Hic quaeritur, Utrum semel 
+tan<lb break="no" ed="#Ba" n="9"/>tum, etc. </quote>
+            </p>
+            <p xml:id="alalal-a84848-d1e113">
+               <lb ed="#Ba" n="10"/>Hic incipit Magister distinguere modos
+<lb ed="#Ba" n="11"/>missionis Filii.
+</p>
+            <p xml:id="alalal-a84848-d1e120">
+               <lb ed="#Ba" n="12"/>Et habet tres partes pars ista. In
+<lb ed="#Ba" n="13"/>prima, scilicet in duobus primis 
+capi<lb break="no" ed="#Ba" n="14"/>tulis movet questionem de modis 
+mis<lb break="no" ed="#Ba" n="15"/>sionis, et determinat. In secunda 
+osten<lb break="no" ed="#Ba" n="16"/>dit, quod secundum alterum istorum 
+mo<lb break="no" ed="#Ba" n="17"/>dorum spe mittitur Filius, et secundum
+<lb ed="#Ba" n="18"/>alterum semel tantum, ibi, L, <quote xml:id="alalal-a84848-Qd1e137">cece 
+dis<lb break="no" ed="#Ba" n="19"/>tineti sunt duo modi, etc. </quote> In tertia
+<lb ed="#Ba" n="20"/>ostendit, quod secundum alterum 
+mo<lb break="no" ed="#Ba" n="21"/>dum mittitur in mundum, et secundum
+<lb ed="#Ba" n="22"/>alterum non, ibi, M, <quote xml:id="alalal-a84848-Qd1e149"> Praeterea 
+notan<lb break="no" ed="#Ba" n="23"/>dum est, quod cum his duobus modis,
+<lb ed="#Ba" n="24"/>etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

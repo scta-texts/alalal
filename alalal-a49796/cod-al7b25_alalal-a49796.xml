@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 20</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 20</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="249"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a49796"><!-- l1d8a20 -->
+            <head xml:id="alalal-a49796-Hd1e99">Articulus 20</head>
+            <head xml:id="alalal-a49796-Hd1e101" type="question-title">Quid vocetur obumbrata vicissitudo, et
+utrum conventat omni creature ?</head>
+            <p xml:id="alalal-a49796-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="32"/>ARTICULUS XX.
+<lb ed="#Ba" n="33"/>Quid vocetur obumbrata vicissitudo, et
+<lb ed="#Ba" n="34"/>utrum conventat omni creature ?
+</p>
+            <p xml:id="alalal-a49796-d1e115">
+               <lb ed="#Ba" n="35"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="36"/>
+               <quote xml:id="alalal-a49796-Qd1e121"> Nec est vicissitudinis ebumbratio,
+<lb ed="#Ba" n="37"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-a49796-d1e127">
+               <lb ed="#Ba" n="38"/>Quid dicatur hic obumbrata 
+vicissi<lb break="no" ed="#Ba" n="39"/>tudo ?
+</p>
+            <p xml:id="alalal-a49796-d1e135">
+               <lb ed="#Ba" n="40"/>Et dicendum, quod. vicissitudo est 
+nu<lb break="no" ed="#Ba" n="41"/>merus vicis, et competit omni creature
+<lb ed="#Ba" n="42"/>etiam spirituali in renovatione 
+vicissitu<lb break="no" ed="#Ba" n="43"/>dinis affectuum et apprehensionum. Et
+<lb ed="#Ba" n="44"/>dicitur obumbrata, quia ex privatione
+<lb ed="#Ba" n="45"/>est, eo quod creatura est post nihil, et
+<lb ed="#Ba" n="46"/>ex hoc quod non est simplex creatura :
+<lb ed="#Ba" n="47"/>illa enim duo trahunt ad umbram, quod
+<lb ed="#Ba" n="48"/>id quod est in spirituali natura, non est
+<lb ed="#Ba" n="49"/>sicut in luce prima creatrice.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

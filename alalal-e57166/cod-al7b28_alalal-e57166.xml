@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="298"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e57166"><!-- l3d17dt1 -->
+            <head xml:id="alalal-e57166-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e57166-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="11"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-e57166-d1e108">
+               <lb ed="Bd" n="12"/>
+               <quote xml:id="alalal-e57166-Qd1e112"> Post predicta considerari oportet,
+<lb ed="Bd" n="13"/>etc. </quote>
+               <lb ed="Bd" n="14"/>In ista distinctione Magister 
+determi<lb break="no" ed="Bd" n="15"/>nat quamdam ulteriorem questionem ex
+<lb ed="Bd" n="16"/>precedentibus habitam, scilicet, Utrum
+<lb ed="Bd" n="17"/>Christus aliquid petiit vel oravit, quod
+<lb ed="Bd" n="18"/>non est ei concessum ? Ex quo enim 
+na<lb break="no" ed="Bd" n="19"/>turaliter timuit passionem, consequens
+<lb ed="Bd" n="20"/>fuit ut fugeret naturaliter, et a se 
+pete<lb break="no" ed="Bd" n="21"/>ret transire.
+</p>
+            <p xml:id="alalal-e57166-d1e135">
+               <lb ed="Bd" n="22"/>Unde ista distinctio dividitur in 
+qua<lb break="no" ed="Bd" n="23"/>tuor partes : in quarum prima ostendit
+<lb ed="Bd" n="24"/>principaliter in Christo propter duas na-
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="25"/>turas et voluntates non fuisse pugnam
+<lb ed="Bd" n="26"/>carnis adversus spiritum. In secunda,
+<lb ed="Bd" n="27"/>probat triplicem voluntatem fuisse in
+<lb ed="Bd" n="28"/>Christo, scilicet sensualitatis, rationis, et
+<lb ed="Bd" n="29"/>deitatis, ibi, C, <quote xml:id="alalal-e57166-Qd1e156"> Ka affeciu ergo 
+huma<lb break="no" ed="Bd" n="30"/>no quem de Virgine traxit, etc. </quote> In
+<lb ed="Bd" n="31"/>tertia, objicit contra verba Ambrosi,
+<lb ed="Bd" n="32"/>ibi, D, <quote xml:id="alalal-e57166-Qd1e166"> Ceterum non parum nos 
+mo<lb break="no" ed="Bd" n="33"/>vent verba Ambrosi, etc. </quote> In quarta et
+<lb ed="Bd" n="34"/>ultima, objicit per verba Hularii, ibi, E,
+<lb ed="Bd" n="35"/>
+               <quote xml:id="alalal-e57166-Qd1e175"> Illud etiam ignorandum non est,
+<lb ed="Bd" n="36"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-e57166-d1e181">
+               <lb ed="Bd" n="37"/>Ex his patet sententia, quia Littera
+<lb ed="Bd" n="38"/>plana est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

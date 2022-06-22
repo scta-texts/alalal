@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="692"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j42607"><!-- l4d50a5 -->
+            <head xml:id="alalal-j42607-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-j42607-Hd1e101" type="question-title">An damnati sint penitus extra Deum ?</head>
+            <p xml:id="alalal-j42607-d1e104">
+               <lb ed="#Bf" n="71"/>ARTICULUS V.
+<lb ed="#Bf" n="72"/>An damnati sint penitus extra Deum ?
+</p>
+            <p xml:id="alalal-j42607-d1e111">
+               <lb ed="#Bf" n="73"/>Secundo queritur, Utrum damnati
+<lb ed="#Bf" n="74"/>sint penitus extra Deum ?
+</p>
+            <p xml:id="alalal-j42607-d1e118">
+               <lb ed="#Bf" n="75"/>Videtur autem, quod non: quia
+<lb ed="#Bf" n="76"/>1. Deus est ubique : ergo nihil est 
+ex<lb break="no" ed="#Bf" n="77"/>tra ipsum. Augustinus : <quote xml:id="alalal-j42607-Qd1e126"> Quia te 
+rece<lb break="no" ed="#Bf" n="78"/>dit, quo it? a te placido ad te iratum. </quote>
+               <lb ed="#Bf" n="79"/>Ergo nullus est extra Deum.
+</p>
+            <p xml:id="alalal-j42607-d1e135">
+               <lb ed="#Bf" n="80"/>2. Adhuc, Deus est in omnibus 
+con<lb break="no" ed="#Bf" n="81"/>tinens omnia in esse : ergo est in 
+dam<lb break="no" ed="#Bf" n="82"/>natis : ergo non sunt penitus extra
+<lb ed="#Bf" n="83"/>ipsum.
+</p>
+            <p xml:id="alalal-j42607-d1e146">
+               <pb ed="#Bf" n="693"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Responsio. De hoc multa dicta sunt
+<lb ed="#Bf" n="2"/>in primo libro Sententiarum : dicendum
+<lb ed="#Bf" n="3"/>tamen, quod Deus sonat provisionem,
+<lb ed="#Bf" n="4"/>sicut dicit Dionysius in libro de Divinis
+<lb ed="#Bf" n="5"/>nominibus. Provisio autem sonat curam
+<lb ed="#Bf" n="6"/>et influentiam beneficiorum: et quia
+<lb ed="#Bf" n="7"/>non influit beneficia, sed poenas 
+dam<lb break="no" ed="#Bf" n="8"/>natis, ideo extra Deum esse dicuntur.
+<lb ed="#Bf" n="9"/>Et haec solutio (ut puto) est secundum
+<lb ed="#Bf" n="10"/>Litterae intentionom.
+</p>
+            <p xml:id="alalal-j42607-d1e175">
+               <lb ed="#Bf" n="11"/>Posset etiam dici, quod quoad malos
+<lb ed="#Bf" n="12"/>damnati sunt extra Deum : quia in 
+nul<lb break="no" ed="#Bf" n="13"/>lo consentiunt ei, sed quoad dominiuin
+<lb ed="#Bf" n="14"/>non possunt effugere ipsum.
+</p>
+            <p xml:id="alalal-j42607-d1e186">
+               <lb ed="#Bf" n="15"/>Et primo modo loquitur in Littera.
+<lb ed="#Bf" n="16"/>Secundo autem modo procedunt 
+obje<lb break="no" ed="#Bf" n="17"/>ctiones.
+</p>
+            <p xml:id="alalal-j42607-d1e195">
+               <lb ed="#Bf" n="18"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

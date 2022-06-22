@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="101"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e19915"><!-- l3d5a4 -->
+            <head xml:id="alalal-e19915-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-e19915-Hd1e101" type="question-title">An assumptio per prius convenit persone
+vel nature ?</head>
+            <p xml:id="alalal-e19915-d1e104">
+               <lb ed="Bd" n="21"/>ARTICULUS IV.
+<lb ed="Bd" n="22"/>An assumptio per prius convenit persone
+<lb ed="Bd" n="23"/>vel nature ?
+</p>
+            <p xml:id="alalal-e19915-d1e113">
+               <lb ed="Bd" n="24"/>Quarto, Queritur cui convenit per
+<lb ed="Bd" n="25"/>prius, utrum scilicet persone vel 
+natu<lb break="no" ed="Bd" n="26"/>ree ?
+</p>
+            <p xml:id="alalal-e19915-d1e122">
+               <lb ed="Bd" n="27"/>Videtur autem, quod nature : quia
+<lb ed="Bd" n="28"/>1. Gratia cujus convenit creatio,
+<lb ed="Bd" n="29"/>gratia ejusdem convenit recreatio: sed
+<lb ed="Bd" n="30"/>creatio est gratia nature, ergo et 
+re<lb break="no" ed="Bd" n="31"/>creatio. Si dicatur, quod prima est
+<lb ed="Bd" n="32"/>falsa. Probatur per simile ex 
+superiori<lb break="no" ed="Bd" n="33"/>bus, ubi dixit Augustinus,.quod quia in
+<lb ed="Bd" n="34"/>sapientia creaverat, in sapientia 
+conve<lb break="no" ed="Bd" n="35"/>niebat fieri redemptionem.
+</p>
+            <p xml:id="alalal-e19915-d1e145">
+               <lb ed="Bd" n="36"/>2. Item, Incarnatio est opus 
+commu<lb break="no" ed="Bd" n="37"/>niter trium personarum, ut habitum est
+<lb ed="Bd" n="38"/>in anteriori distinclione : ergo videtur,
+<lb ed="Bd" n="39"/>quod etiam assumptio convenit nature
+<lb ed="Bd" n="40"/>per prius: quia quidquid est commune
+<lb ed="Bd" n="41"/>tribus, convenit eis gratia nature.
+</p>
+            <p xml:id="alalal-e19915-d1e161">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="42"/>3. Item, Damascenus dicit, quod tota
+<lb ed="Bd" n="43"/>natura divina in una substantiarum 
+hy<lb break="no" ed="Bd" n="44"/>postasium humanam naturam assumpsit :
+<lb ed="Bd" n="45"/>ergo hoc per prius convenit nature.
+</p>
+            <p xml:id="alalal-e19915-d1e174">
+               <lb ed="Bd" n="46"/>SED CONTRA :
+<lb ed="Bd" n="47"/>1. Quidquid convenit alicui persone
+<lb ed="Bd" n="48"/>gratia nature, communiter convenit 
+om<lb break="no" ed="Bd" n="49"/>nibus personis : si ergo incarnatio 
+con<lb break="no" ed="Bd" n="50"/>venit persone gratia nature, convenit
+<lb ed="Bd" n="51"/>omnibus personis, quod falsum est : non
+<lb ed="Bd" n="52"/>ergo convenit gratia nature.
+</p>
+            <p xml:id="alalal-e19915-d1e192">
+               <lb ed="Bd" n="53"/>2. Praeterea, Omnes convenientes 
+ra<lb break="no" ed="Bd" n="54"/>tiones Sanctorum assignantur penes 
+pro<lb break="no" ed="Bd" n="55"/>pria vel appropriata persone : ergo 
+vi<lb break="no" ed="Bd" n="56"/>detur, quod opus incarnationis per prius
+<lb ed="Bd" n="57"/>convenit persone quam nature.
+</p>
+            <p xml:id="alalal-e19915-d1e205">
+               <lb ed="Bd" n="58"/>3. Item, JIli per prius convenit aliquid
+<lb ed="Bd" n="59"/>cui convenit in se et per se: sed nature
+<lb ed="Bd" n="60"/>non convenit incarnatio in se et per se,
+<lb ed="Bd" n="61"/>sed persone, ut ex prioribus prohatum
+<lb ed="Bd" n="62"/>est: ergo nature convenit per 
+poste<lb break="no" ed="Bd" n="63"/>rius, et persone per prius.
+</p>
+            <p xml:id="alalal-e19915-d1e221">
+               <lb ed="Bd" n="64"/>4. Item, Unio magis proprie attingit
+<lb ed="Bd" n="65"/>illud quod efficitur, quam quod non 
+effi<lb break="no" ed="Bd" n="66"/>citur: natura autem non efficitur unum
+<lb ed="Bd" n="67"/>cum natura, sed hypostasis cum 
+hypo<lb break="no" ed="Bd" n="68"/>stasi: ergo videtur, quod unio per prius
+<lb ed="Bd" n="69"/>secundum rationem intelligentiae 
+conve<lb break="no" ed="Bd" n="70"/>niat persone, quam nature.
+</p>
+            <p xml:id="alalal-e19915-d1e240">
+               <lb ed="Bd" n="71"/>Sed contra: Quecumque sunt 
+indif<lb break="no" ed="Bd" n="72"/>ferentia omnino secundum rem, 
+quid<lb break="no" ed="Bd" n="73"/>quid convenit uni, convenit alteri, et
+<lb ed="Bd" n="74"/>gque primo si omnino secundum rem
+<lb ed="Bd" n="75"/>indifferentia sunt et eadem : sed natura
+<lb ed="Bd" n="76"/>divina et persona omnino secundum rem
+<lb ed="Bd" n="77"/>sunt indifferentia : ergo si incarnari 
+con<lb break="no" ed="Bd" n="78"/>venit uni, eque primo etiam convenit
+<lb ed="Bd" n="79"/>alteri.
+</p>
+            <p xml:id="alalal-e19915-d1e262">
+               <lb ed="Bd" n="80"/>Solutio Dicendum, quod per prius
+<lb ed="Bd" n="81"/>secundum rationem intelligendi incarnari
+<lb ed="Bd" n="82"/>convenit persone quam nature : nec
+<lb ed="Bd" n="83"/>convenit nature in eo quod natura est,
+<lb ed="Bd" n="84"/>sed potius nature secundum quod est in
+<lb ed="Bd" n="85"/>persona hac, ques convenientiam ex sua
+<lb ed="Bd" n="86"/>relatione qua filius est, ponit ad 
+missio<lb break="no" ed="Bd" n="87"/>nem in carnem : aliter enim vel 
+impos<lb break="no" ed="Bd" n="88"/>sibile vel difficile esset solvere, quare
+<lb ed="Bd" n="89"/>Pater et Spiritus sanctus carnem non
+<pb ed="#Bd" n="102"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>assumpserunt : et ideo dximus supra,
+<lb ed="Bd" n="2"/>quod incarnatio per hoc quod est missio
+<lb ed="Bd" n="3"/>in carnem, claudit in se relationem Filii
+<lb ed="Bd" n="4"/>per quam excluditur Pater et Spiritus
+<lb ed="Bd" n="5"/>sanctus ab incarnatione. Nec dicimus
+<lb ed="Bd" n="6"/>hic prius tempore, vel ex hoc quod 
+na<lb break="no" ed="Bd" n="7"/>tura secundum rem sit prior persona vel
+<lb ed="Bd" n="8"/>simplicior: sed quia inmodo attribuendi
+<lb ed="Bd" n="9"/>sic est: et ex illo modo attribuendi 
+infor<lb break="no" ed="Bd" n="10"/>matur ratio intelligendi : quia attributa
+<lb ed="Bd" n="11"/>nature sunt in divinis, licet re non 
+dif<lb break="no" ed="Bd" n="12"/>ferant: et ideo ratio intelligendi sic 
+infor<lb break="no" ed="Bd" n="13"/>mata dicit per prius convenire persone
+<lb ed="Bd" n="14"/>quam essentiae vel nature.
+</p>
+            <p xml:id="alalal-e19915-d1e321">
+               <lb ed="Bd" n="15"/>Ad primum ergo dicendum, quod creare
+<lb ed="Bd" n="16"/>non dicit missionem sicut recreare hoc
+<lb ed="Bd" n="17"/>modo missionem dicit: et ideo quod est
+<lb ed="Bd" n="18"/>hic de opere, commune est, quia hoc
+<lb ed="Bd" n="19"/>misssionem non importat : sed unio 
+in<lb break="no" ed="Bd" n="20"/>cludit in se relationem, et ideo 
+commu<lb break="no" ed="Bd" n="21"/>nis non potest esse. Cum autem dicit
+<lb ed="Bd" n="22"/>Augustinus, quod in sapientia creavit,
+<lb ed="Bd" n="23"/>attenditur utrobique proprium Filii in
+<lb ed="Bd" n="24"/>suo appropriato quod est sapientia : sed
+<lb ed="Bd" n="25"/>hoc appropriatum non importat creatio
+<lb ed="Bd" n="26"/>secundum intellectum nominis.
+</p>
+            <p xml:id="alalal-e19915-d1e350">
+               <lb ed="Bd" n="27"/>Ad aliud dicendum, quod opus 
+ope<lb break="no" ed="Bd" n="28"/>rans actum quod est actio ipsa, et opus
+<lb ed="Bd" n="29"/>Operatum quod est conjunctum ex 
+cor<lb break="no" ed="Bd" n="30"/>pore et anima, communia sunt: sed 
+in<lb break="no" ed="Bd" n="31"/>carnatio non dicit hoc, sed potius 
+car<lb break="no" ed="Bd" n="32"/>nis assumptionem in se, et illa non est
+<lb ed="Bd" n="33"/>communis propter relationem inclusam
+<lb ed="Bd" n="34"/>ipsius Filu.
+</p>
+            <p xml:id="alalal-e19915-d1e370">
+               <lb ed="Bd" n="35"/>Ad aliud dicendum, quod auctoritas
+<lb ed="Bd" n="36"/>Damasceni magis facit ad oppositum :
+<lb ed="Bd" n="37"/>quia dicit, quod in persona assumpsit,
+<lb ed="Bd" n="38"/>quasi significet ex modo loquendi quod
+<lb ed="Bd" n="39"/>hoe convenit ei gratia persona: hujus,
+<lb ed="Bd" n="40"/>non gratia sui.
+</p>
+            <p xml:id="alalal-e19915-d1e386">
+               <lb ed="Bd" n="41"/>Ad ultimum dicendum, quod licet nulla
+<lb ed="Bd" n="42"/>differentia realis sit essentiae et persone,
+<lb ed="Bd" n="43"/>tamen differunt in modo attribuendi eis
+<lb ed="Bd" n="44"/>ea quae nature sunt in divinis : quia 
+es<lb break="no" ed="Bd" n="45"/>sentia est communicabilis, persona 
+in<lb break="no" ed="Bd" n="46"/>communicabilis: essentia non generatur,
+<lb ed="Bd" n="47"/>persona verissime generatur : essen
+<lb ed="Bd" n="48"/>tia enim non distinguitur, et 
+perso<lb break="no" ed="Bd" n="49"/>nae nature verissime distinguuntur, et
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>essentia non generatur in talibus : ergo
+<lb ed="Bd" n="51"/>aliquid potest convenire per prius 
+perso<lb break="no" ed="Bd" n="52"/>nae sicut incarnatio propter relationem
+<lb ed="Bd" n="53"/>inclusam, et per posterius essentia, et
+<lb ed="Bd" n="54"/>propter hoc quod non separatur a 
+per<lb break="no" ed="Bd" n="55"/>sona, nec distinguitur ab ipsa.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="594"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b15066"><!-- l1d23a5 -->
+            <head xml:id="alalal-b15066-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-b15066-Hd1e101" type="question-title">An hoc nomen, persona, sit pluribus
+commune, scilicet Patri, Filio, et
+Spiritui sancto ?</head>
+            <p xml:id="alalal-b15066-d1e104">
+               <cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="24"/>ARTICULUS V.
+<lb ed="#Ba" n="25"/>An hoc nomen, persona, sit pluribus
+<lb ed="#Ba" n="26"/>commune, scilicet Patri, Filio, et
+<lb ed="#Ba" n="27"/>Spiritui sancto ?
+</p>
+            <p xml:id="alalal-b15066-d1e117">
+               <lb ed="#Ba" n="28"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="29"/>
+               <quote xml:id="alalal-b15066-Qd1e123"> Si tres persone esse dicuntur, commune
+<lb ed="#Ba" n="30"/>est eis id quod persona est. </quote>
+            </p>
+            <p xml:id="alalal-b15066-d1e129">
+               <lb ed="#Ba" n="31"/>Ex hoc enim habetur, quod persona
+<lb ed="#Ba" n="32"/>est commune eis tribus.
+</p>
+            <p xml:id="alalal-b15066-d1e137">
+               <lb ed="#Ba" n="33"/>SED CONTRA :
+<lb ed="#Ba" n="34"/>1. Si est commune pradicatum de 
+tri<lb break="no" ed="#Ba" n="35"/>bus : aut ut ens de ratione trium, aut
+<lb ed="#Ba" n="36"/>ut non ens de ratione trium. Si ut non
+<cb ed="#Ba" n="d"/>
+               <lb ed="#Ba" n="37"/>ens de ratione trium, hoc est accidentale
+<lb ed="#Ba" n="38"/>tribus, sicut album praedicatur de nive,
+<lb ed="#Ba" n="39"/>et de cygno, et margarita. Si autem
+<lb ed="#Ba" n="40"/>predicatur communiter, ut ens de 
+ra<lb break="no" ed="#Ba" n="41"/>tione triam, aut convertibiliter, aut non
+<lb ed="#Ba" n="42"/>convertibiliter. Si convertibiliter : ergo
+<lb ed="#Ba" n="43"/>persona convertitur cum Patre : ergo de
+<lb ed="#Ba" n="44"/>quocumque praedicatur persona, et 
+Pa<lb break="no" ed="#Ba" n="45"/>ter : quod faisum est, quia de Filio 
+pre<lb break="no" ed="#Ba" n="46"/>dicatur persona, non tamen Pater.
+</p>
+            <p xml:id="alalal-b15066-d1e172">
+               <lb ed="#Ba" n="47"/>2. Si autem praedicatur ut ens de 
+ra<lb break="no" ed="#Ba" n="48"/>tione trum, et non convertitur, 
+necessa<lb break="no" ed="#Ba" n="49"/>rio erit genus, vel species : ergo in 
+divi<lb break="no" ed="#Ba" n="50"/>nis est genus, vel species : quod supra
+<lb ed="#Ba" n="51"/>improbatum est’.
+</p>
+            <p xml:id="alalal-b15066-d1e185">
+               <lb ed="#Ba" n="52"/>3. Item, Quidquid una ratione 
+pradi<lb break="no" ed="#Ba" n="53"/>catur de pluribus, est abstractum et 
+abs<lb break="no" ed="#Ba" n="54"/>tractum per intellectum : persona una
+<pb ed="#Ba" n="595"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ratione praedicatur de tribus : ergo 
+abs<lb break="no" ed="#Ba" n="2"/>trahit ab omnibus et per intellectum est
+<lb ed="#Ba" n="3"/>abstractum. Quidquid autem est 
+abstra<lb break="no" ed="#Ba" n="4"/>hens et abstractum per intellectum ab
+<lb ed="#Ba" n="5"/>his de quibus praedicatur, est 
+univer<lb break="no" ed="#Ba" n="6"/>sale ; ergo persona est universale : ergo
+<lb ed="#Ba" n="7"/>universale est in divinis, quod negat
+<lb ed="#Ba" n="8"/>Boetius.
+</p>
+            <p xml:id="alalal-b15066-d1e216">
+               <lb ed="#Ba" n="9"/>4. Item, Universale est quod est in
+<lb ed="#Ba" n="10"/>multis et de mullis : sed persona in divi-~
+<lb ed="#Ba" n="11"/>nis est in pluribus et de pluribus: ergo
+<lb ed="#Ba" n="12"/>est universale ad illa.
+</p>
+            <p xml:id="alalal-b15066-d1e227">
+               <lb ed="#Ba" n="13"/>5. Si forte dicas, quod est commune
+<lb ed="#Ba" n="14"/>secundum solam rationem, et est 
+com<lb break="no" ed="#Ba" n="15"/>mune secundum rem: et persona est
+<lb ed="#Ba" n="16"/>commune secundum rationem solam, et
+<lb ed="#Ba" n="17"/>non secundum rem. Contra : Commune
+<lb ed="#Ba" n="18"/>secundum rem in divinis est commune
+<lb ed="#Ba" n="19"/>secundum esse: et realem 
+communita<lb break="no" ed="#Ba" n="20"/>tem non habet aliquod universale, sed
+<lb ed="#Ba" n="21"/>habet communitatem secundum 
+ratio<lb break="no" ed="#Ba" n="22"/>nem, cul respondet in re communilas
+<lb ed="#Ba" n="23"/>persone : quia licet esse habeat in isto,
+<lb ed="#Ba" n="24"/>potest tamen esse in alio, et 
+multiplici<lb break="no" ed="#Ba" n="25"/>ter secundum esse in his in quibus est:
+<lb ed="#Ba" n="26"/>et hoc rectissime videtur convenire
+<lb ed="#Ba" n="27"/>persone : quia persona habet esse in 
+Pa<lb break="no" ed="#Ba" n="28"/>tre et Filio, et mullipliciter secundum
+<lb ed="#Ba" n="29"/>esse in illis: quia dicimus, quod tres
+<lb ed="#Ba" n="30"/>sunt plures, et non una persona: ergo
+<lb ed="#Ba" n="31"/>persona ut universale de tribus 
+pradica<lb break="no" ed="#Ba" n="32"/>tur. Si forte dicas, sicut fere omnes 
+eva<lb break="no" ed="#Ba" n="33"/>dunt, quod persona est commune 
+secun<lb break="no" ed="#Ba" n="34"/>dum negationem: et haecnegatio non
+<lb ed="#Ba" n="35"/>causat universale : quia nulla sunt adeo
+<lb ed="#Ba" n="36"/>distantia quin bene communicant in 
+ne<lb break="no" ed="#Ba" n="37"/>gatione : sicut Deus, et lapis conveniunt
+<lb ed="#Ba" n="38"/>in non esse capram, vel in alio 
+secun<lb break="no" ed="#Ba" n="39"/>dum negationem dicto : hoc nihil est
+<lb ed="#Ba" n="40"/>quia individuum non est talis negatio
+<lb ed="#Ba" n="41"/>qu nihil ponat, sed potius negatio 
+con<lb break="no" ed="#Ba" n="42"/>sequens id quod per se est unum : ergo
+<lb ed="#Ba" n="43"/>persona licet non ratione individue 
+sub<lb break="no" ed="#Ba" n="44"/>stantia, tamen ratione ejus super quod
+<lb ed="#Ba" n="45"/>fundatur individuatio, causabit 
+univer<lb break="no" ed="#Ba" n="46"/>sale.
+</p>
+            <p xml:id="alalal-b15066-d1e303">
+               <lb ed="#Ba" n="47"/>Item, Cum dicitur, Persona est 
+sub<lb break="no" ed="#Ba" n="48"/>stantia individua, substantia cadit in
+<lb ed="#Ba" n="49"/>recto in intellectu, et persone indivi-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="50"/>duum ut illius substantia ‘dispositio et
+<lb ed="#Ba" n="51"/>proprielas: ergo significat principalius
+<lb ed="#Ba" n="52"/>substantiam affirmative, quam rationem
+<lb ed="#Ba" n="53"/>dispositionis significet negative: et sic
+<lb ed="#Ba" n="54"/>solutio illa nihil videtur valere.
+</p>
+            <p xml:id="alalal-b15066-d1e326">
+               <lb ed="#Ba" n="55"/>Item, Boetius dicit, quod omnis 
+per<lb break="no" ed="#Ba" n="56"/>sona significat substantiam ult subjectam
+<lb ed="#Ba" n="57"/>et suppositam : hic autem intellectus
+<lb ed="#Ba" n="58"/>non est negativus: ergo nihil est quod
+<lb ed="#Ba" n="59"/>quidam dicunt, personam esse 
+commu<lb break="no" ed="#Ba" n="60"/>nem secundum negationem,
+</p>
+            <p xml:id="alalal-b15066-d1e342">
+               <lb ed="#Ba" n="61"/>Soturio. Dicendum sine prejudicio,
+<lb ed="#Ba" n="62"/>quod duplex est communitas, scilicet
+<lb ed="#Ba" n="63"/>esse, et rationis. Communitas autem in
+<lb ed="#Ba" n="64"/>esse et essentia eadem numero, non
+<lb ed="#Ba" n="65"/>potest inveniri nisi in divinis 
+hypostasi<lb break="no" ed="#Ba" n="66"/>bus, et non in aliqua natura creata : quia
+<lb ed="#Ba" n="67"/>ommne creatum est compositum, et ideo
+<lb ed="#Ba" n="68"/>idem numero secundum esse non potest
+<lb ed="#Ba" n="69"/>esse in diversis subjectis et distinctis.
+<lb ed="#Ba" n="70"/>Communitas autem rationis muluplex
+<lb ed="#Ba" n="71"/>est: quaedam enim est secundum 
+natu<lb break="no" ed="#Ba" n="72"/>ram cominunem per eamdem rationem
+<lb ed="#Ba" n="73"/>participatam a pluribus, quae natura
+<lb ed="#Ba" n="74"/>communis abstrahitur ab unoquoque
+<lb ed="#Ba" n="75"/>illorcum, et secundum esse in quolibet
+<lb ed="#Ba" n="76"/>illorum compositionem habens cum eo
+<lb ed="#Ba" n="77"/>quod conirahit eam ad hoc et adillud: et
+<lb ed="#Ba" n="78"/>illa natura facit universale, et secundum
+<lb ed="#Ba" n="79"/>tolum posse quod habet illa natura, non
+<lb ed="#Ba" n="80"/>est in uno, licet sitin eo secundum esse:
+<lb ed="#Ba" n="81"/>ideo haecnatura excedit quodlibet 
+illo<lb break="no" ed="#Ba" n="82"/>rum, de quo pradicatur quoad posse: ct
+<lb ed="#Ba" n="83"/>quia est in eo secundum totum esse
+<lb ed="#Ba" n="84"/>suum, ideo est ratio cujuslibet eorum de
+<lb ed="#Ba" n="85"/>quo praedicatur, vel pars ralionis ejus,
+<lb ed="#Ba" n="86"/>vel simpliciter, ut in genere, vel specie,
+<lb ed="#Ba" n="87"/>et differentia: vel secundum quid, sicut
+<lb ed="#Ba" n="88"/>est in proprio, et accidente. Est etiam
+<lb ed="#Ba" n="89"/>communitas resullans ex proportione
+<lb ed="#Ba" n="90"/>aliquorum ad unum, quod convenit 
+utri<lb break="no" ed="#Ba" n="91"/>que, secundum tamen diversa : sicut
+<lb ed="#Ba" n="92"/>est communitas proportionis regiminis
+<lb ed="#Ba" n="93"/>navis et schole, ad gubernatorem et
+<lb ed="#Ba" n="94"/>scholasticum : quod tamen regenti 
+con<lb break="no" ed="#Ba" n="95"/>venit nature secundum artem 
+guber<lb break="no" ed="#Ba" n="96"/>nandi, et scholastico secundum artem
+<lb ed="#Ba" n="97"/>docendi litteras: quia tamen similis est
+<pb ed="#Ba" n="596"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>habitudo, ideo respectus ad actum 
+regi<lb break="no" ed="#Ba" n="2"/>minis est eis communis. Et talis 
+habi<lb break="no" ed="#Ba" n="3"/>tudo invenitur etiam in naturalibus:
+<lb ed="#Ba" n="4"/>cum enim dicitur, Socrates est homo,
+<lb ed="#Ba" n="5"/>Plato est homo: commune est Socrati
+<lb ed="#Ba" n="6"/>et Platoni hoc ipsum quod dico homo:
+<lb ed="#Ba" n="7"/>et hoc per rationem nature universalis.
+<lb ed="#Ba" n="8"/>Cum autem dico, isti sunt homines, 
+sup<lb break="no" ed="#Ba" n="9"/>ponuntur Socrates et Plato per nomen
+<lb ed="#Ba" n="10"/>demonstrativum: et sic commune est
+<lb ed="#Ba" n="11"/>eis, quod sint supposila hominis, et 
+re<lb break="no" ed="#Ba" n="12"/>spectus suppositi et habitudo ad id quod
+<lb ed="#Ba" n="13"/>secundum naturam commune est, 
+deter<lb break="no" ed="#Ba" n="14"/>minatur per verbum suné: et haec 
+com<lb break="no" ed="#Ba" n="15"/>munitas suppositi nihil aliud est quam
+<lb ed="#Ba" n="16"/>similis habitudo eorum ad naturam que
+<lb ed="#Ba" n="17"/>communis est eis. Et quia in divinis 
+per<lb break="no" ed="#Ba" n="18"/>sona significat substantiam, ut supra 
+de<lb break="no" ed="#Ba" n="19"/>terminatum est, et significat eam ut
+<lb ed="#Ba" n="20"/>suppositum, ideo tali communitate 
+com<lb break="no" ed="#Ba" n="21"/>munis est persona tribus. Sed differentia
+<lb ed="#Ba" n="22"/>est in hoc quod ratio suppositi in 
+infe<lb break="no" ed="#Ba" n="23"/>rioribus est universalis per accidens :
+<lb ed="#Ba" n="24"/>quia accidit Socrati et Platoni esse 
+sup<lb break="no" ed="#Ba" n="25"/>posita per hoc quod homo secundum
+<lb ed="#Ba" n="26"/>eamdem naturam praedicatur de eis. In
+<lb ed="#Ba" n="27"/>divinis autem persona non est 
+univer<lb break="no" ed="#Ba" n="28"/>sale: quia re non est excedens 
+subje<lb break="no" ed="#Ba" n="29"/>ctum de quo praedicatur, cum dicitur,
+<lb ed="#Ba" n="30"/>Pater est persona: est enim idem in 
+sub<lb break="no" ed="#Ba" n="31"/>jecto et pradicato, differens tamen 
+se<lb break="no" ed="#Ba" n="32"/>cundum modum significandi : et similiter
+<lb ed="#Ba" n="33"/>cum dicitur, Filius est persona: et si est
+<lb ed="#Ba" n="34"/>abstrahens ab utroque, non est illa 
+abs<lb break="no" ed="#Ba" n="35"/>tractio nisi secundum intellectum 
+nos<lb break="no" ed="#Ba" n="36"/>trum, et non secundum naturam rel:
+<lb ed="#Ba" n="37"/>sicut et in omnibus nominibus divinis
+<lb ed="#Ba" n="38"/>semper invenitur aliqua proprietas, ut
+<lb ed="#Ba" n="39"/>supra determinatum est. Et hoc modo
+<lb ed="#Ba" n="40"/>etiam dico de communitate relationis,
+<lb ed="#Ba" n="41"/>vel distinctionis, vel 
+incommunicabilita<lb break="no" ed="#Ba" n="42"/>tis, nisi hoc addendo, quod cum dicitur,
+<lb ed="#Ba" n="43"/>Pater et Filius relati sunt, et relativa, vel
+<lb ed="#Ba" n="44"/>Pater et Filius sunt duo supposita, vel
+<lb ed="#Ba" n="45"/>Pater et Filiussunt incommunicabiles, vel
+<lb ed="#Ba" n="46"/>Pater et Filius sunt hypostases, vel 
+Pa<lb break="no" ed="#Ba" n="47"/>ter et Filius sunt persone, vel Pater et
+<lb ed="#Ba" n="48"/>Filius sunt Deus : quia prima harum 
+com<lb break="no" ed="#Ba" n="49"/>munitatum sumitur per unum respectum
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="50"/>ad relationis actum, secunda per unum
+<lb ed="#Ba" n="51"/>respectum ad proprietatis actum, tertia
+<lb ed="#Ba" n="52"/>per unum respectum ad negationem 
+con<lb break="no" ed="#Ba" n="53"/>sequentem ad actum proprietatis, quarta
+<lb ed="#Ba" n="54"/>per unum respectum ad rationem 
+sup<lb break="no" ed="#Ba" n="55"/>positi ordinati ad proprietatem, quinta
+<lb ed="#Ba" n="56"/>per unam rationem suppositi ordinati ad
+<lb ed="#Ba" n="57"/>actum proprietatis pertinentis ad 
+digni<lb break="no" ed="#Ba" n="58"/>tatem : sexta autem per unum respectum
+<lb ed="#Ba" n="59"/>suppositorum ad naturam: ideo solum
+<lb ed="#Ba" n="60"/>illud pradicatum, scilicet Deus, dicit
+<lb ed="#Ba" n="61"/>commune re et natura. Innuitur autem
+<lb ed="#Ba" n="62"/>adhuc ab Augustino quod ipse dicit, quod
+<lb ed="#Ba" n="63"/>Pater et Filius et Spiritus sanctus sunt
+<lb ed="#Ba" n="64"/>tres res quibus fruendum est: et res 
+se<lb break="no" ed="#Ba" n="65"/>cundum Hilarium dicit rem natura, id
+<lb ed="#Ba" n="66"/>est, cujus est generare, vel generari, vel
+<lb ed="#Ba" n="67"/>procedere: quia isti actus demonstrant
+<lb ed="#Ba" n="68"/>existentie modum, ideo communitas
+<lb ed="#Ba" n="69"/>hujus nominis, res, eritseptima: et non
+<lb ed="#Ba" n="70"/>ponit nisi unam habitudinem trium ad
+<lb ed="#Ba" n="71"/>naturam tantum. Unde nulla istarum 
+fa<lb break="no" ed="#Ba" n="72"/>cit commune re nisi una, scilicet sexta:
+<lb ed="#Ba" n="73"/>omnes autem alie sunt communitates
+<lb ed="#Ba" n="74"/>proportionis sive habitudinis ad unum
+<lb ed="#Ba" n="75"/>in communi rationis, quod commune non
+<lb ed="#Ba" n="76"/>est abstractum, ut simplicius a minus
+<lb ed="#Ba" n="77"/>simplici: quia nihil est ibi simplicius
+<lb ed="#Ba" n="78"/>alio: sed est 1bi communis ratio 
+secun<lb break="no" ed="#Ba" n="79"/>dum modum nostre intelligentie, que
+<lb ed="#Ba" n="80"/>in omnibus nominibus deficit a Deo.
+</p>
+            <p xml:id="alalal-b15066-d1e605">
+               <lb ed="#Ba" n="81"/>Ap primum ergo dicendum, quod 
+per<lb break="no" ed="#Ba" n="82"/>sona praedicatur de tribus: non ut ens de
+<lb ed="#Ba" n="83"/>ratione trium, quia simplicissimi nulla
+<lb ed="#Ba" n="84"/>est ratio diffinitiva: nec praedicatur per
+<lb ed="#Ba" n="85"/>accidens, sed praedicatur ut idem subjecto
+<lb ed="#Ba" n="86"/>de quo praedicatur, et excedens ipsum
+<lb ed="#Ba" n="87"/>natura rei, sed secundum rationem 
+tan<lb break="no" ed="#Ba" n="88"/>tam, cui nihil in re respondet nisi 
+com<lb break="no" ed="#Ba" n="89"/>munitas nature: quia enim natura 
+com<lb break="no" ed="#Ba" n="90"/>munis est, idem consequitur similis 
+pro<lb break="no" ed="#Ba" n="91"/>portio ipsorum ad illam; et illa similis
+<lb ed="#Ba" n="92"/>proportio fundatur realiter in 
+proportio<lb break="no" ed="#Ba" n="93"/>natis ad naturam et in natura: et nomen
+<lb ed="#Ba" n="94"/>quod nominat illam communitatem, est
+<lb ed="#Ba" n="95"/>commune tantum rationis secundum
+<lb ed="#Ba" n="96"/>illam proportionem, non commune 
+re<lb break="no" ed="#Ba" n="97"/>aliter quam dictum est.
+</p>
+            <p xml:id="alalal-b15066-d1e644">
+               <lb ed="#Ba" n="98"/>Ad aliud dicendum, quod licet non
+<pb ed="#Ba" n="597"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>excedat substantiam re et natura aliqua
+<lb ed="#Ba" n="2"/>communi quam importat, tamen 
+relin<lb break="no" ed="#Ba" n="3"/>quit similem proportionem ad idem in
+<lb ed="#Ba" n="4"/>alio: et ab illa similitudine imponuntur
+<lb ed="#Ba" n="5"/>hujusmodi nomina relativa, persona, 
+hy<lb break="no" ed="#Ba" n="6"/>postasis, et res nature, et 
+incommuni<lb break="no" ed="#Ba" n="7"/>cabilis, et hujusmodi: et ratione illius
+<lb ed="#Ba" n="8"/>proportionis excedunt, licet non in re:
+<lb ed="#Ba" n="9"/>et ideo secundum praedicationem non
+<lb ed="#Ba" n="10"/>convertuntur cum suis subjectis.
+</p>
+            <p xml:id="alalal-b15066-d1e675">
+               <lb ed="#Ba" n="11"/>Ad aliud dicendum, quod ad 
+univer<lb break="no" ed="#Ba" n="12"/>sale exigitur, quod abstrahat ab his de
+<lb ed="#Ba" n="13"/>quibus praedicatur, ut natura communis
+<lb ed="#Ba" n="14"/>abstrahit a suis inferioribus quae 
+contra<lb break="no" ed="#Ba" n="15"/>hunt ipsam per ca quibus componitur:
+<lb ed="#Ba" n="16"/>sed hic non est ita, sed tantum 
+simili<lb break="no" ed="#Ba" n="17"/>tudo proportionis est in istis nominibus
+<lb ed="#Ba" n="18"/>importata: et commune abstractum non
+<lb ed="#Ba" n="19"/>dicit naturam unam quae sit in utroque,
+<lb ed="#Ba" n="20"/>sed commune quod est in ratione nostra
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="21"/>tantum fundata in similitudine 
+propor<lb break="no" ed="#Ba" n="22"/>tionis vel habitudinis trium personarum
+<lb ed="#Ba" n="23"/>ad unum.
+</p>
+            <p xml:id="alalal-b15066-d1e708">
+               <lb ed="#Ba" n="24"/>Ad aliud dicendum, quod non dicitur
+<lb ed="#Ba" n="25"/>persona de multis: quia tres non sunt
+<lb ed="#Ba" n="26"/>multi, ut supra probatum est: et etiam
+<lb ed="#Ba" n="27"/>s1 multi essent, non diceretur persona de
+<lb ed="#Ba" n="28"/>eis ut universale, sicut jam dictum est:
+<lb ed="#Ba" n="29"/>et ideo non procedit illa ratio.
+</p>
+            <p xml:id="alalal-b15066-d1e725">
+               <lb ed="#Ba" n="30"/>Ad aliud dicendum, quod licet in 
+uni<lb break="no" ed="#Ba" n="31"/>versali non sit secundum esse 
+communi<lb break="no" ed="#Ba" n="32"/>tas, est tamen communitas secundum
+<lb ed="#Ba" n="33"/>naturam unam quae convenit omnibus:
+<lb ed="#Ba" n="34"/>séd in divinis non est ita: persona enim
+<lb ed="#Ba" n="35"/>nullam unam naturam dicit quae 
+conve<lb break="no" ed="#Ba" n="36"/>niat tribus, et contrahatur in illis ad hanc
+<lb ed="#Ba" n="37"/>et illam personam: et ideo in illis est
+<lb ed="#Ba" n="38"/>communitas secundum rationem 
+propor<lb break="no" ed="#Ba" n="39"/>tionis tantum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

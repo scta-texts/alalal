@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="198"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i41255"><!-- l4d29dt1 -->
+            <head xml:id="alalal-i41255-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-i41255-d1e101">
+               <lb ed="#Bf" n="13"/>DIVISIO TEXTUS,
+<lb ed="#Bf" n="14"/>
+               <quote xml:id="alalal-i41255-Qd1e107"> Oportet autem consensiwn 
+conjuga<lb break="no" ed="#Bf" n="15"/>fen, etc. </quote>
+            </p>
+            <p xml:id="alalal-i41255-d1e113">
+               <lb ed="#Bf" n="16"/>Tn duabus distinctionibus hic sese 
+con<lb break="no" ed="#Bf" n="17"/>sequentibus Magister vemovel duo 
+im<lb break="no" ed="#Bf" n="18"/>pedimenta consensus qui facit 
+matrimo<lb break="no" ed="#Bf" n="19"/>nian: secundum enim quod consensus
+<lb ed="#Bf" n="20"/>procedit a voluntalo, exclulit ipsum
+<lb ed="#Bf" n="21"/>coactio, et de hoc hic agit in prima: 
+se<lb break="no" ed="#Bf" n="22"/>condum aulem quod procedit a ratione,
+<lb ed="#Bf" n="23"/>oxeludit ipsum error, et de hoc hic aget
+<lb ed="#Bf" n="24"/>in sequenti distinctione.
+</p>
+            <p xml:id="alalal-i41255-d1e135">
+               <lb ed="#Bf" n="25"/>Item, In isla facil tria. Primo enim
+<lb ed="#Bf" n="26"/>ostendit, quod coactio excludit 
+consen<lb break="no" ed="#Bf" n="27"/>sum qui facit matrimonium. Secundo,
+<lb ed="#Bf" n="28"/>agit de consensu posterius ad 
+matrimo<lb break="no" ed="#Bf" n="29"/>nium accedente, ibi, A, 8 2: <quote xml:id="alalal-i41255-Qd1e148"> 
+Verwn<lb break="no" ed="#Bf" n="30"/>tamen gui inviti et coacti, cic. </quote> Tertio,
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="31"/>agit de consensu interpretative, ibi, B,
+<lb ed="#Bf" n="32"/>
+               <quote xml:id="alalal-i41255-Qd1e159"> Consentire autem probatur, etc. </quote>
+            </p>
+            <p xml:id="alalal-i41255-d1e162">
+               <lb ed="#Bf" n="33"/>Et per hoc satis plana sunt quae 
+dicun<lb break="no" ed="#Bf" n="34"/>tur in Littera,
+</p>
+            <p xml:id="alalal-i41255-d1e170">
+               <lb ed="#Bf" n="35"/>Incidit autem hic questio de 
+principa<lb break="no" ed="#Bf" n="36"/>liter quaesito in Littera : circa quod
+<lb ed="#Bf" n="37"/>quinque queruntur.
+</p>
+            <p xml:id="alalal-i41255-d1e179">
+               <lb ed="#Bf" n="38"/>Primum est, Quid sit vis sive 
+co<lb break="no" ed="#Bf" n="39"/>actio ?
+<lb ed="#Bf" n="40"/>Secundum, De divisione coactionis.
+<lb ed="#Bf" n="41"/>Tertinm, Utrum aliqua coactio cadat
+<lb ed="#Bf" n="42"/>in constantem virum vel non?
+<lb ed="#Bf" n="43"/>Quartum, Utrum coactio vel vis 
+eva<lb break="no" ed="#Bf" n="44"/>cuat matrimonii consensum ?
+<lb ed="#Bf" n="45"/>Quintum, Utrum in eo qui vim 
+pati<lb break="no" ed="#Bf" n="46"/>tur, aliquod relinguat peccatum, et 
+qua<lb break="no" ed="#Bf" n="47"/>liter illud sit emendandum ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

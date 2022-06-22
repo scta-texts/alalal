@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="745"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f44591"><!-- l3d39a10 -->
+            <head xml:id="alalal-f44591-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-f44591-Hd1e101" type="question-title">An guramentum coactum obligat ad
+impletionem ?</head>
+            <p xml:id="alalal-f44591-d1e104">
+               <lb ed="Bd" n="16"/>ARTICULUS X.
+<lb ed="Bd" n="17"/>An guramentum coactum obligat ad
+<lb ed="Bd" n="18"/>impletionem ?
+</p>
+            <p xml:id="alalal-f44591-d1e113">
+               <lb ed="Bd" n="19"/>Secundo quaeritur, Utrum juramentum
+<lb ed="Bd" n="20"/>coactum obliget ad impletionem ?
+</p>
+            <p xml:id="alalal-f44591-d1e120">
+               <lb ed="Bd" n="21"/>Videtur autem quod sic : quia
+<lb ed="Bd" n="22"/>1. Ponamus, quod aliquis juret id quod.
+<lb ed="Bd" n="23"/>fieri est licitum, sicut se daturum centum
+<lb ed="Bd" n="24"/>marcas :juramenta autem licita sunt 
+ser<lb break="no" ed="Bd" n="25"/>vanda : ergo illud debet impleri.
+</p>
+            <p xml:id="alalal-f44591-d1e134">
+               <lb ed="Bd" n="26"/>2. Item, Quidam consuluit Papam
+<lb ed="Bd" n="27"/>Alexandrum de quodam juramento 
+coa<lb break="no" ed="Bd" n="28"/>cto an deberet implere ? Et respondit 
+Pa<lb break="no" ed="Bd" n="29"/>pa: <quote xml:id="alalal-f44591-Qd1e144"> Non habebis me auctorem 
+perju<lb break="no" ed="Bd" n="30"/>ni: </quote> ergo videtur, quod juramentum
+<lb ed="Bd" n="31"/>illud cbligabat.
+</p>
+            <p xml:id="alalal-f44591-d1e153">
+               <lb ed="Bd" n="32"/>3. Item, Quidam coactus juravit 
+cui<lb break="no" ed="Bd" n="33"/>dam concubine sue, quod eam duceret
+<lb ed="Bd" n="34"/>in uxorem, et non interrogarct parentes
+<lb ed="Bd" n="35"/>suos : et quesivit a beato Augustino,
+<lb ed="Bd" n="36"/>utrum teneretur solvere juramentum ?
+<lb ed="Bd" n="37"/>Respondit beatus Augustinus de consilio
+<lb ed="Bd" n="38"/>beati Ambrosii, quod duceret eam. Ergo
+<lb ed="Bd" n="39"/>videtur, quod coacta juramenta 
+obli<lb break="no" ed="Bd" n="40"/>gant,
+</p>
+            <p xml:id="alalal-f44591-d1e175">
+               <lb ed="Bd" n="41"/>SED CONTRA:
+<lb ed="Bd" n="42"/>1. Vota coacta non obligant, quia dicit
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="43"/>auctoritas, quod coacta sacrificia Deo
+<lb ed="Bd" n="44"/>non placent: cum igitur juramenta sint
+<lb ed="Bd" n="45"/>quaedam vota attestatione juramenti 
+fir<lb break="no" ed="Bd" n="46"/>mata, videtur quod non obligent.
+</p>
+            <p xml:id="alalal-f44591-d1e193">
+               <lb ed="Bd" n="47"/>2. Item, Coactum est involuntarium,
+<lb ed="Bd" n="48"/>ut dicit Philosophus : involuntarium 
+au<lb break="no" ed="Bd" n="49"/>tem non obligat: ergo nec coactum 
+ju<lb break="no" ed="Bd" n="50"/>ramentuni.
+</p>
+            <p xml:id="alalal-f44591-d1e204">
+               <lb ed="Bd" n="51"/>3. Item, Tullius in RAeforicis inducit
+<lb ed="Bd" n="52"/>legem dicens : <quote xml:id="alalal-f44591-Qd1e210"> Quod vi vel dolo factum
+<lb ed="Bd" n="53"/>est, ratum non habeo, ait Pretor : </quote> tale
+<lb ed="Bd" n="54"/>autem juramentum est factum vi et dole
+<lb ed="Bd" n="55"/>simul : ergo non debet haberi ratum : 
+er<lb break="no" ed="Bd" n="56"/>go non obligat ad implendum.
+</p>
+            <p xml:id="alalal-f44591-d1e223">
+               <lb ed="Bd" n="57"/>4, Jiem, Metus mortis cum signis 
+mor<lb break="no" ed="Bd" n="58"/>tis cadit in constantem virum : sed metus
+<lb ed="Bd" n="59"/>qui cadit in constantem virum, a toto
+<lb ed="Bd" n="60"/>excusat, ut dicunt Jurisperiti : ergo iste
+<lb ed="Bd" n="61"/>qui tali metu jurat, de juramento 
+deobli<lb break="no" ed="Bd" n="62"/>gatur.
+</p>
+            <p xml:id="alalal-f44591-d1e240">
+               <lb ed="Bd" n="63"/>3. Item, Fraus non debet alicui 
+patro<lb break="no" ed="Bd" n="64"/>cinari: sed ille qui cogit ad jurandum,
+<lb ed="Bd" n="65"/>fraude et dolo et violentia facit hoc: 
+er<lb break="no" ed="Bd" n="66"/>go non debet ei patrocinari: ergo iste
+<lb ed="Bd" n="67"/>jurans non debet obligari ad implendum.
+</p>
+            <p xml:id="alalal-f44591-d1e253">
+               <lb ed="Bd" n="68"/>Si dicas, quod sic jurans dare centum,
+<lb ed="Bd" n="69"/>obligatur, et in hoc nihil deperit ei, quia
+<lb ed="Bd" n="70"/>competit ei actio in illum. Contra: 
+Po<lb break="no" ed="Bd" n="71"/>namus, quod juret se non acturum contra
+<lb ed="Bd" n="72"/>eum : ergo etiam hoc tenetur implere
+<lb ed="Bd" n="73"/>eadem ratione, qua tenetur implere 
+pri<lb break="no" ed="Bd" n="74"/>mum.
+</p>
+            <p xml:id="alalal-f44591-d1e271">
+               <lb ed="Bd" n="75"/>Si forte dicas, quod in tali casu debet
+<lb ed="Bd" n="76"/>denuntiare Ecclesiae : et illa tenetur age~
+<lb ed="Bd" n="77"/>re contra illum. Pono etiam, quod juret
+<lb ed="Bd" n="78"/>Ecclesia se non denuntiaturum: ergo
+<lb ed="Bd" n="79"/>etiam eadem ratione illud debet implere :
+<lb ed="Bd" n="80"/>et ita omnibus modis injuste 
+damnifica<lb break="no" ed="Bd" n="81"/>tur: etille reportat lucrum ex dolo et
+<lb ed="Bd" n="82"/>fraude.
+</p>
+            <p xml:id="alalal-f44591-d1e291">
+               <lb ed="Bd" n="83"/>6. Praeterea, Juret aliquis aliud, 
+scili<lb break="no" ed="Bd" n="84"/>cet se consentire in matrimonium 
+alicu<lb break="no" ed="Bd" n="85"/>jus: si ergo obligatur ipse, non potest ab
+<lb ed="Bd" n="86"/>ea separari.
+</p>
+            <p xml:id="alalal-f44591-d1e302">
+               <lb ed="Bd" n="87"/>Sed contra : Coactio excludit 
+consen<lb break="no" ed="Bd" n="88"/>sum conjugalem : ergo etiam excludit
+<lb ed="Bd" n="89"/>juramentum de consensu.
+<pb ed="#Bd" n="746"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>niones Magistrorum diverse. Sunt enim
+<lb ed="Bd" n="2"/>qui distinguunt inter juramentum 
+asser<lb break="no" ed="Bd" n="3"/>torium, et promissorium : et dicunt, quod
+<lb ed="Bd" n="4"/>assertorio juramento coacto, ut scilicet
+<lb ed="Bd" n="5"/>aliquid asserat quod scit esse verum 
+jura<lb break="no" ed="Bd" n="6"/>mentum, obligat ad dicendum illud :
+<lb ed="Bd" n="7"/>quia hoc sine lesione justa alicujus 
+asse<lb break="no" ed="Bd" n="8"/>rere potest, quod verum esse scit. Jura~
+<lb ed="Bd" n="9"/>mentum autem promissorium est, cum
+<lb ed="Bd" n="10"/>promittit se soluturum esse centum 
+ali<lb break="no" ed="Bd" n="11"/>cul tyranno, ne interficiat eum: et tunc
+<lb ed="Bd" n="12"/>non obligat, ut dicunt. Alii dicunt, quod
+<lb ed="Bd" n="13"/>in veritate coram Deo et foro peenitentiae
+<lb ed="Bd" n="14"/>obligatur juramento utroque, sed non 
+fo<lb break="no" ed="Bd" n="15"/>ro judicii: quia tyrannus non audet se
+<lb ed="Bd" n="16"/>presentare judici, cum ipse leserit 
+justi<lb break="no" ed="Bd" n="17"/>tiam : et illi concedunt primam partem
+<lb ed="Bd" n="18"/>objectionum : et istam opinionem tenent
+<lb ed="Bd" n="19"/>Theologi.
+</p>
+            <p xml:id="alalal-f44591-d1e357">
+               <lb ed="Bd" n="20"/>Ad id autem quod contra objicitur, 
+di<lb break="no" ed="Bd" n="21"/>cunt quod juramentum non est votum,
+<lb ed="Bd" n="22"/>sed polius promissio exterior confirmata
+<lb ed="Bd" n="23"/>per invocationem divine veritatis, etideo
+<lb ed="Bd" n="24"/>propter reverentiam divine veritatis 
+obli<lb break="no" ed="Bd" n="25"/>gat : votum autem consistit principaliter
+<lb ed="Bd" n="26"/>in voluntatis libertate interiori.
+</p>
+            <p xml:id="alalal-f44591-d1e376">
+               <lb ed="Bd" n="27"/>Ad aliud dicendum, quod non omuino
+<lb ed="Bd" n="28"/>est involuntarium juramentum, sed 
+invo<lb break="no" ed="Bd" n="29"/>luntarium simpliciter, voluntarium autem
+<lb ed="Bd" n="30"/>secundum quid, scilicet ne deteriora 
+patia<lb break="no" ed="Bd" n="31"/>tur: sicut etiam dicit ibidem Philosophus
+<lb ed="Bd" n="32"/>de involuntario simpliciter, et 
+involun<lb break="no" ed="Bd" n="33"/>tario secundum quid. Hlud autem quod
+<lb ed="Bd" n="34"/>secundum quid est involuntarium, non
+<lb ed="Bd" n="35"/>excusat a toto, sed id quod est involun-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="36"/>tarium simpliciter, sicut tractus per 
+ma<lb break="no" ed="Bd" n="37"/>num, quia trahit per manum quod 
+domi<lb break="no" ed="Bd" n="38"/>natur manui, uUlud involuntarium est,
+<lb ed="Bd" n="39"/>cujus causa factiva et principium est in
+<lb ed="Bd" n="40"/>alio, nihil conferente, id est, cooperante
+<lb ed="Bd" n="41"/>vim passo, id est, eo qui vim patitur.
+<lb ed="Bd" n="42"/>Ad aliud dicendum, quod Pretor 
+lo<lb break="no" ed="Bd" n="43"/>quitur dejudicio suo quoad forum civile:
+<lb ed="Bd" n="44"/>quia tyrannus non potest agere in sic sibi
+<lb ed="Bd" n="45"/>promissum, imo puniretur a Pretore.
+</p>
+            <p xml:id="alalal-f44591-d1e422">
+               <lb ed="Bd" n="46"/>Ad stiup dicendum, quod nulla causa Adopa
+<lb ed="Bd" n="47"/>metus ferens peccatum, cadit in 
+constan<lb break="no" ed="Bd" n="48"/>tem virum : quia aliter falsum esset
+<lb ed="Bd" n="49"/>quod dicitur : <quote xml:id="alalal-f44591-Qd1e432">Ne terreamini ab his qui
+<lb ed="Bd" n="50"/>occidunt corpus, et post hoc non habent
+<lb ed="Bd" n="51"/>anplius quid faciant</quote>: sed quoad 
+fa<lb break="no" ed="Bd" n="52"/>cta humana.
+</p>
+            <p xml:id="alalal-f44591-d1e443">
+               <lb ed="Bd" n="53"/>Ad aliud dicendum, quod competit ei
+<lb ed="Bd" n="54"/>actio post promissionem : et si hoc 
+abju<lb break="no" ed="Bd" n="55"/>rat, competit ei denuntiare principi vel
+<lb ed="Bd" n="56"/>Ecclesiae : et ille peccat mortaliter si non
+<lb ed="Bd" n="57"/>compellit illum ad restituendum : nec
+<lb ed="Bd" n="58"/>potest abjurare, quia hoc vergit in 
+dete<lb break="no" ed="Bd" n="59"/>riorem exitum, id est, status reipublice
+<lb ed="Bd" n="60"/>et juris corruptionem : et ideo ibi 
+sta<lb break="no" ed="Bd" n="61"/>tur.
+</p>
+            <p xml:id="alalal-f44591-d1e465">
+               <lb ed="Bd" n="62"/>Ad aliud dicendum, quod juramentum doled
+<lb ed="Bd" n="63"/>coactum obligat: sed non matrimonium,
+<lb ed="Bd" n="64"/>quia matrimonium non tantum quaerit
+<lb ed="Bd" n="65"/>consensum, sed etiam liberum arbitrium.
+<lb ed="Bd" n="66"/>Hoc autem patet ex hoc, quia si venit
+<lb ed="Bd" n="67"/>contra juramentum contrahendo cum alia,
+<lb ed="Bd" n="68"/>stat sequens matrimonium, et injungitur
+<lb ed="Bd" n="69"/>el peenitentia pro perjurio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

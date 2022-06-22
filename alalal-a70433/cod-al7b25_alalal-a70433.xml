@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="354"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a70433"><!-- l1d12dt1 -->
+            <head xml:id="alalal-a70433-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a70433-d1e101">
+               <pb ed="#Ba" n="354"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-a70433-d1e110">
+               <lb ed="#Ba" n="2"/>
+               <quote xml:id="alalal-a70433-Qd1e114"> Item quaeritur, Cum Spiritus 
+san<lb break="no" ed="#Ba" n="3"/>ctus a Patre procedat et a Filo, etc. </quote>
+            </p>
+            <p xml:id="alalal-a70433-d1e120">
+               <lb ed="#Ba" n="4"/>Hic incipit pars illa in qua probat 
+Ma<lb break="no" ed="#Ba" n="5"/>gister, quod non prius et plenius ab uno
+<lb ed="#Ba" n="6"/>procedit quai ab alio.
+</p>
+            <p xml:id="alalal-a70433-d1e129">
+               <lb ed="#Ba" n="7"/>Et dividitur in partes duas : in quarum
+<lb ed="#Ba" n="8"/>prima ostendit, quod non prius a Patre
+<lb ed="#Ba" n="9"/>quam a Filio procedit. In secunda autem
+<lb ed="#Ba" n="10"/>probat, quod non plenius vel principalius
+<lb ed="#Ba" n="11"/>procedit ab uno quam ab alio, et solvit
+<lb ed="#Ba" n="12"/>auctorilates quae videntur esse contra
+<lb ed="#Ba" n="13"/>hoc, ibi, C, <quote xml:id="alalal-a70433-Qd1e146"> Nunc tractandum est quod
+<lb ed="#Ba" n="14"/>secundo querebatur. </quote>
+            </p>
+            <p xml:id="alalal-a70433-d1e153">
+               <lb ed="#Ba" n="15"/>In prima parte sunt duo, scilicet 
+obje<lb break="no" ed="#Ba" n="16"/>ctio, et solutio quae incipit ibi, B, <quote xml:id="alalal-a70433-Qd1e159"> 
+His<lb break="no" ed="#Ba" n="17"/>et hujusmodi questionibus magis 
+labo<lb break="no" ed="#Ba" n="18"/>riosis quam fructuasis. </quote>
+            </p>
+            <p xml:id="alalal-a70433-d1e167">
+               <lb ed="#Ba" n="19"/>Ex hoc patet sententia primi capituli.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

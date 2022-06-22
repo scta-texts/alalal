@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="196"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e38099"><!-- l3d10a6 -->
+            <head xml:id="alalal-e38099-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-e38099-Hd1e101" type="question-title">An concedendum sit, quod Filius Dei
+praedestinatus est esse homo ?</head>
+            <p xml:id="alalal-e38099-d1e104">
+               <lb ed="Bd" n="52"/>ARTICULUS VI.
+<lb ed="Bd" n="53"/>An concedendum sit, quod Filius Dei
+<lb ed="Bd" n="54"/>praedestinatus est esse homo ?
+</p>
+            <p xml:id="alalal-e38099-d1e113">
+               <lb ed="Bd" n="55"/>Tertio quaeritur, Utrum concedendum,
+<lb ed="Bd" n="56"/>quod Filius Dei est predestinatus esse
+<lb ed="Bd" n="57"/>homo ?
+</p>
+            <p xml:id="alalal-e38099-d1e122">
+               <lb ed="Bd" n="58"/>Videtur quod non : quia
+<lb ed="Bd" n="59"/>1. Predestinatio virtute prapositionis
+<lb ed="Bd" n="60"/>pre notat ordinem antecessionis respectu
+<lb ed="Bd" n="61"/>predestinati :siigitur Filius Dei sit 
+pre<lb break="no" ed="Bd" n="62"/>destinatus, oporteret quod aliquid prius
+<lb ed="Bd" n="63"/>esset Filio Dei, quod falsum est.
+</p>
+            <p xml:id="alalal-e38099-d1e139">
+               <lb ed="Bd" n="64"/>2. Item, Nihil predestinatur nisi ad
+<lb ed="Bd" n="65"/>gratiam, vel ad gloriam, vel ad alterum
+<lb ed="Bd" n="66"/>illorum : Filio autem Dei nulla gratia
+<lb ed="Bd" n="67"/>preparatur : non enim fit et gratia per
+<lb ed="Bd" n="68"/>unionem ad hominem, sed potius e
+<lb ed="Bd" n="69"/>converso: ergo videtur, quod Filius Dei
+<lb ed="Bd" n="70"/>non sit predestinatus esse homo in 
+tem<lb break="no" ed="Bd" n="71"/>pore.
+</p>
+            <p xml:id="alalal-e38099-d1e159">
+               <lb ed="Bd" n="72"/>SED CONTRA :
+<lb ed="Bd" n="73"/>1. In Lzttera supra habitum est, quod
+<lb ed="Bd" n="74"/>predestinatum est quod Filius Dei esset
+<lb ed="Bd" n="75"/>homo in tempore: ergo videlur, quod
+<lb ed="Bd" n="76"/>Filius Dei preedestinatus est esse homo.
+</p>
+            <p xml:id="alalal-e38099-d1e172">
+               <lb ed="Bd" n="77"/>2. Praeterea, Filius Dei est homo : aut
+<lb ed="Bd" n="78"/>ergo hoc ab aeterno est verym, aut non.
+<lb ed="Bd" n="79"/>Sisic: ergo ab aeterno verum est quod
+<lb ed="Bd" n="80"/>Filius Dei sit homo, quod falsum est. Si
+<lb ed="Bd" n="81"/>in tempore est verificatum : ergo ante
+<lb ed="Bd" n="82"/>fuit previsum ut fieret : aut ergo ut 
+fie<lb break="no" ed="Bd" n="83"/>ret per gratiam, aut per naturam. Non
+<lb ed="Bd" n="84"/>per naturam : ergo per gratiam : sed 
+nul<lb break="no" ed="Bd" n="85"/>la gratia datur in tempore, quae ante non
+<lb ed="Bd" n="86"/>preparetur : ergo previsum est et 
+pre<lb break="no" ed="Bd" n="87"/>paratum per gratiam ut Filius Dei sit 
+ho<lb break="no" ed="Bd" n="88"/>mo iste preedestinatus : ergo ante 
+incar<lb break="no" ed="Bd" n="89"/>nationem Filius Dei predestinatus est 
+es<lb break="no" ed="Bd" n="90"/>se homo.
+</p>
+            <p xml:id="alalal-e38099-d1e205">
+               <pb ed="#Bd" n="197"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Solutio Dicendum, quod haec est 
+du<lb break="no" ed="Bd" n="2"/>plex, Filius Dei predestinatus est esse
+<lb ed="Bd" n="3"/>hemo, ex eo quod ly predestinatus 
+pot<lb break="no" ed="Bd" n="4"/>est determinare compositionem ex parte
+<lb ed="Bd" n="5"/>subjecti, vel ex parte pradicati. Si 
+deter<lb break="no" ed="Bd" n="6"/>minat eam ex parte preedicati, vera est :
+<lb ed="Bd" n="7"/>quia Filium Dei esse hominem 
+pradesti<lb break="no" ed="Bd" n="8"/>natum est. Si autem determinat ex parte
+<lb ed="Bd" n="9"/>subjecti, sic notabit antecessionem ad 
+sub<lb break="no" ed="Bd" n="10"/>jectum, et sic falsa est. Quidam tamen
+<lb ed="Bd" n="11"/>dicunt, quod alia de causa est duplex,
+<lb ed="Bd" n="12"/>scilicet ex eo quod ly predestinatus 
+pot<lb break="no" ed="Bd" n="13"/>est esse nomen, vel participium : et si
+<lb ed="Bd" n="14"/>sil nomen, dicunt quod est adjectivum
+<lb ed="Bd" n="15"/>hujus quod dico, homo : et si sit 
+parti<lb break="no" ed="Bd" n="16"/>cipium, tune dicunt eam esse falsam. Sed
+<lb ed="Bd" n="17"/>hoc nihil est: quia si sit nomen, tune
+<lb ed="Bd" n="18"/>nihil est dictum, quod Filius Dei 
+prede<lb break="no" ed="Bd" n="19"/>stinatus est esse homo: sicut nihil est
+<lb ed="Bd" n="20"/>dictum, Filius Dei est esse homo, quin
+<lb ed="Bd" n="21"/>incongrua est locutio: unde prima 
+di<lb break="no" ed="Bd" n="22"/>stinctio melior est.
+</p>
+            <p xml:id="alalal-e38099-d1e260">
+               <lb ed="Bd" n="23"/>Ad id ergo quod objicitur contra, 
+di<lb break="no" ed="Bd" n="24"/>cendum quod sily predestinatus 
+deter<lb break="no" ed="Bd" n="25"/>minet compositionem ante et post, tunc
+<lb ed="Bd" n="26"/>notabit antecessionem non respectu Filii
+<lb ed="Bd" n="27"/>Dei secundum se, sed potius respectu 
+ho<lb break="no" ed="Bd" n="28"/>minis esse.
+</p>
+            <p xml:id="alalal-e38099-d1e276">
+               <lb ed="Bd" n="29"/>Et per hoc patet etiam solutio ad 
+se<lb break="no" ed="Bd" n="30"/>cundum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

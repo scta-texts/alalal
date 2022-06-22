@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="197"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e38286"><!-- l3d10a7 -->
+            <head xml:id="alalal-e38286-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-e38286-Hd1e101" type="question-title">An Christus sit praedestinatus ut sit hic
+homo ?</head>
+            <p xml:id="alalal-e38286-d1e104">
+               <lb ed="Bd" n="31"/>ARTICULUS VII.
+<lb ed="Bd" n="32"/>An Christus sit praedestinatus ut sit hic
+<lb ed="Bd" n="33"/>homo ?
+</p>
+            <p xml:id="alalal-e38286-d1e113">
+               <lb ed="Bd" n="34"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="Bd" n="35"/>
+               <quote xml:id="alalal-e38286-Qd1e119"> Christus secundum quod homo 
+prede<lb break="no" ed="Bd" n="36"/>stinatus est ut sit Dei Filius, etc. </quote>
+            </p>
+            <p xml:id="alalal-e38286-d1e125">
+               <lb ed="Bd" n="37"/>Per hoc enim haec videtur a Magistro
+<lb ed="Bd" n="38"/>concedi, hic homo vel Christus ens homo
+<lb ed="Bd" n="39"/>predestinatus est ut sit Filius Dei: et
+<lb ed="Bd" n="40"/>videtur haec falsa esse, hic homo vel 
+ho<lb break="no" ed="Bd" n="41"/>mo predestinatus est ut sit Filius Dei :
+<lb ed="Bd" n="42"/>nihil enim predestinatum quod non ab
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="43"/>aeterno sit predestinatum : si ergo hac
+<lb ed="Bd" n="44"/>est vera, Christus secundum hominem
+<lb ed="Bd" n="45"/>vel humanam naturam est predestinatus,
+<lb ed="Bd" n="46"/>videtur quod ante incarnationem fuit 
+ve<lb break="no" ed="Bd" n="47"/>ra: sicut etiam haec vera dicitur esse,
+<lb ed="Bd" n="48"/>Petrus ab aeterno pradestinatus est vel
+<lb ed="Bd" n="49"/>fuit predestinatus.
+</p>
+            <p xml:id="alalal-e38286-d1e159">
+               <lb ed="Bd" n="50"/>SED CONTRA :
+<lb ed="Bd" n="51"/>Cum dicitur, Hic homo ante incarna~
+<lb ed="Bd" n="52"/>tionem est predestinatus, hic homo 
+sup<lb break="no" ed="Bd" n="53"/>ponit eo quod supplet vicem verbi 
+pre<lb break="no" ed="Bd" n="54"/>teriti temporis, sicut cum dicitur, Hic
+<lb ed="Bd" n="55"/>homo est amatus. Regula autem est,
+<lb ed="Bd" n="56"/>quod terminus supponens verbo 
+praeteri<lb break="no" ed="Bd" n="57"/>ti temporis, supponit pro presenti vel
+<lb ed="Bd" n="58"/>pro praeterito si debeat locutio esse vera.
+<lb ed="Bd" n="59"/>Sequitur enim, Hic est amatus, vel homo
+<lb ed="Bd" n="60"/>est amatus: ergo homo qui est vel fuit,
+<lb ed="Bd" n="61"/>est amatus : ergo a simili, si Christus est
+<lb ed="Bd" n="62"/>predestinatus, videtur quod aut homo
+<lb ed="Bd" n="63"/>qui est, aut qui fuit: et cum pro utroque
+<lb ed="Bd" n="64"/>falsa sit, videtur locutio simpliciter esse
+<lb ed="Bd" n="65"/>falsa. Et hac objectio gencralis est de
+<lb ed="Bd" n="66"/>omnibus predestinatis.
+</p>
+            <p xml:id="alalal-e38286-d1e198">
+               <lb ed="Bd" n="67"/>Solutio Dicendum, quod hoc non 
+se<lb break="no" ed="Bd" n="68"/>quitur cum verbis pertinentibus ad actum
+<lb ed="Bd" n="69"/>anime, vel notantibus formam: quia
+<lb ed="Bd" n="70"/>illa habent vim ampliandi : non enim 
+se<lb break="no" ed="Bd" n="71"/>quitur, cogitatum est de homine: ergo de
+<lb ed="Bd" n="72"/>homine qui est, vel qui fuit : nec 
+sequi<lb break="no" ed="Bd" n="73"/>tur, homo potest vel potuit esse: ergo
+<lb ed="Bd" n="74"/>homo qui est, vel qui fuit. Similiter est
+<lb ed="Bd" n="75"/>hoc quod dico, quod predestinatus 
+perti<lb break="no" ed="Bd" n="76"/>netad actum intellectus et voluntatis 
+di<lb break="no" ed="Bd" n="77"/>vine : quia esse préedestinatum est esse
+<lb ed="Bd" n="78"/>previsum adgratiam et gloriam : etideo
+<lb ed="Bd" n="79"/>non sequilur, quod sit de eo qui est vel
+<lb ed="Bd" n="80"/>fuit : sed sufficit ei, quod futurus sit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

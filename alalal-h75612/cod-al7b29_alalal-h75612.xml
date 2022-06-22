@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 13</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 13</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="817"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h75612"><!-- l4d19a13 -->
+            <head xml:id="alalal-h75612-Hd1e99">Articulus 13</head>
+            <p xml:id="alalal-h75612-d1e101">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="22"/>ARTICULUS XIII.
+  <lb ed="#Be" n="23"/>An boni et mali eque recte et digne
+  <lb ed="#Be" n="24"/>habent potestatem clavium ? 
+</p>
+            <p xml:id="alalal-h75612-d1e112">
+               <lb ed="#Be" n="25"/>Deinde, queritur de hoc quod dicit, 
+  <lb ed="#Be" n="26"/>ibi, C, post initium: <quote xml:id="alalal-h75612-Qd1e118"> Sed non eam, 
+  <lb ed="#Be" n="27"/>scilicet clavem ligandi et solvendi, recte
+  <lb ed="#Be" n="28"/>ac digne habent, etc.</quote> .
+</p>
+            <p xml:id="alalal-h75612-d1e126">
+               <lb ed="#Be" n="29"/>ConTRA :
+  <lb ed="#Be" n="30"/>Omnis qui utitur potestate ad usum ad
+  <lb ed="#Be" n="31"/>quem est usus, recte habet potestatem :
+</p>
+            <p xml:id="alalal-h75612-d1e135">
+               <cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="32"/>sed isti sic utuntur potestate: ergo 
+ha<lb break="no" ed="#Be" n="33"/>bent eam recte : sed tales recte baptizant,
+<lb ed="#Be" n="34"/>et recte absolvunt : ergo, etc.
+</p>
+            <p xml:id="alalal-h75612-d1e147">
+               <lb ed="#Be" n="35"/>Responsio. Duplex est rectitudo 
+pote<lb break="no" ed="#Be" n="36"/>statis, scilicet ad actum et ad subjectum :
+<lb ed="#Be" n="37"/>et ad actum quidam recte se habent, sed
+<lb ed="#Be" n="38"/>non recte ad subjectum.
+</p>
+            <p xml:id="alalal-h75612-d1e158">
+               <lb ed="#Be" n="39"/>Per hoc patet solutio ad utrumque :
+<lb ed="#Be" n="40"/>quia in sensu illo procedunt, quo 
+recti<lb break="no" ed="#Be" n="41"/>tudo sumitur ad actum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

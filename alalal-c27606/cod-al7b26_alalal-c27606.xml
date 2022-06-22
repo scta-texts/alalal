@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="147"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c27606"><!-- l1d33dt2 -->
+            <head xml:id="alalal-c27606-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-c27606-d1e101">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="9"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-c27606-d1e108">
+               <lb ed="#Bb" n="10"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bb" n="11"/>D, <quote xml:id="alalal-c27606-Qd1e114"> Extrinsecus affixe sunt : atque ita
+<lb ed="#Bb" n="12"/>esse rationibus probare, etc. </quote>
+               <lb ed="#Bb" n="13"/>Hic enim ponuntur quatuor rationes
+<lb ed="#Bb" n="14"/>hereticorum, ut Magister dicit : quarum
+<lb ed="#Bb" n="15"/>duae ponuntur in isto capitulo, et in 
+se<lb break="no" ed="#Bb" n="16"/>quenti capitulo ponitur responsio. Tertia
+<lb ed="#Bb" n="17"/>autem ponitur in illo capitulo, ibi, F,
+<lb ed="#Bb" n="18"/>
+               <quote xml:id="alalal-c27606-Qd1e132">Ceterum hereticorum, etc.</quote> et 
+respon<lb break="no" ed="#Bb" n="19"/>detur eiin illo, ibi, G, <quote xml:id="alalal-c27606-Qd1e137"> Quorum audaciae
+<lb ed="#Bb" n="20"/>resistentes, etc. </quote> Quarta ponitur in illo,
+<lb ed="#Bb" n="21"/>ibi, H, <quote xml:id="alalal-c27606-Qd1e144"> Sed forte queras, Cum he
+<lb ed="#Bb" n="22"/>proprietates, etc. </quote> Et in eodem ponitur
+<lb ed="#Bb" n="23"/>responsio. Postea, his quatuor 
+aucto<lb break="no" ed="#Bb" n="24"/>ritatem adhibent, ibi, I, <quote xml:id="alalal-c27606-Qd1e153"> Verwmtamen
+<lb ed="#Bb" n="25"/>nondum desistunt, etc. </quote> Et ponitur 
+re<lb break="no" ed="#Bb" n="26"/>Sponsio, ibi, sub finem ejusdem capitis :
+<lb ed="#Bb" n="27"/>
+               <quote xml:id="alalal-c27606-Qd1e163"> Nos autem aliter ista intelligenda, etc.</quote>
+            </p>
+            <p xml:id="alalal-c27606-d1e166">
+               <lb ed="#Bb" n="28"/>Et in hoc est finis istius distinctionis. °
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

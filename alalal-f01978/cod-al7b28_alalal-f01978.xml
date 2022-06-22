@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="524"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f01978"><!-- l3d27a5 -->
+            <head xml:id="alalal-f01978-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-f01978-Hd1e101" type="question-title">An sit unus et idem habitus, quo 
+diligitur Deus et proximus ?</head>
+            <p xml:id="alalal-f01978-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="4"/>ARTICULUS V.
+<lb ed="Bd" n="5"/>An sit unus et idem habitus, quo 
+diligi<lb break="no" ed="Bd" n="6"/>tur Deus et proximus ?
+</p>
+            <p xml:id="alalal-f01978-d1e115">
+               <lb ed="Bd" n="7"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="8"/>ibi, C, <quote xml:id="alalal-f01978-Qd1e121"> Mie quaeritur, Si ex ea ipsa 
+di<lb break="no" ed="Bd" n="9"/>lectione diligitur Deus, qua diligitur
+<lb ed="Bd" n="10"/>prozimus, ete. </quote>
+            </p>
+            <p xml:id="alalal-f01978-d1e129">
+               <lb ed="Bd" n="11"/>Videtur enim, quod sunt duo habitus,
+<lb ed="Bd" n="12"/>et due virtutes diligendi Deum, et 
+dili<lb break="no" ed="Bd" n="13"/>gendi proximum.
+</p>
+            <p xml:id="alalal-f01978-d1e139">
+               <lb ed="Bd" n="14"/>1. Sunt enim in cognitivis diversa 
+do<lb break="no" ed="Bd" n="15"/>na Spiritus sancti, sapientia, et scientia :
+<lb ed="Bd" n="16"/>eo quod una est de wternis, scilicet 
+sa<lb break="no" ed="Bd" n="17"/>pientia : et altera de temporalibus, 
+seili<lb break="no" ed="Bd" n="18"/>cel scientia : ergo cum affectus hic etiam
+<lb ed="Bd" n="19"/>dividatur, ut in charitate Dei sit de 
+aeter<lb break="no" ed="Bd" n="20"/>no tantum, et in charitate proximi de
+<lb ed="Bd" n="21"/>temporali tantum, videtur quod sint due
+<lb ed="Bd" n="22"/>virtutes ad hoc moventes.
+</p>
+            <p xml:id="alalal-f01978-d1e161">
+               <lb ed="Bd" n="23"/>2. Item, Nihil est commune 
+tempora<lb break="no" ed="Bd" n="24"/>hbus et e#ternis : ergo non est una ratio
+<lb ed="Bd" n="25"/>movens in Deo et in proximo: ergo nec
+<lb ed="Bd" n="26"/>idem habitus ad dihgendum utrumque.
+</p>
+            <p xml:id="alalal-f01978-d1e172">
+               <lb ed="Bd" n="27"/>3. Hem, Bonum Dei non est bonum
+<lb ed="Bd" n="28"/>hominis, quoniam non est una ratio 
+bo<lb break="no" ed="Bd" n="29"/>niin omnibus bonis, ut probat 
+Philoso<lb break="no" ed="Bd" n="30"/>phus in I £thicorum : ergo habitus etiam
+<lb ed="Bd" n="31"/>respiciens bonum hoc et illud, non erit
+<lb ed="Bd" n="32"/>unus.
+</p>
+            <p xml:id="alalal-f01978-d1e188">
+               <lb ed="Bd" n="33"/>4. Item, Licet fides explicetur in 
+qui<lb break="no" ed="Bd" n="34"/>busdam articulis per temporalia, tamen
+<lb ed="Bd" n="35"/>non inmititur nisi prime veritati : spes
+<lb ed="Bd" n="36"/>etiam non est nisi de aeternis : ergo 
+vi<lb break="no" ed="Bd" n="37"/>detur, quod etiam charitas est unus 
+ha<lb break="no" ed="Bd" n="38"/>bitus condividens virtutem theologicam,
+<lb ed="Bd" n="39"/>cum illa non sit nisi de Deo, et alius est
+<lb ed="Bd" n="40"/>habitus de diligendo proximo.
+</p>
+            <p xml:id="alalal-f01978-d1e208">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="41"/>5. Item, Voluntates differunt 
+secun<lb break="no" ed="Bd" n="42"/>dum volita : cum ergo charitas sit 
+vo<lb break="no" ed="Bd" n="43"/>luntas quaedam habilitate habitus 
+pra<lb break="no" ed="Bd" n="44"/>parata, ipsa secundum volita distingue~
+<lb ed="Bd" n="45"/>tur :non autem idem volitum est in
+<lb ed="Bd" n="46"/>dilectione Dei et proximi : ergo non est
+<lb ed="Bd" n="47"/>eadem charitas habitus.
+</p>
+            <p xml:id="alalal-f01978-d1e228">
+               <lb ed="Bd" n="48"/>6. Si forte dicas, quod finis est unus
+<lb ed="Bd" n="49"/>in utraque dilectione. Conrra +: Quia
+<lb ed="Bd" n="50"/>omnium virtutum est ultimus finis unus :
+<lb ed="Bd" n="51"/>ergo secundum hoc omnes virtutes essent
+<lb ed="Bd" n="52"/>virtus una.
+</p>
+            <p xml:id="alalal-f01978-d1e242">
+               <lb ed="Bd" n="53"/>SED CONTRA
+<lb ed="Bd" n="54"/>1. Non sunt nisi tres virtutes 
+theologi<lb break="no" ed="Bd" n="55"/>cx : cum igitur dilectio proximi non
+<lb ed="Bd" n="56"/>reducatur ad aliquam virtutum 
+cardina<lb break="no" ed="Bd" n="57"/>lium, oportet quod sit charitatis, quae
+<lb ed="Bd" n="58"/>est virtus theologica una.
+</p>
+            <p xml:id="alalal-f01978-d1e258">
+               <lb ed="Bd" n="59"/>2. Item, Dicit Philosophus in II 
+Topi<lb break="no" ed="Bd" n="60"/>corum, quod una scientia est plurium,
+<lb ed="Bd" n="61"/>velut amborum finium : unius quod est
+<lb ed="Bd" n="62"/>finis, alterius tamquam ejus quod est ad
+<lb ed="Bd" n="63"/>finem : ergo et una virtus potest hoc
+<lb ed="Bd" n="64"/>modo esse plurium, ut Deus sit finis 
+di<lb break="no" ed="Bd" n="65"/>lectionis, et proximus ut ad finem illum
+<lb ed="Bd" n="66"/>dilectus.
+</p>
+            <p xml:id="alalal-f01978-d1e278">
+               <lb ed="Bd" n="67"/>3. Hem, Augustinus dicit in Litera
+<lb ed="Bd" n="68"/>hic, quod <quote xml:id="alalal-f01978-Qd1e284"> in proximo nihil diligitur
+<lb ed="Bd" n="69"/>nisi Deus :</quote> ergo dilectione Dei et 
+dile<lb break="no" ed="Bd" n="70"/>ctione proximi idem est dilectum : ergo
+<lb ed="Bd" n="71"/>est charitas.
+</p>
+            <p xml:id="alalal-f01978-d1e294">
+               <lb ed="Bd" n="72"/>Solutio Dicendum, quod unus solus
+<lb ed="Bd" n="73"/>habitus est quo diligitur Deus et 
+proxi<lb break="no" ed="Bd" n="74"/>mus, et omnia que ad charitatem ut
+<lb ed="Bd" n="75"/>diligenda ex charitate referuntur : sicut
+<lb ed="Bd" n="76"/>bene ostendunt ullime rationes, et 
+pre<lb break="no" ed="Bd" n="77"/>cipue auctoritas Augustini.
+</p>
+            <p xml:id="alalal-f01978-d1e310">
+               <lb ed="Bd" n="78"/>Ad primum autem dicendum, quod in
+<lb ed="Bd" n="79"/>sapientia et scientia non est simile : quia
+<lb ed="Bd" n="80"/>non est ejusdem rationis movens in 
+utro<lb break="no" ed="Bd" n="81"/>que habitu : ratio enim aeterni ut est
+<lb ed="Bd" n="82"/>aeternum, et ratio temporalis ut est tem-
+<pb ed="#Bd" n="525"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>porale, movent in habitu sapientiae et
+<lb ed="Bd" n="2"/>scientias : et hoc non est hic : quia in
+<lb ed="Bd" n="3"/>proximo movet bonum increatum, 
+relu<lb break="no" ed="Bd" n="4"/>cens in eo, ex hoc quod capax est illius
+<lb ed="Bd" n="5"/>boni per actum beatitudinis : nulla enim
+<lb ed="Bd" n="6"/>(at infra dicit Magister) ex charitate 
+pro<lb break="no" ed="Bd" n="7"/>rie diliguntur, nisi quae nobiscum sunt
+<lb ed="Bd" n="8"/>ordinata ad eamdem beatitudinem 
+parti<lb break="no" ed="Bd" n="9"/>cipandam, quam nos.
+</p>
+            <p xml:id="alalal-f01978-d1e347">
+               <lb ed="Bd" n="10"/>Ad aliud dicendum, quod in utroque
+<lb ed="Bd" n="11"/>est bonum increatum : sed in charitate
+<lb ed="Bd" n="12"/>Dei ut inse, in charitate autem proximi
+<lb ed="Bd" n="13"/>ut m alio relucens est. Ratio autem illa
+<lb ed="Bd" n="14"/>procedit, ac siin dilectione proximi 
+bo<lb break="no" ed="Bd" n="15"/>num creatum moveat ad diligendum.
+</p>
+            <p xml:id="alalal-f01978-d1e364">
+               <lb ed="Bd" n="16"/>Ad aliud dicendum, quod hoc falsum
+<lb ed="Bd" n="17"/>est : imo nthil est totum bonum 
+homi<lb break="no" ed="Bd" n="18"/>nis, nisi ipse Deus, ut dicit Augustinus.
+</p>
+            <p xml:id="alalal-f01978-d1e373">
+               <lb ed="Bd" n="19"/>Ad aliud patet solutio per dicta :
+<lb ed="Bd" n="20"/>quia sicut veritas divina in quibusdam
+<lb ed="Bd" n="21"/>articulis relucet in temporalibus, ita 
+bo<lb break="no" ed="Bd" n="22"/>num divinum in bony proximi.
+</p>
+            <p xml:id="alalal-f01978-d1e384">
+               <lb ed="Bd" n="23"/>Ad aliud dicendum, quod voluntates
+<lb ed="Bd" n="24"/>differant penes volita, non per materiam
+<lb ed="Bd" n="25"/>tantum, sed per speciem differentia. Et
+<lb ed="Bd" n="26"/>hoc non est hic. Unde illa objectio non
+<lb ed="Bd" n="27"/>concludit.
+</p>
+            <p xml:id="alalal-f01978-d1e397">
+               <lb ed="Bd" n="28"/>Ad id quod contra solutionem 
+objici<lb break="no" ed="Bd" n="29"/>tur, dicendum quod hoc bene verum
+<lb ed="Bd" n="30"/>est, quod virtutes differunt secundum
+<lb ed="Bd" n="31"/>fines proximos, qui sunt rationes acluum
+<lb ed="Bd" n="32"/>in suis materiis et suis objectis : sed in
+<lb ed="Bd" n="33"/>charitate idem est finis proximus ot 
+ulti<lb break="no" ed="Bd" n="34"/>mus omnium, scilicet summa bonitas :
+<lb ed="Bd" n="35"/>et ideo in co ratio actus est et finis :
+<lb ed="Bd" n="36"/>bonitas enim movet dilectionem, et 
+ea<lb break="no" ed="Bd" n="37"/>dem est finis omnium operationum et
+<lb ed="Bd" n="38"/>virtutum : quia omnia quae facimus,
+<lb ed="Bd" n="39"/>ideo facimus, ut bonitate perfruamur, ut
+<lb ed="Bd" n="40"/>dicit Augustinus, et ponitur in libro
+<lb ed="Bd" n="41"/>1 Sententiarum', ubi ostenditur, quod
+<lb ed="Bd" n="42"/>aliter homo utitur homine diligendo, et
+<lb ed="Bd" n="43"/>aliier Deus homine : et ideo non est
+<lb ed="Bd" n="44"/>simile de aliis virtutibus et de dilectione
+<lb ed="Bd" n="45"/>Dei et proximi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

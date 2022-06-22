@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="87"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e17373"><!-- l3d4a7 -->
+            <head xml:id="alalal-e17373-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-e17373-Hd1e101" type="question-title">An aliqui possunt dici filii gehennae?</head>
+            <p xml:id="alalal-e17373-d1e104">
+               <lb ed="Bd" n="30"/>ARTICULUS VII.
+<lb ed="Bd" n="31"/>An aliqui possunt dici filii gehennae?
+</p>
+            <p xml:id="alalal-e17373-d1e111">
+               <lb ed="Bd" n="32"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="33"/>ibi, B, § 3: <quote xml:id="alalal-e17373-Qd1e117"> Filit gehenne, non ex
+<lb ed="Bd" n="34"/>illa nati, sed in tllam preparati. </quote>
+            </p>
+            <p xml:id="alalal-e17373-d1e123">
+               <lb ed="Bd" n="35"/>Ex hoc enim quod aliquid comparatur
+<lb ed="Bd" n="36"/>ad aliquid post suum esse, non potest
+<lb ed="Bd" n="37"/>habere rationem filiationis ad illud : cum
+<lb ed="Bd" n="38"/>ergo ad gehennam nemo comparatur nisi
+<lb ed="Bd" n="39"/>ex post facto, quod sequitur esse : 
+vide<lb break="no" ed="Bd" n="40"/>tur quod non debeant dici flit gehenne.
+</p>
+            <p xml:id="alalal-e17373-d1e140">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="41"/>Solutio Filius claudit in se tria, 
+scili<lb break="no" ed="Bd" n="42"/>cet de substantia natum esse parentis, et
+<lb ed="Bd" n="43"/>disciplinam habere parentum, sicut dicit
+<lb ed="Bd" n="44"/>Apostolus, ad Hebr. xu, 8: Quod si extra
+<lb ed="Bd" n="45"/>disciplinam estis, cujus participes 
+fa<lb break="no" ed="Bd" n="46"/>elt sunt omnes, ergo adulteri, et non filit
+<lb ed="Bd" n="47"/>estis. ‘Tertium est jus haereditatis 
+pater<lb break="no" ed="Bd" n="48"/>ne. Et primum quidem filii gehenne
+<lb ed="Bd" n="49"/>non habent a gehenna : et hoc est quia
+<lb ed="Bd" n="50"/>hoc solum consequitur nativitas : ideo
+<lb ed="Bd" n="51"/>non sunt a gehenna nati : sed medio sunt
+<lb ed="Bd" n="52"/>preparati in illam gehennalibus actibus :
+<lb ed="Bd" n="53"/>et terttum cum possidebunt gehennam,
+<lb ed="Bd" n="54"/>quia per actus habebunt eam jure 
+here<lb break="no" ed="Bd" n="55"/>ditario.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

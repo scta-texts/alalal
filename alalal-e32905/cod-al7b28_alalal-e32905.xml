@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="171"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e32905"><!-- l3d9a2 -->
+            <head xml:id="alalal-e32905-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-e32905-Hd1e101" type="question-title">An latria sit virtus ?</head>
+            <p xml:id="alalal-e32905-d1e104">
+               <lb ed="Bd" n="40"/>ARTICULUS II.
+<lb ed="Bd" n="41"/>An latria sit virtus ?
+</p>
+            <p xml:id="alalal-e32905-d1e111">
+               <lb ed="Bd" n="42"/>Secundo quaeritur, An sit virtus ?
+<lb ed="Bd" n="43"/>Et videtur, quod non. Virtus enim est
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="44"/>habitus voluntarius in medietate 
+consi<lb break="no" ed="Bd" n="45"/>stens, quoad nos determinata a ratione,
+<lb ed="Bd" n="46"/>et ut sapiens determinabit. Latria autem
+<lb ed="Bd" n="47"/>non habet hujusmodi medium : quia
+<lb ed="Bd" n="48"/>Deus non potest nimis coli. Ergo latria
+<lb ed="Bd" n="49"/>non est virtus.
+</p>
+            <p xml:id="alalal-e32905-d1e133">
+               <lb ed="Bd" n="50"/>Si dicis, quod est virtus theologica
+<lb ed="Bd" n="51"/>que non habet medium hujusmodi. 
+Con<lb break="no" ed="Bd" n="52"/>TRA : Theologice virtutes non sunt nisi
+<lb ed="Bd" n="53"/>tres: et ideo assignate sunt eis species,
+<lb ed="Bd" n="54"/>sicut aliis : ergo si esset virtus 
+theologi<lb break="no" ed="Bd" n="55"/>ca, esset fides, spes, vel charitas: nulla
+<lb ed="Bd" n="56"/>autem istarum est : ergo non est virtus.
+</p>
+            <p xml:id="alalal-e32905-d1e152">
+               <lb ed="Bd" n="57"/>SED CONTRA :
+<lb ed="Bd" n="58"/>1. Nullus actus est meritorius nisi 
+ac<lb break="no" ed="Bd" n="59"/>tus virtutis : actus latrie est actus 
+meri<lb break="no" ed="Bd" n="60"/>torius, si exhibens latriam sit in gratia:
+<lb ed="Bd" n="61"/>ergo latria est virtus.
+</p>
+            <p xml:id="alalal-e32905-d1e165">
+               <lb ed="Bd" n="62"/>2. Item, Nihil precipitur nisi virtutis
+<lb ed="Bd" n="63"/>opus : actus autem latrie priecipitur,
+<lb ed="Bd" n="64"/>Deuler. vi, 143.: Dominum Deum tuum
+<lb ed="Bd" n="65"/>timebis, et illi soli servies. Ergo latria
+<lb ed="Bd" n="66"/>est virtus.
+</p>
+            <p xml:id="alalal-e32905-d1e178">
+               <lb ed="Bd" n="67"/>3. Item, Circa omne difficile et bonum
+<lb ed="Bd" n="68"/>in voluntate consistens habetur virtus et
+<lb ed="Bd" n="69"/>ars : sed exhibitio cultus in quantum 
+hu<lb break="no" ed="Bd" n="70"/>jusmodi, est difficile quoddam et 
+bo<lb break="no" ed="Bd" n="71"/>num : ergo circa hoc est virtus : et 
+cir<lb break="no" ed="Bd" n="72"/>ca hoc est latria : ergo latria est virtus.
+</p>
+            <p xml:id="alalal-e32905-d1e194">
+               <lb ed="Bd" n="73"/>Solutio Concedendum est, quia latria
+<lb ed="Bd" n="74"/>est virtus, et solvendum ad rationem 
+pri<lb break="no" ed="Bd" n="75"/>mam quae est contra hoc, quod iste 
+habi<lb break="no" ed="Bd" n="76"/>tus est in medietate consistens. Sed 
+ce<lb break="no" ed="Bd" n="77"/>cundum Philosophum non omnes 
+virtu<lb break="no" ed="Bd" n="78"/>tes habent unius rationis medium : non
+<lb ed="Bd" n="79"/>enim habent omnes medium materia
+<lb ed="Bd" n="80"/>virtutis inter multum et parum, ut dicit
+<lb ed="Bd" n="81"/>Aristoteles in V Ethicorum : sed habent
+<lb ed="Bd" n="82"/>quoddam medium, quod est ratio recta :
+<lb ed="Bd" n="83"/>sicut illa quae sunt in ratione, ut 
+pru<lb break="no" ed="Bd" n="84"/>dentia, et justitia cum suis partibus: et
+<lb ed="Bd" n="85"/>hoc est medium ad quod dirigitur opus,
+<lb ed="Bd" n="86"/>et tale medium habet virtus ista. Bene
+<lb ed="Bd" n="87"/>enim concedo, quod Deus nimis non 
+pot<lb break="no" ed="Bd" n="88"/>est coli. Sunt tamen quidam qui dicunt,
+<lb ed="Bd" n="89"/>quod omnis virtus politica habet 
+me<lb break="no" ed="Bd" n="90"/>dium inter multum et parum : et illi 
+di<lb break="no" ed="Bd" n="91"/>cunt, quod Deus nimis potest coli, et
+<pb ed="#Bd" n="172"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>nimis parum. Sed hoc non secundum
+<lb ed="Bd" n="2"/>Philosophum in Ethica nova.
+</p>
+            <p xml:id="alalal-e32905-d1e246">
+               <lb ed="Bd" n="3"/>Ad aliud dicendum, quod bene 
+conce<lb break="no" ed="Bd" n="4"/>do, quod non est theologica virtus, nec
+<lb ed="Bd" n="5"/>aliqua pars alicujus theologice virtutis.
+</p>
+            <p xml:id="alalal-e32905-d1e255">
+               <lb ed="Bd" n="6"/>Tamen etiam argumenta in contrarium
+<lb ed="Bd" n="7"/>adducta, licet verum concludant, et sint
+<lb ed="Bd" n="8"/>Magistrorum, non sunt tamen ex 
+pro<lb break="no" ed="Bd" n="9"/>priis Ethice : quia hoc meo judicio non
+<lb ed="Bd" n="10"/>est verum, quod nullus actus sit 
+merito<lb break="no" ed="Bd" n="11"/>rius, nisi actus virtulis: quia proprie
+<lb ed="Bd" n="12"/>actus virtutis dicitur qui similis est 
+vir<lb break="no" ed="Bd" n="13"/>tuti, et ex hoc generaretur et perficeretur
+<lb ed="Bd" n="14"/>ab assuetudine, sicut aggredi ardua, et
+<lb ed="Bd" n="15"/>subire voluntarie terribilia, sunt 
+fortitu<lb break="no" ed="Bd" n="16"/>dinis : et continere a delectabilibus 
+inna<lb break="no" ed="Bd" n="17"/>lis, et venereis, et gustabilibus est 
+tem<lb break="no" ed="Bd" n="18"/>perantiae : et hujusmodi. Et praeter hoc
+<lb ed="Bd" n="19"/>ire ad Ecclesiam, vel sedere, vel stare,
+<lb ed="Bd" n="20"/>non sunt actus alicujus virtutis : et 
+me<lb break="no" ed="Bd" n="21"/>ritorie possunt fieri. Sed Magistri qui
+<lb ed="Bd" n="22"/>inducunt istam propositionem, accipiunt
+<lb ed="Bd" n="23"/>virtutis aclum generaliter : quia scilicet
+<lb ed="Bd" n="24"/>elicitur ab aliqua virtute, quocumque
+<lb ed="Bd" n="25"/>modo, et precipue a charitate quae est
+<lb ed="Bd" n="26"/>quasi motor universalis in omnibus 
+bo<lb break="no" ed="Bd" n="27"/>nis operibus.
+</p>
+            <p xml:id="alalal-e32905-d1e306">
+               <lb ed="Bd" n="28"/>Eadem dico de illa, quod nihil 
+preci<lb break="no" ed="Bd" n="29"/>pitur nisi virtutis opus, non est vera,
+<lb ed="Bd" n="30"/>nist intelligatur de actu reducibili ad 
+vir<lb break="no" ed="Bd" n="31"/>tutem quocumque modo. Precipiebatur
+<lb ed="Bd" n="32"/>enim Ade, quod non comederet de 
+li<lb break="no" ed="Bd" n="33"/>gno quod erat in paradiso, et non crat
+<lb ed="Bd" n="34"/>secundum se alicujus opus virtutis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="526"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f02495"><!-- l3d27a7 -->
+            <head xml:id="alalal-f02495-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-f02495-Hd1e101" type="question-title">An idem sit motus quo diligitur Deus
+ef proximus ?</head>
+            <p xml:id="alalal-f02495-d1e104">
+               <lb ed="Bd" n="20"/>ARTICULUS VII.
+<lb ed="Bd" n="21"/>An idem sit motus quo diligitur Deus
+<lb ed="Bd" n="22"/>ef proximus ?
+</p>
+            <p xml:id="alalal-f02495-d1e113">
+               <lb ed="Bd" n="23"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="Bd" n="24"/>eodem capitulo C, ibi, sub finem: <quote xml:id="alalal-f02495-Qd1e119"> Vel
+<lb ed="Bd" n="25"/>propter duos motus qui in mente 
+gi<lb break="no" ed="Bd" n="26"/>gnuntur, dum Deus diligitur et 
+proxi<lb break="no" ed="Bd" n="27"/>Mus, EtG. </quote>
+            </p>
+            <p xml:id="alalal-f02495-d1e129">
+               <lb ed="Bd" n="28"/>Videtur enim hoc esse falsum : quia
+<lb ed="Bd" n="29"/>1. Licet sint duo praecepta, tamen
+<lb ed="Bd" n="30"/>unum est inalio : ergo unus motus 
+vide<lb break="no" ed="Bd" n="31"/>tur esse in unum per aliud.
+</p>
+            <p xml:id="alalal-f02495-d1e141">
+               <lb ed="Bd" n="32"/>2. Item, In naturis idem motus est ad
+<lb ed="Bd" n="33"/>medium, et ad extremum proximus
+<lb ed="Bd" n="34"/>autem est medium, et Deus finis 
+dilectio<lb break="no" ed="Bd" n="35"/>nis: ergo idem motus est quo diligo
+<lb ed="Bd" n="36"/>proximum, et diligo Deum.
+</p>
+            <p xml:id="alalal-f02495-d1e154">
+               <lb ed="Bd" n="37"/>3. Item, Augustinus dicit hic, quod
+<lb ed="Bd" n="38"/>
+               <quote xml:id="alalal-f02495-Qd1e160"> in proximo nihil diligitur nisi Deus : </quote>
+               <lb ed="Bd" n="39"/>et hoc idem dicit in multis locis de 
+7ri<lb break="no" ed="Bd" n="40"/>nitate: ergo idem motus est in 
+proxi<lb break="no" ed="Bd" n="41"/>mum, et in Deum, ut videtur.
+</p>
+            <p xml:id="alalal-f02495-d1e170">
+               <lb ed="Bd" n="42"/>4. Item, Damascenus dicit, quod
+<lb ed="Bd" n="43"/>
+               <quote xml:id="alalal-f02495-Qd1e176"> adoratio imaginis refertur ad prototy-
+<cb ed="#Bd" n="b"/>
+                  <lb ed="Bd" n="44"/>pum :</quote> ergo et dilectio imaginis 
+refer<lb break="no" ed="Bd" n="45"/>tur ad exemplar : sed proximus diligitur
+<lb ed="Bd" n="46"/>ut imago : ergo motus perlingit usque ad
+<lb ed="Bd" n="47"/>Deum.
+</p>
+            <p xml:id="alalal-f02495-d1e191">
+               <lb ed="Bd" n="48"/>5. Item, Proximus non diligitur nisi
+<lb ed="Bd" n="49"/>usus dilectione : ad aliud autem refertur
+<lb ed="Bd" n="50"/>hujusmodi dilectum, seilicet ad id quo
+<lb ed="Bd" n="51"/>fruendum : ergo videtur, quod motus
+<lb ed="Bd" n="52"/>non quiescat nisi in Deo.
+</p>
+            <p xml:id="alalal-f02495-d1e204">
+               <lb ed="Bd" n="53"/>SED CONTRA :
+<lb ed="Bd" n="54"/>1. Tria sunt quae exiguntur ad motum
+<lb ed="Bd" n="55"/>unum, scilicet unitas spatii, temporis, et
+<lb ed="Bd" n="56"/>mobilis : hoc autem tempore quo quis
+<lb ed="Bd" n="57"/>diligit proximum, non cogitat actu de
+<lb ed="Bd" n="58"/>Deo ergo non est necesse, quod sit
+<lb ed="Bd" n="59"/>unus. Si dicas, quod habitualiter 
+refer<lb break="no" ed="Bd" n="60"/>tur: hoc nihil est : quia nos querimus de
+<lb ed="Bd" n="61"/>identitate motus, cul non sufficit 
+habi<lb break="no" ed="Bd" n="62"/>tualis relatio, sed actualem oportet 
+ad<lb break="no" ed="Bd" n="63"/>esse.
+</p>
+            <p xml:id="alalal-f02495-d1e230">
+               <lb ed="Bd" n="64"/>2. Item, Motus numeratur a materia
+<lb ed="Bd" n="65"/>circa quam est in numero : sed hic
+<lb ed="Bd" n="66"/>sunt diverse materi# numero : ergo et
+<lb ed="Bd" n="67"/>diversi motus.
+</p>
+            <p xml:id="alalal-f02495-d1e242">
+               <lb ed="Bd" n="68"/>3. Item, Si propter finem esset unus
+<lb ed="Bd" n="69"/>motus, tunc etiam esset unus motus,
+<lb ed="Bd" n="70"/>cum diligo Petrum, cum diigo Paulum,
+<lb ed="Bd" n="71"/>utrumque propter Deum, quod est 
+ab<lb break="no" ed="Bd" n="72"/>surdum.
+</p>
+            <p xml:id="alalal-f02495-d1e255">
+               <lb ed="Bd" n="73"/>4. Tiem, Unus est intensior alio : quia
+<lb ed="Bd" n="74"/>ex toto corde diligimus Deum, 
+proxi<lb break="no" ed="Bd" n="75"/>mum autem sicut nosipsos sed non
+<lb ed="Bd" n="76"/>potest esse unus motus sic intensior et
+<lb ed="Bd" n="77"/>remissior : ergo non potest esse unus
+<lb ed="Bd" n="78"/>molus numero.
+</p>
+            <p xml:id="alalal-f02495-d1e271">
+               <lb ed="Bd" n="79"/>Solutio Dicendum, quod potest esse
+<lb ed="Bd" n="80"/>unus, et possunt esse plures. Unus 
+quan<lb break="no" ed="Bd" n="81"/>do proximus non sumitur nisi ut imago
+<lb ed="Bd" n="82"/>divine bonitatis, in quam actualiter 
+ten<lb break="no" ed="Bd" n="83"/>dit dilectio : et hoc modo procedunt 
+ra<lb break="no" ed="Bd" n="84"/>tiones primo inducte. Diversi autem
+<lb ed="Bd" n="85"/>quando actualiter non proceditur 
+ulte<lb break="no" ed="Bd" n="86"/>rius, nisi intentione habitual: et hoc
+<lb ed="Bd" n="87"/>modo concludunt sequentes rationes.
+</p>
+            <p xml:id="alalal-f02495-d1e293">
+               <lb ed="Bd" n="88"/>Solutio tamen ad rationes inductas de
+<lb ed="Bd" n="89"/>facili patet unicuique : quia ille quae in
+<lb ed="Bd" n="90"/>contrarium inducuntur, sunt solutiones
+<lb ed="Bd" n="91"/>precedentium.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

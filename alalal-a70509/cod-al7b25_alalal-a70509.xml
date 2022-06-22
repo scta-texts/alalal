@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="354"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a70509"><!-- l1d12a1 -->
+            <head xml:id="alalal-a70509-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-a70509-Hd1e101" type="question-title">Utrum Spiritus sanctus immediate
+procedit ab utroque ?</head>
+            <p xml:id="alalal-a70509-d1e104">
+               <lb ed="#Ba" n="20"/>ARTICULUS I.
+<lb ed="#Ba" n="21"/>Utrum Spiritus sanctus immediate
+<lb ed="#Ba" n="22"/>procedit ab utroque ?
+</p>
+            <p xml:id="alalal-a70509-d1e113">
+               <lb ed="#Ba" n="23"/>Incidit autem dubium primo hic in
+<lb ed="#Ba" n="24"/>Littera, Utrum Spiritus sanctus 
+imme<lb break="no" ed="#Ba" n="25"/>diate procedat ab utroque ?
+</p>
+            <p xml:id="alalal-a70509-d1e122">
+               <lb ed="#Ba" n="26"/>Videtur, quod non : quia
+<lb ed="#Ba" n="27"/>1. In divinis est ordo nature quo alter
+<lb ed="#Ba" n="28"/>sit ex altero, et secundum hunc ordinem
+<lb ed="#Ba" n="29"/>Ecclesia Filium ordinat ante Spiritum
+<lb ed="#Ba" n="30"/>sanctum : ergo videtur, quod a Filo
+<lb ed="#Ba" n="31"/>procedat immediatius quam a Patre.
+</p>
+            <p xml:id="alalal-a70509-d1e139">
+               <lb ed="#Ba" n="32"/>2. Item, In mente sic est, quod amor
+<lb ed="#Ba" n="33"/>procedit immediate a notilia : cum ergo
+<lb ed="#Ba" n="34"/>mens sit imago Trinitatis, videtur simi
+<lb ed="#Ba" n="35"/>liter in Trinitate Spiritus sanctus proce-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="36"/>dere immediate a Verbo, et sic immediate
+<lb ed="#Ba" n="37"/>est a Filio.
+</p>
+            <p xml:id="alalal-a70509-d1e157">
+               <lb ed="#Ba" n="38"/>3. Item, In vestigio sic est, quod 
+bo<lb break="no" ed="#Ba" n="39"/>num est immediate post verum : cum
+<lb ed="#Ba" n="40"/>ergo verum attribuatur Filio, et bonum
+<lb ed="#Ba" n="41"/>Spiritui sancto, videtur Spiritus sanctus
+<lb ed="#Ba" n="42"/>immediatius esse a Filio quam a Patre,
+</p>
+            <p xml:id="alalal-a70509-d1e170">
+               <lb ed="#Ba" n="43"/>SED CONTRA :
+<lb ed="#Ba" n="44"/>1. Quidquid convenit alicui 
+principa<lb break="no" ed="#Ba" n="45"/>liter, et alii non principaliter, 
+immedia<lb break="no" ed="#Ba" n="46"/>tius erit princtpali quam non principal :
+<lb ed="#Ba" n="47"/>a Patre (ut dicunt Sancti) principaliter
+<lb ed="#Ba" n="48"/>procedit Spiritus sanctus, a Fillo autem
+<lb ed="#Ba" n="49"/>non principaliter : ergo immediatius 
+pro<lb break="no" ed="#Ba" n="50"/>cedit a Patre quam a Filio.
+</p>
+            <p xml:id="alalal-a70509-d1e190">
+               <lb ed="#Ba" n="51"/>2. Item, Quod convenit alicui proprie,
+<lb ed="#Ba" n="52"/>et alu non proprie, immediatius est ili
+<lb ed="#Ba" n="53"/>cui convenit proprie quam ei cui 
+conve<lb break="no" ed="#Ba" n="54"/>nit non proprie : sed Sancti dicunt, quod
+<lb ed="#Ba" n="55"/>Spiritus sanctus proprie procedit a Patre,
+<lb ed="#Ba" n="56"/>a Filio autem non adeo proprie : ergo
+<lb ed="#Ba" n="57"/>immediatius procedit a Patre quam a
+<lb ed="#Ba" n="58"/>Filio.
+</p>
+            <p xml:id="alalal-a70509-d1e210">
+               <lb ed="#Ba" n="59"/>3. Item, Quod Spiritus sanctus 
+proce<lb break="no" ed="#Ba" n="60"/>dat a Patre, hoc habet Pater a Seipso :
+<lb ed="#Ba" n="61"/>quod autem procedit a Filio, hoc habet
+<lb ed="#Ba" n="62"/>Filius a Patre: et quod a seipso convenit,
+<lb ed="#Ba" n="63"/>inmediatius convenit quam quod ab alio
+<lb ed="#Ba" n="64"/>habetur : ergo a Patre immediatius 
+pro<lb break="no" ed="#Ba" n="65"/>cedit quain a Filo.
+</p>
+            <p xml:id="alalal-a70509-d1e228">
+               <lb ed="#Ba" n="66"/>4. Item, Quidquid habet Filius etiam
+<lb ed="#Ba" n="67"/>de absolutis, refert ad Patrem, sicut mea
+<lb ed="#Ba" n="68"/>doctrina non est mea: ergo similiter
+<lb ed="#Ba" n="69"/>etiam est in potestate spirandi Spiritum
+<lb ed="#Ba" n="70"/>sanctum . ergo immediatius convenit
+<lb ed="#Ba" n="71"/>Patri quam Filio.
+</p>
+            <p xml:id="alalal-a70509-d1e245">
+               <lb ed="#Ba" n="72"/>Sed contra utrumque videtur, quod
+<lb ed="#Ba" n="73"/>equaliter : quia
+</p>
+            <p xml:id="alalal-a70509-d1e252">
+               <lb ed="#Ba" n="74"/>1. Quidquid procedit a duobus, non ut
+<lb ed="#Ba" n="75"/>duo, sed ut unum sunt simplex et 
+indi<lb break="no" ed="#Ba" n="76"/>vistbile, hoc aequaliter procedit ab 
+utro<lb break="no" ed="#Ba" n="77"/>que, Spirilus :ta procedit a Patre et Filio,
+<lb ed="#Ba" n="78"/>ut probatum est in pracedenti 
+distin<lb break="no" ed="#Ba" n="79"/>cione  : ergo aqualiter procedit ab
+<lb ed="#Ba" n="80"/>ulroque.
+</p>
+            <p xml:id="alalal-a70509-d1e270">
+               <lb ed="#Ba" n="81"/>2. Item, Detur quod inequaliter 
+pro<lb break="no" ed="#Ba" n="82"/>cedat : ergo non wque referuntur Pater
+<pb ed="#Ba" n="355"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>et Filius ad actum spirandi : quaecumque
+<lb ed="#Ba" n="2"/>autem non eque referuntur, non una
+<lb ed="#Ba" n="3"/>numero proprietate referuntur ad actum 
+<lb ed="#Ba" n="4"/>ergo Pater et Filius non habent unam
+<lb ed="#Ba" n="5"/>numero proprietatem in spirando, quod
+<lb ed="#Ba" n="6"/>falsum est.
+</p>
+            <p xml:id="alalal-a70509-d1e294">
+               <lb ed="#Ba" n="7"/>Cetera quae possent objici, in 
+prace<lb break="no" ed="#Ba" n="8"/>denti distinclione expedita sunt.
+</p>
+            <p xml:id="alalal-a70509-d1e301">
+               <lb ed="#Ba" n="9"/>Solutio. Dicendum, quod eque 
+im<lb break="no" ed="#Ba" n="10"/>mediate Spiritus sanctus procedit ab
+<lb ed="#Ba" n="11"/>utroque : licet quidam dicant aliter : sed
+<lb ed="#Ba" n="12"/>eorum opinio abolita est modo : et hoc
+<lb ed="#Ba" n="13"/>ideo, quia Sanct: communiter dicunt,
+<lb ed="#Ba" n="14"/>quod procedit ab cis in quantum ips: m
+<lb ed="#Ba" n="15"/>personis suis distinctt entes unum sunt
+<lb ed="#Ba" n="16"/>in substantia : et boe intelligitur, sicut
+<lb ed="#Ba" n="17"/>supra expositum est, quod substantia et
+<lb ed="#Ba" n="18"/>essentia non accipiuntur hic absolute :
+<lb ed="#Ba" n="19"/>sed prout est in ralione potenti que
+<lb ed="#Ba" n="20"/>conjuncta actui quasi medium efficitur
+<lb ed="#Ba" n="21"/>secundum intellectum inter pure 
+essen<lb break="no" ed="#Ba" n="22"/>tiale et pure personale : et sic in tali
+<lb ed="#Ba" n="23"/>comparatione natura est in Patre et Filto
+<lb ed="#Ba" n="24"/>distinctis una, eo quod in hoc nulla 
+di<lb break="no" ed="#Ba" n="25"/>vidat cos oppositionis relatio : et 
+secun<lb break="no" ed="#Ba" n="26"/>dum hoc, quod procedit ab eis ut unuin
+<lb ed="#Ba" n="27"/>sunt, aeque immediate procedit ab 
+utro<lb break="no" ed="#Ba" n="28"/>que.
+</p>
+            <p xml:id="alalal-a70509-d1e347">
+               <lb ed="#Ba" n="29"/>Ap primum ergo dicendum, quod ordo
+<lb ed="#Ba" n="30"/>in divinis non ponit prius et posterius,
+<lb ed="#Ba" n="31"/>nec mediatum et immedialum : eo quod
+<lb ed="#Ba" n="32"/>ordo nature non est ordo simpliciter, sed
+<lb ed="#Ba" n="33"/>secundum quid, seilicet quo aller sit ex
+<lb ed="#Ba" n="34"/>altero, non alter prior altero est 
+secun<lb break="no" ed="#Ba" n="35"/>dum intellectum, uf supra probatum est :
+<lb ed="#Ba" n="36"/>non enim in divinis aliud est esse 
+perso<lb break="no" ed="#Ba" n="37"/>nex, et aliud relalivi. et cum relativa
+<lb ed="#Ba" n="38"/>sint simul natura, etiam persone simul
+<lb ed="#Ba" n="39"/>erunt natura, et secundum intellectum.
+</p>
+            <p xml:id="alalal-a70509-d1e374">
+               <lb ed="#Ba" n="40"/>Ad aliud dicendum, quod imago 
+crea<lb break="no" ed="#Ba" n="41"/>ta in multis deficit in representando
+<lb ed="#Ba" n="42"/>exemplar: tamen potest dici, quod ex
+<lb ed="#Ba" n="43"/>equo egrediuntur a mente verbum et
+<lb ed="#Ba" n="44"/>amor, licet amor sit ab utroque : 
+praeci<lb break="no" ed="#Ba" n="45"/>pue si ponimus verbum menti cowvum,
+<lb ed="#Ba" n="46"/>ut videtur dicere Augustinus.
+</p>
+            <p xml:id="alalal-a70509-d1e392">
+               <lb ed="#Ba" n="47"/>Ab atiup dicendum, quod in vestigio
+<lb ed="#Ba" n="48"/>est ordo, et in hoc non respondet Trini-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="49"/>tati: sed tantum in qualicumque unione
+<lb ed="#Ba" n="50"/>trum in substantia una,
+</p>
+            <p xml:id="alalal-a70509-d1e405">
+               <lb ed="#Ba" n="51"/>Ad id quod objicitur m oppositum,
+<lb ed="#Ba" n="52"/>dicendum quod Sancti dicunt. quod
+<lb ed="#Ba" n="53"/>prinerpaliter convemit Patri: non ut 
+de<lb break="no" ed="#Ba" n="54"/>signetur quod immediatior sit 
+processio<lb break="no" ed="#Ba" n="55"/>ni quam Filius, sed ut notetur auctoritas
+<lb ed="#Ba" n="56"/>esse penes Patrem, secundum quam ipse
+<lb ed="#Ba" n="57"/>principrum non de principio existens,
+<lb ed="#Ba" n="58"/>est principium totius divinitatis in Filio
+<lb ed="#Ba" n="59"/>et Spiritu sancto.
+</p>
+            <p xml:id="alalal-a70509-d1e427">
+               <lb ed="#Ba" n="60"/>Ad aliud dicendum, quod proprie 
+di<lb break="no" ed="#Ba" n="61"/>citur convenire Patri, ex eo quod non
+<lb ed="#Ba" n="62"/>recipit aliunde sicut Iilius : et non ideo,
+<lb ed="#Ba" n="63"/>quia immediatior sit : unde principaliter
+<lb ed="#Ba" n="64"/>refertur ad auctoritatem, et proprie ad
+<lb ed="#Ba" n="65"/>modum habendi potentiam spirandi.
+</p>
+            <p xml:id="alalal-a70509-d1e443">
+               <lb ed="#Ba" n="66"/>Ad aliud dicendum, quod habere ab
+<lb ed="#Ba" n="67"/>alio, vel non habere ab alio, non causat
+<lb ed="#Ba" n="68"/>mediatum et immediatum, sed 
+auctori<lb break="no" ed="#Ba" n="69"/>tatem et subauctoritatem.
+</p>
+            <p xml:id="alalal-a70509-d1e454">
+               <lb ed="#Ba" n="70"/>Ab utruium dicendum, quod refert ut
+<lb ed="#Ba" n="71"/>ad auctorem : non ut ad cum quimmme
+<lb ed="#Ba" n="72"/>diatior sit in spirando, vel potentior, vel
+<lb ed="#Ba" n="73"/>eflicacior.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

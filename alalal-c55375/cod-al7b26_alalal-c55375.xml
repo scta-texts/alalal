@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="294"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c55375"><!-- l1d39a3 -->
+            <head xml:id="alalal-c55375-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-c55375-Hd1e101" type="question-title">An Deus mutabilia sciat immutabiliter,
+et opposita sciat eodem modo ?</head>
+            <p xml:id="alalal-c55375-d1e104">
+               <lb ed="#Bb" n="67"/>ARTICULUS III.
+<lb ed="#Bb" n="68"/>An Deus mutabilia sciat immutabiliter,
+<lb ed="#Bb" n="69"/>et opposita sciat eodem modo ?
+</p>
+            <p xml:id="alalal-c55375-d1e113">
+               <lb ed="#Bb" n="70"/>Ad secundum proceditur sic :
+<lb ed="#Bb" n="71"/>Mutabilia scire immutabiliter, est 
+sci<lb break="no" ed="#Bb" n="72"/>re mutabilia aliter quam sunt: scire
+<lb ed="#Bb" n="73"/>autem rem aliquam aliter quam est, 
+de<lb break="no" ed="#Bb" n="74"/>cipi est: ergo videtur, quod si Deus
+<lb ed="#Bb" n="75"/>sciat mutabilia immutabiliter, quod ipse
+<lb ed="#Bb" n="76"/>decipitur in eis.
+</p>
+            <p xml:id="alalal-c55375-d1e131">
+               <lb ed="#Bb" n="77"/>Hic etiam cadit questio de scientia
+<lb ed="#Bb" n="78"/>oppositorum, utrum illa sciat eodem 
+mo<lb break="no" ed="#Bb" n="79"/>do ?
+</p>
+            <p xml:id="alalal-c55375-d1e141">
+               <lb ed="#Bb" n="80"/>Videtur quod sic : quia
+<lb ed="#Bb" n="81"/>1. Ipse eodem modo scit rem quando
+<lb ed="#Bb" n="82"/>est, et quando non est: esse autem
+<pb ed="#Bb" n="295"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>rem et non esse, sunt opposita 
+secun<lb break="no" ed="#Bb" n="2"/>dum affirmationem et negationem : ergo
+<lb ed="#Bb" n="3"/>ipse scit simul contradictoria, ut 
+vide<lb break="no" ed="#Bb" n="4"/>tur : ergo multo magis alia opposita.
+</p>
+            <p xml:id="alalal-c55375-d1e163">
+               <lb ed="#Bb" n="5"/>2. Item. Si tpse scit rem ut est, 
+opor<lb break="no" ed="#Bb" n="6"/>tet quod ipse sciat eam sub differentiis
+<lb ed="#Bb" n="7"/>temporis : ergo scit me lecturum 
+quan<lb break="no" ed="#Bb" n="8"/>do lecturus sum, et scit me legisse 
+quan<lb break="no" ed="#Bb" n="9"/>do legi, et scit me legere quando lego :
+<lb ed="#Bb" n="10"/>omne autem quod cadit sub differentia
+<lb ed="#Bb" n="11"/>temporis, est mutabile : ergo Deus scit
+<lb ed="#Bb" n="12"/>mutabile temporaliter et mutabiliter, ut
+<lb ed="#Bb" n="13"/>videtur. Si autem tu dicas, quod non
+<lb ed="#Bb" n="14"/>scit temporaliter res, sequitur ex hoc
+<lb ed="#Bb" n="15"/>quod nullam haberet scientiam de re
+<lb ed="#Bb" n="16"/>quando est et quando non est, sed 
+in<lb break="no" ed="#Bb" n="17"/>distincte et confuse sciret res: et hoc
+<lb ed="#Bb" n="18"/>est imperfectum, et Deo non 
+attribuen<lb break="no" ed="#Bb" n="19"/>dum.
+</p>
+            <p xml:id="alalal-c55375-d1e198">
+               <lb ed="#Bb" n="20"/>SED CONTRA :
+<lb ed="#Bb" n="21"/>1. Omnis acceptio est secundum 
+potesta<lb break="no" ed="#Bb" n="22"/>tem accipientis, et non accepti : scientia
+<lb ed="#Bb" n="23"/>est acceptio quedam, ut dicit 
+Philoso<lb break="no" ed="#Bb" n="24"/>phus : ergo est secundum potestatem
+<lb ed="#Bb" n="25"/>accipientis, et non accepti: Deus autem
+<lb ed="#Bb" n="26"/>sciens est immutabilis : ergo sua 
+scien<lb break="no" ed="#Bb" n="27"/>tia est immutabilis.
+</p>
+            <p xml:id="alalal-c55375-d1e218">
+               <lb ed="#Bb" n="28"/>2. Praeterea, in Littera negatur hoc:
+<lb ed="#Bb" n="29"/>ergo videtur, quod sua scientia non sit
+<lb ed="#Bb" n="30"/>de mutabilibus mutabiliter.
+</p>
+            <p xml:id="alalal-c55375-d1e227">
+               <lb ed="#Bb" n="31"/>Solutio. Leve est hoc solvere 
+secun<lb break="no" ed="#Bb" n="32"/>dum supra dicta, scilicet quod ly 
+muta<lb break="no" ed="#Bb" n="33"/>biliter potest determinare verbum ex
+<lb ed="#Bb" n="34"/>parte materiae super quam transit 
+scien<lb break="no" ed="#Bb" n="35"/>tia, et sic scit Deus mutabilia 
+mutabili<lb break="no" ed="#Bb" n="36"/>ter, et temporalia temporaliter, et 
+oppo<lb break="no" ed="#Bb" n="37"/>sita oppositis modis: vel potest referri
+<lb ed="#Bb" n="38"/>ad verbum per comparationem ad 
+scien<lb break="no" ed="#Bb" n="39"/>tem, et sic scit mutabilia immutabiliter,
+<lb ed="#Bb" n="40"/>et temporalia intemporaliter, et 
+opposi<lb break="no" ed="#Bb" n="41"/>ta uno modo simplici.
+</p>
+            <p xml:id="alalal-c55375-d1e253">
+               <lb ed="#Bb" n="42"/>Ad primum ergo dicendum, quod non
+<lb ed="#Bb" n="43"/>decipitur : quia etiam apud nos scientia
+<lb ed="#Bb" n="44"/>mutabilium ex parte scientis immuta-—
+<lb ed="#Bb" n="45"/>bilis est, quia ratio mutabilium 
+immu<lb break="no" ed="#Bb" n="46"/>tabilis est : sed cum ratio sit intentio rei
+<lb ed="#Bb" n="47"/>mutabilis, scitur rei mutabilitas per 
+in<lb break="no" ed="#Bb" n="48"/>tentionem illam quando refertur ad rem
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="49"/>cui accidit mutabilitas. Et hujus causa
+<lb ed="#Bb" n="50"/>est propter hoc quod per hoc quod est
+<lb ed="#Bb" n="51"/>immutabilis, non refertur ad rem, sed
+<lb ed="#Bb" n="52"/>refertur ad ipsam secundum quod est
+<lb ed="#Bb" n="53"/>ratio et intentio rei quae est mutabilis :
+<lb ed="#Bb" n="54"/>et sic patet, qualiter in omnibus 
+muta<lb break="no" ed="#Bb" n="55"/>bile scitur immutabiliter.
+</p>
+            <p xml:id="alalal-c55375-d1e289">
+               <lb ed="#Bb" n="56"/>Ad aliud dicendum, quod opposita
+<lb ed="#Bb" n="57"/>scit Deus uno, quod est ratio rei sive
+<lb ed="#Bb" n="58"/>sit, sive non sit : quia sibi res non 
+pot<lb break="no" ed="#Bb" n="59"/>est preterire, sed semper eodem modo
+<lb ed="#Bb" n="60"/>manet, non tamen eodem modo transit
+<lb ed="#Bb" n="61"/>ejus scientia super rem: vel ut fidelius
+<lb ed="#Bb" n="62"/>dicatur, non uno modo comparatur ad
+<lb ed="#Bb" n="63"/>ipsum res: et ideo scitrem esse cum
+<lb ed="#Bb" n="64"/>est, et scit eam non esse cum non est,
+<lb ed="#Bb" n="65"/>ex hoc quod comparatur res ad esse
+<lb ed="#Bb" n="66"/>velad non esse : et hoc est magis de
+<lb ed="#Bb" n="67"/>scientia complexorum sive 
+enuntiabi<lb break="no" ed="#Bb" n="68"/>lium, de quibus posterius queretur.
+</p>
+            <p xml:id="alalal-c55375-d1e320">
+               <lb ed="#Bb" n="69"/>Ad aliud dicendum, quod ipse 
+intem<lb break="no" ed="#Bb" n="70"/>poraliter scit omnia quae cadunt sub
+<lb ed="#Bb" n="71"/>temporis differentia: et hoc ideo est,
+<lb ed="#Bb" n="72"/>quia differentia temporis accidit rei 
+se<lb break="no" ed="#Bb" n="73"/>cundum quod est in esse proprio, et non
+<lb ed="#Bb" n="74"/>secundum quod est in Deo per ideam.
+<lb ed="#Bb" n="75"/>Quod autem certus estin sciendo res
+<lb ed="#Bb" n="76"/>distincte, hoc est ideo, quia non tantum
+<lb ed="#Bb" n="77"/>scit rem, sed etiam quamlibet 
+composi<lb break="no" ed="#Bb" n="78"/>tionem et divisionem rei cum qualibet
+<lb ed="#Bb" n="79"/>vel a qualibet re : et hoc incomplexe et
+<lb ed="#Bb" n="80"/>incomposite, ut infra dicetur.
+</p>
+            <p xml:id="alalal-c55375-d1e349">
+               <lb ed="#Bb" n="81"/>Et si tu objicias, quod noster 
+intelle<lb break="no" ed="#Bb" n="82"/>ctus non sic est de complexo sicut de
+<lb ed="#Bb" n="83"/>incomplexo. Resronsio, quod hoc est
+<lb ed="#Bb" n="84"/>ideo, quia intellectus noster per 
+sub<lb break="no" ed="#Bb" n="85"/>stantiam non est suum intelligibile, nec
+<lb ed="#Bb" n="86"/>ipse dat modum intelligibili, sed potius
+<lb ed="#Bb" n="87"/>accipit ab ipso, et ideo variatur 
+secun<lb break="no" ed="#Bb" n="88"/>dum illud : non autem sic de intellectu
+<lb ed="#Bb" n="89"/>divino, qui est id per quod intelligit, et
+<lb ed="#Bb" n="90"/>dat intelligibili et esse in se, et omnem
+<lb ed="#Bb" n="91"/>compositionem et divisionem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

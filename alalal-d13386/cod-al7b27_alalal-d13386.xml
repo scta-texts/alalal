@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="69"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d13386"><!-- l2d3a5 -->
+            <head xml:id="alalal-d13386-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-d13386-Hd1e101" type="question-title">An Angelis conveniat personalis 
+discretio, ta quod quilibet sit persona ?</head>
+            <p xml:id="alalal-d13386-d1e104">
+               <lb ed="#Bc" n="26"/>ARTICULUS V.
+<lb ed="#Bc" n="27"/>An Angelis conveniat personalis 
+discre<lb break="no" ed="#Bc" n="28"/>tio, ta quod quilibet sit persona ?
+</p>
+            <p xml:id="alalal-d13386-d1e113">
+               <lb ed="#Bc" n="29"/>Deinde quaeritur de discretione 
+perso<lb break="no" ed="#Bc" n="30"/>nali.
+</p>
+            <p xml:id="alalal-d13386-d1e120">
+               <lb ed="#Bc" n="31"/>Videtur enim, quod discretio personalis
+<lb ed="#Bc" n="32"/>sit in Angelo sicut in Deo et homine.
+<lb ed="#Bc" n="33"/>1. Determinatur per propositionem
+<lb ed="#Bc" n="34"/>prius positam pro principio, quod si 
+ali<lb break="no" ed="#Bc" n="35"/>qua passio inest pluribus, necesse est
+<lb ed="#Bc" n="36"/>quod ratione alicujus substantie 
+commu<lb break="no" ed="#Bc" n="37"/>nis cui ipsa passio per se convenit, insit
+<lb ed="#Bc" n="38"/>eis : discretio personalis inest Deo, et
+<lb ed="#Bc" n="39"/>hominibus, et Angelis : ergo necesse est
+<lb ed="#Bc" n="40"/>quod communi modo insit eis : homini
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="41"/>autem et Deo inest per rationem ordinis
+<lb ed="#Bc" n="42"/>nature ab uno exeundo vel emanando :
+<lb ed="#Bc" n="43"/>ergo hoc modo inest Angelo, ut videtur :
+<lb ed="#Bc" n="44"/>quod falsum est, cum unus non 
+produ<lb break="no" ed="#Bc" n="45"/>cat alium generando, vel spirando.
+</p>
+            <p xml:id="alalal-d13386-d1e158">
+               <lb ed="#Bc" n="46"/>2. Item, <name xml:id="alalal-d13386-Nd1e162">Magister Richardus de sancto
+<lb ed="#Bc" n="47"/>Victore</name> dicit, quod discretio personalis
+<lb ed="#Bc" n="48"/>est, aut origine tantum, ut in Deo : aut
+<lb ed="#Bc" n="49"/>proprietate tantum, ut in Angelis : aut
+<lb ed="#Bc" n="50"/>preprietate simul et origine, ut in 
+homi<lb break="no" ed="#Bc" n="51"/>ne: et ex isto videntur sequi multa 
+in<lb break="no" ed="#Bc" n="52"/>convenientia, quorum unum est, quod
+<lb ed="#Bc" n="53"/>discretio personalis videtur per plura
+<lb ed="#Bc" n="54"/>convenire homini quam Angelo : et cum
+<lb ed="#Bc" n="55"/>discretio personalis una causarum fuerit
+<lb ed="#Bc" n="56"/>inassumptibilitatis assignatarum in IIT 
+hi<lb break="no" ed="#Bc" n="57"/>bro Sententiarum, videtur, quod homo
+<lb ed="#Bc" n="58"/>minus fuerit assumptibilis quam Angelus,
+<lb ed="#Bc" n="59"/>quod non est verum.
+</p>
+            <p xml:id="alalal-d13386-d1e194">
+               <lb ed="#Bc" n="60"/>3. Aliud est : quia quecumque 
+diffe<lb break="no" ed="#Bc" n="61"/>runt sola proprietate, non differunt nisi
+<lb ed="#Bc" n="62"/>per accidens, quia omnis proprietas est
+<lb ed="#Bc" n="63"/>de genere accidentium, ut dicit Boetius :
+<lb ed="#Bc" n="64"/>Angelorum autem discretio personalis
+<lb ed="#Bc" n="65"/>non est nisi sola proprietate : ergo non
+<lb ed="#Bc" n="66"/>diiferunt Angeli nisi per accidens, quod
+<lb ed="#Bc" n="67"/>est impossibile : ergo non est discretio
+<lb ed="#Bc" n="68"/>in eis sola proprietate.
+</p>
+            <p xml:id="alalal-d13386-d1e216">
+               <lb ed="#Bc" n="69"/>Soxutio. Dicendum, quod ut dicit 
+Ri<lb break="no" ed="#Bc" n="70"/>chardus, persona est existens per se 
+so<lb break="no" ed="#Bc" n="71"/>lum secundum quemdam singularem 
+ra<lb break="no" ed="#Bc" n="72"/>tionalis nature existentie modum, sicut
+<lb ed="#Bc" n="73"/>in I Sententiarum, explanatum est: et
+<lb ed="#Bc" n="74"/>ideo quia quilibet Angelus per se solum
+<lb ed="#Bc" n="75"/>existit modo suae existentie in 
+intellectua<lb break="no" ed="#Bc" n="76"/>li natura, ideo quilibet est persona, et
+<lb ed="#Bc" n="77"/>convenit eis discretio. personalis.
+</p>
+            <p xml:id="alalal-d13386-d1e238">
+               <lb ed="#Bc" n="78"/>Dicendum ergo ad primum, quod 
+per<lb break="no" ed="#Bc" n="79"/>sonalitas per prius et posterius est in Deo,
+<lb ed="#Bc" n="80"/>et in Angelis, et in hominibus : et hoc in -
+<lb ed="#Bc" n="81"/>primo libro Sententiarum probatum est :
+<lb ed="#Bc" n="82"/>et ideo sufficit convenientia proportionis
+<lb ed="#Bc" n="83"/>qua ista communis passio referatur ad
+<lb ed="#Bc" n="84"/>tres naturas: et dicunt, quod illud est.
+<lb ed="#Bc" n="85"/>suppositum rationalis creature quia
+<lb ed="#Bc" n="86"/>hoc invenitur in Deo, Angelo, et homi-
+<pb ed="#Bc" n="70"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ne: et ideo non oportet, quod modus
+<lb ed="#Bc" n="2"/>discretionis sit unus, sicut videbatur 
+pro<lb break="no" ed="#Bc" n="3"/>bare objectio.
+</p>
+            <p xml:id="alalal-d13386-d1e271">
+               <lb ed="#Bc" n="4"/>Ad aliud dicendum, quod Magister 
+Ri<lb break="no" ed="#Bc" n="5"/>chardus communiter tangit facientia et
+<lb ed="#Bc" n="6"/>ostendentia discretionem personalem
+<lb ed="#Bc" n="7"/>in divinis enim facit relatio originis, in
+<lb ed="#Bc" n="8"/>humanis autem individuatio super hanc
+<lb ed="#Bc" n="9"/>materiam, et in Angelis individuatio 
+es<lb break="no" ed="#Bc" n="10"/>se nature Angeli super hoc 
+fundamen<lb break="no" ed="#Bc" n="11"/>tum. Et argumentum non valet : 
+Pluri<lb break="no" ed="#Bc" n="12"/>bus enim distinguitur homo quam 
+An<lb break="no" ed="#Bc" n="13"/>gelus : ergo est magis discretus in 
+per<lb break="no" ed="#Bc" n="14"/>sona : et mutatur ibi discreta quantitas
+<lb ed="#Bc" n="15"/>in modum continue per intensionem.
+<lb ed="#Bc" n="16"/>Nec verum est quod discretio personalis
+<lb ed="#Bc" n="17"/>impediat assumptibilitatem : sed potius
+<lb ed="#Bc" n="18"/>quia persona numquam est persona sicut
+<lb ed="#Bc" n="19"/>homo, nisi prius potentia est persona,
+<lb ed="#Bc" n="20"/>et postea fit actu persona : et ideo 
+ante<lb break="no" ed="#Bc" n="21"/>quam fiat actu,cum propriam adhuc non
+<lb ed="#Bc" n="22"/>habeat singularitatem, potest assumi in
+<lb ed="#Bc" n="23"/>singularitatem alterius : et hoc non est in
+</p>
+            <p xml:id="alalal-d13386-d1e317">
+               <lb ed="#Bc" n="24"/>Angelo cujus singularitas numqam fuit
+<lb ed="#Bc" n="25"/>in potentia.
+</p>
+            <p xml:id="alalal-d13386-d1e325">
+               <lb ed="#Bc" n="26"/>AD ULTIMUM dicandam, quod revera
+<lb ed="#Bc" n="27"/>proprietates ostendunt singularitatem
+<lb ed="#Bc" n="28"/>persone et non faciunt : sed facit eam
+<lb ed="#Bc" n="29"/>fundamentum esse particulans, et 
+indi<lb break="no" ed="#Bc" n="30"/>viduans ipsum esse per se super se: sed
+<lb ed="#Bc" n="31"/>quia in Angelis est hoc elongatum a 
+cog<lb break="no" ed="#Bc" n="32"/>nitione, ideo cognoscimus ipsum 
+proprie<lb break="no" ed="#Bc" n="33"/>tatibus : sicut etiam in logicis materia
+<lb ed="#Bc" n="34"/>dividens et contrahens formam, facit 
+in<lb break="no" ed="#Bc" n="35"/>dividuum : sed tamen cognoscitur per
+<lb ed="#Bc" n="36"/>collationem individuantium.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

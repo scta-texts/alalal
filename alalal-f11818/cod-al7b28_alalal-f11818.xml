@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="578"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f11818"><!-- l3d31a1 -->
+            <head xml:id="alalal-f11818-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-f11818-Hd1e101" type="question-title">An semel habitam charitatem contingit
+amitte ?</head>
+            <p xml:id="alalal-f11818-d1e104">
+               <pb ed="#Bd" n="578"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ARTICULUS I.
+<lb ed="Bd" n="2"/>An semel habitam charitatem contingit
+<lb ed="Bd" n="3"/>amitte ?
+</p>
+            <p xml:id="alalal-f11818-d1e117">
+               <lb ed="Bd" n="4"/>Incidunt autem duae questiones circa
+<lb ed="Bd" n="5"/>intentionem primi capituli : quarum 
+pri<lb break="no" ed="Bd" n="6"/>ma est, Utrum contingat amitti semel
+<lb ed="Bd" n="7"/>habitam charitatem ? In secunda autem,
+<lb ed="Bd" n="8"/>In quanta resurgat post amissam 
+chari<lb break="no" ed="Bd" n="9"/>tatem ?
+</p>
+            <p xml:id="alalal-f11818-d1e133">
+               <lb ed="Bd" n="10"/>Ad primam proceditur sic :
+<lb ed="Bd" n="11"/>1. Eadem est ratio charitatis in homine
+<lb ed="Bd" n="12"/>et in Angelis: in Angelis autem semel
+<lb ed="Bd" n="13"/>habitam non contingit amitti, secundum
+<lb ed="Bd" n="14"/>opinionem illorum qui dicunt Angelos
+<lb ed="Bd" n="15"/>fuisse creatos sine gratia : ergo nec in
+<lb ed="Bd" n="16"/>homine contingit amitti semel habitam.
+</p>
+            <p xml:id="alalal-f11818-d1e152">
+               <lb ed="Bd" n="17"/>2. tem, Minus forte non abjicit magis
+<lb ed="Bd" n="18"/>forte, sed minima charitas forlior est 
+om<lb break="no" ed="Bd" n="19"/>ni peccato et omni tentatione : ergo non
+<lb ed="Bd" n="20"/>abjicitur aliquo peccato vel aliqua 
+tenta<lb break="no" ed="Bd" n="21"/>tione.
+</p>
+            <p xml:id="alalal-f11818-d1e165">
+               <lb ed="Bd" n="22"/>3. Item, Si abjicitur, oportet salvari
+<lb ed="Bd" n="23"/>inter eam et peccatum legem 
+contrario<lb break="no" ed="Bd" n="24"/>rum, quam ponit Boetius in libro de
+<lb ed="Bd" n="25"/>Duabus naturis in una persona Christi,
+<lb ed="Bd" n="26"/>scilicet quod nulla transmutant se ad 
+in<lb break="no" ed="Bd" n="27"/>vicem, nisi quae agunt ad invicem, et 
+pa<lb break="no" ed="Bd" n="28"/>tiuntur: haec autem semper in viribus
+<lb ed="Bd" n="29"/>proportionata sunt: ergo videtur, cum
+<lb ed="Bd" n="30"/>nulla sit proportio vis charitatis ad 
+pec<lb break="no" ed="Bd" n="31"/>catum, quod non transmutetur ab aliquo
+<lb ed="Bd" n="32"/>peccato.
+</p>
+            <p xml:id="alalal-f11818-d1e191">
+               <lb ed="Bd" n="33"/>4. Item, Si depellitur: aut depelltur
+<lb ed="Bd" n="34"/>a peccato quod est, aut a peccato quod
+<lb ed="Bd" n="35"/>non est. Sia peccato quod est : aut in
+<lb ed="Bd" n="36"/>eodem, aut in alio. Si in alo. Contra:
+<lb ed="Bd" n="37"/>Dicit Philosophus in libro XVI de 
+Ani<lb break="no" ed="Bd" n="38"/>malibus, quod <quote xml:id="alalal-f11818-Qd1e206"> si non tangit, non agit,
+<lb ed="Bd" n="39"/>et non sequitur alteratio. </quote> Ergo id non
+<lb ed="Bd" n="40"/>depellit eam a subjecto. Si in eodem :
+<lb ed="Bd" n="41"/>ergo contraria sunt simulin eodem, quod
+<lb ed="Bd" n="42"/>non potest esse.
+</p>
+            <p xml:id="alalal-f11818-d1e218">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="43"/>Si dicas, quod non insunt in eodem
+<lb ed="Bd" n="44"/>nunc: sed in uno nunc abscedit charj.
+<lb ed="Bd" n="45"/>tas, et in alio inest peccatum. Ad hog
+<lb ed="Bd" n="46"/>sequitur duplex inconveniens : quorum
+<lb ed="Bd" n="47"/>unum est, quod unum contrariorum ¢e.
+<lb ed="Bd" n="48"/>dit alteri, antequam tangatur ab illo, ye
+<lb ed="Bd" n="49"/>aplequam illud agat in ipsum. Aliud est:
+<lb ed="Bd" n="50"/>quia signentur illa duo nunc: et sit a, in
+<lb ed="Bd" n="51"/>quo cedit charitas : B autem in quo inest
+<lb ed="Bd" n="52"/>peccatum. Cum inter quelbet duo nune
+<lb ed="Bd" n="53"/>sit tempus, in illo tempore anima nec egt
+<lb ed="Bd" n="54"/>in charitate, nec in peccato, quod 
+absur<lb break="no" ed="Bd" n="55"/>dum est : ergo relinquitur, quod charitas
+<lb ed="Bd" n="56"/>semel habita non amittitur.
+</p>
+            <p xml:id="alalal-f11818-d1e253">
+               <lb ed="Bd" n="57"/>5. Item, Voluntas de se est indifferens:
+<lb ed="Bd" n="58"/>ergo cum charitate efficitur actu bona .
+<lb ed="Bd" n="59"/>ergo magis parata in bonum, quam in
+<lb ed="Bd" n="60"/>malum : ergo non potest vinci a 
+pec<lb break="no" ed="Bd" n="61"/>cato.
+</p>
+            <p xml:id="alalal-f11818-d1e266">
+               <lb ed="Bd" n="62"/>6. Item, Omnis motus est secundum
+<lb ed="Bd" n="63"/>exigentiam dominantis : dominans est
+<lb ed="Bd" n="64"/>charitas, quia ipsa super omnia potest:
+<lb ed="Bd" n="65"/>ergo nunquam peccat.
+</p>
+            <p xml:id="alalal-f11818-d1e278">
+               <lb ed="Bd" n="66"/>7. Item, Hoc videtur dicere, (Joan. m,
+<lb ed="Bd" n="67"/>9, quod <quote xml:id="alalal-f11818-Qd1e284">qui natus est ex Deo, non 
+pec<lb break="no" ed="Bd" n="68"/>cat</quote>.
+</p>
+            <p xml:id="alalal-f11818-d1e290">
+               <lb ed="Bd" n="69"/>8. Item, Cantic. viu, 6 et 7 : <quote xml:id="alalal-f11818-Qd1e294">Fortis est
+<lb ed="Bd" n="70"/>ut mors dilectio, dura steut infernus
+<lb ed="Bd" n="71"/>emulatio.... Aguze multe non potuerunt
+<lb ed="Bd" n="72"/>exstinguere charitatem</quote>, id est, multe
+<lb ed="Bd" n="73"/>tentationes.
+</p>
+            <p xml:id="alalal-f11818-d1e306">
+               <lb ed="Bd" n="74"/>9, Item, in Psalmo xxvi, |: <quote xml:id="alalal-f11818-Qd1e310">Dominus
+<lb ed="Bd" n="75"/>illuminatio mea</quote>. Glossa: <quote xml:id="alalal-f11818-Qd1e315"> Si donum
+<lb ed="Bd" n="76"/>aufertur, vincitur dator: </quote> sed constat,
+<lb ed="Bd" n="77"/>quod dator vinci non potest: ergo nec 
+do<lb break="no" ed="Bd" n="78"/>num auferri.
+</p>
+            <p xml:id="alalal-f11818-d1e325">
+               <lb ed="Bd" n="79"/>10. Item, Chrysostomus super 
+Joan<lb break="no" ed="Bd" n="80"/>nem: <quote xml:id="alalal-f11818-Qd1e331"> Magnum amor, et igne 
+vehe<lb break="no" ed="Bd" n="81"/>mentius : et non est aliquid quod 
+pro<lb break="no" ed="Bd" n="82"/>prium ejus impetum sustinere possit.</quote>
+               <lb ed="Bd" n="83"/>Multo minus potest illum impetum 
+susti<lb break="no" ed="Bd" n="84"/>nere peccatum.
+</p>
+            <p xml:id="alalal-f11818-d1e343">
+               <lb ed="Bd" n="85"/>11. Si forte velis dicere, quod Deus
+<lb ed="Bd" n="86"/>aufert. Contra: Ad Roman. x1, 29:
+<lb ed="Bd" n="87"/>Sine peenitentia sunt dona et vocatio
+<lb ed="Bd" n="88"/>Dei. Ergo videtur, quod ipse non aufert.
+</p>
+            <p xml:id="alalal-f11818-d1e354">
+               <lb ed="Bd" n="89"/>12. Item, 1 Reg. xvi, 13: <quote xml:id="alalal-f11818-Qd1e358">Directus est 
+spt<lb break="no" ed="Bd" n="90"/>ritus Domini a die illain David, et 
+dein<lb break="no" ed="Bd" n="91"/>ceps</quote>. Constat autem, quod sepe peccavil
+<pb ed="#Bd" n="579"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>mortaliter. Ergo propter mortale 
+pecca<lb break="no" ed="Bd" n="2"/>tum non amilttitur charitas : ergo propter
+<lb ed="Bd" n="3"/>nihil potest amitti.
+</p>
+            <p xml:id="alalal-f11818-d1e378">
+               <lb ed="Bd" n="4"/>13. Item, I Joan. iv, 16, super illud:
+<lb ed="Bd" n="5"/>
+               <quote xml:id="alalal-f11818-Qd1e384">Qui manet in charitate, in Deo manet</quote>.
+<lb ed="Bd" n="6"/>Glossa : <quote xml:id="alalal-f11818-Qd1e388"> Mancas in Deo ut continearis :
+<lb ed="Bd" n="7"/>manet in te Deus, ut contineat te. </quote>
+            </p>
+            <p xml:id="alalal-f11818-d1e394">
+               <lb ed="Bd" n="8"/>14. Item, Videtur cum Deus continens
+<lb ed="Bd" n="9"/>sit potentissimus, quod cadere non 
+pos<lb break="no" ed="Bd" n="10"/>sit: quia per charitatem ipsum inhabitat.
+</p>
+            <p xml:id="alalal-f11818-d1e403">
+               <lb ed="Bd" n="11"/>15. Item, Super illud Matthei, vu, 25:
+<lb ed="Bd" n="12"/>
+               <quote xml:id="alalal-f11818-Qd1e409">Venerunt flumina</quote>, etc. Glossa: <quote xml:id="alalal-f11818-Qd1e411"> Qui
+<lb ed="Bd" n="13"/>cadit, non aedificatur in Christo: </quote> sed
+<lb ed="Bd" n="14"/>constat, quod qui habet charitatem, 
+<unclear>aedi<lb break="no" ed="Bd" n="15"/>ficatur</unclear> in Christo : ergo ipse non cadit.
+</p>
+            <p xml:id="alalal-f11818-d1e425">
+               <lb ed="Bd" n="16"/>16. Item, Augustinus in Enchiridion :
+<lb ed="Bd" n="17"/>
+               <quote xml:id="alalal-f11818-Qd1e431"> Si quis tempore tentationis res 
+tempo<lb break="no" ed="Bd" n="18"/>rales mavult retinere, quam Christum,
+<lb ed="Bd" n="19"/>non habet ipsum in fundamento: </quote> sed
+<lb ed="Bd" n="20"/>qui charitatem habet, habet Christum in
+<lb ed="Bd" n="21"/>fundamento : ergo iste non cadit propter
+<lb ed="Bd" n="22"/>res temporales.
+</p>
+            <p xml:id="alalal-f11818-d1e446">
+               <lb ed="Bd" n="23"/>17.Item, Bernardus de Petro videtur
+<lb ed="Bd" n="24"/>velle propter negationem non amisisse
+<lb ed="Bd" n="25"/>Spiritum sanctum vel charitatem. Cum
+<lb ed="Bd" n="26"/>igitur negatio Christi maximum sit 
+om<lb break="no" ed="Bd" n="27"/>nium peccatorum, propter nullum 
+alio<lb break="no" ed="Bd" n="28"/>rum videtur posse perdi charitas.
+</p>
+            <p xml:id="alalal-f11818-d1e462">
+               <lb ed="Bd" n="29"/>18. Item, Bernardus in libro de 
+Dili<lb break="no" ed="Bd" n="30"/>gendo Deo: <quote xml:id="alalal-f11818-Qd1e468"> Numquam est charitas sine
+<lb ed="Bd" n="31"/>timore, sed casto : numquam sine 
+cupi<lb break="no" ed="Bd" n="32"/>ditate, sed ordinaia. </quote> Erga timor 
+expel<lb break="no" ed="Bd" n="33"/>lit peccatum, et cupiditas incommmutabilis
+<lb ed="Bd" n="34"/>boni numquam dat locum cupiditati boni
+<lb ed="Bd" n="35"/>commutabilis. Ergo numquam incidet
+<lb ed="Bd" n="36"/>aliquod peccatum : quia omne peccatuim,
+<lb ed="Bd" n="37"/>aut est ex timore male humilianie, aut
+<lb ed="Bd" n="38"/>ex cupiditate male inflammante, sicut dicit
+<lb ed="Bd" n="39"/>Glossa super illud Psalmi uxxrx, 17: 
+Jn<lb break="no" ed="Bd" n="40"/>censa tgni et suffossa, ab inerepatione
+<lb ed="Bd" n="41"/>vultus tui peribunt.
+</p>
+            <p xml:id="alalal-f11818-d1e497">
+               <lb ed="Bd" n="42"/>19. Item, I Joan. iv, 4: <quote xml:id="alalal-f11818-Qd1e501">Adulti 
+pseudo<lb break="no" ed="Bd" n="43"/>prophetae exierunt</quote>, etc. '. Glossa : <quote xml:id="alalal-f11818-Qd1e506"> 
+Naum<lb break="no" ed="Bd" n="44"/>quam erantin nobis de numero 
+haben<lb break="no" ed="Bd" n="45"/>tium charitatem. </quote>
+            </p>
+            <p xml:id="alalal-f11818-d1e514">
+               <lb ed="Bd" n="46"/>20. Item, Philosophus vult, quod 
+mu<lb break="no" ed="Bd" n="47"/>tabile et immutabile non sint ejusdem
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>rationis, nec ejusdem generis : constat
+<lb ed="Bd" n="49"/>autem, quod charitas vie, et claritas
+<lb ed="Bd" n="50"/>patrie sint ejusdem rationis: ergo cum
+<lb ed="Bd" n="51"/>charitas patrie sit immutabilis, charitas
+<lb ed="Bd" n="52"/>vie crit immutabilis. Plura etiam ad hoc
+<lb ed="Bd" n="53"/>inducit Magister in Litlera.
+</p>
+            <p xml:id="alalal-f11818-d1e536">
+               <lb ed="Bd" n="54"/>Sed 1n contrarium est quod
+<lb ed="Bd" n="55"/>1. Dicit Apostolus, I ad Corinth. x, 12,
+<lb ed="Bd" n="56"/>
+               <quote xml:id="alalal-f11818-Qd1e544">Qui se existimat stare, videat ne cadat</quote>:
+<lb ed="Bd" n="57"/>ergo cadere potest qui stat per 
+charita<lb break="no" ed="Bd" n="58"/>tem.
+</p>
+            <p xml:id="alalal-f11818-d1e552">
+               <lb ed="Bd" n="59"/>2. Item, Apocal. u, 4: <quote xml:id="alalal-f11818-Qd1e556">Habeo 
+adver<lb break="no" ed="Bd" n="60"/>sum te, quod charitatem luam primam
+<lb ed="Bd" n="61"/>reliquisti</quote>. Ergo derelinqui potest. Et
+<lb ed="Bd" n="62"/>quia hoc videmus continue fieri, sufficiant
+<lb ed="Bd" n="63"/>ista.
+</p>
+            <p xml:id="alalal-f11818-d1e568">
+               <lb ed="Bd" n="64"/>Solutio Dicendum, quod charitas 
+pot<lb break="no" ed="Bd" n="65"/>est amitti et recuperari sepius im via.
+</p>
+            <p xml:id="alalal-f11818-d1e575">
+               <lb ed="Bd" n="66"/>Ad primuM ergo dicendum, quod non
+<lb ed="Bd" n="67"/>est simile : quia Angelus secundum illam
+<lb ed="Bd" n="68"/>opinionem simul accipit charitatem et
+<lb ed="Bd" n="69"/>confirmationem, sed non homo : sed
+<lb ed="Bd" n="70"/>guoad actum gratificandi et diligendi 
+si<lb break="no" ed="Bd" n="71"/>mile est.
+</p>
+            <p xml:id="alalal-f11818-d1e592">
+               <lb ed="Bd" n="72"/>Ad aliud dicendum, quod peccatum
+<lb ed="Bd" n="73"/>non vincit charitatem : sed voluntas
+<lb ed="Bd" n="74"/>sponte abjicit eam, cum deflectitur ad id
+<lb ed="Bd" n="75"/>cum quo stare non potest.
+</p>
+            <p xml:id="alalal-f11818-d1e603">
+               <lb ed="Bd" n="76"/>Et per hoc patet solutio ad sequens.
+</p>
+            <p xml:id="alalal-f11818-d1e608">
+               <lb ed="Bd" n="77"/>Ad aliud dicendum, quod peccare 
+pri<lb break="no" ed="Bd" n="78"/>vatio est, et non contrarium aliquod 
+po<lb break="no" ed="Bd" n="79"/>nens.
+</p>
+            <p xml:id="alalal-f11818-d1e617">
+               <lb ed="Bd" n="80"/>Si forte dicitur, quod hoc est fuga et
+<lb ed="Bd" n="81"/>non responsio : dico tunc, quod haec falsa
+<lb ed="Bd" n="82"/>est, quod duo contraria nullo modo 
+pos<lb break="no" ed="Bd" n="83"/>sunt esse in eodem simul : sed duo 
+con<lb break="no" ed="Bd" n="84"/>traria, ita quod utrumque sit actu non
+<lb ed="Bd" n="85"/>possunt esse in eodem : sed cum 
+utrum<lb break="no" ed="Bd" n="86"/>que est in potentia, vel unum in actu et
+<lb ed="Bd" n="87"/>alterum in potentia, nihil prohibet esse
+<lb ed="Bd" n="88"/>in eodem. Et ita est hic: quia charitas in
+<lb ed="Bd" n="89"/>illo nunc simpliciter non inest, sed ut
+<lb ed="Bd" n="90"/>corrupta et recedendo, et peccatum ut in
+<lb ed="Bd" n="91"/>generatione et accedendo. Et est 
+instan<lb break="no" ed="Bd" n="92"/>tia contra propositionem in omni actione
+<lb ed="Bd" n="93"/>et passione physica.
+</p>
+            <p xml:id="alalal-f11818-d1e650">
+               <pb ed="#Bd" n="580"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Ad aliud dicendum, quod voluntas de
+<lb ed="Bd" n="2"/>se indifferens habilitatur charitate : sed
+<lb ed="Bd" n="3"/>numquam ita ante confirmationem 
+habi<lb break="no" ed="Bd" n="4"/>litatur, nisi possit sponte deponere 
+chari<lb break="no" ed="Bd" n="5"/>tatem, et deflecti in peccatum. Unde 
+ni<lb break="no" ed="Bd" n="6"/>hil cogit.
+</p>
+            <p xml:id="alalal-f11818-d1e670">
+               <lb ed="Bd" n="7"/>Ad aliud dicendum, quod hoc est 
+ve<lb break="no" ed="Bd" n="8"/>rum de motu in quo movens est per 
+in<lb break="no" ed="Bd" n="9"/>tentionem natures et non voluntatis.
+</p>
+            <p xml:id="alalal-f11818-d1e680">
+               <lb ed="Bd" n="10"/>Ad aliud dicendum, quod hic 
+intelligi<lb break="no" ed="Bd" n="11"/>tur de predestinatis et de peccato finali.
+<lb ed="Bd" n="12"/>Vel dicatur melius, quod quantum est in
+<lb ed="Bd" n="13"/>se, gceneratio per charitatem conservat
+<lb ed="Bd" n="14"/>eum: sedipse potest se perdcre,.
+</p>
+            <p xml:id="alalal-f11818-d1e693">
+               <lb ed="Bd" n="15"/>Et per hoc etiam patet solutio ad 
+se<lb break="no" ed="Bd" n="16"/>quens. .
+</p>
+            <p xml:id="alalal-f11818-d1e700">
+               <lb ed="Bd" n="17"/>Av auiup dicendum, quod hoc etiam
+<lb ed="Bd" n="18"/>esset verum, si donum de sua debilitate
+<lb ed="Bd" n="19"/>succumberet : hoc autem non est verum.
+</p>
+            <p xml:id="alalal-f11818-d1e709">
+               <lb ed="Bd" n="20"/>Ad aliudet ad sequens eodem modo
+<lb ed="Bd" n="21"/>dicendum est.
+</p>
+            <p xml:id="alalal-f11818-d1e716">
+               <lb ed="Bd" n="22"/>Av ariup dicendum, quod non 
+intelligi<lb break="no" ed="Bd" n="23"/>tur hoc quoad actum charitatis, sed quoad
+<lb ed="Bd" n="24"/>actum regiminis populi et prophetiae quae
+<lb ed="Bd" n="25"/>est gratia gratis data, et non gratum 
+fa<lb break="no" ed="Bd" n="26"/>ciens,
+</p>
+            <p xml:id="alalal-f11818-d1e729">
+               <lb ed="Bd" n="27"/>Ad satiup et ad sequens dicendum,
+<lb ed="Bd" n="28"/>quod quantum in se est, ipsa continet,
+<lb ed="Bd" n="29"/>sed tu potes excidere a vi contentiva.
+</p>
+            <p xml:id="alalal-f11818-d1e739">
+               <lb ed="Bd" n="30"/>Ad aliud dicendum, quod non 
+editica<lb break="no" ed="Bd" n="31"/>tur quoad permanentiam qui cadit, licet
+<lb ed="Bd" n="32"/>forte mdificatus fuerit quoad essentiam
+<lb ed="Bd" n="33"/>charitatis, sicut dicil Magister in 
+fit<lb break="no" ed="Bd" n="34"/>fera.
+</p>
+            <p xml:id="alalal-f11818-d1e752">
+               <lb ed="Bd" n="35"/>Ad aliud dicendum eodem modo.
+</p>
+            <p xml:id="alalal-f11818-d1e757">
+               <lb ed="Bd" n="36"/>Ad aliud dicendum, quod (sicut dicit
+<lb ed="Bd" n="37"/>Bernardus) intelligitur quoad propositum
+<lb ed="Bd" n="38"/>miserendi, et non quoad actum 
+separa<lb break="no" ed="Bd" n="39"/>tionis a charitate.
+</p>
+            <p xml:id="alalal-f11818-d1e768">
+               <lb ed="Bd" n="40"/>Ad aliud dicendum, quod hoc est 
+ve<lb break="no" ed="Bd" n="41"/>rum quamdiu est charitas : sed potest
+<lb ed="Bd" n="42"/>abjici per oppositum, ut prius dictum
+<lb ed="Bd" n="43"/>est.
+</p>
+            <p xml:id="alalal-f11818-d1e779">
+               <lb ed="Bd" n="44"/>Ad aliud eodem modo dicendum est.
+</p>
+            <p xml:id="alalal-f11818-d1e784">
+               <lb ed="Bd" n="45"/>Ad ultimum dicendum, quod hoc est
+<lb ed="Bd" n="46"/>verum de substantiis immutabilibus ex
+<lb ed="Bd" n="47"/>natura. Forme autem non sunt 
+mutabi<lb break="no" ed="Bd" n="48"/>les per se, sed per subjectum. Et ideo non
+<lb ed="Bd" n="49"/>tenet de illis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

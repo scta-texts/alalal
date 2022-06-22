@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="341"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d61596"><!-- l2d20dt -->
+            <head xml:id="alalal-d61596-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-d61596-d1e101">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="7"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-d61596-d1e108">
+               <lb ed="#Bc" n="8"/>
+               <quote xml:id="alalal-d61596-Qd1e112"> Post haec videndum est, qualiter 
+pri<lb break="no" ed="#Bc" n="9"/>mi parentes, etc. </quote>
+               <lb ed="#Bc" n="10"/>Hic agit de generatione primorum 
+pa<lb break="no" ed="#Bc" n="11"/>renium quae fuisset si non peccassent.
+<lb ed="#Bc" n="12"/>Kit dividitur in duas partes: in quarum
+<lb ed="#Bc" n="13"/>prima determinat modum generationis
+<lb ed="#Bc" n="14"/>ex parte actus : in secunda, ex parte 
+na<lb break="no" ed="#Bc" n="15"/>torum, ibi, D, <quote xml:id="alalal-d61596-Qd1e130"> Si vero queritur, 
+Qua<lb break="no" ed="#Bc" n="16"/>les, etc. </quote>
+            </p>
+            <p xml:id="alalal-d61596-d1e136">
+               <lb ed="#Bc" n="17"/>In prima parte sunt duo, scilicet 
+qua<lb break="no" ed="#Bc" n="18"/>liter per commixtionem convenissent,
+<lb ed="#Bc" n="19"/>et quamdiu in tali statu permansissent,
+<lb ed="#Bc" n="20"/>ibi, CG, <quote xml:id="alalal-d61596-Qd1e146"> De termino vero temporis, etc. </quote>
+            </p>
+            <p xml:id="alalal-d61596-d1e149">
+               <lb ed="#Bc" n="21"/>Et per hoc patet sententia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

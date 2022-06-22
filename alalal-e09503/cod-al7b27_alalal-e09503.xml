@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="644"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e09503"><!-- l2d41a5 -->
+            <head xml:id="alalal-e09503-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-e09503-Hd1e101" type="question-title">Utrum omnium infidelium opera de
+necessitate sint mala vel non ?</head>
+            <p xml:id="alalal-e09503-d1e104">
+               <lb ed="#Bc" n="73"/>ARTICULUS V.
+<lb ed="#Bc" n="74"/>Utrum omnium infidelium opera de
+<lb ed="#Bc" n="75"/>necessitate sint mala vel non ?
+</p>
+            <p xml:id="alalal-e09503-d1e113">
+               <lb ed="#Bc" n="76"/>Deinde quaeritur de his quae dicuntur .
+<lb ed="#Bc" n="77"/>in Littera : et primo de hoc quod dicit,-
+<lb ed="#Bc" n="78"/>ibi, A, <quote xml:id="alalal-e09503-Qd1e121"> Utrum omnis intentio, omneque
+<lb ed="#Bc" n="79"/>opus eorum malum sit, etc. </quote>
+            </p>
+            <p xml:id="alalal-e09503-d1e127">
+               <pb ed="#Bc" n="645"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Videtur enim hoc esse verum : quia
+<lb ed="#Bc" n="2"/>1. Non potest arbor bona fructus 
+ma<lb break="no" ed="#Bc" n="3"/>los facere, neque arbor mala, etc. '.
+<lb ed="#Bc" n="4"/>Constat autem, quod infidelis est arbor
+<lb ed="#Bc" n="5"/>mala : ergo non facit fructus bonos :
+<lb ed="#Bc" n="6"/>go non potest facere opera bona.
+</p>
+            <p xml:id="alalal-e09503-d1e148">
+               <lb ed="#Bc" n="7"/>2. Item, Infidelitas est habitus 
+contra<lb break="no" ed="#Bc" n="8"/>rius fidei : ergo dirigit ad contrarium
+<lb ed="#Bc" n="9"/>fidei : intentio autem recta in contrarium
+<lb ed="#Bc" n="10"/>fidei facit opus malum : ergo omne opus
+<lb ed="#Bc" n="11"/>infidelis est malum.
+</p>
+            <p xml:id="alalal-e09503-d1e161">
+               <lb ed="#Bc" n="12"/>SED CONTRA :
+<lb ed="#Bc" n="13"/>1. Opus civilium virtutum habebant
+<lb ed="#Bc" n="14"/>infideles : sed opera illa non sunt mala,
+<lb ed="#Bc" n="15"/>sed potius bona: ergo infidelis potest
+<lb ed="#Bc" n="16"/>facere opera bona.
+</p>
+            <p xml:id="alalal-e09503-d1e174">
+               <lb ed="#Bc" n="17"/>2. Item, Glossa quaedam supra 
+Mat<lb break="no" ed="#Bc" n="18"/>theum dicit, quod cum virtutibus 
+natu<lb break="no" ed="#Bc" n="19"/>ralibus multi veniunt ad Christum. Ergo
+<lb ed="#Bc" n="20"/>antequam veniant, habent virtutes 
+natu<lb break="no" ed="#Bc" n="21"/>rales : illarum autem virtutum opera
+<lb ed="#Bc" n="22"/>non sunt mala: ergo non omnia eorum
+<lb ed="#Bc" n="23"/>ante fidem sunt mala.
+</p>
+            <p xml:id="alalal-e09503-d1e192">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="24"/>Sotvutio. Dicendum, quod non omnium
+<lb ed="#Bc" n="25"/>infidelium opera de necessitate mala
+<lb ed="#Bc" n="26"/>sunt : sed omnia opera eorum de 
+neces<lb break="no" ed="#Bc" n="27"/>sitate sunt sine gratia gratum faciente, et
+<lb ed="#Bc" n="28"/>non meritoria, licet possint esse de 
+ge<lb break="no" ed="#Bc" n="29"/>nere bonorum, ut dicit secunda opinio
+<lb ed="#Bc" n="30"/>hic inducta : quia prior opinio quae huic
+<lb ed="#Bc" n="31"/>questioni in Littera respondet, falsa est.
+</p>
+            <p xml:id="alalal-e09503-d1e214">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="32"/>Ap primum ergo dicendum, quod arbor
+<lb ed="#Bc" n="33"/>non dicitur homo operans, neque 
+volun<lb break="no" ed="#Bc" n="34"/>tas instrumentum, sed voluntas actus 
+in<lb break="no" ed="#Bc" n="35"/>terior : et quod per se non per accidens
+<lb ed="#Bc" n="36"/>procedit ab illo, hoc informatur 
+secun<lb break="no" ed="#Bc" n="37"/>dum illam : et ideo si illa est mala, 
+ip<lb break="no" ed="#Bc" n="38"/>sum est malum: et si est bona, ipsum
+<lb ed="#Bc" n="39"/>est bonum. Et hoc etiam supra notatum
+<lb ed="#Bc" n="40"/>est. Homo autem malus in se bene 
+pot<lb break="no" ed="#Bc" n="41"/>est bonum facere, non in quantum ma-~
+<lb ed="#Bc" n="42"/>lus, sed in quantum motus pietate 
+natu<lb break="no" ed="#Bc" n="43"/>rali, vel bonitate virtutis politice.
+</p>
+            <p xml:id="alalal-e09503-d1e245">
+               <lb ed="#Bc" n="44"/>Ad aliud dicendum, quod infidelitas
+<lb ed="#Bc" n="45"/>secundum quod non dicit fidei 
+privatio<lb break="no" ed="#Bc" n="46"/>nem, sed habitum contrarium fidei qui
+<lb ed="#Bc" n="47"/>error vocatur, non semper dirigit infide—
+<lb ed="#Bc" n="48"/>lem : sed hoc verum est, quod 
+quoties<lb break="no" ed="#Bc" n="49"/>cumque dirigit eum, toties pervertit
+<lb ed="#Bc" n="50"/>opus. Dirigitur autem infidelis, sicut et
+<lb ed="#Bc" n="51"/>fidelis, quandoque lumine rationis 
+natu<lb break="no" ed="#Bc" n="52"/>ralis : et tunc potest facere opera quae
+ <lb ed="#Bc" n="53"/>sunt de genere bonorum. Quod autem
+<lb ed="#Bc" n="54"/>Augustinus dicit in Littera, quod falsa
+<lb ed="#Bc" n="55"/>virtus est in talibus, etiam in optimis
+<lb ed="#Bc" n="56"/>moribus, satis bene solvit secunda opinio
+<lb ed="#Bc" n="57"/>que dicitur falsa : quia quod promittit
+<lb ed="#Bc" n="58"/>quantum est de natura actus qui 
+ordina<lb break="no" ed="#Bc" n="59"/>tus est ad beatitudinem, non solvit 
+pro<lb break="no" ed="#Bc" n="60"/>pter contrariam dispositionem inventam
+<lb ed="#Bc" n="61"/>in subjecto operantis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

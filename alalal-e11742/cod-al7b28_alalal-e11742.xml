@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 17</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 17</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="58"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e11742"><!-- l3d3a17 -->
+            <head xml:id="alalal-e11742-Hd1e99">Articulus 17</head>
+            <head xml:id="alalal-e11742-Hd1e101" type="question-title">Quis sit finis annuntiationis ?</head>
+            <p xml:id="alalal-e11742-d1e104">
+               <lb ed="Bd" n="48"/>ARTICULUS XVII.
+<lb ed="Bd" n="49"/>Quis sit finis annuntiationis ?
+</p>
+            <p xml:id="alalal-e11742-d1e111">
+               <lb ed="Bd" n="50"/>Quinto quaeritur, Quis sit finis 
+annun<lb break="no" ed="Bd" n="51"/>tiationis ?
+</p>
+            <p xml:id="alalal-e11742-d1e118">
+               <lb ed="Bd" n="52"/>Et videtur, quod fides : quia
+<lb ed="Bd" n="53"/>1. Ita dicit Elisabeth, Luc. 1, 45 :
+<lb ed="Bd" n="54"/>
+               <quote xml:id="alalal-e11742-Qd1e126">Beata quae credidisti</quote>.
+</p>
+            <p xml:id="alalal-e11742-d1e130">
+               <lb ed="Bd" n="55"/>2. Item, Via vile dicitur fuisse Beate
+<lb ed="Bd" n="56"/>Virginis fides : ergo fuit finis 
+annuntia<lb break="no" ed="Bd" n="57"/>tlonis.
+</p>
+            <p xml:id="alalal-e11742-d1e139">
+               <lb ed="Bd" n="58"/>3. tem, In verbis Angeli persuasoris
+<lb ed="Bd" n="59"/>videtur hoc.
+</p>
+            <p xml:id="alalal-e11742-d1e146">
+               <lb ed="Bd" n="60"/>SED CONTRA :
+<lb ed="Bd" n="61"/>Fidem habuit Beata Virgo ante 
+annun<lb break="no" ed="Bd" n="62"/>tiationem : ergo non fuit finis 
+annuntia<lb break="no" ed="Bd" n="63"/>lionis : quia non acquirebatur ei.
+</p>
+            <p xml:id="alalal-e11742-d1e157">
+               <lb ed="Bd" n="64"/>Solutio Dicendum, quod duplex fuit
+<lb ed="Bd" n="65"/>finis : unus in Virgine, et hic est 
+consen<lb break="no" ed="Bd" n="66"/>sus, vel fides verborum Angeli, non 
+sim<lb break="no" ed="Bd" n="67"/>plex fides qua creditur in Deum, quia
+<lb ed="Bd" n="68"/>illam ante habuit : et per hoc patet 
+solu<lb break="no" ed="Bd" n="69"/>tio ad primum.
+</p>
+            <p xml:id="alalal-e11742-d1e173">
+               <lb ed="Bd" n="70"/>Alius finis fuit consequens, scilicet
+<lb ed="Bd" n="71"/>conceptio cl incarnalio Christi, non per
+<lb ed="Bd" n="72"/>annuntiationem operantem, sed ad hoc
+<lb ed="Bd" n="73"/>disponentem Virginem, ut in ea Spiritus
+<lb ed="Bd" n="74"/>sancti operatione fieret : et per hoc patel
+<lb ed="Bd" n="75"/>solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

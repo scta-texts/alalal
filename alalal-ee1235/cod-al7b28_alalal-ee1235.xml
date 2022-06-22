@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="7"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee1235"><!-- l3d1a2 -->
+            <head xml:id="alalal-ee1235-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-ee1235-Hd1e101" type="question-title">Quare Dei Filius ab initio humanam
+naturam non assumpsit ?</head>
+            <p xml:id="alalal-ee1235-d1e104">
+               <lb ed="Bd" n="37"/>ARTICULUS II.
+<lb ed="Bd" n="38"/>Quare Dei Filius ab initio humanam
+<lb ed="Bd" n="39"/>naturam non assumpsit ?
+</p>
+            <p xml:id="alalal-ee1235-d1e113">
+               <lb ed="Bd" n="40"/>Sed adhuc restat dubium, Quare non
+<lb ed="Bd" n="41"/>ab initio humanam naturam assumpsit ?
+</p>
+            <p xml:id="alalal-ee1235-d1e120">
+               <lb ed="Bd" n="42"/>Et objicitur sic :
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="43"/>1. Quando erat morbus, tempus erat
+<lb ed="Bd" n="44"/>medicine : sed ab initio erat morbus:
+<lb ed="Bd" n="45"/>ergo medicus ab initio incarnari debuit.
+</p>
+            <p xml:id="alalal-ee1235-d1e134">
+               <lb ed="Bd" n="46"/>2. Praeterea, Hoc videtur per simile
+<lb ed="Bd" n="47"/>ad morbum corporalem, qui quanto 
+in<lb break="no" ed="Bd" n="48"/>valescit diutius, tanto magis difficulter
+<lb ed="Bd" n="49"/>curatur : ergo videtur, quod a principio
+<lb ed="Bd" n="50"/>morbi conveniebat Filium incarnari.
+</p>
+            <p xml:id="alalal-ee1235-d1e147">
+               <lb ed="Bd" n="51"/>Solutio Dicendum, quod secus est in
+<lb ed="Bd" n="52"/>medicina spiritus, et in medicina 
+corpo<lb break="no" ed="Bd" n="53"/>ris : quia corporis medicina agit cum
+<lb ed="Bd" n="54"/>nalura et juvat illam, et hoc per actiones
+<lb ed="Bd" n="55"/>primarum qualitatum, quae non agunt
+<lb ed="Bd" n="56"/>voluntarie nec per intellectum : et ideo
+<lb ed="Bd" n="57"/>melius est illi morbo occurrere in 
+prin<lb break="no" ed="Bd" n="58"/>cipio, quamdiu natura fortis esl, 
+ante<lb break="no" ed="Bd" n="59"/>quam succumbat. Sed medicina 
+spiritua<lb break="no" ed="Bd" n="60"/>lis non agit nisi cum nostra voluntate ad
+<lb ed="Bd" n="61"/>minus consentiente : ad consensum 
+au<lb break="no" ed="Bd" n="62"/>tem hujusmodi requiritur precognitio
+<lb ed="Bd" n="63"/>morbi, et medicine, et indigentiae : quia
+<lb ed="Bd" n="64"/>aliter non sufficienter amplecteretur 
+me<lb break="no" ed="Bd" n="65"/>dicum et medicinam, et non valet nisi
+<lb ed="Bd" n="66"/>ferventer desideretur. Etideo consequens
+<lb ed="Bd" n="67"/>fuit (ut dicunt Sancli) prius facere 
+inno<lb break="no" ed="Bd" n="68"/>tescere morbum, et quod non esset 
+au<lb break="no" ed="Bd" n="69"/>xilium per naturam, vel legis 
+obedien<lb break="no" ed="Bd" n="70"/>tiam sine gratia, et postea veneretur
+<lb ed="Bd" n="71"/>medicum cum medecina.
+</p>
+            <p xml:id="alalal-ee1235-d1e195">
+               <lb ed="Bd" n="72"/>Et per hoc patet solutio utriusque 
+ob<lb break="no" ed="Bd" n="73"/>jectorum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

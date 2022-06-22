@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="26"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-aa4878"><!-- l1d1a11 -->
+            <head xml:id="alalal-aa4878-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-aa4878-Hd1e101" type="question-title">An homines medii sint inter res utibiles,
+et fruibiles ?</head>
+            <p xml:id="alalal-aa4878-d1e104">
+               <lb ed="#Ba" n="51"/>ARTICULUS XI.
+<lb ed="#Ba" n="52"/>An homines medii sint inter res utibiles,
+<lb ed="#Ba" n="53"/>et fruibiles ?
+</p>
+            <p xml:id="alalal-aa4878-d1e113">
+               <lb ed="#Ba" n="54"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="55"/>
+               <quote xml:id="alalal-aa4878-Qd1e119"> Res vero quae fruuntur et utuntur,
+<lb ed="#Ba" n="56"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-aa4878-d1e125">
+               <lb ed="#Ba" n="57"/>Contra :
+<lb ed="#Ba" n="58"/>1. Infra dicit, quod utimur hominibus
+<lb ed="#Ba" n="59"/>quos diligimus, et etiam Angelis : ergo
+<lb ed="#Ba" n="60"/>homines et Angeli continentur sub 
+utibi<lb break="no" ed="#Ba" n="61"/>libus : non igitur faciunt tertium 
+mem<lb break="no" ed="#Ba" n="62"/>brum in divisione.
+</p>
+            <p xml:id="alalal-aa4878-d1e142">
+               <lb ed="#Ba" n="63"/>2. Item, Omne quod est, aut est finis,
+<lb ed="#Ba" n="64"/>aut ad finem : sed sicut differunt finis, et
+<lb ed="#Ba" n="65"/>id quod est ad finem, sic differunt 
+utibi<lb break="no" ed="#Ba" n="66"/>le, et fruibile : ergo omne quod est, aut
+<lb ed="#Ba" n="67"/>est utibile, aut fruibile : et sic peccat
+<lb ed="#Ba" n="68"/>tertium membrum apponendo.
+</p>
+            <p xml:id="alalal-aa4878-d1e158">
+               <lb ed="#Ba" n="69"/>3. Praeterea, quaeritur ulterius de hoc
+<lb ed="#Ba" n="70"/>quod dicit : <quote xml:id="alalal-aa4878-Qd1e164"> Inter utrasgue constituli,
+<lb ed="#Ba" n="71"/>etc. </quote> Ex hoc enim videtur, quod utibilia
+<lb ed="#Ba" n="72"/>sunt sub homine, et fruibilia super eum.
+<lb ed="#Ba" n="73"/>Sed contra : Augustinus in libro de
+<lb ed="#Ba" n="74"/>libero arbitrio : <quote xml:id="alalal-aa4878-Qd1e176"> Virtutes sine quibus
+<lb ed="#Ba" n="75"/>recte vivi non potest, et quibus recte
+<lb ed="#Ba" n="76"/>vivilur, maxima bona sunt : potenti
+<lb ed="#Ba" n="77"/>autem anime sine quibus recte vivi
+<lb ed="#Ba" n="78"/>non potest, et quibus non de 
+necessi<lb break="no" ed="#Ba" n="79"/>tate vivitur recte, media bona sunt :
+<lb ed="#Ba" n="80"/>species autem quorumlibet corporum,
+<lb ed="#Ba" n="81"/>sine quibus recte vivitur, minima bona
+<lb ed="#Ba" n="82"/>sunt : </quote> ergo videtur homo non esse in
+<lb ed="#Ba" n="83"/>mediis bonis.
+</p>
+            <p xml:id="alalal-aa4878-d1e199">
+               <lb ed="#Ba" n="84"/>4. Praeterea, Virtutibus utimur, ut 
+in<lb break="no" ed="#Ba" n="85"/>fra dicet : et tamen Augustinus dicit ip~
+<lb ed="#Ba" n="86"/>sas magna bona esse.
+</p>
+            <p xml:id="alalal-aa4878-d1e208">
+               <pb ed="#Ba" n="27"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>5. Item, Majus bonum est quo bene
+<lb ed="#Ba" n="2"/>vivilur et nemo male utitur, quam quo
+<lb ed="#Ba" n="3"/>quis male uti potest : sed virtutibus
+<lb ed="#Ba" n="4"/>nemo male utitur, ut habetur per 
+Au<lb break="no" ed="#Ba" n="5"/>gustinum, in hujus voluminis secundo,
+<lb ed="#Ba" n="6"/>distinct. 28 : ergo virtutes majus bonum
+<lb ed="#Ba" n="7"/>sunt quam homo.
+</p>
+            <p xml:id="alalal-aa4878-d1e230">
+               <lb ed="#Ba" n="8"/>6. Praeterea, Hoc est medium quod
+<lb ed="#Ba" n="9"/>conjungit extrema : sed extrema sunt
+<lb ed="#Ba" n="10"/>heatificans et beatificabile : ergo illud
+<lb ed="#Ba" n="11"/>quod conjungit ea est medium : sed 
+uti<lb break="no" ed="#Ba" n="12"/>bile conjungit ea : ergo ipsum est 
+me<lb break="no" ed="#Ba" n="13"/>dium : non ergo nos medium sumus 
+in<lb break="no" ed="#Ba" n="14"/>ter utibilia, et fruibilia.
+</p>
+            <p xml:id="alalal-aa4878-d1e248">
+               <lb ed="#Ba" n="15"/>Sororio. Dicendum, quod divisio ista
+<lb ed="#Ba" n="16"/>datur penes ca quae exiguntur ad 
+pro<lb break="no" ed="#Ba" n="17"/>gressum rationalis creature in Deum :
+<lb ed="#Ba" n="18"/>exiguntur autem tria, scilicet 
+progre<lb break="no" ed="#Ba" n="19"/>diens, et via, et terminus. Progrediens
+<lb ed="#Ba" n="20"/>est homo, via vero utibile, et terminus
+<lb ed="#Ba" n="21"/>fruibile.
+</p>
+            <p xml:id="alalal-aa4878-d1e267">
+               <lb ed="#Ba" n="22"/>Ap 1 ergo quod primo contra 
+objici<lb break="no" ed="#Ba" n="23"/>tur, dicendum quod secundum largam
+<lb ed="#Ba" n="24"/>acceptionem utibilis, homo et Angelus
+<lb ed="#Ba" n="25"/>sub utibili continentur : sed nihilominus
+<lb ed="#Ba" n="26"/>habent et aliam relationem ad viam in
+<lb ed="#Ba" n="27"/>fruibile, scilicet ut utentes et fruentes, et
+<lb ed="#Ba" n="28"/>secundum hoc quod addunt super utibile
+<lb ed="#Ba" n="29"/>homo et Angelus, sic constituunt tertium
+<lb ed="#Ba" n="30"/>membrum in divisione.
+</p>
+            <p xml:id="alalal-aa4878-d1e289">
+               <lb ed="#Ba" n="31"/>Ad aliud dicendum, quod utibile in
+<lb ed="#Ba" n="32"/>acceptione passiva consideratum, non
+<lb ed="#Ba" n="33"/>dicit utentem, et sic non supponit omne
+<lb ed="#Ba" n="34"/>id quod est ad finem, sed tantum id quod
+<lb ed="#Ba" n="35"/>est ut via ad finem, et non id quod est ut
+<lb ed="#Ba" n="36"/>progrediens in illa : et ideo finis, et illud
+<lb ed="#Ba" n="37"/>quod est ad finem, non omnino se habent
+<lb ed="#Ba" n="38"/>sicut utibile et fruibile, nisi utibile valde
+<lb ed="#Ba" n="39"/>large accipiatur prout comprehendit
+<lb ed="#Ba" n="40"/>utentem qui est ad finem ut progrediens,
+<lb ed="#Ba" n="41"/>et utibile quod est ad finem ut via.
+</p>
+            <p xml:id="alalal-aa4878-d1e315">
+               <lb ed="#Ba" n="42"/>Ad aliud dicendum, quod bonum aliter
+<lb ed="#Ba" n="43"/>et aliter accipitur ab Augustino, in libro
+<lb ed="#Ba" n="44"/>de libero arbitrio, et hic. lbi enim 
+atten<lb break="no" ed="#Ba" n="45"/>ditur comparatio boni secundum ordinem
+<lb ed="#Ba" n="46"/>cause ad faciendam certitudinem in vita
+<lb ed="#Ba" n="47"/>et opere : unde majus bonum est quod
+<lb ed="#Ba" n="48"/>se habet ut causa immediata et perfecta
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="49"/>ad bonam vilam, sicut virtus, quam id
+<lb ed="#Ba" n="50"/>quod se habet ut causa insufficiens et
+<lb ed="#Ba" n="51"/>remota, sicut sunt potentic rationalis
+<lb ed="#Ba" n="52"/>anime, voluntas, et intellectus, et aliz,
+<lb ed="#Ba" n="53"/>sine quibus quidem non est vita recta,
+<lb ed="#Ba" n="54"/>et tamen non faciunt eam. Species autem
+<lb ed="#Ba" n="55"/>corporum, ut pulchritudo, sanitas, et
+<lb ed="#Ba" n="56"/>hujusmodi, non habent nisi modicam
+<lb ed="#Ba" n="57"/>causam per accidens et occasionaliter ad
+<lb ed="#Ba" n="58"/>illam. Hic autem attenditur comparatio
+<lb ed="#Ba" n="59"/>inter progressum ad beatitudinem, et
+<lb ed="#Ba" n="60"/>ea quae perficiunt illam : et ideo 
+maxi<lb break="no" ed="#Ba" n="61"/>mum est beatificans : medium autem
+<lb ed="#Ba" n="62"/>ulud quod beatitudinem participat : 
+mi<lb break="no" ed="#Ba" n="63"/>nimum autem quod non participat, et
+<lb ed="#Ba" n="64"/>tamen juvat ad participationem ipsius.
+<lb ed="#Ba" n="65"/>Et non est inconveniens diversas esse
+<lb ed="#Ba" n="66"/>comparationes secundum diversas 
+ratio<lb break="no" ed="#Ba" n="67"/>nes bonorum.
+</p>
+            <p xml:id="alalal-aa4878-d1e376">
+               <lb ed="#Ba" n="68"/>Ad aliud dicendum, quod  virtutes
+<lb ed="#Ba" n="69"/>maxima bona sunt formata secundum
+<lb ed="#Ba" n="70"/>perfectionem vite : sed minora sunt in
+<lb ed="#Ba" n="71"/>ordine ad beatitudinis participationem,
+<lb ed="#Ba" n="72"/>quam natura rationalis quae participat
+<lb ed="#Ba" n="73"/>eam secundum vitam et gustum. Et per
+<lb ed="#Ba" n="74"/>hoc etiam patet solutio ad sequens.
+</p>
+            <p xml:id="alalal-aa4878-d1e394">
+               <lb ed="#Ba" n="75"/>Ad ultimum dicendum, quod virtus est
+<lb ed="#Ba" n="76"/>medium, et natura rationalis est medium
+<lb ed="#Ba" n="77"/>diversis respectibus : virtus enim est
+<lb ed="#Ba" n="78"/>media ut dispositio jungens, et similiter
+<lb ed="#Ba" n="79"/>beatitudo creata. Rationalis autem 
+na<lb break="no" ed="#Ba" n="80"/>tura est media per participationem
+<lb ed="#Ba" n="81"/>utriusque extremorum. Ipsa enim 
+par<lb break="no" ed="#Ba" n="82"/>ticipat usum utibilis, et fructum 
+beatufi<lb break="no" ed="#Ba" n="83"/>cantis, et sic loquitur hic Augustinus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

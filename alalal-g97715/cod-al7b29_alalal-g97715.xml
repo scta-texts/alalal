@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="468"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g97715"><!-- l4d15dt1 -->
+            <head xml:id="alalal-g97715-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-g97715-d1e101">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="19"/>DIVISIO TEXTUS. 
+</p>
+            <p xml:id="alalal-g97715-d1e108">
+               <lb ed="#Be" n="20"/>
+               <quote xml:id="alalal-g97715-Qd1e112"> Et sicut praedictis auctoritatibus,
+<lb ed="#Be" n="21"/>etc. </quote>
+               <lb ed="#Be" n="22"/>Hic incipit pars illa in qua elidit 
+erro<lb break="no" ed="#Be" n="23"/>rem secundum, hunc scilicet quod de
+<lb ed="#Be" n="24"/>uno peccato possit poenitentia agi, alio 
+<lb ed="#Be" n="25"/>peccato in delectatione retento.
+</p>
+            <p xml:id="alalal-g97715-d1e127">
+               <lb ed="#Be" n="26"/>Et dividitur haec pars in duas partes. 
+<lb ed="#Be" n="27"/>In prima objicit ex canone, et solvit. In 
+<lb ed="#Be" n="28"/>secunda objicit ex dictis Patrum, et 
+sol<lb break="no" ed="#Be" n="29"/>vit.
+</p>
+            <p xml:id="alalal-g97715-d1e138">
+               <lb ed="#Be" n="30"/>Prima pars subdividitur in duas, 
+scili<lb break="no" ed="#Be" n="31"/>ect in objectionem, et solutionem.
+<cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="32"/>Secunda incipit, ibi, A, § 2: <quote xml:id="alalal-g97715-Qd1e148"> Sed de
+<lb ed="#Be" n="33"/>his oportet tantum illud intelligi, etc. </quote>
+            </p>
+            <p xml:id="alalal-g97715-d1e155">
+               <lb ed="#Be" n="34"/>In capitulo isto tria facit. Primo 
+erro<lb break="no" ed="#Be" n="35"/>rem recitat : deinde, pro errore illo 
+au<lb break="no" ed="#Be" n="36"/>ctoritatem primo inducit : tertio, format
+<lb ed="#Be" n="37"/>objectionem ex sententia auctoritatis. Et
+<lb ed="#Be" n="38"/>hec patent in Littera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

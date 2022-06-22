@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="426"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e81289"><!-- l3d23a12 -->
+            <head xml:id="alalal-e81289-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-e81289-Hd1e101" type="question-title">An fides sit una vel differens secundum
+credibilia, sicut scientia secundum
+scibilia ?</head>
+            <p xml:id="alalal-e81289-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="8"/>ARTICULUS XII.
+<lb ed="Bd" n="9"/>An fides sit una vel differens secundum
+<lb ed="Bd" n="10"/>credibilia, sicut scientia secundum
+<lb ed="Bd" n="11"/>scibilia ?
+</p>
+            <p xml:id="alalal-e81289-d1e117">
+               <lb ed="Bd" n="12"/>Deinde quaeritur de capitulo F, ibi,
+<lb ed="Bd" n="13"/>
+               <quote xml:id="alalal-e81289-Qd1e123"> Cumque diversis modis dicatur fides,
+<lb ed="Bd" n="14"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-e81289-d1e129">
+               <lb ed="Bd" n="15"/>Videtur enim fides non esse una.
+<lb ed="Bd" n="16"/>1. Cum enim quaedam scientia sit
+<lb ed="Bd" n="17"/>fides, vel non sine scientia, et differat
+<lb ed="Bd" n="18"/>scientia secundum scibilia: videtur
+<lb ed="Bd" n="19"/>etiam, quod fides differat secundum 
+cre<lb break="no" ed="Bd" n="20"/>dibilia. Credibilia autem sunt multa:
+<lb ed="Bd" n="21"/>quia articuli sunt credibilia, qui sunt 
+duo<lb break="no" ed="Bd" n="22"/>decim, vel quatuordecim secundum 
+di<lb break="no" ed="Bd" n="23"/>versas divisiones symbolorum :
+<lb ed="Bd" n="24"/>fides non est una.
+</p>
+            <p xml:id="alalal-e81289-d1e154">
+               <lb ed="Bd" n="25"/>2. Item, Sapientia et scientia 
+distin<lb break="no" ed="Bd" n="26"/>guuntur a se invicem: quia unaest de
+<lb ed="Bd" n="27"/>eternis, altera de temporalibus : ergo
+<lb ed="Bd" n="28"/>eodem modo differt fides de 
+temporali<lb break="no" ed="Bd" n="29"/>bus, ab illa quae est de aeternis : est 
+au<lb break="no" ed="Bd" n="30"/>tem de aeternis et temporalibus, ut 
+dici<lb break="no" ed="Bd" n="31"/>tur in Littera: ergo est diversa.
+</p>
+            <p xml:id="alalal-e81289-d1e172">
+               <lb ed="Bd" n="32"/>3. Item, Timor qui est respectu 
+pce<lb break="no" ed="Bd" n="33"/>narum aeternarum, differt a dilectione
+<lb ed="Bd" n="34"/>que est de aeterno bono, et spe quae est
+<lb ed="Bd" n="35"/>de aeternis bonis : ergo et fides quae est
+<lb ed="Bd" n="36"/>quoad illos articulos qui sunt de pe-
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="37"/>nis aeternis, differt ab illa fide quae est
+<lb ed="Bd" n="38"/>de, etc. : et sic iterum diversa est fides,
+<lb ed="Bd" n="39"/>et non una.
+</p>
+            <p xml:id="alalal-e81289-d1e194">
+               <lb ed="Bd" n="40"/>4. Si autem tu dicas, quod fides est in
+<lb ed="Bd" n="41"/>affectione voluntatis magis quam in 
+co<lb break="no" ed="Bd" n="42"/>gnitione, et non diversificatur ut 
+scien<lb break="no" ed="Bd" n="43"/>tia : hoc nihil est: quia etiam voluntates
+<lb ed="Bd" n="44"/>differunt secundum volita: ergo fides
+<lb ed="Bd" n="45"/>tendens in unum articulum, non est fides
+<lb ed="Bd" n="46"/>tendens in alium, ut videtur.
+</p>
+            <p xml:id="alalal-e81289-d1e212">
+               <lb ed="Bd" n="47"/>SED CONTRA :
+<lb ed="Bd" n="48"/>In omnibus articulis supponitur ut
+<lb ed="Bd" n="49"/>creditum essentiale et finale, prima 
+ve<lb break="no" ed="Bd" n="50"/>ritas : haec autem est una in omnibus
+<lb ed="Bd" n="51"/>articulis : ergo et fides.
+</p>
+            <p xml:id="alalal-e81289-d1e225">
+               <lb ed="Bd" n="52"/>Ulterius quaeritur de hoc quod dicit,
+<lb ed="Bd" n="53"/>
+               <quote xml:id="alalal-e81289-Qd1e231"> fidem qua creditur, esse unam genere,
+<lb ed="Bd" n="54"/>et non specie. </quote> Videtur enim specie
+<lb ed="Bd" n="55"/>una : quia non differt in me et in te per
+<lb ed="Bd" n="56"/>differentiam speciei, sed potius per 
+ma<lb break="no" ed="Bd" n="57"/>teriam tantum.
+</p>
+            <p xml:id="alalal-e81289-d1e244">
+               <lb ed="Bd" n="58"/>Solutio Dicendum, quod fides penes
+<lb ed="Bd" n="59"/>ralionem et primum subjectum crediti,
+<lb ed="Bd" n="60"/>est una numero : quia ratio una est 
+cre<lb break="no" ed="Bd" n="61"/>dendi in omnibus articulis, scilicet 
+pri<lb break="no" ed="Bd" n="62"/>ma veritas, et hac abstrahitur ab omni
+<lb ed="Bd" n="63"/>articulo : non enim credo passum 
+Chri<lb break="no" ed="Bd" n="64"/>stum, quia passus est, sed propter 
+pri<lb break="no" ed="Bd" n="65"/>mam veritatem, et sic de aliis. Objectum
+<lb ed="Bd" n="66"/>autem primum fidei est unum, scilicet
+<lb ed="Bd" n="67"/>creditum, scilicet prima veritas circa quam
+<lb ed="Bd" n="68"/>est fides in omni credito. Sed 
+subje<lb break="no" ed="Bd" n="69"/>ctum contractum et specificatum per 
+ma<lb break="no" ed="Bd" n="70"/>teriam articuli, non est unum, sed potius
+<pb ed="#Bd" n="427"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>sic sunt duodecim, vel quatuordecim.
+<lb ed="Bd" n="2"/>Sic patet solutio ad primum.
+</p>
+            <p xml:id="alalal-e81289-d1e284">
+               <lb ed="Bd" n="3"/>Ad aliud dicendum, quod non est 
+si<lb break="no" ed="Bd" n="4"/>mile : quia scientia accipit rationem a
+<lb ed="Bd" n="5"/>consideratione juris temporalis, et 
+sa<lb break="no" ed="Bd" n="6"/>pientia a consideratione rationum 
+eter<lb break="no" ed="Bd" n="7"/>narum: et ideo differunt sapientia et
+<lb ed="Bd" n="8"/>scientia, sicut temporale et aeternum :
+<lb ed="Bd" n="9"/>sed fidei credilum non est de temporali
+<lb ed="Bd" n="10"/>ut temporale est, sed ut materia aterni
+<lb ed="Bd" n="11"/>et prime veritatis, et ideo non accipit
+<lb ed="Bd" n="12"/>ab ipso differentiam speciei.
+</p>
+            <p xml:id="alalal-e81289-d1e308">
+               <lb ed="Bd" n="13"/>Ad aliud dicendum, quod timor 
+con<lb break="no" ed="Bd" n="14"/>sistit in simplici affectu fugiente, et spes
+<lb ed="Bd" n="15"/>in aeternis : quia timor accipit rationem
+<lb ed="Bd" n="16"/>a poena in eo quod est malum, et ideo
+<lb ed="Bd" n="17"/>opponitur spei quae est de wterno in eo
+<lb ed="Bd" n="18"/>quod bonum vel indeficiens : sed fides
+<lb ed="Bd" n="19"/>non est de penis ut pene sunt malum,
+<lb ed="Bd" n="20"/>sed potius ut subjecte sunt prime 
+veri<lb break="no" ed="Bd" n="21"/>tati: et ideo in hoc non differunt articuli
+<lb ed="Bd" n="22"/>pene aeterne ab articulo in quo creditur
+<lb ed="Bd" n="23"/>gloria aeterna, quia utramque est prima
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="24"/>veritas credita : et ideo non est simile
+<lb ed="Bd" n="25"/>quod inducitur.
+</p>
+            <p xml:id="alalal-e81289-d1e341">
+               <lb ed="Bd" n="26"/>Ad aliud dicendum, quod etiamsi 
+fi<lb break="no" ed="Bd" n="27"/>des dicatur affectio, non tamen dicetur
+<lb ed="Bd" n="28"/>diversificari : quia non intendit in 
+di<lb break="no" ed="Bd" n="29"/>versa ratione diversorum, sed ratione
+<lb ed="Bd" n="30"/>unius quod subjicitur in omnibus, quod
+<lb ed="Bd" n="31"/>est prima veritas.
+</p>
+            <p xml:id="alalal-e81289-d1e357">
+               <lb ed="Bd" n="32"/>Ad aliud dicendum, quod genus vocat
+<lb ed="Bd" n="33"/>hic quod predicatur de pluribus 
+diffe<lb break="no" ed="Bd" n="34"/>rentibus specie, ita quod materiales 
+ac<lb break="no" ed="Bd" n="35"/>cipiantur species ex parte multitudinis
+<lb ed="Bd" n="36"/>articulorum. Quidam dixerunt, quod
+<lb ed="Bd" n="37"/>genere est una, id est, generatione. Vel
+<lb ed="Bd" n="38"/>dicatur, quod ratione statuum dicitur
+<lb ed="Bd" n="39"/>una genere : quia status diversificat 
+quo<lb break="no" ed="Bd" n="40"/>ad species articulos in enuntiationibus
+<lb ed="Bd" n="41"/>acceptos, licet non accepti sint in re
+<lb ed="Bd" n="42"/>unus, ut si dicatur Christum esse 
+incar<lb break="no" ed="Bd" n="43"/>natum, et Christum fore incarnandum,
+<lb ed="Bd" n="44"/>et sic de aliis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

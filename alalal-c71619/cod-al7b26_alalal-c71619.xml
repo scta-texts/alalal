@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="377"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c71619"><!-- l1d43a1 -->
+            <head xml:id="alalal-c71619-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-c71619-Hd1e101" type="question-title">An potentia Dei sit infinita ?</head>
+            <p xml:id="alalal-c71619-d1e104">
+               <lb ed="#Bb" n="79"/>ARTICULUS I.
+<lb ed="#Bb" n="80"/>An potentia Dei sit infinita ?
+</p>
+            <p xml:id="alalal-c71619-d1e111">
+               <lb ed="#Bb" n="81"/>Incidunt autem hic tria dubia, 
+quo<lb break="no" ed="#Bb" n="82"/>rum primum est, An potentia Dei sit
+<lb ed="#Bb" n="83"/>infinita, sicut videtur supponere in Lié-
+<lb ed="#Bb" n="84"/>tera ?
+</p>
+            <p xml:id="alalal-c71619-d1e122">
+               <lb ed="#Bb" n="85"/>Secundum est, Utrum potest finin
+<lb ed="#Bb" n="86"/>ad actum, vel non ?
+</p>
+            <p xml:id="alalal-c71619-d1e130">
+               <lb ed="#Bb" n="87"/>Tertium est de hoc quod dicit in Lié-
+<lb ed="#Bb" n="88"/>tera, Utrum extendat se ad alia, quam
+<lb ed="#Bb" n="89"/>bonum et justum sit fieri in opere ? hoc
+<lb ed="#Bb" n="90"/>est querere, Utrum aliqua faciat, que
+<lb ed="#Bb" n="91"/>nec bonum nec justum est fieri ?
+</p>
+            <p xml:id="alalal-c71619-d1e143">
+               <pb ed="#Bb" n="378"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>Ad primum proceditur sic :
+<lb ed="#Bb" n="2"/>1. Dicit Hilarius : <quote xml:id="alalal-c71619-Qd1e153"> Quod impossibile
+<lb ed="#Bb" n="3"/>est intelligere homini, Deo possibile est: </quote>
+               <lb ed="#Bb" n="4"/>sed impossibile est intelligere infinitum :
+<lb ed="#Bb" n="5"/>ergo secundum potentiam ipse est 
+in<lb break="no" ed="#Bb" n="6"/>finitus.
+</p>
+            <p xml:id="alalal-c71619-d1e166">
+               <lb ed="#Bb" n="7"/>2. Item, Hilarius : <quote xml:id="alalal-c71619-Qd1e170"> Parum est ut
+<lb ed="#Bb" n="8"/>Deus possit facere quod_vult, quin etiam
+<lb ed="#Bb" n="9"/>possit facere quod dicit: perfect enim
+<lb ed="#Bb" n="10"/>potestatis est 1d naturam posse facientis,
+<lb ed="#Bb" n="11"/>quod significare potest sermo dicentis. </quote>
+            </p>
+            <p xml:id="alalal-c71619-d1e182">
+               <lb ed="#Bb" n="12"/>3 Item, <name xml:id="alalal-c71619-Nd1e186">Basilius</name> : <quote xml:id="alalal-c71619-Qd1e188"> Plus potest Deus
+<lb ed="#Bb" n="13"/>facere, quam tu possis cogitare. </quote>
+            </p>
+            <p xml:id="alalal-c71619-d1e194">
+               <lb ed="#Bb" n="14"/>4. Item, Super illud Psalmi oxvin, 81
+<lb ed="#Bb" n="15"/>et 114: Et in verbum tuum 
+superspera<lb break="no" ed="#Bb" n="16"/>vu: dicit Glossa Potentia Dei est super
+<lb ed="#Bb" n="17"/>omne quod potest homo intelligere.
+</p>
+            <p xml:id="alalal-c71619-d1e205">
+               <lb ed="#Bb" n="18"/>5 Item, Damascenus dicit, <quote xml:id="alalal-c71619-Qd1e209"> quod 
+infi<lb break="no" ed="#Bb" n="19"/>nitum est, quod nec loco, nec tempore,
+<lb ed="#Bb" n="20"/>nec intellectu circumseribitur</quote> - potentia
+<lb ed="#Bb" n="21"/>autem Dei nullo istorum = 
+circumseribi<lb break="no" ed="#Bb" n="22"/>tur: ergo est infinita.
+</p>
+            <p xml:id="alalal-c71619-d1e222">
+               <lb ed="#Bb" n="23"/>6. Item, Potentia Dei respondet 
+essen<lb break="no" ed="#Bb" n="24"/>tiae . essentia autem imfinita est : quia
+<lb ed="#Bb" n="25"/>non finitur ad aliquid, eo quod nec
+<lb ed="#Bb" n="26"/>habeat principium, nec finem : ergo et
+<lb ed="#Bb" n="27"/>potentia.
+</p>
+            <p xml:id="alalal-c71619-d1e235">
+               <lb ed="#Bb" n="28"/>7. Item, Omnis virtus (ut dicitur in
+<lb ed="#Bb" n="29"/>libro Causarum) quanto magis est 
+uni<lb break="no" ed="#Bb" n="30"/>ta, tanto magis est infinita: sua autem
+<lb ed="#Bb" n="31"/>maxime est unita ergo, ete.
+</p>
+            <p xml:id="alalal-c71619-d1e246">
+               <lb ed="#Bb" n="32"/>8. Item, Etiam Philosophi dicunt, quod
+<lb ed="#Bb" n="33"/>motor cceli est infinite virtutis, quia
+<lb ed="#Bb" n="34"/>movet motu infinito et tempore infinito:
+<lb ed="#Bb" n="35"/>ergo videtur, quod multo magis Deus
+<lb ed="#Bb" n="36"/>erit potenti infinite.
+</p>
+            <p xml:id="alalal-c71619-d1e259">
+               <lb ed="#Bb" n="37"/>9. Item, Si est finite potentiae, finitur
+<lb ed="#Bb" n="38"/>ad aliquid : istud ergo finitum est: ergo
+<lb ed="#Bb" n="39"/>potest cogitari eo majus : ergo Deus non
+<lb ed="#Bb" n="40"/>est majus quam cogitari possit, quod
+<lb ed="#Bb" n="41"/>improbatum est ab Anselmo : ergo 
+vide<lb break="no" ed="#Bb" n="42"/>tur, quod Deus sit infinite potentia.
+</p>
+            <p xml:id="alalal-c71619-d1e275">
+               <lb ed="#Bb" n="43"/>SED CONTRA .
+<lb ed="#Bb" n="44"/>1. Nihil omni modo infinitum est 
+per<lb break="no" ed="#Bb" n="45"/>fectum, ut dicit Philosophus : sed omni
+<lb ed="#Bb" n="46"/>modo est infinite potentiae : ergo uullo
+<lb ed="#Bb" n="47"/>modo est potenti perfect. Si forte 
+di<lb break="no" ed="#Bb" n="48"/>ceres, quod dictum Philosophi non esset
+<lb ed="#Bb" n="49"/>verum, probatur sic: Omnis perfectio
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="50"/>aut est finis, aut a fine : constat autem,
+<lb ed="#Bb" n="51"/>quod Deus non habet perfectionem 
+po<lb break="no" ed="#Bb" n="52"/>tentiae ab alio fine : ergo ipse est 
+perfe<lb break="no" ed="#Bb" n="53"/>ctus, quia finis essentialiter est 
+secun<lb break="no" ed="#Bb" n="54"/>dum potentiam : finis autem nullus 
+in<lb break="no" ed="#Bb" n="55"/>finitus est, quia nihil finiret si infinitus
+<lb ed="#Bb" n="56"/>esset : ergo probatum est, quod 
+infini<lb break="no" ed="#Bb" n="57"/>tum est imperfectissimum: ergo non
+<lb ed="#Bb" n="58"/>competit Deo, nec secundum essentiam,
+<lb ed="#Bb" n="59"/>nec secundum potentiam.
+</p>
+            <p xml:id="alalal-c71619-d1e317">
+               <lb ed="#Bb" n="60"/>2. Item, Invenimus in naturis 
+infini<lb break="no" ed="#Bb" n="61"/>tum finbile, et hoc est imperfectum
+<lb ed="#Bb" n="62"/>perfectibile : ex illa parte enim qua est
+<lb ed="#Bb" n="63"/>finibile, est perfectibile : et ex illa parte
+<lb ed="#Bb" n="64"/>qua est infinitum, est imperfectum ut
+<lb ed="#Bb" n="65"/>materia prima . ergo si aliquid est 
+infi<lb break="no" ed="#Bb" n="66"/>niitum nullo modo finibile, illud erit 
+im<lb break="no" ed="#Bb" n="67"/>perfectius imperfectissimo : si igitur Deus
+<lb ed="#Bb" n="68"/>in essentia vel in potentia est infinitum
+<lb ed="#Bb" n="69"/>nullo modo finibile, ipse erit 
+imperfe<lb break="no" ed="#Bb" n="70"/>chor omnibus.
+</p>
+            <p xml:id="alalal-c71619-d1e344">
+               <lb ed="#Bb" n="71"/>3. Item, Infinitum est passio continui
+<lb ed="#Bb" n="72"/>vel disereti: Deo autem nec continuum
+<lb ed="#Bb" n="73"/>nec discretum est. ergo, etc.
+</p>
+            <p xml:id="alalal-c71619-d1e353">
+               <lb ed="#Bb" n="74"/>4. Item, Conditio potenti materialis
+<lb ed="#Bb" n="75"/>est : ergo non competit Deo, vel 
+poten<lb break="no" ed="#Bb" n="76"/>tiv ipsius. .
+</p>
+            <p xml:id="alalal-c71619-d1e362">
+               <lb ed="#Bb" n="77"/>5. Item, Nobilius est semper Deo 
+at<lb break="no" ed="#Bb" n="78"/>tribuendum : fins autem nobilior est :
+<lb ed="#Bb" n="79"/>ergo melius est ut sua potentia dicatur
+<lb ed="#Bb" n="80"/>finis, quam ut dicatur infinita.
+</p>
+            <p xml:id="alalal-c71619-d1e373">
+               <lb ed="#Bb" n="81"/>Solutio. Dicendum, quod infinitum
+<lb ed="#Bb" n="82"/>multipliciter dicitur. Dicitur enim 
+nega<lb break="no" ed="#Bb" n="83"/>tive, ut dicatur non finitum . et sic 
+dixi<lb break="no" ed="#Bb" n="84"/>mus supra, quod si vis fiat in verbo,
+<lb ed="#Bb" n="85"/>Deus est infinitum, id est, non finitum :
+<lb ed="#Bb" n="86"/>et punctum est infinitum, et forma, et
+<lb ed="#Bb" n="87"/>locus, et omne illud quod est finis, et
+<lb ed="#Bb" n="88"/>nullo modo finitur : {amen aliter Deus
+<lb ed="#Bb" n="89"/>quam alia: quoniam Deus non finitur
+<lb ed="#Bb" n="90"/>tripliciter, scilicet intellectu diffiniente,
+<lb ed="#Bb" n="91"/>cujus est diffinire, eo quod circumspicit
+<lb ed="#Bb" n="92"/>totam rem per terminos essentiae rei :
+<lb ed="#Bb" n="93"/>et sic solus Deus finit se, quia suum
+<lb ed="#Bb" n="94"/>intellectum nihil sui latet: et sic 
+com<lb break="no" ed="#Bb" n="95"/>prehendit se Deus,quia aliter suus 
+in<lb break="no" ed="#Bb" n="96"/>tellectus esset minor quam ipse : unde
+<lb ed="#Bb" n="97"/>sibinon est inlinitus. Hoc modo autem
+<pb ed="#Bb" n="379"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>non finitur ab aliquo alio intellectu, nec
+<lb ed="#Bb" n="2"/>loco, quantumcumque sit in expansio sive
+<lb ed="#Bb" n="3"/>re, sive intellectu, etiamsi ponantur mult
+<lb ed="#Bb" n="4"/>mundi quotcumque, non finitur ills
+<lb ed="#Bb" n="5"/>Deus, sed magis (init et continet, ut 
+su<lb break="no" ed="#Bb" n="6"/>pra dictum est. Nec tempore finitur :
+<lb ed="#Bb" n="7"/>quia nune sue aternitatis durando 
+ex<lb break="no" ed="#Bb" n="8"/>cellit tempus ante et post. Sed alio modo
+<lb ed="#Bb" n="9"/>dicitur infiniteem secundum diffinitionem
+<lb ed="#Bb" n="10"/>Philosoplu in I Physecorum, quod 
+in<lb break="no" ed="#Bb" n="11"/>finitum est cujus partes accipient: 
+sem<lb break="no" ed="#Bb" n="12"/>per est aliquid extra accipere: et hoc
+<lb ed="#Bb" n="13"/>potest dici dupliciter, scilicet secundum
+<lb ed="#Bb" n="14"/>potentiam passivam, et sic est in 
+conti<lb break="no" ed="#Bb" n="15"/>nuo etdiscreto . et secundum potentiam
+<lb ed="#Bb" n="16"/>activam, et sic est in sola potentia Dei :
+<lb ed="#Bb" n="17"/>ita ut dicatur, quoniai sicut infinitum in
+<lb ed="#Bb" n="18"/>continuo consideratur secundum 
+divisio<lb break="no" ed="#Bb" n="19"/>nem quae non stat ad partes intra 
+con<lb break="no" ed="#Bb" n="20"/>tinuum, ita infinitum im potentia activa
+<lb ed="#Bb" n="21"/>est, non stare potentiam in aliquo 
+effe<lb break="no" ed="#Bb" n="22"/>clu supposito secundum magnitudinem
+<lb ed="#Bb" n="23"/>et secundum multitudinem.
+</p>
+            <p xml:id="alalal-c71619-d1e467">
+               <lb ed="#Bb" n="24"/>Dicexpum ergo ad primum, quod 
+obje<lb break="no" ed="#Bb" n="25"/>clio illa non procedit nisi de mfinito 
+se<lb break="no" ed="#Bb" n="26"/>cundum potentiam passivam, et non 
+ac<lb break="no" ed="#Bb" n="27"/>tivam : quia activa potentia non accipit
+<lb ed="#Bb" n="28"/>aliquam perfectionem ab actu, sed potius
+<lb ed="#Bb" n="29"/>per actum dat perfectionem alus. Nec
+<lb ed="#Bb" n="30"/>tamen dicimus Deum esse infinitum, ita
+<lb ed="#Bb" n="31"/>quod non sit fins: sed potius 
+finttio<lb break="no" ed="#Bb" n="32"/>ne qua finis dicitur finitus, finitissimus
+<lb ed="#Bb" n="33"/>omnium Deus et potentia sua, et 
+quid<lb break="no" ed="#Bb" n="34"/>quid ipse est: et eadem solutio est ad
+<lb ed="#Bb" n="35"/>alia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

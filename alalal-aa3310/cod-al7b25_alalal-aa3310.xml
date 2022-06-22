@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="19"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-aa3310"><!-- l1d1a5 -->
+            <head xml:id="alalal-aa3310-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-aa3310-Hd1e101" type="question-title">De modis exponendi sacram Scripturam.</head>
+            <p xml:id="alalal-aa3310-d1e104">
+               <lb ed="#Ba" n="52"/>ARTICULUS V.
+<lb ed="#Ba" n="53"/>De modis exponendi sacram Scripturam.
+</p>
+            <p xml:id="alalal-aa3310-d1e111">
+               <lb ed="#Ba" n="54"/>Quarto et ultimo, quaeritur de modo
+<lb ed="#Ba" n="55"/>expositionum et probationum ejus.
+</p>
+            <p xml:id="alalal-aa3310-d1e118">
+               <lb ed="#Ba" n="56"/>Et objicitur sic:
+<lb ed="#Ba" n="57"/>Omnis scientia distincta ab aliis 
+pro<lb break="no" ed="#Ba" n="58"/>prium habet habitum regentem et 
+pro<lb break="no" ed="#Ba" n="59"/>prium instrumentum, quibus procedit ad
+<lb ed="#Ba" n="60"/>usum et ad opus, sicut rationalis 
+Philo<lb break="no" ed="#Ba" n="61"/>sophia opinionem, et syllogismum, vel
+<lb ed="#Ba" n="62"/>argumentum: haecscientia distincta est
+<lb ed="#Ba" n="63"/>ab aliis: ergo proprium habet habitum
+<lb ed="#Ba" n="64"/>regentem in ea, et instrumentum.
+</p>
+            <p xml:id="alalal-aa3310-d1e141">
+               <lb ed="#Ba" n="65"/>Quod concepimus, dicentes quod 
+ha<lb break="no" ed="#Ba" n="66"/>bitus ejus lumen fidei est : instrumentum
+<lb ed="#Ba" n="67"/>autem duplex secundum duplicem finem
+<lb ed="#Ba" n="68"/>doctrine et artis, qui duplex finis 
+pro<lb break="no" ed="#Ba" n="69"/>missus est in auctoritate Apostoli, 
+scili<lb break="no" ed="#Ba" n="70"/>cet, exhortari in doctrina sana, et 
+con<lb break="no" ed="#Ba" n="71"/>tradicentes revincere.
+</p>
+            <p xml:id="alalal-aa3310-d1e159">
+               <lb ed="#Ba" n="72"/>Et quoad exhortationem habet 
+qua<lb break="no" ed="#Ba" n="73"/>druplicem expositionem, scilicet 
+histo<lb break="no" ed="#Ba" n="74"/>rialem, allegoricam, moralem, et 
+anago<lb break="no" ed="#Ba" n="75"/>gicam:; quorum modorum numerus 
+du<lb break="no" ed="#Ba" n="76"/>pliciter potest accipi, scilicet quoad 
+ex<lb break="no" ed="#Ba" n="77"/>ponentem, et quoad exposita.
+</p>
+            <p xml:id="alalal-aa3310-d1e175">
+               <lb ed="#Ba" n="78"/>Quoad exponentem sic : Primo 
+occur<lb break="no" ed="#Ba" n="79"/>rit sensus ostendens historiam, et ideo
+<lb ed="#Ba" n="80"/>historicus sensus est in intellectu 
+secun<lb break="no" ed="#Ba" n="81"/>dum quod reflectitur ad sensum. 
+Cir<lb break="no" ed="#Ba" n="82"/>cumstant autem adhuc tria intellectum,
+<lb ed="#Ba" n="83"/>scilicet habitus illuminans qui est fides,
+<lb ed="#Ba" n="84"/>ei sic in ipso est allegoricus sensus qui
+<lb ed="#Ba" n="85"/>edificat fidem, sicut dicit Gregorius. 
+Cir<lb break="no" ed="#Ba" n="86"/>cumstat etiam ipsum intellectus 
+practi<lb break="no" ed="#Ba" n="87"/>cus, et sic in ipso per reflexionem ad
+<lb ed="#Ba" n="88"/>praxim sive opus, est sensus moralis.
+<lb ed="#Ba" n="89"/>Tertium quod circumstat ipsum, est finis
+<lb ed="#Ba" n="90"/>beatificans, et sic in ipso per 
+conversio<lb break="no" ed="#Ba" n="91"/>nem ad ipsum, est sensus anagogicus.
+<pb ed="#Ba" n="20"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Cum autem non plura circumstent 
+in<lb break="no" ed="#Ba" n="2"/>tellectum, non sunt plures sensus 
+Scrip<lb break="no" ed="#Ba" n="3"/>ture.
+</p>
+            <p xml:id="alalal-aa3310-d1e219">
+               <lb ed="#Ba" n="4"/>Penes exposita numerus iste accipitur
+<lb ed="#Ba" n="5"/>sic: Scriptura potest atlendi penes 
+inten<lb break="no" ed="#Ba" n="6"/>tum a scribente, vel penes intentum a
+<lb ed="#Ba" n="7"/>Spiritu inspirante et illuminante. Si 
+pri<lb break="no" ed="#Ba" n="8"/>mo modo, sic est sensus historicus : si
+<lb ed="#Ba" n="9"/>secundo modo, intentum a Spiritu, aut
+<lb ed="#Ba" n="10"/>est respectu vie, aut respectu patria :
+<lb ed="#Ba" n="11"/>si respectu vie, aut secundum verum
+<lb ed="#Ba" n="12"/>fidei, et sic est sensus allegoricus : aut
+<lb ed="#Ba" n="13"/>secundum bonum operum, et sic est 
+mo<lb break="no" ed="#Ba" n="14"/>ralis : si autem est intentum respectu 
+pa<lb break="no" ed="#Ba" n="15"/>tria, tunc est anayogicus.
+</p>
+            <p xml:id="alalal-aa3310-d1e248">
+               <lb ed="#Ba" n="16"/>In quantum autem finis est, scilicet
+<lb ed="#Ba" n="17"/>contradicentes revincere, habet alium
+<lb ed="#Ba" n="18"/>modum. Contradicens enim non 
+revin<lb break="no" ed="#Ba" n="19"/>citur nisi duobus, scilicet probatione 
+ve<lb break="no" ed="#Ba" n="20"/>ritatis, et manifestatione erroris. Hoc 
+au<lb break="no" ed="#Ba" n="21"/>tem non fit nisi per argumentationem
+<lb ed="#Ba" n="22"/>congruam a ratione auctoritatis, vel na~
+<lb ed="#Ba" n="23"/>turalis rationis, vel similitudinis congrue
+<lb ed="#Ba" n="24"/>sumptam : et sic hoc modo argumentatio
+<lb ed="#Ba" n="25"/>talis ert instrumentum eyus, et (ut patet
+<lb ed="#Ba" n="26"/>in procemio) iste modus est scientive 
+is<lb break="no" ed="#Ba" n="27"/>trus libri, alu autem modi sunt observati
+<lb ed="#Ba" n="28"/>in Biblia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="468"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g97785"><!-- l4d15a1 -->
+            <head xml:id="alalal-g97785-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-g97785-Hd1e101" type="question-title">An de uno peccato potest agi paniteniia,
+alio peccato in delectatione retento ?</head>
+            <p xml:id="alalal-g97785-d1e104">
+               <lb ed="#Be" n="39"/>ARTICULUS I.
+<lb ed="#Be" n="40"/>An de uno peccato potest agi paniteniia,
+<lb ed="#Be" n="41"/>alio peccato in delectatione retento ?
+</p>
+            <p xml:id="alalal-g97785-d1e113">
+               <lb ed="#Be" n="42"/>Incidit autem hic questio, An verum
+<lb ed="#Be" n="43"/>sit quod dicunt illi ?
+</p>
+            <p xml:id="alalal-g97785-d1e120">
+               <pb ed="#Be" n="469"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Videtur, quod sic:
+<lb ed="#Be" n="2"/>1. Debita enim divisim contracta, juste
+<lb ed="#Be" n="3"/>divisim solvi possunt: peccata sunt 
+de<lb break="no" ed="#Be" n="4"/>pita divisim contracta : ergo, etc.
+</p>
+            <p xml:id="alalal-g97785-d1e137">
+               <lb ed="#Be" n="5"/>Quod autem peceata sunt debita, patet
+<lb ed="#Be" n="6"/>er illud Luce, vu, 41: <quote xml:id="alalal-g97785-Qd1e143">Duo debitores
+<lb ed="#Be" n="7"/>erant cuidam feneratori</quote>. Et, Matth.
+<lb ed="#Be" n="8"/>xvii, 27: <quote xml:id="alalal-g97785-Qd1e150">Debittum dimisit ei</quote>. Item
+<lb ed="#Be" n="9"/>Matth. vt, 12: <quote xml:id="alalal-g97785-Qd1e155">Dimitte nobis debita 
+no<lb break="no" ed="#Be" n="10"/>stra.</quote>
+            </p>
+            <p xml:id="alalal-g97785-d1e161">
+               <lb ed="#Be" n="11"/>9. Item, In <ref xml:id="alalal-g97785-Rd1e165">V Ethicorum vult 
+Aristo<lb break="no" ed="#Be" n="12"/>teles</ref>, quod justitia uno modo, licet non
+<lb ed="#Be" n="13"/>ceneraliter, idem sit quod contrapassio,
+<lb ed="#Be" n="14"/>a justum idem quod contrapassum, 
+sic<lb break="no" ed="#Be" n="15"/>ut dicit Plato. Ponamus ergo, quod 
+ali<lb break="no" ed="#Be" n="16"/>quis o1 ftenderif in decem, et in duobus
+<lb ed="#Be" n="17"/>contrapassus sit per sustinentiam pone :
+<lb ed="#Be" n="18"/>aut ergo Deus cui debet, illam 
+satisfa<lb break="no" ed="#Be" n="19"/>exquirit, aut non. Si sic: ergo
+<lb ed="#Be" n="20"/>injuste videtur procedere: quia a lege
+<lb ed="#Be" n="21"/>non precipitur, nisi qui forefecit, 
+con<lb break="no" ed="#Be" n="22"/>frapatiatur. Si non: tune habetur
+<lb ed="#Be" n="23"/>positum.
+</p>
+            <p xml:id="alalal-g97785-d1e195">
+               <lb ed="#Be" n="24"/>3. Si forte dicas, quod justitia Dei 
+exi<lb break="no" ed="#Be" n="25"/>git adhuc satisfactionem, sed non justitia
+<lb ed="#Be" n="26"/>humana: hoc nihil est: quia infinite
+<lb ed="#Be" n="27"/>est justifia divina, et semper 
+misericor<lb break="no" ed="#Be" n="28"/>dia ane judicium § : cum igitar
+<lb ed="#Be" n="29"/>in tali casu nihil exigit justitia humana,
+<lb ed="#Be" n="30"/>videtur muito minus, quod justitia 
+divi<lb break="no" ed="#Be" n="31"/>na aliquid exigat tlterius ab illo.
+</p>
+            <p xml:id="alalal-g97785-d1e215">
+               <lb ed="#Be" n="32"/>4, item, Supra habitum est ex
+<lb ed="#Be" n="33"/>Augustiniin libro de Penitentia, quod
+<lb ed="#Be" n="34"/>constat ei multum peceata displicere, qui
+<lb ed="#Be" n="35"/>semper praesto est ea destruere: ergo
+<lb ed="#Be" n="36"/>et multo magis constabit hoc, si omnino
+<lb ed="#Be" n="37"/>destruat quo destrui possunt: sed hoc
+<lb ed="#Be" n="38"/>erit sigillatim destruendo : or go videtur,
+<lb ed="#Be" n="39"/>quod sigillatim poenitens de estruat pecca~
+<lb ed="#Be" n="40"/>ta,
+</p>
+            <p xml:id="alalal-g97785-d1e237">
+               <lb ed="#Be" n="41"/>5. Item, Si aliguis laborat ducbus vel
+<lb ed="#Be" n="42"/>tribus morbis, qui diversas habet causas
+<lb ed="#Be" n="43"/>et oppositas : medicus expellit 
+periculo<lb break="no" ed="#Be" n="44"/>siorem morbum, alio dimisso, vel etiam
+<lb ed="#Be" n="45"/>confirmato in subjecto. Cum igitur 
+si<lb break="no" ed="#Be" n="46"/>militer sit in morbis anime, sicut in
+<lb ed="#Be" n="47"/>morbis corporis, ut dicunt Sancti, vide-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="48"/>tur posse agi poenitenatia de uno peccaic,
+<lb ed="#Be" n="49"/>alio in delectatione existente.
+</p>
+            <p xml:id="alalal-g97785-d1e261">
+               <lb ed="#Be" n="50"/>5. Item, Nullus rex vel imperator 
+ite<lb break="no" ed="#Be" n="51"/>rum emendam exigeret ab aliquo, cui
+<lb ed="#Be" n="52"/>pro parte lesionis a vicario suo, qui loco
+<lb ed="#Be" n="53"/>ejus est, condigna pecenitentia imposita
+<lb ed="#Be" n="54"/>fuisset: sed constat, quod sacerdos est
+<lb ed="#Be" n="55"/>vicarius Dei in confessione, et secundum
+<lb ed="#Be" n="56"/>auditum veram imponit poenitentiam de
+<lb ed="#Be" n="57"/>duobus, vel tribus, allis tacitis ergo
+<lb ed="#Be" n="58"/>imperator summus ulterius de his non
+<lb ed="#Be" n="59"/>requiret poenitentiam.
+</p>
+            <p xml:id="alalal-g97785-d1e286">
+               <lb ed="#Be" n="60"/>6. Si dicatur, quod peccator non 
+pot<lb break="no" ed="#Be" n="61"/>est satisfacere nisi in charitate 
+satisfa<lb break="no" ed="#Be" n="62"/>ciat: et quia non habet charitatem qui
+<lb ed="#Be" n="63"/>de uno poenitet, et de alio non: ideo
+<lb ed="#Be" n="64"/>non potest satisfacere. Contra: Eecle
+<lb ed="#Be" n="65"/>IX, 1: Neseit homo utrum amore an
+<lb ed="#Be" n="66"/>odio dignus sit. Ergo nullus seit utrum
+<lb ed="#Be" n="67"/>satisfaciat, vel non. Ergo tota die 
+quili<lb break="no" ed="#Be" n="68"/>bet debet iterare poenitentiam suam, et
+<lb ed="#Be" n="69"/>desperare, quod satisfacere non possit :
+<lb ed="#Be" n="70"/>eo quod hoc sit penitus ignoratum, quod
+<lb ed="#Be" n="71"/>exigitur ad satisfactionem: hoc autem
+<lb ed="#Be" n="72"/>falsam est: ergo et hoc quod oportet
+<lb ed="#Be" n="73"/>aliquem satisfacere in charitate
+</p>
+            <p xml:id="alalal-g97785-d1e319">
+               <lb ed="#Be" n="74"/>8. Hem, Daniel. Peceata tue
+<lb ed="#Be" n="75"/>eleemosynis redime, Constat autem, quod
+<lb ed="#Be" n="76"/>Daniel quando dedit hoc consilium, 
+sei<lb break="no" ed="#Be" n="77"/>vil regem esse imiquum : ergo iniquus
+<lb ed="#Be" n="78"/>in peccato uno, potest facere 
+peeniten<lb break="no" ed="#Be" n="79"/>tiam de alio.
+</p>
+            <p xml:id="alalal-g97785-d1e335">
+               <lb ed="#Be" n="80"/>9. Item, Luc. xvi, 9: <quote xml:id="alalal-g97785-Qd1e339">Facite vobis
+<lb ed="#Be" n="81"/>amicos de mammona iniguitatis</quote>. 
+Glos<lb break="no" ed="#Be" n="82"/>sa: <quote xml:id="alalal-g97785-Qd1e346"> Divitice Ineguitates dicuntur, quia
+<lb ed="#Be" n="83"/>de iniquitatibe s sunt collecte. </quote> Constat
+<lb ed="#Be" n="84"/>autem, quod de talibus non possit fleri
+<lb ed="#Be" n="85"/>eleemosyna quae faciat recipi in aeterna
+<lb ed="#Be" n="86"/>tabernacula, nisi retenta parte inigui,
+<lb ed="#Be" n="87"/>de alia parte posset fieri eleemoyna et
+<lb ed="#Be" n="88"/>salisfactio : ergo mManens in uno pecato
+<lb ed="#Be" n="89"/>potest satisfacere de alio.
+</p>
+            <p xml:id="alalal-g97785-d1e365">
+               <lb ed="#Be" n="90"/>10. Item, Peceata non habent hujus~
+<lb ed="#Be" n="91"/>modi colligationem, qualem habent 
+vir<lb break="no" ed="#Be" n="92"/>tutes, sed unumquodque est divisum ab
+<lb ed="#Be" n="93"/>alio : sed quecumaque sunt divisa ab 
+in<lb break="no" ed="#Be" n="94"/>vicem, horum unum potest destrui, alio
+<pb ed="#Be" n="470"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>non destructo: ergo unum peccatum
+<lb ed="#Be" n="2"/>potest destrui, alio retento : sed 
+pecca<lb break="no" ed="#Be" n="3"/>tum destruitur tantum per 
+satisfactio<lb break="no" ed="#Be" n="4"/>nem : ergo de uno potest fieri 
+satisia<lb break="no" ed="#Be" n="5"/>ctio, alio retento in voluntate.
+</p>
+            <p xml:id="alalal-g97785-d1e394">
+               <lb ed="#Be" n="6"/>i1. Item, De virtute politica non est
+<lb ed="#Be" n="7"/>sic, quod una habita, omnia vitia 
+exclu<lb break="no" ed="#Be" n="8"/>dantur: ergo videtur, quod hoc etiam
+<lb ed="#Be" n="9"/>non debeat esse virtutis theologice, cum
+<lb ed="#Be" n="10"/>Deus salutem nostram desiderans, juvat
+<lb ed="#Be" n="11"/>omnibus modis quibus homo juvari 
+pot<lb break="no" ed="#Be" n="12"/>est.
+</p>
+            <p xml:id="alalal-g97785-d1e412">
+               <lb ed="#Be" n="13"/>Si dieas, quod de virtute politica est
+<lb ed="#Be" n="14"/>hoe, quod qui habet unam, habet omnes,
+<lb ed="#Be" n="15"/>sicut dicit Isidorus, sicut notatum est
+<lb ed="#Be" n="16"/>super tertio Sententiarum, quod hee
+<lb ed="#Be" n="17"/>fuit sententia Stoicorum, et Aristotelis
+<lb ed="#Be" n="18"/>in quarto Hthicorum, cum dicit de 
+ma<lb break="no" ed="#Be" n="19"/>enanimitate et magnanimo : <quote xml:id="alalal-g97785-Qd1e429"> 
+Magnani<lb break="no" ed="#Be" n="20"/>mus nihil prave agit secundum aliquod
+<lb ed="#Be" n="21"/>vitium. </quote> Si, inquam, sic dicas: nihil
+<lb ed="#Be" n="22"/>est hoc, et contra intentionem 
+Philoso<lb break="no" ed="#Be" n="23"/>phorum : quia non attribuunt hoc virtuti
+<lb ed="#Be" n="24"/>secundum suum esse quo perficit suum
+<lb ed="#Be" n="25"/>actum proprium et essentialem sibi, sed
+<lb ed="#Be" n="26"/>potius secundum maximum suum posse
+<lb ed="#Be" n="27"/>quod habet in subjecto. Et ideo virtus
+<lb ed="#Be" n="28"/>secundum suum esse potest inesse 
+sub<lb break="no" ed="#Be" n="29"/>jecto, salvato in eodem subjecto aliquo
+<lb ed="#Be" n="30"/>vitio quod non contrariatur illi virtuti :
+<lb ed="#Be" n="31"/>et sic habetur propositum, ut videtur.
+</p>
+            <p xml:id="alalal-g97785-d1e460">
+               <lb ed="#Be" n="32"/>Sed quod error sit pessimus et 
+ana<lb break="no" ed="#Be" n="33"/>thematizatus, sic videtur :
+</p>
+            <p xml:id="alalal-g97785-d1e467">
+               <lb ed="#Be" n="34"/>4. II ad Corinth. vi, 13, dicit 
+Apos<lb break="no" ed="#Be" n="35"/>tolus : <quote xml:id="alalal-g97785-Qd1e473">Que conventio Christi ad Belial ?</quote>
+               <lb ed="#Be" n="36"/>ergo nullam communicationem habet
+<lb ed="#Be" n="37"/>Christus ad cor in quo habitat diabolus :
+<lb ed="#Be" n="38"/>sed qui est in uno peccato mortali, est
+<lb ed="#Be" n="39"/>inhabitatio diaboli : ergo nullam 
+com<lb break="no" ed="#Be" n="40"/>municationem habet cum eo Christus:
+<lb ed="#Be" n="41"/>sed nullam satisfactionem Christus 
+ac<lb break="no" ed="#Be" n="42"/>cipit, nisi cum quo in gratia participat:
+<lb ed="#Be" n="43"/>ergo talem satisfactionem non  accipit
+<lb ed="#Be" n="44"/>Christus, ut videtur.
+</p>
+            <p xml:id="alalal-g97785-d1e496">
+               <lb ed="#Be" n="45"/>2. Item, Apud homines durantibus
+<lb ed="#Be" n="46"/>inimicitiis non accipitur satisfactio 
+le<lb break="no" ed="#Be" n="47"/>dentis : sed qui est in peccato, adhuc
+<lb ed="#Be" n="48"/>agit inimicitias contra Deum: ergo non
+<lb ed="#Be" n="49"/>recipitur ejus satisfactio.
+</p>
+            <p xml:id="alalal-g97785-d1e509">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="50"/>3. Item, Matth. v, 23: <quote xml:id="alalal-g97785-Qd1e515">Si offers munus
+<lb ed="#Be" n="51"/>tuum ad altare</quote>, etc. Sed constat, quoq
+<lb ed="#Be" n="52"/>non est minor cura Deo, ut homo re.
+<lb ed="#Be" n="53"/>concilietur sibi, quam homini : ergy
+<lb ed="#Be" n="54"/>oportet prius in omnibus reconcilian,
+<lb ed="#Be" n="55"/>Deo, et postea accipictur ejus oblatio.
+<lb ed="#Be" n="56"/>sed oblationis genus quoddam est satis.
+<lb ed="#Be" n="57"/>factio digna : ergo oportet prius habere
+<lb ed="#Be" n="58"/>gratiam de omnibus peccatis, antequam
+<lb ed="#Be" n="59"/>satisfactio sit accepta : sed nullus yo.
+<lb ed="#Be" n="60"/>luntate permanens in uno, habet gratiam
+<lb ed="#Be" n="61"/>de omnibus : ergo voluntate permanens
+<lb ed="#Be" n="62"/>in uno, non potest satisfacere de allio.
+</p>
+            <p xml:id="alalal-g97785-d1e545">
+               <lb ed="#Be" n="63"/>4. Item, Qui est in peecato uno, ut
+<lb ed="#Be" n="64"/>dicit Augustinus, non est dignus nisi
+<lb ed="#Be" n="65"/>pena aeterna: ergo non est dignus ut
+<lb ed="#Be" n="66"/>satisfactionis ejus opus accipiatur: ef
+<lb ed="#Be" n="67"/>non satisfacit nisi opere Deo accepto;
+<lb ed="#Be" n="68"/>ergo qui est in uno peccato, non potest
+<lb ed="#Be" n="69"/>satisfacere de alio.
+</p>
+            <p xml:id="alalal-g97785-d1e563">
+               <lb ed="#Be" n="70"/>5. Item, Sine gratia non fit 
+satisfa<lb break="no" ed="#Be" n="71"/>ctio : sed gratia complectitur omnes 
+vir<lb break="no" ed="#Be" n="72"/>tutes : ergo sine omnibus virtutibus 
+si<lb break="no" ed="#Be" n="73"/>mul non est satisfactio : sed opposita
+<lb ed="#Be" n="74"/>non sunt simul: ergo cum virtutibus
+<lb ed="#Be" n="75"/>non possunt esse vitia opposita : ergo
+<lb ed="#Be" n="76"/>qui habet gratiam, non habet aliquod
+<lb ed="#Be" n="77"/>peccatum : et nullus satisfacit nisi qui
+<lb ed="#Be" n="78"/>habet gratiam : ergo qui satisfacit, non
+<lb ed="#Be" n="79"/>habet aliquod peccatum : ergo a 
+destru<lb break="no" ed="#Be" n="80"/>ctione consequentis, qui habet aliquod
+<lb ed="#Be" n="81"/>peceatum, non satisfacit. !
+</p>
+            <p xml:id="alalal-g97785-d1e593">
+               <lb ed="#Be" n="82"/>6. Item, Non satisfacit qui non 
+resti<lb break="no" ed="#Be" n="83"/>tuit Deo quod suum est: sed qui non
+<lb ed="#Be" n="84"/>restituit Deo animam quam abstulit,
+<lb ed="#Be" n="85"/>non restituit Deo quod suum est: erg?
+<lb ed="#Be" n="86"/>non satisfacit, qui animam restituit : sed
+<lb ed="#Be" n="87"/>non restituilur anima, quamdiu manet
+<lb ed="#Be" n="88"/>voluntas peccati alicujus : ergo quamdiv
+<lb ed="#Be" n="89"/>aliquod peccatum est in voluntate, 0?
+<lb ed="#Be" n="90"/>potest fieri satisfactio.
+</p>
+            <p xml:id="alalal-g97785-d1e615">
+               <lb ed="#Be" n="91"/>7. Item, Sit ita, quod aliquis 
+gatisla<lb break="no" ed="#Be" n="92"/>ciat de uno peceato, alio in voluntate
+<lb ed="#Be" n="93"/>retento : autiste diligit Creatorem siout
+<lb ed="#Be" n="94"/>debet, aut non. Si non: tune non aa
+<lb ed="#Be" n="95"/>tisfacit. Propatio. Luc. vn, 48: 
+Remit<lb break="no" ed="#Be" n="96"/>tuntur ei peccata multa, quoniam dilext!
+<lb ed="#Be" n="97"/>multum. Sisic : ergo omne quod diligtt
+<lb ed="#Be" n="98"/>circa Deum diligit : sed citra Deum di
+<pb ed="#Be" n="471"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>ligendo omne quod diligit, nihil mortali
+<lb ed="#Be" n="2"/>peceato diligit : ergo ille nihil mortaliter
+<lb ed="#Be" n="3"/>diligit: ergo nullum peccatum mortale
+<lb ed="#Be" n="4"/>manet in ejus voluntate : et hoc est 
+con<lb break="no" ed="#Be" n="5"/>tra positum : ergo impossibile est de
+<lb ed="#Be" n="6"/>uno satisfacere, alio in delectatione 
+re<lb break="no" ed="#Be" n="7"/>tento.
+</p>
+            <p xml:id="alalal-g97785-d1e654">
+               <lb ed="#Be" n="8"/>Sonutio. Dicendum, quod hoc est 
+con<lb break="no" ed="#Be" n="9"/>cedendum, quod hoc quod in principio
+<lb ed="#Be" n="10"/>capituli pro opinione ponitur, licet falsa,
+<lb ed="#Be" n="11"/>tamquam fidei contrarium est 
+condem<lb break="no" ed="#Be" n="12"/>nandum, Et reducitur in contrarium illius
+<lb ed="#Be" n="13"/>articuli: <quote xml:id="alalal-g97785-Qd1e669"> Credo in Spiritum sanctum,
+<lb ed="#Be" n="14"/>scilicet sanctam Ecclesiam Catholicam. </quote>
+               <lb ed="#Be" n="15"/>Vel contra illum : <quote xml:id="alalal-g97785-Qd1e676"> Remissionem 
+pecca<lb break="no" ed="#Be" n="16"/>forum, </quote>
+            </p>
+            <p xml:id="alalal-g97785-d1e682">
+               <lb ed="#Be" n="17"/>Ad primum autem dicendum, quod
+<lb ed="#Be" n="18"/>licet debita peccatorum sint divisim 
+con<lb break="no" ed="#Be" n="19"/>tracta quantum ad conversionem ad 
+bo<lb break="no" ed="#Be" n="20"/>num commutabile, et quantum ad 
+ac<lb break="no" ed="#Be" n="21"/>tum, tamen conveniunt in aversione ab
+<lb ed="#Be" n="22"/>uno bono increato : et quoad hoc habent
+<lb ed="#Be" n="23"/>rationem offense et culpe : et ideo cum
+<lb ed="#Be" n="24"/>aversio illa maneat, alio quocumque 
+pec<lb break="no" ed="#Be" n="25"/>cato manente, non potest homo 
+satisfa<lb break="no" ed="#Be" n="26"/>cere de uno, alio retento. Et simile 
+hu<lb break="no" ed="#Be" n="27"/>jus est in offensis hominum : quia lesor
+<lb ed="#Be" n="28"/>non potest satisfacere de lesione illa,
+<lb ed="#Be" n="29"/>perdurans in ledendo, Licet enim 
+pecca<lb break="no" ed="#Be" n="30"/>tor Deum Jedere non possit, tamen
+<lb ed="#Be" n="31"/>quantum est de se leedit.
+</p>
+            <p xml:id="alalal-g97785-d1e717">
+               <lb ed="#Be" n="32"/>Ad noc quod probatur, quod peccata
+<lb ed="#Be" n="33"/>debita sunt, dicendum quod debita 
+hu<lb break="no" ed="#Be" n="34"/>mana sunt duplicia. Quedam enim sunt
+<lb ed="#Be" n="35"/>que voluntarie creduntur debitori : et
+<lb ed="#Be" n="36"/>talibus nulla est adjuncta offensa : et hoc
+<lb ed="#Be" n="37"/>modo non dicuntur debita peccata. 
+Que<lb break="no" ed="#Be" n="38"/>dam sunt debita, quae oriuntur ex 
+lesio<lb break="no" ed="#Be" n="39"/>ne alicujus injusta, vel in persona, vel
+<lb ed="#Be" n="40"/>in bonis, vel in honore: et talibus est
+<lb ed="#Be" n="41"/>adjuncta offensa lesi : et ideo non 
+pot<lb break="no" ed="#Be" n="42"/>est sibi satisfieri, nisi offensa cesset :
+<lb ed="#Be" n="43"/>hee autem non cessat perdurante illo in
+<lb ed="#Be" n="44"/>aliquo modo lesionis : et talibus debitis
+<lb ed="#Be" n="45"/>assimilantur peccata. Et ideo patet, quod
+<lb ed="#Be" n="46"/>ratio illa non valet.
+</p>
+            <p xml:id="alalal-g97785-d1e752">
+               <lb ed="#Be" n="47"/>Ad aliud dicendum, quod licet 
+secun<lb break="no" ed="#Be" n="48"/>dum Platonem justum sit idem quod
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="49"/>contrapassum, et hoc in quibusdam sit
+<lb ed="#Be" n="50"/>verum, sicut in directione imjurie 
+illa<lb break="no" ed="#Be" n="51"/>te, ubi inferens injuriam contrapatitur
+<lb ed="#Be" n="52"/>tantum, quantum intulit: tamen hoc
+<lb ed="#Be" n="53"/>justum supponit cessationem a lesione
+<lb ed="#Be" n="54"/>generaliter : et a lesione spirituali non
+<lb ed="#Be" n="55"/>cessatur, quamdiu durat voluntas 
+pec<lb break="no" ed="#Be" n="56"/>cati alicujus.
+</p>
+            <p xml:id="alalal-g97785-d1e779">
+               <lb ed="#Be" n="57"/>Ad aliud dicendum, quod justitia 
+ho<lb break="no" ed="#Be" n="58"/>minum etiam bene exigit cessationem a
+<lb ed="#Be" n="59"/>lesione, utjam patuit : sed alia debita
+<lb ed="#Be" n="60"/>quibus offensa ejus cujus debitores 
+su<lb break="no" ed="#Be" n="61"/>mus non est adjuncta, divisim solvi 
+pos<lb break="no" ed="#Be" n="62"/>sunt. Et illis debitis in spiritualibus non
+<lb ed="#Be" n="63"/>sunt similia peccata, sed potius dona
+<lb ed="#Be" n="64"/>que donantur a Deo, ut lucremur in eis,
+<lb ed="#Be" n="65"/>sicut dicitur, Matth. xxv, 414 et seq.
+</p>
+            <p xml:id="alalal-g97785-d1e801">
+               <lb ed="#Be" n="66"/>Ad aliud dicendum, quod peccatum
+<lb ed="#Be" n="67"/>actuale non destruitur in nobis sine 
+no<lb break="no" ed="#Be" n="68"/>bis : quia, sicut dicit Augustinus, <quote xml:id="alalal-g97785-Qd1e809"> Qui
+<lb ed="#Be" n="69"/>creavit te sine te, non justificabit te sine
+<lb ed="#Be" n="70"/>te. </quote> Non autem potest destrui nisi per
+<lb ed="#Be" n="71"/>gratiam, cui repugnat voluntas aversaa
+<lb ed="#Be" n="72"/>bono incommutabili: et cum illa maneat
+<lb ed="#Be" n="73"/>aversa etiam in uno solo peccato in
+<lb ed="#Be" n="74"/>delectatione retento, non potest deleri
+<lb ed="#Be" n="75"/>aliud peccatum : cum tamen Deus in se
+<lb ed="#Be" n="76"/>semper paratus sit destruere, 
+quotiescum<lb break="no" ed="#Be" n="77"/>que non est impedimentum ex parte
+<lb ed="#Be" n="78"/>nostra.
+</p>
+            <p xml:id="alalal-g97785-d1e835">
+               <lb ed="#Be" n="79"/>Ab antup concedimus, quod non est
+<lb ed="#Be" n="80"/>simile de morbis corporalibus, et 
+spi<lb break="no" ed="#Be" n="81"/>ritualibus : quia morbi corporales non
+<lb ed="#Be" n="82"/>habent unam causam: sed spirituales
+<lb ed="#Be" n="83"/>habent unicam, gue est voluntas, vel
+<lb ed="#Be" n="84"/>liberum arbitrium, quod quamdiu 
+ma<lb break="no" ed="#Be" n="85"/>net aversum non est susceptibile 
+medi<lb break="no" ed="#Be" n="86"/>cinae : et ideo nullus morbus spiritualis
+<lb ed="#Be" n="87"/>curatur in ipso.
+</p>
+            <p xml:id="alalal-g97785-d1e857">
+               <lb ed="#Be" n="88"/>Ad aliud dicendum, quod sacerdos 
+ta<lb break="no" ed="#Be" n="89"/>lem ad poenitentiam non suscipit nisi
+<lb ed="#Be" n="90"/>deceptus: sed quod exhibetur a 
+mini<lb break="no" ed="#Be" n="91"/>stro decepto, bene revocatur justitia 
+re<lb break="no" ed="#Be" n="92"/>gis: ideo objectio adducit non simile
+<lb ed="#Be" n="93"/>pro simili, vel falsum supponitur in illo,
+<lb ed="#Be" n="94"/>scilicet quod satisfactio vera sit, quam
+<lb ed="#Be" n="95"/>suscipit vicario decepto.
+</p>
+            <p xml:id="alalal-g97785-d1e877">
+               <lb ed="#Be" n="96"/>Ad aliud dicendum, quod licet homo
+<lb ed="#Be" n="97"/>non possit scire se habere charitatem
+<pb ed="#Be" n="472"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>scientia infaillbili, potest tamen scire,
+<lb ed="#Be" n="2"/>scilicet scientia per signa probabilia 
+ac<lb break="no" ed="#Be" n="3"/>cepta: et hoc sufficit, sicut sepius in
+<lb ed="#Be" n="4"/>hoc opere notatum est.
+</p>
+            <p xml:id="alalal-g97785-d1e897">
+               <lb ed="#Be" n="5"/>Ad aliud dicendum, quod Daniel non
+<lb ed="#Be" n="6"/>intendit ut rex aliquis in aliquo peccato
+<lb ed="#Be" n="7"/>perduret, sed potius ut vitam mutet in
+<lb ed="#Be" n="8"/>melius, et tunc eleemosynis redimet 
+pe<lb break="no" ed="#Be" n="9"/>nam peccatorum quam previderat sibi
+<lb ed="#Be" n="10"/>deberi propter peccatum. _
+</p>
+            <p xml:id="alalal-g97785-d1e914">
+               <lb ed="#Be" n="11"/>Ad aliud dicendum, quod illius verbi
+<lb ed="#Be" n="12"/>sententia non est, quod pecunia in parte
+<lb ed="#Be" n="13"/>retineatur, quae ex iniquo est acquisita :
+<lb ed="#Be" n="14"/>sed potius supponit id quod est juris
+<lb ed="#Be" n="15"/>positivi et communis, quod primo 
+re<lb break="no" ed="#Be" n="16"/>stituatur ablatum: deinde de residuo
+<lb ed="#Be" n="17"/>quod iniguum dicitur, quia inique, id
+<lb ed="#Be" n="18"/>est, avare contra pauperes retentum est,
+<lb ed="#Be" n="19"/>pauperes ad amicos emantur, ut 
+reci<lb break="no" ed="#Be" n="20"/>piant benefactores suos in aeterna 
+taber<lb break="no" ed="#Be" n="21"/>nacula : sicut infra in eadem 
+distin<lb break="no" ed="#Be" n="22"/>ctione habebitur in questione de 
+ele<lb break="no" ed="#Be" n="23"/>emosyna.
+</p>
+            <p xml:id="alalal-g97785-d1e945">
+               <lb ed="#Be" n="24"/>Ad aliud dicendum, quod peccata non
+<lb ed="#Be" n="25"/>habent colligationem in aliquo ente 
+posi<lb break="no" ed="#Be" n="26"/>tivo, quod sit sicut habitus, vel radix,
+<lb ed="#Be" n="27"/>vel aliquid hujusmodi : sed tamen 
+ha<lb break="no" ed="#Be" n="28"/>bent convenientiam in privatione 
+con<lb break="no" ed="#Be" n="29"/>versionis ad bonum tncommutabile : ex
+<lb ed="#Be" n="30"/>qua parte habent omnia rationem 
+pecca<lb break="no" ed="#Be" n="31"/>tiet mali et culpew offensionis. Et cum
+<lb ed="#Be" n="32"/>talis privatio permaneat in eo qui 
+perdu<lb break="no" ed="#Be" n="33"/>rat in peccato, manet ira Dei super eum:
+<lb ed="#Be" n="34"/>et ideo non est perceptibilis gratia.
+</p>
+            <p xml:id="alalal-g97785-d1e971">
+               <lb ed="#Be" n="35"/>Ad aliud dicendum, quod de hoc
+<lb ed="#Be" n="36"/>diversi diversa sentiunt. Et quantum ad
+<lb ed="#Be" n="37"/>me pertinet, ego bene puto, quod una
+<lb ed="#Be" n="38"/>politicaruin habetur sine alia : licet non
+<lb ed="#Be" n="39"/>quoad omne posse quod potest habere
+<lb ed="#Be" n="40"/>in Subjecto : et tune dicendum, quod non
+<lb ed="#Be" n="41"/>est simile de politicis et infusis : quia
+<lb ed="#Be" n="42"/>infuse intelliguntur virtutes formate,
+<lb ed="#Be" n="43"/>que sunt quasi quaedam virtuales partes
+<lb ed="#Be" n="44"/>gratia gratum facientis: et ideo habent
+<lb ed="#Be" n="45"/>colligantiam in gratia, ita quod una non
+<lb ed="#Be" n="46"/>habetur sine alia. Et ideo etiam nulla
+<lb ed="#Be" n="47"/>ibi est, quamdiu contrarium alicujus vir-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="48"/>tutis est in subjecto. Sed non est sic de
+<lb ed="#Be" n="49"/>politicis : quia ille per consuetudinem
+<lb ed="#Be" n="50"/>et experimentum generationem sumunt,
+<lb ed="#Be" n="51"/>et consuetudines actuum diverse sunt -
+<lb ed="#Be" n="52"/>et ideo una generatur in anima, alia non
+<lb ed="#Be" n="53"/>generata. Et per hoc patet solutio ad
+<lb ed="#Be" n="54"/>duo sequentia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

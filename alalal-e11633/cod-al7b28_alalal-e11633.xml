@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 16</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 16</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="58"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e11633"><!-- l3d3a16 -->
+            <head xml:id="alalal-e11633-Hd1e99">Articulus 16</head>
+            <head xml:id="alalal-e11633-Hd1e101" type="question-title">Quis sit modus annuntiationis, an 
+intellectualis, an alius aliquis ducens in
+assensum ?</head>
+            <p xml:id="alalal-e11633-d1e104">
+               <lb ed="Bd" n="11"/>ARTICULUS XVI.
+<lb ed="Bd" n="12"/>Quis sit modus annuntiationis, an 
+intel<lb break="no" ed="Bd" n="13"/>lectualis, an alius aliquis ducens in
+<lb ed="Bd" n="14"/>assensum ?
+</p>
+            <p xml:id="alalal-e11633-d1e115">
+               <lb ed="Bd" n="15"/>Quarto, Queritur de modo 
+annuntia<lb break="no" ed="Bd" n="16"/>tionis.
+</p>
+            <p xml:id="alalal-e11633-d1e122">
+               <lb ed="Bd" n="17"/>Videtur enim, quod visione 
+intelle<lb break="no" ed="Bd" n="18"/>ctuali fieri debuit : quia
+<lb ed="Bd" n="19"/>1. Hoc genus illuminationis summum
+<lb ed="Bd" n="20"/>est, ut dicit Augustinus im libro XII 
+su<lb break="no" ed="Bd" n="21"/>per Genesim.
+</p>
+            <p xml:id="alalal-e11633-d1e136">
+               <lb ed="Bd" n="22"/>2. tem, Daniel. x, 1 : Intelligentia est
+<lb ed="Bd" n="23"/>opus in visione.
+</p>
+            <p xml:id="alalal-e11633-d1e143">
+               <lb ed="Bd" n="24"/>3. Item, Dicit Augustinus, quod 
+pro<lb break="no" ed="Bd" n="25"/>phetia non est nisi ab intellectuali 
+visio<lb break="no" ed="Bd" n="26"/>ne, eo quod in aliis est error : ergo illo
+<lb ed="Bd" n="27"/>modo fieri debuit, ut videtur.
+</p>
+            <p xml:id="alalal-e11633-d1e154">
+               <lb ed="Bd" n="28"/>Si forte dicatur, quod Angeli non 
+pos<lb break="no" ed="Bd" n="29"/>sunt illuminare nostrum intellectum, co
+<lb ed="Bd" n="30"/>quod secundum intellectum sumus 
+equa<lb break="no" ed="Bd" n="31"/>les eis : eb par in parem non habet 
+po<lb break="no" ed="Bd" n="32"/>testatem. Hoc est contra Augustinum in
+<lb ed="Bd" n="33"/>libro XII super Genestm, ubi dicit hoc
+<lb ed="Bd" n="34"/>fieri miris modis, quod Angeli species 
+in<lb break="no" ed="Bd" n="35"/>telligibiles nostro intellectui imprimunt.
+</p>
+            <p xml:id="alalal-e11633-d1e174">
+               <lb ed="Bd" n="36"/>Solutio Dicendum, quod annuntiatio
+<lb ed="Bd" n="37"/>esi per modum inducentis in consensum,
+<lb ed="Bd" n="38"/>ut consentire sit ex libera electione :
+<lb ed="Bd" n="39"/>quia aliter non esset laudabile : quia il-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="40"/>luminatio in intellectu convincit 
+ratio<lb break="no" ed="Bd" n="41"/>nem de consensu. Et ideo licet modus
+<lb ed="Bd" n="42"/>illuminationis intellectuahs nobilior sit
+<lb ed="Bd" n="43"/>in genere suo, quam per visum vel 
+ima<lb break="no" ed="Bd" n="44"/>ginationem, tamen non adeo utilis esset
+<lb ed="Bd" n="45"/>ad annuntialionem qu inclinat ad 
+libe<lb break="no" ed="Bd" n="46"/>rum consensum.
+<lb ed="Bd" n="47"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

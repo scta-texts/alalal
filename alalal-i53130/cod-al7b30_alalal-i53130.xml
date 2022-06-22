@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 20</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 20</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="253"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i53130"><!-- l4d31a20 -->
+            <head xml:id="alalal-i53130-Hd1e99">Articulus 20</head>
+            <head xml:id="alalal-i53130-Hd1e101" type="question-title">Quare ardentior amator sue uxoris 
+potius comparetur adultero quam 
+fornicatori ? et, Quis dicitur ardentior
+amator ?</head>
+            <p xml:id="alalal-i53130-d1e104">
+               <lb ed="#Bf" n="36"/>ARTICULUS XX.
+<lb ed="#Bf" n="37"/>Quare ardentior amator sue uxoris 
+po<lb break="no" ed="#Bf" n="38"/>tius comparetur adultero quam 
+for<lb break="no" ed="#Bf" n="39"/>nicatori ? et, Quis dicitur ardentior
+<lb ed="#Bf" n="40"/>amator ?
+</p>
+            <p xml:id="alalal-i53130-d1e117">
+               <lb ed="#Bf" n="41"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bf" n="42"/>Sextus pythagoricus, ibi, F, post me-
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="43"/>dium : <quote xml:id="alalal-i53130-Qd1e127"> Omnis ardentior amator,
+<lb ed="#Bf" n="44"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-i53130-d1e133">
+               <lb ed="#Bf" n="45"/>Videtur enim falsum esse : quia
+<lb ed="#Bf" n="46"/>1. Suam cognoscit, quod non facit
+<lb ed="#Bf" n="47"/>adulter : fervor autem coitus in utroque
+<lb ed="#Bf" n="48"/>est aqualis.
+</p>
+            <p xml:id="alalal-i53130-d1e145">
+               <lb ed="#Bf" n="49"/>2. Item, Ardentior dicit 
+comparatio<lb break="no" ed="#Bf" n="50"/>nem, et comparatio notat excessum,
+<lb ed="#Bf" n="51"/>queratur respectu cujus? Si dicitur 
+re<lb break="no" ed="#Bf" n="52"/>spectu ardoris qui est in coitu qui fit 
+bo<lb break="no" ed="#Bf" n="53"/>nis matrimonii moventibus, tunc arden~
+<lb ed="#Bf" n="54"/>tior erit amator qui victus concupiscentia
+<lb ed="#Bf" n="55"/>utitur conjuge : sed hoc falsum est, quia
+<lb ed="#Bf" n="56"/>dicit Augustinus in Littera, quod hoc
+<lb ed="#Bf" n="57"/>est veniale. Si autem dicitur, quod notat
+<lb ed="#Bf" n="58"/>excessum respeciu illius qui victus 
+con<lb break="no" ed="#Bf" n="59"/>cupiscentia ulitur conjuge : tunc 
+vide<lb break="no" ed="#Bf" n="60"/>tur, quod deberet dici ardentissimus,
+<lb ed="#Bf" n="61"/>quia primus gradus est in eo qui utitur
+<lb ed="#Bf" n="62"/>conjuge motus bono matrimonii : 
+se<lb break="no" ed="#Bf" n="63"/>cundus autem in eo qui victus 
+con<lb break="no" ed="#Bf" n="64"/>cupiscentia : et terlius in excedente
+<lb ed="#Bf" n="65"/>illos.
+</p>
+            <p xml:id="alalal-i53130-d1e184">
+               <lb ed="#Bf" n="66"/>3. Item, Videtur quod nullus coitus
+<lb ed="#Bf" n="67"/>matrimonii sit venialis, sed omnes sunt
+<lb ed="#Bf" n="68"/>mortales : quia actus qui ejusdem et
+<lb ed="#Bf" n="69"/>equalis sunt conversionis ad bonum
+<lb ed="#Bf" n="70"/>commutabile, sunt etiam ejusdem 
+aver<lb break="no" ed="#Bf" n="71"/>sionis : sed constat, quod ille mortaliter
+<lb ed="#Bf" n="72"/>avertitur, qui utitur meretrice : ergo
+<lb ed="#Bf" n="73"/>et ille qui utitur conjuge.
+</p>
+            <p xml:id="alalal-i53130-d1e204">
+               <lb ed="#Bf" n="74"/>4, Item, In VIII Lthicorum innuit
+<lb ed="#Bf" n="75"/>Aristoteles, quod delectatio corrumpens
+<lb ed="#Bf" n="76"/>eslimationem prudentia, est vitupera~
+<lb ed="#Bf" n="77"/>bilis in ethicis : sed quod ibi est 
+vitupe<lb break="no" ed="#Bf" n="78"/>rabile, Theologis est mortale : ergo talis
+<lb ed="#Bf" n="79"/>delectatio est mortalis, quia est 
+corrup<lb break="no" ed="#Bf" n="80"/>tiva virtutis : sed talis delectatio est in
+<lb ed="#Bf" n="81"/>omni concubitu : ergo videtur, quod
+<lb ed="#Bf" n="82"/>omnis concubitus est mortale 
+pecca<lb break="no" ed="#Bf" n="83"/>tum,
+</p>
+            <p xml:id="alalal-i53130-d1e228">
+               <lb ed="#Bf" n="84"/>Responsio. Dicendum, quod ardentior
+<lb ed="#Bf" n="85"/>hic vocatur ardor excedens totius 
+ma<lb break="no" ed="#Bf" n="86"/>trimonii concessionem et honestatem.
+<lb ed="#Bf" n="87"/>Sub concessione autem matrimonii et
+<lb ed="#Bf" n="88"/>honestate fervens est in positivo gradu
+<lb ed="#Bf" n="89"/>respectu cujus notatur excessus.
+</p>
+            <p xml:id="alalal-i53130-d1e244">
+               <lb ed="#Bf" n="90"/>Et per hoc patet solutio ad primum,
+</p>
+            <p xml:id="alalal-i53130-d1e249">
+               <pb ed="#Bf" n="254"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Si autem quaeratur, quare talis 
+com<lb break="no" ed="#Bf" n="2"/>paratur adultero, et non  fornicatori ?
+<lb ed="#Bf" n="3"/>Dicendum, quod hoc ideo est, quia 
+forni<lb break="no" ed="#Bf" n="4"/>cator non peccat in matrimonium, sed
+<lb ed="#Bf" n="5"/>ille talis peceat : et ideo a corruptione
+<lb ed="#Bf" n="6"/>matrimonii dicitur adulter, non a 
+trans<lb break="no" ed="#Bf" n="7"/>gressione thori.
+</p>
+            <p xml:id="alalal-i53130-d1e272">
+               <lb ed="#Bf" n="8"/>Et per hoc patet solutio ad id quod
+<lb ed="#Bf" n="9"/>objicitur de adultero : quia non quoad
+<lb ed="#Bf" n="10"/>hoc facit comparationem.
+</p>
+            <p xml:id="alalal-i53130-d1e281">
+               <lb ed="#Bf" n="11"/>Ad id quod ulterius queritur, 
+dicen<lb break="no" ed="#Bf" n="12"/>dum quod conversio duplex est: est
+<lb ed="#Bf" n="13"/>enim una per rationem preambulam
+<lb ed="#Bf" n="14"/>actui, et alia per ipsum opus. Et de 
+con<lb break="no" ed="#Bf" n="15"/>versione rationis preambule actui, 
+ve<lb break="no" ed="#Bf" n="16"/>rum est quod objicitur, scilicet quod
+<lb ed="#Bf" n="17"/>que sunt ejusdem et equalis 
+conversio<lb break="no" ed="#Bf" n="18"/>nis, etc.: sed hoc non tenet hic: quia
+<lb ed="#Bf" n="19"/>ille considerat concessionem et 
+honesta<lb break="no" ed="#Bf" n="20"/>tem matrimonii, et ideo sub Deo 
+con<lb break="no" ed="#Bf" n="21"/>vertitur : alius autem non considerat,
+<lb ed="#Bf" n="22"/>nisi fuedam delectationem. Et haec 
+solu<lb break="no" ed="#Bf" n="23"/>tio valet in multis.
+</p>
+            <p xml:id="alalal-i53130-d1e312">
+               <lb ed="#Bf" n="24"/>Ad aliud dicendum, quod non 
+cor<lb break="no" ed="#Bf" n="25"/>rumpit estimationem prudentiae 
+delecta<lb break="no" ed="#Bf" n="26"/>tio matrimonii : quia prudentia 
+praam<lb break="no" ed="#Bf" n="27"/>bula ordinat eam : sed actum prudentie
+<lb ed="#Bf" n="28"/>opus concomitantem suspendit ad 
+tem<lb break="no" ed="#Bf" n="29"/>pus. ,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

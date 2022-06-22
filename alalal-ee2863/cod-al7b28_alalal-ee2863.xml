@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="15"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee2863"><!-- l3d1a10 -->
+            <head xml:id="alalal-ee2863-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-ee2863-Hd1e101" type="question-title">An Pater, et Spiritus sanctus potuerunt
+incarnari ? et, Utrum possunt 
+assumere eumdem hominem ? et, Utrum 
+possunt assumere plures homines ?</head>
+            <p xml:id="alalal-ee2863-d1e104">
+               <lb ed="Bd" n="7"/>ARTICULUS X.
+<lb ed="Bd" n="8"/>An Pater, et Spiritus sanctus potuerunt
+<lb ed="Bd" n="9"/>incarnari ? et, Utrum possunt 
+assume<lb break="no" ed="Bd" n="10"/>re eumdem hominem ? et, Utrum 
+pos<lb break="no" ed="Bd" n="11"/>sunt assumere plures homines ?
+</p>
+            <p xml:id="alalal-ee2863-d1e117">
+               <lb ed="Bd" n="12"/>Deinde quaeritur de hoc quod dicit 
+Ma<lb break="no" ed="Bd" n="13"/>gister: <quote xml:id="alalal-ee2863-Qd1e123"> Si vero quaeritur, Utrum 
+Pa<lb break="no" ed="Bd" n="14"/>ter, vel Spiritus sanctus, etc. </quote>
+            </p>
+            <p xml:id="alalal-ee2863-d1e129">
+               <lb ed="Bd" n="15"/>Ibi enim dicitur, quod Pater et 
+Spiri<lb break="no" ed="Bd" n="16"/>tus sanctus potuerunt et possunt 
+incar<lb break="no" ed="Bd" n="17"/>nari. Et videtur hoc esse falsum :
+</p>
+            <p xml:id="alalal-ee2863-d1e139">
+               <lb ed="Bd" n="18"/>1. Rationibus supra dictis.
+</p>
+            <p xml:id="alalal-ee2863-d1e144">
+               <lb ed="Bd" n="19"/>2. Item, Tanta est Dei potentia, 
+quan<lb break="no" ed="Bd" n="20"/>taest ejus sapientia: et tanta est ejus
+<lb ed="Bd" n="21"/>sapientia, quanta est ejus scientia: sed
+<lb ed="Bd" n="22"/>numquam scivit Patrem incarnandum 
+es<lb break="no" ed="Bd" n="23"/>se vel Spiritum sanctum : ergo numquam
+<lb ed="Bd" n="24"/>potuit.
+</p>
+            <p xml:id="alalal-ee2863-d1e160">
+               <lb ed="Bd" n="25"/>3. Item, Nihil umquam potest vel 
+po<lb break="no" ed="Bd" n="26"/>tuit fieri, cujus non precessit ratio in
+<lb ed="Bd" n="27"/>mente divina: sed hujus numquam fuit
+<lb ed="Bd" n="28"/>aliqua ratio: ergo numquam fieri 
+po<lb break="no" ed="Bd" n="29"/>tuit.
+</p>
+            <p xml:id="alalal-ee2863-d1e173">
+               <lb ed="Bd" n="30"/>Utreriws quaeritur, Utram Pater et
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="31"/>Spiritus sanctus possent assumere 
+eum<lb break="no" ed="Bd" n="32"/>dem hominem, sive humanam naturam
+<lb ed="Bd" n="33"/>eumdem quam assumpsit Filius.
+</p>
+            <p xml:id="alalal-ee2863-d1e186">
+               <lb ed="Bd" n="34"/>Et videtur, quod sic : Luce, 1, 37: Non
+<lb ed="Bd" n="35"/>erit impossibile apud Deum omne 
+ver<lb break="no" ed="Bd" n="36"/>bum: ergo assumere camdem naturam
+<lb ed="Bd" n="37"/>potuerunt.
+</p>
+            <p xml:id="alalal-ee2863-d1e197">
+               <lb ed="Bd" n="38"/>SED CONTRA:
+<lb ed="Bd" n="39"/>Ponatur, quod assumpserint: unio 
+ta<lb break="no" ed="Bd" n="40"/>lis est quae Deum facit hominem, et 
+ho<lb break="no" ed="Bd" n="41"/>minem Deum in persona: ergo Pater est
+<lb ed="Bd" n="42"/>hic homo, et Filius est hic homo, et 
+Spi<lb break="no" ed="Bd" n="43"/>ritus sanctus est hichomo : sed 
+quecum<lb break="no" ed="Bd" n="44"/>que unict eidem sunt eadem, ipsa sunt
+<lb ed="Bd" n="45"/>eadem: ergo Pater est Filius et 
+Spiri<lb break="no" ed="Bd" n="46"/>tus sanctus, et e converso, quod falsum
+<lb ed="Bd" n="47"/>est: ergo eumdem assumere non 
+potue<lb break="no" ed="Bd" n="48"/>runt.
+</p>
+            <p xml:id="alalal-ee2863-d1e224">
+               <lb ed="Bd" n="49"/>Uxrerivs iterum quaeritur, Si 
+potue<lb break="no" ed="Bd" n="50"/>runt assumere plures, vel etiam omnem
+<lb ed="Bd" n="51"/>hominem ?
+</p>
+            <p xml:id="alalal-ee2863-d1e233">
+               <lb ed="Bd" n="52"/>Et videtur quod sic: Tantum enim 
+be<lb break="no" ed="Bd" n="53"/>neficium contulisset assumptio unius, 
+sic<lb break="no" ed="Bd" n="54"/>ut alterius. Cum ergo Deus non sit 
+in<lb break="no" ed="Bd" n="55"/>vidus, et communicabile fuerit hoc 
+bene<lb break="no" ed="Bd" n="56"/>ficlum, videtur quod cuilibet homini 
+de<lb break="no" ed="Bd" n="57"/>buit prestari.
+</p>
+            <p xml:id="alalal-ee2863-d1e249">
+               <lb ed="Bd" n="58"/>Solutio Dicendum cum Magistro, et
+<lb ed="Bd" n="59"/>Augustino, quod Pater et Spiritus sanctus
+<lb ed="Bd" n="60"/>potuerunt et possunt incarnari: sed non
+<pb ed="#Bd" n="16"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>congruit, nec necesse fuit. Unde cum
+<lb ed="Bd" n="2"/>Deus nihil nisi congraum faciat et 
+de<lb break="no" ed="Bd" n="3"/>cens, ipse hoc non fecit: si tamen 
+face<lb break="no" ed="Bd" n="4"/>ret et fecisset, congruentissimum esset.
+</p>
+            <p xml:id="alalal-ee2863-d1e271">
+               <lb ed="Bd" n="5"/>Ad aliud autem quod primo objicitur,
+<lb ed="Bd" n="6"/>dicendum, quod ante habite rationes sunt
+<lb ed="Bd" n="7"/>rationes majoris congruentia# secundum
+<lb ed="Bd" n="8"/>investigationem humanam: non autem
+<lb ed="Bd" n="9"/>removent potestatem divinam, nec 
+limi<lb break="no" ed="Bd" n="10"/>tant in aliquo: quia Deus, ut dicit 
+Dio<lb break="no" ed="Bd" n="11"/>nysius, est supra mentem, et supra 
+ra<lb break="no" ed="Bd" n="12"/>lionem, ex quo neque digne cogitatur,
+<lb ed="Bd" n="13"/>neque digne dicitur.
+</p>
+            <p xml:id="alalal-ee2863-d1e293">
+               <lb ed="Bd" n="14"/>Ad aliud dicendum, quod tanta est
+<lb ed="Bd" n="15"/>potentia, quanta est scientia ipsius, 
+se<lb break="no" ed="Bd" n="16"/>cundum quod utrumque essentialter
+<lb ed="Bd" n="17"/>consideratur in ipso. Sed si utrumque
+<lb ed="Bd" n="18"/>referatur ad objecta extra, ipsa amphor
+<lb ed="Bd" n="19"/>erit potentia quam scientia: quaedam
+<lb ed="Bd" n="20"/>enim potest quae non seit, quia non 
+fa<lb break="no" ed="Bd" n="21"/>ciet ea, id est, quorum rationem non 
+ha<lb break="no" ed="Bd" n="22"/>bet apud se: quae si faceret, sine dubio
+<lb ed="Bd" n="23"/>rationem eorum prehaberet. Et sic etiam
+<lb ed="Bd" n="24"/>est de voluntate quae licet sit tanta,
+<lb ed="Bd" n="25"/>quanta sit potentia et scientia, tamen
+<lb ed="Bd" n="26"/>respectu objectorum minor est. Unde 
+di<lb break="no" ed="Bd" n="27"/>cit Augustinus, quod quaedam 
+subjiciun<lb break="no" ed="Bd" n="28"/>tur potenti et non scientiae, et quaedam
+<lb ed="Bd" n="29"/>scientiae et non voluntati.
+</p>
+            <p xml:id="alalal-ee2863-d1e330">
+               <lb ed="Bd" n="30"/>Aviv quod ulterius quaeritur, sine 
+pre<lb break="no" ed="Bd" n="31"/>judicio dico ratione inducta non potuisse
+<lb ed="Bd" n="32"/>fieri, quod Pater et Spiritus sanctus 
+eum<lb break="no" ed="Bd" n="33"/>dem hominem assumpserint propter 
+con<lb break="no" ed="Bd" n="34"/>fusionem in personis : quia cum unio sit
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="35"/>in persona, videretur sequi quod omnes
+<lb ed="Bd" n="36"/>essent una persona. Dico autem non 
+pos<lb break="no" ed="Bd" n="37"/>se fieri: quia licet Deus potuerit hoc 
+fa<lb break="no" ed="Bd" n="38"/>cere, tamen ex parte nature assumptex
+<lb ed="Bd" n="39"/>fieri non potuit, et hoc non est 
+impoten<lb break="no" ed="Bd" n="40"/>tia divina, sed potius creature, propter
+<lb ed="Bd" n="41"/>inconveniens quod sequi videtur.
+</p>
+            <p xml:id="alalal-ee2863-d1e362">
+               <lb ed="Bd" n="42"/>Ad aliud quod ulterius quaeritur,
+<lb ed="Bd" n="43"/>Utrum omnem hominem assumere 
+po<lb break="no" ed="Bd" n="44"/>tuerunt, supra responsum est quod hoc
+<lb ed="Bd" n="45"/>iterum ex parte individuorum non esset
+<lb ed="Bd" n="46"/>conveniens: quia omnes homines 
+uni<lb break="no" ed="Bd" n="47"/>rentur in tres homines, ut probatum est
+<lb ed="Bd" n="48"/>supra, et sic periret decor universi, et
+<lb ed="Bd" n="49"/>potentia multiplicationis humani generis,
+<lb ed="Bd" n="50"/>et ctiam (quod his inconvenientius est)
+<lb ed="Bd" n="51"/>numerus electorum, et non fieret 
+restau<lb break="no" ed="Bd" n="52"/>ratio ruine Angelorum. Si autem triam
+<lb ed="Bd" n="53"/>hominum natura assumeretur, esset 
+su<lb break="no" ed="Bd" n="54"/>perfluum: cum redemptio sit finis 
+as<lb break="no" ed="Bd" n="55"/>sumptionis humane nature, et per unius
+<lb ed="Bd" n="56"/>assumptionem possit fieri redemptio 
+infi<lb break="no" ed="Bd" n="57"/>nitorum mundorum si essent. Non autem
+<lb ed="Bd" n="58"/>ideo dico superfluum, quia si fieret vel
+<lb ed="Bd" n="59"/>factum esset, indecorum esset : imo 
+quid<lb break="no" ed="Bd" n="60"/>quid facit Deus, decentissimum est: sed
+<lb ed="Bd" n="61"/>assigno rationem convenientia ex parte
+<lb ed="Bd" n="62"/>creatures. Decentissime enim Deus 
+dis<lb break="no" ed="Bd" n="63"/>posuit nasum sub fronte: si autem sub
+<lb ed="Bd" n="64"/>dorso posuisset, nihilominus 
+decentissi<lb break="no" ed="Bd" n="65"/>mum esset: licet non videamus decorem
+<lb ed="Bd" n="66"/>ex parte dispositionis corporis humani.
+</p>
+            <p xml:id="alalal-ee2863-d1e419">
+               <lb ed="Bd" n="67"/>Littera illius capituli per se patet.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="282"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c53280"><!-- l1d38a2 -->
+            <head xml:id="alalal-c53280-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-c53280-Hd1e101" type="question-title">An aliqua veritas fuit ab aeterno
+praeter Deum ?</head>
+            <p xml:id="alalal-c53280-d1e104">
+               <lb ed="#Bb" n="44"/>ARTICULUS II.
+<lb ed="#Bb" n="45"/>An aliqua veritas fuit ab aeterno
+<lb ed="#Bb" n="46"/>praeter Deum ?
+</p>
+            <p xml:id="alalal-c53280-d1e113">
+               <lb ed="#Bb" n="47"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Bb" n="48"/>ibi, A, circa medium : <quote xml:id="alalal-c53280-Qd1e119"> Non ista ex
+<lb ed="#Bb" n="49"/>aliquo tempore cognovit Deus, etc. </quote>
+            </p>
+            <p xml:id="alalal-c53280-d1e125">
+               <lb ed="#Bb" n="50"/>1. Cum enim omne verum sciatur a
+<lb ed="#Bb" n="51"/>Deo, et nihil sciatur nisi verum, 
+vide<lb break="no" ed="#Bb" n="52"/>tur posse probari aliquod verum vel
+<lb ed="#Bb" n="53"/>plura vera fuisse ab aeterno : nihil autem
+<lb ed="#Bb" n="54"/>scitur a Deo nisi omne verum : ergo
+<lb ed="#Bb" n="55"/>omne verum scitur ab aeterno a Deo:
+<lb ed="#Bb" n="56"/>quidquid autem scitur, est verum : et
+<lb ed="#Bb" n="57"/>quidquid verum, illud est : ergo omne
+<lb ed="#Bb" n="58"/>verum est ab aeterno, ut videtur. Si forte
+<lb ed="#Bb" n="59"/>dicas, quod unumquodque sicut se 
+ha<lb break="no" ed="#Bb" n="60"/>bet ad esse, ita se habet ad verum, et
+<lb ed="#Bb" n="61"/>non e converso: unde cum omnia non
+<lb ed="#Bb" n="62"/>fuerint ab aeterno, non omnia erunt vera
+<lb ed="#Bb" n="63"/>etiam ab aeterno. Contra : Nihil scitur
+<lb ed="#Bb" n="64"/>nisi verum : et omnia sciuntur ab 
+ater<lb break="no" ed="#Bb" n="65"/>no : ergo sunt vera ab aeterno : veritati
+<lb ed="#Bb" n="66"/>autem preintelligitur esse sicut causa
+<lb ed="#Bb" n="67"/>causato : ergo omnia fuerunt ab aeterno,
+<lb ed="#Bb" n="68"/>ut videtur.
+</p>
+            <p xml:id="alalal-c53280-d1e170">
+               <lb ed="#Bb" n="69"/>2. Praeterea, Augustinus sic videtur
+<lb ed="#Bb" n="70"/>probare animam immortalem : quia si
+<lb ed="#Bb" n="71"/>illud quod inest, est incorruptibile, et
+<lb ed="#Bb" n="72"/>non potest esse sine subjecto, erit 
+sub<lb break="no" ed="#Bb" n="73"/>jectum ejus proprium perpetuum : sed
+<lb ed="#Bb" n="74"/>veritas est aeterna, et est in anima, sicut
+<lb ed="#Bb" n="75"/>in subjecto : ergo anima est immortalis
+<lb ed="#Bb" n="76"/>et perpetua. Quod autem veritas sit 
+aeter<lb break="no" ed="#Bb" n="77"/>na, probat sic : Aut veritatem esse ab
+<lb ed="#Bb" n="78"/>aeterno est verum, aut non. Si est 
+ve<lb break="no" ed="#Bb" n="79"/>rum, habeo propositum. Si non: ergo
+<lb ed="#Bb" n="80"/>contradictorium est verum, scilicet 
+verita<lb break="no" ed="#Bb" n="81"/>tem non fuisse ab aeterno. Si 
+contradi<lb break="no" ed="#Bb" n="82"/>ctorium est verum, aliquid est verum :
+<lb ed="#Bb" n="83"/>et si aliquid est verum, veritas est : ergo
+<lb ed="#Bb" n="84"/>veritate posita non esse ab aeterno, 
+se<lb break="no" ed="#Bb" n="85"/>quitur veritatem esse ab aeterno. 
+Simi<lb break="no" ed="#Bb" n="86"/>liter autem est de destructione verita-
+<pb ed="#Bb" n="283"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>tis, si potest destrui : aut enim 
+veri<lb break="no" ed="#Bb" n="2"/>tas durabit sine fine, aut non. Si non:
+<lb ed="#Bb" n="3"/>detur oppositum, et tunc destructa 
+veri<lb break="no" ed="#Bb" n="4"/>tate, erit aliquid verum : et non nisi 
+ve<lb break="no" ed="#Bb" n="5"/>ritate : ergo ad veritatem non esse, 
+se<lb break="no" ed="#Bb" n="6"/>quitur veritatem esse : ergo est 
+perpe<lb break="no" ed="#Bb" n="7"/>tua ante et post : et ita videtur, quod
+<lb ed="#Bb" n="8"/>respectu ipsius preescientia poni non 
+pos<lb break="no" ed="#Bb" n="9"/>sit. .
+</p>
+            <p xml:id="alalal-c53280-d1e235">
+               <lb ed="#Bb" n="10"/>3. Item, Si in principio mundi, 
+quan<lb break="no" ed="#Bb" n="11"/>do mundus incepit, dico sic : mundus
+<lb ed="#Bb" n="12"/>fuit, constat quod falsum est : ergo 
+con<lb break="no" ed="#Bb" n="13"/>tradictoria fuit vera, mundus non fuit:
+<lb ed="#Bb" n="14"/>ergo aliquid erat verum ante mundum.
+<lb ed="#Bb" n="15"/>Idem sequitur de instanti inceptionis
+<lb ed="#Bb" n="16"/>cujushbet rei quae incipit.
+</p>
+            <p xml:id="alalal-c53280-d1e253">
+               <lb ed="#Bb" n="17"/>4. Item, haec propositio, mundum 
+fo<lb break="no" ed="#Bb" n="18"/>re, vel mundum esse futurum est verum,
+<lb ed="#Bb" n="19"/>aut est vera ab aeterno, aut non. Si sic,
+<lb ed="#Bb" n="20"/>habeo propositum : quia tunc sequitur
+<lb ed="#Bb" n="21"/>multa vera ab aeterno fuisse. Si non :
+<lb ed="#Bb" n="22"/>ergo contradictoria est vera, scilicet
+<lb ed="#Bb" n="23"/>mundum non esse futurum: quod autem
+<lb ed="#Bb" n="24"/>non est futurum, non erit umquam in
+<lb ed="#Bb" n="25"/>aliquo presenti vel preterito : ergo
+<lb ed="#Bb" n="26"/>numquam fuit vera hec, mundus est, vel
+<lb ed="#Bb" n="27"/>mundus fuit, quod falsum est : ergo
+<lb ed="#Bb" n="28"/>constat, quod prima est vera mundum
+<lb ed="#Bb" n="29"/>esse futurum : et similiter Socratem esse
+<lb ed="#Bb" n="30"/>futarum. Cum autem omnia haec ab
+<lb ed="#Bb" n="31"/>aeterno sint vera, ut videtur, scientia Dei
+<lb ed="#Bb" n="32"/>non erit ante ea, et ita praescientia 
+pro<lb break="no" ed="#Bb" n="33"/>prie non vocabitur respectu illorum. Hoc
+<lb ed="#Bb" n="34"/>autem concessum est quandoque, quod
+<lb ed="#Bb" n="35"/>multe veritates sint ab aeterno quae non
+<lb ed="#Bb" n="36"/>sunt Deus.
+</p>
+            <p xml:id="alalal-c53280-d1e299">
+               <lb ed="#Bb" n="37"/>SED CONTRA :
+<lb ed="#Bb" n="38"/>Omnis oppositio est circa aliquod
+<lb ed="#Bb" n="39"/>idem et unum, ad quod reducitur ut ad
+<lb ed="#Bb" n="40"/>subjectum de quo est : ergo si sequitur
+<lb ed="#Bb" n="41"/>talis reductio, haec propositio non est
+<lb ed="#Bb" n="42"/>vera : ergo ejus contradictoria est vera :
+<lb ed="#Bb" n="43"/>oportet dicere, quod oppositio 
+contra<lb break="no" ed="#Bb" n="44"/>dictionis est ab aeterno : cum autem non
+<lb ed="#Bb" n="45"/>possit esse in se, reducitur ad aliquod
+<lb ed="#Bb" n="46"/>unum, ut materiam : ergo necesse est
+<lb ed="#Bb" n="47"/>etiam illud ponere ab &amp;terno : nihil 
+au<lb break="no" ed="#Bb" n="48"/>tem est circa quod omnis oppositio sit,
+<lb ed="#Bb" n="49"/>nisi materia prima : ergo materia prima
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="50"/>erit ab aeterno : materia enim prima 
+sub<lb break="no" ed="#Bb" n="51"/>jicitur in omnieo quod per se est 
+sub<lb break="no" ed="#Bb" n="52"/>jectum, ut dicit quidam Philosophus :
+<lb ed="#Bb" n="53"/>hoc autem est heresis : ergo et illud ex
+<lb ed="#Bb" n="54"/>quo sequitur, scilicet veritates esse 
+mul<lb break="no" ed="#Bb" n="55"/>tas quae non sunt Deus ab aeterno. Nec
+<lb ed="#Bb" n="56"/>potest aliquis dicere, quod ille veritates
+<lb ed="#Bb" n="57"/>non sunt nisi relationes : relatio enim
+<lb ed="#Bb" n="58"/>oppositionis non est nisi in oppositis :
+<lb ed="#Bb" n="59"/>ergo si relatio est, subjectum relationis
+<lb ed="#Bb" n="60"/>erit : et ita oportet esse ipsas 
+propostto<lb break="no" ed="#Bb" n="61"/>nes ab aeterno, quod falsum est.
+</p>
+            <p xml:id="alalal-c53280-d1e358">
+               <lb ed="#Bb" n="62"/>Solutio. Non puto esse catholicum,
+<lb ed="#Bb" n="63"/>ut dicatur multas veritates fuisse ab 
+ater<lb break="no" ed="#Bb" n="64"/>no, quae non sunt Deus.
+</p>
+            <p xml:id="alalal-c53280-d1e367">
+               <lb ed="#Bb" n="65"/>Unde respondeo ad primum, quod
+<lb ed="#Bb" n="66"/>quidquid scitur est verun, illa 
+proposi<lb break="no" ed="#Bb" n="67"/>tio est vera de duplici scientia, scilicet
+<lb ed="#Bb" n="68"/>de illa quae est causa sciti, et de illa
+<lb ed="#Bb" n="69"/>que est causata a scito. Et cum 
+conce<lb break="no" ed="#Bb" n="70"/>ditur de illa quae est causa sciti, quia
+<lb ed="#Bb" n="71"/>sciens est agens per intellectum et 
+vo<lb break="no" ed="#Bb" n="72"/>luntatem, non sequitur ulterius, quod
+<lb ed="#Bb" n="73"/>quidquid est verum, est : quia cum 
+dice<lb break="no" ed="#Bb" n="74"/>batur, quidquid scitur est verum, non
+<lb ed="#Bb" n="75"/>ponebatur scitum nisi secundum 
+condi<lb break="no" ed="#Bb" n="76"/>tionem scientis, et non secundum 
+pro<lb break="no" ed="#Bb" n="77"/>prietatem nature sciti: et ita patet 
+qua<lb break="no" ed="#Bb" n="78"/>liter impeditur ille processus. Si verum
+<lb ed="#Bb" n="79"/>est de scientia quae causatur a scito, ibi
+<lb ed="#Bb" n="80"/>verum sequitur ad esse, et scire sequitur
+<lb ed="#Bb" n="81"/>ad verum sicut causatum ad causam: etin
+<lb ed="#Bb" n="82"/>illo non tenet processus : quia talis 
+scien<lb break="no" ed="#Bb" n="83"/>tia non est ab aeterno.
+</p>
+            <p xml:id="alalal-c53280-d1e412">
+               <lb ed="#Bb" n="84"/>Ad opsectum Augustini dicendum,
+<lb ed="#Bb" n="85"/>quod unum sophisma est, nec dicit 
+as<lb break="no" ed="#Bb" n="86"/>serendo, nisi hoc modo quo ponitur
+<lb ed="#Bb" n="87"/>veritas enuntiabilis in mente divina 
+tan<lb break="no" ed="#Bb" n="88"/>tum : sic enim non est nisi veritas una,
+<lb ed="#Bb" n="89"/>que tamen est multorum per relationem
+<lb ed="#Bb" n="90"/>ad ipsa, sicut supra diximus de ideis.
+</p>
+            <p xml:id="alalal-c53280-d1e430">
+               <lb ed="#Bb" n="91"/>Dicendum igitur, quod sicut privatio
+<lb ed="#Bb" n="92"/>non intelligitur nisi per habitum, ita ne—
+<lb ed="#Bb" n="93"/>gatio non intelligitur nisi per 
+affirmatio<lb break="no" ed="#Bb" n="94"/>nem : etideo nulla accepta affirmativa,
+<lb ed="#Bb" n="95"/>nulla accipietur negativa. Unde dico,
+<lb ed="#Bb" n="96"/>quod haec est falsa, veritatem fuisse ab
+<lb ed="#Bb" n="97"/>eterno, duabus de causis, scilicet quia
+<pb ed="#Bb" n="284"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>non fuit propositio : et quia non tenet
+<lb ed="#Bb" n="2"/>compositio ratione determinationis : et
+<lb ed="#Bb" n="3"/>cum infertur, ergo contradictoria est
+<lb ed="#Bb" n="4"/>vera : dico, quod non sequitur nisi 
+sup<lb break="no" ed="#Bb" n="5"/>posita propositione : illa autem non est,
+<lb ed="#Bb" n="6"/>quia impossibile est negativam esse 
+pri<lb break="no" ed="#Bb" n="7"/>mam : et ideo cum ante hanc, veritatem
+<lb ed="#Bb" n="8"/>non fuisse ab aeterno, nulla potest 
+acci<lb break="no" ed="#Bb" n="9"/>pi affirmativa, ipsa non erit accepta: et
+<lb ed="#Bb" n="10"/>ideo nullam habet contradictoriam , tali
+<lb ed="#Bb" n="11"/>facta positione.
+</p>
+            <p xml:id="alalal-c53280-d1e476">
+               <lb ed="#Bb" n="12"/>Similiter dico de hac, mundus fuit, et
+<lb ed="#Bb" n="13"/>de ejus contradictoria, et eodem modo
+<lb ed="#Bb" n="14"/>de omnibus aliis.
+</p>
+            <p xml:id="alalal-c53280-d1e485">
+               <lb ed="#Bb" n="15"/>Quod autem queritur de hac, mun-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="16"/>dum futurum esse est verum, utrum
+<lb ed="#Bb" n="17"/>vera fuerit ante mundum? Dico quod
+<lb ed="#Bb" n="18"/>non : quia non fuit propositio : si enim
+<lb ed="#Bb" n="19"/>nihil est ante mundum, non poterit esse
+<lb ed="#Bb" n="20"/>subjicibile aliquid et praedicabile ante
+<lb ed="#Bb" n="21"/>mundum : ergo non potuit esse 
+proposi<lb break="no" ed="#Bb" n="22"/>tio : quia ab eo quod res est, vel non est,
+<lb ed="#Bb" n="23"/>secundum Aristotelem oratio dicitur 
+ve<lb break="no" ed="#Bb" n="24"/>ra vel falsa. Tamen si de re et non de
+<lb ed="#Bb" n="25"/>veritate propositionis queratur, bene
+<lb ed="#Bb" n="26"/>concedo, quod mundus erat futurus, et
+<cb ed="#Bb" n="c"/>
+               <lb ed="#Bb" n="27"/>quod mundus potuit esse : sed hoc 
+re<lb break="no" ed="#Bb" n="28"/>fertur ad rationes ideales, et ad 
+poten<lb break="no" ed="#Bb" n="29"/>tiam causae efficientis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="375"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e71183"><!-- l3d21dt -->
+            <head xml:id="alalal-e71183-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e71183-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="18"/>DIVISIO TEXTUS. 
+</p>
+            <p xml:id="alalal-e71183-d1e108">
+               <lb ed="Bd" n="19"/>
+               <quote xml:id="alalal-e71183-Qd1e112"> Post predicta considerandum est,
+<lb ed="Bd" n="20"/>Utrum in morte Christi a Verbo sit 
+se<lb break="no" ed="Bd" n="21"/>parata anima, etc. </quote>
+               <lb ed="Bd" n="22"/>Hic incipit pars illa quae estde 
+questio<lb break="no" ed="Bd" n="23"/>nibus consequentibus passionem : et
+<lb ed="Bd" n="24"/>sunt dug secundum duas distinctiones
+<lb ed="Bd" n="25"/>hie introductas. Prima est de modo
+<lb ed="Bd" n="26"/>mortis : et secunda est, Utrum in triduo
+<lb ed="Bd" n="27"/>mortis fuerit homo, vel alicubi, vel 
+ubi<lb break="no" ed="Bd" n="28"/>que? et he incipit ibi, Dist. XXII, A,
+<lb ed="Bd" n="29"/>
+               <quote xml:id="alalal-e71183-Qd1e136"> Hic quaeritur, Utrum in illo triduo
+<lb ed="Bd" n="30"/>mortis Christus fuerit homo ?</quote>
+            </p>
+            <p xml:id="alalal-e71183-d1e142">
+               <lb ed="Bd" n="31"/>In prima parte sunt tria, scilicet 
+solu<lb break="no" ed="Bd" n="32"/>tio cujusdam objectionis probantis, quod
+<lb ed="Bd" n="33"/>separatione deitatis et anima Christus
+<lb ed="Bd" n="34"/>fuerit mortuus : et ad hoc inducitur 
+pri<lb break="no" ed="Bd" n="35"/>mum capitulum. Secundum est solutio
+<lb ed="Bd" n="36"/>auctoritatum Augustini et Athanasii. Et
+<lb ed="Bd" n="37"/>ad hoc inducuntur duo sequentia 
+capi<lb break="no" ed="Bd" n="38"/>tula, ibi, B, <quote xml:id="alalal-e71183-Qd1e161"> Alii quoque auctoritati
+<cb ed="#Bd" n="c"/>
+                  <lb ed="Bd" n="39"/>innituntur, etc. </quote> Tertiam est, qualiter
+<lb ed="Bd" n="40"/>Christus animam suam posuit et 
+assump<lb break="no" ed="Bd" n="41"/>sit : et heec incipit ibi, C, <quote xml:id="alalal-e71183-Qd1e173"> Stewt 
+Augu<lb break="no" ed="Bd" n="42"/>stinus super Joannem docel, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="376"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c71381"><!-- l1d43dt -->
+            <head xml:id="alalal-c71381-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-c71381-d1e101">
+               <lb ed="#Bb" n="24"/>DIVISIO ET EXPUSITLO TEXTUS.
+</p>
+            <p xml:id="alalal-c71381-d1e106">
+               <lb ed="#Bb" n="25"/>
+               <quote xml:id="alalal-c71381-Qd1e110"> Quidam de suo sensu gloriantes, 
+<lb ed="#Bb" n="26"/>etc. </quote>
+               <lb ed="#Bb" n="27"/>haec distinctioin qua Magister inqui-  
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="28"/>rit infinitatem potentiae divine, 
+dividi<lb break="no" ed="#Bb" n="29"/>tur secundum ea quae objiciunt qui 
+in<lb break="no" ed="#Bb" n="30"/>finitatem potenti divine improbare 
+ni<lb break="no" ed="#Bb" n="31"/>tuntur. Sunt autem tria, ut dicitur in
+<lb ed="#Bb" n="32"/>TIittera, scilicet rationes verisuniles,
+<lb ed="#Bb" n="33"/>per quas objiciant primo. Secundo, 
+po<lb break="no" ed="#Bb" n="34"/>nuntur cause commentitiae, per quas
+<lb ed="#Bb" n="35"/>objiciunt, ibi, D, § 3: <quote xml:id="alalal-c71381-Qd1e137"> Addunt quo-
+<pb ed="#Bb" n="377"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" n="1"/>gue ili dicentes, Nihil facit Deus aut
+<lb ed="#Bb" n="2"/>dimittit, nisi optima et rationabili 
+cau<lb break="no" ed="#Bb" n="3"/>sa, etc. </quote> Tertio, objiciunt per 
+au<lb break="no" ed="#Bb" n="4"/>ctoritates perverse intellectas, ibi, KE,
+<lb ed="#Bb" n="5"/>
+               <quote xml:id="alalal-c71381-Qd1e154"> His aulem wllr scrutatores qui, etc. </quote>
+            </p>
+            <p xml:id="alalal-c71381-d1e157">
+               <lb ed="#Bb" n="6"/>Sunt autem in prima parte tria 
+capi<lb break="no" ed="#Bb" n="7"/>tula : in quorum primo et secundo, 
+sci<lb break="no" ed="#Bb" n="8"/>licet A et B, imducit Magister duas
+<lb ed="#Bb" n="9"/>rationes verisimiles, quarum prima est
+<lb ed="#Bb" n="10"/>hec : Non potest Deus facere nisi quod
+<lb ed="#Bb" n="11"/>justum et bonum est fieri : quidquid
+<lb ed="#Bb" n="12"/>autem justum et bonum est fieri, illud
+<lb ed="#Bb" n="13"/>totum facit, quia aliter argueretur 
+omis<lb break="no" ed="#Bb" n="14"/>sionis ergo quidquid potest facere,
+<lb ed="#Bb" n="15"/>facit : ergo non potest plus facere quam
+<lb ed="#Bb" n="16"/>facit. Secunda est hae : Non potest Deus
+<lb ed="#Bb" n="17"/>facere nisi quod justitia exigit: Justitia
+<lb ed="#Bb" n="18"/>autem non exigit facere, nisi quod facit :
+<lb ed="#Bb" n="19"/>ergo non potest facere nist quod facit.
+</p>
+            <p xml:id="alalal-c71381-d1e190">
+               <lb ed="#Bb" n="20"/>In tertio autem capitulo ©, solvit
+<lb ed="#Bb" n="21"/>Magister istas duas rationes . et intentio
+<lb ed="#Bb" n="22"/>sue solutionis consistit in distinctione
+<lb ed="#Bb" n="23"/>hujus propositionis, non potest Deus 
+fa<lb break="no" ed="#Bb" n="24"/>cere, nisi quod justum et bonum est
+<lb ed="#Bb" n="25"/>fieri. In hac enim locutione ponitur hoc
+<lb ed="#Bb" n="26"/>verbum, potest, quod habet vim 
+am<lb break="no" ed="#Bb" n="27"/>pliand:, et ponitur circa Deum ut 
+po<lb break="no" ed="#Bb" n="28"/>tentem : et hoc quod dico, yustum et 
+bo<lb break="no" ed="#Bb" n="29"/>num est fieri, cadit sub hoc verbo, 
+pot<lb break="no" ed="#Bb" n="30"/>esl, sicut materia in qua terminatur actus
+<lb ed="#Bb" n="31"/>iulius potentia quam copulat verbum
+<lb ed="#Bb" n="32"/>est: ergo duplex est locutio, scilicet
+<lb ed="#Bb" n="33"/>quod potest intelligi, quod prius cadat sub
+<lb ed="#Bb" n="34"/>verbo habente vim ampliandi antequam
+<lb ed="#Bb" n="35"/>restringatur a verbo est, ad prassens /
+2<lb break="no" ed="#Bb" n="36"/>stum e&amp; bonum : et tune ly es¢ non 
+copu<lb break="no" ed="#Bb" n="37"/>labit presens tempus, sed tempus 
+confu<lb break="no" ed="#Bb" n="38"/>sum, respondens potenti : et tune vera
+<lb ed="#Bb" n="39"/>est sub sensu quem ponit Magister, non
+<lb ed="#Bb" n="40"/>potest Deus, etc., id est, non potest
+<lb ed="#Bb" n="41"/>facere msi quod bonum et justum
+<lb ed="#Bb" n="42"/>esset, si fieret. Si autem e contra justum
+<lb ed="#Bb" n="43"/>et bonum intelligatur restring: prius a
+<lb ed="#Bb" n="44"/>verbo, est, ad praesens bonum et 
+ju<lb break="no" ed="#Bb" n="45"/>stum : tune falsa estlocutio : quia tunc
+<lb ed="#Bb" n="46"/>sequeretur, quod nihil posset facere
+<lb ed="#Bb" n="47"/>Deus, nisi quod modo justum et bonum
+<lb ed="#Bb" n="48"/>est fieri.
+</p>
+            <p xml:id="alalal-c71381-d1e256">
+               <lb ed="#Bb" n="49"/>Eadem penitus solutio est in argumen-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="50"/>to secundo et tertio, quod ponit in eodem
+<lb ed="#Bb" n="51"/>capitulo C,§ 2. Et habet duos ramos,
+<lb ed="#Bb" n="52"/>quorum primus est hic: Non potest Deus
+<lb ed="#Bb" n="53"/>facere, nisi quod decet: et non decet
+<lb ed="#Bb" n="54"/>facere, nisi quod facit, quia aliter 
+omit<lb break="no" ed="#Bb" n="55"/>teret : ergo non potest facere nisi quod
+<lb ed="#Bb" n="56"/>facit. Alius ramus est : Aut debet 
+dimit<lb break="no" ed="#Bb" n="57"/>tere quod dimittit ne faciat, aut non. Si
+<lb ed="#Bb" n="58"/>sic : sed nihil facere potest quod non 
+de<lb break="no" ed="#Bb" n="59"/>bet: ergo nihil potest facere quod non
+<lb ed="#Bb" n="60"/>facit. Si non: ergo de debito aliquid
+<lb ed="#Bb" n="61"/>dimittit, quod falsum est. Et applicat
+<lb ed="#Bb" n="62"/>Magister eamdem solutionem quae prius
+<lb ed="#Bb" n="63"/>est posita : et addit, quod hoc verbuin,
+<lb ed="#Bb" n="64"/>debet, male sonat de Deo: quia non
+<lb ed="#Bb" n="65"/>obligatur nisi forte ex promisso. Dreitur
+<lb ed="#Bb" n="66"/>autem iste error fuisse <name xml:id="alalal-c71381-Nd1e299">Magistri Petri
+<lb ed="#Bb" n="67"/>Abelard</name>.
+</p>
+            <p xml:id="alalal-c71381-d1e305">
+               <lb ed="#Bb" n="68"/>Item, Notandum quod ista objecta
+<lb ed="#Bb" n="69"/>quidam aliter solvunt per 
+equivocatio<lb break="no" ed="#Bb" n="70"/>nem potenti, dicentes, quod cum 
+di<lb break="no" ed="#Bb" n="71"/>citur : Non potest Deus facere nisi quod
+<lb ed="#Bb" n="72"/>facit, si intelligatur de potentia 
+conjun<lb break="no" ed="#Bb" n="73"/>cta actui, vera est locutio : si autem
+<lb ed="#Bb" n="74"/>de potentia absoluta, falsa est. Sed
+<lb ed="#Bb" n="75"/>haec solutio non dissolvit : quia objectio
+<lb ed="#Bb" n="76"/>procedit de potentia simphiiter.
+</p>
+            <p xml:id="alalal-c71381-d1e327">
+               <lb ed="#Bb" n="77"/>Per hoc ergo patet dissolutio et 
+sen<lb break="no" ed="#Bb" n="78"/>tentia prime partis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

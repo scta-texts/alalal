@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="349"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a69877"><!-- l1d11a7 -->
+            <head xml:id="alalal-a69877-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-a69877-Hd1e101" type="question-title">Contrarium sacre Scripture quid sit?</head>
+            <p xml:id="alalal-a69877-d1e104">
+               <lb ed="#Ba" n="10"/>ARTICULUS VII.
+<lb ed="#Ba" n="11"/>Contrarium sacre Scripture quid sit?
+</p>
+            <p xml:id="alalal-a69877-d1e111">
+               <lb ed="#Ba" n="12"/>Deinde quaeritur de hoc quod dicit:
+<lb ed="#Ba" n="13"/>
+               <quote xml:id="alalal-a69877-Qd1e117"> Our aliud vel aliter praedicavertt, id 
+<lb ed="#Ba" n="14"/>est, contrarium, etc. </quote>
+            </p>
+            <p xml:id="alalal-a69877-d1e123">
+               <lb ed="#Ba" n="15"/>Illa enim expositio non videtur 
+conve<lb break="no" ed="#Ba" n="16"/>niens : quia non quodlibet aliud est 
+con<lb break="no" ed="#Ba" n="17"/>trarium.
+</p>
+            <p xml:id="alalal-a69877-d1e133">
+               <lb ed="#Ba" n="18"/>Ad hoc dicendum, quod in expositio-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="19"/>nibus tenet talis ratio, quod nihil aliud
+<lb ed="#Ba" n="20"/>est nisi contrarium : omne enim quod
+<lb ed="#Ba" n="21"/>pertinet ad declarationem, intus est: et
+<lb ed="#Ba" n="22"/>id quod non est intus, contrarium est.
+<lb ed="#Ba" n="23"/>Unde Anselmus: <quote xml:id="alalal-a69877-Qd1e150"> Omnis veritas sacre
+<lb ed="#Ba" n="24"/>Scripture veritas est, quae sacre 
+Scri<lb break="no" ed="#Ba" n="25"/>pture non contradicit. </quote>
+            </p>
+            <p xml:id="alalal-a69877-d1e158">
+               <lb ed="#Ba" n="26"/>Quaeritur etiam quae sit fide regula
+<lb ed="#Ba" n="27"/>quam tangit, ibi, <quote xml:id="alalal-a69877-Qd1e164"> quae autem 
+preter<lb break="no" ed="#Ba" n="28"/>greditur regulam, etc. </quote>
+            </p>
+            <p xml:id="alalal-a69877-d1e170">
+               <lb ed="#Ba" n="29"/>Et dicendum, quod regula fidei est
+<lb ed="#Ba" n="30"/>concors Scripturarum sensus cum 
+articu<lb break="no" ed="#Ba" n="31"/>lis fidei : quia illis duobus regularibus
+<lb ed="#Ba" n="32"/>preceptis regitur Theologus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

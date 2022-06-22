@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="358"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d64672"><!-- l2d21a4 -->
+            <head xml:id="alalal-d64672-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-d64672-Hd1e101" type="question-title">Utrum omnis tentatio est peccatum, vel
+cum peccato necessarto ?</head>
+            <p xml:id="alalal-d64672-d1e104">
+               <lb ed="#Bc" n="24"/>ARTICULUS IV.
+<lb ed="#Bc" n="25"/>Utrum omnis tentatio est peccatum, vel
+<lb ed="#Bc" n="26"/>cum peccato necessarto ?
+</p>
+            <p xml:id="alalal-d64672-d1e113">
+               <lb ed="#Bc" n="27"/>Quarto queritur, Utrum omnis tentatio
+<lb ed="#Bc" n="28"/>sit peccatum, vel cum peccato 
+neces<lb break="no" ed="#Bc" n="29"/>sario ?
+</p>
+            <p xml:id="alalal-d64672-d1e122">
+               <lb ed="#Bc" n="30"/>Videtur autem, quod sit peccatum
+<lb ed="#Bc" n="31"/>semper:
+<lb ed="#Bc" n="32"/>1. Omnis enim motus ad illicitum est
+<lb ed="#Bc" n="33"/>peccatum : sed tentatio est motus ad 
+illi<lb break="no" ed="#Bc" n="34"/>citum : ergo est peccatum.
+</p>
+            <p xml:id="alalal-d64672-d1e136">
+               <lb ed="#Bc" n="35"/>2. Si dicas, quod hoc est verum de
+<lb ed="#Bc" n="36"/>tentatione interiori, et non de exteriori.
+<lb ed="#Bc" n="37"/>Contra: Loguamur tantum de interiori:
+<lb ed="#Bc" n="38"/>illa ergo semper est ad illicitum: ergo
+<lb ed="#Bc" n="39"/>semper peccatum.
+</p>
+            <p xml:id="alalal-d64672-d1e149">
+               <lb ed="#Bc" n="40"/>3. Item, Augustinus in libro XIX de
+<lb ed="#Bc" n="41"/>Civitate Dei :<quote xml:id="alalal-d64672-Qd1e155"> Nonnuilum vitium est cum
+<lb ed="#Bc" n="42"/>caro concupiscit adversus spiritum: </quote>
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="43"/>ergo videtur, quod etiam essentialiter sit
+<lb ed="#Bc" n="44"/>peccatum.
+</p>
+            <p xml:id="alalal-d64672-d1e168">
+               <lb ed="#Bc" n="45"/>4, Item, 1 ad Corinth. xu, 7, super jj.
+<lb ed="#Bc" n="46"/>lud, Datus est mihi stimulus, etc., dicit
+<lb ed="#Bc" n="47"/>Glossa: <quote xml:id="alalal-d64672-Qd1e176"> Tentatio cui per peccatum non
+<lb ed="#Bc" n="48"/>consentitur, non est peccaltum, sed nigg.
+<lb ed="#Bc" n="49"/>teria exercende virtutis. </quote> Et subjungit,
+<lb ed="#Bc" n="50"/>
+               <quote xml:id="alalal-d64672-Qd1e186"> Intellige hoc de tentatione praeter eam
+<lb ed="#Bc" n="51"/>que est a carne. </quote> Ergo omnis illa ques
+<lb ed="#Bc" n="52"/>est interior, videtur esse essentialiter
+<lb ed="#Bc" n="53"/>peccatum.
+</p>
+            <p xml:id="alalal-d64672-d1e196">
+               <lb ed="#Bc" n="54"/>SED CONTRA:
+<lb ed="#Bc" n="55"/>1. Matth. vi, 13, super illud, Hine nos
+<lb ed="#Bc" n="56"/>inducas, etc., dicit, Glossa :<quote xml:id="alalal-d64672-Qd1e204"> Tentatio 
+or<lb break="no" ed="#Bc" n="57"/>dinat ad coronam: </quote> hoc autem non 
+pot<lb break="no" ed="#Bc" n="58"/>est facere essentialiter peccatum : ergo
+<lb ed="#Bc" n="59"/>tentatio interior essentialiter non est 
+pec<lb break="no" ed="#Bc" n="60"/>catum.
+</p>
+            <p xml:id="alalal-d64672-d1e217">
+               <lb ed="#Bc" n="61"/>2 Item, Aliud est motus, et aliud est
+<lb ed="#Bc" n="62"/>terminus motus secundum essentiam :
+<lb ed="#Bc" n="63"/>terminus autem tentationis peccatum est:
+<lb ed="#Bc" n="64"/>ergo tentatio quae dicit motum 
+prace<lb break="no" ed="#Bc" n="65"/>dentem, non est peccatum.
+</p>
+            <p xml:id="alalal-d64672-d1e230">
+               <lb ed="#Bc" n="66"/>Uvrertws quaeritur juxta hoc, Utrum
+<lb ed="#Bc" n="67"/>semper sit cum peccato?
+</p>
+            <p xml:id="alalal-d64672-d1e238">
+               <lb ed="#Bc" n="68"/>Videtur quod non: quia
+<lb ed="#Bc" n="69"/>1. Cum diabolus possit commovere
+<lb ed="#Bc" n="70"/>carnem quando vult, ipse faceret nos 
+in<lb break="no" ed="#Bc" n="71"/>desinenter peccare: quia dicit Job, rx,
+<lb ed="#Bc" n="72"/>24: Terra data est ir manus impit.
+</p>
+            <p xml:id="alalal-d64672-d1e251">
+               <lb ed="#Bc" n="73"/>2. Item, Omne peccatum (ut dicit 
+Au<lb break="no" ed="#Bc" n="74"/>gustinus) adeo est voluntarium, quod si
+<lb ed="#Bc" n="75"/>non sit voluntarium, non est peccatum :
+<lb ed="#Bc" n="76"/>ergo cum iste tentationes non sint 
+vo<lb break="no" ed="#Bc" n="77"/>luntarie, videtur quod non sint 
+pecca<lb break="no" ed="#Bc" n="78"/>tum.
+</p>
+            <p xml:id="alalal-d64672-d1e267">
+               <lb ed="#Bc" n="79"/>3. Item, Nullus peccat in eo quod 
+vi<lb break="no" ed="#Bc" n="80"/>tare non potest: ergo cum non 
+possu<lb break="no" ed="#Bc" n="81"/>mus vitare quin tentet carnem diabolus,
+<lb ed="#Bc" n="82"/>non erit ibi culpa aliqua.
+</p>
+            <p xml:id="alalal-d64672-d1e278">
+               <lb ed="#Bc" n="83"/>4, Item, Sit, quod ratio non consentiat :
+<lb ed="#Bc" n="84"/>ergo fit in sensualitate sola : aut ergo
+<lb ed="#Bc" n="85"/>est peccatum, aut non. Si sic, cum illa
+<lb ed="#Bc" n="86"/>sit nobis communis cum brutis, etiam i0
+<lb ed="#Bc" n="87"/>brutis posset esse peccatum. Si non, lune
+<lb ed="#Bc" n="88"/>habebitur propositum, quod non semper
+<lb ed="#Bc" n="89"/>est peccatum.
+</p>
+            <p xml:id="alalal-d64672-d1e296">
+               <pb ed="#Bc" n="359"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Sorvtio. Dicendum meo judicio, quod
+<lb ed="#Bc" n="2"/>est tentatio interior, et exterior, et 
+ten<lb break="no" ed="#Bc" n="3"/>tatio mixta ex utraque. Tentatio exterior,
+<lb ed="#Bc" n="4"/>sicut in primis parentibus, et Christo : et
+<lb ed="#Bc" n="5"/>illa nullum fuit peccatum, nec cum 
+pec<lb break="no" ed="#Bc" n="6"/>cato: tentatio interior est quae habet
+<lb ed="#Bc" n="7"/>ortum in concupiscentia carnis : nec 
+dici<lb break="no" ed="#Bc" n="8"/>tur caro concupiscere (ut dicit 
+Augusti<lb break="no" ed="#Bc" n="9"/>nus) Nisl quia. anima in carne 
+concupi<lb break="no" ed="#Bc" n="10"/>scit: et hanc puto semper esse peccatum,
+<lb ed="#Bc" n="11"/>sed levissimum, et etiam cum peccato,
+<lb ed="#Bc" n="12"/>guia procedit a malo quod habitat in
+<lb ed="#Bc" n="13"/>carne, ut dicit Apostolus ad Roman.
+<lb ed="#Bc" n="14"/>vu, 17 et 20+. Tertia tentatio quae est
+<lb ed="#Bc" n="15"/>mixta, est quandoque peccatum, et
+<lb ed="#Bc" n="16"/>quandoque non. Si enim contineatur
+<lb ed="#Bc" n="17"/>caro ne concupiscat, non est peccatum,
+<lb ed="#Bc" n="18"/>guia tune magis est exterior quam 
+inte<lb break="no" ed="#Bc" n="19"/>rior ; tamen pro tanto est intus, quia 
+ca<lb break="no" ed="#Bc" n="20"/>ro movetur. Si autem. concupiscat caro,
+<lb ed="#Bc" n="21"/>tunc est peccatum, quia effecta est 
+inte<lb break="no" ed="#Bc" n="22"/>rior: sed tale peccatum est primus 
+mo<lb break="no" ed="#Bc" n="23"/>tus qui est levissimus, ut dicetur infra.
+</p>
+            <p xml:id="alalal-d64672-d1e353">
+               <lb ed="#Bc" n="24"/>Ap id autem quod contra objicitur,
+<lb ed="#Bc" n="25"/>dicendum quod tentatio non ducit ad
+<lb ed="#Bc" n="26"/>coronam nisi per accidens, scilicet 
+resi<lb break="no" ed="#Bc" n="27"/>stentia pugne, et victoria.
+</p>
+            <p xml:id="alalal-d64672-d1e365">
+               <lb ed="#Bc" n="28"/>Ad aliud dicendum, quod essentialiter
+<lb ed="#Bc" n="29"/>loquendo motus secundum Philosophum
+<lb ed="#Bc" n="30"/>in eodem genere est cum termino motus:
+<lb ed="#Bc" n="31"/>quia non differt ab eo nisi sicut via et
+<lb ed="#Bc" n="32"/>terminus, et sicut actus mixtus potentia
+<lb ed="#Bc" n="33"/>ab actu puro : et ideo patet, quad 
+tenta<lb break="no" ed="#Bc" n="34"/>tio habet aliquid de ratione peccati.
+</p>
+            <p xml:id="alalal-d64672-d1e383">
+               <lb ed="#Bc" n="35"/>Av w quod ulterius queritur, 
+dicen<lb break="no" ed="#Bc" n="36"/>dum quod est peccatum, et cum 
+pecca<lb break="no" ed="#Bc" n="37"/>to, ut dictum est.
+</p>
+            <p xml:id="alalal-d64672-d1e392">
+               <lb ed="#Bc" n="38"/>Ap mw quod contra objicitur, dicendum
+<lb ed="#Bc" n="39"/>quod non potest commovere cum vult,
+<lb ed="#Bc" n="40"/>licet possit admovere occasiones: quia
+<lb ed="#Bc" n="41"/>voluntate preveniente possumus tenere
+<lb ed="#Bc" n="42"/>carnem ne concupiscat.
+</p>
+            <p xml:id="alalal-d64672-d1e405">
+               <lb ed="#Bc" n="43"/>Ad aliud dicendum, quod illa 
+aucto<lb break="no" ed="#Bc" n="44"/>ritas accipit voluntatem large,
+<lb ed="#Bc" n="45"/>pro antecedente, vel consequente, vel
+<lb ed="#Bc" n="46"/>conjuncta: sicut originale antecedenter
+<lb ed="#Bc" n="47"/>est voluntarium: et aliquid ante 
+ignora<lb break="no" ed="#Bc" n="48"/>tum, et postea scitum, si placet, et non
+<lb ed="#Bc" n="49"/>affert poenitudinem, consequenter est
+<lb ed="#Bc" n="50"/>voluntarium : conjuncta autem est opus
+<lb ed="#Bc" n="51"/>volitum. Sed illi motus sunt voluntarii,
+<lb ed="#Bc" n="52"/>eo quod voluntas potest eos prevenire,
+<lb ed="#Bc" n="53"/>et non facit.
+</p>
+            <p xml:id="alalal-d64672-d1e431">
+               <lb ed="#Bc" n="54"/>Ad aliud dicendum, quod quemlibet
+<lb ed="#Bc" n="55"/>motum voluntate preveniente possumus
+<lb ed="#Bc" n="56"/>vitare, licet universaliter loquendo, 
+ne<lb break="no" ed="#Bc" n="57"/>cesse sit incidere in aliquem.
+</p>
+            <p xml:id="alalal-d64672-d1e442">
+               <lb ed="#Bc" n="58"/>Ao atiup dicendum, quod in 
+sensuali<lb break="no" ed="#Bc" n="59"/>tate est primus motus propter 
+colligan<lb break="no" ed="#Bc" n="60"/>tiam ad rationem: et haec colligantia
+<lb ed="#Bc" n="61"/>non est in bruto: et ideo non tenet 
+ob<lb break="no" ed="#Bc" n="62"/>jectio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

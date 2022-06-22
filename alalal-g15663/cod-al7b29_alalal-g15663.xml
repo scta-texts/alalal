@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="82"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g15663"><!-- l4d4a2 -->
+            <head xml:id="alalal-g15663-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-g15663-Hd1e101" type="question-title">Quid sit fictio ?</head>
+            <p xml:id="alalal-g15663-d1e104">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="16"/>ARTICULUS II.
+<lb ed="#Be" n="17"/>Quid sit fictio ?
+</p>
+            <p xml:id="alalal-g15663-d1e113">
+               <lb ed="#Be" n="18"/>Deinde queritur de secundo quod 
+tan<lb break="no" ed="#Be" n="19"/>git, ibi, B, <quote xml:id="alalal-g15663-Qd1e119"> Qui vero sine fide vel ficte
+<lb ed="#Be" n="20"/>accedunt, etc. </quote>
+            </p>
+            <p xml:id="alalal-g15663-d1e125">
+               <lb ed="#Be" n="21"/>Et hic queruntur tria, quorum 
+pri<lb break="no" ed="#Be" n="22"/>mum est, Quid sit fictio ?
+<lb ed="#Be" n="23"/>Secundo, Qualiter impedit 
+baptis<lb break="no" ed="#Be" n="24"/>mum ?
+<lb ed="#Be" n="25"/>Tertio, Qualiter redit effectus baptismi
+<lb ed="#Be" n="26"/>cessante fictione ?
+</p>
+            <p xml:id="alalal-g15663-d1e142">
+               <lb ed="#Be" n="27"/>AD pRimuM proceditur sic :
+<lb ed="#Be" n="28"/>1. Fictus est (ut dicit Augustinus) qui
+<lb ed="#Be" n="29"/>non credit, vel indevotus accedit, vel qui
+<lb ed="#Be" n="30"/>aliter celebrat sacramentum quam 
+insti<lb break="no" ed="#Be" n="31"/>tutum est, vel qui contemnit suscipere :
+<lb ed="#Be" n="32"/>qui autem non credit, ille non se subjicit
+</p>
+            <p xml:id="alalal-g15663-d1e158">
+               <cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="33"/>sacramento : ergo videtur, quod ille non
+<lb ed="#Be" n="34"/>suscipit.
+</p>
+            <p xml:id="alalal-g15663-d1e167">
+               <lb ed="#Be" n="35"/>2. Item, Baptismus est sacramentum
+<lb ed="#Be" n="36"/>fidei: ergo videtur, quod contrarium fidei
+<lb ed="#Be" n="37"/>sit contrarium sacramento : sed 
+discre<lb break="no" ed="#Be" n="38"/>dentia est contraria fidei : ergo 
+contra<lb break="no" ed="#Be" n="39"/>riatur sacramento : ergo nihil suscipit
+<lb ed="#Be" n="40"/>qui non credit.
+</p>
+            <p xml:id="alalal-g15663-d1e183">
+               <lb ed="#Be" n="41"/>3. Item, Cum multi sint articuli fidei,
+<lb ed="#Be" n="42"/>potest aliquis non credere unum, et 
+cre<lb break="no" ed="#Be" n="43"/>dere alium: ut non credens resurrectio~
+<lb ed="#Be" n="44"/>nem, potest credere baptismum : et
+<lb ed="#Be" n="45"/>querilur, Utrum ille suscipiat 
+baptis<lb break="no" ed="#Be" n="46"/>mum ?
+</p>
+            <p xml:id="alalal-g15663-d1e199">
+               <lb ed="#Be" n="47"/>Et videtur, quod sic: quia iste intendit
+<lb ed="#Be" n="48"/>suscipere quod exhibet Ecclesia: ergo
+<lb ed="#Be" n="49"/>videtur, quod suseipict illud.
+</p>
+            <p xml:id="alalal-g15663-d1e208">
+               <lb ed="#Be" n="50"/>SED CONTRA:
+<lb ed="#Be" n="51"/>Sapient. 1,5: <quote xml:id="alalal-g15663-Qd1e214">Spiritus sanctus 
+disci<lb break="no" ed="#Be" n="52"/>pline effugiet fictum</quote> : ergo Spiritus
+<lb ed="#Be" n="53"/>sanctus nihil operatur in baptismo : ergo
+<lb ed="#Be" n="54"/>nihil suscipit. .
+</p>
+            <p xml:id="alalal-g15663-d1e225">
+               <lb ed="#Be" n="55"/>Ulterius queritur de secundo modo,
+<lb ed="#Be" n="56"/>qui dicitur indevotio. Devotio enim est
+<pb ed="#Be" n="83"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>quidam fervor animi in compunctione
+<lb ed="#Be" n="2"/>peccatorum, vel amore charitatis, ut 
+di<lb break="no" ed="#Be" n="3"/>cit Ambrosius super Epistolam ad 
+Ro<lb break="no" ed="#Be" n="4"/>manos : sed multi sunt qui non ita 
+acce<lb break="no" ed="#Be" n="5"/>dunt ad baptismum : ergo videtur, quod
+<lb ed="#Be" n="6"/>multi sunt qui non habent affectum 
+mor<lb break="no" ed="#Be" n="7"/>talis peccati, qui tamen ficti sunt : et hoc
+<lb ed="#Be" n="8"/>nullus dicit.
+</p>
+            <p xml:id="alalal-g15663-d1e254">
+               <lb ed="#Be" n="9"/>ULterivs quaeritur de tertio modo
+<lb ed="#Be" n="10"/>ficto :
+<lb ed="#Be" n="11"/>1. Qui enim aliter celebrat, non servat
+<lb ed="#Be" n="12"/>formam sacramenti: ergo non recipit
+<lb ed="#Be" n="13"/>sacramentum : et in contrarium ejus 
+di<lb break="no" ed="#Be" n="14"/>citur in Littera.
+</p>
+            <p xml:id="alalal-g15663-d1e270">
+               <lb ed="#Be" n="15"/>2. Item, Qui contemnit suscipere, non
+<lb ed="#Be" n="16"/>videtur proprie dici fictus, sed aperte
+<lb ed="#Be" n="17"/>malus: quia fictus simulat ad minus.
+</p>
+            <p xml:id="alalal-g15663-d1e279">
+               <lb ed="#Be" n="18"/>Uxrerius queritur de numero harum
+<lb ed="#Be" n="19"/>fictionum.
+</p>
+            <p xml:id="alalal-g15663-d1e286">
+               <lb ed="#Be" n="20"/>Solutio. Ad hoc ultimum primum re~
+<lb ed="#Be" n="21"/>spondeo, quod quadruplex fictio 
+colligi<lb break="no" ed="#Be" n="22"/>tur a dictis Augustini : tamen triplex 
+fi<lb break="no" ed="#Be" n="23"/>ctio ponitur pracipue in suscipiente 
+sa<lb break="no" ed="#Be" n="24"/>cramentum Eucharistiae, sed per simile
+<lb ed="#Be" n="25"/>eliam est in suscipiente baptismum : et
+<lb ed="#Be" n="26"/>illa est aut ex parte dantis sacramentum,
+<lb ed="#Be" n="27"/>aut ex parte suscipientis. Vel aliter et
+<lb ed="#Be" n="28"/>melius, aut ex parte ritus sive actus 
+sa<lb break="no" ed="#Be" n="29"/>cramenti, aut ex parte operis operati
+<lb ed="#Be" n="30"/>quod facit Ecclesia. Si primo modo, tunc
+<lb ed="#Be" n="31"/>est qui aliter suscipit quam Ecclesia 
+exer<lb break="no" ed="#Be" n="32"/>cet ritum, et hoc intelligo de eo qui 
+deri<lb break="no" ed="#Be" n="33"/>det ritum Ecclesia, et tamen intendit
+<lb ed="#Be" n="34"/>accipere quod facit Ecclesia, licet 
+deri<lb break="no" ed="#Be" n="35"/>deat: ille enim percipit sacramentum.
+<lb ed="#Be" n="36"/>Si autem ex parte operis operati : tunc
+<lb ed="#Be" n="37"/>aut est secundum rationem, et tunc non
+<lb ed="#Be" n="38"/>est non credens: aut secundum 
+concu<lb break="no" ed="#Be" n="39"/>piscibilem, et tunc est indevotus :
+<lb ed="#Be" n="40"/>aut ex parte irascibilis, et tunc est 
+con<lb break="no" ed="#Be" n="41"/>temnens.
+</p>
+            <p xml:id="alalal-g15663-d1e336">
+               <lb ed="#Be" n="42"/>Ad primMuM ergo dicendum, quod est
+<lb ed="#Be" n="43"/>non credens, volens tamen suscipere 
+id<lb break="no" ed="#Be" n="44"/>ipsum secundum quod videt facere 
+Ec<lb break="no" ed="#Be" n="45"/>clesiam : et ille est de quo loquitur 
+Ma<lb break="no" ed="#Be" n="46"/>gister in Littera, quod suscipit sacra-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="47"/>mentum quoad characteris impressionem :
+<lb ed="#Be" n="48"/>si autem averteret eum infidelitas ut 
+nol<lb break="no" ed="#Be" n="49"/>let suscipere nec susciperet, tunc non 
+es<lb break="no" ed="#Be" n="50"/>set dubium, quod nihil susciperet.
+</p>
+            <p xml:id="alalal-g15663-d1e361">
+               <lb ed="#Be" n="51"/>Ad aliud dicendum, quod baptismus
+<lb ed="#Be" n="52"/>est sacramentum fidei quoad hoc quod
+<lb ed="#Be" n="53"/>est fundamentum sacramentorum, sicut
+<lb ed="#Be" n="54"/>fides edificii spiritualis in vita. Sed quod
+<lb ed="#Be" n="55"/>contrariatur fidei, dummodo intendat
+<lb ed="#Be" n="56"/>suscipere quod facit Ecclesia, non 
+con<lb break="no" ed="#Be" n="57"/>trariatur nisi gratiae sacramentali, et
+<lb ed="#Be" n="58"/>non characteri : et ideo suscipitur 
+cha<lb break="no" ed="#Be" n="59"/>racter.
+</p>
+            <p xml:id="alalal-g15663-d1e383">
+               <lb ed="#Be" n="60"/>Ad aliud dicendum, quod 
+discreduli<lb break="no" ed="#Be" n="61"/>tas omnium articulorum impedit rem
+<lb ed="#Be" n="62"/>sacramenti, et si omnes simul discredat,
+<lb ed="#Be" n="63"/>et tamen velit suscipere id secundum
+<lb ed="#Be" n="64"/>quod nihil credit facere Ecclesiam, ipse
+<lb ed="#Be" n="65"/>suscipit characterem. .
+</p>
+            <p xml:id="alalal-g15663-d1e399">
+               <lb ed="#Be" n="66"/>Ad 1p quod queritur de secunda 
+fictio<lb break="no" ed="#Be" n="67"/>ne, dicendum quod indevotus hic dicitur
+<lb ed="#Be" n="68"/>a privatione habitus devotionis, et hoc
+<lb ed="#Be" n="69"/>est quando est in statu et effectu 
+morta<lb break="no" ed="#Be" n="70"/>lis peccati : quia talis non recipit nisi
+<lb ed="#Be" n="71"/>characterem.
+</p>
+            <p xml:id="alalal-g15663-d1e415">
+               <lb ed="#Be" n="72"/>Ad aliud dicendum, quod qui aliter
+<lb ed="#Be" n="73"/>celebrat, si non servat formam, nihil 
+ex<lb break="no" ed="#Be" n="74"/>hibet : sed hic principaliter accipitur ex
+<lb ed="#Be" n="75"/>parte suscipientis, qui scilicet susceperit
+<lb ed="#Be" n="76"/>aliter quam Kcclesia ritus sit : suscipit
+<lb ed="#Be" n="77"/>enim pro quadam abusione, tamen hoc
+<lb ed="#Be" n="78"/>ipsum abusivum intendit suscipere, et
+<lb ed="#Be" n="79"/>propter efficaciam sacramenti dicitur
+<lb ed="#Be" n="80"/>recipere characterem.
+</p>
+            <p xml:id="alalal-g15663-d1e437">
+               <lb ed="#Be" n="81"/>Ad aliud dicendum, quod est 
+contem<lb break="no" ed="#Be" n="82"/>ptus abjiciens opus, et est contemptus 
+vi<lb break="no" ed="#Be" n="83"/>lipendens tamquam vile, quod tamen 
+fa<lb break="no" ed="#Be" n="84"/>cere intendit. Et primus quidem nihil
+<lb ed="#Be" n="85"/>suscipit, quia sacramento se non subdit :
+<lb ed="#Be" n="86"/>secundus autem suscipit characterem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

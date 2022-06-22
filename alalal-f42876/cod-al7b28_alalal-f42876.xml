@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="734"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f42876"><!-- l3d39a5 -->
+            <head xml:id="alalal-f42876-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-f42876-Hd1e101" type="question-title">An omne perjurium sit mortale 
+peccatum? et, An jocosum sit tale? et, An
+jurans falsum per Deum, Deum 
+veneretur ?</head>
+            <p xml:id="alalal-f42876-d1e104">
+               <lb ed="Bd" n="31"/>ARTICULUS V.
+<lb ed="Bd" n="32"/>An omne perjurium sit mortale 
+pecca<lb break="no" ed="Bd" n="33"/>tum? et, An jocosum sit tale? et, An
+<lb ed="Bd" n="34"/>jurans falsum per Deum, Deum 
+ve<lb break="no" ed="Bd" n="35"/>neretur ?
+</p>
+            <p xml:id="alalal-f42876-d1e117">
+               <lb ed="Bd" n="36"/>Deinde quaeritur secundo, Utrum 
+om<lb break="no" ed="Bd" n="37"/>he perjurium sit peccatum mortale ?
+</p>
+            <p xml:id="alalal-f42876-d1e124">
+               <lb ed="Bd" n="38"/>Videtur autem, quod sic : quia
+<lb ed="Bd" n="39"/>1. Perjurium directe est contra 
+pree<lb break="no" ed="Bd" n="40"/>ceptum : <quote xml:id="alalal-f42876-Qd1e132">Non assumes nomen Domini
+<cb ed="#Bd" n="b"/>
+                  <lb ed="Bd" n="41"/>Dei tui in vanum</quote>: quod autem directe
+<lb ed="Bd" n="42"/>est contra praeceptum, est peccatum 
+mor<lb break="no" ed="Bd" n="43"/>tale : ergo omne perjurium est mortale
+<lb ed="Bd" n="44"/>peccatum.
+</p>
+            <p xml:id="alalal-f42876-d1e148">
+               <lb ed="Bd" n="45"/>2. Item, Invocans divinam veritatem
+<lb ed="Bd" n="46"/>in testem falsi, scienter contemnit Deum -
+<lb ed="Bd" n="47"/>scienter autem contemnentes Deum, 
+pec<lb break="no" ed="Bd" n="48"/>cant mortaliter : ergo omnis jurans 
+fal<lb break="no" ed="Bd" n="49"/>sum scienter, peccat mortaliter, ut vide
+<lb ed="Bd" n="50"/>tur.
+</p>
+            <p xml:id="alalal-f42876-d1e164">
+               <lb ed="Bd" n="51"/>3. Item, Mendacium per se grave 
+pec<lb break="no" ed="Bd" n="52"/>catum est: constat autem, quod 
+jura<lb break="no" ed="Bd" n="53"/>mentum ei adveniens tralut ipsum extra
+<lb ed="Bd" n="54"/>genus simplicis mendacii: ergo trahit
+<lb ed="Bd" n="55"/>ipsum extra genus peccati venialis : ergo
+<lb ed="Bd" n="56"/>est mortale peccatum.
+</p>
+            <p xml:id="alalal-f42876-d1e180">
+               <lb ed="Bd" n="57"/>4. Item, Minus videtur in vanum 
+de<lb break="no" ed="Bd" n="58"/>bere invocari nomen Dei, quam in 
+fal<lb break="no" ed="Bd" n="59"/>sum : et tamen prohibitum est 
+prohibi<lb break="no" ed="Bd" n="60"/>tione decalogi, ne in vanum invocetur :
+<lb ed="Bd" n="61"/>ergo multo magis ne in falsum: ergo
+<lb ed="Bd" n="62"/>jurans falsa, directe facit contra 
+pracep<lb break="no" ed="Bd" n="63"/>tum : ergo peccat mortaliter.
+</p>
+            <p xml:id="alalal-f42876-d1e198">
+               <lb ed="Bd" n="64"/>SED CONTRA :
+<lb ed="Bd" n="65"/>Sicut contingit scienter jocose 
+menti<lb break="no" ed="Bd" n="66"/>ri, ita etiam contingit scienter jocose
+<lb ed="Bd" n="67"/>falsum jurare : et grave esset hoc dicere,
+<lb ed="Bd" n="68"/>quod tunc esset mortale peccatum : ergo
+<lb ed="Bd" n="69"/>non semper est mortale peccatum, quia
+<lb ed="Bd" n="70"/>constat, quod hae intentio ex libidine
+<lb ed="Bd" n="71"/>mortali non procedit.
+</p>
+            <p xml:id="alalal-f42876-d1e218">
+               <lb ed="Bd" n="72"/>Ulterivs quaeritur de istis juramentis
+<lb ed="Bd" n="73"/>que fiunt quasi jocando, ut cum aliquis
+<lb ed="Bd" n="74"/>jurat per bottas suas vel caligas, Utrum
+<lb ed="Bd" n="75"/>tales peccent mortaliter, vel non ?
+</p>
+            <p xml:id="alalal-f42876-d1e229">
+               <lb ed="Bd" n="76"/>Videtur autem, quod sic : quia
+<lb ed="Bd" n="77"/>1. Matth. v, 34 et seq., prohibitum
+<lb ed="Bd" n="78"/>est jurare per creaturam : ergo tales
+<lb ed="Bd" n="79"/>faciunt contra prohibitionem : ergo
+<lb ed="Bd" n="80"/>mortaliter peccant.
+</p>
+            <p xml:id="alalal-f42876-d1e243">
+               <lb ed="Bd" n="81"/>2. Item, In Litlera dicit Augustinus,
+<lb ed="Bd" n="82"/>quod <quote xml:id="alalal-f42876-Qd1e249"> jurans per creaturam, jurat per
+<lb ed="Bd" n="83"/>Deum qui relucet in creatura : falsum
+<lb ed="Bd" n="84"/>autem jurans, contemnit per quod 
+ju<lb break="no" ed="Bd" n="85"/>rat: </quote> ergo falsum jurans per bottas
+<lb ed="Bd" n="86"/>suas, centemnil Deum qui relucet in
+<pb ed="#Bd" n="735"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>pottis suis : contemnere autem Deum,
+<lb ed="Bd" n="2"/>peccatum est mortale : ergo talis peccat
+<lb ed="Bd" n="3"/>mortaliter.
+</p>
+            <p xml:id="alalal-f42876-d1e272">
+               <lb ed="Bd" n="4"/>Uxrerivs quaeritur, Utrum jurans 
+fal<lb break="no" ed="Bd" n="5"/>sum per Deum, veneretur Deum ?
+</p>
+            <p xml:id="alalal-f42876-d1e279">
+               <lb ed="Bd" n="6"/>Videtur, quod non: quia peccat 
+con<lb break="no" ed="Bd" n="7"/>tra Deum in quantum invocat eum 
+te<lb break="no" ed="Bd" n="8"/>stem falsitatis : peccans autem contra
+<lb ed="Bd" n="9"/>Deum, non honorat Deum: ergo jurans
+<lb ed="Bd" n="10"/>falsum per Deum, non honorat Deum.
+</p>
+            <p xml:id="alalal-f42876-d1e292">
+               <lb ed="Bd" n="11"/>SED CONTRA :
+<lb ed="Bd" n="12"/>Augustinus dicit, quod homo illud
+<lb ed="Bd" n="13"/>honorat, per quod jurat: ergo jurando
+<lb ed="Bd" n="14"/>honorat : ergo jurans falsum per Deum,
+<lb ed="Bd" n="15"/>honorat Deum.
+</p>
+            <p xml:id="alalal-f42876-d1e305">
+               <lb ed="Bd" n="16"/>Solutio Dicendum, quod perjurium
+<lb ed="Bd" n="17"/>multiplex est, scilicet indiscreta juratio :
+<lb ed="Bd" n="18"/>et hoc est quando inutiliter jurat verum,
+<lb ed="Bd" n="19"/>vel quando sine deliberatione jurat: et
+<lb ed="Bd" n="20"/>tune non credo esse mortale peccatum.
+<lb ed="Bd" n="21"/>Dicitur etiam perjurium perversa 
+jura<lb break="no" ed="Bd" n="22"/>tio, quando homo jurét cum 
+delbera<lb break="no" ed="Bd" n="23"/>tione id quod juramento non est 
+asse<lb break="no" ed="Bd" n="24"/>rendum, nec loquendum simpliciter, sed
+<lb ed="Bd" n="25"/>potius oppositum : et tunc videtur 
+per<lb break="no" ed="Bd" n="26"/>jurium esse mortale peccatum.
+</p>
+            <p xml:id="alalal-f42876-d1e331">
+               <lb ed="Bd" n="27"/>AD PRIMUM ergo dicendum, quod non
+<lb ed="Bd" n="28"/>assumitur nomen Dei in vanum, nisi
+<lb ed="Bd" n="29"/>quando cum deliberatione decipiendi 
+as<lb break="no" ed="Bd" n="30"/>sumitur ad faisum asserendum. Aliae
+<lb ed="Bd" n="31"/>autem assumptiones, licet vane esse
+<lb ed="Bd" n="32"/>possunt, tamen non est vanitas destruens
+<lb ed="Bd" n="33"/>veritatem in habitu, sicut in 
+precedenti<lb break="no" ed="Bd" n="34"/>bus de mendacio ostensum est : et ideo
+<lb ed="Bd" n="35"/>tale juramentum est praeter praeceptum,
+<lb ed="Bd" n="36"/>et non contra.
+</p>
+            <p xml:id="alalal-f42876-d1e356">
+               <lb ed="Bd" n="37"/>Ad aliud dicendum, quod talis 
+invo<lb break="no" ed="Bd" n="38"/>catio quae fit jocando, quia non intendit
+</p>
+            <p xml:id="alalal-f42876-d1e363">
+               <lb ed="Bd" n="39"/>fallere, sed jocari, non deliberat de 
+veri<lb break="no" ed="Bd" n="40"/>tate invocata, sed potius ex quadam
+<lb ed="Bd" n="41"/>consuetudine invocat : et ideo non 
+con<lb break="no" ed="Bd" n="42"/>temnit, sed omittit, quia non discernit
+<lb ed="Bd" n="43"/>quid est jurandum, et quid non.
+</p>
+            <p xml:id="alalal-f42876-d1e376">
+               <lb ed="Bd" n="44"/>Ad aliud dicendum, quod 
+menda<lb break="no" ed="Bd" n="45"/>cium per prius et posterius dicitur de
+<lb ed="Bd" n="46"/>jocoso et pernicioso : et ideo 
+juramen<lb break="no" ed="Bd" n="47"/>tum praeter deliberationem additum 
+jo<lb break="no" ed="Bd" n="48"/>coso, non trahit ipsum extra genus 
+ve<lb break="no" ed="Bd" n="49"/>nialis, sed facit gravius quam fuit : sed
+<lb ed="Bd" n="50"/>de officioso aliud est, quiaillud non fit sine
+<lb ed="Bd" n="51"/>deliberatione, et ideo illud jurare non
+<lb ed="Bd" n="52"/>parve culpae, sed magne est.
+</p>
+            <p xml:id="alalal-f42876-d1e398">
+               <lb ed="Bd" n="53"/>Ad aliud dicendum, quod vanum 
+vo<lb break="no" ed="Bd" n="54"/>catur ibi falsum: quia veritati invocate
+<lb ed="Bd" n="55"/>non concordat : et ideo in vanum 
+invo<lb break="no" ed="Bd" n="56"/>catur. Sed quando otiose invocatur vel
+<lb ed="Bd" n="57"/>jocose, tunc fit praeter juramentum, et
+<lb ed="Bd" n="58"/>non contra.
+</p>
+            <p xml:id="alalal-f42876-d1e414">
+               <lb ed="Bd" n="59"/>Ad id quod ulterius quaeritur, 
+dicen<lb break="no" ed="Bd" n="60"/>dum quod per bottas vel per aliud potest
+<lb ed="Bd" n="61"/>quis jurare dupliciter, scilicet ut id quod
+<lb ed="Bd" n="62"/>inducit non silt nota confirmationis, sed
+<lb ed="Bd" n="63"/>jocationis : et tunc non reputo esse 
+jura<lb break="no" ed="Bd" n="64"/>mentum, sed malum modum loquendi.
+<lb ed="Bd" n="65"/>Si autem intendat hoc inducere pro 
+si<lb break="no" ed="Bd" n="66"/>eno sanctitatis, quia religiosi utuntur
+<lb ed="Bd" n="67"/>illo, tune pejerat graviter : sed hoc 
+mo<lb break="no" ed="Bd" n="68"/>do non fiunt talia juramenta.
+</p>
+            <p xml:id="alalal-f42876-d1e438">
+               <lb ed="Bd" n="69"/>Ad aliud dicendum, quod nihil 
+prohi<lb break="no" ed="Bd" n="70"/>bet, quod in eodem opere secundum 
+ali<lb break="no" ed="Bd" n="71"/>quid Deus honoretur, et secundum 
+ali<lb break="no" ed="Bd" n="72"/>quid inhonoretur : et sic est in juramento
+<lb ed="Bd" n="73"/>ubi invocatio nota est honoris divini,
+<lb ed="Bd" n="74"/>quia illud invocatur quod colitur. 
+Secun<lb break="no" ed="Bd" n="75"/>dum autem quod habet deformitatem
+<lb ed="Bd" n="76"/>actus, sic est contra Deum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

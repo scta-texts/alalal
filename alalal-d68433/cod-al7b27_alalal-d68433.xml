@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="381"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d68433"><!-- l2d22a7 -->
+            <head xml:id="alalal-d68433-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-d68433-Hd1e101" type="question-title">Uirum ignorantia est peccatum ? et,
+Utrum aliqua ignorantia sit affectata
+et voluntaria ?</head>
+            <p xml:id="alalal-d68433-d1e104">
+               <lb ed="#Bc" n="35"/>ARTICULUS VIL.
+<lb ed="#Bc" n="36"/>Uirum ignorantia est peccatum ? et,
+<lb ed="#Bc" n="37"/>Utrum aliqua ignorantia sit affectata
+<lb ed="#Bc" n="38"/>et voluntaria ?
+</p>
+            <p xml:id="alalal-d68433-d1e115">
+               <lb ed="#Bc" n="39"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="40"/>ibi, <quote xml:id="alalal-d68433-Qd1e121"> Est enim ignorantia quae excusat,
+<lb ed="#Bc" n="41"/>etc. </quote> :
+</p>
+            <p xml:id="alalal-d68433-d1e127">
+               <cb ed="#Bc" n="d"/>
+               <lb ed="#Bc" n="42"/>Et queruntur de ignorantia tria, 
+scili<lb break="no" ed="#Bc" n="43"/>cet an sit peccatum?
+</p>
+            <p xml:id="alalal-d68433-d1e137">
+               <lb ed="#Bc" n="44"/>Et secundo, Cujusmodi peccatum ?
+<lb ed="#Bc" n="45"/>Kt tertio, Secundum quem modum, et
+<lb ed="#Bc" n="46"/>que ignorantia excusat, et qua non ?
+<lb ed="#Bc" n="47"/>Quop autem non sit peccatum, 
+nitun<lb break="no" ed="#Bc" n="48"/>tur quidam probare sic:
+</p>
+            <p xml:id="alalal-d68433-d1e150">
+               <lb ed="#Bc" n="49"/>1. Ignorantia, pura privatio est : nullum
+<lb ed="#Bc" n="50"/>peccatum est pura privatio : ergo 
+igno<lb break="no" ed="#Bc" n="51"/>rantia secundum se non est peccatum.
+</p>
+            <p xml:id="alalal-d68433-d1e159">
+               <lb ed="#Bc" n="52"/>2. Item, Ignorantia dicit scientie 
+pri<lb break="no" ed="#Bc" n="53"/>vationem : nulla autem scientia est 
+vir<lb break="no" ed="#Bc" n="54"/>tus: ergo privatio ejus non est vitium.
+</p>
+            <p xml:id="alalal-d68433-d1e168">
+               <pb ed="#Bc" n="382"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>3. Item, Nullum vitium est quod per
+<lb ed="#Bc" n="2"/>peenitentiam non deleatur: ignorantia
+<lb ed="#Bc" n="3"/>autem post poenitentiam manet sicut 
+an<lb break="no" ed="#Bc" n="4"/>te: ergo ignorantia non est peccatum.
+</p>
+            <p xml:id="alalal-d68433-d1e184">
+               <lb ed="#Bc" n="5"/>4. Item, Ignorantia est in intellectu :
+<lb ed="#Bc" n="6"/>nullum autem vitium vel virtus est in 
+in<lb break="no" ed="#Bc" n="7"/>tellectu : ergo, ete.
+</p>
+            <p xml:id="alalal-d68433-d1e193">
+               <lb ed="#Bc" n="8"/>5. Item, Nullum vitium nascitur in
+<lb ed="#Bc" n="9"/>nobis praeter originale : ignorantia nasci~
+<lb ed="#Bc" n="10"/>turin nobis: ergo non est vitium nisi
+<lb ed="#Bc" n="11"/>sit originale, quod patet non esse verum.
+</p>
+            <p xml:id="alalal-d68433-d1e205">
+               <lb ed="#Bc" n="12"/>6. Item, Nulla poena in quam 
+incidi<lb break="no" ed="#Bc" n="13"/>mus ex peccato, est peccatum : 
+ignoran<lb break="no" ed="#Bc" n="14"/>tia est poena in quam incidimus ex 
+pec<lb break="no" ed="#Bc" n="15"/>cato: ergo non est peccatum.
+</p>
+            <p xml:id="alalal-d68433-d1e216">
+               <lb ed="#Bc" n="16"/>Hujusmodi rationibus et aliis 
+quamplu<lb break="no" ed="#Bc" n="17"/>ribus quidam probant, quod nulla 
+igno<lb break="no" ed="#Bc" n="18"/>rantia sit peccatum.
+</p>
+            <p xml:id="alalal-d68433-d1e225">
+               <lb ed="#Bc" n="19"/>SED conTRA sunt auctoritates quae 
+po<lb break="no" ed="#Bc" n="20"/>nuntur in Littera.
+</p>
+            <p xml:id="alalal-d68433-d1e232">
+               <lb ed="#Bc" n="21"/>Item, Apostolus, Si guis ignorat, 
+igno<lb break="no" ed="#Bc" n="22"/>rabitur.
+</p>
+            <p xml:id="alalal-d68433-d1e239">
+               <lb ed="#Bc" n="23"/>Item, Ambrosius super illud Apostoli,
+<lb ed="#Bc" n="24"/>ad Roman. II, 5: <quote xml:id="alalal-d68433-Qd1e245">Thesaurizas tibi iram
+<lb ed="#Bc" n="25"/>in diae irae</quote>: <quote xml:id="alalal-d68433-Qd1e250"> Graviter peccas, quia iram
+<lb ed="#Bc" n="26"/>Dei tibi thesaurizas : gravius, quia 
+boni<lb break="no" ed="#Bc" n="27"/>tatem Dei contemnis: gravissime, quia
+<lb ed="#Bc" n="28"/>ignoras. </quote> Ergo videtur, quod sit 
+pecca<lb break="no" ed="#Bc" n="29"/>tum.
+</p>
+            <p xml:id="alalal-d68433-d1e262">
+               <lb ed="#Bc" n="30"/>2. Item, Debitum faciendi aliquid in
+<lb ed="#Bc" n="31"/>determinato tempore, sinon sit, 
+commit<lb break="no" ed="#Bc" n="32"/>titur peccatum omissionis: ergo et 
+debi<lb break="no" ed="#Bc" n="33"/>tum sciendi aliquid in tempore 
+determi<lb break="no" ed="#Bc" n="34"/>nato, si non sciatur, relinquit peccatum
+<lb ed="#Bc" n="35"/>omissionis: et cum sic se habeat 
+igno<lb break="no" ed="#Bc" n="36"/>rantia, omissionis peccatum esse 
+vide<lb break="no" ed="#Bc" n="37"/>tur.
+</p>
+            <p xml:id="alalal-d68433-d1e283">
+               <lb ed="#Bc" n="38"/>Quia vero in Littera dicitur quod 
+igno<lb break="no" ed="#Bc" n="39"/>rantia affectata sit peccatum, queratur,
+<lb ed="#Bc" n="40"/>Utrum aliquaignorantia sit affectata?
+</p>
+            <p xml:id="alalal-d68433-d1e292">
+               <lb ed="#Bc" n="41"/>Videtur autem, quod non: quia
+<lb ed="#Bc" n="42"/>1. Ignorantia privationem dicit : 
+priva<lb break="no" ed="#Bc" n="43"/>tio autem nihil est : ergo non habet unde
+<lb ed="#Bc" n="44"/>moveat appetitum voluntatis: ergo
+<lb ed="#Bc" n="45"/>nulla est ignorantia affectata vel 
+volun<lb break="no" ed="#Bc" n="46"/>taria.
+</p>
+            <p xml:id="alalal-d68433-d1e308">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="47"/>2. Item, Philosophus dicit, quod <quote xml:id="alalal-d68433-Qd1e314"> 
+om<lb break="no" ed="#Bc" n="48"/>nes homines scire desiderant: </quote> ergo
+ <lb ed="#Bc" n="49"/>nullus nullus hominum desiderat igno.
+<lb ed="#Bc" n="50"/>rare : ergo, etc.
+</p>
+            <p xml:id="alalal-d68433-d1e324">
+               <lb ed="#Bc" n="51"/>Si autem hoc concedatur, Contra ex.
+<lb ed="#Bc" n="52"/>presse dicunt verba Sanctorum, quae
+ <lb ed="#Bc" n="53"/>sunt in Littera.
+</p>
+            <p xml:id="alalal-d68433-d1e333">
+               <lb ed="#Bc" n="54"/>Sorutio. Dicendum, quod circa istam 
+<lb ed="#Bc" n="55"/>questionem diversorum diverse sunt Opi-~
+<lb ed="#Bc" n="56"/>niones. Quidam enim dixerunt, quodnulla
+<lb ed="#Bc" n="57"/>ignorantia de se est peccatum, sed ratio:
+<lb ed="#Bc" n="58"/>ne annexi aliqua dicitur esse peccatum,
+<lb ed="#Bc" n="59"/>scilicet ratione negligentie sciendi ejus
+<lb ed="#Bc" n="60"/>quod tenetur scire, vel ratione 
+contem<lb break="no" ed="#Bc" n="61"/>ptus, vel ratione voluntatis, quod idem
+<lb ed="#Bc" n="62"/>est: et ideo isti hoc modo solvunt dicta.
+<lb ed="#Bc" n="63"/>Sanctorum, quod Sancti de his causis
+<lb ed="#Bc" n="64"/>dicunt aliquam ignorantiam esse 
+pecca<lb break="no" ed="#Bc" n="65"/>tum, et non gratia sui, et concedunt 
+ra<lb break="no" ed="#Bc" n="66"/>tiones inductas.
+</p>
+            <p xml:id="alalal-d68433-d1e364">
+               <lb ed="#Bc" n="67"/>Et dicunt ulterius ad secundum 
+quesi<lb break="no" ed="#Bc" n="68"/>tum, quod ratione annexi etiam dicitur
+<lb ed="#Bc" n="69"/>voluntaria : quia voluntarium est id quod
+<lb ed="#Bc" n="70"/>facit ignorare, ut non discendi, et 
+quie<lb break="no" ed="#Bc" n="71"/>scendi a labore studii, vel etiam voluntas.
+<lb ed="#Bc" n="72"/>impunitatis si non sciatur, quia si sciret,
+<lb ed="#Bc" n="73"/>obligaretur ex scientia ad faciendum.
+</p>
+            <p xml:id="alalal-d68433-d1e383">
+               <lb ed="#Bc" n="74"/>Sed quia haec solutio videtur Sanctis
+<lb ed="#Bc" n="75"/>secundum superficiem contradicere : ideo
+<lb ed="#Bc" n="76"/>alii aliter dicunt, et puto quod melius, |
+<lb ed="#Bc" n="77"/>distinguentes multiplicem esse 
+ignoran<lb break="no" ed="#Bc" n="78"/>tiam. Est enim ignorantia privatio 
+ha<lb break="no" ed="#Bc" n="79"/>bitus in intellectu speculativo, et haec non
+<lb ed="#Bc" n="80"/>est peccatum : et est ignorantia 
+faciendo<lb break="no" ed="#Bc" n="81"/>rum a nobis, quae est privatio habitus
+<lb ed="#Bc" n="82"/>regentis in moribus necessariis ad 
+salu<lb break="no" ed="#Bc" n="83"/>tem: et haec est duplex, scilicet quaedam —
+<lb ed="#Bc" n="84"/>est habitus privatio instruentis ad ea
+<lb ed="#Bc" n="85"/>que necessaria sunt vite in communi,”
+<lb ed="#Bc" n="86"/>ut ignorantia juris divini ordinantis mo- |
+<lb ed="#Bc" n="87"/>res in praeceptis, ut fornicationem esse
+<lb ed="#Bc" n="88"/>peccatum mortale, et homicidium, et.
+<lb ed="#Bc" n="89"/>hujusmodi: et haec est peccatum. in 
+ha<lb break="no" ed="#Bc" n="90"/>bentibus usum rationis. Alia est privatio
+<lb ed="#Bc" n="91"/>habitus practici intellectus regentis in”
+<lb ed="#Bc" n="92"/>pertinentibus ad officium, ut Pontifex.
+<pb ed="#Bc" n="383"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>factas litteras ad fidem et mores 
+insti<lb break="no" ed="#Bc" n="2"/>tuentes tenetur scire, et sacerdos ea sine
+<lb ed="#Bc" n="3"/>quibus actus sacerdotalis non valet 
+exer<lb break="no" ed="#Bc" n="4"/>ceri, et hujusmodi: et haec ignorantia
+<lb ed="#Bc" n="5"/>habito officio eliam peccatum est, sed
+<lb ed="#Bc" n="6"/>non habito, non est peccatum. Et quia
+<lb ed="#Bc" n="7"/>hoc facilius est sustinere, secundum hoc
+<lb ed="#Bc" n="8"/>respondeamus objectis.
+</p>
+            <p xml:id="alalal-d68433-d1e448">
+               <lb ed="#Bc" n="9"/>Dicendo ad primum, quod talis 
+igno<lb break="no" ed="#Bc" n="10"/>rantia non est absolute nihil, sicut nec
+<lb ed="#Bc" n="11"/>malum quando est peccatum : quia 
+relin<lb break="no" ed="#Bc" n="12"/>quit subjectum, et debitum ad actum
+<lb ed="#Bc" n="13"/>scienti, et hoc debitum inducit reatum,
+<lb ed="#Bc" n="14"/>cum sit tempus solvendi.
+</p>
+            <p xml:id="alalal-d68433-d1e464">
+               <lb ed="#Bc" n="15"/>Et si queritur, Quando est debitum ?
+<lb ed="#Bc" n="16"/>Dico, quod in quolibet opere 
+necessa<lb break="no" ed="#Bc" n="17"/>rio ad salutem, cum facit perverse, quod
+<lb ed="#Bc" n="18"/>ex scientia juris divini deberet aliter fieri.
+<lb ed="#Bc" n="19"/>Ht similiter in alia ignorantia quoties
+<lb ed="#Bc" n="20"/>perverse egreditur in actum sui officii ex
+<lb ed="#Bc" n="21"/>defectu scientie ; quia tunc est debitum
+<lb ed="#Bc" n="22"/>actus scientis scientie regentis.
+</p>
+            <p xml:id="alalal-d68433-d1e484">
+               <lb ed="#Bc" n="23"/>Et per hoc solvitur hoc quod objici
+<lb ed="#Bc" n="24"/>consuevit, scilicet quod si ignorantia 
+pec<lb break="no" ed="#Bc" n="25"/>catum est, quod continue peccat ignorans,
+<lb ed="#Bc" n="26"/>quia continue manet ignorantia: 
+dicen<lb break="no" ed="#Bc" n="27"/>dum quod non, sed toties peccat, quoties
+<lb ed="#Bc" n="28"/>egreditur in actum perversum ex 
+defe<lb break="no" ed="#Bc" n="29"/>ctu scientie: et bene concedo, quod tunc
+<lb ed="#Bc" n="30"/>dupliciter peccat, scilicet omissione 
+scien<lb break="no" ed="#Bc" n="31"/>di, et actu illicito : quia cum debere scire
+<lb ed="#Bc" n="32"/>sit preceptum affirmativum, non obligat
+<lb ed="#Bc" n="33"/>ad semper, licet semper obliget: sed
+<lb ed="#Bc" n="34"/>tunc exigitur, quando sine scientie actu
+<lb ed="#Bc" n="35"/>evadere non potest peccatum.
+</p>
+            <p xml:id="alalal-d68433-d1e515">
+               <lb ed="#Bc" n="36"/>Ad aliud dicendum, quod haec est falsa,
+<lb ed="#Bc" n="37"/>Nulla scientia est virtus: quia scientia
+<lb ed="#Bc" n="38"/>faciendorum practice sumpta, est virtus,
+<lb ed="#Bc" n="39"/>ut prudentia, intellectus donum, 
+sapien<lb break="no" ed="#Bc" n="40"/>tia, et scientia, sicut multum disputatum
+<lb ed="#Bc" n="41"/>est in III Sententiarum '.
+</p>
+            <p xml:id="alalal-d68433-d1e531">
+               <lb ed="#Bc" n="42"/>Ad aliud dicendum, quod si penitentia
+<lb ed="#Bc" n="43"/>perfecta est, quod transit reatus 
+igno<lb break="no" ed="#Bc" n="44"/>rantia, et est actus secundum quod
+<lb ed="#Bc" n="45"/>obligat : quia si est -privatio scientie
+<lb ed="#Bc" n="46"/>pertinentis ad officium, tunc si 
+di<lb break="no" ed="#Bc" n="47"/>mittit officium, deobligatur, et tunc non
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="48"/>erit in ipso ignorantia obligans. Si 
+au<lb break="no" ed="#Bc" n="49"/>tem est ignorantia eorum quae 
+exigun<lb break="no" ed="#Bc" n="50"/>tur ad vitam, non agit poenitentiam, nisi
+<lb ed="#Bc" n="51"/>inquirat, et addiscat et tunc transit
+<lb ed="#Bc" n="52"/>ignorantia, .
+</p>
+            <p xml:id="alalal-d68433-d1e561">
+               <lb ed="#Bc" n="53"/>Ad aliud dicendum, quod est 
+intelle<lb break="no" ed="#Bc" n="54"/>ctus antecedenter ordinatus ad 
+volunta<lb break="no" ed="#Bc" n="55"/>tem operandi, et in illo non est virtus :
+<lb ed="#Bc" n="56"/>et est intellectus voluntarius et 
+conse<lb break="no" ed="#Bc" n="57"/>quenter ordinatus ad voluntatem, et in
+<lb ed="#Bc" n="58"/>illo est virtus. Et haec omnia discussa
+<lb ed="#Bc" n="59"/>sunt in tertio Sententiarum.
+</p>
+            <p xml:id="alalal-d68433-d1e579">
+               <lb ed="#Bc" n="60"/>Ad aliud dicendum, quod secundum
+<lb ed="#Bc" n="61"/>quod nascimur in ignorantia, non est
+<lb ed="#Bc" n="62"/>peccatum, sed peena, sicut et 
+concupiscen<lb break="no" ed="#Bc" n="63"/>tia quae concupiscibilitas est in parvulo :
+<lb ed="#Bc" n="64"/>sed quando tenemur scire, ignorantia
+<lb ed="#Bc" n="65"/>est peccatum : sicut et concupiscentia,
+<lb ed="#Bc" n="66"/>quando tenemur non concupiscere : quia
+<lb ed="#Bc" n="67"/>quod in concupiscentia est peccatum
+<lb ed="#Bc" n="68"/>commissionis actus prohibiti, hoc est
+<lb ed="#Bc" n="69"/>in ignorantia peccatum omissionis actus
+<lb ed="#Bc" n="70"/>debiiti.
+</p>
+            <p xml:id="alalal-d68433-d1e605">
+               <lb ed="#Bc" n="71"/>Ad aliud dicendum, quod ignorantia
+<lb ed="#Bc" n="72"/>in quantum poena est, non est peccatum,
+<lb ed="#Bc" n="73"/>sed in quantum efficitur omissio actus
+<lb ed="#Bc" n="74"/>ad quem tenetur aliquis, et tunc 
+tene<lb break="no" ed="#Bc" n="75"/>tur.
+</p>
+            <p xml:id="alalal-d68433-d1e618">
+               <lb ed="#Bc" n="76"/>Ap i quod ulterius queritur, Qualiter
+<lb ed="#Bc" n="77"/>sit voluntaria ignorantia ?
+<lb ed="#Bc" n="78"/>_ Distinguunt illi qui sunt de ista 
+opi<lb break="no" ed="#Bc" n="79"/>nione, quod peccatum non uno modo
+<lb ed="#Bc" n="80"/>dicitur voluntarium. Si enim vis fiat in
+<lb ed="#Bc" n="81"/>verbo, dicunt quod nullum malum, et
+<lb ed="#Bc" n="82"/>nullum peccatum est voluntarium, sicut
+<lb ed="#Bc" n="83"/>dicit Dionysius quod <quote xml:id="alalal-d68433-Qd1e637"> peccatum est
+<lb ed="#Bc" n="84"/>incausabile, et involuntarium, et preter
+<lb ed="#Bc" n="85"/>intentionem, et infoecundum, et pigrum, </quote>
+               <lb ed="#Bc" n="86"/>Sed aliquod peccatum ut commissionis,
+<lb ed="#Bc" n="87"/>dicitur volunlarium, quia ejus actus et
+<lb ed="#Bc" n="88"/>delectabile sunt voluntaria, cum non
+<lb ed="#Bc" n="89"/>deberent esse voluntaria. Aliquod est
+<lb ed="#Bc" n="90"/>voluntarium voluntate remota et 
+ante<lb break="no" ed="#Bc" n="91"/>cedente, licet non propinqua et 
+conse<lb break="no" ed="#Bc" n="92"/>quente, ut originale est voluntarium
+<lb ed="#Bc" n="93"/>voluntate Adz, et non voluntate nostra.
+<pb ed="#Bc" n="384"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Aliquod est voluntarium, ut quod 
+pre<lb break="no" ed="#Bc" n="2"/>venire debet voluntas, ut motus 
+concu<lb break="no" ed="#Bc" n="3"/>piscentia. Item, Aliquod est voluntarium,
+<lb ed="#Bc" n="4"/>ut in cujus actum oppositum tenctur
+<lb ed="#Bc" n="5"/>tendere voluntas, et sic peccatum 
+omis<lb break="no" ed="#Bc" n="6"/>sionis et ignorantie est voluntarium. Et
+<lb ed="#Bc" n="7"/>per hoc patet solutio ad primum quod de
+<lb ed="#Bc" n="8"/>hoe objicitur.
+</p>
+            <p xml:id="alalal-d68433-d1e684">
+               <lb ed="#Bc" n="9"/>Av atiup dicendum, quod omnes 
+he<lb break="no" ed="#Bc" n="10"/>mines scire desiderant non tamen
+<lb ed="#Bc" n="11"/>omnes homines scire desiderant hoc vel
+<lb ed="#Bc" n="12"/>illud, sed in se desiderant scire. 
+Ignoran<lb break="no" ed="#Bc" n="13"/>tia autem non dicitur universaliter 
+affe<lb break="no" ed="#Bc" n="14"/>ctata, sed particulariter, scilicet haec vel
+<lb ed="#Bc" n="15"/>illa : et hoc non est contrarium 
+Philoso<lb break="no" ed="#Bc" n="16"/>pho: et ideo in argumento est figura
+<lb ed="#Bc" n="17"/>dictionis a simplici suppositione ad 
+de<lb break="no" ed="#Bc" n="18"/>terminatam et mobilem, cum ly sezre
+<lb ed="#Bc" n="19"/>immobiliter et simpliciter stet in 
+propo<lb break="no" ed="#Bc" n="20"/>sitione Philosophi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

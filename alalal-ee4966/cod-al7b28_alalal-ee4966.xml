@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="26"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee4966"><!-- l3d2a5 -->
+            <head xml:id="alalal-ee4966-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-ee4966-Hd1e101" type="question-title">An in Domino Jesu est communenr 
+speciem accipere ?</head>
+            <p xml:id="alalal-ee4966-d1e104">
+               <lb ed="Bd" n="58"/>ARTICULUS V.
+<lb ed="Bd" n="59"/>An in Domino Jesu est communenr 
+spe<lb break="no" ed="Bd" n="60"/>ciem accipere ?
+</p>
+            <p xml:id="alalal-ee4966-d1e113">
+               <lb ed="Bd" n="61"/>Quinto quaeritur de hoc quod dicit,
+<lb ed="Bd" n="62"/>ibi, A, versus finem:<quote xml:id="alalal-ee4966-Qd1e119"> /n Domino autem
+<lb ed="Bd" n="63"/>Jesu Christo non est communem specicm
+<lb ed="Bd" n="64"/>aceipere, etc. </quote>
+            </p>
+            <p xml:id="alalal-ee4966-d1e127">
+               <lb ed="Bd" n="65"/>Hoc enim videtur esse falsum quia
+</p>
+            <p xml:id="alalal-ee4966-d1e133">
+               <lb ed="Bd" n="66"/>1. Dominus Jesus est homo, et homo
+<lb ed="Bd" n="67"/>est communis species : ergo in ipso est
+<lb ed="Bd" n="68"/>communem speciem accipere.
+</p>
+            <p xml:id="alalal-ee4966-d1e142">
+               <lb ed="Bd" n="69"/>2. Item, Hichomo qui est Jesus, aut
+<lb ed="Bd" n="70"/>est in aliqua specie, aut non. Si non:
+<lb ed="Bd" n="71"/>ergo non habet communicationem in
+<lb ed="Bd" n="72"/>specie hominis, et sic homini non 
+vale<lb break="no" ed="Bd" n="73"/>ret redemptio ejus, quod est falsum : 
+er<lb break="no" ed="Bd" n="74"/>go ipse est in specie hominis, et sic in
+<lb ed="Bd" n="75"/>ipso communis species accipitur.
+</p>
+            <p xml:id="alalal-ee4966-d1e160">
+               <lb ed="Bd" n="76"/>3. Praeterea, Ratio Joannis 
+Damascc<lb break="no" ed="Bd" n="77"/>ni non videtur valere, cum dicit : <quote xml:id="alalal-ee4966-Qd1e166"> Nec
+<lb ed="Bd" n="78"/>enim factus est, nec aliquando fuit
+<lb ed="Bd" n="79"/>alius. </quote> Hoc enim non videtur esse 
+cau<lb break="no" ed="Bd" n="80"/>sa : quia sol nec factus est, nec aliquando
+<lb ed="Bd" n="81"/>fiet alius: et tamen habet communem
+<lb ed="Bd" n="82"/>speciem, quantum est de 
+communicabili<lb break="no" ed="Bd" n="83"/>tale sue forme: et si non communicatur,
+<pb ed="#Bd" n="27"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>hoc est quia materia tota intra formam
+<lb ed="Bd" n="2"/>est determinata, et ideo forma manet 
+in<lb break="no" ed="Bd" n="3"/>divisa in tota sua materia.
+</p>
+            <p xml:id="alalal-ee4966-d1e194">
+               <lb ed="Bd" n="4"/>4, Sed ad hoc dicunt quidam, quod
+<lb ed="Bd" n="5"/>(ut dicit Boetius) species est totum esse
+<lb ed="Bd" n="6"/>individuorum ad minus formale : quia
+<lb ed="Bd" n="7"/>quod est post speciem, est de 
+individuan<lb break="no" ed="Bd" n="8"/>tibus. In Domino autem Jesu hac species
+<lb ed="Bd" n="9"/>non est totum esse : quia quoddam esse
+<lb ed="Bd" n="10"/>habet a deitate: et ideo dicit 
+Damasce<lb break="no" ed="Bd" n="11"/>nus, quod in ipso Domino Jesu non est
+<lb ed="Bd" n="12"/>communem speciem invenire.
+</p>
+            <p xml:id="alalal-ee4966-d1e216">
+               <lb ed="Bd" n="13"/>Sed contra : Avicenna dicit, quod
+<lb ed="Bd" n="14"/>sicut differunt lux, lucere, et lucens : ita
+<lb ed="Bd" n="15"/>differunt essentia, esse, et ens : ergo
+<lb ed="Bd" n="16"/>sicut lux refertur ad naturam, ita et 
+es<lb break="no" ed="Bd" n="17"/>sentia : et sicut lucere refertur ad actum,
+<lb ed="Bd" n="18"/>ita et esse. Sed in Christo est tantum una
+<lb ed="Bd" n="19"/>hypostasis et persona. Cum igitur esse
+<lb ed="Bd" n="20"/>quod est actus proprie conveniat 
+perso<lb break="no" ed="Bd" n="21"/>ne, Christus non habebit nisi unum esse,
+<lb ed="Bd" n="22"/>ut videtur : unum autem esse est quod
+<lb ed="Bd" n="23"/>est in una specie: ergo videtur, quod
+<lb ed="Bd" n="24"/>Christus sit in aliqua specie una.
+</p>
+            <p xml:id="alalal-ee4966-d1e245">
+               <lb ed="Bd" n="25"/>Praeterea, secundum hoc nulla esset
+<lb ed="Bd" n="26"/>ratio sua quam inducit : ac si ideo non
+<lb ed="Bd" n="27"/>sit una species, quia non communicabilis
+<lb ed="Bd" n="28"/>sit forma in Christo secundum quam
+<lb ed="Bd" n="29"/>Christus possit esse.
+</p>
+            <p xml:id="alalal-ee4966-d1e259">
+               <lb ed="Bd" n="30"/>Solutio Dicendum, quod secundum
+<lb ed="Bd" n="31"/>intellectum Damasceni, sic est 
+intelligen<lb break="no" ed="Bd" n="32"/>dum : <quote xml:id="alalal-ee4966-Qd1e267">In Domino Jesu, etc., </quote> scilicet,
+<lb ed="Bd" n="33"/>quod intelligantur in Christo esse due
+<lb ed="Bd" n="34"/>compositiones, quarum una est naturalis,
+<lb ed="Bd" n="35"/>alia gratia unionis. Una est propria, alia
+<lb ed="Bd" n="36"/>vero impropria. Propria vocatur 
+compo<lb break="no" ed="Bd" n="37"/>sitio prima, quae est ex aniina et corpore :
+<lb ed="Bd" n="38"/>anima (dico) quae est actus corporis 
+or<lb break="no" ed="Bd" n="39"/>ganici physici vitam habentis in potentia:
+<lb ed="Bd" n="40"/>et hance compositionem sequitur forma
+<lb ed="Bd" n="41"/>totius quae est homo, vel humanitas si
+<lb ed="Bd" n="42"/>abstractive liceat loqui de ipsa, et ipsa
+<lb ed="Bd" n="43"/>est species in hoc individuo particulani.
+<lb ed="Bd" n="44"/>Est enim duplex forma, scilicet forma
+<lb ed="Bd" n="45"/>materie, sive patris, sive potentiae : ct
+<lb ed="Bd" n="46"/>hae forma est finis generationis in 
+natu<lb break="no" ed="Bd" n="47"/>ra, et est pars rei non predicabilis de re
+<lb ed="Bd" n="48"/>ipsa, et talis forma est anima in homine.
+</p>
+            <p xml:id="alalal-ee4966-d1e305">
+               <lb ed="Bd" n="49"/>Alia autem forma quae est ratio rei, et
+<lb ed="Bd" n="50"/>totum esse secundum rationem : et hee
+<lb ed="Bd" n="51"/>est consequens compositionem forme
+<lb ed="Bd" n="52"/>naturalis, et potentia naturalis, quae est
+<lb ed="Bd" n="53"/>materia : et talem consequentem formam
+<lb ed="Bd" n="54"/>habuit Dominus Jesus propter 
+composi<lb break="no" ed="Bd" n="55"/>tionem naturalem, propter quam est 
+ve<lb break="no" ed="Bd" n="56"/>rus homo, et suppositum unum in specie
+<lb ed="Bd" n="57"/>hominis. Alia autem compositio est in
+<lb ed="Bd" n="58"/>Christo, quae non vere compositio est nisi
+<lb ed="Bd" n="59"/>compositio exponatur, quod sil unius
+<lb ed="Bd" n="60"/>cum altera positio : et hac est totius 
+hu<lb break="no" ed="Bd" n="61"/>mane nature cum deitate, non ad 
+ali<lb break="no" ed="Bd" n="62"/>quod tertium constituendum, sed potius
+<lb ed="Bd" n="63"/>in receptione personalitatis quae ab 
+eter<lb break="no" ed="Bd" n="64"/>no in supposito divine nature fuerat. Et
+<lb ed="Bd" n="65"/>hoe ideo oportet ponere : quia omnis
+<lb ed="Bd" n="66"/>componentis ratio, et ratio partis et 
+im<lb break="no" ed="Bd" n="67"/>perfecti respectu forme compositionis :
+<lb ed="Bd" n="68"/>divinitas autem nec in se, nec posita cum
+<lb ed="Bd" n="69"/>alia potest cadere in rationem partis et
+<lb ed="Bd" n="70"/>imperfecti: unde ipsa non est 
+compo<lb break="no" ed="Bd" n="71"/>nens aliquod proprie, sed posita secum
+<lb ed="Bd" n="72"/>trahit in aliquem actum sui suppositi :
+<lb ed="Bd" n="73"/>et ideo humana natura posita secum in
+<lb ed="Bd" n="74"/>supposito fuit per societatem suppositi
+<lb ed="Bd" n="75"/>divine nature. Et quantum ad hane
+<lb ed="Bd" n="76"/>compositionem dicit Damascenus, quod
+<lb ed="Bd" n="77"/>non est in Domino Jesu communis 
+spe<lb break="no" ed="Bd" n="78"/>cies, species (inquam) quae sit forma
+<lb ed="Bd" n="79"/>compositionis, et ratio consequens 
+com<lb break="no" ed="Bd" n="80"/>positionem totius humane nature cum
+<lb ed="Bd" n="81"/>divina.
+</p>
+            <p xml:id="alalal-ee4966-d1e379">
+               <lb ed="Bd" n="82"/>Ad id ergo quod objicitur de probatione
+<lb ed="Bd" n="83"/>Damasceni, dicendum, quod ipse non
+<lb ed="Bd" n="84"/>intendit, quod haec sit ratio, quod ipse
+<lb ed="Bd" n="85"/>non potest pradicari de pluribus: sed
+<lb ed="Bd" n="86"/>potius a consequenti probat antecedens.
+<lb ed="Bd" n="87"/>Quod enim impossibile est formam 
+ha<lb break="no" ed="Bd" n="88"/>bere quae sequitur compositionem, 
+im<lb break="no" ed="Bd" n="89"/>possibile est habere communicabilem
+<lb ed="Bd" n="90"/>formam : cum igitur omnis species
+<lb ed="Bd" n="91"/>quantum est de se communicabilis sit
+<lb ed="Bd" n="92"/>(sicut dictum est alibi) id quod 
+impossi<lb break="no" ed="Bd" n="93"/>bile est communicari de se, non habet
+<lb ed="Bd" n="94"/>speciem compositionis, sive formam 
+to<lb break="no" ed="Bd" n="95"/>tius, quodidem est; et ita cum Christum
+<lb ed="Bd" n="96"/>impossibile est habere formam 
+commu<lb break="no" ed="Bd" n="97"/>nicabilem, impossibile est ipsum habere
+<pb ed="#Bd" n="28"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>formam quae sequatur deitatis cum 
+hu<lb break="no" ed="Bd" n="2"/>manitate compositionem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

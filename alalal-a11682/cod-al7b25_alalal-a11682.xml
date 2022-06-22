@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="59"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a11682"><!-- l1d2a5 -->
+            <head xml:id="alalal-a11682-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-a11682-Hd1e101" type="question-title">An omne verum scitum sit a Spiritu
+sancto inspiratum ?</head>
+            <p xml:id="alalal-a11682-d1e104">
+               <lb ed="#Ba" n="25"/>ARTICULUS V.
+<lb ed="#Ba" n="26"/>An omne verum scitum sit a Spiritu
+<lb ed="#Ba" n="27"/>sancto inspiratum ?
+</p>
+            <p xml:id="alalal-a11682-d1e113">
+               <lb ed="#Ba" n="28"/>Deinde quaeritur de hoc quod dicitur
+<lb ed="#Ba" n="29"/>in notula incidente: <quote xml:id="alalal-a11682-Qd1e119"> Non approbe quod
+<lb ed="#Ba" n="30"/>in oratione dici, etc. </quote>
+            </p>
+            <p xml:id="alalal-a11682-d1e125">
+               <lb ed="#Ba" n="31"/>1, Videtur enim, quod omne verum sit
+<lb ed="#Ba" n="32"/>a Spiritu: sancto scitum et dictum : 
+su<lb break="no" ed="#Ba" n="33"/>per illud enim quod dicit Apostolus, I ad
+  <lb ed="#Ba" n="34"/>Corinth. xu, 3: <quote xml:id="alalal-a11682-Qd1e135"
+                      source="http://scta.info/resource/Icor12_3@15-23">Nemo potest dicere: 
+Do<lb break="no" ed="#Ba" n="35"/>minus Jesus, nisi in Spiritu sancto</quote>, dicit
+<lb ed="#Ba" n="36"/>Glossa Ambrosii : Omne verum a 
+quo<lb break="no" ed="#Ba" n="37"/>cumgue dicatur, est a Spiritu sancto.
+</p>
+            <p xml:id="alalal-a11682-d1e147">
+               <lb ed="#Ba" n="38"/>2. Item, Constat, quod Caiphas non
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="39"/>ex intentione prophetabat : et tamen 
+di<lb break="no" ed="#Ba" n="40"/>cit Evangelista’, quod propter 
+dignita<lb break="no" ed="#Ba" n="41"/>tem officii Spiritus dedit ei verum dicere,
+<lb ed="#Ba" n="42"/>quia Jesus esset moriturus pro gente.
+</p>
+            <p xml:id="alalal-a11682-d1e163">
+               <lb ed="#Ba" n="43"/>3. Item, Augustinus in libro de 
+dZa<lb break="no" ed="#Ba" n="44"/>gistro, probat multis rationibus, quod
+<lb ed="#Ba" n="45"/>frustra laborat exterior magister nisi 
+ad<lb break="no" ed="#Ba" n="46"/>sit interius docens: ergo videtur, quod
+<lb ed="#Ba" n="47"/>omne verum sit a Spiritu sancto.
+</p>
+            <p xml:id="alalal-a11682-d1e176">
+               <lb ed="#Ba" n="48"/>Sed contra: Est verum in 
+propositio<lb break="no" ed="#Ba" n="49"/>nibus primis et in artibus hberalibus ad
+<lb ed="#Ba" n="50"/>quod homo suflicit ex doctrina hominis,
+<lb ed="#Ba" n="51"/>et propria inventione : ergo non est 
+ne<lb break="no" ed="#Ba" n="52"/>cesse advenire ibi novam gratiam 
+docen<lb break="no" ed="#Ba" n="53"/>tem.
+</p>
+            <p xml:id="alalal-a11682-d1e192">
+               <lb ed="#Ba" n="54"/>Solutio. Dicendum, quod ista 
+disputa<lb break="no" ed="#Ba" n="55"/>tio non est contra notulam: quia 
+Au<lb break="no" ed="#Ba" n="56"/>gustinus dicit, quod mali nihil verum
+<lb ed="#Ba" n="57"/>vident: et hoc retractavit, quia mali
+<lb ed="#Ba" n="58"/>multa habent a Deo. Si tamen non fiat
+<lb ed="#Ba" n="59"/>vis in hoc, dicimus quod in anima ad
+<lb ed="#Ba" n="60"/>hoc quod accipiat scientiam veritatis 
+exi<lb break="no" ed="#Ba" n="61"/>guntur quatuor : intellectus possibilis qui
+<lb ed="#Ba" n="62"/>paratus sit recipere : et secundo, 
+intelle<lb break="no" ed="#Ba" n="63"/>ctus agens cujus lumine fiat abstractio
+<lb ed="#Ba" n="64"/>specierum in quibus est veritas, vel 
+ve<lb break="no" ed="#Ba" n="65"/>rum illud : et tertio, res objecta per ima~
+<lb ed="#Ba" n="66"/>ginem, vel seipsam, de qua est veritas
+<lb ed="#Ba" n="67"/>illa: et quarto, principia et dignitates
+<lb ed="#Ba" n="68"/>que sunt quasi quaedam instrumenta
+<lb ed="#Ba" n="69"/>proportionantia compositiones et 
+divisio<lb break="no" ed="#Ba" n="70"/>nes possibiles et impossibiles et necessa~
+<lb ed="#Ba" n="71"/>rias ex quibus verum accipitur. Inter hac
+<lb ed="#Ba" n="72"/>quatuor, primum est recipiens tantum :
+<lb ed="#Ba" n="73"/>secundum autem est dans lumen suum
+<lb ed="#Ba" n="74"/>tantum : tertium est recipiens ab agente
+<lb ed="#Ba" n="75"/>intellectu, et dans lucem veritatis 
+distin<lb break="no" ed="#Ba" n="76"/>cte possibili: quartum autem est motum
+<lb ed="#Ba" n="77"/>ut instrumentum, et movens 
+composi<lb break="no" ed="#Ba" n="78"/>tionem et divisionem ejus in quo est 
+ve<lb break="no" ed="#Ba" n="79"/>rum scitum vel quesitum. Unde quidam
+<lb ed="#Ba" n="80"/>Philosophi dixerunt, quod ista 
+suffice<lb break="no" ed="#Ba" n="81"/>rent ad cognitionem veri quod est sub
+<lb ed="#Ba" n="82"/>ratione. Sed aliter dicendum, scilicet,
+<pb ed="#Ba" n="60"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>quod lux intellectus agentis non sufficit
+<lb ed="#Ba" n="2"/>per se, nisi per applicationem lucis 
+in<lb break="no" ed="#Ba" n="3"/>tellectus increati, sicut applicatur radius
+<lb ed="#Ba" n="4"/>solis ad radium stella. Et hoc contingit
+<lb ed="#Ba" n="5"/>dupliciter, scilicet, secundum lumen 
+du<lb break="no" ed="#Ba" n="6"/>plicatum tantum, vel etiam triplicatum :
+<lb ed="#Ba" n="7"/>duplicatum ut si fiat conjunctio ad 
+lu<lb break="no" ed="#Ba" n="8"/>men intellectus increati, et illud lumen
+<lb ed="#Ba" n="9"/>est interior magisler. Quandoque autem
+<lb ed="#Ba" n="10"/>fit ad conjunctionem intellectus angelici
+<lb ed="#Ba" n="11"/>et divini: quia Philosophi quidam 
+ani<lb break="no" ed="#Ba" n="12"/>mam posuerunt instrumentum 
+intelli<lb break="no" ed="#Ba" n="13"/>gentie, eo quod intelligentia imprimit
+<lb ed="#Ba" n="14"/>in eam suas illuminationes. Et hoc vocat
+<lb ed="#Ba" n="15"/>Dionysius reductionem nostre 
+hierar<lb break="no" ed="#Ba" n="16"/>chiae per hierarchiam Angelorum, et 
+Au<lb break="no" ed="#Ba" n="17"/>gustinus dicit hoc contingere mullis 
+mo<lb break="no" ed="#Ba" n="18"/>dis. Et hoc vocant quidam Philosophi
+<lb ed="#Ba" n="19"/>continuationem intellectuum : quia etiam
+<lb ed="#Ba" n="20"/>ipsi dixerunt, quod nihil videtur nisi per
+<lb ed="#Ba" n="21"/>lucem primam.
+</p>
+            <p xml:id="alalal-a11682-d1e307">
+               <lb ed="#Ba" n="22"/>Ab Hoc ergo quod quaeritur, Utram
+<lb ed="#Ba" n="23"/>exigitur apposilio gratia nove, Dicendum
+<lb ed="#Ba" n="24"/>quod si gratia vocalur quodlibet donum
+<lb ed="#Ba" n="25"/>a Deo gratis datum. tunc non fit hoc
+<lb ed="#Ba" n="26"/>sine gratia: imo dicit quidam 
+Philoso<lb break="no" ed="#Ba" n="27"/>phus, quod etiamsi aliquid sciatur in ha-=
+<lb ed="#Ba" n="28"/>bitu, non fiet conversio ad actum nisi
+<lb ed="#Ba" n="29"/>per conversionem ad lucem intellectus
+<lb ed="#Ba" n="30"/>increati.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

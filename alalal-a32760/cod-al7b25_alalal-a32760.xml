@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="162"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a32760"><!-- l1d4a5 -->
+            <head xml:id="alalal-a32760-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-a32760-Hd1e101" type="question-title">An Deus genuit Deum seipsum, vel Deum
+alium ?</head>
+            <p xml:id="alalal-a32760-d1e104">
+               <lb ed="#Ba" n="16"/>ARTICULUS V.
+<lb ed="#Ba" n="17"/>An Deus genuit Deum seipsum, vel Deum
+<lb ed="#Ba" n="18"/>alium ?
+</p>
+            <p xml:id="alalal-a32760-d1e113">
+               <lb ed="#Ba" n="19"/>Consequenter quaeritur de 
+argumenta<lb break="no" ed="#Ba" n="20"/>tione quam hic ponit Magister, scilicet,
+<lb ed="#Ba" n="21"/>si Deus Deum genuit: ergo se Deum,
+<lb ed="#Ba" n="22"/>vel alium Deum genuit, etc.
+</p>
+            <p xml:id="alalal-a32760-d1e124">
+               <lb ed="#Ba" n="23"/>Videtur autem, quod genuerit alium
+<lb ed="#Ba" n="24"/>Deum :
+<lb ed="#Ba" n="25"/>1. Cum enim iste terminus, Deus, sit
+<lb ed="#Ba" n="26"/>nomen habentis deitatem, per terminum
+<lb ed="#Ba" n="27"/>distinctionem notantem potest trahi ad
+<lb ed="#Ba" n="28"/>supponendum pro persona: ly aliam 
+au<lb break="no" ed="#Ba" n="29"/>tem notat distinctionem, cum sit 
+relati<lb break="no" ed="#Ba" n="30"/>vum diversitatis masculine significatum :
+<lb ed="#Ba" n="31"/>ergo ly Dewm, cum dicitur, genet alieem
+<lb ed="#Ba" n="32"/>Deum, stat pro persona: sed haecest
+<lb ed="#Ba" n="33"/>vera, Deus genuit altam personam a se:
+<lb ed="#Ba" n="34"/>ergo et haec erit vera, genuit alium Deum,
+<lb ed="#Ba" n="35"/>quod Magister negat in Littera.
+</p>
+            <p xml:id="alalal-a32760-d1e156">
+               <lb ed="#Ba" n="36"/>2. Praeterea, Videtur, quod ly Deum ex
+<lb ed="#Ba" n="37"/>parte suppositi non supponat pro persona:
+<lb ed="#Ba" n="38"/>Deus enim secundum se non significat
+<lb ed="#Ba" n="39"/>nisi essentiam: sed praedicatum vel 
+ver<lb break="no" ed="#Ba" n="40"/>bum non restringit suppositum nisi 
+tan<lb break="no" ed="#Ba" n="41"/>tum ratione temporis significati, scilicet
+<lb ed="#Ba" n="42"/>ul stet pro presentibus si verbum est
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="43"/>presentis temporis: ergo hoc verbum,
+<lb ed="#Ba" n="44"/>genuit, cum sit praedicatum, non 
+extra<lb break="no" ed="#Ba" n="45"/>het sibi Deus a supposito substantiae ad
+<lb ed="#Ba" n="46"/>standum pro persona: et ideo haecnon
+<lb ed="#Ba" n="47"/>est vera, Deus Deum genuit, ut videtur,
+<lb ed="#Ba" n="48"/>quam tamen Magister concedit in Litéera.
+</p>
+            <p xml:id="alalal-a32760-d1e189">
+               <lb ed="#Ba" n="49"/>3. Praeterea, quaeritur de solutione
+<lb ed="#Ba" n="50"/>quorumdam, qui dicunt quod ly altum
+<lb ed="#Ba" n="51"/>ex parte suppositi potest facere 
+appositi<lb break="no" ed="#Ba" n="52"/>vam constructionem cum hoc nomine,
+<lb ed="#Ba" n="53"/>Deus, et sic est vera : vel intransitivam,
+<lb ed="#Ba" n="54"/>et sic est falsa. Hoc enim nihil videtur
+<lb ed="#Ba" n="55"/>esse: quia appositiva constructio est 
+in<lb break="no" ed="#Ba" n="56"/>ter magis commune et minus commune :
+<lb ed="#Ba" n="57"/>ly alius autem non est tale respectu hujus
+<lb ed="#Ba" n="58"/>nominis, Deus.
+</p>
+            <p xml:id="alalal-a32760-d1e213">
+               <lb ed="#Ba" n="59"/>4, Praeterea, Cum ly alius in 
+mascu<lb break="no" ed="#Ba" n="60"/>hno genere significatur, videtur non 
+sub<lb break="no" ed="#Ba" n="61"/>stantivari, et ita remanet adjectivum,
+<lb ed="#Ba" n="62"/>et alietatem ponit circa rem significatem
+<lb ed="#Ba" n="63"/>in hoc nomine, Deus : ergo ponet 
+di<lb break="no" ed="#Ba" n="64"/>versitatem gratia forme: ergo locutio
+<lb ed="#Ba" n="65"/>simpliciter est falsa: cum in forma idem
+<lb ed="#Ba" n="66"/>sit generans et genitus.
+</p>
+            <p xml:id="alalal-a32760-d1e233">
+               <lb ed="#Ba" n="67"/>5. Item, Adjectivum genus numerum
+<lb ed="#Ba" n="68"/>trahit a substantivo, sed non 
+convenien<lb break="no" ed="#Ba" n="69"/>ter dicitur, Deus genuit alii Deum, vel
+<lb ed="#Ba" n="70"/>alios Deum, vel alia Deum, vel aliud
+<lb ed="#Ba" n="71"/>Deu : ergo cum ly aliud sequatur 
+con<lb break="no" ed="#Ba" n="72"/>significata numeri vel generis hujus no~
+<lb ed="#Ba" n="73"/>minis, Devs, ipsum erit suum 
+adjecti<lb break="no" ed="#Ba" n="74"/>vum ponendo suam alietatem circa 
+ip<lb break="no" ed="#Ba" n="75"/>sum gratia forme, et sic locutio emt 
+fal<lb break="no" ed="#Ba" n="76"/>sa: ergo simpliciter erit falsa.
+</p>
+            <p xml:id="alalal-a32760-d1e257">
+               <lb ed="#Ba" n="77"/>6. Sed contra: Alielas potest notari
+<lb ed="#Ba" n="78"/>respectu suppositi: Socrates enim est
+<lb ed="#Ba" n="79"/>alius homo a Platone: ergo videtur,
+<lb ed="#Ba" n="80"/>quod distinguibilis sit ad minus ista, 
+ge<lb break="no" ed="#Ba" n="81"/>nuit alium Deum.
+</p>
+            <p xml:id="alalal-a32760-d1e270">
+               <lb ed="#Ba" n="82"/>7. Praeterea, Videtur alterum sequi.
+<lb ed="#Ba" n="83"/>se Deum, vel alium Deum: idem enim et
+<lb ed="#Ba" n="84"/>diversum dividunt ens in quantum ens:
+<lb ed="#Ba" n="85"/>ergo videtur, quod sequantur quodlibet
+<lb ed="#Ba" n="86"/>ens : ergocum dicitur, Deus genuit Deum,
+<lb ed="#Ba" n="87"/>videtur quod eumdem, vel alium.
+</p>
+            <p xml:id="alalal-a32760-d1e287">
+               <lb ed="#Ba" n="88"/>8. Item, Contradictoriorum alterum
+<lb ed="#Ba" n="89"/>necesse est de quolibet verificari. Si
+<lb ed="#Ba" n="90"/>igitur Deus genuit Deum: aut genuit se,
+<lb ed="#Ba" n="91"/>aut genuit non se. Si se. ergo idem in
+<pb ed="#Ba" n="163"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>persona est generans et genitus. Si non
+<lb ed="#Ba" n="2"/>se, ol Deum genuit: ergo alium Deum
+<lb ed="#Ba" n="3"/>qenuit, quod Magistor negat.
+</p>
+            <p xml:id="alalal-a32760-d1e309">
+               <lb ed="#Ba" n="4"/>Solutio. Hoc tripliciter consuevit solvi
+<lb ed="#Ba" n="5"/>a Magistris Quidam dicunt quod ly aliam
+<lb ed="#Ba" n="6"/>parte praedicati potest esse 
+substanti<lb break="no" ed="#Ba" n="7"/>vim, vel adjectivum. Si sit adjectivum,
+<lb ed="#Ba" n="8"/>tunc dicunt istam esse falsam, genuit
+<lb ed="#Ba" n="9"/>aliuin Deum: quia tunc ly alium ponit
+<lb ed="#Ba" n="10"/>diversitatem respectu forme hujus 
+nomi<lb break="no" ed="#Ba" n="11"/>nis, Deum : quia adjectivaformam quam
+<lb ed="#Ba" n="12"/>niviificant ponunt circa substantiva sua.
+<lb ed="#Ba" n="13"/>Siautem sit substantivum, dicunt esse
+<lb ed="#Ba" n="14"/>veram sic, genuit alium qui Deus est.
+<lb ed="#Ba" n="15"/>Alu dicunt, quod potest facere 
+appositi<lb break="no" ed="#Ba" n="16"/>van constructionem, vel adjectivam : si
+<lb ed="#Ba" n="17"/>uppositivam, vera est : si adjectivam,
+<lb ed="#Ba" n="18"/>falsa est. Tertia opinio est Magistri in
+<lb ed="#Ba" n="19"/>littera : et illam sequimur, dicendo quod
+<lb ed="#Ba" n="20"/>nec sequitur, ergo se Deum : nec 
+sequi<lb break="no" ed="#Ba" n="21"/>tur, ergo alium Deum, propter rationem
+<lb ed="#Ba" n="22"/>puperius assignatam.
+</p>
+            <p xml:id="alalal-a32760-d1e353">
+               <lb ed="#Ba" n="23"/>Dicendum ergo ad primum, quod licet
+<lb ed="#Ba" n="24"/>ly adiwm sit relativam, non tamen per se
+<lb ed="#Ba" n="25"/>nolat distinctionem personalem : et hoc
+<lb ed="#Ba" n="26"/>patet : quia convenit essentiae et persone :
+<lb ed="#Ba" n="27"/>est enim essentia alia ab essentia creati,
+<lb ed="#Ba" n="28"/>ct persona est alia ab alia persona: et
+<lb ed="#Ba" n="29"/>ideo non per se est notionale, sicut 
+gene<lb break="no" ed="#Ba" n="30"/>rare, et hujusmodi. Unde terminum 
+sub<lb break="no" ed="#Ba" n="31"/>ntantialem ad standum pro persona 
+co<lb break="no" ed="#Ba" n="32"/>gere non potest: imo cum notet 
+alieta<lb break="no" ed="#Ba" n="33"/>tem, et omnis alietas quae simpliciter est
+<lb ed="#Ba" n="34"/>ahietas, est gratia forma, respiciet hunc
+<lb ed="#Ba" n="35"/>lorminum, Deus, gratia forme: et sic
+<lb ed="#Ba" n="36"/>locutio est falsa.
+</p>
+            <p xml:id="alalal-a32760-d1e386">
+               <lb ed="#Ba" n="37"/>Ad aliud dicendum, quod sunt 
+qui<lb break="no" ed="#Ba" n="38"/>dam actus uni soli convenientes in 
+sup<lb break="no" ed="#Ba" n="39"/>positis alicujus nature : et quando 
+ter<lb break="no" ed="#Ba" n="40"/>minus communis in natura illa supponit
+<lb ed="#Ba" n="41"/>verbis significantibus hujusmodi actum,
+<lb ed="#Ba" n="42"/>intelligitar quod gratia suppositi cui ille
+<lb ed="#Ba" n="43"/>actus convenit, supponit : ut cum dicitur,
+<lb ed="#Ba" n="44"/>Nous tonat, coruscat, apud Gentiles 
+in<lb break="no" ed="#Ba" n="45"/>tulligitur Jupiter : et talis actus est 
+gene<lb break="no" ed="#Ba" n="46"/>rare qui soli convenit Patri: et ideo Deus
+<lb ed="#Ba" n="47"/>appellat Patrem, cumdicitur, Deus genwit
+<lb ed="#Ba" n="48"/>Deum: et non restringitur ab ipso ver-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="49"/>bo, sed potius appellat hoc suppositum
+<lb ed="#Ba" n="50"/>cui soli convenit ille actus.
+</p>
+            <p xml:id="alalal-a32760-d1e421">
+               <lb ed="#Ba" n="51"/>Ap iw quod objicitur de solutione, 
+di<lb break="no" ed="#Ba" n="52"/>cendum quod quidam ita dixerunt, licet
+<lb ed="#Ba" n="53"/>improbabile sit: tamen ad argumentum
+<lb ed="#Ba" n="54"/>contra, solverunt quod licet ly alium
+<lb ed="#Ba" n="55"/>non habeat se in ratione communis ad
+<lb ed="#Ba" n="56"/>ly Dewm, tamen potest notare distinctio~
+<lb ed="#Ba" n="57"/>nem in persona, cui persone convenit
+<lb ed="#Ba" n="58"/>esse Deum : et ita appositive vel quasi
+<lb ed="#Ba" n="59"/>appositive construitur.
+</p>
+            <p xml:id="alalal-a32760-d1e443">
+               <lb ed="#Ba" n="60"/>Ap 1p quod objicitur de alia solutione,
+<lb ed="#Ba" n="61"/>dicendum quod sily aliwm 
+substantiva<lb break="no" ed="#Ba" n="62"/>tur, tunc subintelligitur participium
+<lb ed="#Ba" n="63"/>entem, ul sit sensus, genuit alium entem
+<lb ed="#Ba" n="64"/>Deum: et sic non necessario ly alium,
+<lb ed="#Ba" n="65"/>trahit numerum et genus a substantivo :
+<lb ed="#Ba" n="66"/>congrue enim dicitur, genuit alium 
+en<lb break="no" ed="#Ba" n="67"/>tem Deum, licet falso dicatur.
+</p>
+            <p xml:id="alalal-a32760-d1e464">
+               <lb ed="#Ba" n="68"/>Ad aliud dicendum, quod idem et 
+di<lb break="no" ed="#Ba" n="69"/>versum dividunt ens creatum: et idem
+<lb ed="#Ba" n="70"/>dicitur a quo non differt differentia, 
+di<lb break="no" ed="#Ba" n="71"/>versum autem diversum in essentia :
+<lb ed="#Ba" n="72"/>unde haecnon dividunt ens increatum
+<lb ed="#Ba" n="73"/>quod secundum suppositum est 
+distin<lb break="no" ed="#Ba" n="74"/>ctum, secundum essentiam autem 
+indi<lb break="no" ed="#Ba" n="75"/>stinctum. ~
+</p>
+            <p xml:id="alalal-a32760-d1e484">
+               <lb ed="#Ba" n="76"/>Ad aliud dicendum, quod iste non
+<lb ed="#Ba" n="77"/>sunt contradictorie, genuit se, genuit non
+<lb ed="#Ba" n="78"/>se : sed non genuit se, et hac est vera:
+<lb ed="#Ba" n="79"/>sed ex illa non sequitur: ergo genuit
+<lb ed="#Ba" n="80"/>alium : quiailla qua dicitur, non genuit
+<lb ed="#Ba" n="81"/>se, vera est: sed non potest inferri : ergo
+<lb ed="#Ba" n="82"/>genuit non se: quia ille non aequivalent,
+<lb ed="#Ba" n="83"/>ut patet ex pradictis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

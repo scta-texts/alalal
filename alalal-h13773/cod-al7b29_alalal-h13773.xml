@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="541"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h13773"><!-- l4d16a2 -->
+            <head xml:id="alalal-h13773-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-h13773-Hd1e101" type="question-title">An istud sacramentum habeat partes, et
+quae sint ille partes ?</head>
+            <p xml:id="alalal-h13773-d1e104">
+               <lb ed="#Be" n="79"/>ARTICULUS II.
+<lb ed="#Be" n="80"/>An istud sacramentum habeat partes, et
+<lb ed="#Be" n="81"/>quae sint ille partes ?
+</p>
+            <p xml:id="alalal-h13773-d1e113">
+               <lb ed="#Be" n="82"/>Secundo queritur, Utrum istud 
+sacra<lb break="no" ed="#Be" n="83"/>mentum habeat partes, vel non: et quae
+<lb ed="#Be" n="84"/>sint partes ille ?
+</p>
+            <p xml:id="alalal-h13773-d1e122">
+               <lb ed="#Be" n="85"/>Licet enim in parte hoc jam habitum
+<lb ed="#Be" n="86"/>sit, tamen subtilius est adhuc 
+distinguen<lb break="no" ed="#Be" n="87"/>dum.
+</p>
+            <p xml:id="alalal-h13773-d1e132">
+               <lb ed="#Be" n="88"/>Videtur autem non habere partes: quia
+<lb ed="#Be" n="89"/>4. Dicit Ambrosius, quod <quote xml:id="alalal-h13773-Qd1e138"> 
+sacramen<lb break="no" ed="#Be" n="90"/>tum omne simpliciter est : </quote> simpliciter
+<pb ed="#Be" n="542"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>autem est, quod non habet partes : ergo
+<lb ed="#Be" n="2"/>sacramentum istud non habet partes.
+</p>
+            <p xml:id="alalal-h13773-d1e153">
+               <lb ed="#Be" n="3"/>2. Item, Medicina quaedam ordinatur
+<lb ed="#Be" n="4"/>contra morbum originalem: et constat,
+<lb ed="#Be" n="5"/>quod non habet partes nisi formam et
+<lb ed="#Be" n="6"/>materiam, de quibus partibus non 
+loqui<lb break="no" ed="#Be" n="7"/>mur hic, quia ille sunt in omni 
+sacra<lb break="no" ed="#Be" n="8"/>mento : cum igitur alia medicina sit 
+con<lb break="no" ed="#Be" n="9"/>tra morbum actualem, quae poenitentia
+<lb ed="#Be" n="10"/>dicitur, videtur quod partes habere non
+<lb ed="#Be" n="11"/>debeat, sicut nec illa.
+</p>
+            <p xml:id="alalal-h13773-d1e175">
+               <lb ed="#Be" n="12"/>3. Item, Unius morbi una videtur esse
+<lb ed="#Be" n="13"/>medicina per contrarium : sed actuale
+<lb ed="#Be" n="14"/>est unus morbus : ergo unicam debet 
+ha<lb break="no" ed="#Be" n="15"/>bere medicinam per contrarium : non 
+er<lb break="no" ed="#Be" n="16"/>go diversificatam in partibus.
+</p>
+            <p xml:id="alalal-h13773-d1e188">
+               <lb ed="#Be" n="17"/>4. Item, Si habet partes: aut hoc 
+con<lb break="no" ed="#Be" n="18"/>venit, quia per se non sufficit ad 
+expul<lb break="no" ed="#Be" n="19"/>sionem peccati, aut ex alia causa. Si pri~
+<lb ed="#Be" n="20"/>mo modo: tunc gratia informans 
+dolo<lb break="no" ed="#Be" n="21"/>rem esset imperfecta in actu suo, quod
+<lb ed="#Be" n="22"/>absurdum est : ergo videtur, quod hec
+<lb ed="#Be" n="23"/>non sit causa quare partes habere debeat.
+<lb ed="#Be" n="24"/>Si secundo modo. Contra: Cuicumque
+<lb ed="#Be" n="25"/>natura dat partes ad determinatum actum
+<lb ed="#Be" n="26"/>pertinentes, ipsa dat illas propter 
+perfe<lb break="no" ed="#Be" n="27"/>ctionem in agere. Propatio: quia aliter
+<lb ed="#Be" n="28"/>natura abundaret in superfluis : ergo 
+mul<lb break="no" ed="#Be" n="29"/>to minus hoc est in operibus gratia quae
+<lb ed="#Be" n="30"/>ex majori diligentia sunt ordinata : ergo
+<lb ed="#Be" n="31"/>totum est imperfectum sine illisin agere :
+<lb ed="#Be" n="32"/>et hoc habitum est pro inconvenienti :
+<lb ed="#Be" n="33"/>quia forma totius est gratia.
+</p>
+            <p xml:id="alalal-h13773-d1e227">
+               <lb ed="#Be" n="34"/>Utreriws queritur hic, Cujusmodi sunt
+<lb ed="#Be" n="35"/>partes ille quae sunt poenitentiae ?
+</p>
+            <p xml:id="alalal-h13773-d1e234">
+               <lb ed="#Be" n="36"/>1. Omnes enim partes reducuntur ad
+<lb ed="#Be" n="37"/>integrales, vel subjectivas : sicut partes
+<lb ed="#Be" n="38"/>totius in quantitate adintegralem, et 
+par<lb break="no" ed="#Be" n="39"/>tes totius in modo ad universalem sive
+<lb ed="#Be" n="40"/>subjectivam. Aut igitur sunt integrales,
+<lb ed="#Be" n="41"/>aut subjective. Si integrales: ergo non
+<lb ed="#Be" n="42"/>accipiunt predicationem totius, quod 
+fal<lb break="no" ed="#Be" n="43"/>sum est. Si autem subjective: ergo quae
+<lb ed="#Be" n="44"/>est forma unius essentialis, est forma 
+al<lb break="no" ed="#Be" n="45"/>terius : ergo quae est forma confessionis,
+<lb ed="#Be" n="46"/>ipsa est forma contritionis realis, quod
+<lb ed="#Be" n="47"/>falsum est.
+</p>
+            <p xml:id="alalal-h13773-d1e264">
+               <lb ed="#Be" n="48"/>2. Item. Si essent tales partes, opor-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="49"/>teret quod ipsarum esset unum nomen
+<lb ed="#Be" n="50"/>et diffinitio una, quod iterum falsum est.
+</p>
+            <p xml:id="alalal-h13773-d1e275">
+               <lb ed="#Be" n="51"/>Si dicas, quod aliter est de Partibys
+<lb ed="#Be" n="52"/>homogeniis et toto, et aliter de heteroge..
+<lb ed="#Be" n="53"/>niis, sicut dicit Aristoteles in quinto 
+pri<lb break="no" ed="#Be" n="54"/>me Philosophie, ubi distinguit modos
+<lb ed="#Be" n="55"/>totius : quia partes totius homogenij
+<lb ed="#Be" n="56"/>licet sint materiales, tamen quia 
+pradj<lb break="no" ed="#Be" n="57"/>catur de eis totum, sequuntur naturam
+<lb ed="#Be" n="58"/>totius universalis : unde dicitur, omnis
+<lb ed="#Be" n="59"/>aqua est : et non dicitur, tota aqua, nis;
+<lb ed="#Be" n="60"/>per metaphoram. Partes autem in quibus
+<lb ed="#Be" n="61"/>positio facit differentiam, eo quod sunt
+<lb ed="#Be" n="62"/>heterogenie, sequuntur naturam totius
+<lb ed="#Be" n="63"/>integri : et ideo dicitur totus lectus, et
+<lb ed="#Be" n="64"/>non omnis lectus, vel omnis homo, ut
+<lb ed="#Be" n="65"/>distribuat pro partibus integrantibus : et
+<lb ed="#Be" n="66"/>sic licet sint iste partes integrantes 
+pote<lb break="no" ed="#Be" n="67"/>statem poenitenti#, tamen recipiunt 
+pre<lb break="no" ed="#Be" n="68"/>dicationem totius, propter homogenias
+<lb ed="#Be" n="69"/>esse partes illas. Conrra : Omne totum
+<lb ed="#Be" n="70"/>homogenium habet partes non diversas
+<lb ed="#Be" n="71"/>in forma partium, ut aqua, oleum, et 
+ca<lb break="no" ed="#Be" n="72"/>tera liquida: poenitentia habet partes 
+di<lb break="no" ed="#Be" n="73"/>versas in forma partium : ergo non est
+<lb ed="#Be" n="74"/>totum homogenium ad illas.
+</p>
+            <p xml:id="alalal-h13773-d1e330">
+               <lb ed="#Be" n="75"/>Soxtutio. Dicendum sine prajudicio
+<lb ed="#Be" n="76"/>multorum, hic multa et diversa et pene
+<lb ed="#Be" n="77"/>adversa dicentium, quod poenitentia 
+ha<lb break="no" ed="#Be" n="78"/>bet partes, et ille partes sunt potestative.
+<lb ed="#Be" n="79"/>Peenitentia enim est quoddam operans ad
+<lb ed="#Be" n="80"/>morbi actualis destructionem : morbus
+<lb ed="#Be" n="81"/>autem actualis est non tantum culpa, sed
+<lb ed="#Be" n="82"/>etiam reatus sequens culpam, et est 
+dif<lb break="no" ed="#Be" n="83"/>ficultas ad bonum ex consuetudine et dis-.
+<lb ed="#Be" n="84"/>positionibus peccati generata. Reatus 
+au<lb break="no" ed="#Be" n="85"/>tem consequens triplex est : unus enim
+<lb ed="#Be" n="86"/>est conjunctus culpe, qui est debitum
+<lb ed="#Be" n="87"/>pene aeterne : et illo soluto manet adhuc
+<lb ed="#Be" n="88"/>reatus et debitum pene purgatorie non
+<lb ed="#Be" n="89"/>proportionate viribus pceenitentis. Soluto
+<lb ed="#Be" n="90"/>illo, iterum manet reatus et debitum 
+pe<lb break="no" ed="#Be" n="91"/>nx expiative arbitrariea secundum culp®
+<lb ed="#Be" n="92"/>modum, et vires poenitentis. Soluto 
+au<lb break="no" ed="#Be" n="93"/>tem illo, non manet reatus, sed potest
+<lb ed="#Be" n="94"/>adhuc manere difficultas bene agendi. Ad
+<lb ed="#Be" n="95"/>totum autem peccati morbum hunc 
+de<lb break="no" ed="#Be" n="96"/>jendum dico, quod requiruntur tria, scili-
+</p>
+            <p xml:id="alalal-h13773-d1e380">
+               <pb ed="#Be" n="543"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>cet contritio delens primum, confessio
+<lb ed="#Be" n="2"/>delens secundum, et satisfactio delens 
+ter<lb break="no" ed="#Be" n="3"/>tiam : difficultas autem tollitur boni 
+con<lb break="no" ed="#Be" n="4"/>suetudine in omnibus his. Et sic patet,
+<lb ed="#Be" n="5"/>quod potestas poenitentiae perficitur in his
+<lb ed="#Be" n="6"/>tribus, et sine his tribus non est perfecta.
+</p>
+            <p xml:id="alalal-h13773-d1e400">
+               <lb ed="#Be" n="7"/>Av ip autem quod primo objicitur, 
+di<lb break="no" ed="#Be" n="8"/>cendum quod de illa auctoritate 
+dubita<lb break="no" ed="#Be" n="9"/>tur : quia in libro illo quesita est, et non
+<lb ed="#Be" n="10"/>inventa. Si autem concedatur, dicendum
+<lb ed="#Be" n="11"/>quod sacramentum dicitur simpliciter 
+ra<lb break="no" ed="#Be" n="12"/>tione efflectus simplicis, et non ex eo quod
+<lb ed="#Be" n="13"/>non habet partes : hoc modo quo 
+simpli<lb break="no" ed="#Be" n="14"/>citer dicitur unum unius: quia 
+simplici<lb break="no" ed="#Be" n="15"/>ter dicitur multis modis, sicut de quatuor
+<lb ed="#Be" n="16"/>coevis in alia Summa, in questione de
+<lb ed="#Be" n="17"/>celo est dictum ?!, ,
+</p>
+            <p xml:id="alalal-h13773-d1e426">
+               <lb ed="#Be" n="18"/>Ad aliud dicendum, quod baptismus
+<lb ed="#Be" n="19"/>non habet hujusmodi partes potestativas,
+<lb ed="#Be" n="20"/>quia non ordinatur contra totum morbum
+<lb ed="#Be" n="21"/>originis, sed partem, scilicet culpam.
+<lb ed="#Be" n="22"/>Pena autem concupiscentiae manet ad
+<lb ed="#Be" n="23"/>exercilium in pugna. Poenitentia autem
+<lb ed="#Be" n="24"/>ordinatur contra actualem morbum 
+to<lb break="no" ed="#Be" n="25"/>tum, secundum quod actualis est: unde
+<lb ed="#Be" n="26"/>sicut ille in effectibus diversificatur, ita
+<lb ed="#Be" n="27"/>variantur partes poenitentia, secundum
+<lb ed="#Be" n="28"/>quod est sacramentum contra morbum
+<lb ed="#Be" n="29"/>illum ordinatum.
+</p>
+            <p xml:id="alalal-h13773-d1e456">
+               <lb ed="#Be" n="30"/>Ad aliud dicendum, quod unius morbi
+<lb ed="#Be" n="31"/>secundum quod est unus, una est 
+medi<lb break="no" ed="#Be" n="32"/>cina : sed sicut diversificantur partes
+<lb ed="#Be" n="33"/>morbi, ita etiam variatur medicina 
+ordi<lb break="no" ed="#Be" n="34"/>nata contra ipsum, ut prius habitum est.
+</p>
+            <p xml:id="alalal-h13773-d1e469">
+               <lb ed="#Be" n="35"/>Ad aliud dicendum, quod hoc non
+<lb ed="#Be" n="36"/>contingit ex imperfectione gratiae, sed
+<lb ed="#Be" n="37"/>potius propter ordinem perfectionis : quia
+<lb ed="#Be" n="38"/>aliter ordinate non possent destrui 
+se<lb break="no" ed="#Be" n="39"/>quele peccati in nobis: quia ita etiam
+<lb ed="#Be" n="40"/>posset objici, quod dolor superfluus esset,
+<lb ed="#Be" n="41"/>eo quod gratia ad totum sufficeret: non
+<lb ed="#Be" n="42"/>enim datur sufficientia in natura vel 
+gra<lb break="no" ed="#Be" n="43"/>tia nisi secundum quod ordinatius fieri
+<lb ed="#Be" n="44"/>potest secundum congruentiam illius 
+na<lb break="no" ed="#Be" n="45"/>ture quae perfici debet: sicut homini
+<lb ed="#Be" n="46"/>non datur vis ambulativa sine pedibus.
+<lb ed="#Be" n="47"/>Ita morbo actuali non datur destructivum
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="48"/>sine actu nostro. et diversificatur ei 
+de<lb break="no" ed="#Be" n="49"/>structivum secundumdi versitatem morbi.
+</p>
+            <p xml:id="alalal-h13773-d1e506">
+               <lb ed="#Be" n="50"/>Ad id quod ulterius queritur, jam 
+pa<lb break="no" ed="#Be" n="51"/>tet responsio : quia dicimus esse partes
+<lb ed="#Be" n="52"/>potestativas : et si quis subtiliter 
+consi<lb break="no" ed="#Be" n="53"/>deret, sunt talis totius quod medium est
+<lb ed="#Be" n="54"/>inter homogenium et heterogenium. Nec
+<lb ed="#Be" n="55"/>hoc est absurdum ponere : quia 
+Philoso<lb break="no" ed="#Be" n="56"/>phus ponit hoc in libro V prime 
+Phi<lb break="no" ed="#Be" n="57"/>losophiae dicens, quod in totis in quibus
+<lb ed="#Be" n="58"/>diversitatem transpositio secundum 
+ali<lb break="no" ed="#Be" n="59"/>quid facit, et non facit secundum 
+ali<lb break="no" ed="#Be" n="60"/>quid, recipiunt totam et omnis, sicut 
+nu<lb break="no" ed="#Be" n="61"/>merus : secundum: enim quod numerus
+<lb ed="#Be" n="62"/>est multitudo numerata per unum, 
+dici<lb break="no" ed="#Be" n="63"/>tur omnis numerus : secundum autem
+<lb ed="#Be" n="64"/>quod numeratur binario aut ternario in
+<lb ed="#Be" n="65"/>quibus ordo facit diversitatem, dicitur
+<lb ed="#Be" n="66"/>totus numerus : et ideo medium est inter
+<lb ed="#Be" n="67"/>totum homogenium et heterogenium. Et
+<lb ed="#Be" n="68"/>ita hic dicendum videtur : quia iste 
+par<lb break="no" ed="#Be" n="69"/>tes sunt, quae quidem recipiunt 
+predica<lb break="no" ed="#Be" n="70"/>tionem totius, secundum quod dolor 
+in<lb break="no" ed="#Be" n="71"/>formatus gratia agit in omnibus eis : sed
+<lb ed="#Be" n="72"/>secundum relationem ad effectuum. 
+di<lb break="no" ed="#Be" n="73"/>versitatem non recipiunt, scilicet nomen
+<lb ed="#Be" n="74"/>tottus, sed potius omnis : quia sic nec
+<lb ed="#Be" n="75"/>tota poenitentia est in contritione, nec
+<lb ed="#Be" n="76"/>tota in confessione, nec tota in 
+satisfa<lb break="no" ed="#Be" n="77"/>ctione, sed in omnibus simul.
+</p>
+            <p xml:id="alalal-h13773-d1e569">
+               <lb ed="#Be" n="78"/>Et per hoc patet solutio ad omnia 
+ob<lb break="no" ed="#Be" n="79"/>jecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

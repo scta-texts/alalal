@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 16</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 16</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="711"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f38891"><!-- l3d37a16 -->
+            <head xml:id="alalal-f38891-Hd1e99">Articulus 16</head>
+            <head xml:id="alalal-f38891-Hd1e101" type="question-title">An licuit filiis Israel spoliare
+AEgyptios ?</head>
+            <p xml:id="alalal-f38891-d1e104">
+               <lb ed="Bd" n="56"/>ARTICULUS XVI.
+<lb ed="Bd" n="57"/>An licuit filiis Israel spoliare
+<lb ed="Bd" n="58"/>AEgyptios ?
+</p>
+            <p xml:id="alalal-f38891-d1e113">
+               <lb ed="Bd" n="59"/>Deinde quaeritur de hoc quod. dicit,
+<lb ed="Bd" n="60"/>ibi, C, § &amp; : <quote xml:id="alalal-f38891-Qd1e119"> Si vero quaeritur de filiis
+<lb ed="Bd" n="61"/>Israel, etc. </quote>
+            </p>
+            <p xml:id="alalal-f38891-d1e125">
+               <lb ed="Bd" n="62"/>Cum enim sit de lege naturali non 
+ra<lb break="no" ed="Bd" n="63"/>pinam vel furtum facere, videtur 
+Domi<lb break="no" ed="Bd" n="64"/>nus hoc non debere mutare : sed de hoc
+<lb ed="Bd" n="65"/>erit infra quastio super ultimam 
+distin<lb break="no" ed="Bd" n="66"/>ctionem de jure naturali.
+</p>
+            <p xml:id="alalal-f38891-d1e139">
+               <lb ed="Bd" n="67"/>Hic avrem dicendum est, quod hee
+<lb ed="Bd" n="68"/>causa fuit : quia ab Agyptiis spoliati
+<lb ed="Bd" n="69"/>fuerunt filii Israel, et laborem eorum
+<lb ed="Bd" n="70"/>gratis habuerunt : et ideo judicatum est
+<lb ed="Bd" n="71"/>a Domino qui habuit potestatem, ut hoc
+<lb ed="Bd" n="72"/>modo recompensaretur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

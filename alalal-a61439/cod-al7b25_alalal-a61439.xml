@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="308"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a61439"><!-- l1d10a1 -->
+            <head xml:id="alalal-a61439-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-a61439-Hd1e101" type="question-title">Quomodo differant nomina quae 
+attribuuntur Spiritui sancto, amor, dilectio,
+charitas ?</head>
+            <p xml:id="alalal-a61439-d1e104">
+               <lb ed="#Ba" n="11"/>ARTICULUS 1.
+<lb ed="#Ba" n="12"/>Quomodo differant nomina quae 
+attribu<lb break="no" ed="#Ba" n="13"/>untur Spiritui sancto, amor, dilectio,
+<lb ed="#Ba" n="14"/>charitas ?
+</p>
+            <p xml:id="alalal-a61439-d1e115">
+               <lb ed="#Ba" n="15"/>Incidit autem questio primo de hoc
+<lb ed="#Ba" n="16"/>quod dicit : <quote xml:id="alalal-a61439-Qd1e121"> Spiritus sanctus amor est,
+<lb ed="#Ba" n="17"/>sive charitas, sive dilectio Patris et 
+Fi<lb break="no" ed="#Ba" n="18"/>ii. </quote> Et queruntur duo : quorum 
+pri<lb break="no" ed="#Ba" n="19"/>mum est de differentia horum nominum
+<lb ed="#Ba" n="20"/>que tangit. Et secundo, utrum Spiritus
+<lb ed="#Ba" n="21"/>sanctus ut amor procedat ?
+</p>
+            <p xml:id="alalal-a61439-d1e136">
+               <lb ed="#Ba" n="22"/>1. Videtur autem non esse differentia :
+<lb ed="#Ba" n="23"/>quia Augustinus dicit super illud 
+Joan<lb break="no" ed="#Ba" n="24"/>nis, xx1, 43, 16 et 17: Simon Joannis,
+<lb ed="#Ba" n="25"/>diligis me? et subjungit in fine dicens,
+<lb ed="#Ba" n="26"/>Amas me? quod amor et dilectio sunt
+<lb ed="#Ba" n="27"/>idem : ergo videtur quod non differant.
+</p>
+            <p xml:id="alalal-a61439-d1e153">
+               <lb ed="#Ba" n="28"/>2. Item, Dionysius in libro de Divinis
+<lb ed="#Ba" n="29"/>nominibus : Mihi videntur theologi 
+com<lb break="no" ed="#Ba" n="30"/>mune quidem ducere dilectionis et 
+amo<lb break="no" ed="#Ba" n="31"/>ris nomen '.
+</p>
+            <p xml:id="alalal-a61439-d1e164">
+               <lb ed="#Ba" n="32"/>Item, ibidem, reprehendit Dionysius
+<lb ed="#Ba" n="33"/>distinguentes inter dilectionem et 
+amo<lb break="no" ed="#Ba" n="34"/>rem, dicens quod faciunt vim levibus
+<lb ed="#Ba" n="35"/>sonis, quasi nos non possimus quater
+<lb ed="#Ba" n="36"/>unum per bis duo, et patriam per natale
+<lb ed="#Ba" n="37"/>solum significare : ergo videtur, quod
+<lb ed="#Ba" n="38"/>amor et dilectio et charitas sunt idem.
+</p>
+            <p xml:id="alalal-a61439-d1e182">
+               <lb ed="#Ba" n="39"/>SED CONTRA :
+<lb ed="#Ba" n="40"/>Isidorus dicit amorem esse rationalium
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="41"/>et irrationalium, dilectionem autem 
+ra<lb break="no" ed="#Ba" n="42"/>tionalium tantum : ergo videtur, quod
+<lb ed="#Ba" n="43"/>non sint idem.
+</p>
+            <p xml:id="alalal-a61439-d1e198">
+               <lb ed="#Ba" n="44"/>2. em, Nos dicimus nos multa amare
+<lb ed="#Ba" n="45"/>que non amamus ex charitate: ergo
+<lb ed="#Ba" n="46"/>amor et charitas non sunt idem.
+</p>
+            <p xml:id="alalal-a61439-d1e207">
+               <lb ed="#Ba" n="47"/>3. Item, Etiam in turpi amore bene
+<lb ed="#Ba" n="48"/>inducimus nomen amoris, sed non nomen
+<lb ed="#Ba" n="49"/>charitatis : ergo ista non sunt idem. 
+Si<lb break="no" ed="#Ba" n="50"/>militer nos ponimus ordinem in his que
+<lb ed="#Ba" n="51"/>excharitate diligimus : in dilectione 
+au<lb break="no" ed="#Ba" n="52"/>tem plura sunt : quia diligimus cibum,
+<lb ed="#Ba" n="53"/>potum, et hujusmodi : non tamen 
+chari<lb break="no" ed="#Ba" n="54"/>tatem habemus ad illa : ergo videtur in
+<lb ed="#Ba" n="55"/>eis esse differentia.
+</p>
+            <p xml:id="alalal-a61439-d1e229">
+               <lb ed="#Ba" n="56"/>Solutio. Dicendum, quod amor et 
+di<lb break="no" ed="#Ba" n="57"/>leclio et charitas in gratuitis donis 
+no<lb break="no" ed="#Ba" n="58"/>minant idem, secundum diversas tamen
+<lb ed="#Ba" n="59"/>considerationes: tamen in se considerata
+<lb ed="#Ba" n="60"/>se habent sicut superius et inferius : si
+<lb ed="#Ba" n="61"/>enim ista ponantur circa gratuitum 
+amo<lb break="no" ed="#Ba" n="62"/>rem tantum, tunc nominant eumdem 
+ha<lb break="no" ed="#Ba" n="63"/>bitum secundum diversam 
+consideratio<lb break="no" ed="#Ba" n="64"/>nem sui actus. Amor enim dicit 
+adhe<lb break="no" ed="#Ba" n="65"/>sionem affectus ipsi bono quod amatur.
+<lb ed="#Ba" n="66"/>Dilectio autem dicit eumdem affectum,
+<lb ed="#Ba" n="67"/>secundum quod est ex electione rationis
+<lb ed="#Ba" n="68"/>praeligentis illud de bonis aliis que
+<lb ed="#Ba" n="69"/>amantur, sicut dicitur in Canticis, v, 10:
+<lb ed="#Ba" n="70"/>Dilectus meus electus ex millibus, Sed
+<lb ed="#Ba" n="71"/>charitas nominat eumdem affectum, 
+se<lb break="no" ed="#Ba" n="72"/>cundum quod sub inestimabili pretio
+<lb ed="#Ba" n="73"/>ponit amatum : charum enim dicitur
+<lb ed="#Ba" n="74"/>quod magni pretit estimatur, sicut 
+habe<lb break="no" ed="#Ba" n="75"/>tur in Cantic. vin, 7: Si dederit home
+<lb ed="#Ba" n="76"/>omnem substantiam domus sux pro 
+di<lb break="no" ed="#Ba" n="77"/>lectione, quasi nihil despiciet eam. Si
+<lb ed="#Ba" n="78"/>autem ista tria non circa gratuitum 
+amo<lb break="no" ed="#Ba" n="79"/>rem considerentur, sed in se, tunc 
+diffe<lb break="no" ed="#Ba" n="80"/>runt sicut genus et species. Omnis enim
+<lb ed="#Ba" n="81"/>dilectio est amor, sed non convertitur :
+<lb ed="#Ba" n="82"/>et omnis charitas est dilectio et amor,
+<lb ed="#Ba" n="83"/>sed non convertitur : quia tunc amor est
+<lb ed="#Ba" n="84"/>in sensibiliter amatis et rationabiliter, sed
+<lb ed="#Ba" n="85"/>dilectio est in rationabiliter amatis 
+tan<lb break="no" ed="#Ba" n="86"/>tum, charitas autem in gratuitis tantum.
+</p>
+            <p xml:id="alalal-a61439-d1e300">
+               <pb ed="#Ba" n="309"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Ad hoc autem quod primo objicitur,
+<lb ed="#Ba" n="2"/>dicendum quod Dominus ibi ter quesivit
+<lb ed="#Ba" n="3"/>ut acciperet confessionem Petri, non de
+<lb ed="#Ba" n="4"/>amore, sed de amoris circumstantiis, 
+se<lb break="no" ed="#Ba" n="5"/>cundum beatum Bernardum, quae sunt
+<lb ed="#Ba" n="6"/>diligere dulciter quod est amoris in 
+quan<lb break="no" ed="#Ba" n="7"/>tum est amor, et diligere sapienter quod
+<lb ed="#Ba" n="8"/>est dilectionis in quantum est dilectio,
+<lb ed="#Ba" n="9"/>et diligere ferventer quod est charitatis
+<lb ed="#Ba" n="10"/>in quantum est charitas: et non intendit
+<lb ed="#Ba" n="11"/>ibidicere Augustinus quod ista non 
+diffe<lb break="no" ed="#Ba" n="12"/>rant ratione, sed quod non differant re.
+</p>
+            <p xml:id="alalal-a61439-d1e333">
+               <lb ed="#Ba" n="13"/>Ad id quod objicitur de Dionysio, 
+di<lb break="no" ed="#Ba" n="14"/>cendum quod Dionysius non reprehendit
+<lb ed="#Ba" n="15"/>distinguentes in ratione nominum : sed
+<lb ed="#Ba" n="16"/>potius loquitur contra quosdam qui 
+di<lb break="no" ed="#Ba" n="17"/>xerunt, quod amor non acciperetur in
+<lb ed="#Ba" n="18"/>bona significatione, et ideo non deberet
+<lb ed="#Ba" n="19"/>poni in divinis : contra quos adducit
+<lb ed="#Ba" n="20"/>etiam illud Sapientie, vin, 2: Amator
+<lb ed="#Ba" n="21"/>factus sum forme illius. Et illud quod
+<lb ed="#Ba" n="22"/>dixit divus Ignatius martyr de Domino
+<lb ed="#Ba" n="23"/>Jesu Christo : <quote xml:id="alalal-a61439-Qd1e359"> Meus amor crucifixus
+<lb ed="#Ba" n="24"/>est. </quote> Unde idem nominat amor, quod
+<lb ed="#Ba" n="25"/>dilectio, licet sub alia nominis ratione.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

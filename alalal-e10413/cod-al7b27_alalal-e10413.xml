@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="652"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e10413"><!-- l2d42a1 -->
+            <head xml:id="alalal-e10413-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-e10413-Hd1e101" type="question-title">Utrum voluntas interior cum actu 
+exteriori sit idem peccatum vel diversa ?</head>
+            <p xml:id="alalal-e10413-d1e104">
+               <lb ed="#Bc" n="14"/>ARTICULUS I.
+<lb ed="#Bc" n="15"/>Utrum voluntas interior cum actu 
+exte<lb break="no" ed="#Bc" n="16"/>riori sit idem peccatum vel diversa ?
+</p>
+            <p xml:id="alalal-e10413-d1e113">
+               <lb ed="#Bc" n="17"/>Incidit autem questio circa primam 
+par<lb break="no" ed="#Bc" n="18"/>tem, Utrum voluntas interior cum actu
+<lb ed="#Bc" n="19"/>exteriori sit idem peccatum vel diversa?
+</p>
+            <p xml:id="alalal-e10413-d1e122">
+               <lb ed="#Bc" n="20"/>Videtur autem, quod diversa :
+<lb ed="#Bc" n="21"/>1. Per tres rationes, quas Magister 
+po<lb break="no" ed="#Bc" n="22"/>nit in Littera, et solvit : quarum prima
+<lb ed="#Bc" n="23"/>est hec, Voluntas et actus aut sunt 
+plu<lb break="no" ed="#Bc" n="24"/>ra peccata, aut sunt non plura peccata.
+<lb ed="#Bc" n="25"/>Si sunt plura peccata, habeo propositum :
+<lb ed="#Bc" n="26"/>sed plura peccata non sunt unum 
+pecca<lb break="no" ed="#Bc" n="27"/>tum :ergo voluntas et actus exterior non
+<lb ed="#Bc" n="28"/>sunt peccatum. Si autem non sunt plura
+<lb ed="#Bc" n="29"/>peccata : aut ergo neutrum est peccatum,
+<lb ed="#Bc" n="30"/>aut alterum est non peccatum : quorum
+<lb ed="#Bc" n="31"/>utrumque falsum est : ergo relinquitur,
+<lb ed="#Bc" n="32"/>quod sunt peccata plura.
+</p>
+            <p xml:id="alalal-e10413-d1e154">
+               <lb ed="#Bc" n="33"/>2. Secunda est haec : Pluribus quorum
+<lb ed="#Bc" n="34"/>alterum non est peccatum, non efficitur
+<lb ed="#Bc" n="35"/>aliquis magis reus, quam uno quod est
+<lb ed="#Bc" n="36"/>peccatum : ergo si voluntas et actus sunt
+<lb ed="#Bc" n="37"/>plura non peccata, illis non efficitur 
+ali<lb break="no" ed="#Bc" n="38"/>quis magis reus, quam voluntate sola :
+<lb ed="#Bc" n="39"/>hoc autem: falsum est : ergo actus est
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="40"/>peccatum additum voluntati : ergo duo
+<lb ed="#Bc" n="41"/>peccata sunt voluntas et actus.
+</p>
+            <p xml:id="alalal-e10413-d1e178">
+               <lb ed="#Bc" n="42"/>3. Tertia est hac : Unum peccatum
+<lb ed="#Bc" n="43"/>non prohibetur nisi mandato uno, et 
+plu<lb break="no" ed="#Bc" n="44"/>ra pluribus : sed voluntas et actus 
+pluri<lb break="no" ed="#Bc" n="45"/>bus mandatis prohibentur : ergo sunt
+<lb ed="#Bc" n="46"/>plura peccata.
+</p>
+            <p xml:id="alalal-e10413-d1e191">
+               <lb ed="#Bc" n="47"/>4. Ad idem potest objici per hunce 
+mo<lb break="no" ed="#Bc" n="48"/>dum : Sicut supra habitum est, voluntas
+<lb ed="#Bc" n="49"/>interior et opus exterius differunt sicut
+<lb ed="#Bc" n="50"/>arbor et fructus : sed arbor et fructus
+<lb ed="#Bc" n="51"/>sunt diversa mala in malis, et diversa
+<lb ed="#Bc" n="52"/>bona in bonis : ergo voluntas interior et
+<lb ed="#Bc" n="53"/>opus exterius sunt diversa peccata.
+</p>
+            <p xml:id="alalal-e10413-d1e209">
+               <lb ed="#Bc" n="54"/>5. Item, Super illud Psalmi txvin,
+<lb ed="#Bc" n="55"/>28 : <quote xml:id="alalal-e10413-Qd1e215">Appone iniguitatem super 
+iniquita<lb break="no" ed="#Bc" n="56"/>tem</quote>, etc., dicit Glossa, quod qui opus
+<lb ed="#Bc" n="57"/>voluntati addit, addit iniquiltatem 
+ini<lb break="no" ed="#Bc" n="58"/>quitati : non autem additur iniquitas 
+ini<lb break="no" ed="#Bc" n="59"/>quitati, nisi diversa diverse : ergo 
+vo<lb break="no" ed="#Bc" n="60"/>luntas et opus, etc.
+</p>
+            <p xml:id="alalal-e10413-d1e230">
+               <lb ed="#Bc" n="61"/>6. Item, Super illud Apostoli ad 
+Ro<lb break="no" ed="#Bc" n="62"/>man. 1, 29, <quote xml:id="alalal-e10413-Qd1e236">homicidiis</quote>, dicit Glossa :
+<lb ed="#Bc" n="63"/>
+               <quote xml:id="alalal-e10413-Qd1e240"> Pluraliter dicit, homicidiis : quia aliud
+<lb ed="#Bc" n="64"/>est homicidium voluntatis, et aliud 
+sim<lb break="no" ed="#Bc" n="65"/>pliciter operis. </quote> Ergo similiter est in aliis
+<lb ed="#Bc" n="66"/>peccatis : ergo voluntas, etc.
+</p>
+            <p xml:id="alalal-e10413-d1e251">
+               <lb ed="#Bc" n="67"/>7. Item, Voluntas interior et opus 
+ex<lb break="no" ed="#Bc" n="68"/>terius differunt sicut causa et effectus :
+<lb ed="#Bc" n="69"/>hac autem diversa sunt semper : ergo
+<lb ed="#Bc" n="70"/>sunt diversa peccata.
+</p>
+            <p xml:id="alalal-e10413-d1e263">
+               <lb ed="#Bc" n="71"/>8. Item, Universale predicatur de 
+plu<lb break="no" ed="#Bc" n="72"/>ribus inferioribus suis divisim, et postea
+<lb ed="#Bc" n="73"/>divisim cadit in pluralitatem, quando de
+<lb ed="#Bc" n="74"/>pluribus simul conjunctim predicatur,
+<lb ed="#Bc" n="75"/>ut si Socrates est homo, et Plato est 
+ho<lb break="no" ed="#Bc" n="76"/>mo: ergo Socrates et Plato sunt 
+homi<lb break="no" ed="#Bc" n="77"/>nes. Constat autem, quod voluntas 
+for<lb break="no" ed="#Bc" n="78"/>nicandi peccatum est, et fornicatio 
+pec<lb break="no" ed="#Bc" n="79"/>catum est: ergo voluntas fornicandi et
+<lb ed="#Bc" n="80"/>fornicatio sunt duo peccata : et idem est
+<lb ed="#Bc" n="81"/>de aliis : ergo in omnibus voluntas 
+inte<lb break="no" ed="#Bc" n="82"/>rior, ete.
+</p>
+            <p xml:id="alalal-e10413-d1e292">
+               <lb ed="#Bc" n="83"/>9. Item, In duobus per substantiam
+<lb ed="#Bc" n="84"/>differentibus numero, non est accidens ©
+<lb ed="#Bc" n="85"/>unum numero : sed voluntas et actus 
+in<lb break="no" ed="#Bc" n="86"/>terior differunt per substantiam : ergo
+<pb ed="#Bc" n="653"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>unum accidens numero non est in eis:
+<lb ed="#Bc" n="2"/>sed malitia et deformitas est accidens vel
+<lb ed="#Bc" n="3"/>per modum accidentis : ergo non est una
+<lb ed="#Bc" n="4"/>deformitas in voluntate interiori, et actu
+<lb ed="#Bc" n="5"/>exterior.
+</p>
+            <p xml:id="alalal-e10413-d1e318">
+               <lb ed="#Bc" n="6"/>10. Item, Quandoque non simul 
+tem<lb break="no" ed="#Bc" n="7"/>pore sunt voluntas interior et actus 
+exte<lb break="no" ed="#Bc" n="8"/>rior : et constat, quod utrumque est 
+pee<lb break="no" ed="#Bc" n="9"/>catum : ergo non sunt unum numero
+<lb ed="#Bc" n="10"/>peccatum : quia idem numero non 
+ante<lb break="no" ed="#Bc" n="11"/>cedit seipsum tempore.
+</p>
+            <p xml:id="alalal-e10413-d1e334">
+               <lb ed="#Bc" n="12"/>SED CONTRA:
+<lb ed="#Bc" n="13"/>1. Supra habitum est, quod primum
+<lb ed="#Bc" n="14"/>malum et causa mali voluntas est : ergo
+<lb ed="#Bc" n="15"/>actus non est malus per se, sed per aliud
+<lb ed="#Bc" n="16"/>sive per accidens : malum autem per se
+<lb ed="#Bc" n="17"/>et malum per accidens, non diversificant
+<lb ed="#Bc" n="18"/>substantiam secundum numerum:ergo 
+vo<lb break="no" ed="#Bc" n="19"/>luntas interior et actus exterior nonfaciunt
+<lb ed="#Bc" n="20"/>diversa peccata secundum numerum.
+</p>
+            <p xml:id="alalal-e10413-d1e356">
+               <lb ed="#Bc" n="21"/>2. Item, Unum numero peecatum est
+<lb ed="#Bc" n="22"/>pro quo una numero poenitentia 
+injungi<lb break="no" ed="#Bc" n="23"/>tur: sed pro voluntate et actu quando
+<lb ed="#Bc" n="24"/>conjuncta sunt, una numero poenitentia
+<lb ed="#Bc" n="25"/>injungitur : ergo unum numero
+<lb ed="#Bc" n="26"/>peccatum.
+</p>
+            <p xml:id="alalal-e10413-d1e372">
+               <lb ed="#Bc" n="27"/>3. Item, In operibus bonis unum 
+me<lb break="no" ed="#Bc" n="28"/>ritum tantum secundum numerum 
+con<lb break="no" ed="#Bc" n="29"/>slituunt voluntas interior et opus 
+exte<lb break="no" ed="#Bc" n="30"/>rius, quando conjunguntur : ergo cum
+<lb ed="#Bc" n="31"/>Deus non tam computet mala nostra
+<lb ed="#Bc" n="32"/>quam bona, erit in malo unum numero
+<lb ed="#Bc" n="33"/>peccatum, voluntas interior, etc.
+</p>
+            <p xml:id="alalal-e10413-d1e391">
+               <lb ed="#Bc" n="34"/>4. Item, Una est conversio et aversio
+<lb ed="#Bc" n="35"/>in utroque: quia quando voluntas et
+<lb ed="#Bc" n="36"/>opus conjuncta sunt, non convertitur
+<lb ed="#Bc" n="37"/>voluntas ad bonum commutabile, nisi
+<lb ed="#Bc" n="38"/>per opus : cum ergo unitas peccati sit ab
+<lb ed="#Bc" n="39"/>una conversione, et una conversione 
+vo<lb break="no" ed="#Bc" n="40"/>luntas interior et actus exterior
+<lb ed="#Bc" n="41"/>unum peccatum,
+</p>
+            <p xml:id="alalal-e10413-d1e411">
+               <lb ed="#Bc" n="42"/>5. Item, Unuim peccatum est ab una
+<lb ed="#Bc" n="43"/>privatione gratia et corruptione boni
+<lb ed="#Bc" n="44"/>naturalis : sed non alio privat opus quam
+<lb ed="#Bc" n="45"/>voluntas, quando conjuncta sunt: ergo
+<lb ed="#Bc" n="46"/>unum peccatum est voluntas cum opere
+<lb ed="#Bc" n="47"/>exteriori.
+</p>
+            <p xml:id="alalal-e10413-d1e427">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="48"/>6. Item, Una est poena utriusque : sed
+<lb ed="#Bc" n="49"/>plurium peccatorum non est una poena ;
+<lb ed="#Bc" n="50"/>ergo ipsa sunt unum peccatum.,
+</p>
+            <p xml:id="alalal-e10413-d1e438">
+               <lb ed="#Bc" n="51"/>Solutio. Dicendum, quod quando 
+vo<lb break="no" ed="#Bc" n="52"/>luntas et actus conjuncta sunt, ipsa sunt
+<lb ed="#Bc" n="53"/>unum peccatum duplex : quia id quod
+<lb ed="#Bc" n="54"/>est naturale in peccato, duplicatur in
+<lb ed="#Bc" n="55"/>peccato, scilicet substantia actus: quia
+<lb ed="#Bc" n="56"/>duo actus sunt interior et exterior. Id
+<lb ed="#Bc" n="57"/>autem quod est formale, scilicet 
+defor<lb break="no" ed="#Bc" n="58"/>mitas, est idem. In ratione enim forme
+<lb ed="#Bc" n="59"/>et finis est peccatum unum, quia unus
+<lb ed="#Bc" n="60"/>est finis utrique, et una aversio.
+</p>
+            <p xml:id="alalal-e10413-d1e462">
+               <lb ed="#Bc" n="61"/>Et per hoc patet solutio fere ad 
+to<lb break="no" ed="#Bc" n="62"/>tum.
+</p>
+            <p xml:id="alalal-e10413-d1e469">
+               <lb ed="#Bc" n="63"/>Ap primum dicendum, quod ista sunt
+<lb ed="#Bc" n="64"/>plura non peccata sed unum peccatum,
+<lb ed="#Bc" n="65"/>id est, unita in deformitate una. Eft sic
+</p>
+            <p xml:id="alalal-e10413-d1e479">
+               <lb ed="#Bc" n="66"/>patet, quod utrumque est peccatum : et —
+</p>
+            <p xml:id="alalal-e10413-d1e484">
+               <lb ed="#Bc" n="67"/>tamen non plura peccata : quia unum est
+<lb ed="#Bc" n="68"/>ibi propter alerum, sicut actus per 
+vo<lb break="no" ed="#Bc" n="69"/>luntatem : et unum ex altero, sicut ex
+<lb ed="#Bc" n="70"/>causa et ex voluntate : et unum in altero
+<lb ed="#Bc" n="71"/>conjunctum fini, sicut voluntas in aciu
+<lb ed="#Bc" n="72"/>exteriori.
+</p>
+            <p xml:id="alalal-e10413-d1e500">
+               <lb ed="#Bc" n="73"/>Ad aliud dicendum, quod non 
+effici<lb break="no" ed="#Bc" n="74"/>tur magis reus intensive, quando 
+volun<lb break="no" ed="#Bc" n="75"/>tas et actus sunt conjuncta : sed efficitur
+<lb ed="#Bc" n="76"/>pluribus reus materialiter, quia duplici
+<lb ed="#Bc" n="77"/>actu. Si autem precederet actum 
+volun<lb break="no" ed="#Bc" n="78"/>tas tempore, tune sequeretur 
+argumen<lb break="no" ed="#Bc" n="79"/>tum : quia tunc non solus actus exterior
+<lb ed="#Bc" n="80"/>sequitur voluntatem interiorem, sed
+<lb ed="#Bc" n="81"/>media voluntas cum actu exteriori 
+se<lb break="no" ed="#Bc" n="82"/>quitur voluntatem quae precessit, et hec
+<lb ed="#Bc" n="83"/>facit duo peccata.
+</p>
+            <p xml:id="alalal-e10413-d1e526">
+               <lb ed="#Bc" n="84"/>Ad aliud dicendum, quod haec est
+<lb ed="#Bc" n="85"/>falsa, quod prohibeatur duplici 
+prohibi<lb break="no" ed="#Bc" n="86"/>tione, quando conjuncta sunt: quia cum
+<lb ed="#Bc" n="87"/>dicitur, Non machaberis, ibi prohibetur
+<lb ed="#Bc" n="88"/>voluntas in opus progrediens. Cum 
+au<lb break="no" ed="#Bc" n="89"/>tem dicitur, Non concupisces, etc. , ibi
+<lb ed="#Bc" n="90"/>prohibetur voluntas in delectabili 
+cogita<lb break="no" ed="#Bc" n="91"/>tionis tantum requiescens. Sed tamen
+<lb ed="#Bc" n="92"/>Magister hoc tertium aliter solvit in 
+Lit<lb break="no" ed="#Bc" n="93"/>tera: sed non est curandum : quia ista
+<pb ed="#Bc" n="654"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>solutio magis est ad rem, sua autem
+<lb ed="#Bc" n="2"/>magis ad hominem.
+</p>
+            <p xml:id="alalal-e10413-d1e559">
+               <lb ed="#Bc" n="3"/>Ab atiup dicendum, quod differunt
+<lb ed="#Bc" n="4"/>materialiter, et in hoc habent 
+similitudi<lb break="no" ed="#Bc" n="5"/>nem cum arbore et fructu: sed non 
+si<lb break="no" ed="#Bc" n="6"/>milia sunt in multiplicatione forme,
+<lb ed="#Bc" n="7"/>quia multiplicatur in arbore et fructu. |
+</p>
+            <p xml:id="alalal-e10413-d1e572">
+               <lb ed="#Bc" n="8"/>AD Duo sequentia. dicendum, quod. hoc
+<lb ed="#Bc" n="9"/>aut intelligitur de diversitate materiali:
+<lb ed="#Bc" n="10"/>aut si intelligitur de diversitate formali,
+<lb ed="#Bc" n="11"/>tunc accipiendum est de voluntate divisa
+<lb ed="#Bc" n="12"/>ab opere secundum tempus.
+</p>
+            <p xml:id="alalal-e10413-d1e586">
+               <lb ed="#Bc" n="13"/>Ap Auiup dicendum, quod licet opus
+<lb ed="#Bc" n="14"/>exterius procedat a voluntate interiori
+<lb ed="#Bc" n="15"/>sicut a causa efficiente, tamen unitur ei
+<lb ed="#Bc" n="16"/>in fine, et per consequens in aversione
+<lb ed="#Bc" n="17"/>finem illum consequente quia non
+<lb ed="#Bc" n="18"/>avertitur nisi per hoc, quia bonum com -
+<lb ed="#Bc" n="19"/>mutabile sibi ponit in finem: et ideo
+<lb ed="#Bc" n="20"/>formaliter sunt unum peccatum.
+</p>
+            <p xml:id="alalal-e10413-d1e606">
+               <lb ed="#Bc" n="21"/>Ad aliud dicendum, quod hoc est 
+ve<lb break="no" ed="#Bc" n="22"/>rum, quando commune predicatur de
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="23"/>pluribus differentibus forma secundum
+<lb ed="#Bc" n="24"/>esse, licet non secundum rationem, ut
+<lb ed="#Bc" n="25"/>Socrates et Plato duas habent 
+humani<lb break="no" ed="#Bc" n="26"/>tates : sed sicut diximus prius, voluntas
+<lb ed="#Bc" n="27"/>interior et actus exterior non habent
+<lb ed="#Bc" n="28"/>nisiunam deformitatem secundum esse
+<lb ed="#Bc" n="29"/>peccati, in quantum est peccatum : ct
+<lb ed="#Bc" n="30"/>ideo non est simile.
+</p>
+            <p xml:id="alalal-e10413-d1e632">
+               <lb ed="#Bc" n="31"/>Ad aliud dicendum, quod in duobus
+<lb ed="#Bc" n="32"/>que omnino diversa sunt, verum est
+<lb ed="#Bc" n="33"/>quod objicit : sed voluntas et actus non
+<lb ed="#Bc" n="34"/>diversificantur omnino: quia uniuntur
+<lb ed="#Bc" n="35"/>in fine, et ab illo fine tota est 
+deformi<lb break="no" ed="#Bc" n="36"/>tas: quia (ut dicit Augustinus) omnis
+<lb ed="#Bc" n="37"/>humana perversitas est frui utendis, et
+<lb ed="#Bc" n="38"/>uti fruendis.
+</p>
+            <p xml:id="alalal-e10413-d1e652">
+               <lb ed="#Bc" n="39"/>Ad aliud dicendum, quod quando 
+di<lb break="no" ed="#Bc" n="40"/>visa sunt, et voluntas limitata est in se,
+<lb ed="#Bc" n="41"/>nec progreditur in opus, nec continuat
+<lb ed="#Bc" n="42"/>se ad opus : tunc bene conceditur, quod
+<lb ed="#Bc" n="43"/>sint diversa peccata, ut patet ex preha-.
+<lb ed="#Bc" n="44"/>bitis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

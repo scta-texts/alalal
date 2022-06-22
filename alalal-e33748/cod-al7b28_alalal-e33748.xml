@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="174"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e33748"><!-- l3d9a5 -->
+            <head xml:id="alalal-e33748-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-e33748-Hd1e101" type="question-title">Dulia quid sit?</head>
+            <p xml:id="alalal-e33748-d1e104">
+               <lb ed="Bd" n="82"/>ARTICULUS V.
+<lb ed="Bd" n="83"/>Dulia quid sit?
+</p>
+            <p xml:id="alalal-e33748-d1e111">
+               <lb ed="Bd" n="84"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="85"/>ibi, A, circa medium: <quote xml:id="alalal-e33748-Qd1e117"> Est enim 
+cujus<lb break="no" ed="Bd" n="86"/>dam modi dulia, etc. </quote>
+            </p>
+            <p xml:id="alalal-e33748-d1e123">
+               <pb ed="#Bd" n="175"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Hic enim quaeritur, Quid sit dulia, et
+<lb ed="Bd" n="2"/>utrum una et eadem virtus sit cum 
+la<lb break="no" ed="Bd" n="3"/>tria, et cui debetur?
+</p>
+            <p xml:id="alalal-e33748-d1e137">
+               <lb ed="Bd" n="4"/>Ex superius autem inducta auctoritate
+<lb ed="Bd" n="5"/>ex primo de Trinitate et ex Littera hic
+<lb ed="Bd" n="6"/>trahitur diffinitio quam dant Magistri,
+<lb ed="Bd" n="7"/>quod <quote xml:id="alalal-e33748-Qd1e147"> dulia est honor vel servitus vel
+<lb ed="Bd" n="8"/>cultus creature debitus. </quote>
+            </p>
+            <p xml:id="alalal-e33748-d1e153">
+               <lb ed="Bd" n="9"/>Videtur autem, quod creature nullus
+<lb ed="Bd" n="10"/>debeatur honor ex quo cecidit homo, nisi
+<lb ed="Bd" n="11"/>forte Angelis et Sanctis : quia
+</p>
+            <p xml:id="alalal-e33748-d1e162">
+               <lb ed="Bd" n="12"/>1. Ita dicit Psalmus xtvin, 13, 21:
+<lb ed="Bd" n="13"/>Tlomo, cumin honore esset, non 
+intelle<lb break="no" ed="Bd" n="14"/>ait : comparatus est gumentis, etc. Ergo
+<lb ed="Bd" n="15"/>videtur, quod homini non debetur cultus
+<lb ed="Bd" n="16"/>aliquis : ergo multo minus inferiori 
+crea<lb break="no" ed="Bd" n="17"/>ture quam homo sit : et ita videtur 
+dif<lb break="no" ed="Bd" n="18"/>finitio falsa.
+</p>
+            <p xml:id="alalal-e33748-d1e180">
+               <lb ed="Bd" n="19"/>2. Item, Si non debeo adorare 
+homi<lb break="no" ed="Bd" n="20"/>nem, ita quod Deum in ipso adorem 
+pro<lb break="no" ed="Bd" n="21"/>pter periculum adjunctum : cum in 
+ho<lb break="no" ed="Bd" n="22"/>nore duliae etiam sit periculum, non 
+de<lb break="no" ed="Bd" n="23"/>beo dulia adorare.
+</p>
+            <p xml:id="alalal-e33748-d1e193">
+               <lb ed="Bd" n="24"/>SED CONTRA :
+<lb ed="Bd" n="25"/>Genes. xxiu, 7, Abraham adoravit 
+co<lb break="no" ed="Bd" n="26"/>ram populo terra, et populum adoravit!:
+<lb ed="Bd" n="27"/>et non est reprchensus, cum tamen illi
+<lb ed="Bd" n="28"/>essent peccatores.
+</p>
+            <p xml:id="alalal-e33748-d1e206">
+               <lb ed="Bd" n="29"/>Solutio Dico, quod creature quae est
+<lb ed="Bd" n="30"/>imago Dei, nisi sit depravata vitio 
+con<lb break="no" ed="Bd" n="31"/>firmationis in malo, cultus debetur et
+<lb ed="Bd" n="32"/>honor : et hoc est quod dicit Apostolus,
+<lb ed="Bd" n="33"/>ad Roman. xin, 7: Cui honorem, 
+hono<lb break="no" ed="Bd" n="34"/>rem, Et alibi, Honore invicem 
+preventen<lb break="no" ed="Bd" n="35"/>tes ?, Et religiosorum quorumdam mos
+<lb ed="Bd" n="36"/>est omni fratri inclinare cum obvius 
+fue<lb break="no" ed="Bd" n="37"/>rit,
+</p>
+            <p xml:id="alalal-e33748-d1e229">
+               <lb ed="Bd" n="38"/>Ad id ergo quod contra objicitur, 
+di<lb break="no" ed="Bd" n="39"/>cendum quod homo cadens 
+recuperabili<lb break="no" ed="Bd" n="40"/>ter non est comparatus jumentis in 
+amis<lb break="no" ed="Bd" n="41"/>sione imaginis, sed in amissione honoris
+<lb ed="Bd" n="42"/>gratiae quem habuit super imaginem : et
+<lb ed="Bd" n="43"/>ideo per necessitatem moriendi et 
+pcena<lb break="no" ed="Bd" n="44"/>htates jumentis comparatus est, non per
+<lb ed="Bd" n="45"/>hoc quod sibi nullus cultus debeatur, cum
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="46"/>ipse adhuc secundum possibilitatem et
+<lb ed="Bd" n="47"/>ordinem vie possit pertingere ad 
+sum<lb break="no" ed="Bd" n="48"/>mum honorem beatitudinis aeternae.
+</p>
+            <p xml:id="alalal-e33748-d1e258">
+               <lb ed="Bd" n="49"/>Ad aliud dicendum, quod non est 
+si<lb break="no" ed="Bd" n="50"/>mile : quia latria in se habet honorem
+<lb ed="Bd" n="51"/>divinum, qui maximus est : sed non 
+du<lb break="no" ed="Bd" n="52"/>lia : et ideo honor duliw non elevat 
+ho<lb break="no" ed="Bd" n="53"/>minem super se, ut elevetur cor ejus in
+<lb ed="Bd" n="54"/>superbiam sicut latrie : nulla enim 
+su<lb break="no" ed="Bd" n="55"/>perbia est si homo recipit hoc quod 
+de<lb break="no" ed="Bd" n="56"/>betur ei : sed si sibi propter se aitribuit,
+<lb ed="Bd" n="57"/>hoc est superbia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

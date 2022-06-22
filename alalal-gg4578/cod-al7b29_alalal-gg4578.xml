@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="22"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-gg4578"><!-- l4d1a9 -->
+            <head xml:id="alalal-gg4578-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-gg4578-Hd1e101" type="question-title">An veniale virtute sacramentorum 
+veteris legis remittebatur ?</head>
+            <p xml:id="alalal-gg4578-d1e104">
+               <lb ed="#Be" n="81"/>ARTICULUS IX.
+<lb ed="#Be" n="82"/>An veniale virtute sacramentorum 
+vete<lb break="no" ed="#Be" n="83"/>ris legis remittebatur ?
+</p>
+            <p xml:id="alalal-gg4578-d1e113">
+               <lb ed="#Be" n="84"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="85"/>ibi, B, sub finem: <quote xml:id="alalal-gg4578-Qd1e119"> Nihil aliud intelligo
+<lb ed="#Be" n="86"/>inguinationem quam lex mundat, etc. </quote>
+            </p>
+            <p xml:id="alalal-gg4578-d1e125">
+               <pb ed="#Be" n="23"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Et queruntur hic duo : quorum 
+pri<lb break="no" ed="#Be" n="2"/>mum est, Utrum veniale virtute illorum
+<lb ed="#Be" n="3"/>sacramentorum remittebatur ?
+</p>
+            <p xml:id="alalal-gg4578-d1e139">
+               <lb ed="#Be" n="4"/>Secundum, Quare in nova lege non
+<lb ed="#Be" n="5"/>est aliquid curans irregularitate sicut in
+<lb ed="#Be" n="6"/>veteri ?
+</p>
+            <p xml:id="alalal-gg4578-d1e148">
+               <lb ed="#Be" n="7"/>Ad primum proceditur sic :
+<lb ed="#Be" n="8"/>1. Infra, dicit Augustinus, quod 
+ve<lb break="no" ed="#Be" n="9"/>nialia semper per sacrificia et cerimonias
+<lb ed="#Be" n="10"/>remiitebantur : ergo videtur, quod 
+re<lb break="no" ed="#Be" n="11"/>mittebant saltem aliqua peccata.
+</p>
+            <p xml:id="alalal-gg4578-d1e161">
+               <lb ed="#Be" n="12"/>2. Item, Majorem habet 
+conformita<lb break="no" ed="#Be" n="13"/>tem cum gratia quod est non causa sed
+<lb ed="#Be" n="14"/>signum, quam id quod nec causa nec
+<lb ed="#Be" n="15"/>signum est : sed quaedam quae nec causa
+<lb ed="#Be" n="16"/>nec signum sunt, quia non sunt 
+sacra<lb break="no" ed="#Be" n="17"/>menta, ut aqua benedicta, et benedictio
+<lb ed="#Be" n="18"/>pontificalis, remittuut veniale : ergo
+<lb ed="#Be" n="19"/>multo magis illa quae signum erant et
+<lb ed="#Be" n="20"/>non causa: talia autem erant sacrificia
+<lb ed="#Be" n="21"/>veteris legis : ergo remittebant veniale.
+</p>
+            <p xml:id="alalal-gg4578-d1e185">
+               <lb ed="#Be" n="22"/>SED CONTRA :
+<lb ed="#Be" n="23"/>Numquam a Deo peccatum dimittitur
+<lb ed="#Be" n="24"/>sine gratia: nullam autem virtute 
+pro<lb break="no" ed="#Be" n="25"/>pria gratiam illa sacramentacontulerunt:
+<lb ed="#Be" n="26"/>ergo virtute propria numquam pescatum
+<lb ed="#Be" n="27"/>aliquod curaverunt: quod videtur esse
+<lb ed="#Be" n="28"/>concedendum, nisi per accidens, scilicet
+<lb ed="#Be" n="29"/>per opus operans, precipue quia hoo
+<lb ed="#Be" n="30"/>expresse dicunt Sancti et Apostolus ad
+<lb ed="#Be" n="31"/>Hebreos.
+</p>
+            <p xml:id="alalal-gg4578-d1e209">
+               <lb ed="#Be" n="32"/>Ab PRIMUM ergo dicendum, quod 
+ve<lb break="no" ed="#Be" n="33"/>niale sumitur equivoce : quia in lege
+<lb ed="#Be" n="34"/>veniale fuit, quod morte temporali non
+<lb ed="#Be" n="35"/>puniebatur, sed puniebatur per exitum
+<lb ed="#Be" n="36"/>extra castra, vel expiationem, vel alio
+<lb ed="#Be" n="37"/>modo : et de hoc loquitur Augustinus, et
+<lb ed="#Be" n="38"/>non de illo quod ex genere suo est venia
+<lb ed="#Be" n="39"/>dignum.
+</p>
+            <p xml:id="alalal-gg4578-d1e229">
+               <lb ed="#Be" n="40"/>Ad aliud dicendum, quod illud 
+argu<lb break="no" ed="#Be" n="41"/>mentum non habet necessitatem, nisi 
+pro<lb break="no" ed="#Be" n="42"/>baretur primo, quod aliquid secundum
+<lb ed="#Be" n="43"/>substantialem effectum ut sacramentum
+<lb ed="#Be" n="44"/>contra veniale esset ordinatum : nos 
+au<lb break="no" ed="#Be" n="45"/>tem hoc non confitemur, ut supra patuit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

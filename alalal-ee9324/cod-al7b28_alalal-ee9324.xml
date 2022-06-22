@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="48"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee9324"><!-- l3d3a5 -->
+            <head xml:id="alalal-ee9324-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-ee9324-Hd1e101" type="question-title">Utrum post animationem, et ante 
+nativitatem ex utero sanctificata fuerit ?</head>
+            <p xml:id="alalal-ee9324-d1e104">
+               <lb ed="Bd" n="26"/>ARTICULUS V.
+<lb ed="Bd" n="27"/>Utrum post animationem, et ante 
+nati<lb break="no" ed="Bd" n="28"/>vitatem ex utero sanctificata fuerit ?
+</p>
+            <p xml:id="alalal-ee9324-d1e113">
+               <lb ed="Bd" n="29"/>Tertio quaeritur, An post 
+animatio<lb break="no" ed="Bd" n="30"/>nem, et ante nativitatem data sit ei 
+gra<lb break="no" ed="Bd" n="31"/>tia ?
+</p>
+            <p xml:id="alalal-ee9324-d1e122">
+               <lb ed="Bd" n="32"/>Et videtur, quod non.
+<lb ed="Bd" n="33"/>1. Augustinus : <quote xml:id="alalal-ee9324-Qd1e128"> Quod natum non est,
+<lb ed="Bd" n="34"/>renasci non potest: </quote> sed gratia 
+sancti<lb break="no" ed="Bd" n="35"/>ficalionis regenerat: ergo non datur nisi
+<lb ed="Bd" n="36"/>natis,
+</p>
+            <p xml:id="alalal-ee9324-d1e139">
+               <lb ed="Bd" n="37"/>2. Item, <quote xml:id="alalal-ee9324-Qd1e143"> In maternis uteris scias 
+par<lb break="no" ed="Bd" n="38"/>vulos renasci non posse,</quote> ut dicit 
+Augu<lb break="no" ed="Bd" n="39"/>stinus, et ex hoc concluditur, ut prius.
+</p>
+            <p xml:id="alalal-ee9324-d1e151">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="40"/>In contrarium sunt auctoritates supra
+<lb ed="Bd" n="41"/>induct de Joanne et Jeremia.
+</p>
+            <p xml:id="alalal-ee9324-d1e160">
+               <lb ed="Bd" n="42"/>Solutio Dicendum, quod ante 
+nati<lb break="no" ed="Bd" n="43"/>vitatem ex utero sanctificala fuit : sed quo
+<lb ed="Bd" n="44"/>die, vel qua hora nescire quemquam 
+ho<lb break="no" ed="Bd" n="45"/>minem, nisi per revelationem: nisi quod
+<lb ed="Bd" n="46"/>probabilius est, quod cito post 
+animatio<lb break="no" ed="Bd" n="47"/>nem conferatur, quam longe exspectetur,
+</p>
+            <p xml:id="alalal-ee9324-d1e176">
+               <lb ed="Bd" n="48"/>Ad opsecra ergo dicendum, quod 
+Au<lb break="no" ed="Bd" n="49"/>guslinus loquitar de gratia 
+sacramento<lb break="no" ed="Bd" n="50"/>rum quae conleruntur per ministrum :
+<lb ed="Bd" n="51"/>quia in illis confertur gratia Unde cum
+<lb ed="Bd" n="52"/>operatio timistri non sit nisi super 
+distin<lb break="no" ed="Bd" n="53"/>clas personas, non potest haec gratia dari
+<lb ed="Bd" n="54"/>nisi distinclis extra uterum. Vel 
+dicon<lb break="no" ed="Bd" n="55"/>dum, quod nativitas duplex est: in utero
+<lb ed="Bd" n="56"/>cum animatur puerperium, et ex utero
+<lb ed="Bd" n="57"/>cum puer prodit ad lucem : et quod Au~
+<lb ed="Bd" n="58"/>gustinus dicit, intelligitur de prima 
+nati<lb break="no" ed="Bd" n="59"/>vitate si generaliter accipiatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="603"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e02340"><!-- l2d38dt1 -->
+            <head xml:id="alalal-e02340-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e02340-d1e101">
+               <pb ed="#Bc" n="603"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-e02340-d1e110">
+               <lb ed="#Bc" n="2"/>
+               <quote xml:id="alalal-e02340-Qd1e114"> Post praedicia de voluntate eiusque
+<lb ed="#Bc" n="3"/>fine, etc. </quote>
+               <lb ed="#Bc" n="4"/>Hic incipit pars in qua Magister agit
+<lb ed="#Bc" n="5"/>de quantitate actionis in communi in 
+bo<lb break="no" ed="#Bc" n="6"/>na et mala actione. Et hoc facit ut melius
+<lb ed="#Bc" n="7"/>videatur quantitas peccati, de qua hic 
+in<lb break="no" ed="#Bc" n="8"/>tendit.
+</p>
+            <p xml:id="alalal-e02340-d1e131">
+               <lb ed="#Bc" n="9"/>Dividitur autem in tres partes : in 
+qua<lb break="no" ed="#Bc" n="10"/>rum prima agit de quantitate actionis
+<lb ed="#Bc" n="11"/>interioris, quae est voluntas. In 
+secun<lb break="no" ed="#Bc" n="12"/>da, de quantitate actionis exterioris,
+<lb ed="#Bc" n="13"/>que est opus. Et haec incipit infra,
+<lb ed="#Bc" n="14"/>distinct. XL, ibi, A, <quote xml:id="alalal-e02340-Qd1e146"> Post haec de 
+acti<lb break="no" ed="#Bc" n="15"/>bus, etc. </quote> In tertia, gratia cujusdam
+<lb ed="#Bc" n="16"/>quod dictum erat, seilicet quod 
+intentio<lb break="no" ed="#Bc" n="17"/>nem fides dirigit, quaerit de actibus 
+infi<lb break="no" ed="#Bc" n="18"/>delam, dist. XLE, ibi, A, <quote xml:id="alalal-e02340-Qd1e157"> Cumagque 
+in<lb break="no" ed="#Bc" n="19"/>tentio, ut supra, etc. </quote> Et post sequitur
+<lb ed="#Bc" n="20"/>pars quae est de modis peccatorum, ut
+<lb ed="#Bc" n="21"/>patet ex divisione superius assignata,
+</p>
+            <p xml:id="alalal-e02340-d1e168">
+               <lb ed="#Bc" n="22"/>Prima harum dividitur in duas: in
+<lb ed="#Bc" n="23"/>quarum prima Magister quaerit de 
+quan<lb break="no" ed="#Bc" n="24"/>Uitate voluntatis. In secunda autem, quare
+<lb ed="#Bc" n="25"/>ipsa voluntas est peccatum determina~
+<lb ed="#Bc" n="26"/>tum : et haec incipit in sequenti 
+distin<lb break="no" ed="#Bc" n="27"/>ctione XX AIX, ibi, A, <quote xml:id="alalal-e02340-Qd1e183"> Hic autem 
+ori<lb break="no" ed="#Bc" n="28"/>tur queestio, etc. </quote>
+            </p>
+            <p xml:id="alalal-e02340-d1e190">
+               <lb ed="#Bc" n="29"/>Presens -distinelio dividitur in duas:
+<lb ed="#Bc" n="30"/>partes :- in quarum prima tangit ca quae
+ <lb ed="#Bc" n="31"/>faciunt ad quantitatem voluntatis 
+de<lb break="no" ed="#Bc" n="32"/>monstrandam. Et in secunda quaerit,
+<lb ed="#Bc" n="33"/>Quid intersit inter voluntatem, et 
+inten<lb break="no" ed="#Bc" n="34"/>flonem quae mensurat voluntatem ?
+<lb ed="#Bc" n="35"/>ibi, F, <quote xml:id="alalal-e02340-Qd1e207"> Solet etiam gueri, etc. </quote>
+            </p>
+            <p xml:id="alalal-e02340-d1e210">
+               <lb ed="#Bc" n="36"/>In prima autem harum Magister tria
+<lb ed="#Bc" n="37"/>acit. Primo enim ostendi Ln -
+<lb ed="#Bc" n="38"/>ra voluntatis ex fine met Sec els quierit
+<lb ed="#Bc" n="39"/>Utrum omnes bone voluntates. anE
+<lb ed="#Bc" n="40"/>habeant finem; et omnes male unum vel
+<lb ed="#Bc" n="41"/>diversos ? ibi, C, <quote xml:id="alalal-e02340-Qd1e225"> Sed queritur, Utrum
+<lb ed="#Bc" n="42"/>omnes bone, etc. </quote> In tertia, determinat
+<lb ed="#Bc" n="43"/>quoddam objectum Augustini contra de-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="44"/>terminata, ibi, D, <quote xml:id="alalal-e02340-Qd1e236"> Verumtamen huic
+<lb ed="#Bc" n="45"/>sententiae, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

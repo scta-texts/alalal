@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="144"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d27439"><!-- l2d7a3 -->
+            <head xml:id="alalal-d27439-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-d27439-Hd1e101" type="question-title">An liberum arbitrium liberius sit in
+bonis Angelis, quam in malis ?</head>
+            <p xml:id="alalal-d27439-d1e104">
+               <lb ed="#Bc" n="61"/>ARTICULUS III.
+<lb ed="#Bc" n="62"/>An liberum arbitrium liberius sit in
+<lb ed="#Bc" n="63"/>bonis Angelis, quam in malis ?
+</p>
+            <p xml:id="alalal-d27439-d1e113">
+               <lb ed="#Bc" n="64"/>Tertio queritur, Utrum liberius sit in
+<lb ed="#Bc" n="65"/>bonis, quam in malis ?
+</p>
+            <p xml:id="alalal-d27439-d1e120">
+               <lb ed="#Bc" n="66"/>i. Et videtur, quod sic per <name xml:id="alalal-d27439-Nd1e124">Anselmum</name>,
+<lb ed="#Bc" n="67"/>qui dividit liberum arbitrium in 
+acce<lb break="no" ed="#Bc" n="68"/>ptum, et non acceptum : et acceptum in
+<lb ed="#Bc" n="69"/>habens rectitudinem, et non habens : é
+<lb ed="#Bc" n="70"/>habens rectitudinem, in habens cam
+<lb ed="#Bc" n="71"/>amissibiliter, et non amissibiliter : 
+simi<lb break="no" ed="#Bc" n="72"/>liter carens ea, aut caret ea 
+recuperabili<lb break="no" ed="#Bc" n="73"/>ter, aut irrecuperabiliter. Et dicit 
+liber<lb break="no" ed="#Bc" n="74"/>rimum esse in habente non acceptum
+<lb ed="#Bc" n="75"/>habens rectitudinem amissibiliter, et post
+<lb ed="#Bc" n="76"/>hoe in habente acceptum carens 
+rectitu<lb break="no" ed="#Bc" n="77"/>dine sed recuperabiliter, infimo autem
+<lb ed="#Bc" n="78"/>gradu in habente acceptum carens 
+recti<lb break="no" ed="#Bc" n="79"/>tudine irrecuperabiliter.
+</p>
+            <p xml:id="alalal-d27439-d1e156">
+               <lb ed="#Bc" n="80"/>2. Ap ipem videtur etiam esse ratio:
+<lb ed="#Bc" n="81"/>quia tanto liberius videtur esse, quanto
+<lb ed="#Bc" n="82"/>minus servit: sed nullo modo servit it.
+<lb ed="#Bc" n="83"/>confirmatis, in illis autem malis servit:
+<lb ed="#Bc" n="84"/>quia omnis qui facit peccatum, servis
+<lb ed="#Bc" n="85"/>est peccati': ergo liberius est in bonis;
+<lb ed="#Bc" n="86"/>quam in malis, .
+</p>
+            <p xml:id="alalal-d27439-d1e174">
+               <pb ed="#Bc" n="145"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>SED CONTRA:
+<lb ed="#Bc" n="2"/>1. Est dictum Bernardi, qui dicit quod
+<lb ed="#Bc" n="3"/>libertas a coactione non magis est in Deo
+<lb ed="#Bc" n="4"/>quam in creatura, sed in Deo potentior:
+<lb ed="#Bc" n="5"/>et non magis in bonis quam in malis,
+<lb ed="#Bc" n="6"/>sed in bonis ordinatior : ergo videtur,
+<lb ed="#Bc" n="7"/>quod aequaliter insit.
+</p>
+            <p xml:id="alalal-d27439-d1e196">
+               <lb ed="#Bc" n="8"/>2. Item, Libertas a coactione dicit 
+pri<lb break="no" ed="#Bc" n="9"/>vationem coactionis : privationes autem
+<lb ed="#Bc" n="10"/>non recipiunt magis et minus : non enim
+<lb ed="#Bc" n="11"/>unus est magis nudus quam alius, nec
+<lb ed="#Bc" n="12"/>unus magis cecus quam alius : ergo cum
+<lb ed="#Bc" n="13"/>libertas fundetur in privatione, videtur
+<lb ed="#Bc" n="14"/>guod sit aequalis omnibus quibus 
+conve<lb break="no" ed="#Bc" n="15"/>nit.
+</p>
+            <p xml:id="alalal-d27439-d1e216">
+               <lb ed="#Bc" n="16"/>Soxvurio. Dicendum, quod liberius est
+<lb ed="#Bc" n="17"/>secundum gradus quos ponit Anselmus.
+<lb ed="#Bc" n="18"/>Ad id autem quod objicitur per aucto-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="19"/>ritatem <name xml:id="alalal-d27439-Nd1e229">Bernardi</name>, dicendum quod liber-.
+<lb ed="#Bc" n="20"/>tas a coactione dicitur dupliciter, scilicet
+<lb ed="#Bc" n="21"/>secundum privationem absolutam, et sic
+<lb ed="#Bc" n="22"/>verum est quod dicit Bernardus : vel 
+se<lb break="no" ed="#Bc" n="23"/>cundum id in quo fundatur privatio. 
+Sic<lb break="no" ed="#Bc" n="24"/>ut in naturis privatio est duobus modis :
+<lb ed="#Bc" n="25"/>una autem fundatur in materia cui 
+for<lb break="no" ed="#Bc" n="26"/>ma est absens, et alia quae fundatur in
+<lb ed="#Bc" n="27"/>forma contraria : ita est hic : quia 
+liber<lb break="no" ed="#Bc" n="28"/>tas fundatur in forma quae non obligatur
+<lb ed="#Bc" n="29"/>materiae : et in hoc contrariatur forme
+<lb ed="#Bc" n="30"/>naturali : unde quoad hanc formam 
+rela<lb break="no" ed="#Bc" n="31"/>tam ad opera contingit esse liberius et
+<lb ed="#Bc" n="32"/>minus liberum, secundum quod magis et
+<lb ed="#Bc" n="33"/>minus est illa nobilis, vel expedita plus
+<lb ed="#Bc" n="34"/>vel minus ad actum.
+</p>
+            <p xml:id="alalal-d27439-d1e264">
+               <lb ed="#Bc" n="35"/>Et per hoc etiam patet solutio ad 
+se<lb break="no" ed="#Bc" n="36"/>quens.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

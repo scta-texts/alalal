@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="832"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h78401"><!-- l4d20dt1 -->
+            <head xml:id="alalal-h78401-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-h78401-d1e101">
+               <pb ed="#Be" n="832"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>DIVIS1O TEXTUS.
+</p>
+            <p xml:id="alalal-h78401-d1e110">
+               <lb ed="#Be" n="2"/>
+               <quote xml:id="alalal-h78401-Qd1e114"> Sciendum est etiam quod tempus
+<lb ed="#Be" n="3"/>penitentiae est, etc. </quote> .
+<lb ed="#Be" n="4"/>Postquam determinatum est de 
+pote<lb break="no" ed="#Be" n="5"/>state clavium, tangit hic de poenitentia
+<lb ed="#Be" n="6"/>in morte, et post mortem, et de reditu
+<lb ed="#Be" n="7"/>peccatorum superius etiam posita. Et
+<lb ed="#Be" n="8"/>ideo ponit hic per ordinem 
+enumerato<lb break="no" ed="#Be" n="9"/>rum tres distinctiones : in quarum prima,
+<lb ed="#Be" n="10"/>ista scilicet tangit de pcenitentiis 
+morien<lb break="no" ed="#Be" n="11"/>tium. In alia, de remissione peccatorum
+<lb ed="#Be" n="12"/>post mortem. In tertia, de reditu 
+peccato<lb break="no" ed="#Be" n="13"/>rum.
+</p>
+            <p xml:id="alalal-h78401-d1e142">
+               <lb ed="#Be" n="14"/>Sunt autem in hac distinctione 
+princi<lb break="no" ed="#Be" n="15"/>pales questiones due : in quarum prima
+<lb ed="#Be" n="16"/>Magister querit de tempore poenitendi.
+<lb ed="#Be" n="17"/>In secunda autem de modo extreme
+<lb ed="#Be" n="18"/>poenitentiae, ibi, B, <quote xml:id="alalal-h78401-Qd1e155"> Si vero gueritur de
+<lb ed="#Be" n="19"/>illis qui in hac vita, etc. </quote>
+            </p>
+            <p xml:id="alalal-h78401-d1e161">
+               <lb ed="#Be" n="20"/>Et haec sufficiant quoad divisionem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

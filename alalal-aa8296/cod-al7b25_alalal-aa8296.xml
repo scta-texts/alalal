@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="41"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-aa8296"><!-- l1d1et4 -->
+            <head xml:id="alalal-aa8296-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-aa8296-d1e101">
+               <cb ed="#Ba" n="d"/>
+               <lb ed="#Ba" n="25"/>Expositio Textus.
+</p>
+            <p xml:id="alalal-aa8296-d1e108">
+               <lb ed="#Ba" n="26"/>
+               <quote xml:id="alalal-aa8296-Qd1e112"> Potest etiam dici, etc. </quote>
+               <lb ed="#Ba" n="27"/>Sed contra : Proverb. xu, 12: Spes
+<lb ed="#Ba" n="28"/>que differtur affligit animam. — 
+Souv<lb break="no" ed="#Ba" n="29"/>iio, Verum est in quantum differtur :
+<lb ed="#Ba" n="30"/>aed in quantum jam penetrat per gustum
+<lb ed="#Ba" n="31"/>mleriora velaminis, delectat ex 
+pregu<lb break="no" ed="#Ba" n="32"/>stutione rei sperate. Unde, ad Hebr. vi,
+<lb ed="#Ba" n="33"/>het 20: Spem quam sicut anchoram
+<lb ed="#Ba" n="34"/>huhemus anime tutam, ac firmam, et
+<lb ed="#Ba" n="35"/>mecdentem usque ad interiora velaminis,
+<lb ed="#Ba" n="36"/>uln precursor pro nobis introivit Jesus.
+</p>
+            <p xml:id="alalal-aa8296-d1e137">
+               <lb ed="#Ba" n="37"/>
+               <quote xml:id="alalal-aa8296-Qd1e141"> Quod non est faciendum, etc. </quote> Un-
+<cb ed="#Ba" n="e"/>
+               <lb ed="#Ba" n="38"/>de, Jerem. xvi, 3: Maledictus homo qui
+<lb ed="#Ba" n="39"/>confidit in homine, et ponit carnem 
+bra<lb break="no" ed="#Ba" n="40"/>chium suum. Sed contra: Jone, 1, 6
+<lb ed="#Ba" n="41"/>Accessit ad eum gubernator : Glossa,
+<lb ed="#Ba" n="42"/>ibidem ; Naturale est homini in periculo
+<lb ed="#Ba" n="43"/>magis in alio quam in se confidere.
+</p>
+            <p xml:id="alalal-aa8296-d1e159">
+               <lb ed="#Ba" n="44"/>SoLvtio. Dicendum, quod in periculo
+<lb ed="#Ba" n="45"/>ubi potest haberi humanum consilium et
+<lb ed="#Ba" n="46"/>auxilium, potest haberi fiducia in 
+ho<lb break="no" ed="#Ba" n="47"/>mine, non tamen exclusa Dei 
+invoca<lb break="no" ed="#Ba" n="48"/>tione, quia aliter esset tentare Deum :
+<lb ed="#Ba" n="49"/>sed totam fiduciam cum exclusione divini
+<lb ed="#Ba" n="50"/>adjutori1 in homine ponere prohibitum
+<lb ed="#Ba" n="51"/>est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

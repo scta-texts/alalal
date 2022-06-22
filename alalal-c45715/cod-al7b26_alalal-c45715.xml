@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="242"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c45715"><!-- l1d37a10 -->
+            <head xml:id="alalal-c45715-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-c45715-Hd1e101" type="question-title">An idem sit essentialiter, praesentialiter,
+et potentialiter inesse ?</head>
+            <p xml:id="alalal-c45715-d1e104">
+               <pb ed="#Bb" n="242"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>ARTICULUS X.
+<lb ed="#Bb" n="2"/>An idem sit essentialiter, praesentialiter,
+<lb ed="#Bb" n="3"/>et potentialiter inesse ?
+</p>
+            <p xml:id="alalal-c45715-d1e117">
+               <lb ed="#Bb" n="4"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Bb" n="5"/>ibi, B, circa medium: <quote xml:id="alalal-c45715-Qd1e123"> Jia et Deus
+<lb ed="#Bb" n="6"/>cum sit in omnibus essentialiter et totus,
+<lb ed="#Bb" n="7"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-c45715-d1e131">
+               <lb ed="#Bb" n="8"/>Potest enim queri, Utrum idem sit 
+es<lb break="no" ed="#Bb" n="9"/>sentialiter inesse quod presentialiter
+<lb ed="#Bb" n="10"/>inesse, et potentialiter inesse?
+</p>
+            <p xml:id="alalal-c45715-d1e141">
+               <lb ed="#Bb" n="11"/>Si enim idem est : tunc videtur, quod
+<lb ed="#Bb" n="12"/>sufficiebat dicere essentialiter imesse, et
+<lb ed="#Bb" n="13"/>non oportebat addere presentialiter et
+<lb ed="#Bb" n="14"/>potentiahbter. Videtur autem quod sit
+<lb ed="#Bb" n="15"/>idem per Boetium, Anselmum et 
+Augu<lb break="no" ed="#Bb" n="16"/>stinum, qui exponunt unum pro alio, et
+<lb ed="#Bb" n="17"/>per aliud.
+</p>
+            <p xml:id="alalal-c45715-d1e159">
+               <lb ed="#Bb" n="18"/>Uxrerius queritur, Utrum melius est
+<lb ed="#Bb" n="19"/>creaturam esse in Deo, vel Deum in
+<lb ed="#Bb" n="20"/>creatura esse ?
+</p>
+            <p xml:id="alalal-c45715-d1e168">
+               <lb ed="#Bb" n="21"/>1. Videtur autem, quod melius est 
+crea<lb break="no" ed="#Bb" n="22"/>turam esse in Deo : quia hoc est 
+xter<lb break="no" ed="#Bb" n="23"/>num, aliud autem ex tempore.
+</p>
+            <p xml:id="alalal-c45715-d1e177">
+               <lb ed="#Bb" n="24"/>2. Item, Creatura in Deo est creatrix
+<lb ed="#Bb" n="25"/>essentia, creator autem in creatura 
+re<lb break="no" ed="#Bb" n="26"/>linquit essentiam creatam : ergo nobilius
+<lb ed="#Bb" n="27"/>et melius est creaturam esse in Creatore,
+<lb ed="#Bb" n="28"/>quam e converso.
+</p>
+            <p xml:id="alalal-c45715-d1e190">
+               <lb ed="#Bb" n="29"/>SED CONTRA :
+<lb ed="#Bb" n="30"/>Omne simpliciter melius est, quam est
+<lb ed="#Bb" n="31"/>secundum quid : creatura autem in 
+Crea<lb break="no" ed="#Bb" n="32"/>tore non est nisi secundum quid : cum
+<lb ed="#Bb" n="33"/>autem Creator est in creatura, habet 
+es<lb break="no" ed="#Bb" n="34"/>se simpliciter : ergo melius est 
+Creato<lb break="no" ed="#Bb" n="35"/>rem esse in creatura, quam e converso.
+</p>
+            <p xml:id="alalal-c45715-d1e208">
+               <lb ed="#Bb" n="36"/>Solutio dicendum, quod hujusmodi
+<lb ed="#Bb" n="37"/>questiones parum valent.
+</p>
+            <p xml:id="alalal-c45715-d1e216">
+               <lb ed="#Bb" n="38"/>Ad primum bene concedo, quod non
+<lb ed="#Bb" n="39"/>est idem : et qualiter variantur 
+hujus<lb break="no" ed="#Bb" n="40"/>modi modi, satis patet. Ad id quod 
+con<lb break="no" ed="#Bb" n="41"/>tra objicitur, dicendum quod Sancti ex-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="42"/>ponunt unum per aliud, per hoc quod
+<lb ed="#Bb" n="43"/>sequitur unum ad aliud : ad inesse enim
+<lb ed="#Bb" n="44"/>presentialiter et potentialiter, sequitur
+<lb ed="#Bb" n="45"/>inesse essentialiter : quia aliter in Deo
+<lb ed="#Bb" n="46"/>esset contractior natura quam potentia,
+<lb ed="#Bb" n="47"/>ut supra expeditum est.
+</p>
+            <p xml:id="alalal-c45715-d1e242">
+               <lb ed="#Bb" n="48"/>Ad aliud dicendum, quod comparatio
+<lb ed="#Bb" n="49"/>nulla est : quia inesse dicitur equivoce :
+<lb ed="#Bb" n="50"/>quia creatura est in Creatore secundum
+<lb ed="#Bb" n="51"/>quid tantum, scilicet secundum ideam,
+<lb ed="#Bb" n="52"/>ut causam in causa operante per 
+intelle<lb break="no" ed="#Bb" n="53"/>ctum: Creator autem est in creatura 
+con<lb break="no" ed="#Bb" n="54"/>tinens et salvans et replens : et ideo 
+ni<lb break="no" ed="#Bb" n="55"/>hil valet.
+</p>
+            <p xml:id="alalal-c45715-d1e262">
+               <lb ed="#Bb" n="56"/>Si autem tu queras, Quod sit melius
+<lb ed="#Bb" n="57"/>et verius esse creature ?
+<lb ed="#Bb" n="58"/>Ad hoc solutum est supra distinctione
+<lb ed="#Bb" n="59"/>XXXV.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

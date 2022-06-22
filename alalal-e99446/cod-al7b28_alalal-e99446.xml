@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="512"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e99446"><!-- l3d27a3 -->
+            <head xml:id="alalal-e99446-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-e99446-Hd1e101" type="question-title">Utrum charitas sit forma omnis 
+virtutis ? et, Utrum ipsa possit fieri 
+informus ?</head>
+            <p xml:id="alalal-e99446-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="43"/>ARTICULUS III.
+<lb ed="Bd" n="44"/>Utrum charitas sit forma omnis 
+virtu<lb break="no" ed="Bd" n="45"/>tis ? et, Utrum ipsa possit fieri 
+infor<lb break="no" ed="Bd" n="46"/>mus ?
+</p>
+            <p xml:id="alalal-e99446-d1e117">
+               <lb ed="Bd" n="47"/>Tertio quaeritur, Utrum sit forma 
+om<lb break="no" ed="Bd" n="48"/>nis virtutis, et ulrum ipsa possit fierj
+<lb ed="Bd" n="49"/>informis ?
+</p>
+            <p xml:id="alalal-e99446-d1e126">
+               <lb ed="Bd" n="50"/>Videtur autem, quod sit forma : et
+<lb ed="Bd" n="51"/>hoc dicunt Sancti communiter, et quod
+<lb ed="Bd" n="52"/>est mater, et quod est radix, et quod est
+<lb ed="Bd" n="53"/>finis.
+</p>
+            <p xml:id="alalal-e99446-d1e138">
+               <lb ed="Bd" n="54"/>SED CONTRA
+<lb ed="Bd" n="55"/>1. Forma dicitur duobus modis, scilicet
+<lb ed="Bd" n="56"/>exemplaris, et quiescens in materia. Si
+<lb ed="Bd" n="57"/>ergo charitas est forma, erit forma 
+alte<lb break="no" ed="Bd" n="58"/>ro istorum modorum, vel utroque. 
+Con<lb break="no" ed="Bd" n="59"/>stat autem, quod non est forma sicut
+<lb ed="Bd" n="60"/>exemplaris : quia secundum speciem 
+ip<lb break="no" ed="Bd" n="61"/>sius non fiunt alia, sicut exemplatum fit
+<lb ed="Bd" n="62"/>secundum speciem exemplaris : ergo si
+<lb ed="Bd" n="63"/>est forma, erit forma intrinseca dans esse
+<lb ed="Bd" n="64"/>virtuti secundum speciem : et hoc iterum
+<lb ed="Bd" n="65"/>non potest esse, quia sicut informatum
+<lb ed="Bd" n="66"/>humanitate est homo, ita informatum
+<lb ed="Bd" n="67"/>charitate est charitas : ergo non fides,
+<lb ed="Bd" n="68"/>vel spes, vel ali virtutes : ergo videtur,
+<lb ed="Bd" n="69"/>quod charitas non sit forma.
+</p>
+            <p xml:id="alalal-e99446-d1e175">
+               <lb ed="Bd" n="70"/>2. Item, Forma dat esse et rationem:
+<lb ed="Bd" n="71"/>sed diversorum specie non est unum esse
+<lb ed="Bd" n="72"/>et ratio : ergo diversorum specie non est
+<lb ed="Bd" n="73"/>una forma : sed virtutes differunt specie
+<lb ed="Bd" n="74"/>virtutum : ergo Ipsarum non est una
+<lb ed="Bd" n="75"/>forma : cum igitur charitas sit una, ut
+<lb ed="Bd" n="76"/>habitum est, ipsa non est forma.
+</p>
+            <p xml:id="alalal-e99446-d1e193">
+               <lb ed="Bd" n="77"/>Si forte tu dicas, quod in virtute duo
+<lb ed="Bd" n="78"/>sint, scilicet quod est ad finem, et quod
+<lb ed="Bd" n="79"/>tendit in ipsum. Et quod est ad finem
+<lb ed="Bd" n="80"/>hoc dat ei speciem, quia virtutes 
+distin<lb break="no" ed="Bd" n="81"/>guuntur per fines proximos, Jicet non
+<lb ed="Bd" n="82"/>distinguantur per finem ullimum, quod
+<lb ed="Bd" n="83"/>autem tendit in finem ultimum, hoc 
+ha<lb break="no" ed="Bd" n="84"/>bet a forma quae est charitas in ipsa-
+</p>
+            <p xml:id="alalal-e99446-d1e213">
+               <pb ed="#Bd" n="513"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Contra : Differt habitus virtutis ab 
+ha<lb break="no" ed="Bd" n="2"/>bitu scientia in eo quod virtus est 
+opti<lb break="no" ed="Bd" n="3"/>morum operativa: sed scientia est a re
+<lb ed="Bd" n="4"/>causata, et non tendit in eam, sed 
+po<lb break="no" ed="Bd" n="5"/>tias ab ea in animam: nulla autem virtus
+<lb ed="Bd" n="6"/>potest esse operativa optimorum, nisi
+<lb ed="Bd" n="7"/>tendendo et conjungendo se optimo suo :
+<lb ed="Bd" n="8"/>ergo quelibet virtus de se tendit in suum
+<lb ed="Bd" n="9"/>optimum : ergo non accipit hoc ab 
+in<lb break="no" ed="Bd" n="10"/>formatione virtutis charitatis.
+</p>
+            <p xml:id="alalal-e99446-d1e242">
+               <lb ed="Bd" n="11"/>3. Preterca, Nos videmus quasdam
+<lb ed="Bd" n="12"/>virtutes politicas pertingere ad suum 
+op<lb break="no" ed="Bd" n="13"/>timum sine charitate : sicut palet 
+exem<lb break="no" ed="Bd" n="14"/>plum in Philosophis virtuosis, qui 
+conse<lb break="no" ed="Bd" n="15"/>quebantur optimum cujuslibet virtutis,
+<lb ed="Bd" n="16"/>et etiam felicitatem sine charitate : ergo
+<lb ed="Bd" n="17"/>non accipit hoc a charitate virtus ipsa.
+</p>
+            <p xml:id="alalal-e99446-d1e260">
+               <lb ed="Bd" n="18"/>Propter hoc dicunt aliqui, quod in 
+ac<lb break="no" ed="Bd" n="19"/>tu cujuslibet virtutis duo sunt, et etiam
+<lb ed="Bd" n="20"/>in virtute ipsa, scilicet substantia actus
+<lb ed="Bd" n="21"/>secundum speciem virtutis, et quod ipse
+<lb ed="Bd" n="22"/>dignum facit vita aeterna : et non 
+infor<lb break="no" ed="Bd" n="23"/>matur charitate quoad primum, sed
+<lb ed="Bd" n="24"/>quoad secundum. Hoc dicunt uno modo
+<lb ed="Bd" n="25"/>esse in omnibus, et hoc probant: quia
+<lb ed="Bd" n="26"/>quantilas meriti atlenditur penes 
+charita<lb break="no" ed="Bd" n="27"/>tis quantitatem : quod non esset, nisi
+<lb ed="Bd" n="28"/>ipsa per se faceret meritum in omnibus
+<lb ed="Bd" n="29"/>aliis. Quod autem meritum sit a 
+chari<lb break="no" ed="Bd" n="30"/>tate, dicunt communiter Doctores, et 
+ac<lb break="no" ed="Bd" n="31"/>cipitur hoc ab Apostolo, f ad Corinth.
+<lb ed="Bd" n="32"/>xu, L: Si linguis hominum loguar, et
+<lb ed="Bd" n="33"/>Angelorum, charitaiem autem non 
+ha<lb break="no" ed="Bd" n="34"/>beam, factus sum velut es sonans, aut
+<lb ed="Bd" n="35"/>cymbalum tinniens, etc.
+</p>
+            <p xml:id="alalal-e99446-d1e303">
+               <lb ed="Bd" n="36"/>SED CONTRA :
+<lb ed="Bd" n="37"/>Gratum faciens gratia est quae gratum
+<lb ed="Bd" n="38"/>facit habentem, et opus ejus gratum 
+red<lb break="no" ed="Bd" n="39"/>dit : sed gratum facere est facere dignum
+<lb ed="Bd" n="40"/>vita aeterna : ergo ipsa est quae facit 
+ope<lb break="no" ed="Bd" n="41"/>ra virtutum, et virtutes gratas : ergo
+<lb ed="Bd" n="42"/>oportet, quod aut charitas de se non 
+fa<lb break="no" ed="Bd" n="43"/>ciat hoc, aut quod charitas idem sit quod
+<lb ed="Bd" n="44"/>gratia gratum faciens.
+</p>
+            <p xml:id="alalal-e99446-d1e325">
+               <lb ed="Bd" n="45"/>Hane conclusionem quidam ulterius
+<lb ed="Bd" n="46"/>concedunt dicentes, quod gratia gratum
+<lb ed="Bd" n="47"/>faciens et charitas idem sunt, et non 
+dif<lb break="no" ed="Bd" n="48"/>ferunt nisi per relationem : quia gratia
+<lb ed="Bd" n="49"/>dicitur secundum quod refertur ad ani-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>mam, sed charitas quando refertur ad
+<lb ed="Bd" n="51"/>potentiam quae est concupiscibilis vel
+<lb ed="Bd" n="52"/>voluntas, ut dicunt.
+</p>
+            <p xml:id="alalal-e99446-d1e347">
+               <lb ed="Bd" n="53"/>SED CONTRA :
+<lb ed="Bd" n="54"/>1. Perfectivum totius secundum quod
+<lb ed="Bd" n="55"/>est totum, si referatur ad partes, per
+<lb ed="Bd" n="56"/>prius refertur ad partes principaliores :
+<lb ed="Bd" n="57"/>gratia est perfectio totius, ut dicunt :
+<lb ed="Bd" n="58"/>ergo si relationem habet ad partes, per
+<lb ed="Bd" n="59"/>prius refertur ad partem principaliorem :
+<lb ed="Bd" n="60"/>principalior est autem intellectus, quam
+<lb ed="Bd" n="61"/>concupiscibilis : ergo perfectio intellectus
+<lb ed="Bd" n="62"/>magis habebit rationem gratiae, quam
+<lb ed="Bd" n="63"/>perfectio concupiscibilis : fides autem est
+<lb ed="Bd" n="64"/>perfectio intellectus, wt prius habitum
+<lb ed="Bd" n="65"/>est : ergo fides magis debet esse gratia,
+<lb ed="Bd" n="66"/>quam charitas qua est perfectio 
+concu<lb break="no" ed="Bd" n="67"/>piscibilis
+</p>
+            <p xml:id="alalal-e99446-d1e382">
+               <lb ed="Bd" n="68"/>2. Item, Relatio illa gratiae ad 
+poten<lb break="no" ed="Bd" n="69"/>tiam, facit eam esse principalem virtutem
+<lb ed="Bd" n="70"/>condivisam alii quae accipitur sub gratia,
+<lb ed="Bd" n="71"/>aut aliquid aliud. Si dicas, quod sic : 
+er<lb break="no" ed="Bd" n="72"/>go charitas non diflert a toto quod est
+<lb ed="Bd" n="73"/>gratia, nisi per accidens : ergo non est
+<lb ed="Bd" n="74"/>principalis pars ejus : ergo non debet
+<lb ed="Bd" n="75"/>condividi aliis partibus, quae sunt fides,
+<lb ed="Bd" n="76"/>el spes. Si autem aliquid aliud facit eam
+<lb ed="Bd" n="77"/>specialem virtutcm : tunc solutio 
+inniti<lb break="no" ed="Bd" n="78"/>tur falso, quod non differat a gratia nisi
+<lb ed="Bd" n="79"/>per relationem ad aliud.
+</p>
+            <p xml:id="alalal-e99446-d1e411">
+               <lb ed="Bd" n="80"/>3. Item, Cum forma dat esse, dat et 
+ra<lb break="no" ed="Bd" n="81"/>tionem suam, aut allerius. Sidicas, quod
+<lb ed="Bd" n="82"/>dat suam : ergo omnis virtus informata
+<lb ed="Bd" n="83"/>charitate habebit esse et rationem 
+chari<lb break="no" ed="Bd" n="84"/>tatis, quod absurdum est. Si autem dat
+<lb ed="Bd" n="85"/>aliam : hoc est absurdius adhuc, quia sic
+<lb ed="Bd" n="86"/>dat quod non habet.
+</p>
+            <p xml:id="alalal-e99446-d1e429">
+               <lb ed="Bd" n="87"/>4. Item, Quidquid generaliter uno 
+mo<lb break="no" ed="Bd" n="88"/>do invenitur in multis differentibus 
+spe<lb break="no" ed="Bd" n="89"/>cie, non potest esse in aliquo illorum quae
+<lb ed="Bd" n="90"/>sicut species dividunt totum : gratum 
+es<lb break="no" ed="Bd" n="91"/>se actum suum meritorium uno modo
+<lb ed="Bd" n="92"/>invenitur in omnibus partibus gratia,
+<lb ed="Bd" n="93"/>que sunt virtutes infusa in gratia ipsa :
+<lb ed="Bd" n="94"/>ergo non est ab aliqua speciali quae 
+con<lb break="no" ed="Bd" n="95"/>dividitur aliis : ergo non est hoc ab ipsa
+<lb ed="Bd" n="96"/>sicut informante, ut videtur.
+</p>
+            <p xml:id="alalal-e99446-d1e454">
+               <lb ed="Bd" n="97"/>5. Item, Sicut sc habent perfecta, ita
+<lb ed="Bd" n="98"/>se habent perfectiones : sunt autem tres
+<pb ed="#Bd" n="514"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>vires anime motive quae perficiuntur ab
+<lb ed="Bd" n="2"/>omnibus virtutibus, scilicet ratio, 
+concu<lb break="no" ed="Bd" n="3"/>piscibilis, et irasvibilis : ergo sicut se 
+ha<lb break="no" ed="Bd" n="4"/>bent ille ad invicem, ita se habent 
+per<lb break="no" ed="Bd" n="5"/>fectiones earum : sed in illis ratio ordinat
+<lb ed="Bd" n="6"/>et format alias : et si accidit oppositum,
+<lb ed="Bd" n="7"/>egreditur perversus actus in moribus
+<lb ed="Bd" n="8"/>ergo habitus rationis similiter ordinabit
+<lb ed="Bd" n="9"/>habitus aliorum potius, quam ordinetur
+<lb ed="Bd" n="10"/>ab eis : ergo fides potius informat 
+chari<lb break="no" ed="Bd" n="11"/>tatem, quam informatur ab ipsa.
+</p>
+            <p xml:id="alalal-e99446-d1e489">
+               <lb ed="Bd" n="12"/>6. Item, Ita est in habitibus virtutum
+<lb ed="Bd" n="13"/>cardinalium, quod ille quae sunt in 
+ra<lb break="no" ed="Bd" n="14"/>tione, ordinant et quodammodo formant
+<lb ed="Bd" n="15"/>alias : ergo similiter erit in habitibus
+<lb ed="Bd" n="16"/>virtutum theologicarum, ut videtur.
+</p>
+            <p xml:id="alalal-e99446-d1e502">
+               <lb ed="Bd" n="17"/>Ad hoc iterum quidam voluerunt 
+di<lb break="no" ed="Bd" n="18"/>cere, quod concupiscibilis est vis diffusa
+<lb ed="Bd" n="19"/>in omnibus aliis viribus, et movens eas :
+<lb ed="Bd" n="20"/>et ideo habitus ejus dicitur etiam forma
+<lb ed="Bd" n="21"/>diffusa in omnibus ahis viribus, et 
+mo<lb break="no" ed="Bd" n="22"/>vens eas. Sep contra : Hoe non potest
+<lb ed="Bd" n="23"/>dici, nisi ratione appetitus finis sui, quem
+<lb ed="Bd" n="24"/>appctil omnis vis anime. Si autem 
+ratio<lb break="no" ed="Bd" n="25"/>ne hujus dicitur concupiscibilis diffusa in
+<lb ed="Bd" n="26"/>aliis, cum omnis vis refugiat contrarium
+<lb ed="Bd" n="27"/>sul finis, erit per eamdem  rationem
+<lb ed="Bd" n="28"/>etiam irascibilis diffusa in omnibus aliis :
+<lb ed="Bd" n="29"/>ergo a simili et habitus ejus : ergo etiam
+<lb ed="Bd" n="30"/>spes erit forma aliaruin virtutum, quod
+<lb ed="Bd" n="31"/>absurdum est.
+</p>
+            <p xml:id="alalal-e99446-d1e537">
+               <lb ed="Bd" n="32"/>Praeterea, Appetitus habet partes : 
+ha<lb break="no" ed="Bd" n="33"/>bet enim ratio motiva aliquid de appetitu,
+<lb ed="Bd" n="34"/>et similiter voluntas, et similiter 
+concu<lb break="no" ed="Bd" n="35"/>piscibihs, et codem modo irascibilis : non
+<lb ed="Bd" n="36"/>ergo propter appetitum sola 
+concupisci<lb break="no" ed="Bd" n="37"/>bilis dicetur diifundi in omnibus aliis.
+</p>
+            <p xml:id="alalal-e99446-d1e553">
+               <lb ed="Bd" n="38"/>Ex his omnibus videtur necessario 
+re<lb break="no" ed="Bd" n="39"/>linqui, quod charitas non sit forma 
+vir<lb break="no" ed="Bd" n="40"/>tutum per aliquem modum, et quod 
+me<lb break="no" ed="Bd" n="41"/>ritum non attenditur penes ipsam.
+</p>
+            <p xml:id="alalal-e99446-d1e564">
+               <lb ed="Bd" n="42"/>SED CONTRA
+<lb ed="Bd" n="43"/>1. Ambrosius : <quote xml:id="alalal-e99446-Qd1e570"> Charitas est mater
+<lb ed="Bd" n="44"/>omnium virtutum, quae omnes informat,
+<lb ed="Bd" n="45"/>sine qua nulla vera virtus est. </quote>
+            </p>
+            <p xml:id="alalal-e99446-d1e579">
+               <lb ed="Bd" n="46"/>2, Item, Supra dixit Magister, quod
+<lb ed="Bd" n="47"/>accessu charitatis fides informis forma-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>tur, et virtus fit : ergo charitas est forma,
+</p>
+            <p xml:id="alalal-e99446-d1e590">
+               <lb ed="Bd" n="49"/>Uxrerius quaeritur, Quare charitas ut
+<lb ed="Bd" n="50"/>alia virtus non potest fieri informis ?
+</p>
+            <p xml:id="alalal-e99446-d1e597">
+               <lb ed="Bd" n="51"/>Videtur enim, quod possit.
+</p>
+            <p xml:id="alalal-e99446-d1e602">
+               <lb ed="Bd" n="52"/>1. In homine enim non habente 
+chari<lb break="no" ed="Bd" n="53"/>tatem, est dilectio qua diligit Deum : non
+<lb ed="Bd" n="54"/>tamen tendit in ipsum per opus, sicut
+<lb ed="Bd" n="55"/>in eo est qui credit prime veritati, non
+<lb ed="Bd" n="56"/>tendendo in eain : ergo sicut fides infor~
+<lb ed="Bd" n="57"/>mis est in eo qui non tendit, ita charitas
+<lb ed="Bd" n="58"/>potest esse informis.
+</p>
+            <p xml:id="alalal-e99446-d1e620">
+               <lb ed="Bd" n="59"/>2. Item, Aliae quae condividuntur, 
+pos<lb break="no" ed="Bd" n="60"/>sunt esse informes et formate, ut fides,
+<lb ed="Bd" n="61"/>et spes : ergo et ipsa.
+</p>
+            <p xml:id="alalal-e99446-d1e629">
+               <lb ed="Bd" n="62"/>3. Item, Sicut ex parte intellectus sive
+<lb ed="Bd" n="63"/>rationis, et ex parte irascibilis 
+relingui<lb break="no" ed="Bd" n="64"/>tur homini cadenti in peccatum, aliquid
+<lb ed="Bd" n="65"/>informe, quo revertatur facilius ita
+<lb ed="Bd" n="66"/>multo amplius debet aliquid relinqui ex
+<lb ed="Bd" n="67"/>parte concupiscibilis, cum illa magis 
+in<lb break="no" ed="Bd" n="68"/>digeat, eo quod ipsa est corrupta et 
+in<lb break="no" ed="Bd" n="69"/>fecta.
+</p>
+            <p xml:id="alalal-e99446-d1e650">
+               <lb ed="Bd" n="70"/>SED CONTRA:
+<lb ed="Bd" n="71"/>Forma numquam potest esse informis:
+<lb ed="Bd" n="72"/>charilas autem est forma : ergo non 
+pot<lb break="no" ed="Bd" n="73"/>est esse informis.
+</p>
+            <p xml:id="alalal-e99446-d1e661">
+               <lb ed="Bd" n="74"/>Solutio Dicendum videtur mihi sine
+<lb ed="Bd" n="75"/>prejudicio multorum, hic alia via 
+ince<lb break="no" ed="Bd" n="76"/>dentium, quod charitas non est forma
+<lb ed="Bd" n="77"/>virtutis, nec secundum speciem virtutis,
+<lb ed="Bd" n="78"/>nec etiam secundum esse gratia gratum
+<lb ed="Bd" n="79"/>facientis, quod invenitur in singulis 
+vir<lb break="no" ed="Bd" n="80"/>tutibus quae sunt cum gratia gratum 
+fa<lb break="no" ed="Bd" n="81"/>ciente : sed charitas informat im ratione
+<lb ed="Bd" n="82"/>triplicis cause quae respicit causatum ut
+<lb ed="Bd" n="83"/>forma, scilicet ut efficiens, cujus species
+<lb ed="Bd" n="84"/>secundum aliquid manet in causato : et
+<lb ed="Bd" n="85"/>ut forma quaedam : et ut finis qui est
+<lb ed="Bd" n="86"/>forma in esse optimo. Quod qualiter sit,
+<lb ed="Bd" n="87"/>videndum est quae sunt in actu virtutis,
+<lb ed="Bd" n="88"/>ut ex actibus intelligamus etiam de ipsa
+<lb ed="Bd" n="89"/>virtute. In actu autem virtutis est species
+<lb ed="Bd" n="90"/>actus, qua dicitur esse actus hujus 
+virtu<lb break="no" ed="Bd" n="91"/>tis vel ilhus. Similiter in actu illius 
+vir<lb break="no" ed="Bd" n="92"/>tutis est, quod facit dignum vita aeterna,
+<pb ed="#Bd" n="515"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>et hoc convenit cum omnibus actibus 
+vir<lb break="no" ed="Bd" n="2"/>tutum formatarum. In actu etiam est 
+ra<lb break="no" ed="Bd" n="3"/>tio qua est ab agente, scilicet quod est
+<lb ed="Bd" n="4"/>similis dispositioni agentis, in hoc quod
+<lb ed="Bd" n="5"/>est ad finem ultimum quem intendit
+<lb ed="Bd" n="6"/>agens, et ille est prima bonitas quae 
+in<lb break="no" ed="Bd" n="7"/>tenditur. Quartum quod est in actu, est
+<lb ed="Bd" n="8"/>liberalitas ipsius, quod non est ex ratione
+<lb ed="Bd" n="9"/>utilitatis, vel delectationis private, sed ex
+<lb ed="Bd" n="10"/>hiberalitate amoris summi boni. Similiter
+<lb ed="Bd" n="11"/>ex parte finis video tria, scilicet 
+mate<lb break="no" ed="Bd" n="12"/>riam in quam terminatur actus : et 
+ralio<lb break="no" ed="Bd" n="13"/>nem, quare potius super hance materiam
+<lb ed="Bd" n="14"/>quam super aliam : et finem ultimum,
+<lb ed="Bd" n="15"/>qui intenditur ab operante. Et ut hoc
+<lb ed="Bd" n="16"/>manifestius fiat, demus exemplum in 
+na<lb break="no" ed="Bd" n="17"/>turalibus et civilibus.
+</p>
+            <p xml:id="alalal-e99446-d1e746">
+               <lb ed="Bd" n="18"/>In naturalibus autem videmus 
+virlu<lb break="no" ed="Bd" n="19"/>tem informativam in semine tritici, in
+<lb ed="Bd" n="20"/>cujus actu invenimus speciem virtutis,
+<lb ed="Bd" n="21"/>quam habet ex hoc quod est virtus gran!
+<lb ed="Bd" n="22"/>tritici, et non bhordei vel alterius : et 
+in<lb break="no" ed="Bd" n="23"/>venimus in eo actum ignis, per 
+digestio<lb break="no" ed="Bd" n="24"/>nem separantis in humido purum ab
+<lb ed="Bd" n="25"/>impuro : et invenimus in eo virtutem
+<lb ed="Bd" n="26"/>ceelestem per motum ad esse terminatum
+<lb ed="Bd" n="27"/>in specie et figura : et invenimus etiam
+<lb ed="Bd" n="28"/>expeditionem ad actum, secundum quod
+<lb ed="Bd" n="29"/>est magis vel minus impedita : et 
+inve<lb break="no" ed="Bd" n="30"/>nimus ex parte finis ipsitus materiam in
+<lb ed="Bd" n="31"/>qua imprimit speciem quam intendit 
+po<lb break="no" ed="Bd" n="32"/>tius, quam in alia, et speciem impressam,
+<lb ed="Bd" n="33"/>et ullimum intentum, ut salvetur natura
+<lb ed="Bd" n="34"/>communis in tali successione. Et nos 
+di<lb break="no" ed="Bd" n="35"/>cimus, quod ista sunt a diversis : 
+quo<lb break="no" ed="Bd" n="36"/>niam species virtulis est a forma dante
+<lb ed="Bd" n="37"/>esse speciali virtuti, et opus digestionis
+<lb ed="Bd" n="38"/>ab actu caloris ignis, et operatio ad esse
+<lb ed="Bd" n="39"/>a calore ceeli, et expeditio ejus a loco ct
+<lb ed="Bd" n="40"/>calore solis, juvantibus intrinsecis 
+virtu<lb break="no" ed="Bd" n="41"/>tibus quae disponunt subjectum. Ex parte
+<lb ed="Bd" n="42"/>autem finis, quod talis querilur materia,
+<lb ed="Bd" n="43"/>est a natura forme quae quaerit materiam
+<lb ed="Bd" n="44"/>debitam, et finis generationis est ab
+<lb ed="Bd" n="45"/>agente, et finis intentionis est ab 
+univer<lb break="no" ed="Bd" n="46"/>saliter faciente successioncm in 
+gencra<lb break="no" ed="Bd" n="47"/>tione, non una, sed multis.
+</p>
+            <p xml:id="alalal-e99446-d1e814">
+               <lb ed="Bd" n="48"/>Item, Videmus etiam in civilibus, in
+<lb ed="Bd" n="49"/>quibus una mechanica virtus est sub
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>aliis : sicut equestris movet freanorum
+<lb ed="Bd" n="51"/>factricem ad hoc quod fiat frenum 
+com<lb break="no" ed="Bd" n="52"/>petens equo : et ideo una est forma 
+fre<lb break="no" ed="Bd" n="53"/>ni quae est ab illa quae est frenorum 
+fa<lb break="no" ed="Bd" n="54"/>ctrix, et alia docet applicare equo formam
+<lb ed="Bd" n="55"/>illam. Similiter charitas (at mihi 
+vide<lb break="no" ed="Bd" n="56"/>tur) nulli virtuti dat esse proprium in
+<lb ed="Bd" n="57"/>specie virtutis, nec dat esse gratia : quia,
+<lb ed="Bd" n="58"/>meo judicio, charitas non est gratia, sed
+<lb ed="Bd" n="59"/>pars ejus, sicut et alia virtus : sed dat ei
+<lb ed="Bd" n="60"/>speciem elfficientis, moventis generaliter,
+<lb ed="Bd" n="61"/>ut scilicet ex amore et liberaliter fiat : et
+<lb ed="Bd" n="62"/>dat ci formam ordinis, id est, ordinantem
+<lb ed="Bd" n="63"/>non ad finem proximum, sed ultimum :
+<lb ed="Bd" n="64"/>qui non intenditur uno actu, sed 
+omni<lb break="no" ed="Bd" n="65"/>bus, et ille est Deus, ut fiat propter 
+sum<lb break="no" ed="Bd" n="66"/>mum bonum quod Deus est: et dat ei
+<lb ed="Bd" n="67"/>tertio conjunctionem cum illo. Aliud
+<lb ed="Bd" n="68"/>enim est ordinare in finem ultimum, et
+<lb ed="Bd" n="69"/>aliud contingere illum : non enim 
+con<lb break="no" ed="Bd" n="70"/>tingeret nisi aliquid amoris essel in 
+qua<lb break="no" ed="Bd" n="71"/>libet virtute : quia cuilibet virtuti speciali
+<lb ed="Bd" n="72"/>si sine amore sit, suflicit contingere 
+pro<lb break="no" ed="Bd" n="73"/>prium finem : sicut etiam frenorum 
+fa<lb break="no" ed="Bd" n="74"/>trici si sit sine equestri formante ipsam,
+<lb ed="Bd" n="75"/>sufficeret consequi formain freni, et non
+<lb ed="Bd" n="76"/>intenderet ulterius qualiter valeret 
+mili<lb break="no" ed="Bd" n="77"/>tari vel equestri.
+</p>
+            <p xml:id="alalal-e99446-d1e884">
+               <lb ed="Bd" n="78"/>Ad primum ergo dicendum, quod forma
+<lb ed="Bd" n="79"/>dicitur hic aliquo modo intrinseca. 
+Ex<lb break="no" ed="Bd" n="80"/>trinseca est qua univeisaliter est 
+mo<lb break="no" ed="Bd" n="81"/>vens : sed quia universaliter movens in
+<lb ed="Bd" n="82"/>merito, non movet nisi influendo speciem
+<lb ed="Bd" n="83"/>suam in alus, ideo amor quidam efficitur
+<lb ed="Bd" n="84"/>intrinsecus virtuti cuilibet. Sed ab illo
+<lb ed="Bd" n="85"/>non amittit speciem: suam, quia est se~
+<lb ed="Bd" n="86"/>cundum bene esse, et non secundum esse
+<lb ed="Bd" n="87"/>simpliciter. Hoc autem bene esse in 
+con<lb break="no" ed="Bd" n="88"/>secutione finis ultimi, qui est charitatis.
+</p>
+            <p xml:id="alalal-e99446-d1e910">
+               <lb ed="Bd" n="89"/>Quod autem charitas non sit forma
+<lb ed="Bd" n="90"/>dans esse, videtur concedendum.
+</p>
+            <p xml:id="alalal-e99446-d1e918">
+               <lb ed="Bd" n="91"/>Similiter et hoc videtur concedendum,
+<lb ed="Bd" n="92"/>quod non dat esse gratuitum, sed tamen
+<lb ed="Bd" n="93"/>dat quantitatem : et hoc ideo, quia esse
+<lb ed="Bd" n="94"/>gratuitum est ex gratia: quantitas 
+au<lb break="no" ed="Bd" n="95"/>tem est secundum aliquid quod est ibi de
+<lb ed="Bd" n="96"/>nostro, quia aliter non esset majus 
+me<lb break="no" ed="Bd" n="97"/>ritum in uno, quam alio : id autem quod
+<lb ed="Bd" n="98"/>maxime ponit ibi de nostro et Lberalis-
+<pb ed="#Bd" n="516"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>sime, est charitas quae facit nos totos
+<lb ed="Bd" n="2"/>superimpendi et hbenter : et ideo 
+secun<lb break="no" ed="Bd" n="3"/>dum quantitatem illius attenditur 
+quan<lb break="no" ed="Bd" n="4"/>titas meriti.
+</p>
+            <p xml:id="alalal-e99446-d1e951">
+               <lb ed="Bd" n="5"/>Si autem objiciatur, quod ab eodem
+<lb ed="Bd" n="6"/>debet esse meritum secundum esse, et
+<lb ed="Bd" n="7"/>secundum quantitatem. Dicendum, quod
+<lb ed="Bd" n="8"/>hoe est falsum : quia hoc in nullo verum
+<lb ed="Bd" n="9"/>est : numquam enim ab eodem est esse,
+<lb ed="Bd" n="10"/>et quantitas in illo esse, nec in natura,
+<lb ed="Bd" n="11"/>nec in gratia.
+</p>
+            <p xml:id="alalal-e99446-d1e969">
+               <lb ed="Bd" n="12"/>Ad id autem quod objicitur contra 
+re<lb break="no" ed="Bd" n="13"/>sponsionem, quod charitas facit tendere
+<lb ed="Bd" n="14"/>omnes in suum finem. Dicendum, quod
+<lb ed="Bd" n="15"/>est finis duplex, scilicet ratio 
+uniuscu<lb break="no" ed="Bd" n="16"/>jusque virtulis in specie, et in illum 
+pot<lb break="no" ed="Bd" n="17"/>est tendere sine charitate, sicut fides in
+<lb ed="Bd" n="18"/>verum, et spes m altum, vel gloriosum,
+<lb ed="Bd" n="19"/>et hujusmodi. Sed est finis ultimus, qui
+<lb ed="Bd" n="20"/>est finis charitatis : et in illum nulla 
+vir<lb break="no" ed="Bd" n="21"/>tus potest tendere nisi mota charitate :
+<lb ed="Bd" n="22"/>et per amorem illius finis quem influit ei
+<lb ed="Bd" n="23"/>charitas, secundum quod motor 
+univer<lb break="no" ed="Bd" n="24"/>salis omnium ad finem illum,
+</p>
+            <p xml:id="alalal-e99446-d1e1000">
+               <lb ed="Bd" n="25"/>Ad aliudquod ulterius objicitur, quod
+<lb ed="Bd" n="26"/>charitas non sit gratia, nec facit esse
+<lb ed="Bd" n="27"/>gratum in ommibus, videtur mihi esse
+<lb ed="Bd" n="28"/>concedendum : quoniam non possum 
+vi<lb break="no" ed="Bd" n="29"/>dere, qualiter rationabiliter possit dict,
+<lb ed="Bd" n="30"/>quod chartas et gratia non differunt nisi
+<lb ed="Bd" n="31"/>per relationem ad subjectum : tamen de
+<lb ed="Bd" n="32"/>hoc amphus habet disputari in If libro
+<lb ed="Bd" n="33"/>Sententiarum.
+</p>
+            <p xml:id="alalal-e99446-d1e1022">
+               <lb ed="Bd" n="34"/>Ad simile etiam hoc quod diestur,
+<lb ed="Bd" n="35"/>quod concupiseibilis sit diffusa in 
+omni<lb break="no" ed="Bd" n="36"/>bus viribus, hoc videtur mihi falsum, 
+sic<lb break="no" ed="Bd" n="37"/>ut probatum est.
+</p>
+            <p xml:id="alalal-e99446-d1e1033">
+               <lb ed="Bd" n="38"/>Ad ww quod ulterius quieritur, Quare
+<lb ed="Bd" n="39"/>non possit esse informis ? Dicendum,
+<lb ed="Bd" n="40"/>quod non est haec causa quam quidam
+<lb ed="Bd" n="41"/>dicunt, quia ipsa sit gratia gralum 
+fa<lb break="no" ed="Bd" n="42"/>ciens : sed hujus sunt alias quatuor 
+cau<lb break="no" ed="Bd" n="43"/>sa : quarum prima esl, quod ipsa est 
+do<lb break="no" ed="Bd" n="44"/>num primum in quo omnia alia 
+donan<lb break="no" ed="Bd" n="45"/>tur. Dico autem primum ex parte dantis,
+<lb ed="Bd" n="46"/>non ex parte nostra : quia charitas est
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="47"/>post fidem ex parte nostra, ut supra 
+pro<lb break="no" ed="Bd" n="48"/>batum est : sed primum ex parte dantis
+<lb ed="Bd" n="49"/>est charilas : et ideo si primum esset 
+in<lb break="no" ed="Bd" n="50"/>forme, vel fieri posset, oporteret ut aliud
+<lb ed="Bd" n="51"/>prius eo esset per quod formaretur, quod
+<lb ed="Bd" n="52"/>non potest esse, cum in nullo genere sit
+<lb ed="Bd" n="53"/>aliquid prius primo. Alia causa est, quia
+<lb ed="Bd" n="54"/>ipsa est secundum totum posse hominis,
+<lb ed="Bd" n="55"/>nulla autem alia : et ideo impossibile
+<lb ed="Bd" n="56"/>est, quod sit sine gratia gratum faciente;
+<lb ed="Bd" n="57"/>et hoc sic patet : Quod enim credit Deo
+<lb ed="Bd" n="58"/>super omnia, non facit propter hoc quid.
+<lb ed="Bd" n="59"/>quid potest, nec qui sperat, et sic de
+<lb ed="Bd" n="60"/>aliis : sed qui diligit Deum propter se et
+<lb ed="Bd" n="61"/>super omnia, mhil sui retinet quod non
+<lb ed="Bd" n="62"/>in dilectione Dei expendat. Tertia causa
+<lb ed="Bd" n="63"/>est, quia ipsa fundata est in affectu 
+inti<lb break="no" ed="Bd" n="64"/>mo, sicut notatum invenies in libro I 
+Sen<lb break="no" ed="Bd" n="65"/>gentiarum ? : et ideo nihil informitatis 
+re<lb break="no" ed="Bd" n="66"/>linguitur in affectu in quo ipsa. est.
+<lb ed="Bd" n="67"/>Quarta causa est, quia ipsa est similitudo
+<lb ed="Bd" n="68"/>bonitatis ut est bonitas divina : et ideo
+<lb ed="Bd" n="69"/>etiam tendit in ipsam ut est in ratione 
+bo<lb break="no" ed="Bd" n="70"/>nitatis, etnon in ratione alia, et non 
+pot<lb break="no" ed="Bd" n="71"/>est non esse similis illi optimo : et sic
+<lb ed="Bd" n="72"/>non est de fide quae est de veritate, et ideo
+<lb ed="Bd" n="73"/>potest deficere ratio bonitatis quae format
+<lb ed="Bd" n="74"/>in specie virtutis : et sic similiter sine
+<lb ed="Bd" n="75"/>charitate est dilectio naturalis, et ideo
+<lb ed="Bd" n="76"/>non format nisi advenicnte charitate 
+al<lb break="no" ed="Bd" n="77"/>terius nature.
+</p>
+            <p xml:id="alalal-e99446-d1e1125">
+               <lb ed="Bd" n="78"/>Ad aliud dicendum, quod ratio dicta
+<lb ed="Bd" n="79"/>est, quare non est simile.
+</p>
+            <p xml:id="alalal-e99446-d1e1132">
+               <lb ed="Bd" n="80"/>Av utrimem dicendum, quod homini
+<lb ed="Bd" n="81"/>cadenti ex parte illa nihil relinquitur,
+<lb ed="Bd" n="82"/>quia ejus casus est per amorem 
+contra<lb break="no" ed="Bd" n="83"/>rium veritati : sed non cadit per aliquid
+<lb ed="Bd" n="84"/>contrarium fidei, vel spel: et ideo non
+<lb ed="Bd" n="85"/>destruuntur in toto fides, et spes. Vel si
+<lb ed="Bd" n="86"/>dicas, quod cadat per contrarium fidel,
+<lb ed="Bd" n="87"/>vel spei : tune sequitur inevitabiliter,
+<lb ed="Bd" n="88"/>quod illa in toto destruitur, sicut et 
+cha<lb break="no" ed="Bd" n="89"/>ritas : quia infidelis non habet fidem, neo
+<lb ed="Bd" n="90"/>desperatus spem : sed de hoc non 
+loqui<lb break="no" ed="Bd" n="91"/>mur, sed de cadente in malis moribus
+<lb ed="Bd" n="92"/>per appetitum boni commutabilis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

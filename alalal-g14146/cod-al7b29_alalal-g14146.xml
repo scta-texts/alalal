@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="73"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g14146"><!-- l4d3a5 -->
+            <head xml:id="alalal-g14146-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-g14146-Hd1e101" type="question-title">Utrum in baptismo necessaria sit trina
+immersio, aut una sufficiat ?</head>
+            <p xml:id="alalal-g14146-d1e104">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="10"/>ARTICULUS V.
+<lb ed="#Be" n="11"/>Utrum in baptismo necessaria sit trina
+<lb ed="#Be" n="12"/>immersio, aut una sufficiat ?
+</p>
+            <p xml:id="alalal-g14146-d1e115">
+               <lb ed="#Be" n="13"/>Deinde queritur de hoc quod dicit:
+<lb ed="#Be" n="14"/>
+               <quote xml:id="alalal-g14146-Qd1e121"> De immersione vero si queritur, etc. </quote>
+            </p>
+            <p xml:id="alalal-g14146-d1e124">
+               <lb ed="#Be" n="15"/>Videtur enim semel esse 
+immergen<lb break="no" ed="#Be" n="16"/>dum tantum : quia
+<lb ed="#Be" n="17"/>1. Per verbum exprimitur trinitas 
+per<lb break="no" ed="#Be" n="18"/>sonarum : cum ergo etiam unitas debet
+<lb ed="#Be" n="19"/>exprimi essentiae, videtur quod illa 
+ex<lb break="no" ed="#Be" n="20"/>primenda sit in factis: ergo per modum
+<lb ed="#Be" n="21"/>immersionis: ergo semel immergendum
+<lb ed="#Be" n="22"/>est, et revelandum, ut significetur unitas
+<lb ed="#Be" n="23"/>essentiae.
+</p>
+            <p xml:id="alalal-g14146-d1e147">
+               <lb ed="#Be" n="24"/>2. Item, Per immersionem 
+configura<lb break="no" ed="#Be" n="25"/>mur sepulture : sed Christus semel 
+se<lb break="no" ed="#Be" n="26"/>pultus est et resurrexit: ergo semel 
+im<lb break="no" ed="#Be" n="27"/>mergendum est, et relevandum.
+</p>
+            <p xml:id="alalal-g14146-d1e158">
+               <lb ed="#Be" n="28"/>3. Item, Hoc videtur dicere 
+Chryso<lb break="no" ed="#Be" n="29"/>stomus super Joannem, sic: <quote xml:id="alalal-g14146-Qd1e164"> Sicut in
+<lb ed="#Be" n="30"/>quodam sepulcro in aqua 
+submergenti<lb break="no" ed="#Be" n="31"/>bus nobis capita, vetus homo sepelitur,
+<lb ed="#Be" n="32"/>et submersus deorsum occultatur totus
+<lb ed="#Be" n="33"/>omnino: deinde respicientibus nobis ex
+<lb ed="#Be" n="34"/>aqua novus ascendit. </quote> Rursus, <quote xml:id="alalal-g14146-Qd1e177"> Sicut
+<cb ed="#Be" n="c"/>
+                  <lb ed="#Be" n="35"/>enim facile baptizari et respicere, ita facile
+<lb ed="#Be" n="36"/>Deo sepelire hominem veterem, et 
+mon<lb break="no" ed="#Be" n="37"/>strare novum *. </quote> Hoc autem totum 
+pot<lb break="no" ed="#Be" n="38"/>est fieri immersione una. Ergo superfluae
+<lb ed="#Be" n="39"/>sunt aliz, ut videtur.
+</p>
+            <p xml:id="alalal-g14146-d1e194">
+               <lb ed="#Be" n="40"/>SED CONTRA :
+<lb ed="#Be" n="41"/>1. Chrysostomus, ibidem, <quote xml:id="alalal-g14146-Qd1e200"> Triplex
+<lb ed="#Be" n="42"/>fit immersio, ut discas quoniam virtus
+<lb ed="#Be" n="43"/>Patris et Filii et Spiritus sancti omnia
+<lb ed="#Be" n="44"/>hec implet. </quote>
+            </p>
+            <p xml:id="alalal-g14146-d1e210">
+               <lb ed="#Be" n="45"/>2. Item, Damascenus, <quote xml:id="alalal-g14146-Qd1e214"> Quoniam
+<lb ed="#Be" n="46"/>typus mortis Christi baptisma, per tres
+<lb ed="#Be" n="47"/>immersiones tres dies sepulture 
+signi<lb break="no" ed="#Be" n="48"/>ficantur *. </quote>
+            </p>
+            <p xml:id="alalal-g14146-d1e224">
+               <lb ed="#Be" n="49"/>3. Item, Dionysius in libro de £
+ecle<lb break="no" ed="#Be" n="50"/>stastica hierarchia : <quote xml:id="alalal-g14146-Qd1e230"> Sacre 
+baptizando<lb break="no" ed="#Be" n="51"/>rum symbolica doctrina mystice docet
+<lb ed="#Be" n="52"/>tribus in aqua dimersionibus et 
+eleva<lb break="no" ed="#Be" n="53"/>tionibus divinam triduo totidemque 
+no<lb break="no" ed="#Be" n="54"/>ctibus in sepultura Jesu vite datoris 
+imi<lb break="no" ed="#Be" n="55"/>tari mortem, quantum possibile viris
+<lb ed="#Be" n="56"/>divina imitatio %. </quote>
+            </p>
+            <p xml:id="alalal-g14146-d1e247">
+               <lb ed="#Be" n="57"/>Ad hoc etiam Magister in Littera 
+plu<lb break="no" ed="#Be" n="58"/>rima adducit.
+</p>
+            <p xml:id="alalal-g14146-d1e255">
+               <lb ed="#Be" n="59"/>Sed Tunc queritur :
+<lb ed="#Be" n="60"/>1. Ratione Ecclesiarum semel tantum
+<lb ed="#Be" n="61"/>immergentium.
+</p>
+            <p xml:id="alalal-g14146-d1e264">
+               <lb ed="#Be" n="62"/>2. Item, Quedam Ecclesie non 
+im<lb break="no" ed="#Be" n="63"/>mergunt, sed semel vel bis aqua 
+perfun<lb break="no" ed="#Be" n="64"/>dunt: ergo videtur, quod non sit 
+baptis<lb break="no" ed="#Be" n="65"/>mus qui sic exhibetur.
+</p>
+            <p xml:id="alalal-g14146-d1e275">
+               <pb ed="#Be" n="74"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>3. Item, Quidam sacerdotes dividunt
+<lb ed="#Be" n="2"/>invocationem Trinitatis secundum 
+nume<lb break="no" ed="#Be" n="3"/>rum immersionum: quia in prima 
+im<lb break="no" ed="#Be" n="4"/>mersione dicunt, In nomine Patris, et
+<lb ed="#Be" n="5"/>in secunda, In nomine Filii, et in tertia,
+<lb ed="#Be" n="6"/>In nomine Spiritus sancti.
+</p>
+            <p xml:id="alalal-g14146-d1e295">
+               <lb ed="#Be" n="7"/>Et queritur secundum illos si decedat
+<lb ed="#Be" n="8"/>baptizandus in prima immersione facta
+<lb ed="#Be" n="9"/>ante secundam, utrum sit baptizatus ?
+</p>
+            <p xml:id="alalal-g14146-d1e304">
+               <lb ed="#Be" n="10"/>Et videtur, quod non: quia non est 
+in<lb break="no" ed="#Be" n="11"/>vocatio Trinitatis completa: ergo non est
+<lb ed="#Be" n="12"/>ibi forma.
+</p>
+            <p xml:id="alalal-g14146-d1e313">
+               <lb ed="#Be" n="13"/>Item, Sepulture Christi non est 
+con<lb break="no" ed="#Be" n="14"/>figuratus : ergo non mortuus peccato:
+<lb ed="#Be" n="15"/>ergo videtur, quod talis non sit 
+baptiza<lb break="no" ed="#Be" n="16"/>tus.
+</p>
+            <p xml:id="alalal-g14146-d1e325">
+               <lb ed="#Be" n="17"/>Soxutio. Dicendum ad hoc, quod 
+in<lb break="no" ed="#Be" n="18"/>ter omnes consuetudines magis 
+rationa<lb break="no" ed="#Be" n="19"/>bilis est consuetudo Ecclesiae Romane,
+<lb ed="#Be" n="20"/>que ter immergit: quia in illa 
+consuetu<lb break="no" ed="#Be" n="21"/>dine actus conformatur forme sepulturz
+<lb ed="#Be" n="22"/>et effectui baptismi: quia, sicut dicit 
+Au<lb break="no" ed="#Be" n="23"/>gustinus, una sua morte nos Christus a
+<lb ed="#Be" n="24"/>duplici morte absolvit, scilicet culpe, et
+<lb ed="#Be" n="25"/>poens aeterne : vel anime, et corporis:
+<lb ed="#Be" n="26"/>quia licet corpus moriatur, tamen in
+<lb ed="#Be" n="27"/>morte detineri non potest. Si tamen 
+se<lb break="no" ed="#Be" n="28"/>mel tantum immergatur, puto 
+corrigen<lb break="no" ed="#Be" n="29"/>dum esse baptizantem: sed infans nullo
+<lb ed="#Be" n="30"/>modo rebaptizandus est: quia plenum
+<lb ed="#Be" n="31"/>habet baptismi sacramentum.
+</p>
+            <p xml:id="alalal-g14146-d1e360">
+               <lb ed="#Be" n="32"/>Ad primum ergo dicendum, quod actus
+<lb ed="#Be" n="33"/>debet respondere forme : quia in forma
+<lb ed="#Be" n="34"/>exprimitur unitas essentiae per hoc quod
+<lb ed="#Be" n="35"/>dicitur, Jn nomine, et in figura respondet
+<lb ed="#Be" n="36"/>huic unitati unitas baptismi, et Trinitati
+<lb ed="#Be" n="37"/>trina immersio debet respondere.
+</p>
+            <p xml:id="alalal-g14146-d1e376">
+               <lb ed="#Be" n="38"/>Ad aliud dicendum, quod non tantum
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="39"/>configurari debemus sepulture, sed etiam
+<lb ed="#Be" n="40"/>modo sepulture, ut habitum est in 
+au<lb break="no" ed="#Be" n="41"/>ctoritatibus inductis.
+</p>
+            <p xml:id="alalal-g14146-d1e389">
+               <lb ed="#Be" n="42"/>Ad aliud dicendum, quod ut patet in
+<lb ed="#Be" n="43"/>sequentibus, Chrysostomus non intendit,
+<lb ed="#Be" n="44"/>quod semel tantum sit immergendum,
+<lb ed="#Be" n="45"/>sed quod sit immergendum absolute, et
+<lb ed="#Be" n="46"/>postea docet formam immersionis.
+</p>
+            <p xml:id="alalal-g14146-d1e402">
+               <lb ed="#Be" n="47"/>Ad id quod queritur, Utrum divi- Adqu
+<lb ed="#Be" n="48"/>denda sit forma secundum tres 
+immer<lb break="no" ed="#Be" n="49"/>siones ?
+</p>
+            <p xml:id="alalal-g14146-d1e411">
+               <lb ed="#Be" n="50"/>Dico quod non, sed continue 
+pro<lb break="no" ed="#Be" n="51"/>nuntianda est propter periculum 
+infan<lb break="no" ed="#Be" n="52"/>tium. Si tamen aliquis dividat, et infans
+<lb ed="#Be" n="53"/>moriatur, Patre nominato, et una 
+im<lb break="no" ed="#Be" n="54"/>mersione facta, dico quod baptizatus est :
+<lb ed="#Be" n="55"/>quia supplet tunc summus sacerdos quod
+<lb ed="#Be" n="56"/>minister explere non potuit : et ideo
+<lb ed="#Be" n="57"/>puto esse dicendum, si nominato uno,
+<lb ed="#Be" n="58"/>sacerdos moriatur, quod ille puer est
+<lb ed="#Be" n="59"/>baptizatus propter supplementum 
+sum<lb break="no" ed="#Be" n="60"/>mi sacerdotis. °
+</p>
+            <p xml:id="alalal-g14146-d1e438">
+               <lb ed="#Be" n="61"/>Ad aliud dicendum, quod perfundens
+<lb ed="#Be" n="62"/>aqua totum corpus, vel quando potior
+<lb ed="#Be" n="63"/>pars, id est, caput immergitur et tingitur
+<lb ed="#Be" n="64"/>aquis, baptizatur: sed non videtur mihi
+<lb ed="#Be" n="65"/>esse laudabilis consuetudo, sed 
+immer<lb break="no" ed="#Be" n="66"/>gendi consuetudo laudabilior est.
+</p>
+            <p xml:id="alalal-g14146-d1e454">
+               <lb ed="#Be" n="67"/>Quod autem quidam querunt, utrum
+<lb ed="#Be" n="68"/>in balneo fiat baptismus, vel aqua calida
+<lb ed="#Be" n="69"/>vel thermis ?
+</p>
+            <p xml:id="alalal-g14146-d1e463">
+               <lb ed="#Be" n="70"/>Constat, quod sic: quinimo si 
+sacer<lb break="no" ed="#Be" n="71"/>dotes facerent fieri aquam calidam, 
+me<lb break="no" ed="#Be" n="72"/>lius esset, quia quandoque ita 
+penetran<lb break="no" ed="#Be" n="73"/>tur frigore aque parvuli, quod 
+contra<lb break="no" ed="#Be" n="74"/>hunt mortales infirmitates, et moriuntur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

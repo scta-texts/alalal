@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="525"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f02321"><!-- l3d27a6 -->
+            <head xml:id="alalal-f02321-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-f02321-Hd1e101" type="question-title">An mandatum de Deo diligendo et de
+prozimo, sift unum mandatum vel
+due ?</head>
+            <p xml:id="alalal-f02321-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="46"/>ARTICULUS VI.
+<lb ed="Bd" n="47"/>An mandatum de Deo diligendo et de
+<lb ed="Bd" n="48"/>prozimo, sift unum mandatum vel
+<lb ed="Bd" n="49"/>due ?
+</p>
+            <p xml:id="alalal-f02321-d1e117">
+               <lb ed="Bd" n="50"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="51"/>ibi, G, in medio: <quote xml:id="alalal-f02321-Qd1e123"> Pro quo etiam duo
+<lb ed="Bd" n="52"/>sunt mandata, etc. </quote>
+            </p>
+            <p xml:id="alalal-f02321-d1e129">
+               <lb ed="Bd" n="53"/>Videtur enim non debere esse nisi
+<lb ed="Bd" n="54"/>unum inandatum : quia
+</p>
+            <p xml:id="alalal-f02321-d1e137">
+               <lb ed="Bd" n="55"/>1. Unius rationis operis unum est
+<lb ed="Bd" n="56"/>mandatum.
+</p>
+            <p xml:id="alalal-f02321-d1e144">
+               <lb ed="Bd" n="57"/>2. Item, Duo sunt mandata de hoc,
+<lb ed="Bd" n="58"/>
+               <quote xml:id="alalal-f02321-Qd1e150"> Non concupisces uxorem, et, Non 
+con<lb break="no" ed="Bd" n="59"/>cupisces rem : </quote> quia alia est ratio con
+<lb ed="Bd" n="60"/>cupiscentiae in libidine carnis, elin 
+ava<lb break="no" ed="Bd" n="61"/>rilia oculorum: ergo ab opposito ubi
+<lb ed="Bd" n="62"/>una ratio movens, ibi idem mandatum :
+<lb ed="Bd" n="63"/>sed concessum est ante in Deo et 
+proxi<lb break="no" ed="Bd" n="64"/>mo unam esse rationem moventem :
+<lb ed="Bd" n="65"/>ergo unum et idem debet esse 
+manda<lb break="no" ed="Bd" n="66"/>tum, ut videtur.
+</p>
+            <p xml:id="alalal-f02321-d1e171">
+               <lb ed="Bd" n="67"/>SED CONTRA :
+</p>
+            <p xml:id="alalal-f02321-d1e176">
+               <lb ed="Bd" n="68"/>Precepta multiplicantur secundum 
+ra<lb break="no" ed="Bd" n="69"/>tiones opcrum : quod patet, quia multa
+<lb ed="Bd" n="70"/>sunt negativa propter multas rationes
+<lb ed="Bd" n="71"/>corruptionum, Cum igitur non sit una
+<lb ed="Bd" n="72"/>ratio operandi circa dilectum quod est
+<lb ed="Bd" n="73"/>Deus, et circa dilectum quod est 
+proxi<lb break="no" ed="Bd" n="74"/>mus, licet propter Deum diligatur, non
+<lb ed="Bd" n="75"/>erit unum mandataum.
+</p>
+            <p xml:id="alalal-f02321-d1e196">
+               <lb ed="Bd" n="76"/>Solutio Dicendum, quod concedimus
+<lb ed="Bd" n="77"/>ultimam rationem : et ideo etiam dici~
+<lb ed="Bd" n="78"/>mus ulterius, quod licet sint tantum duo
+<lb ed="Bd" n="79"/>mandata dilectionis, qualitas eorum 
+ex<lb break="no" ed="Bd" n="80"/>primitur penes ea circa quae operari
+<lb ed="Bd" n="81"/>precipimur : quoniam si consideretur
+<lb ed="Bd" n="82"/>ulterius ratio operis circa Deum, et ratio
+<lb ed="Bd" n="83"/>diversa operis circa proximum, 
+expli<lb break="no" ed="Bd" n="84"/>cabitur illa ratio quae est circa Deum per
+<pb ed="#Bd" n="526"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>tria praecepta, et illa ratio quae est circa
+<lb ed="Bd" n="2"/>proximum explicabitur per septem : et
+<lb ed="Bd" n="3"/>ideo sunt duo modo praedicto, quae 
+spe<lb break="no" ed="Bd" n="4"/>cificari habent per decem, ut infra patebit.
+</p>
+            <p xml:id="alalal-f02321-d1e231">
+               <lb ed="Bd" n="5"/>Dicendum ergo ad primum, quod 
+fal<lb break="no" ed="Bd" n="6"/>sum supponit : quia ratio operis non
+<lb ed="Bd" n="7"/>sumitur ex universitate et multitudine
+<lb ed="Bd" n="8"/>habitus, sed potius ex rationibus quibus
+<lb ed="Bd" n="9"/>sumitur vel peccatur circa id quod 
+ope<lb break="no" ed="Bd" n="10"/>ramur : et hoc est Deus et proximus.
+</p>
+            <p xml:id="alalal-f02321-d1e248">
+               <lb ed="Bd" n="11"/>Ad aliud dicendum, quod duo sunt
+<lb ed="Bd" n="12"/>illa mandata : quia diversis modis 
+pec<lb break="no" ed="Bd" n="13"/>catur circa id quod est proximi per con~
+<lb ed="Bd" n="14"/>cupiscentiam : est enim uxor ordinata ad
+<lb ed="Bd" n="15"/>conservationem specici, et bona fortune
+<lb ed="Bd" n="16"/>ad continuationem individui : et ita
+<lb ed="Bd" n="17"/>etiam diverse rationes operandi circa
+<lb ed="Bd" n="18"/>dilectum, quod est Deus, et dilectum
+<lb ed="Bd" n="19"/>quod est proximus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

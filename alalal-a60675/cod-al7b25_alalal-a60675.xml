@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 21</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 21</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="303"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a60675"><!-- l1d9a21 -->
+            <head xml:id="alalal-a60675-Hd1e99">Articulus 21</head>
+            <head xml:id="alalal-a60675-Hd1e101" type="question-title">An Filius semper generetur a Patre, stout
+splendor a lumine ?</head>
+            <p xml:id="alalal-a60675-d1e104">
+               <pb ed="#Ba" n="303"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ARTICULUS XXI.
+<lb ed="#Ba" n="2"/>An Filius semper generetur a Patre, stout
+<lb ed="#Ba" n="3"/>splendor a lumine ?
+</p>
+            <p xml:id="alalal-a60675-d1e117">
+               <lb ed="#Ba" n="4"/>Deinde quaeritur de hoc quod dicit:
+<lb ed="#Ba" n="5"/>
+               <quote xml:id="alalal-a60675-Qd1e123"> Quoties ortum fuerit lumen ex quo
+<lb ed="#Ba" n="6"/>splendor oritur, etc. </quote>
+            </p>
+            <p xml:id="alalal-a60675-d1e129">
+               <lb ed="#Ba" n="7"/>Hoc enim videtur falsum : quia 
+secun<lb break="no" ed="#Ba" n="8"/>dum hoc Filius multoties generaretur,
+<lb ed="#Ba" n="9"/>quod hereticum est.
+</p>
+            <p xml:id="alalal-a60675-d1e139">
+               <lb ed="#Ba" n="10"/>Responsio. Dicendum quod non 
+itera<lb break="no" ed="#Ba" n="11"/>tur divina generatio, sicut splendor 
+ite<lb break="no" ed="#Ba" n="12"/>ratur : sed quia generatio non dicit nisi
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="13"/>rationem qua Filius est a Patre : et illa
+<lb ed="#Ba" n="14"/>continue demonstratur, et non semel et
+<lb ed="#Ba" n="15"/>deficit : ideo recipit fides, quod Filius
+<lb ed="#Ba" n="16"/>semper generatur ; et ex hoc tunc non
+<lb ed="#Ba" n="17"/>sequitur, quod numquam generatio ejus
+<lb ed="#Ba" n="18"/>perficiatur, sed quod ratio existentie 
+Fi<lb break="no" ed="#Ba" n="19"/>liia Patre continue demonstretur in 
+Pa<lb break="no" ed="#Ba" n="20"/>tre et Filio.
+</p>
+            <p xml:id="alalal-a60675-d1e168">
+               <lb ed="#Ba" n="21"/>Qualiter autem splendor continue 
+ge<lb break="no" ed="#Ba" n="22"/>neratur a luce, probat Augustinus in libro
+<lb ed="#Ba" n="23"/>VI supra Genesim, sic : Quod 
+illumina<lb break="no" ed="#Ba" n="24"/>tum est, non illuminatur amplius : sed aer
+<lb ed="#Ba" n="25"/>continue illuminatur a sole presente 
+so<lb break="no" ed="#Ba" n="26"/>le : ergo numquam potest dici, quod 
+il<lb break="no" ed="#Ba" n="27"/>luminatus sit : et in talibus simul sunt
+<lb ed="#Ba" n="28"/>illuminari, et iluminatum esse : sed 
+ta<lb break="no" ed="#Ba" n="29"/>men usus habet, quod illuminari dicitur,
+<lb ed="#Ba" n="30"/>quia nune primo recipit lumen : 
+illumi<lb break="no" ed="#Ba" n="31"/>natus autem, quando jam recipit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

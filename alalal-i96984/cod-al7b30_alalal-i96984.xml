@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="468"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i96984"><!-- l4d42a1 -->
+            <head xml:id="alalal-i96984-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-i96984-Hd1e101" type="question-title">An sit aliqua spiritualis cognatio ?</head>
+            <p xml:id="alalal-i96984-d1e104">
+               <lb ed="#Bf" n="26"/>ARTICULUS I.
+<lb ed="#Bf" n="27"/>An sit aliqua spiritualis cognatio ?
+</p>
+            <p xml:id="alalal-i96984-d1e111">
+               <lb ed="#Bf" n="28"/>Incidunt autem hic questiones tres
+<lb ed="#Bf" n="29"/>circa principium, scilicet an aliqua sit
+<lb ed="#Bf" n="30"/>spiritualis cognatio?
+<pb ed="#Bf" n="469"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Secunda est, Quie sit spiritualis 
+pro<lb break="no" ed="#Bf" n="2"/>ximitas ?
+<lb ed="#Bf" n="3"/>Tertia, An impediat matrimonium 
+con<lb break="no" ed="#Bf" n="4"/>trahendum et dirimat contractum ?
+</p>
+            <p xml:id="alalal-i96984-d1e133">
+               <lb ed="#Bf" n="5"/>Ad prim sic proceditur :
+<lb ed="#Bf" n="6"/>1. Aut unio spiritus transit ad unionem
+<lb ed="#Bf" n="7"/>carnis, aut non. Si sic : ergo in omnibus
+<lb ed="#Bf" n="8"/>in quibus est unio spiritus, transitur ad
+<lb ed="#Bf" n="9"/>unionem carnis : sed inter omnes 
+haben<lb break="no" ed="#Bf" n="10"/>tes charitatem est unio spiritus : ergo 
+in<lb break="no" ed="#Bf" n="11"/>ter omnes habentes charitatem transitur
+<lb ed="#Bf" n="12"/>ad unionem carnis : ergo nullus habens
+<lb ed="#Bf" n="13"/>charitatem, posset sibi copulare uxorem
+<lb ed="#Bf" n="14"/>habentem charitatem, quod falsum est.
+<lb ed="#Bf" n="15"/>Si autem non transitur, tunc spiritualis
+<lb ed="#Bf" n="16"/>ptoximitas non impedit matrimonium.
+</p>
+            <p xml:id="alalal-i96984-d1e163">
+               <lb ed="#Bf" n="17"/>2. Item, Sicut dicit Dionysius in libro
+<lb ed="#Bf" n="18"/>Il Ecelesiastice hierarchix : <quote xml:id="alalal-i96984-Qd1e169"> Compater
+<lb ed="#Bf" n="19"/>non efficitur hic anadochus spiritualis
+<lb ed="#Bf" n="20"/>filii : </quote> sed offictum anadochi est officium
+<lb ed="#Bf" n="21"/>imbuentis et instrumentis : ergo habens
+<lb ed="#Bf" n="22"/>officium imbuentis et instruentis non
+<lb ed="#Bf" n="23"/>posset matrimonialiter jungi puelle
+<lb ed="#Bf" n="24"/>quam docet et imbuit, quod iterum est
+<lb ed="#Bf" n="25"/>falsum : ergo videtur, quod nulla sit 
+pro<lb break="no" ed="#Bf" n="26"/>ximitas spiritualis.
+</p>
+            <p xml:id="alalal-i96984-d1e190">
+               <lb ed="#Bf" n="27"/>3. Item, Quod caro est propinqua 
+car<lb break="no" ed="#Bf" n="28"/>ni, facit propagatio ex carne una : ergo
+<lb ed="#Bf" n="29"/>ubi non est propagatio ex uno, ibi nulla
+<lb ed="#Bf" n="30"/>est proximitas : sed spiritus unus cum
+<lb ed="#Bf" n="31"/>alio non propagatur ex quodam uno 
+<lb ed="#Bf" n="32"/>ergo nulla est in talibus 
+proximi<lb break="no" ed="#Bf" n="33"/>tas.
+</p>
+            <p xml:id="alalal-i96984-d1e208">
+               <lb ed="#Bf" n="34"/>4. Item, Constans est, quod spiritualis
+<lb ed="#Bf" n="35"/>proximitas si est, emanat ex aliqua 
+gene<lb break="no" ed="#Bf" n="36"/>ratione, sicut et omnis alia proximitas :
+<lb ed="#Bf" n="37"/>aut igitur ita est, quod est generatio 
+se<lb break="no" ed="#Bf" n="38"/>cundum esse, aut secundum bene esse.
+<lb ed="#Bf" n="39"/>Si primo modo, constat quod hoc falsum
+<lb ed="#Bf" n="40"/>est : quia hoc modo filium suum 
+spiri<lb break="no" ed="#Bf" n="41"/>tualem gencrant parentes carnales non
+<lb ed="#Bf" n="42"/>spirituales. Si secundo modo : aut hoc
+<lb ed="#Bf" n="43"/>est quoad bene esse virtutis, aut scientie.
+<lb ed="#Bf" n="44"/>Non primo modo : quia talem habitum
+<lb ed="#Bf" n="45"/>(ut dicit Augustinus) non dat nisi Deus.
+<lb ed="#Bf" n="46"/>Si secundo modo, tunc quilibet magister
+<lb ed="#Bf" n="47"/>haberet proximitatem spiritualem ad 
+dis<lb break="no" ed="#Bf" n="48"/>cipulum et discipulam : et hoc iterum
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="49"/>falsum est : ergo nulla videtur esse 
+pro<lb break="no" ed="#Bf" n="50"/>ximitas spiritualis.
+</p>
+            <p xml:id="alalal-i96984-d1e250">
+               <lb ed="#Bf" n="51"/>In contrarium autem sunt
+<lb ed="#Bf" n="52"/>1. Omnia quae dicuntur in Litera.
+</p>
+            <p xml:id="alalal-i96984-d1e257">
+               <lb ed="#Bf" n="53"/>2. Item, Ad Ephes. mu, 14 et 18: <quote xml:id="alalal-i96984-Qd1e261">
+Fle<lb break="no" ed="#Bf" n="54"/>cto genua mea ad Patrem Domini nostri
+<lb ed="#Bf" n="55"/>Jesu Christi, ex quo omnis paternitas in
+<lb ed="#Bf" n="56"/>celis et in terra nominatur.</quote> Constat 
+au<lb break="no" ed="#Bf" n="57"/>tem, quod paternitas in ccelo non est nisi
+<lb ed="#Bf" n="58"/>spiritualis : ergo spiritualis paternitas est
+<lb ed="#Bf" n="59"/>aliquid.
+</p>
+            <p xml:id="alalal-i96984-d1e277">
+               <lb ed="#Bf" n="60"/>Responsio. Dicendum, quod spiritualis
+<lb ed="#Bf" n="61"/>proximitas est.
+</p>
+            <p xml:id="alalal-i96984-d1e285">
+               <lb ed="#Bf" n="62"/>Ad primum ergo dicendum, quod caro
+<lb ed="#Bf" n="63"/>hominis precipue Christiani non 
+accipi<lb break="no" ed="#Bf" n="64"/>tur ut caro hominis tantum, sed prout
+<lb ed="#Bf" n="65"/>est habitaculum Spiritus sancti: et ideo
+<lb ed="#Bf" n="66"/>vinculum spiritus habet locum in carne:
+<lb ed="#Bf" n="67"/>et ideo illi qui sunt unum, ab Ecclesia
+<lb ed="#Bf" n="68"/>non judicantur ut divisi : omnes autem
+<lb ed="#Bf" n="69"/>qui junguntur matrimonio, accipiuntur
+<lb ed="#Bf" n="70"/>ut divisi: et ideo dicendum, quod 
+trans<lb break="no" ed="#Bf" n="71"/>itur ad unionem carnis, quae est 
+habita<lb break="no" ed="#Bf" n="72"/>culum vel debet esse Spiritus sancti per
+<lb ed="#Bf" n="73"/>spiritus unionem.
+</p>
+            <p xml:id="alalal-i96984-d1e314">
+               <lb ed="#Bf" n="74"/>Ad id quod contra objicitur, dicendum
+<lb ed="#Bf" n="75"/>quod est unio sacramentalis, quae est per
+<lb ed="#Bf" n="76"/>modum generationis esse spiritualis, vel
+<lb ed="#Bf" n="77"/>confirmationis ipsius, et est unio 
+habitua<lb break="no" ed="#Bf" n="78"/>lis charitatis. Prima autem unio facit hoc,
+<lb ed="#Bf" n="79"/>et non secunda .
+</p>
+            <p xml:id="alalal-i96984-d1e330">
+               <lb ed="#Bf" n="80"/>Ad aliud dicendum, quod anadochus
+<lb ed="#Bf" n="81"/>ex officio patrinatus non habet docentis
+<lb ed="#Bf" n="82"/>vocem tantum, sed etiam operantis ad
+<lb ed="#Bf" n="83"/>esse spirituale ipsius qui regeneratur.
+</p>
+            <p xml:id="alalal-i96984-d1e341">
+               <lb ed="#Bf" n="84"/>Ad aliud dicendum, quod licet 
+spiri<lb break="no" ed="#Bf" n="85"/>tus non sit ex spiritu, etc., tamen 
+secun<lb break="no" ed="#Bf" n="86"/>dum rem et characterem sacramenti 
+pot<lb break="no" ed="#Bf" n="87"/>est fieri aliquo ministerialiter : et ita 
+quo<lb break="no" ed="#Bf" n="88"/>dammodo spiritualis proximitas 
+genera<lb break="no" ed="#Bf" n="89"/>tur, quia esse spiritus secundum bonum
+<lb ed="#Bf" n="90"/>sacramenti est quodammodo ex 
+spi<lb break="no" ed="#Bf" n="91"/>ritu.
+</p>
+            <p xml:id="alalal-i96984-d1e361">
+               <lb ed="#Bf" n="92"/>Ad aliud dicendum, quod emanat a
+<lb ed="#Bf" n="93"/>spirituali generatione : sed illa est 
+sacra<lb break="no" ed="#Bf" n="94"/>mentalis, ut prius dictum est. Et objectio
+<lb ed="#Bf" n="95"/>non est nisi de cooperatione ad aliquid
+<lb ed="#Bf" n="96"/>bene esse per modum alterationis, et non
+<pb ed="#Bf" n="470"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>per ministrum generantem, sicut fit 
+ge<lb break="no" ed="#Bf" n="2"/>neratio in spiritualibus sacramentis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

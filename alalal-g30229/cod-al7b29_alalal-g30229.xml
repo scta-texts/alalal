@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="157"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g30229"><!-- l4d7a4 -->
+            <head xml:id="alalal-g30229-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-g30229-Hd1e101" type="question-title">An non ordinaius potest confirmare ? et,
+An ordinatus non Episcopus ?</head>
+            <p xml:id="alalal-g30229-d1e104">
+               <lb ed="#Be" n="32"/>ARTICULUS IV.
+<lb ed="#Be" n="33"/>An non ordinaius potest confirmare ? et,
+<lb ed="#Be" n="34"/>An ordinatus non Episcopus ?
+</p>
+            <p xml:id="alalal-g30229-d1e113">
+               <lb ed="#Be" n="35"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="36"/>ibi, A, § 1, circa initium : <quote xml:id="alalal-g30229-Qd1e119"> Hoc 
+sacra<lb break="no" ed="#Be" n="37"/>mentum ab aliis non potest perfici nisi
+<lb ed="#Be" n="38"/>a summis sacerdotibus, etc. </quote>
+            </p>
+            <p xml:id="alalal-g30229-d1e127">
+               <lb ed="#Be" n="39"/>Kit est hic questio de ministro hujus
+<lb ed="#Be" n="40"/>sacramenti, et esset diversificanda : aut
+<lb ed="#Be" n="41"/>deberet esse bonus, aut posset esse 
+ma<lb break="no" ed="#Be" n="42"/>lus : et utrum haereticus vel non ? Sed
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="43"/>haec disputata sunt in tractatu de 
+bap<lb break="no" ed="#Be" n="44"/>tismo.
+</p>
+            <p xml:id="alalal-g30229-d1e146">
+               <lb ed="#Be" n="45"/>Sed hic queremus duo : primo, utrum
+<lb ed="#Be" n="46"/>non ordinatus possit confirmare ?
+<lb ed="#Be" n="47"/>Secundo, utrum ordinaius, non 
+Epi<lb break="no" ed="#Be" n="48"/>scopus possit ?
+</p>
+            <p xml:id="alalal-g30229-d1e157">
+               <lb ed="#Be" n="49"/>Ad prioum objicitur sic :
+<lb ed="#Be" n="50"/>1. Ponamus, quod aliquis sit in 
+ne<lb break="no" ed="#Be" n="51"/>cessitate, et desideret sacramentum, et
+<lb ed="#Be" n="52"/>non possit habere ordinatum vel 
+Epi<lb break="no" ed="#Be" n="53"/>scopum, videtur melius esse quod 
+acci<lb break="no" ed="#Be" n="54"/>piat a laico, quam quod decedat sine 
+sa<lb break="no" ed="#Be" n="55"/>cramento : precipue cum non sit plenus
+<lb ed="#Be" n="56"/>Christianus qui hoc sacramentum non
+<lb ed="#Be" n="57"/>habeat.
+</p>
+            <p xml:id="alalal-g30229-d1e179">
+               <lb ed="#Be" n="58"/>2. Item, In necessitate baptizat laicus,
+<lb ed="#Be" n="59"/>et baptizatum est : et audit confessiones,
+<lb ed="#Be" n="60"/>et ille absolvitur a peccatis : ergo 
+vide<lb break="no" ed="#Be" n="61"/>tur, quod in necessitate etiam aliquis
+<lb ed="#Be" n="62"/>possit confirmare.
+</p>
+            <p xml:id="alalal-g30229-d1e192">
+               <lb ed="#Be" n="63"/>3. Item, Quandoque est abundantior
+<lb ed="#Be" n="64"/>gratia in laico quam in Prelato : si ergo
+<lb ed="#Be" n="65"/>robur gratia debet transfundi a gratia
+<lb ed="#Be" n="66"/>abundanti, videltur quod quandoque 
+me<lb break="no" ed="#Be" n="67"/>lius transfundatur a laico quam a Prelato
+<lb ed="#Be" n="68"/>vel Episcopo.
+</p>
+            <p xml:id="alalal-g30229-d1e208">
+               <lb ed="#Be" n="69"/>4. Item, In naturis est sic, quod ubi
+<lb ed="#Be" n="70"/>res est per essentiam et presentiam, ibi
+<lb ed="#Be" n="71"/>operatur effectum, et non ibi ubi non est,
+<lb ed="#Be" n="72"/>sed deberet esse : sed cum ordo gratie
+<lb ed="#Be" n="73"/>non contrarietur ordini nature, videtur,
+<lb ed="#Be" n="74"/>quod in gralia similiter sit : ergo ubi
+<lb ed="#Be" n="75"/>actu est abundans gratia, citius 
+transfun<lb break="no" ed="#Be" n="76"/>dit gratiam, quam ubi non est sed esse
+<lb ed="#Be" n="77"/>debet : seepius autem est in laico 
+abun<lb break="no" ed="#Be" n="78"/>dans gratia, et non in Episcopo : ergo
+<lb ed="#Be" n="79"/>quandoque a laico potest fieri confirmatio
+<lb ed="#Be" n="80"/>melius quam ab Episcopo.
+</p>
+            <p xml:id="alalal-g30229-d1e237">
+               <lb ed="#Be" n="81"/>Item, Ponamus, quod aliquis gerat se
+<lb ed="#Be" n="82"/>pro Episcopo, non est autem Episcopus,
+<lb ed="#Be" n="83"/>sicut faciunt illi qui se dicunt Armenos:
+<lb ed="#Be" n="84"/>et aliquis veniat ad eum probabiliter pus -
+<lb ed="#Be" n="85"/>tans eum esse Episcopum, et recipiat ab
+<lb ed="#Be" n="86"/>eo confirmationem : queritur, utrum sit
+<lb ed="#Be" n="87"/>confirmatus ?
+</p>
+            <p xml:id="alalal-g30229-d1e256">
+               <lb ed="#Be" n="88"/>Videtur quod sic: quia
+<lb ed="#Be" n="89"/>1. Qui probabiliter credit se esse bap~
+<pb ed="#Be" n="158"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>tizatum, reputabitur baptizatus : et si 
+de<lb break="no" ed="#Be" n="2"/>cedat, evolat, nisi impediat eum 
+pecca<lb break="no" ed="#Be" n="3"/>tum actuale.
+</p>
+            <p xml:id="alalal-g30229-d1e274">
+               <lb ed="#Be" n="4"/>2. Similiter, Si aliquis illi quem 
+putat<lb break="no" ed="#Be" n="5"/>esse suum sacerdotem, confiteatur, et
+<lb ed="#Be" n="6"/>ille ordinem non habet, confessus 
+repu<lb break="no" ed="#Be" n="7"/>tatur : ergo videtur, quod et ille 
+confir<lb break="no" ed="#Be" n="8"/>matus sit.
+</p>
+            <p xml:id="alalal-g30229-d1e287">
+               <lb ed="#Be" n="9"/>SED CONTRA :
+<lb ed="#Be" n="10"/>Ecclesia postea scito quod ille 
+Episco<lb break="no" ed="#Be" n="11"/>pus non erat, confirmat eum iterum :
+<lb ed="#Be" n="12"/>quod non faceret si confirmatus esset,
+<lb ed="#Be" n="13"/>quia nonest sacramento facienda 
+inju<lb break="no" ed="#Be" n="14"/>ria : ergo non est prius confirmatus.
+</p>
+            <p xml:id="alalal-g30229-d1e303">
+               <lb ed="#Be" n="15"/>Uxrerius queritur de secundo, si 
+sa<lb break="no" ed="#Be" n="16"/>cerdos simplex potest confirmare ?
+</p>
+            <p xml:id="alalal-g30229-d1e310">
+               <lb ed="#Be" n="17"/>Et videtur quod sic : quia
+<lb ed="#Be" n="18"/>1. Gregorius permisit hoc propter 
+scan<lb break="no" ed="#Be" n="19"/>dalum, ut habetur in Litlera : si autem
+<lb ed="#Be" n="20"/>esset de veritate vite et doctrine, quod
+<lb ed="#Be" n="21"/>hoc sacramentum ab Episcopo 
+conferre<lb break="no" ed="#Be" n="22"/>tur, pro nullo scandalo fuisset 
+permis<lb break="no" ed="#Be" n="23"/>sum : videtur ergo, quod si sacerdos
+<lb ed="#Be" n="24"/>simplex confirmet, confirmatum est.
+</p>
+            <p xml:id="alalal-g30229-d1e330">
+               <lb ed="#Be" n="25"/>2. Item, Simplex sacerdos ungit 
+chris<lb break="no" ed="#Be" n="26"/>mate, et in eminentiori. loco quam sit
+<lb ed="#Be" n="27"/>frons, quia in vertice : ergo videtur, quod
+<lb ed="#Be" n="28"/>nec in materia, nec in loco sit 
+repugnan<lb break="no" ed="#Be" n="29"/>tia, quod simplex sacerdos confirmare
+<lb ed="#Be" n="30"/>non possit.
+</p>
+            <p xml:id="alalal-g30229-d1e347">
+               <lb ed="#Be" n="31"/>3. Item, Si solus Episcopus 
+confirma<lb break="no" ed="#Be" n="32"/>re potest : aut hoc est ex ordine, aut ex
+<lb ed="#Be" n="33"/>jurisdictione. Si ex ordine : ergo 
+sacer<lb break="no" ed="#Be" n="34"/>dos potest : quia Episcopus nullum 
+ha<lb break="no" ed="#Be" n="35"/>bet ordinem quem non habeat sacerdos
+<lb ed="#Be" n="36"/>simplex. Si autem ex jurisdictione : 
+er<lb break="no" ed="#Be" n="37"/>go _electus ante consecrationem hoc
+<lb ed="#Be" n="38"/>potest : quia electus totam habet 
+juris<lb break="no" ed="#Be" n="39"/>dictionem etiam antequam habeat 
+ordi<lb break="no" ed="#Be" n="40"/>nem.
+</p>
+            <p xml:id="alalal-g30229-d1e371">
+               <lb ed="#Be" n="41"/>Solutio. Dicendum, quod solus 
+Epi<lb break="no" ed="#Be" n="42"/>scopus potest hoc sacramentum conferre:
+<lb ed="#Be" n="43"/>et ratio hujus est res et actus hujus 
+sa<lb break="no" ed="#Be" n="44"/>cramenti : res enim est Spiritus collatus
+<lb ed="#Be" n="45"/>ad robur : et ideo conveniens est quoad
+<lb ed="#Be" n="46"/>signum sacramentale, quod a plenitudine
+<lb ed="#Be" n="47"/>descendat : actus autem excellentissimus
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="48"/>est, ut prius dictum est : et quoad hunc
+<lb ed="#Be" n="49"/>etiana oportet habere ministrum 
+excellen<lb break="no" ed="#Be" n="50"/>tiorem.
+</p>
+            <p xml:id="alalal-g30229-d1e397">
+               <lb ed="#Be" n="51"/>Dicendum ergo ad primum, quod non
+<lb ed="#Be" n="52"/>est melius quod accipiat a laico : quia
+<lb ed="#Be" n="53"/>desideranti sacramentum nihil deperit de
+<lb ed="#Be" n="54"/>virtute sacramenti, licet characterem
+<lb ed="#Be" n="55"/>non habeat : sed de baptismate secus
+<lb ed="#Be" n="56"/>est, ut patet ex supra dictis : quia 
+bap<lb break="no" ed="#Be" n="57"/>tismus non requirit actum liberi arbitrii,
+<lb ed="#Be" n="58"/>quia aliter non daretur parvulis : et est
+<lb ed="#Be" n="59"/>sacramentum necessitatis.
+</p>
+            <p xml:id="alalal-g30229-d1e419">
+               <lb ed="#Be" n="60"/>Ad aliud dicendum, quod simplici
+<lb ed="#Be" n="61"/>necessitate baptismus est sacramentum
+<lb ed="#Be" n="62"/>necessitalis : sic autem non est de 
+confir<lb break="no" ed="#Be" n="63"/>matione.
+</p>
+            <p xml:id="alalal-g30229-d1e430">
+               <lb ed="#Be" n="64"/>Ad aliud dicendum, quod est gratia
+<lb ed="#Be" n="65"/>persone ordinata ad meritum vite, et est
+<lb ed="#Be" n="66"/>gratia ministri Ecclesiae ordinata ad 
+po<lb break="no" ed="#Be" n="67"/>testatem clavium et operationes 
+sacra<lb break="no" ed="#Be" n="68"/>mentorum : et de prima verum est quod
+<lb ed="#Be" n="69"/>objicitur, et non de secunda: a secunda
+<lb ed="#Be" n="70"/>autem descendit gratia secundum 
+ordi<lb break="no" ed="#Be" n="71"/>nem in sacramentis.
+</p>
+            <p xml:id="alalal-g30229-d1e450">
+               <lb ed="#Be" n="72"/>Ad aliud dicendum, quod in ministro
+<lb ed="#Be" n="73"/>Ecclesia gratia est presens secundum
+<lb ed="#Be" n="74"/>actum, licet non sit gratia personalis
+<lb ed="#Be" n="75"/>ad vites meritum ordinata, ut jam 
+pa<lb break="no" ed="#Be" n="76"/>tuit.
+</p>
+            <p xml:id="alalal-g30229-d1e464">
+               <lb ed="#Be" n="77"/>Ad aliud dicendum, quod ille non est
+<lb ed="#Be" n="78"/>confirmatus, nec habet characterem 
+con<lb break="no" ed="#Be" n="79"/>firmationis : et nihil valet objectio de
+<lb ed="#Be" n="80"/>sacramentis necessitatis de isto, ut sepius
+<lb ed="#Be" n="81"/>jam dictum est.
+</p>
+            <p xml:id="alalal-g30229-d1e477">
+               <lb ed="#Be" n="82"/>Ad aliud quod circa secundum 
+queri<lb break="no" ed="#Be" n="83"/>tur, dicendum quod simplex sacerdos
+<lb ed="#Be" n="84"/>confirmare non potest: et non est hoc
+<lb ed="#Be" n="85"/>propter locum vel materiam, sed 
+prop<lb break="no" ed="#Be" n="86"/>ter signum ad rem sacramenti, quod
+<lb ed="#Be" n="87"/>non conservatur in eo in cujus clavibus.
+<lb ed="#Be" n="88"/>est gratia contracta et diminuta, sicut
+<lb ed="#Be" n="89"/>in principio hujus solutionis dictum
+<lb ed="#Be" n="90"/>est.
+</p>
+            <p xml:id="alalal-g30229-d1e499">
+               <lb ed="#Be" n="91"/>Ad aliud quod objicitur de Gregorio,
+<lb ed="#Be" n="92"/>dicendum quod ille numquam permisit
+<lb ed="#Be" n="93"/>ut esset confirmatio quae collata fuit a
+<lb ed="#Be" n="94"/>simplici sacerdote : sed propter scanda-
+<pb ed="#Be" n="159"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>lum, abusum et ignorantiam non 
+corre<lb break="no" ed="#Be" n="2"/>xit. Vel dicatur, quod erat benedictio
+<lb ed="#Be" n="3"/>quedam data confirmandis, sicut panis
+<lb ed="#Be" n="4"/>benedictus datur quibusdam loco 
+Eucha<lb break="no" ed="#Be" n="5"/>ristiae : et hoc permisit ad tempus 
+Gre<lb break="no" ed="#Be" n="6"/>gorlus.
+</p>
+            <p xml:id="alalal-g30229-d1e528">
+               <lb ed="#Be" n="7"/>Ad aliud dicendum, quod nec ex 
+or<lb break="no" ed="#Be" n="8"/>dine tantum, nec ex jurisdictione 
+tan<lb break="no" ed="#Be" n="9"/>tum id potest Episcopus : sed ex ordine
+<lb ed="#Be" n="10"/>simul et jurisdictione : hoc enim 
+anne<lb break="no" ed="#Be" n="11"/>xum est officio Episcopali, sicut et 
+con<lb break="no" ed="#Be" n="12"/>secratio Eeclesiarum, et ordinatio 
+cleri<lb break="no" ed="#Be" n="13"/>corum, et velatio virginum, et 
+hujusmo<lb break="no" ed="#Be" n="14"/>di : et sic objectio non valet.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

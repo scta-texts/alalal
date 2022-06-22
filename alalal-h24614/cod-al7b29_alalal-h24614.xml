@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 21</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 21</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="586"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h24614"><!-- l4d16a21 -->
+            <head xml:id="alalal-h24614-Hd1e99">Articulus 21</head>
+            <head xml:id="alalal-h24614-Hd1e101" type="question-title">An idem sit satisfacere, et dignos fry.
+ctus poenitentiae facere ? et, Qui sunt
+fructus digni poenitentiae ?</head>
+            <p xml:id="alalal-h24614-d1e104">
+               <lb ed="#Be" n="52"/>ARTICULUS XXI.
+<lb ed="#Be" n="53"/>An idem sit satisfacere, et dignos fry.
+<lb ed="#Be" n="54"/>ctus poenitentiae facere ? et, Qui sunt
+<lb ed="#Be" n="55"/>fructus digni poenitentiae ?
+</p>
+            <p xml:id="alalal-h24614-d1e115">
+               <lb ed="#Be" n="56"/>Tertio queritur, Qui sunt digni fructus
+<lb ed="#Be" n="57"/>poenitentia ? et, Utrum idem sit satis.
+<lb ed="#Be" n="58"/>facere, quod dignos poenitentiae fructus
+<lb ed="#Be" n="59"/>facere ?
+</p>
+            <p xml:id="alalal-h24614-d1e126">
+               <lb ed="#Be" n="60"/>Dicit autem Auctor in Litlera, et est in
+<lb ed="#Be" n="61"/>Glossa super Mattheeum, im, 8, quod 
+di<lb break="no" ed="#Be" n="62"/>gni fructus poenitentiae sunt, ut 
+secun<lb break="no" ed="#Be" n="63"/>dum qualitatem et quantitatem culpe sit
+<lb ed="#Be" n="64"/>qualitas et quantitas pone.
+</p>
+            <p xml:id="alalal-h24614-d1e140">
+               <lb ed="#Be" n="65"/>Sed videtur, quod hoc non possit
+<lb ed="#Be" n="66"/>esse :
+<lb ed="#Be" n="67"/>1. Aut enim intelligitur hac qualitas
+<lb ed="#Be" n="68"/>libidinis delectantis in peccato, aut 
+qua<lb break="no" ed="#Be" n="69"/>litas actus peccati. Si primo modo. 
+Con<lb break="no" ed="#Be" n="70"/>TRA : Sensibilis delectatio est, quae est in
+<lb ed="#Be" n="71"/>peccato : numquam autem sensibilis est
+<lb ed="#Be" n="72"/>in virtute et operibus misericordie : 
+er<lb break="no" ed="#Be" n="73"/>go non est similitudo in qualitate. Si
+<lb ed="#Be" n="74"/>secundo modo. Contra: Actus illi 
+con<lb break="no" ed="#Be" n="75"/>trarii sunt : ergo similitudinem in quali-.
+<lb ed="#Be" n="76"/>tate non habent, quia dicit Philosophus
+<lb ed="#Be" n="77"/>in V prime Philosophiz, quod <quote xml:id="alalal-h24614-Qd1e170"> similia
+<lb ed="#Be" n="78"/>sunt quorum qualitas est una. </quote>
+            </p>
+            <p xml:id="alalal-h24614-d1e176">
+               <lb ed="#Be" n="79"/>2. Item, Videtur impossibile quod 
+se<lb break="no" ed="#Be" n="80"/>cundum qualitatem peccati sit qualitas
+<lb ed="#Be" n="81"/>pene, hoc modo: quia culpe qualitas
+<lb ed="#Be" n="82"/>non potest esse nisi secundum actum, quia
+<lb ed="#Be" n="83"/>culpa in quantum malum nihil est : in
+<lb ed="#Be" n="84"/>actu autem non est qualitas nisi 
+secun<lb break="no" ed="#Be" n="85"/>dum relationem ad agentem : hoc autem
+<lb ed="#Be" n="86"/>aut est secundum libidinem, aut secun-
+<pb ed="#Be" n="587"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>dum contemptum : secundum libidinem
+<lb ed="#Be" n="2"/>autem non potest esse qualitas pene,
+<lb ed="#Be" n="3"/>quia poena amara est in sensu, et libido
+<lb ed="#Be" n="4"/>dulcis : secundum contemptum autem se
+<lb ed="#Be" n="5"/>habet etiam per oppositum : quia sicut
+<lb ed="#Be" n="6"/>peccans contemnit Deum et preceptum
+<lb ed="#Be" n="7"/>ejus, ita per oppositum poenitens in 
+pw<lb break="no" ed="#Be" n="8"/>na se subjicit Deo et preecepto ejus : 
+er<lb break="no" ed="#Be" n="9"/>go videtur, quod numquam sint 
+secun<lb break="no" ed="#Be" n="10"/>dum eamdem qualitatem poena 
+peeniten<lb break="no" ed="#Be" n="11"/>tis, et culpa transgredientis.
+</p>
+            <p xml:id="alalal-h24614-d1e224">
+               <lb ed="#Be" n="12"/>3. Si forte tu dicas, quod vocatur 
+si<lb break="no" ed="#Be" n="13"/>militudo in genere, per contrarium, 
+scili<lb break="no" ed="#Be" n="14"/>cet ut sicut placuit culpa in delectando,
+<lb ed="#Be" n="15"/>ita placeat poena in sustinendo : hoc non
+<lb ed="#Be" n="16"/>competit Littere : quia hoc exqualiter
+<lb ed="#Be" n="17"/>est in parum peccante et multum.
+pec<lb break="no" ed="#Be" n="18"/>cante : sed ista similitudo qualitatis non
+<lb ed="#Be" n="19"/>equaliter est in parum et multum 
+pec<lb break="no" ed="#Be" n="20"/>cante: ergo non notatur similitudo in
+<lb ed="#Be" n="21"/>genere, ut videtur.
+</p>
+            <p xml:id="alalal-h24614-d1e248">
+               <lb ed="#Be" n="22"/>Ulterius queritur de hoc quod dicit,
+<lb ed="#Be" n="23"/>
+               <quote xml:id="alalal-h24614-Qd1e254"> Ut secundum quantitatem culpe sit
+<lb ed="#Be" n="24"/>quantitas poene. </quote>
+            </p>
+            <p xml:id="alalal-h24614-d1e260">
+               <lb ed="#Be" n="25"/>Aut enim aequalitas est in genere, aut
+<lb ed="#Be" n="26"/>in specie. Si in genere. Contra : 
+Secun<lb break="no" ed="#Be" n="27"/>dum hoc aequaliter est in parum 
+peccan<lb break="no" ed="#Be" n="28"/>te: quia magne culpe magna poena, et
+<lb ed="#Be" n="29"/>minori minor debetur : digni autem 
+fru<lb break="no" ed="#Be" n="30"/>clus non aequaliter sunt in parum et
+<lb ed="#Be" n="31"/>multum peccante, ut dicitur in Littera :
+<lb ed="#Be" n="32"/>ergo non intelligitur de quantitate in
+<lb ed="#Be" n="33"/>genere. Si autem intelligitur de 
+quanti<lb break="no" ed="#Be" n="34"/>tate in specie. Contra : Quantitas culpae
+<lb ed="#Be" n="35"/>est infinita, et quantitas poenae finita :
+<lb ed="#Be" n="36"/>ergo videtur, quod numquam contingit
+<lb ed="#Be" n="37"/>satisfacere per dignos fructus 
+pceniten<lb break="no" ed="#Be" n="38"/>tie.
+</p>
+            <p xml:id="alalal-h24614-d1e293">
+               <lb ed="#Be" n="39"/>PRAETEREA queritur, Quae est 
+differen<lb break="no" ed="#Be" n="40"/>tia hic inter qualitatem, et quantitatem ?
+</p>
+            <p xml:id="alalal-h24614-d1e301">
+               <lb ed="#Be" n="41"/>Constat enim, quod non est hic per se
+<lb ed="#Be" n="42"/>quantitas continua, sed per accidens:
+<lb ed="#Be" n="43"/>hoc autem videtur esse intensio 
+qualita<lb break="no" ed="#Be" n="44"/>tis, quee facit vigorem peccati et magnum
+<lb ed="#Be" n="45"/>peccatum, et vigorem poene et magnam
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="46"/>peenam ; sed penes idem videtur esse 
+si<lb break="no" ed="#Be" n="47"/>militudo vel proportio in qualitate : ergo
+<lb ed="#Be" n="48"/>in idem redeunt hic qualitas et 
+quanti<lb break="no" ed="#Be" n="49"/>tas.
+</p>
+            <p xml:id="alalal-h24614-d1e325">
+               <lb ed="#Be" n="50"/>Prarerea queritur, Quare dicuntur
+<lb ed="#Be" n="51"/>digni fructus poenitentiae, cum non sint
+<lb ed="#Be" n="52"/>fructus nisi in futuro ?
+</p>
+            <p xml:id="alalal-h24614-d1e334">
+               <lb ed="#Be" n="53"/>Hec autem{opera facta potius 
+assimi<lb break="no" ed="#Be" n="54"/>lantur culture vel labori ad fructus 
+per<lb break="no" ed="#Be" n="55"/>cipiendos ordinato : sicut etiam Jacobus
+<lb ed="#Be" n="56"/>dicit : Ecce agricola patienter exspectat
+<lb ed="#Be" n="57"/>pretiosum fructum, scilicet fructum 
+la<lb break="no" ed="#Be" n="58"/>boris sui .
+</p>
+            <p xml:id="alalal-h24614-d1e350">
+               <lb ed="#Be" n="59"/>Responsio. Sicut etiam supra habitum
+<lb ed="#Be" n="60"/>est in antecedenti distinctione, non 
+sumi<lb break="no" ed="#Be" n="61"/>tur hic fructus proprie, sed sumitur pro
+<lb ed="#Be" n="62"/>causa fructus quae est causa fruitionis in
+<lb ed="#Be" n="63"/>futuro. Dicuntur enim opera poenitentie
+<lb ed="#Be" n="64"/>fructus, non quod eis fruamur proprie
+<lb ed="#Be" n="65"/>hic, vel in futuro : sed quia cum gaudio
+<lb ed="#Be" n="66"/>spei utimur eis ad obtinendum id quo
+<lb ed="#Be" n="67"/>fruendum est. Nec idem est esse bonos
+<lb ed="#Be" n="68"/>fructus, et dignos fructus poenitentiae :
+<lb ed="#Be" n="69"/>quia omnis arbor, id est, homo, tenetur
+<lb ed="#Be" n="70"/>ad bonos fructus, et dignos fructus : qui
+<lb ed="#Be" n="71"/>boni dicuntur a radice, quae bona est,
+<lb ed="#Be" n="72"/>quando liberum arbitrium virtute et 
+gra<lb break="no" ed="#Be" n="73"/>tia est informatum. Digni autem fructus
+<lb ed="#Be" n="74"/>sunt a proportione fructus ad statum 
+ar<lb break="no" ed="#Be" n="75"/>boris fructificantis : quia alii clerico, alii
+<lb ed="#Be" n="76"/>prelato, alii subdito, et sic secundum
+<lb ed="#Be" n="77"/>differentias alias fructificantium. Et hoc
+<lb ed="#Be" n="78"/>modo specialis status proportione 
+habi<lb break="no" ed="#Be" n="79"/>ta ad opera poenitentiae dicuntur digni
+<lb ed="#Be" n="80"/>fructus, quando secundum qualitatem
+<lb ed="#Be" n="81"/>et quantitatem peccati est etiam qualitas
+<lb ed="#Be" n="82"/>et quantitas poone..
+</p>
+            <p xml:id="alalal-h24614-d1e405">
+               <lb ed="#Be" n="83"/>Ad primum ergo dicendum, quod 
+qua<lb break="no" ed="#Be" n="84"/>litas peccantis hic attenditur cum 
+quali<lb break="no" ed="#Be" n="85"/>tate peccati. Qualitas peccantis est libera
+<lb ed="#Be" n="86"/>servitus peccati : quia scilicet non 
+coa<lb break="no" ed="#Be" n="87"/>ctus, nec exactus, sed libere diabolo 
+ser<lb break="no" ed="#Be" n="88"/>vivit in gaudio: et hoc modo libere et
+<lb ed="#Be" n="89"/>cum gaudio serviat Deo in poenitentia,
+<lb ed="#Be" n="90"/>Qualitas autem peccati secundum for-
+<pb ed="#Be" n="588"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>mam peccati in specie, secundum quod
+<lb ed="#Be" n="2"/>unum est carnale, et alterum spirituale,
+<lb ed="#Be" n="3"/>et aliud quasi medium, sicut ira, et 
+ava<lb break="no" ed="#Be" n="4"/>ritia : et ita debet esse in poena 
+corpora<lb break="no" ed="#Be" n="5"/>li et spirituali et media: sicut jejunium
+<lb ed="#Be" n="6"/>pena est corporis, oratio humiliat 
+spiri<lb break="no" ed="#Be" n="7"/>tum, et eleemosyna damnum infert 
+re<lb break="no" ed="#Be" n="8"/>rum exteriorum.
+</p>
+            <p xml:id="alalal-h24614-d1e447">
+               <lb ed="#Be" n="9"/>ApiLep ergo quod contra objicitur,
+<lb ed="#Be" n="10"/>dicendum, quod non respondet in specie
+<lb ed="#Be" n="11"/>delectationis : sed potius in similitudine
+<lb ed="#Be" n="12"/>subjecti delectationis, et poenae, scilicet
+<lb ed="#Be" n="13"/>quia utrumque est corporale, quandoque
+<lb ed="#Be" n="14"/>et spirituale, et medium, ut dictum est.
+</p>
+            <p xml:id="alalal-h24614-d1e464">
+               <lb ed="#Be" n="15"/>Ad aliud dicendum, quod similitudo
+<lb ed="#Be" n="16"/>potest attendi dupliciter, scilicet in 
+affe<lb break="no" ed="#Be" n="17"/>ctu proximo, et in affectu qui est causa
+<lb ed="#Be" n="18"/>proximi affectus : et in proximo quidem
+<lb ed="#Be" n="19"/>non potest esse similitudo: quia unus
+<lb ed="#Be" n="20"/>est libido, et alter est charitas: sed in
+<lb ed="#Be" n="21"/>remoto, hoc est, in voluntate, bene 
+pot<lb break="no" ed="#Be" n="22"/>est esse similitudo : et etiam plus est in
+<lb ed="#Be" n="23"/>bono, quia Augustinus dicit, quod <quote xml:id="alalal-h24614-Qd1e485"> 
+cha<lb break="no" ed="#Be" n="24"/>ritas in infinitum plus diligit Deum, quam
+<lb ed="#Be" n="25"/>cupiditas aurum. </quote>
+            </p>
+            <p xml:id="alalal-h24614-d1e493">
+               <lb ed="#Be" n="26"/>Ad id quod queritur de quantitate, 
+di<lb break="no" ed="#Be" n="27"/>cendum quod quantitas est hic duplex,
+<lb ed="#Be" n="28"/>scilicet intensiva, et discreta. Una 
+re<lb break="no" ed="#Be" n="29"/>spondet magnitudini,et altera 
+numerosi<lb break="no" ed="#Be" n="30"/>tati. peccatorum : sed illa quae est 
+inten<lb break="no" ed="#Be" n="31"/>siva, attenditur ex multis, tamen 
+preci<lb break="no" ed="#Be" n="32"/>puum est species peccati vel genus : sicut
+<lb ed="#Be" n="33"/>dicimus in genere homicidium esse 
+ma<lb break="no" ed="#Be" n="34"/>jus adulterio, et adulterium fornicatione,
+<lb ed="#Be" n="35"/>et in genere avaritiam majorem 
+fornica<lb break="no" ed="#Be" n="36"/>tione: in specie autem adulterium majus
+<lb ed="#Be" n="37"/>furto. Alia autem quantitas est ex 
+cir<lb break="no" ed="#Be" n="38"/>cumstantiis agentis et actus, ex quibus
+<lb ed="#Be" n="39"/>dicitur magnum peccatum, et illi 
+debe<lb break="no" ed="#Be" n="40"/>tur major poena quam minori : sicut 
+plu<lb break="no" ed="#Be" n="41"/>ries peccanti vel uno genere peccati, vel
+<lb ed="#Be" n="42"/>duobus, plures pene, vel una diuturnior
+<lb ed="#Be" n="43"/>debetur.
+</p>
+            <p xml:id="alalal-h24614-d1e535">
+               <lb ed="#Be" n="44"/>Ad 1p ergo quod contra objicitur, 
+di<lb break="no" ed="#Be" n="45"/>cendum quod in genere vocatur 
+quanti<lb break="no" ed="#Be" n="46"/>tas, ut dictum est : et non sequitur quod
+<lb ed="#Be" n="47"/>infert : quia peccata etiam in genere non
+<lb ed="#Be" n="48"/>sunt aequalia, sed unum majus, et alte-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="49"/>rum minus : et ideo etiam pene erunt
+<lb ed="#Be" n="50"/>inequales.
+</p>
+            <p xml:id="alalal-h24614-d1e555">
+               <lb ed="#Be" n="51"/>Ad aliud dicendum, quod quantitas
+<lb ed="#Be" n="52"/>et qualitas fundantur in eodem, sed nop
+<lb ed="#Be" n="53"/>sunt idem, ut patet ex predictis : quia
+<lb ed="#Be" n="54"/>qualitas vitium est ex illa parte qua. 
+tra<lb break="no" ed="#Be" n="55"/>hitur in speciem distinctam, ut carnale,
+<lb ed="#Be" n="56"/>spirituale, et hujusmodi : vel specialius
+<lb ed="#Be" n="57"/>adhuc ut fornicatio, delectatio secundum
+<lb ed="#Be" n="58"/>actum in fornicatione : et gula, 
+delecta<lb break="no" ed="#Be" n="59"/>tio secundum actum in gula: sed 
+quan<lb break="no" ed="#Be" n="60"/>titas accipitur ex quantitate ad totum,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

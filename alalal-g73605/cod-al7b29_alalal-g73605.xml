@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="357"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g73605"><!-- l4d13dt2 -->
+            <head xml:id="alalal-g73605-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-g73605-d1e101">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="15"/>DIVISIO TEXTUS.
+<lb ed="#Be" n="16"/>
+               <quote xml:id="alalal-g73605-Qd1e109"> Quid autem partes ille significent,
+<lb ed="#Be" n="17"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-g73605-d1e115">
+               <lb ed="#Be" n="18"/>Hic incipit secunda pars hujus 
+distin<lb break="no" ed="#Be" n="19"/>clionis in qua agitur de harum partium
+<lb ed="#Be" n="20"/>significatione. Et dicuntur tria hie in 
+ea<lb break="no" ed="#Be" n="21"/>pitulo isto, scilicet- quid partes ill 
+signi<lb break="no" ed="#Be" n="22"/>ficent : et hoc in principio capituli. 
+Se<lb break="no" ed="#Be" n="23"/>cundo, quid significet fractio per quam
+<lb ed="#Be" n="24"/>partes ille dividuntur, quia passionem
+<lb ed="#Be" n="25"/>Domini, ibi, E, § 2: <quote xml:id="alalal-g73605-Qd1e134"> &amp;t sicut partes
+<lb ed="#Be" n="26"/>illae, etc.</quote> Tertio, tangit, qui digne et qui
+<lb ed="#Be" n="27"/>indigne participant, ibi, E, § 3: <quote xml:id="alalal-g73605-Qd1e141">Sed 
+ca<lb break="no" ed="#Be" n="28"/>veal quisgue ne, etc. </quote>
+            </p>
+            <p xml:id="alalal-g73605-d1e147">
+               <lb ed="#Be" n="29"/>Sententia primi notatur in duobus 
+ver<lb break="no" ed="#Be" n="30"/>sibus :
+<lb ed="#Be" n="31"/>
+               <quote xml:id="alalal-g73605-Qd1e155">Hostia dividitur in partes : tincta beatos
+<lb ed="#Be" n="32"/>Plene, sieca notat Vivos, servata sepultos.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

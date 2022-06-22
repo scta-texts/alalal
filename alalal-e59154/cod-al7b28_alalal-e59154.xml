@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="310"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e59154"><!-- l3d17a9 -->
+            <head xml:id="alalal-e59154-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-e59154-Hd1e101" type="question-title">Quomodo Christus sibi et suis oravit ? </head>
+            <p xml:id="alalal-e59154-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="12"/>ARTICULUS IX.
+<lb ed="Bd" n="13"/>Quomodo Christus sibi et suis oravit ? 
+</p>
+            <p xml:id="alalal-e59154-d1e113">
+               <lb ed="Bd" n="14"/>Deinde etiam notandum circa verba  
+<lb ed="Bd" n="15"/>Hilarii, ibi, <quote xml:id="alalal-e59154-Qd1e119"> ud etiam ignorandum 
+<lb ed="Bd" n="16"/>non est, ete. </quote>
+               <lb ed="Bd" n="17"/>Nota, quod Hilarius optime loquitur: 
+<lb ed="Bd" n="18"/>quia discipulis et nobis oravit tripliciter, 
+<lb ed="Bd" n="19"/>et uno modo sibi, scilicet ut naturam 
+<lb ed="Bd" n="20"/>discipulorum in se ostenderet : hoc enim
+</p>
+            <p xml:id="alalal-e59154-d1e134">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="21"/>erat ad gloriam nostram, non suam ;
+<lb ed="Bd" n="22"/>quia nostra natura in eo est exaltata: et
+<lb ed="Bd" n="23"/>ut nobis, non sibi per hoc utilis esset ;
+<lb ed="Bd" n="24"/>qui gquandoque infirmitate circumdati
+<lb ed="Bd" n="25"/>querimus evasionem persecutionis, et
+<lb ed="Bd" n="26"/>non desperamus, quia scimus fecisse 
+ca<lb break="no" ed="Bd" n="27"/>put nostrum. Tertio, ut nobis ordinandi
+<lb ed="Bd" n="28"/>nostrum sensualem effectum ad rationem,
+<lb ed="Bd" n="29"/>formam et doctrinam daret : ut cum ipso  
+<lb ed="Bd" n="30"/>diceremus: Non quod ego volo fiat, sed
+<lb ed="Bd" n="31"/>quod tu vis. Sic igitur nullo modo sibi,
+<lb ed="Bd" n="32"/>id est, ad utilitatem sui petiit, sed nobis.
+<lb ed="Bd" n="33"/>Alio modo autem pro se petit.
+</p>
+            <p xml:id="alalal-e59154-d1e168">
+               <lb ed="Bd" n="34"/>Et sic plana sunt quae dicuntur in
+<lb ed="Bd" n="35"/>Littera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

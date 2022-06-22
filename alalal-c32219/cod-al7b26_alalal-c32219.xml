@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="176"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c32219"><!-- l1d35a1 -->
+            <head xml:id="alalal-c32219-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-c32219-Hd1e101" type="question-title">Utrum scientia Dei sit univoca scientiae
+nostrae, vel scientiae Angelorum ?</head>
+            <p xml:id="alalal-c32219-d1e104">
+               <pb ed="#Bb" n="176"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>ARTICULUS I.
+<lb ed="#Bb" n="2"/>Utrum scientia Dei sit univoca scientiae
+<lb ed="#Bb" n="3"/>nostrae, vel scientiae Angelorum ?
+</p>
+            <p xml:id="alalal-c32219-d1e117">
+               <lb ed="#Bb" n="4"/>Incidit autem hic ante Litteram 
+du<lb break="no" ed="#Bb" n="5"/>plex dubium. Unum est, Utrum scientia
+<lb ed="#Bb" n="6"/>Dei sit univoca scientia nostre, vel 
+An<lb break="no" ed="#Bb" n="7"/>gelorum ?
+</p>
+            <p xml:id="alalal-c32219-d1e128">
+               <lb ed="#Bb" n="8"/>Secundum est, Utrum scientia Dei sit
+<lb ed="#Bb" n="9"/>universalis vel particularis, vel in actu
+<lb ed="#Bb" n="10"/>vel in habitu?
+</p>
+            <p xml:id="alalal-c32219-d1e138">
+               <lb ed="#Bb" n="11"/>Quod enim sit wniveca, non per prius
+<lb ed="#Bb" n="12"/>vel posterius dicta, videtur sic:
+</p>
+            <p xml:id="alalal-c32219-d1e145">
+               <lb ed="#Bb" n="13"/>1. Causa efficiens agens secundum 
+for<lb break="no" ed="#Bb" n="14"/>mam efficientis, producit effectum 
+univo<lb break="no" ed="#Bb" n="15"/>cum cause, ut ignis ignem, homo 
+ho<lb break="no" ed="#Bb" n="16"/>minem, et hujusmodi : sed scientia Dei
+<lb ed="#Bb" n="17"/>est causa efficiens nostre scientia, et
+<lb ed="#Bb" n="18"/>agens secundum formam : ergo videtur,
+<lb ed="#Bb" n="19"/>quod nostra scientia quae est effecta a
+<lb ed="#Bb" n="20"/>sua, sua scientiae sit univoca. Prima
+<lb ed="#Bb" n="21"/>patet per se, Szecunpa probatur per 
+auc<lb break="no" ed="#Bb" n="22"/>toritatem Origenis dicentis : <quote xml:id="alalal-c32219-Qd1e168"> Deus 
+sa<lb break="no" ed="#Bb" n="23"/>piens et sciens dicitur, secundum quod
+<lb ed="#Bb" n="24"/>nos sapientia et scientia implet. </quote>
+            </p>
+            <p xml:id="alalal-c32219-d1e176">
+               <lb ed="#Bb" n="25"/>2. Item, Exemplatum nullum 
+equi<lb break="no" ed="#Bb" n="26"/>vocum est exemplari in forma 
+exempla<lb break="no" ed="#Bb" n="27"/>ris: scientia Dei exemplar est nostre
+<lb ed="#Bb" n="28"/>scientia, et nostra scientia exemplata:
+<lb ed="#Bb" n="29"/>ergo videtur, quod nostra scientia non
+<lb ed="#Bb" n="30"/>sit equivoca cum sua. Prospario prime
+<lb ed="#Bb" n="31"/>est: quia sidetur, quod sit equivocum
+<lb ed="#Bb" n="32"/>informa, cum etiam in materia 
+discor<lb break="no" ed="#Bb" n="33"/>det, tunc exemplatum non erit in aliquo
+<lb ed="#Bb" n="34"/>similis speciei cum exemplari, et ita non
+<lb ed="#Bb" n="35"/>est magis exemplatum ab ipso, quam a
+<lb ed="#Bb" n="36"/>disparato sibi: ergo oportet, quod sit
+<lb ed="#Bb" n="37"/>univocum in forma. Srcunpa autem 
+pa<lb break="no" ed="#Bb" n="38"/>tet per hoc quod dicit Dionysius in libro
+<lb ed="#Bb" n="39"/>de Divinis nominibus : <quote xml:id="alalal-c32219-Qd1e210"> Sapientiam Dei
+<cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" n="40"/>excedenter laudantes dicimus, quod 
+om<lb break="no" ed="#Bb" n="41"/>nis est et mentis et rationis et omnis 
+sa<lb break="no" ed="#Bb" n="42"/>pientiae et prudentiae causa . </quote>
+            </p>
+            <p xml:id="alalal-c32219-d1e222">
+               <lb ed="#Bb" n="43"/>3. Item, Hoc videtur per simile: 
+sigil<lb break="no" ed="#Bb" n="44"/>lum enim nihil imprimit nisi quod 
+se<lb break="no" ed="#Bb" n="45"/>cundum speciem figure est in ipso, et
+<lb ed="#Bb" n="46"/>non aliud recipitur &amp; cera: cum igitur
+<lb ed="#Bb" n="47"/>mens creata sit sicut cera, et sapientia
+<lb ed="#Bb" n="48"/>Dei sit sigillum, videtur quod recipimus
+<lb ed="#Bb" n="49"/>sapientiam ejusdem speciei cum sua,
+<lb ed="#Bb" n="50"/>licet subjectum non sit ejusdem 
+ratio<lb break="no" ed="#Bb" n="51"/>nis: sicut nec cera in qua fit impressio,
+<lb ed="#Bb" n="52"/>et cuprum imprimens.
+</p>
+            <p xml:id="alalal-c32219-d1e246">
+               <lb ed="#Bb" n="53"/>SED CONTRA:
+<lb ed="#Bb" n="54"/>1. Nihil est univocum Creatori et crea~
+<lb ed="#Bb" n="55"/>ture : ergo nec scientia. Prima sepius
+<lb ed="#Bb" n="56"/>probata est. .
+</p>
+            <p xml:id="alalal-c32219-d1e257">
+               <lb ed="#Bb" n="57"/>2. Item, Scientia Dei est causa rerum,
+<lb ed="#Bb" n="58"/>utinfra ostendetur ?: nostra autem 
+scien<lb break="no" ed="#Bb" n="59"/>tia causatur a rebus scitis : ergo non sunt
+<lb ed="#Bb" n="60"/>iste scientiae unius rationis.
+</p>
+            <p xml:id="alalal-c32219-d1e269">
+               <lb ed="#Bb" n="61"/>3. Item, Scientia, sicut omnis alia 
+for<lb break="no" ed="#Bb" n="62"/>ma, inest secundum potestatem subjecti :
+<lb ed="#Bb" n="63"/>quia subjectum nobilius nobilioris est
+<lb ed="#Bb" n="64"/>scientiae, etiam inter homines : ergo cum
+<lb ed="#Bb" n="65"/>Deus in infinitum excedat omnem 
+men<lb break="no" ed="#Bb" n="66"/>tem creatam, in infinitum etiam sua
+<lb ed="#Bb" n="67"/>scientia excedit nostram : ergo non erit
+<lb ed="#Bb" n="68"/>unius rationis.
+</p>
+            <p xml:id="alalal-c32219-d1e289">
+               <lb ed="#Bb" n="69"/>Solutio. Dicendum secundum beatum
+<lb ed="#Bb" n="70"/>Dionysum in libro de Divinis 
+nomini<lb break="no" ed="#Bb" n="71"/>bus , quod scientia Dei non est univoca
+<lb ed="#Bb" n="72"/>nostre scientiae, nec etiam scientiae 
+An<lb break="no" ed="#Bb" n="73"/>gelorum : quod qualiter sit, accipiatur a
+<lb ed="#Bb" n="74"/>verbis ejus. Dicit enim sic de scientia
+<lb ed="#Bb" n="75"/>Dei: <quote xml:id="alalal-c32219-Qd1e306"> Supersapiens et omnisapiens
+<lb ed="#Bb" n="76"/>causa, et ipsius per se sapientia, et totius
+<lb ed="#Bb" n="77"/>et particularis substantificatrix. </quote> Sensus 
+<lb ed="#Bb" n="78"/>est, quod scientia Dei est de rebus ut
+<lb ed="#Bb" n="79"/>substantificatrix et sapientia et causa 
+om<lb break="no" ed="#Bb" n="80"/>nium de quibus est, sive illud sit totum
+<lb ed="#Bb" n="81"/>vel universale, sive pars sive particulare.
+<lb ed="#Bb" n="82"/>Ergo patet, quod sciendo se ut est causa
+<lb ed="#Bb" n="83"/>omnium, novit et se et omnia alia uni-
+<pb ed="#Bb" n="177"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>versaliter vel particulariter existentia.
+</p>
+            <p xml:id="alalal-c32219-d1e333">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="2"/>De scientia autem Angeli dicit sic, 
+ibi<lb break="no" ed="#Bb" n="3"/>dem: <quote xml:id="alalal-c32219-Qd1e341"> Angelicarum mentium virtutes,
+<lb ed="#Bb" n="4"/>simplices et bonos habent intellectus non
+<lb ed="#Bb" n="5"/>in divisibilibus partibus aut a 
+divisibili<lb break="no" ed="#Bb" n="6"/>bus, aut sensibilibus aut rationibus 
+di<lb break="no" ed="#Bb" n="7"/>versis congregantes divinam 
+cognitio<lb break="no" ed="#Bb" n="8"/>nem, neque ab aliquo communi ad ista
+<lb ed="#Bb" n="9"/>simul acte. Ab omni autem materiali
+<lb ed="#Bb" n="10"/>multitudine munde existentes, 
+intelle<lb break="no" ed="#Bb" n="11"/>ctualiter et immaterialiter uniformiter 
+in<lb break="no" ed="#Bb" n="12"/>telligibilia divinorum intelligunt. </quote> 
+Sen<lb break="no" ed="#Bb" n="13"/>sus horum verborum est, quod Angeli
+<lb ed="#Bb" n="14"/>non accipiunt scientiam incipiendo a
+<lb ed="#Bb" n="15"/>creatis, quae multa et divisa et materia—
+<lb ed="#Bb" n="16"/>lia sunt : neque accipiunt diversis 
+virtu<lb break="no" ed="#Bb" n="17"/>tibus, ut sensu proprio, et- communi, et
+<lb ed="#Bb" n="18"/>imaginatione, et memoria, et 
+hujus<lb break="no" ed="#Bb" n="19"/>modi: neque a gquodam communi ut
+<lb ed="#Bb" n="20"/>universali deveniunt in cognitionem 
+illo<lb break="no" ed="#Bb" n="21"/>rum sensibilium quae sunt apud nos, sed
+<lb ed="#Bb" n="22"/>deiformiter per simile aliquid menti 
+di<lb break="no" ed="#Bb" n="23"/>vine sibi a creatione datum et 
+impres<lb break="no" ed="#Bb" n="24"/>sum. Sed tamen scientia illa non est
+<lb ed="#Bb" n="25"/>causa entis, neque cognoscit per hoc
+<lb ed="#Bb" n="26"/>quod sit causa, cum nullius causa creans
+<lb ed="#Bb" n="27"/>sit Angelus.
+</p>
+            <p xml:id="alalal-c32219-d1e397">
+               <lb ed="#Bb" n="28"/>De hominis autem scientia dicit 
+ibi<lb break="no" ed="#Bb" n="29"/>dem, sic : <quote xml:id="alalal-c32219-Qd1e403"> Anime rationale habent
+<lb ed="#Bb" n="30"/>diffusive quidem et circulo circa 
+exis<lb break="no" ed="#Bb" n="31"/>tentium veritatem circumeuntes, et 
+divi<lb break="no" ed="#Bb" n="32"/>sibili et largissimo varietatis 
+deficien<lb break="no" ed="#Bb" n="33"/>tes ab unitivis virtutibus. </quote> Sensus 
+hu<lb break="no" ed="#Bb" n="34"/>jus est, quod anima rationalis accipit
+<lb ed="#Bb" n="35"/>svientiam : rationale autem collativum
+<lb ed="#Bb" n="36"/>est: et ideo incipit a multis in quibus
+<lb ed="#Bb" n="37"/>conferendo diffunditur, et circulo 
+circum<lb break="no" ed="#Bb" n="38"/>ducitur circa veritatem existentium. Et
+<lb ed="#Bb" n="39"/>hoc potest intelligi sic: quia primum 
+lu<lb break="no" ed="#Bb" n="40"/>men ad quod fit examinatio veri, est in
+<lb ed="#Bb" n="41"/>ipsa anima intellectus agens, et ab illo
+<lb ed="#Bb" n="42"/>incipit ponendo ipsum circa signa et
+<lb ed="#Bb" n="43"/>causas rerum, ut accipiat probabile, vel
+<lb ed="#Bb" n="44"/>necessarium, et ipsum acceptum reducit
+<lb ed="#Bb" n="45"/>ad intellectum : et sic in intellectu 
+con<lb break="no" ed="#Bb" n="46"/>cluditur circulus, secundum quod ex 
+cau<lb break="no" ed="#Bb" n="47"/>sa quandoque accipit causatum, et 
+quan<lb break="no" ed="#Bb" n="48"/>doque e converso : ideo dicit circulum.
+</p>
+            <p xml:id="alalal-c32219-d1e448">
+               <cb ed="#Bb" n="c"/>
+               <lb ed="#Bb" n="49"/>Ex his patet, quod neutra scientiarum
+<lb ed="#Bb" n="50"/>creaturarum univoca est scientiae 
+Crea<lb break="no" ed="#Bb" n="51"/>toris : sed utraque imitatur eam quantum
+<lb ed="#Bb" n="52"/>potest: et ideo est per prius et posterius
+<lb ed="#Bb" n="53"/>dicta, eo modo quo dictum est supra,
+<lb ed="#Bb" n="54"/>quod primo est in Deo, et ab ipso, et
+<lb ed="#Bb" n="55"/>adipsum, quantum possibile est in 
+An<lb break="no" ed="#Bb" n="56"/>gelo et in homine.
+</p>
+            <p xml:id="alalal-c32219-d1e470">
+               <lb ed="#Bb" n="57"/>Dicendum ergo ad primum, quod est
+<lb ed="#Bb" n="58"/>causa agens secundum speciem duobus
+<lb ed="#Bb" n="59"/>modis, scilicet ad materiam 
+proportio<lb break="no" ed="#Bb" n="60"/>natam eidem speciei, ut agens et 
+gene<lb break="no" ed="#Bb" n="61"/>rans univoce, sicut ignis ignem, et homo
+<lb ed="#Bb" n="62"/>hominem : et sicnon causat Deus : quia
+<lb ed="#Bb" n="63"/>essentiae divine nulla materia recipiens
+<lb ed="#Bb" n="64"/>potest esse proportionata. Est etiam causa
+<lb ed="#Bb" n="65"/>agens secundum formam et speciem ad
+<lb ed="#Bb" n="66"/>naturam non proportionatam eidem 
+spe<lb break="no" ed="#Bb" n="67"/>ciel, ut sol agit in aerem, vel aliud 
+dia<lb break="no" ed="#Bb" n="68"/>phanum receptivum luminis: et tamen
+<lb ed="#Bb" n="69"/>lumen receptum non est ejusdem 
+ratio<lb break="no" ed="#Bb" n="70"/>nis in sole, et in aere, sed ignobilius et
+<lb ed="#Bb" n="71"/>diffusius et obscurius est in aere quam in
+<lb ed="#Bb" n="72"/>sole: et hoc modo agit Deus in 
+hujus<lb break="no" ed="#Bb" n="73"/>modi attributis quae communicabilia sunt
+<lb ed="#Bb" n="74"/>creaturis, ut sapientia, vita, essentia, et
+<lb ed="#Bb" n="75"/>hujusmodi. Unde non sequitur, quod sit
+<lb ed="#Bb" n="76"/>univocum receptum ei a quo recipitur.
+</p>
+            <p xml:id="alalal-c32219-d1e517">
+               <lb ed="#Bb" n="77"/>Ad aliud dicendum, quod exemplatum
+<lb ed="#Bb" n="78"/>imitatur quantum potest, plus in Angelo,
+<lb ed="#Bb" n="79"/>et minus in homine quamdiu est in via:
+<lb ed="#Bb" n="80"/>et quia accedit plus ad hoc quam ad aliud,
+<lb ed="#Bb" n="81"/>non dicitur magis exemplatum __illius
+<lb ed="#Bb" n="82"/>quam alterius.
+</p>
+            <p xml:id="alalal-c32219-d1e533">
+               <lb ed="#Bb" n="83"/>Ad aliud dicendum, quod non est 
+si<lb break="no" ed="#Bb" n="84"/>mile de sigillo et cera: quia licet cera non
+<lb ed="#Bb" n="85"/>sit materia proportionata forme naturali
+<lb ed="#Bb" n="86"/>gris, tamen est materia proportionata 
+for<lb break="no" ed="#Bb" n="87"/>me artis quae est exarata in ere, et ideo
+<lb ed="#Bb" n="88"/>formam ejusdem figure potest recipere:
+<lb ed="#Bb" n="89"/>sed mens Angeli et anime non _ 
+propor<lb break="no" ed="#Bb" n="90"/>tionatur essentiae divine, nec scientie
+<lb ed="#Bb" n="91"/>secundum quod est divina : et ideo
+<lb ed="#Bb" n="92"/>oportet, quod recipiat inferiori modo,
+<lb ed="#Bb" n="93"/>prout exigit nature ste inferior status.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

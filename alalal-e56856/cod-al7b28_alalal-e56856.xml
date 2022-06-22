@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="296"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e56856"><!-- l3d16a4 -->
+            <head xml:id="alalal-e56856-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-e56856-Hd1e101" type="question-title">An acerbior fuit mors Christi quam
+mors anime, si detur per impossibile,
+quod anima mori posset ?</head>
+            <p xml:id="alalal-e56856-d1e104">
+               <pb ed="#Bd" n="296"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ARTICULUS IV.
+<lb ed="Bd" n="2"/>An acerbior fuit mors Christi quam
+<lb ed="Bd" n="3"/>mors anime, si detur per impossibile,
+<lb ed="Bd" n="4"/>quod anima mori posset ?
+</p>
+            <p xml:id="alalal-e56856-d1e120">
+               <lb ed="Bd" n="5"/>Quarto quaeritur, Utrum acerbior fuit
+<lb ed="Bd" n="6"/>mors Christi quam mors anime, si 
+dare<lb break="no" ed="Bd" n="7"/>tur per impossibile, quod ipsa mori 
+pos<lb break="no" ed="Bd" n="8"/>set separatione suarum partium ab ipsa?
+</p>
+            <p xml:id="alalal-e56856-d1e131">
+               <lb ed="Bd" n="9"/>Videtur autem, quod sic : quia major
+<lb ed="Bd" n="10"/>est peena quae contrariatur meliori bono:
+<lb ed="Bd" n="11"/>dicit enim Augustinus, quod pcena non
+<lb ed="Bd" n="12"/>dicitur malum, nisi quia contrariatur
+<lb ed="Bd" n="13"/>nature boni : sed melior natura fuit in
+<lb ed="Bd" n="14"/>Christo quam in aliqua creatura simplici
+<lb ed="Bd" n="15"/>esse posset : ergo major poena.
+</p>
+            <p xml:id="alalal-e56856-d1e150">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="16"/>SED CONTRA :
+<lb ed="Bd" n="17"/>Quanto aliquid vicinius est 
+conjun<lb break="no" ed="Bd" n="18"/>etum, tanto major dolor est in 
+separatio<lb break="no" ed="Bd" n="19"/>ne : pars autem anime cum anima 
+vici<lb break="no" ed="Bd" n="20"/>nius conjungitur, quam aliquod corpus
+<lb ed="Bd" n="21"/>posset conjungi cum anima : ergo major
+<lb ed="Bd" n="22"/>esset dolor in separatione.
+</p>
+            <p xml:id="alalal-e56856-d1e170">
+               <lb ed="Bd" n="23"/>Solutio Major dolor dicitur {duobus
+<lb ed="Bd" n="24"/>modis, scilicet quia majori bono 
+contra<lb break="no" ed="Bd" n="25"/>riatur : et sic esset dolor Christi adhuc
+<lb ed="Bd" n="26"/>gravior, quam anime si poneretur posse
+<lb ed="Bd" n="27"/>mori. Dicitur etiam major dolor, quia
+<lb ed="Bd" n="28"/>conjunctionis fortioris est separatio 
+se<lb break="no" ed="Bd" n="29"/>cundum sensuum experimentum : et sic
+<lb ed="Bd" n="30"/>bene puto, quod talis anime mors esset
+<lb ed="Bd" n="31"/>acerbior : sed tamen ad redimendum non
+<lb ed="Bd" n="32"/>esset efficacior.
+</p>
+            <p xml:id="alalal-e56856-d1e194">
+               <lb ed="Bd" n="33"/>Et sic patet solutio : quia objectionum
+<lb ed="Bd" n="34"/>una procedit in uno sensu istius 
+distin<lb break="no" ed="Bd" n="35"/>ctionis, et alia in alio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

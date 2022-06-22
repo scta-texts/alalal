@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="211"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d40146"><!-- l2d10a2 -->
+            <head xml:id="alalal-d40146-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-d40146-Hd1e101" type="question-title">Utrum minuittur Angelorum gloria
+quando ministrant et mittuntur ?</head>
+            <p xml:id="alalal-d40146-d1e104">
+               <lb ed="#Bc" n="14"/>ARTICULUS II.
+<lb ed="#Bc" n="15"/>Utrum minuittur Angelorum gloria
+<lb ed="#Bc" n="16"/>quando ministrant et mittuntur ?
+</p>
+            <p xml:id="alalal-d40146-d1e113">
+               <lb ed="#Bc" n="17"/>Secundo queritur, Utrum minuitur
+<lb ed="#Bc" n="18"/>gloria eorum, quando ministrant ?
+</p>
+            <p xml:id="alalal-d40146-d1e120">
+               <lb ed="#Bc" n="19"/>Videtur quod non : quia
+<lb ed="#Bc" n="20"/>1. Dicit <name xml:id="alalal-d40146-Nd1e126">Beda</name>, quod intra Deum 
+cur<lb break="no" ed="#Bc" n="21"/>runt, quocumgque mittantur : ergo non
+<lb ed="#Bc" n="22"/>deflectuntur a contemplatione.
+</p>
+            <p xml:id="alalal-d40146-d1e134">
+               <lb ed="#Bc" n="23"/>2. Item, Gregorius : <quote xml:id="alalal-d40146-Qd1e138"> Angeli cum ad
+<lb ed="#Bc" n="24"/>nos veniunt, contemplatione ab intimis
+<lb ed="#Bc" n="25"/>numguam recedunt'. </quote>
+            </p>
+            <p xml:id="alalal-d40146-d1e146">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="26"/>SED CONTRA :
+<lb ed="#Bc" n="27"/>1. Dicit <ref xml:id="alalal-d40146-Rd1e154">Aristoteles in libro de Somno
+<lb ed="#Bc" n="28"/>et Vigilia</ref>, quod una potentia existente
+<lb ed="#Bc" n="29"/>in actu, retrahitur alia : cum igitur 
+con<lb break="no" ed="#Bc" n="30"/>templatio Verbi tantum in se trahit 
+ap<lb break="no" ed="#Bc" n="31"/>petitum et voluntatem Angeli, videtur
+<lb ed="#Bc" n="32"/>quod simul cum hoc non potest 
+mini<lb break="no" ed="#Bc" n="33"/>strare diligenter circa nos.
+</p>
+            <p xml:id="alalal-d40146-d1e171">
+               <lb ed="#Bc" n="34"/>2. Item, Impossibile est idem simul
+<lb ed="#Bc" n="35"/>moveri diversis motibus secundum
+<lb ed="#Bc" n="36"/>idem : sed diversi motus sunt 
+contem<lb break="no" ed="#Bc" n="37"/>plari, et ministrare : ergo idem 
+Ange<lb break="no" ed="#Bc" n="38"/>lus non potest simul illis moveri, ut 
+vi<lb break="no" ed="#Bc" n="39"/>detur.
+</p>
+            <p xml:id="alalal-d40146-d1e187">
+               <lb ed="#Bc" n="40"/>Sorutro. Dicendum, quod simul 
+mini<lb break="no" ed="#Bc" n="41"/>strat et contemplatur.
+</p>
+            <p xml:id="alalal-d40146-d1e194">
+               <lb ed="#Bc" n="42"/>Ap primum ergo dicendum, quod 
+ve<lb break="no" ed="#Bc" n="43"/>rum est, quod unum opus non est ratio
+<lb ed="#Bc" n="44"/>alterius et causa: sed ministerium 
+cau<lb break="no" ed="#Bc" n="45"/>satur ex contemplatione : quia enim hoc
+<lb ed="#Bc" n="46"/>in Verbo legunt esse voluntatem Dei,
+<lb ed="#Bc" n="47"/>ideo feruntur ad ministerium. Et 
+mini<lb break="no" ed="#Bc" n="48"/>sterii actus numquam incipit a parte 
+no<lb break="no" ed="#Bc" n="49"/>stra: a nobis enim non discunt in 
+qui<lb break="no" ed="#Bc" n="50"/>bus ministrare debeant, sed potius a
+<lb ed="#Bc" n="51"/>Verbo semper: et ideo a neutro 
+retra<lb break="no" ed="#Bc" n="52"/>huntur.
+</p>
+            <p xml:id="alalal-d40146-d1e220">
+               <lb ed="#Bc" n="53"/>Per hoc patet solutio ad sequens.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

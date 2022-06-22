@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="430"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d76681"><!-- l2d25a5 -->
+            <head xml:id="alalal-d76681-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-d76681-Hd1e101" type="question-title">Utrum liberum arbitrium secundum
+unam rationem vel diversas sit in 
+omnt rationali natura ?</head>
+            <p xml:id="alalal-d76681-d1e104">
+               <lb ed="#Bc" n="47"/>ARTICULUS V.
+<lb ed="#Bc" n="48"/>Utrum liberum arbitrium secundum
+<lb ed="#Bc" n="49"/>unam rationem vel diversas sit in 
+om<lb break="no" ed="#Bc" n="50"/>nt rationali natura ?
+</p>
+            <p xml:id="alalal-d76681-d1e115">
+               <lb ed="#Bc" n="51"/>Tertio queritur, Utrum secundum
+<lb ed="#Bc" n="52"/>unam rationem sit in omnibus ? .
+</p>
+            <p xml:id="alalal-d76681-d1e122">
+               <lb ed="#Bc" n="53"/>Videtur, quod non : quia Creatori et
+<lb ed="#Bc" n="54"/>creature nihil est commune penes quod
+<lb ed="#Bc" n="55"/>possit sumi ratio communis &gt; ergo nec
+<lb ed="#Bc" n="56"/>libertas arbitrii communis est Creatori et
+<lb ed="#Bc" n="57"/>creature.
+</p>
+            <p xml:id="alalal-d76681-d1e136">
+               <lb ed="#Bc" n="58"/>Sep contra hoc est quod dicit 
+Ansel<lb break="no" ed="#Bc" n="59"/>mus, quia haec diffinitio, <quote xml:id="alalal-d76681-Qd1e142"> Libertas est
+<lb ed="#Bc" n="60"/>facultas conservandi rectitudinem 
+prop<lb break="no" ed="#Bc" n="61"/>ter se, </quote> Deo et creature convenit : ergo
+<lb ed="#Bc" n="62"/>videtur, quod secundum illam rationem
+<lb ed="#Bc" n="63"/>communiter dicatur.
+</p>
+            <p xml:id="alalal-d76681-d1e154">
+               <lb ed="#Bc" n="64"/>Solutio. Dicendum, quod secundum  Soluit
+<lb ed="#Bc" n="65"/>analogiam est communitas ista in 
+crea<lb break="no" ed="#Bc" n="66"/>tura et Creatore : quia rectitudo in 
+Crea<lb break="no" ed="#Bc" n="67"/>tore non differt a potestate servante eam,
+<lb ed="#Bc" n="68"/>nisi secundum rationem : nec potestas
+<lb ed="#Bc" n="69"/>servans differt a potente, nisi secundum
+<lb ed="#Bc" n="70"/>rationem : in creatura autem differentia
+<lb ed="#Bc" n="71"/>est inter hac secundum rem: et in Deo
+<lb ed="#Bc" n="72"/>est, utin exemplari primo : et in 
+crea<lb break="no" ed="#Bc" n="73"/>tura, sicut in exemplato : in Angelo 
+au<lb break="no" ed="#Bc" n="74"/>tem et in homine non est secundum
+<lb ed="#Bc" n="75"/>communem speciem, sed genere, sicut
+<lb ed="#Bc" n="76"/>sensibile in bruto et homine : et quod
+<lb ed="#Bc" n="77"/>plus est, non est secundum propinquum
+<lb ed="#Bc" n="78"/>genus, sed remotum : quia non est mea
+<lb ed="#Bc" n="79"/>Opinio, quod Angelus et anima sunt
+<lb ed="#Bc" n="80"/>idem specie, vel genere propinquo : nec.
+<lb ed="#Bc" n="81"/>Angeli idem specie sunt, ut puto : ideo
+<lb ed="#Bc" n="82"/>potentiae etiam secundum haec ad 
+invi<lb break="no" ed="#Bc" n="83"/>cem habent differentiam. Et per hoc pa- .
+<lb ed="#Bc" n="84"/>tet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

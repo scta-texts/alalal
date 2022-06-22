@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="420"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e80051"><!-- l3d23a9 -->
+            <head xml:id="alalal-e80051-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-e80051-Hd1e101" type="question-title">An fides informis fiat formata ?</head>
+            <p xml:id="alalal-e80051-d1e104">
+               <cb ed="#Bd" n="d"/>
+               <lb ed="Bd" n="40"/>ARTICULUS IX.
+<lb ed="Bd" n="41"/>An fides informis fiat formata ?
+</p>
+            <p xml:id="alalal-e80051-d1e113">
+               <lb ed="Bd" n="42"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="Bd" n="43"/>sequenti capitulo H, ibi, <quote xml:id="alalal-e80051-Qd1e119"> Si vero 
+que<lb break="no" ed="Bd" n="44"/>ritur, Utrum illa informis qualitas,
+<lb ed="Bd" n="45"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-e80051-d1e127">
+               <lb ed="Bd" n="46"/>Hic enim Magister dicit, quod fides
+<lb ed="Bd" n="47"/>informis sit formata : et de hoc sunt
+<cb ed="#Bd" n="e"/>
+               <lb ed="Bd" n="48"/>Magistrorum opiniones diverse: et ideo
+<lb ed="Bd" n="49"/>disputationi hic fortius insistendum est,
+<lb ed="Bd" n="50"/>ut quaeramus tria.
+<lb ed="Bd" n="51"/>Primum est, Utrum fides informis fiat
+<lb ed="Bd" n="52"/>formata, vel non?
+<lb ed="Bd" n="53"/>Secundum est, Utrum formetur forma
+<lb ed="Bd" n="54"/>propria, vel charitate, vel gratia: quia
+<lb ed="Bd" n="55"/>heec omnia a diversis dicta sunt.
+<lb ed="Bd" n="56"/>Tertium, Qualiter diversimode 
+forme<lb break="no" ed="Bd" n="57"/>tur forma propria, et charitate, et 
+gra<lb break="no" ed="Bd" n="58"/>tia ?
+</p>
+            <p xml:id="alalal-e80051-d1e161">
+               <lb ed="Bd" n="59"/>Ad primum horum proceditur sic:
+<lb ed="Bd" n="60"/>1. In naturis si aliqua potentia est ad
+<pb ed="#Bd" n="421"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>actum in subjecto, sed non expedita, 
+na<lb break="no" ed="Bd" n="2"/>tura non evacuat illam, sed perficit ad
+<lb ed="Bd" n="3"/>actum dirigendo illuc spiritus et cetera
+<lb ed="Bd" n="4"/>potentiam illum informantia : ergo 
+simi<lb break="no" ed="Bd" n="5"/>liter est in gratia, quae non est minus
+<lb ed="Bd" n="6"/>ingeniosa quam natura. Constat autem,
+<lb ed="Bd" n="7"/>quod fides informis est virtus quae potest
+<lb ed="Bd" n="8"/>assentire omnibus articulis: ergo gratia
+<lb ed="Bd" n="9"/>adveniens non dabit ei nisi tendere in
+<lb ed="Bd" n="10"/>creditum, et non evacuat ipsam, ut 
+vide<lb break="no" ed="Bd" n="11"/>tur.
+</p>
+            <p xml:id="alalal-e80051-d1e196">
+               <lb ed="Bd" n="12"/>2. Item, Natura semper operatur via
+<lb ed="Bd" n="13"/>brevissima : quia nec abundat superfluis,
+<lb ed="Bd" n="14"/>nec deficit necessariis, ut dicit 
+Philoso<lb break="no" ed="Bd" n="15"/>phus. Ergo multo magis gratia quae 
+om<lb break="no" ed="Bd" n="16"/>nibus modis ordinatior est quam natura :
+<lb ed="Bd" n="17"/>brevius autem est id quod est jam 
+infor<lb break="no" ed="Bd" n="18"/>mare, quam informandum creare, et 
+post<lb break="no" ed="Bd" n="19"/>ea informare creatum : ergo videtur,
+<lb ed="Bd" n="20"/>quod gratia hoc modo procedat : ergo
+<lb ed="Bd" n="21"/>fidem informem informat.
+</p>
+            <p xml:id="alalal-e80051-d1e220">
+               <lb ed="Bd" n="22"/>3. Item, Omne informe formabile est :
+<lb ed="Bd" n="23"/>ergo nisi impedimentum sit ex 
+corru<lb break="no" ed="Bd" n="24"/>ptione potentia, de necessitate 
+formabi<lb break="no" ed="Bd" n="25"/>tur adveniente forma: sed hic non est 
+im<lb break="no" ed="Bd" n="26"/>pedimentum nisi homo moriatur, 
+quam<lb break="no" ed="Bd" n="27"/>diuenim in via est, possibilis est ad
+<lb ed="Bd" n="28"/>gratiam : ergo fides ejus formabilis est a
+<lb ed="Bd" n="29"/>gratia.
+</p>
+            <p xml:id="alalal-e80051-d1e240">
+               <lb ed="Bd" n="30"/>4, Item, Quare destrueretur fides 
+in<lb break="no" ed="Bd" n="31"/>formis adveniente gratia? aut enim hoc
+<lb ed="Bd" n="32"/>esset ex contrarietate cause sue: aut ex
+<lb ed="Bd" n="33"/>contrarietate suiipsius ad gratiam. Si
+<lb ed="Bd" n="34"/>primo modo fiat, sicut videmus destrui
+<lb ed="Bd" n="35"/>album in superficie clara, adveniente 
+ca<lb break="no" ed="Bd" n="36"/>lore, quia egreditur frigus continens et
+<lb ed="Bd" n="37"/>causans albedinem: ergo videtur, quod
+<lb ed="Bd" n="38"/>fides informis et formata sint ab 
+oppo<lb break="no" ed="Bd" n="39"/>sitis causis, quod falsum est, cum 
+utra<lb break="no" ed="Bd" n="40"/>que sit causata a Deo et donum Spiritus
+<lb ed="Bd" n="41"/>sancti, Si autem ex se haberet 
+contrarie<lb break="no" ed="Bd" n="42"/>tatem: tum dona Dei essent sibi 
+contra<lb break="no" ed="Bd" n="43"/>ria, et virtus virtuti, quod esse non potest.
+</p>
+            <p xml:id="alalal-e80051-d1e273">
+               <lb ed="Bd" n="44"/>3. Item, Minus distant gratia gratis
+<lb ed="Bd" n="45"/>data, et gratia gratum faciens, quam 
+vir<lb break="no" ed="Bd" n="46"/>tus naturalis sive consuetudinalis et 
+gra<lb break="no" ed="Bd" n="47"/>tia gratum faciens : sed gratia adveniens
+<lb ed="Bd" n="48"/>(ut multi dicunt) non destruit virtutem
+<lb ed="Bd" n="49"/>naturalem, sed perficit et ordinat eam:
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>ergo multo minus evacuat gratiam gratis
+<lb ed="Bd" n="51"/>datam, quae est fides.
+</p>
+            <p xml:id="alalal-e80051-d1e295">
+               <lb ed="Bd" n="52"/>Item, Minoris diversitatis est gratia
+<lb ed="Bd" n="53"/>gratis data ordinata ad eumdem actum
+<lb ed="Bd" n="54"/>cum gratum faciente, quam gratis data
+<lb ed="Bd" n="55"/>non ordinata ad eumdem actum: sed
+<lb ed="Bd" n="56"/>gratia adveniens non evacuat gratis 
+da<lb break="no" ed="Bd" n="57"/>tas, ut sapientiam, scientiam, 
+prophe<lb break="no" ed="Bd" n="58"/>tiam, quae non ordinantur ad eumdem
+<lb ed="Bd" n="59"/>actum cum ipsa : ergo multo magis non
+<lb ed="Bd" n="60"/>evacuat fidem informem quae est ad
+<lb ed="Bd" n="61"/>actum eumdem.
+</p>
+            <p xml:id="alalal-e80051-d1e320">
+               <lb ed="Bd" n="62"/>6. Item, Ex parte actus et objecti nulla
+<lb ed="Bd" n="63"/>est repugnantia: quia credere Deum et
+<lb ed="Bd" n="64"/>Deo salvantur, et credere in Deum: ergo
+<lb ed="Bd" n="65"/>videtur, quod fides informis habitus 
+sal<lb break="no" ed="Bd" n="66"/>vatur in habitu fidei formate.
+</p>
+            <p xml:id="alalal-e80051-d1e333">
+               <lb ed="Bd" n="67"/>8. Item, Ante lapsum habuit aliquis
+<lb ed="Bd" n="68"/>fidem formatam. Constat autem, quod
+<lb ed="Bd" n="69"/>per lapsum non meruit aliquod donum
+<lb ed="Bd" n="70"/>Dei: ergo videtur, quod non infundatur
+<lb ed="Bd" n="71"/>ei alia fides quam prius, sed forma illius
+<lb ed="Bd" n="72"/>tantum tollatur: ergo potest restitui sine
+<lb ed="Bd" n="73"/>restitutione fidei informis.
+</p>
+            <p xml:id="alalal-e80051-d1e351">
+               <lb ed="Bd" n="74"/>Item, Ridiculum esset, quod aliquis
+<lb ed="Bd" n="75"/>tot novas fides haberet quoties esset 
+la<lb break="no" ed="Bd" n="76"/>psus: et tamen hoc oporteret, si 
+dicere<lb break="no" ed="Bd" n="77"/>mus quod non potest fieri formata 
+ea<lb break="no" ed="Bd" n="78"/>dem quae fuit informis.
+</p>
+            <p xml:id="alalal-e80051-d1e364">
+               <lb ed="Bd" n="79"/>Siforte dicas, quod evacuatur sicut
+<lb ed="Bd" n="80"/>minus lumen a majori: hoc nihil est:
+<lb ed="Bd" n="81"/>quia minus lumen conjunctum alii 
+ma<lb break="no" ed="Bd" n="82"/>jori non evacuatur per ipsum, sicut unus
+<lb ed="Bd" n="83"/>radius solis non evacuatur a multis aliis
+<lb ed="Bd" n="84"/>radiis, nec lumen unius candele 
+evacua<lb break="no" ed="Bd" n="85"/>tur a lumine alterius candele sibi unite :
+<lb ed="Bd" n="86"/>fides autem informis ex parte efficientis,
+<lb ed="Bd" n="87"/>et ex parte objecti est ejusdem rationis
+<lb ed="Bd" n="88"/>lumen cum fide formata: ergo non eva~
+<lb ed="Bd" n="89"/>cuatur a lumine fidei formate.
+</p>
+            <p xml:id="alalal-e80051-d1e390">
+               <lb ed="Bd" n="90"/>9. Item, Si sol divisum posset influere
+<lb ed="Bd" n="91"/>lumen, et calorem: et prius influere 
+lu<lb break="no" ed="Bd" n="92"/>men, postea influendo calorem, non
+<lb ed="Bd" n="93"/>tolleret lumen influxum, ut postea
+<lb ed="Bd" n="94"/>utrumque influeret. sed potius super 
+lu<lb break="no" ed="Bd" n="95"/>men poneret calorem : ergo videtur,
+<lb ed="Bd" n="96"/>quod similiter faciat veritas prima, et
+<lb ed="Bd" n="97"/>primo influat lumen, et postea informet
+<lb ed="Bd" n="98"/>illud per affectum,
+</p>
+            <p xml:id="alalal-e80051-d1e412">
+               <pb ed="#Bd" n="422"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Sed contra sic objicitur :
+<lb ed="Bd" n="2"/>i. Gratia gratum faciens hoc facit in
+<lb ed="Bd" n="3"/>uno, quod facit in alio: sed in eo qui
+<lb ed="Bd" n="4"/>nihil habuit de fide, confert 
+plenitudi<lb break="no" ed="Bd" n="5"/>nem omnium virtutum. Cum ergo non
+<lb ed="Bd" n="6"/>sit deficientior in eo qui habuit fidem 
+in<lb break="no" ed="Bd" n="7"/>formem, etiam videtur illi totum 
+con<lb break="no" ed="Bd" n="8"/>ferre : ergo videtur, quod non informet
+<lb ed="Bd" n="9"/>preecedentem, sed confert totum.
+</p>
+            <p xml:id="alalal-e80051-d1e439">
+               <lb ed="Bd" n="10"/>2. Item, Si anima alicui corpori 
+infun<lb break="no" ed="Bd" n="11"/>deretur quod haberet ante aliquam 
+ope<lb break="no" ed="Bd" n="12"/>rationem anime, non minus 
+infundere<lb break="no" ed="Bd" n="13"/>tur anima illi corpori cum  universis
+<lb ed="Bd" n="14"/>potentiis suis, licet alia potentia ad 
+eum<lb break="no" ed="Bd" n="15"/>dem actum prius infuisset, quia anima
+<lb ed="Bd" n="16"/>non posset dividi, ut propter hoc una
+<lb ed="Bd" n="17"/>potentia separaretur ab ca: ergo videtur,
+<lb ed="Bd" n="18"/>quod similiter sit in gratia, qua est quasi
+<lb ed="Bd" n="19"/>quoddam totum ad omnes virtutes, quod
+<lb ed="Bd" n="20"/>nihil sit separabile ab ea ex eo quod 
+in<lb break="no" ed="Bd" n="21"/>venit virtutem informem. Cum igitur 
+su<lb break="no" ed="Bd" n="22"/>perfluum non maneat, videtur fides 
+in<lb break="no" ed="Bd" n="23"/>formis evacuari.
+</p>
+            <p xml:id="alalal-e80051-d1e472">
+               <lb ed="Bd" n="24"/>3. Item, Timor servilis non manet
+<lb ed="Bd" n="25"/>cum charitate adveniente, quia perfecta
+<lb ed="Bd" n="26"/>charitas foras mittit timorem : ergo 
+simi<lb break="no" ed="Bd" n="27"/>liter et causa ejus expellitur, scilicet
+<lb ed="Bd" n="28"/>fides informis.
+</p>
+            <p xml:id="alalal-e80051-d1e485">
+               <lb ed="Bd" n="29"/>4. Item, Mortuum opus non vivificatur
+<lb ed="Bd" n="30"/>adveniente charitate, sed perit, et datur
+<lb ed="Bd" n="31"/>nova gratia operandi: ergo videtur, quod
+<lb ed="Bd" n="32"/>similiter nec mortua fides.
+</p>
+            <p xml:id="alalal-e80051-d1e496">
+               <lb ed="Bd" n="33"/>3. Item, Cum dicitur, Fides formata
+<lb ed="Bd" n="34"/>est virtus: aut est pradicatum per se,
+<lb ed="Bd" n="35"/>aut per accidens. S: per se, vidctur quod
+<lb ed="Bd" n="36"/>tota species supponatur per fidem 
+for<lb break="no" ed="Bd" n="37"/>malam, quia genus non per se 
+pradica<lb break="no" ed="Bd" n="38"/>tur forma addita. Si autem non essct
+<lb ed="Bd" n="39"/>per se: tunc videtur, quod non 
+predi<lb break="no" ed="Bd" n="40"/>celur nisi per accidens: et hoc est 
+incon<lb break="no" ed="Bd" n="41"/>venicns, quia omnes dicunt oppositum.
+</p>
+            <p xml:id="alalal-e80051-d1e518">
+               <lb ed="Bd" n="42"/>6. Item, Ex duobus accidentibus non
+<lb ed="Bd" n="43"/>fit accidens unum, nec inter ea potest
+<lb ed="Bd" n="44"/>esse compositio, nisi unum sit sicut 
+ge<lb break="no" ed="Bd" n="45"/>nus et alterum sicut differentia: ergo 
+vi<lb break="no" ed="Bd" n="46"/>detur cum fides informis sit habitus 
+qui<lb break="no" ed="Bd" n="47"/>dam, et fides formata etiam habitus,
+<lb ed="Bd" n="48"/>quod ex ipsis non fit habitus unus: ergo
+<lb ed="Bd" n="49"/>non formatur ab ipso.
+</p>
+            <p xml:id="alalal-e80051-d1e538">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>Solutio Dicendum puto cum 
+Magi<lb break="no" ed="Bd" n="51"/>stro hic, quod informis fit formata per
+<lb ed="Bd" n="52"/>gratiam advenientem et charitatem: et
+<lb ed="Bd" n="53"/>ideo concedende mihi videntur prime
+<lb ed="Bd" n="54"/>rationes.
+</p>
+            <p xml:id="alalal-e80051-d1e555">
+               <lb ed="Bd" n="55"/>Ad id autem quod in oppositum 
+obji<lb break="no" ed="Bd" n="56"/>citur, dicendum quod gratia gratum 
+fa<lb break="no" ed="Bd" n="57"/>ciens quantum est de se, hoc facit in uno
+<lb ed="Bd" n="58"/>quod in alio, sed quantum est ex parte
+<lb ed="Bd" n="59"/>subjecti non est ita. In quibusdam enim
+<lb ed="Bd" n="60"/>perficit naturales virtutes qui habent eas,
+<lb ed="Bd" n="61"/>in quibusdam non, qui non habent eas:
+<lb ed="Bd" n="62"/>et in quibusdam tollit peccatum, et in
+<lb ed="Bd" n="63"/>quibusdam non. Ita etiam accidit ei in
+<lb ed="Bd" n="64"/>quibusdam informare fidem informem,
+<lb ed="Bd" n="65"/>in quibusdam autem totam fidem 
+infun<lb break="no" ed="Bd" n="66"/>dere: et hoc non est ex deficientia sui,
+<lb ed="Bd" n="67"/>sed ex diversa habitudine subjecti.
+</p>
+            <p xml:id="alalal-e80051-d1e586">
+               <lb ed="Bd" n="68"/>Ad aliuddicendum, quod si anima 
+in<lb break="no" ed="Bd" n="69"/>funderetur alicui corpori, tota 
+infunde<lb break="no" ed="Bd" n="70"/>retur: quia virtus quae esset ante in 
+cor<lb break="no" ed="Bd" n="71"/>pore, non posset esse nisi radicata in
+<lb ed="Bd" n="72"/>complexione corporis, et sic non essct
+<lb ed="Bd" n="73"/>unibilis anime, sicut corporale non 
+effici<lb break="no" ed="Bd" n="74"/>tur unum essentialiter cum spirituali:
+<lb ed="Bd" n="75"/>sed fides informis et formata secundum
+<lb ed="Bd" n="76"/>causam sunt ab eodem principio 
+effi<lb break="no" ed="Bd" n="77"/>ciente, scilicet a Deo, et ideo sunt 
+uni<lb break="no" ed="Bd" n="78"/>biles: etidco non est simile de gratia
+<lb ed="Bd" n="79"/>cum suis partibus, et anima cum suis.
+</p>
+            <p xml:id="alalal-e80051-d1e615">
+               <lb ed="Bd" n="80"/>Ad aliud dicendum, quod eodem modo
+<lb ed="Bd" n="81"/>dico de timore servili: non enim 
+evacua<lb break="no" ed="Bd" n="82"/>turin quantum est timor, sed in 
+quan<lb break="no" ed="Bd" n="83"/>tum servilis tantum. Unde proprie 
+servi<lb break="no" ed="Bd" n="84"/>litas expellitur, non autem timor: et ita
+<lb ed="Bd" n="85"/>dico etiam, quod informitas fidei 
+tolli<lb break="no" ed="Bd" n="86"/>tur, non autem ipsa fides: sicut etiam
+<lb ed="Bd" n="87"/>in patria non tollitur fide: substantia,
+<lb ed="Bd" n="88"/>scilicet visio veritatis, sed fidei forma in
+<lb ed="Bd" n="89"/>actu, qui est videre per speculum et in
+<lb ed="Bd" n="90"/>mnigmate.
+</p>
+            <p xml:id="alalal-e80051-d1e641">
+               <lb ed="Bd" n="91"/>Ad aliud dicendum, quod non est
+<lb ed="Bd" n="92"/>simile de mortuo opere: quia hoc non
+<lb ed="Bd" n="93"/>est a causa viva, sed a libero arbitrio
+<lb ed="Bd" n="94"/>quod mortuum in peccatis jacet : sed fides
+<lb ed="Bd" n="95"/>cst a prima veritate, quae mori non 
+pot<lb break="no" ed="Bd" n="96"/>est, et non moritur per se et in se, sed
+<lb ed="Bd" n="97"/>potius ex defectu alterius.
+</p>
+            <p xml:id="alalal-e80051-d1e659">
+               <lb ed="Bd" n="98"/>Ad aliud dicendum, quod predicatio
+<pb ed="#Bd" n="423"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>est per se, quando dicitur, Fides formata
+<lb ed="Bd" n="2"/>est virtus, et supponitur species virtutis
+<lb ed="Bd" n="3"/>perfecta : et quando dicitur, Fides 
+infor<lb break="no" ed="Bd" n="4"/>mis est virlus, est praedicatio per 
+poste<lb break="no" ed="Bd" n="5"/>rius, ut supra explanatum est.
+</p>
+            <p xml:id="alalal-e80051-d1e679">
+               <lb ed="Bd" n="6"/>Ad aliud dicendum, quod illa 
+propo<lb break="no" ed="Bd" n="7"/>sitio est falsa in rationalibus, et in 
+na<lb break="no" ed="Bd" n="8"/>turis. In rationabilibus patet, quod ex
+<lb ed="Bd" n="9"/>dispositione unius actus et ex 
+disposi<lb break="no" ed="Bd" n="10"/>tione alterius fit habitus: non enim 
+pot<lb break="no" ed="Bd" n="11"/>est ratio assignari, quare actus relinquat
+<lb ed="Bd" n="12"/>dispositionem, alter autem tantum 
+con<lb break="no" ed="Bd" n="13"/>firmet illam. In naturis etiam falsum est :
+<lb ed="Bd" n="14"/>quia lumen in extremitate perspicui, fit
+<lb ed="Bd" n="15"/>unum cum colore existente in actu, 
+se<lb break="no" ed="Bd" n="16"/>cundum quod dicit Philosophus, quod
+<lb ed="Bd" n="17"/>color est extremitas perspicui in corpore
+<lb ed="Bd" n="18"/>determinato : sed verum est, quod unum
+<lb ed="Bd" n="19"/>semper se habet ut potentia ad alterum,
+<lb ed="Bd" n="20"/>alterum autem ut actus. Et ita dico hic,
+<lb ed="Bd" n="21"/>quod fides informis est ut potentia, et
+<lb ed="Bd" n="22"/>fides formata ut actus ipsius, ad hoc quod
+<lb ed="Bd" n="23"/>possit tendere in finem et conjungi fini,
+<lb ed="Bd" n="24"/>quod prius non potuit.
+</p>
+            <p xml:id="alalal-e80051-d1e724">
+               <lb ed="Bd" n="25"/>Sed quia multi et magni sustinent
+<lb ed="Bd" n="26"/>illam opinionem, potest responderi etiam
+<lb ed="Bd" n="27"/>pro eis ad oppositas rationes primo 
+in<lb break="no" ed="Bd" n="28"/>ductas : ut dicatur ap primum, quod non
+<lb ed="Bd" n="29"/>est omnino simile in naturis et gratia :
+<lb ed="Bd" n="30"/>quia in naturis potenti# naturales 
+radi<lb break="no" ed="Bd" n="31"/>cantur in principiis diversis, precipue
+<lb ed="Bd" n="32"/>virtutes corporales: et ideo illis 
+princi<lb break="no" ed="Bd" n="33"/>pis exstantibus, remanent virtutes, licet
+<lb ed="Bd" n="34"/>quandoque impediantur: sed in gratia
+<lb ed="Bd" n="35"/>omnes virtutes habentunum in quo sunt
+<lb ed="Bd" n="36"/>ut in toto virtuali suo quod est gratia,
+<lb ed="Bd" n="37"/>et illo sublato, omnes subtrahuntur, et
+<lb ed="Bd" n="38"/>ipso posito omnes ponuntur: et hoc
+<lb ed="Bd" n="39"/>propter gratiae perfectionem, et virtutum
+<lb ed="Bd" n="40"/>in gratia connexionem.
+</p>
+            <p xml:id="alalal-e80051-d1e761">
+               <lb ed="Bd" n="41"/>Ad aliuddicendum, quod haec est 
+bre<lb break="no" ed="Bd" n="42"/>vissima via justificationis, ut totum 
+in<lb break="no" ed="Bd" n="43"/>fundatur simul, et removeatur id quod
+<lb ed="Bd" n="44"/>non facitjustificationem.
+</p>
+            <p xml:id="alalal-e80051-d1e772">
+               <lb ed="Bd" n="45"/>Ad aliud dicendum, quod virtus 
+infor<lb break="no" ed="Bd" n="46"/>mis non dicitur informis, quia sit 
+infor<lb break="no" ed="Bd" n="47"/>mabilis, sed potius a privatione forme
+<lb ed="Bd" n="48"/>quae est gratia, et privatione potenti ad
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>formam. Et si quaeritur, Quid sit 
+impe<lb break="no" ed="Bd" n="50"/>dimentum ? potest dici, quod 
+imperfe<lb break="no" ed="Bd" n="51"/>clo ipsius ratione cujus non est unibilis
+<lb ed="Bd" n="52"/>gratiae perfecte : sicut radius ignis non
+<lb ed="Bd" n="53"/>unitur radio solis, sed evacuatur ab ipso.
+</p>
+            <p xml:id="alalal-e80051-d1e796">
+               <lb ed="Bd" n="54"/>Ad aliud dicendum, quod fides 
+infor<lb break="no" ed="Bd" n="55"/>mis destruitur ut non unibilis gratiae : et
+<lb ed="Bd" n="56"/>ideo sicut lux solis unibilis illi cui unita
+<lb ed="Bd" n="57"/>est lux ignis, excludit illam: ita fides
+<lb ed="Bd" n="58"/>formata excludit informem ab eodem
+<lb ed="Bd" n="59"/>susceptibili. Tamen sunt quidam de ista
+<lb ed="Bd" n="60"/>opinione dicentes, quod manet cum 
+for<lb break="no" ed="Bd" n="61"/>mata, et non superflue : quia facit ad hoc
+<lb ed="Bd" n="62"/>ut levius exeat intellectus in actum 
+cre<lb break="no" ed="Bd" n="63"/>dendi.
+</p>
+            <p xml:id="alalal-e80051-d1e820">
+               <lb ed="Bd" n="64"/>Ey pe seourentr dicunt similiter : quia
+<lb ed="Bd" n="65"/>quidam eorum dicunt, quod naturalia
+<lb ed="Bd" n="66"/>manent cum gratuitis : et quidam dicunt,
+<lb ed="Bd" n="67"/>quod ratione imperfectionis absorbentur:
+<lb ed="Bd" n="68"/>sicut dus qualitates secundum idem
+<lb ed="Bd" n="69"/>existentes in corpore successive, si 
+fue<lb break="no" ed="Bd" n="70"/>rint ejusdem speciei, una absorbetur ab
+<lb ed="Bd" n="71"/>alia.
+</p>
+            <p xml:id="alalal-e80051-d1e840">
+               <lb ed="Bd" n="72"/>Ad aliud dicendum, quod licet ex parte
+<lb ed="Bd" n="73"/>actus et objecti nulla sit repugnantia,
+<lb ed="Bd" n="74"/>tamen est imperfectio in altera : et ideo
+<lb ed="Bd" n="75"/>cum perfecto lumine superveniente stare
+<lb ed="Bd" n="76"/>non potest. Vel, ut alii dicunt, stat cum
+<lb ed="Bd" n="77"/>ipso ad idem, aliter tamen ordinata :
+<lb ed="Bd" n="78"/>quia informis credit Deum et Deo, 
+for<lb break="no" ed="Bd" n="79"/>mata autem in Deum,
+</p>
+            <p xml:id="alalal-e80051-d1e861">
+               <lb ed="Bd" n="80"/>Ad aliud dicendum, quod non est 
+ab<lb break="no" ed="Bd" n="81"/>surdum toties creari bonum habitum fidei
+<lb ed="Bd" n="82"/>informis: non quod iste cadens 
+merea<lb break="no" ed="Bd" n="83"/>tur hoc, sed quia Deus summe 
+miseri<lb break="no" ed="Bd" n="84"/>cors est, et etiam malis dat donat 
+qui<lb break="no" ed="Bd" n="85"/>bus valeant redire ad ipsum si velint.
+<lb ed="Bd" n="86"/>Vel, ut alii dicunt, manet eadem 
+sem<lb break="no" ed="Bd" n="87"/>per, et non tollitur per peccatum, sicut
+<lb ed="Bd" n="88"/>nec aliw virtutes gratis date, nec 
+con<lb break="no" ed="Bd" n="89"/>suctudinales.
+</p>
+            <p xml:id="alalal-e80051-d1e885">
+               <lb ed="Bd" n="90"/>Ad aliud dicendum, quod tides 
+infor<lb break="no" ed="Bd" n="91"/>mis non omnimodam habet 
+aequivocatio<lb break="no" ed="Bd" n="92"/>nem cum formata, et ideo evacuari 
+pot<lb break="no" ed="Bd" n="93"/>estab ipsa. Vel, ut alii dicunt, manent
+<lb ed="Bd" n="94"/>ambe.
+</p>
+            <p xml:id="alalal-e80051-d1e898">
+               <lb ed="Bd" n="95"/>Ad ultimum dicendum, quod non est
+<lb ed="Bd" n="96"/>simiJe de solis lumine et calore: quia
+<lb ed="Bd" n="97"/>haec divisa sunt in effectu, sed non sic
+<pb ed="#Bd" n="424"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>est de gratia et fide. Unde gratia nihil
+<lb ed="Bd" n="2"/>influit de virtute, nisi totum det: et si
+<lb ed="Bd" n="3"/>dat totum, non indiget alio : et ideo 
+eva<lb break="no" ed="Bd" n="4"/>cuat quod est imperfectum. Vel 
+conceda<lb break="no" ed="Bd" n="5"/>tur, quod manct cum fide formata.
+</p>
+            <p xml:id="alalal-e80051-d1e922">
+               <lb ed="Bd" n="6"/>Licet autem ita possit solvi, tamen 
+sa<lb break="no" ed="Bd" n="7"/>tis apparet in ipsis solutionibus, quod
+<lb ed="Bd" n="8"/>prima opinio sanior est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

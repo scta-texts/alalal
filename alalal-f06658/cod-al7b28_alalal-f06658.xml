@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="548"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f06658"><!-- l3d29a3 -->
+            <head xml:id="alalal-f06658-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-f06658-Hd1e101" type="question-title">An ordines isti possint variari, vel sint
+necessitatis ?</head>
+            <p xml:id="alalal-f06658-d1e104">
+               <lb ed="Bd" n="68"/>ARTICULUS III.
+<lb ed="Bd" n="69"/>An ordines isti possint variari, vel sint
+<lb ed="Bd" n="70"/>necessitatis ?
+</p>
+            <p xml:id="alalal-f06658-d1e113">
+               <lb ed="Bd" n="71"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="72"/>ibi, A, circa initium : <quote xml:id="alalal-f06658-Qd1e119">Peccat enim qui
+<lb ed="Bd" n="73"/>prepostere, etc, </quote>
+            </p>
+            <p xml:id="alalal-f06658-d1e125">
+               <lb ed="Bd" n="74"/>Ex hoc enim videtur, quod ordo iste
+<lb ed="Bd" n="75"/>sit necessilatis. Et hoc non videtur :
+</p>
+            <p xml:id="alalal-f06658-d1e133">
+               <lb ed="Bd" n="76"/>1. Ponatur enim, quod patri faciam
+<lb ed="Bd" n="77"/>quidquid debeam : tunc in nullo ero reus
+<lb ed="Bd" n="78"/>contra ipsum. Cum autem hoc non sit
+<lb ed="Bd" n="79"/>finitum quod ei facio, possum alii facere
+<lb ed="Bd" n="80"/>plus : ergo diligendo eum qui 
+domesti<lb break="no" ed="Bd" n="81"/>cus est plus quam patrem, ago 
+preposte<lb break="no" ed="Bd" n="82"/>re, ot tamen non peccco.
+</p>
+            <p xml:id="alalal-f06658-d1e151">
+               <lb ed="Bd" n="83"/>2. Item, Aliquis est in religione, et
+<lb ed="Bd" n="84"/>videt patrem necesse habentem, et non
+<lb ed="Bd" n="85"/>potest subvenire nisi excat de religione
+<lb ed="Bd" n="86"/>ad lucra facienda : aut ergo iste tenetur
+<lb ed="Bd" n="87"/>apostatare, aut non. Si sic: tunc cum
+<lb ed="Bd" n="88"/>apostasia sit scandalum et contra 
+obe<lb break="no" ed="Bd" n="89"/>dicntiam, iste tenctur ad peccatum. 5i
+<lb ed="Bd" n="90"/>non : ergo in aliquo casu potest 
+prepo<lb break="no" ed="Bd" n="91"/>stare agere, scilicet praeponere dilectio-
+<pb ed="#Bd" n="549"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>nem sue congregationis patri carnali, et
+<lb ed="Bd" n="2"/>non peccabit.
+</p>
+            <p xml:id="alalal-f06658-d1e182">
+               <lb ed="Bd" n="3"/>3. Item, Ponamus aliquem esse in se@-
+<lb ed="Bd" n="4"/>culo, et habere patrem indigentem, et se
+<lb ed="Bd" n="5"/>periculose in seculo conversari cum 
+con<lb break="no" ed="Bd" n="6"/>tinuo metu casus : constat, quod ille
+<lb ed="Bd" n="7"/>magis sibi quam patri tenetur providere :
+<lb ed="Bd" n="8"/>ergo debet relinguere palrem 
+indigen<lb break="no" ed="Bd" n="9"/>tem, et fagere ad locum securitatis.
+</p>
+            <p xml:id="alalal-f06658-d1e200">
+               <lb ed="Bd" n="10"/>4. Hein, Hocvidetur per filios 
+Zebe<lb break="no" ed="Bd" n="11"/>dei, qui vocati a Domino, relicto patre,
+<lb ed="Bd" n="12"/>secuti sunt Dominum ‘, cum tamen 
+pa<lb break="no" ed="Bd" n="13"/>ter fuerit pauper cl senex: et etiam nihil
+<lb ed="Bd" n="14"/>legitur de periculosa conversatione 
+co<lb break="no" ed="Bd" n="15"/>rum. Ergo videtur, quod ordines illi 
+pos<lb break="no" ed="Bd" n="16"/>sunt variari : ergo non sunt ordincs 
+ne<lb break="no" ed="Bd" n="17"/>cessitatis.
+</p>
+            <p xml:id="alalal-f06658-d1e220">
+               <lb ed="Bd" n="18"/>Solutio Sine praejudicio dico, quod
+<lb ed="Bd" n="19"/>supposita causa sufficientis ordinis, ordo
+<lb ed="Bd" n="20"/>est necessilalis, ita quod sine ipso incidit
+<lb ed="Bd" n="21"/>peccatum. Causam ordinis dico 
+indigen<lb break="no" ed="Bd" n="22"/>tiam ex parte una, scilicet parentum, vel
+<lb ed="Bd" n="23"/>aliorum, et securitatem ex parte sua, et
+<lb ed="Bd" n="24"/>possibilitatem ad subventionem ex rebus
+<lb ed="Bd" n="25"/>fortune vel artilicio.
+</p>
+            <p xml:id="alalal-f06658-d1e240">
+               <lb ed="Bd" n="26"/>Ad primumm ergo dicendum, quod 
+num<lb break="no" ed="Bd" n="27"/>quam facio patri quod debeo, nisi ego
+<lb ed="Bd" n="28"/>impendain ei plus affectus quam alli, 
+cw<lb break="no" ed="Bd" n="29"/>teris paribus : quia si pater est malus, et
+<lb ed="Bd" n="30"/>alius bonus, alfectus nature manet 
+qui<lb break="no" ed="Bd" n="31"/>dem circa patrem, et gratiae effectus qui
+<lb ed="Bd" n="32"/>fortior est, tendit in alium: etin hoc non
+<lb ed="Bd" n="33"/>pecco, et in effectu si satisfacio patri,
+<lb ed="Bd" n="34"/>non cuipor si alii ex gratia facio plus
+<lb ed="Bd" n="35"/>quam patri : quia hoc non corrumpit 
+or<lb break="no" ed="Bd" n="36"/>dinem, cum ceteris paribus, de affectu
+<lb ed="Bd" n="37"/>semper plus sit in patrem, et de cffectu
+<lb ed="Bd" n="38"/>quantum oportet.
+</p>
+            <p xml:id="alalal-f06658-d1e272">
+               <lb ed="Bd" n="39"/>Ad aliud dicendum, quod qui est in
+<lb ed="Bd" n="40"/>religione, meo judicio in religione 
+ma<lb break="no" ed="Bd" n="41"/>nere debet : et si potest habere licentiam
+<lb ed="Bd" n="42"/>in ipsa manens, per artificium suum 
+de<lb break="no" ed="Bd" n="43"/>bet subvenire indigenti patri, si alias 
+ha<lb break="no" ed="Bd" n="44"/>bere vel mendicare non potest : sed exire
+<lb ed="Bd" n="45"/>hon tenetur propter periculum propric
+<lb ed="Bd" n="46"/>conversationis,
+</p>
+            <p xml:id="alalal-f06658-d1e292">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="47"/>Ad aliud quod objicitur de eo qui est
+<lb ed="Bd" n="48"/>in seeculo, bene concedo, quod si securus
+<lb ed="Bd" n="49"/>est in seculo, non tenetur intrare 
+reli<lb break="no" ed="Bd" n="50"/>gionem, sed subvenire patri indigenti :
+<lb ed="Bd" n="51"/>si autem probabiliter timet lapsam, vel
+<lb ed="Bd" n="52"/>forie lapsus est, tunc magis tcnetur 
+pro<lb break="no" ed="Bd" n="53"/>videre sibi, et potest relinquere patrem.
+</p>
+            <p xml:id="alalal-f06658-d1e312">
+               <lb ed="Bd" n="54"/>Ad aliud quod objicitur de filiis 
+Zebe<lb break="no" ed="Bd" n="55"/>dzxi, Jacobo et Joanne. dicendum, quod
+<lb ed="Bd" n="56"/>forte alias habuit unde viveret: vel 
+sci<lb break="no" ed="Bd" n="57"/>verunt, quod vocans eos, ei melius quam
+<lb ed="Bd" n="58"/>ipsi providere posset : sic autem non est
+<lb ed="Bd" n="59"/>de aliis qui non sunt Deus, quos 
+sequi<lb break="no" ed="Bd" n="60"/>mur ad religioneim nos vocantes.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

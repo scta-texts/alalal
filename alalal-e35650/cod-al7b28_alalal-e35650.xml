@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 13</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 13</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="183"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e35650"><!-- l3d9a13 -->
+            <head xml:id="alalal-e35650-Hd1e99">Articulus 13</head>
+            <head xml:id="alalal-e35650-Hd1e101" type="question-title">An sit una adoratio trium personarum ?</head>
+            <p xml:id="alalal-e35650-d1e104">
+               <lb ed="Bd" n="78"/>ARTICULUS XIII.
+<lb ed="Bd" n="79"/>An sit una adoratio trium personarum ?
+</p>
+            <p xml:id="alalal-e35650-d1e111">
+               <lb ed="Bd" n="80"/>Sed tunc quaeritur ratione hujus,
+<lb ed="Bd" n="81"/>Utrum una adoratione adorentur tres
+<lb ed="Bd" n="82"/>personae ?
+</p>
+            <p xml:id="alalal-e35650-d1e120">
+               <pb ed="#Bd" n="184"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Et videtur, quod non: quia fides 
+dis<lb break="no" ed="Bd" n="2"/>tinguit inter eas: ect adoratio sequitur
+<lb ed="Bd" n="3"/>fidem : ergo adoratio erit distincta.
+</p>
+            <p xml:id="alalal-e35650-d1e134">
+               <lb ed="Bd" n="4"/>SED CONTRA:
+<lb ed="Bd" n="5"/>1. Adoratio professio majeslalis 
+co<lb break="no" ed="Bd" n="6"/>lende est: cum igitur una sit majestas
+<lb ed="Bd" n="7"/>trium, una erit adoratio.
+</p>
+            <p xml:id="alalal-e35650-d1e145">
+               <lb ed="Bd" n="8"/>2. Item, Ponamus personas non esse,
+<lb ed="Bd" n="9"/>adhuc erit eadem ratio adorationis quae
+<lb ed="Bd" n="10"/>modo, scilicet quia Creator, et inajestas
+<lb ed="Bd" n="11"/>summa est summo cultu et honore 
+di<lb break="no" ed="Bd" n="12"/>gna:ergo videtur, quod adoratio non
+<lb ed="Bd" n="13"/>debetur personis in quantum sunt 
+distin<lb break="no" ed="Bd" n="14"/>cle, sed in quantum unum sunt: et sic
+<lb ed="Bd" n="15"/>sequitur, quod una sit adoratio eorum.
+</p>
+            <p xml:id="alalal-e35650-d1e165">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="16"/>Solutio Bene concedo, quod una est
+<lb ed="Bd" n="17"/>adoratio trium quoad rationem adora~
+<lb ed="Bd" n="18"/>tionis: quia illud quod et propter quod
+<lb ed="Bd" n="19"/>adoramus, unum est in tribus.
+</p>
+            <p xml:id="alalal-e35650-d1e178">
+               <lb ed="Bd" n="20"/>Ad id quod contra objicitur, dicendum
+<lb ed="Bd" n="21"/>quod licet fides distinguat, tamen unit
+<lb ed="Bd" n="22"/>etiam personas, et dicit unum esse in
+<lb ed="Bd" n="23"/>tribus in quantum adorande sunt. Sed
+<lb ed="Bd" n="24"/>si fides poneret rationem adorationis in
+<lb ed="Bd" n="25"/>proprictatibus distinguentibus, 
+sequere<lb break="no" ed="Bd" n="26"/>tur argumentum quod non facil fides:
+<lb ed="Bd" n="27"/>quin potius ponit m eo quod personas
+<lb ed="Bd" n="28"/>unit, quod est natura divinitatis una in
+<lb ed="Bd" n="29"/>tribus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

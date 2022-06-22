@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="288"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a57860"><!-- l1d9a10 -->
+            <head xml:id="alalal-a57860-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-a57860-Hd1e101" type="question-title">An ratio Augustini quam Magister 
+adducit, procedat de sapientia genita vel
+wgenita ?</head>
+            <p xml:id="alalal-a57860-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="23"/>ARTICULUS X.
+<lb ed="#Ba" n="24"/>An ratio Augustini quam Magister 
+ad<lb break="no" ed="#Ba" n="25"/>ducit, procedat de sapientia genita vel
+<lb ed="#Ba" n="26"/>wgenita ?
+</p>
+            <p xml:id="alalal-a57860-d1e117">
+               <lb ed="#Ba" n="27"/>Secundo, hoc supposito, quaeritur,
+<lb ed="#Ba" n="28"/>Quid valet ratio Augustini ?
+</p>
+            <p xml:id="alalal-a57860-d1e124">
+               <lb ed="#Ba" n="29"/>Videtur quod nihil: aut enim arguit
+<lb ed="#Ba" n="30"/>de sapientia genita, aut de sapientia 
+in<lb break="no" ed="#Ba" n="31"/>genita. Side genita, tunc videtur quod
+<lb ed="#Ba" n="32"/>Filius sit sapientia Patris qua sapiens est,
+<lb ed="#Ba" n="33"/>quod infra Magister improbabit. Si 
+au<lb break="no" ed="#Ba" n="34"/>tem de sapientia ingenita arguit, tune
+<lb ed="#Ba" n="35"/>non potest ex hoc inferri cozternitas 
+Fi<lb break="no" ed="#Ba" n="36"/>lili: non enim sequitur, si essentia 
+cow<lb break="no" ed="#Ba" n="37"/>terna est Patri, quod propter hoc Filius
+<lb ed="#Ba" n="38"/>sit Patri coeternus.
+</p>
+            <p xml:id="alalal-a57860-d1e149">
+               <lb ed="#Ba" n="39"/>Solutio. Dicendum, quod Augustinus
+<lb ed="#Ba" n="40"/>arguit de sapientia ingenita, prout est
+<lb ed="#Ba" n="41"/>appropriabilis sapientie# genite, id est,
+<lb ed="#Ba" n="42"/>Filio : appropriatum enim supponit 
+pro<lb break="no" ed="#Ba" n="43"/>prium, nec potest fierl appropriatio nisi
+<lb ed="#Ba" n="44"/>secundum intellectum praexistente 
+pro<lb break="no" ed="#Ba" n="45"/>prio: et sic sapientia ingenita aeterna
+<lb ed="#Ba" n="46"/>infert sapientiam genitam coeternam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

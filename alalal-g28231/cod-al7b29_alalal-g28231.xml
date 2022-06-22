@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="149"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g28231"><!-- l4d7dt1 -->
+            <head xml:id="alalal-g28231-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-g28231-d1e101">
+               <pb ed="#Be" n="149"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>DIVISIO TEXTUS,
+</p>
+            <p xml:id="alalal-g28231-d1e110">
+               <lb ed="#Be" n="2"/>
+               <quote xml:id="alalal-g28231-Qd1e114"> Nunc de sacramento confirmationis,
+<lb ed="#Be" n="3"/>etc. </quote>
+               <lb ed="#Be" n="4"/>Hic secundo loco Magister tangit de
+<lb ed="#Be" n="5"/>sacramento confirmationis, de quo 
+deter<lb break="no" ed="#Be" n="6"/>minat tria, scilicet ministrum in princi -
+<lb ed="#Be" n="7"/>pio capituli istius : secundo, ubi etiam
+<lb ed="#Be" n="8"/>innuit formam et materiam et effectum,
+<lb ed="#Be" n="9"/>ibi, A, §2: <quote xml:id="alalal-g28231-Qd1e132"> Virtus autem huyus 
+sa<lb break="no" ed="#Be" n="10"/>cramenti est donatio, etc. </quote> Tertio loco,
+<lb ed="#Be" n="11"/>tangit causam non iterationis, et 
+susci<lb break="no" ed="#Be" n="12"/>pientem, ibi, B,§2: <quote xml:id="alalal-g28231-Qd1e142"> Hoc sacramentum
+<lb ed="#Be" n="13"/>tantum a jejunis accipi, et geyunis 
+tra<lb break="no" ed="#Be" n="14"/>di debet, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

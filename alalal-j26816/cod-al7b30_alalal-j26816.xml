@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="607"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j26816"><!-- l4d45a1 -->
+            <head xml:id="alalal-j26816-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-j26816-Hd1e101" type="question-title">An suffragia quae facit unus, altert
+valeant ?</head>
+            <p xml:id="alalal-j26816-d1e104">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="23"/>ARTICULUS I.
+<lb ed="#Bf" n="24"/>An suffragia quae facit unus, altert
+<lb ed="#Bf" n="25"/>valeant ?
+</p>
+            <p xml:id="alalal-j26816-d1e115">
+               <lb ed="#Bf" n="26"/>Ad primum objicitur sic :
+<lb ed="#Bf" n="27"/>1. Dicit Apostolus, IY ad Corinth. v,
+<lb ed="#Bf" n="28"/>10: <quote xml:id="alalal-j26816-Qd1e123"
+                      source="http://scta.info/resource/IIcor5_10@1-15">Omnes nos manifestari oportet ante
+<lb ed="#Bf" n="29"/>tribunal Christi, ut referat unusquisque
+<lb ed="#Bf" n="30"/>propria corporis, prout gessit</quote>. Ergo 
+qui<lb break="no" ed="#Bf" n="31"/>libet recipiet propria: ergo nihil valent
+<lb ed="#Bf" n="32"/>aliena, ut videtur: ergo alii non valet,
+<lb ed="#Bf" n="33"/>quod facit alter.
+</p>
+            <p xml:id="alalal-j26816-d1e138">
+               <lb ed="#Bf" n="34"/>2. Item, Sive consideretur opus 
+na<lb break="no" ed="#Bf" n="35"/>ture, sive artis, numquam opus unius
+<lb ed="#Bf" n="36"/>derivatur in alterum, sed semper circa
+<lb ed="#Bf" n="37"/>materiam suam consistit: ergo etiam sic
+<lb ed="#Bf" n="38"/>est in operibus meritoriis, quod ad
+<lb ed="#Bf" n="39"/>alium non potest derivari, quod facit
+<lb ed="#Bf" n="40"/>alter.
+</p>
+            <p xml:id="alalal-j26816-d1e157">
+               <lb ed="#Bf" n="41"/>3. Item, In peccatis unus non punitur
+<lb ed="#Bf" n="42"/>pro altero: ergo nec in suffragiis unus
+<lb ed="#Bf" n="43"/>pro altero liberatur.
+</p>
+            <p xml:id="alalal-j26816-d1e166">
+               <cb ed="#Bf" n="c"/>
+               <lb ed="#Bf" n="44"/>4. Item, Si opus consideretur 
+secun<lb break="no" ed="#Bf" n="45"/>dum affectum, non potest efficere 
+habi<lb break="no" ed="#Bf" n="46"/>tum bonum nisi circa operantem: ergo
+<lb ed="#Bf" n="47"/>videtur, quod nihil operatur circa 
+per<lb break="no" ed="#Bf" n="48"/>sonam alteram : et ita ut prius.
+</p>
+            <p xml:id="alalal-j26816-d1e182">
+               <lb ed="#Bf" n="49"/>3. Item, Quod est ab alio in quantum
+<lb ed="#Bf" n="50"/>est ab alio, non est laude vel vituperio
+<lb ed="#Bf" n="51"/>dignum: ergo ille pro quo fit 
+interces<lb break="no" ed="#Bf" n="52"/>sio, ex hoc quod alius bene operatur pro
+<lb ed="#Bf" n="53"/>ipso, non est dignus laude vel bono 
+ali<lb break="no" ed="#Bf" n="54"/>quo : sed injusitum est dare digno: ergo
+<lb ed="#Bf" n="55"/>non oportet ei dari indulgentiam ex hoc
+<lb ed="#Bf" n="56"/>quod suffragia fiunt pro ipso.
+</p>
+            <p xml:id="alalal-j26816-d1e202">
+               <lb ed="#Bf" n="57"/>In contrarium bujus est, quod
+<lb ed="#Bf" n="58"/>4. Unus in judicio hominum satisfacit
+<lb ed="#Bf" n="59"/>pro alio: sed mitius et clementius est
+<lb ed="#Bf" n="60"/>judicium divinum, quam humanum ;
+<lb ed="#Bf" n="61"/>ergo in judicio divino unus potest 
+suffra<lb break="no" ed="#Bf" n="62"/>gari pro alio.
+</p>
+            <p xml:id="alalal-j26816-d1e218">
+               <lb ed="#Bf" n="63"/>2. Item, Christus satisfecit pro 
+omni<lb break="no" ed="#Bf" n="64"/>bus: ergo et membra Christi pro se 
+in<lb break="no" ed="#Bf" n="65"/>vicem suffragari possunt.
+</p>
+            <p xml:id="alalal-j26816-d1e227">
+               <lb ed="#Bf" n="66"/>3. Ttem, Psal. cxvm, 63 
+Parti<lb break="no" ed="#Bf" n="67"/>ceps ego sum omnium timentium te. Sed
+<lb ed="#Bf" n="68"/>constat, quod hoc modo tantus Propheta
+<lb ed="#Bf" n="69"/>non oraret, nisi sciret possibile esse,
+<lb ed="#Bf" n="70"/>quod consequeretur.
+</p>
+            <p xml:id="alalal-j26816-d1e241">
+               <lb ed="#Bf" n="71"/>4. Item, Genes. xxv, 21: Deprecatus
+<lb ed="#Bf" n="72"/>est Isaac Dominum pro uxore sua, eo
+<lb ed="#Bf" n="73"/>quod esset sterilis: qui exaudivit eum,
+<lb ed="#Bf" n="74"/>et dedit conceptum Rebecce. Ergo oratio
+<lb ed="#Bf" n="75"/>et meritum unius derivatur in alterum.
+</p>
+            <p xml:id="alalal-j26816-d1e254">
+               <lb ed="#Bf" n="76"/>5. Item, Ibidem dicit Glossa Gregorii,
+<lb ed="#Bf" n="77"/>quod <quote xml:id="alalal-j26816-Qd1e260"> predestinatio Sanctorum 
+preci<lb break="no" ed="#Bf" n="78"/>bus adjuvatur. </quote> Ergo ut prius.
+</p>
+            <p xml:id="alalal-j26816-d1e266">
+               <lb ed="#Bf" n="79"/>6. Item, Actuum, xu, 5: <quote xml:id="alalal-j26816-Qd1e270"
+                      source="http://scta.info/resource/act12_5@2-17">Petrus 
+qui<lb break="no" ed="#Bf" n="80"/>dem servabatur in carcere. Oratio autem
+<lb ed="#Bf" n="81"/>fiebat sine intermissione ab Ecclesia ad
+<lb ed="#Bf" n="82"/>Deum pro eo</quote>. Hoc autem non fecisset
+<lb ed="#Bf" n="83"/>Ecclesia, nisi juvaret unum quod facit
+<lb ed="#Bf" n="84"/>alius. Ergo ut prius.
+</p>
+            <p xml:id="alalal-j26816-d1e284">
+               <lb ed="#Bf" n="85"/>Responsio. Absque omni ambiguitate
+<lb ed="#Bf" n="86"/>credendum et dicendum, quod oratio et
+<lb ed="#Bf" n="87"/>meritum valet alteri: hoc enim est quod
+<lb ed="#Bf" n="88"/>dicitur in symbolo in illo articulo, 
+San<lb break="no" ed="#Bf" n="89"/>ctorum communionem : quia hic sic 
+in<lb break="no" ed="#Bf" n="90"/>telligitur : Credo in Spiritum sanctum,
+<lb ed="#Bf" n="91"/>scilicet communicantem bona in Ecclesia.
+</p>
+            <p xml:id="alalal-j26816-d1e302">
+               <pb ed="#Bf" n="608"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Et Apostolus, II ad Corinth. vin, 13
+  <lb ed="#Bf" n="2"/>et 14: <quote xml:id="alalal-j26816-Qd1e312"
+                      source="http://scta.info/resource/IIcor8_13@11-12 http://scta.info/resource/IIcor8_14@1-19">Ex aequalitate in presenti 
+tem<lb break="no" ed="#Bf" n="3"/>pore vestra abundantia illorum inopiam
+<lb ed="#Bf" n="4"/>suppleat, ut et illorum abundantia 
+ve<lb break="no" ed="#Bf" n="5"/>stre inopie sit supplementum, ut fiat
+<lb ed="#Bf" n="6"/>wqualitas.</quote>
+            </p>
+            <p xml:id="alalal-j26816-d1e324">
+               <lb ed="#Bf" n="7"/>Ad primum ergo dicendum, quod 
+pro<lb break="no" ed="#Bf" n="8"/>pria dicuntur dupliciter, scilicet quae per
+<lb ed="#Bf" n="9"/>me feci, et quae mea feci. Et primo 
+qui<lb break="no" ed="#Bf" n="10"/>dem modo opera per me facta, dicuntur
+<lb ed="#Bf" n="11"/>propria. Secundo autem modo etiam
+<lb ed="#Bf" n="12"/>que charitate mea feci, dicuntur mea
+<lb ed="#Bf" n="13"/>propria : et sic intelligitur dictum 
+Apo<lb break="no" ed="#Bf" n="14"/>stoli.
+</p>
+            <p xml:id="alalal-j26816-d1e345">
+               <lb ed="#Bf" n="15"/>Ad aliud dicendum, quod natura non
+<lb ed="#Bf" n="16"/>operatur forma voluntatis quae 
+commu<lb break="no" ed="#Bf" n="17"/>nicat bona, nec ars, sed potius 
+dividun<lb break="no" ed="#Bf" n="18"/>tur per materias: sed unum est 
+princi<lb break="no" ed="#Bf" n="19"/>pium in Ecclesia, quod est Spiritus 
+san<lb break="no" ed="#Bf" n="20"/>clus: et hic etiam communia facit bona
+<lb ed="#Bf" n="21"/>per totum corpus quod inspirat, scilicet
+<lb ed="#Bf" n="22"/>corpus mysticum: et hoc potius 
+assi<lb break="no" ed="#Bf" n="23"/>milatur operi quo unum membrum 
+ju<lb break="no" ed="#Bf" n="24"/>vat aliud in corpore organico, quam
+<lb ed="#Bf" n="25"/>operi nature, vel artis.
+</p>
+            <p xml:id="alalal-j26816-d1e371">
+               <lb ed="#Bf" n="26"/>Ad aliud dicendum, quod peccata non
+<lb ed="#Bf" n="27"/>habent unum principium nec unam 
+for<lb break="no" ed="#Bf" n="28"/>mam, sicut supra notatum est in 
+distin<lb break="no" ed="#Bf" n="29"/>clione de penitentia, questione de 
+opert<lb break="no" ed="#Bf" n="30"/>bus mortuis et mortificatis: sed opera
+<lb ed="#Bf" n="31"/>bona habent et formam communem et
+<lb ed="#Bf" n="32"/>principium commune: propter quae 
+om<lb break="no" ed="#Bf" n="33"/>nes boni sunt unum corpus charitate
+<lb ed="#Bf" n="34"/>connexum, sed non mali. Et ideo non
+<lb ed="#Bf" n="35"/>est simile de bonis et malis operibus.
+</p>
+            <p xml:id="alalal-j26816-d1e395">
+               <lb ed="#Bf" n="36"/>Ad aliud dicendum, quod illud 
+juva<lb break="no" ed="#Bf" n="37"/>men non est per modum efliciendi per
+<lb ed="#Bf" n="38"/>opus, sed potius per modum suffragandi
+<lb ed="#Bf" n="39"/>apud auctorem omnis boni, ut ipse 
+me<lb break="no" ed="#Bf" n="40"/>rito unius efficiat bonum in alio.
+</p>
+            <p xml:id="alalal-j26816-d1e408">
+               <lb ed="#Bf" n="41"/>Ad aliud dicendum, quod etiam in 
+ci<lb break="no" ed="#Bf" n="42"/>vilitatibus unus pro alio et liberatur et
+<lb ed="#Bf" n="43"/>remuneratur, licet laudabilis vel 
+vitupe<lb break="no" ed="#Bf" n="44"/>rabilis non fiat: quia quando fit ei 
+ali<lb break="no" ed="#Bf" n="45"/>quid quem diligo, propter me, mihi fieri
+<lb ed="#Bf" n="46"/>intelligo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

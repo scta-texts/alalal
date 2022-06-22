@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="719"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f40561"><!-- l3d38a6 -->
+            <head xml:id="alalal-f40561-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-f40561-Hd1e101" type="question-title">An mendaciorum octo genera sint bene
+assignata a Magistro?</head>
+            <p xml:id="alalal-f40561-d1e104">
+               <lb ed="Bd" n="77"/>ARTICULUS VI.
+<lb ed="Bd" n="78"/>An mendaciorum octo genera sint bene
+<lb ed="Bd" n="79"/>assignata a Magistro?
+</p>
+            <p xml:id="alalal-f40561-d1e113">
+               <lb ed="Bd" n="80"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="81"/>ibi, A, $2 sub finem: <quote xml:id="alalal-f40561-Qd1e119"> Sciendum est
+<lb ed="Bd" n="82"/>etiam esse octo genera mendacit, etc. </quote>
+            </p>
+            <p xml:id="alalal-f40561-d1e125">
+               <lb ed="Bd" n="83"/>Videtur enim, quod illa divisio nulla
+<lb ed="Bd" n="84"/>sit.
+</p>
+            <p xml:id="alalal-f40561-d1e133">
+               <lb ed="Bd" n="85"/>1. Videtur enim, qued mentiri in 
+do<lb break="no" ed="Bd" n="86"/>ctrina pietatis sive religionis, non 
+dilfe<lb break="no" ed="Bd" n="87"/>rat amendacio quod est in communi 
+lo<lb break="no" ed="Bd" n="88"/>cutione, nisi per materiam : materialis
+<lb ed="Bd" n="89"/>autem differentia non facit diversas 
+spe<lb break="no" ed="Bd" n="90"/>cies, quia aliter essent tot species, quot
+<pb ed="#Bd" n="720"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>sunt homines : ergo videtur, quod non
+<lb ed="Bd" n="2"/>facit diversas species mendacii, et sic
+<lb ed="Bd" n="3"/>nulla est divisio.
+</p>
+            <p xml:id="alalal-f40561-d1e159">
+               <lb ed="Bd" n="4"/>2. Item, Mendacium quod obest alicui
+<lb ed="Bd" n="5"/>et nulli prodest, et mendacium quod 
+ali<lb break="no" ed="Bd" n="6"/>cui prodest et alicui obest, non differunt
+<lb ed="Bd" n="7"/>nisi penes materiam : ergo videtur, quod
+<lb ed="Bd" n="8"/>ron sint diverse species mendacii.
+</p>
+            <p xml:id="alalal-f40561-d1e172">
+               <lb ed="Bd" n="9"/>3. Eadem prorsus est objectio de 
+men<lb break="no" ed="Bd" n="10"/>daciis officiosis, scilicet mentiri ut 
+con<lb break="no" ed="Bd" n="11"/>servetur vita, vel castitas, vel pecunia,
+<lb ed="Bd" n="12"/>que non habent differentiam nisi 
+mate<lb break="no" ed="Bd" n="13"/>rialem : ergo non constituunt tres 
+spe<lb break="no" ed="Bd" n="14"/>cies mendaciorum.
+</p>
+            <p xml:id="alalal-f40561-d1e188">
+               <lb ed="Bd" n="15"/>4. Praeterea, Mendacium quod alicui
+<lb ed="Bd" n="16"/>prodest et alicui nocet, tantum habet de
+<lb ed="Bd" n="17"/>olficioso, quantum de pernicioso : cum
+<lb ed="Bd" n="18"/>ergo a digniori fit denominatio, ab 
+ulili<lb break="no" ed="Bd" n="19"/>tate deberet magis poni inter officiosa,
+<lb ed="Bd" n="20"/>quam a nocumento inter perniciosa.
+</p>
+            <p xml:id="alalal-f40561-d1e204">
+               <lb ed="Bd" n="21"/>5. Praeterea, Officiosum videtur alicul
+<lb ed="Bd" n="22"/>nocere : quia qui mentitur pro pecunia
+<lb ed="Bd" n="23"/>conservanda, mentiendo facit quod ille
+<lb ed="Bd" n="24"/>decipitur, et non accipit pecuniam quam
+<lb ed="Bd" n="25"/>acciperet si ille verum dixisset : ergo 
+no<lb break="no" ed="Bd" n="26"/>cet alicui : et quod nocet alicui, est 
+per<lb break="no" ed="Bd" n="27"/>niciosum : ergo officiosum in pecunia
+<lb ed="Bd" n="28"/>retinenda est perniciosum.
+</p>
+            <p xml:id="alalal-f40561-d1e224">
+               <lb ed="Bd" n="29"/>Praeterea quaeritur, Penes quid 
+sumi<lb break="no" ed="Bd" n="30"/>tur ista divisio mendaciorum ?
+</p>
+            <p xml:id="alalal-f40561-d1e232">
+               <lb ed="Bd" n="31"/>Solutio Dicendum, quod ad hoc 
+ulti<lb break="no" ed="Bd" n="32"/>mum per superiorem divisionem patet
+<lb ed="Bd" n="33"/>responsio, quod tria sunt moventia ad
+<lb ed="Bd" n="34"/>mendacium in genere, scilicet nocivitas,
+<lb ed="Bd" n="35"/>libido, et utilitas : et penes nocivitatem
+<lb ed="Bd" n="36"/>accipiuntur prime tres species mendacii.
+<lb ed="Bd" n="37"/>Nocivitas autem illa aut est ad 
+nocumen<lb break="no" ed="Bd" n="38"/>tum spiritus, aut ad nocumentum 
+cor<lb break="no" ed="Bd" n="39"/>poris. Si ad nocumentum spiritus : tunc
+<lb ed="Bd" n="40"/>est per modum subversionis articulorum
+<lb ed="Bd" n="41"/>fidei, vel eorum quae antecedunt vel quae
+<lb ed="Bd" n="42"/>sequuntur articulos : sicut si quis dicat
+<lb ed="Bd" n="43"/>fornicationem non esse mortale 
+pecca<lb break="no" ed="Bd" n="44"/>tum mentiens, vel Scripturam non esse
+<lb ed="Bd" n="45"/>veram, vel Christum non esse 
+incarna<lb break="no" ed="Bd" n="46"/>tum, vel aliquod hujusmodi. Si autem est
+<lb ed="Bd" n="47"/>ad nocumentum corporis : aul est nocu-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>mentum universaliter, aut secundum 
+ali<lb break="no" ed="Bd" n="49"/>quid. Si primo modo: tunc est 
+secun<lb break="no" ed="Bd" n="50"/>dum genus mendacii, quod omnibus
+<lb ed="Bd" n="51"/>nocet, et nulli prodest : et tale est 
+men<lb break="no" ed="Bd" n="52"/>dacium alicui detractans, et hoc nocet
+<lb ed="Bd" n="53"/>audientibus, et loquenti, et ei de quo
+<lb ed="Bd" n="54"/>est : loquenti ad perditionem anime, ay.
+<lb ed="Bd" n="55"/>dientibus ad perditionem fervoris 
+chari<lb break="no" ed="Bd" n="56"/>tatis fraterne, ei de quo fit ad perditio.
+<lb ed="Bd" n="57"/>nem fame. Si autem non universaliter
+<lb ed="Bd" n="58"/>est nocumentum, est tertia species, quae
+<lb ed="Bd" n="59"/>alicui nocet, et alicui prodest. Si autem
+<lb ed="Bd" n="60"/>movet libido mentiendi: aut est cum
+<lb ed="Bd" n="61"/>intentione mendacii, aut est cum 
+inten<lb break="no" ed="Bd" n="62"/>tione ejus quod conjungitur mendacio in
+<lb ed="Bd" n="63"/>audiente : et primo modo est 
+libidino<lb break="no" ed="Bd" n="64"/>sum, secundo modo jocosum. Si autem
+<lb ed="Bd" n="65"/>movet utilitas : aut in bonis fortune, aut
+<lb ed="Bd" n="66"/>in bonis corporis, aut anime, quae perdi
+<lb ed="Bd" n="67"/>possunt : haec enim sunt quae sic sunt in
+<lb ed="Bd" n="68"/>anima, quod statum habent in corpore,
+<lb ed="Bd" n="69"/>sicut virginitas. Et primo modo est 
+sex<lb break="no" ed="Bd" n="70"/>tum. Secundo modo est septimum. 
+Ter<lb break="no" ed="Bd" n="71"/>lio modo octavum.
+</p>
+            <p xml:id="alalal-f40561-d1e326">
+               <lb ed="Bd" n="72"/>Ad primum autem et secundum et 
+ter<lb break="no" ed="Bd" n="73"/>tium dicendum, quod tales rationes non
+<lb ed="Bd" n="74"/>procedunt nisi de materia de qua est res,
+<lb ed="Bd" n="75"/>et non de materia circa quam : sicut 
+ob<lb break="no" ed="Bd" n="76"/>jectum est circa quod est actus, quia 
+ac<lb break="no" ed="Bd" n="77"/>tus diffiniuntur per objecta, et potentiae
+<lb ed="Bd" n="78"/>vel habitus per actus : quia talia objecta
+<lb ed="Bd" n="79"/>habent rationem moventium et finium in
+<lb ed="Bd" n="80"/>comparatione ad actus qui sunt circa
+<lb ed="Bd" n="81"/>ea.
+</p>
+            <p xml:id="alalal-f40561-d1e350">
+               <lb ed="Bd" n="82"/>Ad aliud dicendum, quod licet aliquid
+<lb ed="Bd" n="83"/>sit de utilitate in tertio pernicioso, tamen
+<lb ed="Bd" n="84"/>illa non est movens, sed consequens :
+<lb ed="Bd" n="85"/>et ideo ab illa non diffinitur et 
+specifica<lb break="no" ed="Bd" n="86"/>tur.
+</p>
+            <p xml:id="alalal-f40561-d1e363">
+               <lb ed="Bd" n="87"/>Ad aliud dicendum, quod non nocet
+<lb ed="Bd" n="88"/>illi, quia ille non habetjus ad habendum
+<lb ed="Bd" n="89"/>pecuniam illam : sed potius prodest, quia
+<lb ed="Bd" n="90"/>conservat eum abinjuria : unde non 
+no<lb break="no" ed="Bd" n="91"/>cet nisi loquenti, quia hoc nocumentum
+<lb ed="Bd" n="92"/>inseparabile est a mendacio, eo quod
+<lb ed="Bd" n="93"/>peccatum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

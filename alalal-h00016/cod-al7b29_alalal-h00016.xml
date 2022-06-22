@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="478"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h00016"><!-- l4d15a5 -->
+            <head xml:id="alalal-h00016-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-h00016-Hd1e101" type="question-title">An Deus puniendo peccata servet 
+mensuram debitam ?</head>
+            <p xml:id="alalal-h00016-d1e104">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="24"/>ARTICULUS V.
+<lb ed="#Be" n="25"/>An Deus puniendo peccata servet 
+men<lb break="no" ed="#Be" n="26"/>suram debitam ?
+</p>
+            <p xml:id="alalal-h00016-d1e115">
+               <lb ed="#Be" n="27"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="28"/>ibi, B, post initium : <quote xml:id="alalal-h00016-Qd1e121"> Dewm ut omnium
+<lb ed="#Be" n="29"/>rerum, tta suppliciorum quogue scire
+<lb ed="#Be" n="30"/>mensuras, etc. </quote>
+            </p>
+            <p xml:id="alalal-h00016-d1e129">
+               <cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="31"/>Videtur enim, quod ipsemet Deus non
+<lb ed="#Be" n="32"/>servet mensuras delictorum poenae :
+<lb ed="#Be" n="33"/>1. Patet enim, quod delictum est 
+tem<lb break="no" ed="#Be" n="34"/>porale : sed poena est xterna: ergo 
+vide<lb break="no" ed="#Be" n="35"/>tur, quod mensura non servetur.
+</p>
+            <p xml:id="alalal-h00016-d1e146">
+               <lb ed="#Be" n="36"/>2. Item, Infra dicitur, quod poena
+<lb ed="#Be" n="37"/>etiam purgatorii excedit omne genus
+<lb ed="#Be" n="38"/>passionis, quod potest homo pati in hac
+<lb ed="#Be" n="39"/>vita: ergo multo magis poena inferni:
+<lb ed="#Be" n="40"/>sed delectatio peccati non excedit omne
+<lb ed="#Be" n="41"/>genus delectationis hujus vite : ergo
+<lb ed="#Be" n="42"/>acerbitas pene secundum intensionem
+<lb ed="#Be" n="43"/>excedit in quantitate delectationem pec-
+<pb ed="#Be" n="479"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>cati: ergo non sunt mensurata contra se
+<lb ed="#Be" n="2"/>peena et culpa, ut videtur.
+</p>
+            <p xml:id="alalal-h00016-d1e175">
+               <lb ed="#Be" n="3"/>Serutio. Dicendum, quod mensura
+<lb ed="#Be" n="4"/>pene non proportionatur quantitati 
+tem<lb break="no" ed="#Be" n="5"/>poris, vel delectationis, sed potius 
+quan<lb break="no" ed="#Be" n="6"/>titati radicis et contemptus et imperii
+<lb ed="#Be" n="7"/>yoluntatis, ut dicunt Sancti. Verbi 
+gra<lb break="no" ed="#Be" n="8"/>tia, radix peccati contemptus est : et
+<lb ed="#Be" n="9"/>quantitas hujus attenditur penes 
+quanti<lb break="no" ed="#Be" n="10"/>talem aeterni boni increati, quod 
+contem<lb break="no" ed="#Be" n="11"/>nit: et hoc est bonum quoddam 
+infini<lb break="no" ed="#Be" n="12"/>tum. Et ideo si finita poena punitur, hoe
+<lb ed="#Be" n="13"/>erit ex Dei misericordia. Similiter actus
+<lb ed="#Be" n="14"/>peccati est temporalis: sed tamen cum
+<lb ed="#Be" n="15"/>homo voluntarie subdit se peccato, cum
+<lb ed="#Be" n="16"/>scientia ejus quod est non posse 
+resur<lb break="no" ed="#Be" n="17"/>gere per se, quantum est de se, eligit in
+<lb ed="#Be" n="18"/>peccato esse aeternaliter: et per 
+conse<lb break="no" ed="#Be" n="19"/>quens et huic aeternitati respondet poena
+<lb ed="#Be" n="20"/>eterna. Et hoc est quod dicit Gregorius,
+<lb ed="#Be" n="21"/>quod <quote xml:id="alalal-h00016-Qd1e218"> quia homo peccavit in suo
+<lb ed="#Be" n="22"/>eterno, ideo punitur in Dei aeterno. </quote>
+            </p>
+            <p xml:id="alalal-h00016-d1e224">
+               <lb ed="#Be" n="23"/>Et per hoc patet solutio utriusque 
+ob<lb break="no" ed="#Be" n="24"/>jecti.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

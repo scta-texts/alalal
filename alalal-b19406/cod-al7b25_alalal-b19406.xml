@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="617"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b19406"><!-- l1d24a5 -->
+            <head xml:id="alalal-b19406-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-b19406-Hd1e101" type="question-title">Utrum unitas sive termini numerales
+univoce praedicentur de essentia, 
+persona, et notione ?</head>
+            <p xml:id="alalal-b19406-d1e104">
+               <lb ed="#Ba" n="23"/>ARTICULUS V.
+<lb ed="#Ba" n="24"/>Utrum unitas sive termini numerales
+<lb ed="#Ba" n="25"/>univoce praedicentur de essentia, 
+per<lb break="no" ed="#Ba" n="26"/>sona, et notione ?
+</p>
+            <p xml:id="alalal-b19406-d1e115">
+               <lb ed="#Ba" n="27"/>Deinde quaeritur, Utrum univoce 
+di<lb break="no" ed="#Ba" n="28"/>cilur unum de essentia et de persona?
+</p>
+            <p xml:id="alalal-b19406-d1e122">
+               <lb ed="#Ba" n="29"/>Videtur quod sic : quia
+<lb ed="#Ba" n="30"/>1. Non aequivoce simpliciter, sed per
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="31"/>prius et posterius dicitur de Creatore et
+<lb ed="#Ba" n="32"/>creatura : sed inter essentiam et 
+perso<lb break="no" ed="#Ba" n="33"/>nam non est prius et posterius : ergo 
+di<lb break="no" ed="#Ba" n="34"/>citur in utroque ex @quo : ergo univoce.
+</p>
+            <p xml:id="alalal-b19406-d1e141">
+               <lb ed="#Ba" n="35"/>2. Item, Aut una est unitas essentia et
+<lb ed="#Ba" n="36"/>persone, aut due. Si due : ergo essentia
+<lb ed="#Ba" n="37"/>et persona sunt duo, quod falsum est:
+<lb ed="#Ba" n="38"/>ergo relinquitur, quod sit una.
+</p>
+            <p xml:id="alalal-b19406-d1e152">
+               <lb ed="#Ba" n="39"/>SED CONTRA :
+<lb ed="#Ba" n="40"/>1. Cum dicitur, Pater est unus,-sensus
+<lb ed="#Ba" n="41"/>est, id est, notione distinctus : cum 
+au<lb break="no" ed="#Ba" n="42"/>tem dicitur, essentia una, sensus est, id
+<lb ed="#Ba" n="43"/>est, in se indivisa, et ab aliis divisa : er-
+<pb ed="#Ba" n="618"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>go non una ratione dicitur essentia una,
+<lb ed="#Ba" n="2"/>et persona una.
+</p>
+            <p xml:id="alalal-b19406-d1e174">
+               <lb ed="#Ba" n="3"/>2. Item, Unum est indivisum in se, et
+<lb ed="#Ba" n="4"/>divisum ab aliis : ergo si Pater est unus,
+<lb ed="#Ba" n="5"/>ipse erit divisus ab aliis, quod falsum
+<lb ed="#Ba" n="6"/>est : quia Filius est in Patre, et e 
+con<lb break="no" ed="#Ba" n="7"/>verso.
+</p>
+            <p xml:id="alalal-b19406-d1e187">
+               <lb ed="#Ba" n="8"/>3. Item, Unum et ens converltuntur :
+<lb ed="#Ba" n="9"/>ergo eodem Pater est unus quo Pater est
+<lb ed="#Ba" n="10"/>pater : ergo paternitate est unus : 
+essen<lb break="no" ed="#Ba" n="11"/>tia autem divina non est una paternitate,
+<lb ed="#Ba" n="12"/>sed seipsa : ergo non dicitur secundum
+<lb ed="#Ba" n="13"/>unam rationem, sed aequivoce, ut 
+vide<lb break="no" ed="#Ba" n="14"/>tur.
+</p>
+            <p xml:id="alalal-b19406-d1e205">
+               <lb ed="#Ba" n="15"/>Ad hoc dicendum, quod una ratione, et
+<lb ed="#Ba" n="16"/>non zquivoce dicitur: est enim unitas
+<lb ed="#Ba" n="17"/>abstrahens ab hoc uno et illo, et illa est
+<lb ed="#Ba" n="18"/>unius ralionis in quohbet uno : quia licet
+<lb ed="#Ba" n="19"/>sit a diversis formis, tamen abstrahitur
+<lb ed="#Ba" n="20"/>ab eis per unum actum secundum 
+ratio<lb break="no" ed="#Ba" n="21"/>nem qui est determinare, et finire, et
+<lb ed="#Ba" n="22"/>distinguere : et ideo lapis est unus 
+lapi<lb break="no" ed="#Ba" n="23"/>ditate sua, et ignum est unum non 
+lapi<lb break="no" ed="#Ba" n="24"/>ditate : et tamen unum non dicitur aqui-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="25"/>voce : quia sicut lapiditas distinguit 
+la<lb break="no" ed="#Ba" n="26"/>pidem, ita ligneitas lignum, et ideo 
+uni<lb break="no" ed="#Ba" n="27"/>tas ab utroque est unius rationis: et ideo
+<lb ed="#Ba" n="28"/>quoad hoc posset dici, quod unitas cum
+<lb ed="#Ba" n="29"/>dicitur de essentia, dicit unitatem 
+essen<lb break="no" ed="#Ba" n="30"/>tiae . et cum dicitur de persona, dicit 
+uni<lb break="no" ed="#Ba" n="31"/>tatem persone : et licet essentia seipsa
+<lb ed="#Ba" n="32"/>distinguatur, persona autem proprietate,
+<lb ed="#Ba" n="33"/>tamen unitas non erit diverse rationis.
+<lb ed="#Ba" n="34"/>Si autem consideretur unitas secundum
+<lb ed="#Ba" n="35"/>suppositum, tunc erit omnino unius 
+ra<lb break="no" ed="#Ba" n="36"/>tionis, sed dicta per prius et posterius in
+<lb ed="#Ba" n="37"/>essentia et persona.
+</p>
+            <p xml:id="alalal-b19406-d1e260">
+               <lb ed="#Ba" n="38"/>Et secundum hoc dicendum ad 
+pri<lb break="no" ed="#Ba" n="39"/>mum, quod licet non sit prius et 
+poste<lb break="no" ed="#Ba" n="40"/>rius secundum rem inter essentiam et
+<lb ed="#Ba" n="41"/>personam, tamen est ibi prius et 
+poste<lb break="no" ed="#Ba" n="42"/>rius secundum rationem intelligendi.
+</p>
+            <p xml:id="alalal-b19406-d1e274">
+               <lb ed="#Ba" n="43"/>Ad aliud dicendum, quod est una 
+uni<lb break="no" ed="#Ba" n="44"/>tas re, et non ratione intelligendi, si 
+uni<lb break="no" ed="#Ba" n="45"/>tas accipitur in esse ejus quod est unum,
+<lb ed="#Ba" n="46"/>et non abstracta ab ipso : et ideo aliquid
+<lb ed="#Ba" n="47"/>convenit uni quod non convenit alti.
+</p>
+            <p xml:id="alalal-b19406-d1e287">
+               <lb ed="#Ba" n="48"/>Ap alia patet solutio per ante dicta. ad object
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

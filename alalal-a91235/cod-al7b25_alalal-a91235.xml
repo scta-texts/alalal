@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="461"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a91235"><!-- l1d17a1 -->
+            <head xml:id="alalal-a91235-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-a91235-Hd1e101" type="question-title">Utrum charitas qua diligimus Deum, sit
+Spiritus sanctus, vel aliquod donum
+habituale creatum ?</head>
+            <p xml:id="alalal-a91235-d1e104">
+               <lb ed="#Ba" n="32"/>ARTICULUS I.
+<lb ed="#Ba" n="33"/>Utrum charitas qua diligimus Deum, sit
+<lb ed="#Ba" n="34"/>Spiritus sanctus, vel aliquod donum
+<lb ed="#Ba" n="35"/>habituale creatum ?
+</p>
+            <p xml:id="alalal-a91235-d1e115">
+               <lb ed="#Ba" n="36"/>Incidit autem hic ante Litteram 
+que<lb break="no" ed="#Ba" n="37"/>stio communis, Utrum charitas qua 
+di<lb break="no" ed="#Ba" n="38"/>ligimus Deum, sit Spiritus sanctus?
+</p>
+            <p xml:id="alalal-a91235-d1e124">
+               <lb ed="#Ba" n="39"/>Videtur autem, quod sic tam 
+auctori<lb break="no" ed="#Ba" n="40"/>tatibus quam rationibus. Sed quia 
+Magi<lb break="no" ed="#Ba" n="41"/>ster ponit plurimas quae valde express
+<lb ed="#Ba" n="42"/>videntur, ideo rationibus instemus sic:
+</p>
+            <p xml:id="alalal-a91235-d1e136">
+               <lb ed="#Ba" n="43"/>1. Nihilindignius inferiori potest 
+supe<lb break="no" ed="#Ba" n="44"/>rius inferior! conjungere : sed nulla 
+cre<lb break="no" ed="#Ba" n="45"/>atura non rationalis est dignior creatura
+<lb ed="#Ba" n="46"/>rationali : ergo non potest eam conjun-
+<pb ed="#Ba" n="462"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>gere nature superiori : charitas est 
+crea<lb break="no" ed="#Ba" n="2"/>ta, ul tu dicis, et non rationalis, quia nec
+<lb ed="#Ba" n="3"/>homo, nec Angelus : ergo non potest 
+ho<lb break="no" ed="#Ba" n="4"/>minen superiori nature conjungere : sed
+<lb ed="#Ba" n="5"/>conjungit : ergo a destructione 
+conse<lb break="no" ed="#Ba" n="6"/>quentis non est creatura.
+</p>
+            <p xml:id="alalal-a91235-d1e165">
+               <lb ed="#Ba" n="7"/>2. Item, Nihil essentia  finitee habet
+<lb ed="#Ba" n="8"/>virtutem vel aclum infinitum : charitas
+<lb ed="#Ba" n="9"/>si creatura est, est essentiae finite : ergo
+<lb ed="#Ba" n="10"/>non habet virtutem ad actum inlinitum :
+<lb ed="#Ba" n="11"/>sed habet vim ad actum infinitum : ergo
+<lb ed="#Ba" n="12"/>non est essentiae finite: ergo non 
+essen<lb break="no" ed="#Ba" n="13"/>tia creata. Propario, quod habet effectunr
+<lb ed="#Ba" n="14"/>infinitum : Rationalis natura et Deus 
+di<lb break="no" ed="#Ba" n="15"/>stant infinite: et tamen per charitatem
+<lb ed="#Ba" n="16"/>conjunguntur : ergo charitas est increata,
+</p>
+            <p xml:id="alalal-a91235-d1e189">
+               <lb ed="#Ba" n="17"/>3. Item, Heresis Pelagii est, quod 
+ho<lb break="no" ed="#Ba" n="18"/>mo ex se habel unde placeat Deo : ergo
+<lb ed="#Ba" n="19"/>unde placet homo Deo, melius est 
+homi<lb break="no" ed="#Ba" n="20"/>ne : sed nullum accidens melius est 
+ho<lb break="no" ed="#Ba" n="21"/>mine: ergo charitas unde placet homo
+<lb ed="#Ba" n="22"/>Deo, non est accidens : ergo substantia :
+<lb ed="#Ba" n="23"/>aut creata, aut increata : si creata que
+<lb ed="#Ba" n="24"/>melior est homie, non potest esse nisi
+<lb ed="#Ba" n="25"/>Angelus conlirmatus, quod absurdum
+<lb ed="#Ba" n="26"/>est : quia nec ille habet ex se unde 
+pla<lb break="no" ed="#Ba" n="27"/>cere Deo possit : ergo oportet, quod sit
+<lb ed="#Ba" n="28"/>substantia increata, et sic erit Deus.
+</p>
+            <p xml:id="alalal-a91235-d1e218">
+               <lb ed="#Ba" n="29"/>4. Item, Omnis forma, secundum 
+opi<lb break="no" ed="#Ba" n="30"/>nionem Aristotelis, praeter intellectum
+<lb ed="#Ba" n="31"/>educitur aliquo modo de materia : si 
+er<lb break="no" ed="#Ba" n="32"/>go charitas est forma, charitas educetur
+<lb ed="#Ba" n="33"/>de materia : sed non educitur de 
+mate<lb break="no" ed="#Ba" n="34"/>ria : ergo non est forma : ergo videtur,
+<lb ed="#Ba" n="35"/>quod sit substantia divina in nobis.
+</p>
+            <p xml:id="alalal-a91235-d1e236">
+               <lb ed="#Ba" n="36"/>5. Item, Omnis creatura subjecta est
+<lb ed="#Ba" n="37"/>vanitati: vanitas aulem non convenit
+<lb ed="#Ba" n="38"/>veritati, et pracipue increate : si ergo
+<lb ed="#Ba" n="39"/>charitas est creata et accidens, magis
+<lb ed="#Ba" n="40"/>etiam erit subjecta vanitati quam homo
+<lb ed="#Ba" n="41"/>qui est substantia: ergo veritati prime
+<lb ed="#Ba" n="42"/>conjungere non potest : sed conjungit :
+<lb ed="#Ba" n="43"/>ergo non est creatura : ergo creator est
+<lb ed="#Ba" n="44"/>charitas qua diligimus Deum, et nos 
+in<lb break="no" ed="#Ba" n="45"/>vicem.
+</p>
+            <p xml:id="alalal-a91235-d1e260">
+               <lb ed="#Ba" n="46"/>6. Item, Anima per seipsam sine medio
+<lb ed="#Ba" n="47"/>vivificat corpus : cum ergo Deus sit vita
+<lb ed="#Ba" n="48"/>anime, per selpsum est vita anime : sed
+<lb ed="#Ba" n="49"/>charitas est vita, ut dicit Augustinus, et
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="50"/>Magister, et Hugo de sancto Victore :
+<lb ed="#Ba" n="51"/>ergo charitas est Deus.
+</p>
+            <p xml:id="alalal-a91235-d1e279">
+               <lb ed="#Ba" n="52"/>7. Item, Natura expedit se 
+paucissi<lb break="no" ed="#Ba" n="53"/>mis: quia ubi sufficit agens unum, non
+<lb ed="#Ba" n="54"/>pomt duo: cum ergo Spiritus sanctus
+<lb ed="#Ba" n="55"/>sit perfectior quam natura, ipse 
+pauciori<lb break="no" ed="#Ba" n="56"/>bus additis operabitur: sed potest per
+<lb ed="#Ba" n="57"/>scipsum movere ad diligendum Deum et
+<lb ed="#Ba" n="58"/>proximum : ergo ipse in motu illo non
+<lb ed="#Ba" n="59"/>utetur medio habituali.
+</p>
+            <p xml:id="alalal-a91235-d1e299">
+               <lb ed="#Ba" n="60"/>8. Item, Lux per seipsath illuminat
+<lb ed="#Ba" n="61"/>aerem : cum ergo charitas sil lux que-
+(lain pellens tenebras spirituales, videtur
+<lb ed="#Ba" n="62"/>quod Deus per seipsum sit lux ila sine
+<lb ed="#Ba" n="63"/>medio babituali aliquo.
+</p>
+            <p xml:id="alalal-a91235-d1e310">
+               <lb ed="#Ba" n="64"/>9. Item, Omnis virtus motoris quanto
+<lb ed="#Ba" n="65"/>vicinior est motori, tanto simplicior et
+<lb ed="#Ba" n="66"/>nobilior est : sed nulla est ita vicina 
+sic<lb break="no" ed="#Ba" n="67"/>ut illa in qua in seipso movet : ergo illa
+<lb ed="#Ba" n="68"/>est nobilissima: Spiritus autem sanctus
+<lb ed="#Ba" n="69"/>est motor anime : ergo nobilissino 
+mo<lb break="no" ed="#Ba" n="70"/>tu movebit seipso : sed nobilissimus 
+mo<lb break="no" ed="#Ba" n="71"/>tus est charitatis actus: ergo illo actu
+<lb ed="#Ba" n="72"/>operatur seipso, et non habitu aliquo.
+</p>
+            <p xml:id="alalal-a91235-d1e332">
+               <lb ed="#Ba" n="73"/>10. Item, Opus recreationis debet 
+re<lb break="no" ed="#Ba" n="74"/>spondere operi creationis et 
+beatificatio<lb break="no" ed="#Ba" n="75"/>nis : sed seipso creavit, et seipso sine
+<lb ed="#Ba" n="76"/>medio beatificabit: ergo etiam recreat
+<lb ed="#Ba" n="77"/>seipso sine medio.
+</p>
+            <p xml:id="alalal-a91235-d1e345">
+               <lb ed="#Ba" n="78"/>Item, Recreatio precipue consistit in
+<lb ed="#Ba" n="79"/>charitate quae dividit inter filios regni et
+<lb ed="#Ba" n="80"/>perditionis, ut infra dicit in Letéera :
+<lb ed="#Ba" n="81"/>ergo charitas recreans estipse Deus.
+</p>
+            <p xml:id="alalal-a91235-d1e356">
+               <lb ed="#Ba" n="82"/>1. Item, Pelagiana heresis videtur
+<lb ed="#Ba" n="83"/>habere, quod aliqua creatura possit per
+<lb ed="#Ba" n="84"/>se conjungi Deo: nihil autem conjungit
+<lb ed="#Ba" n="85"/>aliquid Deo nisi ipsum per se Deo sit
+<lb ed="#Ba" n="86"/>conjunctum : ergo Pelagiana heresis est
+<lb ed="#Ba" n="87"/>dicere, quod conjungens nos Deo sit 
+crea<lb break="no" ed="#Ba" n="88"/>tum : charitas autem conjungit nos Deo:
+<lb ed="#Ba" n="89"/>ergo Pelagiana heresis est dicere 
+chari<lb break="no" ed="#Ba" n="90"/>tatem qua Deum et nos diligimus, esse
+<lb ed="#Ba" n="91"/>habitum creatum.
+</p>
+            <p xml:id="alalal-a91235-d1e381">
+               <lb ed="#Ba" n="92"/>12. Item, Nihil facit hominem et opus
+<lb ed="#Ba" n="93"/>ejus valere vitam aeternam, nisi melius
+<lb ed="#Ba" n="94"/>vita clerna vel aequivalens illi: charitas
+<lb ed="#Ba" n="95"/>facit hominem et opus ejus valere vitam
+<lb ed="#Ba" n="96"/>eternam : ergo est aliquid melius vita
+<lb ed="#Ba" n="97"/>eterna vel aequivalens illi! nihil autem
+<pb ed="#Ba" n="463"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>creatum est melius vita aeterna vel 
+equi<lb break="no" ed="#Ba" n="2"/>valens illi: ergo charitas non est quid
+<lb ed="#Ba" n="3"/>creatum in nobis.
+</p>
+            <p xml:id="alalal-a91235-d1e407">
+               <lb ed="#Ba" n="4"/>13. Item, Omne ens creatum habet
+<lb ed="#Ba" n="5"/>modum, speciem, et ordinem: ergo si
+<lb ed="#Ba" n="6"/>charitas est creata, habet modum, 
+spe<lb break="no" ed="#Ba" n="7"/>ciem, et ordinem: sed modus, species,
+<lb ed="#Ba" n="8"/>et ordo, in omnibus his in quibus sunt,
+<lb ed="#Ba" n="9"/>possunt diminui: ergo in charitate 
+pos<lb break="no" ed="#Ba" n="10"/>sunt diminui : diminuta autem 
+defor<lb break="no" ed="#Ba" n="11"/>mant: ergo charitas potest deformari:
+<lb ed="#Ba" n="12"/>ergo potest fieri informis, quod 
+absur<lb break="no" ed="#Ba" n="13"/>dum est: forma enim informis esse non
+<lb ed="#Ba" n="14"/>potest : cum ergo charitas forma sit, non
+<lb ed="#Ba" n="15"/>potest esse informis : ergo non est 
+crea<lb break="no" ed="#Ba" n="16"/>ta, sed creator.
+</p>
+            <p xml:id="alalal-a91235-d1e438">
+               <lb ed="#Ba" n="17"/>14, Item, in omni genere operis est
+<lb ed="#Ba" n="18"/>potentius subjectum accidente, quia
+<lb ed="#Ba" n="19"/>accidens causatur a subjecto : si ergo
+<lb ed="#Ba" n="20"/>charitas est habitus accidentalis 
+sub<lb break="no" ed="#Ba" n="21"/>jecto quod est anima, ut tu dicis, 
+vide<lb break="no" ed="#Ba" n="22"/>tur quod in opere dilectionis subjectum
+<lb ed="#Ba" n="23"/>quod est anima, potentius sit charitale,
+<lb ed="#Ba" n="24"/>quod est heresis Pelagii : quia si 
+po<lb break="no" ed="#Ba" n="25"/>tentius esset, sine habitu posset 
+dili<lb break="no" ed="#Ba" n="26"/>gere : ergo charitas non est accidens :
+<lb ed="#Ba" n="27"/>et non est substantia creata, sicut patet
+<lb ed="#Ba" n="28"/>cuilibet de facili : ergo est substantia 
+di<lb break="no" ed="#Ba" n="29"/>vina, ut videtur.
+</p>
+            <p xml:id="alalal-a91235-d1e469">
+               <lb ed="#Ba" n="30"/>SED CONTRA :
+<lb ed="#Ba" n="31"/>1. Nulla potentia agit bene nisi sit
+<lb ed="#Ba" n="32"/>perfecta per habitum, vel naturalem, vel
+<lb ed="#Ba" n="33"/>acquisitum, vel infusum : ergo multo
+<lb ed="#Ba" n="34"/>ininus potest facere summum et 
+preci<lb break="no" ed="#Ba" n="35"/>puum actum : sed maximus et precipuus
+<lb ed="#Ba" n="36"/>omnium actuum est diligere Deum 
+me<lb break="no" ed="#Ba" n="37"/>ritorie : ergo ad hanc maxime exigitur
+<lb ed="#Ba" n="38"/>habitus perficiens potentiam.
+</p>
+            <p xml:id="alalal-a91235-d1e491">
+               <lb ed="#Ba" n="39"/>2. Item, In omni opere operatur Deus
+<lb ed="#Ba" n="40"/>in potentia operante, sicut ipse dicit,
+<lb ed="#Ba" n="41"/>Pater meus usque modo operatur, et ego
+<lb ed="#Ba" n="42"/>operor !, Aut ergo in voluntate diligente
+<lb ed="#Ba" n="43"/>operatur aliter quam in aliis potentiis,
+<lb ed="#Ba" n="44"/>aut eodem modo. Si aliter, ille alius 
+mo<lb break="no" ed="#Ba" n="45"/>dus non potest esse ex parte sui; ergo
+<lb ed="#Ba" n="46"/>erit ex parte nostri, non nisi per aliquid
+<lb ed="#Ba" n="47"/>additum potenti in actu hoc, quod non
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>additur in aliis: ergo aliquid adjicitur
+<lb ed="#Ba" n="49"/>potettia : hoc autem quod adjicitur 
+po<lb break="no" ed="#Ba" n="50"/>tentie ordinate ad opus, est habitus :
+<lb ed="#Ba" n="51"/>ergo operatur istum actum per habitum.
+<lb ed="#Ba" n="52"/>Si forte ita insane mentis sit aliquis,
+<lb ed="#Ba" n="53"/>quod dicat nihil addi, sequitur quod non
+<lb ed="#Ba" n="54"/>operatur aliter in voluntate quam in 
+la<lb break="no" ed="#Ba" n="55"/>pide, et sic non gratificat operantem,
+<lb ed="#Ba" n="56"/>quod falsum est et absurdum.
+</p>
+            <p xml:id="alalal-a91235-d1e535">
+               <lb ed="#Ba" n="57"/>3. Item, Si propter istas rationes que
+<lb ed="#Ba" n="58"/>inducte sunt, charitas non est aliquis
+<lb ed="#Ba" n="59"/>habitus in nobis, sequitur per easdem
+<lb ed="#Ba" n="60"/>rationes, quod etiam gratia nihil sit in
+<lb ed="#Ba" n="61"/>nobis. Heresis autem Pelagu’ non ex~
+<lb ed="#Ba" n="62"/>clusit Deum ab anima operante eo modo
+<lb ed="#Ba" n="63"/>quo est in omnibus creaturis operans :
+<lb ed="#Ba" n="64"/>ergo ex ipsa positione sequitur heresis
+<lb ed="#Ba" n="65"/>Pelagu, ut videtur.
+</p>
+            <p xml:id="alalal-a91235-d1e558">
+               <lb ed="#Ba" n="66"/>4. Item, De homine qui est in 
+chari<lb break="no" ed="#Ba" n="67"/>tate, dicimus quod ipse est sanctus : et
+<lb ed="#Ba" n="68"/>ponamus per impossibile, quod nullam
+<lb ed="#Ba" n="69"/>habeat virtutem nisi charitatem, adhuc
+<lb ed="#Ba" n="70"/>sanctus est : ergo aut aliquo habitu 
+for<lb break="no" ed="#Ba" n="71"/>maliter bonus est et sanctus est, aut non.
+<lb ed="#Ba" n="72"/>Sialiquo habitu: ergo ile habitus 
+ali<lb break="no" ed="#Ba" n="73"/>quid erit non nisi charitas : ergo charitas
+<lb ed="#Ba" n="74"/>est habitus creatus. Sinon est aliquis
+<lb ed="#Ba" n="75"/>habitus quo sanctus est et bonus: ergo
+<lb ed="#Ba" n="76"/>Deus est denonunativa bonitas et 
+sancti<lb break="no" ed="#Ba" n="77"/>tas istius, quod absurdum est.
+</p>
+            <p xml:id="alalal-a91235-d1e587">
+               <lb ed="#Ba" n="78"/>3. Item, Secundum Magistrum actus
+<lb ed="#Ba" n="79"/>charitatis creatus est, sed non habitus :
+<lb ed="#Ba" n="80"/>dicamus ergo de aliquo dormiente qui
+<lb ed="#Ba" n="81"/>est in statu salutis: autille habet 
+chari<lb break="no" ed="#Ba" n="82"/>tatem, aut non. Si non: ergo non est
+<lb ed="#Ba" n="83"/>dignus vita aeterna cum dormit, quod
+<lb ed="#Ba" n="84"/>falsum est. Si sic : constat quod non per
+<lb ed="#Ba" n="85"/>actum : quia dum non agit, actus non
+<lb ed="#Ba" n="86"/>est :nec per habitum : ergo non est plus
+<lb ed="#Ba" n="87"/>in charitate quam lapis m quo ctiam
+<lb ed="#Ba" n="88"/>est Spiritus sanctus potentialiter, 
+pre<lb break="no" ed="#Ba" n="89"/>sentialiter, et essentialiter,
+</p>
+            <p xml:id="alalal-a91235-d1e616">
+               <lb ed="#Ba" n="90"/>6. Item, Pueri secundum hoc non 
+ha<lb break="no" ed="#Ba" n="91"/>bebunt charitatem, nisi sicut Japides 
+ha<lb break="no" ed="#Ba" n="92"/>bent eam. Si dicas, quod non est simile:
+<lb ed="#Ba" n="93"/>quia habent aptitudinem ut agant actum
+<lb ed="#Ba" n="94"/>charitatis. Contra : Ista aptitudo non
+<pb ed="#Ba" n="464"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>est in aliquo habitu: ergo est in potentia
+<lb ed="#Ba" n="2"/>materiali tantum, quod absurdum est.
+</p>
+            <p xml:id="alalal-a91235-d1e638">
+               <lb ed="#Ba" n="3"/>Solutio. Hic sunt quaedam 
+absurdita<lb break="no" ed="#Ba" n="4"/>tes dicte a quibusdam: concedunt enim
+<lb ed="#Ba" n="5"/>cum Magistro, quod charitas qua 
+diligi<lb break="no" ed="#Ba" n="6"/>mus Deum et proximum, sit increata :
+<lb ed="#Ba" n="7"/>sed quia, ut supra inducte rationes 
+pro<lb break="no" ed="#Ba" n="8"/>bant, quod ipsa sit Spiritus sanctus,
+<lb ed="#Ba" n="9"/>quod etiam Magister nititur probare in
+<lb ed="#Ba" n="10"/>Laittera, ideo dicunt quod Spiritus 
+san<lb break="no" ed="#Ba" n="11"/>ctus est charitas illa. Et sicut lux duplex
+<lb ed="#Ba" n="12"/>habet esse, scilicet in se, et in perspicui
+<lb ed="#Ba" n="13"/>extremitate ad corpus terminatum, et ibi
+<lb ed="#Ba" n="14"/>est hypostasis et essentia colorum, ut 
+di<lb break="no" ed="#Ba" n="15"/>cit Philosophus : ita dicunt, quod 
+Spiri<lb break="no" ed="#Ba" n="16"/>tus sancius in se animam illuminat, et
+<lb ed="#Ba" n="17"/>sic habet actum gratia quam dicunt esse
+<lb ed="#Ba" n="18"/>lucem anime : et habet esse in voluntate
+<lb ed="#Ba" n="19"/>sibi conformi, et ibi habet esse per 
+ratio<lb break="no" ed="#Ba" n="20"/>nem charitatis: et hanc unionem cum
+<lb ed="#Ba" n="21"/>creatura rationali dicunt, licet sit 
+opera<lb break="no" ed="#Ba" n="22"/>tive trium personarum, quia omnes simul
+<lb ed="#Ba" n="23"/>operantur eam, tamen sibi et in se 
+uni<lb break="no" ed="#Ba" n="24"/>tive non esse nisi Spiritus sancti, non
+<lb ed="#Ba" n="25"/>Patris, neque Filii: sicut etiam Filius
+<lb ed="#Ba" n="26"/>univit sibi naturam nostram, et ipsam
+<lb ed="#Ba" n="27"/>unionem fecerunt communiter et 
+indi<lb break="no" ed="#Ba" n="28"/>visibiliter tres persone: sed sibi et in
+<lb ed="#Ba" n="29"/>se non univit naturam nostram nisi 
+Ii<lb break="no" ed="#Ba" n="30"/>lius. Et hoc dicunt sensisse Apostolum,
+  <lb ed="#Ba" n="31"/>T ad Corinth, v1, 47: <quote xml:id="alalal-a91235-Qd1e703"
+                      source="http://scta.info/resource/Icor6_17">Qui adheret Deo,
+<lb ed="#Ba" n="32"/>unus spiritus est</quote> : et non unus Pater est.
+<lb ed="#Ba" n="33"/>Addere autem volunt errori suo 
+ratio<lb break="no" ed="#Ba" n="34"/>nem: quia Filius ut Filius procedit actu
+<lb ed="#Ba" n="35"/>generationis ut anatura, et ideo naturam
+<lb ed="#Ba" n="36"/>sibi univit: Spiritus autem ut Spiritus
+<lb ed="#Ba" n="37"/>procedit ut amor, quia est perfectio 
+vo<lb break="no" ed="#Ba" n="38"/>luntatis, et ideo univit sibi voluntatem,
+<lb ed="#Ba" n="39"/>licet longe inferiort unione, quam Filius
+<lb ed="#Ba" n="40"/>sibi univit carnem : quia carnem sibi
+<lb ed="#Ba" n="41"/>univit Filius in aeternum, Spiritus autem
+<lb ed="#Ba" n="42"/>sanctus univit sibi voluntatem 
+separabi<lb break="no" ed="#Ba" n="43"/>liter : et ideo dicunt, quod ipse est 
+cha<lb break="no" ed="#Ba" n="44"/>ritas voluntatem perficiens. Sed hoc 
+fa<lb break="no" ed="#Ba" n="45"/>tuum est: quia in tertio Sententiarum
+<lb ed="#Ba" n="46"/>probatur, quod Spiritus sanctus nullo
+<lb ed="#Ba" n="47"/>modo unibilis est.
+</p>
+            <p xml:id="alalal-a91235-d1e741">
+               <lb ed="#Ba" n="48"/>Praeterea, Illa unio aut est per gra-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="49"/>tiam, aut per naturam. Si per gratiam ;
+<lb ed="#Ba" n="50"/>ergo oportet habere habitum gratia  
+me<lb break="no" ed="#Ba" n="51"/>dium : et sic sequuntur eadem 
+inconve<lb break="no" ed="#Ba" n="52"/>nientia de gratia, sicut de charitate, 
+sci<lb break="no" ed="#Ba" n="53"/>licet quod accidens Deo conjungit, quod
+<lb ed="#Ba" n="54"/>creatum unit increato, et hujusmodi
+<lb ed="#Ba" n="55"/>qualia superius conclusa sunt. Si autem
+<lb ed="#Ba" n="56"/>est a natura: cum una natura sit in 
+om<lb break="no" ed="#Ba" n="57"/>nibus nobis, esset hac unio una quoad
+<lb ed="#Ba" n="58"/>omnes nos, quod falsum est.
+</p>
+            <p xml:id="alalal-a91235-d1e770">
+               <lb ed="#Ba" n="59"/>Praeterea, Cum dicitur lux in 
+extremi<lb break="no" ed="#Ba" n="60"/>tale perspicui ad corpus terminatum esse
+<lb ed="#Ba" n="61"/>coloris hypostasis, non est hypostasis
+<lb ed="#Ba" n="62"/>unius coloris in determinato corpore :
+<lb ed="#Ba" n="63"/>sed potius per hunc modum est 
+hyposta<lb break="no" ed="#Ba" n="64"/>sis et esse formale ‘omnium colorum qui
+<lb ed="#Ba" n="65"/>sunt visibiles actu in corpore non 
+trans<lb break="no" ed="#Ba" n="66"/>parenti, quod a Philosopho vocatur 
+de<lb break="no" ed="#Ba" n="67"/>terminatum ab effectu. quia determinat
+<lb ed="#Ba" n="68"/>visum, ita quod visus non transit per 
+ip<lb break="no" ed="#Ba" n="69"/>sum: ergo sihec similitudo aliquid valet,
+<lb ed="#Ba" n="70"/>videtur tune, quod nulla virtus aliquid
+<lb ed="#Ba" n="71"/>sit in nobis, sed quod virtus sit unio vel
+<lb ed="#Ba" n="72"/>mixtio Spiritus sancti cum potentia 
+ani<lb break="no" ed="#Ba" n="73"/>me nostra.
+</p>
+            <p xml:id="alalal-a91235-d1e806">
+               <lb ed="#Ba" n="74"/>Item, In simili suo supponitur 
+quod<lb break="no" ed="#Ba" n="75"/>dam valde grossum falsum, scilicet esse
+<lb ed="#Ba" n="76"/>coloris nihil aliud esse nisi extremitatem
+<lb ed="#Ba" n="77"/>perspicui in corpore determinato : et hoc
+<lb ed="#Ba" n="78"/>est contra Philosophum, qui tangit 
+co<lb break="no" ed="#Ba" n="79"/>lorum generationes in multis locis 
+libro<lb break="no" ed="#Ba" n="80"/>rum suorum ex actione primarum 
+qua<lb break="no" ed="#Ba" n="81"/>litatum et passionum : unde relinquitur,
+<lb ed="#Ba" n="82"/>quod esse formale quo color actu est,
+<lb ed="#Ba" n="83"/>habet ab extremitate perspicui in 
+super<lb break="no" ed="#Ba" n="84"/>ficie determinata corporis in qua est ipse
+<lb ed="#Ba" n="85"/>color, et non habet esse materiale ab 
+ea<lb break="no" ed="#Ba" n="86"/>dem extremitate perspicui : quando enim
+<lb ed="#Ba" n="87"/>extremitas perspicui corporis non est in
+<lb ed="#Ba" n="88"/>aclu lucidi, adhuc secundum esse 
+mate<lb break="no" ed="#Ba" n="89"/>riale sunt colores in superficie 
+determi<lb break="no" ed="#Ba" n="90"/>nati corporis. Unde patet, quod falsum
+<lb ed="#Ba" n="91"/>supponitur in simuili adducto.
+</p>
+            <p xml:id="alalal-a91235-d1e848">
+               <lb ed="#Ba" n="92"/>Sicut ergo communiter fere omnes
+<lb ed="#Ba" n="93"/>meliores concordant, contradicendum est
+<lb ed="#Ba" n="94"/>Magistro in ista parte, et dicendum,
+<lb ed="#Ba" n="95"/>quod charitas qua habitualiter dilgimus
+<lb ed="#Ba" n="96"/>Deum et proximum, non est Spiritus
+<lb ed="#Ba" n="97"/>sanctus : sed Spiritus sanctus appropriate
+<pb ed="#Ba" n="465"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>non proprie est charitas qua effective 
+di<lb break="no" ed="#Ba" n="2"/>ligimus Deum et proximum: hoc enim
+<lb ed="#Ba" n="3"/>efficiunt in nobis communiter Pater et
+<lb ed="#Ba" n="4"/>Filius et Spiritus sanctus, licet 
+appro<lb break="no" ed="#Ba" n="5"/>priate Spiritus sanctus, quia ipse est
+<lb ed="#Ba" n="6"/>proprie charitas, et sic est exemplar 
+no<lb break="no" ed="#Ba" n="7"/>stra charitatis, et est distributor 
+dono<lb break="no" ed="#Ba" n="8"/>rum in quo omnia donantur : per quam
+<lb ed="#Ba" n="9"/>rationem in libro de Spirits et anima
+<lb ed="#Ba" n="10"/>proximior nobis esse dicitur. Et hee
+<lb ed="#Ba" n="11"/>unica solutio aptatur omnibus 
+auctorita<lb break="no" ed="#Ba" n="12"/>libus in Littera adductis.
+</p>
+            <p xml:id="alalal-a91235-d1e894">
+               <lb ed="#Ba" n="13"/>Ad rationes autem per ordinem 
+re<lb break="no" ed="#Ba" n="14"/>spondendum, dicendo ad primam, quod
+<lb ed="#Ba" n="15"/>indignius dupliciter dicitur, scilicet 
+indi<lb break="no" ed="#Ba" n="16"/>gnius in genere, et indignius secundum
+<lb ed="#Ba" n="17"/>rationem boni. Charitas per hoc quod
+<lb ed="#Ba" n="18"/>accidens est et in genere accidentis, 
+in<lb break="no" ed="#Ba" n="19"/>dignius aliquid est in genere quam 
+sub<lb break="no" ed="#Ba" n="20"/>stantia. Si autem attenditur ratio bon,
+<lb ed="#Ba" n="21"/>tunc ipsa est dignior omni bono creato :
+<lb ed="#Ba" n="22"/>quia ratio boni in ipsa est, quod est 
+ef<lb break="no" ed="#Ba" n="23"/>fectus simillimus bonitati Dei, ita quod
+<lb ed="#Ba" n="24"/>etiam ipse Deus ab effectu hoc numquam
+<lb ed="#Ba" n="25"/>separatur, sed semper cum ipso datur ei
+<lb ed="#Ba" n="26"/>cui datur charitas : et ideo etiam in 
+quan<lb break="no" ed="#Ba" n="27"/>tum est similitudo bonitatis Dei, et Deum
+<lb ed="#Ba" n="28"/>habéet in se ad aliud quam aliae creature,
+<lb ed="#Ba" n="29"/>unde ipse inferiorem in bonitatis ratione
+<lb ed="#Ba" n="30"/>naturam potest conjungere nature 
+supe<lb break="no" ed="#Ba" n="31"/>riori.
+</p>
+            <p xml:id="alalal-a91235-d1e938">
+               <lb ed="#Ba" n="32"/>Ap aLiuo dicendum quod charitas in se
+<lb ed="#Ba" n="33"/>considerata est essentiae et .virtutis 
+fini<lb break="no" ed="#Ba" n="34"/>te: in quantum autem agit per 
+ratio<lb break="no" ed="#Ba" n="35"/>nem boni similis bonitati Dei, Deum 
+ha<lb break="no" ed="#Ba" n="36"/>bens in se operantem, sic potest 
+conjun<lb break="no" ed="#Ba" n="37"/>gere infinite distantia, hoc est, sine 
+pro<lb break="no" ed="#Ba" n="38"/>portione.
+</p>
+            <p xml:id="alalal-a91235-d1e956">
+               <lb ed="#Ba" n="39"/>Ad aliud dicendum sicut in solutione
+<lb ed="#Ba" n="40"/>primi dictum est.
+</p>
+            <p xml:id="alalal-a91235-d1e963">
+               <lb ed="#Ba" n="41"/>Ad aliud dicendum, quod sunt forme
+<lb ed="#Ba" n="42"/>in materia ex qua fiunt res, et ille 
+edu<lb break="no" ed="#Ba" n="43"/>cuntur de materia per agens physicum.
+<lb ed="#Ba" n="44"/>Sunt etiam forme in substantia et 
+poten<lb break="no" ed="#Ba" n="45"/>tiis anime per ordinem ad Deum et 
+sta<lb break="no" ed="#Ba" n="46"/>tum beatitudinis, et ille omnes sunt a 
+da<lb break="no" ed="#Ba" n="47"/>tore talium formarum qui est Deus, 
+cor<lb break="no" ed="#Ba" n="48"/>da munda creans in nobis, ect spiritum
+<lb ed="#Ba" n="49"/>rectum innovans in visceribus nostris.
+</p>
+            <p xml:id="alalal-a91235-d1e986">
+               <lb ed="#Ba" n="50"/>Ad aliud dicendum, quod charitas non
+<lb ed="#Ba" n="51"/>jungit nos per hoc quod est creatura, sed
+<lb ed="#Ba" n="52"/>secundum quod est similitudo et 
+emana<lb break="no" ed="#Ba" n="53"/>tio quaedam bonitatis Dei, qui Deus ex
+<lb ed="#Ba" n="54"/>eadem bonitate in ipsa jungitur anime.
+</p>
+            <p xml:id="alalal-a91235-d1e999">
+               <lb ed="#Ba" n="55"/>Ad aliud dicendum, quod de anima
+<lb ed="#Ba" n="56"/>non est simile : quia anima se habet ad
+<lb ed="#Ba" n="57"/>corpus ut motor et forma, et ideo 
+imme<lb break="no" ed="#Ba" n="58"/>diata est ei sicut forma materie : sed
+<lb ed="#Ba" n="59"/>Spiritus sanctus se habet ad animam ut
+<lb ed="#Ba" n="60"/>motor non conjunctus secundum 
+essen<lb break="no" ed="#Ba" n="61"/>tiam.
+</p>
+            <p xml:id="alalal-a91235-d1e1017">
+               <lb ed="#Ba" n="62"/>Praeterea, Proportio est inter animam
+<lb ed="#Ba" n="63"/>et corpus: inter animam autem et Deum
+<lb ed="#Ba" n="64"/>non, sed distantia infinita : et ideo 
+ne<lb break="no" ed="#Ba" n="65"/>cesse est medio conjungi.
+</p>
+            <p xml:id="alalal-a91235-d1e1028">
+               <lb ed="#Ba" n="66"/>Et forte etiam hoc falsum est, quod
+<lb ed="#Ba" n="67"/>anima per se sit vita corporis : est enim
+<lb ed="#Ba" n="68"/>duplex vita qua dicitur corpus vivum,
+<lb ed="#Ba" n="69"/>quarum una est vita per causam 
+efficien<lb break="no" ed="#Ba" n="70"/>tem, et bec est anima : alia est influxa
+<lb ed="#Ba" n="71"/>corpori ab anima, et adheret corpori ut
+<lb ed="#Ba" n="72"/>forma, et hac secunda similis est 
+chari<lb break="no" ed="#Ba" n="73"/>tati habituali, prima autem Spiritui 
+san<lb break="no" ed="#Ba" n="74"/>cto.
+</p>
+            <p xml:id="alalal-a91235-d1e1050">
+               <lb ed="#Ba" n="75"/>Ad aliud dicendum, quod medium 
+il<lb break="no" ed="#Ba" n="76"/>lud non requiritur propter 
+imperfectio<lb break="no" ed="#Ba" n="77"/>nem operantis Spiritus, sed potius 
+prop<lb break="no" ed="#Ba" n="78"/>ter imperfectionem nostram : quia 
+no<lb break="no" ed="#Ba" n="79"/>ster affectus non potest in actum cum
+<lb ed="#Ba" n="80"/>Spiritu progredi, nisi perficiatur per 
+ha<lb break="no" ed="#Ba" n="81"/>bitum illi actui congruum.
+</p>
+            <p xml:id="alalal-a91235-d1e1068">
+               <lb ed="#Ba" n="82"/>Ad aliud dicendum, quod lucens 
+pri<lb break="no" ed="#Ba" n="83"/>mum movet per influentiam lucis que
+<lb ed="#Ba" n="84"/>non est ipsum, sed est lumen cffluxum
+<lb ed="#Ba" n="85"/>ab ipso in id quod movetur lucente 
+pri<lb break="no" ed="#Ba" n="86"/>mo. Ita est hic quod charitas est quasi
+<lb ed="#Ba" n="87"/>lumen effluxum a Spiritu sancto in nos:
+<lb ed="#Ba" n="88"/>Spirttus autem sanctus est quasi sol fons
+<lb ed="#Ba" n="89"/>luminis et caloris in nobis.
+</p>
+            <p xml:id="alalal-a91235-d1e1089">
+               <lb ed="#Ba" n="90"/>Ap aLiup dicendum, quod virtus 
+mo<lb break="no" ed="#Ba" n="91"/>toris primi adeo simplex est, quod sicut
+<lb ed="#Ba" n="92"/>est in ipso non potest recipi a quoquam
+<lb ed="#Ba" n="93"/>creato : unde sicut est in mobili primo,
+<lb ed="#Ba" n="94"/>quod ipsum oportet habere proprietatem
+<lb ed="#Ba" n="95"/>disponentem se ad hoc quod recipiat 
+in<lb break="no" ed="#Ba" n="96"/>fluentiam motus primo motoris, 
+que<lb break="no" ed="#Ba" n="97"/>cumgue sit illa proprietas : ita est ex
+<lb ed="#Ba" n="98"/>parte affectus nostri, quod influentiam
+<pb ed="#Ba" n="466"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Spiritus sancti ad actum digmissimum
+<lb ed="#Ba" n="2"/>qui est diligere, non recipiet secundum
+<lb ed="#Ba" n="3"/>quod est immediatus Spiritui sancto : sed 
+<lb ed="#Ba" n="4"/>oportet esse habitum elevantem 
+poten<lb break="no" ed="#Ba" n="5"/>tiam ad hoc quod sit possibilis recipere 
+<lb ed="#Ba" n="6"/>influentiam Spiritus ad actum. 
+<lb ed="#Ba" n="7"/>Ad 10, Ap aliup dicendum, quod opus 
+recrea<lb break="no" ed="#Ba" n="8"/>tionis respondet operi creationis in 
+ali<lb break="no" ed="#Ba" n="9"/>quo, et in aliquo non. Creationis enim 
+<lb ed="#Ba" n="10"/>opus est factivum substantia, sed opus 
+<lb ed="#Ba" n="11"/>recreationis bene esse : et ideo in illo 
+<lb ed="#Ba" n="12"/>non potuit esse habitus quo reciperetur 
+<lb ed="#Ba" n="13"/>opus creationis : quia ante substantiam 
+<lb ed="#Ba" n="14"/>nullus est habitus. Sed opus recreationis 
+<lb ed="#Ba" n="15"/>non educit substantiam ad esse, sed ad 
+<lb ed="#Ba" n="16"/>bene esse tantum : et ad illud bene esse 
+<lb ed="#Ba" n="17"/>quod se teneat formaliter nobiscum, 
+in<lb break="no" ed="#Ba" n="18"/>digemus habitu. Sed in hoc conveniunt, 
+<lb ed="#Ba" n="19"/>quod utrumque est a Deo operante per 
+<lb ed="#Ba" n="20"/>seipsum in creatione formam 
+substantia<lb break="no" ed="#Ba" n="21"/>lem dantem esse, hic autem formam 
+ha<lb break="no" ed="#Ba" n="22"/>bitualem dantem bene esse. 
+<lb ed="#Ba" n="23"/>Ad ti Ad aliud patet solutio per ante dicta. 
+<lb ed="#Ba" n="24"/>Ad 12. Ad aliud dicendum, quod charitas 
+se<lb break="no" ed="#Ba" n="25"/>cundum hoc quod conjuncta est Deo per 
+<lb ed="#Ba" n="26"/>similitudinem sue bonitatis, est valens 
+<lb ed="#Ba" n="27"/>vitam aeternam, non condignitate, quia 
+<lb ed="#Ba" n="28"/>vita aeterna Deus est cui nihil est 
+condi<lb break="no" ed="#Ba" n="29"/>gnum : sed reputatione divina, quia Deus 
+<lb ed="#Ba" n="30"/>non tantum exigit a nobis pro vita 
+eter<lb break="no" ed="#Ba" n="31"/>na quantum valet, sed quantum nos 
+va<lb break="no" ed="#Ba" n="32"/>lemus dare ex suo dono : majus autem
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="33"/>pretium quod offerre possumus ex suo
+  <lb ed="#Ba" n="34"/>dono, charitas est et actus charitatis.
+</p>
+            <p xml:id="alalal-a91235-d1e1191">
+               <lb ed="#Ba" n="35"/>Ad aliud dicendum, quod charitas est aa:
+  <lb ed="#Ba" n="36"/>species, modus, et ordo voluntatis in 
+bo<lb break="no" ed="#Ba" n="37"/>num ordinate secundum quod 
+diversi<lb break="no" ed="#Ba" n="38"/>mode consideratur : in quantum enim
+  <lb ed="#Ba" n="39"/>est forma, est species : in quantum 
+au<lb break="no" ed="#Ba" n="40"/>tem habet tantum posse ad actum, est
+  <lb ed="#Ba" n="41"/>modus : ordo autem est penes finem, 
+se<lb break="no" ed="#Ba" n="42"/>cundum quem est vinculum perfectionis.
+  <lb ed="#Ba" n="43"/>In se autem etiam habet ista: quia ratio
+  <lb ed="#Ba" n="44"/>formae, et ratio posse sui, et ratio ordinis
+  <lb ed="#Ba" n="45"/>ad finem aliquid sunt in ipsa <!--</quote>--> nec est
+  <lb ed="#Ba" n="46"/>verum, quod in omnibus ista tria 
+dimi<lb break="no" ed="#Ba" n="47"/>nuibilia sint sine destructione substantia.
+  <lb ed="#Ba" n="48"/>unde charitas haecnon amittitur manente
+  <lb ed="#Ba" n="49"/>subjecto.
+  </p>
+            <p xml:id="alalal-a91235-d1e1228">
+               <lb ed="#Ba" n="50"/>Av uLrimém dicenduin, quod 
+subje<lb break="no" ed="#Ba" n="51"/>ctum non est potentius accidente, nisi
+  <lb ed="#Ba" n="52"/>utruinque considerando secundum 
+natu<lb break="no" ed="#Ba" n="53"/>ram sui generis, scilicet subjectum in 
+ra<lb break="no" ed="#Ba" n="54"/>tione substantia, et accidens in ratione
+  <lb ed="#Ba" n="55"/>accidentis. Sed gratia et charitas alias
+  <lb ed="#Ba" n="56"/>habent considerationes : quia etiain 
+se<lb break="no" ed="#Ba" n="57"/>cundum Philosophum non dicimus 
+ho<lb break="no" ed="#Ba" n="58"/>minem alteratum, quando altingit 
+virtu<lb break="no" ed="#Ba" n="59"/>tem, sed potius perfectum. Unde 
+hujus<lb break="no" ed="#Ba" n="60"/>modi habitus habent rationem 
+perfi<lb break="no" ed="#Ba" n="61"/>cientiam secundum bene esse ex hoc
+  <lb ed="#Ba" n="62"/>quod sunt influentia quaedam divine 
+lar<lb break="no" ed="#Ba" n="63"/>gitatis et bonitatis, etc.
+  </p>
+         </div>
+      </body>
+   </text>
+</TEI>

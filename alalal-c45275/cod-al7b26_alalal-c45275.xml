@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="239"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c45275"><!-- l1d37a8 -->
+            <head xml:id="alalal-c45275-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-c45275-Hd1e101" type="question-title">An soli Deo conveniat esse ubique ?
+Deinde queritur de hoc quod dicit, ibi,</head>
+            <p xml:id="alalal-c45275-d1e104">
+               <lb ed="#Bb" n="38"/>ARTICULUS VIII.
+<lb ed="#Bb" n="39"/>An soli Deo conveniat esse ubique ?
+<lb ed="#Bb" n="40"/>Deinde queritur de hoc quod dicit, ibi,
+</p>
+            <p xml:id="alalal-c45275-d1e113">
+               <lb ed="#Bb" n="41"/>A, sub finem : <quote xml:id="alalal-c45275-Qd1e117"> Qura ubique est, quod
+<lb ed="#Bb" n="42"/>est proprium divinitatis, etc. </quote>
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="43"/>1. Videtur enim hoc esse falsum per
+<lb ed="#Bb" n="44"/>hoc quod habetur in primo Posteriorum
+<lb ed="#Bb" n="45"/>de universali, quod cum sit de omni, et
+<lb ed="#Bb" n="46"/>semper, et ubique est : ergo non est
+<lb ed="#Bb" n="47"/>proprium Dei: quia proprium est, quod
+<lb ed="#Bb" n="48"/>convenit uni et soli.
+</p>
+            <p xml:id="alalal-c45275-d1e138">
+               <lb ed="#Bb" n="49"/>2. Item Glossa super illud Psalmi
+<lb ed="#Bb" n="50"/>extvu, 15 : Velociter currit sermo ejus :
+<lb ed="#Bb" n="51"/>dicit quod velocitas ubique est, non in
+<lb ed="#Bb" n="52"/>equis, vel hominibus tantum. Si autem
+<lb ed="#Bb" n="53"/>dicas, quod universale est ubique non
+<lb ed="#Bb" n="54"/>simpliciter, sed in quolibet suo 
+particu<lb break="no" ed="#Bb" n="55"/>lari: et hoc est esse ubique quoad suum
+<lb ed="#Bb" n="56"/>ambitum, qui tamen non ambit omnia.
+<lb ed="#Bb" n="57"/>ConTRA Accipiamus ergo universale
+<lb ed="#Bb" n="58"/>quod est ex reductione effectivum 
+om<lb break="no" ed="#Bb" n="59"/>nium ad causam primam : hoc enim 
+uni<lb break="no" ed="#Bb" n="60"/>versale erit ubique, el semper: quia est
+<lb ed="#Bb" n="61"/>de Deo et creatura omni : ergo non est
+<lb ed="#Bb" n="62"/>proprium Deo.
+</p>
+            <p xml:id="alalal-c45275-d1e172">
+               <lb ed="#Bb" n="63"/>3. Item, Ponamus unam solam 
+sub<lb break="no" ed="#Bb" n="64"/>stantiam esse : ergo illa substantia erit
+<lb ed="#Bb" n="65"/>in omnibus in quibus est Deus : ergo
+<lb ed="#Bb" n="66"/>non est proprium Deo.
+</p>
+            <p xml:id="alalal-c45275-d1e183">
+               <lb ed="#Bb" n="67"/>4, Item, Ponamus unum solum 
+homi<lb break="no" ed="#Bb" n="68"/>nem esse : anima ejus erit in toto 
+corpo<lb break="no" ed="#Bb" n="69"/>re tota : et non est locus nisi corporis :
+<lb ed="#Bb" n="70"/>ergo ipsa est ubique sicut Deus : quia 
+ta<lb break="no" ed="#Bb" n="71"/>li positione facta, Deus etiam tunc non
+<lb ed="#Bb" n="72"/>erit in pluribus.
+</p>
+            <p xml:id="alalal-c45275-d1e199">
+               <lb ed="#Bb" n="73"/>5. Item, Ponamus, quod unum corpus
+<lb ed="#Bb" n="74"/>sit tante dimensionis, quod repleat 
+to<lb break="no" ed="#Bb" n="75"/>tum concavum circuli mundi, illud 
+cor<lb break="no" ed="#Bb" n="76"/>pus erit ubique, ut videtur : ergo non
+<lb ed="#Bb" n="77"/>est hoc proprium Deo.
+</p>
+            <p xml:id="alalal-c45275-d1e212">
+               <lb ed="#Bb" n="78"/>Solutio. Dicendum, quod haec et 
+om<lb break="no" ed="#Bb" n="79"/>nia alia hujusmondi sophismata 
+solvun<lb break="no" ed="#Bb" n="80"/>tur per hoc quod equivoce sumitur ly
+<lb ed="#Bb" n="81"/>wbique, quando dicitur universale vel
+<lb ed="#Bb" n="82"/>commune aliquod esse ubique, et Deus
+<lb ed="#Bb" n="83"/>ubique. Id enim quod refertur ad locum,
+<lb ed="#Bb" n="84"/>est distinctum. Id autem quod refertur
+<lb ed="#Bb" n="85"/>ut ad subjectum vel suppositum, refertur
+<lb ed="#Bb" n="86"/>ad id in quo habet esse in natura et 
+in<lb break="no" ed="#Bb" n="87"/>divisum ab illo : et hoc modo 
+universa<lb break="no" ed="#Bb" n="88"/>le est ubique, et semper: Deus autem
+<lb ed="#Bb" n="89"/>primo modo, quia ipse distinctus ab
+<lb ed="#Bb" n="90"/>omnibus est in omnibus, dans loco vir-
+<pb ed="#Bb" n="240"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>tutem continendi qua locus est, et 
+loca<lb break="no" ed="#Bb" n="2"/>to virtutem replendi qua locatum est. 
+</p>
+            <p xml:id="alalal-c45275-d1e251">
+               <lb ed="#Bb" n="3"/>Ad id quod objicitur, quod ponatur 
+<lb ed="#Bb" n="4"/>una sola substantia esse : dicendum, 
+<lb ed="#Bb" n="5"/>quod illa non dicetur esse ubique, sed in 
+<lb ed="#Bb" n="6"/>uno solo loco : quia licet non sit locus 
+<lb ed="#Bb" n="7"/>plusquam iste, possunt tamen esse plura’ mento.
+<lb ed="#Bb" n="8"/>in quibus non est : sed non possunt esse 
+<lb ed="#Bb" n="9"/>in quibus Deus non sit: et haec est 
+ve<lb break="no" ed="#Bb" n="10"/>ra solutio. Potest etiam dici, quod etiam 
+<lb ed="#Bb" n="11"/>tunc non est tota ubique : quia non tota 
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="12"/>est in toto loco, etin qualibet parte 
+lo<lb break="no" ed="#Bb" n="13"/>ci : Deus autem sic est ubique.
+</p>
+            <p xml:id="alalal-c45275-d1e280">
+               <lb ed="#Bb" n="14"/>Ad aliud dicendum, quod anima non
+<lb ed="#Bb" n="15"/>habet comparationem ad corpus ut ad
+<lb ed="#Bb" n="16"/>locum, sed sicut ad materiam et mobile;
+<lb ed="#Bb" n="17"/>et ideo suppositio falsa est in 
+argu<lb break="no" ed="#Bb" n="18"/>Ad aliud dicendum, quod etsi sit
+<lb ed="#Bb" n="19"/>unum corpus tale, hoc non erit totum
+<lb ed="#Bb" n="20"/>in qualibet loci particula : et ideo non
+<lb ed="#Bb" n="21"/>tenet instantia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

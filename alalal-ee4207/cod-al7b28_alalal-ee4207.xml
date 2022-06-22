@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="23"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee4207"><!-- l3d2a2 -->
+            <head xml:id="alalal-ee4207-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-ee4207-Hd1e101" type="question-title">An Angelus sit assumptibilis ?</head>
+            <p xml:id="alalal-ee4207-d1e104">
+               <lb ed="Bd" n="32"/>ARTICULUS II.
+<lb ed="Bd" n="33"/>An Angelus sit assumptibilis ?
+</p>
+            <p xml:id="alalal-ee4207-d1e111">
+               <lb ed="Bd" n="34"/>Secundo quaeritur, Utrum etiam 
+An<lb break="no" ed="Bd" n="35"/>gelus sit assumptibilis ?
+</p>
+            <p xml:id="alalal-ee4207-d1e118">
+               <lb ed="Bd" n="36"/>Et videtur, quod sic.
+<lb ed="Bd" n="37"/>1. Angelus enim (ut dicit Gregorius)
+<lb ed="Bd" n="38"/>expressius quam homo imaginem Dei
+<lb ed="Bd" n="39"/>habet : et ideo ab Ezechiele, xxvm, 12,
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="40"/>
+               <quote xml:id="alalal-ee4207-Qd1e133"
+                      source="http://scta.info/resource/ez28_12@9-10">signaculum dicitur similitudinis</quote>?. Cum
+<lb ed="Bd" n="41"/>igitur ex imagine homo sit unibilis, 
+vi<lb break="no" ed="Bd" n="42"/>detur quod Angelus magis unibilis sit
+<lb ed="Bd" n="43"/>quam homo.
+</p>
+            <p xml:id="alalal-ee4207-d1e144">
+               <lb ed="Bd" n="44"/>2. Pretcrea, Angelus capax est per
+<lb ed="Bd" n="45"/>intellectum ipsius unionis, et 
+beatificabi<lb break="no" ed="Bd" n="46"/>lis est: ergo est unibilis.
+</p>
+            <p xml:id="alalal-ee4207-d1e153">
+               <lb ed="Bd" n="47"/>3. Item, Summe misericordie est
+<lb ed="Bd" n="48"/>omnia reducere ex miserie statu : sed
+<lb ed="Bd" n="49"/>Angelus est in statu miserie : ergo cum
+<lb ed="Bd" n="50"/>Deus sit summe misericors, videtur ipse
+<lb ed="Bd" n="51"/>debere unire sibi Angelum ut redimat 
+ip<lb break="no" ed="Bd" n="52"/>sum.
+</p>
+            <p xml:id="alalal-ee4207-d1e169">
+               <lb ed="Bd" n="53"/>SED CONTRA :
+<lb ed="Bd" n="54"/>1. A quocumgqne est inseparabilis 
+dis<lb break="no" ed="Bd" n="55"/>cretio personalis, ipsum non est 
+assum<lb break="no" ed="Bd" n="56"/>pubile : ab angelica natura inseparabilis
+<lb ed="Bd" n="57"/>est discretio personalis : ergo non est 
+as<lb break="no" ed="Bd" n="58"/>sumptibilis. Prosatio majoris: 
+Assum<lb break="no" ed="Bd" n="59"/>ptio nihil destruit in assumpto : eo quod
+<lb ed="Bd" n="60"/>non transit unum assumentium in aliud.
+<lb ed="Bd" n="61"/>Si igitur assumeret illud quod est in
+<lb ed="Bd" n="62"/>personali discretione, discretio personalis
+<lb ed="Bd" n="63"/>in ipso non destrueretur, et ita non fieret
+<lb ed="Bd" n="64"/>unio in persona, nec etiam in natura,
+<lb ed="Bd" n="65"/>quia natura assumentis et natura 
+assum<lb break="no" ed="Bd" n="66"/>pli semper manerent distincte, et sic
+<lb ed="Bd" n="67"/>nulla fieret unio. Prosario secunde 
+ac<lb break="no" ed="Bd" n="68"/>cipitur ex secundo Sententiarum, ubi 
+di<lb break="no" ed="Bd" n="69"/>cit Magister per verbum Augustini, quod
+<lb ed="Bd" n="70"/>discretio personalis est unum de 
+attribu<lb break="no" ed="Bd" n="71"/>tis nature angelice, quod ipsam naturam
+<lb ed="Bd" n="72"/>non derelinquit.
+</p>
+            <p xml:id="alalal-ee4207-d1e215">
+               <lb ed="Bd" n="73"/>2. Item, In quibus potentia numquam
+<lb ed="Bd" n="74"/>est ad actum, in his natura non 
+praece<lb break="no" ed="Bd" n="75"/>dit personam si persone sint, hoc est, si
+<lb ed="Bd" n="76"/>sint individue substantiae rationalis 
+na<lb break="no" ed="Bd" n="77"/>ture : ergo in eis natura est cum 
+perso<lb break="no" ed="Bd" n="78"/>na: ergo natura sive persona non est
+<lb ed="Bd" n="79"/>assumptibilis.
+</p>
+            <p xml:id="alalal-ee4207-d1e233">
+               <lb ed="Bd" n="80"/>3. Item, Assumptio est ad 
+redemptio<lb break="no" ed="Bd" n="81"/>nem quae fit per alteram quam illum qui
+<lb ed="Bd" n="82"/>peccavit : sed ille qui per seipsum 
+pec<lb break="no" ed="Bd" n="83"/>cavit, non habet congruitatem ut per 
+al<lb break="no" ed="Bd" n="84"/>terum satisfaciat : cum ergo Angelus per
+<lb ed="Bd" n="85"/>seipsum peceaverit, per alium satisfacere
+<pb ed="#Bd" n="24"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>non posset : et sic vana esset 
+assum<lb break="no" ed="Bd" n="2"/>ptio. ;
+</p>
+            <p xml:id="alalal-ee4207-d1e257">
+               <lb ed="Bd" n="3"/>4. Itera, Unio non fit per omnes 
+hypo<lb break="no" ed="Bd" n="4"/>stases unibilis nature, sed potius ad
+<lb ed="Bd" n="5"/>unam ; et per hoc quod omnes ab uno
+<lb ed="Bd" n="6"/>peccaverunt a quo descenderunt, etiam
+<lb ed="Bd" n="7"/>per unuca possunt salisfacere : sed non
+<lb ed="Bd" n="8"/>omnes Angeli ab uno Angelo 
+descende<lb break="no" ed="Bd" n="9"/>runt ; ergo cliam assumpto uno non 
+pos<lb break="no" ed="Bd" n="10"/>sct satisfacere pro alus: ergo Angelus
+<lb ed="Bd" n="11"/>non est assumptibilis.
+</p>
+            <p xml:id="alalal-ee4207-d1e280">
+               <lb ed="Bd" n="12"/>3. Item, Hoc dicit Apostolus, ad Hebr.
+<lb ed="Bd" n="13"/>u, 16: Nusguam enim Angelos 
+appre<lb break="no" ed="Bd" n="14"/>hendit, sed semen Lbrahe apprehendit.
+</p>
+            <p xml:id="alalal-ee4207-d1e289">
+               <lb ed="Bd" n="15"/>Solutio Dicendum, quod Angelus non
+<lb ed="Bd" n="16"/>est unibilis rationibus ultimo inductis.
+</p>
+            <p xml:id="alalal-ee4207-d1e296">
+               <lb ed="Bd" n="17"/>Ab primum ergo dicendum, quod 
+simi<lb break="no" ed="Bd" n="18"/>litudo non est sufliciens causa. Quidam
+<lb ed="Bd" n="19"/>enim dicunt, quod Angelus non sit 
+ima<lb break="no" ed="Bd" n="20"/>go Dei, et assignant rationes quas 
+vo<lb break="no" ed="Bd" n="21"/>lunt : sed quia Sanctis contradicunt, 
+sci<lb break="no" ed="Bd" n="22"/>licet Gregorio, Augustino et Anselmo,
+<lb ed="Bd" n="23"/>non videtur nuhi ita dicendum : sed 
+po<lb break="no" ed="Bd" n="24"/>tius, quod ratio imaginis non sit 
+suffi<lb break="no" ed="Bd" n="25"/>ciens causa assuimptionis nature 
+rationa<lb break="no" ed="Bd" n="26"/>lis : sed potius quiddam exigitur ex 
+par<lb break="no" ed="Bd" n="27"/>te nature, et quiddam ex parte status.
+<lb ed="Bd" n="28"/>Ex parte nature scilicet, quod natura
+<lb ed="Bd" n="29"/>tempore et actu distinguibilis sit a 
+perfe<lb break="no" ed="Bd" n="30"/>clione personali, et quod ipsa originem
+<lb ed="Bd" n="31"/>habeat ex uno: quia aliter una natura
+<lb ed="Bd" n="32"/>hominis assumpta, non esset Deus 
+uni<lb break="no" ed="Bd" n="33"/>tus in natura. quia natura alia, et alia
+<lb ed="Bd" n="34"/>est, secundum quod ex alio originis 
+prin<lb break="no" ed="Bd" n="35"/>cipio. Ex parte autem status, quod 
+sci<lb break="no" ed="Bd" n="36"/>licet per alium peccaverit, quod scilicet
+<lb ed="Bd" n="37"/>resurgere possit, et hujusmodi. Et nec
+<lb ed="Bd" n="38"/>talia ex parte nature, nec ex parte 
+sta<lb break="no" ed="Bd" n="39"/>tus peccati inveniuntur in Angelo : et
+<lb ed="Bd" n="40"/>ideo Angelus non erit assumplibilis.
+</p>
+            <p xml:id="alalal-ee4207-d1e351">
+               <lb ed="Bd" n="41"/>Et per hoc patet solutio ad omnia
+<lb ed="Bd" n="42"/>jecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

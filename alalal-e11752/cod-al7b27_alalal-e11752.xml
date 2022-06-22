@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="658"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e11752"><!-- l2d42a4 -->
+            <head xml:id="alalal-e11752-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-e11752-Hd1e101" type="question-title">Utrum per peccatum mortale homo 
+meretur mortem aeternam, et non pro
+veniali ?</head>
+            <p xml:id="alalal-e11752-d1e104">
+               <lb ed="#Bc" n="27"/>ARTICULUS IV.
+<lb ed="#Bc" n="28"/>Utrum per peccatum mortale homo 
+me<lb break="no" ed="#Bc" n="29"/>retur mortem aeternam, et non pro
+<lb ed="#Bc" n="30"/>veniali ?
+</p>
+            <p xml:id="alalal-e11752-d1e115">
+               <lb ed="#Bc" n="31"/>Deinde quaeritur de hoc quod. dicit,
+<lb ed="#Bc" n="32"/>ibi, D, circa medium : <quote xml:id="alalal-e11752-Qd1e121"> Mortale est per
+<lb ed="#Bc" n="33"/>quod homo mortem xternam meretur. </quote>
+               <lb ed="#Bc" n="34"/>Videtur enim, quod mortale et veniale
+<lb ed="#Bc" n="35"/>proportionabilia sunt ex parte 
+conversio<lb break="no" ed="#Bc" n="36"/>nis : quia
+<lb ed="#Bc" n="37"/>1. Bene aliquis diligit bona temporalia
+</p>
+            <p xml:id="alalal-e11752-d1e136">
+               <lb ed="#Bc" n="38"/>circa Deum, et alius diligit ultra Deum : |
+<lb ed="#Bc" n="39"/>et constat, quod neuter diligit infinita
+<lb ed="#Bc" n="40"/>dilectione: finitum autem ad finitum
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="41"/>omnem proportionem habet : ergo non in
+<lb ed="#Bc" n="42"/>infinitum exceditur veniale a mortali
+<lb ed="#Bc" n="43"/>cum ergo acerbitas pone  sensibilis
+<lb ed="#Bc" n="44"/>debeatur peccato ex parte conversionis,
+<lb ed="#Bc" n="45"/>videtur quod injustum judicium est,
+<lb ed="#Bc" n="46"/>unum punire in infinitum, et aliud finite
+<lb ed="#Bc" n="47"/>in igne.
+</p>
+            <p xml:id="alalal-e11752-d1e163">
+               <lb ed="#Bc" n="48"/>Si dicas cum Gregorio, quod hoc est,
+<lb ed="#Bc" n="49"/>quia homo peccat in suo aeterno, et ideo
+<lb ed="#Bc" n="50"/>punietur in aeterno Dei. Contra : 
+Pona<lb break="no" ed="#Bc" n="51"/>tur, quod aliquis permaneat usque ad
+<lb ed="#Bc" n="52"/>mortem in peccato veniali, ille peccavit
+<lb ed="#Bc" n="53"/>venialiter in zterno suo : et tamen non
+<lb ed="#Bc" n="54"/>eternaliter punitur : ergo nec peccans
+<lb ed="#Bc" n="55"/>mortaliter in aeterno suo, videtur debere
+<lb ed="#Bc" n="56"/>puniri aeternaliter.
+</p>
+            <p xml:id="alalal-e11752-d1e185">
+               <lb ed="#Bc" n="57"/>2. Preterea, Videtur falsum quod 
+ve<lb break="no" ed="#Bc" n="58"/>niale puniatur temporaliter quia cum.
+<lb ed="#Bc" n="59"/>aliquis discedit in mortali et veniali : aut
+<lb ed="#Bc" n="60"/>remittitur ei veniale post mortem, aut
+<lb ed="#Bc" n="61"/>non. Si non:ergo punitur in aeternum,
+<lb ed="#Bc" n="62"/>et tunc falsum est quod dicit in Littera,
+<lb ed="#Bc" n="63"/>quod-puniatur temporaliter veniale 
+pec<lb break="no" ed="#Bc" n="64"/>catum. Aut remittitur tunc post 
+mor<lb break="no" ed="#Bc" n="65"/>tem : et tunc falsum est quod dicitur ab
+<lb ed="#Bc" n="66"/>Ecclesia in cantu, quod <quote xml:id="alalal-e11752-Qd1e208"> in inferno nulla
+<lb ed="#Bc" n="67"/>est redemptio . </quote>
+            </p>
+            <p xml:id="alalal-e11752-d1e214">
+               <lb ed="#Bc" n="68"/>3. Si dicas, quod peccatum veniale
+<lb ed="#Bc" n="69"/>non ex se, sed in quantum jungitur mor-~
+<lb ed="#Bc" n="70"/>tali, punitur wternaliter: et hoc accidit
+<lb ed="#Bc" n="71"/>ei. Contra : Ponamus, quod aliquis 
+di<lb break="no" ed="#Bc" n="72"/>scedat in originali et veniali, illi debetur
+<lb ed="#Bc" n="73"/>sensibilis poena ex veniali: cum autem
+<lb ed="#Bc" n="74"/>non sit susceptibilis gratie post mortem,
+<lb ed="#Bc" n="75"/>constat quod numquam remittitur ei 
+ve<lb break="no" ed="#Bc" n="76"/>niale, quia nullum peccatum remittitur
+<lb ed="#Bc" n="77"/>sine gratia : ergo in aeternum erit in 
+pec<lb break="no" ed="#Bc" n="78"/>cato veniali : ergo reatus pceense manet
+<lb ed="#Bc" n="79"/>in aeternum : ergo et peena: et sic 
+pec<lb break="no" ed="#Bc" n="80"/>catum veniale non conjunctum mortali,
+<lb ed="#Bc" n="81"/>punitur aeternaliter : ergo falsum est
+<lb ed="#Bc" n="82"/>quod dicit in Littera. .
+</p>
+            <p xml:id="alalal-e11752-d1e249">
+               <lb ed="#Bc" n="83"/>Soturio. Sine prejudicio, dicendum,
+<lb ed="#Bc" n="84"/>quod licet multe rationes a Sanctis eta .
+<lb ed="#Bc" n="85"/>Magistris assignate sint, quare peccatum —
+<lb ed="#Bc" n="86"/>mortale punitur aeternaliter, tamen una
+<pb ed="#Bc" n="659"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>est prae ceteris, quae videtur mihi esse
+<lb ed="#Bc" n="2"/>magis cogens, haec scilicet : quia homo
+<lb ed="#Bc" n="3"/>per se subdit se impotentie perpetue ad
+<lb ed="#Bc" n="4"/>exeundum de peccato : de se autem 
+nul<lb break="no" ed="#Bc" n="5"/>lam habet potentiam exeundi, el etiam
+<lb ed="#Bc" n="6"/>in se non compatitur id unde est posse
+<lb ed="#Bc" n="7"/>exeundi quod est gratia : et ideo justum
+<lb ed="#Bc" n="8"/>est, ut in perpetuum puniatur sic 
+dece<lb break="no" ed="#Bc" n="9"/>dens, et hoc vocat (meo judicio) 
+Grego<lb break="no" ed="#Bc" n="10"/>rius peccare in aeterno hominis. Sed non
+<lb ed="#Bc" n="11"/>sic est in peccato veniali : quia in illo
+<lb ed="#Bc" n="12"/>non aufertur potentia exeundi de 
+pec<lb break="no" ed="#Bc" n="13"/>calo, nec etiam subdit se homo 
+impoten<lb break="no" ed="#Bc" n="14"/>tie perpetue per voluntatem, cum 
+habi<lb break="no" ed="#Bc" n="15"/>tualis voluntas remaneat ad Deum. Et
+<lb ed="#Bc" n="16"/>ideo idoneum quod expietur 
+temporali<lb break="no" ed="#Bc" n="17"/>ter, sicut temporaliter secundum actum
+<lb ed="#Bc" n="18"/>et non secundum habitum avertitur, et
+<lb ed="#Bc" n="19"/>cum potentia redeundi.
+</p>
+            <p xml:id="alalal-e11752-d1e306">
+               <lb ed="#Bc" n="20"/>Dicendum ergo ad primum, quod 
+con<lb break="no" ed="#Bc" n="21"/>versio mortalis et venialis dupliciter
+<lb ed="#Bc" n="22"/>considerantur, scilicet secundum  
+dile<lb break="no" ed="#Bc" n="23"/>ctionis quantitatem quae est in utraque :
+<lb ed="#Bc" n="24"/>et sic finite suntambe, et neutri debetur
+<lb ed="#Bc" n="25"/>peenee aeternitas, sed acerbitas : et iste
+<lb ed="#Bc" n="26"/>pene quoad hoc proportionabiles sunt,
+<lb ed="#Bc" n="27"/>sicut et dilectiones, et pena ignis inferni
+<lb ed="#Bc" n="28"/>non est infinita in acerbitate. Possunt
+<lb ed="#Bc" n="29"/>etiam considerari secundum modum 
+con<lb break="no" ed="#Bc" n="30"/>versionis in comparatione ad 
+aversio<lb break="no" ed="#Bc" n="31"/>nem : et sic distant sicut affirmatio et
+<lb ed="#Bc" n="32"/>negatio, et sicut ens et non ens, quae
+ <lb ed="#Bc" n="33"/>infinite distant : quia mortalis avertit, et
+<lb ed="#Bc" n="34"/>venialis non avertit, sed ad aversionem
+<lb ed="#Bc" n="35"/>disponit tantum : et sic respondent eis
+<lb ed="#Bc" n="36"/>pene non proportionate.
+</p>
+            <p xml:id="alalal-e11752-d1e345">
+               <lb ed="#Bc" n="37"/>Ad id autem quod objicitur de veniali
+<lb ed="#Bc" n="38"/>cum mortali existenti in eodem 
+subje<lb break="no" ed="#Bc" n="39"/>cto, bene concedo.
+</p>
+            <p xml:id="alalal-e11752-d1e355">
+               <lb ed="#Bc" n="40"/>Ap ip autem quod objicitur, quod 
+di<lb break="no" ed="#Bc" n="41"/>scedens cum vemiali et originali, punitur
+<lb ed="#Bc" n="42"/>zternaliter : dico sine prajudicio, quod
+<lb ed="#Bc" n="43"/>positio est impossibilis.
+</p>
+            <p xml:id="alalal-e11752-d1e366">
+               <lb ed="#Bc" n="44"/>Sunt tamen, qui probant cam sic, ut
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="45"/>ante annos adolescentia non tenctur
+<lb ed="#Bc" n="46"/>conferre de suo statu, quando natus est
+<lb ed="#Bc" n="47"/>de infidelibus parentibus. Simus ergo in
+<lb ed="#Bc" n="48"/>primo instantiin quo adclescens est, et
+<lb ed="#Bc" n="49"/>in illo instanti non potest adolescens
+<lb ed="#Bc" n="50"/>esse et conferre : quia prius est esse
+<lb ed="#Bc" n="51"/>adolescentem, quam conferre 
+adolescen<lb break="no" ed="#Bc" n="52"/>tem : ergo potest esse adolescens 
+ante<lb break="no" ed="#Bc" n="53"/>quam conferre teneatur. Peccet ergo 
+ve<lb break="no" ed="#Bc" n="54"/>nialiter, et discedat, tune -non discedit
+<lb ed="#Bc" n="55"/>nisi in veniali et originali : et ita videtur
+<lb ed="#Bc" n="56"/>positio esse possibilis. Ad hoc autem
+<lb ed="#Bc" n="57"/>meo judicio dicendaum, quod ista 
+proba<lb break="no" ed="#Bc" n="58"/>tio multipliciter peccat : primo, quia
+<lb ed="#Bc" n="59"/>esse adolescentem est esse in fieri et non
+<lb ed="#Bc" n="60"/>in permanentia, sicut etiam juventus et
+<lb ed="#Bc" n="61"/>senectus, Et cum dicitur, Simus in 
+pri<lb break="no" ed="#Bc" n="62"/>mo instanti in quo est adolescens, 
+stul<lb break="no" ed="#Bc" n="63"/>tum dictum est : quia in talibus quae
+ <lb ed="#Bc" n="64"/>sunt in successione, non est accipere 
+in<lb break="no" ed="#Bc" n="65"/>stans in quo sunt, sed tempus, et in 
+tem<lb break="no" ed="#Bc" n="66"/>pore in quo est adolescens, potest et
+<lb ed="#Bc" n="67"/>teneiur conferre : et si omittit, peccat
+<lb ed="#Bc" n="68"/>mortaliter. Secundo peccat : quia dato
+<lb ed="#Bc" n="69"/>quod adolescens posset esse in primo 
+in<lb break="no" ed="#Bc" n="70"/>Stanti, {unc in eodem potest etiam 
+con<lb break="no" ed="#Bc" n="71"/>ferre vel incipere conferre, quia aliquis
+<lb ed="#Bc" n="72"/>primo potest esse adolescens et conferre
+<lb ed="#Bc" n="73"/>adolescens, quia esse adolescentem non
+<lb ed="#Bc" n="74"/>precedit conferre adolescentem in 
+tem<lb break="no" ed="#Bc" n="75"/>pore, sed natura : et isto modo (judicio
+<lb ed="#Bc" n="76"/>meo) positio est impossibilis. Dato etiam
+<lb ed="#Bc" n="77"/>quod sit positum gratia disputationis,
+<lb ed="#Bc" n="78"/>tune dico quod punitur poena sensibili
+<lb ed="#Bc" n="79"/>in aeternum : et hoc per accidens, et non
+<lb ed="#Bc" n="80"/>per se.
+</p>
+            <p xml:id="alalal-e11752-d1e451">
+               <lb ed="#Bc" n="81"/>Et si objicitur, quod secundum hoc
+<lb ed="#Bc" n="82"/>est in purgatorio vel in inferno et in
+<lb ed="#Bc" n="83"/>limbo: ergo simul et semel est in 
+diver<lb break="no" ed="#Bc" n="84"/>sis locis, Dico, quod ipse localiter est in
+<lb ed="#Bc" n="85"/>inferno : et tamen non sentit, nisi 
+acer<lb break="no" ed="#Bc" n="86"/>bitatem veniali debitam : sed in limbo
+<lb ed="#Bc" n="87"/>non est localiter, sed quoad pcnam
+<lb ed="#Bc" n="88"/>limbi quae est carentia visionis Dei.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

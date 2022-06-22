@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="521"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b01716"><!-- l1d19a7 -->
+            <head xml:id="alalal-b01716-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-b01716-Hd1e101" type="question-title">Utrum tres persone sint aliquid mazus
+quam dux, et duae quam una?</head>
+            <p xml:id="alalal-b01716-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="5"/>ARTICULUS VII.
+<lb ed="#Ba" n="6"/>Utrum tres persone sint aliquid mazus
+<lb ed="#Ba" n="7"/>quam dux, et duae quam una?
+</p>
+            <p xml:id="alalal-b01716-d1e115">
+               <lb ed="#Ba" n="8"/>Dubium est hic quod dicit in quarto 
+ca<lb break="no" ed="#Ba" n="9"/>pitulo D, ibi, <quote xml:id="alalal-b01716-Qd1e121"> Nec majus aliquid duae
+<lb ed="#Ba" n="10"/>persone simul sunt, quam una, etc. </quote>
+            </p>
+            <p xml:id="alalal-b01716-d1e127">
+               <lb ed="#Ba" n="11"/>1. Instantiam enim hoc videtur habere
+<lb ed="#Ba" n="12"/>in omnibus discretis et collectivis : unum
+<lb ed="#Ba" n="13"/>enim est pars duorum: et omnis pars
+<lb ed="#Ba" n="14"/>minor est toto : ergo videtur, quod due
+<lb ed="#Ba" n="15"/>persone sint aliquid majus quam una, et
+<lb ed="#Ba" n="16"/>tres quam due. ,
+</p>
+            <p xml:id="alalal-b01716-d1e144">
+               <lb ed="#Ba" n="17"/>2. Similiter habebimus infra, quod
+<lb ed="#Ba" n="18"/>hoc nomen, Trinitas, collective signilicat
+<lb ed="#Ba" n="19"/>personas : cum ergo quilibet de populo
+<lb ed="#Ba" n="20"/>sit pars populi, videtur quod una persona
+<lb ed="#Ba" n="21"/>sit minus aliquid quam tota Trinitas.
+</p>
+            <p xml:id="alalal-b01716-d1e157">
+               <lb ed="#Ba" n="22"/>3. Item, Persona una aliquo modo se
+<lb ed="#Ba" n="23"/>habet ad Trinitatem, aut ut idem, aut ut
+<lb ed="#Ba" n="24"/>equale, aut ut majus, aut ut minus. Non
+<lb ed="#Ba" n="25"/>ut idem: quia aliter oporteret, quod
+<lb ed="#Ba" n="26"/>supposita illa persona supponeretur 
+Tri<lb break="no" ed="#Ba" n="27"/>nitas, quod esse non potest. Nec ut 
+ma<lb break="no" ed="#Ba" n="28"/>jus, nec ut aquale, ut videtur, quia
+<lb ed="#Ba" n="29"/>equalia quae sunt unius essentia#, 
+con<lb break="no" ed="#Ba" n="30"/>vertuntur super se : non autem 
+conver<lb break="no" ed="#Ba" n="31"/>titur praedicatio de Trinitate ad aliquam
+<lb ed="#Ba" n="32"/>personarum ; ergo videtur, quod se 
+ha<lb break="no" ed="#Ba" n="33"/>beat ut minus : ergo non est tantum una
+<lb ed="#Ba" n="34"/>persona, quantum due vel tres.
+</p>
+            <p xml:id="alalal-b01716-d1e188">
+               <cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="35"/>Solutio. Dicendum, quod tantum et
+<lb ed="#Ba" n="36"/>quantum dicunt hic aequalitatem in eo
+<lb ed="#Ba" n="37"/>quod est quantitas, et non in numero 
+no<lb break="no" ed="#Ba" n="38"/>tionum vel personarum : quitamen non
+<lb ed="#Ba" n="39"/>est simpliciter numerus, ut infra 
+osten<lb break="no" ed="#Ba" n="40"/>detur : in numero enim notionum quem
+<lb ed="#Ba" n="41"/>faciunt notiones, due persone sunt 
+plu<lb break="no" ed="#Ba" n="42"/>res una, et tres plures quam due vel
+<lb ed="#Ba" n="43"/>una : sed non sunt aliquid plus, vel 
+ma<lb break="no" ed="#Ba" n="44"/>jus : etest processus in primo argumento
+<lb ed="#Ba" n="45"/>a discreto ad conlinuum : unde incidit
+<lb ed="#Ba" n="46"/>fallacia figure diclionis.
+</p>
+            <p xml:id="alalal-b01716-d1e219">
+               <lb ed="#Ba" n="47"/>Ad aliud dicendum, quod Trinitas non
+<lb ed="#Ba" n="48"/>est collectivam : quia forma collectionis
+<lb ed="#Ba" n="49"/>simpliciter est plures, et secundum quid
+<lb ed="#Ba" n="50"/>una: Trinitas autem unit personas 
+sim<lb break="no" ed="#Ba" n="51"/>pliciter in una natura: sed dicitur quasi
+<lb ed="#Ba" n="52"/>collectivum, eo quod in se colligit omnes
+<lb ed="#Ba" n="53"/>personas, non ut partes, sed ut unum in
+<lb ed="#Ba" n="54"/>natura, quae non est totum ad illas, sed
+<lb ed="#Ba" n="55"/>idem unicuique earum : quod non est in
+<lb ed="#Ba" n="56"/>toto quantitativo vel integrali.
+</p>
+            <p xml:id="alalal-b01716-d1e243">
+               <lb ed="#Ba" n="57"/>Ad aliud dicendum, quod una persona
+<lb ed="#Ba" n="58"/>se habet ad Trinitatem duobus modis :
+<lb ed="#Ba" n="59"/>quia duo dicit Trinitas, scilicet 
+collectio<lb break="no" ed="#Ba" n="60"/>nem personarum, et unionem. Quoad
+<lb ed="#Ba" n="61"/>collectorum discretionem se habet una
+<lb ed="#Ba" n="62"/>persona ut in pauciori discretione 
+notio<lb break="no" ed="#Ba" n="63"/>nali, quam collectio trium : ad unionem
+<lb ed="#Ba" n="64"/>autem se habet ut aequale et idem : quia
+<lb ed="#Ba" n="65"/>est idem essentiae unitati et aequalis per
+<lb ed="#Ba" n="66"/>essentiam omnibus tribus simul. Unde
+<lb ed="#Ba" n="67"/>meo judicio ad tales non est danda 
+re<lb break="no" ed="#Ba" n="68"/>sponsio sine hujusmodi distinctione.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

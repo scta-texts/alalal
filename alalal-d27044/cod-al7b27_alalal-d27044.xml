@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="143"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d27044"><!-- l2d7a1 -->
+            <head xml:id="alalal-d27044-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-d27044-Hd1e101" type="question-title">Utrum idem liberum arbitrium quod
+fuit in bonis et malis Angelis ante
+confirmationem, sit in eisdem post
+confirmationem ?</head>
+            <p xml:id="alalal-d27044-d1e104">
+               <pb ed="#Bc" n="143"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS I.
+<lb ed="#Bc" n="2"/>Utrum idem liberum arbitrium quod
+<lb ed="#Bc" n="3"/>fuit in bonis et malis Angelis ante
+<lb ed="#Bc" n="4"/>confirmationem, sit in eisdem post
+<lb ed="#Bc" n="5"/>confirmationem ?
+</p>
+            <p xml:id="alalal-d27044-d1e122">
+               <lb ed="#Bc" n="6"/>Incidit autem hic triplex questio, 
+sci<lb break="no" ed="#Bc" n="7"/>licet, Utrum idem liberum arbitrium quod
+<lb ed="#Bc" n="8"/>fuit in bonis et malis ante 
+confirma<lb break="no" ed="#Bc" n="9"/>tionem, sit in eisdem post 
+confirmatio<lb break="no" ed="#Bc" n="10"/>nem ?
+<lb ed="#Bc" n="11"/>Secundo, Utrum liberius sit in 
+confir<lb break="no" ed="#Bc" n="12"/>matis, aut non confirmatis bonis ?
+<lb ed="#Bc" n="13"/>Tertio, Utrum liberius sit in bonis
+<lb ed="#Bc" n="14"/>quam in malis, vel e converso ?
+</p>
+            <p xml:id="alalal-d27044-d1e144">
+               <lb ed="#Bc" n="15"/>Aliae enim omnes queestiones quae circa
+<lb ed="#Bc" n="16"/>hoc queri possent, in preecedentibus sunt
+<lb ed="#Bc" n="17"/>determinate.
+</p>
+            <p xml:id="alalal-d27044-d1e154">
+               <lb ed="#Bc" n="18"/>Ap PRIMUM sic proceditur :
+<lb ed="#Bc" n="19"/>1. Immobile et mobile dividunt ens
+<lb ed="#Bc" n="20"/>simpliciter et non conveniunt eidem :
+<lb ed="#Bc" n="21"/>ante confirmationem liberum arbitrium
+<lb ed="#Bc" n="22"/>est flexibile sive mobile a bono, et post
+<lb ed="#Bc" n="23"/>est immobile : ergo non est idem.
+</p>
+            <p xml:id="alalal-d27044-d1e170">
+               <lb ed="#Bc" n="24"/>2. Preterea, Nihil idem susceptibile
+<lb ed="#Bc" n="25"/>est oppositarum differentiarum manens
+<lb ed="#Bc" n="26"/>ideo numero et specie : mobile et 
+immo<lb break="no" ed="#Bc" n="27"/>bile sunt opposite differentie : ergo non
+<lb ed="#Bc" n="28"/>sunt ejusdem liberi arbitrii manentis
+<lb ed="#Bc" n="29"/>idem specie et numero.
+</p>
+            <p xml:id="alalal-d27044-d1e186">
+               <lb ed="#Bc" n="30"/>SED CONTRA :
+<lb ed="#Bc" n="31"/>4. Immortalitas primi status, et 
+im<lb break="no" ed="#Bc" n="32"/>mortalitas secundi status non differunt
+<lb ed="#Bc" n="33"/>per substantiam potentiea, licet differant
+<lb ed="#Bc" n="34"/>per habitus susceptos : sicut autem 
+po<lb break="no" ed="#Bc" n="35"/>tentia se habet ad immorttalitatem 
+pri<lb break="no" ed="#Bc" n="36"/>mam et secundam, ita liberum arbitrium
+<lb ed="#Bc" n="37"/>se habet ad libertatem istam et illam :
+<lb ed="#Bc" n="38"/>ergo est idem in substantia liberum 
+ar<lb break="no" ed="#Bc" n="39"/>bitrium.
+</p>
+            <p xml:id="alalal-d27044-d1e210">
+               <lb ed="#Bc" n="40"/>2. Ttem, Libertas a coactione et 
+liber<lb break="no" ed="#Bc" n="41"/>las a miseria non differunt per subje-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="42"/>ctum : sed ante confirmationem fuit in
+<lb ed="#Bc" n="43"/>eis libertas a coactione, sed post libertas
+<lb ed="#Bc" n="44"/>a miseria : ergo ista non differunt per
+<lb ed="#Bc" n="45"/>substantiam potentia, ut videtur.
+</p>
+            <p xml:id="alalal-d27044-d1e228">
+               <lb ed="#Bc" n="46"/>Solutio. Dicendum, quod una est 
+po<lb break="no" ed="#Bc" n="47"/>tentia et eadem, ut probatum est in 
+ulti<lb break="no" ed="#Bc" n="48"/>mis omnibus.
+</p>
+            <p xml:id="alalal-d27044-d1e237">
+               <lb ed="#Bc" n="49"/>Dicenpum autem ad primum, quod
+<lb ed="#Bc" n="50"/>mobile et immobile quando referuntur ad
+<lb ed="#Bc" n="51"/>eadem principia, tune dividunt ens : sed
+<lb ed="#Bc" n="52"/>non, quando referuntur ad diversa : 
+un<lb break="no" ed="#Bc" n="53"/>de mobile per naturam potest esse idem
+<lb ed="#Bc" n="54"/>cum immobili per gratiam et gloriam.
+</p>
+            <p xml:id="alalal-d27044-d1e254">
+               <lb ed="#Bc" n="55"/>Ad aliud dicendum, quod non sunt
+<lb ed="#Bc" n="56"/>opposite differentie : quia non 
+egre<lb break="no" ed="#Bc" n="57"/>diuntur ab uno per eamdem divisionem :
+<lb ed="#Bc" n="58"/>quia immutabilitas est ex libertate 
+gra<lb break="no" ed="#Bc" n="59"/>tie et gloriw, mobilitas autem ex 
+liberta<lb break="no" ed="#Bc" n="60"/>te nature solius : et ista non reducuntur
+<lb ed="#Bc" n="61"/>ad divisionem unam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

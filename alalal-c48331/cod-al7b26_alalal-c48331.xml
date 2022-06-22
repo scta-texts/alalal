@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 21</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 21</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="256"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c48331"><!-- l1d37a21 -->
+            <head xml:id="alalal-c48331-Hd1e99">Articulus 21</head>
+            <head xml:id="alalal-c48331-Hd1e101" type="question-title">An Deus est in omnibus non inclusus,
+et extra omnia non exclusus ? et, 
+Quomodo dicitur Deus novus et 
+antiguus ?</head>
+            <p xml:id="alalal-c48331-d1e104">
+               <lb ed="#Bb" n="52"/>ARTICULUS XXI.
+<lb ed="#Bb" n="53"/>An Deus est in omnibus non inclusus,
+<lb ed="#Bb" n="54"/>et extra omnia non exclusus ? et, 
+Quo<lb break="no" ed="#Bb" n="55"/>modo dicitur Deus novus et 
+an<lb break="no" ed="#Bb" n="56"/>tiguus ?
+</p>
+            <p xml:id="alalal-c48331-d1e117">
+               <lb ed="#Bb" n="57"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Bb" n="58"/>ibi, 1, sub finem : <quote xml:id="alalal-c48331-Qd1e123"> Jpse est interior
+<lb ed="#Bb" n="59"/>omni re, quia in ipso sunt omnia, etc. </quote>
+            </p>
+            <p xml:id="alalal-c48331-d1e129">
+               <lb ed="#Bb" n="60"/>Ab hoc enim loco accipitur illud 
+di<lb break="no" ed="#Bb" n="61"/>ctum, quod est intra non inclusus, et
+<lb ed="#Bb" n="62"/>quod est extra non exclusus. Et videtur
+<lb ed="#Bb" n="63"/>esse impossibile, quod simul sit intra,
+<lb ed="#Bb" n="64"/>et non inclusus, et hujusmodi.
+</p>
+            <p xml:id="alalal-c48331-d1e143">
+               <lb ed="#Bb" n="65"/>Srp picenpum, quod hoc dicitur ideo, .
+<lb ed="#Bb" n="66"/>quia ipse non sequitur leges loci, nec
+<lb ed="#Bb" n="67"/>est in loco ut locatum, sed potius ut —
+<lb ed="#Bb" n="68"/>presentia suae substantiae influens 
+om<lb break="no" ed="#Bb" n="69"/>nibus esse et posse et operari : et cum —
+<lb ed="#Bb" n="70"/>nullam rem sit accipere extra quam non
+<lb ed="#Bb" n="71"/>sit alia, ideo non sic erit intra, quin sit
+<lb ed="#Bb" n="72"/>extra, et sic de aliis.
+</p>
+            <p xml:id="alalal-c48331-d1e163">
+               <lb ed="#Bb" n="73"/>Antiquior autem dicit durationem 
+eter<lb break="no" ed="#Bb" n="74"/>nitatis, novior autem novitatem 
+effe<lb break="no" ed="#Bb" n="75"/>ctuum et influentiarum : quia in se non
+<lb ed="#Bb" n="76"/>est dicendus novus, quia novum est
+<lb ed="#Bb" n="77"/>quod quantum ad suum initium est 
+pro<lb break="no" ed="#Bb" n="78"/>pinquum : et Scriptura dicit, quod non
+<lb ed="#Bb" n="79"/>erit in te Deus recens® : et supra 
+habui<lb break="no" ed="#Bb" n="80"/>mus, quod non est novus °. Vel potest
+<lb ed="#Bb" n="81"/>dici novus propter novitatem et 
+recen<lb break="no" ed="#Bb" n="82"/>tiam sue virtutis, quam ab aeterno
+<lb ed="#Bb" n="83"/>habuit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

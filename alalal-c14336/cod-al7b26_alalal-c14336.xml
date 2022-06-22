@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="76"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c14336"><!-- l1d29a3 -->
+            <head xml:id="alalal-c14336-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-c14336-Hd1e101" type="question-title">Secundum quam rationem sumatur 
+principium, cum dicitur, Pater est 
+principium sine principio : aut essentialiter,
+aut notionaliter ?</head>
+            <p xml:id="alalal-c14336-d1e104">
+               <lb ed="#Bb" n="55"/>ARTICULUS III.
+<lb ed="#Bb" n="56"/>Secundum quam rationem sumatur 
+prin<lb break="no" ed="#Bb" n="57"/>cipium, cum dicitur, Pater est 
+princi<lb break="no" ed="#Bb" n="58"/>pium sine principio : aut essentialiter,
+<lb ed="#Bb" n="59"/>aut notionaliter ?
+</p>
+            <p xml:id="alalal-c14336-d1e117">
+               <lb ed="#Bb" n="60"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Bb" n="61"/>ibi, in fine cap. A, <quote xml:id="alalal-c14336-Qd1e123"> Pater ergo princi-
+<lb ed="#Bb" n="62"/>pium est sine principio, etc. </quote>
+            </p>
+            <p xml:id="alalal-c14336-d1e129">
+               <lb ed="#Bb" n="63"/>1. Queritur, Secundum quam rationem
+<lb ed="#Bb" n="64"/>sumatur principium, cum dicitur, Pater
+<lb ed="#Bb" n="65"/>est principium sine principio : aut 
+essen<lb break="no" ed="#Bb" n="66"/>tialiter, aut notionaliter? Si 
+essentiali<lb break="no" ed="#Bb" n="67"/>ter : ergo in eadem ratione sumetur,
+<lb ed="#Bb" n="68"/>cum dicitur, Filius est principium de
+<lb ed="#Bb" n="69"/>principio : et sic habebit principium 
+es<lb break="no" ed="#Bb" n="70"/>sentiale : ergo aut sic quod ipse sit ab
+<lb ed="#Bb" n="71"/>essentia, sive sic quod sua essentia 
+ha<lb break="no" ed="#Bb" n="72"/>beat initium sicut creatura : et utrumque
+<lb ed="#Bb" n="73"/>hereticum est : ergo non sumitur 
+princi<lb break="no" ed="#Bb" n="74"/>pium essentialiter. Si autem sumitur
+<lb ed="#Bb" n="75"/>personaliter : ergo eodem modo 
+sume<lb break="no" ed="#Bb" n="76"/>tur, cum dicitur, quod Spiritus sanctus
+<lb ed="#Bb" n="77"/>est principium de utroque principio : et
+<lb ed="#Bb" n="78"/>hoc iterum falsum est, quia Spiritus
+<lb ed="#Bb" n="79"/>sanctus nullius persone est principium.
+<lb ed="#Bb" n="80"/>Si autem dicas, quod aliter sumitur,
+<lb ed="#Bb" n="81"/>quando dicitur de Patre, quod ipse est
+<lb ed="#Bb" n="82"/>principium non de principio : et aliter
+<lb ed="#Bb" n="83"/>de Filio, cum dicitur, quod ipse est 
+prin<lb break="no" ed="#Bb" n="84"/>cipium de principio : et aliter de Spiritu
+<lb ed="#Bb" n="85"/>sancto, quando dicitur, quod ipse est
+<lb ed="#Bb" n="86"/>principium de utroque principio : hoc
+<lb ed="#Bb" n="87"/>nihil est : quia cum ista sit assignatio 
+di<lb break="no" ed="#Bb" n="88"/>visionis cujusdam, nulla erit divisio
+<lb ed="#Bb" n="89"/>nisi principium in una ratione 
+acci<lb break="no" ed="#Bb" n="90"/>piatur.
+</p>
+            <p xml:id="alalal-c14336-d1e193">
+               <pb ed="#Bb" n="77"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>2. Item, Cum Pater dicitur  
+princi<lb break="no" ed="#Bb" n="2"/>pium non de principio : aut eodem 
+mo<lb break="no" ed="#Bb" n="3"/>do sumitur principium negatum et 
+affir<lb break="no" ed="#Bb" n="4"/>matum, aut non. Si eodem modo : ergo
+<lb ed="#Bb" n="5"/>sicut ipse est non de principio generando
+<lb ed="#Bb" n="6"/>et spirando, ita erit principium et Filii et
+<lb ed="#Bb" n="7"/>Spiritus sancti, quia dictione semel 
+posi<lb break="no" ed="#Bb" n="8"/>ta non est utendum equivoce : et hoc
+<lb ed="#Bb" n="9"/>falsum est. Si autem diversis modis :
+<lb ed="#Bb" n="10"/>tunc sine arte loquitur.
+</p>
+            <p xml:id="alalal-c14336-d1e222">
+               <lb ed="#Bb" n="11"/>Eodem penitus modo objicitur de ista,
+<lb ed="#Bb" n="12"/>Filius est principium de principio : et
+<lb ed="#Bb" n="13"/>ista, Spiritus sanctus est principium de
+<lb ed="#Bb" n="14"/>utroque principio.
+</p>
+            <p xml:id="alalal-c14336-d1e233">
+               <lb ed="#Bb" n="15"/>Solutio autem ad hoc est levis, si
+<lb ed="#Bb" n="16"/>predicta in duabus questionibus 
+priori<lb break="no" ed="#Bb" n="17"/>bus advertantur. Et dicendum est, quod
+<lb ed="#Bb" n="18"/>principium accipiatur in communi ratione
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="19"/>analogiae. Unde cum dicitur, Pater est
+<lb ed="#Bb" n="20"/>principium sine principio, accipitur sine
+<lb ed="#Bb" n="21"/>principio in communi quocumque modo,
+<lb ed="#Bb" n="22"/>et principium esse in communi 
+quocum<lb break="no" ed="#Bb" n="23"/>que modo: et similiter de Filio : 
+sufti<lb break="no" ed="#Bb" n="24"/>cit enim veritati propositionis, quod uno
+<lb ed="#Bb" n="25"/>modo verificetur de ipso : sicut si uno
+<lb ed="#Bb" n="26"/>modo homo est albus, ipse est albus. Ha
+<lb ed="#Bb" n="27"/>uno modo ens a principio, est de 
+princi<lb break="no" ed="#Bb" n="28"/>pio et non sine principio : et uno modo
+<lb ed="#Bb" n="29"/>ens principium est principium : sed non
+<lb ed="#Bb" n="30"/>sic est in negativis : et ideo non valet
+<lb ed="#Bb" n="31"/>argumentatio quam quidam faciunt, 
+Fi<lb break="no" ed="#Bb" n="32"/>lius uno modo non est de principio, quia
+<lb ed="#Bb" n="33"/>non est de principio creando, et alio 
+mo<lb break="no" ed="#Bb" n="34"/>do est de principio generando : ergo
+<lb ed="#Bb" n="35"/>tantum dici potest non de principio sicut
+<lb ed="#Bb" n="36"/>de principio.
+</p>
+            <p xml:id="alalal-c14336-d1e285">
+               <lb ed="#Bb" n="37"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

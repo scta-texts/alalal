@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="286"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d52050"><!-- l2d16dt -->
+            <head xml:id="alalal-d52050-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-d52050-d1e101">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="9"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-d52050-d1e108">
+               <lb ed="#Bc" n="10"/>
+               <quote xml:id="alalal-d52050-Qd1e112"> His excursis quae supra de hominis,
+<lb ed="#Bc" n="11"/>etc. </quote>
+               <lb ed="#Bc" n="12"/>Hic incipit tertia pars istius tractatus
+<lb ed="#Bc" n="13"/>de creaturis: in quo agit Magister de
+<lb ed="#Bc" n="14"/>creatura quae composita est ex spirituali
+<lb ed="#Bc" n="15"/>et corporali,
+</p>
+            <p xml:id="alalal-d52050-d1e127">
+               <lb ed="#Bc" n="16"/>Et dividitur in duas partes : in quarum
+<lb ed="#Bc" n="17"/>prima ponit statum ejus ante peccatum.
+<lb ed="#Bc" n="18"/>Tn secunda autem casum ejus in 
+pec<lb break="no" ed="#Bc" n="19"/>catum, et statum in peccato, quae incipit
+<lb ed="#Bc" n="20"/>infra, Distinct. XXII, ibi, A, <quote xml:id="alalal-d52050-Qd1e140"> Videns
+<lb ed="#Bc" n="21"/>igitur diabolus, etc. </quote>
+            </p>
+            <p xml:id="alalal-d52050-d1e146">
+               <lb ed="#Bc" n="22"/>Prima harum dividitur in tres: in
+<lb ed="#Bc" n="23"/>quarum prima agitur de formatione viri.
+<lb ed="#Bc" n="24"/>In secunda, de formatione mulieris, 
+Dis<lb break="no" ed="#Bc" n="25"/>tinct. XVII, ibi, A, <quote xml:id="alalal-d52050-Qd1e156"> In eodem 
+quo<lb break="no" ed="#Bc" n="26"/>gue paradiso, etc. </quote> In tertia, de 
+gene<lb break="no" ed="#Bc" n="27"/>ratione quae fuisset ex utroque, si non
+<lb ed="#Bc" n="28"/>pecassent, Distinct. XX, ibi, A, <quote xml:id="alalal-d52050-Qd1e166"> Post
+<lb ed="#Bc" n="29"/>hoc videndum est, etc.</quote> |
+</p>
+            <p xml:id="alalal-d52050-d1e173">
+               <lb ed="#Bc" n="30"/>Prima harum habet duas distinctiones,
+<lb ed="#Bc" n="31"/>in quarum prima agit de formatione 
+ho<lb break="no" ed="#Bc" n="32"/>minis quantum ad conformitatem 
+ima<lb break="no" ed="#Bc" n="33"/>gipis, quam accipit opus ab opifice. In
+<lb ed="#Bc" n="34"/>secunda, de origine materiali secundum
+<lb ed="#Bc" n="35"/>animam et corpus, ibi, Distinct. XVII,
+<lb ed="#Bc" n="36"/>A, <quote xml:id="alalal-d52050-Qd1e190"> Hic de origine anime#, etc. </quote>
+            </p>
+            <p xml:id="alalal-d52050-d1e193">
+               <lb ed="#Bc" n="37"/>In hac distinctione quatuor 
+continen<lb break="no" ed="#Bc" n="38"/>tur : in quorum primo dicit, quod homo
+<lb ed="#Bc" n="39"/>factus est adimaginem. In secundo 
+ca<lb break="no" ed="#Bc" n="40"/>pitulo, quid dicatur et quot modis imago
+<lb ed="#Bc" n="41"/>et similitudo? ibi, B, <quote xml:id="alalal-d52050-Qd1e206"> Imago autem,
+<lb ed="#Bc" n="42"/>etc. </quote> In tertio, excludit quasdam 
+expo<lb break="no" ed="#Bc" n="43"/>sitiones falsas de conformitate imaginis,
+<lb ed="#Bc" n="44"/>et ponit veram, ibi, C, circa principium :
+<lb ed="#Bc" n="45"/>
+               <quote xml:id="alalal-d52050-Qd1e217"> Unde fuerunt nonnulli, etc. </quote> In quarto ©
+<lb ed="#Bc" n="46"/>et ultimo, dicit diflerentiam inter imagi-:
+<lb ed="#Bc" n="47"/>nem quae est Filius, et imaginem quae
+ <lb ed="#Bc" n="48"/>est homo, ibi, H, <quote xml:id="alalal-d52050-Qd1e226"> Quo circa hemo eb
+<lb ed="#Bc" n="49"/>wmago dieitur, etc. </quote> :
+</p>
+            <p xml:id="alalal-d52050-d1e232">
+               <lb ed="#Bc" n="50"/>Et per hoc patet sententia de hac 
+ma<lb break="no" ed="#Bc" n="51"/>teria quoad imaginem creatam, de qua
+<lb ed="#Bc" n="52"/>plurima dicta sunt in I libro 
+Sententia<lb break="no" ed="#Bc" n="53"/>vum, Distinct. IIT: et de imagine increata
+<lb ed="#Bc" n="54"/>in eodem libro, Distinct. XXXI : et,
+</p>
+            <p xml:id="alalal-d52050-d1e245">
+               <lb ed="#Bc" n="55"/>Utrum Angelus sit ad imaginem ? supra,
+<lb ed="#Bc" n="56"/>in hoc H libro Sententiarum, Distinct:
+<lb ed="#Bc" n="57"/>VI, et hoc nolo replicare.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

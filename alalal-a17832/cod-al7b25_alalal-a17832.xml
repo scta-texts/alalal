@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="90"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a17832"><!-- l1d3dt1 -->
+            <head xml:id="alalal-a17832-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a17832-d1e101">
+               <lb ed="#Ba" n="13"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-a17832-d1e106">
+               <lb ed="#Ba" n="14"/>
+               <quote xml:id="alalal-a17832-Qd1e110"> Apostolus namque ait, quod 
+invisi<lb break="no" ed="#Ba" n="15"/>bilia Dei, etc. </quote> In hac tertia 
+distinctio<lb break="no" ed="#Ba" n="16"/>ne Magister tangit illam partem veniendi
+<lb ed="#Ba" n="17"/>in cognitionem Trinitatis et unitatis,
+<lb ed="#Ba" n="18"/>que est per rationes et similitudines.
+<lb ed="#Ba" n="19"/>Sunt autem duo in quae ducimur, et duo
+<lb ed="#Ba" n="20"/>quibus ducimur : in quae ducimur unitas,
+<lb ed="#Ba" n="21"/>et Trinitas : quibus ducimur, ratio, et 
+si<lb break="no" ed="#Ba" n="22"/>militudo. Et ideo dividitur in duas 
+par<lb break="no" ed="#Ba" n="23"/>tes : in quarum prima tangit modum 
+ve<lb break="no" ed="#Ba" n="24"/>niendi in cognitionem unitatis ducente
+<lb ed="#Ba" n="25"/>ratione. In secunda tangit modum 
+ve<lb break="no" ed="#Ba" n="26"/>niendi in aliqualem cognitionem 
+Trini<lb break="no" ed="#Ba" n="27"/>tatis ducente similitudine, ibi, F, <quote xml:id="alalal-a17832-Qd1e141"> Nene
+<lb ed="#Ba" n="28"/>restat ostendere, etc.</quote>
+            </p>
+            <p xml:id="alalal-a17832-d1e147">
+               <lb ed="#Ba" n="29"/>Prima harum partium dividitur in
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="30"/>quatuor penes quatuor rationes quas 
+ad<lb break="no" ed="#Ba" n="31"/>ducit Magister ad probandum Deum esse,
+<lb ed="#Ba" n="32"/>et unum esse : quas rationes multis 
+mo<lb break="no" ed="#Ba" n="33"/>dis variaverunt multi, sicut plane extrahi
+<lb ed="#Ba" n="34"/>potest a Littera. In prima probat 
+Magi<lb break="no" ed="#Ba" n="35"/>ster per effectum esse Deum per modum
+<lb ed="#Ba" n="36"/>prime cause. In secunda per 
+dispositio<lb break="no" ed="#Ba" n="37"/>nes inventas in effectibus probat Deum
+<lb ed="#Ba" n="38"/>esse incorporeum, et immutabilem, et
+<lb ed="#Ba" n="39"/>hac incipit ibi, GC, <quote xml:id="alalal-a17832-Qd1e175"> Adio etiam modo 
+ve<lb break="no" ed="#Ba" n="40"/>ritatem, etc. </quote> In tertia iterum per 
+dis<lb break="no" ed="#Ba" n="41"/>positionem inventam in effectibus 
+pro<lb break="no" ed="#Ba" n="42"/>bat Deum esse summum bonum, ibi, D,
+<lb ed="#Ba" n="43"/>
+               <quote xml:id="alalal-a17832-Qd1e186"> Consideraverunt etiam, etc. </quote> In 
+quar<lb break="no" ed="#Ba" n="44"/>ta et ullima probat Deum esse speciem
+<lb ed="#Ba" n="45"/>omnium specierum creatarum, et hoc per
+<lb ed="#Ba" n="46"/>considerationem speciei invente in 
+effe<lb break="no" ed="#Ba" n="47"/>ctibus, ibi, i, <quote xml:id="alalal-a17832-Qd1e197"> Intellexerunt etiam 
+spe<lb break="no" ed="#Ba" n="48"/>ciem corporis,</quote> etc.
+</p>
+            <p xml:id="alalal-a17832-d1e203">
+               <pb ed="#Ba" n="91"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>In prima ratione tria sunt. Primo
+<lb ed="#Ba" n="2"/>enim inducitur auctoritas Apostoli que
+<lb ed="#Ba" n="3"/>probat hance viam, scilicet, per 
+causa<lb break="no" ed="#Ba" n="4"/>tum in cognitionem cause veniendi esse
+<lb ed="#Ba" n="5"/>possibile. Secundo, ostendit quibus 
+ho<lb break="no" ed="#Ba" n="6"/>mo juvatur in hac via, scilicet, duobus :
+<lb ed="#Ba" n="7"/>quia natura rationali, et creatura 
+exte<lb break="no" ed="#Ba" n="8"/>riori, ibi, <quote xml:id="alalal-a17832-Qd1e226"> Homo ergo invisibilia Det,
+<lb ed="#Ba" n="9"/>etc. </quote> Tertio, ratiocinationis ponit 
+pro<lb break="no" ed="#Ba" n="10"/>cessum, ibi, B, <quote xml:id="alalal-a17832-Qd1e234"> Nam sicut ait 
+Ambro<lb break="no" ed="#Ba" n="11"/>StUs. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

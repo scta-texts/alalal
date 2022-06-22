@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="11"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-cc2154"><!-- l1d26dt2 -->
+            <head xml:id="alalal-cc2154-Hd1e99">Divisio textus</head>
+            <p xml:id="alalal-cc2154-d1e101">
+               <cb ed="#Bb" n="d"/>
+               <lb ed="#Bb" n="31"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-cc2154-d1e108">
+               <lb ed="#Bb" n="32"/>
+               <quote xml:id="alalal-cc2154-Qd1e112"> Jam de proprietatibus personarum
+<lb ed="#Bb" n="33"/>videamus, etc. </quote>
+               <lb ed="#Bb" n="34"/>Ista pars in qua Magister agit de 
+pro<lb break="no" ed="#Bb" n="35"/>prietatibus, dividitur in quatuor partes :
+<cb ed="#Bb" n="e"/>
+               <lb ed="#Bb" n="36"/>in quarum prima ostendit Magister tres
+<lb ed="#Bb" n="37"/>proprietates personales tribus personis
+<lb ed="#Bb" n="38"/>inesse. In secunda ostendit proprietates
+<lb ed="#Bb" n="39"/>illas non inesse per accidens, ibi, C,
+<lb ed="#Bb" n="40"/>
+               <quote xml:id="alalal-cc2154-Qd1e134"> Quocirca sciendum est, non omnine
+<lb ed="#Bb" n="41"/>quod, etc. </quote> In tertia ostendit Magister
+<lb ed="#Bb" n="42"/>secundum quem sensum filiatio et 
+pro<lb break="no" ed="#Bb" n="43"/>cessio sive donum dicuntur esse 
+perso<lb break="no" ed="#Bb" n="44"/>nales proprietates Filii et Spiritus san-
+<pb ed="#Bb" n="12"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>cti, ibi, D, <quote xml:id="alalal-cc2154-Qd1e153"> Hic queritur, 
+Quomo<lb break="no" ed="#Bb" n="2"/>do dieatur proprium nato Deo, etc. </quote>
+               <lb ed="#Bb" n="3"/>In quarta determinat quedam dubia
+<lb ed="#Bb" n="4"/>circa hoc, ibi G, <quote xml:id="alalal-cc2154-Qd1e162"> Hic queri potest,
+<lb ed="#Bb" n="5"/>Utrum Pater, vel Filius. </quote>
+            </p>
+            <p xml:id="alalal-cc2154-d1e168">
+               <lb ed="#Bb" n="6"/>Ex hoc patet sententia, quia Littera
+<lb ed="#Bb" n="7"/>explicabitur in disputatione.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

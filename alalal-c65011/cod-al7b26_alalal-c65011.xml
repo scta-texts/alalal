@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="342"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c65011"><!-- l1d41a3 -->
+            <head xml:id="alalal-c65011-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-c65011-Hd1e101" type="question-title">An praescientia meritorum sit causa
+predestinations ?</head>
+            <p xml:id="alalal-c65011-d1e104">
+               <lb ed="#Bb" n="18"/>ARTICULUS III.
+<lb ed="#Bb" n="19"/>An praescientia meritorum sit causa
+<lb ed="#Bb" n="20"/>predestinations ?
+</p>
+            <p xml:id="alalal-c65011-d1e113">
+               <lb ed="#Bb" n="21"/>Tertio queritur, Utrum praescientia
+<lb ed="#Bb" n="22"/>meritorum sit causa praedestinationis et
+<lb ed="#Bb" n="23"/>reprobationis ?
+</p>
+            <p xml:id="alalal-c65011-d1e122">
+               <lb ed="#Bb" n="24"/>Videtur autem, quod sic, primo per
+<lb ed="#Bb" n="25"/>auctoritates, postea per rationes.
+</p>
+            <p xml:id="alalal-c65011-d1e130">
+               <lb ed="#Bb" n="26"/>1, Dicit enm Glossa ; <quote xml:id="alalal-c65011-Qd1e134"> Esau subtracta
+<lb ed="#Bb" n="27"/>gratia, juste reprobatus est . </quote> Justitia
+<lb ed="#Bb" n="28"/>autem est redditio pro meritis : non 
+au<lb break="no" ed="#Bb" n="29"/>tem fuerunt merita nisi in praescientia :
+<lb ed="#Bb" n="30"/>ergo merita in praescientia fuerunt causa
+<lb ed="#Bb" n="31"/>reprobationis.
+</p>
+            <p xml:id="alalal-c65011-d1e149">
+               <lb ed="#Bb" n="32"/>2. Item, Glossa, ibidem : <quote xml:id="alalal-c65011-Qd1e153"> Esau per
+<lb ed="#Bb" n="33"/>justitiam reprobatus est : </quote> et ex hoc 
+se<lb break="no" ed="#Bb" n="34"/>quitur idem quod prius.
+</p>
+            <p xml:id="alalal-c65011-d1e161">
+               <lb ed="#Bb" n="35"/>3. Item, ibidem, Glossa Ambrosii :
+<lb ed="#Bb" n="36"/>
+               <quote xml:id="alalal-c65011-Qd1e167"> Dabo illi gratiam quem scio toto corde
+<lb ed="#Bb" n="37"/>post errorem ad me reversurum. </quote> Ergo
+<lb ed="#Bb" n="38"/>prescientia conversionis est causa 
+colla<lb break="no" ed="#Bb" n="39"/>tionis et preordinationis gratiae : ergo
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="40"/>est causa praedestinationis. Unde 
+subjun<lb break="no" ed="#Bb" n="41"/>git: <quote xml:id="alalal-c65011-Qd1e183"> Hoc est dare cui dandum est : non
+<lb ed="#Bb" n="42"/>enim dande sunt margarite porcis, aut
+<lb ed="#Bb" n="43"/>sanctum canibus. </quote>
+            </p>
+            <p xml:id="alalal-c65011-d1e191">
+               <lb ed="#Bb" n="44"/>4. Item, ibidems: <quote xml:id="alalal-c65011-Qd1e195"> Quid oderat in Esau,
+<lb ed="#Bb" n="45"/>nisi originale peccatum ? Quid diligebat
+<lb ed="#Bb" n="46"/>in Jacob, nisi gratuitum misericordie 
+do<lb break="no" ed="#Bb" n="47"/>num ?</quote> Constat autem, quod non loquitur
+<lb ed="#Bb" n="48"/>de peccato quod erat, quia in hoc similes
+<lb ed="#Bb" n="49"/>erant Jacob et Esau: et ideo si unum
+<lb ed="#Bb" n="50"/>propter hoc odio habuit, et alum odisse
+<lb ed="#Bb" n="51"/>debuit : quia de similibus (ut dicit 
+Boe<lb break="no" ed="#Bb" n="52"/>tius) idem est judicium: ergo videtur,
+<lb ed="#Bb" n="53"/>quod illud ad praescientiam est 
+referen<lb break="no" ed="#Bb" n="54"/>dum : et ila praescientia meritorum causa
+<lb ed="#Bb" n="55"/>est pradestinationis vel reprobationis.
+</p>
+            <p xml:id="alalal-c65011-d1e222">
+               <lb ed="#Bb" n="56"/>5. Item, ibidem : <quote xml:id="alalal-c65011-Qd1e226"> Deus dat gratiam ej
+<lb ed="#Bb" n="57"/>quem sibi scit devote serviturum, et
+<lb ed="#Bb" n="58"/>mandatis ejus obediturum : </quote> constat 
+au<lb break="no" ed="#Bb" n="59"/>tem, quod non loquitur de gratia 
+pre<lb break="no" ed="#Bb" n="60"/>sentis Justificationis, quia illa sepe datur
+<lb ed="#Bb" n="61"/>abutenti : ergo loquitur de gratia 
+prede<lb break="no" ed="#Bb" n="62"/>stinationis : ergo est ex praescientia 
+me<lb break="no" ed="#Bb" n="63"/>ritorum.
+</p>
+            <p xml:id="alalal-c65011-d1e245">
+               <lb ed="#Bb" n="64"/>6. Item, Origenes super Numer. v :
+<lb ed="#Bb" n="65"/>
+               <quote xml:id="alalal-c65011-Qd1e251"> Deus ex proposito cordis quod sibi 
+pa<lb break="no" ed="#Bb" n="66"/>tuit, antequam aliquid boni vel mali 
+egis<lb break="no" ed="#Bb" n="67"/>sent, dixit, Malach. 1, 2 et 3: Dilexae 
+Ja<lb break="no" ed="#Bb" n="68"/>cob, Esau autem odio habut.</quote> Ergo 
+vide<lb break="no" ed="#Bb" n="69"/>tur, quod prescitum propositum cordis
+<lb ed="#Bb" n="70"/>illorum geminorum, fuerit causa 
+prede<lb break="no" ed="#Bb" n="71"/>stinationis unius, et reprobationis 
+alte<lb break="no" ed="#Bb" n="72"/>rius.
+</p>
+            <p xml:id="alalal-c65011-d1e271">
+               <lb ed="#Bb" n="73"/>7. Item, Idem videtur, Genes. xvi,
+<lb ed="#Bb" n="74"/>17 et seq., ubi dicit Dominus ad Abra~
+<lb ed="#Bb" n="75"/>ham : Num celare potero Abraham que
+<lb ed="#Bb" n="76"/>gesturus sum, praecipue cum futurus sit
+<lb ed="#Bb" n="77"/>in gentem magnam...? Scio enim quod
+<lb ed="#Bb" n="78"/>precepturus sit filiis suas, ed domur sux
+<lb ed="#Bb" n="79"/>post se, ut custodiant viam Domini,
+<lb ed="#Bb" n="80"/>elc Ergo praescientia meritorum est 
+cau<lb break="no" ed="#Bb" n="81"/>sa quare quosdam praedestimat, et 
+quos<lb break="no" ed="#Bb" n="82"/>dam non, ut videtur,
+</p>
+            <p xml:id="alalal-c65011-d1e295">
+               <lb ed="#Bb" n="83"/>Hoc autem probatur per rationem :
+<lb ed="#Bb" n="84"/>quia
+</p>
+            <p xml:id="alalal-c65011-d1e302">
+               <pb ed="#Bb" n="343"/>
+               <cb ed="#Bb" n="a"/>
+               <!-- left off -->
+               <lb ed="#Bb" n="1"/>1. Voluntas, ut dicit Damascenus,
+ratio<lb break="no" ed="#Bb" n="2"/>nabilis est, et s1 non est rationabilis, non
+<lb ed="#Bb" n="3"/>est voluntas: cum ergo voluntas 
+mise<lb break="no" ed="#Bb" n="4"/>rendi et non miserendi sint in Deo, 
+ra<lb break="no" ed="#Bb" n="5"/>tionabiles erunt ille voluntates : ergo ex
+<lb ed="#Bb" n="6"/>ratione secundum rationem intelligentic
+<lb ed="#Bb" n="7"/>procedent. Non autem estratio, quae non
+<lb ed="#Bb" n="8"/>discernit, quare dandum sit um, et non
+<lb ed="#Bb" n="9"/>alii: ergo videtur, quod Deus discernit
+<lb ed="#Bb" n="10"/>hoc: sed non potest hoc fier: nisi 
+pra<lb break="no" ed="#Bb" n="11"/>scitis meritis: ergo prascientia 
+merito<lb break="no" ed="#Bb" n="12"/>rum causa est praedestinationis, vel 
+re<lb break="no" ed="#Bb" n="13"/>probationis.
+</p>
+            <p xml:id="alalal-c65011-d1e339">
+               <lb ed="#Bb" n="14"/>2. Item, Nulla electio sapientis est 
+eo<lb break="no" ed="#Bb" n="15"/>rum quae nullam habent distantiam :
+<lb ed="#Bb" n="16"/>Deus autem sapientissimus ab aeterno
+<lb ed="#Bb" n="17"/>quosdam elegit, et quosdam reprobavit :
+<lb ed="#Bb" n="18"/>ergo oportuit, quod aliquo modo 
+dista<lb break="no" ed="#Bb" n="19"/>rent : non autem poterant ab aeterno 
+di<lb break="no" ed="#Bb" n="20"/>stare, nist in praescientia meritorum :
+<lb ed="#Bb" n="21"/>ergo videtur ut prius.
+</p>
+            <p xml:id="alalal-c65011-d1e359">
+               <lb ed="#Bb" n="22"/>3. Item, Sapientis est numquam 
+ali<lb break="no" ed="#Bb" n="23"/>quid in voluntate determinare, nisi 
+prae<lb break="no" ed="#Bb" n="24"/>videat quantum potest, quem potest 
+sor<lb break="no" ed="#Bb" n="25"/>tiri finem et exitum in re: cum tgitur
+<lb ed="#Bb" n="26"/>Deus sit summe sapiens, ipse numquam
+<lb ed="#Bb" n="27"/>determinat voluntatem reprobandi vel
+<lb ed="#Bb" n="28"/>miserendi, nisi ex prefinitione 
+merito<lb break="no" ed="#Bb" n="29"/>rum futurorum quae praevidet 
+praescien<lb break="no" ed="#Bb" n="30"/>tia : et sic iterum sequitur quod prius.
+</p>
+            <p xml:id="alalal-c65011-d1e381">
+               <lb ed="#Bb" n="31"/>4. Item, A simili, rex terrenus si 
+de<lb break="no" ed="#Bb" n="32"/>beat eligere satellites et milites, 
+quan<lb break="no" ed="#Bb" n="33"/>tum potest, inquirit ante cujus 
+consue<lb break="no" ed="#Bb" n="34"/>tudinis et moris sint, et utrum sint 
+fide<lb break="no" ed="#Bb" n="35"/>les, vel non, ut ex preteritis discat quid
+<lb ed="#Bb" n="36"/>de futuris presumere debeat: et si posset
+<lb ed="#Bb" n="37"/>previdere futura, ex futuris magis 
+eli<lb break="no" ed="#Bb" n="38"/>geret quam ex preteritis : ergo cum Deus
+<lb ed="#Bb" n="39"/>videat futura, videtur quod ipse 
+prede<lb break="no" ed="#Bb" n="40"/>stinet et reprobet ex praescientia 
+merito<lb break="no" ed="#Bb" n="41"/>rum futurorum.
+</p>
+            <p xml:id="alalal-c65011-d1e408">
+               <lb ed="#Bb" n="42"/>5. Item, Paterfamilias si sciret quis
+<lb ed="#Bb" n="43"/>filiorum dissipaturus esset hereditatem,
+<lb ed="#Bb" n="44"/>et guis conservaturus, secundum 
+pre<lb break="no" ed="#Bb" n="45"/>scientiam futurorum actuum distribueret
+<lb ed="#Bb" n="46"/>hereditatem filiis : ergo videtur, quod
+<lb ed="#Bb" n="47"/>cum hoc possit facere Deus, quod ipse
+<lb ed="#Bb" n="48"/>eligat secundum praescientiam 
+merito<lb break="no" ed="#Bb" n="49"/>rum.
+</p>
+            <p xml:id="alalal-c65011-d1e428">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="50"/>6. Hem, Objicitur sic fortius : 
+Crudeli<lb break="no" ed="#Bb" n="51"/>tas viderctur esse mm Deo, si hominem
+<lb ed="#Bb" n="52"/>talem faceret, et stalim reprobaret in quo
+<lb ed="#Bb" n="53"/>nulla causa reprobationis future 
+videre<lb break="no" ed="#Bb" n="54"/>tur: cum igitur nulla erudelitas sit in
+<lb ed="#Bb" n="55"/>Deo, ipse reprobat ex previsione 
+merito<lb break="no" ed="#Bb" n="56"/>rum. |
+</p>
+            <p xml:id="alalal-c65011-d1e448">
+               <lb ed="#Bb" n="57"/>7. Item, Artifex sapiens non facit vas
+<lb ed="#Bb" n="58"/>ad nihil utile : cum igitur reprobandi ad
+<lb ed="#Bb" n="59"/>nihil utiles sint, videtur quod non 
+de<lb break="no" ed="#Bb" n="60"/>beant fieri a Deo.
+</p>
+            <p xml:id="alalal-c65011-d1e459">
+               <lb ed="#Bb" n="61"/>Si forte tu dicas, quod pradestinatio
+<lb ed="#Bb" n="62"/>non potest esse ex meritis : quia meritum
+<lb ed="#Bb" n="63"/>omne ex gratia est, et ita gratia quae est
+<lb ed="#Bb" n="64"/>effectus praedestinationis, preecedit omne
+<lb ed="#Bb" n="65"/>meritum ; ergo meritum potius est ex
+<lb ed="#Bb" n="66"/>predestinatione, quam e converso. Illud
+<lb ed="#Bb" n="67"/>nihil videtur esse : cum tamen haec 
+solu<lb break="no" ed="#Bb" n="68"/>tio scripta sit mm Littera : quia simile
+<lb ed="#Bb" n="69"/>non potest dici de reprobatione : ibi
+<lb ed="#Bb" n="70"/>enim non preparatur poena nisi operi
+<lb ed="#Bb" n="71"/>nostro, quod a nobis est, non a Deo.
+</p>
+            <p xml:id="alalal-c65011-d1e485">
+               <lb ed="#Bb" n="72"/>Item, Licet meritum sit a gratia, et
+<lb ed="#Bb" n="73"/>gratia non a nobis, tamen, ut dicit 
+Au<lb break="no" ed="#Bb" n="74"/>gustinus in Lztfera, hoc utrumque 
+no<lb break="no" ed="#Bb" n="75"/>strum est propter consensum liberi 
+arbi<lb break="no" ed="#Bb" n="76"/>tril, et sic ille consensus previsus potest
+<lb ed="#Bb" n="77"/>esse causa praedestinationis aliquorum,
+<lb ed="#Bb" n="78"/>et dissensus causa reprobationis : unde
+<lb ed="#Bb" n="79"/>patet, quod illa solutio non solvit 
+dubi<lb break="no" ed="#Bb" n="80"/>tationem questionis.
+</p>
+            <p xml:id="alalal-c65011-d1e507">
+               <lb ed="#Bb" n="81"/>Sed contra hoc sic objicitur :
+<lb ed="#Bb" n="82"/>4. Prime cause nulla causa est : 
+vo<lb break="no" ed="#Bb" n="83"/>luntas autem Dei prima causa est : ergo
+<lb ed="#Bb" n="84"/>voluntatis Dei nulla causa est : ergo nec
+<lb ed="#Bb" n="85"/>prescientia alicujus rei causa est 
+volun<lb break="no" ed="#Bb" n="86"/>tatis. Quod aulem voluntas sit prima
+<lb ed="#Bb" n="87"/>causa, probatur sic : Intellectus practicus
+<lb ed="#Bb" n="88"/>non est causa nisi per voluntatem : quia
+<lb ed="#Bb" n="89"/>non movet nisi per voluntatem : ergo
+<lb ed="#Bb" n="90"/>penes voluntatem est prima ratio 
+causa<lb break="no" ed="#Bb" n="91"/>litatis. Si forte diceres, quod voluntas
+<lb ed="#Bb" n="92"/>est efficiens, et habent causam finalem
+<lb ed="#Bb" n="93"/>merita futura, sicut quidam dixerunt :
+<lb ed="#Bb" n="94"/>hoc est valde absurdum : quia dignitas
+<lb ed="#Bb" n="95"/>physica est, quod mhil agit aliquid 
+pro<lb break="no" ed="#Bb" n="96"/>pter indignius et vilius se : merita autem
+<lb ed="#Bb" n="97"/>futura sunt indigniora voluntate Dei.
+<lb ed="#Bb" n="98"/>Similiter dicit Scriptura, quod propter
+</p>
+            <p xml:id="alalal-c65011-d1e550">
+               <pb ed="#Bb" n="344"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>semetipsum creavit omnia! : ergo 
+relin<lb break="no" ed="#Bb" n="2"/>quitur, quod nulla sit causa voluntatis
+<lb ed="#Bb" n="3"/>praedestinantis, vel reprobantis.
+</p>
+            <p xml:id="alalal-c65011-d1e563">
+               <lb ed="#Bb" n="4"/>2. Item, Merita prescita sunt futura :
+<lb ed="#Bb" n="5"/>igitur si essent causa praedestinationis,
+<lb ed="#Bb" n="6"/>aut reprobationis : aut hoc est quia 
+pre<lb break="no" ed="#Bb" n="7"/>scita merita, aut quia futura, aut quia
+<lb ed="#Bb" n="8"/>prescita futura. Si primo modo: hoc
+<lb ed="#Bb" n="9"/>non potest esse : quia ut prescita, sunt
+<lb ed="#Bb" n="10"/>in ideis tantum, et non differunt per 
+dif<lb break="no" ed="#Bb" n="11"/>ferentias boni et mali : et ideo non fieret
+<lb ed="#Bb" n="12"/>discretio voluntatis pradestinantis et 
+re<lb break="no" ed="#Bb" n="13"/>probantis. Si autem quia futura sunt, vel
+<lb ed="#Bb" n="14"/>quia prescita futura : tune ratione 
+futu<lb break="no" ed="#Bb" n="15"/>ritionis in qua accipere debebant 
+diffe<lb break="no" ed="#Bb" n="16"/>rentiam boni et mali, referrentur ad 
+pre<lb break="no" ed="#Bb" n="17"/>destinationem vel reprobationem : ergo
+<lb ed="#Bb" n="18"/>temporale sub ratione temporal: 
+futuri<lb break="no" ed="#Bb" n="19"/>tionis est causa aeterni, quod est 
+impossi<lb break="no" ed="#Bb" n="20"/>bile : quia sicut tempus ab aeternitate et
+<lb ed="#Bb" n="21"/>evo fluit, ita temporale ab aeterno.
+</p>
+            <p xml:id="alalal-c65011-d1e605">
+               <lb ed="#Bb" n="22"/>Solutio. Dicendum cum Augustino
+<lb ed="#Bb" n="23"/>hic in Liltera, quod praedestinatio et 
+re<lb break="no" ed="#Bb" n="24"/>probatio non habent causam aliquam.
+<lb ed="#Bb" n="25"/>Sed distinguendum est, quod causa 
+mul<lb break="no" ed="#Bb" n="26"/>tiplex est, scilicet efficiens, et formalis, et
+<lb ed="#Bb" n="27"/>finalis, et materialis : et efficientem 
+qui<lb break="no" ed="#Bb" n="28"/>dem causam non habet, nec materialem,
+<lb ed="#Bb" n="29"/>nec formalem, nec finalem. Sed finis est
+<lb ed="#Bb" n="30"/>duplex, scilicet finis intentionis, et finis
+<lb ed="#Bb" n="31"/>operis : et voco finem intentionis, qui
+<lb ed="#Bb" n="32"/>intenditur ab efficiente, sicut beatitudo
+<lb ed="#Bb" n="33"/>intenditur a bene operante : finem autem
+<lb ed="#Bb" n="34"/>operis voco id ad quod terminatur opus :
+<lb ed="#Bb" n="35"/>et hoc est quandoque temporale: sicut
+<lb ed="#Bb" n="36"/>ire ad Matutinas, ad accipere oblationes
+<lb ed="#Bb" n="37"/>constitulas terminatur : et suscipere 
+sa<lb break="no" ed="#Bb" n="38"/>cros ordines, ad habendum prebendam
+<lb ed="#Bb" n="39"/>terminatur : et tal: quid adjunctum fini
+<lb ed="#Bb" n="40"/>potest esse ratio operis, non tamen erit
+<lb ed="#Bb" n="41"/>proprie causa finalis, quia causa finalis
+<lb ed="#Bb" n="42"/>est, qua quietat intentionem per se et
+<lb ed="#Bb" n="43"/>totam. Similiter distinguendum est in
+<lb ed="#Bb" n="44"/>predestinatione, quod quiddam est ibi
+<lb ed="#Bb" n="45"/>eternum, ut propositum : et quiddam
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="46"/>determinabile ad tempus, ut collatio
+<lb ed="#Bb" n="47"/>gratia. Et ex parte aeterni nec causam
+<lb ed="#Bb" n="48"/>finalem habet nec rationem proprie 
+lo<lb break="no" ed="#Bb" n="49"/>quendo : quia ratio etiam aliquo modo
+<lb ed="#Bb" n="50"/>elicit opus, merita autem futura nullo
+<lb ed="#Bb" n="51"/>modo eliciunt propositum Dei. Ex parte
+<lb ed="#Bb" n="52"/>autem effectus in quo determinabilis est
+<lb ed="#Bb" n="53"/>predestinatio et reprobatio ad tempus,
+<lb ed="#Bb" n="54"/>habent rationem meriti, non tamen 
+cau<lb break="no" ed="#Bb" n="55"/>sam finalem. Sed quia difficile est 
+re<lb break="no" ed="#Bb" n="56"/>spondere Glossis inductis, ideo 
+respon<lb break="no" ed="#Bb" n="57"/>dendum est ad singulas.
+</p>
+            <p xml:id="alalal-c65011-d1e688">
+               <lb ed="#Bb" n="58"/>Dicendum igitur ad primam, quod
+<lb ed="#Bb" n="59"/>Esau juste reprobatus est duabus de 
+cau<lb break="no" ed="#Bb" n="60"/>sis. Una est quam dicit Anselmus, quod
+<lb ed="#Bb" n="61"/>justum est, quidquid vult Deus : unde
+<lb ed="#Bb" n="62"/>possemus dicere, quod justitia ibi dicitur
+<lb ed="#Bb" n="63"/>equitas divine voluntatis. Alia causa est,
+<lb ed="#Bb" n="64"/>ut justitia dicat ibi debilum pene ad
+<lb ed="#Bb" n="65"/>culpam, et reprobatio ponatur pro 
+obdu<lb break="no" ed="#Bb" n="66"/>ratione vel condemnatione, ut dixit 
+Ma<lb break="no" ed="#Bb" n="67"/>gister in ult. cap. prehabite 
+distinctio<lb break="no" ed="#Bb" n="68"/>nis.
+</p>
+            <p xml:id="alalal-c65011-d1e714">
+               <lb ed="#Bb" n="69"/>Ad aliud dicendum eodem modo.
+</p>
+            <p xml:id="alalal-c65011-d1e719">
+               <lb ed="#Bb" n="70"/>Ad aliud dicendum, quod scientia 
+me<lb break="no" ed="#Bb" n="71"/>riti dicit 1bi rationem collationis gratiae,
+<lb ed="#Bb" n="72"/>non causam praedestinationis : nec ibi
+<lb ed="#Bb" n="73"/>loquitur de praedestinatione secundum se,
+<lb ed="#Bb" n="74"/>sed de effectu determinabili ad 
+tem<lb break="no" ed="#Bb" n="75"/>pus.
+</p>
+            <p xml:id="alalal-c65011-d1e736">
+               <lb ed="#Bb" n="76"/>Ad aliud dicendum, quod illa Glossa
+<lb ed="#Bb" n="77"/>specialem habet difficultatem, et puto
+<lb ed="#Bb" n="78"/>quod originale peccatum non dicitur ibi
+<lb ed="#Bb" n="79"/>habitus solum, quia in illo erant similes
+<lb ed="#Bb" n="80"/>Esau et Jacob : nec accipitur ibi Esau
+<lb ed="#Bb" n="81"/>pro parvulo, sed pro gente, et Jacob
+<lb ed="#Bb" n="82"/>similiter. Unde originale in Esau est 
+fo<lb break="no" ed="#Bb" n="83"/>mes relatus ad inhiationem ad 
+concupi<lb break="no" ed="#Bb" n="84"/>scentiam in gente non liberanda per
+<lb ed="#Bb" n="85"/>Christum, eo quod gratiae redemptionis
+<lb ed="#Bb" n="86"/>fact per Christum noluit consentire. In
+<lb ed="#Bb" n="87"/>Jacob autem inhiatio ad gratiam in fideli
+<lb ed="#Bb" n="88"/>populo consensuro Christo, per cujus
+<lb ed="#Bb" n="89"/>redemptionem gratia illus populi 
+expedi<lb break="no" ed="#Bb" n="90"/>tur ad merendum : et haec gratia vocatur
+<lb ed="#Bb" n="91"/>gratuitum misericordie donum. Hec
+<pb ed="#Bb" n="345"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>autem sunt ratio odiinon ex parte 
+repro<lb break="no" ed="#Bb" n="2"/>bationis aeterne, sed ex parte 
+prepara<lb break="no" ed="#Bb" n="3"/>tionis pene, et ab alia parte ratio 
+colla<lb break="no" ed="#Bb" n="4"/>tionis gratiae. 
+</p>
+            <p xml:id="alalal-c65011-d1e786">
+               <lb ed="#Bb" n="5"/>Ad aliud dicendum secundum 
+pre<lb break="no" ed="#Bb" n="6"/>dicta, quod Glossa illa tangit rationem 
+<lb ed="#Bb" n="7"/>appositionis grati@, et non causam 
+per<lb break="no" ed="#Bb" n="8"/>destinationis. rationes non tangunt, nisi quod voluntas
+</p>
+            <p xml:id="alalal-c65011-d1e797">
+               <lb ed="#Bb" n="9"/>Ad aliud dicendum, quod Origenes 
+<lb ed="#Bb" n="10"/>tangit statum duorum populorum, et 
+di<lb break="no" ed="#Bb" n="11"/>versimode se habentium ad gratiam 
+li<lb break="no" ed="#Bb" n="12"/>berantem : et ille diversus modus, ratio
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="13"/>potest esse liberationis quorumdam, et
+<lb ed="#Bb" n="14"/>damnationis aliorum.
+</p>
+            <p xml:id="alalal-c65011-d1e815">
+               <lb ed="#Bb" n="15"/>Eadem etiam solutio est ad 
+auctorita<lb break="no" ed="#Bb" n="16"/>tem sequentem de Genesi, xvi, 17 et
+<lb ed="#Bb" n="17"/>seq.
+</p>
+            <p xml:id="alalal-c65011-d1e824">
+               <lb ed="#Bb" n="18"/>Ad id quod objicitur per rationem, est 
+<lb ed="#Bb" n="19"/>una solutio ad omnes, scilicet quod ila —
+<lb ed="#Bb" n="20"/>Dei non sitirrationabilis ex parte effectus
+<lb ed="#Bb" n="21"/>et voliti : et hoc jam concessum est, licet
+<lb ed="#Bb" n="22"/>in se nullam habeat causam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

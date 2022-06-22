@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="163"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d31237"><!-- l2d7a12 -->
+            <head xml:id="alalal-d31237-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-d31237-Hd1e101" type="question-title">An magicis virtutibus et mathematicis
+uti sit malum ? et, An noceant figure
+mathematics ?</head>
+            <p xml:id="alalal-d31237-d1e104">
+               <lb ed="#Bc" n="23"/>ARTICULUS XII.
+<lb ed="#Bc" n="24"/>An magicis virtutibus et mathematicis
+<lb ed="#Bc" n="25"/>uti sit malum ? et, An noceant figure
+<lb ed="#Bc" n="26"/>mathematics ?
+</p>
+            <p xml:id="alalal-d31237-d1e115">
+               <lb ed="#Bc" n="27"/>Deinde quaeritur de hoc quod dicitur
+<lb ed="#Bc" n="28"/>ultimo capitulo, ibi, <quote xml:id="alalal-d31237-Qd1e121"> Illud quoque
+<lb ed="#Bc" n="29"/>sciendum est, etc. </quote>
+            </p>
+            <p xml:id="alalal-d31237-d1e127">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="30"/>Utrum talibus magicis uti virtutibus et
+<lb ed="#Bc" n="31"/>mathematicis sit malum et apostasia a
+<lb ed="#Bc" n="32"/>fide, ut dicunt quidam ?
+</p>
+            <p xml:id="alalal-d31237-d1e139">
+               <lb ed="#Bc" n="33"/>Videtur enim quod non : quia
+<lb ed="#Bc" n="34"/>1. Non homo, sed demon operatur :
+<lb ed="#Bc" n="35"/>ergo non refertur operatio illa ad 
+homi<lb break="no" ed="#Bc" n="36"/>nem.
+</p>
+            <p xml:id="alalal-d31237-d1e150">
+               <lb ed="#Bc" n="37"/>2. Item, Frequenter sunt talia valde
+<lb ed="#Bc" n="38"/>utilia, scilicet inventio perditorum, cau~
+<lb ed="#Bc" n="39"/>tela a furibus, et manifestatio latronum :
+<lb ed="#Bc" n="40"/>ergo videtur, quod talia non sint mala.
+</p>
+            <p xml:id="alalal-d31237-d1e161">
+               <pb ed="#Bc" n="164"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Quaeritur etiam de figuris 
+mathemati<lb break="no" ed="#Bc" n="2"/>corum, qui nullas conjurationes et nulla
+<lb ed="#Bc" n="3"/>sacrificia nec incantationes faciunt, sed
+<lb ed="#Bc" n="4"/>tantum operantes ad adspectus 
+stella<lb break="no" ed="#Bc" n="5"/>rum, quandoque utilia preedicunt : ergo
+<lb ed="#Bc" n="6"/>in talibus nulla videtur apostasia.
+</p>
+            <p xml:id="alalal-d31237-d1e181">
+               <lb ed="#Bc" n="7"/>Item, Nonne Deus contulit vim herbis,
+<lb ed="#Bc" n="8"/>et verbis : ergo multo magis stellis : 
+er<lb break="no" ed="#Bc" n="9"/>go in talibus non est malum. Sep 
+con<lb break="no" ed="#Bc" n="10"/>TRA hoc sunt verba Augustini 
+multi<lb break="no" ed="#Bc" n="11"/>plicia in tractatu super Genesim, et in
+<lb ed="#Bc" n="12"/>libris de Doctrina Christiana et de 
+Civi<lb break="no" ed="#Bc" n="13"/>tate Dei, qui dicit, quod omnia faciunt
+<lb ed="#Bc" n="14"/>operibus daemonum.
+</p>
+            <p xml:id="alalal-d31237-d1e201">
+               <lb ed="#Bc" n="15"/>Solutio. Dicendum, quod in talibus
+<lb ed="#Bc" n="16"/>est apostasia vel oris, vel operis. Si enim
+<lb ed="#Bc" n="17"/>per invocationes, conjurationes, sacrifi-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="18"/>cia, suffumigationes, et adorationes fiunt,
+<lb ed="#Bc" n="19"/>tune aperte pactum initur cum demone,
+<lb ed="#Bc" n="20"/>et tunc est apostasia oris ibi. Si autem
+<lb ed="#Bc" n="21"/>non fit nisi opere simplici, tunc est 
+apo<lb break="no" ed="#Bc" n="22"/>stasia operis : quia illud opus exspecta-~
+<lb ed="#Bc" n="23"/>tur a demone : et exspectare aliquid a
+<lb ed="#Bc" n="24"/>demone vel velle aliquid percipere per
+<lb ed="#Bc" n="25"/>ipsum, semper est fidei contumelia, et
+<lb ed="#Bc" n="26"/>ideo apostasia.
+</p>
+            <p xml:id="alalal-d31237-d1e232">
+               <lb ed="#Bc" n="27"/>Ad id quod quaeritur de operibus 
+ma<lb break="no" ed="#Bc" n="28"/>thematicorum, hic dicitur communiter
+<lb ed="#Bc" n="29"/>secundum verba Augustini, quod 
+caven<lb break="no" ed="#Bc" n="30"/>da sunt praecipue in imaginibus et 
+annu<lb break="no" ed="#Bc" n="31"/>lis et speculis et characteribus, ne 
+indu<lb break="no" ed="#Bc" n="32"/>catur usus idololatrie, ut supra 
+determi<lb break="no" ed="#Bc" n="33"/>natum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

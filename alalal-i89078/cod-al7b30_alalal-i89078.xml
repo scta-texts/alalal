@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 23</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 23</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="425"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i89078"><!-- l4d38a23 -->
+            <head xml:id="alalal-i89078-Hd1e99">Articulus 23</head>
+            <head xml:id="alalal-i89078-Hd1e101" type="question-title">An redeunte marito alter potest manere
+cumea quam putat uxerem propter
+scandalum ?</head>
+            <p xml:id="alalal-i89078-d1e104">
+               <lb ed="#Bf" n="41"/>ARTICULUS XXIII.
+<lb ed="#Bf" n="42"/>An redeunte marito alter potest manere
+<lb ed="#Bf" n="43"/>cumea quam putat uxerem propter
+<lb ed="#Bf" n="44"/>scandalum ?
+</p>
+            <p xml:id="alalal-i89078-d1e115">
+               <lb ed="#Bf" n="45"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="#Bf" n="46"/>fine distinctionis, ibi E, paulo antefinem :
+<lb ed="#Bf" n="47"/>
+               <quote xml:id="alalal-i89078-Qd1e123">Lx quo ad primam redire volens nec
+<lb ed="#Bf" n="48"/>valens, etc. </quote>
+            </p>
+            <p xml:id="alalal-i89078-d1e129">
+               <lb ed="#Bf" n="49"/>Videtur enim hoc esse falsum: quia
+<lb ed="#Bf" n="50"/>propter nullum scandalum est aliquid 
+fa<lb break="no" ed="#Bf" n="51"/>ciendum contra vite veritatem: sed esse
+<lb ed="#Bf" n="52"/>cum alia postposita sua, est contra vite
+<lb ed="#Bf" n="53"/>veritatem ; ergo non debet esse cum illa
+<lb ed="#Bf" n="54"/>propter scandalum vel etiam metum 
+ex<lb break="no" ed="#Bf" n="55"/>communicationis. .
+</p>
+            <p xml:id="alalal-i89078-d1e148">
+               <lb ed="#Bf" n="56"/>Ad Hoc respondeo, quod Magister hic
+<lb ed="#Bf" n="57"/>errat, et falsum est quod dicit: quia iste
+<lb ed="#Bf" n="58"/>debet potius mori excommunicatus, quam
+<lb ed="#Bf" n="59"/>commaneat illi quae non est uxor ejus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

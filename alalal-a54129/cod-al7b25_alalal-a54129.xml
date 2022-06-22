@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="271"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a54129"><!-- l1d9dt1 -->
+            <head xml:id="alalal-a54129-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a54129-d1e101">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="11"/>DIVISIO TEXTUS.
+<lb ed="#Ba" n="12"/>
+               <quote xml:id="alalal-a54129-Qd1e109"> Nunc ad distinctionem personarum
+<lb ed="#Ba" n="13"/>accedamus, etc. </quote>
+            </p>
+            <p xml:id="alalal-a54129-d1e115">
+               <lb ed="#Ba" n="14"/>Hic incipit quarta et ultima pars 
+tra<lb break="no" ed="#Ba" n="15"/>ctatus de generatione Filii : in qua agitur
+<lb ed="#Ba" n="16"/>de ipsa respectu mensurantis extra 
+se<lb break="no" ed="#Ba" n="17"/>cundum rationem. Sicut enim dicit 
+Phi<lb break="no" ed="#Ba" n="18"/>losophus, quod est externum aeterno,
+<lb ed="#Ba" n="19"/>hoc est eviternum eviterno, -et tempus
+<lb ed="#Ba" n="20"/>temporal, propter unam rationem 
+men<lb break="no" ed="#Ba" n="21"/>sure in communi. Unde probatur in
+<lb ed="#Ba" n="22"/>ista distinctione Filius esse costernus
+<lb ed="#Ba" n="23"/>Patri. Dividitur autem in tres partes.
+<lb ed="#Ba" n="24"/>In prima probatur Filius esse coeternus
+<lb ed="#Ba" n="25"/>Patri contra Arianos hereticos. In 
+se<lb break="no" ed="#Ba" n="26"/>cunda quaeritur, quibus verbis 
+congruen<lb break="no" ed="#Ba" n="27"/>tibus exprimitur aeternitas generationis
+<lb ed="#Ba" n="28"/>Filii, ibi, K, <quote xml:id="alalal-a54129-Qd1e149"> Hic queri potest, Cum
+<lb ed="#Ba" n="29"/>generatio Filii, etc. </quote> In tertia, solvitur
+<lb ed="#Ba" n="30"/>objectio Arii ex verbis Hilarii, ibi, P,
+<lb ed="#Ba" n="31"/>
+               <quote xml:id="alalal-a54129-Qd1e159"> Sed inquiet hereticus, etc. </quote>
+            </p>
+            <p xml:id="alalal-a54129-d1e162">
+               <cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="32"/>Prima harum subdividitur in duas. In
+<lb ed="#Ba" n="33"/>prima probatur generatio esse cowterna
+<lb ed="#Ba" n="34"/>Patri generanti. In secunda, ostenditur
+<lb ed="#Ba" n="35"/>esse ineffabilis, ibi, H, <quote xml:id="alalal-a54129-Qd1e175"> Sed quaeris a
+<lb ed="#Ba" n="36"/>me, inguit, etc. </quote>
+            </p>
+            <p xml:id="alalal-a54129-d1e181">
+               <lb ed="#Ba" n="37"/>Prima harum adhue ulterius scinditur
+<lb ed="#Ba" n="38"/>yn quatuor. Primo enim manifestat 
+Pa<lb break="no" ed="#Ba" n="39"/>tris et Filii cowternitatem. Secundo, 
+po<lb break="no" ed="#Ba" n="40"/>nit contra eam hereticorum objectionem,
+<lb ed="#Ba" n="41"/>ibi, CG, <quote xml:id="alalal-a54129-Qd1e194"> Sed contra hoc inquit 
+hereti<lb break="no" ed="#Ba" n="42"/>cus.</quote> In tertia, heretici objectioni ponit
+<lb ed="#Ba" n="43"/>Augustini responsionem, ibi, D, <quote xml:id="alalal-a54129-Qd1e201"> Qui
+<lb ed="#Ba" n="44"/>hoe dicit non intelligit, etc. </quote> Et 
+adjun<lb break="no" ed="#Ba" n="45"/>git Augustini contra hereticum 
+objectio<lb break="no" ed="#Ba" n="46"/>nem, ibi, E, <quote xml:id="alalal-a54129-Qd1e210"> Jéem, Si Dei Filius, etc. </quote>
+               <lb ed="#Ba" n="47"/>In quarta, contra eumdem hereticum 
+po<lb break="no" ed="#Ba" n="48"/>nit Ambrosii responsionem, ibi, F, <quote xml:id="alalal-a54129-Qd1e217"> 
+Li<lb break="no" ed="#Ba" n="49"/>dem quoque Ariane questioni. </quote> Et 
+ad<lb break="no" ed="#Ba" n="50"/>jungit Ambrosii contra hereticum 
+inve<lb break="no" ed="#Ba" n="51"/>ctionem rationalem, ibi, G, <quote xml:id="alalal-a54129-Qd1e226"> /tem die,
+<lb ed="#Ba" n="52"/>ingquam, mihi, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

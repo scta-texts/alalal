@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="549"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d94055"><!-- l2d34a3 -->
+            <head xml:id="alalal-d94055-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-d94055-Hd1e101" type="question-title">Qualiter malum procedit a causa 
+effictente vel deficiente?</head>
+            <p xml:id="alalal-d94055-d1e104">
+               <lb ed="#Bc" n="65"/>ARTICULUS II.
+<lb ed="#Bc" n="66"/>Qualiter malum procedit a causa 
+effi<lb break="no" ed="#Bc" n="67"/>ctente vel deficiente?
+</p>
+            <p xml:id="alalal-d94055-d1e113">
+               <lb ed="#Bc" n="68"/>Tertio queritur, Qualiter malum 
+pro<lb break="no" ed="#Bc" n="69"/>cedat a causa efficiente vel deficiente ?
+</p>
+            <p xml:id="alalal-d94055-d1e120">
+               <lb ed="#Bc" n="70"/>Videtur autem, quod a causa 
+deficien<lb break="no" ed="#Bc" n="71"/>te non causetur : quia
+<lb ed="#Bc" n="72"/>1. Deficiens potius cadit a potentia
+<lb ed="#Bc" n="73"/>causalitatis quam ipsum sit causa : si
+<lb ed="#Bc" n="74"/>ergo voluntas in eo quod deficiens, est
+<lb ed="#Bc" n="75"/>causa, potius cadit a potestate causandi,
+<lb ed="#Bc" n="76"/>quam quod causet aliquid.
+</p>
+            <p xml:id="alalal-d94055-d1e139">
+               <lb ed="#Bc" n="77"/>2. Item, Malum (ut habitum est) non
+<lb ed="#Bc" n="78"/>est in subjecto nisi in anima, vel habitu,
+<lb ed="#Bc" n="79"/>vel actu : sed prout est in anima, sic 
+cau<lb break="no" ed="#Bc" n="80"/>satur ab aclu malo : ergo actus malus
+<lb ed="#Bc" n="81"/>ausatur ab anima : sed nihil deficiens
+<lb ed="#Bc" n="82"/>agit ; ergo actus malus non causatur a
+<lb ed="#Bc" n="83"/>voluntate deficiente, sed potius agente et
+<lb ed="#Bc" n="84"/>potente.
+</p>
+            <p xml:id="alalal-d94055-d1e159">
+               <lb ed="#Bc" n="85"/>3. Item, Non est malum nisi sit 
+con<lb break="no" ed="#Bc" n="86"/>versio ad commutabile bonum per 
+mo<lb break="no" ed="#Bc" n="87"/>dum fruendi : sed posse converti, posse
+<lb ed="#Bc" n="88"/>est, et similiter posse frui bono 
+commu<lb break="no" ed="#Bc" n="89"/>tabili, posse est : ergo causa peccati 
+con<lb break="no" ed="#Bc" n="90"/>sistit in potente et agente, et non 
+defi<lb break="no" ed="#Bc" n="91"/>ciente.
+</p>
+            <p xml:id="alalal-d94055-d1e177">
+               <pb ed="#Bc" n="550"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Defectus (ut supra habitum est) 
+num<lb break="no" ed="#Bc" n="2"/>quam est ab efficiente, quia efficiens 
+effi<lb break="no" ed="#Bc" n="3"/>cit ens secundum speciem aliquam, et
+<lb ed="#Bc" n="4"/>hoc non est defectus vel privatio, sed 
+di<lb break="no" ed="#Bc" n="5"/>cit Augustinus, et ponitur in sequenti 
+di<lb break="no" ed="#Bc" n="6"/>stinctione, quod tota natura mali a 
+spe<lb break="no" ed="#Bc" n="7"/>ciel privatione accepta est : ergo non
+<lb ed="#Bc" n="8"/>causatur a-libero arbitrio vel voluntate,
+<lb ed="#Bc" n="9"/>secundum quod est efficiens, sed 
+secun<lb break="no" ed="#Bc" n="10"/>dum quod est deficiens.
+</p>
+            <p xml:id="alalal-d94055-d1e206">
+               <lb ed="#Bc" n="11"/>Souutio. Dicendum ad hoc, quod 
+ma<lb break="no" ed="#Bc" n="12"/>lum est a voluntate deficiente, sive 
+acci<lb break="no" ed="#Bc" n="13"/>piatur materialiter, sive formaliter. Si
+<lb ed="#Bc" n="14"/>enim accipitur materialiter : iunc est 
+ac<lb break="no" ed="#Bc" n="15"/>tus super objectum carens forma boni ex
+<lb ed="#Bc" n="16"/>privatione finis. Si autem accipitur 
+for<lb break="no" ed="#Bc" n="17"/>maliter : tune dicit privationem rationis
+<lb ed="#Bc" n="18"/>boni. Sed si malum diceret actum in
+<lb ed="#Bc" n="19"/>comparatione ad objectum tantum, tunc
+<lb ed="#Bc" n="20"/>verum esset quod esset a causa 
+efficien<lb break="no" ed="#Bc" n="21"/>te : sed hoc non dicit secundum aliquem
+<lb ed="#Bc" n="22"/>sensum. Et ut plenius possit intelligi,
+<lb ed="#Bc" n="23"/>ponamus duo exempla, quorum unum
+<lb ed="#Bc" n="24"/>est Augustini, alterum sumitur a 
+Philo<lb break="no" ed="#Bc" n="25"/>sophis. Augustini quidem exemplum est,
+<lb ed="#Bc" n="26"/>quod consideretur virtus gressibilis 
+per<lb break="no" ed="#Bc" n="27"/>fecta et integra, sita in membro in quo
+<lb ed="#Bc" n="28"/>volvitur crus, et consideretur in ipso
+<lb ed="#Bc" n="29"/>crure conjuncta ad femur vel ad genu 
+ti<lb break="no" ed="#Bc" n="30"/>bia curva, et consideretur actus ambu-.
+<lb ed="#Bc" n="31"/>landi : actus enim ambulandi reducitur
+<lb ed="#Bc" n="32"/>ad virtutem gressibilem sicut moventem
+<lb ed="#Bc" n="33"/>et non delicientem, sed ad tibiam ut 
+de<lb break="no" ed="#Bc" n="34"/>ficientem in acceptione. motus recti a
+<lb ed="#Bc" n="35"/>virtute gressibili : et ideo id quod est
+<lb ed="#Bc" n="36"/>ambulationis, totum effluit a  virtute
+<lb ed="#Bc" n="37"/>gressibili, sed ratio claudicationis et 
+de<lb break="no" ed="#Bc" n="38"/>fectus a recto imcidit praeter 
+intentio<lb break="no" ed="#Bc" n="39"/>nem virtutis gressibilis a curvitate 
+ti<lb break="no" ed="#Bc" n="40"/>biz, quae curvitas etiam nihil aliud est
+<lb ed="#Bc" n="41"/>quam infirmitas et defectus rectitudinis
+<lb ed="#Bc" n="42"/>in instrumento ambulandi. Dicamus 
+igi<lb break="no" ed="#Bc" n="43"/>tur, quod virtus gressibilis in movendo,
+<lb ed="#Bc" n="44"/>est sicut virtus divina generaliter movens
+<lb ed="#Bc" n="45"/>voluntatem et naturam : voluntas autem
+<lb ed="#Bc" n="46"/>in se est sicut instrumentum potens 
+de<lb break="no" ed="#Bc" n="47"/>ficere ex vertibilitate nature : voluntas
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="48"/>autem conversa ad bonum commutabile
+<lb ed="#Bc" n="49"/>per consensuim, est sicut instrumentyy
+<lb ed="#Bc" n="50"/>deficiens actu et curvum,. eo quod jp.
+<lb ed="#Bc" n="51"/>tentio directa tendat sursum, sicut digj.
+<lb ed="#Bc" n="52"/>tur in Canticis, 1, 3 : Reeti diligunt te,
+<lb ed="#Bc" n="53"/>Ubi dicit Ambrosius, quod diligere ter.
+<lb ed="#Bc" n="54"/>rena, curvitas est anime. Cum igitup
+<lb ed="#Bc" n="55"/>queritur causa mali, aut quaeritur causa
+<lb ed="#Bc" n="56"/>mali in potentia, aut causa mali in acty,
+<lb ed="#Bc" n="57"/>Si causa mali in potentia : tunc dico,
+<lb ed="#Bc" n="58"/>quod est voluntas potens deficere ex ver.
+<lb ed="#Bc" n="59"/>tibilitate nature et electionis. Si causa
+<lb ed="#Bc" n="60"/>mali in actu : dico quod est voluntas 
+de<lb break="no" ed="#Bc" n="61"/>ficiens a primo bono ex conversione 
+de<lb break="no" ed="#Bc" n="62"/>ficiente ad bonum commutabile ita
+<lb ed="#Bc" n="63"/>quod quidquid est motus interiorum vel
+<lb ed="#Bc" n="64"/>exteriorum, procedit a virtute Dei 
+mo<lb break="no" ed="#Bc" n="65"/>vente : sed defectus boni incidit a 
+volun<lb break="no" ed="#Bc" n="66"/>tate mota, quae deflectitur ab ordine 
+pri<lb break="no" ed="#Bc" n="67"/>mae virtutis moventis in finem boni, per
+<lb ed="#Bc" n="68"/>hoe quod convertitur ad id quod sub se
+<lb ed="#Bc" n="69"/>est vel debet esse. Aliud exemplum est
+<lb ed="#Bc" n="70"/>de virtute informativa in semine, cui non
+<lb ed="#Bc" n="71"/>obedit substantia seminis : ibi enim 
+ge<lb break="no" ed="#Bc" n="72"/>neratur monstrum, non ex defectu 
+vir<lb break="no" ed="#Bc" n="73"/>tutis informative, sed eo quod 
+substan<lb break="no" ed="#Bc" n="74"/>tia seminis deficit a mobilitate quam
+<lb ed="#Bc" n="75"/>recipit a virtute informante : sed 
+defe<lb break="no" ed="#Bc" n="76"/>ctus a perfectione forme, est defectus
+<lb ed="#Bc" n="77"/>mobilitatis seminis, ex hoc quod 
+conjun<lb break="no" ed="#Bc" n="78"/>cta est dispositionibus contrariis. Et hee
+<lb ed="#Bc" n="79"/>duo exempla fere solvunt totam 
+difficul<lb break="no" ed="#Bc" n="80"/>tatem istius et sequentis distinctionis.
+</p>
+            <p xml:id="alalal-d94055-d1e362">
+               <lb ed="#Bc" n="81"/>Dicendum igitur ad primum, quod 
+ma<lb break="no" ed="#Bc" n="82"/>lum habet causam deficientem, ut 
+causa<lb break="no" ed="#Bc" n="83"/>litas retorqueatur ad id mali quod est
+<lb ed="#Bc" n="84"/>materiale et ens, defectus autem ad 
+pri<lb break="no" ed="#Bc" n="85"/>vationem boni quae causat rationem
+<lb ed="#Bc" n="86"/>mali.
+</p>
+            <p xml:id="alalal-d94055-d1e378">
+               <lb ed="#Bc" n="87"/>Ad aliud dicendum, quod actus est
+<lb ed="#Bc" n="88"/>ens, et causatur a voluntate prout move:
+<lb ed="#Bc" n="89"/>tur a virtute primi moventis : sed deé
+fe<lb break="no" ed="#Bc" n="90"/>ctus incidens circa actum, causatur ex
+<lb ed="#Bc" n="91"/>defectu actuali voluntatis, qui defectus
+<lb ed="#Bc" n="92"/>est deflexio ab ordine motus divine 
+vir<lb break="no" ed="#Bc" n="93"/>tutis ad finem boni. Ex hoc enim causa-.
+<lb ed="#Bc" n="94"/>tur privatio finis et boni : quia si 
+mo<lb break="no" ed="#Bc" n="95"/>veretur sicut Deus movet, tune 
+conse<lb break="no" ed="#Bc" n="96"/>queretur finem. Quis autem sit egressus.~
+<pb ed="#Bc" n="551"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ille et defectus, infra patebit in eodem
+<lb ed="#Bc" n="2"/>problemate.
+</p>
+            <p xml:id="alalal-d94055-d1e412">
+               <lb ed="#Bc" n="3"/>Ap Aiud dicendum, quod conversio
+<lb ed="#Bc" n="4"/>ad bonum commutabile non est mala, ut
+<lb ed="#Bc" n="5"/>dicit Augustinus in libro de Libero 
+ar<lb break="no" ed="#Bc" n="6"/>bitrio, sicut nec ipsum bonum 
+commu<lb break="no" ed="#Bc" n="7"/>tabile est malum, nec fructus boni 
+com<lb break="no" ed="#Bc" n="8"/>mutabilis est malus : sed conversio 
+aver<lb break="no" ed="#Bc" n="9"/>tens habet rationem mali, et fructus 
+ex<lb break="no" ed="#Bc" n="10"/>cludens id quo est fruendum, est malus :
+<lb ed="#Bc" n="11"/>et ideo patet, quod malum incidit 
+exclu<lb break="no" ed="#Bc" n="12"/>sione boni summi, quia impossibile est
+<lb ed="#Bc" n="13"/>duos esse fines non ad se invicem ordina- 
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="14"/>tos unius voluntatis : et ideo si 
+conver<lb break="no" ed="#Bc" n="15"/>titur ad bonum commutabile ut ad finem,
+<lb ed="#Bc" n="16"/>excluditur necessario bonum 
+incommu<lb break="no" ed="#Bc" n="17"/>tabile : et haec exclusio defectus boni
+<lb ed="#Bc" n="18"/>commutabilis, est in voluntate, et est
+<lb ed="#Bc" n="19"/>tota ratio mali. Et ideo hoc est 
+impoten<lb break="no" ed="#Bc" n="20"/>tiae et cause secunde deficientis ab 
+or<lb break="no" ed="#Bc" n="21"/>dine illius motus, quo moventur a causa
+<lb ed="#Bc" n="22"/>prima.
+</p>
+            <p xml:id="alalal-d94055-d1e460">
+               <lb ed="#Bc" n="23"/>Et per hoc patet solutio ad totum :
+<lb ed="#Bc" n="24"/>quia ad id quod est in contrarium, bene
+<lb ed="#Bc" n="25"/>concedimus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="213"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g42397"><!-- l4d9a1 -->
+            <head xml:id="alalal-g42397-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-g42397-Hd1e101" type="question-title">An sint duo modi sumendi Eucharistiam,
+scilicet sacramentalis, et spiritualis,
+et quomodo distinguantur ?</head>
+            <p xml:id="alalal-g42397-d1e104">
+               <lb ed="#Be" n="45"/>ARTICULUS I.
+<lb ed="#Be" n="46"/>An sint duo modi sumendi Eucharistiam,
+<lb ed="#Be" n="47"/>scilicet sacramentalis, et spiritualis,
+<lb ed="#Be" n="48"/>et quomodo distinguantur ?
+</p>
+            <p xml:id="alalal-g42397-d1e115">
+               <lb ed="#Be" n="49"/>Ad primum objicitur sic :
+<lb ed="#Be" n="50"/>1. Videtur enim, quod isti modi non
+<lb ed="#Be" n="51"/>sunt distincti ex parte sacramenti, sed
+<lb ed="#Be" n="52"/>ex parte nostra : in baptismo enim 
+sem<lb break="no" ed="#Be" n="53"/>per est acceptio spiritualis effectus, nisi
+<lb ed="#Be" n="54"/>sit fictio impediens. Et ideo baptismus
+<lb ed="#Be" n="55"/>de se operatur salutem: ergo similiter
+<lb ed="#Be" n="56"/>cum Eucharistia sit sacramentum nove
+<lb ed="#Be" n="57"/>legis, semper operatur gratiam 
+spiritua<lb break="no" ed="#Be" n="58"/>lem : ergo sacramentalem in ipso non est
+<lb ed="#Be" n="59"/>distinguere a spirituali.
+</p>
+            <p xml:id="alalal-g42397-d1e141">
+               <lb ed="#Be" n="60"/>2. Item, Rex terrenus non est minus’
+<lb ed="#Be" n="61"/>potens ubi est per seipsum, quam ubi
+<lb ed="#Be" n="62"/>est per ministerium, sed magis : ergo 
+si<lb break="no" ed="#Be" n="63"/>militer est de Rege ceelesti: sed Christus
+<lb ed="#Be" n="64"/>per seipsum est in sacramento 
+Euchari<lb break="no" ed="#Be" n="65"/>stiae in tribus substantiis et unitate 
+per<lb break="no" ed="#Be" n="66"/>sone, in aliis autem sacramentis tantum
+<lb ed="#Be" n="67"/>virtute Passionis operatur : si ergo 
+sus<lb break="no" ed="#Be" n="68"/>ceptio aliorum sacramentorum quantum
+<pb ed="#Be" n="214"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>est de se semper est spiritualis, multo
+<lb ed="#Be" n="2"/>magis erit semper spiritualis susceptio
+<lb ed="#Be" n="3"/>Eucharistiae : et sic nulla est distinctio,
+<lb ed="#Be" n="4"/>nisi intelligatur a parte nostra.
+</p>
+            <p xml:id="alalal-g42397-d1e177">
+               <lb ed="#Be" n="5"/>3. Item, Operatio sacramenti 
+distin<lb break="no" ed="#Be" n="6"/>suitur ab operatione virtutis et gratia:
+<lb ed="#Be" n="7"/>quia in sacramentis in elemento 
+corpo<lb break="no" ed="#Be" n="8"/>rali divina virtus secretius operatur 
+sa<lb break="no" ed="#Be" n="9"/>lutem: ergo nisi pracedat operatio 
+ali<lb break="no" ed="#Be" n="10"/>cujus elementi corporalis, non contingit
+<lb ed="#Be" n="11"/>venire ad effectum spiritualem: ergo vi~
+<lb ed="#Be" n="12"/>detur, quod spiritualis modus sumendi
+<lb ed="#Be" n="13"/>numquam distinguatur a sacramentali.
+</p>
+            <p xml:id="alalal-g42397-d1e199">
+               <lb ed="#Be" n="14"/>4. Item, In baptismo licet fictus 
+acce<lb break="no" ed="#Be" n="15"/>dat, non tamen dicimus guod nihil 
+acci<lb break="no" ed="#Be" n="16"/>piat de spiritu: quia accipit. 
+characte<lb break="no" ed="#Be" n="17"/>rem: ergo multo magis ita erit in 
+sacra<lb break="no" ed="#Be" n="18"/>mento Eucharistie: ergo qui manducat
+<lb ed="#Be" n="19"/>sacramentaliter, manducat spiritualiter :
+<lb ed="#Be" n="20"/>et ita manducatio sacramentalis non 
+dis<lb break="no" ed="#Be" n="21"/>tinguitur a spirituali: et sic iterum ibi
+<lb ed="#Be" n="22"/>videtur a parte nostra evacuari 
+distin<lb break="no" ed="#Be" n="23"/>clio.
+</p>
+            <p xml:id="alalal-g42397-d1e223">
+               <lb ed="#Be" n="24"/>3. Item, In Littera habetur ab 
+Augu<lb break="no" ed="#Be" n="25"/>stino: <quote xml:id="alalal-g42397-Qd1e229">Ut quid paras dentem et ventrem ?
+<lb ed="#Be" n="26"/>crede, et manducasti. </quote> Ergo iste 
+ci<lb break="no" ed="#Be" n="27"/>bus non transit in corpus. Ergo non est
+<lb ed="#Be" n="28"/>elementi corporalis. Cum igitur in 
+omni<lb break="no" ed="#Be" n="29"/>bus sumentibus sit aliquis cibus, oportet
+<lb ed="#Be" n="30"/>quod sit in omnibus spiritualis : ergo
+<lb ed="#Be" n="31"/>Spiritualiter sumere numquam separatur
+<lb ed="#Be" n="32"/>a sacramentali sumptione: ergo nulla est
+<lb ed="#Be" n="33"/>distinctio.
+</p>
+            <p xml:id="alalal-g42397-d1e250">
+               <lb ed="#Be" n="34"/>6. Item, Si est aliquis modus sumendi
+<lb ed="#Be" n="35"/>sacramentaliter tantum, hoc erit ratione
+<lb ed="#Be" n="36"/>alicujus quod fit in sacramento : aut
+<lb ed="#Be" n="37"/>igitur ratione accidentium, et tunc etiam
+<lb ed="#Be" n="38"/>verius sumeret sacramentaliter qui 
+su<lb break="no" ed="#Be" n="39"/>meret accidentia : aut ratione veritatis
+<lb ed="#Be" n="40"/>corporis Christi sumpti, et tunc aut 
+ve<lb break="no" ed="#Be" n="41"/>riias corporis transit in ventrem, aut in
+<lb ed="#Be" n="42"/>mentem : non in ventrem, quia hoc 
+ne<lb break="no" ed="#Be" n="43"/>gatur in Jitfera : ergo in mentem:
+<lb ed="#Be" n="44"/>ergo menti unitur, vel mens unitur 
+cor<lb break="no" ed="#Be" n="45"/>pori Christi, et hoc est spiritualiter 
+su<lb break="no" ed="#Be" n="46"/>mere : ergo sumens  sacramentaliter,
+<lb ed="#Be" n="47"/>sumit spiritualiter, ut videtur : et sic nihil
+<lb ed="#Be" n="48"/>valet distinctic.
+</p>
+            <p xml:id="alalal-g42397-d1e285">
+               <lb ed="#Be" n="49"/>7. Si forte dicatur, sicut quidam hoc
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="50"/>evadunt, quod spiritualiter sumere est
+<lb ed="#Be" n="51"/>Christo spiritualiter uniri, et in Christo
+<lb ed="#Be" n="52"/>manere. Contra: Uniri Christo non est
+<lb ed="#Be" n="53"/>actus sacramenti: ergo uniri Christo non
+<lb ed="#Be" n="54"/>est sumere sacramentum  spiritualiter.
+<lb ed="#Be" n="55"/>Propatio prime est: quia ante 
+institu<lb break="no" ed="#Be" n="56"/>tionem hujus sacramenti uniebantur 
+fide<lb break="no" ed="#Be" n="57"/>les Christo et corpori mystico.
+</p>
+            <p xml:id="alalal-g42397-d1e309">
+               <lb ed="#Be" n="58"/>8. Item, Charitas Dei et proximi unit
+<lb ed="#Be" n="59"/>Deo et proximo : non tamen omnis 
+ha<lb break="no" ed="#Be" n="60"/>bens charitatem sumit rem 
+sacramenta<lb break="no" ed="#Be" n="61"/>lem spiritualiter: ergo videtur, quod
+<lb ed="#Be" n="62"/>ista solutio non est vera.
+</p>
+            <p xml:id="alalal-g42397-d1e323">
+               <lb ed="#Be" n="63"/>9. Item, Licet gratia sit res 
+sacramen<lb break="no" ed="#Be" n="64"/>ti spiritualis, non tamen quecumaque
+<lb ed="#Be" n="65"/>gratia, sed illa quae proprie operatur in
+<lb ed="#Be" n="66"/>sacramentis : effectus autem proprius
+<lb ed="#Be" n="67"/>alicujas rei numquam habetur, illa re
+<lb ed="#Be" n="68"/>non habita: ergo numquam _ habetur
+<lb ed="#Be" n="69"/>elfectus sacramenti hujus proprius nisi
+<lb ed="#Be" n="70"/>ipso sacramento percepto.
+</p>
+            <p xml:id="alalal-g42397-d1e343">
+               <lb ed="#Be" n="71"/>Solutio. Dicendum videtur sine 
+pre<lb break="no" ed="#Be" n="72"/>jadicio, quod isti modi distincti sunt
+<lb ed="#Be" n="73"/>quandoque, et quandoque conjuncti.
+<lb ed="#Be" n="74"/>Distincti sunt quando fit perceptio veri
+<lb ed="#Be" n="75"/>corporis Christi sine effectu gratiae 
+inte<lb break="no" ed="#Be" n="76"/>rioris, sed potius nocumenti spiritualis,
+<lb ed="#Be" n="77"/>sicut dicitur in Litera in secunda parte
+<lb ed="#Be" n="78"/>distinctionis, quod qui indignus accipit
+<lb ed="#Be" n="79"/>hoc sacramentum, acquirit sibi magnum
+<lb ed="#Be" n="80"/>tormentum. Ht iterum, quod bonum
+<lb ed="#Be" n="81"/>malum est, dum male sumitur bonum :
+<lb ed="#Be" n="82"/>et talis modus sacramentalis sumptionis
+<lb ed="#Be" n="83"/>divisus est a spirituali. Econtra quidam
+<lb ed="#Be" n="84"/>sunt per memoriam vel habitudinem 
+pas<lb break="no" ed="#Be" n="85"/>sionis Christi et sacrificii spiritualis se
+<lb ed="#Be" n="86"/>unicntes Christo capiti, et illi sumunt
+<lb ed="#Be" n="87"/>spiritualiter, et non sacramentaliter.
+</p>
+            <p xml:id="alalal-g42397-d1e382">
+               <lb ed="#Be" n="88"/>Dicendum ergo videtur ad primum,
+<lb ed="#Be" n="89"/>quod ista distinctio non est tantum a
+<lb ed="#Be" n="90"/>parte nosira, sed etiam a parte 
+sacra<lb break="no" ed="#Be" n="91"/>menti: quia sacramentum duplicem 
+ha<lb break="no" ed="#Be" n="92"/>bet rem contentam : unam_ ex vi. 
+conse<lb break="no" ed="#Be" n="93"/>crationis, quae est corpus Christi verum
+<lb ed="#Be" n="94"/>quod conficitur extra nos. Aliam habet
+<lb ed="#Be" n="95"/>rem contentam, sicut causa continet in
+<lb ed="#Be" n="96"/>se virtute causatum: et illa est gratia ex
+<lb ed="#Be" n="97"/>parte nostra: et sic non est in aliis sa-
+<pb ed="#Be" n="215"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>cramentis quae non habent rem 
+conten<lb break="no" ed="#Be" n="2"/>tam, nisi sicut in nobis causatam : et
+<lb ed="#Be" n="3"/>ideo in illis non est distinctio duplicis
+<lb ed="#Be" n="4"/>modi sicut in isto. Tamen hoc videtur
+<lb ed="#Be" n="5"/>concedendum, quod licet habeat 
+dupli<lb break="no" ed="#Be" n="6"/>cem rem, ut dictum est, quod tamen non
+<lb ed="#Be" n="7"/>impeditur ab altera illarum quam causare
+<lb ed="#Be" n="8"/>debet in nobis, nisi ex parte nostra.
+</p>
+            <p xml:id="alalal-g42397-d1e428">
+               <lb ed="#Be" n="9"/>Ad aliud dicendum, quod Christus per
+<lb ed="#Be" n="10"/>seipsum in triplici substantia est res 
+con<lb break="no" ed="#Be" n="11"/>tenta in Eucharistia virtute 
+consecratio<lb break="no" ed="#Be" n="12"/>nis, et non est ex suo defectu, quod non
+<lb ed="#Be" n="13"/>inducitur ulterior res spiritualis, sed 
+po<lb break="no" ed="#Be" n="14"/>tius ex defectu nostro: sed tamen quia
+<lb ed="#Be" n="15"/>una harum rerum non dicit aliquid in
+<lb ed="#Be" n="16"/>nobis, nec efficitur in nobis, sed extra
+<lb ed="#Be" n="17"/>nos virtute consecrationis in sacramento,
+<lb ed="#Be" n="18"/>alia autem in spiritu nostro spiritualiter
+<lb ed="#Be" n="19"/>efficitur : ideo discretionis ratio est ex
+<lb ed="#Be" n="20"/>parte rei hujus sacramenti aliquo modo,
+<lb ed="#Be" n="21"/>ut dictum est.
+</p>
+            <p xml:id="alalal-g42397-d1e459">
+               <lb ed="#Be" n="22"/>Ad aliud dicendum, quod sine dubio
+<lb ed="#Be" n="23"/>illud argumentum plus habet de 
+proba<lb break="no" ed="#Be" n="24"/>bilitate, quam alia: tamen sine 
+preejudi<lb break="no" ed="#Be" n="25"/>cio dici potest, quod illa objectio teneret
+<lb ed="#Be" n="26"/>bene in allis sacramentis, et preecipue in
+<lb ed="#Be" n="27"/>illis quae imprimunt characterem: licet
+<lb ed="#Be" n="28"/>enim aliquid suppleat locum sacramenti,
+<lb ed="#Be" n="29"/>tamen aliquis effectus adeo proprius est
+<lb ed="#Be" n="30"/>sacramento, quod non efiicitur nisi a 
+sa<lb break="no" ed="#Be" n="31"/>cramento : sed in Kucharistia modus 
+su<lb break="no" ed="#Be" n="32"/>mendi sacramentalis totus refertur ad
+<lb ed="#Be" n="33"/>spiritualem, et est propter illum : et ideo
+<lb ed="#Be" n="34"/>spiritualis etiam per se operari potest
+<lb ed="#Be" n="35"/>eamdem gratiam, licet preesentia Christi
+<lb ed="#Be" n="36"/>in sacramento aliquam ferat 
+delectatio<lb break="no" ed="#Be" n="37"/>nem quam non habet in se _ spiritualis
+<lb ed="#Be" n="38"/>modus manducandi.
+</p>
+            <p xml:id="alalal-g42397-d1e498">
+               <lb ed="#Be" n="39"/>Ad aliud dicendum, quod secus est in
+<lb ed="#Be" n="40"/>baptismo, eft in isto : quia baptismus
+<lb ed="#Be" n="41"/>specialem et principalem ordinem habet
+<lb ed="#Be" n="42"/>contra originale quod est ab alio 
+contra<lb break="no" ed="#Be" n="43"/>cium, et ponit hominem in statu fidei qui
+<lb ed="#Be" n="44"/>status est circa fidem informem et 
+for<lb break="no" ed="#Be" n="45"/>matam, sicut dictum est supra in 
+qua<lb break="no" ed="#Be" n="46"/>stione de charactere : et ideo fictus recipit
+<lb ed="#Be" n="47"/>characterem apud se manentem. In isto
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="48"/>autem recipit verum corpus Christi : eo
+<lb ed="#Be" n="49"/>quod istud non causatur in suscipiente,
+<lb ed="#Be" n="50"/>sed extra: et ideo inidoneitas suscipien~
+<lb ed="#Be" n="51"/>tis ilud non potest impedire.
+</p>
+            <p xml:id="alalal-g42397-d1e532">
+               <lb ed="#Be" n="52"/>Ad Atiup dicendum, quod Augustinus
+<lb ed="#Be" n="53"/>loquitur ibi de incorporatione et unione
+<lb ed="#Be" n="54"/>per incorporationem, et non de presentia
+<lb ed="#Be" n="55"/>veritatis corporis Christi: tamen postea
+<lb ed="#Be" n="56"/>erit queestio de hoc suo loco. Unde puto
+<lb ed="#Be" n="57"/>esse concedendum, quod verum corpus
+<lb ed="#Be" n="58"/>Christi transit in omnem locum, in quem
+<lb ed="#Be" n="59"/>transeunt species, manente specie panis
+<lb ed="#Be" n="60"/>et vini.
+</p>
+            <p xml:id="alalal-g42397-d1e554">
+               <lb ed="#Be" n="61"/>Ad aliud dicendum, quod 
+sacramenta<lb break="no" ed="#Be" n="62"/>lis modus sumendi dicitur ratione 
+pre<lb break="no" ed="#Be" n="63"/>sentiae veritatis corporis Christi in 
+sacra<lb break="no" ed="#Be" n="64"/>mento, et bene concedo, quod non trans~
+<lb ed="#Be" n="65"/>it in mentem: quia Christus homo non
+<lb ed="#Be" n="66"/>illabitur menti: et quod objicitur de
+<lb ed="#Be" n="67"/>transitu in ventrem, jam solutum est.
+</p>
+            <p xml:id="alalal-g42397-d1e572">
+               <lb ed="#Be" n="68"/>Ad aliud dicendum, quod spiritualiter
+<lb ed="#Be" n="69"/>sumere est Christo uniri per spiritualem
+<lb ed="#Be" n="70"/>effectum hujus sacramenti : et hunc 
+qui<lb break="no" ed="#Be" n="71"/>dem non habuit sacramentum antequam
+<lb ed="#Be" n="72"/>esset sacramentum, sed unio qua 
+unie<lb break="no" ed="#Be" n="73"/>bantur fideles, fuit unio charitatis et fidei:
+<lb ed="#Be" n="74"/>postquam tamen sacramentum est, 
+pot<lb break="no" ed="#Be" n="75"/>est per meditationem et devotionem in
+<lb ed="#Be" n="76"/>anima fieri res sacramentalis, quam
+<lb ed="#Be" n="77"/>Christus operatur spiritualiter 
+conjun<lb break="no" ed="#Be" n="78"/>ctus, eo quod gratiam suam (ut dictum
+<lb ed="#Be" n="79"/>est in principio hujus libri) non alligavit
+<lb ed="#Be" n="80"/>sacramentis. Alii dicunt aliter, et forte
+<lb ed="#Be" n="81"/>melius, quod scilicet res sacramenti et
+<lb ed="#Be" n="82"/>unio dupliciter fit, scilicet gratia 
+sacra<lb break="no" ed="#Be" n="83"/>mentali, et hance non habet nisi digne
+<lb ed="#Be" n="84"/>sumens sacramentum: et sic etiam fieri
+<lb ed="#Be" n="85"/>potest in aliquo suppiente vim sacramen~
+<lb ed="#Be" n="86"/>ti, sicut martyrium et poonitentia 
+sup<lb break="no" ed="#Be" n="87"/>plent vicem baptismi quandoque: et hoc
+<lb ed="#Be" n="88"/>modo rem hujus sacramenti suscipiunt
+<lb ed="#Be" n="89"/>fideles per devotionem et amorem 
+capi<lb break="no" ed="#Be" n="90"/>tis et membrorum.
+</p>
+            <p xml:id="alalal-g42397-d1e624">
+               <lb ed="#Be" n="91"/>Et per hoc patet etiam solutio ad 
+se<lb break="no" ed="#Be" n="92"/>quens, et ad ultimum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

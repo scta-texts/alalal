@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 17</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 17</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="662"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f28814"><!-- l3d35a17 -->
+            <head xml:id="alalal-f28814-Hd1e99">Articulus 17</head>
+            <head xml:id="alalal-f28814-Hd1e101" type="question-title">An pietas sit unum donum, vel plura ?</head>
+            <p xml:id="alalal-f28814-d1e104">
+               <lb ed="Bd" n="75"/>ARTICULUS XVII.
+<lb ed="Bd" n="76"/>An pietas sit unum donum, vel plura ?
+</p>
+            <p xml:id="alalal-f28814-d1e111">
+               <lb ed="Bd" n="77"/>Tertio quaeritur, Utrum sit unum 
+se<lb break="no" ed="Bd" n="78"/>cundum se vel plura ?
+</p>
+            <p xml:id="alalal-f28814-d1e118">
+               <lb ed="Bd" n="79"/>Videtur autem, quod plura : quia 
+om<lb break="no" ed="Bd" n="80"/>nes actus enumerati non possunt reduci
+<lb ed="Bd" n="81"/>in habitum unum: ergo videtur, cum
+<lb ed="Bd" n="82"/>secundum dicta Sanctorum illi actus
+<lb ed="Bd" n="83"/>sunt pictalis, quod pielas non sit specie
+<lb ed="Bd" n="84"/>una.
+</p>
+            <p xml:id="alalal-f28814-d1e135">
+               <lb ed="Bd" n="85"/>Solutio Dicunt quidam, quod pietas
+<lb ed="Bd" n="86"/>non est specie una propter inducta verba
+<lb ed="Bd" n="87"/>Sanctorum, et precipue verba Augustinl
+<lb ed="Bd" n="88"/>superius posita ex libro X de Civitate
+<pb ed="#Bd" n="663"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Dei. Sed aliter dicendum, quod pietas
+<lb ed="Bd" n="2"/>donum specie est unum: sed nomen
+<lb ed="Bd" n="3"/>pietatis secundum analogiam 
+multiplici<lb break="no" ed="Bd" n="4"/>ter dicitur, ut prius habitum est: et 
+di<lb break="no" ed="Bd" n="5"/>cendum ad argumentum, quod _ pietas
+<lb ed="Bd" n="6"/>donum habet unum actum principalem
+<lb ed="Bd" n="7"/>et substantialem sibi, qui est impendere
+<lb ed="Bd" n="8"/>bonum insigmito per imaginem Dei. Alii
+<lb ed="Bd" n="9"/>autem sunt non principales, secundum
+<lb ed="Bd" n="10"/>quod conjungitur aliis habitibus, cum
+<lb ed="Bd" n="11"/>quibus habet aliquam similitudinem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="127"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e25145"><!-- l3d6a2 -->
+            <head xml:id="alalal-e25145-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-e25145-Hd1e101" type="question-title">Res naturae, suppositum, substantia, 
+hypostasis, individuum, et persona, 
+quomodo differunt ?</head>
+            <p xml:id="alalal-e25145-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="41"/>ARTICULUS II.
+<lb ed="Bd" n="42"/>Res naturae, suppositum, substantia, 
+hy<lb break="no" ed="Bd" n="43"/>postasis, individuum, et persona, 
+quo<lb break="no" ed="Bd" n="44"/>modo differunt ?
+</p>
+            <p xml:id="alalal-e25145-d1e117">
+               <lb ed="Bd" n="45"/>Sed hic incidit questio de tribus :
+<lb ed="Bd" n="46"/>quorum primum est, quae differentia sit
+<lb ed="Bd" n="47"/>inter rem nature, suppositum, 
+hyposta<lb break="no" ed="Bd" n="48"/>sim, substantiam, et individuum, et 
+per<lb break="no" ed="Bd" n="49"/>sonam ?
+<lb ed="Bd" n="50"/>Secundum est, In quo illorum facta est
+<lb ed="Bd" n="51"/>unio, et in quo non?
+<lb ed="Bd" n="52"/>Tertium est, Utrum hoc verum est,
+<lb ed="Bd" n="53"/>quod Christus est duo vel unum? et,
+<lb ed="Bd" n="54"/>Que duo sit ipse Christus, si duo est ?
+</p>
+            <p xml:id="alalal-e25145-d1e141">
+               <lb ed="Bd" n="55"/>Ad PRimuM proceditur sic :
+<lb ed="Bd" n="56"/>Cum dicitur res nature, intelligitur
+<lb ed="Bd" n="57"/>dupliciter, hoc est, res intenta a natura,
+<lb ed="Bd" n="58"/>et constituta a nature actu ergo res
+<lb ed="Bd" n="59"/>nature est illa qua propinquior et 
+imme<lb break="no" ed="Bd" n="60"/>diatior est generationi : cumergo 
+gene<lb break="no" ed="Bd" n="61"/>ret per se hic et nunc, non est res natu—
+<lb ed="Bd" n="62"/>re nisi aliquid constitutum per actum
+<lb ed="Bd" n="63"/>generationis in natura illa, scilicet hoc
+<lb ed="Bd" n="64"/>aliquid, et hoc est concedendum.
+</p>
+            <p xml:id="alalal-e25145-d1e166">
+               <lb ed="Bd" n="65"/>Utrerius cum dicitur, Petrus est 
+ho<lb break="no" ed="Bd" n="66"/>mo, Joannes est homo, et Thomas est
+<lb ed="Bd" n="67"/>homo : commune est eis quod est homo,
+<lb ed="Bd" n="68"/>et una ratione est eis commune : ergo
+<lb ed="Bd" n="69"/>quilibet illoram similem alii habet 
+respe<lb break="no" ed="Bd" n="70"/>ctum ad naturam communem quae 
+signi<lb break="no" ed="Bd" n="71"/>ficatur in homine. Ex ista ergo 
+similitu<lb break="no" ed="Bd" n="72"/>dine respectus causatur alia communitas
+<lb ed="Bd" n="73"/>proportionis ad unum, scilicet quod sicut
+<lb ed="Bd" n="74"/>unus supponitur nature communi, ita et
+<lb ed="Bd" n="75"/>alius : et ex isto accipiunt 
+communita<lb break="no" ed="Bd" n="76"/>tem suppositi : ita quod unusquisque est
+<lb ed="Bd" n="77"/>suppositum hominis : ergo suppositum
+<lb ed="Bd" n="78"/>dicitur stans sub natura communi : et
+<lb ed="Bd" n="79"/>hoe est etiam concedendum.
+</p>
+            <p xml:id="alalal-e25145-d1e201">
+               <pb ed="#Bd" n="128"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Item, Quod stat sub natura communi,
+<lb ed="Bd" n="2"/>distinctum quidem est per materiam : sed
+<lb ed="Bd" n="3"/>cum sit suppositum, distinguibile est per
+<lb ed="Bd" n="4"/>accidentia individantia : cum igitur 
+sub<lb break="no" ed="Bd" n="5"/>stantia sit proprie quae substat persone
+<lb ed="Bd" n="6"/>et accidentibus, substantia erit distincta
+<lb ed="Bd" n="7"/>per materiam hanc, distinguibilis autem
+<lb ed="Bd" n="8"/>per accidentia et non distincta per ea : et
+<lb ed="Bd" n="9"/>hoc etiam concedendum est.
+</p>
+            <p xml:id="alalal-e25145-d1e227">
+               <lb ed="Bd" n="10"/>Hypostasis idem est in graeco quod.
+<lb ed="Bd" n="11"/>apud nos talis substantia.
+</p>
+            <p xml:id="alalal-e25145-d1e234">
+               <lb ed="Bd" n="12"/>Ulterivs, Individuum secundum 
+Phi<lb break="no" ed="Bd" n="13"/>losophum est distinctum collectione 
+acci<lb break="no" ed="Bd" n="14"/>dentium quae in alio non possunt 
+inve<lb break="no" ed="Bd" n="15"/>niri : non tamen necessario est persona :
+<lb ed="Bd" n="16"/>quia individuum licet sit distinctum, non
+<lb ed="Bd" n="17"/>necessario est rationalis nature.
+</p>
+            <p xml:id="alalal-e25145-d1e250">
+               <lb ed="Bd" n="18"/>Et ideo persona adhuc est majoris 
+con<lb break="no" ed="Bd" n="19"/>cretionis, scilicet quod sit in dignitate
+<lb ed="Bd" n="20"/>naturali quae est rationalis nature, 
+di<lb break="no" ed="Bd" n="21"/>stinctum proprietate faciente ipsum 
+in<lb break="no" ed="Bd" n="22"/>communicabile tribus modis,  scilicet
+<lb ed="Bd" n="23"/>quod non sit communicabile ut pars,
+<lb ed="Bd" n="24"/>sicut est anima et corpus: et quod non
+<lb ed="Bd" n="25"/>sit communicabile ut universale, sicut
+<lb ed="Bd" n="26"/>quod predicatur de multis : et quod non
+<lb ed="Bd" n="27"/>sit communicabile per unionem in 
+singu<lb break="no" ed="Bd" n="28"/>Jaritatem alterius, sicut diximus in 
+pre<lb break="no" ed="Bd" n="29"/>cedenti distinctione : et hoc est 
+conce<lb break="no" ed="Bd" n="30"/>dendum.
+</p>
+            <p xml:id="alalal-e25145-d1e281">
+               <lb ed="Bd" n="31"/>Igitur ex hoc patet, quod ista sunt 
+or<lb break="no" ed="Bd" n="32"/>dinata, quod primum est res nature 
+con<lb break="no" ed="Bd" n="33"/>stituta, secundum autem suppositum,
+<lb ed="Bd" n="34"/>tertium vero hypostasis, quartum autem
+<lb ed="Bd" n="35"/>individuum, quintum persona.
+</p>
+            <p xml:id="alalal-e25145-d1e295">
+               <lb ed="Bd" n="36"/>Et per haec patet solutio primi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

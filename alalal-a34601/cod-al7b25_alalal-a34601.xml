@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="171"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a34601"><!-- l1d4a10 -->
+            <head xml:id="alalal-a34601-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-a34601-Hd1e101" type="question-title">Utrum ista sit vera, Unus Deus est tres
+persone, et tres persone est unus Deus,
+Deus est Trinitas: et utrum nomen,
+Trinitas, sit nomen essentiale.</head>
+            <p xml:id="alalal-a34601-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="45"/>ARTICULUS X.
+<lb ed="#Ba" n="46"/>Utrum ista sit vera, Unus Deus est tres
+<lb ed="#Ba" n="47"/>persone, et tres persone est unus Deus,
+<lb ed="#Ba" n="48"/>Deus est Trinitas: et utrum nomen,
+<lb ed="#Ba" n="49"/>Trinitas, sit nomen essentiale.
+</p>
+            <p xml:id="alalal-a34601-d1e120">
+               <lb ed="#Ba" n="50"/>Deinde quaeritur de hoc quod dicit:
+<lb ed="#Ba" n="51"/>
+               <quote xml:id="alalal-a34601-Qd1e126"> Unus Deus est tires persone, etc. </quote>
+            </p>
+            <p xml:id="alalal-a34601-d1e129">
+               <lb ed="#Ba" n="52"/>hoe enim videtur falsum : ly Deus
+<lb ed="#Ba" n="53"/>enim aut stat pro persona, aut pro 
+essen<lb break="no" ed="#Ba" n="54"/>tia: si pro essentia, tunc videtur hac
+<lb ed="#Ba" n="55"/>esse vera : essentia est tres persone, cu-~
+<lb ed="#Ba" n="56"/>jus simile m creatis non imvenitur, in
+<lb ed="#Ba" n="57"/>quibus essentia non est persona, nec 
+per<lb break="no" ed="#Ba" n="58"/>sone :siautem stat pro persona, tune
+<lb ed="#Ba" n="59"/>persona esset tres persone : ergo aliqua
+<lb ed="#Ba" n="60"/>persona est tres persone, quod falsum
+<lb ed="#Ba" n="61"/>est.
+</p>
+            <p xml:id="alalal-a34601-d1e154">
+               <lb ed="#Ba" n="62"/>Juxta hoc ulterius quaeritur de hac
+<lb ed="#Ba" n="63"/>quam pontt, quod Deus est Trinitas:
+<lb ed="#Ba" n="64"/>cum enim ille terminus, Deus, 
+singula<lb break="no" ed="#Ba" n="65"/>riter supponatur, videtur quod pro 
+ali<lb break="no" ed="#Ba" n="66"/>quo uno debeat reddere locutionem ve-~
+<lb ed="#Ba" n="67"/>ram : ergo videtur, quod aliquid habens
+<lb ed="#Ba" n="68"/>deitatem sit Trinitas : ergo Pater, vel 
+Fi<lb break="no" ed="#Ba" n="69"/>lius, vel Spiritus sanctus, quod falsum
+<lb ed="#Ba" n="70"/>est.
+</p>
+            <p xml:id="alalal-a34601-d1e176">
+               <lb ed="#Ba" n="71"/>Irem quaeritur de hoc nomine, Trinita~
+<lb ed="#Ba" n="72"/>tis, hoc enim videtur singulariter de
+<lb ed="#Ba" n="73"/>uno praedicari : ergo est essentiale.
+</p>
+            <p xml:id="alalal-a34601-d1e185">
+               <lb ed="#Ba" n="74"/>Sed CONTRA :
+</p>
+            <p xml:id="alalal-a34601-d1e190">
+               <lb ed="#Ba" n="75"/>1. Essentialia de personis singulis 
+pre<lb break="no" ed="#Ba" n="76"/>dicantur: ergo si ly Trinitas est 
+essen<lb break="no" ed="#Ba" n="77"/>tiale, debet concedi hec, Pater est 
+Tri<lb break="no" ed="#Ba" n="78"/>nitas, vel persona est Trinitas, quod 
+fal<lb break="no" ed="#Ba" n="79"/>sum est.
+</p>
+            <p xml:id="alalal-a34601-d1e203">
+               <lb ed="#Ba" n="80"/>2. Item, Secundum rationem 
+intelli<lb break="no" ed="#Ba" n="81"/>gendi, a supposito Trinitatis minus 
+di<lb break="no" ed="#Ba" n="82"/>stat personam quam essentia: sed hac
+<lb ed="#Ba" n="83"/>non concedilur, persona est Trinitas :
+<lb ed="#Ba" n="84"/>ergo multo minus haecdebet concedi,
+<lb ed="#Ba" n="85"/>essentia est Trunitas.
+</p>
+            <p xml:id="alalal-a34601-d1e219">
+               <lb ed="#Ba" n="86"/>3. Si forte dicatur, quod hoc nomen,
+<pb ed="#Ba" n="172"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Trinitas, est relativum intrinsecum et
+<lb ed="#Ba" n="2"/>claudit in se relativa et determinantia
+<lb ed="#Ba" n="3"/>ipsa: et ideo sicut ipsa relativa 
+pradi<lb break="no" ed="#Ba" n="4"/>cantur de persona, ita et ipsum de 
+per<lb break="no" ed="#Ba" n="5"/>sona et personis praedicatur. Contra :
+<lb ed="#Ba" n="6"/>Relativum intrinsecum si explicetur, 
+ha<lb break="no" ed="#Ba" n="7"/>bet relativa ad se invicem relata: cum
+<lb ed="#Ba" n="8"/>enim dico, isti sunt similes, possum 
+ex<lb break="no" ed="#Ba" n="9"/>plicite inferre, ergo iste est similis isti,
+<lb ed="#Ba" n="10"/>et iste est similis illi: non autem sic est
+<lb ed="#Ba" n="11"/>in hoc nomine, 7rinitas: ergo videtur,
+<lb ed="#Ba" n="12"/>quod non sit relativum intrinsecum,.
+</p>
+            <p xml:id="alalal-a34601-d1e255">
+               <lb ed="#Ba" n="13"/>Solutio. Dicendum in veritate, quod
+<lb ed="#Ba" n="14"/>haecest concedenda, Unus Deus est tres
+<lb ed="#Ba" n="15"/>persone. Cum enim iste terminus, unus,
+<lb ed="#Ba" n="16"/>sit adjectivum, ponit unitatem 
+significa<lb break="no" ed="#Ba" n="17"/>tam circa subjectum hujus termini, Deus,
+<lb ed="#Ba" n="18"/>et ly Deus dicit unitatem substantia, et
+<lb ed="#Ba" n="19"/>hec est una in tribus personis: et ideo
+<lb ed="#Ba" n="20"/>hecest vera, Unus Deus est tres persone,
+<lb ed="#Ba" n="21"/>et e converso. Et haec similiter est vera:
+<lb ed="#Ba" n="22"/>Eessentia est tres persone, et e converso.
+</p>
+            <p xml:id="alalal-a34601-d1e279">
+               <lb ed="#Ba" n="23"/>Ad aliud dicendum, quod similiter
+<lb ed="#Ba" n="24"/>heec est vera, Deus est Trinitas: et hec
+<lb ed="#Ba" n="25"/>similiter, wnus Deus est Trinitas, propter
+<lb ed="#Ba" n="26"/>eamdem causam. Terminus enim in 
+pre<lb break="no" ed="#Ba" n="27"/>dicato vel in subjecto non restringit 
+ter<lb break="no" ed="#Ba" n="28"/>minum in alia parte positum, sed 
+per<lb break="no" ed="#Ba" n="29"/>mittit eum stare libere pro quo reddit
+<lb ed="#Ba" n="30"/>locutionem veram : et ideo ly Deus stat
+<lb ed="#Ba" n="31"/>pro essentia, et non pro persona: nec est
+<lb ed="#Ba" n="32"/>similein creatis in quibus dividitur 
+essen<lb break="no" ed="#Ba" n="33"/>tia: quia in divinis non est ita, nec est
+<lb ed="#Ba" n="34"/>aliud ibi essentia quam hypostasis.
+</p>
+            <p xml:id="alalal-a34601-d1e308">
+               <lb ed="#Ba" n="35"/>Ad aliud dicendum, quod licet 
+Trini<lb break="no" ed="#Ba" n="36"/>tas significet singulariter, tamen claudit
+<lb ed="#Ba" n="37"/>in se plura supposita: et ideo etiam
+<lb ed="#Ba" n="38"/>Magister infra dicet ipsum esse nomen
+<lb ed="#Ba" n="39"/>collectivum : sed quia in illis suppositis
+<lb ed="#Ba" n="40"/>essentia est una et eadem, ideo praedicatur
+<lb ed="#Ba" n="41"/>de essentialibus et non de una persona.
+</p>
+            <p xml:id="alalal-a34601-d1e326">
+               <lb ed="#Ba" n="42"/>Ad aliud dicendum, quod in 
+colle<lb break="no" ed="#Ba" n="43"/>ctione suppositorum quam habet in se
+<lb ed="#Ba" n="44"/>ly Trinitas, plus distat una persona
+<lb ed="#Ba" n="45"/>quam essentia : quia persona non est
+<lb ed="#Ba" n="46"/>nisi haecvel illa, quae non est una nu-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="47"/>mero in collectis in quantum collecte
+<lb ed="#Ba" n="48"/>sunt: sed essentia est una in eis in 
+quan<lb break="no" ed="#Ba" n="49"/>tum etiam sunt collecte : et ideo plus
+<lb ed="#Ba" n="50"/>predicatur ly 7rinitas de essentia quam
+<lb ed="#Ba" n="51"/>de persona.
+</p>
+            <p xml:id="alalal-a34601-d1e352">
+               <lb ed="#Ba" n="52"/>Ad aliud dicendum, quod in verilate aq objec
+<lb ed="#Ba" n="53"/>hoc nomen, Trinitas, est nomen 
+colle<lb break="no" ed="#Ba" n="54"/>ctivum personarum et relativum 
+intrinse<lb break="no" ed="#Ba" n="55"/>cum, nec tamen sequitur quod ita possit
+<lb ed="#Ba" n="56"/>explicari: et hoc contingit, quia relativa
+<lb ed="#Ba" n="57"/>que in se habet, non sunt relativa 
+equa<lb break="no" ed="#Ba" n="58"/>litatis et equiparentiae, sicut similitudo,
+<lb ed="#Ba" n="59"/>sed potius originis : sed talia non possunt
+<lb ed="#Ba" n="60"/>explicari sicut alia, ut patet, cum 
+dici<lb break="no" ed="#Ba" n="61"/>tur, Isti sunt patres: ergo iste est Pater
+<lb ed="#Ba" n="62"/>istius, et ille illius.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="640"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j32884"><!-- l4d47a2 -->
+            <head xml:id="alalal-j32884-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-j32884-Hd1e101" type="question-title">An Sancti aliqui judicabunt cum
+Domino ?</head>
+            <p xml:id="alalal-j32884-d1e104">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="15"/>ARTICULUS II.
+<lb ed="#Bf" n="16"/>An Sancti aliqui judicabunt cum
+<lb ed="#Bf" n="17"/>Domino ?
+</p>
+            <p xml:id="alalal-j32884-d1e115">
+               <lb ed="#Bf" n="18"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bf" n="19"/>ibi, B, <quote xml:id="alalal-j32884-Qd1e121"> Non autem solus Christus 
+ju<lb break="no" ed="#Bf" n="20"/>dicabit, etc. </quote>
+            </p>
+            <p xml:id="alalal-j32884-d1e127">
+               <lb ed="#Bf" n="21"/>Et de hoc in hoc capitulo queruntur
+<lb ed="#Bf" n="22"/>tria.
+</p>
+            <p xml:id="alalal-j32884-d1e135">
+               <lb ed="#Bf" n="23"/>Primum, Unde quidam Sancti habeant
+<lb ed="#Bf" n="24"/>judicare ?
+<cb ed="#Bf" n="c"/>
+               <lb ed="#Bf" n="25"/>Secundum, De modo judicii 
+Sancto<lb break="no" ed="#Bf" n="26"/>rum.
+<lb ed="#Bf" n="27"/>Tertium, Utrum alii Sancti aliquo 
+mo<lb break="no" ed="#Bf" n="28"/>do se habeant ad judicium confirmando
+<lb ed="#Bf" n="29"/>vel judicando ? :
+</p>
+            <p xml:id="alalal-j32884-d1e155">
+               <lb ed="#Bf" n="30"/>Ad primum objicitur :
+<lb ed="#Bf" n="31"/>1. Per hoc quod dicitur in Lidlera ;
+<lb ed="#Bf" n="32"/>quod illi qui relictis omnibus secuti
+<lb ed="#Bf" n="33"/>sunt Christum, cum Domino 
+judica<lb break="no" ed="#Bf" n="34"/>bunt: ergo illi Sancti a paupertate 
+vo<lb break="no" ed="#Bf" n="35"/>luntaria habent, quod cum Domino 
+ju<lb break="no" ed="#Bf" n="36"/>dicabunt.
+</p>
+            <p xml:id="alalal-j32884-d1e173">
+               <lb ed="#Bf" n="37"/>2. Item, Job, xxxvi, 6 : Deus...non
+<lb ed="#Bf" n="38"/>salvat impios, et iudicium pauperibus
+<lb ed="#Bf" n="39"/>tribuit. Ergo ut prius.
+</p>
+            <p xml:id="alalal-j32884-d1e182">
+               <lb ed="#Bf" n="40"/>3. Item, Hoc videtur ex modo loquendi
+<pb ed="#Bf" n="641"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>in Mattheo, xix, 27 et 28, ubi Petrus
+<lb ed="#Bf" n="2"/>hoc meritum allegat, dicens : <quote xml:id="alalal-j32884-Qd1e195"
+                      source="http://scta.info/resource/mt19_27@6-17">Ecce nos
+<lb ed="#Bf" n="3"/>reliquimus omnia, et secuti sumus te:
+<lb ed="#Bf" n="4"/>quid ergo erit nobis?</quote> Et Christus 
+sub<lb break="no" ed="#Bf" n="5"/>jungit : <quote xml:id="alalal-j32884-Qd1e204"
+                      source="http://scta.info/resource/mt19_28@5-13">Amen dico vobis, quod vos
+<lb ed="#Bf" n="6"/>qui secuti estis me</quote>, etc. Ergo videtur,
+<lb ed="#Bf" n="7"/>quod a paupertate spiribus habent, quod
+<lb ed="#Bf" n="8"/>cum Domino judicabunt.
+</p>
+            <p xml:id="alalal-j32884-d1e214">
+               <lb ed="#Bf" n="9"/>4. Item, Glossa ibidem dicit : <quote xml:id="alalal-j32884-Qd1e218"> Qui
+<lb ed="#Bf" n="10"/>reliquerunt omnia, et secuti sunt 
+Chri<lb break="no" ed="#Bf" n="11"/>stum, hijudices erunt, qui licita 
+haben<lb break="no" ed="#Bf" n="12"/>tes, recte usi sunt. Ideo judicabunt. </quote>
+               <lb ed="#Bf" n="13"/>Ex hoc sequitur idem quod prius.
+</p>
+            <p xml:id="alalal-j32884-d1e230">
+               <lb ed="#Bf" n="14"/>In conrrARium est, ,
+<lb ed="#Bf" n="15"/>4. Quod dicit <name xml:id="alalal-j32884-Nd1e236">Richardus de sancto
+<lb ed="#Bf" n="16"/>Victore</name> : <quote xml:id="alalal-j32884-Qd1e241"> Apertio librorum est 
+mani<lb break="no" ed="#Bf" n="17"/>festatio conscientiarum : his libris 
+in<lb break="no" ed="#Bf" n="18"/>scribitur, quidquid ab eis memoriter
+<lb ed="#Bf" n="19"/>retinetur : his libris quasi inscriptum 
+te<lb break="no" ed="#Bf" n="20"/>netur, quidquid ab eis plena 
+intelligen<lb break="no" ed="#Bf" n="21"/>tia comprehenditur. In aliis itaque 
+hu<lb break="no" ed="#Bf" n="22"/>hujusmodi libris merita humana, in aliis
+<lb ed="#Bf" n="23"/>vero judicia divina, in illis qualitas
+<lb ed="#Bf" n="24"/>actionum, in illis vero etiam qualitas
+<lb ed="#Bf" n="25"/>retributionum unusquisque enim in
+<lb ed="#Bf" n="26"/>sua conscientia quasi scriptum gerit, 
+un<lb break="no" ed="#Bf" n="27"/>de eum sua conscientia vel accusat, vel
+<lb ed="#Bf" n="28"/>defendit. Qui autem divine 
+contempla<lb break="no" ed="#Bf" n="29"/>tioni assistunt, qui in libro sapientia
+<lb ed="#Bf" n="30"/>quotidie legunt, velut in cordium 
+volu<lb break="no" ed="#Bf" n="31"/>minibus transcribunt quidquid jam 
+per<lb break="no" ed="#Bf" n="32"/>spicua veritatis intelligentia 
+comprehen<lb break="no" ed="#Bf" n="33"/>dunt. Quid itaque sunt judicandorum
+<lb ed="#Bf" n="34"/>conscientia, nisi quedam, ut ita dicam,
+<lb ed="#Bf" n="35"/>actiones Scripture ? Vel quid vero sunt
+<lb ed="#Bf" n="36"/>judicantium corda divinitus in omnem
+<lb ed="#Bf" n="37"/>veritatem edocta, nisi quaedam canonum
+<lb ed="#Bf" n="38"/>decreta? </quote> Ex hoc accipitur, quod Sancti
+<lb ed="#Bf" n="39"/>judicabunt ex merito contemplationis,
+<lb ed="#Bf" n="40"/>qua efficiantur exempla canonum 
+ju<lb break="no" ed="#Bf" n="41"/>stilia divine, et non ex paupertate 
+vo<lb break="no" ed="#Bf" n="42"/>luntaria.
+</p>
+            <p xml:id="alalal-j32884-d1e302">
+               <lb ed="#Bf" n="43"/>2. Item, Judicabunt, ut communiter
+<lb ed="#Bf" n="44"/>dicitur, Apostoli et Apostolici viri
+<lb ed="#Bf" n="45"/>Apostoli autem fuerunt, qui decreta vite
+<lb ed="#Bf" n="46"/>dederunt, et auctoritatem in Ecclesia
+<lb ed="#Bf" n="47"/>habuerunt : ergo ab apostolica doctrina
+<lb ed="#Bf" n="48"/>et vita et auctoritate in eis est potestas
+<lb ed="#Bf" n="49"/>judiciaria : hoc autem non est pauper-
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="50"/>tas spiritus in quantum hujusmodi
+<lb ed="#Bf" n="51"/>ergo paupertas non est meritum 
+pro<lb break="no" ed="#Bf" n="52"/>prium, quo potestatem judiciariam 
+pro<lb break="no" ed="#Bf" n="53"/>merentur.
+</p>
+            <p xml:id="alalal-j32884-d1e331">
+               <lb ed="#Bf" n="54"/>Responsio. Dicendum, quod tria 
+exi<lb break="no" ed="#Bf" n="55"/>guntur meo judicio ad merendam 
+judi<lb break="no" ed="#Bf" n="56"/>ciariam potestalem. Primum est 
+abdi<lb break="no" ed="#Bf" n="57"/>catio temporalium curarum, ut studere
+<lb ed="#Bf" n="58"/>possit sapientia secundum quam 
+dictan<lb break="no" ed="#Bf" n="59"/>da est sententia judicii. Secundum est
+<lb ed="#Bf" n="60"/>habitus luminis, justitie, et sapientia,
+<lb ed="#Bf" n="61"/>qui judicium statuit et observat. Et 
+ter<lb break="no" ed="#Bf" n="62"/>tium est meritum, quod acquirit in
+<lb ed="#Bf" n="63"/>justitiae illius promulgatione per 
+predi<lb break="no" ed="#Bf" n="64"/>cationem,
+</p>
+            <p xml:id="alalal-j32884-d1e357">
+               <lb ed="#Bf" n="65"/>Et horum primum tangunt 
+objectio<lb break="no" ed="#Bf" n="66"/>nes prime, licet alia duo supponantur :
+<lb ed="#Bf" n="67"/>et propter hoc dicit Dominus : Fé 
+secu<lb break="no" ed="#Bf" n="68"/>ti estts me. Unde Hieronymus dicit, quod
+<lb ed="#Bf" n="69"/>imperfectum est omnia relinquere : hoc
+<lb ed="#Bf" n="70"/>enim et Socrates fecit Philosophus : et
+<lb ed="#Bf" n="71"/>ideo jungit quod perfectum est, dicens, :
+<lb ed="#Bf" n="72"/>Et secuti sumus te.
+</p>
+            <p xml:id="alalal-j32884-d1e377">
+               <lb ed="#Bf" n="73"/>Sequens autem tangit <name xml:id="alalal-j32884-Nd1e381">Richardus</name>.
+</p>
+            <p xml:id="alalal-j32884-d1e384">
+               <lb ed="#Bf" n="74"/>Et tertium tangit objectum ultimum.
+</p>
+            <p xml:id="alalal-j32884-d1e389">
+               <lb ed="#Bf" n="75"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

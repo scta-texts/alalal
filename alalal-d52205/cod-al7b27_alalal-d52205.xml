@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="286"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d52205"><!-- l2d16a1 -->
+            <head xml:id="alalal-d52205-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-d52205-Hd1e101" type="question-title">Utrum aliqua creatura sit conformis
+Deo secundum imaginem ?</head>
+            <p xml:id="alalal-d52205-d1e104">
+               <lb ed="#Bc" n="58"/>ARTICULUS I.
+<lb ed="#Bc" n="59"/>Utrum aliqua creatura sit conformis
+<lb ed="#Bc" n="60"/>Deo secundum imaginem ?
+</p>
+            <p xml:id="alalal-d52205-d1e113">
+               <lb ed="#Bc" n="61"/>Queruntur autem hic circa hoc 
+pri<lb break="no" ed="#Bc" n="62"/>mum quatuor, scilicet, An aliqua creatura
+<lb ed="#Bc" n="63"/>sit vel possit esse conformis Deo secun~
+<lb ed="#Bc" n="64"/>dum imaginem ? ;
+<lb ed="#Bc" n="65"/>Secunde, Utrum omnis creatura sit
+<lb ed="#Bc" n="66"/>conformis Deo secundum imaginem ?
+<lb ed="#Bc" n="67"/>Tertio, Utrum aequaliter omnis 
+crea<lb break="no" ed="#Bc" n="68"/>tura rationalis sit ad imaginem ?
+<lb ed="#Bc" n="69"/>Quarto, Utram aequaliter vir et mulier?
+</p>
+            <p xml:id="alalal-d52205-d1e135">
+               <lb ed="#Bc" n="70"/>Ap primum sic proceditur : aoe
+<lb ed="#Bc" n="71"/>1. Dicit Hilarius, <quote xml:id="alalal-d52205-Qd1e141"> Imago est ad. quam
+<pb ed="#Bc" n="287"/>
+                  <cb ed="#Bc" n="a"/>
+                  <lb ed="#Bc" n="1"/>imitatur species indifferens. </quote> Homo 
+au<lb break="no" ed="#Bc" n="2"/>tem non est species indifferens ejusdem |
+<lb ed="#Bc" n="3"/>rei ad quam imitatur. Ergo non est Dei
+<lb ed="#Bc" n="4"/>imago, nec potest esse.
+</p>
+            <p xml:id="alalal-d52205-d1e159">
+               <lb ed="#Bc" n="5"/>2. Adhuc, Dicit Hilarius, quod <quote xml:id="alalal-d52205-Qd1e163"> 
+ima<lb break="no" ed="#Bc" n="6"/>go est reiad rem cowequandam 
+imagi<lb break="no" ed="#Bc" n="7"/>nata et indiscreta similitudo. </quote> Homo
+<lb ed="#Bc" n="8"/>autem nec aliqua creatura equat Deum.
+<lb ed="#Bc" n="9"/>Ergo non potest esse imago.
+</p>
+            <p xml:id="alalal-d52205-d1e175">
+               <lb ed="#Bc" n="10"/>3. Item, Nulla creatura est quin distet
+<lb ed="#Bc" n="11"/>in infinitum: ergo nulla creatura est
+<lb ed="#Bc" n="12"/>que possit esse similitudo indiscreta.
+</p>
+            <p xml:id="alalal-d52205-d1e184">
+               <lb ed="#Bc" n="13"/>4. Item, Augustinus in sermone de
+<lb ed="#Bc" n="14"/>Imagine, facit distinctionem inter 
+equa<lb break="no" ed="#Bc" n="15"/>litatem, et imaginem, et similitudinem,
+<lb ed="#Bc" n="16"/>dicens quod ubi similitudo, non continuo
+<lb ed="#Bc" n="17"/>equalitas : sed e converso ubi aequalitas,
+<lb ed="#Bc" n="18"/>continuo similitudo. Item, Ubi similitudo
+<lb ed="#Bc" n="19"/>et aequalitas, non continuo imago: sed e
+<lb ed="#Bc" n="20"/>converso ubi imago, ibi aequalitas et
+<lb ed="#Bc" n="21"/>similitudo : ergo. imago preponit sibi
+<lb ed="#Bc" n="22"/>equalitatem. Nulla autem creatura 
+equa<lb break="no" ed="#Bc" n="23"/>tur Deo: ergo nulla creatura potest esse
+<lb ed="#Bc" n="24"/>imago Dei.
+</p>
+            <p xml:id="alalal-d52205-d1e213">
+               <lb ed="#Bc" n="25"/>3. Item, Isa. XL, 18: <quote xml:id="alalal-d52205-Qd1e217">Quam 
+imagi<lb break="no" ed="#Bc" n="26"/>nem ponetts ei</quote>, scilicet Deo ? Ergo nullam
+<lb ed="#Bc" n="27"/>potest habere imaginem.
+</p>
+            <p xml:id="alalal-d52205-d1e225">
+               <lb ed="#Bc" n="28"/>6. Item, Distantium in infinitum non
+<lb ed="#Bc" n="29"/>est unum imago alterius. Deus et 
+crea<lb break="no" ed="#Bc" n="30"/>tura distant in infinitum : ergo nulla 
+crea<lb break="no" ed="#Bc" n="31"/>tura potest esse imago Dei.
+</p>
+            <p xml:id="alalal-d52205-d1e236">
+               <lb ed="#Bc" n="32"/>Sep contra: Faciamus hominem ad
+<lb ed="#Bc" n="33"/>imaginem, etc. '. Et plurime aliae 
+aucto<lb break="no" ed="#Bc" n="34"/>ritates de hoc inveniuntur.
+</p>
+            <p xml:id="alalal-d52205-d1e246">
+               <lb ed="#Bc" n="35"/>Soturio. Ad hoc dicendum, quod est
+<lb ed="#Bc" n="36"/>imago equiparantie, et imago 
+similitu<lb break="no" ed="#Bc" n="37"/>dinis per imitationem. Dicendum ergo,
+<lb ed="#Bc" n="38"/>quod creatura non potest esse imago
+<lb ed="#Bc" n="39"/>equiparantie, sed imago similitudinis per
+<lb ed="#Bc" n="40"/>imitationem hoc modo quo supra dictum
+<lb ed="#Bc" n="41"/>est, quod hierarchia est in Dei 
+similitu<lb break="no" ed="#Bc" n="42"/>dinem ascendens proportionaliter et ad
+<lb ed="#Bc" n="43"/>Deum similitudo et unitas. Et per hoe
+<lb ed="#Bc" n="44"/>patet solutio fere ad totum.
+</p>
+            <p xml:id="alalal-d52205-d1e270">
+               <lb ed="#Bc" n="45"/>Ad PrimuM autem dicendum, quod 
+spe<lb break="no" ed="#Bc" n="46"/>cies indifferens dicitur dupliciter, scilicet
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="47"/>indifferens in contactu imitantis ad id
+<lb ed="#Bc" n="48"/>quod imitatur: et sic homo est species
+<lb ed="#Bc" n="49"/>indifferens: quia ducendo in exemplar,
+<lb ed="#Bc" n="50"/>attingit illud imitando proportionaliter
+<lb ed="#Bc" n="51"/>sibi. Dicitur etiam species indifferens per.
+<lb ed="#Bc" n="52"/>substantiam et essentiam: et sic solus
+<lb ed="#Bc" n="53"/>Filius est species indifferens cum Patre.
+</p>
+            <p xml:id="alalal-d52205-d1e294">
+               <lb ed="#Bc" n="54"/>Ad aliud dicendum, quod est 
+coequa<lb break="no" ed="#Bc" n="55"/>tio sufficientie ad ducendum in aliud: et
+<lb ed="#Bc" n="56"/>est comquatio impletionis equiparantia.
+<lb ed="#Bc" n="57"/>Coequatio sufficientie ductionis in aliud
+<lb ed="#Bc" n="58"/>est in re, quando habet ea quibus 
+suffi<lb break="no" ed="#Bc" n="59"/>cienter ducit in aliud. Sic imago 
+simili<lb break="no" ed="#Bc" n="60"/>tudinis coequatur exemplari: quia est
+<lb ed="#Bc" n="61"/>in éa aliquid respondens discretioni 
+per<lb break="no" ed="#Bc" n="62"/>sonarum, et aliquid ordini nature, et
+<lb ed="#Bc" n="63"/>aliquid squalitati, et aliquid identitati
+<lb ed="#Bc" n="64"/>essentie, ut habitum est in I libro 
+Sen<lb break="no" ed="#Bc" n="65"/>tentiarum :; sed cowquationem 
+equipa<lb break="no" ed="#Bc" n="66"/>rantie non habet nisi imago quae est
+<lb ed="#Bc" n="67"/>Filius. ,
+</p>
+            <p xml:id="alalal-d52205-d1e327">
+               <lb ed="#Bc" n="68"/>Ad aliud dicendum, quod indiscreta
+<lb ed="#Bc" n="69"/>similitudo est quae reprasentando 
+pro<lb break="no" ed="#Bc" n="70"/>portionaliter ostendit exemplar: et hac
+<lb ed="#Bc" n="71"/>est imago creata vel indiscreta per 
+sub<lb break="no" ed="#Bc" n="72"/>stantiam : et sic solus Filius. Unde 
+qui<lb break="no" ed="#Bc" n="73"/>dam dicunt, quod diffinitiones Hilarii non
+<lb ed="#Bc" n="74"/>intelliguntur de imagine creata, sed 
+in<lb break="no" ed="#Bc" n="75"/>creata tantum. Et hoc verum est si 
+stri<lb break="no" ed="#Bc" n="76"/>cte et proprie accipiantur. Si autem large
+<lb ed="#Bc" n="77"/>sumantur vocabula, nihil prohibet etiam
+<lb ed="#Bc" n="78"/>de creata intelligi.
+</p>
+            <p xml:id="alalal-d52205-d1e353">
+               <lb ed="#Bc" n="79"/>Ad aliud dicendum, quod est 
+equa<lb break="no" ed="#Bc" n="80"/>litas configurationis, et aequalitas 
+na<lb break="no" ed="#Bc" n="81"/>ture. Aequalitas configurationis 
+exte<lb break="no" ed="#Bc" n="82"/>rius sufficit rationi imaginis. Ad hoc
+<lb ed="#Bc" n="83"/>enim gquod statua sit imago Herculis,
+<lb ed="#Bc" n="84"/>non oportet, quod ejusdem nature sit et
+<lb ed="#Bc" n="85"/>vivat: sed quod minor existens, et 
+infe<lb break="no" ed="#Bc" n="86"/>rioris nature, similiter ill sit figurata.
+<lb ed="#Bc" n="87"/>Et sic homo dicitur habere aequalitatem
+<lb ed="#Bc" n="88"/>que imitatur in conliguratione spirituali
+<lb ed="#Bc" n="89"/>potentiarum anime. Filius aulem habet
+<lb ed="#Bc" n="90"/>figuram et naturam substantia.
+</p>
+            <p xml:id="alalal-d52205-d1e382">
+               <lb ed="#Bc" n="91"/>Ad aliud dicendum, quod Isaias 
+lo<lb break="no" ed="#Bc" n="92"/>quitur de imagine corporali.
+</p>
+            <p xml:id="alalal-d52205-d1e390">
+               <lb ed="#Bc" n="93"/>Ap Aurup dicendum, quod Deus: et
+<pb ed="#Bc" n="288"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>creatura, ut Creator et creatura distant
+<lb ed="#Bc" n="2"/>in infinitum: sed in ratione exemplaris
+<lb ed="#Bc" n="3"/>dicit accedens ad nos, et appropinquans
+<lb ed="#Bc" n="4"/>nobis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

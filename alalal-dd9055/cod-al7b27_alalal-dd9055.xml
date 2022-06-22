@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="50"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-dd9055"><!-- l2d2a3 -->
+            <head xml:id="alalal-dd9055-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-dd9055-Hd1e101" type="question-title">Utrum coelum empyreum sit corpus ? et,
+Quare Philosophi illud non 
+cognoverunt?</head>
+            <p xml:id="alalal-dd9055-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="16"/>ARTICULUS III.
+<lb ed="#Bc" n="17"/>Utrum coelum empyreum sit corpus ? et,
+<lb ed="#Bc" n="18"/>Quare Philosophi illud non 
+cognove<lb break="no" ed="#Bc" n="19"/>runt?
+</p>
+            <p xml:id="alalal-dd9055-d1e117">
+               <lb ed="#Bc" n="20"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bc" n="21"/>F, <quote xml:id="alalal-dd9055-Qd1e123"> Jam est ostensum quando creata
+<lb ed="#Bc" n="22"/>fuerit angelica natura, etc. </quote>
+            </p>
+            <p xml:id="alalal-dd9055-d1e129">
+               <lb ed="#Bc" n="23"/>Incidit enim hic questio de ceelo 
+em<lb break="no" ed="#Bc" n="24"/>pyreo : et queremus de ipso tria, scilicet,
+<lb ed="#Bc" n="25"/>Utrum ipsum sit corpus? Et dato quod
+<lb ed="#Bc" n="26"/>sic, Utrum sit mobile, vel uniforme, vel
+<lb ed="#Bc" n="27"/>non ? Et dato quod non sit mobile, Utrum
+<lb ed="#Bc" n="28"/>habeat ordinem secundum influentiam
+<lb ed="#Bc" n="29"/>aliquam ad alios orbes inferiores? __
+</p>
+            <p xml:id="alalal-dd9055-d1e148">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="30"/>Ap primum proceditur sic :
+</p>
+            <p xml:id="alalal-dd9055-d1e155">
+               <lb ed="#Bc" n="31"/>1. Omne quod movetar in loco per se,
+<lb ed="#Bc" n="32"/>est in loco: omne quod est in loco, 
+ambi<lb break="no" ed="#Bc" n="33"/>tur alio corpore : ergo omne quod 
+move<lb break="no" ed="#Bc" n="34"/>tur localiter per se, ambitur alio corpore :
+<lb ed="#Bc" n="35"/>nona sphera movetur in loco per se:
+<lb ed="#Bc" n="36"/>ergo ambitur alio corpore : ergo necesse
+<lb ed="#Bc" n="37"/>est ponere decimum corpus : et hoc 
+vo<lb break="no" ed="#Bc" n="38"/>camus coelum empyreum.
+</p>
+            <p xml:id="alalal-dd9055-d1e175">
+               <lb ed="#Bc" n="39"/>2. Item, Ante omne multiforme 
+uni<lb break="no" ed="#Bc" n="40"/>forme ponendum est: sed sphera nona
+<lb ed="#Bc" n="41"/>est multiformis, cum habeat dextrum et
+<lb ed="#Bc" n="42"/>sinistrum : ergo necesse est ponere aliud
+<lb ed="#Bc" n="43"/>corpus uniforme ante ipsum, et hoc 
+vo<lb break="no" ed="#Bc" n="44"/>camus empyreum.
+</p>
+            <p xml:id="alalal-dd9055-d1e191">
+               <lb ed="#Bc" n="45"/>3. Item, Habens perfectionem optimam
+<lb ed="#Bc" n="46"/>sine motu, est ante id quod habet eam
+<lb ed="#Bc" n="47"/>cum motu: et quod habet eam cum 
+mo<lb break="no" ed="#Bc" n="48"/>tu uno, est ante id quod habet eam cum
+<lb ed="#Bc" n="49"/>motibus piuribus : sed ccoelum nonum 
+ha<lb break="no" ed="#Bc" n="50"/>bet perfectionem cum motu uno : ergo
+<pb ed="#Bc" n="51"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ante ipsum erit ponere aliud corpus, quod
+<lb ed="#Bc" n="2"/>habet eam sine motu aliquo, et hoc 
+veca<lb break="no" ed="#Bc" n="3"/>mus coelum empyreum.
+</p>
+            <p xml:id="alalal-dd9055-d1e217">
+               <lb ed="#Bc" n="4"/>4. Item, Necesse est quod universitas
+<lb ed="#Bc" n="5"/>perficiatur in.ultimo sui per aliquod 
+per<lb break="no" ed="#Bc" n="6"/>fectum : sed omne quod movetur, est 
+im<lb break="no" ed="#Bc" n="7"/>perfectum : ergo non perficitur in aliquo
+<lb ed="#Bc" n="8"/>quod movetur, nisi in aliquo corpore non
+<lb ed="#Bc" n="9"/>moto: ergo illud erit ponere : hoc autem
+<lb ed="#Bc" n="10"/>dicimus esse empyreum.
+</p>
+            <p xml:id="alalal-dd9055-d1e235">
+               <lb ed="#Bc" n="11"/>5. Item, Sancti dicunt expresse, et hee
+<lb ed="#Bc" n="12"/>est ratio fortior quare ponimus ipsum :
+<lb ed="#Bc" n="13"/>quia scilicet sancti Patres qui Patrem
+<lb ed="#Bc" n="14"/>ceeli et coelum melius aliis Spiritu 
+reve<lb break="no" ed="#Bc" n="15"/>lante cognoverunt, hoc nobis 
+tradide<lb break="no" ed="#Bc" n="16"/>runt.
+</p>
+            <p xml:id="alalal-dd9055-d1e252">
+               <lb ed="#Bc" n="17"/>SED CONTRA :
+<lb ed="#Bc" n="18"/>1. Locus et locatum sunt ejusdem 
+natu<lb break="no" ed="#Bc" n="19"/>re: quia vult Philosophus, quod idem sit
+<lb ed="#Bc" n="20"/>motus ad locum et ad formam, et idem
+<lb ed="#Bc" n="21"/>motor : sed locatum in ccelo empyreo non
+<lb ed="#Bc" n="22"/>est nisi substantia spiritualis : ergo 
+empy<lb break="no" ed="#Bc" n="23"/>reum debet esse substantia, spiritualis,
+<lb ed="#Bc" n="24"/>non corporalis.
+</p>
+            <p xml:id="alalal-dd9055-d1e272">
+               <lb ed="#Bc" n="25"/>2. Item, Locus est ad quem est motus:
+<lb ed="#Bc" n="26"/>motus autem Angeli in Deum est : quia
+<lb ed="#Bc" n="27"/>dicit Augustinus, <quote xml:id="alalal-dd9055-Qd1e280"> Quod in corporibus
+<lb ed="#Bc" n="28"/>est pondus, hoc est in spiritus amor :</quote>
+               <lb ed="#Bc" n="29"/>et amor Angeli tendit in Deum : ergo 
+ce<lb break="no" ed="#Bc" n="30"/>lum empyreum, quod est locus 
+Angelo<lb break="no" ed="#Bc" n="31"/>rum, est Deus.
+</p>
+            <p xml:id="alalal-dd9055-d1e293">
+               <lb ed="#Bc" n="32"/>3. Item, <name xml:id="alalal-dd9055-Nd1e297">Beda</name> dicit, quod <quote xml:id="alalal-dd9055-Qd1e299"> intra Deum
+<lb ed="#Bc" n="33"/>currunt quocumque mittantur:</quote> et ex
+<lb ed="#Bc" n="34"/>hoc habetur idem.
+</p>
+            <p xml:id="alalal-dd9055-d1e307">
+               <lb ed="#Bc" n="35"/>4. Item, Locus est contentivus et 
+sal<lb break="no" ed="#Bc" n="36"/>vativus locati: hoc autem respectu 
+An<lb break="no" ed="#Bc" n="37"/>geli non convenit nisi soli Deo: ergo 
+em<lb break="no" ed="#Bc" n="38"/>pyreum quod est regio et locus 
+Angelo<lb break="no" ed="#Bc" n="39"/>rum, est Deus ipse et non corpus 
+ali<lb break="no" ed="#Bc" n="40"/>quod.
+</p>
+            <p xml:id="alalal-dd9055-d1e323">
+               <lb ed="#Bc" n="41"/>Prarerea queritur, Si ccoelum 
+empy<lb break="no" ed="#Bc" n="42"/>reum est corpus, quare Philosophi non
+<lb ed="#Bc" n="43"/>cognoverunt, qui omnium corporum 
+na<lb break="no" ed="#Bc" n="44"/>turas rimati sunt, praecipue si rationes
+<lb ed="#Bc" n="45"/>prius inductee aliquam habent 
+necessita<lb break="no" ed="#Bc" n="46"/>tem, ut multis videtur: cum enim ille
+<lb ed="#Bc" n="47"/>naturales sint et non fundate supra 
+fi<lb break="no" ed="#Bc" n="48"/>dem, ita poterant eas videre sicut et nos.
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="49"/>Si dicas, quod Dominus noluit hoc eis
+<lb ed="#Bc" n="50"/>revelare, hoc nihil est: quia invisibilia
+<lb ed="#Bc" n="51"/>sua revelavit eis per rationes, quod 
+<choice>
+                  <sic>mul<lb ed="#Bc" n="52"/>ot</sic>
+                  <corr>mul<lb ed="#Bc" n="53"/>to</corr>
+               </choice> majus erat.
+</p>
+            <p xml:id="alalal-dd9055-d1e365">
+               <lb ed="#Bc" n="54"/>Solutio. Dicendum cum sanctis 
+Patri<lb break="no" ed="#Bc" n="55"/>bus, quod locus beatorum est empyreum,
+<lb ed="#Bc" n="56"/>et corpus a volubilitate mundi secretum,
+<lb ed="#Bc" n="57"/>et per rationem non investigabile : quia
+<lb ed="#Bc" n="58"/>quidquid scitur de ccelo, scitur per 
+ad<lb break="no" ed="#Bc" n="59"/>spectum, vel motum : et empyreum 
+neu<lb break="no" ed="#Bc" n="60"/>tro subjacet. Sed cogunt nos alia 
+princi<lb break="no" ed="#Bc" n="61"/>pia quae ponam in sequenti questionis
+<lb ed="#Bc" n="62"/>articulo.
+</p>
+            <p xml:id="alalal-dd9055-d1e388">
+               <lb ed="#Bc" n="63"/>Unpre omnes priores rationes quae 
+vi<lb break="no" ed="#Bc" n="64"/>dentur quibusdam fortes, fundate sunt
+<lb ed="#Bc" n="65"/>super propositiones falsas apud 
+Philoso<lb break="no" ed="#Bc" n="66"/>phos hujus mundi.
+</p>
+            <p xml:id="alalal-dd9055-d1e399">
+               <lb ed="#Bc" n="67"/>Major enim in prima propositione est,
+<lb ed="#Bc" n="68"/>quia quidquid movetur in loco per se, est in
+<lb ed="#Bc" n="69"/>loco per se, et haec propositio ostenditur
+<lb ed="#Bc" n="70"/>falsa a Commentatore super sextum 
+Phy<lb break="no" ed="#Bc" n="71"/>sicorum ante finem, ubi Aristoteles 
+lo<lb break="no" ed="#Bc" n="72"/>quens contra Zenonem dicit, quod primum
+<lb ed="#Bc" n="73"/>mobile movetur in loco secundum for-~
+<lb ed="#Bc" n="74"/>man etnon secundum subjectum: et 
+osten<lb break="no" ed="#Bc" n="75"/>dit ibi per necessarias rationes 
+Commen<lb break="no" ed="#Bc" n="76"/>tator, quod mala est Glossa quam quidam
+<lb ed="#Bc" n="77"/>dixerunt, quod movetur secundum 
+par<lb break="no" ed="#Bc" n="78"/>tem et non secundum totum : quia partes
+<lb ed="#Bc" n="79"/>per se non moventur, sed per accidens
+<lb ed="#Bc" n="80"/>motu totius. Item, quia non potest totum
+<lb ed="#Bc" n="81"/>moverl nisi omnes partes ejus 
+movean<lb break="no" ed="#Bc" n="82"/>tur: unde ipse dicit, quod nihil prohibet
+<lb ed="#Bc" n="83"/>aliquid esse in loco per accidens, et esse
+<lb ed="#Bc" n="84"/>locum per se, et movert in loco per se : et
+<lb ed="#Bc" n="85"/>hoc est quia motus non dependet a loco.
+<lb ed="#Bc" n="86"/>Sed haec alterius sunt negotii. Ex hoe
+<lb ed="#Bc" n="87"/>patet, quod illa ratio non necessario 
+con<lb break="no" ed="#Bc" n="88"/>cludit coelum empyreum esse, et corpus
+<lb ed="#Bc" n="89"/>esse : sed querenda sunt alia 
+princi<lb break="no" ed="#Bc" n="90"/>pia.
+</p>
+            <p xml:id="alalal-dd9055-d1e454">
+               <lb ed="#Bc" n="91"/>Sequens ratio fundatur super istam :
+<lb ed="#Bc" n="92"/>Ante corpus multiforme est corpus 
+uni<lb break="no" ed="#Bc" n="93"/>forme : et haec est impossibilis apud 
+Phi<lb break="no" ed="#Bc" n="94"/>losophos : quia corpus sphericum motum
+<lb ed="#Bc" n="95"/>non reducitur a Philosopho in uniforme,
+<lb ed="#Bc" n="96"/>nisi sicut intelligentia uniformis est : 
+un<lb break="no" ed="#Bc" n="97"/>de impossibile est tale corpus esse : quia
+<pb ed="#Bc" n="52"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>jam esset de perfectione ordinis 
+intelli<lb break="no" ed="#Bc" n="2"/>gentiae.
+</p>
+            <p xml:id="alalal-dd9055-d1e480">
+               <lb ed="#Bc" n="3"/>Tertia ratio fundatur super istam, quod
+<lb ed="#Bc" n="4"/>ante corpus motum sit corpus mobile : et
+<lb ed="#Bc" n="5"/>hee est etiam impossibilis: quia major 
+per<lb break="no" ed="#Bc" n="6"/>fectio quam corpus potesi habere 
+secun<lb break="no" ed="#Bc" n="7"/>dum naturam, est ipsum esse conjunctum
+<lb ed="#Bc" n="8"/>semper sue operationi quae est motus 
+cir<lb break="no" ed="#Bc" n="9"/>cularis, vel motus simplex, vel plures et
+<lb ed="#Bc" n="10"/>multiplices.
+</p>
+            <p xml:id="alalal-dd9055-d1e500">
+               <lb ed="#Bc" n="11"/>SrQuens ratio ridiculosa est : quia 
+im<lb break="no" ed="#Bc" n="12"/>mobilitas in corpore ultime perfectionis
+<lb ed="#Bc" n="13"/>est secundum naturam.
+</p>
+            <p xml:id="alalal-dd9055-d1e509">
+               <lb ed="#Bc" n="14"/>Sep sEQUENS ratio bona est et cogit, et
+<lb ed="#Bc" n="15"/>illius coactio patebit consequenter : quia
+<lb ed="#Bc" n="16"/>nos invenimus alia principia ex quibus
+<lb ed="#Bc" n="17"/>non sophistice probabitur illud corpus
+<lb ed="#Bc" n="18"/>esse.
+</p>
+            <p xml:id="alalal-dd9055-d1e523">
+               <lb ed="#Bc" n="19"/>Ad id autem quod contra objicitur 
+di<lb break="no" ed="#Bc" n="20"/>cendum, quod haec argumentatio 
+tene<lb break="no" ed="#Bc" n="21"/>ret, si Angelus esset in loco per se : sed
+<lb ed="#Bc" n="22"/>ille locus non datur ei nisi per 
+congruen<lb break="no" ed="#Bc" n="23"/>tiam : quia inter cetera corporalia 
+nobi<lb break="no" ed="#Bc" n="24"/>lior est, et ideo nobiliori nature magis
+<lb ed="#Bc" n="25"/>congruit,
+</p>
+            <p xml:id="alalal-dd9055-d1e541">
+               <lb ed="#Bc" n="26"/>Ap sEQUENTIA dicendum, quod locus
+<lb ed="#Bc" n="27"/>spiritualis Angeli Deus est : sed locus 
+ha<lb break="no" ed="#Bc" n="28"/>bitationis congruentia coelum empyreum
+<lb ed="#Bc" n="29"/>est : et dehoc multa notata sunt in primo
+<lb ed="#Bc" n="30"/>bro Sententiarum : Si Angelus sit in 
+lo<lb break="no" ed="#Bc" n="31"/>co, aut moveatur in loco, et qualiter et
+<lb ed="#Bc" n="32"/>quot modis sit in loco: et ideo omnia illa
+<lb ed="#Bc" n="33"/>pretermittam hic: et ibi etiam dictum
+<lb ed="#Bc" n="34"/>est si duo, vel plures Angeli sunt in 
+eo<lb break="no" ed="#Bc" n="35"/>dem loco, et quantus sit Angeli locus !.
+</p>
+            <p xml:id="alalal-dd9055-d1e565">
+               <lb ed="#Bc" n="36"/>Apvip quod ulterius queritur, Quare
+<lb ed="#Bc" n="37"/>Philosophi non cognoverunt ?
+</p>
+            <p xml:id="alalal-dd9055-d1e572">
+               <lb ed="#Bc" n="38"/>Dicendum, quod <name xml:id="alalal-dd9055-Nd1e576">Beda</name> in Littera 
+op<lb break="no" ed="#Bc" n="39"/>time hoc solvit : quia <quote xml:id="alalal-dd9055-Qd1e580"> a volubilitate 
+mun<lb break="no" ed="#Bc" n="40"/>di secretum est. </quote> Si enim non esset 
+mo<lb break="no" ed="#Bc" n="41"/>tus, nos quidem deprehenderemus unam
+<lb ed="#Bc" n="42"/>stellam magis vel minus distare quam
+<lb ed="#Bc" n="43"/>aliam per diametrum stellarum magis
+<lb ed="#Bc" n="44"/>vel minus : sed non possumus distinguere
+<lb ed="#Bc" n="45"/>numerum stellarum, spherarum, et cce-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="46"/>lorum : unde quia illud nec visui 
+subji<lb break="no" ed="#Bc" n="47"/>citur, nec per motus rationem 
+investiga<lb break="no" ed="#Bc" n="48"/>tur sicut nonum, ideo non est cognitum
+<lb ed="#Bc" n="49"/>a Philosophis. Nonum enim quamvis 
+vi<lb break="no" ed="#Bc" n="50"/>sul non subjiciatur, tamen necessitate
+<lb ed="#Bc" n="51"/>motus probatur, sicut satis convenicnter
+<lb ed="#Bc" n="52"/>probat Alpetragius: et ad illud infra in
+<lb ed="#Bc" n="53"/>operibus sex dierum ponemus adhuc 
+ra<lb break="no" ed="#Bc" n="54"/>tiones.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

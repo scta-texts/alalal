@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="345"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d62643"><!-- l2d20a6 -->
+            <head xml:id="alalal-d62643-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-d62643-Hd1e101" type="question-title">Utrum actus matrimonialis sit et debeat
+dici peccatum ?</head>
+            <p xml:id="alalal-d62643-d1e104">
+               <lb ed="#Bc" n="45"/>ARTICULUS VI.
+<lb ed="#Bc" n="46"/>Utrum actus matrimonialis sit et debeat
+<lb ed="#Bc" n="47"/>dici peccatum ?
+</p>
+            <p xml:id="alalal-d62643-d1e113">
+               <lb ed="#Bc" n="48"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bc" n="49"/>A, sub finem : <quote xml:id="alalal-d62643-Qd1e119"> Infirmitas enim prona
+<lb ed="#Bc" n="50"/>in ruinam, etc. </quote>
+            </p>
+            <p xml:id="alalal-d62643-d1e125">
+               <lb ed="#Bc" n="51"/>Ex hoc enim videtur, quod actus 
+ma<lb break="no" ed="#Bc" n="52"/>trimonialis sit peccatum : quia nihil 
+or<lb break="no" ed="#Bc" n="53"/>dinatur nisi quod est inordinatum : nihil
+<lb ed="#Bc" n="54"/>autem inordinatum nisi quod est cum
+<lb ed="#Bc" n="55"/>culpa. |
+</p>
+            <p xml:id="alalal-d62643-d1e139">
+               <lb ed="#Bc" n="56"/>Solutio. Actus matrimonialis 
+quando<lb break="no" ed="#Bc" n="57"/>que procedit ex ratione primo movente,
+<lb ed="#Bc" n="58"/>ut quando est spe prolis, et intuitu 
+justi<lb break="no" ed="#Bc" n="59"/>tie reddendi debiti: et tunc non est
+<lb ed="#Bc" n="60"/>peccatum, nec veniale, neque mortale,
+<lb ed="#Bc" n="61"/>sed meritum. Vel, ut ordinatur 
+concupi<lb break="no" ed="#Bc" n="62"/>scentia annexa non ne cadat, sed quia
+<lb ed="#Bc" n="63"/>caderet, si matrimonium non esset: et
+<lb ed="#Bc" n="64"/>tunc quidam dicunt, quod est veniale
+<lb ed="#Bc" n="65"/>peccatum, sed parvum : et de hoc locus
+<lb ed="#Bc" n="66"/>est in tractatu de matrimonio 
+inqui<lb break="no" ed="#Bc" n="67"/>rere.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

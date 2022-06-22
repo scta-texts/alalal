@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="418"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a83145"><!-- l1d15dt2 -->
+            <head xml:id="alalal-a83145-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a83145-d1e101">
+               <cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="24"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-a83145-d1e108">
+               <lb ed="#Ba" n="25"/>Deinde quaeritur de secunda parte que
+<lb ed="#Ba" n="26"/>incipit ibi, <quote xml:id="alalal-a83145-Qd1e114"> Ne autem mireris, etc. </quote>
+               <lb ed="#Ba" n="27"/>Totus enim tractatus de missione Filii
+<lb ed="#Ba" n="28"/>inducitur, ut probetur missio Spiritus
+<lb ed="#Ba" n="29"/>sancti.
+</p>
+            <p xml:id="alalal-a83145-d1e124">
+               <lb ed="#Ba" n="30"/>Dividitur autem in duas partes. In 
+pri<lb break="no" ed="#Ba" n="31"/>ma ostendit quis misit Filium. In secun-
+<cb ed="#Ba" n="d"/>
+               <lb ed="#Ba" n="32"/>da declarat modos su missionis, thi, J,
+<lb ed="#Ba" n="33"/>
+               <quote xml:id="alalal-a83145-Qd1e137"> Hic quaeritur, Utrum semel tantum,
+<lb ed="#Ba" n="34"/>etc. </quote> ;</p>
+            <p xml:id="alalal-a83145-d1e143">
+               <lb ed="#Ba" n="35"/>Prima subdividitur in tres partes. In
+<lb ed="#Ba" n="36"/>prima ostendit, quod mitti Deum a Deo
+<lb ed="#Ba" n="37"/>est possibile. In secunda per verba 
+Am<lb break="no" ed="#Ba" n="38"/>brosii et Augustini, ostendit Filium esse
+<lb ed="#Ba" n="39"/>missum a Spiritu sancto, ibi, D, <quote xml:id="alalal-a83145-Qd1e156"> ET
+<lb ed="#Ba" n="40"/>quod a Spiritu sancto Filius missus sit,
+<lb ed="#Ba" n="41"/>etc. </quote> In tertia ostendit, quod etiam a se
+<lb ed="#Ba" n="42"/>missus est, ibi, E, <quote xml:id="alalal-a83145-Qd1e165"> Deinde ostendit esse
+<lb ed="#Ba" n="43"/>datum etiam a seipso, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

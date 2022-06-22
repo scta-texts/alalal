@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="396"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d70753"><!-- l2d24a1 -->
+            <head xml:id="alalal-d70753-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-d70753-Hd1e101" type="question-title">An Adam stare potuit per hoc quod 
+accepit in creatione ?</head>
+            <p xml:id="alalal-d70753-d1e104">
+               <lb ed="#Bc" n="38"/>ARTICULUS I.
+<lb ed="#Bc" n="39"/>An Adam stare potuit per hoc quod 
+ac<lb break="no" ed="#Bc" n="40"/>cepit in creatione ?
+</p>
+            <p xml:id="alalal-d70753-d1e113">
+               <lb ed="#Bc" n="41"/>Circa primam incidunt tria. dubia,
+<lb ed="#Bc" n="42"/>scilicet, An stare potuit Adam per hoc
+<lb ed="#Bc" n="43"/>quod in creatione accepit ?
+<lb ed="#Bc" n="44"/>Secundo, Utrum potuit proficere ?
+<pb ed="#Bc" n="397"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Tertio, An non proficere sibi tunc 
+po<lb break="no" ed="#Bc" n="2"/>tuerit imputari ?
+</p>
+            <p xml:id="alalal-d70753-d1e133">
+               <lb ed="#Bc" n="3"/>AD PRIMUM sic proceditur :
+<lb ed="#Bc" n="4"/>i. Damascenus dicit, quod omne 
+crea<lb break="no" ed="#Bc" n="5"/>bile est vertibile: constat autem, quod
+<lb ed="#Bc" n="6"/>non in melius: ergo in deterius vertetur.
+<lb ed="#Bc" n="7"/>Homo autem primus creatus fuit : ergo
+<lb ed="#Bc" n="8"/>sine adjutorio Dei verteretur in deterius :
+<lb ed="#Bc" n="9"/>ergo oportuit, quod non slaret nisi 
+gra<lb break="no" ed="#Bc" n="10"/>tiam aliquam standi acciperet.
+</p>
+            <p xml:id="alalal-d70753-d1e154">
+               <lb ed="#Bc" n="11"/>2. Item, Augustinus in libro de Vera
+<lb ed="#Bc" n="12"/>innocentia: <quote xml:id="alalal-d70753-Qd1e160"> Natura humana etsi in illa
+<lb ed="#Bc" n="13"/>integritate in qua condita est, 
+permane<lb break="no" ed="#Bc" n="14"/>ret, nullo tamen modo seipsam sine 
+Cre<lb break="no" ed="#Bc" n="15"/>atore adjuvante servaret. </quote> Si ergo tunc
+<lb ed="#Bc" n="16"/>sine Dei gratia salutem suam quam 
+ha<lb break="no" ed="#Bc" n="17"/>bebat, servare non potuit, quomodo post
+<lb ed="#Bc" n="18"/>casum gratiam recuperare potuit, quam
+<lb ed="#Bc" n="19"/>perdidit ? Ergo videtur, quod de se non
+<lb ed="#Bc" n="20"/>potuit stare.
+</p>
+            <p xml:id="alalal-d70753-d1e181">
+               <lb ed="#Bc" n="21"/>SED CONTRA :
+<lb ed="#Bc" n="22"/>4. Hoc quod non est in potestate nostra,
+<lb ed="#Bc" n="23"/>non imputatur nobis : si ergo Adam
+<lb ed="#Bc" n="24"/>stare in eo quod accepit sine nova gratia
+<lb ed="#Bc" n="25"/>non potuit, si illam non accepit, non fuit
+<lb ed="#Bc" n="26"/>ei imputandum quod cecidit : sed non
+<lb ed="#Bc" n="27"/>accepit eam : ergo non fuit ei 
+imputan<lb break="no" ed="#Bc" n="28"/>dus casus.
+</p>
+            <p xml:id="alalal-d70753-d1e201">
+               <lb ed="#Bc" n="29"/>2. Item, Natura nulli dat esse quin det
+<lb ed="#Bc" n="30"/>ei etiam virtutes conservantes esse quod
+<lb ed="#Bc" n="31"/>dedit, nisi ita sit quod esse illius sit 
+con<lb break="no" ed="#Bc" n="32"/>tinuum fieri: cum igitur Deus non 
+imper<lb break="no" ed="#Bc" n="33"/>fectior sitin operando quam natura, cum
+<lb ed="#Bc" n="34"/>dedit esse naturale homini, dedit ei 
+po<lb break="no" ed="#Bc" n="35"/>testatem standi in illo.
+</p>
+            <p xml:id="alalal-d70753-d1e219">
+               <lb ed="#Bc" n="36"/>3. Item, Asino dedit Deus esse, 
+et_po<lb break="no" ed="#Bc" n="37"/>testatem standiin illo: ergo si homini
+<lb ed="#Bc" n="38"/>hoc non faceret, deterioris conditionis
+<lb ed="#Bc" n="39"/>esset apud ipsum quam asinus.
+</p>
+            <p xml:id="alalal-d70753-d1e230">
+               <lb ed="#Bc" n="40"/>4. Item, Magister in Littera dicit, quod
+<lb ed="#Bc" n="41"/>gratia per quam stare in eo quod accepit
+<lb ed="#Bc" n="42"/>poterat, facultas liberi arbitrii et 
+discer<lb break="no" ed="#Bc" n="43"/>nendi bonum et malum fuit: constat au.
+<lb ed="#Bc" n="44"/>tem, quod has potestates sive facultates
+<lb ed="#Bc" n="45"/>homo primus in creatione accepit, ex
+<lb ed="#Bc" n="46"/>quibus stare posset.
+</p>
+            <p xml:id="alalal-d70753-d1e248">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="47"/>Solutio. Dicendum, quod homo nihil
+<lb ed="#Bc" n="48"/>potest esse, vel facere sine gratia : sed
+<lb ed="#Bc" n="49"/>hee non est gratum faciens semper, sed
+<lb ed="#Bc" n="50"/>potius conservatio et influentia divine
+<lb ed="#Bc" n="51"/>bonitatis ad esse et operari, sicut ipse
+<lb ed="#Bc" n="52"/>dicit : Sine me nihil potestis facere . Et
+<lb ed="#Bc" n="53"/>hac gratia. potuit primus homo stare in
+<lb ed="#Bc" n="54"/>eo quod acceperat: sed non fuit creatus
+<lb ed="#Bc" n="55"/>in gratuitis : quod tamen ego non credo,
+<lb ed="#Bc" n="56"/>licet sustineam propter Magistrum.
+</p>
+            <p xml:id="alalal-d70753-d1e275">
+               <lb ed="#Bc" n="57"/>Dicendum ergo ad primum, quod bene
+<lb ed="#Bc" n="58"/>concedo, quod homo indiget continentia
+<lb ed="#Bc" n="59"/>sicut alia creatura : sed non indigeret
+<lb ed="#Bc" n="60"/>gratia gratum faciente ad hoc. Et hoc
+<lb ed="#Bc" n="61"/>modo etiam intelligitur auctoritas 
+se<lb break="no" ed="#Bc" n="62"/>quens Augustini.
+</p>
+            <p xml:id="alalal-d70753-d1e291">
+               <lb ed="#Bc" n="63"/>Ad aliud autem quae in contrarium
+<lb ed="#Bc" n="64"/>objiciuntur, patet solutio : quia illa non
+<lb ed="#Bc" n="65"/>removent gratiam influentie divine et
+<lb ed="#Bc" n="66"/>superadditorum in naturalibus potentiis
+<lb ed="#Bc" n="67"/>que dat Deus unicuique nature 
+secun<lb break="no" ed="#Bc" n="68"/>dum proportionem capacitatis sus : et
+<lb ed="#Bc" n="69"/>talis fuit etiam gratia quam accepit Adam.
+<lb ed="#Bc" n="70"/>Sed in homine proprie vocatur gratia,
+<lb ed="#Bc" n="71"/>quia ordinat ad gratiam gratum 
+facien<lb break="no" ed="#Bc" n="72"/>tem: in aliis autem non proprie vocatur
+<lb ed="#Bc" n="73"/>nomine gratie, sed dati, vel nature.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

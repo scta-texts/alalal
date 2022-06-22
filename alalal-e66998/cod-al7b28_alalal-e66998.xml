@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="354"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e66998"><!-- l3d20dt1 -->
+            <head xml:id="alalal-e66998-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e66998-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="8"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-e66998-d1e108">
+               <lb ed="Bd" n="9"/>
+               <quote xml:id="alalal-e66998-Qd1e112">Si vero quaeritur, Utrum alio modo
+<lb ed="Bd" n="10"/>posset Deus hominem liberare, etc.</quote>
+               <lb ed="Bd" n="11"/>Hic incipit quarta pars illius divisionis
+<lb ed="Bd" n="12"/>que in principio distinctionis XVIII 
+po<lb break="no" ed="Bd" n="13"/>sita est. Et agitur hic, Utrum Deus alias
+<lb ed="Bd" n="14"/>quam per mortem poterat liberare : et
+<lb ed="Bd" n="15"/>durat usque ad illum locum, ubi dicitur
+<lb ed="Bd" n="16"/>in hac eadem distinctione, ibi, C, <quote xml:id="alalal-e66998-Qd1e130"> 
+Chri<lb break="no" ed="Bd" n="17"/>slus ergo est sacerdos, idemque hostia,
+<lb ed="Bd" n="18"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-e66998-d1e138">
+               <lb ed="Bd" n="19"/>Et dividitur in parte duas : in quarum
+<lb ed="Bd" n="20"/>prima ostendit rationes congruentiae,
+<lb ed="Bd" n="21"/>quare isto modo voluit redimere, cum
+<lb ed="Bd" n="22"/>alius modus esset possibilis ? In secunda,
+<lb ed="Bd" n="23"/>exsequitur causam inter Deum, et 
+homi<lb break="no" ed="Bd" n="24"/>nem, et diabolum, ibi, B, <quote xml:id="alalal-e66998-Qd1e153"> Se enim tres
+<lb ed="Bd" n="25"/>illiin causam venissent, etc. </quote>
+            </p>
+            <p xml:id="alalal-e66998-d1e159">
+               <lb ed="Bd" n="26"/>In prima parte tria facit. Primo 
+que<lb break="no" ed="Bd" n="27"/>slionem proponit : et secundo, causam
+<lb ed="Bd" n="28"/>solutionis unam dat ex juvantibus ad
+<lb ed="Bd" n="29"/>spem immortalitatis. Tertio, dat aliam
+<lb ed="Bd" n="30"/>ex ratione justitiea. Et hac tria facit in
+<lb ed="Bd" n="31"/>uno capitulo: et ex hoc patet 
+senten<lb break="no" ed="Bd" n="32"/>tia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

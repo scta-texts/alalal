@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="375"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a74731"><!-- l1d13a3 -->
+            <head xml:id="alalal-a74731-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-a74731-Hd1e101" type="question-title">Utrum processio sit de ratione 
+generationis et spirationis ? et quare nomen 
+processionis magis remaneat Sprritut
+sancto, quam Filio ?</head>
+            <p xml:id="alalal-a74731-d1e104">
+               <lb ed="#Ba" n="20"/>ARTICULUS III.
+<lb ed="#Ba" n="21"/>Utrum processio sit de ratione 
+generatio<lb break="no" ed="#Ba" n="22"/>nis et spirationis ? et quare nomen 
+pro<lb break="no" ed="#Ba" n="23"/>cessionis magis remaneat Sprritut
+<lb ed="#Ba" n="24"/>sancto, quam Filio ?
+</p>
+            <p xml:id="alalal-a74731-d1e117">
+               <lb ed="#Ba" n="25"/>Deinde quaeritur de hoc quod dicit 
+se<lb break="no" ed="#Ba" n="26"/>cundo capite B, ibi, <quote xml:id="alalal-a74731-Qd1e123"> Cum autem 
+Spiri<lb break="no" ed="#Ba" n="27"/>tus non dicatur genitus, etc. </quote>
+            </p>
+            <p xml:id="alalal-a74731-d1e129">
+               <lb ed="#Ba" n="28"/>Ex hoc enim quod ibi dicit 
+Augusti<lb break="no" ed="#Ba" n="29"/>nus, videtur quod processio sit de ratione
+<lb ed="#Ba" n="30"/>generations et spirationis : praedicatur
+<lb ed="#Ba" n="31"/>enim de ipsis, et non convertibiliter :
+<cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="32"/>aut ergo ut ens de ratione eorum, aut ut
+<lb ed="#Ba" n="33"/>non ens de ratione eorum. Si dicas ut
+<lb ed="#Ba" n="34"/>ens de ratione eorum, habeo propositum,
+<lb ed="#Ba" n="35"/>quod univoce dicitur. Si autem dicas,
+<lb ed="#Ba" n="36"/>quod ut non ens de ratione eorum, tune
+<lb ed="#Ba" n="37"/>convenit eis per accidens : et hoc falsum
+<lb ed="#Ba" n="38"/>est : quia accidens non est in divinis.
+</p>
+            <p xml:id="alalal-a74731-d1e159">
+               <lb ed="#Ba" n="39"/>Si autem detur, quod ut genus 
+predi<lb break="no" ed="#Ba" n="40"/>catur, quaeritur quare magis remanet 
+no<lb break="no" ed="#Ba" n="41"/>men Spiritui sancto quam Filio?
+</p>
+            <p xml:id="alalal-a74731-d1e168">
+               <lb ed="#Ba" n="42"/>Item, si genus est, sequitur quod uni~
+<lb ed="#Ba" n="43"/>versale et particulare sint in divinis,
+<lb ed="#Ba" n="44"/>quod repugnat summe simplici, ut dicit
+<lb ed="#Ba" n="45"/>Boetius.
+</p>
+            <p xml:id="alalal-a74731-d1e179">
+               <lb ed="#Ba" n="46"/>Solutio. Sicut supra determinatum
+<pb ed="#Ba" n="376"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>est dico, quod nec ut genus, nec ut 
+ac<lb break="no" ed="#Ba" n="2"/>cidens, praedicatur aliquid in divinis nec
+<lb ed="#Ba" n="3"/>de essentia nec de persona nec de 
+no<lb break="no" ed="#Ba" n="4"/>tione : sed bene aliquid praedicatur in 
+di<lb break="no" ed="#Ba" n="5"/>vinis ut significatum intentione 
+commu<lb break="no" ed="#Ba" n="6"/>niori, quam id de quo praedicatur : licet
+<lb ed="#Ba" n="7"/>enim in divinis semper eadem res sit in
+<lb ed="#Ba" n="8"/>predicato et subjecto, est tamen alius
+<lb ed="#Ba" n="9"/>modus significandi: et ideo non valet
+<lb ed="#Ba" n="10"/>distinctio sic facta, si pradicatur, quod
+<lb ed="#Ba" n="11"/>predicetur ut ens de ratione subjecti,
+<lb ed="#Ba" n="12"/>vel praedicetur ut non ens de ratione
+<lb ed="#Ba" n="13"/>subject! : quia non opponuntur ille due
+<lb ed="#Ba" n="14"/>ut conferinforie : sed sic dividenda,
+<lb ed="#Ba" n="15"/>predic sine nt ens, etc., vel non 
+praedica<lb break="no" ed="#Ba" n="16"/>tur ut ons, etc. Uoncedo istam, non 
+pre<lb break="no" ed="#Ba" n="17"/>dicatur ut ens, etc. In illo sensu quod
+<lb ed="#Ba" n="18"/>negatur, includit totum praedicatum et
+<lb ed="#Ba" n="19"/>determinationem praedicati.
+</p>
+            <p xml:id="alalal-a74731-d1e229">
+               <lb ed="#Ba" n="20"/>Si autem quaeritur, Qualiter 
+predica<lb break="no" ed="#Ba" n="21"/>tur? Dicendum quod praedicatur ut idem
+<lb ed="#Ba" n="22"/>sub altera intentione significandi.
+</p>
+            <p xml:id="alalal-a74731-d1e238">
+               <lb ed="#Ba" n="23"/>Ad id autem quod quaeritur, Quare
+<lb ed="#Ba" n="24"/>Spiritus sanctus nomen retimet? supra
+<lb ed="#Ba" n="25"/>responsum, et quasitum est. Sed hoc
+<lb ed="#Ba" n="26"/>potest dici, quod ideo retinet, quia cum
+<lb ed="#Ba" n="27"/>processio in inferioribus in duobus 
+dica<lb break="no" ed="#Ba" n="28"/>tur, scilicet in motu processivo, et 
+egres<lb break="no" ed="#Ba" n="29"/>su causati a causa, emanatio Spiritus
+<lb ed="#Ba" n="30"/>sancti ad utrumque aliquam ponit 
+simi<lb break="no" ed="#Ba" n="31"/>litudinem, ut supra probatum est : 
+ema<lb break="no" ed="#Ba" n="32"/>natio autem Filii non ponit 
+similitudi<lb break="no" ed="#Ba" n="33"/>nem, nisi ad alterum, scilicet ad exitum
+<lb ed="#Ba" n="34"/>causati de causa.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

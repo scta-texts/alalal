@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="517"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f00547"><!-- l3d27a4 -->
+            <head xml:id="alalal-f00547-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-f00547-Hd1e101" type="question-title">An diffinitiones charitatis sunt bene
+assignate ?</head>
+            <p xml:id="alalal-f00547-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="10"/>ARTICULUS IV.
+<lb ed="Bd" n="11"/>An diffinitiones charitatis sunt bene
+<lb ed="Bd" n="12"/>assignate ?
+</p>
+            <p xml:id="alalal-f00547-d1e115">
+               <lb ed="Bd" n="13"/>Deinde quaeritur de diffinitione 
+chari<lb break="no" ed="Bd" n="14"/>tatis quam dicit in secunda parte, ibi, B,
+<lb ed="Bd" n="15"/>
+               <quote xml:id="alalal-f00547-Qd1e123"> Charitas est dilectio qua diligitur Deus
+<lb ed="Bd" n="16"/>propler se, et proximus propter Deum,
+<lb ed="Bd" n="17"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-f00547-d1e131">
+               <lb ed="Bd" n="18"/>Inveniuntur ecnim aliae diffinitiones
+<lb ed="Bd" n="19"/>charitatis.
+</p>
+            <p xml:id="alalal-f00547-d1e139">
+               <lb ed="Bd" n="20"/>Dicit enim Augustinus : <quote xml:id="alalal-f00547-Qd1e143"> Charitas est
+<lb ed="Bd" n="21"/>virtus qua Deum videre perfruique 
+desi<lb break="no" ed="Bd" n="22"/>deramus. </quote>
+            </p>
+            <p xml:id="alalal-f00547-d1e151">
+               <lb ed="Bd" n="23"/>Item, Dionysius in libro de Divinis 
+no<lb break="no" ed="Bd" n="24"/>minibus, et trahitur ex verbis Ierothei
+<lb ed="Bd" n="25"/>sic, <quote xml:id="alalal-f00547-Qd1e159"> Amorem sive divinum, sive 
+ange<lb break="no" ed="Bd" n="26"/>licum, sive intellectualem, sive anima-
+<cb ed="#Bd" n="c"/>
+                  <lb ed="Bd" n="27"/>lem, sive naturalem dicamus, unitivam
+<lb ed="Bd" n="28"/>quamdam et concretivam intelligemus
+<lb ed="Bd" n="29"/>virtutem, superiora quidem moventem
+<lb ed="Bd" n="30"/>ad providentiam minus habentium, 
+coor<lb break="no" ed="Bd" n="31"/>dinata autem rursus ad communicativam
+<lb ed="Bd" n="32"/>alternam habitudinem in extremis, 
+sub<lb break="no" ed="Bd" n="33"/>jecta ad meliorum et superpositorum
+<lb ed="Bd" n="34"/>conversionem. </quote>
+            </p>
+            <p xml:id="alalal-f00547-d1e184">
+               <lb ed="Bd" n="35"/>Ibidem dat Commentator duas alias:
+<lb ed="Bd" n="36"/>quarum una est hec, <quote xml:id="alalal-f00547-Qd1e190"> Amor est 
+con<lb break="no" ed="Bd" n="37"/>nexio aut vinculum quo omnium rerum
+<lb ed="Bd" n="38"/>universitas ineffabili amicitia 
+insolubili<lb break="no" ed="Bd" n="39"/>que unitate copulatur. </quote> Secunda est hac,
+<lb ed="Bd" n="40"/>
+               <quote xml:id="alalal-f00547-Qd1e201"> Amor est naturalis motus omnium 
+re<lb break="no" ed="Bd" n="41"/>rum quae in motu sunt, finis quietaque
+<lb ed="Bd" n="42"/>statio, ultra quam nullus creature 
+pro<lb break="no" ed="Bd" n="43"/>greditur motus. </quote>
+            </p>
+            <p xml:id="alalal-f00547-d1e211">
+               <lb ed="Bd" n="44"/>Item, Apostolus, lad Timoth. 1,5:
+<lb ed="Bd" n="45"/>Pints preceptiest charitas decorde puro,
+<lb ed="Bd" n="46"/>et conscientia bona, et fide non ficta :
+<lb ed="Bd" n="47"/>et dicit ibidem Glossa, quod Apostolus
+<lb ed="Bd" n="48"/>ibidem diffinit charitatem.
+</p>
+            <p xml:id="alalal-f00547-d1e224">
+               <lb ed="Bd" n="49"/>Objicitur autem de prima sic,
+<lb ed="Bd" n="50"/>1. Cum dicitur, Charitas est dilectio,
+<pb ed="#Bd" n="518"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>videtur idem diffiniri per seipsum : quia
+<lb ed="Bd" n="2"/>dicit Dionysius, <quote xml:id="alalal-f00547-Qd1e239"> Idem est dilectio quod
+<lb ed="Bd" n="3"/>amor vel charitas. </quote>
+            </p>
+            <p xml:id="alalal-f00547-d1e245">
+               <lb ed="Bd" n="4"/>2. Item, Cum propter scipsum dicitur
+<lb ed="Bd" n="5"/>Deus d.ligi, non videtur charitas separari
+<lb ed="Bd" n="6"/>ab amore honesti in virtute : quia 
+hone<lb break="no" ed="Bd" n="7"/>stum est (ut dicit Tullius) quod diligitur
+<lb ed="Bd" n="8"/>propter seipsum.
+</p>
+            <p xml:id="alalal-f00547-d1e259">
+               <lb ed="Bd" n="9"/>Oxsicrrur etiam de secunda : quia
+<lb ed="Bd" n="10"/>1. Videre potius est diffinitivum fidei,
+<lb ed="Bd" n="11"/>quam charitatis, cum succedat fidei, et
+<lb ed="Bd" n="12"/>non charitati.
+</p>
+            <p xml:id="alalal-f00547-d1e270">
+               <lb ed="Bd" n="13"/>2. Item, Cum visio sit tota merces, 
+in<lb break="no" ed="Bd" n="14"/>tcHligitur frui in videre : ergo postquam
+<lb ed="Bd" n="15"/>dixit, Videre Deum, superfluum fuit 
+ad<lb break="no" ed="Bd" n="16"/>dere, Perfruique, etc.
+</p>
+            <p xml:id="alalal-f00547-d1e281">
+               <lb ed="Bd" n="17"/>3. Item, Perfrui non respondet tantum
+<lb ed="Bd" n="18"/>charitati, sed omnibus virtutibus 
+frui<lb break="no" ed="Bd" n="19"/>mur: ergo male ponitur diffinitivum 
+cha<lb break="no" ed="Bd" n="20"/>ritatis.
+</p>
+            <p xml:id="alalal-f00547-d1e292">
+               <lb ed="Bd" n="21"/>4. Item, Frui etiam diffinitur per 
+cha<lb break="no" ed="Bd" n="22"/>rilatem : quia dicit Auguslinus, quod
+<lb ed="Bd" n="23"/>
+               <quote xml:id="alalal-f00547-Qd1e300"> frui est amore inherere alicui rei 
+prop<lb break="no" ed="Bd" n="24"/>ter seipsam‘:</quote> ergo est ibi circulus,
+<lb ed="Bd" n="25"/>et idem est notius et ignotius seipso.
+</p>
+            <p xml:id="alalal-f00547-d1e308">
+               <lb ed="Bd" n="26"/>5. Item, Cum dicitur, Desideramus,
+<lb ed="Bd" n="27"/>ponitur actus sensibilis partis anime :
+<lb ed="Bd" n="28"/>dicit enim Philosophus in II de Anima,
+<lb ed="Bd" n="29"/>quod in rationali voluntas sit, in 
+irratio<lb break="no" ed="Bd" n="30"/>nali autem desiderium et animus, Cum
+<lb ed="Bd" n="31"/>igitur charitas sit rationalis partis anime,
+<lb ed="Bd" n="32"/>male diffinitur per desiderium.
+</p>
+            <p xml:id="alalal-f00547-d1e326">
+               <lb ed="Bd" n="33"/>6. Hem, Desiderium est imperfectum
+<lb ed="Bd" n="34"/>et absentis : ergo cum charitas sit 
+per<lb break="no" ed="Bd" n="35"/>fectissima, deberet per alium actum 
+dif<lb break="no" ed="Bd" n="36"/>finiri, scilicet per velle, et hujusmodi.
+</p>
+            <p xml:id="alalal-f00547-d1e338">
+               <lb ed="Bd" n="37"/>Onsicirur etiam de tertia : quia
+<lb ed="Bd" n="38"/>1. Cum amor sive charitas sit in affectu :
+<lb ed="Bd" n="39"/>et affectus non ordinat aliquid, sed 
+po<lb break="no" ed="Bd" n="40"/>tius adspectus, videtur amor non movere
+<lb ed="Bd" n="41"/>superiora ad inferiora, et media ad 
+invi<lb break="no" ed="Bd" n="42"/>cem, et inferiora ad superiora.
+</p>
+            <p xml:id="alalal-f00547-d1e354">
+               <lb ed="Bd" n="43"/>2. Item, Amor non movet nisi ad
+<lb ed="Bd" n="44"/>diligendum : ergo non ad providendum.
+</p>
+            <p xml:id="alalal-f00547-d1e361">
+               <lb ed="Bd" n="45"/>3. Item, Non videtur esse differentia
+<lb ed="Bd" n="46"/>inter intellectualom et animalem: quia
+<lb ed="Bd" n="47"/>intellectualis est animalis.
+</p>
+            <p xml:id="alalal-f00547-d1e370">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>4. Item, Quis est naturalis amor ? Vii
+<lb ed="Bd" n="49"/>detur, quod nullus : quia dicit 
+Augusti<lb break="no" ed="Bd" n="50"/>nus, quod nihil amatum est nisi 
+cogni<lb break="no" ed="Bd" n="51"/>tum : sed natura non habet cognitionem ;
+<lb ed="Bd" n="52"/>ergo nec amorem.
+</p>
+            <p xml:id="alalal-f00547-d1e386">
+               <lb ed="Bd" n="53"/>3. Item, De quo amore loquitur Dio.
+<lb ed="Bd" n="54"/>nysius ? Constat enim, quod non omnia
+<lb ed="Bd" n="55"/>habeant charitatem ; ergo non convenit
+<lb ed="Bd" n="56"/>illa diffinitio charitati.
+</p>
+            <p xml:id="alalal-f00547-d1e397">
+               <lb ed="Bd" n="57"/>Item, Objicitur de alia, quod est 
+vin<lb break="no" ed="Bd" n="58"/>culum et amicitia universitatis.
+</p>
+            <p xml:id="alalal-f00547-d1e405">
+               <lb ed="Bd" n="59"/>1. Contraria enim non se amant, sed
+<lb ed="Bd" n="60"/>magis odiunt, et non sc compatiuntur in
+<lb ed="Bd" n="61"/>eodem susceptibili.
+</p>
+            <p xml:id="alalal-f00547-d1e414">
+               <lb ed="Bd" n="62"/>2. Item, Que est unitas insolubilis,
+<lb ed="Bd" n="63"/>qua copulantur ? Quecumque enim 
+com<lb break="no" ed="Bd" n="64"/>ponuntur, solvi possunt, et in voluntate
+<lb ed="Bd" n="65"/>et in natura.
+</p>
+            <p xml:id="alalal-f00547-d1e425">
+               <lb ed="Bd" n="66"/>Oxsicirur etiam de sequenti :
+<lb ed="Bd" n="67"/>1. Amor enim magis sonat passionem
+<lb ed="Bd" n="68"/>vel habitum, quam sonet naturalem
+<lb ed="Bd" n="69"/>motum : ergo male ponitur in genere
+<lb ed="Bd" n="70"/>motus.
+</p>
+            <p xml:id="alalal-f00547-d1e438">
+               <lb ed="Bd" n="71"/>2. Item quaeritur, Cum amor dicatur
+<lb ed="Bd" n="72"/>de amore naturali, animali, 
+intellectua<lb break="no" ed="Bd" n="73"/>li, et angelico, et divino, et gratuito,
+<lb ed="Bd" n="74"/>utrum dicatur univoce vel equivoce?
+</p>
+            <p xml:id="alalal-f00547-d1e449">
+               <lb ed="Bd" n="75"/>Ulterius quaeritur de illa quam dat
+<lb ed="Bd" n="76"/>Apostolus de charitate. Quia illa magis
+<lb ed="Bd" n="77"/>est ad propositum, et ultimo habita fuit,
+<lb ed="Bd" n="78"/>distinctione XXV.
+</p>
+            <p xml:id="alalal-f00547-d1e460">
+               <lb ed="Bd" n="79"/>Et quaeritur primo, Cujusmodi finis 
+di<lb break="no" ed="Bd" n="80"/>catur charitas ?
+</p>
+            <p xml:id="alalal-f00547-d1e468">
+               <lb ed="Bd" n="81"/>1. Finis enim est ad quem est motus,
+<lb ed="Bd" n="82"/>et in quo quiescitur. Charitas autem est
+<lb ed="Bd" n="83"/>a quo est motus precepti: quia movet
+<lb ed="Bd" n="84"/>ad implendum quod precipitur : ergo
+<lb ed="Bd" n="85"/>ipsa potius est principium precepti, quam
+<lb ed="Bd" n="86"/>finis.
+</p>
+            <p xml:id="alalal-f00547-d1e484">
+               <lb ed="Bd" n="87"/>2. Item, Charitas est radix boni, et a
+<lb ed="Bd" n="88"/>radice est motus incrementi et 
+princi<lb break="no" ed="Bd" n="89"/>pium : ergo potius debet esse principium,
+<lb ed="Bd" n="90"/>quam finis.
+</p>
+            <p xml:id="alalal-f00547-d1e495">
+               <lb ed="Bd" n="91"/>3. Item, Cum ipsa etiam sit finis 
+con<lb break="no" ed="Bd" n="92"/>silii, quare ipsa potius diffinitur esse
+<lb ed="Bd" n="93"/>precepti, quam consilii ?
+</p>
+            <p xml:id="alalal-f00547-d1e504">
+               <pb ed="#Bd" n="519"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>4. Item, Quid est dictu, De corde puro ?
+<lb ed="Bd" n="2"/>Si dicas, de intellectu depurato : hoc 
+ni<lb break="no" ed="Bd" n="3"/>hil est, quia charitas non est intellectus,
+<lb ed="Bd" n="4"/>sed potius aifectus. Si autem dicas, quod
+<lb ed="Bd" n="5"/>accipitur ibi cor pro affectu : tunc non
+<lb ed="Bd" n="6"/>convenit charitati soli, quia omnis virtus
+<lb ed="Bd" n="7"/>est cordis puri.
+</p>
+            <p xml:id="alalal-f00547-d1e526">
+               <lb ed="Bd" n="8"/>5. Item, Fide purificatur cor, ut 
+habe<lb break="no" ed="Bd" n="9"/>tur, Act. xv, 9 : ergo idem est dicere de
+<lb ed="Bd" n="10"/>corde puro, et fide non ficta. Si dicas,
+<lb ed="Bd" n="11"/>quod differunt sicut effectus et causa :
+<lb ed="Bd" n="12"/>tuncad minus est perversus ordo partium
+<lb ed="Bd" n="13"/>diffinitionis : quia fide non ficta debet
+<lb ed="Bd" n="14"/>preponi cordi puro, sicut causa preecedit
+<lb ed="Bd" n="15"/>effectum.
+</p>
+            <p xml:id="alalal-f00547-d1e546">
+               <lb ed="Bd" n="16"/>6. Item, Quid est dictu, Conscientia
+<lb ed="Bd" n="17"/>bona ? Non enim bona fit conscientia 
+ni<lb break="no" ed="Bd" n="18"/>si per meritum, quod scitur esse in 
+con<lb break="no" ed="Bd" n="19"/>scientia: et hoc non est nisi ex charitate :
+<lb ed="Bd" n="20"/>ergo conscientia bona magis est 
+charita<lb break="no" ed="Bd" n="21"/>te, quam c contrario.
+</p>
+            <p xml:id="alalal-f00547-d1e563">
+               <lb ed="Bd" n="22"/>7. Si dicas (sicut exponit Glossa) quod
+<lb ed="Bd" n="23"/>conscientia bona est spes firma : tunc
+<lb ed="Bd" n="24"/>iterum pervertitur ordo : quia fides 
+gene<lb break="no" ed="Bd" n="25"/>rat spem, et Spes charitatem.
+</p>
+            <p xml:id="alalal-f00547-d1e574">
+               <lb ed="Bd" n="26"/>8. Item, Quare cordi attribuitur 
+puri<lb break="no" ed="Bd" n="27"/>tas, et spei bonitas, cum bonum sit 
+pro<lb break="no" ed="Bd" n="28"/>prium amoris ?
+</p>
+            <p xml:id="alalal-f00547-d1e583">
+               <lb ed="Bd" n="29"/>9. Item, Fides non ficta, est fides non
+<lb ed="Bd" n="30"/>simulata, vel non fragilis: haec autem
+<lb ed="Bd" n="31"/>non est nisi illa quae ex dilectione 
+opera<lb break="no" ed="Bd" n="32"/>tur : ergo illa potius est ex dilectione,
+<lb ed="Bd" n="33"/>quam dilectio ex ipsa.
+</p>
+            <p xml:id="alalal-f00547-d1e596">
+               <lb ed="Bd" n="34"/>10. Praeterea, Aliter diffinitur ab 
+Au<lb break="no" ed="Bd" n="35"/>gustino in libro de Moribus Eeclesix sic,
+<lb ed="Bd" n="36"/>
+               <quote xml:id="alalal-f00547-Qd1e604"> Charitas est recta affectio animi 
+con<lb break="no" ed="Bd" n="37"/>jungens nos Deo, </quote>
+            </p>
+            <p xml:id="alalal-f00547-d1e610">
+               <lb ed="Bd" n="38"/>Item, In libro de Spiritu et anima,
+<lb ed="Bd" n="39"/>
+               <quote xml:id="alalal-f00547-Qd1e616"> Charitas est vita quaedam, copulans
+<lb ed="Bd" n="40"/>amantem cum amato. </quote>
+            </p>
+            <p xml:id="alalal-f00547-d1e622">
+               <lb ed="Bd" n="41"/>Cum ERGO unius rei unica sit diffinitio,
+<lb ed="Bd" n="42"/>queritur, Penes quid diversificentur tot
+<lb ed="Bd" n="43"/>diffinitiones?
+</p>
+            <p xml:id="alalal-f00547-d1e632">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="44"/>Solutio Dicendum ad ultimum, quod
+<lb ed="Bd" n="45"/>quaedam ex istis diffinitionibus sunt 
+amo<lb break="no" ed="Bd" n="46"/>ris in genere, quaedam autem charitatis.
+<lb ed="Bd" n="47"/>Distinctionem autem charitatis, amoris,
+<lb ed="Bd" n="48"/>et dilectionis, secundum nominum 
+ratio<lb break="no" ed="Bd" n="49"/>nes notatam invenies in libro I 
+Senten<lb break="no" ed="Bd" n="50"/>tiarum.
+</p>
+            <p xml:id="alalal-f00547-d1e652">
+               <lb ed="Bd" n="51"/>De amore autem dantur in genere
+<lb ed="Bd" n="52"/>tres, scilicet Dionysil, et duae quae 
+se<lb break="no" ed="Bd" n="53"/>quuntur in commento: et illarum 
+qui<lb break="no" ed="Bd" n="54"/>dem prima datur penes ordinem 
+aman<lb break="no" ed="Bd" n="55"/>tium. Secunda penes essentiam amoris :
+<lb ed="Bd" n="56"/>quia essentia amoris est ut sit connexio
+<lb ed="Bd" n="57"/>vel vinculum. Vel aliter et melius, prima
+<lb ed="Bd" n="58"/>data est penes ordinata per amorem. 
+Se<lb break="no" ed="Bd" n="59"/>cunda autem penes ipsam ordinationcm
+<lb ed="Bd" n="60"/>formaliter. Tertia autem penes actum: et
+<lb ed="Bd" n="61"/>ideo, dicit amorem esse motum. [lle 
+au<lb break="no" ed="Bd" n="62"/>tem quae dantur de charitate, sunt 
+quin<lb break="no" ed="Bd" n="63"/>que : quarum prima datur per genus et
+<lb ed="Bd" n="64"/>actum et objectum, et est communiter
+<lb ed="Bd" n="65"/>charitas ad viam et patriam. Secunda
+<lb ed="Bd" n="66"/>autem datur per charitatem vie 
+ordina<lb break="no" ed="Bd" n="67"/>tam ad patriam: quia desiderium est vie
+<lb ed="Bd" n="68"/>proprie, perfrui autem et inherere 
+ama<lb break="no" ed="Bd" n="69"/>lo est patria. Tertia autem quae est 
+Apo<lb break="no" ed="Bd" n="70"/>stoli, datur penes generantia charitatem
+<lb ed="Bd" n="71"/>in subjecto. Quartaautem penes effectum
+<lb ed="Bd" n="72"/>in specie, quod debet per affectum 
+con<lb break="no" ed="Bd" n="73"/>jungi Deo. Quinta autem et ultima datur
+<lb ed="Bd" n="74"/>per effectum in gencre duplicem : quia in
+<lb ed="Bd" n="75"/>amante facit vitam, et cum amato copulat.
+</p>
+            <p xml:id="alalal-f00547-d1e709">
+               <lb ed="Bd" n="76"/>His habitis, dicendum est ad primam ®,
+<lb ed="Bd" n="77"/>quod licet dilectio idem sit quod charitas
+<lb ed="Bd" n="78"/>in usu sacre Scripture, quae ponit unum
+<lb ed="Bd" n="79"/>pro alio, tamen nomine differunt, quia
+<lb ed="Bd" n="80"/>amor communis affectus est boni: 
+dile<lb break="no" ed="Bd" n="81"/>ctio autem est affectus boni cum electione
+<lb ed="Bd" n="82"/>diligente, et ita dicit rationis amorem :
+<lb ed="Bd" n="83"/>sed charitas est quando affectatum et
+<lb ed="Bd" n="84"/>electum inaestimabili pretio estimatur :
+<lb ed="Bd" n="85"/>et ideo dilectio secundum nomen genus
+<lb ed="Bd" n="86"/>est charitatis.
+</p>
+            <p xml:id="alalal-f00547-d1e735">
+               <lb ed="Bd" n="87"/>Ad aliud dicendum, quod (ut supra di-
+<pb ed="#Bd" n="520"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ctum est) ly <mention>propter</mention> se dicit ibi triplicem
+<lb ed="Bd" n="2"/>causam, seilicet efficientem, formalem, et
+<lb ed="Bd" n="3"/>finalein. Et hoc sic probatur. quia 
+cha<lb break="no" ed="Bd" n="4"/>ritas facit nos diligere, non nosipsi nos :
+<lb ed="Bd" n="5"/>et hoc facit in quantum est simulitudo
+<lb ed="Bd" n="6"/>bonitatis divine : et ideo bonitas Dei
+<lb ed="Bd" n="7"/>que Deus est, hoc facit. Item, gratia 
+for<lb break="no" ed="Bd" n="8"/>me sue et rationis: quia non per 
+acci<lb break="no" ed="Bd" n="9"/>dens diigimus, sed propter ipsum in
+<lb ed="Bd" n="10"/>quantum ipsum est. Item, finalem : quta
+<lb ed="Bd" n="11"/>non propter aliud. Et hoc patet etiam per
+<lb ed="Bd" n="12"/>oppositorum negationem: quia non ab
+<lb ed="Bd" n="13"/>alio, non per acciders, non propter
+<lb ed="Bd" n="14"/>aliud. In dilecltione autem honesti vel
+<lb ed="Bd" n="15"/>amicorum non conecurrunt ista tria, sed
+<lb ed="Bd" n="16"/>tantum medium, scilicet quia non 
+diligi<lb break="no" ed="Bd" n="17"/>mus per accidens, Et hoc ostensum est
+<lb ed="Bd" n="18"/>inhbrol Sententiarum', ubi queeritur,
+<lb ed="Bd" n="19"/>utrum virtutibus sit fruendum vel 
+uten<lb break="no" ed="Bd" n="20"/>dum ?
+</p>
+            <p xml:id="alalal-f00547-d1e790">
+               <lb ed="Bd" n="21"/>Av ip quod objicitur de secunda s, 
+di<lb break="no" ed="Bd" n="22"/>cendum quod illa datur per actum 
+chari<lb break="no" ed="Bd" n="23"/>tatis vie ordinate ad patriam. [la autem
+<lb ed="Bd" n="24"/>visio est amati et habiti, et est visio 
+pa<lb break="no" ed="Bd" n="25"/>scens : et ideo respondet soli fidei, sed 
+per<lb break="no" ed="Bd" n="26"/>ficitur potius in conjunctione per 
+amo<lb break="no" ed="Bd" n="27"/>rem : etideo diffinitur charitas per illam.
+</p>
+            <p xml:id="alalal-f00547-d1e808">
+               <lb ed="Bd" n="28"/>Ad aliud dicendum, quod non 
+super<lb break="no" ed="Bd" n="29"/>fluit per/rui : quia frat dicit nhesionem
+<lb ed="Bd" n="30"/>et gustum consequentem amatum, quod
+<lb ed="Bd" n="31"/>est visum et habitum: et quia addit 
+gu<lb break="no" ed="Bd" n="32"/>stum dulecdinis, ideo non abundat.
+</p>
+            <p xml:id="alalal-f00547-d1e822">
+               <lb ed="Bd" n="33"/>Ad aliud dicendum, quod licet ad frui
+<lb ed="Bd" n="34"/>concurrant omnes virtutes, tamen nulla
+<lb ed="Bd" n="35"/>concurrit ut finis et perfectio ipsius, nisi
+<lb ed="Bd" n="36"/>charitas : sed potius alie sunt ut 
+disposi<lb break="no" ed="Bd" n="37"/>tiones preparanics subjectum : et ideo
+<lb ed="Bd" n="38"/>maxime cadtt in diffinitione charitatis.
+</p>
+            <p xml:id="alalal-f00547-d1e838">
+               <lb ed="Bd" n="39"/>Ad aliud dicendum, quod nihil 
+prohi<lb break="no" ed="Bd" n="40"/>bet diversis rationibus idem esse in 
+diffi<lb break="no" ed="Bd" n="41"/>nitione alterius, ete converso. Cum enim
+<lb ed="Bd" n="42"/>charitas ponitur in diffinitione ejus quod
+<lb ed="Bd" n="43"/>est frui, ponitur ut causa perliciens 
+ac<lb break="no" ed="Bd" n="44"/>tum fruitionis ex parte fruitionis. Cum
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="45"/>autem <mentioned>frui</mentioned> ponitur in diffinitione 
+chari<lb break="no" ed="Bd" n="46"/>tatis, ponitur frui in ratione affectus 
+ul<lb break="no" ed="Bd" n="47"/>tim1i ad quem est charitas. Et ideo 
+chari<lb break="no" ed="Bd" n="48"/>tas est prius, quam frui simpliciter :
+<lb ed="Bd" n="49"/>autem prius charitate quoad nos.
+</p>
+            <p xml:id="alalal-f00547-d1e869">
+               <lb ed="Bd" n="50"/>Ad aliud dicendum, quod desiderium
+<lb ed="Bd" n="51"/>sumitur hic communiter, et non proprie,
+<lb ed="Bd" n="52"/>et ideo potest dicere appetitum rationalis
+<lb ed="Bd" n="53"/>anime, sicut ibi, Coneupivit anima mea
+<lb ed="Bd" n="54"/>desiderare justificationes twas in omni
+<lb ed="Bd" n="55"/>tempore &gt;: ubi coneupivié dicit actum
+<lb ed="Bd" n="56"/>imperfectum gratiae gratis date, et cordis
+<lb ed="Bd" n="57"/>in desiderium Dei : desiderare autem 
+di<lb break="no" ed="Bd" n="58"/>cit appetitum gratiae gratam facientis.
+</p>
+            <p xml:id="alalal-f00547-d1e891">
+               <lb ed="Bd" n="59"/>Ad aliud puto esse concedendum, quod
+<lb ed="Bd" n="60"/>diffinitur per actum imperfectum : quia
+<lb ed="Bd" n="61"/>diffinitio datur de charitate vie ordinata
+<lb ed="Bd" n="62"/>ad patriam.
+</p>
+            <p xml:id="alalal-f00547-d1e902">
+               <lb ed="Bd" n="63"/>Ad id quod ulterius de alia diffinitione !
+<lb ed="Bd" n="64"/>objicitur, quod illa sicut etiam duae 
+se<lb break="no" ed="Bd" n="65"/>quentes, dantur de amore in genere, qui
+<lb ed="Bd" n="66"/>exprimitur cum dicitur, <quote xml:id="alalal-f00547-Qd1e912"> Bonum est quod
+<lb ed="Bd" n="67"/>omnia appetunt vel optant : </quote> iste enim
+<lb ed="Bd" n="68"/>appetitus manifestatur diversimode, 
+seili<lb break="no" ed="Bd" n="69"/>cet per ordinem solum et motum, sicut
+<lb ed="Bd" n="70"/>in natura : vel per motum et vitam, sicut
+<lb ed="Bd" n="71"/>in vegetabilibus : vol per ordinem et 
+vi<lb break="no" ed="Bd" n="72"/>tam sensibilem cum cognitione boni, 
+sic<lb break="no" ed="Bd" n="73"/>ut in sensibilibus : vel cum his etiam
+<lb ed="Bd" n="74"/>habet boni cognitionem rationis, quae est
+<lb ed="Bd" n="75"/>simpliciter boni, et est intellectualis. Si
+<lb ed="Bd" n="76"/>autem cum intellectu deiformi boni extra
+<lb ed="Bd" n="77"/>se: tunc est angelicus. Divinus autem est
+<lb ed="Bd" n="78"/>appetitus boni cogniti, quod totum est
+<lb ed="Bd" n="79"/>intra, et est idem cognoscenti et 
+appe<lb break="no" ed="Bd" n="80"/>tenti.
+</p>
+            <p xml:id="alalal-f00547-d1e947">
+               <lb ed="Bd" n="81"/>Ad primum dicendum, quod amor dese
+<lb ed="Bd" n="82"/>non ordinat : sed motus ipsius est duplex,
+<lb ed="Bd" n="83"/>scilicet ut diffundat bonum quod est 
+in<lb break="no" ed="Bd" n="84"/>tus, et sic movet amantem. Habens 
+au<lb break="no" ed="Bd" n="85"/>tem bonum in eo quod hujusmodi, 
+su<lb break="no" ed="Bd" n="86"/>perius est. Unde talis diffusio est super
+<lb ed="Bd" n="87"/>inferiora alitera Deo, aliter ab Angelo,
+<lb ed="Bd" n="88"/>et aliter a natura superiori: a Deo enim
+<pb ed="#Bd" n="521"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>per creationem et recreationem, ab 
+An<lb break="no" ed="Bd" n="2"/>gelo per illuminationem, a natura per 
+mo<lb break="no" ed="Bd" n="3"/>tum quo superiora influunt in inferiora,
+<lb ed="Bd" n="4"/>Alius motus est ad bonum quod est extra,
+<lb ed="Bd" n="5"/>secundum quod dicitur, quod omnia 
+bo<lb break="no" ed="Bd" n="6"/>num appetunt : extra quod autem bonum
+<lb ed="Bd" n="7"/>est, hoc est inferius : et ideo ex illo 
+con<lb break="no" ed="Bd" n="8"/>sequitur ordo inferioris ad superiora: et
+<lb ed="Bd" n="9"/>hoc intendit Dionysius, et optime dicit.
+<lb ed="Bd" n="10"/>Unde ordo duplex consequitur ordinem
+<lb ed="Bd" n="11"/>amoris communicantis bonum, vel 
+reci<lb break="no" ed="Bd" n="12"/>pientis.
+</p>
+            <p xml:id="alalal-f00547-d1e998">
+               <lb ed="Bd" n="13"/>Ad aliud dicendum, quod providentia
+<lb ed="Bd" n="14"/>dicitur hic materialiter pro re in qua 
+pro<lb break="no" ed="Bd" n="15"/>videtur inferioribus : hac enim res est
+<lb ed="Bd" n="16"/>bonum influxum, et hac competit amori
+<lb ed="Bd" n="17"/>diffundenti se in bonuin.
+</p>
+            <p xml:id="alalal-f00547-d1e1011">
+               <lb ed="Bd" n="18"/>Ad aliud dicendum, quod intellectualis
+<lb ed="Bd" n="19"/>dicit appetitum boni cum ratione 
+cogni<lb break="no" ed="Bd" n="20"/>tionis ejus quod simpliciter est bonum :
+<lb ed="Bd" n="21"/>animalis autem dicitur sensibilis, quinon
+<lb ed="Bd" n="22"/>cognoscit bonum, nisi ut nunc.
+</p>
+            <p xml:id="alalal-f00547-d1e1024">
+               <lb ed="Bd" n="23"/>Ad sLiuD patet solutio per ante dicta.
+</p>
+            <p xml:id="alalal-f00547-d1e1029">
+               <lb ed="Bd" n="24"/>Ad id quod objicitur de alia 
+diffinitio<lb break="no" ed="Bd" n="25"/>ne, dicendum quod licet contraria se
+<lb ed="Bd" n="26"/>refugiant, tamen actione et passione 
+mu<lb break="no" ed="Bd" n="27"/>tua continuant esse in generabilibus et 
+cor<lb break="no" ed="Bd" n="28"/>ruptibilibus : et ex haec parte ipsa 
+contra<lb break="no" ed="Bd" n="29"/>rietas redit in vinculum amoris 
+universi<lb break="no" ed="Bd" n="30"/>tatis, sicut dicit Boetius:
+<lb ed="Bd" n="31"/>
+               <quote xml:id="alalal-f00547-Qd1e1048">Tu numeris elementa ligas, ut frigora flammis,
+<lb ed="Bd" n="32"/>Arida conveniant liquidis, ne puzior ignis
+<lb ed="Bd" n="33"/>Evolet, et mersas deducant pondere terras.</quote>
+            </p>
+            <p xml:id="alalal-f00547-d1e1056">
+               <lb ed="Bd" n="34"/>Av ww quod objicitur de sequenti, 
+di<lb break="no" ed="Bd" n="35"/>cendum, quod illa datur penes actum
+<lb ed="Bd" n="36"/>amoris naturalis : et ideo motus non 
+po<lb break="no" ed="Bd" n="37"/>nitur in diffinitione illa. Unde non 
+proce<lb break="no" ed="Bd" n="38"/>dit illa objectio.
+</p>
+            <p xml:id="alalal-f00547-d1e1069">
+               <lb ed="Bd" n="39"/>Ad aliud dicendum, quod non dicitur
+<lb ed="Bd" n="40"/>aequivoce, sed per prius et per posterius :
+<lb ed="Bd" n="41"/>et per prius dicitur de divino, et de illis
+<lb ed="Bd" n="42"/>aliis secundum accessum ad illum plus vel
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="43"/>minus : unde charitas angelica quae est
+<lb ed="Bd" n="44"/>patria, magis habet de ratione amoris,
+<lb ed="Bd" n="45"/>quam viz quae est intellectualis : et huic
+<lb ed="Bd" n="46"/>etiam(ut dicit Augustinus) contendit 
+assi<lb break="no" ed="Bd" n="47"/>milari in quantum potest amor sensibilis
+<lb ed="Bd" n="48"/>et naturalis, licet quandoque deflectatur.
+</p>
+            <p xml:id="alalal-f00547-d1e1096">
+               <lb ed="Bd" n="49"/>Ad id quod ulterius quaeritur de 
+diffini<lb break="no" ed="Bd" n="50"/>tione Apostoli, dicendum quod illa 
+dif<lb break="no" ed="Bd" n="51"/>finitio data est penes ea quae generant
+<lb ed="Bd" n="52"/>charitatem in nobis. Charitas autem (ut
+<lb ed="Bd" n="53"/>supra habitum est) est efficiens et forma :
+<lb ed="Bd" n="54"/>quia aliquid de se et de sua forma influit
+<lb ed="Bd" n="55"/>omnibus operibus et virtutibus 
+merito<lb break="no" ed="Bd" n="56"/>riis. Finis autem est consummationis sive
+<lb ed="Bd" n="57"/>perfectionis. Et ideo dicit Apostolus, quod
+<lb ed="Bd" n="58"/>charitas est vinculum perfectionis : et
+<lb ed="Bd" n="59"/>hoe accidit in ea dupliciter. Uno modo
+<lb ed="Bd" n="60"/>effective : et ille modus est facilis, quia
+<lb ed="Bd" n="61"/>conjungit cum fine ullimo : et sic dicitur
+<lb ed="Bd" n="62"/>finis et vinculum, quia finiendo ligat
+<lb ed="Bd" n="63"/>cum perfecto summo. Alio modo et 
+ob<lb break="no" ed="Bd" n="64"/>scurius, quia ipsa est finis ad quem 
+ten<lb break="no" ed="Bd" n="65"/>dunt omnes, ut in ipsa conjungantur
+<lb ed="Bd" n="66"/>perfectioni : omnes enim sunt ad hoc ut
+<lb ed="Bd" n="67"/>affectus conjungatur summo bono: est
+<lb ed="Bd" n="68"/>autem ultima conjunctio per amorem,
+<lb ed="Bd" n="69"/>sicut patet, cum diffinitur /rzz, quod est
+<lb ed="Bd" n="70"/>amore inherere propter se : ergo omnes
+<lb ed="Bd" n="71"/>virtutes et praecepta et opera sic tendunt
+<lb ed="Bd" n="72"/>in ipsam, et per ipsam junguntur fini: et
+<lb ed="Bd" n="73"/>sic ipsa est finis aliorum, qui finis est ut
+<lb ed="Bd" n="74"/>terminus : et per ipsam veniunt alia ad
+<lb ed="Bd" n="75"/>finem increatum, qui est summum 
+bo<lb break="no" ed="Bd" n="76"/>num objectum fruitioni : et ideo nihil est
+<lb ed="Bd" n="77"/>inconveniens, quod ab ipsa sit motus, ut
+<lb ed="Bd" n="78"/>est efficiens et forma : et ad ipsam ut est
+<lb ed="Bd" n="79"/>finis.
+</p>
+            <p xml:id="alalal-f00547-d1e1166">
+               <lb ed="Bd" n="80"/>Ad aliud dicendum, quod charitas 
+di<lb break="no" ed="Bd" n="81"/>citur radix in qua tota planta vite et 
+alia<lb break="no" ed="Bd" n="82"/>rum virtutum capit incrementum 
+dulce<lb break="no" ed="Bd" n="83"/>dinis : nihil enim facit suave jugum 
+diffi<lb break="no" ed="Bd" n="84"/>cultatis in omnibus aliis, nisi affectus 
+bo<lb break="no" ed="Bd" n="85"/>nitatis divine, quiest charitas : et 
+secun<lb break="no" ed="Bd" n="86"/>dum hune modum est ipsa principium
+<pb ed="#Bd" n="522"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>quoddam : sed alio modo est finis ad
+<lb ed="Bd" n="2"/>quem ordinantur virtutes, ut dictum est.
+<lb ed="Bd" n="3"/>Tamen Glossa videtur exponere effective,
+<lb ed="Bd" n="4"/>qu dicit, <quote xml:id="alalal-f00547-Qd1e1196"> Ipsa est finis non 
+consum<lb break="no" ed="Bd" n="5"/>ptionis, sed consummationis : quia qui
+<lb ed="Bd" n="6"/>habet charitatem, totam implet legem. </quote>
+               <lb ed="Bd" n="7"/>Unde etiam Glossa distinguit multiplicem
+<lb ed="Bd" n="8"/>finem, scilicet consumptionis, sicut finitus
+<lb ed="Bd" n="9"/>est panis quando est commestus, et 
+dila<lb break="no" ed="Bd" n="10"/>talionis, sicut finitur pannus ad ultimum
+<lb ed="Bd" n="11"/>panni, et quodlibet corpus in suis 
+ulti<lb break="no" ed="Bd" n="12"/>mis: et consummationis, sicut in quo res
+<lb ed="Bd" n="13"/>consummatur, id est, plene perficitur : et
+<lb ed="Bd" n="14"/>sic charitas dicitur finis. Et dicitar adhuc
+<lb ed="Bd" n="15"/>allis modis finis, sicut cujus gratia est
+<lb ed="Bd" n="16"/>motus, vel quidquid est : et sic Deus est
+<lb ed="Bd" n="17"/>finis. Et dicitur quinto finis, sicut termi~
+<lb ed="Bd" n="18"/>nans motum in quo est motus in motum
+<lb ed="Bd" n="19"/>esse: et sic hoc modo etiam subtiliter
+<lb ed="Bd" n="20"/>intelligendo potest dici charitas finis 
+om<lb break="no" ed="Bd" n="21"/>nis operis boni et virtutis, quia alice 
+refc<lb break="no" ed="Bd" n="22"/>runtur ad ipsam, et ipsa unitur bonitati
+<lb ed="Bd" n="23"/>que finis est et est unio ejus fructus et
+<lb ed="Bd" n="24"/>gustus,
+</p>
+            <p xml:id="alalal-f00547-d1e1243">
+               <lb ed="Bd" n="25"/>Ad aliud dicendum, quod consilium
+<lb ed="Bd" n="26"/>non respicit omnes sicut praeceptum : et
+<lb ed="Bd" n="27"/>ideo ipsa non diffinitur per hoc: quia
+<lb ed="Bd" n="28"/>non est finis consilii, nisi in quibusdam.
+</p>
+            <p xml:id="alalal-f00547-d1e1254">
+               <lb ed="Bd" n="29"/>Ad aliud dicendum, quod multi circa
+<lb ed="Bd" n="30"/>hoc multa exponendo dixecrunt: sed illa
+<lb ed="Bd" n="31"/>videtur mihi melior quae est in Glossa, ut
+<lb ed="Bd" n="32"/>cor pro intellectu ponatur : et sit puritas
+<lb ed="Bd" n="33"/>ejus separatio dilecti ab aliis, quae secum
+<lb ed="Bd" n="34"/>non nisi impure diligi possunt : et sic 
+ex<lb break="no" ed="Bd" n="35"/>ponit Glossa: <quote xml:id="alalal-f00547-Qd1e1271"> Conscientia autem bona
+<lb ed="Bd" n="36"/>sil spes fundata in bona conscientia, et
+<lb ed="Bd" n="37"/>fides non ficta sit quae non fingit sibi
+<lb ed="Bd" n="38"/>phantasmata alio modo diligibilia : nec
+<lb ed="Bd" n="39"/>dicit diligere a quo cedit propter adversa. </quote>
+               <lb ed="Bd" n="40"/>Et tune dicendum est ad primum quod
+<lb ed="Bd" n="41"/>objicitur contra, quod licet charitas sit ab
+<lb ed="Bd" n="42"/>affectu, non ab intellectu, tamen aliquid
+<lb ed="Bd" n="43"/>habet ab intellectu, scilicet separationem
+<lb ed="Bd" n="44"/>dilecti ab ahis, quee amari possunt : hoc
+<lb ed="Bd" n="45"/>enim fit per intellectum discernentem 
+in<lb break="no" ed="Bd" n="46"/>ter diligibilia.
+</p>
+            <p xml:id="alalal-f00547-d1e1298">
+               <lb ed="Bd" n="47"/>Ad aliud dicendum, quod fides 
+purifi<lb break="no" ed="Bd" n="48"/>cat intellectum, et cor ab erroribus et
+<lb ed="Bd" n="49"/>heresibus : sed a diligibilibus adulterinis
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>non purificat fides, sed affectus charitatis,
+<lb ed="Bd" n="51"/>quée unum sic ponit in pretio, quod alia
+<lb ed="Bd" n="52"/>vilescant in comparatione ipsius.
+</p>
+            <p xml:id="alalal-f00547-d1e1316">
+               <lb ed="Bd" n="53"/>Av atiup dicendum, quod Glossa bene
+<lb ed="Bd" n="54"/>concedit, quod conscientia bona 
+causali<lb break="no" ed="Bd" n="55"/>ter dicit spem, quia fides fundatur in 
+con<lb break="no" ed="Bd" n="56"/>scientia bona. Et quod objicitur de ordine,
+<lb ed="Bd" n="57"/>dicendum, quod ista ordinantur 
+secun<lb break="no" ed="Bd" n="58"/>dum motum generationis, qui est a malo
+<lb ed="Bd" n="59"/>in perfectam conjunctionem boni. Purum
+<lb ed="Bd" n="60"/>autem respicilt terminum a quo, quia 
+di<lb break="no" ed="Bd" n="61"/>cif separationem ab impuro, et ideo 
+po<lb break="no" ed="Bd" n="62"/>nitur primo. Et conscquenter sequitur
+<lb ed="Bd" n="63"/>ordo in bonum et verum : sed duplex est
+<lb ed="Bd" n="64"/>ordo in verum, scilicet in verum 
+simpli<lb break="no" ed="Bd" n="65"/>citer, vel conjunctionem ad verum fir~
+<lb ed="Bd" n="66"/>mam vel fortem, et ad inhmsionem : et
+<lb ed="Bd" n="67"/>lla quae est ad verum simpliciter, 
+praece<lb break="no" ed="Bd" n="68"/>dit spem, quae dicit ordinem in bonum,
+<lb ed="Bd" n="69"/>Aliain autem precedit spes, quae elevat
+<lb ed="Bd" n="70"/>confirmando bona conscientia, ut firmetur
+<lb ed="Bd" n="71"/>in veritate, avertente simul a vanitate
+<lb ed="Bd" n="72"/>mundi et falsitate erroris: et hoc modo
+<lb ed="Bd" n="73"/>sumitur hic fides non ficta : et hoc notat
+<lb ed="Bd" n="74"/>Glossa quae dupliciter exponit, id est,
+<lb ed="Bd" n="75"/>non fragilis in adversis, ut recedat a 
+di<lb break="no" ed="Bd" n="76"/>lecto, et non fingens vana quae sequatur
+<lb ed="Bd" n="77"/>praeter dilectum. Ex his enim egreditur
+<lb ed="Bd" n="78"/>intimus motus affectus in Deum, qui est
+<lb ed="Bd" n="79"/>charitas omnium finis et conjungens Deo.
+<lb ed="Bd" n="80"/>Alii dicunt, quod ordinantur hac tria 
+se<lb break="no" ed="Bd" n="81"/>cundum dignilatem, et non secundum
+<lb ed="Bd" n="82"/>tempus, vel generationem: et dicunt,
+<lb ed="Bd" n="83"/>quod puritas intellectus est dignissima,
+<lb ed="Bd" n="84"/>quia est ex conscientia bona : et illa 
+ite<lb break="no" ed="Bd" n="85"/>rum melhor, quam fides non ficta ex qua
+<lb ed="Bd" n="86"/>ipsa est. Sed falsum supponunt : quia
+<lb ed="Bd" n="87"/>fides non ficta eo modo quo exponit 
+Glos<lb break="no" ed="Bd" n="88"/>sa, nihil habet melius praeter solum 
+affe<lb break="no" ed="Bd" n="89"/>ctum finalis dilectionis, quo conjunguntur
+<lb ed="Bd" n="90"/>omnia summe bonitat..
+</p>
+            <p xml:id="alalal-f00547-d1e1402">
+               <lb ed="Bd" n="91"/>Ad aliud dicendum, quod omne 
+bo<lb break="no" ed="Bd" n="92"/>num meritum est ex gratia et charitate,
+<lb ed="Bd" n="93"/>ut gratia faciat gratum, et charitas faciat
+<lb ed="Bd" n="94"/>quantitatem valoris, ut supra diximus :
+<lb ed="Bd" n="95"/>tamen charitas ut est finis, non absolute
+<lb ed="Bd" n="96"/>procedit etiam ex bonis meritis actu, vel
+<lb ed="Bd" n="97"/>causa habitualiter existentibus in 
+con<lb break="no" ed="Bd" n="98"/>scientia.
+</p>
+            <p xml:id="alalal-f00547-d1e1422">
+               <pb ed="#Bd" n="523"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Ad aliud dicendum, quod puritas 
+attri<lb break="no" ed="Bd" n="2"/>buitur cordi: quia intellectus per 
+discre<lb break="no" ed="Bd" n="3"/>tionem quam ponit circa dirigibile, 
+pri<lb break="no" ed="Bd" n="4"/>mo separat ab impure dilectis. Spei 
+au<lb break="no" ed="Bd" n="5"/>tem bonum non attribuitur, sed bona 
+<lb ed="Bd" n="6"/>conscientia, quia specialiter illi innititur. dicta.
+</p>
+            <p xml:id="alalal-f00547-d1e1442">
+               <lb ed="Bd" n="7"/>Ad aliud dicendum, quod nihil 
+prohi<lb break="no" ed="Bd" n="8"/>bet, quod fides non ficta operetur per 
+di<lb break="no" ed="Bd" n="9"/>lectionem, et finiatur in ipsa, ut diximus
+<lb ed="Bd" n="10"/>supra.
+</p>
+            <p xml:id="alalal-f00547-d1e1453">
+               <lb ed="Bd" n="11"/>Ad alias diffinitiones patet solutio per
+<lb ed="Bd" n="12"/>dicta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

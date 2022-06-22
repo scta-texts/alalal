@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="78"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c14638"><!-- l1d29a4 -->
+            <head xml:id="alalal-c14638-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-c14638-Hd1e101" type="question-title">An Pater et Filius sint unum 
+principium Spiritus sancti, vel plura?</head>
+            <p xml:id="alalal-c14638-d1e104">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="26"/>ARTICULUS IV.
+<lb ed="#Bb" n="27"/>An Pater et Filius sint unum 
+princi<lb break="no" ed="#Bb" n="28"/>pium Spiritus sancti, vel plura?
+</p>
+            <p xml:id="alalal-c14638-d1e115">
+               <lb ed="#Bb" n="29"/>Deinde queritur de hoc quod dicit :
+<lb ed="#Bb" n="30"/>
+               <quote xml:id="alalal-c14638-Qd1e121"> Pater et Filius principium sunt 
+Spiri<lb break="no" ed="#Bb" n="31"/>tus sancti, etc. </quote>
+            </p>
+            <p xml:id="alalal-c14638-d1e127">
+               <lb ed="#Bb" n="32"/>Aut igitur sunt unum  principium,
+<cb ed="#Bb" n="c"/>
+               <lb ed="#Bb" n="33"/>aut plura. Si plura principia : hoc 
+ne<lb break="no" ed="#Bb" n="34"/>gatur in Litfera capitulo ultimo et 
+pen<lb break="no" ed="#Bb" n="35"/>ultimo istius distinctionis. Si autem
+<lb ed="#Bb" n="36"/>unum sunt principium.
+</p>
+            <p xml:id="alalal-c14638-d1e144">
+               <lb ed="#Bb" n="37"/>Contra :
+<lb ed="#Bb" n="38"/>1. Quecumque numerantur, accipiunt
+<lb ed="#Bb" n="39"/>numeruma suppositis :sed Pater et 
+Fi<lb break="no" ed="#Bb" n="40"/>hus dicuntur plura supposita, ergo cum
+<lb ed="#Bb" n="41"/>ly princtpium ponatur in suppositis illis,
+<lb ed="#Bb" n="42"/>necessario accipit pluralitatem et sic
+<lb ed="#Bb" n="43"/>Pater et Filius sunt plura principia 
+Spi<lb break="no" ed="#Bb" n="44"/>ritus sancti.
+</p>
+            <p xml:id="alalal-c14638-d1e164">
+               <pb ed="#Bb" n="79"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>2. Item, Si sunt unum principium :
+<lb ed="#Bb" n="2"/>aut unum quod est Pater, aut unum
+<lb ed="#Bb" n="3"/>quod non est Pater. Si unum quod est
+<lb ed="#Bb" n="4"/>Pater : ergo Pater et Filius sunt Pater,
+<lb ed="#Bb" n="5"/>quod falsum est. Si unum quod non est
+<lb ed="#Bb" n="6"/>Pater: ergo Pater non est p rincipium 
+Spi<lb break="no" ed="#Bb" n="7"/>ritus sancti, quod iterum falsum est : 
+er<lb break="no" ed="#Bb" n="8"/>go in illo sunt unum Spiritus sancti
+<lb ed="#Bb" n="9"/>principium.
+</p>
+            <p xml:id="alalal-c14638-d1e190">
+               <lb ed="#Bb" n="10"/>3. Item, Aut principium dicit 
+essen<lb break="no" ed="#Bb" n="11"/>tiam, aut notionem, aut personam. Si
+<lb ed="#Bb" n="12"/>essentiam : ergo conveniret etiam 
+Spiri<lb break="no" ed="#Bb" n="13"/>tui sancto, quod falsum est. Si 
+notio<lb break="no" ed="#Bb" n="14"/>nem. Contra : Proprietas una numero
+<lb ed="#Bb" n="15"/>non convenit distinctis suppositis : Pater
+<lb ed="#Bb" n="16"/>autem et Filius sunt distincta supposita :
+<lb ed="#Bb" n="17"/>ergo non determinantur notione una. Si
+<lb ed="#Bb" n="18"/>personam : tunc Pater et Filius erunt
+<lb ed="#Bb" n="19"/>persona una, quod iterum falsum est :
+<lb ed="#Bb" n="20"/>ergo nullo modo Pater et Filius sunt
+<lb ed="#Bb" n="21"/>principium unum.
+</p>
+            <p xml:id="alalal-c14638-d1e219">
+               <lb ed="#Bb" n="22"/>Praeterea, Si unum sunt principium,
+<lb ed="#Bb" n="23"/>quid unit eos in ratione principii? nihil
+<lb ed="#Bb" n="24"/>enim uniens est personas in divinis nisi
+<lb ed="#Bb" n="25"/>essentia : ergo videtur, quod spirant
+<lb ed="#Bb" n="26"/>Spiritum sanctum, in quantum sunt
+<lb ed="#Bb" n="27"/>unum in essentia : et hoc expresse dicit
+<lb ed="#Bb" n="28"/>Anselmus. Sed cum unum essentia cum
+<lb ed="#Bb" n="29"/>eis sit Spiritus sanctus, sequitur ex hoc
+<lb ed="#Bb" n="30"/>quod ipse spiret Spiritum sanctum : et
+<lb ed="#Bb" n="31"/>hoc falsum est.
+</p>
+            <p xml:id="alalal-c14638-d1e243">
+               <lb ed="#Bb" n="32"/>Solutio. Notandum, quod circa istud
+<lb ed="#Bb" n="33"/>quinque sunt opiniones diverse.
+</p>
+            <p xml:id="alalal-c14638-d1e250">
+               <lb ed="#Bb" n="34"/>Quidam dicunt, quod cum dicitur, 
+Pa<lb break="no" ed="#Bb" n="35"/>ter et Filius sunt unum principium 
+Spiri<lb break="no" ed="#Bb" n="36"/>tus sancti, quod ly unum dicit unitatem
+<lb ed="#Bb" n="37"/>essentie. Et illi innituntur auctoritati
+<lb ed="#Bb" n="38"/>Anselmi. Et ad argumentum quod 
+con<lb break="no" ed="#Bb" n="39"/>tra est factum, respondent quod dicit
+<lb ed="#Bb" n="40"/>unitatem essentiea non simpliciter, sed
+<lb ed="#Bb" n="41"/>in personis Patris et Filii prout se habent
+<lb ed="#Bb" n="42"/>uno modo ad Spiritum sanctum quem
+<lb ed="#Bb" n="43"/>Spirant : et licet sit eadem essentia in
+<lb ed="#Bb" n="44"/>Spiritu sancto, non tamen comparatur
+<lb ed="#Bb" n="45"/>adidem, quia non ad eamdem rationem
+<lb ed="#Bb" n="46"/>principii : et illi necesse habent dicere,
+<lb ed="#Bb" n="47"/>quod principium dicat rationem quae est
+<lb ed="#Bb" n="48"/>ratio actus spirandisecundum quod est in
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="49"/>Patre et Filio, et unum sunt in essentia.
+<lb ed="#Bb" n="50"/>Et haec opinio non est multum 
+irrationa<lb break="no" ed="#Bb" n="51"/>bilis, licet quidam reprobent eam ex hoc
+<lb ed="#Bb" n="52"/>quod non videtur bene esse intellecta in
+<lb ed="#Bb" n="53"/>expositione, qua hic exposita est.
+</p>
+            <p xml:id="alalal-c14638-d1e299">
+               <lb ed="#Bb" n="54"/>Ahi dicunt, quod ly unum dicit hic 
+uni<lb break="no" ed="#Bb" n="55"/>tatem convenientiae,  et non unitatem 
+es<lb break="no" ed="#Bb" n="56"/>sentiae, vel persone, vel notionis: et ideo
+<lb ed="#Bb" n="57"/>sensus est, Pater et Filius sunt unum
+<lb ed="#Bb" n="58"/>principium, hoc est, sunt uno principium:
+<lb ed="#Bb" n="59"/>ut sumatur wm quasi adverbialiter. Et
+<lb ed="#Bb" n="60"/>hoc nihil est : quia unitas convenientie
+<lb ed="#Bb" n="61"/>non facit notionem unam numero : 
+con<lb break="no" ed="#Bb" n="62"/>stat autem, quod una notio numero est
+<lb ed="#Bb" n="63"/>qua Pater et Filius spirant Spiritum 
+san<lb break="no" ed="#Bb" n="64"/>ctum, sicut in tractatu de Spiritu sancto
+<lb ed="#Bb" n="65"/>est ostensum.
+</p>
+            <p xml:id="alalal-c14638-d1e328">
+               <lb ed="#Bb" n="66"/>Alii dicunt, quod unum notat 
+tan<lb break="no" ed="#Bb" n="67"/>tum signum unionis in amore, ut sit
+<lb ed="#Bb" n="68"/>sensus, Pater et Filius sunt unum 
+prin<lb break="no" ed="#Bb" n="69"/>cipium Spiritus sancti, hoc est, 
+Spiri<lb break="no" ed="#Bb" n="70"/>tus sanctus signum est, quod sit ab eis
+<lb ed="#Bb" n="71"/>in quantum unum sunt : quia sicut
+<lb ed="#Bb" n="72"/>ab eodem in quantum idem, non esi nisi
+<lb ed="#Bb" n="73"/>unum : ita unum in quantum unum, non
+<lb ed="#Bb" n="74"/>est a diversis in quantum diversa sunt :
+<lb ed="#Bb" n="75"/>et hance introduxit Simon Tornacensis.
+</p>
+            <p xml:id="alalal-c14638-d1e352">
+               <lb ed="#Bb" n="76"/>Quarti dicunt, quod unum 
+princi<lb break="no" ed="#Bb" n="77"/>pium est nomen ad hoc specialiter 
+in<lb break="no" ed="#Bb" n="78"/>ventum, ut ipso exprimatur modus 
+exi<lb break="no" ed="#Bb" n="79"/>stentiae Spiritus sancti a Patre et Filio :
+<lb ed="#Bb" n="80"/>et ideo non requirit numerum pluralem
+<lb ed="#Bb" n="81"/>propter distinctionem suppositorum :
+<lb ed="#Bb" n="82"/>quia est inventum ut ipso exprimatur
+<lb ed="#Bb" n="83"/>modus existentiae Spiritus sancti a Patre
+<lb ed="#Bb" n="84"/>et Filio : et ideo non requirit numerum
+<lb ed="#Bb" n="85"/>pluralem propter distinctionem 
+supposi<lb break="no" ed="#Bb" n="86"/>torum, quia est inventum ad hoc quod
+<lb ed="#Bb" n="87"/>dicat unitatem notionis in duobus 
+sup<lb break="no" ed="#Bb" n="88"/>positis. Sed si ab istis queratur ratio 
+in<lb break="no" ed="#Bb" n="89"/>ventionis hujus nominis potius quam
+<lb ed="#Bb" n="90"/>alterius, tunc oportet eos redire ad 
+que<lb break="no" ed="#Bb" n="91"/>stionem : et ideo inter omnes ista opinio
+<lb ed="#Bb" n="92"/>minus probabilis est.
+</p>
+            <p xml:id="alalal-c14638-d1e391">
+               <lb ed="#Bb" n="93"/>Quinti dicunt, et hoc mihi magis placet,
+<lb ed="#Bb" n="94"/>quod dicit unitatem notionis in duobus
+<lb ed="#Bb" n="95"/>suppositis unitis in natura, et in vi 
+spira<lb break="no" ed="#Bb" n="96"/>tiva vel principiativa Spiritus sancti.
+</p>
+            <p xml:id="alalal-c14638-d1e402">
+               <lb ed="#Bb" n="97"/>Et secunpum hane respondendum est
+<pb ed="#Bb" n="80"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>ad primum, quod ly principium 
+deter<lb break="no" ed="#Bb" n="2"/>minat personam Patris et Filii, non in eo
+<lb ed="#Bb" n="3"/>quod distinctae sunt, eo quod ratio 
+dis<lb break="no" ed="#Bb" n="4"/>tinctionis earum non est ratio quare sit
+<lb ed="#Bb" n="5"/>ab eis Spiritus sanctus: quia paternitas
+<lb ed="#Bb" n="6"/>dicit rationem communem qua Filius est
+<lb ed="#Bb" n="7"/>a Patre, et filiatio dicit rationem quare
+<lb ed="#Bb" n="8"/>se habet Filius ad Patrem: sed in eo 
+de<lb break="no" ed="#Bb" n="9"/>terminatur a principio quod est in eis
+<lb ed="#Bb" n="10"/>vis spirativa: et quia in illo unum sunt
+<lb ed="#Bb" n="11"/>Pater et Filius, ideo non potest trahere
+<lb ed="#Bb" n="12"/>numerum principium denotans illud a
+<lb ed="#Bb" n="13"/>pluralitate suppositorum. Et est simile,
+<lb ed="#Bb" n="14"/>sicut si ponamus Paulum et Joannem
+<lb ed="#Bb" n="15"/>esse unum in essentia, et diversos in 
+per<lb break="no" ed="#Bb" n="16"/>sonis, at esse aliquid ab eis in quantum
+<lb ed="#Bb" n="17"/>unum : illud enim non pluraliter 
+predi<lb break="no" ed="#Bb" n="18"/>cabitur de ipsis : quia licet conveniat 
+sup<lb break="no" ed="#Bb" n="19"/>positis illorum facere illud et non 
+essen<lb break="no" ed="#Bb" n="20"/>tiae,  ratio tamen illius non sumitur a 
+ra<lb break="no" ed="#Bb" n="21"/>lione distinctionis eorum. Et ita est hic:
+<lb ed="#Bb" n="22"/>quia Patri et Filio convenit spirare 
+Spi<lb break="no" ed="#Bb" n="23"/>ritum sanctum, et actus ipse quod 
+spi<lb break="no" ed="#Bb" n="24"/>rant non est nisi suppositorum: tamen
+<lb ed="#Bb" n="25"/>quia ratio actus non sumitur a ratione
+<lb ed="#Bb" n="26"/>distinctionis eorum, ideo non _ oportet
+<lb ed="#Bb" n="27"/>quodillud nomen quod notat rationem
+<lb ed="#Bb" n="28"/>illius habitudinis, accipiat pluralitatem a
+<lb ed="#Bb" n="29"/>pluralitate suppositorum.
+</p>
+            <p xml:id="alalal-c14638-d1e474">
+               <lb ed="#Bb" n="30"/>Ad aliud dicendum, quod sunt unum
+<lb ed="#Bb" n="31"/>principium quod divisim est Pater, et
+<lb ed="#Bb" n="32"/>quod est Filius : quia ratio principii non
+<lb ed="#Bb" n="33"/>est a distinctione Patris et Filii. Et si 
+ul<lb break="no" ed="#Bb" n="34"/>terius inferat: ergo Pater est Filius:
+<lb ed="#Bb" n="35"/>dicendum, quod hoc non valet: sed 
+se<lb break="no" ed="#Bb" n="36"/>quitur : ergo Pater et Filius sunt unum
+<lb ed="#Bb" n="37"/>principium, vel Pater et Filius sunt in
+<lb ed="#Bb" n="38"/>eadem ratione principium, vel Pater est
+<lb ed="#Bb" n="39"/>principium in eadem ratione in qua Filius,
+<lb ed="#Bb" n="40"/>et e converso. Cum enim dicitur 
+princi<lb break="no" ed="#Bb" n="41"/>pium quod est Pater, articulare notat 
+im<lb break="no" ed="#Bb" n="42"/>plicationem et determinationem 
+supposi<lb break="no" ed="#Bb" n="43"/>ti, et suppositum Patris non est 
+suppo<lb break="no" ed="#Bb" n="44"/>situm Fili. Sed cum dicitur unum 
+prin<lb break="no" ed="#Bb" n="45"/>cipilum, non notatur nisi unitas rationis
+<lb ed="#Bb" n="46"/>actus in eis, secundum quam procedit
+<lb ed="#Bb" n="47"/>ab eis Spiritus sanctus, sine hujusmodi
+<lb ed="#Bb" n="48"/>determinatione istius vel illius suppositi
+<lb ed="#Bb" n="49"/>in quo distincta sunt.
+</p>
+            <p xml:id="alalal-c14638-d1e521">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="50"/>Ad aliud dicendum, quod dicit 
+unita<lb break="no" ed="#Bb" n="51"/>tem notionis. Ad objectum contra, 
+dicen<lb break="no" ed="#Bb" n="52"/>dum quod una notio non convenit 
+dis<lb break="no" ed="#Bb" n="53"/>linctis ut distincta sunt, sed in quantum
+<lb ed="#Bb" n="54"/>sunt unum in vi spirativa, et illa est
+<lb ed="#Bb" n="55"/>una numero in eis: potentia enim 
+spi<lb break="no" ed="#Bb" n="56"/>randi dicit naturam in Patre et Filio
+<lb ed="#Bb" n="57"/>ut virtute cujus habent quod spirant,
+<lb ed="#Bb" n="58"/>et principium dicit rationem actus:
+<lb ed="#Bb" n="59"/>sicut etiam potentia generandi et Pater,
+<lb ed="#Bb" n="60"/>ut supra diximus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

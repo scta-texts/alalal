@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="381"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d68311"><!-- l2d22a6 -->
+            <head xml:id="alalal-d68311-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-d68311-Hd1e101" type="question-title">An st vu non peccasset, humanum genus
+minime peccatis fuisset corruptum 7</head>
+            <p xml:id="alalal-d68311-d1e104">
+               <pb ed="#Bc" n="381"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS VI.
+<lb ed="#Bc" n="2"/>An st vu non peccasset, humanum genus
+<lb ed="#Bc" n="3"/>minime peccatis fuisset corruptum 7
+</p>
+            <p xml:id="alalal-d68311-d1e117">
+               <lb ed="#Bc" n="4"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="5"/>ibi, G, sub finem : <quote xml:id="alalal-d68311-Qd1e123"> Si vir non peccasset,
+<lb ed="#Bc" n="6"/>humanum genus, etc. </quote>
+            </p>
+            <p xml:id="alalal-d68311-d1e129">
+               <lb ed="#Bc" n="7"/>Contra : Mulier daret materiam carnis:
+<lb ed="#Bc" n="8"/>eta carne, ut infra habetur, contrahitur
+<lb ed="#Bc" n="9"/>originale : ergo adhue periret humanum
+<lb ed="#Bc" n="10"/>genus.
+</p>
+            <p xml:id="alalal-d68311-d1e141">
+               <lb ed="#Bc" n="11"/>Ivem, Si vir non peccasset, queritur,
+<lb ed="#Bc" n="12"/>quid fecisset Deus de muliere ?
+</p>
+            <p xml:id="alalal-d68311-d1e148">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="13"/>Sonutio. Dicendum secundum 
+Magi<lb break="no" ed="#Bc" n="14"/>stros, quod duplex est corruptio, seilicet
+<lb ed="#Bc" n="15"/>passibilitatis et famis, sitis, mortis, et
+<lb ed="#Bc" n="16"/>hanc habuissent homines ex Heva si 
+so<lb break="no" ed="#Bc" n="17"/>la peccasset. Et est corruptio vitii per
+<lb ed="#Bc" n="18"/>causam efficientem, secundum quam 
+ca<lb break="no" ed="#Bc" n="19"/>ro seminata per coitum ex viro inficere
+<lb ed="#Bc" n="20"/>potest animas : et haec corruptio non 
+ha<lb break="no" ed="#Bc" n="21"/>beretur, ut dicunt.
+</p>
+            <p xml:id="alalal-d68311-d1e172">
+               <lb ed="#Bc" n="22"/>AD ARGUMENTUM ergo dicendum, quod
+<lb ed="#Bc" n="23"/>hee secunda corruptio non habetur ex
+<lb ed="#Bc" n="24"/>materia, nisi in quantum descinditur a
+<lb ed="#Bc" n="25"/>viro, in quo est tota natura materialiter
+<lb ed="#Bc" n="26"/>et effective.
+</p>
+            <p xml:id="alalal-d68311-d1e185">
+               <lb ed="#Bc" n="27"/>Ad aliud dicendum, quod Deus 
+per<lb break="no" ed="#Bc" n="28"/>misisset eam mori in se, aut fecisset viro
+<lb ed="#Bc" n="29"/>aliam mulierem. Quod autem horum 
+ve<lb break="no" ed="#Bc" n="30"/>rum sit, nescitur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

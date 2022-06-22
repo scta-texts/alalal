@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="568"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f10064"><!-- l3d30a1 -->
+            <head xml:id="alalal-f10064-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-f10064-Hd1e101" type="question-title">An omnes tenemur ad dilectionem 
+inimicorum ?</head>
+            <p xml:id="alalal-f10064-d1e104">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="30"/>ARTICULUS I.
+<lb ed="Bd" n="31"/>An omnes tenemur ad dilectionem 
+inimi<lb break="no" ed="Bd" n="32"/>corum ?
+</p>
+            <p xml:id="alalal-f10064-d1e115">
+               <lb ed="Bd" n="33"/>Ad primum horum proceditur sic :
+<lb ed="Bd" n="34"/>1. Super illud Psalmi oxvin, 18 : 
+Re<lb break="no" ed="Bd" n="35"/>vela oculos meos, et considera mirabilia
+<lb ed="Bd" n="36"/>de lege tua, dicit Glossa, quod mirabilia
+<lb ed="Bd" n="37"/>quae considerantur, sunt diligere 
+imimi<lb break="no" ed="Bd" n="38"/>cos. Constat autem, quod ad mirabilia
+<lb ed="Bd" n="39"/>non tenemur: ergo non tenemur diligere
+<lb ed="Bd" n="40"/>inimicos.
+</p>
+            <p xml:id="alalal-f10064-d1e135">
+               <lb ed="Bd" n="41"/>2. Item, Luce, vi, 27 :<quote xml:id="alalal-f10064-Qd1e139"> Diligite 
+inimi<lb break="no" ed="Bd" n="42"/>cos vestros</quote>, dicit Glossa : <quote xml:id="alalal-f10064-Qd1e144"> Hoc 
+perfe<lb break="no" ed="Bd" n="43"/>ctorum est : </quote> cum igitur non omnes 
+tene<lb break="no" ed="Bd" n="44"/>mur ad perfectionem, non omnes 
+tene<lb break="no" ed="Bd" n="45"/>mur diligere inimicos.
+</p>
+            <p xml:id="alalal-f10064-d1e155">
+               <lb ed="Bd" n="46"/>3. Item, Glossa ibidem, <quote xml:id="alalal-f10064-Qd1e159"> Hic Ecclesia
+<lb ed="Bd" n="47"/>non lacte nutritur, quod simplicium est
+<lb ed="Bd" n="48"/>et imperfectorum : sed validori cibo 
+cha<lb break="no" ed="Bd" n="49"/>ritatis roboratur. </quote> Ergo videtur, quod
+<lb ed="Bd" n="50"/>ad hoc non teneantur nisi perfecti.
+ 
+<pb ed="#Bd" n="569"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>4. Item, Matthei, v, 43 : Audistis
+<lb ed="Bd" n="2"/>quia dictum est: Diliges proximum tuum,
+<lb ed="Bd" n="3"/>et odio habebis inimicum tuum. Cum
+<lb ed="Bd" n="4"/>igitur non ad plura teneamur nos, quam
+<lb ed="Bd" n="5"/>jlli, videtur quod possumus habere odio
+<lb ed="Bd" n="6"/>inimicos. Quod autem non ad plura 
+te<lb break="no" ed="Bd" n="7"/>neamur, quam illi, accipitur, Matth. xv,
+<lb ed="Bd" n="8"/>36, super illud : <quote xml:id="alalal-f10064-Qd1e192">Et accipiens septen 
+pa<lb break="no" ed="Bd" n="9"/>nes et pisces, et gratias agens</quote>, etc. 
+Glos<lb break="no" ed="Bd" n="10"/>sa: <quote xml:id="alalal-f10064-Qd1e199"> Non alia, quam quae scripta erant,
+<lb ed="Bd" n="11"/>predicat : sed legem et Prophetas 
+gra<lb break="no" ed="Bd" n="12"/>viora esse demonstrat. </quote>
+            </p>
+            <p xml:id="alalal-f10064-d1e207">
+               <lb ed="Bd" n="13"/>Item, Accipitur illud Matthei, xix,1 7:
+<lb ed="Bd" n="14"/>
+               <quote xml:id="alalal-f10064-Qd1e213">Si vis ad vitam ingredi, serva mandata</quote>.
+<lb ed="Bd" n="15"/>Ergo illi sufficiebant ad salutem mandata,
+<lb ed="Bd" n="16"/>que data erant veteribus.
+</p>
+            <p xml:id="alalal-f10064-d1e220">
+               <lb ed="Bd" n="17"/>Item, Hoe accipitur, IIT Regum, ut,
+<lb ed="Bd" n="18"/>23, super illud : <quote xml:id="alalal-f10064-Qd1e226">Fecit gquoque Hiram
+<lb ed="Bd" n="19"/>mare fusile decem cubitorum</quote>, etc. : ibi
+<lb ed="Bd" n="20"/>Glossa : <quote xml:id="alalal-f10064-Qd1e233"> Decem praeceptis Dominus in
+<lb ed="Bd" n="21"/>lege omnia quae facere debemus, 
+expres<lb break="no" ed="Bd" n="22"/>sit. </quote> Constat autem, quod nusquam ibi
+<lb ed="Bd" n="23"/>est de dilectione inimicorum. Ergo ad
+<lb ed="Bd" n="24"/>hoc non tenemur.
+</p>
+            <p xml:id="alalal-f10064-d1e246">
+               <lb ed="Bd" n="25"/>5. Item, Ezechielis, xx, 11: <quote xml:id="alalal-f10064-Qd1e250"
+                      source="http://scta.info/resource/ez20_11@2-17">Dedi eis
+<lb ed="Bd" n="26"/>precepta mea,... quae faciens homo vivet
+<lb ed="Bd" n="27"/>in illis</quote>, Glossa interlinearis : <quote xml:id="alalal-f10064-Qd1e257"> Nihil
+<lb ed="Bd" n="28"/>addens. </quote> Cum igitur hoc non 
+continea<lb break="no" ed="Bd" n="29"/>tur in decalogo, videtur quod non 
+debe<lb break="no" ed="Bd" n="30"/>mus addere.
+</p>
+            <p xml:id="alalal-f10064-d1e267">
+               <lb ed="Bd" n="31"/>5. Item, Sepe legitur in Veteri 
+Testa<lb break="no" ed="Bd" n="32"/>mento, quod Dominus occidit, et 
+preece<lb break="no" ed="Bd" n="33"/>pit occidi inimicos, sicut Amalec, et illos
+<lb ed="Bd" n="34"/>ui habitabant in terra promissionis ante
+<lb ed="Bd" n="35"/>filios Israel. Ergo videtur, quod inimicos
+<lb ed="Bd" n="36"/>velit nos odisse.
+</p>
+            <p xml:id="alalal-f10064-d1e283">
+               <lb ed="Bd" n="37"/>7. item, Ad hoc videtur esse ratio :
+<lb ed="Bd" n="38"/>Inimicitia enim est causa pugne : causa
+<lb ed="Bd" n="39"/>autem pugna et causa amicitiae 
+contra<lb break="no" ed="Bd" n="40"/>maniur : ergo inimicitia non erit causa
+<lb ed="Bd" n="41"/>amoris, sed contrarii : ergo erit causa
+<lb ed="Bd" n="42"/>odii : non ergo diligendus est inimicus.
+</p>
+            <p xml:id="alalal-f10064-d1e300">
+               <lb ed="Bd" n="43"/>8. Item, Hoc videmus in omni natura
+<lb ed="Bd" n="44"/>tam inanimatorum quam animalium,
+<lb ed="Bd" n="45"/>quod quelibet pugnat contra inimicum :
+<lb ed="Bd" n="46"/>ergo videtur, quod contra jus naturale
+<lb ed="Bd" n="47"/>inditum omni rei sit diligere inimicos :
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>ergo non tenemur ad illud ex charitate,
+<lb ed="Bd" n="49"/>quia charitas non contrariatur juri 
+natu<lb break="no" ed="Bd" n="50"/>rali.
+</p>
+            <p xml:id="alalal-f10064-d1e322">
+               <lb ed="Bd" n="51"/>Sed contra hoc sunt
+<lb ed="Bd" n="52"/>1. Ia quae habentur in Liffera, et quae
+<lb ed="Bd" n="53"/>in precedenti distinctione sunt habita.
+</p>
+            <p xml:id="alalal-f10064-d1e331">
+               <lb ed="Bd" n="54"/>2. Item, Levit. xix, 18 : Non queras
+<lb ed="Bd" n="55"/>ultionem, nec memor eris injurie civium
+<lb ed="Bd" n="56"/>tuorum : ergo videtur, quod antiqui 
+te<lb break="no" ed="Bd" n="57"/>nebantur ad dilectionem inimicorum.
+</p>
+            <p xml:id="alalal-f10064-d1e342">
+               <lb ed="Bd" n="58"/>3. Item, Eccli. xxvii, 3 et 4: Homo
+<lb ed="Bd" n="59"/>homint reservat tram, et a Deo quaerit
+<lb ed="Bd" n="60"/>medelam. In hominem similem sibi non
+<lb ed="Bd" n="61"/>habet misericordiam, et de peccatis suis
+<lb ed="Bd" n="62"/>deprecatur. Quasi diceret : Nec medelam
+<lb ed="Bd" n="63"/>accipiet, nec exaudietur.
+</p>
+            <p xml:id="alalal-f10064-d1e358">
+               <lb ed="Bd" n="64"/>4. Item, Proverb. xxiv, 17: Cum 
+ce<lb break="no" ed="Bd" n="65"/>ciderit inimicus tuus, ne gaudeas.
+</p>
+            <p xml:id="alalal-f10064-d1e365">
+               <lb ed="Bd" n="66"/>Solutio Dicendum, quod omnes 
+te<lb break="no" ed="Bd" n="67"/>nentur ad dilectionem inimicorum, et
+<lb ed="Bd" n="68"/>perfecti, et imperfecti.
+</p>
+            <p xml:id="alalal-f10064-d1e375">
+               <lb ed="Bd" n="69"/>Ab primum ergo dicendum, quod 
+mira<lb break="no" ed="Bd" n="70"/>bile aliquid est, quod est insolitum 
+tan<lb break="no" ed="Bd" n="71"/>tum : et sic dicitur mirabile diligere
+<lb ed="Bd" n="72"/>inimicos : et ad hoc bene tenemur. Ht
+<lb ed="Bd" n="73"/>est mirabile insolitum, et super 
+faculta<lb break="no" ed="Bd" n="74"/>tem admirantis apparens : et ad hoc non
+<lb ed="Bd" n="75"/>tenemur.
+</p>
+            <p xml:id="alalal-f10064-d1e393">
+               <lb ed="Bd" n="76"/>Ad aliud dicendum, quod Glossa illa
+<lb ed="Bd" n="77"/>loquitur de perfectione sufficientiae : sed
+<lb ed="Bd" n="78"/>si eos qui sunt in statu perfectionis vocat
+<lb ed="Bd" n="79"/>perfectos, tunc intelligitur de sequente,
+<lb ed="Bd" n="80"/>guod est : Benefacite his qui oderunt
+<lb ed="Bd" n="81"/>vos’: ut intelligatur de exhibitione 
+fami<lb break="no" ed="Bd" n="82"/>liaritatis per beneficia, et signa exteriora :
+<lb ed="Bd" n="83"/>quia ad hoc non teneniur nisi perfect.
+</p>
+            <p xml:id="alalal-f10064-d1e413">
+               <lb ed="Bd" n="84"/>Ad aliud dicendum, quod simplices
+<lb ed="Bd" n="85"/>dicuntur ibi serviles illi, qui in Veteri
+<lb ed="Bd" n="86"/>Testamento sub littere cortice servierunt.
+<lb ed="Bd" n="87"/>Vel, si intelligatur de perfectis, tunc
+<lb ed="Bd" n="88"/>glossandum est sicut prescedens.
+</p>
+            <p xml:id="alalal-f10064-d1e426">
+               <lb ed="Bd" n="89"/>Ad aliud dicendum, quod numquam
+<lb ed="Bd" n="90"/>dictum est antiquis, Odio habebis 
+inimi<lb break="no" ed="Bd" n="91"/>cum tuum, nisi a suis Doctoribus, et non
+<lb ed="Bd" n="92"/>alege : sed observabant sicut esset 
+di<lb break="no" ed="Bd" n="93"/>ctum, et ab ilio Christus hoc assumpsit.
+<pb ed="#Bd" n="570"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Vel dicatur, quod dictum erat eis hoc de
+<lb ed="Bd" n="2"/>inimico fidei, et non de inimico persone :
+<lb ed="Bd" n="3"/>et ipsi intellexerunt hoc de inimico 
+per<lb break="no" ed="Bd" n="4"/>sone perverso intellectu. De inimico 
+au<lb break="no" ed="Bd" n="5"/>tem fidei dicebatur in preecepto, quod 
+oc<lb break="no" ed="Bd" n="6"/>ciderent omnem masculum in terra quam
+<lb ed="Bd" n="7"/>Deus daturus esset in possessionem :
+<lb ed="Bd" n="8"/>sed Dominus intellexit hoc de bona 
+oc<lb break="no" ed="Bd" n="9"/>cisione, quae est per gladium spiritus,
+<lb ed="Bd" n="10"/>qui est verbum Dei.
+</p>
+            <p xml:id="alalal-f10064-d1e465">
+               <lb ed="Bd" n="11"/>Ad id quod objicitur, quod nihil 
+tene<lb break="no" ed="Bd" n="12"/>mur nisi quod illi, dicendum quod si 
+ex<lb break="no" ed="Bd" n="13"/>plicite accipiatur id quod continetur in
+<lb ed="Bd" n="14"/>lege, tune falsum est : quia ad multa 
+te<lb break="no" ed="Bd" n="15"/>nebantur illi, ad quae non tenemur nos :
+<lb ed="Bd" n="16"/>et ad multa tenemur nos, ad quae non
+<lb ed="Bd" n="17"/>tenebantur illi. Si autem spiritualiter et
+<lb ed="Bd" n="18"/>implicite intelligatur, secundum quod 
+ve<lb break="no" ed="Bd" n="19"/>ritas est in umbra : tunc verum est hoc:
+<lb ed="Bd" n="20"/>sed non idem per eadem opera 
+imple<lb break="no" ed="Bd" n="21"/>mus : quia illi tenebantur carnem 
+suil<lb break="no" ed="Bd" n="22"/>lam non comedere, et tamen continere :
+<lb ed="Bd" n="23"/>nos autem continemus, et comedimus,
+<lb ed="Bd" n="24"/>et idem implemus : et hoc vult dicere
+<lb ed="Bd" n="25"/>Glossa, quando disit, quod demonstrant
+<lb ed="Bd" n="26"/>legem spiritualibus sacramentis esse 
+re<lb break="no" ed="Bd" n="27"/>fertam.
+</p>
+            <p xml:id="alalal-f10064-d1e504">
+               <lb ed="Bd" n="28"/>Ad aliud dicendum, quod continetur
+<lb ed="Bd" n="29"/>in illo mandato : Honora patrem tuum
+<lb ed="Bd" n="30"/>et matrem tuam ', scilicet parentes : quia
+<lb ed="Bd" n="31"/>nomine parentum accipitur ibi omnis
+<lb ed="Bd" n="32"/>homo, ut dicit Augustinus. Et per hoc
+<lb ed="Bd" n="33"/>patet solutio ad sequens.
+</p>
+            <p xml:id="alalal-f10064-d1e521">
+               <lb ed="Bd" n="34"/>Ad aliud dicendum, quod Dominus in
+<lb ed="Bd" n="35"/>hoc ostendit, quod inimici fidei essent
+<lb ed="Bd" n="36"/>gladio spiritus occidendi, ut masculinum
+<lb ed="Bd" n="37"/>in quo notatur vigor peccati, 
+occidere<lb break="no" ed="Bd" n="38"/>tur, et infirmitas humana viveret, quae
+<lb ed="Bd" n="39"/>notatur per virgines, quae in coitu non
+<lb ed="Bd" n="40"/>cognoverunt viros, id est, non habentes
+<lb ed="Bd" n="41"/>appetitum fornicandi a fide. Si autem
+<lb ed="Bd" n="42"/>nolunt converti, non est aliud nisi quod
+<lb ed="Bd" n="43"/>in igne materiali luant pcenas damni,
+<lb ed="Bd" n="44"/>quod inferunt Ecclesie per 
+subversio<lb break="no" ed="Bd" n="45"/>nem simplicium.
+</p>
+            <p xml:id="alalal-f10064-d1e550">
+               <lb ed="Bd" n="46"/>Ad aliud dicendum, quod inimicitia
+<lb ed="Bd" n="47"/>ut inimicitia non est diligenda, sed po-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>tius inimicus, qui est imago Dei, ad hog
+<lb ed="Bd" n="49"/>ut amplius non sit inimicus.
+</p>
+            <p xml:id="alalal-f10064-d1e563">
+               <lb ed="Bd" n="50"/>Ad aliud dicendum, quod hoc non est
+<lb ed="Bd" n="51"/>contra legem nature humane : quia ho.
+<lb ed="Bd" n="52"/>mo est animal mansuetum natura, con.
+<lb ed="Bd" n="53"/>formabile Deo magis quam bestiis,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

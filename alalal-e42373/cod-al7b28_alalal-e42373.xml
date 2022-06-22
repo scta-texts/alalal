@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="218"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e42373"><!-- l3d11a3 -->
+            <head xml:id="alalal-e42373-Hd1e99">Articulus 3</head>
+            <p xml:id="alalal-e42373-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="28"/>ARTICULUS III. 
+<lb ed="Bd" n="29"/>An in Deo creatura esse possit ?
+</p>
+            <p xml:id="alalal-e42373-d1e110">
+               <lb ed="Bd" n="30"/>Deinde quaeritur de hoc quod dicit in 
+<lb ed="Bd" n="31"/>secunda parte distinctionis, ibi, B,§ 3:  
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="32"/>
+               <quote xml:id="alalal-e42373-Qd1e120"> Quomodo autem creatura esse in
+<lb ed="Bd" n="33"/>Deo potest ? </quote>
+            </p>
+            <p xml:id="alalal-e42373-d1e126">
+               <lb ed="Bd" n="34"/>Hoc enim videtur esse contra 
+prade<lb break="no" ed="Bd" n="35"/>terminata: quia
+<lb ed="Bd" n="36"/>1. Supra, distinctione IX, dixit 
+Au<lb break="no" ed="Bd" n="37"/>gustinus: <quote xml:id="alalal-e42373-Qd1e136"> Sciendum, quod in Filio Dei
+<lb ed="Bd" n="38"/>terra est, quee sine impietate adoratur.
+<lb ed="Bd" n="39"/>Suscepit enim de terra terram : cuia
+<lb ed="Bd" n="40"/>caro de terra est. </quote>
+            </p>
+            <p xml:id="alalal-e42373-d1e146">
+               <lb ed="Bd" n="41"/>2. Item, Etiam a quibusdam Sanctis
+<lb ed="Bd" n="42"/>dicitur esse creatura : sicut dicit Dama-
+<pb ed="#Bd" n="219"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>scenus, quod creatura vocari non 
+dedi<lb break="no" ed="Bd" n="2"/>gnatur. Et Magister Rodolphus de sancto
+<lb ed="Bd" n="3"/>Victore: <quote xml:id="alalal-e42373-Qd1e163"> Potestate non natura fit 
+crea<lb break="no" ed="Bd" n="4"/>iura. </quote> Ergo videtur, quod et creatura
+<lb ed="Bd" n="5"/>sit in ipso Creatore.
+</p>
+            <p xml:id="alalal-e42373-d1e172">
+               <lb ed="Bd" n="6"/>Solutio Dicendum, quod _ intentio
+<lb ed="Bd" n="7"/>Augustini est, quod in Deo, id est, in
+<lb ed="Bd" n="8"/>Trinitate et in unitate non potest esse
+<lb ed="Bd" n="9"/>creatura : quia aut esset persona, aut 
+na<lb break="no" ed="Bd" n="10"/>tura: et ita neutrum potest esse: et ideo
+<lb ed="Bd" n="11"/>Christus non est creatura: quia est 
+no<lb break="no" ed="Bd" n="12"/>men persone quae non est creatura nec
+<lb ed="Bd" n="13"/>creata : sed non intendit, quin haec 
+per<lb break="no" ed="Bd" n="14"/>sona sit in natura creata, et natura creata
+<lb ed="Bd" n="15"/>in ipsa.
+</p>
+            <p xml:id="alalal-e42373-d1e196">
+               <lb ed="Bd" n="16"/>Ad aliud dicendum, quod hujusmodi
+<lb ed="Bd" n="17"/>auctoritates sunt cum  determinatione
+<lb ed="Bd" n="18"/>intelligende, non simpliciter, quamvis
+<lb ed="Bd" n="19"/>simpliciter sint prolate.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

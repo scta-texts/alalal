@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 17</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 17</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="497"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h04154"><!-- l4d15a17 -->
+            <head xml:id="alalal-h04154-Hd1e99">Articulus 17</head>
+            <head xml:id="alalal-h04154-Hd1e101" type="question-title">An eleemosyna sit pars satisfactionis ?</head>
+            <p xml:id="alalal-h04154-d1e104">
+               <lb ed="#Be" n="18"/>ARTICULUS XVII.
+<lb ed="#Be" n="19"/>An eleemosyna sit pars satisfactionis ?
+</p>
+            <p xml:id="alalal-h04154-d1e111">
+               <lb ed="#Be" n="20"/>Quarto queritur, Qualiter distinguitur
+<lb ed="#Be" n="21"/>ab aliis partibus satisfactionis ?
+</p>
+            <p xml:id="alalal-h04154-d1e118">
+               <lb ed="#Be" n="22"/>Et ratione istius queruntur hic duo,
+<lb ed="#Be" n="23"/>que simul sunt determinanda, scilicet
+<lb ed="#Be" n="24"/>utrum sit pars satisfactionis ? et si est,
+<lb ed="#Be" n="25"/>qualiter distinguitur ab aliis ?
+</p>
+            <p xml:id="alalal-h04154-d1e130">
+               <lb ed="#Be" n="26"/>Videtur autem, quod non: quia
+<lb ed="#Be" n="27"/>1. Satisfactio respicit preeecdens 
+pec<lb break="no" ed="#Be" n="28"/>catum, nec tenetur satisfacere nisi qui
+<lb ed="#Be" n="29"/>peccayit: sed homo tenetur ad 
+eleemo<lb break="no" ed="#Be" n="30"/>synam, etiam quando non peccavit: ergo
+<lb ed="#Be" n="31"/>eleemosyna non est essentialis pars sa~
+<lb ed="#Be" n="32"/>tisfactionis. Prima probatur ex ratione et
+<lb ed="#Be" n="33"/>diffinitione satisfactionis, supra positis
+<lb ed="#Be" n="34"/>in Litera. Sucunpa vero probatur ex
+<lb ed="#Be" n="35"/>Prius habitis: quia eleemosyna fit de
+<lb ed="#Be" n="36"/>Superfluo, et est in precepto etiam ei
+<lb ed="#Be" n="37"/>quinon peccavit, et satisfacere non 
+te<lb break="no" ed="#Be" n="38"/>netur.
+</p>
+            <p xml:id="alalal-h04154-d1e161">
+               <lb ed="#Be" n="39"/>2. Item, Matth. xvi, 20, super illud :
+<lb ed="#Be" n="40"/>Hoc genus demoniorum, etc., dicit Glossa
+<lb ed="#Be" n="41"/>Hieronymi: <quote xml:id="alalal-h04154-Qd1e169"> Per jejunium sanatur pe-,
+<lb ed="#Be" n="42"/>stis corporis, per orationem pestis men-
+<cb ed="#Be" n="b"/>
+                  <lb ed="#Be" n="43"/>tis. </quote> Sed non sunt pestes sanande nisi
+<lb ed="#Be" n="44"/>mentis et corporis. Ergo videtur, quod
+<lb ed="#Be" n="45"/>eleemosyna non sanat aliquam pestem:
+<lb ed="#Be" n="46"/>sed quaelibet pars satisfactionis debet 
+sa<lb break="no" ed="#Be" n="47"/>nare pestem aliquam: ergo eleemosyna
+<lb ed="#Be" n="48"/>non est pars satisfactionis.
+</p>
+            <p xml:id="alalal-h04154-d1e190">
+               <lb ed="#Be" n="49"/>3. Item, Illud non est pars essentialis
+<lb ed="#Be" n="50"/>alicujus, sine quo potest res esse 
+secun<lb break="no" ed="#Be" n="51"/>dum substantiam et effectum: sed 
+con<lb break="no" ed="#Be" n="52"/>tingit fieri satisfactionem de peccato, et
+<lb ed="#Be" n="53"/>satisfactionem esse sine eleemosyna : ergo
+<lb ed="#Be" n="54"/>eleemosyna non est substantialis pars
+<lb ed="#Be" n="55"/>satisfactionis. Prima patet per se. 
+Sz<lb break="no" ed="#Be" n="56"/>cUNDA probatur in illis quibus in sola
+<lb ed="#Be" n="57"/>cordis contritione dimittitur peccatum et
+<lb ed="#Be" n="58"/>pena, sicut Marie Magdalene.
+</p>
+            <p xml:id="alalal-h04154-d1e214">
+               <lb ed="#Be" n="59"/>4. Item, Non est generalis pars, quae
+<lb ed="#Be" n="60"/>in omni satisfactione esse non potest:
+<lb ed="#Be" n="61"/>sed eleemosyna in satisfacltione pauperis
+<lb ed="#Be" n="62"/>esse non potest, quia nihil habet quod
+<lb ed="#Be" n="63"/>det : ergo non est pars satisfactionis.
+</p>
+            <p xml:id="alalal-h04154-d1e227">
+               <lb ed="#Be" n="64"/>Sed contra hoc est quod dicitur, Tob.
+<lb ed="#Be" n="65"/>xu, 8: Bona est oratio cum gejunio et
+<lb ed="#Be" n="66"/>eleemosyna : ubi dicit Glossa, quod 
+ora<lb break="no" ed="#Be" n="67"/>tio habet alas, jejunium, et 
+eleemosy<lb break="no" ed="#Be" n="68"/>nam: ergo sicut avis elevatur suis alis,
+<lb ed="#Be" n="69"/>ita oratio jejunio et eleemosyna: ergo
+<lb ed="#Be" n="70"/>sine eleemosyna non valet.
+</p>
+            <p xml:id="alalal-h04154-d1e245">
+               <lb ed="#Be" n="71"/>Solutio. Dicendum videtur mihi in
+<lb ed="#Be" n="72"/>hac questione cum distinctione, scilicet
+<lb ed="#Be" n="73"/>quod eleemosyna est de superfluo, et
+<lb ed="#Be" n="74"/>hec non est essentialiter pars 
+satisfactio<lb break="no" ed="#Be" n="75"/>uis : sed preexigitur ad ipsam sicut 
+fun<lb break="no" ed="#Be" n="76"/>damentum, et habet actum 
+satisfactio<lb break="no" ed="#Be" n="77"/>nis in alio, quia pauper quem respicit,
+<lb ed="#Be" n="78"/>orat pro eo, et satisfacit, et quandoque
+<lb ed="#Be" n="79"/>primam gratiam impetrat danti, si 
+pau<lb break="no" ed="#Be" n="80"/>per cui datur, est in charitate. Est etiam
+<lb ed="#Be" n="81"/>eleemosyna, qua est de necessario: et
+<lb ed="#Be" n="82"/>hec est satisfactionis essentialis pars: et
+<lb ed="#Be" n="83"/>voco necessarium, noh sine quo homo
+<lb ed="#Be" n="84"/>vivere non potest, quia hoc nullus debet
+<lb ed="#Be" n="85"/>subiipsi subtrahere, sed potius id quod
+<lb ed="#Be" n="86"/>estimatione sapientum conceditur ei 
+ha<lb break="no" ed="#Be" n="87"/>bere ad domus dispensationem, et potest
+<lb ed="#Be" n="88"/>reparari per industriam negotiantis vel
+<lb ed="#Be" n="89"/>reditus quotidianos.
+</p>
+            <p xml:id="alalal-h04154-d1e290">
+               <lb ed="#Be" n="90"/>Ad Hoc autem quod primo objicitur,
+<pb ed="#Be" n="498"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>dicendum quod qui sine peccato est, te~
+<lb ed="#Be" n="2"/>netur ad primum genus eleemosyne, et
+<lb ed="#Be" n="3"/>non ad secundum.
+</p>
+            <p xml:id="alalal-h04154-d1e306">
+               <lb ed="#Be" n="4"/>Ad aliud dicendum, quod est 
+sanati<lb break="no" ed="#Be" n="5"/>vum conjunctum, quod cum morbo 
+con<lb break="no" ed="#Be" n="6"/>jungitur in subjecto : et hac sanativa
+<lb ed="#Be" n="7"/>tangit Glossa illa: quia oratio humiliat
+<lb ed="#Be" n="8"/>spiritum, et jejunium attenuat corpus :
+<lb ed="#Be" n="9"/>unde illa duo sanant pestes ex parte 
+pec<lb break="no" ed="#Be" n="10"/>cantis. Sed oportet insuper habere 
+sana<lb break="no" ed="#Be" n="11"/>tiva ex parte occasionum peccandi : et
+<lb ed="#Be" n="12"/>hee sunt principalia bona infirmitati
+<lb ed="#Be" n="13"/>concessa : et haec communicando sanat
+<lb ed="#Be" n="14"/>eleemosyna pestes mentis et corporis :
+<lb ed="#Be" n="15"/>quia ambe occasionantur ex illis.
+</p>
+            <p xml:id="alalal-h04154-d1e335">
+               <lb ed="#Be" n="16"/>Ad aliud dicendum, quod in 
+eleemo<lb break="no" ed="#Be" n="17"/>syna sunt duo, sicut infra patebit. Unum
+<lb ed="#Be" n="18"/>est voluntas communicandi se et sua
+<lb ed="#Be" n="19"/>pauperibus indigentibus Ecclesia : et ex
+<lb ed="#Be" n="20"/>parte illa omnino habet vim meriti,
+<lb ed="#Be" n="21"/>quando illa voluntas est per gratiam 
+gra<lb break="no" ed="#Be" n="22"/>tum facientem. Et aliud est datum 
+ip<lb break="no" ed="#Be" n="23"/>sum : et hoc quandoque non habetur. Et
+<lb ed="#Be" n="24"/>dicendum, quod primum facit 
+eleemosy<lb break="no" ed="#Be" n="25"/>nam esse partem, quando perfectum est:
+<lb ed="#Be" n="26"/>et sine illa parte non est satisfactio.
+</p>
+            <p xml:id="alalal-h04154-d1e361">
+               <lb ed="#Be" n="27"/>Et per hoc patet etiam solutio ad 
+se<lb break="no" ed="#Be" n="28"/>quens : quia hance eleemosynam omnis
+<lb ed="#Be" n="29"/>homo dare potest: et vocatur ab 
+  Apo<lb break="no" ed="#Be" n="30"/>stolo, ad Roman. xr, 13, <quote xml:id="alalal-h04154-Qd1e371"
+                      source="http://scta.info/resource/rom12_13@1-3">necessitatibus
+<lb ed="#Be" n="31"/>Sanctorum communicatio</quote>.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

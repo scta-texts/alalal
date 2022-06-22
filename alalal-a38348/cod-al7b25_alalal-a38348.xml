@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="193"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a38348"><!-- l1d5a10 -->
+            <head xml:id="alalal-a38348-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-a38348-Hd1e101" type="question-title">Utrum possit dici, Filius est de nihilo :
+et similiter, Pater est de nihilo ?</head>
+            <p xml:id="alalal-a38348-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="15"/>ARTICULUS X.
+<lb ed="#Ba" n="16"/>Utrum possit dici, Filius est de nihilo :
+<lb ed="#Ba" n="17"/>et similiter, Pater est de nihilo ?
+</p>
+            <p xml:id="alalal-a38348-d1e115">
+               <lb ed="#Ba" n="18"/>Deinde quaeritur de his quae dicuntur
+<lb ed="#Ba" n="19"/>in illo capitulo. <quote xml:id="alalal-a38348-Qd1e121"> Ostenditur quoque ex
+<lb ed="#Ba" n="20"/>illis verbis, etc. </quote> Utrum Filius de nihilo
+<lb ed="#Ba" n="21"/>sil, vel non ? Videtur autem quod sic :
+</p>
+            <p xml:id="alalal-a38348-d1e129">
+               <lb ed="#Ba" n="22"/>1. Quod enim de nulla materia 
+praja<lb break="no" ed="#Ba" n="23"/>cente est, de nihilo est : Filius de nulla
+<lb ed="#Ba" n="24"/>materia prajacente est : ergo Filius de
+<lb ed="#Ba" n="25"/>nihilo est.
+</p>
+            <p xml:id="alalal-a38348-d1e141">
+               <lb ed="#Ba" n="26"/>2. ltem, Filius non est de aliquo, ita
+<lb ed="#Ba" n="27"/>quod ly aliguo sit neutri generis : sed
+<lb ed="#Ba" n="28"/>non aliquid et nihil equipollent : ergo
+<lb ed="#Ba" n="29"/>Filius de nihilo est.
+</p>
+            <p xml:id="alalal-a38348-d1e152">
+               <lb ed="#Ba" n="30"/>Praeterea quaeritur de Patre, Utrum
+  <cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="31"/>ipse sit de nihilo? Et videtur, quod sic
+  <lb ed="#Ba" n="32"/>per auctoritatem Augustini supra 
+habi<lb break="no" ed="#Ba" n="33"/>tam :</p>
+            <p xml:id="alalal-a38348-d1e165">
+               <lb ed="#Ba" n="34"/>1. Si de nulla substantia est Filius : 
+er<lb break="no" ed="#Ba" n="35"/>go de nihilo est Filius : ergo cum de
+<lb ed="#Ba" n="36"/>nulla substantia est Pater, de nihilo est
+<lb ed="#Ba" n="37"/>Pater.
+</p>
+            <p xml:id="alalal-a38348-d1e176">
+               <lb ed="#Ba" n="38"/>2. Item, Pater est de nullo: ergo est
+<lb ed="#Ba" n="39"/>de nihilo.
+</p>
+            <p xml:id="alalal-a38348-d1e183">
+               <lb ed="#Ba" n="40"/>3. Item, Pater non est de aliquo 
+neu<lb break="no" ed="#Ba" n="41"/>traliter : ergo de nihilo.
+</p>
+            <p xml:id="alalal-a38348-d1e190">
+               <lb ed="#Ba" n="42"/>Contra: Omne quod de nihilo est,
+<lb ed="#Ba" n="43"/>creatum est, et vertibile, ut Damascenus
+<lb ed="#Ba" n="44"/>dicit: Pater ergo si est de nihilo, est
+<lb ed="#Ba" n="45"/>creatus et vertibilis.
+</p>
+            <p xml:id="alalal-a38348-d1e202">
+               <lb ed="#Ba" n="46"/>Solutio. Ad hujusmodi sophismata 
+di<lb break="no" ed="#Ba" n="47"/>cendum, quod nulla personarum 
+divina<lb break="no" ed="#Ba" n="48"/>rum est de nihilo: quia cum dicitur, de
+<lb ed="#Ba" n="49"/>nihilo, per negationem tollitur 
+princi<lb break="no" ed="#Ba" n="50"/>pium ex parte ante: sed per 
+prepositio<lb break="no" ed="#Ba" n="51"/>nem de praecedentem negationem que
+<lb ed="#Ba" n="52"/>manet non exstincta per negationem, eo
+<pb ed="#Ba" n="194"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>quod praecedat, ponitur ordo esse ad nihil
+<lb ed="#Ba" n="2"/>precedens, id est, quod esse ejus quod
+<lb ed="#Ba" n="3"/>dicitur esse de nihilo, sequatur non esse :
+<lb ed="#Ba" n="4"/>et hoc quidem convenil omnibus creatis,
+<lb ed="#Ba" n="5"/>sed personis divinis non convenit.
+</p>
+            <p xml:id="alalal-a38348-d1e235">
+               <lb ed="#Ba" n="6"/>Ap primumergo dicendum, quod hec
+<lb ed="#Ba" n="7"/>est vera, Filius de nulla materia est : quia
+<lb ed="#Ba" n="8"/>ibi notatur negatio principii materialis :
+<lb ed="#Ba" n="9"/>sed non sequitur, ergo de nihilo, propter
+<lb ed="#Ba" n="10"/>habitudinem prepositionis que
+<lb ed="#Ba" n="11"/>net,
+</p>
+            <p xml:id="alalal-a38348-d1e251">
+               <lb ed="#Ba" n="12"/>Ad aliud dicendum, quod iste due
+<lb ed="#Ba" n="13"/>non equipollent : Filius non est de 
+ali<lb break="no" ed="#Ba" n="14"/>quo : ergo de nihilo. Quia in prima 
+pra<lb break="no" ed="#Ba" n="15"/>cedit negatio prepositionem : et ideo 
+ex<lb break="no" ed="#Ba" n="16"/>stinguit habitudmem ejus. In secunda
+<lb ed="#Ba" n="17"/>autem sequitur : etideo habitudo 
+prepo<lb break="no" ed="#Ba" n="18"/>silionis manet. Si autem inferatur ab
+<lb ed="#Ba" n="19"/>equipollenti, Non est de nihilo: ergo de
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="20"/>aliquo neutraliter: non valet iterum 
+pro<lb break="no" ed="#Ba" n="21"/>pter habitudinem pre positionis.
+</p>
+            <p xml:id="alalal-a38348-d1e277">
+               <lb ed="#Ba" n="22"/>Ap i quod ulterius quaeritur de Patre,
+<lb ed="#Ba" n="23"/>dicendum quod ipse non est de nibilo.
+</p>
+            <p xml:id="alalal-a38348-d1e284">
+               <lb ed="#Ba" n="24"/>Ap ogsecrum contra, dicendum quod
+<lb ed="#Ba" n="25"/>in Filio sequitur, quia ille habet 
+habitudi<lb break="no" ed="#Ba" n="26"/>nem ad principium ante: et non Pater,
+<lb ed="#Ba" n="27"/>etideo in Patre non tenet.
+</p>
+            <p xml:id="alalal-a38348-d1e295">
+               <lb ed="#Ba" n="28"/>Ad aliud dicendum, quod non 
+sequi<lb break="no" ed="#Ba" n="29"/>tur, Pater est de nullo, etc., quia haec
+di<lb break="no" ed="#Ba" n="30"/>ctio, nallo, stat pro persona : 
+posteaau<lb break="no" ed="#Ba" n="31"/>tem infertur neutraliter, privando 
+prin<lb break="no" ed="#Ba" n="32"/>cipium existentie cum ordine ad nihil
+<lb ed="#Ba" n="33"/>quem ponit praepositio.
+</p>
+            <p xml:id="alalal-a38348-d1e312">
+               <lb ed="#Ba" n="34"/>Ad aliud dicendum, quod non 
+sequi<lb break="no" ed="#Ba" n="35"/>tur, Non est de aliquo : ergo de nihilo:
+<lb ed="#Ba" n="36"/>quia in prima privatur habitudo 
+prepo<lb break="no" ed="#Ba" n="37"/>sitionis, in secunda autem non privatur:
+<lb ed="#Ba" n="38"/>igitur, etc.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

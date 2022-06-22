@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="280"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e54147"><!-- l3d15a8 -->
+            <head xml:id="alalal-e54147-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-e54147-Hd1e101" type="question-title">An Christus timorem et tristitiam
+assumpservt ?</head>
+            <p xml:id="alalal-e54147-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="16"/>ARTICULUS VIII.
+<lb ed="Bd" n="17"/>An Christus timorem et tristitiam
+<lb ed="Bd" n="18"/>assumpservt ?
+</p>
+            <p xml:id="alalal-e54147-d1e115">
+               <lb ed="Bd" n="19"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="Bd" n="20"/>illo capitulo D, <quote xml:id="alalal-e54147-Qd1e121"> Sed quia nonnulli de
+<lb ed="Bd" n="21"/>suo sensu, etc. </quote>
+            </p>
+            <p xml:id="alalal-e54147-d1e127">
+               <lb ed="Bd" n="22"/>Videtur enim, quod Christus tristitiam
+<lb ed="Bd" n="23"/>et timorem non assumpsit, multiplici 
+ra<lb break="no" ed="Bd" n="24"/>tione probari. Primo quia talia in eum
+<lb ed="Bd" n="25"/>cadere non potuerunt :
+</p>
+            <p xml:id="alalal-e54147-d1e139">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="26"/>1. Probat enim Seneca in sapientes
+<lb ed="Bd" n="27"/>cadere non posse sic, <quote xml:id="alalal-e54147-Qd1e147"> Sapiens non 
+tri<lb break="no" ed="Bd" n="28"/>statur de his quae possunt inferri bene : </quote>
+               <lb ed="Bd" n="29"/>poene autem corporales bene possunt 
+in<lb break="no" ed="Bd" n="30"/>ferri, sicut si innocenter inferantur : ergo
+<lb ed="Bd" n="31"/>sapiens non tristatur de illis.
+</p>
+            <p xml:id="alalal-e54147-d1e160">
+               <lb ed="Bd" n="32"/>2. Item, Sapiens non tristatur de his
+<lb ed="Bd" n="33"/>in quibus in summo actus est precipue
+<lb ed="Bd" n="34"/>virtutis : sed in sustinentia pcenarum 
+il<lb break="no" ed="Bd" n="35"/>latarum et periculo mortis et ipsa morte
+<lb ed="Bd" n="36"/>est actus precipue virtutis, quia 
+fortitu<lb break="no" ed="Bd" n="37"/>dinis : ergo non tristatur de illis : 
+er<lb break="no" ed="Bd" n="38"/>go nec Christus cum fuerit summe 
+sa<lb break="no" ed="Bd" n="39"/>piens.
+</p>
+            <p xml:id="alalal-e54147-d1e180">
+               <lb ed="Bd" n="40"/>3. Item, Sapiens non tristatur de 
+in<lb break="no" ed="Bd" n="41"/>sultu fortune, sive per prospera, sive per
+<lb ed="Bd" n="42"/>adversa insiliat : quia fortuna non est de
+<pb ed="#Bd" n="281"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>laudabilibus bonis, nec bonum humanum
+<lb ed="Bd" n="2"/>auferre, nec dare potest : et voco bonum
+<lb ed="Bd" n="3"/>humanum, id ad quod est homo : ergo
+<lb ed="Bd" n="4"/>cum Christus non fucrit minus sapiens
+<lb ed="Bd" n="5"/>Philosophis, non tristabatur de illatis
+<lb ed="Bd" n="6"/>passionibus : ergo falsum est, quod
+<lb ed="Bd" n="7"/>Christus habuit tristitiam, ut videtur.
+</p>
+            <p xml:id="alalal-e54147-d1e209">
+               <lb ed="Bd" n="8"/>4, Praeterea, Ad hoc videntur facere
+<lb ed="Bd" n="9"/>auctoritates in sequenti capitulo E 
+indu<lb break="no" ed="Bd" n="10"/>cle.
+</p>
+            <p xml:id="alalal-e54147-d1e218">
+               <lb ed="Bd" n="11"/>Unrrnius videtur posse ostendi, quod
+<lb ed="Bd" n="12"/>non habuit timorem.
+</p>
+            <p xml:id="alalal-e54147-d1e225">
+               <lb ed="Bd" n="13"/>i. Timiditas enim vitium est 
+opposi<lb break="no" ed="Bd" n="14"/>tum fortitudini : Christus autem nullum
+<lb ed="Bd" n="15"/>habuit vitium : ergo nullum timorem.
+</p>
+            <p xml:id="alalal-e54147-d1e235">
+               <lb ed="Bd" n="16"/>2. Item, Timor non est de eo quod 
+pot<lb break="no" ed="Bd" n="17"/>est auferri, quando aliquis vult sed
+<lb ed="Bd" n="18"/>Christus potuit a se transferre, quando
+<lb ed="Bd" n="19"/>voluit: quia ipse dixit, Joan. x, 17 et
+<lb ed="Bd" n="20"/>i8 : Propterea me diligit Pater, quia ego
+<lb ed="Bd" n="21"/>pono animam meam, ut iterum sumam
+<lb ed="Bd" n="22"/>eam. Nemo tollit cam a me: sed ego
+<lb ed="Bd" n="23"/>pono eam a meipso, et potestatem habeo
+<lb ed="Bd" n="24"/>ponendi eam, etc. : ergo videtur, quod
+<lb ed="Bd" n="25"/>non timuit.
+</p>
+            <p xml:id="alalal-e54147-d1e259">
+               <lb ed="Bd" n="26"/>3. Item, Si homo non peccasset, non
+<lb ed="Bd" n="27"/>timuisset : ergo videtur, quod timor
+<lb ed="Bd" n="28"/>consecutus est peccatum : ergo Christus
+<lb ed="Bd" n="29"/>gun. habere non debuit.
+</p>
+            <p xml:id="alalal-e54147-d1e270">
+               <lb ed="Bd" n="30"/>4, Item, Supra habitum est in Littera,
+<lb ed="Bd" n="31"/>quod si homo in primordio nativitatis
+<lb ed="Bd" n="32"/>suc vel nature ignorantiam vel 
+difficul<lb break="no" ed="Bd" n="33"/>ialem bene agendi habuisset, non esset
+<lb ed="Bd" n="34"/>in eo defectus : quia non est defectus et
+<lb ed="Bd" n="35"/>poena ante peccatum : ergo a simili si
+<lb ed="Bd" n="36"/>homo per naturam tristatur in periculis
+<lb ed="Bd" n="37"/>ef timet, non est defectus : sed Christus
+<lb ed="Bd" n="38"/>timuil, ut dicis : ergo non per defectum,
+<lb ed="Bd" n="39"/>sed pernaturam : et ita non valuit nobis,
+<lb ed="Bd" n="40"/>quia id quod non liberaliter assumpsit,
+<lb ed="Bd" n="41"/>salutem nobis non gratilicavit.
+</p>
+            <p xml:id="alalal-e54147-d1e299">
+               <lb ed="Bd" n="42"/>5. Item, Eadem ratione qua non 
+as<lb break="no" ed="Bd" n="43"/>sumpsit ignorantiam et difficullatem bene
+<lb ed="Bd" n="44"/>agendi, quia consecuta sunt ex peccato,
+<lb ed="Bd" n="45"/>videtur quod nullum defectum debuit 
+as<lb break="no" ed="Bd" n="46"/>sumere ; quia dicit Augustinus in prius
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="47"/>habito capitulo, quod non est defectus
+<lb ed="Bd" n="48"/>et peenalitas in quo natura est instituta,
+<lb ed="Bd" n="49"/>sed id quod consecutum est ex peccato :
+<lb ed="Bd" n="50"/>omnes autem ex peccato conseculi sunt :
+<lb ed="Bd" n="51"/>ergo nullum accipere debuit : ergo nec
+<lb ed="Bd" n="52"/>tristitiam, nec timorem, nec famem, nec
+<lb ed="Bd" n="53"/>sitim, nec aliquem alium.
+</p>
+            <p xml:id="alalal-e54147-d1e330">
+               <lb ed="Bd" n="54"/>Solutio Dicendum, quod Christus
+<lb ed="Bd" n="55"/>veram tristitiam mnaturalem habuit, et
+<lb ed="Bd" n="56"/>verum timorem, sicut dicit Magister in
+<lb ed="Bd" n="57"/>Littera.
+</p>
+            <p xml:id="alalal-e54147-d1e341">
+               <lb ed="Bd" n="58"/>Ad primum igitur dicendum, quod aliud
+<lb ed="Bd" n="59"/>est esse tristitiam in viro sapiente, ct
+<lb ed="Bd" n="60"/>aliud est cadere in ipso perturbalionem :
+<lb ed="Bd" n="61"/>licet enim fristitia turbatio sit in viro
+<lb ed="Bd" n="62"/>Sapiente, tamen non est perturbatio :
+<lb ed="Bd" n="63"/>Christus enim non est minus sapicns
+<lb ed="Bd" n="64"/>quam Philosophi : dicit tamen, 
+Turba<lb break="no" ed="Bd" n="65"/>tus sum, et non sum locutus'. Nec 
+Se<lb break="no" ed="Bd" n="66"/>neca intendit, quod non insit eis tristitia
+<lb ed="Bd" n="67"/>turbans, sed quia non est in eis tristitia
+<lb ed="Bd" n="68"/>perturbans : quia perturbatio dicit 
+defle<lb break="no" ed="Bd" n="69"/>ctionem rationis ab wquitate. Aliud enim
+<lb ed="Bd" n="70"/>est rationem tangi turbatione, et non
+<lb ed="Bd" n="71"/>deflecti : et aliud est tangi, et deflecti ab
+<lb ed="Bd" n="72"/>equalitale regiminis quo in regno anime
+<lb ed="Bd" n="73"/>regit : et aliud est tangi, et deflecti ab
+<lb ed="Bd" n="74"/>equalitate virtutis. Sapiens enim 
+tangi<lb break="no" ed="Bd" n="75"/>tur et patitur ratione passionis, sed non
+<lb ed="Bd" n="76"/>deducitur deflexus ab aequalitate et 
+equi<lb break="no" ed="Bd" n="77"/>tate. Imperfectus autem sapiens pautur,
+<lb ed="Bd" n="78"/>et tangitur, et deducitur ab xqualitate
+<lb ed="Bd" n="79"/>quidem, sed non recedit ab equitate.
+<lb ed="Bd" n="80"/>Insipiens autem patitur, et deducitur ab
+<lb ed="Bd" n="81"/>equalitate, et equitate. Unde licet pene
+<lb ed="Bd" n="82"/>corporales bene possunt recipi ad virtutis
+<lb ed="Bd" n="83"/>exercitium, tamen quia agunt contra
+<lb ed="Bd" n="84"/>naturam bonam, inducunt in sapiente
+<lb ed="Bd" n="85"/>tristitiam talem qualem diximus.
+</p>
+            <p xml:id="alalal-e54147-d1e405">
+               <lb ed="Bd" n="86"/>Ad aliud dicendum, quod sapiens non
+<lb ed="Bd" n="87"/>tristatur de eis, secundum quod summa
+<lb ed="Bd" n="88"/>virtus est in eis : sed secundum alium
+<lb ed="Bd" n="89"/>modum potest tristari. Unde Aristoteles
+<lb ed="Bd" n="90"/>in IV EEthicorum dicit, quod sufficit 
+for<lb break="no" ed="Bd" n="91"/>ii non tristari, id est, non turbaliter 
+tri<lb break="no" ed="Bd" n="92"/>stari, licet in aliis virtutibus hoc non
+<pb ed="#Bd" n="282"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>sufficiat : quia in aliis virtutibus signum
+<lb ed="Bd" n="2"/>oportet accipere habitum facientem in
+<lb ed="Bd" n="3"/>opere delectationem, ut ipse dicit :sed
+<lb ed="Bd" n="4"/>fortis non potest delectari in opere 
+susti<lb break="no" ed="Bd" n="5"/>nentiae, sed sufficit si in fine gaudet, et
+<lb ed="Bd" n="6"/>in Opere non perturbatur, etsi 
+triste<lb break="no" ed="Bd" n="7"/>tur propter nimsam acerbitatem 
+passio<lb break="no" ed="Bd" n="8"/>nis.
+</p>
+            <p xml:id="alalal-e54147-d1e444">
+               <lb ed="Bd" n="9"/>Ad aliud dicendum, quod passio 
+secun<lb break="no" ed="Bd" n="10"/>dum quod estillata perfortunam, non est 
+<lb ed="Bd" n="11"/>materia virtutis, sed secundum quod est 
+<lb ed="Bd" n="12"/>accepta a forti et sapiente : quia dicit 
+<lb ed="Bd" n="13"/>Philosophus, quod fortis etiam bene 
+uti<lb break="no" ed="Bd" n="14"/>tur infortuniis, et etiam periculis 
+natura<lb break="no" ed="Bd" n="15"/>libus, ut est mors naturalis. 
+</p>
+            <p xml:id="alalal-e54147-d1e462">
+               <lb ed="Bd" n="16"/>Ad aliud dicendum, quod auctoritates _ 
+<lb ed="Bd" n="17"/>ille non intendunt removecre a Christo 
+<lb ed="Bd" n="18"/>passionem tristitia omnino, sed 
+passio<lb break="no" ed="Bd" n="19"/>nem intendunt ponere et passionem 
+per<lb break="no" ed="Bd" n="20"/>turbantem removere,  sicut Magister 
+<lb ed="Bd" n="21"/>infra in textu illas auctoritates 
+expo<lb break="no" ed="Bd" n="22"/>nit. 
+</p>
+            <p xml:id="alalal-e54147-d1e480">
+               <lb ed="Bd" n="23"/>Ad id quod ulterius quaeritur de timore, 
+  <lb ed="Bd" n="24"/>dicendum quod timiditas non est idem  
+<lb ed="Bd" n="25"/>quod timor : quia timiditas sonat in 
+pu<lb break="no" ed="Bd" n="26"/>sillanimitatem quae vitium est: sed timor 
+<lb ed="Bd" n="27"/>sonat in passionem quamdam quae potest 
+<lb ed="Bd" n="28"/>esse virtus, et vitium, et nature 
+condi<lb break="no" ed="Bd" n="29"/>tio : virtus, sicut nos dicimus fortem 
+ti<lb break="no" ed="Bd" n="30"/>mere timenda : vitium, sicut dicimus 
+ti<lb break="no" ed="Bd" n="31"/>morem mundanum vel humanum :
+con<lb break="no" ed="Bd" n="32"/>ditio autem nature, sicut dicimus quod 
+<lb ed="Bd" n="33"/>est metus cadens in constantem virum: 
+<lb ed="Bd" n="34"/>unde timor semper non sonat in 
+vi<lb break="no" ed="Bd" n="35"/>tium.
+</p>
+            <p xml:id="alalal-e54147-d1e511">
+               <lb ed="Bd" n="36"/>Ad auivp dicendum, quod in Christo
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="37"/>est considerare naturam et personam:
+<lb ed="Bd" n="38"/>unde licet nilil fuerit impossibile 
+pergo<lb break="no" ed="Bd" n="39"/>ne, tamen natura infirma fuit in eco, et
+<lb ed="Bd" n="40"/>uhus conditio fuit timor persone in 
+na<lb break="no" ed="Bd" n="41"/>tura illa. Quod autem dixit, Nemo tollat,
+<lb ed="Bd" n="42"/>etc., hoc dicit de potestate persone 
+se<lb break="no" ed="Bd" n="43"/>cundum naturam divinam.
+</p>
+            <p xml:id="alalal-e54147-d1e533">
+               <lb ed="Bd" n="44"/>Ad aliud dicendum, quod tristitia et
+<lb ed="Bd" n="45"/>timor plantata sunt in natura nostra, ut
+<lb ed="Bd" n="46"/>supra diximius : quia licet actus timendi
+<lb ed="Bd" n="47"/>et tristandi conseculi sunt ex peccato, 
+ta<lb break="no" ed="Bd" n="48"/>men potentia timendi, et ordo ad 
+timo<lb break="no" ed="Bd" n="49"/>rem, est ex modo constituenti naturam
+<lb ed="Bd" n="50"/>corporis ex contrariis :et sic non est de
+<lb ed="Bd" n="51"/>aliis quibusdam defectibus, ut statim 
+pa<lb break="no" ed="Bd" n="52"/>tebit.
+</p>
+            <p xml:id="alalal-e54147-d1e556">
+               <lb ed="Bd" n="53"/>Ad aliud dicendum, quod defectus non
+<lb ed="Bd" n="54"/>proprie dicitur de eo quod abest 
+natura<lb break="no" ed="Bd" n="55"/>libus. Diogenes enim non dicitur 
+defi<lb break="no" ed="Bd" n="56"/>ciens ex eo quod non habet cornua: et
+<lb ed="Bd" n="57"/>homo non dicitur deficiens ex eo quod
+<lb ed="Bd" n="58"/>non habet potentiam volandi: et ideo 
+ho<lb break="no" ed="Bd" n="59"/>minum dicuntur defectus iste 
+passibili<lb break="no" ed="Bd" n="60"/>tates : quia natura sua rationalis est, et
+<lb ed="Bd" n="61"/>instituta fuit in oppositis habitibus: si
+<lb ed="Bd" n="62"/>autem non esset cum natura constitula,
+<lb ed="Bd" n="63"/>non esset defectus, sicut dicit 
+Augusti<lb break="no" ed="Bd" n="64"/>nus: sicut nec in capra, quod non 
+ratio<lb break="no" ed="Bd" n="65"/>cinetur.
+</p>
+            <p xml:id="alalal-e54147-d1e587">
+               <lb ed="Bd" n="66"/>Ad aliud dicendum, quod non est 
+si<lb break="no" ed="Bd" n="67"/>mile de quibuscumque defeciibus: quia
+<lb ed="Bd" n="68"/>quidam consequuntur naturam 
+secun<lb break="no" ed="Bd" n="69"/>dum principia constituentia ipsam, et
+<lb ed="Bd" n="70"/>quidam culpam, et quidam personam, ut
+<lb ed="Bd" n="71"/>supra diximus : Christus autem non 
+de<lb break="no" ed="Bd" n="72"/>buit assumere nisi illos qui consequuntur
+</p>
+            <p xml:id="alalal-e54147-d1e605">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="73"/>F. Determinatio auctaritatum.
+</p>
+            <p xml:id="alalal-e54147-d1e612">
+               <lb ed="Bd" n="74"/>Ne autem in sacris litteris aliqua adversa diversitas esse putetur, harum
+<lb ed="Bd" n="75"/>auctoritatum verba in hunc modum accipienda dicimus: ult non veritatem
+<lb ed="Bd" n="76"/>timoris et Lristitiae vel propassionem, sed timoris et tristitice necessitatem
+<pb ed="#Bd" n="283"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>et passionem a Christo removisse intelligantur '. Habuit enim Christus
+<lb ed="Bd" n="2"/>verum timorem et tristitiam in natura hominis: sed non sicul nos, qui
+<lb ed="Bd" n="3"/>sumus membra ejus. Nos enim causa peccati nostri his defectibus 
+ne<lb break="no" ed="Bd" n="4"/>cessario subjacemus, et in nobis sunt isti defeclus secundum propassionem
+<lb ed="Bd" n="5"/>ef passionem: sed in Christo non nisi secundum propassionem. Sicul enim
+<lb ed="Bd" n="6"/>in peccatis gradus quidam notantur propassio et passio, ita et in his 
+poena<lb break="no" ed="Bd" n="7"/>iibus affectibus. Afficitur enim quis interdum timore vel tristilia, ita ul
+<lb ed="Bd" n="8"/>inentis intellectus non inde moveatur a rectitudine vel Dei 
+contemplatio<lb break="no" ed="Bd" n="9"/>ne: et tunc propassio est. Aliquando vero movetur et turbatur: et tune
+<lb ed="Bd" n="10"/>passio est. Christus vero non fuit ila turbatus in anima timore vel trislitia,
+<lb ed="Bd" n="11"/>ula rectiludine vel Dei contemplatione aliquatenus declinaret: secundum
+<lb ed="Bd" n="12"/>quem modum intelligitur, cum dicitur vel timuisse vel tristis fuisse. Unde
+<lb ed="Bd" n="13"/>Iheronymus super Mattheum, ubi legitur, Cepit coniristari et mostus
+<lb ed="Bd" n="14"/>esse*: Ut veritatem, inquit, probaret assumpli hominis, vere contristatus
+<lb ed="Bd" n="15"/>est: sed non passio ejus dominatur animo, verum propassio est. Unde aif,
+<lb ed="Bd" n="16"/>Cepit contristari. Aliud est enim contristari, aliud incipere contristari:
+<lb ed="Bd" n="17"/>quod est, aliter contristatur quis per propassionem, aliter per passionem.
+<lb ed="Bd" n="18"/>Ideoque secundum hane distinctionem aliquando dicitur Christus non vere
+<lb ed="Bd" n="19"/>timuisse, aliquando vere limuisse: quia verum timorem habuit et tristitiam,
+<lb ed="Bd" n="20"/>sed non secundum passionem, neque ex necessitate conditionis. Unde 
+Au<lb break="no" ed="Bd" n="21"/>sustinus ex his causis volens assumi dictorum intelligentiam, dicit 
+Chri<lb break="no" ed="Bd" n="22"/>slum non vere timuisse vel tristatum esse, et incontinenti veram tristitiam
+<lb ed="Bd" n="23"/>nabuisse: His verbis infirmos in se presignans Dominus ait, Pater mt, st
+<lb ed="Bd" n="24"/>posstbile esl, transeat a me calix istes. Non enim vere timebat Dominus
+<lb ed="Bd" n="25"/>pati tertia die resurrecturus, cum arderet Paulus dissolvi et esse cum 
+Chri<lb break="no" ed="Bd" n="26"/>sto “. Iste gaudet coronandus, et tristis est Dominus coronaturus’? Ecce hic
+<lb ed="Bd" n="27"/>videtur trislitiam et timorem a Christo removere. Continuo autem 
+sub<lb break="no" ed="Bd" n="28"/>junxit: Sed tristitiam sic assumpsit quomodo carnem. Fuit enim tristis,
+<lb ed="Bd" n="29"/>sicut Evangelium dicil. Si enim tristis non fuit, cum Evangelista dical,
+<lb ed="Bd" n="30"/>Tristis est anima mea, ele.+, ergo et quando dicit, Dormivil Jesus’, non
+<lb ed="Bd" n="31"/>dormivit : vel quando dicit manducasse, non manducavit: et ita mihil
+<lb ed="Bd" n="32"/>sanum relinguitur, ut dicatur etiam, quia corpus non erat verum. 
+Quid<lb break="no" ed="Bd" n="33"/>quid ergo de illo scripltum est, verum est, et factum est. Ergo et tristis fuit:
+<pb ed="#Bd" n="284"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>sed voluntate tristitiam suscepit veram, quomodo voluntate carnem veram,
+<lb ed="Bd" n="2"/>Aperte noscis eumdem sibi in his verbis contradicere, nisi varias 
+dicto<lb break="no" ed="Bd" n="3"/>rum discegneret causas, ex quibus intelligenlia verborum assumenda est,
+<lb ed="Bd" n="4"/>Si enim discernatur intelligentiae causa preediclorum verborum, nihil
+<lb ed="Bd" n="5"/>occurrit contradictionis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

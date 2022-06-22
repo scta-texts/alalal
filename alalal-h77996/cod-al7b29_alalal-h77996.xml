@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 23</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 23</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="828"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h77996"><!-- l4d19a23 -->
+            <head xml:id="alalal-h77996-Hd1e99">Articulus 23</head>
+            <head xml:id="alalal-h77996-Hd1e101" type="question-title">An Deus juste liberavit meretricem, non
+invento qui projiceret primum 
+lapidem ?</head>
+            <p xml:id="alalal-h77996-d1e104">
+               <lb ed="#Be" n="59"/>ARTICULUS XXIII.
+<lb ed="#Be" n="60"/>An Deus juste liberavit meretricem, non
+<lb ed="#Be" n="61"/>invento qui projiceret primum 
+lapi<lb break="no" ed="#Be" n="62"/>dem ?
+</p>
+            <p xml:id="alalal-h77996-d1e115">
+               <lb ed="#Be" n="63"/>Deinde queritur de hoc quod dicit, ibi,
+<lb ed="#Be" n="64"/>E, post initium: <quote xml:id="alalal-h77996-Qd1e121"> Ideo enim liberavit
+<lb ed="#Be" n="65"/>peccatricem *, quia non erat. qui juste
+<lb ed="#Be" n="66"/>projiceret lapidem, etc. </quote>
+            </p>
+            <p xml:id="alalal-h77996-d1e129">
+               <lb ed="#Be" n="67"/>Ex hoc videtur, quod si ibi fuisset 
+ali<lb break="no" ed="#Be" n="68"/>quis justus, quod illi precepisset quod
+<lb ed="#Be" n="69"/>lapidasset eam.
+</p>
+            <p xml:id="alalal-h77996-d1e139">
+               <lb ed="#Be" n="70"/>Quod si concedatur, contra erit quod
+<lb ed="#Be" n="71"/>dicitur, <ref xml:id="alalal-h77996-Rd1e145">Ezechiel. xvi, 23</ref> : <quote xml:id="alalal-h77996-Qd1e147">Numquid
+<lb ed="#Be" n="72"/>voluntatis mee est mors impii? dictt
+<lb ed="#Be" n="73"/>Dominus Deus : et non ut convertatur a
+<lb ed="#Be" n="74"/>viis suis, et vivat</quote>. Et, <ref xml:id="alalal-h77996-Rd1e156">Osee, vi, 6</ref>: <quote xml:id="alalal-h77996-Qd1e159">
+Mi<lb break="no" ed="#Be" n="75"/>sericordiam volui, et non sacrificium :
+<lb ed="#Be" n="76"/>et scientiam Dei plus quam holocausta.</quote>
+            </p>
+            <p xml:id="alalal-h77996-d1e167">
+               <lb ed="#Be" n="77"/>Ad Hoc dicendum, quod sine dubio
+<lb ed="#Be" n="78"/>etiamsi justi fuissent, Dominus ad pe-
+<pb ed="#Be" n="829"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>nitentiam voluisset vivere adulteram :
+<lb ed="#Be" n="2"/>sed ad presentes utebatur simulationis
+<lb ed="#Be" n="3"/>modo, ut confunderet, et erubescentes
+<lb ed="#Be" n="4"/>ad fidem sui et poenitentiam inclinaret.
+</p>
+            <p xml:id="alalal-h77996-d1e187">
+               <lb ed="#Be" n="5"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="298"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c56154"><!-- l1d39a6 -->
+            <head xml:id="alalal-c56154-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-c56154-Hd1e101" type="question-title">Utrum modo Deus potest scire vel 
+prescire, sicut potest scivisse vel 
+prescivisse ab aeterno ?</head>
+            <p xml:id="alalal-c56154-d1e104">
+               <lb ed="#Bb" n="60"/>ARTICULUS VI.
+<lb ed="#Bb" n="61"/>Utrum modo Deus potest scire vel 
+pre<lb break="no" ed="#Bb" n="62"/>scire, sicut potest scivisse vel 
+presci<lb break="no" ed="#Bb" n="63"/>visse ab aeterno ?
+</p>
+            <p xml:id="alalal-c56154-d1e115">
+               <lb ed="#Bb" n="64"/>Deinde queritur de hoc quod dicit:
+<lb ed="#Bb" n="65"/>
+               <quote xml:id="alalal-c56154-Qd1e121"> Ita potest modo scire vel prescire, 
+sic<lb break="no" ed="#Bb" n="66"/>ut potest scisse vel precisse ab aeterno. </quote>
+            </p>
+            <p xml:id="alalal-c56154-d1e127">
+               <lb ed="#Bb" n="67"/>1. Hoc enim videtur falsum : quia in
+<lb ed="#Bb" n="68"/>nostra scientia sequitur, quod si possum
+<lb ed="#Bb" n="69"/>scire aliquid quod non scio, scientia mea
+<lb ed="#Bb" n="70"/>variatur.
+</p>
+            <p xml:id="alalal-c56154-d1e139">
+               <lb ed="#Bb" n="71"/>2. Item, Si possum aliquid modo scire,
+<lb ed="#Bb" n="72"/>non sequitur ex hoc quod illud prius
+<lb ed="#Bb" n="73"/>sciverim : ergo videtur, quod iste 
+con<lb break="no" ed="#Bb" n="74"/>sequentiae non teneant in Deo.
+</p>
+            <p xml:id="alalal-c56154-d1e150">
+               <lb ed="#Bb" n="75"/>Solutio. Dicendum, quod non est 
+si<lb break="no" ed="#Bb" n="76"/>mile: sed sicut se habet scibile ad 
+no<lb break="no" ed="#Bb" n="77"/>stram scientiam, ita se habet sua 
+scien<lb break="no" ed="#Bb" n="78"/>tia ad scibile. Unde sicut in nobis 
+sequi<lb break="no" ed="#Bb" n="79"/>tur, nullum scibile est : ergo nulla 
+scien<lb break="no" ed="#Bb" n="80"/>tia est: ita e converso sequitur, in Deo
+<lb ed="#Bb" n="81"/>nulla scientia est: ergo nullum scibile
+<lb ed="#Bb" n="82"/>est: et sicut in nobis ista due sunt in-
+<pb ed="#Bb" n="299"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>compossibiles, scilicet quod ego 
+scien<lb break="no" ed="#Bb" n="2"/>tiam alicujus scibilis habeam, et quod
+<lb ed="#Bb" n="3"/>illud scibile non sit : quia statim me 
+ha<lb break="no" ed="#Bb" n="4"/>bente scientiam, sequitur illud scibile
+<lb ed="#Bb" n="5"/>esse, quia mea non efficitur nisi ab illo
+<lb ed="#Bb" n="6"/>scibili: ita in Deo iste due sunt 
+incom<lb break="no" ed="#Bb" n="7"/>possibiles, quod aliquid sit et quod 
+scien<lb break="no" ed="#Bb" n="8"/>tia illius non sit: quia scientia Dei est
+<lb ed="#Bb" n="9"/>causa illius : et quia non est causa nisi
+<lb ed="#Bb" n="10"/>ab aeterno, sequitur quod ab aeterno sit
+<lb ed="#Bb" n="11"/>causa illius: et ideo in Deo est idem
+<lb ed="#Bb" n="12"/>posse scire modo et posse ab aeterno 
+sci<lb break="no" ed="#Bb" n="13"/>visse : et iste dus incompossibiles sunt,
+<lb ed="#Bb" n="14"/>quod aliquid nune fiat, et quod ipse ab
+<lb ed="#Bb" n="15"/>eterno illud non scivit : licet utraque 
+se<lb break="no" ed="#Bb" n="16"/>cundum se sit possibilis, quia una 
+impli<lb break="no" ed="#Bb" n="17"/>catur in alia : et quando ponitur aliquid
+<lb ed="#Bb" n="18"/>esse quod numquam erit, ponitur per
+<lb ed="#Bb" n="19"/>consequens Deum illud semper scivisse,
+<lb ed="#Bb" n="20"/>ex hoc, quia sua scientia est aeterna 
+cau<lb break="no" ed="#Bb" n="21"/>sa vel previsio illius. Et super istum
+<lb ed="#Bb" n="22"/>sensum procedit Magister.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="469"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e90590"><!-- l3d24a11 -->
+            <head xml:id="alalal-e90590-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-e90590-Hd1e101" type="question-title">An Deum scire, est eum mente conspicere
+firmiterque percipere ?</head>
+            <p xml:id="alalal-e90590-d1e104">
+               <lb ed="Bd" n="56"/>ARTICULUS XI.
+<lb ed="Bd" n="57"/>An Deum scire, est eum mente conspicere
+<lb ed="Bd" n="58"/>firmiterque percipere ?
+</p>
+            <p xml:id="alalal-e90590-d1e113">
+               <lb ed="Bd" n="59"/>Deinde quaeritur de illa diffinitione
+<lb ed="Bd" n="60"/>quam dat Augustinus, ibi, C, circa 
+me<lb break="no" ed="Bd" n="61"/>dium : <quote xml:id="alalal-e90590-Qd1e121"> Quid est Deum scire, nisi eum
+<lb ed="Bd" n="62"/>mente conspicere, firmegue percipere ? </quote>
+            </p>
+            <p xml:id="alalal-e90590-d1e127">
+               <lb ed="Bd" n="63"/>Qualiter enim intelligitur hic mente
+<lb ed="Bd" n="64"/>conspicere ? Aut enim per speculum 
+in<lb break="no" ed="Bd" n="65"/>telligit, et insenigmate: aut per speciem.
+<lb ed="Bd" n="66"/>Si primo modo: tune non est scire, sed
+<lb ed="Bd" n="67"/>potius credere. Si autem secundo modo:
+<lb ed="Bd" n="68"/>hoc non videtur verum : quia sic tantum
+<lb ed="Bd" n="69"/>in patria videbitur : ergo videiur, quod
+<lb ed="Bd" n="70"/>Deus non scitur.
+</p>
+            <p xml:id="alalal-e90590-d1e148">
+               <lb ed="Bd" n="71"/>SED CONTRA :
+<lb ed="Bd" n="72"/>Damascenus : <quote xml:id="alalal-e90590-Qd1e154"> Cognitio existendi
+<lb ed="Bd" n="73"/>Deum omnibus naturaliter inserta est ‘. </quote>
+               <lb ed="Bd" n="74"/>Ergo videtur, quod Deus sciatur.
+</p>
+            <p xml:id="alalal-e90590-d1e162">
+               <lb ed="Bd" n="75"/>Solutio Augustinus loguitur de 
+scien<lb break="no" ed="Bd" n="76"/>tia approbationis quae mixta est affectui :
+<lb ed="Bd" n="77"/>sic enim conspicitur menie, dum 
+gusta<lb break="no" ed="Bd" n="78"/>tur per experientiam in donis ct
+<pb ed="#Bd" n="470"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>hoc est aliquid ultra fidem et citra 
+visio<lb break="no" ed="Bd" n="2"/>nem.
+</p>
+            <p xml:id="alalal-e90590-d1e182">
+               <lb ed="Bd" n="3"/>Ab primum ergo dicendum, quod 
+spe<lb break="no" ed="Bd" n="4"/>culum non est unum iv quo videtur :
+<lb ed="Bd" n="5"/>quandoque enim est creatura exterior
+<lb ed="Bd" n="6"/>habens vestigium : et quandoque cum
+<lb ed="Bd" n="7"/>imagine gratia, quae similis est 
+beatitu<lb break="no" ed="Bd" n="8"/>dini : et ita loquitur hic : unde etiam 
+fir<lb break="no" ed="Bd" n="9"/>mitas perceptionis hujus est ex fide 
+ad<lb break="no" ed="Bd" n="10"/>herente per visum, et charitate penetran-—
+<lb ed="Bd" n="11"/>te per affectum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

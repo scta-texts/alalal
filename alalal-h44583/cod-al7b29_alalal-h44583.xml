@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="673"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h44583"><!-- l4d17a10 -->
+            <head xml:id="alalal-h44583-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-h44583-Hd1e101" type="question-title">Que sint illa quatuor quae requiruntur
+ad justificationem impii ?</head>
+            <p xml:id="alalal-h44583-d1e104">
+               <lb ed="#Be" n="31"/>ARTICULUS X.
+<lb ed="#Be" n="32"/>Que sint illa quatuor quae requiruntur
+<lb ed="#Be" n="33"/>ad justificationem impii ?
+</p>
+            <p xml:id="alalal-h44583-d1e113">
+               <lb ed="#Be" n="34"/>AD SECUNDUM sic proceditur :
+<lb ed="#Be" n="35"/>Dicitur ab omnibus, quod quatuor 
+exi<lb break="no" ed="#Be" n="36"/>guntur ad justificationem impii, scilicet
+<lb ed="#Be" n="37"/>infusio gratiae, motus liberi arbitrii in
+<lb ed="#Be" n="38"/>peccatum sive contritio, quod idem est,
+<lb ed="#Be" n="39"/>motus liberi arbitrii in Deum, et 
+remis<lb break="no" ed="#Be" n="40"/>sio peccati. Hac autem notantur in Psal-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="41"/>mo 1ix,4: <quote xml:id="alalal-h44583-Qd1e134">Commovisti terram : ecce
+<lb ed="#Be" n="42"/>primum. Lt conturbastt eam</quote> : ecce 
+con<lb break="no" ed="#Be" n="43"/>tritio. Sana contritiones ejus : ecce 
+remis<lb break="no" ed="#Be" n="44"/>sio peccati. Quia commota est: ecce 
+mo<lb break="no" ed="#Be" n="45"/>tus liberii arbitrii in Deum.
+</p>
+            <p xml:id="alalal-h44583-d1e147">
+               <lb ed="#Be" n="46"/>Sed contra hoc objicitur : quia
+<lb ed="#Be" n="47"/>1. Dicit Bernardus: <quote xml:id="alalal-h44583-Qd1e153"> Timore 
+voca<lb break="no" ed="#Be" n="48"/>mur ad Deum, amore autem 
+justifica<lb break="no" ed="#Be" n="49"/>mur:</quote> ergo duo praeter dicta quatuor
+<lb ed="#Be" n="50"/>exiguntur, scilicet timor, et amor,
+</p>
+            <p xml:id="alalal-h44583-d1e164">
+               <lb ed="#Be" n="51"/>2. Item, Proverb. xv, 27: <quote xml:id="alalal-h44583-Qd1e168">Per 
+mise<lb break="no" ed="#Be" n="52"/>ricordiam et fidem purgantur peccata</quote> :
+<lb ed="#Be" n="53"/>ergo plura quam dicta sunt, exiguntur.
+</p>
+            <p xml:id="alalal-h44583-d1e176">
+               <lb ed="#Be" n="54"/>3. Item, Act. xv. 9: <quote xml:id="alalal-h44583-Qd1e180">Fide purificans
+<lb ed="#Be" n="55"/>corda eorum</quote> : sed justificatio non est
+<lb ed="#Be" n="56"/>aliud quam cordis a peccato depuratio .
+<lb ed="#Be" n="57"/>ergo fides ad justificationem exigitur,
+</p>
+            <p xml:id="alalal-h44583-d1e190">
+               <lb ed="#Be" n="58"/>4. Item, Videtur quod charitas 
+exiga<lb break="no" ed="#Be" n="59"/>tur: quia dicit Augustinus, quod hee
+<lb ed="#Be" n="60"/>sola est quae dividit inter filios regni et
+<lb ed="#Be" n="61"/>filios perditionis : sed filii regni sunt, qui
+<lb ed="#Be" n="62"/>sunt conformes imagini filii ejus: sicut
+<lb ed="#Be" n="63"/>dicitur, ad Roman vin, 29: ergo, etc.
+</p>
+            <p xml:id="alalal-h44583-d1e206">
+               <lb ed="#Be" n="64"/>Item, Luc. vir, 47 : Remittuntur ei 
+pec<lb break="no" ed="#Be" n="65"/>cata mulia, quoniam dilexit multum, Et
+<lb ed="#Be" n="66"/>ex hoc sequitur idem quod prius.
+</p>
+            <p xml:id="alalal-h44583-d1e215">
+               <lb ed="#Be" n="67"/>5. Item, Chrysostomus superJoannem :
+<lb ed="#Be" n="68"/>
+               <quote xml:id="alalal-h44583-Qd1e221"> Recogitemus cum diligentia omnia quae
+<lb ed="#Be" n="69"/>secundum anterius tempus facere 
+pre<lb break="no" ed="#Be" n="70"/>sumpsimus, et studeamus ea abstergere
+<lb ed="#Be" n="71"/>omnifariam: multas enim Deus nobis ad
+<lb ed="#Be" n="72"/>hoc aperuit vias. Dic enim tu (ait) 
+pecca<lb break="no" ed="#Be" n="73"/>ta tua ut justificeris *. Et rursus, Psal.
+<lb ed="#Be" n="74"/>xxxvn, 19: Iniguitatem meam 
+annun<lb break="no" ed="#Be" n="75"/>tiabo, et dolor meus, etc. Nec enim 
+pa<lb break="no" ed="#Be" n="76"/>rum nobis prodest ad diminuendam 
+pec<lb break="no" ed="#Be" n="77"/>catorum nostrorum magnitudinem 
+con<lb break="no" ed="#Be" n="78"/>tinua eorum accusatio et memoria. Est et
+<lb ed="#Be" n="79"/>hac manifestior via, ut nulli eorum qui
+<lb ed="#Be" n="80"/>in nos peccaverunt, memoriam malorum
+<lb ed="#Be" n="81"/>habeamus. Vis tertiam discere? audi 
+Da<lb break="no" ed="#Be" n="82"/>nielem, iv, 24: Peccata tua eleemosynis
+<lb ed="#Be" n="83"/>redime, etc. Est utique et alia cum hoc
+<lb ed="#Be" n="84"/>orationum continuitas, et eliam insistere
+<lb ed="#Be" n="85"/>cum exspectatione his quae ad Deum sunt
+<lb ed="#Be" n="86"/>deprecationibus, quae non parvam nobis
+<lb ed="#Be" n="87"/>afferunt consolationem. Similiter, et je-
+<pb ed="#Be" n="674"/>
+                  <cb ed="#Be" n="a"/>
+                  <lb ed="#Be" n="1"/>juniam, quod cum proximi charitate 
+ex<lb break="no" ed="#Be" n="2"/>stinguit vehementiam ire Dei: ignem
+<lb ed="#Be" n="3"/>enim inflammatum exstinguit aqua, et
+<lb ed="#Be" n="4"/>eleemosyne expurgant peccata'. </quote> Ex
+<lb ed="#Be" n="5"/>his verbis habetur, quod quinque sunt
+<lb ed="#Be" n="6"/>quibus expellitur peccatum, et induitur
+<lb ed="#Be" n="7"/>justitia : et nullum horum supra est 
+nu<lb break="no" ed="#Be" n="8"/>meratum : ergo diminuta est illa 
+nume<lb break="no" ed="#Be" n="9"/>ratio.
+</p>
+            <p xml:id="alalal-h44583-d1e290">
+               <lb ed="#Be" n="10"/>Sed videtur, quod sint pauciora : quia
+<lb ed="#Be" n="11"/>1. Infusio gratia aut per se suflicit ad
+<lb ed="#Be" n="12"/>justificationem; aut non. Si sic: ergo
+<lb ed="#Be" n="13"/>nullumaliorum exigitur. Sinon. Contra:
+<lb ed="#Be" n="14"/>Quia albedo sufficit per se ad albationem,
+<lb ed="#Be" n="15"/>et forme spirituales perfectiores sunt
+<lb ed="#Be" n="16"/>quam corporales in operationibus : ergo
+<lb ed="#Be" n="17"/>multo magis gratia per se sufficit ad 
+ju<lb break="no" ed="#Be" n="18"/>stificationem.
+</p>
+            <p xml:id="alalal-h44583-d1e313">
+               <lb ed="#Be" n="19"/>2. Item, In corporalibus mutationibus
+<lb ed="#Be" n="20"/>non est alia mutatio subjecti, nisi 
+expul<lb break="no" ed="#Be" n="21"/>sio unius forme: et inductio alterius : et
+<lb ed="#Be" n="22"/>non oportet ut subjectum moveatur ad
+<lb ed="#Be" n="23"/>arlificem vel ad colorem expellendum :
+<lb ed="#Be" n="24"/>ergo similiter in spirituali mutatione non
+<lb ed="#Be" n="25"/>exigitur nisi expulsio peccati et infusio
+<lb ed="#Be" n="26"/>gratia : et non oportet quod liberum 
+ar<lb break="no" ed="#Be" n="27"/>bitrium moveatur in Deum, vel in 
+pecca<lb break="no" ed="#Be" n="28"/>tum: et sic duo sufficiunt.
+</p>
+            <p xml:id="alalal-h44583-d1e337">
+               <lb ed="#Be" n="29"/>Ipem,Queritur de singulis eorum 
+qua<lb break="no" ed="#Be" n="30"/>tuor :
+<lb ed="#Be" n="31"/>1. Cum enim justificatio denominetur
+<lb ed="#Be" n="32"/>a justitia, potius debet dici quod exigitur
+<lb ed="#Be" n="33"/>ibi infusio justitiae, quam gratie.
+</p>
+            <p xml:id="alalal-h44583-d1e350">
+               <lb ed="#Be" n="34"/>2. Praterea, Ille motus aut est 
+intel<lb break="no" ed="#Be" n="35"/>lectus tantum, aut intellectus simul et
+<lb ed="#Be" n="36"/>affectus, aut affectus tantum. Si 
+intelle<lb break="no" ed="#Be" n="37"/>ctus. Conrra : Virtus magis est ex parte
+<lb ed="#Be" n="38"/>affectus, quam intellectus: et virtus 
+ma<lb break="no" ed="#Be" n="39"/>xime operatur ad justificationem ergo
+<lb ed="#Be" n="40"/>motus ille maxime debet esse ex parte
+<lb ed="#Be" n="41"/>affectus.
+</p>
+            <p xml:id="alalal-h44583-d1e370">
+               <lb ed="#Be" n="42"/>3. Praeterea, Motus liberi arbitrii
+<lb ed="#Be" n="43"/>Deum est meritorius et gratia 
+informa<lb break="no" ed="#Be" n="44"/>tus, aut non. Si sic: omnis talis motus
+<lb ed="#Be" n="45"/>est consequens justificationem et gratiam :
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="46"/>ergo ille justificationem consequitur : sed
+<lb ed="#Be" n="47"/>quod essentialiter sequitur ad aliud, nop
+<lb ed="#Be" n="48"/>exigitur ad ipsum ut causa : ergo motys
+<lb ed="#Be" n="49"/>liberi arbitrii in Deum non exigitur, ut
+<lb ed="#Be" n="50"/>causa ad justificationem : ergo male 
+po<lb break="no" ed="#Be" n="51"/>nitur inter justificantia.
+</p>
+            <p xml:id="alalal-h44583-d1e396">
+               <lb ed="#Be" n="52"/>4. Item, Motus intellectus in Deum
+<lb ed="#Be" n="53"/>communis est justificatis et non justificg.
+<lb ed="#Be" n="54"/>tis : ergo non proprie exigitur ut 
+eny<lb break="no" ed="#Be" n="55"/>meretur inter ea qu justificant impium,
+</p>
+            <p xml:id="alalal-h44583-d1e407">
+               <lb ed="#Be" n="56"/>5. Item, Queritur de remissione 
+pec<lb break="no" ed="#Be" n="57"/>cati: quia haec idem videtur esse cum
+<lb ed="#Be" n="58"/>infusione gratiae : quia, sicut vult 
+Philo<lb break="no" ed="#Be" n="59"/>sophus, generatio unius est corruptio 
+al<lb break="no" ed="#Be" n="60"/>terius.
+</p>
+            <p xml:id="alalal-h44583-d1e421">
+               <lb ed="#Be" n="61"/>6. Similiter objicitur de motu liber}
+<lb ed="#Be" n="62"/>arbitrii in peccatum, Hic enim motus est
+<lb ed="#Be" n="63"/>recognitionis peccati : et hic motus 
+com<lb break="no" ed="#Be" n="64"/>munis est omnibus bonis et malis.
+</p>
+            <p xml:id="alalal-h44583-d1e432">
+               <lb ed="#Be" n="65"/>7. Praeterea, Est unum argumentum
+<lb ed="#Be" n="66"/>commune’ supradicte divisioni et isti
+<lb ed="#Be" n="67"/>membro : quia in quodcumque movetur
+<lb ed="#Be" n="68"/>liberum arbitrium, ipsum potest in 
+il<lb break="no" ed="#Be" n="69"/>lud : stergo liberum arbitrium sive per
+<lb ed="#Be" n="70"/>intellectum sive per affectum sive per
+<lb ed="#Be" n="71"/>utrumque movetur in Deum et in 
+pecca<lb break="no" ed="#Be" n="72"/>tum, tunc ipsum ex se potest in Deum et
+<lb ed="#Be" n="73"/>in peccatum, quod falsum est : ergo hac
+<lb ed="#Be" n="74"/>non exiguntur ad justificationem impii.
+</p>
+            <p xml:id="alalal-h44583-d1e456">
+               <lb ed="#Be" n="75"/>Sed contra haec omnia membra 
+si<lb break="no" ed="#Be" n="76"/>mul objicitur :
+<lb ed="#Be" n="77"/>Tle enim motus liberi arbitrii in Deum
+<lb ed="#Be" n="78"/>et in peccatum, aut est gratum faciens,
+<lb ed="#Be" n="79"/>aut naturalis tantum. Si primo modo:
+<lb ed="#Be" n="80"/>ergo consequitur justificationem, sicut
+<lb ed="#Be" n="81"/>motus gratum faciens consequitur 
+justi<lb break="no" ed="#Be" n="82"/>ficationem operantis : quia dicit 
+Augu<lb break="no" ed="#Be" n="83"/>stinus, quod <quote xml:id="alalal-h44583-Qd1e477"> non operamur jus ut justi
+<lb ed="#Be" n="84"/>simus : sed potius justitiam accipimus a
+<lb ed="#Be" n="85"/>Deo, ut operemur, </quote> Si autem est liberi
+<lb ed="#Be" n="86"/>arbitrii motus naturalis, cum talinon 
+de<lb break="no" ed="#Be" n="87"/>beatur aliqua justificatio, videtur 
+incon<lb break="no" ed="#Be" n="88"/>grue poni inter justificantia.
+</p>
+            <p xml:id="alalal-h44583-d1e492">
+               <lb ed="#Be" n="89"/>Soxtutio. Dicendum, quod haec quatuor
+<lb ed="#Be" n="90"/>exiguntur ad impii justificationem.
+</p>
+            <p xml:id="alalal-h44583-d1e499">
+               <lb ed="#Be" n="91"/>Duo sunt facientia justificationem :.
+<pb ed="#Be" n="675"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>unum quod est ut agens per habitum
+<lb ed="#Be" n="2"/>quem creando dat in “corde contrarium
+<lb ed="#Be" n="3"/>peccato, et hoc est Deus : et alterum quod
+<lb ed="#Be" n="4"/>est ut disponens et preparans subjectum,
+<lb ed="#Be" n="5"/>et obediens operanti primo quod est
+<lb ed="#Be" n="6"/>Deus. Et ita dico, quod penes operans
+<lb ed="#Be" n="7"/>per habitum quem creando dat, duo 
+ac<lb break="no" ed="#Be" n="8"/>cipiuntur : unum scilicet penes terminum
+<lb ed="#Be" n="9"/>ad quem est motus justificationis, et hoc
+<lb ed="#Be" n="10"/>modo est infusio gratiae : alterum autem
+<lb ed="#Be" n="11"/>penes terminum a quo, quod est remissio
+<lb ed="#Be" n="12"/>peccati.
+</p>
+            <p xml:id="alalal-h44583-d1e534">
+               <lb ed="#Be" n="13"/>Penes autem dispositiones duo 
+acci<lb break="no" ed="#Be" n="14"/>piuntur : unum penes terminum a quo,
+<lb ed="#Be" n="15"/>et hoc est motus liberi arbitrii in 
+pecca<lb break="no" ed="#Be" n="16"/>tum detestando et expellendo ipsum : 
+al<lb break="no" ed="#Be" n="17"/>terum autem penes terminum ad quem,
+<lb ed="#Be" n="18"/>gratiam recipiendo et amplectendo, et
+<lb ed="#Be" n="19"/>hoc est motus liberi arbitrii in Deum. Si
+<lb ed="#Be" n="20"/>autem queritur, quare exiguntur hec
+<lb ed="#Be" n="21"/>duo moventia? Dico, quod ut dicit 
+Au<lb break="no" ed="#Be" n="22"/>gustinus, <quote xml:id="alalal-h44583-Qd1e557"> Qui creavit te sine te, non
+<lb ed="#Be" n="23"/>justificabit te sine te: </quote> sed te 
+justifica<lb break="no" ed="#Be" n="24"/>bit tecum. Sicut enim in subjecto in quo
+<lb ed="#Be" n="25"/>per gluten aliqua tenetur nigredo, 
+im<lb break="no" ed="#Be" n="26"/>possibile est induci albedinem, nisi 
+sol<lb break="no" ed="#Be" n="27"/>vatur gluten illud : ita impossibile est in
+<lb ed="#Be" n="28"/>anima induci gratiam, nisi solvatur mala
+<lb ed="#Be" n="29"/>voluntas tenens peccatum : et haec non
+<lb ed="#Be" n="30"/>solvitur nisi non moveatur in peccatum
+<lb ed="#Be" n="31"/>et in Deum.
+</p>
+            <p xml:id="alalal-h44583-d1e582">
+               <lb ed="#Be" n="32"/>Et haec est causa quare antiqui 
+Docto<lb break="no" ed="#Be" n="33"/>res haec quatuor in justificatione impii
+<lb ed="#Be" n="34"/>esse posuerunt.
+</p>
+            <p xml:id="alalal-h44583-d1e591">
+               <lb ed="#Be" n="35"/>Ab primum ergo dicendum, quod 
+quae<lb break="no" ed="#Be" n="36"/>dam sunt praecedentia justificationem
+<lb ed="#Be" n="37"/>tamquam inclinantia ad illam ut causae :
+<lb ed="#Be" n="38"/>et illa tangit Bernardus. Sed Magistri
+<lb ed="#Be" n="39"/>non tangunt nisi ea’ in quibus perficitur
+<lb ed="#Be" n="40"/>ipse motus justificationis.
+</p>
+            <p xml:id="alalal-h44583-d1e607">
+               <lb ed="#Be" n="41"/>Ad aliud de Proverbiis dicendum,
+<lb ed="#Be" n="42"/>quod illa delent peccatum per modum
+<lb ed="#Be" n="43"/>meriti, et non solum peccatum in culpa,
+<lb ed="#Be" n="44"/>sed etiam in poena sibi debita.
+</p>
+            <p xml:id="alalal-h44583-d1e618">
+               <lb ed="#Be" n="45"/>Ad aliud dicendum, quod illud de 
+Ac<lb break="no" ed="#Be" n="46"/>libus intelligitur de purificatione 
+phan<lb break="no" ed="#Be" n="47"/>tasiaram ab intellectu. Vel potest dici,
+<lb ed="#Be" n="48"/>quod motus fidei comprehenditur sub
+<lb ed="#Be" n="49"/>motu liberi arbitrii in Deum : et simili-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="50"/>ter motus amoris quem ponit <name xml:id="alalal-h44583-Nd1e635">Bernardus</name>,
+<lb ed="#Be" n="51"/>et motus timoris casti comprehenditur
+<lb ed="#Be" n="52"/>sub motu liberi arbitrii in peccatum. Et
+<lb ed="#Be" n="53"/>hoc qualiter sit, infra patebit.
+</p>
+            <p xml:id="alalal-h44583-d1e644">
+               <lb ed="#Be" n="54"/>Ad aliud dicendum, quod charitas non
+<lb ed="#Be" n="55"/>requiritur expressa, sed tantum amor
+<lb ed="#Be" n="56"/>suppositus in motu liberi arbitriiin Deum.
+<lb ed="#Be" n="57"/>Et quod dicitur quod charitas remittit
+<lb ed="#Be" n="58"/>peccata, intelligitur per modum meriti,
+<lb ed="#Be" n="59"/>et non per modum de essentia motus 
+ju<lb break="no" ed="#Be" n="60"/>stificationis.
+</p>
+            <p xml:id="alalal-h44583-d1e662">
+               <lb ed="#Be" n="61"/>Ad aliud dicendum, quod 
+Chrysosto<lb break="no" ed="#Be" n="62"/>mus loquitur de dimittentibus peccata in
+<lb ed="#Be" n="63"/>poena per modum satisfactionis, et non
+<lb ed="#Be" n="64"/>de remissione culpx. tantum : et haec 
+qui<lb break="no" ed="#Be" n="65"/>dem multa sunt, sed illa quae hic 
+enume<lb break="no" ed="#Be" n="66"/>rat, principalia sunt.
+</p>
+            <p xml:id="alalal-h44583-d1e679">
+               <lb ed="#Be" n="67"/>Ad 1D autem quod objicitur in 
+contra<lb break="no" ed="#Be" n="68"/>rium, dicendum quod suo modo sufficit
+<lb ed="#Be" n="69"/>infusio gratiae, sicut forma in natura:
+<lb ed="#Be" n="70"/>illa enim per se sufficit ad materiam 
+per<lb break="no" ed="#Be" n="71"/>ficiendam, sed non. ut motus sit: quia
+<lb ed="#Be" n="72"/>plura sunt principia motus quam entis
+<lb ed="#Be" n="73"/>compositi : unde sicut ibi exiguntur 
+dis<lb break="no" ed="#Be" n="74"/>positiones preparantes materiam, et 
+pri<lb break="no" ed="#Be" n="75"/>vatio et forma ad hoc quod sit mutatio
+<lb ed="#Be" n="76"/>ad formam : et haec non causant 
+imper<lb break="no" ed="#Be" n="77"/>fectionem forme, sed potius sunt 
+prop<lb break="no" ed="#Be" n="78"/>ter imperfectionem materiae quae 
+perfici<lb break="no" ed="#Be" n="79"/>tur a forma: itaet hic. Unde gratia 
+in<lb break="no" ed="#Be" n="80"/>fusa perfectissima est ad perficiendum 
+li<lb break="no" ed="#Be" n="81"/>berum arbitrium et totam animam:
+<lb ed="#Be" n="82"/>quando tamen anima est sub peccato
+<lb ed="#Be" n="83"/>tamquam sub privatione gratiae, ipsa est
+<lb ed="#Be" n="84"/>imperfecta : et ideo oportet querere 
+dis<lb break="no" ed="#Be" n="85"/>positiones facientes peccatum solubile, et
+<lb ed="#Be" n="86"/>gratiam depellentem privationem : et ideo
+<lb ed="#Be" n="87"/>sicut in motu nature, ita et in motu 
+gra<lb break="no" ed="#Be" n="88"/>tiae plura exiguntur.
+</p>
+            <p xml:id="alalal-h44583-d1e729">
+               <lb ed="#Be" n="89"/>Et quod objicitur, intelligitur de per~
+<lb ed="#Be" n="90"/>fectione forme in perficiendo materiam,
+<lb ed="#Be" n="91"/>et non de perfectione ejus in principiando
+<lb ed="#Be" n="92"/>mutationem : quia plura necessaria sunt
+<lb ed="#Be" n="93"/>ad mulationem, quam ad entis 
+composi<lb break="no" ed="#Be" n="94"/>tionem, ut dictum est, tam in 
+corporali<lb break="no" ed="#Be" n="95"/>bus, quam in spiritualibus.
+</p>
+            <p xml:id="alalal-h44583-d1e747">
+               <lb ed="#Be" n="96"/>Av auiup dicendum, quod in 
+mutatio<lb break="no" ed="#Be" n="97"/>nibus corporalibus oportet esse disposi-
+<pb ed="#Be" n="676"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>tiones, quae solubiles faciunt privationes
+<lb ed="#Be" n="2"/>a materia sive formas contrarias, in 
+qui<lb break="no" ed="#Be" n="3"/>bus supponitur privatio forme 
+indu<lb break="no" ed="#Be" n="4"/>cende : sicut patet in aere qui dicitur
+<lb ed="#Be" n="5"/>fieri ignis: oportet enim arefacere 
+humi<lb break="no" ed="#Be" n="6"/>dum quod tenet aerem, antequam 
+de<lb break="no" ed="#Be" n="7"/>pellatur aeritas, et induitur igneitas. Et
+<lb ed="#Be" n="8"/>similiter est hic, quod voluntas aversa
+<lb ed="#Be" n="9"/>a Deo, et diligens peccatum, est sibi 
+dis<lb break="no" ed="#Be" n="10"/>positio tenens peccatum in anima et 
+im<lb break="no" ed="#Be" n="11"/>pediens gratiae inductionem. Sed 
+volun<lb break="no" ed="#Be" n="12"/>tas mota in Deum et contra peccatum,
+<lb ed="#Be" n="13"/>est sibi dispositio inclinans ad peccati
+<lb ed="#Be" n="14"/>expulsionem, et introductionem justitise
+<lb ed="#Be" n="15"/>et gratie.
+</p>
+            <p xml:id="alalal-h44583-d1e791">
+               <lb ed="#Be" n="16"/>Ad aliud dicendum, quod sicut 
+dixi<lb break="no" ed="#Be" n="17"/>mus in praecedenti questione, infusio
+<lb ed="#Be" n="18"/>gratia primum est, quam consequitur
+<lb ed="#Be" n="19"/>rectitudo virium et perfectio ad opera:
+<lb ed="#Be" n="20"/>et cum hic enumerantur tantum 
+princi<lb break="no" ed="#Be" n="21"/>pia essentialia justificationis, non 
+tangi<lb break="no" ed="#Be" n="22"/>tur hic nisi gratiw infusio, et non 
+colla<lb break="no" ed="#Be" n="23"/>tio justitiae vel virtutum : quia ex 
+infu<lb break="no" ed="#Be" n="24"/>sione gratiae ista duo resultant, sicut
+<lb ed="#Be" n="25"/>rivus ex fonte, et effectus ex causa. Et
+<lb ed="#Be" n="26"/>hee imaginatio est secundum quod 
+lu<lb break="no" ed="#Be" n="27"/>men stelle est in se, et in sua Imagine:
+<lb ed="#Be" n="28"/>et deinde in dilatatione ejus in stelle
+<lb ed="#Be" n="29"/>corpore: et tertio secundum euntis 
+lu<lb break="no" ed="#Be" n="30"/>minis divaricationem in radiis. Ita est
+<lb ed="#Be" n="31"/>gratia in se, et quasi dilatata in generali
+<lb ed="#Be" n="32"/>rectitudine virium: et tertio divaricata
+<lb ed="#Be" n="33"/>in perfectionibus singularum virium ad
+<lb ed="#Be" n="34"/>opera per virtutes singulas et speciales.
+</p>
+            <p xml:id="alalal-h44583-d1e835">
+               <lb ed="#Be" n="35"/>Ad aliud dicendum, quod motus 
+li<lb break="no" ed="#Be" n="36"/>beri arbitrii dicit ibi motum 
+composi<lb break="no" ed="#Be" n="37"/>tum, sive sit in Deum, sive in peccatum :
+<lb ed="#Be" n="38"/>sunt enim quidam motus anime 
+sim<lb break="no" ed="#Be" n="39"/>plices, qui sunt virtutis unius secundum
+<lb ed="#Be" n="40"/>se, et unius potentiae anime in 
+compara<lb break="no" ed="#Be" n="41"/>tione ad unum objectum speciale, sicut
+<lb ed="#Be" n="42"/>est intelligere, diligere, vel credere :
+<lb ed="#Be" n="43"/>quidam autem sunt compositi, qui non
+<lb ed="#Be" n="44"/>sunt virtutis unius potentiae secundum
+<lb ed="#Be" n="45"/>se, sed potius unius secundum quod 
+con<lb break="no" ed="#Be" n="46"/>sequenter se habet ad aliam, cujus actus
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="47"/>aliquo modo manet in illa, sicut fry; at
+<lb ed="#Be" n="48"/>uti : et de hoc habetur in primo librg
+<lb ed="#Be" n="49"/>Sententiarum'. Et ita dico hic, quod mo.
+<lb ed="#Be" n="50"/>tus iste in Deum et in peccatum, compo.
+<lb ed="#Be" n="51"/>situs est, et est affectus secundum quod
+<lb ed="#Be" n="52"/>consequitur ex intellectu per fidem illy.
+<lb ed="#Be" n="53"/>minato, et per timorem casum fugientey
+<lb ed="#Be" n="54"/>et amorem spe elevantia affectum: g
+<lb ed="#Be" n="55"/>ideo motus in Deum est motus affectig.
+<lb ed="#Be" n="56"/>nis timentis et amantis, qui supponit
+<lb ed="#Be" n="57"/>fidem ex intellectu praecedenti ostendent}
+<lb ed="#Be" n="58"/>quidquid timendum et amandum et 
+spe<lb break="no" ed="#Be" n="59"/>randum sit.
+</p>
+            <p xml:id="alalal-h44583-d1e894">
+               <lb ed="#Be" n="60"/>Similiter, Motus liberi arbitrii in pec.
+<lb ed="#Be" n="61"/>catum est ex intellectu  illuminante 
+mo<lb break="no" ed="#Be" n="62"/>tus affectus conterentis et destruentis
+<lb ed="#Be" n="63"/>peccatum per dolorem compunctionis -
+<lb ed="#Be" n="64"/>sic ut movens in eis immediatum sive
+<lb ed="#Be" n="65"/>proximum est affectus, sed principium
+<lb ed="#Be" n="66"/>ostendens est intellectus, sicut et in frui
+<lb ed="#Be" n="67"/>et uti.
+</p>
+            <p xml:id="alalal-h44583-d1e915">
+               <lb ed="#Be" n="68"/>Av Hoc autem quod queritur, Utrum
+<lb ed="#Be" n="69"/>sit gratia informatus ? dicimus quod sic.
+<lb ed="#Be" n="70"/>Et quod objicitur, quod ille sequitur
+<lb ed="#Be" n="71"/>justificationem, non valet : quia sicut
+<lb ed="#Be" n="72"/>patet in sequenti articulo, omnia ista
+<lb ed="#Be" n="73"/>quatuor simul sunt quidem tempore,
+<lb ed="#Be" n="74"/>sed non natura: unde sequitur, quod
+<lb ed="#Be" n="75"/>licet natura sequatur gratiae infusionem,
+<lb ed="#Be" n="76"/>tamen justificatio sequitur ipsum: quia
+<lb ed="#Be" n="77"/>justificatio est sicut in quo est quies 
+mo<lb break="no" ed="#Be" n="78"/>tus illius: et ille motus est liberi arbitrii
+<lb ed="#Be" n="79"/>sic solvens vel solubile reddens 
+contra<lb break="no" ed="#Be" n="80"/>rium ex parte subjecti.
+</p>
+            <p xml:id="alalal-h44583-d1e946">
+               <lb ed="#Be" n="81"/>Ad i quod objicitur de remissione
+<lb ed="#Be" n="82"/>peccati, dicimus quod licet unum 
+sequa<lb break="no" ed="#Be" n="83"/>tur ad alterum, non tamen unum est
+<lb ed="#Be" n="84"/>alterum. Et quod dicitur, quod 
+genera<lb break="no" ed="#Be" n="85"/>tio unius est corruptio alterius, 
+intelli<lb break="no" ed="#Be" n="86"/>gitur per causam, et non per essentiam.
+</p>
+            <p xml:id="alalal-h44583-d1e962">
+               <lb ed="#Be" n="87"/>Ad aliud dicendum, quod motus 
+com<lb break="no" ed="#Be" n="88"/>positus de quo supra dictum est, non
+<lb ed="#Be" n="89"/>est communis bonis et malis, sed motus
+<lb ed="#Be" n="90"/>cognitionis peccati tantum : et talem non
+<lb ed="#Be" n="91"/>dicimus illum motum esse.
+</p>
+            <p xml:id="alalal-h44583-d1e975">
+               <lb ed="#Be" n="92"/>Ad Auiup dicimus, quod liberum 
+ar<lb break="no" ed="#Be" n="93"/>bitrium solum non movet motum illum,
+<pb ed="#Be" n="677"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>sed potius vi gratiae moventis : et ideo
+<lb ed="#Be" n="2"/>non sequitur illa objectio.
+</p>
+            <p xml:id="alalal-h44583-d1e991">
+               <lb ed="#Be" n="3"/>Ad 1 quod queritur, Utrum sit 
+natu<lb break="no" ed="#Be" n="4"/>ralis vel gratum faciens? Patet solutio
+<lb ed="#Be" n="5"/>per predicta: quia est gratum faciens:
+<lb ed="#Be" n="6"/>et tamen natura praecedit justificationem,
+<lb ed="#Be" n="7"/>licet non praecedat gratiae infusionem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

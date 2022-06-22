@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="412"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e78293"><!-- l3d23a4 -->
+            <head xml:id="alalal-e78293-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-e78293-Hd1e101" type="question-title">An triplex divisio sit bene assignata de
+fide secundum Magistrum ?</head>
+            <p xml:id="alalal-e78293-d1e104">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="29"/>ARTICULUS IV.
+<lb ed="Bd" n="30"/>An triplex divisio sit bene assignata de
+<lb ed="Bd" n="31"/>fide secundum Magistrum ?
+</p>
+            <p xml:id="alalal-e78293-d1e115">
+               <lb ed="Bd" n="32"/>Incidit autem dubium de primo 
+capi<lb break="no" ed="Bd" n="33"/>tulo de divisione quam ponit, quod fides
+<lb ed="Bd" n="34"/>dicitur tripliciter, scilicet <quote xml:id="alalal-e78293-Qd1e123"> pro eo quo
+<lb ed="Bd" n="35"/>creditur, et est virtus : et pro eo quod
+<lb ed="Bd" n="36"/>creditur, et non est virtus : et pro eo in
+<lb ed="Bd" n="37"/>quod creditur, quod aliud est ab eo quo
+<lb ed="Bd" n="38"/>creditur. </quote>
+            </p>
+            <p xml:id="alalal-e78293-d1e135">
+               <lb ed="Bd" n="39"/>1. Cum enim sint tria, scilicct habitus,
+<lb ed="Bd" n="40"/>actus, et objectum, debuit adhuc ponere
+<lb ed="Bd" n="41"/>unum ratione actus : vel si non attendit
+<lb ed="Bd" n="42"/>actum, tunc non debuit nisi duo ponere,
+<lb ed="Bd" n="43"/>scilicet habitum, et objectum.
+</p>
+            <p xml:id="alalal-e78293-d1e149">
+               <lb ed="Bd" n="44"/>2. Item, In nominibus quae nominant
+<lb ed="Bd" n="45"/>habitus aliarum virtutum, non w#
+quivo<lb break="no" ed="Bd" n="46"/>catur nomen nisi ad habitum, et actum:
+<lb ed="Bd" n="47"/>ut dilectio actus, et dilectio habitus : et
+<lb ed="Bd" n="48"/>spes habitus, et spes actus, et sic de
+<lb ed="Bd" n="49"/>aliis: ergo similiter deberet fieri hic:
+<lb ed="Bd" n="50"/>ergo quod creditur, non dicetur fides, ut
+<lb ed="Bd" n="51"/>videtur.
+</p>
+            <p xml:id="alalal-e78293-d1e169">
+               <lb ed="Bd" n="52"/>3. Item, Fides aliis modis dicitur quos
+<lb ed="Bd" n="53"/>hic non ponit : ergo videtur diminute
+<lb ed="Bd" n="54"/>distinguere multiplicitatem fidei.
+</p>
+            <p xml:id="alalal-e78293-d1e178">
+               <pb ed="#Bd" n="413"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Solutio Dicendum ad primum, quod
+<lb ed="Bd" n="2"/>Magister non intendit hie distinguere
+<lb ed="Bd" n="3"/>miultiplicitatem nominis fidei, sed 
+tan<lb break="no" ed="Bd" n="4"/>tum ea explicare que@ cadunt aliquo 
+mo<lb break="no" ed="Bd" n="5"/>do in diffinitione : in illa enim cadunt
+<lb ed="Bd" n="6"/>que non videntur, et illa sunt articuli
+<lb ed="Bd" n="7"/>et in ipsa cadit virtus, et non virtus quae
+<lb ed="Bd" n="8"/>est fides informis, quam vocal non 
+vir<lb break="no" ed="Bd" n="9"/>tutem, quae est respectu corumdem. 
+Ac<lb break="no" ed="Bd" n="10"/>tus autem in fide non ita propric dicitur
+<lb ed="Bd" n="11"/>nomine habitus sicut in aliis virtutibus :
+<lb ed="Bd" n="12"/>el hoc est ideo, quia perfectio fidei est a
+<lb ed="Bd" n="13"/>duobus, scilicet intellectu dante actum,
+<lb ed="Bd" n="14"/>et affectu ut informante sed credere
+<lb ed="Bd" n="15"/>non nominat nisi alterum illorum, 
+scili<lb break="no" ed="Bd" n="16"/>cet quod est ab intellectu: et ideo non
+<lb ed="Bd" n="17"/>potest recipere nomen totius habitus,
+<lb ed="Bd" n="18"/>sicut in allis virtulibus est, quae 
+consi<lb break="no" ed="Bd" n="19"/>stunt tantumin potentia una quoad suum
+<lb ed="Bd" n="20"/>materiale et suum formale.
+</p>
+            <p xml:id="alalal-e78293-d1e228">
+               <lb ed="Bd" n="21"/>Ad aliuddicendum, quod Magister
+<lb ed="Bd" n="22"/>non intendit de illis, cl supra posili sunt
+<lb ed="Bd" n="23"/>mod: plures : et praeter illos dicitur
+<lb ed="Bd" n="24"/>clam fides fide: sacramentum, quod cst
+<lb ed="Bd" n="25"/>baptismus quando parvuli dicuntur 
+fide<lb break="no" ed="Bd" n="26"/>les, eo quod datur cis fides in munere,
+<lb ed="Bd" n="27"/>sicut et aliw virtutes : et ideo convenit
+<lb ed="Bd" n="28"/>eis pradicta diflinitio, non quod statim
+<lb ed="Bd" n="29"/>credere possint secundum actum, sed
+<lb ed="Bd" n="30"/>habitum habent quo possint credere,
+<lb ed="Bd" n="31"/>cum tempus sit usus liberi arbitrii.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

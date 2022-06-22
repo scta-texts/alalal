@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="3"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-eee301"><!-- l3d1et1 -->
+            <head xml:id="alalal-eee301-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-eee301-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="46"/>Expositio textus.
+</p>
+            <p xml:id="alalal-eee301-d1e108">
+               <lb ed="Bd" n="47"/>Littera sic exponitur :
+<lb ed="Bd" n="48"/>
+               <quote xml:id="alalal-eee301-Qd1e114"> Cum venit, etc.</quote> Apostolus ad 
+Ga<lb break="no" ed="Bd" n="49"/>lat. iv, 4 et 5.
+</p>
+            <p xml:id="alalal-eee301-d1e119">
+               <lb ed="Bd" n="50"/>
+               <quote xml:id="alalal-eee301-Qd1e123"> Misit, </quote> per hoc quod in carne 
+appa<lb break="no" ed="Bd" n="51"/>ruit.
+</p>
+            <p xml:id="alalal-eee301-d1e128">
+               <lb ed="Bd" n="52"/>
+               <quote xml:id="alalal-eee301-Qd1e132"> Factum sub lege. </quote>
+            </p>
+            <p xml:id="alalal-eee301-d1e136">
+               <lb ed="Bd" n="53"/>Nota, quod justo non est lex posita.
+<lb ed="Bd" n="54"/>Unde esse sab lege dicitur tribus modis,
+<lb ed="Bd" n="55"/>scilicet, ex causa, vel observatione 
+quo<lb break="no" ed="Bd" n="56"/>rumdam mandatorum legis, vel ex 
+mo<lb break="no" ed="Bd" n="57"/>tivo legis. Ex causa sic omnes in peccato
+<lb ed="Bd" n="58"/>nati fuerunt sub lege. Secundum 
+obser<lb break="no" ed="Bd" n="59"/>vationem autem dupliciter contingit esse
+<lb ed="Bd" n="60"/>sub lege, scilicet, per obedientiam, vel
+<lb ed="Bd" n="61"/>per consummationem : per obedientiam
+<lb ed="Bd" n="62"/>sicut justi sunt sub lege: ut 
+consumma<lb break="no" ed="Bd" n="63"/>tio autem, sicut Christus qui implevit 
+le<lb break="no" ed="Bd" n="64"/>gem. Sub motivo  autem legis quod erat
+<lb ed="Bd" n="65"/>timor, fuerunt qui ex servili timore 
+ser<lb break="no" ed="Bd" n="66"/>vabant.
+</p>
+            <p xml:id="alalal-eee301-d1e169">
+               <lb ed="Bd" n="67"/>
+               <quote xml:id="alalal-eee301-Qd1e173"> Fihi ergo missto, etc. </quote> Gonrra: In
+<lb ed="Bd" n="68"/>lege tempore patrum sepe missus est per
+<lb ed="Bd" n="69"/>donum sapientiae : ergo incarnatus est ex
+<lb ed="Bd" n="70"/>tunc.
+</p>
+            <p xml:id="alalal-eee301-d1e182">
+               <lb ed="Bd" n="71"/>Solutio Intelligitur de missione in
+<lb ed="Bd" n="72"/>mundum, non in cor tantum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

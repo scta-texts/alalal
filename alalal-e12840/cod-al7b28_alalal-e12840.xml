@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 26</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 26</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="64"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e12840"><!-- l3d3a26 -->
+            <head xml:id="alalal-e12840-Hd1e99">Articulus 26</head>
+            <head xml:id="alalal-e12840-Hd1e101" type="question-title">An Christus secundum differentem 
+modum ab aliis frat in lembis Adae vel
+Abrahae ?</head>
+            <p xml:id="alalal-e12840-d1e104">
+               <lb ed="Bd" n="35"/>ARTICULUS XXVI.
+<lb ed="Bd" n="36"/>An Christus secundum differentem 
+mo<lb break="no" ed="Bd" n="37"/>dum ab aliis frat in lembis Adae vel
+<lb ed="Bd" n="38"/>Abrahae ?
+</p>
+            <p xml:id="alalal-e12840-d1e115">
+               <lb ed="Bd" n="39"/>Hic incidunt tres questiones difficiles.
+<lb ed="Bd" n="40"/>Prima est, Utrum Christus secundum
+<lb ed="Bd" n="41"/>differentem modum ab aliis hominibus
+<lb ed="Bd" n="42"/>fuerit in lumbis Adw, vel Abrahw ?
+<lb ed="Bd" n="43"/>Secunda, Quid sit decimari in lumbis
+<lb ed="Bd" n="44"/>Abrahe, vel non decimari?
+<lb ed="Bd" n="45"/>Tertia est, Quid sit peccare in Adam,
+<lb ed="Bd" n="46"/>vel non peccare ?
+</p>
+            <p xml:id="alalal-e12840-d1e135">
+               <lb ed="Bd" n="47"/>Circa primum proceditur sic:
+<lb ed="Bd" n="48"/>1. Dicit Augustinus in libro VIIT 
+su<lb break="no" ed="Bd" n="49"/>per Genesim, quod omnes per 
+corpulen<lb break="no" ed="Bd" n="50"/>tam substantiam fuimus in Adam. Aut
+<lb ed="Bd" n="51"/>igitur intelligitur corpulenta substantia,
+<lb ed="Bd" n="52"/>que est secundum formam et materiam
+<lb ed="Bd" n="53"/>corpus nostrum : aut corpulenta 
+substan<lb break="no" ed="Bd" n="54"/>tia, quae est materia corporis nostri.
+<lb ed="Bd" n="55"/>Constat, quod non primo modo: quia sic
+<lb ed="Bd" n="56"/>corpora nostra organizata fuissent 
+ibi<lb break="no" ed="Bd" n="57"/>dem, quod esse ibi non potest. Si autem
+<lb ed="Bd" n="58"/>corpulenta substantia est materia 
+corpo<lb break="no" ed="Bd" n="59"/>ris nostri. Contra: Materia illa fuit 
+ali<lb break="no" ed="Bd" n="60"/>quid signatum in Adam, vel materia 
+al<lb break="no" ed="Bd" n="61"/>terius: ergo omnium corporum factorum
+<lb ed="Bd" n="62"/>et futurorum [uit ibi materia per aliquod
+<lb ed="Bd" n="63"/>signatum, quod valde irrationabile est:
+<lb ed="Bd" n="64"/>quia si fuisset ut mons maximus, non
+<lb ed="Bd" n="65"/>posset in tot dividi: precipue tamen si
+<lb ed="Bd" n="66"/>mundus infinilus esset, semper possibile
+<lb ed="Bd" n="67"/>esset homines ex hominibus propagari.
+<lb ed="Bd" n="68"/>. Sunt tamen et fuerunt ante nos, qui
+<lb ed="Bd" n="69"/>hoe dixerunt, sicut Magister qui feert
+<lb ed="Bd" n="70"/>hune hibrum, et solvit objectionem 
+fa<lb break="no" ed="Bd" n="71"/>ctam, quod quidem de omnibus aliquid
+<lb ed="Bd" n="72"/>fuit in eo: et hoc operatione Domini
+<lb ed="Bd" n="73"/>multiplicatum est in tot, quot nascentur,
+<lb ed="Bd" n="74"/>sicut materia quinque panum in tot 
+mil<lb break="no" ed="Bd" n="75"/>lia hominum qui inde satiati dicuntur.
+<pb ed="#Bd" n="65"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Sed contra hoc est, quod opus nature
+<lb ed="Bd" n="2"/>secundum totum esset miraculosum, et
+<lb ed="Bd" n="3"/>non naturaliter generarentur homines ex
+<lb ed="Bd" n="4"/>hominibus.
+</p>
+            <p xml:id="alalal-e12840-d1e214">
+               <lb ed="Bd" n="5"/>2, Praeterea, Etiam eadem ratio est
+<lb ed="Bd" n="6"/>de equis, et asinis, et aliis animalibus,
+<lb ed="Bd" n="7"/>qualiter illa traducta sunt ex primis quae
+<lb ed="Bd" n="8"/>ereata sunt in operibus sex dierum.
+</p>
+            <p xml:id="alalal-e12840-d1e225">
+               <lb ed="Bd" n="9"/>3. Praeterea, Hoc deducitur ad 
+impos<lb break="no" ed="Bd" n="10"/>sibile sic: Deus multiplicat acceptum ex
+<lb ed="Bd" n="11"/>Adam: aut ergo aliquid de elementis
+<lb ed="Bd" n="12"/>mundi materie illi addendo : aut de
+<lb ed="Bd" n="13"/>novo materiam creando, et addendo
+<lb ed="Bd" n="14"/>ili. Si aliquid addit de elementis mundi:
+<lb ed="Bd" n="15"/>igitur non totum fuit in Adam, ut tpst
+<lb ed="Bd" n="16"/>dicunt: quia opinio illorum est, quod
+<lb ed="Bd" n="17"/>nihil convertitur in veritatem humane
+<lb ed="Bd" n="18"/>nature quae a primis parentibus est
+<lb ed="Bd" n="19"/>sumpta. Si secundo modo, quaeritur
+<lb ed="Bd" n="20"/>idem. Si autem dicatur, quod illam
+<lb ed="Bd" n="21"/>materiam in se multiplicat, nec creando
+<lb ed="Bd" n="22"/>aliquid quod addatur, nec aliud 
+conver<lb break="no" ed="Bd" n="23"/>tendo in eam: hoc non est intelligibile :
+<lb ed="Bd" n="24"/>quia dicunt Sancti, quod quinque panes
+<lb ed="Bd" n="25"/>multiplicavit, sicut multiplicat segetes
+<lb ed="Bd" n="26"/>ex uno grano. Hac autem multiplicatio
+<lb ed="Bd" n="27"/>fit per alia grana in segetum 
+conversio<lb break="no" ed="Bd" n="28"/>nem: unde tune non est simile quod
+<lb ed="Bd" n="29"/>addunt : quia panes multiplicavit per
+<lb ed="Bd" n="30"/>conversionem aliene materiae in ipsos.
+</p>
+            <p xml:id="alalal-e12840-d1e275">
+               <lb ed="Bd" n="31"/>Propter hoc alii subtiliorem 
+invene<lb break="no" ed="Bd" n="32"/>runt phantasiam, et dixerunt quia 
+ma<lb break="no" ed="Bd" n="33"/>teria est divisibilis in infinitum per actum
+<lb ed="Bd" n="34"/>nature: et ita quod quilibet habeat 
+ali<lb break="no" ed="Bd" n="35"/>quid de primo. Sep contra: Aut materia
+<lb ed="Bd" n="36"/>secundum quod est substantia ens in 
+po<lb break="no" ed="Bd" n="37"/>tentia tantum, divisibilis est: aut 
+ma<lb break="no" ed="Bd" n="38"/>icria quanta. Si primo modo, hoc non
+<lb ed="Bd" n="39"/>capit. intellectus, quod actu aliquid 
+di<lb break="no" ed="Bd" n="40"/>vidatur divisione materiae et non forme,
+<lb ed="Bd" n="41"/>quod nullam habeat quantitatem : et hoc
+<lb ed="Bd" n="42"/>est contra Philosophum in I Phystcorum,
+<lb ed="Bd" n="43"/>dicentem, quod si tantum unum est quod
+<lb ed="Bd" n="44"/>est substantia, quod illud est 
+indivisi<lb break="no" ed="Bd" n="45"/>bile, eo quod non dividitur materie 
+di<lb break="no" ed="Bd" n="46"/>visione nisi quantum. Forme autem 
+di<lb break="no" ed="Bd" n="47"/>Visione potest addi aliquid quod non est
+<lb ed="Bd" n="48"/>quantum, sicut ens, et substantia, et alia
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>hujusmodi genera quae suis differentiis
+<lb ed="Bd" n="50"/>dividuntur: sed non habet locum hic
+<lb ed="Bd" n="51"/>hujusmodi divisio. Si autem dicunt 
+ma<lb break="no" ed="Bd" n="52"/>teriam quantam esse, Contra: 
+Philoso<lb break="no" ed="Bd" n="53"/>phus in If de Anima dicit, quod omnium
+<lb ed="Bd" n="54"/>natura constantium terminus est et ratio
+<lb ed="Bd" n="55"/>magnitudinis et augmenti: hic autem
+<lb ed="Bd" n="56"/>terminus et ratio sumitur a duobus: a
+<lb ed="Bd" n="57"/>quantitate humidi radicalis, quod est
+<lb ed="Bd" n="58"/>materia prima generationis, et a vigore
+<lb ed="Bd" n="59"/>virtutis formative, et informatione, 
+sic<lb break="no" ed="Bd" n="60"/>ut innuit Galenus, qui dicit quorumdam
+<lb ed="Bd" n="61"/>defectum membrorum causari ex defectu
+<lb ed="Bd" n="62"/>materia, quorumdam autem ex defectu
+<lb ed="Bd" n="63"/>virtutis : igitur illa materia proportionata
+<lb ed="Bd" n="64"/>est tanto corpori in tanta quantitate, quae
+<lb ed="Bd" n="65"/>si minor sit, non erit tantum: ergo si
+<lb ed="Bd" n="66"/>dividatur, non dico jam, in infinitum,
+<lb ed="Bd" n="67"/>sed etiam ad modicum, sicut in duo, non
+<lb ed="Bd" n="68"/>generabitur inde tota quantitas corporis
+<lb ed="Bd" n="69"/>humani: et sic nihil est quod dicunt de
+<lb ed="Bd" n="70"/>divisione in infinitum.
+</p>
+            <p xml:id="alalal-e12840-d1e366">
+               <lb ed="Bd" n="71"/>Si forte dicatur, quod hoc verum est:
+<lb ed="Bd" n="72"/>et ideo modo nascuntur homines 
+mino<lb break="no" ed="Bd" n="73"/>ris quantitatis, quam antiquitus : quia
+<lb ed="Bd" n="74"/>divisa materia facta est minor.
+</p>
+            <p xml:id="alalal-e12840-d1e377">
+               <lb ed="Bd" n="75"/>Contra:
+<lb ed="Bd" n="76"/>1. Secundum hoc continue filius 
+debe<lb break="no" ed="Bd" n="77"/>ret esse minor patre in tanta quantitate,
+<lb ed="Bd" n="78"/>quanta dividitur materia in numerum
+<lb ed="Bd" n="79"/>filiorum et filiarum. Et cum aliquis 
+le<lb break="no" ed="Bd" n="80"/>gatur habuisse triginta filios, et plures
+<lb ed="Bd" n="81"/>filias, ipse triginta partibus debuit esse
+<lb ed="Bd" n="82"/>major quolibet illorum filioram, quod
+<lb ed="Bd" n="83"/>ridiculum est.
+</p>
+            <p xml:id="alalal-e12840-d1e399">
+               <lb ed="Bd" n="84"/>2. Praeterea, Sepe videmus filium 
+ge<lb break="no" ed="Bd" n="85"/>nerari majorem patre.
+</p>
+            <p xml:id="alalal-e12840-d1e407">
+               <lb ed="Bd" n="86"/>3. Praeterea, Tamdiu duravit successus
+<lb ed="Bd" n="87"/>hominum, quod mirum est quod modo
+<lb ed="Bd" n="88"/>atomales non essemus.
+</p>
+            <p xml:id="alalal-e12840-d1e416">
+               <lb ed="Bd" n="89"/>4, Praeterea, Forte alia ratione 
+elidi<lb break="no" ed="Bd" n="90"/>tur haec opinio, scilicet quod ab Adam
+<lb ed="Bd" n="91"/>divisum est, aut totum formatum est in
+<lb ed="Bd" n="92"/>corpus Seth, aut non totum, sed pars
+<lb ed="Bd" n="93"/>est reservata in Seth ut inde filius Seth
+<lb ed="Bd" n="94"/>nasceretur. Si primo modo, cum hoc
+<lb ed="Bd" n="95"/>quod habet formam humanam in uno non
+<lb ed="Bd" n="96"/>sit susceptibile forme humane in altero,
+<lb ed="Bd" n="97"/>nee resurgat cum eo, ut dicit Augusti-
+<pb ed="#Bd" n="66"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>nus, non potest ex illo fieri corpus 
+al<lb break="no" ed="Bd" n="2"/>lerius per successionem : contra rationem
+<lb ed="Bd" n="3"/>enim valde est, quod res sit in potcntia
+<lb ed="Bd" n="4"/>ad formam quam jam habet. Si autem
+<lb ed="Bd" n="5"/>dicalur, quod non obviat dictum 
+Augu<lb break="no" ed="Bd" n="6"/>stini de resurrectione: quia nobilius esse
+<lb ed="Bd" n="7"/>habet in secundo, quam in primo. 
+Con<lb break="no" ed="Bd" n="8"/>tra! In primo est sicut radicale 
+mem<lb break="no" ed="Bd" n="9"/>brum hominis, et non sicut 
+nutrimen<lb break="no" ed="Bd" n="10"/>tale: quia hoc datum fuit, quod ipsum
+<lb ed="Bd" n="11"/>formatur totum in corpus hominis: ergo
+<lb ed="Bd" n="12"/>in primo habet nobilius esse. Si propter
+<lb ed="Bd" n="13"/>hoe detur alia pars, quod non totum
+<lb ed="Bd" n="14"/>formatur in corpus, sed reservetur pars,
+<lb ed="Bd" n="15"/>tunc sequitur, quod aut dividitur in 
+par<lb break="no" ed="Bd" n="16"/>tes numerantes totum, sicut media, 
+ter<lb break="no" ed="Bd" n="17"/>tiae, quarte, quinte, aut in partes 
+nume<lb break="no" ed="Bd" n="18"/>rantes, quarum wunaqueque minor est
+<lb ed="Bd" n="19"/>precedente divisa. Si primo modo, tunc
+<lb ed="Bd" n="20"/>stabit de necessitate propagatio generis
+<lb ed="Bd" n="21"/>humani, tot natis in quot partes illud
+<lb ed="Bd" n="22"/>semen est divisum. Si secundo modo,
+<lb ed="Bd" n="23"/>tunc posterior semper minor est patre
+<lb ed="Bd" n="24"/>suo in aliqua quantitate, et hoc non est
+<lb ed="Bd" n="25"/>verum, quia visus probat per contra~
+<lb ed="Bd" n="26"/>rium irequenter.
+</p>
+            <p xml:id="alalal-e12840-d1e499">
+               <lb ed="Bd" n="27"/>3. Praeterea, Philosophi communiter
+<lb ed="Bd" n="28"/>omnes dicunt, quod generatio est de su~
+<lb ed="Bd" n="29"/>perfluo alimenti, cui confertur vis 
+infor<lb break="no" ed="Bd" n="30"/>mativa per organa generationis ;: igilur
+<lb ed="Bd" n="31"/>non est hoc modo sicut illt dicunt.
+</p>
+            <p xml:id="alalal-e12840-d1e512">
+               <lb ed="Bd" n="32"/>6. Item, Aristoteles in libro XVI de
+<lb ed="Bd" n="33"/>Animalibus dicit, quod semen genera~
+<lb ed="Bd" n="34"/>tionis assimilatur fiio egredienti de domo
+<lb ed="Bd" n="35"/>pairis: quia sicut ille partem substantia
+<lb ed="Bd" n="36"/>secum defert, et illam multiplicat per
+<lb ed="Bd" n="37"/>negotiationes et lucra: ita semen partem
+<lb ed="Bd" n="38"/>substantiae radicalis humidi in quo organa
+<lb ed="Bd" n="39"/>formantur, secu defert, et multiplicat
+<lb ed="Bd" n="40"/>illam per att
+<lb ed="Bd" n="41"/>parte matris.
+</p>
+            <p xml:id="alalal-e12840-d1e536">
+               <lb ed="Bd" n="42"/>Solutio Sine prejudicio dicimus,
+<lb ed="Bd" n="43"/>quod non fuimus in Adam per aliquod
+<lb ed="Bd" n="44"/>signatum: sed dicimus, quod duplex est
+<lb ed="Bd" n="45"/>materia humani generis, scilicet signata
+<lb ed="Bd" n="46"/>in forma hominis, vel in forma partis
+<lb ed="Bd" n="47"/>hominis: sicut est materia Petri, vel 
+pe<lb break="no" ed="Bd" n="48"/>dis Petri: et est materia originalis. Ma~
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>teria autem originalis est quae decisa est
+<lb ed="Bd" n="50"/>de corpore Ada, id est, de co quod in
+<lb ed="Bd" n="51"/>potentia fuit corpus Ade, hoc enim
+<lb ed="Bd" n="52"/>fuit superfluum alimenti - decisa, 
+in<lb break="no" ed="Bd" n="53"/>quam, per actum generative virtutis,
+<lb ed="Bd" n="54"/>et accepit virtutem formativain in loco
+<lb ed="Bd" n="55"/>determinato ab anima Ade, ut ex illa
+<lb ed="Bd" n="56"/>formaret corpus filii, et tota converte
+<lb ed="Bd" n="57"/>retur in ipsum. Nee dicitur super fluum,
+<lb ed="Bd" n="58"/>quod ab substantiae individualis 
+susten<lb break="no" ed="Bd" n="59"/>tationem non est deputatum per actum
+<lb ed="Bd" n="60"/>nutritive potentiae ; sed de hoc quod
+<lb ed="Bd" n="61"/>sibi superfluit, ministravit generative ad
+<lb ed="Bd" n="62"/>speciel sustentationem et 
+miultiplicatio<lb break="no" ed="Bd" n="63"/>nem. Tlud idem autem non convertitur
+<lb ed="Bd" n="64"/>in corpus filii Seth, nec pars ejus, ut
+<lb ed="Bd" n="65"/>probatum est, sed potius ipsum accipit
+<lb ed="Bd" n="66"/>humidum alimenti in corpore Seth: et
+<lb ed="Bd" n="67"/>iterum superfluum jllius humidi mittit
+<lb ed="Bd" n="68"/>generative, ut accipiat formativam vir
+<lb ed="Bd" n="69"/>tutem ab illa quae originata est ab
+<lb ed="Bd" n="70"/>Adam: et sic fit successio per omnes,
+<lb ed="Bd" n="71"/>Et hoc voco materiam quae originaliter
+<lb ed="Bd" n="72"/>convertitur ad unum hominem Adam:
+<lb ed="Bd" n="73"/>sic enim fuimus in Adam omnes, Et
+<lb ed="Bd" n="74"/>hoc innuit Augustinus, quando dicit,
+<lb ed="Bd" n="75"/>quod si homo cibetur carnibus hominis
+<lb ed="Bd" n="76"/>alterius, et generet, quod resurget cara
+<lb ed="Bd" n="77"/>ila in quo {uit ex humide radicali, non
+<lb ed="Bd" n="78"/>in Jo in quo fuit nutrimentum 
+tan<lb break="no" ed="Bd" n="79"/>tum.
+</p>
+            <p xml:id="alalal-e12840-d1e623">
+               <lb ed="Bd" n="80"/>Unde videtur mihi, quod superiores
+<lb ed="Bd" n="81"/>opiniones, aut false sint, aut non 
+pos<lb break="no" ed="Bd" n="82"/>sunt intelligi qualiter sint vere. Et con=
+<lb ed="Bd" n="83"/>edo raliones in contrarium adductas.
+</p>
+            <p xml:id="alalal-e12840-d1e635">
+               <lb ed="Bd" n="84"/>Et quantum ad hoc dico, quod cum
+<lb ed="Bd" n="85"/>dicitur, Christus fuit in lumbis Adae,
+<lb ed="Bd" n="86"/>fuit per materiam hoc modo originalem,
+<lb ed="Bd" n="87"/>sed non sicut ali homines. Corpulentum
+<lb ed="Bd" n="88"/>enim in quo facta est formatio, sic ori=
+<lb ed="Bd" n="89"/>ginaliter fuit ibi: sed virtus formans non
+<lb ed="Bd" n="90"/>est inde originata, sed potius a Spiritu
+<lb ed="Bd" n="91"/>sancto, ut supra dictum est. Et ideo
+<lb ed="Bd" n="92"/>cum dicitur, Christus sicut alii fuit in
+<lb ed="Bd" n="93"/>lumbis Abrahae, puto non esse concee
+<lb ed="Bd" n="94"/>dendum: sed cum dicitur, Christus per
+<lb ed="Bd" n="95"/>hoc per quod alii fuitin lumbis Abrahe
+<lb ed="Bd" n="96"/>vel Ade, concedendum est: quia unum
+<lb ed="Bd" n="97"/>dicit substantiam materia vel originem,
+</p>
+            <p xml:id="alalal-e12840-d1e668">
+               <pb ed="#Bd" n="67"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>alterum autem dicit modum 
+propagatio<lb break="no" ed="Bd" n="2"/>nis vel generationis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

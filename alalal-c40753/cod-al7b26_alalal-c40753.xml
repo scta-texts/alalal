@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="216"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c40753"><!-- l1d36a7 -->
+            <head xml:id="alalal-c40753-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-c40753-Hd1e101" type="question-title">An Deus sciat diversa, composita, 
+materialia, contingentia, et
+temporalia ?</head>
+            <p xml:id="alalal-c40753-d1e104">
+               <lb ed="#Bb" n="55"/>ARTICULUS VII.
+<lb ed="#Bb" n="56"/>An Deus sciat diversa, composita, 
+ma<lb break="no" ed="#Bb" n="57"/>terialia, contingentia, et
+<lb ed="#Bb" n="58"/>temporalia ?
+</p>
+            <p xml:id="alalal-c40753-d1e115">
+               <lb ed="#Bb" n="59"/>Deinde queritur de hoc quod dicit:
+<lb ed="#Bb" n="60"/>
+               <quote xml:id="alalal-c40753-Qd1e121"> Scivit semper omnia, tam bona quam
+<lb ed="#Bb" n="61"/>mala, etiam antequam fierent, etc. </quote>
+            </p>
+            <p xml:id="alalal-c40753-d1e127">
+               <lb ed="#Bb" n="62"/>Potest enim hic queri, Utrum sciat
+<lb ed="#Bb" n="63"/>diversa, et composita, et materialia, et
+<lb ed="#Bb" n="64"/>contingentia, et temporalia ?
+</p>
+            <p xml:id="alalal-c40753-d1e137">
+               <lb ed="#Bb" n="65"/>1. Simplicis enim ut simplex est, non
+<lb ed="#Bb" n="66"/>est cognoscere diversa ut diversa: Deus
+<lb ed="#Bb" n="67"/>autem uno simplici cognoscit : ergo 
+vi<lb break="no" ed="#Bb" n="68"/>detur, quod non cognoscit diversa, et
+<lb ed="#Bb" n="69"/>multa.
+</p>
+            <p xml:id="alalal-c40753-d1e150">
+               <lb ed="#Bb" n="70"/>2. Item, Compositionem non est 
+in<lb break="no" ed="#Bb" n="71"/>telligere sine compositis, nec 
+complexio<lb break="no" ed="#Bb" n="72"/>nem sine complexis: unde igitur Deus
+<lb ed="#Bb" n="73"/>cognoscit composita et complexa ?
+</p>
+            <p xml:id="alalal-c40753-d1e161">
+               <lb ed="#Bb" n="74"/>3. Item, Materialitas causa est 
+cogno<lb break="no" ed="#Bb" n="75"/>scibilitatis, non cognitionis intellective :
+<lb ed="#Bb" n="76"/>cum igitur sensus non habeat quibus 
+ac<lb break="no" ed="#Bb" n="77"/>cipiat principia materialia, unde sciet ea
+<lb ed="#Bb" n="78"/>Deus ?
+</p>
+            <p xml:id="alalal-c40753-d1e174">
+               <lb ed="#Bb" n="79"/>4, Item, Hominis scientia imperfectior
+<lb ed="#Bb" n="80"/>est quam Dei: et cum in ipsa non sint nisi
+<lb ed="#Bb" n="81"/>necessaria, non contingentia : ergo 
+mul<lb break="no" ed="#Bb" n="82"/>to minus in cognitione Dei: ergo Deus
+<lb ed="#Bb" n="83"/>nec temporalia, nec contingentia 
+cogno<lb break="no" ed="#Bb" n="84"/>seit, ut videtur.
+</p>
+            <p xml:id="alalal-c40753-d1e190">
+               <lb ed="#Bb" n="85"/>Solutio. Dicendum cum _ Dionysio,
+<lb ed="#Bb" n="86"/>quod composita cognoscit simpliciter, et
+<lb ed="#Bb" n="87"/>diversa unitate, et materialia 
+immateria<lb break="no" ed="#Bb" n="88"/>liter, et contingentia scientia necessaria,
+<pb ed="#Bb" n="217"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>et temporalia intemporaliter, sed 
+scien<lb break="no" ed="#Bb" n="2"/>tia stante semper: et hoc qualiter sit,
+<lb ed="#Bb" n="3"/>preintelligatur in nobis duplicem esse
+<lb ed="#Bb" n="4"/>formam in qua cognoscitur res, scilicet
+<lb ed="#Bb" n="5"/>abstractionis qua utitur intellectus 
+spe<lb break="no" ed="#Bb" n="6"/>culativus, et compositionis qua in 
+co<lb break="no" ed="#Bb" n="7"/>gnoscendo utitur practicus : cum enim
+<lb ed="#Bb" n="8"/>(ut dicit Avicenna in prima Philosophia)
+<lb ed="#Bb" n="9"/>speculativus tantum sit intellectus 
+acci<lb break="no" ed="#Bb" n="10"/>piens, et a corpore a eta rebus cognitis,
+<lb ed="#Bb" n="11"/>non potest ipse uti in cognoscendo nisi
+<lb ed="#Bb" n="12"/>forma abstractionis: quia res non scitur
+<lb ed="#Bb" n="13"/>nisi per id quod est ‘natura rei: et hoc
+<lb ed="#Bb" n="14"/>non est in nobis, sed oportet a re 
+acci<lb break="no" ed="#Bb" n="15"/>pere: ideo est quod abstrahit a re ipsa.
+<lb ed="#Bb" n="16"/>Cum autem rei non conjungatur nisi 
+me<lb break="no" ed="#Bb" n="17"/>diantibus corporalibus organis, in quibus
+<lb ed="#Bb" n="18"/>primum imprimitur forma rei, ideo 
+opor<lb break="no" ed="#Bb" n="19"/>tet ipsum etiam posterius accipere a
+<lb ed="#Bb" n="20"/>corpore: et sic patet ratio dicti 
+Avicen<lb break="no" ed="#Bb" n="21"/>ne, quod speculativus accipit a rebus et
+<lb ed="#Bb" n="22"/>a corpore, nihil ponens circa aliquod 
+illo<lb break="no" ed="#Bb" n="23"/>rum. Formis autem compositionis utitur
+<lb ed="#Bb" n="24"/>practicus : et hujus causa est, quod 
+pra<lb break="no" ed="#Bb" n="25"/>cticus factivus est rei: res autem non fit
+<lb ed="#Bb" n="26"/>per id quod jam habet, sed potius per
+<lb ed="#Bb" n="27"/>formam quam non habet: et cum non
+<lb ed="#Bb" n="28"/>sit in re, erit in faciente: ergo ipse ponet
+<lb ed="#Bb" n="29"/>eam circa rem, et non accipiet aliquid a
+<lb ed="#Bb" n="30"/>re ipsa. Sic etiam videtur a corpore non
+<lb ed="#Bb" n="31"/>accipiendo, sed ponendo vim motivam in
+<lb ed="#Bb" n="32"/>nervis et musculis ad operationem 
+edu<lb break="no" ed="#Bb" n="33"/>centem formam artis in materia 
+exterio<lb break="no" ed="#Bb" n="34"/>ri. Et ad hujus forme compositionis 
+si<lb break="no" ed="#Bb" n="35"/>militudinem sunt idee in mente divina,
+<lb ed="#Bb" n="36"/>non accepte# a rebus, sed facientes res :
+<lb ed="#Bb" n="37"/>faciunt autem res educendo ipsas de 
+ni<lb break="no" ed="#Bb" n="38"/>hilo : et ideo ex nihilo illo omne quod
+<lb ed="#Bb" n="39"/>est defectus, incidit, et haec negatio
+<lb ed="#Bb" n="40"/>unius de alio, ex qua causatur 
+diversi<lb break="no" ed="#Bb" n="41"/>tas, et per consequens compositio, et
+<lb ed="#Bb" n="42"/>contingentia, quae fundantur in 
+mutabi<lb break="no" ed="#Bb" n="43"/>litate et materialitate. Sic igitur 
+tempo<lb break="no" ed="#Bb" n="44"/>ralia in sua idea sunt intemporalia, sed
+<lb ed="#Bb" n="45"/>accipiunt temporalitatem a nihilo: et
+<lb ed="#Bb" n="46"/>composita in sua idea sunt simpliciter
+<lb ed="#Bb" n="47"/>unum, et complexa similiter, et sic de
+<lb ed="#Bb" n="48"/>aliis: ergo relata in iflam ideam, que
+<lb ed="#Bb" n="49"/>sufficiens ratio est cognoscendi omnia,
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="50"/>ut dictum est, cognoscuntur quidem
+<lb ed="#Bb" n="51"/>perfectissime omnia : et tamen 
+simplici<lb break="no" ed="#Bb" n="52"/>ter, composite, immaterialiter, 
+intempo<lb break="no" ed="#Bb" n="53"/>raliter, et necessitatis modo.
+</p>
+            <p xml:id="alalal-c40753-d1e323">
+               <lb ed="#Bb" n="54"/>Si autem tu objicias, quod idea una
+<lb ed="#Bb" n="55"/>est in se, et nihil post quod in esse 
+fluxe<lb break="no" ed="#Bb" n="56"/>runt res, omnino nihil causat : sed 
+de<lb break="no" ed="#Bb" n="57"/>fectus a perfecto qui nihil est, tmcidit in
+<lb ed="#Bb" n="58"/>ea quae sunt post ipsum : sed nos 
+vide<lb break="no" ed="#Bb" n="59"/>mus diversa formata et perfecta, et 
+mul<lb break="no" ed="#Bb" n="60"/>tas creaturas: quid ergo causat illam
+<lb ed="#Bb" n="61"/>multitudinem ? Dico, quod duo causant
+<lb ed="#Bb" n="62"/>eam : unum ut fiens, alterum ut faciens.
+<lb ed="#Bb" n="63"/>Fiens est materia juxta nihil, et post 
+ni<lb break="no" ed="#Bb" n="64"/>hil fluens in esse, ut dicit Augustinus :
+<lb ed="#Bb" n="65"/>etideo quia multipliciter est imperfecta,
+<lb ed="#Bb" n="66"/>non est ipsa secundum unum sui partem
+<lb ed="#Bb" n="67"/>receptibilis omnis perfectionis: et ideo
+<lb ed="#Bb" n="68"/>ut rationem quam habere simul potest,
+<lb ed="#Bb" n="69"/>habeat, necesse_fuit eam dividi 
+secun<lb break="no" ed="#Bb" n="70"/>dum actus: et sic introducta est 
+multi<lb break="no" ed="#Bb" n="71"/>tudo ex parte fientis.
+</p>
+            <p xml:id="alalal-c40753-d1e366">
+               <lb ed="#Bb" n="72"/>Item, Secundum omnem partem sui
+<lb ed="#Bb" n="73"/>non est ipsa susceptibilis omnis 
+perfe<lb break="no" ed="#Bb" n="74"/>ctionis quam habere est nata: ergo 
+opor<lb break="no" ed="#Bb" n="75"/>tuit habere successionem in formis : et
+<lb ed="#Bb" n="76"/>sic introducta est mutabilitas et 
+contin<lb break="no" ed="#Bb" n="77"/>gentia. Et sic plane patet, qualiter 
+di<lb break="no" ed="#Bb" n="78"/>versitas et mutabilitas et compositio 
+cau<lb break="no" ed="#Bb" n="79"/>sentur ex nihilo, post quod materia que
+<lb ed="#Bb" n="80"/>prope nihil est, et ad aliquid esse 
+con<lb break="no" ed="#Bb" n="81"/>tendit, fluxit in esse. Ex parte autem 
+fa<lb break="no" ed="#Bb" n="82"/>cientis est sapientia in numero, 
+ponde<lb break="no" ed="#Bb" n="83"/>re, et mensura, omnia disponens : eo
+<lb ed="#Bb" n="84"/>quod ipsa ordine et proportione materia
+<lb ed="#Bb" n="85"/>et partium materia dat formam: et hoc
+<lb ed="#Bb" n="86"/>est quod dixit Plato, quod secundum
+<lb ed="#Bb" n="87"/>materise meritum a datore formarum
+<lb ed="#Bb" n="88"/>dantur omnes forme.
+</p>
+            <p xml:id="alalal-c40753-d1e405">
+               <lb ed="#Bb" n="89"/>Et per hoc patet solutio ad omnia
+<lb ed="#Bb" n="90"/>quaesita praeter ultimum.
+</p>
+            <p xml:id="alalal-c40753-d1e412">
+               <lb ed="#Bb" n="91"/>Et Ad hoc dicendum est, quod nostra
+<lb ed="#Bb" n="92"/>scientia causatur a re, et ideo variatur
+<lb ed="#Bb" n="93"/>secundum rem: quae si est necessaria, et
+<lb ed="#Bb" n="94"/>necessario modo, id est, per medium 
+ne<lb break="no" ed="#Bb" n="95"/>cessarium, est ipsa scientia: aliter autem
+<lb ed="#Bb" n="96"/>se habens, aut est opinio, aut dubitatio.
+<lb ed="#Bb" n="97"/>Sed scientia Dei est per ideas facientes
+<lb ed="#Bb" n="98"/>res: et ideo sequitur conditiones scientis
+<pb ed="#Bb" n="218"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>et non sciti, ut prius dictum est: et cum
+<lb ed="#Bb" n="2"/>ipse sciens non subjaceat contingentiae,
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="3"/>erit sua scientia semper necessaria, etiam
+<lb ed="#Bb" n="4"/>de contingentibus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

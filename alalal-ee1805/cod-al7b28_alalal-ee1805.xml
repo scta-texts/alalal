@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="9"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee1805"><!-- l3d1a5 -->
+            <head xml:id="alalal-ee1805-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-ee1805-Hd1e101" type="question-title">An tempus a Patre prefinitum sit, et
+debeat dici tempus plenitudinis, i
+quo misit Deus £elium seam ?</head>
+            <p xml:id="alalal-ee1805-d1e104">
+               <lb ed="Bd" n="55"/>ARTICULUS V.
+<lb ed="Bd" n="56"/>An tempus a Patre prefinitum sit, et
+<lb ed="Bd" n="57"/>debeat dici tempus plenitudinis, i
+<lb ed="Bd" n="58"/>quo misit Deus £elium seam ?
+</p>
+            <p xml:id="alalal-ee1805-d1e115">
+               <lb ed="Bd" n="59"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="60"/>ibi, A, cirea initium: <quote xml:id="alalal-ee1805-Qd1e121"> Tempus 
+plen<lb break="no" ed="Bd" n="61"/>tudinis dicitur tempus grag, etc. </quote>
+            </p>
+            <p xml:id="alalal-ee1805-d1e127">
+               <lb ed="Bd" n="62"/>Iloc enim videtur esse contra Glossam
+<lb ed="Bd" n="63"/>epistole ad Galat. iv, 4 et 5, quae super
+<lb ed="Bd" n="64"/>idem dicit, quod tempus plenitudinis
+<lb ed="Bd" n="65"/>dicitur, quod erat prefinitum a Patre,
+<lb ed="Bd" n="66"/>quod tune Filum mitteret.
+</p>
+            <p xml:id="alalal-ee1805-d1e141">
+               <lb ed="Bd" n="67"/>SED CONTRA:
+<lb ed="Bd" n="68"/>Ab aeterno fuit prefinitum : ergo ab
+<lb ed="Bd" n="69"/>eterno mittere debut.
+</p>
+            <p xml:id="alalal-ee1805-d1e150">
+               <lb ed="Bd" n="70"/>Si dicitur, quod voluntas est causa
+<lb ed="Bd" n="71"/>dilatoria. Contra : Voluntas quae recipit
+<lb ed="Bd" n="72"/>dispositiones a conceptis per raiionem,
+<lb ed="Bd" n="73"/>vult hoc et illud: ergo voluntas quae
+<lb ed="Bd" n="74"/>semper uno modo se habct, non vult
+<lb ed="Bd" n="75"/>hoc et illud: sed talis est voluntas Dei :
+<lb ed="Bd" n="76"/>ergo semper idem vult : ergo si tunc 
+vo<lb break="no" ed="Bd" n="77"/>luit, ab aeterno voluit. Cum igitur sit
+<lb ed="Bd" n="78"/>omnipotens, ab aeterno explevit, quod
+<lb ed="Bd" n="79"/>falsum est.
+</p>
+            <p xml:id="alalal-ee1805-d1e174">
+               <pb ed="#Bd" n="10"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Solutio Tempus praefinitionis ut 
+mit<lb break="no" ed="Bd" n="2"/>teret, dicitur ¢empus plenitudinis, ut
+<lb ed="Bd" n="3"/>dictum est, illis rationibus qua 
+assigna<lb break="no" ed="Bd" n="4"/>te sunt. Et verum est, quod ab aeterno
+<lb ed="Bd" n="5"/>pretinivit ut tunc mitteret : et ideo non
+<lb ed="Bd" n="6"/>mutabatur voluntas secundum diversa
+<lb ed="Bd" n="7"/>volita: quia ab aeterno voluit ut tunc
+<lb ed="Bd" n="8"/>veniret: sicut si ego vellem cras 
+edi<lb break="no" ed="Bd" n="9"/>ficare, et perseverarem in illa voluntate,
+<lb ed="Bd" n="10"/>si non jam sed cras edificarem, non 
+di<lb break="no" ed="Bd" n="11"/>cerer mutatus esse secundum 
+volunta<lb break="no" ed="Bd" n="12"/>tem. Unde non sequitur argumentum :
+<lb ed="Bd" n="13"/>quia non simpliciter preefinivit ab 
+eter<lb break="no" ed="Bd" n="14"/>no, sed prefinivit ut mitteret, et etiam
+<lb ed="Bd" n="15"/>cum hoc prefinivit quando mitteret. Qua
+<lb ed="Bd" n="16"/>autem causa distulerit, causae aliquae
+<lb ed="Bd" n="17"/>per convenentiam sunt assignate : 
+suffi<lb break="no" ed="Bd" n="18"/>cientes autem sunt in sapientia Dei 
+abs<lb break="no" ed="Bd" n="19"/>condite, super quas exclamat Apostolus,
+  <lb ed="Bd" n="20"/>
+               <ref xml:id="alalal-ee1805-Rd1e223">ad Roman. x1, 33</ref>: <quote xml:id="alalal-ee1805-Qd1e226"
+                      source="http://scta.info/resource/rom11_33@1-12">O altitudo 
+divitia<lb break="no" ed="Bd" n="21"/>rum sapientiae, et scientiae Dei quam 
+in<lb break="no" ed="Bd" n="22"/>comprehensibilia sunt judicia ejus</quote>, etc.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="342"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e65169"><!-- l3d19a5 -->
+            <head xml:id="alalal-e65169-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-e65169-Hd1e101" type="question-title">An Christus debuit fieri homo mortals,
+ut sic hominem a potestate diaboli 
+lberaret ?</head>
+            <p xml:id="alalal-e65169-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="4"/>ARTICULUS V.
+<lb ed="Bd" n="5"/>An Christus debuit fieri homo mortals,
+<lb ed="Bd" n="6"/>ut sic hominem a potestate diaboli 
+l<lb break="no" ed="Bd" n="7"/>beraret ?
+</p>
+            <p xml:id="alalal-e65169-d1e117">
+               <lb ed="Bd" n="8"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="9"/>ibi, <quote xml:id="alalal-e65169-Qd1e123"> Factus est ergo homo mortalis,
+<lb ed="Bd" n="10"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-e65169-d1e129">
+               <lb ed="Bd" n="11"/>Videtur enim non fuisse necessarium :
+<lb ed="Bd" n="12"/>quia
+<lb ed="Bd" n="13"/>1. Ex hoc quod diabolus nus injuste
+<lb ed="Bd" n="14"/>detinuit (ut infra dicetur), potuit 
+ju<lb break="no" ed="Bd" n="15"/>ste nos Deus in potestatem suam 
+retra<lb break="no" ed="Bd" n="16"/>here.
+</p>
+            <p xml:id="alalal-e65169-d1e146">
+               <lb ed="Bd" n="17"/>2. Item, Videtur quod etiam debuit
+<lb ed="Bd" n="18"/>retrahere nos in suam potestatem : quia
+<lb ed="Bd" n="19"/>Dei ut justi judicis est revocare quidquid
+<lb ed="Bd" n="20"/>fit injuste : sed injuste vindicaverat nos
+<lb ed="Bd" n="21"/>sibi diabolus : ergo Deus debuit hoc 
+re<lb break="no" ed="Bd" n="22"/>vocare.
+</p>
+            <p xml:id="alalal-e65169-d1e162">
+               <lb ed="Bd" n="23"/>Praeterea, Quare Angelus in homine
+<lb ed="Bd" n="24"/>non potuit satisfacere ? Angelus enim
+<lb ed="Bd" n="25"/>magis est homini unibilis (licet non Deo)
+<lb ed="Bd" n="26"/>quam Deus : quia eorum quorum minor
+<lb ed="Bd" n="27"/>est distantia, facilior est unio : minor
+<lb ed="Bd" n="28"/>autem est distantia hominis et Angeli,
+<lb ed="Bd" n="29"/>quam hominis et Dei : ergo unibilior est
+<lb ed="Bd" n="30"/>homo Angelo, et e converso, quam Deus
+<lb ed="Bd" n="31"/>homini.
+</p>
+            <p xml:id="alalal-e65169-d1e184">
+               <lb ed="Bd" n="32"/>4, Ponatur ergo sic esse factum : tunc
+<lb ed="Bd" n="33"/>videtur, quod ille mortis non esset 
+debi<lb break="no" ed="Bd" n="34"/>tor, et ita mortem pro aliis solvere 
+po<lb break="no" ed="Bd" n="35"/>tuisset : ergo non est verum quod dicit in
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="36"/>Littera, quod homo satisfacere non potuit,
+<lb ed="Bd" n="37"/>nisi Deus esset in eo.
+</p>
+            <p xml:id="alalal-e65169-d1e202">
+               <lb ed="Bd" n="38"/>Solutio Dicendum ad primum, quod
+<lb ed="Bd" n="39"/>Deus quidem juste potestatem diaholi 
+re<lb break="no" ed="Bd" n="40"/>irahere potuit, quando voluisset : sed non
+<lb ed="Bd" n="41"/>homo juste retraheretur : quia homo 
+be<lb break="no" ed="Bd" n="42"/>ne meruit, ut in potestate diaboli esset,
+<lb ed="Bd" n="43"/>licet diabolus nullum jus in eo haberet :
+<lb ed="Bd" n="44"/>unde justitia (de qua loquitur hic 
+Magi<lb break="no" ed="Bd" n="45"/>ster) est ex parte hominis retracti, non ex
+<lb ed="Bd" n="46"/>parte demonis injuste hominem sibi 
+vin<lb break="no" ed="Bd" n="47"/>dicantis.
+</p>
+            <p xml:id="alalal-e65169-d1e226">
+               <lb ed="Bd" n="48"/>Per hoc patet solutio etiam ad 
+secun<lb break="no" ed="Bd" n="49"/>dun.
+</p>
+            <p xml:id="alalal-e65169-d1e233">
+               <lb ed="Bd" n="50"/>Ad teatium dicendum, quod supra 
+as<lb break="no" ed="Bd" n="51"/>signata est ratio, quare homo non potuit
+<lb ed="Bd" n="52"/>liberari nisia Deo homine : et hac 
+sufli<lb break="no" ed="Bd" n="53"/>ciant.
+</p>
+            <p xml:id="alalal-e65169-d1e245">
+               <lb ed="Bd" n="54"/>Ad opsectum autem, quod hoc falsum
+<lb ed="Bd" n="55"/>est, dicendum quod si Angelus 
+incarna<lb break="no" ed="Bd" n="56"/>retur, ille esset crcatum bonum 
+simplici<lb break="no" ed="Bd" n="57"/>ter : ergo totum quod esse, et faceret, et
+<lb ed="Bd" n="58"/>posset, pro seipso deberet Creatori : nec
+<lb ed="Bd" n="59"/>adhuc responderet unum pro mille : ergo
+<lb ed="Bd" n="60"/>justitia ejus non sufficeret sibi, et 
+omni<lb break="no" ed="Bd" n="61"/>bus aliis.
+</p>
+            <p xml:id="alalal-e65169-d1e265">
+               <lb ed="Bd" n="62"/>Praterea, Supra ostensum est, quod
+<lb ed="Bd" n="63"/>offensa in Deum secundum unam circum~
+<lb ed="Bd" n="64"/>stanliam est infinita, et secundum 
+dam<lb break="no" ed="Bd" n="65"/>num illatum est etiam infinita potentia
+<lb ed="Bd" n="66"/>sallem, quia abstulit omnes qui de ipso
+<lb ed="Bd" n="67"/>possunt nasci, non tamen omnes qui de
+<lb ed="Bd" n="68"/>ipso nascerentur ; unde oportet 
+satisfa<lb break="no" ed="Bd" n="69"/>cientem esse bonitatis et pretii infiniti 
+ali<lb break="no" ed="Bd" n="70"/>quo modo : et hoc non competeret alicui
+<lb ed="Bd" n="71"/>creato : ergo nulla creatura redimere 
+po<lb break="no" ed="Bd" n="72"/>tuit : et sic verificatur quod hic dicitur in
+<lb ed="Bd" n="73"/>Litiera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

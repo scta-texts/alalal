@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="545"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d93158"><!-- l2d34a1 -->
+            <head xml:id="alalal-d93158-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-d93158-Hd1e101" type="question-title">An malum sit?</head>
+            <p xml:id="alalal-d93158-d1e104">
+               <lb ed="#Bc" n="37"/>ARTICULUS I.
+<lb ed="#Bc" n="38"/>An malum sit?
+</p>
+            <p xml:id="alalal-d93158-d1e111">
+               <lb ed="#Bc" n="39"/>Circa primum autem incidunt dubia
+<lb ed="#Bc" n="40"/>tria : quorum primum est, An sit 
+ma<lb break="no" ed="#Bc" n="41"/>lum ?
+<lb ed="#Bc" n="42"/>Secundum, An causam habeat 
+efficien<lb break="no" ed="#Bc" n="43"/>tem vel deficientem ?
+<pb ed="#Bc" n="546"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Tertium, Qualiter procedat a causa
+<lb ed="#Bc" n="2"/>efficiente vel deficiente ?
+</p>
+            <p xml:id="alalal-d93158-d1e133">
+               <lb ed="#Bc" n="3"/>Ap primum potest objici per 
+auctorita<lb break="no" ed="#Bc" n="4"/>tes : sed quia copiose inducuntur a 
+Ma<lb break="no" ed="#Bc" n="5"/>gistro in sequenti parte istius 
+distinctio<lb break="no" ed="#Bc" n="6"/>nis, et in sequenti distinctione, 
+super<lb break="no" ed="#Bc" n="7"/>sedeo.
+</p>
+            <p xml:id="alalal-d93158-d1e147">
+               <lb ed="#Bc" n="8"/>Ratione videtur malum nihil esse sic :
+<lb ed="#Bc" n="9"/>1. Bonum per finem diffinitur : cum
+<lb ed="#Bc" n="10"/>igitur malum opponatur fini, aut malum
+<lb ed="#Bc" n="11"/>diffinitur per contrarium finem, aut per
+<lb ed="#Bc" n="12"/>privationem finis boni : non autem 
+pot<lb break="no" ed="#Bc" n="13"/>est diffiniri per contrarium finem, quia 
+ni<lb break="no" ed="#Bc" n="14"/>hil est summo bono contrarium, eo quod
+<lb ed="#Bc" n="15"/>sit nihil summe malum: ergo 
+diffinie<lb break="no" ed="#Bc" n="16"/>tur per privationem finis boni : privatio
+<lb ed="#Bc" n="17"/>autem non ponit vel dicit ens : ergo 
+ma<lb break="no" ed="#Bc" n="18"/>lum nihil est entium.
+</p>
+            <p xml:id="alalal-d93158-d1e173">
+               <lb ed="#Bc" n="19"/>2. Item, Dionysius : <quote xml:id="alalal-d93158-Qd1e177"> Malum nihil
+<lb ed="#Bc" n="20"/>entium, neque in Angelo, neque in ani~
+<lb ed="#Bc" n="21"/>ma, neque in tota natura </quote>. Cum igitur
+<lb ed="#Bc" n="22"/>pluribus modis variari non possit malum,
+<lb ed="#Bc" n="23"/>non erit ens.
+</p>
+            <p xml:id="alalal-d93158-d1e189">
+               <lb ed="#Bc" n="24"/>3. Item, Aut malum dicitur per se et
+<lb ed="#Bc" n="25"/>substantialiter,malum, aut participatione
+<lb ed="#Bc" n="26"/>substantialiter mali, aut per privationem
+<lb ed="#Bc" n="27"/>boni. Si primo modo : ergo aliquid est
+<lb ed="#Bc" n="28"/>substantialiter malum : quod autem est
+<lb ed="#Bc" n="29"/>substantialiter malum, non habet de 
+bo<lb break="no" ed="#Bc" n="30"/>no : ergo illud malum nihil habet de 
+bo<lb break="no" ed="#Bc" n="31"/>no: sed esse est aliquod bonum, et 
+bo<lb break="no" ed="#Bc" n="32"/>num de quo dicit Philosophus, quod 
+om<lb break="no" ed="#Bc" n="33"/>nia desiderant esse bonum, et propter
+<lb ed="#Bc" n="34"/>illud agunt, quidquid agunt: ergo illud
+<lb ed="#Bc" n="35"/>substantialiter malum non habet esse :
+<lb ed="#Bc" n="36"/>ergo nec est malum. Si autem dicatur
+<lb ed="#Bc" n="37"/>participatione malum. Contra : Non fit
+<lb ed="#Bc" n="38"/>participatione malum, nisi aliquid per
+<lb ed="#Bc" n="39"/>se sit malum quod participetur : ergo 
+ni<lb break="no" ed="#Bc" n="40"/>hil est participative malum. Relinquitur
+<lb ed="#Bc" n="41"/>igitur, quod malum dicatur per 
+privatio<lb break="no" ed="#Bc" n="42"/>nem boni: ergo malum non est nisi 
+pri<lb break="no" ed="#Bc" n="43"/>vatio : privatio autem nihil est : ergo
+<lb ed="#Bc" n="44"/>malum nihil est.
+</p>
+            <p xml:id="alalal-d93158-d1e237">
+               <lb ed="#Bc" n="45"/>4. Item, Dicit Damascenus, quod 
+ma<lb break="no" ed="#Bc" n="46"/>lum est tenebra spiritualis : sed tenebra
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="47"/>non dicit nisi lucis absentiam, ubi debet
+<lb ed="#Bc" n="48"/>esse lux : ergo nec malum dicet nisi bonj
+<lb ed="#Bc" n="49"/>absentiam, ubi debet esse bonum : hog
+<lb ed="#Bc" n="50"/>autem nihil est.
+</p>
+            <p xml:id="alalal-d93158-d1e255">
+               <lb ed="#Bc" n="51"/>5. Item, Sicut est in potentiis exterio. -
+<lb ed="#Bc" n="52"/>ribus compactis ad actum et perfectio.
+<lb ed="#Bc" n="53"/>nem, ita etiam est in potentiis interiorj-.
+<lb ed="#Bc" n="54"/>bus : potentiae autem exteriores ad ac.
+<lb ed="#Bc" n="55"/>tum et finem, non tolluntur nisi per
+<lb ed="#Bc" n="56"/>privationem, ut cecum, et surdum, et
+<lb ed="#Bc" n="57"/>hujusmodi : ergo nec potentia interiores :
+<lb ed="#Bc" n="58"/>sed malum dicit ablationem actus in 
+per<lb break="no" ed="#Bc" n="59"/>fectione finis : ergo malum non dicit nisi
+<lb ed="#Bc" n="60"/>privationem : privatio autem nihil est -
+<lb ed="#Bc" n="61"/>ergo malum nihil est. Si dicas, quod 
+po<lb break="no" ed="#Bc" n="62"/>tentia exterior quandoque tollitur per id
+<lb ed="#Bc" n="63"/>quod aliquid est, sicut oculi potentia per
+<lb ed="#Bc" n="64"/>pellem tegentem visum : hoc nihil est :
+<lb ed="#Bc" n="65"/>quia ibi non tollitur habitudo et perfectio
+<lb ed="#Bc" n="66"/>oculi ad actum, sed tegitur et impeditur,
+<lb ed="#Bc" n="67"/>sicut nec tollitur per manum si desuper
+<lb ed="#Bc" n="68"/>imponatur.
+</p>
+            <p xml:id="alalal-d93158-d1e297">
+               <lb ed="#Bc" n="69"/>Sep quia omnes confitentur hoc, 
+obji<lb break="no" ed="#Bc" n="70"/>citur in contrarium sic :
+</p>
+            <p xml:id="alalal-d93158-d1e305">
+               <lb ed="#Bc" n="71"/>1. Malum nihil est : quod autem 
+ni<lb break="no" ed="#Bc" n="72"/>hil est, nulli oppugnat: ergo malum 
+nul<lb break="no" ed="#Bc" n="73"/>li oppugnat : sed pugnat bono, ut dicit
+<lb ed="#Bc" n="74"/>Dionysius : ergo malum est actu ens.
+</p>
+            <p xml:id="alalal-d93158-d1e316">
+               <lb ed="#Bc" n="75"/>2. Item, Nihil corrumpit aliquid, nisi
+<lb ed="#Bc" n="76"/>quod est actu ens : malum corrumpit
+<lb ed="#Bc" n="77"/>bonum : ergo malum actu est.
+</p>
+            <p xml:id="alalal-d93158-d1e325">
+               <lb ed="#Bc" n="78"/>3. Item, Malum est primo in actu, ut
+<lb ed="#Bc" n="79"/>hic dicitur in Zittera : actus autem 
+relin<lb break="no" ed="#Bc" n="80"/>quit habitum talem, qualis ipse est : er- _
+<lb ed="#Bc" n="81"/>go malum est in habitu: sed actus et
+<lb ed="#Bc" n="82"/>habitus actu sunt : ergo malum actu est.
+</p>
+            <p xml:id="alalal-d93158-d1e338">
+               <lb ed="#Bc" n="83"/>4. Item, Macula aut dicit aliquod eng
+<lb ed="#Bc" n="84"/>in anima, aut nihil. Si nihil: tune non
+<lb ed="#Bc" n="85"/>deletur per gratiam, quia nihil non dele-s
+<lb ed="#Bc" n="86"/>tur. Si autem dicit aliquod ens, cum ipsa
+<lb ed="#Bc" n="87"/>sit malum, erit malum aliquod ens.
+</p>
+            <p xml:id="alalal-d93158-d1e351">
+               <lb ed="#Bc" n="88"/>5. Item, Anima dicitur bona boni 
+par<lb break="no" ed="#Bc" n="89"/>ticipatione : ergo si malum est privatio
+<lb ed="#Bc" n="90"/>boni, ab eodem est mala et indifferens, |
+<lb ed="#Bc" n="91"/>quod falsum est : ergo oportet, quod sit
+<lb ed="#Bc" n="92"/>mala alicujus entis participatione : erge
+<lb ed="#Bc" n="93"/>malum similiter est ens actu.
+</p>
+            <p xml:id="alalal-d93158-d1e367">
+               <pb ed="#Bc" n="547"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>6. Item, Si malum nihil est, et nihil
+<lb ed="#Bc" n="2"/>fiunt homines cum peceant, ut dicit 
+Au<lb break="no" ed="#Bc" n="3"/>gustinus, et habetur in sequenti 
+distin<lb break="no" ed="#Bc" n="4"/>clione: ergo videtur, quod cum Deus
+<lb ed="#Bc" n="5"/>punit homines, quod pro nihilo puniat
+<lb ed="#Bc" n="6"/>eos : et hoc est ridiculum : quia sine
+<lb ed="#Bc" n="7"/>causa punitur, quod pro nihilo punitur.
+</p>
+            <p xml:id="alalal-d93158-d1e390">
+               <lb ed="#Bc" n="8"/>Juxta hoc quaeritur de solutione 
+quo<lb break="no" ed="#Bc" n="9"/>rumdam dicentium, quod duplex est esse,
+<lb ed="#Bc" n="10"/>scilicet primum, et secundum. Esse 
+pri<lb break="no" ed="#Bc" n="11"/>mum est esse vere. Ett esse secundum,
+<lb ed="#Bc" n="12"/>est esse perfectionis perficientis secundum
+<lb ed="#Bc" n="13"/>bene, de quo dicit Boetius, quod esse
+<lb ed="#Bc" n="14"/>est quod ordinem retinet, servatque 
+na<lb break="no" ed="#Bc" n="15"/>turam. Dicunt igitur, quod malum est
+<lb ed="#Bc" n="16"/>non ens secundum esse secundum, quia
+<lb ed="#Bc" n="17"/>privat bene esse: sed est ens secundum
+<lb ed="#Bc" n="18"/>esse primum, quia salvatur in illo. Sed
+<lb ed="#Bc" n="19"/>quod hoc nihil sit dictu, probatur de 
+fa<lb break="no" ed="#Bc" n="20"/>cili sic :
+</p>
+            <p xml:id="alalal-d93158-d1e421">
+               <lb ed="#Bc" n="21"/>1. Dato quod malum sit privatio boni,
+<lb ed="#Bc" n="22"/>malum non habebit esse nisi privationis
+<lb ed="#Bc" n="23"/>concrelive sumpte : hac autem nec 
+di<lb break="no" ed="#Bc" n="24"/>cit esse subjecti, nec esse quod privat:
+<lb ed="#Bc" n="25"/>ergo nec dicit esse primum, nec esse 
+se<lb break="no" ed="#Bc" n="26"/>cundum : ergo ipsum est simpliciter 
+ni<lb break="no" ed="#Bc" n="27"/>hil.
+</p>
+            <p xml:id="alalal-d93158-d1e439">
+               <lb ed="#Bc" n="28"/>2. tem, A simili videtur hoc probari :
+<lb ed="#Bc" n="29"/>quia cecum (ut dicit Anselmus) non 
+di<lb break="no" ed="#Bc" n="30"/>cit aliquid magis in oculo, quam in 
+lapi<lb break="no" ed="#Bc" n="31"/>de : sed nec esse primum, nec esse 
+se<lb break="no" ed="#Bc" n="32"/>cundum dicit. in lapide : ergo nec in
+<lb ed="#Bc" n="33"/>oculo.
+</p>
+            <p xml:id="alalal-d93158-d1e455">
+               <lb ed="#Bc" n="34"/>3. Item, Negatio non propter hoc 
+di<lb break="no" ed="#Bc" n="35"/>citur habere esse, quia non negat 
+quid<lb break="no" ed="#Bc" n="36"/>quid est : sed dicitur nihil esse, quia 
+ni<lb break="no" ed="#Bc" n="37"/>hil est compositionis vel affirmationis sibi
+<lb ed="#Bc" n="38"/>opposite : ergo nec privatio propter hoc
+<lb ed="#Bc" n="39"/>dicetur habere esse secundum esse 
+pri<lb break="no" ed="#Bc" n="40"/>mum, guia non privat esse primum, eo
+<lb ed="#Bc" n="41"/>quod non opponitur ei privatio iila quae
+ <lb ed="#Bc" n="42"/>privat esse secundum : sed potius 
+omni<lb break="no" ed="#Bc" n="43"/>no dicitur nihil esse, quia nec dicit 
+pri<lb break="no" ed="#Bc" n="44"/>mum, nec secundum.
+</p>
+            <p xml:id="alalal-d93158-d1e481">
+               <lb ed="#Bc" n="45"/>Solutio. Ad hoc dicendum videtur,
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="46"/>quod malum in eo quod malum, omnino
+<lb ed="#Bc" n="47"/>nihil est, nec secundum esse primum,
+<lb ed="#Bc" n="48"/>nec secundum esse secundum. Id autem
+<lb ed="#Bc" n="49"/>quod est maium materialiter, aliquid est :
+<lb ed="#Bc" n="50"/>sicut et cecum omnino nihil est, cum
+<lb ed="#Bc" n="51"/>tamen id quod est cecum, sit animal visu
+<lb ed="#Bc" n="52"/>carens. Et hoc est quod dicitur aliis 
+ver<lb break="no" ed="#Bc" n="53"/>bis, quod subjectum mal: materialiter
+<lb ed="#Bc" n="54"/>loquendo aliquid est : forma autem mali
+<lb ed="#Bc" n="55"/>consistit in privatione pura. Et hoc ideo,
+<lb ed="#Bc" n="56"/>quia privatio omnis relinquit subjectum
+<lb ed="#Bc" n="57"/>etaptitudinem sive debitum ad habitum,
+<lb ed="#Bc" n="58"/>et privat habituipso:etmalum non 
+acci<lb break="no" ed="#Bc" n="59"/>pit intentionem et rationem mali ex parte
+<lb ed="#Bc" n="60"/>subjecti quod relinquit, sed potius ex
+<lb ed="#Bc" n="61"/>habitu quo privat: sicut enim dicit 
+Phi<lb break="no" ed="#Bc" n="62"/>losophus, A potentia subjecti non 
+dici<lb break="no" ed="#Bc" n="63"/>mur boni vel mali: Secundum hoc igitur
+<lb ed="#Bc" n="64"/>concedo, quod malum in eo quod malum,
+<lb ed="#Bc" n="65"/>omnino nihil est : sicut neque aliqua
+<lb ed="#Bc" n="66"/>privatio in eo quod privatio, aliquid est.
+</p>
+            <p xml:id="alalal-d93158-d1e533">
+               <lb ed="#Bc" n="67"/>Ap primum dicendum, quod pugnare
+<lb ed="#Bc" n="68"/>dicilur proprie et improprie. Si pugnare
+<lb ed="#Bc" n="69"/>dicitur proprie : tunc idem est pugnare
+<lb ed="#Bc" n="70"/>quod contraria virtute in contrarium 
+age<lb break="no" ed="#Bc" n="71"/>re: et tunc malum non pugnat bono nisi
+<lb ed="#Bc" n="72"/>virtute boni, ut dicit Dionysius : et hoc
+<lb ed="#Bc" n="73"/>sic intelligendum est, quod est bonum
+<lb ed="#Bc" n="74"/>particulare, et bonum universaie quod
+<lb ed="#Bc" n="75"/>est finis omnium bonorum. Bonum 
+au<lb break="no" ed="#Bc" n="76"/>tem universale quod finis est, illud non
+<lb ed="#Bc" n="77"/>habet contrarium malum : et ideo illi
+<lb ed="#Bc" n="78"/>nihil oppugnat. Est autem bonum 
+parti<lb break="no" ed="#Bc" n="79"/>culare, quod est forma boni in actu vel
+<lb ed="#Bc" n="80"/>habitu. Habitus autem virtutis specialis,
+<lb ed="#Bc" n="81"/>non est bonus substantialiter, sed potius
+<lb ed="#Bc" n="82"/>in quantum conjungit fini. Ita etiam 
+ha<lb break="no" ed="#Bc" n="83"/>bitus vitil non est actus 
+substantiali<lb break="no" ed="#Bc" n="84"/>ter malus, sed in quantum privat fine,
+<lb ed="#Bc" n="85"/>quod est universale bonum. Privatio 
+er<lb break="no" ed="#Bc" n="86"/>go sustentata in actu vel habitu, pugnat
+<lb ed="#Bc" n="87"/>particulari bono : non unde privatio, sed
+<lb ed="#Bc" n="88"/>potius unde contrarius actus vel 
+habi<lb break="no" ed="#Bc" n="89"/>tus : et ideo non pugnat nisi viribus 
+bo<lb break="no" ed="#Bc" n="90"/>ni: quia ilud in quantum est, bonum
+<lb ed="#Bc" n="91"/>est : et in quantum est, contrarium est,
+<lb ed="#Bc" n="92"/>licet privatio consequatur passive : ot
+<pb ed="#Bc" n="548"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>tunc pugnare boni, est deficere bonum :
+<lb ed="#Bc" n="2"/>et hoc contingit privando ipsum : et sic
+<lb ed="#Bc" n="3"/>omnis privatio pugnat habitui. Sed ex
+<lb ed="#Bc" n="4"/>hoc non sequitur, quod sic pugnans sit
+<lb ed="#Bc" n="5"/>in actu ens : sed quod pugnat primo
+<lb ed="#Bc" n="6"/>modo, est actu ens : quia sic non tantum
+<lb ed="#Bc" n="7"/>est privativum, sed etiam contrarium,
+<lb ed="#Bc" n="8"/>habens contrariam formam habitui et
+<lb ed="#Bc" n="9"/>actui particularis boni.
+</p>
+            <p xml:id="alalal-d93158-d1e617">
+               <lb ed="#Bc" n="10"/>Ad aliud dicendum eodem modo,
+<lb ed="#Bc" n="11"/>quod si corrumpere sonat viribus 
+contra<lb break="no" ed="#Bc" n="12"/>riis ad destitutionem agere, tunc malum
+<lb ed="#Bc" n="13"/>et bonum improprie sumuntur pro suis
+<lb ed="#Bc" n="14"/>subjectis in actibus et habitibus : et sic
+<lb ed="#Bc" n="15"/>utrumque est actu ens. Si autem 
+suma<lb break="no" ed="#Bc" n="16"/>tur corrumpere pro deficere ex 
+destitu<lb break="no" ed="#Bc" n="17"/>tione finis, tune non oportet, quod 
+cor<lb break="no" ed="#Bc" n="18"/>rumpens sit actu ens : sicut neque mors
+<lb ed="#Bc" n="19"/>est actu ens, licet corrumpat et privat
+<lb ed="#Bc" n="20"/>vitam.
+</p>
+            <p xml:id="alalal-d93158-d1e643">
+               <lb ed="#Bc" n="21"/>Ad aliud dicendum, quod malum est
+<lb ed="#Bc" n="22"/>primum in actu : sed actus non est ratio
+<lb ed="#Bc" n="23"/>mali, sed potius subjectum +: quia in
+<lb ed="#Bc" n="24"/>quantum est, bonus est, ut patebit in
+<lb ed="#Bc" n="25"/>sequenti distinctione.
+</p>
+            <p xml:id="alalal-d93158-d1e656">
+               <lb ed="#Bc" n="26"/>Av atiup dicendum, quod macula 
+di<lb break="no" ed="#Bc" n="27"/>citur dupliciter, scilicet pro habitu vitii,
+<lb ed="#Bc" n="28"/>et pro defectu ejus quod debet inesse.
+<lb ed="#Bc" n="29"/>Primo modo non est macula mala ut per
+<lb ed="#Bc" n="30"/>se, sed ut subjectum mali : quia ille 
+habi<lb break="no" ed="#Bc" n="31"/>tus in quantum est, non est malus, sed
+<lb ed="#Bc" n="32"/>in quantum privat bono ex carentia finis.
+<lb ed="#Bc" n="33"/>Secundo modo est defectus absolute 
+ni<lb break="no" ed="#Bc" n="34"/>hil ponens esse, sed turpitudo est ex 
+de<lb break="no" ed="#Bc" n="35"/>fectu ejus quod debet inesse : ut cacum
+<lb ed="#Bc" n="36"/>dicitur habere maculam, non propter
+<lb ed="#Bc" n="37"/>privationem alicujus, sed propter 
+priva<lb break="no" ed="#Bc" n="38"/>tionem ejus quod inesse debet.
+</p>
+            <p xml:id="alalal-d93158-d1e687">
+               <lb ed="#Bc" n="39"/>Ad aliud dicendum, quod anima non
+<lb ed="#Bc" n="40"/>dicitur esse indifferens ab eodem, a quo
+<lb ed="#Bc" n="41"/>dicitur mala : quia indifferentia non 
+di<lb break="no" ed="#Bc" n="42"/>cit privationem finis, sed potius dicit
+<lb ed="#Bc" n="43"/>non conjunctionem cum fine : sed 
+ma<lb break="no" ed="#Bc" n="44"/>lum dicit finis corruptionem et 
+privatio<lb break="no" ed="#Bc" n="45"/>nem.
+</p>
+            <p xml:id="alalal-d93158-d1e705">
+               <lb ed="#Bc" n="46"/>Ad aliud dicendum, quod illa est vilis
+<lb ed="#Bc" n="47"/>objectio parum habens rationis. Cum
+<lb ed="#Bc" n="48"/>enim dicitur, malum nihil est, 
+intelligi<lb break="no" ed="#Bc" n="49"/>tur non ponere aliquod ens, quod tamen
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="50"/>deberet inesse. Cum autem dicitur, 
+ho<lb break="no" ed="#Bc" n="51"/>mines puniuntur pro malo, intelligitur
+<lb ed="#Bc" n="52"/>pro privatione habitus boni, quod debet
+<lb ed="#Bc" n="53"/>inesse. Ht ex hoc non sequitur, quod
+<lb ed="#Bc" n="54"/>puniantur pro nihilo, sed pro aliquo, id
+<lb ed="#Bc" n="55"/>est, bono, quod debet inesse, et non 
+in<lb break="no" ed="#Bc" n="56"/>est. Et ideo pro eodem puniuntur 
+homi<lb break="no" ed="#Bc" n="57"/>nes, et remunerantur sed pro bono
+<lb ed="#Bc" n="58"/>quod fecerunt et habent, remunerantur :
+<lb ed="#Bc" n="59"/>et pro bono quod non fecerunt nec 
+ha<lb break="no" ed="#Bc" n="60"/>bent, puniuntur. Et ut apertius dicatur,
+<lb ed="#Bc" n="61"/>cum dicitur, malum, duo dicuntur -
+<lb ed="#Bc" n="62"/>unum scilicet quod est ratio mali, et 
+al<lb break="no" ed="#Bc" n="63"/>terum quod relinquit. in subjecto : et
+<lb ed="#Bc" n="64"/>cum dicitur, malum nihil est, negatur
+<lb ed="#Bc" n="65"/>esse de malo secundum rationem mali,
+<lb ed="#Bc" n="66"/>Cum autem dicitur, homines puniuntur
+<lb ed="#Bc" n="67"/>pro malo, malum dicit causam peene vel
+<lb ed="#Bc" n="68"/>punitionis secundum id quod relinquit in
+<lb ed="#Bc" n="69"/>subjecto quod est carentia habitus. Et ex
+<lb ed="#Bc" n="70"/>hoc non sequitur, quod pro nihilo 
+pu<lb break="no" ed="#Bc" n="71"/>niuntur, cum diversimode sumatur in
+<lb ed="#Bc" n="72"/>premissis, gratia diversorum quae dicit.
+<lb ed="#Bc" n="73"/>Sed sequitur : ergo puniuntur pro habitu
+<lb ed="#Bc" n="74"/>quem habere deberent, cum nihil 
+ha<lb break="no" ed="#Bc" n="75"/>bent.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

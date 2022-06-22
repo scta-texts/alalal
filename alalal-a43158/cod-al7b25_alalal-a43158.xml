@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="218"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a43158"><!-- l1d7a10 -->
+            <head xml:id="alalal-a43158-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-a43158-Hd1e101" type="question-title">An eadem sit potentia qua Pater potuit
+generare, et qua Filius generari?</head>
+            <p xml:id="alalal-a43158-d1e104">
+               <lb ed="#Ba" n="9"/>ARTICULUS X.
+<lb ed="#Ba" n="10"/>An eadem sit potentia qua Pater potuit
+<lb ed="#Ba" n="11"/>generare, et qua Filius generari?
+</p>
+            <p xml:id="alalal-a43158-d1e113">
+               <lb ed="#Ba" n="12"/>Deinde quaeritur de hoc quod dicit
+<lb ed="#Ba" n="13"/>Magister : <quote xml:id="alalal-a43158-Qd1e119"> Eadem enim potentia est in
+<lb ed="#Ba" n="14"/>Filio, qua potuit gigni, quae est in Pa-
+<lb ed="#Ba" n="15"/>tre, qua potuit generare, etc. </quote>
+            </p>
+            <p xml:id="alalal-a43158-d1e127">
+               <lb ed="#Ba" n="16"/>1. Hoc enim non videtur verum: quia
+<lb ed="#Ba" n="17"/>non est eadem potentia activi et 
+passi<lb break="no" ed="#Ba" n="18"/>vi: gignere autem est activum, et gigni
+<lb ed="#Ba" n="19"/>passivum.
+</p>
+            <p xml:id="alalal-a43158-d1e139">
+               <lb ed="#Ba" n="20"/>2. Praeterea, Activum et passivum
+<lb ed="#Ba" n="21"/>distant, sicut efficiens et materia: sed
+<lb ed="#Ba" n="22"/>efficiens cum materia numquam potest
+<lb ed="#Ba" n="23"/>esse idem essentia, ut probat 
+Philoso<lb break="no" ed="#Ba" n="24"/>phus: ergo nec eadem est potentia ad
+<lb ed="#Ba" n="25"/>gignere, et ad gigni.
+</p>
+            <p xml:id="alalal-a43158-d1e155">
+               <lb ed="#Ba" n="26"/>3. Preeterea, In nominibus etiam 
+vi<lb break="no" ed="#Ba" n="27"/>demus, quod non est una notio qua
+<lb ed="#Ba" n="28"/>Pater est gignens, et qua Filius est 
+geni<lb break="no" ed="#Ba" n="29"/>tus: ergo nec erit una potentia, ut 
+vide<lb break="no" ed="#Ba" n="30"/>tur.
+</p>
+            <p xml:id="alalal-a43158-d1e168">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="31"/>Sotvtro. Dicendum, quod una est 
+po<lb break="no" ed="#Ba" n="32"/>tentia in ratione potentie naturalis, sed
+<lb ed="#Ba" n="33"/>non una in ratione potenti ad actum :
+<lb ed="#Ba" n="34"/>quia potentia secundum rationem 
+in<lb break="no" ed="#Ba" n="35"/>telligend: est media inter naturam in
+<lb ed="#Ba" n="36"/>qua radicatur, et actum qui egreditur ab
+<lb ed="#Ba" n="37"/>ipsa, et Magister loquitur secundum 
+com<lb break="no" ed="#Ba" n="38"/>parationem illam in qua comparatur ad
+<lb ed="#Ba" n="39"/>naturam in qua radicatur.
+</p>
+            <p xml:id="alalal-a43158-d1e192">
+               <lb ed="#Ba" n="40"/>Ap primom ergo dicendum, quod in
+<lb ed="#Ba" n="41"/>divinis nihil est passivum: sed 
+princi<lb break="no" ed="#Ba" n="42"/>pians et principiatum vix admittitur ibi:
+<lb ed="#Ba" n="43"/>et bene potest una potentia nature 
+se<lb break="no" ed="#Ba" n="44"/>cundum quod hujusmodi, aliquid esse
+<lb ed="#Ba" n="45"/>principians et principiatum, licet hec
+<lb ed="#Ba" n="46"/>non possit esse una potentia relata ad
+<lb ed="#Ba" n="47"/>actum.
+</p>
+            <p xml:id="alalal-a43158-d1e212">
+               <lb ed="#Ba" n="48"/>Ab attup dicendum, quod _ illa 
+propo<lb break="no" ed="#Ba" n="49"/>sitio vera est in his in quibus est efficiens
+<lb ed="#Ba" n="50"/>et activum, et passivum et materia
+<lb ed="#Ba" n="51"/>physica: sed aliud est modus activi, et
+<lb ed="#Ba" n="52"/>activum ipsum: aliud modus passivi, et
+<lb ed="#Ba" n="53"/>passivum ipsum. Gignere enim in 
+divi<lb break="no" ed="#Ba" n="54"/>nis non est agcre, licet habeat modum
+<lb ed="#Ba" n="55"/>activi quem attendit Grammaticus. 
+Si<lb break="no" ed="#Ba" n="56"/>militer gigni non est pati nisi 
+secun<lb break="no" ed="#Ba" n="57"/>dum modum grammaticalem : sed ad
+<lb ed="#Ba" n="58"/>tale pati quod est in modo significandi
+<lb ed="#Ba" n="59"/>tantum, sufficit principiatum esse 
+quo<lb break="no" ed="#Ba" n="60"/>cumque modo.
+</p>
+            <p xml:id="alalal-a43158-d1e243">
+               <lb ed="#Ba" n="61"/>Ad aliud dicendum, quod notic 
+com<lb break="no" ed="#Ba" n="62"/>parat potentiam ad actum, et conjungit
+<lb ed="#Ba" n="63"/>eam actui: et ideo non est mirum si
+<lb ed="#Ba" n="64"/>discrete tunc personis convenit: sed non
+<lb ed="#Ba" n="65"/>sic facit natura quae habet potentiam
+<lb ed="#Ba" n="66"/>quasi indistinclam: non enim distincta
+<lb ed="#Ba" n="67"/>est potentia nisi per actum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

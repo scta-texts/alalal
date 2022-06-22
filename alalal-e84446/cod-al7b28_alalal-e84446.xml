@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 20</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 20</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="440"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e84446"><!-- l3d23a20 -->
+            <head xml:id="alalal-e84446-Hd1e99">Articulus 20</head>
+            <head xml:id="alalal-e84446-Hd1e101" type="question-title">An fides sit fundamentum ?</head>
+            <p xml:id="alalal-e84446-d1e104">
+               <lb ed="Bd" n="58"/>ARTICULUS XX.
+<lb ed="Bd" n="59"/>An fides sit fundamentum ?
+</p>
+            <p xml:id="alalal-e84446-d1e111">
+               <lb ed="Bd" n="60"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="61"/>ibi, H, in fine <quote xml:id="alalal-e84446-Qd1e117"> Quia fundamentum est
+<lb ed="Bd" n="62"/>bonorum, quod nemo mutare potest.</quote>
+            </p>
+            <p xml:id="alalal-e84446-d1e123">
+               <lb ed="Bd" n="63"/>Videtur enim fides non esse 
+fundamen<lb break="no" ed="Bd" n="64"/>tum, sed fortitudo: quia
+<lb ed="Bd" n="65"/>1. Luc. xn, 4, super illud : <quote xml:id="alalal-e84446-Qd1e131">Dico vobis
+<lb ed="Bd" n="66"/>amicis meis : ne terreamini</quote>, etc., dicit
+<lb ed="Bd" n="67"/>Glossa : <quote xml:id="alalal-e84446-Qd1e139"> Fortitudo est fundamentum
+<lb ed="Bd" n="68"/>fidei. </quote>
+            </p>
+            <p xml:id="alalal-e84446-d1e146">
+               <lb ed="Bd" n="69"/>2. Item, Videtur quod humilitas est
+<lb ed="Bd" n="70"/>fundamentum : quia dicit B. Bernardus:
+<lb ed="Bd" n="71"/>
+               <quote xml:id="alalal-e84446-Qd1e154"> Pretiosus fundus humilitas, in qua
+<lb ed="Bd" n="72"/>fundantur cetere virtutes. </quote>
+            </p>
+            <p xml:id="alalal-e84446-d1e160">
+               <lb ed="Bd" n="73"/>3. Item, Videtur quod timor : Eccli.
+<lb ed="Bd" n="74"/>xxv, 14: <quote xml:id="alalal-e84446-Qd1e166">Timor Det super omnia se 
+su<lb break="no" ed="Bd" n="75"/>perposuit</quote>. Et, ibidem, ¥. 16: <quote xml:id="alalal-e84446-Qd1e171">Timor Dei
+<lb ed="Bd" n="76"/>initium dilectionis ejus</quote>.
+</p>
+            <p xml:id="alalal-e84446-d1e177">
+               <lb ed="Bd" n="77"/>4. Item, Augustinus : <quote xml:id="alalal-e84446-Qd1e181"> Timor 
+intro<lb break="no" ed="Bd" n="78"/>
+                  <quote xml:id="alalal-e84446-Qd1e185"> ducit charitatem, sicut seta filum. </quote>
+                  <lb ed="Bd" n="79"/>Ergo videtur primo fundare edificium. </quote>
+            </p>
+            <p xml:id="alalal-e84446-d1e191">
+               <lb ed="Bd" n="80"/>Solutio Dicendum, quod fides est
+<pb ed="#Bd" n="441"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>simpliciter prior et fundans. Alie autem
+<lb ed="Bd" n="2"/>non fundant nisi secundum quid : et hoc
+<lb ed="Bd" n="3"/>patet, quia humilitas est post fidem, sed
+<lb ed="Bd" n="4"/>concavum facit cor ut profundius fundetur
+<lb ed="Bd" n="5"/>quod jam per fidem fundamentum est, et
+<lb ed="Bd" n="6"/>ideo quasi parat fossam in qua fundatic
+<lb ed="Bd" n="7"/>fiat. Fortitudo autem fundat per modum
+<lb ed="Bd" n="8"/>fulcimenti contra eminentes tempestates
+</p>
+            <p xml:id="alalal-e84446-d1e217">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="9"/>tentationis et persecutionis. Sed timor
+<lb ed="Bd" n="10"/>fundat per exclusionem subvertentium
+<lb ed="Bd" n="11"/>edificii structuram, per hoc quod declinat
+<lb ed="Bd" n="12"/>a peccato. Fides autem sola per hoc quod
+<lb ed="Bd" n="13"/>subjicitur et substat substantialiter ut
+<lb ed="Bd" n="14"/>prima in aedificio.
+</p>
+            <p xml:id="alalal-e84446-d1e235">
+               <lb ed="Bd" n="15"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

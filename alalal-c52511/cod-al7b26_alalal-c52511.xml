@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="279"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c52511"><!-- l1d38a1 -->
+            <head xml:id="alalal-c52511-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-c52511-Hd1e101" type="question-title">An praescientia Dei sit causa rerum ?</head>
+            <p xml:id="alalal-c52511-d1e104">
+               <lb ed="#Bb" n="19"/>ARTICULUS I.
+<lb ed="#Bb" n="20"/>An praescientia Dei sit causa rerum ?
+</p>
+            <p xml:id="alalal-c52511-d1e111">
+               <lb ed="#Bb" n="21"/>Incidit autem hic dubium, Utrum 
+pre<lb break="no" ed="#Bb" n="22"/>scientia Dei sit causa rerum?
+</p>
+            <p xml:id="alalal-c52511-d1e118">
+               <lb ed="#Bb" n="23"/>Et videtur quod sic :
+<lb ed="#Bb" n="24"/>1. Quaecumque enim sic se habent,
+<lb ed="#Bb" n="25"/>quod unum antecedit aliud, et posito
+<lb ed="#Bb" n="26"/>ipso ponitur sequens, et sublato 
+aufer<lb break="no" ed="#Bb" n="27"/>tur: illa se habent ut causa et causatum :
+<lb ed="#Bb" n="28"/>prescientia Dei sic se habet ad hoc quod
+<lb ed="#Bb" n="29"/>scit quod est antecedens ad illud, et 
+po<lb break="no" ed="#Bb" n="30"/>sita ipsa ponitur res in futuro, et ablata
+<lb ed="#Bb" n="31"/>aufertur : ergo praescientia Dei est causa
+<lb ed="#Bb" n="32"/>rerum. Prima probatur inducendo in
+<lb ed="#Bb" n="33"/>omnibus.
+</p>
+            <p xml:id="alalal-c52511-d1e145">
+               <lb ed="#Bb" n="34"/>Si forte dicas, quod solvit hoc 
+Augu<lb break="no" ed="#Bb" n="35"/>stinus per exemplum memoriae preteri-—
+<lb ed="#Bb" n="36"/>torum : sequitur enim, si meministi 
+ali<lb break="no" ed="#Bb" n="37"/>cujus, quod illud necessario fuit : cum
+<lb ed="#Bb" n="38"/>tamen memoria tua non sit causa 
+preter<lb break="no" ed="#Bb" n="39"/>iti. Ista solutio nulla est : quia adhuc
+<lb ed="#Bb" n="40"/>illa se habent ut causa et causatum : sed
+<lb ed="#Bb" n="41"/>preteritum antecedit memoriam, et 
+cau<lb break="no" ed="#Bb" n="42"/>sat illam, et ideo tenet illa consequentia
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="43"/>ab effectu ad causam : sed praescientia
+<lb ed="#Bb" n="44"/>Dei penes res in futuro antecedit eas: .
+<lb ed="#Bb" n="45"/>ergo videtur, quod sit causa earum.
+</p>
+            <p xml:id="alalal-c52511-d1e176">
+               <lb ed="#Bb" n="46"/>2. Item, Futurorum omnium productio
+<lb ed="#Bb" n="47"/>spectat ad naturam large sumptam, ita
+<lb ed="#Bb" n="48"/>quod includat etiam causam per 
+acci<lb break="no" ed="#Bb" n="49"/>dens, quae est casus, vel propositum 
+lar<lb break="no" ed="#Bb" n="50"/>ge sumptum, et includat fortunam :
+<lb ed="#Bb" n="51"/>cum igitur natura nihil operetur, nisi
+<lb ed="#Bb" n="52"/>quod Deus immediatius operetur : nec
+<lb ed="#Bb" n="53"/>liberum arbitrium nisi Deus immediatius
+<lb ed="#Bb" n="54"/>operetur idem, erit Deus causa omnium
+<lb ed="#Bb" n="55"/>futurorum : non autem est causa per 
+ne<lb break="no" ed="#Bb" n="56"/>cessitatem naturae operans : ergo per
+<lb ed="#Bb" n="57"/>artem et scientiam : ergo scientia Dei est
+<lb ed="#Bb" n="58"/>causa omnium futurorum.
+</p>
+            <p xml:id="alalal-c52511-d1e207">
+               <lb ed="#Bb" n="59"/>3. Item, In artifice ita est, quod 
+scien<lb break="no" ed="#Bb" n="60"/>tia practica est causa operis : ergo etiam
+<lb ed="#Bb" n="61"/>in Deo erit ita.
+</p>
+            <p xml:id="alalal-c52511-d1e216">
+               <lb ed="#Bb" n="62"/>4. Item, Scit hoc futurum: ergo de
+<lb ed="#Bb" n="63"/>necessitate erit : aut sequitur, aut non.
+<lb ed="#Bb" n="64"/>Si non: ergo oppositum consequentis
+<lb ed="#Bb" n="65"/>verificari potest cum antecedente, scilicet
+<lb ed="#Bb" n="66"/>aliquid non esse futurum, quod tamen
+<lb ed="#Bb" n="67"/>Deus scivit esse futurum : quod non 
+pot<lb break="no" ed="#Bb" n="68"/>est esse : quia sicut dicit Boetius in 
+li<lb break="no" ed="#Bb" n="69"/>bro de Consolatione Philosophies, haec
+<lb ed="#Bb" n="70"/>non esset scientia de futuris, sed opinio
+<lb ed="#Bb" n="71"/>fallax : ergo videtur hoc sequi 
+necessa<lb break="no" ed="#Bb" n="72"/>rio.
+</p>
+            <p xml:id="alalal-c52511-d1e242">
+               <lb ed="#Bb" n="73"/>5. Si vero dicas illud verum esse de
+<lb ed="#Bb" n="74"/>necessitate consequentia, et non 
+conse<lb break="no" ed="#Bb" n="75"/>quentis. Hoc nihil videtur esse dictum :
+<lb ed="#Bb" n="76"/>quia nos videmus in omnibus in quibus
+<lb ed="#Bb" n="77"/>antecedens de natura sua conjunctum est
+<lb ed="#Bb" n="78"/>consequenti semper, et est necessarium
+<lb ed="#Bb" n="79"/>in se quod causat non necessitate 
+conse<lb break="no" ed="#Bb" n="80"/>quentia tantum, sed etiam consequentis :
+<lb ed="#Bb" n="81"/>sicut cum dicitur, si homo est, animal
+<lb ed="#Bb" n="82"/>est : sed verum est, quod ubi antecedens
+<lb ed="#Bb" n="83"/>in se contingens est, ibi non causatur
+<lb ed="#Bb" n="84"/>nisi necessitate consequentie. Istud 
+au<lb break="no" ed="#Bb" n="85"/>tem antecedens Deum prescire omnia
+<lb ed="#Bb" n="86"/>futura necessarium est in se, et semper
+<lb ed="#Bb" n="87"/>positum. Si ergo habitudo sui ad sequens
+<lb ed="#Bb" n="88"/>est necessaria, videtur consequens 
+habe<lb break="no" ed="#Bb" n="89"/>re necessitatem rei, et non habitudinis
+<lb ed="#Bb" n="90"/>tantum.
+</p>
+            <p xml:id="alalal-c52511-d1e284">
+               <lb ed="#Bb" n="91"/>6. Item, Ab omnibus conceditur, quod
+<pb ed="#Bb" n="280"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>quam habet Deus, nobilissima 
+scientia<lb break="no" ed="#Bb" n="2"/>rum, et dea scientiarum est, ut dicit 
+Phi<lb break="no" ed="#Bb" n="3"/>losophus : nobilissima autem scientiarum
+<lb ed="#Bb" n="4"/>est scientia per causam necessariam, et
+<lb ed="#Bb" n="5"/>precipue causam simplicissimam et 
+altis<lb break="no" ed="#Bb" n="6"/>simam, et quae scit ipse sciens ‘ ergo
+<lb ed="#Bb" n="7"/>Deus scit per illam : ergo sua scientia est
+<lb ed="#Bb" n="8"/>causa sciti: ergo sua scientia est causa
+<lb ed="#Bb" n="9"/>rei future.
+</p>
+            <p xml:id="alalal-c52511-d1e314">
+               <lb ed="#Bb" n="10"/>7. Item, Sicut se habet scitum ad
+<lb ed="#Bb" n="11"/>scientiam, ita futurum ad praescientiam :
+<lb ed="#Bb" n="12"/>sed scitum in ipsa causatur a scientia, ut
+<lb ed="#Bb" n="13"/>supra habitum est in Littera : precipue
+<lb ed="#Bb" n="14"/>quod est scitum per se, sicut 
+quodcum<lb break="no" ed="#Bb" n="15"/>que quod non est malum : ergo futurum
+<lb ed="#Bb" n="16"/>se habet hoc modo ad praescientiam :
+<lb ed="#Bb" n="17"/>ergo futurum causatur a praescientia
+<lb ed="#Bb" n="18"/>sua.
+</p>
+            <p xml:id="alalal-c52511-d1e336">
+               <lb ed="#Bb" n="19"/>8. Item, Videtur nihil valere instantia
+<lb ed="#Bb" n="20"/>quam ponit Magister de malis, quia 
+ma<lb break="no" ed="#Bb" n="21"/>lorum scientia non est per causam 
+pro<lb break="no" ed="#Bb" n="22"/>priam : malum enim non habet causam
+<lb ed="#Bb" n="23"/>et reducitur ad causam per accidens in
+<lb ed="#Bb" n="24"/>hoc quod scitur per causam habitus :
+<lb ed="#Bb" n="25"/>sicut dicimus medicum scire 
+egritudi<lb break="no" ed="#Bb" n="26"/>nem : ergo videtur, cum scientia Dei sit
+<lb ed="#Bb" n="27"/>scientia omnium habituum futurorum et
+<lb ed="#Bb" n="28"/>scientia per causam, quod debeat 
+conce<lb break="no" ed="#Bb" n="29"/>di quod sua scientia sit causa omnium,
+<lb ed="#Bb" n="30"/>licet non eodem modo, ut videtur.
+</p>
+            <p xml:id="alalal-c52511-d1e365">
+               <lb ed="#Bb" n="31"/>9. Item, Omnis scientia aut est per
+<lb ed="#Bb" n="32"/>causam, aut per effectum, aut per 
+si<lb break="no" ed="#Bb" n="33"/>gnum. Si autem per signum : tune facit
+<lb ed="#Bb" n="34"/>opinionem fallibilem, et ut dicit Boetius,
+<lb ed="#Bb" n="35"/>hanc nefas est in Deo ponere. Aut ergo
+<lb ed="#Bb" n="36"/>erit per causam, aut per effectum. Non
+<lb ed="#Bb" n="37"/>autem per effectum : quia Deus scit per
+<lb ed="#Bb" n="38"/>seipsum, et ipse non est effectus alicujus
+<lb ed="#Bb" n="39"/>sciti : relinquitur igitur, quod sit per
+<lb ed="#Bb" n="40"/>causam. Non autem est causa nisi 
+re<lb break="no" ed="#Bb" n="41"/>spectu sciti : ergo prascientia Dei directe
+<lb ed="#Bb" n="42"/>dicetur causa rei future.
+</p>
+            <p xml:id="alalal-c52511-d1e394">
+               <lb ed="#Bb" n="43"/>SED CONTRA :
+<lb ed="#Bb" n="44"/>1. Detur, quod sit causa : aut erit 
+mu<lb break="no" ed="#Bb" n="45"/>tabilis, aut immutabilis. Si immutabilis
+<lb ed="#Bb" n="46"/>in causando, sequetur quod omne 
+cau<lb break="no" ed="#Bb" n="47"/>satum ab ipsa immutabiliter eveniat : et
+<lb ed="#Bb" n="48"/>sic omne contingens necessarium erit,
+<lb ed="#Bb" n="49"/>quod falsum est.
+</p>
+            <p xml:id="alalal-c52511-d1e412">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="50"/>2. Item, Scit se posse facere que
+<lb ed="#Bb" n="51"/>numquam faciet : ergo sua scientia non
+<lb ed="#Bb" n="52"/>est causa necessaria rerum.
+</p>
+            <p xml:id="alalal-c52511-d1e423">
+               <lb ed="#Bb" n="53"/>3. Fortius objicitur sic : Nihil 
+prece<lb break="no" ed="#Bb" n="54"/>dens aliud, nullam de suis proprietatibus
+<lb ed="#Bb" n="55"/>ponens circa illud, est causa illius : 
+pre<lb break="no" ed="#Bb" n="56"/>scientia Dei precedit res futuras, ita quod
+<lb ed="#Bb" n="57"/>nullam de proprietatibus suis ponat circa
+<lb ed="#Bb" n="58"/>futura : ergo non est causa necessaria
+<lb ed="#Bb" n="59"/>futurorum in quantum futura sunt. 
+Pro<lb break="no" ed="#Bb" n="60"/>batur autem prima per hoc quod a 
+ne<lb break="no" ed="#Bb" n="61"/>cessaria causa est necessarius effectus, et
+<lb ed="#Bb" n="62"/>a contingente contingens : et sic 
+necessi<lb break="no" ed="#Bb" n="63"/>tas et contingentia ponuntur circa. 
+effe<lb break="no" ed="#Bb" n="64"/>ctum a causa. Secunda probatur ex hoc.
+<lb ed="#Bb" n="65"/>quod praescientiae est aeternum esse et
+<lb ed="#Bb" n="66"/>immutabile et intemporale : et omnes
+<lb ed="#Bb" n="67"/>oppositas dispositiones circa effectus 
+re<lb break="no" ed="#Bb" n="68"/>rum futurarum nos videmus.
+</p>
+            <p xml:id="alalal-c52511-d1e461">
+               <lb ed="#Bb" n="69"/>Solutio. Sine prajudicio dico, quod
+<lb ed="#Bb" n="70"/>preescientia sicut etiam scientia Dei, 
+cau<lb break="no" ed="#Bb" n="71"/>sa est quarumdam rerum futurarum, et
+<lb ed="#Bb" n="72"/>non est causa quarumdam. Non enim
+<lb ed="#Bb" n="73"/>placet mihi solutio quorumdam 
+dicen<lb break="no" ed="#Bb" n="74"/>tium, quod scientia Dei non est causa
+<lb ed="#Bb" n="75"/>aliquorum : quia scientia Dei potest esse
+<lb ed="#Bb" n="76"/>duplex, scilicet simplicis notitia, et 
+ap<lb break="no" ed="#Bb" n="77"/>probationis : quia simplex notitia non
+<lb ed="#Bb" n="78"/>dicit ordinem ad futurum,'secundum quod
+<lb ed="#Bb" n="79"/>est de his quae possunt esse, sed non
+<lb ed="#Bb" n="80"/>erunt : et ideo respectu illorum non 
+pot<lb break="no" ed="#Bb" n="81"/>est sumi prascientia. Hic autem magis
+<lb ed="#Bb" n="82"/>queritur, si praescientia est causa, quam
+<lb ed="#Bb" n="83"/>si scientia est causa ? Unde videtur 
+mi<lb break="no" ed="#Bb" n="84"/>hi, quod quorumdam sit causa, et 
+quo<lb break="no" ed="#Bb" n="85"/>rumdam non : ad omnia tamen habet
+<lb ed="#Bb" n="86"/>ordinem antecessionis et certitudinis, ut
+<lb ed="#Bb" n="87"/>infra patebit : sicut enim dicit 
+Augusti<lb break="no" ed="#Bb" n="88"/>nus, Omnium quae naturaliter sunt et
+<lb ed="#Bb" n="89"/>naturam servant et non vitiant, 
+prescien<lb break="no" ed="#Bb" n="90"/>tia causa operativa et productiva est :
+<lb ed="#Bb" n="91"/>malorum autem non est causa : sed 
+ta<lb break="no" ed="#Bb" n="92"/>men preordinat et previdet ea : sed hoc
+<lb ed="#Bb" n="93"/>verum est, quod necessarium et 
+contin<lb break="no" ed="#Bb" n="94"/>gens absolutum sive rei in nullo 
+causa<lb break="no" ed="#Bb" n="95"/>tur ex illa, sed potius ex causis proximis,
+<lb ed="#Bb" n="96"/>quarum dispositiones sequitur effectus,
+<pb ed="#Bb" n="281"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>eo quod ille causae per essentiam sunt in
+<lb ed="#Bb" n="2"/>effectu.
+</p>
+            <p xml:id="alalal-c52511-d1e533">
+               <lb ed="#Bb" n="3"/>Si autem queritur, Utrum 
+preescien<lb break="no" ed="#Bb" n="4"/>tia Dei universaliter sit causa futurorum?
+<lb ed="#Bb" n="5"/>bene concedo cum alus, quoniam 
+futu<lb break="no" ed="#Bb" n="6"/>rasunt mala, quorum praescientia Dei
+<lb ed="#Bb" n="7"/>causa non est : sicut nec ars vitii contra
+<lb ed="#Bb" n="8"/>artem, quod tamen ars prescit et 
+cor<lb break="no" ed="#Bb" n="9"/>rigit. Sic ergo intellecta questione,
+<lb ed="#Bb" n="10"/>utrum universaliter sit causa futurorum
+<lb ed="#Bb" n="11"/>responderi potest objectis.
+</p>
+            <p xml:id="alalal-c52511-d1e555">
+               <lb ed="#Bb" n="12"/>Ad primum dicendo, quod procedit a
+<lb ed="#Bb" n="13"/>diminutione eorum quae ad causam rei
+<lb ed="#Bb" n="14"/>exiguntur : exigitur enim antecessio 
+tem<lb break="no" ed="#Bb" n="15"/>pore vel duratione, vel ordine nature:
+<lb ed="#Bb" n="16"/>et exigitur habitudo unius ad alterum,
+<lb ed="#Bb" n="17"/>et exigitur efficientia sive constitutio
+<lb ed="#Bb" n="18"/>sequentis per causalitatem preecedentis :
+<lb ed="#Bb" n="19"/>et illud ultimum deficit in praescientia et
+<lb ed="#Bb" n="20"/>prescito. Et instantia est, quod si ponas
+<lb ed="#Bb" n="21"/>me scire futura contingentia : sequitur
+<lb ed="#Bb" n="22"/>enim : Si scio futurum, illud erit : quia
+<lb ed="#Bb" n="23"/>aliler meum scire non esset scire, sed
+<lb ed="#Bb" n="24"/>opinari: et tunc mea scientia antecedit
+<lb ed="#Bb" n="25"/>et habet ordinem ad illud quod infertur
+<lb ed="#Bb" n="26"/>ex illa : et tamen nonomnino erit causa,
+<lb ed="#Bb" n="27"/>sed potius causatur ab alia causa que
+<lb ed="#Bb" n="28"/>est liberum arbitrium. Et similiter 
+pre<lb break="no" ed="#Bb" n="29"/>scientia a nullo quod sub ipsa operatur,
+<lb ed="#Bb" n="30"/>tollit rationem causandi : et ideo aliquid
+<lb ed="#Bb" n="31"/>fit ab his quae sub praescientia 
+operan<lb break="no" ed="#Bb" n="32"/>tur, quod non fit ab ipsa.
+</p>
+            <p xml:id="alalal-c52511-d1e603">
+               <lb ed="#Bb" n="33"/>Ad aliud dicendum, quod nihil 
+exi<lb break="no" ed="#Bb" n="34"/>stens potest fieri in futuro cujus Deus non
+<lb ed="#Bb" n="35"/>sit causa et preescius: sed defectus 
+ali<lb break="no" ed="#Bb" n="36"/>quis ut malum, potest incidere in futuro
+<lb ed="#Bb" n="37"/>cujus quidem ipse est prescius, et non
+<lb ed="#Bb" n="38"/>causa, eo quod incidit ex defectu causxe
+<lb ed="#Bb" n="39"/>secunde, et non sui, sicut sepius supra
+<lb ed="#Bb" n="40"/>dictum est.
+</p>
+            <p xml:id="alalal-c52511-d1e623">
+               <lb ed="#Bb" n="41"/>Ad aliud dicendum, quod etiam in
+<lb ed="#Bb" n="42"/>arte ars non est causa vitii, sed potest
+<lb ed="#Bb" n="43"/>preenoscere ipsum: sicut ars operans in
+<lb ed="#Bb" n="44"/>ligno nodoso, scit quod non obedit 
+li<lb break="no" ed="#Bb" n="45"/>gnum-pulchritudini imaginis 
+imprimen<lb break="no" ed="#Bb" n="46"/>deze : et tamen non facit defectum illum,
+<lb ed="#Bb" n="47"/>sed accidit ex defectu ligni. Sed pro
+<lb ed="#Bb" n="48"/>tanto est differentia, quod in potestate
+<lb ed="#Bb" n="49"/>liberi arbitrii est permanere in defectu,
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="50"/>vel obedire artifici in perfectam 
+pulchri<lb break="no" ed="#Bb" n="51"/>tudinem : et ideo scientia divina 
+utrum<lb break="no" ed="#Bb" n="52"/>que prenovit, sed alterum tantum facit.
+</p>
+            <p xml:id="alalal-c52511-d1e654">
+               <lb ed="#Bb" n="53"/>Ad aliud dicendum, quod cum dicis,
+<lb ed="#Bb" n="54"/>Deus scit hoc vel prescit : ergo de 
+ne<lb break="no" ed="#Bb" n="55"/>cessitate erit : dico quod si est 
+necessi<lb break="no" ed="#Bb" n="56"/>tas consequentiae,  bene sequitur propter
+<lb ed="#Bb" n="57"/>ordinem praescientiae ad prescitum Si
+<lb ed="#Bb" n="58"/>autem est consequentia necessitatis vel
+<lb ed="#Bb" n="59"/>consequentis vel rei, quod idem est :
+<lb ed="#Bb" n="60"/>dico quod non sequitur, nec in bono 
+cu<lb break="no" ed="#Bb" n="61"/>jus preescientia est causa, nec in malo
+<lb ed="#Bb" n="62"/>cujus non est causa.
+</p>
+            <p xml:id="alalal-c52511-d1e679">
+               <lb ed="#Bb" n="63"/>Ad hoc autem quod objicitur, quod
+<lb ed="#Bb" n="64"/>antecedens est necessarium necessitate
+<lb ed="#Bb" n="65"/>rei, et non positionis tantum, possemus
+<lb ed="#Bb" n="66"/>dicere quod cum dicitur, Deus prescit
+<lb ed="#Bb" n="67"/>hoc, quod haec propositio ex parte 
+pre<lb break="no" ed="#Bb" n="68"/>sciti adhuc pendet ex futuro: et ideo non
+<lb ed="#Bb" n="69"/>omnia accipit in praesciente tantum, et
+<lb ed="#Bb" n="70"/>ideo oportet ipsam habere necessitatem
+<lb ed="#Bb" n="71"/>positionis, ut scilicet illud sit futurum
+<lb ed="#Bb" n="72"/>quod prescit : et ita dicunt communiter
+<lb ed="#Bb" n="73"/>omnes Doctores : et ideo falsum_ est
+<lb ed="#Bb" n="74"/>quod ponitur pro vero. Si tamen aliter
+<lb ed="#Bb" n="75"/>vellemus dicere, possemus concedere,
+<lb ed="#Bb" n="76"/>quod haec antecedens est necessarium
+<lb ed="#Bb" n="77"/>in se, Deus prescit quod est futurum :
+<lb ed="#Bb" n="78"/>et tamen in consequente non causatur
+<lb ed="#Bb" n="79"/>nisi necessitas-consecutionis, et non rei:
+<lb ed="#Bb" n="80"/>et hoc ideo, quia quando consequens
+<lb ed="#Bb" n="81"/>causatur ab antecedente, ita ut det ei
+<lb ed="#Bb" n="82"/>causam rei et necessitatem, oportet
+<lb ed="#Bb" n="83"/>ipsum habere non solum ordinem 
+neces<lb break="no" ed="#Bb" n="84"/>sarium adipsum, sed etiam dare ei esse
+<lb ed="#Bb" n="85"/>et proprietates et disposiliones suas: ect
+<lb ed="#Bb" n="86"/>hoc non facit causa prima alicui 
+causa<lb break="no" ed="#Bb" n="87"/>to : et hoc contingit duabus de causis:
+<lb ed="#Bb" n="88"/>quarum prima est, quia causatum 
+nul<lb break="no" ed="#Bb" n="89"/>lum potest suscipere proprietates caus
+<lb ed="#Bb" n="90"/>prime propter infinitam ejus distantiam
+<lb ed="#Bb" n="91"/>et nobilitatem super omne causatum.
+<lb ed="#Bb" n="92"/>Alia causa est : quia illa causata 
+con<lb break="no" ed="#Bb" n="93"/>tingentia essentialiter a quibusdam 
+cau<lb break="no" ed="#Bb" n="94"/>sis proximis contingentibus causantur,
+<lb ed="#Bb" n="95"/>a quibus modum causalitatis non tollit
+<lb ed="#Bb" n="96"/>causa prima per suam influentiam super
+<lb ed="#Bb" n="97"/>causatum, et ideo in illo non sequitur,
+<lb ed="#Bb" n="98"/>quod si causa hujus effectus est necessa-
+<pb ed="#Bb" n="282"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>ria, quod effectus est necessarius et 
+im<lb break="no" ed="#Bb" n="2"/>mutabilis. Et est simile ut si accessus
+<lb ed="#Bb" n="3"/>solis in obliquo circulo est causa 
+neces<lb break="no" ed="#Bb" n="4"/>saria generationis, non tamen necessa—
+<lb ed="#Bb" n="5"/>rium est generationem fieri : quia potest
+<lb ed="#Bb" n="6"/>esse impedimentum ex parte 
+proxima<lb break="no" ed="#Bb" n="7"/>rum causarum, sicut in loco perpetue
+<lb ed="#Bb" n="8"/>frigiditatis : et ideo dicit Philosophus
+<lb ed="#Bb" n="9"/>quoad has causas non proximas, quod
+<lb ed="#Bb" n="10"/>futurus quis incedere non incedet, et
+<lb ed="#Bb" n="11"/>Ptolemeus in Centilogio, quod sapiens
+<lb ed="#Bb" n="12"/>homo dominabitur astris : quia 
+contra<lb break="no" ed="#Bb" n="13"/>riis dispositionibus disponuntur cause
+<lb ed="#Bb" n="14"/>proxime : et ideo patet quod causa 
+pri<lb break="no" ed="#Bb" n="15"/>ma non ponit necessitatem absolutam,
+<lb ed="#Bb" n="16"/>sed ordinis : vel non consequentis, sed
+<lb ed="#Bb" n="17"/>consequentiae per previsionem.
+</p>
+            <p xml:id="alalal-c52511-d1e801">
+               <lb ed="#Bb" n="18"/>Ad alia duo potest absolute concedi,
+<lb ed="#Bb" n="19"/>quod prescitum quod naturaliter est,
+<lb ed="#Bb" n="20"/>causatur illo modo causalitatis qui dictus
+<lb ed="#Bb" n="21"/>est, a praescientia.
+</p>
+            <p xml:id="alalal-c52511-d1e812">
+               <lb ed="#Bb" n="22"/>Ad aliud dicendum, quod instantia
+<lb ed="#Bb" n="23"/>Magistri bona est, eo quod supra 
+proba<lb break="no" ed="#Bb" n="24"/>tum est, quod Deus non scit malum nisi
+<lb ed="#Bb" n="25"/>scientia speculativa : et ideo non 
+reduci<lb break="no" ed="#Bb" n="26"/>tur ad habitum qui privetur in ipso Deo,
+<lb ed="#Bb" n="27"/>sed potius qui privetur in causa que
+<lb ed="#Bb" n="28"/>est hberum arbitrium et actus malus,
+<lb ed="#Bb" n="29"/>cujus sic conjunctim Deus non est 
+cau<lb break="no" ed="#Bb" n="30"/>sa: et ideo nullam Deus efficientiam
+<lb ed="#Bb" n="31"/>habet ad malum : sed a longe videt per
+<lb ed="#Bb" n="32"/>accidens, sicut privatio videtur : et 
+ve<lb break="no" ed="#Bb" n="33"/>rum est, quod hoc modo per causam in
+<lb ed="#Bb" n="34"/>actu deficientem cognoscitur : sed hec
+<lb ed="#Bb" n="35"/>non est Deus, sed potius liberum 
+arbi<lb break="no" ed="#Bb" n="36"/>trium : sed liberum abitrium sic in actu
+<lb ed="#Bb" n="37"/>deficiens cognoscit Deus per seipsum.
+</p>
+            <p xml:id="alalal-c52511-d1e849">
+               <lb ed="#Bb" n="38"/>Ad aliud dicendum, quod scientia Dei
+<lb ed="#Bb" n="39"/>est per causam quae est ipse : sed non
+<lb ed="#Bb" n="40"/>oportet propter hoc, quod ipsa sit sciti
+<lb ed="#Bb" n="41"/>causa : quia scitum non habet causam
+<lb ed="#Bb" n="42"/>quandoque nisi deficientem, ut sepe 
+di<lb break="no" ed="#Bb" n="43"/>cium est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

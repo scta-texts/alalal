@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="166"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c30744"><!-- l1d34a2 -->
+            <head xml:id="alalal-c30744-Hd1e99">Articulus 2</head>
+            <p xml:id="alalal-c30744-d1e101">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="10"/>ARTICULUS II.
+    <lb ed="#Bb" n="11"/>Uirum persona differat a natura 
+secun<lb break="no" ed="#Bb" n="12"/>dum intelligentiae rationem ?
+</p>
+            <p xml:id="alalal-c30744-d1e112">
+               <lb ed="#Bb" n="13"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Bb" n="14"/>ibi, D, circa medium : <quote xml:id="alalal-c30744-Qd1e118"> Non tamen 
+dif<lb break="no" ed="#Bb" n="15"/>fitemur aliquam distinctionem habendam
+<lb ed="#Bb" n="16"/>fore per intelligentiae rationem. etc. </quote>
+            </p>
+            <p xml:id="alalal-c30744-d1e126">
+               <lb ed="#Bb" n="17"/>Aut enim aliquid subest huic 
+intelli<lb break="no" ed="#Bb" n="18"/>gentiae rationi, aut nihil. Si nihil: tune
+<lb ed="#Bb" n="19"/>erit cassa et vana. Si aliquid tunc est 
+dif<lb break="no" ed="#Bb" n="20"/>ferentia secundum rem, et non secundum
+<lb ed="#Bb" n="21"/>rationem tantum.
+
+<lb ed="#Bb" n="22"/>Ad Hoc dicendum, quod aliquid re-
+<cb ed="#Bb" n="c"/>
+               <lb ed="#Bb" n="23"/>spondet in re. Unde notandum, quod in
+<lb ed="#Bb" n="24"/>inferioribus cum natura communis est in
+<lb ed="#Bb" n="25"/>supposito, dupliciter significatur 
+secun<lb break="no" ed="#Bb" n="26"/>dum rem, scilicet ut diversa quando
+<lb ed="#Bb" n="27"/>dicitur, natura est simplex, et Socrates
+<lb ed="#Bb" n="28"/>est compositus : et significatur ut aliquid
+<lb ed="#Bb" n="29"/>sibi conveniens quod non convenit 
+So<lb break="no" ed="#Bb" n="30"/>crati, ut cum dicitur, quod praedicatur de
+<lb ed="#Bb" n="31"/>pluribus, Socrates autem de uno vel de
+<lb ed="#Bb" n="32"/>nullo. In divinis autem natura non 
+pot<lb break="no" ed="#Bb" n="33"/>est significari ut diversa a persona, quia
+<lb ed="#Bb" n="34"/>idem est: tamen realiter aliquid 
+conve<lb break="no" ed="#Bb" n="35"/>nit ei, quod non convenit persone, et e
+<lb ed="#Bb" n="36"/>converso : et ideo dicunt Doctores, quod
+<lb ed="#Bb" n="37"/>supposita natura, non supponitur 
+perso<lb break="no" ed="#Bb" n="38"/>na, et super illud fundatur intelligentia
+<lb ed="#Bb" n="39"/>ratio.
+</p>
+            <p xml:id="alalal-c30744-d1e181">
+               <lb ed="#Bb" n="40"/>Et nota, quod ab hoc loco trahitur
+<lb ed="#Bb" n="41"/>ilud multum vulgatum, quod 
+distingui<lb break="no" ed="#Bb" n="42"/>tur secundum intelligentiae rationem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

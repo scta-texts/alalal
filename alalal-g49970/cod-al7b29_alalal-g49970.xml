@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="249"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g49970"><!-- l4d10a3 -->
+            <head xml:id="alalal-g49970-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-g49970-Hd1e101" type="question-title">An hoc verum sit quod dicit Magister,
+Ipsum quidem, et non ipsum corpus
+quod videbatur, manducatur ?</head>
+            <p xml:id="alalal-g49970-d1e104">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="11"/>ARTICULUS III.
+<lb ed="#Be" n="12"/>An hoc verum sit quod dicit Magister,
+<lb ed="#Be" n="13"/>Ipsum quidem, et non ipsum corpus
+<lb ed="#Be" n="14"/>quod videbatur, manducatur ?
+</p>
+            <p xml:id="alalal-g49970-d1e117">
+               <lb ed="#Be" n="15"/>Deinde queritur de hoc quod dicit in
+<lb ed="#Be" n="16"/>sequenti capitulo, B, circa initium
+<lb ed="#Be" n="17"/>
+               <quote xml:id="alalal-g49970-Qd1e125"> Ipsum quidem, et non ipsum corpus
+<lb ed="#Be" n="18"/>quod videbatur, manducatur, etc. </quote>
+            </p>
+            <p xml:id="alalal-g49970-d1e131">
+               <lb ed="#Be" n="19"/>Secundum enim hance Litteram duo
+<lb ed="#Be" n="20"/>contradictoria videntur poni circa idem,
+<lb ed="#Be" n="21"/>cum ly ipsum in singulari demonstrat
+<lb ed="#Be" n="22"/>corpus, scilicet quod manducabatur, et
+<lb ed="#Be" n="23"/>non manducabatur. Hoc autem videtur
+<lb ed="#Be" n="24"/>inconveniens : quia
+</p>
+            <p xml:id="alalal-g49970-d1e148">
+               <lb ed="#Be" n="25"/>1. Contradictio est oppositio cujus non
+<lb ed="#Be" n="26"/>est medium secundum se : et necesse 
+se<lb break="no" ed="#Be" n="27"/>cundum alteram esse falsam, et alteram
+<lb ed="#Be" n="28"/>veram.
+</p>
+            <p xml:id="alalal-g49970-d1e159">
+               <lb ed="#Be" n="29"/>Sidicas, quod non sunt 
+contradicto<lb break="no" ed="#Be" n="30"/>riz: quia respectu diversarum 
+forma<lb break="no" ed="#Be" n="31"/>rum non est inconveniens idem numero
+<lb ed="#Be" n="32"/>corpus manducari et non manducari :
+<lb ed="#Be" n="33"/>videtur, quod hoc nihil sit : quia 
+que<lb break="no" ed="#Be" n="34"/>dam forme et actus et passiones conve-
+<cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="35"/>niunt absolute secundum substantiam
+<lb ed="#Be" n="36"/>rei cujus sunt : quaedam autem sunt 
+re<lb break="no" ed="#Be" n="37"/>lative. Verbi gratia, albedo est forma
+<lb ed="#Be" n="38"/>absoluta, et inest albo, sive compareitur
+<lb ed="#Be" n="39"/>ad aliud, sive non : similitude autem est
+<lb ed="#Be" n="40"/>forma respectiva : érgo non inest nisi
+<lb ed="#Be" n="41"/>secundum comparationem ad aliud: et
+<lb ed="#Be" n="42"/>in his quae conveniunt absolute, semper
+<lb ed="#Be" n="43"/>insistunt, et respectu omnium insunt :
+<lb ed="#Be" n="44"/>de sic autem convenientibus est 
+come<lb break="no" ed="#Be" n="45"/>stio corporis : ergo si corporis est ut sit
+<lb ed="#Be" n="46"/>comestum vel comedatur, convenit ei et
+<lb ed="#Be" n="47"/>in forma panis et in forma humana, ut
+<lb ed="#Be" n="48"/>comedatur, et numquam convenit ei non
+<lb ed="#Be" n="49"/>comedi.
+</p>
+            <p xml:id="alalal-g49970-d1e209">
+               <lb ed="#Be" n="50"/>2. Item, Philosophus in I de 
+Genera<lb break="no" ed="#Be" n="51"/>tione et corruptione, capitulo de 
+augmen<lb break="no" ed="#Be" n="52"/>to, vult quod nihil nutrit nist secundum
+<lb ed="#Be" n="53"/>id quod est substantia, et auget 
+secun<lb break="no" ed="#Be" n="54"/>dum id quod est substantia quanta: si
+<lb ed="#Be" n="55"/>ergo corpus Christi verissime nutrit et
+<lb ed="#Be" n="56"/>verius quam cibus carnalis, ipsum per
+<lb ed="#Be" n="57"/>substantiam comeditur quod autem
+<lb ed="#Be" n="58"/>secundum substantiam comeditur, 
+sim<lb break="no" ed="#Be" n="59"/>pliciter comeditur : ergo de ipso non
+<lb ed="#Be" n="60"/>contingit vere dici, quod uno modo
+<lb ed="#Be" n="61"/>comeditur, et alio non: etsic iterum
+<lb ed="#Be" n="62"/>nihil est quod dicitur in Leétera.
+</p>
+            <p xml:id="alalal-g49970-d1e240">
+               <lb ed="#Be" n="63"/>3. Item, Gustus secundum quod est
+<lb ed="#Be" n="64"/>sensus alimenti etiam quidam tactus est,
+<lb ed="#Be" n="65"/>ut dicit Philosophus : ergo non accipit
+<lb ed="#Be" n="66"/>speciem nisicum tactu substantic quae
+<pb ed="#Be" n="250"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>disponitur specie illa: ergo nihil est 
+di<lb break="no" ed="#Be" n="2"/>ctum, quod secundum unam formam
+<lb ed="#Be" n="3"/>comedatur aliquid, et secundum aliam
+<lb ed="#Be" n="4"/>non: quia nihil comeditur nisi secundum
+<lb ed="#Be" n="5"/>suam substantiam.
+</p>
+            <p xml:id="alalal-g49970-d1e266">
+               <lb ed="#Be" n="6"/>Sonunio. Dieendum, quod in veritate
+<lb ed="#Be" n="7"/>Augustinus accipit hic comestionem pro
+<lb ed="#Be" n="8"/>comestione sacramentali, in qua sunt
+<lb ed="#Be" n="9"/>duo, scilicet divisio specierum per 
+masti<lb break="no" ed="#Be" n="10"/>cationem et fractionem, et incorporatio
+<lb ed="#Be" n="11"/>cibantis quae fit in cibo, scilicet capiti
+<lb ed="#Be" n="12"/>Christo. Et vult Augustinus, quod 
+con<lb break="no" ed="#Be" n="13"/>junctim utrumque simul non potest 
+re<lb break="no" ed="#Be" n="14"/>ferri ad corpus quod videbatur a 
+disci<lb break="no" ed="#Be" n="15"/>pulis in propria forma : et sic verificatur
+<lb ed="#Be" n="16"/>quod dicit, non ipsum visibiliter : sed
+<lb ed="#Be" n="17"/>utrumque verificatur in eo in quo est
+<lb ed="#Be" n="18"/>invisibiliter, scilicet in quo non videtur
+<lb ed="#Be" n="19"/>in forma propria : quia ibi fractio et 
+di<lb break="no" ed="#Be" n="20"/>visio referuntur ad speciem panis, et 
+in<lb break="no" ed="#Be" n="21"/>corporatio ad virtutem corporis: et hoc
+<lb ed="#Be" n="22"/>est quod dicit ipsum manducare 
+invisi<lb break="no" ed="#Be" n="23"/>biliter.
+</p>
+            <p xml:id="alalal-g49970-d1e308">
+               <lb ed="#Be" n="24"/>Ad id ergo guod contra objicitur, 
+di<lb break="no" ed="#Be" n="25"/>cendum quod licet comedere cadat super
+<lb ed="#Be" n="26"/>corpus Christi absolute acceptum, tamen
+<lb ed="#Be" n="27"/>secundum quod plura importat ly 
+come<lb break="no" ed="#Be" n="28"/>dere, quae non conveniunt corpori gratia
+<lb ed="#Be" n="29"/>unius quod est in ipso, sed gratia 
+diver<lb break="no" ed="#Be" n="30"/>sorum : sicut divisio et fractio ex parte
+<lb ed="#Be" n="31"/>una, et unio sive incorporatio ex parte
+<lb ed="#Be" n="32"/>alia: sic bene potest ei attribui comedi
+<lb ed="#Be" n="33"/>secundum unum modum, et non comedi
+<lb ed="#Be" n="34"/>secundum alium modum : quia non tota
+<lb ed="#Be" n="35"/>ratio comestionis sacramentalis est in
+<lb ed="#Be" n="36"/>corpore secundum substantiam corporis :
+<lb ed="#Be" n="37"/>sed quiddam quod est de ratione 
+come<lb break="no" ed="#Be" n="38"/>stionis, est citra species panis et vini:
+<lb ed="#Be" n="39"/>ideo non contradicunt : sed si utrumque
+<lb ed="#Be" n="40"/>respiceret corporis substantiam absolute,
+<lb ed="#Be" n="41"/>tunc videretur concedendum, quod 
+om<lb break="no" ed="#Be" n="42"/>nibus modis comederetur.
+</p>
+            <p xml:id="alalal-g49970-d1e353">
+               <lb ed="#Be" n="43"/>Ad aliud dicendum, quod corpus 
+qui<lb break="no" ed="#Be" n="44"/>dem nutrit nos secundum substantiam,
+<lb ed="#Be" n="45"/>et non secundum accidentia : secundum
+<lb ed="#Be" n="46"/>substantiam dico unitam divinitati : sed
+<lb ed="#Be" n="47"/>illud nutrimentum est secundum alterum
+<lb ed="#Be" n="48"/>tantum quod est in ratione comestionis,
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="49"/>et non secundum id quod est masticatio
+<lb ed="#Be" n="50"/>et divisio et fractio quadam cibi: et 
+se<lb break="no" ed="#Be" n="51"/>cundum hoc bene conceditur, quod 
+cor<lb break="no" ed="#Be" n="52"/>pus Christi existens in forma humana
+<lb ed="#Be" n="53"/>nutrit, licet non sic exhibeatur in 
+sacra<lb break="no" ed="#Be" n="54"/>mento, quod actus masticationis sit 
+su<lb break="no" ed="#Be" n="55"/>per speciem humanam.
+</p>
+            <p xml:id="alalal-g49970-d1e386">
+               <lb ed="#Be" n="56"/>Ad aliud dicendum, quod non est ita
+<lb ed="#Be" n="57"/>in hoc sacramento : quia accidentia 
+ha<lb break="no" ed="#Be" n="58"/>bent hic virtutem quamdam substantiae
+<lb ed="#Be" n="59"/>in hoc quod sunt sine subjecto, et 
+nu<lb break="no" ed="#Be" n="60"/>triunt corpora, et corrumpuntur, et 
+con<lb break="no" ed="#Be" n="61"/>vertuntur : et de hoc infra erit questio :
+<lb ed="#Be" n="62"/>et ideo cum hic sit alimentum in solum
+<lb ed="#Be" n="63"/>accidentibus, non spirituale, sed 
+corpo<lb break="no" ed="#Be" n="64"/>rale, sufficit gustui tactus accidentium
+<lb ed="#Be" n="65"/>tantum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

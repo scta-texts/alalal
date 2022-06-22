@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="158"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c29565"><!-- l1d33a9 -->
+            <head xml:id="alalal-c29565-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-c29565-Hd1e101" type="question-title">Quomodo accipiantur haec verba 
+Augustini, Non quo Pater est, substantia
+est.</head>
+            <p xml:id="alalal-c29565-d1e104">
+               <pb ed="#Bb" n="158"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>ARTICULUS 1X.
+<lb ed="#Bb" n="2"/>Quomodo accipiantur haec verba 
+Augu<lb break="no" ed="#Bb" n="3"/>stini, Non quo Pater est, substantia
+<lb ed="#Bb" n="4"/>est.
+</p>
+            <p xml:id="alalal-c29565-d1e120">
+               <lb ed="#Bb" n="5"/>Deinde nota circa ultimam solutionem
+<lb ed="#Bb" n="6"/>qua magister solvit auctoritatem 
+Augu<lb break="no" ed="#Bb" n="7"/>stini ab eisinductam, hanc scilicet, <quote xml:id="alalal-c29565-Qd1e128"> Non
+<lb ed="#Bb" n="8"/>quo Pater est, substantia est : non quo
+<lb ed="#Bb" n="9"/>verbum est, substantia est. </quote>
+            </p>
+            <p xml:id="alalal-c29565-d1e136">
+               <lb ed="#Bb" n="10"/>Fundatur enim objectio Pictaviensis, et
+<lb ed="#Bb" n="11"/>solutio Magistri supra duplicitatem illius
+<lb ed="#Bb" n="12"/>propositionis. Quo enim dicit causam
+<lb ed="#Bb" n="13"/>quasi formalem, ut dicit Augustinus.
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="14"/>Cum igitur dicitur : <quote xml:id="alalal-c29565-Qd1e151"> Non quo Pater est,
+<lb ed="#Bb" n="15"/>substantia est, </quote> potest esse negatio cause
+<lb ed="#Bb" n="16"/>quasi formalis : et sic est vera 
+propo<lb break="no" ed="#Bb" n="17"/>sitio, et tenet intellectus Magistri qui est
+<lb ed="#Bb" n="18"/>verus, et est Augustini. Vel, potest esse
+<lb ed="#Bb" n="19"/>negatio sub causalitate, ut causalitas
+<lb ed="#Bb" n="20"/>sit negationis, ut dicunt sophiste : et sic
+<lb ed="#Bb" n="21"/>falsa est propositio, et patrocinatur 
+Picta<lb break="no" ed="#Bb" n="22"/>viensis. Et primo modo sernsus est, Non
+<lb ed="#Bb" n="23"/>quo Pater est, Deus est, id est, paternitas
+<lb ed="#Bb" n="24"/>non est causa quasi formalis qua Pater est
+<lb ed="#Bb" n="25"/>Deus, sed deitas: et hoc verum est se~
+<lb ed="#Bb" n="26"/>cundum intelligendi rationem. Secundo
+<lb ed="#Bb" n="27"/>modo sensus est, Quo Pater est, hoc est
+<lb ed="#Bb" n="28"/>causa quod non est Deus : quia tunc 
+se<lb break="no" ed="#Bb" n="29"/>paratio cadit inter id quo Pater est et
+<lb ed="#Bb" n="30"/>Deus : et sic paternitas non esset Deus,
+<lb ed="#Bb" n="31"/>ut dixit <name xml:id="alalal-c29565-Nd1e191">Gilbertus</name>.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

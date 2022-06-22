@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="666"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j37461"><!-- l4d49dt1 -->
+            <head xml:id="alalal-j37461-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-j37461-d1e101">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="11"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-j37461-d1e108">
+               <lb ed="#Bf" n="12"/>
+               <quote xml:id="alalal-j37461-Qd1e112"> Post resurrectionem vero, etc. </quote>
+               <lb ed="#Bf" n="13"/>Hic incipit pars quae est de 
+consequen<lb break="no" ed="#Bf" n="14"/>tibus judicium. ,
+</p>
+            <p xml:id="alalal-j37461-d1e119">
+               <lb ed="#Bf" n="15"/>Et habet duas partes, in quarum 
+pri<lb break="no" ed="#Bf" n="16"/>ma agit de consequentibus judicium cx
+<lb ed="#Bf" n="17"/>parte bonorum: in secunda, de 
+conse<lb break="no" ed="#Bf" n="18"/>quenlibus ex parte malorum.
+</p>
+            <p xml:id="alalal-j37461-d1e130">
+               <lb ed="#Bf" n="19"/>In prima autem ex parte bonorum sex
+<lb ed="#Bf" n="20"/>inducuntur quastiones, scilicet primo
+<lb ed="#Bf" n="21"/>de differentia mansionum: secundo, de
+<lb ed="#Bf" n="22"/>beatitudine : tertio, de differentia 
+cogni<lb break="no" ed="#Bf" n="23"/>tionis beatorum: quarto, de differentia
+<lb ed="#Bf" n="24"/>et paritate gaudiorum: quinto, An 
+bea<lb break="no" ed="#Bf" n="25"/>titudo augeatur post judicium, Et sexto,
+<lb ed="#Bf" n="26"/>Quare anime resumunt corpora, cum
+<lb ed="#Bf" n="27"/>sine his beatitudinem habere possint ?
+</p>
+            <p xml:id="alalal-j37461-d1e153">
+               <lb ed="#Bf" n="28"/>Et haec patent in principiis 
+capitulo<lb break="no" ed="#Bf" n="29"/>rum istius distinctionis per ordinem.
+</p>
+            <p xml:id="alalal-j37461-d1e160">
+               <lb ed="#Bf" n="30"/>Circa primum capitulum incidunt tria
+<lb ed="#Bf" n="31"/>inquirenda, scilicet quid sit mansio ?
+<lb ed="#Bf" n="32"/>Secundo, Quid sit factivum 
+mansio<lb break="no" ed="#Bf" n="33"/>nis ?
+<lb ed="#Bf" n="34"/>Et tertio, Ubi est mansio ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

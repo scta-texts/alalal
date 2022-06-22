@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="393"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e74474"><!-- l3d22a5 -->
+            <head xml:id="alalal-e74474-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-e74474-Hd1e101" type="question-title">An Christus illustravit eos qui in limbo
+tenebantur ?</head>
+            <p xml:id="alalal-e74474-d1e104">
+               <lb ed="Bd" n="71"/>ARTICULUS V.
+<lb ed="Bd" n="72"/>An Christus illustravit eos qui in limbo
+<lb ed="Bd" n="73"/>tenebantur ?
+</p>
+            <p xml:id="alalal-e74474-d1e113">
+               <lb ed="Bd" n="74"/>Secundo quaeritur, Utrum illos 
+illu<lb break="no" ed="Bd" n="75"/>stravit qui erant ibi?
+</p>
+            <p xml:id="alalal-e74474-d1e120">
+               <lb ed="Bd" n="76"/>Videtur autem, quod sic: quia
+<lb ed="Bd" n="77"/>1. Ita habitum est in praecedenti 
+capi<lb break="no" ed="Bd" n="78"/>tulo B, in verbis Ambrosii : <quote xml:id="alalal-e74474-Qd1e128"> In inferno
+<lb ed="Bd" n="79"/>positis lumen vite fundebat aeterne. 
+Ra<lb break="no" ed="Bd" n="80"/>diabat illic lux vera sapientiae, 
+illumina<lb break="no" ed="Bd" n="81"/>bat infernum, etc. </quote>
+            </p>
+            <p xml:id="alalal-e74474-d1e139">
+               <lb ed="Bd" n="82"/>2. Item, Augustinus: <quote xml:id="alalal-e74474-Qd1e143"> Descendit ad
+<lb ed="Bd" n="83"/>infernum anima deificata : ut 
+quemad<lb break="no" ed="Bd" n="84"/>modum his gui in terra sunt, ita et his
+<lb ed="Bd" n="85"/>qui in inferno sunt in tenebris et in 
+um<lb break="no" ed="Bd" n="86"/>bra mortis sedent, superlucescat. </quote>
+            </p>
+            <p xml:id="alalal-e74474-d1e155">
+               <lb ed="Bd" n="87"/>SED CONTRA:
+<lb ed="Bd" n="88"/>1. Lumen corporale non _ irradiat
+<lb ed="Bd" n="89"/>unum, nisi illuminet alterum: ergo 
+vi<lb break="no" ed="Bd" n="90"/>detur, quod cum potentius sit lumen
+<pb ed="#Bd" n="394"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>divinum, quod non _ illustravit unum
+<lb ed="Bd" n="2"/>nisi omnes viderint : non autem erant
+<lb ed="Bd" n="3"/>omnes digni qui erant in inferno : ergo
+<lb ed="Bd" n="4"/>videtur, quod nullus illuminatus fuerit.
+</p>
+            <p xml:id="alalal-e74474-d1e179">
+               <lb ed="Bd" n="5"/>2. Item, Locus perpetuis tenebris 
+de<lb break="no" ed="Bd" n="6"/>putatus numquam debet habere lucis 
+be<lb break="no" ed="Bd" n="7"/>neficium : talis autem locus est infernus :
+<lb ed="Bd" n="8"/>ergo numquam debuit illuminari.
+</p>
+            <p xml:id="alalal-e74474-d1e190">
+               <lb ed="Bd" n="9"/>3. Item, Ipse dixit latroni, Luc. xxu1,
+<lb ed="Bd" n="10"/>43: Hodie meeum eris in paradiso. Ergo
+<lb ed="Bd" n="11"/>videtur, quod in paradisum eduxit etiam
+<lb ed="Bd" n="12"/>alios, et non in inferno ostendit lucem
+<lb ed="Bd" n="13"/>deitatis : quia constat, quod latronem
+<lb ed="Bd" n="14"/>secum voluit esse, hoc est, ubi futura
+<lb ed="Bd" n="15"/>erat anima sua, non ubique ubi semper
+<lb ed="Bd" n="16"/>fuit deitas.
+</p>
+            <p xml:id="alalal-e74474-d1e210">
+               <lb ed="Bd" n="17"/>Solutio Dicendum absque dubio se~
+<lb ed="Bd" n="18"/>cundum dicta Sanctorum, quod Christus
+<lb ed="Bd" n="19"/>in inferno sanctis suis deitatem 
+osten<lb break="no" ed="Bd" n="20"/>dit, et eis locum horrendi carceris in 
+pa<lb break="no" ed="Bd" n="21"/>radisum convertit, quoad hoc quod facie
+<lb ed="Bd" n="22"/>ad faciem deitatem ejus videbant, soluto
+<lb ed="Bd" n="23"/>pretio redemptionis.
+</p>
+            <p xml:id="alalal-e74474-d1e228">
+               <lb ed="Bd" n="24"/>Ad id autem quod contra objicitur,
+<lb ed="Bd" n="25"/>dicendum quod stulta est objectio : quia
+<lb ed="Bd" n="26"/>nec illi habitabant in loco: et etiamsi 
+ha<lb break="no" ed="Bd" n="27"/>bitassent cum aliis, lucem alii videre non
+<lb ed="Bd" n="28"/>potuissent : guia non recipitur nisi ab
+<lb ed="Bd" n="29"/>oculo glorificato gratia et gloria: sicut
+<lb ed="Bd" n="30"/>illi patres tune secundum animam 
+fue<lb break="no" ed="Bd" n="31"/>runt beati statim Christo ad eos 
+descen<lb break="no" ed="Bd" n="32"/>dente: et hoc est magis in lucis 
+poten<lb break="no" ed="Bd" n="33"/>tia, quod ab omnibus percipitur lux 
+cor<lb break="no" ed="Bd" n="34"/>poralis: quia hoc accidit ei in quantum
+<lb ed="Bd" n="35"/>est forma situalis proportionata viribus,
+<lb ed="Bd" n="36"/>et agens immutando per necessitatem
+<lb ed="Bd" n="37"/>naturae: quae quia omnia ignobilitatis
+<lb ed="Bd" n="38"/>sunt, nullum illorum competit luci 
+di<lb break="no" ed="Bd" n="39"/>vine.
+</p>
+            <p xml:id="alalal-e74474-d1e266">
+               <lb ed="Bd" n="40"/>Ad aliud dicendum, quod limbus non
+<lb ed="Bd" n="41"/>erat damnatus perpetuis tenebris, sed
+<lb ed="Bd" n="42"/>potius temporalibus usque ad 
+redemptio<lb break="no" ed="Bd" n="43"/>nem quae facta est per Christum.
+</p>
+            <p xml:id="alalal-e74474-d1e277">
+               <lb ed="Bd" n="44"/>Ad aliud dicendum, quod paradisus
+<lb ed="Bd" n="45"/>dicitur tribus modis, scilicet interior qui
+<lb ed="Bd" n="46"/>est visio aperta deitatis, et de hac in-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="47"/>telligit Christus loquens ad latronem: et
+<lb ed="Bd" n="48"/>exterior corporum, qui est locus in Eden :
+<lb ed="Bd" n="49"/>et exterior spirituum, quiest locus 
+em<lb break="no" ed="Bd" n="50"/>pyrei ceeli.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

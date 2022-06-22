@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="109"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c20729"><!-- l1d31a8 -->
+            <head xml:id="alalal-c20729-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-c20729-Hd1e101" type="question-title">Utrum Filius bene dicatur ars Patri ?</head>
+            <p xml:id="alalal-c20729-d1e104">
+               <lb ed="#Bb" n="67"/>ARTICULUS VIII.
+<lb ed="#Bb" n="68"/>Utrum Filius bene dicatur ars Patri ?
+</p>
+            <p xml:id="alalal-c20729-d1e111">
+               <lb ed="#Bb" n="69"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Bb" n="70"/>ibi, in fine cap. C, <quote xml:id="alalal-c20729-Qd1e117"> Ars guedam 
+omni<lb break="no" ed="#Bb" n="71"/>potentis et saptentis Dei plena omnium
+<lb ed="#Bb" n="72"/>rationum viventium, etc. </quote>
+            </p>
+            <p xml:id="alalal-c20729-d1e125">
+               <lb ed="#Bb" n="73"/>1. Quidquid enim aliquis cognoscit,
+<lb ed="#Bb" n="74"/>arte sua cognoscit : si ergo Filius est
+<lb ed="#Bb" n="75"/>ars Patris, Pater cognoscit Filio.
+</p>
+            <p xml:id="alalal-c20729-d1e135">
+               <lb ed="#Bb" n="76"/>2. Item, In Littera dicit : <quote xml:id="alalal-c20729-Qd1e139"> Novit
+<lb ed="#Bb" n="77"/>omnia Deus quae ipse fecit per artem 
+ip<lb break="no" ed="#Bb" n="78"/>sam </quote>; ergo Pater est sapiens Filio quem
+<lb ed="#Bb" n="79"/>genuit, ut videtur.
+</p>
+            <p xml:id="alalal-c20729-d1e149">
+               <lb ed="#Bb" n="80"/>Solutio. Iste rationes bene 
+conclude<lb break="no" ed="#Bb" n="81"/>rent si ars et intellectus et sapientia 
+pro<lb break="no" ed="#Bb" n="82"/>prie dicerentur de Filig, et non appro-
+<pb ed="#Bb" n="110"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>priate. Unde verum est, quod Pater 
+om<lb break="no" ed="#Bb" n="2"/>nia cognoscit in arte sua et in intellectu
+<lb ed="#Bb" n="3"/>suo : non tamen sequitur, quod 
+cogno<lb break="no" ed="#Bb" n="4"/>scat Filio : quia una est ars trium, et
+<lb ed="#Bb" n="5"/>unus intellectus trium, sicut una essentia
+<lb ed="#Bb" n="6"/>trium : sed intellectus et ars et sapientia
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="7"/>convenientiam et accessum dicunt ad
+<lb ed="#Bb" n="8"/>Filium, secundum quod ipse verbum,
+<lb ed="#Bb" n="9"/>magis quam ad Patrem vel Spiritum
+<lb ed="#Bb" n="10"/>sanctum : et ideo Filio plus quam aliis
+<lb ed="#Bb" n="11"/>appropriatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

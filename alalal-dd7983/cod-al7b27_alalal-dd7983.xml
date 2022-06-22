@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="43"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-dd7983"><!-- l2d2a1 -->
+            <head xml:id="alalal-dd7983-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-dd7983-Hd1e101" type="question-title">An Angelus ante, vel post alta sit 
+creatus, aut sit unum cum aliis quatuor
+coaevis ?</head>
+            <p xml:id="alalal-dd7983-d1e104">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="33"/>ARTICULUS I.
+<lb ed="#Bc" n="34"/>An Angelus ante, vel post alta sit 
+crea<lb break="no" ed="#Bc" n="35"/>tus, aut sit unum cum aliis quatuor
+<lb ed="#Bc" n="36"/>coaevis ?
+</p>
+            <p xml:id="alalal-dd7983-d1e117">
+               <lb ed="#Bc" n="37"/>Incidit autem hic questio primo de
+<lb ed="#Bc" n="38"/>tempore creationis Angelorum.
+</p>
+            <p xml:id="alalal-dd7983-d1e124">
+               <lb ed="#Bc" n="39"/>Videtur enim, quod ante alia sit 
+crea<lb break="no" ed="#Bc" n="40"/>tus :
+</p>
+            <p xml:id="alalal-dd7983-d1e132">
+               <lb ed="#Bc" n="41"/>1. Sic enim dicit Hilarius : <quote xml:id="alalal-dd7983-Qd1e136"> Non 
+ma<lb break="no" ed="#Bc" n="42"/>gnum est, quod ante ccoelum et terram
+<lb ed="#Bc" n="43"/>Deus Pater Dominum nostrum Jesum
+<lb ed="#Bc" n="44"/>Christum genuerit, cum etiam Angelus
+<lb ed="#Bc" n="45"/>creatura coeli et terre inveniatur 
+anti<lb break="no" ed="#Bc" n="46"/>quior?: </quote> ergo videtur, quod Angelus
+<lb ed="#Bc" n="47"/>non sit unum de coevis.
+</p>
+            <p xml:id="alalal-dd7983-d1e152">
+               <lb ed="#Bc" n="48"/>2. Item, Damascenus : <!--<quote>--> Quidam aiunt,
+<lb ed="#Bc" n="49"/>quod, ante omnem creationem geniti
+<lb ed="#Bc" n="50"/>sunt, ut theologus dicit Gregorius. 
+Pri<lb break="no" ed="#Bc" n="51"/>mum quidem excogitavit Deus coelestes
+<lb ed="#Bc" n="52"/>virtutes et angelicas, et excogitatio ejus
+<lb ed="#Bc" n="53"/>opus. fuit. Alii vero postquam genitum
+<lb ed="#Bc" n="54"/>est primum coelum. Quoniam autem
+<lb ed="#Bc" n="55"/>ante hominis plasmationem omnes 
+con<lb break="no" ed="#Bc" n="56"/>fitentur, ego theologo Gregorio 
+con<lb break="no" ed="#Bc" n="57"/>sentio. Dicebat enim substantiam 
+intel<lb break="no" ed="#Bc" n="58"/>lectualem primo. creari, et inde 
+sensibi<lb break="no" ed="#Bc" n="59"/>lem, et tunc quod ex utroque, scilicet
+<lb ed="#Bc" n="60"/>hominem.
+</p>
+            <p xml:id="alalal-dd7983-d1e185">
+               <pb ed="#Bc" n="44"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>3. Item, Per rationem videtur probari
+<lb ed="#Bc" n="2"/>idem sic : Quecumque substantia se 
+ha<lb break="no" ed="#Bc" n="3"/>bet ad alia creata ut preecognoscens fieri
+<lb ed="#Bc" n="4"/>eorum antequam fiant in propria natura,
+<lb ed="#Bc" n="5"/>illam necesse est precedere creatione
+<lb ed="#Bc" n="6"/>omnes alias. Angelus autem est 
+substan<lb break="no" ed="#Bc" n="7"/>tia ita se habens ad alia creata : ergo 
+An<lb break="no" ed="#Bc" n="8"/>gelus pracessit creatione omnia alia.
+<lb ed="#Bc" n="9"/>Prima patet per se. Szcunpa accipitur ab
+<lb ed="#Bc" n="10"/>Augustino, qui sic exponit, fiat, et fecit,
+<lb ed="#Bc" n="11"/>et facium est, ut primum. referatur ad
+<lb ed="#Bc" n="12"/>Verbum, secundum ad notitiam 
+Angelo<lb break="no" ed="#Bc" n="13"/>rum, tertium ad existentiam rei in 
+pro<lb break="no" ed="#Bc" n="14"/>pria natura.
+</p>
+            <p xml:id="alalal-dd7983-d1e222">
+               <lb ed="#Bc" n="15"/>4. Item, Augustinus : <quote xml:id="alalal-dd7983-Qd1e226"> Duo fecisti,
+<lb ed="#Bc" n="16"/>Domine : unum prope te, et alterum
+<lb ed="#Bc" n="17"/>prope nihil: </quote> ergo Angelus immediate
+<lb ed="#Bc" n="18"/>est prope Verbum. Esse autem juxta
+<lb ed="#Bc" n="19"/>Verbum, est esse juxta causam exitus
+<lb ed="#Bc" n="20"/>creaturarum in esse : ergo cum ipse 
+ha<lb break="no" ed="#Bc" n="21"/>beat potentiam cognoscendi, ipse cogno- |
+<lb ed="#Bc" n="22"/>scet eas in Verbo antequam fiant : ergo
+<lb ed="#Bc" n="23"/>precedit esse earum in propria natura.
+</p>
+            <p xml:id="alalal-dd7983-d1e247">
+               <lb ed="#Bc" n="24"/>5. Item, Substantiam moventem ad
+<lb ed="#Bc" n="25"/>esse substantie alterius et influentem 
+su<lb break="no" ed="#Bc" n="26"/>per ipsam, necesse est prius esse illa ad
+<lb ed="#Bc" n="27"/>cujus esse movet et super quam influit :
+<lb ed="#Bc" n="28"/>Angeli (ut dicunt Philosophi) sunt 
+sub<lb break="no" ed="#Bc" n="29"/>stantiae moventes ad esse elementorum
+<lb ed="#Bc" n="30"/>et elementatorum, et influentes super 
+es<lb break="no" ed="#Bc" n="31"/>se et motum orbium : ergo necesse est
+<lb ed="#Bc" n="32"/>eos prius esse elementis, et elementatis,
+<lb ed="#Bc" n="33"/>et orbibus ; ergo prius debebant creari
+<lb ed="#Bc" n="34"/>ut videtur. Co
+</p>
+            <p xml:id="alalal-dd7983-d1e273">
+               <lb ed="#Bc" n="35"/>6. Item, Ad unum simplex plus 
+acce<lb break="no" ed="#Bc" n="36"/>dit id quod minime est compositionis et
+<lb ed="#Bc" n="37"/>nullius quantitatis, quam id quod habet
+<lb ed="#Bc" n="38"/>compositionem quantitatis et 
+terminatio<lb break="no" ed="#Bc" n="39"/>nem contrarietatis : Creator autem est
+<lb ed="#Bc" n="40"/>unum simplex, Angelus minime 
+compo<lb break="no" ed="#Bc" n="41"/>sitionis, quia secundum Philosophos non
+<lb ed="#Bc" n="42"/>habet compositionem nisi possibilis in
+<lb ed="#Bc" n="43"/>quantum intelligit se, et necessarii in
+<lb ed="#Bc" n="44"/>quantum fluit a Deo et intelligit ipsum :
+<lb ed="#Bc" n="45"/>orbes autem habent quantitatem et 
+po<lb break="no" ed="#Bc" n="46"/>tentiam ad ubi, et elementa 
+contrarieta<lb break="no" ed="#Bc" n="47"/>tem : ergo plus accedit Angelus, quam
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="48"/>corporea : ergo etiam prius effluit ab
+<lb ed="#Bc" n="49"/>ipso.
+</p>
+            <p xml:id="alalal-dd7983-d1e311">
+               <lb ed="#Bc" n="50"/>Si dicas, quod hoc non sequitur : quia
+<lb ed="#Bc" n="51"/>ompia effluunt aequaliter. Contra : 
+Crea<lb break="no" ed="#Bc" n="52"/>tor uno modo se habet ad omne quod est :
+<lb ed="#Bc" n="53"/>ergo ex parte sui nulla est differentia : sed
+<lb ed="#Bc" n="54"/>si est differentia, illa est ex parte 
+creatu<lb break="no" ed="#Bc" n="55"/>rarum aliter et aliter se habentium ad
+<lb ed="#Bc" n="56"/>ipsum : ergo videtur, quod effluxio 
+de<lb break="no" ed="#Bc" n="57"/>bet determinari secundum ordinem 
+crea<lb break="no" ed="#Bc" n="58"/>ture, et non secundum ordinem creantis.
+</p>
+            <p xml:id="alalal-dd7983-d1e333">
+               <lb ed="#Bc" n="59"/>7. Preterea, Ordo creationis debet 
+re<lb break="no" ed="#Bc" n="60"/>spondere ordini nature : natura autem
+<lb ed="#Bc" n="61"/>ordinat motorem ante mobile, et 
+incor<lb break="no" ed="#Bc" n="62"/>ruptibile ante corruptibile, et spirituale
+<lb ed="#Bc" n="63"/>ante corporale, et simplex ante 
+composi<lb break="no" ed="#Bc" n="64"/>tum : cum igitur Angeli sint motores 
+in<lb break="no" ed="#Bc" n="65"/>corruptibiles, spirituales, simplices, 
+vide<lb break="no" ed="#Bc" n="66"/>bitur quod ipsi sint creati ante omnia
+<lb ed="#Bc" n="67"/>alia.
+</p>
+            <p xml:id="alalal-dd7983-d1e355">
+               <lb ed="#Bc" n="68"/>8. Item, Hoc videtur dicere <name xml:id="alalal-dd7983-Nd1e359">Plato</name> :
+<lb ed="#Bc" n="69"/>
+               <quote xml:id="alalal-dd7983-Qd1e363"> O dii deorum, quorum opifex Paterque
+<lb ed="#Bc" n="70"/>ego, etc. </quote> Sic enim infert: <quote xml:id="alalal-dd7983-Qd1e368"> Horum
+<lb ed="#Bc" n="71"/>sementem ego faciam, vobisque tradam :
+<lb ed="#Bc" n="72"/>vestrum autem erit ad par exsequi. </quote> Ex
+<lb ed="#Bc" n="73"/>hoc enim videtur accipi, quod 
+influen<lb break="no" ed="#Bc" n="74"/>tiam habeant ad esse generabilium : 
+er<lb break="no" ed="#Bc" n="75"/>go ante omnia esse debuerunt, ut vide-~
+<lb ed="#Bc" n="76"/>tur, oi.
+</p>
+            <p xml:id="alalal-dd7983-d1e385">
+               <lb ed="#Bc" n="77"/>SED CONTRA :
+<lb ed="#Bc" n="78"/>1. Ex parte Dei creantis nulla est 
+diffe<lb break="no" ed="#Bc" n="79"/>rentia in exitu : cum ergo creatura ante
+<lb ed="#Bc" n="80"/>creationem non fuerit, ex parte etiam
+<lb ed="#Bc" n="81"/>illius non poterat accipi ordo : ergo non
+<lb ed="#Bc" n="82"/>est ratio, quod prius vel posterius fiat.
+</p>
+            <p xml:id="alalal-dd7983-d1e401">
+               <lb ed="#Bc" n="83"/>2. Item, Nos videmus, quod anima 
+ra<lb break="no" ed="#Bc" n="84"/>tionalis quae est motor et perfectio 
+cor<lb break="no" ed="#Bc" n="85"/>poris, non fit ante corpus, sed post 
+or<lb break="no" ed="#Bc" n="86"/>ganizationem ipsius : si ergo Angeli sunt
+<lb ed="#Bc" n="87"/>motores corporum superiorum (ut dicunt
+<lb ed="#Bc" n="88"/>guidam) a simili debuerunt fieri post
+<lb ed="#Bc" n="89"/>ipsa.
+</p>
+            <p xml:id="alalal-dd7983-d1e419">
+               <lb ed="#Bc" n="90"/>3. Item, Moyses intendit evacuare 
+er<lb break="no" ed="#Bc" n="91"/>rores diversorum circa principium 
+crea<lb break="no" ed="#Bc" n="92"/>tionis mundi. Fuit autem multorum 
+er<lb break="no" ed="#Bc" n="93"/>ror, quod Deus per Angelos creavit
+<lb ed="#Bc" n="94"/>mundum : ergo ut hoc evacuaretur, non
+<pb ed="#Bc" n="45"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>debuerant creari ante, sed vel cum 
+mun<lb break="no" ed="#Bc" n="2"/>do, vel post ipsum. Unde Damascenus :
+<lb ed="#Bc" n="3"/>
+               <quote xml:id="alalal-dd7983-Qd1e442"> Quicumque vero aiunt Angelos 
+condi<lb break="no" ed="#Bc" n="4"/>tores cujuscumque esse substantie, hi
+<lb ed="#Bc" n="5"/>sunt omnes patris sui diaboli . creature
+<lb ed="#Bc" n="6"/>enim exeuntes non sunt conditores. 
+Om<lb break="no" ed="#Bc" n="7"/>nium autem factor, et provisor, et 
+con<lb break="no" ed="#Bc" n="8"/>tentor, Deus est qui solus est increatus'.</quote>
+            </p>
+            <p xml:id="alalal-dd7983-d1e457">
+               <lb ed="#Bc" n="9"/>Solutio. Dicendum, quod Angeli non
+<lb ed="#Bc" n="10"/>duratione, sed ordine dignitatis facti sunt
+<lb ed="#Bc" n="11"/>ante corporalem creaturam. Et ad hoc
+<lb ed="#Bc" n="12"/>intelligendum sumenda est distinctio 
+Au<lb break="no" ed="#Bc" n="13"/>gustini de confessione, quod prius 
+alte<lb break="no" ed="#Bc" n="14"/>ruim altero dicitur, scilicet aternitate, ut
+<lb ed="#Bc" n="15"/>Deus precedit omnia : dignitate sive 
+ele<lb break="no" ed="#Bc" n="16"/>ctione, sicut melius et nobilius 
+preponi<lb break="no" ed="#Bc" n="17"/>tur minus nobili vel utili, et hoc modo
+<lb ed="#Bc" n="18"/>fructus precedit florem : origine, et hoc
+<lb ed="#Bc" n="19"/>modo sonus precedit cantum, quia in
+<lb ed="#Bc" n="20"/>sono modulatio facit cantum : et 
+tem<lb break="no" ed="#Bc" n="21"/>pore, et hoc modo precedit flos fructum.
+</p>
+            <p xml:id="alalal-dd7983-d1e488">
+               <lb ed="#Bc" n="22"/>Ab ga igitur quae inducuntur ex 
+Hila<lb break="no" ed="#Bc" n="23"/>rio et Damasceno, et ad ea quae 
+indu<lb break="no" ed="#Bc" n="24"/>cuntur in Litlera, quia prior omnium
+<lb ed="#Bc" n="25"/>creata est sapientia 2 : dicendum, quod
+<lb ed="#Bc" n="26"/>loquuntur de prioritate dignitatis, non
+<lb ed="#Bc" n="27"/>durationis, vel temporis.
+</p>
+            <p xml:id="alalal-dd7983-d1e504">
+               <lb ed="#Bc" n="28"/>Ad aliud dicendum, quod illa 
+priori<lb break="no" ed="#Bc" n="29"/>tas intelligendi rem fiendam, etiam 
+se<lb break="no" ed="#Bc" n="30"/>cundum ipsum Augustinum, non ponit
+<lb ed="#Bc" n="31"/>prioritatem durationis, sed ordinis 
+natu<lb break="no" ed="#Bc" n="32"/>re: et ita solvit Augustinus, ut 
+cogno<lb break="no" ed="#Bc" n="33"/>scere rem fiendam non ponat in actu 
+co<lb break="no" ed="#Bc" n="34"/>gnitionem ante rei existentiam : sed 
+si<lb break="no" ed="#Bc" n="35"/>mul cum ipsa re suam ponit 
+cogitatio<lb break="no" ed="#Bc" n="36"/>nem, id est, omnis fiende rei quantum
+<lb ed="#Bc" n="37"/>est de ordine cause causantis, et possum
+<lb ed="#Bc" n="38"/>habere, scilicet cognitionem facte rei,
+<lb ed="#Bc" n="39"/>quando jam facta est.
+</p>
+            <p xml:id="alalal-dd7983-d1e533">
+               <lb ed="#Bc" n="40"/>Ad aliud dicendum, quod etiam 
+Ange<lb break="no" ed="#Bc" n="41"/>lus non est immediate juxta Verbum 
+ni<lb break="no" ed="#Bc" n="42"/>si ordine nature, et non temporis in 
+or<lb break="no" ed="#Bc" n="43"/>dine exitus creaturarum.
+</p>
+            <p xml:id="alalal-dd7983-d1e544">
+               <lb ed="#Bc" n="44"/>Ab atiup dicendum, quod illa ratio
+<lb ed="#Bc" n="45"/>procedit ex opinionibus Ph:losophorum,
+<lb ed="#Bc" n="46"/>et fundatur partim super dubias propo-
+</p>
+            <p xml:id="alalal-dd7983-d1e553">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="47"/>sitiones, partim etiam super falsas 
+secun<lb break="no" ed="#Bc" n="48"/>dum nostram fidem. Dubium enim est
+<lb ed="#Bc" n="49"/>quis sit motor celi. Ptolemaus, et 
+Abba<lb break="no" ed="#Bc" n="50"/>tegni, et Albumasar, et omnes astrono-—
+<lb ed="#Bc" n="51"/>mi dicunt coelum moveri a voluntate Dei,
+<lb ed="#Bc" n="52"/>et haec est nostra confessio. Aristoteles
+<lb ed="#Bc" n="53"/>autem et omnes naturales Philosophi 
+di<lb break="no" ed="#Bc" n="54"/>cunt ipsum moveri ab intelligentia, sicut
+<lb ed="#Bc" n="55"/>desiderans movetur a desiderato, et
+<lb ed="#Bc" n="56"/>utrum Angeli deserviant Deo in motu
+<lb ed="#Bc" n="57"/>orbium, vel non, incertum est nobis :
+<lb ed="#Bc" n="58"/>hoc tamen certissime tenemus 
+secun<lb break="no" ed="#Bc" n="59"/>dum sanctos Patres, quod non omnes 
+oc<lb break="no" ed="#Bc" n="60"/>cupantur circa motum celorum, etiamsi
+<lb ed="#Bc" n="61"/>tot essent cceli quot sunt stelle, sicut 
+qui<lb break="no" ed="#Bc" n="62"/>dam eorum presumpserunt dicere : quia
+<lb ed="#Bc" n="63"/>nobis traditur quosdam assistere, 
+quos<lb break="no" ed="#Bc" n="64"/>dam circa nos ministrare : tamen quod
+<lb ed="#Bc" n="65"/>quidam etiam moveant coelum, videtur
+<lb ed="#Bc" n="66"/>secundum expositionem unius sancti per
+<lb ed="#Bc" n="67"/>Ulud verbum Matthei, XXIV, 29: Ht 
+vir<lb break="no" ed="#Bc" n="68"/>tutes celorum commovebuntur. Hoe enim
+<lb ed="#Bc" n="69"/>in libro ad Eugenium Bernardus exponit
+<lb ed="#Bc" n="70"/>de Angelis.
+</p>
+            <p xml:id="alalal-dd7983-d1e611">
+               <lb ed="#Bc" n="71"/>Sed quidquid sit de dubiis, ad ratio
+<lb ed="#Bc" n="72"/>nem inductam dicendum est, quod etiam
+<lb ed="#Bc" n="73"/>secundum Philosophos qui ponunt illam
+<lb ed="#Bc" n="74"/>opintonem, non valet ratio : quia non 
+in<lb break="no" ed="#Bc" n="75"/>telhgunt ordinem temporis, sed nature :
+<lb ed="#Bc" n="76"/>sicut materia elementi prior est 
+elemen<lb break="no" ed="#Bc" n="77"/>to, nec tamen umquam defuit elemento,
+<lb ed="#Bc" n="78"/>nec qualitates elementales sibi.
+</p>
+            <p xml:id="alalal-dd7983-d1e631">
+               <lb ed="#Bc" n="79"/>Ad aliud dicendum, quod illud etiam.
+<lb ed="#Bc" n="80"/>non concludit nisi de ordine nature, vel
+<lb ed="#Bc" n="81"/>dignitatis, et non temporis.
+</p>
+            <p xml:id="alalal-dd7983-d1e640">
+               <lb ed="#Bc" n="82"/>Ad aliud dicendum, quod ordo ex 
+par<lb break="no" ed="#Bc" n="83"/>te creatorum non impedit, quia creatura
+<lb ed="#Bc" n="84"/>non fuit : et etiam quia gradus dignita~
+<lb ed="#Bc" n="85"/>tis non infert ordinem temporis, sicut in
+<lb ed="#Bc" n="86"/>multis jam patuit, quia aliter anima 
+pra<lb break="no" ed="#Bc" n="87"/>cederet corpus tempore. Per hoc patet
+<lb ed="#Bc" n="88"/>solutio ad sequens.
+</p>
+            <p xml:id="alalal-dd7983-d1e658">
+               <lb ed="#Bc" n="89"/>Ad aliud dicendum, quod non 
+inten<lb break="no" ed="#Bc" n="90"/>dit quod priores sint creatis aliis, sed
+<lb ed="#Bc" n="91"/>quod dedit eis potestatem movendi 
+stel<lb break="no" ed="#Bc" n="92"/>las ad natura propagationem : ordinem
+<lb ed="#Bc" n="93"/>autem creaturarum ipse conditor instituit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

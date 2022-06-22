@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="511"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a99621"><!-- l1d19a1 -->
+            <head xml:id="alalal-a99621-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-a99621-Hd1e101" type="question-title">An in divinis possit esse aequalitas ?</head>
+            <p xml:id="alalal-a99621-d1e104">
+               <lb ed="#Ba" n="49"/>ARTICULUS I.
+<lb ed="#Ba" n="50"/>An in divinis possit esse aequalitas ?
+</p>
+            <p xml:id="alalal-a99621-d1e111">
+               <lb ed="#Ba" n="51"/>Hic incidit dubium ante Litteram. Si
+<lb ed="#Ba" n="52"/>aqualitas est in divinis ? Et si est, tunc
+<lb ed="#Ba" n="53"/>quaeritur, Cum etiam in divinis sit 
+iden<lb break="no" ed="#Ba" n="54"/>titas et similitudo, quare Magister non
+<lb ed="#Ba" n="55"/>facit specialem tractatum de illis ?
+</p>
+            <p xml:id="alalal-a99621-d1e124">
+               <lb ed="#Ba" n="56"/>Ad primum proceditur sic :
+<lb ed="#Ba" n="57"/>L. A quocumque removetur causa et
+<lb ed="#Ba" n="58"/>causatum, unitas quantitatis dimensive
+<lb ed="#Ba" n="59"/>causa aequalitatis est : et hac non est in
+<lb ed="#Ba" n="60"/>divinis : ergo videtur, quod nec 
+equali<lb break="no" ed="#Ba" n="61"/>tas.
+</p>
+            <p xml:id="alalal-a99621-d1e141">
+               <lb ed="#Ba" n="62"/>2. Item, A quocumque removetur 
+ge<lb break="no" ed="#Ba" n="63"/>nus, et species : sed genus aequalitatis
+<lb ed="#Ba" n="64"/>est proportio, et haec non est in divinis :
+<lb ed="#Ba" n="65"/>ergo nec aequalitas. Progatio MINoRIS.
+<lb ed="#Ba" n="66"/>Proportio enim est commensuralitas
+<lb ed="#Ba" n="67"/>quantitatum : et haecnon convenit 
+divi<lb break="no" ed="#Ba" n="68"/>nis.
+</p>
+            <p xml:id="alalal-a99621-d1e159">
+               <lb ed="#Ba" n="69"/>3. Item, Aequalia sunt, sicut in 
+Geo<lb break="no" ed="#Ba" n="70"/>metricis dicitur, quae sibi supposita se
+<lb ed="#Ba" n="71"/>non excedunt, nec exceduntur : una 
+au<lb break="no" ed="#Ba" n="72"/>tem persona alii non supponitur, nec 
+di<lb break="no" ed="#Ba" n="73"/>gnitate, nec applicatione : ergo non con~
+<lb ed="#Ba" n="74"/>venit eis aequales esse.
+</p>
+            <p xml:id="alalal-a99621-d1e175">
+               <lb ed="#Ba" n="75"/>4, Si forte dicas, quod ille rationes
+<lb ed="#Ba" n="76"/>locum habent in his quae mole magna
+<lb ed="#Ba" n="77"/>sunt : sed aequalitas personarum 
+atten<lb break="no" ed="#Ba" n="78"/>ditur in quantitate virtutis. Conraa : 
+In<lb break="no" ed="#Ba" n="79"/>finilo nihil est aequale : sed virtus 
+cujus<lb break="no" ed="#Ba" n="80"/>libet personarum est infinita : ergo non
+<lb ed="#Ba" n="81"/>habet rationem aequalitatis.
+</p>
+            <p xml:id="alalal-a99621-d1e193">
+               <lb ed="#Ba" n="82"/>5. Item, Quod omnino unum et idem
+<lb ed="#Ba" n="83"/>est, non est aequale, quia aequale ponit
+<lb ed="#Ba" n="84"/>plura : virtus autem personarum omnino
+<lb ed="#Ba" n="85"/>una et eadem est: ergo videtur, quod
+<lb ed="#Ba" n="86"/>non habeat rationem aequalitatis.
+</p>
+            <p xml:id="alalal-a99621-d1e206">
+               <lb ed="#Ba" n="87"/>6. Alia via iterum objicitur in 
+contra<lb break="no" ed="#Ba" n="88"/>rium : quod enim omnino simplex est,
+<lb ed="#Ba" n="89"/>nullam habet quantitatem : quod autem
+<lb ed="#Ba" n="90"/>nullam habet quantitatem, nullam habet
+<lb ed="#Ba" n="91"/>equalitatem : ergo cum in divinis sit
+<pb ed="#Ba" n="512"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>omnimoda simplicitas, nulla videtur esse
+<lb ed="#Ba" n="2"/>equalitas.
+</p>
+            <p xml:id="alalal-a99621-d1e228">
+               <lb ed="#Ba" n="3"/>Solutio. Dico, qued in divinis est
+<lb ed="#Ba" n="4"/>aequalitas : et bene concedo, quod in 
+di<lb break="no" ed="#Ba" n="5"/>vinis non potest esse;quantitas 
+dimensi<lb break="no" ed="#Ba" n="6"/>va, quam Augustinus vocat guantitatem
+<lb ed="#Ba" n="7"/>molis : sed est ib quantitas virtutis.
+</p>
+            <p xml:id="alalal-a99621-d1e242">
+               <lb ed="#Ba" n="8"/>Unve dicenduin ad primum, quod 
+cau<lb break="no" ed="#Ba" n="9"/>sa aequalitatis quae est identitas virtutis
+<lb ed="#Ba" n="10"/>im rebus, non tollitur a divinis : et ideo
+<lb ed="#Ba" n="11"/>potest in eis esse aequalitas.
+</p>
+            <p xml:id="alalal-a99621-d1e253">
+               <lb ed="#Ba" n="12"/>Ad aliud dicendum, quod proportio
+<lb ed="#Ba" n="13"/>est diversorum in substantia : et ideo 
+re<lb break="no" ed="#Ba" n="14"/>movetur a divinis. Supra‘ ostensum est,
+<lb ed="#Ba" n="15"/>quod si genus aliquod removetur a 
+divi<lb break="no" ed="#Ba" n="16"/>nis, non oportet quod propter hoc 
+remo<lb break="no" ed="#Ba" n="17"/>veatur species : quia species quandoque
+<lb ed="#Ba" n="18"/>non ratione generis transsumitur ad 
+di<lb break="no" ed="#Ba" n="19"/>vina, sed ratione differentiae quam addit
+<lb ed="#Ba" n="20"/>supra genus: et sic est hic, Prosatio.
+/Equalitas enim est proportio aliquorum
+<lb ed="#Ba" n="21"/>ad invicem secundum unam 
+quantita<lb break="no" ed="#Ba" n="22"/>tem : et ratione ejus quod est habere
+<lb ed="#Ba" n="23"/>unam quantitatem virtutis transsumitur
+<lb ed="#Ba" n="24"/>ad divina, et non ratione antecedents
+<lb ed="#Ba" n="25"/>quod est proportio diversorum.
+</p>
+            <p xml:id="alalal-a99621-d1e286">
+               <lb ed="#Ba" n="26"/>Ad aliud dicendum, quod illa 
+diflini<lb break="no" ed="#Ba" n="27"/>tio datur de aequalibus in quantitate 
+di<lb break="no" ed="#Ba" n="28"/>mensiva, quam considerat geometer :
+<lb ed="#Ba" n="29"/>sed aequalitas in virtute aliqua est 
+tan<lb break="no" ed="#Ba" n="30"/>tum posse sicut ille, et hace competit im
+<lb ed="#Ba" n="31"/>divinis.
+</p>
+            <p xml:id="alalal-a99621-d1e302">
+               <lb ed="#Ba" n="32"/>Ad aliud dicendum, quod cum dicitur
+<lb ed="#Ba" n="33"/>virtus Patris esse infinita, non 
+intelligi<lb break="no" ed="#Ba" n="34"/>tur infinita, quia sic virtus sua excederct
+<lb ed="#Ba" n="35"/>ipsum: sed intelligitur infinita, eo quod
+<lb ed="#Ba" n="36"/>non finitur extrinseco aliquo : et hujus
+<lb ed="#Ba" n="37"/>ralio supra est explanata : et hoc modo
+<lb ed="#Ba" n="38"/>infinitum quod sibi finitissimum est, 
+ha<lb break="no" ed="#Ba" n="39"/>bet aequale, licet non habeat aequale 
+ex<lb break="no" ed="#Ba" n="40"/>tra suam essentiam : unde sic virtus Filii
+<lb ed="#Ba" n="41"/>equatur virtuti Patris, ete converso.
+<lb ed="#Ba" n="42"/>Quidam autem hoc aliter solvunt 
+di<lb break="no" ed="#Ba" n="43"/>centes, quod infinitum infinito est 
+aqua<lb break="no" ed="#Ba" n="44"/>le. Unde et si virtus Patris infinita est,
+<lb ed="#Ba" n="45"/>etiam virtus Filii est infinita: et sic
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="46"/>equatur. Sed hoc nihil est : quia 
+infini<lb break="no" ed="#Ba" n="47"/>tum non participat rationem 
+equalita<lb break="no" ed="#Ba" n="48"/>tis : quia sua quantitas nec in se nec ad
+<lb ed="#Ba" n="49"/>aliud est certa : et ita non aquatur :
+<lb ed="#Ba" n="50"/>quia impossibile est etiam intelligere
+<lb ed="#Ba" n="51"/>equari ab aliquo cujus quantitas semper
+<lb ed="#Ba" n="52"/>accipitur. Unde prima solutio est verior.
+</p>
+            <p xml:id="alalal-a99621-d1e352">
+               <lb ed="#Ba" n="53"/>Ad aliud dicendum, quod licet virtus
+<lb ed="#Ba" n="54"/>divina omnino eadem sit, tamen hee
+<lb ed="#Ba" n="55"/>virtus est plurium personarum, et 
+habe<lb break="no" ed="#Ba" n="56"/>tur a pluribus personis, et gratia 
+illa<lb break="no" ed="#Ba" n="57"/>rum habet comparationem, quia sunt
+<lb ed="#Ba" n="58"/>plures qui in una virtute equantur. Sed
+<lb ed="#Ba" n="59"/>hoc verum est quod si una esset in se,
+<lb ed="#Ba" n="60"/>et unius tantum in persona, tunc non
+<lb ed="#Ba" n="61"/>posset assignari ratio aequalitatis.
+</p>
+            <p xml:id="alalal-a99621-d1e374">
+               <lb ed="#Ba" n="62"/>Ap sxiup dicendum, quod virtus 
+divi<lb break="no" ed="#Ba" n="63"/>na in se nullam habet quantitatem : sed
+<lb ed="#Ba" n="64"/>quantitas virtutis attenditur ad extra,
+<lb ed="#Ba" n="65"/>scilicet penes objecta et actus. Dicimus
+<lb ed="#Ba" n="66"/>enim, quod Achilles et Hercules aequalis
+<lb ed="#Ba" n="67"/>sunt virtutis, quando unus tot vincere
+<lb ed="#Ba" n="68"/>potest, quot alius : et quando unus 
+om<lb break="no" ed="#Ba" n="69"/>nem actum facere potest, quem potest
+<lb ed="#Ba" n="70"/>facere alius: et sic dicimus in divinis,
+<lb ed="#Ba" n="71"/>quod talis aequalitas non repugnat 
+sim<lb break="no" ed="#Ba" n="72"/>plicitati : quidquid enim potest Pater,
+<lb ed="#Ba" n="73"/>potest Fihus et Spiritus sanctus, et e
+<lb ed="#Ba" n="74"/>converso.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

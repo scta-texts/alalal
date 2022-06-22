@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="400"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d71305"><!-- l2d24a4 -->
+            <head xml:id="alalal-d71305-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-d71305-Hd1e101" type="question-title">An homo in primo statu resistendo malo
+et non consentiendo tentationi, fecisset
+sthi meritum ?</head>
+            <p xml:id="alalal-d71305-d1e104">
+               <pb ed="#Bc" n="400"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS IV.
+<lb ed="#Bc" n="2"/>An homo in primo statu resistendo malo
+<lb ed="#Bc" n="3"/>et non consentiendo tentationi, fecisset
+<lb ed="#Bc" n="4"/>sthi meritum ?
+</p>
+            <p xml:id="alalal-d71305-d1e120">
+               <lb ed="#Bc" n="5"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bc" n="6"/>C, circamedium: <quote xml:id="alalal-d71305-Qd1e126"> Ad quod dicimus,
+<lb ed="#Bc" n="7"/>quia resistere maio, etc. </quote>
+            </p>
+            <p xml:id="alalal-d71305-d1e132">
+               <lb ed="#Bc" n="8"/>Causa enim Magistri nulla videtur
+<lb ed="#Bc" n="9"/>esse : quia
+<lb ed="#Bc" n="10"/>1. Est opus meritorum ex hoc quod
+<lb ed="#Bc" n="11"/>procedit ex radice charitatis.
+</p>
+            <p xml:id="alalal-d71305-d1e144">
+               <lb ed="#Bc" n="12"/>2. Item, Quod dicit, <quote xml:id="alalal-d71305-Qd1e148"> Declinare a malo
+<lb ed="#Bc" n="13"/>...non semper meretur palmam, </quote> 
+vide<lb break="no" ed="#Bc" n="14"/>tur falsum : quia est pars justitie, et
+<lb ed="#Bc" n="15"/>justitia secundum se totam meretur 
+pal<lb break="no" ed="#Bc" n="16"/>mam : ergo et declinare a malo.
+</p>
+            <p xml:id="alalal-d71305-d1e160">
+               <lb ed="#Bc" n="17"/>Solutio. Dicendum, quod Magister
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="18"/>magis attendit rationem actus virtutis
+<lb ed="#Bc" n="19"/>quam gratiae. Et verum est: quia virtus
+<lb ed="#Bc" n="20"/>est circa difficile, et bonum : et hance ra.
+<lb ed="#Bc" n="21"/>tionem non habuisset resistere prim;
+<lb ed="#Bc" n="22"/>hominis, licet alias habuisset rationen
+<lb ed="#Bc" n="23"/>meriti. Alii aliter dicunt, scilicet quog
+<lb ed="#Bc" n="24"/>meritum dimissionis pone consistit jn
+<lb ed="#Bc" n="25"/>difficultate operis, et hoc non habuisget
+<lb ed="#Bc" n="26"/>
+               <name xml:id="alalal-d71305-Nd1e186">Adam</name>: meritum autem gloriae consistit
+<lb ed="#Bc" n="27"/>in quantitate charitatis, et hoc habuisset
+<lb ed="#Bc" n="28"/>si habuisset gratiam. Sed hoc non placet
+<lb ed="#Bc" n="29"/>pro tanto, quia ipse non indiguisset illo
+<lb ed="#Bc" n="30"/>merito, cum nullius peene debitor fuerit:
+<lb ed="#Bc" n="31"/>et ideo distinctio illa frustra fieret circa
+<lb ed="#Bc" n="32"/>opus ejus.
+</p>
+            <p xml:id="alalal-d71305-d1e202">
+               <lb ed="#Bc" n="33"/>Ap ALiup dicendum, quod est declinare
+<lb ed="#Bc" n="34"/>quod non dicit nisi privationem 
+simpli<lb break="no" ed="#Bc" n="35"/>cem, sicut declinatur a malo de quo
+<lb ed="#Bc" n="36"/>numgquam fuit cogitatio : et de hoc lo~
+<lb ed="#Bc" n="37"/>quitur Magister. Est etiam declinare
+<lb ed="#Bc" n="38"/>a malo de quo fuit cogitatio, et est vo-
+<lb ed="#Bc" n="39"/>luntas actualis tendens in contrarium
+<lb ed="#Bc" n="40"/>illius mali: et haec est pars justitia,
+<lb ed="#Bc" n="41"/>et meretur palmam: et de hac non 
+lo<lb break="no" ed="#Bc" n="42"/>quitur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

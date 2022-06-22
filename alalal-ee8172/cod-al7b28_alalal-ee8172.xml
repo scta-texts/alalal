@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="43"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee8172"><!-- l3d3dt1 -->
+            <head xml:id="alalal-ee8172-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-ee8172-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="15"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-ee8172-d1e108">
+               <lb ed="Bd" n="16"/>
+               <quote xml:id="alalal-ee8172-Qd1e112"> Queritur etiam de carne Christi, An
+<lb ed="Bd" n="17"/>priusguam conciperetur, etc. </quote>
+               <lb ed="Bd" n="18"/>Hic incipit teria pars quae est de 
+con<lb break="no" ed="Bd" n="19"/>junctione assumentis, et assumpti, et
+<lb ed="Bd" n="20"/>durat usque ad sextam distinctionem.
+</p>
+            <p xml:id="alalal-ee8172-d1e124">
+               <lb ed="Bd" n="21"/>Continet ergo Lres distinctiones, 
+secun<lb break="no" ed="Bd" n="22"/>dum quas distinguitur in tres partes, 
+se<lb break="no" ed="Bd" n="23"/>cundum quod tria exiguntur ad 
+conjun<lb break="no" ed="Bd" n="24"/>ctionem, Quorum primum est dispositio
+<lb ed="Bd" n="25"/>debita in assumpto: et de hoc agitur in
+<lb ed="Bd" n="26"/>ista distinctione tertia, Secundo, quod sit
+<lb ed="Bd" n="27"/>aliquid operans et conjungens 
+conjungi<lb break="no" ed="Bd" n="28"/>bilia: et hoc in distinctione 1V, quae 
+in<lb break="no" ed="Bd" n="29"/>cipit ibi, A, <quote xml:id="alalal-ee8172-Qd1e145"> Cum vero incarnatio, ete.</quote>
+               <lb ed="Bd" n="30"/>Tertio, exigitur unio in hypostasi et 
+per<lb break="no" ed="Bd" n="31"/>sona: et de hoc agitur in quinta 
+distin<lb break="no" ed="Bd" n="32"/>chlone, ibi, A, <quote xml:id="alalal-ee8172-Qd1e154"> Praeterea inguiré 
+opor<lb break="no" ed="Bd" n="33"/>tet, etc. </quote>
+            </p>
+            <p xml:id="alalal-ee8172-d1e160">
+               <lb ed="Bd" n="34"/>Prima harum partium quae tota in hac
+<lb ed="Bd" n="35"/>distinctione tertia terminatur, dividitur
+<lb ed="Bd" n="36"/>in tres partes: in quarum prima 
+expla<lb break="no" ed="Bd" n="37"/>natur sanctificatio Beate Virginis, et mo-
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="38"/>dus conceptionis, quia sanctificatio ejus
+<lb ed="Bd" n="39"/>disposuit ad conceptionem. In secunda
+<lb ed="Bd" n="40"/>vero, quia Beata Virgo secundum totam
+<lb ed="Bd" n="41"/>suam carnem obnoxia fuit peccato in 
+pa<lb break="no" ed="Bd" n="42"/>rentibus, quaeritur, Utrum Christus vel
+<lb ed="Bd" n="43"/>caro Christi secundum obnoxietalem
+<lb ed="Bd" n="44"/>peccati et signum obnoxietatis quod est
+<lb ed="Bd" n="45"/>decimatio, fuitin lumbis Patrum, sicut
+<lb ed="Bd" n="46"/>Abrahe, et aliorum? ibi, C, <quote xml:id="alalal-ee8172-Qd1e192"> Cum 
+au<lb break="no" ed="Bd" n="47"/>tem illa caro, cujus excellentia, etc. </quote>
+               <lb ed="Bd" n="48"/>Quia vero dictum fuit in prima parte,
+<lb ed="Bd" n="49"/>quod Christus carnem factam univit sibi,
+<lb ed="Bd" n="50"/>ideo in tertia parte objicit contra, et 
+sol<lb break="no" ed="Bd" n="51"/>vit, ubi, E, <quote xml:id="alalal-ee8172-Qd1e206"> Ldli autem senientiae qua
+<lb ed="Bd" n="52"/>supra diximus, etc.</quote>
+            </p>
+            <p xml:id="alalal-ee8172-d1e213">
+               <lb ed="Bd" n="53"/>Prima harum adhuc in tres 
+subdividi<lb break="no" ed="Bd" n="54"/>tur: in quarum prima ostendit carnem
+<lb ed="Bd" n="55"/>assumptam antequam assumeretur, fuisse
+<lb ed="Bd" n="56"/>carnem Virginis, et peccato obnoxiam.
+<lb ed="Bd" n="57"/>In secunda, ostendit modum 
+sanctifica<lb break="no" ed="Bd" n="58"/>tionis et conceptionis Christi in gloriosa
+<lb ed="Bd" n="59"/>Virgine, ibi, A, § 2: <quote xml:id="alalal-ee8172-Qd1e230"> Mariam quoque
+<lb ed="Bd" n="60"/>totam Spiritus sanctus, etc. </quote> In tertia,
+<lb ed="Bd" n="61"/>probat Beatam Virginem ex tune omni
+<lb ed="Bd" n="62"/>peccato caruisse, ibi, B, <quote xml:id="alalal-ee8172-Qd1e239"> Quod autem
+<lb ed="Bd" n="63"/>sacra Virgo ex tune, etc. </quote>
+            </p>
+            <p xml:id="alalal-ee8172-d1e245">
+               <lb ed="Bd" n="64"/>Littera primae partis per se patet.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="228"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i47738"><!-- l4d31dt1 -->
+            <head xml:id="alalal-i47738-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-i47738-d1e101">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="12"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-i47738-d1e108">
+               <lb ed="#Bf" n="13"/>
+               <quote xml:id="alalal-i47738-Qd1e112"> Post haec de bonis congugii, etc. </quote>
+               <lb ed="#Bf" n="14"/>Hee est pars in qua agitur de bonis
+<lb ed="#Bf" n="15"/>conjugii ab Auctore, et dividilur in duas
+<lb ed="#Bf" n="16"/>partes.
+</p>
+            <p xml:id="alalal-i47738-d1e121">
+               <lb ed="#Bf" n="17"/>In prima agilur de bonis conjugii. Jn
+<lb ed="#Bf" n="18"/>secunda, qualiter per hac bona coitus
+<lb ed="#Bf" n="19"/>excusatur : et hae incipit, ibi, By <quote xml:id="alalal-i47738-Qd1e129"> Cran
+<lb ed="#Bf" n="20"/>ergohe: tria bona, etc. </quote>
+            </p>
+            <p xml:id="alalal-i47738-d1e135">
+               <lb ed="#Bf" n="21"/>Item, Prima dividitur in tres. In 
+pri<lb break="no" ed="#Bf" n="22"/>ma, ostendit quae sunt bona. In secun-
+<cb ed="#Bf" n="c"/>
+               <lb ed="#Bf" n="23"/>da, oslendit quod non in omni 
+matri<lb break="no" ed="#Bf" n="24"/>monio sunt (ria, ibi, C, <quote xml:id="alalal-i47738-Qd1e148"> Lé est 
+scien<lb break="no" ed="#Bf" n="25"/>dum, etc. </quote> In tertia, quarit utrum 
+ali<lb break="no" ed="#Bf" n="26"/>quod matrimonium sit, in quo nullum
+<lb ed="#Bf" n="27"/>sit, ibi, E, <quote xml:id="alalal-i47738-Qd1e157"> Hicgueri solet, etc. </quote>
+            </p>
+            <p xml:id="alalal-i47738-d1e161">
+               <lb ed="#Bf" n="28"/>Incidunt autem hic ante Litderam sex
+<lb ed="#Bf" n="29"/>inquirenda, quorum primum est, In quo
+<lb ed="#Bf" n="30"/>genere boni sit matrimonium ?
+<lb ed="#Bf" n="31"/>Secundam, In quo genere incidant sua
+<lb ed="#Bf" n="32"/>bona ?
+<lb ed="#Bf" n="33"/>Tertium est de comparatione istorum
+<lb ed="#Bf" n="34"/>bonorum.
+<lb ed="#Bf" n="35"/>Quartum, Utrum conveniant ei 
+sccun<lb break="no" ed="#Bf" n="36"/>dum quod est in remedium, vel 
+secun<lb break="no" ed="#Bf" n="37"/>dum quod est in officium, vel secundum
+<lb ed="#Bf" n="38"/>utrumque ?
+<pb ed="#Bf" n="229"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Quintum, Utrum hoc habeat omne
+<lb ed="#Bf" n="2"/>matrimonium quarumcumque 
+persona<lb break="no" ed="#Bf" n="3"/>rum ?
+<lb ed="#Bf" n="4"/>Sextum, Utrum ista conveniant 
+matri<lb break="no" ed="#Bf" n="5"/>monio in quantum est initiatum, vel in
+<lb ed="#Bf" n="6"/>quantum est ratum, vel in quantum est:
+<lb ed="#Bf" n="7"/>consummatum ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="579"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b11753"><!-- l1d23a1 -->
+            <head xml:id="alalal-b11753-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-b11753-Hd1e101" type="question-title">Utrum in divinis sit vel possit esse
+persona ?</head>
+            <p xml:id="alalal-b11753-d1e104">
+               <lb ed="#Ba" n="35"/>ARTICULUS I.
+<lb ed="#Ba" n="36"/>Utrum in divinis sit vel possit esse
+<lb ed="#Ba" n="37"/>persona ?
+</p>
+            <p xml:id="alalal-b11753-d1e113">
+               <lb ed="#Ba" n="38"/>Et quia circa istum tractatum major
+<lb ed="#Ba" n="39"/>difficultas libri consistit, ideo ante 
+Litte<lb break="no" ed="#Ba" n="40"/>ram queruntur hic duo, scilicet si 
+per<lb break="no" ed="#Ba" n="41"/>sona est in divinis, vel potest esse? 
+Se<lb break="no" ed="#Ba" n="42"/>cundo, dato quod sic, utrum significet
+<lb ed="#Ba" n="43"/>substantiam vel proprietatem ? Hoc enim
+<lb ed="#Ba" n="44"/>oporteret scire ante diffinitionem persone.
+</p>
+            <p xml:id="alalal-b11753-d1e131">
+               <lb ed="#Ba" n="45"/>Videtur autem persona non esse in
+<lb ed="#Ba" n="46"/>divinis :
+<lb ed="#Ba" n="47"/>1. In inferioribus enim videmus nihil
+<lb ed="#Ba" n="48"/>tante compositionis sicut persona est :
+<lb ed="#Ba" n="49"/>ergo nihil tantum repugnat maxime 
+sim<lb break="no" ed="#Ba" n="50"/>plicitati : sed maxima simplicitas est in
+<lb ed="#Ba" n="51"/>divinis : ergo nulla potest ibi esse 
+per<lb break="no" ed="#Ba" n="52"/>sonalitas. Quod autem persona maximam
+<lb ed="#Ba" n="53"/>dicat compositionem, sic probatur : Hoc
+<lb ed="#Ba" n="54"/>aliquid in rationali natura est ultimum
+<lb ed="#Ba" n="55"/>compositionis naturalis, in quo sunt 
+om<lb break="no" ed="#Ba" n="56"/>nium praecedentium compositiones: 
+com<lb break="no" ed="#Ba" n="57"/>positio enim clementi ex forma et 
+mate<lb break="no" ed="#Ba" n="58"/>ria determinata contrarietate, et 
+compo<lb break="no" ed="#Ba" n="59"/>silio mixti, et compositio complexionati,
+<lb ed="#Ba" n="60"/>et compositio heterogenii in membris
+<lb ed="#Ba" n="61"/>dissimilibus organicis, et compositio cor
+<lb ed="#Ba" n="62"/>poris et anime vegetabilis et sensibilis
+<lb ed="#Ba" n="63"/>et rationalis ponitur in eo quod est hoc
+<lb ed="#Ba" n="64"/>aliquid in natura rationali. Alia autem
+<lb ed="#Ba" n="65"/>est compositio accidentium naturalium
+<lb ed="#Ba" n="66"/>et individuantium et personam 
+facien<lb break="no" ed="#Ba" n="67"/>tium : et haectriplex etiam supponitu
+<pb ed="#Ba" n="580"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>in persona: ergo persona claudit in se
+<lb ed="#Ba" n="2"/>omne genus compositionis, et 
+substan<lb break="no" ed="#Ba" n="3"/>tialis, et accidentalis: et sic constat 
+pro<lb break="no" ed="#Ba" n="4"/>positio prima.
+</p>
+            <p xml:id="alalal-b11753-d1e197">
+               <lb ed="#Ba" n="5"/>2. Item, Non est persona quae non 
+sub<lb break="no" ed="#Ba" n="6"/>sistat nature communi et proprietati 
+di<lb break="no" ed="#Ba" n="7"/>stinguenti : nihil autem subsistit sic nisi
+<lb ed="#Ba" n="8"/>subjectum : ergo quod non est subjectum
+<lb ed="#Ba" n="9"/>nec substat nature, non est persona. 
+Di<lb break="no" ed="#Ba" n="10"/>cit autem Boetius, quod in divinis 
+sub<lb break="no" ed="#Ba" n="11"/>jectum esse non potest, cum sit forma
+<lb ed="#Ba" n="12"/>simplex : ergo nec persona ibi esse 
+pot<lb break="no" ed="#Ba" n="13"/>est.
+</p>
+            <p xml:id="alalal-b11753-d1e219">
+               <lb ed="#Ba" n="14"/>3. Item, Id quod est maxime 
+divisio<lb break="no" ed="#Ba" n="15"/>nis secundum naturam, maxime 
+repu<lb break="no" ed="#Ba" n="16"/>gnat unitati simplicissime : sed persona
+<lb ed="#Ba" n="17"/>est maxime divisionis secundum 
+natu<lb break="no" ed="#Ba" n="18"/>ram : ergo pluralitas personarum maxime
+<lb ed="#Ba" n="19"/>repugnat unitati simplicissime. Prima
+<lb ed="#Ba" n="20"/>constat. Szecunpa probatur per hoc quod
+<lb ed="#Ba" n="21"/>in natura non est nisi potentia et actus,
+<lb ed="#Ba" n="22"/>et compositum ex utroque: quae autem
+<lb ed="#Ba" n="23"/>in potentia plura sunt, non sunt plura
+<lb ed="#Ba" n="24"/>nisi secundum quid: sed forma in eadem
+<lb ed="#Ba" n="25"/>natura secundum rationem ad minus est
+<lb ed="#Ba" n="26"/>una: compositum autem a composito
+<lb ed="#Ba" n="27"/>differt per formam naturalem et materiam
+<lb ed="#Ba" n="28"/>naturalem : ergo utraque dividitur ab eo :
+<lb ed="#Ba" n="29"/>ergo pluralitas illius maxime repugnat
+<lb ed="#Ba" n="30"/>prime simplicitati.
+</p>
+            <p xml:id="alalal-b11753-d1e258">
+               <lb ed="#Ba" n="31"/>4. Item, Per se unum non est ab alio
+<lb ed="#Ba" n="32"/>distinctum si non habet distinctionem
+<lb ed="#Ba" n="33"/>substantia a qua est omnis numerus 
+per<lb break="no" ed="#Ba" n="34"/>sonarum : substantia autem in divinis non
+<lb ed="#Ba" n="35"/>numeratur: ergo non admittit 
+persona<lb break="no" ed="#Ba" n="36"/>rum pluralitatem: ergo in divinis ad
+<lb ed="#Ba" n="37"/>minus non est hoc modo persona, quo
+<lb ed="#Ba" n="38"/>ponimus ibi personas.
+</p>
+            <p xml:id="alalal-b11753-d1e278">
+               <lb ed="#Ba" n="39"/>3. Item, Hoc videtur per Augustinum ‘,
+<lb ed="#Ba" n="40"/>et ponitur hic in Litéera, ubi dicit, quod
+<lb ed="#Ba" n="41"/>non ideo fuit responsum tres persone
+<lb ed="#Ba" n="42"/>hereticis querentibus quid tres, ut illud
+<lb ed="#Ba" n="43"/>diceretur : sed ne taceretur : ergo 
+vide<lb break="no" ed="#Ba" n="44"/>tur, quod persona non debet dici esse in
+<lb ed="#Ba" n="45"/>divinis.
+</p>
+            <p xml:id="alalal-b11753-d1e296">
+               <lb ed="#Ba" n="46"/>6. Item, Anselmusin Monologio :<quote xml:id="alalal-b11753-Qd1e300"> Li-
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" n="47"/>cet possum dicere Trinitatem propter
+<lb ed="#Ba" n="48"/>Patrem et Filium et Spiritum sanctum
+<lb ed="#Ba" n="49"/>qui sunt tres, non tamen possum 
+pro<lb break="no" ed="#Ba" n="50"/>ferre uno nomine propter quid tres, 
+ve<lb break="no" ed="#Ba" n="51"/>lut si dicerem, propter tres personas:
+<lb ed="#Ba" n="52"/>sicut dicerem unitatem propter unam
+<lb ed="#Ba" n="53"/>substantiam : non enim putand# sunt
+<lb ed="#Ba" n="54"/>tres persona@, quia omnes persone sic
+<lb ed="#Ba" n="55"/>subsistunt separate ab invicem, ut tot
+<lb ed="#Ba" n="56"/>sit necesse esse substantias, quot sunt
+<lb ed="#Ba" n="57"/>persone ”, </quote> Item, ibidem: <quote xml:id="alalal-b11753-Qd1e329"> In summa
+<lb ed="#Ba" n="58"/>essentia sicut non sunt plures substantia,
+<lb ed="#Ba" n="59"/>sic non sunt plures persone. </quote> Ex his 
+ac<lb break="no" ed="#Ba" n="60"/>cipitur, quod persona non competit di-~
+<lb ed="#Ba" n="61"/>vinis.
+</p>
+            <p xml:id="alalal-b11753-d1e341">
+               <lb ed="#Ba" n="62"/>SED CONTRA :
+<lb ed="#Ba" n="63"/>1. <ref xml:id="alalal-b11753-Rd1e347">
+                  <name xml:id="alalal-b11753-Nd1e349">Richardus de sancto Victore</name> in libro
+<lb ed="#Ba" n="64"/>suo de Trinitate</ref> dicit : <quote xml:id="alalal-b11753-Qd1e354"> Timentes ubi non
+<lb ed="#Ba" n="65"/>est timor, recte timerent personas 
+secun<lb break="no" ed="#Ba" n="66"/>dum substantiam dici, si persona tantum
+<lb ed="#Ba" n="67"/>esse substantiale significaret, nec aliquid
+<lb ed="#Ba" n="68"/>consignificarets: </quote> ergo videtur quod 
+per<lb break="no" ed="#Ba" n="69"/>sona sit in divinis: et quod qui timent
+<lb ed="#Ba" n="70"/>dicere, timent ubi non est timor.
+</p>
+            <p xml:id="alalal-b11753-d1e372">
+               <lb ed="#Ba" n="71"/>2. Hem, In Littera, habemus, quod
+<lb ed="#Ba" n="72"/>convenientius dicuntur tres persone,
+<lb ed="#Ba" n="73"/>cum quaeritur, quid tres? quam aliquid
+<lb ed="#Ba" n="74"/>aliud,
+</p>
+            <p xml:id="alalal-b11753-d1e383">
+               <lb ed="#Ba" n="75"/>3. Item, Persona dicit nature rem 
+di<lb break="no" ed="#Ba" n="76"/>stinctam, et persona magis significatur
+<lb ed="#Ba" n="77"/>per quis, quam per quid : quia guid 
+que<lb break="no" ed="#Ba" n="78"/>rit de natura indistincta, guis autem de
+<lb ed="#Ba" n="79"/>distincta : sed in divinis sunt plures 
+ali<lb break="no" ed="#Ba" n="80"/>qui distincti : ergo cum divina natura sit
+<lb ed="#Ba" n="81"/>natura intellectualis, ibi sunt aliqui 
+di<lb break="no" ed="#Ba" n="82"/>stincti nature rationalis: ergo a 
+diffe<lb break="no" ed="#Ba" n="83"/>rendo sunt in divinis persone.
+</p>
+            <p xml:id="alalal-b11753-d1e405">
+               <lb ed="#Ba" n="84"/>4. Item, Persona est per se una: sed
+<lb ed="#Ba" n="85"/>per se unus est Pater, et per se unus
+<lb ed="#Ba" n="86"/>Filius, et per se unus est Spiritus 
+san<lb break="no" ed="#Ba" n="87"/>ctus : ergo sunt ibi plures persone : ergo,
+<lb ed="#Ba" n="88"/>etc.
+</p>
+            <p xml:id="alalal-b11753-d1e418">
+               <lb ed="#Ba" n="89"/>5. Item, <name xml:id="alalal-b11753-Nd1e422">Richardus</name> : <quote xml:id="alalal-b11753-Qd1e424"> Triplex distinctio
+<lb ed="#Ba" n="90"/>personalis invenitur, scilicet proprietate
+<lb ed="#Ba" n="91"/>sola, origine sola, proprietate simul ct
+<lb ed="#Ba" n="92"/>origine. In Angelis proprietate sola, in
+<pb ed="#Ba" n="581"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" n="1"/>Deo origine sola, in homine autem 
+pro<lb break="no" ed="#Ba" n="2"/>prietate simul et origine : </quote> ergo in divinis
+<lb ed="#Ba" n="3"/>est persona.
+</p>
+            <p xml:id="alalal-b11753-d1e445">
+               <lb ed="#Ba" n="4"/>6. Item, Ultimum et perfectissimum
+<lb ed="#Ba" n="5"/>rationalis nature est persona : ergo 
+per<lb break="no" ed="#Ba" n="6"/>sonalitas ultima dicit perfectionis 
+ratio<lb break="no" ed="#Ba" n="7"/>nem: quidquid autem perfectionis est,
+<lb ed="#Ba" n="8"/>Deo attribui debet: ergo ratio 
+personali<lb break="no" ed="#Ba" n="9"/>tatis Deo attribui debet, et maxime, ut
+<lb ed="#Ba" n="10"/>videtur.
+</p>
+            <p xml:id="alalal-b11753-d1e463">
+               <lb ed="#Ba" n="11"/>7. Item, Supra probatum est divinam
+<lb ed="#Ba" n="12"/>naturam communicabilem esse : 
+commu<lb break="no" ed="#Ba" n="13"/>nio autem nature intellectualis etiam 
+in<lb break="no" ed="#Ba" n="14"/>telligi non potest nisi intelligatur 
+com<lb break="no" ed="#Ba" n="15"/>municans ean: omne autem 
+communi<lb break="no" ed="#Ba" n="16"/>cans naturam intellectualem est persona:
+<lb ed="#Ba" n="17"/>ergo in divinis sunt persone.
+</p>
+            <p xml:id="alalal-b11753-d1e482">
+               <lb ed="#Ba" n="18"/>Solutio. Absque dubio et hesitatione
+<lb ed="#Ba" n="19"/>concedendum est, quod in divinis sunt
+<lb ed="#Ba" n="20"/>plures communicantes naturam divinam
+<lb ed="#Ba" n="21"/>intellectualem : et quia tales 
+communi<lb break="no" ed="#Ba" n="22"/>cantes necessario distincti sunt, ideo 
+ne<lb break="no" ed="#Ba" n="23"/>cesse est concedere, quod sunt persone
+<lb ed="#Ba" n="24"/>in divinis, et quod ratio personalitatis
+<lb ed="#Ba" n="25"/>conveniat eis, licet non omni eadem 
+ra<lb break="no" ed="#Ba" n="26"/>tione qua invenitur personalitas in 
+natu<lb break="no" ed="#Ba" n="27"/>ra humana et angelica, ut patebit in 
+se<lb break="no" ed="#Ba" n="28"/>quentibus.
+</p>
+            <p xml:id="alalal-b11753-d1e508">
+               <lb ed="#Ba" n="29"/>Ap pPRimuM ergo dicendum, quod
+<lb ed="#Ba" n="30"/>compositio maxima accidit persone ex
+<lb ed="#Ba" n="31"/>natura qua communicat cum alts in 
+ge<lb break="no" ed="#Ba" n="32"/>nere forme et materiae : ideo enim 
+opor<lb break="no" ed="#Ba" n="33"/>tet multis eam trahi ad perfectionem cui
+<lb ed="#Ba" n="34"/>soli convenit ratio personalitatis. Si illam
+<lb ed="#Ba" n="35"/>autem perfectionem in primo inveniret,
+<lb ed="#Ba" n="36"/>non oporteret tot compositionibus eam
+<lb ed="#Ba" n="37"/>trahi ad illud: unde si natura elementi
+<lb ed="#Ba" n="38"/>esset intellectualis, non oporteret fieri
+<lb ed="#Ba" n="39"/>compositionem, quia hoc elementum 
+ha<lb break="no" ed="#Ba" n="40"/>bens naturam clementi communius esset
+<lb ed="#Ba" n="41"/>persona: et hoc patet, quia in Angelis
+<lb ed="#Ba" n="42"/>personalitas non requirit hujusmodi
+<lb ed="#Ba" n="43"/>compositionem, et in divinis non 
+requi<lb break="no" ed="#Ba" n="44"/>rit aliquam compositionem.
+</p>
+            <p xml:id="alalal-b11753-d1e545">
+               <lb ed="#Ba" n="45"/>Ad aliud dicendum, quod secundum
+<lb ed="#Ba" n="46"/>Richardum, differentia est inter subsistere
+<lb ed="#Ba" n="47"/>et existere : subsistit enim quod per se
+<lb ed="#Ba" n="48"/>distinctum est proptetate quae im ipso
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="49"/>est ut in subjecto: existit autem quod
+<lb ed="#Ba" n="50"/>per se est distinctum ex origine, hoc est,
+<lb ed="#Ba" n="51"/>ex modo originis, scilicet quia ex 
+origi<lb break="no" ed="#Ba" n="52"/>nis ratione distinguitur ab eo quod ab
+<lb ed="#Ba" n="53"/>ipso est, vel a quo ipsum est : unde 
+pro<lb break="no" ed="#Ba" n="54"/>prie loquendo in angelica natura 
+perso<lb break="no" ed="#Ba" n="55"/>ne sunt subsistentia tantum : quia una
+<lb ed="#Ba" n="56"/>earum non distinguitur ab alia per hoc
+<lb ed="#Ba" n="57"/>quod una sit ex alia, vel alia ex ipsa: sed
+<lb ed="#Ba" n="58"/>proprietatibus quibus subsistunt et 
+sub<lb break="no" ed="#Ba" n="59"/>stant, personalis distinctio eorum 
+inve<lb break="no" ed="#Ba" n="60"/>nitur in eis. In divinis autem proprie 
+lo<lb break="no" ed="#Ba" n="61"/>quendo persone sunt existentia# : quia
+<lb ed="#Ba" n="62"/>distinguuntur modo originis vel relatione
+<lb ed="#Ba" n="63"/>que non est in distincto ut in subjecto,
+<lb ed="#Ba" n="64"/>sed potius (ut dicunt Augustinus et 
+Boe<lb break="no" ed="#Ba" n="65"/>tius) praedicat id quod ad alterum est, et
+<lb ed="#Ba" n="66"/>non quod ad se est secundum originis
+<lb ed="#Ba" n="67"/>modum quo alter est ex altero. Ju 
+huma<lb break="no" ed="#Ba" n="68"/>nis autem accipitur distinctio secundum
+<lb ed="#Ba" n="69"/>utraque, scilicet substare collationi 
+pro<lb break="no" ed="#Ba" n="70"/>prietatum individuantium, et secundum
+<lb ed="#Ba" n="71"/>originis modum quo persona a persona
+<lb ed="#Ba" n="72"/>educitur: et ideo substantes vel 
+subsisten<lb break="no" ed="#Ba" n="73"/>tes essentia vocantur. Sed alii Doctores
+<lb ed="#Ba" n="74"/>sacre Scripture subsistentias large 
+acci<lb break="no" ed="#Ba" n="75"/>piunt pro qualiter cumque per se 
+existen<lb break="no" ed="#Ba" n="76"/>tibus hypostasibus : et ideo personas 
+di<lb break="no" ed="#Ba" n="77"/>vinas subsistentes vel subsistentias 
+vo<lb break="no" ed="#Ba" n="78"/>cant.
+</p>
+            <p xml:id="alalal-b11753-d1e623">
+               <lb ed="#Ba" n="79"/>Ap a1iup dicendum, quod licet persona
+<lb ed="#Ba" n="80"/>in creata natura intellectuali sit maxime
+<lb ed="#Ba" n="81"/>divisions inter ea quae sunt eadem, quia
+<lb ed="#Ba" n="82"/>est majoris divisionis quam forma 
+secun<lb break="no" ed="#Ba" n="83"/>dum se: hoc tamen accidit ei, scilicet in
+<lb ed="#Ba" n="84"/>quantum est in hae natura: constitulio
+<lb ed="#Ba" n="85"/>enim persone est ex eo quod sit per se
+<lb ed="#Ba" n="86"/>unum secundum quemcumque existentia 
+<lb ed="#Ba" n="87"/>modum in natura intellectuali, et ideo
+<lb ed="#Ba" n="88"/>hoc argumentum non procedit.
+</p>
+            <p xml:id="alalal-b11753-d1e647">
+               <lb ed="#Ba" n="89"/>Ad aliud dicendum, guod habere 
+sub<lb break="no" ed="#Ba" n="90"/>stantiam divisam in personis accidit ex
+<lb ed="#Ba" n="91"/>nature formalis ignobilitate, cum natura
+<lb ed="#Ba" n="92"/>forine create in pluribus divisa per esse
+<lb ed="#Ba" n="93"/>remaneat ratione una, et sic nititur ad
+<lb ed="#Ba" n="94"/>unitatem, in pluribus ostenditur satis :
+<lb ed="#Ba" n="95"/>quoniam si posset, etiam secundum esse
+<lb ed="#Ba" n="96"/>et secundum id quod est, maneret una:
+<lb ed="#Ba" n="97"/>sed quia non plene simplex est, ideo ac-
+<pb ed="#Ba" n="582"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>cidit ei hujusmod: divisio in personis et
+<lb ed="#Ba" n="2"/>hypostasibus in quibus est. In divinis
+<lb ed="#Ba" n="3"/>autem in quibus est plena simplicitas,
+<lb ed="#Ba" n="4"/>existentia modus secundum originem
+<lb ed="#Ba" n="5"/>inducit rationem alietatis et 
+personalita<lb break="no" ed="#Ba" n="6"/>tis: et tamen substantia id quod est, 
+ma<lb break="no" ed="#Ba" n="7"/>net indivisa: et bene concedimus, et 
+in<lb break="no" ed="#Ba" n="8"/>fra probabimus in sequenti distinctione,
+<lb ed="#Ba" n="9"/>quod non simpliciter numerus est in 
+di<lb break="no" ed="#Ba" n="10"/>vinis, et quod personarum vel notionum
+<lb ed="#Ba" n="11"/>numerus non est simpliciter numerus :
+<lb ed="#Ba" n="12"/>et hoc ideo, quia nullo modo ponimus in
+<lb ed="#Ba" n="13"/>divinis substantiam numerari, neque 
+se<lb break="no" ed="#Ba" n="14"/>cundum se, neque secundum quod est in
+<lb ed="#Ba" n="15"/>persona.
+</p>
+            <p xml:id="alalal-b11753-d1e706">
+               <lb ed="#Ba" n="16"/>Ad aliud dicendum, quod Augustinus
+<lb ed="#Ba" n="17"/>non intendit, quod non debet dici tres
+<lb ed="#Ba" n="18"/>persone : sed quia non dicitur ea ratione
+<lb ed="#Ba" n="19"/>qua dicitur in inferioribus, ubi per 
+sub<lb break="no" ed="#Ba" n="20"/>stantiam forme et materia, sive quod
+<lb ed="#Ba" n="21"/>est et quo est, persone ab invicem 
+divi<lb break="no" ed="#Ba" n="22"/>duntur.
+</p>
+            <p xml:id="alalal-b11753-d1e725">
+               <lb ed="#Ba" n="23"/>Ad aliud dicendum eodem modo, quod
+<lb ed="#Ba" n="24"/>Anselmus nihil aliud intendit, nisi quod
+<lb ed="#Ba" n="25"/>modus existentiae in divinis non sic fact
+<lb ed="#Ba" n="26"/>personam sicut in humanis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

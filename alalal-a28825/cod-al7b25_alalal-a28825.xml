@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="142"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a28825"><!-- l1d3dt5 -->
+            <head xml:id="alalal-a28825-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a28825-d1e101">
+               <lb ed="#Ba" n="19"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-a28825-d1e106">
+               <lb ed="#Ba" n="20"/>
+               <quote xml:id="alalal-a28825-Qd1e110"> Verumtamen caveat ne hanc, etc. </quote>
+               <lb ed="#Ba" n="21"/>Hic incipit lertia pars istius partis que
+<lb ed="#Ba" n="22"/>est de imagine prima: et hic assignat
+<lb ed="#Ba" n="23"/>Magister differentiam inter imaginem, et
+<lb ed="#Ba" n="24"/>exemplar : et ponit super hoc tria parva
+<lb ed="#Ba" n="25"/>capitula, in quorum primo dicit, quod in
+<lb ed="#Ba" n="26"/>pluribus dissimilitudo est imaginis create
+<lb ed="#Ba" n="27"/>ad increalam quam convenientia. In 
+se<lb break="no" ed="#Ba" n="28"/>cunda, tangit quamdam similitudinem,
+<lb ed="#Ba" n="29"/>scilicet quod homo habet haectria, et non
+<lb ed="#Ba" n="30"/>est haectria: habet autem in parte sui, et
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="31"/>ideo illa pars dicitur imago, et homo 
+to<lb break="no" ed="#Ba" n="32"/>tus gratia illius partis, sicut tabula 
+dici<lb break="no" ed="#Ba" n="33"/>tur imago gratia picture: et haec 
+inci<lb break="no" ed="#Ba" n="34"/>pit, ibi, Q, <quote xml:id="alalal-a28825-Qd1e145"> Quod breviter ostendi 
+pot<lb break="no" ed="#Ba" n="35"/>est, etc. </quote> In tertia, aliam 
+dissimilitudi<lb break="no" ed="#Ba" n="36"/>nem ostendit: quia illa tria in imagine in
+<lb ed="#Ba" n="37"/>una persona sunt: sed in exemplari sunt
+<lb ed="#Ba" n="38"/>tres persone unus Deus, et non unius
+<lb ed="#Ba" n="39"/>Dei: et haecincipit, ih, R, <quote xml:id="alalal-a28825-Qd1e158"> 
+Rur<lb break="no" ed="#Ba" n="40"/>sus, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

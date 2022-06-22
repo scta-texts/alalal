@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="566"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b09283"><!-- l1d22a1 -->
+            <head xml:id="alalal-b09283-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-b09283-Hd1e101" type="question-title">Utrum omne nomen dictum de Deo 
+significet proprietatem, aut essentiam,
+aut dicatur de Deo per 
+translationem ?</head>
+            <p xml:id="alalal-b09283-d1e104">
+               <lb ed="#Ba" n="19"/>ARTICULUS I.
+<lb ed="#Ba" n="20"/>Utrum omne nomen dictum de Deo 
+si<lb break="no" ed="#Ba" n="21"/>gnificet proprietatem, aut essentiam,
+<lb ed="#Ba" n="22"/>aut dicatur de Deo per 
+translatio<lb break="no" ed="#Ba" n="23"/>nem ?
+</p>
+            <p xml:id="alalal-b09283-d1e117">
+               <lb ed="#Ba" n="24"/>Incidit ergo hic questio primo de 
+di<lb break="no" ed="#Ba" n="25"/>visione Ambrosit quae tangitur, — ibi,
+<lb ed="#Ba" n="26"/>
+               <quote xml:id="alalal-b09283-Qd1e125"> Quo purius niteat fides, etc. </quote>
+            </p>
+            <p xml:id="alalal-b09283-d1e128">
+               <lb ed="#Ba" n="27"/>Secundum hance enim divisionem 
+om<lb break="no" ed="#Ba" n="28"/>ne nomen dictum de Deo, aut significat
+<lb ed="#Ba" n="29"/>proprietatem, aut essentiam, aut dicitur
+<lb ed="#Ba" n="30"/>per translationem.
+</p>
+            <p xml:id="alalal-b09283-d1e140">
+               <lb ed="#Ba" n="31"/>1. Videtur autem divisio esse 
+insuffi<lb break="no" ed="#Ba" n="32"/>ciens : primo, per hoc quod infra ponit
+<lb ed="#Ba" n="33"/>divisionem sex membrorum. Secundo,
+<lb ed="#Ba" n="34"/>quia quaedam ab aeterno conveniunt Deo,
+<lb ed="#Ba" n="35"/>que nullum illorum significant, ut 
+per<lb break="no" ed="#Ba" n="36"/>sona, trinitas, et hujusmodi : haec enim
+<lb ed="#Ba" n="37"/>non dicunt proprietatem : quia 
+proprie<lb break="no" ed="#Ba" n="38"/>tas est in persona determinans ipsam.
+</p>
+            <p xml:id="alalal-b09283-d1e160">
+               <lb ed="#Ba" n="39"/>2. Item, Essentialium quaedam 
+dicun<lb break="no" ed="#Ba" n="40"/>tur relative, ut similis, aequalis : et 
+qua<lb break="no" ed="#Ba" n="41"/>dam relative ad creaturas : ergo videtur
+<lb ed="#Ba" n="42"/>divisio insufficiens.
+</p>
+            <p xml:id="alalal-b09283-d1e171">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="43"/>Praeterea, Essentialia non uno modo
+<lb ed="#Ba" n="44"/>significant substantiam : quia quedam
+<lb ed="#Ba" n="45"/>significant substantiam ut substantiam,
+<lb ed="#Ba" n="46"/>quedam autem ut id quod assequitur
+<lb ed="#Ba" n="47"/>substantiam, ut virtus, et hujusmodi.
+</p>
+            <p xml:id="alalal-b09283-d1e187">
+               <lb ed="#Ba" n="48"/>3. Item, Damascenus aliam dat 
+divi<lb break="no" ed="#Ba" n="49"/>sionem in primo libro, cap. 12, ubi 
+vi<lb break="no" ed="#Ba" n="50"/>detur innuere, quod quaedam significant
+<lb ed="#Ba" n="51"/>pelagus substantiae infinitum, non quid
+<lb ed="#Ba" n="52"/>est, ut hoc nomen, Qui est: quedam
+<lb ed="#Ba" n="53"/>autem operationis nomen, ut Deus
+<lb ed="#Ba" n="54"/>quedam autem ut id quod assequitur
+<lb ed="#Ba" n="55"/>substantiam, ut justus, bonus, et 
+hujus<lb break="no" ed="#Ba" n="56"/>modi: quaedam autem habitudinem ad
+<lb ed="#Ba" n="57"/>eaa quibus distinguitur: ut dominus,
+<lb ed="#Ba" n="58"/>rex, pastor, creator. Korum enim que
+<lb ed="#Ba" n="59"/>Subjiciuntur, dominus est : et eorum
+<lb ed="#Ba" n="60"/>que reguntur, rex: et eorum quae 
+pa<lb break="no" ed="#Ba" n="61"/>seuntur, pastor. Quedam autem 
+signifi<lb break="no" ed="#Ba" n="62"/>eant id quod non est, ut immensus, 
+in<lb break="no" ed="#Ba" n="63"/>corporeus : ergo videtur, quod divisio
+<lb ed="#Ba" n="64"/>Ambrosii non sit sufficiens.
+</p>
+            <p xml:id="alalal-b09283-d1e226">
+               <lb ed="#Ba" n="65"/>4, Item, Ingenitus nec relationem,
+<lb ed="#Ba" n="66"/>nec substantiam significat, nec etiam
+<lb ed="#Ba" n="67"/>per translationem dicitur : ergo non 
+ca<lb break="no" ed="#Ba" n="68"/>dit in aliqua partium divisionis Ambrosii.
+</p>
+            <p xml:id="alalal-b09283-d1e237">
+               <lb ed="#Ba" n="69"/>5. Praeterea, Dionysius magnam ponit
+<lb ed="#Ba" n="70"/>nominum diversitatem per ordinem in
+<lb ed="#Ba" n="71"/>libro de Divinis nominibus, ut bonus,
+<lb ed="#Ba" n="72"/>ens, vita, sapientia, justitia, virtus, salus,
+<lb ed="#Ba" n="73"/>liberator, aequalitas, inequalitas, 
+mag<lb break="no" ed="#Ba" n="74"/>num, parvum, alterum, simile, dissimile,
+<lb ed="#Ba" n="75"/>status, motus, omnipotens, antiquus 
+die<lb break="no" ed="#Ba" n="76"/>rum, pax, per se vita, per se virtus, 
+san<lb break="no" ed="#Ba" n="77"/>ctus, rex, dominus, perfectum, unum.
+<lb ed="#Ba" n="78"/>Ista autem omnia non possunt, ut 
+vide<lb break="no" ed="#Ba" n="79"/>tur, reduci ad istam divisionem.
+</p>
+            <p xml:id="alalal-b09283-d1e264">
+               <lb ed="#Ba" n="80"/>6. Praeterea, Videtur quod omne 
+no<lb break="no" ed="#Ba" n="81"/>men dictum de Deo, cadat sub uno
+<lb ed="#Ba" n="82"/>membro divisionis Ambrosii, — scilicet
+<lb ed="#Ba" n="83"/>quod est translative dici : dicunt enim
+<lb ed="#Ba" n="84"/>Sancti, quod de Deo nihil possumus 
+hu<lb break="no" ed="#Ba" n="85"/>mana voce dicere proprie: ergo 
+quid<lb break="no" ed="#Ba" n="86"/>quid humana voce dicitur de Deo, 
+dici<lb break="no" ed="#Ba" n="87"/>tur per translationem, et nihil per 
+pro<lb break="no" ed="#Ba" n="88"/>prietatem : et’ita videtur, quod nullum
+<lb ed="#Ba" n="89"/>dicit proprietatem divinam, nec maje~
+<lb ed="#Ba" n="90"/>statem, sed omnia dicuntur per 
+transla<lb break="no" ed="#Ba" n="91"/>tionem.
+</p>
+            <p xml:id="alalal-b09283-d1e293">
+               <pb ed="#Ba" n="567"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Solutio. Dicendum, quod divisiones
+<lb ed="#Ba" n="2"/>omnium sanctorum sufflicientes sunt :
+<lb ed="#Ba" n="3"/>sed non accipiuntur per unum modum.
+<lb ed="#Ba" n="4"/>Divisio autem Ambrosu licet sit 
+trimem<lb break="no" ed="#Ba" n="5"/>bris, tamen reduci habet ad duas 
+divi<lb break="no" ed="#Ba" n="6"/>siones bimembres sic, Omne nomen 
+di<lb break="no" ed="#Ba" n="7"/>clum de Deo, aut dicitur proprie 
+pro<lb break="no" ed="#Ba" n="8"/>prictate rei, aut dicitur per translationem
+<lb ed="#Ba" n="9"/>similitudinis rei, Si dicitur propric, aut
+<lb ed="#Ba" n="10"/>dictt proprielatem qua persona a 
+perso<lb break="no" ed="#Ba" n="11"/>na distinguitur, aul dicit essentiam : in
+<lb ed="#Ba" n="12"/>has cnim duas divisiones imeidit omne
+<lb ed="#Ba" n="13"/>nomen de Deo dictum. Prime autem
+<lb ed="#Ba" n="14"/>divisionis hac ratio est, quianomen 
+di<lb break="no" ed="#Ba" n="15"/>cit rem a qua imponitur, et rem cui 
+im<lb break="no" ed="#Ba" n="16"/>ponitur : illa res cul imponitur nomen,
+<lb ed="#Ba" n="17"/>apud Grammaticum est substantia 
+nomi<lb break="no" ed="#Ba" n="18"/>nis: illa autem a qua imponitur, cum
+<lb ed="#Ba" n="19"/>illa sit principruim intelligend: id quod
+<lb ed="#Ba" n="20"/>dicitur per nomen, est qualilas nomunis :
+<lb ed="#Ba" n="21"/>ilud ergo a quo imponitur, aul per
+<lb ed="#Ba" n="22"/>prius est in Deo et per posterius im 
+erea<lb break="no" ed="#Ba" n="23"/>tura : et sic dicitur propric, ut Pater
+<lb ed="#Ba" n="24"/>wternus, essenha, vita, sapientia, et 
+hu<lb break="no" ed="#Ba" n="25"/>jusmod: S:tautem ilud a quo 
+imponi<lb break="no" ed="#Ba" n="26"/>tur, repugnat nalure divine, tunc per
+<lb ed="#Ba" n="27"/>aliquam simuilitudinem corporalium ad
+<lb ed="#Ba" n="28"/>divina translatum de Deo dieitur, ul 
+la<lb break="no" ed="#Ba" n="29"/>pis, leo, splendor, speculum, et 
+hujus<lb break="no" ed="#Ba" n="30"/>modi, Haec ergo est ratio divisions 
+Am<lb break="no" ed="#Ba" n="31"/>brosii: unde sua divisto est generalis,
+<lb ed="#Ba" n="32"/>et comprehendit divisiones omnium 
+alio<lb break="no" ed="#Ba" n="33"/>rum sanctorum.
+</p>
+            <p xml:id="alalal-b09283-d1e371">
+               <lb ed="#Ba" n="34"/>Ap iw ergo quod contra objicitur, 
+di<lb break="no" ed="#Ba" n="35"/>cendum quod persona et Trinitas 
+signi<lb break="no" ed="#Ba" n="36"/>ficant proprictatem indistincle : quia in
+<lb ed="#Ba" n="37"/>divinis proprielas sive relatio 
+significa<lb break="no" ed="#Ba" n="38"/>tur multis modis, ut supra diximus :
+<lb ed="#Ba" n="39"/>quedam enim significant ad aliquid ut
+<lb ed="#Ba" n="40"/>ad aliquid, ut Pater : et quaedam 
+signili<lb break="no" ed="#Ba" n="41"/>cant ad aliquid ut ad se, ut paternitas,
+<lb ed="#Ba" n="42"/>et hujusmodi : quaedam autem 
+signifi<lb break="no" ed="#Ba" n="43"/>cant id quod est ad se, ut bonus, 
+sub<lb break="no" ed="#Ba" n="44"/>stantia, et hujusmodi : quaedam autem id
+<lb ed="#Ba" n="45"/>quod est ad se ut ad aliquid, ut similis,
+<lb ed="#Ba" n="46"/>et aequalis . et non cst instantia in Tri-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="47"/>nitate et persona : quia ila in se 
+clau<lb break="no" ed="#Ba" n="48"/>dunt relativa.
+</p>
+            <p xml:id="alalal-b09283-d1e408">
+               <lb ed="#Ba" n="49"/>Ad aliud dicendum, quod illos modos
+<lb ed="#Ba" n="50"/>specialiter non considerat Ambrosius,
+<lb ed="#Ba" n="51"/>sed potius generaliter . et ideo omnia 
+ta<lb break="no" ed="#Ba" n="52"/>hia eadunt sub ilis quae exprimunt 
+ma<lb break="no" ed="#Ba" n="53"/>jestatem divine essenti. vel m se vel
+<lb ed="#Ba" n="54"/>in personis, vel aeterne vel temporaliter.
+</p>
+            <p xml:id="alalal-b09283-d1e424">
+               <lb ed="#Ba" n="55"/>Ad hoc quod objicitur de divisione
+<lb ed="#Ba" n="56"/>Damascent, dicendum, quod ipse non 
+di<lb break="no" ed="#Ba" n="57"/>vidit nisi essentialia : ila autem 
+conno<lb break="no" ed="#Ba" n="58"/>tant eilectum in creaturis, aul significant
+<lb ed="#Ba" n="59"/>essentiam sine effectu. Et si primo 
+mo<lb break="no" ed="#Ba" n="60"/>do . tunc sunt sicut crealor, rex, et 
+hu<lb break="no" ed="#Ba" n="61"/>jusmodi. Si autem significant essentiam,
+<lb ed="#Ba" n="62"/>aut m se distinctam vel indistinctam,
+<lb ed="#Ba" n="63"/>aut ut assequens, aut id quod non est.
+<lb ed="#Ba" n="64"/>Si primo modo : sic est, gaa est, 
+essen<lb break="no" ed="#Ba" n="65"/>tia, substantia, etc., quia gut est dicit
+<lb ed="#Ba" n="66"/>indistinclam et non ponentem in 
+nume<lb break="no" ed="#Ba" n="67"/>rum, ut nolatum est de hoc nomme,
+<lb ed="#Ba" n="68"/>Qui est! Subslantia dicit distinctam,
+<lb ed="#Ba" n="69"/>et similiter essentia, et hujusmodi. Sed
+<lb ed="#Ba" n="70"/>id quod assequilur substantiam, aut est
+<lb ed="#Ba" n="71"/>ut habitus, aut operationem assequens :
+<lb ed="#Ba" n="72"/>secundum intellectum habitus, ut 
+bo<lb break="no" ed="#Ba" n="73"/>nus, sapiens : operationem assequens, ut
+<lb ed="#Ba" n="74"/>Deus. Quod autem non est dicit 
+immen<lb break="no" ed="#Ba" n="75"/>sus, et hujusmodi, quae notificant Deum
+<lb ed="#Ba" n="76"/>negatione : et secundum quid negationes
+<lb ed="#Ba" n="77"/>hujusmodi nominare et notilicare possint,
+<lb ed="#Ba" n="78"/>supra expositum est.
+</p>
+            <p xml:id="alalal-b09283-d1e479">
+               <lb ed="#Ba" n="79"/>Ap aritp diceadum, quod mfra 
+proba<lb break="no" ed="#Ba" n="80"/>bitur, quod wgenitus dicat relationem :
+<lb ed="#Ba" n="81"/>quia thi dabit Augustinus pro regula,
+<lb ed="#Ba" n="82"/>quod im codem genere in quo affirmat et
+<lb ed="#Ba" n="83"/>ponit affirmatio, in eodem negatio neget.
+</p>
+            <p xml:id="alalal-b09283-d1e493">
+               <lb ed="#Ba" n="84"/>Ad aliud dicendum, quod Dionysius
+<lb ed="#Ba" n="85"/>divisit nomina divina per traclatum 
+qua<lb break="no" ed="#Ba" n="86"/>tuor ibrorum : de quibusdam enim 
+tra<lb break="no" ed="#Ba" n="87"/>etat in libro suo quem vocat de 
+Hypo<lb break="no" ed="#Ba" n="88"/>stasibus, id est, de personis: im quo
+<lb ed="#Ba" n="89"/>ipse delerminat de uno membro istius
+<lb ed="#Ba" n="90"/>divisionis Ambrosi, scilicet de his que
+<lb ed="#Ba" n="91"/>proprietates dicunt in divinis. In alio
+<lb ed="#Ba" n="92"/>tangit de his qua secundum translatio-
+<pb ed="#Ba" n="568"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>nem, quod ipse symbolum vocat, de Deo
+<lb ed="#Ba" n="2"/>dicuntur, et de hoc fecit symbolicam
+<lb ed="#Ba" n="3"/>theologiam : quos duos libros non 
+habe<lb break="no" ed="#Ba" n="4"/>mus. Alia sunt nomina majestatem 
+di<lb break="no" ed="#Ba" n="5"/>vinitatis exprimentia : et haecattendi
+<lb ed="#Ba" n="6"/>possunt duobus modis, scilicet secundum
+<lb ed="#Ba" n="7"/>significata a quibus imponuniur, et 
+se<lb break="no" ed="#Ba" n="8"/>cundum modum praedicandi quem 
+ha<lb break="no" ed="#Ba" n="9"/>bent in divinis : et de significatis eorum
+<lb ed="#Ba" n="10"/>agit Dionysius in libro de Divinis 
+nomi<lb break="no" ed="#Ba" n="11"/>nibus per tredecim capitula, in quorum
+<lb ed="#Ba" n="12"/>tribus determinat modum procedendi et
+<lb ed="#Ba" n="13"/>accipit materiam : in decem autem 
+resi<lb break="no" ed="#Ba" n="14"/>duis tangit ipsa nomina. Modum autem
+<lb ed="#Ba" n="15"/>predicandi ipsorum, secundum quod 
+so<lb break="no" ed="#Ba" n="16"/>nant in ipsis nominibus, determinat in
+<lb ed="#Ba" n="17"/>libro quem vocat mysticam theologiam
+<lb ed="#Ba" n="18"/>a poate quod est secretum, eo quod res
+<lb ed="#Ba" n="19"/>ipsa secreta manet, et non tota ul est
+<lb ed="#Ba" n="20"/>potest nominari : et hujus causa dicta
+<lb ed="#Ba" n="21"/>est alibi’.
+</p>
+            <p xml:id="alalal-b09283-d1e565">
+               <lb ed="#Ba" n="22"/>SI AUTEM quaeritur, Penes quid sumitur
+<lb ed="#Ba" n="23"/>numerus quem tangit Dionysius in 
+de<lb break="no" ed="#Ba" n="24"/>cem capitulis libri de Divinis 
+nomini<lb break="no" ed="#Ba" n="25"/>bus?
+</p>
+            <p xml:id="alalal-b09283-d1e576">
+               <lb ed="#Ba" n="26"/>Responsio, quod ipse tangit ea 
+secun<lb break="no" ed="#Ba" n="27"/>dum quod manifestantur in causa ut 
+cau<lb break="no" ed="#Ba" n="28"/>sa talium effectuum in creaturis, precipue
+<lb ed="#Ba" n="29"/>rationalibus. Aut igitur sunt secundum
+<lb ed="#Ba" n="30"/>causam respicientem esse, aut bene esse,
+<lb ed="#Ba" n="31"/>aut perfectionem in utroque. Si sunt 
+pri<lb break="no" ed="#Ba" n="32"/>mo modo, aut est secundum 
+dispositio<lb break="no" ed="#Ba" n="33"/>nem cause inclinate ad effusionem 
+cau<lb break="no" ed="#Ba" n="34"/>sati: aut secundum ea quae diffundit
+<lb ed="#Ba" n="35"/>causando. Si primo modo, tunc est 
+bo<lb break="no" ed="#Ba" n="36"/>num : unde ipse dicit, quod bonum est
+<lb ed="#Ba" n="37"/>diffusivum sui et esse, cui necessario
+<lb ed="#Ba" n="38"/>conjunguntur quatuor alia, scilicet amor,
+<lb ed="#Ba" n="39"/>lumen, zelus, et ad bonum ulterius 
+con<lb break="no" ed="#Ba" n="40"/>jungitur pulchrum : ista enim dicunt
+<lb ed="#Ba" n="41"/>quasi dispositiones boni in causa prima :
+<lb ed="#Ba" n="42"/>sicut enim zelus sequitur ad amorem, ita
+<lb ed="#Ba" n="43"/>pulchrum sequitur ad lumen : lumen
+<lb ed="#Ba" n="44"/>enim dicit irradiationes #ternarum 
+ra<lb break="no" ed="#Ba" n="45"/>tionum, quibus unumquodque creatum
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="46"/>est, in causa creante pulchrum autem
+<lb ed="#Ba" n="47"/>dicit descensum ordinis sapientie 
+ordi<lb break="no" ed="#Ba" n="48"/>nantis, sicut dicit Boetius :
+<lb ed="#Ba" n="49"/>
+               <quote xml:id="alalal-b09283-Qd1e632">Mundum mente gerens pulchrum pulcherrimus
+<lb ed="#Ba" n="50"/>[ipse.</quote>
+               <lb ed="#Ba" n="51"/>Amor autem et zelus inclinant ex parte
+<lb ed="#Ba" n="52"/>voluntatis : amor ad effectus generaliter,
+<lb ed="#Ba" n="53"/>zelus autem ad effectus propinquiores,
+<lb ed="#Ba" n="54"/>quia zelus est ignitus amor in aliquod
+<lb ed="#Ba" n="55"/>speciale : et ideo de omnibus his cum
+<lb ed="#Ba" n="56"/>suo privative opposito malo tangit in 
+ca<lb break="no" ed="#Ba" n="57"/>pitulo uno. Si autem dicunt effectum 
+ef<lb break="no" ed="#Ba" n="58"/>fluxum ad esse, aut respectu esse in 
+ge<lb break="no" ed="#Ba" n="59"/>nere quod fundamentum est entium, aut
+<lb ed="#Ba" n="60"/>in specie. Si in genere : tunc est ens. Si
+<lb ed="#Ba" n="61"/>in specie : tunc est vita: quia, ut dicit
+<lb ed="#Ba" n="62"/>Philosophus, prima rerum creatarum est
+<lb ed="#Ba" n="63"/>esse, et non est ante ipsam creatura
+<lb ed="#Ba" n="64"/>alia ; et de vita dicit, quod vita 
+viventi<lb break="no" ed="#Ba" n="65"/>bus est esse : et hoc verum est de esse
+<lb ed="#Ba" n="66"/>specificato. Et accipitur utrumque 
+gene<lb break="no" ed="#Ba" n="67"/>raliter : quia non nisi generaliter cadit
+<lb ed="#Ba" n="68"/>in divinam praedicationem : ens enim
+<lb ed="#Ba" n="69"/>elementi vel elementati non pradicatur
+<lb ed="#Ba" n="70"/>de Deo. Similiter vita vegetabilis, vel
+<lb ed="#Ba" n="71"/>sensibilis, vel rationalis, non praedicatur
+<lb ed="#Ba" n="72"/>de Deo: sed potius ens et vita 
+abstra<lb break="no" ed="#Ba" n="73"/>hens ab omni creato. Si autem est 
+effe<lb break="no" ed="#Ba" n="74"/>ctus secundum bene esse, aut est 
+abso<lb break="no" ed="#Ba" n="75"/>lute in creatura rationali, aut in uno in
+<lb ed="#Ba" n="76"/>comparatione ad aliud. Si absolute in
+<lb ed="#Ba" n="77"/>uno: tunc dicunt perfectionem nature
+<lb ed="#Ba" n="78"/>ralionalis secundum naturam, aut 
+secun<lb break="no" ed="#Ba" n="79"/>dum statum in quem decidit. Si primo
+<lb ed="#Ba" n="80"/>modo, aut secundum intellectum, et sic
+<lb ed="#Ba" n="81"/>est sapientia : aut secundum effectum, et
+<lb ed="#Ba" n="82"/>sic est virtus : aut secundum rationem
+<lb ed="#Ba" n="83"/>sive intellectum ordinantem id quod est
+<lb ed="#Ba" n="84"/>in affectu ad alterum, et sic est justitia
+<lb ed="#Ba" n="85"/>qué considerativa est ordinis. Si autem
+<lb ed="#Ba" n="86"/>respiciant statum periculi in quod 
+decidi<lb break="no" ed="#Ba" n="87"/>mus, aut gencrale quod omnibus est
+<lb ed="#Ba" n="88"/>exhibitum, et tunc est salus a culpa et
+<lb ed="#Ba" n="89"/>peena : aut personale et speciale 
+pericu<lb break="no" ed="#Ba" n="90"/>lum, et in illo notatur liberator. Si au-
+<pb ed="#Ba" n="569"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>tem est in uno in comparatione 
+ad_alte<lb break="no" ed="#Ba" n="2"/>rum, aut secundum quantitatem 
+virtua<lb break="no" ed="#Ba" n="3"/>lem, aut secundum qualitatem bonitatum.
+<lb ed="#Ba" n="4"/>Si primo modo, aut comparatio est 
+se<lb break="no" ed="#Ba" n="5"/>cundum proportionem, aut secundum
+<lb ed="#Ba" n="6"/>excessum sine proportione. Si primo
+<lb ed="#Ba" n="7"/>modo, sic est inequale : si secundo 
+mo<lb break="no" ed="#Ba" n="8"/>do, sic est magnum, et parvum. Si 
+au<lb break="no" ed="#Ba" n="9"/>tem est relatio una ad alterum secundum
+<lb ed="#Ba" n="10"/>participationem bonitatis quae dicit 
+qua<lb break="no" ed="#Ba" n="11"/>litatem : aut est ut distinguens in gradu
+<lb ed="#Ba" n="12"/>participantium non idem, et sic est 
+alte<lb break="no" ed="#Ba" n="13"/>rum, etidem : aut est secundum 
+compa<lb break="no" ed="#Ba" n="14"/>rationem unius ad alterum per modum
+<lb ed="#Ba" n="15"/>proportionis, et tunc est simile, et 
+dissi<lb break="no" ed="#Ba" n="16"/>mile.
+</p>
+            <p xml:id="alalal-b09283-d1e764">
+               <lb ed="#Ba" n="17"/>Tertio autem modo sunt effectus a
+<lb ed="#Ba" n="18"/>quibus nominatur Deus vel perfectum
+<lb ed="#Ba" n="19"/>esse : et hoc tribus modis, quibus omne
+<lb ed="#Ba" n="20"/>quod est, habet se ad_perfectionem, 
+sci<lb break="no" ed="#Ba" n="21"/>licet secundum motum ad Deum, 
+secun<lb break="no" ed="#Ba" n="22"/>dum virtutem moventem, et secundum
+<lb ed="#Ba" n="23"/>hoc quod recipit ab ipso quod perficit.
+<lb ed="#Ba" n="24"/>Secundum motum autem dupliciter, 
+sci<lb break="no" ed="#Ba" n="25"/>licet secundum quod est ab ipso motus
+<lb ed="#Ba" n="26"/>im moveri, et in attingere ipsum. Si 
+pri<lb break="no" ed="#Ba" n="27"/>mo modo, est motus, et secundo modo
+<lb ed="#Ba" n="28"/>status. Secundum virtutem autem 
+mo<lb break="no" ed="#Ba" n="29"/>ventem omnia ad ipsum est dupliciter,
+<lb ed="#Ba" n="30"/>scilicet secundum virtutem in se, vel
+<lb ed="#Ba" n="31"/>virtutis dispositionem : in se est 
+omnipo<lb break="no" ed="#Ba" n="32"/>tens qui omnia potest facere et movere :
+<lb ed="#Ba" n="33"/>secundum dispositionem autem virtutis
+<lb ed="#Ba" n="34"/>est antiquus dierum. Secundum id au-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="35"/>tem quod influit perficiendo est 
+conside<lb break="no" ed="#Ba" n="36"/>ratio triplex, scilicet secundum 
+substan<lb break="no" ed="#Ba" n="37"/>tiam perfectam, et secundum virtutem
+<lb ed="#Ba" n="38"/>perfectam, et secundum quietationem in
+<lb ed="#Ba" n="39"/>fine : et primo modo est perfectum, et
+<lb ed="#Ba" n="40"/>unum : et secundo modo per se vita ad
+<lb ed="#Ba" n="41"/>naturam, et per se virtus ad 
+_perfectio<lb break="no" ed="#Ba" n="42"/>nem superadditam : quietatio autem in
+<lb ed="#Ba" n="43"/>fine est pax : sequitur autem regnum in
+<lb ed="#Ba" n="44"/>omnibus his, quod competit esse non
+<lb ed="#Ba" n="45"/>causanti, sed continenti quod causatum
+<lb ed="#Ba" n="46"/>est, et secundum illud est sanctus, rex,
+<lb ed="#Ba" n="47"/>et Dominus : et sanctus prout regit non
+<lb ed="#Ba" n="48"/>immixtus, sed excedens omnia 
+materia<lb break="no" ed="#Ba" n="49"/>liter inquinantia : Dominus autem ad
+<lb ed="#Ba" n="50"/>supposita : rex autem ad ordinis et legis
+<lb ed="#Ba" n="51"/>naturalis discretionem.
+</p>
+            <p xml:id="alalal-b09283-d1e845">
+               <lb ed="#Ba" n="52"/>Ap tLtmum dicendum, quod duplex est
+<lb ed="#Ba" n="53"/>translatio, scilicet secundum rem, et 
+se<lb break="no" ed="#Ba" n="54"/>cundum nomen. Translatio secundum
+<lb ed="#Ba" n="55"/>rem in divinis nominibus non est nisi in
+<lb ed="#Ba" n="56"/>symbolicis, in quibus transfertur 
+signifi<lb break="no" ed="#Ba" n="57"/>catio ad significationem : ut pratum 
+ri<lb break="no" ed="#Ba" n="58"/>det, eo quod quaedam dilatatio generatur
+<lb ed="#Ba" n="59"/>in floritione pratorum : et sic dicitur
+<lb ed="#Ba" n="60"/>Deus crapulatus vel ebrius: sicut dicit,
+<lb ed="#Ba" n="61"/>Psal. uxxvul, 65 : Lxettatus est tamquam
+<lb ed="#Ba" n="62"/>dormiens Dominus, tamquam potens 
+cra<lb break="no" ed="#Ba" n="63"/>pulatus a vino. Translatio aulem 
+nomi<lb break="no" ed="#Ba" n="64"/>nis est quando nomen non sufficienter
+<lb ed="#Ba" n="65"/>representat id ad quod significandum
+<lb ed="#Ba" n="66"/>assumitur, ut omnia nomina dicta de
+<lb ed="#Ba" n="67"/>Deo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

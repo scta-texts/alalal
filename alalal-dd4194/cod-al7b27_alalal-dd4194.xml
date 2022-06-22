@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="22"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-dd4194"><!-- l2d1a9 -->
+            <head xml:id="alalal-dd4194-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-dd4194-Hd1e101" type="question-title">An facere et creare sint idem, aut unum
+sit in plus quam alterum ?</head>
+            <p xml:id="alalal-dd4194-d1e104">
+               <lb ed="#Bc" n="39"/>ARTICULUS IX.
+<lb ed="#Bc" n="40"/>An facere et creare sint idem, aut unum
+<lb ed="#Bc" n="41"/>sit in plus quam alterum ?
+</p>
+            <p xml:id="alalal-dd4194-d1e113">
+               <lb ed="#Bc" n="42"/>Deinde quaeritur de hoc quod dicit
+<lb ed="#Bc" n="43"/>ibi, A, § 2: <quote xml:id="alalal-dd4194-Qd1e119"> Facere vero non modo,
+<lb ed="#Bc" n="44"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-dd4194-d1e125">
+               <lb ed="#Bc" n="45"/>1.Secundum hoc enim videtur, quod 
+fa<lb break="no" ed="#Bc" n="46"/>cere in plus est quam creare vel operari:
+<lb ed="#Bc" n="47"/>ergo aliquid commune est operi 
+crea<lb break="no" ed="#Bc" n="48"/>ture et Creatoris, quod videtur 
+inconve<lb break="no" ed="#Bc" n="49"/>niens.
+</p>
+            <p xml:id="alalal-dd4194-d1e139">
+               <lb ed="#Bc" n="50"/>2. Preterea, Quae differentia est inter
+<lb ed="#Bc" n="51"/>facere, et operari ?
+</p>
+            <p xml:id="alalal-dd4194-d1e146">
+               <lb ed="#Bc" n="52"/>Solutio. Dicendum, quod si ista 
+pro<lb break="no" ed="#Bc" n="53"/>prie considerentur, tune facere ponit 
+mo<lb break="no" ed="#Bc" n="54"/>tum, ut dicit Magister in Littera, et sic
+<lb ed="#Bc" n="55"/>proprieest nature quae facit cum motu
+<lb ed="#Bc" n="56"/>et cum mutatione, secundum quod 
+dici<lb break="no" ed="#Bc" n="57"/>tur in libro de Sex princtpitis: quia 
+om<lb break="no" ed="#Bc" n="58"/>nis motus in actione, et omnis actio in
+<lb ed="#Bc" n="59"/>motu firmabitur: operarae autem tantum
+<lb ed="#Bc" n="60"/>erit voluntatis vel intellectus in 
+mecha<lb break="no" ed="#Bc" n="61"/>nicis et voluntariis, creare autem Dei.
+<lb ed="#Bc" n="62"/>Si autem large ista considerentur, tunc
+<lb ed="#Bc" n="63"/>quodammodo commune est facere, et suae
+<lb ed="#Bc" n="64"/>species erunt creare et operari: tamen.
+<lb ed="#Bc" n="65"/>interdum operari etiam sumitur 
+commu<lb break="no" ed="#Bc" n="66"/>niter.
+</p>
+            <p xml:id="alalal-dd4194-d1e181">
+               <lb ed="#Bc" n="67"/>Ap opsectom dicendum, quod non est
+<lb ed="#Bc" n="68"/>aliquid commune univocum : quia facere
+<lb ed="#Bc" n="69"/>non univoce dicitur de facere Dei, et
+<lb ed="#Bc" n="70"/>creature.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

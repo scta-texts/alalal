@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="650"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f26013"><!-- l3d35a5 -->
+            <head xml:id="alalal-f26013-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-f26013-Hd1e101" type="question-title">An consilium sit donum ?</head>
+            <p xml:id="alalal-f26013-d1e104">
+               <lb ed="Bd" n="11"/>ARTICULUS V.
+<lb ed="Bd" n="12"/>An consilium sit donum ?
+</p>
+            <p xml:id="alalal-f26013-d1e111">
+               <lb ed="Bd" n="13"/>Secundo quaeritur, In quo differat a
+<lb ed="Bd" n="14"/>consilio dono? quia de differentia ipsius
+<lb ed="Bd" n="15"/>prudentiae jam habitum est.
+</p>
+            <p xml:id="alalal-f26013-d1e120">
+               <lb ed="Bd" n="16"/>Et ut hoc melius intelligamus, 
+intro<lb break="no" ed="Bd" n="17"/>ducemus questionem quam Magister
+<lb ed="Bd" n="18"/>omittit in Littera de dono consilii, et
+<lb ed="Bd" n="19"/>queremus quatuor, scilicet an sit donum
+<lb ed="Bd" n="20"/>consilii, et quid sit, et quis ejus actus, et
+<lb ed="Bd" n="21"/>qualiter distinguitur a dono scientia ?
+</p>
+            <p xml:id="alalal-f26013-d1e137">
+               <lb ed="Bd" n="22"/>Videtur autem non esse donum: quia
+<lb ed="Bd" n="23"/>1. Dona omnia fuerunt in Christo
+<lb ed="Bd" n="24"/>consilium autem non fuit in Christo :
+<lb ed="Bd" n="25"/>ergo consilium non est donum. Prima
+<lb ed="Bd" n="26"/>patet per ante dicta. Srcunna probatur
+<lb ed="Bd" n="27"/>per Joannem Damascenum, qui dicit,
+<lb ed="Bd" n="28"/>quod consilium non convenit Christo :
+<lb ed="Bd" n="29"/>quia consilium ignorantis est, et Christus
+<lb ed="Bd" n="30"/>nihil ignoravit.
+</p>
+            <p xml:id="alalal-f26013-d1e159">
+               <lb ed="Bd" n="31"/>2. Item, Damascenus dicit, quod 
+con<lb break="no" ed="Bd" n="32"/>silium est de dubiis : de certis enim 
+ne<lb break="no" ed="Bd" n="33"/>mo consiliatur : dubietas autem non est
+<lb ed="Bd" n="34"/>in adjutorium aliquod potentiarum 
+no<lb break="no" ed="Bd" n="35"/>strarum, nec datur in adjutortum : cum
+<lb ed="Bd" n="36"/>ergo dona data sint in adjutorium, 
+vide<lb break="no" ed="Bd" n="37"/>tur quod consilium non sit donum.
+</p>
+            <p xml:id="alalal-f26013-d1e177">
+               <lb ed="Bd" n="38"/>3. Item, Consilium est contra 
+precipi<lb break="no" ed="Bd" n="39"/>tationem, ut dicit Gregorius : contra
+<lb ed="Bd" n="40"/>eamdem autem est cautela, ut dicit 
+Ma<lb break="no" ed="Bd" n="41"/>crobius et Tullius : ergo videtur 
+consi<lb break="no" ed="Bd" n="42"/>lium non differre a cautela : cautela au-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="43"/>tem est quaedam conditio prudentia vir.
+<lb ed="Bd" n="44"/>tutis secundum illam partem ipsius qua
+<lb ed="Bd" n="45"/>est providentia : ergo consilium est pars
+<lb ed="Bd" n="46"/>virtutis prudentiaw : ergo non est donum:
+<lb ed="Bd" n="47"/>quia sicut dictum est, dona altioris 
+habj<lb break="no" ed="Bd" n="48"/>tus sunt quam virtutes.
+</p>
+            <p xml:id="alalal-f26013-d1e206">
+               <lb ed="Bd" n="49"/>Solutio Dicendum, quod consilium
+<lb ed="Bd" n="50"/>est donum, sicut communiter dicitur ab
+<lb ed="Bd" n="51"/>omnibus Sanctis.
+</p>
+            <p xml:id="alalal-f26013-d1e215">
+               <lb ed="Bd" n="52"/>Ad id autem quod primo objicitur,
+<lb ed="Bd" n="53"/>dicendum quod econsilium dupliciter 
+dici<lb break="no" ed="Bd" n="54"/>tur, scilicet a dante consilium, et in quo
+<lb ed="Bd" n="55"/>signat plenitudinem luminis dirigentem
+<lb ed="Bd" n="56"/>in dubtis : et sic fuit in Christo et est in
+<lb ed="Bd" n="57"/>Deo : et hoc modo est donum. Dicitur
+<lb ed="Bd" n="58"/>etiam a querente consilium, et sic est
+<lb ed="Bd" n="59"/>dubitantis et ignorantis, et sic non fuit
+<lb ed="Bd" n="60"/>in Christo, nec est donum per hune mo.
+<lb ed="Bd" n="61"/>dum.
+</p>
+            <p xml:id="alalal-f26013-d1e239">
+               <lb ed="Bd" n="62"/>Per haec etiam patet solutio ad 
+se<lb break="no" ed="Bd" n="63"/>quens.
+</p>
+            <p xml:id="alalal-f26013-d1e247">
+               <lb ed="Bd" n="64"/>Ad aliud dicendum, quod cautela 
+pro<lb break="no" ed="Bd" n="65"/>prie est contra insidias inimicorum 
+im<lb break="no" ed="Bd" n="66"/>pedimentum, et contra pericula quae 
+pos<lb break="no" ed="Bd" n="67"/>sunt oboriri : sed consilium est lumen
+<lb ed="Bd" n="68"/>dirigens ad magna, non periculosa, ad
+<lb ed="Bd" n="69"/>que non sufficit honio sine adjutorio
+<lb ed="Bd" n="70"/>speciali, ut vendere omnia et dare 
+pau<lb break="no" ed="Bd" n="71"/>peribus, et hujusmodi, quae in sacra 
+Scri<lb break="no" ed="Bd" n="72"/>ptura consilia vocantur, sicut patebit in
+<lb ed="Bd" n="73"/>ultimo capitulo istius distinctionis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

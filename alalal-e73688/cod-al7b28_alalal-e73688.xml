@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="390"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e73688"><!-- l3d22a3 -->
+            <head xml:id="alalal-e73688-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-e73688-Hd1e101" type="question-title">An totus Christus fuit in sepulcro, in
+celo, et totus ubique ?</head>
+            <p xml:id="alalal-e73688-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="22"/>ARTICULUS III.
+<lb ed="Bd" n="23"/>An totus Christus fuit in sepulcro, in
+<lb ed="Bd" n="24"/>celo, et totus ubique ?
+</p>
+            <p xml:id="alalal-e73688-d1e115">
+               <lb ed="Bd" n="25"/>Deinde quaeritur de hoc quod dicit
+<lb ed="Bd" n="26"/>ibi, C, <quote xml:id="alalal-e73688-Qd1e121"> Et utique totus eodem tempore,
+<lb ed="Bd" n="27"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-e73688-d1e127">
+               <lb ed="Bd" n="28"/>Videtur enim ad idem referri totus
+<lb ed="Bd" n="29"/>et totum : quia
+</p>
+            <p xml:id="alalal-e73688-d1e135">
+               <lb ed="Bd" n="30"/>1. Datur doctrina inter totum et 
+om<lb break="no" ed="Bd" n="31"/>nis : quia omnis distribuit pro partibus
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="32"/>subjectivis, fetus autem pro 
+integrali<lb break="no" ed="Bd" n="33"/>bus. Integrales autem partes Christi non
+<lb ed="Bd" n="34"/>omnes erant in inferno, nec omnes in
+<lb ed="Bd" n="35"/>sepulcro, nec omnes in celo.
+</p>
+            <p xml:id="alalal-e73688-d1e153">
+               <lb ed="Bd" n="36"/>2. Item, Supra habitum est, quod
+<lb ed="Bd" n="37"/>inexplicabilis est ratio istius 
+compositio<lb break="no" ed="Bd" n="38"/>nis quae est in Christo, quae non est ratio
+<lb ed="Bd" n="39"/>partium, ut dictum est ibi : quia 
+com<lb break="no" ed="Bd" n="40"/>ponitur ex tribus substantiis, et duabus
+<lb ed="Bd" n="41"/>naturis: Christus autem in duabus 
+na<lb break="no" ed="Bd" n="42"/>turis et tribus substantiis, nec fuit in
+<lb ed="Bd" n="43"/>ceelo, nec fuit in sepulcro, nec in 
+infer<lb break="no" ed="Bd" n="44"/>no : ergo non totus.
+</p>
+            <p xml:id="alalal-e73688-d1e175">
+               <lb ed="Bd" n="45"/>3. Item, Nihil videtur esse quod dicit,
+<lb ed="Bd" n="46"/>quod totus refertur ad personam : quia
+<lb ed="Bd" n="47"/>persona simplex est. Totus autem semper
+<lb ed="Bd" n="48"/>quaerit compositionem partium integra-
+<pb ed="#Bd" n="391"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>lium: ergo numquam convenit gratia
+<lb ed="Bd" n="2"/>persone, ut videtur.
+</p>
+            <p xml:id="alalal-e73688-d1e195">
+               <lb ed="Bd" n="3"/>4. Item, Totus et totum idem signant,
+<lb ed="Bd" n="4"/>licet sub diverso modo : ergo ad idem
+<lb ed="Bd" n="5"/>sunt referenda sub diverso modo: ergo
+<lb ed="Bd" n="6"/>sitotum refertur ad naturam, et totus
+<lb ed="Bd" n="7"/>refertur ad camdem. s
+</p>
+            <p xml:id="alalal-e73688-d1e208">
+               <lb ed="Bd" n="8"/>5. Item, Videtur quod totum fuit in
+<lb ed="Bd" n="9"/>ccelo. Prosatio. Ubicumque sum ego,
+<lb ed="Bd" n="10"/>illic necesse est esse quod essentialiler
+<lb ed="Bd" n="11"/>in me est : ergo ubicumque fuit 
+Chri<lb break="no" ed="Bd" n="12"/>stus, illic necesse fuit esse quod 
+esscn<lb break="no" ed="Bd" n="13"/>tialiter erat in Christo. Erat autem et
+<lb ed="Bd" n="14"/>adhuc est essentialiter in ipso natura
+<lb ed="Bd" n="15"/>humana : ergo ubicumque ipse fuit, ibi
+<lb ed="Bd" n="16"/>fuit et ipsa: sed in celo fuit : ergo et
+<lb ed="Bd" n="17"/>ipsa : ergo totum fuit in ccelo, quia ibi
+<lb ed="Bd" n="18"/>natura divina et humana. Eadem ratione
+<lb ed="Bd" n="19"/>sequitur, quod totum fuit in sepulcro,
+<lb ed="Bd" n="20"/>et totum in inferno.
+</p>
+            <p xml:id="alalal-e73688-d1e239">
+               <lb ed="Bd" n="21"/>6 Item, Nos invenimus tres personas
+<lb ed="Bd" n="22"/>in una natura, et diversa accidentia in
+<lb ed="Bd" n="23"/>uno supposito, et partes plurimas in uno
+<lb ed="Bd" n="24"/>toto: in omnibus his invenimus, quod
+<lb ed="Bd" n="25"/>virtute unionis sequitur, quod ubi est
+<lb ed="Bd" n="26"/>unum illorum, ibidem est alterum : ergo
+<lb ed="Bd" n="27"/>cum unio duarum naturarum, et trium
+<lb ed="Bd" n="28"/>substantiarum in una persona non sit
+<lb ed="Bd" n="29"/>minor omnibus his, videtur etiam, quod
+<lb ed="Bd" n="30"/>virtute unionis debet sequi, quod ubi est
+<lb ed="Bd" n="31"/>totus, ibi sit totum in natura.
+</p>
+            <p xml:id="alalal-e73688-d1e266">
+               <lb ed="Bd" n="32"/>Solutio Dicendaum, quod Magister
+<lb ed="Bd" n="33"/>bene dicit, quod totus est ubique, non
+<lb ed="Bd" n="34"/>autem totum: et hoc loquendo de 
+tem<lb break="no" ed="Bd" n="35"/>pore tridui quo fuit divisio inter 
+ani<lb break="no" ed="Bd" n="36"/>mam et corpus : et ratio tangitur in 
+Zii<lb break="no" ed="Bd" n="37"/>tera in auctoritate Joannis Damasceni,
+<lb ed="Bd" n="38"/>quod éofus cum dicat ens formalum, 
+per<lb break="no" ed="Bd" n="39"/>tinet ad ens distinctum, et hoc est 
+per<lb break="no" ed="Bd" n="40"/>sona perfecta. JTotwm autem cum 
+neu<lb break="no" ed="Bd" n="41"/>trius generis sit, non nisi ens informe et
+<lb ed="Bd" n="42"/>indistinctum dicit, et attribuitur nature
+<lb ed="Bd" n="43"/>cum suis partibus : ergo ubi natura cum
+<lb ed="Bd" n="44"/>suis partibus non est, ibi totum non est.
+</p>
+            <p xml:id="alalal-e73688-d1e297">
+               <lb ed="Bd" n="45"/>Resronpeo igitur ad primum,
+<lb ed="Bd" n="46"/>fotum sumitur duobus modis, scilicet
+<lb ed="Bd" n="47"/>distributione et perfecto, sicut dicit
+<lb ed="Bd" n="48"/>Philosophus in II Physicorum : <quote xml:id="alalal-e73688-Qd1e307"> To-
+<cb ed="#Bd" n="b"/>
+                  <lb ed="Bd" n="49"/>tum autem et perfectum idem dico. </quote> Et
+<lb ed="Bd" n="50"/>distributione proprie non dicitur de 
+sim<lb break="no" ed="Bd" n="51"/>plici: sed secundo modo potest dici de
+<lb ed="Bd" n="52"/>simplici. Et ita dicitur totus Christus,
+<lb ed="Bd" n="53"/>id est, perfectus in persona esse 
+ubi<lb break="no" ed="Bd" n="54"/>que: nonenim habet personalitatem a
+<lb ed="Bd" n="55"/>natura humana, vel ab homine 
+secun<lb break="no" ed="Bd" n="56"/>dum quod homo, sed potius habuit eam
+<lb ed="Bd" n="57"/>ab aeterno.
+</p>
+            <p xml:id="alalal-e73688-d1e333">
+               <lb ed="Bd" n="58"/>Ad aliud dicendum, quod bene est
+<lb ed="Bd" n="59"/>verum, quod compositio est ibi eo modo
+<lb ed="Bd" n="60"/>quo supra expositum est, non propria :
+<lb ed="Bd" n="61"/>sed gratia modi significandi masculine,
+<lb ed="Bd" n="62"/>ly éotus respicit perfectionem persone,
+<lb ed="Bd" n="63"/>et nen integritatem nature composite.
+</p>
+            <p xml:id="alalal-e73688-d1e349">
+               <lb ed="Bd" n="64"/>Ad aliud dicendum, quod licct idem
+<lb ed="Bd" n="65"/>significatur, tamen alius et diversus 
+mo<lb break="no" ed="Bd" n="66"/>dus facit unum referri ad persone 
+inte<lb break="no" ed="Bd" n="67"/>gritatem. Unde illa ratio non cogit.
+</p>
+            <p xml:id="alalal-e73688-d1e360">
+               <lb ed="Bd" n="68"/>Av auiup dicendum, quod illa ratio
+<lb ed="Bd" n="69"/>procedit in his quorum essentiw 
+cocx<lb break="no" ed="Bd" n="70"/>tenduntur secundum locum : sed non sic
+<lb ed="Bd" n="71"/>est in omnibus, sicut supra patuit, sicut
+<lb ed="Bd" n="72"/>dicitur, Iste est hic, et iste est 
+Episco<lb break="no" ed="Bd" n="73"/>pus, etc.
+</p>
+            <p xml:id="alalal-e73688-d1e376">
+               <lb ed="Bd" n="74"/>Ad aliud dicendum, quod in omnibus
+<lb ed="Bd" n="75"/>illis compositionibus, unum est tante
+<lb ed="Bd" n="76"/>compositionis secundum esse sicut 
+alte<lb break="no" ed="Bd" n="77"/>rum :et etiam tres persone unum in
+<lb ed="Bd" n="78"/>natura similiter se habent ad locum.
+<lb ed="Bd" n="79"/>In quibusdam autem accidentibus 
+perti<lb break="no" ed="Bd" n="80"/>nentibus ad jurisdictionem et potestatem
+<lb ed="Bd" n="81"/>sive dignitatem non est ita, ut prius 
+di<lb break="no" ed="Bd" n="82"/>etum est, ut Episcopus, Rex, Princeps.
+<lb ed="Bd" n="83"/>Et similiter non est ita in naturis 
+Chri<lb break="no" ed="Bd" n="84"/>sti, qua non similiter se habent ad 
+lo<lb break="no" ed="Bd" n="85"/>cum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

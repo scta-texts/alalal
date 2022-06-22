@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="383"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c72791"><!-- l1d43et -->
+            <head xml:id="alalal-c72791-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-c72791-d1e101">
+               <lb ed="#Bb" n="25"/>Expositio Textus.
+</p>
+            <p xml:id="alalal-c72791-d1e106">
+               <lb ed="#Bb" n="26"/>
+               <quote xml:id="alalal-c72791-Qd1e110"> Addunt quoque illi dicentes, ete? </quote>
+               <lb ed="#Bb" n="27"/>Hic incipit secunda pars, in qua ponit
+<lb ed="#Bb" n="28"/>causas commentitias lorum: et 
+dicun<lb break="no" ed="#Bb" n="29"/>tur cause commentitia, quia cx mente
+<lb ed="#Bb" n="30"/>ficte sunt, et non vere.
+</p>
+            <p xml:id="alalal-c72791-d1e122">
+               <lb ed="#Bb" n="31"/>Sunt autem tres, quarum queelibet
+<lb ed="#Bb" n="32"/>cum solutione sua ponitur in uno 
+capi<lb break="no" ed="#Bb" n="33"/>tulo per ordinem, Prima causa quam
+<lb ed="#Bb" n="34"/>ponunt, est haec : Non potest Deus ali-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="35"/>quid facere, nisi causa rationabilis illud
+<lb ed="#Bb" n="36"/>opus precesserit: quia sicut dicitur,
+<lb ed="#Bb" n="37"/>Job, v, 6: Nihal in terra sine causa fit :
+<lb ed="#Bb" n="38"/>et Plato in Timeo: <quote xml:id="alalal-c72791-Qd1e143"> Nihil fit, cujus
+<lb ed="#Bb" n="39"/>ortum legitima causa non precesserit. </quote>
+               <lb ed="#Bb" n="40"/>Causa autem rationabilis non, est nisi
+<lb ed="#Bb" n="41"/>eorum quae fiunt : quia si aliorum esset,
+<lb ed="#Bb" n="42"/>esset Deus negligens, eo quod non face~
+<lb ed="#Bb" n="43"/>retea quae ratio exigit esse facienda :
+<lb ed="#Bb" n="44"/>ergo nihil potest facere nisi quod facit.
+<lb ed="#Bb" n="45"/>Kit ista propositio : Nihil potest Deus 
+fa<lb break="no" ed="#Bb" n="46"/>cele, cujus rationabilis causa vel ratio
+<lb ed="#Bb" n="47"/>non pracesserit, distinguenda est, ut
+<lb ed="#Bb" n="48"/>prius in prioribus rationibus est dictum.
+</p>
+            <p xml:id="alalal-c72791-d1e169">
+               <lb ed="#Bb" n="49"/>Secunda ratio sumpta a causa com-
+<pb ed="#Bb" n="384"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>mentitia est hac : Non potest Deus facere
+<lb ed="#Bb" n="2"/>nisi quod ratio est eum facere : ratio 
+au<lb break="no" ed="#Bb" n="3"/>tem est, ut haec fiant quae fiunt, et non
+<lb ed="#Bb" n="4"/>alia : ergo non potest facere nisi ea que
+<lb ed="#Bb" n="5"/>fiunt et non alia. Et prima iteram 
+dis<lb break="no" ed="#Bb" n="6"/>tinguenda est ut prius . et haec ratio est
+<lb ed="#Bb" n="7"/>in secundo capitulo sequent .
+</p>
+            <p xml:id="alalal-c72791-d1e194">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="8"/>Tertia ratio sumpta a causa commen.
+<lb ed="#Bb" n="9"/>tiia, est in tertio capitulo D, § 5. Et
+<lb ed="#Bb" n="10"/>haec est: Non potest Deus facere nisi
+<lb ed="#Bb" n="11"/>quod prescit se facturum : non autem
+<lb ed="#Bb" n="12"/>prescit se facturum nisi quod facit : ergo
+<lb ed="#Bb" n="13"/>non potest facere nisi quod facit. Et 
+ite<lb break="no" ed="#Bb" n="14"/>rum prima distinguenda est ut prius.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="716"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f39783"><!-- l3d38a3 -->
+            <head xml:id="alalal-f39783-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-f39783-Hd1e101" type="question-title">An mendacium bene dividitur in 
+libidinosum, perniciosum, et officiosum ?</head>
+            <p xml:id="alalal-f39783-d1e104">
+               <lb ed="Bd" n="67"/>ARTICULUS III.
+<lb ed="Bd" n="68"/>An mendacium bene dividitur in 
+libidi<lb break="no" ed="Bd" n="69"/>nosum, perniciosum, et officiosum ?
+</p>
+            <p xml:id="alalal-f39783-d1e113">
+               <lb ed="Bd" n="70"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="71"/>ibi, A, §2: <quote xml:id="alalal-f39783-Qd1e119"> Sciendum tamen esse tria
+<lb ed="Bd" n="72"/>genera mendaciorum, etc. </quote>
+            </p>
+            <p xml:id="alalal-f39783-d1e125">
+               <lb ed="Bd" n="73"/>Divisio alicujus debet dari penes 
+spe<lb break="no" ed="Bd" n="74"/>cificantia ipsum mendacium.
+</p>
+            <p xml:id="alalal-f39783-d1e133">
+               <lb ed="Bd" n="75"/>I. Mendacium autem non ponitur in
+<lb ed="Bd" n="76"/>specie, ut videtur, per hoc quod est in
+<lb ed="Bd" n="77"/>commodo vel incommodo, cum nec 
+fal<lb break="no" ed="Bd" n="78"/>sa sit significatio, nec intentio fallendi:
+<lb ed="Bd" n="79"/>ergo videtur, quod non bene dividitur
+<lb ed="Bd" n="80"/>penes haec tria.
+</p>
+            <p xml:id="alalal-f39783-d1e149">
+               <lb ed="Bd" n="81"/>2. Praeterea, Locus et libido sunt duo
+<lb ed="Bd" n="82"/>moventia ad mentiendum, et neutrum
+<lb ed="Bd" n="83"/>continetur sub reliquo : ergo videtur,
+<lb ed="Bd" n="84"/>quod quatuor sunt gencra.
+</p>
+            <p xml:id="alalal-f39783-d1e160">
+               <lb ed="Bd" n="85"/>3. Item, Libido radix est omnium 
+vi<lb break="no" ed="Bd" n="86"/>tiorum, ut dicit Augustinus : ergo ipsa
+<lb ed="Bd" n="87"/>non separatur a commodo movente vel
+<lb ed="Bd" n="88"/>malignitate, et sic non debet facere spe
+<lb ed="Bd" n="89"/>ciale genus mendacil, ut videtur.
+</p>
+            <p xml:id="alalal-f39783-d1e173">
+               <lb ed="Bd" n="90"/>4, Praeterea, Videtur quod tertium 
+ge<lb break="no" ed="Bd" n="91"/>nus quod est ex malignitate, sit pecca-
+<pb ed="#Bd" n="717"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>tum in Spiritum sanctum : quia 
+proce<lb break="no" ed="Bd" n="2"/>ditex co quod est contrarium bonitati
+<lb ed="Bd" n="3"/>Spiritus sancti: et hoc est peccatum in
+<lb ed="Bd" n="4"/>Spiritum sanctum, ut determinaium est
+<lb ed="Bd" n="5"/>in penultima distinctione secundi libri
+<lb ed="Bd" n="6"/>Senfentiarum' : ergo est peccatum in
+<lb ed="Bd" n="7"/>Spiritum sanctum, ut videtur.
+</p>
+            <p xml:id="alalal-f39783-d1e199">
+               <lb ed="Bd" n="8"/>Solutio Dicendum, quod ista prima
+<lb ed="Bd" n="9"/>divisio mendacli sumitur penes 
+moven<lb break="no" ed="Bd" n="10"/>tia in genere : et hoc est ex parte 
+moven<lb break="no" ed="Bd" n="11"/>tig : et cum sint tria tantum moventia,
+<lb ed="Bd" n="12"/>sunt tria tantum genera mendaciorum.
+<lb ed="Bd" n="13"/>Quod autem tantum tria sint, sic patet:
+<lb ed="Bd" n="14"/>Movens ad mentiendum aut est 
+menda<lb break="no" ed="Bd" n="15"/>cum secundum se, aut id propter quod
+<lb ed="Bd" n="16"/>fit. Si mendacium secundum se : tunc
+<lb ed="Bd" n="17"/>est hbidinosum. Siautem est id propter
+<lb ed="Bd" n="18"/>quod fit : aut hoc est malum, et tune 
+pro<lb break="no" ed="Bd" n="19"/>cedit ex mahgnitate : aut bonum, et tunc
+<lb ed="Bd" n="20"/>est officiosum.
+</p>
+            <p xml:id="alalal-f39783-d1e230">
+               <lb ed="Bd" n="21"/>Ad primum ergo dicendum, quod illa
+<lb ed="Bd" n="22"/>objectio precedit quando genus dividitur
+<lb ed="Bd" n="23"/>in species :sed hic genus dividitur 
+se<lb break="no" ed="Bd" n="24"/>cundum omnes actus generis illus, quos
+<lb ed="Bd" n="25"/>potest habere ex parte mentientis 
+mo<lb break="no" ed="Bd" n="26"/>yentes ad actum.
+</p>
+            <p xml:id="alalal-f39783-d1e247">
+               <lb ed="Bd" n="27"/>Ad aliud dicendum, quod Magister
+<lb ed="Bd" n="28"/>ponit in genere uno lbidinosum et 
+jo<lb break="no" ed="Bd" n="29"/>cosum : quia libido sola est in ultroque
+<lb ed="Bd" n="30"/>mentiens, eo quod jocus nilul addit ad
+<lb ed="Bd" n="31"/>quod libido accipiat circumstantiam ac~
+<lb ed="Bd" n="32"/>cusationis vel excusationis.
+</p>
+            <p xml:id="alalal-f39783-d1e263">
+               <lb ed="Bd" n="33"/>Ad aliud dicendum, quod libido 
+ha<lb break="no" ed="Bd" n="34"/>bitualis indeterminata, quae est 
+habitua<lb break="no" ed="Bd" n="35"/>lis placentia boni commutabilis 
+inordi<lb break="no" ed="Bd" n="36"/>nata, est radix: sed hie accipitur libido
+<lb ed="Bd" n="37"/>actuahs determinata ad actum 
+mentien<lb break="no" ed="Bd" n="38"/>di, et alla est specialis causa movens :
+<lb ed="Bd" n="39"/>prima autem est in aliis causis posita
+<lb ed="Bd" n="40"/>sicut radix omnis peccati.
+</p>
+            <p xml:id="alalal-f39783-d1e283">
+               <lb ed="Bd" n="41"/>Ad aliud dicendum, quod non 
+opor<lb break="no" ed="Bd" n="42"/>tet, quod sit in Spiritum sanctum per
+<lb ed="Bd" n="43"/>hoe, quod est ex malignitate. Est enim
+<lb ed="Bd" n="44"/>malignitas duplex, Quedam est movens
+<lb ed="Bd" n="45"/>contra bonitatem Spiritus sancti: et ex
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="46"/>tali procedit peccatum in Spiritum 
+san<lb break="no" ed="Bd" n="47"/>ctum. Quadam autem est malitia 
+inten<lb break="no" ed="Bd" n="48"/>dens nocere proximo : et ex hac non
+<lb ed="Bd" n="49"/>semper est peccatum in Spiritum 
+san<lb break="no" ed="Bd" n="50"/>ctum, quia non sola est movens, sed
+<lb ed="Bd" n="51"/>commodum proprium quandoque, vel
+<lb ed="Bd" n="52"/>aliqua causa odu. Tamen nun 
+contradi<lb break="no" ed="Bd" n="53"/>co, quin mendacium perniciosum 
+fre<lb break="no" ed="Bd" n="54"/>quenter sit peccatum in Spimtum 
+san<lb break="no" ed="Bd" n="55"/>ctum : sed hoc non habet ex hoc quod
+<lb ed="Bd" n="56"/>est mendacium, vel ex hoc quod est
+<lb ed="Bd" n="57"/>perniciosum, sed ex causa specialiter
+<lb ed="Bd" n="58"/>movente contra bonitatem Spiritus 
+san<lb break="no" ed="Bd" n="59"/>ctum se vel in donis ejus in ea 
+intentio<lb break="no" ed="Bd" n="60"/>ne qua dona manifestant ipsum. Et de
+<lb ed="Bd" n="61"/>hoc inquiratur questio mota super 
+pe<lb break="no" ed="Bd" n="62"/>nullimam distinctionem secundi libri
+<lb ed="Bd" n="63"/>Sententiarum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

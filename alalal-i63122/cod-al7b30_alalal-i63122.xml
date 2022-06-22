@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="301"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i63122"><!-- l4d33a11 -->
+            <head xml:id="alalal-i63122-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-i63122-Hd1e101" type="question-title">Qualiter Patriarchae et Apostoli 
+delectabantur profectu religionis ?</head>
+            <p xml:id="alalal-i63122-d1e104">
+               <lb ed="#Bf" n="29"/>ARTICULUS XI.
+<lb ed="#Bf" n="30"/>Qualiter Patriarchae et Apostoli 
+delecta<lb break="no" ed="#Bf" n="31"/>bantur profectu religionis ?
+</p>
+            <p xml:id="alalal-i63122-d1e113">
+               <lb ed="#Bf" n="32"/>Deinde quaeritur de hoc quod dicit,
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="33"/>ibi, A, in medio : <quote xml:id="alalal-i63122-Qd1e121"> Sicut Apostoli 
+au<lb break="no" ed="#Bf" n="34"/>ditoribus admirantibus, etc. </quote>
+            </p>
+            <p xml:id="alalal-i63122-d1e127">
+               <lb ed="#Bf" n="35"/>Videtur, quod nihil sit simile: quia
+<lb ed="#Bf" n="36"/>omni homini congaudendum est in 
+bo<lb break="no" ed="#Bf" n="37"/>nis, et hoc gaudium est honestum et 
+pul<lb break="no" ed="#Bf" n="38"/>chrum : sed delectatio coitus semper est
+<lb ed="#Bf" n="39"/>turpis: ergo nihil est simile quod 
+in<lb break="no" ed="#Bf" n="40"/>ducit.
+</p>
+            <p xml:id="alalal-i63122-d1e144">
+               <lb ed="#Bf" n="41"/>Responsio. Dicendum, quod simile est
+<lb ed="#Bf" n="42"/>quoad hoc quod ultima intentio 
+dele<lb break="no" ed="#Bf" n="43"/>ctabatur in utrisque in profectu 
+religio<lb break="no" ed="#Bf" n="44"/>nis : sed actus profectus fuit differens :
+<lb ed="#Bf" n="45"/>ibi enim fuit per carnem, hic autem per
+<lb ed="#Bf" n="46"/>spiritum ; sed tamen hic et tunc 
+simili<lb break="no" ed="#Bf" n="47"/>ter in uno delectabantur Patres Veteris
+<lb ed="#Bf" n="48"/>et Novi Testamenti.
+</p>
+            <p xml:id="alalal-i63122-d1e164">
+               <lb ed="#Bf" n="49"/>Hic autem tota ponenda esset questio
+<lb ed="#Bf" n="50"/>de continentia, et de statibus ejus, et de
+<lb ed="#Bf" n="51"/>comparatione statuum: et hac notata
+<lb ed="#Bf" n="52"/>est ante in tractatu de Virtutibus 
+cardi<lb break="no" ed="#Bf" n="53"/>nalibus *, et ideo hic omnino transeo
+<lb ed="#Bf" n="54"/>ipsam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

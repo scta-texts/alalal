@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="239"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e46502"><!-- l3d13a4 -->
+            <head xml:id="alalal-e46502-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-e46502-Hd1e101" type="question-title">Quos sensus spirituale caput infliat in
+membra spiritualia ?</head>
+            <p xml:id="alalal-e46502-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="43"/>ARTICULUS IV.
+<lb ed="Bd" n="44"/>Quos sensus spirituale caput infliat in
+<lb ed="Bd" n="45"/>membra spiritualia ?
+</p>
+            <p xml:id="alalal-e46502-d1e115">
+               <lb ed="Bd" n="46"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="47"/>ibi, A, <quote xml:id="alalal-e46502-Qd1e121"> Ibi enim et visus est, et auditus,
+<lb ed="Bd" n="48"/>et olfactus, et gustus, et tactus, etc. </quote>
+            </p>
+            <p xml:id="alalal-e46502-d1e127">
+               <lb ed="Bd" n="49"/>Licet enim hic Augustinus loquatur
+<lb ed="Bd" n="50"/>per similitudinem, tamen illi sensus 
+spi<lb break="no" ed="Bd" n="51"/>ritualiter sunt in nobis.
+</p>
+            <p xml:id="alalal-e46502-d1e137">
+               <lb ed="Bd" n="52"/>Videtur autem, quod tantum tactus
+<lb ed="Bd" n="53"/>fuit in Christo: quia caput non influit
+<lb ed="Bd" n="54"/>membris nisi tactum, et non alios 
+sen<lb break="no" ed="Bd" n="55"/>sus : ergo videtur, quod hoc in  
+spiritua<lb break="no" ed="Bd" n="56"/>libus sit eodem modo.
+</p>
+            <p xml:id="alalal-e46502-d1e150">
+               <lb ed="Bd" n="57"/>SED CONTRA :
+<lb ed="Bd" n="58"/>4. Psal. xxxur, 9: Gustate, et videte,
+<lb ed="Bd" n="59"/>guoniam suavis est Dominus. Ergo 
+ha<lb break="no" ed="Bd" n="60"/>bemus gustum et visum.
+</p>
+            <p xml:id="alalal-e46502-d1e161">
+               <lb ed="Bd" n="61"/>2. Item, Reprehensive dicitur de 
+ma<lb break="no" ed="Bd" n="62"/>lis: Oculos habent, et non videbunt. 
+Au<lb break="no" ed="Bd" n="63"/>res habent, et non audient: nares 
+ha<lb break="no" ed="Bd" n="64"/>bent, et non odorabunt. Manus habent,
+<lb ed="Bd" n="65"/>et non palpabunt '. Ergo videtur, quod
+<lb ed="Bd" n="66"/>omnis sensus influat nobis caput 
+no<lb break="no" ed="Bd" n="67"/>strum per Spiritum sanctum.
+</p>
+            <p xml:id="alalal-e46502-d1e179">
+               <lb ed="Bd" n="68"/>3. Item, Origenes super Leviticum:
+<lb ed="Bd" n="69"/>
+               <quote xml:id="alalal-e46502-Qd1e185"> Quinque sunt sensus spirituales, 
+scili<lb break="no" ed="Bd" n="70"/>cet ut mundo corde videamus Deum, et
+<lb ed="Bd" n="71"/>audiamus quae loquatur, odoremus 
+bo<lb break="no" ed="Bd" n="72"/>num odorem Christi, gustemus 
+dulcedi<lb break="no" ed="Bd" n="73"/>nem, de qua dicitur : Sz famen gustastis
+<lb ed="Bd" n="74"/>quam dulcis est Dominus*: palpemus
+<lb ed="Bd" n="75"/>cum Joanne verbum vita. </quote> Ergo 
+vide<lb break="no" ed="Bd" n="76"/>tur, quod omnis sensus influit nobis
+<lb ed="Bd" n="77"/>sicut habet in se.
+</p>
+            <p xml:id="alalal-e46502-d1e206">
+               <lb ed="Bd" n="78"/>Ulterivs quaeritur, Penes quid 
+acci<lb break="no" ed="Bd" n="79"/>piuntur isti quinque sensus spirituales ?
+<lb ed="Bd" n="80"/>Dicit enim Augustinus, quod uno 
+in<lb break="no" ed="Bd" n="81"/>tellectu discernitur quidquid omnibus
+<pb ed="#Bd" n="240"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>sensibus accipitur. Ergo videtur, quod
+<lb ed="Bd" n="2"/>hujusmodi quinaria differentia sensuum
+<lb ed="Bd" n="3"/>non potest ad speciem referri.
+</p>
+            <p xml:id="alalal-e46502-d1e228">
+               <lb ed="Bd" n="4"/>Hoc ctiam videtur, quod due sunt
+<lb ed="Bd" n="5"/>differentia intellectus in nobis, scilicet
+<lb ed="Bd" n="6"/>intellectus quo est omnia intelligibilia
+<lb ed="Bd" n="7"/>facere in nobis : et intellectus quo est
+<lb ed="Bd" n="8"/>omnia intelligibila fieri, hoc est, agens
+<lb ed="Bd" n="9"/>et possibilis : ergo videtur, quod non sit
+<lb ed="Bd" n="10"/>hujusmodi quinariam divisionem facere.
+</p>
+            <p xml:id="alalal-e46502-d1e247">
+               <lb ed="Bd" n="11"/>Solutio Dicendum, quod in veritate
+<lb ed="Bd" n="12"/>Augustinus loquitur per quamdam 
+simi<lb break="no" ed="Bd" n="13"/>litudinem capitis materialis ad caput 
+spi<lb break="no" ed="Bd" n="14"/>rituale : caput enim materiale aliquem
+<lb ed="Bd" n="15"/>sensum quem habet, influit toli corpori:
+<lb ed="Bd" n="16"/>et aliquos etiam non influit, sed unt
+<lb ed="Bd" n="17"/>membro unum, et alii alium: ut oculo
+<lb ed="Bd" n="18"/>visum, lingue et palato gustum, et au
+<lb ed="Bd" n="19"/>ditum tympano auris, et odoratum 
+or<lb break="no" ed="Bd" n="20"/>gano olfactus, quod sunt duo coni 
+cere<lb break="no" ed="Bd" n="21"/>bri in antertori parte capitis ad modum
+<lb ed="Bd" n="22"/>cont mammilla, ut dicit Philosophus.
+<lb ed="Bd" n="23"/>Omnibus autem membiis miluit tactum :
+<lb ed="Bd" n="24"/>quia (ut dicit Philosophus) ille est sensus
+<lb ed="Bd" n="25"/>propter quem animal est, et non est tam
+<lb ed="Bd" n="26"/>sensus, quam differentia generalis 
+con<lb break="no" ed="Bd" n="27"/>slituens animalis naturani et sensus 
+ne<lb break="no" ed="Bd" n="28"/>cessitatem. Et sic Christus quaedam dona
+<lb ed="Bd" n="29"/>excellenter habet, et null: iniluit : 
+quee<lb break="no" ed="Bd" n="30"/>dam autem influit quibusdam, non 
+om<lb break="no" ed="Bd" n="31"/>nibus, scilicet gratias gratis datas:
+<lb ed="Bd" n="32"/>nibus autem influit quod est necesse ad
+<lb ed="Bd" n="33"/>esse spirituale, et hoc est per modum
+<lb ed="Bd" n="34"/>tactus sine quo non potest esse animal :
+<lb ed="Bd" n="35"/>et influit omnibus motum meriti. Et hoc
+<lb ed="Bd" n="36"/>donum est charitas. Tamen Augustinus
+<lb ed="Bd" n="37"/>non contradicit quin in nobis sunt omnes
+<lb ed="Bd" n="38"/>sensus spirituales.
+</p>
+            <p xml:id="alalal-e46502-d1e310">
+               <lb ed="Bd" n="39"/>Et per hoc patet solutio ad primum.
+</p>
+            <p xml:id="alalal-e46502-d1e315">
+               <lb ed="Bd" n="40"/>Ad id quod in contrarium objicitur,
+<lb ed="Bd" n="41"/>dicendum quod in nobis sunt omnes 
+sen<lb break="no" ed="Bd" n="42"/>sus spirituales, ut dicit Origenes. Et in—
+<lb ed="Bd" n="43"/>nuit Psalmus. Et possunt distingui hoc
+<lb ed="Bd" n="44"/>modo. Quia ea quae accipiuntur a Dec
+<lb ed="Bd" n="45"/>sunt duplicia, scilicet bonitas, et veritas:
+<lb ed="Bd" n="46"/>bonitas in affectu, et veritas in intellectu.
+<lb ed="Bd" n="47"/>Bonitas autem accipitur duobus modis,
+<lb ed="Bd" n="48"/>scilicet per propria : et sic accipitur per
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>modum tactus, hoc modo quo tactus 
+im<lb break="no" ed="Bd" n="50"/>mutatur penes conjunctionem 
+extremo<lb break="no" ed="Bd" n="51"/>rum: et hoc fit quando experimento
+<lb ed="Bd" n="52"/>Deum attingimus, et bonitatem ejus. 
+Ac<lb break="no" ed="Bd" n="53"/>cipitur et bonilas pencs ea quae 
+osten<lb break="no" ed="Bd" n="54"/>dunt complexionem ejus, et saporem,
+<lb ed="Bd" n="55"/>Sapor enim est sequela complexionis rei
+<lb ed="Bd" n="56"/>tangibilis commixte : et sic spiritualiter
+<lb ed="Bd" n="57"/>probamus dulcedinem Dei in effectibus,
+<lb ed="Bd" n="58"/>in quibus in via charitas ejus monstratur,
+<lb ed="Bd" n="59"/>sicut in complexione corporis et 
+sangui<lb break="no" ed="Bd" n="60"/>nis sui: de qua dicitur, Sapient. xv1,
+<lb ed="Bd" n="61"/>2b: Substantia tua dulcedinem luam
+<lb ed="Bd" n="62"/>quam in filios habes, ostendebat: et 
+de<lb break="no" ed="Bd" n="63"/>serviens uniuscugusgue voluntati, ad
+<lb ed="Bd" n="64"/>quod guisgue volebat convertebatur.
+</p>
+            <p xml:id="alalal-e46502-d1e374">
+               <lb ed="Bd" n="65"/>Siautem objicitur contra hos duos
+<lb ed="Bd" n="66"/>sensus, quod sensus est vis cognitiva:
+<lb ed="Bd" n="67"/>istud autem non ordimatur ad 
+apprehen<lb break="no" ed="Bd" n="68"/>dere, sed potius ad affici : dicendum,
+<lb ed="Bd" n="69"/>quod est cognitio per modum receplionis
+<lb ed="Bd" n="70"/>quasi ab extra : et est cognitio 
+experi<lb break="no" ed="Bd" n="71"/>mentalis, sicut dicit Dionysius quod 
+le<lb break="no" ed="Bd" n="72"/>rotheus patiendo divina, didicit divina :
+<lb ed="Bd" n="73"/>ot haec cognitio est per gustum et tactum
+<lb ed="Bd" n="74"/>spirituales.
+</p>
+            <p xml:id="alalal-e46502-d1e398">
+               <lb ed="Bd" n="75"/>Si vero est perceptio veritatis, hoc est
+<lb ed="Bd" n="76"/>duobus modis, scilicet ut est veritas, vel
+<lb ed="Bd" n="77"/>ut est ordinata ad bonum, hoc est, 
+ve<lb break="no" ed="Bd" n="78"/>rurm inratione veri, vel verum in ralione
+<lb ed="Bd" n="79"/>boni. Si autem est in ratione boni, tunc
+<lb ed="Bd" n="80"/>est spiritualis odoratus : odor enim fit ex
+<lb ed="Bd" n="81"/>fumali evaporatione ostendente rei 
+sapo<lb break="no" ed="Bd" n="82"/>rem : et verum im ralione quasi 
+evapo<lb break="no" ed="Bd" n="83"/>rat saporem boni, et ostendit ipsum 
+qua<lb break="no" ed="Bd" n="84"/>si per distans quod est verum. Si vero est
+<lb ed="Bd" n="85"/>verum ut verum : aut in signo, aut in
+<lb ed="Bd" n="86"/>se. Si in se: tune est visus qui cstin rei
+<lb ed="Bd" n="87"/>formam per se. Si secundo modo, 
+scili<lb break="no" ed="Bd" n="88"/>cet utin signo, tunc est ut auditus est
+<lb ed="Bd" n="89"/>perceptivus forme reiin signo: et ideo
+<lb ed="Bd" n="90"/>isti duo sunt disciplmales, unus 
+inve<lb break="no" ed="Bd" n="91"/>niendo, alter accipiendo per 
+doctri<lb break="no" ed="Bd" n="92"/>nam.
+</p>
+            <p xml:id="alalal-e46502-d1e440">
+               <lb ed="Bd" n="93"/>Ab io quod ultimo objicitur, dicendum
+<lb ed="Bd" n="94"/>quod intellectus possibilis est unus, sed
+<lb ed="Bd" n="95"/>speculativus, vel id quod est in ipso, 
+pot<lb break="no" ed="Bd" n="96"/>est babere rationes differentiae secundum
+</p>
+            <p xml:id="alalal-e46502-d1e452">
+               <pb ed="#Bd" n="241"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>actum, secundum rationes quae dictx
+<lb ed="Bd" n="2"/>sunt.
+</p>
+            <p xml:id="alalal-e46502-d1e463">
+               <lb ed="Bd" n="3"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

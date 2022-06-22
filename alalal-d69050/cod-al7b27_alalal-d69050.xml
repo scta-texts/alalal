@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="384"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d69050"><!-- l2d22a8 -->
+            <head xml:id="alalal-d69050-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-d69050-Hd1e101" type="question-title">Quale peccatum est ignorantia ?</head>
+            <p xml:id="alalal-d69050-d1e104">
+               <lb ed="#Bc" n="21"/>ARTICULUS VIII.
+<lb ed="#Bc" n="22"/>Quale peccatum est ignorantia ?
+</p>
+            <p xml:id="alalal-d69050-d1e111">
+               <lb ed="#Bc" n="23"/>Secundo queritur, Cujusmodi 
+pecca<lb break="no" ed="#Bc" n="24"/>tum sit ignorantia ?
+</p>
+            <p xml:id="alalal-d69050-d1e118">
+               <lb ed="#Bc" n="25"/>Videtur autem, quod originale : quia
+<lb ed="#Bc" n="26"/>1. Nascitur in nobis.
+</p>
+            <p xml:id="alalal-d69050-d1e126">
+               <lb ed="#Bc" n="27"/>2. Item, Quia per poenitentiam transit
+<lb ed="#Bc" n="28"/>reatu, et remanet actu, sicut Magister
+<lb ed="#Bc" n="29"/>infra dicit de originali.
+</p>
+            <p xml:id="alalal-d69050-d1e135">
+               <lb ed="#Bc" n="30"/>SED CONTRA : 
+<lb ed="#Bc" n="31"/>1. Quia originale non est nisi unum :
+<lb ed="#Bc" n="32"/>et hoc non est ignorantia. :
+</p>
+            <p xml:id="alalal-d69050-d1e144">
+               <lb ed="#Bc" n="33"/>2. Item, Quia originale respicit 
+om<lb break="no" ed="#Bc" n="34"/>nes : sed quaedam ignorantia non est
+<lb ed="#Bc" n="35"/>peccatum nisi in habentibus officium.
+</p>
+            <p xml:id="alalal-d69050-d1e153">
+               <lb ed="#Bc" n="36"/>3. litem, Originale peccatum est ante
+<lb ed="#Bc" n="37"/>tempus discretionis, sed non ignorantia :
+<lb ed="#Bc" n="38"/>ergo non est originale.
+</p>
+            <p xml:id="alalal-d69050-d1e162">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="39"/>Solutio, Dicendum, quod propter hag ,
+<lb ed="#Bc" n="40"/>et similia fere tota multitudo sequita 4
+<lb ed="#Bc" n="41"/>opinionem istam, quia ignorantia de se g
+<lb ed="#Bc" n="42"/>in se non est peccatum. Sed tamen gal.
+<lb ed="#Bc" n="43"/>vando aliam possumus dicere, quoq
+<lb ed="#Bc" n="44"/>ignorantia non est peccatum secundum
+<lb ed="#Bc" n="45"/>quod nascitur in nobis, sed secundum
+<lb ed="#Bc" n="46"/>quod tempore discretionis et officii eff.
+<lb ed="#Bc" n="47"/>citur obligatio ad actum sciendi.
+</p>
+            <p xml:id="alalal-d69050-d1e186">
+               <lb ed="#Bc" n="48"/>Ad aliud dicendum, quod ignorantiag
+<lb ed="#Bc" n="49"/>sicut et peccatum omissionis, non habet
+<lb ed="#Bc" n="50"/>actum, sed suus actus est presens 
+pri<lb break="no" ed="#Bc" n="51"/>vatio : sicut dicimus de aliquo quod
+<lb ed="#Bc" n="52"/>actualiter cecus est, significando quod
+<lb ed="#Bc" n="53"/>presenti tempore non habet habitum
+<lb ed="#Bc" n="54"/>visus, et sic actu sunt privationes : et
+<lb ed="#Bc" n="55"/>cum peccatum ignorantie peccatum
+<lb ed="#Bc" n="56"/>omissionis sit, non habet alinm actum:
+<lb ed="#Bc" n="57"/>et quia privationes manent nisi adveniat
+<lb ed="#Bc" n="58"/>habitus, ideo dicitur manere actu 
+igno<lb break="no" ed="#Bc" n="59"/>rantia. Tamen ille actus equivocus est ad
+<lb ed="#Bc" n="60"/>actum originalis : quia illius actus est
+<lb ed="#Bc" n="61"/>pronitas concupiscentie quae est habitus
+<lb ed="#Bc" n="62"/>inclinans ad actum : hic autem est 
+actua<lb break="no" ed="#Bc" n="63"/>lis privatio habitus regentis in officio,
+<lb ed="#Bc" n="64"/>vel vita, quantum ad ea quae necessaria
+<lb ed="#Bc" n="65"/>sunt saluti.
+</p>
+            <p xml:id="alalal-d69050-d1e229">
+               <lb ed="#Bc" n="66"/>Et secundum solutionem istam 
+opor<lb break="no" ed="#Bc" n="67"/>tet supponere, quod peccatum omissionis
+<lb ed="#Bc" n="68"/>non dicat actum aliquem, nec exteriorem,
+<lb ed="#Bc" n="69"/>nec interiorem, sed tantum omissionem
+<lb ed="#Bc" n="70"/>aclus debiti et in tempore quo debet:
+<lb ed="#Bc" n="71"/>et hoc alia opinio non dicit, sed potius
+<lb ed="#Bc" n="72"/>quod omne peccatum omissionis 
+pecca<lb break="no" ed="#Bc" n="73"/>tum est quantum ad actum interiorem,
+<lb ed="#Bc" n="74"/>ut non reficiens pauperem in tempore
+<lb ed="#Bc" n="75"/>necessitatis ultima, velle non reficere,
+<lb ed="#Bc" n="76"/>vel sua sibi avare reservare : sed de hoc
+<lb ed="#Bc" n="77"/>infra agetur .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

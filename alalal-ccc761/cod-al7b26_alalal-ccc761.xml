@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="5"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ccc761"><!-- l1d26a2 -->
+            <head xml:id="alalal-ccc761-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-ccc761-Hd1e101" type="question-title">Utrum hypostasis sit in divinis eadem
+ratione qua in inferioribus ? et, An
+verius sit in inferioribus quam 
+superioribus ?</head>
+            <p xml:id="alalal-ccc761-d1e104">
+               <lb ed="#Bb" n="29"/>ARTICULUS II.
+<lb ed="#Bb" n="30"/>Utrum hypostasis sit in divinis eadem
+<lb ed="#Bb" n="31"/>ratione qua in inferioribus ? et, An
+<lb ed="#Bb" n="32"/>verius sit in inferioribus quam 
+supe<lb break="no" ed="#Bb" n="33"/>rioribus ?
+</p>
+            <p xml:id="alalal-ccc761-d1e117">
+               <lb ed="#Bb" n="34"/>Secundo queritur, Utrum in divinis
+<lb ed="#Bb" n="35"/>sit eadem ratione qua in inferioribus?
+</p>
+            <p xml:id="alalal-ccc761-d1e124">
+               <lb ed="#Bb" n="36"/>Videtur autem quod non: quia in 
+in<lb break="no" ed="#Bb" n="37"/>ferioribus licet hypostasis distinctio 
+co<lb break="no" ed="#Bb" n="38"/>gnoscalur proprietatibus quae in alia non
+<lb ed="#Bb" n="39"/>inveniuntur, non tamen causatur ab illis,
+<lb ed="#Bb" n="40"/>sed potius ab hac materia et hac forma,
+<lb ed="#Bb" n="41"/>secundum quod dicitur, Per quod unum
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="42"/>movetur, est materia unum : materia 
+au<lb break="no" ed="#Bb" n="43"/>tem et forma sunt principia substantiae :
+<lb ed="#Bb" n="44"/>et hoc aliquid est substantia composita.
+<lb ed="#Bb" n="45"/>In divinis autem non sic causatur 
+distin<lb break="no" ed="#Bb" n="46"/>ctio hypostasum: quia dicit Damascenus
+<lb ed="#Bb" n="47"/>quod in omnibus idem sunt tres 
+perso<lb break="no" ed="#Bb" n="48"/>ne, praeter ingenerationem, et 
+genera<lb break="no" ed="#Bb" n="49"/>tionem, et processionem : et Augustinus
+<lb ed="#Bb" n="50"/>dicit, quod in omnibus idem sunt, preter
+<lb ed="#Bb" n="51"/>id quod ad alterum est. Ergo distinctio
+<lb ed="#Bb" n="52"/>in superioribus causatur a proprietatibus.
+</p>
+            <p xml:id="alalal-ccc761-d1e167">
+               <lb ed="#Bb" n="53"/>Sed contra : Omnis proprietas 
+secun<lb break="no" ed="#Bb" n="54"/>dum intellectum est consequens 
+subje<lb break="no" ed="#Bb" n="55"/>ctum cujus est proprietas : relationes in
+<lb ed="#Bb" n="56"/>divinis sunt proprietates hypostasum :
+<lb ed="#Bb" n="57"/>ergo secundum intellectum consequuntur
+<lb ed="#Bb" n="58"/>eas : ergo hypostases secundum 
+intelle<lb break="no" ed="#Bb" n="59"/>ctum distinctae sunt ante proprietates.
+<lb ed="#Bb" n="60"/>Prima probatur ex dicto Boetii in 
+com<lb break="no" ed="#Bb" n="61"/>mento super Porphyrium, qui dicit, quod
+<lb ed="#Bb" n="62"/>licet proprietas semper sequatur 
+subje<lb break="no" ed="#Bb" n="63"/>ctum : tamen quia non est de 
+constituen<lb break="no" ed="#Bb" n="64"/>tibus esse, est de generatione 
+acciden<lb break="no" ed="#Bb" n="65"/>tium : sed verum est, quod est accidens
+<lb ed="#Bb" n="66"/>fluens de principiis speciei, et ideo 
+sem<lb break="no" ed="#Bb" n="67"/>per et ubique sequitur speciem. Secunpa
+<lb ed="#Bb" n="68"/>autem supponitur a sanctis.
+</p>
+            <p xml:id="alalal-ccc761-d1e204">
+               <lb ed="#Bb" n="69"/>Utrerivs queritur, Utrum verius sit
+<lb ed="#Bb" n="70"/>hypostasis in superioribus, vel in 
+inferio<lb break="no" ed="#Bb" n="71"/>ribus ? ,
+</p>
+            <p xml:id="alalal-ccc761-d1e213">
+               <lb ed="#Bb" n="72"/>Videtur, quod in inferioribus : quia
+<lb ed="#Bb" n="73"/>ubi verior est distinctio, ibi verior 
+salva<lb break="no" ed="#Bb" n="74"/>tur ratio hypostasis, dummodo sit in 
+ra<lb break="no" ed="#Bb" n="75"/>tionali natura: sed verior est distinctio
+<lb ed="#Bb" n="76"/>per substantiam quam per proprietatem :
+<lb ed="#Bb" n="77"/>ergo verior est ratio hypostasis in 
+in<lb break="no" ed="#Bb" n="78"/>ferioribus, quam in superioribus.
+</p>
+            <p xml:id="alalal-ccc761-d1e231">
+               <lb ed="#Bb" n="79"/>Contra: Ad Ephes. m1, 15: Bx quo 
+om<lb break="no" ed="#Bb" n="80"/>nis paternitas in celis et in terra 
+nomi<lb break="no" ed="#Bb" n="81"/>natur. Ergo inde huc venit nomen 
+hypo<lb break="no" ed="#Bb" n="82"/>stasis et persone : ergo verius est ibi: et
+<lb ed="#Bb" n="83"/>hoc supra ostensum est in questione de
+<lb ed="#Bb" n="84"/>generatione Filii !.
+</p>
+            <p xml:id="alalal-ccc761-d1e247">
+               <lb ed="#Bb" n="85"/>Solutio. Dico sine prajudicio, quod
+<lb ed="#Bb" n="86"/>hypostasis ab alio habet distinctionem
+<pb ed="#Bb" n="6"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>in superioribus, et ab alio in 
+inferiori<lb break="no" ed="#Bb" n="2"/>bus, sicut probat objectio : quia in 
+su<lb break="no" ed="#Bb" n="3"/>perioribus non est distinctio nisi in 
+pro<lb break="no" ed="#Bb" n="4"/>prietatibus, et non essentia quae 
+signifi<lb break="no" ed="#Bb" n="5"/>cabilis sit ut quo est, nec etiam ut quod
+<lb ed="#Bb" n="6"/>est : tres enim sunt una essentia, et tres
+<lb ed="#Bb" n="7"/>sunt unus Deus: sed verum est, quod tres
+<lb ed="#Bb" n="8"/>non sunt unus quis, vel unus aliquis :
+<lb ed="#Bb" n="9"/>quia quis et aliquis dicunt supposita.
+</p>
+            <p xml:id="alalal-ccc761-d1e278">
+               <lb ed="#Bb" n="10"/>Ad id autem quod contra objicitur,
+<lb ed="#Bb" n="11"/>dico quod licet proprietas secundum se,
+<lb ed="#Bb" n="12"/>secundum intellectum sit post id cujus
+<lb ed="#Bb" n="13"/>est proprietas : tamen in divinis non est
+<lb ed="#Bb" n="14"/>ita : et hoc contingit ideo, quia in 
+di<lb break="no" ed="#Bb" n="15"/>vinis non est proprietas tantum in 
+ratio<lb break="no" ed="#Bb" n="16"/>ne proprietatis, imo habet aliquo modo
+<lb ed="#Bb" n="17"/>actum differentiae constitutive respectu
+<lb ed="#Bb" n="18"/>persone : est enim proprietas constituens
+<lb ed="#Bb" n="19"/>personam : non dico, quod sit 
+differen<lb break="no" ed="#Bb" n="20"/>tia, sed quoad hoc habet actum similem
+<lb ed="#Bb" n="21"/>sibi, et ideo per intellectum est ante ;
+<lb ed="#Bb" n="22"/>et ideo distinctio hypostasis secundum
+<lb ed="#Bb" n="23"/>modum intelligendi, est ante omnem
+<lb ed="#Bb" n="24"/>generationem, ut causa ante causatum.
+<lb ed="#Bb" n="25"/>Motus autem localis in isto vel illo quod
+<lb ed="#Bb" n="26"/>habet motum processivum, est post 
+ge<lb break="no" ed="#Bb" n="27"/>nerationem istius vel illius.
+</p>
+            <p xml:id="alalal-ccc761-d1e321">
+               <lb ed="#Bb" n="28"/>Apo quod ulterius queritur, facile
+<lb ed="#Bb" n="29"/>est respondere : quia res verius est in
+<lb ed="#Bb" n="30"/>superioribus, nomen autem verius 
+salva<lb break="no" ed="#Bb" n="31"/>tur in inferioribus : sicut etiam diximus
+<lb ed="#Bb" n="32"/>de persona.
+</p>
+            <p xml:id="alalal-ccc761-d1e334">
+               <lb ed="#Bb" n="33"/>Ad opsectum dicendum, quod divisio
+<lb ed="#Bb" n="34"/>non est de ratione hypostasis, sed potius
+<lb ed="#Bb" n="35"/>exisitentiae modus sive in unitate 
+sub<lb break="no" ed="#Bb" n="36"/>stantiae,  sive in diversitate, sicut supra
+<lb ed="#Bb" n="37"/>dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

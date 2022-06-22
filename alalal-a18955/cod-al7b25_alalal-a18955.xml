@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="95"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a18955"><!-- l1d3a4 -->
+            <head xml:id="alalal-a18955-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-a18955-Hd1e101" type="question-title">An attributa in Deo sint unum,
+vel plura?</head>
+            <p xml:id="alalal-a18955-d1e104">
+               <lb ed="#Ba" n="32"/>ARTICULUS IV.
+<lb ed="#Ba" n="33"/>An attributa in Deo sint unum,
+<lb ed="#Ba" n="34"/>vel plura?
+</p>
+            <p xml:id="alalal-a18955-d1e113">
+               <lb ed="#Ba" n="35"/>Deinde quaeritur de his quae in Littera
+<lb ed="#Ba" n="36"/>primi capituli continentur.
+</p>
+            <p xml:id="alalal-a18955-d1e120">
+               <lb ed="#Ba" n="37"/>Et objicitur primo de hoc quod dicit :
+<lb ed="#Ba" n="38"/>
+               <quote xml:id="alalal-a18955-Qd1e126"> Invisibilia Dei, etc. </quote>
+            </p>
+            <p xml:id="alalal-a18955-d1e130">
+               <lb ed="#Ba" n="39"/>Videtur enim non esse conyeniens :
+<lb ed="#Ba" n="40"/>cum attributa significent essentiam, et
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="41"/>ita sint unum, non plura : unde 
+singu<lb break="no" ed="#Ba" n="42"/>lariter, non pluraliter deberent 
+signifi<lb break="no" ed="#Ba" n="43"/>cari. Nec videtur esse conveniens solutio
+<lb ed="#Ba" n="44"/>Magistri quam ponit circa finem quarte
+<lb ed="#Ba" n="45"/>rationis, quod ideo dicit pluraliter, quia
+<lb ed="#Ba" n="46"/>multis modis significantur : secundum
+<lb ed="#Ba" n="47"/>hoc enim possemus dicere, Deus est 
+sub<lb break="no" ed="#Ba" n="48"/>stantia, et Deus est virtus, et Deus est
+<lb ed="#Ba" n="49"/>sapientia : ergo Deus est plura, vel tria,
+<lb ed="#Ba" n="50"/>quod falsum est.
+</p>
+            <p xml:id="alalal-a18955-d1e161">
+               <lb ed="#Ba" n="51"/>Solutio. Dicendum, quod attributa 
+du<lb break="no" ed="#Ba" n="52"/>plicem habent comparationem, scilicet,
+<lb ed="#Ba" n="53"/>ad substantiam cause in qua sunt, et ad
+<lb ed="#Ba" n="54"/>effectus quos connotant. Et primo modo
+<lb ed="#Ba" n="55"/>significantur unum propter 
+simplicita<lb break="no" ed="#Ba" n="56"/>tem : unde non possum inferre, si Deus
+<lb ed="#Ba" n="57"/>est bonitas et sapientia, quod ipse sit
+<lb ed="#Ba" n="58"/>due : quia sic fit comparatio ad causam
+<lb ed="#Ba" n="59"/>in qua sunt attributa. Aliam 
+comparatio<lb break="no" ed="#Ba" n="60"/>nem habent ad connotata, et sic sunt
+<lb ed="#Ba" n="61"/>secundum quid ut plura, licet non 
+sim<lb break="no" ed="#Ba" n="62"/>pliciter plura : quia significantur ut 
+ra<lb break="no" ed="#Ba" n="63"/>tiones plurium, Et ideo etiam non dixit
+<lb ed="#Ba" n="64"/>Apostolus plura invisibilia, sed 
+invisibi<lb break="no" ed="#Ba" n="65"/>fia, consignificando pluralem numerum,
+<lb ed="#Ba" n="66"/>non significando. Minor est enim 
+plura<lb break="no" ed="#Ba" n="67"/>litas consignificata, quam significata, hoc
+<lb ed="#Ba" n="68"/>est, mimoris rationis : ly plura enim, vel
+<lb ed="#Ba" n="69"/>duo, vel tria, et alii termini numerales
+<lb ed="#Ba" n="70"/>significant pluralitatem : et ideo 
+simpli<lb break="no" ed="#Ba" n="71"/>citer sunt plura circa quae illi termini
+<lb ed="#Ba" n="72"/>notant ponere pluralitatem : sed 
+plurali<lb break="no" ed="#Ba" n="73"/>tas consignificata est pluralitas 
+secun<lb break="no" ed="#Ba" n="74"/>dum quid. Et est simile de puncto in
+<lb ed="#Ba" n="75"/>centro, quod est unum solum, secundum
+<lb ed="#Ba" n="76"/>quod ipsum est centrum per substantiam
+<lb ed="#Ba" n="77"/>consideratum : tamen potest esse in 
+ra<lb break="no" ed="#Ba" n="78"/>tione plurium principiorum, secundum
+<lb ed="#Ba" n="79"/>quod infinite line trahuntur ab ipso ad
+<lb ed="#Ba" n="80"/>circumferentiam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

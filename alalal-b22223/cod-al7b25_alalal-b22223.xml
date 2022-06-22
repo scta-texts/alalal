@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="633"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b22223"><!-- l1d25a5 -->
+            <head xml:id="alalal-b22223-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-b22223-Hd1e101" type="question-title">Quare bene dicitur, eiusdem essentiae, et
+non ejusdem Dei : quare quaelibet
+persona, et non quilibet Deus : et cur
+non potest dici tres persone ex eadem
+essentia ?</head>
+            <p xml:id="alalal-b22223-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="36"/>ARTICULUS V.
+<lb ed="#Ba" n="37"/>Quare bene dicitur, eiusdem essentiae, et
+<lb ed="#Ba" n="38"/>non ejusdem Dei : quare quaelibet
+<lb ed="#Ba" n="39"/>persona, et non quilibet Deus : et cur
+<lb ed="#Ba" n="40"/>non potest dici tres persone ex eadem
+<lb ed="#Ba" n="41"/>essentia ?
+</p>
+            <p xml:id="alalal-b22223-d1e122">
+               <lb ed="#Ba" n="42"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="#Ba" n="43"/>secundo capitulo F, circa finem: <quote xml:id="alalal-b22223-Qd1e128"> 
+Augu<lb break="no" ed="#Ba" n="44"/>stinus... dicit tres personas esse unam 
+es<lb break="no" ed="#Ba" n="45"/>sentiam vel eiusdem essentiae, non ex 
+ea<lb break="no" ed="#Ba" n="46"/>dem essentia, etc. </quote>
+            </p>
+            <p xml:id="alalal-b22223-d1e138">
+               <lb ed="#Ba" n="47"/>quaeritur enim ratio hujus.
+</p>
+            <p xml:id="alalal-b22223-d1e144">
+               <lb ed="#Ba" n="48"/>1. Similiter quare dicimus, eiusdem
+<lb ed="#Ba" n="49"/>essentiae, et non ejusdem Dei esse tres
+<lb ed="#Ba" n="50"/>personas : cum idem dicat ly Ded, et 
+es<lb break="no" ed="#Ba" n="51"/>sentia ?
+</p>
+            <p xml:id="alalal-b22223-d1e155">
+               <lb ed="#Ba" n="52"/>2. Item, Bene dicimus, guelebet 
+per<lb break="no" ed="#Ba" n="53"/>sona, licet persona significet substantiam :
+<lb ed="#Ba" n="54"/>non tamen dicitur, quilibet Deus: et
+<lb ed="#Ba" n="55"/>quaeritur ratio hujus.
+</p>
+            <p xml:id="alalal-b22223-d1e166">
+               <lb ed="#Ba" n="56"/>Solutio. Dicendum, quod cum 
+dici<lb break="no" ed="#Ba" n="57"/>tur, ex eadem essentia, praepositio ex
+<lb ed="#Ba" n="58"/>importat causam, et precipue 
+materia<lb break="no" ed="#Ba" n="59"/>lem : et cum essentia non sic se habeat
+<lb ed="#Ba" n="60"/>ad personas, ideo non recipitur illa.
+</p>
+            <p xml:id="alalal-b22223-d1e179">
+               <lb ed="#Ba" n="61"/>Ad aliud dicendum, quod essentia
+<lb ed="#Ba" n="62"/>significat naturam per modum forme :
+<lb ed="#Ba" n="63"/>et ideo licet sit idem in re cum personis,
+<lb ed="#Ba" n="64"/>tamen differt in modo intelligendi, sicut
+<lb ed="#Ba" n="65"/>quis est a quo est : et ista diversitas in
+<lb ed="#Ba" n="66"/>modo significandi importatur in obliquo,
+<lb ed="#Ba" n="67"/>cum dicitur, tres persone unius 
+essen<lb break="no" ed="#Ba" n="68"/>tiae : Deus autem non dicit ut quo est,
+<pb ed="#Ba" n="634"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>sed potius deitatem nominat in eo qui
+<lb ed="#Ba" n="2"/>habet eam : et ideo dicit, ut quis est in
+<lb ed="#Ba" n="3"/>communi : et ideo non talis diversitas
+<lb ed="#Ba" n="4"/>in nomine in modo significandi 
+importa<lb break="no" ed="#Ba" n="5"/>tur.
+</p>
+            <p xml:id="alalal-b22223-d1e214">
+               <lb ed="#Ba" n="6"/>Ad aliud dicendum, quod persona
+<lb ed="#Ba" n="7"/>dicit suppositum: et illud plurificatur in
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="8"/>divinis : et ideo dictio distributiva 
+inve<lb break="no" ed="#Ba" n="9"/>nit ibi materiam sue distributionis. Deus
+<lb ed="#Ba" n="10"/>autem nominat substantiam concretive,et
+<lb ed="#Ba" n="11"/>non suppositum, nisi forte ex adjuncto
+<lb ed="#Ba" n="12"/>termino notionali : et ideo non sinit sibi
+<lb ed="#Ba" n="13"/>conjungi signum distributivum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

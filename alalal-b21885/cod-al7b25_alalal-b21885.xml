@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="631"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b21885"><!-- l1d25a3 -->
+            <head xml:id="alalal-b21885-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-b21885-Hd1e101" type="question-title">An in divinis sit alia communitas quam
+nature sive essentiae divinae ?</head>
+            <p xml:id="alalal-b21885-d1e104">
+               <cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="40"/>ARTICULUS III.
+<lb ed="#Ba" n="41"/>An in divinis sit alia communitas quam
+<lb ed="#Ba" n="42"/>nature sive essentiae divinae ?
+</p>
+            <p xml:id="alalal-b21885-d1e115">
+               <lb ed="#Ba" n="43"/>Incidit autem hic dubium de hoc quod
+<lb ed="#Ba" n="44"/>dicit in primo capitulo, ibi, E, in fine :
+<lb ed="#Ba" n="45"/>
+               <quote xml:id="alalal-b21885-Qd1e123"> Cum ergo dicimus tres personas, etc.,</quote>
+               <lb ed="#Ba" n="46"/>ubi non significat essentiam, id est, 
+na<lb break="no" ed="#Ba" n="47"/>turam divinam quae communis est tribus
+<lb ed="#Ba" n="48"/>personis, sed subsistentias.
+</p>
+            <p xml:id="alalal-b21885-d1e133">
+               <lb ed="#Ba" n="49"/>Hoc enim videtur falsum :
+</p>
+            <p xml:id="alalal-b21885-d1e139">
+               <lb ed="#Ba" n="50"/>1. Non enim est communitas in divinis
+<lb ed="#Ba" n="51"/>nisi nature : persona autem est commu~
+<lb ed="#Ba" n="52"/>nis : ergo significat naturam.
+</p>
+            <p xml:id="alalal-b21885-d1e148">
+               <lb ed="#Ba" n="53"/>2. Praeterea, Persona est communis,
+<lb ed="#Ba" n="54"/>et natura est communis aut eadem
+<lb ed="#Ba" n="55"/>communitate, aut alia: non alia, quia
+<lb ed="#Ba" n="56"/>nihil aliud in divinis commune est 
+tri<lb break="no" ed="#Ba" n="57"/>bus : ergo eadem ; ergo significat 
+es<lb break="no" ed="#Ba" n="58"/>sentiam. Si forte dicas, quod est 
+com<lb break="no" ed="#Ba" n="59"/>mune re, et est commune ratione : et
+<lb ed="#Ba" n="60"/>persona estcommune ratione, et essentia
+<lb ed="#Ba" n="61"/>re. Contra : Aut allt rationi aliquid 
+sub<lb break="no" ed="#Ba" n="62"/>est, aul nihil. Si nihil: tunc est cassa et
+<lb ed="#Ba" n="63"/>vana. Si aliquid : aut illud est natura,
+<lb ed="#Ba" n="64"/>aut aliud : et inde procedatur, ut prius.
+</p>
+            <p xml:id="alalal-b21885-d1e177">
+               <lb ed="#Ba" n="65"/>Praeterea, Magister videtur innuere,
+<pb ed="#Ba" n="632"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>quod persona significat in plurali aliud,
+<lb ed="#Ba" n="2"/>et aliud in singulari : et hoc est 
+impos<lb break="no" ed="#Ba" n="3"/>sibile, quia plurale non nisi geminat
+<lb ed="#Ba" n="4"/>suum singulare, et non variat 
+significa<lb break="no" ed="#Ba" n="5"/>tum.
+</p>
+            <p xml:id="alalal-b21885-d1e197">
+               <lb ed="#Ba" n="6"/>Solutio. Dicendum secundum supra
+<lb ed="#Ba" n="7"/>dicta, quod nulla est communitas in 
+di<lb break="no" ed="#Ba" n="8"/>vinis nisi essentia : sed ex illa 
+signifi<lb break="no" ed="#Ba" n="9"/>cantur multe ex consequenti, sicut 
+di<lb break="no" ed="#Ba" n="10"/>stinguendo supra notatum est‘ : et bene
+<lb ed="#Ba" n="11"/>concedo, quod ille communitates 
+se<lb break="no" ed="#Ba" n="12"/>quentes sint communitates rationis.
+</p>
+            <p xml:id="alalal-b21885-d1e215">
+               <lb ed="#Ba" n="13"/>Ad idun autem quod contra 
+objici<lb break="no" ed="#Ba" n="14"/>tur, dicendum quod rationi respondet
+<lb ed="#Ba" n="15"/>aliquid inre : quia realiter significatur, -
+<lb ed="#Ba" n="16"/>cum dicitur, tres persone sunt unus
+<lb ed="#Ba" n="17"/>Deus : aliter enim dicitur communitas
+<lb ed="#Ba" n="18"/>substantiae perly Deus, et aliter per ly
+<lb ed="#Ba" n="19"/>sunt, et aliter per ly isti vel persone : et
+<lb ed="#Ba" n="20"/>licet sit una communitas nature in 
+om<lb break="no" ed="#Ba" n="21"/>nibus importata, non tamen sub eodem
+<lb ed="#Ba" n="22"/>modo significandi : quia in ly persone
+<lb ed="#Ba" n="23"/>importatur ut in suppositis, et in ly sent
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="24"/>in habitudine suppositi ad naturam, et
+<lb ed="#Ba" n="25"/>in ly Deus ut in communi natura 
+secun<lb break="no" ed="#Ba" n="26"/>dum rem : et hoc determinatum est 
+su<lb break="no" ed="#Ba" n="27"/>pra: et ideo in uno cadit pluralitas, in
+<lb ed="#Ba" n="28"/>alio non.
+</p>
+            <p xml:id="alalal-b21885-d1e254">
+               <lb ed="#Ba" n="29"/>Ap 1p quod quaeritur de opinione 
+Ma<lb break="no" ed="#Ba" n="30"/>gistri, dicendum quod ipse non est illius
+<lb ed="#Ba" n="31"/>opinionis, sed potius, quod persona 
+signi<lb break="no" ed="#Ba" n="32"/>ficet substantiam subjectam, sicut supra
+<lb ed="#Ba" n="33"/>probavit : sed intendit, quod licet 
+signi<lb break="no" ed="#Ba" n="34"/>ficet eam, non tamen supponit eam, eo
+<lb ed="#Ba" n="35"/>quod in intellectu suo claudat 
+incommu<lb break="no" ed="#Ba" n="36"/>nicabile importatum per ly individuum,
+<lb ed="#Ba" n="37"/>quod cadit in ejus diffinitione : et illud
+<lb ed="#Ba" n="38"/>ponit circa suppositum, et non circa 
+si<lb break="no" ed="#Ba" n="39"/>gnificatum, ut dictum est in questione
+<lb ed="#Ba" n="40"/>de diffinitione persone : et ideo intendit
+<lb ed="#Ba" n="41"/>dicere, quod in plurali numerum ponit
+<lb ed="#Ba" n="42"/>circa suppositum, et non circa 
+significa<lb break="no" ed="#Ba" n="43"/>tum : suppositum enim suum significatur
+<lb ed="#Ba" n="44"/>per subsistentiam, vel hypostases, sicut
+<lb ed="#Ba" n="45"/>dictum est supra in questione de 
+qua<lb break="no" ed="#Ba" n="46"/>tuor nominibus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

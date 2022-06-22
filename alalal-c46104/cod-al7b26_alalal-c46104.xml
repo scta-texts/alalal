@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="244"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c46104"><!-- l1d37dt2 -->
+            <head xml:id="alalal-c46104-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-c46104-d1e101">
+               <pb ed="#Bb" n="244"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-c46104-d1e110">
+               <lb ed="#Bb" n="2"/>
+               <quote xml:id="alalal-c46104-Qd1e114"> Si autem quaeris, ubi habitabat Deus
+<lb ed="#Bb" n="3"/>antequam essent Sancti ? </quote>
+            </p>
+            <p xml:id="alalal-c46104-d1e120">
+               <lb ed="#Bb" n="4"/>Hic incipit secunda pars prime partis
+<lb ed="#Bb" n="5"/>hujus distinctionis : in qua Magister 
+con<lb break="no" ed="#Bb" n="6"/>tra determinata movet tres questiones
+<lb ed="#Bb" n="7"/>per ordinem in tribus capitulis : quarum
+<lb ed="#Bb" n="8"/>una est, ubi habitabat ante mundum?
+<lb ed="#Bb" n="9"/>Secundo, excludit errorem dicentium,
+<lb ed="#Bb" n="10"/>quod anima ita repleret corpus, quod
+<lb ed="#Bb" n="11"/>Deo non pateret introitus et fuerunt
+<lb ed="#Bb" n="12"/>Tertulliani heretici, qui dicebant Deum
+<lb ed="#Bb" n="13"/>esse humane forme, et animam etiam
+<lb ed="#Bb" n="14"/>humane forme : et caput habere in 
+ca<lb break="no" ed="#Bb" n="15"/>pite corporis, et pedes in pedibus, et sic
+<lb ed="#Bb" n="16"/>de aliis : et hecincipit, ibi, D, <quote xml:id="alalal-c46104-Qd1e150"> Sezendum
+<lb ed="#Bb" n="17"/>est etiam, quia ut ait Augustinus, etc. </quote>
+               <lb ed="#Bb" n="18"/>In tertia querit, Qualiter habitet in 
+qui<lb break="no" ed="#Bb" n="19"/>busdam non cognoscentibus eum, et in
+<lb ed="#Bb" n="20"/>quibusdam cognoscentibus non habitet,
+<lb ed="#Bb" n="21"/>ibi, E, <quote xml:id="alalal-c46104-Qd1e164"> Illud quoque mirabile est, ete. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

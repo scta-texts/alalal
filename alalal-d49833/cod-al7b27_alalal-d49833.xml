@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="270"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d49833"><!-- l2d14a10 -->
+            <head xml:id="alalal-d49833-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-d49833-Hd1e101" type="question-title">Utrum plante nocive tunc facte sunt
+sicut aliae?</head>
+            <p xml:id="alalal-d49833-d1e104">
+               <pb ed="#Bc" n="270"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS X.
+<lb ed="#Bc" n="2"/>Utrum plante nocive tunc facte sunt
+<lb ed="#Bc" n="3"/>sicut aliae?
+</p>
+            <p xml:id="alalal-d49833-d1e117">
+               <lb ed="#Bc" n="4"/>Tertio, Queritur de plantis nocivis,
+<lb ed="#Bc" n="5"/>Utrum tune factee sunt ?
+</p>
+            <p xml:id="alalal-d49833-d1e124">
+               <lb ed="#Bc" n="6"/>Et videtur, quod non : quia
+<lb ed="#Bc" n="7"/>1. Non praeparatur poena ante 
+pecca<lb break="no" ed="#Bc" n="8"/>tum: notivitas autem plantarum est ad
+<lb ed="#Bc" n="9"/>penam:ergo non sunt facte nocive ante
+<lb ed="#Bc" n="10"/>peccatum.
+</p>
+            <p xml:id="alalal-d49833-d1e138">
+               <lb ed="#Bc" n="11"/>2. Item, Omnia obediebant Adae in 
+pri<lb break="no" ed="#Bc" n="12"/>mo statu ad nutum : ergo tune nihil fuit
+<lb ed="#Bc" n="13"/>sibi nocivum.
+</p>
+            <p xml:id="alalal-d49833-d1e147">
+               <lb ed="#Bc" n="14"/>SED CONTRA :
+<lb ed="#Bc" n="15"/>Humor venenosus naturalis est plantis
+<lb ed="#Bc" n="16"/>quibusdam, et figura acutorum 
+angulo<lb break="no" ed="#Bc" n="17"/>rum naturalis : cum ergo unumquodque
+<lb ed="#Bc" n="18"/>factum sit tune in sua natura, videtur
+<lb ed="#Bc" n="19"/>quod venenosus humor cum figura acuti
+<lb ed="#Bc" n="20"/>anguli spinarum tune factus est : ergo 
+no<lb break="no" ed="#Bc" n="21"/>civa tune facta sunt.
+</p>
+            <p xml:id="alalal-d49833-d1e167">
+               <lb ed="#Bc" n="22"/>Solutio. Communis opinio est, quod
+<lb ed="#Bc" n="23"/>tunc facti sunt : sed nocere non potuerunt
+<lb ed="#Bc" n="24"/>nisi per peccatum : dicit enim Isidorus,
+<lb ed="#Bc" n="25"/>quod si Adam non peccasset, nec ignis
+<lb ed="#Bc" n="26"/>ureret, nec spina pungeret, nec gladius
+<lb ed="#Bc" n="27"/>scinderet, nec aliquod aliud nocumentum
+<lb ed="#Bc" n="28"/>ei inferre posset. |
+</p>
+            <p xml:id="alalal-d49833-d1e185">
+               <lb ed="#Bc" n="29"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

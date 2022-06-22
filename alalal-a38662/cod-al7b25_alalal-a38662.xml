@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="196"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a38662"><!-- l1d6dt1 -->
+            <head xml:id="alalal-a38662-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a38662-d1e101">
+               <pb ed="#Ba" n="196"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-a38662-d1e110">
+               <lb ed="#Ba" n="2"/>
+               <quote xml:id="alalal-a38662-Qd1e114"> Praeterea queri solet, Utrum Pater
+<lb ed="#Ba" n="3"/>genuerit Filium, etc. </quote>
+               <lb ed="#Ba" n="4"/>Hic incipit secunda pars istius 
+tracta<lb break="no" ed="#Ba" n="5"/>tus de generatione Filii, in qua quaeritur
+<lb ed="#Ba" n="6"/>de potentia inclinante ad generationem ex
+<lb ed="#Ba" n="7"/>parte generantis, Utrum illa sit 
+neces<lb break="no" ed="#Ba" n="8"/>sitas, vel voluntas, vel natura? 
+Dividi<lb break="no" ed="#Ba" n="9"/>tur autem in duas patres : in quarum 
+pri<lb break="no" ed="#Ba" n="10"/>ma agitur de potentia inclinante in Patre
+<lb ed="#Ba" n="11"/>ad generandum. Sed quia in inferioribus
+<lb ed="#Ba" n="12"/>potentia generandi est in filio genito,
+<lb ed="#Ba" n="13"/>sicut in patre: ideo quaeritur in secunda
+<lb ed="#Ba" n="14"/>patre, Utrum hujusmodi etiam sit in
+<lb ed="#Ba" n="15"/>Filio? et haecincipit in sequenti 
+distin<lb break="no" ed="#Ba" n="16"/>ctione VII, scilicet ibi, <quote xml:id="alalal-a38662-Qd1e147"> Hic solet queri
+<lb ed="#Ba" n="17"/>a quibusdam, etc. </quote>
+            </p>
+            <p xml:id="alalal-a38662-d1e153">
+               <lb ed="#Ba" n="18"/>Prima dividitur in tres. In prima 
+mo<lb break="no" ed="#Ba" n="19"/>yet quaestionem Magister, et solvit per 
+in<lb break="no" ed="#Ba" n="20"/>teremptionem utrisque partis. In secunda,
+<lb ed="#Ba" n="21"/>objicitur contra solutionem : et solvit, ibi,
+<lb ed="#Ba" n="22"/>B, <quote xml:id="alalal-a38662-Qd1e166"> Sed contra hoc opponitur, etc. </quote> In
+<lb ed="#Ba" n="23"/>tertia, redit ad partem quam 
+intereme<lb break="no" ed="#Ba" n="24"/>rat, et solvit eam sub alo sensu, ibi, C,
+<lb ed="#Ba" n="25"/>
+               <quote xml:id="alalal-a38662-Qd1e174"> Predicta tamen verba, etc. </quote>
+            </p>
+            <p xml:id="alalal-a38662-d1e177">
+               <lb ed="#Ba" n="26"/>In prima harum facit tria. Primo enim
+<lb ed="#Ba" n="27"/>ponit questionem heretici sub divisione.
+<lb ed="#Ba" n="28"/>Secundo, interimit utramque partem
+<lb ed="#Ba" n="29"/>divsionis, ibi, <quote xml:id="alalal-a38662-Qd1e187"> Nec voluntate, nec 
+neces<lb break="no" ed="#Ba" n="30"/>sitate. </quote> In tertio, ponit instantiam contra
+<lb ed="#Ba" n="31"/>divisionem heretici, ibi, <quote xml:id="alalal-a38662-Qd1e195"> Acufe sane
+<lb ed="#Ba" n="32"/>quidam. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

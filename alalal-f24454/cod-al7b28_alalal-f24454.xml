@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="643"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f24454"><!-- l3d35dt1 -->
+            <head xml:id="alalal-f24454-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-f24454-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="20"/>DIVISIO TEXTUS.
+<lb ed="Bd" n="21"/>
+               <quote xml:id="alalal-f24454-Qd1e109"> Post premissa diligenter 
+consideran<lb break="no" ed="Bd" n="22"/>dum, etc. </quote>
+            </p>
+            <p xml:id="alalal-f24454-d1e115">
+               <lb ed="Bd" n="23"/>In hac parte agit de differentia 
+dono<lb break="no" ed="Bd" n="24"/>rum, quae sunt in anima secundum 
+intel<lb break="no" ed="Bd" n="25"/>lectum. Et versatur intentio istius 
+distin<lb break="no" ed="Bd" n="26"/>clionis circa quinque: in quorum primo
+<lb ed="Bd" n="27"/>distinguit inter sapientiam et scientiam. 
+<lb ed="Bd" n="28"/>In secundo, inter sapientiam et 
+intelle<lb break="no" ed="Bd" n="29"/>ctum, ibi, B,§ 1: <quote xml:id="alalal-f24454-Qd1e132"> Ostensa differentia,
+<lb ed="Bd" n="30"/>etc. </quote> In tertio, distinguit similiter inter
+<lb ed="Bd" n="31"/>sapientiam et scientiam et intellectum,
+<lb ed="Bd" n="32"/>ibi, B, § 2: <quote xml:id="alalal-f24454-Qd1e141"> Sie ergo distingui potest, 
+<lb ed="Bd" n="33"/>etc. </quote> In quarto, distinguit inter sapien-
+</p>
+            <p xml:id="alalal-f24454-d1e147">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="34"/>tiam et scientiam et intellectum ut dona,
+<lb ed="Bd" n="35"/>et eadem secundum quod sunt habitus
+<lb ed="Bd" n="36"/>acquisiti per studium et non dona, 
+se<lb break="no" ed="Bd" n="37"/>cundum quod hic accipiuntur dona, ibi,
+<lb ed="Bd" n="38"/>C, <quote xml:id="alalal-f24454-Qd1e162"> Et notandum, etc. </quote> Quinto et 
+ulti<lb break="no" ed="Bd" n="39"/>mo, inter sapientiam donum Dei, et 
+sa<lb break="no" ed="Bd" n="40"/>pientiam divinam, ibi, D, <quote xml:id="alalal-f24454-Qd1e168"> Illud etiam
+<lb ed="Bd" n="41"/>sciendum, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

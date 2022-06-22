@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="307"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d55720"><!-- l2d17a5 -->
+            <head xml:id="alalal-d55720-Hd1e99">Articulus 5</head>
+            <p xml:id="alalal-d55720-d1e101">
+               <pb ed="#Bc" n="307"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS V. _
+<lb ed="#Bc" n="2"/>Quare unum lignum in paradiso dictum
+<lb ed="#Bc" n="3"/>est lignum vite, e¢ aliud lignum 
+scien<lb break="no" ed="#Bc" n="4"/>tie boni et mali ?
+</p>
+            <p xml:id="alalal-d55720-d1e117">
+               <lb ed="#Bc" n="5"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bc" n="6"/>F, <quote xml:id="alalal-d55720-Qd1e123"> In hoc autem paradiso erant ligna,
+<lb ed="#Bc" n="7"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-d55720-d1e129">
+               <lb ed="#Bc" n="8"/>Aut enim ab effectu ista ligua sunt 
+vo<lb break="no" ed="#Bc" n="9"/>cata, aut non. Sisic : 
+tunclignumscien<lb break="no" ed="#Bc" n="10"/>tie boni et mali efficit scientiam boni et
+<lb ed="#Bc" n="11"/>mali, sicutlignum vite, quod falsum est,
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="12"/>quia contrarium hujus dicitur in Littera.
+<lb ed="#Bc" n="13"/>Si non : ergo cum una sit ratio 
+imposi<lb break="no" ed="#Bc" n="14"/>tionis nominum, nec lignum vite efficit
+<lb ed="#Bc" n="15"/>immortalitatem : cujus contrarium 
+habe<lb break="no" ed="#Bc" n="16"/>tur infra.
+</p>
+            <p xml:id="alalal-d55720-d1e153">
+               <lb ed="#Bc" n="17"/>Soxutio. Magister hoc satis 
+convenien<lb break="no" ed="#Bc" n="18"/>ter determinat : quia lignum vite sic 
+di<lb break="no" ed="#Bc" n="19"/>citur ab effectu et hoc 
+intelligen<lb break="no" ed="#Bc" n="20"/>dum ab effectu dispositionis materia
+<lb ed="#Bc" n="21"/>ad immortalitatem sed non effecit
+<lb ed="#Bc" n="22"/>immortalitatis habitum, ut infra 
+proba<lb break="no" ed="#Bc" n="23"/>tur ?: sed alterum vocatur lignum 
+scien<lb break="no" ed="#Bc" n="24"/>tie boni et mali ab eventu quem 
+pre<lb break="no" ed="#Bc" n="25"/>scivit Deus.
+</p>
+            <p xml:id="alalal-d55720-d1e176">
+               <lb ed="#Bc" n="26"/>Ad hoc autem quod objicitur, 
+dicen<lb break="no" ed="#Bc" n="27"/>dum quod haec est falsa, quod una est
+<lb ed="#Bc" n="28"/>ratio impositionis nominum.,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

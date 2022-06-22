@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="396"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a79043"><!-- l1d14a8 -->
+            <head xml:id="alalal-a79043-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-a79043-Hd1e101" type="question-title">An Magister hic bene determinat de
+missione temporali ?</head>
+            <p xml:id="alalal-a79043-d1e104">
+               <lb ed="#Ba" n="62"/>ARTICULUS VIII.
+<lb ed="#Ba" n="63"/>An Magister hic bene determinat de
+<lb ed="#Ba" n="64"/>missione temporali ?
+</p>
+            <p xml:id="alalal-a79043-d1e113">
+               <lb ed="#Ba" n="65"/>His visis quae quasi adminiculum sunt
+<lb ed="#Ba" n="66"/>ad totum istum tractatum, accedendum
+<lb ed="#Ba" n="67"/>est ad Litteram.
+</p>
+            <p xml:id="alalal-a79043-d1e122">
+               <lb ed="#Ba" n="68"/>Et primo quaeritur de hoc quod dicit:
+<lb ed="#Ba" n="69"/>
+               <quote xml:id="alalal-a79043-Qd1e128"> Praeterea diligenter adnotandum est,
+<lb ed="#Ba" n="70"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-a79043-d1e135">
+               <lb ed="#Ba" n="71"/>1. Videtur enim Inc male poni iste 
+tra<lb break="no" ed="#Ba" n="72"/>ctatus de temporali processione : cum
+<lb ed="#Ba" n="73"/>enim Magister agat hic de his quae ab
+<lb ed="#Ba" n="74"/>eterno Deo conveniunt, ista autem 
+con<lb break="no" ed="#Ba" n="75"/>veniunt ex tempore, male videtur hic 
+in<lb break="no" ed="#Ba" n="76"/>troduci.
+</p>
+            <p xml:id="alalal-a79043-d1e151">
+               <lb ed="#Ba" n="77"/>2. Item, Sunt quaedam temporaliter
+<lb ed="#Ba" n="78"/>Deo convenientia, de quibus Magister
+<lb ed="#Ba" n="79"/>infra determinabit ' : ergo inter illa 
+de<lb break="no" ed="#Ba" n="80"/>beret poni iste tractatus, ut videtur.
+</p>
+            <p xml:id="alalal-a79043-d1e162">
+               <lb ed="#Ba" n="81"/>3. Praeterea, De missione in carnem
+<lb ed="#Ba" n="82"/>agitur in libro III Sententiarum : cum ergo
+<pb ed="#Ba" n="397"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>illa principalis omnium fuerit missionum,
+<lb ed="#Ba" n="2"/>ut videtur, debebat Magister simul agere
+<lb ed="#Ba" n="3"/>ibi etiam de istis missionibus quas hic
+<lb ed="#Ba" n="4"/>tangit.
+</p>
+            <p xml:id="alalal-a79043-d1e182">
+               <lb ed="#Ba" n="5"/>Solutio. Dicendum, quod non agitur
+<lb ed="#Ba" n="6"/>hic de illis in quantum temporalia sunt,
+<lb ed="#Ba" n="7"/>sed in quantum in temporali clausum 
+in<lb break="no" ed="#Ba" n="8"/>notescit aeternum : et ideo quia distinctio,
+<lb ed="#Ba" n="9"/>et aeterna scilicet emanatio personarum
+<lb ed="#Ba" n="10"/>in temporali cognoscilur, ideo pars
+<lb ed="#Ba" n="11"/>haecintroducitur.
+</p>
+            <p xml:id="alalal-a79043-d1e200">
+               <lb ed="#Ba" n="12"/>Ad aliud dicendum, quod alia que
+<lb ed="#Ba" n="13"/>ex tempore Deo conveniunt, ut Creator
+<lb ed="#Ba" n="14"/>et Dominus quando dicitur a 
+do<lb break="no" ed="#Ba" n="15"/>minio, secundum actum non ostendunt
+<lb ed="#Ba" n="16"/>distinctionem personarum: et ideo cum
+<lb ed="#Ba" n="17"/>illis istud ordinari non potuit.
+</p>
+            <p xml:id="alalal-a79043-d1e216">
+               <lb ed="#Ba" n="18"/>Ad aliud dicendum, quod in Il 
+Sen<lb break="no" ed="#Ba" n="19"/>tentiarum agitur de his quae faciunt ad
+<lb ed="#Ba" n="20"/>incarnationem secundum veritatem na~
+<lb ed="#Ba" n="21"/>ture assumpte et assumentis: et hoc
+<lb ed="#Ba" n="22"/>non est de ratione missionis: quia missio
+<lb ed="#Ba" n="23"/>potest esse in creatura non unita. Sed
+<lb ed="#Ba" n="24"/>hic tangitur de his aliquid, licet parum,
+<lb ed="#Ba" n="25"/>prout substantialia sunt missioni 
+osten<lb break="no" ed="#Ba" n="26"/>denti aternum exitumFilii a Patre, sicut
+<lb ed="#Ba" n="27"/>poterit patere in sequenti distinctione,
+<lb ed="#Ba" n="28"/>in qua tangitur de missione Filii in 
+car<lb break="no" ed="#Ba" n="29"/>nem, non tantum in carne.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

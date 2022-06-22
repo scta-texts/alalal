@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="366"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e70016"><!-- l3d20a8 -->
+            <head xml:id="alalal-e70016-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-e70016-Hd1e101" type="question-title">Utrum sicut homo meruit invadi pro
+consensu, tta diabolus pro fraude et
+mendacio ?</head>
+            <p xml:id="alalal-e70016-d1e104">
+               <lb ed="Bd" n="80"/>ARTICULUS VIII.
+<lb ed="Bd" n="81"/>Utrum sicut homo meruit invadi pro
+<lb ed="Bd" n="82"/>consensu, tta diabolus pro fraude et
+<lb ed="Bd" n="83"/>mendacio ?
+</p>
+            <p xml:id="alalal-e70016-d1e115">
+               <lb ed="Bd" n="84"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="85"/>ibi, A, circa medium: <quote xml:id="alalal-e70016-Qd1e121">Illo enim 
+dese<lb break="no" ed="Bd" n="86"/>rente peccaniem, peccati auctor illico
+<lb ed="Bd" n="87"/>invasit, etc. </quote>
+            </p>
+            <p xml:id="alalal-e70016-d1e129">
+               <lb ed="Bd" n="88"/>Videtur, quod ambo debebant invadi
+<lb ed="Bd" n="89"/>a tertio: sicut enim meruit invadi homo
+<lb ed="Bd" n="90"/>pro consensu, ita diabolus pro fraude et
+<lb ed="Bd" n="91"/>mendacio, et multo magis.
+</p>
+            <p xml:id="alalal-e70016-d1e141">
+               <pb ed="#Bd" n="367"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Ad noc dicendum, quod ambos invasit
+<lb ed="Bd" n="2"/>sententia judicis condemnantis: sed 
+ta<lb break="no" ed="Bd" n="3"/>men debebat eo jure homo in 
+potesta<lb break="no" ed="Bd" n="4"/>tex diabol: transire: quia se illi sponte
+<lb ed="Bd" n="5"/>trauidst, perurittens se decipi ubi ce facih
+<lb ed="Bd" n="6"/>deceptionem cavere potuit: et hoc est
+<lb ed="Bd" n="7"/>quod intendit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="176"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a35653"><!-- l1d5a2 -->
+            <head xml:id="alalal-a35653-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-a35653-Hd1e101" type="question-title">Utrum essentia sit genita a Patre, et an
+in divinis sint duae res, relata, et non
+relata, scilicet essentia, et persona ?</head>
+            <p xml:id="alalal-a35653-d1e104">
+               <lb ed="#Ba" n="26"/>ARTICULUS II.
+<lb ed="#Ba" n="27"/>Utrum essentia sit genita a Patre, et an
+<lb ed="#Ba" n="28"/>in divinis sint duae res, relata, et non
+<lb ed="#Ba" n="29"/>relata, scilicet essentia, et persona ?
+</p>
+            <p xml:id="alalal-a35653-d1e115">
+               <lb ed="#Ba" n="30"/>Deinde quaeritur de hoc quod dicit 
+Ma<lb break="no" ed="#Ba" n="31"/>gister in prima ratione, Quare essentia
+<lb ed="#Ba" n="32"/>ibi non sit a Patre genita. ibi, <quote xml:id="alalal-a35653-Qd1e123"> Si Pater
+<lb ed="#Ba" n="33"/>diceretur genuisse divinam essentiam,
+<lb ed="#Ba" n="34"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-a35653-d1e131">
+               <lb ed="#Ba" n="35"/>Sed contra:
+<lb ed="#Ba" n="36"/>1. Secundum hoc in divinis est res 
+rela<lb break="no" ed="#Ba" n="37"/>ta, et res non relata : sed res relata, et
+<lb ed="#Ba" n="38"/>res non relata sunt due res : ergo 
+essen<lb break="no" ed="#Ba" n="39"/>tia et persona sunt due res.
+</p>
+            <p xml:id="alalal-a35653-d1e145">
+               <lb ed="#Ba" n="40"/>2. Item, Persona est res distincta, et
+<lb ed="#Ba" n="41"/>essentia res non distincta: ergo non
+<lb ed="#Ba" n="42"/>possunt esse res eeedem : ergo essentia et
+<lb ed="#Ba" n="43"/>persona sunt duo.
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="44"/>3. Item, Propter oppositionem relatio~
+<lb ed="#Ba" n="45"/>nis una persona non est alia persona :
+<lb ed="#Ba" n="46"/>cum igitur major sit oppositio 
+affirmatio<lb break="no" ed="#Ba" n="47"/>nis et negationis propter oppositionem
+<lb ed="#Ba" n="48"/>contradictionis, cum dicitur, persona est
+<lb ed="#Ba" n="49"/>res distincta, essentia res non distincta,
+<lb ed="#Ba" n="50"/>essentia non debet esse persona.
+</p>
+            <p xml:id="alalal-a35653-d1e174">
+               <lb ed="#Ba" n="51"/>4, Praeterea, Notabilia sunt 
+sophisma<lb break="no" ed="#Ba" n="52"/>ta Prepositivi, qui sic objicit : Essentia
+<lb ed="#Ba" n="53"/>est Pater, et Pater est essentia : sed 
+Pa<lb break="no" ed="#Ba" n="54"/>ter est Pater Filli: ergo essentia est 
+Pa<lb break="no" ed="#Ba" n="55"/>ter Filii.
+</p>
+            <p xml:id="alalal-a35653-d1e187">
+               <lb ed="#Ba" n="56"/>5. Item, Haec simpliciter est vera, 
+Es<lb break="no" ed="#Ba" n="57"/>sentia est Filius Patris, quia inter Filium
+<lb ed="#Ba" n="58"/>Patris et essentiam non cadit distinctio
+<lb ed="#Ba" n="59"/>relationis : sed quidquid est Filius Patris
+<lb ed="#Ba" n="60"/>genitum est a Patre: ergo essentia 
+ge<lb break="no" ed="#Ba" n="61"/>nita esta Patre, quod falsum est: ergo
+<lb ed="#Ba" n="62"/>essentia non est Filius Patris, quod 
+ite<lb break="no" ed="#Ba" n="63"/>rum falsum est, quia essentia est Filius,
+<lb ed="#Ba" n="64"/>et non est Filius nisi Patris, ergo 
+essen<lb break="no" ed="#Ba" n="65"/>tia est Filius Patris.
+</p>
+            <p xml:id="alalal-a35653-d1e211">
+               <lb ed="#Ba" n="66"/>6. Item, Essentia una est ille qui 
+ge<lb break="no" ed="#Ba" n="67"/>nitus est : ille autem qui genitus est, 
+Fi<lb break="no" ed="#Ba" n="68"/>lius est ; ergo essentia est Filius.
+</p>
+            <p xml:id="alalal-a35653-d1e220">
+               <lb ed="#Ba" n="69"/>7. Item, Essentia est res genita : sed
+<lb ed="#Ba" n="70"/>res genita est genita: ergo essentia est
+<lb ed="#Ba" n="71"/>genita, quod Magister negat in Littera.
+</p>
+            <p xml:id="alalal-a35653-d1e229">
+               <lb ed="#Ba" n="72"/>8. Item, Essentia est terminus 
+genera<lb break="no" ed="#Ba" n="73"/>tionis. Prosatio. Essentia est id quod
+<lb ed="#Ba" n="74"/>genitum est, vel ille qui genitus est a
+<lb ed="#Ba" n="75"/>Patre : et hoc est terminus generationis :
+<lb ed="#Ba" n="76"/>ergo essentia est terminus generationis :
+<lb ed="#Ba" n="77"/>terminus autem generationis est a Patre:
+<lb ed="#Ba" n="78"/>ergo essentia est a Patre, quod Auctor
+<lb ed="#Ba" n="79"/>negat in Littera in tertia ratione. Et
+<lb ed="#Ba" n="80"/>quia facile est hujusmodi multa adducere,
+<lb ed="#Ba" n="81"/>ista sufficiant.
+</p>
+            <p xml:id="alalal-a35653-d1e254">
+               <lb ed="#Ba" n="82"/>Solutio. Dicendum ad primum et ad
+<lb ed="#Ba" n="83"/>secundum, quod non sequitur, Persona
+<lb ed="#Ba" n="84"/>est relata, vel distincta : et esssentia
+<lb ed="#Ba" n="85"/>non relata, nec distincta : ergo sunt due
+<lb ed="#Ba" n="86"/>res. Debet enim addere : et haecres non
+<lb ed="#Ba" n="87"/>est illa: et sic sequeretur quod essent
+<lb ed="#Ba" n="88"/>due res: et ideo ab insufficienti 
+proce<lb break="no" ed="#Ba" n="89"/>dit.
+</p>
+            <p xml:id="alalal-a35653-d1e274">
+               <lb ed="#Ba" n="90"/>Ad aliud dicendum, quod oppositio
+<lb ed="#Ba" n="91"/>affirmationis et negationis est major
+<pb ed="#Ba" n="177"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>quam relationis : sed quando circa idem
+<lb ed="#Ba" n="2"/>riznificantur modiillarum oppositionum,
+<lb ed="#Ba" n="3"/>tuuc oppositi respectus, scilicet 
+relativo<lb break="no" ed="#Ba" n="4"/>ruin, non permittunt illa esse idem in
+<lb ed="#Ba" n="5"/>quibus significantur illi respectus : sed
+<lb ed="#Ba" n="6"/>nihil prohibet ab eodem secundum rem
+<lb ed="#Ba" n="7"/>iiversa affirmari et negari, eo quod 
+ip<lb break="no" ed="#Ba" n="8"/>sui accipitur in diversa ratione 
+signifi<lb break="no" ed="#Ba" n="9"/>vandi: modi autem contradictionis 
+tan<lb break="no" ed="#Ba" n="10"/>tum significantur, cum dicitur, res 
+distin<lb break="no" ed="#Ba" n="11"/>rla, et res non distincta : quod patet,
+<lb ed="#Ba" n="12"/>iia propositiones non sunt 
+contradicto<lb break="no" ed="#Ba" n="13"/>rue, sed modi contradictionis 
+signilican<lb break="no" ed="#Ba" n="14"/>tur in praedicato. Aliter etiam potest 
+di<lb break="no" ed="#Ba" n="15"/>et, quod contradictio non notatur circa
+<lb ed="#Ba" n="16"/>vlem eodem modo acceptum : cum enim
+<lb ed="#Ba" n="17"/>dicil, essentia est res non distincta, ly res
+<lb ed="#Ba" n="18"/>tenelur essentialiter : cum autem dicit,
+<lb ed="#Ba" n="19"/>persona est res distincta, ly res tenetur
+<lb ed="#Ba" n="20"/>personaliter : et ideo quia non sumitur
+<lb ed="#Ba" n="21"/>ul idem, non est oppositio 
+contradictio<lb break="no" ed="#Ba" n="22"/>tis.
+</p>
+            <p xml:id="alalal-a35653-d1e333">
+               <lb ed="#Ba" n="23"/>Ad aliud dicendum, quod haecest 
+ve<lb break="no" ed="#Ba" n="24"/>ra, Kissentia est Pater : et haecvera, 
+Pa<lb break="no" ed="#Ba" n="25"/>ter est Pater Filii: sed cum infert, ergo
+<lb ed="#Ba" n="26"/>wssentia est Pater Filii, conclusio illa 
+du<lb break="no" ed="#Ba" n="27"/>plex est, et in uno sensu sequitur, in alio
+<lb ed="#Ba" n="28"/>non, Si enim ly Pater sit adjectivum, id
+<lb ed="#Ba" n="29"/>est, si dicit formam praedicati pradica-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="30"/>tum de essentia, locutio est falsa: quia
+<lb ed="#Ba" n="31"/>sic rem suam poneret circa essentiam, et
+<lb ed="#Ba" n="32"/>notaretur essentia generare. Si autem
+<lb ed="#Ba" n="33"/>est subjectum, locutio est vera, et 
+sequi<lb break="no" ed="#Ba" n="34"/>tur ex praemissis : et tunc non sequitur,
+<lb ed="#Ba" n="35"/>quod essentia sit generans.
+</p>
+            <p xml:id="alalal-a35653-d1e366">
+               <lb ed="#Ba" n="36"/>Ad aliud dicendum, quod haecest 
+du<lb break="no" ed="#Ba" n="37"/>plex eadem duplicitate, Essentia est 
+Fi<lb break="no" ed="#Ba" n="38"/>lius Patris, eo scilicet quod ly Filius
+<lb ed="#Ba" n="39"/>potest teneri adjective, et sic falsa : vel
+<lb ed="#Ba" n="40"/>substantive, et sic vera : etin primo 
+sen<lb break="no" ed="#Ba" n="41"/>su caderet distinctio inter Patrem et 
+es<lb break="no" ed="#Ba" n="42"/>sentiam, et non in secundo sensu. In
+<lb ed="#Ba" n="43"/>primo autem sensu sequitur quod genita
+<lb ed="#Ba" n="44"/>sit a Patre, et non in secundo.
+</p>
+            <p xml:id="alalal-a35653-d1e388">
+               <lb ed="#Ba" n="45"/>Ad aliud dicendum, quod haecest 
+du<lb break="no" ed="#Ba" n="46"/>plex: Essentia esl res genita: ex eo
+<lb ed="#Ba" n="47"/>quod ly ves potest teneri pro persona, et
+<lb ed="#Ba" n="48"/>sic vera est: vel pro essentia, et sic est
+<lb ed="#Ba" n="49"/>falsa. Utroque enim modo teneri potest,
+<lb ed="#Ba" n="50"/>ut patet ex prehabitis, et in uno sensu
+<lb ed="#Ba" n="51"/>sequitur inconveniens, ut per se patet.
+</p>
+            <p xml:id="alalal-a35653-d1e406">
+               <lb ed="#Ba" n="52"/>Ad aliud dicendum, quod est in 
+pro<lb break="no" ed="#Ba" n="53"/>cessu fallacia accidentis: licet enim ille
+<lb ed="#Ba" n="54"/>qui genitus est, sit terminus generationis,
+<lb ed="#Ba" n="55"/>non tamen essentia est terminus: quia
+<lb ed="#Ba" n="56"/>non quidquid convenit uni, convenit et
+<lb ed="#Ba" n="57"/>alteri, licet re idem sint.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

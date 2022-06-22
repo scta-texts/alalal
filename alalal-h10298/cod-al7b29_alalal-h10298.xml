@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 37</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 37</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="524"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h10298"><!-- l4d15a37 -->
+            <head xml:id="alalal-h10298-Hd1e99">Articulus 37</head>
+            <head xml:id="alalal-h10298-Hd1e101" type="question-title">An hoc dictum valeat, Si ergo poenitet, 
+cur facis quae male fecisti ?</head>
+            <p xml:id="alalal-h10298-d1e104">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="49"/>ARTICULUS XXXVII.
+<lb ed="#Be" n="50"/>An hoc dictum valeat, Si ergo poenitet, 
+<lb ed="#Be" n="51"/>cur facis quae male fecisti ?
+</p>
+            <p xml:id="alalal-h10298-d1e115">
+               <lb ed="#Be" n="52"/>Deinde queritur de hoc quod dicit, ibi,
+<lb ed="#Be" n="53"/>F, sub finem: <quote xml:id="alalal-h10298-Qd1e121"> Si ergo poenitet, cur 
+fa<lb break="no" ed="#Be" n="54"/>cis quae male fecisti ? </quote>
+            </p>
+            <p xml:id="alalal-h10298-d1e127">
+               <lb ed="#Be" n="55"/>Videtur enim hoc non valere: quia
+<lb ed="#Be" n="56"/>sepe poenitentia est de praeterito, et non
+<lb ed="#Be" n="57"/>de futuro ratione dulcedinis adjuncte 
+fu<lb break="no" ed="#Be" n="58"/>turo : ergo videtur, quod non sit verum
+<lb ed="#Be" n="59"/>quod dicit.
+</p>
+            <p xml:id="alalal-h10298-d1e141">
+               <lb ed="#Be" n="60"/>Item, De eo de quo nullus est fructus, 
+<lb ed="#Be" n="61"/>sed erubescentia, poenitentia est, quando
+<lb ed="#Be" n="62"/>transivit: et tale est peccatum : ergo 
+po<lb break="no" ed="#Be" n="63"/>nitentia est de praeterito, et non oportet
+<lb ed="#Be" n="64"/>quod etiam sit de futuro : sicut enim 
+di<lb break="no" ed="#Be" n="65"/>cit Philosophus, <quote xml:id="alalal-h10298-Qd1e156"> In talibus magis 
+vo<lb break="no" ed="#Be" n="66"/>lumus agere, quam egisse: quia melius
+<lb ed="#Be" n="67"/>est delectari, quam quievisse delectari. </quote>
+            </p>
+            <p xml:id="alalal-h10298-d1e164">
+               <lb ed="#Be" n="68"/>Soxutio. Dicendum, quod Augustinus
+<lb ed="#Be" n="69"/>loquitur de his qui poenitent de peccato
+<lb ed="#Be" n="70"/>in quantum est offensa Dei: et non in
+<lb ed="#Be" n="71"/>quantum est in eo delectatio verecunda
+<lb ed="#Be" n="72"/>quam volumus cum transivit: et ideo
+<lb ed="#Be" n="73"/>trahimur ad ipsam in praesenti et in 
+fu<lb break="no" ed="#Be" n="74"/>turo : et tunc planum est id quod dicit :
+<lb ed="#Be" n="75"/>quia qui poenitet de peccato in quantum
+<lb ed="#Be" n="76"/>est .offensa Dei, cavet futurum, quod
+<lb ed="#Be" n="77"/>etiam est offensa Dei.
+</p>
+            <p xml:id="alalal-h10298-d1e188">
+               <lb ed="#Be" n="78"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

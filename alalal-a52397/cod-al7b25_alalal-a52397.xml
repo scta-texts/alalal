@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 28</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 28</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="261"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a52397"><!-- l1d8a28 -->
+            <head xml:id="alalal-a52397-Hd1e99">Articulus 28</head>
+            <head xml:id="alalal-a52397-Hd1e101" type="question-title">An bene sequitur, Divina essentia est
+simplex : ergo incommutabilis ?</head>
+            <p xml:id="alalal-a52397-d1e104">
+               <lb ed="#Ba" n="51"/>ARTICULUS XXVIII.
+<lb ed="#Ba" n="52"/>An bene sequitur, Divina essentia est
+<lb ed="#Ba" n="53"/>simplex : ergo incommutabilis ?
+</p>
+            <p xml:id="alalal-a52397-d1e113">
+               <lb ed="#Ba" n="54"/>Deinde quaeritur de hoc quod dicit:
+<lb ed="#Ba" n="55"/>
+               <quote xml:id="alalal-a52397-Qd1e119"> Nihil enim simplex mutabile est, etc. </quote>
+            </p>
+            <p xml:id="alalal-a52397-d1e122">
+               <lb ed="#Ba" n="56"/>Ista est jam tertia ratio simplicitatis
+<lb ed="#Ba" n="57"/>que extrahitur de Litfera. Prima enim
+<lb ed="#Ba" n="58"/>fuit penes indifferentiam ejus quod est
+<lb ed="#Ba" n="59"/>et esse, eo quod nulla pars est ibi. 
+Se<lb break="no" ed="#Ba" n="60"/>cunda autem, quod non erat subjectum
+<lb ed="#Ba" n="61"/>accidentium. Tertia vero est ista : quia
+<lb ed="#Ba" n="62"/>incommutabilis est divina essentia : et hoc
+<lb ed="#Ba" n="63"/>probatur sic :
+</p>
+            <p xml:id="alalal-a52397-d1e143">
+               <lb ed="#Ba" n="64"/>Omne quod mutatur, aut mutatur 
+se<lb break="no" ed="#Ba" n="65"/>cundum totum in situ, aut ad formam.
+<lb ed="#Ba" n="66"/>Si mutatur in situ vel in loco, ipsum
+<lb ed="#Ba" n="67"/>est compositum ex motore et mobili, ut
+<lb ed="#Ba" n="68"/>supra‘ notatum est. Si autem mutatur
+<lb ed="#Ba" n="69"/>ad formam, ipsum erit subjectum illius
+<lb ed="#Ba" n="70"/>forme, et sic iterum compositum. Ergo
+<lb ed="#Ba" n="71"/>patet, quod simplex omnino non potest
+<lb ed="#Ba" n="72"/>mutari. Quod ergo sic incommutabile
+<lb ed="#Ba" n="73"/>est omnino, dicitur etiam et simplex.
+</p>
+            <p xml:id="alalal-a52397-d1e167">
+               <lb ed="#Ba" n="74"/>Praeterea, Quod mutatur, per 
+priva<lb break="no" ed="#Ba" n="75"/>tionem mutatur quae estin ipso : sed 
+pri<lb break="no" ed="#Ba" n="76"/>vatio non est nisi in composito ex 
+ha<lb break="no" ed="#Ba" n="77"/>bente privationem et privatione sive 
+po<lb break="no" ed="#Ba" n="78"/>tentia : ergo quod est omnino 
+incommu<lb break="no" ed="#Ba" n="79"/>tabile, erit omnino simplex : et haecest
+<lb ed="#Ba" n="80"/>intentio Augustini.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

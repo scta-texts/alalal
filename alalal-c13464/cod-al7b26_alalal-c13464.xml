@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="72"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c13464"><!-- l1d28a11 -->
+            <head xml:id="alalal-c13464-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-c13464-Hd1e101" type="question-title">Utrum sicut dicitur, Verbum est idem
+quod nata sapientia : ita dicit possit,
+quod Spiritus sanctus est procedens
+bonitas ?</head>
+            <p xml:id="alalal-c13464-d1e104">
+               <lb ed="#Bb" n="25"/>ARTICULUS XI.
+<lb ed="#Bb" n="26"/>Utrum sicut dicitur, Verbum est idem
+<lb ed="#Bb" n="27"/>quod nata sapientia : ita dicit possit,
+<lb ed="#Bb" n="28"/>quod Spiritus sanctus est procedens
+<lb ed="#Bb" n="29"/>bonitas ?
+</p>
+            <p xml:id="alalal-c13464-d1e117">
+               <lb ed="#Bb" n="30"/>Deinde queritur de hoc quod dicit,
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="31"/>ibidem, F, <quote xml:id="alalal-c13464-Qd1e125"> Filius verbum est idem quod
+<lb ed="#Bb" n="32"/>nata sapientia, etc. </quote>
+            </p>
+            <p xml:id="alalal-c13464-d1e131">
+               <lb ed="#Bb" n="33"/>4. Eadem enim ratione videtur posse
+<lb ed="#Bb" n="34"/>dici, quod Spiritus sanctus est procedens
+<lb ed="#Bb" n="35"/>bonitas.
+</p>
+            <p xml:id="alalal-c13464-d1e141">
+               <lb ed="#Bb" n="36"/>2. Item, Si ly rata dicit notionem, ut
+<lb ed="#Bb" n="37"/>dicit Augustinus, et sapientia essentiam,
+<lb ed="#Bb" n="38"/>sicut Pater est essentia quam habet 
+Fi<lb break="no" ed="#Bb" n="39"/>lius natus, ita videtur Pater esse sapiens
+<lb ed="#Bb" n="40"/>sapientia nata vel genita, cum sapientia
+<lb ed="#Bb" n="41"/>essentiam notat, ut dicit Augustinus: et
+<lb ed="#Bb" n="42"/>hoc falsum est.
+</p>
+            <p xml:id="alalal-c13464-d1e159">
+               <lb ed="#Bb" n="43"/>Soxutio. De hoc infra tractatus 
+habe<lb break="no" ed="#Bb" n="44"/>tur in Littera : et ideo hic breviter 
+po<lb break="no" ed="#Bb" n="45"/>test dici ad primum, quod non est eadem
+<lb ed="#Bb" n="46"/>ratio de bonitate et de sapientia : quia
+<lb ed="#Bb" n="47"/>bonitas non dicit nisi objectum charitatis,
+<lb ed="#Bb" n="48"/>sed sapientia dicit aliquo modo 
+secun<lb break="no" ed="#Bb" n="49"/>dum rationem nominis id quod est 
+Ver<lb break="no" ed="#Bb" n="50"/>bum, ut est dicens Patrem, et omnia
+<lb ed="#Bb" n="51"/>creata : et ideo sapientia magis potest
+<lb ed="#Bb" n="52"/>recipere notionem Verbi, quam bonitas
+<lb ed="#Bb" n="53"/>Spiritus sancti.
+</p>
+            <p xml:id="alalal-c13464-d1e185">
+               <lb ed="#Bb" n="54"/>Ad aliud dicendum, quod licet 
+sapien<lb break="no" ed="#Bb" n="55"/>tia sit essentialis, tamen nata sapientia
+<lb ed="#Bb" n="56"/>simul, est tractum ad notionale : sicut
+<lb ed="#Bb" n="57"/>etiam Magister exponit in Litera, quod
+<lb ed="#Bb" n="58"/>idem est nata sapientia et natus sapiens :
+<lb ed="#Bb" n="59"/>et ideo Pater non potest dici sapiens 
+sa<lb break="no" ed="#Bb" n="60"/>pientia genita : nec hoc sequitur: est 
+sa<lb break="no" ed="#Bb" n="61"/>piens sapientia quae est Filius : ergo 
+sa<lb break="no" ed="#Bb" n="62"/>piens est sapientia genita : quia mutatur
+<lb ed="#Bb" n="63"/>quid in ad aliquid.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

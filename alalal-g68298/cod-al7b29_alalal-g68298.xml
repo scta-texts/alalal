@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="333"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g68298"><!-- l4d13a1 -->
+            <head xml:id="alalal-g68298-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-g68298-Hd1e101" type="question-title">An possibile sit aliquid frangi in
+sacramento ?</head>
+            <p xml:id="alalal-g68298-d1e104">
+               <lb ed="#Be" n="24"/>ARTICULUS I.
+<lb ed="#Be" n="25"/>An possibile sit aliquid frangi in
+<lb ed="#Be" n="26"/>sacramento ?
+</p>
+            <p xml:id="alalal-g68298-d1e113">
+               <lb ed="#Be" n="27"/>Sed incidit hic questio, Utrum 
+possi<lb break="no" ed="#Be" n="28"/>bile sit ibi aliquid frangi ?
+</p>
+            <p xml:id="alalal-g68298-d1e120">
+               <lb ed="#Be" n="29"/>ET videtur, quod non :
+<lb ed="#Be" n="30"/>1. Quidquid enim non est actu 
+secun<lb break="no" ed="#Be" n="31"/>dum se, hoc non frangitur : sed accidens
+<lb ed="#Be" n="32"/>non est actu secundum se : ergo non
+<lb ed="#Be" n="33"/>frangitur secundum se : necesse est ergo,
+<lb ed="#Be" n="34"/>quod corpus Christi frangatur in se :
+<lb ed="#Be" n="35"/>sed hoc est impossibile : ergo nihil ibi
+<lb ed="#Be" n="36"/>frangitur.
+</p>
+            <p xml:id="alalal-g68298-d1e141">
+               <lb ed="#Be" n="37"/>2. Item, Fractio sonat divisionem 
+vio<lb break="no" ed="#Be" n="38"/>fentam : violenta autem divisio nequa-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="39"/>quam est nisi in substantia : sed nulla
+<lb ed="#Be" n="40"/>substantia est ibi frangibilis : ergo non
+<lb ed="#Be" n="41"/>est ibi fractio nisi secundum 
+phanta<lb break="no" ed="#Be" n="42"/>siam.
+</p>
+            <p xml:id="alalal-g68298-d1e159">
+               <lb ed="#Be" n="43"/>3. Idem, Quantitas divisibilis quidem
+<lb ed="#Be" n="44"/>est, sed non est divisibilis nisi in alio
+<lb ed="#Be" n="45"/>fundata : haec autem non est in alio 
+fun<lb break="no" ed="#Be" n="46"/>data : ergo non est divisibilis.
+</p>
+            <p xml:id="alalal-g68298-d1e170">
+               <lb ed="#Be" n="47"/>4, Item, Quantitatem non est accipere
+<lb ed="#Be" n="48"/>nisi dupliciter, scilicet secundum se, et
+<lb ed="#Be" n="49"/>secundum esse : secundum se autem 
+ac<lb break="no" ed="#Be" n="50"/>cepta non est nisi in anima, scilicet in
+<lb ed="#Be" n="51"/>imaginatione vel intellectu : sed 
+secun<lb break="no" ed="#Be" n="52"/>dum esse est in rebus naturalibus : aut
+<lb ed="#Be" n="53"/>igitur fractio convenit ei secundum quod
+<lb ed="#Be" n="54"/>est in abstractione et in anima, aut 
+se<lb break="no" ed="#Be" n="55"/>cundum quod est in esse. Constat, quod
+<lb ed="#Be" n="56"/>non primo modo: quia secundum quod
+<lb ed="#Be" n="57"/>est in anima non est quantitas, sed 
+in<lb break="no" ed="#Be" n="58"/>tentio quantitatis quae in anima non est
+<lb ed="#Be" n="59"/>nisi per esse spirituale, et sic non est 
+di<lb break="no" ed="#Be" n="60"/>visibilis : ergo si frangitur, fractio 
+con<lb break="no" ed="#Be" n="61"/>venit ei per esse quod habet in rebus
+<lb ed="#Be" n="62"/>naturalibus : sed in sacramento non est
+<lb ed="#Be" n="63"/>in aliqua re naturali: ergo ei non 
+con<lb break="no" ed="#Be" n="64"/>venit ibi fractio.
+</p>
+            <p xml:id="alalal-g68298-d1e212">
+               <lb ed="#Be" n="65"/>3. Item, Generatio. omnis per prius
+<lb ed="#Be" n="66"/>convenit substantiae, et alia non habent
+<lb ed="#Be" n="67"/>generationem nisi per hoc quod sunt
+<lb ed="#Be" n="68"/>substantiae, vel in substantia : ergo et
+<lb ed="#Be" n="69"/>corruptio omnis prius erit substantia, et
+<lb ed="#Be" n="70"/>alia non corrumpuntur nisi in quantum
+<lb ed="#Be" n="71"/>sunt substantiae vel in substantia : sed
+<lb ed="#Be" n="72"/>fractio est corruptio quaedam : ergo est
+<lb ed="#Be" n="73"/>substantiae, vel alicujus quod est in 
+sub<lb break="no" ed="#Be" n="74"/>stantia : sed nulla substantia est ibi 
+cor<lb break="no" ed="#Be" n="75"/>ruptibilis, nec aliquod ens in 
+substan<lb break="no" ed="#Be" n="76"/>tia : ergo non est ibi simpliciter fractio,
+<lb ed="#Be" n="77"/>sed apparentia fractionis,
+</p>
+            <p xml:id="alalal-g68298-d1e243">
+               <lb ed="#Be" n="78"/>6. Item, In omni divisione quantitatis
+<lb ed="#Be" n="79"/>in qua vera divisio est, pars subjecti
+<lb ed="#Be" n="80"/>mensuratur parte una quantitatis, et alia
+<lb ed="#Be" n="81"/>pars alia : ergo si haec vera divisio 
+quan<lb break="no" ed="#Be" n="82"/>titatis est, una pars subjecti alicujus
+<lb ed="#Be" n="83"/>mensuratur parte una,.et alia pars alia :
+<lb ed="#Be" n="84"/>sed hoc non est verum : ergo non est
+<lb ed="#Be" n="85"/>hee vera divisio vel fractio quantitatis :
+<lb ed="#Be" n="86"/>ergo phantastica, ut dicit prima opinio
+<lb ed="#Be" n="87"/>in Lettera dicta.
+</p>
+            <p xml:id="alalal-g68298-d1e267">
+               <pb ed="#Be" n="334"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>7. Item, Ut dicit Philosophus in 
+pri<lb break="no" ed="#Be" n="2"/>mo Celi et mundi, Continuum dividitur
+<lb ed="#Be" n="3"/>in infinitum : hoc autem cum sit passio
+<lb ed="#Be" n="4"/>continui secundum quod continuum, non
+<lb ed="#Be" n="5"/>convenit corpori physico secundum quod
+<lb ed="#Be" n="6"/>hujusmodi : ergo panis non erit 
+divisibi<lb break="no" ed="#Be" n="7"/>le in infinitum. Inde procedo sic : 
+Quid<lb break="no" ed="#Be" n="8"/>quid dividitur divisione corrumpente
+<lb ed="#Be" n="9"/>speciem, non dividitur divisione 
+quanti<lb break="no" ed="#Be" n="10"/>tatis continue tantum, sed divisione 
+cor<lb break="no" ed="#Be" n="11"/>poris physici vel artificiati : 
+sacramen<lb break="no" ed="#Be" n="12"/>tum autem cum frangitur, sic dividitur :
+<lb ed="#Be" n="13"/>ergo non dividittir divisione quantitatis
+<lb ed="#Be" n="14"/>continue tantum, sed divisione corporis
+<lb ed="#Be" n="15"/>physici vel artificiati. Prmwa probata est.
+<lb ed="#Be" n="16"/>Secunda sic probatur : Multiplicentur
+<lb ed="#Be" n="17"/>enim fractiones : constat autem, quod
+<lb ed="#Be" n="18"/>quandoque ibi erunt non species panis :
+<lb ed="#Be" n="19"/>ergo constat. propositum : sed nullum
+<lb ed="#Be" n="20"/>corpus physicum vel artificiale ibi 
+fran<lb break="no" ed="#Be" n="21"/>gitur ;: ergo non est ibi vera fractio, sed
+<lb ed="#Be" n="22"/>visa tantum.
+</p>
+            <p xml:id="alalal-g68298-d1e323">
+               <lb ed="#Be" n="23"/>8. Item, Non videtur esse aliqua causa
+<lb ed="#Be" n="24"/>quam Magister assignat contra hanc 
+opi<lb break="no" ed="#Be" n="25"/>nionem ex verbis Ambrosii, scilicet quod
+<lb ed="#Be" n="26"/>nihil falsi debeat esse in sacramento 
+ve<lb break="no" ed="#Be" n="27"/>ritatis, sicut in magorum prestigiis. 
+Pri<lb break="no" ed="#Be" n="28"/>mo: quia sicut dicitur in Liftera, quod
+<lb ed="#Be" n="29"/>visa fractio ad rem non refertur, et ideo
+<lb ed="#Be" n="30"/>nihil ibi decipit vel decipitur. Secundo :
+<lb ed="#Be" n="31"/>quia dicit Aristoteles, quod abstrahentium
+<lb ed="#Be" n="32"/>non est mendacium, eo quod 
+abstractio<lb break="no" ed="#Be" n="33"/>nem ad rem non referunt: ergo nec hic
+<lb ed="#Be" n="34"/>apparentis divisionis erit mendacium, eo
+<lb ed="#Be" n="35"/>quod ad rem non referatur.
+</p>
+            <p xml:id="alalal-g68298-d1e354">
+               <lb ed="#Be" n="36"/>9. Item, Fractione facta videntur ibi
+<lb ed="#Be" n="37"/>esse plura : et tamen constat, quod ibi
+<lb ed="#Be" n="38"/>non est nisi unum, scilicet Christus :
+<lb ed="#Be" n="39"/>ergo videtur ut non est, et tamen non
+<lb ed="#Be" n="40"/>dicimus esse prestigium vel falsitatem :
+<lb ed="#Be" n="41"/>ergo a simili etiamsi dicatur ibi visa 
+fra<lb break="no" ed="#Be" n="42"/>clio esse et tamen non existens, non
+<lb ed="#Be" n="43"/>propter hoc erit ibi falsitas vel 
+prasti<lb break="no" ed="#Be" n="44"/>gium.
+</p>
+            <p xml:id="alalal-g68298-d1e376">
+               <lb ed="#Be" n="45"/>10. Item, Accidentia videntur in 
+ali<lb break="no" ed="#Be" n="46"/>quo esse, et tamen in nullo sunt, ut
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="47"/>prius habitum est : si ergo propter hoc
+<lb ed="#Be" n="48"/>non dicitur falsitas esse in sacramento,
+<lb ed="#Be" n="49"/>nec propter ista debet aliqua falsitas dici
+<lb ed="#Be" n="50"/>in sacramento.
+</p>
+            <p xml:id="alalal-g68298-d1e394">
+               <lb ed="#Be" n="51"/>SED CONTRA :
+<lb ed="#Be" n="52"/>1. Dicit Aristoteles in primo 
+Physico<lb break="no" ed="#Be" n="53"/>rum, quod si sola substantia est, ipsa
+<lb ed="#Be" n="54"/>est indivisibilis : ergo substantia non
+<lb ed="#Be" n="55"/>primo divisibilis est, sed quantitas : sed
+<lb ed="#Be" n="56"/>in sacramento est quantitas per se, ut
+<lb ed="#Be" n="57"/>prius ostensum est : ergo aliquid ibi 
+di<lb break="no" ed="#Be" n="58"/>viditur per se et proprie : fractio autem
+<lb ed="#Be" n="59"/>quedam divisio est : ergo aliquid ibi
+<lb ed="#Be" n="60"/>frangitur per se et proprie.
+</p>
+            <p xml:id="alalal-g68298-d1e418">
+               <lb ed="#Be" n="61"/>2. Item, Cujuscumque est accipere
+<lb ed="#Be" n="62"/>partes secundum se, illud secundum se
+<lb ed="#Be" n="63"/>est frangibile : sed partes quantitatis
+<lb ed="#Be" n="64"/>continue accipiuntur in sacramento 
+se<lb break="no" ed="#Be" n="65"/>cundum se: ergo videtur, quod sit 
+fran<lb break="no" ed="#Be" n="66"/>gibile secundum se.
+</p>
+            <p xml:id="alalal-g68298-d1e434">
+               <lb ed="#Be" n="67"/>3. Item, In textu Evangelii dicitur,
+<lb ed="#Be" n="68"/>quod accepit panem, et benedixit, et 
+fre<lb break="no" ed="#Be" n="69"/>git, et dixit : Hoc est corpus meum +.
+<lb ed="#Be" n="70"/>Ergo verissime fractum est : ergo et 
+ve<lb break="no" ed="#Be" n="71"/>rissima fuit fractio.
+</p>
+            <p xml:id="alalal-g68298-d1e448">
+               <lb ed="#Be" n="72"/>4. Item, Quod secundum pluralitatem
+<lb ed="#Be" n="73"/>partium refertur ad plura signanda, 
+ne<lb break="no" ed="#Be" n="74"/>cesse est plures habere partes, si verum
+<lb ed="#Be" n="75"/>signum esse debeat: sic autem refertur
+<lb ed="#Be" n="76"/>sacramentum secundum suas partes ad
+<lb ed="#Be" n="77"/>vivos, et eos qui sunt in purgatorio, et
+<lb ed="#Be" n="78"/>beatos : ergo necesse est quod in veritate
+<lb ed="#Be" n="79"/>plures habeat partes: constat autem,
+<lb ed="#Be" n="80"/>quod non est in uno sacramento plures
+<lb ed="#Be" n="81"/>accipere partes, nisi per fractionem : 
+er<lb break="no" ed="#Be" n="82"/>go necesse est verissimam ibi esse 
+fra<lb break="no" ed="#Be" n="83"/>ctionem.
+</p>
+            <p xml:id="alalal-g68298-d1e477">
+               <lb ed="#Be" n="84"/>5. Item, Prestigia sunt quae non in
+<lb ed="#Be" n="85"/>re, sed in oculis sunt tantum intuentium :
+<lb ed="#Be" n="86"/>si ergo haec fractio non est in re, sed
+<lb ed="#Be" n="87"/>tantum in oculis intuentium, tunc 
+pre<lb break="no" ed="#Be" n="88"/>stigium erit, et non sacramentum: hoc
+<lb ed="#Be" n="89"/>autem inconveniens est : ergo nulla
+<lb ed="#Be" n="90"/>fractio ibi est, nisiin re aliqua.
+</p>
+            <p xml:id="alalal-g68298-d1e495">
+               <lb ed="#Be" n="91"/>6. Item, Mathematicus si accipiat 
+di<lb break="no" ed="#Be" n="92"/>visionem secundum actum, numquam
+<pb ed="#Be" n="335"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>potest eam ad rem non referre: ergo
+<lb ed="#Be" n="2"/>similiter erit in sacramento: sed in 
+sa<lb break="no" ed="#Be" n="3"/>cramento non accipitur fractio vel divisio
+<lb ed="#Be" n="4"/>imaginativa vel intellecta tantum, sed
+<lb ed="#Be" n="5"/>secundum actum : ergo refertur ad rem:
+<lb ed="#Be" n="6"/>ergo aliquid ibi frangitur realiter et in
+<lb ed="#Be" n="7"/>veritate.
+</p>
+            <p xml:id="alalal-g68298-d1e521">
+               <lb ed="#Be" n="8"/>7. Item, Quidquid sit de divisione, 
+fra<lb break="no" ed="#Be" n="9"/>ctio sonat violentiam : sed violentia non
+<lb ed="#Be" n="10"/>fit nisi in rebus : ergo fractio non fit nisi
+<lb ed="#Be" n="11"/>in rebus : ergo fractio non fit nisi 
+secun<lb break="no" ed="#Be" n="12"/>dum rem: non ergo solum est visa in
+<lb ed="#Be" n="13"/>sacramento, sed in verilate existens.
+</p>
+            <p xml:id="alalal-g68298-d1e537">
+               <lb ed="#Be" n="14"/>8. Item, Si non esset nisi visa fractio,
+<lb ed="#Be" n="15"/>ad fractionem non oporteret esse nisi
+<lb ed="#Be" n="16"/>actum anime, et non corporis: sed in
+<lb ed="#Be" n="17"/>sacramento necesse est adhiberi actum
+<lb ed="#Be" n="18"/>corporalem, scilicet discerptionem per
+<lb ed="#Be" n="19"/>impulsum digitorum vel unguium : ergo
+<lb ed="#Be" n="20"/>non est fractio solum imaginaria, sed
+<lb ed="#Be" n="21"/>realis et in veritate.
+</p>
+            <p xml:id="alalal-g68298-d1e557">
+               <lb ed="#Be" n="22"/>Soxutio. Dicendum, quod in veritate
+<lb ed="#Be" n="23"/>realis est fractio in sacramento, sicut 
+di<lb break="no" ed="#Be" n="24"/>cit ultima opinio quae sola liquide 
+veri<lb break="no" ed="#Be" n="25"/>tatem fidei tenet.
+</p>
+            <p xml:id="alalal-g68298-d1e569">
+               <lb ed="#Be" n="26"/>Ad pRiMUM autem quod objicitur 
+dicen<lb break="no" ed="#Be" n="27"/>dum, quod accidens quod est quantitas,
+<lb ed="#Be" n="28"/>est ibi secundum se: secundum se 
+au<lb break="no" ed="#Be" n="29"/>tem esse, est esse sine subjecto, ut prius
+<lb ed="#Be" n="30"/>dictum est, hoc est, non secundum esse
+<lb ed="#Be" n="31"/>naturale, sed virtute divina continente
+<lb ed="#Be" n="32"/>species ad usum sacramenti et fidei. 
+Un<lb break="no" ed="#Be" n="33"/>de cum sic virtute divina teneatur, frangi
+<lb ed="#Be" n="34"/>secundum se et dividi potest.
+</p>
+            <p xml:id="alalal-g68298-d1e591">
+               <lb ed="#Be" n="35"/>Ad aliud dicendum, quod per accidens
+<lb ed="#Be" n="36"/>fit hoc quod nulla divisio violentia fit nisi
+<lb ed="#Be" n="37"/>in substantia, scilicet quia quantitas non
+<lb ed="#Be" n="38"/>est secundum esse naturale nisi in 
+sub<lb break="no" ed="#Be" n="39"/>stantia : nihilominus tamen si esset 
+se<lb break="no" ed="#Be" n="40"/>cundum se, divideretur : in sacramento
+<lb ed="#Be" n="41"/>autem est secundum se, ut habitum est,
+<lb ed="#Be" n="42"/>et ideo ibi frangi potest et violenter 
+divi<lb break="no" ed="#Be" n="43"/>di.
+</p>
+            <p xml:id="alalal-g68298-d1e613">
+               <lb ed="#Be" n="44"/>Ad aliud similiter dicendum, quod
+<lb ed="#Be" n="45"/>aliter est hic, et aliter in naturalibus est :
+<lb ed="#Be" n="46"/>quia hic operatur virtus divina secundum
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="47"/>exigentiam significationis sacramenti, et
+<lb ed="#Be" n="48"/>ideo continet hic quantitatem sine 
+subje<lb break="no" ed="#Be" n="49"/>cto.
+</p>
+            <p xml:id="alalal-g68298-d1e631">
+               <lb ed="#Be" n="50"/>Ad aliud dicendum, quod quantitas
+<lb ed="#Be" n="51"/>aliter accipitur secundum quod est 
+acci<lb break="no" ed="#Be" n="52"/>dens rei naturalis in cujus diffinitione 
+ca<lb break="no" ed="#Be" n="53"/>dit materia sensibilis, et aliter secundum
+<lb ed="#Be" n="54"/>quod virtute divina refertur ad usum 
+sa<lb break="no" ed="#Be" n="55"/>cramenti. Et primo quidem modo 
+pro<lb break="no" ed="#Be" n="56"/>cedit objectio inducta, secundo autem
+<lb ed="#Be" n="57"/>modo non.
+</p>
+            <p xml:id="alalal-g68298-d1e651">
+               <lb ed="#Be" n="58"/>Ad aliud dicendum, guod divisio hee
+<lb ed="#Be" n="59"/>est corruptio quaedam : et bene concedo
+<lb ed="#Be" n="60"/>hoc quod naturaliter corrumpitur forma
+<lb ed="#Be" n="61"/>panis accidentalis : et hoc qualiter fiat,
+<lb ed="#Be" n="62"/>in praecedenti distinctione habitum est
+<lb ed="#Be" n="63"/>et determinatum '.
+</p>
+            <p xml:id="alalal-g68298-d1e667">
+               <lb ed="#Be" n="64"/>Ad aliud dicendum, quod hoc verum
+<lb ed="#Be" n="65"/>est ubi quantitas manet secundum esse
+<lb ed="#Be" n="66"/>naturale : jam autem habitum est, quod
+<lb ed="#Be" n="67"/>in sacramento est sine subjecto.
+</p>
+            <p xml:id="alalal-g68298-d1e679">
+               <lb ed="#Be" n="68"/>Ad aliud dicendum, quod bene 
+vide<lb break="no" ed="#Be" n="69"/>tur mihi concedendum esse, quod tantum
+<lb ed="#Be" n="70"/>posset multiplicari divisio, quod 
+corrum<lb break="no" ed="#Be" n="71"/>perentur species panis accidentales quae
+<lb ed="#Be" n="72"/>manent ibi : et ideo non est omnino 
+fra<lb break="no" ed="#Be" n="73"/>ctio mathematice quantitatis quae fit ibi,
+<lb ed="#Be" n="74"/>nec etiam naturalis proprie, sed ejus cui
+<lb ed="#Be" n="75"/>convenit fractio naturalis propter hoc
+<lb ed="#Be" n="76"/>quod virtute divina continetur in esse. ~
+</p>
+            <p xml:id="alalal-g68298-d1e701">
+               <lb ed="#Be" n="77"/>Ad aliud quod objicitur contra causam
+<lb ed="#Be" n="78"/>quam Magister assignat quare non valeat
+<lb ed="#Be" n="79"/>opinio ex verbis Ambrosii, dicendum
+<lb ed="#Be" n="80"/>quod optime objicitur.: quia opinio 
+nul<lb break="no" ed="#Be" n="81"/>la est. Ad id autem quod objicitur, 
+dicen<lb break="no" ed="#Be" n="82"/>dum quod impossibile est eam 
+divisio<lb break="no" ed="#Be" n="83"/>nem quae actu fit, ad rem non referre :
+<lb ed="#Be" n="84"/>quia divisio nulla est nisi in re actuali ;
+<lb ed="#Be" n="85"/>et ideo illi nihil dicunt. Ad hoc quod
+<lb ed="#Be" n="86"/>objicitur de mathematicis, dicendum
+<lb ed="#Be" n="87"/>quod non est simile : quia in 
+mathemati<lb break="no" ed="#Be" n="88"/>cis passio probata convenit quanto 
+secun<lb break="no" ed="#Be" n="89"/>dum se, licet non conveniat huic quanto.
+<lb ed="#Be" n="90"/>vel illi: hic autem consideratur non ut. 
+<lb ed="#Be" n="91"/>convenit quanto secundum se, sed potius
+<lb ed="#Be" n="92"/>huic secundum quod est aliquid hoc.
+</p>
+            <p xml:id="alalal-g68298-d1e738">
+               <lb ed="#Be" n="93"/>Ad aliud dicendum, quod in veritate
+<pb ed="#Be" n="336"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>ibi sunt plura et plures partes, sed non
+<lb ed="#Be" n="2"/>plura-sacramenta: quia numerus ille
+<lb ed="#Be" n="3"/>non ponitur circa formam sacramenti,
+<lb ed="#Be" n="4"/>sed potius circa species sacramentales.
+</p>
+            <p xml:id="alalal-g68298-d1e756">
+               <lb ed="#Be" n="5"/>Ad aliud dicendum, quod accidentia
+<lb ed="#Be" n="6"/>videntur esse, et sensus particularis non
+<lb ed="#Be" n="7"/>est de substantia quae subest 
+accidenti<lb break="no" ed="#Be" n="8"/>bus nisi per accidens: hic autem 
+intel<lb break="no" ed="#Be" n="9"/>lectus sacramenti cogit ut accipiantur
+<lb ed="#Be" n="10"/>sine subjecto. Unde falsum est, quod ibi
+<lb ed="#Be" n="11"/>videantur in subjecto : sensus enim non
+<lb ed="#Be" n="12"/>est nisi de accidentibus: et intellectus
+<lb ed="#Be" n="13"/>accipit ea sine subjecto propter 
+exigen<lb break="no" ed="#Be" n="14"/>tiam sacramenti.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

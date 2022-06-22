@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 25</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 25</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="256"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a51103"><!-- l1d8a25 -->
+            <head xml:id="alalal-a51103-Hd1e99">Articulus 25</head>
+            <head xml:id="alalal-a51103-Hd1e101" type="question-title">Utrum anima rationalis sit simplex vel
+composita ?</head>
+            <p xml:id="alalal-a51103-d1e104">
+               <lb ed="#Ba" n="9"/>ARTICULUS XXV.
+<lb ed="#Ba" n="10"/>Utrum anima rationalis sit simplex vel
+<lb ed="#Ba" n="11"/>composita ?
+</p>
+            <p xml:id="alalal-a51103-d1e113">
+               <lb ed="#Ba" n="12"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="13"/>
+               <quote xml:id="alalal-a51103-Qd1e119"> Creatura quoque spircitualis, ut est
+<lb ed="#Ba" n="14"/>anima, in comparatione quidem 
+corpo<lb break="no" ed="#Ba" n="15"/>ris est simplex, etc.</quote>
+            </p>
+            <p xml:id="alalal-a51103-d1e127">
+               <lb ed="#Ba" n="16"/>1. Videtur enim, quod in se 
+composi<lb break="no" ed="#Ba" n="17"/>tum nulla comparatione potest fieri 
+sim<lb break="no" ed="#Ba" n="18"/>plex : anima autem in se composita est :
+<lb ed="#Ba" n="19"/>ergo non est simplex im comparatione
+<lb ed="#Ba" n="20"/>aliqua, Quod autem sit composita, 
+pro<lb break="no" ed="#Ba" n="21"/>batur multis rationibus : sicut dicit 
+Boe<lb break="no" ed="#Ba" n="22"/>tius m libro de Zrinitate, quod omne
+<lb ed="#Ba" n="23"/>quod est citra primum, est hoc et hoc °
+<lb ed="#Ba" n="24"/>anima est citra primum : ergo est hoc
+<lb ed="#Ba" n="25"/>et hoc: ergo est composita.
+</p>
+            <p xml:id="alalal-a51103-d1e152">
+               <lb ed="#Ba" n="26"/>2. Item, Dicit Avicenna: Omne 
+sim<lb break="no" ed="#Ba" n="27"/>plex esse suum habet a seipso : sed 
+ani<lb break="no" ed="#Ba" n="28"/>ma esse suum non habet a seipsa . ergo,
+<lb ed="#Ba" n="29"/>etc.
+</p>
+            <p xml:id="alalal-a51103-d1e163">
+               <lb ed="#Ba" n="30"/>3. JTtem, Boetius in libro de 
+Hebdo<lb break="no" ed="#Ba" n="31"/>madibus : Omne quod est, parlicipat eo
+<lb ed="#Ba" n="32"/>quod est esse ut sit, alio vero participat
+<lb ed="#Ba" n="33"/>ut aliquid sit: cum ergo anima sit hoc
+<lb ed="#Ba" n="34"/>aliquid, ipsa participat esse et alio : 
+om<lb break="no" ed="#Ba" n="35"/>ne autem quod participat esse et alio,
+<lb ed="#Ba" n="36"/>compositum est : ergo anima est 
+com<lb break="no" ed="#Ba" n="37"/>posita.
+</p>
+            <p xml:id="alalal-a51103-d1e183">
+               <lb ed="#Ba" n="38"/>4. Item, Boetius in Libro de 7rivitate
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="39"/>dicit, quod in Deo non est universale et
+<lb ed="#Ba" n="40"/>particulare : quia sequitur ex hoc, quod
+<lb ed="#Ba" n="41"/>compositio esset in Deo: sed in anima
+<lb ed="#Ba" n="42"/>est accipere animam per abstractionem
+<lb ed="#Ba" n="43"/>ab hac anima: ergo est in ea natura
+<lb ed="#Ba" n="44"/>universalis et particularis : ergo est 
+com<lb break="no" ed="#Ba" n="45"/>posita.
+</p>
+            <p xml:id="alalal-a51103-d1e205">
+               <lb ed="#Ba" n="46"/>5. Item, Dicit Philosophus in Ill de
+<lb ed="#Ba" n="47"/>Anima : In anima aliud est quo est 
+om<lb break="no" ed="#Ba" n="48"/>nia fieri, et aliud quo est omnia facere :
+<lb ed="#Ba" n="49"/>ergo etiam in Angelo: ergo in anima
+<lb ed="#Ba" n="50"/>est potentia substans intelligibilibus, et
+<lb ed="#Ba" n="51"/>agens intellectus : agens autem, et 
+sus<lb break="no" ed="#Ba" n="52"/>tiens vel subjectum non sunt ejusdem
+<lb ed="#Ba" n="53"/>essenti# in aliqua natura : ergo anima
+<lb ed="#Ba" n="54"/>ex diversis essentiis est composita.
+</p>
+            <p xml:id="alalal-a51103-d1e227">
+               <lb ed="#Ba" n="55"/>6. Item, Avicenna in I Philosophie :
+<lb ed="#Ba" n="56"/>Omne a quo negatur aliquid, im sua 
+na<lb break="no" ed="#Ba" n="57"/>tura habet aliud quam simplex esse
+<lb ed="#Ba" n="58"/>sed de anima multa negantur ergo,
+<lb ed="#Ba" n="59"/>etc.
+</p>
+            <p xml:id="alalal-a51103-d1e240">
+               <lb ed="#Ba" n="60"/>7. Item, Incommunicabile omnino et
+<lb ed="#Ba" n="61"/>communicabile non radicantur in 
+eo<lb break="no" ed="#Ba" n="62"/>dem : in anima est accipere 
+incommunt<lb break="no" ed="#Ba" n="63"/>cabile omnino, et communicabile : ergo
+<lb ed="#Ba" n="64"/>illa non, radicantur in eodem 
+essentiali<lb break="no" ed="#Ba" n="65"/>ter. Prosatio medi#. Anima est hac
+<lb ed="#Ba" n="66"/>anima individua : principium autem 
+in<lb break="no" ed="#Ba" n="67"/>dividuationis est principium 
+incommuni<lb break="no" ed="#Ba" n="68"/>cabilitatis . cum autem dico, Hc anima
+<lb ed="#Ba" n="69"/>est anima, praedicatur communicabilis
+<lb ed="#Ba" n="70"/>natura : ergo in hac anima est natura
+<lb ed="#Ba" n="71"/>communicabilis, et incommunicabilis
+<lb ed="#Ba" n="72"/>ergo est composita per essentiam.
+</p>
+            <p xml:id="alalal-a51103-d1e272">
+               <lb ed="#Ba" n="73"/>8. Item, Dicit Boetius et Constabulus,
+<pb ed="#Ba" n="257"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>quod simplex non potest esse 
+subje<lb break="no" ed="#Ba" n="2"/>clum : ergo cum anima sit subjectum
+<lb ed="#Ba" n="3"/>scientiarum et virtutum, ipsa erit 
+sub<lb break="no" ed="#Ba" n="4"/>slantia composita.
+</p>
+            <p xml:id="alalal-a51103-d1e290">
+               <lb ed="#Ba" n="5"/>9. Item, Omnis compositio 
+secundo<lb break="no" ed="#Ba" n="6"/>rum est fluens a compositione priori et
+<lb ed="#Ba" n="7"/>essentiali : sed anima habet 
+compositio<lb break="no" ed="#Ba" n="8"/>hem secundorum, quia suarum virium :
+<lb ed="#Ba" n="9"/>cum ergo ile non fluant ab eodem
+<lb ed="#Ba" n="10"/>modo se habente sicut simplex, 
+con<lb break="no" ed="#Ba" n="11"/>slat quod ipsa est composita in sua
+<lb ed="#Ba" n="12"/>natura. Et quia facile est de hoc multa
+<lb ed="#Ba" n="13"/>adducere, et ista sunt de fortioribus,
+<lb ed="#Ba" n="14"/>propterea haecsufficiant. Igitur male 
+di<lb break="no" ed="#Ba" n="15"/>cit Augustinus ipsam esse simplicem in
+<lb ed="#Ba" n="16"/>comparatione corporis
+</p>
+            <p xml:id="alalal-a51103-d1e319">
+               <lb ed="#Ba" n="17"/>SED CONTRA:
+<lb ed="#Ba" n="18"/>1. Quidquid est id quod habet, ipsum
+<lb ed="#Ba" n="19"/>est simplex, per auctoritatem Augustini
+<lb ed="#Ba" n="20"/>hic positam in Littera : anima est id quod
+<lb ed="#Ba" n="21"/>habet : ergo est simplex. Praopatio 
+me<lb break="no" ed="#Ba" n="22"/>die. Bernardus super Canéica : In 
+ani<lb break="no" ed="#Ba" n="23"/>ma, tria intueor, memoriam, intelligen~
+<lb ed="#Ba" n="24"/>tiam, et voluntatem : et haec ipsam esse
+<lb ed="#Ba" n="25"/>animam.
+</p>
+            <p xml:id="alalal-a51103-d1e341">
+               <lb ed="#Ba" n="26"/>2. Item, Augustinus in libro de 
+Sp<lb break="no" ed="#Ba" n="27"/>ritu et anima dicit sepissime, quod est
+<lb ed="#Ba" n="28"/>simplex substantia visus in oculo, 
+audi<lb break="no" ed="#Ba" n="29"/>tus in aure, et sic de aliis : ergo ipsa est
+<lb ed="#Ba" n="30"/>omnes potentie quas habet : ergo est
+<lb ed="#Ba" n="31"/>simplex.
+</p>
+            <p xml:id="alalal-a51103-d1e357">
+               <lb ed="#Ba" n="32"/>3. Item, Nihil compositum in se 
+po<lb break="no" ed="#Ba" n="33"/>tentia est ad componendum aliud : ergo
+<lb ed="#Ba" n="34"/>Si anima est composita in seipsa, non
+<lb ed="#Ba" n="35"/>erit in potentia ad aliquid 
+constituen<lb break="no" ed="#Ba" n="36"/>dum. Propatio prime est, quod natura
+<lb ed="#Ba" n="37"/>componit simplicia ad hoc quod sint in
+<lb ed="#Ba" n="38"/>compositis : non autem composita 
+con<lb break="no" ed="#Ba" n="39"/>jungit ulterius.
+</p>
+            <p xml:id="alalal-a51103-d1e377">
+               <lb ed="#Ba" n="40"/>4. Item, Anima (ut dicit Aristoteles in
+<lb ed="#Ba" n="41"/>Ii de Anima) non est hoc aliquid, sed
+<lb ed="#Ba" n="42"/>endelechia corporis physici potentia 
+vi<lb break="no" ed="#Ba" n="43"/>tam habentis : omne autem compositum
+<lb ed="#Ba" n="44"/>est hoc aliquid : ergo anima non est
+<lb ed="#Ba" n="45"/>composita.
+</p>
+            <p xml:id="alalal-a51103-d1e394">
+               <lb ed="#Ba" n="46"/>5. Item, Anima est forma : omnis 
+au<lb break="no" ed="#Ba" n="47"/>tem forma est simplex : ergo, etc.
+</p>
+            <p xml:id="alalal-a51103-d1e401">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>6. Praeterea, Compositio est ex 
+mate<lb break="no" ed="#Ba" n="49"/>ria et forma : anima non est ex materia
+<lb ed="#Ba" n="50"/>et forma : ergo, etc. Propatio media.
+<lb ed="#Ba" n="51"/>Dicit Boetius in fine libri de Duabus 
+na<lb break="no" ed="#Ba" n="52"/>turis in una persona Christi, quod 
+spi<lb break="no" ed="#Ba" n="53"/>rituales nature non sunt ex materia:
+<lb ed="#Ba" n="54"/>ergo media vera. Prima autem probatur
+<lb ed="#Ba" n="55"/>per nonum prime Philosophie : quia ibi
+<lb ed="#Ba" n="56"/>dividit Philosophus esse in potentiam et
+<lb ed="#Ba" n="57"/>actum tamquam in principia prima. Et
+<lb ed="#Ba" n="58"/>quia de hoc alibi multa dicta sunt, ista
+<lb ed="#Ba" n="59"/>sufficiant.
+</p>
+            <p xml:id="alalal-a51103-d1e432">
+               <lb ed="#Ba" n="60"/>Solutio. Consentio in hane partem,
+<lb ed="#Ba" n="61"/>quod anima sit composita ex principiis
+<lb ed="#Ba" n="62"/>essentialibus quae sunt quod est et esse,
+<lb ed="#Ba" n="63"/>sed non ex materia et forma : licet hoc
+<lb ed="#Ba" n="64"/>quidam dicere videantur : et hoc ideo
+<lb ed="#Ba" n="65"/>quia secundum Philosophum materia 
+de<lb break="no" ed="#Ba" n="66"/>terminatur per potentiam ad motum 
+va<lb break="no" ed="#Ba" n="67"/>riantem aliquid in substantia, vel ad 
+mo<lb break="no" ed="#Ba" n="68"/>tum localem : et cum potentia 
+hujusmo<lb break="no" ed="#Ba" n="69"/>di non sit nisi in corporibus, non erit
+<lb ed="#Ba" n="70"/>materia nisi in corporibus : nec tamen
+<lb ed="#Ba" n="71"/>in omnibus corporalibus erit materia
+<lb ed="#Ba" n="72"/>univoca : quia corruptibilium et 
+incor<lb break="no" ed="#Ba" n="73"/>rupltibilium non est materia una, sicut
+<lb ed="#Ba" n="74"/>nec potentia una ad motum.
+</p>
+            <p xml:id="alalal-a51103-d1e467">
+               <lb ed="#Ba" n="75"/>Ab primum ergo dicendum, quod 
+ani<lb break="no" ed="#Ba" n="76"/>ma non est hoc quod habet ipsa : et
+<lb ed="#Ba" n="77"/>quod dicit Bernardus glossandum est,
+<lb ed="#Ba" n="78"/>quod est praedicatio totius virtualis de
+<lb ed="#Ba" n="79"/>sua parte, et est praedicatio impropria.
+<lb ed="#Ba" n="80"/>Si autem fiat vis in hoc quod dicit, et
+<lb ed="#Ba" n="81"/>haectria nihil aliud esse quam ipsam
+<lb ed="#Ba" n="82"/>animam, debet glossari secundum 
+sen<lb break="no" ed="#Ba" n="83"/>sum, qui notatus est supra‘, quod ani-~
+<lb ed="#Ba" n="84"/>ma accipitur ab ipso ut totum 
+potentia<lb break="no" ed="#Ba" n="85"/>le, cujus omnes partes simul accepte
+<lb ed="#Ba" n="86"/>sunt potestas ejus : ita memoria, 
+intelli<lb break="no" ed="#Ba" n="87"/>gentia, et voluntas simul accepta, dicunt
+<lb ed="#Ba" n="88"/>totum potestatis anime secundum 
+supe<lb break="no" ed="#Ba" n="89"/>riorem partem.
+</p>
+            <p xml:id="alalal-a51103-d1e502">
+               <lb ed="#Ba" n="90"/>Ad id quod de libro de Spiritu et 
+ani<lb break="no" ed="#Ba" n="91"/>ma dicitur, negari potest quod non est
+<lb ed="#Ba" n="92"/>Augustini, sed cujusdam Guillelmi 
+ci<lb break="no" ed="#Ba" n="93"/>sterciensis qui multa falsa dixit. Si au-
+<pb ed="#Ba" n="258"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>tem aliquis vult sustinere, potest dici
+<lb ed="#Ba" n="2"/>quod anima est visus in oculo, sicut 
+to<lb break="no" ed="#Ba" n="3"/>tum virtuale praedicatum de parte in qua
+<lb ed="#Ba" n="4"/>est aliquid sue potestatis, eo quod ipsum
+<lb ed="#Ba" n="5"/>totum essentialiter adest parti illi et 
+cui<lb break="no" ed="#Ba" n="6"/>libet alii: licet non adsit eisdem 
+secun<lb break="no" ed="#Ba" n="7"/>dum omnem potestatem suam.
+</p>
+            <p xml:id="alalal-a51103-d1e533">
+               <lb ed="#Ba" n="8"/>Ad aliud dicendum, quod haecest 
+fal<lb break="no" ed="#Ba" n="9"/>sa, Nihil compositum in se, etc., et est
+<lb ed="#Ba" n="10"/>instantia in corpore organico. Sed hec
+<lb ed="#Ba" n="11"/>est vera quod nihil compositum 
+compo<lb break="no" ed="#Ba" n="12"/>sitione ultima potest constiluere aliud :
+<lb ed="#Ba" n="13"/>et tunc non tenet de anima, quae licet
+<lb ed="#Ba" n="14"/>sit composita, tamen potest componere
+<lb ed="#Ba" n="15"/>aliud : quia non est composita ut hoc 
+ali<lb break="no" ed="#Ba" n="16"/>quid constitutum, sed est composita ut
+<lb ed="#Ba" n="17"/>forma quae est substantia perlecta 
+perie<lb break="no" ed="#Ba" n="18"/>ctione motoris, eo quod nihil movet nisi
+<lb ed="#Ba" n="19"/>in se perfectum.
+</p>
+            <p xml:id="alalal-a51103-d1e563">
+               <lb ed="#Ba" n="20"/>Ad aliud dicendum, quod hoc dicit
+<lb ed="#Ba" n="21"/>Philosophus, quod non est anima per se
+<lb ed="#Ba" n="22"/>una, sicut hoc singulare in natura: sed
+<lb ed="#Ba" n="23"/>ipsa est forma et prima substantia potens
+<lb ed="#Ba" n="24"/>esse sine corpore.
+</p>
+            <p xml:id="alalal-a51103-d1e576">
+               <lb ed="#Ba" n="25"/>Ap aiup dicendum, quod compositio
+<lb ed="#Ba" n="26"/>corporum prima est ex materia et forma,
+<lb ed="#Ba" n="27"/>sed non spiritualium, sed potius ex quo
+<lb ed="#Ba" n="28"/>est et quodest, siveex quod est et esse,
+<lb ed="#Ba" n="29"/>ut dicit Boetius.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

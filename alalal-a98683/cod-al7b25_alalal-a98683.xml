@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="505"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a98683"><!-- l1d18a8 -->
+            <head xml:id="alalal-a98683-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-a98683-Hd1e101" type="question-title">An ista sit vera, Filius nativitate est
+Deus ?</head>
+            <p xml:id="alalal-a98683-d1e104">
+               <lb ed="#Ba" n="16"/>ARTICULUS VII.
+<lb ed="#Ba" n="17"/>An ista sit vera, Filius nativitate est
+<lb ed="#Ba" n="18"/>Deus ?
+</p>
+            <p xml:id="alalal-a98683-d1e113">
+               <lb ed="#Ba" n="19"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Ba" n="20"/>bi, H, <quote xml:id="alalal-a98683-Qd1e119"> Ad quod breviter respondemus,
+<lb ed="#Ba" n="21"/>qua nec Filius nativitate essentia est,
+<lb ed="#Ba" n="22"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-a98683-d1e127">
+               <lb ed="#Ba" n="23"/>Eadem enim ratio videtur esse de ista,
+<lb ed="#Ba" n="24"/>Fibus natrvitate est Deus : et de hac,
+<lb ed="#Ba" n="25"/>Filius nascendo est Deus : et si 
+distin<lb break="no" ed="#Ba" n="26"/>guatur, quod ly nativitate determinet
+<lb ed="#Ba" n="27"/>compositionem verbi ex parte suppositi,
+<lb ed="#Ba" n="28"/>vera erit.
+</p>
+            <p xml:id="alalal-a98683-d1e144">
+               <lb ed="#Ba" n="29"/>Ad hoc dicendum, quod revera 
+dis<lb break="no" ed="#Ba" n="30"/>tinguibilis est. Sed quia ablativus habet
+<lb ed="#Ba" n="31"/>subintellectam prepositionem, quae ha-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="32"/>bet proprie determinare compositionem
+<lb ed="#Ba" n="33"/>ex parte praedicati, et ita videtur notari
+<lb ed="#Ba" n="34"/>causalitas nativitatis ad Deum vel 
+essen<lb break="no" ed="#Ba" n="35"/>tiam : ideo Magister negat eam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

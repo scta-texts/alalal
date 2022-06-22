@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="457"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a90386"><!-- l1d16a12 -->
+            <head xml:id="alalal-a90386-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-a90386-Hd1e101" type="question-title">An Angelus sit melior homine vel
+e contra?</head>
+            <p xml:id="alalal-a90386-d1e104">
+               <pb ed="#Ba" n="457"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ARTICULUS XII.
+<lb ed="#Ba" n="2"/>An Angelus sit melior homine vel
+<lb ed="#Ba" n="3"/>e contra?
+</p>
+            <p xml:id="alalal-a90386-d1e117">
+               <lb ed="#Ba" n="4"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="5"/>
+               <quote xml:id="alalal-a90386-Qd1e123"> Minoratus paulo minus ab Angelis, etc. </quote>
+            </p>
+            <p xml:id="alalal-a90386-d1e126">
+               <lb ed="#Ba" n="6"/>1. Videtur enim hoc esse falsum : quia
+<lb ed="#Ba" n="7"/>homo etiam absolute videtur esse 
+no<lb break="no" ed="#Ba" n="8"/>bilior Angelo: quia si optimus equus
+<lb ed="#Ba" n="9"/>optimo asino melior est, et equus 
+sim<lb break="no" ed="#Ba" n="10"/>pliciter asmo melhor est: sed optimus
+<lb ed="#Ba" n="11"/>homo optimo Angelo melior est: ergo
+<lb ed="#Ba" n="12"/>homo simpliciter melior est. Prima 
+scri<lb break="no" ed="#Ba" n="13"/>bitur in TL Topicorum. Secunda probatur
+<lb ed="#Ba" n="14"/>per Christum, qui optimus est inter 
+om<lb break="no" ed="#Ba" n="15"/>nes creaturas et super omnes.
+</p>
+            <p xml:id="alalal-a90386-d1e151">
+               <lb ed="#Ba" n="16"/>2. Item, Quid eligit sapiens, magis
+<lb ed="#Ba" n="17"/>eligendum est: sed humanam naturam
+<lb ed="#Ba" n="18"/>elegit sapientissimus, quia sapientia 
+Pa<lb break="no" ed="#Ba" n="19"/>tris, et non angelicam: ergo humana 
+na<lb break="no" ed="#Ba" n="20"/>tura est melior: quod enim est magis
+<lb ed="#Ba" n="21"/>eligendum, melius est.
+</p>
+            <p xml:id="alalal-a90386-d1e167">
+               <lb ed="#Ba" n="22"/>3. Item, Quod melioribus inest, magis
+<lb ed="#Ba" n="23"/>cligendum est : sed optimo, quia Del
+<lb ed="#Ba" n="24"/>Filio, inest humana natura: ergo melior
+<lb ed="#Ba" n="25"/>est quam angelica.
+</p>
+            <p xml:id="alalal-a90386-d1e178">
+               <lb ed="#Ba" n="26"/>4. Item, Augustinus: <quote xml:id="alalal-a90386-Qd1e182"> Inter mentem
+<lb ed="#Ba" n="27"/>nostram et Deum nihil est medium. </quote>
+               <lb ed="#Ba" n="28"/>Ergo nihil melius citra Deum: quia 
+me<lb break="no" ed="#Ba" n="29"/>lius est, quod Deo est vicinius. Ergo 
+na<lb break="no" ed="#Ba" n="30"/>tura angelica non est melior.
+</p>
+            <p xml:id="alalal-a90386-d1e194">
+               <lb ed="#Ba" n="31"/>5. Hem, J ad Corinth. vi, 3: <quote xml:id="alalal-a90386-Qd1e198"
+                      source="http://scta.info/resource/Icor6_3@1-4">Nescitis
+<lb ed="#Ba" n="32"/>quoniam Angelos judicabimus ?</quote> Ibidem
+<lb ed="#Ba" n="33"/>dicit Glossa, quod judicium 
+comparatio<lb break="no" ed="#Ba" n="34"/>nis erit inter homines et Angelos, et 
+qui<lb break="no" ed="#Ba" n="35"/>busdain invenientur quidam homines
+<lb ed="#Ba" n="36"/>excellentiores. Ergo videtur, quod vel
+<lb ed="#Ba" n="37"/>majores simus vel aequales.
+</p>
+            <p xml:id="alalal-a90386-d1e215">
+               <lb ed="#Ba" n="38"/>Item, Deuter. xxxn, 8, secundum
+<lb ed="#Ba" n="39"/>aliam translationem : <quote xml:id="alalal-a90386-Qd1e221"> Statuit terminos
+<lb ed="#Ba" n="40"/>populorum juxta numerum Angelorum
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" n="41"/>Dei. </quote> Sed non statuerentur a justo
+<lb ed="#Ba" n="42"/>Deo termini hominis juxta terminos 
+An<lb break="no" ed="#Ba" n="43"/>gelorum, nisi virtute et merito 
+posse<lb break="no" ed="#Ba" n="44"/>mus esse aequales. Ergo videtur, quod
+<lb ed="#Ba" n="45"/>non sunt excellentiores nobis Angch.
+</p>
+            <p xml:id="alalal-a90386-d1e240">
+               <lb ed="#Ba" n="46"/>6. Item, Augustinus contra 
+Maximi<lb break="no" ed="#Ba" n="47"/>num: <quote xml:id="alalal-a90386-Qd1e246"> Natura humana, quam 
+assum<lb break="no" ed="#Ba" n="48"/>psit Filius Dei qui peccato depravari
+<lb ed="#Ba" n="49"/>non potuit, nihil melius est nisi solus
+<lb ed="#Ba" n="50"/>Deus. </quote>
+            </p>
+            <p xml:id="alalal-a90386-d1e257">
+               <lb ed="#Ba" n="51"/>SED CONTRA:
+<lb ed="#Ba" n="52"/>1. Psal. vin, 6: Minuwisti eum paulo 
+mi<lb break="no" ed="#Ba" n="53"/>nus ab Angelis. Et, ad Hebr. u, 9: um
+<lb ed="#Ba" n="54"/>autem, gui modico quam Angeli 
+minora<lb break="no" ed="#Ba" n="55"/>tus est, videmus Jesum, propter 
+passio<lb break="no" ed="#Ba" n="56"/>nem mortis, gloria et honore coronatun.
+</p>
+            <p xml:id="alalal-a90386-d1e273">
+               <lb ed="#Ba" n="57"/>Hic a quibusdam ponitur et conceditur
+<lb ed="#Ba" n="58"/>error propter tales objectiones : Deus
+<lb ed="#Ba" n="59"/>summe liberalis, et summe bonus est:
+<lb ed="#Ba" n="60"/>ergo unicuique ifluit tantum sue 
+boni<lb break="no" ed="#Ba" n="61"/>tatis, quantum ipse capax est: si ergo
+<lb ed="#Ba" n="62"/>Angelus secundum naturam capacior 
+es<lb break="no" ed="#Ba" n="63"/>set homine, plus influeret e1: sed plus
+<lb ed="#Ba" n="64"/>influxit homini, quia gratiam unionis :
+<lb ed="#Ba" n="65"/>ergo per naturam capacior est nobilitatis
+<lb ed="#Ba" n="66"/>et bonitatis divine quam Angelus.
+</p>
+            <p xml:id="alalal-a90386-d1e297">
+               <lb ed="#Ba" n="67"/>2. Item, Inter homines qui habet 
+me<lb break="no" ed="#Ba" n="68"/>liora naturalia, majorem necessario 
+ha<lb break="no" ed="#Ba" n="69"/>bebit gratiam: ergo ab effectu qui 
+ma<lb break="no" ed="#Ba" n="70"/>jorem gratiam recipit, melora habet
+<lb ed="#Ba" n="71"/>naturalia: sed homo majorem gratiam
+<lb ed="#Ba" n="72"/>recipit : ergo meliora habet naturalia
+<lb ed="#Ba" n="73"/>quam Angelus.
+</p>
+            <p xml:id="alalal-a90386-d1e315">
+               <lb ed="#Ba" n="74"/>3. Item, Si duo sunt quorum unum
+<lb ed="#Ba" n="75"/>est propter alterum, id melius et dignius
+<lb ed="#Ba" n="76"/>est propter quod est alterum, quam quod
+<lb ed="#Ba" n="77"/>est propter ipsum: sed homo et 
+Ange<lb break="no" ed="#Ba" n="78"/>lus duo quaedam sunt, et Angelus est
+<lb ed="#Ba" n="79"/>propter hominem. Prozatio. Angelis srs
+<lb ed="#Ba" n="80"/>mandavit de te, ut custodiant te, etc. ?.
+<lb ed="#Ba" n="81"/>Et, ad Heb. 1, 14: Nonne omnes sunt 
+ad<lb break="no" ed="#Ba" n="82"/>ministratoru spiritus, in ministerium
+<lb ed="#Ba" n="83"/>missi propter eos qui hereditatem ca~
+<lb ed="#Ba" n="84"/>pient salutis ? Ergo homo melior et 
+no<lb break="no" ed="#Ba" n="85"/>bilior est Angelo.
+</p>
+            <p xml:id="alalal-a90386-d1e344">
+               <lb ed="#Ba" n="86"/>1. Hoc aurem si concedatur, est contra
+<pb ed="#Ba" n="458"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Dionysium, quia ipse vult, quod 
+secun<lb break="no" ed="#Ba" n="2"/>dum gradus entium est propinquitas ad
+<lb ed="#Ba" n="3"/>Deum: unde intellectualis natura 
+vici<lb break="no" ed="#Ba" n="4"/>nior est, quam rationalis. Et contra 
+Au<lb break="no" ed="#Ba" n="5"/>gustinum in libro XI Confessionum, ubi
+<lb ed="#Ba" n="6"/>dicit, quod <quote xml:id="alalal-a90386-Qd1e365"> Angelus creatus est prope
+<lb ed="#Ba" n="7"/>Deum. </quote>
+            </p>
+            <p xml:id="alalal-a90386-d1e371">
+               <lb ed="#Ba" n="8"/>2. Item, Erit contra philosophiam, que
+<lb ed="#Ba" n="9"/>ponit animam rationalem esse 
+instru<lb break="no" ed="#Ba" n="10"/>mentuin intelligentie vel Angel.
+</p>
+            <p xml:id="alalal-a90386-d1e381">
+               <lb ed="#Ba" n="11"/>3. Item, Erit contra ratronem : quia
+<lb ed="#Ba" n="12"/>illuminatio descendit a superiori ad 
+infe<lb break="no" ed="#Ba" n="13"/>rius: illuminationes autem fiunt ab 
+An<lb break="no" ed="#Ba" n="14"/>gelis in animabus hominum, sicut dicit
+<lb ed="#Ba" n="15"/>Augustinus in XI super Genesim.
+</p>
+            <p xml:id="alalal-a90386-d1e394">
+               <lb ed="#Ba" n="16"/>Solutio. Sine prajudicio dicimus,
+<lb ed="#Ba" n="17"/>quod angelica natura in natura 
+conside<lb break="no" ed="#Ba" n="18"/>rata, multo nobilior est quam humana:
+<lb ed="#Ba" n="19"/>et nobshor est etiam quam anima 
+ratio<lb break="no" ed="#Ba" n="20"/>nalis in sua natura considerata: quia
+<lb ed="#Ba" n="21"/>anime rationali naturale est uniri 
+cor<lb break="no" ed="#Ba" n="22"/>pori, et haecunibilitas ipsius facit ipsam
+<lb ed="#Ba" n="23"/>materialiorem et viciniorem materi,
+<lb ed="#Ba" n="24"/>quam sil Angelius : tamen natura 
+hu<lb break="no" ed="#Ba" n="25"/>mana secundum quod refertur ad 
+unita<lb break="no" ed="#Ba" n="26"/>tem cum Deo, et prout refertur ad 
+sta<lb break="no" ed="#Ba" n="27"/>tum beatitudinis, aequalis vel melior est
+<lb ed="#Ba" n="28"/>Angelis, et hoc est secundum quid esse
+<lb ed="#Ba" n="29"/>melius vel aequale. Refertur autem ad 
+uni<lb break="no" ed="#Ba" n="30"/>tatem cum Deo dupliciter, scilicet 
+secun<lb break="no" ed="#Ba" n="31"/>dum id quod umitum est Deo de natura
+<lb ed="#Ba" n="32"/>nostra m Christo: et secundum id ex quo
+<lb ed="#Ba" n="33"/>sumptum est quod unitum est, sicut in
+<lb ed="#Ba" n="34"/>Beata Virgine, in quam prevenit 
+Spiri<lb break="no" ed="#Ba" n="35"/>tus sanctus cum virtute Altissimi, 
+pur<lb break="no" ed="#Ba" n="36"/>gans ipsam, et virtulem Dei Verbi 
+con<lb break="no" ed="#Ba" n="37"/>ferens ipsi simul et generativam, sicut
+<lb ed="#Ba" n="38"/>habebitur infra ': unde etiam dignior
+<lb ed="#Ba" n="39"/>est omni pura creatura, et exallata est
+<lb ed="#Ba" n="40"/>super choros Angelorum ad ceelestia 
+re<lb break="no" ed="#Ba" n="41"/>gna. Secundum relationem ad statum
+<lb ed="#Ba" n="42"/>contemplationis verum est, quod 
+equa<lb break="no" ed="#Ba" n="43"/>bimur Angelis: quia secundum gradus
+<lb ed="#Ba" n="44"/>sortis Angelorum erit assumptio nostra
+<lb ed="#Ba" n="45"/>in regnum.
+</p>
+            <p xml:id="alalal-a90386-d1e462">
+               <lb ed="#Ba" n="46"/>Ap LA ergo tria quae primo obji-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="47"/>ciuntur ex considerationibus Philosophi,
+<lb ed="#Ba" n="48"/>dicendum quod tenent in his quae per se
+<lb ed="#Ba" n="49"/>et ex natura sunt talia, et non per 
+acei<lb break="no" ed="#Ba" n="50"/>dens et per relationem ad aliud. Sic non
+<lb ed="#Ba" n="51"/>est nostra natura in Christo, nec electa
+<lb ed="#Ba" n="52"/>ab ipso.
+</p>
+            <p xml:id="alalal-a90386-d1e482">
+               <lb ed="#Ba" n="53"/>Ad aliud dicendum, quod Augustinus
+<lb ed="#Ba" n="54"/>loquilur de modo contemplationis, et non
+<lb ed="#Ba" n="55"/>de natura. Si autem objicias, quod 
+Au<lb break="no" ed="#Ba" n="56"/>gustinus dicit in hbro de Quantitate 
+anr<lb break="no" ed="#Ba" n="57"/>mez, quod natura anime quiddam habet
+<lb ed="#Ba" n="58"/>inferius ut animam peccatoris, quiddam
+<lb ed="#Ba" n="59"/>superius ut Deum, quiddam par ut 
+An<lb break="no" ed="#Ba" n="60"/>gelum. Iterum dico, quod parilitas non
+<lb ed="#Ba" n="61"/>refertur ad naturam, ut natura est, sed
+<lb ed="#Ba" n="62"/>ad statum qui possibilis est nature per
+<lb ed="#Ba" n="63"/>meritum ; quia nature anime ut anima
+<lb ed="#Ba" n="64"/>est, inferior est natura Angeli.
+</p>
+            <p xml:id="alalal-a90386-d1e511">
+               <lb ed="#Ba" n="65"/>Ad aliud dicendum, quod hoc iterum
+<lb ed="#Ba" n="66"/>refertur ad meritum, quod dono Dei 
+as<lb break="no" ed="#Ba" n="67"/>sequimur, et non ad naturam.
+</p>
+            <p xml:id="alalal-a90386-d1e520">
+               <lb ed="#Ba" n="68"/>Ad aliud dicendum, sicut supra dictum
+<lb ed="#Ba" n="69"/>est, quod assumptibilitas hominis non facit
+<lb ed="#Ba" n="70"/>naturam ejus meliorem esse natura 
+An<lb break="no" ed="#Ba" n="71"/>veli : quia non convenit ei ex naturalibus
+<lb ed="#Ba" n="72"/>sibi.
+</p>
+            <p xml:id="alalal-a90386-d1e534">
+               <lb ed="#Ba" n="73"/>Ad aliud dicendum, quod Deus 
+duph<lb break="no" ed="#Ba" n="74"/>cia dona effundit, seilicet naturalia, ct
+<lb ed="#Ba" n="75"/>haeceffundit secundum nature 
+capacita<lb break="no" ed="#Ba" n="76"/>tem : verbi gratia materiae habent: solam
+<lb ed="#Ba" n="77"/>potentiam ad ubi, infundit formam ceeli.
+<lb ed="#Ba" n="78"/>materiae autem prime simplici habenti
+<lb ed="#Ba" n="79"/>potentiam ad ubi et ad formam, imfundit
+<lb ed="#Ba" n="80"/>formam clementi : materice autem 
+com<lb break="no" ed="#Ba" n="81"/>niixte tantum, infundit formam 
+minera<lb break="no" ed="#Ba" n="82"/>lem: miata autem et aliqualiter 
+comple<lb break="no" ed="#Ba" n="83"/>xionate in partibus similibus, infundit
+<lb ed="#Ba" n="84"/>formam vegctabilis anne : sed mixta
+<lb ed="#Ba" n="85"/>coinplexionate composite ex organis
+<lb ed="#Ba" n="86"/>dissimilibus, infundit formam sensibilis :
+<lb ed="#Ba" n="87"/>materia autem ‘Maxime accedenti ad
+<lb ed="#Ba" n="88"/>equalitatem, et recedenti a contrariis ad
+<lb ed="#Ba" n="89"/>similitudinem aliquam ceeli, infundit 
+for<lb break="no" ed="#Ba" n="90"/>mam quam creat ad suam imaginem,
+<lb ed="#Ba" n="91"/>scllicet animam rationalem. Alia dona
+<lb ed="#Ba" n="92"/>effundit quae sunt dona gratia: et illa
+<lb ed="#Ba" n="93"/>non dat secundum proportionem nature,
+<pb ed="#Ba" n="459"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>sed potius secundum suam liberalitatem,
+<lb ed="#Ba" n="2"/>et conatum preparantis se ad 
+accipien<lb break="no" ed="#Ba" n="3"/>dum. Quod enim det ex liberalitate, patet
+<lb ed="#Ba" n="4"/>in Evangelio, ubi dicit : Volo autem et
+<lb ed="#Ba" n="5"/>huic novissimo dare sicut et tibi'. Quod
+<lb ed="#Ba" n="6"/>etiam det secundum conatum, patet ubi
+<lb ed="#Ba" n="7"/>dicit : Dedit... unicuique secundum 
+pro<lb break="no" ed="#Ba" n="8"/>priam virtutem, et profectus est statim’.
+<lb ed="#Ba" n="9"/>Ibi enim virtus accipitur pro conatu.
+</p>
+            <p xml:id="alalal-a90386-d1e606">
+               <lb ed="#Ba" n="10"/>Ad aliud dicendum, quod hoc est 
+fal<lb break="no" ed="#Ba" n="11"/>sum, qui habet meliora naturalia, habet
+<lb ed="#Ba" n="12"/>majorem gratiam : sed hoc verum est,
+<lb ed="#Ba" n="13"/>quod si duo sint qui habent aequalem 
+gra<lb break="no" ed="#Ba" n="14"/>tiam, et non naturalia aequalia : ille qui
+<lb ed="#Ba" n="15"/>habet meliora naturalia, meliorem usum
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="16"/>habebit in actibus : sed tamen ex hoc non
+<lb ed="#Ba" n="17"/>sequitur, quod habeat majus meritum in
+<lb ed="#Ba" n="18"/>faciliori usu: quia difficultas operandi
+<lb ed="#Ba" n="19"/>etiam quandoque facit ad aliquod majus
+<lb ed="#Ba" n="20"/>meritum, vel ad aliquam conditionem
+<lb ed="#Ba" n="21"/>majoris meriti.
+</p>
+            <p xml:id="alalal-a90386-d1e637">
+               <lb ed="#Ba" n="22"/>Ad aliud dicendum, quod hoc quod
+<lb ed="#Ba" n="23"/>Angeli custodiunt nos et obsequuntur
+<lb ed="#Ba" n="24"/>nobis, non ostendit indigniorem eorum
+<lb ed="#Ba" n="25"/>naturam, sed charitatem et obedientiam
+<lb ed="#Ba" n="26"/>ipsorum, nostram autem indigentiam :
+<lb ed="#Ba" n="27"/>sed ratio vera esset de his quae per 
+ordi<lb break="no" ed="#Ba" n="28"/>nem nature ita se habent, ut unum sit
+<lb ed="#Ba" n="29"/>propter alterum, ut corporale propter
+<lb ed="#Ba" n="30"/>spirituale, et brutum propter rationale.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

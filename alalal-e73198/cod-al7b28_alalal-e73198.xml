@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="388"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e73198"><!-- l3d22a2 -->
+            <head xml:id="alalal-e73198-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-e73198-Hd1e101" type="question-title">Utrum ista sit vera, Christus est homo
+ubique ?</head>
+            <p xml:id="alalal-e73198-d1e104">
+               <pb ed="#Bd" n="388"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ARTICULUS I.
+<lb ed="Bd" n="2"/>Utrum ista sit vera, Christus est homo
+<lb ed="Bd" n="3"/>ubique ?
+</p>
+            <p xml:id="alalal-e73198-d1e117">
+               <lb ed="Bd" n="4"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="Bd" n="5"/>
+               <quote xml:id="alalal-e73198-Qd1e123"> Hic quaeritur, Si Christusin morte, eto.</quote>
+            </p>
+            <p xml:id="alalal-e73198-d1e126">
+               <lb ed="Bd" n="6"/>Videtur enim, quod haec sit vera, 
+Chri<lb break="no" ed="Bd" n="7"/>stus est homo ubique.
+</p>
+            <p xml:id="alalal-e73198-d1e134">
+               <lb ed="Bd" n="8"/>1. Quecumque enim duo idem sunt et
+<lb ed="Bd" n="9"/>unum in supposito, ubicumque est unum
+<lb ed="Bd" n="10"/>illorum, ibi est alterum. Filius autem
+<lb ed="Bd" n="11"/>Dei et homo unum sunt et idem in 
+sup<lb break="no" ed="Bd" n="12"/>posito : ergo ubicumque est Filius Dei,
+<lb ed="Bd" n="13"/>ibi est et homo : sed ubique est Filius
+<lb ed="Bd" n="14"/>Dei : ergo et hic homo est ubique.
+</p>
+            <p xml:id="alalal-e73198-d1e152">
+               <lb ed="Bd" n="15"/>2. Item, Haec est vera, Hic homo est
+<lb ed="Bd" n="16"/>Filius Dei ubique : ergo simplici 
+conver<lb break="no" ed="Bd" n="17"/>sa, haec est vera, Filius Dei est ubique
+<lb ed="Bd" n="18"/>homo.
+</p>
+            <p xml:id="alalal-e73198-d1e163">
+               <lb ed="Bd" n="19"/>3. Item, Detur, quod haec est falsa, 
+F1<lb break="no" ed="Bd" n="20"/>lius Dei est liomo ubique : ergo ejus 
+con<lb break="no" ed="Bd" n="21"/>tradictoria est vera : ergo haec est vera,
+<lb ed="Bd" n="22"/>Filius Dei non est homo ubique : ergo
+<lb ed="Bd" n="23"/>Filius Dei alicubi non est homo, quod
+<lb ed="Bd" n="24"/>falsum est : quia nusquam est dare 
+lo<lb break="no" ed="Bd" n="25"/>cum in quo Filius Dei non sit homo, eo
+<lb ed="Bd" n="26"/>quod hominem assumptum numquam
+<lb ed="Bd" n="27"/>et nusquam deposuit.
+</p>
+            <p xml:id="alalal-e73198-d1e185">
+               <lb ed="Bd" n="28"/>4. Item, Sequitur, Socrates est hic, et
+<lb ed="Bd" n="29"/>non est hic asinus : ergo Socrates non
+<lb ed="Bd" n="30"/>est asinus: ergo a simili, Filius Dei est
+<lb ed="Bd" n="31"/>hic, et non est hic homo : ergo non est
+<lb ed="Bd" n="32"/>homo, quod falsam est: ergo Filius Dei
+<lb ed="Bd" n="33"/>est hic homo, et eadem ratione ubique.
+</p>
+            <p xml:id="alalal-e73198-d1e201">
+               <lb ed="Bd" n="34"/>Irem quaeritur, Quid impediat, quod
+<lb ed="Bd" n="35"/>non conceditur, Hie homo secundum
+<lb ed="Bd" n="36"/>quod homo esse ubique ?
+</p>
+            <p xml:id="alalal-e73198-d1e210">
+               <lb ed="Bd" n="37"/>Videtur enim, quod nihil: Christi enim
+<lb ed="Bd" n="38"/>corpus et sanguis consecratur in mulltis
+<lb ed="Bd" n="39"/>locis: et in omnibus locis in quibus 
+con<lb break="no" ed="Bd" n="40"/>secratur, est : ergo est in omnibus: ergo
+<lb ed="Bd" n="41"/>Christi corpus possibile est in omnibus
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="42"/>locis esse : ergo ubique secundum 
+huma<lb break="no" ed="Bd" n="43"/>nam naturam potest esse Christus, ut 
+vi<lb break="no" ed="Bd" n="44"/>detur.
+</p>
+            <p xml:id="alalal-e73198-d1e233">
+               <lb ed="Bd" n="45"/>In conrrarium est, quod Christus est
+<lb ed="Bd" n="46"/>circumscriptibilis in loco: quidquid 
+au<lb break="no" ed="Bd" n="47"/>tem circumscribitur, est in loco 
+determi<lb break="no" ed="Bd" n="48"/>nato, non in omnibus: ergo Christus
+<lb ed="Bd" n="49"/>in forma humana non potest esse in 
+om<lb break="no" ed="Bd" n="50"/>nibus locis.
+</p>
+            <p xml:id="alalal-e73198-d1e249">
+               <lb ed="Bd" n="51"/>Sed vuLTERivs quaeritur, Cum duo sint
+<lb ed="Bd" n="52"/>per modum extrinsecus mensurantium,
+<lb ed="Bd" n="53"/>scilicet tempus in inferioribus, et 
+aeterni<lb break="no" ed="Bd" n="54"/>tas in Deo respondens tempori, et locus :
+<lb ed="Bd" n="55"/>quare huic homini communicatur 
+eter<lb break="no" ed="Bd" n="56"/>nitas, ut dicatur hic puer creasse stellas,
+<lb ed="Bd" n="57"/>et fuisse ab aterno: non autem 
+commu<lb break="no" ed="Bd" n="58"/>nicatur ei praedicamentum wbi, ut dicatur
+<lb ed="Bd" n="59"/>wbhique, sicut Filius Dei ?
+</p>
+            <p xml:id="alalal-e73198-d1e271">
+               <lb ed="Bd" n="60"/>Videtur enim, quod magis debcat
+<lb ed="Bd" n="61"/>communicari : quia aeternitas dicit 
+ca<lb break="no" ed="Bd" n="62"/>rentiam principii, quod repugnat 
+hu<lb break="no" ed="Bd" n="63"/>mane nature : ubique non dicit nisi
+<lb ed="Bd" n="64"/>extensionem secundum locum, quod
+<lb ed="Bd" n="65"/>creature non repugnat, quia 
+univer<lb break="no" ed="Bd" n="66"/>sale ens est ubique : ergo quod minus
+<lb ed="Bd" n="67"/>repugnat creato, videlur magis esse 
+com<lb break="no" ed="Bd" n="68"/>municabile, quam quod omni creato 
+re<lb break="no" ed="Bd" n="69"/>pugnat : ergo videtur, quod esse ubique
+<lb ed="Bd" n="70"/>convenire debeat huic homini,
+</p>
+            <p xml:id="alalal-e73198-d1e297">
+               <lb ed="Bd" n="71"/>Solutio Dicendum, quod Filius Dei
+<lb ed="Bd" n="72"/>non ubique est homo. Ut intelligatur
+<lb ed="Bd" n="73"/>composita. Est enim haec duplex, Filius
+<lb ed="Bd" n="74"/>Dei ubique est homo, ex sensu 
+composi<lb break="no" ed="Bd" n="75"/>tionis, et divisionis. S: enim adverbium
+<lb ed="Bd" n="76"/>ubique determinat verbum gratia 
+compo<lb break="no" ed="Bd" n="77"/>sitionis cum predicalo, sicut proprie 
+de<lb break="no" ed="Bd" n="78"/>bet : tunc est falsa sub hoc sensu, Filius
+<lb ed="Bd" n="79"/>Dei secundum hominem ubique est. Si
+<lb ed="Bd" n="80"/>autem referatur ad subjectum cum 
+com<lb break="no" ed="Bd" n="81"/>positione participii subintellecti : tune est
+<lb ed="Bd" n="82"/>vera sub hoc sensu, Filius Dei ens 
+ubi<lb break="no" ed="Bd" n="83"/>que, est homo, et tunc est divisa. In
+<lb ed="Bd" n="84"/>sensu autem compositionis negat eam
+<lb ed="Bd" n="85"/>Magister : quia sine dubio illum sensum
+<lb ed="Bd" n="86"/>pretendit locutio, et actu est composita,
+<lb ed="Bd" n="87"/>potentialiter autem tantum est divisa.
+</p>
+            <p xml:id="alalal-e73198-d1e336">
+               <lb ed="Bd" n="88"/>Dicendum autem ad primum, quod non
+<pb ed="#Bd" n="389"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>valet, quod si aliqua sint idem in 
+suppo<lb break="no" ed="Bd" n="2"/>sito, quod quidquid convenit uni gratia
+<lb ed="Bd" n="3"/>nature, quod hoc etiam conveniat alteri:
+<lb ed="Bd" n="4"/>quia nature non sunt unum : et esse
+<lb ed="Bd" n="5"/>ubique convenit Filio Dei gratia nature,
+<lb ed="Bd" n="6"/>et non persone nisi per consequens. Et
+<lb ed="Bd" n="7"/>est instantia : cum enim dicitur, Iste est
+<lb ed="Bd" n="8"/>Episcopus : non enim oportet, quod 
+ubi<lb break="no" ed="Bd" n="9"/>cumque est, quod ibidem sit Episcopus :
+<lb ed="Bd" n="10"/>quia quandoque est in alio Episcopatu in
+<lb ed="Bd" n="11"/>quo non est Episcopus: et tamen 
+Episco<lb break="no" ed="Bd" n="12"/>pus et ipse sunt idem in supposito.
+</p>
+            <p xml:id="alalal-e73198-d1e371">
+               <lb ed="Bd" n="13"/>Ad aliud dicendum, quod non valet
+<lb ed="Bd" n="14"/>conyersio : quia quando homo ponitur in
+<lb ed="Bd" n="15"/>subjecto, tune gratia suppositi illi bene
+<lb ed="Bd" n="16"/>convenit esse ubique quando autem
+<lb ed="Bd" n="17"/>gratia predicati, tune respicitur gratia
+<lb ed="Bd" n="18"/>nature ab adverbio, et tune non convenit
+<lb ed="Bd" n="19"/>ei determinatio : unde cum termini non
+<lb ed="Bd" n="20"/>uniformiter sumuntur, non valet 
+conver<lb break="no" ed="Bd" n="21"/>slo: sed sic deberet converti, Hic homo
+<lb ed="Bd" n="22"/>est ubique Filius Dei: ergo Filius Dei
+<lb ed="Bd" n="23"/>ens ubique, est hic homo: et tunc 
+utra<lb break="no" ed="Bd" n="24"/>que est vera.
+</p>
+            <p xml:id="alalal-e73198-d1e401">
+               <lb ed="Bd" n="25"/>Ad aliud dicendum, quod in sensu
+<lb ed="Bd" n="26"/>compositionis haec est vera, Filius Dei
+<lb ed="Bd" n="27"/>non est ubique homo : quia in illo sensu
+<lb ed="Bd" n="28"/>negatio fertur ad compositionem, 
+inclu<lb break="no" ed="Bd" n="29"/>dendo adverbium quod determinat 
+com<lb break="no" ed="Bd" n="30"/>positionem in comparatione ad 
+preedica<lb break="no" ed="Bd" n="31"/>tum. Similiter conclusio ulterior, Filius
+<lb ed="Bd" n="32"/>Dei alicubi non est homo, duplex est, 
+si<lb break="no" ed="Bd" n="33"/>cut et alia: et in sensu composito non
+<lb ed="Bd" n="34"/>sequitur ex illa, quia vera sub hoc sensu,
+<lb ed="Bd" n="35"/>Filius Dei non est alicubi homo, quia 1bi,
+<lb ed="Bd" n="36"/>ubi non est in forma humana.
+</p>
+            <p xml:id="alalal-e73198-d1e430">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="37"/>Ad aliud dicendum, quod non est 
+si<lb break="no" ed="Bd" n="38"/>mile : quia nec Socrates nec asinus 
+di<lb break="no" ed="Bd" n="39"/>cunt naturas excedentes se secundum 
+lo<lb break="no" ed="Bd" n="40"/>cum : et hoc modo non habent se hic 
+ho<lb break="no" ed="Bd" n="41"/>mo, et Filius Dei : sed simile est cum
+<lb ed="Bd" n="42"/>dicitur, iste est Episcopus : non enim 
+se<lb break="no" ed="Bd" n="43"/>quitur, iste est hic, et non est hic 
+Epi<lb break="no" ed="Bd" n="44"/>scopus : ergo non est Episcopus.
+</p>
+            <p xml:id="alalal-e73198-d1e452">
+               <lb ed="Bd" n="45"/>Ad aliud dicendum, quod etiamsi 
+de<lb break="no" ed="Bd" n="46"/>tur hoc quod ubique consecratur corpus
+<lb ed="Bd" n="47"/>Christi (quod tamen impossibile est)
+<lb ed="Bd" n="48"/>adhuc non sequitur, quod corpus Christi
+<lb ed="Bd" n="49"/>sit ubique, sicut Filius Dei est ubique, ita
+<lb ed="Bd" n="50"/>quod ipse totus in omni loco, et in 
+om<lb break="no" ed="Bd" n="51"/>pi parte loci. Corpus autem Christi non
+<lb ed="Bd" n="52"/>in omnibus locis erit : quia in loco 
+alte<lb break="no" ed="Bd" n="53"/>rius corporis gloriosi non erit, nec totum
+<lb ed="Bd" n="54"/>corpus estin qualibet parte loci sui : quia
+<lb ed="Bd" n="55"/>non ubi est caput, ibi est totum corpus :
+<lb ed="Bd" n="56"/>ideo patet, quod illa ratio non 
+proce<lb break="no" ed="Bd" n="57"/>dit.
+</p>
+            <p xml:id="alalal-e73198-d1e483">
+               <lb ed="Bd" n="58"/>Ad ultimum dicendum, quod aeternitas
+<lb ed="Bd" n="59"/>wequaliter refertur ad naturam et ad 
+per<lb break="no" ed="Bd" n="60"/>sonam, et etiam immediatius ad 
+perso<lb break="no" ed="Bd" n="61"/>nam, secundum quod est interminabilis
+<lb ed="Bd" n="62"/>vite possessio tota simul et perfecta : et
+<lb ed="Bd" n="63"/>ideo conceditur gratia suppositi quod hic
+<lb ed="Bd" n="64"/>homo est ab aeterno, ut supra habitum
+<lb ed="Bd" n="65"/>est !. Sed ubi non convenit Deo nisi per
+<lb ed="Bd" n="66"/>translationem, et hoc secundum ea quae
+<lb ed="Bd" n="67"/>conveniunt nature divine in se : et ideo
+<lb ed="Bd" n="68"/>non refertur ita immediate ad 
+supposi<lb break="no" ed="Bd" n="69"/>tum, et ideo non convenit huic homini,
+<lb ed="Bd" n="70"/>secundum quod hujusmodi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

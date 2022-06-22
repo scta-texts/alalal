@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="303"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c56943"><!-- l1d40dt1 -->
+            <head xml:id="alalal-c56943-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-c56943-d1e101">
+               <lb ed="#Bb" n="13"/>DIVISIO TEXTUS.
+<lb ed="#Bb" n="14"/>
+               <quote xml:id="alalal-c56943-Qd1e107"> Predestinatio vero est de bonis 
+sa<lb break="no" ed="#Bb" n="15"/>lutaribus, etc. </quote>
+            </p>
+            <p xml:id="alalal-c56943-d1e113">
+               <lb ed="#Bb" n="16"/>Hic incipit pars illa in qua Magister
+<lb ed="#Bb" n="17"/>determinat de scientia divina secundum
+<lb ed="#Bb" n="18"/>suam speciem.
+</p>
+            <p xml:id="alalal-c56943-d1e122">
+               <lb ed="#Bb" n="19"/>Et dividitur in duas. In prima 
+deter<lb break="no" ed="#Bb" n="20"/>minat de speciebus praescientiae que
+<lb ed="#Bb" n="21"/>sunt praedestinatio et reprobatio. In 
+se<lb break="no" ed="#Bb" n="22"/>cunda autem tangit quasdam questiones
+<lb ed="#Bb" n="23"/>de praescientia et scientia, communiter
+<lb ed="#Bb" n="24"/>consequentes scientiam Dei secundum
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="25"/>genus et secundum speciem 
+considera<lb break="no" ed="#Bb" n="26"/>tam, quae incipit in penultimo capite
+<lb ed="#Bb" n="27"/>sequentis distinctionis XLI, ibi, F,
+<lb ed="#Bb" n="28"/>
+               <quote xml:id="alalal-c56943-Qd1e148"> Praeterea considerari oportet, Utrum
+<lb ed="#Bb" n="29"/>ea omnia quae semel scit, etc. </quote>
+            </p>
+            <p xml:id="alalal-c56943-d1e154">
+               <lb ed="#Bb" n="30"/>Precedens autem adhuc dividitur in
+<lb ed="#Bb" n="31"/>duas. In prima determinat species 
+pra<lb break="no" ed="#Bb" n="32"/>scientix, quae sunt praedestinatio et 
+ob<lb break="no" ed="#Bb" n="33"/>duratio. In secunda autem  querit,
+<lb ed="#Bb" n="34"/>Utrum habeant aliquam causam in 
+pre<lb break="no" ed="#Bb" n="35"/>destinato, vel prescito? Et haec incipit
+<lb ed="#Bb" n="36"/>in principio sequentis distinctionis, XLI,
+<lb ed="#Bb" n="37"/>ibi, A, <quote xml:id="alalal-c56943-Qd1e173"> St? autem querimus meritum
+<lb ed="#Bb" n="38"/>obdurationis, etc. </quote>
+            </p>
+            <p xml:id="alalal-c56943-d1e180">
+               <lb ed="#Bb" n="39"/>Ista distinctio dividitur in duas partes.
+<lb ed="#Bb" n="40"/>In prima tangit praedestinationem, in se-
+<pb ed="#Bb" n="304"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>cunda reprobationem, ibi, D, <quote xml:id="alalal-c56943-Qd1e193"> Cumgue
+<lb ed="#Bb" n="2"/>predestinatio sit gratiae preparatio,
+<lb ed="#Bb" n="3"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-c56943-d1e201">
+               <lb ed="#Bb" n="4"/>In prima parte facit quinque : quorum
+<lb ed="#Bb" n="5"/>primum est, quod tangit de quibus est
+<lb ed="#Bb" n="6"/>predestinatio. Secundo, ostendit certum
+<lb ed="#Bb" n="7"/>esse numerum praedestinatorum, ibi, B,
+<lb ed="#Bb" n="8"/>
+               <quote xml:id="alalal-c56943-Qd1e214"> Predestinatorum nullus videtur, etc. </quote>
+               <lb ed="#Bb" n="9"/>Tertio, objicitur contra sophistice, ibi,
+<lb ed="#Bb" n="10"/>B, §2: <quote xml:id="alalal-c56943-Qd1e220"> Ad hoc autem objiciunt 
+qui<lb break="no" ed="#Bb" n="11"/>dam, etc. </quote> Quarto, objicit fortius, ibi,
+<lb ed="#Bb" n="12"/>C, <quote xml:id="alalal-c56943-Qd1e227"> Verumtamen adhuc instant, etc. </quote>
+               <lb ed="#Bb" n="13"/>Quinto et ultimo solvit, ibi, C, § 2:
+<lb ed="#Bb" n="14"/>
+               <quote xml:id="alalal-c56943-Qd1e234">In hugus questionis solutione, etc. </quote>
+            </p>
+            <p xml:id="alalal-c56943-d1e237">
+               <lb ed="#Bb" n="15"/>Sententia autem patet per se, quia
+<lb ed="#Bb" n="16"/>Littera est plana.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

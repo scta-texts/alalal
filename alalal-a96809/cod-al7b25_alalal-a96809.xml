@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="494"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a96809"><!-- l1d18a3 -->
+            <head xml:id="alalal-a96809-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-a96809-Hd1e101" type="question-title">An proprium sit Spiritui sancto esse
+donum ?</head>
+            <p xml:id="alalal-a96809-d1e104">
+               <lb ed="#Ba" n="52"/>ARTICULUS III.
+<lb ed="#Ba" n="53"/>An proprium sit Spiritui sancto esse
+<lb ed="#Ba" n="54"/>donum ?
+</p>
+            <p xml:id="alalal-a96809-d1e113">
+               <lb ed="#Ba" n="55"/>Deinde objicitur super primum 
+prin<lb break="no" ed="#Ba" n="56"/>cipium quarti capituli D, ibi, <quote xml:id="alalal-a96809-Qd1e119"> Quia 
+spiri<lb break="no" ed="#Ba" n="57"/>tus sanctus et donum dicitur, et datum
+<lb ed="#Ba" n="58"/>sive donatum, etc. </quote>
+            </p>
+            <p xml:id="alalal-a96809-d1e127">
+               <lb ed="#Ba" n="59"/>1. Ex hoc enim videtur ‘Magister velle,
+<lb ed="#Ba" n="60"/>quod proprium sit Spiritui sancto quod
+<lb ed="#Ba" n="61"/>donum est. Sed contra : Ratio doni 
+vi<lb break="no" ed="#Ba" n="62"/>detur esse consequens ralionem ejus qui
+<lb ed="#Ba" n="63"/>processit. Propatio. Ex eo habet 
+ratio<lb break="no" ed="#Ba" n="64"/>nem doni, quia processit ut amor : ergo
+<lb ed="#Ba" n="65"/>videtur, quod sit commune consequens
+<lb ed="#Ba" n="66"/>potius quam esse proprium.
+</p>
+            <p xml:id="alalal-a96809-d1e148">
+               <lb ed="#Ba" n="67"/>2. Si dicas, quod est consequens, sed
+<lb ed="#Ba" n="68"/>proprium, non commune. Contra : Filius
+<lb ed="#Ba" n="69"/>etiam processit ut qui dari possit, sicut
+<lb ed="#Ba" n="70"/>dicitur in Zittera in hac eadem 
+distin<lb break="no" ed="#Ba" n="71"/>ctione : ergo ratio doni est commune
+<lb ed="#Ba" n="72"/>consequens, et non proprium.
+</p>
+            <p xml:id="alalal-a96809-d1e164">
+               <lb ed="#Ba" n="73"/>3. Item, Ea quae propria sunt 
+perso<lb break="no" ed="#Ba" n="74"/>narum in actibus persenalibus 
+significan<lb break="no" ed="#Ba" n="75"/>tur, ut cum dicitur, Pater generat 
+Fi<lb break="no" ed="#Ba" n="76"/>lium, generat consignificat paternitatem,
+<lb ed="#Ba" n="77"/>et generare filiationem : ergo videtur,
+<lb ed="#Ba" n="78"/>quod si esse donum proprium sit Spiritus
+<lb ed="#Ba" n="79"/>sancti, quod possim dicere, Pater et
+<lb ed="#Ba" n="80"/>Filius ab aeterno donant Spiritum 
+san<lb break="no" ed="#Ba" n="81"/>ctum : aut ergo donant sibi invicem
+<lb ed="#Ba" n="82"/>Spirttum, aut aliis : non sibi invicem,
+<lb ed="#Ba" n="83"/>quia hoc negatur hic in Liétera, et 
+indi<lb break="no" ed="#Ba" n="84"/>gentiam significaret : nec aliis donant ab
+<lb ed="#Ba" n="85"/>eterno, quia alii non sunt: ergo 
+Spiri<lb break="no" ed="#Ba" n="86"/>tus non est donum proprie, sed 
+appro<lb break="no" ed="#Ba" n="87"/>priate, ut videtur.
+</p>
+            <p xml:id="alalal-a96809-d1e199">
+               <lb ed="#Ba" n="88"/>4. Item, Video in aliis propriis, quod
+<lb ed="#Ba" n="89"/>non tantum non conveniunt alii persone,
+<lb ed="#Ba" n="90"/>sed etiam quod numquam possunt 
+con<lb break="no" ed="#Ba" n="91"/>venire : Filius enim nec est Pater, nec
+<lb ed="#Ba" n="92"/>potest umquam esse Pater, nec e con-
+<pb ed="#Ba" n="495"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>verso : ergo videtur, quod si Spiritus
+<lb ed="#Ba" n="2"/>sanctus est proprie donum, quod ratio
+<lb ed="#Ba" n="3"/>doni numquam possit alii convenire
+<lb ed="#Ba" n="4"/>sed hoc falsum est: quia quod datur
+<lb ed="#Ba" n="5"/>gratis et irreddibiliter, donum est, sicut
+<lb ed="#Ba" n="6"/>determinatum est in praecedenti 
+que<lb break="no" ed="#Ba" n="7"/>stione : Filius datus est gratis et 
+irreddi<lb break="no" ed="#Ba" n="8"/>biliter : ergo est donum.
+</p>
+            <p xml:id="alalal-a96809-d1e234">
+               <lb ed="#Ba" n="9"/>SED CONTRA :
+<lb ed="#Ba" n="10"/>1. Ratio primi doni est amoris 
+com<lb break="no" ed="#Ba" n="11"/>munio : amoris autem praecedentis 
+com<lb break="no" ed="#Ba" n="12"/>munio non convenit nisi Spiritui sancto :
+<lb ed="#Ba" n="13"/>ergo ratio doni non convenit nisi 
+Spiri<lb break="no" ed="#Ba" n="14"/>tui sancto.
+</p>
+            <p xml:id="alalal-a96809-d1e250">
+               <lb ed="#Ba" n="15"/>2. Item, Filius aut datus est ex amore,
+<lb ed="#Ba" n="16"/>aut non. Si non, hoc absurdum est
+<lb ed="#Ba" n="17"/>quia est contra Evangelium dicens, Sze
+<lb ed="#Ba" n="18"/>Deus dilexit mundum, etc. +. Si sic: 
+er<lb break="no" ed="#Ba" n="19"/>go amor ille sectndum rationem 
+intelli<lb break="no" ed="#Ba" n="20"/>gendi prius datus est : ergo Filius non
+<lb ed="#Ba" n="21"/>habet primam rationem doni: ergo esse
+<lb ed="#Ba" n="22"/>donum non convenit ei proprie.
+</p>
+            <p xml:id="alalal-a96809-d1e270">
+               <lb ed="#Ba" n="23"/>Solutio. Dicendum, quod esse donum
+<lb ed="#Ba" n="24"/>convenit Spiritul sancto proprie : si ratio
+<lb ed="#Ba" n="25"/>sumatur a primo dono procedente ab eo
+<lb ed="#Ba" n="26"/>qui donat vel donare habet. Donator
+<lb ed="#Ba" n="27"/>enim et donum distinctionem relativam
+<lb ed="#Ba" n="28"/>habent : et donum est exiens a donatore :
+<lb ed="#Ba" n="29"/>et est id quod primo habet rationem 
+do<lb break="no" ed="#Ba" n="30"/>ni: et hoc non est nisi amor procedens
+<lb ed="#Ba" n="31"/>a Patre et Filio : amor enim essentialis
+<lb ed="#Ba" n="32"/>non habet processionem distinctam et
+<lb ed="#Ba" n="33"/>distinguentem, et ideo deficit a ratione
+<lb ed="#Ba" n="34"/>doni. Filius autem non procedit ut amor,
+<lb ed="#Ba" n="35"/>sed potius ut Filius, qui possit amorem
+<lb ed="#Ba" n="36"/>gratuitum impendere, et cui possit amor
+<lb ed="#Ba" n="37"/>gratuitus impendi.
+</p>
+            <p xml:id="alalal-a96809-d1e306">
+               <lb ed="#Ba" n="38"/>Ad id ergo quod primo objicitur, 
+di<lb break="no" ed="#Ba" n="39"/>cendum quod ratio doni no est conse-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="40"/>quens processionem, vel intentionem
+<lb ed="#Ba" n="41"/>generalem, sed est consequens 
+processio<lb break="no" ed="#Ba" n="42"/>nem in specie,que spiratio est : qua 
+spi<lb break="no" ed="#Ba" n="43"/>ratio ex vi spirativa (ut diximus supra)
+<lb ed="#Ba" n="44"/>immediate producit amorem : sed si 
+ac<lb break="no" ed="#Ba" n="45"/>ciperetur processio secundum generalem
+<lb ed="#Ba" n="46"/>intentionem, tunc verum esset, quod 
+es<lb break="no" ed="#Ba" n="47"/>set consequens secundum intellectum.
+</p>
+            <p xml:id="alalal-a96809-d1e332">
+               <lb ed="#Ba" n="48"/>Ad aliud dicendum, quod esse donum
+<lb ed="#Ba" n="49"/>est Spiritui proprium, cujus causa est
+<lb ed="#Ba" n="50"/>dicta in principio solutionis.
+</p>
+            <p xml:id="alalal-a96809-d1e341">
+               <lb ed="#Ba" n="51"/>Ad aliud dicendum, quod multiplex
+<lb ed="#Ba" n="52"/>est proprium, scilicet quod non ponit 
+ni<lb break="no" ed="#Ba" n="53"/>si respectum ad personas a quibus 
+dis<lb break="no" ed="#Ba" n="54"/>tinguitur in actu personali, et illud 
+pro<lb break="no" ed="#Ba" n="55"/>prium in divinis habet actum personalem
+<lb ed="#Ba" n="56"/>in quo significatur, sicut Filius et Pater.
+<lb ed="#Ba" n="57"/>Quoddam est proprium quod non ponit
+<lb ed="#Ba" n="58"/>respectum per actum personalem, sed
+<lb ed="#Ba" n="59"/>potius per privationem, sicut 
+innascibi<lb break="no" ed="#Ba" n="60"/>litas : et hoc non significatur in actu 
+per<lb break="no" ed="#Ba" n="61"/>sonali. Similiter est proprium quod est
+<lb ed="#Ba" n="62"/>ex ratione actus in procedente persona,
+<lb ed="#Ba" n="63"/>et hoc est donum : quia quod Spiritus
+<lb ed="#Ba" n="64"/>sanctus est donum, hoc est ex tali pro?
+<lb ed="#Ba" n="65"/>cessione, quia scilicet procedit ut amor:
+<lb ed="#Ba" n="66"/>et quia hoc ponit ordinem 
+communica<lb break="no" ed="#Ba" n="67"/>tionis sui in ratione doni etiam ad alios,
+<lb ed="#Ba" n="68"/>ipso simplici actu personali qui tantuim
+<lb ed="#Ba" n="69"/>notet distinctionem unius ab alio, 
+signi<lb break="no" ed="#Ba" n="70"/>ficari non potest. Et ratio hujus magis
+<lb ed="#Ba" n="71"/>patebit infra in sequentibus quastionibus
+<lb ed="#Ba" n="72"/>hujus distinctionis.
+</p>
+            <p xml:id="alalal-a96809-d1e391">
+               <lb ed="#Ba" n="73"/>Ap arivp dicendum, quod sub ratione
+<lb ed="#Ba" n="74"/>procedentis doni et primi hoc proprium
+<lb ed="#Ba" n="75"/>non convenit aliis, nec convenire potest.
+<lb ed="#Ba" n="76"/>Filius enim etsi datus sit, non tamen 
+pro<lb break="no" ed="#Ba" n="77"/>cedil ut donum : nec est etiam in ratione
+<lb ed="#Ba" n="78"/>pruni doni, ut prius dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

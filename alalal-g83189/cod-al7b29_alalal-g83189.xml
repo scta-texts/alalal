@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="404"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g83189"><!-- l4d14a1 -->
+            <head xml:id="alalal-g83189-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-g83189-Hd1e101" type="question-title">An sacramentum poenitentiae bene 
+ordinetur quantum in ordine 
+sacramentorum ?</head>
+            <p xml:id="alalal-g83189-d1e104">
+               <lb ed="#Be" n="16"/>ARTICULUS I.
+<lb ed="#Be" n="17"/>An sacramentum poenitentiae bene 
+ordi<lb break="no" ed="#Be" n="18"/>netur quantum in ordine 
+sacramento<lb break="no" ed="#Be" n="19"/>rum ?
+</p>
+            <p xml:id="alalal-g83189-d1e115">
+               <lb ed="#Be" n="20"/>Sed circa hoc incidit duplex quaestio,
+<lb ed="#Be" n="21"/>scilicet de ordine hujus sacramenti: et
+<lb ed="#Be" n="22"/>de verbo Hieronymi quod adducit : <quote xml:id="alalal-g83189-Qd1e123"> 
+Se<lb break="no" ed="#Be" n="23"/>cunda tabula post naufragium. </quote>
+            </p>
+            <p xml:id="alalal-g83189-d1e129">
+               <lb ed="#Be" n="24"/>1. Supra enim habitum est, quod
+<lb ed="#Be" n="25"/>nullus in baptismo adultus novum 
+ho<lb break="no" ed="#Be" n="26"/>minem induit, nisi poeniteat eum veteris
+<lb ed="#Be" n="27"/>vite : ergo cum poenitentia acceditur ab
+<lb ed="#Be" n="28"/>baptismum: ergo tractatus poenitentia
+<lb ed="#Be" n="29"/>ante baptismum est ponendus.
+</p>
+            <p xml:id="alalal-g83189-d1e146">
+               <lb ed="#Be" n="30"/>2. Hem, Matth. i, 5 et 6, dicitur,
+<lb ed="#Be" n="31"/>quod exibant ad Joannem confitentes
+<lb ed="#Be" n="32"/>peccala sua, et postea baptizabantur :
+<lb ed="#Be" n="33"/>ergo poenitentia praecedit baptismum.
+</p>
+            <p xml:id="alalal-g83189-d1e157">
+               <lb ed="#Be" n="34"/>3. Item, Sine poenitentia veniens ad
+<lb ed="#Be" n="35"/>baptismum, fictus reputatur, et est:
+<lb ed="#Be" n="36"/>ergo ad hoc quod tollatur obstaculum,
+<lb ed="#Be" n="37"/>oportet esse poenitentem.
+</p>
+            <p xml:id="alalal-g83189-d1e168">
+               <lb ed="#Be" n="38"/>Item videtur, quod immediate post
+<lb ed="#Be" n="39"/>baptismum debuit agere de poenitentia :
+<lb ed="#Be" n="40"/>quia
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="41"/>1. Est secunda tabula post naufragium,
+<lb ed="#Be" n="42"/>cum baptismus sit prima: ergo sicut se
+<lb ed="#Be" n="43"/>cunda tabula immediate est post primam,
+<lb ed="#Be" n="44"/>sic poenitentia debet esse immediate post
+<lb ed="#Be" n="45"/>baptismum.,
+</p>
+            <p xml:id="alalal-g83189-d1e190">
+               <lb ed="#Be" n="46"/>2. ftem, Est secunda tabula: ergo est
+<lb ed="#Be" n="47"/>secundum sacramentum: et hoc videtur
+<lb ed="#Be" n="48"/>sequi: quia, sicut supra habitum est,
+<lb ed="#Be" n="49"/>gratia sacramentalis solvit a peccato
+<lb ed="#Be" n="50"/>quod facit naufragium.
+</p>
+            <p xml:id="alalal-g83189-d1e203">
+               <lb ed="#Be" n="51"/>Item videtur, quod tractari debuit ante
+<lb ed="#Be" n="52"/>Eucharistiam : quia
+</p>
+            <p xml:id="alalal-g83189-d1e210">
+               <lb ed="#Be" n="53"/>1. Omnibus indicitur poenitentia ante
+<lb ed="#Be" n="54"/>communionem,
+</p>
+            <p xml:id="alalal-g83189-d1e218">
+               <lb ed="#Be" n="55"/>2. Item, Agnus comedebatur cum 
+la<lb break="no" ed="#Be" n="56"/>clucis agrestibus ',quod signilicat commu.
+<lb ed="#Be" n="57"/>nicandum esse cum amaritudine 
+pceni<lb break="no" ed="#Be" n="58"/>tentiae. Ergo videtur, quod istud 
+sacra<lb break="no" ed="#Be" n="59"/>mentum praecedat sacramentum 
+Eucha<lb break="no" ed="#Be" n="60"/>ristia: cum tamen Magister e converso
+<lb ed="#Be" n="61"/>ordinaverit.
+</p>
+            <p xml:id="alalal-g83189-d1e236">
+               <lb ed="#Be" n="62"/>Soxtcutio. Diceudum, quod Magister
+<lb ed="#Be" n="63"/>congruo ordine ordinat sacramenta : qui
+<lb ed="#Be" n="64"/>ordo supra assignatus est in principio
+<lb ed="#Be" n="65"/>notularum super hune quartum librum
+<lb ed="#Be" n="66"/>Sententiarum.
+</p>
+            <p xml:id="alalal-g83189-d1e249">
+               <lb ed="#Be" n="67"/>Quantum autem pertinet ad hunc 
+tra<lb break="no" ed="#Be" n="68"/>clatum,
+</p>
+            <p xml:id="alalal-g83189-d1e256">
+               <lb ed="#Be" n="69"/>Dicexpum ad primum, quod Magister
+<lb ed="#Be" n="70"/>ordinat sacramenta secundum ordinem
+<lb ed="#Be" n="71"/>morbi, contra quem ordinatur gratia 
+cu<lb break="no" ed="#Be" n="72"/>juscumque sacramenti: et quia primus
+<lb ed="#Be" n="73"/>morbus est morbus originalis, et pene
+<lb ed="#Be" n="74"/>sequentes illum, propter hoc primo
+<lb ed="#Be" n="75"/>oportuit poni sacramenta quae sunt 
+re<lb break="no" ed="#Be" n="76"/>media contra illum cum suis sequelis.
+<lb ed="#Be" n="77"/>Est autem gratia baptismalis contra
+<lb ed="#Be" n="78"/>morbum illum secundum se: sed quia
+<lb ed="#Be" n="79"/>remanet concupiscentia debilitans in
+<lb ed="#Be" n="80"/>prelio, ideo datur gratia confirmations:
+<lb ed="#Be" n="81"/>ex concupiscentiae autem motu sequitur
+<lb ed="#Be" n="82"/>defectus virium ex deperditione roboris
+<lb ed="#Be" n="83"/>spiritualis, contra quod ordinatur gratia
+<lb ed="#Be" n="84"/>sacramenti Eucharistiae. Quia autem post
+<lb ed="#Be" n="85"/>omnia haec frequenter incidit actuale mor
+<pb ed="#Be" n="405"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>tale, igilur quarto hoc loco agit de 
+pe<lb break="no" ed="#Be" n="2"/>nitentia, quae ordinatur contra id : posset
+<lb ed="#Be" n="3"/>tamen aliquo respectu ordinari 
+pceniten<lb break="no" ed="#Be" n="4"/>tia ante Eucharistiam, ut alibi ostensum
+<lb ed="#Be" n="5"/>est *.
+</p>
+            <p xml:id="alalal-g83189-d1e311">
+               <lb ed="#Be" n="6"/>Patet igitur solutio ad primum, et
+<lb ed="#Be" n="7"/>etiam ad tertium: quia hoc est 
+particu<lb break="no" ed="#Be" n="8"/>lare et per accidens, scilicet quia adultus
+<lb ed="#Be" n="9"/>habet actuale: tamen originale per se
+<lb ed="#Be" n="10"/>est quod curatur baptismo, et poenitentia
+<lb ed="#Be" n="11"/>non preexigitur quantum ad naturam
+<lb ed="#Be" n="12"/>peccati, contra quod per se est baptismus
+<lb ed="#Be" n="13"/>ordinatus : sed potius quia baptizatus, si
+<lb ed="#Be" n="14"/>adultus est, et peccavit, pcenitet, aliter
+<lb ed="#Be" n="15"/>esset fictus : sed quod non sit per se,
+<lb ed="#Be" n="16"/>patet, quia Si per se esset, semper 
+pooni<lb break="no" ed="#Be" n="17"/>tentia preecederet baptismum: et hoc
+<lb ed="#Be" n="18"/>non est verum, ut patet in parvulis.
+</p>
+            <p xml:id="alalal-g83189-d1e342">
+               <lb ed="#Be" n="19"/>Ad aliud dicendum, quod baptizati a
+<lb ed="#Be" n="20"/>Joanne, omnes erant adulti, et in 
+pecca<lb break="no" ed="#Be" n="21"/>tis actualibus existentes : et ideo oportuit
+<lb ed="#Be" n="22"/>eos poenitentia preparari ad baptismum
+<lb ed="#Be" n="23"/>Christi: sed tamen non oportet propter
+<lb ed="#Be" n="24"/>hoc quin per se et secundum naturam
+<lb ed="#Be" n="25"/>gratiee quam causat baptismus, praecedat
+<lb ed="#Be" n="26"/>poenitentiam, ut dictum est.
+</p>
+            <p xml:id="alalal-g83189-d1e363">
+               <lb ed="#Be" n="27"/>Ad aliud dicendum, quod in morbo
+<lb ed="#Be" n="28"/>sunt duo, scilicet culpa, et poena: et 
+nu<lb break="no" ed="#Be" n="29"/>merando culpam cum culpa, tunc prima
+<lb ed="#Be" n="30"/>culpa est originalis, et secunda actualis:
+<lb ed="#Be" n="31"/>et contra primam est baptismus, et 
+con<lb break="no" ed="#Be" n="32"/>tra secundam poenitentia. Cum autem
+<lb ed="#Be" n="33"/>non sit sacramentum tantum ordinatum
+<lb ed="#Be" n="34"/>contra culpam, sed etiam contra poenam,
+<lb ed="#Be" n="35"/>non sequitur, quod sit secundum 
+sacra<lb break="no" ed="#Be" n="36"/>mentum : sicut non sequitur, actuale est
+<lb ed="#Be" n="37"/>secunda culpa in genere: ergo est 
+secun<lb break="no" ed="#Be" n="38"/>dus morbus : quia secundus morbus est
+<lb ed="#Be" n="39"/>ille qui procedit ex primo, nullo addito:
+<lb ed="#Be" n="40"/>et hic est concupiscentia et pronitas ad
+<lb ed="#Be" n="41"/>malum, quae est ex fomite vel ipse fomes:
+<lb ed="#Be" n="42"/>naufragium autem per se non facit poena
+<lb ed="#Be" n="43"/>que justa est, sed potius culpa: et ideo
+<lb ed="#Be" n="44"/>poenitentia est secunda tabula, non 
+ta<lb break="no" ed="#Be" n="45"/>Men secundum sacramentum, nec 
+se<lb break="no" ed="#Be" n="46"/>cundo loco ordinandum.
+</p>
+            <p xml:id="alalal-g83189-d1e409">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="47"/>Ad aliud dicendum, quod gratia 
+sa<lb break="no" ed="#Be" n="48"/>cramentalis solvit a peccato, non tantum
+<lb ed="#Be" n="49"/>ex parte culpe cx qua per se facit 
+nau<lb break="no" ed="#Be" n="50"/>fragium, sed etiam ex parte poenae, ut
+<lb ed="#Be" n="51"/>dictum est : et ideo illa ratio non 
+proce<lb break="no" ed="#Be" n="52"/>dit.
+</p>
+            <p xml:id="alalal-g83189-d1e427">
+               <lb ed="#Be" n="53"/>Av atiup dicendum, quod sicut 
+gene<lb break="no" ed="#Be" n="54"/>ratum confortatur post generationem a
+<lb ed="#Be" n="55"/>natura, et deinceps nutritur: ita etiam
+<lb ed="#Be" n="56"/>est in sacramentis: quia primo datur 
+sa<lb break="no" ed="#Be" n="57"/>cramentum regenerationis quod dat esse
+<lb ed="#Be" n="58"/>gratiae contra defectum primum : deinde
+<lb ed="#Be" n="59"/>confortatur ex gratia confirmationis, et
+<lb ed="#Be" n="60"/>tertio nutritur statim.
+</p>
+            <p xml:id="alalal-g83189-d1e447">
+               <lb ed="#Be" n="61"/>Si autem aliquis objiciat, quod 
+con<lb break="no" ed="#Be" n="62"/>fortatio sit per nutrimentum: ergo 
+se<lb break="no" ed="#Be" n="63"/>cundum hoc Eucharistia debet preecedere
+<lb ed="#Be" n="64"/>Confirmationem : dicendum, quod hoc
+<lb ed="#Be" n="65"/>non valet : quia duplex est confortatio in
+<lb ed="#Be" n="66"/>natura. Una est quae est per remotionem
+<lb ed="#Be" n="67"/>dispositionum contrariarum : ethane dat
+<lb ed="#Be" n="68"/>ipsum generans cum forma, vel statim
+<lb ed="#Be" n="69"/>post formam: quia aliter generatum non
+<lb ed="#Be" n="70"/>resisteret alterationibus sequentibus, sed
+<lb ed="#Be" n="71"/>statim corrumperetur. Alia autem est
+<lb ed="#Be" n="72"/>per restaurationem deperditi; et illa
+<lb ed="#Be" n="73"/>fit per cibum.
+</p>
+            <p xml:id="alalal-g83189-d1e478">
+               <lb ed="#Be" n="74"/>Dicendum igitur, quod prima 
+confor<lb break="no" ed="#Be" n="75"/>tatio est cui similis est confirmatio, 
+sic<lb break="no" ed="#Be" n="76"/>ut sonat suum nomen: et gratia ejus
+<lb ed="#Be" n="77"/>debilitat concupiscentiam, et confirmat
+<lb ed="#Be" n="78"/>gratiam collatam in baptismo : sequens
+<lb ed="#Be" n="79"/>autem confortatio assimilatur 
+Eucha<lb break="no" ed="#Be" n="80"/>ristiae : et sic patet, quod stat ordo 
+Ma<lb break="no" ed="#Be" n="81"/>gistri.
+</p>
+            <p xml:id="alalal-g83189-d1e498">
+               <lb ed="#Be" n="82"/>Ad aliud dicendum, quod hoc per ac~
+<lb ed="#Be" n="83"/>cidens sic est, in quantum est peccatum
+<lb ed="#Be" n="84"/>actuale in comedentibus : sed tamen 
+de<lb break="no" ed="#Be" n="85"/>fectus contra quem generaliter in 
+omni<lb break="no" ed="#Be" n="86"/>bus ordinatur Eucharistia, est ante 
+ac<lb break="no" ed="#Be" n="87"/>tuale : et ideo Eucharistia est ante 
+peeni<lb break="no" ed="#Be" n="88"/>tentiam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="402"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c75945"><!-- l1d45a1 -->
+            <head xml:id="alalal-c75945-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-c75945-Hd1e101" type="question-title">An in Deo sit voluntas?</head>
+            <p xml:id="alalal-c75945-d1e104">
+               <lb ed="#Bb" n="10"/>ARTICULUS I.
+<lb ed="#Bb" n="11"/>An in Deo sit voluntas?
+</p>
+            <p xml:id="alalal-c75945-d1e111">
+               <lb ed="#Bb" n="12"/>Incidunt autem hic tria dubia, ante
+<lb ed="#Bb" n="13"/>Litteram, quorum primum est, An in
+<lb ed="#Bb" n="14"/>Deo sit voluntas?
+<lb ed="#Bb" n="15"/>Secundum, Quid sit voluntas ejus?
+<lb ed="#Bb" n="16"/>Et tertio, de introductione sive situ
+<lb ed="#Bb" n="17"/>istius tractatus de voluntate.
+</p>
+            <p xml:id="alalal-c75945-d1e127">
+               <lb ed="#Bb" n="18"/>Ad primum objicitur sic:
+<lb ed="#Bb" n="19"/>1. Omnis appetitus est significativus
+<lb ed="#Bb" n="20"/>indigentiae : in Deo autem nulla est 
+in<lb break="no" ed="#Bb" n="21"/>digentia : ergo nullus appetitus. Pra
+<lb ed="#Bb" n="22"/>probatur per hoc, quod appetitus est
+<lb ed="#Bb" n="23"/>movens ad id quod non habetur, ut dicit
+<lb ed="#Bb" n="24"/>Philosophus. Secunpa patet per se. Inde
+<lb ed="#Bb" n="25"/>ulterius objicitur sic : Nullus appetitus
+<lb ed="#Bb" n="26"/>est in Deo: omnis voluntas est 
+appeti<lb break="no" ed="#Bb" n="27"/>tus : ergo nulla voluntas est in Deo.
+<lb ed="#Bb" n="28"/>Prima constat ex priori syllogismo.
+<lb ed="#Bb" n="29"/>Secunpa probatur in tertio de Anima,
+<lb ed="#Bb" n="30"/>ubi appetitus dividitur per 
+volunta<lb break="no" ed="#Bb" n="31"/>tem, et desiderium quod est appetilus
+<lb ed="#Bb" n="32"/>anime sensibilis.
+</p>
+            <p xml:id="alalal-c75945-d1e163">
+               <lb ed="#Bb" n="33"/>2. Item, Augustinus in libro de 
+Lzbe<lb break="no" ed="#Bb" n="34"/>ro arbitrio: <quote xml:id="alalal-c75945-Qd1e169"> Voluntas est rationalis
+<lb ed="#Bb" n="35"/>motus, sensui presidens et appetitui: </quote>
+               <lb ed="#Bb" n="36"/>constat autem, quod in Deo nec sensus
+<lb ed="#Bb" n="37"/>est, nec appetitus sensibilis, quia de illo
+<lb ed="#Bb" n="38"/>loquitur Augustinus : ergo nec 
+volun<lb break="no" ed="#Bb" n="39"/>tas.
+</p>
+            <p xml:id="alalal-c75945-d1e184">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="40"/>3. Item, Omnis voluntas est ad 
+se<lb break="no" ed="#Bb" n="41"/>quendum aliquid, vel fugiendum : Deus
+<lb ed="#Bb" n="42"/>autem nihil assequitur vel fugit : ergo
+<lb ed="#Bb" n="43"/>nihil vult : ergo ut prius.
+</p>
+            <p xml:id="alalal-c75945-d1e197">
+               <lb ed="#Bb" n="44"/>4. Item, Voluntas est potentia 
+ratio<lb break="no" ed="#Bb" n="45"/>nalis, habens se ad opposita : Deus 
+au<lb break="no" ed="#Bb" n="46"/>tem habet se uno modo: ergo. etc.
+</p>
+            <p xml:id="alalal-c75945-d1e206">
+               <lb ed="#Bb" n="47"/>5. Item, Voluntas est causa 
+contin<lb break="no" ed="#Bb" n="48"/>gens rerum : Deus autem est causa 
+ne<lb break="no" ed="#Bb" n="49"/>cessaria et semper stans : ergo Deus non
+<lb ed="#Bb" n="50"/>habet voluntatem, ut videtur,
+</p>
+            <p xml:id="alalal-c75945-d1e217">
+               <lb ed="#Bb" n="51"/>1. Sed contra hoc est quod dicitur in
+<lb ed="#Bb" n="52"/>Littera.
+</p>
+            <p xml:id="alalal-c75945-d1e224">
+               <lb ed="#Bb" n="53"/>2. Item, Ad Ephes. 1, 5, dicit 
+Apo<lb break="no" ed="#Bb" n="54"/>stolus : Secundum propositum voluntatis
+<lb ed="#Bb" n="55"/>suae. Et, ibidem, y. 11: Secundum 
+con<lb break="no" ed="#Bb" n="56"/>silium voluntatis sue. Kt im multis alus
+<lb ed="#Bb" n="57"/>locis.
+</p>
+            <p xml:id="alalal-c75945-d1e238">
+               <lb ed="#Bb" n="58"/>3. Item, per rationem : Agens per 
+in<lb break="no" ed="#Bb" n="59"/>tellectum melius est quam agens per
+<lb ed="#Bb" n="60"/>nature necessitatem, quoniam primum
+<lb ed="#Bb" n="61"/>cognoscit rationem operis, secundum
+<lb ed="#Bb" n="62"/>autem non : Deus autem nobuilissimum
+<lb ed="#Bb" n="63"/>agens est : ergo est agens per 
+intelle<lb break="no" ed="#Bb" n="64"/>ctum : mihil autem talium agit, nisi quod
+<lb ed="#Bb" n="65"/>vult, et quando vult: ergo voluntatem
+<lb ed="#Bb" n="66"/>habet Deus.
+</p>
+            <p xml:id="alalal-c75945-d1e260">
+               <lb ed="#Bb" n="67"/>4. Item, Liberrimum in natura 
+ratio<lb break="no" ed="#Bb" n="68"/>nahi est voluntas : ergo et optimum ect
+<lb ed="#Bb" n="69"/>nobilissimum : ergo et Deo 
+attribuen<lb break="no" ed="#Bb" n="70"/>dum.
+</p>
+            <p xml:id="alalal-c75945-d1e271">
+               <lb ed="#Bb" n="71"/>3. Item, Philosophus in XI prime
+<lb ed="#Bb" n="72"/>philosophie dict: <quote xml:id="alalal-c75945-Qd1e277"> Voluntas est actio
+<lb ed="#Bb" n="73"/>ipsius : et ideo vigilia, et sensus, et 
+in<lb break="no" ed="#Bb" n="74"/>tellectus, sunt valde voluptuosa . et spes,
+<lb ed="#Bb" n="75"/>et rememoratio sunt propter ista.</quote> Et
+<lb ed="#Bb" n="76"/>intendit ostendere, quod Deo danda est
+<lb ed="#Bb" n="77"/>voluntas. quae est im actu semper, et
+<lb ed="#Bb" n="78"/>actio ipsius : quia Deo agere, mhil aliud
+<lb ed="#Bb" n="79"/>est quam velle Deum, ut hoc fiat : sicut
+<lb ed="#Bb" n="80"/>elim nobis voluntas conjuncta semper
+<lb ed="#Bb" n="81"/>volilo optima est, et voluptuosa, sicut
+<lb ed="#Bb" n="82"/>et vigilia, et sensus, et intellectus 
+secun<lb break="no" ed="#Bb" n="83"/>dum actum : et hujus signum est, quod
+<lb ed="#Bb" n="84"/>spes et rememoratio non habent 
+volupta<lb break="no" ed="#Bb" n="85"/>tem nisi in relatione ad illa.
+</p>
+            <p xml:id="alalal-c75945-d1e309">
+               <pb ed="#Bb" n="403"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>Solutio. Dicendum, quod in Deo 
+vo<lb break="no" ed="#Bb" n="2"/>luntas est et per prius quam in nobis, et
+<lb ed="#Bb" n="3"/>magis proprie.
+</p>
+            <p xml:id="alalal-c75945-d1e322">
+               <lb ed="#Bb" n="4"/>Ad primum autem dicendum, quod
+<lb ed="#Bb" n="5"/>voluntatis est quoddam per accidens, et
+<lb ed="#Bb" n="6"/>quoddam per se. Per se autem habet
+<lb ed="#Bb" n="7"/>quatuor ;: quorum unum est de natura,
+<lb ed="#Bb" n="8"/>quod sit scilicet nature rationalis, et in
+<lb ed="#Bb" n="9"/>ratione : sicut dicit Aristoteles et 
+Dama<lb break="no" ed="#Bb" n="10"/>scenus, quod omnis voluntas rationalis
+<lb ed="#Bb" n="11"/>est : et si non est rationalis, non est 
+vo<lb break="no" ed="#Bb" n="12"/>luntas. Secundum est, quod sit 
+liberri<lb break="no" ed="#Bb" n="13"/>mum nature rationalis : et hoc est
+<lb ed="#Bb" n="14"/>proprietas ipsius : habet enim unam l[
+i<lb break="no" ed="#Bb" n="15"/>bertatem a subjyecto proximo in quo est,
+<lb ed="#Bb" n="16"/>hoe est, natura spiritus intellectualis,
+<lb ed="#Bb" n="17"/>qui non est actus corporis ut affixus
+<lb ed="#Bb" n="18"/>organo: et ideo non est obligatus 
+mate<lb break="no" ed="#Bb" n="19"/>ri@ vel ejus appenditiis. Alam  
+liberta<lb break="no" ed="#Bb" n="20"/>tem habet a se, secundum quod est vis
+<lb ed="#Bb" n="21"/>potens acceptare objectum, vel non 
+ac<lb break="no" ed="#Bb" n="22"/>ceptare, quia spontanee operatur. 
+Ter<lb break="no" ed="#Bb" n="23"/>tium est comparatio ipsius ad bonum :
+<lb ed="#Bb" n="24"/>quia voluntas semper est boni, et 
+pra<lb break="no" ed="#Bb" n="25"/>cipue summi boni quod omnia 
+appe<lb break="no" ed="#Bb" n="26"/>tunt, ut dicit Philosophus: et hoc 
+sum<lb break="no" ed="#Bb" n="27"/>mum bonum non afferret Deo 
+jucundi<lb break="no" ed="#Bb" n="28"/>catem, nisi esset voluntas ipsius : et hoc
+<lb ed="#Bb" n="29"/>est quod optime tangit Philosophus in
+<lb ed="#Bb" n="30"/>VIIL Ethicorum, ubi dicit secundum
+<lb ed="#Bb" n="31"/>translationem quae est ex Greco: <quote xml:id="alalal-c75945-Qd1e384"> Si
+<lb ed="#Bb" n="32"/>cujus natura simplex fuerit, semper 
+ea<lb break="no" ed="#Bb" n="33"/>dem operatio delectabilissima erit. </quote>
+Ideo<lb break="no" ed="#Bb" n="34"/>que Deus semper una et simplici 
+dele<lb break="no" ed="#Bb" n="35"/>ctatione delectatur. Non enim solum 
+mo<lb break="no" ed="#Bb" n="36"/>tus est actus, 1d est, perfectio et 
+com<lb break="no" ed="#Bb" n="37"/>plementum, sed etiam immobilitas et
+<lb ed="#Bb" n="38"/>delectatio magis in quiete est. Quartum
+<lb ed="#Bb" n="39"/>autem et ultimum est, quod voluntas
+<lb ed="#Bb" n="40"/>etiam est causa omnium quae fiunt ut ab
+<lb ed="#Bb" n="41"/>artifice. Dicit enim Philosophus in VI
+<lb ed="#Bb" n="42"/>prime philosophiae,  quod. omniam 
+arti<lb break="no" ed="#Bb" n="43"/>ficialium principium est voluntas : Deus
+<lb ed="#Bb" n="44"/>autem operatur per modum artificis, et
+<lb ed="#Bb" n="45"/>per modum necessitatis nature.
+</p>
+            <p xml:id="alalal-c75945-d1e418">
+               <lb ed="#Bb" n="46"/>Quop erco primo objicit de voluntate,
+<lb ed="#Bb" n="47"/>dicendum quod hoc verum est in natura
+<lb ed="#Bb" n="48"/>indigente : quoniam sicut dicit 
+Aristote<lb break="no" ed="#Bb" n="49"/>les in VIII Ethicorwm, sicut in Deo im-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="50"/>mobilitas est voluptuosa, ita in natura
+<lb ed="#Bb" n="51"/>indigente motus propter malitiam 
+indi<lb break="no" ed="#Bb" n="52"/>gentia : sed Deus quiescit in aeterno 
+bo<lb break="no" ed="#Bb" n="53"/>no, quod totum est intra ipsum. Et sunt
+<lb ed="#Bb" n="54"/>haec verba: <quote xml:id="alalal-c75945-Qd1e441"> Transmutatio est omnium
+<lb ed="#Bb" n="55"/>dulcissimum secundum Poetam 
+Home<lb break="no" ed="#Bb" n="56"/>rum, proptermalitiam quamdam : 
+quem<lb break="no" ed="#Bb" n="57"/>admodum homo facile transmutabilis,
+<lb ed="#Bb" n="58"/>qui malitiosus est, et natura quae indiget
+<lb ed="#Bb" n="59"/>transmutatione, non enim est simplex
+<lb ed="#Bb" n="60"/>neque modesta. </quote>
+            </p>
+            <p xml:id="alalal-c75945-d1e459">
+               <lb ed="#Bb" n="61"/>Per hoc etiam patet solutio ad tria se-4
+<lb ed="#Bb" n="62"/>quentia.
+</p>
+            <p xml:id="alalal-c75945-d1e466">
+               <lb ed="#Bb" n="63"/>Ad unrimum dicendum, quod hoc non
+<lb ed="#Bb" n="64"/>est de nobilitate voluntatis, quod potest
+<lb ed="#Bb" n="65"/>in malum, quia hoc non est posse : sed
+<lb ed="#Bb" n="66"/>consequitur voluntatem creatam non 
+con<lb break="no" ed="#Bb" n="67"/>firmatam ex defectu, quia fluxit im esse
+<lb ed="#Bb" n="68"/>post non esse : sed quod potest in 
+oppo<lb break="no" ed="#Bb" n="69"/>sita contradictorie, scilicet quod potest
+<lb ed="#Bb" n="70"/>hoc, et potest cessare ab ipso, et potest
+<lb ed="#Bb" n="71"/>aliud : ista enim potestas ostendit ipsam
+<lb ed="#Bb" n="72"/>voluntatem nulli esse obligatam : et hoc
+<lb ed="#Bb" n="73"/>bene habet in Deo esse, qui non obliga.
+<lb ed="#Bb" n="74"/>tur ad aliquid.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

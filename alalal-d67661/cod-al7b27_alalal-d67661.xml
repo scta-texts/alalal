@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="375"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d67661"><!-- l2d22a3 -->
+            <head xml:id="alalal-d67661-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-d67661-Hd1e101" type="question-title">An peccatum <name xml:id="alalal-d67661-Nd1e103">Heve</name> fuerit peccatum in</head>
+            <p xml:id="alalal-d67661-d1e106">
+               <lb ed="#Bc" n="29"/>ARTICULUS III.
+<lb ed="#Bc" n="30"/>An peccatum <name xml:id="alalal-d67661-Nd1e112">Heve</name> fuerit peccatum in
+</p>
+            <p xml:id="alalal-d67661-d1e115">
+               <lb ed="#Bc" n="31"/>Spiritum sanctum, aut in Patrem,
+<lb ed="#Bc" n="32"/>aut in Filium ?
+</p>
+            <p xml:id="alalal-d67661-d1e122">
+               <lb ed="#Bc" n="33"/>Tertio queritur, Utrum hoc peccatum
+<lb ed="#Bc" n="34"/>sit peccatum in Spiritum sanctum ?
+</p>
+            <p xml:id="alalal-d67661-d1e130">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="35"/>Videtur enim, quod sic: quia non
+<lb ed="#Bc" n="36"/>habuit tunc infirmitatem, nec 
+ignoran<lb break="no" ed="#Bc" n="37"/>tiam, quae sunt poene peccati: ergo
+<lb ed="#Bc" n="38"/>oportuit, quod peccavit ex malitia : hoc
+<lb ed="#Bc" n="39"/>autem est peccatum in Spiritum 
+san<lb break="no" ed="#Bc" n="40"/>ctum : ergo peccavit in Spiritum 
+san<lb break="no" ed="#Bc" n="41"/>cium.
+</p>
+            <p xml:id="alalal-d67661-d1e150">
+               <lb ed="#Bc" n="42"/>SED CONTRA :
+<lb ed="#Bc" n="43"/>1. Infra allegabit mulier, Serpens 
+de<lb break="no" ed="#Bc" n="44"/>cepit me: ergo prodiit ex ignorantia :
+<lb ed="#Bc" n="45"/>ergo est peccatum in Filium.
+</p>
+            <p xml:id="alalal-d67661-d1e161">
+               <lb ed="#Bc" n="46"/>2. Item, Apostolus dicit, I ad Timoth.
+<lb ed="#Bc" n="47"/>u, 14: Adam non est seductus, mulier
+<lb ed="#Bc" n="48"/>autem seducta in prevaricatione fuit :
+<lb ed="#Bc" n="49"/>Ergo seducta fuit : ergo ex ignorantia
+<lb ed="#Bc" n="50"/>peccavit : ergo in Filium, et non in 
+Spi<lb break="no" ed="#Bc" n="51"/>ritum sanctum.
+</p>
+            <p xml:id="alalal-d67661-d1e177">
+               <lb ed="#Bc" n="52"/>Solutio. Hoc non est magna 
+dubita<lb break="no" ed="#Bc" n="53"/>tione dignum. Dicendum enim, quod in
+<lb ed="#Bc" n="54"/>Filium peccavit, sicut Magister infra 
+ob<lb break="no" ed="#Bc" n="55"/>jiciendo ex verbis Isidori dicit mulierem
+<lb ed="#Bc" n="56"/>ex ignorantia peccasse : sed ignorantia
+<lb ed="#Bc" n="57"/>est duplex, scilicet poena peccati, et ex
+<lb ed="#Bc" n="58"/>illa non peccavit : et est ignorantia, 
+ne<lb break="no" ed="#Bc" n="59"/>scientia agendorum, ut in quo sensu
+<lb ed="#Bc" n="60"/>verba Domini dicta fuerint: et ex tali
+<lb ed="#Bc" n="61"/>processit peccatum ejus, et ideo fuit in
+<lb ed="#Bc" n="62"/>Filiam.
+</p>
+            <p xml:id="alalal-d67661-d1e203">
+               <lb ed="#Bc" n="63"/>Non enim ignoravit tantum secundum
+<lb ed="#Bc" n="64"/>quod omnis malus dicitur ignorans, sed
+<lb ed="#Bc" n="65"/>etiam ignoravit sensum verbi Domini :
+<lb ed="#Bc" n="66"/>que ignorantia occasio fuit peccati : et
+<lb ed="#Bc" n="67"/>Adam etiam ignoravit quod esset 
+mor<lb break="no" ed="#Bc" n="68"/>tale, quod putabat esse veniale: et ideo
+<lb ed="#Bc" n="69"/>ipse etiam peccavit in Filium: et per hoc
+<lb ed="#Bc" n="70"/>patet solutio ad objectum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

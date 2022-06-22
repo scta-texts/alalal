@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="567"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d97059"><!-- l2d35a4 -->
+            <head xml:id="alalal-d97059-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-d97059-Hd1e101" type="question-title">Utrum mala voluntas tantum sit 
+peccatum et non exteriores actus, aut 
+volunias et exteriores actus simul? et,
+An sit dicendum, quod omnes actus
+sunt boni et a Deo auctore ?</head>
+            <p xml:id="alalal-d97059-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="17"/>ARTICULUS IV.
+<lb ed="#Bc" n="18"/>Utrum mala voluntas tantum sit 
+pec<lb break="no" ed="#Bc" n="19"/>catum et non exteriores actus, aut 
+vo<lb break="no" ed="#Bc" n="20"/>lunias et exteriores actus simul? et,
+<lb ed="#Bc" n="21"/>An sit dicendum, quod omnes actus
+<lb ed="#Bc" n="22"/>sunt boni et a Deo auctore ?
+</p>
+            <p xml:id="alalal-d97059-d1e122">
+               <lb ed="#Bc" n="23"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="24"/>ibi, B,<quote xml:id="alalal-d97059-Qd1e128"> Quocirca diversitatis hujus,
+<lb ed="#Bc" n="25"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-d97059-d1e134">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="26"/>Queritur enim, Quae sit ratio 
+diversi<lb break="no" ed="#Bc" n="27"/>tatis harum opinionum ?
+</p>
+            <p xml:id="alalal-d97059-d1e144">
+               <lb ed="#Bc" n="28"/>Et ad hoc dicendum, quod prima 
+opi<lb break="no" ed="#Bc" n="29"/>nio detérminat de peccato secundum
+<lb ed="#Bc" n="30"/>causam peccati: et quia haec est prima
+<lb ed="#Bc" n="31"/>voluntas actualis interior, ideo dicebat
+<lb ed="#Bc" n="32"/>voluntatem tantum esse peccatum.
+</p>
+            <p xml:id="alalal-d97059-d1e157">
+               <lb ed="#Bc" n="33"/>Secunda autem consideravit peccatum
+<lb ed="#Bc" n="34"/>vel malum secundum rationem subjecti,
+<lb ed="#Bc" n="35"/>et ex parte actus: et quia malitia 
+funda<lb break="no" ed="#Bc" n="36"/>tur tam in actu interiori quam exteriori,
+<lb ed="#Bc" n="37"/>ideo dixerunt tam interiores actus quam
+<lb ed="#Bc" n="38"/>exteriores peccatum esse.
+</p>
+            <p xml:id="alalal-d97059-d1e173">
+               <lb ed="#Bc" n="39"/>Tertia autem opinio consideravit. ma-
+<pb ed="#Bc" n="568"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>lum secundum rationem mali vel 
+pec<lb break="no" ed="#Bc" n="2"/>cati: et quia illa tota consistit in -
+priva<lb break="no" ed="#Bc" n="3"/>tione, ideo dicunt peccatum omnino
+<lb ed="#Bc" n="4"/>nihil esse.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

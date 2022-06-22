@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="476"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d83792"><!-- l2d27dt -->
+            <head xml:id="alalal-d83792-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-d83792-d1e101">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="22"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-d83792-d1e108">
+               <lb ed="#Bc" n="23"/>
+               <quote xml:id="alalal-d83792-Qd1e112"> Hic videndum est quid sit virtus, 
+<lb ed="#Bc" n="24"/>etc. </quote>
+               <lb ed="#Bc" n="25"/>In hac parte Magister agit de virtute
+<cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="26"/>dupliciter :. et ideo habet duas distin
+<lb ed="#Bc" n="27"/>ctiones : quia in ista determinat quid est.
+<lb ed="#Bc" n="28"/>virtus, et quod virtus non est motus vel
+<lb ed="#Bc" n="29"/>usus virtutis, nisi loquendo per causam.
+<lb ed="#Bc" n="30"/>In sequenti autem tangit qualiter liberi.
+<lb ed="#Bc" n="31"/>arbitrii potestas se habet ad gratiam et 
+<lb ed="#Bc" n="32"/>virtutem, ibi, scilicet distinct. XX XIII,
+<lb ed="#Bc" n="33"/>A, <quote xml:id="alalal-d83792-Qd1e139"> Id vero inconcusse, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

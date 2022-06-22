@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="600"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b16026"><!-- l1d23a7 -->
+            <head xml:id="alalal-b16026-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-b16026-Hd1e101" type="question-title">An in divinis sint tres hypostases et una
+Usra.</head>
+            <p xml:id="alalal-b16026-d1e104">
+               <pb ed="#Ba" n="600"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ARTICULUS VII.
+<lb ed="#Ba" n="2"/>An in divinis sint tres hypostases et una
+<lb ed="#Ba" n="3"/>Usra.
+</p>
+            <p xml:id="alalal-b16026-d1e117">
+               <lb ed="#Ba" n="4"/>Deinde quaeritur de hoc quod dicit
+<lb ed="#Ba" n="5"/>
+               <quote xml:id="alalal-b16026-Qd1e123"> Tres hypostases unam usiam, etc. </quote>
+            </p>
+            <p xml:id="alalal-b16026-d1e126">
+               <lb ed="#Ba" n="6"/>1. Hypostasis enim idem est quod 
+sub<lb break="no" ed="#Ba" n="7"/>stantia substantia autem non sunt
+<lb ed="#Ba" n="8"/>tres.
+</p>
+            <p xml:id="alalal-b16026-d1e136">
+               <lb ed="#Ba" n="9"/>2. Praeterea, Contrarietas videtur in
+<lb ed="#Ba" n="10"/>Littera infra',ubi Hieronymus dicit, quod
+<lb ed="#Ba" n="11"/>non bonae suspicionis esthoc nomen 
+hy<lb break="no" ed="#Ba" n="12"/>postasis.
+</p>
+            <p xml:id="alalal-b16026-d1e147">
+               <lb ed="#Ba" n="13"/>3. Praeterea, In quo differt hypostasis
+<lb ed="#Ba" n="14"/>a persona? Si enim dicas, quod 
+hyposta<lb break="no" ed="#Ba" n="15"/>sis dicit distinguibile non distinctum
+<lb ed="#Ba" n="16"/>hoc nihil est, quia in divinis idem est
+<lb ed="#Ba" n="17"/>esse et posse, Praeterea, In divinis 
+poten<lb break="no" ed="#Ba" n="18"/>tia idem est quod actus. Item, Boetvus
+<lb ed="#Ba" n="19"/>expresse dicit, quod Greci non vocant
+<lb ed="#Ba" n="20"/>indéoracw, Hisi individuum rationalis 
+na<lb break="no" ed="#Ba" n="21"/>ture : ergo nulla est differentia, ut 
+vi<lb break="no" ed="#Ba" n="22"/>detur.
+</p>
+            <p xml:id="alalal-b16026-d1e171">
+               <lb ed="#Ba" n="23"/>4. Item, Cum hypostasis idem sonet
+<lb ed="#Ba" n="24"/>quod substantia apud nos, et Deus dicat
+<lb ed="#Ba" n="25"/>naturam et substantiam et non ut 
+essen<lb break="no" ed="#Ba" n="26"/>tiam, dicit enm Damascenus, quod 
+di<lb break="no" ed="#Ba" n="27"/>cit habentem deitatem : quare non 
+dici<lb break="no" ed="#Ba" n="28"/>mus tres deos, sicut tres hypostases et
+<lb ed="#Ba" n="29"/>tres substantias ? Anselmus enim in 
+ca<lb break="no" ed="#Ba" n="30"/>pite penultimo Monologii, et Augustinus
+<lb ed="#Ba" n="31"/>in fine libri VIII de Trinitate, et habetur
+<lb ed="#Ba" n="32"/>in Zottera, concedit tres posse dici 
+sub<lb break="no" ed="#Ba" n="33"/>stantias, dummodo sane _ intelligatur.
+<lb ed="#Ba" n="34"/>Ergo videtur, quod magis possumus
+<lb ed="#Ba" n="35"/>dicere tres deos, cum Deus sit nomen
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="36"/>operationis, ut dicit Damascenus, et
+<lb ed="#Ba" n="37"/>operatio Dei non repugnet pluralitati.
+</p>
+            <p xml:id="alalal-b16026-d1e208">
+               <lb ed="#Ba" n="38"/>Solutio. Dicendum, quod in veritate
+<lb ed="#Ba" n="39"/>apud Grecos hoc nomen sxécrzae aliud
+<lb ed="#Ba" n="40"/>habet a modo significandi, et aliud ab
+<lb ed="#Ba" n="41"/>usu : a modo enim significandi (quia
+<lb ed="#Ba" n="42"/>imponitur ab actu substandi) habet quod
+<lb ed="#Ba" n="43"/>pro substantia prima ponitur, hoc est,
+<lb ed="#Ba" n="44"/>pro individuo primi praedicamenti. Apud
+<lb ed="#Ba" n="45"/>nos autem est dubie significationis 
+sub<lb break="no" ed="#Ba" n="46"/>stantia, ut prius habitum est : et ideo
+<lb ed="#Ba" n="47"/>non ulimur substantia, sicut illi 
+hypo<lb break="no" ed="#Ba" n="48"/>stast. Ab usu autem Gracorum habet,
+<lb ed="#Ba" n="49"/>quod non ponitur nisi pro singulari 
+na<lb break="no" ed="#Ba" n="50"/>ture rationalis : et hoc modo iterum non
+<lb ed="#Ba" n="51"/>habet usus noster: hujus tamen usus
+<lb ed="#Ba" n="52"/>ratio supra assignata est: et per hoc 
+pa<lb break="no" ed="#Ba" n="53"/>tet solutio ad primum.
+</p>
+            <p xml:id="alalal-b16026-d1e245">
+               <lb ed="#Ba" n="54"/>Ad aliud dicendum, quod in primis
+<lb ed="#Ba" n="55"/>temporibus antequam  determinaretur
+<lb ed="#Ba" n="56"/>significatio ejus a Patribus Catholicis,
+<lb ed="#Ba" n="57"/>non erat bonw suspicionis : sed postea
+<lb ed="#Ba" n="58"/>determinatum est.
+</p>
+            <p xml:id="alalal-b16026-d1e258">
+               <lb ed="#Ba" n="59"/>Ad aliud dicendum, quod hypostasis
+<lb ed="#Ba" n="60"/>elsi dicat distinctum, secundum usum
+<lb ed="#Ba" n="61"/>Grecorum, non tamen dicit rationem
+<lb ed="#Ba" n="62"/>distinctionis in ipso nomine, et hance 
+ra<lb break="no" ed="#Ba" n="63"/>tionem exprimit persona.
+</p>
+            <p xml:id="alalal-b16026-d1e272">
+               <lb ed="#Ba" n="64"/>Ad aliud dicendum, quod Deus licet
+<lb ed="#Ba" n="65"/>imponatur ab operatione, non tamen 
+im<lb break="no" ed="#Ba" n="66"/>ponitur operationi, sed nature : sed
+<lb ed="#Ba" n="67"/>etiam operatio illa a qua imponitur,
+<lb ed="#Ba" n="68"/>non est communicabilis : a tribus enim
+<lb ed="#Ba" n="69"/>operantibus virtute unius essentiae# 
+ope<lb break="no" ed="#Ba" n="70"/>ratio non recipit pluralitatem in 
+sub<lb break="no" ed="#Ba" n="71"/>stantia operationis, sed forte in modo
+<lb ed="#Ba" n="72"/>consignificandi, ut cum dicitur : 
+Facia<lb break="no" ed="#Ba" n="73"/>mus hominem ad imaginem et 
+simili<lb break="no" ed="#Ba" n="74"/>tudinem nostram ?.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

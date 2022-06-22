@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="341"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d61653"><!-- l2d20a1 -->
+            <head xml:id="alalal-d61653-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-d61653-Hd1e101" type="question-title">An primi parentes etiam per 
+commixttonem genuissent in statu innocentiae ?</head>
+            <p xml:id="alalal-d61653-d1e104">
+               <lb ed="#Bc" n="22"/>ARTICULUS I.
+<lb ed="#Bc" n="23"/>An primi parentes etiam per 
+commixtto<lb break="no" ed="#Bc" n="24"/>nem genuissent in statu innocentiae ?
+</p>
+            <p xml:id="alalal-d61653-d1e113">
+               <lb ed="#Bc" n="25"/>Circa primum sunt quingue dubia,
+<lb ed="#Bc" n="26"/>scilicet, Utrum per commixtionem 
+ge<lb break="no" ed="#Bc" n="27"/>nuissent ?
+<lb ed="#Bc" n="28"/>Secundo, Utrum in commixtione 
+ali<lb break="no" ed="#Bc" n="29"/>qua concupiscentia verecunda fuisset ?
+<cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="30"/>Tertio, Utrum genuissent manente vel
+<lb ed="#Bc" n="31"/>corrupta virginitate ?
+<lb ed="#Bc" n="32"/>Quarto, Utrum alia de causa quam
+<lb ed="#Bc" n="33"/>spe prolis convenissent ?
+<lb ed="#Bc" n="34"/>Quinto, Utrum aliqua resclutio 
+super<lb break="no" ed="#Bc" n="35"/>fluitatum foedarum in eis fuisset ?
+</p>
+            <p xml:id="alalal-d61653-d1e142">
+               <lb ed="#Bc" n="36"/>Et de omnibus his parvum est 
+du<lb break="no" ed="#Bc" n="37"/>bium.,
+</p>
+            <p xml:id="alalal-d61653-d1e150">
+               <lb ed="#Bc" n="38"/>Ad primum sic objicitur :
+<lb ed="#Bc" n="39"/>1. Dicit Augustinus in libro de Bono
+<lb ed="#Bc" n="40"/>conjugali, quod <quote xml:id="alalal-d61653-Qd1e158"> nuptie bonum 
+mor<lb break="no" ed="#Bc" n="41"/>talilum sunt: </quote> ergo videtur, quod 
+ma<lb break="no" ed="#Bc" n="42"/>nente prima immortalitate, non 
+com<lb break="no" ed="#Bc" n="43"/>mixti fuissent carnaliter.
+</p>
+            <p xml:id="alalal-d61653-d1e169">
+               <lb ed="#Bc" n="44"/>2. Item, Damascenus dicit, <quote xml:id="alalal-d61653-Qd1e173"> Si non
+<lb ed="#Bc" n="45"/>peccassent, Deus alio modo genus 
+hu<lb break="no" ed="#Bc" n="46"/>manum multiplicasset quam per coitum :</quote>
+               <lb ed="#Bc" n="47"/>ergo non convenissent.
+</p>
+            <p xml:id="alalal-d61653-d1e183">
+               <lb ed="#Bc" n="48"/>3. Item, Generatio respective 
+opponi<lb break="no" ed="#Bc" n="49"/>tur corruptioni in eadem natura : ergo si
+<lb ed="#Bc" n="50"/>non fuisset corruptio, non fuisset talis
+<lb ed="#Bc" n="51"/>generatio.
+</p>
+            <p xml:id="alalal-d61653-d1e194">
+               <lb ed="#Bc" n="52"/>4, Item, Generatio est ad salvandum
+<lb ed="#Bc" n="53"/>idem in specie quod non potest manere
+<lb ed="#Bc" n="54"/>in individuo: sed dato quod non peceas—
+<lb ed="#Bc" n="55"/>sent, mansissent in individuo semper :
+<lb ed="#Bc" n="56"/>ergo non fuisset eis generatio per 
+com<lb break="no" ed="#Bc" n="57"/>mixtionem.
+</p>
+            <p xml:id="alalal-d61653-d1e210">
+               <lb ed="#Bc" n="58"/>5. Item, Generatio est ex superfiuo
+<lb ed="#Bc" n="59"/>nutrimenti : si autem non peccassent,
+<lb ed="#Bc" n="60"/>nihil fuisset in eis superfluum: ergo non
+<lb ed="#Bc" n="61"/>genuissent.
+</p>
+            <p xml:id="alalal-d61653-d1e221">
+               <lb ed="#Bc" n="62"/>6. Item, Non fit decisio nisi a corpore:
+<lb ed="#Bc" n="63"/>quod autem aliquid amittere potest, est
+<lb ed="#Bc" n="64"/>corruptibile: ergo non potest fleri gene-
+<pb ed="#Bc" n="342"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ratio nisi a corpore mortali: ergo si non
+<lb ed="#Bc" n="2"/>essent mortales, non genuissent per 
+de<lb break="no" ed="#Bc" n="3"/>cisionem a corpore generantis factam :
+<lb ed="#Bc" n="4"/>ergo nec per commixtionem carnalem
+<lb ed="#Bc" n="5"/>naturalem.
+</p>
+            <p xml:id="alalal-d61653-d1e246">
+               <lb ed="#Bc" n="6"/>Sed contra hoc:
+<lb ed="#Bc" n="7"/>1. Est quod dicitur in Litera.
+</p>
+            <p xml:id="alalal-d61653-d1e253">
+               <lb ed="#Bc" n="8"/>2. Item, Deus formavit in eis sexum:
+<lb ed="#Bc" n="9"/>sexus autem diffinitur, quod masculus
+<lb ed="#Bc" n="10"/>est generans in alio sui generis ex 
+semi<lb break="no" ed="#Bc" n="11"/>ne suo, femina autem generans in se ex
+<lb ed="#Bc" n="12"/>alio sui generis : ergo aut sexus esset 
+su<lb break="no" ed="#Bc" n="13"/>perfluus, aut genuissent in paradiso.
+</p>
+            <p xml:id="alalal-d61653-d1e269">
+               <lb ed="#Bc" n="14"/>Soerutio. Absque dubio verum est 
+di<lb break="no" ed="#Bc" n="15"/>cere, quod non genuissent nisi commixti
+<lb ed="#Bc" n="16"/>fuissent : famen quidam dicunt quod si
+<lb ed="#Bc" n="17"/>non peccassent, fuisset multiplicatio 
+ge<lb break="no" ed="#Bc" n="18"/>neris humani, sicut formata fuit Heva de
+<lb ed="#Bc" n="19"/>costa: et quod Deus presciens ensum -
+<lb ed="#Bc" n="20"/>formavit in eis sexum : et ideo non 
+for<lb break="no" ed="#Bc" n="21"/>mavit in eis tantum quod competebat
+<lb ed="#Bc" n="22"/>primo statui, sed etiam quod competebat
+<lb ed="#Bc" n="23"/>secundo. Sed haec fabula est, cum dicat
+<lb ed="#Bc" n="24"/>Scriptura, Faciamus adjutorium simile
+<lb ed="#Bc" n="25"/>sibt' : et non posset dici adjutorium viri
+<lb ed="#Bc" n="26"/>mulier nisi ad generationem.
+</p>
+            <p xml:id="alalal-d61653-d1e300">
+               <lb ed="#Bc" n="27"/>Dicenpum ergo ad primum, quod 
+pri<lb break="no" ed="#Bc" n="28"/>mus homo fuit mortalis per naturam
+<lb ed="#Bc" n="29"/>principiorum ex quibus compositus erat,
+<lb ed="#Bc" n="30"/>sed immortalis per gratiam innocentia,
+<lb ed="#Bc" n="31"/>sicut habitum est: et ideo cum coitus sit
+<lb ed="#Bc" n="32"/>actus nature, ipse per coitum genuis—
+</p>
+            <p xml:id="alalal-d61653-d1e316">
+               <lb ed="#Bc" n="33"/>Ad aliud dicendum, quod alius modus
+<lb ed="#Bc" n="34"/>potest referri ad concupiscentiam 
+conjun<lb break="no" ed="#Bc" n="35"/>clam actui et infirmitatis foeditatem : et
+<lb ed="#Bc" n="36"/>sic verum est dictum Damasceni. Potest
+<lb ed="#Bc" n="37"/>etiam referri ad actum commixtionis : et
+<lb ed="#Bc" n="38"/>sic falsum est.
+</p>
+            <p xml:id="alalal-d61653-d1e332">
+               <lb ed="#Bc" n="39"/>Ad aliud dicendum, quod quidem non
+<lb ed="#Bc" n="40"/>Opponuntur relative generatum et 
+cor<lb break="no" ed="#Bc" n="41"/>ruptum, vel generabile et corruptibile :
+<lb ed="#Bc" n="42"/>sed concomitantur se, scilicet hoc modo
+<lb ed="#Bc" n="43"/>quod si inest unum, inest et alterum :
+<lb ed="#Bc" n="44"/>quia generabile per naturam est 
+corru<lb break="no" ed="#Bc" n="45"/>ptibile per naturam : et hoc bene conce-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="46"/>ditur de primo homine, ut habituy
+<lb ed="#Bc" n="47"/>est. ,
+</p>
+            <p xml:id="alalal-d61653-d1e357">
+               <lb ed="#Bc" n="48"/>Ad aliud dicendum, quod hoc referen.
+<lb ed="#Bc" n="49"/>dum est ad naturam, et non ad statum
+<lb ed="#Bc" n="50"/>gratin.
+</p>
+            <p xml:id="alalal-d61653-d1e366">
+               <lb ed="#Bc" n="51"/>Ad aliud dicendum, quod decisio fujs.
+<lb ed="#Bc" n="52"/>set et superfluum : sed talis decisio g&amp;
+<lb ed="#Bc" n="53"/>superfluum non induxissent 
+corruptio<lb break="no" ed="#Bc" n="54"/>nem, prohibente gratia et esu ligni vite:
+<lb ed="#Bc" n="55"/>et hoc physice loquendo esset per 
+acej<lb break="no" ed="#Bc" n="56"/>dens: unde ille argumentationes nihj]
+<lb ed="#Bc" n="57"/>cogunt,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

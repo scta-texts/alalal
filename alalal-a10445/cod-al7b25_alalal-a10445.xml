@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="54"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a10445"><!-- l1d2dt1 -->
+            <head xml:id="alalal-a10445-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a10445-d1e101">
+               <pb ed="#Ba" n="54"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-a10445-d1e110">
+               <lb ed="#Ba" n="2"/>
+               <quote xml:id="alalal-a10445-Qd1e114"> Hoc itaque vera ac pia fide, etc. </quote>
+               <lb ed="#Ba" n="3"/>Hic incipit Magister tractatum hujus
+<lb ed="#Ba" n="4"/>doctrinae finita parte procemiali, in qua
+<lb ed="#Ba" n="5"/>investigavit de quo agendum est.
+</p>
+            <p xml:id="alalal-a10445-d1e123">
+               <lb ed="#Ba" n="6"/>Et dividitur secundum rationem 
+sub<lb break="no" ed="#Ba" n="7"/>jecti hujus scientia in partes duas, 
+scili<lb break="no" ed="#Ba" n="8"/>cet in tractatum de rebus, et tractatum de
+<lb ed="#Ba" n="9"/>signis. Tractatus de rebus continet tres
+<lb ed="#Ba" n="10"/>libros antecedentes : tractatus autem de
+<lb ed="#Ba" n="11"/>signis obtinet quartum.
+</p>
+            <p xml:id="alalal-a10445-d1e139">
+               <lb ed="#Ba" n="12"/>Tractatus autem de rebus habet 
+divi<lb break="no" ed="#Ba" n="13"/>sionem secundum rationem rerum 
+illa<lb break="no" ed="#Ba" n="14"/>rum secundum quam veniunt in 
+specu<lb break="no" ed="#Ba" n="15"/>lationem Theologi. Sunt enim res quibus
+<lb ed="#Ba" n="16"/>fruendum est sive beatificantes, de quibus
+<lb ed="#Ba" n="17"/>agitur in primo hbro. Et sunt res quibus
+<lb ed="#Ba" n="18"/>utendum est, sub quibus etiam 
+conlinen<lb break="no" ed="#Ba" n="19"/>tur res quae fruuntur et utuntur : et ille
+<lb ed="#Ba" n="20"/>dilectione usus sunt diligende, sicut 
+pro<lb break="no" ed="#Ba" n="21"/>batum est in distinctione praecedenti : et
+<lb ed="#Ba" n="22"/>de illis agitur in secundo libro. Sunt
+<lb ed="#Ba" n="23"/>etiam res ordinantes fruentem ad fruibile,
+<lb ed="#Ba" n="24"/>quibus secundum aliquid sui fruendum
+<lb ed="#Ba" n="25"/>est, et secundum aliquid utendum : et de
+<lb ed="#Ba" n="26"/>illis agitur in tertio.
+</p>
+            <p xml:id="alalal-a10445-d1e175">
+               <lb ed="#Ba" n="27"/>Primus liber dividitur in duas partes :
+<lb ed="#Ba" n="28"/>in quarum prima tangit Auctor modum
+<lb ed="#Ba" n="29"/>possibilem nobis deveniendi in 
+cognitio<lb break="no" ed="#Ba" n="30"/>nem eorum quibus fruendum est, que
+<lb ed="#Ba" n="31"/>sunt Pater, et Filius, et Spiritus sanctus.
+<lb ed="#Ba" n="32"/>In secunda autem ponit tractatum de
+<lb ed="#Ba" n="33"/>illis, scilicet in quarta distinctione, 
+in<lb break="no" ed="#Ba" n="34"/>fra, ibi, <quote xml:id="alalal-a10445-Qd1e194"> Hie oritur questio satis 
+neces<lb break="no" ed="#Ba" n="35"/>saria, etc. </quote>
+            </p>
+            <p xml:id="alalal-a10445-d1e200">
+               <lb ed="#Ba" n="36"/>Si autem quaeritur, Quare non in aliis
+<lb ed="#Ba" n="37"/>libris tangitur primus modus deveniendi
+<lb ed="#Ba" n="38"/>in scientiam ipsorum, sicut hic? 
+Dicen<lb break="no" ed="#Ba" n="39"/>dum. quod hoc contingit propter 
+difticul<lb break="no" ed="#Ba" n="40"/>tatem hujus materie, quae licet sit summa
+<lb ed="#Ba" n="41"/>lux et manifestissima, nobis tamen 
+pro<lb break="no" ed="#Ba" n="42"/>pter imperfectionem nostri occult est 
+oc<lb break="no" ed="#Ba" n="43"/>culta. Unde, Psal.cxxxvi, 6: Adirabilis
+<lb ed="#Ba" n="44"/>facta est scientia tua ex me: confortata
+<lb ed="#Ba" n="45"/>est, etc. Et, in I Metaphysice : Sicut est
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="46"/>dispositio oculorum vespertilionum ad
+<lb ed="#Ba" n="47"/>lumen solis, ita est disposilio nostri 
+in<lb break="no" ed="#Ba" n="48"/>tellectus ad manifestissima nature.
+</p>
+            <p xml:id="alalal-a10445-d1e233">
+               <lb ed="#Ba" n="49"/>Prima autem harum partium continet 
+<lb ed="#Ba" n="50"/>quatuor partes. In omni enim via 
+ve<lb break="no" ed="#Ba" n="51"/>niendi in cognitionem alicujus difficilis 
+<lb ed="#Ba" n="52"/>exiguntur quatuor : scilicet, ut sciatur 
+<lb ed="#Ba" n="53"/>quid supponendum est: quia nisi 
+suppo<lb break="no" ed="#Ba" n="54"/>sitis principiis scientiae, non acquiritur
+<lb ed="#Ba" n="55"/>scientia : et hoc tangit in primo capitulo.
+<lb ed="#Ba" n="56"/>Secundo, requiritur precognitio 
+intentio<lb break="no" ed="#Ba" n="57"/>nis : quia ignoto fine ignoratur 
+conse<lb break="no" ed="#Ba" n="58"/>cutio finis, et erit inquisitio incerta et
+<lb ed="#Ba" n="59"/>vaga: et hoc facit Magister in secundo
+<lb ed="#Ba" n="60"/>capitulo, ibi, B, <quote xml:id="alalal-a10445-Qd1e261"> Omnes autem 
+Catho<lb break="no" ed="#Ba" n="61"/>lict tractatores, etc. </quote> Tertium quod 
+re<lb break="no" ed="#Ba" n="62"/>quitur est ordo, sicut dicit Philosophus
+<lb ed="#Ba" n="63"/>in LV prime Philosophiae : Initium 
+scien<lb break="no" ed="#Ba" n="64"/>tia non semper esta prioribus secundum
+<lb ed="#Ba" n="65"/>rem, sed quandoque a facilioribus au~
+<lb ed="#Ba" n="66"/>dienti, per quae est levior instructio:
+<lb ed="#Ba" n="67"/>quandoque autem e converso, et hunc
+<lb ed="#Ba" n="68"/>ordinem procedendi tangit Magister in
+<lb ed="#Ba" n="69"/>secundo capitulo, ibi, G, <quote xml:id="alalal-a10445-Qd1e283"> Ceterum, ut
+<lb ed="#Ba" n="70"/>in libro primo, etc. </quote> Quartum et 
+ulti<lb break="no" ed="#Ba" n="71"/>mum est processus investigationis quo
+<lb ed="#Ba" n="72"/>acquiritur scientia, et hunc ponit 
+Magi<lb break="no" ed="#Ba" n="73"/>ster in quarto capitulo, usque ad 
+princi<lb ed="#Ba" n="74" break="no"/>pium quarte distinctionis, ibi, D, <quote xml:id="alalal-a10445-Qd1e297"> 
+Pro<lb break="no" ed="#Ba" n="75"/>ponamus ergo in medium, etc, </quote>
+            </p>
+            <p xml:id="alalal-a10445-d1e303">
+               <lb ed="#Ba" n="76"/>Primi ergo capituli sententia est dare
+<lb ed="#Ba" n="77"/>nobis suppositiones quas tenere debemus,
+<lb ed="#Ba" n="78"/>et ex quibus ut principiis procedere pos~
+<lb ed="#Ba" n="79"/>suinus im tota scientia istius primi libri.
+</p>
+            <p xml:id="alalal-a10445-d1e314">
+               <lb ed="#Ba" n="80"/>Et Littera facilis est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

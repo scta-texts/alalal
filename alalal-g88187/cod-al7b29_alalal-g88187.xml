@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="425"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g88187"><!-- l4d14a12 -->
+            <head xml:id="alalal-g88187-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-g88187-Hd1e101" type="question-title">An diffintiio poenitentiae sit bene 
+assignata ab Ambrosio ?</head>
+            <p xml:id="alalal-g88187-d1e104">
+               <lb ed="#Be" n="8"/>ARTICULUS XII.
+<lb ed="#Be" n="9"/>An diffintiio poenitentiae sit bene 
+assigna<lb break="no" ed="#Be" n="10"/>ta ab Ambrosio ?
+</p>
+            <p xml:id="alalal-g88187-d1e113">
+               <lb ed="#Be" n="11"/>Deinde queritur de hoc quod dicitur,
+<lb ed="#Be" n="12"/>ibi, A,§ 3: <quote xml:id="alalal-g88187-Qd1e119"> Est enim poenitentia, ut
+<lb ed="#Be" n="13"/>ait Ambrostus, mala preterita 
+plange<lb break="no" ed="#Be" n="14"/>ve, etc. </quote>
+            </p>
+            <p xml:id="alalal-g88187-d1e127">
+               <lb ed="#Be" n="15"/>Objicitur enim contra hance 
+diffinitio<lb break="no" ed="#Be" n="16"/>nem: quia
+</p>
+            <p xml:id="alalal-g88187-d1e135">
+               <lb ed="#Be" n="17"/>1. Sicut dicit Philosophus in VI 
+Topi<lb break="no" ed="#Be" n="18"/>corum, peccant qui ponunt in 
+diffinitie<lb break="no" ed="#Be" n="19"/>ne habitus actum, ut genus : sed 
+plan<lb break="no" ed="#Be" n="20"/>gere preterila mala est actus : ergo non
+<lb ed="#Be" n="21"/>cadit in diflinitione poenitentiae quae est
+<lb ed="#Be" n="22"/>habitus.
+</p>
+            <p xml:id="alalal-g88187-d1e151">
+               <lb ed="#Be" n="23"/>2. Item, Plangere dicit lamentum :
+<lb ed="#Be" n="24"/>non autem omnis poenitens potest habere
+<lb ed="#Be" n="25"/>lamentum: ergo non est pcenitentie
+<lb ed="#Be" n="26"/>essentiale preterita mala plangere.
+</p>
+            <p xml:id="alalal-g88187-d1e162">
+               <lb ed="#Be" n="27"/>3. Siforte dicas, quod plangere dicit
+<lb ed="#Be" n="28"/>planctum cordis, non oculorum, vel 
+sen<lb break="no" ed="#Be" n="29"/>sus in carne. Videtur, quod adhuc non sit
+<lb ed="#Be" n="30"/>essentiale pcenitentiea plangere : plangere
+<lb ed="#Be" n="31"/>enim sive sit interius, sive exterius,
+<lb ed="#Be" n="32"/>dicit actum elicitum de potentia 
+infor<lb break="no" ed="#Be" n="33"/>mata gratia. Ad hoc autem ut eliciatur,
+<lb ed="#Be" n="34"/>exigitur tempus, ante quod ipse 
+peeni<lb break="no" ed="#Be" n="35"/>tens est in gratia quae infunditur in 
+in<lb break="no" ed="#Be" n="36"/>stanti. Ponamus ergo, quod gratiam 
+ha<lb break="no" ed="#Be" n="37"/>beat, et non eliciat actum plangendi, et
+<lb ed="#Be" n="38"/>sic moriatur: constat, quod salvabitur
+<lb ed="#Be" n="39"/>cum habeat gratiam : ergo habuit 
+poeni<lb break="no" ed="#Be" n="40"/>tentiam valentem ad salutem sine 
+plan<lb break="no" ed="#Be" n="41"/>clu in actu : ergo non est’ essentiale 
+pe<lb break="no" ed="#Be" n="42"/>nitentiae plangere : ergo non sic debet
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="43"/>diffiniri : Poenitentia est praterita mala
+<lb ed="#Be" n="44"/>plangere.
+</p>
+            <p xml:id="alalal-g88187-d1e206">
+               <lb ed="#Be" n="45"/>4. Si dicas, quod plangere est 
+neces<lb break="no" ed="#Be" n="46"/>sarium poenitenti propter dolorem qui
+<lb ed="#Be" n="47"/>supponitur in nomine poenitentie: 
+do<lb break="no" ed="#Be" n="48"/>lens enim non potest non plangere. 
+Ad<lb break="no" ed="#Be" n="49"/>huc falsum esse videtur: quia aut 
+in<lb break="no" ed="#Be" n="50"/>fusio gratiae praecedit dolorem illum, aut
+<lb ed="#Be" n="51"/>non. Si non: tune dolor attritionis est,
+<lb ed="#Be" n="52"/>et non poenitentiw : ergo illam non 
+se<lb break="no" ed="#Be" n="53"/>quitur plangere quod essentialiter diffinit
+<lb ed="#Be" n="54"/>poenitentiam : et sic nihil esset quod
+<lb ed="#Be" n="55"/>dicit Ambrosius. Si preecedit eum gratia:
+<lb ed="#Be" n="56"/>tunc in instanti in quo infunditur gratia,
+<lb ed="#Be" n="57"/>simul infunduntur cum ea omnes virtutes :
+<lb ed="#Be" n="58"/>ergo et poenitentia : et hance infusionem
+<lb ed="#Be" n="59"/>sequitur dolor qui non potest esse nisj
+<lb ed="#Be" n="60"/>in tempore : et inter instans infusionis
+<lb ed="#Be" n="61"/>virtutum, et tempus doloris est tempus :
+<lb ed="#Be" n="62"/>ergo aliquod est tempus in quo est 
+pos<lb break="no" ed="#Be" n="63"/>nitentia virtus, et non dolor, vel 
+plan<lb break="no" ed="#Be" n="64"/>ctus : igitur non est essentiale 
+pooniten<lb break="no" ed="#Be" n="65"/>tise dolere et plangere, ut videtur.
+</p>
+            <p xml:id="alalal-g88187-d1e254">
+               <lb ed="#Be" n="66"/>5. Si forte dicas, quod dolor 
+attritio<lb break="no" ed="#Be" n="67"/>nis sit dolor contritionis secundum 
+opi<lb break="no" ed="#Be" n="68"/>nionem eorum qui dicunt, quod 
+natura<lb break="no" ed="#Be" n="69"/>lia fiunt gratuita. Videtur adhuc hoc esse
+<lb ed="#Be" n="70"/>falsum : quia, Matth. ni, 8, super illud :
+<lb ed="#Be" n="71"/>Facite fructum dignum poenitentiae, etc.
+<lb ed="#Be" n="72"/>Glossa : <quote xml:id="alalal-g88187-Qd1e271"> Discretio est in poenitentia
+<lb ed="#Be" n="73"/>que timorem Dei et metum pecenarum
+<lb ed="#Be" n="74"/>ante oculos ponit, recolens antique 
+tur<lb break="no" ed="#Be" n="75"/>pitudinis. Sic dolor cordis in fletus 
+eram<lb break="no" ed="#Be" n="76"/>pit: quia sine dolore nulla sunt vulnera,
+<lb ed="#Be" n="77"/>si vitalia membrorum non fuerint 
+cir<lb break="no" ed="#Be" n="78"/>cummortua. Gratia est quod sentit, 
+sen<lb break="no" ed="#Be" n="79"/>tiens querit sanitatem. </quote> Huc usque 
+ver<lb break="no" ed="#Be" n="80"/>ba Glosse. Ergo gratia dat sentire, sicut
+<lb ed="#Be" n="81"/>dicitur in ultima parte Glosse : ergo
+<lb ed="#Be" n="82"/>gratia dolorem praecedit, sicut causa
+<lb ed="#Be" n="83"/>effectum : et ita habetur propositum.
+</p>
+            <p xml:id="alalal-g88187-d1e299">
+               <lb ed="#Be" n="84"/>Item objicitur de hoc quod dicit,
+<lb ed="#Be" n="85"/>
+               <quote xml:id="alalal-g88187-Qd1e305"> Preterita mala. </quote>
+            </p>
+            <p xml:id="alalal-g88187-d1e309">
+               <lb ed="#Be" n="86"/>1. Preterita enim mala non possunt
+<lb ed="#Be" n="87"/>non esse preterita : sed stultum est 
+plan<lb break="no" ed="#Be" n="88"/>gere quod non potest non esse : ergo
+<lb ed="#Be" n="89"/>omnis poenitens est stultus.
+</p>
+            <p xml:id="alalal-g88187-d1e320">
+               <lb ed="#Be" n="90"/>2. Item, Per poeenitentiam efficitur
+<pb ed="#Be" n="426"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>peccator conformis divine voluntati:
+<lb ed="#Be" n="2"/>ergo vult hoc quod Deus vult :. sed vult
+<lb ed="#Be" n="3"/>preteritum factum esse : ergo et 
+pecca<lb break="no" ed="#Be" n="4"/>tor vult preteritum factum esse : sed
+<lb ed="#Be" n="5"/>nemo sapiens plangit hoc quod vult 
+fuis<lb break="no" ed="#Be" n="6"/>se: ergo poenitens qui sapiens est, non
+<lb ed="#Be" n="7"/>plangit mala preterita, ut videtur.
+</p>
+            <p xml:id="alalal-g88187-d1e344">
+               <lb ed="#Be" n="8"/>3. Si forte dicas, quod licet respectu
+<lb ed="#Be" n="9"/>preteritorum necessariorum non sit 
+vo<lb break="no" ed="#Be" n="10"/>luntas absoluta, tamen est velleitas quae
+<lb ed="#Be" n="11"/>est idem quod conditionata voluntas,
+<lb ed="#Be" n="12"/>scilicet quod vellet "preterita mala non
+<lb ed="#Be" n="13"/>esse, si hoc esset possibile : ergo 
+secun<lb break="no" ed="#Be" n="14"/>dum hoc poenitens simpliciter vult 
+pree<lb break="no" ed="#Be" n="15"/>terita mala facta esse, et sub conditione
+<lb ed="#Be" n="16"/>vellet non esse: ergo simpliciter non
+<lb ed="#Be" n="17"/>plangit mala preterita : cum tamen 
+Am<lb break="no" ed="#Be" n="18"/>brosius supra innuat, quod mala 
+preter<lb break="no" ed="#Be" n="19"/>ita plangit.
+</p>
+            <p xml:id="alalal-g88187-d1e373">
+               <lb ed="#Be" n="20"/>Uxterivs queritur de hoc quod dicit,
+<lb ed="#Be" n="21"/>
+               <quote xml:id="alalal-g88187-Qd1e379"> Mala, etc. </quote>
+            </p>
+            <p xml:id="alalal-g88187-d1e382">
+               <lb ed="#Be" n="22"/>Aut enim plangit mala quae sunt, aut
+<lb ed="#Be" n="23"/>rnala quae non sunt. Si mala quae sunt,
+<lb ed="#Be" n="24"/>cum non sunt mala nisi quando insunt,
+<lb ed="#Be" n="25"/>videtur quod insunt : sed opposita non
+<lb ed="#Be" n="26"/>insunt simul: ergo cum mala insunt,
+<lb ed="#Be" n="27"/>virtutes non insunt, nec gratia : ergo
+<lb ed="#Be" n="28"/>cum plangit mala, non habet gratiam
+<lb ed="#Be" n="29"/>nec virtutes : ergo talis planctus non est
+<lb ed="#Be" n="30"/>planctus poenitentiae virtutis, et gratia
+<lb ed="#Be" n="31"/>informatus, quod falsum est. Si autem
+<lb ed="#Be" n="32"/>plangat mala’ quae non sunt. Contra :
+<lb ed="#Be" n="33"/>Nullus dolet de eo quod non est, 
+secun<lb break="no" ed="#Be" n="34"/>dum quod nonest: ergo nec plangit
+<lb ed="#Be" n="35"/>illud : ergo non plangit mala quae non
+<lb ed="#Be" n="36"/>sunt.
+</p>
+            <p xml:id="alalal-g88187-d1e417">
+               <lb ed="#Be" n="37"/>Uxrerius objicitur de hoc quod dicit,
+<lb ed="#Be" n="38"/>
+               <quote xml:id="alalal-g88187-Qd1e423"> Et plangenda iterum non 
+commit<lb break="no" ed="#Be" n="39"/>tere, </quote>
+            </p>
+            <p xml:id="alalal-g88187-d1e430">
+               <lb ed="#Be" n="40"/>1. Per illam enim particulam expresse
+<lb ed="#Be" n="41"/>videtur, quod qui patitur recidivum,
+<lb ed="#Be" n="42"/>quod numquam poenituit : et hoc statim
+<lb ed="#Be" n="43"/>infra in hac eadem distinctione 
+condem<lb break="no" ed="#Be" n="44"/>natur pro heresi.
+</p>
+            <p xml:id="alalal-g88187-d1e443">
+               <lb ed="#Be" n="45"/>2. Preeterea, Videtur quod hoc 
+appo<lb break="no" ed="#Be" n="46"/>situm non sit essentiale poenitentia. 
+Pri<lb break="no" ed="#Be" n="47"/>mo quidem per diffinitionem Ambrosi,
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="48"/>quae infra ponetur: <quote xml:id="alalal-g88187-Qd1e456"> Penitentia vera
+<lb ed="#Be" n="49"/>est dolor cordis et amaritudo anima
+<lb ed="#Be" n="50"/>pro malis quae quisque commisit. </quote>
+               <lb ed="#Be" n="51"/>In hac enim totum esse poenitentiae ex.
+<lb ed="#Be" n="52"/>plicatur : et tamen nihil tangitur de 
+pec<lb break="no" ed="#Be" n="53"/>catis futuris.
+</p>
+            <p xml:id="alalal-g88187-d1e470">
+               <lb ed="#Be" n="54"/>3. Idem videtur per rationem : Peni.
+<lb ed="#Be" n="55"/>tentia enim respectu preteritorum est,
+<lb ed="#Be" n="56"/>ut accipitur ex principio IIT Ethicorum :
+<lb ed="#Be" n="57"/>non igitur diffinienda est respectu 
+futuro<lb break="no" ed="#Be" n="58"/>rum.
+</p>
+            <p xml:id="alalal-g88187-d1e483">
+               <lb ed="#Be" n="59"/>4. Item, Boetius dicit esse locum a
+<lb ed="#Be" n="60"/>communiter accidentibus : poenituit : 
+er<lb break="no" ed="#Be" n="61"/>go peccavit. Non autem est a 
+commu<lb break="no" ed="#Be" n="62"/>niter accidentibus : poenituit: ergo 
+ca<lb break="no" ed="#Be" n="63"/>vebit futurum peccatum: ergo videtur,
+<lb ed="#Be" n="64"/>quod poenitentia respiciat preteritum, et
+<lb ed="#Be" n="65"/>non futurum: ergo non est diffinienda
+<lb ed="#Be" n="66"/>poenitentia per futurum. oO
+</p>
+            <p xml:id="alalal-g88187-d1e503">
+               <lb ed="#Be" n="67"/>5. Item, Poenitentia differt a cautela:
+<lb ed="#Be" n="68"/>poenitentia enim non est cautela, nece
+<lb ed="#Be" n="69"/>converso. Cum igitur cautela sit 
+respe<lb break="no" ed="#Be" n="70"/>ctu futuri, poenitentia non erit ejusdem,
+<lb ed="#Be" n="71"/>ut videtur.
+</p>
+            <p xml:id="alalal-g88187-d1e516">
+               <lb ed="#Be" n="72"/>6. Item, Pcenitere non est poenitentia:
+<lb ed="#Be" n="73"/>ergo diffinitio poenitentiae non est diffini-.
+<lb ed="#Be" n="74"/>tio ejus quod est poenitere : sed statim
+<lb ed="#Be" n="75"/>in Littera dicitur, quod poenitere est
+<lb ed="#Be" n="76"/>anteacta mala deflere, et flenda non
+<lb ed="#Be" n="77"/>committere : quod penitus idem est cum
+<lb ed="#Be" n="78"/>priori diffinitione : ergo videtur, quod
+<lb ed="#Be" n="79"/>peccet Magister in Littera.
+</p>
+            <p xml:id="alalal-g88187-d1e537">
+               <lb ed="#Be" n="80"/>7. Item, Videtur quod partes hujus 
+diffi<lb break="no" ed="#Be" n="81"/>nionis male ordinentur : quia Augustinus
+<lb ed="#Be" n="82"/>in libro de Feclesiasticis dogmatibus 
+dif<lb break="no" ed="#Be" n="83"/>finit eam sic: <quote xml:id="alalal-g88187-Qd1e547"> Poenitentia vera est,
+<lb ed="#Be" n="84"/>peenitenda non admittere et admissa de--
+<lb ed="#Be" n="85"/>flere. </quote> Ergo quod erat respectu futuri,
+<lb ed="#Be" n="86"/>deberet esse prior pars in ordine 
+diffinio<lb break="no" ed="#Be" n="87"/>nis: et id quod est respectu preteriti,
+<lb ed="#Be" n="88"/>deberet esse posterior.
+</p>
+            <p xml:id="alalal-g88187-d1e562">
+               <lb ed="#Be" n="89"/>Uuterivs hic queritur, Utrum 
+conve<lb break="no" ed="#Be" n="90"/>niat hac diffinitio poenitentiae 
+sacramen<lb break="no" ed="#Be" n="91"/>to, vel poenitentia: virtuti ?
+</p>
+            <p xml:id="alalal-g88187-d1e571">
+               <lb ed="#Be" n="92"/>Videtur autem, quod non 
+sacramen<lb break="no" ed="#Be" n="93"/>to : quia
+<lb ed="#Be" n="94"/>Sacramento essentiale est esse signum
+<lb ed="#Be" n="95"/>et causam : nihil autem autem hic poni-
+<pb ed="#Be" n="427"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>nitur quod sit causa et signum secundum
+<lb ed="#Be" n="2"/>quod. hujusmodi: ergo non est data de
+<lb ed="#Be" n="3"/>poenitentia prout est sacramentum.
+</p>
+            <p xml:id="alalal-g88187-d1e593">
+               <lb ed="#Be" n="4"/>2. Item, Poenitentia sacramentum, ut
+<lb ed="#Be" n="5"/>infra dicitur, habet partes, 
+contritio<lb break="no" ed="#Be" n="6"/>nem, et confessionem, et satisfactionem :
+<lb ed="#Be" n="7"/>et nihil ponitur quod respondeat 
+confes<lb break="no" ed="#Be" n="8"/>sioni et satisfactioni ergo de 
+sacra<lb break="no" ed="#Be" n="9"/>mento poenitentiae data non est haec 
+dif<lb break="no" ed="#Be" n="10"/>finitio.
+</p>
+            <p xml:id="alalal-g88187-d1e611">
+               <lb ed="#Be" n="11"/>Contra : Omnibus quibus injungitur
+<lb ed="#Be" n="12"/>poenitentia a sacerdote, specialiter 
+pre<lb break="no" ed="#Be" n="13"/>cipitur ut plangant preeterita, et futura
+<lb ed="#Be" n="14"/>non commitiant : ergo videtur, quod
+<lb ed="#Be" n="15"/>illud quod ille dicit, de sacramento 
+pc<lb break="no" ed="#Be" n="16"/>nitentiae intelligatur.
+</p>
+            <p xml:id="alalal-g88187-d1e627">
+               <lb ed="#Be" n="17"/>SoLutio. Dicendum, quod hac 
+diffini<lb break="no" ed="#Be" n="18"/>tio data est per effectum, et non est 
+diffi<lb break="no" ed="#Be" n="19"/>nitio proprie loquendo, sed 
+qualiscum<lb break="no" ed="#Be" n="20"/>que assignatio : est enim actus effectus
+<lb ed="#Be" n="21"/>habitus, eo quod habitus movet liberum
+<lb ed="#Be" n="22"/>arbitrium nature ad talem actum. Et
+<lb ed="#Be" n="23"/>tangit duo quae sunt pesnitentiae 
+secun<lb break="no" ed="#Be" n="24"/>dum actum exercite. Unum quod est 
+es<lb break="no" ed="#Be" n="25"/>sentiale, et hoc est preeterita mala 
+plan<lb break="no" ed="#Be" n="26"/>gere : et alterum quod coexistit illi, ut id
+<lb ed="#Be" n="27"/>quod est essentiale, sit efficax : et hoc
+<lb ed="#Be" n="28"/>est plangenda non committere : et ideo
+<lb ed="#Be" n="29"/>quidam antiqui dixerunt, quod hoc est
+<lb ed="#Be" n="30"/>fundamentum ad primum, quia sine illo
+<lb ed="#Be" n="31"/>primum nihil valet.
+</p>
+            <p xml:id="alalal-g88187-d1e663">
+               <lb ed="#Be" n="32"/>AD PRIMUM ergo dicendum, quod 
+di<lb break="no" ed="#Be" n="33"/>ctum Philosophi intelligitur de 
+diffini<lb break="no" ed="#Be" n="34"/>tionibus datis per essentiam diffiniti
+<lb ed="#Be" n="35"/>hec autem est data per proprium 
+effe<lb break="no" ed="#Be" n="36"/>etum.
+</p>
+            <p xml:id="alalal-g88187-d1e676">
+               <lb ed="#Be" n="37"/>Et si objicitur, quod causa prior est
+<lb ed="#Be" n="38"/>effectu, et ideo non est diffinienda causa
+<lb ed="#Be" n="39"/>per effectum. Dicendum, quod duplex
+<lb ed="#Be" n="40"/>est prioritas, scilicet quoad nos, et 
+sim<lb break="no" ed="#Be" n="41"/>pliciter : simpliciter quidem causa prior
+<lb ed="#Be" n="42"/>est effectu : quoad nos autem prior 
+pot<lb break="no" ed="#Be" n="43"/>est esse effectus, quam causa. Et sic data
+<lb ed="#Be" n="44"/>est diffinitio, quae assignatio quedam
+<lb ed="#Be" n="45"/>est ex prioribus quoad nos.
+</p>
+            <p xml:id="alalal-g88187-d1e698">
+               <lb ed="#Be" n="46"/>Ad aliud dicendum, quod plangere di-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="47"/>citur breviter dolere actu vel habitu : et
+<lb ed="#Be" n="48"/>est essentialis actus posnitentiae, et ideo
+<lb ed="#Be" n="49"/>ponitur in ejus diffinitione. Et bene 
+con<lb break="no" ed="#Be" n="50"/>cedendum est hoc quod inducitur per
+<lb ed="#Be" n="51"/>objectionem factam secundum quod 
+do<lb break="no" ed="#Be" n="52"/>lor semper supponitur in poenitente, cui
+<lb ed="#Be" n="53"/>semper essentialiter conjungitur dolere.
+</p>
+            <p xml:id="alalal-g88187-d1e720">
+               <lb ed="#Be" n="54"/>Ad Hoc quod objicitur in contrarium,
+<lb ed="#Be" n="55"/>dicendum quod natura dolere est ante
+<lb ed="#Be" n="56"/>infusionem gratiaee, licet tempore simul
+<lb ed="#Be" n="57"/>sint dolere ex informatione gratiae, et
+<lb ed="#Be" n="58"/>gratia infusio. Dico autem natura 
+se<lb break="no" ed="#Be" n="59"/>cundum quod natura dicitur materia : et
+<lb ed="#Be" n="60"/>hoc patet ex hoc quod dicunt Doctores,
+<lb ed="#Be" n="61"/>scilicet quod quatuor exiguntur ad 
+justi<lb break="no" ed="#Be" n="62"/>ficationem impii, scilicet motus liberi 
+ar<lb break="no" ed="#Be" n="63"/>bitrii in peccatum, et motus liberi 
+arbi<lb break="no" ed="#Be" n="64"/>trii in Deum, et remissio culpe, et 
+gra<lb break="no" ed="#Be" n="65"/>tiae infusio. Motus autem liberi arbitrii
+<lb ed="#Be" n="66"/>in peccatum est detestatio cum dolore.
+<lb ed="#Be" n="67"/>Et sic patet quod cum hic diffiniatur
+<lb ed="#Be" n="68"/>poenitentia ex prioribus quoad nos, quod
+<lb ed="#Be" n="69"/>dolor natura praecedit gratiam, 
+secun<lb break="no" ed="#Be" n="70"/>dum quod natura materia est, ut prius
+<lb ed="#Be" n="71"/>notet prioritatem ex parte subjecti et
+<lb ed="#Be" n="72"/>materia.
+</p>
+            <p xml:id="alalal-g88187-d1e764">
+               <lb ed="#Be" n="73"/>Ad id autem quod objicitur contra
+<lb ed="#Be" n="74"/>hoc, dicendum quod falsum supponitur
+<lb ed="#Be" n="75"/>in objectione : quia licet inter instans et
+<lb ed="#Be" n="76"/>instans sit tempus secundum 
+Aristote<lb break="no" ed="#Be" n="77"/>lem, non tamen inter instans et tempus
+<lb ed="#Be" n="78"/>est tempus : sicutinter punctum et 
+pun<lb break="no" ed="#Be" n="79"/>ctum est linea, non tamen inter 
+pun<lb break="no" ed="#Be" n="80"/>ctum et lineam : et ita dico, quod inter
+<lb ed="#Be" n="81"/>instans infusionis gratiae, et tempus in
+<lb ed="#Be" n="82"/>quo meritorie dolet poenitens, nihil est
+<lb ed="#Be" n="83"/>medium.
+</p>
+            <p xml:id="alalal-g88187-d1e790">
+               <lb ed="#Be" n="84"/>Ad id autem quod objicitur de Glossa
+<lb ed="#Be" n="85"/>super Mattheum, dupliciter potest 
+re<lb break="no" ed="#Be" n="86"/>sponderi. Uno quidem modo,quod 
+loqui<lb break="no" ed="#Be" n="87"/>tur Glossa de gratia gratis data, quae est
+<lb ed="#Be" n="88"/>fides informis, quae ante oculos ponit
+<lb ed="#Be" n="89"/>poenas et cetera hujusmodi: et tunc 
+nul<lb break="no" ed="#Be" n="90"/>lam vim habet objectio. Aliter potest
+<lb ed="#Be" n="91"/>dici, quod loquitur de gratia gratum 
+fa<lb break="no" ed="#Be" n="92"/>: et tunc dicendum, quod infusio
+<lb ed="#Be" n="93"/>gratia praecedit dolorem, non tempore,
+<pb ed="#Be" n="428"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>sed natura: aliter tamen sumendo 
+natu<lb break="no" ed="#Be" n="2"/>ram quam prius, scilicet pro forma : 
+un<lb break="no" ed="#Be" n="3"/>de infusio gratiae praecedit dolorem 
+sim<lb break="no" ed="#Be" n="4"/>pliciter, dolor autem infusionem gratiae
+<lb ed="#Be" n="5"/>quoad nos, et ex parte materie.
+</p>
+            <p xml:id="alalal-g88187-d1e830">
+               <lb ed="#Be" n="6"/>Ad noc quod ulterius objicitur de hoc
+<lb ed="#Be" n="7"/>quod dicit, <quote xml:id="alalal-g88187-Qd1e836"> Preterita mala, etc. </quote> 
+Di<lb break="no" ed="#Be" n="8"/>cendum, quod planctus non est de 
+pec<lb break="no" ed="#Be" n="9"/>catis prout sunt in perpetratione, sed
+<lb ed="#Be" n="10"/>potius prout perpetratio peccati aliquo
+<lb ed="#Be" n="11"/>modo antecedit (alias, causat) peccata
+<lb ed="#Be" n="12"/>quoad existere in subjecto : sicut dicitur
+<lb ed="#Be" n="13"/>communiter, quod peccatum transit actu,
+<lb ed="#Be" n="14"/>et manet reatu: et hoc etiam in 
+prace<lb break="no" ed="#Be" n="15"/>dentibus est notatum.
+</p>
+            <p xml:id="alalal-g88187-d1e856">
+               <lb ed="#Be" n="16"/>Ad aliud dicendum, quod non 
+opor<lb break="no" ed="#Be" n="17"/>tet Semper voluntatem nostram 
+confor<lb break="no" ed="#Be" n="18"/>mare divine voluntati in volito : sed,
+<lb ed="#Be" n="19"/>sicut notavimus super finem libri primi
+<lb ed="#Be" n="20"/>Sententiarum, sufficit quandoque 
+confor<lb break="no" ed="#Be" n="21"/>mare voluntatem nostram voluntati 
+di<lb break="no" ed="#Be" n="22"/>vine secundum causam efficientem : ut
+<lb ed="#Be" n="23"/>scilicet velimus hoc quod Deus vult nos
+<lb ed="#Be" n="24"/>velle : et hoc modo conformat poenitens.
+</p>
+            <p xml:id="alalal-g88187-d1e878">
+               <lb ed="#Be" n="25"/>Ad aliud dicendum, quod pcenitens
+<lb ed="#Be" n="26"/>simpliciter vult non fecisse peccatum :
+<lb ed="#Be" n="27"/>licet enim respectu futuri sit contingens,
+<lb ed="#Be" n="28"/>et necessarium ex preterito (dico autem
+<lb ed="#Be" n="29"/>necessarium per accidens), tamen illud
+<lb ed="#Be" n="30"/>necessarium causaltum est a nostra 
+vo<lb break="no" ed="#Be" n="31"/>luntate, et ideo non est necessarium nisi
+<lb ed="#Be" n="32"/>secundum quid: et de hujusmodi potest
+<lb ed="#Be" n="33"/>esse voluntas simpliciter ut sint, vel non
+<lb ed="#Be" n="34"/>sint.
+</p>
+            <p xml:id="alalal-g88187-d1e902">
+               <lb ed="#Be" n="35"/>Ad id quod ulterius queritur de hoc
+<lb ed="#Be" n="36"/>guod dicitur, <quote xml:id="alalal-g88187-Qd1e908"> Afala, etc. </quote> Dicendum,
+<lb ed="#Be" n="37"/>quod: plangit mala quae simpliciter non
+<lb ed="#Be" n="38"/>sunt, sed suntsecundum quid, scilicet in
+<lb ed="#Be" n="39"/>recordatione, et secundum elfectum qui
+<lb ed="#Be" n="40"/>est reatus poene: et per hoc patet, quod
+<lb ed="#Be" n="41"/>nec stultus est sic plangens, nec 
+contra<lb break="no" ed="#Be" n="42"/>rietatem ad gratiam habens.
+</p>
+            <p xml:id="alalal-g88187-d1e924">
+               <lb ed="#Be" n="43"/>Ad id quod ulterius quaeritur, dicen
+<lb ed="#Be" n="44"/>dum quod hoc quod dicit, <quote xml:id="alalal-g88187-Qd1e930"> Plangenda
+<cb ed="#Be" n="b"/>
+                  <lb ed="#Be" n="45"/>non committere, </quote> refertur ad proposi.
+<lb ed="#Be" n="46"/>tum, id est, quod habeat propositum de
+<lb ed="#Be" n="47"/>coetero non peccandi : et ideo hoc coexj.
+<lb ed="#Be" n="48"/>stit poenitentia : quia sicut in aliis sa.
+<lb ed="#Be" n="49"/>cramentis semper aliquid exigit sacra.
+<lb ed="#Be" n="50"/>mentum quod removeat fictionem, quam
+<lb ed="#Be" n="51"/>refugit Spiritus sanctus : et hoc ideo est
+<lb ed="#Be" n="52"/>apponendum in diffinitione quae est ex
+<lb ed="#Be" n="53"/>his quae sunt priora quoad nos, ut prius
+<lb ed="#Be" n="54"/>dictum est.
+</p>
+            <p xml:id="alalal-g88187-d1e958">
+               <lb ed="#Be" n="55"/>Et per hoc patct solutio ad sequentia ;
+<lb ed="#Be" n="56"/>quia non est essentiale, et tamen quoad
+<lb ed="#Be" n="57"/>effectum poenitentia consequendum, ne
+<lb ed="#Be" n="58"/>sit poenitens fictus, necesse est ut 
+coexi<lb break="no" ed="#Be" n="59"/>stat pcenitentiae in pcenitente : et ideo
+<lb ed="#Be" n="60"/>apponitur a Sanctis in notilicatione 
+pa<lb break="no" ed="#Be" n="61"/>nitentie.
+</p>
+            <p xml:id="alalal-g88187-d1e977">
+               <lb ed="#Be" n="62"/>Ad aliud dicendum, quod ista 
+diffini<lb break="no" ed="#Be" n="63"/>tio non est data per essentiam, sed 
+po<lb break="no" ed="#Be" n="64"/>tius per effectum, ut dictum est : infra
+<lb ed="#Be" n="65"/>enim ait idem esse poenitere, ubi notat
+<lb ed="#Be" n="66"/>essentiam,
+</p>
+            <p xml:id="alalal-g88187-d1e990">
+               <lb ed="#Be" n="67"/>Ad aliud dicendum, quod Augustinus
+<lb ed="#Be" n="68"/>respicit ordinem partium ex parte 
+peeni<lb break="no" ed="#Be" n="69"/>tentis : quia in illo prius est removere
+<lb ed="#Be" n="70"/>obstaculum, et deinde poni 
+pceniten<lb break="no" ed="#Be" n="71"/>tiam : Ambrosius autem ordinat partes
+<lb ed="#Be" n="72"/>secundum quod sunt magis essentiales
+<lb ed="#Be" n="73"/>peenitentie.
+</p>
+            <p xml:id="alalal-g88187-d1e1008">
+               <lb ed="#Be" n="74"/>Ad aliud dicendum, quod illa 
+diffini<lb break="no" ed="#Be" n="75"/>tio convenit poenitentia in quantum est
+<lb ed="#Be" n="76"/>virtus, et in quantum est sacramentum :
+<lb ed="#Be" n="77"/>est enim virtus movens liberum 
+arbi<lb break="no" ed="#Be" n="78"/>trium ad opus quod est flere peccatum,
+<lb ed="#Be" n="79"/>et eadem est sacramentum secundum
+<lb ed="#Be" n="80"/>quod causalitatem trahit a signo et a vi
+<lb ed="#Be" n="81"/>clavium : a signo, dico, aliquo 
+exterio<lb break="no" ed="#Be" n="82"/>ri, de quo inferius erit sermo.
+</p>
+            <p xml:id="alalal-g88187-d1e1030">
+               <lb ed="#Be" n="83"/>Si autem objiciatur, quod diversorum
+<lb ed="#Be" n="84"/>diversum est esse, et diffinitio notat 
+es<lb break="no" ed="#Be" n="85"/>sentiam, et virtus et sacramentum sunt
+<lb ed="#Be" n="86"/>diversa secundum esse. Dicendum, quod
+<lb ed="#Be" n="87"/>in hacobjectione multa falsa supponuntur.
+<lb ed="#Be" n="88"/>Primum est, quod nihil prohibet idem
+<lb ed="#Be" n="89"/>diversificatum esse de esse diversorum,
+<lb ed="#Be" n="90"/>sicut poenitere in ratione actus, et in ra-
+<pb ed="#Be" n="429"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>tione actus manifestari in signis. 
+Secun<lb break="no" ed="#Be" n="2"/>dum est, quod illa diffinitio non dicit
+<lb ed="#Be" n="3"/>esse, ut habitum est. Tertium est, quia
+<lb ed="#Be" n="4"/>poenitentia virtus, et ponitentia 
+sacra<lb break="no" ed="#Be" n="5"/>mentum non sunt diversa subjecto, sed
+<lb ed="#Be" n="6"/>ratione {solum, et esse quod conseruitur
+<lb ed="#Be" n="7"/>rationem illam : quia virtus est, ut est
+<lb ed="#Be" n="8"/>movens liberum arbitrium ad opus : sed
+<lb ed="#Be" n="9"/>sacramentum poenitentia, prout 
+conjun<lb break="no" ed="#Be" n="10"/>gitur signis quibusdam significantibus et
+<lb ed="#Be" n="11"/>causantibus gratiam interiorem, quae 
+or<lb break="no" ed="#Be" n="12"/>dinatur contra actuale peccatum.
+<lb ed="#Be" n="13"/>Et per hoc patet solutio ad totum,
+</p>
+            <p xml:id="alalal-g88187-d1e1082">
+               <lb ed="#Be" n="14"/>DIVISiO TEXTUS.
+</p>
+            <p xml:id="alalal-g88187-d1e1087">
+               <lb ed="#Be" n="15"/>Deinde queritur de illa parte +, in qua
+<lb ed="#Be" n="16"/>Magister elidit errores qui sunt circa 
+pe<lb break="no" ed="#Be" n="17"/>nitentiam : quae dividitur in duas partes,
+<lb ed="#Be" n="18"/>secundum duos errores qui fuerunt 
+con<lb break="no" ed="#Be" n="19"/>tra poenitentiam. Primus est eorum qui
+<lb ed="#Be" n="20"/>dixerunt vere poenitentem non posse 
+ca<lb break="no" ed="#Be" n="21"/>dere : ethic eliditur in residuo hujus 
+di<lb break="no" ed="#Be" n="22"/>stinctionis. Secundus est eorum qui 
+di<lb break="no" ed="#Be" n="23"/>cunt, quod aliquis manens in uno 
+pecca<lb break="no" ed="#Be" n="24"/>to, potest facere poenitentiam de alio : et
+<lb ed="#Be" n="25"/>hic eliditur in sequenti distinctione XV,
+<lb ed="#Be" n="26"/>que incipit ibi, A, <quote xml:id="alalal-g88187-Qd1e1115"> Ht sicut in 
+predi<lb break="no" ed="#Be" n="27"/>cits auctoritatibus illorum error 
+convin<lb break="no" ed="#Be" n="28"/>citur, etc. </quote>
+            </p>
+            <p xml:id="alalal-g88187-d1e1124">
+               <lb ed="#Be" n="29"/>Prima pars subdividitur in tres 
+par<lb break="no" ed="#Be" n="30"/>tes : in quarum prima Magister ponit
+<lb ed="#Be" n="31"/>quasdam auctoritates ex quibus error
+<lb ed="#Be" n="32"/>primus videtur confirmari et probari. In
+<lb ed="#Be" n="33"/>secunda autem respondet illis 
+auctorita<lb break="no" ed="#Be" n="34"/>tibus inductis, ibi, C, <quote xml:id="alalal-g88187-Qd1e1139"> Illad autem
+<lb ed="#Be" n="35"/>quod Ambrosius ait, Reprehenduntur,
+<lb ed="#Be" n="36"/>etc. </quote> In tertia confirmat solutionem
+<lb ed="#Be" n="37"/>suam per auctoritates, ibi, D, <quote xml:id="alalal-g88187-Qd1e1148"> Quod
+<lb ed="#Be" n="38"/>vero poenitentia non tantum semel 
+aga<lb break="no" ed="#Be" n="39"/>tur, etc. </quote>
+            </p>
+            <p xml:id="alalal-g88187-d1e1156">
+               <lb ed="#Be" n="40"/>Subdivisio autem harum partium 
+cui<lb break="no" ed="#Be" n="41"/>libet per se patet in Littera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

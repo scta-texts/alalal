@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="126"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e24989"><!-- l3d6et1 -->
+            <head xml:id="alalal-e24989-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-e24989-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="28"/>Expositio Textus
+</p>
+            <p xml:id="alalal-e24989-d1e108">
+               <lb ed="Bd" n="29"/>
+               <quote xml:id="alalal-e24989-Qd1e112"> Alii enim dicunt in ipsa Verbi 
+in<lb break="no" ed="Bd" n="30"/>carnatione, etc. </quote>
+               <lb ed="Bd" n="31"/>Hic Magister aggreditur primam 
+opi<lb break="no" ed="Bd" n="32"/>nionem : et sicut mihi videtur, haec 
+opi<lb break="no" ed="Bd" n="33"/>nio dividitur in duas partes : in quarum
+<lb ed="Bd" n="34"/>prima ponuntur sue positiones, in 
+secun<lb break="no" ed="Bd" n="35"/>Expositio textus. da suarum positionum confirmationes,
+<lb ed="Bd" n="36"/>ibi scilicet, C, <quote xml:id="alalal-e24989-Qd1e130"> Et ne de suo sensu 
+tan<lb break="no" ed="Bd" n="37"/>tum logut putentur, etc. </quote>
+            </p>
+            <p xml:id="alalal-e24989-d1e136">
+               <lb ed="Bd" n="38"/>Nota, quod quatuor positiones hujus
+<lb ed="Bd" n="39"/>opinionis possunt extrahi de Littera ex
+<lb ed="Bd" n="40"/>priori capitulo, in quo positiones ponun-
+<pb ed="#Bd" n="127"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>tur : quarum prima est, quod homo sit
+<lb ed="Bd" n="2"/>assumptus : et hac extrahitur ex hoc quod
+<lb ed="Bd" n="3"/>dicit Magister, ibi, B, <quote xml:id="alalal-e24989-Qd1e155"> Concedunt etiam
+<lb ed="Bd" n="4"/>ilium hominem assumpltum a Verbo,
+<lb ed="Bd" n="5"/>etc. </quote> Secunda est ibi, quod utraque 
+i<lb break="no" ed="Bd" n="6"/>larum propositionum vera sit, Deus 
+fa<lb break="no" ed="Bd" n="7"/>clus est homo, et e converso : et hee
+<lb ed="Bd" n="8"/>extrahitur, ibi, B, <quote xml:id="alalal-e24989-Qd1e169"> Et ea ratione tradunt
+<lb ed="Bd" n="9"/>dictum esse, Deum hominem factum,
+<lb ed="Bd" n="10"/>etc. </quote> Tertia, quod Christus sit duo 
+sup<lb break="no" ed="Bd" n="11"/>posita, et non tantum due persone : et
+<lb ed="Bd" n="12"/>haec extrahitur de hoc quod dicit in 
+prin<lb break="no" ed="Bd" n="13"/>cipio capituli B, <quote xml:id="alalal-e24989-Qd1e182"> Hominem quemdam
+<lb ed="Bd" n="14"/>ez anima rationali, etc. </quote> Et confirmatur
+<lb ed="Bd" n="15"/>per auctoritatem Augustini : <quote xml:id="alalal-e24989-Qd1e190"> 
+Utrum<lb break="no" ed="Bd" n="16"/>que unus: sed aliud propter Verbum,
+<lb ed="Bd" n="17"/>scilicet assumentem Deum, et aliud
+<lb ed="Bd" n="18"/>propter assumptum hominem. </quote> Quarta
+<lb ed="Bd" n="19"/>est, quod cum dicitur, Deus est homo
+<lb ed="Bd" n="20"/>vel hic homo, suppositum illud non 
+ha<lb break="no" ed="Bd" n="21"/>bet nisi duas substantias in se, scilicet
+<lb ed="Bd" n="22"/>corporis et anime, et non est subsistens
+<lb ed="Bd" n="23"/>ex tribus : et illa extrahitur in fine 
+capi<lb break="no" ed="Bd" n="24"/>tul, ibi, B, <quote xml:id="alalal-e24989-Qd1e212"> Cumgue dicunt illum 
+ho<lb break="no" ed="Bd" n="25"/>minem, etc. </quote> Haec enim positio quarta,
+<lb ed="Bd" n="26"/>causa est tertiae, quare dicunt Christam
+<lb ed="Bd" n="27"/>esse duo supposila : et ideo etiam eas
+<lb ed="Bd" n="28"/>hic conjunx:, licet tertia de principio
+<lb ed="Bd" n="29"/>primi capituli sumatur. Ex his autem 
+se<lb break="no" ed="Bd" n="30"/>quilur quinta positio, qua respondent
+<lb ed="Bd" n="31"/>questiont facta illi qui sunt de ista opi—
+<lb ed="Bd" n="32"/>nione, scilicet quod cum dicitur, Filius
+<lb ed="Bd" n="33"/>Dei est homo, quod predicatur ibi 
+ali<lb break="no" ed="Bd" n="34"/>quid, quia suppositum hominis unitum
+<lb ed="Bd" n="35"/>Verbo sive Filio Dei : quia suppositum
+<lb ed="Bd" n="36"/>est in duabus substantiis, scilicet anime
+<lb ed="Bd" n="37"/>et corporis.
+</p>
+            <p xml:id="alalal-e24989-d1e244">
+               <lb ed="Bd" n="38"/>Hec est ergo sententia duorum 
+capitu<lb break="no" ed="Bd" n="39"/>lorum, quae ponuntur in prima parte 
+di<lb break="no" ed="Bd" n="40"/>stinctionis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="368"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i76739"><!-- l4d36dt1 -->
+            <head xml:id="alalal-i76739-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-i76739-d1e101">
+               <pb ed="#Bf" n="368"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-i76739-d1e110">
+               <lb ed="#Bf" n="2"/>
+               <quote xml:id="alalal-i76739-Qd1e114"> Nune de conditione videamus, etc. </quote>
+               <lb ed="#Bf" n="3"/>In ista distinctione duo determinat.
+<lb ed="#Bf" n="4"/>Unum principale, scilicet de impedimento
+<lb ed="#Bf" n="5"/>conditionis. Aliud secundarium de xtate
+<lb ed="#Bf" n="6"/>contrahentium, ibi, D, <quote xml:id="alalal-i76739-Qd1e125"> Hoc etiam 
+scien<lb break="no" ed="#Bf" n="7"/>dum est, quod pueri, etc. </quote>
+            </p>
+            <p xml:id="alalal-i76739-d1e131">
+               <lb ed="#Bf" n="8"/>Circa conditionem determinat tria
+<lb ed="#Bf" n="9"/>per ordinem in tribus capitulis, scilicet
+<lb ed="#Bf" n="10"/>que conditio impediat ?
+</p>
+            <p xml:id="alalal-i76739-d1e140">
+               <lb ed="#Bf" n="11"/>Utrum servus unius potest contrahere
+<lb ed="#Bf" n="12"/>cum ancilla alterius ?
+<lb ed="#Bf" n="13"/>Et, An solvatur matrimonium per
+<lb ed="#Bf" n="14"/>servitutem supervenicntem matrimonio ?
+<lb ed="#Bf" n="15"/>Et haec plane jacent in Littera.
+</p>
+            <p xml:id="alalal-i76739-d1e154">
+               <lb ed="#Bf" n="16"/>Ad notitiam autem horum 
+capitulo<lb break="no" ed="#Bf" n="17"/>rum trium queruntur hic quinque.
+</p>
+            <p xml:id="alalal-i76739-d1e161">
+               <lb ed="#Bf" n="18"/>Primum est, Quid sit conditio 
+impe<lb break="no" ed="#Bf" n="19"/>diens matrimonium ?
+<lb ed="#Bf" n="20"/>Secundum, An servitus impediat
+<lb ed="#Bf" n="21"/>matrimonium ?
+<lb ed="#Bf" n="22"/>Tertium, Utrum impediat ex jure 
+na<lb break="no" ed="#Bf" n="23"/>turali, vel positivo, vel divino, vel 
+hu<lb break="no" ed="#Bf" n="24"/>mano ?
+<lb ed="#Bf" n="25"/>Quartum, Quid de servo unius 
+con<lb break="no" ed="#Bf" n="26"/>trahente cum ancilla alterius ?
+<lb ed="#Bf" n="27"/>Quintum, De conditione quae 
+superve<lb break="no" ed="#Bf" n="28"/>nit matrimonio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

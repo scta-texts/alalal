@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="245"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d45442"><!-- l2d13a2 -->
+            <head xml:id="alalal-d45442-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-d45442-Hd1e101" type="question-title">Utrum illa lux de qua dicitur, Et 
+divisit lucem a tenebris, fuerit nubecaula
+lucida, vel corpus, vel forma 
+corporis ?</head>
+            <p xml:id="alalal-d45442-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="10"/>ARTICULUS II.
+<lb ed="#Bc" n="11"/>Utrum illa lux de qua dicitur, Et 
+divi<lb break="no" ed="#Bc" n="12"/>sit lucem a tenebris, fuerit nubecaula
+<lb ed="#Bc" n="13"/>lucida, vel corpus, vel forma 
+corpo<lb break="no" ed="#Bc" n="14"/>ris ?
+</p>
+            <p xml:id="alalal-d45442-d1e120">
+               <lb ed="#Bc" n="15"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="16"/>ibi, B, <quote xml:id="alalal-d45442-Qd1e126"> St queritur, Qualis illa lux
+<lb ed="#Bc" n="17"/>fuerit, etc. </quote>
+            </p>
+            <p xml:id="alalal-d45442-d1e132">
+               <lb ed="#Bc" n="18"/>Queritur enim hic de luce. Non enim
+<lb ed="#Bc" n="19"/>videtur vérum quod dicit Magister, quod
+<lb ed="#Bc" n="20"/>fuerit nubecula lucida? : quoniam vapor
+<lb ed="#Bc" n="21"/>est duplex, ut dicit Aristoteles, scilicet
+<lb ed="#Bc" n="22"/>terre vel aque, et omnis nubes est de
+<lb ed="#Bc" n="23"/>vapore : ex terra autem et aqua nihil fit
+<lb ed="#Bc" n="24"/>perse lucens : ergo nec lux illa fuit 
+nu<lb break="no" ed="#Bc" n="25"/>becula, sicut videtur dicere Magister.
+</p>
+            <p xml:id="alalal-d45442-d1e153">
+               <lb ed="#Bc" n="26"/>Uurerius queritur, Si Jux illa fuerit
+<lb ed="#Bc" n="27"/>vel sit corpus, vel forma corporis ?
+</p>
+            <p xml:id="alalal-d45442-d1e160">
+               <lb ed="#Bc" n="28"/>Videtur autem, quod forma corporis :
+<lb ed="#Bc" n="29"/>quia
+<lb ed="#Bc" n="30"/>1. Dicit Aristoteles in II de Anima :
+<lb ed="#Bc" n="31"/>
+               <quote xml:id="alalal-d45442-Qd1e170"> Lumen neque ignis est, neque omnino
+<lb ed="#Bc" n="32"/>corpus, nec defluxus corporis esset
+<lb ed="#Bc" n="33"/>enim aliquod corpus, et sic esset ignis,
+<lb ed="#Bc" n="34"/>aut alicujus hujusmodi presentia in lu-
+<cb ed="#Bc" n="c"/>
+                  <lb ed="#Bc" n="35"/>cido ;: neque enim duo corpora possibile
+<lb ed="#Bc" n="36"/>est esse in eodem loco . </quote>
+            </p>
+            <p xml:id="alalal-d45442-d1e187">
+               <lb ed="#Bc" n="37"/>2. Item, ibidem, <quote xml:id="alalal-d45442-Qd1e191"> Videtur autem 
+lu<lb break="no" ed="#Bc" n="38"/>men contrarium esse tenebre : </quote> est 
+au<lb break="no" ed="#Bc" n="39"/>tem tenebra privatio hujus habitus ex
+<lb ed="#Bc" n="40"/>lucido : habitus autem non est corpus :
+<lb ed="#Bc" n="41"/>ergo nec lux.
+</p>
+            <p xml:id="alalal-d45442-d1e203">
+               <lb ed="#Bc" n="42"/>3. Item, Commentator ibidem 
+supe<lb break="no" ed="#Bc" n="43"/>rius, <quote xml:id="alalal-d45442-Qd1e209"> Ex hoc patet quia lux est habitus
+<lb ed="#Bc" n="44"/>diaphani, et non corpus. </quote>
+            </p>
+            <p xml:id="alalal-d45442-d1e215">
+               <lb ed="#Bc" n="45"/>4. Item, In libro de Visu et natura
+<lb ed="#Bc" n="46"/>oculi dicit Philosophus, <quote xml:id="alalal-d45442-Qd1e221"> Lux non est
+<lb ed="#Bc" n="47"/>corpus, sed accidens aeris. </quote>
+            </p>
+            <p xml:id="alalal-d45442-d1e227">
+               <lb ed="#Bc" n="48"/>5. Item, ibidem, <quote xml:id="alalal-d45442-Qd1e231"> Lux non est 
+cor<lb break="no" ed="#Bc" n="49"/>pus, sed affectio corporis. </quote>
+            </p>
+            <p xml:id="alalal-d45442-d1e238">
+               <lb ed="#Bc" n="50"/>6. Item, Avicennain VI de Naturah
+<lb ed="#Bc" n="51"/>sufficientia, cap. de visu : <quote xml:id="alalal-d45442-Qd1e244"> Lumen est
+<lb ed="#Bc" n="52"/>affectio corporis habentis lucem, cum
+<lb ed="#Bc" n="53"/>directe sine interpositione opaci 
+Opposi<lb break="no" ed="#Bc" n="54"/>tum fuerit illi. </quote>
+            </p>
+            <p xml:id="alalal-d45442-d1e254">
+               <lb ed="#Bc" n="55"/>7. Item, ibidem, <quote xml:id="alalal-d45442-Qd1e258"> Lux est qualitas
+<lb ed="#Bc" n="56"/>que est perfectio corporis translucentis
+<lb ed="#Bc" n="57"/>secundum quod est translucens. </quote>
+            </p>
+            <p xml:id="alalal-d45442-d1e266">
+               <lb ed="#Bc" n="58"/>8. item, ibidem, <quote xml:id="alalal-d45442-Qd1e270"> Lumen est qualitas
+<lb ed="#Bc" n="59"/>quam mutuat corpus translucens a 
+luci<lb break="no" ed="#Bc" n="60"/>do, et translucens efficitur per eam
+<lb ed="#Bc" n="61"/>translucens in effectu. </quote>
+            </p>
+            <p xml:id="alalal-d45442-d1e280">
+               <lb ed="#Bc" n="62"/>In oppositum:
+<lb ed="#Bc" n="63"/>1. Videntur esse quaedam verba 
+Au<lb break="no" ed="#Bc" n="64"/>gustini. Dicit enim ad Volusianum sic,
+<lb ed="#Bc" n="65"/>
+               <quote xml:id="alalal-d45442-Qd1e290"> Hominum iste sensus est, nihil: nisi
+<lb ed="#Bc" n="66"/>corpora valentium cogitare : sive ista
+<pb ed="#Bc" n="246"/>
+                  <cb ed="#Bc" n="a"/>
+                  <lb ed="#Bc" n="1"/>crassiora, sicut humor atque humus:
+<lb ed="#Bc" n="2"/>sive subtiliora, ut aeris atque lucis!. </quote>
+            </p>
+            <p xml:id="alalal-d45442-d1e304">
+               <lb ed="#Bc" n="3"/>2. Item, ibidem, <quote xml:id="alalal-d45442-Qd1e308"> Duo liquores 
+mi<lb break="no" ed="#Bc" n="4"/>scentur, ut neuter servet integritatem
+<lb ed="#Bc" n="5"/>suam, quamquam in corporibus ipsis lux.
+<lb ed="#Bc" n="6"/>incorrupta misceatur. </quote>
+            </p>
+            <p xml:id="alalal-d45442-d1e318">
+               <lb ed="#Bc" n="7"/>3. item, In libro Uf de Libero 
+arbi<lb break="no" ed="#Bc" n="8"/>trio : <quote xml:id="alalal-d45442-Qd1e324"> in corporibus lux tenet primum
+<lb ed="#Bc" n="9"/>locum?, </quote>
+            </p>
+            <p xml:id="alalal-d45442-d1e331">
+               <lb ed="#Bc" n="10"/>4, Item, In libro VII super Genesim :
+<lb ed="#Bc" n="11"/>
+               <quote xml:id="alalal-d45442-Qd1e337"> Quomodo anima ex eo genere (
+corpo<lb break="no" ed="#Bc" n="12"/>rum) aliquid est, cum ejusdem generis
+<lb ed="#Bc" n="13"/>summum non sit nisi lumen. </quote>
+            </p>
+            <p xml:id="alalal-d45442-d1e345">
+               <lb ed="#Bc" n="14"/>5. item, ibidem, <quote xml:id="alalal-d45442-Qd1e349"> Anima crassioris
+<lb ed="#Bc" n="15"/>corporis sui materiam, hoc est, 
+humi<lb break="no" ed="#Bc" n="16"/>dam quamdam terram, quae in carnis
+<lb ed="#Bc" n="17"/>versa est qualitatem, per subtiliorem 
+na<lb break="no" ed="#Bc" n="18"/>turam corporis administrat, id est, per
+<lb ed="#Bc" n="19"/>Iucem et aerem. </quote>
+            </p>
+            <p xml:id="alalal-d45442-d1e363">
+               <lb ed="#Bc" n="20"/>6. Ad hoc idem objiciunt quidam sic :
+<lb ed="#Bc" n="21"/>Quia lux in aere, aut est per se, aut est
+<lb ed="#Bc" n="22"/>per accidens. Si per accidens est: ergo
+<lb ed="#Bc" n="23"/>per aliud inest quod est subjectum ejus
+<lb ed="#Bc" n="24"/>primum, cum omne per accidens ad per
+<lb ed="#Bc" n="25"/>se reducatur, ut illi dicunt : sed non erit
+<lb ed="#Bc" n="26"/>invenire mediante quo insit aeri: ergo
+<lb ed="#Bc" n="27"/>inest per se: si est accidens : ergo 
+de<lb break="no" ed="#Bc" n="28"/>monstrabile est de aere per formam 
+ae<lb break="no" ed="#Bc" n="29"/>ris : et hoc non est verum: ergo non
+<lb ed="#Bc" n="30"/>est accidens aeris : ergo corpus est.
+</p>
+            <p xml:id="alalal-d45442-d1e389">
+               <lb ed="#Bc" n="31"/>7. Item, Aut eadem lux est in Oriente.
+<lb ed="#Bc" n="32"/>et. Occidente :aut alia generata ab illa.
+<lb ed="#Bc" n="33"/>Si eadem : hoc non videtur posse. esse,
+<lb ed="#Bc" n="34"/>quod idem sit in -diversis subjectis et 
+lo<lb break="no" ed="#Bc" n="35"/>cis, cum accidens non excedit saum 
+sub<lb break="no" ed="#Bc" n="36"/>jectum proprium. Siautem alia generata
+<lb ed="#Bc" n="37"/>ab illa : ergo accidens in uno subjecto
+<lb ed="#Bc" n="38"/>generat simile sibi in alio subjecto : ergo
+<lb ed="#Bc" n="39"/>contingit aliud subjectum : ergo excedit
+<lb ed="#Bc" n="40"/>proprium.
+</p>
+            <p xml:id="alalal-d45442-d1e413">
+               <lb ed="#Bc" n="41"/>8. Item, Nihil reflectit lucem nisi 
+opa<lb break="no" ed="#Bc" n="42"/>cum : ponamus ergo, quod sit vacuum
+<lb ed="#Bc" n="43"/>inter coelum et terram : ergo lux 
+transi<lb break="no" ed="#Bc" n="44"/>bit per illud vacuum et implebit illud : si
+<lb ed="#Bc" n="45"/>ergo esset accidens, oporteret quod in
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="46"/>illo vacuo esset sine subjecto quod esgy
+<lb ed="#Bc" n="47"/>non potest.: ergo est corpus.
+</p>
+            <p xml:id="alalal-d45442-d1e433">
+               <lb ed="#Bc" n="48"/>9. Item, Duo accidentia ejusdem Spec
+<lb ed="#Bc" n="49"/>ciei non sunt in eodem : sed due luces
+<lb ed="#Bc" n="50"/>ejusdem speciei inconfuse sunt in eg.
+<lb ed="#Bc" n="51"/>dem : ergo lux non est accidens. Pro,
+<lb ed="#Bc" n="52"/>patet per se. Sxcunpa patet ex Diony sio
+<lb ed="#Bc" n="53"/>et experimento : quia duabus candelig
+<lb ed="#Bc" n="54"/>accensis, multiplicatur lux ex utraque, et
+<lb ed="#Bc" n="55"/>exstincta una, minoratur.
+</p>
+            <p xml:id="alalal-d45442-d1e454">
+               <lb ed="#Bc" n="56"/>Istae sunt rationes quarum quadam
+<lb ed="#Bc" n="57"/>eis insolubiles videntur. Nos autem in
+<lb ed="#Bc" n="58"/>tractatu nostro de Anima jam 
+disputa<lb break="no" ed="#Bc" n="59"/>vimus, inducendo super hoc omnes 
+opi<lb break="no" ed="#Bc" n="60"/>niones : et an etiam visus fit extra mit.
+<lb ed="#Bc" n="61"/>tendo, vel tantum intus suscipiendo ? Et
+<lb ed="#Bc" n="62"/>ibi posit sunt rationes plurime 
+Aristote<lb break="no" ed="#Bc" n="63"/>lis et Avicenne et Jacobi Alkindi et per. .
+<lb ed="#Bc" n="64"/>spectivorum, et Gregorii Niceni : et ideo
+<lb ed="#Bc" n="65"/>hic non laborabimus amplius : quoniam
+<lb ed="#Bc" n="66"/>hic posita sunt principia quibus solvantur
+<lb ed="#Bc" n="67"/>dicta Aristotelis et Avicenne et 
+natura<lb break="no" ed="#Bc" n="68"/>lium, et ostensum est, quod quedam
+<lb ed="#Bc" n="69"/>falsa supposita sunt a perspectivis, 
+qui<lb break="no" ed="#Bc" n="70"/>bus mutatis et aliis positis, habentur
+<lb ed="#Bc" n="71"/>omnes conclusiones libri de Perspectivis,
+<lb ed="#Bc" n="72"/>et de Visu et de fallacia visus, absque eo
+<lb ed="#Bc" n="73"/>quod Aristoteles in aliquo contradicitur,.
+<lb ed="#Bc" n="74"/>dicendo, quod lux est accidentalis forma.
+</p>
+            <p xml:id="alalal-d45442-d1e498">
+               <lb ed="#Bc" n="75"/>Ad id autem quod objicitur per pri-. aid
+<lb ed="#Bc" n="76"/>mam auctoritatem Augustini, dicendum
+<lb ed="#Bc" n="77"/>quod si vis est in verbis Augustini, tunc,
+<lb ed="#Bc" n="78"/>ex eadem auctoritate sequitur, quod hu-.
+<lb ed="#Bc" n="79"/>mor sit corpus, qui tamen nominat 
+qua<lb break="no" ed="#Bc" n="80"/>litatem aque. Constat autem, quod lucet
+<lb ed="#Bc" n="81"/>proprietate corporis .accepta per. quam
+<lb ed="#Bc" n="82"/>corpus intelligitur : unde nihil cogunt.
+<lb ed="#Bc" n="83"/>verba illa.
+</p>
+            <p xml:id="alalal-d45442-d1e520">
+               <lb ed="#Bc" n="84"/>Item, Idem modus solvendi est ad alia.
+<lb ed="#Bc" n="85"/>que dicit : quia enim lux forma. situalis
+<lb ed="#Bc" n="86"/>est in corpore : ideo corpus et 
+quantita<lb break="no" ed="#Bc" n="87"/>tem corporis imaginamur per ipsam : et
+<lb ed="#Bc" n="88"/>hoe occurrit carnalibus aliquid nobile
+<lb ed="#Bc" n="89"/>volentibus imaginari: quia inter corpora.
+<pb ed="#Bc" n="247"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>non inveniuntur nobiliora, quam ila quae
+ <lb ed="#Bc" n="2"/>luminosa sunt. Unde sciendum, quod
+<lb ed="#Bc" n="3"/>Augustino in his quae sunt de fide et 
+mo<lb break="no" ed="#Bc" n="4"/>ribus plusquam Philosophis credendum
+<lb ed="#Bc" n="5"/>est, sidissentiunt. Sed si de medicina 
+lo<lb break="no" ed="#Bc" n="6"/>queretur, plus ego crederem Galeno, vel
+<lb ed="#Bc" n="7"/>Hipocrati : et si de naturis rerum 
+loqua<lb break="no" ed="#Bc" n="8"/>tur, credo Aristoteli plus: vel alii experto
+<lb ed="#Bc" n="9"/>in rerum naturis.
+</p>
+            <p xml:id="alalal-d45442-d1e559">
+               <lb ed="#Bc" n="10"/>Ad id quod objicitur per rationem, 
+di<lb break="no" ed="#Bc" n="11"/>cendum quod illud argumentum 
+sophi<lb break="no" ed="#Bc" n="12"/>sticum est, et hoc certum apud eos qui
+<lb ed="#Bc" n="13"/>exponunt artem posteriorum. Est tamen
+<lb ed="#Bc" n="14"/>accidens dupliciter, scilicet individui, et
+<lb ed="#Bc" n="15"/>illud contingit inesse : et de ipso nihil
+<lb ed="#Bc" n="16"/>demonstratur, nec ipsum potest de 
+ali<lb break="no" ed="#Bc" n="17"/>quo demonstrari : et hoc est lux in aere.
+<lb ed="#Bc" n="18"/>Est etiam accidens speciei : et hoc potest
+<lb ed="#Bc" n="19"/>per se inesse, vel per aliud inesse : et si
+<lb ed="#Bc" n="20"/>per aliud inest, reducibile est ad per se :
+<lb ed="#Bc" n="21"/>sicut habere tres equos duobus rectis per
+<lb ed="#Bc" n="22"/>se inest triangulo rectilineo, per 
+acci<lb break="no" ed="#Bc" n="23"/>dens, id est, per -aliud triangulo absolute
+<lb ed="#Bc" n="24"/>accepto, per accidens etiam isosceli :
+<lb ed="#Bc" n="25"/>aliter oporteret ad aliquod per se reduci
+<lb ed="#Bc" n="26"/>ruborem illius mulierisin maxilla et hoc
+<lb ed="#Bc" n="27"/>frivolum est. Unde patet, quod nihil 
+co<lb break="no" ed="#Bc" n="28"/>git ratio illa.
+</p>
+            <p xml:id="alalal-d45442-d1e603">
+               <lb ed="#Bc" n="29"/>Ad aliud dicendam, quod lux est 
+for<lb break="no" ed="#Bc" n="30"/>ma aeris, quae semper fit presente 
+illu<lb break="no" ed="#Bc" n="31"/>minante, et multiplicat se in medio, et
+<lb ed="#Bc" n="32"/>immutat illud quando non est oppositio.
+<lb ed="#Bc" n="33"/>recta ad illuminans primum : sicut patet
+<lb ed="#Bc" n="34"/>im radio transeunte per fenestram : nam
+<lb ed="#Bc" n="35"/>a radice parietis intus in domo non potest
+<lb ed="#Bc" n="36"/>extrahi linea recta ad solem, et tamen 
+il<lb break="no" ed="#Bc" n="37"/>luminatur aer ab intrante radio magno
+<lb ed="#Bc" n="38"/>per fenestram, et hoc est propter 
+immuta<lb break="no" ed="#Bc" n="39"/>tionem vicini aeris : multiplicatur autem
+<lb ed="#Bc" n="40"/>per reflexionem ad corpus solidum, 
+pre<lb break="no" ed="#Bc" n="41"/>cipue si politum est in plana superficie :
+<lb ed="#Bc" n="42"/>sed generatio ipsius per se est ab 
+opposi<lb break="no" ed="#Bc" n="43"/>tione illuminantis. Unde simul et semel
+<lb ed="#Bc" n="44"/>generatur in Oriente et Occidente, et in
+<lb ed="#Bc" n="45"/>omni parte diaphani a qua recta linea
+<lb ed="#Bc" n="46"/>potest duci ad solem, et ad illuminans
+<lb ed="#Bc" n="47"/>quod est suum proprium generans : et
+<lb ed="#Bc" n="48"/>ideo dicit Commentator super IV 
+Physi<lb break="no" ed="#Bc" n="49"/>corum, quod illuminatio est finis motus
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="50"/>localis, sicut generatio finis alterationis :
+<lb ed="#Bc" n="51"/>et ideo utraque fit subito : quia finis 
+mo<lb break="no" ed="#Bc" n="52"/>tus est indivisibilis : motus autem ille
+<lb ed="#Bc" n="53"/>est ascensus solis super horizontem 
+se<lb break="no" ed="#Bc" n="54"/>cundum circulos altitudinis : quia 
+se<lb break="no" ed="#Bc" n="55"/>cundum illos variatur declinatio ascensus
+<lb ed="#Bc" n="56"/>horizontium in quibus lux generatur : et
+<lb ed="#Bc" n="57"/>heec forma est semper inveniens 
+diapha<lb break="no" ed="#Bc" n="58"/>num in ultima dispositione 
+susceptibili<lb break="no" ed="#Bc" n="59"/>tatis suae, et nihil exigens ad sui 
+genera<lb break="no" ed="#Bc" n="60"/>tionem nisi presentiam illuminantis. Et
+<lb ed="#Bc" n="61"/>haec omnia alibi sunt probata: et his
+<lb ed="#Bc" n="62"/>contestatur tota Arabum Philosophia.
+</p>
+            <p xml:id="alalal-d45442-d1e681">
+               <lb ed="#Bc" n="63"/>Ad aliud dicendum, quod si ponatur
+<lb ed="#Bc" n="64"/>vacuum inter coelum ét terram, non erit.
+<lb ed="#Bc" n="65"/>diffusio lucis ibi, sicut expresse innuit.
+<lb ed="#Bc" n="66"/>Aristoteles, contradicens ei qui dixit,
+<lb ed="#Bc" n="67"/>quod vacuo posito, adspici posset 
+formi<lb break="no" ed="#Bc" n="68"/>ca siin ceelo moveretur. Et Aristoteles
+<lb ed="#Bc" n="69"/>dicit, quod vacuo posito nihil videretur
+<lb ed="#Bc" n="70"/>omnino : et illa ratio procedit ex falsa
+<lb ed="#Bc" n="71"/>suppositione.
+</p>
+            <p xml:id="alalal-d45442-d1e704">
+               <lb ed="#Bc" n="72"/>Ad aliud dicendum, quod illud nihil
+<lb ed="#Bc" n="73"/>valet : quia omnis causa generans 
+ali<lb break="no" ed="#Bc" n="74"/>quam qualitatem, eadem multiplicata, 
+in<lb break="no" ed="#Bc" n="75"/>tendit eam : et, ea diminuta, remittit
+<lb ed="#Bc" n="76"/>eam : et ideo unum lumen est in aerea
+<lb ed="#Bc" n="77"/>duabus candelis, sed magis intensum,
+<lb ed="#Bc" n="78"/>quam quando est una tantum.
+</p>
+            <p xml:id="alalal-d45442-d1e722">
+               <lb ed="#Bc" n="79"/>Ap Hoc autem quod mihi posset hic ab
+<lb ed="#Bc" n="80"/>aliquo objici de Auctore perpective quae
+ <lb ed="#Bc" n="81"/>est apud nos parve reputationis, -dico
+<lb ed="#Bc" n="82"/>quod quantum ibi de naturis est, non 
+est<lb break="no" ed="#Bc" n="83"/>ei credendum contra Naturales :
+<lb ed="#Bc" n="84"/>enim non habet de hoc aliquid loqui,
+<lb ed="#Bc" n="85"/>utrum radius vel lux sit corpus vel non,
+<lb ed="#Bc" n="86"/>ut dicit Avaricus in commento super 
+ge<lb break="no" ed="#Bc" n="87"/>ometriam Euclidis : et ideo stulte fecit 
+ta<lb break="no" ed="#Bc" n="88"/>lia suo libro interponendo. Preterea, Non
+<lb ed="#Bc" n="89"/>caremus perspectivis aliorum 
+Philoso<lb break="no" ed="#Bc" n="90"/>phorum : ut Aristotelis et aliorum qui
+<lb ed="#Bc" n="91"/>omnino alia principia ponunt.
+</p>
+            <p xml:id="alalal-d45442-d1e753">
+               <lb ed="#Bc" n="92"/>Quod autem quidam objiciunt, quod
+<lb ed="#Bc" n="93"/>si radius commisceretur, omnia permixta
+<lb ed="#Bc" n="94"/>viderentur esse : permisceretur autem si
+<lb ed="#Bc" n="95"/>esset qualitas lux: ergo omnia commixta
+<lb ed="#Bc" n="96"/>deberent videri : nihil valet : quia etiamsi
+<lb ed="#Bc" n="97"/>ponamus, quod videmus intus suscipien-
+<pb ed="#Bc" n="248"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>do, non ponimus commisceri colores 
+se<lb break="no" ed="#Bc" n="2"/>cundum esse quod habent in aere : quia
+<lb ed="#Bc" n="3"/>quorum esse in fieri est semper,non 
+distra<lb break="no" ed="#Bc" n="4"/>huntur motu subjecti, sed potius semper
+<lb ed="#Bc" n="5"/>fiunt ad rectam oppositionem : et hoc
+<lb ed="#Bc" n="6"/>precipue est in luce et coloribus, ut dicit
+<lb ed="#Bc" n="7"/>Commentator super libros de Anima:
+<lb ed="#Bc" n="8"/>quia magis secundum esse spirituale sunt
+<lb ed="#Bc" n="9"/>in medio, quam alia sensibilia: et hoc ideo
+<lb ed="#Bc" n="10"/>est, quia sunt in actu a generatione lucis
+<lb ed="#Bc" n="11"/>que est secundum naturam in diaphano
+<lb ed="#Bc" n="12"/>ante calidum et frigidum, et humidum et
+<lb ed="#Bc" n="13"/>siccum : quia est in eo secundum quod
+<lb ed="#Bc" n="14"/>convenit cum perpetuo superius corpore :
+<lb ed="#Bc" n="15"/>alia autem sensibilia non habent idem
+<lb ed="#Bc" n="16"/>generans.
+</p>
+            <p xml:id="alalal-d45442-d1e808">
+               <lb ed="#Bc" n="17"/>Abd Hoc autem quod primo objicitur de
+<lb ed="#Bc" n="18"/>nubecula, dicendum quod Sancti locuti
+<lb ed="#Bc" n="19"/>sunt per similitudinem : quia nubes 
+te<lb break="no" ed="#Bc" n="20"/>nuis elevata in sublime, tacta luce solis
+<lb ed="#Bc" n="21"/>recipit candorem : ita lux illa prima
+<lb ed="#Bc" n="22"/>creata non erat adeo magnum habens ful-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="23"/>gorem, ut dicitur in Littera, sicut so] a
+<lb ed="#Bc" n="24"/>et ideo nubi lucide assimilatur, et per
+<lb ed="#Bc" n="25"/>hanc similitudinem nwbecula dicitur : ups
+<lb ed="#Bc" n="26"/>de etiam postea dicitur, quod sol indg
+<lb ed="#Bc" n="27"/>factus est.
+</p>
+            <p xml:id="alalal-d45442-d1e837">
+               <lb ed="#Bc" n="28"/>Sed tamen sciendum, quod de ila ny.
+<lb ed="#Bc" n="29"/>becula sunt tres opiniones. Una est, quod
+<lb ed="#Bc" n="30"/>cessit in solem : et hoc veram est pro.
+<lb ed="#Bc" n="31"/>maxima parte. Alia est, quod est cireg
+<lb ed="#Bc" n="32"/>solem : et hc non est probabilis : quia
+<lb ed="#Bc" n="33"/>cum sol non hereat eisdem partibus 
+cir<lb break="no" ed="#Bc" n="34"/>culi, quando sol distantiam haberet ultra
+<lb ed="#Bc" n="35"/>triginta gradus, posset videri in ortu et |
+<lb ed="#Bc" n="36"/>occasu. Tertia opinio est : et hance puto
+<lb ed="#Bc" n="37"/>esse verissimam, supponendo quod non
+<lb ed="#Bc" n="38"/>omnia simul creata sunt, quod illa 
+nube<lb break="no" ed="#Bc" n="39"/>cula non fuit una, sed potius multe;
+<lb ed="#Bc" n="40"/>quia lumen quod congregatum est in
+<lb ed="#Bc" n="41"/>omnibus stellis, tune in diversis partibus
+<lb ed="#Bc" n="42"/>materie coeli fuit dispersum, sicut 
+vide<lb break="no" ed="#Bc" n="43"/>mus in galaxia : et postea conglobatum
+<lb ed="#Bc" n="44"/>est in stellis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

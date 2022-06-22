@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 22</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 22</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="828"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h77896"><!-- l4d19a22 -->
+            <head xml:id="alalal-h77896-Hd1e99">Articulus 22</head>
+            <head xml:id="alalal-h77896-Hd1e101" type="question-title">Quomodo differat correctio fraterna a
+correctione fudicis ?</head>
+            <p xml:id="alalal-h77896-d1e104">
+               <lb ed="#Be" n="26"/>ARTICULUS XXII.
+<lb ed="#Be" n="27"/>Quomodo differat correctio fraterna a
+<lb ed="#Be" n="28"/>correctione fudicis ?
+</p>
+            <p xml:id="alalal-h77896-d1e113">
+               <lb ed="#Be" n="29"/>Sexto queritur, In quo differt illa 
+cor<lb break="no" ed="#Be" n="30"/>rectio a correctione judicis ?
+</p>
+            <p xml:id="alalal-h77896-d1e120">
+               <lb ed="#Be" n="31"/>Videtur autem, quod in nullo : quia
+<lb ed="#Be" n="32"/>in Evangelio dicitur, quod testes 
+adhi<lb break="no" ed="#Be" n="33"/>beantur, et Ecclesia denuntietur  :-per
+<lb ed="#Be" n="34"/>quod intelligitur accusatio : et quod a
+<lb ed="#Be" n="35"/>communioneé prescindatur per 
+senten<lb break="no" ed="#Be" n="36"/>tiam,et sit sicut ethnicus et publicanus :
+<lb ed="#Be" n="37"/>et haec omnia sunt in correctione judicis :
+<lb ed="#Be" n="38"/>ergo in nullo videtur differre correctio
+<lb ed="#Be" n="39"/>fraterna a correctione judicis.
+</p>
+            <p xml:id="alalal-h77896-d1e143">
+               <lb ed="#Be" n="40"/>SEp IN conTRARIUM hujus est : quia fra-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="41"/>ter in fratrem coactivam non habet: 
+cor<lb break="no" ed="#Be" n="42"/>rectionem, ut dicitur in <ref xml:id="alalal-h77896-Rd1e153">X Ethicorum</ref>,
+<lb ed="#Be" n="43"/>sicut neque pater in filium. Judex autem
+<lb ed="#Be" n="44"/>in eum quem judicat per legem, habet
+<lb ed="#Be" n="45"/>coactivam correctionem. Ergo haec non.
+<lb ed="#Be" n="46"/>est illa.
+</p>
+            <p xml:id="alalal-h77896-d1e165">
+               <lb ed="#Be" n="47"/>Ad Hoc dicendum videtur, quod dif
+<lb ed="#Be" n="48"/>ferunt in ratione quam inducit ultima
+<lb ed="#Be" n="49"/>objectio.
+</p>
+            <p xml:id="alalal-h77896-d1e174">
+               <lb ed="#Be" n="50"/>Ad pPRiMuM autem dicendum, quod 
+<lb ed="#Be" n="51"/>quandoque ex fraterna correctione potest
+<lb ed="#Be" n="52"/>fieri judiciaria, ut patet ex supra 
+dispu<lb break="no" ed="#Be" n="53"/>tatis : sed tamen haec non est illa : ut
+<lb ed="#Be" n="54"/>dicit Philosophus, quod pater non est
+<lb ed="#Be" n="55"/>cogit fillum: sed tamen contumacem,
+<lb ed="#Be" n="56"/>siperlegem etiam secundum 
+Philoso<lb break="no" ed="#Be" n="57"/>phum denuntiat judici, tune ille cogit
+<lb ed="#Be" n="58"/>eum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

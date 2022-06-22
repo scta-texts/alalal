@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 15</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 15</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="660"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f28154"><!-- l3d35a15 -->
+            <head xml:id="alalal-f28154-Hd1e99">Articulus 15</head>
+            <head xml:id="alalal-f28154-Hd1e101" type="question-title">Quid sit pietatis donum ?</head>
+            <p xml:id="alalal-f28154-d1e104">
+               <lb ed="Bd" n="7"/>ARTICULUS XV.
+<lb ed="Bd" n="8"/>Quid sit pietatis donum ?
+</p>
+            <p xml:id="alalal-f28154-d1e111">
+               <lb ed="Bd" n="9"/>Deinde, Queritur de pietate dono.
+</p>
+            <p xml:id="alalal-f28154-d1e116">
+               <lb ed="Bd" n="10"/>Et queremus quatuor, scilicet quid
+<lb ed="Bd" n="11"/>sit ?
+<lb ed="Bd" n="12"/>Et secundo, Quid ejus actus in via, et
+<lb ed="Bd" n="13"/>in patria ?
+<lb ed="Bd" n="14"/>Tertio, Utrum sit unum in specie vel
+<lb ed="Bd" n="15"/>plura ?
+<lb ed="Bd" n="16"/>Quarto, Que differentia ipsius ad 
+mi<lb break="no" ed="Bd" n="17"/>sericordiam vel mansuetudinem vel 
+mi<lb break="no" ed="Bd" n="18"/>titatem ?
+</p>
+            <p xml:id="alalal-f28154-d1e139">
+               <lb ed="Bd" n="19"/>Abd primum proceditur sic :
+<lb ed="Bd" n="20"/>1. Dicit Augustinus in libro X de 
+Civi<lb break="no" ed="Bd" n="21"/>tate Dei circa principium : <quote xml:id="alalal-f28154-Qd1e147"> Pietas 
+pro<lb break="no" ed="Bd" n="22"/>prie Dei cultus intelligi solet, quam
+<lb ed="Bd" n="23"/>Greci <foreign>dei6z10v</foreign> vocant. Hac tamen et erga
+<lb ed="Bd" n="24"/>parentes officiose haberi dicitur. More
+<lb ed="Bd" n="25"/>autem vulgi hoc nomen etiam in 
+operi<lb break="no" ed="Bd" n="26"/>bus misericordie frequentatur : quod
+<lb ed="Bd" n="27"/>ideo arbitror evenisse, quia haec sibi Deus
+<lb ed="Bd" n="28"/>precipue fieri mandat, eaque sibi pro
+<lb ed="Bd" n="29"/>sacrificiis placere testatur. </quote>
+            </p>
+            <p xml:id="alalal-f28154-d1e170">
+               <lb ed="Bd" n="30"/>In principio autem super Job dicit
+<lb ed="Bd" n="31"/>Gregorius, quod <quote xml:id="alalal-f28154-Qd1e176"> pietas est qua docet
+<lb ed="Bd" n="32"/>opera migericordix. </quote>
+            </p>
+            <p xml:id="alalal-f28154-d1e182">
+               <lb ed="Bd" n="33"/>Item, Tullius ante finem prime 
+he<lb break="no" ed="Bd" n="34"/>torice dicit, quod <quote xml:id="alalal-f28154-Qd1e188"> pietas est 
+benevolen<lb break="no" ed="Bd" n="35"/>tia in parentes. </quote>
+            </p>
+            <p xml:id="alalal-f28154-d1e194">
+               <lb ed="Bd" n="36"/>Objicitur autem de prima : quia illa
+<lb ed="Bd" n="37"/>videtur pietatem ponere idem cum 
+tri<lb break="no" ed="Bd" n="38"/>bus, quarum nulla est donum pietatis.
+<lb ed="Bd" n="39"/>Si enim dicatur pietas cultus Dei, erit
+<lb ed="Bd" n="40"/>idem pietas quod latria : et constat,
+<lb ed="Bd" n="41"/>quod pietas donum non est latria : quia
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="42"/>sic probata pietas exsequitur id quod do.
+<lb ed="Bd" n="43"/>cet donum scientia : hoc autem docet
+<lb ed="Bd" n="44"/>bene conversari in medio prave natio.
+<lb ed="Bd" n="45"/>nis : ergo pietas bene vivit in compara.
+<lb ed="Bd" n="46"/>tione ad proximum. Cultus autem ordi.
+<lb ed="Bd" n="47"/>nat in comparatione ad Deum.
+</p>
+            <p xml:id="alalal-f28154-d1e225">
+               <lb ed="Bd" n="48"/>Item, Hoc quod dicitur, quod pep
+<lb ed="Bd" n="49"/>illam etiam officiose vivilur ad parentes,
+<lb ed="Bd" n="50"/>in idem videtur coincidere cum eo quod
+<lb ed="Bd" n="51"/>dicit Tullius, quod <quote xml:id="alalal-f28154-Qd1e235"> pietas est beneyo.
+<lb ed="Bd" n="52"/>lentia in parentes : </quote> sed hoc iterum non
+<lb ed="Bd" n="53"/>videtur competere dono pietatis, quia 
+do<lb break="no" ed="Bd" n="54"/>num pietatis respicit omnes.
+</p>
+            <p xml:id="alalal-f28154-d1e246">
+               <lb ed="Bd" n="55"/>2. Praeterea, Concessum est supra,
+<lb ed="Bd" n="56"/>quod dona amplioris perfectionis sunt,
+<lb ed="Bd" n="57"/>quam virtutes : sed pietas hoc modo 
+di<lb break="no" ed="Bd" n="58"/>cta est virtus et species justitiae naturalis,
+<lb ed="Bd" n="59"/>ut dicit Tullius : ergo pietas donum erit
+<lb ed="Bd" n="60"/>amplioris perfectionis, quam pietas hoc
+<lb ed="Bd" n="61"/>modo dicta: ergo videtur, quod non sit
+<lb ed="Bd" n="62"/>benevolentia in parentes.
+</p>
+            <p xml:id="alalal-f28154-d1e267">
+               <lb ed="Bd" n="63"/>Objicitur etiam de tertia assignatione
+<lb ed="Bd" n="64"/>quam inducit Augustinus, dicens, quod
+<lb ed="Bd" n="65"/>more vulgi hoc nomen etiam in 
+operi<lb break="no" ed="Bd" n="66"/>bus misericordie frequentatur. Videtur
+<lb ed="Bd" n="67"/>enim, quod potius frequentetur in 
+operi<lb break="no" ed="Bd" n="68"/>bus mansuetudinis : quia Matth. v, 4,
+<lb ed="Bd" n="69"/>super illud : Beatt mites, quoniam ipsi
+<lb ed="Bd" n="70"/>possidebunt terram: dicit Glossa quod
+<lb ed="Bd" n="71"/>
+               <quote xml:id="alalal-f28154-Qd1e288"> pietas ordinatur ad mansuetudinem. </quote>
+               <lb ed="Bd" n="72"/>Cum igitur secunda beatitudo sit 
+man<lb break="no" ed="Bd" n="73"/>suetudo, et misericordia quinta, videtur
+<lb ed="Bd" n="74"/>quod non sit circa opera misericordia,
+<lb ed="Bd" n="75"/>sed pietatis.
+</p>
+            <p xml:id="alalal-f28154-d1e300">
+               <lb ed="Bd" n="76"/>Solutio Dicendum, quod pietas 
+dici<lb break="no" ed="Bd" n="77"/>tur multis modis, et quandoque est in 
+ge<lb break="no" ed="Bd" n="78"/>nere virtutis, et quandoque in genere
+<lb ed="Bd" n="79"/>doni : et dicitur illis modis per prius et
+<lb ed="Bd" n="80"/>posterius : unde necesse est ponere unum
+<lb ed="Bd" n="81"/>modum, quo dicitur per se : et alii modi
+<lb ed="Bd" n="82"/>erunt sumpti in comparatione ad illum.
+<lb ed="Bd" n="83"/>Potest ergo dici, quod pietas proprie
+<lb ed="Bd" n="84"/>est benevolentia in imaginem Dei, prout
+<lb ed="Bd" n="85"/>est imago Dei. Hoc autem accipitur 
+mul<lb break="no" ed="Bd" n="86"/>tipliciter : aut enim inclinat affectum ex
+<lb ed="Bd" n="87"/>parte exemplaris a quo exit imago illa,
+<lb ed="Bd" n="88"/>et sic in exemplar magis fertur pietas,
+<lb ed="Bd" n="89"/>et hoc modo erit in genere virtutis la-
+<pb ed="#Bd" n="661"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>tiae: et secundum Augustinum dicitur
+<lb ed="Bd" n="2"/>hog modo precipue, quod exemplar est
+<lb ed="Bd" n="3"/>rac benevolentiae in omnibus aliis 
+mo<lb break="no" ed="Bd" n="4"/>dis qaibus inclinatur affectus ad 
+imagi<lb break="no" ed="Bd" n="5"/>nem. Sed etiam inclinatur benevolentia
+<lb ed="Bd" n="6"/>in imaginem descendentem ab exemplari
+<lb ed="Bd" n="7"/>divine: et hoc tripliciter, scilicet ita
+<lb ed="Bd" n="8"/>quod inclinatur cum natura, et tunc est
+<lb ed="Bd" n="9"/>penevolentia in parentes, et est iterum
+<lb ed="Bd" n="10"/>yirtus et species justitia naturalis: aut
+<lb ed="Bd" n="11"/>generaliter fertur in imaginem secundum
+<lb ed="Bd" n="12"/>quod est imago, et tunc proprie donum
+<lb ed="Bd" n="13"/>est, et est benevolentia imaginis Dei in
+<lb ed="Bd" n="14"/>natural rationali, et docet benevolenter
+<lb ed="Bd" n="15"/>se babere ad illam : aut fertur in 
+imagi<lb break="no" ed="Bd" n="16"/>nem prout est conjuncta nature 
+inferio<lb break="no" ed="Bd" n="17"/>ri, a qua circumdatur imago miseria, et
+<lb ed="Bd" n="18"/>sic pieias efficilur circa opera 
+misericor<lb break="no" ed="Bd" n="19"/>die, et differt a misericordia, quia 
+mise<lb break="no" ed="Bd" n="20"/>ricordia habet rationem operum = super
+<lb ed="Bd" n="21"/>miscriam alienam, pictas autem 
+imagi<lb break="no" ed="Bd" n="22"/>nem cum conjunctione ad miseriam quae
+<lb ed="Bd" n="23"/>cucumsiat eam in natura miserabill.
+</p>
+            <p xml:id="alalal-f28154-d1e387">
+               <lb ed="Bd" n="24"/>DicenpuM ergo ad primum, quod jam
+<lb ed="Bd" n="25"/>patet solutio: quia Augustinus, ibi su
+<lb ed="Bd" n="26"/>mit pietatem large in communitate, qua
+<lb ed="Bd" n="27"/>dicitur per prius et posterius de mulltis :
+<lb ed="Bd" n="28"/>et per hac ad omnia patet solutio praeter
+<lb ed="Bd" n="29"/>ad ultimum.
+</p>
+            <p xml:id="alalal-f28154-d1e403">
+               <lb ed="Bd" n="30"/>Et ap illud dicendum, quod pielas
+<lb ed="Bd" n="31"/>habct duo in se, seilicet benevolentiam,
+<lb ed="Bd" n="32"/>et id cirea quod est actus ipsius: et ex
+<lb ed="Bd" n="33"/>parte benevolentiae ordinatur ad 
+man<lb break="no" ed="Bd" n="34"/>suctudinem : et non intendit Glossa quod
+<lb ed="Bd" n="35"/>sit mansuetudo secundum substantiam,
+<lb ed="Bd" n="36"/>sed quod ordinetur ad eam propter 
+simi<lb break="no" ed="Bd" n="37"/>litudinem affectus : quia benevolus erga
+<lb ed="Bd" n="38"/>omnes, nec exasperatur ab aliquo, nec
+<lb ed="Bd" n="39"/>ira nec rancor lentat eum. Actus autem
+<lb ed="Bd" n="40"/>pietatis (quia est bonum impendere 
+ima<lb break="no" ed="Bd" n="41"/>gini) preecipue est circa indigentiam 
+ima<lb break="no" ed="Bd" n="42"/>ginis : et sic quoad materiam est circa
+<lb ed="Bd" n="43"/>opera misericordia ; et sic nihil prohibet,
+<lb ed="Bd" n="44"/>quod quoad diversa ad diversas 
+beatitu<lb break="no" ed="Bd" n="45"/>dines ordinetur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

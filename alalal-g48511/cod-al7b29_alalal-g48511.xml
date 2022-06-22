@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="242"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g48511"><!-- l4d10dt1 -->
+            <head xml:id="alalal-g48511-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-g48511-d1e101">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="10"/>DIVISIO TEXTUS.
+<lb ed="#Be" n="11"/>
+               <quote xml:id="alalal-g48511-Qd1e109"> Sunt et alii praecedentium insaniam,
+<lb ed="#Be" n="12"/>etc. </quote> .
+</p>
+            <p xml:id="alalal-g48511-d1e115">
+               <lb ed="#Be" n="13"/>In praehabitis exclusit Magister 
+erro<lb break="no" ed="#Be" n="14"/>rem quorumdam dicentium corpus 
+Chri<lb break="no" ed="#Be" n="15"/>sti non sumia malis: qui fuit error 
+mi<lb break="no" ed="#Be" n="16"/>noris inconvenientia. Hic autem tangit
+<lb ed="#Be" n="17"/>errorem majoris inconvenientiae, eorum
+<lb ed="#Be" n="18"/>scilicet qui negant corpus Christi esse in
+<lb ed="#Be" n="19"/>altari.
+</p>
+            <p xml:id="alalal-g48511-d1e133">
+               <lb ed="#Be" n="20"/>Contra istud primo inducit quasdam
+<lb ed="#Be" n="21"/>auctoritates Canonis et Patrum, ex 
+qui<lb break="no" ed="#Be" n="22"/>bus habuit ortum: et secundo, easdem
+<lb ed="#Be" n="23"/>solvit et determinat, ibi, B, <quote xml:id="alalal-g48511-Qd1e143"> Quae ex
+<lb ed="#Be" n="24"/>eadem ratione omnia accipienda sunl,
+<lb ed="#Be" n="25"/>etc. </quote> Tertio, ponit sophisticas rationes
+<lb ed="#Be" n="26"/>quibus isti decipiebantur, et solvit, 
+au<lb break="no" ed="#Be" n="27"/>ctoritatibus improbans dictum eorum,
+<lb ed="#Be" n="28"/>ibi, C, § 2: <quote xml:id="alalal-g48511-Qd1e157"> Satis responsum est 
+here<lb break="no" ed="#Be" n="29"/>ticis, et objectionibus, etc. </quote>
+            </p>
+            <p xml:id="alalal-g48511-d1e163">
+               <lb ed="#Be" n="30"/>Et hoc est quod dicit usque ad 
+se<lb break="no" ed="#Be" n="31"/>quentem partem, in qua tangit de modo
+<lb ed="#Be" n="32"/>conversionis.
+</p>
+            <p xml:id="alalal-g48511-d1e173">
+               <lb ed="#Be" n="33"/>Et per hoc patet sententia: et si quid
+<lb ed="#Be" n="34"/>minus est, per disputationem manifesta- —
+<lb ed="#Be" n="35"/>bitur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

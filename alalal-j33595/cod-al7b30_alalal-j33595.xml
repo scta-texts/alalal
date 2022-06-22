@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="644"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j33595"><!-- l4d47a5 -->
+            <head xml:id="alalal-j33595-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-j33595-Hd1e101" type="question-title">An in judicio erunt quatuor ordines 
+judicandorum ?</head>
+            <p xml:id="alalal-j33595-d1e104">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="15"/>ARTICULUS V.
+<lb ed="#Bf" n="16"/>An in judicio erunt quatuor ordines 
+ju<lb break="no" ed="#Bf" n="17"/>dicandorum ?
+</p>
+            <p xml:id="alalal-j33595-d1e115">
+               <lb ed="#Bf" n="18"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bf" n="19"/>ibi, G, <quote xml:id="alalal-j33595-Qd1e121"> Erunt autem quatuor ordines
+<lb ed="#Bf" n="20"/>in judicio. </quote>
+            </p>
+            <p xml:id="alalal-j33595-d1e127">
+               <lb ed="#Bf" n="21"/>Prius enim in Littera ex verbo 
+Gre<lb break="no" ed="#Bf" n="22"/>gorii habetur, quod sunt quatuor ordines
+<lb ed="#Bf" n="23"/>judicandorum. ,
+</p>
+            <p xml:id="alalal-j33595-d1e137">
+               <lb ed="#Bf" n="24"/>Sed contra hoc videtur quod
+<lb ed="#Bf" n="25"/>1. Dicitur in symbolo Apostolorum,
+<lb ed="#Bf" n="26"/>quod Christus est judicaturus vivos et
+<lb ed="#Bf" n="27"/>mortuos: ergo omnes judicabuntur : et
+<lb ed="#Bf" n="28"/>sic non est nisi unus ordo.
+</p>
+            <p xml:id="alalal-j33595-d1e150">
+               <lb ed="#Bf" n="29"/>2. Item, Idem accipitur, II ad Corinth,
+<lb ed="#Bf" n="30"/>v, 10: <quote xml:id="alalal-j33595-Qd1e156"
+                      source="http://scta.info/resource/IIcor5_10">Omnes nos manifestari oportet
+<lb ed="#Bf" n="31"/>ante tribunal Christi, ut referat 
+unus<lb break="no" ed="#Bf" n="32"/>quisque propria corporis, prout gesstt,
+<lb ed="#Bf" n="33"/>sive bonum, sive malum.</quote>
+            </p>
+            <p xml:id="alalal-j33595-d1e166">
+               <cb ed="#Bf" n="c"/>
+               <lb ed="#Bf" n="34"/>3. Utrerivs, Videtur quod sint tres
+<lb ed="#Bf" n="35"/>ordines: quia ita dicit Richardus : <quote xml:id="alalal-j33595-Qd1e174"> 
+Vi<lb break="no" ed="#Bf" n="36"/>dentur enim omnes judicaturi aut 
+judi<lb break="no" ed="#Bf" n="37"/>candi: et de judicandis quidem alii sunt
+<lb ed="#Bf" n="38"/>salvandi, alii damnandi videntur. </quote> 
+Ita<lb break="no" ed="#Bf" n="39"/>que in illo judicio futuro tres tantum
+<lb ed="#Bf" n="40"/>erunt ordines.
+</p>
+            <p xml:id="alalal-j33595-d1e189">
+               <lb ed="#Bf" n="41"/>4. Unrerius, Videtur quod sint 
+quin<lb break="no" ed="#Bf" n="42"/>que: sunt enim quorum salus est certa,
+<lb ed="#Bf" n="43"/>non judicaturi, ut decedentes infantes
+<lb ed="#Bf" n="44"/>post baptismum: et sunt quorum salus
+<lb ed="#Bf" n="45"/>incerta, judicandi: et sunt quorum 
+dam<lb break="no" ed="#Bf" n="46"/>natio certa, non judicandi : et sunt 
+quo<lb break="no" ed="#Bf" n="47"/>rum damnatio incerta. judicandi: ergo
+<lb ed="#Bf" n="48"/>quinque ordines in judicio. Hos etiam
+<lb ed="#Bf" n="49"/>quinque ordines ponit Richardus.
+</p>
+            <p xml:id="alalal-j33595-d1e211">
+               <lb ed="#Bf" n="50"/>Responsio. Ad haec omnia solvitur per
+<lb ed="#Bf" n="51"/>distinctionem dicendo, quod triplex est
+<lb ed="#Bf" n="52"/>judicium, scilicet uniforme, multiforme,
+<lb ed="#Bf" n="53"/>et omniforme.
+</p>
+            <p xml:id="alalal-j33595-d1e222">
+               <lb ed="#Bf" n="54"/>Dicitur autem yudicium  uniforme
+<lb ed="#Bf" n="55"/>presentis Ecclesia quo cogitatur de 
+ju<lb break="no" ed="#Bf" n="56"/>dicio futuro, cui non innotescit de ipso
+<lb ed="#Bf" n="57"/>judicio nisi qualitas causae et 
+retributio<lb break="no" ed="#Bf" n="58"/>nis in genere, scilicet quia bona bonis,
+<pb ed="#Bf" n="645"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>et mala malis. Multiforme autem est
+<lb ed="#Bf" n="2"/>judicium particulare, quod quilibet in
+<lb ed="#Bf" n="3"/>morte accipit, quod est secundum 
+qua<lb break="no" ed="#Bf" n="4"/>litatem et quantitatem : quia tantum 
+re<lb break="no" ed="#Bf" n="5"/>cipit, quantum meruit, et talia qualia 
+me<lb break="no" ed="#Bf" n="6"/>ruit ; sed non in omnibus, quia non in
+<lb ed="#Bf" n="7"/>corpore : et ideo multiforme, et non 
+om<lb break="no" ed="#Bf" n="8"/>niforme dicitur. Omniforme autem est
+<lb ed="#Bf" n="9"/>judicium futurum: quia talibus 
+respon<lb break="no" ed="#Bf" n="10"/>debunt talia, et tanta quantis, et in 
+om<lb break="no" ed="#Bf" n="11"/>nibus, quia in corpore et anima: et ideo
+<lb ed="#Bf" n="12"/>omniforme dicitur.
+</p>
+            <p xml:id="alalal-j33595-d1e267">
+               <lb ed="#Bf" n="13"/>De illo autem judicio ultimo, quod di-
+</p>
+            <p xml:id="alalal-j33595-d1e272">
+               <lb ed="#Bf" n="14"/>citur omniforme, est dicendum, quod
+<lb ed="#Bf" n="15"/>dupliciter consideratur, scilicet secundum
+<lb ed="#Bf" n="16"/>causam, et secundum effectum.
+</p>
+            <p xml:id="alalal-j33595-d1e281">
+               <lb ed="#Bf" n="17"/>Et si quidem in comparatione ad 
+effe<lb break="no" ed="#Bf" n="18"/>ctum consideratur: tunc non sunt nisi
+<lb ed="#Bf" n="19"/>duo ordines et ambo judicandi, scilicet
+<lb ed="#Bf" n="20"/>vivi, et mortui: salvati, vel damnati :
+<lb ed="#Bf" n="21"/>et sic intelligitur dictum Apostoli, II ad
+<lb ed="#Bf" n="22"/>Corinth. v, 10, et id quod adductum est
+<lb ed="#Bf" n="23"/>de symbolo.
+</p>
+            <p xml:id="alalal-j33595-d1e299">
+               <lb ed="#Bf" n="24"/>Si autem in comparatione ad causam
+<lb ed="#Bf" n="25"/>accipilur judicium: aut ergo accipitur
+<lb ed="#Bf" n="26"/>per comparationem ut nunc, vel ut tune.
+<lb ed="#Bf" n="27"/>Et si primo modo: tunc sunt quinque
+<lb ed="#Bf" n="28"/>ordines quos Richardus tangit, sicut cui-
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="29"/>libet etiam per se patet: nec unum 
+ordi<lb break="no" ed="#Bf" n="30"/>nem sexto loco pueri in originali 
+dece<lb break="no" ed="#Bf" n="31"/>dentes facere possunt, quia nulla propria
+<lb ed="#Bf" n="32"/>habent, propter quae ad tribunal venient :
+<lb ed="#Bf" n="33"/>nec veniunt ad tribunal, nisi habentes
+<lb ed="#Bf" n="34"/>propria, vel beneficio judicis gaudentes
+<lb ed="#Bf" n="35"/>de salute, sicut pueri qui post baptismum
+<lb ed="#Bf" n="36"/>decedunt.
+</p>
+            <p xml:id="alalal-j33595-d1e332">
+               <lb ed="#Bf" n="37"/>Si vero consideratur ut tunc: tune
+<lb ed="#Bf" n="38"/>erunt quatuor ordines, ut dicit Gregorius,
+<lb ed="#Bf" n="39"/>eo quod meritum quod est causa judicii,
+<lb ed="#Bf" n="40"/>tunc aut erit excellens in bono, aut in
+<lb ed="#Bf" n="41"/>malo: aut mediocriter bonum, aut 
+me<lb break="no" ed="#Bf" n="42"/>diocriter malum: et he quatuor 
+consi<lb break="no" ed="#Bf" n="43"/>derationes meriti, quatuor complent 
+or<lb break="no" ed="#Bf" n="44"/>dines judicandorum.
+</p>
+            <p xml:id="alalal-j33595-d1e352">
+               <lb ed="#Bf" n="45"/>Si autem consideratur judicium 
+secun<lb break="no" ed="#Bf" n="46"/>dum quod erit exercitum et apparebit in
+<lb ed="#Bf" n="47"/>actu : tuncsunt tres ordines, ut dicit 
+Lu<lb break="no" ed="#Bf" n="48"/>cas, quia Apostoli judicabunt, et alii 
+ju<lb break="no" ed="#Bf" n="49"/>dicabuntur omnes vel ad vitam, vel ad
+<lb ed="#Bf" n="50"/>mortem, eo quod per sententiam rectam
+<lb ed="#Bf" n="51"/>a lumine cordis Apostolici inflictam, vel
+<lb ed="#Bf" n="52"/>mortem aeternam vel vitam wternam 
+ac<lb break="no" ed="#Bf" n="53"/>cipient.
+</p>
+            <p xml:id="alalal-j33595-d1e375">
+               <lb ed="#Bf" n="54"/>Et per hoc patet solutio ad omnia 
+que<lb break="no" ed="#Bf" n="55"/>sita et plurima alia quae queri possunt.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

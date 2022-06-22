@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="394"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a78436"><!-- l1d14a5 -->
+            <head xml:id="alalal-a78436-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-a78436-Hd1e101" type="question-title">Quomodo differant invicem temporalis
+missio, processio, apparitio, et 
+temporalis datio ?</head>
+            <p xml:id="alalal-a78436-d1e104">
+               <lb ed="#Ba" n="8"/>ARTICULUS V.
+<lb ed="#Ba" n="9"/>Quomodo differant invicem temporalis
+<lb ed="#Ba" n="10"/>missio, processio, apparitio, et 
+tempo<lb break="no" ed="#Ba" n="11"/>ralis datio ?
+</p>
+            <p xml:id="alalal-a78436-d1e115">
+               <lb ed="#Ba" n="12"/>Quinto quaeritur, Qualiter differant
+<lb ed="#Ba" n="13"/>ista ab invicem ?
+</p>
+            <p xml:id="alalal-a78436-d1e122">
+               <lb ed="#Ba" n="14"/>Et videtur secundum determinata, quod
+<lb ed="#Ba" n="15"/>missio et processio temporalis habent se
+<lb ed="#Ba" n="16"/>sicut convertibilia : quia cuicumque 
+con<lb break="no" ed="#Ba" n="17"/>venit mitti, convenit procedere, et e 
+con<lb break="no" ed="#Ba" n="18"/>verso : non enim convenit mitti nisi 
+exi<lb break="no" ed="#Ba" n="19"/>stenti ab alio, et procedere etiam non
+<lb ed="#Ba" n="20"/>convenit nisi ab alio.
+</p>
+            <p xml:id="alalal-a78436-d1e141">
+               <lb ed="#Ba" n="21"/>SED CONTRA :
+<lb ed="#Ba" n="22"/>1. Processio proprietas est Spiritus 
+san<lb break="no" ed="#Ba" n="23"/>cti, et non Filii: processio, dico, passiva :
+<lb ed="#Ba" n="24"/>Filio autem convenit mitti : ergo ista tria
+<lb ed="#Ba" n="25"/>non convertuntur.
+</p>
+            <p xml:id="alalal-a78436-d1e154">
+               <lb ed="#Ba" n="26"/>2. Item, Non mittitur nisi nuntius:
+<lb ed="#Ba" n="27"/>procedit autem etiam ille qui non est
+<lb ed="#Ba" n="28"/>nuntius: ergo mitti et procedere non
+<lb ed="#Ba" n="29"/>sunt idem, nec convertuntur.
+</p>
+            <p xml:id="alalal-a78436-d1e165">
+               <lb ed="#Ba" n="30"/>3. Item, Supra habitum est, quod 
+pro<lb break="no" ed="#Ba" n="31"/>cedere dicitur in parte per similitudinem
+<lb ed="#Ba" n="32"/>a motu processivo, et in parte per 
+simi<lb break="no" ed="#Ba" n="33"/>litudinem processionis sive exitus causati
+<lb ed="#Ba" n="34"/>a causa: neutrum autem istorum est ra
+<lb ed="#Ba" n="35"/>tio missi: ergo videtur, quod ista non
+<lb ed="#Ba" n="36"/>sunt idem.
+</p>
+            <p xml:id="alalal-a78436-d1e183">
+               <lb ed="#Ba" n="37"/>Item, Apparitio, et temporalis 
+proces<lb break="no" ed="#Ba" n="38"/>sio se videntur habere sicut superius et
+<lb ed="#Ba" n="39"/>inferius : quia in omni missione est ap-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="40"/>paritio, sed non convertitur: in omni
+<lb ed="#Ba" n="41"/>enim missione est subito per affectum 
+ap<lb break="no" ed="#Ba" n="42"/>parens aliquid fulgens et divinum : ergo
+<lb ed="#Ba" n="43"/>in omni missione est apparitio.
+</p>
+            <p xml:id="alalal-a78436-d1e203">
+               <lb ed="#Ba" n="44"/>Sed contra hoc est, quod
+<lb ed="#Ba" n="45"/>1. Apparitio non vocatur a Sanctis 
+ma<lb break="no" ed="#Ba" n="46"/>nifestatio aliqua facta, nisi illa quae est
+<lb ed="#Ba" n="47"/>per subjectam creaturam, sive unitam
+<lb ed="#Ba" n="48"/>sibi, sive non unitam : missio autem non
+<lb ed="#Ba" n="49"/>semper est ita: ergo non omnis missio
+<lb ed="#Ba" n="50"/>ponit apparitionem.
+</p>
+            <p xml:id="alalal-a78436-d1e221">
+               <lb ed="#Ba" n="51"/>2. Praeterea apparitio bene fit per 
+An<lb break="no" ed="#Ba" n="52"/>gelos : ut in apparitione Abrahe in 
+con<lb break="no" ed="#Ba" n="53"/>valle Mambre : et in  apparitione
+<lb ed="#Ba" n="54"/>Moysi®. Missio autem numquam fit nisi
+<lb ed="#Ba" n="55"/>immediate per personas divinas. Ergo
+<lb ed="#Ba" n="56"/>missio non est apparitio nec species ejus.
+</p>
+            <p xml:id="alalal-a78436-d1e238">
+               <lb ed="#Ba" n="57"/>Item, Videtur quod datio nullum 
+illo<lb break="no" ed="#Ba" n="58"/>rum sit : quia datio potest fieri sine ma~
+<lb ed="#Ba" n="59"/>nifestatione dantis per subjectam 
+creatu<lb break="no" ed="#Ba" n="60"/>ram, et sic non est apparitio: et potest
+<lb ed="#Ba" n="61"/>fieri ab eo qui non procedit ab alio, et sic
+<lb ed="#Ba" n="62"/>non est processio : et potest fier: sine 
+nun<lb break="no" ed="#Ba" n="63"/>tio mediante, et sic non est missio : ergo
+<lb ed="#Ba" n="64"/>videtur, qued omnia hac ab invicem 
+dif<lb break="no" ed="#Ba" n="65"/>ferunt.
+</p>
+            <p xml:id="alalal-a78436-d1e260">
+               <lb ed="#Ba" n="66"/>Sonutio. Dicendum, quod ista ad 
+invi<lb break="no" ed="#Ba" n="67"/>cem habent differentiam : quia, sicut 
+ob<lb break="no" ed="#Ba" n="68"/>jectum est, apparitio secundum quod hic
+<lb ed="#Ba" n="69"/>utimur ea, non fit nisi per subjectam
+<lb ed="#Ba" n="70"/>creaturam : et omnis apparitio quae facta
+<lb ed="#Ba" n="71"/>est antiquis, per dispensationem 
+Angelo<lb break="no" ed="#Ba" n="72"/>rum facta est, et ordinabatur ad 
+appari<lb break="no" ed="#Ba" n="73"/>tionem Verbi in carne factam: et quod
+<lb ed="#Ba" n="74"/>hoc sit verum, accipitur ab Augustino,
+<lb ed="#Ba" n="75"/>ubi dicit sic: <quote xml:id="alalal-a78436-Qd1e283"> Ia omnia quae Patribus
+<lb ed="#Ba" n="76"/>visa sunt, cum Deus illis secundum suam
+<lb ed="#Ba" n="77"/>dispensationem temporibus congruam
+<lb ed="#Ba" n="78"/>presentaretur, per creaturam facta csse
+<lb ed="#Ba" n="79"/>manifestum est. Et si nos latet quomodo
+<lb ed="#Ba" n="80"/>ea ministris Angelis fecerat, per Angelos
+<lb ed="#Ba" n="81"/>tamen esse facta, non ex nostro sensu 
+di<lb break="no" ed="#Ba" n="82"/>cimus . </quote> Ex hoc habetur, quod omnes
+<lb ed="#Ba" n="83"/>apparitiones facte sunt per Angelos.
+<lb ed="#Ba" n="84"/>Quod autem ut ad finem sint ordinate
+<pb ed="#Ba" n="395"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ad apparitionem Christi in carne dicit
+<lb ed="#Ba" n="2"/>idem Augustinus, sic: <quote xml:id="alalal-a78436-Qd1e315"> Quacumque
+<lb ed="#Ba" n="3"/>propter faciendam fidem qua 
+mundare<lb break="no" ed="#Ba" n="4"/>mur ad contemplandam veritatem in 
+re<lb break="no" ed="#Ba" n="5"/>bus orlis ab aeternitate prolatis, et ad
+<lb ed="#Ba" n="6"/>wternitatem relatis temporaliter gesta
+<lb ed="#Ba" n="7"/>sunt, aut testimonia missionis hujus
+<lb ed="#Ba" n="8"/>(scilicet Filii in carnem) fuerunt, aut ipsa
+<lb ed="#Ba" n="9"/>missio Fulii Dei . </quote> Prius autem 
+habi<lb break="no" ed="#Ba" n="10"/>tum est, quod apparitio principaliter est
+<lb ed="#Ba" n="11"/>ad manifestandam naturam divinam, vel
+<lb ed="#Ba" n="12"/>in se, vel in personis : quamyis enim sub
+<lb ed="#Ba" n="13"/>numero aliquo Angeli quandoque 
+appa<lb break="no" ed="#Ba" n="14"/>ruissent, ut tres visi sunt ab Abraham, et
+<lb ed="#Ba" n="15"/>duo a Lot: et in hoc videatur esse 
+ma<lb break="no" ed="#Ba" n="16"/>nifestatio numeri personarum: tamen
+<lb ed="#Ba" n="17"/>principaliter manifestabatur nature 
+uni<lb break="no" ed="#Ba" n="18"/>tas: et ideo dicitur de Abraham, quod
+<lb ed="#Ba" n="19"/>tres vidit et unum adoravit: et ideo 
+pa<lb break="no" ed="#Ba" n="20"/>tet, quod apparitio non est processio vel
+<lb ed="#Ba" n="21"/>missio temporalis, nec etium genus ejus.
+</p>
+            <p xml:id="alalal-a78436-d1e360">
+               <lb ed="#Ba" n="22"/>Ap 1p autem quod objicitur, quod ubi
+<lb ed="#Ba" n="23"/>est missio, ibi est cognitio existentis ab
+<lb ed="#Ba" n="24"/>alio per aliud, et ita apparitio. Dicendum,
+<lb ed="#Ba" n="25"/>quod aequivocatio est in apparitione : quia
+<lb ed="#Ba" n="26"/>apparitio a Sanctis vocatur per 
+assum<lb break="no" ed="#Ba" n="27"/>ptam creaturam ad sensum 
+manifesta<lb break="no" ed="#Ba" n="28"/>tio : sed cognitio quae est in missione, est
+<lb ed="#Ba" n="29"/>ad intellectum.
+</p>
+            <p xml:id="alalal-a78436-d1e380">
+               <lb ed="#Ba" n="30"/>Item, in Novo Testamento apparuerunt
+<lb ed="#Ba" n="31"/>persone: ut Pater in voce, et Spiritus
+<lb ed="#Ba" n="32"/>in igne, linguis, et flatu, et Filius in car
+<lb ed="#Ba" n="33"/>ne : sed ill dicuntur missiones visibiles
+<lb ed="#Ba" n="34"/>de quibus infra erit sermo 2, : sed modo
+<lb ed="#Ba" n="35"/>non loquimur nisi de apparitione 
+Vete<lb break="no" ed="#Ba" n="36"/>ris Testamenti.
+</p>
+            <p xml:id="alalal-a78436-d1e398">
+               <lb ed="#Ba" n="37"/>Processio autem et missio (sicut etiam
+<lb ed="#Ba" n="38"/>probat objectio) non differunt nisi 
+secun<lb break="no" ed="#Ba" n="39"/>dum rationem : quia processio non dicit
+<lb ed="#Ba" n="40"/>nisi comparationem procedentis ad eum
+<lb ed="#Ba" n="41"/>a quo procedit : et si dicitur temporalis
+<lb ed="#Ba" n="42"/>processio, iterum non addit nisi 
+conno<lb break="no" ed="#Ba" n="43"/>tationem effectus in creatura : sed missio
+<lb ed="#Ba" n="44"/>dicit comparationem illam, Praeterea
+<lb ed="#Ba" n="45"/>comparationem ad eum ad quem vel in
+<lb ed="#Ba" n="46"/>quem mittitur. Datio autem non dicit
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="47"/>distinctionem persone nuntiantis. Unde
+<lb ed="#Ba" n="48"/>ista tria differunt : quia processio 
+prin<lb break="no" ed="#Ba" n="49"/>cipaliter dicit distinctionem procedentis
+<lb ed="#Ba" n="50"/>ab eo aquo procedit : missio autem 
+prin<lb break="no" ed="#Ba" n="51"/>cipaliter distinctionem nuntii ad 
+nuntian<lb break="no" ed="#Ba" n="52"/>tem, et ad eum cui fit nuntiatio: datio
+<lb ed="#Ba" n="53"/>autem principaliter effectum connotat.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

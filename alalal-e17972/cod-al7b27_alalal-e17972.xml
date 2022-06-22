@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="693"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e17972"><!-- l2d44a6 -->
+            <head xml:id="alalal-e17972-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-e17972-Hd1e101" type="question-title">Utrum semper obediendum est
+supervori ?</head>
+            <p xml:id="alalal-e17972-d1e104">
+               <lb ed="#Bc" n="16"/>ARTICULUS VI.
+<lb ed="#Bc" n="17"/>Utrum semper obediendum est
+<lb ed="#Bc" n="18"/>supervori ?
+</p>
+            <p xml:id="alalal-e17972-d1e113">
+               <lb ed="#Bc" n="19"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="20"/>ibi, C, circa medium: <quote xml:id="alalal-e17972-Qd1e119"> Ipsos humana-~
+<lb ed="#Bc" n="21"/>rum rerum gradus adverte, etc. </quote>
+            </p>
+            <p xml:id="alalal-e17972-d1e125">
+               <lb ed="#Bc" n="22"/>Et queruntur duo, quorum primum
+<lb ed="#Bc" n="23"/>est, Utrum semper hoc verum est quod
+<lb ed="#Bc" n="24"/>dicit Augustinus, quod superiori est
+<lb ed="#Bc" n="25"/>obediendum, quando superior et inferior
+<lb ed="#Bc" n="26"/>contraria preecipiunt ?
+</p>
+            <p xml:id="alalal-e17972-d1e139">
+               <lb ed="#Bc" n="27"/>Secundum, Utrum potestati 
+tyranno<lb break="no" ed="#Bc" n="28"/>rum sit obediendum ?
+</p>
+            <p xml:id="alalal-e17972-d1e146">
+               <lb ed="#Bc" n="29"/>Ap PRIMUM Sic proceditur :
+<lb ed="#Bc" n="30"/>1. Super illud Apocal. n, 12 :<quote xml:id="alalal-e17972-Qd1e152"> Et 
+An<lb break="no" ed="#Bc" n="31"/>gelo Pergamt Ecclesie scribe</quote> : dicit
+<lb ed="#Bc" n="32"/>Glossa, <quote xml:id="alalal-e17972-Qd1e159"> Non audeat Archiepiscopus 
+su<lb break="no" ed="#Bc" n="33"/>per subditos Episcopi manum _ ponere
+<lb ed="#Bc" n="34"/>sine eo. </quote> Ergo Archiepiscopus non 
+pot<lb break="no" ed="#Bc" n="35"/>st contraria precipere Episcoporum
+<lb ed="#Bc" n="36"/>subditis, ut videtur : ergo non est 
+gene<lb break="no" ed="#Bc" n="37"/>raliter verum quod hic dicitur.
+</p>
+            <p xml:id="alalal-e17972-d1e174">
+               <lb ed="#Bc" n="38"/>2. Item, Immediatior potestas magis
+<lb ed="#Bc" n="39"/>influit quam mediata: sed inferior 
+po<lb break="no" ed="#Bc" n="40"/>
+               <lb ed="#Bc" n="41"/>testas est immediatior : ergo est fortior
+<lb ed="#Bc" n="42"/>super subditos, quam superioris : ergo
+<lb ed="#Bc" n="43"/>si contraria sint, standum est inferiori,
+<lb ed="#Bc" n="44"/>et non superiori.
+</p>
+            <p xml:id="alalal-e17972-d1e192">
+               <lb ed="#Bc" n="45"/>SED CONTRA :
+<lb ed="#Bc" n="46"/>Boetius dicit, quod quidquid potest
+<lb ed="#Bc" n="47"/>potentia inferior, potest et superior et
+<lb ed="#Bc" n="48"/>plus : ergo si contrarientur, necesse est
+<lb ed="#Bc" n="49"/>cedere inferiorem.
+</p>
+            <p xml:id="alalal-e17972-d1e205">
+               <lb ed="#Bc" n="50"/>Solutio. Dicendum, quod superior et
+<lb ed="#Bc" n="51"/>inferior habent se duobus modis, scilicet
+<lb ed="#Bc" n="52"/>ut in ordine ad se invicem, ita quod tota
+<lb ed="#Bc" n="53"/>inferior exeat a superiori, sicut potestas
+<lb ed="#Bc" n="54"/>Proconsulis a potestate Imperatoris, et
+<lb ed="#Bc" n="55"/>Episcoporum a Papa: et tunc superior
+<lb ed="#Bc" n="56"/>potestas remanet ordinaria et immediata
+<lb ed="#Bc" n="57"/>omnibus subditis inferioribus : et in tali
+<lb ed="#Bc" n="58"/>casu loquitur Augustinus hic, et non
+<lb ed="#Bc" n="59"/>habet instantiam. Quandoque autem sic
+<lb ed="#Bc" n="60"/>se habent ut ambae sint exeuntes ab una
+<lb ed="#Bc" n="61"/>universali quae subdit inferiorem 
+supe<lb break="no" ed="#Bc" n="62"/>riori in quibus vult, et in quibus vult
+<lb ed="#Bc" n="63"/>non subdit : et tunc inferior potest 
+ali<lb break="no" ed="#Bc" n="64"/>quid praecipere quod superior non potest
+<lb ed="#Bc" n="65"/>retractare et sic se habent potestas
+<lb ed="#Bc" n="66"/>Episcopi et Archiepiscopi in 
+compara<lb break="no" ed="#Bc" n="67"/>tione ad Papam.
+</p>
+            <p xml:id="alalal-e17972-d1e247">
+               <lb ed="#Bc" n="68"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

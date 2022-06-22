@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="862"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h84456"><!-- l4d21a1 -->
+            <head xml:id="alalal-h84456-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-h84456-Hd1e101" type="question-title">An aliqua venialia dimitiantur post
+hane vitam ?.</head>
+            <p xml:id="alalal-h84456-d1e104">
+               <lb ed="#Be" n="14"/>ARTICULUS I.
+<lb ed="#Be" n="15"/>An aliqua venialia dimitiantur post
+<lb ed="#Be" n="16"/>hane vitam ?.
+</p>
+            <p xml:id="alalal-h84456-d1e113">
+               <lb ed="#Be" n="17"/>Incidit autem questio circa principium
+<lb ed="#Be" n="18"/>lectionis, Utrum aliqua venialium post
+<lb ed="#Be" n="19"/>hance vitam dimittantur, sicut videtur in
+<lb ed="#Be" n="20"/>Littera probari?
+</p>
+            <p xml:id="alalal-h84456-d1e124">
+               <lb ed="#Be" n="21"/>Videtur autem, quod sic :
+<lb ed="#Be" n="22"/>1. Gregorius in libro IV Dialogorum :
+<lb ed="#Be" n="23"/>
+               <quote xml:id="alalal-h84456-Qd1e132"> Quedam culpe in hoc seculo rela~
+<lb ed="#Be" n="24"/>xantur : quaedam vero parve et in hoc
+<lb ed="#Be" n="25"/>et in futuro. </quote>
+            </p>
+            <p xml:id="alalal-h84456-d1e141">
+               <lb ed="#Be" n="26"/>Eadem verba dicit Beda super 
+Mat<lb break="no" ed="#Be" n="27"/>theum, xu, 32, in Glossa :. Non 
+re<lb break="no" ed="#Be" n="28"/>mittetur ei, neque in hoc seculo, neque
+<lb ed="#Be" n="29"/>in futuro.
+</p>
+            <p xml:id="alalal-h84456-d1e152">
+               <lb ed="#Be" n="30"/>2. Item, 1 ad Corinth. m1, 12: <quote xml:id="alalal-h84456-Qd1e156"
+                      source="http://scta.info/resource/Icor3_12">Si ques
+<lb ed="#Be" n="31"/>superedificat super fundamentum hoc...
+<lb ed="#Be" n="32"/>ligna, fenum, stipulam</quote>. Per totam 
+au<lb break="no" ed="#Be" n="33"/>tem Glossam exponitur de veniali. Esto
+<lb ed="#Be" n="34"/>quod aliquis existens in gratia, habens
+<lb ed="#Be" n="35"/>tamen culpas veniales, sit in ultimo in-
+<cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="36"/>stanti vite sue, et moriatur cum 
+volun<lb break="no" ed="#Be" n="37"/>tate venialium non dolens de ipsis :
+con<lb break="no" ed="#Be" n="38"/>stat, quod ille salvabitur, quia est in
+<lb ed="#Be" n="39"/>gratia, et venialia non auferunt gratiam :
+<lb ed="#Be" n="40"/>constat iterum, quod peccatum manens
+<lb ed="#Be" n="41"/>in voluntate non remittitur : ergo 
+vide<lb break="no" ed="#Be" n="42"/>tur, quod necesse sit, quod post mortem
+<lb ed="#Be" n="43"/>dimittantur.
+</p>
+            <p xml:id="alalal-h84456-d1e190">
+               <lb ed="#Be" n="44"/>Si forte dicas, quod convertitur in
+<lb ed="#Be" n="45"/>mortale propter voluntatem iterandi
+<lb ed="#Be" n="46"/>hoc ridiculum est, quod propter hoc
+<lb ed="#Be" n="47"/>otiosum convertatur in mortale, quia 
+vo<lb break="no" ed="#Be" n="48"/>luntatem habet iterandi.
+</p>
+            <p xml:id="alalal-h84456-d1e203">
+               <lb ed="#Be" n="49"/>Si forte dicas, quod voluntas 
+confir<lb break="no" ed="#Be" n="50"/>matur in statu in quo moritur : hoc 
+qui<lb break="no" ed="#Be" n="51"/>dem quod dicis non est probatum. Sed
+<lb ed="#Be" n="52"/>sit quod dicis, secundum hoc istius 
+vo<lb break="no" ed="#Be" n="53"/>luntas simpliciter erit conjuncta Deo et
+<lb ed="#Be" n="54"/>secundum habitum, habens tamen 
+dispo<lb break="no" ed="#Be" n="55"/>sitionem ad aversionem secundum 
+ac<lb break="no" ed="#Be" n="56"/>tum : et talis status nullus est 
+confirma<lb break="no" ed="#Be" n="57"/>ti: unde patet, quod figmentum est quod
+<lb ed="#Be" n="58"/>dicis : ergo videtur, quod culpa aliqua
+<lb ed="#Be" n="59"/>post mortem dimittatur.
+</p>
+            <p xml:id="alalal-h84456-d1e229">
+               <lb ed="#Be" n="60"/>Sed IN conTRARIUM hujus objiciunt
+<lb ed="#Be" n="61"/>quidam sic :
+<lb ed="#Be" n="62"/>1. Post mortem non est tempus 
+meren<lb break="no" ed="#Be" n="63"/>di: sed deletio culpae fit per meritum :
+<lb ed="#Be" n="64"/>ergo post mortem non est tempus 
+dele<lb break="no" ed="#Be" n="65"/>tionis alicujus culpe : ergo nec venia~
+</p>
+            <p xml:id="alalal-h84456-d1e245">
+               <lb ed="#Be" n="66"/>2. Adhuc, Veniale oritur ex fomite :
+<lb ed="#Be" n="67"/>fomes autem est conjuncti, et non 
+ani<lb break="no" ed="#Be" n="68"/>me secundum se : ergo et veniale : ergo
+<lb ed="#Be" n="69"/>soluto fomite, solvitur et veniale : sed
+<lb ed="#Be" n="70"/>solvitur fomes in morte : ergo et 
+ve<lb break="no" ed="#Be" n="71"/>niale.
+</p>
+            <p xml:id="alalal-h84456-d1e262">
+               <lb ed="#Be" n="72"/>3. Adhuc, Poena non liberat nisi a
+<lb ed="#Be" n="73"/>pena : sed post mortem non erit 
+ex<lb break="no" ed="#Be" n="74"/>pians nisi poena : ergo non solvit nisi a
+<lb ed="#Be" n="75"/>poena: ergo non culpam aliquam.
+</p>
+            <p xml:id="alalal-h84456-d1e273">
+               <lb ed="#Be" n="76"/>4. Adhuc, Supra habitum est, quod
+<pb ed="#Be" n="863"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>non deletur veniale, nisi premissa 
+con<lb break="no" ed="#Be" n="2"/>tritione aliqua : sed post mortem non
+<lb ed="#Be" n="3"/>erit contritio aliqua : ergo post mortem
+<lb ed="#Be" n="4"/>non deletur veniale quoad culpam.
+</p>
+            <p xml:id="alalal-h84456-d1e291">
+               <lb ed="#Be" n="5"/>5. Adhuc, Quidquid potest delere 
+pe<lb break="no" ed="#Be" n="6"/>na aliqua, magis potest delere poena
+<lb ed="#Be" n="7"/>maxima : sed maxima poena est mors :
+<lb ed="#Be" n="8"/>ergo quidquid delet pcoena aliqua, illud
+<lb ed="#Be" n="9"/>delebit mors: sed veniale delere potest
+<lb ed="#Be" n="10"/>penam, ut dicis : quia post mortem 
+re<lb break="no" ed="#Be" n="11"/>laxatur poena purgatorii, ut dicis : ergo
+<lb ed="#Be" n="12"/>delet et ante mortem : et ita non veniet
+<lb ed="#Be" n="13"/>ad purgatorium : ergo nulla culpa 
+di<lb break="no" ed="#Be" n="14"/>mittitur post hanc vitam, ut videtur.
+</p>
+            <p xml:id="alalal-h84456-d1e315">
+               <lb ed="#Be" n="15"/>Solutio. Cum <ref xml:id="alalal-h84456-Rd1e319">Gregorius in libro IV
+<lb ed="#Be" n="16"/>Dialogorum</ref> non solum dicat, sed etiam
+<lb ed="#Be" n="17"/>probet poenam et culpam post hanc 
+vi<lb break="no" ed="#Be" n="18"/>tam deleri, reputo presumptionem 
+di<lb break="no" ed="#Be" n="19"/>cere nullam culpam venialem post hanc
+<lb ed="#Be" n="20"/>vitam posse deleri: sed dicendum et 
+as<lb break="no" ed="#Be" n="21"/>serendum cum Sanctis videtur, multa
+<lb ed="#Be" n="22"/>venialia deleri posse post mortem.
+</p>
+            <p xml:id="alalal-h84456-d1e338">
+               <lb ed="#Be" n="23"/>Ad pPRImMuM contra hoc, videtur esse
+<lb ed="#Be" n="24"/>dicendum, quod post mortem non est
+<lb ed="#Be" n="25"/>tempus meritum augendi, sed utendi
+<lb ed="#Be" n="26"/>merito ad efficaciam ad quam est 
+con<lb break="no" ed="#Be" n="27"/>tingens. Dicit autem Augustinus, quod
+<lb ed="#Be" n="28"/>quidam dum viverent, meruerunt ut
+<lb ed="#Be" n="29"/>suffragia eis possint prodesse. Ita dico,
+<lb ed="#Be" n="30"/>quod illi dum viverent, hoc meruerunt,
+<lb ed="#Be" n="31"/>quod gratia eis et poena ad deletionem
+<lb ed="#Be" n="32"/>venialium prodesse possint : et ideo usum
+<lb ed="#Be" n="33"/>sui meriti post mortem recipiunt preter
+<lb ed="#Be" n="34"/>meritorum .augmentum : et augmentum
+<lb ed="#Be" n="35"/>meritorum respicit majorem coronam,
+<lb ed="#Be" n="36"/>et habebunt majorem.
+</p>
+            <p xml:id="alalal-h84456-d1e371">
+               <lb ed="#Be" n="37"/>Ad aliud dicendum, quod hoc nihil
+<lb ed="#Be" n="38"/>valet, Si aliquid oriatur ex aliquo, quod
+<lb ed="#Be" n="39"/>tantum ex illo destruatur cum 
+destru<lb break="no" ed="#Be" n="40"/>ctione illius : quia omne peccatum 
+ori<lb break="no" ed="#Be" n="41"/>tur ex fomite, et tamen manet in anima
+<lb ed="#Be" n="42"/>destructo fomite : et universale oritur ex
+<lb ed="#Be" n="43"/>sensu, et tamen manet in anima 
+destru<lb break="no" ed="#Be" n="44"/>cto sensu. Unde illa consequentia in
+<lb ed="#Be" n="45"/>nullo valet, ubi aliquid causatur in 
+sub<lb break="no" ed="#Be" n="46"/>jecto manente : et gratia subjecti etiam
+<lb ed="#Be" n="47"/>potest manere etiam causa sua 
+destru<lb break="no" ed="#Be" n="48"/>cta.
+</p>
+            <p xml:id="alalal-h84456-d1e401">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="49"/>Ad aliud dicendum, quod poena per
+<lb ed="#Be" n="50"/>se non liberat nisi a poena : sed poena in
+<lb ed="#Be" n="51"/>subjecto quod est informatum gratia,
+<lb ed="#Be" n="52"/>potest liberare etiam a culpa : et tales
+<lb ed="#Be" n="53"/>sunt illi qui sunt in purgatorio.
+</p>
+            <p xml:id="alalal-h84456-d1e417">
+               <lb ed="#Be" n="54"/>Ad aliud dicendum, quod non aliter
+<lb ed="#Be" n="55"/>deletur veniale, sed quod hoc modo
+<lb ed="#Be" n="56"/>congruentius deleatur : cum enim 
+po<lb break="no" ed="#Be" n="57"/>tius sit dispositio ad culpam quam culpa,
+<lb ed="#Be" n="58"/>etiam alio modo potest deleri.
+</p>
+            <p xml:id="alalal-h84456-d1e430">
+               <lb ed="#Be" n="59"/>Ad vuLtmum dicendum, quod poeena
+<lb ed="#Be" n="60"/>mortis bene deleret si ad hoc 
+ordinare<lb break="no" ed="#Be" n="61"/>tur, sicut in martyribus: sed non ad
+<lb ed="#Be" n="62"/>hoc dirigitur in aliis communiter 
+morien<lb break="no" ed="#Be" n="63"/>tibus : et ideo non delet.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

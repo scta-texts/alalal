@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 20</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 20</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="301"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a60495"><!-- l1d9a20 -->
+            <head xml:id="alalal-a60495-Hd1e99">Articulus 20</head>
+            <head xml:id="alalal-a60495-Hd1e101" type="question-title">Utrum generatio Filii ex Maria Virgine
+sit a Patre aut a tota Trinitate ?</head>
+            <p xml:id="alalal-a60495-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="29"/>ARTICULUS XX.
+<lb ed="#Ba" n="30"/>Utrum generatio Filii ex Maria Virgine
+<lb ed="#Ba" n="31"/>sit a Patre aut a tota Trinitate ?
+</p>
+            <p xml:id="alalal-a60495-d1e115">
+               <lb ed="#Ba" n="32"/>Deinde quaeritur de hoc quod dict :
+<lb ed="#Ba" n="33"/>
+               <quote xml:id="alalal-a60495-Qd1e121"> Quamquam per hoc quod dicit hodie,
+<lb ed="#Ba" n="34"/>etiam possit intelligi dies, etc. </quote>
+            </p>
+            <p xml:id="alalal-a60495-d1e127">
+               <lb ed="#Ba" n="35"/>1. Hoc enim falsum videtur : quia nec
+<lb ed="#Ba" n="36"/>Pater nec Spiritus sanctus genuit eum ex
+<lb ed="#Ba" n="37"/>Maria Virgine. Ipse enim generatione
+<lb ed="#Ba" n="38"/>temporali est in terris sine patre : sicut
+<lb ed="#Ba" n="39"/>generatione aeterna in ccelis est sine 
+ma<lb break="no" ed="#Ba" n="40"/>tre.
+</p>
+            <p xml:id="alalal-a60495-d1e144">
+               <lb ed="#Ba" n="41"/>2. Praeterea, Gum tres communiter 
+in<lb break="no" ed="#Ba" n="42"/>carnationem ejus fecerunt, secundum hoc
+<lb ed="#Ba" n="43"/>quod dicit, tres communiter patres 
+fue<lb break="no" ed="#Ba" n="44"/>runt, et genuerunt eum : ergo ipse 
+Fi<lb break="no" ed="#Ba" n="45"/>lius genuit seipsum, quod falsum est.
+</p>
+            <p xml:id="alalal-a60495-d1e157">
+               <lb ed="#Ba" n="46"/>Sotvtio. Dicendum, quod improuprie
+<lb ed="#Ba" n="47"/>locutus est Augustinus, et secundum 
+tem<lb break="no" ed="#Ba" n="48"/>poralem generationem si dicatur quod
+<lb ed="#Ba" n="49"/>Pater genuit, exponendum est genuit,
+<lb ed="#Ba" n="50"/>id est, fecit quod generaretur : et est 
+si<lb break="no" ed="#Ba" n="51"/>milis modus loquendt, Matth. ur, 9, 
+su<lb break="no" ed="#Ba" n="52"/>per illud, Potens est Deus de lapidibus
+<lb ed="#Ba" n="53"/>istis, etc , ubi dicit Glossa: In 
+hujusmo<lb break="no" ed="#Ba" n="54"/>di rei testimonium Deus de Sara genuit
+<lb ed="#Ba" n="55"/>filiam, hoc est, fecit quod generaretur de
+<lb ed="#Ba" n="56"/>Sara.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

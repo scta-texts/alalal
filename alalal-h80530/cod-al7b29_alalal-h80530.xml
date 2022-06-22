@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="841"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h80530"><!-- l4d20a9 -->
+            <head xml:id="alalal-h80530-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-h80530-Hd1e101" type="question-title">An horrendum fit incidere in manus
+Dei ?</head>
+            <p xml:id="alalal-h80530-d1e104">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="21"/>ARTICULUS IX.
+<lb ed="#Be" n="22"/>An horrendum fit incidere in manus
+<lb ed="#Be" n="23"/>Dei ?
+</p>
+            <p xml:id="alalal-h80530-d1e115">
+               <lb ed="#Be" n="24"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="25"/>ibi, B, circa medium: <quote xml:id="alalal-h80530-Qd1e121"> Horrendum est
+<lb ed="#Be" n="26"/>incidere, etc. </quote>
+            </p>
+            <p xml:id="alalal-h80530-d1e127">
+               <lb ed="#Be" n="27"/>Contra :
+<lb ed="#Be" n="28"/>Deus in infinitum est magis est 
+mise<lb break="no" ed="#Be" n="29"/>ricors, quam aliquis homo: ergo minus
+<lb ed="#Be" n="30"/>horrendum est incidere in manus Dei,
+<lb ed="#Be" n="31"/>quam in manus hominum: quia multae
+<cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="32"/>sunt miserationes ejus: ergo videtur,
+<lb ed="#Be" n="33"/>quod falsum dicat in Littera.
+</p>
+            <p xml:id="alalal-h80530-d1e148">
+               <lb ed="#Be" n="34"/>Soxutio. Dicendum quod, in opere 
+mi<lb break="no" ed="#Be" n="35"/>sericordie superexaltantis judicium, 
+le<lb break="no" ed="#Be" n="36"/>vius est incidere in manus Dei, quam in
+<lb ed="#Be" n="37"/>manus hominis, hoc est, dum tempus
+<lb ed="#Be" n="38"/>est miserendi et pcenitentie: dum au~
+<lb ed="#Be" n="39"/>tem justitias judicabit in futuro, 
+horren<lb break="no" ed="#Be" n="40"/>dum est incidere in manus Dei magis
+<lb ed="#Be" n="41"/>quam in manus hominis: quia tunc 
+sic<lb break="no" ed="#Be" n="42"/>ut dicitur, Proverb. vi, 34 et 33 : Zelus
+<lb ed="#Be" n="43"/>et furor viri non parcet in die vindicte :
+<lb ed="#Be" n="44"/>nec acquiescet cujusquam precibus, nec
+<lb ed="#Be" n="45"/>suscipiet pro redemptione dona plurima.
+<lb ed="#Be" n="46"/>Et per hoc patet solutio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

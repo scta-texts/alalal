@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="534"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f03667"><!-- l3d28dt1 -->
+            <head xml:id="alalal-f03667-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-f03667-d1e101">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="50"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-f03667-d1e108">
+               <lb ed="Bd" n="51"/>
+               <quote xml:id="alalal-f03667-Qd1e112"> Hic queri potest, Utrum in illo
+<lb ed="Bd" n="52"/>mandato, etc. </quote>
+               <cb ed="#Bd" n="d"/>
+               <lb ed="Bd" n="53"/>In hac parte agit de dilectione in 
+com<lb break="no" ed="Bd" n="54"/>paratione ad diligibile.
+</p>
+            <p xml:id="alalal-f03667-d1e124">
+               <lb ed="Bd" n="55"/>Et dividitur in partes tres secundum
+<lb ed="Bd" n="56"/>tres distinctiones quae hic continentur:
+<lb ed="Bd" n="57"/>in quarum prima agit de numero 
+diligen<lb break="no" ed="Bd" n="58"/>dorum. In secunda, de ordine, quae 
+in<lb break="no" ed="Bd" n="59"/>cipit, ibi, Distinct. XXIX, A, <quote xml:id="alalal-f03667-Qd1e137"> Post 
+pra<lb break="no" ed="Bd" n="60"/>dicta de ordine charitatis agendum est.</quote>
+            </p>
+            <p xml:id="alalal-f03667-d1e143">
+               <pb ed="#Bd" n="535"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>In tertia parte, agit de quibusdam 
+du<lb break="no" ed="Bd" n="2"/>bitabilibus quae sequuntur ordinem 
+di<lb break="no" ed="Bd" n="3"/>ligendorum : et haec incipit in distinct.
+<lb ed="Bd" n="4"/>XXX, ibi, A, <quote xml:id="alalal-f03667-Qd1e158"> Hic quaeri solet, Quid
+<lb ed="Bd" n="5"/>potius sil plurisque meriti, etc. </quote>
+            </p>
+            <p xml:id="alalal-f03667-d1e165">
+               <lb ed="Bd" n="6"/>Prima harum quae est praesentis 
+lectio<lb break="no" ed="Bd" n="7"/>nis, dividitur in quatuor partes: in 
+qua<lb break="no" ed="Bd" n="8"/>rum prima determinat Magister 
+nume<lb break="no" ed="Bd" n="9"/>rum diligendorum ex charitate. In 
+se<lb break="no" ed="Bd" n="10"/>cunda quaerit, Qualiter in hunc 
+nume<lb break="no" ed="Bd" n="11"/>rum incidunt Angeli? In tertia, Qualiter
+<lb ed="Bd" n="12"/>in illum numerum incidit Christus ? In
+<lb ed="Bd" n="13"/>quarla, Quot modis dicitur proximus ?
+<lb ed="Bd" n="14"/>Secunda, ibi, B, §4: <quote xml:id="alalal-f03667-Qd1e186"> Oritur autem
+<lb ed="Bd" n="15"/>hie questio de Angelis, etc. </quote> Tertia,
+<lb ed="Bd" n="16"/>ibi, B, § 2: <quote xml:id="alalal-f03667-Qd1e194"> Me guo et Dominus 
+pro<lb break="no" ed="Bd" n="17"/>zimum se nostrum, etc., </quote> Quarta, ibi,
+<lb ed="Bd" n="18"/>CG, <quote xml:id="alalal-f03667-Qd1e201"> Mie notandum est proximum dri
+<lb ed="Bd" n="19"/>diversis modis, ete. </quote> :
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

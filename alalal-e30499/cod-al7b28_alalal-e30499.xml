@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="158"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e30499"><!-- l3d7a7 -->
+            <head xml:id="alalal-e30499-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-e30499-Hd1e101" type="question-title">An Christus congrue dicitur homo
+dominicus ?</head>
+            <p xml:id="alalal-e30499-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="19"/>ARTICULUS VII.
+<lb ed="Bd" n="20"/>An Christus congrue dicitur homo
+<lb ed="Bd" n="21"/>dominicus ?
+</p>
+            <p xml:id="alalal-e30499-d1e115">
+               <lb ed="Bd" n="22"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="Bd" n="23"/>M, <quote xml:id="alalal-e30499-Qd1e121"> Non tamen congrue dicitur homo
+<lb ed="Bd" n="24"/>dominicus. </quote>
+            </p>
+            <p xml:id="alalal-e30499-d1e127">
+               <lb ed="Bd" n="25"/>Contrarium enim videtur quod
+<lb ed="Bd" n="26"/>1. 1 Reg. nun, 19, super illud : <quote xml:id="alalal-e30499-Qd1e133">Cognovit
+<lb ed="Bd" n="27"/>Elcana</quote>, dicit Glossa : <quote xml:id="alalal-e30499-Qd1e138"> Quis hic nisi 
+ho<lb break="no" ed="Bd" n="28"/>Lib.
+<cb ed="#Bd" n="c"/>
+                  <lb ed="Bd" n="29"/>mo dominicus, Dominus scilicet Jesus
+<lb ed="Bd" n="30"/>Christus. </quote>
+            </p>
+            <p xml:id="alalal-e30499-d1e151">
+               <lb ed="Bd" n="31"/>2. item. <ref xml:id="alalal-e30499-Rd1e155">Augustinus in Sermone 
+Do<lb break="no" ed="Bd" n="32"/>mini in monte</ref> : <quote xml:id="alalal-e30499-Qd1e160"> Nulli licet ignorare 
+re<lb break="no" ed="Bd" n="33"/>gnum Dei, cum ejus unigenitus non 
+so<lb break="no" ed="Bd" n="34"/>lum intelligibiliter, sed etiam sensibiliter
+<lb ed="Bd" n="35"/>ef, visibiliter in homine dominico de ce~
+<lb ed="Bd" n="36"/>lo venerit. </quote>
+            </p>
+            <p xml:id="alalal-e30499-d1e172">
+               <lb ed="Bd" n="37"/>3. Item, <ref xml:id="alalal-e30499-Rd1e176">
+                  <name xml:id="alalal-e30499-Nd1e178">Cassianus</name> in sexto contra
+<lb ed="Bd" n="38"/>Nestorium</ref>: <quote xml:id="alalal-e30499-Qd1e183"> Quamvis ergo cum ipsa
+<lb ed="Bd" n="39"/>confessione nostra ante Virginis partum
+<lb ed="Bd" n="40"/>atque conceptum dominicus homo non
+<lb ed="Bd" n="41"/>fuerit Christus : tamen quia te solitarius
+<lb ed="Bd" n="42"/>dicitur, homo Deus in Scripturis sacris
+<lb ed="Bd" n="43"/>sine exordio predicatur : et tanta 
+homi<lb break="no" ed="Bd" n="44"/>nis ac Dei unitas legitur, ut et homo
+<pb ed="#Bd" n="159"/>
+                  <cb ed="#Bd" n="a"/>
+                  <lb ed="Bd" n="1"/>Deo semper antea cowternus, et postea
+<lb ed="Bd" n="2"/>homini Deus compassus esse videatur. </quote>
+            </p>
+            <p xml:id="alalal-e30499-d1e208">
+               <lb ed="Bd" n="3"/>1. Praterea, Damascenus sape dicit
+<lb ed="Bd" n="4"/>hominem de.ficatum : ergo et potest dici
+<lb ed="Bd" n="5"/>homo dominicus,
+</p>
+            <p xml:id="alalal-e30499-d1e217">
+               <lb ed="Bd" n="6"/>Si forte dicatur, quod dominicus 
+no<lb break="no" ed="Bd" n="7"/>men possessivum est, et ita signat rem
+<lb ed="Bd" n="8"/>nominis cui adjungitur esse possessam.
+<lb ed="Bd" n="9"/>Contras: Formam servilem accepit 
+Chri<lb break="no" ed="Bd" n="10"/>stus, et servus Domini dicitur, Isa. uu,
+<lb ed="Bd" n="11"/>43: Bece intelliget servus meus.
+</p>
+            <p xml:id="alalal-e30499-d1e233">
+               <lb ed="Bd" n="12"/>Solutio Non debet dici homo 
+domi<lb break="no" ed="Bd" n="13"/>nicus : sed debet dici, quod Christus 
+ho<lb break="no" ed="Bd" n="14"/>mo dicit personam : et illa non fuit um-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="15"/>quam serva, licet servilem accepit 
+natu<lb break="no" ed="Bd" n="16"/>ram.
+</p>
+            <p xml:id="alalal-e30499-d1e249">
+               <lb ed="Bd" n="17"/>Quod autem ipse dicitur servus, non
+<lb ed="Bd" n="18"/>convenit ei gratia persone simpliciter,
+<lb ed="Bd" n="19"/>sed gratia natures quae est in persona: et
+<lb ed="Bd" n="20"/>ideo quia dominicus sonat servilem esse
+<lb ed="Bd" n="21"/>personam Christi, ideo retractat se 
+Au<lb break="no" ed="Bd" n="22"/>gustinus.
+</p>
+            <p xml:id="alalal-e30499-d1e266">
+               <lb ed="Bd" n="23"/>Dicitur tamen dominicus quandoque
+<lb ed="Bd" n="24"/>non possessivum, sed pro habente 
+domi<lb break="no" ed="Bd" n="25"/>nium, ut logicus qui habet logicam : et
+<lb ed="Bd" n="26"/>sic quidam dicunt eum dominicum, sed
+<lb ed="Bd" n="27"/>non debet extendi, quia magis proprie
+<lb ed="Bd" n="28"/>sonat personam servilem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

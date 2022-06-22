@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="70"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e14164"><!-- l3d3et2 -->
+            <head xml:id="alalal-e14164-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-e14164-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="20"/>Expositio textus.
+</p>
+            <p xml:id="alalal-e14164-d1e108">
+               <lb ed="Bd" n="21"/>
+               <quote xml:id="alalal-e14164-Qd1e112"> Quocirca primitiam nostra masse,
+<lb ed="Bd" n="22"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-e14164-d1e118">
+               <lb ed="Bd" n="23"/>Hee est secunda pars, et est conclusio
+<lb ed="Bd" n="24"/>quaedam quae sequitur ex praecedente.
+</p>
+            <p xml:id="alalal-e14164-d1e125">
+               <lb ed="Bd" n="25"/>Et nota, quod primitia dicitur 
+dupli<lb break="no" ed="Bd" n="26"/>citer, scilicet quod propter majorem vi-
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="27"/>gorem nature citius ad maturitatem
+<lb ed="Bd" n="28"/>pertingit, hoc primitia dicitur : et hoc
+<lb ed="Bd" n="29"/>offerebatur Domino secundum legem.
+<lb ed="Bd" n="30"/>Primitia etiam dicitur primum nobilitate.
+<lb ed="Bd" n="31"/>Et utroque modo caro Christi dicitur
+<lb ed="Bd" n="32"/>primitia : quia illa primo munditiam
+<lb ed="Bd" n="33"/>atlingens, omnes ad maturitatem 
+mun<lb break="no" ed="Bd" n="34"/>ditia adduxit: et quia illa propter 
+unio<lb break="no" ed="Bd" n="35"/>nem deitatis dignissima fuit.
+</p>
+            <p xml:id="alalal-e14164-d1e155">
+               <lb ed="Bd" n="36"/>Deinde accipe illud : <quote xml:id="alalal-e14164-Qd1e159"> Non eum mater
+<lb ed="Bd" n="37"/>concupiscentia, sed gratia, etc., </quote> quia est
+<lb ed="Bd" n="38"/>in actu matris concupiscentis, Vel verius,
+<pb ed="#Bd" n="71"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>hec est quae semper fornicatur cum 
+de<lb break="no" ed="Bd" n="2"/>mone, ut filios peccatores ex adulterio
+<lb ed="Bd" n="3"/>statuat. Gratia autem dicitur Christi quae
+<lb ed="Bd" n="4"/>est gratia unionis, non habitus, ut in
+<lb ed="Bd" n="5"/>nobis: sed concepit hominem Deum in
+<lb ed="Bd" n="6"/>hypostasi. Non hoc autem ideo dico,
+<lb ed="Bd" n="7"/>quod Christus gratiam habitus non 
+ha<lb break="no" ed="Bd" n="8"/>buerit, sed illum habuit in virtutibus et
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="9"/>donis : sed unionis gratia non fuit 
+habi<lb break="no" ed="Bd" n="10"/>tualis, ut quidam errantes dixerunt, quia
+<lb ed="Bd" n="11"/>secundum hoc ille non esset filius nisi
+<lb ed="Bd" n="12"/>acceptione gratiae illius ; sed gratia 
+unio<lb break="no" ed="Bd" n="13"/>nis datur ad esse naturaliter Filium Dei
+<lb ed="Bd" n="14"/>in persona una utriusque nature.
+</p>
+            <p xml:id="alalal-e14164-d1e204">
+               <lb ed="Bd" n="15"/>Alia omnia illius partis plana sunt per
+<lb ed="Bd" n="16"/>disputationem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

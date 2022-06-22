@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 27</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 27</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="88"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a17604"><!-- l1d2a27 -->
+            <head xml:id="alalal-a17604-Hd1e99">Articulus 27</head>
+            <head xml:id="alalal-a17604-Hd1e101" type="question-title">Cum dicitur, In nomine Patris, et Filii,
+et Spiritus sancti, gued dicit ibi, In
+nomine, an essentiam, vel personam ? </head>
+            <p xml:id="alalal-a17604-d1e104">
+               <lb ed="#Ba" n="23"/>ARTICULUS XXVII.
+<lb ed="#Ba" n="24"/>Cum dicitur, In nomine Patris, et Filii,
+<lb ed="#Ba" n="25"/>et Spiritus sancti, gued dicit ibi, In
+<lb ed="#Ba" n="26"/>nomine, an essentiam, vel personam ? 
+</p>
+            <p xml:id="alalal-a17604-d1e115">
+               <lb ed="#Ba" n="27"/>
+               <quote xml:id="alalal-a17604-Qd1e119"> Nunc vero post testimonia, etc.</quote>
+               <lb ed="#Ba" n="28"/>Objicitur de hoc quod ipse dicit : Jn
+<lb ed="#Ba" n="29"/>nomine Patris, et Filii, et Spiritus 
+san<lb break="no" ed="#Ba" n="30"/>efi. aut enim in nomine dicit essentiam,
+<lb ed="#Ba" n="31"/>aut personam : si essentiam, tunc 
+vide<lb break="no" ed="#Ba" n="32"/>tur falsum, quia essentia non est nomen
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="33"/>Patris, et Filii, et Spiritus sancti : si 
+au<lb break="no" ed="#Ba" n="34"/>tem dicit personam, tunc deberet dicere,
+  <lb ed="#Ba" n="35"/>in nominibus, sicut tria nomina 
+persona<lb break="no" ed="#Ba" n="36"/>rum consequuntur.
+</p>
+            <p xml:id="alalal-a17604-d1e144">
+               <lb ed="#Ba" n="37"/>Et Ad hoc dicendum quod dicit 
+essen<lb break="no" ed="#Ba" n="38"/>tiam : et nomen sumitur hic secundum
+<lb ed="#Ba" n="39"/>id a quo dicitur nomen: dicitur enim
+<lb ed="#Ba" n="40"/>unumquodque nomen a notamine quod
+<lb ed="#Ba" n="41"/>facit circa rem cujus est nomen: et quia
+<lb ed="#Ba" n="42"/>essentiae virtus notas facit personas in
+<lb ed="#Ba" n="43"/>sanctificatione baptismi et in operibus
+<lb ed="#Ba" n="44"/>miraculorum : ideo ipsa est nomen, id
+<lb ed="#Ba" n="45"/>est, notamcen personarum, Unde tantum
+<pb ed="#Ba" n="89"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>valet : In nomine, etc., quantum, in 
+vir<lb break="no" ed="#Ba" n="2"/>tuosa essentia cujus virtus notificat 
+Tri<lb break="no" ed="#Ba" n="3"/>nitalem personarum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

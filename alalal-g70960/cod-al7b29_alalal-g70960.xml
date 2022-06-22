@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="345"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g70960"><!-- l4d13a9 -->
+            <head xml:id="alalal-g70960-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-g70960-Hd1e101" type="question-title">An potest dici, quod accidentia post 
+consecrationem maneant in aere ?</head>
+            <p xml:id="alalal-g70960-d1e104">
+               <lb ed="#Be" n="68"/>ARTICULUS IX.
+<lb ed="#Be" n="69"/>An potest dici, quod accidentia post 
+con<lb break="no" ed="#Be" n="70"/>secrationem maneant in aere ?
+</p>
+            <p xml:id="alalal-g70960-d1e113">
+               <lb ed="#Be" n="71"/>Deinde queritur de hoc quod dicit, ibi,
+<lb ed="#Be" n="72"/>D, circa initium: <quote xml:id="alalal-g70960-Qd1e119"> Licet quidam 
+asse<lb break="no" ed="#Be" n="73"/>rant ea fundari in aere. </quote>
+            </p>
+            <p xml:id="alalal-g70960-d1e125">
+               <lb ed="#Be" n="74"/>Videtur haec opinio esse concedenda :
+<lb ed="#Be" n="75"/>quia
+<lb ed="#Be" n="76"/>4. Dum aliquid sit consonum fidei,
+<lb ed="#Be" n="77"/>quanto magis appropinquat rationi, tanto
+<lb ed="#Be" n="78"/>magis est concedendum: sed magis 
+ap<lb break="no" ed="#Be" n="79"/>propinquat rationi ea esse in aere, quam
+<lb ed="#Be" n="80"/>sine subjecto: ergo magis est 
+conceden<lb break="no" ed="#Be" n="81"/>dum.
+</p>
+            <p xml:id="alalal-g70960-d1e146">
+               <lb ed="#Be" n="82"/>2. Item, Non excluditur per hoc 
+veri<lb break="no" ed="#Be" n="83"/>tas sacramenti: quia totum corpus 
+Chri<lb break="no" ed="#Be" n="84"/>sti ibiin qualibet parte continetur: ergo
+<lb ed="#Be" n="85"/>hoc aliquis potest opinari.
+</p>
+            <p xml:id="alalal-g70960-d1e157">
+               <pb ed="#Be" n="346"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>SED CONTRA:
+<lb ed="#Be" n="2"/>1. Aer est elementum humidum, 
+spi<lb break="no" ed="#Be" n="3"/>rituale, interminatum: ergo quod 
+fun<lb break="no" ed="#Be" n="4"/>datur in eo fluit, et non tenet in eo 
+figu<lb break="no" ed="#Be" n="5"/>ras: ergo forme si fundatur in aere,
+<lb ed="#Be" n="6"/>figuras nullas retinent: et hoc est falsum
+<lb ed="#Be" n="7"/>ad sensum : ergo non fundantur in aere.
+</p>
+            <p xml:id="alalal-g70960-d1e179">
+               <lb ed="#Be" n="8"/>2. Item, Dicit Philosophus, quod 
+ac<lb break="no" ed="#Be" n="9"/>cidentia conferunt ad cognitionem ejus
+<lb ed="#Be" n="10"/>quod quid est, hoc est, substantiae : ergo
+<lb ed="#Be" n="11"/>accidens ducit in cognitionem subjecti :
+<lb ed="#Be" n="12"/>ergo forme: ille ducerent in cognitionem
+<lb ed="#Be" n="13"/>aeris, si essent in aere fundate: sed 
+si<lb break="no" ed="#Be" n="14"/>mul et semel unum eodem modo se 
+ha<lb break="no" ed="#Be" n="15"/>bens non ducit in cognitionem 
+diverso<lb break="no" ed="#Be" n="16"/>rum : ergo accidentia illa non ducerent
+<lb ed="#Be" n="17"/>in cognitionem corporis Christi : ergo
+<lb ed="#Be" n="18"/>frustra essent in sacramento, quod est 
+in<lb break="no" ed="#Be" n="19"/>conveniens : ergo non fundantur in aere.
+</p>
+            <p xml:id="alalal-g70960-d1e208">
+               <lb ed="#Be" n="20"/>Sonutio. Dicendum, quod non 
+fun<lb break="no" ed="#Be" n="21"/>dantur in aere, ut patet duabus ultimis
+<lb ed="#Be" n="22"/>rationibus.
+</p>
+            <p xml:id="alalal-g70960-d1e217">
+               <lb ed="#Be" n="23"/>Ad PRimum autem dicendum, quod
+<lb ed="#Be" n="24"/>neutrum multum vicinum est rationi,
+<lb ed="#Be" n="25"/>scilicet quod sint ibi accidentia sine 
+sub<lb break="no" ed="#Be" n="26"/>jecto, vel quod fundentur in acre: sed
+<lb ed="#Be" n="27"/>famen quia hoc magis est secundum
+<lb ed="#Be" n="28"/>congruentiam sacramenti, quod sint sine
+<lb ed="#Be" n="29"/>subjecto, ideo hoc conceditur, et alterum
+<lb ed="#Be" n="30"/>non.
+</p>
+            <p xml:id="alalal-g70960-d1e237">
+               <lb ed="#Be" n="31"/>Ab aniup dicendum, quod veritas sa~
+<lb ed="#Be" n="32"/>cramenti per hoc non excluderetur: et
+<lb ed="#Be" n="33"/>ideo non reputantur heretici qui hoc 
+di<lb break="no" ed="#Be" n="34"/>cebant: sed congruentia sacramenti, et
+<lb ed="#Be" n="35"/>eorum qu sunt in sacramento, per hoc
+<lb ed="#Be" n="36"/>excluderetur: et ideo non conceditur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="49"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee9700"><!-- l3d3a7 -->
+            <head xml:id="alalal-ee9700-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-ee9700-Hd1e101" type="question-title">Quid addiderit sanctificatio ex 
+preventu Spiritus sancti in Beatam 
+Virginem ?</head>
+            <p xml:id="alalal-ee9700-d1e104">
+               <lb ed="Bd" n="84"/>ARTICULUS VII.
+<lb ed="Bd" n="85"/>Quid addiderit sanctificatio ex 
+preven<lb break="no" ed="Bd" n="86"/>tu Spiritus sancti in Beatam 
+Virgi<lb break="no" ed="Bd" n="87"/>nem ?
+</p>
+            <p xml:id="alalal-ee9700-d1e115">
+               <lb ed="Bd" n="88"/>Quinto quaeritur, Quid addiderit 
+sancti<lb break="no" ed="Bd" n="89"/>ficatio ex preventu in eam Spiritus 
+san<lb break="no" ed="Bd" n="90"/>cti?
+</p>
+            <p xml:id="alalal-ee9700-d1e124">
+               <pb ed="#Bd" n="50"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Si enim decebat ut illa puritate niteret,
+<lb ed="Bd" n="2"/>que major est sub Deo, tune videtur
+<lb ed="Bd" n="3"/>etiam habitus fomitis non remansisse m
+<lb ed="Bd" n="4"/>ea: et nihil addere potuit, Si dicatur,
+<lb ed="Bd" n="5"/>quod addidit quoad statum purilatis ma~
+<lb ed="Bd" n="6"/>joris, non quod ante impura fuit : contra
+<lb ed="Bd" n="7"/>hoe est Litfera quae dicit, quod fomitem
+<lb ed="Bd" n="8"/>extenuavit.
+</p>
+            <p xml:id="alalal-ee9700-d1e149">
+               <lb ed="Bd" n="9"/>Solutio Hoc jam facile est 
+determi<lb break="no" ed="Bd" n="10"/>nare, quia addidit, habitam fomitis 
+extin<lb break="no" ed="Bd" n="11"/>guendo.
+</p>
+            <p xml:id="alalal-ee9700-d1e158">
+               <lb ed="Bd" n="12"/>Et si quaeritur, Quid adhuc addit 
+inha<lb break="no" ed="Bd" n="13"/>bitatio deitatis Pulin 7
+</p>
+            <p xml:id="alalal-ee9700-d1e165">
+               <lb ed="Bd" n="14"/>Dicendum, quod dispositionem 
+aufe<lb break="no" ed="Bd" n="15"/>rendo : sicut enim ante habitum est 
+dis<lb break="no" ed="Bd" n="16"/>positio, ita etiam post habitum est aliqua
+<lb ed="Bd" n="17"/>dispositio frequenter remanens : sed tune
+<lb ed="Bd" n="18"/>remanere non potuit, quia totum corpus
+<lb ed="Bd" n="19"/>resplenduit lumine inhabitantis in se 
+dei<lb break="no" ed="Bd" n="20"/>tatis : et hoc significatur, Ezechiel. xuu,
+  <lb ed="Bd" n="21"/>2, ubi dicitur, quod <quote xml:id="alalal-ee9700-Qd1e184"
+                      source="http://scta.info/resource/ez43_2@3-23">ingressa est gloria
+<lb ed="Bd" n="22"/>Domini in templum per viam portae
+<lb ed="Bd" n="23"/>Orientalis, et resplenduit terra a 
+maje<lb break="no" ed="Bd" n="24"/>state ejus</quote>.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

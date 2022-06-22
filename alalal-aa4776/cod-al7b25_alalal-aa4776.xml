@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="26"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-aa4776"><!-- l1d1a10 -->
+            <head xml:id="alalal-aa4776-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-aa4776-Hd1e101" type="question-title">An creaturae juvent hominem ad
+beatitudinem ?</head>
+            <p xml:id="alalal-aa4776-d1e104">
+               <lb ed="#Ba" n="18"/>ARTICULUS X.
+<lb ed="#Ba" n="19"/>An creaturae juvent hominem ad
+<lb ed="#Ba" n="20"/>beatitudinem ?
+</p>
+            <p xml:id="alalal-aa4776-d1e113">
+               <lb ed="#Ba" n="21"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="22"/>
+               <quote xml:id="alalal-aa4776-Qd1e119"> Istis quibus utendum est, tendentes ad
+<lb ed="#Ba" n="23"/>beatitudinem, etc. </quote>
+            </p>
+            <p xml:id="alalal-aa4776-d1e125">
+               <lb ed="#Ba" n="24"/>1. Contra enim videtur esse quod 
+di<lb break="no" ed="#Ba" n="25"/>citur, Sapient. xiv, 41 : Creature Dei
+<lb ed="#Ba" n="26"/>in odium facte sunt, et in tentationem
+<lb ed="#Ba" n="27"/>animabus hominum, et in muscipulam
+<lb ed="#Ba" n="28"/>pedibus insipientium ergo videtur,
+<lb ed="#Ba" n="29"/>quod magis impediant a beatitudine
+<lb ed="#Ba" n="30"/>quam promoveant.
+</p>
+            <p xml:id="alalal-aa4776-d1e144">
+               <lb ed="#Ba" n="31"/>2. Item, Augustinus in libro de 
+Con<lb break="no" ed="#Ba" n="32"/>fessionibus : <quote xml:id="alalal-aa4776-Qd1e150"> Ve his qui diligunt nutus
+<lb ed="#Ba" n="33"/>tuos pro te. </quote>
+            </p>
+            <p xml:id="alalal-aa4776-d1e156">
+               <lb ed="#Ba" n="34"/>Solutio. Vis est in hoc quod dicit,
+<lb ed="#Ba" n="35"/>tendentes : innuit enim, quod non 
+ten<lb break="no" ed="#Ba" n="36"/>dentes non juvantur. Vel melius dicatur,
+<lb ed="#Ba" n="37"/>quod omnis creatura in quantum 
+indi<lb break="no" ed="#Ba" n="38"/>cium ostendit Creatoris et usum exhibet,
+<lb ed="#Ba" n="39"/>adjuvat ad beatitudinem, sed in quantum
+<lb ed="#Ba" n="40"/>corruptus affectus est circa eam ejus qui
+<lb ed="#Ba" n="41"/>debet uti, impedit et retrahit, et hoc est
+<lb ed="#Ba" n="42"/>per accidens. Et nota, quod tribus modis
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="43"/>promovet, scilicet ostendendo viam per
+<lb ed="#Ba" n="44"/>vestigium, et hoc est generale omni
+<lb ed="#Ba" n="45"/>creature : aut juvando naturam ad 
+ne<lb break="no" ed="#Ba" n="46"/>cessitatem et solatium, sicut cibi, vestes,
+<lb ed="#Ba" n="47"/>et hujusmodi : aut tertio, reducendo 
+ho<lb break="no" ed="#Ba" n="48"/>minem in cognitionem suae infirmitatis
+<lb ed="#Ba" n="49"/>et miserie, sicut faciunt illa quae 
+exerci<lb break="no" ed="#Ba" n="50"/>tant hominem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

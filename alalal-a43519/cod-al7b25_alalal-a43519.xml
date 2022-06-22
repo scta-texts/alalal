@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="220"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a43519"><!-- l1d8dt1 -->
+            <head xml:id="alalal-a43519-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a43519-d1e101">
+               <lb ed="#Ba" n="19"/>DIVISIO TEXTUS. </p>
+            <p xml:id="alalal-a43519-d1e106">
+               <lb ed="#Ba" n="20"/>
+               <quote xml:id="alalal-a43519-Qd1e110"> Nunc de veritate sive proprietate et  
+<lb ed="#Ba" n="21"/>incommutabilitate, etc. </quote>
+               <lb ed="#Ba" n="22"/>Hic incipit tertia pars illius tractatus 
+<lb ed="#Ba" n="23"/>de generatione Filii. Cum enim in 
+om<lb break="no" ed="#Ba" n="24"/>ni generatione sit essentia aliquo modo 
+<lb ed="#Ba" n="25"/>conjuncta genito a generante. posset 
+cre<lb break="no" ed="#Ba" n="26"/>di esse divisa per communicationem 
+<lb ed="#Ba" n="27"/>eterne generationis : et tunc non esset etc. <!--</quote>-->
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="28"/>incommutabilis, nec simplex : et ideo
+  <lb ed="#Ba" n="29"/>inducitur hic de istis, ut sclamus non
+  <lb ed="#Ba" n="30"/>esse divisam, et tamen communicatam
+  <lb ed="#Ba" n="31"/>in generante et genito. Dividitur autem
+  <lb ed="#Ba" n="32"/>ista distinctio in tres partes, in quarum
+  <lb ed="#Ba" n="33"/>prima agit de veritate et proprietate 
+es<lb break="no" ed="#Ba" n="34"/>sentie divine. In secunda autem agit de
+  <lb ed="#Ba" n="35"/>incommutabilitate ejusdem, ibi, C, <quote xml:id="alalal-a43519-Qd1e150"> Dei
+  <lb ed="#Ba" n="36"/>autem solius essentia, etc. </quote> In tertia,
+  <lb ed="#Ba" n="37"/>agit de simplicitate ejusdem ibi, D,
+  <lb ed="#Ba" n="38"/>Eadem quoque sola proprie ac vere,
+</p>
+            <p xml:id="alalal-a43519-d1e160">
+               <pb ed="#Ba" n="221"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Prima harum dividitur in duas partes.
+<lb ed="#Ba" n="2"/>In prima veritatem divine essentiae 
+de<lb break="no" ed="#Ba" n="3"/>terminat. In secunda autem objicit et
+<lb ed="#Ba" n="4"/>solvit, bi, B, <quote xml:id="alalal-a43519-Qd1e175"> Hic diligenter 
+adverten<lb break="no" ed="#Ba" n="5"/>duit est, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="643"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f24531"><!-- l3d35a1 -->
+            <head xml:id="alalal-f24531-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-f24531-Hd1e101" type="question-title">Quid sit sapientia ?</head>
+            <p xml:id="alalal-f24531-d1e104">
+               <lb ed="Bd" n="42"/>ARTICULUS I.
+<lb ed="Bd" n="43"/>Quid sit sapientia ?
+</p>
+            <p xml:id="alalal-f24531-d1e111">
+               <lb ed="Bd" n="44"/>Circa primum autem queruntur duo,
+<lb ed="Bd" n="45"/>scilicet de sapientia, et scientia.
+</p>
+            <p xml:id="alalal-f24531-d1e118">
+               <pb ed="#Bd" n="644"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>De sapientia autem queruntur tria:
+<lb ed="Bd" n="2"/>quorum primum est, Quid sit?
+<lb ed="Bd" n="3"/>Secundum, De quibus sit?
+<lb ed="Bd" n="4"/>Tertium, de distinctione sapientiae ab
+<lb ed="Bd" n="5"/>intellectu et scientia et consilio donis.
+</p>
+            <p xml:id="alalal-f24531-d1e137">
+               <lb ed="Bd" n="6"/>Circa primum objicitur actipiendo 
+diffi<lb break="no" ed="Bd" n="7"/>nitionem Augustini in Ziéfera de sapien
+<lb ed="Bd" n="8"/>tia. In Liftera autem est ista, quod <quote xml:id="alalal-f24531-Qd1e145">
+sa<lb break="no" ed="Bd" n="9"/>pientia est cognitio rerum divinarum. </quote>
+            </p>
+            <p xml:id="alalal-f24531-d1e151">
+               <lb ed="Bd" n="10"/>Item ex Litfera trahiturista: <quote xml:id="alalal-f24531-Qd1e155"> 
+Sapien<lb break="no" ed="Bd" n="11"/>tia est in cognitione et dilectione ejus
+<lb ed="Bd" n="12"/>quod semper et immutabiliter manet,
+<lb ed="Bd" n="13"/>quod est Deus. </quote>
+            </p>
+            <p xml:id="alalal-f24531-d1e165">
+               <lb ed="Bd" n="14"/>A Gregorio autem accipitur ista: <quote xml:id="alalal-f24531-Qd1e169"> 
+Sa<lb break="no" ed="Bd" n="15"/>pientia est donum spe et certitudine 
+ewter<lb break="no" ed="Bd" n="16"/>norum mentem reficiens. </quote>
+            </p>
+            <p xml:id="alalal-f24531-d1e177">
+               <lb ed="Bd" n="17"/>Objicitur autem contra primam : quia
+<lb ed="Bd" n="18"/>1. Videtur sapientia idem esse quod
+<lb ed="Bd" n="19"/>fides : quia fides est cognitio rerum 
+divi<lb break="no" ed="Bd" n="20"/>narum, ut habitum est supra: eo quod
+<lb ed="Bd" n="21"/>in omnibus articulis nihil cogneoscitur nisi
+<lb ed="Bd" n="22"/>divina veritas : ergo videtur, quod fides
+<lb ed="Bd" n="23"/>sit sapientia.
+</p>
+            <p xml:id="alalal-f24531-d1e195">
+               <lb ed="Bd" n="24"/>2. Si forte dicas, quod sapientia est de
+<lb ed="Bd" n="25"/>aeternis sine medio, sed fides cum medio,
+<lb ed="Bd" n="26"/>quia per speculum et enigma : hoc nihil
+<lb ed="Bd" n="27"/>est: quia sapientia est donum quod 
+na<lb break="no" ed="Bd" n="28"/>betur in via, et in via nulla cognitio 
+ha<lb break="no" ed="Bd" n="29"/>betur de Deo sine medio.
+</p>
+            <p xml:id="alalal-f24531-d1e211">
+               <lb ed="Bd" n="30"/>Si forte dicas, quod sapientia est in 
+af<lb break="no" ed="Bd" n="31"/>fectu, et fides in intellectu tantum : non
+<lb ed="Bd" n="32"/>videtur verum esse : quia si fides in 
+intel<lb break="no" ed="Bd" n="33"/>lectu esset tantum, non esset virtus, ut
+<lb ed="Bd" n="34"/>supra probatum est : ergo videtur, quod
+<lb ed="Bd" n="35"/>in nullo differant sapientia et fides.
+</p>
+            <p xml:id="alalal-f24531-d1e228">
+               <lb ed="Bd" n="36"/>Si autem dicas, quod contingit Deum
+<lb ed="Bd" n="37"/>cognoscere tripliciter in via, scilicet in
+<lb ed="Bd" n="38"/>vestigio, in imagine anime, et 
+similitu<lb break="no" ed="Bd" n="39"/>dine gratiae, secundum quod similifudo
+<lb ed="Bd" n="40"/>dicit venusiationem imaginis per 
+apposi<lb break="no" ed="Bd" n="41"/>tionem gratiae : videtur quod hoc nihil
+<lb ed="Bd" n="42"/>sit: fides enim est de Deo in speculo:
+<lb ed="Bd" n="43"/>clarum autem et clarius in speculo non 
+di<lb break="no" ed="Bd" n="44"/>versificant substantialiter et vestigium.
+</p>
+            <p xml:id="alalal-f24531-d1e250">
+               <lb ed="Bd" n="45"/>3. Item, Contingit quod aliquis in 
+pec<lb break="no" ed="Bd" n="46"/>cato mortali cognoscit in imagine anime
+<lb ed="Bd" n="47"/>et similitudine gratiae, nonin se, sed in
+<lb ed="Bd" n="48"/>aliis: et tamen nullum habet donum gra-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>tiae gratum facientis : ergo illa cognitig
+<lb ed="Bd" n="50"/>in eo est fidei informis - ergo hoc non egt
+<lb ed="Bd" n="51"/>sapientiae et intellectus.
+</p>
+            <p xml:id="alalal-f24531-d1e270">
+               <lb ed="Bd" n="52"/>4, Item, Ad idem cognoscibile contin.
+<lb ed="Bd" n="53"/>git habere multa media topice loquendo,
+<lb ed="Bd" n="54"/>ut patet per locum a genere, @ Casu, g
+<lb ed="Bd" n="55"/>toto, et sic de aliis : et tamen non diver.
+<lb ed="Bd" n="56"/>sificatur habilus per hujusmodi : ergo
+<lb ed="Bd" n="57"/>videtur, quod nec vestigium et imago et
+<lb ed="Bd" n="58"/>similitudo facere possunt diversitatem
+<lb ed="Bd" n="59"/>habituum : et sic non erit fidei cognoscere
+<lb ed="Bd" n="60"/>per vestigium, et intellectus per 
+imagi<lb break="no" ed="Bd" n="61"/>nem, et sapientiae per similitudinem,
+</p>
+            <p xml:id="alalal-f24531-d1e294">
+               <lb ed="Bd" n="62"/>3. item, Videtur non converti 
+diffini<lb break="no" ed="Bd" n="63"/>tio : cognitio enim divinerum per multos
+<lb ed="Bd" n="64"/>habetur, qui tamen non habent Spiritum
+<lb ed="Bd" n="65"/>sanctum. Cum igitur Spiritus sanctus
+<lb ed="Bd" n="66"/>semper cum donis suis habeatur, et 
+pre<lb break="no" ed="Bd" n="67"/>cipue cum dono sapientia, videtur quod
+<lb ed="Bd" n="68"/>cognitio divimorum non sit semper 
+do<lb break="no" ed="Bd" n="69"/>num sapientiae.
+</p>
+            <p xml:id="alalal-f24531-d1e314">
+               <lb ed="Bd" n="70"/>Irem, queeritur de secunda, quae etiam
+<lb ed="Bd" n="71"/>trahitur de Litlera, quod sapientia est in
+<lb ed="Bd" n="72"/>dilectione et cognitione ejus quod semper
+<lb ed="Bd" n="73"/>et incommunicabiliter est. Secundum hoc
+<lb ed="Bd" n="74"/>videtur, quod
+</p>
+            <p xml:id="alalal-f24531-d1e327">
+               <lb ed="Bd" n="75"/>i. Sapientia sit confectus habitus ex
+<lb ed="Bd" n="76"/>cognitione fidei et dilectione charitatis :
+<lb ed="Bd" n="77"/>et hoc non potest esse, quia habitus non
+<lb ed="Bd" n="78"/>possunt ita permisceri, vel componi, quod
+<lb ed="Bd" n="79"/>duo faciant tertium.
+</p>
+            <p xml:id="alalal-f24531-d1e341">
+               <lb ed="Bd" n="80"/>2, Item, Ex duabus virtutibus non 
+con<lb break="no" ed="Bd" n="81"/>stituitur nisi virtus : ergo efiamsi 
+permi<lb break="no" ed="Bd" n="82"/>sceri possent, non viderentur constituere
+<lb ed="Bd" n="83"/>donum, sed potius virtutem.
+</p>
+            <p xml:id="alalal-f24531-d1e352">
+               <lb ed="Bd" n="84"/>3. Ttem, De hoc objicitur quod ibidem
+<lb ed="Bd" n="85"/>dicit, sapientiam esse cultum: qui ¢07!6e4
+<lb ed="Bd" n="86"/>dicitur: quia cultus potius refertur ad 
+ju<lb break="no" ed="Bd" n="87"/>stitiam, quam ad donum, ut supra 
+pro<lb break="no" ed="Bd" n="88"/>batum est, cum de latria querebatur ‘
+<lb ed="Bd" n="89"/>ergo nihil videtur esse, quod dici! 
+sapien<lb break="no" ed="Bd" n="90"/>tiam esse cultum.
+</p>
+            <p xml:id="alalal-f24531-d1e370">
+               <lb ed="Bd" n="91"/>Unrerivs quaeritur de tertia : quia
+<lb ed="Bd" n="92"/>1. Reficere potius convenit fructul,
+<lb ed="Bd" n="93"/>quam dono, ut habitum est supra : erg?
+<lb ed="Bd" n="94"/>non debet diffiniri per reficere.
+</p>
+            <p xml:id="alalal-f24531-d1e381">
+               <lb ed="Bd" n="95"/>2. Item, Spes et certitudo sunt fidei et
+<pb ed="#Bd" n="645"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>spei: cum ergo refectio magis sit 
+chari<lb break="no" ed="Bd" n="2"/>tatis, quam fidei, vel spei, videtur quod
+<lb ed="Bd" n="3"/>in diffinitione sapentiae charitas magis
+<lb ed="Bd" n="4"/>deberet pon: quam spes, vel cerliiudo
+<lb ed="Bd" n="5"/>fidei.
+</p>
+            <p xml:id="alalal-f24531-d1e401">
+               <lb ed="Bd" n="6"/>PrETEREA quaeritur, Cum unius rei sit
+<lb ed="Bd" n="7"/>una diffinitio, penes quid dantur tot diffi--
+<lb ed="Bd" n="8"/>niliones ?
+</p>
+            <p xml:id="alalal-f24531-d1e410">
+               <lb ed="Bd" n="9"/>Solutio Ad haec ultimum dicendum,
+<lb ed="Bd" n="10"/>quod prima. respicit materiam circa quam
+<lb ed="Bd" n="11"/>est sapientia, secundum quod est in 
+ge<lb break="no" ed="Bd" n="12"/>nere cognitionis : quia non ponilur in
+<lb ed="Bd" n="13"/>genere uno, sed diversis. Idec secunda
+<lb ed="Bd" n="14"/>respiciet ea quae ponuntur in genere 
+af<lb break="no" ed="Bd" n="15"/>fectus, quae sunt cognitio et dilectio, hoc
+<lb ed="Bd" n="16"/>est, dilectio cogniti, qua propria est 
+in<lb break="no" ed="Bd" n="17"/>tellectus et affectus, et non solum solius
+<lb ed="Bd" n="18"/>alfectus, sicut charitas est in simplici 
+al<lb break="no" ed="Bd" n="19"/>fectu. Tertia autem datur penes affectum
+<lb ed="Bd" n="20"/>conseguentem ipsum donum : et ideo ista
+<lb ed="Bd" n="21"/>non dicit substantiam sapientiae, sed 
+ope<lb break="no" ed="Bd" n="22"/>rationem Ipsius prepriam.
+</p>
+            <p xml:id="alalal-f24531-d1e444">
+               <lb ed="Bd" n="23"/>Ad primum ergo dicendum, quod 
+sa<lb break="no" ed="Bd" n="24"/>pientia non est idem quod fides, licet sit de
+<lb ed="Bd" n="25"/>eisdem: est enim aliud lumen. Unde sicut
+<lb ed="Bd" n="26"/>dictum est supra de fide, quod est 
+quod<lb break="no" ed="Bd" n="27"/>dam lumen sub quo videntur articuli : ita
+<lb ed="Bd" n="28"/>dicendum hic, quod sapientia est 
+quod<lb break="no" ed="Bd" n="29"/>dam lumen divinorum sub quo videntur
+<lb ed="Bd" n="30"/>et gustantur divina per experimentum.
+<lb ed="Bd" n="31"/>Unde sapientia donum proprie est gustus
+<lb ed="Bd" n="32"/>Dei in donis sicut videtur dicere
+<lb ed="Bd" n="33"/>Dionysius de Terotheo, quod patiendo et
+<lb ed="Bd" n="34"/>experiendo et gustando divina, didicit 
+di<lb break="no" ed="Bd" n="35"/>vina. Lumen igitur lucens et calefaciens ad
+<lb ed="Bd" n="36"/>hujusmodi seientiam divinorum per 
+gu<lb break="no" ed="Bd" n="37"/>stum Deiin donis sine quibus ipse non
+<lb ed="Bd" n="38"/>est, dicitur meo judicio sapienfia donum.
+<lb ed="Bd" n="39"/>Et per hoc patet, quod non est fides : quia
+<lb ed="Bd" n="40"/>in fide non gustatur Deus in donis sine
+<lb ed="Bd" n="41"/>quibus ipse non est.
+</p>
+            <p xml:id="alalal-f24531-d1e488">
+               <lb ed="Bd" n="42"/>Ad aliud dicendum, quod sapientia
+<lb ed="Bd" n="43"/>licet sit cognitio per medium, tamen 
+is<lb break="no" ed="Bd" n="44"/>tud medium plus habet quam speculum
+<lb ed="Bd" n="45"/>et enigma: quiaipsum est donum 
+san<lb break="no" ed="Bd" n="46"/>clilatis simile bonitati prima, per modum
+<lb ed="Bd" n="47"/>veritatis acceptum, vel e contra similitu-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>do veritatis per modum bonitatis, eo
+<lb ed="Bd" n="49"/>quod sapientia illuminat et accendit, et
+<lb ed="Bd" n="50"/>sie est veritatis et bonitatis, secundum
+<lb ed="Bd" n="51"/>quod unum est in alio, scilicet veritas in
+<lb ed="Bd" n="52"/>bonitate, et bonitas in veritate.
+</p>
+            <p xml:id="alalal-f24531-d1e517">
+               <lb ed="Bd" n="53"/>Ad aliud dicendum, quod non sufficit
+<lb ed="Bd" n="54"/>sapientia cognitio Deiin similitudine, 
+ni<lb break="no" ed="Bd" n="55"/>si adsit et gustus, ut habitum est: et
+<lb ed="Bd" n="56"/>tunc per gustum et amplius lumen 
+sepa<lb break="no" ed="Bd" n="57"/>ratur a fide: quia fides tantum assentit,
+<lb ed="Bd" n="58"/>et accipit donum prout est cmanatio 
+di<lb break="no" ed="Bd" n="59"/>vine bonitatis continens dulcedinem
+<lb ed="Bd" n="60"/>Del
+</p>
+            <p xml:id="alalal-f24531-d1e537">
+               <lb ed="Bd" n="61"/>Per woc etiam patetsolutio ad sequens:
+<lb ed="Bd" n="62"/>quia lalis cognitio nom est per 
+experi<lb break="no" ed="Bd" n="63"/>mentum gustus, nec per lumea faciens
+<lb ed="Bd" n="64"/>experiri.
+</p>
+            <p xml:id="alalal-f24531-d1e548">
+               <lb ed="Bd" n="65"/>Ad aliud dicendum, quod illa quam
+<lb ed="Bd" n="66"/>multi habent, est cognitio speculativa, et
+<lb ed="Bd" n="67"/>habitus acquisitus per doctrinam et 
+stu<lb break="no" ed="Bd" n="68"/>dium, et non lumen faciens 
+experimen<lb break="no" ed="Bd" n="69"/>tum dulcedinis Dei in suis donis, in 
+qui<lb break="no" ed="Bd" n="70"/>bus sanctificat animam.
+</p>
+            <p xml:id="alalal-f24531-d1e564">
+               <lb ed="Bd" n="71"/>Ad srounpam dicendum, quod 
+sapien<lb break="no" ed="Bd" n="72"/>tia non est confectus habitus ex 
+cognitio<lb break="no" ed="Bd" n="73"/>ne et dileetione, sed potius est lumen 
+se<lb break="no" ed="Bd" n="74"/>cundum se habens actum proprium : sed
+<lb ed="Bd" n="75"/>Augustinus loquitur ibi quoad 
+appropria<lb break="no" ed="Bd" n="76"/>tionem, quia habet aliquid cognitionis et
+<lb ed="Bd" n="77"/>dilectionis: et ideo non est sine illis ut
+<lb ed="Bd" n="78"/>disponentibus intellectam, licet non sit
+<lb ed="Bd" n="79"/>illa, sed potius perfectus consequens
+<lb ed="Bd" n="80"/>utrum@ue.
+</p>
+            <p xml:id="alalal-f24531-d1e589">
+               <lb ed="Bd" n="81"/>Ad aliud dicendum, quod hoc verum est,
+<lb ed="Bd" n="82"/>si diccremus ex composilione cognitionis
+<lb ed="Bd" n="83"/>et dilectionis confici sapientiam : sed hoc
+<lb ed="Bd" n="84"/>non dicimus, quia ille habitus sic 
+confe<lb break="no" ed="Bd" n="85"/>ctus, non esset nisi dilectio cogniti: et in
+<lb ed="Bd" n="86"/>hoc non sistit sapientia, quae potius est
+<lb ed="Bd" n="87"/>custus dulecdinis cogniti in dono 
+sancti<lb break="no" ed="Bd" n="88"/>tatis percepto a Deo.
+</p>
+            <p xml:id="alalal-f24531-d1e609">
+               <lb ed="Bd" n="89"/>Ad aliud dicendum, quod sapientia
+<lb ed="Bd" n="90"/>non est cultus formaliter, sed 
+materiali<lb break="no" ed="Bd" n="91"/>ter : quia scilicet refertur ad cultum, 
+sic<lb break="no" ed="Bd" n="92"/>ut supra dictum est de lide et charitate :
+<lb ed="Bd" n="93"/>quia quelibet virtus potest referri ad
+<lb ed="Bd" n="94"/>professionem cultus divini.
+</p>
+            <p xml:id="alalal-f24531-d1e625">
+               <pb ed="#Bd" n="646"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Av w quod objicitur de tertia, 
+dicen<lb break="no" ed="Bd" n="2"/>dum quod refectio quae est quies 
+appeti<lb break="no" ed="Bd" n="3"/>tus, propria est fructus : sed est refectio
+<lb ed="Bd" n="4"/>quasi per saporem et odorem, et non per
+<lb ed="Bd" n="5"/>tactum substantiae : et hac incitat ad
+<lb ed="Bd" n="6"/>altiorem profectum, et hac est altissimi
+<lb ed="Bd" n="7"/>doni, scilicet sapientiae : et ideo sapiens
+<lb ed="Bd" n="8"/>proficit in cognitione : sed fruens 
+quie<lb break="no" ed="Bd" n="9"/>scit in cognito. .
+</p>
+            <p xml:id="alalal-f24531-d1e651">
+               <lb ed="Bd" n="10"/>Ad aliud dicendum, quod spes et fides
+<lb ed="Bd" n="11"/>dispositiones sunt in via ad gustum.
+<lb ed="Bd" n="12"/>Charitas autem perficit fructum etiam
+<lb ed="Bd" n="13"/>patrie : et ideo in gustu sapientiae fit
+<lb ed="Bd" n="14"/>magis mentio dispositionis, quam ejus
+<lb ed="Bd" n="15"/>quod non disponit, sed perficit vere
+<lb ed="Bd" n="16"/>frui.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

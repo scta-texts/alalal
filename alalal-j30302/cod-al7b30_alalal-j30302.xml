@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="628"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j30302"><!-- l4d46dt1 -->
+            <head xml:id="alalal-j30302-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-j30302-d1e101">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="4"/>DIVISIO TEXTUS,
+</p>
+            <p xml:id="alalal-j30302-d1e108">
+               <lb ed="#Bf" n="5"/>
+               <quote xml:id="alalal-j30302-Qd1e112"> Sed quaeritur hic de valde mais,
+<lb ed="#Bf" n="6"/>etc. </quote>
+               <lb ed="#Bf" n="7"/>In ista distinctione ponuntur due
+<lb ed="#Bf" n="8"/>questiones. Una ex intentione, scilicet
+<lb ed="#Bf" n="9"/>si valde malis prosint sutfragia ? Et 
+al<lb break="no" ed="#Bf" n="10"/>tera ex incidenti, scilicet utrum in omni
+<lb ed="#Bf" n="11"/>opere Dei sit misericordia et veritas, ibi,
+<lb ed="#Bf" n="12"/>C, <quote xml:id="alalal-j30302-Qd1e130"> Sed guomodo justitiam Dei et 
+pie<lb break="no" ed="#Bf" n="13"/>tatem, etc. </quote>
+            </p>
+            <p xml:id="alalal-j30302-d1e136">
+               <lb ed="#Bf" n="14"/>Quantum ad primum duo dicit, 
+scili<lb break="no" ed="#Bf" n="15"/>cet si valde malis aliqua fit misericordia.
+<lb ed="#Bf" n="16"/>Et secundo, determinat in contrarium
+<lb ed="#Bf" n="17"/>inducta, ibi, B, <quote xml:id="alalal-j30302-Qd1e146"> Quod ergo dictum
+<lb ed="#Bf" n="18"/>est, etc. </quote>
+            </p>
+            <p xml:id="alalal-j30302-d1e152">
+               <lb ed="#Bf" n="19"/>Littera autem prime partis plane 
+dis<lb break="no" ed="#Bf" n="20"/>putata est in Littera: ad quam 
+intelli<lb break="no" ed="#Bf" n="21"/>gendam tria oportet inquirere, scilicet
+<lb ed="#Bf" n="22"/>primo, de divisione illa quam supponit,
+<lb ed="#Bf" n="23"/>quod sunt valde boni, etc.
+<lb ed="#Bf" n="24"/>Secundo, De opinione Doctorum de
+<lb ed="#Bf" n="25"/>valde malis.
+<lb ed="#Bf" n="26"/>Et tertio, Utrum in omni opere Dei
+<lb ed="#Bf" n="27"/>sit misericordia et veritas ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

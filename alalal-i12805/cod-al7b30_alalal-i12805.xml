@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 22</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 22</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="59"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i12805"><!-- l4d24a22 -->
+            <head xml:id="alalal-i12805-Hd1e99">Articulus 22</head>
+            <head xml:id="alalal-i12805-Hd1e101" type="question-title">Quis sit actus exorcistarum ?</head>
+            <p xml:id="alalal-i12805-d1e104">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="12"/>ARTICULUS XXII.
+<lb ed="#Bf" n="13"/>Quis sit actus exorcistarum ?
+</p>
+            <p xml:id="alalal-i12805-d1e113">
+               <lb ed="#Bf" n="14"/>Deinde quaeritur de hoc quod dicit,
+  <lb ed="#Bf" n="15"/>ibi, E, <quote xml:id="alalal-i12805-Qd1e119"
+                      source="http://scta.info/resource/pl-l4d24c7-d1e115@1-4"> Tertius est ordo exorcistarum,
+<lb ed="#Bf" n="16"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-i12805-d1e125">
+               <lb ed="#Bf" n="17"/>Et queruntur de hoc ordine duo,
+<lb ed="#Bf" n="18"/>scilicet de actu ad quem est, et utrum in
+<lb ed="#Bf" n="19"/>seipso omnes colligat prascedentes 
+se<lb break="no" ed="#Bf" n="20"/>cundum naturam totius potestativi ?
+</p>
+            <p xml:id="alalal-i12805-d1e137">
+               <lb ed="#Bf" n="21"/>Av primum sic objicitur :
+<lb ed="#Bf" n="22"/>1. Exorcismi vim habent a verbis
+<lb ed="#Bf" n="23"/>exorcismorum : ea ergo verba 
+quicum<lb break="no" ed="#Bf" n="24"/>que pronuntict, semper vim suam 
+con<lb break="no" ed="#Bf" n="25"/>sequuntur : ergo cqualiter valent 
+pro<lb break="no" ed="#Bf" n="26"/>nuntiata ab ordinato, et non ordinato :
+<lb ed="#Bf" n="27"/>ergo non exigitur ordo ad istum actum,
+<lb ed="#Bf" n="28"/>ut videtur.
+</p>
+            <p xml:id="alalal-i12805-d1e157">
+               <lb ed="#Bf" n="29"/>2. Adhuc, Salomon invenit 
+exorcis<lb break="no" ed="#Bf" n="30"/>mos: et constat, quod effectum 
+habue<lb break="no" ed="#Bf" n="31"/>runt : et tamen nullum habuit ordi-
+<cb ed="#Bf" n="c"/>
+               <lb ed="#Bf" n="32"/>nem : ergo videtur, quod non exigitur
+<lb ed="#Bf" n="33"/>ad hoc ordo.
+</p>
+            <p xml:id="alalal-i12805-d1e173">
+               <lb ed="#Bf" n="34"/>3. Adhuc, Actus sacramenti Novi ‘
+Te<lb break="no" ed="#Bf" n="35"/>stamenti numquam eumdem habent 
+effe<lb break="no" ed="#Bf" n="36"/>ctum in Novo et Veteri Testamento :
+<lb ed="#Bf" n="37"/>sed iste actus habet eumdem effectum in
+<lb ed="#Bf" n="38"/>Novo et Veteri Testamento, ut patet
+<lb ed="#Bf" n="39"/>ex Littera : ergo non videtur actus esse
+<lb ed="#Bf" n="40"/>sacramenti Novi Testamenti.
+</p>
+            <p xml:id="alalal-i12805-d1e191">
+               <lb ed="#Bf" n="41"/>4, Adhuc, Ad cumdem effectum non
+<lb ed="#Bf" n="42"/>est facultas mali spiritus et sacramenti
+<lb ed="#Bf" n="43"/>Keclesia : sed ad expellendos dsemones
+<lb ed="#Bf" n="44"/>per exorcismos est facultas mali 
+spiri<lb break="no" ed="#Bf" n="45"/>tus : ergo ad hoc non est sacramentum
+<lb ed="#Bf" n="46"/>Ecclesiae. Prima patet ex se. Srcunps
+<lb ed="#Bf" n="47"/>probatur per artem nigromantiae : et sic
+<lb ed="#Bf" n="48"/>constat propositum.
+</p>
+            <p xml:id="alalal-i12805-d1e211">
+               <lb ed="#Bf" n="49"/>5. Adhuc, Exorcismi Salomonis qui
+<lb ed="#Bf" n="50"/>habentur, omnes nigromantici sunt, 
+sic<lb break="no" ed="#Bf" n="51"/>ut patet in libro qui dicitur Alman Det,
+<lb ed="#Bf" n="52"/>qui inscribitur Salomoni regi Israel
+<lb ed="#Bf" n="53"/>ergo videtur, quod actus illi a 
+nigro<lb break="no" ed="#Bf" n="54"/>mantia principium habuerunt : ergo et
+<lb ed="#Bf" n="55"/>actus tales non debent esse sacramenti
+<lb ed="#Bf" n="56"/>Keclesia.
+</p>
+            <p xml:id="alalal-i12805-d1e231">
+               <lb ed="#Bf" n="57"/>Ulterius quaeritur de actibus in 
+Litte<lb break="no" ed="#Bf" n="58"/>ra dictis : quia tres videtur ponere in
+<pb ed="#Bf" n="60"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Littera, scilicet daemones pellere, mutos
+<lb ed="#Bf" n="2"/>et surdos miraculose curare, et. 
+homi<lb break="no" ed="#Bf" n="3"/>num ora ad confitendum et corda ad 
+in<lb break="no" ed="#Bf" n="4"/>telligendum aperire.
+</p>
+            <p xml:id="alalal-i12805-d1e252">
+               <lb ed="#Bf" n="5"/>Et videtur, quod isti actus non sunt
+<lb ed="#Bf" n="6"/>reducibiles in potestatem unam : quia
+<lb ed="#Bf" n="7"/>pulsio demonum est exorcismorum, et
+<lb ed="#Bf" n="8"/>curatio infirmorum est gratia 
+miracu<lb break="no" ed="#Bf" n="9"/>lorum, et apertio orum ad intelligendum
+<lb ed="#Bf" n="10"/>est doctrine predicatorum vel 
+magi<lb break="no" ed="#Bf" n="11"/>strorum : ergo videtur, quod non 
+de<lb break="no" ed="#Bf" n="12"/>beant assignari uni ordini sacro.
+</p>
+            <p xml:id="alalal-i12805-d1e272">
+               <lb ed="#Bf" n="13"/>Responsio. Dicendum, quod potestas
+<lb ed="#Bf" n="14"/>exorcistarum est pellere vel diminucre
+<lb ed="#Bf" n="15"/>vim demonis in fomite impedientis 
+sa<lb break="no" ed="#Bf" n="16"/>cramentorum perceptionem : et alia, 
+sei<lb break="no" ed="#Bf" n="17"/>licet liberationem daemoniacorum, et
+<lb ed="#Bf" n="18"/>curationem infirmorum, habet adjuncta,
+<lb ed="#Bf" n="19"/>quando expedit, et non semper.
+</p>
+            <p xml:id="alalal-i12805-d1e290">
+               <lb ed="#Bf" n="20"/>Ad primum ergo dicendum, quod
+<lb ed="#Bf" n="21"/>oxorcismi non habent totam vim a 
+ver<lb break="no" ed="#Bf" n="22"/>bis, imo exigunt proprium agentem et
+<lb ed="#Bf" n="23"/>ministrum, prout sunt ad talem actum
+<lb ed="#Bf" n="24"/>qui dictus est : sicut et confectio 
+Eucha<lb break="no" ed="#Bf" n="25"/>ristiae non totum habet a forma, sed
+<lb ed="#Bf" n="26"/>etiam querit agentem proprium, quia
+<lb ed="#Bf" n="27"/>non sacerdos hoc agere non  
+pos<lb break="no" ed="#Bf" n="28"/>set.
+</p>
+            <p xml:id="alalal-i12805-d1e312">
+               <lb ed="#Bf" n="29"/>Ad aliud dicendum, quod Salomon
+<lb ed="#Bf" n="30"/>invenit exorcismos imperfecte 
+curatio<lb break="no" ed="#Bf" n="31"/>nis, sicut Veteri Testamento 
+compete<lb break="no" ed="#Bf" n="32"/>bant. Et puto, quod non valuerunt nisi
+<lb ed="#Bf" n="33"/>ad curationem corporum : isti autem
+<lb ed="#Bf" n="34"/>valent ad animas : et si ad corpora 
+refe<lb break="no" ed="#Bf" n="35"/>runtur, tunc hoc fit in quantum 
+infirmi<lb break="no" ed="#Bf" n="36"/>tas corporis pendet ex mente : et si valet
+<lb ed="#Bf" n="37"/>curatio inflirmitatis corporis ad mentis
+<lb ed="#Bf" n="38"/>curationem, tunc quandoque valet etiam
+<lb ed="#Bf" n="39"/>ad corpus. Et licet Salomon invenerit,
+<lb ed="#Bf" n="40"/>tamen ipse non fuit proprius agens, sed
+<lb ed="#Bf" n="41"/>Levite : sicut etiam David invenit 
+Psal<lb break="no" ed="#Bf" n="42"/>mos, et tamen Levitis committebantur
+<lb ed="#Bf" n="43"/>cantandi.
+</p>
+            <p xml:id="alalal-i12805-d1e347">
+               <lb ed="#Bf" n="44"/>Ad aliud dicendum, quod non habuit
+<lb ed="#Bf" n="45"/>ita plenum effectum in Veteri 
+Testa<lb break="no" ed="#Bf" n="46"/>mento, sicut dictum est : guia in Novo
+<lb ed="#Bf" n="47"/>Testamento debilitat vim ejus in fomite
+<lb ed="#Bf" n="48"/>qui impedit sacramentorum perceptio-
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="49"/>nem, in Veteri aulem Testamento non
+<lb ed="#Bf" n="50"/>valuit nisi in corpore.
+</p>
+            <p xml:id="alalal-i12805-d1e367">
+               <lb ed="#Bf" n="51"/>Ad aliud dicendum, quod absit hoc,
+<lb ed="#Bf" n="52"/>quod facultas mali spiritus sit ad hoc:
+<lb ed="#Bf" n="53"/>sed, sicut dicitur in vita beati 
+Bartholo<lb break="no" ed="#Bf" n="54"/>mei, quandoque nocent daemones, et 
+vi<lb break="no" ed="#Bf" n="55"/>dentur curare quando cessant a 
+lesio<lb break="no" ed="#Bf" n="56"/>ne: et ita operatur nigromantia, quia
+<lb ed="#Bf" n="57"/>unus demon ledit, et alter arcet leden~
+<lb ed="#Bf" n="58"/>tem vel facit cessare a lesione : sed 
+sa<lb break="no" ed="#Bf" n="59"/>cramentum operatur per gratiam 
+con<lb break="no" ed="#Bf" n="60"/>trariam omnibus demonum 
+operationi<lb break="no" ed="#Bf" n="61"/>bus.
+</p>
+            <p xml:id="alalal-i12805-d1e394">
+               <lb ed="#Bf" n="62"/>Ad aliud dicendum, quod falsa 
+in<lb break="no" ed="#Bf" n="63"/>scriptio est : quia non creditur, quod 
+Sa<lb break="no" ed="#Bf" n="64"/>lomon fecerit : sed si fecit, absque dubio
+<lb ed="#Bf" n="65"/>tunc fecit, quando idola coluit, et femora
+<lb ed="#Bf" n="66"/>mulieribus inclinavit.
+</p>
+            <p xml:id="alalal-i12805-d1e407">
+               <lb ed="#Bf" n="67"/>Ad urmmum dicendum, quod illi tres
+<lb ed="#Bf" n="68"/>actus ad unum referuntur, scilicct pellere
+<lb ed="#Bf" n="69"/>vim demonis in quantum est impeditiva
+<lb ed="#Bf" n="70"/>perceplionis sacramentorum : cum enim
+<lb ed="#Bf" n="71"/>operatur in corpore sive obsesso sive
+<lb ed="#Bf" n="72"/>surdo sive muto vel alias infirmo, non
+<lb ed="#Bf" n="73"/>operatur circa hoc nisi prout curatur per
+<lb ed="#Bf" n="74"/>corpus a demone impedicnte mentem :
+<lb ed="#Bf" n="75"/>ct ultimum istius ordinis et virtus cjus
+<lb ed="#Bf" n="76"/>est aperire intellectum et os ad 
+confiten<lb break="no" ed="#Bf" n="77"/>dum, sed aperire removendo virtatem
+<lb ed="#Bf" n="78"/>demonis claudentis : sed lector aperit
+<lb ed="#Bf" n="79"/>ingerendo habitum iluminativam ad
+<lb ed="#Bf" n="80"/>actum. Et hoc diverso modo nihil 
+pro<lb break="no" ed="#Bf" n="81"/>hibet diversos ordines esse ad idem.
+</p>
+            <p xml:id="alalal-i12805-d1e442">
+               <lb ed="#Bf" n="82"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="14"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-aa2114"><!-- l1d1dt1 -->
+            <head xml:id="alalal-aa2114-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-aa2114-d1e101">
+               <lb ed="#Ba" n="36"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-aa2114-d1e106">
+               <lb ed="#Ba" n="37"/>
+               <quote xml:id="alalal-aa2114-Qd1e110"> Veteris ac nove legis, etc. </quote>
+               <lb ed="#Ba" n="38"/>Doctrina istius libri quae modo dispu-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="39"/>tationis procedit, et ad perfectionem
+<lb ed="#Ba" n="40"/>intellectus secundum scientiam 
+Theolo<lb break="no" ed="#Ba" n="41"/>giae est ordinata, dividitur in tres partes
+<lb ed="#Ba" n="42"/>totales : in quarum prima modo 
+proe<lb break="no" ed="#Ba" n="43"/>miali proponit ea de quibus ul subjecti
+<lb ed="#Ba" n="44"/>partibus est haec doctrina. In secunda
+<lb ed="#Ba" n="45"/>autem exsequitur quesita circa 
+subje<lb break="no" ed="#Ba" n="46"/>ctum, et partes ipsius : ut de subjecto et
+<lb ed="#Ba" n="47"/>passionibus ejus scientia habeatur. Quia
+<lb ed="#Ba" n="48"/>vero materia diffuse per quatuor partes
+<lb ed="#Ba" n="49"/>tractatur in libro, et quaedam partes 
+ip<lb break="no" ed="#Ba" n="50"/>sius occulte sunt, quaedam autem magis
+<lb ed="#Ba" n="51"/>manifest : sicut de wternis, et de his
+<lb ed="#Ba" n="52"/>gue erunt post finem mundi, occulte :
+<lb ed="#Ba" n="53"/>de creatis autem magis manifeste : ideo
+<lb ed="#Ba" n="54"/>in Epilogo in fine libri repetit ea de 
+qui<lb break="no" ed="#Ba" n="55"/>bus dixit.
+</p>
+            <p xml:id="alalal-aa2114-d1e154">
+               <lb ed="#Ba" n="56"/>Secunda autem pars incipit in 
+princi<lb break="no" ed="#Ba" n="57"/>pio secunde Distinctionis libri primi,
+<lb ed="#Ba" n="58"/>ibi, <quote xml:id="alalal-aa2114-Qd1e162"> Hoc itague vera et pia fide, etc. </quote>
+               <lb ed="#Ba" n="59"/>Tertia vero incipit in fine quarti libri,
+<lb ed="#Ba" n="60"/>ibi, <quote xml:id="alalal-aa2114-Qd1e169"> Haec de pedibus. </quote>
+            </p>
+            <p xml:id="alalal-aa2114-d1e172">
+               <lb ed="#Ba" n="61"/>Prima harum partium continetur in
+<lb ed="#Ba" n="62"/>hac presenti Distinctione, et dividitur in
+<lb ed="#Ba" n="63"/>duas partes. In prima enim parte 
+inve<lb break="no" ed="#Ba" n="64"/>stigat dividendo et definiendo per 
+aucto<lb break="no" ed="#Ba" n="65"/>ritates Sanctorum ea de quibus tractabit
+<lb ed="#Ba" n="66"/>ut de subjecto. Secundo, exsecuturus ea,
+<lb ed="#Ba" n="67"/>summatim colligit, et tangit ordinem
+<lb ed="#Ba" n="68"/>quo exsequitur : et hoc in ultimo 
+capitu<lb break="no" ed="#Ba" n="69"/>lo istius Distinctionis, ibi, <quote xml:id="alalal-aa2114-Qd1e193"> Omnium
+<lb ed="#Ba" n="70"/>igitur quae dicta sunt, etc. . </quote>
+            </p>
+            <p xml:id="alalal-aa2114-d1e200">
+               <lb ed="#Ba" n="71"/>Prima harum adhue dividitur in duas :
+<lb ed="#Ba" n="72"/>in quarum prima per auctoritates et 
+di<lb break="no" ed="#Ba" n="73"/>visiones et distinctiones quaerit, De quo
+<lb ed="#Ba" n="74"/>ut de subjecto sit tota Theologia ? 
+Se<lb break="no" ed="#Ba" n="75"/>cundo autem tangit dubia circumstantia
+<lb ed="#Ba" n="76"/>que determinavit, ibi, C, <quote xml:id="alalal-aa2114-Qd1e215"> Notandum
+<lb ed="#Ba" n="77"/>vero quod idem Augustinus, etc. 2 </quote>
+            </p>
+            <p xml:id="alalal-aa2114-d1e221">
+               <lb ed="#Ba" n="78"/>Prima harum adhuc subdividitur in
+<lb ed="#Ba" n="79"/>duas, secundum quod duo exiguntur ad
+<lb ed="#Ba" n="80"/>scientiam, scilicet, ut sciatur de quo est
+<lb ed="#Ba" n="81"/>ut de subjecto, et ut sciatur quid 
+queri<lb break="no" ed="#Ba" n="82"/>tur de illo, id est, quae passiones illius
+<lb ed="#Ba" n="83"/>subjecti et partium ejus, sive quae 
+pro<lb break="no" ed="#Ba" n="84"/>prietates ejus investigentur. Prima ha-
+<pb ed="#Ba" n="15"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>rum continet primum capitulum, ubi
+<lb ed="#Ba" n="2"/>Magister probat tractatum Theologia
+<lb ed="#Ba" n="3"/>versari circa res et signa. Secunda autem
+<lb ed="#Ba" n="4"/>incipit in secundo capitulo‘, ibi, B, <quote xml:id="alalal-aa2114-Qd1e251"> Id
+<lb ed="#Ba" n="5"/>igitur in rebus, etc. </quote> Et hoc ideo 
+indu<lb break="no" ed="#Ba" n="6"/>citur, quia tam res quam signa 
+commu<lb break="no" ed="#Ba" n="7"/>nioris significationis sunt quam in hac
+<lb ed="#Ba" n="8"/>scientia intendantur : et ideo non omnes
+<lb ed="#Ba" n="9"/>proprietates rerum, nec omnes 
+proprie<lb break="no" ed="#Ba" n="10"/>tates signorum inquiruntur hic : et ideo
+<lb ed="#Ba" n="11"/>oportet determinare secundum quas
+<lb ed="#Ba" n="12"/>proprietates de rebus et signis 
+inquira<lb break="no" ed="#Ba" n="13"/>tur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="358"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e68002"><!-- l3d20a2 -->
+            <head xml:id="alalal-e68002-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-e68002-Hd1e101" type="question-title">Quae sit illa possibilitas, de qua dicitur,
+quod alius modus fuit Deo 
+possibilis ?</head>
+            <p xml:id="alalal-e68002-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="38"/>ARTICULUS III.
+<lb ed="Bd" n="39"/>Quae sit illa possibilitas, de qua dicitur,
+<lb ed="Bd" n="40"/>quod alius modus fuit Deo 
+possi<lb break="no" ed="Bd" n="41"/>bilis ?
+</p>
+            <p xml:id="alalal-e68002-d1e117">
+               <lb ed="Bd" n="42"/>Secundo quaeritur, Que sit illa 
+possi<lb break="no" ed="Bd" n="43"/>bilitas de qua dicitur, quod alius modus
+<lb ed="Bd" n="44"/>fuit Deo possibilis ?
+</p>
+            <p xml:id="alalal-e68002-d1e126">
+               <lb ed="Bd" n="45"/>Videtur autem, quod nulla : quia
+<lb ed="Bd" n="46"/>1. Potentia Dei non potest esse nisi 
+se<lb break="no" ed="Bd" n="47"/>cundum congruentiam decentissimam : 
+er<lb break="no" ed="Bd" n="48"/>go Deus nihil potest, quod congrucnter
+<lb ed="Bd" n="49"/>non potest.
+</p>
+            <p xml:id="alalal-e68002-d1e140">
+               <lb ed="Bd" n="50"/>2. Item, Potentia Dei non refertur ad
+<lb ed="Bd" n="51"/>opus nisi secundum ordinem sapientiae
+<lb ed="Bd" n="52"/>preordinantis, quia aliter Deus ageret
+<lb ed="Bd" n="53"/>precipitanter : sed sapientia Dei 
+preor<lb break="no" ed="Bd" n="54"/>dinaverat istum modum : ergo non fuit
+<lb ed="Bd" n="55"/>possibilis apud Deum alius modus, ut
+<lb ed="Bd" n="56"/>videtur.
+</p>
+            <p xml:id="alalal-e68002-d1e158">
+               <lb ed="Bd" n="57"/>3. Item, Detur, quod potentia Dei sit
+<lb ed="Bd" n="58"/>respectu istius, ut patuit in effectu, ipsa
+<lb ed="Bd" n="59"/>mutaretur de opere in opus : cum igitur
+<lb ed="Bd" n="60"/>hoe sit aliqua mutatio, et Deus penitus sit
+<lb ed="Bd" n="61"/>immutabilis : videlur, quod si potentia
+<lb ed="Bd" n="62"/>Dei fuit de isto modo, quod non potuit
+<lb ed="Bd" n="63"/>esse de alio.
+</p>
+            <p xml:id="alalal-e68002-d1e176">
+               <lb ed="Bd" n="64"/>SED CONTRA :
+<lb ed="Bd" n="65"/>Deus non agit per necessitatem 
+natu<lb break="no" ed="Bd" n="66"/>re, sicul facil potentia et virtus 
+natura<lb break="no" ed="Bd" n="67"/>lis, sed agit per voluntatis libertatem :
+<lb ed="Bd" n="68"/>quidquid autem agit hbertas voluntatis
+<lb ed="Bd" n="69"/>potest facere, et non facere, et alio modo
+<lb ed="Bd" n="70"/>facere : ergo videtur, quod Deus potuit
+<lb ed="Bd" n="71"/>hoc modo liberare, et non liberare, et
+<lb ed="Bd" n="72"/>alio modo liberare : quia aliter ipse minus
+<lb ed="Bd" n="73"/>esset liber in agendo, quam nos, quod
+<lb ed="Bd" n="74"/>absurdum est.
+</p>
+            <p xml:id="alalal-e68002-d1e202">
+               <lb ed="Bd" n="75"/>Solutio Dicendum, quod una et 
+sim<lb break="no" ed="Bd" n="76"/>plex est Dei potentia : sed tamen potest
+<pb ed="#Bd" n="359"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>dupliciter considerari, scilicet ut 
+exse<lb break="no" ed="Bd" n="2"/>quens sapientiae previsionem et 
+ordina<lb break="no" ed="Bd" n="3"/>tionem, et sic videtur, quod non fuit alius
+<lb ed="Bd" n="4"/>modus possibilis nostre  liberationis,
+<lb ed="Bd" n="5"/>quam preevisus est a sapientia 
+ordinan<lb break="no" ed="Bd" n="6"/>te : sed tamen potuit esse alius modus
+<lb ed="Bd" n="7"/>previsus, et tune potentia operans alium
+<lb ed="Bd" n="8"/>exsequeretur. Aliter considcratur secun~
+<lb ed="Bd" n="9"/>dum quod antecedenter se habet ad 
+sa<lb break="no" ed="Bd" n="10"/>pientiam : potest enim Deus facere quae
+<lb ed="Bd" n="11"/>per sapienliam omnia ordinantem, non
+<lb ed="Bd" n="12"/>ordinavit se facturum : et de hac potentia
+<lb ed="Bd" n="13"/>loquendo, alius fuit modus possibilis : ct
+<lb ed="Bd" n="14"/>de hac possibilitate loquuntur Sancti
+<lb ed="Bd" n="15"/>plerumque.
+</p>
+            <p xml:id="alalal-e68002-d1e246">
+               <lb ed="Bd" n="16"/>Ad primum ergo dicendum, quod 
+quid<lb break="no" ed="Bd" n="17"/>quid faceret Deus, eo ipso esset 
+decen<lb break="no" ed="Bd" n="18"/>tissimum quoad operantem, quod ipse
+<lb ed="Bd" n="19"/>faceret, ut prius dictum est. Et si 
+obji<lb break="no" ed="Bd" n="20"/>clas, quod Aristoteles dicit, quod potest
+<lb ed="Bd" n="21"/>Deus prava agere : dicendum, quod 
+ac<lb break="no" ed="Bd" n="22"/>cepit ibi prava materialiter, id est, potest
+<lb ed="Bd" n="23"/>agere id quod est pravum, quod tamen
+<lb ed="Bd" n="24"/>non esset pravum, sed optimum eo ipso
+<lb ed="Bd" n="25"/>quod Deus faceret illud.
+</p>
+            <p xml:id="alalal-e68002-d1e270">
+               <lb ed="Bd" n="26"/>Ad aliud dicendum, quod illa ratio
+<lb ed="Bd" n="27"/>procedit de potentia exsequente ordinem
+<lb ed="Bd" n="28"/>sapientiae previdentis : et de hac non
+<lb ed="Bd" n="29"/>loquimur, cum dicimus, quod alius
+<lb ed="Bd" n="30"/>modus liberationis fuit Deo  
+possibi<lb break="no" ed="Bd" n="31"/>ls.
+</p>
+            <p xml:id="alalal-e68002-d1e287">
+               <lb ed="Bd" n="32"/>Ad aliud dicendum, quod potentia Dei
+<lb ed="Bd" n="33"/>immutabilis est : quia si daretur quod fuit
+<lb ed="Bd" n="34"/>de alio modo, sequeretur quod numquam
+<lb ed="Bd" n="35"/>fuit de isto : licet enim utraque istarum
+<lb ed="Bd" n="36"/>possibilis sit divisim, potentia Dei est de
+<lb ed="Bd" n="37"/>isto modo, et potentia Dei est de alio
+<lb ed="Bd" n="38"/>modo : tamennon sunt compossibiles 
+se<lb break="no" ed="Bd" n="39"/>cundum relationem ad potentiam 
+operan<lb break="no" ed="Bd" n="40"/>tem : quia aliter Deus mutaret opus
+<lb ed="Bd" n="41"/>suum, quod esse non potest.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

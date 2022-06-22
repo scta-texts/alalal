@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 15</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 15</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="324"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c61634"><!-- l1d40a15 -->
+            <head xml:id="alalal-c61634-Hd1e99">Articulus 15</head>
+            <head xml:id="alalal-c61634-Hd1e101" type="question-title">Quid intelligitur per conditionem 
+implicitam, cum dicitur, Praedestinatum
+necesse est salvari ?</head>
+            <p xml:id="alalal-c61634-d1e104">
+               <lb ed="#Bb" n="16"/>ARTICULUS XV.
+<lb ed="#Bb" n="17"/>Quid intelligitur per conditionem 
+impli<lb break="no" ed="#Bb" n="18"/>citam, cum dicitur, Praedestinatum
+<lb ed="#Bb" n="19"/>necesse est salvari ?
+</p>
+            <p xml:id="alalal-c61634-d1e115">
+               <lb ed="#Bb" n="20"/>Postea queritur de hoc quod dicit, ibi,
+<lb ed="#Bb" n="21"/>B, circa medium : <quote xml:id="alalal-c61634-Qd1e121"> Intelligentia enim
+<cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" n="22"/>conditionis implicite veritatem facit in
+<lb ed="#Bb" n="23"/>dicto, et impossibilitatem in vero. </quote>
+               <lb ed="#Bb" n="24"/>Quid enim vocat conditionem 
+impli<lb break="no" ed="#Bb" n="25"/>citam ?
+<lb ed="#Bb" n="26"/>Item, Non videtur verum quod dicit,
+<lb ed="#Bb" n="27"/>quia nullum verum est impossibile : er-~
+<lb ed="#Bb" n="28"/>go nihil facit impossibilitatem in vero.
+</p>
+            <p xml:id="alalal-c61634-d1e142">
+               <lb ed="#Bb" n="29"/>Sotutto. Ad hoc dicendum, quod per
+<lb ed="#Bb" n="30"/>conditionem implicitam intelhgit 
+hypo<lb break="no" ed="#Bb" n="31"/>tesim pradestinationis in pradestinato,
+<lb ed="#Bb" n="32"/>scilicet quod praedestinatio semper 
+impli<lb break="no" ed="#Bb" n="33"/>cetur circa istum : ut sit locutio de dicto,
+<lb ed="#Bb" n="34"/>et non de re, cum dicitur, 
+pradestina<lb break="no" ed="#Bb" n="35"/>tum necesse est salvari: vel, si iste est
+<lb ed="#Bb" n="36"/>predestinatus, ipse necessario 
+salvabi<lb break="no" ed="#Bb" n="37"/>tur: quia tunc intelligentia istius 
+condi<lb break="no" ed="#Bb" n="38"/>tionis implicans praedestinationem circa
+<lb ed="#Bb" n="39"/>istum, etincludens modum necessitatis,
+<lb ed="#Bb" n="40"/>facit veritatem in dicto, id est, in 
+locu<lb break="no" ed="#Bb" n="41"/>tione illa, secundum quod est de dicto,
+<lb ed="#Bb" n="42"/>et non de re, et per consequens facit 
+im<lb break="no" ed="#Bb" n="43"/>possibilitatem in vero, quia facit verum
+<lb ed="#Bb" n="44"/>impossibile aliter habere se: et hoc est
+<lb ed="#Bb" n="45"/>quod intendit.
+</p>
+            <p xml:id="alalal-c61634-d1e182">
+               <lb ed="#Bb" n="46"/>Et per hoc patet solutio ad objectum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

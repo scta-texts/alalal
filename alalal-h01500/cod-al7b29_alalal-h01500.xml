@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="486"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h01500"><!-- l4d15a12 -->
+            <head xml:id="alalal-h01500-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-h01500-Hd1e101" type="question-title">An diffinitio satisfactionis sit bona ?</head>
+            <p xml:id="alalal-h01500-d1e104">
+               <lb ed="#Be" n="34"/>ARTICULUS XII.
+<lb ed="#Be" n="35"/>An diffinitio satisfactionis sit bona ?
+</p>
+            <p xml:id="alalal-h01500-d1e111">
+               <lb ed="#Be" n="36"/>Secundo, Queritur de diffinitione hic
+<lb ed="#Be" n="37"/>posita *.
+</p>
+            <p xml:id="alalal-h01500-d1e118">
+               <lb ed="#Be" n="38"/>Et queritur primo, quid dicatur hic
+<lb ed="#Be" n="39"/>peccatorum causas excidere ?
+</p>
+            <p xml:id="alalal-h01500-d1e126">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="40"/>1. Dicit enim Augustinus, quod 
+pec<lb break="no" ed="#Be" n="41"/>catum non habet causam, et cujus non .
+<lb ed="#Be" n="42"/>est causa, illius non contingit excidere
+<lb ed="#Be" n="43"/>causam : ergo nihil videtur esse quod 
+di<lb break="no" ed="#Be" n="44"/>citur in Littera.
+</p>
+            <p xml:id="alalal-h01500-d1e142">
+               <lb ed="#Be" n="45"/>2. Item, Dionysius : <quote xml:id="alalal-h01500-Qd1e146"> Peccatum est
+<lb ed="#Be" n="46"/>incausabile et involuntarium et 
+infeecun<lb break="no" ed="#Be" n="47"/>dum et pigrum. </quote> Et ex hoc sequitur
+<lb ed="#Be" n="48"/>idem quod prius.
+</p>
+            <p xml:id="alalal-h01500-d1e156">
+               <lb ed="#Be" n="49"/>3. Praeterea, Si non fiat vis in hoc:
+<lb ed="#Be" n="50"/>sed dicatur, quod voluntas deficiens est
+<lb ed="#Be" n="51"/>causa peccati : videtur, quod adhuc nihil
+<lb ed="#Be" n="52"/>sit quod dicit : quia satisfacere est actus
+<lb ed="#Be" n="53"/>et opus satisfacientis : excisio autem 
+vo<lb break="no" ed="#Be" n="54"/>luntatis deficientis, non est opus 
+jsatisfa<lb break="no" ed="#Be" n="55"/>ctionis, sed solius Dei, cujus est 
+conver<lb break="no" ed="#Be" n="56"/>tere voluntatem : ergo satisfacere non est
+<lb ed="#Be" n="57"/>causas peccatorum excidere.
+</p>
+            <p xml:id="alalal-h01500-d1e178">
+               <lb ed="#Be" n="58"/>4. tem, Causa peccati est quae tenet
+<lb ed="#Be" n="59"/>peccatum in anima: ergo fortius est 
+ad<lb break="no" ed="#Be" n="60"/>herens, quam peccatum ipsum : sed
+<lb ed="#Be" n="61"/>peccatum non solvitur nisi a Deo: ergo
+<lb ed="#Be" n="62"/>nec causa peccati : ergo hoc non est opus
+<lb ed="#Be" n="63"/>satisfacientis.
+</p>
+            <p xml:id="alalal-h01500-d1e194">
+               <lb ed="#Be" n="64"/>5. Item, Heec causa quae exciditur, est
+<lb ed="#Be" n="65"/>causa peccati: sed dicit Boetius, quod
+<lb ed="#Be" n="66"/>causa est ad cujus esse sequitur aliud :
+<lb ed="#Be" n="67"/>ergo existente causa peccati in anima,
+<lb ed="#Be" n="68"/>existit peccatum in eadem : sed non
+<lb ed="#Be" n="69"/>contingit satisfacere eum qui est in 
+pec<lb break="no" ed="#Be" n="70"/>cato, ut prius habitum est : ergo non
+<lb ed="#Be" n="71"/>contingit satisfacere eum qui est in causa
+<lb ed="#Be" n="72"/>peccati : ergo satisfacientem non 
+contin<lb break="no" ed="#Be" n="73"/>git excidere causas peccatorum.
+</p>
+            <p xml:id="alalal-h01500-d1e218">
+               <lb ed="#Be" n="74"/>6. Item, Causa ista peccatorum 
+exci<lb break="no" ed="#Be" n="75"/>denda de qua loquitur diffinitio : aut est
+<lb ed="#Be" n="76"/>conjuncta, aut remota. Si conjuncta sit:
+<lb ed="#Be" n="77"/>tunc existente causa, inest peccatum in
+<lb ed="#Be" n="78"/>anima, ut jam probatum est. Si remota:
+<lb ed="#Be" n="79"/>sed hoc est voluntas naturalis hominis,
+<lb ed="#Be" n="80"/>vel liberum arbitrium flexibile in malum :
+<lb ed="#Be" n="81"/>ergo contingit naturalem voluntatem
+<lb ed="#Be" n="82"/>excidere per opus satisfactionis, quod est
+<lb ed="#Be" n="83"/>omnino absurdum.
+</p>
+            <p xml:id="alalal-h01500-d1e243">
+               <lb ed="#Be" n="84"/>7. Praeterea, Alia via disputandi 
+vide<lb break="no" ed="#Be" n="85"/>tur, quod male sit diffinitio tradita : quia
+<pb ed="#Be" n="487"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>satisfactio respicit lesionem, vel injuriam
+<lb ed="#Be" n="2"/>alteri illatam: ergo debet diffiniri per
+<lb ed="#Be" n="3"/>comparationem ad injuriam illam 
+resti<lb break="no" ed="#Be" n="4"/>tuendam perrigorem juris vel arbitrium
+<lb ed="#Be" n="5"/>yoluniatis ejus cui illata est injuria : sed
+<lb ed="#Be" n="6"/>hoc non fit hic, sed potius diftinitur 
+se<lb break="no" ed="#Be" n="7"/>cundum id quod facit pcenitens in 
+satis<lb break="no" ed="#Be" n="8"/>factione : ergo male diffinitur.
+</p>
+            <p xml:id="alalal-h01500-d1e272">
+               <lb ed="#Be" n="9"/>8. Praeterea, Causa peccati in homine
+<lb ed="#Be" n="10"/>fomes est : et ille non exstinguitur in hac
+<lb ed="#Be" n="11"/>yita : ergo non contingit causas 
+pecca<lb break="no" ed="#Be" n="12"/>torum excidere : sed contingit 
+satisface<lb break="no" ed="#Be" n="13"/>re, ut prius habitum est : ergo 
+satisfa<lb break="no" ed="#Be" n="14"/>cere non est causas peccatorum 
+exci<lb break="no" ed="#Be" n="15"/>dere.
+</p>
+            <p xml:id="alalal-h01500-d1e290">
+               <lb ed="#Be" n="16"/>Unterius queritur de altera parte
+<lb ed="#Be" n="17"/>diffinitionis quam ponit, cum dicit :
+<lb ed="#Be" n="18"/>
+               <quote xml:id="alalal-h01500-Qd1e298"> Nec suggestiontbus eorum aditum 
+in<lb break="no" ed="#Be" n="19"/>dulgere. </quote>
+            </p>
+            <p xml:id="alalal-h01500-d1e304">
+               <lb ed="#Be" n="20"/>1. Cum enim satisfactio sit pro 
+pec<lb break="no" ed="#Be" n="21"/>cato preterito : suggestionis autem adi-.
+<lb ed="#Be" n="22"/>tus exspectetur in futurum, videtur quod
+<lb ed="#Be" n="23"/>hoc secundum non sit de essentia 
+satis<lb break="no" ed="#Be" n="24"/>factionis : ergo male ponitur in 
+diffini<lb break="no" ed="#Be" n="25"/>tione ejus.
+</p>
+            <p xml:id="alalal-h01500-d1e320">
+               <lb ed="#Be" n="26"/>2. Item, Suggestio videtur esse idem
+<lb ed="#Be" n="27"/>quod causa peccati : ergo idem bis ponie
+<lb ed="#Be" n="28"/>tur in diffinitione eadem.
+</p>
+            <p xml:id="alalal-h01500-d1e329">
+               <lb ed="#Be" n="29"/>3. Item, Ex hac ultima parte sequi 
+vi<lb break="no" ed="#Be" n="30"/>detur error qui condemnatus est in 
+diffi<lb break="no" ed="#Be" n="31"/>nitione praécedenti, scilicet quod ille qui
+<lb ed="#Be" n="32"/>suggestioni peccati dat adifum, non 
+satis<lb break="no" ed="#Be" n="33"/>facit : sed ille qui post poenitentiam, 
+in<lb break="no" ed="#Be" n="34"/>cidit in peceatum, suggestioni peccati
+<lb ed="#Be" n="35"/>dat aditum : ergo non satisfacit : ergo
+<lb ed="#Be" n="36"/>non poenitet : quia satisfactio est pars
+<lb ed="#Be" n="37"/>poenitentia.
+</p>
+            <p xml:id="alalal-h01500-d1e352">
+               <lb ed="#Be" n="38"/>1. Urenius queritur,quia Anselmus 
+vi<lb break="no" ed="#Be" n="39"/>detur dare aliam diffinitionem 
+satisfactio<lb break="no" ed="#Be" n="40"/>nis in libro Cur Deus homo, sic dicens:
+<lb ed="#Be" n="41"/>
+               <quote xml:id="alalal-h01500-Qd1e362"> Satisfacere Deo est debitum honorem
+<lb ed="#Be" n="42"/>impendere : </quote> ergo videiur, quod hic
+<lb ed="#Be" n="43"/>male diffiniatur.
+</p>
+            <p xml:id="alalal-h01500-d1e371">
+               <lb ed="#Be" n="44"/>2. Item, De diffinitione Anselmi 
+obji<lb break="no" ed="#Be" n="45"/>citur, quia non est convertibilis : constat
+<lb ed="#Be" n="46"/>enim, quod innocens servans mandata
+<lb ed="#Be" n="47"/>Dei, debitum honorem Deo impendat :
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="48"/>et tamen non satisfacit : ergo non est
+<lb ed="#Be" n="49"/>bona diffinitio Anselmi.
+</p>
+            <p xml:id="alalal-h01500-d1e389">
+               <lb ed="#Be" n="50"/>3. Praeterea, In <ref xml:id="alalal-h01500-Rd1e393">IV Ethicorum</ref> dicitur,
+<lb ed="#Be" n="51"/>quod magnanimitatis est honorem sibi et
+<lb ed="#Be" n="52"/>aliis impendere : ergo hoc non est 
+satis<lb break="no" ed="#Be" n="53"/>factionis.
+</p>
+            <p xml:id="alalal-h01500-d1e402">
+               <lb ed="#Be" n="54"/>4. Item, <ref xml:id="alalal-h01500-Rd1e406">Primo Ethicorum</ref> dicitur,
+<lb ed="#Be" n="55"/>quod honor queritur propter virtutem,
+<lb ed="#Be" n="56"/>et precipue ab his qui noscunt virtutem
+<lb ed="#Be" n="57"/>ejus quem honorant : ergo et impeditur
+<lb ed="#Be" n="58"/>in testimonium virtulis : sed satisfactio
+<lb ed="#Be" n="59"/>est recompensatio peccalti : ergo videtur,
+<lb ed="#Be" n="60"/>quod male diffiniatur per impensionem
+<lb ed="#Be" n="61"/>honoris.
+</p>
+            <p xml:id="alalal-h01500-d1e424">
+               <lb ed="#Be" n="62"/>Soxurio. Dicendum, quod satisfactio
+<lb ed="#Be" n="63"/>tripliciter potest diffiniri, scilicet 
+secun<lb break="no" ed="#Be" n="64"/>dum substantiam, ut satisfactio sit damni
+<lb ed="#Be" n="65"/>vel injurie illates recompensatio 
+secun<lb break="no" ed="#Be" n="66"/>dum judicium et juris ordinem, vel 
+arbi<lb break="no" ed="#Be" n="67"/>trium ejus cui injuria est illata.
+</p>
+            <p xml:id="alalal-h01500-d1e440">
+               <lb ed="#Be" n="68"/>Diffinitur etiam quandoque secundum
+<lb ed="#Be" n="69"/>quod est pars sacramenti poenitentia,
+<lb ed="#Be" n="70"/>quod est medicina peccati actualis : et
+<lb ed="#Be" n="71"/>sic diffinitur per medicamentum 
+vulne<lb break="no" ed="#Be" n="72"/>ris quod facit in satisfaciente, et haec est
+<lb ed="#Be" n="73"/>propria diffinitio ipsius in tractatu isto :
+<lb ed="#Be" n="74"/>et ideo sic diffinitur in Zi¢fera. Sanatur
+<lb ed="#Be" n="75"/>enim vulnus per illud quod causae 
+pecca<lb break="no" ed="#Be" n="76"/>torum exciduntur, et non indulgetur 
+ul<lb break="no" ed="#Be" n="77"/>terius aditus suggestioni : et ideo sic 
+in<lb break="no" ed="#Be" n="78"/>ducitur hic illa diffinitio.
+</p>
+            <p xml:id="alalal-h01500-d1e467">
+               <lb ed="#Be" n="79"/>Tertio diffinitur in comparatione ad.
+<lb ed="#Be" n="80"/>finem : cum enim Deum nec ledere nec
+<lb ed="#Be" n="81"/>damnificare possumus, peccando ei 
+ho<lb break="no" ed="#Be" n="82"/>norem debitum subtrahimus : et hoc fine
+<lb ed="#Be" n="83"/>satisfacimus, ut debitus ei honor, et prius
+<lb ed="#Be" n="84"/>subtractus restituatur : et sic ab Anselmo
+<lb ed="#Be" n="85"/>diffinitur : et ex illa diffinitione 
+extrahi<lb break="no" ed="#Be" n="86"/>tur quasi veritas totius hujus questionis.
+</p>
+            <p xml:id="alalal-h01500-d1e487">
+               <lb ed="#Be" n="87"/>Ad primum ergo dicendum, quod causa
+<lb ed="#Be" n="88"/>peccati dicitur collecta ex tribus, scilicet
+<lb ed="#Be" n="89"/>libidine incensa per peccati actum et 
+con<lb break="no" ed="#Be" n="90"/>suetudinem, et reliquiis peccati preteriti,
+<lb ed="#Be" n="91"/>et occasionibus peccandi, ut sunt locus,
+<lb ed="#Be" n="92"/>societas, tempus, et hujusmodi. 
+Volun<lb break="no" ed="#Be" n="93"/>tas enim affecta his tribus peccat, licet
+<lb ed="#Be" n="94"/>non necessario : quia cogi non potest, ut
+<lb ed="#Be" n="95"/>statim patebit infra in hac eadem solu-
+<pb ed="#Be" n="488"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>tione. Quod autem dicit Augustinus,
+<lb ed="#Be" n="2"/>quod peccatum non habet causam, 
+intel<lb break="no" ed="#Be" n="3"/>ligendum est, efficientem, quae univoce
+<lb ed="#Be" n="4"/>vel aquivoce agendo det ei essentiam in
+<lb ed="#Be" n="5"/>eo quod malum est, sicut videmus 
+cali<lb break="no" ed="#Be" n="6"/>dum cum calefacit, univoca actione dare
+<lb ed="#Be" n="7"/>suam essentiam secundum speciem 
+eam<lb break="no" ed="#Be" n="8"/>dem calefacto : et calidum cum arefacit,
+<lb ed="#Be" n="9"/>extrahendo humidum, equivoca actione
+<lb ed="#Be" n="10"/>inducit ariditatem, quae est essentia 
+que<lb break="no" ed="#Be" n="11"/>dam. Sed privationes non habent essen-~
+<lb ed="#Be" n="12"/>tias. Unde nihil est causa efficiens 
+ceci<lb break="no" ed="#Be" n="13"/>tatis : quia cacitas cum non sit essentia
+<lb ed="#Be" n="14"/>aliqua, a nullo recipit essentiam : et ita
+<lb ed="#Be" n="15"/>est de malo in eo guod malum, et de
+<lb ed="#Be" n="16"/>peccato in eo quod peccatum. Sed tamen
+<lb ed="#Be" n="17"/>actus peccati sub deformitate habet 
+cau<lb break="no" ed="#Be" n="18"/>sam partim efficientem, et partim 
+defi<lb break="no" ed="#Be" n="19"/>cientem, sicut notatur supra secundum
+<lb ed="#Be" n="20"/>librum Sententiarum. Hec autem causa
+<lb ed="#Be" n="21"/>conjuncta cum tribus dictis inclinatur ad
+<lb ed="#Be" n="22"/>bonum commutabile, et per consequens
+<lb ed="#Be" n="23"/>avertitur a Deo, et sic efficitur causa 
+pec<lb break="no" ed="#Be" n="24"/>catorum.
+</p>
+            <p xml:id="alalal-h01500-d1e565">
+               <lb ed="#Be" n="25"/>Per hoc patet solutio ad secundum.
+</p>
+            <p xml:id="alalal-h01500-d1e570">
+               <lb ed="#Be" n="26"/>Ad aliud dicendum, quod solus Deus
+<lb ed="#Be" n="27"/>per aversionem a culpa, convertit 
+volun<lb break="no" ed="#Be" n="28"/>tatem : sed tamen adhuc manet ligata
+<lb ed="#Be" n="29"/>prenominatis tribus : et haec solvuntur
+<lb ed="#Be" n="30"/>salisfactione per consuetudinem boni.
+</p>
+            <p xml:id="alalal-h01500-d1e583">
+               <lb ed="#Be" n="31"/>Ad aliud dicendum, quod duplex est
+<lb ed="#Be" n="32"/>causa, scilicet quae est per modum 
+priva<lb break="no" ed="#Be" n="33"/>tionis forme : quia peccatum formalem
+<lb ed="#Be" n="34"/>causam non habet in quantum peccatum
+<lb ed="#Be" n="35"/>est: et hac est aversio voluntatis ab 
+ia<lb break="no" ed="#Be" n="36"/>commutabili bono : et hance excidit Deus.
+<lb ed="#Be" n="37"/>Sed causae predicts quae sunt per modum
+<lb ed="#Be" n="38"/>inclinantium, et quasi quaedam 
+infirmi<lb break="no" ed="#Be" n="39"/>tates ex peccato relicte, sunt pene 
+po<lb break="no" ed="#Be" n="40"/>tius, et non causae : et ideo illas potest
+<lb ed="#Be" n="41"/>homo excidere.
+</p>
+            <p xml:id="alalal-h01500-d1e609">
+               <lb ed="#Be" n="42"/>Ad aliud dicendum, quod dictum 
+Boe<lb break="no" ed="#Be" n="43"/>tii intelligitur de vera causa : sed 
+pecca<lb break="no" ed="#Be" n="44"/>tum non habet vere causam : sed sunt
+<lb ed="#Be" n="45"/>quedam inclinantia ad ipsum, et illa
+<lb ed="#Be" n="46"/>large dicuntur hic causa.
+</p>
+            <p xml:id="alalal-h01500-d1e623">
+               <lb ed="#Be" n="47"/>Et per hoc patet solutio ad sequens.
+</p>
+            <p xml:id="alalal-h01500-d1e628">
+               <lb ed="#Be" n="48"/>Ad aliud dicendum, quod non 
+intelli<lb break="no" ed="#Be" n="49"/>gitur de causa conjuncta et propria, sed
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="50"/>potius de remota : et hac est duplex, sein
+<lb ed="#Be" n="51"/>licet remotissima, et haec est sola volun.
+<lb ed="#Be" n="52"/>tas : et propinguior, et haec est voluntag
+<lb ed="#Be" n="53"/>affecta et inclinata tribus quae dicta sunt,
+<lb ed="#Be" n="54"/>Kt ideo illa per contrariam consuetugj.
+<lb ed="#Be" n="55"/>nem boni, satisfactione sunt excidenda,
+</p>
+            <p xml:id="alalal-h01500-d1e650">
+               <lb ed="#Be" n="56"/>Ad aliud dicendum, quod diffinitur hi,
+<lb ed="#Be" n="57"/>satisfactio prout est pars medicinalis Sa~
+<lb ed="#Be" n="58"/>cramenti poenitentiae : et ratio hujus sy.
+<lb ed="#Be" n="59"/>pra dicta est : sed modo quo procedit ob.
+<lb ed="#Be" n="60"/>jectio, diffinienda est a legibus, vel ethj.
+<lb ed="#Be" n="61"/>co, vel politico : hoc autem signum est,
+<lb ed="#Be" n="62"/>quod opus satisfactionis injungitur per
+<lb ed="#Be" n="63"/>contrarium ejus, per quod magis in pec.
+<lb ed="#Be" n="64"/>catore fuit occasio peccati, ut lascivo je~
+<lb ed="#Be" n="65"/>junium, superbo oratio, et avaro 
+ele<lb break="no" ed="#Be" n="66"/>emosyna : quia, sicut dicit Beda, non 
+ga<lb break="no" ed="#Be" n="67"/>nat oculum quod sanat calcaneum, nec e
+<lb ed="#Be" n="68"/>contra.
+</p>
+            <p xml:id="alalal-h01500-d1e681">
+               <lb ed="#Be" n="69"/>Ad aliud dicendum, quod licet fomes
+<lb ed="#Be" n="70"/>non posset excidi in toto in hac vita,
+<lb ed="#Be" n="71"/>debilitari tamen potest et sopiri : et hoc
+<lb ed="#Be" n="72"/>sufficit excisioni.
+</p>
+            <p xml:id="alalal-h01500-d1e692">
+               <lb ed="#Be" n="73"/>Ad id quod ulterius quaeritur de se- ail
+<lb ed="#Be" n="74"/>cunda parte diffinitionis, dicendum, quod
+<lb ed="#Be" n="75"/>licet peccatum sit fulurum de quo est
+<lb ed="#Be" n="76"/>suggestio, tamen causa trahens ad ipsum
+<lb ed="#Be" n="77"/>est presens in subjecto, et hoc respicit
+<lb ed="#Be" n="78"/>satisfactionem, ut dictum est.
+</p>
+            <p xml:id="alalal-h01500-d1e708">
+               <lb ed="#Be" n="79"/>Vel dicatur melius, quod non 
+indul<lb break="no" ed="#Be" n="80"/>gere aditum suggestioni refertur ad: 
+fun<lb break="no" ed="#Be" n="81"/>damentum satisfactionis : et hoc. 
+secun<lb break="no" ed="#Be" n="82"/>dum propositum, ut scilicet non proponat
+<lb ed="#Be" n="83"/>ulterius consentire diabolo : et secundum
+<lb ed="#Be" n="84"/>hoc ponitur in diffinitione satisfactionis :
+<lb ed="#Be" n="85"/>quia, ut dicit Gregorius, <quote xml:id="alalal-h01500-Qd1e725"> sicut omnia
+<lb ed="#Be" n="86"/>medicamenta nihil valent ad sanandum
+<lb ed="#Be" n="87"/>vulnus, quamdiu ferrum infixum fuerit,
+<lb ed="#Be" n="88"/>nisi extrahatur : ita omnia beneficia 
+ni<lb break="no" ed="#Be" n="89"/>hil proderunt, nisi ipsum peccatum 
+re<lb break="no" ed="#Be" n="90"/>linquatur. </quote> Unde ita cadit in diffinitione
+<lb ed="#Be" n="91"/>satisfactionis sicut poenitentia : quia sine
+<lb ed="#Be" n="92"/>ipso non potest esse satisfactio, licet non
+<lb ed="#Be" n="93"/>sit de substantia ipsius.
+</p>
+            <p xml:id="alalal-h01500-d1e746">
+               <lb ed="#Be" n="94"/>Av auiup dicendum, quod suggestlox
+<lb ed="#Be" n="95"/>refertur ad deemonem, sed causa peceal!
+<lb ed="#Be" n="96"/>ad hominem, secundum tria trahentia
+<lb ed="#Be" n="97"/>que supra dicta sunt. Sicut enim dicit
+</p>
+            <p xml:id="alalal-h01500-d1e757">
+               <pb ed="#Be" n="489"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Augustinus in libro XII de Trinitate :
+<lb ed="#Be" n="2"/>
+               <quote xml:id="alalal-h01500-Qd1e767"> Peccatum quandoque est a carne, et
+<lb ed="#Be" n="3"/>quandoque ab homine : </quote> et sic patet,
+<lb ed="#Be" n="4"/>quod non est idem peccatum, et 
+sugge<lb break="no" ed="#Be" n="5"/>stio, et causa peccati.
+</p>
+            <p xml:id="alalal-h01500-d1e778">
+               <lb ed="#Be" n="6"/>Ad 1p quod objicitur de Anselmo patet
+<lb ed="#Be" n="7"/>solutio, qualiter accipiatur differentia 
+diffi<lb break="no" ed="#Be" n="8"/>nitionum.
+</p>
+            <p xml:id="alalal-h01500-d1e787">
+               <lb ed="#Be" n="9"/>Ad id autem quod objicitur contra 
+dif<lb break="no" ed="#Be" n="10"/>finitionem Anselmi, dicendum quod 
+de<lb break="no" ed="#Be" n="11"/>bitum multiplex est, sed hic 
+distingui<lb break="no" ed="#Be" n="12"/>mus triplex. Debitum scilicet ex commis-~
+<lb ed="#Be" n="13"/>so: sicut debet accipiens dona Dei ut 
+lu<lb break="no" ed="#Be" n="14"/>eretur in eis et reportet lucrum ex eis.
+<lb ed="#Be" n="15"/>Est etiam debitum ex dimisso, sicut 
+de<lb break="no" ed="#Be" n="16"/>bitor est, cui multum dimissum est : 
+sic<lb break="no" ed="#Be" n="17"/>ut dicitur, Luc. vn, 47 : Remittuntur et
+<lb ed="#Be" n="18"/>peccata multa, quoniam dilexit multum.
+<lb ed="#Be" n="19"/>Tertium est debitum ex peccato : et hoc
+<lb ed="#Be" n="20"/>quasi ex damno illato : et hoc est debi-~
+<lb ed="#Be" n="21"/>tum quo tenetur poenitens in 
+satisfactio<lb break="no" ed="#Be" n="22"/>ne : et in tali significatione accipitur in
+<lb ed="#Be" n="23"/>diffinitione Anselmi: et ideo non omnis
+<lb ed="#Be" n="24"/>servans mandata, debitum in hac ratione
+<lb ed="#Be" n="25"/>impendit Deo.
+</p>
+            <p xml:id="alalal-h01500-d1e826">
+               <lb ed="#Be" n="26"/>Ad aliud dicendum, quod 
+magnanimi<lb break="no" ed="#Be" n="27"/>tas hoc modo quo est simpliciter, magis
+<lb ed="#Be" n="28"/>quo virtus est digna, attendit honorem :
+<lb ed="#Be" n="29"/>sed restitutio justa attendit honorem,
+<lb ed="#Be" n="30"/>quatenus restituit honoris perditionem
+<lb ed="#Be" n="31"/>per peccatum. ,
+</p>
+            <p xml:id="alalal-h01500-d1e842">
+               <lb ed="#Be" n="32"/>Ad aliud dicendum, quod honor ab
+<lb ed="#Be" n="33"/>honorante debetur virtuti et virtuoso : et
+<lb ed="#Be" n="34"/>ideo anobis debetur Deo : nihilominus
+<lb ed="#Be" n="35"/>tamen habet etiam rationem 
+satisfactio<lb break="no" ed="#Be" n="36"/>nis ista honoris exhibitio, in quantum
+<lb ed="#Be" n="37"/>imperatur a justitia, quae est directiva
+<lb ed="#Be" n="38"/>damni sive injurie illate, de qua 
+loqui<lb break="no" ed="#Be" n="39"/>tur Philosopuhs in V Ethicorum.
+</p>
+            <p xml:id="alalal-h01500-d1e863">
+               <lb ed="#Be" n="40"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

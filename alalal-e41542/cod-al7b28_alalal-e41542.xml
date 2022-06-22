@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="214"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e41542"><!-- l3d11dt1 -->
+            <head xml:id="alalal-e41542-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e41542-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="12"/>DIVISIO TEXTUS
+</p>
+            <p xml:id="alalal-e41542-d1e108">
+               <lb ed="Bd" n="13"/>
+               <quote xml:id="alalal-e41542-Qd1e112"> Solet etiam queri, Utrum debeat
+<lb ed="Bd" n="14"/>simpliciter dici, etc. </quote>
+               <lb ed="Bd" n="15"/>In hac parte determinat Magister 
+con<lb break="no" ed="Bd" n="16"/>sequentia Christum wunifum ex natura
+<lb ed="Bd" n="17"/>humana per relationem ad causam 
+effi<lb break="no" ed="Bd" n="18"/>cientem, sive ad actum cause efficientis,
+<lb ed="Bd" n="19"/>qui ex parte efficientis est creatio. Ex
+<lb ed="Bd" n="20"/>quo relinguitur naturam humanam esse
+<lb ed="Bd" n="21"/>creatam et creaturam. Ex parte autem
+<lb ed="Bd" n="22"/>effecti sive causati sequitur inceptio esse
+<lb ed="Bd" n="23"/>in natura humana.
+</p>
+            <p xml:id="alalal-e41542-d1e137">
+               <lb ed="Bd" n="24"/>Et ideo sunt hic duae questiones, 
+sci<lb break="no" ed="Bd" n="25"/>licet utrum sit concedendum Christum
+<lb ed="Bd" n="26"/>esse creaturam? et haec determinatur in
+<lb ed="Bd" n="27"/>ista distinctione. Et, Utrum Christus 
+in<lb break="no" ed="Bd" n="28"/>ceperit? et haec determinatur in primo
+<lb ed="Bd" n="29"/>capitulo sequentis distinctionis, ibi, A,
+<lb ed="Bd" n="30"/>
+               <quote xml:id="alalal-e41542-Qd1e154"> Post predicta quaeritur, utrum home
+<lb ed="Bd" n="31"/>tlle caeperit esse, etc. </quote>
+            </p>
+            <p xml:id="alalal-e41542-d1e160">
+               <lb ed="Bd" n="32"/>Ista distinctio tria continet, quorum
+<lb ed="Bd" n="33"/>primum est non esse concedendum 
+sim<lb break="no" ed="Bd" n="34"/>pliciter, quod Christus sit creatura. 
+Se<lb break="no" ed="Bd" n="35"/>cundum est de perlidia Arit et poena,
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="36"/>propter hoc quod Christum creaturam
+<lb ed="Bd" n="37"/>esse dixit : et ibidem continctur ex quo
+<lb ed="Bd" n="38"/>sensu creatura dicatur, cum quandoque
+<lb ed="Bd" n="39"/>dicatur factus, ibi, B, <quote xml:id="alalal-e41542-Qd1e181"> Arit haec fuisse
+<lb ed="Bd" n="40"/>perfidia legitur, etc. </quote> In tertia et ultima
+<lb ed="Bd" n="41"/>parte solvitur quaedam argumentatio 
+so<lb break="no" ed="Bd" n="42"/>phistica, qua videtur probare quod 
+Chri<lb break="no" ed="Bd" n="43"/>stus sit creatura, ibi scilicet, B, § 3
+<lb ed="Bd" n="44"/>
+               <quote xml:id="alalal-e41542-Qd1e195"> Nee ex eo quod Christus secundum 
+ho<lb break="no" ed="Bd" n="45"/>minem dicitur esse creatura, etc.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

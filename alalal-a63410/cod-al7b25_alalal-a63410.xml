@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="317"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a63410"><!-- l1d10et1 -->
+            <head xml:id="alalal-a63410-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-a63410-d1e101">
+               <lb ed="#Ba" n="45"/>EXPOSITIO TEXTUS.
+</p>
+            <p xml:id="alalal-a63410-d1e106">
+               <lb ed="#Ba" n="46"/>Deinde quaeritur de hoc quod dicit
+<lb ed="#Ba" n="47"/>
+               <quote xml:id="alalal-a63410-Qd1e112"> Sicut Legis nomine aliquando simul
+<lb ed="#Ba" n="48"/>omnia, etc. </quote> Ubi sic in Scriptura 
+acci<lb break="no" ed="#Ba" n="49"/>pitur ?
+</p>
+            <p xml:id="alalal-a63410-d1e120">
+               <lb ed="#Ba" n="50"/>Et dicendum, quod Joan. xv, 25, Lex
+<cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="51"/>ponitur pro toto Veteri Testamento, ubi
+<lb ed="#Ba" n="52"/>dicit Dominus: Ut impleatur sermo qui
+<lb ed="#Ba" n="53"/>in lege eorum scriptus est : Quia odio 
+ha<lb break="no" ed="#Ba" n="54"/>buerunt me gratis : hoc enim in Psal.
+<lb ed="#Ba" n="55"/>cxvint, 161, scriptum est’ : qui non 
+dici<lb break="no" ed="#Ba" n="56"/>tur Lex, nisi quia est de Veteri 
+Testamen<lb break="no" ed="#Ba" n="57"/>to, quod etiam instrumentum est, quia
+<lb ed="#Ba" n="58"/>instruit, et sicut instramentum 
+harmo<lb break="no" ed="#Ba" n="59"/>niam litter ad spirttum, et typi ad veri-
+<pb ed="#Ba" n="318"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>tatem ostendit. Similiter ibi, cxvin, 4 :
+<lb ed="#Ba" n="2"/>Beati immaculati in via qui ambulant
+<lb ed="#Ba" n="3"/>in lege Domini : ibi enim tota Scriptura
+<lb ed="#Ba" n="4"/>potest dici Lex. Et ibi, Psal. 1,2: Jn 
+le<lb break="no" ed="#Ba" n="5"/>ge Domini voluntas ejus, et in lege ejus
+<lb ed="#Ba" n="6"/>meditabitur die ac nocte. De data lege
+<lb ed="#Ba" n="7"/>per Moysen est istud Joan 1, 17: Lex
+<lb ed="#Ba" n="8"/>per Moysen data est, gratia et veritas
+<lb ed="#Ba" n="9"/>per Jesum Christum facta est. tem, 
+Ec<lb break="no" ed="#Ba" n="10"/>cli. xxtv, 33 : Legem mandavit nobis
+<lb ed="#Ba" n="11"/>Moyses in preceptis justitiarum. Et,
+<lb ed="#Ba" n="12"/>Deuter. xxxtu, 2: In dextera egus ignea
+<lb ed="#Ba" n="13"/>lex.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

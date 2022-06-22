@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="75"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c14157"><!-- l1d29a2 -->
+            <head xml:id="alalal-c14157-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-c14157-Hd1e101" type="question-title">Utrum secundum rationem intelligendi
+principium secundum essentiam 
+dictum, sil ante principium notionaliter
+dictum, vel e converso ?</head>
+            <p xml:id="alalal-c14157-d1e104">
+               <lb ed="#Bb" n="79"/>ARTICULUS II.
+<lb ed="#Bb" n="80"/>Utrum secundum rationem intelligendi
+<lb ed="#Bb" n="81"/>principium secundum essentiam 
+di<lb break="no" ed="#Bb" n="82"/>ctum, sil ante principium notionaliter
+<lb ed="#Bb" n="83"/>dictum, vel e converso ?
+</p>
+            <p xml:id="alalal-c14157-d1e117">
+               <lb ed="#Bb" n="84"/>Secundo queritur, Utruin secundum
+<lb ed="#Bb" n="85"/>rationem intelligentiae principium 
+secun<lb break="no" ed="#Bb" n="86"/>dum essentiam dictum, sit ante 
+princi<lb break="no" ed="#Bb" n="87"/>pium dictum notionaliter, vel e 
+con<lb break="no" ed="#Bb" n="88"/>verso ?
+</p>
+            <p xml:id="alalal-c14157-d1e130">
+               <lb ed="#Bb" n="89"/>Et videtur, quod essentialiter dictum
+<lb ed="#Bb" n="90"/>sit ante : quia
+<pb ed="#Bb" n="76"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>1. Secundum rationem intelligentiae 
+es<lb break="no" ed="#Bb" n="2"/>sentia est ante personam : ergo dictum
+<lb ed="#Bb" n="3"/>essentialiter est ante dictum personaliter.
+<lb ed="#Bb" n="4"/>Prima probatur per id quod supra 
+habi<lb break="no" ed="#Bb" n="5"/>tum est, quod persona est ab essentia
+<lb ed="#Bb" n="6"/>quasi formaliter, et non e converso.
+</p>
+            <p xml:id="alalal-c14157-d1e155">
+               <lb ed="#Bb" n="7"/>2. Item, In omni natura in qua est 
+or<lb break="no" ed="#Bb" n="8"/>do nature, natura est ante illum 
+ordi<lb break="no" ed="#Bb" n="9"/>nem secundum rationem intelligentiae :
+<lb ed="#Bb" n="10"/>sed principium creationis est nature, et
+<lb ed="#Bb" n="11"/>principium notionale est ordinis nature :
+<lb ed="#Bb" n="12"/>ergo principium creaturarum est ante
+<lb ed="#Bb" n="13"/>principium personaliter dictum.
+</p>
+            <p xml:id="alalal-c14157-d1e173">
+               <lb ed="#Bb" n="14"/>3. Item, Absolutum est ante 
+respecti<lb break="no" ed="#Bb" n="15"/>vum : quia, ut supra dictum est ab 
+Au<lb break="no" ed="#Bb" n="16"/>gustino, omne relativum est etiam aliquid
+<lb ed="#Bb" n="17"/>aliud, et aliter nec relativum essét, quia
+<lb ed="#Bb" n="18"/>oporteret aliter quod relatio in nihilo
+<lb ed="#Bb" n="19"/>fundaretur : ergo cum principium 
+crea<lb break="no" ed="#Bb" n="20"/>turarum sit de dictis absolute, quia de
+<lb ed="#Bb" n="21"/>essentia, et principium personaliter 
+di<lb break="no" ed="#Bb" n="22"/>ctum sit de respectivis, erit principium
+<lb ed="#Bb" n="23"/>essentialiter dictum ad creaturas ante
+<lb ed="#Bb" n="24"/>personaliter dictum ad personam Filii et
+<lb ed="#Bb" n="25"/>Spiritus sancti.
+</p>
+            <p xml:id="alalal-c14157-d1e202">
+               <lb ed="#Bb" n="26"/>SED CONTRA :
+<lb ed="#Bb" n="27"/>1. Ab sterno Pater est principium 
+Fi<lb break="no" ed="#Bb" n="28"/>lil, et Spiritus sancti, ex tempore autem
+<lb ed="#Bb" n="29"/>est principium creaturarum : et aeternum
+<lb ed="#Bb" n="30"/>est ante temporale : ergo principium
+<lb ed="#Bb" n="31"/>dictum notionaliter, est ante principium
+<lb ed="#Bb" n="32"/>dictum essentialiter.
+</p>
+            <p xml:id="alalal-c14157-d1e220">
+               <lb ed="#Bb" n="33"/>2. Item, Anselmus vult, quod 
+proces<lb break="no" ed="#Bb" n="34"/>sio personarum causa sit processionis
+<lb ed="#Bb" n="35"/>creaturarum : et hoc etiam innuit 
+Augu<lb break="no" ed="#Bb" n="36"/>stinus, cum illud, Dixit Deus, fiat hoc
+<lb ed="#Bb" n="37"/>vel illud, sic exponit, id est, verbum 
+ge<lb break="no" ed="#Bb" n="38"/>nuit in quo erat ut fieret.
+</p>
+            <p xml:id="alalal-c14157-d1e236">
+               <lb ed="#Bb" n="39"/>Solutio. Ad hoc facile est solvere :
+<lb ed="#Bb" n="40"/>quia similis questio supra habita est de
+<lb ed="#Bb" n="41"/>potentia generandi, et de potentia 
+crean<lb break="no" ed="#Bb" n="42"/>di. Et dicendum, quod principium 
+di<lb break="no" ed="#Bb" n="43"/>ctum notionaliter, est ante principium
+<lb ed="#Bb" n="44"/>dictum essentialiter ad creaturam 
+sim<lb break="no" ed="#Bb" n="45"/>pliciter, sed secundum quid est e 
+con<lb break="no" ed="#Bb" n="46"/>verso : quia si sumatur principium ab
+<lb ed="#Bb" n="47"/>habitudine sola, vel ab eo in quo est 
+ha<lb break="no" ed="#Bb" n="48"/>bitudo, scilicet essentia, tunc ab aeterno
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="49"/>Deus est principium creaturarum, et hoc
+<lb ed="#Bb" n="50"/>est principium secundum quid et non
+<lb ed="#Bb" n="51"/>actu : et ita procedunt rationes prime.
+<lb ed="#Bb" n="52"/>Si autem accipiatur in vera ratione 
+prin<lb break="no" ed="#Bb" n="53"/>cipii, sumetur ab actu : et sic procedunt
+<lb ed="#Bb" n="54"/>rationes facte in contrarium.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

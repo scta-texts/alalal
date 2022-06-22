@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="230"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d43136"><!-- l2d12a1 -->
+            <head xml:id="alalal-d43136-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-d43136-Hd1e101" type="question-title">Utrum omnia simul facta sint, sicut
+dicit Augustinus, aut per senarium
+dierum numerum digesta ?</head>
+            <p xml:id="alalal-d43136-d1e104">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="35"/>ARTICULUS I.
+<lb ed="#Bc" n="36"/>Utrum omnia simul facta sint, sicut
+<lb ed="#Bc" n="37"/>dicit Augustinus, aut per senarium
+<lb ed="#Bc" n="38"/>dierum numerum digesta ?
+</p>
+            <p xml:id="alalal-d43136-d1e117">
+               <lb ed="#Bc" n="39"/>Incidit prima questio circa primam
+<lb ed="#Bc" n="40"/>partem de opinione Augustini qui dicit,
+<lb ed="#Bc" n="41"/>omnia facta esse simul in materia et
+<lb ed="#Bc" n="42"/>forma . Et opinioni aliorum qui aliter
+<lb ed="#Bc" n="43"/>sentiunt, opponit sic Augustinus :
+</p>
+            <p xml:id="alalal-d43136-d1e130">
+               <lb ed="#Bc" n="44"/>1. Eccli. xvi, i: Qui vivit in 
+eter<lb break="no" ed="#Bc" n="45"/>num, creavit omnia simul. Et qui dicit
+<lb ed="#Bc" n="46"/>omnia, nihil excipit: ergo omnia simul
+<lb ed="#Bc" n="47"/>ereata sunt, et non per senarium nu&gt;
+<lb ed="#Bc" n="48"/>merum.
+</p>
+            <p xml:id="alalal-d43136-d1e144">
+               <lb ed="#Bc" n="49"/>2. Item, Glossa Gregorii, ibidem,
+<lb ed="#Bc" n="50"/>
+               <quote xml:id="alalal-d43136-Qd1e150"> Cum simulfactum ccoelum terraque 
+de<lb break="no" ed="#Bc" n="51"/>scribitur, simul spiritualia atque corpora
+<lb ed="#Bc" n="52"/>lia, simul quidquid de ceelo oritur, simul
+<lb ed="#Bc" n="53"/>factum quidquid de terra producitur, 
+in<lb break="no" ed="#Bc" n="54"/>dicatur. </quote> Constat autem, quod stelle de
+<lb ed="#Bc" n="55"/>ceelo, et plante, et animalia de terra.
+<lb ed="#Bc" n="56"/>Ergo ccoelum et terra, et stelle et plante
+<lb ed="#Bc" n="57"/>et animalia simul facta sunt, et non 
+suc<lb break="no" ed="#Bc" n="58"/>cessive per sex dies.
+</p>
+            <p xml:id="alalal-d43136-d1e171">
+               <pb ed="#Bc" n="231"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>3. Item, Objicit Augustinus per id
+<lb ed="#Bc" n="2"/>quod habetur, Genes. 1, 4et 3: SLslze
+<lb ed="#Bc" n="3"/>sunt generationes celi et terre, quando
+<lb ed="#Bc" n="4"/>creata sunt, in die quo fecit Dominus
+<lb ed="#Bc" n="5"/>coelum et terram : et omne virgultum
+<lb ed="#Bc" n="6"/>agri antequam oriretur in terra, 
+om<lb break="no" ed="#Bc" n="7"/>nemque herbam regionis priusquam 
+ger<lb break="no" ed="#Bc" n="8"/>minaret. Ergo in die in quo fecit 
+Domi<lb break="no" ed="#Bc" n="9"/>nus coelum et terram, fecit virgullum
+<lb ed="#Bc" n="10"/>agri et herbam regionis. Ergo tertia dies
+<lb ed="#Bc" n="11"/>fuil cum prima die: et eadem ratio est de
+<lb ed="#Bc" n="12"/>aliis : ergo opera sex dierum facta sunt
+<lb ed="#Bc" n="13"/>simul.
+</p>
+            <p xml:id="alalal-d43136-d1e206">
+               <lb ed="#Bc" n="14"/>4. Item, Hoe videtur expressius per
+<lb ed="#Bc" n="15"/>aliam translationem, quam inducit 
+Au<lb break="no" ed="#Bc" n="16"/>gustinus : et dicit sic : <quote xml:id="alalal-d43136-Qd1e214"> Hic est liber
+<lb ed="#Bc" n="17"/>creature coeli et terre, cum facius est
+<lb ed="#Bc" n="18"/>dies, fecit Deus ccoelum et terram et 
+her<lb break="no" ed="#Bc" n="19"/>bam pabuli. </quote> Ergo cum factus est dies,
+<lb ed="#Bc" n="20"/>fecit Deus coelum et terram et herbam.
+<lb ed="#Bc" n="21"/>dies autem facta non potest intelligi illa
+<lb ed="#Bc" n="22"/>qu est ex allatione solis: ergo alia dies
+<lb ed="#Bc" n="23"/>est quam fecit Deus quando fecit omnia
+<lb ed="#Bc" n="24"/>alia: non autem potest esse dies illa
+<lb ed="#Bc" n="25"/>ante lucem corporalem nisi natura 
+An<lb break="no" ed="#Bc" n="26"/>gelica: ergo cum natura Angelica fecit
+<lb ed="#Bc" n="27"/>Deus omnia: ergo omnia simul.
+</p>
+            <p xml:id="alalal-d43136-d1e242">
+               <lb ed="#Bc" n="28"/>5. Item, per illud Job, xt, 10: &amp;£ece
+<lb ed="#Bc" n="29"/>Behemoth quem feci tecum. Sei 
+Behe<lb break="no" ed="#Bc" n="30"/>moth Angelus est, qui primo cum factus
+<lb ed="#Bc" n="31"/>est, dies est factus: homo autem sexto
+<lb ed="#Bc" n="32"/>die factus commemoratur: ergo opus
+<lb ed="#Bc" n="33"/>sexte diei fit cum opere prime diei:
+<lb ed="#Bc" n="34"/>ergo et cetera multo magis facta sunt.
+</p>
+            <p xml:id="alalal-d43136-d1e260">
+               <lb ed="#Bc" n="35"/>6. Item, Augustinus ducit ad 
+inconve<lb break="no" ed="#Bc" n="36"/>niens dicentem oppositum. Si enim 
+om<lb break="no" ed="#Bc" n="37"/>nia facta sunt in materia confusa 
+tan<lb break="no" ed="#Bc" n="38"/>tum, tune nihil erat distinclum: ergo
+<lb ed="#Bc" n="39"/>nec circulus in quo lux rotaretur: cum
+<lb ed="#Bc" n="40"/>igitur dies non fiat nisi circulari 
+rota<lb break="no" ed="#Bc" n="41"/>tione lucis, etiam dies tunc non erat,
+<lb ed="#Bc" n="42"/>nec prima, nec secunda, nec tertia: sed
+<lb ed="#Bc" n="43"/>in quarta primo incepit.
+</p>
+            <p xml:id="alalal-d43136-d1e282">
+               <lb ed="#Bc" n="44"/>7. Item, Dies fit ad solatium 
+habitan<lb break="no" ed="#Bc" n="45"/>tium in terra: tunc autem nullus terram
+<lb ed="#Bc" n="46"/>inhabitabat : ergo dies frustra fuisset,
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="47"/>nisi omnia simul facta sint: frustra 
+au<lb break="no" ed="#Bc" n="48"/>tem et vanum et inutile non est in 
+operi<lb break="no" ed="#Bc" n="49"/>bus Dei: ergo videtur, quod omnia 
+si<lb break="no" ed="#Bc" n="50"/>mul facta sint.
+</p>
+            <p xml:id="alalal-d43136-d1e303">
+               <lb ed="#Bc" n="51"/>8. Item, Si aliquis diceret, quod dies
+<lb ed="#Bc" n="52"/>fiebat tunc emissione et contractione 
+lu<lb break="no" ed="#Bc" n="53"/>cis. Objicit Augustinus in contrarium ?:
+<lb ed="#Bc" n="54"/>quoniam corpus luminosum non 
+illumi<lb break="no" ed="#Bc" n="55"/>nat contrahendo et emittendo radios,
+<lb ed="#Bc" n="56"/>sicut oculus, cum non habeat operiens
+<lb ed="#Bc" n="57"/>aliquid, et agat per necessitatem nature.
+</p>
+            <p xml:id="alalal-d43136-d1e321">
+               <lb ed="#Bc" n="58"/>9. Preterea, Illa emissio et contractio
+<lb ed="#Bc" n="59"/>nec ratione probatur, nec Sacre 
+Scri<lb break="no" ed="#Bc" n="60"/>pture auctoritate : ergo eadem facilitate
+<lb ed="#Bc" n="61"/>contemnitur, qua dicitur.
+</p>
+            <p xml:id="alalal-d43136-d1e332">
+               <lb ed="#Bc" n="62"/>10. Item, Constat, quod opus prime
+<lb ed="#Bc" n="63"/>diei produxit Deus in momento: 
+que<lb break="no" ed="#Bc" n="64"/>ritur igitur, Quare vacabat per viginti
+<lb ed="#Bc" n="65"/>quatuor horas, cum artifex qui in opere
+<lb ed="#Bc" n="66"/>non lassatur, non scit cessare ab opere,
+<lb ed="#Bc" n="67"/>donec aliquid restat de opere 
+perficien<lb break="no" ed="#Bc" n="68"/>do ? hujus autem causam non est facile
+<lb ed="#Bc" n="69"/>invenire. Et has omnes rationes innuit
+<lb ed="#Bc" n="70"/>Augustinus in diversis locis librorum
+<lb ed="#Bc" n="71"/>super Genesim ad litteram.
+</p>
+            <p xml:id="alalal-d43136-d1e356">
+               <lb ed="#Bc" n="72"/>Preterea, Pro eadem opinione potest
+<lb ed="#Bc" n="73"/>objici sic :
+<lb ed="#Bc" n="74"/>1. Perfectissimi agentis est perfectissi-~
+<lb ed="#Bc" n="75"/>mum opus : opus autem perfectissimum
+<lb ed="#Bc" n="76"/>est completum in forma et materia:
+<lb ed="#Bc" n="77"/>ergo videtur, quod omnia creata sunt
+<lb ed="#Bc" n="78"/>a supremo artifice perfecta in forma et
+<lb ed="#Bc" n="79"/>materia.
+</p>
+            <p xml:id="alalal-d43136-d1e376">
+               <lb ed="#Bc" n="80"/>2. Item, Aristoteles sepe utitur hoc
+<lb ed="#Bc" n="81"/>argumento, Si aliquid melius fit uno
+<lb ed="#Bc" n="82"/>quam pluribus, et subito et simul quam
+<lb ed="#Bc" n="83"/>successive, quod natura sic operatur quae
+ <lb ed="#Bc" n="84"/>expedit se brevioribus, quibus potest :
+<lb ed="#Bc" n="85"/>ergo multo magis summe potens Deus:
+<lb ed="#Bc" n="86"/>melius autem est facere simul quam
+<lb ed="#Bc" n="87"/>successive, et uno quam pluribus : ergo
+<lb ed="#Bc" n="88"/>videtur, quod Deus: simul omnia 
+fece<lb break="no" ed="#Bc" n="89"/>rit.
+</p>
+            <p xml:id="alalal-d43136-d1e400">
+               <lb ed="#Bc" n="90"/>3. Item, Omnis operationis terminus
+<lb ed="#Bc" n="91"/>est compositum et non materia sola: et
+<pb ed="#Bc" n="232"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>veritas illius: patet inducendo in arte et
+<lb ed="#Bc" n="2"/>natura : ergo.et operationis divine 
+ter<lb break="no" ed="#Bc" n="3"/>minus est compositum : compositum 
+au<lb break="no" ed="#Bc" n="4"/>tem est ex materia et forma perfectum :
+<lb ed="#Bc" n="5"/>ergo. creature simul materia et forma
+<lb ed="#Bc" n="6"/>perfect facte sunt.
+</p>
+            <p xml:id="alalal-d43136-d1e425">
+               <lb ed="#Bc" n="7"/>4. Item, Si facta est materia prima :
+<lb ed="#Bc" n="8"/>aut igitur facta est nuda sine omni 
+for<lb break="no" ed="#Bc" n="9"/>ma, aut sub forma mixtionis. Si nuda,
+<lb ed="#Bc" n="10"/>hoc non potest esse : quia etiam 
+Magi<lb break="no" ed="#Bc" n="11"/>ster in tertia parte istius lectionis infra
+<lb ed="#Bc" n="12"/>dicet, quod sine omni forma subsistere
+<lb ed="#Bc" n="13"/>non possit: quia sic est in potentia et
+<lb ed="#Bc" n="14"/>intelectu tantum. Si autem sub forma
+</p>
+            <p xml:id="alalal-d43136-d1e445">
+               <lb ed="#Bc" n="15"/>ixtionis facta est. Contra : Miscibilia
+<lb ed="#Bc" n="16"/>tempore et substantia distincta sunt 
+an<lb break="no" ed="#Bc" n="17"/>te mixtum, ut probat Philosophus: 
+er<lb break="no" ed="#Bc" n="18"/>go ante illud mixtum oportuit esse 
+dis<lb break="no" ed="#Bc" n="19"/>tinctas res in formis suis.
+</p>
+            <p xml:id="alalal-d43136-d1e458">
+               <lb ed="#Bc" n="20"/>5. Item, Miscibilia non miscerentur
+<lb ed="#Bc" n="21"/>nisi aliquo movente ad mixtionem : 
+ni<lb break="no" ed="#Bc" n="22"/>hil autem movens fuit ad illam 
+mixtio<lb break="no" ed="#Bc" n="23"/>nem: ergo videtur, quod in forma 
+mix<lb break="no" ed="#Bc" n="24"/>tionis et confusionis non sint facta 
+om<lb break="no" ed="#Bc" n="25"/>nia simul. His et hujusmodi rationibus
+<lb ed="#Bc" n="26"/>consentit Augustinus : et etiam quidam
+<lb ed="#Bc" n="27"/>Philosophi ponentes mundum 
+incepis<lb break="no" ed="#Bc" n="28"/>se per creationem, tenent viam 
+Au<lb break="no" ed="#Bc" n="29"/>gustini, et Rabbi Moyses, et alii 
+qui<lb break="no" ed="#Bc" n="30"/>dam.
+</p>
+            <p xml:id="alalal-d43136-d1e484">
+               <lb ed="#Bc" n="31"/>SED E CONTRA objicitur per opinionem
+<lb ed="#Bc" n="32"/>aliorum Sanctorum :
+<lb ed="#Bc" n="33"/>1. Dicit enim Chrysostomus super
+<lb ed="#Bc" n="34"/>Joannem : <quote xml:id="alalal-d43136-Qd1e494"> Oportebat generari 
+creatu<lb break="no" ed="#Bc" n="35"/>ras, sed non simul: et hominem cum
+<lb ed="#Bc" n="36"/>muliere, sed neque hac simul : </quote> ergo
+<lb ed="#Bc" n="37"/>non omnia simul facta sunt.
+</p>
+            <p xml:id="alalal-d43136-d1e505">
+               <lb ed="#Bc" n="38"/>2. Item, Gregorius in libro XXXII
+<lb ed="#Bc" n="39"/>Moralium :'<quote xml:id="alalal-d43136-Qd1e511"> Rerum substantia simul
+<lb ed="#Bc" n="40"/>creata est, sed simul secundum species
+<lb ed="#Bc" n="41"/>formata non est : et quod simul exstitit
+<lb ed="#Bc" n="42"/>per substantiam materia, non simul
+<lb ed="#Bc" n="43"/>apparuit per speciem forma. </quote>
+            </p>
+            <p xml:id="alalal-d43136-d1e523">
+               <lb ed="#Bc" n="44"/>3. Sed quia copiose ad hoc abundant
+<lb ed="#Bc" n="45"/>auctoritates Gregorii, Hieronymi, Basilii,
+<lb ed="#Bc" n="46"/>Bede, Ambrosii, Dionysii, Damasceni,
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="47"/>Alcuini, <name xml:id="alalal-d43136-Nd1e536">Strabi</name>, et aliorum quam: 
+pluri<lb break="no" ed="#Bc" n="48"/>morum Patrum praeter Augustinum,
+<lb ed="#Bc" n="49"/>4. Inducatur etiam auctoritas 
+Augu<lb break="no" ed="#Bc" n="50"/>stini. Dicit enim in libro Confessionum;
+<lb ed="#Bc" n="51"/>
+               <quote xml:id="alalal-d43136-Qd1e546"> Nonne tu docuisti me, quod priusquam
+<lb ed="#Bc" n="52"/>istam. informem materiam formares, i
+<lb ed="#Bc" n="53"/>non erat aliquid, non color, non 
+cor<lb break="no" ed="#Bc" n="54"/>pus, non figura, non spiritus, non:
+<lb ed="#Bc" n="55"/>tamen omnino nihil: erat enim quee- :
+<lb ed="#Bc" n="56"/>dam informitas sine ulla specie. </quote>
+               <lb ed="#Bc" n="57"/>Ergo videtur, quod informem 
+  mate<lb break="no" ed="#Bc" n="58"/>riam creavit Deus primo, et postea
+<lb ed="#Bc" n="59"/>formavit. Si quis autem velit accipere,
+<lb ed="#Bc" n="60"/>multas inveniet auctoritates similes isti
+<lb ed="#Bc" n="61"/>in <ref xml:id="alalal-d43136-Rd1e570">libris XII</ref> et <ref xml:id="alalal-d43136-Rd1e573">XU Confessionum</ref>. 
+</p>
+            <p xml:id="alalal-d43136-d1e577">
+               <lb ed="#Bc" n="62"/>5. Item, <ref xml:id="alalal-d43136-Rd1e581">Augustinus super Genesim</ref> 
+di<lb break="no" ed="#Bc" n="63"/>cit : <quote xml:id="alalal-d43136-Qd1e585"> Major est hujus scripture, scilicet
+<lb ed="#Bc" n="64"/>Genesis auctoritas, quam omnis bumani 
+<lb ed="#Bc" n="65"/>ingenii perspicacitas. </quote> Cum igitur Scri-.
+<lb ed="#Bc" n="66"/>ptura pronuntiet sex dies, videtur quod
+<lb ed="#Bc" n="67"/>temeritas ingenii et presumptio est 
+di<lb break="no" ed="#Bc" n="68"/>cere omnia simul esse facta. a
+</p>
+            <p xml:id="alalal-d43136-d1e600">
+               <lb ed="#Bc" n="69"/>6. Item, Videtur etiam haec opinio |
+<lb ed="#Bc" n="70"/>Philosophis consentanea, quod primum -
+<lb ed="#Bc" n="71"/>facte sunt res in confusione mixtionis.
+<lb ed="#Bc" n="72"/>Unde. Ovidius :
+<lb ed="#Bc" n="73"/>
+               <quote xml:id="alalal-d43136-Qd1e613">Ante mare, et terras, et quod tegit omnia. cm:-:
+[lum,:
+<lb ed="#Bc" n="74"/>Unus erat toto nature vultus in orbe,
+<lb ed="#Bc" n="75"/>Quem dixere Chaos, rudis indiges atque mo-.
+[les.</quote>
+            </p>
+            <p xml:id="alalal-d43136-d1e621">
+               <lb ed="#Bc" n="76"/>7. Item, Boetius in libro de 
+Consola<lb break="no" ed="#Bc" n="77"/>tione Philosophie :
+<lb ed="#Bc" n="78"/>
+               <quote xml:id="alalal-d43136-Qd1e629">Quem non externe populerunt fingere cause
+<lb ed="#Bc" n="79"/>Materie fluitantis opus.</quote>
+            </p>
+            <p xml:id="alalal-d43136-d1e635">
+               <lb ed="#Bc" n="80"/>8. Item, Aristoteles in primo 
+Physico<lb break="no" ed="#Bc" n="81"/>rum :<quote xml:id="alalal-d43136-Qd1e641"> Quidam ex uno mixto inherentes—
+<lb ed="#Bc" n="82"/>contrarietates segregant, quaemadmodum™
+<lb ed="#Bc" n="83"/>Anaximander dixit: et quicumque alii.
+<lb ed="#Bc" n="84"/>unum et multa dicunt esse, sicut 
+Empe<lb break="no" ed="#Bc" n="85"/>docles et Anaxagoras. </quote>
+            </p>
+            <p xml:id="alalal-d43136-d1e653">
+               <lb ed="#Bc" n="86"/>9. Item, Plato in ultima parte Timzi
+<lb ed="#Bc" n="87"/>dicit sic : <quote xml:id="alalal-d43136-Qd1e659"> Mixta namque mundi sensi-
+<pb ed="#Bc" n="233"/>
+                  <cb ed="#Bc" n="a"/>
+                  <lb ed="#Bc" n="1"/>bilis ex necessitatis intelligentieque 
+cc<lb break="no" ed="#Bc" n="2"/>tu consistit generatio, dominante 
+intel<lb break="no" ed="#Bc" n="3"/>Jectu, et salubri persuasione rigorem
+<lb ed="#Bc" n="4"/>necessitatis trahente ad optimos actus. </quote>
+               <lb ed="#Bc" n="5"/>Ergo videtur, quod haec opinio sit verior.
+</p>
+            <p xml:id="alalal-d43136-d1e678">
+               <lb ed="#Bc" n="6"/>10. Item, Per rationem potest sic 
+ob<lb break="no" ed="#Bc" n="7"/>jici ; Natura in omni opere suo 
+regu<lb break="no" ed="#Bc" n="8"/>Jata est ab aliquo exemplari operis 
+di<lb break="no" ed="#Bc" n="9"/>vini: constat autem, quod in opere
+<lb ed="#Bc" n="10"/>nature potentia preecedit actum 
+tem<lb break="no" ed="#Bc" n="11"/>pore: ergo hoc preostensum est in
+<lb ed="#Bc" n="12"/>opere divino : opus autem praecedens
+<lb ed="#Bc" n="13"/>naturam non est nisi opus creationis, et
+<lb ed="#Bc" n="14"/>dispositionis, et ornatus : ergo videtur,
+<lb ed="#Bc" n="15"/>quod inillo etiam potentia praecesserit
+<lb ed="#Bc" n="16"/>actum : ergo materia ante facta est, et
+<lb ed="#Bc" n="17"/>postea per formas distincta.
+</p>
+            <p xml:id="alalal-d43136-d1e708">
+               <lb ed="#Bc" n="18"/>11. Item, Subitum et successivum non
+<lb ed="#Bc" n="19"/>possunt esse simul : sed opus creationis
+<lb ed="#Bc" n="20"/>est subitum, quia inter ens et nihil non
+<lb ed="#Bc" n="21"/>est medium: opus aulem  distinctionis
+<lb ed="#Bc" n="22"/>est in motu ad formam et ad locum, 
+quo<lb break="no" ed="#Bc" n="23"/>rum uterque est in tempore successive :
+<lb ed="#Bc" n="24"/>ergo distinctionis opus et  creationis
+<lb ed="#Bc" n="25"/>non est simul. Cum ergo omnia opera
+<lb ed="#Bc" n="26"/>sex dierum praeter partem operis diei
+<lb ed="#Bc" n="27"/>prime, sint de opere distinctionis et
+<lb ed="#Bc" n="28"/>ornatus, non potuerunt simul fieri cum
+<lb ed="#Bc" n="29"/>opere ornatus.
+</p>
+            <p xml:id="alalal-d43136-d1e737">
+               <lb ed="#Bc" n="30"/>12. Item, Quatuor sunt termini 
+muta<lb break="no" ed="#Bc" n="31"/>tionum diversarum, scilicet ens, nihil,
+<lb ed="#Bc" n="32"/>potentia, et actus : constat autem, quod
+<lb ed="#Bc" n="33"/>isti termini ordinati sunt, ita quod nihil
+<lb ed="#Bc" n="34"/>est ante potentiam, et ens absolute ante
+<lb ed="#Bc" n="35"/>ens actu per formam : ergo eodem ordine
+<lb ed="#Bc" n="36"/>se habent ad invicem mutationes quae
+ <lb ed="#Bc" n="37"/>sunt inter terminos illos: ergo mutatio
+<lb ed="#Bc" n="38"/>creationis quae est inter ens et nihil, erit
+<lb ed="#Bc" n="39"/>ante mutationem distinctionis et 
+orna<lb break="no" ed="#Bc" n="40"/>tus quae est inter potentiam et actum:
+<lb ed="#Bc" n="41"/>non ergo omnia simul facta sunt.
+</p>
+            <p xml:id="alalal-d43136-d1e766">
+               <lb ed="#Bc" n="42"/>Soxutio. Sine prajudicio loquendo,
+<lb ed="#Bc" n="43"/>nihil videtur mihi verius quam id quod
+<lb ed="#Bc" n="44"/>Augustinus dicit : tamen solvam rationes
+<lb ed="#Bc" n="45"/>pro utraque opinione, et obtineat qui
+<lb ed="#Bc" n="46"/>obtinere possit.
+</p>
+            <p xml:id="alalal-d43136-d1e779">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="47"/>Solvendo igitur primo pro Augustino,
+<lb ed="#Bc" n="48"/>accipiendum est verbum suum super
+<lb ed="#Bc" n="49"/>quod fundatur sua solutio. Dicit ergo sic
+<lb ed="#Bc" n="50"/>in libro super Genesim ad litteram :
+<lb ed="#Bc" n="51"/>
+               <quote xml:id="alalal-d43136-Qd1e794"> Sicut vox materia verborum est,
+<lb ed="#Bc" n="52"/>verba vero formatam vocem indicant :
+<lb ed="#Bc" n="53"/>non autem qui loquitur, prius 
+emit<lb break="no" ed="#Bc" n="54"/>tit informem vocem, quam possit 
+post<lb break="no" ed="#Bc" n="55"/>ea colligere, atque in verba 
+forma<lb break="no" ed="#Bc" n="56"/>re : ita creator Deus non priorem 
+tem<lb break="no" ed="#Bc" n="57"/>pore fecit materiam, et eam postea per
+<lb ed="#Bc" n="58"/>ordinem quarumcumque quasi 
+secun<lb break="no" ed="#Bc" n="59"/>da consideratione formavit: formatam
+<lb ed="#Bc" n="60"/>quippe creavit materiam : sed quia
+<lb ed="#Bc" n="61"/>illud unde fit aliquid, etsi non 
+tem<lb break="no" ed="#Bc" n="62"/>pore, tamen guadam origine prius est,
+<lb ed="#Bc" n="63"/>quam illud quod inde fit, potuit dividere
+<lb ed="#Bc" n="64"/>Scriptura loquendi temporibus, quod
+<lb ed="#Bc" n="65"/>Deus faciendi temporibus non divisit 1. </quote>
+            </p>
+            <p xml:id="alalal-d43136-d1e828">
+               <lb ed="#Bc" n="66"/>Secundum igitur hoc dicemus ad 
+pri<lb break="no" ed="#Bc" n="67"/>mum quod objicitur, quod oportebat non
+<lb ed="#Bc" n="68"/>simul fieri ordine nature, sed ordine
+<lb ed="#Bc" n="69"/>temporis : et iste modus solvendi est ad
+<lb ed="#Bc" n="70"/>omnes auctoritates omnium Sanctorum.
+</p>
+            <p xml:id="alalal-d43136-d1e841">
+               <lb ed="#Bc" n="71"/>Ap Hoc quod objicitur ex verbis suis
+<lb ed="#Bc" n="72"/>in libro Confessionum, dicendum quod
+<lb ed="#Bc" n="73"/>ipse capit ibi ante et post fieri 
+secun<lb break="no" ed="#Bc" n="74"/>dum ordinem nature, quo 
+fundamen<lb break="no" ed="#Bc" n="75"/>tum nature est ante omnia fundata in
+<lb ed="#Bc" n="76"/>ipso. Fundamentum autem, ut dicit
+<lb ed="#Bc" n="77"/>Philosophus, neque quale, neque 
+quan<lb break="no" ed="#Bc" n="78"/>tum est, neque habens aliquam 
+for<lb break="no" ed="#Bc" n="79"/>mam : et ideo est in potentia sola,
+<lb ed="#Bc" n="80"/>et secundum rationem : et hance 
+ratio<lb break="no" ed="#Bc" n="81"/>nem prosequitur Augustinus ibi.
+</p>
+            <p xml:id="alalal-d43136-d1e868">
+               <lb ed="#Bc" n="82"/>Ad aliud dicendum, quod Augustinus
+<lb ed="#Bc" n="83"/>non derogat Scripture : quia non 
+con<lb break="no" ed="#Bc" n="84"/>tradicit ei, sed exponit eam: sed 
+dero<lb break="no" ed="#Bc" n="85"/>gat auctoritati Scripture, qui dicit 
+fal<lb break="no" ed="#Bc" n="86"/>sum esse quod in ea continetur.
+</p>
+            <p xml:id="alalal-d43136-d1e881">
+               <lb ed="#Bc" n="87"/>Ap Hoc quod objicitur per 
+Philoso<lb break="no" ed="#Bc" n="88"/>phos, dicendum quod illi plane 
+erra<lb break="no" ed="#Bc" n="89"/>bant : quia ponentes mixtum, ut 
+Empe<lb break="no" ed="#Bc" n="90"/>docles, non ponebant in mixto esse nisi
+<lb ed="#Bc" n="91"/>vocata elementa : et dicebant hoc 
+multo<lb break="no" ed="#Bc" n="92"/>ties fieri in quolibet generato, et 
+amici<lb break="no" ed="#Bc" n="93"/>tiam et litem movere ad exitum rerum
+<pb ed="#Bc" n="234"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>in esse per generationem, sicut 
+su<lb break="no" ed="#Bc" n="2"/>pra est notatum. Et de illa opinione
+<lb ed="#Bc" n="3"/>videtur fuisse Ovidius. Ali 
+sequen<lb break="no" ed="#Bc" n="4"/>tes Anaxagoram et Anaximandrum, 
+di<lb break="no" ed="#Bc" n="5"/>cebant ilud mixtum esse ex inlinitis
+<lb ed="#Bc" n="6"/>similibus partibus, ibi sub formis 
+pro<lb break="no" ed="#Bc" n="7"/>priis remanentibus, ut carnem, et os,
+<lb ed="#Bc" n="8"/>et nervum, et sanguinem, et 
+hujus<lb break="no" ed="#Bc" n="9"/>modi:et illi ponebant infinita esse 
+ele<lb break="no" ed="#Bc" n="10"/>menta, et omnia esse in omnibus, et
+<lb ed="#Bc" n="11"/>latentiam formarum : quae omnia 
+erro<lb break="no" ed="#Bc" n="12"/>nea sunt, et supra exposita. Et ideo
+<lb ed="#Bc" n="13"/>sancti Patres non ponebant hujusmodi
+<lb ed="#Bc" n="14"/>mixtionem, sed potius confusam 
+mate<lb break="no" ed="#Bc" n="15"/>riam quatuor elementorum, solo Deo
+<lb ed="#Bc" n="16"/>faciente distinctionem in ea. Et ita 
+in<lb break="no" ed="#Bc" n="17"/>telligitur auctoritas Boetii. Et secundum
+<lb ed="#Bc" n="18"/>Augustinum, precedit illud mixtum 
+na<lb break="no" ed="#Bc" n="19"/>iura tantum, et non tempore: sicut
+<lb ed="#Bc" n="20"/>etiam mixtio humorum in homine causa
+<lb ed="#Bc" n="21"/>est complexionis, et tempore non 
+prace<lb break="no" ed="#Bc" n="22"/>dit : et sol lucens radium emissum, et
+<lb ed="#Bc" n="23"/>tamen tempore non praecedit.
+</p>
+            <p xml:id="alalal-d43136-d1e953">
+               <lb ed="#Bc" n="24"/>Av w quod objicitur per rationem,
+<lb ed="#Bc" n="25"/>dicendum quod natura regulatur ab 
+ope<lb break="no" ed="#Bc" n="26"/>re divino, quod tamen in toto non potest
+<lb ed="#Bc" n="27"/>imitari, sicut patet, quia non potest
+<lb ed="#Bc" n="28"/>aliquid facere de nihilo : sed imitatur
+<lb ed="#Bc" n="29"/>quantum potest habendo potentiam loco
+<lb ed="#Bc" n="30"/>nihil, et loco ejus quod Deus subito
+<lb ed="#Bc" n="31"/>facit et simul, ipsa operatur in tempore
+<lb ed="#Bc" n="32"/>et successive.
+</p>
+            <p xml:id="alalal-d43136-d1e975">
+               <lb ed="#Bc" n="33"/>Ad aliud dicendum, quod. distinctio
+<lb ed="#Bc" n="34"/>non fit successive nisi a natura, et non a
+<lb ed="#Bc" n="35"/>Deo: et ideo simul potuit esse cum
+<lb ed="#Bc" n="36"/>opere creationis.
+</p>
+            <p xml:id="alalal-d43136-d1e986">
+               <lb ed="#Bc" n="37"/>Ad aliud dicendum, quod illi propter
+<lb ed="#Bc" n="38"/>perfectionem agentis simul tempore non
+<lb ed="#Bc" n="39"/>habuerunt suas mutationes : sed in 
+natu<lb break="no" ed="#Bc" n="40"/>ra quae est imperfectum agens, aliter
+<lb ed="#Bc" n="41"/>est.
+</p>
+            <p xml:id="alalal-d43136-d1e999">
+               <lb ed="#Bc" n="42"/>Sed quia sunt Doctores qui opinantur
+<lb ed="#Bc" n="43"/>etiam pro alia parte: ideo solvendum
+<lb ed="#Bc" n="44"/>est etiam pro ipsis.
+</p>
+            <p xml:id="alalal-d43136-d1e1009">
+               <lb ed="#Bc" n="45"/>Quod ergo primo et secundo objicitur,
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="46"/>solvendum per ipsum Gregorium, qu;
+<lb ed="#Bc" n="47"/>illa Glossa sumitur ex libro 
+XXXjj<lb break="no" ed="#Bc" n="48"/>Moralium, cap. 10: et ibi post Glog:
+<lb ed="#Bc" n="49"/>sam infra sequitur in originali : <quote xml:id="alalal-d43136-Qd1e1024"> Sg
+<lb ed="#Bc" n="50"/>quippe, luna et sidera quarto die fq.
+<lb ed="#Bc" n="51"/>cta in celo perhibentur : sed quod quar.
+<lb ed="#Bc" n="52"/>to die processit in specie, primo dig
+<lb ed="#Bc" n="53"/>in ceeli substantia exstitit per conde:
+<lb ed="#Bc" n="54"/>tionem. Primo die terra creata dic.
+<lb ed="#Bc" n="55"/>tur, et tertia die arbusta condita, @
+<lb ed="#Bc" n="56"/>cuncta virentia describuntur : sed quod
+<lb ed="#Bc" n="57"/>die tertio se in specie protulit, nimirum
+<lb ed="#Bc" n="58"/>primo die in ipsa de qua ortum est
+<lb ed="#Bc" n="59"/>terre substantia fuit. </quote>
+            </p>
+            <p xml:id="alalal-d43136-d1e1049">
+               <lb ed="#Bc" n="60"/>Ad id quod tertio et quarto objici- J
+<lb ed="#Bc" n="61"/>tur per textum Genesis, respondit Gree
+<lb ed="#Bc" n="62"/>gorius ibidem sic : <quote xml:id="alalal-d43136-Qd1e1057"> Qui diversis diebus.
+<lb ed="#Bc" n="63"/>creatum ccoelum et terram, virgultumque
+<lb ed="#Bc" n="64"/>herbamque nominaverat, nunc uno die
+<lb ed="#Bc" n="65"/>facta manifestat, ut liquidd ostenderet
+<lb ed="#Bc" n="66"/>quod creatura omnis simul per 
+substan<lb break="no" ed="#Bc" n="67"/>tiam exstitit, quamvis non simul per
+<lb ed="#Bc" n="68"/>speciem processit ?. </quote>
+            </p>
+            <p xml:id="alalal-d43136-d1e1074">
+               <lb ed="#Bc" n="69"/>Ad aliud dicendum, quod homo 
+fa<lb break="no" ed="#Bc" n="70"/>clus est cum Angelo quoad corpus in
+<lb ed="#Bc" n="71"/>prima materia elementorum, et quoad
+<lb ed="#Bc" n="72"/>animam in similitudine: quia Angelus
+<lb ed="#Bc" n="73"/>ad imaginem Dei in tribus potentiis 
+cre<lb break="no" ed="#Bc" n="74"/>atus est, sicut homo.
+</p>
+            <p xml:id="alalal-d43136-d1e1090">
+               <lb ed="#Bc" n="75"/>Ad aliud quae objicit Augustinus, 
+di<lb break="no" ed="#Bc" n="76"/>cendum quod ad rotationem illius lucis
+<lb ed="#Bc" n="77"/>non oportuit esse circulum specialem:
+<lb ed="#Bc" n="78"/>quia id materia quod cessit in corpus
+<lb ed="#Bc" n="79"/>quantum, tunc magis. movebatur, et,
+<lb ed="#Bc" n="80"/>de natura sua circulariter ferebatur sicut
+<lb ed="#Bc" n="81"/>et modo facit.
+</p>
+            <p xml:id="alalal-d43136-d1e1108">
+               <lb ed="#Bc" n="82"/>Ad aliud dicendum, quod non est
+<lb ed="#Bc" n="83"/>causa diei, quod habitantes in terra 
+vi<lb break="no" ed="#Bc" n="84"/>derent lucem : sed potius tunc motus
+<lb ed="#Bc" n="85"/>ipse localis et immutatio deiformis per
+<lb ed="#Bc" n="86"/>rotationem lucis movebat liquidam 
+ma<lb break="no" ed="#Bc" n="87"/>teriam ad faciliorem distinctionem : quia
+<lb ed="#Bc" n="88"/>motus distrahendo, et calorem 
+inducen<lb break="no" ed="#Bc" n="89"/>do, faciebat ad hoc ut ignis fieret juxta
+<lb ed="#Bc" n="90"/>circumferentiam, et similiter lux pet
+<lb ed="#Bc" n="91"/>immutationem : grossa autem eo ipso 
+<pb ed="#Bc" n="235"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>magis fugerunt distando a 
+circumferen<lb break="no" ed="#Bc" n="2"/>tia : et ideo ille motus ordinabatur ad
+<lb ed="#Bc" n="3"/>faciliorem distinctionem partium 
+mate<lb break="no" ed="#Bc" n="4"/>rie, non quod Deus indigeret hoc 
+in<lb break="no" ed="#Bc" n="5"/>strumento, sed quia hoc exegit natura
+<lb ed="#Bc" n="6"/>rel.
+</p>
+            <p xml:id="alalal-d43136-d1e1150">
+               <lb ed="#Bc" n="7"/>Ad aliud dicendum, quod 
+Damasce<lb break="no" ed="#Bc" n="8"/>nus dicit, quod emissione et 
+contra<lb break="no" ed="#Bc" n="9"/>ctione fiebat nox et dies in triduo 
+pri<lb break="no" ed="#Bc" n="10"/>mo: etsi volumus sustinere, tune 
+dice<lb break="no" ed="#Bc" n="11"/>mus, quod est emissio per ortum et:
+<lb ed="#Bc" n="12"/>occasum : et sic verum est quod dicit.
+<lb ed="#Bc" n="13"/>Et est emissio per intractionem et 
+oper<lb break="no" ed="#Bc" n="14"/>tionem: et sic non potest esse verum
+<lb ed="#Bc" n="15"/>quod dicit, nisi ponamus ipsum esse
+<lb ed="#Bc" n="16"/>animatum, et habere claudentia et 
+ape<lb break="no" ed="#Bc" n="17"/>rientia, sicut habent oculi.
+</p>
+            <p xml:id="alalal-d43136-d1e1177">
+               <lb ed="#Bc" n="18"/>Ad aliud dicendum, quod res creata
+<lb ed="#Bc" n="19"/>non est perfecta statim. Est enim duplex
+<lb ed="#Bc" n="20"/>perfectio rei: una in esse, et illam 
+ac<lb break="no" ed="#Bc" n="21"/>cepit ab opere divino in primo statu :
+<lb ed="#Bc" n="22"/>et alia est in agere et ordine ad res
+<lb ed="#Bc" n="23"/>alias, et illam non habet res nisi 
+cir<lb break="no" ed="#Bc" n="24"/>culatione completa super eam : quia sic
+<lb ed="#Bc" n="25"/>in omni adspectu directo et obliquo 
+pro<lb break="no" ed="#Bc" n="26"/>portionatur et movetur a superioribus :
+<lb ed="#Bc" n="27"/>et ideo non accipit omnium impressiones
+<lb ed="#Bc" n="28"/>et motus : et ideo congrue 
+exspecta<lb break="no" ed="#Bc" n="29"/>batur semper in novo opere alia dies.
+</p>
+            <p xml:id="alalal-d43136-d1e1206">
+               <lb ed="#Bc" n="30"/>Ad id quod objicitur rationibus 
+com<lb break="no" ed="#Bc" n="31"/>munibus, dicendum quod actio agentis
+<lb ed="#Bc" n="32"/>non est tantum secundum posse agentis,
+<lb ed="#Bc" n="33"/>sed etiam secundum posse patientis, et
+<lb ed="#Bc" n="34"/>secundum quod magis competit patienti
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="35"/>et ei quod fit : et ideo cum Deus 
+inten<lb break="no" ed="#Bc" n="36"/>derit instaurare nalturam in operibus 
+pri<lb break="no" ed="#Bc" n="37"/>mis sex dierum, ipse fecit ea secundum
+<lb ed="#Bc" n="38"/>quod magis competebat illis operibus, et
+<lb ed="#Bc" n="39"/>hoc fuit ut sicut unum fuit causa alterius
+<lb ed="#Bc" n="40"/>secundum naturam, ita etiam tempore
+<lb ed="#Bc" n="41"/>precederet ipsum.
+</p>
+            <p xml:id="alalal-d43136-d1e1237">
+               <lb ed="#Bc" n="42"/>Ad aliud dicendum, quod non crat
+<lb ed="#Bc" n="43"/>melius, ut jam ostensum est.
+</p>
+            <p xml:id="alalal-d43136-d1e1244">
+               <lb ed="#Bc" n="44"/>Ad aliud dicendum, quod hoc etiam
+<lb ed="#Bc" n="45"/>supra, in prima distinctione solutum est :
+<lb ed="#Bc" n="46"/>et verum est tantum de agente quod
+<lb ed="#Bc" n="47"/>non agit totam substantiam rei, sed
+<lb ed="#Bc" n="48"/>partem substantie : tale autem agens
+<lb ed="#Bc" n="49"/>non est Deus.
+</p>
+            <p xml:id="alalal-d43136-d1e1260">
+               <lb ed="#Bc" n="50"/>Ap Axrup dicendum, quod est mixtum
+<lb ed="#Bc" n="51"/>ad actum mixti removentem quodlibct
+<lb ed="#Bc" n="52"/>miscibilium ab actu proprio: et de hoc
+<lb ed="#Bc" n="53"/>procedit objectio. Est etiam mixtum
+<lb ed="#Bc" n="54"/>quod in miscibilibus habet actum, sed
+<lb ed="#Bc" n="55"/>non est determinatum ad locum, qui 
+lo<lb break="no" ed="#Bc" n="56"/>cus facit ad generationem et 
+conserva<lb break="no" ed="#Bc" n="57"/>tionem speciei : et de hoc non est 
+ve<lb break="no" ed="#Bc" n="58"/>rum. Imo indeterminatum in loco est
+<lb ed="#Bc" n="59"/>determinatum secundum primam mundi
+<lb ed="#Bc" n="60"/>generationem : et ideo patet, quod ordo
+<lb ed="#Bc" n="61"/>sapientie non contradicit ordini nature.
+</p>
+            <p xml:id="alalal-d43136-d1e1289">
+               <lb ed="#Bc" n="62"/>Ad aliud dicendum, quod non 
+opor<lb break="no" ed="#Bc" n="63"/>tet, quod ad mixtum indelerminatum in
+<lb ed="#Bc" n="64"/>loco aliquid moveat praeter voluntatem
+<lb ed="#Bc" n="65"/>opificis determinantis ex sua voluntate,
+<lb ed="#Bc" n="66"/>sed ad mixtum quod ex miscibilibus
+<lb ed="#Bc" n="67"/>mixti novam facit complexionem, 
+opor<lb break="no" ed="#Bc" n="68"/>tet ponere movens secundum locum, et
+<lb ed="#Bc" n="69"/>secundum qualitates activas et passivas.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

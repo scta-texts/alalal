@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="399"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a79533"><!-- l1d14a11 -->
+            <head xml:id="alalal-a79533-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-a79533-Hd1e101" type="question-title">Utrum virtus debeat attribut Patri vel
+Spiritui sancto ?</head>
+            <p xml:id="alalal-a79533-d1e104">
+               <lb ed="#Ba" n="25"/>ARTICULUS XI.
+<lb ed="#Ba" n="26"/>Utrum virtus debeat attribut Patri vel
+<lb ed="#Ba" n="27"/>Spiritui sancto ?
+</p>
+            <p xml:id="alalal-a79533-d1e113">
+               <lb ed="#Ba" n="28"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="29"/>
+               <quote xml:id="alalal-a79533-Qd1e119"> Ipse est virtus quae de illo exibat,
+<lb ed="#Ba" n="30"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-a79533-d1e125">
+               <lb ed="#Ba" n="31"/>1. Contra hoc enim est quod dicitur,
+  <lb ed="#Ba" n="32"/>I ad Corinth. 1, 24: <quote xml:id="alalal-a79533-Qd1e131"
+                      source="http://scta.info/resource/Icor1_24@7-12">Christum Dei 
+vir<lb break="no" ed="#Ba" n="33"/>tutem, et Dei sapientiam</quote>. Ergo videtur,
+<lb ed="#Ba" n="34"/>quod virtus approprietur Filio : et sic
+<lb ed="#Ba" n="35"/>manifestat processione Filii, et non 
+Spi<lb break="no" ed="#Ba" n="36"/>ritus sancti.
+</p>
+            <p xml:id="alalal-a79533-d1e145">
+               <lb ed="#Ba" n="37"/>2. Praeterea, Videtur virtus attribui
+<lb ed="#Ba" n="38"/>Patri. Dicit enim Philosopbus, quod 
+vir<lb break="no" ed="#Ba" n="39"/>tus est ultimum potentiae in re : sed 
+po<lb break="no" ed="#Ba" n="40"/>tentia attribuitur Patri: ergo et virtus :
+<lb ed="#Ba" n="41"/>ergo multo magis manifestat missionem
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="42"/>Patris, si mitti potest, quam Spiritus
+<lb ed="#Ba" n="43"/>sancti.
+</p>
+            <p xml:id="alalal-a79533-d1e165">
+               <lb ed="#Ba" n="44"/>Solutio. Virtus est duplex, scilicet 
+vir<lb break="no" ed="#Ba" n="45"/>tus potentia naturalis, et virtus operans.
+<lb ed="#Ba" n="46"/>Operans autem est duplex, scilicet ad
+<lb ed="#Ba" n="47"/>esse, et ad bene esse. Virtus autem 
+po<lb break="no" ed="#Ba" n="48"/>tentia naturalis ordinatur ad attributum
+<lb ed="#Ba" n="49"/>Patris, cui attribuitur potentia 
+fortitudi<lb break="no" ed="#Ba" n="50"/>nis naturalis, eo quod habet rationem
+<lb ed="#Ba" n="51"/>principii non de principio, principium
+<lb ed="#Ba" n="52"/>autem habet rationem potenti : verbum
+<lb ed="#Ba" n="53"/>autem et sapientia practici intellectus
+<lb ed="#Ba" n="54"/>habent etiam virtutem operandi ad esse,
+<lb ed="#Ba" n="55"/>et cum haecvirtus sit ad esse ideaturum
+<lb ed="#Ba" n="56"/>operans, haecattribuitur Filio.
+</p>
+            <p xml:id="alalal-a79533-d1e196">
+               <lb ed="#Ba" n="57"/>Praeterea, Robur fortitudinis in pugna
+<lb ed="#Ba" n="58"/>attribuitur Filio, eo quod ipse pugnando
+<lb ed="#Ba" n="59"/>in carne vicit fortem.
+</p>
+            <p xml:id="alalal-a79533-d1e205">
+               <lb ed="#Ba" n="60"/>Est autem virtus operans ad bene esse,
+<lb ed="#Ba" n="61"/>secundum quod Philosophus dicit, quod
+<lb ed="#Ba" n="62"/>virtus in difficillimis est optimorum 
+ope<lb break="no" ed="#Ba" n="63"/>rativa : et secundum quod dicit 
+Augusti<lb break="no" ed="#Ba" n="64"/>nus, quod virtus est bona qualitas mentis
+<lb ed="#Ba" n="65"/>qua recte vivitur, qua nemo male utitur :
+<lb ed="#Ba" n="66"/>et ad hujus similitudinem dicitur etiam
+<lb ed="#Ba" n="67"/>virlus curationum et miraculorum 
+vir<lb break="no" ed="#Ba" n="68"/>tus : quia curat extra in testimonium 
+in<lb break="no" ed="#Ba" n="69"/>terioris curationis, sicut dicit Psalmus
+<lb ed="#Ba" n="70"/>cu, 3: <quote xml:id="alalal-a79533-Qd1e231">Qui propitiatur omnibus megui~
+<lb ed="#Ba" n="71"/>latibus tuis, qui sanat omnes 
+infirmita<lb break="no" ed="#Ba" n="72"/>tes tuas</quote>.</p>
+            <p xml:id="alalal-a79533-d1e239">
+               <lb ed="#Ba" n="73"/>Et per hoc patet solutio ad objecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

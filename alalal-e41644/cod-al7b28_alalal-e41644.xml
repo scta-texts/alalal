@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="214"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e41644"><!-- l3d11a1 -->
+            <head xml:id="alalal-e41644-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-e41644-Hd1e101" type="question-title">Utrum vere potest dici, Christus, vet hic
+homo, demonstrato Christo, est 
+creafura ?</head>
+            <p xml:id="alalal-e41644-d1e104">
+               <lb ed="Bd" n="46"/>ARTICULUS I.
+<lb ed="Bd" n="47"/>Utrum vere potest dici, Christus, vet hic
+<lb ed="Bd" n="48"/>homo, demonstrato Christo, est 
+crea<lb break="no" ed="Bd" n="49"/>fura ?
+</p>
+            <p xml:id="alalal-e41644-d1e115">
+               <lb ed="Bd" n="50"/>Objicitur autem de hoc quod dicit, ibi,
+<lb ed="Bd" n="51"/>A, post pauca : <quote xml:id="alalal-e41644-Qd1e121"> Ad quod dict potest,
+<lb ed="Bd" n="52"/>hoe simpliciter et absque determinatione
+<lb ed="Bd" n="53"/>minus congruenter dici, etc. </quote>
+            </p>
+            <p xml:id="alalal-e41644-d1e129">
+               <lb ed="Bd" n="54"/>Ex hoc enim videtur diccre, quod vere
+<lb ed="Bd" n="55"/>potest dici, licet incongrue propter 
+here<lb break="no" ed="Bd" n="56"/>ticos.
+</p>
+            <p xml:id="alalal-e41644-d1e139">
+               <pb ed="#Bd" n="215"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Quod etiam ratione videtur posse 
+os<lb break="no" ed="Bd" n="2"/>tendi :
+<lb ed="Bd" n="3"/>i. Haec enim est vera, Hic homo est
+<lb ed="Bd" n="4"/>Deus, propler unionem : ergo per 
+con<lb break="no" ed="Bd" n="5"/>versionem, Deus est hic homo. Aut ergo
+<lb ed="Bd" n="6"/>creatus homo, aut non creatus homo,
+<lb ed="Bd" n="7"/>Si non creatus homo : ergo est aliquis
+<lb ed="Bd" n="8"/>non creatus homo, quod falsum est: 
+er<lb break="no" ed="Bd" n="9"/>go Deus est creatus homo : sed creatus
+<lb ed="Bd" n="10"/>hemo est creatura : ergo Deus vel Filius
+<lb ed="Bd" n="11"/>Dei, vel Christus est creatura.
+</p>
+            <p xml:id="alalal-e41644-d1e170">
+               <lb ed="Bd" n="12"/>2. Item, Propter unionem  recipitur
+<lb ed="Bd" n="13"/>ista, Hie homo est Creator : ergo propter
+<lb ed="Bd" n="14"/>eamdem unionem debet recipi ista, Filius
+<lb ed="Bd" n="15"/>Dei est creatura.
+</p>
+            <p xml:id="alalal-e41644-d1e181">
+               <lb ed="Bd" n="16"/>3. Item, Cum dicitur, Christus 
+secun<lb break="no" ed="Bd" n="17"/>dum quod homo est creatura, 
+intellli<lb break="no" ed="Bd" n="18"/>gitur sic, Christus secundum quod 
+ho<lb break="no" ed="Bd" n="19"/>mo est creatura : aut ly hemo dicit
+<lb ed="Bd" n="20"/>suppositum, aut naturam humanam :
+<lb ed="Bd" n="21"/>non naturam humanam : quia illa in
+<lb ed="Bd" n="22"/>reclo de Christo non preedicatur : ergo
+<lb ed="Bd" n="23"/>dicit suppositum : ergo sensus est, 
+Chri<lb break="no" ed="Bd" n="24"/>stus secundum quod homo et secundum
+<lb ed="Bd" n="25"/>suppositum humanum est creatura :
+<lb ed="Bd" n="26"/>sed quidquid dicitur de supposito 
+huma<lb break="no" ed="Bd" n="27"/>no, dicitur de Deo : ergo Christus 
+sim<lb break="no" ed="Bd" n="28"/>pliciter est creatura.
+</p>
+            <p xml:id="alalal-e41644-d1e212">
+               <lb ed="Bd" n="29"/>4. Si dicas, quod hoc fit propter 
+repu<lb break="no" ed="Bd" n="30"/>gnantiam intellectuum. Conrra : Non
+<lb ed="Bd" n="31"/>est major repuguantia intellectuum inter
+<lb ed="Bd" n="32"/>istam, cum dicitur, Iste homo est 
+Crea<lb break="no" ed="Bd" n="33"/>tor, quam inter istam, Filius Dei est
+<lb ed="Bd" n="34"/>creatura ; et tamen prima recipitur : 
+er<lb break="no" ed="Bd" n="35"/>go videtur, quod etiam secunda.
+</p>
+            <p xml:id="alalal-e41644-d1e230">
+               <lb ed="Bd" n="36"/>Ttem, Quero cum dicitur, Homo est
+<lb ed="Bd" n="37"/>creatura, si dissonantiam habeant 
+preedi<lb break="no" ed="Bd" n="38"/>catum et subjectum ? Videtur, quod non:
+<lb ed="Bd" n="39"/>quia dissonantia vel erit ratione 
+forma<lb break="no" ed="Bd" n="40"/>rum disparatarum, vel ratione 
+opposi<lb break="no" ed="Bd" n="41"/>tionis : sed patet, quod forma haec et 
+for<lb break="no" ed="Bd" n="42"/>ma creationis, nec disparate nec 
+oppo<lb break="no" ed="Bd" n="43"/>site sunt : ergo videtur, quod sit 
+conce<lb break="no" ed="Bd" n="44"/>denda ista, Hic homo vel homo iste est
+<lb ed="Bd" n="45"/>creatura.
+</p>
+            <p xml:id="alalal-e41644-d1e254">
+               <lb ed="Bd" n="46"/>4. Ttem, A quocumque negatur 
+supe<lb break="no" ed="Bd" n="47"/>rius et inferius : sed creatura superius est
+<lb ed="Bd" n="48"/>ad omnem formam praeter divinam : 
+er<lb break="no" ed="Bd" n="49"/>go etiam superius est ad formam homi-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>nis ; ergo si hic homo non est creatura,
+<lb ed="Bd" n="51"/>sequitur quod hic homo non est homo,
+<lb ed="Bd" n="52"/>quod falsum est : ergo debet concedi
+<lb ed="Bd" n="53"/>ista, Hic homo est creatura.
+</p>
+            <p xml:id="alalal-e41644-d1e277">
+               <lb ed="Bd" n="54"/>Solutio Dicendum, quod omnes 
+fal<lb break="no" ed="Bd" n="55"/>se sunt propositiones si sine 
+determina<lb break="no" ed="Bd" n="56"/>tione proponantur. Si enim homo sit ex
+<lb ed="Bd" n="57"/>parte subjecti cum nota demonstrationis,
+<lb ed="Bd" n="58"/>stabit necessario pro supposito et 
+perso<lb break="no" ed="Bd" n="59"/>na, duplici de causa, scilicet propter 
+de<lb break="no" ed="Bd" n="60"/>monstrationem, quia non demonstratur
+<lb ed="Bd" n="61"/>nisi persona : et etiam ratione subjecti,
+<lb ed="Bd" n="62"/>quia non subjicitur gratia nature, sed
+<lb ed="Bd" n="63"/>gratia persone : et ideo cum persona
+<lb ed="Bd" n="64"/>non sit creata vel creatura, illa locutio
+<lb ed="Bd" n="65"/>erit falsa cum dicitur, Hic homo vel iste
+<lb ed="Bd" n="66"/>homo est creatura. Si autem subjiciatur
+<lb ed="Bd" n="67"/>Christus vel Jesus in proprio nomine,
+<lb ed="Bd" n="68"/>nomen illud etiam persone et suppositi
+<lb ed="Bd" n="69"/>est : et ideo iterum erit falsa si sine 
+de<lb break="no" ed="Bd" n="70"/>terminatione proponantur. Si autem 
+sup<lb break="no" ed="Bd" n="71"/>ponatur cum subjecto nominante 
+perso<lb break="no" ed="Bd" n="72"/>nam vel personalitatem aeternam, tunc
+<lb ed="Bd" n="73"/>iterum erit falsa, ut cum dicitur, Filius
+<lb ed="Bd" n="74"/>Dei est creatura, vel Jesus vel Christus
+<lb ed="Bd" n="75"/>est creatura. Si autem creatura sit ex
+<lb ed="Bd" n="76"/>parte subjecti, et hic homo secundum
+<lb ed="Bd" n="77"/>aliquod nominatorum ex parte 
+predica<lb break="no" ed="Bd" n="78"/>ti, iterum erit falsa : quia inartificialis
+<lb ed="Bd" n="79"/>tune erit : quia propter demonstrationem
+<lb ed="Bd" n="80"/>vel nomen predicatum stabit pro 
+perso<lb break="no" ed="Bd" n="81"/>na, et subjectum pro forma creationis :
+<lb ed="Bd" n="82"/>et ideo tunc intelligitur converti 
+propo<lb break="no" ed="Bd" n="83"/>sitio, ut cum dicitur, Aliqua creatura vel
+<lb ed="Bd" n="84"/>creatura est hic homo : et ideo iterum
+<lb ed="Bd" n="85"/>tunc erit falsa: et ergo omni casu 
+con<lb break="no" ed="Bd" n="86"/>tingenti falsa est sine determinatione.
+</p>
+            <p xml:id="alalal-e41644-d1e351">
+               <lb ed="Bd" n="87"/>Ab opsgcra ergo dicendum, ad primum
+<lb ed="Bd" n="88"/>quod hc est vera, Deus est hic homo :
+<lb ed="Bd" n="89"/>sed ly Deus supponit pro persona Filii
+<lb ed="Bd" n="90"/>Dei vel pro natura : quia verum est, quod.
+<lb ed="Bd" n="91"/>natura divina est hic homo, licet 
+secun<lb break="no" ed="Bd" n="92"/>dum rationem intelligendi non sit adeo
+<lb ed="Bd" n="93"/>per se ista, Deus est hic homo, sicut
+<lb ed="Bd" n="94"/>hec, Filius Dei est hic homo. Et quod
+<lb ed="Bd" n="95"/>postea dividendo infertur : aut creatus 
+ho<lb break="no" ed="Bd" n="96"/>mo, aut increatus home : dicendum quod,
+<lb ed="Bd" n="97"/>ly hic homo supponit pro persona com-
+<pb ed="#Bd" n="216"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>posita : et ideo illa persona simpliciter
+<lb ed="Bd" n="2"/>est increata, et secundum quid creata :
+<lb ed="Bd" n="3"/>unde simpliciter danda, non est creatus
+<lb ed="Bd" n="4"/>homo : sed iste dus, est creatus homo,
+<lb ed="Bd" n="5"/>est non creatus homo, non opponuntur
+<lb ed="Bd" n="6"/>per affirmationcm et negationem, cum
+<lb ed="Bd" n="7"/>ambe sint affirmative. Sed si haec datur,
+<lb ed="Bd" n="8"/>non est creatus homo, non potest inferri,
+<lb ed="Bd" n="9"/>ergo est non creatus homo, ita quod non
+<lb ed="Bd" n="10"/>creatus tantum valeat quantum 
+increa<lb break="no" ed="Bd" n="11"/>tus : quia sicut Magister dicit in libro
+<lb ed="Bd" n="12"/>I Sententiarum : <quote xml:id="alalal-e41644-Qd1e407"> Cum igitur Deus 
+ge<lb break="no" ed="Bd" n="13"/>nuit Deum : ergo eumdem Deum vel
+<lb ed="Bd" n="14"/>alium Deum, quod non sequitur, alium
+<lb ed="Bd" n="15"/>Deum, propter identitatem nature : nec
+<lb ed="Bd" n="16"/>sequitur, eumdem, propter distinctionem
+<lb ed="Bd" n="17"/>persone ‘:</quote> ita videtur hic dicendum
+<lb ed="Bd" n="18"/>propter diversitatem naturarum in una
+<lb ed="Bd" n="19"/>persona, cum ly homo vel hic homo 
+sup<lb break="no" ed="Bd" n="20"/>ponit personam compositam in duabus
+<lb ed="Bd" n="21"/>naturis, propter increatam naturam non
+<lb ed="Bd" n="22"/>sequitur, quod sit creatus et propter
+<lb ed="Bd" n="23"/>creatam non sequilur, quod sit 
+increa<lb break="no" ed="Bd" n="24"/>tus : unde nec sequitur, quod. sit creatus
+<lb ed="Bd" n="25"/>homo : nec sequitur, quod increatus
+<lb ed="Bd" n="26"/>homo.
+</p>
+            <p xml:id="alalal-e41644-d1e440">
+               <lb ed="Bd" n="27"/>Ad aliud dicendum, quod ista 
+recipi<lb break="no" ed="Bd" n="28"/>tur, quod sit creator, hoc est verum
+<lb ed="Bd" n="29"/>quia creator imponitur ab actu qui 
+pro<lb break="no" ed="Bd" n="30"/>prie est persone secundum quod 
+perso<lb break="no" ed="Bd" n="31"/>na : sed creatum esse vel increatum esse
+<lb ed="Bd" n="32"/>dicitur gratia nature : unde non est 
+si<lb break="no" ed="Bd" n="33"/>mile de creatus et increatus, et ly 
+crea<lb break="no" ed="Bd" n="34"/>tor.
+</p>
+            <p xml:id="alalal-e41644-d1e460">
+               <lb ed="Bd" n="35"/>Ad aliud dicendum, quod cum dicitur,
+<lb ed="Bd" n="36"/>Christus secundum quod homo est 
+crea<lb break="no" ed="Bd" n="37"/>tura, ly secundum quod notat 
+conditio<lb break="no" ed="Bd" n="38"/>nem nature : non enim oportet, quod
+<lb ed="Bd" n="39"/>cum ly secundum quod predicatur in
+<lb ed="Bd" n="40"/>recto, quod haec simpliciter in recto 
+pre<lb break="no" ed="Bd" n="41"/>dicetur, nisi ly secundum quod notaret
+<lb ed="Bd" n="42"/>semper identitatem vel unitatem 
+perso<lb break="no" ed="Bd" n="43"/>ne: et hoc non est verum et quod
+<lb ed="Bd" n="44"/>convenit Christo secundum ly seewndum
+<lb ed="Bd" n="45"/>guod, non oportet quod conyeniat ei 
+ab<lb break="no" ed="Bd" n="46"/>solute : sicut patuit in distinctione 
+prae<lb break="no" ed="Bd" n="47"/>cedenti.
+</p>
+            <p xml:id="alalal-e41644-d1e491">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>Ad aliud dicendum, quod cum dicitur,
+<lb ed="Bd" n="49"/>Iste homo est creator, nulla est 
+repu<lb break="no" ed="Bd" n="50"/>enantia intellectuum : quia ly iste homo
+<lb ed="Bd" n="51"/>supponit personam, et huic convenit 
+es<lb break="no" ed="Bd" n="52"/>se creatorem : sed hoc verum est, quod
+<lb ed="Bd" n="53"/>supponit personam compositam eo modo
+<lb ed="Bd" n="54"/>compositionis quo secunda opinio dicit :
+<lb ed="Bd" n="55"/>et ideo istam non reciperem, Iste homo
+<lb ed="Bd" n="56"/>est increatus : sicut nec hanc, Iste homo
+<lb ed="Bd" n="57"/>est creatus, nisi adderetur determinatio,
+<lb ed="Bd" n="58"/>Tamen sunt quidam qui dicunt, quod
+<lb ed="Bd" n="59"/>dissimile est : quia humana natura 
+exal<lb break="no" ed="Bd" n="60"/>tata est in Christo, et habet se insuper
+<lb ed="Bd" n="61"/>ut adveniens divine persone, et ila 
+ver<lb break="no" ed="Bd" n="62"/>git quasi in accidens : et ideo sua 
+attri<lb break="no" ed="Bd" n="63"/>buta non ita conveniunt persone, sicut
+<lb ed="Bd" n="64"/>altributa divine nature quae est quasi
+<lb ed="Bd" n="65"/>substantia et in ratione substantiae ipsa
+<lb ed="Bd" n="66"/>persona. Sed hoc non videtur : sed 
+po<lb break="no" ed="Bd" n="67"/>tius considerandum in attributis, quia
+<lb ed="Bd" n="68"/>quaedam sunt prima et per se persona,
+<lb ed="Bd" n="69"/>sicut illa quae dicunt actum vel 
+posses<lb break="no" ed="Bd" n="70"/>sionem persone, vel imponuntur ab 
+il<lb break="no" ed="Bd" n="71"/>lis : sicut creator, creat, et hujusmodi.
+<lb ed="Bd" n="72"/>Quedam autem conveniunt ratione 
+na<lb break="no" ed="Bd" n="73"/>ture, sicut esse creatum, vel increatum
+<lb ed="Bd" n="74"/>esse. Et illa quae conveniunt persone. per
+<lb ed="Bd" n="75"/>se, illa attribuuntur ex parte utriusque :
+<lb ed="Bd" n="76"/>non autem illa quae ratione nature,
+<lb ed="Bd" n="77"/>quando dicunt repugnantiam a parte 
+sub<lb break="no" ed="Bd" n="78"/>jecti.
+</p>
+            <p xml:id="alalal-e41644-d1e563">
+               <lb ed="Bd" n="79"/>Si autem objicias, quod invenitur a
+<lb ed="Bd" n="80"/>Sanctis ista, Hic homo fuit ab aeterno,
+<lb ed="Bd" n="81"/>dico quod esse ab aeterno convenit 
+perso<lb break="no" ed="Bd" n="82"/>ne sicul nature : et ideo illud attribuitur.
+</p>
+            <p xml:id="alalal-e41644-d1e575">
+               <lb ed="Bd" n="83"/>Praterea, Esse aeternum non ita 
+repu<lb break="no" ed="Bd" n="84"/>enat, sicut esse increatum : quia 
+eterni<lb break="no" ed="Bd" n="85"/>tas communicari potest ratione 
+incom<lb break="no" ed="Bd" n="86"/>mutabilitatis, ut dicit Augustinus : sicut
+<lb ed="Bd" n="87"/>Angeli participant aeternitatem, eo quod
+<lb ed="Bd" n="88"/>eternitas dicit per modum mensurantis
+<lb ed="Bd" n="89"/>extra : et ideo homini ratione persone
+<lb ed="Bd" n="90"/>convenit. Sed esse increatum absolute
+<lb ed="Bd" n="91"/>ponit repugnantiam ad naturam : quia
+<lb ed="Bd" n="92"/>miliil est creatum nec increatum nisi 
+ra<lb break="no" ed="Bd" n="93"/>tione sue nature. Tamen de hoc sunt
+<lb ed="Bd" n="94"/>opiniones : et quidam concedunt simpli-
+<pb ed="#Bd" n="217"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>citer, quod hic homo sit increatus : sed
+<lb ed="Bd" n="2"/>nolunt concedere, quod hic homo sit
+<lb ed="Bd" n="3"/>creatus nisi cum determinatione.
+</p>
+            <p xml:id="alalal-e41644-d1e614">
+               <lb ed="Bd" n="4"/>Ad aliud dicendum, quod creatura non
+<lb ed="Bd" n="5"/>est superius ad hunc hominem secundum
+<lb ed="Bd" n="6"/>quod supponit personam compositam, 
+<lb ed="Bd" n="7"/>nisi cum determinatione : et ideo si 
+ne<lb break="no" ed="Bd" n="8"/>gatur, non propter hoc oportet quod 
+ho<lb break="no" ed="Bd" n="9"/>mo negetur ab ipso.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

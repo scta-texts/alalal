@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="289"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d52769"><!-- l2d16a3 -->
+            <head xml:id="alalal-d52769-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-d52769-Hd1e101" type="question-title">Utrum aequaliter omnis creatura 
+rationalis sit ad imaginem Dei ?</head>
+            <p xml:id="alalal-d52769-d1e104">
+               <lb ed="#Bc" n="10"/>ARTICULUS III.
+<lb ed="#Bc" n="11"/>Utrum aequaliter omnis creatura 
+ratio<lb break="no" ed="#Bc" n="12"/>nalis sit ad imaginem Dei ?
+</p>
+            <p xml:id="alalal-d52769-d1e113">
+               <lb ed="#Bc" n="13"/>Tertio queritur, Utrum aequaliter 
+om<lb break="no" ed="#Bc" n="14"/>nis creatura rationalis sit ad imaginem ?
+</p>
+            <p xml:id="alalal-d52769-d1e120">
+               <lb ed="#Bc" n="15"/>Videtur autem quod non: quia
+<lb ed="#Bc" n="16"/>1. Gregorius supra ? dixit: <quote xml:id="alalal-d52769-Qd1e126"> Quanto
+<lb ed="#Bc" n="17"/>in Angelo subtilior est natura, eo magis
+<lb ed="#Bc" n="18"/>in illo imago Dei simul insinuatur 
+im<lb break="no" ed="#Bc" n="19"/>pressa: </quote> ergo videtur, quod Angelus
+<lb ed="#Bc" n="20"/>magis sit ad imaginem Dei, quam homo.
+</p>
+            <p xml:id="alalal-d52769-d1e139">
+               <lb ed="#Bc" n="21"/>2. Item, Notitiam Dei et sui apud se
+<lb ed="#Bc" n="22"/>tenere est memoriae secundum 
+Augusti<lb break="no" ed="#Bc" n="23"/>num, et se intueri in Deo est 
+intelligen<lb break="no" ed="#Bc" n="24"/>tie, et numquam Deum in se non 
+dili<lb break="no" ed="#Bc" n="25"/>gere per naturalem dilectionem est 
+vo<lb break="no" ed="#Bc" n="26"/>luntatis: haec autem omnia habet 
+Ange<lb break="no" ed="#Bc" n="27"/>lus deiformiter, et hoc cum inquisitione
+<lb ed="#Bc" n="28"/>et studio: ergo videtur Angelus magis
+<lb ed="#Bc" n="29"/>esse ad imaginem, quam homo.
+</p>
+            <p xml:id="alalal-d52769-d1e161">
+               <lb ed="#Bc" n="30"/>Sed contra est quod habetur infra s,
+<lb ed="#Bc" n="31"/>ubi dicit Magister, quod mulierem ideo
+<lb ed="#Bc" n="32"/>de latere viri formavit, ut imago Dei in
+<lb ed="#Bc" n="33"/>hoc in homine appareret, quod sicut
+<lb ed="#Bc" n="34"/>Deus est principium ex quo omnia, ita
+<lb ed="#Bc" n="35"/>homo esset principium ex quo omnia
+<lb ed="#Bc" n="36"/>sui generis: hoc autem in nullo Angelo
+<lb ed="#Bc" n="37"/>invenitur: ergo videtur, quo Angelus
+<lb ed="#Bc" n="38"/>non ita sit ad imaginem sicut homo.
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="39"/>Solutio. Dicendum, quod haec tota
+<lb ed="#Bc" n="40"/>questio ex superius dictis in distinctione
+<lb ed="#Bc" n="41"/>VI determinatur : quia si attenditur
+<lb ed="#Bc" n="42"/>imago similitudinis tantum, tunc 
+Ange<lb break="no" ed="#Bc" n="43"/>lus secundum dictum Gregorii est imago
+<lb ed="#Bc" n="44"/>etiam expressior quam homo: et falsum
+<lb ed="#Bc" n="45"/>est quod quidam dicunt, quod Angelus
+<lb ed="#Bc" n="46"/>est signaculum pro expressiori imagine.
+<lb ed="#Bc" n="47"/>Si autem attendatur non in potentiis
+<lb ed="#Bc" n="48"/>naturalibus tantum, in quibus  
+spiritua<lb break="no" ed="#Bc" n="49"/>lis substantia capax est Dei, sed in 
+con<lb break="no" ed="#Bc" n="50"/>formitate ad rationem principii quod est
+<lb ed="#Bc" n="51"/>Deus secundum quod ipse est <!--<quote>--> et w, tunc
+<lb ed="#Bc" n="52"/>homo est magis imago quam Angelus:
+<lb ed="#Bc" n="53"/>quia homo est ex quo omnia sui generis,
+<lb ed="#Bc" n="54"/>et per quem omnia secundum aliquem
+<lb ed="#Bc" n="55"/>modum: et ita procedunt objectiones:
+<lb ed="#Bc" n="56"/>unde jam solutum est ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

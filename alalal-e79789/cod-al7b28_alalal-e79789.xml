@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="419"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e79789"><!-- l3d23a8 -->
+            <head xml:id="alalal-e79789-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-e79789-Hd1e101" type="question-title">An credere sit cum assensione cogitare ?</head>
+            <p xml:id="alalal-e79789-d1e104">
+               <lb ed="Bd" n="35"/>ARTICULUS VIII.
+<lb ed="Bd" n="36"/>An credere sit cum assensione cogitare ?
+</p>
+            <p xml:id="alalal-e79789-d1e111">
+               <lb ed="Bd" n="37"/>Deinde quaeritur de hoc quod dicit
+<lb ed="Bd" n="38"/>nota quaedam in Litfera hic, aflixa ibi:
+<lb ed="Bd" n="39"/>Augustinus in libro de Predestinatione
+<lb ed="Bd" n="40"/>Sanctorum ': <quote xml:id="alalal-e79789-Qd1e121"> Ipsum credere nihil
+<cb ed="#Bd" n="b"/>
+                  <lb ed="Bd" n="41"/>aliud est, quam cum assensione 
+cogi<lb break="no" ed="Bd" n="42"/>tare. </quote>
+            </p>
+            <p xml:id="alalal-e79789-d1e131">
+               <lb ed="Bd" n="43"/>Hic enim diffinitur actus secundum
+<lb ed="Bd" n="44"/>substantiam actus, cum ante 
+determina<lb break="no" ed="Bd" n="45"/>tus sit per comparationem ad objectum.
+</p>
+            <p xml:id="alalal-e79789-d1e141">
+               <lb ed="Bd" n="46"/>Videtur, quod non‘sit verum : quia
+<lb ed="Bd" n="47"/>1. Cogitare dicitur quasi coagitare, ut
+<lb ed="Bd" n="48"/>videtur velle Augustinus in libro IX de
+<lb ed="Bd" n="49"/>Trinitate, quia cogitare (ut ypse dicit ibi)
+<lb ed="Bd" n="50"/>est rem notam ab aliis rebus notis 
+dis<lb break="no" ed="Bd" n="51"/>cernere : ergo cogitare est tantum 
+cogi<lb break="no" ed="Bd" n="52"/>tative virtutis: credere autem non 
+pro<lb break="no" ed="Bd" n="53"/>cedit a cogitativa tantum : ergo videtur,
+<lb ed="Bd" n="54"/>quod credere male diffiniatur per cogi~-
+<lb ed="Bd" n="55"/>tare.
+</p>
+            <p xml:id="alalal-e79789-d1e165">
+               <lb ed="Bd" n="56"/>2. Item, Fides (ut supra habitum est)
+<lb ed="Bd" n="57"/>simplex est lumen credentium: ergo 
+vi<lb break="no" ed="Bd" n="58"/>detur, quod non conveniat ei cogitare:
+<lb ed="Bd" n="59"/>quia cogitatio cogitat multa simul.
+</p>
+            <p xml:id="alalal-e79789-d1e176">
+               <lb ed="Bd" n="60"/>Item, Ex cogitatione nostra non fit
+<lb ed="Bd" n="61"/>assensus in fide: quia sic non esset 
+vir<lb break="no" ed="Bd" n="62"/>tus, sed scientia, vel ars: ergo videtur,
+<lb ed="Bd" n="63"/>quod per cogitare diffiniri non debeat.
+</p>
+            <p xml:id="alalal-e79789-d1e187">
+               <lb ed="Bd" n="64"/>Unrerivus quaeritur de assensu: Omnis
+<lb ed="Bd" n="65"/>enim virtus assentit objecto et fini 
+pro<lb break="no" ed="Bd" n="66"/>prio: ergo non est diffinitivum solius
+<lb ed="Bd" n="67"/>fidei: ergo non debet poni in diffinitione
+<lb ed="Bd" n="68"/>ejus, cum ea quae ponunturin 
+diffini<lb break="no" ed="Bd" n="69"/>tione debeant separari ab aliis.
+</p>
+            <p xml:id="alalal-e79789-d1e203">
+               <lb ed="Bd" n="70"/>Solutio Dicendum, quod fides habet
+<lb ed="Bd" n="71"/>actum qui competit ei secundum se, et
+<lb ed="Bd" n="72"/>habet actum qui competi£ ei secundum
+<lb ed="Bd" n="73"/>quod est ex auditu, secundum quod dicit
+<lb ed="Bd" n="74"/>Apostolus, ad Roman. x, 17: <quote xml:id="alalal-e79789-Qd1e216"
+                      source="http://scta.info/resource/rom10_17">Fides ex
+<lb ed="Bd" n="75"/>auditu : auditus autem per verbum
+<lb ed="Bd" n="76"/>Christi</quote>. In se secundum quod est 
+lu<lb break="no" ed="Bd" n="77"/>men informans intellectum, non 
+compe<lb break="no" ed="Bd" n="78"/>tit ei nisi assentire invisibili ostenso.
+<lb ed="Bd" n="79"/>Secundum autem quod est ex auditu,
+<lb ed="Bd" n="80"/>tunc assentit cum cogitalione de hoc
+<lb ed="Bd" n="81"/>quod audivit de ratione non probante
+<lb ed="Bd" n="82"/>quidem, sed manuducente : ita tamen,
+<lb ed="Bd" n="83"/>quod auditus generaliter accipiatur : 
+sic<lb break="no" ed="Bd" n="84"/>ut supra dixinius de signo, quando 
+ex<lb break="no" ed="Bd" n="85"/>ponebatur credere Deo, scilicet quod in-
+<pb ed="#Bd" n="420"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>cludit in se auditum exteriorem per
+<lb ed="Bd" n="2"/>verbum, et visum miraculi et operum
+<lb ed="Bd" n="3"/>Dei, et auditum interiorem : auditus
+<lb ed="Bd" n="4"/>enim causat cognitionem. Et hoc modo
+<lb ed="Bd" n="5"/>diffinitur credere in duobus, ut cogitatum
+<lb ed="Bd" n="6"/>habeat ab auditu, et assensum ex 
+se<lb break="no" ed="Bd" n="7"/>ipso: quia bene concedo, quod non 
+as<lb break="no" ed="Bd" n="8"/>sentil propter cogitatum.
+</p>
+            <p xml:id="alalal-e79789-d1e265">
+               <lb ed="Bd" n="9"/>Ad primum ergo dicendum, quod 
+cre<lb break="no" ed="Bd" n="10"/>dere est essentialiter in assensu: tamen
+<lb ed="Bd" n="11"/>per accidens, in quantum nutritur ct
+<lb ed="Bd" n="12"/>fovetur et manuducitur, habet se ad 
+co<lb break="no" ed="Bd" n="13"/>gitativam virtutem inquirentem de 
+cre<lb break="no" ed="Bd" n="14"/>dito: non quia dubitat, sed quia ejus cui
+<lb ed="Bd" n="15"/>consentit a Deo petit rationem : non qua
+<lb ed="Bd" n="16"/>certificetur, sed in qua jucundetur et 
+ad<lb break="no" ed="Bd" n="17"/>miretur.
+</p>
+            <p xml:id="alalal-e79789-d1e288">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="18"/>Ad aliud dicendum eodem modo, quod
+<lb ed="Bd" n="19"/>non propter hoc procedit assensus quia
+<lb ed="Bd" n="20"/>cogitat, sed potius ex hoc procedit 
+ad<lb break="no" ed="Bd" n="21"/>mirabilis jucunditas : sicut in libro 
+Con<lb break="no" ed="Bd" n="22"/>fessionum Augustinus dicit de se: <quote xml:id="alalal-e79789-Qd1e303"> Non
+<lb ed="Bd" n="23"/>satiabar illis diebus pre dulcedine 
+mi<lb break="no" ed="Bd" n="24"/>rabili considerare altitudinem divini
+<lb ed="Bd" n="25"/>consilii super salutem generis 
+hu<lb break="no" ed="Bd" n="26"/>mani. </quote>
+            </p>
+            <p xml:id="alalal-e79789-d1e315">
+               <lb ed="Bd" n="27"/>Apip quod objicitur de assensu, 
+di<lb break="no" ed="Bd" n="28"/>cendum quod assensus est veri ut verum
+<lb ed="Bd" n="29"/>est proprie loquendo: et ideo aliae 
+vir<lb break="no" ed="Bd" n="30"/>tutes proprie non habent assensum, sed
+<lb ed="Bd" n="31"/>quietem in fine: quia verum ut 
+verita<lb break="no" ed="Bd" n="32"/>tem primam non considerant.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

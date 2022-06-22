@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="325"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i68445"><!-- l4d34dt1 -->
+            <head xml:id="alalal-i68445-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-i68445-d1e101">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="18"/>DIVISIO TEXTUS.
+<lb ed="#Bf" n="19"/>
+               <quote xml:id="alalal-i68445-Qd1e109"> Nunc superest attendere, quae 
+perso<lb break="no" ed="#Bf" n="20"/>ne, etc. </quote>
+            </p>
+            <p xml:id="alalal-i68445-d1e115">
+               <lb ed="#Bf" n="21"/>Hic incidit pars illa qua est de 
+perso<lb break="no" ed="#Bf" n="22"/>nis legitimis, vel illegilimis : et dividitur 
+<lb ed="#Bf" n="23"/>in duas. In prima agit de effectu impedi-
+<cb ed="#Bf" n="c"/>
+               <lb ed="#Bf" n="24"/>menti in genere. In secunda autem de
+<lb ed="#Bf" n="25"/>impedimentis ipsis, ibi, B, <quote xml:id="alalal-i68445-Qd1e130"> De his quae
+<lb ed="#Bf" n="26"/>causa frigiditatis, etc. </quote>
+            </p>
+            <p xml:id="alalal-i68445-d1e136">
+               <lb ed="#Bf" n="27"/>AD INTELLECTUM autem prime 
+querun<lb break="no" ed="#Bf" n="28"/>tur tria, scilicet quid sit legitimitas 
+per<lb break="no" ed="#Bf" n="29"/>sonarum contrahentium ?
+<lb ed="#Bf" n="30"/>Secundo, Penes quid accipitur 
+nume<lb break="no" ed="#Bf" n="31"/>rus impedimentorum ?
+<lb ed="#Bf" n="32"/>Tertio, Quare isti sacramento et non
+<lb ed="#Bf" n="33"/>alii impedimenta assignantur ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

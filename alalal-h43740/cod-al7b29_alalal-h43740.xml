@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="669"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h43740"><!-- l4d17a8 -->
+            <head xml:id="alalal-h43740-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-h43740-Hd1e101" type="question-title">An in poenitente confessio praecedit ju-.
+stificationem ?</head>
+            <p xml:id="alalal-h43740-d1e104">
+               <lb ed="#Be" n="81"/>ARTICULUS VIII.
+<lb ed="#Be" n="82"/>An in poenitente confessio praecedit ju-.
+<lb ed="#Be" n="83"/>stificationem ?
+</p>
+            <p xml:id="alalal-h43740-d1e113">
+               <lb ed="#Be" n="84"/>
+               <quote xml:id="alalal-h43740-Qd1e117"> Die tu iniquitates, etc. </quote>
+               <lb ed="#Be" n="85"/>Ex hoc videtur, quod dicte 
+iniquita<lb break="no" ed="#Be" n="86"/>tes praecedunt justificationem : sed ante
+<lb ed="#Be" n="87"/>justificationem est homo in mortali 
+pec<lb break="no" ed="#Be" n="88"/>cato : igitur secundum hoc confessio
+<lb ed="#Be" n="89"/>semper fit adhuc existente confitente in
+<lb ed="#Be" n="90"/>peccato mortali.
+</p>
+            <p xml:id="alalal-h43740-d1e133">
+               <pb ed="#Be" n="670"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Contra : Homo justificatur in 
+contri<lb break="no" ed="#Be" n="2"/>tione : et confessio sequitur 
+contritio<lb break="no" ed="#Be" n="3"/>nem : ergo sequitur justificationem : 
+er<lb break="no" ed="#Be" n="4"/>go confessio est justificati. -
+</p>
+            <p xml:id="alalal-h43740-d1e150">
+               <lb ed="#Be" n="5"/>Responsio, quod confessio operans in
+<lb ed="#Be" n="6"/>voto cum contritione operatur 
+justifica<lb break="no" ed="#Be" n="7"/>tionem : et hoc modo procedit eam 
+ne<lb break="no" ed="#Be" n="8"/>cessario, non tempore, sed natura. Sed
+<lb ed="#Be" n="9"/>confessio in actu accepta non operatur
+<lb ed="#Be" n="10"/>aliter, nisi absolvendo a debito 
+confes<lb break="no" ed="#Be" n="11"/>sionis, quod justitiae est. a
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

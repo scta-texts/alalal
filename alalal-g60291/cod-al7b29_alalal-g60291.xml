@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="298"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g60291"><!-- l4d12a5 -->
+            <head xml:id="alalal-g60291-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-g60291-Hd1e101" type="question-title">An bene dicatur, quod hoc sacramentum
+non debet iterari ?</head>
+            <p xml:id="alalal-g60291-d1e104">
+               <lb ed="#Be" n="10"/>ARTICULUS V.
+<lb ed="#Be" n="11"/>An bene dicatur, quod hoc sacramentum
+<lb ed="#Be" n="12"/>non debet iterari ?
+</p>
+            <p xml:id="alalal-g60291-d1e113">
+               <lb ed="#Be" n="13"/>Deinde queritur de hoc quod dicitur,
+<lb ed="#Be" n="14"/>ibi, B, sub finem: <quote xml:id="alalal-g60291-Qd1e119"> Neque debet iterart
+<lb ed="#Be" n="15"/>sacramentum, etc. </quote>
+            </p>
+            <p xml:id="alalal-g60291-d1e125">
+               <lb ed="#Be" n="16"/>Hoc enim videtur falsum per hoc quod
+<lb ed="#Be" n="17"/>dicit Dominus, Luc. xxur, 19: <quote xml:id="alalal-g60291-Qd1e131">Hoc facite
+<lb ed="#Be" n="18"/>in meam commemorationem</quote> : et 
+  Aposto<lb break="no" ed="#Be" n="19"/>lus, <ref xml:id="alalal-g60291-Rd1e138">I ad Corinth. XI, 23</ref>: <quote xml:id="alalal-g60291-Qd1e141"
+                      source="http://scta.info/resource/Icor11_25@15-21">Hoc facite
+<lb ed="#Be" n="20"/>quotiescumque bibetis, in meam 
+comme<lb break="no" ed="#Be" n="21"/>morationem</quote>. Ergo multoties iteratar.
+</p>
+            <p xml:id="alalal-g60291-d1e150">
+               <lb ed="#Be" n="22"/>2. Si forte dicas, quod non est idem,
+<lb ed="#Be" n="23"/>hoc falsum videtur. Aut enim identitas
+<lb ed="#Be" n="24"/>sacramenti attenditur penes materiam,
+<lb ed="#Be" n="25"/>aut penes formam, aut penes contentum.
+<lb ed="#Be" n="26"/>Non penes materiam, vel formam : quia
+<lb ed="#Be" n="27"/>utrumque habet pluralitatem in 
+sacra<lb break="no" ed="#Be" n="28"/>mento.
+</p>
+            <p xml:id="alalal-g60291-d1e168">
+               <lb ed="#Be" n="29"/>3. Praeterea, In Littera hic dicitur,
+<lb ed="#Be" n="30"/>quod sacramentum dicitur unum etidem,
+<lb ed="#Be" n="31"/>quia sub utraque specie unum et idem
+<lb ed="#Be" n="32"/>sumitur: ergo identitas est penes 
+conten<lb break="no" ed="#Be" n="33"/>tum : contentum autem frequentatum est
+<lb ed="#Be" n="34"/>idem: ergo sacramentum idem repetitur,
+<lb ed="#Be" n="35"/>ut videtur.
+</p>
+            <p xml:id="alalal-g60291-d1e186">
+               <lb ed="#Be" n="36"/>4. Item, Si res sacramenti baptismi
+<lb ed="#Be" n="37"/>que est res et sacramentum baptismi,
+<lb ed="#Be" n="38"/>repeteretur, sacramentum diceretur 
+ite<lb break="no" ed="#Be" n="39"/>rari: ergo a simili cum isto sacramento
+<lb ed="#Be" n="40"/>res quae est simul res et sacramentum
+<lb ed="#Be" n="41"/>iteraretur frequenter, sacramentum 
+ite<lb break="no" ed="#Be" n="42"/>rari videtur : ergo non est verum quod
+<lb ed="#Be" n="43"/>dicitur in Littera.
+</p>
+            <p xml:id="alalal-g60291-d1e206">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="44"/>Solutio. Dicendum quod infra 
+Magi<lb break="no" ed="#Be" n="45"/>ster tangit de iteratione sacramentorum
+<lb ed="#Be" n="46"/>in fine tractatus de Penitentia : sed
+<lb ed="#Be" n="47"/>quantum pertinet ad tractatum istum,
+<lb ed="#Be" n="48"/>dicendum quod sacramentum mullis de
+<lb ed="#Be" n="49"/>causis dicitur iterari, vel non iterari.
+<lb ed="#Be" n="50"/>Uno modo : quia causa non itcratur, ut
+<lb ed="#Be" n="51"/>in baptismo, quia ibi causa est originale,
+<lb ed="#Be" n="52"/>quod non iteratur, ad cujus deletionem
+<lb ed="#Be" n="53"/>ordinatur baptismus. Alio modo: quia id
+<lb ed="#Be" n="54"/>quod est res sacramenti non iteratur, eo
+<lb ed="#Be" n="55"/>quod semel acceptum totum consequitur
+<lb ed="#Be" n="56"/>effectum, qui est in se, nisi sit 
+impedi<lb break="no" ed="#Be" n="57"/>mentum ex parte fictionis : et hoc etiam
+<lb ed="#Be" n="58"/>non impedit characterem, nisi ex parte
+<lb ed="#Be" n="59"/>subjecti susceptibilis ejus quod efficere
+<lb ed="#Be" n="60"/>habet character ; etideo recedente 
+fictio<lb break="no" ed="#Be" n="61"/>ne operatur character gratiam propter
+<lb ed="#Be" n="62"/>quam operandam impressus fuerat. Alio
+<lb ed="#Be" n="63"/>modo dicitur non iterari sacramentum
+<lb ed="#Be" n="64"/>non quin sepius sumatur, sed quia 
+for<lb break="no" ed="#Be" n="65"/>ma sua super eadem numero non 
+itera<lb break="no" ed="#Be" n="66"/>tur : et ita dicitur hic: quia si haec 
+itera<lb break="no" ed="#Be" n="67"/>tur, significaretur forma semel prolata
+<lb ed="#Be" n="68"/>non esse efficax.
+</p>
+            <p xml:id="alalal-g60291-d1e265">
+               <lb ed="#Be" n="69"/>Ad id ergo quod primo objicitur, 
+di<lb break="no" ed="#Be" n="70"/>cendum quod multoties sumitur idem :
+<lb ed="#Be" n="71"/>sed non repetitur forma super eamdem
+<lb ed="#Be" n="72"/>speciem sumptam semel : et hoc modo
+<lb ed="#Be" n="73"/>non repetitur.
+</p>
+            <p xml:id="alalal-g60291-d1e278">
+               <lb ed="#Be" n="74"/>Ad aliud dicendum, quod sacramentum
+<lb ed="#Be" n="75"/>idem est specie et numero ex parte rei
+<lb ed="#Be" n="76"/>content : sed ratione ejus non negatur
+<lb ed="#Be" n="77"/>hic iteratio sacramenti: sed non estidem
+<lb ed="#Be" n="78"/>numero ex parte materia et accidentium
+<lb ed="#Be" n="79"/>quee sunt signa in sacramento, et ratione
+<lb ed="#Be" n="80"/>iilorum cum non super idem repetitur
+<lb ed="#Be" n="81"/>forma, negatur hoc sacramentum iterari.
+</p>
+            <p xml:id="alalal-g60291-d1e299">
+               <lb ed="#Be" n="82"/>Ad aliud dicendum, quod hic dicitur
+<lb ed="#Be" n="83"/>unum ab una relatione specierum 
+corpo<lb break="no" ed="#Be" n="84"/>ris et vini ad contentum cum ipsis, et
+<lb ed="#Be" n="85"/>non ratione contenti absolute considerati.
+<lb ed="#Be" n="86"/>Et ideo multiplicatis talibus signis 
+mate<lb break="no" ed="#Be" n="87"/>rialiter multiplicatur repetitio sacramenti
+<lb ed="#Be" n="88"/>materialiter, licet specie sint signa eadem
+<lb ed="#Be" n="89"/>semper, et in omni consecratione.
+</p>
+            <p xml:id="alalal-g60291-d1e319">
+               <lb ed="#Be" n="90"/>Ad aliud dicendum, quod alio modo
+<lb ed="#Be" n="91"/>dicitur non iterari baptismus, et alio 
+mo<lb break="no" ed="#Be" n="92"/>do istud sacramentum, ut jam habitum
+<pb ed="#Be" n="299"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>est : istud enim sacramentum ab uno 
+ho<lb break="no" ed="#Be" n="2"/>mine, et sepius celebratur, et sepius
+<lb ed="#Be" n="3"/>suscipitur : illud autem non. Unde alio
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="4"/>modo dicitur non iterariillud, et alio 
+mo<lb break="no" ed="#Be" n="5"/>do istud.
+</p>
+            <p xml:id="alalal-g60291-d1e345">
+               <lb ed="#Be" n="6"/>Sequitur deinde, etc.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

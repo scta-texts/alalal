@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="94"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g17911"><!-- l4d4a9 -->
+            <head xml:id="alalal-g17911-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-g17911-Hd1e101" type="question-title">An orandum sit pro parvulis ?</head>
+            <p xml:id="alalal-g17911-d1e104">
+               <lb ed="#Be" n="77"/>ARTICULUS IX.
+<lb ed="#Be" n="78"/>An orandum sit pro parvulis ?
+</p>
+            <p xml:id="alalal-g17911-d1e111">
+               <lb ed="#Be" n="79"/>Deinde queritur de hoc quod dicit, ibi,
+<lb ed="#Be" n="80"/>E, sub finem : <quote xml:id="alalal-g17911-Qd1e117"> A fidelium consortio
+<lb ed="#Be" n="81"/>non separantur, cum orat Heclesia pro
+<lb ed="#Be" n="82"/>fidelibus, etc. </quote>
+            </p>
+            <p xml:id="alalal-g17911-d1e125">
+               <lb ed="#Be" n="83"/>Talibus enim videtur fieri injuria,
+<lb ed="#Be" n="84"/>quando oratur pro eis : quia tenetur,
+<lb ed="#Be" n="85"/>quod illi immediate evolant.
+</p>
+            <p xml:id="alalal-g17911-d1e135">
+               <lb ed="#Be" n="86"/>Et ad haec dicendum, qued orationes
+<lb ed="#Be" n="87"/>sunt laudes pro securis, et suffragia pro
+<lb ed="#Be" n="88"/>his quos remanserunt in via.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

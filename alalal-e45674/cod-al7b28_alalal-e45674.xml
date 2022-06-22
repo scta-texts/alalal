@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="236"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e45674"><!-- l3d13dt1 -->
+            <head xml:id="alalal-e45674-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e45674-d1e101">
+               <pb ed="#Bd" n="236"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Divisio Textus
+</p>
+            <p xml:id="alalal-e45674-d1e110">
+               <lb ed="Bd" n="2"/>
+               <quote xml:id="alalal-e45674-Qd1e114"> Praeterea sciendum est, Christum
+<lb ed="Bd" n="3"/>hominem, etc. </quote>
+               <lb ed="Bd" n="4"/>Hic incipit pars illa quae est de 
+con<lb break="no" ed="Bd" n="5"/>venientibus Christo secundum potentias
+<lb ed="Bd" n="6"/>vel virtutes naturales quas suscepit in
+<lb ed="Bd" n="7"/>humana natura. Et secundum quod 
+du<lb break="no" ed="Bd" n="8"/>plex est substantia humane nature, sic
+<lb ed="Bd" n="9"/>sunt duplices potentiae, scilicet anime et
+<lb ed="Bd" n="10"/>corporis: et de convenieatibus Christo
+<lb ed="Bd" n="11"/>secundum potentias anime agit primo.
+<lb ed="Bd" n="12"/>In secunda autem parte de 
+convenienti<lb break="no" ed="Bd" n="13"/>bus ei secundum potentias corporis : et
+<lb ed="Bd" n="14"/>haec incipit in distinctione XV, ibi, A,
+<lb ed="Bd" n="15"/>
+               <quote xml:id="alalal-e45674-Qd1e145"> Illud quoque praetermiitendum non
+<lb ed="Bd" n="16"/>est, etc. </quote>
+            </p>
+            <p xml:id="alalal-e45674-d1e151">
+               <lb ed="Bd" n="17"/>Prima habet duas questiones de 
+pro<lb break="no" ed="Bd" n="18"/>fectu gratiae et sapientiae Christi, quae 
+in<lb break="no" ed="Bd" n="19"/>sunt per potentias anime : quarum ura
+<lb ed="Bd" n="20"/>determinatur in ista distinctione, scilicet
+<lb ed="Bd" n="21"/>qualiter in gratia et sapientia profecerit.
+<lb ed="Bd" n="22"/>Secunda est de numero scitorum, utrum
+<lb ed="Bd" n="23"/>tot sciverit sicut Pater, et eque limpide,
+<lb ed="Bd" n="24"/>velnon ? et haec determinatur in sequent
+<lb ed="Bd" n="25"/>distinctione, ibi, A, <quote xml:id="alalal-e45674-Qd1e172"> Mic gusxri opus est,
+<lb ed="Bd" n="26"/>Cum anima Christi, eic. </quote>
+            </p>
+            <p xml:id="alalal-e45674-d1e178">
+               <lb ed="Bd" n="27"/>Hee autem distinctio habet duas 
+par<lb break="no" ed="Bd" n="28"/>tes: in quarum prima quastionem mo~
+<lb ed="Bd" n="29"/>vei et solvit. En secunda, objicit in 
+con<lb break="no" ed="Bd" n="30"/>trarium, ibi, 5, <quote xml:id="alalal-e45674-Qd1e188"> Huic autem sententiae
+<lb ed="Bd" n="31"/>videtur obviare, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

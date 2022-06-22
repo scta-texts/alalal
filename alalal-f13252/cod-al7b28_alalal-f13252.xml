@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="583"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f13252"><!-- l3d31a5 -->
+            <head xml:id="alalal-f13252-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-f13252-Hd1e101" type="question-title">An in libro vitae aliquid scribatur sub
+conditione ?</head>
+            <p xml:id="alalal-f13252-d1e104">
+               <lb ed="Bd" n="37"/>ARTICULUS V.
+<lb ed="Bd" n="38"/>An in libro vitae aliquid scribatur sub
+<lb ed="Bd" n="39"/>conditione ?
+</p>
+            <p xml:id="alalal-f13252-d1e113">
+               <lb ed="Bd" n="40"/>Tertio quaeritur, Utrum sub conditione
+<lb ed="Bd" n="41"/>aliquid ibi seribitur ?
+</p>
+            <p xml:id="alalal-f13252-d1e120">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="42"/>Et videtur, quod sic.
+<lb ed="Bd" n="43"/>1. Constat enim, quod praedestinatio
+<lb ed="Bd" n="44"/>non infert necessitatem salutis, quia sic
+<lb ed="Bd" n="45"/>nihil essent opera nostra: ergo videtur,
+<lb ed="Bd" n="46"/>quod possibilitas ad damnationem 
+sem<lb break="no" ed="Bd" n="47"/>per maneat: ergo qui scriptus est, sub
+<lb ed="Bd" n="48"/>conditione scriptus est, si perseveret.
+</p>
+            <p xml:id="alalal-f13252-d1e141">
+               <lb ed="Bd" n="49"/>2. Item, Hoc accipitur, Jerem. xvut,
+<lb ed="Bd" n="50"/>Ai et seq., ubi dicit Dominus, quod
+<lb ed="Bd" n="51"/>quando prenuntiat bona gentt alicui, et
+<lb ed="Bd" n="52"/>gens illa conversa fuerit, et fecerit 
+ma<lb break="no" ed="Bd" n="53"/>lum, quod non dabil bonum 
+prenuntia<lb break="no" ed="Bd" n="54"/>tum, sed malum quod meruerunt : ergo
+<lb ed="Bd" n="55"/>bonum prenuntiatam quod legit ibi
+<lb ed="Bd" n="56"/>Propheta, non fuitibi scriptum 
+simpli<lb break="no" ed="Bd" n="57"/>citer, sed sub conditione,
+</p>
+            <p xml:id="alalal-f13252-d1e163">
+               <lb ed="Bd" n="58"/>3. Item, Dicit Gregorius, quod <quote xml:id="alalal-f13252-Qd1e167"> 
+mu<lb break="no" ed="Bd" n="59"/>tat ibi Dominus sententiam, sed non 
+con<lb break="no" ed="Bd" n="60"/>silium: </quote> constat autem, quod sentenlia
+<lb ed="Bd" n="61"/>non promulgatur, nisi illa quae est in
+<lb ed="Bd" n="62"/>previsione Dei scripta : ergo videtur,
+<lb ed="Bd" n="63"/>quod sub conditione scripta fuit, quia
+<lb ed="Bd" n="64"/>alias falsificaretur.
+</p>
+            <p xml:id="alalal-f13252-d1e184">
+               <lb ed="Bd" n="65"/>SED CONTRA :
+<lb ed="Bd" n="66"/>Omnis conditio dubitationem 
+impor<lb break="no" ed="Bd" n="67"/>tat: in primaautem veritate nihil est per
+<lb ed="Bd" n="68"/>modum dubitationis: ergo nihil est ibi
+<lb ed="Bd" n="69"/>per modum conditionis. Si forte tu dicas,
+<lb ed="Bd" n="70"/>quod immobilis est veritas in ordine ad
+<lb ed="Bd" n="71"/>causam suam, licet in se mobilis sit, ut
+<lb ed="Bd" n="72"/>Niniven esse subvertendam secundum
+<lb ed="Bd" n="73"/>merita. lioc etiam semper est et erat et
+<lb ed="Bd" n="74"/>erit verum, Evechiain esse moriturum
+<lb ed="Bd" n="75"/>secundum causas inferiores : et hoc modo
+<lb ed="Bd" n="76"/>seribitur ibi, et non simpliciter. loc 
+ni<lb break="no" ed="Bd" n="77"/>hil est: quia sic Dei ordinatio dependeret
+<lb ed="Bd" n="78"/>ancstro opere, quod est impossibile : et
+<lb ed="Bd" n="79"/>sic w@ternum aliquo modo causaretur a
+<lb ed="Bd" n="80"/>temporali.
+</p>
+            <p xml:id="alalal-f13252-d1e221">
+               <lb ed="Bd" n="81"/>Solutio Dicendum, qued nihil scitur
+<lb ed="Bd" n="82"/>ibi sub conditione, sed omnia simpliciter -
+<lb ed="Bd" n="83"/>sicut etiam ipsa predestinatio est simplex
+<lb ed="Bd" n="84"/>veritas : sed quod in Deo simpliciter est,
+<lb ed="Bd" n="85"/>a nobis simpliciter dici non potest. Item,
+<lb ed="Bd" n="86"/>quod a Deo simpliciter pravidetur, non
+<lb ed="Bd" n="87"/>nisi secundum ordinem in tempore 
+expli<lb break="no" ed="Bd" n="88"/>catur. Unde hujusmodi pronuntiationes
+<lb ed="Bd" n="89"/>sunt de previsis secundum quod egre-
+<pb ed="#Bd" n="584"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>diuntur in opus, et sic habent ordinem,
+<lb ed="Bd" n="2"/>co quod poena est contra culpam, et 
+prae<lb break="no" ed="Bd" n="3"/>mium ad meritum. Et hoc modo fiunt
+<lb ed="Bd" n="4"/>prenuntiationes et sententia quas 
+quan<lb break="no" ed="Bd" n="5"/>doque mutat Deus, sicut diximus alibi.
+</p>
+            <p xml:id="alalal-f13252-d1e258">
+               <lb ed="Bd" n="6"/>Ad privem ergo dicendum, quod non
+<lb ed="Bd" n="7"/>est ibi conditio aliqua, sed ratio 
+conco<lb break="no" ed="Bd" n="8"/>mitantiae et termini operis 
+praedestina<lb break="no" ed="Bd" n="9"/>tionis sive effectus : hae enim secundum
+<lb ed="Bd" n="10"/>ordinein sapientice se concomitantur bene
+<lb ed="Bd" n="11"/>facere et salvari, et effectus 
+pradestina<lb break="no" ed="Bd" n="12"/>tionis terminatur ad hoc, et male facere
+<lb ed="Bd" n="13"/>el damnart.
+</p>
+            <p xml:id="alalal-f13252-d1e278">
+               <lb ed="Bd" n="14"/>Ad aliud dicendum, quod Jeremias 
+lo<lb break="no" ed="Bd" n="15"/>quitur de pradestinatione quoad effectum
+<lb ed="Bd" n="16"/>in tempore, et non de aeterna previsione :
+<lb ed="Bd" n="17"/>elfectus enim bene causatur ab opere
+<lb ed="Bd" n="18"/>nostro, licet non ipsa previsio.
+</p>
+            <p xml:id="alalal-f13252-d1e292">
+               <lb ed="Bd" n="19"/>Ad aliud dicendum, quod  senlentia
+<lb ed="Bd" n="20"/>vocatur a Gregorio enuntiatio effectus, et
+<lb ed="Bd" n="21"/>hon aeterne praedestinationis.
+</p>
+            <p xml:id="alalal-f13252-d1e301">
+               <lb ed="Bd" n="22"/>Ab Ip quod in contrarium objicitur,
+<lb ed="Bd" n="23"/>patet solutio per antedicta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

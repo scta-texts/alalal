@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="318"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a63493"><!-- l1d10a5 -->
+            <head xml:id="alalal-a63493-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-a63493-Hd1e101" type="question-title">An sapientia non sit propria, sed 
+appropriabilis tantum ?</head>
+            <p xml:id="alalal-a63493-d1e104">
+               <lb ed="#Ba" n="14"/>ARTICULUS V.
+<lb ed="#Ba" n="15"/>An sapientia non sit propria, sed 
+appro<lb break="no" ed="#Ba" n="16"/>priabilis tantum ?
+</p>
+            <p xml:id="alalal-a63493-d1e113">
+               <lb ed="#Ba" n="17"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="18"/>
+               <quote xml:id="alalal-a63493-Qd1e119"> Sicut ergo unicum Dei verbum proprie
+<lb ed="#Ba" n="19"/>vocamus nomine sapientix, etc.</quote> ,
+</p>
+            <p xml:id="alalal-a63493-d1e125">
+               <lb ed="#Ba" n="20"/>1. Hic enim dubium potest: esse, quod
+<lb ed="#Ba" n="21"/>sapientia est appropriabilis, et non 
+pro<lb break="no" ed="#Ba" n="22"/>pria : charitas autem appropriabilis, et
+<lb ed="#Ba" n="23"/>propria, quae sit causa hujus ?
+</p>
+            <p xml:id="alalal-a63493-d1e137">
+               <lb ed="#Ba" n="24"/>2. Item, Cum verbum sit 
+appropriabi<lb break="no" ed="#Ba" n="25"/>le, et proprium, ut prius ostensum est :
+<lb ed="#Ba" n="26"/>quare non similiter sapientia ?
+</p>
+            <p xml:id="alalal-a63493-d1e146">
+               <lb ed="#Ba" n="27"/>3. Si picas, quod sapientia in sapiente
+<lb ed="#Ba" n="28"/>est ut perfectio ipsius secundum sapere :
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="29"/>et ideo non potest esse propria : quia
+<lb ed="#Ba" n="30"/>tunc Pater saperet quasi formaliter 
+sa<lb break="no" ed="#Ba" n="31"/>pientia qua ab ipso esset. Contra : 
+Eo<lb break="no" ed="#Ba" n="32"/>dem modo video, quod amor esl in 
+aman<lb break="no" ed="#Ba" n="33"/>te sicut perfectio, vel amare vel diligere :
+<lb ed="#Ba" n="34"/>ergo non debet esse proprius, sed 
+ap<lb break="no" ed="#Ba" n="35"/>propriatus.
+</p>
+            <p xml:id="alalal-a63493-d1e170">
+               <lb ed="#Ba" n="36"/>Sorurio. Dicendum sine prejudicio,
+<lb ed="#Ba" n="37"/>quod ratio istius dicti dependet a ratione
+<lb ed="#Ba" n="38"/>nominum : quia sic charifas hoc quod
+<lb ed="#Ba" n="39"/>dicit, dicit ut in aliud, vel in alium 
+pro<lb break="no" ed="#Ba" n="40"/>cedens : unde Augustinus dicit, quod
+<lb ed="#Ba" n="41"/>
+               <quote xml:id="alalal-a63493-Qd1e185"> charitas minus quam inler duos haberi
+<lb ed="#Ba" n="42"/>non potest. </quote> Sapientia autem hoc quod
+<lb ed="#Ba" n="43"/>dicit, dicit ut inherens ipsi sapienti,
+<lb ed="#Ba" n="44"/>quasi ex alio de quo est sapientia, quia
+<lb ed="#Ba" n="45"/>sapientia de rebus est : et leet in Deo
+<lb ed="#Ba" n="46"/>sit causa rerum, et non causata a rebus,
+<lb ed="#Ba" n="47"/>tamen hoc non dicit ipso nomine : et
+<lb ed="#Ba" n="48"/>ideo non potuit congrue proprium esse
+<lb ed="#Ba" n="49"/>processioni personarum : et per hoc 
+pa<lb break="no" ed="#Ba" n="50"/>tet solutio ad primum et ultimum.
+</p>
+            <p xml:id="alalal-a63493-d1e208">
+               <lb ed="#Ba" n="51"/>Ap medium dicendum, quod verbum
+<lb ed="#Ba" n="52"/>dicit ut procedens ab alo, cujus ipsum
+<lb ed="#Ba" n="53"/>est intentio et similitudo, precipue 
+quan<lb break="no" ed="#Ba" n="54"/>do aliquis dicit se : et ideo illud in se
+<lb ed="#Ba" n="55"/>claudit rationem ejus quod est esse ab
+<lb ed="#Ba" n="56"/>alio, sicut et charitas vel amor: et ideo
+<lb ed="#Ba" n="57"/>cum per esse ab alio distinguantur 
+per<lb break="no" ed="#Ba" n="58"/>sone procedentes in divinis, illa nomina
+<lb ed="#Ba" n="59"/>erant apta ut representarent plus quam
+<lb ed="#Ba" n="60"/>alia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

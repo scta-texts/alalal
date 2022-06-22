@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="9"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee1666"><!-- l3d1a4 -->
+            <head xml:id="alalal-ee1666-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-ee1666-Hd1e101" type="question-title">Utrum Dei Filius potest dici factus de
+muliere ?</head>
+            <p xml:id="alalal-ee1666-d1e104">
+               <lb ed="Bd" n="8"/>ARTICULUS IV.
+<lb ed="Bd" n="9"/>Utrum Dei Filius potest dici factus de
+<lb ed="Bd" n="10"/>muliere ?
+</p>
+            <p xml:id="alalal-ee1666-d1e113">
+               <lb ed="Bd" n="11"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="12"/>ibi, A, circa initium: <quote xml:id="alalal-ee1666-Qd1e119"> Factum ex 
+mu<lb break="no" ed="Bd" n="13"/>liere. </quote>
+            </p>
+            <p xml:id="alalal-ee1666-d1e125">
+               <lb ed="Bd" n="14"/>1. Factura enim non cadit in Filium
+<lb ed="Bd" n="15"/>Dei, sed in Fitum hominis: ergo male
+<lb ed="Bd" n="16"/>dicit Filium factum.
+</p>
+            <p xml:id="alalal-ee1666-d1e135">
+               <lb ed="Bd" n="17"/>2, Item, Quare non dicit natum de
+<lb ed="Bd" n="18"/>mutiere: cum tamen hoc sic verum ?
+</p>
+            <p xml:id="alalal-ee1666-d1e142">
+               <lb ed="Bd" n="19"/>3. Item, Glossa: Virgo non mutter,
+<lb ed="Bd" n="20"/>sed virgo fuit: ergo videtur Apostolus
+<lb ed="Bd" n="21"/>per hoc injuriam inferre matri Domini.
+</p>
+            <p xml:id="alalal-ee1666-d1e151">
+               <lb ed="Bd" n="22"/>Solutio Sine dubio factio non 
+peai<lb break="no" ed="Bd" n="23"/>tur circa Filium Dei in quantum 
+Lujus<lb break="no" ed="Bd" n="24"/>modi, sed circa Fitum hominis. Unde
+<lb ed="Bd" n="25"/>Augustinus: <quote xml:id="alalal-ee1666-Qd1e161">In tantum factus est, in
+<lb ed="Bd" n="26"/>quantum ex muliere est. </quote> Unde sensus
+<lb ed="Bd" n="27"/>est: Filium suuin factum, non in 
+quan<lb break="no" ed="Bd" n="28"/>tum Filius Dei: sed factum in natura
+<lb ed="Bd" n="29"/>humana, ut scilicel humana natura 
+sub<lb break="no" ed="Bd" n="30"/>jectum sit circa quod sit factio ipsa.
+</p>
+            <p xml:id="alalal-ee1666-d1e176">
+               <lb ed="Bd" n="31"/>Ad aliud dicendum, quod creatio est
+<lb ed="Bd" n="32"/>opus voluntatis diving educentis 
+crea<lb break="no" ed="Bd" n="33"/>turam de nihilo: nativitas autem est
+<lb ed="Bd" n="34"/>opus nature ex utraque parte, scilicet,
+<lb ed="Bd" n="35"/>ex parte patientis ut est mater, et ex
+<lb ed="Bd" n="36"/>parte agentis ut est pater: sed facere est
+<lb ed="Bd" n="37"/>opus voluntatis super materiam 
+preja<lb break="no" ed="Bd" n="38"/>centem, sicut fecit Deus Trinitas 
+huma<lb break="no" ed="Bd" n="39"/>nam naturam, quae unita est Christo sive
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="40"/>Filio Dei: et ad hoc innuendum dicit,
+<lb ed="Bd" n="41"/>jactum. Cum autem dicitar natus, hoc
+<lb ed="Bd" n="42"/>est secundum navitalem, quae est ex
+<lb ed="Bd" n="43"/>matre tantum.
+</p>
+            <p xml:id="alalal-ee1666-d1e209">
+               <lb ed="Bd" n="44"/>Ad vLteum dicendum, quod mulier
+<lb ed="Bd" n="45"/>dicitur dupliciter, scilicet, secundum 
+si<lb break="no" ed="Bd" n="46"/>gnificationem nominis, et sic dicit 
+Glos<lb break="no" ed="Bd" n="47"/>sa: Virgo non fuit mulier, Vel 
+secun<lb break="no" ed="Bd" n="48"/>dum interpretationem nominis, et sic
+<lb ed="Bd" n="49"/>ipsa preecipue mulier fait: quia herum
+<lb ed="Bd" n="50"/>omniuin omnium heroum ipsa inolhvit.
+<lb ed="Bd" n="51"/>Unde quando e mollitiae resolutus totus
+<lb ed="Bd" n="52"/>in cruce, ‘suavitatem effudit, retulit hance
+<lb ed="Bd" n="53"/>emollitionem in eam, dicens: Mulier,
+<lb ed="Bd" n="54"/>ecce filius tuus'.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

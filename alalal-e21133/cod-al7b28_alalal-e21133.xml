@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="106"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e21133"><!-- l3d5a8 -->
+            <head xml:id="alalal-e21133-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-e21133-Hd1e101" type="question-title">Quare dicit, Solum Verbum carnem 
+Trinitas fecit ?</head>
+            <p xml:id="alalal-e21133-d1e104">
+               <lb ed="Bd" n="28"/>ARTICULUS VIII.
+<lb ed="Bd" n="29"/>Quare dicit, Solum Verbum carnem 
+Tri<lb break="no" ed="Bd" n="30"/>nitas fecit ?
+</p>
+            <p xml:id="alalal-e21133-d1e113">
+               <lb ed="Bd" n="31"/>Deinde quaeritur de hoc quod dicit
+<lb ed="Bd" n="32"/>Augustinus, 1bi, A, § 2, sub finem :
+<lb ed="Bd" n="33"/>
+               <quote xml:id="alalal-e21133-Qd1e121"> Per hoc quod solum Verbum carnem
+<lb ed="Bd" n="34"/>Trinitas fecit. </quote>
+            </p>
+            <p xml:id="alalal-e21133-d1e127">
+               <lb ed="Bd" n="35"/>Caro enim dicit partem hominis, vel
+<lb ed="Bd" n="36"/>etiam partem partis : cum igitur ille 
+ho<lb break="no" ed="Bd" n="37"/>mo non sitcaro sua, nec cum Verbo 
+pot<lb break="no" ed="Bd" n="38"/>est dici vere caro sua.
+</p>
+            <p xml:id="alalal-e21133-d1e139">
+               <lb ed="Bd" n="39"/>Si autem dicitur, quod pars pro toto
+<lb ed="Bd" n="40"/>ponitur : tune quero, Quare ibi potius
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="41"/>ponitur caro pro toto, quam anima, vel
+<lb ed="Bd" n="42"/>aliud ?
+</p>
+            <p xml:id="alalal-e21133-d1e152">
+               <lb ed="Bd" n="43"/>Solutio Dicendum, quod pars 
+poni<lb break="no" ed="Bd" n="44"/>tur pro toto : sed hance partem duabus
+<lb ed="Bd" n="45"/>de causis specialiter posuit, quarum una
+<lb ed="Bd" n="46"/>est, ut excluderet errorem. Dixerunt
+<lb ed="Bd" n="47"/>enim quidam heretici Deum non 
+unibi<lb break="no" ed="Bd" n="48"/>lem carni propter passibilitatem carnis.
+<lb ed="Bd" n="49"/>Ideo ut Evangelista ‘ ostenderet hoc esse
+<lb ed="Bd" n="50"/>erroneum, non posuit partem 
+nobilio<lb break="no" ed="Bd" n="51"/>rem, sed defectibiliorem. Alia ratio est,
+<lb ed="Bd" n="52"/>ut sciremus eum defectus poenarum 
+no<lb break="no" ed="Bd" n="53"/>strarum quae ipsum decent assumpsisse :
+<lb ed="Bd" n="54"/>quia maximus defectus noster quoad
+<lb ed="Bd" n="55"/>mortalitatem, et poenam, et dolorem, in
+<lb ed="Bd" n="56"/>carne est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

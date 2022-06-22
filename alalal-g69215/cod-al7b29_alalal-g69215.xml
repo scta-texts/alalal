@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="337"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g69215"><!-- l4d13a3 -->
+            <head xml:id="alalal-g69215-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-g69215-Hd1e101" type="question-title">An quando Christus ostendit se 
+discipulis in via in specie peregrini, fecerit
+actum simulatorium sive illusorium ?</head>
+            <p xml:id="alalal-g69215-d1e104">
+               <lb ed="#Be" n="11"/>ARTICULUS III.
+<lb ed="#Be" n="12"/>An quando Christus ostendit se 
+discipu<lb break="no" ed="#Be" n="13"/>lis in via in specie peregrini, fecerit
+<lb ed="#Be" n="14"/>actum simulatorium sive illusorium ?
+</p>
+            <p xml:id="alalal-g69215-d1e115">
+               <lb ed="#Be" n="15"/>Deinde queritur de hoc quod 
+indu<lb break="no" ed="#Be" n="16"/>cunt isti pro exemplo, ibi, A, sub finem:
+<lb ed="#Be" n="17"/>
+               <quote xml:id="alalal-g69215-Qd1e123"> Sicut et Christus ostendit se duobus
+<lb ed="#Be" n="18"/>discipulis in via specie peregrini, etc. </quote>
+            </p>
+            <p xml:id="alalal-g69215-d1e129">
+               <lb ed="#Be" n="19"/>Videtur enim illusio fuisse :
+<lb ed="#Be" n="20"/>1. Quod enim non est de essentia rei,
+<lb ed="#Be" n="21"/>non facit rem esse veram vel falsain in
+<lb ed="#Be" n="22"/>substantia sua : sed intentum ab agente
+<lb ed="#Be" n="23"/>non est de substantia actus vel facti sui,
+<lb ed="#Be" n="24"/>quia finis non est de re : ergo nec falsam
+<lb ed="#Be" n="25"/>facit rem, nec veram: ergo quod hoc 
+fe<lb break="no" ed="#Be" n="26"/>cit ad fidei utilitatem, non fecit non 
+si<lb break="no" ed="#Be" n="27"/>lamutorium actum,
+</p>
+            <p xml:id="alalal-g69215-d1e152">
+               <lb ed="#Be" n="28"/>2. Item, Simulatio non perficitur in
+<lb ed="#Be" n="29"/>uno tantum, sed in duobus, scilicet uno
+<lb ed="#Be" n="30"/>ostendente quod non est, et in alio 
+intel<lb break="no" ed="#Be" n="31"/>ligente quantum est de ostensione 
+simu<lb break="no" ed="#Be" n="32"/>lationis: Evanvelium autem  expresse
+<lb ed="#Be" n="33"/>dicit quod finxit se longius ire®, et 
+dis<lb break="no" ed="#Be" n="34"/>cipuli putabant eum hoc velle: ergo fuit
+<lb ed="#Be" n="35"/>ibi perfecta illusio.
+</p>
+            <p xml:id="alalal-g69215-d1e172">
+               <lb ed="#Be" n="36"/>3. Item, Nihil agnoscitur sub specie
+<lb ed="#Be" n="37"/>que nullo modo est in ipso nisi per 
+pre<lb break="no" ed="#Be" n="38"/>stigium vel infirmitatem oculi intuentis :
+<lb ed="#Be" n="39"/>ergo quod non prestigiose nec ab oculo
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="40"/>infirmo videtur, sub propria videtur 
+spe<lb break="no" ed="#Be" n="41"/>cie : sed oculi discipulorum non fuerunt
+<lb ed="#Be" n="42"/>infirmi, nec prestigiose ligati : ergo 
+spe<lb break="no" ed="#Be" n="43"/>cies quam viderunt in Deo fuit species
+<lb ed="#Be" n="44"/>peregrini : sed constat, quod secundum
+<lb ed="#Be" n="45"/>veritatem peregrinus non fuit: ergo 
+si<lb break="no" ed="#Be" n="46"/>mulata ab ipso fuit species peregrini, et
+<lb ed="#Be" n="47"/>sic fuit ibi verissima illusio.
+</p>
+            <p xml:id="alalal-g69215-d1e203">
+               <lb ed="#Be" n="48"/>Souurio. Dicendum, quod nulla illusio
+<lb ed="#Be" n="49"/>fait ibi. Unde dicendum est exemplum
+<lb ed="#Be" n="50"/>esse bonum : sed tamen id esse falsum
+<lb ed="#Be" n="51"/>ad quod confirmandum inducitur ab illa
+<lb ed="#Be" n="52"/>opinione.
+</p>
+            <p xml:id="alalal-g69215-d1e216">
+               <lb ed="#Be" n="53"/>Ad primum autein dicendum, quod 
+in<lb break="no" ed="#Be" n="54"/>tentio facit non simulatorium agentem :
+<lb ed="#Be" n="55"/>sed duplex est intentum, scilicet in opere,
+<lb ed="#Be" n="56"/>et intentum per opus : intentum in opere
+<lb ed="#Be" n="57"/>fuit ostendere eis per similitudinem 
+qua<lb break="no" ed="#Be" n="58"/>lis fuit tune in mentibus discipulorum,
+<lb ed="#Be" n="59"/>et quoad hoc verissime et non 
+similitu<lb break="no" ed="#Be" n="60"/>dinarie egit: quia nullus alius ita hoc
+<lb ed="#Be" n="61"/>demonstrat : intentum autem per opus
+<lb ed="#Be" n="62"/>non fuit in opere, sed consequens ipsum,
+<lb ed="#Be" n="63"/>scilicet confirmatio fidei discipulorum
+<lb ed="#Be" n="64"/>quoad articulum resurrectionis, et hoc
+<lb ed="#Be" n="65"/>est extra opus, et non facit opus verum,
+<lb ed="#Be" n="66"/>vel simulatorium, sed potius primum :
+<lb ed="#Be" n="67"/>sicut etiam nos non dicimus simulare
+<lb ed="#Be" n="68"/>Ezechielem, quando fecit perfodi 
+do<lb break="no" ed="#Be" n="69"/>mum, et latenter se exportari? : quia in
+<lb ed="#Be" n="70"/>illo tempore demonstravit, quod ita 
+fu<lb break="no" ed="#Be" n="71"/>gere haberent de domibus suis 
+transmi<lb break="no" ed="#Be" n="72"/>grandi.
+</p>
+            <p xml:id="alalal-g69215-d1e262">
+               <lb ed="#Be" n="73"/>Ad aliud dicendum, quod simulatio
+<lb ed="#Be" n="74"/>est eliam in uno in comparatione ad 
+alte<lb break="no" ed="#Be" n="75"/>rum : sed ita non fuit hic, sed potius
+<lb ed="#Be" n="76"/>instructio per actum quem propter 
+disci<lb break="no" ed="#Be" n="77"/>pulos exercuit : quia facilior est 
+instru<lb break="no" ed="#Be" n="78"/>clio quae fit similitudine parabolarum et
+<lb ed="#Be" n="79"/>operum. .
+</p>
+            <p xml:id="alalal-g69215-d1e280">
+               <lb ed="#Be" n="80"/>Ad aliud dicendum, quod oculi 
+disci<lb break="no" ed="#Be" n="81"/>pulorum in veritate tenebantur, et tenens
+<lb ed="#Be" n="82"/>erat dubietas resurrectionis. Unde 
+Chri<lb break="no" ed="#Be" n="83"/>stus se els in propria specie objecit : et
+<lb ed="#Be" n="84"/>tamen propter impotentiam oculi non
+<pb ed="#Be" n="338"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>glorificati, non viderunt eum sub 
+lumi<lb break="no" ed="#Be" n="2"/>ne gloriosi corporis, sed potius sub 
+spe<lb break="no" ed="#Be" n="3"/>cie coloris : et dubietas resurrectionis
+<lb ed="#Be" n="4"/>fecit estimare peregrinum, eo quod vide-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="5"/>runt eum venientem de loco adorationis,
+<lb ed="#Be" n="6"/>seilicet Jerusalem. Unde patet nullam
+<lb ed="#Be" n="7"/>ibi fuisse simulationem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

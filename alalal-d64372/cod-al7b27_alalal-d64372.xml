@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="357"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d64372"><!-- l2d21a3 -->
+            <head xml:id="alalal-d64372-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-d64372-Hd1e101" type="question-title">Utrum tentatio quae est ad tillicitum sit
+appetenda?</head>
+            <p xml:id="alalal-d64372-d1e104">
+               <lb ed="#Bc" n="9"/>ARTICULUS III.
+<lb ed="#Bc" n="10"/>Utrum tentatio quae est ad tillicitum sit
+<lb ed="#Bc" n="11"/>appetenda?
+</p>
+            <p xml:id="alalal-d64372-d1e113">
+               <lb ed="#Bc" n="12"/>Tertio queritur, Utrum tentatio quae
+ <lb ed="#Bc" n="13"/>est inclinatio ad illicitum, sit 
+appe<lb break="no" ed="#Bc" n="14"/>tenda?
+</p>
+            <p xml:id="alalal-d64372-d1e122">
+               <lb ed="#Bc" n="15"/>Videtur, quod sic:
+<lb ed="#Bc" n="16"/>1. Psal. xxv, 2: Probame, Domine, et
+<lb ed="#Bc" n="17"/>tenta me, etc. Cum igitur Propheta 
+ten<lb break="no" ed="#Bc" n="18"/>tari petat, dat etiam nobis exemplum
+<lb ed="#Bc" n="19"/>petendi.
+</p>
+            <p xml:id="alalal-d64372-d1e136">
+               <lb ed="#Bc" n="20"/>2. Item, Jacobi, 1,2: Omne gaudium
+<lb ed="#Bc" n="21"/>existimate, fratres met, cum in 
+tenta<lb break="no" ed="#Bc" n="22"/>tiones varias incideritis.: Omne, autem de
+<lb ed="#Bc" n="23"/>quo gaudendum est, propter meritum
+<lb ed="#Bc" n="24"/>est appetendum. Ergo tentatio est 
+ap<lb break="no" ed="#Bc" n="25"/>petenda.
+</p>
+            <p xml:id="alalal-d64372-d1e152">
+               <lb ed="#Bc" n="26"/>3. Item, TT ad Corinth. xu, 7, super
+<lb ed="#Bc" n="27"/>illud, Datus est mihistimulus, dicit 
+Glos<lb break="no" ed="#Bc" n="28"/>sa: <quote xml:id="alalal-d64372-Qd1e160"> Non est exauditus, quia illa 
+tenta<lb break="no" ed="#Bc" n="29"/>tio est repressio superbiae. </quote> Hoc autem
+<lb ed="#Bc" n="30"/>est bonum : ergo appetendum.
+</p>
+            <p xml:id="alalal-d64372-d1e168">
+               <lb ed="#Bc" n="31"/>4. Item, Gregorius: <quote xml:id="alalal-d64372-Qd1e172"> Sanctus post
+<lb ed="#Bc" n="32"/>virtutes tentari se desiderat, ne 
+confi<lb break="no" ed="#Bc" n="33"/>dentia virtutum in peccatum ruat. </quote> Hoc
+<lb ed="#Bc" n="34"/>autem est summe appetendum: ergo et
+<lb ed="#Bc" n="35"/>petendum.
+</p>
+            <p xml:id="alalal-d64372-d1e184">
+               <lb ed="#Bc" n="36"/>5. Item, Per rationem, Quidquid
+<lb ed="#Bc" n="37"/>enim non est peccatum, sed materia
+<lb ed="#Bc" n="38"/>exercenda virtutis, hoc est appetendum :
+<lb ed="#Bc" n="39"/>tentatio cul per peccatum non 
+consenti<lb break="no" ed="#Bc" n="40"/>tur (ut dicit auctoritas) non est peccatum,
+<lb ed="#Bc" n="41"/>sed materia exercende virtutis: ergo est:
+<lb ed="#Bc" n="42"/>appetenda.
+</p>
+            <p xml:id="alalal-d64372-d1e202">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="43"/>6. Item, Quidquid ordinatur ad 
+profe<lb break="no" ed="#Bc" n="44"/>ctum meriti sine timore casus per 
+pecca<lb break="no" ed="#Bc" n="45"/>tum, illud est appetendum: tale est 
+ten<lb break="no" ed="#Bc" n="46"/>tatio: ergo est appetenda. Propatio 
+me<lb break="no" ed="#Bc" n="47"/>die est per precedentia quantum ad
+<lb ed="#Bc" n="48"/>hoe quod ordinatur ad augmentum 
+me<lb break="no" ed="#Bc" n="49"/>riti: sed quod non sit timor cadendi,
+<lb ed="#Bc" n="50"/>probatur, I ad Cor. x, 13, ubi dicit 
+Apo<lb break="no" ed="#Bc" n="51"/>stolus : Fidelis Deus est, qui non 
+patie<lb break="no" ed="#Bc" n="52"/>tur vos tentari supra id quod potestis:
+<lb ed="#Bc" n="53"/>sed faciet, etc.
+</p>
+            <p xml:id="alalal-d64372-d1e231">
+               <lb ed="#Bc" n="54"/>SED CONTRA :
+<lb ed="#Bc" n="55"/>1. Matth. v1, 13: Ef ne nosinducas in
+<lb ed="#Bc" n="56"/>tentationem.
+</p>
+            <p xml:id="alalal-d64372-d1e241">
+               <lb ed="#Bc" n="57"/>2. Item, Matth. xxv1, 41: Vigtlate et
+<lb ed="#Bc" n="58"/>orate, ut non intretis in tentationem.
+<lb ed="#Bc" n="59"/>Spiritus quidem promptus est, etc.
+</p>
+            <p xml:id="alalal-d64372-d1e250">
+               <lb ed="#Bc" n="60"/>3. Item, Non est idem appetendum ab .
+<lb ed="#Bc" n="61"/>homine quod expetitur a demone: 
+de<lb break="no" ed="#Bc" n="62"/>mon autem petit nos ad tentandum : ergo
+<lb ed="#Bc" n="63"/>hoc non est appetendum ab homine.
+<lb ed="#Bc" n="64"/>Propativ mediz. Job,1, 6 et seq., et 
+Lu<lb break="no" ed="#Bc" n="65"/>ce, xxl, 31, ubi dicitur: Simon, Simon,
+<lb ed="#Bc" n="66"/>ecce Satanas expetivit vos, etc.
+</p>
+            <p xml:id="alalal-d64372-d1e268">
+               <lb ed="#Bc" n="67"/>Sorutio. Dicendum, quod tentatio non
+<lb ed="#Bc" n="68"/>est appetenda: quia de intentione 
+tenta<lb break="no" ed="#Bc" n="69"/>toris est, ut et actus ordinetur in 
+illici<lb break="no" ed="#Bc" n="70"/>tui, et ex parte tentati est debilitas 
+stan<lb break="no" ed="#Bc" n="71"/>di, licet ex parte Dei permittentis 
+ordine<lb break="no" ed="#Bc" n="72"/>tur in profectum : unde non respicit 
+pro<lb break="no" ed="#Bc" n="73"/>fectum per se, sed per accidens.
+</p>
+            <p xml:id="alalal-d64372-d1e286">
+               <lb ed="#Bc" n="74"/>Ap prinum ergo dicendum, quod David
+<lb ed="#Bc" n="75"/>petiit tentari per flagella, ut sic 
+libera<lb break="no" ed="#Bc" n="76"/>retur ab occultis peccatis: de quibus
+<lb ed="#Bc" n="77"/>dicit Ambrosius, quod etsi desit fides, id
+<lb ed="#Bc" n="78"/>est, conscientia peccati, poena tamen 
+fla<lb break="no" ed="#Bc" n="79"/>gelli satisfacit: et haec non est tentatio
+<lb ed="#Bc" n="80"/>vergens in illicitum, sicut illa quae 
+sti<lb break="no" ed="#Bc" n="81"/>mulat ad consensum peccati.
+</p>
+            <p xml:id="alalal-d64372-d1e306">
+               <lb ed="#Bc" n="82"/>Ad aliud dicendum, quod non est
+<lb ed="#Bc" n="83"/>gaudendum de tentatione per se, sed per
+<lb ed="#Bc" n="84"/>accidens, quando per victoriam 
+perve<lb break="no" ed="#Bc" n="85"/>nitur ad probationem puriorem auro. -
+</p>
+            <p xml:id="alalal-d64372-d1e317">
+               <lb ed="#Bc" n="86"/>Ad aliud dicendum, quod est 
+medici<lb break="no" ed="#Bc" n="87"/>na per accidens, scilicet per 
+recognitio<lb break="no" ed="#Bc" n="88"/>nem fragilitatis: sed per se est ad 
+illici<lb break="no" ed="#Bc" n="89"/>tum.
+</p>
+            <p xml:id="alalal-d64372-d1e329">
+               <lb ed="#Bc" n="90"/>Ad aliud dicendum, quod desiderium
+<pb ed="#Bc" n="358"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>illud est per accidens, scilicet de effectu
+<lb ed="#Bc" n="2"/>tentationis, et non de ipsa tentatione.
+</p>
+            <p xml:id="alalal-d64372-d1e342">
+               <lb ed="#Bc" n="3"/>Ad aliud dicendum, quod si esset 
+ma<lb break="no" ed="#Bc" n="4"/>teria exercende virtutis per se, ut actus
+<lb ed="#Bc" n="5"/>meritorius, esset appetendum : sed quod
+<lb ed="#Bc" n="6"/>est materia exercende virtutis per 
+acci<lb break="no" ed="#Bc" n="7"/>dens, sicut trahendo virtutem ad 
+illici<lb break="no" ed="#Bc" n="8"/>tum, non oportet esse appetendum. Per
+<lb ed="#Bc" n="9"/>idem patet responsio ad primam 
+propo<lb break="no" ed="#Bc" n="10"/>sitionem objecti.
+</p>
+            <p xml:id="alalal-d64372-d1e362">
+               <lb ed="#Bc" n="11"/>Ap ip per quod probatur media, 
+dicen<lb break="no" ed="#Bc" n="12"/>dum quod Deus quantum est dese, non
+<lb ed="#Bc" n="13"/>patitur: sed nos ex nimia debilitate
+<lb ed="#Bc" n="14"/>quandoque abjicimus gratiam, et 
+defici<lb break="no" ed="#Bc" n="15"/>mus a Deo: et ideo conscii nostre 
+debili<lb break="no" ed="#Bc" n="16"/>tatis, non debemus appetere.
+</p>
+            <p xml:id="alalal-d64372-d1e378">
+               <lb ed="#Bc" n="17"/>Ip autem quod contra objicitur, licet
+<lb ed="#Bc" n="18"/>concedamus, tamen notandum, quod non
+<lb ed="#Bc" n="19"/>est idem tentari, et induci in tentationem
+<lb ed="#Bc" n="20"/>per quamdam Glossam super Matthaum,
+<lb ed="#Bc" n="21"/>quia tentari est probari: induci autem
+<lb ed="#Bc" n="22"/>in tenfationem est derelinqui in 
+tenta<lb break="no" ed="#Bc" n="23"/>tione, et cadere, ut dicit Glossa.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

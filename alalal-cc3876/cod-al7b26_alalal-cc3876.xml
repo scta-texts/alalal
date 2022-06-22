@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="19"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-cc3876"><!-- l1d26a10 -->
+            <head xml:id="alalal-cc3876-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-cc3876-Hd1e101" type="question-title">Utrum in divinis sint finite vel infinite
+relationes, et omnes assistentes ?</head>
+            <p xml:id="alalal-cc3876-d1e104">
+               <lb ed="#Bb" n="11"/>ARTICULUS X.
+<lb ed="#Bb" n="12"/>Utrum in divinis sint finite vel infinite
+<lb ed="#Bb" n="13"/>relationes, et omnes assistentes ?
+</p>
+            <p xml:id="alalal-cc3876-d1e113">
+               <lb ed="#Bb" n="14"/>Deinde queritur de hoc quod dicit in
+<lb ed="#Bb" n="15"/>Littera, cap. B, <quote xml:id="alalal-cc3876-Qd1e119"> Est proprium solius
+<lb ed="#Bb" n="16"/>Patris, non quia non est natus ipse,
+<lb ed="#Bb" n="17"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-cc3876-d1e127">
+               <lb ed="#Bb" n="18"/>1. Hoc enim videtur falsum : quia 
+in<lb break="no" ed="#Bb" n="19"/>fra  dicet quod innascibilitas est 
+proprie<lb break="no" ed="#Bb" n="20"/>tas Patris, eo quod soli Patri convenit :
+<lb ed="#Bb" n="21"/>ergo proprium est Patris, quod soli 
+Pa<lb break="no" ed="#Bb" n="22"/>tri convenit : ergo proprium est Patris,
+<lb ed="#Bb" n="23"/>quia non est natus ipse: et hoc negat
+<lb ed="#Bb" n="24"/>hic.
+</p>
+            <p xml:id="alalal-cc3876-d1e146">
+               <lb ed="#Bb" n="25"/>2. Item, Ex hoc quod hic dicit, 
+vide<lb break="no" ed="#Bb" n="26"/>tur accipi, quod proprietates sunt tres, et
+<lb ed="#Bb" n="27"/>non plures. Et si dicas, quod intelligitur
+<lb ed="#Bb" n="28"/>de proprietatibus personalibus tantum,
+<lb ed="#Bb" n="29"/>quas Magister hic et in sequenti 
+distin<lb break="no" ed="#Bb" n="30"/>ctione tantum determinat, videtur saltem
+<lb ed="#Bb" n="31"/>quod relationes sint infinite, sic : 
+Qui<lb break="no" ed="#Bb" n="32"/>quid sine omni mutatione persone et
+<lb ed="#Bb" n="33"/>per accidens innascitur et ex habitudine
+<lb ed="#Bb" n="34"/>alterius ad ipsum, hoc multiplicatur 
+se<lb break="no" ed="#Bb" n="35"/>cundum illas habitudines relatio sic
+<lb ed="#Bb" n="36"/>innascitur : ergo multiplicatur secundum
+<lb ed="#Bb" n="37"/>habitudines aliorum ad ipsum. Prima
+<lb ed="#Bb" n="38"/>supponitur a Boetio in libro de Trinitate,
+<lb ed="#Bb" n="39"/>et ab Avicenna in prima philosophia.
+<lb ed="#Bb" n="40"/>Inde procedo ulterius : Habitudines 
+alio<lb break="no" ed="#Bb" n="41"/>rum ad quodlibet entium sunt infinite,
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="42"/>et vadunt et veniunt continue : ergo 
+in<lb break="no" ed="#Bb" n="43"/>finite sunt relationes in quolibet ente:
+<lb ed="#Bb" n="44"/>ergo multo magis in Deo qui se 
+imme<lb break="no" ed="#Bb" n="45"/>diatius habet ad quodlibet ens, quam 
+ali<lb break="no" ed="#Bb" n="46"/>quod ens creatum ad aliud.
+</p>
+            <p xml:id="alalal-cc3876-d1e198">
+               <lb ed="#Bb" n="47"/>3. Item, Videntur etiam ab aeterno 
+re<lb break="no" ed="#Bb" n="48"/>lationes infinitee in Deo fuisse : habitudo
+<lb ed="#Bb" n="49"/>enim unius ad alterum facit relationem :
+<lb ed="#Bb" n="50"/>sed secundum quodlibet attributum se
+<lb ed="#Bb" n="51"/>habet unus ad alium ab aeterno : propter
+<lb ed="#Bb" n="52"/>quod dicuntur aequales, similes, idem, et
+<lb ed="#Bb" n="53"/>hujusmodi : ergo cum hujusmodi 
+attri<lb break="no" ed="#Bb" n="54"/>buta infinita sint, videntur hujusmodi
+<lb ed="#Bb" n="55"/>habitudines esse infinite : et sic ab 
+eter<lb break="no" ed="#Bb" n="56"/>no multe fuerunt relationes.
+</p>
+            <p xml:id="alalal-cc3876-d1e222">
+               <lb ed="#Bb" n="57"/>4. Item, Ab aeterno fuerunt in Deo
+<lb ed="#Bb" n="58"/>omnium rerum rationes, quae non 
+equa<lb break="no" ed="#Bb" n="59"/>liter possunt dici rationes nisi per 
+respe<lb break="no" ed="#Bb" n="60"/>ctum ad res creandas. Ergo ille rationes
+<lb ed="#Bb" n="61"/>ab aeterno fuerunt in ipso et infinite :
+<lb ed="#Bb" n="62"/>non ergo sunt tantum tres.
+</p>
+            <p xml:id="alalal-cc3876-d1e238">
+               <lb ed="#Bb" n="63"/>5. Si dicas, quod ille non constituunt
+<lb ed="#Bb" n="64"/>personas, sed ista. Conrra : Majoris 
+di<lb break="no" ed="#Bb" n="65"/>versitatis respectus est ad res diversas in
+<lb ed="#Bb" n="66"/>hypostasi et natura, quam respectus ad
+<lb ed="#Bb" n="67"/>res distinctas in hypostasi tantum et non
+<lb ed="#Bb" n="68"/>natura : sed non distinguit personas 
+re<lb break="no" ed="#Bb" n="69"/>specltus primus : ergo nec secundus.
+</p>
+            <p xml:id="alalal-cc3876-d1e256">
+               <lb ed="#Bb" n="70"/>Prerernesa, Videtur quod hujusmodi
+<lb ed="#Bb" n="71"/>relationes infinite ab sterno existentes
+<lb ed="#Bb" n="72"/>in Deo, fuerint assistentes, et non Deus:
+<lb ed="#Bb" n="73"/>et sunt objectiones Gilberti Porretani, et
+<lb ed="#Bb" n="74"/>Simonis Tornacensis.
+</p>
+            <p xml:id="alalal-cc3876-d1e269">
+               <lb ed="#Bb" n="75"/>1. Aut enim eo Pater Deus est quo
+<lb ed="#Bb" n="76"/>Pater est, aut alio. Si eodem : sed 
+essen<lb break="no" ed="#Bb" n="77"/>tia Deus est, qua etiam Filius est Deus :
+<lb ed="#Bb" n="78"/>ergo Filius est Pater. Velsic: 
+Paternita<lb break="no" ed="#Bb" n="79"/>te Pater est : ergo paternitate Deus est :
+<lb ed="#Bb" n="80"/>et cum Filius sit Deus, Filius paternitate
+<lb ed="#Bb" n="81"/>Deus est, quod est inconveniens. Si alio:
+<lb ed="#Bb" n="82"/>ergo aliquid est in Deo quod non est
+<lb ed="#Bb" n="83"/>Deus, sed aliud : et tunc habeo 
+proposi<lb break="no" ed="#Bb" n="84"/>tum, quod relatio Deo assistit, et nihil
+<lb ed="#Bb" n="85"/>est in ipso.
+</p>
+            <p xml:id="alalal-cc3876-d1e296">
+               <lb ed="#Bb" n="86"/>2. Item, In Posterioribus, supponitur
+<lb ed="#Bb" n="87"/>ista ut immediata : Substantia non est
+<pb ed="#Bb" n="20"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>quantitas : ergo a simili, et hac, 
+Sub<lb break="no" ed="#Bb" n="2"/>stantia non est relatio, quia 
+generalissi<lb break="no" ed="#Bb" n="3"/>mum in utraque gratia sui et non alterius
+<lb ed="#Bb" n="4"/>removetur a generalissimo primo : ergo
+<lb ed="#Bb" n="5"/>relationes etiam in divinis nihil 
+preedi<lb break="no" ed="#Bb" n="6"/>cant in divinis.
+</p>
+            <p xml:id="alalal-cc3876-d1e320">
+               <lb ed="#Bb" n="7"/>3. Item, Hoc expresse dicit Boetius,
+<lb ed="#Bb" n="8"/>quod relatio nihil pradicat in eo cujus
+<lb ed="#Bb" n="9"/>est relatio, sed assistit ei : et dicit qualiter
+<lb ed="#Bb" n="10"/>se habeat ad aliud : ergo videtur, quod
+<lb ed="#Bb" n="11"/>relationes assistant, et non sint Deus.
+</p>
+            <p xml:id="alalal-cc3876-d1e333">
+               <lb ed="#Bb" n="12"/>4, Item, Richardus‘de sancto Victore 
+di<lb break="no" ed="#Bb" n="13"/>cit, quod relatio non tam genus est entis,
+<lb ed="#Bb" n="14"/>quam ens in omni genere entium 
+resper<lb break="no" ed="#Bb" n="15"/>sum : ergo videtur, quod ipsum sit magis
+<lb ed="#Bb" n="16"/>ratio, quam natura aliqua : quia nihil in
+<lb ed="#Bb" n="17"/>re est respersum in omni genere entis.
+</p>
+            <p xml:id="alalal-cc3876-d1e349">
+               <lb ed="#Bb" n="18"/>SED CONTRA :
+<lb ed="#Bb" n="19"/>1. Augustinus supra dixit, quod si
+<lb ed="#Bb" n="20"/>Deus non ea magnitudine est magnus
+<lb ed="#Bb" n="21"/>que ipse est, sed participatione, quod
+<lb ed="#Bb" n="22"/>major est sua magnitudo quam ipse :
+<lb ed="#Bb" n="23"/>ergo a simili, si non ea paternitate Pater
+<lb ed="#Bb" n="24"/>est quae ipse est, paternitas sua major
+<lb ed="#Bb" n="25"/>est quam ipse.
+</p>
+            <p xml:id="alalal-cc3876-d1e369">
+               <lb ed="#Bb" n="26"/>2. Item objicitur fortius : Aut 
+Porreta<lb break="no" ed="#Bb" n="27"/>nus ponit relationem suam aliquid esse
+<lb ed="#Bb" n="28"/>ens in divinis, aut nihil. Si aliquid : tunc
+<lb ed="#Bb" n="29"/>oportet, quod sit substantia, vel 
+acci<lb break="no" ed="#Bb" n="30"/>dens : si accidens, erit in aliquo 
+subje<lb break="no" ed="#Bb" n="31"/>cto, et illud erit compositum variatum
+<lb ed="#Bb" n="32"/>per accidens : quae ommia absurde de
+<lb ed="#Bb" n="33"/>Deo intelliguntur. Si est substantia, tune
+<lb ed="#Bb" n="34"/>habeo propositum, quod non assistit,
+<lb ed="#Bb" n="35"/>sed est substantia ipsum relativum. Si
+<lb ed="#Bb" n="36"/>autem nihil est : ergo cum persone non
+<lb ed="#Bb" n="37"/>distinguantur nisi solo eo quod ad 
+alte<lb break="no" ed="#Bb" n="38"/>rum est, ut dicit Augustinus et fides
+<lb ed="#Bb" n="39"/>Catholica, persone nullo distinguuntur :
+<lb ed="#Bb" n="40"/>quod autem nullo distinguitur, omnino
+<lb ed="#Bb" n="41"/>nihil est : ergo persona omnino nihil
+<lb ed="#Bb" n="42"/>sunt, nisi nomina sola, quod est heresis
+<lb ed="#Bb" n="43"/>Sabellii.
+</p>
+            <p xml:id="alalal-cc3876-d1e411">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="44"/>3. Item, Quidquid distinguitur per as—
+<lb ed="#Bb" n="45"/>sistens extrinsecus tantum, illud non
+<lb ed="#Bb" n="46"/>distinguitur ab alio- seipso : person
+<lb ed="#Bb" n="47"/>divine distinguuntur relatione assistente
+<lb ed="#Bb" n="48"/>extrinsecus tantum suis hypostasibus, et
+<lb ed="#Bb" n="49"/>seipsis : et hoc iterum vicinum est heresi
+<lb ed="#Bb" n="50"/>Sabellii.
+</p>
+            <p xml:id="alalal-cc3876-d1e432">
+               <lb ed="#Bb" n="51"/>4. Item, illud assistens ab aeterno Deo,
+<lb ed="#Bb" n="52"/>aut est ens creatum, aut increatum. Si
+<lb ed="#Bb" n="53"/>creatum : ergo creatum est ab aeterno,
+<lb ed="#Bb" n="54"/>quod est repugnantia intellectus, quia
+<lb ed="#Bb" n="55"/>creatum oppositam rationem habet
+<lb ed="#Bb" n="56"/>eterno. Si increatum : ergo est Deus,
+<lb ed="#Bb" n="57"/>vel duo dii, vel etiam creati, vel infiniti
+<lb ed="#Bb" n="58"/>erant, quod falsum est.
+</p>
+            <p xml:id="alalal-cc3876-d1e452">
+               <lb ed="#Bb" n="59"/>Si autem dicas, sicut dicunt quidam
+<lb ed="#Bb" n="60"/>modernorum, quod relatio est medium
+<lb ed="#Bb" n="61"/>entis, et non entis : eo quod ipsa est
+<lb ed="#Bb" n="62"/>ratio rei, et non res : nec est etiam ratio
+<lb ed="#Bb" n="63"/>rei absolute, sed est ratio comparationis
+<lb ed="#Bb" n="64"/>rei ad aliam rem. Contra : Ista ratio
+<lb ed="#Bb" n="65"/>aut aliquid ponit in re extra mentem
+<lb ed="#Bb" n="66"/>ratiocinantis, aut nihil. Si aliquid ponit:
+<lb ed="#Bb" n="67"/>tunc habeo propositum, quia tunc erit
+<lb ed="#Bb" n="68"/>genus entis, et non ratio sola. Si nihil :
+<lb ed="#Bb" n="69"/>ergo ratio ejus est cassa et vana : et quod
+<lb ed="#Bb" n="70"/>magis difficile est, ex hoc sequitur, quod
+<lb ed="#Bb" n="71"/>persone divine quae non nisi eo quod ad
+<lb ed="#Bb" n="72"/>alterum est distinguuntur, non differunt
+<lb ed="#Bb" n="73"/>nisi ratione sola, et non realiter 
+distin<lb break="no" ed="#Bb" n="74"/>guuntur : quod quia dixit Sabellius, 
+con<lb break="no" ed="#Bb" n="75"/>demnatus est pro heretico.
+</p>
+            <p xml:id="alalal-cc3876-d1e491">
+               <lb ed="#Bb" n="76"/>5. Praterea, In prefatione cantat 
+Ec<lb break="no" ed="#Bb" n="77"/>clesia : <quote xml:id="alalal-cc3876-Qd1e497"> Et in personis proprietas, et in
+<lb ed="#Bb" n="78"/>essentia unitas, et in majestate 
+adore<lb break="no" ed="#Bb" n="79"/>tur aequalitas . </quote> Si ergo proprietas in
+<lb ed="#Bb" n="80"/>personis adoranda est ut Deus, non erit
+<lb ed="#Bb" n="81"/>assistens ut extrinsecus adherens tantum.
+</p>
+            <p xml:id="alalal-cc3876-d1e509">
+               <lb ed="#Bb" n="82"/>Soxutio. Dicendum, quod opinio <name xml:id="alalal-cc3876-Nd1e513">
+Por<lb break="no" ed="#Bb" n="83"/>retanorum</name> et falsa et heretica est, et ab
+<lb ed="#Bb" n="84"/>
+               <ref xml:id="alalal-cc3876-Rd1e520">
+                  <name xml:id="alalal-cc3876-Nd1e522">Alexandro Papa</name> in concilio Remensi</ref> 
+con<lb break="no" ed="#Bb" n="85"/>demnata . Unde dicimus nec infinitas
+<pb ed="#Bb" n="21"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>relationes ab aeterno esse, nec etiam
+<lb ed="#Bb" n="2"/>relationes assistere, nec relationes nihil
+<lb ed="#Bb" n="3"/>esse : sed confitemur relationes quatuor
+<lb ed="#Bb" n="4"/>ab wterno, et has Deum esse : et 
+relatio<lb break="no" ed="#Bb" n="5"/>nes etiam in inferioribus aliquid esse, et
+<lb ed="#Bb" n="6"/>inesse, et adesse : in superioribus autem
+<lb ed="#Bb" n="7"/>nec adesse, nec inesse, proprie 
+loquen<lb break="no" ed="#Bb" n="8"/>do, sed esse ipsa relativa, ut supra 
+deter<lb break="no" ed="#Bb" n="9"/>minatum est.
+</p>
+            <p xml:id="alalal-cc3876-d1e552">
+               <lb ed="#Bb" n="10"/>Ad PRIMUM ergo dicendum, quod sunt
+<lb ed="#Bb" n="11"/>quedam relationes secundum rem 
+exi<lb break="no" ed="#Bb" n="12"/>stentes in utroque relativorum in 
+inferio<lb break="no" ed="#Bb" n="13"/>ribus, ut illa quae innascuntur mulatione
+<lb ed="#Bb" n="14"/>utriusque, sicut omnes relationes 
+origi<lb break="no" ed="#Bb" n="15"/>nis, et he relationes verissimum dicunt
+<lb ed="#Bb" n="16"/>correspectum ad se invicem, et semper
+<lb ed="#Bb" n="17"/>exigunt diversas hypostases in quibus
+<lb ed="#Bb" n="18"/>sint, sicut pater et filius : numquam
+<lb ed="#Bb" n="19"/>enim est pater in inferioribus nisi sui
+<lb ed="#Bb" n="20"/>mutatione, nec umquam filius alterius
+<lb ed="#Bb" n="21"/>mutatione sed propria. Sed quedam aliae
+<lb ed="#Bb" n="22"/>sunt dictae quidem semper ad 
+converten<lb break="no" ed="#Bb" n="23"/>tiam et ad se invicem, sed non 
+innascun<lb break="no" ed="#Bb" n="24"/>tur ex utriusque mutatione necessario,
+<lb ed="#Bb" n="25"/>sed alterius tantum : et ille sunt que
+<lb ed="#Bb" n="26"/>non sunt simplices, sed fundantur super
+<lb ed="#Bb" n="27"/>aliud ens quantitatis, vel qualitatis, vel
+<lb ed="#Bb" n="28"/>aliud hujusmodi, sicut similis, aequalis,
+<lb ed="#Bb" n="29"/>dexter, sinister, et hujusmodi. Et 
+que<lb break="no" ed="#Bb" n="30"/>dam sunt relativa, quae nec utriusque
+<lb ed="#Bb" n="31"/>relatione ad convertentiam dicuntur, nec
+<lb ed="#Bb" n="32"/>utriusque miutatione innascuntur, ut
+<lb ed="#Bb" n="33"/>scientia et scibile, et unum et multum,
+<lb ed="#Bb" n="34"/>ut dicit Dionysius et Philosophus, ut
+<lb ed="#Bb" n="35"/>Creator et creatura. Non enim sequitur,
+<lb ed="#Bb" n="36"/>si scientia ad alterum est, quod et scibile
+<lb ed="#Bb" n="37"/>secundum id quod est ad alterum sit: nec
+<lb ed="#Bb" n="38"/>etiam sequitur, si mutatus est sciens,
+<lb ed="#Bb" n="39"/>quod mutatum sit scibile. Unde quia
+<lb ed="#Bb" n="40"/>primo modo dicta relatio verissimum
+<lb ed="#Bb" n="41"/>habet esse relationis et simplicissimum
+<lb ed="#Bb" n="42"/>solum, illa ablata mutatione a relativis,
+<lb ed="#Bb" n="43"/>transsumitur in divina, ut prius diximus.
+<lb ed="#Bb" n="44"/>Et si objicias mihi, quod in inferioribus
+<lb ed="#Bb" n="45"/>omnis relatio fundatur in alio ente, cum
+<lb ed="#Bb" n="46"/>sit accidens, et accidentis esse est inesse.
+<lb ed="#Bb" n="47"/>RzesponpEo, quod non sic intelligo funda-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="48"/>ri in alio ente, sed potius fundari in alio
+<lb ed="#Bb" n="49"/>sicut in causa non in subjecto : sicut dicit
+<lb ed="#Bb" n="50"/>Philosophus, quod unum in substantia
+<lb ed="#Bb" n="51"/>facitidem, et unum in quantitate aequale,
+<lb ed="#Bb" n="52"/>et unum in qualitate simile : cum tamen
+<lb ed="#Bb" n="53"/>utrumque, scilicet et aequalitas et 
+quan<lb break="no" ed="#Bb" n="54"/>titas in uno fundentur subjecto quod est
+<lb ed="#Bb" n="55"/>substantia : ita autem non substernitur
+<lb ed="#Bb" n="56"/>aliquid in quo sit paternitas, vel filiatio,
+<lb ed="#Bb" n="57"/>vel aliqua relatio originis : quia origo
+<lb ed="#Bb" n="58"/>est secundum substantiam hypostasis : et
+<lb ed="#Bb" n="59"/>ideo relatio talis immediatum habet 
+or<lb break="no" ed="#Bb" n="60"/>dinem ad hypostasim originantem vel
+<lb ed="#Bb" n="61"/>originatam.
+</p>
+            <p xml:id="alalal-cc3876-d1e669">
+               <lb ed="#Bb" n="62"/>Dicenpum ergo ad primum, quod 
+Ma<lb break="no" ed="#Bb" n="63"/>gister Hugo non querit nisi personales
+<lb ed="#Bb" n="64"/>proprietates tantum, quae sunt relationes,
+<lb ed="#Bb" n="65"/>licet non sole.
+</p>
+            <p xml:id="alalal-cc3876-d1e681">
+               <lb ed="#Bb" n="66"/>Ad aliud dicendum, quod relationes
+<lb ed="#Bb" n="67"/>que realiter existunt in relativo, 
+secun<lb break="no" ed="#Bb" n="68"/>dum originem non sunt infinite, ut jam
+<lb ed="#Bb" n="69"/>patuit : sed relationes quae non surgunt
+<lb ed="#Bb" n="70"/>ex origine, sed ex mutatione alterius,
+<lb ed="#Bb" n="71"/>meo judicio non sunt relationes reales in
+<lb ed="#Bb" n="72"/>utroque, sed in uno tantum, et in altero
+<lb ed="#Bb" n="73"/>ratio correspectus et non res relationis :
+<lb ed="#Bb" n="74"/>ethec ratio nen est vana, quia fundatur
+<lb ed="#Bb" n="75"/>in habitudine respectus realis in allero
+<lb ed="#Bb" n="76"/>relativorum.
+</p>
+            <p xml:id="alalal-cc3876-d1e707">
+               <lb ed="#Bb" n="77"/>Ad aliud dicendum, quod habitudo
+<lb ed="#Bb" n="78"/>unius ad alium secundum attributa, non
+<lb ed="#Bb" n="79"/>est habitudo proprie, sed unitas 
+distin<lb break="no" ed="#Bb" n="80"/>ctorum : et illa non importat aliam 
+rea<lb break="no" ed="#Bb" n="81"/>lem relationem, nisi distinctorum sub
+<lb ed="#Bb" n="82"/>illo uno : et ideo cum non sit relatio 
+di<lb break="no" ed="#Bb" n="83"/>stinguens nisi quadruplex, non erunt
+<lb ed="#Bb" n="84"/>plures relationes quam quatuor ab 
+eter<lb break="no" ed="#Bb" n="85"/>no. Similiter et aequalis, et similis, 
+ratio<lb break="no" ed="#Bb" n="86"/>ne ejus in quo est similitudo et 
+equali<lb break="no" ed="#Bb" n="87"/>tas, non dicunt relationem, sed rationem
+<lb ed="#Bb" n="88"/>equalium et similium, et tunc important
+<lb ed="#Bb" n="89"/>easdem quatuor relationes distinguendo,
+<lb ed="#Bb" n="90"/>sicut supra dictum est ’.
+</p>
+            <p xml:id="alalal-cc3876-d1e740">
+               <lb ed="#Bb" n="91"/>Ad aliud dicendum, quod respectus
+<lb ed="#Bb" n="92"/>rationum aeternarum est ratio, et non res
+<lb ed="#Bb" n="93"/>diversaa Deo. Et si queras, In quo fuerit
+<lb ed="#Bb" n="94"/>illa ratio ? Dico, quod ratio tribus modis
+<pb ed="#Bb" n="22"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>dicitur, scilicet in aptitudine rei de qua
+<lb ed="#Bb" n="2"/>est: et sic est in potentia, et in ratione
+<lb ed="#Bb" n="3"/>ratiocinantis creati, et in ratione 
+Creato<lb break="no" ed="#Bb" n="4"/>ris. Primo autem et ultimo modo ratio
+<lb ed="#Bb" n="5"/>potuit esse ab aeterno : quia nihil aliud
+<lb ed="#Bb" n="6"/>ponit quam Deum : medio vero modo
+<lb ed="#Bb" n="7"/>non. Unde ex hoc nihil potest probari.
+</p>
+            <p xml:id="alalal-cc3876-d1e771">
+               <lb ed="#Bb" n="8"/>Ad aliud dicendum, quod quoad quid,
+<lb ed="#Bb" n="9"/>est major distinctio in relatione respi-~
+<lb ed="#Bb" n="10"/>ciente diversum esse in natura et 
+hypo<lb break="no" ed="#Bb" n="11"/>stasi, quam ad distinctum in hypostasi
+<lb ed="#Bb" n="12"/>tantum : et quoad quid, non est verum.
+<lb ed="#Bb" n="13"/>Si enim major est distinctio quae 
+funda<lb break="no" ed="#Bb" n="14"/>tur super majorem, id est, magis 
+distin<lb break="no" ed="#Bb" n="15"/>cta : sic verum est : sed non facit relatio,
+<lb ed="#Bb" n="16"/>sed potius fit ex illa. Si autem dicatur
+<lb ed="#Bb" n="17"/>major distinctio a magis distinguente
+<lb ed="#Bb" n="18"/>relatione, non est verum : quia nulla ita
+<lb ed="#Bb" n="19"/>distinguit, sicut illa quae est secundum
+<lb ed="#Bb" n="20"/>originem : quia de illa dicit Anselmus,
+<lb ed="#Bb" n="21"/>quod nec intellectus capit, nec ratio 
+per<lb break="no" ed="#Bb" n="22"/>mittit, quod in eodem supposito oppositi
+<lb ed="#Bb" n="23"/>respectus esse possint.
+</p>
+            <p xml:id="alalal-cc3876-d1e808">
+               <lb ed="#Bb" n="24"/>Au atiup dicendum, quod ea re Pater
+<lb ed="#Bb" n="25"/>est, qua Deus est, sed non ea ratione et
+<lb ed="#Bb" n="26"/>modo intelligendi: qui modus 
+intelligen<lb break="no" ed="#Bb" n="27"/>di in divinis non nihil est, sed potius
+<lb ed="#Bb" n="28"/>realiter significabilis, cum supposita 
+dei<lb break="no" ed="#Bb" n="29"/>tate non supponatur paternitas : ut cum
+<lb ed="#Bb" n="30"/>realiter loquentes dicimus, paternitas
+<lb ed="#Bb" n="31"/>distinguit, et deitas non distinguit : et
+<lb ed="#Bb" n="32"/>tunc non procedil objectio, ut patet per
+<lb ed="#Bb" n="33"/>se cuilibet.
+</p>
+            <p xml:id="alalal-cc3876-d1e832">
+               <lb ed="#Bb" n="34"/>Ad aliud dicendum, quod sicut supra
+<lb ed="#Bb" n="35"/>habitum est ‘, Deus sine quantitate 
+ma<lb break="no" ed="#Bb" n="36"/>gnus est, non tamen sine relatione rela—
+<lb ed="#Bb" n="37"/>tus : secundum aliquid enim potest 
+trans<lb break="no" ed="#Bb" n="38"/>ferri relatio, secundum quod_transferri
+<lb ed="#Bb" n="39"/>non potest in divinam praedicationem
+<lb ed="#Bb" n="40"/>quantitas: et hujus ratio ibi dicta est, et
+<lb ed="#Bb" n="41"/>ibi queratur.
+</p>
+            <p xml:id="alalal-cc3876-d1e853">
+               <lb ed="#Bb" n="42"/>Ad aliud dicendum, quod Boetius 
+in<lb break="no" ed="#Bb" n="43"/>tendit, quod nihil praedicat absolutum
+<lb ed="#Bb" n="44"/>secundum, quod relatio: quia sic est 
+ha<lb break="no" ed="#Bb" n="45"/>bitudo quedam ad alterum. Tamen 
+se<lb break="no" ed="#Bb" n="46"/>cundum id quod est, aliquid pradicat
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="47"/>in relativo in inferioribus, et est ipsum
+<lb ed="#Bb" n="48"/>relativum in superioribus.
+</p>
+            <p xml:id="alalal-cc3876-d1e873">
+               <lb ed="#Bb" n="49"/>Ad aliud dicendum, quod Richardus
+<lb ed="#Bb" n="50"/>non loquitur secundum quod est natura
+<lb ed="#Bb" n="51"/>queedam divisa contra alia entia, sed 
+se<lb break="no" ed="#Bb" n="52"/>cundum suppositum suum et causam :
+<lb ed="#Bb" n="53"/>causatur enim aliquo modo ab omnibus
+<lb ed="#Bb" n="54"/>generibus entium : sed tamen est natura
+<lb ed="#Bb" n="55"/>quedam divisa contra omne ens,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

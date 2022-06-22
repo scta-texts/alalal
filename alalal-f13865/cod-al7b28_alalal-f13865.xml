@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="586"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f13865"><!-- l3d31a8 -->
+            <head xml:id="alalal-f13865-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-f13865-Hd1e101" type="question-title">An spes potest evacuari ?</head>
+            <p xml:id="alalal-f13865-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="40"/>ARTICULUS VIII.
+<lb ed="Bd" n="41"/>An spes potest evacuari ?
+</p>
+            <p xml:id="alalal-f13865-d1e113">
+               <lb ed="Bd" n="42"/>Secundo, Queritur de evacuatione
+<lb ed="Bd" n="43"/>spel.
+</p>
+            <p xml:id="alalal-f13865-d1e120">
+               <lb ed="Bd" n="44"/>Videtur enim, quod non succedat spej
+<lb ed="Bd" n="45"/>aliquid, et ita in toto videtur destrui, %
+<lb ed="Bd" n="46"/>non evacuari.
+</p>
+            <p xml:id="alalal-f13865-d1e130">
+               <lb ed="Bd" n="47"/>1. Dicit enim Glossa, quod 
+succeditbea<lb break="no" ed="Bd" n="48"/>titudo spei : et hoc non potest esse cum
+<lb ed="Bd" n="49"/>illa succedat omnibus virtutibus.
+</p>
+            <p xml:id="alalal-f13865-d1e139">
+               <lb ed="Bd" n="50"/>2. Item, Dicit Augustinus, quod <quote xml:id="alalal-f13865-Qd1e143"> fidei
+<lb ed="Bd" n="51"/>succedit visio quae est tota merces : </quote>
+               <lb ed="Bd" n="52"/>ergo nihil relinquitur quod  succedat
+<lb ed="Bd" n="53"/>spel.
+</p>
+            <p xml:id="alalal-f13865-d1e153">
+               <lb ed="Bd" n="54"/>3. Item, Omnis mutatio fit secundum
+<lb ed="Bd" n="55"/>aliquod commune subjectum : sedin spe
+<lb ed="Bd" n="56"/>nihil est nisi exspectatio futuri, et 
+pro<lb break="no" ed="Bd" n="57"/>tensio in illud: sed nihil horum remanet,
+<lb ed="Bd" n="58"/>eo quod nec exspectatio manet, nec 
+pro<lb break="no" ed="Bd" n="59"/>tensio in aliquid non habitum ; ergo 
+vi<lb break="no" ed="Bd" n="60"/>detur in toto destrui : quia etiam fides
+<lb ed="Bd" n="61"/>in toto destrueretur, si nihil commune
+<lb ed="Bd" n="62"/>subjectum speculo et faciei sive 
+presen<lb break="no" ed="Bd" n="63"/>tia maneret, sicut diximus, quod visio
+<lb ed="Bd" n="64"/>manet.
+</p>
+            <p xml:id="alalal-f13865-d1e179">
+               <lb ed="Bd" n="65"/>ITem quaeritur, Quare evacuantur iste
+<lb ed="Bd" n="66"/>virtutes, cum hoc non dicatur de 
+cardi<lb break="no" ed="Bd" n="67"/>nalibus, quod evacuentur? Magis enim
+<lb ed="Bd" n="68"/>debet evacuari quod est ad id quod est
+<lb ed="Bd" n="69"/>ad finem, quam adid quod est in finem
+<lb ed="Bd" n="70"/>immediate : cardinales autem habent actus
+<lb ed="Bd" n="71"/>suos in eo quod est ad finem, et 
+theolo<lb break="no" ed="Bd" n="72"/>gicee in finem immediate : ergo magis
+<lb ed="Bd" n="73"/>deberent evacuari cardinales, quam 
+theo<lb break="no" ed="Bd" n="74"/>logice.
+</p>
+            <p xml:id="alalal-f13865-d1e203">
+               <lb ed="Bd" n="75"/>Solutio Dicendum, quod spes et 
+ha<lb break="no" ed="Bd" n="76"/>bitus spei et actus evacuantur, sed non
+<lb ed="Bd" n="77"/>in toto destruitur. Et ad hoc notandum,
+<lb ed="Bd" n="78"/>quod in iransitu gratia ad gloriam 
+qua<lb break="no" ed="Bd" n="79"/>tuor oportet observare. Quedam enim
+<pb ed="#Bd" n="587"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>manent in actu et habitu substantialiter
+<lb ed="Bd" n="2"/>et formaliter, sed mutantur quoad modum
+<lb ed="Bd" n="3"/>yem habent non ex se, sed ex eo quod
+<lb ed="Bd" n="4"/>sunt in tali statu subjecti sui : et sic 
+mu<lb break="no" ed="Bd" n="5"/>tatur et transit charitas in transita in
+<lb ed="Bd" n="6"/>sloriam, ut patebit infra. Quedam 
+au<lb break="no" ed="Bd" n="7"/>an manent in habitu substantialiter et
+<lb ed="Bd" n="8"/>formaliter, sed non in actu, ut 
+cardina<lb break="no" ed="Bd" n="9"/>Jes virtutes, ut infra ostendetur post 
+tra<lb break="no" ed="Bd" n="10"/>ctatum totum de charitate! Quedam 
+au<lb break="no" ed="Bd" n="11"/>tem manent secundum substantiam et
+<lb ed="Bd" n="12"/>non quoad formam et actum, ut fides.
+<lb ed="Bd" n="13"/>Quedam vero nec quoad substantiam,
+<lb ed="Bd" n="14"/>nec quoad formam, nec quoad actum,
+<lb ed="Bd" n="15"/>sed in communi proportionis tantum 
+ma<lb break="no" ed="Bd" n="16"/>nent, ut spes. Quinto modo se habet id
+<lb ed="Bd" n="17"/>quod non est virtus, ut scientia vie, quae
+<lb ed="Bd" n="18"/>in toto, meo judicio, destruetur. Et de
+<lb ed="Bd" n="19"/>hoc postea disputabitur.
+</p>
+            <p xml:id="alalal-f13865-d1e262">
+               <lb ed="Bd" n="20"/>Sed hoc quod de spe dictum est, 
+qua<lb break="no" ed="Bd" n="21"/>liter intelligi possit, notandum quod 
+ha<lb break="no" ed="Bd" n="22"/>bitus spei habet exspectationem glorie et
+<lb ed="Bd" n="23"/>protensionem : et exspectatio ostendit
+<lb ed="Bd" n="24"/>quasi id quod est, et protensio ostendit
+<lb ed="Bd" n="25"/>id quod est formale spei, quo 
+distingui<lb break="no" ed="Bd" n="26"/>tur ab aliis quibus convenit exspectare :
+<lb ed="Bd" n="27"/>et utrumque illorum tollitur. Sed quia
+<lb ed="Bd" n="28"/>omnis sperans secundum quod sperat,
+<lb ed="Bd" n="29"/>rei sperate proportionatur, ideo illa 
+pro<lb break="no" ed="Bd" n="30"/>portio manet, quando consequitur rem
+<lb ed="Bd" n="31"/>speratam : et sic intelligo dictum 
+quo<lb break="no" ed="Bd" n="32"/>rumdam Doctorum, qui dicunt, quod in
+<lb ed="Bd" n="33"/>transitu spei in gloriam non manet nisi
+<lb ed="Bd" n="34"/>commune secundum proportionem.
+</p>
+            <p xml:id="alalal-f13865-d1e298">
+               <lb ed="Bd" n="35"/>Ad primum dicendum, sicut supra de
+<lb ed="Bd" n="36"/>spe diximus 2, quod beatitudo accipitur
+<lb ed="Bd" n="37"/>materialiter pro oinnibus bonis 
+manenti<lb break="no" ed="Bd" n="38"/>bus in ipsa, et sic succedit omnibus 
+vir<lb break="no" ed="Bd" n="39"/>tutibus : et accipitur secundum 
+proprie<lb break="no" ed="Bd" n="40"/>tatem conjunctam sibi, quae est magnum,
+<lb ed="Bd" n="41"/>sive altum, et gloriosum, et hoc modo
+<lb ed="Bd" n="42"/>succedit spei.
+</p>
+            <p xml:id="alalal-f13865-d1e318">
+               <lb ed="Bd" n="43"/>Ad aliud dicendum, quod visio est
+<lb ed="Bd" n="44"/>tota merces : non tamen omnis visio, sed
+<lb ed="Bd" n="45"/>illa ques est amati et habiti : et tune 
+vi<lb break="no" ed="Bd" n="46"/>sum in quantum visum, succedit fidei,
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="47"/>et habitum spei, et amatum respondet
+<lb ed="Bd" n="48"/>charitati.
+</p>
+            <p xml:id="alalal-f13865-d1e336">
+               <lb ed="Bd" n="49"/>Ad aliud dicendum, quod manet ibi
+<lb ed="Bd" n="50"/>commune proportione, ut dictum est.
+</p>
+            <p xml:id="alalal-f13865-d1e343">
+               <lb ed="Bd" n="51"/>Ad aliud dicendum, quod iste 
+eva<lb break="no" ed="Bd" n="52"/>cuantur : quia id quod est materiale cis
+<lb ed="Bd" n="53"/>informibus et formatis, est imperfectuin,
+<lb ed="Bd" n="54"/>et non competens statui beatitudinis. Sic
+<lb ed="Bd" n="55"/>autem non est de cardinalibus : quia licet
+<lb ed="Bd" n="56"/>actus earum sit ordinatus ad viam, tamen
+<lb ed="Bd" n="57"/>habitus earum potest esse communis vie
+<lb ed="Bd" n="58"/>et patria, ut infra patcbit.
+</p>
+            <p xml:id="alalal-f13865-d1e363">
+               <lb ed="Bd" n="59"/>Sed apHuc objicitur quia videtur
+<lb ed="Bd" n="60"/>etiam in fruitione esse spes.
+</p>
+            <p xml:id="alalal-f13865-d1e370">
+               <lb ed="Bd" n="61"/>1. Dicitur enim, Eccli. xxiv, 29 : Qui
+<lb ed="Bd" n="62"/>edunt me adhuc esurient, et qui bibunt
+<lb ed="Bd" n="63"/>me adhuc sitient. Esuriens autem et 
+si<lb break="no" ed="Bd" n="64"/>tiens aliquid exspectat in futurum. Ergo
+<lb ed="Bd" n="65"/>est spes respectu illius, cum hoc sit de
+<lb ed="Bd" n="66"/>substantiali premio quo fruuntur.
+</p>
+            <p xml:id="alalal-f13865-d1e387">
+               <lb ed="Bd" n="67"/>2. Item Anselmus in Prosologio:
+<lb ed="Bd" n="68"/>
+               <quote xml:id="alalal-f13865-Qd1e393"> Si Deum diligent toto corde, tota 
+men<lb break="no" ed="Bd" n="69"/>te, fota anima, ut tamen totum cor, tota
+<lb ed="Bd" n="70"/>mens, tota anima non sufficiat dignitati
+<lb ed="Bd" n="71"/>dilectionis : profecto sic gaudebunt toto
+<lb ed="Bd" n="72"/>corde, tota mente, tota anima, ut totum
+<lb ed="Bd" n="73"/>cor, tota mens, tota anima non sufficiat
+<lb ed="Bd" n="74"/>plenitudini gaudii. </quote> Ergo videtur, quod
+<lb ed="Bd" n="75"/>ibi sit vicissitudo gaudil, et gaudium
+<lb ed="Bd" n="76"/>illud sit in fieri continue : ergo aliquid
+<lb ed="Bd" n="77"/>ejus exspectatur in futurum. Hoc autem
+<lb ed="Bd" n="78"/>est contra <ref xml:id="alalal-f13865-Rd1e418">Augustinum in libro XII 
+Con<lb break="no" ed="Bd" n="79"/>fesstonum</ref>, ubi vult, quod contemplatio
+<lb ed="Bd" n="80"/>illa faciat beatos participes aeternitatis,
+<lb ed="Bd" n="81"/>et elevel super omnem mutabilitatem.
+</p>
+            <p xml:id="alalal-f13865-d1e428">
+               <lb ed="Bd" n="82"/>3. Item, Philosophus in Ethicis dicit,
+<lb ed="Bd" n="83"/>quod mutatio non est delectabilis nisi
+<lb ed="Bd" n="84"/>propter malitiam : et si alicujus natura
+<lb ed="Bd" n="85"/>omnino simplex fuerit, eadem operatio
+<lb ed="Bd" n="86"/>illi semper delectabilissima erit.
+</p>
+            <p xml:id="alalal-f13865-d1e441">
+               <lb ed="Bd" n="87"/>Et ad hoc dicendum, quod puto sine
+<lb ed="Bd" n="88"/>prejudicio aliorum, quod non est ibi spes
+<lb ed="Bd" n="89"/>aliqua, nec mutatio, sed potius 
+perfe<lb break="no" ed="Bd" n="90"/>ctum. Nec dico, quod ibi sit futurum
+<pb ed="#Bd" n="588"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>proprie: licet enim continue bonitates
+<lb ed="Bd" n="2"/>Dei participent secundum rationes plures,
+<lb ed="Bd" n="3"/>tamen ille sunt in uno increato, quod
+<lb ed="Bd" n="4"/>semper habent: et ideo non est ibi 
+trans<lb break="no" ed="Bd" n="5"/>itus aliquis, sed delectatio in illo.
+</p>
+            <p xml:id="alalal-f13865-d1e467">
+               <lb ed="Bd" n="6"/>Ad primum ergo dicendum, quod 
+esu<lb break="no" ed="Bd" n="7"/>ries ila tollit fastidium, et non habet 
+futu<lb break="no" ed="Bd" n="8"/>rum propric loquendo, quia si participant
+<lb ed="Bd" n="9"/>aliquid unde dicantur novi, ut videtur
+<lb ed="Bd" n="10"/>dicere Dionysius, non tamen hoc est 
+se<lb break="no" ed="Bd" n="11"/>cundum modum successionis, sed 
+reces<lb break="no" ed="Bd" n="12"/>sus potius a successione in unum 
+sim<lb break="no" ed="Bd" n="13"/>plex quod est per suam essentiam 
+beatifi<lb break="no" ed="Bd" n="14"/>cans.
+</p>
+            <p xml:id="alalal-f13865-d1e489">
+               <lb ed="Bd" n="15"/>Ad aliud dicendum, quod Anselmus
+<lb ed="Bd" n="16"/>non intendil ponere motum vel 
+mutatio<lb break="no" ed="Bd" n="17"/>nem, sed immensitatem boni 
+beatifican<lb break="no" ed="Bd" n="18"/>tis. Dicunt tamen quidam, quod illud
+<lb ed="Bd" n="19"/>mensuratur evo, et quod illud habet
+<lb ed="Bd" n="20"/>prius et posterius. Sed hoc ego non 
+in<lb break="no" ed="Bd" n="21"/>telligo, qualiter aliquid prius habeat et
+<lb ed="Bd" n="22"/>posterius per hoc quod efficitur 
+immuta<lb break="no" ed="Bd" n="23"/>bile : nec possum intelligere, qualiter
+<lb ed="Bd" n="24"/>aliquid habeat prius et posterius quod
+<lb ed="Bd" n="25"/>non sit tempus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

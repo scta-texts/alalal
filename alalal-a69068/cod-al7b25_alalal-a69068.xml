@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="345"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a69068"><!-- l1d11a6 -->
+            <head xml:id="alalal-a69068-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-a69068-Hd1e101" type="question-title">quaeritur de controversia Grecorum et
+Latinorum de processione Spiritus 
+sancli, utrum a Patre procedat tantum ut
+dicunt Greci, vel a Patre et Filio 
+sicut dicunt Latini ?</head>
+            <p xml:id="alalal-a69068-d1e104">
+               <lb ed="#Ba" n="15"/>ARTICULUS VI.
+<lb ed="#Ba" n="16"/>quaeritur de controversia Grecorum et
+<lb ed="#Ba" n="17"/>Latinorum de processione Spiritus 
+san<lb break="no" ed="#Ba" n="18"/>cli, utrum a Patre procedat tantum ut
+<lb ed="#Ba" n="19"/>dicunt Greci, vel a Patre et Filio 
+sic<lb break="no" ed="#Ba" n="20"/>ut dicunt Latini ?
+</p>
+            <p xml:id="alalal-a69068-d1e120">
+               <lb ed="#Ba" n="21"/>Deinde quaeritur de hoc quod dicitur:
+<lb ed="#Ba" n="22"/>
+               <quote xml:id="alalal-a69068-Qd1e126"> Greet tamen, etc. </quote>
+            </p>
+            <p xml:id="alalal-a69068-d1e129">
+               <lb ed="#Ba" n="23"/>Et quaeritur hic de controversia 
+Gre<lb break="no" ed="#Ba" n="24"/>corum et Latinorum de processione 
+Spi<lb break="no" ed="#Ba" n="25"/>ritus sancti. Et ponemus primo rationes
+<lb ed="#Ba" n="26"/>et auctoritates pro Grecis, postea pro
+<lb ed="#Ba" n="27"/>Latinis solvemus rationes et auctoritates
+<lb ed="#Ba" n="28"/>Grecorum.
+</p>
+            <p xml:id="alalal-a69068-d1e146">
+               <lb ed="#Ba" n="29"/>1. Dicit autem Dionysius, quod Pater
+<lb ed="#Ba" n="30"/>est fontana deitas: ergo videlur, quod
+<lb ed="#Ba" n="31"/>Filius et Spiritus sanctus sunt rivi: 
+nul<lb break="no" ed="#Ba" n="32"/>lus autem rivus simul oritur a fonte et
+<lb ed="#Ba" n="33"/>rivo : ergo nec Spiritus sanctus procedit
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="34"/>a Filio, nec e converso a Spiritu sancto
+<lb ed="#Ba" n="35"/>Filius.
+</p>
+            <p xml:id="alalal-a69068-d1e166">
+               <lb ed="#Ba" n="36"/>2. Item, Dionysius in libro de Divinis
+<lb ed="#Ba" n="37"/>nominibus : Pater quidem est fontana
+<lb ed="#Ba" n="38"/>deitas. Filius autem et Spiritus sanctus
+<lb ed="#Ba" n="39"/>deigene deitatis, st ita oportet dicere,
+<lb ed="#Ba" n="40"/>pullulationes divine nature, et sicut 
+flo<lb break="no" ed="#Ba" n="41"/>res, et sicut supersubstantialia lumina a
+<lb ed="#Ba" n="42"/>sanctis eloquiis accepimus. Sed neque
+<lb ed="#Ba" n="43"/>pullulationes ejusdem radicis, neque 
+flo<lb break="no" ed="#Ba" n="44"/>res unius virge, neque lumina unius 
+lu<lb break="no" ed="#Ba" n="45"/>cis vel luminosi ad se invicem secundum
+<lb ed="#Ba" n="46"/>principia originis reducuntur. Ergo 
+vide<lb break="no" ed="#Ba" n="47"/>tur, quod nec Filius sit a Spiritu sancto,
+<lb ed="#Ba" n="48"/>nec e converso Spiritus sanctus a Filio.
+</p>
+            <p xml:id="alalal-a69068-d1e197">
+               <lb ed="#Ba" n="49"/>3. Item, Dionysius, in libro de Mystica
+<lb ed="#Ba" n="50"/>theologia : In theologicis hypotyposibus
+<lb ed="#Ba" n="51"/>principalissima affirmativis theologiis 
+lau<lb break="no" ed="#Ba" n="52"/>davimus, qualiter divina et bona natura
+<lb ed="#Ba" n="53"/>unica dicitur, qualiler trina queedam 
+se<lb break="no" ed="#Ba" n="54"/>cundum ipsam dicta paternitas et filiatio,
+<lb ed="#Ba" n="55"/>quodcumque est hoc vel quod vult 
+mon<lb break="no" ed="#Ba" n="56"/>strare spiritus theologia, qualiter ex 
+1m<lb break="no" ed="#Ba" n="57"/>materiali et impartibili bono in corde
+<lb ed="#Ba" n="58"/>manentia bonitatis pullulaverunt lumina,
+<pb ed="#Ba" n="346"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>et ab ea quae in ipso et in seipsis et in 
+in<lb break="no" ed="#Ba" n="2"/>vicem coeterna pullulatione mansione
+<lb ed="#Ba" n="3"/>permanserunt inegressibilia. Et 
+secun<lb break="no" ed="#Ba" n="4"/>dum commentum vocat cor Patrem 
+se<lb break="no" ed="#Ba" n="5"/>cundum illud Psalmi xiv, 2: Hraetavit
+<lb ed="#Ba" n="6"/>cor meum verbum bonum. Ergo pullula~
+<lb ed="#Ba" n="7"/>tiones Filii et Spiritus sancti sunt ex
+<lb ed="#Ba" n="8"/>corde quod est Pater: ergo videtur, quod
+<lb ed="#Ba" n="9"/>licet sint in ipso sicut in principio 
+origi<lb break="no" ed="#Ba" n="10"/>nis, et in se in existentia personali, et
+<lb ed="#Ba" n="11"/>invicem secundum identitatem nature,
+<lb ed="#Ba" n="12"/>quod tamen secundum originem nature
+<lb ed="#Ba" n="13"/>Spiritus non reducitur ad Filium, nec e
+<lb ed="#Ba" n="14"/>converso. Hypotyposes autem idem est
+<lb ed="#Ba" n="15"/>quod divine persone. Catera 
+auctorita<lb break="no" ed="#Ba" n="16"/>tis verba plana sunt.
+</p>
+            <p xml:id="alalal-a69068-d1e260">
+               <lb ed="#Ba" n="17"/>4. Item, Damascenus: Spiritum Dei
+<lb ed="#Ba" n="18"/>edocti sequentem cum Verbo, et 
+manife<lb break="no" ed="#Ba" n="19"/>stantem ejus operationem, non 
+exspira<lb break="no" ed="#Ba" n="20"/>tionem subsistentia destitutam 
+intelligi<lb break="no" ed="#Ba" n="21"/>mus '. Ex hoc accipitur, quod Spiritus
+<lb ed="#Ba" n="22"/>sequitur Verbum, et manifestat opus ejus :
+<lb ed="#Ba" n="23"/>ergo non procedit a verbo.
+</p>
+            <p xml:id="alalal-a69068-d1e278">
+               <lb ed="#Ba" n="24"/>5. Praeterea, Damascenus: Credimus
+<lb ed="#Ba" n="25"/>in unuin Spiritum sanctum Deum, et 
+vi<lb break="no" ed="#Ba" n="26"/>vificantem ex Patre procedentem, et in
+<lb ed="#Ba" n="27"/>Filio requiescentem °.
+</p>
+            <p xml:id="alalal-a69068-d1e289">
+               <lb ed="#Ba" n="28"/>6. Item, Idem, cap. 11: Spiritum 
+san<lb break="no" ed="#Ba" n="29"/>ctum et ex Patre dicimus, et Spiritum
+<lb ed="#Ba" n="30"/>Patris nominamus: ex Filio autem 
+Spi<lb break="no" ed="#Ba" n="31"/>ritum non dicimus, Spiritum vero Filii
+<lb ed="#Ba" n="32"/>nominamus. Joan. 1, 33: Super quem 
+vi<lb break="no" ed="#Ba" n="33"/>deris Spiritum descendentem, et 
+manen<lb break="no" ed="#Ba" n="34"/>tem super eum, hic est qui baptizat.
+<lb ed="#Ba" n="35"/>Cum descensus temporalis processionem
+<lb ed="#Ba" n="36"/>eternam manifestet, ut infra probabitur,
+<lb ed="#Ba" n="37"/>videtur quod a Patre procedit, et in 
+Fi<lb break="no" ed="#Ba" n="38"/>lio requiescit et manet, ut dicunt Graci.
+</p>
+            <p xml:id="alalal-a69068-d1e316">
+               <lb ed="#Ba" n="39"/>7. Item, In legenda sancti Andree 
+di<lb break="no" ed="#Ba" n="40"/>citur: Pax vobis et universis qui credunt
+<lb ed="#Ba" n="41"/>in unum Patrem, et in unum Filium ejus
+<lb ed="#Ba" n="42"/>Dominum Jesum Christum, et in unum
+<lb ed="#Ba" n="43"/>Spiritum sanctum procedentem ex Patre
+<lb ed="#Ba" n="44"/>et in Filio permanentem.
+</p>
+            <p xml:id="alalal-a69068-d1e332">
+               <lb ed="#Ba" n="45"/>8. Item, Gregorius Nazianzenus qui
+<lb ed="#Ba" n="46"/>vocatur Theologus : Sicut radii solaris 
+lu<lb break="no" ed="#Ba" n="47"/>minis ab eo procedentes, nec semper a
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>lumine nec semper ab invicem 
+abscindun<lb break="no" ed="#Ba" n="49"/>tur, et usque ad nos gratiam luminis
+<lb ed="#Ba" n="50"/>emicant vel emittunt : eodem modo 
+Fi<lb break="no" ed="#Ba" n="51"/>lius et Spiritus sanctus geminus Patris
+<lb ed="#Ba" n="52"/>radius, usque ad nos miserunt lumen
+<lb ed="#Ba" n="53"/>charitatis, et Patri sunt conjuncti. Et
+<lb ed="#Ba" n="54"/>quemadmodum a quodam fonte aquarum
+<lb ed="#Ba" n="55"/>duo rivuli manant positione divisi, 
+hu<lb break="no" ed="#Ba" n="56"/>jusmodi vero qualitatem unam et 
+eam<lb break="no" ed="#Ba" n="57"/>dem possident : eodem modo Pater fons
+<lb ed="#Ba" n="58"/>vite per fluvium quemdam Filii et 
+Spiri<lb break="no" ed="#Ba" n="59"/>tus sancti in nos mittit gratiam : et isti
+<lb ed="#Ba" n="60"/>usque ad nos processerunt, et 
+inseparabi<lb break="no" ed="#Ba" n="61"/>les a Patre nihilominus exstiterunt. Ex
+<lb ed="#Ba" n="62"/>hoc idem accipitur.
+</p>
+            <p xml:id="alalal-a69068-d1e376">
+               <lb ed="#Ba" n="63"/>9, Rationes etiam sunt Grecorum 
+su<lb break="no" ed="#Ba" n="64"/>per illud Dionysii in libro de Devinis 
+no<lb break="no" ed="#Ba" n="65"/>minibus, cap. 1, quod universaliter non
+<lb ed="#Ba" n="66"/>audendum nobis dicere aliquid de 
+sub<lb break="no" ed="#Ba" n="67"/>stantiali deitate praeter ea quae nobis ex
+<lb ed="#Ba" n="68"/>sanctis eloquiis sunt expressa: et cum
+<lb ed="#Ba" n="69"/>in Evangelio nusquam legatur Spiritus a
+<lb ed="#Ba" n="70"/>Filio procedere, non erit dicendum : aut
+<lb ed="#Ba" n="71"/>quas rationes ponit Magister in Lidtera
+<lb ed="#Ba" n="72"/>de conciliis et anathemate.
+</p>
+            <p xml:id="alalal-a69068-d1e400">
+               <lb ed="#Ba" n="73"/>10. Item, Hoc nos videmus in 
+simili<lb break="no" ed="#Ba" n="74"/>bus: splendor enim et radius oriuntur ex
+<lb ed="#Ba" n="75"/>sole, ita quod neutrum per aliud,
+</p>
+            <p xml:id="alalal-a69068-d1e409">
+               <lb ed="#Ba" n="76"/>11. Item, In mente et notitia et amore
+<lb ed="#Ba" n="77"/>spe est conversio mentis ad amorem
+<lb ed="#Ba" n="78"/>praeter quam quod nolitia praecedat.
+</p>
+            <p xml:id="alalal-a69068-d1e418">
+               <lb ed="#Ba" n="79"/>12. Item, Amor quandoque praecedit
+<lb ed="#Ba" n="80"/>notitiam, ut dicit Augustinus, sicut ardor
+<lb ed="#Ba" n="81"/>querendi antequam sit notum : ergo ille
+<lb ed="#Ba" n="82"/>ardor ex sola mente procedit.
+</p>
+            <p xml:id="alalal-a69068-d1e430">
+               <lb ed="#Ba" n="83"/>13. Item, In spiritu exteriori quando
+<lb ed="#Ba" n="84"/>verbum pronuntiatur, videmus quod ante
+<lb ed="#Ba" n="85"/>sonum verbi attrahitur spiritus in quo
+<lb ed="#Ba" n="86"/>formatur verbum, et ille procedit a 
+di<lb break="no" ed="#Ba" n="87"/>cente in verbi opus quod est manifestatio :
+<lb ed="#Ba" n="88"/>ergo videtur, quod Spiritus sit Verbi 
+si<lb break="no" ed="#Ba" n="89"/>cutin quo manisfestatur, Patris autem
+<lb ed="#Ba" n="90"/>sicut a quo procedit.
+</p>
+            <p xml:id="alalal-a69068-d1e450">
+               <lb ed="#Ba" n="91"/>Sed contra: He plurime rationes
+<lb ed="#Ba" n="92"/>sunt et auctoritates, tam in Evangelio
+<lb ed="#Ba" n="93"/>quam in originalibus Sanctorum, quarum
+<lb ed="#Ba" n="94"/>sufficientiam in Littera Magister adducit.
+<pb ed="#Ba" n="347"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Rationes autem sunt iste :
+</p>
+            <p xml:id="alalal-a69068-d1e468">
+               <lb ed="#Ba" n="2"/>1. Spiritus a nobis et eis ponitur a 
+Fi<lb break="no" ed="#Ba" n="3"/>lio distingui: ergo distinguens proprium
+<lb ed="#Ba" n="4"/>est inter Filium et Spiritum sanctum:
+<lb ed="#Ba" n="5"/>distinguens autem in divinis non est nisi
+<lb ed="#Ba" n="6"/>oppositio relationis: ergo inter Filium
+<lb ed="#Ba" n="7"/>et Spiritum sanctum est oppositio 
+rela<lb break="no" ed="#Ba" n="8"/>tionis : sed nulla inter se relativa 
+oppo<lb break="no" ed="#Ba" n="9"/>nuntur ex hoc quod referuntur relative
+<lb ed="#Ba" n="10"/>ad aliquod tertium, quin potius 
+conve<lb break="no" ed="#Ba" n="11"/>niunt: ergo Filius et Spiritus sanctus
+<lb ed="#Ba" n="12"/>non opponuntur ex hoc relative inter se,
+<lb ed="#Ba" n="13"/>sed conveniunt et uniuntur, quod ambo
+<lb ed="#Ba" n="14"/>sunt a Patre: ergo oportet, quod alter
+<lb ed="#Ba" n="15"/>sit ab alio: nullus autem dicit Filium
+<lb ed="#Ba" n="16"/>esse a Spiritu sancto : ergo oportet dicere
+<lb ed="#Ba" n="17"/>Spiritum sanctum esse a Filio.
+</p>
+            <p xml:id="alalal-a69068-d1e505">
+               <lb ed="#Ba" n="18"/>2. Item, Inter Patrem et Filiuam 
+omni<lb break="no" ed="#Ba" n="19"/>moda manet identitas praeter id quod ad
+<lb ed="#Ba" n="20"/>alterum est: ergo a simili ex eadem causa
+<lb ed="#Ba" n="21"/>inter Filium et Spiritum sanctum 
+omni<lb break="no" ed="#Ba" n="22"/>moda manet identitas praeter id quod ad
+<lb ed="#Ba" n="23"/>alterum est: aut ergo id quod est ad 
+alte<lb break="no" ed="#Ba" n="24"/>rum distinguitur in eo quod ad alterum
+<lb ed="#Ba" n="25"/>est, aut non: si non, hoc falsum est:
+<lb ed="#Ba" n="26"/>quia sic distinguerentur absolute : ergo
+<lb ed="#Ba" n="27"/>distinguitur in quantum ad alterum est:
+<lb ed="#Ba" n="28"/>sed si nec Filius sit a Spiritu, nec e 
+con<lb break="no" ed="#Ba" n="29"/>verso, in nullo unus refertur ad alium :
+<lb ed="#Ba" n="30"/>ergo in nullo unus distinguitur ab alio,
+<lb ed="#Ba" n="31"/>quod absurdum est: ergo oportet unum
+<lb ed="#Ba" n="32"/>esse ab alio.
+</p>
+            <p xml:id="alalal-a69068-d1e540">
+               <lb ed="#Ba" n="33"/>3. Item, Si aliquid de absolutis esset in
+<lb ed="#Ba" n="34"/>uno quod non esset in alio, non quidquid
+<lb ed="#Ba" n="35"/>haberet unus, haberet alius: sed Filius
+<lb ed="#Ba" n="36"/>et Spiritus sanctus, si unus non sit ab
+<lb ed="#Ba" n="37"/>alio, non distinguuntur nisi absolutis :
+<lb ed="#Ba" n="38"/>quia relationem ad invicem non habent :
+<lb ed="#Ba" n="39"/>ergo non guidquid habet unus, habet
+<lb ed="#Ba" n="40"/>alius, quod falsum est. Forte si dicatur,
+<lb ed="#Ba" n="41"/>quod in hoc inter se distinguuntur, quia
+<lb ed="#Ba" n="42"/>ab eodem diversimode procedunt. 
+Con<lb break="no" ed="#Ba" n="43"/>tra: Ille modus aut dicit ens absolutum,
+<lb ed="#Ba" n="44"/>aut respectivum. Si absolutum : tunc 
+ne<lb break="no" ed="#Ba" n="45"/>cessario sequitur, quod divisi sintin 
+es<lb break="no" ed="#Ba" n="46"/>sentia et substantia : quia omne ens 
+ab<lb break="no" ed="#Ba" n="47"/>solutum supponit substantiam in divinis.
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>Si autem dicit relativum. Contra: 
+Rela<lb break="no" ed="#Ba" n="49"/>tivum sive ad aliquid est, cujus hoc ipsum
+<lb ed="#Ba" n="50"/>esse quod est, ad alterum est. Quero
+<lb ed="#Ba" n="51"/>igitur, quod sit illud alterum ad quod est
+<lb ed="#Ba" n="52"/>esse relativi: si quodlibet alterum : ergo
+<lb ed="#Ba" n="53"/>Pater non esset tantum Filii Pater, sed
+<lb ed="#Ba" n="54"/>etiam cujuslibet alterius, quod absurdum
+<lb ed="#Ba" n="55"/>est : si autem illud alteram ad quod est
+<lb ed="#Ba" n="56"/>esse relativi, est oppositum relative:
+<lb ed="#Ba" n="57"/>ergo ex hoc quod Filius est ad Patrem,
+<lb ed="#Ba" n="58"/>non habet esse quod distinguat eum a
+<lb ed="#Ba" n="59"/>Spiritu sancto: quia relativum nec est
+<lb ed="#Ba" n="60"/>ens nec esse habet, nisi ad id ad quod est
+<lb ed="#Ba" n="61"/>per oppositionem : ergo redit primum
+<lb ed="#Ba" n="62"/>quod ex hoc non distinguuntur ab 
+invi<lb break="no" ed="#Ba" n="63"/>cem Filius et Spiritus sanctus, quod ambo
+<lb ed="#Ba" n="64"/>diverso modo réferuntur ad Patrem.
+</p>
+            <p xml:id="alalal-a69068-d1e614">
+               <lb ed="#Ba" n="65"/>4, Item, In omnibus inter Patrem et
+<lb ed="#Ba" n="66"/>Filium manet identitas praeter id quod
+<lb ed="#Ba" n="67"/>ad alterum est: ergo in quibuscumque ©
+<lb ed="#Ba" n="68"/>Pater non opponitur Filio, est idem illi :
+<lb ed="#Ba" n="69"/>sed in spirando non habet oppositionem
+<lb ed="#Ba" n="70"/>ad ipsum: ergo in spirando est unum
+<lb ed="#Ba" n="71"/>illi.
+</p>
+            <p xml:id="alalal-a69068-d1e633">
+               <lb ed="#Ba" n="72"/>5. Item, Constat, quod omnis nature
+<lb ed="#Ba" n="73"/>communicatio ponit ordinem ad unum
+<lb ed="#Ba" n="74"/>ex quo est communicatio illa, sicut in
+<lb ed="#Ba" n="75"/>hominibus, et aliis omnibus: ergo si in
+<lb ed="#Ba" n="76"/>divina natura est communicatio nature
+<lb ed="#Ba" n="77"/>ipsis personis, ponitur ordo nature ad
+<lb ed="#Ba" n="78"/>unum: non autem est ordo si duo sunt
+<lb ed="#Ba" n="79"/>ab uno immediate, quia tunc neutrum
+<lb ed="#Ba" n="80"/>ordine nature ordinatur ad alterum: ergo
+<lb ed="#Ba" n="81"/>oportet, quod duorum unus sit ab alio.
+</p>
+            <p xml:id="alalal-a69068-d1e657">
+               <lb ed="#Ba" n="82"/>Si forte aliquis tantum insaniat, quod
+<lb ed="#Ba" n="83"/>dicat quod non in omnibus persone sunt
+<lb ed="#Ba" n="84"/>unum praeter oppositionem relationis,
+<lb ed="#Ba" n="85"/>convincitur ex natura simplicilatis 
+di<lb break="no" ed="#Ba" n="86"/>vine : quia ex hoc sequitur, quod nec
+<lb ed="#Ba" n="87"/>una natura nec unum simplex sint 
+per<lb break="no" ed="#Ba" n="88"/>sone, sed aliquid de absolutis facit 
+nu<lb break="no" ed="#Ba" n="89"/>merum cum alio : vel aliquid de 
+abso<lb break="no" ed="#Ba" n="90"/>lutis est in uno quod non est in alio. 
+Con<lb break="no" ed="#Ba" n="91"/>vincitur etiam per auctoritatem Dionysii
+<lb ed="#Ba" n="92"/>in libro de Divinis nominibus, ubi dicit
+<lb ed="#Ba" n="93"/>omnia alia unita esse: et per auctoritates
+<lb ed="#Ba" n="94"/>quamplures Boetiiin libro de Trinitate
+<pb ed="#Ba" n="348"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>qui probat huc, quod si relatio aliquid
+<lb ed="#Ba" n="2"/>absolutum diceret, in Deo non posset
+<lb ed="#Ba" n="3"/>esse, nisi faceret compositionem vel 
+con<lb break="no" ed="#Ba" n="4"/>veniret omnibus personis.
+</p>
+            <p xml:id="alalal-a69068-d1e701">
+               <lb ed="#Ba" n="5"/>Solutio. Dicimus in veritate, quod
+<lb ed="#Ba" n="6"/>error est dicere Spiritum sanctum, non
+<lb ed="#Ba" n="7"/>procederea Filio, et defendere heresis
+<lb ed="#Ba" n="8"/>est : cum et Sancti hoc dicunt qui patres
+<lb ed="#Ba" n="9"/>conciliorum fuerunt, sicut probatur in
+<lb ed="#Ba" n="10"/>Littera, et ratio id cogit, et canon 
+Evan<lb break="no" ed="#Ba" n="11"/>gelii hoc innuit, ut infra patebit. Rationes
+<lb ed="#Ba" n="12"/>autem Grecorum et auctoritates non 
+dif<lb break="no" ed="#Ba" n="13"/>ficile est solvere.
+</p>
+            <p xml:id="alalal-a69068-d1e723">
+               <lb ed="#Ba" n="14"/>Ab iw enim quod Dionysius loquitur,
+<lb ed="#Ba" n="15"/>dicendum quod similitudo non sumitur
+<lb ed="#Ba" n="16"/>ex terrenis ad Deum, nisi sicut id quod
+<lb ed="#Ba" n="17"/>est in parte, significat quod est in toto:
+<lb ed="#Ba" n="18"/>quando enim pullulantibus comparat 
+ra<lb break="no" ed="#Ba" n="19"/>mis, aut fluentibus rivis, aut 
+germinan<lb break="no" ed="#Ba" n="20"/>tibus floribus, constat quod in omnibus
+<lb ed="#Ba" n="21"/>his non est una essentia numero, neque
+<lb ed="#Ba" n="22"/>quidquid est in uno de essentia, est etiam
+<lb ed="#Ba" n="23"/>in alio. Unde cum in hoc nullus dicat
+<lb ed="#Ba" n="24"/>stare posse illam similitudinem, patet
+<lb ed="#Ba" n="25"/>quod in pluribus est dissimilis quam 
+si<lb break="no" ed="#Ba" n="26"/>milis.
+</p>
+            <p xml:id="alalal-a69068-d1e754">
+               <lb ed="#Ba" n="27"/>Ap Xaucroritatss alias dicendum, quod
+<lb ed="#Ba" n="28"/>Damascenus verum diceret, si compararet
+<lb ed="#Ba" n="29"/>Spiritam sanctum ad Verbi 
+incarnatio<lb break="no" ed="#Ba" n="30"/>nem : quia dicit Augustinus, quod 
+ver<lb break="no" ed="#Ba" n="31"/>bum cordis est sicut Verbum ab aeterno
+<lb ed="#Ba" n="32"/>genitum, et hoc est verbum mentis:
+<lb ed="#Ba" n="33"/>verbum autem in voce est sicut Verbum
+<lb ed="#Ba" n="34"/>in carne: et sicut spiritus manifestat ver-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="35"/>bum in voce, non autem in corde: ita
+<lb ed="#Ba" n="36"/>Spiritus missus a Patre operabatur 
+car<lb break="no" ed="#Ba" n="37"/>nem Verbi in qua manifestaretur nobis.
+<lb ed="#Ba" n="38"/>Sed si loquitur ad verbum interius, falsa
+<lb ed="#Ba" n="39"/>est comparatio : quia illud verbum a sola
+<lb ed="#Ba" n="40"/>mente concipitur, et ab eo et mente 
+spi<lb break="no" ed="#Ba" n="41"/>ritus amoris non sonationis vel vocis 
+dif<lb break="no" ed="#Ba" n="42"/>funditur vel emittitur.
+</p>
+            <p xml:id="alalal-a69068-d1e793">
+               <lb ed="#Ba" n="43"/>Ap 1p quod objicitur de Gregorio 
+Na<lb break="no" ed="#Ba" n="44"/>zianzeno, et vita beati Andrea, et de
+<lb ed="#Ba" n="45"/>Joanne, dicendum quod ipsi loquuntur
+<lb ed="#Ba" n="46"/>de missione personarum Filii et 
+Spi<lb break="no" ed="#Ba" n="47"/>ritus sancti, quae misse sunt a Patre,
+<lb ed="#Ba" n="48"/>ita quod Pater non legitur missus:
+<lb ed="#Ba" n="49"/>non tamen negant quin Spiritus a Filio
+<lb ed="#Ba" n="50"/>mittatur: quia hoc legitur in Evangelio.
+<lb ed="#Ba" n="51"/>Et secundum humanitatem descendit
+<lb ed="#Ba" n="52"/>Spiritus in eo et mansit in anima ejus et
+<lb ed="#Ba" n="53"/>requievit in ipso, eo quod non invenit
+<lb ed="#Ba" n="54"/>in aliis ubi delectabiliter requiesceret
+<lb ed="#Ba" n="55"/>pes ejus, sicut columba emissa de arca:
+<lb ed="#Ba" n="56"/>unde auctoritates non cogunt.,
+</p>
+            <p xml:id="alalal-a69068-d1e827">
+               <lb ed="#Ba" n="57"/>Ad id quod objicitur per rationem,
+<lb ed="#Ba" n="58"/>dicendum quod nihil valet: quia falsum
+<lb ed="#Ba" n="59"/>supponunt rationes ille: splendor enim
+<lb ed="#Ba" n="60"/>procedit a radiis, licet etiam procedat a
+<lb ed="#Ba" n="61"/>corpore luminoso. Et hoc est pro Latinis
+<lb ed="#Ba" n="62"/>qui spiritum dicunt ab utroque procedere.
+<lb ed="#Ba" n="63"/>Aliud similiter est falsum : quia dicit 
+Au<lb break="no" ed="#Ba" n="64"/>gustinus, quod ignotum quidem amare
+<lb ed="#Ba" n="65"/>possumus, et illud esse credimus: unde
+<lb ed="#Ba" n="66"/>de quo non est notitia nec scientie, nec
+<lb ed="#Ba" n="67"/>credulitatis, de illo nullus est amor: et
+<lb ed="#Ba" n="68"/>ita necesse est quod notitia sit prius a
+<lb ed="#Ba" n="69"/>mente vel actu vel habitu.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

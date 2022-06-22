@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="462"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d81994"><!-- l2d26a9 -->
+            <head xml:id="alalal-d81994-Hd1e99">Articulus 9</head>
+            <p xml:id="alalal-d81994-d1e101">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="18"/>ARTICULUS IX. 
+<lb ed="#Bc" n="19"/>Utrum gratia Justificationis per quam  
+<lb ed="#Bc" n="20"/>deimpio fit pius, sit fides, vel gratia 
+<lb ed="#Bc" n="21"/>operans vel cooperans ? 
+</p>
+            <p xml:id="alalal-d81994-d1e114">
+               <lb ed="#Bc" n="22"/>Deinde quaeritur dehoc quod dicit, ibi, 
+<lb ed="#Bc" n="23"/>D, <quote xml:id="alalal-d81994-Qd1e120"> Et si diligenter intendas, etc. </quote>
+            </p>
+            <p xml:id="alalal-d81994-d1e123">
+               <lb ed="#Bc" n="24"/>Hic enim videtur dicere, quod gratia 
+<lb ed="#Bc" n="25"/>justificationis est fides per quam de 
+im<lb break="no" ed="#Bc" n="26"/>pio fit pius. Infra autem secundum 
+mul<lb break="no" ed="#Bc" n="27"/>torum opinionem probabitur, quod 
+gra<lb break="no" ed="#Bc" n="28"/>tia non est fides, nisi sicut totum 
+poten<lb break="no" ed="#Bc" n="29"/>tiale est sua pars : ergo videtur, quod
+<lb ed="#Bc" n="30"/>male dicat hic.
+</p>
+            <p xml:id="alalal-d81994-d1e141">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="31"/>De hac autem questione qua queritur
+<lb ed="#Bc" n="32"/>de justificatione impu, plurima notata
+<lb ed="#Bc" n="33"/>sunt in alia summa in quarto libro 
+Sen<lb break="no" ed="#Bc" n="34"/>tentiarum, in tractatu de contritione,
+<lb ed="#Bc" n="35"/>et in hac infra, super tertium 
+Sententia<lb break="no" ed="#Bc" n="36"/>rum: et ibi requirantur.
+</p>
+            <p xml:id="alalal-d81994-d1e160">
+               <lb ed="#Bc" n="37"/>Sed Quantum pertinet ad presens, 
+di<lb break="no" ed="#Bc" n="38"/>cendum quod fides non dicitur gratia
+<lb ed="#Bc" n="39"/>operans et cooperans, nisi sicut totum
+<lb ed="#Bc" n="40"/>predicatur de supposito: nec aliud 
+in<lb break="no" ed="#Bc" n="41"/>tendit Magister: et potius manifestatur
+<lb ed="#Bc" n="42"/>gratia in hoc supposito quod est fides,
+<lb ed="#Bc" n="43"/>quam in alia virtute : quia primum 
+ha<lb break="no" ed="#Bc" n="44"/>bet actum fides in justificatione impii, 
+li<lb break="no" ed="#Bc" n="45"/>cet habitus omnes infundantur simul :
+<lb ed="#Bc" n="46"/>sed tamen de hoc respondetur in 
+predi<lb break="no" ed="#Bc" n="47"/>ctis locis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="689"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e17138"><!-- l2d44a2 -->
+            <head xml:id="alalal-e17138-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-e17138-Hd1e101" type="question-title">Utrum potentia peccandi sit a Deo ?</head>
+            <p xml:id="alalal-e17138-d1e104">
+               <lb ed="#Bc" n="8"/>ARTICULUS II.
+<lb ed="#Bc" n="9"/>Utrum potentia peccandi sit a Deo ?
+</p>
+            <p xml:id="alalal-e17138-d1e111">
+               <lb ed="#Bc" n="10"/>Deinde quaeritur de secundo, scilicet
+<lb ed="#Bc" n="11"/>utrum sit a Deo? quia de hoc queritur
+<lb ed="#Bc" n="12"/>in Littera.
+</p>
+            <p xml:id="alalal-e17138-d1e120">
+               <lb ed="#Bc" n="13"/>Videtur quod sic : quia
+<lb ed="#Bc" n="14"/>1.Omnis potestas a Deo est: ergo et ista.
+</p>
+            <p xml:id="alalal-e17138-d1e128">
+               <lb ed="#Bc" n="15"/>2. Item, Eccli. xxx1, 10, laudatur vir
+<lb ed="#Bc" n="16"/>sanctus, gwt poluit transgredi, et non est
+<lb ed="#Bc" n="17"/>transgressus, facere mala, et non fecit :
+<lb ed="#Bc" n="18"/>non autem laudatur nisi per hoc quod
+<lb ed="#Bc" n="19"/>habet a Deo: ergo hanc potentiam habet
+<lb ed="#Bc" n="20"/>a Deo.
+</p>
+            <p xml:id="alalal-e17138-d1e144">
+               <lb ed="#Bc" n="21"/>3. Item, Quidquid est causa cause, est
+<lb ed="#Bc" n="22"/>causa causati: omnis autem actus est a
+<lb ed="#Bc" n="23"/>Deo, ut supra probatum est : ergo omnis
+<lb ed="#Bc" n="24"/>potentia agendi a Deo est.
+</p>
+            <p xml:id="alalal-e17138-d1e155">
+               <lb ed="#Bc" n="25"/>4. Item, Quecumque potentia per 
+ana<lb break="no" ed="#Bc" n="26"/>logiam est in Deo et in creatura, illa est
+<lb ed="#Bc" n="27"/>a Deo secundum quod est in creatura :
+<lb ed="#Bc" n="28"/>ergo secundum quod est in creatura, est
+<lb ed="#Bc" n="29"/>a Deo.
+</p>
+            <p xml:id="alalal-e17138-d1e168">
+               <lb ed="#Bc" n="30"/>SED CONTRA :
+<lb ed="#Bc" n="31"/>Sapiens non facit aliquid quo opus
+<lb ed="#Bc" n="32"/>suum fit deterius : a potentia mali est
+<lb ed="#Bc" n="33"/>omne illud quo opus Dei fit deterius : 
+er<lb break="no" ed="#Bc" n="34"/>go potentia mali non est a Deo. Prima
+<lb ed="#Bc" n="35"/>patet per Augustinum. Secunpa patet per
+<lb ed="#Bc" n="36"/>hoc, quod malum est quo opus Dei fit
+<lb ed="#Bc" n="37"/>deterius : etsi non esset potentia mali,
+<lb ed="#Bc" n="38"/>non fieret malum.
+</p>
+            <p xml:id="alalal-e17138-d1e190">
+               <lb ed="#Bc" n="39"/>Solutio. Dicendum secundum 
+preha<lb break="no" ed="#Bc" n="40"/>bitam distinctionem, quod potentia mali
+<lb ed="#Bc" n="41"/>secundum quod est ante malum, et con-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="42"/>siderata in subjecto, velin se, est ens 
+per<lb break="no" ed="#Bc" n="43"/>fectum et a Deo : sed ordinem ad malum
+<lb ed="#Bc" n="44"/>habet ex hoc quod est de nihilo, et non
+<lb ed="#Bc" n="45"/>a Deo, et sic non est a Deo.
+</p>
+            <p xml:id="alalal-e17138-d1e210">
+               <lb ed="#Bc" n="46"/>Et quoad primam  considerationem
+<lb ed="#Bc" n="47"/>procedunt quatuor rationes prime : quia
+<lb ed="#Bc" n="48"/>etiam non potest ex se elicere actum, nisi
+<lb ed="#Bc" n="49"/>secundum quod est a Deo.
+</p>
+            <p xml:id="alalal-e17138-d1e222">
+               <lb ed="#Bc" n="50"/>Secundum autem considerationem 
+pro<lb break="no" ed="#Bc" n="51"/>cedit ratio in oppositum : et non est 
+dif<lb break="no" ed="#Bc" n="52"/>ficile hanc solutionem rationibus inductis
+<lb ed="#Bc" n="53"/>assignare,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

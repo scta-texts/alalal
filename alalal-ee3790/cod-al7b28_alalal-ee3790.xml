@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="21"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee3790"><!-- l3d2dt1 -->
+            <head xml:id="alalal-ee3790-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-ee3790-d1e101">
+               <lb ed="Bd" n="19"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-ee3790-d1e106">
+               <lb ed="Bd" n="20"/>
+               <quote xml:id="alalal-ee3790-Qd1e110">Et quia in homine tota humana 
+na<lb break="no" ed="Bd" n="21"/>tura, etc. </quote>
+               <lb ed="Bd" n="22"/>Hic incipit pars secunda in qua agitur
+<lb ed="Bd" n="23"/>de assumpto.
+</p>
+            <p xml:id="alalal-ee3790-d1e120">
+               <lb ed="Bd" n="24"/>Et dividitur in tres partes : in quarum
+<lb ed="Bd" n="25"/>prima tangitur quid assumptum est.
+<lb ed="Bd" n="26"/>In secunda determinatur, utrum anima
+<lb ed="Bd" n="27"/>mediante intellectu, et corpus mediante
+<lb ed="Bd" n="28"/>anima assumptum est: et haec 
+inci<lb break="no" ed="Bd" n="29"/>pit, ibi, B, <quote xml:id="alalal-ee3790-Qd1e135"> Assumpit ergo Dei Filius,
+<lb ed="Bd" n="30"/>etc. </quote> In tertia autem determinatur,
+<lb ed="Bd" n="31"/>utrum simul tempore assumpsit, et fecit,
+<lb ed="Bd" n="32"/>et animam et corpus, ibi, C, <quote xml:id="alalal-ee3790-Qd1e144"> Si 
+au<lb break="no" ed="Bd" n="33"/>fem quaeritur, etc. </quote>
+            </p>
+            <p xml:id="alalal-ee3790-d1e150">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="34"/>In prima autem parte tria facit. 
+Pri<lb break="no" ed="Bd" n="35"/>mo probat, quod cum dicitur, <quote xml:id="alalal-ee3790-Qd1e158"> Filius
+<lb ed="Bd" n="36"/>assumpsit humanam naturam, </quote> quod
+<lb ed="Bd" n="37"/>per naturam humanam intelligitur 
+cor<lb break="no" ed="Bd" n="38"/>pus et anima. Secundo, inducit errorem
+<lb ed="Bd" n="39"/>quorumdam dicentium, quod per 
+hu<lb break="no" ed="Bd" n="40"/>manam naturam intelligitur proprietas
+<lb ed="Bd" n="41"/>sequens corpus et animam conjuncta :
+<lb ed="Bd" n="42"/>et destruit per Joannem Damascenum
+<lb ed="Bd" n="43"/>qui dicit, quod in Domino Jesu non est
+<lb ed="Bd" n="44"/>communem speciem accipere. Tertio,
+<lb ed="Bd" n="45"/>inducit Joannem Damascenum dicentem
+<lb ed="Bd" n="46"/>eliam, quale assumpsit : quia tale quale
+<lb ed="Bd" n="47"/>in nostra natura plantavit.
+</p>
+            <p xml:id="alalal-ee3790-d1e189">
+               <lb ed="Bd" n="48"/>Sententia autem in Littera patebit
+<lb ed="Bd" n="49"/>jam per disputationem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

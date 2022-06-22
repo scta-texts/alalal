@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="63"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a12372"><!-- l1d2a10 -->
+            <head xml:id="alalal-a12372-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-a12372-Hd1e101" type="question-title">An in hac scientia sit primo 
+procedendum per auctoritates ?</head>
+            <p xml:id="alalal-a12372-d1e104">
+               <pb ed="#Ba" n="63"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ARTICULUS X.
+<lb ed="#Ba" n="2"/>An in hac scientia sit primo 
+proceden<lb break="no" ed="#Ba" n="3"/>dum per auctoritates ?
+</p>
+            <p xml:id="alalal-a12372-d1e117">
+               <lb ed="#Ba" n="4"/>Deinde quaeritur de hoc quod 
+habe<lb break="no" ed="#Ba" n="5"/>tur in tertio capitulo, ubi dicit Auctor, 
+  <lb ed="#Ba" n="6"/>quod <quote xml:id="alalal-a12372-Qd1e125"> secundum auctoritates sanctarum 
+  <lb ed="#Ba" n="7"/>Scripturarum, etc. </quote>
+            </p>
+            <p xml:id="alalal-a12372-d1e131">
+               <lb ed="#Ba" n="8"/>Videtur enim e converso esse, quia :
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="9"/>qui non credit fidei, non credit etiam
+  <lb ed="#Ba" n="10"/>auctoritati : ergo primo agendum est
+  <lb ed="#Ba" n="11"/>secum rationibus, quam auctoritatibus.</p>
+            <p xml:id="alalal-a12372-d1e145">
+               <lb ed="#Ba" n="12"/>Solutio. Hoc verum est ad infidelem,
+  <lb ed="#Ba" n="13"/>sed Magister intendit hoc dicere ad 
+fide<lb break="no" ed="#Ba" n="14"/>les: et ideo cum fides in hac scientia
+<lb ed="#Ba" n="15"/>precedat intellectum (ut habitum est)
+<lb ed="#Ba" n="16"/>prius est procedendum per auctoritates,
+<lb ed="#Ba" n="17"/>quam per rationes. Unde Augustinus
+<lb ed="#Ba" n="18"/>et Bernardus dicunt, quod credere 
+de<lb break="no" ed="#Ba" n="19"/>bemus auctoritati, quod intelligimus 
+ra<lb break="no" ed="#Ba" n="20"/>tioni, quod opinamur errori.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 42</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 42</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="599"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j25612"><!-- l4d44a42 -->
+            <head xml:id="alalal-j25612-Hd1e99">Articulus 42</head>
+            <head xml:id="alalal-j25612-Hd1e101" type="question-title">An spiritus sint in locis non 
+corporalibus ?</head>
+            <p xml:id="alalal-j25612-d1e104">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="43"/>ARTICULUS XLII.
+<lb ed="#Bf" n="44"/>An spiritus sint in locis non 
+corpo<lb break="no" ed="#Bf" n="45"/>ralibus ?
+</p>
+            <p xml:id="alalal-j25612-d1e115">
+               <lb ed="#Bf" n="46"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bf" n="47"/>G, paulo ante finem : <quote xml:id="alalal-j25612-Qd1e121"> Ita etiam in 
+lo<lb break="no" ed="#Bf" n="48"/>cis videtur esse non  corporalibus,
+<lb ed="#Bf" n="49"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-j25612-d1e129">
+               <lb ed="#Bf" n="50"/>Hoc enim videtur absurdum : quia
+<lb ed="#Bf" n="51"/>sic nec infernus nec celum empyreum
+<lb ed="#Bf" n="52"/>locus corporalis esse videtur, quod 
+hor<lb break="no" ed="#Bf" n="53"/>ret fides nostra.
+</p>
+            <p xml:id="alalal-j25612-d1e141">
+               <lb ed="#Bf" n="54"/>Responsio. Dicendum, quod non 
+intel<lb break="no" ed="#Bf" n="55"/>ligit de loco secundum suam 
+substan<lb break="no" ed="#Bf" n="56"/>tiam, sed potius secundum actum 
+lo<lb break="no" ed="#Bf" n="57"/>candi : quia non corporaliter in loco
+<lb ed="#Bf" n="58"/>contineri potest spirititus, sed potius
+<lb ed="#Bf" n="59"/>diffinitive, sicut dicit Damascanus : et
+<lb ed="#Bf" n="60"/>hoe est quasi spiritualiter contineri.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

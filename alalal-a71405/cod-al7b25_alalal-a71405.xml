@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="358"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a71405"><!-- l1d12a4 -->
+            <head xml:id="alalal-a71405-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-a71405-Hd1e101" type="question-title">An principalius procedit a Patre quam a
+Filio ?</head>
+            <p xml:id="alalal-a71405-d1e104">
+               <lb ed="#Ba" n="27"/>ARTICULUS IV.
+<lb ed="#Ba" n="28"/>An principalius procedit a Patre quam a
+<lb ed="#Ba" n="29"/>Filio ?
+</p>
+            <p xml:id="alalal-a71405-d1e113">
+               <lb ed="#Ba" n="30"/>Deinde quaeritur de hoc quod dicit:
+<lb ed="#Ba" n="31"/>
+               <quote xml:id="alalal-a71405-Qd1e119"> De quo procedit principaliter Spiritus
+<lb ed="#Ba" n="32"/>sanctus, etc. </quote>
+            </p>
+            <p xml:id="alalal-a71405-d1e125">
+               <lb ed="#Ba" n="33"/>Videtur enim falsum : quia
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="34"/>1. Si do tibi equum jus in meis, ex
+<lb ed="#Ba" n="35"/>tunc equam etiam habes auctoritatem :
+<lb ed="#Ba" n="36"/>ergo cum Pater dederit Filio aquum jus
+<lb ed="#Ba" n="37"/>in suis, ut possit spirare ex eadem 
+aucto<lb break="no" ed="#Ba" n="38"/>ritate, videtur Filius spirare sicut Pater,
+<lb ed="#Ba" n="39"/>et ita principaliter, nec auctoritatem nec
+<lb ed="#Ba" n="40"/>prioritatem nec plenitudinem potest 
+no<lb break="no" ed="#Ba" n="41"/>tare: ergo locutio simpliciter falsa 
+vide<lb break="no" ed="#Ba" n="42"/>tur. :
+</p>
+            <p xml:id="alalal-a71405-d1e152">
+               <lb ed="#Ba" n="43"/>2. Praeterea, Si haecconceditur, 
+Spiri<lb break="no" ed="#Ba" n="44"/>tus sanctus est a Patre principaliter, 
+pot<lb break="no" ed="#Ba" n="45"/>estne similiter per oppositum concediista,
+<lb ed="#Ba" n="46"/>Spiritus sanctus est a Filio secundario ?
+<lb ed="#Ba" n="47"/>Videtur, quod sic: quia dicitur 
+principa<lb break="no" ed="#Ba" n="48"/>liter respectu secundarii.
+</p>
+            <p xml:id="alalal-a71405-d1e168">
+               <lb ed="#Ba" n="49"/>Soturio. Dicendum, quod Spiritus
+<lb ed="#Ba" n="50"/>sanctus dicitur a Patre principaliter 
+pro<lb break="no" ed="#Ba" n="51"/>cedere propter auctoritatem quae est in
+<lb ed="#Ba" n="52"/>Patre.
+</p>
+            <p xml:id="alalal-a71405-d1e179">
+               <lb ed="#Ba" n="53"/>Ad id autem quod contra objicitur,
+<lb ed="#Ba" n="54"/>dicendum quod si tu das mihi equum
+<lb ed="#Ba" n="55"/>jus in tuis, eque possum tuis uti sicut
+<lb ed="#Ba" n="56"/>tu: sed nisi sim ingratus, collationem
+<lb ed="#Ba" n="57"/>ipsam semper in te refero: et sic est inter
+<lb ed="#Ba" n="58"/>Patrem et Filium: quia Filius refert in
+<lb ed="#Ba" n="59"/>Patrem quod in veritate suum est, eo
+<lb ed="#Ba" n="60"/>quod ab illo.
+</p>
+            <p xml:id="alalal-a71405-d1e199">
+               <lb ed="#Ba" n="61"/>Ad aliud dicendum, quod non potest
+<lb ed="#Ba" n="62"/>haecconcedi, Spiritus est a Patre 
+princi<lb break="no" ed="#Ba" n="63"/>paliter, et a Filio secundario, et hujus
+<lb ed="#Ba" n="64"/>causa est: quia principii auctoritas non
+<lb ed="#Ba" n="65"/>importat rationem prioris vel primi in
+<lb ed="#Ba" n="66"/>Patre, ut supra monstratum est: et ideo
+<lb ed="#Ba" n="67"/>non opponitur secundario, sed ei quod
+<lb ed="#Ba" n="68"/>est ab alio habere quod Spiritus sanctus
+<lb ed="#Ba" n="69"/>procedat ab ipso: et haecconceditur et
+<lb ed="#Ba" n="70"/>verum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

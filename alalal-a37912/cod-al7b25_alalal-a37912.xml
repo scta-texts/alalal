@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="190"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a37912"><!-- l1d5dt6 -->
+            <head xml:id="alalal-a37912-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a37912-d1e101">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="17"/>DIVISIO TEXTUS</p>
+            <p xml:id="alalal-a37912-d1e108">
+               <lb ed="#Ba" n="18"/>
+               <quote xml:id="alalal-a37912-Qd1e112"> Dicitur quoque frequenter, etc. </quote>
+               <lb ed="#Ba" n="19"/>Hic incipit pars illa in qua quaeritur,
+<lb ed="#Ba" n="20"/>Utrum essentia in persona sit, vel esse
+<lb ed="#Ba" n="21"/>possit terminus generationis a quo vel in
+<lb ed="#Ba" n="22"/>quem ?
+</p>
+            <p xml:id="alalal-a37912-d1e124">
+               <lb ed="#Ba" n="23"/>Et dividitar in partes tres : in 
+objectio<lb break="no" ed="#Ba" n="24"/>nem, et solutionem, et in capitulum in
+<lb ed="#Ba" n="25"/>quo elicitur id quod ulteriori conclusione
+<lb ed="#Ba" n="26"/>sequitur ex auctoritatibus inductis. 
+Se<lb break="no" ed="#Ba" n="27"/>cundum incipit ibi, K, <quote xml:id="alalal-a37912-Qd1e137"> His verbis 
+pre<lb break="no" ed="#Ba" n="28"/>missis, etc.</quote> Tertium incipit ibi, L,
+<lb ed="#Ba" n="29"/>
+               <quote xml:id="alalal-a37912-Qd1e144"> Ostenditur quoque, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

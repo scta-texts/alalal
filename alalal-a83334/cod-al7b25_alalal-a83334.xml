@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="419"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a83334"><!-- l1d15a7 -->
+            <head xml:id="alalal-a83334-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-a83334-Hd1e101" type="question-title">Utrum quaelibet persona divina potest
+mitti, et quid significent haec verba,
+mittere et mitti?</head>
+            <p xml:id="alalal-a83334-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="41"/>ARTICULUS VII.
+<lb ed="#Ba" n="42"/>Utrum quaelibet persona divina potest
+<lb ed="#Ba" n="43"/>mitti, et quid significent haec verba,
+<lb ed="#Ba" n="44"/>mittere et mitti?
+</p>
+            <p xml:id="alalal-a83334-d1e117">
+               <lb ed="#Ba" n="45"/>Deinde quaeritur de hoc quod dicit, in
+<lb ed="#Ba" n="46"/>fine cap. B, <quote xml:id="alalal-a83334-Qd1e123"> Lllue ergo missus est 
+Fi<lb break="no" ed="#Ba" n="47"/>lius et Spiritus sanctus ubi erat. </quote>
+            </p>
+            <p xml:id="alalal-a83334-d1e129">
+               <lb ed="#Ba" n="48"/>1. Hoc enim videtur impossibile : quia
+<lb ed="#Ba" n="49"/>super Ezechielem, xvi, dicit Glossa 
+<name xml:id="alalal-a83334-Nd1e135">Hie<lb break="no" ed="#Ba" n="50"/>ronymi</name> : <quote xml:id="alalal-a83334-Qd1e140"> Quod intus est, mitti non 
+pot<lb break="no" ed="#Ba" n="51"/>est, eo quod missus separatur a 
+mit<lb break="no" ed="#Ba" n="52"/>tente. </quote> Ergo cum persona quaelibet sit
+<lb ed="#Ba" n="53"/>in natura divina intus in seipsa, videtur
+<lb ed="#Ba" n="54"/>quod mitt: non possit.
+</p>
+            <p xml:id="alalal-a83334-d1e154">
+               <lb ed="#Ba" n="55"/>2. Item, In corporali missione sic est,
+<lb ed="#Ba" n="56"/>quod missum naturaliter separatur a
+<lb ed="#Ba" n="57"/>mittente : ergo videtur, quod hoc etiam
+<lb ed="#Ba" n="58"/>debeat esse in spiritual: ; ergo videtur,
+<lb ed="#Ba" n="59"/>quod null: personarum conveniat mitti.
+</p>
+            <p xml:id="alalal-a83334-d1e167">
+               <lb ed="#Ba" n="60"/>3. Praeterea, Videtur quod mittens
+<lb ed="#Ba" n="61"/>semper veniat cum misso : id enim quod
+<lb ed="#Ba" n="62"/>unum est et idem cum nuntio, semper
+<lb ed="#Ba" n="63"/>venit quocumgue venit missus sive 
+  nun<lb break="no" ed="#Ba" n="64"/>tius : sed Pater est unum et idem cum
+<lb ed="#Ba" n="65"/>Filio et Spiritu  sancto : ergo videtur,
+<lb ed="#Ba" n="66"/>quod Pater venit quocumque mittitur
+<lb ed="#Ba" n="67"/>Filius et Spiritus sanctus : sed 
+quocum<lb break="no" ed="#Ba" n="68"/>que aliquis per seipsum venit, non eget
+<lb ed="#Ba" n="69"/>nuntio : Pater per seipsum venit ad 
+om<lb break="no" ed="#Ba" n="70"/>nes ad quos mittit Filium et Spiritum
+<lb ed="#Ba" n="71"/>sanctum : ergo superfluit missio Fili et
+<lb ed="#Ba" n="72"/>Spiritus sancti.
+</p>
+            <p xml:id="alalal-a83334-d1e198">
+               <lb ed="#Ba" n="73"/>Si forte dicas, quod venit per unitatem
+<lb ed="#Ba" n="74"/>nature, sed non per effectum 
+connota<lb break="no" ed="#Ba" n="75"/>tum in creatura : hoc falsum est, quia
+<lb ed="#Ba" n="76"/>ille effectus est communiter et 
+indivisibi<lb break="no" ed="#Ba" n="77"/>liter trum,
+</p>
+            <p xml:id="alalal-a83334-d1e211">
+               <lb ed="#Ba" n="78"/>Gratia hujus ulterius quaeritur, Quid
+<lb ed="#Ba" n="79"/>significent hujusmodi verba, mittere, et
+<lb ed="#Ba" n="80"/>mitti?
+</p>
+            <p xml:id="alalal-a83334-d1e220">
+               <lb ed="#Ba" n="81"/>1. Et videtur per Augustinum in libro
+<lb ed="#Ba" n="82"/>IV de Trinitate, et hic a Magistro, quod
+<pb ed="#Ba" n="420"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>significent principii commendationem :
+<lb ed="#Ba" n="2"/>ergo sunt notionalia. Hoc idem videtur
+<lb ed="#Ba" n="3"/>per hoc, quod non omnibus conveniunt :
+<lb ed="#Ba" n="4"/>quia mitti non convenit Patri: ergo est
+<lb ed="#Ba" n="5"/>distinctum et notionale.
+</p>
+            <p xml:id="alalal-a83334-d1e242">
+               <lb ed="#Ba" n="6"/>2. Item, Infrahabebitur, quod per hoc
+<lb ed="#Ba" n="7"/>quod Pater mittit, et Filius mittitur et
+<lb ed="#Ba" n="8"/>Spiritus sanctus, non ostenditur Pater
+<lb ed="#Ba" n="9"/>esse major Filio vel Spiritu sancto : hoc
+<lb ed="#Ba" n="10"/>autem esse non potest, si essent verba
+<lb ed="#Ba" n="11"/>essentialia : ergo videntur praedicare 
+no<lb break="no" ed="#Ba" n="12"/>tionem vel actum notionalem.
+</p>
+            <p xml:id="alalal-a83334-d1e261">
+               <lb ed="#Ba" n="13"/>3. Item, Augustinus dicit, ut supra
+<lb ed="#Ba" n="14"/>habitum est, quod <quote xml:id="alalal-a83334-Qd1e267"> mitti est cognosci
+<lb ed="#Ba" n="15"/>quod ab alio sit. </quote> Non autem per 
+es<lb break="no" ed="#Ba" n="16"/>sentiam vel per essentialia cognoscitur 
+per<lb break="no" ed="#Ba" n="17"/>sona esse ab alio. Ergo hac verba 
+notio<lb break="no" ed="#Ba" n="18"/>nalia sunt, et distinclionem important.
+</p>
+            <p xml:id="alalal-a83334-d1e280">
+               <lb ed="#Ba" n="19"/>SED CONTRA :
+<lb ed="#Ba" n="20"/>1. Notionalia ab aeterno conveniunt :
+<lb ed="#Ba" n="21"/>ista autem conveniunt ex tempore : ergo
+<lb ed="#Ba" n="22"/>non sunt notionalia.
+</p>
+            <p xml:id="alalal-a83334-d1e291">
+               <lb ed="#Ba" n="23"/>2. Item, Omne verbum connotans 
+ef<lb break="no" ed="#Ba" n="24"/>fectum in creatura, significat essentiam
+<lb ed="#Ba" n="25"/>divinam : haec enim regula diu data est :
+<lb ed="#Ba" n="26"/>sed ista verba connotant effectum in 
+crea<lb break="no" ed="#Ba" n="27"/>tura : ergo, etc.
+</p>
+            <p xml:id="alalal-a83334-d1e304">
+               <lb ed="#Ba" n="28"/>Solutio. Dicendum ad primum, quod
+<lb ed="#Ba" n="29"/>Hieronymus aut loquitur de missione
+<lb ed="#Ba" n="30"/>corporali, aut intelligit quod intus est
+<lb ed="#Ba" n="31"/>per indistinctionem persone et nature,
+<lb ed="#Ba" n="32"/>quod hoc mitti non potest : sed primum
+<lb ed="#Ba" n="33"/>videtur esse de intellectu Hieronymi,
+<lb ed="#Ba" n="34"/>quia dicit quod sociatum est in corpore,
+<lb ed="#Ba" n="35"/>quod hoc mitti non potest.
+</p>
+            <p xml:id="alalal-a83334-d1e324">
+               <lb ed="#Ba" n="36"/>Ad aliud dicendum, quod in missione
+<lb ed="#Ba" n="37"/>spirituali ubi missio non est loci mutatio,
+<lb ed="#Ba" n="38"/>sed novi effectus in quo persona 
+cogno<lb break="no" ed="#Ba" n="39"/>scatur acceptio, non exigitur loci 
+muta<lb break="no" ed="#Ba" n="40"/>tio : quia loci mutatio est propter im~
+<lb ed="#Ba" n="41"/>perfectionem missi, qui in omni loco id
+<lb ed="#Ba" n="42"/>ad quod mittitur causare non potest, quia
+<lb ed="#Ba" n="43"/>non est ubique.
+</p>
+            <p xml:id="alalal-a83334-d1e344">
+               <lb ed="#Ba" n="44"/>Ad aliud dicendum, quod hoc bene
+<lb ed="#Ba" n="45"/>concedo, sive missio Filii fiat in 
+mun<lb break="no" ed="#Ba" n="46"/>dum, sive missio Filii simul et Spiritus
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="47"/>sancti fiat in mentem, quod semper 
+mit<lb break="no" ed="#Ba" n="48"/>tens est cum misso. De primo dicit 
+Ghri<lb break="no" ed="#Ba" n="49"/>stus: Qui me misit, mecum est, et non
+<lb ed="#Ba" n="50"/>reliquit me solum: quiaego quae placita
+<lb ed="#Ba" n="51"/>sunt ei facio semper '. De secundo , ipse
+<lb ed="#Ba" n="52"/>idem dicit : Ad eum veniemus (scilicet
+<lb ed="#Ba" n="53"/>ego et Pater et Spiritus sanctus) ,e¢ 
+mansto<lb break="no" ed="#Ba" n="54"/>nemapud eum faciemus®. Sed tamen in
+<lb ed="#Ba" n="55"/>argumento cavendum est, quod licet 
+Pa<lb break="no" ed="#Ba" n="56"/>ter sit unum cum Filio, tamen non est
+<lb ed="#Ba" n="57"/>idem cum Filio, nisi neutraliter ly idem
+<lb ed="#Ba" n="58"/>accipiatur.
+</p>
+            <p xml:id="alalal-a83334-d1e382">
+               <lb ed="#Ba" n="59"/>Ap 1p quod contra objicitur, dicendum
+<lb ed="#Ba" n="60"/>quod non superfluit missio, nec 
+destrui<lb break="no" ed="#Ba" n="61"/>tur ratio missi : quia missio est (ut 
+su<lb break="no" ed="#Ba" n="62"/>pra dictum est) ostendens fidem 
+secun<lb break="no" ed="#Ba" n="63"/>dum distinctionem personarum, quam
+<lb ed="#Ba" n="64"/>ostendit in effectu appropriabili uni 
+ma<lb break="no" ed="#Ba" n="65"/>gis quam alii : sed verum est, quod 
+su<lb break="no" ed="#Ba" n="66"/>perflueret, si ad nihil aliud esset nisi ut
+<lb ed="#Ba" n="67"/>Pater (quia alias venire non posset per
+<lb ed="#Ba" n="68"/>Filium missum, ‘et per Spiritum sanctum)
+<lb ed="#Ba" n="69"/>veniret ad nos. Hoc enim absurdum 
+es<lb break="no" ed="#Ba" n="70"/>set et infidele sentire. Pater enim per
+<lb ed="#Ba" n="71"/>seipsum venire potest, sicut et Filius, et
+<lb ed="#Ba" n="72"/>Spiritus sanctus. Sed utilis est nobis 
+mis<lb break="no" ed="#Ba" n="73"/>sio, ut dictum est : quia ostendit nobis
+<lb ed="#Ba" n="74"/>fidem distinctionis personarum.
+</p>
+            <p xml:id="alalal-a83334-d1e419">
+               <lb ed="#Ba" n="75"/>Ad id quod ulterius quaeritur, diversi-~
+<lb ed="#Ba" n="76"/>mode respondetur a Doctoribus. Quidam
+<lb ed="#Ba" n="77"/>enim dicunt, quod haecverba 
+principali<lb break="no" ed="#Ba" n="78"/>ter dicunt distinctionem, et secundario
+<lb ed="#Ba" n="79"/>essentiam gratia effectus connotati. 
+Qui<lb break="no" ed="#Ba" n="80"/>dam autem dicunt e converso : et puto,
+<lb ed="#Ba" n="81"/>quod illi verius dicunt. Est enim 
+quod<lb break="no" ed="#Ba" n="82"/>dam essentialiter essentiale ut essentia,
+<lb ed="#Ba" n="83"/>substantia, et hujusmodi : et quoddam
+<lb ed="#Ba" n="84"/>est personaliter personale, ut Pater 
+ge<lb break="no" ed="#Ba" n="85"/>nerans : et quoddam personaliter 
+essen<lb break="no" ed="#Ba" n="86"/>tiale, ut Deus de Deo : et quoddam 
+es<lb break="no" ed="#Ba" n="87"/>sentialiter notionale, vel personale, ut
+<lb ed="#Ba" n="88"/>mittere, et mitti : hac enim gratia 
+effe<lb break="no" ed="#Ba" n="89"/>tus super quem est actus importatus per
+<lb ed="#Ba" n="90"/>verbum, dicunt essentiam divinam, et
+<lb ed="#Ba" n="91"/>consignificant ex modo suae 
+significatio<lb break="no" ed="#Ba" n="92"/>nis distinctionem personarum.
+</p>
+            <p xml:id="alalal-a83334-d1e461">
+               <pb ed="#Ba" n="421"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Et per hoc patet solutio ad omnia 
+ob<lb break="no" ed="#Ba" n="2"/>jecta : quia notionale consignificatum 
+fa<lb break="no" ed="#Ba" n="3"/>cit, quod non omnibus personis convenit
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="4"/>mittere, et mitti : effectus autem facit, .
+<lb ed="#Ba" n="5"/>quod conveniunt ex tempore, et quod
+<lb ed="#Ba" n="6"/>referuntur ad essentiam divinam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

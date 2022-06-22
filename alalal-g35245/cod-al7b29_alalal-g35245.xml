@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="180"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g35245"><!-- l4d8a4 -->
+            <head xml:id="alalal-g35245-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-g35245-Hd1e101" type="question-title">An sacramenta Christianorum sint 
+anteriora sacramentis Judeorum ?</head>
+            <p xml:id="alalal-g35245-d1e104">
+               <lb ed="#Be" n="29"/>ARTICULUS IV.
+<lb ed="#Be" n="30"/>An sacramenta Christianorum sint 
+ante<lb break="no" ed="#Be" n="31"/>riora sacramentis Judeorum ?
+</p>
+            <p xml:id="alalal-g35245-d1e113">
+               <lb ed="#Be" n="32"/>Deinde queritur de hoc quod dicit
+<lb ed="#Be" n="33"/>Ambrosius, ibi, A, in fine : <quote xml:id="alalal-g35245-Qd1e119"> Intelligi
+<cb ed="#Be" n="b"/>
+                  <lb ed="#Be" n="34"/>datur anteriora esse sacramenta, etc. </quote>
+            </p>
+            <p xml:id="alalal-g35245-d1e127">
+               <lb ed="#Be" n="35"/>Aut enim hoc intelligitur quoad 
+spe<lb break="no" ed="#Be" n="36"/>ciem, aut quoad rem : quia non sunt
+<lb ed="#Be" n="37"/>plura in sacramento. Si quoad speciem,
+<lb ed="#Be" n="38"/>istud non videtur verum: quia sacrificia
+<lb ed="#Be" n="39"/>quedam etiam erant in naturali lege 
+fa<lb break="no" ed="#Be" n="40"/>cienda ad dimissionem originalis 
+pec<lb break="no" ed="#Be" n="41"/>cati, ut dicit Gregorius, ut supra 
+habi<lb break="no" ed="#Be" n="42"/>tum est in principio hujus libri *. Si
+<lb ed="#Be" n="43"/>autem quoad rem, tune plane falsum
+<lb ed="#Be" n="44"/>est : quia res sacramentorum nove legis
+<lb ed="#Be" n="45"/>non fuit nisi post adventum Christi.
+</p>
+            <p xml:id="alalal-g35245-d1e154">
+               <lb ed="#Be" n="46"/>Praeterea queritur, Quale sic 
+specia<lb break="no" ed="#Be" n="47"/>liter fuit in isto, quod istud antiquius 
+di<lb break="no" ed="#Be" n="48"/>citur etiam sacramentis veteris legis, 
+po<lb break="no" ed="#Be" n="49"/>tius quam alia ?
+</p>
+            <p xml:id="alalal-g35245-d1e165">
+               <lb ed="#Be" n="50"/>Soetutio. Dicendum, quod intelligitur
+<lb ed="#Be" n="51"/>quoad speciem et ritum hujus 
+sacra<lb break="no" ed="#Be" n="52"/>menti : quia utramque speciem, et 
+ri<lb break="no" ed="#Be" n="53"/>tum oblationis et usum sacramenti 
+ex<lb break="no" ed="#Be" n="54"/>hibuit in figura Melchisedech ante 
+cir<lb break="no" ed="#Be" n="55"/>cumcisionem in naturali lege, 
+ante<lb break="no" ed="#Be" n="56"/>quam instituerentur sacramenta veteris
+<lb ed="#Be" n="57"/>legis.
+</p>
+            <p xml:id="alalal-g35245-d1e185">
+               <lb ed="#Be" n="58"/>AD oBsEcTUM autem contra, dicendum
+<lb ed="#Be" n="59"/>quod illa sacrificia non fuerunt 
+sacramen<lb break="no" ed="#Be" n="60"/>ta, nec figure veteris legis, sed potius
+<lb ed="#Be" n="61"/>figure Passionis Christi et 
+mortificatio<lb break="no" ed="#Be" n="62"/>nis carnis poenitentium, ut dicit quedam
+<lb ed="#Be" n="63"/>Glossa super Leviticum.
+</p>
+            <p xml:id="alalal-g35245-d1e201">
+               <lb ed="#Be" n="64"/>Ad aliud dicendum, quod illud 
+sacra<lb break="no" ed="#Be" n="65"/>mentum specialem habet dignitatem suae
+<lb ed="#Be" n="66"/>rei quae est Christus perfectus in deitate
+<lb ed="#Be" n="67"/>et humanitate, quam perfectionem non
+<lb ed="#Be" n="68"/>habent sacramenta alia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

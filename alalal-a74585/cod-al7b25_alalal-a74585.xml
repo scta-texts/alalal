@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="374"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a74585"><!-- l1d13a2 -->
+            <head xml:id="alalal-a74585-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-a74585-Hd1e101" type="question-title">Utrum Spiritus sanctus possit dici 
+Filius amborum a quibus procedit ?</head>
+            <p xml:id="alalal-a74585-d1e104">
+               <lb ed="#Ba" n="58"/>ARTICULUS I.
+<lb ed="#Ba" n="59"/>Utrum Spiritus sanctus possit dici 
+Fi<lb break="no" ed="#Ba" n="60"/>lius amborum a quibus procedit ?
+</p>
+            <p xml:id="alalal-a74585-d1e113">
+               <lb ed="#Ba" n="61"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="#Ba" n="62"/>primo capite, ibi, <quote xml:id="alalal-a74585-Qd1e119"> Sz Spiritus sanctus
+<lb ed="#Ba" n="63"/>Filius diceretur, amborum utique Filius
+<lb ed="#Ba" n="64"/>diceretur, etc. </quote>
+            </p>
+            <p xml:id="alalal-a74585-d1e127">
+               <lb ed="#Ba" n="65"/>Haec enim ratio non videtur valere :
+<lb ed="#Ba" n="66"/>quia quamvis non procedat ab ambobus,
+<lb ed="#Ba" n="67"/>adhuc erit differentia inter generationem
+<lb ed="#Ba" n="68"/>et processionem : et illam debuit 
+assi<lb break="no" ed="#Ba" n="69"/>gnare Augustinus.
+</p>
+            <p xml:id="alalal-a74585-d1e141">
+               <lb ed="#Ba" n="70"/>Si dicas, quod etiamsi non procedat ab
+<lb ed="#Ba" n="71"/>ambohus, tamen diceretur Spiritus 
+am<lb break="no" ed="#Ba" n="72"/>borum, sicut Greci dicunt eum esse 
+Spi<lb break="no" ed="#Ba" n="73"/>ritum Fili, non autein a Filio : et ita 
+se<lb break="no" ed="#Ba" n="74"/>queretur, quod si esset Filius, esset 
+Spi<lb break="no" ed="#Ba" n="75"/>ritus Filii. Contra : Quia hoc esset ve-~
+<lb ed="#Ba" n="76"/>rum sicum dicitur, Spiritus Fili, 
+con<lb break="no" ed="#Ba" n="77"/>strueretur genitivus in habitudine cause
+<lb ed="#Ba" n="78"/>efficientis vel principii, et non posset 
+ha<lb break="no" ed="#Ba" n="79"/>bere aliam constructionem.
+</p>
+            <p xml:id="alalal-a74585-d1e165">
+               <lb ed="#Ba" n="80"/>Ad hoc dicendum, quod Augustini 
+ob<lb break="no" ed="#Ba" n="81"/>jectio fundatur supra rationem 
+necessa<lb break="no" ed="#Ba" n="82"/>riam, et supra auctoritatem canonis. 
+Ra<lb break="no" ed="#Ba" n="83"/>tio autem necessaria posita est supra’,
+<lb ed="#Ba" n="84"/>ubi probatum est, quod Spiritus sanctus
+<lb ed="#Ba" n="85"/>procedit a duobus. Auctoritas autem illa
+<lb ed="#Ba" n="86"/>habetur ad Roman. vim, 9, ubi dicit Apo-
+<pb ed="#Ba" n="375"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>habitudine cause efficientis : et hoc 
+su<lb break="no" ed="#Ba" n="2"/>pra probatum est, ubi quesitum est, si
+<lb ed="#Ba" n="3"/>idem sit Spiritum esse Filii et a Filio.
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="4"/>stolus Spiritum esse Spiritum Filii’. Et
+<lb ed="#Ba" n="5"/>bene concedo, quod secundum veritatem
+<lb ed="#Ba" n="6"/>non potest habere constructionem nisi in
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

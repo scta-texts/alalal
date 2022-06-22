@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="634"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b22408"><!-- l1d25a6 -->
+            <head xml:id="alalal-b22408-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-b22408-Hd1e101" type="question-title">Quaeritur de haec questione, Quid tria,
+et quid tres res?</head>
+            <p xml:id="alalal-b22408-d1e104">
+               <lb ed="#Ba" n="30"/>ARTICULUS VI.
+<lb ed="#Ba" n="31"/>Quaeritur de haec questione, Quid tria,
+<lb ed="#Ba" n="32"/>et quid tres res?
+</p>
+            <p xml:id="alalal-b22408-d1e113">
+               <lb ed="#Ba" n="33"/>Deinde quaeritur de tertio capitulo, G,
+<lb ed="#Ba" n="34"/>ibi, <quote xml:id="alalal-b22408-Qd1e119"> Ad hoc autem quod illi dicunt,
+<lb ed="#Ba" n="35"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-b22408-d1e125">
+               <lb ed="#Ba" n="36"/>Videtur enim, quod nihil querebatur
+<lb ed="#Ba" n="37"/>nisi essentia quia hypostases certe
+<cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="38"/>supponebantur cum suis proprietatibus
+  <lb ed="#Ba" n="39"/>in verbo Joannis, cum dicebat, Pater,
+  <lb ed="#Ba" n="40"/>Verbum, et Spiritus sanctus: ergo de
+  <lb ed="#Ba" n="41"/>illis non querebatur: cum igitur nihil
+<lb ed="#Ba" n="42"/>amplius sit in personis, nisi essentia, 
+vi<lb break="no" ed="#Ba" n="43"/>detur, quod essentia querebatur. Sep
+<lb ed="#Ba" n="44"/>contra : Haec etiam certa supponebatur in
+<lb ed="#Ba" n="45"/>verbo Joannis, cum dixit, At hi tres
+<lb ed="#Ba" n="46"/>unum sunt : ergo videtur, quod nihil
+<lb ed="#Ba" n="47"/>poterat queri, et sic questio inutilis
+<lb ed="#Ba" n="48"/>fuit.
+</p>
+            <p xml:id="alalal-b22408-d1e159">
+               <lb ed="#Ba" n="49"/>Solutio. Sine prajudicio dico, quod
+<pb ed="#Ba" n="635"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>questio inutilis fuit : quia tota fides 
+ex<lb break="no" ed="#Ba" n="2"/>primebatur in verbo Joannis, ut probat
+<lb ed="#Ba" n="3"/>objectio. Tamen notandum, quod ly
+<lb ed="#Ba" n="4"/>guid quandoque quaerit diffinitionem vel
+<lb ed="#Ba" n="5"/>partem diffinitionis : et quandoque 
+que<lb break="no" ed="#Ba" n="6"/>rit partem subjectivam nature vel 
+essen<lb break="no" ed="#Ba" n="7"/>tia communis: ut cum dicitur, quid est
+<lb ed="#Ba" n="8"/>homo? respondetur animal rationale,
+<lb ed="#Ba" n="9"/>vel animal. Vel cum quaeritur, quid natat
+<lb ed="#Ba" n="10"/>in mari ? respondetur piscis. Primo enim
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="11"/>modo redditur essentia, et secundo pars
+<lb ed="#Ba" n="12"/>subjectiva : et hoc modo poterat 
+quere<lb break="no" ed="#Ba" n="13"/>re, quid subjective essent tres, id est,
+<lb ed="#Ba" n="14"/>quod responderetur aliquod 
+substanti<lb break="no" ed="#Ba" n="15"/>vum quod diceretur in communi de eis,
+<lb ed="#Ba" n="16"/>in quantum plures sunt : et quia pé
+rso<lb break="no" ed="#Ba" n="17"/>na significat substantiam subjectam, ut
+<lb ed="#Ba" n="18"/>supra patuit ex verbis Boetii, ideo fideles
+<lb ed="#Ba" n="19"/>admiserunt questionem, et responderunt
+<lb ed="#Ba" n="20"/>quod essent tres persone.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

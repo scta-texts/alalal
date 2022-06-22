@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="555"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f07923"><!-- l3d29a6 -->
+            <head xml:id="alalal-f07923-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-f07923-Hd1e101" type="question-title">An isti ordines penes affectum, vel penes
+effectum, vel penes utrumque 
+attendantur ?</head>
+            <p xml:id="alalal-f07923-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="22"/>ARTICULUS VI.
+<lb ed="Bd" n="23"/>An isti ordines penes affectum, vel penes
+<lb ed="Bd" n="24"/>effectum, vel penes utrumque 
+atten<lb break="no" ed="Bd" n="25"/>dantur ?
+</p>
+            <p xml:id="alalal-f07923-d1e117">
+               <lb ed="Bd" n="26"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="27"/>ibi, B, <quote xml:id="alalal-f07923-Qd1e123"> Unde etiam super hoc sepe 
+mo<lb break="no" ed="Bd" n="28"/>vetur questio, etc. </quote>
+            </p>
+            <p xml:id="alalal-f07923-d1e129">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="29"/>Hic enim incidit questio scrupulosa,
+<lb ed="Bd" n="30"/>Utrum isti ordines penes affectum, vel
+<lb ed="Bd" n="31"/>penes effectum, vel penes utrumque 
+at<lb break="no" ed="Bd" n="32"/>tendantur ?
+</p>
+            <p xml:id="alalal-f07923-d1e143">
+               <lb ed="Bd" n="33"/>Videtur autem, quod penes affectum :
+<lb ed="Bd" n="34"/>quia
+<lb ed="Bd" n="35"/>1. Una est ratio dilectionis in omnibus
+<lb ed="Bd" n="36"/>diligibilibus, scilicet Deus: Deus autem
+<lb ed="Bd" n="37"/>magis pensat affectum, quam effectum :
+<lb ed="Bd" n="38"/>ergo videtur, quod omnium diligibilium
+<lb ed="Bd" n="39"/>ordo penes affectum sit attendendus.
+</p>
+            <p xml:id="alalal-f07923-d1e161">
+               <lb ed="Bd" n="40"/>2. Item, Natura movet ad hoc, quod
+<pb ed="#Bd" n="556"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>affectu propinquior plus diligatur, quam
+<lb ed="Bd" n="2"/>remotior: ergo videtur, quod penes 
+af<lb break="no" ed="Bd" n="3"/>fectum accipiuntur gradus dilectionis.
+</p>
+            <p xml:id="alalal-f07923-d1e177">
+               <lb ed="Bd" n="4"/>3. Item, Ex casu possum remotiori
+<lb ed="Bd" n="5"/>plus de effectu impendere, ut si ille 
+indi<lb break="no" ed="Bd" n="6"/>get, et non propinquior : cumergo ordo
+<lb ed="Bd" n="7"/>semper maneat uno modo quocumque
+<lb ed="Bd" n="8"/>casu contingente, videtur quod penes
+<lb ed="Bd" n="9"/>affectum et non effectum charitatis 
+gra<lb break="no" ed="Bd" n="10"/>dus sumentur.
+</p>
+            <p xml:id="alalal-f07923-d1e195">
+               <lb ed="Bd" n="11"/>Sed contra hoc videtur esse, quod
+<lb ed="Bd" n="12"/>1. Affectus magis videtur sequi 
+ratio<lb break="no" ed="Bd" n="13"/>nem boni: et bonum magis invenitur in
+<lb ed="Bd" n="14"/>eo qui est in gradu remotiori, quam
+<lb ed="Bd" n="15"/>propinquiori: ergo videtur, quod non
+<lb ed="Bd" n="16"/>penes affectum, sed effectum accipiatur
+<lb ed="Bd" n="17"/>ordo.
+</p>
+            <p xml:id="alalal-f07923-d1e213">
+               <lb ed="Bd" n="18"/>2. Item, Ponamus, quod ego facio
+<lb ed="Bd" n="19"/>fratri quidquid debeo: et non habeo
+<lb ed="Bd" n="20"/>tamen tantum affectum ad eum, sicut ad
+<lb ed="Bd" n="21"/>alium quem credo magis bonum: 
+con<lb break="no" ed="Bd" n="22"/>stat, quod ego non pecco: ergo videtur,
+<lb ed="Bd" n="23"/>quod penes affectum non attendatur ordo.
+</p>
+            <p xml:id="alalal-f07923-d1e229">
+               <lb ed="Bd" n="24"/>Solutio Dicendum meo judicio, quod
+<lb ed="Bd" n="25"/>ordo sumitur penes utrumque, ceteris
+<lb ed="Bd" n="26"/>paribus : sed numquam potest esse ratio
+<lb ed="Bd" n="27"/>de natura ad unam partem inclinans, si
+<lb ed="Bd" n="28"/>vitium est in illo, et multum de gratia in
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="29"/>alio, quin gratia possit preeponderare jp
+<lb ed="Bd" n="30"/>affectu.
+</p>
+            <p xml:id="alalal-f07923-d1e250">
+               <lb ed="Bd" n="31"/>Ad primum ergo dicendum, quod vo.
+<lb ed="Bd" n="32"/>rum est, quod Deus plus pensat affectum,
+<lb ed="Bd" n="33"/>tamen pensat utrumque: sed affectys
+<lb ed="Bd" n="34"/>effectum debet preire.
+</p>
+            <p xml:id="alalal-f07923-d1e261">
+               <lb ed="Bd" n="35"/>Ad aliud dicendum, quod natura 
+mo<lb break="no" ed="Bd" n="36"/>vet ad utrumque, si utrumque est ne.
+<lb ed="Bd" n="37"/>cessarium, sicut patet in illo praecepto ;
+<lb ed="Bd" n="38"/>Honora patrem tuum et matrem tuam',
+</p>
+            <p xml:id="alalal-f07923-d1e272">
+               <lb ed="Bd" n="39"/>Ad aliud dicendum, quod illud non
+<lb ed="Bd" n="40"/>procedit : quia intelligitur ordo in affecty
+<lb ed="Bd" n="41"/>ceteris paribus: nullus enim tenctur
+<lb ed="Bd" n="42"/>subvenire non indigenti: unde tunc ma.
+<lb ed="Bd" n="43"/>jor affectus est in proximiorem, sed 
+ef<lb break="no" ed="Bd" n="44"/>fectus major ad eum qui indiget.
+</p>
+            <p xml:id="alalal-f07923-d1e288">
+               <lb ed="Bd" n="45"/>Api quod objicitur in contrarium, ,,,
+<lb ed="Bd" n="46"/>dicendum, quod hoc verum esset, si sola
+<lb ed="Bd" n="47"/>ratio boni esset movens: sed hoc non
+<lb ed="Bd" n="48"/>est verum, imo movent simul bonum et
+<lb ed="Bd" n="49"/>natura.
+</p>
+            <p xml:id="alalal-f07923-d1e301">
+               <lb ed="Bd" n="50"/>Ad aliud dicendum, quod numquam 4,
+<lb ed="Bd" n="51"/>facio fratri quidquid debco, nisi ego plus
+<lb ed="Bd" n="52"/>dem ci de affectu ect cffectu, si cetera
+<lb ed="Bd" n="53"/>sint paria : quia tune ipse pluribus 
+ratio<lb break="no" ed="Bd" n="54"/>nibus conjungitur mthi, quam alius:
+<lb ed="Bd" n="55"/>alias autem verum puto esse quod 
+dici<lb break="no" ed="Bd" n="56"/>tur in Littera, quod sanctior est copula
+<lb ed="Bd" n="57"/>mentium, quam sanguinis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="563"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b09027"><!-- l1d21a6 -->
+            <head xml:id="alalal-b09027-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-b09027-Hd1e101" type="question-title">An asta sit vera, Nemo novit Patrem
+nisi Filius ?</head>
+            <p xml:id="alalal-b09027-d1e104">
+               <lb ed="#Ba" n="76"/>ARTICULUS VI.
+<lb ed="#Ba" n="77"/>An asta sit vera, Nemo novit Patrem
+<lb ed="#Ba" n="78"/>nisi Filius ?
+</p>
+            <p xml:id="alalal-b09027-d1e113">
+               <lb ed="#Ba" n="79"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="80"/>
+               <quote xml:id="alalal-b09027-Qd1e119"> Nemo novit Patrem, nisi Filius, etc.</quote>
+               <lb ed="#Ba" n="81"/>Aut enim ly nist excipit a ly nemo
+<lb ed="#Ba" n="82"/>scundum quod pro creaturis sumitur,
+<lb ed="#Ba" n="83"/>et sic nihil est quod dicit: aut 
+se<lb break="no" ed="#Ba" n="84"/>cundum quod stat pro increato, et sic
+<pb ed="#Ba" n="564"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>iterum nihil dicit, quia ab uno non est
+<lb ed="#Ba" n="2"/>exceptio.
+</p>
+            <p xml:id="alalal-b09027-d1e139">
+               <lb ed="#Ba" n="3"/>Er av hoc dicendum, quod excipit ab
+<lb ed="#Ba" n="4"/>eo secundum quod communiter stat pro
+<lb ed="#Ba" n="5"/>utroque : et sic non excipitur Spiritus
+<lb ed="#Ba" n="6"/>sanctus, eo quod eadem ratione predi-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="7"/>catum participat qua Filius: et hoc
+<lb ed="#Ba" n="8"/>est quod intendit dicere in Luttera:
+<lb ed="#Ba" n="9"/>propter unitatem enim notitiae in tribus
+<lb ed="#Ba" n="10"/>non potest supponi unus ad 
+participan<lb break="no" ed="#Ba" n="11"/>dum essentiale praedicatum, nisi 
+suppo<lb break="no" ed="#Ba" n="12"/>natur et alius, cum una sit essentia 
+eo<lb break="no" ed="#Ba" n="13"/>rum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

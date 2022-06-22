@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="282"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a56607"><!-- l1d9a7 -->
+            <head xml:id="alalal-a56607-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-a56607-Hd1e101" type="question-title">An possit dicit quod Filius sit coaeternus
+Patri, et utrum in divinis sit aliquid
+adjectivum, et utrum, sicut dicimus,
+Pater et Filius sunt duae personae, ita
+dicere possumus, quod Pater et Filius
+sunt duo dii, duo sapientes ?</head>
+            <p xml:id="alalal-a56607-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="5"/>ARTICULUS VII.
+<lb ed="#Ba" n="6"/>An possit dicit quod Filius sit coaeternus
+<lb ed="#Ba" n="7"/>Patri, et utrum in divinis sit aliquid
+<lb ed="#Ba" n="8"/>adjectivum, et utrum, sicut dicimus,
+<lb ed="#Ba" n="9"/>Pater et Filius sunt duae personae, ita
+<lb ed="#Ba" n="10"/>dicere possumus, quod Pater et Filius
+<lb ed="#Ba" n="11"/>sunt duo dii, duo sapientes ?
+</p>
+            <p xml:id="alalal-a56607-d1e124">
+               <lb ed="#Ba" n="12"/>Deinde quaeritur de hoc quod dicit:
+<lb ed="#Ba" n="13"/>
+               <quote xml:id="alalal-a56607-Qd1e130"> Ut sit coaeternus Patri Filius, etc. </quote>
+            </p>
+            <p xml:id="alalal-a56607-d1e133">
+               <lb ed="#Ba" n="14"/>1. Ex hoc enim sequitur, quod Pater et
+<lb ed="#Ba" n="15"/>Filius sint duae persone coeterne : ergo
+<lb ed="#Ba" n="16"/>sunt duo cowterni: et hoc videtur esse
+<lb ed="#Ba" n="17"/>contra symbolum Athanasti: <quote xml:id="alalal-a56607-Qd1e143"> Non tres
+<lb ed="#Ba" n="18"/>eterni, sed unus aeternus. </quote>
+            </p>
+            <p xml:id="alalal-a56607-d1e150">
+               <lb ed="#Ba" n="19"/>2. Praeterea, Una est aeternitas trium:
+<lb ed="#Ba" n="20"/>ergo videtur, quod tres sint unus 
+eter<lb break="no" ed="#Ba" n="21"/>nus, non tamen unus simpliciter.
+</p>
+            <p xml:id="alalal-a56607-d1e159">
+               <lb ed="#Ba" n="22"/>3. Item, Jn aliis adjectivis quae 
+pradi<lb break="no" ed="#Ba" n="23"/>cant id quod naturam assequitur, sicut
+<lb ed="#Ba" n="24"/>dicit Danascenus, non possumus 
+predi<lb break="no" ed="#Ba" n="25"/>care in sumina de tribus nisi in singulari
+<lb ed="#Ba" n="26"/>numero: si enim dicam, Pater est 
+sa<lb break="no" ed="#Ba" n="27"/>piens, Filius est sapiens, non possum 
+in<lb break="no" ed="#Ba" n="28"/>ferre: ergo Pater et Filius sunt duo 
+sa<lb break="no" ed="#Ba" n="29"/>pientes : ergo videtur, quod nec in isto.
+</p>
+            <p xml:id="alalal-a56607-d1e179">
+               <lb ed="#Ba" n="30"/>4. Si dicatur, quod adjectiva numerum
+<lb ed="#Ba" n="31"/>et substantiam accipiunt a suis 
+substan<lb break="no" ed="#Ba" n="32"/>tivis, et ita cum persone sint substantiva
+<lb ed="#Ba" n="33"/>talium adjectivorum, numerum accipiunt
+<lb ed="#Ba" n="34"/>et substantiam ab ipsis, et circa ipsas 
+po<lb break="no" ed="#Ba" n="35"/>nunt vim suam, et ita possunt pradicari
+<lb ed="#Ba" n="36"/>in plurali, ut dicatur, Pater et Filius sunt
+<cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="37"/>duo sapientes. Contra : Sapientes vel 
+sa<lb break="no" ed="#Ba" n="38"/>piens nomen est: ergo significat non 
+tan<lb break="no" ed="#Ba" n="39"/>tum substantiam, sed etiam qualitatem :
+<lb ed="#Ba" n="40"/>illa autem qualitas sapientia est: cum
+<lb ed="#Ba" n="41"/>ergo una sit sapientia trium et aeternitas,
+<lb ed="#Ba" n="42"/>etiam si substantia quae est hypostasis
+<lb ed="#Ba" n="43"/>cadat in plurale, adjectivum in plurale
+<lb ed="#Ba" n="44"/>cadere non potest.
+</p>
+            <p xml:id="alalal-a56607-d1e216">
+               <lb ed="#Ba" n="45"/>5. Item, Si ego dicam, Socrates et
+<lb ed="#Ba" n="46"/>Plato sunt albi, licet ly a/b¢ sumat 
+sub<lb break="no" ed="#Ba" n="47"/>stantiam plurificatam, tamen hoc non
+<lb ed="#Ba" n="48"/>sufficit sibi ad pluralitatem : sed etram
+<lb ed="#Ba" n="49"/>oportet, quod sint ibi plures albedines,
+<lb ed="#Ba" n="50"/>ut videtur : ergo a simili in divinis, licet
+<lb ed="#Ba" n="51"/>et Pater et Filius sint plures et persona,
+<lb ed="#Ba" n="52"/>cum tamen ipsorum sit sapientia et 
+eter<lb break="no" ed="#Ba" n="53"/>nitas una, talia nomina adjectiva 
+plura<lb break="no" ed="#Ba" n="54"/>liter de ipsis praedicari non possunt.
+</p>
+            <p xml:id="alalal-a56607-d1e240">
+               <lb ed="#Ba" n="55"/>SED CONTRA:
+<lb ed="#Ba" n="56"/>1. Videtur minus quod substantiam 
+sig<lb break="no" ed="#Ba" n="57"/>nificans propter modum adjectivi 
+impor<lb break="no" ed="#Ba" n="58"/>talum in verbo cadat in pluralitatem,
+<lb ed="#Ba" n="59"/>quam id quod per se substantiam non
+<lb ed="#Ba" n="60"/>significat, et cadit in pluralitatem si 
+ver<lb break="no" ed="#Ba" n="61"/>baliter significatur, sicut Joan. x, 30,
+<lb ed="#Ba" n="62"/>habetur: Ego et Paler unum sumus :
+<lb ed="#Ba" n="63"/>ergo multo magis adjectiva.
+</p>
+            <p xml:id="alalal-a56607-d1e262">
+               <lb ed="#Ba" n="64"/>2. Praeterea, Res magis propinqua est
+<lb ed="#Ba" n="65"/>secundum rationem significationi, quam
+<lb ed="#Ba" n="66"/>adjectiva: et tamen supra habuimus,
+<lb ed="#Ba" n="67"/>quod Pater et Filius et Spiritus sanctus
+<lb ed="#Ba" n="68"/>sunt tres res : ergo etiam adjectiva possunt
+<lb ed="#Ba" n="69"/>de pluribus personis praedicari.
+</p>
+            <p xml:id="alalal-a56607-d1e279">
+               <lb ed="#Ba" n="70"/>Juxta hoc quaeritur ulterius, si aliquid
+<lb ed="#Ba" n="71"/>sit adjectivum in divints ?</p>
+            <p xml:id="alalal-a56607-d1e286">
+               <lb ed="#Ba" n="72"/>1. habuimus enim distinctione praece-
+<pb ed="#Ba" n="283"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>denti, quod illa praedicamenta artis 
+dia<lb break="no" ed="#Ba" n="2"/>lecticee in Deum non cadunt : quia ipse
+<lb ed="#Ba" n="3"/>Deus est quidquid habet quod ad se 
+di<lb break="no" ed="#Ba" n="4"/>citur, et idem est ibi sapere quod esse :
+<lb ed="#Ba" n="5"/>quod autem signilicat substantiam est
+<lb ed="#Ba" n="6"/>substantivum, et non adjectivum vel non
+<lb ed="#Ba" n="7"/>adjective retentum : ergo in divina 
+pre<lb break="no" ed="#Ba" n="8"/>dicatione nihil est adjectivum vel 
+adjec<lb break="no" ed="#Ba" n="9"/>tive retentum.
+</p>
+            <p xml:id="alalal-a56607-d1e315">
+               <lb ed="#Ba" n="10"/>2.Item, Boetius dicit, quod cetera 
+prae<lb break="no" ed="#Ba" n="11"/>dicamenta praeter relationem, cum quis
+<lb ed="#Ba" n="12"/>in divinam retulerit praedicationem, 
+om<lb break="no" ed="#Ba" n="13"/>nia mutantur in substantiam: ergo 
+pos<lb break="no" ed="#Ba" n="14"/>sunt adjective teneri.
+</p>
+            <p xml:id="alalal-a56607-d1e328">
+               <lb ed="#Ba" n="15"/>Utrerivs quaeritur juxta illud, Quare
+<lb ed="#Ba" n="16"/>possum dicere, Pater et Filius sunt duz
+<lb ed="#Ba" n="17"/>persone, et Pater et Filius sunt duo : et
+<lb ed="#Ba" n="18"/>non possum dicere, Pater et Filius sunt
+<lb ed="#Ba" n="19"/>duo dii, vel duo sapientes secundum
+<lb ed="#Ba" n="20"/>quosdam ? Videtur enim quod possum
+<lb ed="#Ba" n="21"/>dicere : quia duo terminus numeralis est,
+<lb ed="#Ba" n="22"/>denotans notiones quibus numerantur
+<lb ed="#Ba" n="23"/>persone : ergo terminum adjunctum sibi
+<lb ed="#Ba" n="24"/>cogit stare pro persona: ergo cum 
+dici<lb break="no" ed="#Ba" n="25"/>tur, Pater et Filius sunt duo dii, 
+intel<lb break="no" ed="#Ba" n="26"/>ligitur due divine persone: ergo cum
+<lb ed="#Ba" n="27"/>Pater et Filius sunt du divine persone,
+<lb ed="#Ba" n="28"/>Pater et Filius sunt duo dii, ut videtur.
+</p>
+            <p xml:id="alalal-a56607-d1e361">
+               <lb ed="#Ba" n="29"/>Solutio. Sine prajudicio dico, eo quod
+<lb ed="#Ba" n="30"/>hic sint multorum multe opiniones, quod
+<lb ed="#Ba" n="31"/>tres diversitates inveniuntur circa 
+adje<lb break="no" ed="#Ba" n="32"/>cliva. Quandoque enim habent tria 
+tra<lb break="no" ed="#Ba" n="33"/>hentia ad adjectivitatem, et tantum unum
+<lb ed="#Ba" n="34"/>ad substantiam, et hoc in divinis: quia
+<lb ed="#Ba" n="35"/>tantum de illis loquimur : et quandoque
+<lb ed="#Ba" n="36"/>habent duo tantum: et quandoque 
+ha<lb break="no" ed="#Ba" n="37"/>bent unum quod conjungitur duobus vel
+<lb ed="#Ba" n="38"/>tribus, denotando pluralitatem 
+persona<lb break="no" ed="#Ba" n="39"/>rum, licet non faciat ad modum adjectivi,
+<lb ed="#Ba" n="40"/>tamen multum facit ad relationem 
+ad<lb break="no" ed="#Ba" n="41"/>jectivi ad hoc suppositam vel illud: ex
+<lb ed="#Ba" n="42"/>ipso enim scitur utrum ponat ipsum 
+ad<lb break="no" ed="#Ba" n="43"/>jectivum rem suam circa personam, vel
+<lb ed="#Ba" n="44"/>circa substantiam. Verbi gratia, verbum
+<lb ed="#Ba" n="45"/>adjectivum, adjectivum est, et similiter
+<lb ed="#Ba" n="46"/>participium et nomen: sed adjectivum
+<lb ed="#Ba" n="47"/>yerbum et participium tria habent de na-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>tura adjectivi, scilicet modum significandi
+<lb ed="#Ba" n="49"/>inherentia, et modum illum quo 
+signi<lb break="no" ed="#Ba" n="50"/>ficant agere, et etiam modum illum quo
+<lb ed="#Ba" n="51"/>significat verbum cum tempore, et etiam
+<lb ed="#Ba" n="52"/>participium, licet minus in quantum 
+vici<lb break="no" ed="#Ba" n="53"/>nius nomini: sed nomen non habet nisi
+<lb ed="#Ba" n="54"/>duo, scilicet signiticationem, et modum:
+<lb ed="#Ba" n="55"/>significationem, quia rem adjacentem, et
+<lb ed="#Ba" n="56"/>que inest significat: et si non est in 
+di<lb break="no" ed="#Ba" n="57"/>vinis, et non ex ratione sui significati,
+<lb ed="#Ba" n="58"/>sicut dicimus esse quaedam adjectiva
+<lb ed="#Ba" n="59"/>significatione et non modo. Modo 
+au<lb break="no" ed="#Ba" n="60"/>tem, quia etiam modum adjectivi 
+ha<lb break="no" ed="#Ba" n="61"/>bent : quia per modum  concretionis
+<lb ed="#Ba" n="62"/>significant, ut cum dicitur, sapiens, 
+bo<lb break="no" ed="#Ba" n="63"/>nus, et hujusmodi. His quoque 
+jungi<lb break="no" ed="#Ba" n="64"/>tur per compositionum prepositio 
+de<lb break="no" ed="#Ba" n="65"/>notans correlationes persone ad 
+perso<lb break="no" ed="#Ba" n="66"/>nam, sicut cum dicitur, cogzternus, coz#-
+<lb ed="#Ba" n="67"/>qualis, vel equipotens, et hujusmodi
+<lb ed="#Ba" n="68"/>prepositiones, vel adverbia faciunt ad
+<lb ed="#Ba" n="69"/>quod talia adjectiva in recto dicunt 
+sup<lb break="no" ed="#Ba" n="70"/>posita personarum, et essentiam in 
+obli<lb break="no" ed="#Ba" n="71"/>quo. Dico ergo, quod verba et participia
+<lb ed="#Ba" n="72"/>habentia tria vel quatuor de istis, 
+secun<lb break="no" ed="#Ba" n="73"/>dum intellectum viciniora sunt personis
+<lb ed="#Ba" n="74"/>quam essentiae : et ideo praedicantur de
+<lb ed="#Ba" n="75"/>pluribus pluraliter, ut Pater et Filius 
+sa<lb break="no" ed="#Ba" n="76"/>piunt, sciunt, possunt, sunt, volunt, et
+<lb ed="#Ba" n="77"/>hujusmodi omnia : et participia similiter,
+<lb ed="#Ba" n="78"/>ut Pater et Filius sunt scientes, 
+sapien<lb break="no" ed="#Ba" n="79"/>tes, enles, potentes: ita quod 
+unum<lb break="no" ed="#Ba" n="80"/>quodque illorum sit participium 
+princi<lb break="no" ed="#Ba" n="81"/>paliter retentum. In nominibus autem
+<lb ed="#Ba" n="82"/>quando duo tantum sunt, quorum unum
+<lb ed="#Ba" n="83"/>habet solum modum adjectivi, dixerunt
+<lb ed="#Ba" n="84"/>antiqui quod non deberent dici in plurali:
+<lb ed="#Ba" n="85"/>moderni autem considerantes, quod 
+pro<lb break="no" ed="#Ba" n="86"/>pter illud solum substantiam et numerum
+<lb ed="#Ba" n="87"/>accipit a persona, quando conjungitur
+<lb ed="#Ba" n="88"/>ei, dixerunt quod possunt praedicari 
+plu<lb break="no" ed="#Ba" n="89"/>raliter. Ego credo quod possunt, sed 
+mi<lb break="no" ed="#Ba" n="90"/>nus proprie: et ideo non sunt tales 
+lo<lb break="no" ed="#Ba" n="91"/>cutiones extendende, sed interpreltande,
+<lb ed="#Ba" n="92"/>quando inveniuntur. Si autem cuiquam
+<lb ed="#Ba" n="93"/>adjectivo conjungatur pra:positio vel 
+ad<lb break="no" ed="#Ba" n="94"/>verbium notans correlationem 
+persona<lb break="no" ed="#Ba" n="95"/>rum ad invicem, tunc absque dubio non
+<lb ed="#Ba" n="96"/>debent dici nisi pluraliter de pluribus in
+<pb ed="#Ba" n="284"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>summa, ut Pater et Filius sunt coeterni,
+<lb ed="#Ba" n="2"/>et non coeternus, et equipotentes, et
+<lb ed="#Ba" n="3"/>non equipotens.
+</p>
+            <p xml:id="alalal-a56607-d1e524">
+               <lb ed="#Ba" n="4"/>Secundum hance igitur distinctionem
+<lb ed="#Ba" n="5"/>dicendum ad primum, quod Athanasius
+<lb ed="#Ba" n="6"/>altendit praedicationem termtalis in
+<lb ed="#Ba" n="7"/>divinis, quia in divinis: et accipit eam
+<lb ed="#Ba" n="8"/>ex significatione aeterni, et non ex modo
+<lb ed="#Ba" n="9"/>significandi : nihilominus tamen 
+atten<lb break="no" ed="#Ba" n="10"/>dendo modum adjectivi, posset conced:
+<lb ed="#Ba" n="11"/>duo vel tres aeterni : et ex hoc non 
+se<lb break="no" ed="#Ba" n="12"/>guitur, quod essent plures aeternitates, ut
+<lb ed="#Ba" n="13"/>intra patebit.
+</p>
+            <p xml:id="alalal-a56607-d1e549">
+               <lb ed="#Ba" n="14"/>Ad aliud dicendum, quod licet sit una
+<lb ed="#Ba" n="15"/>wlernitas, tamen haecexcludit 
+pluralita<lb break="no" ed="#Ba" n="16"/>tem suppositorum, et illa pluralitas 
+suf<lb break="no" ed="#Ba" n="17"/>ficit ad numerum pluralem in adjectivo.
+</p>
+            <p xml:id="alalal-a56607-d1e560">
+               <lb ed="#Ba" n="18"/>Ad aliud dicendum, quod ea quae 
+na<lb break="no" ed="#Ba" n="19"/>turam assequuntur, penes sua significata
+<lb ed="#Ba" n="20"/>considerando, non praedicantur de 
+pluri<lb break="no" ed="#Ba" n="21"/>bus pluraliter : sed penes modum 
+concre<lb break="no" ed="#Ba" n="22"/>tionis nihil prohibet, ut jam patuit.
+</p>
+            <p xml:id="alalal-a56607-d1e573">
+               <lb ed="#Ba" n="23"/>Ad hoc autem quod objicitur, quod
+<lb ed="#Ba" n="24"/>talia nomina significant substantiam cum
+<lb ed="#Ba" n="25"/>qualitate, dicendum quod verum est: sed
+<lb ed="#Ba" n="26"/>qualitatem suam significant inherenter :
+<lb ed="#Ba" n="27"/>et ideo a modo illo pluralitat: eorum 
+suf<lb break="no" ed="#Ba" n="28"/>ficit pluralitas in suppositis, et non opor-
+{et quod res significata sit plures: et si
+<lb ed="#Ba" n="29"/>hoc est in inferioribus, dicendum quod
+<lb ed="#Ba" n="30"/>hoc non exigit nomen adjectivum ad
+<lb ed="#Ba" n="31"/>pluralern numerum consignilicandum,
+<lb ed="#Ba" n="32"/>sed per accidens fit hoc ex pluralitate 
+sup<lb break="no" ed="#Ba" n="33"/>positorum differentium per substantiam
+<lb ed="#Ba" n="34"/>et essentiam, quod non est in divinis.
+</p>
+            <p xml:id="alalal-a56607-d1e602">
+               <lb ed="#Ba" n="35"/>Ad aliud dicendum, quod falsum 
+po<lb break="no" ed="#Ba" n="36"/>nit in argumento, scilicet quod ad 
+plura<lb break="no" ed="#Ba" n="37"/>lem numerum adjectivi exigatur 
+plurali<lb break="no" ed="#Ba" n="38"/>tas rei quam significat, hoc enim non
+<lb ed="#Ba" n="39"/>est verum: sed hoc contingrt in 
+inferiori<lb break="no" ed="#Ba" n="40"/>bus per accidens, scilicet quia 
+substantia<lb break="no" ed="#Ba" n="41"/>liter differunt supposita in quibus est res
+<lb ed="#Ba" n="42"/>quam significat adjectivum. Unde si 
+po<lb break="no" ed="#Ba" n="43"/>namus per impossibile, quod Socrates
+<lb ed="#Ba" n="44"/>et Plato habeant unam albedinem, adhuc
+<lb ed="#Ba" n="45"/>verum est, quod Socrates et Plato sunt
+<lb ed="#Ba" n="46"/>albi gratia pluralitatis suppositorum.
+</p>
+            <p xml:id="alalal-a56607-d1e631">
+               <lb ed="#Ba" n="47"/>Ap intup quod ulterius quaeritur, Si
+<lb ed="#Ba" n="48"/>aliquid sit adjectivum in divinis ? 
+Dicen<lb break="no" ed="#Ba" n="49"/>dum quod sic quoad modum, sed quoad
+<lb ed="#Ba" n="50"/>inesse per compositionem non. Et hoc
+<lb ed="#Ba" n="51"/>intellexit Augustinus supra‘, ubi per
+<lb ed="#Ba" n="52"/>hoc voluit removere compositionem 
+ac<lb break="no" ed="#Ba" n="53"/>cidentis, non modum signilicandi a 
+sim<lb break="no" ed="#Ba" n="54"/>plicitate divina. Et per hoc etiam patet
+<lb ed="#Ba" n="55"/>solutio ad id quod objicitur de Boetio.
+</p>
+            <p xml:id="alalal-a56607-d1e653">
+               <lb ed="#Ba" n="56"/>Ap 1p quod ulterius quaeritur, 
+dicen<lb break="no" ed="#Ba" n="57"/>dum quod termini numerales adjectiva
+<lb ed="#Ba" n="58"/>sunt, et in divinis significant notiones
+<lb ed="#Ba" n="59"/>quibus distinguuntur et numerantur 
+per<lb break="no" ed="#Ba" n="60"/>sone : quando autem ponuntur cum 
+ver<lb break="no" ed="#Ba" n="61"/>bo signilicante substantiam, res suas 
+po<lb break="no" ed="#Ba" n="62"/>nunt circa formam illus, et significant
+<lb ed="#Ba" n="63"/>eam numerari: et ideo per se positi de
+<lb ed="#Ba" n="64"/>personis veri sunt, et etiam similiter
+<lb ed="#Ba" n="65"/>juncti cum personalibus, sicut Pater et
+<lb ed="#Ba" n="66"/>Filius sunt duo, Pater et Filius sunt dus
+<lb ed="#Ba" n="67"/>persone: sed cum ponuntur cum 
+essen<lb break="no" ed="#Ba" n="68"/>tialibus, numerant formas essentialium :
+<lb ed="#Ba" n="69"/>et quia una est essentia, ideo locutiones
+<lb ed="#Ba" n="70"/>false sunt : tamen aliter est de participiis
+<lb ed="#Ba" n="71"/>et nominibus, et aliter est de nominibus
+<lb ed="#Ba" n="72"/>adjectivis quam substantivis, ut patet
+<lb ed="#Ba" n="73"/>per ante dicta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

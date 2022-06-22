@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 15</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 15</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="363"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i76084"><!-- l4d35a15 -->
+            <head xml:id="alalal-i76084-Hd1e99">Articulus 15</head>
+            <head xml:id="alalal-i76084-Hd1e101" type="question-title">An mulier post reconciliationem amisit
+jus petendi debitum a viro ?</head>
+            <p xml:id="alalal-i76084-d1e104">
+               <lb ed="#Bf" n="34"/>ARTICULUS XV.
+<lb ed="#Bf" n="35"/>An mulier post reconciliationem amisit
+<lb ed="#Bf" n="36"/>jus petendi debitum a viro ?
+</p>
+            <p xml:id="alalal-i76084-d1e113">
+               <lb ed="#Bf" n="37"/>Nono queritur, Utrum post 
+reconci<lb break="no" ed="#Bf" n="38"/>liationem amisit jus poscendi debitum ?
+</p>
+            <p xml:id="alalal-i76084-d1e120">
+               <lb ed="#Bf" n="39"/>Videtur autem, quod sic : quia
+<lb ed="#Bf" n="40"/>1. Nisi vir esset a debito illo 
+absolu<lb break="no" ed="#Bf" n="41"/>tus, ipse teneretur reddere etiam post
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="42"/>separationem : hoc autem cum falsum
+<lb ed="#Bf" n="43"/>sit, videtur quod mulier nullum jus 
+ha<lb break="no" ed="#Bf" n="44"/>bet in corpore viri : ergo cum non 
+resti<lb break="no" ed="#Bf" n="45"/>tuatur ei jus illud, videtur quod etiam
+<lb ed="#Bf" n="46"/>reconciliata petere non possit.
+</p>
+            <p xml:id="alalal-i76084-d1e143">
+               <lb ed="#Bf" n="47"/>2. Item, Jus illud non confert nisi 
+ma<lb break="no" ed="#Bf" n="48"/>trimonialis consensus : sed ille non 
+re<lb break="no" ed="#Bf" n="49"/>petitur post reconciliationem : ergo jus
+<lb ed="#Bf" n="50"/>non confertur ei: ergo non habet jus 
+pe<lb break="no" ed="#Bf" n="51"/>tendi debitum.
+</p>
+            <p xml:id="alalal-i76084-d1e156">
+               <lb ed="#Bf" n="52"/>3. Item, Per quae quis peccat, per hac
+<lb ed="#Bf" n="53"/>et punietur : sed ista peccavit in fide et
+<lb ed="#Bf" n="54"/>jure thori : ergo in illo puniri debet :
+<lb ed="#Bf" n="55"/>non autem punitur nisi amittendo jus
+<lb ed="#Bf" n="56"/>quod habuit : ergo videtur, quod 
+num<lb break="no" ed="#Bf" n="57"/>quam de cetero habebit aliquod jus 
+pe<lb break="no" ed="#Bf" n="58"/>tendi.
+</p>
+            <p xml:id="alalal-i76084-d1e174">
+               <lb ed="#Bf" n="59"/>In contrarium est, quod
+<lb ed="#Bf" n="60"/>1. Alia est reconciliatio mariti, quam
+<lb ed="#Bf" n="61"/>alterius cujuscumque amici: ergo 
+ali<lb break="no" ed="#Bf" n="62"/>quid speciale conferturin illa : hoc autem
+<lb ed="#Bf" n="63"/>in guo distinguitur ab aliis amicis, non
+<lb ed="#Bf" n="64"/>est nisi jus petendi debitum, quia omnia
+<lb ed="#Bf" n="65"/>alia prius habuit : ergo jus petendi 
+debi<lb break="no" ed="#Bf" n="66"/>tum restituitur ei in reconciliatione.
+</p>
+            <p xml:id="alalal-i76084-d1e194">
+               <lb ed="#Bf" n="67"/>2. Item, Si detur, quod non 
+restitui<lb break="no" ed="#Bf" n="68"/>tur: ergo ipsa si se ei post 
+reconciliatio<lb break="no" ed="#Bf" n="69"/>nem neget, non potest repetere : ergo
+<lb ed="#Bf" n="70"/>etiam post reconciliationem ea invita
+<lb ed="#Bf" n="71"/>posset intrare religionem, quod falsum et
+<lb ed="#Bf" n="72"/>absurdum est: ergo et falsum est, quod
+<lb ed="#Bf" n="73"/>jus poscendi debitum ei non 
+restitua<lb break="no" ed="#Bf" n="74"/>tur.
+</p>
+            <p xml:id="alalal-i76084-d1e214">
+               <lb ed="#Bf" n="75"/>Rzsponsio. Videtur ultima pars esse
+<lb ed="#Bf" n="76"/>concedenda, scilicet quod debitum 
+pot<lb break="no" ed="#Bf" n="77"/>est petere post reconciliationem, et 
+acci<lb break="no" ed="#Bf" n="78"/>pit potestatem in corpore viri sicut prius
+<lb ed="#Bf" n="79"/>habuit.
+</p>
+            <p xml:id="alalal-i76084-d1e227">
+               <lb ed="#Bf" n="80"/>Ad primum ergo dicendum, quod jus
+<lb ed="#Bf" n="81"/>illud dupliciter consideratur, scilicet in
+<lb ed="#Bf" n="82"/>habitu sive sacramentaliter tantum, vel
+<lb ed="#Bf" n="83"/>secundum ordinem ad actum, qui est
+<lb ed="#Bf" n="84"/>potius juris usus vel exsecutio. Et primo
+<lb ed="#Bf" n="85"/>quidem modo numquam amittit illud jus
+<lb ed="#Bf" n="86"/>mulier adultera dum vivit, sed secundo
+<lb ed="#Bf" n="87"/>modo : et hoc restituitur ei, quando fit
+<lb ed="#Bf" n="88"/>reconciliatio.
+</p>
+            <p xml:id="alalal-i76084-d1e250">
+               <lb ed="#Bf" n="89"/>Ad aliud dicendum, quod matrimonia-
+<pb ed="#Bf" n="364"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>lis consensus facit jus illud sacramenta- 
+<lb ed="#Bf" n="2"/>liter et habitualiter : et hoc non iteratur, 
+<lb ed="#Bf" n="3"/>sed propter culpam potest aliquis sus- 
+<lb ed="#Bf" n="4"/>pendi ab usu sui juris et exsecutione : et 
+<lb ed="#Bf" n="5"/>hoc relaxatur in reconciliatione. 
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="6"/>Av axiup dicendum, quod 
+sufficicn<lb break="no" ed="#Bf" n="7"/>ter punita est in matrimonio, quando
+<lb ed="#Bf" n="8"/>suspenditur ab usu et solatio mariti, etsi
+<lb ed="#Bf" n="9"/>non sacramentaliter et habitualiter a viro
+<lb ed="#Bf" n="10"/>separetur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

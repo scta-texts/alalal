@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="366"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c69985"><!-- l1d42a7 -->
+            <head xml:id="alalal-c69985-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-c69985-Hd1e101" type="question-title">An et quomodo Deus potest omnia
+facere ?</head>
+            <p xml:id="alalal-c69985-d1e104">
+               <lb ed="#Bb" n="69"/>ARTICULUS VII.
+<lb ed="#Bb" n="70"/>An et quomodo Deus potest omnia
+<lb ed="#Bb" n="71"/>facere ?
+</p>
+            <p xml:id="alalal-c69985-d1e113">
+               <lb ed="#Bb" n="72"/>Deinde queritur de hoc quod dicit, 1bi,
+<lb ed="#Bb" n="73"/>
+               <quote xml:id="alalal-c69985-Qd1e119"> Omnia quidem potest Deus, sed non
+<lb ed="#Bb" n="74"/>facit nisi quod convenit  veritate
+<lb ed="#Bb" n="75"/>ejus, etc. </quote>
+            </p>
+            <p xml:id="alalal-c69985-d1e127">
+               <lb ed="#Bb" n="76"/>Queritur enim, Quid dicatur hic 
+ve<lb break="no" ed="#Bb" n="77"/>ritas et justitia? Veritas enim in dictis
+<lb ed="#Bb" n="78"/>est et in factis et quidquid faceret, 
+ve<lb break="no" ed="#Bb" n="79"/>ritatem haberet . ergo videtur, quod
+<lb ed="#Bb" n="80"/>hec non sit ratio, quod haec facit, et non
+<lb ed="#Bb" n="81"/>aha.
+</p>
+            <p xml:id="alalal-c69985-d1e144">
+               <lb ed="#Bb" n="82"/>Item, Justissimum est ut faciat 
+quid<lb break="no" ed="#Bb" n="83"/>quid voluerit . ergo non est magis justum
+<lb ed="#Bb" n="84"/>ut faciat haec quam alia.
+</p>
+            <p xml:id="alalal-c69985-d1e153">
+               <lb ed="#Bb" n="85"/>Item, Quid est quod dicit Augustinus
+<lb ed="#Bb" n="86"/>in Lattera: <quote xml:id="alalal-c69985-Qd1e159"> Omnia potuit simul facere
+<lb ed="#Bb" n="87"/>Deus, sed ratio prohibuit? </quote> Videtur
+<lb ed="#Bb" n="88"/>nulla ratio prohibuisse : quia ipse 
+Au<lb break="no" ed="#Bb" n="89"/>gustinus super Genesim dicit, quod om-
+<pb ed="#Bb" n="367"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>nia simul fecit. Et, Eech. xvm, 1: Qui
+<lb ed="#Bb" n="2"/>vivit in aeternum, creavit omnia simul.
+<lb ed="#Bb" n="3"/>Ergo nulla ratio prohibuit hoc, ut 
+vi<lb break="no" ed="#Bb" n="4"/>detur.
+</p>
+            <p xml:id="alalal-c69985-d1e182">
+               <lb ed="#Bb" n="5"/>Prarerea queritur, Quid sit ratio
+<lb ed="#Bb" n="6"/>illa? Aut enim est creata, aut mcreata.
+<lb ed="#Bb" n="7"/>Si creata : tunc non potest prohibere
+<lb ed="#Bb" n="8"/>creantem, cujus potentiae nihil resistit.
+<lb ed="#Bb" n="9"/>Si autem est increata : ergo videtur,
+<lb ed="#Bb" n="10"/>quod aliquid increatum prohibet 
+poten<lb break="no" ed="#Bb" n="11"/>tiam operantem, et sic in Deo esset 
+con<lb break="no" ed="#Bb" n="12"/>trarietas, quod falsum est.
+</p>
+            <p xml:id="alalal-c69985-d1e202">
+               <lb ed="#Bb" n="13"/>Sotvutio. Dicendum, quod veritas et
+<lb ed="#Bb" n="14"/>Justitia referende sunt hic ad 
+preordi<lb break="no" ed="#Bb" n="15"/>nationem aeternam de fiendis : haec est
+<lb ed="#Bb" n="16"/>enim prima veritas in qua omnia 
+facien<lb break="no" ed="#Bb" n="17"/>da fuerunt vita et lux, antequam essent
+<lb ed="#Bb" n="18"/>in seipsis, ut dicatur veritas ars, et(
+sa<lb break="no" ed="#Bb" n="19"/>pientia predeterminans, et justitia 'id
+<lb ed="#Bb" n="20"/>quod condecet predeterminantem opus :
+<lb ed="#Bb" n="21"/>quia decet quod non mutet, nec tamen
+<lb ed="#Bb" n="22"/>dedeceret si illud faceret : sed mutatio
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="23"/>dedeceret cum si veniret de una 
+prede<lb break="no" ed="#Bb" n="24"/>terminatione faciendorum in aliam, 
+tam<lb break="no" ed="#Bb" n="25"/>quam peenitentia ductus de prima.
+</p>
+            <p xml:id="alalal-c69985-d1e235">
+               <lb ed="#Bb" n="26"/>Ad id quod queritur de ratione, 
+dicen<lb break="no" ed="#Bb" n="27"/>dum quod ratio dicit hic creatum 
+ordi<lb break="no" ed="#Bb" n="28"/>nem nature procedentem ab tncreata 
+ra<lb break="no" ed="#Bb" n="29"/>tione ordinante ? et iste ordo prohibet
+<lb ed="#Bb" n="30"/>oninia simul esse.
+</p>
+            <p xml:id="alalal-c69985-d1e248">
+               <lb ed="#Bb" n="31"/>Ad id quod objicitur, quod omnia sunt 
+<lb ed="#Bb" n="32"/>simul, dicendum quod non intelligit hic
+<lb ed="#Bb" n="33"/>semul secundum modum quo omnia sunt
+<lb ed="#Bb" n="34"/>simul in principiis formalibus et 
+mate<lb break="no" ed="#Bb" n="35"/>rialibus nature, sed simul simultate 
+in<lb break="no" ed="#Bb" n="36"/>dividuorum omnium in eodem tempore :
+<lb ed="#Bb" n="37"/>quia sic periret totum opus nature, quod
+<lb ed="#Bb" n="38"/>est per successionem et generationem,
+<lb ed="#Bb" n="39"/>et inutiles essent qualitates elementorum,
+<lb ed="#Bb" n="40"/>cum non agerent ad generationem et 
+cor<lb break="no" ed="#Bb" n="41"/>ruptionem, et motus ccel esset inutilis,
+<lb ed="#Bb" n="42"/>et periret ordo nature totus : et hac 
+ra<lb break="no" ed="#Bb" n="43"/>tione ncn omnia fecit simul, heet hoc
+<lb ed="#Bb" n="44"/>facere potuerit
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

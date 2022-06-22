@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="2"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ccc107"><!-- l1d26dt1 -->
+            <head xml:id="alalal-ccc107-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-ccc107-d1e101">
+               <lb ed="#Bb" n="22"/>DIVISLO TEXTUS.
+</p>
+            <p xml:id="alalal-ccc107-d1e106">
+               <lb ed="#Bb" n="23"/>
+               <quote xml:id="alalal-ccc107-Qd1e110"> Nune de proprietatibus personarum, 
+<lb ed="#Bb" n="24"/>quas frequenter, etc. </quote>
+            </p>
+            <p xml:id="alalal-ccc107-d1e116">
+               <lb ed="#Bb" n="25"/>Hic incipit pars illa quae est de 
+proprie<lb break="no" ed="#Bb" n="26"/>tatibus distinguentibus personas. 
+</p>
+            <p xml:id="alalal-ccc107-d1e123">
+               <lb ed="#Bb" n="27"/>Et dividitur in tres partes. In prima 
+<lb ed="#Bb" n="28"/>determinat Magister de proprietatibus 
+<lb ed="#Bb" n="29"/>ommibus sive propriis, sive appropriatis, 
+<lb ed="#Bb" n="30"/>sive ab aeterno, sive ex tempore Deo 
+con<lb break="no" ed="#Bb" n="31"/>venientibus. In secunda, determinat de 
+<lb ed="#Bb" n="32"/>comparatione personarum ad invicem 
+<lb ed="#Bb" n="33"/>secundum hujusmodi proprietates: et haec 
+<lb ed="#Bb" n="34"/>incipit infra, Dist. XXXII, ibi, A, 
+<lb ed="#Bb" n="35"/>
+               <quote xml:id="alalal-ccc107-Qd1e144"> Hic oritur questio ex praedictis dedu- 
+<cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" n="36"/>cta. </quote> In tertia, agit de comparatione
+<lb ed="#Bb" n="37"/>proprietatum ad essentiam et personam,
+<lb ed="#Bb" n="38"/>ibi, Dist. XX XIII, A, <quote xml:id="alalal-ccc107-Qd1e156"> Post supradicta
+<lb ed="#Bb" n="39"/>interius considerari atque inguiri oportet,
+<lb ed="#Bb" n="40"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-ccc107-d1e165">
+               <lb ed="#Bb" n="41"/>Prima harum adhuc subdivitur in tres.
+<lb ed="#Bb" n="42"/>Sunt enim proprietates appropriate ab
+<lb ed="#Bb" n="43"/>wterno personis convenientes : et de his
+<lb ed="#Bb" n="44"/>agit primo. Sunt etiam proprietates 
+ap<lb break="no" ed="#Bb" n="45"/>propriate ex tempore Deo convenientes :
+<lb ed="#Bb" n="46"/>et de his agit secundo, infra, Dist. XXX,
+<lb ed="#Bb" n="47"/>ibi, A, <quote xml:id="alalal-ccc107-Qd1e182"> Sunt enim quedam quae ex
+<lb ed="#Bb" n="48"/>tempore de Deo, etc. </quote> Sunt etiam 
+pro<lb break="no" ed="#Bb" n="49"/>prietates personis appropriate non 
+pro<lb break="no" ed="#Bb" n="50"/>prie, tamen ab aeterno convenientes : de
+<lb ed="#Bb" n="51"/>quibus agit tertio, ibi, Dist. XXXI, A,
+<lb ed="#Bb" n="52"/>
+               <quote xml:id="alalal-ccc107-Qd1e196"> Praeterea considerari oportet, cum tres
+<lb ed="#Bb" n="53"/>persone coaequales sibi sint, etc. </quote>
+            </p>
+            <p xml:id="alalal-ccc107-d1e202">
+               <lb ed="#Bb" n="54"/>Harum prior subdividitur adhuc in 
+<pb ed="#Bb" n="3"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>tres : in guarum prima determinat tres
+<lb ed="#Bb" n="2"/>proprietates personales in communi. In
+<lb ed="#Bb" n="3"/>secunda determinat proprietatem Patris
+<lb ed="#Bb" n="4"/>que est persone non personalis : et hac
+<lb ed="#Bb" n="5"/>incipit in Distinct. XXVIII, ibi, A, <quote xml:id="alalal-ccc107-Qd1e221"> 
+Pre<lb break="no" ed="#Bb" n="6"/>terea considerari oportet, quod non 
+tan<lb break="no" ed="#Bb" n="7"/>tum tres, etc. </quote> Tertio, determinat 
+pro<lb break="no" ed="#Bb" n="8"/>prietatem persone non personalem, qux
+<lb ed="#Bb" n="9"/>est communiter Patris et Filii, sed non
+<lb ed="#Bb" n="10"/>Spiritus sancti: et haec incipit, infra,
+<lb ed="#Bb" n="11"/>Distinct. X XIX, ibi,.A, <quote xml:id="alalal-ccc107-Qd1e237"> Hst Praeterea
+<lb ed="#Bb" n="12"/>aliud nomen, multiplicem notans 
+rela<lb break="no" ed="#Bb" n="13"/>tionem, etc. </quote>
+            </p>
+            <p xml:id="alalal-ccc107-d1e245">
+               <lb ed="#Bb" n="14"/>Adhuc prior istaruin subdividitur in
+<lb ed="#Bb" n="15"/>duas. In prima determinat de tribus 
+pro<lb break="no" ed="#Bb" n="16"/>prietatibus personalibus prout propriis
+<lb ed="#Bb" n="17"/>nominibus significantur. In secunda
+<lb ed="#Bb" n="18"/>prout significantur aliis nominibus, ibi,
+<lb ed="#Bb" n="19"/>Dist. XXVIT, A, <quote xml:id="alalal-ccc107-Qd1e260"> Mic quert potest,
+<lb ed="#Bb" n="20"/>Utrum proprietates quas Hilarius posuté,
+<lb ed="#Bb" n="21"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-ccc107-d1e268">
+               <lb ed="#Bb" n="22"/>Distinctio autem ista dividitur in duas
+<lb ed="#Bb" n="23"/>partes : in quarum prima determinat de
+<lb ed="#Bb" n="24"/>nomine hypostasis, eo quod proprictates
+<lb ed="#Bb" n="25"/>ad hypostasim referuntur. In secunda,
+<lb ed="#Bb" n="26"/>determinat de proprietatibus, ibi, B,
+<lb ed="#Bb" n="27"/>
+               <quote xml:id="alalal-ccc107-Qd1e283"> Jam de proprietatibus personarum,
+<lb ed="#Bb" n="28"/>etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

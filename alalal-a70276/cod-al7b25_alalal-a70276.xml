@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="352"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a70276"><!-- l1d11a10 -->
+            <head xml:id="alalal-a70276-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-a70276-Hd1e101" type="question-title">An Spiritus sanctus procedata Filio ut
+verbum, vel amor ?</head>
+            <p xml:id="alalal-a70276-d1e104">
+               <pb ed="#Ba" n="352"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ARTICULUS X.
+<lb ed="#Ba" n="2"/>An Spiritus sanctus procedata Filio ut
+<lb ed="#Ba" n="3"/>verbum, vel amor ?
+</p>
+            <p xml:id="alalal-a70276-d1e117">
+               <lb ed="#Ba" n="4"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="5"/>
+               <quote xml:id="alalal-a70276-Qd1e123"> Spiritus sapientie non potest audire a
+<lb ed="#Ba" n="6"/>Filio loquente quae neseit, cum hoc ipsum
+<lb ed="#Ba" n="7"/>sit quod profertur a Filio, etc. </quote>
+            </p>
+            <p xml:id="alalal-a70276-d1e131">
+               <lb ed="#Ba" n="8"/>Ex hoc enim sequitur, quod Spiritus
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="9"/>sanctus procedit a Filio ut verbum, et
+<lb ed="#Ba" n="10"/>non ut amor.
+</p>
+            <p xml:id="alalal-a70276-d1e143">
+               <lb ed="#Ba" n="11"/>Ad hoc dicendum, quod Jogui est 
+ma<lb break="no" ed="#Ba" n="12"/>nifestare se : intelleclus aulem 
+manife<lb break="no" ed="#Ba" n="13"/>stat se verbo: et tale loqui notionaliter
+<lb ed="#Ba" n="14"/>sumptum non convenit nisi Patri : et
+<lb ed="#Ba" n="15"/>proferri sic non convenit nisi Filio. 
+Lo<lb break="no" ed="#Ba" n="16"/>qui autem essentialiter sumptum 
+conve<lb break="no" ed="#Ba" n="17"/>nit tribus. Est autem loqui etiam 
+manife<lb break="no" ed="#Ba" n="18"/>statio affectus sive voluntatis : et hee
+<lb ed="#Ba" n="19"/>manifestatio non fit in verbo, sed amore
+<lb ed="#Ba" n="20"/>procedente ab affectu sive voluntate : et
+<lb ed="#Ba" n="21"/>sic Spiritus sanctus profertur a Filio vel
+<lb ed="#Ba" n="22"/>a verbo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

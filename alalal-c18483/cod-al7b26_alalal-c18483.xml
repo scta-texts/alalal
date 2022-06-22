@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="97"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c18483"><!-- l1d30a8 -->
+            <head xml:id="alalal-c18483-Hd1e99">Articulus 8</head>
+            <p xml:id="alalal-c18483-d1e101">
+               <lb ed="#Bb" n="30"/>ARTICULUS VIII. 
+<lb ed="#Bb" n="31"/>An Spiritus sanctus referatur ad se, 
+<lb ed="#Bb" n="32"/>cum datum ad dantem refertur ? 
+</p>
+            <p xml:id="alalal-c18483-d1e110">
+               <lb ed="#Bb" n="33"/>Deinde queritur de ultima parte 
+distin<lb break="no" ed="#Bb" n="34"/>ctionis, ibi, <quote xml:id="alalal-c18483-Qd1e116"> Hic potest solvt questio
+<lb ed="#Bb" n="35"/>superius proposita, ete. </quote>
+            </p>
+            <p xml:id="alalal-c18483-d1e122">
+               <lb ed="#Bb" n="36"/>Videtur enim falsum dicere in Littera: 
+<lb ed="#Bb" n="37"/>concedit enim, quod datum refertur ad diligenter.
+<lb ed="#Bb" n="38"/>dantem, et quod Spiritus sanctus dat se,
+<cb ed="#Bb" n="d"/>
+               <lb ed="#Bb" n="39"/>et tamen non refertur ad se: et concedit,
+<lb ed="#Bb" n="40"/>quod appellatio dati refertur ad _dantem :
+<lb ed="#Bb" n="41"/>et ipse est dans: ergo refertur ad se, ut
+<lb ed="#Bb" n="42"/>videtur.
+</p>
+            <p xml:id="alalal-c18483-d1e142">
+               <lb ed="#Bb" n="43"/>Solutio. Dicendum, quod referri 
+se<lb break="no" ed="#Bb" n="44"/>cundum appellationem donum non 
+sim<lb break="no" ed="#Bb" n="45"/>pliciter, sed ad dantem, est referri 
+secun<lb break="no" ed="#Bb" n="46"/>dum quid: et bene concedit Magister,
+<lb ed="#Bb" n="47"/>quod taliter secundum quid refertur 
+Spi<lb break="no" ed="#Bb" n="48"/>ritus sanctus ad se: sed referri ad se, est
+<lb ed="#Bb" n="49"/>simpliciter referri ad se: et hoc intendit
+<lb ed="#Bb" n="50"/>negare in Littera, ut patet inspicienti
+<lb ed="#Bb" n="51"/>diligenter.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

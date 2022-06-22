@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="301"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i63206"><!-- l4d33a12 -->
+            <head xml:id="alalal-i63206-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-i63206-Hd1e101" type="question-title">An difficilius fuit continere temporibus
+antiquis, quam his temporibus ?</head>
+            <p xml:id="alalal-i63206-d1e104">
+               <lb ed="#Bf" n="55"/>ARTICULUS XII.
+<lb ed="#Bf" n="56"/>An difficilius fuit continere temporibus
+<lb ed="#Bf" n="57"/>antiquis, quam his temporibus ?
+</p>
+            <p xml:id="alalal-i63206-d1e113">
+               <lb ed="#Bf" n="58"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bf" n="59"/>ibi, A, post medium : <quote xml:id="alalal-i63206-Qd1e119"> Qui multo 
+faci<lb break="no" ed="#Bf" n="60"/>lius continere possent et vellent, etc. </quote>
+            </p>
+            <p xml:id="alalal-i63206-d1e125">
+               <lb ed="#Bf" n="61"/>Circa difficile enim et bonum est 
+om<lb break="no" ed="#Bf" n="62"/>nis ars et virtus : cum ergo virtus sit
+<lb ed="#Bf" n="63"/>circa continere, difficilius erat continere,
+<lb ed="#Bf" n="64"/>quam contrahere.
+</p>
+            <p xml:id="alalal-i63206-d1e137">
+               <lb ed="#Bf" n="65"/>Ad hoc dicendum, quod est difficultas
+<lb ed="#Bf" n="66"/>ex parte sensualitatis : et de illa 
+proce<lb break="no" ed="#Bf" n="67"/>dit objectio. Est etiam difficultas 
+causa<lb break="no" ed="#Bf" n="68"/>ta secundum rationem ex vi honestatis,
+<pb ed="#Bf" n="302"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>sicut difficile est justo peccare : et de illa
+<lb ed="#Bf" n="2"/>loquitur in Letéera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

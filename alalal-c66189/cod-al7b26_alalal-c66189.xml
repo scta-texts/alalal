@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="349"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c66189"><!-- l1d41a5 -->
+            <head xml:id="alalal-c66189-Hd1e99">Articulus 5</head>
+            <p xml:id="alalal-c66189-d1e101">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="18"/>ARTICULUS V. 
+<lb ed="#Bb" n="19"/>An scientia Dei sit variabilis ? 
+</p>
+            <p xml:id="alalal-c66189-d1e110">
+               <lb ed="#Bb" n="20"/>Deinde queritur de ultima parte istius
+<lb ed="#Bb" n="21"/>tractatus quae incipit, ibi, ¥, <quote xml:id="alalal-c66189-Qd1e116"> Praeterea
+<lb ed="#Bb" n="22"/>considerari oportet,|Utrum ea.omntia,
+<lb ed="#Bb" n="23"/>etc. </quote> In qua Magister tangit, utrum in
+<lb ed="#Bb" n="24"/>Deo cadat mutatio scientiae et 
+praescien<lb break="no" ed="#Bb" n="25"/>tie?
+</p>
+            <p xml:id="alalal-c66189-d1e128">
+               <lb ed="#Bb" n="26"/>Et primo determinat de mutatione
+<lb ed="#Bb" n="27"/>prescientiae,  secundo de mutatione 
+scien<lb break="no" ed="#Bb" n="28"/>tiae, ibi, G, <quote xml:id="alalal-c66189-Qd1e136"> De scientia autem altter
+<lb ed="#Bb" n="29"/>dicimus, etc. </quote>
+            </p>
+            <p xml:id="alalal-c66189-d1e142">
+               <lb ed="#Bb" n="30"/>Concedit Magister in Litera, quod 
+ali<lb break="no" ed="#Bb" n="31"/>quid prescivit Deus quod modo non 
+<lb ed="#Bb" n="32"/>prascit : et non sequitur, quod sit 
+muta<lb break="no" ed="#Bb" n="33"/>tus, sed potius quod res prescita sit 
+mu<lb break="no" ed="#Bb" n="34"/>tata. 
+</p>
+            <p xml:id="alalal-c66189-d1e156">
+               <lb ed="#Bb" n="35"/>Sed de hoc incidit questio : quia 
+pree<lb break="no" ed="#Bb" n="36"/>scientia dicit relationem scienti# Dei ad
+<cb ed="#Bb" n="c"/>
+               <lb ed="#Bb" n="37"/>futura : hac autem relatio in aliquo est :
+<lb ed="#Bb" n="38"/>non nisi in scientia Dei : ergo variata 
+re<lb break="no" ed="#Bb" n="39"/>latione, aliqua mutatio facta est in 
+scien<lb break="no" ed="#Bb" n="40"/>tia, ut videtur.
+</p>
+            <p xml:id="alalal-c66189-d1e174">
+               <lb ed="#Bb" n="41"/>Sed HOG supra solutum est, 
+osten<lb break="no" ed="#Bb" n="42"/>dendo quod relatio variatur altero 
+extre<lb break="no" ed="#Bb" n="43"/>morum variato, sine aliqua mutatione
+<lb ed="#Bb" n="44"/>alterius : et ideo verum dicit Magister,
+<lb ed="#Bb" n="45"/>quod hoc non ponit mutationem nisi in
+<lb ed="#Bb" n="46"/>re scita, et non in Deo sciente.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

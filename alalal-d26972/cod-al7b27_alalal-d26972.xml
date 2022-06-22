@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="142"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d26972"><!-- l2d7dt -->
+            <head xml:id="alalal-d26972-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-d26972-d1e101">
+               <lb ed="#Bc" n="20"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-d26972-d1e106">
+               <lb ed="#Bc" n="21"/>
+               <quote xml:id="alalal-d26972-Qd1e110"> Supra dictum est, quod Angeli qui
+<lb ed="#Bc" n="22"/>perstiterunt, per gratiam, etc. </quote>
+               <lb ed="#Bc" n="23"/>Hic incipit Magister agere de operibus 
+<lb ed="#Bc" n="24"/>conversorum, et aversorum. 
+</p>
+            <p xml:id="alalal-d26972-d1e120">
+               <lb ed="#Bc" n="25"/>Et habet duas partes : sunt igitur
+<lb ed="#Bc" n="26"/>quedam opera Angelorum quae 
+operan<lb break="no" ed="#Bc" n="27"/>tur non assumpto corpore, et de his est Angeli, etc. <!--</quote>-->
+<lb ed="#Bc" n="28"/>prima pars : quaedam autem alia quae
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="29"/>operantur assumpto corpore, et de his
+<lb ed="#Bc" n="30"/>est secunda pars, qué incipit in sequenti
+<lb ed="#Bc" n="31"/>distinctione, ibi, A, <quote xml:id="alalal-d26972-Qd1e141"> Solet etiam in 
+que<lb break="no" ed="#Bc" n="32"/>stione, etc. </quote>
+            </p>
+            <p xml:id="alalal-d26972-d1e147">
+               <lb ed="#Bc" n="33"/>Heec distinctio dividitur in partes duas:.
+<lb ed="#Bc" n="34"/>in quarum prima Magister agit de 
+confir<lb break="no" ed="#Bc" n="35"/>matione liberi arbitrii in bonis, et 
+obsti<lb break="no" ed="#Bc" n="36"/>natione in malis : eo quod liberum 
+arbi<lb break="no" ed="#Bc" n="37"/>trium est causa operum. in secunda
+<lb ed="#Bc" n="38"/>autem agit specialiter de operibus quae
+ <lb ed="#Bc" n="39"/>faciunt tam  boni quam mali Angeli,
+<lb ed="#Bc" n="40"/>transmutando res, ibi, E, <quote xml:id="alalal-d26972-Qd1e166"> Et licet mali </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

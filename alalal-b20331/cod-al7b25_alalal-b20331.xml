@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="624"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b20331"><!-- l1d25a1 -->
+            <head xml:id="alalal-b20331-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-b20331-Hd1e101" type="question-title">Quid sit persona secundum diffinitionem ?</head>
+            <p xml:id="alalal-b20331-d1e104">
+               <lb ed="#Ba" n="9"/>ARTICULUS I.
+<lb ed="#Ba" n="10"/>Quid sit persona secundum diffinitionem ?
+</p>
+            <p xml:id="alalal-b20331-d1e111">
+               <lb ed="#Ba" n="11"/>Incidunt autem duae questiones ante
+<lb ed="#Ba" n="12"/>Littera, scilicet quid sit persona 
+secun<lb break="no" ed="#Ba" n="13"/>dum diffinitionem ? Et, Utrum 
+univoce<lb break="no" ed="#Ba" n="14"/>tur in divinis personis et creatis ?
+</p>
+            <p xml:id="alalal-b20331-d1e122">
+               <lb ed="#Ba" n="15"/>Ap primum ponitur diffinitio <ref xml:id="alalal-b20331-Rd1e126">Boetii in
+<lb ed="#Ba" n="16"/>libro de Duabus naturis in una persona
+<lb ed="#Ba" n="17"/>Christi</ref>: Persona est rationalis nature
+<lb ed="#Ba" n="18"/>individua substantia. Alia diffinitio est
+<lb ed="#Ba" n="19"/>
+               <ref xml:id="alalal-b20331-Rd1e137">
+                  <name xml:id="alalal-b20331-Nd1e139">Richardi</name> in quarto libro suo de Trinitate</ref>,
+<lb ed="#Ba" n="20"/>sic, Personam dicimus aliquem solum a
+<lb ed="#Ba" n="21"/>ceteris omnibus singulari proprietate dis- 
+</p>
+            <p xml:id="alalal-b20331-d1e149">
+               <lb ed="#Ba" n="22"/>cretum. Item, infra, ibidem: Persona
+<lb ed="#Ba" n="23"/>divina est divine nature 
+incommunicabi<lb break="no" ed="#Ba" n="24"/>lis existentia. Item, infra, ibidem : 
+Per<lb break="no" ed="#Ba" n="25"/>sona est existens per se solum juxta 
+sin<lb break="no" ed="#Ba" n="26"/>gularem rationalis nature cxistentia 
+mo<lb break="no" ed="#Ba" n="27"/>dum. Alia datur a Magistris, haec‘scilicet,
+<lb ed="#Ba" n="28"/>Persona est hypostasis distincta 
+propric<lb break="no" ed="#Ba" n="29"/>tate ad dignitatem pertinente.
+</p>
+            <p xml:id="alalal-b20331-d1e169">
+               <lb ed="#Ba" n="30"/>Objicitur autem contra primam : quia
+<lb ed="#Ba" n="31"/>1. Magister dicit, quod illa Boetii 
+de<lb break="no" ed="#Ba" n="32"/>scriptio personz,non convenit divinis 
+per<lb break="no" ed="#Ba" n="33"/>sonis .
+</p>
+            <p xml:id="alalal-b20331-d1e180">
+               <lb ed="#Ba" n="34"/>2. Hoc etiam per rationem ostenditur
+<lb ed="#Ba" n="35"/>sic: Quidquid non est rationalis natura,
+<lb ed="#Ba" n="36"/>non est persona: Deus non est rationalis
+<lb ed="#Ba" n="37"/>nature : ergo non est persona. Prima
+<lb ed="#Ba" n="38"/>patet per se. Secunpa probatur per hoc
+<lb ed="#Ba" n="39"/>quod rationale est differentia divisiva 
+ani<lb break="no" ed="#Ba" n="40"/>malis : Deus autem animal non est, quia
+<lb ed="#Ba" n="41"/>corpus non est: ergo rationalis non est.
+</p>
+            <p xml:id="alalal-b20331-d1e200">
+               <lb ed="#Ba" n="42"/>3. Item, Cum dicitur, rationals 
+natu<lb break="no" ed="#Ba" n="43"/>re, sumitur natura in aliqua 
+communi<lb break="no" ed="#Ba" n="44"/>tate : haec autem communitas 
+contrahi<lb break="no" ed="#Ba" n="45"/>tur in persona per hoc quod aliquid 
+ad<lb break="no" ed="#Ba" n="46"/>dit: ergo persona in additione se habet
+<lb ed="#Ba" n="47"/>ad naiuram : ergo est composita, quod
+<lb ed="#Ba" n="48"/>falsum est, cum in divinis ejusdem 
+sim<lb break="no" ed="#Ba" n="49"/>plicitatis sit persona et natura.
+</p>
+            <p xml:id="alalal-b20331-d1e220">
+               <lb ed="#Ba" n="50"/>4. Praeterea, Cum dicitur, substantia,
+<lb ed="#Ba" n="51"/>essentia, persona, natura: quare non
+<lb ed="#Ba" n="52"/>dixit personam esse substantiam 
+indivi<lb break="no" ed="#Ba" n="53"/>duam rationalis essentiae vel substantia,
+<lb ed="#Ba" n="54"/>sicut nature ?
+</p>
+            <p xml:id="alalal-b20331-d1e233">
+               <lb ed="#Ba" n="55"/>Si forte dieas, quod persona est 
+ejus<lb break="no" ed="#Ba" n="56"/>dem simplicitatis cum natura, et mbil
+<lb ed="#Ba" n="57"/>addit : quia non dicitur ut ens de 
+essen<lb break="no" ed="#Ba" n="58"/>tia diffiniti quod in diffinitione cadit 
+obli<lb break="no" ed="#Ba" n="59"/>que, sicut cum dicitur simum vel 
+simi<lb break="no" ed="#Ba" n="60"/>tas nasi curvitas, et claudum curvitas
+<lb ed="#Ba" n="61"/>eruris, non dicitur nisi unum: quia id
+<lb ed="#Ba" n="62"/>quod oblique cadit ibi, non est de 
+cssen<lb break="no" ed="#Ba" n="63"/>tia ejus. Si, inquam, sic dicas. Contra :
+</p>
+            <p xml:id="alalal-b20331-d1e256">
+               <lb ed="#Ba" n="64"/>1. Aliter est in diffinitione substantia,
+<lb ed="#Ba" n="65"/>et aliter in diffinitione accidentis, ut dicit
+<lb ed="#Ba" n="66"/>Philosophus in VIE prime 
+Philoso<lb break="no" ed="#Ba" n="67"/>phie, quia in diflinitione substantiae non
+<lb ed="#Ba" n="68"/>recipitur accidens, sed in diffinitione 
+ac<lb break="no" ed="#Ba" n="69"/>cidentis necesse est recipere subjectum,
+<lb ed="#Ba" n="70"/>aut determinatum, sicut in propria 
+pas<lb break="no" ed="#Ba" n="71"/>sione : aut indeterminatum, sicut in alits.
+<lb ed="#Ba" n="72"/>Cum ergo diffinitur persona, aut 
+difini<lb break="no" ed="#Ba" n="73"/>tur sicut substantia supposita : sicut dicil
+<lb ed="#Ba" n="74"/>Boetius expresse, quod persona nomuinat
+<lb ed="#Ba" n="75"/>substantiam suppositam : aut diffinitur
+<lb ed="#Ba" n="76"/>ut accidens commune, vel proprium :
+<lb ed="#Ba" n="77"/>quia non est dare medium, $1 primo 
+mo<lb break="no" ed="#Ba" n="78"/>do diffinitur : ergo nihil ponitur in 
+dif<lb break="no" ed="#Ba" n="79"/>finitione ejus quod non sit de essentia
+<lb ed="#Ba" n="80"/>ejus aliquo modo: et rationalis nature
+<lb ed="#Ba" n="81"/>ponitur in ejus diffinitione : ergo aliquo
+<lb ed="#Ba" n="82"/>modo est de essentia ejus. Si autem 
+diffi<lb break="no" ed="#Ba" n="83"/>nitur ut accidens : tunc subject: mentio
+<lb ed="#Ba" n="84"/>debet fier: in diffinitione, quod iterum
+<lb ed="#Ba" n="85"/>falsum est.
+</p>
+            <p xml:id="alalal-b20331-d1e306">
+               <lb ed="#Ba" n="86"/>2. Item, Commentator, ibidem, dicit,
+<lb ed="#Ba" n="87"/>quod ea quae sic cadunt oblique in diffini-
+<pb ed="#Ba" n="625"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>tione accidentium, sunt loco 
+differentia<lb break="no" ed="#Ba" n="2"/>rum specificantium accidens : et ea que
+<lb ed="#Ba" n="3"/>in recto, sunt loco generum : et hoc 
+pa<lb break="no" ed="#Ba" n="4"/>tet: cum enim simitas dicitur curvitas
+<lb ed="#Ba" n="5"/>nasi, per ly curvitas non differt simum a
+<lb ed="#Ba" n="6"/>claudo, quia utrumque curvitas est, sed
+<lb ed="#Ba" n="7"/>per ly nasi: ergo id quod cadit in 
+obli<lb break="no" ed="#Ba" n="8"/>quo in talibus diffinitionibus, est 
+subje<lb break="no" ed="#Ba" n="9"/>clum circa quod est per se essentia 
+acci<lb break="no" ed="#Ba" n="10"/>dentis diffiniti. Si ergo simile est quod
+<lb ed="#Ba" n="11"/>adductum est pro simili, rationabilis 
+na<lb break="no" ed="#Ba" n="12"/>ture notabit subjectum circa quod est
+<lb ed="#Ba" n="13"/>persona, quod falsum est.
+</p>
+            <p xml:id="alalal-b20331-d1e345">
+               <lb ed="#Ba" n="14"/>3. Item, Aut rationalis natura est de
+<lb ed="#Ba" n="15"/>substantia cujuslibet persone, aut non.
+<lb ed="#Ba" n="16"/>Si est de substantia : tunc videtur obje-_
+<lb ed="#Ba" n="17"/>ctic procedere. Sinon: tunc 
+accideata<lb break="no" ed="#Ba" n="18"/>liter se habet ad illam, quod iterum 
+fal<lb break="no" ed="#Ba" n="19"/>sum est.
+</p>
+            <p xml:id="alalal-b20331-d1e361">
+               <lb ed="#Ba" n="20"/>4. Item, Boetius querendo 
+diffinitio<lb break="no" ed="#Ba" n="21"/>nem persone, dividit substantiam per
+<lb ed="#Ba" n="22"/>rationalem et irrationalem, et 
+universa<lb break="no" ed="#Ba" n="23"/>lem et particularem : ergo ly rationalis
+<lb ed="#Ba" n="24"/>natura in diffinitione contrahit, sicut 
+dif<lb break="no" ed="#Ba" n="25"/>ferentia constituens : et sic erit de 
+intel<lb break="no" ed="#Ba" n="26"/>lectu persone.
+</p>
+            <p xml:id="alalal-b20331-d1e379">
+               <lb ed="#Ba" n="27"/>5. Item, Rationalis natura praedicatur
+<lb ed="#Ba" n="28"/>in recto de qualibet persona : Socrates
+<lb ed="#Ba" n="29"/>enim est rationalis natura, et Gabriel
+<lb ed="#Ba" n="30"/>est rationalis natura, et pater est 
+ratio<lb break="no" ed="#Ba" n="31"/>nalis natura: aut ergo praedicatur ut
+<lb ed="#Ba" n="32"/>accidens, aut ut substantia: non ut 
+ac<lb break="no" ed="#Ba" n="33"/>cidens sicut patet cuilibet : ergo ut 
+sub<lb break="no" ed="#Ba" n="34"/>stantiale praedicatum: ergo est de 
+in<lb break="no" ed="#Ba" n="35"/>tellectu et ratione subjecti: et hoc 
+puta<lb break="no" ed="#Ba" n="36"/>bam neminem dubitare: ergo videtur
+<lb ed="#Ba" n="37"/>sequi ratio prima, quia persona videtur
+<lb ed="#Ba" n="38"/>esse majoris compositionis quam natura
+<lb ed="#Ba" n="39"/>rationalis.
+</p>
+            <p xml:id="alalal-b20331-d1e410">
+               <lb ed="#Ba" n="40"/>Uxrerius quaeritur de hoc quod dicit
+<lb ed="#Ba" n="41"/>substantia : aut enim substantia sumitur
+<lb ed="#Ba" n="42"/>ibi pro essentia, aut pro hypostasi. Si
+<lb ed="#Ba" n="43"/>pro essentia : ergo essentia est individua :
+<lb ed="#Ba" n="44"/>sed individuum notat distinctionem,
+<lb ed="#Ba" n="45"/>quam ponit, circa substanliam : ergo
+<lb ed="#Ba" n="46"/>haecdistinctio ponitur circa essentiam :
+<lb ed="#Ba" n="47"/>ergo essentia distinguitur, quod falsum
+<lb ed="#Ba" n="48"/>est.
+</p>
+            <p xml:id="alalal-b20331-d1e433">
+               <lb ed="#Ba" n="49"/>Item, Si persona est substantia 
+indivi<lb break="no" ed="#Ba" n="50"/>dua, tres persone sunt tres substantia
+<lb ed="#Ba" n="51"/>individue : quia multiplicato diffinito,
+<lb ed="#Ba" n="52"/>multiplicabitur et diffinitio necessario :
+<lb ed="#Ba" n="53"/>siergo persona dicit essentiam: ergo
+<lb ed="#Ba" n="54"/>tres persone erunt tres individue 
+essen<lb break="no" ed="#Ba" n="55"/>tie, etc., quod est heresis.
+</p>
+            <p xml:id="alalal-b20331-d1e451">
+               <lb ed="#Ba" n="56"/>Item, Si dicat hypostasim : tunc 
+vide<lb break="no" ed="#Ba" n="57"/>tur superfluere id quod additur, 
+indivi<lb break="no" ed="#Ba" n="58"/>dua substantia, Ad hoc etiam potest 
+ad<lb break="no" ed="#Ba" n="59"/>duci quod Boetius venando hance 
+diffini<lb break="no" ed="#Ba" n="60"/>tionem, dividit substantiam in 
+universa<lb break="no" ed="#Ba" n="61"/>lem et particularem, et contrahit per hoc
+<lb ed="#Ba" n="62"/>quod addit individua, eo quod 
+substan<lb break="no" ed="#Ba" n="63"/>tia universalis non est persona : ergo 
+vi<lb break="no" ed="#Ba" n="64"/>detur, quod substantia stet in loco ejus
+<lb ed="#Ba" n="65"/>quod est ut secunda substantia : hec
+<lb ed="#Ba" n="66"/>autem non est hypostasis : ergo 
+substan<lb break="no" ed="#Ba" n="67"/>tia non est idem quod hypostasis.
+</p>
+            <p xml:id="alalal-b20331-d1e480">
+               <lb ed="#Ba" n="68"/>Item, Boetius dicit, quod Greci non
+<lb ed="#Ba" n="69"/>vocant dnéstacwv, nisi individuum 
+ratio<lb break="no" ed="#Ba" n="70"/>nalis nature : ergo hypostasis idem est
+<lb ed="#Ba" n="71"/>cum persona : et si substantia esset idem
+<lb ed="#Ba" n="72"/>quod hypostasis, caderet idem in 
+diffini<lb break="no" ed="#Ba" n="73"/>tione sui ipsius.
+</p>
+            <p xml:id="alalal-b20331-d1e496">
+               <lb ed="#Ba" n="74"/>Si forte dicas, quod substantia 
+signifi<lb break="no" ed="#Ba" n="75"/>cat essentiam, sed supponit personam :
+<lb ed="#Ba" n="76"/>et hoc quod dico individua, additur ei
+<lb ed="#Ba" n="77"/>ad explanationem suppositi, quod est in
+<lb ed="#Ba" n="78"/>illo implicite : sicut cum dicitur, Deus
+<lb ed="#Ba" n="79"/>Pater generat, ly Deus significat 
+essen<lb break="no" ed="#Ba" n="80"/>tiam, et supponit personam Patris 
+pro<lb break="no" ed="#Ba" n="81"/>pter ly generat: quia soli Patri 
+conve<lb break="no" ed="#Ba" n="82"/>nit: et tamen non superflue additur ly
+<lb ed="#Ba" n="83"/>Pater : quia explicat suppositum, quod
+<lb ed="#Ba" n="84"/>implicite fuit in ly Deus. Si, inquam, sic
+<lb ed="#Ba" n="85"/>dicas. Contra :
+</p>
+            <p xml:id="alalal-b20331-d1e525">
+               <lb ed="#Ba" n="86"/>1. Secundum hoc enim ly substantia
+<lb ed="#Ba" n="87"/>supponil personam indeterminate, et 
+si<lb break="no" ed="#Ba" n="88"/>gnificat essentiam : et tunc quero, Quid
+<lb ed="#Ba" n="89"/>facit ipsum sic supponere? cum enim
+<lb ed="#Ba" n="90"/>dicitur Deus absolute, non supponit 
+per<lb break="no" ed="#Ba" n="91"/>sonam, sed significat et supponit 
+essen<lb break="no" ed="#Ba" n="92"/>tiam : sed potest trahi ex adjuncto 
+no<lb break="no" ed="#Ba" n="93"/>tional: propter modum significandi, quia
+<lb ed="#Ba" n="94"/>significat concretive ad supponendum pro
+<lb ed="#Ba" n="95"/>persona.
+</p>
+            <p xml:id="alalal-b20331-d1e549">
+               <lb ed="#Ba" n="96"/>2. Si dicas, quod ly individua cogit
+<pb ed="#Ba" n="626"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>supponere : tunc objicitur sicut prius,
+<lb ed="#Ba" n="2"/>quod in se stabit pro substantia communt
+<lb ed="#Ba" n="3"/>que est essentia, et ly wrdividuum non
+<lb ed="#Ba" n="4"/>coaretat ipsum nisi rem suam ponendo
+<lb ed="#Ba" n="5"/>circa ipsum: ergo distinctio ponitur
+<lb ed="#Ba" n="6"/>circa essentiain divinam.
+</p>
+            <p xml:id="alalal-b20331-d1e572">
+               <lb ed="#Ba" n="7"/>3. Praeterea, Non est idem modus 
+si<lb break="no" ed="#Ba" n="8"/>gnificandi in ly Deus,et in substantia :
+<lb ed="#Ba" n="9"/>non enim concedimus, quod 
+substan<lb break="no" ed="#Ba" n="10"/>tia generat, licet concedamus quod Deus
+<lb ed="#Ba" n="11"/>Deum generat : ergo non habet ita 
+pro<lb break="no" ed="#Ba" n="12"/>prie stare pro persona sicut ly Deus: et
+<lb ed="#Ba" n="13"/>ita videtur illa solutio non posse stare.
+</p>
+            <p xml:id="alalal-b20331-d1e590">
+               <lb ed="#Ba" n="14"/>Urrenius quaeritur, Quid praedicat
+<lb ed="#Ba" n="15"/>individua ? Aut enim dicit solam 
+ne<lb break="no" ed="#Ba" n="16"/>gationem, ut quidam dicunt, aut 
+positi<lb break="no" ed="#Ba" n="17"/>ve dicit aliquid. Si dicit negationem 
+so<lb break="no" ed="#Ba" n="18"/>lam : cum igitur negatio sola nihil 
+con<lb break="no" ed="#Ba" n="19"/>stituat, et nihil coarctet, videtur nec
+<lb ed="#Ba" n="20"/>constitui persona per illud, nec etiam
+<lb ed="#Ba" n="21"/>coarctari substantia. Si autem dicit 
+ali<lb break="no" ed="#Ba" n="22"/>quid positive, scilicet individuationem
+<lb ed="#Ba" n="23"/>per aliquid distinguens, tunc ex 
+addi<lb break="no" ed="#Ba" n="24"/>tione se habet ad substantiam: et ita
+<lb ed="#Ba" n="25"/>persona erit composita.
+</p>
+            <p xml:id="alalal-b20331-d1e619">
+               <lb ed="#Ba" n="26"/>Alias autem diffinitiones disputare non
+<lb ed="#Ba" n="27"/>oportet : quia dubia earum patebunt ex
+<lb ed="#Ba" n="28"/>solutione istorum.
+</p>
+            <p xml:id="alalal-b20331-d1e628">
+               <lb ed="#Ba" n="29"/>Dico igitur sine prajudicio, 
+consen<lb break="no" ed="#Ba" n="30"/>tiendo quibusdam ante me, quod si 
+in<lb break="no" ed="#Ba" n="31"/>spiciatur proprietas rei quae est persona,
+<lb ed="#Ba" n="32"/>persona magis proprie estin divinis quam
+<lb ed="#Ba" n="33"/>in creaturis. Si autem respiciatur usus
+<lb ed="#Ba" n="34"/>nominis quod est persona, dico quod 
+se<lb break="no" ed="#Ba" n="35"/>cundum illam diffinitionem Boeti non
+<lb ed="#Ba" n="36"/>competit divinis, nisi exponatur sic, ut
+<lb ed="#Ba" n="37"/>substantia sit existentia, ut dicit 
+Richar<lb break="no" ed="#Ba" n="38"/>dus, ut supra est explanatum, et 
+indivi<lb break="no" ed="#Ba" n="39"/>duum dicat distinctum proprietate, et
+<lb ed="#Ba" n="40"/>natura rationalis pro intellectuali divina
+<lb ed="#Ba" n="41"/>ponatur. Et hoc modo respondeo ad 
+ob<lb break="no" ed="#Ba" n="42"/>jecta.
+</p>
+            <p xml:id="alalal-b20331-d1e661">
+               <lb ed="#Ba" n="43"/>Ap primum dicendum, quod Magister
+<lb ed="#Ba" n="44"/>respicit usum eorum nominum quae po-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="45"/>nuntur in diffinitione persone, et non
+<lb ed="#Ba" n="46"/>rem quae est persona.
+</p>
+            <p xml:id="alalal-b20331-d1e674">
+               <lb ed="#Ba" n="47"/>Ad aliud dicendum, quod rationale
+<lb ed="#Ba" n="48"/>dicitur communiter, et proprie. 
+Commu<lb break="no" ed="#Ba" n="49"/>niter prout per prius et posterius est in
+<lb ed="#Ba" n="50"/>divina, angelica, et humana natura : et
+<lb ed="#Ba" n="51"/>tunc rationalis natura discretiva veri et
+<lb ed="#Ba" n="52"/>falsi, et boni et mali: proprie autem
+<lb ed="#Ba" n="53"/>sumuur prout dicit Isaac, quod ratio
+<lb ed="#Ba" n="54"/>incipit in umbra intelligentia, quia
+<lb ed="#Ba" n="55"/>intelligentia accipit in intellectu  
+dei<lb break="no" ed="#Ba" n="56"/>formi. Ratio autem inquirens, et 
+stu<lb break="no" ed="#Ba" n="57"/>dens, et discursitans (ut dicit 
+Dio<lb break="no" ed="#Ba" n="58"/>nysius) habet acceptiones propter 
+ma<lb break="no" ed="#Ba" n="59"/>jorem sui obtenebrationem, et ideo 
+ca<lb break="no" ed="#Ba" n="60"/>dit in diffinitione hominis : et est 
+diffe<lb break="no" ed="#Ba" n="61"/>rentia divisiva animalis. Verum est 
+ta<lb break="no" ed="#Ba" n="62"/>men, quod Gregorius in Homilia 
+Epi<lb break="no" ed="#Ba" n="63"/>phaniae vocat Angelum animal 
+rationa<lb break="no" ed="#Ba" n="64"/>le: sed hoc alibi expedilum est , quod
+<lb ed="#Ba" n="65"/>dicitur animal non a natura animalis,
+<lb ed="#Ba" n="66"/>sed potius a vi animalis, ut videtur velle
+<lb ed="#Ba" n="67"/>Dionysius quia vim habet discretivam
+<lb ed="#Ba" n="68"/>scnsibilium et rationalium.
+</p>
+            <p xml:id="alalal-b20331-d1e725">
+               <lb ed="#Ba" n="69"/>Ad aliud dicendum, quod in veritate
+<lb ed="#Ba" n="70"/>omnino simplex, nullam potest habere
+<lb ed="#Ba" n="71"/>diffinitionem : sed est simplex, ut 
+sim<lb break="no" ed="#Ba" n="72"/>plex : et est simplex, ut non simplex :
+<lb ed="#Ba" n="73"/>simplex ut simplex, sicut ens, et 
+essen<lb break="no" ed="#Ba" n="74"/>tia, et hujusmodi, in quorum = 
+diffi<lb break="no" ed="#Ba" n="75"/>nitione nihil potest poni quod non
+<lb ed="#Ba" n="76"/>esset posterius illis secundum  
+intelle<lb break="no" ed="#Ba" n="77"/>clum, et de quo ipsa non 
+predicaren<lb break="no" ed="#Ba" n="78"/>tur sine conversione. Simplex autem ut
+<lb ed="#Ba" n="79"/>non simplex, est quod re quidem simplex
+<lb ed="#Ba" n="80"/>est, sed tamen secundum modum 
+in<lb break="no" ed="#Ba" n="81"/>telligendi habet aliquid prius: et tale
+<lb ed="#Ba" n="82"/>est persona, et cetera quae in Deo 
+diffi<lb break="no" ed="#Ba" n="83"/>nimus. Unde bene concedo, quod natura
+<lb ed="#Ba" n="84"/>rationalis est de intellectu. persone,
+<lb ed="#Ba" n="85"/>sicut ens de essentia ejus.
+</p>
+            <p xml:id="alalal-b20331-d1e764">
+               <lb ed="#Ba" n="86"/>Si autem queratur, Quare ponitur in
+<lb ed="#Ba" n="87"/>obliquo ? Dicendum, quod ut dicit
+<lb ed="#Ba" n="88"/>Dionysius, persona nominat 
+substan<lb break="no" ed="#Ba" n="89"/>tiam suppositam, et illa in creaturis
+<lb ed="#Ba" n="90"/>diversitatem aliquam rei habet ad na-
+<pb ed="#Ba" n="627"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>turam cujus est, sive sub qua est. In
+<lb ed="#Ba" n="2"/>divinis autem est diversitas secundum
+<lb ed="#Ba" n="3"/>modum  intelligendi, non secundum
+<lb ed="#Ba" n="4"/>rem: et istam diversitatem importat
+<lb ed="#Ba" n="5"/>obliquus qui transitivus est.
+</p>
+            <p xml:id="alalal-b20331-d1e793">
+               <lb ed="#Ba" n="6"/>Ad aliud dicendum, quod natura 
+po<lb break="no" ed="#Ba" n="7"/>nit respectum ad rem nature : quia res
+<lb ed="#Ba" n="8"/>nature est dupliciter : nature scilicet ut
+<lb ed="#Ba" n="9"/>subjecta rei, et ut constituta per ipsam.
+<lb ed="#Ba" n="10"/>Persona autem res nature est, 
+substan<lb break="no" ed="#Ba" n="11"/>tia vero et essentia non important talem
+<lb ed="#Ba" n="12"/>respectum : et haec congrue ponuntur in
+<lb ed="#Ba" n="13"/>diffinitione.
+</p>
+            <p xml:id="alalal-b20331-d1e813">
+               <lb ed="#Ba" n="14"/>Ab atiup bene concedo, quod non est
+<lb ed="#Ba" n="15"/>simile de diffinitione accidentis: quia
+<lb ed="#Ba" n="16"/>accidentis nulla est diffinitio nisi 
+secun<lb break="no" ed="#Ba" n="17"/>dum quid: sed persona non sic diffinitur,
+<lb ed="#Ba" n="18"/>sed potius natura rationalis aliquid est
+<lb ed="#Ba" n="19"/>persone vel re, ut in inferioribus: vel
+<lb ed="#Ba" n="20"/>modo intelligendi, ut in superiorbus.
+</p>
+            <p xml:id="alalal-b20331-d1e831">
+               <lb ed="#Ba" n="21"/>Ad id quod ulterius quaeritur de 
+sab<lb break="no" ed="#Ba" n="22"/>stantia, quid significet ? Dicendum,
+<lb ed="#Ba" n="23"/>quod sabstantia dicitur quatuor modis.
+<lb ed="#Ba" n="24"/>Quandoque enim dicitur substantia 
+di<lb break="no" ed="#Ba" n="25"/>visa contra accidens: et secundum hoc
+<lb ed="#Ba" n="26"/>nominat naturam primi praedicamenti,
+<lb ed="#Ba" n="27"/>vel rem quae communis est prime 
+sub<lb break="no" ed="#Ba" n="28"/>stantiea et secunde salvatam in utraque :
+<lb ed="#Ba" n="29"/>haecautem substantia nihil aliud est
+<lb ed="#Ba" n="30"/>quam ens per se existens, gratia ejus
+<lb ed="#Ba" n="31"/>quod est per se existere divisum contra
+<lb ed="#Ba" n="32"/>accidens, quod est ens in alio exislens,
+<lb ed="#Ba" n="33"/>sicut acipit Aristoteles substantiam in
+<lb ed="#Ba" n="34"/>prima philosophia in libro IX, in 
+princi<lb break="no" ed="#Ba" n="35"/>pio, ubi dicit : Dictum est de ente cui 
+at<lb break="no" ed="#Ba" n="36"/>tribuuntur alia entis praedicamenta, ubi
+<lb ed="#Ba" n="37"/>dictum est de substantia : dicuntur enim
+<lb ed="#Ba" n="38"/>multa entia secundum quod recipiunt
+<lb ed="#Ba" n="39"/>diffinitionem substantiae, ut qualitas, et
+<lb ed="#Ba" n="40"/>quantitas, et alia quae dicuntur hoc 
+mo<lb break="no" ed="#Ba" n="41"/>do. Secundo et tertio dicitur substantia
+<lb ed="#Ba" n="42"/>per partes divisive istius, scilicet prima,
+<lb ed="#Ba" n="43"/>et secunda, secundum quod primam 
+di<lb break="no" ed="#Ba" n="44"/>cimus ab actu substandi secunda et 
+acci<lb break="no" ed="#Ba" n="45"/>denti : secundam autem ab actu substandi
+<lb ed="#Ba" n="46"/>prime et accidenti, quod etiam subsistere
+<lb ed="#Ba" n="47"/>convenit ei gratia prima in qua 
+ha<lb break="no" ed="#Ba" n="48"/>bet esse, et non gratia suripsius : ut pa-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="49"/>tet, cum dicitur, homo albus, ly albus
+<lb ed="#Ba" n="50"/>refertur ad hominem gratia suppositi
+<lb ed="#Ba" n="51"/>quod est substantia prima, et non gratia
+<lb ed="#Ba" n="52"/>significati quod est secunda. Quarto 
+mo<lb break="no" ed="#Ba" n="53"/>do dicitur substantia quid uniuscujusque
+<lb ed="#Ba" n="54"/>predicamenti: et hance vocant quidam
+<lb ed="#Ba" n="55"/>substantiam logicam : sicut dicit 
+Aristo<lb break="no" ed="#Ba" n="56"/>teles : Si quis cubitali magnitudine 
+po<lb break="no" ed="#Ba" n="57"/>sita dixerit, quod positum est, 
+bicubita<lb break="no" ed="#Ba" n="58"/>lem magnitudinem vel quantitatem esse,
+<lb ed="#Ba" n="59"/>quid est dicit, et quantum dicit, et 
+quan<lb break="no" ed="#Ba" n="60"/>tum significat : et si albedine posita 
+di<lb break="no" ed="#Ba" n="61"/>xerit, quod positum est, colorem esse,
+<lb ed="#Ba" n="62"/>quid est dicit, et qualitatem significat.
+<lb ed="#Ba" n="63"/>Possumus ergo dicere, quod substantia 
+si<lb break="no" ed="#Ba" n="64"/>gnificet substantiam in communi,vel quod
+<lb ed="#Ba" n="65"/>ponatur pro hypostasi. Si primo modo 
+di<lb break="no" ed="#Ba" n="66"/>cere volumus : tunc dicemus, quod licet
+<lb ed="#Ba" n="67"/>substantiam significet, non tamen 
+sup<lb break="no" ed="#Ba" n="68"/>ponit eam, sed supponit pro hypostasi.
+</p>
+            <p xml:id="alalal-b20331-d1e940">
+               <lb ed="#Ba" n="69"/>Ad hoc autem quaeritur, Quid cogat
+<lb ed="#Ba" n="70"/>eam stare pro hypostasi? Dicendum,
+<lb ed="#Ba" n="71"/>quod de se potest stare pro utroque,
+<lb ed="#Ba" n="72"/>scilicet pro natura communi quae est ut
+<lb ed="#Ba" n="73"/>secunda : et hypostasi quae est ut prima
+<lb ed="#Ba" n="74"/>substantia, et per adjunctum individui
+<lb ed="#Ba" n="75"/>stabit pro hypostasi, licet signilicet 
+sub<lb break="no" ed="#Ba" n="76"/>stantiam : et hoc videtur esse de 
+inten<lb break="no" ed="#Ba" n="77"/>tione Boetii, quia hoc modo venatur 
+dif<lb break="no" ed="#Ba" n="78"/>finitionem.
+</p>
+            <p xml:id="alalal-b20331-d1e965">
+               <lb ed="#Ba" n="79"/>Ad hoc autem quod ulterius objicitur,
+<lb ed="#Ba" n="80"/>quod secundum hoc essentia erit 
+wdivi<lb break="no" ed="#Ba" n="81"/>dua: dicendum, quod non : quia 
+adje<lb break="no" ed="#Ba" n="82"/>ctivum duo facit circa substantivum cui
+<lb ed="#Ba" n="83"/>adjungitur : restringit enim ipsum, et
+<lb ed="#Ba" n="84"/>ponil rem suam circa ipsum : ut patet,
+<lb ed="#Ba" n="85"/>cum dicitur, homo albus : dicimus enim,
+<lb ed="#Ba" n="86"/>quod homo habet significatum et 
+suppo<lb break="no" ed="#Ba" n="87"/>situm : et non oportet, quod adjectivum
+<lb ed="#Ba" n="88"/>ponatimplicationem circa utrumque, sed
+<lb ed="#Ba" n="89"/>circa illud cujus primo est accidens, et
+<lb ed="#Ba" n="90"/>hoc est suppositum : et per consequens
+<lb ed="#Ba" n="91"/>non restringitur ly hemo in significato,
+<lb ed="#Ba" n="92"/>sed potius in suppositis. Ita dico hic,
+<lb ed="#Ba" n="93"/>quod substantia significat substantiam in
+<lb ed="#Ba" n="94"/>communi, et adjectivum respicit ipsam
+<lb ed="#Ba" n="95"/>secundum id cui convenit per se 
+distin<lb break="no" ed="#Ba" n="96"/>ctio quae importatur per ly individua : et
+<pb ed="#Ba" n="628"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ideo ponit distinctionem in supposito : et
+<lb ed="#Ba" n="2"/>ideo patet eliam, quare non superfluit ly
+<lb ed="#Ba" n="3"/>individua : non enim haberet substantia
+<lb ed="#Ba" n="4"/>quo traheretur ad substandum pro 
+sup<lb break="no" ed="#Ba" n="5"/>posito incommunicabili, nisi adderetur
+<lb ed="#Ba" n="6"/>individua.
+</p>
+            <p xml:id="alalal-b20331-d1e1024">
+               <lb ed="#Ba" n="7"/>Ad hoc autem quod probatur, quod
+<lb ed="#Ba" n="8"/>substantia de se dicat suppositum, et 
+in<lb break="no" ed="#Ba" n="9"/>dividuum explicet : bene concedo, quod
+<lb ed="#Ba" n="10"/>mihinon videtur verum, sicut probat 
+ob<lb break="no" ed="#Ba" n="11"/>jectio.
+</p>
+            <p xml:id="alalal-b20331-d1e1037">
+               <lb ed="#Ba" n="12"/>Ad hoc autem quod objicitur, quod
+<lb ed="#Ba" n="13"/>multiplicato diffinito, etc. Ruesponpeo,
+<lb ed="#Ba" n="14"/>quod nescio quid prohibeat, quin hoc
+<lb ed="#Ba" n="15"/>sensu possumus dicere tres substantias
+<lb ed="#Ba" n="16"/>individuas rationalis nature : quia 
+subs<lb break="no" ed="#Ba" n="17"/>tantiastat pro supposito: et hoc bene cadit
+<lb ed="#Ba" n="18"/>in pluralitatem, eo quod distinctio (ut jam
+<lb ed="#Ba" n="19"/>habitum est) non ponitur circa essentiam
+<lb ed="#Ba" n="20"/>que est substantiae significatum. Si autem
+<lb ed="#Ba" n="21"/>velimus dicere, quod substantia significat
+<lb ed="#Ba" n="22"/>hypostasim, ut quidam Magistri dicunt :
+<lb ed="#Ba" n="23"/>tunc dicemus, quod non superfluit additio
+<lb ed="#Ba" n="24"/>individui : quia licet hypostasis sit 
+sup<lb break="no" ed="#Ba" n="25"/>positum distinctum, non tamen rationem
+<lb ed="#Ba" n="26"/>distinctionis imporlat in nomine: et hac
+<lb ed="#Ba" n="27"/>ratio distinctionis significatur, cum dicitur
+<lb ed="#Ba" n="28"/>individua. sicut cum dicitur, Deus Pater
+<lb ed="#Ba" n="29"/>generat, ly Deus dicit suppositum verbi
+<lb ed="#Ba" n="30"/>quod importat actum notionalem Patris :
+<lb ed="#Ba" n="31"/>nec supertlue additur Pater, quia dicit
+<lb ed="#Ba" n="32"/>rationem qua suppositum refertur ad 
+ta<lb break="no" ed="#Ba" n="33"/>lem actum, qui Patris proprietate 
+signi<lb break="no" ed="#Ba" n="34"/>ficatur, cum dicitur, Deus Paéer.
+</p>
+            <p xml:id="alalal-b20331-d1e1089">
+               <lb ed="#Ba" n="35"/>Ad hoc quod ulterius quaeritur de ly
+<lb ed="#Ba" n="36"/>individua, sine prejudicio dico, quod 
+po<lb break="no" ed="#Ba" n="37"/>sitive intelligitur : negatio enim 
+conse<lb break="no" ed="#Ba" n="38"/>quens positionem relinquit positivum 
+an<lb break="no" ed="#Ba" n="39"/>te se.
+</p>
+            <p xml:id="alalal-b20331-d1e1102">
+               <lb ed="#Ba" n="40"/>Ad id quod contra objicitur, dicendum
+<lb ed="#Ba" n="41"/>quod ratione affirmationis non 
+exprimi<lb break="no" ed="#Ba" n="42"/>tur separatio ejus a substantia communi,
+<lb ed="#Ba" n="43"/>sed ratione negationis : et ideo 
+nomina<lb break="no" ed="#Ba" n="44"/>tur anegatione, cum dicitur substantia
+<lb ed="#Ba" n="45"/>individua, ut idem sit quod substantia
+<lb ed="#Ba" n="46"/>communicabilis.
+</p>
+            <p xml:id="alalal-b20331-d1e1120">
+               <lb ed="#Ba" n="47"/>Aliae autem diffinitiones Richardi om-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>nes dantur per comparationem ad id quod
+<lb ed="#Ba" n="49"/>individuat personam. Et prima dicit hoc
+<lb ed="#Ba" n="50"/>in communi secundum quod competit
+<lb ed="#Ba" n="51"/>Deo, Angelo, et homini. Secunda autem
+<lb ed="#Ba" n="52"/>divine tantum. Tertia videtur corrigere
+<lb ed="#Ba" n="53"/>diffinitionem Boetii, quod melius dicatur
+<lb ed="#Ba" n="54"/>existentia quam substantia. Quarta dicit
+<lb ed="#Ba" n="55"/>subjectum persone, et proprietatem in
+<lb ed="#Ba" n="56"/>communi. Magistrorum autem diffinitio
+<lb ed="#Ba" n="57"/>datur per comparationem ad mores vel
+<lb ed="#Ba" n="58"/>civilia, juxta cujus similitudinem 
+trans<lb break="no" ed="#Ba" n="59"/>sumitur nomen generaliter ad individua
+<lb ed="#Ba" n="60"/>rationalis nature.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="231"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e44987"><!-- l3d12a8 -->
+            <head xml:id="alalal-e44987-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-e44987-Hd1e101" type="question-title">An Christo datus sit spiritus et gratia
+sine mensura ?</head>
+            <p xml:id="alalal-e44987-d1e104">
+               <lb ed="Bd" n="64"/>ARTICULUS VIII.
+<lb ed="Bd" n="65"/>An Christo datus sit spiritus et gratia
+<lb ed="Bd" n="66"/>sine mensura ?
+</p>
+            <p xml:id="alalal-e44987-d1e113">
+               <lb ed="Bd" n="67"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="68"/>bi, D, <quote xml:id="alalal-e44987-Qd1e119"> Ille homo cui spiritus est datus
+<lb ed="Bd" n="69"/>sine mensura, etc. </quote>
+            </p>
+            <p xml:id="alalal-e44987-d1e125">
+               <lb ed="Bd" n="70"/>Videtur enim hoc falsum ; quia
+<lb ed="Bd" n="71"/>1. Spiritus aut est hic creatus, aut in-
+<pb ed="#Bd" n="232"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>creatus. Si inereatus, hoc esset parum
+<lb ed="Bd" n="2"/>dicere : quia omni ille datur homini, cui
+<lb ed="Bd" n="3"/>datur, sine mensura : quia ile non habet
+<lb ed="Bd" n="4"/>mensuram, Si autem loquimur de creato
+<lb ed="Bd" n="5"/>qui est gratia: hoc videtur faisum :
+<lb ed="Bd" n="6"/>essentia anima Christi finifa est : ergo
+<lb ed="Bd" n="7"/>non est sme mensura habitus ojus.
+</p>
+            <p xml:id="alalal-e44987-d1e152">
+               <lb ed="Bd" n="8"/>2. Si dicas, quod essentialiter jinitus
+<lb ed="Bd" n="9"/>est habitus gratia anime: Christi, sed 
+vir<lb break="no" ed="Bd" n="10"/>tute est infinitus. Contra : Virtus infinita
+<lb ed="Bd" n="11"/>non estin subjecto finito, si attendatur
+<lb ed="Bd" n="12"/>infinitas secandum vigorem virtulis, et
+<lb ed="Bd" n="13"/>non secundum iteralioncm actuum : quia
+<lb ed="Bd" n="14"/>motores sphirarum, si tamen motores
+<lb ed="Bd" n="15"/>habeant, sicut dicunt quidam 
+Philoso<lb break="no" ed="Bd" n="16"/>phi, etiamsi dicerentur semper posse
+<lb ed="Bd" n="17"/>movere, non ex hoc sequeretur, quod
+<lb ed="Bd" n="18"/>essent infinite virtutis ; ergo cum virlus
+<lb ed="Bd" n="19"/>finita sit im essentia, erit finita in 
+poten<lb break="no" ed="Bd" n="20"/>tia merendi : et ita datur ei spiritus ad
+<lb ed="Bd" n="21"/>mensurain et in essentia spiritus gratiae,
+<lb ed="Bd" n="22"/>et in vigore gratiae.
+</p>
+            <p xml:id="alalal-e44987-d1e187">
+               <lb ed="Bd" n="23"/>SED CONTRA :
+<lb ed="Bd" n="24"/>Ponatur, quod Chrisius habeat gratiam
+<lb ed="Bd" n="25"/>fimtam, albus Sanctus quicumque sil,
+<lb ed="Bd" n="26"/>habebit aliquanto minorem : et cum
+<lb ed="Bd" n="27"/>utraque sit finiia, essent 
+proportionabi<lb break="no" ed="Bd" n="28"/>les : jinits enim ad finilum semper est
+<lb ed="Bd" n="29"/>proportio aliqua. Proliciat ergo ile 
+San<lb break="no" ed="Bd" n="30"/>clus : ergo tantuin proficere potest, quod
+<lb ed="Bd" n="31"/>gratia sua erit sicut gratia Christi in
+<lb ed="Bd" n="32"/>quantiiaie, quod falsum_ est ergo
+<lb ed="Bd" n="33"/>gratia Christ: etiam creata est et finila, ul
+<lb ed="Bd" n="34"/>videtur,
+</p>
+            <p xml:id="alalal-e44987-d1e216">
+               <lb ed="Bd" n="35"/>Item, Anselmus probat, quod 
+infini<lb break="no" ed="Bd" n="36"/>tum est quod Adam abstulit Deo, et non
+<lb ed="Bd" n="37"/>potest recompensar: aisi per infinitum
+<lb ed="Bd" n="38"/>bonum : sed recompensatur per meritum
+<lb ed="Bd" n="39"/>Christi : ergo mentum Christi est 
+ifini<lb break="no" ed="Bd" n="40"/>tum bonum, ut videtur.
+</p>
+            <p xml:id="alalal-e44987-d1e232">
+               <lb ed="Bd" n="41"/>Solutio Dicendum, quod gratia 
+Chri<lb break="no" ed="Bd" n="42"/>sti duplex est, scilicet creata, quae est
+<lb ed="Bd" n="43"/>habiius anime . et unionis, quae attingit
+<lb ed="Bd" n="44"/>gratiam inlinitam : quia unio fact 
+homi<lb break="no" ed="Bd" n="45"/>nem esse Deum, et posse quod Deus 
+pot<lb break="no" ed="Bd" n="46"/>est. Actus autem merili Christ: attenditur
+<lb ed="Bd" n="47"/>penes utramque gratiam : quia aliter
+<lb ed="Bd" n="48"/>non esset verum quod dicit Anselmus,
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>quod illud non possit redimere nisi Deus,
+<lb ed="Bd" n="50"/>Unde dico, quod habitus anime Christi
+<lb ed="Bd" n="51"/>est habitus anime unile deitati, et agit
+<lb ed="Bd" n="52"/>in virtute ulius unionis.
+</p>
+            <p xml:id="alalal-e44987-d1e263">
+               <lb ed="Bd" n="53"/>Dico igitur ad primum, quod est 
+fini<lb break="no" ed="Bd" n="54"/>tus habitus in sua substantia : et 
+ta<lb break="no" ed="Bd" n="55"/>men potest in infinitum, non ex se, sed
+<lb ed="Bd" n="56"/>quia est habitus potentia unite deitati.
+<lb ed="Bd" n="57"/>Unde non est simile ad quamlibet 
+virtu<lb break="no" ed="Bd" n="58"/>tem creatam simplicem, que non est
+<lb ed="Bd" n="59"/>unita : quia illa non potest in hoc quod
+<lb ed="Bd" n="60"/>potest Christus, propter unionem. Et
+<lb ed="Bd" n="61"/>per hoc patel solutio ad ultimum, quod
+<lb ed="Bd" n="62"/>nullus quantumcumgue proficiat, potest
+<lb ed="Bd" n="63"/>wquare habitum illum propter unionem,
+</p>
+            <p xml:id="alalal-e44987-d1e289">
+               <lb ed="Bd" n="64"/>Ad id quod ante objicitur ad hoc quod
+<lb ed="Bd" n="65"/>sit infinitus simpliciter, dicendum quod
+<lb ed="Bd" n="66"/>finitus est in essentia : tamen posse ejus
+<lb ed="Bd" n="67"/>non accipitur tantum. ex ipso, sed etiam
+<lb ed="Bd" n="68"/>ex unione potentiae im qua est : et ab illa
+<lb ed="Bd" n="69"/>parte attingit infinitum, et contrahit 
+in<lb break="no" ed="Bd" n="70"/>finitum posse in actu, ut Anselmus 
+pro<lb break="no" ed="Bd" n="71"/>bat.
+</p>
+            <p xml:id="alalal-e44987-d1e310">
+               <lb ed="Bd" n="72"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

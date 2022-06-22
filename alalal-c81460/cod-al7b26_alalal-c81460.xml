@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="432"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c81460"><!-- l1d46dt3 -->
+            <head xml:id="alalal-c81460-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-c81460-d1e101">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="22"/>DIVISIO TEXTUS,
+<lb ed="#Bb" n="23"/>
+               <quote xml:id="alalal-c81460-Qd1e109"> Illi vero qui dreunt Dei voluntate,
+<lb ed="#Bb" n="24"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-c81460-d1e115">
+               <lb ed="#Bb" n="25"/>Hic incipit secunda opinio quae 
+dividi<lb break="no" ed="#Bb" n="26"/>tur in tres partes : in quarum prima 
+sol<lb break="no" ed="#Bb" n="27"/>vuntur rationes ab opinione precedente
+<lb ed="#Bb" n="28"/>mducta. In seeunda autem ponitur ratio
+<cb ed="#Bb" n="c"/>
+               <lb ed="#Bb" n="29"/>probans hanc opinionem esse veram, ibi,
+<lb ed="#Bb" n="30"/>K, <quote xml:id="alalal-c81460-Qd1e132"> Si quis igitur dilrgenter, etc. </quote>
+               <lb ed="#Bb" n="31"/>In tertia, objicit sophistice, et solvit, ibi,
+<lb ed="#Bb" n="32"/>N,<quote xml:id="alalal-c81460-Qd1e138"> Jam sufficienter ostensum esi, quod
+<lb ed="#Bb" n="33"/>Deo auctore, etc. </quote>
+            </p>
+            <p xml:id="alalal-c81460-d1e144">
+               <lb ed="#Bb" n="34"/>Sunt autem in prima solutione 
+qua<lb break="no" ed="#Bb" n="35"/>tuor capitula, quorum primum est de
+<lb ed="#Bb" n="36"/>distinctione Jocutionum negativarum
+<lb ed="#Bb" n="37"/>cum verbis dicentibus voluntatem vel
+<lb ed="#Bb" n="38"/>non voluntatem Dei. Secundum autem
+<lb ed="#Bb" n="39"/>est de solutione verborum Augustini.
+<lb ed="#Bb" n="40"/>Tertium est de distinctione quadam bo-
+<pb ed="#Bb" n="433"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>ni data ab Hieronymo, Quartum, quasi
+<lb ed="#Bb" n="2"/>conclusio ex prehabitis, qualiter et 
+qui<lb break="no" ed="#Bb" n="3"/>bus prosunt mala.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

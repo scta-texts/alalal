@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="885"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h88851"><!-- l4d22a1 -->
+            <head xml:id="alalal-h88851-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-h88851-Hd1e101" type="question-title">An peccata dimissa redeant per 
+quodlibet recidivum ?</head>
+            <p xml:id="alalal-h88851-d1e104">
+               <cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="22"/>ARTICULUS I.
+<lb ed="#Be" n="23"/>An peccata dimissa redeant per 
+quodli<lb break="no" ed="#Be" n="24"/>bet recidivum ?
+</p>
+            <p xml:id="alalal-h88851-d1e115">
+               <lb ed="#Be" n="25"/>Incidit autem hic questio, Si peccata
+<lb ed="#Be" n="26"/>dimissa redeant per quodlibet sequens
+<lb ed="#Be" n="27"/>recidivum mortalis peccati ?
+</p>
+            <p xml:id="alalal-h88851-d1e124">
+               <lb ed="#Be" n="28"/>Videtur autem, quod sic:
+<lb ed="#Be" n="29"/>1. Per illud Ezechiel. xvin, 24: <quote xml:id="alalal-h88851-Qd1e130">Omnes
+<lb ed="#Be" n="30"/>justitiae ejgus, quas fecerat,non 
+recorda<lb break="no" ed="#Be" n="31"/>buntur</quote>. Ergo si nullam justitiam fecisset,
+<lb ed="#Be" n="32"/>pro omnibus peccatis puniretur : sed non
+<lb ed="#Be" n="33"/>punitur nisi pro peccato quod habet :
+<lb ed="#Be" n="34"/>ergo omne’peccatum praecedens redit
+<lb ed="#Be" n="35"/>super eum per recidivum sequens.
+</p>
+            <p xml:id="alalal-h88851-d1e148">
+               <lb ed="#Be" n="36"/>2. Adhue, Justitia aequalis est ad 
+red<lb break="no" ed="#Be" n="37"/>dendum aequalia pro bonis et malis : sed
+<lb ed="#Be" n="38"/>conversis restituuntur bona preterita per
+<lb ed="#Be" n="39"/>peccatum intermedium mortificata : ergo
+<pb ed="#Be" n="886"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>et perversis mala preterita per poeniten—
+<lb ed="#Be" n="2"/>tiam intermediam mortificata : ergo 
+pec<lb break="no" ed="#Be" n="3"/>cata revertuntur.
+</p>
+            <p xml:id="alalal-h88851-d1e170">
+               <lb ed="#Be" n="4"/>3. Adhuc, In humanis legibus 
+manu<lb break="no" ed="#Be" n="5"/>missus propter delictum sequens in 
+pri<lb break="no" ed="#Be" n="6"/>stinam revocatur servitutem, et poenam.
+<lb ed="#Be" n="7"/>servitutis : cum igitur ille exemplate
+<lb ed="#Be" n="8"/>sint a divinis, videtur etiam quod illud
+<lb ed="#Be" n="9"/>Justum sit per divinas : ergo propter 
+de<lb break="no" ed="#Be" n="10"/>lictum revocanda est pristina Rerwitus
+<lb ed="#Be" n="11"/>peccatorum dimissorum.
+</p>
+            <p xml:id="alalal-h88851-d1e190">
+               <lb ed="#Be" n="12"/>4. Adhuc arguitur per illud Jacobi,
+<lb ed="#Be" n="13"/>i, 10 : <quote xml:id="alalal-h88851-Qd1e196">Quicumque totam legem 
+servave<lb break="no" ed="#Be" n="14"/>rit, offendat autem in uno, factus est
+<lb ed="#Be" n="15"/>omnium reus</quote>. Non autem. potest esse
+<lb ed="#Be" n="16"/>omnium reus, nisi per omnia revertentia
+<lb ed="#Be" n="17"/>super eum ergo videtur, quod omnia
+<lb ed="#Be" n="18"/>peccata redeant propter unum delictum |
+<lb ed="#Be" n="19"/>sequens.
+</p>
+            <p xml:id="alalal-h88851-d1e213">
+               <lb ed="#Be" n="20"/>Adhuc objicitur fortius: Ponamus,
+<lb ed="#Be" n="21"/>quod aliquis contritus sit sufficienter ad
+<lb ed="#Be" n="22"/>deletionem culpe#, sed non ad 
+deletio<lb break="no" ed="#Be" n="23"/>nem posne: et postea contemnat 
+pceni<lb break="no" ed="#Be" n="24"/>tere.et contiteri, et ita decedat : constat,
+<lb ed="#Be" n="25"/>quod Deus peccatum puniet quod non
+<lb ed="#Be" n="26"/>punivit homo: sed nullum punivit 
+ho<lb break="no" ed="#Be" n="27"/>mo de peractis : ergo puniet omnia
+<lb ed="#Be" n="28"/>Deus : non autem potest punire nisi ubi
+<lb ed="#Be" n="29"/>est : est autem in inferno : ergo punit in
+<lb ed="#Be" n="30"/>inferno omnia peccata sua: et non 
+pu<lb break="no" ed="#Be" n="31"/>niuntur nisi quae habet per reditum
+<lb ed="#Be" n="32"/>ergo omnia peccata dimissa in 
+contri<lb break="no" ed="#Be" n="33"/>tione reversa sunt Ber sequens 
+pecca<lb break="no" ed="#Be" n="34"/>tum.
+</p>
+            <p xml:id="alalal-h88851-d1e248">
+               <lb ed="#Be" n="35"/>Eadem prorsus objectio est de eo qui
+<lb ed="#Be" n="36"/>contritus et confessus est, et 
+pceniten<lb break="no" ed="#Be" n="37"/>tiam condignam non explevit, et cadit in
+<lb ed="#Be" n="38"/>unum mortale, et-ita decedit.
+</p>
+            <p xml:id="alalal-h88851-d1e259">
+               <lb ed="#Be" n="39"/>In contrarium, hujus autem 
+objici<lb break="no" ed="#Be" n="40"/>tur: 
+<lb ed="#Be" n="41"/>4. Quia dicit Philosophus : <quote xml:id="alalal-h88851-Qd1e267"> Quod 
+om<lb break="no" ed="#Be" n="42"/>nino cedit in non esse, non reiteratur
+<lb ed="#Be" n="43"/>idem numero : </quote> sed peccatum 
+dimis<lb break="no" ed="#Be" n="44"/>sum céssit omnino in non esse : ergo
+<lb ed="#Be" n="45"/>non reiteratur idem numero-: ergo non
+<lb ed="#Be" n="46"/>relieratar idem peccatum quod dimissum
+<lb ed="#Be" n="47"/>erat.
+</p>
+            <p xml:id="alalal-h88851-d1e285">
+               <lb ed="#Be" n="48"/>Si autem dicatur, quod peccatum non
+<lb ed="#Be" n="49"/>in nihil redigitur quando dimittitur.
+</p>
+            <p xml:id="alalal-h88851-d1e292">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="50"/>Contra : Si manet : : aut ergo secundum
+<lb ed="#Be" n="51"/>quod est culpa, aut secundum quod 
+ma<lb break="no" ed="#Be" n="52"/>cula, aut secundum quod reatus pene.
+<lb ed="#Be" n="53"/>ceterne : haec enim tria sunt in mortali
+<lb ed="#Be" n="54"/>peccato. Non primo vel secundo modo :
+<lb ed="#Be" n="55"/>quia secundum hoc culpa et gratia ess.
+<lb ed="#Be" n="56"/>sent in eodem, et gratia et macula 
+pec<lb break="no" ed="#Be" n="57"/>cati mortalis, quod esse non potest. Si-'
+<lb ed="#Be" n="58"/>militer nec tertio modo manere potest :
+<lb ed="#Be" n="59"/>quia reatus poense aeternee conjunctus est.
+<lb ed="#Be" n="60"/>culpx, et soluta ipsa solvitur : ergo. vi-.
+<lb ed="#Be" n="61"/>detur, quod non maneat aliquid de 
+pec<lb break="no" ed="#Be" n="62"/>cato mortali: et sic constat propositum.
+</p>
+            <p xml:id="alalal-h88851-d1e325">
+               <lb ed="#Be" n="63"/>Si forte dicas, quod maneat aliqua:
+<lb ed="#Be" n="64"/>circumstantia peccati : hoc- ridiculum:
+<lb ed="#Be" n="65"/>est : quia circumstantia est proprietas et
+<lb ed="#Be" n="66"/>forma: quaedam peceati : forma autem.
+<lb ed="#Be" n="67"/>non manet nisi maneat formatuin 
+secun<lb break="no" ed="#Be" n="68"/>dum esse.
+</p>
+            <p xml:id="alalal-h88851-d1e341">
+               <lb ed="#Be" n="69"/>2. Adhuc objiciunt antiqui, quod ae
+<lb ed="#Be" n="70"/>quodlibet preteritorum revertitur per.
+<lb ed="#Be" n="71"/>quodlibet peccatum posterius admissum :,
+<lb ed="#Be" n="72"/>ponamus, quod aliquis peccat per 
+avari<lb break="no" ed="#Be" n="73"/>tiam, et postea cadat in mortalem prodi-.
+<lb ed="#Be" n="74"/>galitatem : videtur, quod prodigalitas
+<lb ed="#Be" n="75"/>reducat avaritiam in esse : et sic 
+contra<lb break="no" ed="#Be" n="76"/>rium conducit contrarium ad esse, quod
+<lb ed="#Be" n="77"/>est impossibile.
+</p>
+            <p xml:id="alalal-h88851-d1e363">
+               <lb ed="#Be" n="78"/>3. Adhuc, Videtur hoc esse contra Dei.
+<lb ed="#Be" n="79"/>justitiam : quia nullum bonum manet ab
+<lb ed="#Be" n="80"/>eo irremuneratum, imo etiam plus quam
+<lb ed="#Be" n="81"/>valet : sed poenitentia intermedia valuit
+<lb ed="#Be" n="82"/>sternum bonum, et fuit perfectum 
+re<lb break="no" ed="#Be" n="83"/>medium contra peccatum : ergo 
+vide<lb break="no" ed="#Be" n="84"/>tur, quod injuste agatur cum tali, si
+<lb ed="#Be" n="85"/>omnia peccata revertantur super eum.
+</p>
+            <p xml:id="alalal-h88851-d1e383">
+               <lb ed="#Be" n="86"/>Sunt autem quidam qui ad ista di-.
+<lb ed="#Be" n="87"/>cunt, quod non redit praecedens in 
+ma<lb break="no" ed="#Be" n="88"/>cula vel reatu : sed propter sequens 
+pec<lb break="no" ed="#Be" n="89"/>catum innascitur reatus ita magnus,
+<lb ed="#Be" n="90"/>quod zquivalet omnibus praecedentibus
+<lb ed="#Be" n="91"/>peccatis quae dimissa erant. Sed hoc
+<lb ed="#Be" n="92"/>videtur falsum : peccatum enim non
+<lb ed="#Be" n="93"/>attenditur nisi ex specie vel radice quae
+<lb ed="#Be" n="94"/>est contemptus : sed sequens peceatum
+<lb ed="#Be" n="95"/>in specie non equivalet quantitati 
+om<lb break="no" ed="#Be" n="96"/>nium peccatorum : nec etiam in_radice
+<lb ed="#Be" n="97"/>ut frequenter : sed potius potest esse ex
+<pb ed="#Be" n="887"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>minori contemptu : ergo videtur, quod
+<lb ed="#Be" n="2"/>sit falsum, quod ex ipso tantus sicut ex
+<lb ed="#Be" n="3"/>omnibus dimissis innascitur reatus.
+</p>
+            <p xml:id="alalal-h88851-d1e423">
+               <lb ed="#Be" n="4"/>Adhuc, Iste reatus aut innascitur ex
+<lb ed="#Be" n="5"/>peccato illo, secundum quod est 
+quod<lb break="no" ed="#Be" n="6"/>dam peccatum secundum se, aut 
+secun<lb break="no" ed="#Be" n="7"/>dum ordinem ad praecedentia peccata,
+<lb ed="#Be" n="8"/>aut secundum ordinem ad praecedentem
+<lb ed="#Be" n="9"/>poenitentiam, aut simul secundum 
+ordi<lb break="no" ed="#Be" n="10"/>nem ad praecedentia peccata et ad 
+pra<lb break="no" ed="#Be" n="11"/>cedentem poenitentiam. Si primo modo :
+<lb ed="#Be" n="12"/>ergo ex quolibet peccato mortali 
+inna<lb break="no" ed="#Be" n="13"/>scitur talis reatus : quia eadem ratio est
+<lb ed="#Be" n="14"/>de uno, et de omnibus aliis, quod falsum
+<lb ed="#Be" n="15"/>est. Si secundo modo : ergo ex quolibet
+<lb ed="#Be" n="16"/>secundo innasceretur reatus  tantus,
+<lb ed="#Be" n="17"/>quantus est duorum peccatorum, et ex
+<lb ed="#Be" n="18"/>tertio quantus est trium, et ex quarto
+<lb ed="#Be" n="19"/>quantus est quatuor, et sic de aliis : et
+<lb ed="#Be" n="20"/>hoc absit, quia sic numquam peccator
+<lb ed="#Be" n="21"/>posset satisfacere. Si tertic modo : tune
+<lb ed="#Be" n="22"/>bonum conjunctum malo facit majus 
+ma<lb break="no" ed="#Be" n="23"/>Jum, quod est impossibile. Idem 
+sequi<lb break="no" ed="#Be" n="24"/>tur si quarto modo dicatur esse : ergo
+<lb ed="#Be" n="25"/>hec opinio -est impossibilis,
+</p>
+            <p xml:id="alalal-h88851-d1e473">
+               <lb ed="#Be" n="26"/>Propter hoc venit opinio tertia, et
+<lb ed="#Be" n="27"/>dicit, quod propter quatuor peccata 
+red<lb break="no" ed="#Be" n="28"/>eunt praecedentia peccata, et non 
+prop<lb break="no" ed="#Be" n="29"/>ter alia: et illa extrahuntur ex Litiera.
+<lb ed="#Be" n="30"/>Hee autem sunt odium fraternum, 
+apo<lb break="no" ed="#Be" n="31"/>stasia a fide per heresim, et contemptus —
+<lb ed="#Be" n="32"/>confessionis propter objectionem supra
+<lb ed="#Be" n="33"/>inductam, et pigritia. poenitentiae. Tunc
+<lb ed="#Be" n="34"/>enim dicunt, quod Deus facit ei non va-_
+<lb ed="#Be" n="35"/>lere ponitentiam preteritam : et de hoc
+<lb ed="#Be" n="36"/>antiqui fecerunt versum, quia fere 
+om<lb break="no" ed="#Be" n="37"/>nes in hac erant opinione. Versus autem
+<lb ed="#Be" n="38"/>est iste:
+<lb ed="#Be" n="39"/>
+               <quote xml:id="alalal-h88851-Qd1e505">Fratres odit, apostata fit, spernitque fateri,
+<lb ed="#Be" n="40"/>Paenituisse piget, pristina culpa redit.</quote>
+               <lb ed="#Be" n="41"/>Sed tunc queritur, Quid sit 
+speciali<lb break="no" ed="#Be" n="42"/>ter in his peccatis, propter quod dicitur
+<lb ed="#Be" n="43"/>redire prior culpa potius quam in aliis?
+<lb ed="#Be" n="44"/>Aut enim habent hoc ex parte speciei,
+<lb ed="#Be" n="45"/>aut ex deformitate radicis. Si primo 
+mo<lb break="no" ed="#Be" n="46"/>do : tune per homicidium debet redire
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="47"/>praecedens culpa, quia majus peccatum
+<lb ed="#Be" n="48"/>est quam odium fraternum : et hoc non
+<lb ed="#Be" n="49"/>dicitur, nisi in odio fraterno supponatur
+<lb ed="#Be" n="50"/>quodlibet peccatum contra proximum,
+<lb ed="#Be" n="51"/>quod nou est verum secundum eos, Si
+<lb ed="#Be" n="52"/>ex deformitate radicis habet hoc. 
+Con<lb break="no" ed="#Be" n="53"/>TRA : quia tunc ex peccato in Spiritum
+<lb ed="#Be" n="54"/>sanctum debuit redire preecedens culpa,
+<lb ed="#Be" n="55"/>quia deformissimam habet radicem : et
+<lb ed="#Be" n="56"/>hoc iterum non est verum secundum
+<lb ed="#Be" n="57"/>eos.
+</p>
+            <p xml:id="alalal-h88851-d1e550">
+               <lb ed="#Be" n="58"/>Adhuc, Si aliquis inspiciat auctoritates
+<lb ed="#Be" n="59"/>que in Liffera inducuntur, plura 
+inve<lb break="no" ed="#Be" n="60"/>niet, propter quae Sancti dicunt redire
+<lb ed="#Be" n="61"/>peccata. In sexta quae est Bede super
+<lb ed="#Be" n="62"/>Lucam, ponitur incuria negligentiae, vel
+<lb ed="#Be" n="63"/>otii : et in septima quae est ejusdem,
+<lb ed="#Be" n="64"/>adjungitur cupiditas humana. Ergo 
+vi<lb break="no" ed="#Be" n="65"/>detur, quod non tantum his quatuor de
+<lb ed="#Be" n="66"/>causis revertantur peccata.
+</p>
+            <p xml:id="alalal-h88851-d1e572">
+               <lb ed="#Be" n="67"/>Ideo fuerunt quidam de quarta 
+opi<lb break="no" ed="#Be" n="68"/>nione, sequentes Magistrum in Liétera,
+<lb ed="#Be" n="69"/>dicentes quod propter solam 
+ingratitu<lb break="no" ed="#Be" n="70"/>dinem peccata revertuntur.
+</p>
+            <p xml:id="alalal-h88851-d1e583">
+               <lb ed="#Be" n="71"/>Sed Conrraa hos opponitur : quia 
+in<lb break="no" ed="#Be" n="72"/>gratitudo non invenitur nisi uno trium
+<lb ed="#Be" n="73"/>modorum: aut enim dicit actualem 
+red<lb break="no" ed="#Be" n="74"/>ditionem mali pro bono, corde, ore, vel
+<lb ed="#Be" n="75"/>opere factam : aut dicit non curationem
+<lb ed="#Be" n="76"/>beneficii suscepti actualem, scilicet aut
+<lb ed="#Be" n="77"/>quod beneficium non reputetur,vel minus
+<lb ed="#Be" n="78"/>reputetur quam sit: aut dicit habitualem
+<lb ed="#Be" n="79"/>quamdam immemorationem 
+beneficio<lb break="no" ed="#Be" n="80"/>rum, per hoc quod agit aliquid contra 
+be<lb break="no" ed="#Be" n="81"/>neficium. Primis autem duobus modis 
+in<lb break="no" ed="#Be" n="82"/>gratitudo est speciale peccatum, divisum
+<lb ed="#Be" n="83"/>ab aliis, non conjunctum cuilibet peccato
+<lb ed="#Be" n="84"/>sequenti : ergo per ingratitudinem illis
+<lb ed="#Be" n="85"/>duobus modis sumptam non ponitur 
+red<lb break="no" ed="#Be" n="86"/>ire peccatum propter quodlibet sequens
+<lb ed="#Be" n="87"/>peccatum. Si ergo tertio modo sumatur
+<lb ed="#Be" n="88"/>ingratitudo, queratur quid ipsa sit, quod
+<lb ed="#Be" n="89"/>tante est efficacie ? Videtur autem, quod
+<lb ed="#Be" n="90"/>non sit actus peccati : quia unus actus
+<lb ed="#Be" n="91"/>peccati distinguitur ab actu alterius 
+pec<lb break="no" ed="#Be" n="92"/>cati in specie : et ingratitudo conjuncta
+<lb ed="#Be" n="93"/>est cuilibet peccato sequenti : ergo ipsa
+<lb ed="#Be" n="94"/>non est actus peccati. Eodem modo vi-
+<pb ed="#Be" n="888"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>detur, quod nec sit circumstantia : quia
+<lb ed="#Be" n="2"/>circumstantia unius non est 
+circumstan<lb break="no" ed="#Be" n="3"/>tia alterius: et ingratitudo una est 
+cu<lb break="no" ed="#Be" n="4"/>juslibet peccati: sequentis. Adhuc 
+vide<lb break="no" ed="#Be" n="5"/>tur, quod nec sit effectus peccati 
+sequen<lb break="no" ed="#Be" n="6"/>tis : quia diversarum causarum diversi
+<lb ed="#Be" n="7"/>sunt effectus : sed ingratitudo est unius
+<lb ed="#Be" n="8"/>rationis consequens diversa peccata 
+con<lb break="no" ed="#Be" n="9"/>sequentia poenitentiam : ergo nec actus
+<lb ed="#Be" n="10"/>est, nec circumstantia, nec effectus pec-.
+<lb ed="#Be" n="11"/>cati : ergo videtur, quod nihil peccati
+<lb ed="#Be" n="12"/>sit: ergo per ipsam non potest reverti
+<lb ed="#Be" n="13"/>peccatum preecedens.
+</p>
+            <p xml:id="alalal-h88851-d1e670">
+               <lb ed="#Be" n="14"/>Resronsio. Dicendum videtur mihi in
+<lb ed="#Be" n="15"/>ista questione, quod peccatum nec idem
+<lb ed="#Be" n="16"/>numero, nec idem specie, nec #quali
+<lb ed="#Be" n="17"/>reatu, umquam revertitur : sed ex 
+ingra<lb break="no" ed="#Be" n="18"/>titudine peccati sequentis dicitur. reverti
+<lb ed="#Be" n="19"/>quantum ad improperationem et 
+defor<lb break="no" ed="#Be" n="20"/>mitatem peccantis, quae est ingratitudo
+<lb ed="#Be" n="21"/>major, quam si ei peccatum dimissum
+<lb ed="#Be" n="22"/>non esset : et ideo ampliores meretur
+<lb ed="#Be" n="23"/>increpationes, et condemnationem 
+ju<lb break="no" ed="#Be" n="24"/>stiorem : et aliter non potest intelligi
+<lb ed="#Be" n="25"/>qualiter peccata revertantur.
+</p>
+            <p xml:id="alalal-h88851-d1e700">
+               <lb ed="#Be" n="26"/>Ad hoc autem intelligendum quidam
+<lb ed="#Be" n="27"/>invenerunt distinctionem eorum quae sunt
+<lb ed="#Be" n="28"/>ex peccato in poenitente : tenetur enim
+<lb ed="#Be" n="29"/>peenitens ad dolorem commissorum, et
+<lb ed="#Be" n="30"/>detestationem admittendorum, et 
+memo<lb break="no" ed="#Be" n="31"/>riam accepti beneficii, quod tantum est,
+<lb ed="#Be" n="32"/>ut infra patebit, quanta sunt ea quae sunt
+<lb ed="#Be" n="33"/>dimissa: constat autem, quod haec tria
+<lb ed="#Be" n="34"/>omnia interrumpit peccatum sequens:
+<lb ed="#Be" n="35"/>et ideo innascitur ei quaedam deformitas
+<lb ed="#Be" n="36"/>ingratitudinis ex comparatione ad 
+di<lb break="no" ed="#Be" n="37"/>missionem praecedentium peccatorum:
+<lb ed="#Be" n="38"/>cul enim multa sunt dimissa, magis 
+te<lb break="no" ed="#Be" n="39"/>netur gratias agere, et turpius est ei 
+con<lb break="no" ed="#Be" n="40"/>tra remittentem peccare: et sic 
+prece<lb break="no" ed="#Be" n="41"/>dentia peccata non ut peccata, sed ut
+<lb ed="#Be" n="42"/>tanta dimissa, quantitatem dant 
+ingrati<lb break="no" ed="#Be" n="43"/>tudini sequenti: et quoad hanc redire 
+di<lb break="no" ed="#Be" n="44"/>cuntur, quia quoad hance quodammodo
+<lb ed="#Be" n="45"/>resultant in peccato sequenti. Si autem
+<lb ed="#Be" n="46"/>aliquo alio modo revertuntur, ad 
+pre<lb break="no" ed="#Be" n="47"/>sens non intelligo prater objecta 
+in<lb break="no" ed="#Be" n="48"/>ducta.
+</p>
+            <p xml:id="alalal-h88851-d1e752">
+               <lb ed="#Be" n="49"/>Ab primum ergo dicendum, quod 
+Eze<lb break="no" ed="#Be" n="50"/>chiel non intendit, quod non recordentur
+<lb ed="#Be" n="51"/>justitiae ad minorem punitionem, quia
+<lb ed="#Be" n="52"/>hoc esset contra Dei misericordiam : sed
+<lb ed="#Be" n="53"/>intendit, quod non recordentur ad vite
+<lb ed="#Be" n="54"/>aeterne conseculionem: et hoc verum
+<lb ed="#Be" n="55"/>est.
+</p>
+            <p xml:id="alalal-h88851-d1e770">
+               <lb ed="#Be" n="56"/>Ad aliud dicendum, quod justitia
+<lb ed="#Be" n="57"/>numquam est ita aequalis, quin plus sit
+<lb ed="#Be" n="58"/>ad indulgentiam, quam ad 
+condemnatio<lb break="no" ed="#Be" n="59"/>nem, quia aliter crudelis esset. Si tamen
+<lb ed="#Be" n="60"/>detur zqualis esse : tunc dicendum, quod.
+<lb ed="#Be" n="61"/>non sequitur: quia non est simile quod
+<lb ed="#Be" n="62"/>pro simili inducitur: bonum enim opus
+<lb ed="#Be" n="63"/>de se habuit spiritum  vivificativum,
+<lb ed="#Be" n="64"/>quod postea potest valere ad meritum :
+<lb ed="#Be" n="65"/>sed malum opus non habet aliquid 
+sus<lb break="no" ed="#Be" n="66"/>linens ipsum, quo revertente postea
+<lb ed="#Be" n="67"/>possit. redire : unde multo deficientius
+<lb ed="#Be" n="68"/>est malum, quam bonum. Similiter bona
+<lb ed="#Be" n="69"/>opera omnia in gratia habent unionem,
+<lb ed="#Be" n="70"/>et ideo reverlente gratia possunt redire :
+<lb ed="#Be" n="71"/>sed mala opera nullam habent unionem
+<lb ed="#Be" n="72"/>omnino nisi aggregationis, quae 
+simpli<lb break="no" ed="#Be" n="73"/>citer pluralitas est, sicut unio acervi : et
+<lb ed="#Be" n="74"/>ideo cum nihil habeant unionis, quo 
+re<lb break="no" ed="#Be" n="75"/>vertente redire possint, non possunt 
+red<lb break="no" ed="#Be" n="76"/>ire ut bona. Qualiter autem bona 
+re<lb break="no" ed="#Be" n="77"/>vertantur, supra inquisitum est.
+</p>
+            <p xml:id="alalal-h88851-d1e820">
+               <lb ed="#Be" n="78"/>Ad Axiup dicendum, quod in humanis
+<lb ed="#Be" n="79"/>multa fiunt ad cautelam et timorem 
+fu<lb break="no" ed="#Be" n="80"/>turorum : sicut ipsa lex quae peccantem
+<lb ed="#Be" n="81"/>manumissum revocat in servitutem : hoc
+<lb ed="#Be" n="82"/>enim reddit cautiores, et infert aliis 
+ti<lb break="no" ed="#Be" n="83"/>morem, et sine talibus cautelis vivere
+<lb ed="#Be" n="84"/>non posset homo civiliter: sed in divinis
+<lb ed="#Be" n="85"/>non est ita, sed directe sunt ad normam
+<lb ed="#Be" n="86"/>justilie, et preecipue in condemnatione
+<lb ed="#Be" n="87"/>et punitione peccatorum : quia non 
+pu<lb break="no" ed="#Be" n="88"/>nit Deus umquam ultra condignum. |
+<lb ed="#Be" n="89"/>Ad aliud dicendum, quod numquam
+<lb ed="#Be" n="90"/>punitur pro illa parte quae ei dimissa
+<lb ed="#Be" n="91"/>est : sed talis punitur in inferno in 
+per<lb break="no" ed="#Be" n="92"/>petuum pro peccato preterito, sicut 
+ve<lb break="no" ed="#Be" n="93"/>niale conjunctum mortali punitur in
+<lb ed="#Be" n="94"/>aeternum: sed tamen in inferno minus
+<lb ed="#Be" n="95"/>punitur, quam puniretur si numquam
+<lb ed="#Be" n="96"/>poenituisset.
+</p>
+            <p xml:id="alalal-h88851-d1e864">
+               <lb ed="#Be" n="97"/>Ad omnrA autem: quae in contrarium
+<pb ed="#Be" n="889"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>sunt usque ad secundam opinionem,
+<lb ed="#Be" n="2"/>concedi possunt de plano.
+</p>
+            <p xml:id="alalal-h88851-d1e877">
+               <lb ed="#Be" n="3"/>Sed DE secunda opinione puto 
+dicen<lb break="no" ed="#Be" n="4"/>dum, quod falsa est, nisi hoc modo 
+di<lb break="no" ed="#Be" n="5"/>catur, quod reatus sequentis peccati 
+ha<lb break="no" ed="#Be" n="6"/>bet majorem deformitatem ex 
+compara<lb break="no" ed="#Be" n="7"/>tione ad praecedenti admissa.
+</p>
+            <p xml:id="alalal-h88851-d1e891">
+               <lb ed="#Be" n="8"/>Et omnia quae circa hanc opinionem
+<lb ed="#Be" n="9"/>objiciuntur, puto concedenda.
+</p>
+            <p xml:id="alalal-h88851-d1e898">
+               <lb ed="#Be" n="10"/>Ad TERTIAM opinionem puto iterum
+<lb ed="#Be" n="11"/>dicendum, quod falsa est: tamen ad hoc
+<lb ed="#Be" n="12"/>quod querit, quae fuit ratio quare 
+posue<lb break="no" ed="#Be" n="13"/>runt illa quatuor peccata? Dicendum,
+<lb ed="#Be" n="14"/>quod ideo potuit esse, quod praecedentia
+<lb ed="#Be" n="15"/>peccata querunt remissionem ex parte
+<lb ed="#Be" n="16"/>Dei et proximi et ipsius poenitentis. Et
+<lb ed="#Be" n="17"/>ex parte Dei quidem magis in genere est
+<lb ed="#Be" n="18"/>apostasia a primo eorum quae sunt in
+<lb ed="#Be" n="19"/>justificatione: et haec est fides :.et ideo
+<lb ed="#Be" n="20"/>quia peccat contra primum in 
+justifica<lb break="no" ed="#Be" n="21"/>tione, quoad Deum redit peccatum: quoad
+<lb ed="#Be" n="22"/>proximum autem charitas communicans
+<lb ed="#Be" n="23"/>bene facit ad remissionem peccati, quia
+<lb ed="#Be" n="24"/>meretur charitas Ecclesise justificationem
+<lb ed="#Be" n="25"/>impiorum : et ideo iterum peccans contra
+<lb ed="#Be" n="26"/>hoc, peccat contra justificationem : et
+<lb ed="#Be" n="27"/>tunc redit peccatum pro eo scilicet. Ex
+<lb ed="#Be" n="28"/>parte autem poenitentis sunt duo 
+operan<lb break="no" ed="#Be" n="29"/>tia: unum contra culpam, dolor scilicet
+<lb ed="#Be" n="30"/>informatus gratia et contritione: et 
+con<lb break="no" ed="#Be" n="31"/>trarium hujus est poenitentia pcoenitentia.
+<lb ed="#Be" n="32"/>Aliud autem operatur contra poenam ex
+<lb ed="#Be" n="33"/>vi clavium : et contra hoc est contemptus
+<lb ed="#Be" n="34"/>confessionis injungentis satisfactionem.
+<lb ed="#Be" n="35"/>Alia autem non sunt ita directe contra
+<lb ed="#Be" n="36"/>justificationem : et ideo per ea non redit.
+</p>
+            <p xml:id="alalal-h88851-d1e959">
+               <lb ed="#Be" n="37"/>Et per hoc patet solutio ad objectum
+<lb ed="#Be" n="38"/>circa hance opinionem, si aliquis vellet
+<lb ed="#Be" n="39"/>eam sustinere: posset enim dici, quod
+<lb ed="#Be" n="40"/>peccatum non ex quantitate deformitatis
+<lb ed="#Be" n="41"/>in actu habet, quod faciat redire 
+pecca<lb break="no" ed="#Be" n="42"/>tum, nec ex quantitate deformitatis in
+<lb ed="#Be" n="43"/>radice, sed ex hoc quod peccat contra
+<lb ed="#Be" n="44"/>facientia justificationem. Tamen ego puto,
+<lb ed="#Be" n="45"/>quod etiam ista opinio falsa sit, sicut 
+di<lb break="no" ed="#Be" n="46"/>ctum est prius.
+</p>
+            <p xml:id="alalal-h88851-d1e983">
+               <lb ed="#Be" n="47"/>AbD ULTIMAM opinionem dicendum
+<lb ed="#Be" n="48"/>quod nec propter ingratitudinem peccati
+<lb ed="#Be" n="49"/>revertitur, nisi sicut dictum est in 
+prin<lb break="no" ed="#Be" n="50"/>cipio solutionis: et tunc ingratitudo 
+se<lb break="no" ed="#Be" n="51"/>cundo modo accipitur pro habituali 
+im<lb break="no" ed="#Be" n="52"/>memoratione beneficiorum, et precipue
+<lb ed="#Be" n="53"/>illius beneficii, quod dimissa sunt 
+pec<lb break="no" ed="#Be" n="54"/>cata.
+</p>
+            <p xml:id="alalal-h88851-d1e1003">
+               <lb ed="#Be" n="55"/>Ad objectum contra, dicendum quod
+<lb ed="#Be" n="56"/>nec actus, nec circumstantia, nec effectus
+<lb ed="#Be" n="57"/>est peccati sequentis, sed quaedam 
+defor<lb break="no" ed="#Be" n="58"/>mitas consequens peccatum per hoc quod
+<lb ed="#Be" n="59"/>interrumpit habitualem gratiarum actio-_
+<lb ed="#Be" n="60"/>nem :et sic est aliquid peccati, eo modo
+<lb ed="#Be" n="61"/>quo defectus aliquid dicitur esse defectus:
+<lb ed="#Be" n="62"/>nec tamen sequitur, quod sit actus vel
+<lb ed="#Be" n="63"/>circumstantia vel effectus proprius : quia
+<lb ed="#Be" n="64"/>defectus non habet nisi defectum pro
+<lb ed="#Be" n="65"/>causa. :
+</p>
+            <p xml:id="alalal-h88851-d1e1029">
+               <lb ed="#Be" n="66"/>Si autem queratur, Quare Sancti in
+<lb ed="#Be" n="67"/>Litiera tangunt illa peccata quae tangunt ?
+<lb ed="#Be" n="68"/>Dicendum, quod de quatuor jam patet :
+<lb ed="#Be" n="69"/>quia directius in illis peccatur contra 
+ju<lb break="no" ed="#Be" n="70"/>stificationem : duo autem quae sunt 
+incu<lb break="no" ed="#Be" n="71"/>ria et amor mundi, generalia sunt, et
+<lb ed="#Be" n="72"/>potius ponuntur pro radicibus 
+peccato<lb break="no" ed="#Be" n="73"/>rum, quam pro peccatis: quia ex ipsis
+<lb ed="#Be" n="74"/>frequentius incidunt frequentia peccata,
+<lb ed="#Be" n="75"/>que ingratitudinem inducunt.
+</p>
+            <p xml:id="alalal-h88851-d1e1054">
+               <lb ed="#Be" n="76"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

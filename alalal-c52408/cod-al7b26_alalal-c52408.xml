@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="278"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c52408"><!-- l1d38dt -->
+            <head xml:id="alalal-c52408-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-c52408-d1e101">
+               <cb ed="#Bb" n="c"/>
+               <lb ed="#Bb" n="25"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-c52408-d1e108">
+               <lb ed="#Bb" n="26"/>
+               <quote xml:id="alalal-c52408-Qd1e112"> Nunc ergo ad propositum 
+reverten<lb break="no" ed="#Bb" n="27"/>tes, cepto insistamus, etc. </quote>
+               <cb ed="#Bb" n="d"/>
+               <lb ed="#Bb" n="28"/>Hic incipit pars illa, in qua Magister
+<lb ed="#Bb" n="29"/>determinat quasdam proprietates 
+sequen<lb break="no" ed="#Bb" n="30"/>tes scientiam divinam, sicut non posse
+<lb ed="#Bb" n="31"/>falli, et esse causam, et non posse 
+auge<lb break="no" ed="#Bb" n="32"/>ri.
+</p>
+            <p xml:id="alalal-c52408-d1e131">
+               <lb ed="#Bb" n="33"/>Et ideo dividitur in duas partes: in
+<lb ed="#Bb" n="34"/>quarum prima Magister determinat,
+<pb ed="#Bb" n="279"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>Utrum scientia divina sit causa rerum ?
+<lb ed="#Bb" n="2"/>et, Utrum possit falli vel non ? Et in 
+se<lb break="no" ed="#Bb" n="3"/>cunda querit, Utrum possit augeri? que
+<lb ed="#Bb" n="4"/>incipit in sequenti distinctione XX XIX,
+<lb ed="#Bb" n="5"/>ibi, <quote xml:id="alalal-c52408-Qd1e152"> Praeterea solet quaeri, Utrum
+<lb ed="#Bb" n="6"/>setentia Dei, etc. </quote>
+            </p>
+            <p xml:id="alalal-c52408-d1e158">
+               <lb ed="#Bb" n="7"/>Prima dividitur in duas. In prima 
+in<lb break="no" ed="#Bb" n="8"/>quirit, Utrum scientia Dici sit causa 
+re<lb break="no" ed="#Bb" n="9"/>rum ? In secunda, Utrum possit falli ?
+<lb ed="#Bb" n="10"/>ibi, E, <quote xml:id="alalal-c52408-Qd1e168"> Ad hoc autem quod supra 
+di<lb break="no" ed="#Bb" n="11"/>ctum est, etc. </quote>
+            </p>
+            <p xml:id="alalal-c52408-d1e175">
+               <lb ed="#Bb" n="12"/>Prima harum habet tret partes, In 
+pri<lb break="no" ed="#Bb" n="13"/>ma probat, quod sit causa rerum. In 
+se<lb break="no" ed="#Bb" n="14"/>cunda, objicit in contrarium, ibi, B,
+<lb ed="#Bb" n="15"/>
+               <quote xml:id="alalal-c52408-Qd1e185"> Quod si ita est, est ergo causa omnium
+<lb ed="#Bb" n="16"/>matlorum, etc. </quote> In tertia vero 
+determi<lb break="no" ed="#Bb" n="17"/>nat, ibi, D, <quote xml:id="alalal-c52408-Qd1e193"> Hane igitur quae videtur
+<lb ed="#Bb" n="18"/>repugnantiam, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

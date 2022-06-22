@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="504"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a98529"><!-- l1d18a7 -->
+            <head xml:id="alalal-a98529-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-a98529-Hd1e101" type="question-title">An haecsit vera, Filius accepit nascendo,
+vel habet nascendo quod sit Deus, vel
+essentia divina ?</head>
+            <p xml:id="alalal-a98529-d1e104">
+               <lb ed="#Ba" n="14"/>ARTICULUS VII.
+<lb ed="#Ba" n="15"/>An haecsit vera, Filius accepit nascendo,
+<lb ed="#Ba" n="16"/>vel habet nascendo quod sit Deus, vel
+<lb ed="#Ba" n="17"/>essentia divina ?
+</p>
+            <p xml:id="alalal-a98529-d1e115">
+               <lb ed="#Ba" n="18"/>Circa quod dubitatur, Utrum haec sit
+<lb ed="#Ba" n="19"/>vera, Filius nascendo accepit quod sit
+<lb ed="#Ba" n="20"/>Deus, vel nascendo est Deus, vel 
+essen<lb break="no" ed="#Ba" n="21"/>tia divina?
+</p>
+            <p xml:id="alalal-a98529-d1e126">
+               <lb ed="#Ba" n="22"/>Videtur, quod non: quia
+<lb ed="#Ba" n="23"/>1. Quidquid est nascendo, hoc 
+distin<lb break="no" ed="#Ba" n="24"/>guit ipsum a generante : si ergo Deus est
+<lb ed="#Ba" n="25"/>nascendo, Deus vel essentia divina 
+dis<lb break="no" ed="#Ba" n="26"/>tinguitur a Patre, quod falsum est.
+</p>
+            <p xml:id="alalal-a98529-d1e140">
+               <lb ed="#Ba" n="27"/>2. Item, Quidquid Filius est nascendo,
+<lb ed="#Ba" n="28"/>illud est natum: ergo si Filius essentia
+<lb ed="#Ba" n="29"/>est nascendo, ipsa est nata. Eadem 
+ob<lb break="no" ed="#Ba" n="30"/>jectio prorsus est de hac, Spiritus 
+proce<lb break="no" ed="#Ba" n="31"/>dendo est Deus, vel essentia divina.
+</p>
+            <p xml:id="alalal-a98529-d1e153">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="32"/>Ad hoc dicunt quidam, quod haec
+sim<lb break="no" ed="#Ba" n="33"/>pliciter est concedenda, Filius nascendo
+<lb ed="#Ba" n="34"/>accipit, vel Filius nascendo habet quod
+<lb ed="#Ba" n="35"/>est Deus et divina essentia : sicut 
+Ma<lb break="no" ed="#Ba" n="36"/>gister hic in Liétera dicit: et hoc ideo,
+<lb ed="#Ba" n="37"/>quia in tali locutione, ly mascendo non
+<lb ed="#Ba" n="38"/>determinat nisi suppositum: et est 
+sen<lb break="no" ed="#Ba" n="39"/>sus, Filius qui nascendo est Filius, 
+acci<lb break="no" ed="#Ba" n="40"/>pit quod sit Deus vel essentia divina,
+<lb ed="#Ba" n="41"/>vel habet hoc.
+</p>
+            <p xml:id="alalal-a98529-d1e179">
+               <lb ed="#Ba" n="42"/>Cum autem dicitur, Filius nascendo
+<lb ed="#Ba" n="43"/>est Deus, vel essentia divina: dicunt,
+<lb ed="#Ba" n="44"/>quod gerundivum potest dicere causam
+<lb ed="#Ba" n="45"/>respectu praedicati : et sic falsa est 
+locu<lb break="no" ed="#Ba" n="46"/>tio, quia nativitas non attingit essentiam
+<lb ed="#Ba" n="47"/>divinam, ut probatum est supra’.
+</p>
+            <p xml:id="alalal-a98529-d1e195">
+               <lb ed="#Ba" n="48"/>Vel potest exponi per dum: ut sit
+<lb ed="#Ba" n="49"/>sensus, Filius dum natus est, habet es~
+<lb ed="#Ba" n="50"/>sentiam, ita quod notet concomitantiam :
+<lb ed="#Ba" n="51"/>et sic dicunt eam esse veram. Et hoc
+<lb ed="#Ba" n="52"/>non videtur esse de intentione Litlere :
+<lb ed="#Ba" n="53"/>quia in Litfera habemus, quod nativitas
+<lb ed="#Ba" n="54"/>prestat essentiam Filio, quod videtur
+<pb ed="#Ba" n="505"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>innuere causam. Sed ad hoc dicendum
+<lb ed="#Ba" n="2"/>est, qnod distinctio illa supplenda est :
+<lb ed="#Ba" n="3"/>quia cum gerundivum dicit rationem
+<lb ed="#Ba" n="4"/>principu originalis, quod potest 
+deter<lb break="no" ed="#Ba" n="5"/>minare compositionem verbi ex parte
+<lb ed="#Ba" n="6"/>subjecti tantum: ut sit sensus, Filius
+<lb ed="#Ba" n="7"/>nascendo, id est, qui nascendo est Filius,
+<lb ed="#Ba" n="8"/>accipit, vel habet. vel est Deus, vel 
+es<lb break="no" ed="#Ba" n="9"/>senlia divina. Vel, potest determinatio
+<lb ed="#Ba" n="10"/>referri ad compositionem significando
+<lb ed="#Ba" n="11"/>actum transeuntem super praedicatum :
+<lb ed="#Ba" n="12"/>et sic falsa est, quia sequeretur quod 
+es<lb break="no" ed="#Ba" n="13"/>sentia esset nata aliquo modo: et hoc
+<lb ed="#Ba" n="14"/>sensu procedunt objectiones, et ideo 
+pa<lb break="no" ed="#Ba" n="15"/>tet solutio ad illas.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

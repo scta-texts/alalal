@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="111"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g20803"><!-- l4d5a5 -->
+            <head xml:id="alalal-g20803-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-g20803-Hd1e101" type="question-title">An Joannes novit Christum, et quid de
+eo novit ?</head>
+            <p xml:id="alalal-g20803-d1e104">
+               <lb ed="#Be" n="12"/>ARTICULUS V.
+<lb ed="#Be" n="13"/>An Joannes novit Christum, et quid de
+<lb ed="#Be" n="14"/>eo novit ?
+</p>
+            <p xml:id="alalal-g20803-d1e113">
+               <lb ed="#Be" n="15"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="16"/>ibi, B, circa initium : <quote xml:id="alalal-g20803-Qd1e119"> Quid noverat
+<lb ed="#Be" n="17"/>Joannes Baptista? Dominum. Quid non
+<lb ed="#Be" n="18"/>noveral, etc. </quote> .
+</p>
+            <p xml:id="alalal-g20803-d1e127">
+               <lb ed="#Be" n="19"/>Dicit enim Augustinus quod novit eam
+<lb ed="#Be" n="20"/>esse agnum tollentem peccata mundi :
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="21"/>sed non novit, quod potestatem 
+bapti<lb break="no" ed="#Be" n="22"/>zandi esset sibi retenturus et non aliis
+<lb ed="#Be" n="23"/>daturus, Hieronymus autem et 
+Chryso<lb break="no" ed="#Be" n="24"/>stomus contrarium huic dicunt, scilicet
+<lb ed="#Be" n="25"/>quod non novit eum esse Christum in
+<lb ed="#Be" n="26"/>mundo natum, et per mortem suam esse
+<lb ed="#Be" n="27"/>redempturum mundum. Ergo 
+contrarie<lb break="no" ed="#Be" n="28"/>tas videtur esse inter eos.
+</p>
+            <p xml:id="alalal-g20803-d1e154">
+               <lb ed="#Be" n="29"/>Sonutio. Dicendum, quod utrumque
+<lb ed="#Be" n="30"/>verum est : quia est notitia Christi 
+sim<lb break="no" ed="#Be" n="31"/>plex, et est notitia ejus in hac vel in ila
+<lb ed="#Be" n="32"/>forma gua venit ad Joannem. Scivit 
+er<lb break="no" ed="#Be" n="33"/>go ipsum esse natum et mundum 
+redem<lb break="no" ed="#Be" n="34"/>pturum : sed nescivit, quod iste homo
+<lb ed="#Be" n="35"/>qui venit ad eum inter alios fuit Christus,
+<lb ed="#Be" n="36"/>antequam vidit columbam descendentem,
+<lb ed="#Be" n="37"/>sicut dixerat ei Deus in eremo : et tunc
+<lb ed="#Be" n="38"/>dixit: Ego ate debeo baptizari, et tu
+<lb ed="#Be" n="39"/>venis ad me*/ Et hujus causam assignat
+<lb ed="#Be" n="40"/>Chrysostomus in Commento, dicens
+<lb ed="#Be" n="41"/>quod in juventute noverat eum, sed 
+lon<lb break="no" ed="#Be" n="42"/>go tempore conversatus in eremo 
+ami<lb break="no" ed="#Be" n="43"/>serat imaginationem facici : et ideo non
+<lb ed="#Be" n="44"/>cognovit eum sub forma venientis ad se,
+<lb ed="#Be" n="45"/>et cognovit cum talem natum esse in
+<lb ed="#Be" n="46"/>mundo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

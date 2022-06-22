@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="748"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f45132"><!-- l3d40a1 -->
+            <head xml:id="alalal-f45132-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-f45132-Hd1e101" type="question-title">An ista duo mandata separala sint, 
+scificet, Non desiderabis uxorem, etc.,
+an non ?</head>
+            <p xml:id="alalal-f45132-d1e104">
+               <lb ed="Bd" n="23"/>ARTICULUS I.
+<lb ed="Bd" n="24"/>An ista duo mandata separala sint, 
+sci<lb break="no" ed="Bd" n="25"/>ficet, Non desiderabis uxorem, etc.,
+<lb ed="Bd" n="26"/>an non ?
+</p>
+            <p xml:id="alalal-f45132-d1e115">
+               <lb ed="Bd" n="27"/>Incidit autem hic dubium ante 
+Litte<lb break="no" ed="Bd" n="28"/>ram, Utrum ista duo mandata separata
+<lb ed="Bd" n="29"/>sint ab aliis, aut non?
+</p>
+            <p xml:id="alalal-f45132-d1e124">
+               <lb ed="Bd" n="30"/>Secundo, Utrum differant inter se, et
+<lb ed="Bd" n="31"/>quam habeant differentiam ?
+</p>
+            <p xml:id="alalal-f45132-d1e132">
+               <lb ed="Bd" n="32"/>Ad primum objicitur sic :
+<lb ed="Bd" n="33"/>i. Cogitatio ordinatur ad opus, vel
+<lb ed="Bd" n="34"/>verbum : ergo per se non habet 
+ordi<lb break="no" ed="Bd" n="35"/>nem : ergo prohibitio cogitationum per
+<lb ed="Bd" n="36"/>se non debet cadere in praecepto.
+</p>
+            <p xml:id="alalal-f45132-d1e145">
+               <lb ed="Bd" n="37"/>2. Item, In secundo libro 
+Sententig<lb break="no" ed="Bd" n="38"/>rum habitum est, quod voluntas et Opus
+<lb ed="Bd" n="39"/>sunt unum peceatum, quia aliter quilibet
+<lb ed="Bd" n="40"/>peccans in opere, peccaret duobus 
+pec<lb break="no" ed="Bd" n="41"/>calis : unius autem peccati una est 
+pro<lb break="no" ed="Bd" n="42"/>hibitio : ergo voluntas et actus pertinent
+<lb ed="Bd" n="43"/>ad unum peccatum : non ergo divisa
+<lb ed="Bd" n="44"/>mandata debent esse de voluntate.
+</p>
+            <p xml:id="alalal-f45132-d1e165">
+               <lb ed="Bd" n="45"/>3. Item, Nihil est vituperabile nisi in
+<lb ed="Bd" n="46"/>quantum procedit a voluntate 
+delibera<lb break="no" ed="Bd" n="47"/>tiva, nec etiam laudabile : constat autem,
+<lb ed="Bd" n="48"/>guod opus non prohibetur in decalogo,
+<lb ed="Bd" n="49"/>nisi quia est vituperabile in moribus :
+<lb ed="Bd" n="50"/>ergo prohibelur in quantum exit a 
+deli<lb break="no" ed="Bd" n="51"/>berativa voluntate : ergo in opere 
+intel<lb break="no" ed="Bd" n="52"/>ligitur voluntas prohibita : ergo 
+super<lb break="no" ed="Bd" n="53"/>fluit postea addere novam 
+prohibitio<lb break="no" ed="Bd" n="54"/>nem.
+</p>
+            <p xml:id="alalal-f45132-d1e189">
+               <lb ed="Bd" n="55"/>Solutio Dicendum, quod aliud est in
+<lb ed="Bd" n="56"/>concupiscentia carnis, et aliud in 
+concu<lb break="no" ed="Bd" n="57"/>piscentia rerum, et aliud in aliis 
+pecca<lb break="no" ed="Bd" n="58"/>tis, ut dictum est supra in questione de
+<lb ed="Bd" n="59"/>numero praeceptorum : quia iste duae
+<lb ed="Bd" n="60"/>concupiscentiae habent dilectationes suas
+<lb ed="Bd" n="61"/>etiam ante opus non conjunctas operi, ut
+<lb ed="Bd" n="62"/>dicit Augustinus. Et ideo quia in opere
+<lb ed="Bd" n="63"/>habent nocumentum proximi, propter
+<lb ed="Bd" n="64"/>illam turpitudinem in qua quiescit 
+cogi<lb break="no" ed="Bd" n="65"/>tatio, speciali preecepto prohibetur opus :
+<lb ed="Bd" n="66"/>et propter turpitudinem concupiscentia
+<lb ed="Bd" n="67"/>ante opus, aliud mandatum est quod
+<lb ed="Bd" n="68"/>prohibet cogitatum cordis. Sic autem non
+<lb ed="Bd" n="69"/>est in aliis : et hujus causa supra dicta
+<lb ed="Bd" n="70"/>est,
+</p>
+            <p xml:id="alalal-f45132-d1e226">
+               <lb ed="Bd" n="71"/>Ad aliud dicendum, quod duplex est
+<lb ed="Bd" n="72"/>voluntas, scilicet operis, et delectationis
+<lb ed="Bd" n="73"/>ante opus, vel sine opere. Et prima 
+pro<lb break="no" ed="Bd" n="74"/>hibetur in praecepto in quo prohibetur
+<lb ed="Bd" n="75"/>opus. Secunda autem causa indiget 
+pro<lb break="no" ed="Bd" n="76"/>prio praecepto, in quo prohibeatur.
+</p>
+            <p xml:id="alalal-f45132-d1e242">
+               <lb ed="Bd" n="77"/>Ad aliud dicendum, quod licet opus
+<lb ed="Bd" n="78"/>causam principalem vituperii vel laudis
+<lb ed="Bd" n="79"/>habeat a voluntate, non tamen accipit a
+<lb ed="Bd" n="80"/>voluntate totam causam nocumenti : et
+<lb ed="Bd" n="81"/>quoad nocumentum potest esse unum
+<lb ed="Bd" n="82"/>praeceptum, et quoad turpitudinem 
+quie<lb break="no" ed="Bd" n="83"/>tis in affectu illecebre potest esse aliud.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

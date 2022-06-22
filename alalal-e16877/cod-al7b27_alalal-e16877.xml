@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="688"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e16877"><!-- l2d44a1 -->
+            <head xml:id="alalal-e16877-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-e16877-Hd1e101" type="question-title">Utrum potentia peccandi sit potentia vel
+impotentia ?</head>
+            <p xml:id="alalal-e16877-d1e104">
+               <pb ed="#Bc" n="688"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS I.
+<lb ed="#Bc" n="2"/>Utrum potentia peccandi sit potentia vel
+<lb ed="#Bc" n="3"/>impotentia ?
+</p>
+            <p xml:id="alalal-e16877-d1e117">
+               <lb ed="#Bc" n="4"/>Circa primam partem queruntur tria :
+<lb ed="#Bc" n="5"/>quorum primum est, Utrum potentia
+<lb ed="#Bc" n="6"/>peccandi sit potentia vel impotentia?
+<lb ed="#Bc" n="7"/>Secundum, Utrum sit a Deo?
+<lb ed="#Bc" n="8"/>Tertium, Utrum sit una, vel plures ?
+</p>
+            <p xml:id="alalal-e16877-d1e130">
+               <lb ed="#Bc" n="9"/>Ad primum sic proceditur :
+<lb ed="#Bc" n="10"/>1. Dicit Philosophus, quod potentiae
+<lb ed="#Bc" n="11"/>rationales sunt ad opposita: sed 
+oppo<lb break="no" ed="#Bc" n="12"/>sita sunt bonum et malum : ergo una
+<lb ed="#Bc" n="13"/>est potentia horum in anima rationali :
+<lb ed="#Bc" n="14"/>sed potentia ad bonum est potentia : 
+er<lb break="no" ed="#Bc" n="15"/>go etiam potentia ad malum est potentia.
+</p>
+            <p xml:id="alalal-e16877-d1e149">
+               <lb ed="#Bc" n="16"/>2. Item, Potentia mali est potentia 
+po<lb break="no" ed="#Bc" n="17"/>tens facere malum : ergo est potentia
+<lb ed="#Bc" n="18"/>activa : omnis autem potentia activa,
+<lb ed="#Bc" n="19"/>potentia est et non impotentia : ergo 
+po<lb break="no" ed="#Bc" n="20"/>tentiea mali est potentia, et non 
+impo<lb break="no" ed="#Bc" n="21"/>tentia.
+</p>
+            <p xml:id="alalal-e16877-d1e165">
+               <lb ed="#Bc" n="22"/>3. Item, Supra habitum est, quod 
+li<lb break="no" ed="#Bc" n="23"/>berum arbitrium est facultas rationis et
+<lb ed="#Bc" n="24"/>voluntatis, qua bonum eligitur gratia
+<lb ed="#Bc" n="25"/>assistente, et malum ea deserente : ergo
+<lb ed="#Bc" n="26"/>liberum arbitrium est potentia mali qua
+<lb ed="#Bc" n="27"/>fit malum : sed voluntas est potentia 
+sim<lb break="no" ed="#Bc" n="28"/>pliciter : ergo potentia qua fit malum
+<lb ed="#Bc" n="29"/>est potentia et non impotentia.
+</p>
+            <p xml:id="alalal-e16877-d1e185">
+               <lb ed="#Bc" n="30"/>SED CONTRA!
+<lb ed="#Bc" n="31"/>1. Dicit Anselmus in libro de Libero
+<lb ed="#Bc" n="32"/>arbitrio : <quote xml:id="alalal-e16877-Qd1e193"> An putas quod additum 
+mi<lb break="no" ed="#Bc" n="33"/>nuit, et subtractum auget libertatem, esse
+<lb ed="#Bc" n="34"/>libertatem, aut partem libertatis? </quote> 
+Qua<lb break="no" ed="#Bc" n="35"/>si diceret : Non : sed potentia mali 
+addi<lb break="no" ed="#Bc" n="36"/>ta potentie et facultati et libertati, mimuit
+<lb ed="#Bc" n="37"/>unumquodque illorum : ergo nec est 
+po<lb break="no" ed="#Bc" n="38"/>tentia, nec pars potentiz.
+</p>
+            <p xml:id="alalal-e16877-d1e210">
+               <lb ed="#Bc" n="39"/>2. Item, Si esset potentia absolute,
+<lb ed="#Bc" n="40"/>cum nulla potestas quae de genere 
+lauda<lb break="no" ed="#Bc" n="41"/>bilium est, desit Deo et Angelis confir-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="42"/>matis, esset ista in Angelis et in Deo,
+<lb ed="#Bc" n="43"/>quod falsum est : ergo non est potentia.
+</p>
+            <p xml:id="alalal-e16877-d1e226">
+               <lb ed="#Bc" n="44"/>3. Item, Si esset naturalis potentia 
+ho<lb break="no" ed="#Bc" n="45"/>minis, cum gratia sit perfectio nature,
+<lb ed="#Bc" n="46"/>et gloria perfectio gratiw, remaneret illa
+<lb ed="#Bc" n="47"/>potentia in gratia et gloria : constat 
+au<lb break="no" ed="#Bc" n="48"/>tem hoc non esse verum: ergo non est
+<lb ed="#Bc" n="49"/>potentia, ut videtur, sed defectus et 
+im<lb break="no" ed="#Bc" n="50"/>potentia.
+</p>
+            <p xml:id="alalal-e16877-d1e244">
+               <lb ed="#Bc" n="51"/>Soxutio. Dicendum, quod potentia ad
+<lb ed="#Bc" n="52"/>malum, potest esse dupliciter, scilicet ad
+<lb ed="#Bc" n="53"/>malum privationis pure, et haec potentia
+<lb ed="#Bc" n="54"/>est materialis, et defectus est in omnibus
+<lb ed="#Bc" n="55"/>corporalibus et spiritualibus : et de hac
+<lb ed="#Bc" n="56"/>non loquimur hic : quia ultimum illius
+<lb ed="#Bc" n="57"/>(ut dicit Philosophus, insuper et 
+Com<lb break="no" ed="#Bc" n="58"/>mentator in libro de Celo et Adundo) est
+<lb ed="#Bc" n="59"/>in minimo : ut si vinci potest ab uno,
+<lb ed="#Bc" n="60"/>potest vinci a duobus, et tribus, et sic
+<lb ed="#Bc" n="61"/>deinceps. Dicitur etiam potentia mali 
+po<lb break="no" ed="#Bc" n="62"/>tentia faciendi malum: et tunc oportet
+<lb ed="#Bc" n="63"/>quod malum accipiatur in actione mala,
+<lb ed="#Bc" n="64"/>secundum quod supra diximus, quod
+<lb ed="#Bc" n="65"/>malum habet causam deficientem et 
+effi<lb break="no" ed="#Bc" n="66"/>cientem : et sic illa potentia potest 
+con<lb break="no" ed="#Bc" n="67"/>siderari tripliciter, scilicet secundum 
+ra<lb break="no" ed="#Bc" n="68"/>dicem in qua radicatur in subjecto 
+poten<lb break="no" ed="#Bc" n="69"/>tie, et secundum essentiam potenti, et
+<lb ed="#Bc" n="70"/>secundum conjunctionem ad actum. 
+Pri<lb break="no" ed="#Bc" n="71"/>mo modo est potentia, et secundo modo:
+<lb ed="#Bc" n="72"/>et sic intelligitur illud Philosophi, quod
+<lb ed="#Bc" n="73"/>potestas prave agendi est bona. Sed 
+ter<lb break="no" ed="#Bc" n="74"/>tio modo adhuc dupliciter consideratur,
+<lb ed="#Bc" n="75"/>scilicet per comparationem ad 
+substan<lb break="no" ed="#Bc" n="76"/>tiam actus, vel per comparationem ad
+<lb ed="#Bc" n="77"/>actum sub deformitate. Et primo modo
+<lb ed="#Bc" n="78"/>est potentia adhuc. Secundo autem modo
+<lb ed="#Bc" n="79"/>est potentia cum impotentia permixta
+<lb ed="#Bc" n="80"/>sibi. Si autem comparetur ad deformita—
+<lb ed="#Bc" n="81"/>tem solam : tunc non est potentia activa,
+<lb ed="#Bc" n="82"/>sed materialis defectus et debilitas 
+suc<lb break="no" ed="#Bc" n="83"/>cumbens malitie : sicut dicimus hune
+<lb ed="#Bc" n="84"/>posse mori, et illum posse infirmari, et
+<lb ed="#Bc" n="85"/>illum posse vinci, semper potentia 
+mate<lb break="no" ed="#Bc" n="86"/>riali deficiente.
+</p>
+            <p xml:id="alalal-e16877-d1e326">
+               <lb ed="#Bc" n="87"/>Et per hoc patet solutio ad totum :
+<lb ed="#Bc" n="88"/>quia prime rationes procedunt de 
+poten<lb break="no" ed="#Bc" n="89"/>tia in consideratione prima, et secunda,
+<pb ed="#Bc" n="689"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>et tertia secundum quod refertur ad 
+c<lb break="no" ed="#Bc" n="2"/>tum tantum.
+</p>
+            <p xml:id="alalal-e16877-d1e344">
+               <lb ed="#Bc" n="3"/>Alie autem rationes procedunt in 
+con<lb break="no" ed="#Bc" n="4"/>sideratione qua refertur ad defectum et
+<lb ed="#Bc" n="5"/>deformitatem. Primo etiam et secundo
+<lb ed="#Bc" n="6"/>modo istae potestates sunt in Angelis, licet
+<lb ed="#Bc" n="7"/>non tertio modo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="465"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d82391"><!-- l2d26a11 -->
+            <head xml:id="alalal-d82391-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-d82391-Hd1e101" type="question-title">Utrum gratia sit virtus, et virtus gratia?
+Secundo queritur, Utrum gratia sit
+virtus ?</head>
+            <p xml:id="alalal-d82391-d1e104">
+               <lb ed="#Bc" n="45"/>ARTICULUS XI.
+<lb ed="#Bc" n="46"/>Utrum gratia sit virtus, et virtus gratia?
+<lb ed="#Bc" n="47"/>Secundo queritur, Utrum gratia sit
+<lb ed="#Bc" n="48"/>virtus ?
+</p>
+            <p xml:id="alalal-d82391-d1e115">
+               <lb ed="#Bc" n="49"/>Videtur autem, quod sic : quia
+<lb ed="#Bc" n="50"/>1. Hoc videtur dicere in Liftera, quod
+<lb ed="#Bc" n="51"/>fides sit gratia: et eadem ratio est de
+<lb ed="#Bc" n="52"/>aliis virtutibus: ergo virtus est idem
+<lb ed="#Bc" n="53"/>cum gratia.
+</p>
+            <p xml:id="alalal-d82391-d1e128">
+               <lb ed="#Bc" n="54"/>2. Item, Virtus diffinitur in sequenti
+<lb ed="#Bc" n="55"/>distinctione sic: <quote xml:id="alalal-d82391-Qd1e134"> Virtus est bona 
+quali<lb break="no" ed="#Bc" n="56"/>tas mentis, qua recte vivitur, qua nullus
+<lb ed="#Bc" n="57"/>male utitur, quam Deus in nobis sine
+<lb ed="#Bc" n="58"/>nobis operatur. </quote> Hec autem omnia
+<lb ed="#Bc" n="59"/>conveniunt gratiae : ergo, etc.
+</p>
+            <p xml:id="alalal-d82391-d1e147">
+               <lb ed="#Bc" n="60"/>3. Item, Perfectio ad meritum est 
+gra<lb break="no" ed="#Bc" n="61"/>tia : virtus autem est perfectio ad 
+meri<lb break="no" ed="#Bc" n="62"/>tum : ergo virtus est gratia.
+</p>
+            <p xml:id="alalal-d82391-d1e156">
+               <lb ed="#Bc" n="63"/>SED CONTRA :
+<lb ed="#Bc" n="64"/>Si virtus est gratia : aut est gratia 
+gra<lb break="no" ed="#Bc" n="65"/>tis data, aut gratia gratum faciens. Si
+<lb ed="#Bc" n="66"/>gratia gratis data, de hoc non quaeritur :
+<lb ed="#Bc" n="67"/>quia et potentiae anime et virtutes et
+<lb ed="#Bc" n="68"/>cetera omnia quae a Deo habentur, sunt
+<lb ed="#Bc" n="69"/>gratia gratis date. Si autem est gratia
+<lb ed="#Bc" n="70"/>gratum faciens. Contra : Virtus potest
+<lb ed="#Bc" n="71"/>esse sine gratia, infusa, et acquisita
+<lb ed="#Bc" n="72"/>preter charitatem : ergo si gratia est
+<lb ed="#Bc" n="73"/>virtus, non erit nisi charitas: ergo hoc
+<lb ed="#Bc" n="74"/>ad minus habitum est de necessitate,
+<lb ed="#Bc" n="75"/>quod gratia non est omnis virtus, sed aut
+<lb ed="#Bc" n="76"/>quedam, aut nulla. ,
+</p>
+            <p xml:id="alalal-d82391-d1e189">
+               <lb ed="#Bc" n="77"/>Si dicas, quod non sequitur, si gratia
+<lb ed="#Bc" n="78"/>potest amitti retenta virtute, quod gratia
+<lb ed="#Bc" n="79"/>non sit virtus. Contra : Quecumque 
+se<lb break="no" ed="#Bc" n="80"/>parantur essentialiter, ita quod unum
+<lb ed="#Bc" n="81"/>est sine alio, illa nec per essentiam nec
+<lb ed="#Bc" n="82"/>per substantiam sunt idem : sed virtus et
+<lb ed="#Bc" n="83"/>gratia separantur sic, quod unum illorum
+<lb ed="#Bc" n="84"/>potest esse sine alio : ergo gratia non
+<lb ed="#Bc" n="85"/>est idem virtuti.
+</p>
+            <p xml:id="alalal-d82391-d1e211">
+               <lb ed="#Bc" n="86"/>Si dicas, quod forma virtutis est gra-
+<pb ed="#Bc" n="466"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>tia, et ita est virtus gratum faciens tunc :
+<lb ed="#Bc" n="2"/>ad minus habitum est, quod gratia et
+<lb ed="#Bc" n="3"/>virtus ut virtus non sunt idem. Si autem
+<lb ed="#Bc" n="4"/>est forma virtutis : aut est forma dans
+<lb ed="#Bc" n="5"/>esse, aut forma consequens esse virtulis,
+<lb ed="#Bc" n="6"/>hoc est, essentialis forma, vei 
+accidenta<lb break="no" ed="#Bc" n="7"/>lis quae est ad bene esse. Si dicas, quod
+<lb ed="#Bc" n="8"/>est forma ad bene esse : tune necessario
+<lb ed="#Bc" n="9"/>habebitur, quod essentialiter differt a
+<lb ed="#Bc" n="10"/>substantia virtutis : quia omnis forma
+<lb ed="#Bc" n="11"/>que est ad bene esse alicujus, 
+essentiali<lb break="no" ed="#Bc" n="12"/>ter differt ab illo: ergo gratia secundum
+<lb ed="#Bc" n="13"/>hoc essentialiter differt a virtute. Si 
+au<lb break="no" ed="#Bc" n="14"/>tem est forma dans esse virtuti. ConTra :
+<lb ed="#Bc" n="15"/>Forma dans esse, multiplicatur et 
+con<lb break="no" ed="#Bc" n="16"/>trahitur in diversis ad diversa: et sicut
+<lb ed="#Bc" n="17"/>illa differunt specie vel numero, ita ipsa
+<lb ed="#Bc" n="18"/>differt specie vel numero. Si igitur gratia
+<lb ed="#Bc" n="19"/>est forma dans esse virtuti, ipsa erit in
+<lb ed="#Bc" n="20"/>diversis virtutibus diversa specie, et sic
+<lb ed="#Bc" n="21"/>non est una gratia operans, sed multe
+<lb ed="#Bc" n="22"/>species secundum numertim specierum
+<lb ed="#Bc" n="23"/>virtutis : et hoc non puto aliquem 
+con<lb break="no" ed="#Bc" n="24"/>cedere. ,
+</p>
+            <p xml:id="alalal-d82391-d1e272">
+               <lb ed="#Bc" n="25"/>Si tamen alicui videatur non esse 
+in<lb break="no" ed="#Bc" n="26"/>conveniens. Oxngicirur contra sic : Forma
+<lb ed="#Bc" n="27"/>dans essé, habet nomen aptabile per
+<lb ed="#Bc" n="28"/>concretionem ipsi speciei quam 
+consti<lb break="no" ed="#Bc" n="29"/>tuit, sicut humanitas facit hominem : et
+<lb ed="#Bc" n="30"/>accipiamus formam naturalem, et sic 
+in<lb break="no" ed="#Bc" n="31"/>venilur in omnibus : ergo fides 
+constitui<lb break="no" ed="#Bc" n="32"/>tur per formam alterius rationis et 
+ho<lb break="no" ed="#Bc" n="33"/>minis, quam spes, et charitas, et 
+pruden<lb break="no" ed="#Bc" n="34"/>tia, et sic de aliis: sed gratia non dicit
+<lb ed="#Bc" n="35"/>nisi formam unius rationis: ergo gratia
+<lb ed="#Bc" n="36"/>non est forma constituens virtutem 
+se<lb break="no" ed="#Bc" n="37"/>cundum essentiam.
+</p>
+            <p xml:id="alalal-d82391-d1e303">
+               <lb ed="#Bc" n="38"/>Si dicas, quod hoc verum esset, si
+<lb ed="#Bc" n="39"/>virtutes omnes non convenirent in actu
+<lb ed="#Bc" n="40"/>uno, quiest gratum facere et mereri in
+<lb ed="#Bc" n="41"/>opere : et quia sic conveniunt, ideo 
+ha<lb break="no" ed="#Bc" n="42"/>bent formam unam: tunc necessario
+<lb ed="#Bc" n="43"/>probabitur, quod gratia essentialiter 
+dif<lb break="no" ed="#Bc" n="44"/>fert a virtule sic : Omnis virtus 
+determi<lb break="no" ed="#Bc" n="45"/>natur essentialiter ad speciale objectum,
+<lb ed="#Bc" n="46"/>et ad actum illius objecti: sicut fides ad
+<lb ed="#Bc" n="47"/>veritatem primam et actum assentiendi 
+<lb ed="#Bc" n="48"/>prime veritati, et charitas ad primam
+<lb ed="#Bc" n="49"/>bonitatem et actum diligendi : et de car-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="50"/>nalibus non est questio quin ita sit : 
+igi<lb break="no" ed="#Bc" n="51"/>tur quod non respicit objectum in una
+<lb ed="#Bc" n="52"/>ratione, nec actum in ratione speciali,
+<lb ed="#Bc" n="53"/>illud non erit de essentia hujus vel istiys
+<lb ed="#Bc" n="54"/>virtutis : sed aut non est virtus, aut non
+<lb ed="#Bc" n="55"/>est unum virtutum genus: gratia autem
+<lb ed="#Bc" n="56"/>non respicit aliquod objectum in specie,
+<lb ed="#Bc" n="57"/>vel actum determinata ratione : quod
+<lb ed="#Bc" n="58"/>probatur ex hoc quod quodcumque re.
+<lb ed="#Bc" n="59"/>spiceret, jam per hoc ipsum opponeretur
+<lb ed="#Bc" n="60"/>ad alterum : et hoc non est verum, quia
+<lb ed="#Bc" n="61"/>virtus quilibet habet in se gratiam :
+<lb ed="#Bc" n="62"/>ergo gratia aut non est specialiter virtus,
+<lb ed="#Bc" n="63"/>aut non est species virtutis: quia genus
+<lb ed="#Bc" n="64"/>secundum esse est in specie, et species in
+<lb ed="#Bc" n="65"/>individuis, et ordinantur ad eumdem 
+ac<lb break="no" ed="#Bc" n="66"/>tum ad quem forma individui: ergo 
+re<lb break="no" ed="#Bc" n="67"/>linquitur, quod gratia non sit virtus 
+egs<lb break="no" ed="#Bc" n="68"/>sentialiter.
+</p>
+            <p xml:id="alalal-d82391-d1e376">
+               <lb ed="#Bc" n="69"/>Item, Impossibile est id in quo 
+conve<lb break="no" ed="#Bc" n="70"/>niunt diversa specie, et in quo distin-~
+<lb ed="#Bc" n="71"/>guuntur, esse a principio uno: sed in)
+<lb ed="#Bc" n="72"/>ratione merendi conveniunt diverse 
+spe<lb break="no" ed="#Bc" n="73"/>cies virtutum, et in ratione actus per
+<lb ed="#Bc" n="74"/>objectum distinguuntur diverse species
+<lb ed="#Bc" n="75"/>earum : ergo ratio merendi et ratio
+<lb ed="#Bc" n="76"/>agendi actum virtutis hujus vel illus,
+<lb ed="#Bc" n="77"/>non sunt principii unius secundum 
+es<lb break="no" ed="#Bc" n="78"/>senliam. Virtus autem est principium
+<lb ed="#Bc" n="79"/>agendi in ratione determinati objecti,
+<lb ed="#Bc" n="80"/>quia omnis actus virtutis determinate
+<lb ed="#Bc" n="81"/>rationis habet objectum: et gratia est
+<lb ed="#Bc" n="82"/>principium boni merili, ut dicitur in 
+Lit<lb break="no" ed="#Bc" n="83"/>tera: ergo gratia et virtus non sunt
+<lb ed="#Bc" n="84"/>idem.
+</p>
+            <p xml:id="alalal-d82391-d1e413">
+               <lb ed="#Bc" n="85"/>Si dicas, quod una numero forma est
+<lb ed="#Bc" n="86"/>dans esse, et principium actionum se-.
+<lb ed="#Bc" n="87"/>quentium esse: et ita uno numero est
+<lb ed="#Bc" n="88"/>forma dans esse bonum, et quod agit 
+ac<lb break="no" ed="#Bc" n="89"/>tiones sequentes virtutem. Istud 
+ridicu<lb break="no" ed="#Bc" n="90"/>losum est, et ex magna ignorantia 
+Phi<lb break="no" ed="#Bc" n="91"/>losophiw naturalis dictum. Cum enim.
+<lb ed="#Bc" n="92"/>forma est principium actionum -conse- -
+<lb ed="#Bc" n="93"/>quentium esse: aut ipsa in sé una ma-"
+<lb ed="#Bc" n="94"/>nens est principium omnium illarum”.
+<lb ed="#Bc" n="95"/>actionum, aut diversis principiis qué.
+<lb ed="#Bc" n="96"/>causantur ab ea in composito vel in 
+sub<lb break="no" ed="#Bc" n="97"/>stantia.
+</p>
+            <p xml:id="alalal-d82391-d1e444">
+               <lb ed="#Bc" n="98"/>Si dicas, quod uno modo in se ma-
+<pb ed="#Bc" n="467"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>nens: hoc erit contra omne notum 
+prin<lb break="no" ed="#Bc" n="2"/>cipium : quia idem eodem modo se 
+ha<lb break="no" ed="#Bc" n="3"/>bens, semper facit idem. Si autem facit
+<lb ed="#Bc" n="4"/>hoc per diversa principia per quae agit,
+<lb ed="#Bc" n="5"/>et per quae causat in substantia: sicut
+<lb ed="#Bc" n="6"/>anima per intellectum et voluntatem et
+<lb ed="#Bc" n="7"/>memoriam eflicitur principium diverso
+<lb ed="#Bc" n="8"/>rum : tune nihil valet quod inducitur
+<lb ed="#Bc" n="9"/>quia tunc nec gratia efficietur principium
+<lb ed="#Bc" n="10"/>actuum diversorum specie, nisi diversa
+<lb ed="#Bc" n="11"/>specie conjungantur ei: et ille sunt 
+vir<lb break="no" ed="#Bc" n="12"/>tutes quae infunduntur in ipsa: ergo
+<lb ed="#Bc" n="13"/>gratia et virtus anime differunt, sicut
+<lb ed="#Bc" n="14"/>substantia anime et potentie : et hoc
+<lb ed="#Bc" n="15"/>nos probare intendimus, quia sic 
+diffe<lb break="no" ed="#Bc" n="16"/>runt essentialiter.
+</p>
+            <p xml:id="alalal-d82391-d1e488">
+               <lb ed="#Bc" n="17"/>Soxutio. Sine prejudicio forte hic 
+sub<lb break="no" ed="#Bc" n="18"/>tilius intelligentium, videtur mihi 
+im<lb break="no" ed="#Bc" n="19"/>possibile esse, quod gratia et virtus sint
+<lb ed="#Bc" n="20"/>idem per essentiam : sed per substantiam
+<lb ed="#Bc" n="21"/>aliquomodo possunt esse idem sicut
+<lb ed="#Bc" n="22"/>anima cum potentiis suis: quia natura
+<lb ed="#Bc" n="23"/>anime: subsistit omnibus potentiis, et
+<lb ed="#Bc" n="24"/>potestas ipsius completur in eis, cum 
+ta<lb break="no" ed="#Bc" n="25"/>men secundum se habeat actum dandi
+<lb ed="#Bc" n="26"/>vilam, secundum quem actum est 
+perfe<lb break="no" ed="#Bc" n="27"/>ctio prima corporis: quia, ut dicit 
+Philo<lb break="no" ed="#Bc" n="28"/>sophus, viventibus est esse, sicut sentire
+<lb ed="#Bc" n="29"/>est sentientibus, et intelligere 
+intelligen<lb break="no" ed="#Bc" n="30"/>tibus : et, ut breviter dicatur, sicut 
+cujus<lb break="no" ed="#Bc" n="31"/>libet formee substantialis primus actus
+<lb ed="#Bc" n="32"/>in eo cujus est forma, est esse illius 
+for<lb break="no" ed="#Bc" n="33"/>mati: ita videtur mihi, quod gratia 
+sub<lb break="no" ed="#Bc" n="34"/>sistat virtutibus omnibus gratum 
+facien<lb break="no" ed="#Bc" n="35"/>tibus, et actus suus est vita spiritualis
+<lb ed="#Bc" n="36"/>anime: et virtutes accipiunt essentiam
+<lb ed="#Bc" n="37"/>a proprietatibus additis, sicut proprietates
+<lb ed="#Bc" n="38"/>naturales addite anime, faciunt 
+poten<lb break="no" ed="#Bc" n="39"/>tras : et ille proprietates essentialiter
+<lb ed="#Bc" n="40"/>non sunt gratia, licet gratia subsistat eis:
+<lb ed="#Bc" n="41"/>et ile proprietates quia diverse sunt,
+<lb ed="#Bc" n="42"/>ideo sunt habitus diversi respicientes 
+ac<lb break="no" ed="#Bc" n="43"/>tus et objecta diversa. Et haec opinio 
+vi<lb break="no" ed="#Bc" n="44"/>detur necessario probari rationibus 
+in<lb break="no" ed="#Bc" n="45"/>ductis.
+</p>
+            <p xml:id="alalal-d82391-d1e553">
+               <lb ed="#Bc" n="46"/>Ap 1 ergo quod contra objicitur 
+pri<lb break="no" ed="#Bc" n="47"/>mo, dicendum quod dicitur, quod anima
+<lb ed="#Bc" n="48"/>est potentia : quia natura totius poten-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="49"/>tialis non deest parti sibi addite per
+<lb ed="#Bc" n="50"/>proprietatem specialis actus : sed substat
+<lb ed="#Bc" n="51"/>fota illa natura substantialis tolius, et
+<lb ed="#Bc" n="52"/>ideo praedicatur de illo.
+</p>
+            <p xml:id="alalal-d82391-d1e573">
+               <lb ed="#Bc" n="53"/>Ad aliud dicendum, quod gratia non
+<lb ed="#Bc" n="54"/>proprie recte vivitur : quia rectum 
+trans<lb break="no" ed="#Bc" n="55"/>sumitur a medio secundum dimensionem
+<lb ed="#Bc" n="56"/>proportionato extremis: medium autem
+<lb ed="#Bc" n="57"/>est actus, et extrema, potentia et 
+obje<lb break="no" ed="#Bc" n="58"/>ctum determinatum ; et tunc non 
+conve<lb break="no" ed="#Bc" n="59"/>nit nisi virtuti haec rectitudo, et non
+<lb ed="#Bc" n="60"/>gratiae, quia illa per se nec respicit 
+poten<lb break="no" ed="#Bc" n="61"/>tiam, nec aliquod objectum.
+</p>
+            <p xml:id="alalal-d82391-d1e596">
+               <lb ed="#Bc" n="62"/>Ad aliud dicendum, quod in illo 
+ar<lb break="no" ed="#Bc" n="63"/>gumento est locus sophisticus accidentis :
+<lb ed="#Bc" n="64"/>perfectio enim ad meritum est gratia per
+<lb ed="#Bc" n="65"/>se: virtus autem non substantialiter 
+de<lb break="no" ed="#Bc" n="66"/>terminatur ad meritum, sed ad objectum
+<lb ed="#Bc" n="67"/>determinate rationis, et ad meritum in
+<lb ed="#Bc" n="68"/>quantum est in gratia : et facit ad meri-_
+<lb ed="#Bc" n="69"/>tum, sicut actus potentiz# anime, ut 
+in<lb break="no" ed="#Bc" n="70"/>telligere, vel nutrire, vel generare, 
+ope<lb break="no" ed="#Bc" n="71"/>ratur vitam : et constat, quod potentie
+<lb ed="#Bc" n="72"/>non proprius actus est vita, sed prout
+<lb ed="#Bc" n="73"/>reducitur ad animam in qua radicatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

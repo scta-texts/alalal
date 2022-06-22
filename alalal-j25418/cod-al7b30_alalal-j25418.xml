@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 41</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 41</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="598"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j25418"><!-- l4d44a41 -->
+            <head xml:id="alalal-j25418-Hd1e99">Articulus 41</head>
+            <head xml:id="alalal-j25418-Hd1e101" type="question-title">An anima sit effigiata ut corpus ?</head>
+            <p xml:id="alalal-j25418-d1e104">
+               <lb ed="#Bf" n="64"/>ARTICULUS XLI.
+<lb ed="#Bf" n="65"/>An anima sit effigiata ut corpus ?
+</p>
+            <p xml:id="alalal-j25418-d1e111">
+               <lb ed="#Bf" n="66"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bf" n="67"/>ibi, G, circa medium : <quote xml:id="alalal-j25418-Qd1e117"> Profiteri 
+ani<lb break="no" ed="#Bf" n="68"/>mam habere posse similitudinem 
+corpo<lb break="no" ed="#Bf" n="69"/>ris, etc. </quote>
+            </p>
+            <p xml:id="alalal-j25418-d1e125">
+               <lb ed="#Bf" n="70"/>Videtur mentiri et heresim dicere :
+<lb ed="#Bf" n="71"/>quia
+<lb ed="#Bf" n="72"/>1. Tertullianus propter hoc damnatus
+<lb ed="#Bf" n="73"/>est, quia dixit animam esse effigiatam ut
+<lb ed="#Bf" n="74"/>corpus, et interiorem hominem esse 
+figu<lb break="no" ed="#Bf" n="75"/>ratum ut exteriorem : et hoc expresse
+<lb ed="#Bf" n="76"/>videtur hic dici: ergo videtur hic esse
+<lb ed="#Bf" n="77"/>heresis Tertulliani.
+</p>
+            <p xml:id="alalal-j25418-d1e146">
+               <lb ed="#Bf" n="78"/>2. Item, Videtur impossibile : quia 
+si<lb break="no" ed="#Bf" n="79"/>ve corpus sumatur naturaliter, sive 
+arti<lb break="no" ed="#Bf" n="80"/>ficialiter, sive mathematice, figura 
+sem<lb break="no" ed="#Bf" n="81"/>per est forma ipsius : et omne figuratum
+<lb ed="#Bf" n="82"/>est corpus : ergo si anima hahet figuram
+<lb ed="#Bf" n="83"/>corporis, ipsa est corpus.
+</p>
+            <p xml:id="alalal-j25418-d1e162">
+               <lb ed="#Bf" n="84"/>3. Item, Nullum corpus est perfectio
+<lb ed="#Bf" n="85"/>corporis : sed omnis anima est perfectio
+<lb ed="#Bf" n="86"/>corporis : ergo nulla anima est corpus :
+<lb ed="#Bf" n="87"/>sed figura est terminus superficiei vel
+<lb ed="#Bf" n="88"/>corporis : ergo nulla anima habet 
+figu<lb break="no" ed="#Bf" n="89"/>ram corporis : ergo falsum dicit in Li¢-
+<lb ed="#Bf" n="90"/>tera.
+</p>
+            <p xml:id="alalal-j25418-d1e180">
+               <pb ed="#Bf" n="599"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>4. Item, Probatio nulla est in 
+Lit<lb break="no" ed="#Bf" n="2"/>tera: quia anima non videt hujusmodi
+<lb ed="#Bf" n="3"/>somnia, sed homo : et non est 
+inconve<lb break="no" ed="#Bf" n="4"/>niens si ille de se videt corporales actus,
+<lb ed="#Bf" n="5"/>cum ipse sit corporeus.Quod autem 
+ani<lb break="no" ed="#Bf" n="6"/>ma hoc non videat, non latet aliquem
+<lb ed="#Bf" n="7"/>aliquid scientem de philosophia 
+natu<lb break="no" ed="#Bf" n="8"/>rali. Preterea, Si anima talia videret,
+<lb ed="#Bf" n="9"/>tunc etiam separata talia somnia 
+vide<lb break="no" ed="#Bf" n="10"/>ret : et hoc ridiculum est dicere, quod
+<lb ed="#Bf" n="11"/>anime separate somnient.
+</p>
+            <p xml:id="alalal-j25418-d1e211">
+               <lb ed="#Bf" n="12"/>Responsio. Augustinus in veritate 
+is<lb break="no" ed="#Bf" n="13"/>tud non asserit : quia dubie dictum est,
+<lb ed="#Bf" n="14"/>et magis apparet absurdum et falsum
+<lb ed="#Bf" n="15"/>quam verum. Si tamen quis sustinere
+<lb ed="#Bf" n="16"/>velit, dicere poterit, quod figuram 
+cor<lb break="no" ed="#Bf" n="17"/>poris habere contingit dupliciter, scilicet
+<lb ed="#Bf" n="18"/>per esse, et per intentionem. Primo 
+gui<lb break="no" ed="#Bf" n="19"/>dem modo non habet figuram corporis
+<lb ed="#Bf" n="20"/>nisi corpus : et ideo erravit Tertullianus,
+<lb ed="#Bf" n="21"/>qui tali modo figuram corporis attribuit
+<lb ed="#Bf" n="22"/>anime. Per intentionem autem in 
+po<lb break="no" ed="#Bf" n="23"/>tentia quae imaginaria vocatur, anima
+<lb ed="#Bf" n="24"/>sensibilis habet figuram corporis quando
+<lb ed="#Bf" n="25"/>imaginantur corpora, sicut dicit in 
+Lit<lb break="no" ed="#Bf" n="26"/>tera : et ita intelligitur Liftera : figure
+<lb ed="#Bf" n="27"/>enim omnium quantorum in formali
+<lb ed="#Bf" n="28"/>sive imaginaria describuntur.
+</p>
+            <p xml:id="alalal-j25418-d1e250">
+               <lb ed="#Bf" n="29"/>Et per hoc patet solutio ad 
+pri<lb break="no" ed="#Bf" n="30"/>mum.
+</p>
+            <p xml:id="alalal-j25418-d1e257">
+               <lb ed="#Bf" n="31"/>Ad aliud dicendum, quod figura 
+se<lb break="no" ed="#Bf" n="32"/>cundum esse consideratur in illa 
+obje<lb break="no" ed="#Bf" n="33"/>ctione, et etiam in sequenti, sed 
+perin<lb break="no" ed="#Bf" n="34"/>tentionem convenit anime.
+</p>
+            <p xml:id="alalal-j25418-d1e269">
+               <lb ed="#Bf" n="35"/>Ad aliud dicendum, quod Augustinus
+<lb ed="#Bf" n="36"/>non intendit, quod anime secum ferant
+<lb ed="#Bf" n="37"/>imagines acceptas a rebus prout sunt in
+<lb ed="#Bf" n="38"/>sensibus interioribus, sed potius 
+infe<lb break="no" ed="#Bf" n="39"/>ctiones vel merita contracta ex talibus
+<lb ed="#Bf" n="40"/>ferunt secum : et hae infra melius 
+pate<lb break="no" ed="#Bf" n="41"/>bunt, et per tales infectiones poenis 
+sub<lb break="no" ed="#Bf" n="42"/>dentur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

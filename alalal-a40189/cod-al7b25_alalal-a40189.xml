@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="204"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a40189"><!-- l1d7a1 -->
+            <head xml:id="alalal-a40189-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-a40189-Hd1e101" type="question-title">Utrum Pater potuerit vel voluerit
+generare Filium ?</head>
+            <p xml:id="alalal-a40189-d1e104">
+               <lb ed="#Ba" n="9"/>ARTICULUS I.
+<lb ed="#Ba" n="10"/>Utrum Pater potuerit vel voluerit
+<lb ed="#Ba" n="11"/>generare Filium ?
+</p>
+            <p xml:id="alalal-a40189-d1e113">
+               <lb ed="#Ba" n="12"/>Incidit hic dubium triplex. Primum
+<lb ed="#Ba" n="13"/>est, Utrum Pater potuerit vel voluerit
+<lb ed="#Ba" n="14"/>generare Filium ? Secundum est, Utrum
+<lb ed="#Ba" n="15"/>hoc sit posse aliquid ? Tertium est, Utrum
+<lb ed="#Ba" n="16"/>posse et velle tantum dicuntur respectu
+<lb ed="#Ba" n="17"/>eorum quae subjiciuntur potenti et 
+vo<lb break="no" ed="#Ba" n="18"/>luntati, vel, etiam respectu aliorum ?
+</p>
+            <p xml:id="alalal-a40189-d1e131">
+               <lb ed="#Ba" n="19"/>Circa primum sic proceditur :
+<lb ed="#Ba" n="20"/>1. In praecedenti distinctione negatum
+<lb ed="#Ba" n="21"/>est, quod Filius voluntate Patris sit 
+Fi<lb break="no" ed="#Ba" n="22"/>lius : ergo videtur, quod haec pars 
+di<lb break="no" ed="#Ba" n="23"/>stinctionis non sit vera, Pater voluit 
+ge<lb break="no" ed="#Ba" n="24"/>nerare Filium: quidquid enim voluit
+<lb ed="#Ba" n="25"/>aliquis, voluntate voluit.
+</p>
+            <p xml:id="alalal-a40189-d1e150">
+               <lb ed="#Ba" n="26"/>2. Item, Cum dicitur, voluit generare,
+<lb ed="#Ba" n="27"/>sequitur ex modo loquendi, quod 
+volun<lb break="no" ed="#Ba" n="28"/>tas precessit actum generationis: hoc
+<lb ed="#Ba" n="29"/>autem non convenit in divinis : ergo hec
+<lb ed="#Ba" n="30"/>non est vera, voluit generare.
+</p>
+            <p xml:id="alalal-a40189-d1e163">
+               <lb ed="#Ba" n="31"/>Similiter altera pars videtur falsa:
+<lb ed="#Ba" n="32"/>1. Potuit generare, eo quod significatur
+<lb ed="#Ba" n="33"/>potentia praecedere actum.
+</p>
+            <p xml:id="alalal-a40189-d1e172">
+               <lb ed="#Ba" n="34"/>2. Praeterea, In Patre non sunt 
+distin<lb break="no" ed="#Ba" n="35"/>cte potentie, sicut in nobis, quod alia
+<lb ed="#Ba" n="36"/>secundum rationem sit potentia genera~
+<lb ed="#Ba" n="37"/>tiva per modum nature, et alia sit 
+ra<lb break="no" ed="#Ba" n="38"/>tionis per modum voluntatis imperantis
+<lb ed="#Ba" n="39"/>actum : ergo idem est potentia 
+genera<lb break="no" ed="#Ba" n="40"/>tionis, et voluntas generandi: et cum
+<lb ed="#Ba" n="41"/>non voluntate genuerit, nec potentia 
+ge<lb break="no" ed="#Ba" n="42"/>nuit, ut videtur.
+</p>
+            <p xml:id="alalal-a40189-d1e194">
+               <lb ed="#Ba" n="43"/>3. Praeterea, Potuit generare, aut po-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="44"/>tentia activa, aut potentia passiva: quia
+<lb ed="#Ba" n="45"/>non sunt plures. Si activa. Conrra:
+<lb ed="#Ba" n="46"/>Activa potentia est principium 
+transmu<lb break="no" ed="#Ba" n="47"/>tandi in aliud secundum quod est aliud,
+<lb ed="#Ba" n="48"/>ut dicit Philosophus in V prime 
+Philo<lb break="no" ed="#Ba" n="49"/>sophiae : ergo aliquid oportuit esse quod
+<lb ed="#Ba" n="50"/>hujusmodi ‘transmutationis reciperet
+<lb ed="#Ba" n="51"/>actionem : et hoc esset patiens ab ipso;
+<lb ed="#Ba" n="52"/>ergo generatio divina esset super 
+mate<lb break="no" ed="#Ba" n="53"/>riam, quod est absurdum. Si autem 
+po<lb break="no" ed="#Ba" n="54"/>tentia passiva, hoc est absurdius : quia
+<lb ed="#Ba" n="55"/>potentia passiva (ut dicit Philosophus
+<lb ed="#Ba" n="56"/>ibidem) est principium transmutationis
+<lb ed="#Ba" n="57"/>ex alio secundum quod aliud: ergo 
+Pa<lb break="no" ed="#Ba" n="58"/>ter genuisset ex alio transmutatus, et sic.
+<lb ed="#Ba" n="59"/>potius diceretur mater, quam pater.
+</p>
+            <p xml:id="alalal-a40189-d1e236">
+               <lb ed="#Ba" n="60"/>Gratia HUJUS ulterius quaeritur, Quare
+<lb ed="#Ba" n="61"/>ipse ratione sue generationis potius 
+di<lb break="no" ed="#Ba" n="62"/>catur pater, quam mater ?
+</p>
+            <p xml:id="alalal-a40189-d1e245">
+               <lb ed="#Ba" n="63"/>Et quare genitus potius dicatur Filius,
+<lb ed="#Ba" n="64"/>quam Filia ?
+</p>
+            <p xml:id="alalal-a40189-d1e253">
+               <lb ed="#Ba" n="65"/>1. Si enim dicitur pater ratione ejus
+<lb ed="#Ba" n="66"/>quod ipse est principium non 
+recepti<lb break="no" ed="#Ba" n="67"/>vum generationis aliunde, hoc non 
+vide<lb break="no" ed="#Ba" n="68"/>tur sufficere: quia ignis generat speciem
+<lb ed="#Ba" n="69"/>suam in materia aeris, et non habet 
+prin<lb break="no" ed="#Ba" n="70"/>cipium alterum generationis sue: et 
+ta<lb break="no" ed="#Ba" n="71"/>men ignis in materia aeris non dicitur
+<lb ed="#Ba" n="72"/>filius alterius ignis: ergo ratione illius
+<lb ed="#Ba" n="73"/>principii non potest dici pater.
+</p>
+            <p xml:id="alalal-a40189-d1e275">
+               <lb ed="#Ba" n="74"/>2. Si dicatur, quod ratione ejus 
+dici<lb break="no" ed="#Ba" n="75"/>tur pater quod est principium 
+generatio<lb break="no" ed="#Ba" n="76"/>nis, et quia dat substantiam. Contra:
+<lb ed="#Ba" n="77"/>Aut dat substantiam tamquam in qua
+<lb ed="#Ba" n="78"/>imprimatur forma per generationem, aut
+<lb ed="#Ba" n="79"/>dat substantiam tamquam quae 
+imprima<lb break="no" ed="#Ba" n="80"/>tur in alia recipiente, aut dat substantiam
+<lb ed="#Ba" n="81"/>totam quae ipse est. Si primo modo, tunc
+<lb ed="#Ba" n="82"/>dat materiam : quia illa est quae datur
+<lb ed="#Ba" n="83"/>sic, ut imprimatur in ea forma quae 
+ac<lb break="no" ed="#Ba" n="84"/>cipitur per generationem : et hoc 
+absur<lb break="no" ed="#Ba" n="85"/>dum est in generatione divina: et tamen
+<lb ed="#Ba" n="86"/>hance substantiam cum virtute activa dat
+<lb ed="#Ba" n="87"/>ille quem vocamus patrem in inferioribus:
+<lb ed="#Ba" n="88"/>cum ergo non talem det pater superior :
+<lb ed="#Ba" n="89"/>aut non debet dici pater, aut dicetur
+<lb ed="#Ba" n="90"/>pater zquivoce. Si autem detur 
+sub<lb break="no" ed="#Ba" n="91"/>stantia quae imprimitur : cum illa sub-
+<pb ed="#Ba" n="205"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>stantia non sit nisi forma, 
+oporte<lb break="no" ed="#Ba" n="2"/>ret quod esset alia praeter illam 
+sub<lb break="no" ed="#Ba" n="3"/>slantiam cui imprimeretur, et esset 
+ite<lb break="no" ed="#Ba" n="4"/>rum divina generatio composita et 
+mate<lb break="no" ed="#Ba" n="5"/>rialis, quod frivolum est. Si autem dat
+<lb ed="#Ba" n="6"/>totam substantiam : cum tota substantia
+<lb ed="#Ba" n="7"/>Patris sit hypostasis Patris, Pater dat 
+Fi<lb break="no" ed="#Ba" n="8"/>lio eamdem hypostasim quae est ipse :
+<lb ed="#Ba" n="9"/>ergo Pater et Filius sunt una hypostasis,
+<lb ed="#Ba" n="10"/>ct una res nature, et una persona, quod
+<lb ed="#Ba" n="11"/>absurdum est : ergo videtur, quod nullo
+<lb ed="#Ba" n="12"/>modo possit dici Pater: nec ille qui 
+ge<lb break="no" ed="#Ba" n="13"/>nitus est, potest dici Filius convenienter,
+<lb ed="#Ba" n="14"/>ut videtur.
+</p>
+            <p xml:id="alalal-a40189-d1e351">
+               <lb ed="#Ba" n="15"/>Sotvunio. Dicendum ad primum, quod
+<lb ed="#Ba" n="16"/>Pater et potuit et voluit generare Filium
+<lb ed="#Ba" n="17"/>vel gignere.
+</p>
+            <p xml:id="alalal-a40189-d1e360">
+               <lb ed="#Ba" n="18"/>Ad hoc quod objicitur de voluntate,
+<lb ed="#Ba" n="19"/>dicendum quod non est idem dicere, 
+vo<lb break="no" ed="#Ba" n="20"/>luntatis Filius, et voluntate Filius, et 
+vo<lb break="no" ed="#Ba" n="21"/>luit generare : prima enim absolute falsa
+<lb ed="#Ba" n="22"/>est: quia voluntatis opus est quod 
+edu<lb break="no" ed="#Ba" n="23"/>citur super materiam extrinsecam 
+ope<lb break="no" ed="#Ba" n="24"/>ranti, ut sunt mechanica opera 
+volunta<lb break="no" ed="#Ba" n="25"/>tis hominis, et creature opera voluntatis
+<lb ed="#Ba" n="26"/>divine. Et si objiciatur, quod voluntas
+<lb ed="#Ba" n="27"/>in Deo est natura divina, et est Filius
+<lb ed="#Ba" n="28"/>nature: ergo aliquo modo dicendus est
+<lb ed="#Ba" n="29"/>Filius voluntatis. Incidit fallacia 
+acciden<lb break="no" ed="#Ba" n="30"/>tis : quia licet idem re sit natura quod
+<lb ed="#Ba" n="31"/>voluntas, tamen plurimum differunt in
+<lb ed="#Ba" n="32"/>modo significandi et attribuendi, sicut
+<lb ed="#Ba" n="33"/>Magister probavit supra. Voluntate 
+au<lb break="no" ed="#Ba" n="34"/>tem Filius aliquo modo conceditur de
+<lb ed="#Ba" n="35"/>concomitante vel concurrente cum actu
+<lb ed="#Ba" n="36"/>voluntate. Sed cum dicitur, voluit 
+gene<lb break="no" ed="#Ba" n="37"/>rare, significatur voluntas circa actum
+<lb ed="#Ba" n="38"/>generationis: et ideo vera est: quia
+<lb ed="#Ba" n="39"/>Deus cum actu concurrente habuit 
+vo<lb break="no" ed="#Ba" n="40"/>luntatem in generatione divina.
+</p>
+            <p xml:id="alalal-a40189-d1e412">
+               <lb ed="#Ba" n="41"/>Ad aliud dicendum, quod hoc non
+<lb ed="#Ba" n="42"/>significatur ex modo loquendi in divinis,
+<lb ed="#Ba" n="43"/>ut divina sunt: quia sic verbum 
+abstra<lb break="no" ed="#Ba" n="44"/>hendum est a tempore: et si hoc fiat,
+<lb ed="#Ba" n="45"/>tunc voluntas et actus generationis sunt
+<lb ed="#Ba" n="46"/>similes : et sic locutio vera est : quia non
+<lb ed="#Ba" n="47"/>habet actum generationis Pater nisi 
+con<lb break="no" ed="#Ba" n="48"/>currentem cum voluntate, et e conversa.
+</p>
+            <p xml:id="alalal-a40189-d1e432">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="49"/>Ad id quod objicitur de potentia que
+<lb ed="#Ba" n="50"/>significatur in verbo, poduit, dicendum
+<lb ed="#Ba" n="51"/>quod ex prava intelligentia procedunt 
+hu<lb break="no" ed="#Ba" n="52"/>jusmodi argumenta, scilicet ex hoc quod
+<lb ed="#Ba" n="53"/>id quod est in Deo intelligitur ad modum
+<lb ed="#Ba" n="54"/>creaturarum, in quibus posse praecedit
+<lb ed="#Ba" n="55"/>agere. Unde in divinis talia abstrahenda
+<lb ed="#Ba" n="56"/>sunt a tempore et compositione: et tunc
+<lb ed="#Ba" n="57"/>videbitur, quod potentia generandi non
+<lb ed="#Ba" n="58"/>precedat actum generationis, nec 
+com<lb break="no" ed="#Ba" n="59"/>positionem facit cum ipso, quia idem est
+<lb ed="#Ba" n="60"/>Deo agere et posse.
+</p>
+            <p xml:id="alalal-a40189-d1e464">
+               <lb ed="#Ba" n="61"/>Ad aliud dicendum, quod verum est
+<lb ed="#Ba" n="62"/>quod in Patre celesti non sunt potentie
+<lb ed="#Ba" n="63"/>distincte : quia aliter ipse esset 
+composi<lb break="no" ed="#Ba" n="64"/>tus. Sed licet non distinct secundum
+<lb ed="#Ba" n="65"/>rem et compositionem, tamen sunt 
+di<lb break="no" ed="#Ba" n="66"/>stinctee in modo significandi et 
+attri<lb break="no" ed="#Ba" n="67"/>buendi, eo quod multa subsunt potentie
+<lb ed="#Ba" n="68"/>que non subsunt voluntati: et Deus
+<lb ed="#Ba" n="69"/>multa potest quae non vult: et sic est de
+<lb ed="#Ba" n="70"/>potentia generandi, et voluntate 
+gene<lb break="no" ed="#Ba" n="71"/>randi.
+</p>
+            <p xml:id="alalal-a40189-d1e490">
+               <lb ed="#Ba" n="72"/>Ad aliud dicendum, quod si velimus
+<lb ed="#Ba" n="73"/>maximam vim facere in agere et pati,
+<lb ed="#Ba" n="74"/>tunc in Deo nec est potentia activa, nec
+<lb ed="#Ba" n="75"/>passiva: sed potius est in eo potentia
+<lb ed="#Ba" n="76"/>superactiva. Illa autem divisio 
+Philoso<lb break="no" ed="#Ba" n="77"/>phi tenet in potentiis physice agentibus
+<lb ed="#Ba" n="78"/>vel patientibus. Unde quod potentia
+<lb ed="#Ba" n="79"/>activa physice quaerit subjectum quod
+<lb ed="#Ba" n="80"/>actionem ejus recipiat, hoc est ex 
+imper<lb break="no" ed="#Ba" n="81"/>fectione ejus : si enim esset perfecta
+<lb ed="#Ba" n="82"/>actio sua, produceret totum simul : et si
+<lb ed="#Ba" n="83"/>esset perfecte nobilis, produceret sine
+<lb ed="#Ba" n="84"/>compositione simillimum agenti. Unde
+<lb ed="#Ba" n="85"/>tempus, motus, compositio, subjectum,
+<lb ed="#Ba" n="86"/>omnia proveniunt ex imperfectione 
+agen<lb break="no" ed="#Ba" n="87"/>tis vel recipientis. Unde in divinis est
+<lb ed="#Ba" n="88"/>potentia superactiva Patris ad tolum 
+Fi<lb break="no" ed="#Ba" n="89"/>lium in eadem essentia coeternum et
+<lb ed="#Ba" n="90"/>simplicem producendum.
+</p>
+            <p xml:id="alalal-a40189-d1e534">
+               <lb ed="#Ba" n="91"/>Ap 10 quod ulterius quaeritur, Utrum
+<lb ed="#Ba" n="92"/>ad hoc potius debeat dici pater, quam
+<lb ed="#Ba" n="93"/>mater? Dicendum, quod sic, in tantum
+<lb ed="#Ba" n="94"/>quod nihil ita vere dicitur pater sicut
+<lb ed="#Ba" n="95"/>ipse, sicut probatum est supra. Mater
+<lb ed="#Ba" n="96"/>autem nullo modo dici potest : quia ma-
+</p>
+            <p xml:id="alalal-a40189-d1e550">
+               <pb ed="#Ba" n="206"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ter est quae in se generat ex alio: hoc
+<lb ed="#Ba" n="2"/>autem Patri nullo modo convenit: et
+<lb ed="#Ba" n="3"/>idco tantum pater est, Nec sic pater ut
+<lb ed="#Ba" n="4"/>in generatione egeat adjutorio simili sibi,
+<lb ed="#Ba" n="5"/>tribus de causis : quarum una est, quia
+<lb ed="#Ba" n="6"/>adjutorium uxoris datur viro propter sui
+<lb ed="#Ba" n="7"/>imperfectionem quae in Deum non cadit.
+<lb ed="#Ba" n="8"/>Secunda est, quod generatio recipitur in
+<lb ed="#Ba" n="9"/>adjutorio ex viro: et ideo indiget 
+tem<lb break="no" ed="#Ba" n="10"/>pore conceptus et impregnationis et 
+par<lb break="no" ed="#Ba" n="11"/>tus: in quo tempore filius existens in
+<lb ed="#Ba" n="12"/>potentia non potest esse cowternus vel
+<lb ed="#Ba" n="13"/>coevus parentibus. Tertia ratio est, quia
+<lb ed="#Ba" n="14"/>omnis talis natus compositus est ex 
+du<lb break="no" ed="#Ba" n="15"/>plici substantia patris et matris. Primum
+<lb ed="#Ba" n="16"/>autem horum repugnat perfectioni 
+poten<lb break="no" ed="#Ba" n="17"/>tie, secundum cozternitati ipsius nati,
+<lb ed="#Ba" n="18"/>tertium autem simplicitati.
+</p>
+            <p xml:id="alalal-a40189-d1e596">
+               <lb ed="#Ba" n="19"/>Ap i quod objicitur, quod solum 
+prin<lb break="no" ed="#Ba" n="20"/>cipium activum non sufficit ad rationem
+<lb ed="#Ba" n="21"/>patris, dicendum quod hoc verum est,
+<lb ed="#Ba" n="22"/>nec pater ceelestis solum est principium
+<lb ed="#Ba" n="23"/>activum : imo dat substantiam suam : et
+<lb ed="#Ba" n="24"/>bene concedo, quod totam.
+</p>
+            <p xml:id="alalal-a40189-d1e612">
+               <lb ed="#Ba" n="25"/>Ap iw vero quod contra hoc objicitur,
+<lb ed="#Ba" n="26"/>dicendum quod hypostasis et persona
+<lb ed="#Ba" n="27"/>sunt substantia : non tamen supponunt
+<lb ed="#Ba" n="28"/>ut substantia, sed ut ad aliquid: et ideo
+<lb ed="#Ba" n="29"/>est in argumento commutatio 
+praedica<lb break="no" ed="#Ba" n="30"/>menti : quod enim Pater est substantia,
+<lb ed="#Ba" n="31"/>est ideo quia nulla compositio est in 
+di<lb break="no" ed="#Ba" n="32"/>vinis, non ex ratione patris, quia pater
+<lb ed="#Ba" n="33"/>est, imo sic est aliud. Unde Magister hic
+<lb ed="#Ba" n="34"/>in Littera promittit se probaturum, quod
+<lb ed="#Ba" n="35"/>esse patrem non est esse aliquid, sed esse
+<lb ed="#Ba" n="36"/>ad aliquid.
+</p>
+            <p xml:id="alalal-a40189-d1e642">
+               <lb ed="#Ba" n="37"/>Ad hoc quod quaeritur, Utrum 
+geni<lb break="no" ed="#Ba" n="38"/>tus potius dicatur Filius, quam Filia?
+<lb ed="#Ba" n="39"/>Dicendum, quod sic : quia illa generatio
+<lb ed="#Ba" n="40"/>perfectissima non potest esse nisi in 
+om<lb break="no" ed="#Ba" n="41"/>nino simili :filia autem patri, nec in 
+ve<lb break="no" ed="#Ba" n="42"/>ritate, nec in figura omnino similis est,
+<lb ed="#Ba" n="43"/>et ideo natum in aeterna generatione filia
+<lb ed="#Ba" n="44"/>dici non potest.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

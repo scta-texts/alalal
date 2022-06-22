@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="306"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c57736"><!-- l1d40a3 -->
+            <head xml:id="alalal-c57736-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-c57736-Hd1e101" type="question-title">Quid est praedestinatio diffinitione ?</head>
+            <p xml:id="alalal-c57736-d1e104">
+               <lb ed="#Bb" n="82"/>ARTICULUS III.
+<lb ed="#Bb" n="83"/>Quid est praedestinatio diffinitione ?
+</p>
+            <p xml:id="alalal-c57736-d1e111">
+               <lb ed="#Bb" n="84"/>Ad sEcunpUM proceditur sic, et 
+ponun<lb break="no" ed="#Bb" n="85"/>tur multe diffinitiones praedestinationis :
+<lb ed="#Bb" n="86"/>habemus enim unam hic in Littera in
+<lb ed="#Bb" n="87"/>ultimo capite istius distinctionis : <quote xml:id="alalal-c57736-Qd1e121"> 
+Pra<lb break="no" ed="#Bb" n="88"/>destinatio est prascientia et preparatio
+<pb ed="#Bb" n="307"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" n="1"/>beneficiorum, quibus certissime 
+liberan<lb break="no" ed="#Bb" n="2"/>tur quicumque liberantur'. </quote>
+            </p>
+            <p xml:id="alalal-c57736-d1e135">
+               <lb ed="#Bb" n="3"/>Alia est Augustini in libro de Fide ad
+<lb ed="#Bb" n="4"/>Petrum hec: <quote xml:id="alalal-c57736-Qd1e141"> Predestinatio est gratuite
+<lb ed="#Bb" n="5"/>donationis preparatio. </quote>
+            </p>
+            <p xml:id="alalal-c57736-d1e148">
+               <lb ed="#Bb" n="6"/>Alia est Augustini in libro de 
+Predes<lb break="no" ed="#Bb" n="7"/>tinatione Sanctorum hec: <quote xml:id="alalal-c57736-Qd1e154"> 
+Praedestina<lb break="no" ed="#Bb" n="8"/>tio est propositum miserendi. </quote>
+            </p>
+            <p xml:id="alalal-c57736-d1e160">
+               <lb ed="#Bb" n="9"/>Item, <quote xml:id="alalal-c57736-Qd1e164"> Predestinatio est alicujus in
+<lb ed="#Bb" n="10"/>finem destinatio. </quote>
+            </p>
+            <p xml:id="alalal-c57736-d1e170">
+               <lb ed="#Bb" n="11"/>Item, Magistri ponunt aliam : <quote xml:id="alalal-c57736-Qd1e174"> 
+Prede<lb break="no" ed="#Bb" n="12"/>stinatio est preparatio gratia in presenti
+<lb ed="#Bb" n="13"/>et glorie in futuro. </quote>
+            </p>
+            <p xml:id="alalal-c57736-d1e182">
+               <lb ed="#Bb" n="14"/>Objicitur autem contra primam :. quias
+<lb ed="#Bb" n="15"/>1. Predestinatio non videtur ponere
+<lb ed="#Bb" n="16"/>preparationem quae addat aliquid supra
+<lb ed="#Bb" n="17"/>prescientiam : cum enim sunt tria, 
+es<lb break="no" ed="#Bb" n="18"/>sentia divina, et respectus ad creaturam,
+<lb ed="#Bb" n="19"/>et effectus in creatura: praescientia dicit
+<lb ed="#Bb" n="20"/>duo priora, et non tertium: eadem 
+au<lb break="no" ed="#Bb" n="21"/>tem duo etiam dicit preparatio, et non
+<lb ed="#Bb" n="22"/>tertium, quia cum preparatio sit ab
+<lb ed="#Bb" n="23"/>eterno, non dicit effectum in creatura:
+<lb ed="#Bb" n="24"/>ergo videtur, quod unum nihil addat 
+su<lb break="no" ed="#Bb" n="25"/>per alterum : ergo unum superflue 
+con<lb break="no" ed="#Bb" n="26"/>jungitur alteri.
+</p>
+            <p xml:id="alalal-c57736-d1e213">
+               <lb ed="#Bb" n="27"/>2. Praeterea, Beneficia multiplicia sunt,
+<lb ed="#Bb" n="28"/>que non omnia cadunt in ratione gratia
+<lb ed="#Bb" n="29"/>gratum facientis: quae tamen liberant
+<lb ed="#Bb" n="30"/>ab aliquibus malis : numquid igitur 
+isto<lb break="no" ed="#Bb" n="31"/>rum est praedestinatio ? Videtur quod
+<lb ed="#Bb" n="32"/>non : quia non dicimus flagellatorum
+<lb ed="#Bb" n="33"/>esse praedestinationem, cum tamen 
+dica<lb break="no" ed="#Bb" n="34"/>tur, If Machab. vi, 13: Multo tempore
+<lb ed="#Bb" n="35"/>non stnere peccatoribus ex sententia
+<lb ed="#Bb" n="36"/>agere, sed statim ultiones adhibere, 
+ex<lb break="no" ed="#Bb" n="37"/>tremt beneficit indicium est.
+</p>
+            <p xml:id="alalal-c57736-d1e239">
+               <lb ed="#Bb" n="38"/>3. Item, Damascenus dicit, quod Deus
+<lb ed="#Bb" n="39"/>non compellit ad virtutem, nec suadet
+<lb ed="#Bb" n="40"/>vitium . Ergo videtur, quod non 
+certis<lb break="no" ed="#Bb" n="41"/>sime liberat praedestinatio.
+</p>
+            <p xml:id="alalal-c57736-d1e251">
+               <lb ed="#Bb" n="42"/>4. Item, Certissimus modus, est modus
+<lb ed="#Bb" n="43"/>necessitatis demonstrative : sed 
+prede<lb break="no" ed="#Bb" n="44"/>stinatio non habet hune modum in 
+libe<lb break="no" ed="#Bb" n="45"/>rando, eo quod non tollit libertatem a
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="46"/>libero arbitrio : ergo videtur, quod non
+<lb ed="#Bb" n="47"/>certissime liberat praedestinatio.
+</p>
+            <p xml:id="alalal-c57736-d1e269">
+               <lb ed="#Bb" n="48"/>Similiter objicitur de secunda, quod 
+di<lb break="no" ed="#Bb" n="49"/>citur, <quote xml:id="alalal-c57736-Qd1e275"> Gratuite donationis preparatio. </quote>
+            </p>
+            <p xml:id="alalal-c57736-d1e278">
+               <lb ed="#Bb" n="50"/>1. Non enim dicitur preparari res
+<lb ed="#Bb" n="51"/>quando non est, nisi in causa efficiente, ut
+<lb ed="#Bb" n="52"/>patet : cum enim dicitur, domus 
+prepa<lb break="no" ed="#Bb" n="53"/>ratur, non intelligitur preparari per hoc
+<lb ed="#Bb" n="54"/>quod habetur artifex sciens et potens, sed
+<lb ed="#Bb" n="55"/>potius quando dolantur ligna et eriguntur
+<lb ed="#Bb" n="56"/>partes domus: ergo similiter gratuite
+<lb ed="#Bb" n="57"/>donationis preparatio, non est nisi 
+quan<lb break="no" ed="#Bb" n="58"/>do jam preparatur liberum arbitrium ad
+<lb ed="#Bb" n="59"/>suscipiendum, et quando infunditur 
+gra<lb break="no" ed="#Bb" n="60"/>tia : haec autem non sunt ab aeterno : ergo
+<lb ed="#Bb" n="61"/>preparatio gratuite donationis non est
+<lb ed="#Bb" n="62"/>ab aeterno: sed praedestinatio est ab
+<lb ed="#Bb" n="63"/>aeterno: ergo male per preparationem
+<lb ed="#Bb" n="64"/>diffinitur.
+</p>
+            <p xml:id="alalal-c57736-d1e313">
+               <lb ed="#Bb" n="65"/>2. Item, Gratuita donatio est id quod
+<lb ed="#Bb" n="66"/>datur sine meritis, quia gratuita donatio
+<lb ed="#Bb" n="67"/>non est nisi id quod datur gratis: ergo
+<lb ed="#Bb" n="68"/>videtur, quod secundum illam 
+diffini<lb break="no" ed="#Bb" n="69"/>tionem non sit nisi gratiae prime, et non
+<lb ed="#Bb" n="70"/>glorie, vel gratiae subsequentis quae datur
+<lb ed="#Bb" n="71"/>post prevenientem : quod est contra 
+dif<lb break="no" ed="#Bb" n="72"/>finitionem ultimam.
+</p>
+            <p xml:id="alalal-c57736-d1e333">
+               <lb ed="#Bb" n="73"/>Similiter objicitur de tertia.
+<lb ed="#Bb" n="74"/>1. Preedestinatio enim est ab aeterno:
+<lb ed="#Bb" n="75"/>ergo videtur, quod non causatur ab
+<lb ed="#Bb" n="76"/>aliquo temporali: miseria autem 
+tem<lb break="no" ed="#Bb" n="77"/>poralis est: ergo videtur, quod 
+pre<lb break="no" ed="#Bb" n="78"/>destinatio non respicit statum mise-~
+<lb ed="#Bb" n="79"/>rie, nisi per accidens: ergo non est
+<lb ed="#Bb" n="80"/>propositum miserendi, ut videtur, nisi
+<lb ed="#Bb" n="81"/>per acccidens: ergo per hoc non erit 
+dif<lb break="no" ed="#Bb" n="82"/>finienda praedestinatio.
+</p>
+            <p xml:id="alalal-c57736-d1e357">
+               <lb ed="#Bb" n="83"/>Item, Secundum hoc non omnibus
+<lb ed="#Bb" n="84"/>convenit, qui tamen praedestinati sunt,
+<lb ed="#Bb" n="85"/>ut Angeli et Christus : nulla enim miseria
+<lb ed="#Bb" n="86"/>sublevata est in eis.
+</p>
+            <p xml:id="alalal-c57736-d1e369">
+               <lb ed="#Bb" n="87"/>Item, Homo esset preedestinatus 
+etiam<lb break="no" ed="#Bb" n="88"/>si non peccasset : et tamen non esset
+<lb ed="#Bb" n="89"/>ablata ab eo aliqua miseria.
+</p>
+            <p xml:id="alalal-c57736-d1e378">
+               <pb ed="#Bb" n="308"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>2. Praeterea queritur, Utrum 
+intelli<lb break="no" ed="#Bb" n="2"/>gitur de miseria culpe2 vel de miseria
+<lb ed="#Bb" n="3"/>pene, vel utraque? Et videtur, quod de
+<lb ed="#Bb" n="4"/>miseria culpe : quia consuevit dici, quod
+<lb ed="#Bb" n="5"/>predestinatio necessario ponit gratiam
+<lb ed="#Bb" n="6"/>finalem, haec autem non relevat nisi 
+cul<lb break="no" ed="#Bb" n="7"/>pam et non peenam. Sed contra: Gratia
+<lb ed="#Bb" n="8"/>et gloria tollunt peenam et culpam : 
+pre<lb break="no" ed="#Bb" n="9"/>destinatio autem est preparatio gratiae
+<lb ed="#Bb" n="10"/>et glorie in futuro: ergo videtur, quod
+<lb ed="#Bb" n="11"/>intelligitur de utraque miseria.
+</p>
+            <p xml:id="alalal-c57736-d1e409">
+               <lb ed="#Bb" n="12"/>Eodem modo objicitur de sequenti,
+<lb ed="#Bb" n="13"/>quod <quote xml:id="alalal-c57736-Qd1e415"> praedestinatio est alicujus in finem
+<lb ed="#Bb" n="14"/>destinatio. </quote>
+            </p>
+            <p xml:id="alalal-c57736-d1e421">
+               <lb ed="#Bb" n="15"/>1. Si enim ponitur ibi finisin quem est
+<lb ed="#Bb" n="16"/>destinatio, necessario presupponit 
+prin<lb break="no" ed="#Bb" n="17"/>cipium ejusdem destinationis, et medium
+<lb ed="#Bb" n="18"/>per quod est destinatio: quae ergo sunt illa?
+</p>
+            <p xml:id="alalal-c57736-d1e432">
+               <lb ed="#Bb" n="19"/>2. Item, Cum destinare sit equivocum
+<lb ed="#Bb" n="20"/>ad proponere et mitterre, videtur magis
+<lb ed="#Bb" n="21"/>sumi pro proposito, quam pro missione.
+<lb ed="#Bb" n="22"/>Prosatio. Non enim mittitur nisi qui est :
+<lb ed="#Bb" n="23"/>sed praedestinatur qui non est : ergo 
+pre<lb break="no" ed="#Bb" n="24"/>destinare non est destinare aliquem, sed
+<lb ed="#Bb" n="25"/>potius destinare aliquid ante in proposito,
+<lb ed="#Bb" n="26"/>sicut dicitur, II Machab. v1, 20, de Elea—
+<lb ed="#Bb" n="27"/>zaro, quod destinavit non admittere 
+illi<lb break="no" ed="#Bb" n="28"/>cita propter vite amorem. Hoc etiam 
+vi<lb break="no" ed="#Bb" n="29"/>detur per Joannem Damascenum, ubi
+<lb ed="#Bb" n="30"/>vocat praedestinationem, 
+predetermina<lb break="no" ed="#Bb" n="31"/>tionem : predeterminatio autem potius
+<lb ed="#Bb" n="32"/>est premeditantis, quam premittentis
+<lb ed="#Bb" n="33"/>aliquem in aliquid.
+</p>
+            <p xml:id="alalal-c57736-d1e467">
+               <lb ed="#Bb" n="34"/>3. Item, Si praedestinatio esset 
+desti<lb break="no" ed="#Bb" n="35"/>natio alicujus in aliud, non diceretur 
+pre<lb break="no" ed="#Bb" n="36"/>paratio gratiae et gloriae : quia gratia et
+<lb ed="#Bb" n="37"/>gloria non diriguntur ad aliquid: sed
+<lb ed="#Bb" n="38"/>potius diceretur preparatio Angeli vel
+<lb ed="#Bb" n="39"/>hominis qui dirigitur.
+</p>
+            <p xml:id="alalal-c57736-d1e484">
+               <lb ed="#Bb" n="40"/>Tandem objicitur etiam contra 
+ulti<lb break="no" ed="#Bb" n="41"/>mam: quia
+</p>
+            <p xml:id="alalal-c57736-d1e491">
+               <lb ed="#Bb" n="42"/>1. Presens gratia et gloria in futuro 
+di<lb break="no" ed="#Bb" n="43"/>cunt aliquid in tempore, cum tamen 
+pre<lb break="no" ed="#Bb" n="44"/>destinatio nihil dicat in tempore.
+</p>
+            <p xml:id="alalal-c57736-d1e500">
+               <lb ed="#Bb" n="45"/>2. Item, Damascenus dicit, quod pro-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="46"/>videntia et praedestinatio sunt eorum :
+<lb ed="#Bb" n="47"/>que non sunt in nobis, sive in potestate .
+<lb ed="#Bb" n="48"/>nostra: sed gloria aliquo modo est in
+<lb ed="#Bb" n="49"/>potestate nostra per gratiam, cadit enim
+<lb ed="#Bb" n="50"/>sub merito, quod est in potestate nostra:
+<lb ed="#Bb" n="51"/>ergo videtur, quod gratiae et glori# non
+<lb ed="#Bb" n="52"/>sit preedestinatio ?
+</p>
+            <p xml:id="alalal-c57736-d1e522">
+               <lb ed="#Bb" n="53"/>Praterea, Gum unius rei unica sit 
+dif<lb break="no" ed="#Bb" n="54"/>finitio, queritur, Penes quid sumantur
+<lb ed="#Bb" n="55"/>assignate diffinitiones ?
+</p>
+            <p xml:id="alalal-c57736-d1e531">
+               <lb ed="#Bb" n="56"/>Solutio. Dicendum, quod 
+predestina<lb break="no" ed="#Bb" n="57"/>tio quoad aliquid sui in omnibus illis 
+dif<lb break="no" ed="#Bb" n="58"/>finitionibus diffinitur: et quia plura sunt
+<lb ed="#Bb" n="59"/>in ipsa, ideo plures dantur diffinitiones.
+<lb ed="#Bb" n="60"/>Potest enim praedestinatio diffiniri in se,
+<lb ed="#Bb" n="61"/>vel secundum statum aliquem 
+predesti<lb break="no" ed="#Bb" n="62"/>nari. Siin se: tunc habet in se genus
+<lb ed="#Bb" n="63"/>remotum, et coarctationem illius generis
+<lb ed="#Bb" n="64"/>per actum cause operantis, et effectus
+<lb ed="#Bb" n="65"/>suos. Vel etiam potest attendi nomen
+<lb ed="#Bb" n="66"/>predestinationis. Dico ergo quod prima
+<lb ed="#Bb" n="67"/>datur per genus remotum quod est 
+pre<lb break="no" ed="#Bb" n="68"/>scientia, et contrahitur per actum 
+operan<lb break="no" ed="#Bb" n="69"/>tis cause, et effectum proximum qui est
+<lb ed="#Bb" n="70"/>beneficia certissime liberantia. Secunda
+<lb ed="#Bb" n="71"/>autem non considerat nisi actum cause
+<lb ed="#Bb" n="72"/>operantis et effectum. Ultima autem 
+ef<lb break="no" ed="#Bb" n="73"/>fectum proximum et remotum, qui 
+ef<lb break="no" ed="#Bb" n="74"/>ficitur mediante alio: quia gratia aliquo
+<lb ed="#Bb" n="75"/>modo efficit gloriam. Tertia autem datur
+<lb ed="#Bb" n="76"/>secundum statum praedestinati ejusdem
+<lb ed="#Bb" n="77"/>qui est in miseria, ut homo post 
+pec<lb break="no" ed="#Bb" n="78"/>catum. Quarta autem est ratio 
+expla<lb break="no" ed="#Bb" n="79"/>nans nomen praedestinationis. Et per
+<lb ed="#Bb" n="80"/>hoc patet solutio ad ultimum.
+</p>
+            <p xml:id="alalal-c57736-d1e588">
+               <lb ed="#Bb" n="81"/>Ad primum autem dicendum, quod licet
+<lb ed="#Bb" n="82"/>predestinatio non dicat effectum in 
+crea<lb break="no" ed="#Bb" n="83"/>tura, tamen per modum significandi
+<lb ed="#Bb" n="84"/>aliquid addit supra praescientiam: quia
+<lb ed="#Bb" n="85"/>prescientia de se non ponit causalitatem
+<lb ed="#Bb" n="86"/>ad prescitum, sed praparatio dicit 
+suf<lb break="no" ed="#Bb" n="87"/>ficientiam causalitatis ad actum et 
+effe<lb break="no" ed="#Bb" n="88"/>ctum.
+</p>
+            <p xml:id="alalal-c57736-d1e609">
+               <lb ed="#Bb" n="89"/>Ad aliud dicendum, quod 
+predestina<lb break="no" ed="#Bb" n="90"/>tio non est proprie nisi gratiw, et glo-
+<pb ed="#Bb" n="309"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>riae,  et alia sunt indirecte operantia ad
+<lb ed="#Bb" n="2"/>liberationem, sicut satisfaciendo, vel 
+hu<lb break="no" ed="#Bb" n="3"/>miliando, vel tantum reddendo : directe
+<lb ed="#Bb" n="4"/>autem operatur liberationem gratia, que
+<lb ed="#Bb" n="5"/>facit dignum vita aeterna, et dirigit in 
+re<lb break="no" ed="#Bb" n="6"/>gnum : unde etiam alia beneficia sunt
+<lb ed="#Bb" n="7"/>communia praedestinatis et non 
+prede<lb break="no" ed="#Bb" n="8"/>stinatis, sed non gratia gratum faciens 
+fi<lb break="no" ed="#Bb" n="9"/>nalis : et ideo patet, quod illa est 
+effe<lb break="no" ed="#Bb" n="10"/>ctus praedestinationis.
+</p>
+            <p xml:id="alalal-c57736-d1e642">
+               <lb ed="#Bb" n="11"/>Ad aliud dicendum, quod 
+predestina<lb break="no" ed="#Bb" n="12"/>tio non compellit ad virtutem, sed tamen
+<lb ed="#Bb" n="13"/>finaliter facit eam in libere acceptante et
+<lb ed="#Bb" n="14"/>volente : quia licet non cogatur accipere
+<lb ed="#Bb" n="15"/>eam, tamen inevitabiliter inclinabit 
+vo<lb break="no" ed="#Bb" n="16"/>luntatem ad accipiendum eam.
+</p>
+            <p xml:id="alalal-c57736-d1e658">
+               <lb ed="#Bb" n="17"/>Ad aliud dicendum, quod non est in
+<lb ed="#Bb" n="18"/>prescientia et praedestinatione certitudo
+<lb ed="#Bb" n="19"/>demonstrationis : quia non sunt cause
+<lb ed="#Bb" n="20"/>per quas inferri possit salus de necessitate
+<lb ed="#Bb" n="21"/>rei, sed de necessitate consequentia 
+tan<lb break="no" ed="#Bb" n="22"/>tum, ut supra diximus de infallibilitate
+<lb ed="#Bb" n="23"/>prescientiae divine , et iterum infra 
+os<lb break="no" ed="#Bb" n="24"/>tendetur, cum queretur de certitudine
+<lb ed="#Bb" n="25"/>numeri praedestinatorum.
+</p>
+            <p xml:id="alalal-c57736-d1e680">
+               <lb ed="#Bb" n="26"/>Ad id quod objicitur de secunda 
+diffi<lb break="no" ed="#Bb" n="27"/>nitione, dicendum quod aliter est in 
+ar<lb break="no" ed="#Bb" n="28"/>tifice creato, et artifice increato : quia
+<lb ed="#Bb" n="29"/>artifex creatus non producit materiam,
+<lb ed="#Bb" n="30"/>sed preparat eam tantum, accipiendo
+<lb ed="#Bb" n="31"/>eam ab extrinseco. Deus autem et 
+pro<lb break="no" ed="#Bb" n="32"/>ducit id quod est necessarium ad opus, et
+<lb ed="#Bb" n="33"/>operatur preparando in ipso. Sunt enim
+<lb ed="#Bb" n="34"/>tria, scilicet ars, natura, et Deus. Ars
+<lb ed="#Bb" n="35"/>operatur super materiam imprimendo
+<lb ed="#Bb" n="36"/>speciem artis, non dando materiae 
+virtu<lb break="no" ed="#Bb" n="37"/>tem conservativam forme quam impri-~
+<lb ed="#Bb" n="38"/>mit, ut patet in figura incisionis, quam
+<lb ed="#Bb" n="39"/>lapis continet non ex virtute quam 
+acci<lb break="no" ed="#Bb" n="40"/>pit ab artifice, sed per virtutem quam
+<lb ed="#Bb" n="41"/>habet ex natura. Natura autem dat 
+for<lb break="no" ed="#Bb" n="42"/>mam et conservantiaformam : cum enim
+<lb ed="#Bb" n="43"/>generans dat formam et transmutando
+<lb ed="#Bb" n="44"/>materiam a forma quam prius habuit, et
+<lb ed="#Bb" n="45"/>ab accidentibus et virtutibus quas prius
+<lb ed="#Bb" n="46"/>habuit, dando formam, dat omnia acci~
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="47"/>dentia composito ex forma illa quae 
+con<lb break="no" ed="#Bb" n="48"/>servant formam in materia. Deus autem
+<lb ed="#Bb" n="49"/>agit totum, et materiam, et formam, et
+<lb ed="#Bb" n="50"/>proprietates : et ideo preparatio 
+suffi<lb break="no" ed="#Bb" n="51"/>ciens est in ipso solo sciente, potente, et
+<lb ed="#Bb" n="52"/>volente etiam antequam agat: sed non
+<lb ed="#Bb" n="53"/>sic est in materia, et adhuc minus in
+<lb ed="#Bb" n="54"/>arte: unde non erat simile quod pro 
+si<lb break="no" ed="#Bb" n="55"/>mili inducebatur.
+</p>
+            <p xml:id="alalal-c57736-d1e750">
+               <lb ed="#Bb" n="56"/>Ad aliud dicendum, quod quidam 
+di<lb break="no" ed="#Bb" n="57"/>cunt cum Damasceno, quod 
+predestina<lb break="no" ed="#Bb" n="58"/>tio perse non est nisi gratiae, et glorie
+<lb ed="#Bb" n="59"/>per consequens, et non primo, eo quod
+<lb ed="#Bb" n="60"/>datur nostro operi quod est in potestate
+<lb ed="#Bb" n="61"/>nostra. Sed melius potest dici, quod 
+ve<lb break="no" ed="#Bb" n="62"/>rum dicit Damascenus: sed tune 
+praede<lb break="no" ed="#Bb" n="63"/>stinatio est trium, scilicet gratiae,  et 
+me<lb break="no" ed="#Bb" n="64"/>riti, et glorie. Et gratia quidem non est
+<lb ed="#Bb" n="65"/>in potestate nostra, ita quod sit a nobis
+<lb ed="#Bb" n="66"/>secundum id quod est, licet possimus
+<lb ed="#Bb" n="67"/>aliquid operari ad ipsam, scilicet faciendo
+<lb ed="#Bb" n="68"/>quod in nobis est. Meritum autem non
+<lb ed="#Bb" n="69"/>est in potestate nostra in quantum est
+<lb ed="#Bb" n="70"/>meritorium, quia hoc esta gratia: sed
+<lb ed="#Bb" n="71"/>tamen esta potestate nostra alio modo,
+<lb ed="#Bb" n="72"/>scilicet quia actus meritorius est a nobis :
+<lb ed="#Bb" n="73"/>liberum enim arbitrium dat actum, et
+<lb ed="#Bb" n="74"/>gratia informat eum. Sed gloria non est
+<lb ed="#Bb" n="75"/>in potestate nostra secundum quod est
+<lb ed="#Bb" n="76"/>abundans supra meritum : est enim 
+re<lb break="no" ed="#Bb" n="77"/>lata ad id quod est in potestate nostra,
+<lb ed="#Bb" n="78"/>per hoc quod datur actibus meritoriis :
+<lb ed="#Bb" n="79"/>et hoc non in omnibus, quia in parvulis
+<lb ed="#Bb" n="80"/>effectus praedestinationis non est opus,
+<lb ed="#Bb" n="81"/>sed gratia et gloria tantum.
+</p>
+            <p xml:id="alalal-c57736-d1e809">
+               <lb ed="#Bb" n="82"/>Ad id quod objicitur de tertia 
+dicen<lb break="no" ed="#Bb" n="83"/>dum, quod bene potest dici, quod hec
+<lb ed="#Bb" n="84"/>diffinitio respicit statum ex parte 
+praede<lb break="no" ed="#Bb" n="85"/>stinati,quem previdet Deus : et quod hac
+<lb ed="#Bb" n="86"/>diffinitione praedestinatio non convenit
+<lb ed="#Bb" n="87"/>omnibus praedestinatis, sed homini 
+ca<lb break="no" ed="#Bb" n="88"/>denti tantum. Vel si velimus generaliter
+<lb ed="#Bb" n="89"/>extendere praedestinationem, tune 
+dici<lb break="no" ed="#Bb" n="90"/>mus, quod miseria in diffinitione non
+<lb ed="#Bb" n="91"/>respicit miseriam quae sit in praedestinato,
+<lb ed="#Bb" n="92"/>sed quae esset nisi esset effectus praede-
+<pb ed="#Bb" n="310"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>stinationis : misericordia enim praevenit
+<lb ed="#Bb" n="2"/>miserendo, ne incidat in miseriam: et
+<lb ed="#Bb" n="3"/>hac miseria miser esset Angelus et etiam
+<lb ed="#Bb" n="4"/>natura humana in Christo assumpta, si
+<lb ed="#Bb" n="5"/>a gratia unionis separaretur, vel non tunc
+<lb ed="#Bb" n="6"/>fuisset assumpta : et nullum dubium 
+ha<lb break="no" ed="#Bb" n="7"/>bet diffinitio.
+</p>
+            <p xml:id="alalal-c57736-d1e856">
+               <lb ed="#Bb" n="8"/>AD ULTiMUuM autem quod contra illam
+<lb ed="#Bb" n="9"/>diffinitionem objicitur, dicendum quod.
+<lb ed="#Bb" n="10"/>bene potest intelligi de utraque miseria
+<lb ed="#Bb" n="11"/>secundum’ ordinem, ut primo tollatur
+<lb ed="#Bb" n="12"/>culpa per gratiam, et poena per gloriam.
+</p>
+            <p xml:id="alalal-c57736-d1e869">
+               <lb ed="#Bb" n="13"/>Ad id quod objicitur contra sequentem
+<lb ed="#Bb" n="14"/>diffinitionem, dicendum quod in veritate
+<lb ed="#Bb" n="15"/>ibi est finis destinationis et medium et
+<lb ed="#Bb" n="16"/>principium. Principium autem est 
+pro<lb break="no" ed="#Bb" n="17"/>positum, et preparatio gratiae est quasi
+<lb ed="#Bb" n="18"/>medium quod opponitur in cursu qui est
+<lb ed="#Bb" n="19"/>in tempore, et gloria est ut finis : et ideo
+<lb ed="#Bb" n="20"/>incipit ista destinatioab awterno, et 
+diri<lb break="no" ed="#Bb" n="21"/>gitur per tempus totius cursus, iterum in
+<lb ed="#Bb" n="22"/>aeternitatem.
+</p>
+            <p xml:id="alalal-c57736-d1e893">
+               <lb ed="#Bb" n="23"/>Ad aliud dicendum, quod utroque
+<lb ed="#Bb" n="24"/>modo intelligitur cadere destinatio in 
+ra<lb break="no" ed="#Bb" n="25"/>tione praedestinationis. Uno modo ratione
+<lb ed="#Bb" n="26"/>propositi destinantis, et alio modo 
+ratio<lb break="no" ed="#Bb" n="27"/>ne directionis. Ad id autem quod contra
+<lb ed="#Bb" n="28"/>objicitur, dicendum quod licet non 
+de<lb break="no" ed="#Bb" n="29"/>stinetur nisi qui est, tamen preedestinari
+<lb ed="#Bb" n="30"/>potest qui non est in propria natura, licet
+<lb ed="#Bb" n="31"/>sit in Dei notitia : quia prepositio 
+com<lb break="no" ed="#Bb" n="32"/>posita verbo, notat antecessionem 
+eter<lb break="no" ed="#Bb" n="33"/>nitatis ad tempus.
+</p>
+            <p xml:id="alalal-c57736-d1e919">
+               <lb ed="#Bb" n="34"/>Ad aliud dicendum, quod in utrisque
+<lb ed="#Bb" n="35"/>intelligitur preparatio : Deus autem 
+pre<lb break="no" ed="#Bb" n="36"/>parat eligendo quos dirigit, et preparat
+<lb ed="#Bb" n="37"/>eis bona quibus habiles fiunt directioni :
+<lb ed="#Bb" n="38"/>tamen effectus solius gratiae et glorie
+<lb ed="#Bb" n="39"/>exprimitur, quia illa dicunt medium et
+<lb ed="#Bb" n="40"/>finem directionis, quam importat 
+preede<lb break="no" ed="#Bb" n="41"/>stinatio in abstracto significata.
+</p>
+            <p xml:id="alalal-c57736-d1e939">
+               <lb ed="#Bb" n="42"/>Ad id quod objicitur contra ultimam
+<lb ed="#Bb" n="43"/>diffinitionem, dicendum quod preparatio
+<lb ed="#Bb" n="44"/>gratiae et glorie non ponit gratiam et
+<lb ed="#Bb" n="45"/>gloriam secundum actum, sed tantum
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="46"/>ex parte preparantis : et ideo non 
+sequi<lb break="no" ed="#Bb" n="47"/>tur, quod praedestinatio aliquid habeat
+<lb ed="#Bb" n="48"/>ex tempore.
+</p>
+            <p xml:id="alalal-c57736-d1e959">
+               <lb ed="#Bb" n="49"/>Ad aliud patet solutio per ante 
+di<lb break="no" ed="#Bb" n="50"/>cta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="439"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c82497"><!-- l1d46et -->
+            <head xml:id="alalal-c82497-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-c82497-d1e101">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="12"/>Expositio Textus
+</p>
+            <p xml:id="alalal-c82497-d1e108">
+               <lb ed="#Bb" n="13"/>
+               <quote xml:id="alalal-c82497-Qd1e112"> Si quis igitur, etc. </quote>
+            </p>
+            <p xml:id="alalal-c82497-d1e115">
+               <lb ed="#Bb" n="14"/>Ponit Magister hic tres rationes, 
+con<lb break="no" ed="#Bb" n="15"/>firmantes hance opimonem ex dictis
+<lb ed="#Bb" n="16"/>Augustini. Prima est, quod Deus fons
+<lb ed="#Bb" n="17"/>esset et auctor mali: quia esset auctor
+<lb ed="#Bb" n="18"/>alicujus quo homo fit deterior, qui est
+<lb ed="#Bb" n="19"/>opus suum. Secunda quae ponitur in 
+se<lb break="no" ed="#Bb" n="20"/>cundo capitulo L, est, quod malum fit
+<lb ed="#Bb" n="21"/>ab homine in quo est causa deficiens 
+ma<lb break="no" ed="#Bb" n="22"/>li, et non a Deo. Tertia quae ponitur in
+<lb ed="#Bb" n="23"/>tertio capitulo M, est, quod Deus non 
+pot<lb break="no" ed="#Bb" n="24"/>est esse causa tendendi in non esse: qui
+<lb ed="#Bb" n="25"/>vero facit malum, tendit in non esse.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

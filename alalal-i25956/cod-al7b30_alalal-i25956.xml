@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="127"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i25956"><!-- l4d27a1 -->
+            <head xml:id="alalal-i25956-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-i25956-Hd1e101" type="question-title">In quo genere sit matrimonium?</head>
+            <p xml:id="alalal-i25956-d1e104">
+               <lb ed="#Bf" n="46"/>ARTICULUS I.
+<lb ed="#Bf" n="47"/>In quo genere sit matrimonium?
+</p>
+            <p xml:id="alalal-i25956-d1e111">
+               <lb ed="#Bf" n="48"/>Hoc habito, incidunt hic tres 
+questio<lb break="no" ed="#Bf" n="49"/>nes ad intellectum horum capitulorum
+<lb ed="#Bf" n="50"/>pertinentes, quarum prima est hee, In
+<lb ed="#Bf" n="51"/>quo genere sit matrimonium ?
+<lb ed="#Bf" n="52"/>Secunda autem, Quid sit?
+<lb ed="#Bf" n="53"/>Tertia, de consequentibus 
+matrimo<lb break="no" ed="#Bf" n="54"/>nium, de quibus mentio fit in Lidiera.
+</p>
+            <p xml:id="alalal-i25956-d1e129">
+               <lb ed="#Bf" n="55"/>Ad primum objicitur sic:
+<lb ed="#Bf" n="56"/>1. Nullum est vinculum nisi aliquid sit
+<lb ed="#Bf" n="57"/>vinciens quod est ligatio qua vincit: sed
+<lb ed="#Bf" n="58"/>matrimonium est vinculum quo ligantur
+<lb ed="#Bf" n="59"/>legitime persone contrahentes 
+matrimo<lb break="no" ed="#Bf" n="60"/>nium: ergo non est ligatio ipsa: ergo
+<lb ed="#Bf" n="61"/>est aliquid quod est ante ipsam 
+ligatio<lb break="no" ed="#Bf" n="62"/>nem: hoc autem est absolutum: ergo
+<lb ed="#Bf" n="63"/>matrimonium est in aliquo genere 
+abso<lb break="no" ed="#Bf" n="64"/>luto.
+</p>
+            <p xml:id="alalal-i25956-d1e154">
+               <lb ed="#Bf" n="65"/>2. Adhuc. Si quaeratur ab aliquo 
+ma<lb break="no" ed="#Bf" n="66"/>trimonio juncto, a quo sit ligatus? ipse
+<lb ed="#Bf" n="67"/>dicet, matrimonio : ergo matrimonii 
+es<lb break="no" ed="#Bf" n="68"/>sentia diversa est a ligatione ipsa: ergo
+<lb ed="#Bf" n="69"/>ut prius.
+</p>
+            <p xml:id="alalal-i25956-d1e167">
+               <lb ed="#Bf" n="70"/>3. Adhuc, Numquam est similitudo 
+in<lb break="no" ed="#Bf" n="71"/>ter aliquos, nisi sit qualitas absoluta una
+<lb ed="#Bf" n="72"/>in eis ambobus : ergo a simili numquam
+<lb ed="#Bf" n="73"/>erit conjunctio vel vinculum inter aliquas
+<lb ed="#Bf" n="74"/>personas, nisi sit absolutum aliquid 
+con<lb break="no" ed="#Bf" n="75"/>jungens ambas: et hoc est essentia 
+matri<lb break="no" ed="#Bf" n="76"/>monii: ergo matrimonium est in genere
+<lb ed="#Bf" n="77"/>absoluto.
+</p>
+            <p xml:id="alalal-i25956-d1e187">
+               <lb ed="#Bf" n="78"/>4. Adhuc, Augustinus in sexto de 
+7ri<lb break="no" ed="#Bf" n="79"/>nitate dicit, quod <quote xml:id="alalal-i25956-Qd1e193"> nullum est 
+relati<lb break="no" ed="#Bf" n="80"/>vum quin sit etiam aliud quod non est
+<lb ed="#Bf" n="81"/>relativum : </quote> sed conjunctio matrimonit
+<lb ed="#Bf" n="82"/>relatio quaedam est: ergo matrimonium
+<lb ed="#Bf" n="83"/>est etiam aliud aliquid quod non est 
+rela<lb break="no" ed="#Bf" n="84"/>tivum, sed absolutum: ergo in genere
+<lb ed="#Bf" n="85"/>absoluto.
+</p>
+            <p xml:id="alalal-i25956-d1e210">
+               <pb ed="#Bf" n="128"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>5. Adhuc, De essentiali sibi non 
+pra<lb break="no" ed="#Bf" n="2"/>dicatur aliquid absolute oblique, nec es~
+<lb ed="#Bf" n="3"/>sentiale de ipso : quia non dicitur, homo
+<lb ed="#Bf" n="4"/>est animalis, sed potius animal: sed satis
+<lb ed="#Bf" n="5"/>perspicuum est, quod matrimonium 
+obli<lb break="no" ed="#Bf" n="6"/>que predicatur de conjunctione, quia 
+di<lb break="no" ed="#Bf" n="7"/>cimus, quod hec est conjunctio 
+matrimo<lb break="no" ed="#Bf" n="8"/>nit: ergo matrimonium non essentialiter
+<lb ed="#Bf" n="9"/>est conjunctio.
+</p>
+            <p xml:id="alalal-i25956-d1e236">
+               <lb ed="#Bf" n="10"/>6. Adhuc, Dicit Aristoteles, quod 
+dif<lb break="no" ed="#Bf" n="11"/>ferentes sunt diffinitiones passionum, et
+<lb ed="#Bf" n="12"/>subjectorum : quia in diflinitione 
+passio<lb break="no" ed="#Bf" n="13"/>nis id quod est essentiale, est sicut genus,
+<lb ed="#Bf" n="14"/>et passionis subjectum est ut diffinitio :
+<lb ed="#Bf" n="15"/>sicut cum diffinitur simum, et dicitur nasi
+<lb ed="#Bf" n="16"/>curvitas, curvitas specificatur et 
+contrahi<lb break="no" ed="#Bf" n="17"/>tur anaso: et tamen curvitas est essentia
+<lb ed="#Bf" n="18"/>simi, et nasus subjectum: et in omnibus
+<lb ed="#Bf" n="19"/>talibus contrahens nihil est de essentia
+<lb ed="#Bf" n="20"/>contracti: ergo a simili cum dicitur, 
+con<lb break="no" ed="#Bf" n="21"/>junctio matrimonii est conjunctio, videtur
+<lb ed="#Bf" n="22"/>quod conjunctio trahitur per hoc quod
+<lb ed="#Bf" n="23"/>dico matrimonium: ergo matrimonium
+<lb ed="#Bf" n="24"/>non est de essentia conjunctionis: ergo
+<lb ed="#Bf" n="25"/>videtur, quod sit in aliquo genere 
+abso<lb break="no" ed="#Bf" n="26"/>luto, et non in relatione: et hoc est 
+con<lb break="no" ed="#Bf" n="27"/>tra omnes.
+</p>
+            <p xml:id="alalal-i25956-d1e278">
+               <lb ed="#Bf" n="28"/>In contrarium hujus sic objicitur :
+<lb ed="#Bf" n="29"/>1. Matrimonium dividitur per 
+conjun<lb break="no" ed="#Bf" n="30"/>clionem et vinculum : ergo est in ipso
+<lb ed="#Bf" n="31"/>tamquam in genere proximo : ergo in
+<lb ed="#Bf" n="32"/>genere conjunctionis est sicut in gencre
+<lb ed="#Bf" n="33"/>primo.
+</p>
+            <p xml:id="alalal-i25956-d1e295">
+               <lb ed="#Bf" n="34"/>2. Adhuc, Quando alterum de altero
+<lb ed="#Bf" n="35"/>praedicatur ut de subjecto, id quod est
+<lb ed="#Bf" n="36"/>genus supcrioris, etiam est genus 
+infe<lb break="no" ed="#Bf" n="37"/>rioris : sed conjunctio hoc modo 
+pradi<lb break="no" ed="#Bf" n="38"/>catur de matrimonio : ergo quod est 
+ge<lb break="no" ed="#Bf" n="39"/>nus conjunctionis, est etiam genus 
+ma<lb break="no" ed="#Bf" n="40"/>trimonii : genus autem omnis 
+conjun<lb break="no" ed="#Bf" n="41"/>ctionis est relatio : ergo matrimonium est
+<lb ed="#Bf" n="42"/>in relatione ut in gencre. |
+</p>
+            <p xml:id="alalal-i25956-d1e317">
+               <lb ed="#Bf" n="43"/>3, Adhuc, Quidquid est in uno 
+respe<lb break="no" ed="#Bf" n="44"/>ctu alterius, et e converso in altero 
+re<lb break="no" ed="#Bf" n="45"/>spectu istius, est relativum 
+equiparan<lb break="no" ed="#Bf" n="46"/>tiae : sed sic in viro et in muliere est
+<lb ed="#Bf" n="47"/>matrimonium : ergo, etc.
+</p>
+            <p xml:id="alalal-i25956-d1e330">
+               <lb ed="#Bf" n="48"/>Responsio.. Ad hoc dicendum, quod
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="49"/>matrimonium est in genere relationis,
+<lb ed="#Bf" n="50"/>sicut probant ultima objectiones, et dicit
+<lb ed="#Bf" n="51"/>relationem equiparantiae : quia vir et
+<lb ed="#Bf" n="52"/>mulier equales sunt in his quae sunt 
+ma<lb break="no" ed="#Bf" n="53"/>trimonii.
+</p>
+            <p xml:id="alalal-i25956-d1e348">
+               <lb ed="#Bf" n="54"/>Ad prmum autem quod contra 
+objici<lb break="no" ed="#Bf" n="55"/>tur, dicendum quod matrimonium est
+<lb ed="#Bf" n="56"/>ipsum vinculum : sed sicut dicitur, quod
+<lb ed="#Bf" n="57"/>paternitas est ipsa natura relationis qua
+<lb ed="#Bf" n="58"/>pater refertur ad filam, et tamen 
+pater<lb break="no" ed="#Bf" n="59"/>nitas est relatio : sed quia significatur ut
+<lb ed="#Bf" n="60"/>abstracta, ideo non querit determinari
+<lb ed="#Bf" n="61"/>extra : ita matrimonium dicitar 
+abstra<lb break="no" ed="#Bf" n="62"/>ctum : et ideo dicitur matrimonium 
+vin<lb break="no" ed="#Bf" n="63"/>culum sive conjunctio, sicut paternitas
+<lb ed="#Bf" n="64"/>relatio : et non est ibi diversitas, nisi in
+<lb ed="#Bf" n="65"/>matrimonio.
+</p>
+            <p xml:id="alalal-i25956-d1e377">
+               <lb ed="#Bf" n="66"/>Et per hoc patet solutio ad tria prima.
+</p>
+            <p xml:id="alalal-i25956-d1e382">
+               <lb ed="#Bf" n="67"/>Ad aliud dicendum, quod Augustinus
+<lb ed="#Bf" n="68"/>accipit relativum relatum, et non 
+natu<lb break="no" ed="#Bf" n="69"/>ram ipsius relationis : et de ista verum
+<lb ed="#Bf" n="70"/>est quod dicit. Sed matrimonium dicit
+<lb ed="#Bf" n="71"/>ipsam relationis naturam.
+</p>
+            <p xml:id="alalal-i25956-d1e396">
+               <lb ed="#Bf" n="72"/>Et per hoc patet solutio ad omnia 
+pra<lb break="no" ed="#Bf" n="73"/>ter ultimum.
+</p>
+            <p xml:id="alalal-i25956-d1e403">
+               <lb ed="#Bf" n="74"/>Et ad illud dicendum, quod non ita
+<lb ed="#Bf" n="75"/>conjunguntur cum dicitur matrimonium
+<lb ed="#Bf" n="76"/>vineulum, sicut cum dicitur curvus 
+na<lb break="no" ed="#Bf" n="77"/>sus. Prima enim conjunguntur in 
+habi<lb break="no" ed="#Bf" n="78"/>tudine forme ad suum actum, secunda
+<lb ed="#Bf" n="79"/>autem in habitudine ad suum subjectum
+<lb ed="#Bf" n="80"/>et formam ; et ideo non est simile. Cum
+<lb ed="#Bf" n="81"/>enim dicitur vinculum matrimonii, 
+simi<lb break="no" ed="#Bf" n="82"/>le est ac si diceretur, relatio paternitatis
+<lb ed="#Bf" n="83"/>est qua pater refertur ad filium.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

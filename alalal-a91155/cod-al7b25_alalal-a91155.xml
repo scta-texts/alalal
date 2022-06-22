@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="461"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a91155"><!-- l1d17dt1 -->
+            <head xml:id="alalal-a91155-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a91155-d1e101">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="9"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-a91155-d1e108">
+               <lb ed="#Ba" n="10"/>
+               <quote xml:id="alalal-a91155-Qd1e112"> Jam nunc accedamus ad 
+assignan<lb break="no" ed="#Ba" n="11"/>dam missionem Spiritus sancti, etc. </quote>
+            </p>
+            <p xml:id="alalal-a91155-d1e118">
+               <lb ed="#Ba" n="12"/>Hic incipit ostendere invisibilem 
+mo<lb break="no" ed="#Ba" n="13"/>dum missionis Spiritus sancti. Et habet
+<lb ed="#Ba" n="14"/>haecdistinctio duas partes : in quarum
+<lb ed="#Ba" n="15"/>prima tangit Magister quis sit modus 
+in<lb break="no" ed="#Ba" n="16"/>visibilis missionis. In secunda vero 
+que<lb break="no" ed="#Ba" n="17"/>dam objicit in contrarium et solvit, ibi,
+<lb ed="#Ba" n="18"/>G, <quote xml:id="alalal-a91155-Qd1e135"> Hic quaeritur, Si charitas Spiritus
+<lb ed="#Ba" n="19"/>sanctus est, etc. </quote>
+            </p>
+            <p xml:id="alalal-a91155-d1e141">
+               <lb ed="#Ba" n="20"/>Prima dividitur in tres partes: in
+<lb ed="#Ba" n="21"/>quarum prima prelibat quaedam que
+<lb ed="#Ba" n="22"/>praexiguntur ad missionem istam 
+intel<lb break="no" ed="#Ba" n="23"/>ligendam in duobus parvis capitulis. In
+<lb ed="#Ba" n="24"/>secunda, probatur quod Spiritus sanctus
+<lb ed="#Ba" n="25"/>est charitas qua diligimus invicem et
+<lb ed="#Ba" n="26"/>Deum, ibi, C, <quote xml:id="alalal-a91155-Qd1e158"> Ne autem in re tanta
+<lb ed="#Ba" n="27"/>aliquid de nostro, etc. </quote> In tertia 
+con<lb break="no" ed="#Ba" n="28"/>cludit propositum, quod mitti dicitur 
+in<lb break="no" ed="#Ba" n="29"/>visibiliter, cum charitas qua diligimus
+<lb ed="#Ba" n="30"/>Deum nobis infunditur, ibi, F, <quote xml:id="alalal-a91155-Qd1e170"> Zune
+<lb ed="#Ba" n="31"/>enim nobis mitti vel dari dicitur, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

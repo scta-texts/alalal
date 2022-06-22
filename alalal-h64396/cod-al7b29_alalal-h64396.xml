@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="762"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h64396"><!-- l4d18dt1 -->
+            <head xml:id="alalal-h64396-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-h64396-d1e101">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="19"/>DIVISIO TEXTUS
+</p>
+            <p xml:id="alalal-h64396-d1e108">
+               <lb ed="#Be" n="20"/>
+               <quote xml:id="alalal-h64396-Qd1e112"> Hic quaeri solet, Si peccatum 
+om<lb break="no" ed="#Be" n="21"/>nino, etc. </quote>
+               <lb ed="#Be" n="22"/>Hic agitur de confessione ex parte ab-
+<cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="23"/>solventis, scilicet a parte potestatis 
+sacer<lb break="no" ed="#Be" n="24"/>dotis.
+</p>
+            <p xml:id="alalal-h64396-d1e127">
+               <lb ed="#Be" n="25"/>Dividitur autem in duas partes: in
+<lb ed="#Be" n="26"/>quarum prima agit de potestate clavium
+<lb ed="#Be" n="27"/>et essentia et usu. Et in secunda, de cla-—
+<lb ed="#Be" n="28"/>vibus ex parte recipientis claves, ibi,
+<lb ed="#Be" n="29"/>Dist. XIX, A, <quote xml:id="alalal-h64396-Qd1e140"> Postqguam ostensum
+<lb ed="#Be" n="30"/>est, etc. </quote>
+            </p>
+            <p xml:id="alalal-h64396-d1e146">
+               <lb ed="#Be" n="31"/>Adhuc, Prima subdividitur in tres par-
+<pb ed="#Be" n="763"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>tes : in quarum prima agit de potestate
+<lb ed="#Be" n="2"/>solvendi et ligandi in foro pceenitentiae : in
+<lb ed="#Be" n="3"/>secunda, de potestate ligandi in foro 
+cau<lb break="no" ed="#Be" n="4"/>sarum, ibi, G, § 2: <quote xml:id="alalal-h64396-Qd1e163"> Est et alius 
+mo<lb break="no" ed="#Be" n="5"/>dus ligandi et solvendi, etc. </quote> In 
+tertia<lb break="no" ed="#Be" n="6"/>vero, ad hos duos adaptat verba 
+Evan<lb break="no" ed="#Be" n="7"/>gelii, ibi, H, <quote xml:id="alalal-h64396-Qd1e172"> Secundum hos ligandi et
+<lb ed="#Be" n="8"/>solvendi modos, etc. </quote>
+            </p>
+            <p xml:id="alalal-h64396-d1e179">
+               <lb ed="#Be" n="9"/>Adhuc, prima harum habet tres. Primo
+<lb ed="#Be" n="10"/>enim queritur, an sit clavis? Secundo
+<lb ed="#Be" n="11"/>queritur, Quae et quot sint? ibi, B, <quote xml:id="alalal-h64396-Qd1e187"> 
+Cla<lb break="no" ed="#Be" n="12"/>ves iste non sunt corporales, etc. </quote> 
+Ter<lb break="no" ed="#Be" n="13"/>tio, agit de usu earum, etc., ibi, C,
+<lb ed="#Be" n="14"/>
+               <quote xml:id="alalal-h64396-Qd1e197"> Osus harum clavium, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

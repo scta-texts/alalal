@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="413"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c78291"><!-- l1d45a10 -->
+            <head xml:id="alalal-c78291-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-c78291-Hd1e101" type="question-title">An divina voluntas sit mutabilis ?</head>
+            <p xml:id="alalal-c78291-d1e104">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="48"/>ARTICULUS X.
+<lb ed="#Bb" n="49"/>An divina voluntas sit mutabilis ?
+</p>
+            <p xml:id="alalal-c78291-d1e113">
+               <lb ed="#Bb" n="50"/>Deinde queritur de hoc quod dicit 
+Ma<lb break="no" ed="#Bb" n="51"/>gister, ibi, F, <quote xml:id="alalal-c78291-Qd1e119"> Nee multiplicitatem 
+rect<lb break="no" ed="#Bb" n="52"/>pit, nec mutabilitatem, etc. </quote>
+            </p>
+            <p xml:id="alalal-c78291-d1e125">
+               <lb ed="#Bb" n="53"/>Videtur enim esse mutabilis &gt; quia
+<lb ed="#Bb" n="54"/>1. Dicit Gregorius super illud Isa.
+<lb ed="#Bb" n="55"/>xxxvill, 1:<quote xml:id="alalal-c78291-Qd1e133"> Dispone domui tue</quote> : quod
+<lb ed="#Bb" n="56"/>mutat Dominus sententiam, et non 
+con<lb break="no" ed="#Bb" n="57"/>siltum : sententia autem expressiva est
+<lb ed="#Bb" n="58"/>voluntatis : ergo mutat voluntatem.
+</p>
+            <p xml:id="alalal-c78291-d1e144">
+               <lb ed="#Bb" n="59"/>2. Item, Ad minus voluntas signi 
+vi<lb break="no" ed="#Bb" n="60"/>detur esse mutabilis: quia quandoque
+<lb ed="#Bb" n="61"/>aliquid praecepit, quod postea revocavit:
+<lb ed="#Bb" n="62"/>et aliquid dixit, quod revocavit: sicut in
+<lb ed="#Bb" n="63"/>Abraham, et Ninive, et Ezechia planum
+<lb ed="#Bb" n="64"/>est.
+</p>
+            <p xml:id="alalal-c78291-d1e160">
+               <lb ed="#Bb" n="65"/>3, Item, Voluit esse Cesarem 
+quando<lb break="no" ed="#Bb" n="66"/>que, et modo non vult : ergo mutata est
+<lb ed="#Bb" n="67"/>voluntas.
+</p>
+            <p xml:id="alalal-c78291-d1e169">
+               <lb ed="#Bb" n="68"/>4. Item, Non ab aeterno voluit 
+mun<lb break="no" ed="#Bb" n="69"/>dum esse, sed fore: nunc autem vult
+<lb ed="#Bb" n="70"/>mundum esse, sed non fore: ergo 
+mu<lb break="no" ed="#Bb" n="71"/>tata est voluntas, ut videtur.
+</p>
+            <p xml:id="alalal-c78291-d1e180">
+               <lb ed="#Bb" n="72"/>5. Item, Voluntas relationem habet ad
+<lb ed="#Bb" n="73"/>volitum : ergo mutato volito mutatur 
+vo<lb break="no" ed="#Bb" n="74"/>luntas, quia mutato uno relativorum,
+<lb ed="#Bb" n="75"/>mutatur et reliquum.
+</p>
+            <p xml:id="alalal-c78291-d1e191">
+               <lb ed="#Bb" n="76"/>SED CONTRA:
+<lb ed="#Bb" n="77"/>Magister supra dixit in Littera, quod
+<lb ed="#Bb" n="78"/>voluntas non dicitur relative. Similiter
+<lb ed="#Bb" n="79"/>habitum est, quod non dependet a volito:
+<lb ed="#Bb" n="80"/>sed e converso : ergo nec multiplicatur,
+<lb ed="#Bb" n="81"/>nec mutatur a volitis.
+</p>
+            <p xml:id="alalal-c78291-d1e207">
+               <lb ed="#Bb" n="82"/>Solutio. Dicendum, quod nulla Dei
+<lb ed="#Bb" n="83"/>voluntas mutabilis est, nec voluntas 
+be<lb break="no" ed="#Bb" n="84"/>neplaciti, nec voluntas signi: leet enim
+<lb ed="#Bb" n="85"/>voluntas signi concedatur esse multiplex
+<lb ed="#Bb" n="86"/>ex multiplicitate signatorum : quia 
+mul<lb break="no" ed="#Bb" n="87"/>tiplicitas potest attribui Deo per causam,
+<lb ed="#Bb" n="88"/>sed non mutabilitas, quia sonat’ infirmi-
+<pb ed="#Bb" n="414"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>tatem et impotentiam quam Deus nec in
+<lb ed="#Bb" n="2"/>se habet, nec ut causa est: sed incidit ex
+<lb ed="#Bb" n="3"/>defectu creaturarum.
+</p>
+            <p xml:id="alalal-c78291-d1e237">
+               <lb ed="#Bb" n="4"/>Ad primum ergo dicendum, quod 
+Gre<lb break="no" ed="#Bb" n="5"/>gorius vocat sententiam, propheticam
+<lb ed="#Bb" n="6"/>enuntiationem, quae concernit causas 
+in<lb break="no" ed="#Bb" n="7"/>feriores, et per respectum ad illas 
+enun<lb break="no" ed="#Bb" n="8"/>tiatur : et quia ille mutabiles sunt, 
+mu<lb break="no" ed="#Bb" n="9"/>tatur et sententia illa, sed non consilium,
+<lb ed="#Bb" n="10"/>quia consilium est aeterna dispositio de
+<lb ed="#Bb" n="11"/>faciendis.
+</p>
+            <p xml:id="alalal-c78291-d1e257">
+               <lb ed="#Bb" n="12"/>Ad aliud dicendum, quod voluntas
+<lb ed="#Bb" n="13"/>signi immutabilis est : quia voluntas Dei
+<lb ed="#Bb" n="14"/>semper uno modo significatur, licet 
+sig<lb break="no" ed="#Bb" n="15"/>nificatum varietur, quia de illo non 
+sem<lb break="no" ed="#Bb" n="16"/>per voluntas est. Utrum autem etiam
+<lb ed="#Bb" n="17"/>tunc falsum sit signum, vel non, infra
+<lb ed="#Bb" n="18"/>determinabitur.
+</p>
+            <p xml:id="alalal-c78291-d1e275">
+               <lb ed="#Bb" n="19"/>Ad aliud dicendum, quod sicut dixit
+<lb ed="#Bb" n="20"/>Magister supra de scientia, quod eadem
+<lb ed="#Bb" n="21"/>est respectu preteritorum, prasentium,
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="22"/>et futurorum, dummodo idem sit scibile:
+<lb ed="#Bb" n="23"/>ita dicendum hic, quod idem volitum est
+<lb ed="#Bb" n="24"/>Cesarem esse, et Caesarem fuisse: sed
+<lb ed="#Bb" n="25"/>Cesarem esse in praeterito, et modo 
+ite<lb break="no" ed="#Bb" n="26"/>rum Cesarem esse, non esset cadem 
+vo<lb break="no" ed="#Bb" n="27"/>luntas: et ratio hujus supra bis assignata
+<lb ed="#Bb" n="28"/>est.
+</p>
+            <p xml:id="alalal-c78291-d1e301">
+               <lb ed="#Bb" n="29"/>Ad aliud dicendum est eodem modo:
+<lb ed="#Bb" n="30"/>quia eadem est voluntas mundum fore,
+<lb ed="#Bb" n="31"/>et nunc esse: sed ex parte voliti accessit
+<lb ed="#Bb" n="32"/>diversum tempus.
+</p>
+            <p xml:id="alalal-c78291-d1e312">
+               <lb ed="#Bb" n="33"/>Ad aliud dicendum, quod voluntas
+<lb ed="#Bb" n="34"/>dicit respectum ad volitum, ut probat
+<lb ed="#Bb" n="35"/>objectio: secundum tamen supra dicta ',
+<lb ed="#Bb" n="36"/>iste respectus non ponit relationem 
+rea<lb break="no" ed="#Bb" n="37"/>lem additam divine essentia : sed 
+rea<lb break="no" ed="#Bb" n="38"/>lem ponit im re, et secundum rationem
+<lb ed="#Bb" n="39"/>intelligend: in Deo: et hoc intellexit 
+Ma<lb break="no" ed="#Bb" n="40"/>gister supra, quando dixit voluntatem
+<lb ed="#Bb" n="41"/>non relative dici.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

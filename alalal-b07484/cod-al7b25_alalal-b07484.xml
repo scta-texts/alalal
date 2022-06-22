@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="556"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b07484"><!-- l1d21dt1 -->
+            <head xml:id="alalal-b07484-Hd1e99">Divisio textus</head>
+            <p xml:id="alalal-b07484-d1e101">
+               <pb ed="#Ba" n="556"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>DIVISIO TEXTUS,
+</p>
+            <p xml:id="alalal-b07484-d1e110">
+               <lb ed="#Ba" n="2"/>
+               <quote xml:id="alalal-b07484-Qd1e114"> Hic oritur questio trahens originem
+<lb ed="#Ba" n="3"/>ex praedictis, etc. </quote>
+               <lb ed="#Ba" n="4"/>Hic incipit pars illa quae occasionatur
+<lb ed="#Ba" n="5"/>ex praecedenti : cum enim habitum sit
+<lb ed="#Ba" n="6"/>quod in communitate essentia tres 
+per<lb break="no" ed="#Ba" n="7"/>sone distinct sunt, videtur non posse
+<lb ed="#Ba" n="8"/>multiplicari solitudo circa aliquam 
+illa<lb break="no" ed="#Ba" n="9"/>rum : et ideo in hac parte quaeritur, 
+Qua<lb break="no" ed="#Ba" n="10"/>liter dictiones exclusive ponantur circa
+<lb ed="#Ba" n="11"/>subjectum vel praedicatum in divinis, 
+si<lb break="no" ed="#Ba" n="12"/>ve circa personas, sive etiam circa 
+termi<lb break="no" ed="#Ba" n="13"/>nos essentiales ?
+</p>
+            <p xml:id="alalal-b07484-d1e142">
+               <lb ed="#Ba" n="14"/>Et dividitur ista distinctio in tres 
+par<lb break="no" ed="#Ba" n="15"/>tes : in quarum prima Magister tangit,
+<lb ed="#Ba" n="16"/>qualiter dictiones exclusive adjunguntur
+<lb ed="#Ba" n="17"/>propositioni ex utraque parte habenti 
+ter<lb break="no" ed="#Ba" n="18"/>minos personales, ut cum dicitur, solus
+<lb ed="#Ba" n="19"/>Pater est Pater. In secunda autem 
+tan<lb break="no" ed="#Ba" n="20"/>git, qualiter adjunguntur propositionibus
+<lb ed="#Ba" n="21"/>ex altera parte habentibus terminos 
+per<lb break="no" ed="#Ba" n="22"/>sonales, ex altera autem terminos 
+essen<lb break="no" ed="#Ba" n="23"/>tiales, ut solus Pater est Deus, vel Pater
+<lb ed="#Ba" n="24"/>est solus Deus, vel Trinitas est solus
+<lb ed="#Ba" n="25"/>Deus : et haecincipit ibi, B, <quote xml:id="alalal-b07484-Qd1e170"> Post hee
+<lb ed="#Ba" n="26"/>quaeritur, Utrum sicut dicitur, solus 
+Pa<lb break="no" ed="#Ba" n="27"/>ter est Pater, etc. </quote> In tertia autem 
+obji<lb break="no" ed="#Ba" n="28"/>cit contra determinata, et solvit, ibi, C,
+<lb ed="#Ba" n="29"/>
+               <quote xml:id="alalal-b07484-Qd1e181"> Sed iterum quaeritur quomodo ipsam
+<lb ed="#Ba" n="30"/>Lrinitatem dicimus solum Deum, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

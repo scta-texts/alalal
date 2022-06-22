@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="693"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j42711"><!-- l4d50a6 -->
+            <head xml:id="alalal-j42711-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-j42711-Hd1e101" type="question-title">An damnati odiant Deum ?</head>
+            <p xml:id="alalal-j42711-d1e104">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="19"/>ARTICULUS VI.
+<lb ed="#Bf" n="20"/>An damnati odiant Deum ?
+</p>
+            <p xml:id="alalal-j42711-d1e113">
+               <lb ed="#Bf" n="21"/>Tertio queritur, Utrum  damnati
+<lb ed="#Bf" n="22"/>odiant Deum ?
+</p>
+            <p xml:id="alalal-j42711-d1e120">
+               <lb ed="#Bf" n="23"/>Videtur, quod non : quia
+<lb ed="#Bf" n="24"/>1. Dionysius dicit, quod omnia amant
+<lb ed="#Bf" n="25"/>pulchrum et bonum quod est Deus. 
+Er<lb break="no" ed="#Bf" n="26"/>go etiam damnati.
+</p>
+            <p xml:id="alalal-j42711-d1e132">
+               <lb ed="#Bf" n="27"/>2. Adhuc, <name xml:id="alalal-j42711-Nd1e136">Augustinus</name> dicit, quod
+<lb ed="#Bf" n="28"/>
+               <quote xml:id="alalal-j42711-Qd1e140">Deum diligit, quidquid diligere potest.</quote>
+            </p>
+            <p xml:id="alalal-j42711-d1e143">
+               <lb ed="#Bf" n="29"/>Responsio. Dicendum ad hoc, quod
+<lb ed="#Bf" n="30"/>Deus considerari potest dupliciter, 
+scili<lb break="no" ed="#Bf" n="31"/>cel absolute, et sub justitia judicante
+<lb ed="#Bf" n="32"/>pro meritis. Primo quidem modo nihil
+<lb ed="#Bf" n="33"/>odit Deum, sed secundo modo odiunt
+<lb ed="#Bf" n="34"/>eum dammnati et daemones.
+</p>
+            <p xml:id="alalal-j42711-d1e159">
+               <lb ed="#Bf" n="35"/>Et per hoc patet solutio objectorum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

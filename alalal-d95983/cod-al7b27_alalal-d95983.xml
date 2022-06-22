@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="562"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d95983"><!-- l2d35a2 -->
+            <head xml:id="alalal-d95983-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-d95983-Hd1e101" type="question-title">Utrum rationes quas tangit Magister
+omni peccato conveniant, sic quod illis
+rationibus omne peccatum diffiniatur ?</head>
+            <p xml:id="alalal-d95983-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="49"/>ARTICULUS II.
+<lb ed="#Bc" n="50"/>Utrum rationes quas tangit Magister
+<lb ed="#Bc" n="51"/>omni peccato conveniant, sic quod illis
+<lb ed="#Bc" n="52"/>rationibus omne peccatum diffiniatur ?
+</p>
+            <p xml:id="alalal-d95983-d1e117">
+               <lb ed="#Bc" n="53"/>Secundo queritur, Utrum omne pec-
+<lb ed="#Bc" n="54"/>catum diffiniatur illis rationibus quas po-
+<lb ed="#Bc" n="55"/>nit in Littera ?
+</p>
+            <p xml:id="alalal-d95983-d1e126">
+               <lb ed="#Bc" n="56"/>Videtur autem, quod sic:
+<lb ed="#Bc" n="57"/>4. Quecumque dividunt aliquod 
+com<lb break="no" ed="#Bc" n="58"/>mune, diffiniuntur una ratione data 
+se<lb break="no" ed="#Bc" n="59"/>cundum nomen illud commune quod 
+di<lb break="no" ed="#Bc" n="60"/>vidunt : originale, veniale, et actuale, 
+di<lb break="no" ed="#Bc" n="61"/>vidunt peccatum in communi acceptum ;
+<lb ed="#Bc" n="62"/>ergo convenit eis data in communi 
+diffi<lb break="no" ed="#Bc" n="63"/>nitio de peccato.
+</p>
+            <p xml:id="alalal-d95983-d1e147">
+               <lb ed="#Bc" n="64"/>2. Item, Speciebus applicabilis est dif.
+<lb ed="#Bc" n="65"/>finitio generis: species autem peccati
+<lb ed="#Bc" n="66"/>sunt originale, veniale, et mortale: ergo
+<lb ed="#Bc" n="67"/>convenit eis diffinitio data de genere.
+</p>
+            <p xml:id="alalal-d95983-d1e158">
+               <lb ed="#Bc" n="68"/>3. Preterea, Omne peccatum adimit
+<lb ed="#Bc" n="69"/>bonum, ut dicit in Littera : et similiter
+<lb ed="#Bc" n="70"/>omne peccatum est voluntarium, etiam
+<lb ed="#Bc" n="71"/>originale, ut dicit Augustinus, et supra
+<lb ed="#Bc" n="72"/>habitum est in Littera : ergo omne pec=
+<lb ed="#Bc" n="73"/>catum convenit in causa efficiente et 
+de<lb break="no" ed="#Bc" n="74"/>ficiente : cum igitur per illas duas 
+cau<lb break="no" ed="#Bc" n="75"/>sas praecipue diffiniatur, videtur quod
+<lb ed="#Bc" n="76"/>omne peccatum diffinibile sit in 
+diffini<lb break="no" ed="#Bc" n="77"/>tione una in communi.
+</p>
+            <p xml:id="alalal-d95983-d1e182">
+               <lb ed="#Bc" n="78"/>Sed contra hoc est, quod
+<lb ed="#Bc" n="79"/>1. Id quod est privatio boni, tollit in
+<lb ed="#Bc" n="80"/>bono bonum gratia, et diminuit bonum
+<lb ed="#Bc" n="81"/>nature: sed veniale non tollit bonum
+<lb ed="#Bc" n="82"/>gratiae, nec interrumpit etiam bonum 
+na<lb break="no" ed="#Bc" n="83"/>ture, quia sicut supra habitum est, 
+bo<lb break="no" ed="#Bc" n="84"/>num nature non diminuitur nisi 
+secun<lb break="no" ed="#Bc" n="85"/>dum ordinem in bonum : ergo corruptio
+<lb ed="#Bc" n="86"/>boni non convenit veniali,
+</p>
+            <p xml:id="alalal-d95983-d1e204">
+               <lb ed="#Bc" n="87"/>2. Item, Originale est necessarium 
+pec<lb break="no" ed="#Bc" n="88"/>catum, ut supra habitum est : quod 
+au<lb break="no" ed="#Bc" n="89"/>tem est voluntarium, non est 
+necessa<lb break="no" ed="#Bc" n="90"/>rium : ergo originale non conveni cum
+<pb ed="#Bc" n="563"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>veniali et mortali in causa efficiente: ergo
+<lb ed="#Bc" n="2"/>non potest simul cum illis diffiniri per
+<lb ed="#Bc" n="3"/>illam.
+</p>
+            <p xml:id="alalal-d95983-d1e226">
+               <lb ed="#Bc" n="4"/>Solutio. Dicendum, quod non est una
+<lb ed="#Bc" n="5"/>diffinitio, qua in communi possint 
+diffi<lb break="no" ed="#Bc" n="6"/>niriilla genera peccatorum, scilicet 
+ori<lb break="no" ed="#Bc" n="7"/>ginale, veniale, et mortale, sicut probant
+<lb ed="#Bc" n="8"/>duae ultime rationes.
+</p>
+            <p xml:id="alalal-d95983-d1e239">
+               <lb ed="#Bc" n="9"/>Dicenvbum igitur ad primum, quod hoc
+<lb ed="#Bc" n="10"/>est verum de dividentibus genus 
+com<lb break="no" ed="#Bc" n="11"/>mune: sed originale, veniale, et mortale,
+<lb ed="#Bc" n="12"/>non dividunt peccatum, ut species genus
+<lb ed="#Bc" n="13"/>dividit, sed sicut per prius et posterius
+<lb ed="#Bc" n="14"/>participantia ipsum: sicut potentia et
+<lb ed="#Bc" n="15"/>actus dividunt ens, potentiaenim nullam
+<lb ed="#Bc" n="16"/>differentiam positivam addit enti, sed
+<lb ed="#Bc" n="17"/>addit ei modum qu6 dividitur contra
+<lb ed="#Bc" n="18"/>actum, contra quem non dividitur ens:
+<lb ed="#Bc" n="19"/>sed actus dividit per differentiam 
+consti<lb break="no" ed="#Bc" n="20"/>tutivam, et ideo participat secundum 
+per<lb break="no" ed="#Bc" n="21"/>fectionem. Et ita etiam cum dividitur
+<lb ed="#Bc" n="22"/>peccatum per veniale, et mortale, et 
+ori<lb break="no" ed="#Bc" n="23"/>ginale, veniale non aliquid addit super
+<lb ed="#Bc" n="24"/>peccatum, quod sit de esse peccali, quia
+<lb ed="#Bc" n="25"/>minimum in quo salvatur ratio peccati,
+<lb ed="#Bc" n="26"/>veniale est : sed originale aliquid addit :
+<lb ed="#Bc" n="27"/>sed id quod addit, non est de esse peccati,
+<lb ed="#Bc" n="28"/>sed potius facit ad diminutionem peccati,
+<lb ed="#Bc" n="29"/>addit enim tractum ex natura et ex 
+neces<lb break="no" ed="#Bc" n="30"/>sitate, et diminuit peccatum. Mortale 
+au<lb break="no" ed="#Bc" n="31"/>tem addit id quod perficit esse peccati, eo
+<lb ed="#Bc" n="32"/>modo quo peccatum dici potest perfici:
+<lb ed="#Bc" n="33"/>et ideo patet, quod licet ista tria dividant
+<lb ed="#Bc" n="34"/>peccatum, non tamen suam essentiam
+<lb ed="#Bc" n="35"/>participant secundum idem.
+</p>
+            <p xml:id="alalal-d95983-d1e301">
+               <lb ed="#Bc" n="36"/>Ad aliud dicendum, quod non sunt
+<lb ed="#Bc" n="37"/>species peccati: quia veniale non potest
+<lb ed="#Bc" n="38"/>esse peccatum vel malum, nisi quia 
+dis<lb break="no" ed="#Bc" n="39"/>ponit ad peccatum per hoc quod adimit
+<lb ed="#Bc" n="40"/>non bonum gratia vel nature, sed potius
+<lb ed="#Bc" n="41"/>bonum fervoris in actu devotionis vel
+<lb ed="#Bc" n="42"/>operis boni, vel bonum radicationis in
+<lb ed="#Bc" n="43"/>subjecto : et ita patet, quod non procedit
+<lb ed="#Bc" n="44"/>ratio illa.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

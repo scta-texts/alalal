@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 24</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 24</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="123"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a25052"><!-- l1d3a24 -->
+            <head xml:id="alalal-a25052-Hd1e99">Articulus 24</head>
+            <head xml:id="alalal-a25052-Hd1e101" type="question-title">Quare imago non est secundum vires
+infervores ?</head>
+            <p xml:id="alalal-a25052-d1e104">
+               <lb ed="#Ba" n="68"/>ARTICULUS XXIV,.
+<lb ed="#Ba" n="69"/>Quare imago non est secundum vires
+<lb ed="#Ba" n="70"/>infervores ?
+</p>
+            <p xml:id="alalal-a25052-d1e113">
+               <lb ed="#Ba" n="71"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="72"/>
+               <quote xml:id="alalal-a25052-Qd1e119"> Imago tamen illius quo nihil melius
+<lb ed="#Ba" n="73"/>est, etc. </quote> Quare non potest esse imago
+<lb ed="#Ba" n="74"/>Dei secundum inferiores vires ?
+</p>
+            <p xml:id="alalal-a25052-d1e127">
+               <lb ed="#Ba" n="75"/>Soturio. Hoc contingit propter 
+sim<lb break="no" ed="#Ba" n="76"/>plicitatem objecti quod est Deus, et ipsa
+<lb ed="#Ba" n="77"/>mens. Ista enim simplicissime sunt in
+<lb ed="#Ba" n="78"/>mente : quia per essentiam, et ideo non
+<lb ed="#Ba" n="79"/>potest in illa nisi secundum 
+simplicissi<lb break="no" ed="#Ba" n="80"/>mam sui partem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

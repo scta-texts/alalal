@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="503"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j03994"><!-- l4d43a2 -->
+            <head xml:id="alalal-j03994-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-j03994-Hd1e101" type="question-title">Quid sit resurrectio ?</head>
+            <p xml:id="alalal-j03994-d1e104">
+               <lb ed="#Bf" n="25"/>ARTICULUS II.
+<lb ed="#Bf" n="26"/>Quid sit resurrectio ?
+</p>
+            <p xml:id="alalal-j03994-d1e111">
+               <lb ed="#Bf" n="27"/>Secundo queritur, Quid sit 
+resurre<lb break="no" ed="#Bf" n="28"/>ctio ?
+</p>
+            <p xml:id="alalal-j03994-d1e118">
+               <lb ed="#Bf" n="29"/>Dicit autem Augustinus super 
+Gene<lb break="no" ed="#Bf" n="30"/>sim ad litteram : <quote xml:id="alalal-j03994-Qd1e124"> Resurrectio nihil
+<lb ed="#Bf" n="31"/>aliud est nisi restitulio in consimilem
+<lb ed="#Bf" n="32"/>vitam *.</quote>
+            </p>
+            <p xml:id="alalal-j03994-d1e133">
+               <lb ed="#Bf" n="33"/>Damascenus autem in libro de Fide
+<lb ed="#Bf" n="34"/>orthodoxa : <quote xml:id="alalal-j03994-Qd1e139"> Resurrectio est secunda
+<lb ed="#Bf" n="35"/>ejus quod cecidit surrectio. </quote> Et parum
+<lb ed="#Bf" n="36"/>post : <quote xml:id="alalal-j03994-Qd1e146"> Resurrectio est rursus copulatio
+<lb ed="#Bf" n="37"/>anime et corporis : et secunda cjus quod
+<lb ed="#Bf" n="38"/>dissolutum est et cecidit, animalis 
+sur<lb break="no" ed="#Bf" n="39"/>rectio. </quote>
+            </p>
+            <p xml:id="alalal-j03994-d1e156">
+               <lb ed="#Bf" n="40"/>Contra primam autem objicitur sic :
+<lb ed="#Bf" n="41"/>1. Consimilis vita: aut est similis vite
+<lb ed="#Bf" n="42"/>ante peccatum secundum statum 
+inno<lb break="no" ed="#Bf" n="43"/>centiv, aut similis isti secundum statum
+<lb ed="#Bf" n="44"/>pene et culpe. Si primo modo : ergo
+<lb ed="#Bf" n="45"/>illa vita cibis egebit et commixtione
+<lb ed="#Bf" n="46"/>sexus, quod est contra Dominum in
+<lb ed="#Bf" n="47"/>Evangelio dicentem, quod <quote xml:id="alalal-j03994-Qd1e175">in 
+resurre<lb break="no" ed="#Bf" n="48"/>ctione neque nubent, neque nubentur</quote>,
+<lb ed="#Bf" n="49"/>etc., Si secundo modo : ergo erit vita
+<lb ed="#Bf" n="50"/>futura in poenis famis, sitis, et 
+hujus<lb break="no" ed="#Bf" n="51"/>modi, quod absurdum est : ergo 
+re<lb break="no" ed="#Bf" n="52"/>surrectio non est restitutio in consimilem
+<lb ed="#Bf" n="53"/>vitam.
+</p>
+            <p xml:id="alalal-j03994-d1e192">
+               <lb ed="#Bf" n="54"/>2. Item, Augustinus super Genesim
+<lb ed="#Bf" n="55"/>dicit sic : <quote xml:id="alalal-j03994-Qd1e198"> Reditum ad id quod 
+senti<lb break="no" ed="#Bf" n="56"/>mus, resurgere appellamus, </quote> Sed jam
+<lb ed="#Bf" n="57"/>sentimus labores et miserias, et ante
+<lb ed="#Bf" n="58"/>peccatum animalem vitam  sensimus.
+<lb ed="#Bf" n="59"/>Ergo reditus per resurrectionem  erit
+<lb ed="#Bf" n="60"/>ad talem : ergo nulla resurrectio erit
+<lb ed="#Bf" n="61"/>gloriosa.
+</p>
+            <p xml:id="alalal-j03994-d1e215">
+               <lb ed="#Bf" n="62"/>3. Item <ref xml:id="alalal-j03994-Rd1e219">Augustinus in libro IV de
+<lb ed="#Bf" n="63"/>Trinitate</ref> ; <quote xml:id="alalal-j03994-Qd1e224"
+                      source="http://scta.info/resource/adt-l8-d1e980@111-120">Resurgere nihil aliud est,
+<lb ed="#Bf" n="64"/>quam reviviscere, et a morte ad vitam
+<lb ed="#Bf" n="65"/>redire.</quote> Et ex hoc sequitur idem quod
+<lb ed="#Bf" n="66"/>prius.
+</p>
+            <p xml:id="alalal-j03994-d1e234">
+               <lb ed="#Bf" n="67"/>Ex omnibus autem his concluditur,
+<lb ed="#Bf" n="68"/>cum tam in primo statu quam in 
+secun<lb break="no" ed="#Bf" n="69"/>do fuerit vita cum potentia moriendi,
+<lb ed="#Bf" n="70"/>quod in resurrectione futura sit potentia
+<lb ed="#Bf" n="71"/>moriendi, quod falsum est.
+</p>
+            <p xml:id="alalal-j03994-d1e247">
+               <lb ed="#Bf" n="72"/>Ossicrron autem de illa quae est 
+Da<lb break="no" ed="#Bf" n="73"/>mascent, quia
+<lb ed="#Bf" n="74"/>1. Secunda resurrectio non est, nisi 
+pri<lb break="no" ed="#Bf" n="75"/>ma precesserit : sed primo numquam
+<lb ed="#Bf" n="76"/>surrexit corpus hominis antequam sit
+<lb ed="#Bf" n="77"/>dies judicii : ergo nec tunc secundo 
+sur<lb break="no" ed="#Bf" n="78"/>get: ergo male dicit, secunda 
+resurre<lb break="no" ed="#Bf" n="79"/>ctio.
+</p>
+            <p xml:id="alalal-j03994-d1e268">
+               <pb ed="#Bf" n="504"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>2. Item, Secunda non nolat nurnerum
+<lb ed="#Bf" n="2"/>et ordinem, nisi actuum ejusdem 
+ratio<lb break="no" ed="#Bf" n="3"/>nis: sed elevatio corporis hominis ad
+<lb ed="#Bf" n="4"/>hance vitam, et elevatio sua ad formam
+<lb ed="#Bf" n="5"/>glorie, non sunt ejusdem rationis : ergo
+<lb ed="#Bf" n="6"/>non secundo tunc surget corpus.
+</p>
+            <p xml:id="alalal-j03994-d1e288">
+               <lb ed="#Bf" n="7"/>3. Item, Secundum <ref xml:id="alalal-j03994-Rd1e292">Philosophum in
+<lb ed="#Bf" n="8"/>VI Topicorum</ref> : <quote xml:id="alalal-j03994-Qd1e297"> St aliquod commune
+<lb ed="#Bf" n="9"/>invenitur in diffinitione et diffinito, illud
+<lb ed="#Bf" n="10"/>nec est pars diflinitionis, nec diffiniti : </quote>
+               <lb ed="#Bf" n="11"/>sed surrectio communiter invenitur in
+<lb ed="#Bf" n="12"/>diffinitione, et diffinito ergo pars
+<lb ed="#Bf" n="13"/>neutrius est : ergo totum quod. dicit
+<lb ed="#Bf" n="14"/>Damascenus in utraque suarum 
+diffi<lb break="no" ed="#Bf" n="15"/>nitionum non explanat, nisi 
+habitudi<lb break="no" ed="#Bf" n="16"/>nem prepositionis qua est in 
+composi<lb break="no" ed="#Bf" n="17"/>to, cum dicitur resurrectio.
+</p>
+            <p xml:id="alalal-j03994-d1e320">
+               <lb ed="#Bf" n="18"/>Item, Objicitur de secunda, quia quod
+<lb ed="#Bf" n="19"/>dissolutum est, videtur idem dicere cum
+<lb ed="#Bf" n="20"/>eo quod cecidit : ergo videtur diffinitio
+<lb ed="#Bf" n="21"/>nugatoriam habere repetitionem.
+</p>
+            <p xml:id="alalal-j03994-d1e331">
+               <lb ed="#Bf" n="22"/>4, Ttem, Diffinitio resurrectionis omni
+<lb ed="#Bf" n="23"/>resurrectioni debet convenire : sed hee
+<lb ed="#Bf" n="24"/>diffinitio non convenil resurrectioni 
+Do<lb break="no" ed="#Bf" n="25"/>mini, quia non est dissolutum corpus
+<lb ed="#Bf" n="26"/>jus : ergo non est generalis, nec bona,
+<lb ed="#Bf" n="27"/>ut videtur. Quod autem non conveniat
+<lb ed="#Bf" n="28"/>resurrectioni Domini, patet per hoc
+<lb ed="#Bf" n="29"/>quod dicit Damascenus !: <quote xml:id="alalal-j03994-Qd1e350"> ®G0a¢, id est,
+<lb ed="#Bf" n="30"/>corruptionis nomen duo significat : 
+si<lb break="no" ed="#Bf" n="31"/>gnilicat enim hujusmodi passiones, 
+fa<lb break="no" ed="#Bf" n="32"/>mem, sitim, laborem, clavorum 
+perfo<lb break="no" ed="#Bf" n="33"/>rationem, mortem, id est, separationem
+<lb ed="#Bf" n="34"/>anime a corpore, et quecumque talia.
+<lb ed="#Bf" n="35"/>Secundum hoc significatum etigov, id
+<lb ed="#Bf" n="36"/>est, corruptibile corpus Domini dicimus.
+<lb ed="#Bf" n="37"/>Omnia enim haec yoluntarie assumpsit.
+<lb ed="#Bf" n="38"/>Significat etiam ¢0éez, id est, 
+corrup<lb break="no" ed="#Bf" n="39"/>tio, perfectam corporis in ea (ex quibus
+<lb ed="#Bf" n="40"/>compositum est) elementa, 
+dissolutio<lb break="no" ed="#Bf" n="41"/>nem et destructionem, quae magis a
+<lb ed="#Bf" n="42"/>multis corruptio dicitur et nominatur.
+<lb ed="#Bf" n="43"/>Hujus experimentum corpus Domini
+<lb ed="#Bf" n="44"/>non habuit, ut ait Propheta David :
+<lb ed="#Bf" n="45"/>Quoniam non derelingues animam meam
+<cb ed="#Bf" n="b"/>
+                  <lb ed="#Bf" n="46"/>in inferno, nec dabis sanctum tuam
+<lb ed="#Bf" n="47"/>videre diapodpay, id est, corruptionem. </quote>
+            </p>
+            <p xml:id="alalal-j03994-d1e395">
+               <lb ed="#Bf" n="48"/>5. Item, Objicitur de hoc quod dicit,
+<lb ed="#Bf" n="49"/>animalis. Potius enim debuit dicere,
+<lb ed="#Bf" n="50"/>hominis, quam animalis quia quod
+<lb ed="#Bf" n="51"/>resurget, habet ab co quod est homo,
+<lb ed="#Bf" n="52"/>et non ab eo quod est animal.
+</p>
+            <p xml:id="alalal-j03994-d1e408">
+               <lb ed="#Bf" n="53"/>G. Item, Secundum omnes istas 
+diffi<lb break="no" ed="#Bf" n="54"/>nitiones non resurget homo, sed tantum
+<lb ed="#Bf" n="55"/>corpus, ut videtur : cum tamen 
+resurge<lb break="no" ed="#Bf" n="56"/>re sit proprius actus hominis, et non
+<lb ed="#Bf" n="57"/>partis hominis.
+</p>
+            <p xml:id="alalal-j03994-d1e422">
+               <lb ed="#Bf" n="58"/>Contra quod videtur dicere 
+Dama<lb break="no" ed="#Bf" n="59"/>scenus, sic: <quote xml:id="alalal-j03994-Qd1e428">Animales mortales 
+existen<lb break="no" ed="#Bf" n="60"/>tes qualiter resurgent. </quote> Jt infra 
+pa<lb break="no" ed="#Bf" n="61"/>run :<quote xml:id="alalal-j03994-Qd1e435"> Ipsum corpus quod corrumpitur
+<lb ed="#Bf" n="62"/>et dissolvitur, idem resurget*. </quote> Ergo
+<lb ed="#Bf" n="63"/>videtur, quod hominis non sit 
+resurge<lb break="no" ed="#Bf" n="64"/>re, sed tantum corporis, quod non est
+<lb ed="#Bf" n="65"/>homo.
+</p>
+            <p xml:id="alalal-j03994-d1e448">
+               <lb ed="#Bf" n="66"/>7. Item, Videtur contrarium debere
+<lb ed="#Bf" n="67"/>dicere : quia actio potius est agentis,
+<lb ed="#Bf" n="68"/>quam patientis : sed anima aget 
+resur<lb break="no" ed="#Bf" n="69"/>reclionem perficiendo et movendo 
+cor<lb break="no" ed="#Bf" n="70"/>pus: ergo anima potius resurget, quam
+<lb ed="#Bf" n="71"/>corpus :etita male dicit et diffinit 
+Da<lb break="no" ed="#Bf" n="72"/>mascenus resurrectionem.
+</p>
+            <p xml:id="alalal-j03994-d1e466">
+               <lb ed="#Bf" n="73"/>Sorutio. Dicendum, quod omnes iste
+<lb ed="#Bf" n="74"/>diffinitiones satis bona sunt : sed omnia
+<lb ed="#Bf" n="75"/>verba Augustinus loquens de 
+resurre<lb break="no" ed="#Bf" n="76"/>ctione, communiter et non stricte accepit.
+<lb ed="#Bf" n="77"/>Et ad intelligendum hoc, sciendum quod
+<lb ed="#Bf" n="78"/>resurrectio dupliciter dicitur,  scilicet
+<lb ed="#Bf" n="79"/>communiter, et proprie. Communiter
+<lb ed="#Bf" n="80"/>sumpta resurrectio continet sub se 
+rela<lb break="no" ed="#Bf" n="81"/>tionem ad slatum gloriw, et ad statum
+<lb ed="#Bf" n="82"/>vite animalis, sicut dicimus Lazarum
+<lb ed="#Bf" n="83"/>resurrexisse : et hoc modo non 
+quwri<lb break="no" ed="#Bf" n="84"/>mus diffinitionem ejus hic. Proprie
+<lb ed="#Bf" n="85"/>sumitur, prout dividit cum suscitatione
+<lb ed="#Bf" n="86"/>hoc commune quod est restitui ad 
+yi<lb break="no" ed="#Bf" n="87"/>tam exstinctam : et sic non competit
+<lb ed="#Bf" n="88"/>resurrections, nisi ad yilam 
+inexstingui<lb break="no" ed="#Bf" n="89"/>bilem, sive sit in poenis, sive in gloria.
+</p>
+            <p xml:id="alalal-j03994-d1e505">
+               <pb ed="#Bf" n="505"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Ad id ergo quod primo objicitur,
+<lb ed="#Bf" n="2"/>dicendum quod si volumus concedere
+<lb ed="#Bf" n="3"/>de resurrectione stricte sumpta loqui
+<lb ed="#Bf" n="4"/>Augustinum, quod consimilis vita dicitur
+<lb ed="#Bf" n="5"/>in specie et veritate humana vite, licet
+<lb ed="#Bf" n="6"/>differat ab hac et illa quae fuit in statu
+<lb ed="#Bf" n="7"/>Innocenti, in statu et proprietate.
+</p>
+            <p xml:id="alalal-j03994-d1e527">
+               <lb ed="#Bf" n="8"/>Ad aliud dicendum, quod sentire in
+<lb ed="#Bf" n="9"/>verbo Augustini ponitur pro experiri
+<lb ed="#Bf" n="10"/>quoad substantialia vite humane : quia
+<lb ed="#Bf" n="11"/>eadem etiam experiemur in 
+resurre<lb break="no" ed="#Bf" n="12"/>ctione : quia aliter non resurgeremus
+<lb ed="#Bf" n="13"/>et non dicitur sentire pati eadem? per
+<lb ed="#Bf" n="14"/>sensus qua modo patimur.
+</p>
+            <p xml:id="alalal-j03994-d1e545">
+               <lb ed="#Bf" n="15"/>Ad aliud dicendum, quod non est
+<lb ed="#Bf" n="16"/>reditus de morte ad vitam perfecte, nisi
+<lb ed="#Bf" n="17"/>perfecte vita vincat mortem : et hoc non
+<lb ed="#Bf" n="18"/>est nisi quando omnis causa mortis
+<lb ed="#Bf" n="19"/>naturalis excludetur, quae est pugna
+<lb ed="#Bf" n="20"/>contrariorum : et hoc modo non erit
+<lb ed="#Bf" n="21"/>resurrectio, nisi post cursum mundi in
+<lb ed="#Bf" n="22"/>fine temporum.
+</p>
+            <p xml:id="alalal-j03994-d1e566">
+               <lb ed="#Bf" n="23"/>Ad aliud dicendum, quod due sunt
+<lb ed="#Bf" n="24"/>elevationes corporalis materie. Una ad
+<lb ed="#Bf" n="25"/>formam quae est anima rationalis : et
+<lb ed="#Bf" n="26"/>hee fit in generatione. Et alia ejusdem
+<lb ed="#Bf" n="27"/>ad animam indissolubiliter reunitam :
+<lb ed="#Bf" n="28"/>et haec dicitur regeneratio. Matth. x1x,
+<lb ed="#Bf" n="29"/>28 : <quote xml:id="alalal-j03994-Qd1e583">In regeneratione, cum sederit Filius
+<lb ed="#Bf" n="30"/>hominis</quote>, etc. Et ideo falsum est, quod
+<lb ed="#Bf" n="31"/>non sunt ibi duae surrectiones  
+cor<lb break="no" ed="#Bf" n="32"/>poris.
+</p>
+            <p xml:id="alalal-j03994-d1e593">
+               <lb ed="#Bf" n="33"/>Ad aliud dicendum, quod non 
+opor<lb break="no" ed="#Bf" n="34"/>tet, quod ea quorum ly secundum notat
+<lb ed="#Bf" n="35"/>iterationem, sint ejusdem  accidentis,
+<lb ed="#Bf" n="36"/>sed tantum, quod sint ejusdem rationis :
+<lb ed="#Bf" n="37"/>sicut quando secundo bibo, non oportet
+<lb ed="#Bf" n="38"/>quod secundus potus sit similis primo
+<lb ed="#Bf" n="39"/>in accidente. Et ita est de duplici vita
+<lb ed="#Bf" n="40"/>ad quam surgit corpus, quod est 
+ejus<lb break="no" ed="#Bf" n="41"/>dem specici, et non ejusdem 
+acciden<lb break="no" ed="#Bf" n="42"/>tis,
+</p>
+            <p xml:id="alalal-j03994-d1e617">
+               <lb ed="#Bf" n="43"/>Ad aliud dicendum, quod id quod
+<lb ed="#Bf" n="44"/>dicit Aristoteles intelligitur de his quae
+<lb ed="#Bf" n="45"/>eodem modo sumuntur in diffinitione
+<lb ed="#Bf" n="46"/>et diffinito : sicut si dicerem, homo 
+al<lb break="no" ed="#Bf" n="47"/>bus est animal rationale album. Sed non
+<lb ed="#Bf" n="48"/>est sic : cum enim dicitur resurrectio,
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="49"/>surrectio dicit habitudinem corporis ad
+<lb ed="#Bf" n="50"/>animam recipiendam, et iterationem
+<lb ed="#Bf" n="51"/>surrectionis notat prepositio : sed in
+<lb ed="#Bf" n="52"/>diffinitione notat terminum motus 
+re<lb break="no" ed="#Bf" n="53"/>surrectionis : quia resurrectio motus est,
+<lb ed="#Bf" n="54"/>et per duos terminos diffinitur, quorum
+<lb ed="#Bf" n="55"/>unus est casus et dissolutio : alins autem
+<lb ed="#Bf" n="56"/>altitudo immortalis vite in bonis et
+<lb ed="#Bf" n="57"/>malis communiter : et illa importatur
+<lb ed="#Bf" n="58"/>per ly surrectio positum in diffinitione :
+<lb ed="#Bf" n="59"/>quia componitur a sursum, et erigo : co
+<lb ed="#Bf" n="60"/>quod sic sit figure decomposite.
+</p>
+            <p xml:id="alalal-j03994-d1e661">
+               <lb ed="#Bf" n="61"/>Ad aliud dicendum, quod illa 
+diffini<lb break="no" ed="#Bf" n="62"/>tio non convenit resurrectioni Domini :
+<lb ed="#Bf" n="63"/>et ipse dat aliam in eodem capite quae
+<lb ed="#Bf" n="64"/>resurrectioni Domini convenit, sic 
+di<lb break="no" ed="#Bf" n="65"/>cens: <quote xml:id="alalal-j03994-Qd1e674"> Domini resurrectio est corporis
+<lb ed="#Bf" n="66"/>sancti et incorrupti et anime unio. </quote>
+            </p>
+            <p xml:id="alalal-j03994-d1e680">
+               <lb ed="#Bf" n="67"/>Ad aliud dicendum, quod animalis
+<lb ed="#Bf" n="68"/>est ibi adjectivum, et est genitivus ejus
+<lb ed="#Bf" n="69"/>quod dicitur hic et haec animalis, et
+<lb ed="#Bf" n="70"/>hoe animale : et dicit conditionem 
+cor<lb break="no" ed="#Bf" n="71"/>poris cadentis in mortem, et est sensus,
+<lb ed="#Bf" n="72"/>animalis, id est, animaliter viventis
+<lb ed="#Bf" n="73"/>corporis, quod cecidit per mortem, et
+<lb ed="#Bf" n="74"/>dissolutum est per incinerationem.
+</p>
+            <p xml:id="alalal-j03994-d1e700">
+               <lb ed="#Bf" n="75"/>Ad aliud dicendum, quod resurrectio
+<lb ed="#Bf" n="76"/>est hominis secundum corpus : et hoc
+<lb ed="#Bf" n="77"/>intendit dicere Damascenus, et non
+<lb ed="#Bf" n="78"/>aliud.
+</p>
+            <p xml:id="alalal-j03994-d1e712">
+               <lb ed="#Bf" n="79"/>Ad aliud dicendum, quod resurrectio
+<lb ed="#Bf" n="80"/>non dicitur hic tamquam moventis, sed
+<lb ed="#Bf" n="81"/>tamquam ejus cujus est actus surgendi
+<lb ed="#Bf" n="82"/>sive moti in actu illo : et ideo proprie
+<lb ed="#Bf" n="83"/>convenit homini secundum corpus, non
+<lb ed="#Bf" n="84"/>autem secundum animam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

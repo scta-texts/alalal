@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="453"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a89885"><!-- l1d16a10 -->
+            <head xml:id="alalal-a89885-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-a89885-Hd1e101" type="question-title">Utrum praeter missionem interiorem 
+invisibilem necessaria fuerit exterior
+missio ?</head>
+            <p xml:id="alalal-a89885-d1e104">
+               <lb ed="#Ba" n="47"/>ARTICULUS X.
+<lb ed="#Ba" n="48"/>Utrum praeter missionem interiorem 
+in<lb break="no" ed="#Ba" n="49"/>visibilem necessaria fuerit exterior
+<lb ed="#Ba" n="50"/>missio ?
+</p>
+            <p xml:id="alalal-a89885-d1e115">
+               <lb ed="#Ba" n="51"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="52"/>
+               <quote xml:id="alalal-a89885-Qd1e121"> Ut exterioribus visis corda hominum,
+<lb ed="#Ba" n="53"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-a89885-d1e127">
+               <lb ed="#Ba" n="54"/>1. Illa enim visa aut sufficiebant ad 
+co<lb break="no" ed="#Ba" n="55"/>gnitionem occulte deitatis et 
+distinctio<lb break="no" ed="#Ba" n="56"/>nis personarum sine interiori missione,
+<lb ed="#Ba" n="57"/>aut non: si sic, tunc interior missio 
+inu<lb break="no" ed="#Ba" n="58"/>tilis fuit.
+</p>
+            <p xml:id="alalal-a89885-d1e141">
+               <lb ed="#Ba" n="59"/>2. Praeterea, Cum interior conferat
+<lb ed="#Ba" n="60"/>gratiam, videretur tune, quod cognitio
+<lb ed="#Ba" n="61"/>Trinitatis sine gratia posset haberi, quod
+<lb ed="#Ba" n="62"/>falsum est, sicut supra’ ostensum est. Si
+<lb ed="#Ba" n="63"/>autem oportuit adesse interiorem, cum
+<lb ed="#Ba" n="64"/>illa per inspirationem doceat, videtur
+<lb ed="#Ba" n="65"/>tunc inutilis fuisse exterior.
+</p>
+            <p xml:id="alalal-a89885-d1e159">
+               <lb ed="#Ba" n="66"/>Solutio. Dicendum, quod in veritate
+<lb ed="#Ba" n="67"/>exterior est testimonium interioris, ut
+<lb ed="#Ba" n="68"/>dicitur in Littera : quia significabatur,
+<lb ed="#Ba" n="69"/>quod in illis quibus fiebat talis missio,
+<lb ed="#Ba" n="70"/>vel ad quorum praedicationem fiebat et
+<lb ed="#Ba" n="71"/>intercessionem, esset gratia redundans,
+<lb ed="#Ba" n="72"/>ut dictum est: et ideo non erat 
+proces<lb break="no" ed="#Ba" n="73"/>sio inutilis exterior pro statu et tempore.
+</p>
+            <p xml:id="alalal-a89885-d1e179">
+               <lb ed="#Ba" n="74"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="75"/>
+               <quote xml:id="alalal-a89885-Qd1e185"> Qui nec in illis creaturis magis erat,
+<lb ed="#Ba" n="76"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-a89885-d1e191">
+               <pb ed="#Ba" n="454"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Hoc enim non videtur : quia magis 
+co<lb break="no" ed="#Ba" n="2"/>gnoscitur aliquid inesse per majorem 
+ef<lb break="no" ed="#Ba" n="3"/>fectum : plus autem effecit in illis, quam 
+<lb ed="#Ba" n="4"/>in aliis : ergo magis erat in illis.</p>
+            <p xml:id="alalal-a89885-d1e207">
+               <lb ed="#Ba" n="5"/>Solutio. Ista ratio peccat ex hoc quod
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="6"/>mutatur discretum in intensius : non
+  <lb ed="#Ba" n="7"/>enim sequitur, quod si pluribus modis
+  <lb ed="#Ba" n="8"/>infuit, quod magis infuerit, nisi illi modi
+  <lb ed="#Ba" n="9"/>facerent intensionem : unde Magister
+<lb ed="#Ba" n="10"/>bene dicit, quod <quote xml:id="alalal-a89885-Qd1e224"> ad aliud </quote> infuit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="837"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h79631"><!-- l4d20a7 -->
+            <head xml:id="alalal-h79631-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-h79631-Hd1e101" type="question-title">An ignis purgatorius sit aeternus vel 
+temporalis ?</head>
+            <p xml:id="alalal-h79631-d1e104">
+               <lb ed="#Be" n="27"/>ARTICULUS VII.
+<lb ed="#Be" n="28"/>An ignis purgatorius sit aeternus vel 
+tem<lb break="no" ed="#Be" n="29"/>poralis ?
+</p>
+            <p xml:id="alalal-h79631-d1e113">
+               <lb ed="#Be" n="30"/>Deinde queritur de hoc quod dicit in
+<lb ed="#Be" n="31"/>Littera, ibi, A, ante finem: <quote xml:id="alalal-h79631-Qd1e119"> Hic autem
+<lb ed="#Be" n="32"/>ignis, etsi aeternus non sit, miro tamen
+<lb ed="#Be" n="33"/>modo gravis est, etc. </quote>
+            </p>
+            <p xml:id="alalal-h79631-d1e127">
+               <lb ed="#Be" n="34"/>Queritur autem hic, Utrum 
+purgato<lb break="no" ed="#Be" n="35"/>rius sit aeternus, vel temporalis ?
+</p>
+            <p xml:id="alalal-h79631-d1e135">
+               <lb ed="#Be" n="36"/>Et videtur, quod aeternus: quia
+<lb ed="#Be" n="37"/>1. Dicit Gregorius, quod sicut in fornace
+<lb ed="#Be" n="38"/>sub eodem igne aurum rutilat, et palea
+<lb ed="#Be" n="39"/>fumat: ita in inferno sub eodem igne
+<lb ed="#Be" n="40"/>damnatus crematur, et electus purgatur :
+<lb ed="#Be" n="41"/>sed inferni ignis est perpetuus: ergo et
+<lb ed="#Be" n="42"/>ignis purgatorii, ut videtur.
+</p>
+            <p xml:id="alalal-h79631-d1e153">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="43"/>2. Item, Ad idem, Ultimi judicii ignis
+<lb ed="#Be" n="44"/>involvet ut carbones reprobos, et 
+num<lb break="no" ed="#Be" n="45"/>quam finietur in eis, et purgabit quod
+<lb ed="#Be" n="46"/>criminale erit in electis: ergo videtur
+<lb ed="#Be" n="47"/>esse simile de igne purgatorii et gehen-s
+<lb ed="#Be" n="48"/>ne: ergo videtur, quod non finitur : ergo
+<lb ed="#Be" n="49"/>est perpetuus.
+</p>
+            <p xml:id="alalal-h79631-d1e173">
+               <lb ed="#Be" n="50"/>SED IN CONTRARIUM est hoc
+<lb ed="#Be" n="51"/>1. Quod hic in Littera dicitur.
+</p>
+            <p xml:id="alalal-h79631-d1e180">
+               <lb ed="#Be" n="52"/>2. Item, Cujus actus et finis finibilia
+<lb ed="#Be" n="53"/>sunt, ispum finibile est, vel erit inutile :
+<lb ed="#Be" n="54"/>sed actus et finis purgatorii finibilia sunt :
+<lb ed="#Be" n="55"/>ergo ipse finitur, vel erit inutilis : sed
+<lb ed="#Be" n="56"/>nihil remanebit inutile in operibus 
+divi<lb break="no" ed="#Be" n="57"/>nis : ergo ipse non remanebit, ut 
+vide<lb break="no" ed="#Be" n="58"/>tur.
+</p>
+            <p xml:id="alalal-h79631-d1e198">
+               <lb ed="#Be" n="59"/>3. Adhuc, Omnia elementa quo modo
+<lb ed="#Be" n="60"/>serviunt homini, finem accipient 
+secun<lb break="no" ed="#Be" n="61"/>dum hunc statum, et erunt in alio statu,
+<lb ed="#Be" n="62"/>in quo laboris sui accipient premium :
+<lb ed="#Be" n="63"/>ergo et illa quae serviunt homini extra
+<lb ed="#Be" n="64"/>mundum : sed purgatorius ignis servit
+<lb ed="#Be" n="65"/>homini: ergo erit in alio statuin quo 
+pre<lb break="no" ed="#Be" n="66"/>miabitur, et finietur secundum statum
+<lb ed="#Be" n="67"/>purgandi.
+</p>
+            <p xml:id="alalal-h79631-d1e220">
+               <lb ed="#Be" n="68"/>Responsio. Dicendum mihi videtur sine
+<lb ed="#Be" n="69"/>prejudicio, quod ignis purgatorius 
+fini<lb break="no" ed="#Be" n="70"/>bilis est secundum rationem purgatoriam,
+<lb ed="#Be" n="71"/>sed non est finibilis secundum 
+substan<lb break="no" ed="#Be" n="72"/>tiam : quia puto, quod idem est in specie
+<lb ed="#Be" n="73"/>ignis cum igne inferni, sicut videtur velle
+<lb ed="#Be" n="74"/>Gregorius.
+</p>
+            <p xml:id="alalal-h79631-d1e239">
+               <lb ed="#Be" n="75"/>Quod ergo primo probatur, quod sit
+<lb ed="#Be" n="76"/>perpetuus secundum substantiam ignis,
+<lb ed="#Be" n="77"/>in qua convenit cum igne inferni, videtur
+<lb ed="#Be" n="78"/>concedendum : quia omnes objectiones
+<lb ed="#Be" n="79"/>per hunc modum procedunt.
+</p>
+            <p xml:id="alalal-h79631-d1e252">
+               <lb ed="#Be" n="80"/>Ad id autem quod secundo in 
+conira<lb break="no" ed="#Be" n="81"/>rium objicitur, dicendum quod in 
+verita<lb break="no" ed="#Be" n="82"/>te haec objectio non probat nisi finibilem
+<lb ed="#Be" n="83"/>secundum hunc tsum in quo jam esi : et
+<lb ed="#Be" n="84"/>hoc conceditur: et erit tunc ad alium
+<lb ed="#Be" n="85"/>usum, quia erit ad cremandum 
+damnan<lb break="no" ed="#Be" n="86"/>dos.
+</p>
+            <p xml:id="alalal-h79631-d1e270">
+               <lb ed="#Be" n="87"/>Av atiup dicendum videtur sine 
+pre<lb break="no" ed="#Be" n="88"/>judicio, quod hoc intelligitur de 
+servien<lb break="no" ed="#Be" n="89"/>tibus homini secundum statum meriti :
+<lb ed="#Be" n="90"/>sed. ignis purgatorius non servit homini
+<pb ed="#Be" n="838"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>ad hunc statum. Unde videtur mihi 
+di<lb break="no" ed="#Be" n="2"/>cendum, quod sicut in statu gratia 
+pu<lb break="no" ed="#Be" n="3"/>rum est cum impuro peccati et. pene,
+<lb ed="#Be" n="4"/>ita in servientibus elementis et 
+elemen<lb break="no" ed="#Be" n="5"/>tatis ad statum gratiae purum est 
+per<lb break="no" ed="#Be" n="6"/>_mixtum cum impuro, et in novatione
+<lb ed="#Be" n="7"/>purum faciens ad jucunditatem, 
+separa<lb break="no" ed="#Be" n="8"/>bitur sursum ad locum elementorum 
+su<lb break="no" ed="#Be" n="9"/>pra circulum terre, impurum autem 
+de<lb break="no" ed="#Be" n="10"/>scendet deorsum sub tristem orbem terre
+<lb ed="#Be" n="11"/>in centrum, Sed in his quae sunt 
+prece<lb break="no" ed="#Be" n="12"/>dentia statum impuritatis, nihil ponitur
+<lb ed="#Be" n="13"/>esse impurum : et ideo numquam talia
+<lb ed="#Be" n="14"/>Innovabuntur, sed manebunt punientia
+<lb ed="#Be" n="15"/>damnatos.
+</p>
+            <p xml:id="alalal-h79631-d1e318">
+               <lb ed="#Be" n="16"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

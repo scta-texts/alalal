@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="254"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e49161"><!-- l3d14a1 -->
+            <head xml:id="alalal-e49161-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-e49161-Hd1e101" type="question-title">An Christus habuerit omnium settorum
+a Deo scientiam ?</head>
+            <p xml:id="alalal-e49161-d1e104">
+               <lb ed="Bd" n="18"/>ARTICULUS I.
+<lb ed="Bd" n="19"/>An Christus habuerit omnium settorum
+<lb ed="Bd" n="20"/>a Deo scientiam ?
+</p>
+            <p xml:id="alalal-e49161-d1e113">
+               <lb ed="Bd" n="21"/>Circa primum incidit questio de tribus
+<lb ed="Bd" n="22"/>articulis, scilicet an Christus habuerit
+<lb ed="Bd" n="23"/>omnium scitorum a Deo scientiam ?
+</p>
+            <p xml:id="alalal-e49161-d1e122">
+               <lb ed="Bd" n="24"/>Secundo, Utrum habuerit illam 
+scien<lb break="no" ed="Bd" n="25"/>tiam in specicbus creatis, vel habitu, vel
+<lb ed="Bd" n="26"/>in Verbo tantum ?
+</p>
+            <p xml:id="alalal-e49161-d1e132">
+               <lb ed="Bd" n="27"/>Tertio, Utrum illa scientia fuerit vel
+<lb ed="Bd" n="28"/>sit scienta comprehensionis, vel 
+simphi<lb break="no" ed="Bd" n="29"/>cis intelligentiw tantum ?
+</p>
+            <p xml:id="alalal-e49161-d1e141">
+               <lb ed="Bd" n="30"/>AD PROBANDUM autem quod non 
+ha<lb break="no" ed="Bd" n="31"/>buerit omnium scientiam, rationes 
+ad<lb break="no" ed="Bd" n="32"/>ducuntur in Litlera, et iste subjaceant.
+</p>
+            <p xml:id="alalal-e49161-d1e150">
+               <lb ed="Bd" n="33"/>Ad idem autem alia ratione potest
+<lb ed="Bd" n="34"/>objici sic:
+</p>
+            <p xml:id="alalal-e49161-d1e157">
+               <lb ed="Bd" n="35"/>1. Nibil creatum est infinitum, nec 
+in<lb break="no" ed="Bd" n="36"/>finite capacitatis : anima Christi est
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="37"/>creata: ergo nec est infinita, nec 
+infi<lb break="no" ed="Bd" n="38"/>nite capacitatis. Numerus autem  
+sci<lb break="no" ed="Bd" n="39"/>torum a Deo est infinitus, quod probo
+<lb ed="Bd" n="40"/>sic: Augustinus dicit in libro XXT de
+<lb ed="Bd" n="41"/>Civitate Det, quod numerorum species
+<lb ed="Bd" n="42"/>quamvis infinite sint, tamen in illius
+<lb ed="Bd" n="43"/>scientiae modo sunt finite, cujus 
+scien<lb break="no" ed="Bd" n="44"/>tia non est numerus: ergo patet 
+divi<lb break="no" ed="Bd" n="45"/>nam scientiam esse infinitorum.
+</p>
+            <p xml:id="alalal-e49161-d1e186">
+               <lb ed="Bd" n="46"/>Item, Bonitas Dei est infinita, et 
+simi<lb break="no" ed="Bd" n="47"/>liter potentia, et quidquid in Deo est
+<lb ed="Bd" n="48"/>totum infinitum est, et Deus 
+perfectissi<lb break="no" ed="Bd" n="49"/>mus sui est contemplator: ergo si anima
+<lb ed="Bd" n="50"/>Christi scit hoc quod scit Deus, ipsa scit
+<lb ed="Bd" n="51"/>et comprehendit infinita, quod esse non
+<lb ed="Bd" n="52"/>videtur, cum ipsa sit creta.
+</p>
+            <p xml:id="alalal-e49161-d1e204">
+               <lb ed="Bd" n="53"/>2. ftem, Deus scit quidquid potest 
+fa<lb break="no" ed="Bd" n="54"/>cere : potest autem facere quae numquam
+<lb ed="Bd" n="55"/>sunt, fuerunt, vel fient : ergo anima
+<lb ed="Bd" n="56"/>Christi scil quz numquam sunt, fuerunt,
+<lb ed="Bd" n="57"/>vel fient: et hoc falsum est, quia quod
+<lb ed="Bd" n="58"/>numquam fuit, est, vel erit, non scitur.
+</p>
+            <p xml:id="alalal-e49161-d1e221">
+               <lb ed="Bd" n="59"/>3. Si forte dicas, quod anima Christi
+<lb ed="Bd" n="60"/>scit infinita esse infinita, sed non 
+com<lb break="no" ed="Bd" n="61"/>prehendendo infinita: hoc nihil est, quia
+<lb ed="Bd" n="62"/>nos etiam scimus illo modo infinitum :
+<lb ed="Bd" n="63"/>unde in hoc non differt scientia anime
+<lb ed="Bd" n="64"/>Christi a nostra scientia.
+</p>
+            <p xml:id="alalal-e49161-d1e237">
+               <lb ed="Bd" n="65"/>Si prorprer hoc aliquis dicat,
+<lb ed="Bd" n="66"/>anima Christi comprehendit in se 
+infini<lb break="no" ed="Bd" n="67"/>tatem Dei, scilicet infinitam bonitatem,
+<lb ed="Bd" n="68"/>et veritatem, et sic de aliis. Contra :
+</p>
+            <p xml:id="alalal-e49161-d1e248">
+               <lb ed="Bd" n="69"/>1. Quidquid comprehenditur, 
+compre<lb break="no" ed="Bd" n="70"/>hendentis intellectu circumscribitur, ut 
+di<lb break="no" ed="Bd" n="71"/>cit Augustinus in libro de Videndo Deum
+<lb ed="Bd" n="72"/>ad Probam: <quote xml:id="alalal-e49161-Qd1e258"> Quidquid autem intellectu
+<lb ed="Bd" n="73"/>creato circumscribitur, hoc intellectu 
+fi<lb break="no" ed="Bd" n="74"/>nitur, quia sic continetur intellectu quod
+<lb ed="Bd" n="75"/>nihil ejus est extra: </quote> ergo quod 
+com<lb break="no" ed="Bd" n="76"/>prehenditur, finitur: nihil autem finitur
+<lb ed="Bd" n="77"/>nisi quod finitum est: ergo quod sic ab
+<lb ed="Bd" n="78"/>anima Christi comprehenditur, finitur:
+<lb ed="Bd" n="79"/>sed comprehenditur infinita Dei bonitas,
+<lb ed="Bd" n="80"/>veritas, ete. ergo Deus est  finitus,
+<lb ed="Bd" n="81"/>quod est heresis.
+</p>
+            <p xml:id="alalal-e49161-d1e281">
+               <lb ed="Bd" n="82"/>2. Ttem, Licet capacitas anime Christi
+<lb ed="Bd" n="83"/>major sit, quam potest esse creature
+<lb ed="Bd" n="84"/>simplicis alicujus, tamen ipsa non est
+<lb ed="Bd" n="85"/>infinita: ergo non commensuratur infi-
+<pb ed="#Bd" n="255"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>nito. Nihil autem comprehendit aliud, nisi
+<lb ed="Bd" n="2"/>quod potest mensura capacitatis super
+<lb ed="Bd" n="3"/>jllud : ergo capacitas anime Christi cum
+<lb ed="Bd" n="4"/>non possit commensurari infinito, non
+<lb ed="Bd" n="5"/>comprehendit infinitum aliquod in Deo:
+<lb ed="Bd" n="6"/>et sic patet, quod in numero scitorum
+<lb ed="Bd" n="7"/>non habet aequalem cum Deo scientiam.
+</p>
+            <p xml:id="alalal-e49161-d1e312">
+               <lb ed="Bd" n="8"/>SED CONTRA:
+<lb ed="Bd" n="9"/>In Littera sunt iterum rationes 
+que<lb break="no" ed="Bd" n="10"/>dam quae supponantur.
+</p>
+            <p xml:id="alalal-e49161-d1e321">
+               <lb ed="Bd" n="11"/>Ulterius autem objicitur sic :
+<lb ed="Bd" n="12"/>1. Dicit Augustinus, quod talis est
+<lb ed="Bd" n="13"/>unio quae facit Deum hominem, et 
+ho<lb break="no" ed="Bd" n="14"/>minem Deum: et omnia quae vera sunt
+<lb ed="Bd" n="15"/>de Deo, vera sunt de homine, et e 
+con<lb break="no" ed="Bd" n="16"/>verso: sed Filius Dei scit infinita: ergo
+<lb ed="Bd" n="17"/>hie homo scit infinita: et nihil scit hic
+<lb ed="Bd" n="18"/>homo, nisi quod scit in anima ejus : ergo
+<lb ed="Bd" n="19"/>ipse comprehendit infinita.
+</p>
+            <p xml:id="alalal-e49161-d1e344">
+               <lb ed="Bd" n="20"/>2. Item, Ad Philip. II, 11: <quote xml:id="alalal-e49161-Qd1e348">Omnis 
+lin<lb break="no" ed="Bd" n="21"/>gua confiteatur qua Dominus Jesus
+<lb ed="Bd" n="22"/>Christus in gloria est Dei Patris</quote>. Quia
+<lb ed="Bd" n="23"/>igitur hoc per passionem meruit, ut 
+ibi<lb break="no" ed="Bd" n="24"/>dem dicitur, hoc intelligitur secundum
+<lb ed="Bd" n="25"/>hominem: ergo secundum hominem in
+<lb ed="Bd" n="26"/>gloria est Dei Patris, ut videtur: non
+<lb ed="Bd" n="27"/>autem est mn gloria sua, nisi sciat ea quae
+<lb ed="Bd" n="28"/>ille seit: ergo equipollet ei in scitis et
+<lb ed="Bd" n="29"/>numero scitorum, ut videtur.
+</p>
+            <p xml:id="alalal-e49161-d1e371">
+               <lb ed="Bd" n="30"/>3. Item, Ex unione anima illa habet
+<lb ed="Bd" n="31"/>aliquid super nos : cum igitur nos 
+at<lb break="no" ed="Bd" n="32"/>tiagamus id quod est infinitum et non
+<lb ed="Bd" n="33"/>comprehendamus, ipse ert attingens
+<lb ed="Bd" n="34"/>per intellectum et comprehendens.
+</p>
+            <p xml:id="alalal-e49161-d1e384">
+               <lb ed="Bd" n="35"/>Solutio Dicendum sine prajudicio,
+<lb ed="Bd" n="36"/>quod anima Christi scit omnia quae Deus
+<lb ed="Bd" n="37"/>scit, sed nonomnia eodem modo. 
+Inf<lb break="no" ed="Bd" n="38"/>nitatem enim Dei quae non mensuratur
+<lb ed="Bd" n="39"/>aliquo extrinseco claudente ipsam, sicut
+<lb ed="Bd" n="40"/>sepius dictum est in primo libro 
+Sen<lb break="no" ed="Bd" n="41"/>fentiarum super secundam et tertiam
+<lb ed="Bd" n="42"/>distinclionem, ipsa anima Christi non
+<lb ed="Bd" n="43"/>claudit comprehendendo : sed solus Deus
+<lb ed="Bd" n="44"/>comprehendit se, quia sibi soli ipse 
+fini<lb break="no" ed="Bd" n="45"/>tus est, eo quod nihil de se est extra 
+se<lb break="no" ed="Bd" n="46"/>ipsum. Si enim diceremus cum concludi
+<lb ed="Bd" n="47"/>comprehensione capacitatis anime 
+Chri<lb break="no" ed="Bd" n="48"/>Sti, videtur mihi, quod hoc redundaret
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>in blasphemiam deitatis Christi: et 
+tan<lb break="no" ed="Bd" n="50"/>tum daremus jam humanitati sue, quod.
+<lb ed="Bd" n="51"/>derogaremus divinitati ejusdem, quod
+<lb ed="Bd" n="52"/>non est faciendum. Sic igitur dicendum,
+<lb ed="Bd" n="53"/>quod omnia scit qua Deus, sed non
+<lb ed="Bd" n="54"/>omnia eodem modo: quia non 
+compre<lb break="no" ed="Bd" n="55"/>hendendo quidquid Deus scit, sed 
+tan<lb break="no" ed="Bd" n="56"/>tum comprehendit omnia scita a Deo
+<lb ed="Bd" n="57"/>que non sunt Deus: sed hoc scitum a
+<lb ed="Bd" n="58"/>Deo quod est Deus non comprehendit.
+</p>
+            <p xml:id="alalal-e49161-d1e441">
+               <lb ed="Bd" n="59"/>Dicendum ergo ad primum, Cum 
+di<lb break="no" ed="Bd" n="60"/>cilur Deus scire infinita, potest intelligi
+<lb ed="Bd" n="61"/>dupliciter, scilicet quod sciat infinita per
+<lb ed="Bd" n="62"/>numerum, vel infinita quasi In mensura
+<lb ed="Bd" n="63"/>qua est ipse. Et secundo modo verum
+<lb ed="Bd" n="64"/>est, quod scit quaedam quae sunt intinita
+<lb ed="Bd" n="65"/>quasi in mensura quae est ipse: et hec
+<lb ed="Bd" n="66"/>scit anima Christi, sed non 
+comprehen<lb break="no" ed="Bd" n="67"/>dit. Infinita autem per numerum non
+<lb ed="Bd" n="68"/>sunt nisi secundum quid, scilicet in 
+po<lb break="no" ed="Bd" n="69"/>tentia additionis infinite, ut dicit 
+Philo<lb break="no" ed="Bd" n="70"/>sophus: et in potentia cause efficientis,
+<lb ed="Bd" n="71"/>scilicet quia ipse potest facere infinita, et
+<lb ed="Bd" n="72"/>scit se posse hoc: et tamen non sequitur
+<lb ed="Bd" n="73"/>per hoc quod infinitorum actu sint species
+<lb ed="Bd" n="74"/>in ipso: etex hoc non sequitur, quod
+<lb ed="Bd" n="75"/>Deus sciatintinita, nisi scire sit idem quod
+<lb ed="Bd" n="76"/>infiniti scientiam habere: et ideo licet
+<lb ed="Bd" n="77"/>anima Christi sciat omnia quae Deus scit,
+<lb ed="Bd" n="78"/>non sequitur quod sciat infinita.
+</p>
+            <p xml:id="alalal-e49161-d1e487">
+               <lb ed="Bd" n="79"/>Quidam autem dicunt hic aliter et
+<lb ed="Bd" n="80"/>distinguunt triplicem scientiam in Deo:
+<lb ed="Bd" n="81"/>scilicet approbationis, quae tantum 
+bono<lb break="no" ed="Bd" n="82"/>rum est: et visionis, qua est eorum 
+quo<lb break="no" ed="Bd" n="83"/>rum rationes sunt apud ipsum: et 
+sim<lb break="no" ed="Bd" n="84"/>plicis intelligentiee, quam dicunt esse
+<lb ed="Bd" n="85"/>omnium quae aliquo modo existunt, ut
+<lb ed="Bd" n="86"/>privationes, et eorum quae sunt in 
+po<lb break="no" ed="Bd" n="87"/>tentia tantum. Et dicunt, quod anima
+<lb ed="Bd" n="88"/>Christi scit omnia primo et secundo
+<lb ed="Bd" n="89"/>modo scita a Deo, et non tertio modo.
+<lb ed="Bd" n="90"/>Sed ex hoc sequitur duplex 
+inconve<lb break="no" ed="Bd" n="91"/>niens : unurm scilicet quod anima Christi
+<lb ed="Bd" n="92"/>non parificetur Deo in numero scitorum,
+<lb ed="Bd" n="93"/>quod est contra hoc quod hic dicitur sine
+<lb ed="Bd" n="94"/>exceptione. Aliud est quod eadem 
+ra<lb break="no" ed="Bd" n="95"/>dione cliam nescit mala, quia illa 
+sim<lb break="no" ed="Bd" n="96"/>plici intelligentia noscuntur.
+</p>
+            <p xml:id="alalal-e49161-d1e529">
+               <lb ed="Bd" n="97"/>Ad hoc autem quod Augustinus dicit,
+<pb ed="#Bd" n="256"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>quod infinite species numerorum in
+<lb ed="Bd" n="2"/>illius scientia finite sunt, cujus scientie
+<lb ed="Bd" n="3"/>non est numerus. Dicendum, quod hoc
+<lb ed="Bd" n="4"/>verum est: non tamen oportet, quod
+<lb ed="Bd" n="5"/>sciat infinita : quia cum sua 
+scien<lb break="no" ed="Bd" n="6"/>tia sit causa omnis rei quae non est per
+<lb ed="Bd" n="7"/>privationem dicta, siin sua scientia 
+es<lb break="no" ed="Bd" n="8"/>sent infinite species numerorum, ipse
+<lb ed="Bd" n="9"/>produceret infinitas species numerorum,
+<lb ed="Bd" n="10"/>quod falsum est. Unde intellectus est
+<lb ed="Bd" n="11"/>Augustini, quod sua scientia quae est
+<lb ed="Bd" n="12"/>causa entis, et non limitatur per ens
+<lb ed="Bd" n="13"/>creatum, comprehendit id quod est 
+infi<lb break="no" ed="Bd" n="14"/>nitum in potentia divisionis et 
+multitu<lb break="no" ed="Bd" n="15"/>dinis, id est, secundum quod semper
+<lb ed="Bd" n="16"/>aliquid potest sumi extra ipsum : non 
+ta<lb break="no" ed="Bd" n="17"/>men comprehendit ita quod per speciem
+<lb ed="Bd" n="18"/>causet ipsum, quia sic jam esset 
+infini<lb break="no" ed="Bd" n="19"/>tum finitum, quod esse non potest.
+</p>
+            <p xml:id="alalal-e49161-d1e580">
+               <lb ed="Bd" n="20"/>Ad hoc autem quod objicit, quod Deus
+<lb ed="Bd" n="21"/>scit quod numquam erit, vel est, vel
+<lb ed="Bd" n="22"/>fuit. Dicendum quod hoc scit hoc modo
+<lb ed="Bd" n="23"/>quo est in causa: non autem est in causa
+<lb ed="Bd" n="24"/>nisi per exemplar : unde etiam Deus
+<lb ed="Bd" n="25"/>non scit nisi sciondo se id posse cujus
+<lb ed="Bd" n="26"/>est exemplar in ipso: unde sciendo se
+<lb ed="Bd" n="27"/>in tali potentia causandi scit illud: non
+<lb ed="Bd" n="28"/>tamen sequitur, quod simpliciter sciat
+<lb ed="Bd" n="29"/>ilud: et eadem est etiam solutio de 
+infi<lb break="no" ed="Bd" n="30"/>nito: non enim sequitur, quod si scit
+<lb ed="Bd" n="31"/>infinita per potentiam producendi infinita,
+<lb ed="Bd" n="32"/>quod sciat infinita simpliciter.
+</p>
+            <p xml:id="alalal-e49161-d1e611">
+               <lb ed="Bd" n="33"/>Ad noc quod objicitur, quod si anima
+<lb ed="Bd" n="34"/>Christi scit non comprehendends, guod
+<lb ed="Bd" n="35"/>non differt a nostris animabus, dicendum
+<lb ed="Bd" n="36"/>quod hoc non est verum: adhuc cnim
+<lb ed="Bd" n="37"/>differt in duobus, scilicel in numero:
+<lb ed="Bd" n="38"/>quia nulla pura creatura omnium 
+noti<lb break="no" ed="Bd" n="39"/>tiam habet quae Deus scit, sicut dicit
+<lb ed="Bd" n="40"/>Tsidorus, quod Trinitas sibi soli nota, et
+<lb ed="Bd" n="41"/>homini assumpto: et sic dicit 
+Augusti<lb break="no" ed="Bd" n="42"/>nus, quod anima Christi omne bonum
+<lb ed="Bd" n="43"/>amat, et nihil amatur nisi cognitum :
+<lb ed="Bd" n="44"/>ergo omne bonum cognoscit: 
+unusquis<lb break="no" ed="Bd" n="45"/>que autem aliorum Sanctorum tantum
+<lb ed="Bd" n="46"/>cognoscit, quantum Deus vult sibi 
+reve<lb break="no" ed="Bd" n="47"/>lare. In modo etiam, quia quasi excessive
+<lb ed="Bd" n="48"/>capacitas sua recipit et plus de quolibet
+<lb ed="Bd" n="49"/>cognoscibili, quam aliquis aliorum.
+</p>
+            <p xml:id="alalal-e49161-d1e650">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>Apintup autem quod in contrarium aa,
+<lb ed="Bd" n="51"/>objicitur, dicendum quod haec bene 
+con<lb break="no" ed="Bd" n="52"/>ceditur, quod hie homo omnia 
+compre<lb break="no" ed="Bd" n="53"/>hendit quae Deus comprehendit: quia
+<lb ed="Bd" n="54"/>hichomoe supponit personam in tribus
+<lb ed="Bd" n="55"/>substantiis et duabus naturis: sed non
+<lb ed="Bd" n="56"/>sequitur ulterius, si Aic homo 
+compre<lb break="no" ed="Bd" n="57"/>hendit, quod secundum quod homo 
+com<lb break="no" ed="Bd" n="58"/>prehendit, si ly secundum notat nature
+<lb ed="Bd" n="59"/>conditionem.
+</p>
+            <p xml:id="alalal-e49161-d1e676">
+               <lb ed="Bd" n="60"/>Ad aliud dicendum, quod Christus in 4,
+<lb ed="Bd" n="61"/>persons est in aequalitate gloriae Dei 
+Pa<lb break="no" ed="Bd" n="62"/>tris: secundum autem quod homo, est
+<lb ed="Bd" n="63"/>in gloria inferiori, sed altiori quam aliqua
+<lb ed="Bd" n="64"/>creatura,.
+</p>
+            <p xml:id="alalal-e49161-d1e689">
+               <lb ed="Bd" n="65"/>Ad aliud dicendum, quod nos nec om- ay
+<lb ed="Bd" n="66"/>nine scimus quae Deus, nec 
+comprehen<lb break="no" ed="Bd" n="67"/>dimaus infinitum pelagus substantia 
+di<lb break="no" ed="Bd" n="68"/>vine, sed attingimus: Deus autem 
+om<lb break="no" ed="Bd" n="69"/>nia comprehendit et omnia scit: unde
+<lb ed="Bd" n="70"/>Christus secundum quod homo est 
+uni<lb break="no" ed="Bd" n="71"/>tus, conformatur ei in numero scitorum
+<lb ed="Bd" n="72"/>in quo nos excedil, et est sub ipso in
+<lb ed="Bd" n="73"/>modo comprchensionis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

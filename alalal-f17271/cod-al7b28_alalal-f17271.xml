@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="605"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f17271"><!-- l3d33a1 -->
+            <head xml:id="alalal-f17271-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-f17271-Hd1e101" type="question-title">De numero virtutum cardinalium.</head>
+            <p xml:id="alalal-f17271-d1e104">
+               <lb ed="Bd" n="38"/>ARTICULUS 1.
+<lb ed="Bd" n="39"/>De numero virtutum cardinalium.
+</p>
+            <p xml:id="alalal-f17271-d1e111">
+               <lb ed="Bd" n="40"/>Ad primum potest objici sic :
+<lb ed="Bd" n="41"/>1. Dicit Augustinus, quod <quote xml:id="alalal-f17271-Qd1e117"> virtus est
+<lb ed="Bd" n="42"/>ordo amoris vel ordinatus amor. </quote> Amor
+<lb ed="Bd" n="43"/>autem ordinatus non est nisi unus. Ergo
+<lb ed="Bd" n="44"/>videtur, quod non sit virtus nisi una.
+</p>
+            <p xml:id="alalal-f17271-d1e127">
+               <lb ed="Bd" n="45"/>2. Item, Si unum sufficit In natura,
+<lb ed="Bd" n="46"/>ipsa natura non quaerit plura, quia 
+me<lb break="no" ed="Bd" n="47"/>lius est fucere per unum et nobilius,
+<lb ed="Bd" n="48"/>quam per plura: sed charitas sufficit ad
+<lb ed="Bd" n="49"/>omne bonum: ergo videtur, quod alii
+<lb ed="Bd" n="50"/>habitus supertfluant.
+</p>
+            <p xml:id="alalal-f17271-d1e144">
+               <lb ed="Bd" n="51"/>3. Item, Non sunt nisi duo, scilicet
+<pb ed="#Bd" n="606"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>finis, et id quod est ad finem : ergo 
+vide<lb break="no" ed="Bd" n="2"/>tur, quod penes ista duo non deberent
+<lb ed="Bd" n="3"/>esse nisi due virtutes.
+</p>
+            <p xml:id="alalal-f17271-d1e160">
+               <lb ed="Bd" n="4"/>4. Item, Nos videmus in arte, quod in
+<lb ed="Bd" n="5"/>eodem opere non est una ars docens, et
+<lb ed="Bd" n="6"/>alia exsequens, sed una et eadem exsc=
+<lb ed="Bd" n="7"/>quens et docens operari: ergo videtur,
+<lb ed="Bd" n="8"/>quod cum virtus sit certior arte, quod
+<lb ed="Bd" n="9"/>nulla virtus debeat esse ut docens, et
+<lb ed="Bd" n="10"/>alia ut exsequens: ergo videtur, quod
+<lb ed="Bd" n="11"/>prudentia non sit virtus.
+</p>
+            <p xml:id="alalal-f17271-d1e180">
+               <lb ed="Bd" n="12"/>5. Item, Non sunt nisi tres potentie
+<lb ed="Bd" n="13"/>motive perfectibiles ad opus, scilicet 
+ra<lb break="no" ed="Bd" n="14"/>tionalis, concupiscibilis, et irascibilis
+<lb ed="Bd" n="15"/>ergo non debent esse nisi tres habitus
+<lb ed="Bd" n="16"/>perficientes, et sic iterum relinquitur,
+<lb ed="Bd" n="17"/>quod non sunt nisi tres virtutes.
+</p>
+            <p xml:id="alalal-f17271-d1e196">
+               <lb ed="Bd" n="18"/>6. Sed adhuc videtur, quod virtutum
+<lb ed="Bd" n="19"/>numerus sit diminutus: habeus enim
+<lb ed="Bd" n="20"/>quamdam virtutem ordinantem in 
+dile<lb break="no" ed="Bd" n="21"/>ctabili innato, quae esttemperantia, et in
+<lb ed="Bd" n="22"/>passione illata difficili, quae est fortitudo:
+<lb ed="Bd" n="23"/>sunt autem multa alia quibus ordinatur
+<lb ed="Bd" n="24"/>homo in se sicut ista: ergo videtur,
+<lb ed="Bd" n="25"/>quod penes illa accipiend@ sunt virtutes,
+<lb ed="Bd" n="26"/>sicut est delectatio doctrine, et delectatio
+<lb ed="Bd" n="27"/>honoris, et hujusmodi: ergo numerus
+<lb ed="Bd" n="28"/>est diminutus.
+</p>
+            <p xml:id="alalal-f17271-d1e222">
+               <lb ed="Bd" n="29"/>7. Item, Secundum philosophiam 
+Ari<lb break="no" ed="Bd" n="30"/>stotelis, non est virtus quae castitas 
+dici<lb break="no" ed="Bd" n="31"/>tur, nisi in delectabili tactus : cum ergo
+<lb ed="Bd" n="32"/>alii sensus habeant sua delectabilia sicut
+<lb ed="Bd" n="33"/>tactus, videtur quod debeant habere 
+vir<lb break="no" ed="Bd" n="34"/>tutes ordinantes. Quod autem verum sit
+<lb ed="Bd" n="35"/>illud Artstotelem intendere et dicere, 
+pa<lb break="no" ed="Bd" n="36"/>tet ex ilhus verbisinlibro IV Athicorum,
+<lb ed="Bd" n="37"/>ubi dicit : <quote xml:id="alalal-f17271-Qd1e243"> Videntur autem et cetera
+<lb ed="Bd" n="38"/>animalia parum vel nihil uti gustu. 
+Gu<lb break="no" ed="Bd" n="39"/>stus enim indicium est saporis, quod 
+fa<lb break="no" ed="Bd" n="40"/>ciunt hi qui vina probant, et pulmenta,
+<lb ed="Bd" n="41"/>vel pigmenta : non autem multum 
+letan<lb break="no" ed="Bd" n="42"/>tur hujusmodi, sed non incontinentes,
+<lb ed="Bd" n="43"/>sed usu qui fit totaliter per tactum in 
+ci<lb break="no" ed="Bd" n="44"/>bis et potibus et in venereis et in aliis
+<lb ed="Bd" n="45"/>actibus. </quote> Ergo patet quod dictum est :
+<lb ed="Bd" n="46"/>el eodem modo exponit Commentator.
+</p>
+            <p xml:id="alalal-f17271-d1e266">
+               <lb ed="Bd" n="47"/>8. Item, Fortitudo secundum eumdem
+<lb ed="Bd" n="48"/>Philosophum non est nisi in 
+contristan<lb break="no" ed="Bd" n="49"/>tibus damnis illatis, non circa quamlibet
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>mortem, sed circa eam quae est in bello
+<lb ed="Bd" n="51"/>et gratia boni. Cum ergo sint multa alia
+<lb ed="Bd" n="52"/>difficilia, ut confessio, et infirmitas, et
+<lb ed="Bd" n="53"/>paupertas, videtur quod debuimus hp.
+<lb ed="Bd" n="54"/>bere virtutes in his dirigentes : et Non
+<lb ed="Bd" n="55"/>habemus : ergo diminutus est numerys
+<lb ed="Bd" n="56"/>virtutum, ut videtur.
+</p>
+            <p xml:id="alalal-f17271-d1e293">
+               <lb ed="Bd" n="57"/>9. Item, Ad proximum contingit ho.
+<lb ed="Bd" n="58"/>minem multis modis ordinari preeter pa,
+<lb ed="Bd" n="59"/>tiones debiti : ergo secundum illa virty.
+<lb ed="Bd" n="60"/>tes esse deberent : etnon ponuntur : ergo
+<lb ed="Bd" n="61"/>numerus est diminutus.
+</p>
+            <p xml:id="alalal-f17271-d1e306">
+               <lb ed="Bd" n="62"/>10. Item, Videtur quod non sunt ills
+<lb ed="Bd" n="63"/>quatuor quas ponit ipse hic : quia, Mar.
+<lb ed="Bd" n="64"/>ci, vitl, 9, super illud: Erant autem qui
+<lb ed="Bd" n="65"/>manducaverant quasi quatuor millia,
+<lb ed="Bd" n="66"/>dicit Glossa : <quote xml:id="alalal-f17271-Qd1e319"> Per quatuor millia, qua~
+<lb ed="Bd" n="67"/>tuor virtutes significantur, scilicet 
+pru<lb break="no" ed="Bd" n="68"/>dentia, temperantia, et fortitudo, et 
+quar<lb break="no" ed="Bd" n="69"/>ta quae per omnes se diffundit, dilectio
+<lb ed="Bd" n="70"/>Dei et proximi: </quote> ergo videtur, quod 
+di<lb break="no" ed="Bd" n="71"/>lectio Dei et proximi sit una 
+cardina<lb break="no" ed="Bd" n="72"/>lium.
+</p>
+            <p xml:id="alalal-f17271-d1e335">
+               <lb ed="Bd" n="73"/>11. Item, Matth. v, 6, super illud:
+<lb ed="Bd" n="74"/>Beati guiesuriunt et sitiunt pustitiam,
+<lb ed="Bd" n="75"/>Glossa: <quote xml:id="alalal-f17271-Qd1e343"> Esurire et sitire propter 
+justi<lb break="no" ed="Bd" n="76"/>tiam, est habere amorem boni. </quote> Ergo
+<lb ed="Bd" n="77"/>videtur, quod aut charitas sit 
+cardina<lb break="no" ed="Bd" n="78"/>lium una, autidem sit charitas quod 
+ju<lb break="no" ed="Bd" n="79"/>stitia.
+</p>
+            <p xml:id="alalal-f17271-d1e356">
+               <lb ed="Bd" n="80"/>Solutio Dicendum, quod quatuor 
+vir<lb break="no" ed="Bd" n="81"/>tutes sunt cardinales. Et multi hic multas
+<lb ed="Bd" n="82"/>fecerunt hujus assignationes : sed una est
+<lb ed="Bd" n="83"/>substantialis. Constat enim, quod virtus
+<lb ed="Bd" n="84"/>civilis est quae pertinet ad bonum statum
+<lb ed="Bd" n="85"/>civilatis, Ad bonum autem statum ¢
+l<lb break="no" ed="Bd" n="86"/>vium duo exiguntur, scilicet habitus per
+<lb ed="Bd" n="87"/>rationem determinans rectum ad opera,
+<lb ed="Bd" n="88"/>et hic habitus operativus, quia scientia
+<lb ed="Bd" n="89"/>nihil vel parum prodest : et hic habitus
+<lb ed="Bd" n="90"/>est prudentia :; et ideo prudentia 
+secun<lb break="no" ed="Bd" n="91"/>dum Augustinum, sagaciter eligit ea 
+qui<lb break="no" ed="Bd" n="92"/>bus juvatur, ab his a quibus impeditur.
+<lb ed="Bd" n="93"/>Secundum autem quod exigitur, est bene
+<lb ed="Bd" n="94"/>se habere in difficili et optime, circa
+<lb ed="Bd" n="95"/>quod est omnis virtus, quoniam in facili
+<lb ed="Bd" n="96"/>non indiget homo regente habitu, 
+quo<lb break="no" ed="Bd" n="97"/>niam in illo ipse sibi sufficit. Bene autem
+<pb ed="#Bd" n="607"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>se habere contingit in se et in alterum
+<lb ed="Bd" n="2"/>secundum ordinem recte rationis. Ad
+<lb ed="Bd" n="3"/>alterum quidem secundum debiti 
+ratio<lb break="no" ed="Bd" n="4"/>nem : quia alia ratio se habendi ad aliud
+<lb ed="Bd" n="5"/>non capit ordinem juris, et tune justitia
+<lb ed="Bd" n="6"/>est habilus regens. In se autem contingit
+<lb ed="Bd" n="7"/>pene habere se in duplici difficili, scilicet
+<lb ed="Bd" n="8"/>in delectabilt innato contemporanco vite
+<lb ed="Bd" n="9"/>secundum tactum, ut gustu secundum
+<lb ed="Bd" n="10"/>quod est tactus, et venereis: et sic habi.
+<lb ed="Bd" n="11"/>tus regens est femperantia. Aut in difficili
+<lb ed="Bd" n="12"/>ato ab extra, ut periculum belli quod
+<lb ed="Bd" n="13"/>queerit subversionem boni civiuim, sicut
+<lb ed="Bd" n="14"/>est justitia, fides, vel libertas, vel aliquid
+<lb ed="Bd" n="15"/>hujusmodi: et tunc habitus regens est
+<lb ed="Bd" n="16"/>fortitudo. Et isto modo multiplicantur
+<lb ed="Bd" n="17"/>virtutes secundum considerationem 
+phi<lb break="no" ed="Bd" n="18"/>losophicam.
+</p>
+            <p xml:id="alalal-f17271-d1e441">
+               <lb ed="Bd" n="19"/>Ad pRiMuM ergo dicendum, quod amor
+<lb ed="Bd" n="20"/>secundum quod cadit in diffinitione 
+vir<lb break="no" ed="Bd" n="21"/>tulis, ut quidam dicunt, non est habitus
+<lb ed="Bd" n="22"/>charitatis, sed potius generalis amor,
+<lb ed="Bd" n="23"/>quo omme quod est amat suam 
+perfe<lb break="no" ed="Bd" n="24"/>cionem. Alii intendunt dicere, quod est
+<lb ed="Bd" n="25"/>charitas: et tune non est verum nisi de
+<lb ed="Bd" n="26"/>virtute forinata, et non informi: et 
+cha<lb break="no" ed="Bd" n="27"/>rilas tunc est in eis sicut forma 
+genera<lb break="no" ed="Bd" n="28"/>lis. Sicut enim bonum simpliciter est in
+<lb ed="Bd" n="29"/>bono quodam hoc vel illo : ita amor
+<lb ed="Bd" n="30"/>bont simpliciter, erit in amore hujus vel
+<lb ed="Bd" n="31"/>ulus boni, sicut diximus in precedenti
+<lb ed="Bd" n="32"/>distinctione : et hoc tune non excludit
+<lb ed="Bd" n="33"/>esse plurium virtutum, sicut immediata
+<lb ed="Bd" n="34"/>distinctione ostensum est.
+</p>
+            <p xml:id="alalal-f17271-d1e478">
+               <lb ed="Bd" n="35"/>Ad aliud dicendum, quod unum non
+<lb ed="Bd" n="36"/>sufficit ad omnes actus secundum 
+spe<lb break="no" ed="Bd" n="37"/>ciale esse operum, sed unum. sufficit
+<lb ed="Bd" n="38"/>sicut motor et agens generale. Sic calor
+<lb ed="Bd" n="39"/>se habet ad sensus, et calor solis ad 
+ge<lb break="no" ed="Bd" n="40"/>nerabilia : et hoc etiam ante invenies
+<lb ed="Bd" n="41"/>qualiter intelligitur.
+</p>
+            <p xml:id="alalal-f17271-d1e497">
+               <lb ed="Bd" n="42"/>Ad aliud dicendum, quod verum est,
+<lb ed="Bd" n="43"/>quod duo sunt in genere, sed speciales
+<lb ed="Bd" n="44"/>differenti sunt utriusque eorum : et
+<lb ed="Bd" n="45"/>ideo penes finem accipiuntur tres 
+virtu<lb break="no" ed="Bd" n="46"/>tes theologice, et harum diffinitio supra
+<lb ed="Bd" n="47"/>tacta est.
+</p>
+            <p xml:id="alalal-f17271-d1e513">
+               <lb ed="Bd" n="48"/>Penes id autem quod est ad finem,
+<lb ed="Bd" n="49"/>sunt accepte cardinales sic : Id quod est
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>ad finem : aut est secundum rationem
+<lb ed="Bd" n="51"/>qua ordinat ad finem et bonum : aut
+<lb ed="Bd" n="52"/>bonum finis aliquo modo relucet in eo
+<lb ed="Bd" n="53"/>secundum honesti diffinitionem : quia
+<lb ed="Bd" n="54"/>circa illud solum est virtus. Si primo
+<lb ed="Bd" n="55"/>modo : tune illam rationem considerat
+<lb ed="Bd" n="56"/>prudentia, quia illa ratio est juvans 
+dis<lb break="no" ed="Bd" n="57"/>creta ab eo quod impedit in opere bono.
+<lb ed="Bd" n="58"/>Si autem est bonum quod est finis 
+relu<lb break="no" ed="Bd" n="59"/>cens in ipso : aut est secundum ordinem
+<lb ed="Bd" n="60"/>unius ad alterum, et tunc secundum 
+ip<lb break="no" ed="Bd" n="61"/>sum est sustifia : aul in unoquoque per
+<lb ed="Bd" n="62"/>se : et tunc aut est secundum innata, vel
+<lb ed="Bd" n="63"/>illata : et primo modo est temperantia,
+<lb ed="Bd" n="64"/>secunde modo /ortitudo.
+</p>
+            <p xml:id="alalal-f17271-d1e555">
+               <lb ed="Bd" n="65"/>Ad aliud dicendum, quod ars 
+opera<lb break="no" ed="Bd" n="66"/>tiva per instrumentum, educit formam
+<lb ed="Bd" n="67"/>que est in se, in materia quae est extra
+<lb ed="Bd" n="68"/>se : et ideo preparatio et virtus 
+prepara<lb break="no" ed="Bd" n="69"/>tiva et inductiva forme debet esse extra
+<lb ed="Bd" n="70"/>in ligno et lapide, sed in ethicis habitus
+<lb ed="Bd" n="71"/>nascuntur in operante : et ideo 
+relinqui<lb break="no" ed="Bd" n="72"/>tur ex talibus operationibus talis 
+habi<lb break="no" ed="Bd" n="73"/>tus : et ideo non sufficit in virtute, quod
+<lb ed="Bd" n="74"/>sufficit in scientia : sed si ars induceret
+<lb ed="Bd" n="75"/>formam in ipso artifice, tunc esset simile
+<lb ed="Bd" n="76"/>quod proponitur, sicut opus virtutis 
+in<lb break="no" ed="Bd" n="77"/>ducit formam in ipso operante 
+secun<lb break="no" ed="Bd" n="78"/>dum virtutem.
+</p>
+            <p xml:id="alalal-f17271-d1e588">
+               <lb ed="Bd" n="79"/>Ad aliud dicendum, quod licet non
+<lb ed="Bd" n="80"/>sint nisi tres potenti#, una tamen habet
+<lb ed="Bd" n="81"/>se dupliciter, scilicet ratio, scilicel ut
+<lb ed="Bd" n="82"/>regens alias, et sic in ea est 
+pruden<lb break="no" ed="Bd" n="83"/>tia : vel ut ordinans nos invicem ad
+<lb ed="Bd" n="84"/>alios, et sic in ea est gustitia. In 
+concu<lb break="no" ed="Bd" n="85"/>piscibil: autem ¢emperantia, et in 
+irasci<lb break="no" ed="Bd" n="86"/>bil foertitudo. Et sic jam habite sunt
+<lb ed="Bd" n="87"/>tres multiplicationes harum quatuor 
+vir<lb break="no" ed="Bd" n="88"/>tutum.
+</p>
+            <p xml:id="alalal-f17271-d1e612">
+               <lb ed="Bd" n="89"/>Av Arup dicendum, quod aliter 
+at<lb break="no" ed="Bd" n="90"/>tenditur virtus secundum Aristotelem, et
+<lb ed="Bd" n="91"/>aliter secundum Tullium in Ahetoricis,
+<lb ed="Bd" n="92"/>et in libro de Offictis. Quoniam 
+Aristo<lb break="no" ed="Bd" n="93"/>leles non accipit virtutem nisi secundum
+<lb ed="Bd" n="94"/>quod est in difficili et optimo secundum
+<lb ed="Bd" n="95"/>materiam tlam in qua est virtus : et
+<lb ed="Bd" n="96"/>ideo non dicit esse virtules in doctrinae
+<lb ed="Bd" n="97"/>amore, et honoris amore. Alti autem
+<lb ed="Bd" n="98"/>ponunt virtutes penes illa, et reducunt
+<pb ed="#Bd" n="608"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>eas ad temperantiam. Tamen etiam 
+se<lb break="no" ed="Bd" n="2"/>cundum Aristotelem virtus est in uno
+<lb ed="Bd" n="3"/>sicut in quo habet summum slatum, et
+<lb ed="Bd" n="4"/>a quo diffinitur, et alio bene utitur :
+<lb ed="Bd" n="5"/>sicut ipse dicit de forti qui non est circa
+<lb ed="Bd" n="6"/>quodeumque difficile fortunae vel 
+pericu<lb break="no" ed="Bd" n="7"/>li ex naturali morte, tamen bene utitur
+<lb ed="Bd" n="8"/>illis fortis per eumdem habitum per
+<lb ed="Bd" n="9"/>quem aggreditur pericala illata. Et 
+pos<lb break="no" ed="Bd" n="10"/>sumus dicere secundum Aristotelem,
+<lb ed="Bd" n="11"/>quod temperantia in maximo et 
+secun<lb break="no" ed="Bd" n="12"/>dum maximum suum posse est in 
+dele<lb break="no" ed="Bd" n="13"/>clabil: tactus secundum alimentum, et
+<lb ed="Bd" n="14"/>venereis : sed tamen bene se habet in
+<lb ed="Bd" n="15"/>aliis delectabilibus innatis secundum
+<lb ed="Bd" n="16"/>eumdem habitum : et hoc consonat 
+di<lb break="no" ed="Bd" n="17"/>clis Aristotclis in mullis locis 
+Athico<lb break="no" ed="Bd" n="18"/>rum: sicut patet diligenter inspicientibus
+<lb ed="Bd" n="19"/>in hbro illo.
+</p>
+            <p xml:id="alalal-f17271-d1e682">
+               <lb ed="Bd" n="20"/>Per idem patet solutio ad id quod 
+ob<lb break="no" ed="Bd" n="21"/>jicitur de fortitudine.
+</p>
+            <p xml:id="alalal-f17271-d1e690">
+               <lb ed="Bd" n="22"/>Ad aliud dicendum, quod ad alium
+<lb ed="Bd" n="23"/>multis modis ordo est: sed ordo cadens
+<lb ed="Bd" n="24"/>sub ratione civilitatis, est ordo juris et
+<lb ed="Bd" n="25"/>debiti. In aliis enim contingit se 
+exhibe<lb break="no" ed="Bd" n="26"/>re proximo et non exhibere prater 
+re<lb break="no" ed="Bd" n="27"/>prehensionem legislatoris : et ideo penes
+<lb ed="Bd" n="28"/>illos ordines nulla accipitur virtus 
+civi<lb break="no" ed="Bd" n="29"/>lis, nec etiam potest accipi. Sed forte
+<lb ed="Bd" n="30"/>Species justitiae accipiuntur secundum
+<lb ed="Bd" n="31"/>speciales rationes debiti quod 
+multiplica<lb break="no" ed="Bd" n="32"/>tur ex ratione nature, ut in justitia 
+na<lb break="no" ed="Bd" n="33"/>turali : et ex ratione contractuum, et ex
+<lb ed="Bd" n="34"/>ratione status et beneficii et conditionis,
+<lb ed="Bd" n="35"/>sicut multipliciter determinat de justitia
+<lb ed="Bd" n="36"/>Philosophus in /thicis in libro de 
+justi<lb break="no" ed="Bd" n="37"/>tia, et Tullius multas ponit species 
+justi<lb break="no" ed="Bd" n="38"/>tiae naturalis et positive.
+</p>
+            <p xml:id="alalal-f17271-d1e729">
+               <lb ed="Bd" n="39"/>Ad aliud dicendum, quod non sunt
+<lb ed="Bd" n="40"/>iste dua virtutes civiles condistincte
+<lb ed="Bd" n="41"/>inter se et cardinales, scilicet justitia, et
+<lb ed="Bd" n="42"/>dileclio Dei et proximi : et quod dicit
+<lb ed="Bd" n="43"/>Glossa super Mattheum non intendit,
+<lb ed="Bd" n="44"/>quod charitas sit virtus civilis, sed 
+po<lb break="no" ed="Bd" n="45"/>tius quod ordinet justitiam ad proximum
+<lb ed="Bd" n="46"/>et Deum, ut ex amore faciat id quod ex
+<lb ed="Bd" n="47"/>debito tenetur facere.
+</p>
+            <p xml:id="alalal-f17271-d1e751">
+               <lb ed="Bd" n="48"/>Ad aliud dicendum, quod intendit,
+<lb ed="Bd" n="49"/>quod justilia secundum quod est merito-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>ria, movetur amore, et non quod amop
+<lb ed="Bd" n="51"/>sit virtus civilis. Tamen nota, quod yj.
+<lb ed="Bd" n="52"/>detur Aristoteles alum modum habere .
+<lb ed="Bd" n="53"/>quoniam ipse videtur velle, quod virtus
+<lb ed="Bd" n="54"/>que est in uno et consuctudinalis, git
+<lb ed="Bd" n="55"/>triplex, scilicet secundum difficile ex dy.
+<lb ed="Bd" n="56"/>lectatione innata, in quo regit castitas
+<lb ed="Bd" n="57"/>vel lemperantia, et secundum difficile
+<lb ed="Bd" n="58"/>illati, in quo regit fortitudo, et secundum
+<lb ed="Bd" n="59"/>difficile quod est in eo quod habemus ad
+<lb ed="Bd" n="60"/>usum et sustentationem vite, et 
+virty<lb break="no" ed="Bd" n="61"/>tem quae regit in hoc vocat largitatem,
+<lb ed="Bd" n="62"/>et facit de ea tractatum specialem. Intel.
+<lb ed="Bd" n="63"/>Iectualis autem virtus, ut ipse dicit, non
+<lb ed="Bd" n="64"/>habet medium hoc modo, sed inest gj
+<lb ed="Bd" n="65"/>ratio recta per medium, sicut prudentiq
+<lb ed="Bd" n="66"/>cum suis, qu secundum eum sunt
+<lb ed="Bd" n="67"/>ecévnor, scientia, et intelligentia, et 
+hu<lb break="no" ed="Bd" n="68"/>jusmodi. Jusfiéia autem quoniam non
+<lb ed="Bd" n="69"/>sunpliciter dicitur, alterius ordinis est:
+<lb ed="Bd" n="70"/>quoniam illa cadit sub ordine juris 
+civi<lb break="no" ed="Bd" n="71"/>lis, scilicet secundum statuta et 
+plebisci<lb break="no" ed="Bd" n="72"/>ta, et variantur casus in ipsa : et ideo illa
+<lb ed="Bd" n="73"/>respicit ordinem communis civitatis : et
+<lb ed="Bd" n="74"/>hune ordinem videtur Aristoteles tenere
+<lb ed="Bd" n="75"/>in £thicis, sicut plane patet in nova
+<lb ed="Bd" n="76"/>translatione.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

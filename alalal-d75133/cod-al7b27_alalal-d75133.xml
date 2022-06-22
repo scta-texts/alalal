@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 16</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 16</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="421"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d75133"><!-- l2d24a16 -->
+            <head xml:id="alalal-d75133-Hd1e99">Articulus 16</head>
+            <head xml:id="alalal-d75133-Hd1e101" type="question-title">Quare inferior portio dicitur 
+sensualitas ?</head>
+            <p xml:id="alalal-d75133-d1e104">
+               <pb ed="#Bc" n="421"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS XVI.
+<lb ed="#Bc" n="2"/>Quare inferior portio dicitur 
+sensua<lb break="no" ed="#Bc" n="3"/>litas ?
+</p>
+            <p xml:id="alalal-d75133-d1e117">
+               <lb ed="#Bc" n="4"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="5"/>ibi, <quote xml:id="alalal-d75133-Qd1e123"> Non est autem silentio 
+pretereun<lb break="no" ed="#Bc" n="6"/>dum, etc. </quote>
+            </p>
+            <p xml:id="alalal-d75133-d1e129">
+               <lb ed="#Bc" n="7"/>i. Non enim videtur esse ratio, quare
+<lb ed="#Bc" n="8"/>inferior portio sensualitas vocetur, cum
+<lb ed="#Bc" n="9"/>Magister ex verbis Augustini dicat, quod
+<lb ed="#Bc" n="10"/>non est de pecorina, eo quod aliter in
+<lb ed="#Bc" n="11"/>conjugium virl non posset assumi.
+</p>
+            <p xml:id="alalal-d75133-d1e143">
+               <lb ed="#Bc" n="12"/>2. Item, Ipse dixit, quod ex ipso est
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="13"/>traducta, sicut inferius a superiori, cum
+<lb ed="#Bc" n="14"/>quo est ejusdem nature.
+</p>
+            <p xml:id="alalal-d75133-d1e154">
+               <lb ed="#Bc" n="15"/>Sonutio. Dicendum, quod sensualitas
+<lb ed="#Bc" n="16"/>potest dici a sensualitate nature, vel a
+<lb ed="#Bc" n="17"/>sensualitate objecti, vel utroque modo
+<lb ed="#Bc" n="18"/>simul. Primo modo non convenit 
+infe<lb break="no" ed="#Bc" n="19"/>riori portioni rationis : quia ipsa non est
+<lb ed="#Bc" n="20"/>sensibilis nature, sed spiritualis et 
+ra<lb break="no" ed="#Bc" n="21"/>tionalis. Secundo modo convenit ei :
+<lb ed="#Bc" n="22"/>quia ipsa est operans circa particularia
+<lb ed="#Bc" n="23"/>sensibilia, in quibus est vita nature, 
+li<lb break="no" ed="#Bc" n="24"/>cet disponat ea secundum rationes non
+<lb ed="#Bc" n="25"/>sensibiles, sed abstractas, quae sunt 
+ra<lb break="no" ed="#Bc" n="26"/>tiones honesti, et boni civilis, ut prius
+<lb ed="#Bc" n="27"/>habitum est. Tertio modo iterum non
+<lb ed="#Bc" n="28"/>convenit ei, sed sensualitati tantum : et
+<lb ed="#Bc" n="29"/>per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

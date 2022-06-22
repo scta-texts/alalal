@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="520"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j07882"><!-- l4d43a11 -->
+            <head xml:id="alalal-j07882-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-j07882-Hd1e101" type="question-title">An omnia peccata vel quaedam contineant
+libri ?</head>
+            <p xml:id="alalal-j07882-d1e104">
+               <lb ed="#Bf" n="51"/>ARTICULUS XI.
+<lb ed="#Bf" n="52"/>An omnia peccata vel quaedam contineant
+<lb ed="#Bf" n="53"/>libri ?
+</p>
+            <p xml:id="alalal-j07882-d1e113">
+               <lb ed="#Bf" n="54"/>Secundo queritur, Utrum omnia 
+pec<lb break="no" ed="#Bf" n="55"/>cata vel quaedam contineant libri illi ?
+</p>
+            <p xml:id="alalal-j07882-d1e120">
+               <lb ed="#Bf" n="56"/>Videtur, quod non omnia : quia
+<lb ed="#Bf" n="57"/>1. Omne quod cordi revocatur, aut
+<lb ed="#Bf" n="58"/>per sensum novum accipitur, aut ex 
+me<lb break="no" ed="#Bf" n="59"/>moria sicut ex thesauro formatum 
+edu<lb break="no" ed="#Bf" n="60"/>citur : sed neutro istorum modorum 
+om<lb break="no" ed="#Bf" n="61"/>nia peccata veniunt ad corda 
+judicando<lb break="no" ed="#Bf" n="62"/>rum: ergo videtur, quod non omnia
+<lb ed="#Bf" n="63"/>peccata ibi manifestabuntur. Prima patet
+<lb ed="#Bf" n="64"/>per se. Secunpa autem probatur : quia
+<lb ed="#Bf" n="65"/>non est nisi duplex via cognitionis, ut
+<lb ed="#Bf" n="66"/>dicunt Philosophi, scilicet recta quae est
+<lb ed="#Bf" n="67"/>per sensus, et reflexa quae est ex 
+memo<lb break="no" ed="#Bf" n="68"/>ria : sed neutro modo omnia adsunt 
+pec<lb break="no" ed="#Bf" n="69"/>cata.
+</p>
+            <p xml:id="alalal-j07882-d1e154">
+               <lb ed="#Bf" n="70"/>2. Item, Jerem. xvu,9: <quote xml:id="alalal-j07882-Qd1e158">Pravum est
+<lb ed="#Bf" n="71"/>cor omnium, et inscrutabile, quis 
+cogno<lb break="no" ed="#Bf" n="72"/>scet illud ?</quote> Ergo ibi in toto agnosci non
+<lb ed="#Bf" n="73"/>potest : ergo non omnia manifestabit ibi_
+<lb ed="#Bf" n="74"/>cor.
+</p>
+            <p xml:id="alalal-j07882-d1e170">
+               <lb ed="#Bf" n="75"/>3. Item, Judicis in judicio sedentis
+<lb ed="#Bf" n="76"/>non est detegere id quod est occultum :
+<lb ed="#Bf" n="77"/>cum ergo ille sit equissimus judex, non
+<lb ed="#Bf" n="78"/>deteget aliquid occultum: ergo corda
+<lb ed="#Bf" n="79"/>non manifestabunt peccata, nisi ea quae
+<lb ed="#Bf" n="80"/>sunt manifesta.
+</p>
+            <p xml:id="alalal-j07882-d1e186">
+               <lb ed="#Bf" n="81"/>4. Item, Multa peccatorum peenitentia
+<lb ed="#Bf" n="82"/>delevit, etiamsi non fuit finalis cum 
+per<lb break="no" ed="#Bf" n="83"/>severantia, quia omnis vera pcenitentia
+<lb ed="#Bf" n="84"/>delet peccata: ergo videtur cum illa
+<lb ed="#Bf" n="85"/>sint deleta reatu et actu, quod tunc non
+<lb ed="#Bf" n="86"/>manifestabuntur: ergo non omnia 
+pec<lb break="no" ed="#Bf" n="87"/>cata manifestabit cor.
+</p>
+            <p xml:id="alalal-j07882-d1e204">
+               <lb ed="#Bf" n="88"/>In contrarium hujus est, quod
+<lb ed="#Bf" n="89"/>1. Omne peccatum accipiet justam
+<lb ed="#Bf" n="90"/>suae deformitatis condemnationem : sed
+<pb ed="#Bf" n="521"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>nihil universaliter condemnatur, nisi in
+<lb ed="#Bf" n="2"/>judicio manifestum: ergo omne 
+pecca<lb break="no" ed="#Bf" n="3"/>tum erit in judicio manifestum.
+</p>
+            <p xml:id="alalal-j07882-d1e224">
+               <lb ed="#Bf" n="4"/>2. Item, II ad Corinth. v, 10: <quote xml:id="alalal-j07882-Qd1e228">Omnes
+<lb ed="#Bf" n="5"/>nos manifestari oportet ante tribunal
+<lb ed="#Bf" n="6"/>Christi</quote>, etc. Ergo omnia peccata nostra
+<lb ed="#Bf" n="7"/>ibi patebunt.
+</p>
+            <p xml:id="alalal-j07882-d1e238">
+               <lb ed="#Bf" n="8"/>Responsio. Hoc ultimum 
+conceden<lb break="no" ed="#Bf" n="9"/>dum est, scilicet quod omnia ibi 
+pate<lb break="no" ed="#Bf" n="10"/>bunt peccata: sed quae sunt per 
+poeni<lb break="no" ed="#Bf" n="11"/>tentiam deleta, non sunt peccata: et
+<lb ed="#Bf" n="12"/>ideo ibi illa ad conscientiam ut 
+judican<lb break="no" ed="#Bf" n="13"/>da non reyocantur, licet forte revocentur
+<lb ed="#Bf" n="14"/>ad participandam ingratitudinis 
+quantita<lb break="no" ed="#Bf" n="15"/>tem, scilicet ex quanto dono cecidit, ut
+<lb ed="#Bf" n="16"/>propter sequens, peccatum acrius 
+punia<lb break="no" ed="#Bf" n="17"/>tur.
+</p>
+            <p xml:id="alalal-j07882-d1e263">
+               <lb ed="#Bf" n="18"/>Et per hoc patet solutio ad ultimum.
+<lb ed="#Bf" n="19"/>Ad primum dicendum, quod si ibi est
+<lb ed="#Bf" n="20"/>nota peccati quae est reatus, informabitur
+<lb ed="#Bf" n="21"/>cor ad noscendum peccatum alii 
+mani<lb break="no" ed="#Bf" n="22"/>festandum.
+</p>
+            <p xml:id="alalal-j07882-d1e276">
+               <lb ed="#Bf" n="23"/>Ad aliud dicendum, quod non potest
+<lb ed="#Bf" n="24"/>modo cognosci: sed tunc divina virtute
+<lb ed="#Bf" n="25"/>cognoscetur ad majorem confusionem, et
+<lb ed="#Bf" n="26"/>justitia divine commendabilitatem.
+</p>
+            <p xml:id="alalal-j07882-d1e287">
+               <lb ed="#Bf" n="27"/>Ad aliud dicendum, quod hoc verum
+<lb ed="#Bf" n="28"/>est, ubi testis est extra de facie: sed ubi
+<lb ed="#Bf" n="29"/>testis est intra, cujus statur testimonio,
+<lb ed="#Bf" n="30"/>tunc judicis (quando dat sententiam) est
+<lb ed="#Bf" n="31"/>manifestare dicta testium, ut justa 
+appa<lb break="no" ed="#Bf" n="32"/>reat sententia: et ita Dei .est ostendere
+<lb ed="#Bf" n="33"/>interiora dicta testium, scilicet 
+conscien<lb break="no" ed="#Bf" n="34"/>flarum accusantium, aut etiam 
+defen<lb break="no" ed="#Bf" n="35"/>dentium.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

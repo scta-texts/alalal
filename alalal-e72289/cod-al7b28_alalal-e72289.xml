@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="381"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e72289"><!-- l3d21a4 -->
+            <head xml:id="alalal-e72289-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-e72289-Hd1e101" type="question-title">An potest dici, quod Christus sit passus,
+et non passus mortuus, et non 
+mortuus ?</head>
+            <p xml:id="alalal-e72289-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="24"/>ARTICULUS IV.
+<lb ed="Bd" n="25"/>An potest dici, quod Christus sit passus,
+<lb ed="Bd" n="26"/>et non passus mortuus, et non 
+mor<lb break="no" ed="Bd" n="27"/>tuus ?
+</p>
+            <p xml:id="alalal-e72289-d1e117">
+               <lb ed="Bd" n="28"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="29"/>ibi, D, circa finem <quote xml:id="alalal-e72289-Qd1e123"> Sane ergo dici
+<cb ed="#Bd" n="c"/>
+                  <lb ed="Bd" n="30"/>potest, quod mortuus est Deus, et non
+<lb ed="Bd" n="31"/>mortuus, etc. </quote>
+            </p>
+            <p xml:id="alalal-e72289-d1e133">
+               <lb ed="Bd" n="32"/>Hoc enim videtur falsum : quia sic
+<lb ed="Bd" n="33"/>contradictoria verificantur de eodem,
+<lb ed="Bd" n="34"/>quod numquam potest esse, eo quod 
+di<lb break="no" ed="Bd" n="35"/>cit Philosophus : De quolibet affirmatio
+<lb ed="Bd" n="36"/>vel negatio est vera : de nullo vero 
+si<lb break="no" ed="Bd" n="37"/>mul.
+</p>
+            <p xml:id="alalal-e72289-d1e150">
+               <lb ed="Bd" n="38"/>Item, Augustinus : <quote xml:id="alalal-e72289-Qd1e154"> Talis illa fuit 
+sus<lb break="no" ed="Bd" n="39"/>ceptio, quae Deum faceret hominem, et
+<lb ed="Bd" n="40"/>hominem Deum : et omnia quae vera
+<lb ed="Bd" n="41"/>sunt de homine, esse vera de Deo : </quote> sed
+<lb ed="Bd" n="42"/>de homine verum est eum esse mortuum :
+<pb ed="#Bd" n="382"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ergo de Deo verum est eum esse 
+mor<lb break="no" ed="Bd" n="2"/>tuum : ergo Deus et homo mortuus est.
+</p>
+            <p xml:id="alalal-e72289-d1e175">
+               <lb ed="Bd" n="3"/>SED CONTRA :
+<lb ed="Bd" n="4"/>Christum esse mortuum est articulus
+<lb ed="Bd" n="5"/>fidei : ergo oppositum illius est Christum
+<lb ed="Bd" n="6"/>non esse mortuum : ergo id est hwresis.
+</p>
+            <p xml:id="alalal-e72289-d1e186">
+               <lb ed="Bd" n="7"/>Solutio Dicendum, quod in veritate
+<lb ed="Bd" n="8"/>hujusmodi locutiones non sunt 
+conceden<lb break="no" ed="Bd" n="9"/>de sine determinatione : licet enim 
+con<lb break="no" ed="Bd" n="10"/>cedam, quod Aithiops sit albus secun—
+<lb ed="Bd" n="11"/>dum dentes, et non est albus secundum
+<lb ed="Bd" n="12"/>maxillam : tamen non concedo absolute,
+<lb ed="Bd" n="13"/>quod est albus, et non albus : et preci-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="14"/>pue in Christo: quia esse mortuum, vel
+<lb ed="Bd" n="15"/>passum, vel natum, quando absolute 
+di<lb break="no" ed="Bd" n="16"/>cuntur, referuntur ad personam, et 
+per<lb break="no" ed="Bd" n="17"/>sone non conveniunt. Et ideo licet 
+Ma<lb break="no" ed="Bd" n="18"/>gister ponat hujusmodi locutiones sine
+<lb ed="Bd" n="19"/>determinatione, tamen non sunt 
+intelli<lb break="no" ed="Bd" n="20"/>gende, nec sumende sine 
+determina<lb break="no" ed="Bd" n="21"/>tione : quae determinatio si apponatur, ut
+<lb ed="Bd" n="22"/>est mortuus secundum humanitatem, et
+<lb ed="Bd" n="23"/>non est mortuus secundum divinitatem,
+<lb ed="Bd" n="24"/>patet quod non sunt contradictoria, nec
+<lb ed="Bd" n="25"/>contra fidem.
+</p>
+            <p xml:id="alalal-e72289-d1e232">
+               <lb ed="Bd" n="26"/>Et per hoc patet solutio ad omnia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

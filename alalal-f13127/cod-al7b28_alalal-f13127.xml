@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="582"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f13127"><!-- l3d31a4 -->
+            <head xml:id="alalal-f13127-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-f13127-Hd1e101" type="question-title">Quid est scribe in libro vitae ?</head>
+            <p xml:id="alalal-f13127-d1e104">
+               <lb ed="Bd" n="74"/>ARTICULUS IV.
+<lb ed="Bd" n="75"/>Quid est scribe in libro vitae ?
+</p>
+            <p xml:id="alalal-f13127-d1e111">
+               <lb ed="Bd" n="76"/>Secundo quaeritur, Quid sit scribi in
+<lb ed="Bd" n="77"/>libro vita ?
+</p>
+            <p xml:id="alalal-f13127-d1e118">
+               <lb ed="Bd" n="78"/>Videtur, quod temporaliter aliquid ibi
+<lb ed="Bd" n="79"/>scribatur, quia
+<pb ed="#Bd" n="583"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>i. Dicunt Sancti, quod quoad 
+pre<lb break="no" ed="Bd" n="2"/>sentem justitiam dudas et multi alii ibi
+<lb ed="Bd" n="3"/>scripli fuerunt: justitia autem praesens
+<lb ed="Bd" n="4"/>temporals est: ergo temporaliter ibi
+<lb ed="Bd" n="5"/>aliquid scribitur. .
+</p>
+            <p xml:id="alalal-f13127-d1e141">
+               <lb ed="Bd" n="6"/>2, Item, Si liber vite dicitar, quia ibi
+<lb ed="Bd" n="7"/>scripta ordinant ad vitam gratiae et 
+glo<lb break="no" ed="Bd" n="8"/>re, cum omnis justitia et opus 
+charita<lb break="no" ed="Bd" n="9"/>tis sive prasentis justitiae sive 
+pradesti<lb break="no" ed="Bd" n="10"/>nationis ordinet ad vitam, videtur quod
+<lb ed="Bd" n="11"/>omne temporale bonum opus ibi 
+scri<lb break="no" ed="Bd" n="12"/>patur.
+</p>
+            <p xml:id="alalal-f13127-d1e159">
+               <lb ed="Bd" n="13"/>SED CONTRA:
+<lb ed="Bd" n="14"/>Scribi dicit bri receptionem: Deus
+<lb ed="Bd" n="15"/>autem temporaliter nihil recipit : ergo
+<lb ed="Bd" n="16"/>temporaliter tbi nihil scribitur.
+</p>
+            <p xml:id="alalal-f13127-d1e170">
+               <lb ed="Bd" n="17"/>Solutio Dicendum, quod 
+predestina<lb break="no" ed="Bd" n="18"/>tio accipitur secundum completam 
+signi<lb break="no" ed="Bd" n="19"/>ficationem, et secundum diminutam. In
+<lb ed="Bd" n="20"/>completa autem significalione dicit 
+pra<lb break="no" ed="Bd" n="21"/>parationem grate m presenti, et 
+glo<lb break="no" ed="Bd" n="22"/>rie in faluro: et sic sol: predestinati et
+<lb ed="Bd" n="23"/>bona cis preparata sunt ibi scripta. 
+Se<lb break="no" ed="Bd" n="24"/>cundum incompletam significationem 
+di<lb break="no" ed="Bd" n="25"/>cilur gratia preparatio in presenti dese
+<lb ed="Bd" n="26"/>ordimantis in glonam, sed non 
+prapara<lb break="no" ed="Bd" n="27"/>tionem glorie: et sic omnes justi 1bi
+<lb ed="Bd" n="28"/>seribuntur, et opera bona eorum, quia
+<lb ed="Bd" n="29"/>omnia opera bona Sanctorum sive 
+fina<lb break="no" ed="Bd" n="30"/>lifer remaneant Sancti, sive non, Deus
+<lb ed="Bd" n="31"/>preparavit ab aeterno, et non nisi suo
+<lb ed="Bd" n="32"/>muncre ea facere possunt.
+</p>
+            <p xml:id="alalal-f13127-d1e207">
+               <lb ed="Bd" n="33"/>Ad priwum ergo dicendum, quod 
+justi<lb break="no" ed="Bd" n="34"/>lia praesens ost ibi scripta : non quando
+<lb ed="Bd" n="35"/>fit, sed ab aeterno.
+</p>
+            <p xml:id="alalal-f13127-d1e216">
+               <lb ed="Bd" n="36"/>Per hoc patet solatic ad sequens.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

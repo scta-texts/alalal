@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="525"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b02410"><!-- l1d19a9 -->
+            <head xml:id="alalal-b02410-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-b02410-Hd1e101" type="question-title">An Filius addat aliquid super id quod
+accepit a Patre ?</head>
+            <p xml:id="alalal-b02410-d1e104">
+               <lb ed="#Ba" n="16"/>ARTICULUS IX.
+<lb ed="#Ba" n="17"/>An Filius addat aliquid super id quod
+<lb ed="#Ba" n="18"/>accepit a Patre ?
+</p>
+            <p xml:id="alalal-b02410-d1e113">
+               <lb ed="#Ba" n="19"/>Deinde quaeritur de hoc quod dicit:
+<lb ed="#Ba" n="20"/>
+               <quote xml:id="alalal-b02410-Qd1e119">Nam si partem eiusdem qui genuit
+<lb ed="#Ba" n="21"/>accepit, neuter ergo perfectus, etc. </quote>
+            </p>
+            <p xml:id="alalal-b02410-d1e125">
+               <lb ed="#Ba" n="22"/>Hoc enim videtur falsum : quia aut 
+Fi<lb break="no" ed="#Ba" n="23"/>lrus aliquid addit super id quod accipit a
+<lb ed="#Ba" n="24"/>Patre, aut mihi]. Si addit, non totum
+<lb ed="#Ba" n="25"/>Pater habet quod habet Filius, quod 
+he<lb break="no" ed="#Ba" n="26"/>reticum est. Si nihil addit: aut ergo 
+to<lb break="no" ed="#Ba" n="27"/>tum et idem habet, aut non totum, et
+<lb ed="#Ba" n="28"/>aliud, Si primo modo: ergo Pater et 
+Fi<lb break="no" ed="#Ba" n="29"/>lius sunt in toto idem, quod falsum est,
+<lb ed="#Ba" n="30"/>cum supra negatum sit, quod etiam
+<lb ed="#Ba" n="31"/>non sunt idem Deus 2, Si autem non 
+to<lb break="no" ed="#Ba" n="32"/>tum et aliud accipit, tunc non est 
+equa<lb break="no" ed="#Ba" n="33"/>lis et in essentia eadem cum Patre, quod
+<lb ed="#Ba" n="34"/>iterum absurdum est: ergo videtur,
+<lb ed="#Ba" n="35"/>quod ille sermo qui hic dicitur, sit 
+fal<lb break="no" ed="#Ba" n="36"/>sus.
+</p>
+            <p xml:id="alalal-b02410-d1e161">
+               <lb ed="#Ba" n="37"/>Si forte dicas, quod Filius addit 
+pro<lb break="no" ed="#Ba" n="38"/>prietatem quae non est aliquid, sed ad
+<lb ed="#Ba" n="39"/>aliquid. Contra: Si illam addit Filius,
+<lb ed="#Ba" n="40"/>non addit nisi ei quod accipit a Patre :
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="41"/>essentiam autem accipit : ergo addit 
+es<lb break="no" ed="#Ba" n="42"/>sentie : ergo proprietas determinat 
+es<lb break="no" ed="#Ba" n="43"/>sentiam, quod falsum est : quia sic 
+es<lb break="no" ed="#Ba" n="44"/>sentia divina Filii non esset Patris 
+essen<lb break="no" ed="#Ba" n="45"/>tia, sicut nec persona Filii est Patris
+<lb ed="#Ba" n="46"/>persona : ergo videtur, quod nec addat
+<lb ed="#Ba" n="47"/>aliquid, nec ad aliquid, et ita remanet
+<lb ed="#Ba" n="48"/>penitus idem.
+</p>
+            <p xml:id="alalal-b02410-d1e192">
+               <lb ed="#Ba" n="49"/>Sorvrio. Dicendum, quod Filius nihil
+<lb ed="#Ba" n="50"/>addit omnino ei quod accipit a Patre,
+<lb ed="#Ba" n="51"/>nec tamen sequitur, quod Filius 
+simpli<lb break="no" ed="#Ba" n="52"/>citer sit idem Patri : sed sequitur, quod
+<lb ed="#Ba" n="53"/>Filius in accepto sit idem Patri, et hoc
+<lb ed="#Ba" n="54"/>verum est absolute.
+</p>
+            <p xml:id="alalal-b02410-d1e208">
+               <lb ed="#Ba" n="55"/>Si autem queris, In quo ergo 
+distin<lb break="no" ed="#Ba" n="56"/>guuntur Pater et Filius ?
+</p>
+            <p xml:id="alalal-b02410-d1e215">
+               <lb ed="#Ba" n="57"/>Dicendum, quod in eo quod ille est
+<lb ed="#Ba" n="58"/>accipiens per generationem, ille autem
+<lb ed="#Ba" n="59"/>dans : et haec non distinguunt acceptum
+<lb ed="#Ba" n="60"/>ab eo a quo accipit, sed potius 
+accipien<lb break="no" ed="#Ba" n="61"/>tem a dante: et ideo patet, quod guia
+<lb ed="#Ba" n="62"/>tantum accipit quantus est, ideo sequitur
+<lb ed="#Ba" n="63"/>quod accipiens et dans sint squales :
+<lb ed="#Ba" n="64"/>quia vero ille dans, iste accipiens, ideo
+<lb ed="#Ba" n="65"/>sequitur quod non sunt idem, sed alius
+<lb ed="#Ba" n="66"/>et alius : et per hoc patet solutio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

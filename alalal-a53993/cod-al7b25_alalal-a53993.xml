@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 35</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 35</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="269"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a53993"><!-- l1d8a35 -->
+            <head xml:id="alalal-a53993-Hd1e99">Articulus 35</head>
+            <head xml:id="alalal-a53993-Hd1e101" type="question-title">Quare cum multa sint attributa divine
+essentiae, solum Magister determinat
+de tribus, simplicitate, indentitate, et
+unitate ?</head>
+            <p xml:id="alalal-a53993-d1e104">
+               <lb ed="#Ba" n="65"/>ARTICULUS XXXV.
+<lb ed="#Ba" n="66"/>Quare cum multa sint attributa divine
+<lb ed="#Ba" n="67"/>essentiae, solum Magister determinat
+<lb ed="#Ba" n="68"/>de tribus, simplicitate, indentitate, et
+<lb ed="#Ba" n="69"/>unitate ?
+</p>
+            <p xml:id="alalal-a53993-d1e117">
+               <lb ed="#Ba" n="70"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="71"/>
+               <quote xml:id="alalal-a53993-Qd1e123"> Ecce quanta est identitas, quanta 
+uni<lb break="no" ed="#Ba" n="72"/>tas, etc. </quote>
+            </p>
+            <p xml:id="alalal-a53993-d1e129">
+               <lb ed="#Ba" n="73"/>Est enim dubium, cum multa sint 
+at<lb break="no" ed="#Ba" n="74"/>tributa divine nature, quare Magister
+<lb ed="#Ba" n="75"/>non agit hic nisi de his tribus ?
+</p>
+            <p xml:id="alalal-a53993-d1e139">
+               <lb ed="#Ba" n="76"/>Et ad hoc dicendum, quod Magister 
+sic<lb break="no" ed="#Ba" n="77"/>ut patuit, agit hic de simplicitate, et aliis
+<lb ed="#Ba" n="78"/>prout se habent ad generationem Fihi,
+<lb ed="#Ba" n="79"/>de qua hic principaliter intenditur: et
+<lb ed="#Ba" n="80"/>quia generationem in inferioribus 
+sequi<lb break="no" ed="#Ba" n="81"/>tur, ut natus, vel genitus prius sit in 
+po<lb break="no" ed="#Ba" n="82"/>tentia, et non accipit unitatem essentiae
+<lb ed="#Ba" n="83"/>Patris secundum actum, propter 
+imperfe<lb break="no" ed="#Ba" n="84"/>ctionem nature inferioris: et sequitur
+<lb ed="#Ba" n="85"/>secundo, quod ipsa essentia mutatur de
+<pb ed="#Ba" n="270"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>potentia in actum: et tertio, quod ipsa
+<lb ed="#Ba" n="2"/>dividitur secundum aliud esse in patre,
+<lb ed="#Ba" n="3"/>et secundum aliud esse in genito. Ideo
+<lb ed="#Ba" n="4"/>de his tribus per oppositum agit Magister
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="5"/>in generatione divina in qua genitus 
+ve<lb break="no" ed="#Ba" n="6"/>ram essentiam accipit sine 
+commutabili<lb break="no" ed="#Ba" n="7"/>tate, et in simplicitate, quia una est in
+<lb ed="#Ba" n="8"/>Patre et Filio, etc.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

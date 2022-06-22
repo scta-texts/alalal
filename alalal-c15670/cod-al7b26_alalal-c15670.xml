@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="84"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c15670"><!-- l1d29a7 -->
+            <head xml:id="alalal-c15670-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-c15670-Hd1e101" type="question-title">Utrum notionis qua Pater et Filius 
+dicuntur principium Spiritus sancti,
+non habeamus nomen proprium ?</head>
+            <p xml:id="alalal-c15670-d1e104">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="4"/>ARTICULUS VII.
+<lb ed="#Bb" n="5"/>Utrum notionis qua Pater et Filius 
+di<lb break="no" ed="#Bb" n="6"/>cuntur principium Spiritus sancti,
+<lb ed="#Bb" n="7"/>non habeamus nomen proprium ?
+</p>
+            <p xml:id="alalal-c15670-d1e117">
+               <lb ed="#Bb" n="8"/>Deinde queritur de hoc quod dicit in
+<lb ed="#Bb" n="9"/>ultima parte ubi dicit : <quote xml:id="alalal-c15670-Qd1e123"> Si vero 
+queri<lb break="no" ed="#Bb" n="10"/>tur, quae sit illa notio quam ibi notat
+<lb ed="#Bb" n="11"/>principium 2? Nomen ejus non 
+habe<lb break="no" ed="#Bb" n="12"/>mus, etc. </quote>
+            </p>
+            <p xml:id="alalal-c15670-d1e133">
+               <lb ed="#Bb" n="13"/>Videtur, quod falsum dicat: quia
+<lb ed="#Bb" n="14"/>vocamus eam communem spiritationem.
+</p>
+            <p xml:id="alalal-c15670-d1e141">
+               <lb ed="#Bb" n="15"/>Praeterea, Quare est hoc quod non
+<lb ed="#Bb" n="16"/>est nomen proprium illius notionis, ut
+<lb ed="#Bb" n="17"/>sunt aliarum nomina ?
+</p>
+            <p xml:id="alalal-c15670-d1e150">
+               <lb ed="#Bb" n="18"/>Solutio. Dicendum, quod proprietatis
+<lb ed="#Bb" n="19"/>nomen habere non potuit, quia non 
+con<lb break="no" ed="#Bb" n="20"/>venit uni soli. Similiter relationis 
+no<lb break="no" ed="#Bb" n="21"/>men habere non potuit, quia relatio 
+fun<lb break="no" ed="#Bb" n="22"/>datur super unum suppositum : ista 
+au<lb break="no" ed="#Bb" n="23"/>tem super duo : et cum omnis notio sit
+<lb ed="#Bb" n="24"/>per modum forme adherentis, licet in
+<lb ed="#Bb" n="25"/>re substantialis sit, ideo nomen 
+proprie<lb break="no" ed="#Bb" n="26"/>tatis, ut est in duobus, cum omnis forma
+<lb ed="#Bb" n="27"/>sit in uno, repugnabit impositioni 
+no<lb break="no" ed="#Bb" n="28"/>minum : et ideo ista in ambobus non est
+<lb ed="#Bb" n="29"/>nominata.
+</p>
+            <p xml:id="alalal-c15670-d1e179">
+               <lb ed="#Bb" n="30"/>Item, possumus dicere, quod  sicut
+<lb ed="#Bb" n="31"/>Spiritus sanctus, quia communis est
+<lb ed="#Bb" n="32"/>Patri et Filio, habet proprium nomen
+<lb ed="#Bb" n="33"/>quod est ambobus commune, ita etiam
+<lb ed="#Bb" n="34"/>quia procedit ab utroque, processio
+<lb ed="#Bb" n="35"/>notione communi debuit assignari.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

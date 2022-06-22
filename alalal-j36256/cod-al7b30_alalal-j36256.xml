@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="657"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j36256"><!-- l4d48a5 -->
+            <head xml:id="alalal-j36256-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-j36256-Hd1e101" type="question-title">An Christus in forma servi iudicans, 
+videbitur a bonis et malis ?</head>
+            <p xml:id="alalal-j36256-d1e104">
+               <lb ed="#Bf" n="66"/>ARTICULUS V.
+<lb ed="#Bf" n="67"/>An Christus in forma servi iudicans, 
+vi<lb break="no" ed="#Bf" n="68"/>debitur a bonis et malis ?
+</p>
+            <p xml:id="alalal-j36256-d1e113">
+               <lb ed="#Bf" n="69"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bf" n="70"/>ibi, B, post medium : <quote xml:id="alalal-j36256-Qd1e119"> In forma servi
+<lb ed="#Bf" n="71"/>judicans, a bonis et malis videbitur. </quote>
+            </p>
+            <p xml:id="alalal-j36256-d1e125">
+               <lb ed="#Bf" n="72"/>.Videtur enim quod etiam secundum
+<lb ed="#Bf" n="73"/>divinitatem videndus sit corporeis 
+ocu<lb break="no" ed="#Bf" n="74"/>lis, preecipue a bonis : quia ita dicit 
+Au<lb break="no" ed="#Bf" n="75"/>gustinus : <quote xml:id="alalal-j36256-Qd1e135"> Et per illos oculos sic 
+vide<lb break="no" ed="#Bf" n="76"/>bitur Deus, ut aliquid habeat in tanta
+<lb ed="#Bf" n="77"/>excellentia menti simile, quo et in 
+cor<lb break="no" ed="#Bf" n="78"/>porea natura cernatur, quod ullis 
+exem<lb break="no" ed="#Bf" n="79"/>plis sive Scripturarum testimoniis divi-
+<pb ed="#Bf" n="658"/>
+                  <cb ed="#Bf" n="a"/>
+                  <lb ed="#Bf" n="1"/>narum vel difficile vel impossibile est
+<lb ed="#Bf" n="2"/>ostendere. Aut quod est ad 
+intelligen<lb break="no" ed="#Bf" n="3"/>dum facilius, ita Deus crit notus atque
+<lb ed="#Bf" n="4"/>conspicuus, ut videatur spiritu a singulis
+<lb ed="#Bf" n="5"/>nobis in singulis, videatur ab allero in
+<lb ed="#Bf" n="6"/>altero, videatur in coelo novo et in terra
+<lb ed="#Bf" n="7"/>nova, atque in omni quae tunc fuerit
+<lb ed="#Bf" n="8"/>creatura, videatur. </quote>
+            </p>
+            <p xml:id="alalal-j36256-d1e170">
+               <lb ed="#Bf" n="9"/>Responsio. De hoc etiam in prima di-
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="10"/>stinctione primi libri Senfentiarum est
+<lb ed="#Bf" n="11"/>habitum, utrum sensus convertatur in
+<lb ed="#Bf" n="12"/>rationem. Et dicendum, quod non: nec
+<lb ed="#Bf" n="13"/>Augustinus dicit, sed intendit, quod
+<lb ed="#Bf" n="14"/>creatura corporalis accépta per oculos
+<lb ed="#Bf" n="15"/>specie nobiliori et evidentiori quam
+<lb ed="#Bf" n="16"/>modo, Deum manifestabit : et sic 
+spiri<lb break="no" ed="#Bf" n="17"/>tus noster facilius in visis quam modo
+<lb ed="#Bf" n="18"/>cognoscet.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

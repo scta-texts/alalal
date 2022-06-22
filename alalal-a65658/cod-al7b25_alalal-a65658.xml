@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="328"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a65658"><!-- l1d10a10 -->
+            <head xml:id="alalal-a65658-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-a65658-Hd1e101" type="question-title">Quomodo Pater et Filius dupliciter
+uniuntur ?</head>
+            <p xml:id="alalal-a65658-d1e104">
+               <lb ed="#Ba" n="65"/>ARTICULUS X.
+<lb ed="#Ba" n="66"/>Quomodo Pater et Filius dupliciter
+<lb ed="#Ba" n="67"/>uniuntur ?
+</p>
+            <p xml:id="alalal-a65658-d1e113">
+               <lb ed="#Ba" n="68"/>Deinde quaeritur de hoc quod dicit:
+<lb ed="#Ba" n="69"/>
+               <quote xml:id="alalal-a65658-Qd1e119"> Sintque non participatione alicuius,
+<lb ed="#Ba" n="70"/>sed essentia sua: neque dono superioris,
+<lb ed="#Ba" n="71"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-a65658-d1e127">
+               <lb ed="#Ba" n="72"/>Ex hoc enum videtur, quod essentia
+<lb ed="#Ba" n="73"/>procedat de essentia: sed quidquid 
+pro<lb break="no" ed="#Ba" n="74"/>cedit, distnguitur: ergo essentia 
+distin<lb break="no" ed="#Ba" n="75"/>guitur ab essentia vel a persona, quorum
+<lb ed="#Ba" n="76"/>utrumque supra improbatur °.
+</p>
+            <p xml:id="alalal-a65658-d1e141">
+               <lb ed="#Ba" n="77"/>Soturio. Augustinus intendit dicere,
+<lb ed="#Ba" n="78"/>quod dupliciter uniuntur Pater et Filius
+<lb ed="#Ba" n="79"/>in essenlia, quae non participative est in
+<lb ed="#Ba" n="80"/>eis: sed uterque est tota essentia, et 
+es<lb break="no" ed="#Ba" n="81"/>sentia est totus Pater et totus Filius: hoc
+<lb ed="#Ba" n="82"/>enim habetur participative quod 
+habe<lb break="no" ed="#Ba" n="83"/>tur secundum partem sue essentiae, vel
+<lb ed="#Ba" n="84"/>secundum partem sue potentia, sicut
+<lb ed="#Ba" n="85"/>animal ab homine, quia non habetur 
+se<lb break="no" ed="#Ba" n="86"/>cundum totum posse suum, quia posse
+<pb ed="#Ba" n="329"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>suum est praedicari de multis et inesse
+<lb ed="#Ba" n="2"/>cis. Similiter homo ab homme habetur
+<lb ed="#Ba" n="3"/>participative : et breviter dicendo, 
+quod<lb break="no" ed="#Ba" n="4"/>libet superius a suo inferiori: quia 
+su<lb break="no" ed="#Ba" n="5"/>perius particulatur et contrahitur in 
+in<lb break="no" ed="#Ba" n="6"/>feriori. Sic autem non particulatur nec
+<lb ed="#Ba" n="7"/>contrahitur essentia in Patre et Filio:
+<lb ed="#Ba" n="8"/>sed quia Pater et Filius non tantum
+<lb ed="#Ba" n="9"/>unum sunt in essentia, sed etiam in eo
+<lb ed="#Ba" n="10"/>quod sunt persone distincte habent
+<lb ed="#Ba" n="11"/>convenientiam procedentem ab eis in eo
+<lb ed="#Ba" n="12"/>quod persone sunt, sic etiam 
+conve<lb break="no" ed="#Ba" n="13"/>niunt dono sui amoris, quod neuter 
+eo<lb break="no" ed="#Ba" n="14"/>rum est. Nee etiam natura permittit,
+<lb ed="#Ba" n="15"/>nec intellectus capit, quod procedens a
+<lb ed="#Ba" n="16"/>persona distincta sit idem in persona
+<lb ed="#Ba" n="17"/>cum ipsa a qua procedit: habet tamen
+<lb ed="#Ba" n="18"/>rationem unientis per modum distincti
+<lb ed="#Ba" n="19"/>ab unitis ut amor et amicitia, sicut supra
+<lb ed="#Ba" n="20"/>dictum est: et hoc est quod dicit, quod
+<lb ed="#Ba" n="21"/>suo dono servant unitatem sicut in 
+vin<lb break="no" ed="#Ba" n="22"/>culo pacis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="425"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d75816"><!-- l2d25a2 -->
+            <head xml:id="alalal-d75816-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-d75816-Hd1e101" type="question-title">Utrum liberum arbitrium quantum ad
+actum eligendi sive deliberandi, non
+est nisi futurorum contingentium per
+nos operabilium, quorum nos sumus
+domini ? :</head>
+            <p xml:id="alalal-d75816-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="12"/>ARTICULUS JU.
+<lb ed="#Bc" n="13"/>Utrum liberum arbitrium quantum ad
+<lb ed="#Bc" n="14"/>actum eligendi sive deliberandi, non
+<lb ed="#Bc" n="15"/>est nisi futurorum contingentium per
+<lb ed="#Bc" n="16"/>nos operabilium, quorum nos sumus
+<lb ed="#Bc" n="17"/>domini ? :
+</p>
+            <p xml:id="alalal-d75816-d1e122">
+               <lb ed="#Bc" n="18"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="19"/>ibi, <quote xml:id="alalal-d75816-Qd1e128"> Hoe autem sciendum est, quod 
+li<lb break="no" ed="#Bc" n="20"/>berum arbitrium, etc. </quote>
+            </p>
+            <p xml:id="alalal-d75816-d1e134">
+               <lb ed="#Bc" n="21"/>Videtur enim esse falsum : quia
+<lb ed="#Bc" n="22"/>1. Quae in preterito a voluntate hominis
+<lb ed="#Bc" n="23"/>facta sunt, et quae in presenti, necesse
+<lb ed="#Bc" n="24"/>est'reducere ad aliquam causarum: non
+<lb ed="#Bc" n="25"/>autem possunt reduci ad naturam, vel
+<lb ed="#Bc" n="26"/>casum, vel ad fortunam: ergo 
+reducen<lb break="no" ed="#Bc" n="27"/>tur illa ad liberum arbitrium, sicut 
+cau<lb break="no" ed="#Bc" n="28"/>satum ad causam.,
+</p>
+            <p xml:id="alalal-d75816-d1e155">
+               <lb ed="#Bc" n="29"/>2. Item, Non omnia quae fient in 
+fu<lb break="no" ed="#Bc" n="30"/>turo referuntur ad liberum arbitrium 
+sic<lb break="no" ed="#Bc" n="31"/>ut ad causam: ergo videtur falsum esse
+<lb ed="#Bc" n="32"/>quod dicit.
+</p>
+            <p xml:id="alalal-d75816-d1e166">
+               <lb ed="#Bc" n="33"/>Solutio. Dicendum, quod liberum 
+ar<lb break="no" ed="#Bc" n="34"/>bitrium quantum ad actum deliberandi
+<lb ed="#Bc" n="35"/>vel eligendi, non est nisi faturorum 
+con<lb break="no" ed="#Bc" n="36"/>tingentium per nos operabilium, quorum
+<lb ed="#Bc" n="37"/>nos domini sumus, sicut dicit 
+Damasce<lb break="no" ed="#Bc" n="38"/>nus.
+</p>
+            <p xml:id="alalal-d75816-d1e182">
+               <lb ed="#Bc" n="39"/>Ap primum dicendum, quod 
+preteri<lb break="no" ed="#Bc" n="40"/>tum ut preteritum non dependet a libero
+<lb ed="#Bc" n="41"/>arbitrio, sicut a causa, sed ut actus 
+reduci<lb break="no" ed="#Bc" n="42"/>tur ad causam quae causavit: et ideo non
+<lb ed="#Bc" n="43"/>respicit etiam quoad actum ad 
+delibera<lb break="no" ed="#Bc" n="44"/>tionem et electionem: quia illa non sunt
+<lb ed="#Bc" n="45"/>nisi futuri operabilis: presens autem in
+<lb ed="#Bc" n="46"/>eo quod presens, non dependet a nobis,
+<lb ed="#Bc" n="47"/>neque est sub deliberatione vel electione,
+<lb ed="#Bc" n="48"/>sed sub necessitate dum est: et ita 
+in<lb break="no" ed="#Bc" n="49"/>telligit Magister.
+</p>
+            <p xml:id="alalal-d75816-d1e208">
+               <lb ed="#Bc" n="50"/>Ad aliud dicendum, quod non 
+intelli<lb break="no" ed="#Bc" n="51"/>git de omnibus futuris, sed de quibus
+<lb ed="#Bc" n="52"/>dictum est. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

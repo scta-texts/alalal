@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="99"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c18721"><!-- l1d31a1 -->
+            <head xml:id="alalal-c18721-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-c18721-Hd1e101" type="question-title">An Magister hic bene determinat de
+appropriatis ?</head>
+            <p xml:id="alalal-c18721-d1e104">
+               <lb ed="#Bb" n="27"/>ARTICULUS I.
+<lb ed="#Bb" n="28"/>An Magister hic bene determinat de
+<lb ed="#Bb" n="29"/>appropriatis ?
+</p>
+            <p xml:id="alalal-c18721-d1e113">
+               <lb ed="#Bb" n="30"/>Incidunt autem hic duae questiones ante
+<lb ed="#Bb" n="31"/>Litieram : quarum una est, Quare 
+Magi<lb break="no" ed="#Bb" n="32"/>ster ponit hic tractatum de appropriatis ?
+</p>
+            <p xml:id="alalal-c18721-d1e122">
+               <lb ed="#Bb" n="33"/>Secundo, Secundum quid attenditur
+<lb ed="#Bb" n="34"/>ratio appropriationis ?
+</p>
+            <p xml:id="alalal-c18721-d1e130">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="35"/>Videtur autem non debere hic poni.
+<lb ed="#Bb" n="36"/>1. Omnia enim ista nomina essentialia
+<lb ed="#Bb" n="37"/>sunt: ergo inter essentialia deberent 
+de<lb break="no" ed="#Bb" n="38"/>terminari.
+</p>
+            <p xml:id="alalal-c18721-d1e143">
+               <lb ed="#Bb" n="39"/>2. Praeterea, De aequalitate supra 
+ha<lb break="no" ed="#Bb" n="40"/>bitum est ': ergo superflue videtur hic
+<lb ed="#Bb" n="41"/>repeti.
+</p>
+            <p xml:id="alalal-c18721-d1e152">
+               <lb ed="#Bb" n="42"/>3. Item, Aqualis et similis non 
+po<lb break="no" ed="#Bb" n="43"/>nuntur hie inter appropriata : ergo 
+vide<lb break="no" ed="#Bb" n="44"/>tur, quod non debet de eis agi in tractatu
+<lb ed="#Bb" n="45"/>isto, qui est de appropriatis.
+</p>
+            <p xml:id="alalal-c18721-d1e163">
+               <lb ed="#Bb" n="46"/>Solutio. Appropriata rationem trahunt
+<lb ed="#Bb" n="47"/>ex propriis : sicut per accidens rationem
+<lb ed="#Bb" n="48"/>ab eo trahit quod est per se : et sicut 
+il<lb break="no" ed="#Bb" n="49"/>lud quod est propter alterum, trahit 
+ra<lb break="no" ed="#Bb" n="50"/>tionem cognitionis ab eo quod est propter
+<lb ed="#Bb" n="51"/>se et ideo immediate ponendus est
+<lb ed="#Bb" n="52"/>tractatus de appropriatis post tractatum
+<lb ed="#Bb" n="53"/>propriorum.
+</p>
+            <p xml:id="alalal-c18721-d1e183">
+               <lb ed="#Bb" n="54"/>Ad ARGUMENTUM autem dicendum,
+<lb ed="#Bb" n="55"/>quod non sunt ita essentialia quin per
+<lb ed="#Bb" n="56"/>rationes suorum nominum accessuin et
+<lb ed="#Bb" n="57"/>vicinitatem ponant ad propria, et ideo
+<lb ed="#Bb" n="58"/>cum eis conjunguntur.
+</p>
+            <p xml:id="alalal-c18721-d1e196">
+               <lb ed="#Bb" n="59"/>Ad aliud dicendum, quod similitudo
+<lb ed="#Bb" n="60"/>et aequalitas dupliciter accipiuntur, 
+scili<lb break="no" ed="#Bb" n="61"/>cet secundum id in quo est aequalitas et
+<lb ed="#Bb" n="62"/>similitudo : et hoc est essentia, sicut 
+su<lb break="no" ed="#Bb" n="63"/>pra dictum est :et secundum nominis
+<lb ed="#Bb" n="64"/>rationem quae magis accedit ad rationem
+<lb ed="#Bb" n="65"/>unius persone, quam alterius : sicut
+<lb ed="#Bb" n="66"/>infra dicet, quod aequalitas est in Filio et
+<lb ed="#Bb" n="67"/>similitudo. Et dicunt quidam Sancti,
+<lb ed="#Bb" n="68"/>quod secundum aliquid est in Filio, et
+<lb ed="#Bb" n="69"/>secundum aliquid in Spiritu sancto : et
+<lb ed="#Bb" n="70"/>hoc modo sumitur hic in tractatu 
+appro<lb break="no" ed="#Bb" n="71"/>priatorum.
+</p>
+            <p xml:id="alalal-c18721-d1e228">
+               <lb ed="#Bb" n="72"/>Per hoc etiam patet solutio ad sequens:
+<lb ed="#Bb" n="73"/>quia primo modo egit de eis supra, et
+<lb ed="#Bb" n="74"/>secundo modo agit de eis hic.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

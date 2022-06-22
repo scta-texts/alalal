@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 13</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 13</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="85"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d16356"><!-- l2d3a13 -->
+            <head xml:id="alalal-d16356-Hd1e99">Articulus 13</head>
+            <head xml:id="alalal-d16356-Hd1e101" type="question-title">An Deus potuit facere Angelum
+malum ?</head>
+            <p xml:id="alalal-d16356-d1e104">
+               <lb ed="#Bc" n="66"/>ARTICULUS XIII.
+<lb ed="#Bc" n="67"/>An Deus potuit facere Angelum
+<lb ed="#Bc" n="68"/>malum ?
+</p>
+            <p xml:id="alalal-d16356-d1e113">
+               <lb ed="#Bc" n="69"/>Secundo, Queritur propter errorem
+<lb ed="#Bc" n="70"/>qui ponitur in Littera, Utrum Deus
+<lb ed="#Bc" n="71"/>potuit facere Angelum malum ?
+</p>
+            <p xml:id="alalal-d16356-d1e122">
+               <lb ed="#Bc" n="72"/>Videtur, quod sic : quia
+<lb ed="#Bc" n="73"/>4. Qui operatur voluntate, operatur
+<lb ed="#Bc" n="74"/>quod vult, et non est dicere cur ita 
+fa<lb break="no" ed="#Bc" n="75"/>cit: sed Deus operatur voluntate : ergo
+<lb ed="#Bc" n="76"/>potest facere quod vult ergo potest
+<lb ed="#Bc" n="77"/>facere malum Angelum.
+</p>
+            <p xml:id="alalal-d16356-d1e139">
+               <lb ed="#Bc" n="78"/>2. Item, Apostolus ad Roman. rx, 21:
+<lb ed="#Bc" n="79"/>An non habet potestatem figulus luti ex
+<lb ed="#Bc" n="80"/>eadem massa facere aliud quidem vas in
+<lb ed="#Bc" n="81"/>honorem, aliud vero in contumeliam ?
+<lb ed="#Bc" n="82"/>Et. constat, quod loquitur de Deo : ergo
+<lb ed="#Bc" n="83"/>videtur, quod possit facere Angelum 
+ma<lb break="no" ed="#Bc" n="84"/>lum et hominem.
+</p>
+            <p xml:id="alalal-d16356-d1e157">
+               <lb ed="#Bc" n="85"/>3. Item, Ipse fecit eos quos futuros 
+sci<lb break="no" ed="#Bc" n="86"/>vit esse malos : ergo eadem ratione potuit
+<lb ed="#Bc" n="87"/>facere malos.
+</p>
+            <p xml:id="alalal-d16356-d1e166">
+               <lb ed="#Bc" n="88"/>SED CONTRA :
+<lb ed="#Bc" n="89"/>1. Dicit Augustinus, quod Deus non
+<lb ed="#Bc" n="90"/>est illius rei ultor, cujus est factor : si er-
+<pb ed="#Bc" n="86"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>go ipse fecit Angelum malum, ipse non
+<lb ed="#Bc" n="2"/>posset esse ultor mali, quod falsum est :
+<lb ed="#Bc" n="3"/>ergo non potest facere Angelum malum.
+</p>
+            <p xml:id="alalal-d16356-d1e186">
+               <lb ed="#Bc" n="4"/>2. Item, Boni est adducere bona : sed
+<lb ed="#Bc" n="5"/>Deus est optimum : ergo non facit nisi
+<lb ed="#Bc" n="6"/>bonum.
+</p>
+            <p xml:id="alalal-d16356-d1e195">
+               <lb ed="#Bc" n="7"/>3. Item, Boetius dicit, quod hac est —
+<lb ed="#Bc" n="8"/>ratio boni, quia est a bono primo : sed
+<lb ed="#Bc" n="9"/>Deus est bonum primum: ergo nihil mali
+<lb ed="#Bc" n="10"/>potest esse ab eo.
+</p>
+            <p xml:id="alalal-d16356-d1e206">
+               <lb ed="#Bc" n="11"/>4. Item, Augustinus: <quote xml:id="alalal-d16356-Qd1e210"> Sapiens non
+<lb ed="#Bc" n="12"/>facit id quo sit opus suum deterius : </quote>
+               <lb ed="#Bc" n="13"/>ergo multo minus facit opus pravum :
+<lb ed="#Bc" n="14"/>sed Deus est sapientissimus : ergo non
+<lb ed="#Bc" n="15"/>potest aliquid esse malum, secundum
+<lb ed="#Bc" n="16"/>quod est ab ipso.
+</p>
+            <p xml:id="alalal-d16356-d1e226">
+               <lb ed="#Bc" n="17"/>Solutio. Concedo, quod Deus nulla
+<lb ed="#Bc" n="18"/>sua potentia, neque ordinata sua 
+sapien<lb break="no" ed="#Bc" n="19"/>tia, neque absoluta, potest facere malum |
+<lb ed="#Bc" n="20"/>opus : quia hoc non est posse, sed est
+<lb ed="#Bc" n="21"/>extreme insipientie et impotentie. Unde
+<lb ed="#Bc" n="22"/>dico, quod fecit Angelum bonum : sed
+<lb ed="#Bc" n="23"/>poterat facere meliorem, si voluisset.
+</p>
+            <p xml:id="alalal-d16356-d1e244">
+               <lb ed="#Bc" n="24"/>Ab primum dicendum, quod verum est,
+<lb ed="#Bc" n="25"/>quod Deus fecit Angelum sicut voluit :
+<lb ed="#Bc" n="26"/>sed non potuit facere malum : quia nihil
+<lb ed="#Bc" n="27"/>facit nisi quod est volitum suum, et suum _
+<lb ed="#Bc" n="28"/>in quo ipse factus est, et nec Honus: 1 nec
+<lb ed="#Bc" n="29"/>volitum numguam est malum.
+</p>
+            <p xml:id="alalal-d16356-d1e260">
+               <lb ed="#Bc" n="30"/>Ad aliud dicendum, quod illa 
+auctori<lb break="no" ed="#Bc" n="31"/>tas intelligitur de opere Dei quo scit 
+quos<lb break="no" ed="#Bc" n="32"/>dam futuros malos, quos tamen ipse fecit
+<lb ed="#Bc" n="33"/>bonos. Unde locutio est impropria, cum
+<lb ed="#Bc" n="34"/>dicit, quod fuerit vas in contumeliam, ita
+<lb ed="#Bc" n="35"/>scilicet quod pre positio. notet 
+consecu<lb break="no" ed="#Bc" n="36"/>tionem, et non finem, id est, quod 
+termi<lb break="no" ed="#Bc" n="37"/>netur in contumeliam : sed contumelia
+<lb ed="#Bc" n="38"/>non est finis movens efficientem.
+</p>
+            <p xml:id="alalal-d16356-d1e282">
+               <lb ed="#Bc" n="39"/>Ad aliud dicendum, quod nihil est 
+si<lb break="no" ed="#Bc" n="40"/>mile : quia illi quos scit futuros malos,
+<lb ed="#Bc" n="41"/>fiunt mali sine Deo auctore : quos tamen
+<lb ed="#Bc" n="42"/>ipse facit : quia in eis non vult 
+inter<lb break="no" ed="#Bc" n="43"/>rumpere cursum nature: et etiam quia
+<lb ed="#Bc" n="44"/>scit ad quae bona, mala eorum poterunt
+<lb ed="#Bc" n="45"/>prodesse.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

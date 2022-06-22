@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="72"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d14100"><!-- l2d3a7 -->
+            <head xml:id="alalal-d14100-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-d14100-Hd1e101" type="question-title">Utrum liberum arbitrium sit attributum
+angelice nature conveniens? et, An
+sit etiam in Angelis et hominibus per
+rationem unam ?</head>
+            <p xml:id="alalal-d14100-d1e104">
+               <lb ed="#Bc" n="33"/>ARTICULUS VII.
+<lb ed="#Bc" n="34"/>Utrum liberum arbitrium sit attributum
+<lb ed="#Bc" n="35"/>angelice nature conveniens? et, An
+<lb ed="#Bc" n="36"/>sit etiam in Angelis et hominibus per
+<lb ed="#Bc" n="37"/>rationem unam ?
+</p>
+            <p xml:id="alalal-d14100-d1e117">
+               <lb ed="#Bc" n="38"/>Quarto, Queritur de libero arbitrio.
+<lb ed="#Bc" n="39"/>Hoc enim non videtur attributum 
+na<lb break="no" ed="#Bc" n="40"/>turale: quia naturalia non amittuntur:
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="41"/>flexibilitas autem liberii arbitrii 
+amitti<lb break="no" ed="#Bc" n="42"/>tur: ergo non est attributum natura,
+<lb ed="#Bc" n="43"/>Prima patet per se. Secunpa probatur ex
+<lb ed="#Bc" n="44"/>hoc quod confirmati sive in bono sive
+<lb ed="#Bc" n="45"/>in malo, non possunt flecti ad opposito
+<lb ed="#Bc" n="46"/>actus.
+</p>
+            <p xml:id="alalal-d14100-d1e141">
+               <lb ed="#Bc" n="47"/>Sed contra : In utroque erat flexibile , |
+<lb ed="#Bc" n="48"/>in quod voluerit: ergo secundum 
+ratio<lb break="no" ed="#Bc" n="49"/>nem unam.
+</p>
+            <p xml:id="alalal-d14100-d1e151">
+               <lb ed="#Bc" n="50"/>Item, Queritur, Utrum liberum 
+arbi<lb break="no" ed="#Bc" n="51"/>trium sit in Angelis et hominibus per
+<lb ed="#Bc" n="52"/>rationem unam ?
+</p>
+            <p xml:id="alalal-d14100-d1e160">
+               <lb ed="#Bc" n="53"/>Videtur autem, quod non: quia dicit
+<lb ed="#Bc" n="54"/>Damascenus, quod nostrum liberum 
+ar<lb break="no" ed="#Bc" n="55"/>bitrium libere inquirit et libere consilia~
+<lb ed="#Bc" n="56"/>tur: hac autem non conveniunt nisi 
+na<lb break="no" ed="#Bc" n="57"/>ture dubitanti et ignoranti: cum igitur
+<lb ed="#Bc" n="58"/>intellectus Angeli deiformis sit, non 
+vi<lb break="no" ed="#Bc" n="59"/>detur quod haec suo libero arbitrio 
+con<lb break="no" ed="#Bc" n="60"/>veniant.
+</p>
+            <p xml:id="alalal-d14100-d1e180">
+               <lb ed="#Bc" n="61"/>Soiutio. Dicendum, quod liberum 
+ar<lb break="no" ed="#Bc" n="62"/>bitrium convenit Angelis per naturam:
+<lb ed="#Bc" n="63"/>sed libertas ejus non est flexibilitas in
+<lb ed="#Bc" n="64"/>bonum et in malum: quia flexibilitas in
+<lb ed="#Bc" n="65"/>malum, ut dicit Anselmus, nec est 
+liber<lb break="no" ed="#Bc" n="66"/>tas, nec pars liberiatis: sed liberum est
+<lb ed="#Bc" n="67"/>in faciendo quod vult, scilicet, quod non
+<lb ed="#Bc" n="68"/>obligatur ad-actum unum, sicut 
+natura<lb break="no" ed="#Bc" n="69"/>lis virtus agens, et quod non impellitur
+<lb ed="#Bc" n="70"/>ad necessitatem actus quin possit 
+absti<lb break="no" ed="#Bc" n="71"/>nere si vult: et haec libertas semper. 
+re<lb break="no" ed="#Bc" n="72"/>manet apud Angelum quocumque- se
+<lb ed="#Bc" n="73"/>vertat. Quod autem non inclinatur ad
+<lb ed="#Bc" n="74"/>malum quando confirmatur in bono, hoc
+<lb ed="#Bc" n="75"/>non est ex coactione, sed eX, 
+immobi<lb break="no" ed="#Bc" n="76"/>litate spontanea in bono quod est 
+confir<lb break="no" ed="#Bc" n="77"/>matio: et similiter, quod non inclinatur
+<lb ed="#Bc" n="78"/>ad bonum post confirmationem in malo,
+<lb ed="#Bc" n="79"/>hoc est ex spontanea pertinacia quae unde
+<lb ed="#Bc" n="80"/>causetur, infra queretur.
+</p>
+            <p xml:id="alalal-d14100-d1e226">
+               <lb ed="#Bc" n="81"/>Per hoc patet solutio ad primum.
+</p>
+            <p xml:id="alalal-d14100-d1e231">
+               <lb ed="#Bc" n="82"/>Ap m quod ulterius queritur, Utrum
+<lb ed="#Bc" n="83"/>univoce dicatur liberum arbitrium in 
+An<lb break="no" ed="#Bc" n="84"/>gelis et in nobis? Dicendum quod dici-
+<pb ed="#Bc" n="73"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>tur per prius et posterius: quia in 
+Ange<lb break="no" ed="#Bc" n="2"/>lis liberius quam in nobis est: quia 
+re<lb break="no" ed="#Bc" n="3"/>ctitudinem liberantem non deserunt: sed
+<lb ed="#Bc" n="4"/>in nobis liberius est quam in damnatis.
+<lb ed="#Bc" n="5"/>Et de hoc etiam infra queretur in 
+dis<lb break="no" ed="#Bc" n="6"/>tinctione XXXV quae tota est de hoc:
+<lb ed="#Bc" n="7"/>una tamen communi ratione potest dici
+<lb ed="#Bc" n="8"/>de nobis et de aliis, scilicet libera 
+facul<lb break="no" ed="#Bc" n="9"/>tas faciendi quod vult.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

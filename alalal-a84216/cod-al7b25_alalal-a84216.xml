@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="424"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a84216"><!-- l1d15a10 -->
+            <head xml:id="alalal-a84216-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-a84216-Hd1e101" type="question-title">An Spiritus potest dicit Spiritus Christi,
+et in Christo ?</head>
+            <p xml:id="alalal-a84216-d1e104">
+               <lb ed="#Ba" n="11"/>ARTICULUS X.
+<lb ed="#Ba" n="12"/>An Spiritus potest dicit Spiritus Christi,
+<lb ed="#Ba" n="13"/>et in Christo ?
+</p>
+            <p xml:id="alalal-a84216-d1e113">
+               <lb ed="#Ba" n="14"/>Deinde quaeritur de hoc quod dicit :
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="15"/>
+               <quote xml:id="alalal-a84216-Qd1e121"> Secundum divinitatem non super 
+Chri<lb break="no" ed="#Ba" n="16"/>stum est Spiritus, sed in Christo. </quote>
+            </p>
+            <p xml:id="alalal-a84216-d1e127">
+               <lb ed="#Ba" n="17"/>Ex hoc enim videtur innuere 
+opinio<lb break="no" ed="#Ba" n="18"/>nem Grecorum esse veram, quod Spiri-~
+<lb ed="#Ba" n="19"/>tus sit Christi, sicut etiam in ipso 
+re<lb break="no" ed="#Ba" n="20"/>quiescens, et a Patre indistanter 
+proce<lb break="no" ed="#Ba" n="21"/>dens.
+</p>
+            <p xml:id="alalal-a84216-d1e141">
+               <lb ed="#Ba" n="22"/>Solutio. Ly <mentioned>in</mentioned> habet notare multas
+<lb ed="#Ba" n="23"/>habitudines, scilicet identitatem nature,
+<lb ed="#Ba" n="24"/>secundum quam quaelibet persona est in
+<lb ed="#Ba" n="25"/>alia: et habet notare simultatem 
+natu<lb break="no" ed="#Ba" n="26"/>re, secundum quod unum relativorum
+<lb ed="#Ba" n="27"/>simul habet esse cuni alio, et in 
+in<lb break="no" ed="#Ba" n="28"/>tellectu ejus: et hoc modo intelligit 
+Spi<lb break="no" ed="#Ba" n="29"/>ritum esse in Christo: et ex hoc sequitur
+<lb ed="#Ba" n="30"/>Spiritum esse a Christo, ut supra 
+proba<lb break="no" ed="#Ba" n="31"/>tum est’.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

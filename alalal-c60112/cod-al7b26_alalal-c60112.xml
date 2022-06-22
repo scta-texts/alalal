@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="317"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c60112"><!-- l1d40a10 -->
+            <head xml:id="alalal-c60112-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-c60112-Hd1e101" type="question-title">An praedestinatio potest esse sine 
+prescientia ? et, Quare reprobatio potius
+dicitur praescientia, quam praedesti-
+natio ?</head>
+            <p xml:id="alalal-c60112-d1e104">
+               <lb ed="#Bb" n="13"/>ARTICULUS X.
+<lb ed="#Bb" n="14"/>An praedestinatio potest esse sine 
+pre<lb break="no" ed="#Bb" n="15"/>scientia ? et, Quare reprobatio potius
+<lb ed="#Bb" n="16"/>dicitur praescientia, quam praedesti-
+<lb ed="#Bb" n="17"/>natio ?
+</p>
+            <p xml:id="alalal-c60112-d1e117">
+               <lb ed="#Bb" n="18"/>Deinde queritur de his quae dicuntur
+<lb ed="#Bb" n="19"/>in Littera primi capituli, A, ubi dicit :
+<lb ed="#Bb" n="20"/>
+               <quote xml:id="alalal-c60112-Qd1e125"> Quod sine praescientia esse non potest,
+<lb ed="#Bb" n="21"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-c60112-d1e131">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="22"/>Videtur enim hoc esse falsum : quia
+<lb ed="#Bb" n="23"/>sunt species scientiae ex opposito 
+divi<lb break="no" ed="#Bb" n="24"/>sxe, eo quod praescientia dicitur esse 
+ma<lb break="no" ed="#Bb" n="25"/>lorum, praedestinatio vero bonorum.
+</p>
+            <p xml:id="alalal-c60112-d1e145">
+               <lb ed="#Bb" n="26"/>PRAETEREA quero, Quare nomen 
+ge<lb break="no" ed="#Bb" n="27"/>neris retinuit potius reprobatio, quam
+<lb ed="#Bb" n="28"/>preedestinatio ?
+</p>
+            <p xml:id="alalal-c60112-d1e154">
+               <lb ed="#Bb" n="29"/>Soxutio. Ad hoc dicendum, quod hic
+<lb ed="#Bb" n="30"/>in Litfera praescientia sumitur ut genus
+<lb ed="#Bb" n="31"/>ad praedestinationem, et praescientiam
+<lb ed="#Bb" n="32"/>stricte acceptam : et sic verum est, quod
+<lb ed="#Bb" n="33"/>predestinatio non est sine praescientia.
+</p>
+            <p xml:id="alalal-c60112-d1e167">
+               <lb ed="#Bb" n="34"/>Ad aliud dicendum, quod reprobatio
+<lb ed="#Bb" n="35"/>respectu iniquitatis preevise non dicit
+<lb ed="#Bb" n="36"/>aliquid causalitatis vel effectus in Deo:
+<lb ed="#Bb" n="37"/>sed preedestinatio addit, et ratio per 
+dif<lb break="no" ed="#Bb" n="38"/>ferentiam additam contrahit genus : sed
+<lb ed="#Bb" n="39"/>non reprobatio, et ideo retinet nomen
+<lb ed="#Bb" n="40"/>generis.
+</p>
+            <p xml:id="alalal-c60112-d1e185">
+               <lb ed="#Bb" n="41"/>Et si tu objicias, quod addit 
+causalita<lb break="no" ed="#Bb" n="42"/>tem ad poenam, dicendum quod poena
+<lb ed="#Bb" n="43"/>preparatur non ita ex voluntate sicut
+<lb ed="#Bb" n="44"/>gloria : sed preparatur per respectum ad
+<lb ed="#Bb" n="45"/>opus nostrum, et Deus non vult eam nisi
+<lb ed="#Bb" n="46"/>voluntate consequente.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

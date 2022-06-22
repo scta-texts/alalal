@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="638"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j32561"><!-- l4d47dt1 -->
+            <head xml:id="alalal-j32561-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-j32561-d1e101">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="15"/>DIVISIO. TEXTUS.
+<lb ed="#Bf" n="16"/>
+               <quote xml:id="alalal-j32561-Qd1e109"> Solet etiam quxeri, Qualiter dabitur,
+<lb ed="#Bf" n="17"/>etc. </quote>
+               <lb ed="#Bf" n="18"/>Ilic agit de judicio.
+</p>
+            <p xml:id="alalal-j32561-d1e117">
+               <lb ed="#Bf" n="19"/>Et dividitur in tres partes. In prima 
+<lb ed="#Bf" n="20"/>agit de judicio. In secunda, de judice,
+<lb ed="#Bf" n="21"/>et incipit in sequenti distinctione. Ter- 
+<cb ed="#Bf" n="c"/>
+               <lb ed="#Bf" n="22"/>tio, de consequentibus judicium, et 
+in<lb break="no" ed="#Bf" n="23"/>cipit distinctione penultima hujus libri.
+</p>
+            <p xml:id="alalal-j32561-d1e133">
+               <lb ed="#Bf" n="24"/>In prima harum partium queruntur
+<lb ed="#Bf" n="25"/>quinque, scilicet qualiter dabitur judicii
+<lb ed="#Bf" n="26"/>sententia ?
+<lb ed="#Bf" n="27"/>Secundo, De sanctis qui cum Domino
+<lb ed="#Bf" n="28"/>judicabunt.
+<lb ed="#Bf" n="29"/>Tertio, De ordine judicandorum.
+<lb ed="#Bf" n="30"/>Quarto, De ministerio Angelorum in
+<lb ed="#Bf" n="31"/>judicio.
+<lb ed="#Bf" n="32"/>Et quinto, An daemones malis presint
+<lb ed="#Bf" n="33"/>in inferno?
+</p>
+            <p xml:id="alalal-j32561-d1e157">
+               <pb ed="#Bf" n="639"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Et haec secundum ordinem inducuntur
+<lb ed="#Bf" n="2"/>hic in Litiera in quinque capitulis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

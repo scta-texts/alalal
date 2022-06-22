@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="10"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee2035"><!-- l3d1a7 -->
+            <head xml:id="alalal-ee2035-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-ee2035-Hd1e101" type="question-title">An lex decalogi potest impleri sine
+gratia ?</head>
+            <p xml:id="alalal-ee2035-d1e104">
+               <lb ed="Bd" n="52"/>ARTICULUS VIL.
+<lb ed="Bd" n="53"/>An lex decalogi potest impleri sine
+<lb ed="Bd" n="54"/>gratia ?
+</p>
+            <p xml:id="alalal-ee2035-d1e113">
+               <lb ed="Bd" n="55"/>Deinde quaeritur de hoc quod dicit, A,
+<lb ed="Bd" n="56"/>circa finem. <quote xml:id="alalal-ee2035-Qd1e119"> Quia per charitatem, etc. </quote>
+            </p>
+            <p xml:id="alalal-ee2035-d1e122">
+               <lb ed="Bd" n="57"/>Contra: Quia nullus sapiens legislator
+<lb ed="Bd" n="58"/>obligat ad impossibile, sed gratiam 
+ha<lb break="no" ed="Bd" n="59"/>bere non est in potestate : ergo non 
+obli<lb break="no" ed="Bd" n="60"/>gamur ad gratiam habendam : et tamen
+<lb ed="Bd" n="61"/>obligamur ad decalogum : ergo lex 
+de<lb break="no" ed="Bd" n="62"/>calogi potest impleri sine gratia.
+</p>
+            <p xml:id="alalal-ee2035-d1e139">
+               <lb ed="Bd" n="63"/>Solutio Si volumus sustinere illam
+<lb ed="Bd" n="64"/>opinionem, quod modus est in praecepto,
+<lb ed="Bd" n="65"/>tunc dicimus quod elsi decalogus potest
+<lb ed="Bd" n="66"/>impleri quoad opera ipsa quae 
+pracipiun<lb break="no" ed="Bd" n="67"/>tur sine gratia, non tamen potest impleri
+<lb ed="Bd" n="68"/>secundum intentionem legislatoris: quia
+<lb ed="Bd" n="69"/>ille intendit, quod observatio obtineat
+<lb ed="Bd" n="70"/>vitam, et sic non potest servari sine
+<lb ed="Bd" n="71"/>gratia.
+</p>
+            <p xml:id="alalal-ee2035-d1e161">
+               <lb ed="Bd" n="72"/>Ad id autem quod objicitur, quod 
+gra<lb break="no" ed="Bd" n="73"/>tiam habere non est in potestate nostra,
+<lb ed="Bd" n="74"/>dicendum, quod verum est: sed tamen
+<lb ed="Bd" n="75"/>non est impossibile habere: quia 
+facien<lb break="no" ed="Bd" n="76"/>tes quod in nobis est, de necessitate 
+ha<lb break="no" ed="Bd" n="77"/>bebimus, eo quod Deus dat omnibus
+<lb ed="Bd" n="78"/>affluenter, et non improperat’.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

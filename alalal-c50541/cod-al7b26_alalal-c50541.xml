@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 25</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 25</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="266"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c50541"><!-- l1d37a25 -->
+            <head xml:id="alalal-c50541-Hd1e99">Articulus 25</head>
+            <head xml:id="alalal-c50541-Hd1e101" type="question-title">An in uno loco spirituali possunt esse
+duo spiritus sine coangustatione sui?</head>
+            <p xml:id="alalal-c50541-d1e104">
+               <cb ed="#Bb" n="d"/>
+               <lb ed="#Bb" n="37"/>ARTICULUS XXV.
+<lb ed="#Bb" n="38"/>An in uno loco spirituali possunt esse
+<lb ed="#Bb" n="39"/>duo spiritus sine coangustatione sui?
+</p>
+            <p xml:id="alalal-c50541-d1e115">
+               <lb ed="#Bb" n="40"/>Deinde queritur de hoc quod dicit :
+<cb ed="#Bb" n="e"/>
+               <lb ed="#Bb" n="41"/>
+               <quote xml:id="alalal-c50541-Qd1e123"> Si multi essent spiritus hic, non eo
+<lb ed="#Bb" n="42"/>coangustarent locum, etc. </quote>
+            </p>
+            <p xml:id="alalal-c50541-d1e129">
+               <lb ed="#Bb" n="43"/>Istud enim videtur esse contra 
+Dama<lb break="no" ed="#Bb" n="44"/>scenum dicentem sic : Est autem 
+intelli<lb break="no" ed="#Bb" n="45"/>gibilis locus, ubi intelligitur, et est 
+incor<lb break="no" ed="#Bb" n="46"/>porea natura, ubi nimirum est, et 
+opera<lb break="no" ed="#Bb" n="47"/>tur, et non corporaliter continetur, sed
+<lb ed="#Bb" n="48"/>intelligitur 1. Inde procedo sic : Sicut se
+<lb ed="#Bb" n="49"/>habet locus corporalis ad corpus, ita se
+<lb ed="#Bb" n="50"/>habet locus intelligibilis ad spiritum : in
+<pb ed="#Bb" n="267"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>Solutio.
+<lb ed="#Bb" n="2"/>uno loco corporali non possunt esse 
+di<lb break="no" ed="#Bb" n="3"/>versa corpora sine coangustatione : ergo
+<lb ed="#Bb" n="4"/>in uno loco spirituali non possunt esse
+<lb ed="#Bb" n="5"/>diversi spiritus sine coangustatione sui
+<lb ed="#Bb" n="6"/>ut videtur.
+</p>
+            <p xml:id="alalal-c50541-d1e167">
+               <lb ed="#Bb" n="7"/>Praeterea queritur juxta hoc, Quid 
+di<lb break="no" ed="#Bb" n="8"/>catur locus inielligibilis a Damasceno ?
+<lb ed="#Bb" n="9"/>Si enim dicatur natura aliqua 
+intelligibi<lb break="no" ed="#Bb" n="10"/>lis, ut est Deus, vel Angelus. Illud non
+<lb ed="#Bb" n="11"/>videtur : quia unus Angelus non est 
+lo<lb break="no" ed="#Bb" n="12"/>cus alterius Angeli, cum non sit terminus
+<lb ed="#Bb" n="13"/>includens ipsum : similiter Magister 
+ne<lb break="no" ed="#Bb" n="14"/>gabit infra, quod Deus sit locus, et in 
+lo<lb break="no" ed="#Bb" n="15"/>co proprie, cum non sit corporalis 
+natu<lb break="no" ed="#Bb" n="16"/>ra. Si vero dicatur locus intelligibilis, 
+lo<lb break="no" ed="#Bb" n="17"/>cus in quo est intellectualis natura : tune
+<lb ed="#Bb" n="18"/>videtur idem esse locus intelligibilis, et
+<lb ed="#Bb" n="19"/>locus corporalis, et non esse distinctio
+<lb ed="#Bb" n="20"/>inter locum corporalem, et locurn 
+spiri<lb break="no" ed="#Bb" n="21"/>tualem, ut videtur.
+</p>
+            <p xml:id="alalal-c50541-d1e202">
+               <lb ed="#Bb" n="22"/>Soxutio. Dici potest, ut supra habitum
+<lb ed="#Bb" n="23"/>est, quod res multipliciter sunt in loco :
+<lb ed="#Bb" n="24"/>et quod locus dicitur multipliciter’: est
+<lb ed="#Bb" n="25"/>enim locus proprie, et est locus per 
+trans<lb break="no" ed="#Bb" n="26"/>lationem aliquam a proprietate loci 
+di<lb break="no" ed="#Bb" n="27"/>ctus. Locus per translationem a 
+proprie<lb break="no" ed="#Bb" n="28"/>tate loci dictus, potest esse spiritualis 
+na<lb break="no" ed="#Bb" n="29"/>tura, sicut dicit Philosophus in III de
+<lb ed="#Bb" n="30"/>Anima. Bene jam dicentes sunt, scilicet
+<lb ed="#Bb" n="31"/>Philosophi, animam esse locum 
+specie<lb break="no" ed="#Bb" n="32"/>rum rei, quod non tota sit intellectiva,
+<lb ed="#Bb" n="33"/>et non actu, sed potentia est species. Et
+<lb ed="#Bb" n="34"/>sumitur ibi locus a proprietate loci, que
+<lb ed="#Bb" n="35"/>est salvare, eo quod species esse habent
+<lb ed="#Bb" n="36"/>incorruptibile in intellectu : quaemadmo-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="37"/>dum in natura corporali res in proprio
+<lb ed="#Bb" n="38"/>loco salvatur : et quia specierum motus
+<lb ed="#Bb" n="39"/>est ad intellectum possibilem, et 
+quie<lb break="no" ed="#Bb" n="40"/>scunt in ipso,et moventur ab ipso 
+immo<lb break="no" ed="#Bb" n="41"/>bili existenti. Similiter possumus dicere,
+<lb ed="#Bb" n="42"/>quod Deus locus intelligibilis est Angel:
+<lb ed="#Bb" n="43"/>et in sequenti capitulo dicit Beda, quod
+<lb ed="#Bb" n="44"/>intra Deum currunt Angeli, quocumque
+<lb ed="#Bb" n="45"/>mittuntur ', eo quod continet eos et 
+am<lb break="no" ed="#Bb" n="46"/>bit ambitu virtutis continentis. Locus 
+au<lb break="no" ed="#Bb" n="47"/>tem proprie dicitur duobus modis, scilicet
+<lb ed="#Bb" n="48"/>diffinitive, et circumscriptive : et de 
+utro<lb break="no" ed="#Bb" n="49"/>que supra dictum est. Diffinitivus autem
+<lb ed="#Bb" n="50"/>dicitur a Damasceno intellectualis locus
+<lb ed="#Bb" n="51"/>ex relatione ad naturam intellectualem,
+<lb ed="#Bb" n="52"/>que est Angelus : et ideo dividitur contra
+<lb ed="#Bb" n="53"/>corporalem, quia corporalis dicitur ex 
+re<lb break="no" ed="#Bb" n="54"/>latione ad corporalem naturam 
+conten<lb break="no" ed="#Bb" n="55"/>tam per se vel per accidens in illo: 
+sic<lb break="no" ed="#Bb" n="56"/>ut accidentia dicimus in loco, quae 
+si<lb break="no" ed="#Bb" n="57"/>tualia sunt in loco. Et per hoc patet 
+so<lb break="no" ed="#Bb" n="58"/>lutio ad totum praeter primum,
+</p>
+            <p xml:id="alalal-c50541-d1e287">
+               <lb ed="#Bb" n="59"/>Ad guop dicendum, quod Magister 
+ac<lb break="no" ed="#Bb" n="60"/>cipit hic locum qui habet corporalem
+<lb ed="#Bb" n="61"/>continentiam : cum enim spiritus non 
+re<lb break="no" ed="#Bb" n="62"/>pleat, cum quolibet corpore potest esse
+<lb ed="#Bb" n="63"/>in eodem loco : et unus alium non 
+coan<lb break="no" ed="#Bb" n="64"/>gustabit : sed non sic est de loco 
+intelli<lb break="no" ed="#Bb" n="65"/>gibili, qui accipitur ex relatione loci ad
+<lb ed="#Bb" n="66"/>intellectualem naturam diffinitam in ip~
+<lb ed="#Bb" n="67"/>so, quae determinatur ad locum per
+<lb ed="#Bb" n="68"/>opus : unam enim talem relationem 
+im<lb break="no" ed="#Bb" n="69"/>possibile est fieri ad duos Angelos : et
+<lb ed="#Bb" n="70"/>ideo impossibile est duos Angelos esse
+<lb ed="#Bb" n="71"/>in eodem loco.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

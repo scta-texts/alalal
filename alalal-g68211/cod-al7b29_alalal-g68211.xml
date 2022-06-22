@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="333"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g68211"><!-- l4d13dt1 -->
+            <head xml:id="alalal-g68211-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-g68211-d1e101">
+               <pb ed="#Be" n="333"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-g68211-d1e110">
+               <lb ed="#Be" n="2"/>
+               <quote xml:id="alalal-g68211-Qd1e114"> Solet etiam queri de fractione, etc. </quote>
+               <lb ed="#Be" n="3"/>Hee distinctio dividitur in duas 
+par<lb break="no" ed="#Be" n="4"/>tes: in quarum prima Magister primo
+<lb ed="#Be" n="5"/>movet questionem, quid frangatur in
+<lb ed="#Be" n="6"/>sacramento, et solvit secundum quatuor
+<lb ed="#Be" n="7"/>opiniones. In secunda autem tangit 
+par<lb break="no" ed="#Be" n="8"/>tium significationem, ibi, E, <quote xml:id="alalal-g68211-Qd1e129"> Quid 
+au<lb break="no" ed="#Be" n="9"/>tem ille partes significent, etc. </quote>
+            </p>
+            <p xml:id="alalal-g68211-d1e135">
+               <lb ed="#Be" n="10"/>Adhue prima dividitur in quatuor 
+se<lb break="no" ed="#Be" n="11"/>cundum quatuor opiniones in Li¢lera 
+ta<lb break="no" ed="#Be" n="12"/>ctas. Ht secunda incipit ibi, B, <quote xml:id="alalal-g68211-Qd1e143"> Ali
+<lb ed="#Be" n="13"/>vero dicunt, etc. </quote> Tertia, ibi, C, <quote xml:id="alalal-g68211-Qd1e148"> Alii
+<lb ed="#Be" n="14"/>tradunt corpus Christi, etc. </quote> Quarta,
+<lb ed="#Be" n="15"/>ibi, D, <quote xml:id="alalal-g68211-Qd1e156"> Sed quia corpus Christi 
+incor<lb break="no" ed="#Be" n="16"/>ruptibile, etc. </quote>
+            </p>
+            <p xml:id="alalal-g68211-d1e162">
+               <lb ed="#Be" n="17"/>In prima autem quatuor continentur.
+<lb ed="#Be" n="18"/>Primo enim ponit rationem ad hoc quod
+<lb ed="#Be" n="19"/>corpus frangatur. Secundo, rationem ad
+<lb ed="#Be" n="20"/>oppositum. Tertio, elicit quorumdam
+<lb ed="#Be" n="21"/>circa hoc opinonem falsam. Quarto, 
+ob<lb break="no" ed="#Be" n="22"/>jicit contra illam.
+</p>
+            <p xml:id="alalal-g68211-d1e179">
+               <lb ed="#Be" n="23"/>Et haec plane patent in Littera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="144"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e27989"><!-- l3d7a1 -->
+            <head xml:id="alalal-e27989-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-e27989-Hd1e101" type="question-title">An illa sit concedenda, Homo coepit esse
+Deus?</head>
+            <p xml:id="alalal-e27989-d1e104">
+               <lb ed="Bd" n="35"/>ARTICULUS I.
+<lb ed="Bd" n="36"/>An illa sit concedenda, Homo coepit esse
+<lb ed="Bd" n="37"/>Deus?
+</p>
+            <p xml:id="alalal-e27989-d1e113">
+               <lb ed="Bd" n="38"/>Objicitur autem de hoc quod dicit in
+<lb ed="Bd" n="39"/>primo capitulo A, §1: <quote xml:id="alalal-e27989-Qd1e119"> Illa 
+substan<lb break="no" ed="Bd" n="40"/>tia cepit esse Deus: </quote> et de illo, Deus
+<lb ed="Bd" n="41"/>cepit esse quaedam substantia.
+</p>
+            <p xml:id="alalal-e27989-d1e127">
+               <lb ed="Bd" n="42"/>1. Vult enim per hoc dicere, quod
+<lb ed="Bd" n="43"/>Deus coepit esse homo, et homo coepit
+<lb ed="Bd" n="44"/>esse Deus: sed quod incipit, est novum :
+<pb ed="#Bd" n="145"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>si ergo homo incipit esse Deus, incipit
+<lb ed="Bd" n="2"/>esse novum: ergo homo tunc fuit 
+no<lb break="no" ed="Bd" n="3"/>vus Deus: sed novum est recens: ergo
+<lb ed="Bd" n="4"/>incipit esse recens Deus, quod erit contra
+<lb ed="Bd" n="5"/>Psalmum dicentem: Non erit in te Deus
+<lb ed="Bd" n="6"/>recens.
+</p>
+            <p xml:id="alalal-e27989-d1e154">
+               <lb ed="Bd" n="7"/>2. Item, Quod incipit esse, nunc
+<lb ed="Bd" n="8"/>primo est, et ante hoc non fuit in 
+per<lb break="no" ed="Bd" n="9"/>manentibus : quia in successivis icipit
+<lb ed="Bd" n="10"/>et desinié aliter habet exponi. Si igitur
+<lb ed="Bd" n="11"/>homo incipit esse Deus, nunc primo est
+<lb ed="Bd" n="12"/>Deus, et ante hoc non fuit, quod est 
+con<lb break="no" ed="Bd" n="13"/>tra Augustinum et <name xml:id="alalal-e27989-Nd1e171">Cassianum</name> dicentes,
+<lb ed="Bd" n="14"/>quod ille homo ab aeterno est Deus, et
+<lb ed="Bd" n="15"/>quod. creavit stellas.
+</p>
+            <p xml:id="alalal-e27989-d1e178">
+               <lb ed="Bd" n="16"/>Solutio Dicendum, quod primum 
+ar<lb break="no" ed="Bd" n="17"/>gumentum non convenit huic opinioni,
+<lb ed="Bd" n="18"/>sed secunde necessario, ut infra 
+dice<lb break="no" ed="Bd" n="19"/>tur.
+</p>
+            <p xml:id="alalal-e27989-d1e189">
+               <lb ed="Bd" n="20"/>Unvr dicendum ad primum, quod
+<lb ed="Bd" n="21"/>homo incipit esse Deus, ista est 
+conce<lb break="no" ed="Bd" n="22"/>denda secundum hanc opinionem quae
+<lb ed="Bd" n="23"/>ponit quod cum dicitur, homo, non 
+sup<lb break="no" ed="Bd" n="24"/>ponitur nisi natura una et due 
+substan<lb break="no" ed="Bd" n="25"/>tiae, sicut supra explanatum est: et bene
+<lb ed="Bd" n="26"/>sequitur ullerius, ergo nune primum est
+<lb ed="Bd" n="27"/>Deus, et ante hocnon fuit, si simus mm 
+in<lb break="no" ed="Bd" n="28"/>stanti unionis: sed non sequitur ulterius,
+<lb ed="Bd" n="29"/>ergo incipit esse novus Deus, vel 
+no<lb break="no" ed="Bd" n="30"/>vum aliquid, vel recens aliquid: quia
+<lb ed="Bd" n="31"/>cum ista concedebatur, Homo ineipit
+<lb ed="Bd" n="32"/>esse Deus, ly incipit ponebat 
+inceptio<lb break="no" ed="Bd" n="33"/>nem suam circa subjecti naturam in
+<lb ed="Bd" n="34"/>comparaiione ad predicatum : et ideo
+<lb ed="Bd" n="35"/>inceptio ponebatur circa formam 
+ho<lb break="no" ed="Bd" n="36"/>minis et unionem ipsius. In conclusione
+<lb ed="Bd" n="37"/>autem notatur ponere inceptionem circa
+<lb ed="Bd" n="38"/>formam predicati in comparatione ad
+<lb ed="Bd" n="39"/>subjectum : et ideo tunc denotatur Deus
+<lb ed="Bd" n="40"/>incepisse, et nunc primum esse, quod
+<lb ed="Bd" n="41"/>falsum est. Ita oportet respondere 
+secun<lb break="no" ed="Bd" n="42"/>dum hanc opinionem, Sed aliter erit 
+res<lb break="no" ed="Bd" n="43"/>pondendum secundum opinionem 
+secun<lb break="no" ed="Bd" n="44"/>dam, quae sola vera est inter opiniones,
+<lb ed="Bd" n="45"/>ut patebit infra.
+</p>
+            <p xml:id="alalal-e27989-d1e248">
+               <lb ed="Bd" n="46"/>Ad aliud dicendum, quod argumen-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="47"/>tum convenit huic opinioni, eo quod
+<lb ed="Bd" n="48"/>ponit, quod nihil supponitur cum 
+dici<lb break="no" ed="Bd" n="49"/>tur, hic homo, nisi suppositum hominis
+<lb ed="Bd" n="50"/>in quantum est ex natura humana, et
+<lb ed="Bd" n="51"/>duplici substantia quae est caro et 
+ani<lb break="no" ed="Bd" n="52"/>ma: et sic ipse non fuit ab aeterno: et
+<lb ed="Bd" n="53"/>ideo ista opinic Sanctis contrariatur,
+<lb ed="Bd" n="54"/>scilicet Augustino et Cassiano. Sed 
+se<lb break="no" ed="Bd" n="55"/>cundum opinionem veram, quae 
+secun<lb break="no" ed="Bd" n="56"/>da est, supponit personam divinam in
+<lb ed="Bd" n="57"/>humana natura et triplici substantia: et
+<lb ed="Bd" n="58"/>tune oportet aliter respoudere utrique
+<lb ed="Bd" n="59"/>argumento sic, quod cum dicitur, Homo
+<lb ed="Bd" n="60"/>cepit esse Deus, quod ly Deus cwpit vel
+<lb ed="Bd" n="61"/>incepit, potest notare inceptionem circa
+<lb ed="Bd" n="62"/>rem subjecti, vel predicati. Si 
+praedi<lb break="no" ed="Bd" n="63"/>cati, falsa est: si subjecti, adhuc duplex
+<lb ed="Bd" n="64"/>est, scilicet quod inceptio potest poni
+<lb ed="Bd" n="65"/>circa suppositum in comparatione ad 
+for<lb break="no" ed="Bd" n="66"/>mam quae significatur nomine subjecti,
+<lb ed="Bd" n="67"/>et sic est vera sub hoc sensu, iste qui
+<lb ed="Bd" n="68"/>est homo in quantum homo incipit esse
+<lb ed="Bd" n="69"/>Deus. Cum enim suppositum hominis
+<lb ed="Bd" n="70"/>sit divina persona, ut supra probatum
+<lb ed="Bd" n="71"/>est, forma tamen significata per 
+homi<lb break="no" ed="Bd" n="72"/>nem non est nisi humanitas: et in hoc
+<lb ed="Bd" n="73"/>sensu ponitur inceptio circa personam
+<lb ed="Bd" n="74"/>gratia humanitatis: et ideo vera est. Si
+<lb ed="Bd" n="75"/>autem ly ineipit ponit mceptionem circa
+<lb ed="Bd" n="76"/>suppositum absolute, falsa est locutio :
+<lb ed="Bd" n="77"/>quia tunc sensus est, ile qui est homo
+<lb ed="Bd" n="78"/>incipit esse Deus: et loc est falsum,
+<lb ed="Bd" n="79"/>cum ab aeterno fuerit Deus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

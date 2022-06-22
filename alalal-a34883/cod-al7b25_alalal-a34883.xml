@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="172"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a34883"><!-- l1d4a11 -->
+            <head xml:id="alalal-a34883-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-a34883-Hd1e101" type="question-title">An hic articulus fidet solus Christiano
+satis est ?</head>
+            <p xml:id="alalal-a34883-d1e104">
+               <lb ed="#Ba" n="63"/>ARTICULUS XI.
+<lb ed="#Ba" n="64"/>An hic articulus fidet solus Christiano
+<lb ed="#Ba" n="65"/>satis est ?
+</p>
+            <p xml:id="alalal-a34883-d1e113">
+               <lb ed="#Ba" n="66"/>Deinde quaeritur de hoc quod dicit
+<lb ed="#Ba" n="67"/>
+               <quote xml:id="alalal-a34883-Qd1e119"> Satis est Christiano, etc. </quote>
+            </p>
+            <p xml:id="alalal-a34883-d1e122">
+               <lb ed="#Ba" n="68"/>Sunt enim multi alii articuli qui 
+cre<lb break="no" ed="#Ba" n="69"/>dendi sunt: ergo istud non est satis.
+</p>
+            <p xml:id="alalal-a34883-d1e130">
+               <lb ed="#Ba" n="70"/>Ad hoc dicendum, quod Augustinus
+<lb ed="#Ba" n="71"/>intendit, quod in credendis vel 
+investi<lb break="no" ed="#Ba" n="72"/>gandis causis rerum quoad sufficientiam
+<lb ed="#Ba" n="73"/>fidei in hoc articulo satis est, et non
+<lb ed="#Ba" n="74"/>oportet querere causas naturales et 
+pro<lb break="no" ed="#Ba" n="75"/>ximas quas Philosophi inquirunt.
+</p>
+            <p xml:id="alalal-a34883-d1e146">
+               <lb ed="#Ba" n="76"/>Nunc autem ad ipsam quastionem
+<lb ed="#Ba" n="77"/>etiam potest dici, quod haecest duplex,
+<lb ed="#Ba" n="78"/>genuit alium Deum, ex eo quod ly alium
+<lb ed="#Ba" n="79"/>potest teneri adjective, et sic falsa : vel
+<lb ed="#Ba" n="80"/>substantive, et sic vera, quia tunc est
+<lb ed="#Ba" n="81"/>sensus, genuit alum qui est Deus, sicut
+<lb ed="#Ba" n="82"/>in Joanne legitur: Lyo regabo Patrem,
+<lb ed="#Ba" n="83"/>et alium Paraclitum dabit vobis', id est,
+<lb ed="#Ba" n="84"/>alium qui est Paraclitus : quia Paraclitus
+<lb ed="#Ba" n="85"/>est nomen substantiale, et ideo Pater
+<lb ed="#Ba" n="86"/>non est alius Paraclitus quam Filius, vel
+<lb ed="#Ba" n="87"/>Spiritus sanctus.
+</p>
+            <p xml:id="alalal-a34883-d1e175">
+               <lb ed="#Ba" n="88"/>Et haec sufficiant de ista distinctione.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

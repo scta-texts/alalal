@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="96"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g18052"><!-- l4d4a10 -->
+            <head xml:id="alalal-g18052-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-g18052-Hd1e101" type="question-title">An unus et aequalis sit effectus baptismi
+in omnibus baptizalis ?</head>
+            <p xml:id="alalal-g18052-d1e104">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="5"/>ARTICULUS X.
+<lb ed="#Be" n="6"/>An unus et aequalis sit effectus baptismi
+<lb ed="#Be" n="7"/>in omnibus baptizalis ?
+</p>
+            <p xml:id="alalal-g18052-d1e115">
+               <lb ed="#Be" n="8"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="9"/>ibi, F, § 1: <quote xml:id="alalal-g18052-Qd1e121"> Soleé etiam queri de illis
+<lb ed="#Be" n="10"/>gui jam sanctificati, etc. </quote>
+            </p>
+            <p xml:id="alalal-g18052-d1e127">
+               <lb ed="#Be" n="11"/>Et de sanctificatione quidem in 
+uni<lb break="no" ed="#Be" n="12"/>verso posset hic queri, sed disputatum
+<lb ed="#Be" n="13"/>est in libro II Sententiarwm', et late 
+per<lb break="no" ed="#Be" n="14"/>secutum.
+</p>
+            <p xml:id="alalal-g18052-d1e139">
+               <lb ed="#Be" n="15"/>Videtur autem hic unus esse effectus
+<lb ed="#Be" n="16"/>in omnibus accedentibus ad baptismum :
+<lb ed="#Be" n="17"/>1. Unius enim causae uno modo 
+cau<lb break="no" ed="#Be" n="18"/>santis actus est unus: baptismus autem
+<lb ed="#Be" n="19"/>est una causa uno modo causans in 
+om<lb break="no" ed="#Be" n="20"/>nibus baptizatis : ergo effectus est unus.
+</p>
+            <p xml:id="alalal-g18052-d1e155">
+               <lb ed="#Be" n="21"/>2. Item, Omnes in merito passionis
+<lb ed="#Be" n="22"/>Christi justificantur : sed hoc uno modo
+<lb ed="#Be" n="23"/>se habet ad omnes: ergo aequalem 
+om<lb break="no" ed="#Be" n="24"/>nes in baptismo gratiam recipiunt.
+</p>
+            <p xml:id="alalal-g18052-d1e166">
+               <lb ed="#Be" n="25"/>3. Item, Si dicas, quod in baptismo
+<lb ed="#Be" n="26"/>exigitur preparatio : sed preparatio non
+<lb ed="#Be" n="27"/>est nisi ut non inveniat obstaculum,
+<lb ed="#Be" n="28"/>quia aliter parvuli non reciperent gratiam
+<lb ed="#Be" n="29"/>in baptismo: ergo videtur, quod 
+parvu<lb break="no" ed="#Be" n="30"/>lus et adultus in baptismo aequalem 
+gra<lb break="no" ed="#Be" n="31"/>tiam recipiunt, et quilibet adultus non
+<lb ed="#Be" n="32"/>fictus cum quolibet non ficto.
+</p>
+            <p xml:id="alalal-g18052-d1e186">
+               <lb ed="#Be" n="33"/>4. Ad Hoc dicunt quidam, quod triplex
+<lb ed="#Be" n="34"/>est actus gratia baptismalis, scilicet 
+de<lb break="no" ed="#Be" n="35"/>letio universalis culpe, et diminutio 
+pe<lb break="no" ed="#Be" n="36"/>ne, et ordo virtutum in meritis, Et quoad
+<lb ed="#Be" n="37"/>primos actus datur gratia aequaliter in
+<lb ed="#Be" n="38"/>omnibus, sed non quoad tertium.
+</p>
+            <p xml:id="alalal-g18052-d1e202">
+               <cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="39"/>Sed contra hoc videtur esse, quia uni
+<lb ed="#Be" n="40"/>remittuntur centum, et alii decem 
+pec<lb break="no" ed="#Be" n="41"/>cata : quia inequaliter peccaverunt : 
+er<lb break="no" ed="#Be" n="42"/>go videtur, quod actus remissionis culpe
+<lb ed="#Be" n="43"/>non sit aequalis in baptismo.
+</p>
+            <p xml:id="alalal-g18052-d1e218">
+               <lb ed="#Be" n="44"/>Solutio. Dicendum, quod solutio ista
+<lb ed="#Be" n="45"/>bona est : et ad primum dicendum, quod
+<lb ed="#Be" n="46"/>licet baptismus sit causa una, tamen non
+<lb ed="#Be" n="47"/>eodem modo se habent accedentes ad
+<lb ed="#Be" n="48"/>baptismum tamquam ad causam illam :
+<lb ed="#Be" n="49"/>et ideo fit differens effectus quoad 
+meri<lb break="no" ed="#Be" n="50"/>tum: sicut etiam ignis causa una est 
+in<lb break="no" ed="#Be" n="51"/>cendii, tamen inequaliter incendit ligna
+<lb ed="#Be" n="52"/>viridia et arida.
+</p>
+            <p xml:id="alalal-g18052-d1e241">
+               <lb ed="#Be" n="53"/>Ad aliud eodem modo est 
+responden<lb break="no" ed="#Be" n="54"/>dum : quia passio Christi non causat
+<lb ed="#Be" n="55"/>gratiam in nobis nisi continuata nobis :
+<lb ed="#Be" n="56"/>continuatur autem per fidem et 
+devotio<lb break="no" ed="#Be" n="57"/>nem, et haec differentiam magnam 
+ha<lb break="no" ed="#Be" n="58"/>bent ex parte nostra.
+</p>
+            <p xml:id="alalal-g18052-d1e257">
+               <lb ed="#Be" n="59"/>Ad aliud dicendum, quod non tantum
+<lb ed="#Be" n="60"/>est preparatio in vitatione obstaculi : 
+hi<lb break="no" ed="#Be" n="61"/>cet enim illa sufficiat quoad operationem
+<lb ed="#Be" n="62"/>baptismi, tamen multum operatur ad 
+cu<lb break="no" ed="#Be" n="63"/>mulum meriti gquantitas contritionis et
+<lb ed="#Be" n="64"/>devotionis, ut dictum est.
+</p>
+            <p xml:id="alalal-g18052-d1e273">
+               <lb ed="#Be" n="65"/>Ad i quod objicitur contra 
+solutio<lb break="no" ed="#Be" n="66"/>nem, dicendum, Quod in uno delet plura
+<lb ed="#Be" n="67"/>et in alio pauciora, hoc est per accidens,
+<lb ed="#Be" n="68"/>quia in subjecto invenit plura vel 
+pau<lb break="no" ed="#Be" n="69"/>ciora : sed est idem quoad eflicaciam
+<lb ed="#Be" n="70"/>suam de uno et de mille.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

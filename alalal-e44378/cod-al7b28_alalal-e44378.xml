@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="229"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e44378"><!-- l3d12a5 -->
+            <head xml:id="alalal-e44378-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-e44378-Hd1e101" type="question-title">An Christus potuit velle malum aut
+iniquitatem ?</head>
+            <p xml:id="alalal-e44378-d1e104">
+               <pb ed="#Bd" n="229"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ARTICULUS V.
+<lb ed="Bd" n="2"/>An Christus potuit velle malum aut
+<lb ed="Bd" n="3"/>iniquitatem ?
+</p>
+            <p xml:id="alalal-e44378-d1e117">
+               <lb ed="Bd" n="4"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="5"/>ibi, C, <quote xml:id="alalal-e44378-Qd1e123"> Esse Deum, et posse velle 
+ini<lb break="no" ed="Bd" n="6"/>quitatem, simul esse nequent. </quote>
+            </p>
+            <p xml:id="alalal-e44378-d1e129">
+               <lb ed="Bd" n="7"/>Videtur enim, quod hoc sit falsum :
+<lb ed="Bd" n="8"/>i. Aut enim Christus potuit peccare,
+<lb ed="Bd" n="9"/>aut non peccare. Si non potuit peccare :
+<lb ed="Bd" n="10"/>ergo necessario fuit bonus : ergo bonitas
+<lb ed="Bd" n="11"/>sua non fuit laudabilis. Si potuit peccare,
+<lb ed="Bd" n="12"/>habeo propositum : quia si potuit 
+pecca<lb break="no" ed="Bd" n="13"/>re, potuit velle iniquitatem, et tamen
+<lb ed="Bd" n="14"/>Deus est : ergo simul potuit peccare, et
+<lb ed="Bd" n="15"/>esse Deus.
+</p>
+            <p xml:id="alalal-e44378-d1e152">
+               <lb ed="Bd" n="16"/>2. Praeterea, Opponunt quidam sic :
+<lb ed="Bd" n="17"/>Christus aut mentiri potuit, aut non. Si
+<lb ed="Bd" n="18"/>non potuit : ergo falsum proferre non
+<lb ed="Bd" n="19"/>potuit: ergo non potuit omnia quae tu
+<lb ed="Bd" n="20"/>potes : quia tu falsum proferre poteris.
+<lb ed="Bd" n="21"/>Si autem mentiri potuit: ergo peccare
+<lb ed="Bd" n="22"/>potuit : et omne peccatum, actuale 
+pra<lb break="no" ed="Bd" n="23"/>cipue, est voluntarium : ergo potuit velle
+<lb ed="Bd" n="24"/>peccatum.
+</p>
+            <p xml:id="alalal-e44378-d1e174">
+               <lb ed="Bd" n="25"/>3. Item, Videtur voluisse peccatum
+<lb ed="Bd" n="26"/>aliquando : quia voluit hoc quod non
+<lb ed="Bd" n="27"/>voluit Deus Pater : quia voluit calicem
+<lb ed="Bd" n="28"/>transferri a se‘,
+</p>
+            <p xml:id="alalal-e44378-d1e185">
+               <lb ed="Bd" n="29"/>4. Si dicas quod non est peccatum
+<lb ed="Bd" n="30"/>velle quod Deus non vult. Conrra : 
+Su<lb break="no" ed="Bd" n="31"/>per illud Cantic. 1, 3: Recti diligunt te,
+<lb ed="Bd" n="32"/>dicit Glossa, quod curvitas anime est
+<lb ed="Bd" n="33"/>velle illud quod Deus non vult : ergo est
+<lb ed="Bd" n="34"/>peccatum, quia nihil est curvitas anime
+<lb ed="Bd" n="35"/>nisi peccatum.
+</p>
+            <p xml:id="alalal-e44378-d1e203">
+               <lb ed="Bd" n="36"/>3. Item, Aut voluit quod calix ab eo
+<lb ed="Bd" n="37"/>transiret, aut non. Si sic : tunc voluit
+<lb ed="Bd" n="38"/>quod Pater noluit, et sic voluit 
+pecca<lb break="no" ed="Bd" n="39"/>tum, ut videtur. Si non, et petiit : ergo
+<lb ed="Bd" n="40"/>petit quod non voluit : et ita duplex
+<lb ed="Bd" n="41"/>videtur fuisse, quod iterum peccatum est :
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="42"/>et ita videtur, quod non repugnent ista,
+<lb ed="Bd" n="43"/>posse velle iniquitatem, et esse Deum.
+</p>
+            <p xml:id="alalal-e44378-d1e225">
+               <lb ed="Bd" n="44"/>Solutio Dicendum, quod Christus non
+<lb ed="Bd" n="45"/>potuit velle iniquitatem : et hoc non fuit
+<lb ed="Bd" n="46"/>coactio, sed immobilitas honestatis suae
+<lb ed="Bd" n="47"/>ex unione ad deitatem.
+</p>
+            <p xml:id="alalal-e44378-d1e236">
+               <lb ed="Bd" n="48"/>Ad primum ergo dicendum, quod 
+boni<lb break="no" ed="Bd" n="49"/>tas Christi laudabilissima fuit ex hoc
+<lb ed="Bd" n="50"/>quod peceare non potuit : quia hoc non
+<lb ed="Bd" n="51"/>posse, nobilissimum posse est : unde
+<lb ed="Bd" n="52"/>non sonat coactionem, sed potius 
+immo<lb break="no" ed="Bd" n="53"/>bilitatem voluntatis ex perfecta affectione
+<lb ed="Bd" n="54"/>circa summum bonum quam habet 
+Chri<lb break="no" ed="Bd" n="55"/>stus ex unione.
+</p>
+            <p xml:id="alalal-e44378-d1e257">
+               <lb ed="Bd" n="56"/>Ad aliud dicendum, quod Christus
+<lb ed="Bd" n="57"/>numgquam mentir: potuit : et pono, quod
+<lb ed="Bd" n="58"/>proferat falsum, erit materialiter 
+suppo<lb break="no" ed="Bd" n="59"/>silum suum falsum, et non cum 
+inten<lb break="no" ed="Bd" n="60"/>tione fallendi, vel significandi falsum ita
+<lb ed="Bd" n="61"/>esse ut pronuntiatur : falsitas enim 
+veri<lb break="no" ed="Bd" n="62"/>tati immisceri non potest.
+</p>
+            <p xml:id="alalal-e44378-d1e275">
+               <lb ed="Bd" n="63"/>Ad aliud dicendum, quod Christus
+<lb ed="Bd" n="64"/>numgquam voluit quod Pater noluit eum
+<lb ed="Bd" n="65"/>velle. Quando enim Pater cum fecit 
+ho<lb break="no" ed="Bd" n="66"/>minem, voluit eum velle et ostendere se
+<lb ed="Bd" n="67"/>velle omnia homini naturalia : et ideo
+<lb ed="Bd" n="68"/>voluit cum velle quod sequebatur ex 
+ti<lb break="no" ed="Bd" n="69"/>more naturalium. Quod dixit : Si 
+possi<lb break="no" ed="Bd" n="70"/>bile est, etc., ostensivum fuit naturalis
+<lb ed="Bd" n="71"/>timoris : et hoc velle dummodo timor
+<lb ed="Bd" n="72"/>non deduceret rationem non fuit 
+contra<lb break="no" ed="Bd" n="73"/>rium voluntati Patris, sed potius Pater
+<lb ed="Bd" n="74"/>voluit eum hoc velle.
+</p>
+            <p xml:id="alalal-e44378-d1e304">
+               <lb ed="Bd" n="75"/>Ad ww quod objicitur de Canticis, 
+dicen<lb break="no" ed="Bd" n="76"/>dum, quod intelligitur de conformitate
+<lb ed="Bd" n="77"/>voluntatis Dei et forma volend!, scilicet
+<lb ed="Bd" n="78"/>ut ex cadem charitate velimus ex qua
+<lb ed="Bd" n="79"/>vult Deus : in volito enim solo 
+quando<lb break="no" ed="Bd" n="80"/>que conformare voluntatem ad 
+volunta<lb break="no" ed="Bd" n="81"/>tem est mortale peccatum, ut patet in fine
+<lb ed="Bd" n="82"/>primi libri Sententiarwm, in auctoritate
+<lb ed="Bd" n="83"/>Augustini, de duobus filiis, quorum unus
+<lb ed="Bd" n="84"/>ex avaritia patrem morientem vult mori :
+<lb ed="Bd" n="85"/>alter ex pietate vulteum vivere, quod non
+<lb ed="Bd" n="86"/>vult Deus. De hac autem materia ibi 
+plu<lb break="no" ed="Bd" n="87"/>ra notata sunt.
+</p>
+            <p xml:id="alalal-e44378-d1e335">
+               <pb ed="#Bd" n="230"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Ad aliuddicenduin, quod petiit quod
+<lb ed="Bd" n="2"/>voluit eum Pater petere, quando naturam
+<lb ed="Bd" n="3"/>passibilem dedit: et ideo nec dupiex,
+<lb ed="Bd" n="4"/>nec difformis a Patris voluntate 
+osten<lb break="no" ed="Bd" n="5"/>ditur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

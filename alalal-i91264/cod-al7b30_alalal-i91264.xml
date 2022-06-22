@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="439"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i91264"><!-- l4d39a9 -->
+            <head xml:id="alalal-i91264-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-i91264-Hd1e101" type="question-title">An unus conjugum fidelis potest alium
+dimiltere ante mortem alterius ?</head>
+            <p xml:id="alalal-i91264-d1e104">
+               <lb ed="#Bf" n="5"/>ARTICULUS IX.
+<lb ed="#Bf" n="6"/>An unus conjugum fidelis potest alium
+<lb ed="#Bf" n="7"/>dimiltere ante mortem alterius ?
+</p>
+            <p xml:id="alalal-i91264-d1e113">
+               <lb ed="#Bf" n="8"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bf" n="9"/>HE, <quote xml:id="alalal-i91264-Qd1e119"> Hic queritur, Si fidelis dimittat 
+in<lb break="no" ed="#Bf" n="10"/>fidelem, etc. </quote>
+            </p>
+            <p xml:id="alalal-i91264-d1e125">
+               <lb ed="#Bf" n="11"/>Videtur enim non esse vera 
+determi<lb break="no" ed="#Bf" n="12"/>natio Magistri sic :
+<lb ed="#Bf" n="13"/>1. In omni vero et legitimo matrimonio
+<lb ed="#Bf" n="14"/>uterque conjugum obligatur alteri usque
+<lb ed="#Bf" n="15"/>ad mortem : sed inter infideles est verum
+<lb ed="#Bf" n="16"/>et legitimum matrimonium : ergo 
+uter<lb break="no" ed="#Bf" n="17"/>que conjugum alteri obligatur usque ad
+<lb ed="#Bf" n="18"/>mortem. Proparur prima. I ad Corinth.
+<lb ed="#Bf" n="19"/>vu, 39, ubi dicitur, quod <quote xml:id="alalal-i91264-Qd1e146">mulier alligata
+<lb ed="#Bf" n="20"/>est legi, scilicet viri, quanto tempore vir
+<lb ed="#Bf" n="21"/>ejus vivit</quote>. Secunda scribitur in Littera,
+</p>
+            <p xml:id="alalal-i91264-d1e155">
+               <lb ed="#Bf" n="22"/>2. Item, Matrimonium infidelium est
+<lb ed="#Bf" n="23"/>perfectum in significando et causando :
+<lb ed="#Bf" n="24"/>sed perfectum obligat usque ad mortem.
+</p>
+            <p xml:id="alalal-i91264-d1e164">
+               <lb ed="#Bf" n="25"/>3. Item, Minus vinculum est inter 
+do<lb break="no" ed="#Bf" n="26"/>minum et servum, quam inter virum et
+<lb ed="#Bf" n="27"/>uxorem : sed primum non solvitur per
+<lb ed="#Bf" n="28"/>conversionem alterius : ergo nec 
+secun<lb break="no" ed="#Bf" n="29"/>dum.
+</p>
+            <p xml:id="alalal-i91264-d1e177">
+               <lb ed="#Bf" n="30"/>4. Item, Ambrosius dicit, quod in
+<lb ed="#Bf" n="31"/>baptismo peccata solvuntur, non 
+conju<lb break="no" ed="#Bf" n="32"/>gia: ergo per baptismum non 
+deobliga<lb break="no" ed="#Bf" n="33"/>tur viro uxor : ergo ante mortem ejus
+<lb ed="#Bf" n="34"/>contrahere non potest.
+</p>
+            <p xml:id="alalal-i91264-d1e190">
+               <lb ed="#Bf" n="35"/>5. Ulterius videtur, quod si infidelis
+<lb ed="#Bf" n="36"/>dimissus contrahat, teneat matrimonium.
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="37"/>Aut enim fidelis contrahere potest, aut
+<lb ed="#Bf" n="38"/>non. Si non, hoc erit contra Litteram.
+<lb ed="#Bf" n="39"/>Si sic, non potest contrahere nisi solutus
+<lb ed="#Bf" n="40"/>a matrimonio quo prius fut obligatus :
+<lb ed="#Bf" n="41"/>sed cum matrimonium sit relatio 
+que<lb break="no" ed="#Bf" n="42"/>dam, et relatio non solvatur in uno nisi
+<lb ed="#Bf" n="43"/>solyatur in utroque relativorum, erit 
+in<lb break="no" ed="#Bf" n="44"/>fidelis absolutus a matrimonio : solutus
+<lb ed="#Bf" n="45"/>autem contrahere potest : ergo infidelis
+<lb ed="#Bf" n="46"/>sic dimissus potest contrahere.
+</p>
+            <p xml:id="alalal-i91264-d1e221">
+               <lb ed="#Bf" n="47"/>6. Item, Injustum est si debeat aliquis
+<lb ed="#Bf" n="48"/>ex jure alieno et non debeatur ex eodem :
+<lb ed="#Bf" n="49"/>ergo nullum jus matrimonii obligat 
+infi<lb break="no" ed="#Bf" n="50"/>delem ad debitum, ita quod non 
+debea<lb break="no" ed="#Bf" n="51"/>tur ei ex eodem : sed non debetur ei, ut
+<lb ed="#Bf" n="52"/>dicitur in Litera : ergo nec ipse debet
+<lb ed="#Bf" n="53"/>aliquid, ut videtur : ergo licet ei 
+contra<lb break="no" ed="#Bf" n="54"/>here sicut fideli,
+</p>
+            <p xml:id="alalal-i91264-d1e241">
+               <lb ed="#Bf" n="55"/>7. Item, Ponamus, quod convertatur :
+<lb ed="#Bf" n="56"/>tunc enim merito fidei non debet privari
+<lb ed="#Bf" n="57"/>libertate contrahendi : esto ergo, quod
+<lb ed="#Bf" n="58"/>alter jam contraxit cum alia : ergo et
+<lb ed="#Bf" n="59"/>ista post conversa cum alio potest 
+con<lb break="no" ed="#Bf" n="60"/>trahere.
+</p>
+            <p xml:id="alalal-i91264-d1e258">
+               <lb ed="#Bf" n="61"/>8. Item, Pcenitentia restituit in 
+inte<lb break="no" ed="#Bf" n="62"/>grum, sicut supra habitum est : ergo 
+re<lb break="no" ed="#Bf" n="63"/>stituit etiam libertatem contrahendi : et
+<lb ed="#Bf" n="64"/>inde ut prius.
+</p>
+            <p xml:id="alalal-i91264-d1e269">
+               <lb ed="#Bf" n="65"/>9. Item, Si non liceret post conversis
+<lb ed="#Bf" n="66"/>contrahere, multi retraherentur a fide :
+<lb ed="#Bf" n="67"/>ergo videtur, quod non debuit institui ab
+<lb ed="#Bf" n="68"/>Ecclesia, quod postea non liceat eis 
+con<lb break="no" ed="#Bf" n="69"/>trahere.
+</p>
+            <p xml:id="alalal-i91264-d1e282">
+               <lb ed="#Bf" n="70"/>In contrarium autem hujus est, quod
+<lb ed="#Bf" n="71"/>1. Dicit Apostolus, I ad Corinth. vn,
+<lb ed="#Bf" n="72"/>15: <quote xml:id="alalal-i91264-Qd1e290">Si infidelis discedit, discedat : non
+<lb ed="#Bf" n="73"/>enim servitutt subjectus est frater aul 
+so<lb break="no" ed="#Bf" n="74"/>ror in hujusmodi</quote>, Et non dicit, quod 
+in<lb break="no" ed="#Bf" n="75"/>fidelis non sit servituti subjectus : ergo
+<pb ed="#Bf" n="440"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>innuit infidelem adhuc servitute 
+matri<lb break="no" ed="#Bf" n="2"/>monii tener.
+</p>
+            <p xml:id="alalal-i91264-d1e309">
+               <lb ed="#Bf" n="3"/>2. Item, Nullum matrimonium non
+<lb ed="#Bf" n="4"/>ratum sufficientem habet stabilitatem :
+<lb ed="#Bf" n="5"/>sed matrimonia infidelium sunt non rata:
+<lb ed="#Bf" n="6"/>ergo, etc. ; ergo dissolvi possunt.
+</p>
+            <p xml:id="alalal-i91264-d1e320">
+               <lb ed="#Bf" n="7"/>Responsio. Dicendwm, quod ea quae 
+di<lb break="no" ed="#Bf" n="8"/>cuntur in Litécra, juris habet firmitatem.
+</p>
+            <p xml:id="alalal-i91264-d1e327">
+               <lb ed="#Bf" n="9"/>Ab primum ergo dicendum, quod 
+ma<lb break="no" ed="#Bf" n="10"/>tramonium infidelium non est 
+usquequa<lb break="no" ed="#Bf" n="11"/>que legitinuin, eo quod non est omnino
+<lb ed="#Bf" n="12"/>inter legitimas personas : et ideo aliquo
+<lb ed="#Bf" n="13"/>casu inlerveniente potest dissolvi.
+</p>
+            <p xml:id="alalal-i91264-d1e341">
+               <lb ed="#Bf" n="14"/>Ad aliud dicendum, quod non est 
+per<lb break="no" ed="#Bf" n="15"/>fectum causando et significando nisi 
+po<lb break="no" ed="#Bf" n="16"/>tentia, sicut supra dictum est : fides 
+au<lb break="no" ed="#Bf" n="17"/>tem Christi est a qua trahit firmitatem.,
+</p>
+            <p xml:id="alalal-i91264-d1e352">
+               <lb ed="#Bf" n="18"/>Ad aliud dicendum, quod licet 
+vincu<lb break="no" ed="#Bf" n="19"/>lum sil unius servilulis, non tamen 
+fun<lb break="no" ed="#Bf" n="20"/>datur supra fidem Christi : et ideo a fide
+<lb ed="#Bf" n="21"/>nec contrahit robur, nec debilitatem a
+<lb ed="#Bf" n="22"/>contrario : sed matrimonium in 
+quan<lb break="no" ed="#Bf" n="23"/>tum est sacramentum, supra fidem 
+Chri<lb break="no" ed="#Bf" n="24"/>sli fundatur, et illa deficiente ratitudinem
+<lb ed="#Bf" n="25"/>perfectam non habet.
+</p>
+            <p xml:id="alalal-i91264-d1e372">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="26"/>Ad suiup dicendum, quod haptismus
+<lb ed="#Bf" n="27"/>non dissolvit conjugium, sed contirmal,
+<lb ed="#Bf" n="28"/>dummodo sit persona legitima : unde
+<lb ed="#Bf" n="29"/>quod solvit, hoc est ex.defectu persone
+<lb ed="#Bf" n="30"/>sive materia.
+</p>
+            <p xml:id="alalal-i91264-d1e388">
+               <lb ed="#Bf" n="31"/>Ad i quod ulterius objicitur, dicendum
+<lb ed="#Bf" n="32"/>quod infidelis contrahere non potest de
+<lb ed="#Bf" n="33"/>jure : quia in poenam infidelitatis manet
+<lb ed="#Bf" n="34"/>sub servitute.
+</p>
+            <p xml:id="alalal-i91264-d1e399">
+               <lb ed="#Bf" n="35"/>Et ad argumentum contra, dicendum
+<lb ed="#Bf" n="36"/>quod vinculum non manet : sed in 
+poe<lb break="no" ed="#Bf" n="37"/>nam infligitur ei id quod suum jus 
+amit<lb break="no" ed="#Bf" n="38"/>tit in libertate contrahendi.
+</p>
+            <p xml:id="alalal-i91264-d1e410">
+               <lb ed="#Bf" n="39"/>Et per hoc patet solutio etiam ad 
+se<lb break="no" ed="#Bf" n="40"/>quens : quia quilibet ex peccato potest
+<lb ed="#Bf" n="41"/>jus suum amitterc, et exlex fier.
+</p>
+            <p xml:id="alalal-i91264-d1e420">
+               <lb ed="#Bf" n="42"/>Ad aliud dicendum, quod si 
+converta<lb break="no" ed="#Bf" n="43"/>tur, adhuc in ponam obstinationis 
+liga<lb break="no" ed="#Bf" n="44"/>tur poona non contrahendi. Credo tamen,
+<lb ed="#Bf" n="45"/>quod Kcelesia cum tali in fayorem 
+alio<lb break="no" ed="#Bf" n="46"/>rum potest et debet dispensare.
+</p>
+            <p xml:id="alalal-i91264-d1e433">
+               <lb ed="#Bf" n="47"/>Ad aliud dicendum, quod peenitentia
+<lb ed="#Bf" n="48"/>restituit quoad immunitatem culpa,
+<lb ed="#Bf" n="49"/>sed non quoad immunitatem omnis
+<lb ed="#Bf" n="50"/>poenae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

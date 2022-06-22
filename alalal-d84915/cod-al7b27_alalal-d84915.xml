@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="486"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d84915"><!-- l2d28a2 -->
+            <head xml:id="alalal-d84915-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-d84915-Hd1e101" type="question-title">Utrum in aliquo statu contingit mereri
+primam gratiam ? et, Utrum aliquis
+stbi vel alteri potest mereri primam
+gratiam ?</head>
+            <p xml:id="alalal-d84915-d1e104">
+               <pb ed="#Bc" n="486"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS II.
+<lb ed="#Bc" n="2"/>Utrum in aliquo statu contingit mereri
+<lb ed="#Bc" n="3"/>primam gratiam ? et, Utrum aliquis
+<lb ed="#Bc" n="4"/>stbi vel alteri potest mereri primam
+<lb ed="#Bc" n="5"/>gratiam ?
+</p>
+            <p xml:id="alalal-d84915-d1e122">
+               <lb ed="#Bc" n="6"/>Secundo queritur, Utrum aliquis sibi
+<lb ed="#Bc" n="7"/>vel alii possit mereri primam gratiam ?
+</p>
+            <p xml:id="alalal-d84915-d1e129">
+               <lb ed="#Bc" n="8"/>Et ponamus duos status, secundum
+<lb ed="#Bc" n="9"/>quod aliquis modo sit in statu justitie,
+<lb ed="#Bc" n="10"/>et timet casum, et orat quod si cadere
+<lb ed="#Bc" n="11"/>contingat, quod resurgat. Et queritur,
+<lb ed="#Bc" n="12"/>Utrum ipse in primo statu potest mereri
+<lb ed="#Bc" n="13"/>quod resurgat quando ceciderit ?
+</p>
+            <p xml:id="alalal-d84915-d1e146">
+               <lb ed="#Bc" n="14"/>Videtur autem, quod sic: quia
+<lb ed="#Bc" n="15"/>1. Oratio haec est pro se, pie, et 
+per<lb break="no" ed="#Bc" n="16"/>severanter, quia cum proposito perseve—
+<lb ed="#Bc" n="17"/>randi, et ad salutem: ergo 
+exaudi<lb break="no" ed="#Bc" n="18"/>tur : ergo postea resurget ex merito 
+ora<lb break="no" ed="#Bc" n="19"/>tionis prime.
+</p>
+            <p xml:id="alalal-d84915-d1e162">
+               <lb ed="#Bc" n="20"/>2. Item, Aliquis alii meretur primam
+<lb ed="#Bc" n="21"/>gratiam, ut dicunt Sancti, ut Stephanus
+<lb ed="#Bc" n="22"/>Paulo, et alii aliis meruerunt : ergo
+<lb ed="#Bc" n="23"/>multo citius sibi.
+</p>
+            <p xml:id="alalal-d84915-d1e173">
+               <lb ed="#Bc" n="24"/>3. Item, Jam est in statu merendi :
+<lb ed="#Bc" n="25"/>ergo potest mereri vitam aeternam, et.
+<lb ed="#Bc" n="26"/>omne quod substantialiter ordinatur ad
+<lb ed="#Bc" n="27"/>illam : sed. ut resurgat si cadat, 
+sub<lb break="no" ed="#Bc" n="28"/>stantialiter ordinatur ad salutem : ergo
+<lb ed="#Bc" n="29"/>ipse potest hoc mereri.
+</p>
+            <p xml:id="alalal-d84915-d1e189">
+               <lb ed="#Bc" n="30"/>SED CONTRA :
+<lb ed="#Bc" n="31"/>1. Per peccatum sequens omnia bona
+<lb ed="#Bc" n="32"/>precedentia mortificantur: et id quod
+<lb ed="#Bc" n="33"/>oravit ut resurgat : ergo non meruit ille
+<lb ed="#Bc" n="34"/>ut resurgeret.
+</p>
+            <p xml:id="alalal-d84915-d1e202">
+               <lb ed="#Bc" n="35"/>2. Item, Ezechiel. xvitt, 24, dicitur,
+<lb ed="#Bc" n="36"/>quod <quote xml:id="alalal-d84915-Qd1e208">justus avertens se a justitia sua,
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" n="37"/>in iniquitatibus suis morietur: et 
+  om<lb break="no" ed="#Bc" n="38"/>nium justitiarum suarum Deus non 
+  <lb ed="#Bc" n="39"/>cordabitur amplius</quote>,. Ergo videtur, quod
+<lb ed="#Bc" n="40"/>nihil meretur per illud.
+</p>
+            <p xml:id="alalal-d84915-d1e222">
+               <lb ed="#Bc" n="41"/>Solutio. Dicendum, quod nullus alii
+<lb ed="#Bc" n="42"/>meretur primam gratiam de condigno,
+<lb ed="#Bc" n="43"/>sed de congruo tantum: sibi autem
+<lb ed="#Bc" n="44"/>nec de gontigno, nec de congruo omning
+<lb ed="#Bc" n="45"/>potest mereri: quia antequam habeng.
+<lb ed="#Bc" n="46"/>gratiam, non est dignus pane quo ve:
+<lb ed="#Bc" n="47"/>scitur, ut dicit Augustinus : et tune nihij
+<lb ed="#Bc" n="48"/>potest mereri. Cum autem est in staty
+<lb ed="#Bc" n="49"/>gratie, et in-eadem non perseverat, facit
+<lb ed="#Bc" n="50"/>id quod directe est impedimentum ora.
+<lb ed="#Bc" n="51"/>tionis : et ideo illa non meretur 
+sequen<lb break="no" ed="#Bc" n="52"/>tem resurrectionem : quia peccatum 
+se<lb break="no" ed="#Bc" n="53"/>quens est contra gratiam In merente per
+<lb ed="#Bc" n="54"/>eam.
+</p>
+            <p xml:id="alalal-d84915-d1e256">
+               <lb ed="#Bc" n="55"/>Ap Hoc ergo quod objicitur primo, di-.
+<lb ed="#Bc" n="56"/>cendum quod ipse non petit 
+perseveran<lb break="no" ed="#Bc" n="57"/>ter: quia ipse potest cadere, et casus
+<lb ed="#Bc" n="58"/>ordinatur contra effectum orationis in
+<lb ed="#Bc" n="59"/>orante : et ideo frustatur ab 
+exaudi<lb break="no" ed="#Bc" n="60"/>tione.
+</p>
+            <p xml:id="alalal-d84915-d1e272">
+               <lb ed="#Bc" n="61"/>Ad aliud dicendum, quod casus vel 
+<lb ed="#Bc" n="62"/>peccatum alterius, non contrariatur 
+ora<lb break="no" ed="#Bc" n="63"/>tioni in orante : et ideo potest consequi,
+<lb ed="#Bc" n="64"/>effectum de congruo, quia manet viva,
+<lb ed="#Bc" n="65"/>semper : sed casus orantis effectui 
+ora<lb break="no" ed="#Bc" n="66"/>tionis in orante contrariatur : et ideo
+<lb ed="#Bc" n="67"/>non manet viva ut exaudiatur : et ideo.
+<lb ed="#Bc" n="68"/>non est ibi locus a minori affirmando,.
+ <lb ed="#Bc" n="69"/>sed polius a minori negando : et ideo
+<lb ed="#Bc" n="70"/>non valet processus.
+</p>
+            <p xml:id="alalal-d84915-d1e296">
+               <lb ed="#Bc" n="71"/>Ap stiup dicendum, quod iste 
+exaudi<lb break="no" ed="#Bc" n="72"/>tur in his quae per se ordinantur ad 
+sa<lb break="no" ed="#Bc" n="73"/>lutem : sed resurgere si cadat, non est.
+<lb ed="#Bc" n="74"/>de substantialibus rogantis : et ideo 
+pot<lb break="no" ed="#Bc" n="75"/>est frustrari per sequens peccatum :
+<lb ed="#Bc" n="76"/>ut et alia bona quae facit.
+</p>
+            <p xml:id="alalal-d84915-d1e312">
+               <lb ed="#Bc" n="77"/>Et per hoc patent omnia dubitabilia
+<lb ed="#Bc" n="78"/>istius distinctionis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

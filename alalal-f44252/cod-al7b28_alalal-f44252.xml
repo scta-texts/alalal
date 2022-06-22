@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="743"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f44252"><!-- l3d39a8 -->
+            <head xml:id="alalal-f44252-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-f44252-Hd1e101" type="question-title">An dolose juranti verba prodesse 
+debent ?</head>
+            <p xml:id="alalal-f44252-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="6"/>ARTICULUS VIII.
+<lb ed="Bd" n="7"/>An dolose juranti verba prodesse 
+de<lb break="no" ed="Bd" n="8"/>bent ?
+</p>
+            <p xml:id="alalal-f44252-d1e115">
+               <lb ed="Bd" n="9"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="10"/>ibi, K, <quote xml:id="alalal-f44252-Qd1e121"> Hoc etiam sciendum est, quod
+<lb ed="Bd" n="11"/>quacumque arte verborum, etc. </quote>
+            </p>
+            <p xml:id="alalal-f44252-d1e127">
+               <lb ed="Bd" n="12"/>Videtur enim, quod quando dolose
+<lb ed="Bd" n="13"/>aliquis exigit juramentum per verba
+<lb ed="Bd" n="14"/>multiplicia, tune illa verba intelligenda
+<lb ed="Bd" n="15"/>sint secundum quod cui juratur accipit :
+<lb ed="Bd" n="16"/>ipse autem dolose accipit in sensu. non
+<lb ed="Bd" n="17"/>recto : ergo tenetur solvere juramentum
+<lb ed="Bd" n="18"/>secundum sensum illum, quod falsum
+<lb ed="Bd" n="19"/>est,
+</p>
+            <p xml:id="alalal-f44252-d1e148">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="20"/>Prarerza quaeritur, Quando aliquis
+<lb ed="Bd" n="21"/>sine fraude casu jurat per verba 
+multipli<lb break="no" ed="Bd" n="22"/>cia, in quo sensu accipienda sint verba ?
+</p>
+            <p xml:id="alalal-f44252-d1e159">
+               <lb ed="Bd" n="23"/>Solutio Dicendum, quod istud quod
+<lb ed="Bd" n="24"/>dicitur hic, intelligitur de dolose 
+juran<lb break="no" ed="Bd" n="25"/>te : et hoc notatur per hoc quod dicit,
+<lb ed="Bd" n="26"/>quacumque arte verborum utens : ars
+<lb ed="Bd" n="27"/>enim idem est quod dolus : sed cum 
+do<lb break="no" ed="Bd" n="28"/>lose exigit, dolus exactori prodesse non
+<lb ed="Bd" n="29"/>debet.
+</p>
+            <p xml:id="alalal-f44252-d1e177">
+               <lb ed="Bd" n="30"/>Ad aliud dicendum, quod tali casu
+<lb ed="Bd" n="31"/>eveniente debet accipi juramentum in
+<lb ed="Bd" n="32"/>eo sensu in quo jurans credit illum in-’
+<lb ed="Bd" n="33"/>tellexisse cui juratur: et si non potest
+<lb ed="Bd" n="34"/>scire, debet relinqui arbitrio bonorum
+<lb ed="Bd" n="35"/>virorum, qui judicant secundum quem
+<lb ed="Bd" n="36"/>sensum verba illa frequentius accipi 
+so<lb break="no" ed="Bd" n="37"/>lent : et in illo tenetur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

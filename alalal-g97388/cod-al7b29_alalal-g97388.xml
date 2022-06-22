@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 33</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 33</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="465"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g97388"><!-- l4d14a33 -->
+            <head xml:id="alalal-g97388-Hd1e99">Articulus 33</head>
+            <head xml:id="alalal-g97388-Hd1e101" type="question-title">An ad primum statum sit reditus per
+poenitentiam ?</head>
+            <p xml:id="alalal-g97388-d1e104">
+               <cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="74"/>ARTICULUS XXXIII.
+<lb ed="#Be" n="75"/>An ad primum statum sit reditus per
+<lb ed="#Be" n="76"/>poenitentiam ?
+</p>
+            <p xml:id="alalal-g97388-d1e115">
+               <lb ed="#Be" n="77"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="78"/>ibi, D, § 1, sub finem: <quote xml:id="alalal-g97388-Qd1e121"> Facit omnia
+<lb ed="#Be" n="79"/>guatenus ad priorem revocet statum,
+<lb ed="#Be" n="80"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-g97388-d1e129">
+               <lb ed="#Be" n="81"/>Hoc non videtur verum : quia
+<lb ed="#Be" n="82"/>1. Prior status est innocentiae : et ad
+<lb ed="#Be" n="83"/>illum non est regressus per poenitentiam.
+</p>
+            <p xml:id="alalal-g97388-d1e139">
+               <lb ed="#Be" n="84"/>Si dicatur, quod revocat ad priorem
+<lb ed="#Be" n="85"/>statum quantum ad immunitatem culpe,
+<lb ed="#Be" n="86"/>sed non quantum ad dignitatem. 
+Con<lb break="no" ed="#Be" n="87"/>TRA: Videmus, quod cum peoenitens 
+re<lb break="no" ed="#Be" n="88"/>surgit, adhuc remanet in illo difficultas
+<lb ed="#Be" n="89"/>bene agendi : et hoc est ex reliquiis 
+pec<lb break="no" ed="#Be" n="90"/>cati, quas ante non habuit: ergo per
+<lb ed="#Be" n="91"/>poenitentiam, priorem statum non 
+om<lb break="no" ed="#Be" n="92"/>nino recipit.
+</p>
+            <p xml:id="alalal-g97388-d1e161">
+               <pb ed="#Be" n="466"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>2. Item, Prior status est, quod sit
+<lb ed="#Be" n="2"/>expeditus ab bene operandum secundum
+<lb ed="#Be" n="3"/>omne opus virtutis: et hoc non potest
+<lb ed="#Be" n="4"/>esse nisi ex habitu perfecto cujuslibet
+<lb ed="#Be" n="5"/>virtutis : ergo hoc non est solius 
+pceni<lb break="no" ed="#Be" n="6"/>tentiae, ut videtur Magister supponere in
+<lb ed="#Be" n="7"/>Littera.
+</p>
+            <p xml:id="alalal-g97388-d1e183">
+               <lb ed="#Be" n="8"/>Solutio. Dicendum ad hoc, quod 
+pe<lb break="no" ed="#Be" n="9"/>nitentia in partibus suis habet restituere
+<lb ed="#Be" n="10"/>in pristinum statum, scilicet in 
+contritio<lb break="no" ed="#Be" n="11"/>ne, confessione, et satisfactione : et 
+pra<lb break="no" ed="#Be" n="12"/>cipue quoad illam partem, quae est
+<lb ed="#Be" n="13"/>satisfactio : quia illa supponit exercitium
+<lb ed="#Be" n="14"/>operis secundum gquamlibet virtutem
+<lb ed="#Be" n="15"/>imperatam a poenitentia : et sic cessat
+<lb ed="#Be" n="16"/>totum quod objectum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

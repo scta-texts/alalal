@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="3"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-eee391"><!-- l3d1a1 -->
+            <head xml:id="alalal-eee391-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-eee391-Hd1e101" type="question-title">An conveniebat Deum incarnari ?</head>
+            <p xml:id="alalal-eee391-d1e104">
+               <lb ed="Bd" n="73"/>ARTICULUS I.
+<lb ed="Bd" n="74"/>An conveniebat Deum incarnari ?
+</p>
+            <p xml:id="alalal-eee391-d1e111">
+               <lb ed="Bd" n="75"/>Incidit autem dubitatio prima, An
+<lb ed="Bd" n="76"/>conveniebat Deum incarnari ?
+<lb ed="Bd" n="77"/>Et ponam ad hoc rationes primo ex
+<lb ed="Bd" n="78"/>parte Dei, secundo ex parte creature.
+<lb ed="Bd" n="79"/>Ex parte Dei ponam rationes primo ex
+<lb ed="Bd" n="80"/>potentia Dei, secundo ex sapientia, 
+ter<lb break="no" ed="Bd" n="81"/>tio ex bonitate sumptas.
+</p>
+            <p xml:id="alalal-eee391-d1e129">
+               <lb ed="Bd" n="82"/>Ex parte autem potentiae Dei, primo
+<pb ed="#Bd" n="4"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>supponuntur quatuor quae apud 
+sa<lb break="no" ed="Bd" n="2"/>pientes sunt approbata. Prima 
+suppo<lb break="no" ed="Bd" n="3"/>sitio est, quod prima causa est 
+poten<lb break="no" ed="Bd" n="4"/>tiae infinite in agendo. Secunda est,
+<lb ed="Bd" n="5"/>quod potentiae infinite est se 
+demon<lb break="no" ed="Bd" n="6"/>strare aliquando in opere. Tertia est, non
+<lb ed="Bd" n="7"/>posse se demonstrare potentiam 
+infini<lb break="no" ed="Bd" n="8"/>tam, nisi in opere aliquo modo infinito.
+<lb ed="Bd" n="9"/>Quarta est, Dei potentiam in agendo
+<lb ed="Bd" n="10"/>nullo indigere. ©
+</p>
+            <p xml:id="alalal-eee391-d1e161">
+               <lb ed="Bd" n="11"/>Inde sic:
+<lb ed="Bd" n="12"/>1. Quodlibet pure creatum est finitum et
+<lb ed="Bd" n="13"/>finite virtutis : ergo est finite essentia :
+<lb ed="Bd" n="14"/>ergo potentia infinite non erit 
+sufficien<lb break="no" ed="Bd" n="15"/>ter demonstrativum ; ergo oportet 
+ope<lb break="no" ed="Bd" n="16"/>rationem Dei esse aliquo modo super
+<lb ed="Bd" n="17"/>ens increatum. Hoc igitur erit vel ut fiat
+<lb ed="Bd" n="18"/>ab ipso, vel ut ipse alii uniatur : non
+<lb ed="Bd" n="19"/>primo modo, quia si est ens non 
+crea<lb break="no" ed="Bd" n="20"/>tum, fieri non potest, alioquin 
+contradi<lb break="no" ed="Bd" n="21"/>ctoria verificarentur de eodem : ergo sic
+<lb ed="Bd" n="22"/>erit, quod alii creato quod ab eo sine
+<lb ed="Bd" n="23"/>comparationis proportione distat, 
+unia<lb break="no" ed="Bd" n="24"/>tur: ergo oportet vel conveniens fuit
+<lb ed="Bd" n="25"/>Deuin unin: creature : et infra probabitur
+<lb ed="Bd" n="26"/>guoniam solus homo est unibilis ei : 
+er<lb break="no" ed="Bd" n="27"/>go oportuit Deum uniri homini: quia
+<lb ed="Bd" n="28"/>aliter infinita potentia per effectum 
+infi<lb break="no" ed="Bd" n="29"/>nitum non demonstraretur, quod est
+<lb ed="Bd" n="30"/>coutra secundum.
+</p>
+            <p xml:id="alalal-eee391-d1e207">
+               <lb ed="Bd" n="31"/>2. Item, Potentia infinite est creatum
+<lb ed="Bd" n="32"/>educere ad altissimum actum cujus 
+ip<lb break="no" ed="Bd" n="33"/>sum est susceptibile : sed (sicut postea
+<lb ed="Bd" n="34"/>patebit) creatum erit susceptibile deitatis
+<lb ed="Bd" n="35"/>in unam personam : ergo potenti 
+infi<lb break="no" ed="Bd" n="36"/>nite erit conjungere deitatem in effectu
+<lb ed="Bd" n="37"/>aliquo in persona una ; non nisi cum 
+ho<lb break="no" ed="Bd" n="38"/>mine : ergo conveniens fuit Deum 
+incar<lb break="no" ed="Bd" n="39"/>nari.
+</p>
+            <p xml:id="alalal-eee391-d1e229">
+               <lb ed="Bd" n="40"/>3. Item, Probatur per sapientiam, et
+<lb ed="Bd" n="41"/>supponantur tres propositiones, scilicet,
+<lb ed="Bd" n="42"/>quod sapientiae est ordinare. Secunda
+<lb ed="Bd" n="43"/>quod summe saplentia est omnem 
+or<lb break="no" ed="Bd" n="44"/>dinem possibilem implere. Tertia est,
+<lb ed="Bd" n="45"/>quod summa sapientia in omni decore
+<lb ed="Bd" n="46"/>qui possibilis est, se demonstret.
+</p>
+            <p xml:id="alalal-eee391-d1e247">
+               <lb ed="Bd" n="47"/>Inne sic : Ordo est in creatis ad se
+<lb ed="Bd" n="48"/>invicem, secundum quem se contingunt
+<lb ed="Bd" n="49"/>per unioncm et compositionem. Siniliter
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>ordo est creature ad Creatorem : erga
+<lb ed="Bd" n="51"/>necesse est hunc ordinem complere in
+<lb ed="Bd" n="52"/>ordinatis : non autem complebitur nisi
+<lb ed="Bd" n="53"/>primo conjuncto cum ultimo : ergo 
+ne<lb break="no" ed="Bd" n="54"/>cesse est primum et ultimum conjungi,
+<lb ed="Bd" n="55"/>sicut habetur, Sapient. vin, 1: Adtingit
+<lb ed="Bd" n="56"/>a fine usque ad finem.
+</p>
+            <p xml:id="alalal-eee391-d1e273">
+               <lb ed="Bd" n="57"/>4. Item, Omnis decor sapientia est :
+<lb ed="Bd" n="58"/>sed video, quod decor ex specie est ut
+<lb ed="Bd" n="59"/>mixta magis sint decora elementis, et
+<lb ed="Bd" n="60"/>complexionata mixtis, et animata 
+com<lb break="no" ed="Bd" n="61"/>plexionatis, et pulcherrima 
+complexiona<lb break="no" ed="Bd" n="62"/>tis, et pulcherrima composita ex anima
+<lb ed="Bd" n="63"/>rationali et corporea substantia potentia
+<lb ed="Bd" n="64"/>vitam habente : ergo cum summa 
+sapien<lb break="no" ed="Bd" n="65"/>tia non sistat ibi nisi veniat ad 
+pulchri<lb break="no" ed="Bd" n="66"/>tudmem infiniti decoris, ipsa conjunget
+<lb ed="Bd" n="67"/>cum hae creatura anima rationali 
+ani<lb break="no" ed="Bd" n="68"/>mata quae ultima est in decore nature,
+<lb ed="Bd" n="69"/>pulcherrimam substantiam increatam 
+spi<lb break="no" ed="Bd" n="70"/>ritualem : et hoc est quod habetur, 
+Pro<lb break="no" ed="Bd" n="71"/>verb. xxxt, 10: Procul et de ultimis
+<lb ed="Bd" n="72"/>finibus pretium ejus. Procul enim est
+<lb ed="Bd" n="73"/>substantia spiritualis increata: ullimi 
+au<lb break="no" ed="Bd" n="74"/>tem lines sunt ullimus nature finis, et
+<lb ed="Bd" n="75"/>ultimus universitatis finis: ultimus 
+au<lb break="no" ed="Bd" n="76"/>tem nature finis est homo per 
+composi<lb break="no" ed="Bd" n="77"/>tionum enumerationem, ultimus autem
+<lb ed="Bd" n="78"/>universitatis finis est Deus, ex quibus
+<lb ed="Bd" n="79"/>finibus conficitur pretium redemptionis.
+</p>
+            <p xml:id="alalal-eee391-d1e325">
+               <lb ed="Bd" n="80"/>5. Item, Ex potentia simul et 
+sapien<lb break="no" ed="Bd" n="81"/>tia sic arguitur : Magna est potentia in
+<lb ed="Bd" n="82"/>eductione simphcium de nihilo : major
+<lb ed="Bd" n="83"/>autem relucet in gradibus nature qui
+<lb ed="Bd" n="84"/>sunt esse mixtum, vivere, sentire, 
+intel<lb break="no" ed="Bd" n="85"/>ligere ; tamcn neutra est in his infinita.
+<lb ed="Bd" n="86"/>Cum igitur ambe finite sunt, adhuc
+<lb ed="Bd" n="87"/>educent gradum ulteriorem ex 
+conjun<lb break="no" ed="Bd" n="88"/>ctione nature qué est supra 
+intellectua<lb break="no" ed="Bd" n="89"/>Jem cum intellectuali sive rationali.
+</p>
+            <p xml:id="alalal-eee391-d1e350">
+               <lb ed="Bd" n="90"/>Si forte dicatur, quod secundum hane
+<lb ed="Bd" n="91"/>rationem homo prius deberet jungi 
+an<lb break="no" ed="Bd" n="92"/>gelice nature, et postea divina natura
+<lb ed="Bd" n="93"/>ili: sicul videmus, quod post simplex
+<lb ed="Bd" n="94"/>est mixtum minerale, et post illud 
+vive<lb break="no" ed="Bd" n="95"/>re, cl sic de allis, et semper prius 
+salva<lb break="no" ed="Bd" n="96"/>tur in sequent. Ad hoc differatur 
+re<lb break="no" ed="Bd" n="97"/>sponsio usque postea, ubi ostendetur,
+<lb ed="Bd" n="98"/>quod Angelus nec Deo nec homini uni-
+<pb ed="#Bd" n="5"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>bilis est : unde hic non impedit 
+proces<lb break="no" ed="Bd" n="2"/>sum.
+</p>
+            <p xml:id="alalal-eee391-d1e381">
+               <lb ed="Bd" n="3"/>6. Deinde ostendilur hoc ex bonitate :
+<lb ed="Bd" n="4"/>et supponantur tria, scilicet, quod 
+bo<lb break="no" ed="Bd" n="5"/>num est diffusivum et communicaliyum
+<lb ed="Bd" n="6"/>sui, Secundo, quod infiniti boni est 
+infi<lb break="no" ed="Bd" n="7"/>nito modo se communicare. Tertio, quod
+<lb ed="Bd" n="8"/>creatum est capax per unionem infiniti
+<lb ed="Bd" n="9"/>boni sicut apparuit in elfectu.
+</p>
+            <p xml:id="alalal-eee391-d1e399">
+               <lb ed="Bd" n="10"/>Ixpz sic : Infinitum bonum infinito
+<lb ed="Bd" n="11"/>modo se communicat, et non est 
+infini<lb break="no" ed="Bd" n="12"/>tum nisi ipsum substantialiter : ergo
+<lb ed="Bd" n="13"/>seipsum communicabit creato.
+</p>
+            <p xml:id="alalal-eee391-d1e410">
+               <lb ed="Bd" n="14"/>Si forte dicatur, quod secundum hoc
+<lb ed="Bd" n="15"/>se omni crealo capaci communicat. 
+Con<lb break="no" ed="Bd" n="16"/>rea : Bonum respicit naturam cui se
+<lb ed="Bd" n="17"/>communicat, et non personam : natura
+<lb ed="Bd" n="18"/>autem est indifferens : ergo non 
+commu<lb break="no" ed="Bd" n="19"/>nicabilur nisi per naturam : in persona
+<lb ed="Bd" n="20"/>autem non potest esse, quia Jam 
+destrue<lb break="no" ed="Bd" n="21"/>retur ordo illius nature ad aliud 
+secun<lb break="no" ed="Bd" n="22"/>dum alia dona, si quelibet persona 
+uni<lb break="no" ed="Bd" n="23"/>retur ei, et pluralitas individuorum, quod
+<lb ed="Bd" n="24"/>sic probalur : Si fiat unio ad Socratem,
+<lb ed="Bd" n="25"/>vel ad Platonem, talis erit quae faceret
+<lb ed="Bd" n="26"/>Deum hominem, ect hominem Deum.
+<lb ed="Bd" n="27"/>Ergo Socrates est Filius Dei, et Filius
+<lb ed="Bd" n="28"/>Dei est Socrates : et Filius Dei est Plato,
+<lb ed="Bd" n="29"/>ete converso. Sed quecumque uni ct
+<lb ed="Bd" n="30"/>eidem sunt eadem, ipsa sunt eadem :
+<lb ed="Bd" n="31"/>sed Socrates et Plato Filio Dei sunt idem
+<lb ed="Bd" n="32"/>et secundum idem, quia secundum 
+unio<lb break="no" ed="Bd" n="33"/>nem unam : ergo Socrates et Plato sunt
+<lb ed="Bd" n="34"/>idem. Et eadem ratio est de aliis-: ergo
+<lb ed="Bd" n="35"/>numerus personarum illius nature 
+de<lb break="no" ed="Bd" n="36"/>strueretur : ergo non conveniebat eum
+<lb ed="Bd" n="37"/>uniri nisi uni de illa natura.
+</p>
+            <p xml:id="alalal-eee391-d1e465">
+               <lb ed="Bd" n="38"/>7. Item, Ex potentia simul et bonitate
+<lb ed="Bd" n="39"/>arguo sic : Magna est potentia et bonitas
+<lb ed="Bd" n="40"/>que facit universum : sed tamen major
+<lb ed="Bd" n="41"/>cogitari potest, scilicet quae facil 
+infini<lb break="no" ed="Bd" n="42"/>tos mundos : sed adhuc major potest
+<lb ed="Bd" n="43"/>excogitari, scilicet quae Deum conjungat
+<lb ed="Bd" n="44"/>creature alicui in una persona : quia
+<lb ed="Bd" n="45"/>ila est illi incomparabilis. Cum igitur
+<lb ed="Bd" n="46"/>Deus habeat potentiam qua major 
+co<lb break="no" ed="Bd" n="47"/>gitari non potest, imo etiam majorem
+<lb ed="Bd" n="48"/>quam cogitari potest, ipse potest, et vult
+<lb ed="Bd" n="49"/>(cum sit bonitas sua tanta, quanta poten-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>tia sua) talem conjunctionem producere :
+<lb ed="Bd" n="51"/>non autem potest fieri ad omnes res
+<lb ed="Bd" n="52"/>creatas, co quod destruerctur numerus
+<lb ed="Bd" n="53"/>individuorum, ut habitum est: ergo ad
+<lb ed="Bd" n="54"/>unum faciet : non autem est unibilis
+<lb ed="Bd" n="55"/>creatura nisi homo : ergo facict ad 
+homi<lb break="no" ed="Bd" n="56"/>nem. Et quia facile est hujusmodi 
+ratio<lb break="no" ed="Bd" n="57"/>nes multiplicare, ideo iste sufliciant : ita
+<lb ed="Bd" n="58"/>quod caveatur, quod non dicatur quod
+<lb ed="Bd" n="59"/>aliqua istarum sit necessaria ; quia 
+om<lb break="no" ed="Bd" n="60"/>nes sunt quaedam conyenientiae ad hoc
+<lb ed="Bd" n="61"/>quod fiat incarnatio, etiam supposito
+<lb ed="Bd" n="62"/>quod non fuer:t peccatum.
+</p>
+            <p xml:id="alalal-eee391-d1e524">
+               <lb ed="Bd" n="63"/>8. Ex conditione status hominis quae
+<lb ed="Bd" n="64"/>est sub peccato arguitur idem: et primo
+<lb ed="Bd" n="65"/>supponatur necesse esse Dei 
+prafinitio<lb break="no" ed="Bd" n="66"/>nem de homine factam impleri. 
+Secun<lb break="no" ed="Bd" n="67"/>do, quod omnis rationalis creatura facta
+<lb ed="Bd" n="68"/>est ad beatitudinem. Tertio, quod omnis
+<lb ed="Bd" n="69"/>rationalis creatura per aliquem 
+nume<lb break="no" ed="Bd" n="70"/>rum suoram individuorum participet 
+il<lb break="no" ed="Bd" n="71"/>lam. Quarto, quod Deus non punivit
+<lb ed="Bd" n="72"/>rationalem creaturam sine peccato.
+<lb ed="Bd" n="73"/>Quinto, quod omnis crealura simplex,
+<lb ed="Bd" n="74"/>tolum quod est et polest, pro seipsa
+<lb ed="Bd" n="75"/>debet Creatori et non potest ci in 
+gratia<lb break="no" ed="Bd" n="76"/>rum actione respondere. Sexto, quod
+<lb ed="Bd" n="77"/>peccator pro nullo potest satisfaccre,
+<lb ed="Bd" n="78"/>cum ipse pro se non satisfecerit.
+</p>
+            <p xml:id="alalal-eee391-d1e562">
+               <lb ed="Bd" n="79"/>Inpz sic : Homo subjacet multis 
+pe<lb break="no" ed="Bd" n="80"/>nis, et est ralionalis creatura : ergo 
+pec<lb break="no" ed="Bd" n="81"/>cavit: ergo tum quia creatura est, tum
+<lb ed="Bd" n="82"/>quia peccator est, satisfacere non potest,
+<lb ed="Bd" n="83"/>nec aliqua creatura simplex : ergo 
+ne<lb break="no" ed="Bd" n="84"/>cesse est si debeat satisficri, quod 
+satis<lb break="no" ed="Bd" n="85"/>faciens sit Creator ut possit, et homo ut
+<lb ed="Bd" n="86"/>debeat, si debct satisfier!, alioquin 
+pre<lb break="no" ed="Bd" n="87"/>finitio de homine frustraretur : ergo 
+ne<lb break="no" ed="Bd" n="88"/>cesse est Deum incarnari.
+</p>
+            <p xml:id="alalal-eee391-d1e586">
+               <lb ed="Bd" n="89"/>Tala etiam argumenta alibi plura 
+po<lb break="no" ed="Bd" n="90"/>suimus, et ideo ista sufficiant hie.
+</p>
+            <p xml:id="alalal-eee391-d1e593">
+               <lb ed="Bd" n="91"/>In contrarium objicitur sic :
+<lb ed="Bd" n="92"/>1. Quod est infirmitatis, Deo non 
+con<lb break="no" ed="Bd" n="93"/>venit ; jungi infirmo infirmitatis est ; ergo
+<lb ed="Bd" n="94"/>Deo non, convenit. Sed jungi cum 
+natu<lb break="no" ed="Bd" n="95"/>ra penalitatibus subjecta, est jungi cum
+<lb ed="Bd" n="96"/>infirmo : ergo, etc. Prozatio prime est,
+<lb ed="Bd" n="97"/>quia omne quod jungitur, jungitur 
+prop<lb break="no" ed="Bd" n="98"/>ter melius. Propatio secunde est, quia
+<pb ed="#Bd" n="6"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>junctura desideratur, ut elevetur 
+jun<lb break="no" ed="Bd" n="2"/>ctum.
+</p>
+            <p xml:id="alalal-eee391-d1e622">
+               <lb ed="Bd" n="3"/>2. Item, Quod respectu nullius est
+<lb ed="Bd" n="4"/>imperfectum, respectu nullius est in 
+po<lb break="no" ed="Bd" n="5"/>tentia. [npr sta : Quod non est in 
+poten<lb break="no" ed="Bd" n="6"/>tia aliquo modo, non est unibile, cum
+<lb ed="Bd" n="7"/>unibile dicat potentiam. Deus non est in
+<lb ed="Bd" n="8"/>potentia ad aliquid : ergo non est 
+unibi<lb break="no" ed="Bd" n="9"/>lis alicui.
+</p>
+            <p xml:id="alalal-eee391-d1e640">
+               <lb ed="Bd" n="10"/>3. Item, Omne quod fit aliquid, habet
+<lb ed="Bd" n="11"/>aliquid faciens extra seipsum : Deus fit
+<lb ed="Bd" n="12"/>homo, et fit unitus, cum non semper
+<lb ed="Bd" n="13"/>fuerit unitus : ergo habet aliquid faciens
+<lb ed="Bd" n="14"/>extra seipsum : sed hoc falsum est : ergo
+<lb ed="Bd" n="15"/>Deus non unitur.
+</p>
+            <p xml:id="alalal-eee391-d1e656">
+               <lb ed="Bd" n="16"/>4. Item, Deus unitur humane nature :
+<lb ed="Bd" n="17"/>ergo aliquid unit eum: aut idem, aut
+<lb ed="Bd" n="18"/>aliud : si idem, ergo idem est faciens et
+<lb ed="Bd" n="19"/>factum, quod non est intelligibile : si
+<lb ed="Bd" n="20"/>aliud, cum agens et faciens sit nobilius
+<lb ed="Bd" n="21"/>facto et acto, aliquid erit nobilius Deo
+<lb ed="Bd" n="22"/>unito, quod heresis est, quia Deus non
+<lb ed="Bd" n="23"/>est nobilior Deo cum carne.
+</p>
+            <p xml:id="alalal-eee391-d1e677">
+               <lb ed="Bd" n="24"/>5. Item, Omnis unio duorum videtur
+<lb ed="Bd" n="25"/>esse respectu alicujus tertii constituti ex
+<lb ed="Bd" n="26"/>utrisque : deitas autem non est passibilis
+<lb ed="Bd" n="27"/>respectu alicujus tertii : ergo non est
+<lb ed="Bd" n="28"/>unibilis.
+</p>
+            <p xml:id="alalal-eee391-d1e690">
+               <lb ed="Bd" n="29"/>6. Item, Nulla substantia perfecta in
+<lb ed="Bd" n="30"/>esse et natura, unibilis vel compompbilis
+<lb ed="Bd" n="31"/>est alicui: Deus est substantia 
+perfectis<lb break="no" ed="Bd" n="32"/>sima : ergo nullo modo est unibilis 
+ali<lb break="no" ed="Bd" n="33"/>cui. Propatur autem prima : quia omnis
+<lb ed="Bd" n="34"/>compositio et unio est propter 
+perfectio<lb break="no" ed="Bd" n="35"/>nem aliquam acquirendam : vel in actu,
+<lb ed="Bd" n="36"/>ut materia forme unitur : vel in esse, ut
+<lb ed="Bd" n="37"/>forma unitur materi.
+</p>
+            <p xml:id="alalal-eee391-d1e712">
+               <lb ed="Bd" n="38"/>7. Et quia longum est de hoc multa
+<lb ed="Bd" n="39"/>objicere, cum valde leve sit de hoc 
+addu<lb break="no" ed="Bd" n="40"/>cere rationes, ponantur omnes animi
+<lb ed="Bd" n="41"/>conceptiones contra hance unionem 
+exi<lb break="no" ed="Bd" n="42"/>stentes : quarum una est, substantiam in
+<lb ed="Bd" n="43"/>actu et esse perfectam, nulli unibilem
+<lb ed="Bd" n="44"/>esse. Secunda est, omnem unionem ad
+<lb ed="Bd" n="45"/>compositionem substantialem vel 
+acci<lb break="no" ed="Bd" n="46"/>dentalem terminari. Tertia, diversarum
+<lb ed="Bd" n="47"/>naturarum ‘specie differentium non esse
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>hypoStasim et personam unam. Quarta,
+<lb ed="Bd" n="49"/>dilferentias diversas in natura et specie
+<lb ed="Bd" n="50"/>et genere, nihil unum genere specie vel
+<lb ed="Bd" n="51"/>individuo constituere. Quinta, infinite
+<lb ed="Bd" n="52"/>distantia proportionem non habere 
+unio<lb break="no" ed="Bd" n="53"/>nis. Sexta, causam primam omnia
+<lb ed="Bd" n="54"/>unientem et componentem ad nullam
+<lb ed="Bd" n="55"/>unionem vel compositionem esse possi~
+<lb ed="Bd" n="56"/>bilem, et infinita alia quae facile est
+<lb ed="Bd" n="57"/>invenire. Cum igitur intellectus ista apud
+<lb ed="Bd" n="58"/>se habeat et supponat, non recipiet 
+unio<lb break="no" ed="Bd" n="59"/>nem Dei cum humana natura.
+</p>
+            <p xml:id="alalal-eee391-d1e764">
+               <lb ed="Bd" n="60"/>Solutio Dicendum, quod 
+convenien<lb break="no" ed="Bd" n="61"/>tes sunt rationes quae adducte sunt ad
+<lb ed="Bd" n="62"/>probandum Deum esse unibilem cum
+<lb ed="Bd" n="63"/>humana natura, et non necessitatis
+<lb ed="Bd" n="64"/>erunt: quia si essent necessitatis, non
+<lb ed="Bd" n="65"/>esset opus sue bone voluntatis, nec
+<lb ed="Bd" n="66"/>teneremur ad tot et tantas gratiarum
+<lb ed="Bd" n="67"/>actiones, nec per revelationem fidei illud
+<lb ed="Bd" n="68"/>acciperemus. Hoc autem facile apparet
+<lb ed="Bd" n="69"/>advertenti rationes illas hie et alibi 
+posi<lb break="no" ed="Bd" n="70"/>tas, et hoc relinquo judicio legentium.
+<lb ed="Bd" n="71"/>Omnes autem rationes in contrarium
+<lb ed="Bd" n="72"/>posite non impediunt unionem. Et hoc
+<lb ed="Bd" n="73"/>ideo dico : quia licet fides sufficienter
+<lb ed="Bd" n="74"/>probari non possit, tamen etiam non
+<lb ed="Bd" n="75"/>potest improbari.
+</p>
+            <p xml:id="alalal-eee391-d1e801">
+               <lb ed="Bd" n="76"/>Dicendum ergo ad primum, quod 
+infir<lb break="no" ed="Bd" n="77"/>mitatis non -est uniri nature infirme,
+<lb ed="Bd" n="78"/>nisi ubi natura unita demergeretur in
+<lb ed="Bd" n="79"/>infirmitates illas, et distare inciperet in
+<lb ed="Bd" n="80"/>seipsa, Sic autem divinitas non est unita
+<lb ed="Bd" n="81"/>humanitati, et est exemplum Augustini
+<lb ed="Bd" n="82"/>de lumine solis, quod non inficitur ab
+<lb ed="Bd" n="83"/>his super quae ponit radios suos.
+</p>
+            <p xml:id="alalal-eee391-d1e821">
+               <lb ed="Bd" n="84"/>Ad aliud dicendum, quod illa ratio 4 4oj
+<lb ed="Bd" n="85"/>tenet in his quae uniuntur respectu 
+ali<lb break="no" ed="Bd" n="86"/>cujus tertii. Sed sic divinitas non est
+<lb ed="Bd" n="87"/>unita humanitati : quia infra 
+probabi<lb break="no" ed="Bd" n="88"/>tur ', quodin Domino Jesu Christo non
+<lb ed="Bd" n="89"/>est communem speciem invenire.
+</p>
+            <p xml:id="alalal-eee391-d1e838">
+               <lb ed="Bd" n="90"/>Ad aliud dicendum, quod unibile ago
+<lb ed="Bd" n="91"/>quod est in potentia respectu 
+compositio<lb break="no" ed="Bd" n="92"/>nis, habet aliud uniens extra se, et hoc
+<lb ed="Bd" n="93"/>est unibile quod fit aliquo modo in com-
+<pb ed="#Bd" n="7"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>posito. Sed tale non est divinitas : quia
+<lb ed="Bd" n="2"/>nec fit in se, nec in composito. Nec hee
+<lb ed="Bd" n="3"/>est recipienda simpliciter, Deus homo
+<lb ed="Bd" n="4"/>fit : quia fieri notatur cirea Deum poni.
+<lb ed="Bd" n="5"/>Et si invenitur in auctoritate posita,
+<lb ed="Bd" n="6"/>glossanda est sic : Hoc fit quod Deus est
+<lb ed="Bd" n="7"/>homo, sed hoc fieri tunc ponitur circa
+<lb ed="Bd" n="8"/>naturam humanitatis, non deitatis, et
+<lb ed="Bd" n="9"/>ideo seipsam unit. Nec hoc verum est,
+<lb ed="Bd" n="10"/>quod deitas sit melior unita quam non
+<lb ed="Bd" n="11"/>unila : eo quod unita sit quasi conjuncta
+<lb ed="Bd" n="12"/>bono creato, et per se sit tantum bonum
+<lb ed="Bd" n="13"/>increalum. Et hoc ideo est, quia bonitati
+<lb ed="Bd" n="14"/>increate nihil adjici potest quod augeat
+<lb ed="Bd" n="15"/>eam, cum sit infinita : et si additur ei
+<lb ed="Bd" n="16"/>per unionem, non habet rationem nec
+<lb ed="Bd" n="17"/>essentiam boni nisi ab ipsa : unde non
+<lb ed="Bd" n="18"/>adjicit et aliquid, sed potius accipit hoc
+<lb ed="Bd" n="19"/>ipsum bonum quod habet, eo quod 
+uni<lb break="no" ed="Bd" n="20"/>tur ei: quia quanto aliquid vicinius 
+or<lb break="no" ed="Bd" n="21"/>dinatur ad ipsam, tanto plus recipit
+<lb ed="Bd" n="22"/>bonitatis ejus.
+</p>
+            <p xml:id="alalal-eee391-d1e901">
+               <lb ed="Bd" n="23"/>Ad aliud dicendum, quod unio 
+duo<lb break="no" ed="Bd" n="24"/>rum quae ambo aliquo modo sunt 
+im<lb break="no" ed="Bd" n="25"/>perfecta, est respectu alicujus tertii : 
+sic<lb break="no" ed="Bd" n="26"/>ut materia imperfecta est quoad actum,
+<lb ed="Bd" n="27"/>forma autem imperfecta, quoad esse. Sic
+<lb ed="Bd" n="28"/>autem non est de deitate, et 
+humani<lb break="no" ed="Bd" n="29"/>tate.
+</p>
+            <p xml:id="alalal-eee391-d1e919">
+               <lb ed="Bd" n="30"/>Ad aliud dicendum, quod omnes ille
+<lb ed="Bd" n="31"/>communes animi conceptiones 
+prohi<lb break="no" ed="Bd" n="32"/>bent, quod nec deitas ut pars sit 
+unibi<lb break="no" ed="Bd" n="33"/>lis. Et hoc bene concedimus : quia ratio
+<lb ed="Bd" n="34"/>partis est imperfecti ratio, et hoc deitati
+<lb ed="Bd" n="35"/>non convenit.
+</p>
+            <p xml:id="alalal-eee391-d1e935">
+               <lb ed="Bd" n="36"/>Et per haec patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

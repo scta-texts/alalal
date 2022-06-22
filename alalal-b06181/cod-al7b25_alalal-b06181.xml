@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="547"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b06181"><!-- l1d20a4 -->
+            <head xml:id="alalal-b06181-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-b06181-Hd1e101" type="question-title">An solus Spiritus sanctus potest tantum
+quantum Pater et Filius ?</head>
+            <p xml:id="alalal-b06181-d1e104">
+               <lb ed="#Ba" n="50"/>ARTICULUS IV.
+<lb ed="#Ba" n="51"/>An solus Spiritus sanctus potest tantum
+<lb ed="#Ba" n="52"/>quantum Pater et Filius ?
+</p>
+            <p xml:id="alalal-b06181-d1e113">
+               <lb ed="#Ba" n="53"/>Deinde quaeritur de hoc quod dicit m
+<lb ed="#Ba" n="54"/>Littera wm parte prima, ubi dict, quod
+<lb ed="#Ba" n="55"/>
+               <quote xml:id="alalal-b06181-Qd1e121"> nec plus potest Pater et Filius simul,
+<lb ed="#Ba" n="56"/>quam solus Spurilus sanelus, </quote>
+            </p>
+            <p xml:id="alalal-b06181-d1e127">
+               <lb ed="#Ba" n="57"/>Sicnum solus Spiritus sanctus potest
+<lb ed="#Ba" n="58"/>lanlum, quantum Pater et Wils : non
+<lb ed="#Ba" n="59"/>ergo Pater potest tantum, quantum 
+Pa<lb break="no" ed="#Ba" n="60"/>ter et Piltus, quod falsum est
+</p>
+            <p xml:id="alalal-b06181-d1e139">
+               <lb ed="#Ba" n="61"/>Ap noe dicendum, quod haecest 
+du<lb break="no" ed="#Ba" n="62"/>plex, solus Spiritus sanctus potest 
+tan<lb break="no" ed="#Ba" n="63"/>tum, quantum Pater et Fuius: ex eo quo
+<lb ed="#Ba" n="64"/>dictio exclusiva, seilicet ly salas potest 
+si<lb break="no" ed="#Ba" n="65"/>stere in subjecto, eb ste vera est locutio
+<lb ed="#Ba" n="66"/>sub hoc sensu ,solus Spiritus sanelus, cle.,
+<lb ed="#Ba" n="67"/>id est, ille qui selus est Spiritus sanctus,
+<lb ed="#Ba" n="68"/>ita quod alius non esl Spirrtus sanclus,
+<lb ed="#Ba" n="69"/>potest lantum, etc. Si autem sit circa
+<lb ed="#Ba" n="70"/>subjectum im comparalione ad 
+pricdica<lb break="no" ed="#Ba" n="71"/>tum, line excludit alias personas a 
+paiti<lb break="no" ed="#Ba" n="72"/>cipatione praedicali, et sic falsa est, ct
+<lb ed="#Ba" n="73"/>sic procedit objectio facta m contrariam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

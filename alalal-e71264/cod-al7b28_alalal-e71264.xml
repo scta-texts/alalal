@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="375"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e71264"><!-- l3d21a1 -->
+            <head xml:id="alalal-e71264-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-e71264-Hd1e101" type="question-title">Utrum deitas separata fuit a corpore in
+tridua ?</head>
+            <p xml:id="alalal-e71264-d1e104">
+               <lb ed="Bd" n="43"/>ARTICULUS I.
+<lb ed="Bd" n="44"/>Utrum deitas separata fuit a corpore in
+<lb ed="Bd" n="45"/>tridua ?
+</p>
+            <p xml:id="alalal-e71264-d1e113">
+               <lb ed="Bd" n="46"/>Incidit autem dubium de prima 
+obje<lb break="no" ed="Bd" n="47"/>ctrone, utram concludat an non?
+</p>
+            <p xml:id="alalal-e71264-d1e120">
+               <lb ed="Bd" n="48"/>Est autem ista: Anima est medium
+<lb ed="Bd" n="49"/>quo deitas carni conjungitur : soluto 
+au<lb break="no" ed="Bd" n="50"/>tem medio, non conjunguntur extrema,
+<lb ed="Bd" n="51"/>quia deest causa conjunctionis : ergo
+<lb ed="Bd" n="52"/>separata anima a carne, separalur etiam
+<lb ed="Bd" n="53"/>deitas.
+</p>
+            <p xml:id="alalal-e71264-d1e137">
+               <lb ed="Bd" n="54"/>Videtur autem, quod ista 
+argumenta<lb break="no" ed="Bd" n="55"/>tio teneat :
+</p>
+            <p xml:id="alalal-e71264-d1e144">
+               <lb ed="Bd" n="56"/>1. Aut enim Deus est unibilis 
+creatu<lb break="no" ed="Bd" n="57"/>re irrationali, aut non. Si non tunc
+<pb ed="#Bd" n="376"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>habeo propositum, quod rationali non
+<lb ed="Bd" n="2"/>existente non fuit unita, et quod anima
+<lb ed="Bd" n="3"/>rationalis non tantum est medium 
+con<lb break="no" ed="Bd" n="4"/>gruentiae, sed medium cause. Si autem
+<lb ed="Bd" n="5"/>est unibilis irrationali creature : hoc 
+su<lb break="no" ed="Bd" n="6"/>pra improbatum est mullis rationibus in
+<lb ed="Bd" n="7"/>questione de unibili. Ergo videtur, quod
+<lb ed="Bd" n="8"/>ista conclusio sequatur.
+</p>
+            <p xml:id="alalal-e71264-d1e173">
+               <lb ed="Bd" n="9"/>2. Item, Infra in hac eadem 
+distin<lb break="no" ed="Bd" n="10"/>ctione dicitur, quod si Filius Dei mortuus
+<lb ed="Bd" n="11"/>fuisset, fons vile aruisset. Ex hoc infero
+<lb ed="Bd" n="12"/>duas conclusiones : quarum prima est,
+<lb ed="Bd" n="13"/>quod Filius Dei non fuit mortuus : sed
+<lb ed="Bd" n="14"/>si fuisset unitus carni, propter unionem
+<lb ed="Bd" n="15"/>diceretur mortuus, sicut etiam dicitur
+<lb ed="Bd" n="16"/>natus : ergo tune unitus carni non fuit.
+</p>
+            <p xml:id="alalal-e71264-d1e193">
+               <lb ed="Bd" n="17"/>3. Item, Omnis unio facit aliquid
+<lb ed="Bd" n="18"/>unum : si ergo deitas fuit unita carni,
+<lb ed="Bd" n="19"/>oporteret quod faceret aliquod unum :
+<lb ed="Bd" n="20"/>non autem facit unum persone, quia
+<lb ed="Bd" n="21"/>caro illa numquam fuit Filius Dei: ergo
+<lb ed="Bd" n="22"/>relinquitur, quod faciat unum nature :
+<lb ed="Bd" n="23"/>et sic caro et deitas essent unum, quod
+<lb ed="Bd" n="24"/>falsum est. ‘
+</p>
+            <p xml:id="alalal-e71264-d1e213">
+               <lb ed="Bd" n="25"/>4. Secunda conclusio est, quod si
+<lb ed="Bd" n="26"/>deitas est vite fons, et efficacior quam
+<lb ed="Bd" n="27"/>anima, tunc influxisset vitam : ergo
+<lb ed="Bd" n="28"/>corpus Christi in triduo illo vixisset,
+<lb ed="Bd" n="29"/>quod falsum est: ergo videtur, quod
+<lb ed="Bd" n="30"/>deitas corpori non fuit unita.
+</p>
+            <p xml:id="alalal-e71264-d1e229">
+               <lb ed="Bd" n="31"/>5. Item, Minor est unio per gloriam
+<lb ed="Bd" n="32"/>ad Deum in beatis, quam sit unio 
+natu<lb break="no" ed="Bd" n="33"/>rarum in Christo : si ergo Sanctos 
+prop<lb break="no" ed="Bd" n="34"/>ter unionem ad gloriam impossibile est
+<lb ed="Bd" n="35"/>separari a vita, multo magis impossibile
+<lb ed="Bd" n="36"/>fuit separari corpus a vita, si deitati
+<lb ed="Bd" n="37"/>fuit unitum : fuit autem separatum a 
+vi<lb break="no" ed="Bd" n="38"/>ta :ergo non fuit deitali unitum.
+</p>
+            <p xml:id="alalal-e71264-d1e250">
+               <lb ed="Bd" n="39"/>6. Item, Inferiori unione quam illa
+<lb ed="Bd" n="40"/>qua unitur homini Christo, deitas non
+<lb ed="Bd" n="41"/>est conjungibilis nisi rationali creature,
+<lb ed="Bd" n="42"/>et non secundum corpus, sed secundum
+<lb ed="Bd" n="43"/>animam solum : hoc autem est unio per
+<lb ed="Bd" n="44"/>gratiam : ergo multo minus digniori
+<lb ed="Bd" n="45"/>unione conjungibilis erat corpori sine
+<lb ed="Bd" n="46"/>anima.
+</p>
+            <p xml:id="alalal-e71264-d1e270">
+               <lb ed="Bd" n="47"/>7. Item, Tripliciter Deus esse in rebus
+<lb ed="Bd" n="48"/>dicitur ab Innocentio, scilicet 
+essentiali<lb break="no" ed="Bd" n="49"/>ter, presentialiter, potentialiter in om-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>nibus: per gratiam autem in 
+rationali<lb break="no" ed="Bd" n="51"/>bus, nonin omnibus: per unionem in
+<lb ed="Bd" n="52"/>homine Christo. Cum igitur corpus 
+ca<lb break="no" ed="Bd" n="53"/>dat in numero irrationalium, videtur
+<lb ed="Bd" n="54"/>deitas non fuisse in corpore nisi 
+praesen<lb break="no" ed="Bd" n="55"/>tialiter, potentialiter, et essentialiter.
+</p>
+            <p xml:id="alalal-e71264-d1e294">
+               <lb ed="Bd" n="56"/>In contrarium autem est quod dicit
+<lb ed="Bd" n="57"/>Magister in Littera.
+</p>
+            <p xml:id="alalal-e71264-d1e301">
+               <lb ed="Bd" n="58"/>Solutio Dicendum, quod nullo modo
+<lb ed="Bd" n="59"/>separata fuit a corpore deitas in triduo :
+<lb ed="Bd" n="60"/>vinculum enim gratia unionis 
+insepara<lb break="no" ed="Bd" n="61"/>biliter fortius fuit vinculo naturalis 
+con<lb break="no" ed="Bd" n="62"/>junctionis anime et corporis : et ideo
+<lb ed="Bd" n="63"/>soluto vinculo naturali, remansit 
+vincu<lb break="no" ed="Bd" n="64"/>lum gratia.
+</p>
+            <p xml:id="alalal-e71264-d1e319">
+               <lb ed="Bd" n="65"/>Dicendum ergo ad primum, quod 
+ani<lb break="no" ed="Bd" n="66"/>ma etsi faciat assumptibilitatem in 
+cor<lb break="no" ed="Bd" n="67"/>pore scilicet, ut supra est determinatum,
+<lb ed="Bd" n="68"/>et quoad hoc sit medium causans 
+pro<lb break="no" ed="Bd" n="69"/>prietatem assumplibilitatis, non tamen
+<lb ed="Bd" n="70"/>est medium nisi per congruentiam : et
+<lb ed="Bd" n="71"/>ideo soluta ipsa, non oportet solvere
+<lb ed="Bd" n="72"/>deitatem a carne.
+</p>
+            <p xml:id="alalal-e71264-d1e339">
+               <lb ed="Bd" n="73"/>Ad aliud dicendum, quod deitas est
+<lb ed="Bd" n="74"/>fons vite efficienter, non ut forma 
+con<lb break="no" ed="Bd" n="75"/>juncta : et licet ipsa unita fuerit, et 
+Fi<lb break="no" ed="Bd" n="76"/>lius Deicorpori, non tamen dicitur 
+dei<lb break="no" ed="Bd" n="77"/>tas passa vel mortua: quia proprietates
+<lb ed="Bd" n="78"/>unius nature non referuntur ad naturam
+<lb ed="Bd" n="79"/>aliam : sed bene concedo, quod Filius
+<lb ed="Bd" n="80"/>Dei dicitur passus et mortuus propter
+<lb ed="Bd" n="81"/>unionem : cujus ratio sepe supra 
+deter<lb break="no" ed="Bd" n="82"/>minata est.
+</p>
+            <p xml:id="alalal-e71264-d1e364">
+               <lb ed="Bd" n="83"/>Ad aliud dicendum, quod unio facit
+<lb ed="Bd" n="84"/>unum non nature, sed persone : sed
+<lb ed="Bd" n="85"/>unius unio non facit hoc unum, sed 
+po<lb break="no" ed="Bd" n="86"/>tius unius unio cum altero sibi debito
+<lb ed="Bd" n="87"/>unito. Unde unio corporis cum unione
+<lb ed="Bd" n="88"/>anime sibi uniende facit unum 
+suppo<lb break="no" ed="Bd" n="89"/>sili et persone : et in triduo remansit
+<lb ed="Bd" n="90"/>ordo ad illud unum, licet tune illud
+<lb ed="Bd" n="91"/>unum non esset: quia tunc Christus
+<lb ed="Bd" n="92"/>homo non fuit.
+</p>
+            <p xml:id="alalal-e71264-d1e388">
+               <lb ed="Bd" n="93"/>Ad aliud conclusionem dicendum,
+<lb ed="Bd" n="94"/>quod deitas est fons vite effective, non
+<lb ed="Bd" n="95"/>formaliter, nec in corpore fuit sicut 
+for<lb break="no" ed="Bd" n="96"/>ma in materia, nec sicut anima in 
+ani<lb break="no" ed="Bd" n="97"/>mato, sed per unionem dignitativam, ut
+<pb ed="#Bd" n="377"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>dicit beatus Bernardus : et deitas hoc
+<lb ed="Bd" n="2"/>modo ens in aliquo, non est necessaria
+<lb ed="Bd" n="3"/>causa vite, non ex defectu suo, sed ex
+<lb ed="Bd" n="4"/>defectu suscipientis,
+</p>
+            <p xml:id="alalal-e71264-d1e414">
+               <lb ed="Bd" n="5"/>Ad aliud dicendum, quod minor est
+<lb ed="Bd" n="6"/>unio beatorum ad Deum, quam hujus
+<lb ed="Bd" n="7"/>corporis fuit ad Deum : sed tamen magis
+<lb ed="Bd" n="8"/>est contraria morti illa, quam ista : quia
+<lb ed="Bd" n="9"/>illa ex ratione beatitudinis 
+contrarieta<lb break="no" ed="Bd" n="10"/>tem habet ad miseriam, et per 
+conse<lb break="no" ed="Bd" n="11"/>quens ad mortem : haec autem non tolhit
+<lb ed="Bd" n="12"/>a corpore miseriam, nec contrariatur 
+de<lb break="no" ed="Bd" n="13"/>fectui tali, ut supra oslensum est‘: et
+<lb ed="Bd" n="14"/>ideo illa minor facit aliquid, quod non
+<lb ed="Bd" n="15"/>facere potest ista.
+</p>
+            <p xml:id="alalal-e71264-d1e440">
+               <lb ed="Bd" n="16"/>Ad aliud dicendum, quod unio quae
+<lb ed="Bd" n="17"/>est per gratiam virtutum et donorum,
+<lb ed="Bd" n="18"/>est per habitum qui quaerit proprium 
+si<lb break="no" ed="Bd" n="19"/>bi subjectum in quo sit sicut in materia :
+<lb ed="Bd" n="20"/>et quia illud subjectum non potest esse
+<lb ed="Bd" n="21"/>nisi rationalis substantia, ideo Deus hoc
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="22"/>modo non est nisi in rationali 
+substan<lb break="no" ed="Bd" n="23"/>tia, que est homo, vel Angelus, vel
+<lb ed="Bd" n="24"/>anima rationalis : sed alia unio quae est
+<lb ed="Bd" n="25"/>ad esse, licet major sit, non tamen est
+<lb ed="Bd" n="26"/>habitus, nec quaerit hujusmodi subjectum
+<lb ed="Bd" n="27"/>proprium : quia quod illa unione 
+uni<lb break="no" ed="Bd" n="28"/>tur, assumitur ad deitatem virtule 
+deita<lb break="no" ed="Bd" n="29"/>tis quae est infinita : et hoc potest esse
+<lb ed="Bd" n="30"/>corpus habens ordinem ad animam 
+ra<lb break="no" ed="Bd" n="31"/>tionalem : unde omnes ille rationes 
+su<lb break="no" ed="Bd" n="32"/>munt propositiones, tamquam hoc per
+<lb ed="Bd" n="33"/>se conveniret uni nobiliori, quia 
+unire<lb break="no" ed="Bd" n="34"/>tur nobiliori : et hoc non est verum.
+</p>
+            <p xml:id="alalal-e71264-d1e486">
+               <lb ed="Bd" n="35"/>Ad aliud dicendum, quod tripliciter
+<lb ed="Bd" n="36"/>Deus est in his quae nullum habent 
+or<lb break="no" ed="Bd" n="37"/>dinem ad creaturam rationalem : sed
+<lb ed="Bd" n="38"/>corpus licet in se non sit rationale, est
+<lb ed="Bd" n="39"/>tamen pars et materia rationalis : et ideo
+<lb ed="Bd" n="40"/>corpora Sanctorum dicuntur templum
+<lb ed="Bd" n="41"/>Spiritus sancti? : et ideo in Christo 
+spe<lb break="no" ed="Bd" n="42"/>cialem habuit relationem ad unionem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

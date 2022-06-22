@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="97"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a19359"><!-- l1d3a7 -->
+            <head xml:id="alalal-a19359-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-a19359-Hd1e101" type="question-title">Quod creatura non potest creare.</head>
+            <p xml:id="alalal-a19359-d1e104">
+               <cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="28"/>ARTICULUS VIL.
+<lb ed="#Ba" n="29"/>Quod creatura non potest creare.
+</p>
+            <p xml:id="alalal-a19359-d1e113">
+               <lb ed="#Ba" n="30"/>Deinde quaeritur de ratione ejus quod
+<lb ed="#Ba" n="31"/>dicit: <quote xml:id="alalal-a19359-Qd1e119"> Sed quia nulla creatura taha
+<lb ed="#Ba" n="32"/>facere valet, etc. </quote>
+            </p>
+            <p xml:id="alalal-a19359-d1e125">
+               <lb ed="#Ba" n="33"/>Et ratio hujus est : quia omnis creatu~
+<lb ed="#Ba" n="34"/>ra est polentie finite : ergo ipsa non
+<lb ed="#Ba" n="35"/>operatur actione virtulis infinite : sed
+<lb ed="#Ba" n="36"/>educere aliquid de nihilo in aliud est
+<lb ed="#Ba" n="37"/>virtutis infinite : ergo ipsa non 
+operabi<lb break="no" ed="#Ba" n="38"/>tur operatione illa, et ita nihil creabil :
+<lb ed="#Ba" n="39"/>nihil enim et aliquid distant in 
+infini<lb break="no" ed="#Ba" n="40"/>tum : dicit enim Philosophus, quod inter
+<lb ed="#Ba" n="41"/>quatuor et duo, et quatuor et tria, et
+<lb ed="#Ba" n="42"/>quatuor et unum potest esse proportio :
+<lb ed="#Ba" n="43"/>sed inter aliquid et nihil nulla potest
+<lb ed="#Ba" n="44"/>esse proportio : et ideo omnium 
+natura<lb break="no" ed="#Ba" n="45"/>lium (ut dicit Philosophus) suppositio
+<lb ed="#Ba" n="46"/>fuit ex nihilo nihil fieri secundum 
+natu<lb break="no" ed="#Ba" n="47"/>ram.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="312"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e59326"><!-- l3d18dt1 -->
+            <head xml:id="alalal-e59326-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e59326-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="6"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-e59326-d1e108">
+               <lb ed="Bd" n="7"/>
+               <quote xml:id="alalal-e59326-Qd1e112"> De merite etiam Christi 
+preiermit<lb break="no" ed="Bd" n="8"/>tendum non est, ete. </quote> Hie inerpit pars illa
+<lb ed="Bd" n="9"/>quie est de operibus Christi.
+</p>
+            <p xml:id="alalal-e59326-d1e120">
+               <lb ed="Bd" n="10"/>Et dividitur in tres partes: in quaruin
+<lb ed="Bd" n="11"/>prima agit de merito Christi generaliter:
+<lb ed="Bd" n="12"/>et quia precipuum ejus fuit passio, ideo
+<lb ed="Bd" n="13"/>prime quaeritur de merito passionis. In
+<lb ed="Bd" n="14"/>secunda autem de cpere passionis, et 
+co<lb break="no" ed="Bd" n="15"/>rum quae erant in passione, sicut tradilic,
+<lb ed="Bd" n="16"/>et hujusmodi : quae incipit circa medium
+<lb ed="Bd" n="17"/>distinctionis NX, in illo capite C, <quote xml:id="alalal-e59326-Qd1e139"> 
+Chri<lb break="no" ed="Bd" n="18"/>slus ergo est sacerdos, idemyue hostia, ef
+<lb ed="Bd" n="19"/>preiium nostre veconciliationis. etc. </quote> in
+<lb ed="Bd" n="20"/>tertia auten. tractat queestiones 
+conse<lb break="no" ed="Bd" n="21"/>quentes mortem Christi: sicul s: home
+<lb ed="Bd" n="22"/>fuerit in triduo, et hujusimodi: et qua
+<lb ed="Bd" n="23"/>ratione dicatur mortuus: et haec incipit
+<lb ed="Bd" n="24"/>distinct. XXI, ibi, A, <quote xml:id="alalal-e59326-Qd1e157"> Post predicta
+<lb ed="Bd" n="25"/>considerandum est. Utrum im morie,
+<lb ed="Bd" n="26"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-e59326-d1e165">
+               <lb ed="Bd" n="27"/>Prima harum partium sebdividitu: in
+<lb ed="Bd" n="28"/>quatuor partes: in quarum prima 
+Ma<lb break="no" ed="Bd" n="29"/>gister quaerit de effectu meriti Christi
+<lb ed="Bd" n="30"/>in se. In sccunda autem de effectu 
+me<lb break="no" ed="Bd" n="31"/>rifi ex parte nostra: et heec incipit in 
+ul<lb break="no" ed="Bd" n="32"/>timo et capitulo istius distinctionis, ibi,
+<lb ed="Bd" n="33"/>EE, <quote xml:id="alalal-e59326-Qd1e182"> Ad guid ergo voluit pati et mori,
+<lb ed="Bd" n="34"/>etc. </quote> In tertia autem determinat ex hoc,
+<lb ed="Bd" n="35"/>qualiter ipse solus est redemptor et
+<lb ed="Bd" n="36"/>diator, ibi, Distmet. XIX, E, <quote xml:id="alalal-e59326-Qd1e191"> Unde
+<lb ed="Bd" n="37"/>ipse vere dicitur mundi redemptor, etc. </quote>
+               <lb ed="Bd" n="38"/>In quarta queril, Si alius fuit modus
+<lb ed="Bd" n="39"/>possibilis ? et quare potius hac modo
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="40"/>quam alio modo volai liberare ? iby,
+<lb ed="Bd" n="41"/>Distinct. KX. A, <quote xml:id="alalal-e59326-Qd1e207"> Si vero quaeritur,
+<lb ed="Bd" n="42"/>Utrum aliomedo, etc. :</quote> et est ibi 
+prin<lb break="no" ed="Bd" n="43"/>cipium distinctionis vicesime.
+</p>
+            <p xml:id="alalal-e59326-d1e217">
+               <lb ed="Bd" n="44"/>In prima parte Magister quaerit 
+qua<lb break="no" ed="Bd" n="45"/>tuor problemata et determinat: quorum
+<lb ed="Bd" n="46"/>primum est bimembre, scilicet an 
+me<lb break="no" ed="Bd" n="47"/>ruerit, et quid meruit ? et hoc esi in 
+ca<lb break="no" ed="Bd" n="48"/>pile A. Secunde, Quando inereri ince
+<lb ed="Bd" n="49"/>pit? ibi, B, <quote xml:id="alalal-e59326-Qd1e232"> Nec hoc soluni meruit
+<lb ed="Bd" n="50"/>Christus, quando Patri obediens, ete. </quote>
+               <lb ed="Bd" n="51"/>Tertio, Quid sit nominis datio quam 
+me<lb break="no" ed="Bd" n="52"/>rail?ib, C. <quote xml:id="alalal-e59326-Qd1e241"> Nee tantem gloriam 
+impas<lb break="no" ed="Bd" n="53"/>sibilitatis eliummorialitaiis merit, ete. </quote>
+               <lb ed="Bd" n="54"/>Quarium est, Si hoc sine merito habere
+<lb ed="Bd" n="55"/>potuit ?ibi, DB, <quote xml:id="alalal-e59326-Qd1e251"> Si vere quaeritur, Uiium
+<lb ed="Bd" n="56"/>Christus illam inunerialitatens: et
+<lb ed="Bd" n="57"/>passibilitalem. etc. </quote>
+            </p>
+            <p xml:id="alalal-e59326-d1e259">
+               <lb ed="Bd" n="58"/>Sententia Litterae patet per se.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

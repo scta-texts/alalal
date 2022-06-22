@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="210"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d39905"><!-- l2d10dt -->
+            <head xml:id="alalal-d39905-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-d39905-d1e101">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="4"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-d39905-d1e108">
+               <lb ed="#Bc" n="5"/>
+               <quote xml:id="alalal-d39905-Qd1e112"> Hoc etiam investigandum est, Utrum
+<lb ed="#Bc" n="6"/>omnes illi, etc. </quote>
+               <lb ed="#Bc" n="7"/>Hic incipit Magister agere de 
+missio<lb break="no" ed="#Bc" n="8"/>nibus Angelorum.
+</p>
+            <p xml:id="alalal-d39905-d1e122">
+               <lb ed="#Bc" n="9"/>Et habet duas partes: in quarum 
+pri<lb break="no" ed="#Bc" n="10"/>ma queritur, Utrum omnes mittantur,
+<lb ed="#Bc" n="11"/>vel quidam ? In sequenti autem 
+distin<lb break="no" ed="#Bc" n="12"/>ctione, quaerit de custodia quam habent
+<lb ed="#Bc" n="13"/>circa nos, ibi, Dist. XI, A, <quote xml:id="alalal-d39905-Qd1e135"> Illud 
+quo<lb break="no" ed="#Bc" n="14"/>que sciendum est, etc. </quote>
+            </p>
+            <p xml:id="alalal-d39905-d1e141">
+               <lb ed="#Bc" n="15"/>Ista distinctio dividitur in tres partes,
+<lb ed="#Bc" n="16"/>secundum tres opiniones hic inductas :
+<lb ed="#Bc" n="17"/>quarum prima, est, quod non omnes
+<lb ed="#Bc" n="18"/>mittuntur. Secunda, quod omnes, ibi, C,
+<lb ed="#Bc" n="19"/>
+               <quote xml:id="alalal-d39905-Qd1e154"> Hic oritur queéstio, etc. </quote> Tertia, quod
+<lb ed="#Bc" n="20"/>non omnes mittantur ad nos: sed 
+qui<lb break="no" ed="#Bc" n="21"/>dam ad. medios ut superiores, et medii
+<lb ed="#Bc" n="22"/>ad inferiores, et inferiores ad nos: et
+<lb ed="#Bc" n="23"/>hee incipit, ibi, F, <quote xml:id="alalal-d39905-Qd1e164"> Adit vero dicunt,
+<lb ed="#Bc" n="24"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-d39905-d1e171">
+               <lb ed="#Bc" n="25"/>Et haec sola opinio est, ut mihi 
+vide<lb break="no" ed="#Bc" n="26"/>tur, quae parum habet rationis, et contra
+<lb ed="#Bc" n="27"/>se habet plurimas auctoritates : quia 
+Vir<lb break="no" ed="#Bc" n="28"/>tutes et Principes et Potestates expresse
+<lb ed="#Bc" n="29"/>missi leguntur, et habeat officia circa
+<lb ed="#Bc" n="30"/>nos, ut miracula facere, daeemones arcere,
+<lb ed="#Bc" n="31"/>et principatus ordinare et distinguere et
+<lb ed="#Bc" n="32"/>gubernare : et tamen ista opinio plures
+<lb ed="#Bc" n="33"/>habet sequentes.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

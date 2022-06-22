@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="480"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h00400"><!-- l4d15a8 -->
+            <head xml:id="alalal-h00400-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-h00400-Hd1e101" type="question-title">An sine fide aliqua poena sit 
+satisfactoria ?</head>
+            <p xml:id="alalal-h00400-d1e104">
+               <lb ed="#Be" n="22"/>ARTICULUS VIII.
+<lb ed="#Be" n="23"/>An sine fide aliqua poena sit 
+satisfacto<lb break="no" ed="#Be" n="24"/>ria ?
+</p>
+            <p xml:id="alalal-h00400-d1e113">
+               <lb ed="#Be" n="25"/>Dubium autem incidit de hoc quod
+<lb ed="#Be" n="26"/>dicit in prima parte, ibi, B, § 2, in textu
+<lb ed="#Be" n="27"/>Ambrosii: <quote xml:id="alalal-h00400-Qd1e121"> Secunda, per punitionem:
+<lb ed="#Be" n="28"/>ubi etsi fides desit, etc. </quote>
+            </p>
+            <p xml:id="alalal-h00400-d1e127">
+               <lb ed="#Be" n="29"/>Contra enim est illud Apostoli, ad 
+Ro<lb break="no" ed="#Be" n="30"/>man. xtv, 23: <quote xml:id="alalal-h00400-Qd1e133"
+                      source="http://scta.info/resource/rom14_23@12-19">Omne quod non est ex
+<lb ed="#Be" n="31"/>fide, peccatum est</quote>. Et, ad Hebr. x, 6:
+<lb ed="#Be" n="32"/>
+               <quote xml:id="alalal-h00400-Qd1e140"
+                      source="http://scta.info/resource/hebr6_6@1-7">Sine fide impossibile est quemquam 
+pla<lb break="no" ed="#Be" n="33"/>cere Deo</quote>. Fortassis et displicere necesse
+<lb ed="#Be" n="34"/>est: ergo videtur, quod sine fide poena
+<lb ed="#Be" n="35"/>non sit satisfactoria.
+</p>
+            <p xml:id="alalal-h00400-d1e152">
+               <lb ed="#Be" n="36"/>SoLutio. Aiquivocatio est in fide : quia
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="37"/>fides est virtus qua creduntur invisibilig
+<lb ed="#Be" n="38"/>propter primam veritatem : et de hac non
+<lb ed="#Be" n="39"/>loquitur hic. Fides iterum est credulitas
+<lb ed="#Be" n="40"/>quedam rationis de aliquo apprehengo
+<lb ed="#Be" n="41"/>secundum quod dicit <quote xml:id="alalal-h00400-Qd1e169">Philosophus in III
+<lb ed="#Be" n="42"/>de Anima</quote>, quod opinio juvata rationi.
+<lb ed="#Be" n="43"/>bus fit fides: et sic consuevit dici, quod
+<lb ed="#Be" n="44"/>fides est alicujus opinati vel sciti: et sic
+<lb ed="#Be" n="45"/>loquitur hic Ambrosius. Unde sensus
+<lb ed="#Be" n="46"/>est: Si fides, id est, conscientia 
+deli<lb break="no" ed="#Be" n="47"/>cti desit, quia delicta nemo intelligit :
+<lb ed="#Be" n="48"/>peena satisfacit, quia talia Deus aut pie
+<lb ed="#Be" n="49"/>patientia poenarum indulget, aut revelat
+<lb ed="#Be" n="50"/>ad confitendum.
+</p>
+            <p xml:id="alalal-h00400-d1e192">
+               <lb ed="#Be" n="51"/>AD PRIMUM ergo dicendum, quod 
+sen<lb break="no" ed="#Be" n="52"/>sus auctoritatis Apostoli est : <quote xml:id="alalal-h00400-Qd1e198">Omne quod
+<lb ed="#Be" n="53"/>non est ex fide</quote>, id est, contra fidem, 
+pec<lb break="no" ed="#Be" n="54"/>catum est: quia qui facit contra 
+conscien<lb break="no" ed="#Be" n="55"/>tiam, edificat ad gehennam.
+</p>
+            <p xml:id="alalal-h00400-d1e208">
+               <lb ed="#Be" n="56"/>Ad alia duo dicendum, quod loquitur
+<lb ed="#Be" n="57"/>de fide virtute. .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

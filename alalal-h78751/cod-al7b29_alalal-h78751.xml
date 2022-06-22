@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="833"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h78751"><!-- l4d20a5 -->
+            <head xml:id="alalal-h78751-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-h78751-Hd1e101" type="question-title">Quid sit ignis purgatori, an corporeus,
+vel spiritualis ?</head>
+            <p xml:id="alalal-h78751-d1e104">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="37"/>ARTICULUS V.
+<lb ed="#Be" n="38"/>Quid sit ignis purgatori, an corporeus,
+<lb ed="#Be" n="39"/>vel spiritualis ?
+</p>
+            <p xml:id="alalal-h78751-d1e115">
+               <lb ed="#Be" n="40"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="41"/>ibi, A, post medium: <quote xml:id="alalal-h78751-Qd1e121"> Prius 
+purgan<lb break="no" ed="#Be" n="42"/>dus est igne purgationis, etc. </quote>
+            </p>
+            <p xml:id="alalal-h78751-d1e127">
+               <lb ed="#Be" n="43"/>Queruntur autem hic in principio duo
+<lb ed="#Be" n="44"/>de igne purgatorio, scilicet quid sit in re,
+<lb ed="#Be" n="45"/>et ubi sit secundum locum ?
+</p>
+            <p xml:id="alalal-h78751-d1e137">
+               <lb ed="#Be" n="46"/>Ad primum horum sic proceditur :
+<lb ed="#Be" n="47"/>1. Ignis corporis est nomen : ergo 
+vi<lb break="no" ed="#Be" n="48"/>detur, quod ignis corporeus sit ignis 
+pur<lb break="no" ed="#Be" n="49"/>gatoril.
+</p>
+            <p xml:id="alalal-h78751-d1e148">
+               <lb ed="#Be" n="50"/>2. Praeterea, Multi sancti dicunt quod
+<lb ed="#Be" n="51"/>ignis inferni corporeus est : ergo et ignis
+<lb ed="#Be" n="52"/>purgatorii, ut videtur. .
+</p>
+            <p xml:id="alalal-h78751-d1e157">
+               <lb ed="#Be" n="53"/>3. Item, Gregorius ? <quote xml:id="alalal-h78751-Qd1e161"> Ignis gehenne
+<lb ed="#Be" n="54"/>corporalis est, qui corporaliter malos
+<lb ed="#Be" n="55"/>exurit. </quote>
+            </p>
+            <p xml:id="alalal-h78751-d1e169">
+               <lb ed="#Be" n="56"/>4. Item, Augustinus : <quote xml:id="alalal-h78751-Qd1e173"> Cur non 
+dica<lb break="no" ed="#Be" n="57"/>mus quamvis miris, veris tamen modis
+<lb ed="#Be" n="58"/>etiam spiritus incorporeos posse poena
+<lb ed="#Be" n="59"/>corporalis ignis affligi, si spiritus 
+homi<lb break="no" ed="#Be" n="60"/>num quamvis incorporei, potuerunt 
+in<lb break="no" ed="#Be" n="61"/>cludi corporalibus membris *? </quote>
+            </p>
+            <p xml:id="alalal-h78751-d1e187">
+               <lb ed="#Be" n="62"/>5. Item, Augustinus: <quote xml:id="alalal-h78751-Qd1e191"> Gehenna quae
+<lb ed="#Be" n="63"/>stagnum ignis et sulphuris dicta est,
+<lb ed="#Be" n="64"/>corporeus ignis erit. </quote> Ex his colligitur,
+<lb ed="#Be" n="65"/>quod sit ignis corporeus crucians 
+ani<lb break="no" ed="#Be" n="66"/>mas. Cum igitur una ratio sit de igne
+<lb ed="#Be" n="67"/>inferni, et purgatorii, videtur quod ignis
+<lb ed="#Be" n="68"/>purgatorii sit corporeus.
+</p>
+            <p xml:id="alalal-h78751-d1e208">
+               <lb ed="#Be" n="69"/>6. Praeterea, Si dicatur, quod sit 
+in<lb break="no" ed="#Be" n="70"/>corporeus, videtur sequi inconveniens.
+<lb ed="#Be" n="71"/>Dicit enim Aristoteles, et probat in 
+quar<lb break="no" ed="#Be" n="72"/>to Ethicorum, quod delectatio omnino
+<lb ed="#Be" n="73"/>spiritualis, non habet contrarium, nec
+<lb ed="#Be" n="74"/>est medicina: sed delectatio futura est
+<lb ed="#Be" n="75"/>omnino spiritualis : ergo non habet con-
+<pb ed="#Be" n="834"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>trarium : ergo non habet aliquid 
+contra<lb break="no" ed="#Be" n="2"/>rium agens ad tristitiam : si igitur ignis
+<lb ed="#Be" n="3"/>ille sit tantum spiritualis, non aget ad
+<lb ed="#Be" n="4"/>contristationem : et tunc ibi puniti non
+<lb ed="#Be" n="5"/>contristarentur : et hoc est falsum.
+</p>
+            <p xml:id="alalal-h78751-d1e242">
+               <lb ed="#Be" n="6"/>7. Adhuc, Spiritualia pure separata
+<lb ed="#Be" n="7"/>sunt a motu et-a materia: sed omnis
+<lb ed="#Be" n="8"/>contrarietas est cum motu et materia :
+<lb ed="#Be" n="9"/>ergo in spiritualibus non est 
+contrarie<lb break="no" ed="#Be" n="10"/>tas: ergo nec actio’ contrarietatis 
+ali<lb break="no" ed="#Be" n="11"/>cujus: sed omnis poena est. ex agente
+<lb ed="#Be" n="12"/>contrario :.ergo in talibus nulla est 
+pe<lb break="no" ed="#Be" n="13"/>na. Si ergo detur, quod sit ignis pure
+<lb ed="#Be" n="14"/>spiritualis, videtur quod nullo modo sit
+<lb ed="#Be" n="15"/>afflictivus : et hoc heresis est : ergo ne~
+<lb ed="#Be" n="16"/>cessé est eum ponere corporalem.
+</p>
+            <p xml:id="alalal-h78751-d1e268">
+               <lb ed="#Be" n="17"/>8. Adhuc, Nulla substantia in quantum
+<lb ed="#Be" n="18"/>hujusmodi, transmutabilis est, ut dicit
+<lb ed="#Be" n="19"/>Aristoteles, dans exemplum etiam in igne.
+<lb ed="#Be" n="20"/>qui nec agit nec transmutat aliquid in
+<lb ed="#Be" n="21"/>quantum substantia est : si igilur agit et
+<lb ed="#Be" n="22"/>transmutat, hoc erit ab aliqua qualitate
+<lb ed="#Be" n="23"/>ipsius substantiae : ergo agens 
+transmu<lb break="no" ed="#Be" n="24"/>tando est substantia disposita qualitate :
+<lb ed="#Be" n="25"/>constat autem, quod non omnis qualitas
+<lb ed="#Be" n="26"/>agit, sed physica solum, ut dicunt 
+om<lb break="no" ed="#Be" n="27"/>nes Philosophi: ergo necessarium est,
+<lb ed="#Be" n="28"/>quod habeat qualitatem physicam.
+</p>
+            <p xml:id="alalal-h78751-d1e297">
+               <lb ed="#Be" n="29"/>Item, Nec omnis qualitas physica agit:
+<lb ed="#Be" n="30"/>sed contingit contrarium activum esse :
+<lb ed="#Be" n="31"/>ergo. necesse est talem contrarietatem
+<lb ed="#Be" n="32"/>habere: omnis autem talis substantia
+<lb ed="#Be" n="33"/>est corporea: igitur transmutans et agens
+<lb ed="#Be" n="34"/>omne corporeum est: sed ignis 
+purga<lb break="no" ed="#Be" n="35"/>toril agit transmutando et puniendo :
+<lb ed="#Be" n="36"/>non enim est poena nisi per 
+immutatio<lb break="no" ed="#Be" n="37"/>nem patientis: ergo videtur, quod ignis
+<lb ed="#Be" n="38"/>purgatorii sit corporeus.
+</p>
+            <p xml:id="alalal-h78751-d1e321">
+               <lb ed="#Be" n="39"/>Sed st hoc dicatur objicitur in 
+contra<lb break="no" ed="#Be" n="40"/>rium primo per auctoritates, et postea
+<lb ed="#Be" n="41"/>per rationes.
+</p>
+            <p xml:id="alalal-h78751-d1e330">
+               <lb ed="#Be" n="42"/>1. Dicit enim Gregorius in Moralibus :
+<lb ed="#Be" n="43"/>
+               <quote xml:id="alalal-h78751-Qd1e336"> Ignis corporeus ut esse ignis valeat,
+<lb ed="#Be" n="44"/>corporis indiget fomentis : qui cum 
+neces<lb break="no" ed="#Be" n="45"/>se sit ut servetur, per congesta ligna
+<cb ed="#Be" n="b"/>
+                  <lb ed="#Be" n="46"/>procul dubio nutritur : nec valet nisi suc~
+<lb ed="#Be" n="47"/>census esse et refotus subsistere. Econtra.
+<lb ed="#Be" n="48"/>autem ignis gehenne cum sit incorpo-~'
+<lb ed="#Be" n="49"/>reus, in semetipso reprobos corporaliter:
+<lb ed="#Be" n="50"/>exurit, nec studio humano succenditur,
+<lb ed="#Be" n="51"/>nec lignis nutritur: sed semel creatus,
+<lb ed="#Be" n="52"/>durat inexstinguibilis, et successione non
+<lb ed="#Be" n="53"/>indiget, nec ardore caret '. </quote> Ex hoc 
+ex<lb break="no" ed="#Be" n="54"/>presse habetur, quod nec corporalis est,
+<lb ed="#Be" n="55"/>nec ad modum corporei fovetur et nutritur,
+</p>
+            <p xml:id="alalal-h78751-d1e367">
+               <lb ed="#Be" n="56"/>2. Item, In-eodem: <quote xml:id="alalal-h78751-Qd1e371"> Si stridores
+<lb ed="#Be" n="57"/>dentium et fletus oculorum spiritualiter
+<lb ed="#Be" n="58"/>accipiamus, flammas quoque 
+tormento<lb break="no" ed="#Be" n="59"/>rum in ipsis non corporales, sed spiritua~
+<lb ed="#Be" n="60"/>les credere debemus. </quote>
+            </p>
+            <p xml:id="alalal-h78751-d1e384">
+               <lb ed="#Be" n="61"/>3. Item, Augustinus in libro XXI de
+<lb ed="#Be" n="62"/>Civitate Dei, dicit talem fuisse illam.
+<lb ed="#Be" n="63"/>flamroam.in qua dives. cruciabatur, quales.
+<lb ed="#Be" n="64"/>oculi quos levavit, quando Lazarum yi-.
+<lb ed="#Be" n="65"/>dit, qualis lingua cui humorem 
+desidera<lb break="no" ed="#Be" n="66"/>vit infundi, qualis digitus Lazari de quo
+<lb ed="#Be" n="67"/>fieri id postulavit : sed constat, quod
+<lb ed="#Be" n="68"/>membra illa non fuerunt corporalia, sed
+<lb ed="#Be" n="69"/>spiritualia : ergo videtur, quod nec 
+flam<lb break="no" ed="#Be" n="70"/>ma fuit corporalis : ergo nec ignis 
+purga<lb break="no" ed="#Be" n="71"/>torii, ut videtur.
+</p>
+            <p xml:id="alalal-h78751-d1e410">
+               <lb ed="#Be" n="72"/>
+               <sic>3.</sic> Item, Damascenus in ultimo - 
+capi<lb break="no" ed="#Be" n="73"/>tulo librisui : <quote xml:id="alalal-h78751-Qd1e418"> Ignis autem iste non est
+<lb ed="#Be" n="74"/>corporeus,sed qualis utique Deus novits. </quote>
+            </p>
+            <p xml:id="alalal-h78751-d1e424">
+               <lb ed="#Be" n="75"/>5. Per rationem autem objicitur sic :
+<lb ed="#Be" n="76"/>Omne agens et patiens cum 
+transmuta<lb break="no" ed="#Be" n="77"/>tione conveniunt in materia, ut dicit
+<lb ed="#Be" n="78"/>Boetius in libro de Duabus naturis in
+<lb ed="#Be" n="79"/>una persona Christi - sed ignis 
+purgato<lb break="no" ed="#Be" n="80"/>rii et anima purganda se habent sicut
+<lb ed="#Be" n="81"/>agens et patiens secundum 
+transmuta<lb break="no" ed="#Be" n="82"/>tum : ergo communicant in materia : sed
+<lb ed="#Be" n="83"/>anima aut non est de materia, aut non
+<lb ed="#Be" n="84"/>est de materia corporali: ergo videtur,
+<lb ed="#Be" n="85"/>quod ignis ille aut non sit de materia, aut
+<lb ed="#Be" n="86"/>non sit de materia corporali : ergo” non
+<lb ed="#Be" n="87"/>est corporeus.
+</p>
+            <p xml:id="alalal-h78751-d1e455">
+               <lb ed="#Be" n="88"/>6. Adhuc, Auctor libri Sex 
+principio<lb break="no" ed="#Be" n="89"/>rum dicit, quod impossibile est non 
+cor<lb break="no" ed="#Be" n="90"/>pus a corpore moveri: sed anima non
+<pb ed="#Be" n="835"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>est corpus: ergo non movetur a corpore :
+<lb ed="#Be" n="2"/>sed movetur et transmutatur ab igne
+<lb ed="#Be" n="3"/>purgatorio : ergo ignis purgatorius non
+<lb ed="#Be" n="4"/>est corpus: ergo nec corporeus: quia
+<lb ed="#Be" n="5"/>constat, quod sine quantitate est ignis ille
+<lb ed="#Be" n="6"/>quicumque sit.
+</p>
+            <p xml:id="alalal-h78751-d1e481">
+               <lb ed="#Be" n="7"/>Heec autem usque ad iractatum de 
+re<lb break="no" ed="#Be" n="8"/>surrectione pro objectis sufficiant : quia
+<lb ed="#Be" n="9"/>ibi de hoc querendi iterum erit locus.
+</p>
+            <p xml:id="alalal-h78751-d1e490">
+               <lb ed="#Be" n="10"/>Responsio. Omnes sancti disputantes
+<lb ed="#Be" n="11"/>de ista questione dicunt, quod ea quae
+<lb ed="#Be" n="12"/>dicunt, volunt accipi sine supercilio 
+asser<lb break="no" ed="#Be" n="13"/>tionis sue. Ita etiam ego dico qualis sit
+<lb ed="#Be" n="14"/>ignis purgatorii, non arbitror quemquam
+<lb ed="#Be" n="15"/>scire, nisi cui Deus revelavit. Utrum 
+au<lb break="no" ed="#Be" n="16"/>tem sit, pertinebit ad sequentem 
+distin<lb break="no" ed="#Be" n="17"/>ctionem inquirere.
+</p>
+            <p xml:id="alalal-h78751-d1e511">
+               <lb ed="#Be" n="18"/>De hoc autem quod hic quesitum est,
+<lb ed="#Be" n="19"/>dicendum videtur, quod sit corporeus.
+<lb ed="#Be" n="20"/>Et puto, quod quicumque attendit 
+subti<lb break="no" ed="#Be" n="21"/>liter inconvenientia ad quae dicunt 
+ratio<lb break="no" ed="#Be" n="22"/>nes primo inducte, vix inclinabitur in
+<lb ed="#Be" n="23"/>aliam opinionem, nisi quod est corporeus.
+<lb ed="#Be" n="24"/>Nisi forte, quod absit, aliquis in heresim
+<lb ed="#Be" n="25"/>quorumdam Philosophorum laberetur,
+<lb ed="#Be" n="26"/>ut diceret omnia quae de locis poenarum
+<lb ed="#Be" n="27"/>et poenis scripta sunt, omnino frivola et
+<lb ed="#Be" n="28"/>vana esse. Consentiendo igitur rationibus
+<lb ed="#Be" n="29"/>primo inductis; dico quod corporeus est.
+</p>
+            <p xml:id="alalal-h78751-d1e540">
+               <lb ed="#Be" n="30"/>Ad id quod contra objicitur, dicendum
+<lb ed="#Be" n="31"/>quod distinguitur inter primum affligens,
+<lb ed="#Be" n="32"/>et proximum affligens: primum enim
+<lb ed="#Be" n="33"/>affligens spiritualem substantiam sive in
+<lb ed="#Be" n="34"/>corpore Sive extra corpus, corporeum est :
+<lb ed="#Be" n="35"/>sed proximum affligens est spirituale. Ut
+<lb ed="#Be" n="36"/>autem hoc melius intelligatur, ponamus
+<lb ed="#Be" n="37"/>exemplum: incisio enim vulnerate 
+ma<lb break="no" ed="#Be" n="38"/>nus, corporalis est, et patitur corpus, et
+<lb ed="#Be" n="39"/>compatitur anima. Primum quidem 
+af<lb break="no" ed="#Be" n="40"/>fligens utriusque horum est gladius: sed
+<lb ed="#Be" n="41"/>cnm anima patiatur a passione corporis,
+<lb ed="#Be" n="42"/>constat quod id quod facit motum in 
+af<lb break="no" ed="#Be" n="43"/>fectu tristitia in anima, similitudo 
+vulne<lb break="no" ed="#Be" n="44"/>ris est apprehensa ut contraria 
+conjun<lb break="no" ed="#Be" n="45"/>cto : secundum autem quod talis simili-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="46"/>tudo est in anima, spiritualis est: et ita
+<lb ed="#Be" n="47"/>proximum affligens animam est spirituale.
+<lb ed="#Be" n="48"/>Ita dico in purgatorio, quod primum 
+af<lb break="no" ed="#Be" n="49"/>fligens est ignis corporeus, habens vim
+<lb ed="#Be" n="50"/>affligendi spiritum ex eo quod est 
+instru<lb break="no" ed="#Be" n="51"/>mentum divine justitia vindicantis 
+ini<lb break="no" ed="#Be" n="52"/>quitatem. Et proximum affligens est 
+si<lb break="no" ed="#Be" n="53"/>militudo ignis recepta ab animabus 
+pu<lb break="no" ed="#Be" n="54"/>nitis, prout est imstrumentum justitie
+<lb ed="#Be" n="55"/>vindicantis peccatum, cui ipsa anima pro
+<lb ed="#Be" n="56"/>voluntate se subdidit. Hoc autem in 
+tra<lb break="no" ed="#Be" n="57"/>clatu de resurrectione magis discutietur.
+<lb ed="#Be" n="58"/>Hee autem videtur esse senténtia 
+Gre<lb break="no" ed="#Be" n="59"/>gorii in libro quarto Dialogorum ubi sic
+<lb ed="#Be" n="60"/>dicit : <quote xml:id="alalal-h78751-Qd1e611"> Hoc est eis in igne ardere, quod
+<lb ed="#Be" n="61"/>est ignem videre, trahentes ab ignibus
+<lb ed="#Be" n="62"/>penam, non dantesignibus vitam !. </quote>
+            </p>
+            <p xml:id="alalal-h78751-d1e619">
+               <lb ed="#Be" n="63"/>Dicendum ergo ad primum, quod 
+Gre<lb break="no" ed="#Be" n="64"/>gorius loquitur de immediate affligente,
+<lb ed="#Be" n="65"/>et non de affligente primo: et eodem
+<lb ed="#Be" n="66"/>modo ad omnes sequentes auctoritates
+<lb ed="#Be" n="67"/>dicendum est.
+</p>
+            <p xml:id="alalal-h78751-d1e632">
+               <lb ed="#Be" n="68"/>Ad id autem quod objicitur per ratio~
+<lb ed="#Be" n="69"/>nem, dicendum quod illa propositio 
+intel<lb break="no" ed="#Be" n="70"/>ligitur de agentibus et patientibus 
+phy<lb break="no" ed="#Be" n="71"/>sice : anima autem patitur ab igne 
+purga<lb break="no" ed="#Be" n="72"/>torio habente vim ex eo quod est corpus
+<lb ed="#Be" n="73"/>existens instrumentum divine justitice :
+<lb ed="#Be" n="74"/>et haec est alia vis caloris, quam 
+natura<lb break="no" ed="#Be" n="75"/>lis vis caloris tantum. Hujus autem 
+exem<lb break="no" ed="#Be" n="76"/>plum est, quod calor secundum 
+Philoso<lb break="no" ed="#Be" n="77"/>pum igneus est : et tamen secundum quod
+<lb ed="#Be" n="78"/>est instrumentum anime regentis corpus,
+<lb ed="#Be" n="79"/>non agit actione ignis tantum, quia sic
+<lb ed="#Be" n="80"/>incineraret, sed actione vivifica anima,
+<lb ed="#Be" n="81"/>et nos videmus quod digerendo assimilat
+<lb ed="#Be" n="82"/>carni et ossi et nervo, sicut dicit 
+Aristo<lb break="no" ed="#Be" n="83"/>teles in secundo de Anima, loquens 
+con<lb break="no" ed="#Be" n="84"/>tra opinionem quae dicebat, quod ageret
+<lb ed="#Be" n="85"/>in vi ignis tantum. A simih videtur 
+di<lb break="no" ed="#Be" n="86"/>cendum de calore ignis purgatorii, quod
+<lb ed="#Be" n="87"/>in quantum movetur a virtute justitice
+<lb ed="#Be" n="88"/>vindicantis, habet vim puniendi animas
+<lb ed="#Be" n="89"/>incorporeas, quae ordinem sue dignitatis
+<lb ed="#Be" n="90"/>vel irrecuperabiliter vel recuperabiliter
+<lb ed="#Be" n="91"/>amiserunt, sicut existentes in inferno ir-
+<pb ed="#Be" n="836"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>recuperabiliter, et existentes in 
+purgato<lb break="no" ed="#Be" n="2"/>rio recuperabiliter amiserunt.
+</p>
+            <p xml:id="alalal-h78751-d1e695">
+               <lb ed="#Be" n="3"/>Ad Auwp dicendum, quod hoc 
+intelli<lb break="no" ed="#Be" n="4"/>gitur de omni motu corporeo et physico,
+<lb ed="#Be" n="5"/>sicut dictum est. In aliis enim etiam in
+<lb ed="#Be" n="6"/>naturis falsum est : quia corpus movetur
+<lb ed="#Be" n="7"/>ab immobili incorporeo primo: et hoc
+<lb ed="#Be" n="8"/>expressius probabitur in distinctione XL.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

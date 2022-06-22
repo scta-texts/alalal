@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="467"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a92441"><!-- l1d17a2 -->
+            <head xml:id="alalal-a92441-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-a92441-Hd1e101" type="question-title">Utrum mitti posset Filius, ita quod non
+mittatur Spiritus sanctus ?</head>
+            <p xml:id="alalal-a92441-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="5"/>ARTICULUS I.
+<lb ed="#Ba" n="6"/>Utrum mitti posset Filius, ita quod non
+<lb ed="#Ba" n="7"/>mittatur Spiritus sanctus ?
+</p>
+            <p xml:id="alalal-a92441-d1e115">
+               <lb ed="#Ba" n="8"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="#Ba" n="9"/>Litera in secundo capitulo prime partis,
+<lb ed="#Ba" n="10"/>ibi, <quote xml:id="alalal-a92441-Qd1e123"> Quzx charitas cum ita est in nobis,
+<lb ed="#Ba" n="11"/>ut nos faciat diligere Deum, etc. </quote>
+            </p>
+            <p xml:id="alalal-a92441-d1e129">
+               <lb ed="#Ba" n="12"/>Dubium enim adhue est propter 
+quos<lb break="no" ed="#Ba" n="13"/>dam, utrum possit mitti Filius, ita quod
+<lb ed="#Ba" n="14"/>non mittatur Spiritus sanctus? Videlur
+<lb ed="#Ba" n="15"/>enim, quod sic :
+</p>
+            <p xml:id="alalal-a92441-d1e141">
+               <lb ed="#Ba" n="16"/>1. Mitti enim est cognose: quod ab
+<lb ed="#Ba" n="17"/>alio sit: sed Filius potest cognosci ab
+<lb ed="#Ba" n="18"/>alio esse, ita quod non cognoscatur ab
+<lb ed="#Ba" n="19"/>alio esse Spiritus sanctus : ergo mutti
+<lb ed="#Ba" n="20"/>potest Filius, ita quod non mittatur 
+Spi<lb break="no" ed="#Ba" n="21"/>ritus sanctus.
+</p>
+            <p xml:id="alalal-a92441-d1e157">
+               <lb ed="#Ba" n="22"/>2. Item, Multa sunt revelationes 
+oc<lb break="no" ed="#Ba" n="23"/>cultorum in somniis et visionibus, sicut
+<lb ed="#Ba" n="24"/>in prophetiis, in quibus non est conjuncta
+<lb ed="#Ba" n="25"/>gratia gratum faciens : ergo cum in 
+gra<lb break="no" ed="#Ba" n="26"/>tia perfectionis intellectus dicatur mitti
+<lb ed="#Ba" n="27"/>Filius, Filius mittitur, ita quod non 
+ha<lb break="no" ed="#Ba" n="28"/>betur gratia gratum faciens.
+</p>
+            <p xml:id="alalal-a92441-d1e175">
+               <lb ed="#Ba" n="29"/>3. Item, In Psalmo cx, 10 : Intellectus
+<lb ed="#Ba" n="30"/>bonus omnibus facientibus eum : ergo
+<lb ed="#Ba" n="31"/>videtur, quod non facientibus malus sit,
+<lb ed="#Ba" n="32"/>et tamen est intellectus : ergo cum gratia
+<lb ed="#Ba" n="33"/>intellectus mittatur Filius, Filius 
+mitti<lb break="no" ed="#Ba" n="34"/>tur sine gratia gratuin faciente.
+</p>
+            <p xml:id="alalal-a92441-d1e191">
+               <lb ed="#Ba" n="35"/>SED CONTRA:
+<lb ed="#Ba" n="36"/>1. Primo queratur ab istis qui 
+ratio<lb break="no" ed="#Ba" n="37"/>nes has inducunt, ubi a quoquam 
+san<lb break="no" ed="#Ba" n="38"/>ctorum legerint, quod mittatur non san-
+<cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="39"/>ctis ? et non est invenire auctoritatem nec
+<lb ed="#Ba" n="40"/>unam : et ecce multas ponemus, quod in
+<lb ed="#Ba" n="41"/>gratia gratum facienle. Augustinus in 
+li<lb break="no" ed="#Ba" n="42"/>bro IV de Trinitate ' : Aliter mittitur 
+sa<lb break="no" ed="#Ba" n="43"/>pientia ut sit cum homine, aliter missa
+<lb ed="#Ba" n="44"/>est ut sit homo. In animas enim sanctas
+<lb ed="#Ba" n="45"/>se transfert, et amicos Dei et Prophetas
+<lb ed="#Ba" n="46"/>conslituit, sicut etiam implet sanctos 
+An<lb break="no" ed="#Ba" n="47"/>gelos . Constat autem, quod amicos Dei
+<lb ed="#Ba" n="48"/>non constituit nisi gratia gratum 
+facicn<lb break="no" ed="#Ba" n="49"/>te. Ergo ex verbis Augustini colligitur,
+<lb ed="#Ba" n="50"/>quod in gratia gratum faciente mittilur
+<lb ed="#Ba" n="51"/>Filius.
+</p>
+            <p xml:id="alalal-a92441-d1e233">
+               <lb ed="#Ba" n="52"/>2. Item, Augustinus loquens de 
+missi<lb break="no" ed="#Ba" n="53"/>one spirituali Fil dicit sie in libro IV de
+<lb ed="#Ba" n="54"/>Trinitate: Cum ex tempore cujusquam
+<lb ed="#Ba" n="55"/>mente percipitur, mitti quidem dicitur,
+<lb ed="#Ba" n="56"/>sed non in hunc mundum: non enim
+<lb ed="#Ba" n="57"/>sensibiliter apparet, id est, sensibus 
+cor<lb break="no" ed="#Ba" n="58"/>poreis presto est. Nam et nos secundum
+<lb ed="#Ba" n="59"/>quod mente aliquid aeternum capimus,
+<lb ed="#Ba" n="60"/>non in hoc mundo sumus: et omnum
+<lb ed="#Ba" n="61"/>justorum spiritus etiam in hac carne 
+vi<lb break="no" ed="#Ba" n="62"/>ventium, in quantum divina sapiunt,
+<lb ed="#Ba" n="63"/>non sunt in hoc mundo . Hic iterum 
+pa<lb break="no" ed="#Ba" n="64"/>tet quod dicit, quod Filius mittitur in 
+do<lb break="no" ed="#Ba" n="65"/>nis gratia gratum facientis.
+</p>
+            <p xml:id="alalal-a92441-d1e266">
+               <lb ed="#Ba" n="66"/>3. Item, Augustinus in libro If de
+<lb ed="#Ba" n="67"/>Trinitate dicit, quod homo assumptus a
+<lb ed="#Ba" n="68"/>Verbo non habuit Verbum, ut alii 
+san<lb break="no" ed="#Ba" n="69"/>cti sapientes 4, Ecce et hic dicit Sanctos
+<lb ed="#Ba" n="70"/>qui Verbum ad se missum habuerunt.
+</p>
+            <p xml:id="alalal-a92441-d1e280">
+               <lb ed="#Ba" n="71"/>4, Item, In fine istius bri 
+determina<lb break="no" ed="#Ba" n="72"/>tur, quod Deus non est cum malis : si
+<lb ed="#Ba" n="73"/>ergo mittitur Filius in spirituali missione
+<lb ed="#Ba" n="74"/>ut sit cum homine, ut dicit Augustinus,
+<lb ed="#Ba" n="75"/>non mittitur ad malos.
+</p>
+            <p xml:id="alalal-a92441-d1e293">
+               <lb ed="#Ba" n="76"/>Solutio. Leve est adducere multa ad
+<pb ed="#Ba" n="468"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>hoc: quia Sancti hoc concorditer innuunt:
+<lb ed="#Ba" n="2"/>unde dico, ut supra, quod aliud est 
+reve<lb break="no" ed="#Ba" n="3"/>latio occullorum, et aliud Filii missio.
+<lb ed="#Ba" n="4"/>Revelatio enim occultorum, potest fieri
+<lb ed="#Ba" n="5"/>etiam per Angelos sine missione Fill :
+<lb ed="#Ba" n="6"/>non enim dicitur missus Filius nisi ipse
+<lb ed="#Ba" n="7"/>cum effectu adveniat. Unde Spiritus 
+san<lb break="no" ed="#Ba" n="8"/>ctus sicut non dicitur missus nisi in 
+do<lb break="no" ed="#Ba" n="9"/>nis in quibus ipse est : ita credo, quod
+<lb ed="#Ba" n="10"/>absoluta missione non dicatur missus
+<lb ed="#Ba" n="11"/>Filius nisi in donis gratie gratum 
+fa<lb break="no" ed="#Ba" n="12"/>clentis, in quibus est ipse cum homine :
+<lb ed="#Ba" n="13"/>et qualiter bene hoc possit esse in 
+missio<lb break="no" ed="#Ba" n="14"/>ne Spiritus sancti, jam supra dictum est.
+<lb ed="#Ba" n="15"/>Si vero dicatur Filius mitti in aliis donis,
+<lb ed="#Ba" n="16"/>hoc erit secundum quid et non 
+simplici<lb break="no" ed="#Ba" n="17"/>ter: sicut et Spiritus sanctus secundum
+<lb ed="#Ba" n="18"/>quid et non simpliciter quandoque mitti
+<lb ed="#Ba" n="19"/>dicitur. Qualiter autem eadem dona sint
+<lb ed="#Ba" n="20"/>Filii et Spiritus sancti, diversimode 
+su<lb break="no" ed="#Ba" n="21"/>pra est expeditum.
+</p>
+            <p xml:id="alalal-a92441-d1e348">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="22"/>Ap primum autem quod objicitur, 
+di<lb break="no" ed="#Ba" n="23"/>cendum quod Filius in missione que
+<lb ed="#Ba" n="24"/>simpliciter missio est, debet-cognosci ab
+<lb ed="#Ba" n="25"/>alio esse et nobiscum esse, sicut dicitur,
+<lb ed="#Ba" n="26"/>Sapient. ix, 10 : Mitte illam de celis
+<lb ed="#Ba" n="27"/>sanctis tuis, et sede magnitudinis tue,
+<lb ed="#Ba" n="28"/>ut mecum sit et mecum laboret, ut sciam
+<lb ed="#Ba" n="29"/>quid acceptum sit apud te omni tempore.
+<lb ed="#Ba" n="30"/>Illa enim est scientia infusa gratuita. Si
+<lb ed="#Ba" n="31"/>autem objiciat aliquis, quod sola 
+chari<lb break="no" ed="#Ba" n="32"/>tas gratos nos facit, ille nescit quid 
+obji<lb break="no" ed="#Ba" n="33"/>ciat : quia licet sola charitas informis
+<lb ed="#Ba" n="34"/>fieri non possit, non tamen est actus ejus
+<lb ed="#Ba" n="35"/>gratos nos facere, sed potius gratia, et
+<lb ed="#Ba" n="36"/>uniuscujusque virtutis secundum aliquid.
+</p>
+            <p xml:id="alalal-a92441-d1e385">
+               <lb ed="#Ba" n="37"/>Ad aliud dicendum, quod non in 
+om<lb break="no" ed="#Ba" n="38"/>nibus revelationibus occuljorum mitti 
+di<lb break="no" ed="#Ba" n="39"/>citur Filius, ut jam habitum est.
+</p>
+            <p xml:id="alalal-a92441-d1e394">
+               <lb ed="#Ba" n="40"/>Ad aliud dicendum, quod intellectu
+<lb ed="#Ba" n="41"/>gratuito mittitur Filius, et non in alio
+<lb ed="#Ba" n="42"/>nisi secundum quid.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="591"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b14348"><!-- l1d23a4 -->
+            <head xml:id="alalal-b14348-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-b14348-Hd1e101" type="question-title">Quid significent haecnomina secundum
+Graecos, <foreign>nmodowmoy</foreign>, <foreign>ovalware</foreign>, <foreign>Srdotacic</foreign>, et et haec secundum Latinos,
+essentia, subsistentia, substantia, et
+persona ?</head>
+            <p xml:id="alalal-b14348-d1e110">
+               <lb ed="#Ba" n="10"/>ARTICULUS IV.
+<lb ed="#Ba" n="11"/>Quid significent haecnomina secundum
+<lb ed="#Ba" n="12"/>Graecos, <foreign>nmodowmoy</foreign>, <foreign>ovalware</foreign>, <foreign>Srdotacic</foreign>, et et haec secundum Latinos,
+<lb ed="#Ba" n="13"/>essentia, subsistentia, substantia, et
+<lb ed="#Ba" n="14"/>persona ?
+</p>
+            <p xml:id="alalal-b14348-d1e130">
+               <lb ed="#Ba" n="15"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="#Ba" n="16"/>quarto capitulo, ibi, D, <quote xml:id="alalal-b14348-Qd1e136"> Qua 
+necessi<lb break="no" ed="#Ba" n="17"/>tate nan solum Latinus, etc. </quote>
+            </p>
+            <p xml:id="alalal-b14348-d1e142">
+               <lb ed="#Ba" n="18"/>Hic enim incidit questio de quatuor
+<lb ed="#Ba" n="19"/>vocabulis Grecorum et Latinorum, que
+<lb ed="#Ba" n="20"/>sunt apud Greaecos obcla, obalwais, dadataats
+<lb ed="#Ba" n="21"/>et zpsswnov : apud Latinos autem, Marcus
+<lb ed="#Ba" n="22"/>Tullius posuit quatuor illis respondentia
+<lb ed="#Ba" n="23"/>per ordinem, scilicet essentia, 
+subsisten<lb break="no" ed="#Ba" n="24"/>tia, substantia, persona.
+</p>
+            <p xml:id="alalal-b14348-d1e161">
+               <lb ed="#Ba" n="25"/>L. Et videtur, quod male sumantur a
+<lb ed="#Ba" n="26"/>Sanctis : quia dicit Boetius in commento
+<lb ed="#Ba" n="27"/>libri Predicamentorum, quod usia est
+<lb ed="#Ba" n="28"/>compositum ex prima materia et prima
+<lb ed="#Ba" n="29"/>forma: usiosis autem prima forma, et
+<lb ed="#Ba" n="30"/>hypostasis prima materia: ergo videtur,
+<lb ed="#Ba" n="31"/>quod usia non dicat essentiam simplicem
+<lb ed="#Ba" n="32"/>et divinam, sicut videtur hic dicere 
+Au<lb break="no" ed="#Ba" n="33"/>gustinus.
+</p>
+            <p xml:id="alalal-b14348-d1e183">
+               <lb ed="#Ba" n="34"/>2. Item Subsistentiam Augustinus et
+<lb ed="#Ba" n="35"/>Hieronymus ponunt pro composito vel
+<lb ed="#Ba" n="36"/>individuo: sed secundum Marcum 
+Tul<lb break="no" ed="#Ba" n="37"/>lium idem est apud nos subsistentia quod
+<lb ed="#Ba" n="38"/>apud Grecos usiosis: illa autem apud
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="39"/>Grecos sonat substantiam in genere vel
+<lb ed="#Ba" n="40"/>specie significatam, ut dicit Boetius :
+<lb ed="#Ba" n="41"/>ergo videtur, quod magis debeat poni
+<lb ed="#Ba" n="42"/>subsistentia pro persona qua communis
+<lb ed="#Ba" n="43"/>est, quam pro persona quae est 
+singula<lb break="no" ed="#Ba" n="44"/>ris.
+</p>
+            <p xml:id="alalal-b14348-d1e212">
+               <lb ed="#Ba" n="45"/>3. Item, Dicit Boetius, quod Graci
+<lb ed="#Ba" n="46"/>hypostasim non vocant nisi mdividua 
+ra<lb break="no" ed="#Ba" n="47"/>tionalis nature, et alia individua 
+indi<lb break="no" ed="#Ba" n="48"/>enioris nature non vocant illo nomine :
+<lb ed="#Ba" n="49"/>ergo videtur, quod idem sit substantia
+<lb ed="#Ba" n="50"/>quod zodcwzev vel persona: et sic non
+<lb ed="#Ba" n="51"/>debent esse nisi tria vocabula, et non
+<lb ed="#Ba" n="52"/>quatuor.
+</p>
+            <p xml:id="alalal-b14348-d1e232">
+               <lb ed="#Ba" n="53"/>4. Item, In nulla natura potest esse
+<lb ed="#Ba" n="54"/>nisi unum subjectum primum, et unum
+<lb ed="#Ba" n="55"/>predicatum ultimum : sed dicit Boetius
+<lb ed="#Ba" n="56"/>in libro de Duabus naturis in una 
+per<lb break="no" ed="#Ba" n="57"/>sona Christi (ande haecomnia 
+trahun<lb break="no" ed="#Ba" n="58"/>tur) quod persona non est nisi subjectum :
+<lb ed="#Ba" n="59"/>ergo nullum aliorum potest subjectum
+<lb ed="#Ba" n="60"/>nominare : ergo cum in natura non sit
+<lb ed="#Ba" n="61"/>nisi quod est, ex parte cujus sumitur
+<lb ed="#Ba" n="62"/>persona, et quo est ex parte cujus 
+sumi<lb break="no" ed="#Ba" n="63"/>tur essentia, videtur quod duo alia 
+su<lb break="no" ed="#Ba" n="64"/>perfluunt.
+</p>
+            <p xml:id="alalal-b14348-d1e261">
+               <lb ed="#Ba" n="65"/>3. Item, In natura creata non est nisi
+<lb ed="#Ba" n="66"/>universale et particulare : ergo penes 
+ho<lb break="no" ed="#Ba" n="67"/>rum differentias non debent esse nisi duo
+<lb ed="#Ba" n="68"/>nomina.
+</p>
+            <p xml:id="alalal-b14348-d1e272">
+               <lb ed="#Ba" n="69"/>6. Item, Cum inter illa quatuor sunt
+<lb ed="#Ba" n="70"/>duo extrema, scilicet essentia, et 
+per<lb break="no" ed="#Ba" n="71"/>sona: et duo media, scilicet subsistentia,
+<lb ed="#Ba" n="72"/>et substantia : et substantia sit vicinior
+<lb ed="#Ba" n="73"/>secundum intellectum essentiae: ergo
+<lb ed="#Ba" n="74"/>non debet poni pro persona, sicut dicit
+<pb ed="#Ba" n="592"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Augustinus, sed potius pro natura 
+com<lb break="no" ed="#Ba" n="2"/>muni.
+</p>
+            <p xml:id="alalal-b14348-d1e297">
+               <lb ed="#Ba" n="3"/>Solutio. Dicendum, quod secundum
+<lb ed="#Ba" n="4"/>diversos Doctores, et rationes nominum
+<lb ed="#Ba" n="5"/>istorum diversas, diversus est usus 
+isto<lb break="no" ed="#Ba" n="6"/>rum vocabulorum: in philosophia enim
+<lb ed="#Ba" n="7"/>hypostasis dicitur prima materia, et
+<lb ed="#Ba" n="8"/>usiosis forma prima, et usia 
+composi<lb break="no" ed="#Ba" n="9"/>tum: cujus acceptionis hac est ratio:
+<lb ed="#Ba" n="10"/>quia omnis causalitas secundum 
+quodli<lb break="no" ed="#Ba" n="11"/>bet genus cause necessario reducitur ad
+<lb ed="#Ba" n="12"/>causam primam in genere illo, ul dicit
+<lb ed="#Ba" n="13"/>Philosophus in II prime philosophie,
+<lb ed="#Ba" n="14"/>ut omnis calefactio ad ignem : cum 
+igi<lb break="no" ed="#Ba" n="15"/>tur supponi primo sit materia prime,
+<lb ed="#Ba" n="16"/>omne quod supponitur, gratia 
+proprieta<lb break="no" ed="#Ba" n="17"/>tis materialis supponitur et substat : si
+<lb ed="#Ba" n="18"/>ergo substantia, vel hypostasis (alias,
+<lb ed="#Ba" n="19"/>usiosis) quod idem est, ab actu substandi
+<lb ed="#Ba" n="20"/>primo sumatur, necessario sonabit a quo
+<lb ed="#Ba" n="21"/>est prima ratio substandi, id est, 
+mate<lb break="no" ed="#Ba" n="22"/>riam primam: subsistentia autem sonat
+<lb ed="#Ba" n="23"/>id quod est in se subsistens nullo 
+indi<lb break="no" ed="#Ba" n="24"/>gens, ut dicit Boetius. Forma autem non
+<lb ed="#Ba" n="25"/>indiget materia, sed potius est quoddam
+<lb ed="#Ba" n="26"/>divinum et optimum quod appetitur a
+<lb ed="#Ba" n="27"/>materia, et non appetit : et ideo 
+consi<lb break="no" ed="#Ba" n="28"/>deratione prehabita, subsistentia sive
+<lb ed="#Ba" n="29"/>usiosis accipitur pro forma prima. 
+Es<lb break="no" ed="#Ba" n="30"/>sentia autem est illa a qua est esse, et
+<lb ed="#Ba" n="31"/>cujus actus est esse, ut dicit Boetius et
+<lb ed="#Ba" n="32"/>Tullius: esse autem non est actus 
+essen<lb break="no" ed="#Ba" n="33"/>tie nisi quae est in materia, et ideo illam
+<lb ed="#Ba" n="34"/>compositum vocaverunt : et sic satis 
+ap<lb break="no" ed="#Ba" n="35"/>paret modus acceptionis Philosophorum.
+<lb ed="#Ba" n="36"/>Ipécwnoy autem potius est poeticum 
+no<lb break="no" ed="#Ba" n="37"/>men, quam philosophicum, nisi forte
+<lb ed="#Ba" n="38"/>Poeta philosophus dicatur : quia 
+imita<lb break="no" ed="#Ba" n="39"/>tur Philosophum, fabulam componendo
+<lb ed="#Ba" n="40"/>ex miris, ut dicit Philosophus. Est 
+au<lb break="no" ed="#Ba" n="41"/>tem xgdewndv idem quod facies in larva,
+<lb ed="#Ba" n="42"/>eo quod histriones in theatris 
+differen<lb break="no" ed="#Ba" n="43"/>tem sexum, et proprietatem sonando
+<lb ed="#Ba" n="44"/>sub Jarvis diversarum facierum vel 
+Me<lb break="no" ed="#Ba" n="45"/>dex, vel Simonis, vel alterius 
+represen<lb break="no" ed="#Ba" n="46"/>tabant : et idcirco quia sonus in concavo
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="47"/>solido repercussus, reflectitur incipiens
+<lb ed="#Ba" n="48"/>ab acuto, ideo etiam Latini xpdcwnov 
+per<lb break="no" ed="#Ba" n="49"/>sonam dicunt, circumflexa penultima :
+<lb ed="#Ba" n="50"/>quod licet sit contra compositionem 
+vo<lb break="no" ed="#Ba" n="51"/>cabuli, quod componitur a pro et sono,
+<lb ed="#Ba" n="52"/>nas, quod habet primam brevem’ : 
+ta<lb break="no" ed="#Ba" n="53"/>men quia ita est secundum proprietatem
+<lb ed="#Ba" n="54"/>instrumenti per quod sonat, producitur,
+<lb ed="#Ba" n="55"/>et in accentu circumflectitur : et quia
+<lb ed="#Ba" n="56"/>etiam magne dignitatis alicujus persone
+<lb ed="#Ba" n="57"/>ita etiam representari consueverunt,
+<lb ed="#Ba" n="58"/>quibus non competit brevis syllaba
+<lb ed="#Ba" n="59"/>unde sicut alius Poeta de talibus 
+magna<lb break="no" ed="#Ba" n="60"/>tibus loquens, dixit oldi pro il: ita
+<lb ed="#Ba" n="61"/>etiam hic persona producit et 
+circumfle<lb break="no" ed="#Ba" n="62"/>ctit penultimam, eo quod magnitudinem
+<lb ed="#Ba" n="63"/>talium hoc modo magis exprimit. Ista
+<lb ed="#Ba" n="64"/>igitur est acceptio istorum vocabulorum
+<lb ed="#Ba" n="65"/>apud Philosophos,
+</p>
+            <p xml:id="alalal-b14348-d1e438">
+               <lb ed="#Ba" n="66"/>
+               <name xml:id="alalal-b14348-Nd1e442">Magister Prepositivus</name> ponit hic aliam
+<lb ed="#Ba" n="67"/>acceptionem quae sumitur juxta 
+traditio<lb break="no" ed="#Ba" n="68"/>nem Boetii in libro de Duabus naturis
+<lb ed="#Ba" n="69"/>im una persona Christi, dicens, quod in
+<lb ed="#Ba" n="70"/>pradicamento substantia  duo sunt 
+con<lb break="no" ed="#Ba" n="71"/>sideranda, scilicet substantia subjecti, et
+<lb ed="#Ba" n="72"/>substantia quae est subjectum. 
+Substan<lb break="no" ed="#Ba" n="73"/>tia subject est id quod est naturalis 
+sub<lb break="no" ed="#Ba" n="74"/>stantie, quod est praedicamentum : et
+<lb ed="#Ba" n="75"/>hoe (ut dicit) accipitur nomine oda!zc apud
+<lb ed="#Ba" n="76"/>Grecos, et nomine essentiae apud 
+Lati<lb break="no" ed="#Ba" n="77"/>nos. Substantia autem subjecta est in se
+<lb ed="#Ba" n="78"/>subsistens nullo indigens : et illa est 
+ge<lb break="no" ed="#Ba" n="79"/>nera, et species substanti#, quibus 
+acci<lb break="no" ed="#Ba" n="80"/>dentia non accidunt, ut dicit Boetius,
+<lb ed="#Ba" n="81"/>hoc est, accidentia nature, ut- album,
+<lb ed="#Ba" n="82"/>nigrum, et hujusmodi : et hac vocatur
+<lb ed="#Ba" n="83"/>subsistentia, et odctwas : aut est substans
+<lb ed="#Ba" n="84"/>accidentibus, et haec est prima 
+substan<lb break="no" ed="#Ba" n="85"/>tia qu propriissime dicitur, hoc est,
+<lb ed="#Ba" n="86"/>Snéstastc, et substantia apud nos. 
+Perso<lb break="no" ed="#Ba" n="87"/>na autem et nodcwnov refertur ad 
+proprie<lb break="no" ed="#Ba" n="88"/>tatem quie notat auctoritatem dignitatis
+<lb ed="#Ba" n="89"/>in moribus, vel natura : et ista est non
+<lb ed="#Ba" n="90"/>tam Prepositivi, quam Boetii, et Marci
+<lb ed="#Ba" n="91"/>Tullii : sed usus istorum apud 
+Au<lb break="no" ed="#Ba" n="92"/>gustinum et Hieronymum, qui 
+con<lb break="no" ed="#Ba" n="93"/>cedunt tres esse subsistentias, et non
+<pb ed="#Ba" n="593"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>tres substantias, aliquantulum variatur.
+</p>
+            <p xml:id="alalal-b14348-d1e510">
+               <lb ed="#Ba" n="2"/>Et ideo notandum, quod in 
+substan<lb break="no" ed="#Ba" n="3"/>tia, id est, in natura substantia duo
+<lb ed="#Ba" n="4"/>sunt, scilicet guo est, et id quod est. Quo
+<lb ed="#Ba" n="5"/>est autem attenditur dupliciter, scilicet
+<lb ed="#Ba" n="6"/>prout est in se simplex, non 
+commisci<lb break="no" ed="#Ba" n="7"/>bile alicut particularium : sicut cum 
+di<lb break="no" ed="#Ba" n="8"/>citur, homo est species, et risibile : et
+<lb ed="#Ba" n="9"/>hoc est proprium, et non commune,
+<lb ed="#Ba" n="10"/>cum non possit praedicari de aliquo 
+se<lb break="no" ed="#Ba" n="11"/>curidum intentionem illam : et hoc 
+di<lb break="no" ed="#Ba" n="12"/>cunt quidam esse essentiam. Accipitur
+<lb ed="#Ba" n="13"/>etiam natura communis, ut praedicabilis
+<lb ed="#Ba" n="14"/>de singulis : et sic homo est appellativum
+<lb ed="#Ba" n="15"/>nomen, si sic accipitur in natura 
+homi<lb break="no" ed="#Ba" n="16"/>nis : et sic apud Boetium vocatur usiosis
+<lb ed="#Ba" n="17"/>vel subsistentia, apud Augustinum 
+au<lb break="no" ed="#Ba" n="18"/>tem et Hieronymum vocatur substantia
+<lb ed="#Ba" n="19"/>vel usiosis : quia secundum illos 
+substan<lb break="no" ed="#Ba" n="20"/>tia respondet usiosi et non hypostasi. Si
+<lb ed="#Ba" n="21"/>autem consideratur natura secundum id
+<lb ed="#Ba" n="22"/>quod est, dupliciter consideratur : aut
+<lb ed="#Ba" n="23"/>per respectum quem ponit ad naturam
+<lb ed="#Ba" n="24"/>cui subsistit, et tunc dicitur substantia
+<lb ed="#Ba" n="25"/>apud Boctium, et éréctass, vel 
+subsisten<lb break="no" ed="#Ba" n="26"/>tia secundum Augustinum et 
+Hierony<lb break="no" ed="#Ba" n="27"/>mum : aut per respectum 
+ad_proprieta<lb break="no" ed="#Ba" n="28"/>tem, et tunc dicitur secundum omnes
+<lb ed="#Ba" n="29"/>persona et tpdcwroyv, Sed haecacceptio
+<lb ed="#Ba" n="30"/>non videtur concordare Auctoribus qui
+<lb ed="#Ba" n="31"/>dicunt essentiam rei dici et praedicari de
+<lb ed="#Ba" n="32"/>eo cujus est essentia : et ideo dicendum,
+<lb ed="#Ba" n="33"/>quod unum solum secundum intellectum
+<lb ed="#Ba" n="34"/>Augustini et Hieronymi accipitur ex
+<lb ed="#Ba" n="35"/>parle quo est, quod est essentia. Alia
+<lb ed="#Ba" n="36"/>autem accipiuntur ex parte ejus quod
+<lb ed="#Ba" n="37"/>est : et substantia quidem secundum eos
+<lb ed="#Ba" n="38"/>ponit respectum ad quo est : propter
+<lb ed="#Ba" n="39"/>quod etiam dubium facil intellectum
+<lb ed="#Ba" n="40"/>apud Latinos, ut quandoque pro 
+essen<lb break="no" ed="#Ba" n="41"/>tia, quandoque pro supposito ponatur :
+<lb ed="#Ba" n="42"/>et ideo Latini concedere noluerunt tres
+<lb ed="#Ba" n="43"/>substantias. Subsistentia autem 
+secun<lb break="no" ed="#Ba" n="44"/>dum eos ponit respectum ad 
+individua<lb break="no" ed="#Ba" n="45"/>tionem : licet in his duobus secundum
+<lb ed="#Ba" n="46"/>Anselmum et alios sit e converso. Sed
+<lb ed="#Ba" n="47"/>persona ponit specialem respectum ad
+<lb ed="#Ba" n="48"/>distinctionem proprietatis pertinentis ad
+<lb ed="#Ba" n="49"/>dignitatem moris vel nature
+</p>
+            <p xml:id="alalal-b14348-d1e617">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="50"/>Huic ergo ultime opinioni 
+consentien<lb break="no" ed="#Ba" n="51"/>tes, respondemus ad objecta : et patet
+<lb ed="#Ba" n="52"/>jam solutio ad primum per hoc quod
+<lb ed="#Ba" n="53"/>haecaliter sumuntur apud Philosophos,
+<lb ed="#Ba" n="54"/>quam apud usum Sanctorum.
+</p>
+            <p xml:id="alalal-b14348-d1e633">
+               <lb ed="#Ba" n="55"/>Ad aliud dicendum quod Augustinus
+<lb ed="#Ba" n="56"/>et Hieronymus aliter accipiunt 
+subsisten<lb break="no" ed="#Ba" n="57"/>tiam, quam Tullius : et hujus ratio jam
+<lb ed="#Ba" n="58"/>dicta est propter dubiam acceptioncm
+<lb ed="#Ba" n="59"/>verbi swbstantie apud Latinos : que
+<lb ed="#Ba" n="60"/>quandoque accipitur pro essentia et 
+na<lb break="no" ed="#Ba" n="61"/>tura communi : et ideo etiam apud 
+Lati<lb break="no" ed="#Ba" n="62"/>nos nominat naturam primi 
+predica<lb break="no" ed="#Ba" n="63"/>menti: sed Tullius accipit eam 
+secun<lb break="no" ed="#Ba" n="64"/>dum quod dicitur ab actu substandi 
+tan<lb break="no" ed="#Ba" n="65"/>tum.
+</p>
+            <p xml:id="alalal-b14348-d1e659">
+               <lb ed="#Ba" n="66"/>Si autem queras, Quare Sancti non
+<lb ed="#Ba" n="67"/>ita acceperunt eam? Dicendum, quod
+<lb ed="#Ba" n="68"/>Sancti expresserunt fidem simplicibus :
+<lb ed="#Ba" n="69"/>et ideo nolebant uti dubiis verbis, ne
+<lb ed="#Ba" n="70"/>simplices secundum errorem possent 
+se<lb break="no" ed="#Ba" n="71"/>duci, dum multiplicitatem nominis 
+igno<lb break="no" ed="#Ba" n="72"/>rarent.
+</p>
+            <p xml:id="alalal-b14348-d1e678">
+               <lb ed="#Ba" n="73"/>Ad aliud dicendum, quod Greei 
+acci<lb break="no" ed="#Ba" n="74"/>piunt hypostasim pro eo quod maxime
+<lb ed="#Ba" n="75"/>est distinctum : et hoc non est nisi 
+ulti<lb break="no" ed="#Ba" n="76"/>ma compositione compositum. Ultima
+<lb ed="#Ba" n="77"/>aulem compositione compositum est
+<lb ed="#Ba" n="78"/>quod est ex ultima materia et ex ultima
+<lb ed="#Ba" n="79"/>forma secundum naturam. Ultima autem
+<lb ed="#Ba" n="80"/>materia est corpus organizatum 
+huma<lb break="no" ed="#Ba" n="81"/>num, hoc enim est majoris 
+compositio<lb break="no" ed="#Ba" n="82"/>nis, quam aliquod corpus quoad 
+organi<lb break="no" ed="#Ba" n="83"/>zationem : et ultima forma in natura est
+<lb ed="#Ba" n="84"/>anima rationalis . et ideo individuum
+<lb ed="#Ba" n="85"/>rationalis natures vocant hypostasim. Et
+<lb ed="#Ba" n="86"/>ex hoc patet ratio ejus quod dicitur in
+<lb ed="#Ba" n="87"/>fittera, quod tres personas non vocant
+<lb ed="#Ba" n="88"/>tria zpécwna, sed’ tres hypostases : quia
+<lb ed="#Ba" n="89"/>secundum proprietatem lngue eorum
+<lb ed="#Ba" n="90"/>aplius sonat : sed apud nos non 
+super<lb break="no" ed="#Ba" n="91"/>fluit nomen persone : quia id quod 
+re<lb break="no" ed="#Ba" n="92"/>spondet hypostasi apud nos, est dubie
+<lb ed="#Ba" n="93"/>significationis, id est, substantia,
+</p>
+            <p xml:id="alalal-b14348-d1e726">
+               <lb ed="#Ba" n="94"/>Ad aliud dicendum, quod licet sit
+<lb ed="#Ba" n="95"/>unum subjectum primum, et unum 
+ulli<lb break="no" ed="#Ba" n="96"/>mum praedicatum, tamen subjectum est
+<lb ed="#Ba" n="97"/>multis modis considerare : et ideo tot
+<lb ed="#Ba" n="98"/>modis potest significari, ut dictum est.
+</p>
+            <p xml:id="alalal-b14348-d1e739">
+               <pb ed="#Ba" n="594"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Ap aiup dicendum, quod. particulare
+<lb ed="#Ba" n="2"/>est subjectum tribus modis, et sic capit
+<lb ed="#Ba" n="3"/>tria nomina secundum ultimam 
+opinio<lb break="no" ed="#Ba" n="4"/>nem.</p>
+            <p xml:id="alalal-b14348-d1e755">
+               <lb ed="#Ba" n="5"/>Ad aliud dicendum, quod illa objectio
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="6"/>procedit secundum intellectum Marci
+<lb ed="#Ba" n="7"/>Tullii, et Anselmi, et Boetii : sed 
+prop<lb break="no" ed="#Ba" n="8"/>ter dubietatem nominis substantia 
+Au<lb break="no" ed="#Ba" n="9"/>gustinus et Hieronymus loco subsiantiz
+<lb ed="#Ba" n="10"/>usi sunt sudbsistentia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

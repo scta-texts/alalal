@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="240"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i50651"><!-- l4d31a12 -->
+            <head xml:id="alalal-i50651-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-i50651-Hd1e101" type="question-title">Qui sunt qui possunt denuntiare causas
+divortit ?</head>
+            <p xml:id="alalal-i50651-d1e104">
+               <lb ed="#Bf" n="38"/>ARTICULUS XII.
+<lb ed="#Bf" n="39"/>Qui sunt qui possunt denuntiare causas
+<lb ed="#Bf" n="40"/>divortit ?
+</p>
+            <p xml:id="alalal-i50651-d1e113">
+               <lb ed="#Bf" n="41"/>Secundo queritur, Qui sunt qui 
+pos<lb break="no" ed="#Bf" n="42"/>sunt denuntiare causas divartii ?
+</p>
+            <p xml:id="alalal-i50651-d1e120">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="43"/>1. Videtur autem secundum dicta 
+Ju<lb break="no" ed="#Bf" n="44"/>risperitorum, quod omnes prohibentur
+<lb ed="#Bf" n="45"/>ab accusatione matrimonii extranei, si
+<lb ed="#Bf" n="46"/>sint aliqui de consanguinitate 
+matrimo<lb break="no" ed="#Bf" n="47"/>nium accusare potentes et volentes : si
+<lb ed="#Bf" n="48"/>autem illi desunt, admittuntur vicini 
+se<lb break="no" ed="#Bf" n="49"/>niores et veraciores. Quod autem hoc ita
+<lb ed="#Bf" n="50"/>sit, confirmatur, Extra, <quote xml:id="alalal-i50651-Qd1e141"> Qui 
+matrimo<lb break="no" ed="#Bf" n="51"/>nium accusare possunt, videtur nobis, </quote>
+               <lb ed="#Bf" n="52"/>ubi sic scribit Ccelestinus tertius 
+Floren<lb break="no" ed="#Bf" n="53"/>tino Episcopo, quod <quote xml:id="alalal-i50651-Qd1e151"> parentes, fratres,
+<lb ed="#Bf" n="54"/>et cognati utriusque sexus, in 
+testifica<lb break="no" ed="#Bf" n="55"/>tionem suorum ad matrimonium 
+con<lb break="no" ed="#Bf" n="56"/>jungendum yel dirimendum 
+admittan<lb break="no" ed="#Bf" n="57"/>tur, tam antiqua consuetudine, quam 
+le<lb break="no" ed="#Bf" n="58"/>gibus approbatur. Ideo enim maxime
+<lb ed="#Bf" n="59"/>parentes, et si parentes defuerint, 
+pro<lb break="no" ed="#Bf" n="60"/>ximiores admittuntur: quoniam 
+unus<lb break="no" ed="#Bf" n="61"/>quisque genealogiam suam cum 
+testi<lb break="no" ed="#Bf" n="62"/>bus et chartis ex recilatione majorum
+<lb ed="#Bf" n="63"/>scire laborat : qui enim melius recipi
+<lb ed="#Bf" n="64"/>debent, quam illt qui melius sciunt, et
+<lb ed="#Bf" n="65"/>quorum est interesse, ila ul si non 
+inter<lb break="no" ed="#Bf" n="66"/>fuerint et consensum non adhibuerint,
+<lb ed="#Bf" n="67"/>secundum leges nullum fiat 
+matrimo<lb break="no" ed="#Bf" n="68"/>nium? Quod vero legitur, <quote xml:id="alalal-i50651-Qd1e185"> Pater non
+<lb ed="#Bf" n="69"/>recipietur in causa filii, nec filius in
+<lb ed="#Bf" n="70"/>causa patris, </quote> in criminalibus causis et
+<lb ed="#Bf" n="71"/>contractibus verum est. In matrimonio
+<lb ed="#Bf" n="72"/>vero conjungendo vel disjungendo, ex
+<lb ed="#Bf" n="73"/>ipsius conjugii prerogativa, et quia 
+fa<lb break="no" ed="#Bf" n="74"/>vorabilis res est, congrue 
+admittun<lb break="no" ed="#Bf" n="75"/>tur. </quote> Ex hoc accipitur, quod propinqui
+<lb ed="#Bf" n="76"/>vel vicini si propinqui desunt, debent
+<lb ed="#Bf" n="77"/>matrimonium quod separandum est 
+ac<lb break="no" ed="#Bf" n="78"/>cusare.
+</p>
+            <p xml:id="alalal-i50651-d1e212">
+               <lb ed="#Bf" n="79"/>2. Item, Ratio videtur esse ad idem :
+<lb ed="#Bf" n="80"/>quia non debet aliquis testificari quod
+<lb ed="#Bf" n="81"/>nescit : sed causas matrimonii quantum
+<lb ed="#Bf" n="82"/>ad parentelam nesciunt nisi conjuncti ab
+<lb ed="#Bf" n="83"/>infantia, quibus nati sunt progenitores :
+<lb ed="#Bf" n="84"/>ergo non nisi illi in hac causa possunt
+<lb ed="#Bf" n="85"/>esse testes.
+</p>
+            <p xml:id="alalal-i50651-d1e230">
+               <lb ed="#Bf" n="86"/>3. Item, Non noscens personam 
+ali<lb break="no" ed="#Bf" n="87"/>quam, multo minus novit genealogiam
+<lb ed="#Bf" n="88"/>ipsius : extranel non noverunt 
+perso<lb break="no" ed="#Bf" n="89"/>nam :ergo, etc. : ergo testes esse non
+<lb ed="#Bf" n="90"/>possunt.
+</p>
+            <p xml:id="alalal-i50651-d1e243">
+               <lb ed="#Bf" n="91"/>In contrarium hujus est, quod extra-
+<pb ed="#Bf" n="241"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>neus probans veritatem dicti sui, 
+excep<lb break="no" ed="#Bf" n="2"/>tione major est audicndus si aliquid 
+vo<lb break="no" ed="#Bf" n="3"/>luerit, deponere contra aliquem : sed
+<lb ed="#Bf" n="4"/>extraneus aliquis est omni exceptione
+<lb ed="#Bf" n="5"/>major : ergo si probat quod dicit, ipse
+<lb ed="#Bf" n="6"/>est audiendus.
+</p>
+            <p xml:id="alalal-i50651-d1e265">
+               <lb ed="#Bf" n="7"/>Juxta hoc ulterius queritur, Utrum
+<lb ed="#Bf" n="8"/>decursus temporis sive prescriptio 
+fa<lb break="no" ed="#Bf" n="9"/>ciat matrimonium non accusabile, 
+etiam<lb break="no" ed="#Bf" n="10"/>si habeat legitimum impedimentum ?
+</p>
+            <p xml:id="alalal-i50651-d1e276">
+               <lb ed="#Bf" n="11"/>Videtur autem, quod sic : quia
+<lb ed="#Bf" n="12"/>1, Difficile est post habitam prolem
+<lb ed="#Bf" n="13"/>matrimonium separari, et ad destructio~
+<lb ed="#Bf" n="14"/>nem congregationum et civilatum 
+ordi<lb break="no" ed="#Bf" n="15"/>natur : ergo non debet admitti in jure.
+</p>
+            <p xml:id="alalal-i50651-d1e289">
+               <lb ed="#Bf" n="16"/>2, Item, In aliis allegatur prescriptio:
+<lb ed="#Bf" n="17"/>ergo et in matrimonio.
+</p>
+            <p xml:id="alalal-i50651-d1e297">
+               <lb ed="#Bf" n="18"/>In conrranium hujus est quod habetur,
+<lb ed="#Bf" n="19"/>
+               <ref xml:id="alalal-i50651-Rd1e303">Extra, de consanguinitate et affinitate,
+<lb ed="#Bf" n="20"/>Non debet</ref> : ubi sic dicit<ref xml:id="alalal-i50651-Rd1e308">
+                  <name xml:id="alalal-i50651-Nd1e310">Innocentius</name> in
+<lb ed="#Bf" n="21"/>concilio generali</ref>: <quote xml:id="alalal-i50651-Qd1e315"> Prohibeo. </quote> Et infra :
+<lb ed="#Bf" n="22"/>
+               <quote xml:id="alalal-i50651-Qd1e320"> Et si quis contra prohibitionem 
+hujus<lb break="no" ed="#Bf" n="23"/>modi presumpserit copulari, nulla 
+lon<lb break="no" ed="#Bf" n="24"/>ginquitate defendatur annorum, cum
+<lb ed="#Bf" n="25"/>diuturnitas temporis non minuat 
+pecca<lb break="no" ed="#Bf" n="26"/>tum, sed auget: tantoque sint graviora
+<lb ed="#Bf" n="27"/>crimina, quanto diutius infelicem 
+ani<lb break="no" ed="#Bf" n="28"/>mam detinent alligatam. </quote>
+            </p>
+            <p xml:id="alalal-i50651-d1e337">
+               <lb ed="#Bf" n="29"/>Sed esto, quod aliquis praesens fuit
+<lb ed="#Bf" n="30"/>quando copulabantur alique persone, et
+<lb ed="#Bf" n="31"/>tacuit, et postea vult denuntiare 
+impedi<lb break="no" ed="#Bf" n="32"/>mentum, numqguid est audiendus ?
+</p>
+            <p xml:id="alalal-i50651-d1e348">
+               <lb ed="#Bf" n="33"/>Videtur, quod non: quia
+<lb ed="#Bf" n="34"/>1. Primo tacuit cum sine nocumento
+<lb ed="#Bf" n="35"/>potuit denuntiare: ergo cum postea cum
+<lb ed="#Bf" n="36"/>nocumento vult denuntiare, videtur quod
+<lb ed="#Bf" n="37"/>non sit audiendus.
+</p>
+            <p xml:id="alalal-i50651-d1e361">
+               <lb ed="#Bf" n="38"/>2. Item, Cum primo presens existens
+<lb ed="#Bf" n="39"/>non dixit, presumptio est contra eum,
+<lb ed="#Bf" n="40"/>vel potest esse, quod postea malitiose
+<lb ed="#Bf" n="41"/>composuit: ergo videtur, quod non sit
+<lb ed="#Bf" n="42"/>andicndus.
+</p>
+            <p xml:id="alalal-i50651-d1e374">
+               <lb ed="#Bf" n="43"/>Srp iN contRrariuM hujus est, quod 
+dici<lb break="no" ed="#Bf" n="44"/>tur, Extra, Qui matrimonium accusare
+<lb ed="#Bf" n="45"/>possunt, Cum in tua. Et infra: <quote xml:id="alalal-i50651-Qd1e382"> Si vero
+<lb ed="#Bf" n="46"/>post contractum matrimonium aliquis
+<lb ed="#Bf" n="47"/>appareat accusator, cum non prodierit
+<lb ed="#Bf" n="48"/>in publicum, quando banna secundum
+<cb ed="#Bf" n="b"/>
+                  <lb ed="#Bf" n="49"/>consuetudinem in Ecclesiis edebantur,
+<lb ed="#Bf" n="50"/>utrum vox sue debeat accusationis 
+ad<lb break="no" ed="#Bf" n="51"/>mitti, merito quari potest. Super quo
+<lb ed="#Bf" n="52"/>sic duximus distinguendum, quod si
+<lb ed="#Bf" n="53"/>tempore denuntiationis premissa is qui
+<lb ed="#Bf" n="54"/>jam conjunctos impetit, extra dicecesim
+<lb ed="#Bf" n="55"/>existebat, vel alias denuntiatio non 
+po<lb break="no" ed="#Bf" n="56"/>tuit ad ejus notitiam pervenire, ut puta
+<lb ed="#Bf" n="57"/>si nimie infirmitatis fervore laborans,
+<lb ed="#Bf" n="58"/>sane mentis patiebatur exsilium, vel in
+<lb ed="#Bf" n="59"/>annis erat tam teneris constitutus, quod
+<lb ed="#Bf" n="60"/>ad comprehensionem talium ejus etas
+<lb ed="#Bf" n="61"/>sufficere non valebat, seu alia causa 
+le<lb break="no" ed="#Bf" n="62"/>gitima fuerit impeditus, ejus accusatio
+<lb ed="#Bf" n="63"/>debet audiri. Alioquin cum 
+rationabi<lb break="no" ed="#Bf" n="64"/>liter presumatur, quod denuntiationem
+<lb ed="#Bf" n="65"/>publice factam idem existens in ipsa
+<lb ed="#Bf" n="66"/>dicecesi minime ignoravit, tamquam
+<lb ed="#Bf" n="67"/>suspectus est procul dubio repellendus :
+<lb ed="#Bf" n="68"/>nisi proprio firmaverit juramento, quod
+<lb ed="#Bf" n="69"/>postea didicerit ea quae objecerit, et ad
+<lb ed="#Bf" n="70"/>hoe ex malitia non procedat : quia tunc
+<lb ed="#Bf" n="71"/>eliamsi didicisset ab illis qui 
+denun<lb break="no" ed="#Bf" n="72"/>tiationis tempore siluerunt, claudi non
+<lb ed="#Bf" n="73"/>debet eidem aditus accusandi : quoniam
+<lb ed="#Bf" n="74"/>etsi ab impetitione hujusmodi culpa de
+<lb ed="#Bf" n="75"/>silentio tali contracta illos excluderet,
+<lb ed="#Bf" n="76"/>iste tamen amoveri nequiret, cum 
+cul<lb break="no" ed="#Bf" n="77"/>pabilis non existat. </quote> Ex hac decretali
+<lb ed="#Bf" n="78"/>accipitur, quod etiamsi primum tacuit,
+<lb ed="#Bf" n="79"/>in multis casibus postea potest 
+matri<lb break="no" ed="#Bf" n="80"/>monium accusare.
+</p>
+            <p xml:id="alalal-i50651-d1e464">
+               <lb ed="#Bf" n="81"/>Ulterius quaeritur hic, Utrum in 
+testi<lb break="no" ed="#Bf" n="82"/>monium possunt adduci pater, mater, et
+<lb ed="#Bf" n="83"/>fratres illorum, de quorum separatione
+<lb ed="#Bf" n="84"/>agitur ?
+</p>
+            <p xml:id="alalal-i50651-d1e476">
+               <lb ed="#Bf" n="85"/>Et videtur, quod non : quia 
+<lb ed="#Bf" n="86"/>1. Testes suspecti de amore privato vel
+<lb ed="#Bf" n="87"/>odio non admittuntur: tales autem sunt
+<lb ed="#Bf" n="88"/>isti: ergo non debent admitti.
+</p>
+            <p xml:id="alalal-i50651-d1e487">
+               <lb ed="#Bf" n="89"/>2. Item, Sepe nascitur odium inter
+<lb ed="#Bf" n="90"/>conjunges, ita quod alter conjugum 
+in<lb break="no" ed="#Bf" n="91"/>duceret suos parentes ad testificandum
+<lb ed="#Bf" n="92"/>contra matrimonium: ergo ne hoc fiat,
+<lb ed="#Bf" n="93"/>judex parentes et consanguineos non 
+de<lb break="no" ed="#Bf" n="94"/>bet recipere in testimonium.
+</p>
+            <p xml:id="alalal-i50651-d1e503">
+               <lb ed="#Bf" n="95"/>In contrarium hujus est quod dicitur,
+<lb ed="#Bf" n="96"/>
+               <ref xml:id="alalal-i50651-Rd1e509">Extra, de testibus</ref>: ubi sic dicit <ref xml:id="alalal-i50651-Rd1e511">Alexan-
+<pb ed="#Bf" n="242"/>
+                  <cb ed="#Bf" n="a"/>
+                  <lb ed="#Bf" n="1"/>der tertius</ref>: <quote xml:id="alalal-i50651-Qd1e520"> Super eo quod a nobis tua
+<lb ed="#Bf" n="2"/>devotio postulavit, utrum viro negante
+<lb ed="#Bf" n="3"/>se mulicrem affidasse, ipsius mater 
+mu<lb break="no" ed="#Bf" n="4"/>lieris, et altera mulier possint ad 
+testi<lb break="no" ed="#Bf" n="5"/>monium recipi. Taliter respondeo, quod
+<lb ed="#Bf" n="6"/>cum mater filie incrementum et honorem
+<lb ed="#Bf" n="7"/>videtur diligere, ubi vir superior est 
+di<lb break="no" ed="#Bf" n="8"/>vitiis, et nobilitate, potentia vel honore,
+<lb ed="#Bf" n="9"/>testimonium ejus videtur esse suspectum,
+<lb ed="#Bf" n="10"/>etideo non esse aliquatenus 
+admilten<lb break="no" ed="#Bf" n="11"/>dum. </quote> Ex hoc enim accipitur, quod 
+alte<lb break="no" ed="#Bf" n="12"/>rius, scilicet conjugis pater, vel mater,
+<lb ed="#Bf" n="13"/>inferiores existentes in divitiis et honore
+<lb ed="#Bf" n="14"/>matrimonii, sunt audiendi: quia 
+pre<lb break="no" ed="#Bf" n="15"/>sumitur, quod inviti faciunt conscientia
+<lb ed="#Bf" n="16"/>veritatis cogente, cum libentius vellent
+<lb ed="#Bf" n="17"/>illi viro filiam esse conjunctam, quam ab
+<lb ed="#Bf" n="18"/>eo separari.
+</p>
+            <p xml:id="alalal-i50651-d1e561">
+               <lb ed="#Bf" n="19"/>Ulterius hic queritur, Utrum idem in
+<lb ed="#Bf" n="20"/>hac causa possit esse accusator et testis?
+</p>
+            <p xml:id="alalal-i50651-d1e568">
+               <lb ed="#Bf" n="21"/>Et videtur, quod non: quia si 
+conjun<lb break="no" ed="#Bf" n="22"/>ctus accusatori per sanguinem habetur
+<lb ed="#Bf" n="23"/>suspectus, multo magis idem ad seipsum
+<lb ed="#Bf" n="24"/>comparatus, suspectus debet haberi: 
+er<lb break="no" ed="#Bf" n="25"/>go non potest idem esse testis et 
+accusa<lb break="no" ed="#Bf" n="26"/>tor.
+</p>
+            <p xml:id="alalal-i50651-d1e584">
+               <lb ed="#Bf" n="27"/>In contrarium hujus est,
+<lb ed="#Bf" n="28"/>1. Quod habetur, <ref xml:id="alalal-i50651-Rd1e590">Extra, de testibus
+<lb ed="#Bf" n="29"/>cogendis, Preterea si testis, etc.</ref>, ubi
+<lb ed="#Bf" n="30"/>scribit <ref xml:id="alalal-i50651-Rd1e597">
+                  <name xml:id="alalal-i50651-Nd1e599">Ceelestinus Papa</name>
+               </ref>, quod <quote xml:id="alalal-i50651-Qd1e603"> testes
+<lb ed="#Bf" n="31"/>publici qui synodales vocantur, possunt
+<lb ed="#Bf" n="32"/>esse testes in matrimonio: </quote> et constat,
+<lb ed="#Bf" n="33"/>quod iidem sunt accusatores.
+</p>
+            <p xml:id="alalal-i50651-d1e614">
+               <lb ed="#Bf" n="34"/>2. Argumentum ad idem sumitur in
+<lb ed="#Bf" n="35"/>
+               <ref xml:id="alalal-i50651-Rd1e620">decreto 35, quest. 6, Episcopis in 
+syno<lb break="no" ed="#Bf" n="36"/>do</ref>. Et precipue in apparatu decreti 
+su<lb break="no" ed="#Bf" n="37"/>per eumdem locum.
+</p>
+            <p xml:id="alalal-i50651-d1e628">
+               <lb ed="#Bf" n="38"/>Soruvio. Dicendum videtur, ad hoc,
+<lb ed="#Bf" n="39"/>quod omnes non infames persone, id est,
+<lb ed="#Bf" n="40"/>exceptione majores, hoc est, propter 
+in<lb break="no" ed="#Bf" n="41"/>famiam criminis non impediuntur, 
+quan<lb break="no" ed="#Bf" n="42"/>tumcunique propinqui, possunt denuntiare
+<lb ed="#Bf" n="43"/>matrimonium, si agitur de impedimento
+<lb ed="#Bf" n="44"/>matrunonit perpetuo, quod impedit 
+con<lb break="no" ed="#Bf" n="45"/>trahendum et dirimit contractum. Si au-
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="46"/>tem agitur de ipso contractu, utrum 
+sci<lb break="no" ed="#Bf" n="47"/>licet sit contractum, vel non, tunc 
+pa<lb break="no" ed="#Bf" n="48"/>rentes tamquam suspecti sunt 
+reppellen<lb break="no" ed="#Bf" n="49"/>di: nisi ita sit, quod parens ille qui contra
+<lb ed="#Bf" n="50"/>matrimonium testificatur, sit inferior 
+di<lb break="no" ed="#Bf" n="51"/>gnitate, divitiis, et honoribus: quia tunc
+<lb ed="#Bf" n="52"/>probabile est, quod ille libenter vellet
+<lb ed="#Bf" n="53"/>stare matrimonium,
+</p>
+            <p xml:id="alalal-i50651-d1e667">
+               <lb ed="#Bf" n="54"/>Dicenpum ergo ad primum quod 
+con<lb break="no" ed="#Bf" n="55"/>tra hoc objicitur, quod ipse qui objicitur,
+<lb ed="#Bf" n="56"/>est audiendus, si probat quod dicit: sed
+<lb ed="#Bf" n="57"/>sufficienter probari non potest, nisi per
+<lb ed="#Bf" n="58"/>propinquos, quia extraneus in quantum
+<lb ed="#Bf" n="59"/>extraneus, consanguinitatem eorum qui
+<lb ed="#Bf" n="60"/>sibi extranei sunt, scire non potest: et si
+<lb ed="#Bf" n="61"/>dicat sine assumptione 
+consanguineo<lb break="no" ed="#Bf" n="62"/>rum, ipse suspectus repellitur, quia sic
+<lb ed="#Bf" n="63"/>posset quilibet matrimonium infirmare.
+</p>
+            <p xml:id="alalal-i50651-d1e691">
+               <lb ed="#Bf" n="64"/>Ad id quod ulterius quaeritur juxta
+<lb ed="#Bf" n="65"/>hoe, Utrum decursus temporis aliquid 
+fa<lb break="no" ed="#Bf" n="66"/>ciat? Dicendum, quod in talibus ubi de
+<lb ed="#Bf" n="67"/>conscientia agitur, prescriptio non habet
+<lb ed="#Bf" n="68"/>locum, sicut ostenditur in decretali addu~
+<lb ed="#Bf" n="69"/>cta.
+</p>
+            <p xml:id="alalal-i50651-d1e707">
+               <lb ed="#Bf" n="70"/>Ad hoc autem quod contra objicitur,
+<lb ed="#Bf" n="71"/>dicendum quod licet sit difficile, tamen
+<lb ed="#Bf" n="72"/>illud difficile magis est subeundum, quam
+<lb ed="#Bf" n="73"/>contra conscientiam slandum in stupro,
+<lb ed="#Bf" n="74"/>vel quod aliquis stare in stupro 
+permit<lb break="no" ed="#Bf" n="75"/>tatur: quia arcta est via quae ducit ad
+<lb ed="#Bf" n="76"/>vitam,et pauci sunt qui inveniunt eam':
+<lb ed="#Bf" n="77"/>et ideo tamen non est negligenda.
+</p>
+            <p xml:id="alalal-i50651-d1e727">
+               <lb ed="#Bf" n="78"/>Ad aliud patet solutio per antedicta.
+</p>
+            <p xml:id="alalal-i50651-d1e733">
+               <lb ed="#Bf" n="79"/>Ad id autem quod postea objicitur per
+<lb ed="#Bf" n="80"/>decretalem, distinguitur satis bene 
+quan<lb break="no" ed="#Bf" n="81"/>do audiendus est, et quando non 
+audien<lb break="no" ed="#Bf" n="82"/>dus est: et ideo per ipsam decretalem
+<lb ed="#Bf" n="83"/>plena patet responsio.
+</p>
+            <p xml:id="alalal-i50651-d1e746">
+               <lb ed="#Bf" n="84"/>Ad id quod ulterius queritur, 
+dicen<lb break="no" ed="#Bf" n="85"/>dum quod adduci possunt secundum 
+mo<lb break="no" ed="#Bf" n="86"/>dum qui in principio istarum solutionum
+<lb ed="#Bf" n="87"/>est determinatus.
+</p>
+            <p xml:id="alalal-i50651-d1e757">
+               <lb ed="#Bf" n="88"/>Ad id autem quod contra objicitur, 
+di<lb break="no" ed="#Bf" n="89"/>cendum quod ut patet in quadam 
+decre<lb break="no" ed="#Bf" n="90"/>taliin objectione adducta, hoc in casu
+<pb ed="#Bf" n="243"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>isto non tenet: et hoc ideo, quia cum 
+de<lb break="no" ed="#Bf" n="2"/>trimentum sit honoris et rerum 
+matri<lb break="no" ed="#Bf" n="3"/>monia hujusmodi separari, probabile est
+<lb ed="#Bf" n="4"/>parentes hujusmodi separationem non
+<lb ed="#Bf" n="5"/>alfectare, et ideo nihil dicere amore
+<lb ed="#Bf" n="6"/>filiorum : et preecipue ideo quia ipsi cer0
+<lb ed="#Bf" n="7"/>tius noverunt impedimenta.
+</p>
+            <p xml:id="alalal-i50651-d1e786">
+               <lb ed="#Bf" n="8"/>Ad aliud dicendum, quod melius, id
+<lb ed="#Bf" n="9"/>est, minus malum est tales separari, quam
+<lb ed="#Bf" n="10"/>commanere, ne homicidium sequatur :
+<lb ed="#Bf" n="11"/>et ideo judex in tali casu testes idoneos
+<lb ed="#Bf" n="12"/>admittit.
+</p>
+            <p xml:id="alalal-i50651-d1e799">
+               <lb ed="#Bf" n="13"/>Ad quod ultimo queritur, dicendum
+<lb ed="#Bf" n="14"/>quod idem subjecto in hac causa potest
+<lb ed="#Bf" n="15"/>esse accusator et testis, licet non idem 
+se<lb break="no" ed="#Bf" n="16"/>cundum rationem ; quia in veritate in tali
+<lb ed="#Bf" n="17"/>casu contra aliquid agitur per modum 
+in<lb break="no" ed="#Bf" n="18"/>quisitionis potius quam denuntiationis
+<lb ed="#Bf" n="19"/>vel accusationis: in tali autem modo
+<lb ed="#Bf" n="20"/>agendi contra aliquem (ut dicitur in jure)
+<lb ed="#Bf" n="21"/>fama accusat: et postea quae inducuntur,
+<lb ed="#Bf" n="22"/>sunt testes veritatis fame: tamen quia
+<lb ed="#Bf" n="23"/>non est hic alius homo accusans et 
+testi<lb break="no" ed="#Bf" n="24"/>ficans, propterea dicitur quod idem est
+<lb ed="#Bf" n="25"/>testis et accusator.
+</p>
+            <p xml:id="alalal-i50651-d1e830">
+               <lb ed="#Bf" n="26"/>Ad soc autem quod contra objicitur,
+<lb ed="#Bf" n="27"/>dicendum quod accusator hic non 
+testi<lb break="no" ed="#Bf" n="28"/>ticatur id quod ipse dicit, sed potius hoc
+<lb ed="#Bf" n="29"/>quod fama clamat: et ideo est hic 
+que<lb break="no" ed="#Bf" n="30"/>dam diversitas accusantis et testificantis.
+</p>
+            <p xml:id="alalal-i50651-d1e844">
+               <lb ed="#Bf" n="31"/>Notandum autem est hic quiddam quod
+<lb ed="#Bf" n="32"/>in 35, q. 6, dicitur in apparatu, quod in
+<lb ed="#Bf" n="33"/>pluribus locis valet, scilicet quod speciale
+<lb ed="#Bf" n="34"/>est in matrimonio, quod idem potest esse
+<lb ed="#Bf" n="35"/>accusator et testis : sicut etiam, quod non
+<lb ed="#Bf" n="36"/>juratur in hae causa de calumnia, cum
+<lb ed="#Bf" n="37"/>sit quasi causa spiritualis, et quod con~
+<lb ed="#Bf" n="38"/>sanguinei admittuntur, et quod non 
+om<lb break="no" ed="#Bf" n="39"/>nino ibi ordo judiciarius observatur,
+<lb ed="#Bf" n="40"/>cum denuntiatione tali facta, contumax
+<lb ed="#Bf" n="41"/>lite non contestata possit excommunicari:
+<lb ed="#Bf" n="42"/>et quod valet hic testimonium de ipsius
+<lb ed="#Bf" n="43"/>auditu, et quia post publicatam 
+attesta<lb break="no" ed="#Bf" n="44"/>tionem testes possunt adduci.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

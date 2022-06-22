@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="442"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d78157"><!-- l2d26dt -->
+            <head xml:id="alalal-d78157-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-d78157-d1e101">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="9"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-d78157-d1e108">
+               <lb ed="#Bc" n="10"/>
+               <quote xml:id="alalal-d78157-Qd1e112"> Haec est gratia operans, etc. </quote>
+               <lb ed="#Bc" n="11"/>Hic Magister tangit id a quo cecidit
+<lb ed="#Bc" n="12"/>homo quoad bonum gratie, vel quod
+<lb ed="#Bc" n="13"/>habuit si creatus fuit in gratia, vel quod
+<lb ed="#Bc" n="14"/>habuisset si non fuit creatus in gratia,
+<lb ed="#Bc" n="15"/>quoad aliam opinionem.
+</p>
+            <p xml:id="alalal-d78157-d1e126">
+               <lb ed="#Bc" n="16"/>Dividitur autem in tres partes: in
+<lb ed="#Bc" n="17"/>quarum prima Magister tangit quid sit
+<lb ed="#Bc" n="18"/>gratia. In secunda autem quid sit virtus,
+<lb ed="#Bc" n="19"/>et quaomodo liberum arbitrium se habet
+<lb ed="#Bc" n="20"/>ad gratiam et virtutem : et haec incipit in
+<lb ed="#Bc" n="21"/>sequenti distinctione XX VII, ibi, A, <quote xml:id="alalal-d78157-Qd1e141"> Hic
+<lb ed="#Bc" n="22"/>videndum est quid sit virtus, etc. </quote> In
+<lb ed="#Bc" n="23"/>tertia tangit de comparatione gratia et
+<lb ed="#Bc" n="24"/>virtutis ad primum statum hominis, 
+que<lb break="no" ed="#Bc" n="25"/>rendo, Utrum tune gratia et virtute 
+indi<lb break="no" ed="#Bc" n="26"/>guit, vel non ? et haec incipit infra, 
+dis<lb break="no" ed="#Bc" n="27"/>tinctione X XIX, ibi, A, <quote xml:id="alalal-d78157-Qd1e157"> Post haec 
+con<lb break="no" ed="#Bc" n="28"/>siderandum est, etc. </quote>
+            </p>
+            <p xml:id="alalal-d78157-d1e163">
+               <lb ed="#Bc" n="29"/>Hee autem distinctio quae continet
+<lb ed="#Bc" n="30"/>primam partem, habet tres partes : in
+<lb ed="#Bc" n="31"/>quarum prima agit de gratia operante et
+<lb ed="#Bc" n="32"/>cooperante secundum se, In secunda 
+au<lb break="no" ed="#Bc" n="33"/>tem determinat suppositum primum in
+<lb ed="#Bc" n="34"/>justificatione impii, ibi, D, <quote xml:id="alalal-d78157-Qd1e178"> Et si 
+dili<lb break="no" ed="#Bc" n="35"/>genter, etc. </quote> In tertia tangit 
+compara<lb break="no" ed="#Bc" n="36"/>tionem gratie ad virtutem, utrum sit
+</p>
+            <p xml:id="alalal-d78157-d1e187">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="37"/>idem illi, vel non? ibi, H, <quote xml:id="alalal-d78157-Qd1e193"> Hic cons}.
+<lb ed="#Bc" n="38"/>derandum est, cum predictum stt, etc, </quote>
+            </p>
+            <p xml:id="alalal-d78157-d1e199">
+               <lb ed="#Bc" n="39"/>Divisio autem ulterius per se patet 
+uni<lb break="no" ed="#Bc" n="40"/>cuique ex consideratione capitulorum,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

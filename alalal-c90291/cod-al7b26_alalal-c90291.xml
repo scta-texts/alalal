@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="480"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c90291"><!-- l1d48a6 -->
+            <head xml:id="alalal-c90291-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-c90291-Hd1e101" type="question-title">Utrum omnes Sancti, et specialiter beata
+Virgo et Apostoli, voluerunt 
+passionem Christi ?</head>
+            <p xml:id="alalal-c90291-d1e104">
+               <pb ed="#Bb" n="480"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>ARTICULUS VI.
+<lb ed="#Bb" n="2"/>Utrum omnes Sancti, et specialiter beata
+<lb ed="#Bb" n="3"/>Virgo et Apostoli, voluerunt 
+passio<lb break="no" ed="#Bb" n="4"/>nem Christi ?
+</p>
+            <p xml:id="alalal-c90291-d1e120">
+               <lb ed="#Bb" n="5"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Bb" n="6"/>ibi, D, <quote xml:id="alalal-c90291-Qd1e126"> Ex quo solvitur questio, etc. </quote>
+               <lb ed="#Bb" n="7"/>Videtur enim, quod passionem Christi
+<lb ed="#Bb" n="8"/>omnes Sancti voluerint : quia omnes 
+red<lb break="no" ed="#Bb" n="9"/>emptionem exspectabant: ergo mortem
+<lb ed="#Bb" n="10"/>Christi desideraverunt.
+</p>
+            <p xml:id="alalal-c90291-d1e138">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="11"/>Item queritur, Utrum beata Virgo et
+<lb ed="#Bb" n="12"/>Apostoli voluerunt ?
+</p>
+            <p xml:id="alalal-c90291-d1e148">
+               <lb ed="#Bb" n="13"/>Solutio. Secundum praehabita haec
+<lb ed="#Bb" n="14"/>nulla est questio : quia Magister bene
+<lb ed="#Bb" n="15"/>determinat in Littera, quod omnes 
+vole<lb break="no" ed="#Bb" n="16"/>bant finem passionis, et ipsam passionem
+<lb ed="#Bb" n="17"/>relatam ad finem, sed non passionein 
+sim<lb break="no" ed="#Bb" n="18"/>pliciter : quia hoc esset contra illud quod
+<lb ed="#Bb" n="19"/>congruit nos velle, scilicet poenas et 
+mor<lb break="no" ed="#Bb" n="20"/>tem innocentis et optimi. Sic etiam 
+ju<lb break="no" ed="#Bb" n="21"/>dicandum est de passionibus Sanctorum.
+<lb ed="#Bb" n="22"/>In comparatione autem ad agentes et 
+oc<lb break="no" ed="#Bb" n="23"/>cidentes, nullo modo debemus velle:
+<lb ed="#Bb" n="24"/>quia nec Deus sic voluit, ut habetur in
+<lb ed="#Bb" n="25"/>Littera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

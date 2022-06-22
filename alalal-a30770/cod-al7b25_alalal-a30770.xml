@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="152"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a30770"><!-- l1d3et1 -->
+            <head xml:id="alalal-a30770-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-a30770-d1e101">
+               <lb ed="#Ba" n="13"/>Expositio Textus.
+</p>
+            <p xml:id="alalal-a30770-d1e106">
+               <lb ed="#Ba" n="14"/>
+               <quote xml:id="alalal-a30770-Qd1e110"> Mens itaque rationalis, etc. </quote>
+               <lb ed="#Ba" n="15"/>Hic incipit pars illa in qua imaginem 
+<lb ed="#Ba" n="16"/>creatam applicat ad exemplar increatum, 
+<lb ed="#Ba" n="17"/>et ostendit quid haberi possit per 
+consi<lb break="no" ed="#Ba" n="18"/>derationem ipsius. </p>
+            <p xml:id="alalal-a30770-d1e122">
+               <lb ed="#Ba" n="19"/>Objicitur autem de hoc quod ipse dicit 
+<lb ed="#Ba" n="20"/>
+               <quote xml:id="alalal-a30770-Qd1e128">eum habere sapientiam quae ab ipso  
+<lb ed="#Ba" n="21"/>genta est, etc. </quote> : ergo sapientia genita
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="22"/>est : sed sapientia est essentia: ergo 
+es<lb break="no" ed="#Ba" n="23"/>sentia genita est, quod falsum est.</p>
+            <p xml:id="alalal-a30770-d1e141">
+               <lb ed="#Ba" n="24"/>Solutio. Hic breviter transeo (quia 
+in<lb break="no" ed="#Ba" n="25"/>fra de hoc erit questio) dicens, quod 
+sa<lb break="no" ed="#Ba" n="26"/>pientia accipitur hic ut appropriatum in
+  <lb ed="#Ba" n="27"/>quo intelligitur proprium : quia ita ducit
+  <lb ed="#Ba" n="28"/>imago in sapientiam, et ideo sapientia est
+  <lb ed="#Ba" n="29"/>Filius, et est sensus, id est, Filius cujus
+  <lb ed="#Ba" n="30"/>appropriatum est sapientia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="368"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i76829"><!-- l4d36a1 -->
+            <head xml:id="alalal-i76829-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-i76829-Hd1e101" type="question-title">Quid sit conditio impediens 
+matrimonium ?</head>
+            <p xml:id="alalal-i76829-d1e104">
+               <lb ed="#Bf" n="29"/>ARTICULUS I.
+<lb ed="#Bf" n="30"/>Quid sit conditio impediens 
+matrimo<lb break="no" ed="#Bf" n="31"/>nium ?
+</p>
+            <p xml:id="alalal-i76829-d1e113">
+               <lb ed="#Bf" n="32"/>Ad primum, scilicet quid sit conditio
+<lb ed="#Bf" n="33"/>impediens matrimonium, objicitur :
+</p>
+            <p xml:id="alalal-i76829-d1e120">
+               <lb ed="#Bf" n="34"/>Dicunt Jura, quod conditio 
+impe<lb break="no" ed="#Bf" n="35"/>diens matrimonium, est servitus: servi-
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="36"/>tus autem est conditio suppositionis,
+<lb ed="#Bf" n="37"/>qua persona secundum se et sua est in
+<lb ed="#Bf" n="38"/>potestate superioris.
+</p>
+            <p xml:id="alalal-i76829-d1e137">
+               <lb ed="#Bf" n="39"/>Videtur autem, quod talis conditio
+<lb ed="#Bf" n="40"/>non debet esse in humano genere : quia
+<lb ed="#Bf" n="41"/>1. Dicit Gregorius, quod <quote xml:id="alalal-i76829-Qd1e145"> natura 
+om<lb break="no" ed="#Bf" n="42"/>nes homines equales genuit : </quote> ergo
+<lb ed="#Bf" n="43"/>contra naturam est unum hominem esse
+<lb ed="#Bf" n="44"/>alio inferiorem, et esse in potestate 
+alte<lb break="no" ed="#Bf" n="45"/>rius secundum se et sua : sed ea quae
+<lb ed="#Bf" n="46"/>sunt contra naturam, nullo jure statui
+<lb ed="#Bf" n="47"/>possunt: ergo nullo jure conditio 
+servi<lb break="no" ed="#Bf" n="48"/>tutis inter homines esse potest.
+</p>
+            <p xml:id="alalal-i76829-d1e164">
+               <lb ed="#Bf" n="49"/>2. Item, Dicit Gregorius, quod <quote xml:id="alalal-i76829-Qd1e168"> 
+con<lb break="no" ed="#Bf" n="50"/>tra naturam superbire est hominem 
+ho<lb break="no" ed="#Bf" n="51"/>mini preesse velle: </quote> ergo idem quod
+<lb ed="#Bf" n="52"/>prius.
+</p>
+            <p xml:id="alalal-i76829-d1e178">
+               <lb ed="#Bf" n="53"/>3. Item, Apostolus dicit, quod in
+<lb ed="#Bf" n="54"/>Christo Jesu non est servus neque 
+li<lb break="no" ed="#Bf" n="55"/>ber: ergo in fide Christi omnes sunt
+<lb ed="#Bf" n="56"/>equales: ergo falsum est, quod unus sit
+<lb ed="#Bf" n="57"/>dominus alterius : ergo nulla est 
+condi<lb break="no" ed="#Bf" n="58"/>tio servitutis.
+</p>
+            <p xml:id="alalal-i76829-d1e194">
+               <lb ed="#Bf" n="59"/>4. Item, In primo ordine humani ge
+<lb ed="#Bf" n="60"/>neris dictum est ante peccatum et post
+<lb ed="#Bf" n="61"/>peccatum homini, quod coleret terram,
+<lb ed="#Bf" n="62"/>et subjiceret eam sibi: nusquam autem,
+<lb ed="#Bf" n="63"/>quod dominaretur super alterum : ergo
+<lb ed="#Bf" n="64"/>videtur, quod de dignitate nature 
+homi<lb break="no" ed="#Bf" n="65"/>nis sit, ut non sit servilis conditionis.
+</p>
+            <p xml:id="alalal-i76829-d1e212">
+               <lb ed="#Bf" n="66"/>3. Item, Tullius dicit in Rhetorica,
+<lb ed="#Bf" n="67"/>quod <quote xml:id="alalal-i76829-Qd1e218"> omne jus a natura est 
+profe<lb break="no" ed="#Bf" n="68"/>ctum : </quote> ergo quod non est profectum a
+<lb ed="#Bf" n="69"/>natura, est injuria: sed istud jus de 
+con<lb break="no" ed="#Bf" n="70"/>ditione servitutis, non est a natura 
+pro<lb break="no" ed="#Bf" n="71"/>fectum: ergo est injuria. Prozatio 
+me<lb break="no" ed="#Bf" n="72"/>die. Natura est equaliter digna in servo
+<lb ed="#Bf" n="73"/>et in domino: ergo impossibile est, quod
+<lb ed="#Bf" n="74"/>unus alteri ex participatione nature
+<lb ed="#Bf" n="75"/>preponatur : et sic constat propositum.
+</p>
+            <p xml:id="alalal-i76829-d1e239">
+               <lb ed="#Bf" n="76"/>Si forte dicas, quod Tullius mentitur.
+<lb ed="#Bf" n="77"/>Contra : Jus positivum necesse est, quod
+<lb ed="#Bf" n="78"/>habeat rationem aliquam equitatis: illa
+<lb ed="#Bf" n="79"/>ergo ratio necesse ratiocinatur ex aliquo
+<lb ed="#Bf" n="80"/>habitu regente ipsam, et exemplar 
+ali<lb break="no" ed="#Bf" n="81"/>quod habet ad quod adspicit: sed istud
+<lb ed="#Bf" n="82"/>exemplar est necessario ante jus positi-
+<pb ed="#Bf" n="369"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>vum : quod autem est ante jus 
+positi<lb break="no" ed="#Bf" n="2"/>vum, non est jus positivum : ergo
+<lb ed="#Bf" n="3"/>exemplar quod imitatur ratio inveniens
+<lb ed="#Bf" n="4"/>jus positivum, non est de jure positivo :
+<lb ed="#Bf" n="5"/>sed nihil est ante, nisi jus naturale et
+<lb ed="#Bf" n="6"/>divinum : ergo necesse est, quod istud
+<lb ed="#Bf" n="7"/>exemplar sit jus naturale et divinum :
+<lb ed="#Bf" n="8"/>sed omne exemplatum perficitur ab
+<lb ed="#Bf" n="9"/>exemplari: ergo jus positivum perficitur
+<lb ed="#Bf" n="10"/>a jure naturali et divino: et hoc est quod
+<lb ed="#Bf" n="11"/>dicit Tullius.
+</p>
+            <p xml:id="alalal-i76829-d1e286">
+               <lb ed="#Bf" n="12"/>In conrrarnium hujus est,
+<lb ed="#Bf" n="13"/>1. Quod dixit Noe, Genes.IX, 25 : <quote xml:id="alalal-i76829-Qd1e292">
+Male<lb break="no" ed="#Bf" n="14"/>dietus Chanaan, servus servorum erit
+<lb ed="#Bf" n="15"/>fratribus suis</quote>. Si ergo per Patriarchas
+<lb ed="#Bf" n="16"/>Dei inspirationem habentes, inducta est
+<lb ed="#Bf" n="17"/>servitus : ergo est de jure divino.
+</p>
+            <p xml:id="alalal-i76829-d1e304">
+               <lb ed="#Bf" n="18"/>2. Item, De Abraham, Isaac, et Jacob
+<lb ed="#Bf" n="19"/>legitur, quod habuerunt servos et 
+an<lb break="no" ed="#Bf" n="20"/>cillas: cum ergo inspirationem Dei ha~
+<lb ed="#Bf" n="21"/>buerunt, et nihil contra naturam vel jus
+<lb ed="#Bf" n="22"/>egerunt, servitus est de jure naturali et
+<lb ed="#Bf" n="23"/>divino, ut videtur.
+</p>
+            <p xml:id="alalal-i76829-d1e320">
+               <lb ed="#Bf" n="24"/>3. Item, In Novo Testamento, I Petr.
+<lb ed="#Bf" n="25"/>u, 18, et ad Ephes. vi, 5, et multis aliis
+<lb ed="#Bf" n="26"/>locis precipitur servis, quod in omni 
+ti<lb break="no" ed="#Bf" n="27"/>more obadiant dominis, non tantum 
+bo<lb break="no" ed="#Bf" n="28"/>nis et honestis et modestis, sed etiam
+<lb ed="#Bf" n="29"/>discolis: ergo conditio servitutis est de
+<lb ed="#Bf" n="30"/>lege Christi: et sic nec contra naturam,
+<lb ed="#Bf" n="31"/>nec contra divina : ergo nec servitus,
+</p>
+            <p xml:id="alalal-i76829-d1e340">
+               <lb ed="#Bf" n="32"/>4. Item, Video quod propter 
+pecca<lb break="no" ed="#Bf" n="33"/>tum traditur homo ut sit in potestate
+<lb ed="#Bf" n="34"/>demonis: ergo multo magis tradetur in
+<lb ed="#Bf" n="35"/>potestatem hominis : ergo potest justo
+<lb ed="#Bf" n="36"/>Dei judicio unus effici servus alterius.
+</p>
+            <p xml:id="alalal-i76829-d1e353">
+               <lb ed="#Bf" n="37"/>Responsio. Dicendum, quod conditio
+<lb ed="#Bf" n="38"/>servitutis est in genere humano: quia
+<lb ed="#Bf" n="39"/>nisi esset, non impediret matrimonium.
+</p>
+            <p xml:id="alalal-i76829-d1e362">
+               <lb ed="#Bf" n="40"/>Ad primum ergo dicendum, quod non
+<lb ed="#Bf" n="41"/>est derivata scrvitus ex inequalitate 
+na<lb break="no" ed="#Bf" n="42"/>ture, sed potius ex inequalitate operum
+<lb ed="#Bf" n="43"/>in poenam inducta : et ideo non est 
+favo<lb break="no" ed="#Bf" n="44"/>rabilis, sed potius eorum quae per se
+<lb ed="#Bf" n="45"/>fugiuntur, ut dicunt Philosophi.
+</p>
+            <p xml:id="alalal-i76829-d1e379">
+               <lb ed="#Bf" n="46"/>Ad idoo autem quod objicitur, quod
+<lb ed="#Bf" n="47"/>
+               <quote xml:id="alalal-i76829-Qd1e385">contra naturam est, etc. </quote>, dicendum
+<lb ed="#Bf" n="48"/>quod natura dicitur dupliciter, vel po-
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="49"/>tius tripliciter : dicitur enim quandoque
+<lb ed="#Bf" n="50"/>natura ipsa species communicabilis 
+indi<lb break="no" ed="#Bf" n="51"/>viduis, et participata ab illis, sicut 
+di<lb break="no" ed="#Bf" n="52"/>cuntur omnes homines natura homines,
+<lb ed="#Bf" n="53"/>Dicitur etiam natura quandoque ratio
+<lb ed="#Bf" n="54"/>naturalis : et hoc dupliciter, scilicet ex
+<lb ed="#Bf" n="55"/>naturalibus procedens, et in naturalibus
+<lb ed="#Bf" n="56"/>consistens, vel ex naturalibus procedens
+<lb ed="#Bf" n="57"/>ad ordinem eorum quae incidunt preter
+<lb ed="#Bf" n="58"/>naturam, quantum illa ordinari est 
+pos<lb break="no" ed="#Bf" n="59"/>sibile. Et primo quidem modo quod est
+<lb ed="#Bf" n="60"/>contra naturam, non potest stare: et hoc
+<lb ed="#Bf" n="61"/>modo servitus non est contra naturam,
+<lb ed="#Bf" n="62"/>sed potius personalis, et contra statum
+<lb ed="#Bf" n="63"/>persone. Secundo autem modo iterum
+<lb ed="#Bf" n="64"/>non est naturalis: quia sic non est 
+natu<lb break="no" ed="#Bf" n="65"/>rale nisi jus illud, quod natura omnis ea
+<lb ed="#Bf" n="66"/>que sunt illus nature docet. Sed tertio
+<lb ed="#Bf" n="67"/>modo servitus est naturalis : quia per
+<lb ed="#Bf" n="68"/>eam ordinatur culpa quae inducta est in
+<lb ed="#Bf" n="69"/>natura ex vitio persone.
+</p>
+            <p xml:id="alalal-i76829-d1e438">
+               <lb ed="#Bf" n="70"/>Et per hoc patet etiam solutio ad
+se<lb break="no" ed="#Bf" n="71"/>quens: quia Gregorius vocat contra 
+na<lb break="no" ed="#Bf" n="72"/>turam, quod est contra naturam primo
+<lb ed="#Bf" n="73"/>modo dictam, non autem tertio.
+</p>
+            <p xml:id="alalal-i76829-d1e449">
+               <lb ed="#Bf" n="74"/>Ad aliud dicendum, quod servus 
+con<lb break="no" ed="#Bf" n="75"/>sideratur dupliciter, scilicet secundum
+<lb ed="#Bf" n="76"/>quod est particeps gratiae vel gloria,
+<lb ed="#Bf" n="77"/>que sunt maxime perfectiones anima,
+<lb ed="#Bf" n="78"/>et in talibus equatur domino, vel etiam
+<lb ed="#Bf" n="79"/>quandoque preponitur. Consideratur
+<lb ed="#Bf" n="80"/>etiam secundum opus et facultatem, et
+<lb ed="#Bf" n="81"/>in talibus est in potestate domini. Kt
+<lb ed="#Bf" n="82"/>primo modo loquitur Apostolus.
+</p>
+            <p xml:id="alalal-i76829-d1e471">
+               <lb ed="#Bf" n="83"/>Ad aliud dicendum, quod patet 
+solu<lb break="no" ed="#Bf" n="84"/>tio ex prius inducta distinctione: quia
+<lb ed="#Bf" n="85"/>servitus ex re innaturali inducta est, quae
+<lb ed="#Bf" n="86"/>est peccatum : sed tamen ex ratione 
+or<lb break="no" ed="#Bf" n="87"/>dinatur et peccatum et poena peccati,
+<lb ed="#Bf" n="88"/>que est servitus.
+</p>
+            <p xml:id="alalal-i76829-d1e487">
+               <lb ed="#Bf" n="89"/>Ad aliud dicendum, quod Tullius 
+ac<lb break="no" ed="#Bf" n="90"/>cipit naturam pro naturali ratione, 
+cu<lb break="no" ed="#Bf" n="91"/>jus habitus regit in omni jure positivo :
+<lb ed="#Bf" n="92"/>et ita trahitur ab eo sicut exemplatum ab
+<lb ed="#Bf" n="93"/>exemplari, sicut probat objectio: et ita
+<lb ed="#Bf" n="94"/>inde trahitur ordo peccati per poenam
+<lb ed="#Bf" n="95"/>qua est servitus : peccatum enim in poena
+<lb ed="#Bf" n="96"/>et per poenam ordinatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

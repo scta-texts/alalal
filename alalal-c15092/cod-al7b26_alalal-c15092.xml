@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="80"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c15092"><!-- l1d29a5 -->
+            <head xml:id="alalal-c15092-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-c15092-Hd1e101" type="question-title">Utrum sicut Pater et Filius et 
+Spiritus sanctus dicuntur unus creator, ita
+Pater et Filius possunt dici unus 
+spirator ?</head>
+            <p xml:id="alalal-c15092-d1e104">
+               <cb ed="#Bb" n="c"/>
+               <lb ed="#Bb" n="61"/>ARTICULUS V.
+<lb ed="#Bb" n="62"/>Utrum sicut Pater et Filius et 
+Spiri<lb break="no" ed="#Bb" n="63"/>tus sanctus dicuntur unus creator, ita
+<lb ed="#Bb" n="64"/>Pater et Filius possunt dici unus 
+spi<lb break="no" ed="#Bb" n="65"/>rator ?
+</p>
+            <p xml:id="alalal-c15092-d1e120">
+               <lb ed="#Bb" n="66"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="#Bb" n="67"/>secunda parte distinctionis, ibi, <quote xml:id="alalal-c15092-Qd1e126"> Ad
+<lb ed="#Bb" n="68"/>creaturam unum principium est, sicut
+<lb ed="#Bb" n="69"/>unus creator. </quote>
+            </p>
+            <p xml:id="alalal-c15092-d1e134">
+               <lb ed="#Bb" n="70"/>1. A simili enim videtur. quod etiam
+<lb ed="#Bb" n="71"/>Pater et Filius ad Spiritum sanctum sunt
+<lb ed="#Bb" n="72"/>unus spirator.
+</p>
+            <p xml:id="alalal-c15092-d1e144">
+               <lb ed="#Bb" n="73"/>Item, Unum sunt in spirando: ergo
+<lb ed="#Bb" n="74"/>unus spirator.
+</p>
+            <p xml:id="alalal-c15092-d1e151">
+               <lb ed="#Bb" n="75"/>2.ltem, Non dicuntur unum 
+princi<lb break="no" ed="#Bb" n="76"/>pium nisi gratia spirationis: ergo 
+vide<lb break="no" ed="#Bb" n="77"/>tur, quod potius sint unus spirator quam
+<lb ed="#Bb" n="78"/>unum = principium.
+</p>
+            <p xml:id="alalal-c15092-d1e162">
+               <lb ed="#Bb" n="79"/>3. Item, Principium dicit ordinem ad
+<lb ed="#Bb" n="80"/>actum et rationem actus: ergo si 
+dicun<lb break="no" ed="#Bb" n="81"/>tur sicut etspirator: ergo sicut dicuntur
+<lb ed="#Bb" n="82"/>unum principium, ita debent dici unus
+<lb ed="#Bb" n="83"/>spirator. :
+</p>
+            <p xml:id="alalal-c15092-d1e175">
+               <lb ed="#Bb" n="84"/>4. Item, Actus spirandi est in eis
+<lb ed="#Bb" n="85"/>unus : ergo cum spirator nomen verbale
+<lb ed="#Bb" n="86"/>sit, denotans exercitium illius actus, ipsi
+<lb ed="#Bb" n="87"/>sunt et dicentur spirator unus.
+</p>
+            <p xml:id="alalal-c15092-d1e186">
+               <lb ed="#Bb" n="88"/>SED CONTRA :
+<lb ed="#Bb" n="89"/>Sunt duo qui spirant: ergo duo sunt
+<lb ed="#Bb" n="90"/>spiratores: non autem sequitur, sunt
+<lb ed="#Bb" n="91"/>duo qui sunt principium: ergo duo sunt
+<lb ed="#Bb" n="92"/>principia.
+</p>
+            <p xml:id="alalal-c15092-d1e199">
+               <pb ed="#Bb" n="81"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>Solutio. Dicendum, quod Pater et
+<lb ed="#Bb" n="2"/>Filius non sunt unus spirans, nec unus
+<lb ed="#Bb" n="3"/>spirator, sed duo spirantes et duo 
+spira<lb break="no" ed="#Bb" n="4"/>tores. Et hujus causa est: quia 
+partici<lb break="no" ed="#Bb" n="5"/>pium et verba et nomina verbalia omnia
+<lb ed="#Bb" n="6"/>accipiunt modum significandi ab actu
+<lb ed="#Bb" n="7"/>verbali, vel cum tempore vel sine 
+tem<lb break="no" ed="#Bb" n="8"/>pore significato, et quantumcumque 
+es<lb break="no" ed="#Bb" n="9"/>sentialia sint aliqua, quando 
+significan<lb break="no" ed="#Bb" n="10"/>tur in modo actus cum tempore, 
+acci<lb break="no" ed="#Bb" n="11"/>piunt pluralitatem a suppositis, ut patet
+<lb ed="#Bb" n="12"/>cum dicitur : Ego et Pater unum 
+su<lb break="no" ed="#Bb" n="13"/>mus +, ubi verbum substantivum 
+signi<lb break="no" ed="#Bb" n="14"/>ficans essentiam cadit in pluralitatem :
+<lb ed="#Bb" n="15"/>quia non potest intelligi quomodo a 
+tri<lb break="no" ed="#Bb" n="16"/>bus suppositis egrediatur actus unus cum
+<lb ed="#Bb" n="17"/>tempore significatus ut in verbo 
+signifi<lb break="no" ed="#Bb" n="18"/>catur vel participio. Et ideo dicimus, quod
+<lb ed="#Bb" n="19"/>Pater et Filius sunt plures qui spirant,
+<lb ed="#Bb" n="20"/>et plures spirantes, et plures spiratores.
+<lb ed="#Bb" n="21"/>Sed verum est quod haec ultima minus
+<lb ed="#Bb" n="22"/>habet de proprietate quam prime due:
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="23"/>tamen quia spirator nomen verbale est,
+<lb ed="#Bb" n="24"/>ideo etiam praedicatum de diversis 
+sup<lb break="no" ed="#Bb" n="25"/>positis agitur in pluralitate.
+</p>
+            <p xml:id="alalal-c15092-d1e263">
+               <lb ed="#Bb" n="26"/>Dicendum ergo ad primum, quod non
+<lb ed="#Bb" n="27"/>est simile : quia creator dicit actum 
+es<lb break="no" ed="#Bb" n="28"/>sentiae vel substanti#, et non suppositi
+<lb ed="#Bb" n="29"/>quod est persona, hoc modo accipiendi
+<lb ed="#Bb" n="30"/>personam quo fides distinguit personas :
+<lb ed="#Bb" n="31"/>sed spirator dicit actum personalem.
+</p>
+            <p xml:id="alalal-c15092-d1e279">
+               <lb ed="#Bb" n="32"/>Ad secunDUM patet solutio per ante
+<lb ed="#Bb" n="33"/>dicta.
+</p>
+            <p xml:id="alalal-c15092-d1e286">
+               <lb ed="#Bb" n="34"/>Ad aliud dicendum, quod principium
+<lb ed="#Bb" n="35"/>dicit ordinem ad actum per hoc quod
+<lb ed="#Bb" n="36"/>dicit rationem actus quae est notio : sed
+<lb ed="#Bb" n="37"/>spirator dicit exercitium actus illius.
+</p>
+            <p xml:id="alalal-c15092-d1e297">
+               <lb ed="#Bb" n="38"/>Ad tLtmmum dicendum, quod licet actus
+<lb ed="#Bb" n="39"/>unus sit, non tamen significatur ut unus,
+<lb ed="#Bb" n="40"/>quando refertur ad plura supposita: et
+<lb ed="#Bb" n="41"/>hoc fit in verbo et participio plus: et in
+<lb ed="#Bb" n="42"/>nomine verbali etiam fit, licet minus
+<lb ed="#Bb" n="43"/>per hoc quod abstrahatur a tempore.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="106"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i21574"><!-- l4d26a8 -->
+            <head xml:id="alalal-i21574-Hd1e99">Articulus 8</head>
+            <p xml:id="alalal-i21574-d1e101">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="47"/>ARTICULUS VIII
+</p>
+            <p xml:id="alalal-i21574-d1e108">
+               <lb ed="#Bf" n="48"/>An matrimoniun sit remedium et 
+medi<lb break="no" ed="#Bf" n="49"/>cina contra morbum concupiscentiae ?
+</p>
+            <p xml:id="alalal-i21574-d1e115">
+               <lb ed="#Bf" n="50"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bf" n="51"/>B, circa medium : <quote xml:id="alalal-i21574-Qd1e121"> Quod sanis est ad
+<lb ed="#Bf" n="52"/>officium, egrotis est ad remedium,
+<lb ed="#Bf" n="53"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-i21574-d1e129">
+               <lb ed="#Bf" n="54"/>Videtur enim hoc esse falsum :
+<lb ed="#Bf" n="55"/>1. Nulla enim infirmitas aceipit 
+medi<lb break="no" ed="#Bf" n="56"/>camentum ab eodem a quo accipit 
+inten<lb break="no" ed="#Bf" n="57"/>sionem : sed concupiscentia coeundi est
+<lb ed="#Bf" n="58"/>infirmitas : ergo, etc. Constat autem,
+<lb ed="#Bf" n="59"/>quod ex materia ad facultatem exhibita
+<lb ed="#Bf" n="60"/>et licentia cocundi satisfit concupiscentiae
+<lb ed="#Bf" n="61"/>carnali : et hoc fit per matrimonium :
+<lb ed="#Bf" n="62"/>ergo matrimonium intendit 
+concupiscen<lb break="no" ed="#Bf" n="63"/>tiam : ergo non est remedium contra
+<lb ed="#Bf" n="64"/>morbum concupiscentia.
+</p>
+            <p xml:id="alalal-i21574-d1e156">
+               <lb ed="#Bf" n="65"/>2. Item, Nulla infirmitas curatur per
+<lb ed="#Bf" n="66"/>id quod appetit : sed concupiscentia est
+<lb ed="#Bf" n="67"/>infirmitas destitute nature : ergo non
+<lb ed="#Bf" n="68"/>curatur per idem quod appetit : appetit
+<lb ed="#Bf" n="69"/>autem coitum : ergo non curatur per 
+il<lb break="no" ed="#Bf" n="70"/>lum : cum igitur matrimonium 
+consum<lb break="no" ed="#Bf" n="71"/>metur per coitum, videtur quod 
+matri<lb break="no" ed="#Bf" n="72"/>monium non curet concupiscentiam.
+<lb ed="#Bf" n="73"/>Prima probatur per dictum Galeni et
+<lb ed="#Bf" n="74"/>Aristotelis, qui dicunt, quod appetitus
+<lb ed="#Bf" n="75"/>infirmorum sunt corrupti per 
+egritudi<lb break="no" ed="#Bf" n="76"/>nalem habitum : et ideo cis non est 
+sa<lb break="no" ed="#Bf" n="77"/>tisfaciendum.
+</p>
+            <p xml:id="alalal-i21574-d1e187">
+               <lb ed="#Bf" n="78"/>3. Item, Nulla infirmitas manet post
+<lb ed="#Bf" n="79"/>suam curaia si cura est efficax : sed 
+con<lb break="no" ed="#Bf" n="80"/>cupiscentia cocundi adhuc manet et agit
+<lb ed="#Bf" n="81"/>post matrimonium : ergo matrimonium
+<lb ed="#Bf" n="82"/>non est curans concupiscentiam coeundi.
+</p>
+            <p xml:id="alalal-i21574-d1e200">
+               <lb ed="#Bf" n="83"/>3. Item, In omnibus corporalibus et
+<lb ed="#Bf" n="84"/>spiritualibus medicine sunt per 
+contra<lb break="no" ed="#Bf" n="85"/>rium : ergo videtur, quod etiam in isto :
+<lb ed="#Bf" n="86"/>videtur ergo cum matrimonium non 
+ha<lb break="no" ed="#Bf" n="87"/>beat contrarietatem ad concupiscentiam
+<lb ed="#Bf" n="88"/>coitus, quod non sit cura ipsius.
+</p>
+            <p xml:id="alalal-i21574-d1e216">
+               <pb ed="#Bf" n="107"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>5. Si forte dicas, quod matrimonium est
+<lb ed="#Bf" n="2"/>medicina hoc modo : quia concupiscentia
+<lb ed="#Bf" n="3"/>coitus quae rueret in preceps per coitum
+<lb ed="#Bf" n="4"/>absolutum, ligatur ad unam : et quia fide
+<lb ed="#Bf" n="5"/>thori restringit, ideo efficitur non 
+illici<lb break="no" ed="#Bf" n="6"/>tus, et sic accipit medicinam. Contra :
+<lb ed="#Bf" n="7"/>Nullus morbus sic medicatur, quod 
+re<lb break="no" ed="#Bf" n="8"/>stringatur ad partem materie in qua 
+dif<lb break="no" ed="#Bf" n="9"/>funditur : quia quanto magis 
+restringi<lb break="no" ed="#Bf" n="10"/>tur, tanto acerbior efficitur circa id in
+<lb ed="#Bf" n="11"/>quo est : ergo nec concupiscentia sic 
+de<lb break="no" ed="#Bf" n="12"/>bet medicamentum accipere.
+</p>
+            <p xml:id="alalal-i21574-d1e249">
+               <lb ed="#Bf" n="13"/>Item, Quod secundum se est illicitum,
+<lb ed="#Bf" n="14"/>numquam efficitur licitum ex hoc quod
+<lb ed="#Bf" n="15"/>est circa unum et non circa plura: sed
+<lb ed="#Bf" n="16"/>concupiscentia concubitus secundum se
+<lb ed="#Bf" n="17"/>est illicitus : ergo non efficitur licitus ex
+<lb ed="#Bf" n="18"/>hoc quod per matrimonium restringitur
+<lb ed="#Bf" n="19"/>ad unum conjugium. Pama probatur in
+<lb ed="#Bf" n="20"/>omnibus moralibus. Avaritia enim et
+<lb ed="#Bf" n="21"/>prodigalitas et sic de aliis, quae secundum
+<lb ed="#Bf" n="22"/>se sunt illicita, numquam licita 
+efficiun<lb break="no" ed="#Bf" n="23"/>tur ex hoc, quod sint circa unum. 
+Szcun<lb break="no" ed="#Bf" n="24"/>pA probatur per hoc, quod nihil 
+secun<lb break="no" ed="#Bf" n="25"/>dum se ruitin vitium et preceps, nisi
+<lb ed="#Bf" n="26"/>quod secundum se est illicitum : 
+concu<lb break="no" ed="#Bf" n="27"/>piscentia autem concubitus secundum
+<lb ed="#Bf" n="28"/>se ruit in preceps, ut sepe dicitur in 
+ver<lb break="no" ed="#Bf" n="29"/>bis Augustini in Litfera : et sic constat
+<lb ed="#Bf" n="30"/>propositum.
+</p>
+            <p xml:id="alalal-i21574-d1e291">
+               <lb ed="#Bf" n="31"/>Item, In naturis sic est, quod virtus
+<lb ed="#Bf" n="32"/>naturalis restricta ad unum, magis 
+inten<lb break="no" ed="#Bf" n="33"/>ditur in illo, sicut patet in calido, frigido,
+<lb ed="#Bf" n="34"/>et omnibus aliis : cum igitur 
+concupi<lb break="no" ed="#Bf" n="35"/>scentia agit per modum nature, videtur
+<lb ed="#Bf" n="36"/>quod nec ipsa hoc modo potest capere
+<lb ed="#Bf" n="37"/>medicinam.
+</p>
+            <p xml:id="alalal-i21574-d1e310">
+               <lb ed="#Bf" n="38"/>Sorvutio. Ad hoc autem dicendum 
+vide<lb break="no" ed="#Bf" n="39"/>tur, quod matrimonium duplex est 
+me<lb break="no" ed="#Bf" n="40"/>dicina concupiscentiae coeundi. Uno 
+mo<lb break="no" ed="#Bf" n="41"/>do ex gratia quam dat in fide mediatoris
+<lb ed="#Bf" n="42"/>contrahentibus quae sibi est gratia 
+sacra<lb break="no" ed="#Bf" n="43"/>mentalis : et hae mitigat 
+concupiscen<lb break="no" ed="#Bf" n="44"/>tiam, sicut. patet, Tob. v1, 16 et 17: <!--quote-->&gt;
+Au<lb break="no" ed="#Bf" n="45"/>dime, et ostendam tibi qui sunt, quibus
+<lb ed="#Bf" n="46"/>prevalere potest demonium. Hi namque
+<lb ed="#Bf" n="47"/>qui conjugium ita suscipiunt, ut Deum
+<lb ed="#Bf" n="48"/>a se et asua mente excludant, et sue li-
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="49"/>bidini ita vacent, sicut equus et mulus
+<lb ed="#Bf" n="50"/>quibus non est intellectus, habet 
+potesta<lb break="no" ed="#Bf" n="51"/>tem demonium super eos. Et subjungit,
+<lb ed="#Bf" n="52"/>yy. 18 et seq., quod alii timore Dei 
+acci<lb break="no" ed="#Bf" n="53"/>piunt, in quos non habet potestatem.
+<lb ed="#Bf" n="54"/>Potestas autem demonis ibi vocatur 
+po<lb break="no" ed="#Bf" n="55"/>testas in fomite quoad concupiscentiam
+<lb ed="#Bf" n="56"/>coeundi.
+</p>
+            <p xml:id="alalal-i21574-d1e358">
+               <lb ed="#Bf" n="57"/>Alio autem modo medicatur 
+restrin<lb break="no" ed="#Bf" n="58"/>gendo legibus divinis et humanis, quibus
+<lb ed="#Bf" n="59"/>excluditur turpitudo quae conjuncta est
+<lb ed="#Bf" n="60"/>concupiscentiae : et hoc modo excipitur
+<lb ed="#Bf" n="61"/>ne rual in preceps, sicut dicitur in 
+Lit<lb break="no" ed="#Bf" n="62"/>tera.
+</p>
+            <p xml:id="alalal-i21574-d1e374">
+               <lb ed="#Bf" n="63"/>Ad opsectuM ergo primum dicendum,
+<lb ed="#Bf" n="64"/>quod non ab eodem accipit intensionem
+<lb ed="#Bf" n="65"/>et medicamentum : quia matrimonium
+<lb ed="#Bf" n="66"/>per gratiam interiorem ignem fomitis
+<lb ed="#Bf" n="67"/>remittit, et per honestatem legum 
+exte<lb break="no" ed="#Bf" n="68"/>riorum divinarum et humanarum 
+turpi<lb break="no" ed="#Bf" n="69"/>tudinem tollit vitii : ita quod non manet
+<lb ed="#Bf" n="70"/>nisi pene turpitudo quae est actui 
+inse<lb break="no" ed="#Bf" n="71"/>parabiliter conjuncta. Et hoc falsum est,
+<lb ed="#Bf" n="72"/>quod per matrimonium detur facultas et
+<lb ed="#Bf" n="73"/>licentia concumbendi : licet enim hoc sit
+<lb ed="#Bf" n="74"/>in matrimonio, non tamen est ad hoc,
+<lb ed="#Bf" n="75"/>sed potius ad ea de quibus dictum est.
+</p>
+            <p xml:id="alalal-i21574-d1e405">
+               <lb ed="#Bf" n="76"/>Ad aliud dicendum, quod infirmitas
+<lb ed="#Bf" n="77"/>hee non appetit hance duplicem sui 
+restri<lb break="no" ed="#Bf" n="78"/>ctionem, sed potius licentiosum 
+concubi<lb break="no" ed="#Bf" n="79"/>tum : et ita patet, quod illa ratio non 
+pro<lb break="no" ed="#Bf" n="80"/>cedit.
+</p>
+            <p xml:id="alalal-i21574-d1e418">
+               <lb ed="#Bf" n="81"/>Ad aliud dicendum, quod 
+infirmi<lb break="no" ed="#Bf" n="82"/>tas vitil concupiscentia non manet post
+<lb ed="#Bf" n="83"/>matrimonium, sed infirmitas poene est
+<lb ed="#Bf" n="84"/>minorata duabus de causis supra 
+di<lb break="no" ed="#Bf" n="85"/>ctis.
+</p>
+            <p xml:id="alalal-i21574-d1e431">
+               <lb ed="#Bf" n="86"/>Ad aliud dicendum, quod non 
+omni<lb break="no" ed="#Bf" n="87"/>no per ccntrarium potest fieri medicina,
+<lb ed="#Bf" n="88"/>quando infirmitas radicata est in 
+mem<lb break="no" ed="#Bf" n="89"/>bris radicalibus et chronica : quia talem
+<lb ed="#Bf" n="90"/>medicinam natura sustinere non posset :
+<lb ed="#Bf" n="91"/>et sic est hic : quia concupiscentia 
+radi<lb break="no" ed="#Bf" n="92"/>cata est in natura corrupta, et ideo fit
+<lb ed="#Bf" n="93"/>per contrarium quantum potest, ut 
+sal<lb break="no" ed="#Bf" n="94"/>vetur bonum nature et gratie, ne morbi
+<lb ed="#Bf" n="95"/>violentia subvertatur.
+</p>
+            <p xml:id="alalal-i21574-d1e456">
+               <lb ed="#Bf" n="96"/>Ad aliud quod contra solutionem 
+in<lb break="no" ed="#Bf" n="97"/>ductam objicitur, dicendum quod iste
+<pb ed="#Bf" n="108"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>du rationes procedunt ac si fiat 
+restri<lb break="no" ed="#Bf" n="2"/>ctio ula tantum per diminutionem 
+mate<lb break="no" ed="#Bf" n="3"/>rie, et non per diminutionem 
+concupi<lb break="no" ed="#Bf" n="4"/>scentiae : et hoc jam ex dictis patet esse
+<lb ed="#Bf" n="5"/>falsum. Et hoc confirmatur ex hoc, quod
+<lb ed="#Bf" n="6"/>etiam ille qui equali concupiscentia 
+ar<lb break="no" ed="#Bf" n="7"/>det in conjugem et meretricem vel 
+adul<lb break="no" ed="#Bf" n="8"/>teram, adulter dicitur in sententiis Sexti
+<lb ed="#Bf" n="9"/>Pythagorici, ut infra dicet Tleronymus
+<lb ed="#Bf" n="10"/>in Littera,
+</p>
+            <p xml:id="alalal-i21574-d1e489">
+               <lb ed="#Bf" n="11"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

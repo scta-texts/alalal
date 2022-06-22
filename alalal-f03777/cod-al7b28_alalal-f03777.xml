@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="535"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f03777"><!-- l3d28a1 -->
+            <head xml:id="alalal-f03777-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-f03777-Hd1e101" type="question-title">An plures substantiae, quam Magister
+enumerat, sint diligendus ?</head>
+            <p xml:id="alalal-f03777-d1e104">
+               <lb ed="Bd" n="20"/>ARTICULUS I.
+<lb ed="Bd" n="21"/>An plures substantiae, quam Magister
+<lb ed="Bd" n="22"/>enumerat, sint diligendus ?
+</p>
+            <p xml:id="alalal-f03777-d1e113">
+               <lb ed="Bd" n="23"/>Queritur autem hic ante Litleram de
+<lb ed="Bd" n="24"/>numero diligendorum ex charitate.
+</p>
+            <p xml:id="alalal-f03777-d1e120">
+               <lb ed="Bd" n="25"/>Et quaeritur primo, Utrum plures 
+sub<lb break="no" ed="Bd" n="26"/>stantiae sint diligende, quam hie 
+deter<lb break="no" ed="Bd" n="27"/>lninatur.
+</p>
+            <p xml:id="alalal-f03777-d1e130">
+               <lb ed="Bd" n="28"/>Secundo, Utrum virtutes vel alie gra~
+<lb ed="Bd" n="29"/>tiae sint diligende ex charitate?
+</p>
+            <p xml:id="alalal-f03777-d1e137">
+               <lb ed="Bd" n="30"/>Tertio, Utrum irrationales creature
+<lb ed="Bd" n="31"/>sint de numero diligendorum ex 
+chari<lb break="no" ed="Bd" n="32"/>tate ?
+</p>
+            <p xml:id="alalal-f03777-d1e146">
+               <lb ed="Bd" n="33"/>Ad PRIMUM sic objicitur :
+<lb ed="Bd" n="34"/>1. In Litiera dicitur, quod hoc est 
+di<lb break="no" ed="Bd" n="35"/>ligendum ex charitate, quod nobiscum
+<lb ed="Bd" n="36"/>refertur ad eamdem beatitudinem 
+parti<lb break="no" ed="Bd" n="37"/>cipandam : ergo corpus proximi 
+diligen<lb break="no" ed="Bd" n="38"/>dum est ex charitate.
+</p>
+            <p xml:id="alalal-f03777-d1e162">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="39"/>2. Si autem dicas, quod pars non facit
+<lb ed="Bd" n="40"/>numerum cum toto: et ideo corpus 
+pro<lb break="no" ed="Bd" n="41"/>ximi diligetur in proximo : hoc nihil
+<lb ed="Bd" n="42"/>est: quia eadem ratione non facit 
+nume<lb break="no" ed="Bd" n="43"/>rum in teipso: tamen in te loco duorum
+<lb ed="Bd" n="44"/>diligibilium ponuntur corpus et anima.
+</p>
+            <p xml:id="alalal-f03777-d1e180">
+               <lb ed="Bd" n="45"/>3. Item, In sequenti distinctione ponit
+<lb ed="Bd" n="46"/>sex diligibilia ex charitate : ergo videtur,
+<lb ed="Bd" n="47"/>quod plura sunt, quam quatuor hic 
+po<lb break="no" ed="Bd" n="48"/>sita.
+</p>
+            <p xml:id="alalal-f03777-d1e191">
+               <lb ed="Bd" n="49"/>4. Item, in quibuscumque non est una
+<lb ed="Bd" n="50"/>ratio boni moventis charitatem, in iillis
+<lb ed="Bd" n="51"/>non est una ratio diligibilis : sed in corpore
+<lb ed="Bd" n="52"/>et anima non est una ratio boni: ergo
+<lb ed="Bd" n="53"/>non est ibi una ratio diligibilitatis : ergo
+<lb ed="Bd" n="54"/>videtur, quod aliud diligibile constituat
+<lb ed="Bd" n="55"/>corpus proximi.
+</p>
+            <p xml:id="alalal-f03777-d1e210">
+               <lb ed="Bd" n="56"/>5. Item, Videtur quod corpus 
+pro<lb break="no" ed="Bd" n="57"/>prium non sit diligendum ex charitate,
+<lb ed="Bd" n="58"/>quia dicit Dominus in Evangelio: Qui
+<lb ed="Bd" n="59"/>amat animam suam, perdet eam". Et
+<lb ed="Bd" n="60"/>Sancti odiunt corpora sua, sicut dicit
+<lb ed="Bd" n="61"/>Paulus : Castigo corpus meum, et in
+<lb ed="Bd" n="62"/>servitutem redigo. Quod autem odio
+<lb ed="Bd" n="63"/>habetur, non diligitur. Ergo corpus 
+pro<lb break="no" ed="Bd" n="64"/>prium ex charitate non est diligendum.
+</p>
+            <p xml:id="alalal-f03777-d1e232">
+               <lb ed="Bd" n="65"/>6. Item, Corruptibile est corpus: 
+cha<lb break="no" ed="Bd" n="66"/>ritas autem numquam excidet* : ergo
+<lb ed="Bd" n="67"/>charitas et corpus nen sunt 
+proportiona<lb break="no" ed="Bd" n="68"/>ha: ergo videtur, quod ex charitate 
+cor<lb break="no" ed="Bd" n="69"/>pus corruptibile non sit diligendum.
+</p>
+            <p xml:id="alalal-f03777-d1e245">
+               <lb ed="Bd" n="70"/>Solutio Dicendum, quod non sunt
+<lb ed="Bd" n="71"/>nisi quatuor ex charitate diligenda. Et ad
+<lb ed="Bd" n="72"/>hoc intelligendum adverte, quod ratio
+<lb ed="Bd" n="73"/>divisionis innuitur in Littera : bonum
+<lb ed="Bd" n="74"/>enim quod movet ad dilgendum, aut est
+<lb ed="Bd" n="75"/>beatificans: et hoc est supra nos 
+triplici<lb break="no" ed="Bd" n="76"/>ter, scilicet dignitate : et causa, quia nos
+<lb ed="Bd" n="77"/>sumus ab illo: et fine, quia nos sumus
+<lb ed="Bd" n="78"/>ad illud, et est totum nostrum bonum:
+<lb ed="Bd" n="79"/>et ideo illud habet specialem rationem
+<lb ed="Bd" n="80"/>movendi amorem nostrum. Aut est quod
+<lb ed="Bd" n="81"/>nos sumus: et illud habet duplicem 
+ra<lb break="no" ed="Bd" n="82"/>tionem movendi, scilicel secundum 
+prin<lb break="no" ed="Bd" n="83"/>cipale quod est anima: ect secundum
+<pb ed="#Bd" n="536"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>illud quod infra nos est, tamen ex 
+con<lb break="no" ed="Bd" n="2"/>junctione ad nos, specialiter movet ad
+<lb ed="Bd" n="3"/>diligendum. Aut id quod juxta nos est,
+<lb ed="Bd" n="4"/>sive sit illud anima proximi, sive corpus
+<lb ed="Bd" n="5"/>ejus, et haec non addit specialem 
+ratio<lb break="no" ed="Bd" n="6"/>nem quae nos movet ad diligendum, nisi
+<lb ed="Bd" n="7"/>quia quadam  societate nobis ut 
+beati<lb break="no" ed="Bd" n="8"/>ficabile conjungitur. Sic autem non est
+<lb ed="Bd" n="9"/>de corpore quod conjunctum est nobis
+<lb ed="Bd" n="10"/>ut inferius, non ut juxta nos societate
+<lb ed="Bd" n="11"/>conjunctum nobis. Et quia non sunt 
+plu<lb break="no" ed="Bd" n="12"/>res diversifates in genere boni ordinate
+<lb ed="Bd" n="13"/>ad beatitudinem, ideo non ponuntur nisi
+<lb ed="Bd" n="14"/>quatuor diligenda.
+</p>
+            <p xml:id="alalal-f03777-d1e313">
+               <lb ed="Bd" n="15"/>Dicendum ergo ad primum, quod 
+cor<lb break="no" ed="Bd" n="16"/>pus proximi non est diligendum nisi ut
+<lb ed="Bd" n="17"/>socielate conjunctum, sicut id quod
+<lb ed="Bd" n="18"/>juxta nos estad societatem beatitudinis
+<lb ed="Bd" n="19"/>relatum: et ideo non habet aliam extra
+<lb ed="Bd" n="20"/>quatuor rationem diligibilitatis.
+</p>
+            <p xml:id="alalal-f03777-d1e329">
+               <lb ed="Bd" n="21"/>Ad id quod contra objicitur, dicendum
+<lb ed="Bd" n="22"/>quod non est simile: guia corpus 
+no<lb break="no" ed="Bd" n="23"/>strum facil gradum diligibilium respectu
+<lb ed="Bd" n="24"/>anime nostre, scilicet sicut inferius per
+<lb ed="Bd" n="25"/>illam ad beatitudinem relatum sed
+<lb ed="Bd" n="26"/>quidquid est in proximo, habet rationem
+<lb ed="Bd" n="27"/>boni quod juxta nos est, sive in corpore,
+<lb ed="Bd" n="28"/>sive in anima aceipiatur.
+</p>
+            <p xml:id="alalal-f03777-d1e349">
+               <lb ed="Bd" n="29"/>Abd axtup dicendum, quod Ampbrosius
+<lb ed="Bd" n="30"/>non assignat rbi numerum diligendorum,
+<lb ed="Bd" n="31"/>sed potius ordinem in numeratis : et
+<lb ed="Bd" n="32"/>ideo quatuor de illis incidunt sub uno
+<lb ed="Bd" n="33"/>membro, ut infra patebit in distinctione
+<lb ed="Bd" n="34"/>sequenti.
+</p>
+            <p xml:id="alalal-f03777-d1e366">
+               <lb ed="Bd" n="35"/>Ad aliud dicendum, quod una ratio
+<lb ed="Bd" n="36"/>diligendi est in corpore et anima 
+pro<lb break="no" ed="Bd" n="37"/>xuni, si ratio in genere accipiatur, 
+scili<lb break="no" ed="Bd" n="38"/>cet bonum quod juxta nos est: quia nec
+<lb ed="Bd" n="39"/>in corpore, nec in anima proximus est
+<lb ed="Bd" n="40"/>super nos, nec sub nobis: et sic patet,
+<lb ed="Bd" n="41"/>quod non diligitur, nisi sicut id qued est
+<lb ed="Bd" n="42"/>juxta nos.
+</p>
+            <p xml:id="alalal-f03777-d1e386">
+               <lb ed="Bd" n="43"/>Ad aliud dicendum, quod hoc satis
+<lb ed="Bd" n="44"/>solvitur in Littera : quia Sancti non
+<lb ed="Bd" n="45"/>odiunt corpus, sed corporis corruptelas
+<lb ed="Bd" n="46"/>gravantes animam.
+</p>
+            <p xml:id="alalal-f03777-d1e397">
+               <lb ed="Bd" n="47"/>Ad aliud dicendum, quod hoc parum
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>valet: quia licet corrumpatur corpus,
+<lb ed="Bd" n="49"/>tamen non perit Deo, sed mutatur in
+<lb ed="Bd" n="50"/>melius, sicut dicitur, Job, xix, 26: Rap.
+<lb ed="Bd" n="51"/>sum curcumdabor pelle mea, et in carne
+<lb ed="Bd" n="52"/>mea videbo Salvatorem meum. Et in
+<lb ed="Bd" n="53"/>Collecta de mortuis, <quote xml:id="alalal-f03777-Qd1e416"> Deus cui omnia
+<lb ed="Bd" n="54"/>vivunt, et cul non pereunt moriendo
+<lb ed="Bd" n="55"/>corpora nostra, sed mutantur in 
+me<lb break="no" ed="Bd" n="56"/>lius. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

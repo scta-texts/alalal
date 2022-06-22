@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 22</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 22</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="251"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a50145"><!-- l1d8a22 -->
+            <head xml:id="alalal-a50145-Hd1e99">Articulus 22</head>
+            <head xml:id="alalal-a50145-Hd1e101" type="question-title">Utrum divina natura sit simplex, vel
+composita ex quo est et quod est ?</head>
+            <p xml:id="alalal-a50145-d1e104">
+               <lb ed="#Ba" n="28"/>ARTICULUS XXII.
+<lb ed="#Ba" n="29"/>Utrum divina natura sit simplex, vel
+<lb ed="#Ba" n="30"/>composita ex quo est et quod est ?
+</p>
+            <p xml:id="alalal-a50145-d1e113">
+               <lb ed="#Ba" n="31"/>Hic autem primo quaeritur de 
+simpli<lb break="no" ed="#Ba" n="32"/>citate divine nature, et queruntur duo.
+<lb ed="#Ba" n="33"/>Primum est, an sit simplex? Secundum
+<lb ed="#Ba" n="34"/>est de modis compositionum, quos 
+Ma<lb break="no" ed="#Ba" n="35"/>gister hic ponit. Tertium, quare non 
+po<lb break="no" ed="#Ba" n="36"/>nit plures ?
+</p>
+            <p xml:id="alalal-a50145-d1e129">
+               <lb ed="#Ba" n="37"/>Ap primum objicitur sic :
+<lb ed="#Ba" n="38"/>4. Omne quod est ab alio habet quod
+<lb ed="#Ba" n="39"/>sit, et alio habet quod hoc sit : Deus
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="40"/>est : aut ergo est ipsum esse secundum
+<lb ed="#Ba" n="41"/>quod esse, aut est hoc aliquid. Si primo
+<lb ed="#Ba" n="42"/>modo, tunc ipse est intentio entis que
+<lb ed="#Ba" n="43"/>convenit omnibus, quod frivolum est :
+<lb ed="#Ba" n="44"/>quia tunc esset ens quod est in omni
+<lb ed="#Ba" n="45"/>particulari, et generali, et speciali 
+diffe<lb break="no" ed="#Ba" n="46"/>rentia entis, quod frivolum est. Ergo 
+ip<lb break="no" ed="#Ba" n="47"/>se est hoc aliquid : ab alio ergo habet
+<lb ed="#Ba" n="48"/>esse, et ab alio quod hoc sit: ergo est
+<lb ed="#Ba" n="49"/>compositus. Et videtur, quod haecratio
+<lb ed="#Ba" n="50"/>cogat secundum nostrum intellectum,
+<lb ed="#Ba" n="51"/>omne quod hoc aliquid est esse 
+compo<lb break="no" ed="#Ba" n="52"/>situm.
+</p>
+            <p xml:id="alalal-a50145-d1e169">
+               <lb ed="#Ba" n="53"/>2. Prweterca, Deus est ens, et est 
+pri<lb break="no" ed="#Ba" n="54"/>mum ens, et Deus est : aut ergo eodem
+<lb ed="#Ba" n="55"/>est omnia hec, aut diverso. Si eodem:
+<lb ed="#Ba" n="56"/>ergo eo est ens quo est primum, et e
+<lb ed="#Ba" n="57"/>converso : ergo cui convenit ens, 
+conve<lb break="no" ed="#Ba" n="58"/>oit etiam primum esse, quod falsum
+<lb ed="#Ba" n="59"/>est : ergo non eodem habet esse : ergo
+<lb ed="#Ba" n="60"/>ab alio : et ita erit compositus.
+</p>
+            <p xml:id="alalal-a50145-d1e189">
+               <lb ed="#Ba" n="61"/>Sed Contra:
+<lb ed="#Ba" n="62"/>1. Detur quod alio est ens, et alio hoc
+<lb ed="#Ba" n="63"/>ens : ergo est compositus : sed ante
+<lb ed="#Ba" n="64"/>omne compositum sunt sua componentia
+<lb ed="#Ba" n="65"/>per naturam : ergo Deus non est 
+pri<lb break="no" ed="#Ba" n="66"/>mum,
+</p>
+            <p xml:id="alalal-a50145-d1e205">
+               <lb ed="#Ba" n="67"/>2. Item, Cum omne compositum
+<lb ed="#Ba" n="68"/>principia sui esse habeat sua 
+compo<lb break="no" ed="#Ba" n="69"/>nentia, sequitur quod Deus non sit 
+uni<lb break="no" ed="#Ba" n="70"/>versitatis principtum.
+</p>
+            <p xml:id="alalal-a50145-d1e216">
+               <lb ed="#Ba" n="71"/>3. Item, Cum omne compositum non
+<lb ed="#Ba" n="72"/>per se sit necesse, sed per sua 
+compo<lb break="no" ed="#Ba" n="73"/>nentia, sequitur quod Deus non sit ens
+<lb ed="#Ba" n="74"/>necesse, et quod non sit ipsum necesse
+<lb ed="#Ba" n="75"/>esse per se.
+</p>
+            <p xml:id="alalal-a50145-d1e229">
+               <lb ed="#Ba" n="76"/>4. Item, Cum omne compositum 
+se<lb break="no" ed="#Ba" n="77"/>cundum sua componentia sit in potentia :
+<lb ed="#Ba" n="78"/>sequitur ex hoc, quod Deus sit ens in
+<lb ed="#Ba" n="79"/>potentia aliquo modo. quae omnia quia
+<lb ed="#Ba" n="80"/>absurdissima sunt, oportet dicere, quod
+<lb ed="#Ba" n="81"/>Deus sit ens simplex in fine simplicitatis.
+</p>
+            <p xml:id="alalal-a50145-d1e245">
+               <lb ed="#Ba" n="82"/>Solutio, Concedendum est Deum esse
+<lb ed="#Ba" n="83"/>simplicem.
+</p>
+            <p xml:id="alalal-a50145-d1e253">
+               <lb ed="#Ba" n="84"/>Ad hoc autem quod objicitur, quod
+<lb ed="#Ba" n="85"/>omne quod est ab alio habeat esse, et ab
+<lb ed="#Ba" n="86"/>alio quod hoc est, dicendum, quod illa
+<lb ed="#Ba" n="87"/>propositio est Boetii et Avicenne in V
+<pb ed="#Ba" n="252"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>primae Philosophiae : et intelligitur sicut
+<lb ed="#Ba" n="2"/>ipsimet se glossant de entibus post 
+pri<lb break="no" ed="#Ba" n="3"/>mum, quae sunt creatura, et secunda
+<lb ed="#Ba" n="4"/>entia: Deus enim ab eadem re habet
+<lb ed="#Ba" n="5"/>quod est, et quod hoc est sive Deus: et
+<lb ed="#Ba" n="6"/>hoe convenit propter indifferentiam ejus
+<lb ed="#Ba" n="7"/>quod est cum essentia sive cum esse
+<lb ed="#Ba" n="8"/>ipsius : nisi enim poneremus ipsum esse
+<lb ed="#Ba" n="9"/>hoc ens, nihil posset negari de ipso, sicut
+<lb ed="#Ba" n="10"/>nec de ente secundum quod est: unde
+<lb ed="#Ba" n="11"/>negatio aliorum de ipso consequitur eum,
+<lb ed="#Ba" n="12"/>quia est hoc ens: simplicitas autem 
+con<lb break="no" ed="#Ba" n="13"/>sequitur eum, quia hoc ens non _ ponit
+<lb ed="#Ba" n="14"/>numerum et differentiam cum esse 
+abso<lb break="no" ed="#Ba" n="15"/>Into in ipso.
+</p>
+            <p xml:id="alalal-a50145-d1e301">
+               <lb ed="#Ba" n="16"/>Ad aliud dicendum, quod cum 
+di<lb break="no" ed="#Ba" n="17"/>citur primum et Deus: omnia haec 
+di<lb break="no" ed="#Ba" n="18"/>cunt suam essentiam nihil addendo 
+se<lb break="no" ed="#Ba" n="19"/>cundum rem, sed tantum secundum 
+mo<lb break="no" ed="#Ba" n="20"/>dum significandi, ut sepius dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

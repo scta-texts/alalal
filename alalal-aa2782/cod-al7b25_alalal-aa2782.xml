@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="17"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-aa2782"><!-- l1d1a3 -->
+            <head xml:id="alalal-aa2782-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-aa2782-Hd1e101" type="question-title">An Theologia sit una scientia, vel
+plures ?</head>
+            <p xml:id="alalal-aa2782-d1e104">
+               <lb ed="#Ba" n="24"/>ARTICULUS III.
+<lb ed="#Ba" n="25"/>An Theologia sit una scientia, vel
+<lb ed="#Ba" n="26"/>plures ?
+</p>
+            <p xml:id="alalal-aa2782-d1e113">
+               <lb ed="#Ba" n="27"/>Secundo quaeritur, Utrum ipsa sit
+<lb ed="#Ba" n="28"/>scientia una? Et videtur, quod non:
+<lb ed="#Ba" n="29"/>quia
+</p>
+            <p xml:id="alalal-aa2782-d1e122">
+               <lb ed="#Ba" n="30"/>1. Dicit Philosophus, quod scientia est
+<lb ed="#Ba" n="31"/>una, quae est unius generis subjecti ‘ :
+<lb ed="#Ba" n="32"/>sed res et signa non sunt unius generis
+<lb ed="#Ba" n="33"/>subjecti : ergo non est de eis scientia
+<lb ed="#Ba" n="34"/>una.
+</p>
+            <p xml:id="alalal-aa2782-d1e136">
+               <lb ed="#Ba" n="35"/>2. Item, Agitur in hae scientia de vita
+<lb ed="#Ba" n="36"/>Patriarcharum, de statu Angelorum, de
+<lb ed="#Ba" n="37"/>creatione universitatis rerum, et de 
+mo<lb break="no" ed="#Ba" n="38"/>ralibus, et de divinis, quae a Philosophis
+<lb ed="#Ba" n="39"/>in diversis scientiis tractantur : ergo 
+vi<lb break="no" ed="#Ba" n="40"/>detur, quod haec scientia non sit scientia
+<lb ed="#Ba" n="41"/>una.
+</p>
+            <p xml:id="alalal-aa2782-d1e154">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="42"/>3. Praeterea, Dicit Philosophus, quod
+<lb ed="#Ba" n="43"/>est scientia una, quae speculatur ens in
+<lb ed="#Ba" n="44"/>quantum ens, et ea quae sunt entis in
+<lb ed="#Ba" n="45"/>quantum ens est: et haec non est una
+<lb ed="#Ba" n="46"/>scientiarum particuliarum, sed est 
+scien<lb break="no" ed="#Ba" n="47"/>tia universalis : igitur cum res et ens
+<lb ed="#Ba" n="48"/>convertantur, scientia considerans res
+<lb ed="#Ba" n="49"/>in quantum res, et ea quae sunt rei,
+<lb ed="#Ba" n="50"/>non erit una scientia particularis, sed
+<lb ed="#Ba" n="51"/>universalis. Inde sic : Scientia 
+univer<lb break="no" ed="#Ba" n="52"/>salis licet non unialur genere uno, unilur
+<lb ed="#Ba" n="53"/>tamen proportione ad unum, sicut prima
+<lb ed="#Ba" n="54"/>Philosophia quae considerat partes entis,
+<lb ed="#Ba" n="55"/>secundum quod per analogiam 
+respi<lb break="no" ed="#Ba" n="56"/>ciunt substantiam : ergo videtur quod
+<lb ed="#Ba" n="57"/>sic debeat facere ista scientia : sed patet
+<lb ed="#Ba" n="58"/>quod sic ad unum non possunt reduci
+<lb ed="#Ba" n="59"/>que queruntur et tractantur in ea: 
+er<lb break="no" ed="#Ba" n="60"/>go videtur, quod nec genere, nec 
+pro<lb break="no" ed="#Ba" n="61"/>portione sit una : ita nullo modo una
+<lb ed="#Ba" n="62"/>est.
+</p>
+            <p xml:id="alalal-aa2782-d1e204">
+               <lb ed="#Ba" n="63"/>Solutio. Dicendum est, quod hac
+<lb ed="#Ba" n="64"/>scientia una est proportione non ad
+<lb ed="#Ba" n="65"/>unum quod subjectum sit aliorum, sicut
+<lb ed="#Ba" n="66"/>substantia subjectum est accidentium :
+<lb ed="#Ba" n="67"/>sed proportione ad unum quod est finis
+<lb ed="#Ba" n="68"/>beatificans : quia sic beatificabile 
+consi<lb break="no" ed="#Ba" n="69"/>derabitur ut participans illud, et 
+disposi<lb break="no" ed="#Ba" n="70"/>tiones beatificantes ut removentes a
+<lb ed="#Ba" n="71"/>contrario : et res hujus mundi ut 
+adju<lb break="no" ed="#Ba" n="72"/>vantes et adminiculantes : ut plane patet
+<lb ed="#Ba" n="73"/>in Litéera ex auctoritatibus Augustini.
+</p>
+            <p xml:id="alalal-aa2782-d1e230">
+               <lb ed="#Ba" n="74"/>Ap primum dicendum, quod licet 
+tra<lb break="no" ed="#Ba" n="75"/>ctata in hac scientia non sint unum 
+sup<lb break="no" ed="#Ba" n="76"/>posito et subjecto, sunttamen unum in
+<lb ed="#Ba" n="77"/>ratione proportionis dicta.
+</p>
+            <p xml:id="alalal-aa2782-d1e241">
+               <lb ed="#Ba" n="78"/>Ap aLiup dicendum, quod res create
+<lb ed="#Ba" n="79"/>in mundo, et vita Patriarcharum, et
+<lb ed="#Ba" n="80"/>hujusmodi, non considerantur in hac
+<lb ed="#Ba" n="81"/>scientia secundum se, sed secundum 
+ra<lb break="no" ed="#Ba" n="82"/>tionem determinatam : si enim 
+consi<lb break="no" ed="#Ba" n="83"/>deraret haec scientia elementa mundi et
+<lb ed="#Ba" n="84"/>elementata, deberet inquirere de principiis
+<lb ed="#Ba" n="85"/>actionum et passionum ipsorum, et 
+ca<lb break="no" ed="#Ba" n="86"/>teras proprietates quae inquiruntur in
+<lb ed="#Ba" n="87"/>naturali Philosophia, Sed aecipil ea prout
+<pb ed="#Ba" n="18"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>in usum veniunt ejus qui ad 
+beatitudi<lb break="no" ed="#Ba" n="2"/>nem progreditur : in usum, dico, 
+secun<lb break="no" ed="#Ba" n="3"/>dum intellectum meum im cogitando per
+<lb ed="#Ba" n="4"/>ipsa Creatorem, vel secundum opus in
+<lb ed="#Ba" n="5"/>adjuvando ad beatitudinem, secundum
+<lb ed="#Ba" n="6"/>quod dicilur in Cantic. n, 6: Leva ejus
+<lb ed="#Ba" n="7"/>sub capite meo, etc. Similiter actus 
+Pa<lb break="no" ed="#Ba" n="8"/>trum accipit non ut actus particulares,
+<lb ed="#Ba" n="9"/>quia sic non est de ipsis scientia : sed ut
+<lb ed="#Ba" n="10"/>exempla quaedam quae habent vim 
+prin<lb break="no" ed="#Ba" n="11"/>ciprorum in mortbus, vel fide : scientia 
+<lb ed="#Ba" n="12"/>enim quae est ut boni fiamus, proprius
+<lb ed="#Ba" n="13"/>est ille modus qui est per exempla, eo
+<lb ed="#Ba" n="14"/>quod ipsasunt operibus magis apta quam
+<lb ed="#Ba" n="15"/>universalia : et sic patet qualiter omnes
+<lb ed="#Ba" n="16"/>actus Patrum in rationem unam utilem
+<lb ed="#Ba" n="17"/>incidunt, et hoc modo sunt de scientia ista.
+</p>
+            <p xml:id="alalal-aa2782-d1e306">
+               <lb ed="#Ba" n="18"/>Ad aliud dicendum, quod ista 
+scien<lb break="no" ed="#Ba" n="19"/>tia non est universalis universalitate 
+en<lb break="no" ed="#Ba" n="20"/>tis, vel subjecti, sicut prima 
+Philoso<lb break="no" ed="#Ba" n="21"/>phia : quia non accipit res in quantuin
+<lb ed="#Ba" n="22"/>sunt res, sed potius (sicut supra habitum
+<lb ed="#Ba" n="23"/>est ex auctoritate Augustini) ubi 
+deter<lb break="no" ed="#Ba" n="24"/>minat quid in rebus considerat tractatus
+<lb ed="#Ba" n="25"/>hujus scientiae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

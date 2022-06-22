@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="181"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a36622"><!-- l1d5a5 -->
+            <head xml:id="alalal-a36622-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-a36622-Hd1e101" type="question-title">Utrum si Filius esset genitus a divina
+essentia, Filius esset aliqua res a qua
+generaretur ?</head>
+            <p xml:id="alalal-a36622-d1e104">
+               <cb ed="#Ba" n="d"/>
+               <lb ed="#Ba" n="34"/>ARTICULUS V.
+<lb ed="#Ba" n="35"/>Utrum si Filius esset genitus a divina
+<lb ed="#Ba" n="36"/>essentia, Filius esset aliqua res a qua
+<lb ed="#Ba" n="37"/>generaretur ?
+</p>
+            <p xml:id="alalal-a36622-d1e117">
+               <lb ed="#Ba" n="38"/>Incidit dubium de ratione quam ponit
+<lb ed="#Ba" n="39"/>Magister ad primum problema, dicens,
+<lb ed="#Ba" n="40"/>quod si Filius esset genitus a divina 
+es<lb break="no" ed="#Ba" n="41"/>sentia, jam esset Filius res a qua 
+gene<lb break="no" ed="#Ba" n="42"/>ratur. hoc enim ibi videtur 
+inconve<lb break="no" ed="#Ba" n="43"/>niens. Propatio. Filius est essentia, et
+<lb ed="#Ba" n="44"/>essentia est Pater: ergo Filius est res
+<lb ed="#Ba" n="45"/>que est Pater: eta Patre est Filius:
+<lb ed="#Ba" n="46"/>ergo Filius est res a qua ipse est Filius.
+</p>
+            <p xml:id="alalal-a36622-d1e139">
+               <lb ed="#Ba" n="47"/>Solutio. Prima est falsa simpliciter,
+<lb ed="#Ba" n="48"/>sicut dicit Magister, scilicet, Filius est res
+<lb ed="#Ba" n="49"/>a qua generatur. Et cum dicitur, Filius
+<lb ed="#Ba" n="50"/>est essentia, vera estista: et similiter illa,
+<lb ed="#Ba" n="51"/>Essentia est Pater: sed cum ulterius 
+in<lb break="no" ed="#Ba" n="52"/>fertur: ergo Filius est res quae est Pater,
+<lb ed="#Ba" n="53"/>duplex est locutio ex aequivocatione
+<lb ed="#Ba" n="54"/>hujus termini, ves : quia si essentiale,
+<lb ed="#Ba" n="55"/>vera est: si personale, falsa: et in hoc:
+<lb ed="#Ba" n="56"/>sensu sequitur conclusio, ergo Filius est
+<lb ed="#Ba" n="57"/>res a qua ipse est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

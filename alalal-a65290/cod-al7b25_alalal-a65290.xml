@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="327"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a65290"><!-- l1d10a8 -->
+            <head xml:id="alalal-a65290-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-a65290-Hd1e101" type="question-title">Utrum Spiritus sanctus sit unitas 
+Patris et Filii, et qualiter sanctitas
+utriusque ?</head>
+            <p xml:id="alalal-a65290-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="5"/>ARTICULUS VIII.
+<lb ed="#Ba" n="6"/>Utrum Spiritus sanctus sit unitas 
+Pa<lb break="no" ed="#Ba" n="7"/>tris et Filii, et qualiter sanctitas
+<lb ed="#Ba" n="8"/>utriusque ?
+</p>
+            <p xml:id="alalal-a65290-d1e117">
+               <lb ed="#Ba" n="9"/>Deinde quaeritur de hoc quod dicit:
+<lb ed="#Ba" n="10"/>
+               <quote xml:id="alalal-a65290-Qd1e123"> Sive enim sit unilas amborum, sive
+<lb ed="#Ba" n="11"/>sanctitas, sive charitas, etc. </quote> ;
+</p>
+            <p xml:id="alalal-a65290-d1e129">
+               <lb ed="#Ba" n="12"/>Aut enim intelligitur de unitate 
+es<lb break="no" ed="#Ba" n="13"/>sentia, aut persone. Gonstat, quod non
+<lb ed="#Ba" n="14"/>essentia : quia licet Spiritus sanctus sit
+<lb ed="#Ba" n="15"/>essentia, tamen ipse non est aliquis 
+duo<lb break="no" ed="#Ba" n="16"/>rum, ut hic dicit Augustinus: sed unitas
+<lb ed="#Ba" n="17"/>essentiae est uterque eorum. Si autem
+<lb ed="#Ba" n="18"/>unitas persone. Contra: Pater et Filius
+<lb ed="#Ba" n="19"/>non sunt una persona: ergo Spiritus 
+san<lb break="no" ed="#Ba" n="20"/>ctus non est unitas persone eorum.
+</p>
+            <p xml:id="alalal-a65290-d1e152">
+               <lb ed="#Ba" n="21"/>Si forte dicatur, quod est unitas 
+no<lb break="no" ed="#Ba" n="22"/>tionis. Contra: Ila notio non erit nisi
+<lb ed="#Ba" n="23"/>communis spiratio activa : Spiritus autem
+<lb ed="#Ba" n="24"/>sanctus non est notio illa: ergo videtur,
+<lb ed="#Ba" n="25"/>quod nullo modo sit unitas Patris et
+<lb ed="#Ba" n="26"/>Filii.
+</p>
+            <p xml:id="alalal-a65290-d1e168">
+               <lb ed="#Ba" n="27"/>Uxrerius quaeritur, Qualiter dicitur
+<lb ed="#Ba" n="28"/>sanctitas duorum ? Qualiter enim sit cha-~
+<lb ed="#Ba" n="29"/>rifas, jam habitum est.
+</p>
+            <p xml:id="alalal-a65290-d1e177">
+               <lb ed="#Ba" n="30"/>Solutio. Unitas est personalis, que
+<lb ed="#Ba" n="31"/>persona est Spiritus sanctus, non ut 
+Spi<lb break="no" ed="#Ba" n="32"/>ritus sanctus, sed ut amor: et 
+intelliga<lb break="no" ed="#Ba" n="33"/>tur unitas quasi forme gquoad hune
+<lb ed="#Ba" n="34"/>actum qui estin quocumque modo 
+vi<lb break="no" ed="#Ba" n="35"/>vere unione consensus et amoris, que
+<lb ed="#Ba" n="36"/>unio procedit ab unitis, et neuter 
+unito<lb break="no" ed="#Ba" n="37"/>rum est, sicul duo lapides quandoque
+<lb ed="#Ba" n="38"/>uniuntur aliquo humore ex utroque 
+egre<lb break="no" ed="#Ba" n="39"/>diente : licet illud exemplum tante rei
+<cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="40"/>non competat. Unde etiam sicut in 
+phy<lb break="no" ed="#Ba" n="41"/>sicis non sequitur, quod omne quod habet
+<lb ed="#Ba" n="42"/>actum unius faciat simpliciter unum, et
+<lb ed="#Ba" n="43"/>omne quod habet actum forme sit 
+simpli<lb break="no" ed="#Ba" n="44"/>citer forma ejus in quo est: itavidetur mihi
+<lb ed="#Ba" n="45"/>vere dicendum de Spiritu sancto 
+proutsi<lb break="no" ed="#Ba" n="46"/>gnificatur amore personali : ipse enim est
+<lb ed="#Ba" n="47"/>unitas Patris et Filii, non quod sit 
+indis<lb break="no" ed="#Ba" n="48"/>tinctus et unus cum Patre et Filio 
+perso<lb break="no" ed="#Ba" n="49"/>naliter: sed quia est uniens eos in hoe
+<lb ed="#Ba" n="50"/>quod persone distinctae sunt, in consensu
+<lb ed="#Ba" n="51"/>amoris: et sic etiam cum dicitur, Pater
+<lb ed="#Ba" n="52"/>et Filius diligunt se Spiritu sancto, habet
+<lb ed="#Ba" n="53"/>actum cujusdam forma: sicut amicitia
+<lb ed="#Ba" n="54"/>vel amor est forma: non tamen ita quod
+<lb ed="#Ba" n="55"/>ipse disponat Patrem et Filium sicut
+<lb ed="#Ba" n="56"/>forma formatum, sed quia unit, et unire
+<lb ed="#Ba" n="57"/>actus forme est: et sic patet, quod non
+<lb ed="#Ba" n="58"/>sequitur, quod Pater et Filius efficiantur
+<lb ed="#Ba" n="59"/>una persona in ipso: sed sequitur quod
+<lb ed="#Ba" n="60"/>concordant, et ipse est concordia eorum.
+</p>
+            <p xml:id="alalal-a65290-d1e249">
+               <lb ed="#Ba" n="61"/>Ad hoc quod quaeritur, Qualiter 
+dica<lb break="no" ed="#Ba" n="62"/>tur sanctitas ? Dicendum quod. hoc habet
+<lb ed="#Ba" n="63"/>secundum aliud nomen suum quod est
+<lb ed="#Ba" n="64"/>spiritus: quia spiritus est liber a 
+mate<lb break="no" ed="#Ba" n="65"/>rialibus immundantibus et 
+obscuranti<lb break="no" ed="#Ba" n="66"/>bus: et ideo ipse qui spiritus aliorum
+<lb ed="#Ba" n="67"/>est per appropriationem, dicitur puritas
+<lb ed="#Ba" n="68"/>amborum et sanctitas.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

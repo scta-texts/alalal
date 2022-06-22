@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="265"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d49013"><!-- l2d14a6 -->
+            <head xml:id="alalal-d49013-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-d49013-Hd1e101" type="question-title">Utrum coelum moveatur? et, An sit
+idem principium motus coeli secundum
+Philosophos et Theologos ?</head>
+            <p xml:id="alalal-d49013-d1e104">
+               <lb ed="#Bc" n="30"/>ARTICULUS VI.
+<lb ed="#Bc" n="31"/>Utrum coelum moveatur? et, An sit
+<lb ed="#Bc" n="32"/>idem principium motus coeli secundum
+<lb ed="#Bc" n="33"/>Philosophos et Theologos ?
+</p>
+            <p xml:id="alalal-d49013-d1e115">
+               <lb ed="#Bc" n="34"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="35"/>ibi, § 2: <quote xml:id="alalal-d49013-Qd1e121"> Solet etiam queri, Si stet,
+<lb ed="#Bc" n="36"/>an moveatur coelum ? etc. </quote>
+            </p>
+            <p xml:id="alalal-d49013-d1e127">
+               <lb ed="#Bc" n="37"/>De hoc quod hic dicit, disputari hic
+<lb ed="#Bc" n="38"/>non est opus. Sed est notandum, quod.
+<lb ed="#Bc" n="39"/>secundum Aristotelem, nullum corpus
+<lb ed="#Bc" n="40"/>movetur in loco suo, cujus motor non
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="41"/>sit substantia spiritualis : ignis enim
+<lb ed="#Bc" n="42"/>movetur ad locum, et alia elementa a
+<lb ed="#Bc" n="43"/>generantibus ipsa per se, et in locis suis
+<lb ed="#Bc" n="44"/>quiescunt : ccoelum autem movetur in 
+lo<lb break="no" ed="#Bc" n="45"/>co suo : ergo motor ejus est substantia
+<lb ed="#Bc" n="46"/>spiritualis.
+</p>
+            <p xml:id="alalal-d49013-d1e154">
+               <lb ed="#Bc" n="47"/>Item, Objicit <name xml:id="alalal-d49013-Nd1e158">Avicenna</name>, quod nihil 
+se<lb break="no" ed="#Bc" n="48"/>cundum naturam movetur nisi in 
+ali<lb break="no" ed="#Bc" n="49"/>quem situm, et ex illo motu uno 
+nume<lb break="no" ed="#Bc" n="50"/>ro ; et veritas habetur per 
+inductio<lb break="no" ed="#Bc" n="51"/>nem : stelle autem moventur ad 
+quem<lb break="no" ed="#Bc" n="52"/>cumque situm, et ex illo motu uno 
+nu<lb break="no" ed="#Bc" n="53"/>mero : ergo non moventur a motore
+<lb ed="#Bc" n="54"/>qui est natura sola : sed a motore qui
+<lb ed="#Bc" n="55"/>est substantia spiritualis. Et hoc videtur
+<lb ed="#Bc" n="56"/>velle Hieronymus in Glossa super 
+Prin<lb break="no" ed="#Bc" n="57"/>cipium Ecclesiaste, super illud, 
+Lu<lb break="no" ed="#Bc" n="58"/>strans universa per circuitum pergit 
+spi<lb break="no" ed="#Bc" n="59"/>ritus. <quote xml:id="alalal-d49013-Qd1e186">Ipsum solem, inquit, spiritum
+<lb ed="#Bc" n="60"/>nominavit, quod animet, et spiret, et
+<lb ed="#Bc" n="61"/>videat, et annuos orbes cursu suo 
+ex<lb break="no" ed="#Bc" n="62"/>pleat. </quote>
+            </p>
+            <p xml:id="alalal-d49013-d1e196">
+               <lb ed="#Bc" n="63"/>Item, Objectio Aristotelis est ad hoc:
+<lb ed="#Bc" n="64"/>quia omnis motor movens corpus 
+diver<lb break="no" ed="#Bc" n="65"/>sificatum per virtutes ordinatas ad 
+in<lb break="no" ed="#Bc" n="66"/>ceptionem motus localis in loco uno 
+po<lb break="no" ed="#Bc" n="67"/>tius quam in alio, est substantia 
+spiri<lb break="no" ed="#Bc" n="68"/>tualis : motor autem cceli movet corpus
+<lb ed="#Bc" n="69"/>dispositum dextra et sinistra, quae sunt
+<lb ed="#Bc" n="70"/>virtutes disponentes ad inceptionem 
+mo<lb break="no" ed="#Bc" n="71"/>tus et regirationem. Et ideo omnes 
+Phi<lb break="no" ed="#Bc" n="72"/>losophi Arabuia dixerunt et probaverunt
+<lb ed="#Bc" n="73"/>multipliciter, quod ccoelum movetur ab
+<lb ed="#Bc" n="74"/>anima conjuncta sibi: et hoc dicit 
+Ari<lb break="no" ed="#Bc" n="75"/>stoteles, et <name xml:id="alalal-d49013-Nd1e226">Avicenna</name>, et <name xml:id="alalal-d49013-Nd1e228">Averroes</name>, et <name xml:id="alalal-d49013-Nd1e230">
+Al<lb break="no" ed="#Bc" n="76"/>gazel</name>, et <name xml:id="alalal-d49013-Nd1e235">Alpharabius</name>, et <name xml:id="alalal-d49013-Nd1e238">Maurus 
+Albu<lb break="no" ed="#Bc" n="77"/>masar</name>, et <name xml:id="alalal-d49013-Nd1e243">Rabbi Moyses</name>, et quod habet
+<lb ed="#Bc" n="78"/>motorem triplicem, scilicet causam 
+pri<lb break="no" ed="#Bc" n="79"/>mam quae est desideratum prime 
+intel<lb break="no" ed="#Bc" n="80"/>ligentiae quae est plena formis 
+explicabi<lb break="no" ed="#Bc" n="81"/>libus per motum sui orbis: sed quia
+<lb ed="#Bc" n="82"/>intelligentia simplex est, ideo non potest
+<lb ed="#Bc" n="83"/>intendere motum particularem in hoc et
+<lb ed="#Bc" n="84"/>illo situ, et ideo tertius motor 
+conjun<lb break="no" ed="#Bc" n="85"/>ctus ccelo est anima secundum ipsos, et
+<lb ed="#Bc" n="86"/>natura cceli est dispositio ad motum :
+<lb ed="#Bc" n="87"/>quia naturaliter circulariter fertur, et in
+<lb ed="#Bc" n="88"/>in circuitu pergit spiritus,
+<pb ed="#Bc" n="266"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>compositione non est contrarietas : et
+<lb ed="#Bc" n="2"/>ideo motus ille est sine labore et poena,
+<lb ed="#Bc" n="3"/>ut dicunt, et non inducit lassitudinem ut
+<lb ed="#Bc" n="4"/>motus anime quo movet corpus 
+no<lb break="no" ed="#Bc" n="5"/>strum. In hoc ergo concordant omnes, et
+<lb ed="#Bc" n="6"/>quod virtus primi motoris est in 
+omni<lb break="no" ed="#Bc" n="7"/>bus inferioribus, et secundi in inferiori-.
+<lb ed="#Bc" n="8"/>bus sibi, et sic descensio. Quod autem
+<lb ed="#Bc" n="9"/>hoc totum sit error maledictus, patet
+<lb ed="#Bc" n="10"/>per Damascenum sic dicentem : <quote xml:id="alalal-d49013-Qd1e295"> Nullus
+<lb ed="#Bc" n="11"/>autem multos ccelos vel luminaria 
+exi<lb break="no" ed="#Bc" n="12"/>stimet : inanimati enim sunt et 
+insensi<lb break="no" ed="#Bc" n="13"/>biles. </quote> Et ideo verius dicendum puto,
+<lb ed="#Bc" n="14"/>quod non moventur nisi jussu divino, et
+<lb ed="#Bc" n="15"/>voluntate : et quod rationes supra dicte
+<lb ed="#Bc" n="16"/>non probant, nisi quod non moveantur
+<lb ed="#Bc" n="17"/>a natura gue sit forma corporis 
+mo<lb break="no" ed="#Bc" n="18"/>vens : et hoc dicunt etiam alii 
+Philoso<lb break="no" ed="#Bc" n="19"/>phi sicut Astronomi, et <name xml:id="alalal-d49013-Nd1e317">Ptolemeus</name>, et
+<lb ed="#Bc" n="20"/>
+               <name xml:id="alalal-d49013-Nd1e321">Albategni</name>, et <name xml:id="alalal-d49013-Nd1e323">Albumasar</name>, et <name xml:id="alalal-d49013-Nd1e326">Geber</name>, et
+<lb ed="#Bc" n="21"/>alii quamplures.
+</p>
+            <p xml:id="alalal-d49013-d1e331">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="22"/>Ap picrum ergo <name xml:id="alalal-d49013-Nd1e337">Hieronymi</name> dicendum,
+<lb ed="#Bc" n="23"/>quod ipse sumit hoc ex opinionibus Ph;
+<lb ed="#Bc" n="24"/>losophorum. Augustinus autem super
+<lb ed="#Bc" n="25"/>Genesim hanc questionem tangit, et jp.
+<lb ed="#Bc" n="26"/>discussam relinquit. Alibi etiam disputa,
+<lb ed="#Bc" n="27"/>tum est de ista Materia multum et pros
+<lb ed="#Bc" n="28"/>lixe : et ibi secuti sumus dicta quo.
+<lb ed="#Bc" n="29"/>rundam Magistrorum theologiz, qui vo.
+<lb ed="#Bc" n="30"/>luerunt opiniones naturalium ad theolo.~
+<lb ed="#Bc" n="31"/>giam reducere dicendo quod Angeli
+<lb ed="#Bc" n="32"/>deserviunt Deo in motibus celorun,
+<lb ed="#Bc" n="33"/>quod illi ab eis anime dicuntur : sed
+<lb ed="#Bc" n="34"/>nihil ita secure dicitur, sicut quod sola
+<lb ed="#Bc" n="35"/>Dei voluntate moveantur, et natura
+<lb ed="#Bc" n="36"/>propria non contrariante motui.
+</p>
+            <p xml:id="alalal-d49013-d1e370">
+               <lb ed="#Bc" n="37"/>De modo etiam motus quo moven.
+<lb ed="#Bc" n="38"/>tur, disceptatio est apud sapientes : sed
+<lb ed="#Bc" n="39"/>hoc infra determinabitur in ornatu 
+guar<lb break="no" ed="#Bc" n="40"/>tae diei.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="590"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e00412"><!-- l2d36a5 -->
+            <head xml:id="alalal-e00412-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-e00412-Hd1e101" type="question-title">Utrum ira, invidia, et huiusmodi, sint
+pene peccatoris ?</head>
+            <p xml:id="alalal-e00412-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="4"/>ARTICULUS V.
+<lb ed="#Bc" n="5"/>Utrum ira, invidia, et huiusmodi, sint
+<lb ed="#Bc" n="6"/>pene peccatoris ?
+</p>
+            <p xml:id="alalal-e00412-d1e115">
+               <lb ed="#Bc" n="7"/>Quinto quaeritur de quinto capitulo,
+<lb ed="#Bc" n="8"/>Utrum ira, et invidia, et hujusmodi, sint
+<lb ed="#Bc" n="9"/>pene peccatorum ?
+</p>
+            <p xml:id="alalal-e00412-d1e124">
+               <lb ed="#Bc" n="10"/>Videtur autem, quod sic: quia 
+diffi<lb break="no" ed="#Bc" n="11"/>niuntur per peenam. Ira enim est fervor
+<lb ed="#Bc" n="12"/>sanguinis circa cor ex vaporatione fellis.
+<lb ed="#Bc" n="13"/>Invidia autem, dolor in prosperitate 
+bo<lb break="no" ed="#Bc" n="14"/>norum vel promixorum. Ergo videtur,
+<lb ed="#Bc" n="15"/>quod sint passiones, et non peccata.
+</p>
+            <p xml:id="alalal-e00412-d1e141">
+               <lb ed="#Bc" n="16"/>SED CONTRA :
+<lb ed="#Bc" n="17"/>Passionibus ut passiones sunt, non 
+me<lb break="no" ed="#Bc" n="18"/>remur, nec demeremur. Siergo talia pec-
+<cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="19"/>cata passiones essentialiter sunt, ipsis non
+<lb ed="#Bc" n="20"/>meremur, nec demeremur, quod est 
+ab<lb break="no" ed="#Bc" n="21"/>surdum.
+</p>
+            <p xml:id="alalal-e00412-d1e159">
+               <lb ed="#Bc" n="22"/>Soututio. Dicendum, quod passiones
+<lb ed="#Bc" n="23"/>considerantur dupliciter, scilicet ut illate:
+<lb ed="#Bc" n="24"/>et sic non sunt principium merendi. Con.
+<lb ed="#Bc" n="25"/>siderantur eliam ut suscepte per 
+volunta<lb break="no" ed="#Bc" n="26"/>tem, vel causate a voluntate aliquid inor- |
+<lb ed="#Bc" n="27"/>dinate vel ordinate amante: et sic sunt
+<lb ed="#Bc" n="28"/>merita et demerita : et sic estin illis 
+pec<lb break="no" ed="#Bc" n="29"/>catis quae causant poenas quae sunt in eis
+<lb ed="#Bc" n="30"/>amore inordinato proprii boni : et ideo
+<lb ed="#Bc" n="31"/>peene non sunt, in quantum sunt 
+pec<lb break="no" ed="#Bc" n="32"/>cata, nisi materialiter: sed potius sunt
+<lb ed="#Bc" n="33"/>voluntates perverse, quae quia non 
+con<lb break="no" ed="#Bc" n="34"/>sequuntur effectum, ideo puniuntur et.
+<lb ed="#Bc" n="35"/>tabescunt seipsis: ut invidia voluntas est
+<lb ed="#Bc" n="36"/>impediens alienum bonum ex amore
+<lb ed="#Bc" n="37"/>inordinato proprii : et quia non impedit,
+<lb ed="#Bc" n="38"/>tabescit, et sic de aliis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

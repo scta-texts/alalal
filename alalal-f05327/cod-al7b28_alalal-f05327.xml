@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="542"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f05327"><!-- l3d28a7 -->
+            <head xml:id="alalal-f05327-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-f05327-Hd1e101" type="question-title">An Christus in quantum homo sit 
+diligendus supra nos ?</head>
+            <p xml:id="alalal-f05327-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="36"/>ARTICULUS VII.
+<lb ed="Bd" n="37"/>An Christus in quantum homo sit 
+di<lb break="no" ed="Bd" n="38"/>ligendus supra nos ?
+</p>
+            <p xml:id="alalal-f05327-d1e115">
+               <lb ed="Bd" n="39"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="40"/>ibi, B,§ 2: <quote xml:id="alalal-f05327-Qd1e121"> Bx quo et Dominus pro.
+<lb ed="Bd" n="41"/>rimum se nostrum dict velvit, etc. </quote>
+            </p>
+            <p xml:id="alalal-f05327-d1e127">
+               <lb ed="Bd" n="42"/>Et quaeritur hic, Utrum Dominus 
+no<lb break="no" ed="Bd" n="43"/>ster Jesus Christus in quantum homo, sit
+<lb ed="Bd" n="44"/>diligendus supra nos? Et videtur, quod
+<lb ed="Bd" n="45"/>sie : quia
+</p>
+            <p xml:id="alalal-f05327-d1e139">
+               <lb ed="Bd" n="46"/>1. Caput diligendum est supra mem.
+<lb ed="Bd" n="47"/>brum : ipse autem in quantum homo, est
+<lb ed="Bd" n="48"/>caput: ergo supra nos diligendus.
+</p>
+            <p xml:id="alalal-f05327-d1e148">
+               <lb ed="Bd" n="49"/>2. Item, Ipse est noster redemptor :
+<lb ed="Bd" n="50"/>redemptor autem est supra redemplos :
+<lb ed="Bd" n="51"/>ergo est supra eos diligendus. Et aha
+<lb ed="Bd" n="52"/>multa possunt induci.
+</p>
+            <p xml:id="alalal-f05327-d1e159">
+               <lb ed="Bd" n="53"/>SED CONTRA:
+<lb ed="Bd" n="54"/>1. Natura cum gratia plus afficitur
+<lb ed="Bd" n="55"/>circa bonum proprium : ergo plus 
+dili<lb break="no" ed="Bd" n="56"/>git illud: ergo nihil quod non est totum
+<lb ed="Bd" n="57"/>bonum ejus, diligit plus quam se: 
+Chri<lb break="no" ed="Bd" n="58"/>stus aufem in quantum homo non est 
+to<lb break="no" ed="Bd" n="59"/>tum bonum ejus: ergo non diligit eum
+<lb ed="Bd" n="60"/>plus quam se.
+</p>
+            <p xml:id="alalal-f05327-d1e179">
+               <lb ed="Bd" n="61"/>2. Item, In Littera dicitur proximus:
+<lb ed="Bd" n="62"/>ergo diligendus sicut nos: ergo 
+concedi<lb break="no" ed="Bd" n="63"/>tur nobis principalitas: ergo plus 
+diligi<lb break="no" ed="Bd" n="64"/>mus nos, quam eum
+</p>
+            <p xml:id="alalal-f05327-d1e190">
+               <lb ed="Bd" n="65"/>Solutio Dicendum, quod prima est
+<lb ed="Bd" n="66"/>duplex, cum dicitur, Christus in 
+quan<lb break="no" ed="Bd" n="67"/>tum homo, etc. Ex quo ly in quantum
+<lb ed="Bd" n="68"/>potest dicere unionem persone, et sic
+<lb ed="Bd" n="69"/>supra nos est diligendus: vel 
+conditio<lb break="no" ed="Bd" n="70"/>nem nature, et hoc dupliciter, scilicet
+<lb ed="Bd" n="71"/>nature ut non unite, et tunc nec caput
+<lb ed="Bd" n="72"/>nec redemptor est: vel nature ut unite
+<lb ed="Bd" n="73"/>et sic caput et redemptor. Primo modo
+<lb ed="Bd" n="74"/>non est diligendus supra nos: secundo
+<lb ed="Bd" n="75"/>autem modo diligendus est supra nos.
+</p>
+            <p xml:id="alalal-f05327-d1e216">
+               <lb ed="Bd" n="76"/>Et sic patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

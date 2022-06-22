@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="216"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i45479"><!-- l4d30a7 -->
+            <head xml:id="alalal-i45479-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-i45479-Hd1e101" type="question-title">An suscipiens haereticum nomine 
+Catholici peccet mortaliter ?</head>
+            <p xml:id="alalal-i45479-d1e104">
+               <lb ed="#Bf" n="43"/>ARTICULUS VII.
+<lb ed="#Bf" n="44"/>An suscipiens haereticum nomine 
+Catho<lb break="no" ed="#Bf" n="45"/>lici peccet mortaliter ?
+</p>
+            <p xml:id="alalal-i45479-d1e113">
+               <lb ed="#Bf" n="46"/>Ulterius quaeritur de alio simili quod
+<lb ed="#Bf" n="47"/>tangit, ibi, A, § 2, paulo post : <quote xml:id="alalal-i45479-Qd1e119"
+                      source="http://scta.info/resource/pl-l4d30c1-d1e162@13-17">Si quis
+<lb ed="#Bf" n="48"/>haereticus nomine Augustini, etc. </quote>
+            </p>
+            <p xml:id="alalal-i45479-d1e125">
+               <lb ed="#Bf" n="49"/>Hoc enim videtur nihil valere : quia
+<lb ed="#Bf" n="50"/>ille suscipit heresim : sed qui suscipit
+<lb ed="#Bf" n="51"/>haeresim, non excusatur etiamsi per An
+<lb ed="#Bf" n="52"/>gelum suscepisset eam : ergo ipse 
+pec<lb break="no" ed="#Bf" n="53"/>cat : et sic simile nihil valet. Quod 
+au<lb break="no" ed="#Bf" n="54"/>tem minor vera sit, patet, ad Galat.1, 8 :
+<lb ed="#Bf" n="55"/>Licet nos, aut Angelus de celo 
+evangeli<lb break="no" ed="#Bf" n="56"/>set vobis praeter quam quod 
+evangeliza<lb break="no" ed="#Bf" n="57"/>vimus vobis, anathema sit.
+</p>
+            <p xml:id="alalal-i45479-d1e148">
+               <lb ed="#Bf" n="58"/>Responsio. Loquitur hic de deceptione
+<lb ed="#Bf" n="59"/>hominis, non erroris : licet enim 
+decep<lb break="no" ed="#Bf" n="60"/>tores haereticorum condemnentur, amen
+<lb ed="#Bf" n="61"/>recipiens haereticum nomine Catholici,
+<lb ed="#Bf" n="62"/>non condemnabitur. Et hoc intendit in
+<lb ed="#Bf" n="63"/>Littera. Et per hoc patet solutio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

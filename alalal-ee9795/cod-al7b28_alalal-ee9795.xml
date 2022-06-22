@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="50"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee9795"><!-- l3d3a8 -->
+            <head xml:id="alalal-ee9795-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-ee9795-Hd1e101" type="question-title">Quomodo differt sanctificatio Beate 
+Marie Virginis a sanctificatione Joannis
+et Jeremie ?</head>
+            <p xml:id="alalal-ee9795-d1e104">
+               <lb ed="Bd" n="25"/>ARTICULUS VIII.
+<lb ed="Bd" n="26"/>Quomodo differt sanctificatio Beate 
+Ma<lb break="no" ed="Bd" n="27"/>rie Virginis a sanctificatione Joannis
+<lb ed="Bd" n="28"/>et Jeremie ?
+</p>
+            <p xml:id="alalal-ee9795-d1e115">
+               <lb ed="Bd" n="29"/>Sexto, Queritur de differentia 
+sancti<lb break="no" ed="Bd" n="30"/>ficationis ejus ad sanctificationem Joannis
+<lb ed="Bd" n="31"/>et Jeremie ? Et, Quare hi magis aliis 
+san<lb break="no" ed="Bd" n="32"/>clificati leguntur ?
+</p>
+            <p xml:id="alalal-ee9795-d1e126">
+               <lb ed="Bd" n="33"/>Et videtur, quod non sit differentia :
+<lb ed="Bd" n="34"/>quia
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="35"/>1. Dicit Augustinus, quod in carne
+<lb ed="Bd" n="36"/>praeter peccatum vivere, est solius 
+Red<lb break="no" ed="Bd" n="37"/>emptoris : ergo videtur, quod praeter
+<lb ed="Bd" n="38"/>peccatum non vixit gloriosa Virgo.
+</p>
+            <p xml:id="alalal-ee9795-d1e145">
+               <lb ed="Bd" n="39"/>2. Praeterea, Jeremias et Joannes etiam
+<lb ed="Bd" n="40"/>peccaverunt. De Jeremia patet, ubi 
+dici<lb break="no" ed="Bd" n="41"/>tur: Kece tetig: labia tua 7. Tactus enim
+<lb ed="Bd" n="42"/>labioruin (ut vult Gregorius) est purgatio
+<lb ed="Bd" n="43"/>peccatorum. Similiter de Joanne, cum
+<lb ed="Bd" n="44"/>venit ad ipsum Christus ut baptizaretur
+<lb ed="Bd" n="45"/>ab eco, Malth. m, 14, dixit Joannes:
+<lb ed="Bd" n="46"/>Ego <quote xml:id="alalal-ee9795-Qd1e164">a te debeo baptisari</quote> : ibi Glossa, id
+<lb ed="Bd" n="47"/>est, a peccato mundari : ergo in peccato
+<lb ed="Bd" n="48"/>veniali omnes sanctificati fuerunt 
+simi<lb break="no" ed="Bd" n="49"/>les.
+</p>
+            <p xml:id="alalal-ee9795-d1e174">
+               <lb ed="Bd" n="50"/>Praeterea quéeritur, Quare hac gratia
+<lb ed="Bd" n="51"/>nulli Patriarcharum est data, sed uni 
+Pro<lb break="no" ed="Bd" n="52"/>phete ? et Joanni qui est terminus Legis
+<lb ed="Bd" n="53"/>et Prophetarum, et Beatw Virgini?
+</p>
+            <p xml:id="alalal-ee9795-d1e185">
+               <lb ed="Bd" n="54"/>3. Preterca, Videtur cnim, quod Job
+<lb ed="Bd" n="55"/>fuerat sanctificatus in utero, et tamen
+<lb ed="Bd" n="56"/>virgo non fuit: quia diet : Ab infantia
+<lb ed="Bd" n="57"/>mea crevit mecum miseratio, et de utero
+<lb ed="Bd" n="58"/>matris mee egressa esl mecum®, Qui 
+au<lb break="no" ed="Bd" n="59"/>tem habet unam virtutem, habet omnes:
+<lb ed="Bd" n="60"/>ergo omnes habuil, et sic in utero 
+san<lb break="no" ed="Bd" n="61"/>ctificatus fuit.
+</p>
+            <p xml:id="alalal-ee9795-d1e205">
+               <lb ed="Bd" n="62"/>4. Preterca, Malach. 1, 2: Delexi 
+Ja<lb break="no" ed="Bd" n="63"/>cob: ergo etiam Jacob videtur esse 
+san<lb break="no" ed="Bd" n="64"/>ctilicatus.
+</p>
+            <p xml:id="alalal-ee9795-d1e214">
+               <lb ed="Bd" n="65"/>3. Preterca, De Jeremia dicitur 
+simi<lb break="no" ed="Bd" n="66"/>liter : Antequam exires de vulva, 
+sancti<lb break="no" ed="Bd" n="67"/>ficavi te. De Joanne : Sprrite sancto 
+re<lb break="no" ed="Bd" n="68"/>plebitur adhue ex utero matris suae  ;
+<lb ed="Bd" n="69"/>ergo de matre Domini plus aliquid debet
+<lb ed="Bd" n="70"/>intelligi, elsi non dicatur.
+</p>
+            <p xml:id="alalal-ee9795-d1e230">
+               <lb ed="Bd" n="71"/>6. Preterca, Augustinus dicit, quod
+<lb ed="Bd" n="72"/>omnes apparitiones facta Patribus 
+ordi<lb break="no" ed="Bd" n="73"/>nabantur ad unam qua Christus in carne
+<lb ed="Bd" n="74"/>apparuit . et omnia miracula ad unum
+<lb ed="Bd" n="75"/>quo divinitas humane nature sociata
+<pb ed="#Bd" n="51"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>fuit : ergo videtur, quod omnis 
+sanctifi<lb break="no" ed="Bd" n="2"/>catio in utero facta, ad sanctitatem in
+<lb ed="Bd" n="3"/>utero de qua dictum est : Quod nascetur
+<lb ed="Bd" n="4"/>ex te sancitum', non sanctificatum, 
+or<lb break="no" ed="Bd" n="5"/>dinari debuit. Cum ergo Isaias hoc 
+lu<lb break="no" ed="Bd" n="6"/>cidissime predixit?, etiam sanctificatus
+<lb ed="Bd" n="7"/>in utero fuisse debuit.
+</p>
+            <p xml:id="alalal-ee9795-d1e264">
+               <lb ed="Bd" n="8"/>Solutio Dicendum, quod Beata Virgo
+<lb ed="Bd" n="9"/>numquam peccavit : et hoc hic expresse
+<lb ed="Bd" n="10"/>habetur in Litera.
+</p>
+            <p xml:id="alalal-ee9795-d1e273">
+               <lb ed="Bd" n="11"/>Ad objectum contra, dicendum quod
+<lb ed="Bd" n="12"/>in carne vivere sinc peccato contracto et
+<lb ed="Bd" n="13"/>facto solius Filii Dei est : sed Beata 
+Vir<lb break="no" ed="Bd" n="14"/>go contraxit peccatum prius, et postea
+<lb ed="Bd" n="15"/>sanctificata fuit.
+</p>
+            <p xml:id="alalal-ee9795-d1e286">
+               <lb ed="Bd" n="16"/>Ad aliud dicendum, quod bene 
+con<lb break="no" ed="Bd" n="17"/>cedo Jeremiam et Joannem venialiter
+<lb ed="Bd" n="18"/>peccasse, sed non Virginem gloriosam
+<lb ed="Bd" n="19"/>propter honorem Domini.
+</p>
+            <p xml:id="alalal-ee9795-d1e297">
+               <lb ed="Bd" n="20"/>Av iw quod ulterius quaeritur, sine
+<lb ed="Bd" n="21"/>prejudicio dico, quod haec gratia ‘
+ordi<lb break="no" ed="Bd" n="22"/>natur ad opera perfectionis, precipue in
+<lb ed="Bd" n="23"/>continentia : et cum coitus sine libidine
+<lb ed="Bd" n="24"/>esse non possit, eis non conveniebat dari
+<lb ed="Bd" n="25"/>hance gratiam : quia propter semen 
+pro<lb break="no" ed="Bd" n="26"/>missum generationi operam dabant quae
+<lb ed="Bd" n="27"/>cum concupiscentia erat permixta. Quod
+<lb ed="Bd" n="28"/>autem Jeremie dabatur, fuit, quia 
+ordi<lb break="no" ed="Bd" n="29"/>nem habuit ad sanctitatem in utero in
+<lb ed="Bd" n="30"/>apertissima expressione plus omnibus
+<lb ed="Bd" n="31"/>Prophetis : quod sic probatur : Inter 
+om<lb break="no" ed="Bd" n="32"/>nes expressius prophetaverunt de modo
+<lb ed="Bd" n="33"/>nativitatis Domini Isaias, vu, 14 et seq,
+<lb ed="Bd" n="34"/>et Jeremias, xxx, 22. Isaias antem dicit
+<lb ed="Bd" n="35"/>sic: Kece virgo concipiet et pariet 
+fi<lb break="no" ed="Bd" n="36"/>lium : ubi non exprimit nisi 
+disposi<lb break="no" ed="Bd" n="37"/>tionem matris, scilicet quod 
+concipe<lb break="no" ed="Bd" n="38"/>ret et pareret. Sed Jeremias sic dicit ;
+<lb ed="Bd" n="39"/>Creavit Dominus novum super terram :
+<lb ed="Bd" n="40"/>Femina circumdabit virum. Ft ante
+<lb ed="Bd" n="41"/>hoc, ibidem: Usguequo deliciis 
+dissol<lb break="no" ed="Bd" n="42"/>veris, filia vaga? Novum autem non
+<lb ed="Bd" n="43"/>esset si mulier conciperet: ergo in hoc
+<lb ed="Bd" n="44"/>solo intelligitur quod dixerat Isaias.
+</p>
+            <p xml:id="alalal-ee9795-d1e354">
+               <lb ed="Bd" n="45"/>Praterea, Novum non esset purum
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="46"/>hominem de uno solo homine fieri : quia
+<lb ed="Bd" n="47"/>hoc factum fuit quando Heva sumpta est
+<lb ed="Bd" n="48"/>de Adam : ergo in hoc vult conjunctionem
+<lb ed="Bd" n="49"/>humanitatis cum deitate. Cum autem 
+di<lb break="no" ed="Bd" n="50"/>cit, cireumdabit, dicit contractionem 
+in<lb break="no" ed="Bd" n="51"/>finiti ad arctitudinem uteri. Cum autem
+<lb ed="Bd" n="52"/>dicitur, virum, intelligitur perlectio ejus
+<lb ed="Bd" n="53"/>in anima et habitibus anime, qui sunt
+<lb ed="Bd" n="54"/>saptentia, et gratia. Per hoc autem quod
+<lb ed="Bd" n="55"/>precesserat : Usguequo deliciis 
+dissolve<lb break="no" ed="Bd" n="56"/>ris, filia vaga ? notat predicationem ca~
+<lb ed="Bd" n="57"/>stitalis deinceps in omne tempus, quo
+<lb ed="Bd" n="58"/>filie non quarunt resolvi deliciosis 
+am<lb break="no" ed="Bd" n="59"/>plexibus, sed castis amplexibus Deo
+<lb ed="Bd" n="60"/>adherere. Joannes autem hanc 
+sanctita<lb break="no" ed="Bd" n="61"/>tem in utero exsultando in sue matris
+<lb ed="Bd" n="62"/>utero demonstravit, et postea etiam 
+digi<lb break="no" ed="Bd" n="63"/>to mundo ostenditl : et ideo ile 
+propin<lb break="no" ed="Bd" n="64"/>quius ordinabatur et sanctius vixit. Sed
+<lb ed="Bd" n="65"/>pre omnibus illa recipit sanctitatem quae
+<lb ed="Bd" n="66"/>sic ad sanctitatem accessit, ut de ipsa
+<lb ed="Bd" n="67"/>sumeretur quod Deo uniretur.
+</p>
+            <p xml:id="alalal-ee9795-d1e409">
+               <lb ed="Bd" n="68"/>Ad aliud dicendum, quod Job non fuit
+<lb ed="Bd" n="69"/>in utero sanctificatus : sed tangit gratiam
+<lb ed="Bd" n="70"/>gratis datam sibi in complexione corporis,
+<lb ed="Bd" n="71"/>ex quo habuit quod facilius inclinabatur
+<lb ed="Bd" n="72"/>ad misericordiam quam alius homo : 
+sic<lb break="no" ed="Bd" n="73"/>ut quilibet homo uni virtuti magis est
+<lb ed="Bd" n="74"/>vicinus secundum complexionem suam
+<lb ed="Bd" n="75"/>quam alius.
+</p>
+            <p xml:id="alalal-ee9795-d1e430">
+               <lb ed="Bd" n="76"/>Ad aliud dicendum, quod de dilectione
+<lb ed="Bd" n="77"/>predestinationis intelligitur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

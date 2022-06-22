@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 18</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 18</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="663"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f28892"><!-- l3d35a18 -->
+            <head xml:id="alalal-f28892-Hd1e99">Articulus 18</head>
+            <head xml:id="alalal-f28892-Hd1e101" type="question-title">Qualiter differat pietas a mansuetudine ?</head>
+            <p xml:id="alalal-f28892-d1e104">
+               <lb ed="Bd" n="12"/>ARTICULUS XVIII.
+<lb ed="Bd" n="13"/>Qualiter differat pietas a mansuetudine ?
+</p>
+            <p xml:id="alalal-f28892-d1e111">
+               <lb ed="Bd" n="14"/>Quarto et ultimo quaeritur, Qualiter
+<lb ed="Bd" n="15"/>differat a mansuetudine, et 
+misericor<lb break="no" ed="Bd" n="16"/>dia ?
+</p>
+            <p xml:id="alalal-f28892-d1e120">
+               <lb ed="Bd" n="17"/>Videtur autem a mansuetudine non
+<lb ed="Bd" n="18"/>differre: quia Glossa super Matth. v_ ct
+<lb ed="Bd" n="19"/>vi, reducit ad mansuetudinem : ergo
+<lb ed="Bd" n="20"/>pietas est mansuetudo vel mititas.
+</p>
+            <p xml:id="alalal-f28892-d1e132">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="21"/>Eadem enim non videtur differre a 
+mi<lb break="no" ed="Bd" n="22"/>sericordia : quia Glossa, I ad Timoth.
+<lb ed="Bd" n="23"/>iv, 8, reducit ad misericordiam. Et 
+simi<lb break="no" ed="Bd" n="24"/>liter Glossa super Job, xxx, 19: et iste
+<lb ed="Bd" n="25"/>Gloss supra posite sunt, nec hie 
+opor<lb break="no" ed="Bd" n="26"/>tet eas iterare.
+</p>
+            <p xml:id="alalal-f28892-d1e150">
+               <lb ed="Bd" n="27"/>Solutio Facile est respondere ad hec
+<lb ed="Bd" n="28"/>secundum predicta: quia Glossa non
+<lb ed="Bd" n="29"/>intendit, quod pietas sit mititas vel 
+mise<lb break="no" ed="Bd" n="30"/>ricordia, sed quod habeat cum eis 
+affini<lb break="no" ed="Bd" n="31"/>tatem : cum enim duo sunt de 
+constitu<lb break="no" ed="Bd" n="32"/>tione pietatis, scilicet benevolentia per
+<lb ed="Bd" n="33"/>quam diffinitur ex parte affectus quem
+<lb ed="Bd" n="34"/>informat, et objectum quod est imago
+<lb ed="Bd" n="35"/>precipue immersa miseriis, ex quibus
+<lb ed="Bd" n="36"/>est indigentia ut juvetur. Ex parte 
+affe<lb break="no" ed="Bd" n="37"/>ctus accedit ad mititatem vel 
+mansuetu<lb break="no" ed="Bd" n="38"/>dinem cujus est benevole affici circa
+<lb ed="Bd" n="39"/>omnes, et non provocare injuriis. Ex
+<lb ed="Bd" n="40"/>parte autem effectus sive operis 
+conjun<lb break="no" ed="Bd" n="41"/>gitur misericordia, cum tamen 
+substan<lb break="no" ed="Bd" n="42"/>tialiter disjuncta sit ab utraque, ut per ea
+<lb ed="Bd" n="43"/>qu in primo problemate dicta sunt, 
+fa<lb break="no" ed="Bd" n="44"/>cile est videre.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

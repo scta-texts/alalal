@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="61"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a12178"><!-- l1d2a9 -->
+            <head xml:id="alalal-a12178-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-a12178-Hd1e101" type="question-title">An melius dicatur, Alter Pater, alter
+Filius: vel alius, et alius?</head>
+            <p xml:id="alalal-a12178-d1e104">
+               <lb ed="#Ba" n="44"/>ARTICULUS IX.
+<lb ed="#Ba" n="45"/>An melius dicatur, Alter Pater, alter
+<lb ed="#Ba" n="46"/>Filius: vel alius, et alius?
+</p>
+            <p xml:id="alalal-a12178-d1e113">
+               <lb ed="#Ba" n="47"/>Deinde objicitur super hoc quod 
+habe<lb break="no" ed="#Ba" n="48"/>tur in fine ejusdem capituli: <quote xml:id="alalal-a12178-Qd1e119"> In qua
+<lb ed="#Ba" n="49"/>non est aliud Pater, aliud Filius, etc. </quote>
+            </p>
+            <p xml:id="alalal-a12178-d1e125">
+               <lb ed="#Ba" n="50"/>quaeritur enim, Utrum melius dicatur,
+<lb ed="#Ba" n="51"/>Alter Pater, alter Filius, vel alius ? Et 
+vi<lb break="no" ed="#Ba" n="52"/>detur quod alter: quia alius dicit 
+diver<lb break="no" ed="#Ba" n="53"/>sitatem substantiae : aller autem 
+diversi<lb break="no" ed="#Ba" n="54"/>tatem accidentis, vel proprietatis 
+secun<lb break="no" ed="#Ba" n="55"/>dum Porphyrium. Cum igitur Pater et
+<lb ed="#Ba" n="56"/>Filius differant proprietatibus suis, et
+<lb ed="#Ba" n="57"/>non substantia, videtur melius dici, Al-
+<pb ed="#Ba" n="62"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ter Pater, et alter Filius, quam alius 
+Pa<lb break="no" ed="#Ba" n="2"/>ter, alius Filius.
+</p>
+            <p xml:id="alalal-a12178-d1e155">
+               <lb ed="#Ba" n="3"/>Ulterius quaeritur, Quare in neutro
+<lb ed="#Ba" n="4"/>genere non conceditur ut diceretur,
+<lb ed="#Ba" n="5"/>Alud Pater, aliud Filius, etc.
+</p>
+            <p xml:id="alalal-a12178-d1e164">
+               <lb ed="#Ba" n="6"/>Solutio. Ad hoc dicendum, quod aller
+<lb ed="#Ba" n="7"/>non ita congrue dicitur : quia licet 
+pro<lb break="no" ed="#Ba" n="8"/>prietas sit in divinis, tamen proprietas
+<lb ed="#Ba" n="9"/>est persona, et persona est subsistens
+<lb ed="#Ba" n="10"/>hypostasis sive substantia : quod qualiter
+<lb ed="#Ba" n="11"/>sit, infra ostendetur : et ideo supponatur
+<lb ed="#Ba" n="12"/>hoc. Unde cum alter dicat tantum 
+varia<lb break="no" ed="#Ba" n="13"/>tionem accidentis, non competit in 
+di<lb break="no" ed="#Ba" n="14"/>vinis.
+</p>
+            <p xml:id="alalal-a12178-d1e186">
+               <lb ed="#Ba" n="15"/>Ad aliud dicunt quidam, quod tria sunt
+<lb ed="#Ba" n="16"/>in divinis : essentia, persona, notio :
+<lb ed="#Ba" n="17"/>ef ad essentiam transsumitur neutrum
+<lb ed="#Ba" n="18"/>genus, ad personam autem masculinum,
+<lb ed="#Ba" n="19"/>ad notionem feemininum : et jam bene
+<lb ed="#Ba" n="20"/>patet de primo, et secundo : quia, sicut
+</p>
+            <p xml:id="alalal-a12178-d1e202">
+               <cb ed="#Ba" n="b"/>
+            </p>
+            <p xml:id="alalal-a12178-d1e207">
+               <lb ed="#Ba" n="21"/>dicunt Grammatici, neutrum est genus
+<lb ed="#Ba" n="22"/>informe, et simpliciter rei essentiam Si~
+<lb ed="#Ba" n="23"/>gnificat : et ideo cum quaeritur per quid
+<lb ed="#Ba" n="24"/>in neutro genere, respondetur per 
+essen<lb break="no" ed="#Ba" n="25"/>tiale, sicut lignum, vel animal. 
+Mascu<lb break="no" ed="#Ba" n="26"/>linum genus formatum et perfectum est :
+<lb ed="#Ba" n="27"/>et similiter in natura perfectionem 
+dis<lb break="no" ed="#Ba" n="28"/>tinguentium habet hypostatis et 
+perso<lb break="no" ed="#Ba" n="29"/>na : et ideo cum quaeritur per quis,
+<lb ed="#Ba" n="30"/>respondetur nomen persone distincte,
+<lb ed="#Ba" n="31"/>ut Socrates, vel Plato. Qualiter autem
+<lb ed="#Ba" n="32"/>feemininum notioni conveniat, non adeo
+<lb ed="#Ba" n="33"/>est evidens, cum etiam ipsum sit genus
+<lb ed="#Ba" n="34"/>formatum, individuo et persone 
+conve<lb break="no" ed="#Ba" n="35"/>niens, quod per interrogationem factam
+<lb ed="#Ba" n="36"/>per gue, cui respondetur determinata
+<lb ed="#Ba" n="37"/>hypostasis in sexu feeminino. Sed dicunt
+<lb ed="#Ba" n="38"/>ad hoc, quod femininum est genus 
+im<lb break="no" ed="#Ba" n="39"/>perfectius : et ideo attribuitur notioni
+<lb ed="#Ba" n="40"/>que secundum rationem intelligentia
+<lb ed="#Ba" n="41"/>non ita significat subsistens per se et
+<lb ed="#Ba" n="42"/>completum sicut persona,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

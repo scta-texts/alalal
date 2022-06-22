@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 17</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 17</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="297"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a59699"><!-- l1d9a17 -->
+            <head xml:id="alalal-a59699-Hd1e99">Articulus 17</head>
+            <head xml:id="alalal-a59699-Hd1e101" type="question-title">An licet scrutari superna mysteria ?</head>
+            <p xml:id="alalal-a59699-d1e104">
+               <lb ed="#Ba" n="11"/>ARTICULUS XVII.
+<lb ed="#Ba" n="12"/>An licet scrutari superna mysteria ?
+</p>
+            <p xml:id="alalal-a59699-d1e111">
+               <lb ed="#Ba" n="13"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="14"/>
+               <quote xml:id="alalal-a59699-Qd1e117"> Scrutari non licet superna mysteria,
+<lb ed="#Ba" n="15"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-a59699-d1e123">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="16"/>Omnes enim sancti Doctores scrutati
+<lb ed="#Ba" n="17"/>sunt mysteria Trinitatis et discusserunt :
+<lb ed="#Ba" n="18"/>ergo videtur quod omnes peccaverunt.
+</p>
+            <p xml:id="alalal-a59699-d1e135">
+               <lb ed="#Ba" n="19"/>Ad hoc respondendum est per hoc quod
+<lb ed="#Ba" n="20"/>dicit <name xml:id="alalal-a59699-Nd1e141">Bernardus</name> super Cantica: Spiritus
+<lb ed="#Ba" n="21"/>scrutatur non solum hominum corda et
+<lb ed="#Ba" n="22"/>renes, sed etiam profunda Dei : et sive
+<lb ed="#Ba" n="23"/>ad nostra, sive ad alia securus sequor
+<lb ed="#Ba" n="24"/>eum quocumque teri ; tantum ut 
+custo<lb break="no" ed="#Ba" n="25"/>diat corda nostra, et intelligentias nostras,
+<lb ed="#Ba" n="26"/>ne forte cum non aderit, adessc 
+pute<lb break="no" ed="#Ba" n="27"/>mus, nostruimque pro ipso sequemur
+<lb ed="#Ba" n="28"/>sensum deviantes. Unde scrutantes 
+scru<lb break="no" ed="#Ba" n="29"/>linia suo sensu, vi rationis volentes
+<lb ed="#Ba" n="30"/>potius imterrumpere in secreta Dei
+<lb ed="#Ba" n="31"/>quam per doctrinam  spiritus 
+intro<lb break="no" ed="#Ba" n="32"/>duci, hic reprehenduntur, sicut infideles
+<lb ed="#Ba" n="33"/>qui terminos articulorum fidei non 
+cu<lb break="no" ed="#Ba" n="34"/>stodvmt : non autem reprehenduntur
+<lb ed="#Ba" n="35"/>studentes et tnquirentes cum pietate.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

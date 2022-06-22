@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 14</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 14</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="32"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-aa6267"><!-- l1d1a14 -->
+            <head xml:id="alalal-aa6267-Hd1e99">Articulus 14</head>
+            <head xml:id="alalal-aa6267-Hd1e101" type="question-title">An sint tres res quibus fruendum est ?</head>
+            <p xml:id="alalal-aa6267-d1e104">
+               <lb ed="#Ba" n="24"/>ARTICULUS XIV.
+<lb ed="#Ba" n="25"/>An sint tres res quibus fruendum est ?
+</p>
+            <p xml:id="alalal-aa6267-d1e111">
+               <lb ed="#Ba" n="26"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="27"/>
+               <quote xml:id="alalal-aa6267-Qd1e117"> Res quibus fruendum est sunt, etc.</quote>
+            </p>
+            <p xml:id="alalal-aa6267-d1e120">
+               <lb ed="#Ba" n="28"/>1. Contra enim est quod dicit 
+Dama<lb break="no" ed="#Ba" n="29"/>scenus, bro primo, cap. 11, quod <quote xml:id="alalal-aa6267-Qd1e126"> tres
+<lb ed="#Ba" n="30"/>persone re conveniunt, ratione autem
+<lb ed="#Ba" n="31"/>et cognitione distinguuntur: </quote> ergo
+<lb ed="#Ba" n="32"/>sunt tres res.
+</p>
+            <p xml:id="alalal-aa6267-d1e137">
+               <lb ed="#Ba" n="33"/>2. Item, Statim in Littera sequitur :
+<lb ed="#Ba" n="34"/>
+               <quote xml:id="alalal-aa6267-Qd1e143"> Eadem tamen Trinitas quaedam 
+sum<lb break="no" ed="#Ba" n="35"/>mares est: </quote> ergo videtur quod male
+<lb ed="#Ba" n="36"/>dicat ves in plurali.
+</p>
+            <p xml:id="alalal-aa6267-d1e151">
+               <lb ed="#Ba" n="37"/>3. Item, Augustinus dicit, quod <quote xml:id="alalal-aa6267-Qd1e155"> in
+<lb ed="#Ba" n="38"/>omni eo quod ad se est, tres persone
+<lb ed="#Ba" n="39"/>unum sunt: in eo quod est ad alterum,
+<lb ed="#Ba" n="40"/>distinguuntur: </quote> sed res est ad 
+se<lb break="no" ed="#Ba" n="41"/>ipsam : ergo in singulari convenit tribus
+<lb ed="#Ba" n="42"/>personis in summa.
+</p>
+            <p xml:id="alalal-aa6267-d1e169">
+               <lb ed="#Ba" n="43"/>Uxrerivs quaeritur de hoc quod 
+suppo<lb break="no" ed="#Ba" n="44"/>nit Magister in dicto isto: videtur enim
+<lb ed="#Ba" n="45"/>velle, quod fruamur personis.
+</p>
+            <p xml:id="alalal-aa6267-d1e178">
+               <lb ed="#Ba" n="46"/>SED CONTRA :
+<lb ed="#Ba" n="47"/>1. Aut fruimur persona in genere
+<lb ed="#Ba" n="48"/>in eo quod est persona, aut ut est 
+de<lb break="no" ed="#Ba" n="49"/>terminata haecvel illa : non primo
+<lb ed="#Ba" n="50"/>modo, quia affectus non sequitur 
+conce<lb break="no" ed="#Ba" n="51"/>ptionem alicujus in genere, vel in 
+univer<lb break="no" ed="#Ba" n="52"/>sali: quia generalia non movent, eo
+<lb ed="#Ba" n="53"/>quod in ipsis non est actus: ergo sub
+<lb ed="#Ba" n="54"/>ratione determinata : ergo fruimur Patre
+<lb ed="#Ba" n="55"/>ut Pater est, et Filio ut Filius est, et
+<lb ed="#Ba" n="56"/>Spiritu sancto ut Spiritus sanctus est.
+<lb ed="#Ba" n="57"/>Inve sic: Sicut se habet cognitio, ita se
+<lb ed="#Ba" n="58"/>habet affectus sequens cognitionem. Cum
+<lb ed="#Ba" n="59"/>igitur cognitio diffinita Patris transeat
+<lb ed="#Ba" n="60"/>in Fiium, quia qui novit diffinite unum
+<lb ed="#Ba" n="61"/>relativorum, novit reliquum, videbitur
+<lb ed="#Ba" n="62"/>Patris fruitio transire in Filium, et e 
+con<lb break="no" ed="#Ba" n="63"/>verso.
+</p>
+            <p xml:id="alalal-aa6267-d1e220">
+               <lb ed="#Ba" n="64"/>2. Si forte dicatur, quod una cognitione
+<lb ed="#Ba" n="65"/>cognoscuntur tres persone, sicut dicunt
+<lb ed="#Ba" n="66"/>quidam, et ideo unam habent fruitionem
+<lb ed="#Ba" n="67"/>que est de ipsis, Conrra : Aut una 
+co<lb break="no" ed="#Ba" n="68"/>gnitione cognoscuntur in eo quod unum
+<lb ed="#Ba" n="69"/>sunt, aut in eo quod distincti sunt. Si in
+<lb ed="#Ba" n="70"/>eo quod distincti sunt: ergo in eo quod
+<lb ed="#Ba" n="71"/>distincti cognoscuntur ut unum : sed
+<lb ed="#Ba" n="72"/>hoc est principium cognitionis 
+distincto<lb break="no" ed="#Ba" n="73"/>rum, quod est principium distinctionis
+<lb ed="#Ba" n="74"/>eorum : ergo unum est principium 
+dis<lb break="no" ed="#Ba" n="75"/>finclionis et unionis, quod impossibile
+<lb ed="#Ba" n="76"/>est. Si autem cognoscuntur in eo quod
+<lb ed="#Ba" n="77"/>unum sunt: ergo fruitio est essentia per
+<lb ed="#Ba" n="78"/>se, et non personarum.
+</p>
+            <p xml:id="alalal-aa6267-d1e255">
+               <lb ed="#Ba" n="79"/>3. Item, Fruitio dicit refectionem in
+<lb ed="#Ba" n="80"/>summo bono viso, habito, et amato: sed
+<lb ed="#Ba" n="81"/>una est veritas et bonitas trium: ergo
+<lb ed="#Ba" n="82"/>una est fruitio trium: hoc autem est
+<lb ed="#Ba" n="83"/>gratia essentia, et non persone: ergo
+<lb ed="#Ba" n="84"/>fruimur essentia, et non persona.
+</p>
+            <p xml:id="alalal-aa6267-d1e272">
+               <lb ed="#Ba" n="85"/>SED CONTRA:
+<lb ed="#Ba" n="86"/>In cognitione vie sic est, quod non
+<lb ed="#Ba" n="87"/>cognoscitur res perfecte per hoc quod
+<lb ed="#Ba" n="88"/>tantum natura ejus in communi 
+cogno<lb break="no" ed="#Ba" n="89"/>scitur: sed oportet quod cognoscatur in
+<pb ed="#Ba" n="33"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>particulari, et secundum omnes 
+proprie<lb break="no" ed="#Ba" n="2"/>Liles ipsitis: ergo similiter et mullo 
+ma<lb break="no" ed="#Ba" n="3"/>ets hoc in patria erit: ergo ad 
+cognitio<lb break="no" ed="#Ba" n="4"/>nen eloriw non sufficit cognitio 
+substan<lb break="no" ed="#Ba" n="5"/>tu, nisi adsit etiam determinata cognitio
+<lb ed="#Ba" n="6"/>personarum et proprietatum earum, et
+<lb ed="#Ba" n="7"/>tly fruimur cognitis: ergo fruimur  
+per<lb break="no" ed="#Ba" n="8"/>serthis,
+</p>
+            <p xml:id="alalal-aa6267-d1e307">
+               <lb ed="#Ba" n="9"/>2, Hem, Nonne amabimus distinctas
+<lb ed="#Ba" n="10"/>personas, et distinctionem earum ? 
+con<lb break="no" ed="#Ba" n="11"/>stat quod sic, Aut ergo amore usus, aut
+<lb ed="#Ba" n="12"/>amare fructus: si amore usus: ergo ad
+<lb ed="#Ba" n="13"/>aliad quod melius est referemus, quod
+<lb ed="#Ba" n="14"/>falsuim cst, quia essentia non est dignior
+<lb ed="#Ba" n="15"/>personis ; ergo amore fructus, et sic 
+ha<lb break="no" ed="#Ba" n="16"/>flue propositum. :
+</p>
+            <p xml:id="alalal-aa6267-d1e327">
+               <lb ed="#Ba" n="17"/>Sed TUNc ULTERIUS quaeritur, Utrum una
+<lb ed="#Ba" n="18"/>persona magis fruemur quam alia? Et
+<lb ed="#Ba" n="19"/>videtur, quod sic: quia sicut in ordine
+<lb ed="#Ba" n="20"/>eocntie habetur una quae est prima et
+<lb ed="#Ba" n="21"/>principium aliarum, et quando 
+referi<lb break="no" ed="#Ba" n="22"/>mus ad aliad essentiam, stamus in illa:
+<lb ed="#Ba" n="23"/>ita videtur, quod sit in ordine nature quae
+<lb ed="#Ba" n="24"/>rat in personis, una quae est principium
+<lb ed="#Ba" n="25"/>tottus Trinitatis, quia Filii per 
+generatio<lb break="no" ed="#Ba" n="26"/>nv, Spiritus sancti per spirationem :
+<lb ed="#Ba" n="27"/>rego videtur, quod relatio stat in illa.
+<lb ed="#Ba" n="28"/>Moe etiam videtur per hoc quod dicit
+<lb ed="#Ba" n="29"/>apostolus, Dad Corinth. x1, 3: Omnis
+<lb ed="#Ba" n="30"/>sunt caput Christus est :... caput vero
+<lb ed="#Ba" n="31"/>Christi, Deus, id est, Pater, et ita 
+vide<lb break="no" ed="#Ba" n="32"/>tur quod Filius sit referendus ad Patrem.
+<lb ed="#Ba" n="33"/>it hoc ipse videtur facere in Evangelio,
+<lb ed="#Ba" n="34"/>dicons : Adea doctrina non est mea, sed
+<lb ed="#Ba" n="35"/>cpus qui mistt me‘. Non quero 
+volun<lb break="no" ed="#Ba" n="36"/>tutem meam, sed voluntatem ejus qui
+<lb ed="#Ba" n="37"/>misif ine
+</p>
+            <p xml:id="alalal-aa6267-d1e375">
+               <lb ed="#Ba" n="38"/>Solutio. Dicunt quidam ad primum,
+<lb ed="#Ba" n="39"/>yuod tria sunt in divinis: substantia,
+<lb ed="#Ba" n="40"/>jersona, et notio. Substantia autem res
+<lb ed="#Ba" n="41"/>est absolute: notio autem ratio: persona
+<lb ed="#Ba" n="42"/>mute medium inter substantiam et 
+no<lb break="no" ed="#Ba" n="43"/>finem secundum rationem, et ideo per-
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="44"/>sona est res respectu notionis, et ratio
+<lb ed="#Ba" n="45"/>respectu essentiae. Et hoc sensu potest
+<lb ed="#Ba" n="46"/>dici, quod sint tres res: in alio autem
+<lb ed="#Ba" n="47"/>una sola res. Hac autem solutio mihi
+<lb ed="#Ba" n="48"/>tuta non videtur: quia persona 
+simpli<lb break="no" ed="#Ba" n="49"/>citer res est, et numquam res sola: quia
+<lb ed="#Ba" n="50"/>hoc sonat aliquid vicinum Sabellianis.
+<lb ed="#Ba" n="51"/>Unde sine prejudicio dico, quod (sicut
+<lb ed="#Ba" n="52"/>dicit Philosophus quidam in prima 
+Phi<lb break="no" ed="#Ba" n="53"/>losophia), ens etres sunt de 
+transcen<lb break="no" ed="#Ba" n="54"/>dentibus, et primis secundum ambitum
+<lb ed="#Ba" n="55"/>sue significationis, et suntea in quibus
+<lb ed="#Ba" n="56"/>stat resolutio, et ideo dicibilia sunt in
+<lb ed="#Ba" n="57"/>divinis de absolutis et relatis: et 
+secun<lb break="no" ed="#Ba" n="58"/>dum quod adjunguntur ad haecvel illa,
+<lb ed="#Ba" n="59"/>possunt esse pluralia, vel singularia: 
+ta<lb break="no" ed="#Ba" n="60"/>men propter modum intelligendi 
+abso<lb break="no" ed="#Ba" n="61"/>lutum, magis tenent se a parte 
+essen<lb break="no" ed="#Ba" n="62"/>tia.
+</p>
+            <p xml:id="alalal-aa6267-d1e434">
+               <lb ed="#Ba" n="63"/>Ap XAvucroriraTem autem Damasceni 
+di<lb break="no" ed="#Ba" n="64"/>cendum, quod non sola ratione vel 
+cogi<lb break="no" ed="#Ba" n="65"/>tatione persone distinguuntur: quia hoc
+<lb ed="#Ba" n="66"/>esset Sabellianum. Unde caute 
+intelli<lb break="no" ed="#Ba" n="67"/>genda est auctoritas, scilicet, ut 
+ratio<lb break="no" ed="#Ba" n="68"/>nem vocet relationem personalem que
+<lb ed="#Ba" n="69"/>realiter persona est, et cogitationem in-~
+<lb ed="#Ba" n="70"/>tellectum distinguentem personas per
+<lb ed="#Ba" n="71"/>hujusmodi relationes personales.
+</p>
+            <p xml:id="alalal-aa6267-d1e456">
+               <lb ed="#Ba" n="72"/>Et ad aliud patet solutio per praedicta.
+</p>
+            <p xml:id="alalal-aa6267-d1e462">
+               <lb ed="#Ba" n="73"/>Ad id quod ulterius quaeritur : Utrum
+<lb ed="#Ba" n="74"/>fruemur personis in eo quod persone
+<lb ed="#Ba" n="75"/>sunt? Dicendum, quod sily in eo dicit
+<lb ed="#Ba" n="76"/>rationem objecti fructus, non fruemur
+<lb ed="#Ba" n="77"/>personis in eo quod persone sunt. Si
+<lb ed="#Ba" n="78"/>autem dicit indifferentiam et identitatem
+<lb ed="#Ba" n="79"/>persone ad objectum fructus, tunc 
+frue<lb break="no" ed="#Ba" n="80"/>mur personis n eo quod persone sunt.
+<lb ed="#Ba" n="81"/>Licet enim fructus per se sit Dei in 
+quan<lb break="no" ed="#Ba" n="82"/>tum summum bonum est, non tamen est
+<lb ed="#Ba" n="83"/>Dei per consequens, et persone per 
+ac<lb break="no" ed="#Ba" n="84"/>cidens: quia in Deo non est consequens
+<lb ed="#Ba" n="85"/>universale ad particulare, sed idem. 
+Si<lb break="no" ed="#Ba" n="86"/>militer in Deo non est accidentale, sed
+<lb ed="#Ba" n="87"/>idem. Et ideo fruemur Deo, et personis,
+<pb ed="#Ba" n="34"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>in quantum idem sunt cum
+<lb ed="#Ba" n="2"/>bono.
+</p>
+            <p xml:id="alalal-aa6267-d1e506">
+               <lb ed="#Ba" n="3"/>Ap 1p quod contra objicitur, dicendum
+<lb ed="#Ba" n="4"/>quod fruemur Patre determinate. non
+<lb ed="#Ba" n="5"/>quidem secundum quod ad Filwm est,
+<lb ed="#Ba" n="6"/>sed in quantum ipse relatus ad Filium,
+<lb ed="#Ba" n="7"/>est summo bono idem per essentiam. Et
+<lb ed="#Ba" n="8"/>ideo fruitio non transit in Filium propter
+<lb ed="#Ba" n="9"/>intellectum relationis : nec sequitur quod
+<lb ed="#Ba" n="10"/>sint tres fruitiones, sicut tres persons
+<lb ed="#Ba" n="11"/>distinct.
+</p>
+            <p xml:id="alalal-aa6267-d1e528">
+               <lb ed="#Ba" n="12"/>Apauiupdicendum, quod unacognitione
+<lb ed="#Ba" n="13"/>possumus accipere actu personas tres in
+<lb ed="#Ba" n="14"/>quantum unum sunt, vel etiam in 
+quan<lb break="no" ed="#Ba" n="15"/>tum distinct sunt secundum rationes
+<lb ed="#Ba" n="16"/>relationis quae non habet intellectum 
+ab<lb break="no" ed="#Ba" n="17"/>solutum : sed hujusmodi cognitione 
+ac<lb break="no" ed="#Ba" n="18"/>cipimus, intelligendo summum bonum,
+<lb ed="#Ba" n="19"/>et ita eril fructus: et bene concedimus,
+<lb ed="#Ba" n="20"/>quod ad perfectam cognitionem Dei,
+<lb ed="#Ba" n="21"/>exigitur quod cognoscatur in personis
+<lb ed="#Ba" n="22"/>distinctis quae idem sunt summo bono.
+</p>
+            <p xml:id="alalal-aa6267-d1e554">
+               <lb ed="#Ba" n="23"/>Av io quod ulterius quaeritur : Utrum
+<lb ed="#Ba" n="24"/>una persona magis fruemur quam alia?
+<lb ed="#Ba" n="25"/>Dicendum, quod non. Nee est simile de
+<lb ed="#Ba" n="26"/>ordine essentiarum, et ordine nature in
+<lb ed="#Ba" n="27"/>personis: quia ordo essentiarum pomit
+<lb ed="#Ba" n="28"/>inequalitatem et diversitatem ab objecto
+<lb ed="#Ba" n="29"/>fruitionis in inferioribus essentiis. Ordo
+<lb ed="#Ba" n="30"/>autem nature in personis ponit 
+aquali<lb break="no" ed="#Ba" n="31"/>tatem, et identitatem.earum in summo
+<lb ed="#Ba" n="32"/>bono, quodest objectum fruitionis: et
+<lb ed="#Ba" n="33"/>ideo una est fruitio trium, sicut una est
+<lb ed="#Ba" n="34"/>bonitas trium.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

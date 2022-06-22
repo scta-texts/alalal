@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="320"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e60955"><!-- l3d18a6 -->
+            <head xml:id="alalal-e60955-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-e60955-Hd1e101" type="question-title">An Christus meruit in primo instanti
+sue conceptionis ?</head>
+            <p xml:id="alalal-e60955-d1e104">
+               <pb ed="#Bd" n="320"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ARTICULUS VI.
+<lb ed="Bd" n="2"/>An Christus meruit in primo instanti
+<lb ed="Bd" n="3"/>sue conceptionis ?
+</p>
+            <p xml:id="alalal-e60955-d1e117">
+               <lb ed="Bd" n="4"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="Bd" n="5"/>
+               <quote xml:id="alalal-e60955-Qd1e123"> Nec solum hoc meruit Christus, 
+quan<lb break="no" ed="Bd" n="6"/>do Patri, etc. </quote>
+            </p>
+            <p xml:id="alalal-e60955-d1e129">
+               <lb ed="Bd" n="7"/>Videtur enim hoc esse falsum : quia
+<lb ed="Bd" n="8"/>1. Prius est esse, quam agere. In 
+in<lb break="no" ed="Bd" n="9"/>stanti autem conceptionis primum 
+acce<lb break="no" ed="Bd" n="10"/>pit esse: ergo in illo non potuit 
+me<lb break="no" ed="Bd" n="11"/>reri.
+</p>
+            <p xml:id="alalal-e60955-d1e143">
+               <lb ed="Bd" n="12"/>2. Item, Sancti Patres et alii dicunt,
+<lb ed="Bd" n="13"/>quod nullus potest regenerari nisi prius
+<lb ed="Bd" n="14"/>sit natus : ergo multo minus mereri,
+<lb ed="Bd" n="15"/>cum importat renatum esse, et postea
+<lb ed="Bd" n="16"/>agere secundum gratiam acceptam in
+<lb ed="Bd" n="17"/>regeneratione : ergo videtur, quod in
+<lb ed="Bd" n="18"/>Christo prius oportuit nasci ad minus in
+<lb ed="Bd" n="19"/>utero, antequam mereretur : ergo non
+<lb ed="Bd" n="20"/>meruit in instanti conceptionis.
+</p>
+            <p xml:id="alalal-e60955-d1e165">
+               <lb ed="Bd" n="21"/>3. Item, In angelo malo prius 
+opor<lb break="no" ed="Bd" n="22"/>tuit ponere esse per naturam, quam
+<lb ed="Bd" n="23"/>averti per malitiam : ergo ab oppositis,
+<lb ed="Bd" n="24"/>in quocumque bono prius oportuit esse
+<lb ed="Bd" n="25"/>per naturam, guam converli ad Deum
+<lb ed="Bd" n="26"/>per gratiam : cum ad hoc multo plura
+<lb ed="Bd" n="27"/>exigantur, quam ad averti: quia averti
+<lb ed="Bd" n="28"/>potest aliquis per se, et converti non
+<lb ed="Bd" n="29"/>potest nisi per gratiam.
+</p>
+            <p xml:id="alalal-e60955-d1e187">
+               <lb ed="Bd" n="30"/>Si forte dicas, quod aliter est de Christo,
+<lb ed="Bd" n="31"/>at aliter de aliis: quia Christus fuit persona
+<lb ed="Bd" n="32"/>ante conceptum et in conceptu, et ideo
+<lb ed="Bd" n="33"/>mereri potuit : hoc nihil est : quia tunc
+<lb ed="Bd" n="34"/>mereri esset persone ut persone, et hoc
+<lb ed="Bd" n="35"/>falsuin est, cum mereri sit liberi arbitrii
+<lb ed="Bd" n="36"/>inferioris : ergo non videtur esse unum
+<lb ed="Bd" n="37"/>instans liberi arbiirii, et actus ejus in
+<lb ed="Bd" n="38"/>merito.
+</p>
+            <p xml:id="alalal-e60955-d1e209">
+               <lb ed="Bd" n="39"/>Solutio Dicendum, quod circa illud
+<lb ed="Bd" n="40"/>sunt due opiniones, quarum illa videtur
+<lb ed="Bd" n="41"/>mihi probabilior, quae concedit rationes
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="42"/>inductas, et dicit quod Christus non 
+me<lb break="no" ed="Bd" n="43"/>ruit ab instanti conceptionis, sed post
+<lb ed="Bd" n="44"/>instans illud continuo meruil : sicut
+<lb ed="Bd" n="45"/>etiam exponitur illud Joannis, vi, 44:
+<lb ed="Bd" n="46"/>Ille homicida erat ab initio, id est, post
+<lb ed="Bd" n="47"/>initium, Alii dicunt, quod meruit in 
+in<lb break="no" ed="Bd" n="48"/>stanti conceptionis, et solvunt rationes
+<lb ed="Bd" n="49"/>inductas : quia illud instans est medietas
+<lb ed="Bd" n="50"/>quaedam praeteriti, et futuri : et 
+secun<lb break="no" ed="Bd" n="51"/>dum quod est finis praeteriti, sic in eo
+<lb ed="Bd" n="52"/>accepit Christus esse : et secundum quod
+<lb ed="Bd" n="53"/>est principium futuri, sic meruit in 
+eo<lb break="no" ed="Bd" n="54"/>dem : unde in eodem instanti incepit
+<lb ed="Bd" n="55"/>esse, cl egit opus meriti, non tamen 
+se<lb break="no" ed="Bd" n="56"/>cundum eamdem rationem instantis.
+</p>
+            <p xml:id="alalal-e60955-d1e253">
+               <lb ed="Bd" n="57"/>Et per hoc patet solutio ad totum,
+<lb ed="Bd" n="58"/>praeterquam ad id quod objectum est de
+<lb ed="Bd" n="59"/>angelo malo : quia ille etiam, ut puto,
+<lb ed="Bd" n="60"/>spatio divisibili stetit in veritate, et
+<lb ed="Bd" n="61"/>postea cecidit : non autem sic est de
+<lb ed="Bd" n="62"/>Christo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

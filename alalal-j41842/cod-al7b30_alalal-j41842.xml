@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="688"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j41842"><!-- l4d50a2 -->
+            <head xml:id="alalal-j41842-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-j41842-Hd1e101" type="question-title">An daemones peccent apud inferos ?</head>
+            <p xml:id="alalal-j41842-d1e104">
+               <lb ed="#Bf" n="71"/>ARTICULUS II.
+<lb ed="#Bf" n="72"/>An daemones peccent apud inferos ?
+</p>
+            <p xml:id="alalal-j41842-d1e111">
+               <lb ed="#Bf" n="73"/>Secundo queritur, An eadem ratio sit
+<lb ed="#Bf" n="74"/>de daemonibus ?
+</p>
+            <p xml:id="alalal-j41842-d1e118">
+               <lb ed="#Bf" n="75"/>Et videtur, quod sic: quia
+<lb ed="#Bf" n="76"/>1. Dicit Damascenus, quod oportet
+<lb ed="#Bf" n="77"/>scire,quod illud quod in Angelis est casus,
+<lb ed="#Bf" n="78"/>hoc est in hominibus mors: quia sicut
+<lb ed="#Bf" n="79"/>Angeli post casum non sunt susceptibiles
+<lb ed="#Bf" n="80"/>penitentiz, ita nec homines post 
+mor<lb break="no" ed="#Bf" n="81"/>tem. Ergo videtur, quod propter istam
+<lb ed="#Bf" n="82"/>obstinationem etiam eis non debet 
+impu<lb break="no" ed="#Bf" n="83"/>tari peccatum quod modo committunt.
+</p>
+            <p xml:id="alalal-j41842-d1e141">
+               <lb ed="#Bf" n="84"/>2. Adhuc, A Domino condemnatus est
+<lb ed="#Bf" n="85"/>dwmon in toto, et homo in parte, 
+scili<lb break="no" ed="#Bf" n="86"/>cet in anima : si ergo condemnatio facit,
+<pb ed="#Bf" n="689"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>quod non debet homini imputari 
+pecca<lb break="no" ed="#Bf" n="2"/>tum, multo magis facit, quod non debet
+<lb ed="#Bf" n="3"/>imputari demoni.
+</p>
+            <p xml:id="alalal-j41842-d1e161">
+               <lb ed="#Bf" n="4"/>3. Adhuc, Non potest corrigere 
+volun<lb break="no" ed="#Bf" n="5"/>tatem : sed quod non potest aliter esse,
+<lb ed="#Bf" n="6"/>non habet laudem vel vituperium, ut 
+di<lb break="no" ed="#Bf" n="7"/>cit Tullius: ergo injustum est, ut 
+vide<lb break="no" ed="#Bf" n="8"/>tur, si sibi hoc imputaretur in peccatum.
+</p>
+            <p xml:id="alalal-j41842-d1e174">
+               <lb ed="#Bf" n="9"/>In contrartum est, quod auctor mali
+<lb ed="#Bf" n="10"/>non debet esse melioris conditionis
+<lb ed="#Bf" n="11"/>quam persuasus in malo: sed video,
+<lb ed="#Bf" n="12"/>quod homo jam est persuasus in malo a
+<lb ed="#Bf" n="13"/>demone, et imputatur homini tale 
+pec<lb break="no" ed="#Bf" n="14"/>catum : ergo multo magis demoni debet
+<lb ed="#Bf" n="15"/>imputari.
+</p>
+            <p xml:id="alalal-j41842-d1e192">
+               <lb ed="#Bf" n="16"/>Ad voc dicendum, quod utraque pars
+<lb ed="#Bf" n="17"/>opiniones habet pro se: et in secundo 
+Sen<lb break="no" ed="#Bf" n="18"/>tentiarum plus quam hic invenitur de ista
+<lb ed="#Bf" n="19"/>questione. Videtur tamen tutior esse via
+<lb ed="#Bf" n="20"/>dicentium, quod peccent usque ad diem
+<lb ed="#Bf" n="21"/>judicii, quando finalem quoad majorem
+<lb ed="#Bf" n="22"/>penam et carcerem accipient 
+condemna<lb break="no" ed="#Bf" n="23"/>tionem: et tunc amplius peccare non
+<lb ed="#Bf" n="24"/>poterunt.
+</p>
+            <p xml:id="alalal-j41842-d1e214">
+               <lb ed="#Bf" n="25"/>Ad primum autem dicendum, quod non
+<lb ed="#Bf" n="26"/>est simile : quia homo post mortem non
+<lb ed="#Bf" n="27"/>accipit tempus ex casu, sed demoni hoc
+<lb ed="#Bf" n="28"/>tempus datum est, quo exerceat electos :
+<lb ed="#Bf" n="29"/>et ideo in illo tempore crescit sibi 
+pecca<lb break="no" ed="#Bf" n="30"/>tum et etiam pena. Ex dicto autem 
+Da<lb break="no" ed="#Bf" n="31"/>masceni non intelligitur aliud, nisi quod
+<lb ed="#Bf" n="32"/>in hoc similes sunt, quod insusceptibiles
+<lb ed="#Bf" n="33"/>sunt peenitentia.
+</p>
+            <p xml:id="alalal-j41842-d1e236">
+               <lb ed="#Bf" n="34"/>Ad aliud dicendum, quod non habet
+<lb ed="#Bf" n="35"/>adhuc finalem condemnationem, ut homo
+<lb ed="#Bf" n="36"/>habet finalem in anima et in corpore, 
+li<lb break="no" ed="#Bf" n="37"/>cet secundum alteram partem poenam
+<lb ed="#Bf" n="38"/>homo adhuc non sustineat.
+</p>
+            <p xml:id="alalal-j41842-d1e250">
+               <lb ed="#Bf" n="39"/>Ad aliud dicendum, quod licet 
+corri<lb break="no" ed="#Bf" n="40"/>gere non possit statum sue 
+confirmatio<lb break="no" ed="#Bf" n="41"/>nis in malo, tamen quilibet actus 
+singu<lb break="no" ed="#Bf" n="42"/>laris est sibi voluntarius : et ideo 
+vitupe<lb break="no" ed="#Bf" n="43"/>ratur.
+</p>
+            <p xml:id="alalal-j41842-d1e263">
+               <lb ed="#Bf" n="44"/>De hoc autem modo confirmationis
+<lb ed="#Bf" n="45"/>melius invenies dictum in tertio 
+Senten<lb break="no" ed="#Bf" n="46"/>tiarum quam hic.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

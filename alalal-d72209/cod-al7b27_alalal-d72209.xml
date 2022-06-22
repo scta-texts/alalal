@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="404"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d72209"><!-- l2d24a7 -->
+            <head xml:id="alalal-d72209-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-d72209-Hd1e101" type="question-title">Quis sit actus liberi arbitrii ? et, Utrum
+eligere ?</head>
+            <p xml:id="alalal-d72209-d1e104">
+               <lb ed="#Bc" n="5"/>ARTICULUS VII.
+<lb ed="#Bc" n="6"/>Quis sit actus liberi arbitrii ? et, Utrum
+<lb ed="#Bc" n="7"/>eligere ?
+</p>
+            <p xml:id="alalal-d72209-d1e113">
+               <lb ed="#Bc" n="8"/>Tertio, Queritur de actu liberi 
+arbi<lb break="no" ed="#Bc" n="9"/>trii qui est eligere, ut habetur ex 
+diffini<lb break="no" ed="#Bc" n="10"/>tione quam ponit Augustinus.
+</p>
+            <p xml:id="alalal-d72209-d1e122">
+               <lb ed="#Bc" n="11"/>Sed contra videtur esse actus 
+eligen<lb break="no" ed="#Bc" n="12"/>tie :
+<lb ed="#Bc" n="13"/>1. Eligentia non est liberum 
+arbi<lb break="no" ed="#Bc" n="14"/>trium : ergo eligere non est actus liberi.
+<lb ed="#Bc" n="15"/>arbitrii. Quod autem eligentia non sit
+<lb ed="#Bc" n="16"/>liberi arbitrii patet : quia dicit 
+Philoso<lb break="no" ed="#Bc" n="17"/>phus, quod eligentia semper est recta,
+<lb ed="#Bc" n="18"/>liberum arbitrium est rectum et non
+<lb ed="#Bc" n="19"/>rectum.
+</p>
+            <p xml:id="alalal-d72209-d1e145">
+               <lb ed="#Bc" n="20"/>2. Item, Unius simplicis potentie est
+<lb ed="#Bc" n="21"/>unus simplex actus: sed liberum 
+arbi<lb break="no" ed="#Bc" n="22"/>trium est simplex potentia et una : ergo
+<lb ed="#Bc" n="23"/>habet actum simplicem. Prima patet per
+<lb ed="#Bc" n="24"/>se. Secunpa accipitur ex premissis. Inde
+<lb ed="#Bc" n="25"/>sic : Eligere non est actus simplex : ergo
+<lb ed="#Bc" n="26"/>eligere non est actus liberi arbitrii.
+</p>
+            <p xml:id="alalal-d72209-d1e163">
+               <lb ed="#Bc" n="27"/>Probatio prime est, quod diffiniens
+<lb ed="#Bc" n="28"/>Damascenus eligere, plura ponit in 
+diffi<lb break="no" ed="#Bc" n="29"/>nitione, dicens quod eligere est duobus
+<lb ed="#Bc" n="30"/>prepositis hoc illi preoptare.
+</p>
+            <p xml:id="alalal-d72209-d1e174">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="31"/>Sorutio. Dicendum, quod eligere duc”
+<lb ed="#Bc" n="32"/>pliciter est, scilicet ex consensu Sponta..
+<lb ed="#Bc" n="33"/>neo, ut Magister dicit in sequenti dig.
+<lb ed="#Bc" n="34"/>tinctione : et sic est electio cujus quog
+<lb ed="#Bc" n="35"/>vult eligens, et consistit in libertate
+<lb ed="#Bc" n="36"/>arbitrii. Est etiam electio determina.
+<lb ed="#Bc" n="37"/>tio melioris secundum rationem rectam
+<lb ed="#Bc" n="38"/>eligibilis, et sic est eligentiae : et sig
+<lb ed="#Bc" n="39"/>patet quod electio liberi arbitrii sequitur.
+<lb ed="#Bc" n="40"/>consensum spontaneum sine regula alj.
+<lb ed="#Bc" n="41"/>qua regente : et ideo ille liber est. Ele.
+<lb ed="#Bc" n="42"/>ctio autem eligentie sequitur. regulas
+<lb ed="#Bc" n="43"/>rationis sumptas ex natura eligibilis:
+<lb ed="#Bc" n="44"/>etideo illa non est libera, sed cogitur -
+<lb ed="#Bc" n="45"/>per rationem rectam, et cadit in 
+consi<lb break="no" ed="#Bc" n="46"/>derationes artis topice, ut patet in II
+<lb ed="#Bc" n="47"/>Lopicorum : et efficitur causa efticiens
+<lb ed="#Bc" n="48"/>virtutis, ut patet in IIT Lthicorum.
+</p>
+            <p xml:id="alalal-d72209-d1e218">
+               <lb ed="#Bc" n="49"/>Per hoc patet solutio ad primum.
+</p>
+            <p xml:id="alalal-d72209-d1e223">
+               <lb ed="#Bc" n="50"/>Ad aliud dicendum, quod licet 
+libe<lb break="no" ed="#Bc" n="51"/>rum arbitrium sit una potentia, tamen
+<lb ed="#Bc" n="52"/>radicatio ejus non est immediate super
+<lb ed="#Bc" n="53"/>substantiam anime, ut prius dictum
+<lb ed="#Bc" n="54"/>est, sed potius est super ipsam 
+jam<lb break="no" ed="#Bc" n="55"/>determinatam per alias potentias quas .
+<lb ed="#Bc" n="56"/>sibi preponit: et ideo in actu habet.
+<lb ed="#Bc" n="57"/>etiam aliquid ab aliis, tamen_ illud est.
+<lb ed="#Bc" n="58"/>materiale, scilicet proponere duo : 
+sed<lb break="no" ed="#Bc" n="59"/>complementum actus est penes 
+prxop<lb break="no" ed="#Bc" n="60"/>ptare : et sic invenitur in omnibus 
+acti<lb break="no" ed="#Bc" n="61"/>bus qui non sunt unius potenti 
+secun<lb break="no" ed="#Bc" n="62"/>dum quod est sola, sed in comparatione
+<lb ed="#Bc" n="63"/>ordinis ad alias, ut frui, uti, scire, et
+<lb ed="#Bc" n="64"/>multis talibus, de quibus in primo libro
+<lb ed="#Bc" n="65"/>Senientiarum + est notatum : et in alio
+<lb ed="#Bc" n="66"/>opere ab hoc in questione de vita 
+eter<lb break="no" ed="#Bc" n="67"/>na.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

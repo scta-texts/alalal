@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="59"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d11037"><!-- l2d3dt1 -->
+            <head xml:id="alalal-d11037-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-d11037-d1e101">
+               <lb ed="#Bc" n="14"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-d11037-d1e106">
+               <lb ed="#Bc" n="15"/>
+               <quote xml:id="alalal-d11037-Qd1e110"> Ecce ostensum est ubi Angeli 
+fue<lb break="no" ed="#Bc" n="16"/>runt mox ut creati sunt. </quote>
+               <lb ed="#Bc" n="17"/>Hic incipit Magister agere de 
+intrin<lb break="no" ed="#Bc" n="18"/>secis pertinentibus ad primum statum
+<lb ed="#Bc" n="19"/>creationis Angelorum.
+</p>
+            <p xml:id="alalal-d11037-d1e122">
+               <lb ed="#Bc" n="20"/>Dividitur autem in tres partes, 
+secun<lb break="no" ed="#Bc" n="21"/>dum tres questiones quas hic tangit
+<lb ed="#Bc" n="22"/>Magister.
+<lb ed="#Bc" n="23"/>Prima est de naturalibus Angelorum.
+<lb ed="#Bc" n="24"/>Secunda de habitibus gratiae vel 
+mali<lb break="no" ed="#Bc" n="25"/>tie, querendo, Si in gratia, vel malitia
+<lb ed="#Bc" n="26"/>vel in neutro creati sunt vel non ? Et hee
+<lb ed="#Bc" n="27"/>incipit in quarta distinctione, ibi A,
+<lb ed="#Bc" n="28"/>
+               <quote xml:id="alalal-d11037-Qd1e143"> Post haec videndum est, Utrum, etc. </quote>
+            </p>
+            <p xml:id="alalal-d11037-d1e146">
+               <lb ed="#Bc" n="29"/>Prima harum continet tres particulas :
+<lb ed="#Bc" n="30"/>in quarum prima agit de his quae 
+natura<lb break="no" ed="#Bc" n="31"/>liter atfribuuntur creature angelice. In
+<lb ed="#Bc" n="32"/>secunda agit de differentia Angelorum
+<lb ed="#Bc" n="33"/>in participando illa attributa, ibi, B,
+<lb ed="#Bc" n="34"/>
+               <quote xml:id="alalal-d11037-Qd1e161"> Hic considerandum est, etc. </quote> In tertia
+<lb ed="#Bc" n="35"/>ponit convenientiam eorum secundum
+<lb ed="#Bc" n="36"/>aequalitatem in aliis, ibi, C, <quote xml:id="alalal-d11037-Qd1e167"> Et sicut in
+<lb ed="#Bc" n="37"/>praedictis, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

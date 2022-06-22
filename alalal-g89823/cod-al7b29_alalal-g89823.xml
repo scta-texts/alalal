@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 15</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 15</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="432"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g89823"><!-- l4d14a15 -->
+            <head xml:id="alalal-g89823-Hd1e99">Articulus 15</head>
+            <head xml:id="alalal-g89823-Hd1e101" type="question-title">An illis qui iterant peccata, prosint
+priora lamenta ?</head>
+            <p xml:id="alalal-g89823-d1e104">
+               <lb ed="#Be" n="4"/>ARTICULUS XV.
+<lb ed="#Be" n="5"/>An illis qui iterant peccata, prosint
+<lb ed="#Be" n="6"/>priora lamenta ?
+</p>
+            <p xml:id="alalal-g89823-d1e113">
+               <lb ed="#Be" n="7"/>Deinde queritur de hoc quod dicitur,
+<lb ed="#Be" n="8"/>ibi, A, § 4 : <quote xml:id="alalal-g89823-Qd1e119"> Nihil prosunt lamenta,
+<lb ed="#Be" n="9"/>si replicantur peccata, etc. </quote>
+            </p>
+            <p xml:id="alalal-g89823-d1e125">
+               <lb ed="#Be" n="10"/>Videtur enim hoc esse falsum.
+<lb ed="#Be" n="11"/>1. Lamenta enim prosunt ad 
+remissio<lb break="no" ed="#Be" n="12"/>nem preteritorum : et hoc est multum
+<lb ed="#Be" n="13"/>prodesse : igitur aliquid prosunt.
+</p>
+            <p xml:id="alalal-g89823-d1e137">
+               <lb ed="#Be" n="14"/>2. Item queritur, Qua ratione 
+dicun<lb break="no" ed="#Be" n="15"/>tur lamenta preeterita non prodesse ? Quia
+<lb ed="#Be" n="16"/>impeditur salus ex peccatis futuris : ea~
+<lb ed="#Be" n="17"/>dem ratione dicitur baptismus non 
+prod<lb break="no" ed="#Be" n="18"/>esse, Si aliquis post baptismum peccet :
+<lb ed="#Be" n="19"/>sed hoc est falsum : ergo et illud.
+</p>
+            <p xml:id="alalal-g89823-d1e153">
+               <lb ed="#Be" n="20"/>Soturio. Dicendum, quod intelligitur
+<lb ed="#Be" n="21"/>de his qui voluntate habituali replicant
+<lb ed="#Be" n="22"/>peccata, etsi voluntate actual plangant
+<lb ed="#Be" n="23"/>et illi non habent fundamentum 
+peeni<lb break="no" ed="#Be" n="24"/>tentia : et ideo poenitentia eorum nulla
+<lb ed="#Be" n="25"/>est. Vel dicatur, sicut Magister dicit 
+in<lb break="no" ed="#Be" n="26"/>fra, quod nihil prosunt, non simpliciter,
+<lb ed="#Be" n="27"/>sed ad salutem consequendam.
+</p>
+            <p xml:id="alalal-g89823-d1e173">
+               <lb ed="#Be" n="28"/>Av atiup dicendum, quod non est 
+si<lb break="no" ed="#Be" n="29"/>mile de baptismo : quia licet homo fictus
+<lb ed="#Be" n="30"/>accedat ad- baptismum, tamen recipit
+<lb ed="#Be" n="31"/>characterem,et sic aliquid prodest 
+baptis<lb break="no" ed="#Be" n="32"/>mus : sed poenitentia non prodest ficte
+<lb ed="#Be" n="33"/>accipienti. Secundum aliam 
+responsio<lb break="no" ed="#Be" n="34"/>nem quam Magister infra tenet in 
+Zit<lb break="no" ed="#Be" n="35"/>tera, dicendum quod non est simile de
+<lb ed="#Be" n="36"/>baptismo : quia baptismus est 
+funda<lb break="no" ed="#Be" n="37"/>mentum sacramentorum, et adhuc cum
+<lb ed="#Be" n="38"/>homo peccat, prodest ad fundamentum
+<lb ed="#Be" n="39"/>habendum : sed non sic est de 
+peeniten<lb break="no" ed="#Be" n="40"/>tia: et ideo illa non prodesse dicitur,
+<lb ed="#Be" n="41"/>quia nihil de ea relinquitur per sequens
+<lb ed="#Be" n="42"/>peccatum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="606"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-j26707"><!-- l4d45dt1 -->
+            <head xml:id="alalal-j26707-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-j26707-d1e101">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="28"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-j26707-d1e108">
+               <lb ed="#Bf" n="29"/>
+               <quote xml:id="alalal-j26707-Qd1e112"> Neque negandum est, ut ait 
+Augu<lb break="no" ed="#Bf" n="30"/>stinus, etc. </quote>
+               <cb ed="#Bf" n="c"/>
+               <lb ed="#Bf" n="31"/>Hic agit de suffragiis mortuorum.
+</p>
+            <p xml:id="alalal-j26707-d1e122">
+               <lb ed="#Bf" n="32"/>Et tangit duo, scilicet de ipsis 
+sutira<lb break="no" ed="#Bf" n="33"/>giis, et questionibus consequentibus : et
+<lb ed="#Bf" n="34"/>hoc secundum incipit, ibi,C, <quote xml:id="alalal-j26707-Qd1e130"> Solet
+<lb ed="#Bf" n="35"/>moveri questio de duobus, etc. </quote>
+            </p>
+            <p xml:id="alalal-j26707-d1e136">
+               <lb ed="#Bf" n="36"/>Item, In prima introducit duo. Primo
+<lb ed="#Bf" n="37"/>enim tangit, An valeant suffragia 
+Eccle<lb break="no" ed="#Bf" n="38"/>siae?
+</p>
+            <p xml:id="alalal-j26707-d1e146">
+               <pb ed="#Bf" n="607"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Et secundo, de pompis exsequiarum,
+<lb ed="#Bf" n="2"/>ibi, B, <quote xml:id="alalal-j26707-Qd1e156"> De pompis vero exsequiarum,
+<lb ed="#Bf" n="3"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-j26707-d1e162">
+               <lb ed="#Bf" n="4"/>Circa primum in diversis locis incidunt
+<lb ed="#Bf" n="5"/>noyem, quae omnia tangit in Liélera:
+<lb ed="#Bf" n="6"/>quorum primum est, An valeant 
+suffra<lb break="no" ed="#Bf" n="7"/>gia quae facit unus alteri homini?
+<lb ed="#Bf" n="8"/>Secundum, Utrum valeant defunctis ?
+<lb ed="#Bf" n="9"/>Tertium, Utrum decedentibus in 
+mor<lb break="no" ed="#Bf" n="10"/>talibus?
+<lb ed="#Bf" n="11"/>Quartum, Utrum his qui sunt in 
+pur<lb break="no" ed="#Bf" n="12"/>gatorio ?
+<lb ed="#Bf" n="13"/>Quintum, Utrum patribus qui erant
+<lb ed="#Bf" n="14"/>in limbo ante Christi adventum, 
+value<lb break="no" ed="#Bf" n="15"/>rint?
+<lb ed="#Bf" n="16"/>Sexto, Utrum pueris qui in originali
+<lb ed="#Bf" n="17"/>peccato decedunt ?
+<lb ed="#Bf" n="18"/>Septimum, Utrum valeant Sanctis in
+<lb ed="#Bf" n="19"/>regno celorum ?
+<lb ed="#Bf" n="20"/>Octavum, Quae suffragia magis 
+va<lb break="no" ed="#Bf" n="21"/>leant ?
+<lb ed="#Bf" n="22"/>Nonum, Per quos fieri debeant ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="34"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-cc6364"><!-- l1d27a1 -->
+            <head xml:id="alalal-cc6364-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-cc6364-Hd1e101" type="question-title">An idem sit genuisse Filium, et esse
+Patrem ?</head>
+            <p xml:id="alalal-cc6364-d1e104">
+               <lb ed="#Bb" n="18"/>ARTICULUS I.
+<lb ed="#Bb" n="19"/>An idem sit genuisse Filium, et esse
+<lb ed="#Bb" n="20"/>Patrem ?
+</p>
+            <p xml:id="alalal-cc6364-d1e113">
+               <lb ed="#Bb" n="21"/>Incidit autem hic questio primo de
+<lb ed="#Bb" n="22"/>intentione Magistri, Utrum idem sit ge--
+<lb ed="#Bb" n="23"/>nuisse Filium, et esse Patrem ?
+</p>
+            <p xml:id="alalal-cc6364-d1e122">
+               <lb ed="#Bb" n="24"/>1. Et inducit unam rationem Magisterin
+<lb ed="#Bb" n="25"/>Littera, quod non sit idem : quia si esset
+<lb ed="#Bb" n="26"/>idem, cui conveniret unum, conveniret
+<lb ed="#Bb" n="27"/>et aliud: sed essentiae divine convenit
+<lb ed="#Bb" n="28"/>esse Patrem : ergo essentisee divine 
+con<lb break="no" ed="#Bb" n="29"/>venit genuisse Filium, quod falsum est.
+</p>
+            <p xml:id="alalal-cc6364-d1e139">
+               <lb ed="#Bb" n="30"/>2. Ad idem potest objici sic : Non
+<lb ed="#Bb" n="31"/>idem est si baptismus fiat in nomine 
+ge<lb break="no" ed="#Bb" n="32"/>nitoris et geniti, et in nomine Patris et
+<lb ed="#Bb" n="33"/>Filii : si enim fiat in nomine genitoris et
+<lb ed="#Bb" n="34"/>geniti et doni, non reputatur baptismus :
+<lb ed="#Bb" n="35"/>sed si fiat in nomine Patris, et Filii, et
+<lb ed="#Bb" n="36"/>Spiritus sancti, baptismus reputatur
+<lb ed="#Bb" n="37"/>ergo videtur, quod non idem significent.
+</p>
+            <p xml:id="alalal-cc6364-d1e159">
+               <lb ed="#Bb" n="38"/>3. Praeterea, Magister dicit in tertio
+<lb ed="#Bb" n="39"/>capitulo istius partis, quod cum dicitur
+<lb ed="#Bb" n="40"/>pater, significatur hypostasis cum 
+pro<lb break="no" ed="#Bb" n="41"/>prietate (alias, paternitate) : cum autem
+<lb ed="#Bb" n="42"/>dicitur genuit, non significatur nisi pro-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="43"/>prietas : ergo non idem significatur, ut
+<lb ed="#Bb" n="44"/>videtur.
+</p>
+            <p xml:id="alalal-cc6364-d1e179">
+               <lb ed="#Bb" n="45"/>1. Sed contra videtur, quod haec sit Sed eo)
+<lb ed="#Bb" n="46"/>falsa, essentia est Pater, sicut hec, 
+es<lb break="no" ed="#Bb" n="47"/>sentia genuit : si enim essentia est 
+Pa<lb break="no" ed="#Bb" n="48"/>ter, non est Pater nisi Filii: ergo haec
+<lb ed="#Bb" n="49"/>est vera, essentia est Pater Filii : ergo
+<lb ed="#Bb" n="50"/>sequitur ulterius, quod essentia genuit
+<lb ed="#Bb" n="51"/>Filium, et quod essentia dicitur relative,
+<lb ed="#Bb" n="52"/>et quod distinguitur : quae omnia supra
+<lb ed="#Bb" n="53"/>negata sunt : ergo videtur, quod 
+proba<lb break="no" ed="#Bb" n="54"/>tio Magistri nihil valeat.
+</p>
+            <p xml:id="alalal-cc6364-d1e203">
+               <lb ed="#Bb" n="55"/>2. Item, Si aliae sunt iste proprietates
+<lb ed="#Bb" n="56"/>quam ille, tune, eadem ratione etiam
+<lb ed="#Bb" n="57"/>alie sunt, cum dicitur, Pater 
+distingui<lb break="no" ed="#Bb" n="58"/>tur a Filio, et refertur ad Filium, et 
+pro<lb break="no" ed="#Bb" n="59"/>ducit Filium : ergo multe valde essent
+<lb ed="#Bb" n="60"/>relationes : ergo videtur, quod sint 
+peni<lb break="no" ed="#Bb" n="61"/>tus eedem.
+</p>
+            <p xml:id="alalal-cc6364-d1e221">
+               <lb ed="#Bb" n="62"/>Sonvutio. Dicendum ad hoc, quod sunt
+<lb ed="#Bb" n="63"/>eedem re sub alio modo significandi.
+<lb ed="#Bb" n="64"/>Iste autem modus significandi diversus
+<lb ed="#Bb" n="65"/>est, propter tria: quorum primum et
+<lb ed="#Bb" n="66"/>precipuum est quod Magister tangit in
+<lb ed="#Bb" n="67"/>Littera, quod Pater et Filius et Spiritus
+<lb ed="#Bb" n="68"/>sanctus sunt nomina hypostasum et 
+pro<lb break="no" ed="#Bb" n="69"/>prietatum : generari autem et generare
+<lb ed="#Bb" n="70"/>sunt nomina proprietatum tantum. 
+Se<lb break="no" ed="#Bb" n="71"/>cunda ratio est : quia cum pater 
+signifi<lb break="no" ed="#Bb" n="72"/>cet proprietatem concretive, et generare
+<lb ed="#Bb" n="73"/>concretive, diversus est modus 
+concre<lb break="no" ed="#Bb" n="74"/>tionis : cum enim dicitur album, 
+signifi<lb break="no" ed="#Bb" n="75"/>catur subjectum cum albedine, eo quod
+<lb ed="#Bb" n="76"/>ipsum est substantia nominis : cum 
+au<lb break="no" ed="#Bb" n="77"/>tem dicitur albescere, significatur 
+acci<lb break="no" ed="#Bb" n="78"/>dens inhwrens sine subjecto et hoc
+<lb ed="#Bb" n="79"/>ideo est quia actus habet in se 
+substan<lb break="no" ed="#Bb" n="80"/>tiam, sicut a qua sit: et licet sit in 
+ali<lb break="no" ed="#Bb" n="81"/>qua substantia secundum quod est 
+acci<lb break="no" ed="#Bb" n="82"/>dens, tamen quia significatur ut actus,
+<lb ed="#Bb" n="83"/>non significatur in ipso hujusmodi 
+sub<lb break="no" ed="#Bb" n="84"/>stantia in qua sit : et ideo significatur ut
+<lb ed="#Bb" n="85"/>non claudens in suo significato 
+subje<lb break="no" ed="#Bb" n="86"/>ctum et substantiam. Tertium est: quia
+<lb ed="#Bb" n="87"/>generare et hujusmodi significant 
+pro<lb break="no" ed="#Bb" n="88"/>prietates in genere, et non in specie:
+<lb ed="#Bb" n="89"/>non enim sequitur si aliquid generat
+<lb ed="#Bb" n="90"/>aliquid, quod sit pater ejus : nec si ali-
+<pb ed="#Bb" n="35"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>quid generatur, quod sit filius ejus, sicut 
+<lb ed="#Bb" n="2"/>habemus ab Augustino determinatum ‘.
+<lb ed="#Bb" n="3"/>His habitis, concedende sunt rationes
+<lb ed="#Bb" n="4"/>primo inducte.
+</p>
+            <p xml:id="alalal-cc6364-d1e299">
+               <lb ed="#Bb" n="5"/>Ad id autem quod contra objicitur, 
+di<lb break="no" ed="#Bb" n="6"/>cendum quodcum dicitur, essentia est
+<lb ed="#Bb" n="7"/>Pater, duplex est locutio ex eo quod ly
+<lb ed="#Bb" n="8"/>Pater potest teneri adjective, et sic est
+<lb ed="#Bb" n="9"/>falsa, et in hoc sensu improbatur : vel
+<lb ed="#Bb" n="10"/>substantive, et in hoc sensu conceditur
+<lb ed="#Bb" n="11"/>a Magistro, hoc est, essentia est ille qui 
+<lb ed="#Bb" n="12"/>est Pater.
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="13"/>Ad aliud dicendum, quod non potest 
+<lb ed="#Bb" n="14"/>multiplicatio fieri ultra tres proprietates
+<lb ed="#Bb" n="15"/>personales : quia hujusmodi verba, 
+di<lb break="no" ed="#Bb" n="16"/>stinguere, et referre, et hujusmodi, 
+si<lb break="no" ed="#Bb" n="17"/>gnificant potius id quod consequitur ex
+<lb ed="#Bb" n="18"/>proprietatibus, quam proprietates, et non
+<lb ed="#Bb" n="19"/>specificant eas. Ergo cum genus nihil
+<lb ed="#Bb" n="20"/>addat supra speciem, et non 
+connumere<lb break="no" ed="#Bb" n="21"/>tur ei, non dicuntur notiones speciales
+<lb ed="#Bb" n="22"/>hujusmodi verba : tamen nota quod <name xml:id="alalal-cc6364-Nd1e342">
+Por<lb break="no" ed="#Bb" n="23"/>retani</name> infinitas ponentes notiones, illas
+<lb ed="#Bb" n="24"/>concesserunt objectiones.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

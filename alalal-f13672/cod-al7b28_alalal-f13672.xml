@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="585"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f13672"><!-- l3d31a7 -->
+            <head xml:id="alalal-f13672-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-f13672-Hd1e101" type="question-title">An fides potest evacuari?</head>
+            <p xml:id="alalal-f13672-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="16"/>ARTICULUS VII.
+<lb ed="Bd" n="17"/>An fides potest evacuari?
+</p>
+            <p xml:id="alalal-f13672-d1e113">
+               <lb ed="Bd" n="18"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="19"/>ibi, <quote xml:id="alalal-f13672-Qd1e119"> Advertendum etiam est, quomodo
+<lb ed="Bd" n="20"/>fides, spes, et scientia dicantur evacuari,
+<lb ed="Bd" n="21"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-f13672-d1e127">
+               <lb ed="Bd" n="22"/>Et queruntur quatuor : quorum 
+pri<lb break="no" ed="Bd" n="23"/>mum est de evacuatione fidei.
+<lb ed="Bd" n="24"/>Secundum, de evacuatione spei.
+<lb ed="Bd" n="25"/>Tertium, An charitas evacuatur? et
+<lb ed="Bd" n="26"/>quare non, si non evacuatur ?
+<lb ed="Bd" n="27"/>Quartum, de evacuatione scientia.
+</p>
+            <p xml:id="alalal-f13672-d1e144">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="28"/>Ad PRimum objicitur sic :
+</p>
+            <p xml:id="alalal-f13672-d1e151">
+               <lb ed="Bd" n="29"/>1. Fides est fundamentum in edificio
+<lb ed="Bd" n="30"/>spirituali : sed si fundamentum 
+evacua<lb break="no" ed="Bd" n="31"/>tur, totum ruit edificium : ergo si fides
+<lb ed="Bd" n="32"/>evacuatur, omnes gratiae et virtutes et res
+<lb ed="Bd" n="33"/>sperande ruunt in nihilum, quod esset
+<lb ed="Bd" n="34"/>magnum inconveniens.
+</p>
+            <p xml:id="alalal-f13672-d1e167">
+               <lb ed="Bd" n="35"/>2. Item, Majus lumen non offuscat 
+mi<lb break="no" ed="Bd" n="36"/>nus lumen, sed perficit : sed visio facie
+<lb ed="Bd" n="37"/>ad faciem succedit fidei : ergo non 
+eva<lb break="no" ed="Bd" n="38"/>cuat eam, ut videtur.
+</p>
+            <p xml:id="alalal-f13672-d1e178">
+               <lb ed="Bd" n="39"/>SED CONTRA !
+<lb ed="Bd" n="40"/>Supra probatum est saepius, quod
+<lb ed="Bd" n="41"/>fides est non apparens? : sed in patria
+<lb ed="Bd" n="42"/>nihil est non apparens : ergo non erit ibi
+<lb ed="Bd" n="43"/>fides.
+</p>
+            <p xml:id="alalal-f13672-d1e191">
+               <pb ed="#Bd" n="586"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Solutio Dicendum, quod in fide duo
+<lb ed="Bd" n="2"/>sunt ex parte illa qua est cognitio. Et
+<lb ed="Bd" n="3"/>tertium est quod est alfectio. Unum in
+<lb ed="Bd" n="4"/>cognitione est genus visionis. Hst enim
+<lb ed="Bd" n="5"/>fides visio quaedam veritatis divine : et
+<lb ed="Bd" n="6"/>vocatur a quibusdam substantia prima
+<lb ed="Bd" n="7"/>fidei, quia circa illud specificandum 
+po<lb break="no" ed="Bd" n="8"/>nuntur omnes forme et differentiae, qua
+<lb ed="Bd" n="9"/>constituunt fidem in specie virtutis. 
+Se<lb break="no" ed="Bd" n="10"/>cundum autem est forma informans hanc
+<lb ed="Bd" n="11"/>cognitionem sive visionem ad speciem
+<lb ed="Bd" n="12"/>fidei Hec autem est speculum et 
+enig<lb break="no" ed="Bd" n="13"/>ma non apparentis. Et sublatis his non
+<lb ed="Bd" n="14"/>est fides. Potest tamen esse visio faciei,
+<lb ed="Bd" n="15"/>vel alterius scientiae. Tertium est affectio,
+<lb ed="Bd" n="16"/>quod non propter aliquid assentit nisi
+<lb ed="Bd" n="17"/>propter primain veritatem absolute : quia
+<lb ed="Bd" n="18"/>si haberet rationem, non propter eam
+<lb ed="Bd" n="19"/>crederet. Dic ergo potest, quod fides
+<lb ed="Bd" n="20"/>evacuatur quoad secundum, quod est
+<lb ed="Bd" n="21"/>forma, et modus visionis : non autem
+<lb ed="Bd" n="22"/>quoad primum et ultimum : sed potius
+<lb ed="Bd" n="23"/>illa manent et perliciuntur. Et succedit
+<lb ed="Bd" n="24"/>sic fidei visio, quae est tota merces : quia
+<lb ed="Bd" n="25"/>est visio pascens amatiet habiti.
+</p>
+            <p xml:id="alalal-f13672-d1e252">
+               <lb ed="Bd" n="26"/>Ad primum ergo dicendum, quod fides
+<lb ed="Bd" n="27"/>est substantia hic : et ratione illa quae
+<lb ed="Bd" n="28"/>est visio, est substantia : et hoc non ruit
+<lb ed="Bd" n="29"/>ibi. Et ideo edilicium manet totum ;
+<lb ed="Bd" n="30"/>quia id quod est disians, et in speculo et
+<lb ed="Bd" n="31"/>in enigmate, non potest esse ratio 
+fun<lb break="no" ed="Bd" n="32"/>damenti, cum sit imperfectionis, quae non
+<lb ed="Bd" n="33"/>competit glorificatis.
+</p>
+            <p xml:id="alalal-f13672-d1e273">
+               <lb ed="Bd" n="34"/>Ad aliud dicendum, quod hoc est 
+ve<lb break="no" ed="Bd" n="35"/>rum de luminibus quae non sunt ordinata
+<lb ed="Bd" n="36"/>ad invicein ut imperfectum et perfectum :
+<lb ed="Bd" n="37"/>sed sic non est hic. Imperlectum enim
+<lb ed="Bd" n="38"/>cedit perfecto in omnibus, sicut privatio
+<lb ed="Bd" n="39"/>cedit forme in natura.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

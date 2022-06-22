@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="470"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e90698"><!-- l3d24a12 -->
+            <head xml:id="alalal-e90698-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-e90698-Hd1e101" type="question-title">An fides sit potius per visum, quam per
+auditum ?</head>
+            <p xml:id="alalal-e90698-d1e104">
+               <lb ed="Bd" n="12"/>ARTICULUS XII.
+<lb ed="Bd" n="13"/>An fides sit potius per visum, quam per
+<lb ed="Bd" n="14"/>auditum ?
+</p>
+            <p xml:id="alalal-e90698-d1e113">
+               <lb ed="Bd" n="15"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="16"/>ibi, C, sub finem: <quote xml:id="alalal-e90698-Qd1e119"> Nec ea quee prius 
+cre<lb break="no" ed="Bd" n="17"/>duntur quam intelligantur, penitus 
+igno<lb break="no" ed="Bd" n="18"/>rantur, cum fides sit ex audite, etc. </quote>
+            </p>
+            <p xml:id="alalal-e90698-d1e127">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="19"/>Cum enim fides sit cogitatio quaedam :
+<lb ed="Bd" n="20"/>et cogitatio fit inventione et doctrina,
+<lb ed="Bd" n="21"/>potius videtur esse per visum, quam per
+<lb ed="Bd" n="22"/>auditum : quia
+</p>
+            <p xml:id="alalal-e90698-d1e141">
+               <lb ed="Bd" n="23"/>1. Visus deservit inventioni, et auditus
+<lb ed="Bd" n="24"/>doctrine : et inventio potior est quam
+<lb ed="Bd" n="25"/>doctrina.
+</p>
+            <p xml:id="alalal-e90698-d1e150">
+               <lb ed="Bd" n="26"/>2. Item, Visus nobilior est sensus,
+<lb ed="Bd" n="27"/>quam auditus, et plurium doctrinarum,
+<lb ed="Bd" n="28"/>et magis cerlilicans ea quae sunt omnis
+<lb ed="Bd" n="29"/>sensus : ergo videtur, quod potius debeat
+<lb ed="Bd" n="30"/>esse ex visu, quam ex auditu.
+</p>
+            <p xml:id="alalal-e90698-d1e163">
+               <lb ed="Bd" n="31"/>Solutio Dicendum, quod auditus 
+sem<lb break="no" ed="Bd" n="32"/>per accipit ab alio disciplinam : et quia
+<lb ed="Bd" n="33"/>fides est ab alio superiore lumine, et non
+<lb ed="Bd" n="34"/>a nostra inventione : ideo magis competit
+<lb ed="Bd" n="35"/>ei auditus, quam visus : et per hoc patet
+<lb ed="Bd" n="36"/>solutio ad primum.
+</p>
+            <p xml:id="alalal-e90698-d1e179">
+               <lb ed="Bd" n="37"/>Ad aliud dicendum, quod visus 
+nobi<lb break="no" ed="Bd" n="38"/>lior est, quando referuntur ad propria
+<lb ed="Bd" n="39"/>objecta : sed hic non est sic : sed potius
+<lb ed="Bd" n="40"/>dicitur auditus interior, qui est acceptio
+<lb ed="Bd" n="41"/>notitiae prime veritatis ab alio : et ideo
+<lb ed="Bd" n="42"/>illa objectio nihil facit ad propositum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

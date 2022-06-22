@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="380"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i79065"><!-- l4d37dt1 -->
+            <head xml:id="alalal-i79065-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-i79065-d1e101">
+               <lb ed="#Bf" n="7"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-i79065-d1e106">
+               <lb ed="#Bf" n="8"/>
+               <quote xml:id="alalal-i79065-Qd1e110"> Sunt igitur quidam ordines, etc. </quote>
+               <lb ed="#Bf" n="9"/>Ilic agitur de impedimento ordinis: et
+<lb ed="#Bf" n="10"/>non sunt in ista distinctione nisi duo
+<lb ed="#Bf" n="11"/>parva capitula, quorum primuin est de
+<lb ed="#Bf" n="12"/>impedimento ordinis: secundum, de 
+in<lb break="no" ed="#Bf" n="13"/>terfectoribus suarum conjugum, et 
+inei<lb break="no" ed="#Bf" n="14"/>pu ibi, B, <quote xml:id="alalal-i79065-Qd1e125"> Tis adzicienduim est de
+<lb ed="#Bf" n="15"/>percussoribus, etc.</quote>
+            </p>
+            <p xml:id="alalal-i79065-d1e131">
+               <lb ed="#Bf" n="16"/>Circa primum autem capitulum 
+que<lb break="no" ed="#Bf" n="17"/>runtur septem.
+<lb ed="#Bf" n="18"/>Primum est, An Ordo impediat 
+matri<lb break="no" ed="#Bf" n="19"/>monium contrahendum, et dirimat 
+con<lb break="no" ed="#Bf" n="20"/>tractum ?
+<lb ed="#Bf" n="21"/>Sceundum, Utrum sit locale et 
+tem<lb break="no" ed="#Bf" n="22"/>porale impedimentum, vel perpetuum et
+<lb ed="#Bf" n="23"/>generale ?
+<lb ed="#Bf" n="24"/>Tertium, Utrum omnis ordo hoc facit,
+<lb ed="#Bf" n="25"/>vel quidam, et quis sit ille?
+<lb ed="#Bf" n="26"/>Quartum, De eo qui habens uxorem,
+<lb ed="#Bf" n="27"/>uxore consentiente, est ordinatus, utrum
+<lb ed="#Bf" n="28"/>ipsa uxor teneatur intrare religionem ?
+<lb ed="#Bf" n="29"/>Quintum, De eo qui ordinatus est uxore
+<lb ed="#Bf" n="30"/>nesciente vel reclamante, utrum aliquod
+<lb ed="#Bf" n="31"/>prajudicium sit factum uxori?
+<lb ed="#Bf" n="32"/>Sextum, De clericis Orientalibus qui
+<lb ed="#Bf" n="33"/>ordinantur, utrum reclamantibus 
+uxori<lb break="no" ed="#Bf" n="34"/>bus possint ordinari ?
+<lb ed="#Bf" n="35"/>Septimum, De uxoribus Orientalium,
+<lb ed="#Bf" n="36"/>qui volentibus uxoribus sunt ordinati,
+<lb ed="#Bf" n="37"/>utrum post mortem clerici mariti ad 
+per<lb break="no" ed="#Bf" n="38"/>petuam teneantur continentiam ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

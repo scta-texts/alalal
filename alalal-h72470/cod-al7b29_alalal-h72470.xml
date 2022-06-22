@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="803"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h72470"><!-- l4d19a1 -->
+            <head xml:id="alalal-h72470-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-h72470-Hd1e101" type="question-title">An Christus habuit claves ?</head>
+            <p xml:id="alalal-h72470-d1e104">
+               <lb ed="#Be" n="10"/>ARTICULUS I.
+<lb ed="#Be" n="11"/>An Christus habuit claves ?
+</p>
+            <p xml:id="alalal-h72470-d1e111">
+               <lb ed="#Be" n="12"/>Circa primum autem dubitantur 
+qua<lb break="no" ed="#Be" n="13"/>tuor, scilicet utrum Christus habuit 
+cla<lb break="no" ed="#Be" n="14"/>ves ?
+<lb ed="#Be" n="15"/>Secundo, Utrum clavis sit aequaliter
+<lb ed="#Be" n="16"/>ad claudendum et aperiendum, vel ad
+<lb ed="#Be" n="17"/>alterum tantum horum ?
+<lb ed="#Be" n="18"/>Tertio, Qualiter se habent claves ad
+<lb ed="#Be" n="19"/>ordinem ?
+<lb ed="#Be" n="20"/>Quarto, Utrum non habens ordinem
+<lb ed="#Be" n="21"/>sacerdotalem habeat claves ?
+</p>
+            <p xml:id="alalal-h72470-d1e135">
+               <lb ed="#Be" n="22"/>Ad PRimuM sic objicitur :
+<lb ed="#Be" n="23"/>1. Christus habuit plenitudinem omnis
+<lb ed="#Be" n="24"/>potestatis : ergo habuit etiam potestatem
+<lb ed="#Be" n="25"/>clavis.
+</p>
+            <p xml:id="alalal-h72470-d1e147">
+               <lb ed="#Be" n="26"/>2. Item, Ipse plene habuit potestatem
+<lb ed="#Be" n="27"/>baptizandi et confirmandi : ergo et in
+<lb ed="#Be" n="28"/>poenitentia operandi : et hoc fit per 
+cla<lb break="no" ed="#Be" n="29"/>ves : ergo, etc.
+</p>
+            <p xml:id="alalal-h72470-d1e158">
+               <lb ed="#Be" n="30"/>3. Item, Ipse absolvit peccatores, 
+sci<lb break="no" ed="#Be" n="31"/>licet Magdalenam, Zacheum, et 
+hujus<lb break="no" ed="#Be" n="32"/>modi : sed hoc non potuit fieri nisi
+<lb ed="#Be" n="33"/>per claves : ergo, etc.
+</p>
+            <p xml:id="alalal-h72470-d1e169">
+               <lb ed="#Be" n="34"/>4. Item, Nihil dat quod non habet :
+<lb ed="#Be" n="35"/>sed ipse dedit claves Petro : ergo ut
+<lb ed="#Be" n="36"/>prius.
+</p>
+            <p xml:id="alalal-h72470-d1e178">
+               <lb ed="#Be" n="37"/>ContTRA :
+<lb ed="#Be" n="38"/>1. Habens claves, non habet 
+potesta<lb break="no" ed="#Be" n="39"/>tem ligandi et solvendi nisi per illas : sed
+<lb ed="#Be" n="40"/>Christus non habuit aliquid a clavibus,
+<lb ed="#Be" n="41"/>sed potius claves ab ipso : sicut et 
+bap<lb break="no" ed="#Be" n="42"/>tismus quidquid habet, habet a Christo :
+<lb ed="#Be" n="43"/>ergo Christus non habuit claves.
+</p>
+            <p xml:id="alalal-h72470-d1e196">
+               <lb ed="#Be" n="44"/>2. Item, Claves sunt instrumenta 
+mi<lb break="no" ed="#Be" n="45"/>nistrorum Ecclesie : Christus autem 
+ca<lb break="no" ed="#Be" n="46"/>put Ecclesia secundum quod homo 
+exi<lb break="no" ed="#Be" n="47"/>stens, non est minister Ecclesie
+<lb ed="#Be" n="48"/>ergo non habuit claves.
+</p>
+            <p xml:id="alalal-h72470-d1e209">
+               <lb ed="#Be" n="49"/>3. Item, In mundanis videmus, quod
+<lb ed="#Be" n="50"/>excellentia regali non convenit habere
+<lb ed="#Be" n="51"/>claves suorum thesaurorum, sed 
+commit<lb break="no" ed="#Be" n="52"/>tuntur fidelibus ministris : sed Christus
+<lb ed="#Be" n="53"/>est excellentior omni rege : non 
+compe<lb break="no" ed="#Be" n="54"/>tit ergo ei habere claves, sed ejus 
+mini<lb break="no" ed="#Be" n="55"/>stris.
+</p>
+            <p xml:id="alalal-h72470-d1e228">
+               <lb ed="#Be" n="56"/>Responsio. Dicendum, quod dupliciter
+<lb ed="#Be" n="57"/>dicitur pofestas per claves. Potest enim
+<lb ed="#Be" n="58"/>dicere prepositio per causam 
+instrumen<lb break="no" ed="#Be" n="59"/>talem : et hoc modo nihil prohibet 
+Chri<lb break="no" ed="#Be" n="60"/>stum habere claves, non a clave, sed a
+<lb ed="#Be" n="61"/>Patre : quia etiam in naturalibus omnis
+<lb ed="#Be" n="62"/>motus quo movetur instrumentum, est a
+<lb ed="#Be" n="63"/>motu moventis ipsum. Hoc autem modo
+<lb ed="#Be" n="64"/>dicimus, quod habuit claves excellenter : 
+<lb ed="#Be" n="65"/>quia sine inquisitione et labore utebatur
+<lb ed="#Be" n="66"/>et auctoritate discernendi, et potestate 
+li<lb break="no" ed="#Be" n="67"/>gandi et solvendi. Si autem clavis sive
+<lb ed="#Be" n="68"/>potestas per clavem, diceret potestatis
+<lb ed="#Be" n="69"/>causam, tali ratione non conveniret 
+Chri<lb break="no" ed="#Be" n="70"/>sto claves habere : quia hoc esset 
+mino<lb break="no" ed="#Be" n="71"/>rationis.
+</p>
+            <p xml:id="alalal-h72470-d1e265">
+               <lb ed="#Be" n="72"/>Er per hoc patet solutio ad primum
+<lb ed="#Be" n="73"/>quod est contra hoc objectum, et ad 
+se<lb break="no" ed="#Be" n="74"/>cundum et tertium : quia in veritate
+<lb ed="#Be" n="75"/>claves prout sunt in ministris, dant eis
+<lb ed="#Be" n="76"/>potestatem quam ab aliis non haberent,
+<lb ed="#Be" n="77"/>et sunt signum officii eorum quod a 
+Do<lb break="no" ed="#Be" n="78"/>mino acceperunt.
+</p>
+            <p xml:id="alalal-h72470-d1e283">
+               <lb ed="#Be" n="79"/>Ad primum autem dicimus, quod 
+Chri<lb break="no" ed="#Be" n="80"/>stus habuit potestatem ex seipso, licet
+<lb ed="#Be" n="81"/>haberet a Patre : non enim, ut dicit 
+Hi<lb break="no" ed="#Be" n="82"/>larius, Christus ita per se, id est, a 
+po<lb break="no" ed="#Be" n="83"/>teslate sue nature agit : quia quidquid
+<lb ed="#Be" n="84"/>est, et potest, et agit, totum habeot a Pa-
+<pb ed="#Be" n="804"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>tre a quo per generationem procedit.
+</p>
+            <p xml:id="alalal-h72470-d1e305">
+               <lb ed="#Be" n="2"/>Et per hoc patet solutio ad tria 
+se<lb break="no" ed="#Be" n="3"/>quentia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

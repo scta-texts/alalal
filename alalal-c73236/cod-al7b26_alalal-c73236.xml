@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="388"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c73236"><!-- l1d44dt -->
+            <head xml:id="alalal-c73236-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-c73236-d1e101">
+               <lb ed="#Bb" n="12"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-c73236-d1e106">
+               <lb ed="#Bb" n="13"/>
+               <quote xml:id="alalal-c73236-Qd1e110"> Nunc illud restat discutiendum,
+<lb ed="#Bb" n="14"/>etc. </quote>
+               <lb ed="#Bb" n="15"/>In hac distinctione Magister quaerit
+<lb ed="#Bb" n="16"/>modum omnipotentiae ex parte operis.
+</p>
+            <p xml:id="alalal-c73236-d1e120">
+               <lb ed="#Bb" n="17"/>Et sunt hic tres questiones, quarum
+<lb ed="#Bb" n="18"/>prima est, Utrum ipse universum potuit
+<lb ed="#Bb" n="19"/>melius facere quam fecit ? Et hoc 
+con<lb break="no" ed="#Bb" n="20"/>cedit Magister.
+</p>
+            <p xml:id="alalal-c73236-d1e131">
+               <lb ed="#Bb" n="21"/>Secunda questio est, Utrum ipse hoc
+<lb ed="#Bb" n="22"/>quod fecit, potuit meliori modo facere
+<lb ed="#Bb" n="23"/>quam fecit ? Et hoc concedit Magister,,
+<lb ed="#Bb" n="24"/>ibi, C, <quote xml:id="alalal-c73236-Qd1e141"> Post haec considerandum est,
+<lb ed="#Bb" n="25"/>Utrum alio modo, etc. </quote>
+            </p>
+            <p xml:id="alalal-c73236-d1e148">
+               <lb ed="#Bb" n="26"/>Tertia est, Utrum Deus modo potest
+<lb ed="#Bb" n="27"/>quidquid umquam potuit ? Et haec incipit
+<lb ed="#Bb" n="28"/>ibi, D, <quote xml:id="alalal-c73236-Qd1e156"> Praeterea queri solet, Utrum
+<lb ed="#Bb" n="29"/>Deus, etc. </quote> Et hoc etiam concedit 
+Ma<lb break="no" ed="#Bb" n="30"/>gister.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

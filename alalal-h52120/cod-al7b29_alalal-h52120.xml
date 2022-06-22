@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="706"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h52120"><!-- l4d17et1 -->
+            <head xml:id="alalal-h52120-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-h52120-d1e101">
+               <lb ed="#Be" n="26"/>Expositio textus.
+</p>
+            <p xml:id="alalal-h52120-d1e106">
+               <lb ed="#Be" n="27"/>Deinde queritur de hoc quod dicit, ibi,
+<lb ed="#Be" n="28"/>C, post initium : <quote xml:id="alalal-h52120-Qd1e112"> Revela Domino viam
+<lb ed="#Be" n="29"/>tuam*. </quote>
+            </p>
+            <p xml:id="alalal-h52120-d1e118">
+               <lb ed="#Be" n="30"/>Ex ista enim auctoritate Chrysostomi,
+<lb ed="#Be" n="31"/>habetur quod non tenemur confiteri nisi
+<lb ed="#Be" n="32"/>ante Deum.
+</p>
+            <p xml:id="alalal-h52120-d1e127">
+               <lb ed="#Be" n="33"/>Responsio. Dicendum, quod. alia est
+<lb ed="#Be" n="34"/>confessio sacramentalis, et alia 
+supplica<lb break="no" ed="#Be" n="35"/>tionis : sacramentalem necesse est fieri
+<lb ed="#Be" n="36"/>homini, et de hac non loquitur 
+Chryso<lb break="no" ed="#Be" n="37"/>stomus. Confessio autem supplicationis
+<lb ed="#Be" n="38"/>est, quando aliquis in oratione se 
+humi<lb break="no" ed="#Be" n="39"/>lians accusat, ut sic facilius exaudiatur :
+<lb ed="#Be" n="40"/>et hoc fit coram Deo solo : et de hac lo-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="41"/>quitur Sanctus: sicut et Daniel. 1X, 20,
+<lb ed="#Be" n="42"/>ubi dicitur, quod confitebatur in orations
+<lb ed="#Be" n="43"/>peccata sua, et peccata parentum suorum,
+<lb ed="#Be" n="44"/>ut humiliatus facilius exaudiretur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

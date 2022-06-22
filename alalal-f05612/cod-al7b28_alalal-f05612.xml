@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="544"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f05612"><!-- l3d29a1 -->
+            <head xml:id="alalal-f05612-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-f05612-Hd1e101" type="question-title">An charitas habeat ordinem?</head>
+            <p xml:id="alalal-f05612-d1e104">
+               <lb ed="Bd" n="26"/>ARTICULUS I.
+<lb ed="Bd" n="27"/>An charitas habeat ordinem?
+</p>
+            <p xml:id="alalal-f05612-d1e111">
+               <lb ed="Bd" n="28"/>Incidit autem questio duplex circa
+<lb ed="Bd" n="29"/>primum, scilicet, Utrum charitas habeat
+<lb ed="Bd" n="30"/>ordinem? et de sufficientia ordinis 
+ip<lb break="no" ed="Bd" n="31"/>sius.
+</p>
+            <p xml:id="alalal-f05612-d1e122">
+               <lb ed="Bd" n="32"/>Ad primum objicitur sic :
+<lb ed="Bd" n="33"/>1. Charitas est affectus simplicis : af-
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="34"/>fectus autem non est collativus rei cum
+<lb ed="Bd" n="35"/>re: cum igitur omnis ordo sit secundum
+<lb ed="Bd" n="36"/>collationem, nullus ordo videtur esse se.
+<lb ed="Bd" n="37"/>cundum affectum : charitas autem estin
+<lb ed="Bd" n="38"/>alfectu: ergo nullus est ordo secundum
+<lb ed="Bd" n="39"/>charitatem.
+</p>
+            <p xml:id="alalal-f05612-d1e145">
+               <lb ed="Bd" n="40"/>2. Item, Dicit Philosophus, quod
+<lb ed="Bd" n="41"/>
+               <quote xml:id="alalal-f05612-Qd1e151"> sapientis est ordinare : </quote> ergo ordo 
+po<lb break="no" ed="Bd" n="42"/>tius est sapientia quam charitatis.
+</p>
+            <p xml:id="alalal-f05612-d1e156">
+               <lb ed="Bd" n="43"/>3. Item, In fide multi articuli sunt,
+<lb ed="Bd" n="44"/>qui presupponunt sibi alios, sicut 
+resur<lb break="no" ed="Bd" n="45"/>rectio passionem, et passio 
+incarnatio<lb break="no" ed="Bd" n="46"/>nem : et tamen propter hujusmodi 
+ordi<lb break="no" ed="Bd" n="47"/>nem non dicitur fides ordinala in 
+cre<lb break="no" ed="Bd" n="48"/>dendis : ergo videtur, quod licet dilectio
+<lb ed="Bd" n="49"/>proximi hoc modo preponat sibi 
+dile<lb break="no" ed="Bd" n="50"/>ctionem Dei, non propter hoc dicetur
+<lb ed="Bd" n="51"/>charitas ordinata in diligendis.
+</p>
+            <p xml:id="alalal-f05612-d1e178">
+               <lb ed="Bd" n="52"/>4. Item, Ex parte proximi non 
+vide<lb break="no" ed="Bd" n="53"/>tur aliquis ordo esse in diligendis : quia
+<lb ed="Bd" n="54"/>dicit Augustinus, quod nihil diligimus
+<lb ed="Bd" n="55"/>in proximo, nisi rationem imaginis,
+<lb ed="Bd" n="56"/>quia scilicet est ad imazinem Dei: hac
+<lb ed="Bd" n="57"/>autem est aequaliter in omnibus: ergo
+<lb ed="Bd" n="58"/>omnes diligendi sunt aequaliter: non ergo
+<lb ed="Bd" n="59"/>secundum gradus alicujus ordinis.
+</p>
+            <p xml:id="alalal-f05612-d1e198">
+               <lb ed="Bd" n="60"/>5. Item, Videtur specialiter non esse
+<lb ed="Bd" n="61"/>ordo ille quem tangit Ambrosius, 
+scili<lb break="no" ed="Bd" n="62"/>cet quod primo Deum, et secundo nos,
+<lb ed="Bd" n="63"/>tertio parentes, et quarto filios et 
+fra<lb break="no" ed="Bd" n="64"/>tres, quinto domesticos, sexto inimicos.
+<lb ed="Bd" n="65"/>Charitas enim per se est amor boni : 
+er<lb break="no" ed="Bd" n="66"/>go magis boni erit magis amor, et mé-
+<lb ed="Bd" n="67"/>gni magnus: ergo secundum gradum
+<lb ed="Bd" n="68"/>boni determinandus est ordo 
+diligendo<lb break="no" ed="Bd" n="69"/>rum, et non secundum gradum 
+affinita<lb break="no" ed="Bd" n="70"/>tis vel consanguinilatis.
+</p>
+            <p xml:id="alalal-f05612-d1e224">
+               <lb ed="Bd" n="71"/>6. Item, Sapientia sapit bonum : ergo
+<lb ed="Bd" n="72"/>si charitas est sapor sapientia, ut dicit
+<lb ed="Bd" n="73"/>Augustinus, magis bonum sapit ei 
+ma<lb break="no" ed="Bd" n="74"/>gis, et minus bonum minus: ergo not
+<lb ed="Bd" n="75"/>est ordo quem ponit Ambrosius.
+</p>
+            <p xml:id="alalal-f05612-d1e237">
+               <lb ed="Bd" n="76"/>7. Item, Augustinus : <quote xml:id="alalal-f05612-Qd1e241"> Consummata
+<pb ed="#Bd" n="545"/>
+                  <cb ed="#Bd" n="a"/>
+                  <lb ed="Bd" n="1"/>justitia est, ut potiora bona magis 
+dili<lb break="no" ed="Bd" n="2"/>gantur: </quote> sed charitas habet vel facit
+<lb ed="Bd" n="3"/>justitiam consummatam, si aliqua 
+virtu<lb break="no" ed="Bd" n="4"/>tum potest facere justitiam consumma-—
+<lb ed="Bd" n="5"/>tam, cum ipsa sit forma virtutum : ergo
+<lb ed="Bd" n="6"/>ipsa plus diligit potiora bona, non 
+atten<lb break="no" ed="Bd" n="7"/>dens gradum carnalis propinquitatis.
+</p>
+            <p xml:id="alalal-f05612-d1e265">
+               <lb ed="Bd" n="8"/>8. Item, Charitas nostra configurat nos
+<lb ed="Bd" n="9"/>increate charitali : sed increata charitas
+<lb ed="Bd" n="10"/>plus diligit magis bonum, et non 
+secun<lb break="no" ed="Bd" n="11"/>dum gradum carnalis propinquitatis
+<lb ed="Bd" n="12"/>ergo et nostra charitas erit penes 
+ordi<lb break="no" ed="Bd" n="13"/>nem boni, et non penes ordinem 
+propin<lb break="no" ed="Bd" n="14"/>quitatis.
+</p>
+            <p xml:id="alalal-f05612-d1e283">
+               <lb ed="Bd" n="15"/>9. Item, Charitas facit nos conformare
+<lb ed="Bd" n="16"/>voluntatem nostram voluntati divine :
+<lb ed="Bd" n="17"/>sed divina voluntas est plus magis boni,
+<lb ed="Bd" n="18"/>quia majorem magis bono apponit 
+affe<lb break="no" ed="Bd" n="19"/>ctum: ergo et nostra debet sic esse.
+</p>
+            <p xml:id="alalal-f05612-d1e296">
+               <lb ed="Bd" n="20"/>10. Item, Gratia corrigit naturam in
+<lb ed="Bd" n="21"/>illo in quo est curva: sicut ergo ex
+<lb ed="Bd" n="22"/>parte dilectionis Dei corrigit eam, ut id
+<lb ed="Bd" n="23"/>diligat super se, quod est super se, quod
+<lb ed="Bd" n="24"/>ante non potuit : ila corrigit ctiam ex
+<lb ed="Bd" n="25"/>parte dilectionis proximi, ut id diligat
+<lb ed="Bd" n="26"/>magis, quod est magis diligendum : ergo
+<lb ed="Bd" n="27"/>non altendit gradus propinquitatis 
+car<lb break="no" ed="Bd" n="28"/>nalis.
+</p>
+            <p xml:id="alalal-f05612-d1e318">
+               <lb ed="Bd" n="29"/>SED CONTRA :
+<lb ed="Bd" n="30"/>4. Dicit Apostolus, ad Galat. vi, 10:
+<lb ed="Bd" n="31"/>
+               <quote xml:id="alalal-f05612-Qd1e326">Dum tempus habemus, operemur bonum
+<lb ed="Bd" n="32"/>ad omnes, maxime autem ad donvesticos
+<lb ed="Bd" n="33"/>fidei</quote>. Ergo aliqui his sunt praponendi
+<lb ed="Bd" n="34"/>secundum gradus quibus conjunguntur
+<lb ed="Bd" n="35"/>nobis.
+</p>
+            <p xml:id="alalal-f05612-d1e339">
+               <lb ed="Bd" n="36"/>2. Item, Hoc dicunt Sancti in Littera
+<lb ed="Bd" n="37"/>Augustinus, Hieronymus et Ambrosius.
+</p>
+            <p xml:id="alalal-f05612-d1e346">
+               <lb ed="Bd" n="38"/>Solutio Dicendum, quod in ista 
+que<lb break="no" ed="Bd" n="39"/>stione plures sunt diversorum opiniones.
+<lb ed="Bd" n="40"/>Quidam enim concedunt, quod charitas
+<lb ed="Bd" n="41"/>per se non habet ordinem, nisi penes
+<lb ed="Bd" n="42"/>rationem boni sumptam : et quod 
+gra<lb break="no" ed="Bd" n="43"/>dus conjunctionis quos tangit 
+Ambro<lb break="no" ed="Bd" n="44"/>sius, potius sint de ordine diligentis,
+<lb ed="Bd" n="45"/>quam dilectionis : et habent pro se 
+ra<lb break="no" ed="Bd" n="46"/>tiones inductas, et alias quasdam, 
+scili<lb break="no" ed="Bd" n="47"/>cet quod hujusmodi gradus 
+evacuabun<lb break="no" ed="Bd" n="48"/>tur, quia in patria diligemus majus bo-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>num, exceptis nobisipsis : et ideo cum
+<lb ed="Bd" n="50"/>charitas maneat in patria, dicunt quod
+<lb ed="Bd" n="51"/>hujusmodi gradus non per se sunt 
+chari<lb break="no" ed="Bd" n="52"/>tatis.
+</p>
+            <p xml:id="alalal-f05612-d1e384">
+               <lb ed="Bd" n="53"/>Ad id quod dicit Ambrosius et ali
+<lb ed="Bd" n="54"/>Sancti qui inducuntur in Litfera, 
+re<lb break="no" ed="Bd" n="55"/>spondent quod hoc intelligitur aliis 
+pari<lb break="no" ed="Bd" n="56"/>bus: quia tune natura concordat cum
+<lb ed="Bd" n="57"/>gratia. Si autem imparitas sit in gratia,
+<lb ed="Bd" n="58"/>dicunt quod charitas magis sequitur 
+or<lb break="no" ed="Bd" n="59"/>dinem gratia, quam nature. Sed quia
+<lb ed="Bd" n="60"/>triplex est ordo, scilicet nature tantum,
+<lb ed="Bd" n="61"/>et gratia tantum, et gratiae in natura.
+<lb ed="Bd" n="62"/>Nature tantum ordo est, ut se 
+principa<lb break="no" ed="Bd" n="63"/>liter diligat, et alia plus et plus 
+secun<lb break="no" ed="Bd" n="64"/>dum quod plus et plus conjunguntur :
+<lb ed="Bd" n="65"/>et hic ordo curvus est, et indigens 
+cor<lb break="no" ed="Bd" n="66"/>rections. Gratia tantum ordo est, ut 
+dili<lb break="no" ed="Bd" n="67"/>gat Deum super omnia, et alia plus et
+<lb ed="Bd" n="68"/>plus secundum quod relucet in cis Deus :
+<lb ed="Bd" n="69"/>et hic ordo erit in patria, pretcr hoc
+<lb ed="Bd" n="70"/>solum quod bonum proprium plus 
+dili<lb break="no" ed="Bd" n="71"/>getur, quam bonum alterius : unde ibi
+<lb ed="Bd" n="72"/>plus diligetur Deus, deinde nos, et 
+post<lb break="no" ed="Bd" n="73"/>ea plus qui melior est et quem Deus 
+di<lb break="no" ed="Bd" n="74"/>ligtt. Tertius ordo est grati@ in natura,
+<lb ed="Bd" n="75"/>et hic corrigit naturam in eo in quo
+<lb ed="Bd" n="76"/>curva est, et sustinet eam in 
+naturali<lb break="no" ed="Bd" n="77"/>bus. Curva autem est in eo quod non
+<lb ed="Bd" n="78"/>plus quam se diligit Deum : et ideo illud
+<lb ed="Bd" n="79"/>elevat. Quod autem plus se quam alium,
+<lb ed="Bd" n="80"/>et conjunctum consanguinitate plusquam
+<lb ed="Bd" n="81"/>non conjunctum, hoc Deus vult nos
+<lb ed="Bd" n="82"/>velle : quia hoc plantavit in nostra 
+na<lb break="no" ed="Bd" n="83"/>tura: et ideo hoc non corrigit gratia,
+<lb ed="Bd" n="84"/>sed permittit secum nature motum.,
+</p>
+            <p xml:id="alalal-f05612-d1e456">
+               <lb ed="Bd" n="85"/>Hanc iciruR opinionem = sustinendo,
+<lb ed="Bd" n="86"/>dicendum ad primum, quod charitas est
+<lb ed="Bd" n="87"/>in affectu secundum ordinem ad 
+intelle<lb break="no" ed="Bd" n="88"/>ctum, scilicet quod est ex intellectu : et
+<lb ed="Bd" n="89"/>ideo potest habere ex parte illa ordinem,
+<lb ed="Bd" n="90"/>licet non in se, secundum quod tantum
+<lb ed="Bd" n="91"/>in se consideratur.
+</p>
+            <p xml:id="alalal-f05612-d1e474">
+               <lb ed="Bd" n="92"/>Ad aliud dicendum, quod sapientix
+<lb ed="Bd" n="93"/>est ordo hoc modo quo ordinans ponit
+<lb ed="Bd" n="94"/>rationem ordinis in ordinatis: sed 
+cha<lb break="no" ed="Bd" n="95"/>ritas ordinata est, magis quam ordinet :
+<lb ed="Bd" n="96"/>unde ipsa est ordinatorum secundum
+<lb ed="Bd" n="97"/>gradum ordinis : et hoc habet ipsa se-
+<pb ed="#Bd" n="546"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>cundum quod est in subjecto quod est
+<lb ed="Bd" n="2"/>affectus, per intellectum sapienti# 
+ordi<lb break="no" ed="Bd" n="3"/>nantis,
+</p>
+            <p xml:id="alalal-f05612-d1e500">
+               <lb ed="Bd" n="4"/>Ad aliuddicendum, quod non est 
+si<lb break="no" ed="Bd" n="5"/>mile de fide : quia fides non unitur 
+arti<lb break="no" ed="Bd" n="6"/>culis ratione ejus in quo differunt 
+arti<lb break="no" ed="Bd" n="7"/>culi, sed potius vatione prime veritatis,
+<lb ed="Bd" n="8"/>que est in omnibus eis : sed charitas
+<lb ed="Bd" n="9"/>est majoris alfectus et minoris secundum
+<lb ed="Bd" n="10"/>differentiam graduum.
+</p>
+            <p xml:id="alalal-f05612-d1e518">
+               <lb ed="Bd" n="11"/>Ad aliud dicendum, quod finaliter in
+<lb ed="Bd" n="12"/>proximo nihil diligitur nisi ratio 
+imagi<lb break="no" ed="Bd" n="13"/>nis rclata ad Deum pre omnibus 
+dile<lb break="no" ed="Bd" n="14"/>ctum, sed materialiler non : quia gradus
+<lb ed="Bd" n="15"/>differens est materia amoris, secundum
+<lb ed="Bd" n="16"/>quod charitas est in natura, et cum 
+na<lb break="no" ed="Bd" n="17"/>tura diligentis, non evacuans cam.
+</p>
+            <p xml:id="alalal-f05612-d1e536">
+               <lb ed="Bd" n="18"/>Ad aliud argumentum dicendum,
+<lb ed="Bd" n="19"/>quod procedit de ordine charitatis in se,
+<lb ed="Bd" n="20"/>et non secundum quod est movens 
+con<lb break="no" ed="Bd" n="21"/>junctum cum natura diligentis.
+</p>
+            <p xml:id="alalal-f05612-d1e548">
+               <lb ed="Bd" n="22"/>Ad aliud dicendum, quod omnis 
+sa<lb break="no" ed="Bd" n="23"/>por quem hic possuimus habere, 
+contem<lb break="no" ed="Bd" n="24"/>peratur nature : et ideo non tantum 
+bo<lb break="no" ed="Bd" n="25"/>hum erit ratio movens dilectionem, sed
+<lb ed="Bd" n="26"/>bonuin ad naturam aliquam ordinatione
+<lb ed="Bd" n="27"/>conjunctionis
+</p>
+            <p xml:id="alalal-f05612-d1e564">
+               <lb ed="Bd" n="28"/>Ad aliud dicendum, quod illa 
+auctori<lb break="no" ed="Bd" n="29"/>tas procedit de potioribus bonis, et aliis
+<lb ed="Bd" n="30"/>paribus. et non simpliciter.
+</p>
+            <p xml:id="alalal-f05612-d1e573">
+               <lb ed="Bd" n="31"/>Ab Auivp dicendum, quod conforma~
+<lb ed="Bd" n="32"/>mus voluntatem nostram voluntati 
+divi<lb break="no" ed="Bd" n="33"/>ne in hoc quod Deus vult nos hoc
+<lb ed="Bd" n="34"/>velle : haec enim est conformitas 
+suffi<lb break="no" ed="Bd" n="35"/>ciens in via, ut probatum est in primo
+<lb ed="Bd" n="36"/>libro Sententiarune '.
+</p>
+            <p xml:id="alalal-f05612-d1e589">
+               <lb ed="Bd" n="37"/>Per hos autem patet solutio ad 
+se<lb break="no" ed="Bd" n="38"/>quens.
+</p>
+            <p xml:id="alalal-f05612-d1e596">
+               <lb ed="Bd" n="39"/>Ad otrmunm dicendum, quod corrigit
+<lb ed="Bd" n="40"/>eam in quo est curva: et hoc tantum
+<lb ed="Bd" n="41"/>estin diectione Dei, quia justum est,
+<lb ed="Bd" n="42"/>quod ille plus quam nos diligatur, qui
+<lb ed="Bd" n="43"/>est totum bonum, quod est ratio 
+dile<lb break="no" ed="Bd" n="44"/>clionis omnium diligendorum. Sed sic
+<lb ed="Bd" n="45"/>non est in allis : ideo non est necesse,
+<lb ed="Bd" n="46"/>qued illa parte natura corrigatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="546"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b05997"><!-- l1d20a2 -->
+            <head xml:id="alalal-b05997-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-b05997-Hd1e101" type="question-title">Utrum potentia operands in Pihounivoca
+sul cw potentia generandr et sprrandi?</head>
+            <p xml:id="alalal-b05997-d1e104">
+               <lb ed="#Ba" n="76"/>ARTICULUS II.
+<lb ed="#Ba" n="77"/>Utrum potentia operands in Pihounivoca
+<lb ed="#Ba" n="78"/>sul cw potentia generandr et sprrandi?
+</p>
+            <p xml:id="alalal-b05997-d1e113">
+               <lb ed="#Ba" n="79"/>Secundo quaeritur, Utram  potentia
+<lb ed="#Ba" n="80"/>operandi in Deo univoca sit cum 
+poten<lb break="no" ed="#Ba" n="81"/>tia generandi et spirandi?
+</p>
+            <p xml:id="alalal-b05997-d1e122">
+               <lb ed="#Ba" n="82"/>Videtur quod sic: quia ulraque est in
+<lb ed="#Ba" n="83"/>Deo : et quae sunt in Deo, sunt untus 
+na<lb break="no" ed="#Ba" n="84"/>ture simplicis ergo unius rationis 
+secun<lb break="no" ed="#Ba" n="85"/>dum naturam : ergo potentia operandi,
+<lb ed="#Ba" n="86"/>et illa qua procedunt persone, sunt 
+uni<lb break="no" ed="#Ba" n="87"/>voce in Deo.
+</p>
+            <p xml:id="alalal-b05997-d1e139">
+               <pb ed="#Ba" n="547"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Sed contra. Potentia diffinitur per
+<lb ed="#Ba" n="2"/>actum et actus nom sunt unius rationis .
+<lb ed="#Ba" n="3"/>ergo nec potentiae.
+</p>
+            <p xml:id="alalal-b05997-d1e152">
+               <lb ed="#Ba" n="4"/>Soterio. Supra determinatuns est hoe,
+<lb ed="#Ba" n="5"/>quod potentia considerata im radice 
+po<lb break="no" ed="#Ba" n="6"/>ienti quae est cssentia, untus rationis
+<lb ed="#Ba" n="7"/>est : sed considerata ul est conjunclum
+<lb ed="#Ba" n="8"/>actui, est alterius rationis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

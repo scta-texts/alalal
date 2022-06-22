@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 48</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 48</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="741"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h60233"><!-- l4d17a48 -->
+            <head xml:id="alalal-h60233-Hd1e99">Articulus 48</head>
+            <head xml:id="alalal-h60233-Hd1e101" type="question-title">An scandalum sit speciale peccatum 
+distinctum ab aliis peccatis ?</head>
+            <p xml:id="alalal-h60233-d1e104">
+               <lb ed="#Be" n="19"/>ARTICULUS XLVIII.
+<lb ed="#Be" n="20"/>An scandalum sit speciale peccatum 
+di<lb break="no" ed="#Be" n="21"/>stinctum ab aliis peccatis ?
+</p>
+            <p xml:id="alalal-h60233-d1e113">
+               <lb ed="#Be" n="22"/>Tertio queritur, Utrum sit peccatum
+<lb ed="#Be" n="23"/>speciale divisum ab aliis, vel aliis 
+con<lb break="no" ed="#Be" n="24"/>janctum ?
+</p>
+            <p xml:id="alalal-h60233-d1e122">
+               <lb ed="#Be" n="25"/>1. Videtur’autem, quod sit generale per
+<lb ed="#Be" n="26"/>diffinitionem supra inductam, quae dicit:
+<lb ed="#Be" n="27"/>
+               <quote xml:id="alalal-h60233-Qd1e130">Omne dictum vel factum, etc. : </quote> hoc
+<lb ed="#Be" n="28"/>enim est in omni peccato publico : ergo
+<lb ed="#Be" n="29"/>videtur, quod non sit peccatum speciale.
+</p>
+            <p xml:id="alalal-h60233-d1e139">
+               <lb ed="#Be" n="30"/>2. Adhuc, Hic in Littera videtur 
+in<lb break="no" ed="#Be" n="31"/>nuere, quod sit circumstantia peccati 
+po<lb break="no" ed="#Be" n="32"/>tius quam peccatum, cum dicit, <quote xml:id="alalal-h60233-Qd1e147"> Si
+<lb ed="#Be" n="33"/>peccatum ejus fuit non modo in gravi
+<lb ed="#Be" n="34"/>ejus malo, sed etiam in tanto scandalo
+<lb ed="#Be" n="35"/>aliorum, etc. </quote> Cireumstantia non 
+omni<lb break="no" ed="#Be" n="36"/>no separatur a peccato, cujus est 
+circum<lb break="no" ed="#Be" n="37"/>stantia : ergo videtur, quod scandalum
+<lb ed="#Be" n="38"/>non separetur ab aliis peccatis, cujus est
+<lb ed="#Be" n="39"/>circumstantia : ergo videtur, quod 
+scan<lb break="no" ed="#Be" n="40"/>dalum non separetur ab aliis peccatis :
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="41"/>ergo non est species peccati secundum
+<lb ed="#Be" n="42"/>se.
+</p>
+            <p xml:id="alalal-h60233-d1e175">
+               <lb ed="#Be" n="43"/>3. Adhuc, Omnis corruptio ordinabilis
+<lb ed="#Be" n="44"/>ad actus diversorum peccatorum in 
+spe<lb break="no" ed="#Be" n="45"/>cie, est corruptio circumstantis 
+commu<lb break="no" ed="#Be" n="46"/>nis, et non proprii actus secundum 
+spe<lb break="no" ed="#Be" n="47"/>ciem : sed scandalum dicit hujusmodi
+<lb ed="#Be" n="48"/>corruptionem : ergo est corruptio 
+cir<lb break="no" ed="#Be" n="49"/>cumstantiae communis, et non proprii
+<lb ed="#Be" n="50"/>actus alicujus secundum speciem. Prima
+<lb ed="#Be" n="51"/>patet per hoc quod differentiae specifice
+<lb ed="#Be" n="52"/>ultime et completive, non sunt 
+ordina<lb break="no" ed="#Be" n="53"/>biles ad diversa peccata. Szecunpa 
+proba<lb break="no" ed="#Be" n="54"/>tur per hoc quod corruptio scandali 
+inve<lb break="no" ed="#Be" n="55"/>nitur in omni peccato publico. Inde sic :
+<lb ed="#Be" n="56"/>Quidquid conjunctum est speciebus 
+diver<lb break="no" ed="#Be" n="57"/>sorum peccatorum, est quoddam 
+commu<lb break="no" ed="#Be" n="58"/>ne, quod secundum se speciem non 
+con<lb break="no" ed="#Be" n="59"/>stituit : scandalum est hujusmodi: ergo
+<lb ed="#Be" n="60"/>scandalum est quoddam commune 
+con<lb break="no" ed="#Be" n="61"/>junctum cum aliis peccatis, secundum se
+<lb ed="#Be" n="62"/>speciem non constituens.
+</p>
+            <p xml:id="alalal-h60233-d1e221">
+               <lb ed="#Be" n="63"/>4. Adhuc, Ad idem potest argui per
+<lb ed="#Be" n="64"/>secundam diffinitionem : Per omne 
+pec<lb break="no" ed="#Be" n="65"/>catum publicum datur occasio ruendi
+<lb ed="#Be" n="66"/>recte ambulanti : ergo scandalum 
+con<lb break="no" ed="#Be" n="67"/>junctum est omni peccato publico.
+</p>
+            <p xml:id="alalal-h60233-d1e234">
+               <lb ed="#Be" n="68"/>In convrarivm hujus objicitur :
+<lb ed="#Be" n="69"/>1. Speciale peccatum est a speciali
+<lb ed="#Be" n="70"/>voluntate mala, et speciali nocumento,
+<lb ed="#Be" n="71"/>et fine : sed specialis voluntas mala est
+<lb ed="#Be" n="72"/>que vult ruere alium, et speciale 
+nocu<lb break="no" ed="#Be" n="73"/>mentum quod est ruina alterius, et 
+in<lb break="no" ed="#Be" n="74"/>tentum speciale, quia scandalizans 
+inten<lb break="no" ed="#Be" n="75"/>dit alterius casum. Cum igitur ista sint in
+<lb ed="#Be" n="76"/>scandalo, videtur quod scandalum sit 
+pec<lb break="no" ed="#Be" n="77"/>catum speciale.
+</p>
+            <p xml:id="alalal-h60233-d1e258">
+               <lb ed="#Be" n="78"/>2. Adhuc, Numer. xxxi, 2 et seq., 
+ex<lb break="no" ed="#Be" n="79"/>presse apparet, quod speciale fuit : quia
+<lb ed="#Be" n="80"/>ibi intenderunt per expositionem 
+puella<lb break="no" ed="#Be" n="81"/>rum diis servientium dejicere ad idola?*:
+<lb ed="#Be" n="82"/>ergo videtur, quod speciale sit peccatum.
+</p>
+            <p xml:id="alalal-h60233-d1e271">
+               <lb ed="#Be" n="83"/>Responsio. Dicendum, quod scandalum
+<lb ed="#Be" n="84"/>quandoque dicitur peccatum conjunctum,
+<lb ed="#Be" n="85"/>quandoque separatum. Conjunctum est,
+<lb ed="#Be" n="86"/>quando non habet voluntatem et inten-
+<pb ed="#Be" n="742"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>tionem separatam a parte agentis ab alio
+<lb ed="#Be" n="2"/>peccato, sed tantum habet nocumentum
+<lb ed="#Be" n="3"/>separatum. Verbi gratia peccat aliquis
+<lb ed="#Be" n="4"/>publice, et non intendit nocere alii, nec
+<lb ed="#Be" n="5"/>vult : et tamen nocet, quia trahit eum ad
+<lb ed="#Be" n="6"/>ruinam malo suo exemplo, et tunc 
+con<lb break="no" ed="#Be" n="7"/>jungitur alii peccato, et non est speciale
+<lb ed="#Be" n="8"/>peccatum secundum se : et hoc modo 
+lo<lb break="no" ed="#Be" n="9"/>quuntur Sancti de scandalo, . quia raro
+<lb ed="#Be" n="10"/>aliter committitur scandalum. Alio modo
+<lb ed="#Be" n="11"/>dicitur scandalum, quando aliquis 
+specia<lb break="no" ed="#Be" n="12"/>liter intendit et vult ruinam prestare per .
+<lb ed="#Be" n="13"/>dictum vel factum suum : et tunc in una
+<lb ed="#Be" n="14"/>actione habet duas intentiones : unam
+<lb ed="#Be" n="15"/>quasi instrumentalem ad aliam, quia 
+pec<lb break="no" ed="#Be" n="16"/>cato quod facit, non utitur nisi ut 
+instru<lb break="no" ed="#Be" n="17"/>mento ad aliud peccatum, quod est 
+deji<lb break="no" ed="#Be" n="18"/>cere proximum ad peccatum : et hoc
+<lb ed="#Be" n="19"/>modo accipitur in Numeris, ubi 
+Madiani<lb break="no" ed="#Be" n="20"/>te scandalizaverunt filios Israel '.
+</p>
+            <p xml:id="alalal-h60233-d1e331">
+               <lb ed="#Be" n="21"/>Per hanc autem distinctionem patet
+<lb ed="#Be" n="22"/>solutio ad utramque partem 
+objectio<lb break="no" ed="#Be" n="23"/>num : quia directe super partes 
+distin<lb break="no" ed="#Be" n="24"/>ctionis procedunt objectiones.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

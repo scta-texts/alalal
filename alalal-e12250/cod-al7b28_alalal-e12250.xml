@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 23</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 23</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="60"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e12250"><!-- l3d3a23 -->
+            <head xml:id="alalal-e12250-Hd1e99">Articulus 23</head>
+            <head xml:id="alalal-e12250-Hd1e101" type="question-title">Cur dicatur, Hanc carnem non ceelestis,
+non aerex, non alterius cujusque 
+putes esse natura ?</head>
+            <p xml:id="alalal-e12250-d1e104">
+               <lb ed="Bd" n="56"/>ARTICULUS XXIII.
+<lb ed="Bd" n="57"/>Cur dicatur, Hanc carnem non ceelestis,
+<lb ed="Bd" n="58"/>non aerex, non alterius cujusque 
+pu<lb break="no" ed="Bd" n="59"/>tes esse natura ?
+</p>
+            <p xml:id="alalal-e12250-d1e115">
+               <lb ed="Bd" n="60"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="Bd" n="61"/>A, in fine: <quote xml:id="alalal-e12250-Qd1e121"> Hane carnem non ceelestis,
+<lb ed="Bd" n="62"/>non aereze, etc. </quote>
+            </p>
+            <p xml:id="alalal-e12250-d1e127">
+               <lb ed="Bd" n="63"/>Contra hoc est quod habetur, Joan.
+<lb ed="Bd" n="64"/>wi, 31: Qué est de terra, de terra est, et
+<lb ed="Bd" n="65"/>de terra loguitur. Qui de ceelo ventt, 
+su<lb break="no" ed="Bd" n="66"/>per onines est, Et dicit hoc Joannes de se,
+<lb ed="Bd" n="67"/>comparando se Christo secundum 
+infe<lb break="no" ed="Bd" n="68"/>riorilatem. Constat autem, quod de ani-
+<pb ed="#Bd" n="61"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ma non loquitur, sed de corpore: ergo 
+<lb ed="Bd" n="2"/>corpus Christi venit de ccelo: ergo 
+cee<lb break="no" ed="Bd" n="3"/>lestis nature est. 
+</p>
+            <p xml:id="alalal-e12250-d1e154">
+               <lb ed="Bd" n="4"/>Solutio Dicendum est, quod Joannes
+<lb ed="Bd" n="5"/>dicit hoc de persona Christi, non de na-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="6"/>tura hominis: Christus enim in persona
+<lb ed="Bd" n="7"/>de coelo venit: Joannes autem terrene
+<lb ed="Bd" n="8"/>nativitatis habuit personam: sicut etiam
+<lb ed="Bd" n="9"/>dicit Christus alibi de se : <quote xml:id="alalal-e12250-Qd1e171">Nemo asvendit
+<lb ed="Bd" n="10"/>in cawlum, nisi qui descendit de celo, 
+Fi<lb break="no" ed="Bd" n="11"/>dius hominis, qui est in ceelo</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

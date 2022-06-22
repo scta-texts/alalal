@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="138"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d26502"><!-- l2d6a9 -->
+            <head xml:id="alalal-d26502-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-d26502-Hd1e101" type="question-title">An daemon victus ab uno Sanctorum,
+potest alium tentare et vincere, et an
+eumdem in eodem peccato ?</head>
+            <p xml:id="alalal-d26502-d1e104">
+               <lb ed="#Bc" n="7"/>ARTICULUS IX.
+<lb ed="#Bc" n="8"/>An daemon victus ab uno Sanctorum,
+<lb ed="#Bc" n="9"/>potest alium tentare et vincere, et an
+<lb ed="#Bc" n="10"/>eumdem in eodem peccato ?
+</p>
+            <p xml:id="alalal-d26502-d1e115">
+               <lb ed="#Bc" n="11"/>Deinde quaeritur de hoc quod dicit 
+Ori<lb break="no" ed="#Bc" n="12"/>genes: <quote xml:id="alalal-d26502-Qd1e121"> Puto, inquit, sane, quia 
+San<lb break="no" ed="#Bc" n="13"/>cti repugnantes, etc. </quote>
+            </p>
+            <p xml:id="alalal-d26502-d1e127">
+               <lb ed="#Bc" n="14"/>Ad hoc enim facit etiam ratio : quia
+<lb ed="#Bc" n="15"/>1. Aliter non esset aequalis pugna : quia
+<lb ed="#Bc" n="16"/>si daemones possent imminuere militum
+<lb ed="#Bc" n="17"/>nostrorum numerum, et nos non 
+posse<lb break="no" ed="#Bc" n="18"/>mus diminuere exercitum ipsorum, non
+<lb ed="#Bc" n="19"/>esset aequalis pugna : ergo videtur, quod
+<lb ed="#Bc" n="20"/>vieti ab uno Sancto, alium tentare non
+<lb ed="#Bc" n="21"/>possunt ad minus in eodem genere 
+pec<lb break="no" ed="#Bc" n="22"/>cati, ut dicit Magister.
+</p>
+            <p xml:id="alalal-d26502-d1e150">
+               <lb ed="#Bc" n="23"/>2. Ivem, Ipse dicit in Littera, quod 
+de<lb break="no" ed="#Bc" n="24"/>mon qui Adam primum vicit, victus est
+<lb ed="#Bc" n="25"/>a Christo : et ideo religatus et captus :
+<lb ed="#Bc" n="26"/>ergo videtur, quod similiter sit in aliis
+<lb ed="#Bc" n="27"/>Sanctis vincentibus suos demones.
+</p>
+            <p xml:id="alalal-d26502-d1e163">
+               <lb ed="#Bc" n="28"/>3. Irem, Nos videmus hoc in 
+consue<lb break="no" ed="#Bc" n="29"/>tudine hominum, quod aliquis vincens
+<lb ed="#Bc" n="30"/>hostem suum, non vincit eum tantum ne
+<lb ed="#Bc" n="31"/>sibi noceat, sed etiam ne noceat amicis
+<lb ed="#Bc" n="32"/>suis : ergo similiter videtur esse in 
+victo<lb break="no" ed="#Bc" n="33"/>ria spirituali : ergo videtur, quod 
+amit<lb break="no" ed="#Bc" n="34"/>tunt potestatem impugnandi alios, cum
+<lb ed="#Bc" n="35"/>perlecte vincuntur ab uno, ad minus in
+<lb ed="#Bc" n="36"/>illo peccato.
+</p>
+            <p xml:id="alalal-d26502-d1e185">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="37"/>SED CONTRA :
+<lb ed="#Bc" n="38"/>1. Quia secundum hoc in novissimis
+<lb ed="#Bc" n="39"/>temporibus minimam deberent habere
+<lb ed="#Bc" n="40"/>potestatem tentandi, imminuto eorum
+<lb ed="#Bc" n="41"/>numero a principio mundi per multa
+<lb ed="#Bc" n="42"/>Sanctorum millia : sed hoc falsum est :
+<lb ed="#Bc" n="43"/>quia illa tempora gravioris erunt 
+tenta<lb break="no" ed="#Bc" n="44"/>tionis quam umquam fuerunt tempora
+<lb ed="#Bc" n="45"/>super terram.
+</p>
+            <p xml:id="alalal-d26502-d1e209">
+               <lb ed="#Bc" n="46"/>2. Trem, Post mille annos solvetur 
+Sa<lb break="no" ed="#Bc" n="47"/>tanas in fine mundi, et tentabit iterum
+<lb ed="#Bc" n="48"/>alios, qui perfecte victus est a Christo :
+<lb ed="#Bc" n="49"/>ergo etiam alii victi etiam possunt 
+ten<lb break="no" ed="#Bc" n="50"/>tare.
+</p>
+            <p xml:id="alalal-d26502-d1e222">
+               <lb ed="#Bc" n="51"/>3. Irem, Potestas tentandi non datur
+<lb ed="#Bc" n="52"/>eis ad vincere, sed potestas ad 
+exercen<lb break="no" ed="#Bc" n="53"/>dum Sanctos dicitur eis tradi : sed 
+exer<lb break="no" ed="#Bc" n="54"/>citium potest facere victus, sicut non 
+vi<lb break="no" ed="#Bc" n="55"/>ctus : ergo videtur, quod non sit ratio
+<lb ed="#Bc" n="56"/>quare illi auferetur potestas tentandi.
+</p>
+            <p xml:id="alalal-d26502-d1e238">
+               <lb ed="#Bc" n="57"/>4, Yrem, Queritur de tertia opinione
+<lb ed="#Bc" n="58"/>que hic non ponitur, quae dicit, quod
+<lb ed="#Bc" n="59"/>victus perfecte ab uno Sancto, non 
+pot<lb break="no" ed="#Bc" n="60"/>est eumdem tentare plus de eodem 
+pec<lb break="no" ed="#Bc" n="61"/>cato. Queritur enim, Quid est perfecte
+<lb ed="#Bc" n="62"/>vincere ? quamdiu enim durat pugna non
+<lb ed="#Bc" n="63"/>est perfecta victoria : sed quamdiu durat
+<lb ed="#Bc" n="64"/>vita, tamdiu durat pugna : ergo videtur,
+<lb ed="#Bc" n="65"/>quod perfecta victoria non fit ante 
+mor<lb break="no" ed="#Bc" n="66"/>tem.
+</p>
+            <p xml:id="alalal-d26502-d1e263">
+               <lb ed="#Bc" n="67"/>Si dicas, quod in una actuali 
+tenta<lb break="no" ed="#Bc" n="68"/>tione una actualis est victoria : secundum
+<lb ed="#Bc" n="69"/>hoc una die possum vincere mille 
+demo<lb break="no" ed="#Bc" n="70"/>nes, et ita multos possum abjicere a
+<lb ed="#Bc" n="71"/>me: et hoc mirum est si verum est, et
+<lb ed="#Bc" n="72"/>ad minus nullo modo potest probari. 51
+<lb ed="#Bc" n="73"/>autem perficitur pugna in morte, tunc
+<pb ed="#Bc" n="139"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>nulla questio est : quia tunc non in hoc
+<lb ed="#Bc" n="2"/>nec in alio, nec ipse nec alius tentare
+<lb ed="#Bc" n="3"/>potest.
+</p>
+            <p xml:id="alalal-d26502-d1e292">
+               <lb ed="#Bc" n="4"/>Preterea quaeritur, Quid dicantur 
+mil<lb break="no" ed="#Bc" n="5"/>je anni, post quos solvetur Satanas
+<lb ed="#Bc" n="6"/>jam enim elapsi sunt mille ducenti 
+qua<lb break="no" ed="#Bc" n="7"/>draginta sex anni: et adhuc non est 
+so<lb break="no" ed="#Bc" n="8"/>lutus.
+</p>
+            <p xml:id="alalal-d26502-d1e305">
+               <lb ed="#Bc" n="9"/>Solutio. Ego confiteor me nescire quid
+<lb ed="#Bc" n="10"/>de ista questione sit verum : sed judicio
+<lb ed="#Bc" n="11"/>Dei sit relinquendum, utrum ex victoria
+<lb ed="#Bc" n="12"/>Sanctorum suspendantur aliqui a pugna
+<lb ed="#Bc" n="13"/>illorum peccatorum, in quibus vincantur,
+<lb ed="#Bc" n="14"/>an aliter sit. Sed hoc videtur mihi, quod
+<lb ed="#Bc" n="15"/>omnes in fine pugnabunt ex omnibus
+<lb ed="#Bc" n="16"/>viribus, scientes quod modicum tempus
+<lb ed="#Bc" n="17"/>habent. Sed ultima opinio non placet
+<lb ed="#Bc" n="18"/>mihi : quia nulla fulcitur ratione, vel
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="19"/>auctoritate, ut patet in objectione in 
+con<lb break="no" ed="#Bc" n="20"/>trarium.
+</p>
+            <p xml:id="alalal-d26502-d1e336">
+               <lb ed="#Bc" n="21"/>Ap vLtimum ergo dicendum, quod 
+mil<lb break="no" ed="#Bc" n="22"/>Je anni sunt hic accipiendi non a 
+quanti<lb break="no" ed="#Bc" n="23"/>tate, sed a figura numeri : quia cubitus
+<lb ed="#Bc" n="24"/>numerus et quadratus finis et radix 
+per<lb break="no" ed="#Bc" n="25"/>fecti numeri sunt : perfectio enim est in
+<lb ed="#Bc" n="26"/>fine, et denarius est finalis limes 
+digita<lb break="no" ed="#Bc" n="27"/>lium numerorum : centenarius autem 
+nu<lb break="no" ed="#Bc" n="28"/>merus est finalis limes decadum 
+nume<lb break="no" ed="#Bc" n="29"/>rorum per digitales numeros : et 
+mille<lb break="no" ed="#Bc" n="30"/>narius numerus est finalis limes 
+deca<lb break="no" ed="#Bc" n="31"/>dum numeri centenariorum 
+numerato<lb break="no" ed="#Bc" n="32"/>rum per decadem : et ideo significat 
+per<lb break="no" ed="#Bc" n="33"/>fectam collationem numeri Sanctorum,
+<lb ed="#Bc" n="34"/>qui quadrati sunt virtute politica, et 
+tri<lb break="no" ed="#Bc" n="35"/>formi perfectione surgunt, fide, spe, et
+<lb ed="#Bc" n="36"/>charitate : et tunc erit finis mundi 
+quan<lb break="no" ed="#Bc" n="37"/>do solvetur Satanas. .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

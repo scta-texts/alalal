@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="609"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e03383"><!-- l2d38a3 -->
+            <head xml:id="alalal-e03383-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-e03383-Hd1e101" type="question-title">Utrum sit unus finis bonarum 
+voluntatum ? et, Utrum duos fines possumus
+nobis ponere ? et, An boni mercenarii
+merentur ? ,</head>
+            <p xml:id="alalal-e03383-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="12"/>ARTICULUS III.
+<lb ed="#Bc" n="13"/>Utrum sit unus finis bonarum 
+volunta<lb break="no" ed="#Bc" n="14"/>tum ? et, Utrum duos fines possumus
+<lb ed="#Bc" n="15"/>nobis ponere ? et, An boni mercenarii
+<lb ed="#Bc" n="16"/>merentur ? ,
+</p>
+            <p xml:id="alalal-e03383-d1e120">
+               <lb ed="#Bc" n="17"/>Deinde queritur, de hoc quod dicit in
+<lb ed="#Bc" n="18"/>secunda parte, ibi, C, <quote xml:id="alalal-e03383-Qd1e126"> Sed queritur,
+<lb ed="#Bc" n="19"/>Utrum omnes voluntates bonx, etc. </quote>
+            </p>
+            <p xml:id="alalal-e03383-d1e132">
+               <lb ed="#Bc" n="20"/>Et queruntur duo, quorum primum
+<lb ed="#Bc" n="21"/>est, Utrum unus sit finis bonarum 
+vo<lb break="no" ed="#Bc" n="22"/>luntatum ?
+</p>
+            <p xml:id="alalal-e03383-d1e142">
+               <lb ed="#Bc" n="23"/>Secundo, Utrum unus finis sit 
+mala<lb break="no" ed="#Bc" n="24"/>rum, ut videtur dicere in Littera ?
+</p>
+            <p xml:id="alalal-e03383-d1e149">
+               <lb ed="#Bc" n="25"/>Ap PRIMUM proceditur sic :
+<lb ed="#Bc" n="26"/>Videtur enim, quod non sit unus finis
+<lb ed="#Bc" n="27"/>bonarum voluntatum : quia
+</p>
+            <p xml:id="alalal-e03383-d1e158">
+               <lb ed="#Bc" n="28"/>1. Si finis est perfectio rei, sicut 
+dif<lb break="no" ed="#Bc" n="29"/>ferunt perfecta, ita differunt 
+perfectio<lb break="no" ed="#Bc" n="30"/>nes : Opera autem meritoria differunt
+<lb ed="#Bc" n="31"/>etiam in eodem homine: ergo et 
+per<lb break="no" ed="#Bc" n="32"/>fectio secundum finem.
+</p>
+            <p xml:id="alalal-e03383-d1e171">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="33"/>2. Preterea, Habitum est, quod 
+cha<lb break="no" ed="#Bc" n="34"/>ritas est finis, et beatitudo est finis, et
+<lb ed="#Bc" n="35"/>Deus finis: ergo videtur, quod multi
+<lb ed="#Bc" n="36"/>sint fines etiam ejusdem hominis et 
+ejus<lb break="no" ed="#Bc" n="37"/>dem operis.
+</p>
+            <p xml:id="alalal-e03383-d1e187">
+               <lb ed="#Bc" n="38"/>Si dicas, quod istorum finium unus
+<lb ed="#Bc" n="39"/>refertur ad alterum, et sic finis ultimus
+<lb ed="#Bc" n="40"/>est unus: sed citra ultimum non sunt
+<lb ed="#Bc" n="41"/>plures fines. Adhuc videtur hoc esse 
+fal<lb break="no" ed="#Bc" n="42"/>sum : quia dicit in Litéera in fine 
+pre<lb break="no" ed="#Bc" n="43"/>cedentis distinctionis, quod finis sunt
+<lb ed="#Bc" n="44"/>Pater et Filius et Spiritus sanctus: et
+<lb ed="#Bc" n="45"/>constat, quod illi aquales sunt : ergo
+<lb ed="#Bc" n="46"/>unus non refertur ad alterum : ergo sunt
+<lb ed="#Bc" n="47"/>fines.
+</p>
+            <p xml:id="alalal-e03383-d1e211">
+               <lb ed="#Bc" n="48"/>Si dicas, quod illi sunt unus finis in
+<lb ed="#Bc" n="49"/>quantum sunt unum summum bonum.
+<lb ed="#Bc" n="50"/>Contra: Fides ponit eos tres quibus est
+<lb ed="#Bc" n="51"/>fruendum, ut habetur in prima 
+distin<lb break="no" ed="#Bc" n="52"/>ctione libri l Sententiarum: ergo ponit
+<lb ed="#Bc" n="53"/>eos tres quibus amore inheremus 
+pro<lb break="no" ed="#Bc" n="54"/>pter se: ergo tres fines, quia nihil 
+dili<lb break="no" ed="#Bc" n="55"/>gitur propter se nisi finis.
+</p>
+            <p xml:id="alalal-e03383-d1e232">
+               <lb ed="#Bc" n="56"/>3. Item, Cum finis intellectus sit 
+veri<lb break="no" ed="#Bc" n="57"/>tas : et haec distinguat articulos per
+<lb ed="#Bc" n="58"/>fidem, videntur plures esse fines.
+</p>
+            <p xml:id="alalal-e03383-d1e241">
+               <lb ed="#Bc" n="59"/>4, Preterea, Cum sit sapientia divina
+<lb ed="#Bc" n="60"/>et potentia et bonitas et virtus et multa
+<lb ed="#Bc" n="61"/>alia quae sunt Deus, ipse videtur multi-
+<pb ed="#Bc" n="610"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>plex esse finis secundum rationem 
+mul<lb break="no" ed="#Bc" n="2"/>tiplicitatis omnium attributorum: ergo
+<lb ed="#Bc" n="3"/>non est unus solus finis.
+</p>
+            <p xml:id="alalal-e03383-d1e261">
+               <lb ed="#Bc" n="4"/>Juxta hoc ulterius queritur, Utrum
+<lb ed="#Bc" n="5"/>duos fines nobis possumus ponere?
+</p>
+            <p xml:id="alalal-e03383-d1e268">
+               <lb ed="#Bc" n="6"/>Videtur autem, quod sic : quia
+<lb ed="#Bc" n="7"/>1. Inmultis Ecclesiis consuetudo est
+<lb ed="#Bc" n="8"/>dare denarium venientibus ad 
+Matuti<lb break="no" ed="#Bc" n="9"/>nas, ut libentius veniant : et constat,
+<lb ed="#Bc" n="10"/>quod nec dantes nec accipientes 
+con<lb break="no" ed="#Bc" n="11"/>demnamus. .
+</p>
+            <p xml:id="alalal-e03383-d1e284">
+               <lb ed="#Bc" n="12"/>2. Item, Apostolus : <quote xml:id="alalal-e03383-Qd1e288"> Debet in spe
+<lb ed="#Bc" n="13"/>gui arat, arare +: </quote> ergo laborans 
+mer<lb break="no" ed="#Bc" n="14"/>cedem potest sperare temporalem : 
+quid<lb break="no" ed="#Bc" n="15"/>quid autem speratur, intenditur: ergo
+<lb ed="#Bc" n="16"/>potest intendere in labore finem illum.
+</p>
+            <p xml:id="alalal-e03383-d1e300">
+               <lb ed="#Bc" n="17"/>3. Item, Laborantem agricolam 
+opor<lb break="no" ed="#Bc" n="18"/>tet primum de fructibus percipere .
+</p>
+            <p xml:id="alalal-e03383-d1e308">
+               <lb ed="#Bc" n="19"/>4. Item, alibi, Dominus ordinat, ut
+<lb ed="#Bc" n="20"/>qui altari servit, de altari vivat .
+</p>
+            <p xml:id="alalal-e03383-d1e315">
+               <lb ed="#Bc" n="21"/>5. Item, alibi, Non alligabis os bovi
+<lb ed="#Bc" n="22"/>trituranti 4,
+</p>
+            <p xml:id="alalal-e03383-d1e322">
+               <lb ed="#Bc" n="23"/>6. Item, alibi, Si nos vobis temporalia
+<lb ed="#Bc" n="24"/>seminavimus, magnum est nos si 
+carna<lb break="no" ed="#Bc" n="25"/>lia vestra metamus ? Quasi diceret :
+<lb ed="#Bc" n="26"/>Non.
+</p>
+            <p xml:id="alalal-e03383-d1e333">
+               <lb ed="#Bc" n="27"/>7. Item, in JLittera etiam habetur,
+<lb ed="#Bc" n="28"/>Leva ejus sub capite meo, id est, 
+tem<lb break="no" ed="#Bc" n="29"/>poralia in sustentatione.
+</p>
+            <p xml:id="alalal-e03383-d1e342">
+               <lb ed="#Bc" n="30"/>Sed contra est quod
+<lb ed="#Bc" n="31"/>1. Dicit Augustinus in libro 
+Confes<lb break="no" ed="#Bc" n="32"/>stonum :<quote xml:id="alalal-e03383-Qd1e350"> Minus te amat, qui tecum
+<lb ed="#Bc" n="33"/>aliquid amat,</quote> id est, minus quam
+<lb ed="#Bc" n="34"/>teneatur.
+</p>
+            <p xml:id="alalal-e03383-d1e358">
+               <lb ed="#Bc" n="35"/>2. Item, Super illud Deuter. vi, 5:
+<lb ed="#Bc" n="36"/>Ditiges Dominum Deum tuum ex toto
+<lb ed="#Bc" n="37"/>corde tuo, etc., dicit Glossa, quod non
+<lb ed="#Bc" n="38"/>vult Deus amorem suum dividi: ergo
+<lb ed="#Bc" n="39"/>nihil cum Deo est diligendum.
+</p>
+            <p xml:id="alalal-e03383-d1e372">
+               <lb ed="#Bc" n="40"/>3. Item, Isa. xxv, 20: <quote xml:id="alalal-e03383-Qd1e376">
+Coangusta<lb break="no" ed="#Bc" n="41"/>tum est stratum, ita wut alter decidat:
+<lb ed="#Bc" n="42"/>et pallium breve utrumque operire non
+<lb ed="#Bc" n="43"/>potest</quote>. Exponitur de charitate : ergo
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="44"/>nihil operit cum Deo: ergo non pos
+<lb ed="#Bc" n="45"/>sumus facere duos fines.
+</p>
+            <p xml:id="alalal-e03383-d1e392">
+               <lb ed="#Bc" n="46"/>Quaeritur etiam ulterius de bonis mer.
+<lb ed="#Bc" n="47"/>cenariis qui videntur facere duos fines
+<lb ed="#Bc" n="48"/>quia
+<lb ed="#Bc" n="49"/>1. Quidam serviunt prepter regnum
+<lb ed="#Bc" n="50"/>colorum, et non propter Deum : hi enim
+<lb ed="#Bc" n="51"/>secundum hoc videntur peccare.
+</p>
+            <p xml:id="alalal-e03383-d1e408">
+               <lb ed="#Bc" n="52"/>2. Item, Psal. cxvu, 1: Confitemini
+<lb ed="#Bc" n="53"/>Domino, quoniam bonus. Non dicit,
+<lb ed="#Bc" n="54"/>Quoniam mihi vel tibi bonus: ergo 
+de<lb break="no" ed="#Bc" n="55"/>bet diligi propter se, et non propter 
+ali<lb break="no" ed="#Bc" n="56"/>quam utilitatem temporalem vel 
+eter<lb break="no" ed="#Bc" n="57"/>nam: ergo videtur, quod servientes pro
+<lb ed="#Bc" n="58"/>mercede aeterna peccant.
+</p>
+            <p xml:id="alalal-e03383-d1e426">
+               <lb ed="#Bc" n="59"/>Sep contra: In Luca, Quanti 
+merce<lb break="no" ed="#Bc" n="60"/>narit in domo patris mei abundant 
+pa<lb break="no" ed="#Bc" n="61"/>nibus. Ergo illi mercenarii non 
+per<lb break="no" ed="#Bc" n="62"/>eunt : ergo potest aliquis sibi 
+consti<lb break="no" ed="#Bc" n="63"/>tuere fines beatitudinis create in 
+servi<lb break="no" ed="#Bc" n="64"/>tio Dei.
+</p>
+            <p xml:id="alalal-e03383-d1e442">
+               <lb ed="#Bc" n="65"/>Soxrutio. Facile est hic respondere 
+ob<lb break="no" ed="#Bc" n="66"/>jectis secundum supra determinata.
+</p>
+            <p xml:id="alalal-e03383-d1e449">
+               <lb ed="#Bc" n="67"/>Dicendum igitur ad primam partem
+<lb ed="#Bc" n="68"/>objectionum, quod non est nisi unus 
+ul<lb break="no" ed="#Bc" n="69"/>timus finis, et unum objectum fruitionis,
+<lb ed="#Bc" n="70"/>ut in TI libre Sentfentiarum, distinetione
+<lb ed="#Bc" n="71"/>prima, determinatum est: et licet fides
+<lb ed="#Bc" n="72"/>distinguat, tamen complementum gaudii
+<lb ed="#Bc" n="73"/>nec est in intellectu, nec in veritate, sed
+<lb ed="#Bc" n="74"/>in effectu et bonitate : et ideo unus finis.
+</p>
+            <p xml:id="alalal-e03383-d1e470">
+               <lb ed="#Bc" n="75"/>Ad aliud dicendum, qued nullum 
+at<lb break="no" ed="#Bc" n="76"/>tributorum dicit duo simul, scilicet di-~
+<lb ed="#Bc" n="77"/>ligibile propter se, et rationem diligibilis
+<lb ed="#Bc" n="78"/>propter se, nisi tantum bonitas: et ideo
+<lb ed="#Bc" n="79"/>ipsa sola est finis, et in raticne finis : sed
+<lb ed="#Bc" n="80"/>alia attributa sunt quidem finis, sed non
+<lb ed="#Bc" n="81"/>in ratione finis. ©
+</p>
+            <p xml:id="alalal-e03383-d1e488">
+               <lb ed="#Bc" n="82"/>Ap sEcUNDAM partem respondendum
+<lb ed="#Bc" n="83"/>per distinctionem, quod finem ultimum
+<lb ed="#Bc" n="84"/>non possumus constituere nisi unum:
+<pb ed="#Bc" n="611"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>sed citra ultimum possumus habere alios
+<lb ed="#Bc" n="2"/>fines, ut dicit in Liétera: et hoc 
+duplici<lb break="no" ed="#Bc" n="3"/>ter: id enim quod quaeritur citra Deum,
+<lb ed="#Bc" n="4"/>duobus modis queritur, scilicet ad Deum
+<lb ed="#Bc" n="5"/>tantum : sicut illi qui non querunt nisi
+<lb ed="#Bc" n="6"/>unde faciant sibi instrumentum 
+meren<lb break="no" ed="#Bc" n="7"/>di, ut quiomnia dant in eleemosynas.
+<lb ed="#Bc" n="8"/>Queritur etiam ad dilectionem citra
+<lb ed="#Bc" n="9"/>Deum tantum: et illi edificant lgna,
+<lb ed="#Bc" n="10"/>fenum, stipulam : sed tamen merito
+<lb ed="#Bc" n="11"/>fundamenti et charitatis qua nihil 
+tan<lb break="no" ed="#Bc" n="12"/>tum ut Deum dilexerunt, salvabuntur.
+</p>
+            <p xml:id="alalal-e03383-d1e527">
+               <lb ed="#Bc" n="13"/>Ap Hoc autem quod objicitur in 
+con<lb break="no" ed="#Bc" n="14"/>trarium, dicendum qnod cum dicit Au-.
+<lb ed="#Bc" n="15"/>gustinus, <quote xml:id="alalal-e03383-Qd1e535"> Minus te amat, </quote> intelligitur
+<lb ed="#Bc" n="16"/>secundum quod ly fe, dicit associationem
+<lb ed="#Bc" n="17"/>eequalitatis vel contrarietatis: quia tunc
+<lb ed="#Bc" n="18"/>peccatum mortale est talis dilectio, et
+<lb ed="#Bc" n="19"/>est libidinosa, quae Deum non preponit
+<lb ed="#Bc" n="20"/>omnibus creaturis. :
+</p>
+            <p xml:id="alalal-e03383-d1e549">
+               <lb ed="#Bc" n="21"/>Ap ALIA omnia dicendum, quod 
+in<lb break="no" ed="#Bc" n="22"/>telliguntur de fine citra finem, et non
+<lb ed="#Bc" n="23"/>peceatur in talibus,
+</p>
+            <p xml:id="alalal-e03383-d1e558">
+               <lb ed="#Bc" n="24"/>Ap TERTIAM partem objectionum, est
+<lb ed="#Bc" n="25"/>disputatum etiam super tertium 
+Sen<lb break="no" ed="#Bc" n="26"/>ientiarum, questione de numero 
+dili<lb break="no" ed="#Bc" n="27"/>gendorum.,
+</p>
+            <p xml:id="alalal-e03383-d1e569">
+               <lb ed="#Bc" n="28"/>Et dicendum, quod bonus 
+mercena<lb break="no" ed="#Bc" n="29"/>rius non tantum non peccat, sed 
+maul<lb break="no" ed="#Bc" n="30"/>tum meretur : quia idem est merces
+<lb ed="#Bc" n="31"/>eterna quod ipse Deus secundum 
+cau<lb break="no" ed="#Bc" n="32"/>sam, licet beatitudo creata formaliter
+<lb ed="#Bc" n="33"/>non sit Deus: sed ipse refert eam 
+ulte<lb break="no" ed="#Bc" n="34"/>rius ad Deum tamquayn optimum sibi.
+</p>
+            <p xml:id="alalal-e03383-d1e588">
+               <lb ed="#Bc" n="35"/>Ap hoc autem quod objicitur, 
+dicen<lb break="no" ed="#Bc" n="36"/>dum quodidem bonum simpliciter 
+bo<lb break="no" ed="#Bc" n="37"/>num, est nobis bonum in gloria, licet in
+<lb ed="#Bc" n="38"/>statu sensualitatis non semper sit idem:
+<lb ed="#Bc" n="39"/>et bonus mercenarius attendit sibi 
+bo<lb break="no" ed="#Bc" n="40"/>num secundum statum glorie : et ideo
+<lb ed="#Bc" n="41"/>confitetur quoniam bonus.
+</p>
+            <p xml:id="alalal-e03383-d1e606">
+               <lb ed="#Bc" n="42"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

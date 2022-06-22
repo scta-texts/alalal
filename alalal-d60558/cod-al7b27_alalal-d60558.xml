@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="333"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d60558"><!-- l2d19a4 -->
+            <head xml:id="alalal-d60558-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-d60558-Hd1e101" type="question-title">Utrum immortalitas in primo statu fuit
+a natura, vel a gratia?</head>
+            <p xml:id="alalal-d60558-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="19"/>ARTICULUS IV.
+<lb ed="#Bc" n="20"/>Utrum immortalitas in primo statu fuit
+<lb ed="#Bc" n="21"/>a natura, vel a gratia?
+</p>
+            <p xml:id="alalal-d60558-d1e115">
+               <lb ed="#Bc" n="22"/>Deinde quaeritur de tertia parte, ibi,
+<lb ed="#Bc" n="23"/>
+               <quote xml:id="alalal-d60558-Qd1e121"> Solet hic queri, Cum homo primus,
+<lb ed="#Bc" n="24"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-d60558-d1e127">
+               <lb ed="#Bc" n="25"/>Videtur enim, quod immortalitas illa
+<lb ed="#Bc" n="26"/>fuerit per naturam :
+<cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="27"/>1. Precipue enim naturalia dicuntur
+<lb ed="#Bc" n="28"/>in quibus nascimur: ergo praecipue 
+na<lb break="no" ed="#Bc" n="29"/>turale fuit Ade id in quo est institutus.
+</p>
+            <p xml:id="alalal-d60558-d1e144">
+               <lb ed="#Bc" n="30"/>2. Item, Idem est principium vite et
+<lb ed="#Bc" n="31"/>continuationis vite. Sed anima per 
+na<lb break="no" ed="#Bc" n="32"/>turam est principium vite: ergo 
+conti<lb break="no" ed="#Bc" n="33"/>nuationis : ergo potest continuare vitam
+<lb ed="#Bc" n="34"/>per naturam: immortalitas autem nihil
+<lb ed="#Bc" n="35"/>aliud est quam continuatio vite: ergo
+<lb ed="#Bc" n="36"/>Adam fuit immortalis per naturam.
+</p>
+            <p xml:id="alalal-d60558-d1e162">
+               <lb ed="#Bc" n="37"/>3. Item, Si daretur nobis habens
+<lb ed="#Bc" n="38"/>effectum continuationis vite, et nos per
+<lb ed="#Bc" n="39"/>potestatem naturalem possemus 
+come<lb break="no" ed="#Bc" n="40"/>dere, et sic continuare vitam, nos dice-
+<pb ed="#Bc" n="334"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>remur vivere ex naturalibus solis, et non
+<lb ed="#Bc" n="2"/>ex gratia, quoniam haberemus in 
+pote<lb break="no" ed="#Bc" n="3"/>state naturali continuare nobis vitam :
+<lb ed="#Bc" n="4"/>ergo silignum vite habebat potestatem
+<lb ed="#Bc" n="5"/>continuandi vitam, et homo naturalem
+<lb ed="#Bc" n="6"/>potestatem comedendi illud, ipse 
+conti<lb break="no" ed="#Bc" n="7"/>nuavit vitam per naturam, et non per
+<lb ed="#Bc" n="8"/>gratiam: dicitur autem in Liftera, quod
+<lb ed="#Bc" n="9"/>immortalis erat ex esu ligni vite: ergo
+<lb ed="#Bc" n="10"/>immortalis erat per naturam.
+</p>
+            <p xml:id="alalal-d60558-d1e199">
+               <lb ed="#Bc" n="11"/>SED CONTRA:
+<lb ed="#Bc" n="12"/>1. Natura composita ex contrarlis non
+<lb ed="#Bc" n="13"/>habet in se principium incorruptionis :
+<lb ed="#Bc" n="14"/>Adam autem habebat naturam 
+composi<lb break="no" ed="#Bc" n="15"/>tam ex contrariis : ergo ex natura non
+<lb ed="#Bc" n="16"/>habebat principium suae immortalitatis.
+</p>
+            <p xml:id="alalal-d60558-d1e215">
+               <lb ed="#Bc" n="17"/>2. Item, In Litéera dicitur, quod erat
+<lb ed="#Bc" n="18"/>ex beneficio gratia immortalis : et hoc
+<lb ed="#Bc" n="19"/>omnes auctoritates Augustini dicunt
+<lb ed="#Bc" n="20"/>quod ipse dicit, quod sicut prefatum fuit
+<lb ed="#Bc" n="21"/>filiis Israel ut in quadraginta annis 
+vesti<lb break="no" ed="#Bc" n="22"/>menta non veterascerent, ita prefatum
+<lb ed="#Bc" n="23"/>fuit Ade ne moreretur. Constat autem,
+<lb ed="#Bc" n="24"/>quod per naturam non fuit conservatio
+<lb ed="#Bc" n="25"/>vestimentorum a vetustate : ergo nec
+<lb ed="#Bc" n="26"/>immortalitas Ade fuit per naturam.
+</p>
+            <p xml:id="alalal-d60558-d1e239">
+               <lb ed="#Bc" n="27"/>Solutio. Dicendum, quod erat 
+immor<lb break="no" ed="#Bc" n="28"/>talitas per gratiam, et non per naturam.
+<lb ed="#Bc" n="29"/>Et nota, quod sicut in nobis, sic ad 
+im<lb break="no" ed="#Bc" n="30"/>mortalitatem Ade quinque exigebantur :
+<lb ed="#Bc" n="31"/>quorum primum est continuatio ordinis
+<lb ed="#Bc" n="32"/>ad perpetuam causam vite : et hoc fuit
+<lb ed="#Bc" n="33"/>in hoc quod anima subderetur Deo, et
+<lb ed="#Bc" n="34"/>corpus anime, et mundus corpori. Sic
+<lb ed="#Bc" n="35"/>enim fuit hic : hausit enim ex perpetuo
+<lb ed="#Bc" n="36"/>fonte vite, et ita refudit in corpus 
+perpe<lb break="no" ed="#Bc" n="37"/>tuam vitam.Secundum est habitus quidam
+<lb ed="#Bc" n="38"/>creatus qui conservabat proportionem
+<lb ed="#Bc" n="39"/>corporis in compositione prima et 
+com<lb break="no" ed="#Bc" n="40"/>plexione, ut in eadem habitudine manens
+<lb ed="#Bc" n="41"/>semper viveret : et hic habitus erat 
+gra<lb break="no" ed="#Bc" n="42"/>tia creata quam amisit interrupto ordine
+<lb ed="#Bc" n="43"/>primo. Tertium erat lignum vite quod
+<lb ed="#Bc" n="44"/>disponebat a parte materie, removens a
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="45"/>corpore causas sencctutis, et indurationig
+<lb ed="#Bc" n="46"/>membrorum, et putrefactionis humo.
+<lb ed="#Bc" n="47"/>rum : et ideo dicit Augustinus, quod
+<lb ed="#Bc" n="48"/>
+               <quote xml:id="alalal-d60558-Qd1e291"> stabili sanitate firmabat corpus ejus
+<lb ed="#Bc" n="49"/>lignum vite, quia semper renovabat te.
+<lb ed="#Bc" n="50"/>neritudinem complexionis. optima.</quote>
+               <lb ed="#Bc" n="51"/>Quartum autem erat cibus aliorum 
+ligno<lb break="no" ed="#Bc" n="52"/>rum, qui conservabat ne deperiret aliquid
+<lb ed="#Bc" n="53"/>in materia corporis, vel humidi 
+radica<lb break="no" ed="#Bc" n="54"/>lis. Quintum erat Deus protegens extrin-
+<lb ed="#Bc" n="55"/>secus per hoc quod omnia lesiva 
+subdi<lb break="no" ed="#Bc" n="56"/>ta erant sibi, et non poterant contra eum,
+<lb ed="#Bc" n="57"/>sed pro ipso. Et ideo patet, quod cum 
+im<lb break="no" ed="#Bc" n="58"/>mortalitas proprie respiciat primum, et
+<lb ed="#Bc" n="59"/>secundum pro causa : primum tamquam
+<lb ed="#Bc" n="60"/>causam efficientem, et secundum 
+tam<lb break="no" ed="#Bc" n="61"/>quam causam habitualem et formalem,
+<lb ed="#Bc" n="62"/>quod erat ex gratia, et non ex natura:
+<lb ed="#Bc" n="63"/>alia autem tria non faciebant 
+immortali<lb break="no" ed="#Bc" n="64"/>tatem nisi ut dispositiones naturales,
+</p>
+            <p xml:id="alalal-d60558-d1e329">
+               <lb ed="#Bc" n="65"/>Dicendum ergo ad primum, quod in
+<lb ed="#Bc" n="66"/>quibus nascimur tamquam in principiis
+<lb ed="#Bc" n="67"/>constituentibus naturam, sunt naturalia:
+<lb ed="#Bc" n="68"/>sed si nasceremur in gratia, vel in gloria,
+<lb ed="#Bc" n="69"/>aliter esset : et sic etiam fuit de primo
+<lb ed="#Bc" n="70"/>homine.
+</p>
+            <p xml:id="alalal-d60558-d1e346">
+               <lb ed="#Bc" n="71"/>Ad aliud dicendum, quod haec est 
+du<lb break="no" ed="#Bc" n="72"/>bia et non probata, quod per eamdem
+<lb ed="#Bc" n="73"/>naturam aliquid constituat vitam, et 
+in<lb break="no" ed="#Bc" n="74"/>fluat eam : et forte propositio est falsa,
+<lb ed="#Bc" n="75"/>quia nulla potentia anime nec plante
+<lb ed="#Bc" n="76"/>nec bruti senescit et debilitatur, nisi per
+<lb ed="#Bc" n="77"/>accidens. Et dicit Philosophus, <quote xml:id="alalal-d60558-Qd1e363"> Si 
+se<lb break="no" ed="#Bc" n="78"/>nex acciperet oculum juvenis, videret 
+sic<lb break="no" ed="#Bc" n="79"/>ut juvenis : </quote> et ita est verum de oculo
+<lb ed="#Bc" n="80"/>asini, sicut de oculo hominis : unde puto
+<lb ed="#Bc" n="81"/>esse dicendum, quod anime substantiale
+<lb ed="#Bc" n="82"/>est influere vitam tali corpori, sicut 
+com<lb break="no" ed="#Bc" n="83"/>posito et complexionato : non est autem
+<lb ed="#Bc" n="84"/>naturale continuare : quia si hoc esset
+<lb ed="#Bc" n="85"/>naturale, non esset completa perfectio
+<lb ed="#Bc" n="86"/>ipsius, nisi haberet tale corpus; et hoc
+<lb ed="#Bc" n="87"/>non est verum secundum Philosophiam
+<lb ed="#Bc" n="88"/>naturalem. ,
+</p>
+            <p xml:id="alalal-d60558-d1e390">
+               <lb ed="#Bc" n="89"/>Ad aliud dicendum, quod cibus ligni 
+<pb ed="#Bc" n="335"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>non est nisi dispositio materialis, et non 
+<lb ed="#Bc" n="2"/>habitus quo formaliter immortalis 
+dice<lb break="no" ed="#Bc" n="3"/>batur : et hoc patet, quia Elias et Enoch 
+<lb ed="#Bc" n="4"/>mortales sunt, eo quod privatus est in 
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="5"/>eis talis habitus immortalitatis : cum 
+ta<lb break="no" ed="#Bc" n="6"/>men per esum ligni vitee dispositio 
+mor<lb break="no" ed="#Bc" n="7"/>tis removeatur in eis a corpore usque ad
+<lb ed="#Bc" n="8"/>tempus quod Deus voluerit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

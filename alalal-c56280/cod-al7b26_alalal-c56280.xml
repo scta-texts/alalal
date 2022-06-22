@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="299"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c56280"><!-- l1d39a7 -->
+            <head xml:id="alalal-c56280-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-c56280-Hd1e101" type="question-title">An concedendum sit Deum posse scire
+quod tpse prius nescivit ?</head>
+            <p xml:id="alalal-c56280-d1e104">
+               <lb ed="#Bb" n="23"/>ARTICULUS VII.
+<lb ed="#Bb" n="24"/>An concedendum sit Deum posse scire
+<lb ed="#Bb" n="25"/>quod tpse prius nescivit ?
+</p>
+            <p xml:id="alalal-c56280-d1e113">
+               <lb ed="#Bb" n="26"/>Postea queritur de hoc quod dicit:
+<lb ed="#Bb" n="27"/>
+               <quote xml:id="alalal-c56280-Qd1e119"> Non potest ergo noviter vel ex tempore
+<lb ed="#Bb" n="28"/>seire vel prescire aliquid, ete. </quote>
+            </p>
+            <p xml:id="alalal-c56280-d1e125">
+               <lb ed="#Bb" n="29"/>Queritur enim, Utram concedendum
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="30"/>sit Deum posse scire quod ipse prius 
+ne<lb break="no" ed="#Bb" n="31"/>selvit ?
+</p>
+            <p xml:id="alalal-c56280-d1e137">
+               <lb ed="#Bb" n="32"/>Et videtur quod sic : quia
+<lb ed="#Bb" n="33"/>1. Hoc innuitur in ultima parte 
+se<lb break="no" ed="#Bb" n="34"/>quentis opinionis quam inducit, quod
+<lb ed="#Bb" n="35"/>Deus plura potest scire quam scivit, quia
+<lb ed="#Bb" n="36"/>transire potest super plura.
+</p>
+            <p xml:id="alalal-c56280-d1e150">
+               <lb ed="#Bb" n="37"/>2. Item, Quidam objiciunt : Deus 
+pot<lb break="no" ed="#Bb" n="38"/>est modo creare quod non creat, et 
+plu<lb break="no" ed="#Bb" n="39"/>ra creare quam creat: ergo similiter 
+plu<lb break="no" ed="#Bb" n="40"/>ra potest scire quam sciat.
+</p>
+            <p xml:id="alalal-c56280-d1e161">
+               <lb ed="#Bb" n="41"/>SED CONTRA:
+<lb ed="#Bb" n="42"/>Cum scientia referatur ad scibile, si 
+pot<lb break="no" ed="#Bb" n="43"/>est scire quod prius nescivit, videtur 
+se<lb break="no" ed="#Bb" n="44"/>qui quod potest habere scientiam quam
+<lb ed="#Bb" n="45"/>prius non habuit: et hoc est Deum 
+alte<lb break="no" ed="#Bb" n="46"/>rari ab imperfecta scientia ad perfectam.
+</p>
+            <p xml:id="alalal-c56280-d1e177">
+               <lb ed="#Bb" n="47"/>Solutio. Videtur mihi, quod non sit
+<lb ed="#Bb" n="48"/>concedendum.
+</p>
+            <p xml:id="alalal-c56280-d1e184">
+               <lb ed="#Bb" n="49"/>Ad ww autem quod objicitur de Litfera:
+<lb ed="#Bb" n="50"/>dico, quod non intendit, quod aliqua
+<lb ed="#Bb" n="51"/>possint fieri supra quae transeat scientia
+<lb ed="#Bb" n="52"/>Dei novo modo, sed intendit quod aliqua
+<lb ed="#Bb" n="53"/>possint fieri, super quae ab aeterno 
+fuis<lb break="no" ed="#Bb" n="54"/>set scientia. Et sic non sciret nisi quod
+<lb ed="#Bb" n="55"/>prius et ab aeterno scivit.
+</p>
+            <p xml:id="alalal-c56280-d1e202">
+               <lb ed="#Bb" n="56"/>Ad aliud dicendum, quod non est 
+si<lb break="no" ed="#Bb" n="57"/>mile de creatione : quia illa nihil ponit
+<lb ed="#Bb" n="58"/>in Deo, sed in re extra: scientia autem
+<lb ed="#Bb" n="59"/>est in sciente ipso, et ideo non potest ei
+<lb ed="#Bb" n="60"/>advenire scientia nove rei sine sui 
+va<lb break="no" ed="#Bb" n="61"/>ratione : quia illa nova res poneret 
+ratio<lb break="no" ed="#Bb" n="62"/>nem idealem in Deo, quae nisi ab aeterno
+<lb ed="#Bb" n="63"/>fuerit in ipso, varationem ponit circa
+<lb ed="#Bb" n="64"/>ipsum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

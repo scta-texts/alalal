@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="206"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a40755"><!-- l1d7a2 -->
+            <head xml:id="alalal-a40755-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-a40755-Hd1e101" type="question-title">Utrum posse generare sit ad aliquid,
+sive aliquid ?</head>
+            <p xml:id="alalal-a40755-d1e104">
+               <lb ed="#Ba" n="45"/>ARTICULUS II.
+<lb ed="#Ba" n="46"/>Utrum posse generare sit ad aliquid,
+<lb ed="#Ba" n="47"/>sive aliquid ?
+</p>
+            <p xml:id="alalal-a40755-d1e113">
+               <lb ed="#Ba" n="48"/>Secundo quaeritur, Utrum posse 
+ge<lb break="no" ed="#Ba" n="49"/>nerare sit posse aliquid?
+</p>
+            <p xml:id="alalal-a40755-d1e120">
+               <lb ed="#Ba" n="50"/>1. Et videtur, quod non: quia 
+Magi<lb break="no" ed="#Ba" n="51"/>ster dicit in Littera, quod. posse vel velle
+<lb ed="#Ba" n="52"/>gignere Filium, non est posse vel velle
+<lb ed="#Ba" n="53"/>aliquid.
+</p>
+            <p xml:id="alalal-a40755-d1e132">
+               <lb ed="#Ba" n="54"/>2. Praeterea, Potentie distinguuntur
+<lb ed="#Ba" n="55"/>per actus: ergo potentia ejus quod est
+<lb ed="#Ba" n="56"/>aliquid, erit potentia qua est posse 
+ali<lb break="no" ed="#Ba" n="57"/>quid: et potentia ejus quod est ad 
+ali<lb break="no" ed="#Ba" n="58"/>quid, erit potentia qua est posse ad 
+ali<lb break="no" ed="#Ba" n="59"/>quid,et non aliquid : cum igitur generare
+<lb ed="#Ba" n="60"/>sit ad aliquid, posse generare erit ad 
+ali<lb break="no" ed="#Ba" n="61"/>quid, et non aliquid.
+</p>
+            <p xml:id="alalal-a40755-d1e152">
+               <lb ed="#Ba" n="62"/>3. Praeterea, Posse generare dicit 
+con<lb break="no" ed="#Ba" n="63"/>veniens Patri, et non Filio, vel Spiritui
+<lb ed="#Ba" n="64"/>sancto: in nullo autem distinguuntur
+<lb ed="#Ba" n="65"/>Pater et Filius, nisi in eo quod est ad
+<lb ed="#Ba" n="66"/>aliquid: ergo posse generare non est
+<lb ed="#Ba" n="67"/>aliquid, sed ad aliquid.
+</p>
+            <p xml:id="alalal-a40755-d1e168">
+               <lb ed="#Ba" n="68"/>4, Praeterea, In inferioribus sic est,
+<lb ed="#Ba" n="69"/>quod potentie active sunt secundum
+<lb ed="#Ba" n="70"/>proprietates disponentes ad actum, ut
+<lb ed="#Ba" n="71"/>calefacere est ignis secundum 
+proprieta<lb break="no" ed="#Ba" n="72"/>tem calidi, et lucere secundum 
+proprie<lb break="no" ed="#Ba" n="73"/>tatem quae est lux, et sic de aliis: ergo
+<lb ed="#Ba" n="74"/>cum generare sit actus Patris, unde 
+pa<lb break="no" ed="#Ba" n="75"/>ter est, et non unde substantia divina
+<lb ed="#Ba" n="76"/>est, proprietas quae constituit potentiam
+<lb ed="#Ba" n="77"/>ad actum illum, erit Patris in eo quod
+<lb ed="#Ba" n="78"/>pater est, et non unde substantia divina
+<lb ed="#Ba" n="79"/>est : sed in eo quod pater est, ad aliquid
+<lb ed="#Ba" n="80"/>est: ergo proprietas faciens secundum
+<lb ed="#Ba" n="81"/>rationem intelligendi, potentiam 
+gene<lb break="no" ed="#Ba" n="82"/>randi in ipso, ad aliquid est, et non 
+ali<lb break="no" ed="#Ba" n="83"/>quid : ergo potentia quae est a proprietate
+<lb ed="#Ba" n="84"/>illa secundum rationem intelligendi, erit
+<lb ed="#Ba" n="85"/>ad aliquid, et non aliquid absolute.
+</p>
+            <p xml:id="alalal-a40755-d1e210">
+               <lb ed="#Ba" n="86"/>5. Si forte dicat aliquis, quod haec
+pro<lb break="no" ed="#Ba" n="87"/>prietas quae secundim rationem intelli-
+<pb ed="#Ba" n="207"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>gendi facit potentiam generandi, est in
+<lb ed="#Ba" n="2"/>Patre non solum unde Pater est Pater,
+<lb ed="#Ba" n="3"/>sed unde est. Contra: Augustinus dicit,
+<lb ed="#Ba" n="4"/>quod Pater non paternitate est, sed 
+sub<lb break="no" ed="#Ba" n="5"/>stantia, et eadem Filius et Spiritus 
+san<lb break="no" ed="#Ba" n="6"/>clus : ergo proprietas illa qui facit 
+po<lb break="no" ed="#Ba" n="7"/>lentiam generandiin Patre, eodem modo
+<lb ed="#Ba" n="8"/>invenitur in Filio et Spiritu. sancto :
+<lb ed="#Ba" n="9"/>ergo in eis etiam faciet idem, quia 
+ab<lb break="no" ed="#Ba" n="10"/>surdum esset dicere, quod essentia aliter
+<lb ed="#Ba" n="11"/>esset in Patre quamin Filio et Spiritu
+<lb ed="#Ba" n="12"/>sancto: ergo redit primum, quod 
+poten<lb break="no" ed="#Ba" n="13"/>tia generandi non sit aliquid, sed ad 
+ali<lb break="no" ed="#Ba" n="14"/>quid.
+</p>
+            <p xml:id="alalal-a40755-d1e252">
+               <lb ed="#Ba" n="15"/>6. Si forte dicatur (ut quidam 
+dixe<lb break="no" ed="#Ba" n="16"/>runt) quod cum dicitur, Potentia 
+gene<lb break="no" ed="#Ba" n="17"/>randi est in Patre, potest intelligi 
+poten<lb break="no" ed="#Ba" n="18"/>lia disposita, vel indisposita : si primo 
+mo<lb break="no" ed="#Ba" n="19"/>do, tunc est ad aliquid : sisecundo modo,
+<lb ed="#Ba" n="20"/>tunc est aliquid : et primo modo tantum
+<lb ed="#Ba" n="21"/>convenit person® Patris, secundo modo
+<lb ed="#Ba" n="22"/>convenit nature. Conrra : Dicit 
+Philo<lb break="no" ed="#Ba" n="23"/>sophus, quod potentia indisposita 
+indif<lb break="no" ed="#Ba" n="24"/>ferenter se habet ad esse et ad non esse:
+<lb ed="#Ba" n="25"/>talem autem potentiam ad generandum
+<lb ed="#Ba" n="26"/>et non generandum nullam est ponere in
+<lb ed="#Ba" n="27"/>Deo, nec in eo quod pater, nec in eo
+<lb ed="#Ba" n="28"/>quod natura : quia dicit Hilarius quod
+<lb ed="#Ba" n="29"/>generat in se virtute gignentis nature :
+<lb ed="#Ba" n="30"/>ergo ista solutio non potest stare.
+</p>
+            <p xml:id="alalal-a40755-d1e289">
+               <lb ed="#Ba" n="31"/>7. Praeterea, Cum dico, Potentia 
+dis<lb break="no" ed="#Ba" n="32"/>posila, ejusdem est dispositio cujus prius
+<lb ed="#Ba" n="33"/>fuit potentia : non enim dantur 
+dispositio<lb break="no" ed="#Ba" n="34"/>nes potentiis ut ulterius fiant quam prius
+<lb ed="#Ba" n="35"/>fuerunt, sed ut perficiantur ad actus : 
+er<lb break="no" ed="#Ba" n="36"/>go si potentia disposita est persone, et
+<lb ed="#Ba" n="37"/>est ad aliquid, etiam potentia indisposita
+<lb ed="#Ba" n="38"/>erit ejusdem et etiam ad aliquid.
+</p>
+            <p xml:id="alalal-a40755-d1e310">
+               <lb ed="#Ba" n="39"/>SED CONTRA :
+<lb ed="#Ba" n="40"/>i. Ad actum nature non est nisi 
+poten<lb break="no" ed="#Ba" n="41"/>tia nature : generatio est actus nature :
+<lb ed="#Ba" n="42"/>ergo potentia generandi est potentia 
+natu<lb break="no" ed="#Ba" n="43"/>re: ergo potentia generandi potentia est
+<lb ed="#Ba" n="44"/>substantia generantis.
+</p>
+            <p xml:id="alalal-a40755-d1e326">
+               <lb ed="#Ba" n="45"/>2. Praeterea, Omnis potentia radicatur
+<lb ed="#Ba" n="46"/>in aliquo secundum rationem 
+intelligen<lb break="no" ed="#Ba" n="47"/>di: hoc autem est natura, ut dicit 
+Hila<lb break="no" ed="#Ba" n="48"/>tius : ergo potentia generandi erit 
+po<lb break="no" ed="#Ba" n="49"/>tentia nature et non personae: ergo
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="50"/>erit aliquid, et non ad aliquid tantum.
+</p>
+            <p xml:id="alalal-a40755-d1e344">
+               <lb ed="#Ba" n="51"/>3. Praeterea, Damascenus dicit, quod
+<lb ed="#Ba" n="52"/>generatio est ex substantia generantis :
+<lb ed="#Ba" n="53"/>ergo potentia generandi potentia est 
+sub<lb break="no" ed="#Ba" n="54"/>stantie generantis, et non ad aliquid.
+</p>
+            <p xml:id="alalal-a40755-d1e355">
+               <lb ed="#Ba" n="55"/>4. Praeterea, Philosophus dicit, quod
+<lb ed="#Ba" n="56"/>generatio dicitur natura, eo quod est via
+<lb ed="#Ba" n="57"/>in naturam : ergo potentia generandi
+<lb ed="#Ba" n="58"/>eritin natura.
+</p>
+            <p xml:id="alalal-a40755-d1e366">
+               <lb ed="#Ba" n="59"/>3. Praeterea, Magister dicit hic, quod
+<lb ed="#Ba" n="60"/>potentia generandi est aliqua potentia :
+<lb ed="#Ba" n="61"/>aliqua autem potentia est aliquid : ergo,
+<lb ed="#Ba" n="62"/>etc.
+</p>
+            <p xml:id="alalal-a40755-d1e377">
+               <lb ed="#Ba" n="63"/>Solutio. Sine prejudicio loquendo
+<lb ed="#Ba" n="64"/>(eo quod multi hic multa dixerunt) dico,
+<lb ed="#Ba" n="65"/>quod potentia generandi secundum 
+ratio<lb break="no" ed="#Ba" n="66"/>nem intelligendi medium est inter pure 
+es<lb break="no" ed="#Ba" n="67"/>sentiale, et pure personale : et hoc patet,
+<lb ed="#Ba" n="68"/>si dividatur : potentia enim omnis 
+essen<lb break="no" ed="#Ba" n="69"/>tialis est, generatio autem omnis 
+perso<lb break="no" ed="#Ba" n="70"/>nalis est : unde potentia generandi 
+con<lb break="no" ed="#Ba" n="71"/>junctim accipiendo secundum quod 
+po<lb break="no" ed="#Ba" n="72"/>tentia est in actu, est medium inter 
+es<lb break="no" ed="#Ba" n="73"/>sentiale, et notionale sive personale : et
+<lb ed="#Ba" n="74"/>illius medii id quod est potentie, tenet
+<lb ed="#Ba" n="75"/>se ex parte nature : id autem quod est
+<lb ed="#Ba" n="76"/>actus, tenet se ex parte notionis et 
+per<lb break="no" ed="#Ba" n="77"/>sone. Et si dicitur, quod inter 
+essen<lb break="no" ed="#Ba" n="78"/>tiam, et personam nihil est medium.
+<lb ed="#Ba" n="79"/>Responsio, quod hoc verum est 
+secun<lb break="no" ed="#Ba" n="80"/>dum rem: sed secundum rationem 
+in<lb break="no" ed="#Ba" n="81"/>telligendi nihil prohibet esse medium :
+<lb ed="#Ba" n="82"/>secundum hoc igitur proprie loquendo
+<lb ed="#Ba" n="83"/>potentia generandi erit nature secundum
+<lb ed="#Ba" n="84"/>quod est in hac persona: unde secundum
+<lb ed="#Ba" n="85"/>aliquam rationem sui est quid, secundum
+<lb ed="#Ba" n="86"/>aliquam rationem sui est ad aliquid :
+<lb ed="#Ba" n="87"/>multa enim sunt ita essentialia, quod per
+<lb ed="#Ba" n="88"/>conjunctionem sui cum notionalibus 
+con<lb break="no" ed="#Ba" n="89"/>veniunt illi persone cujus est notio illa,
+<lb ed="#Ba" n="90"/>et non alii: et si dividantur ab illo 
+no<lb break="no" ed="#Ba" n="91"/>tionali, conveniunt aequaliter omnibus
+<lb ed="#Ba" n="92"/>personis, sicut exemplum est, cum dico,
+<lb ed="#Ba" n="93"/>Deus generans, ita quod ly generans 
+ad<lb break="no" ed="#Ba" n="94"/>jective ponatur et transitive jungatur
+<lb ed="#Ba" n="95"/>cum ly Deus : tunc enim Deus generans
+<lb ed="#Ba" n="96"/>non erit Filius vel Spiritus sanctus : et
+<lb ed="#Ba" n="97"/>si dividatur per intellectum ly <mentioned>Deus</mentioned> a
+<pb ed="#Ba" n="208"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ly <mentioned>generans</mentioned>, ita scilicet quod 
+substanti<lb break="no" ed="#Ba" n="2"/>vari intelligatur ly <mentioned>generans</mentioned>, vel 
+interci<lb break="no" ed="#Ba" n="3"/>dat compositio inter ly <mentioned>generans</mentioned> et ly
+<lb ed="#Ba" n="4"/>
+               <mentioned>Deus</mentioned>, jam Filius erit generans, id est,
+<lb ed="#Ba" n="5"/>erit Deus qui Deus est generans, et 
+si<lb break="no" ed="#Ba" n="6"/>militer Spiritus sanctus : quia Pater et
+<lb ed="#Ba" n="7"/>Filius et Spiritus sanctus sunt unus et
+<lb ed="#Ba" n="8"/>idem Deus, ut supra habitum est. His
+<lb ed="#Ba" n="9"/>habitis, respondendum est ad objecta.
+</p>
+            <p xml:id="alalal-a40755-d1e491">
+               <lb ed="#Ba" n="10"/>Dicendum ergo ad primum, quod 
+Magi<lb break="no" ed="#Ba" n="11"/>ster attendit posse generare ex ea parte
+<lb ed="#Ba" n="12"/>qua unitum est notionali secundum 
+in<lb break="no" ed="#Ba" n="13"/>tellectum, et non ex alia parte : et ideo
+<lb ed="#Ba" n="14"/>dicit esse ad aliquid, et non quid.
+</p>
+            <p xml:id="alalal-a40755-d1e504">
+               <lb ed="#Ba" n="15"/>Ad aliud dicendum, quod hoc verum
+<lb ed="#Ba" n="16"/>est, quod potenti distinguuntur et 
+diffi<lb break="no" ed="#Ba" n="17"/>niuntur per actus : sed tamen non 
+po<lb break="no" ed="#Ba" n="18"/>nuntur in genere actuum necessario
+<lb ed="#Ba" n="19"/>quia actus in divinis in genere relationis
+<lb ed="#Ba" n="20"/>sunt : et ideo non oportet ut potentia sit
+<lb ed="#Ba" n="21"/>in eodem genere : non enim idem est 
+di<lb break="no" ed="#Ba" n="22"/>slingui, et in‘genere poni : quia 
+distin<lb break="no" ed="#Ba" n="23"/>ctio fit ad cognitionem, genus autem 
+per<lb break="no" ed="#Ba" n="24"/>tinet ad rei naturam. Et si objicitur,
+<lb ed="#Ba" n="25"/>quod diffiniuntur per actus, et diflinitio
+<lb ed="#Ba" n="26"/>datur per ea quae sunt ejusdem nature :
+<lb ed="#Ba" n="27"/>dicendum, quod potentix active, 
+quid<lb break="no" ed="#Ba" n="28"/>quid etiam sit de passivis, non habent
+<lb ed="#Ba" n="29"/>diffiniri per actus, nisi sicut prius 
+diffini<lb break="no" ed="#Ba" n="30"/>tur per posterius: et tales diffinitiones
+<lb ed="#Ba" n="31"/>non sunt rei, sed sunt quoad nos: et
+<lb ed="#Ba" n="32"/>ideo cum potentia generandi sit activa,
+<lb ed="#Ba" n="33"/>illa objectio non cogit.
+</p>
+            <p xml:id="alalal-a40755-d1e548">
+               <lb ed="#Ba" n="34"/>Ap Aniup dicendum, quod posse 
+ge<lb break="no" ed="#Ba" n="35"/>nerare non dicit conveniens Patri, nisi
+<lb ed="#Ba" n="36"/>propter hoc quia medium est non inter
+<lb ed="#Ba" n="37"/>naturam et quamcumque personam, sed
+<lb ed="#Ba" n="38"/>inter naturam et personam Patris : unde
+<lb ed="#Ba" n="39"/>quod non convenit Iilio, non est ex alio
+<lb ed="#Ba" n="40"/>nisi ex eo quod habet de notionali Patris,
+<lb ed="#Ba" n="41"/>et non propter hoc quod habet de 
+essen<lb break="no" ed="#Ba" n="42"/>tiali, gratia cujus ipsum dicitur quid :
+<lb ed="#Ba" n="43"/>unde quia convenit nature in Patre, si
+<lb ed="#Ba" n="44"/>proprie vellemus sibi ponere genus 
+se<lb break="no" ed="#Ba" n="45"/>cundum tolum quod in ipso est, 
+dicere<lb break="no" ed="#Ba" n="46"/>mus ipsum esse quid ad aliquid.
+</p>
+            <p xml:id="alalal-a40755-d1e579">
+               <lb ed="#Ba" n="47"/>Ad aliud dicendum, quod aliae sunt
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>potentie ad totum esse producendum, et
+<lb ed="#Ba" n="49"/>alia ad opera consequentia : unde ille
+<lb ed="#Ba" n="50"/>que sunt ad totum esse producendum, 
+ne<lb break="no" ed="#Ba" n="51"/>cesse est quod radicentur in ipsa rei na-
+{ura aliquo modo, sicut est potentia 
+ge<lb break="no" ed="#Ba" n="52"/>nerandi, secundum quod diffinit Boetius
+<lb ed="#Ba" n="53"/>naturam, quod natura est vis inserta 
+re<lb break="no" ed="#Ba" n="54"/>bus ex similibus similia procreans. Sed
+<lb ed="#Ba" n="55"/>potentie ad opera consequentia esse,
+<lb ed="#Ba" n="56"/>radicantur in proprietatibus compositi,
+<lb ed="#Ba" n="57"/>ut potentia calefaciendi radicatur in 
+ca<lb break="no" ed="#Ba" n="58"/>liditate ignis, qua est proprietas 
+conse<lb break="no" ed="#Ba" n="59"/>quens esse ignis : unde in divinis 
+se<lb break="no" ed="#Ba" n="60"/>cundum modum intelligendi quem 
+ha<lb break="no" ed="#Ba" n="61"/>bere possumus, potentia generandi 
+ra<lb break="no" ed="#Ba" n="62"/>dicatur in natura secundum quod est 
+per<lb break="no" ed="#Ba" n="63"/>sona.
+</p>
+            <p xml:id="alalal-a40755-d1e621">
+               <lb ed="#Ba" n="64"/>Ap 1p quod ulterius objicitur, quod
+<lb ed="#Ba" n="65"/>eadem est natura in Patre et Filio, est
+<lb ed="#Ba" n="66"/>eodem modo dicendum, quod hoc 
+ve<lb break="no" ed="#Ba" n="67"/>rum est : sed non est eadem comparatio
+<lb ed="#Ba" n="68"/>nature Filio et Spiritui sancto : quia in
+<lb ed="#Ba" n="69"/>persona Patris comparatur ad personam
+<lb ed="#Ba" n="70"/>Patris, et habet in ista comparatione
+<lb ed="#Ba" n="71"/>aliquid medium secundum rationem 
+in<lb break="no" ed="#Ba" n="72"/>telligendi, quod non habet ex 
+compara<lb break="no" ed="#Ba" n="73"/>tione sui ad Filium et Spiritum sanctum :
+<lb ed="#Ba" n="74"/>et ideo non oportet, quod potentia 
+gene<lb break="no" ed="#Ba" n="75"/>randi conjunctim, ut dictum est, accepta
+<lb ed="#Ba" n="76"/>sit in Filio et Spiritu sancto.
+</p>
+            <p xml:id="alalal-a40755-d1e652">
+               <lb ed="#Ba" n="77"/>Ap 1p quod objicitur contra 
+solutio<lb break="no" ed="#Ba" n="78"/>nem dicentem potentiam dispositam et
+<lb ed="#Ba" n="79"/>potentiam indispositam, bene concedo
+<lb ed="#Ba" n="80"/>quod est incauta solutio, et non habet
+<lb ed="#Ba" n="81"/>verba propria in divinis : et si esset vera,
+<lb ed="#Ba" n="82"/>adhuc tamen non faceret ad propositum :
+<lb ed="#Ba" n="83"/>quia dispositio non facit potentiam esse
+<lb ed="#Ba" n="84"/>de aliquo genere, ut probat objectio.
+</p>
+            <p xml:id="alalal-a40755-d1e673">
+               <lb ed="#Ba" n="85"/>Ap RATIoNES autem illas quae 
+indu<lb break="no" ed="#Ba" n="86"/>cuntur ad hoc quod potentia generandi
+<lb ed="#Ba" n="87"/>sit nature, concedendum est hoc modo
+<lb ed="#Ba" n="88"/>quo dictum est.
+</p>
+            <p xml:id="alalal-a40755-d1e684">
+               <lb ed="#Ba" n="89"/>Ad id quod ultimo objicitur ex hoc
+<lb ed="#Ba" n="90"/>quod dicit Magister, quod potentia 
+gene<lb break="no" ed="#Ba" n="91"/>randi est aliqua potentia, dicendum quod
+<lb ed="#Ba" n="92"/>hoc verum est : aliquam enim potentiam
+<lb ed="#Ba" n="93"/>esse est commune ad aliquid, et ad
+<pb ed="#Ba" n="209"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>aliquid : nos enim supra diximus, quod
+<lb ed="#Ba" n="2"/>potentia generandi nominat aliquid, et
+<lb ed="#Ba" n="3"/>ad aliquid conjunctim : et per hoc patet
+<lb ed="#Ba" n="4"/>solutio ad omnia objecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

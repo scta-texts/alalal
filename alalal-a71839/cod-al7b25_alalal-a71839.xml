@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="361"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a71839"><!-- l1d12a7 -->
+            <head xml:id="alalal-a71839-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-a71839-Hd1e101" type="question-title">An quidquid habet Filius, habet a Patre
+per generationem ?</head>
+            <p xml:id="alalal-a71839-d1e104">
+               <lb ed="#Ba" n="26"/>ARTICULUS VII.
+<lb ed="#Ba" n="27"/>An quidquid habet Filius, habet a Patre
+<lb ed="#Ba" n="28"/>per generationem ?
+</p>
+            <p xml:id="alalal-a71839-d1e113">
+               <lb ed="#Ba" n="29"/>Deinde quaeritur de hoc quod dicit:
+<lb ed="#Ba" n="30"/>
+               <quote xml:id="alalal-a71839-Qd1e119"> Quidquid habet, de Patre habet Filius,
+<lb ed="#Ba" n="31"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-a71839-d1e125">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="32"/>1. Sed non habet nisiper generationem:
+<lb ed="#Ba" n="33"/>ergo per generationem habet quidquid
+<lb ed="#Ba" n="34"/>habet : sed habet processionem Spiritus
+<lb ed="#Ba" n="35"/>sancti a se: ergo per generationem 
+ha<lb break="no" ed="#Ba" n="36"/>bet illam : ergo processio est per 
+gene<lb break="no" ed="#Ba" n="37"/>rationem, quod falsum est, cum dicant 
+di<lb break="no" ed="#Ba" n="38"/>versos fluxus.
+</p>
+            <p xml:id="alalal-a71839-d1e146">
+               <lb ed="#Ba" n="39"/>2. Item, Si quidquid habet Filius, 
+ha<lb break="no" ed="#Ba" n="40"/>bet a Patre : ergo quidquid habet 
+Spiri<lb break="no" ed="#Ba" n="41"/>tus sanctus, habet ab utroque : ergo quod
+<lb ed="#Ba" n="42"/>procedit ab utroque, habet ab utroque:
+<lb ed="#Ba" n="43"/>ergo quod procedit a Patre, habet ab
+<lb ed="#Ba" n="44"/>utroque: ergo quod procedat a Patre, 
+ha<lb break="no" ed="#Ba" n="45"/>bet aFilio, quod falsum est.
+</p>
+            <p xml:id="alalal-a71839-d1e164">
+               <lb ed="#Ba" n="46"/>Ad uacet hujusmodi sophismata 
+di<lb break="no" ed="#Ba" n="47"/>cendum, quod quidquid habet Filius, 
+ha<lb break="no" ed="#Ba" n="48"/>bet a Patre per generationem: sed non
+<lb ed="#Ba" n="49"/>sequitur, quod totum sit natum quod 
+ha<lb break="no" ed="#Ba" n="50"/>bet, sicut supra est determinatum: quia
+<lb ed="#Ba" n="51"/>Filius natus est, et generatione est, et alia
+<lb ed="#Ba" n="52"/>sunt in ipso per identitatem ad natum :
+<lb ed="#Ba" n="53"/>et sic vis processiva est in ipso, sive 
+spi<lb break="no" ed="#Ba" n="54"/>ratio activa.
+</p>
+            <p xml:id="alalal-a71839-d1e186">
+               <lb ed="#Ba" n="55"/>Ad aliud dicendum, quod quidquid
+<lb ed="#Ba" n="56"/>habet Spiritus sanctus, habet ab utroque
+<lb ed="#Ba" n="57"/>divisim et conjunctim: quia totum 
+ha<lb break="no" ed="#Ba" n="58"/>bet a Filio, et totum habet a Patre: quod
+<lb ed="#Ba" n="59"/>autem infertur: ergo quod procedit ab
+<lb ed="#Ba" n="60"/>utroque, etc., possumus dicere sicut 
+com<lb break="no" ed="#Ba" n="61"/>uniter solvitur, quod est commutatio
+<lb ed="#Ba" n="62"/>predicamenti: quia procedere non est
+<lb ed="#Ba" n="63"/>quid, sed ad aliquid.
+</p>
+            <p xml:id="alalal-a71839-d1e208">
+               <lb ed="#Ba" n="64"/>Sed quia posset opponi quod secundum
+<lb ed="#Ba" n="65"/>hoc non valeret ratio Augustini 
+proban<lb break="no" ed="#Ba" n="66"/>tis quod Filius habet a Patre quod ab
+<lb ed="#Ba" n="67"/>ipso procedat Spiritus: quia quidquid
+<lb ed="#Ba" n="68"/>habet, habet a Patre. Concedatur hec,
+<lb ed="#Ba" n="69"/>quod quidquid habet, habet ab utroque,
+<lb ed="#Ba" n="70"/>et concedatur conjunctim tantum : et si
+<lb ed="#Ba" n="71"/>postea infertur: ergo habet a Filio quod
+<lb ed="#Ba" n="72"/>procedit a Patre, patet quod non 
+sequi<lb break="no" ed="#Ba" n="73"/>tur: quia ab immobili suppositione 
+pro<lb break="no" ed="#Ba" n="74"/>cedit ad mobilem.
+</p>
+            <p xml:id="alalal-a71839-d1e234">
+               <lb ed="#Ba" n="75"/>Si autem objicitur, quod hoc est 
+con<lb break="no" ed="#Ba" n="76"/>trarium hujus quod dictum est, scilicet
+<lb ed="#Ba" n="77"/>quidquid habet, habet ab utroque divisim
+<lb ed="#Ba" n="78"/>et conjunctim, Dicendum, quod non:
+<lb ed="#Ba" n="79"/>quia prima suppositio non est nisi pro
+<pb ed="#Ba" n="362"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>substantialibus : cum autem assumitur
+<lb ed="#Ba" n="2"/>secunda, in distributione termini claudi-~
+<lb ed="#Ba" n="3"/>tur, etiam notionaliter conveniens: et
+<lb ed="#Ba" n="4"/>quia notionale est in utroque conjunctim,
+<lb ed="#Ba" n="5"/>ideo non est mirum si variatur supposi-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="6"/>tionis modus. Vel potest dici, quod etiam
+<lb ed="#Ba" n="7"/>ratio Augustini non tenet de Filio nisi
+<lb ed="#Ba" n="8"/>gratia materie: in forma enim peccat
+<lb ed="#Ba" n="9"/>mutando quid in ad aliquid.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

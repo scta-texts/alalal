@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="17"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-gg3346"><!-- l4d1a6 -->
+            <head xml:id="alalal-gg3346-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-gg3346-Hd1e101" type="question-title">An in sacramentis signum sit res
+aliqua ?</head>
+            <p xml:id="alalal-gg3346-d1e104">
+               <lb ed="#Be" n="82"/>ARTICULUS VI.
+<lb ed="#Be" n="83"/>An in sacramentis signum sit res
+<lb ed="#Be" n="84"/>aliqua ?
+</p>
+            <p xml:id="alalal-gg3346-d1e113">
+               <lb ed="#Be" n="85"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="86"/>ibi, B, circa initium : <quote xml:id="alalal-gg3346-Qd1e119"> Segnem vero est
+<pb ed="#Be" n="18"/>
+                  <cb ed="#Be" n="a"/>
+                  <lb ed="#Be" n="1"/>res praeter speciem quam ingerit 
+sensi<lb break="no" ed="#Be" n="2"/>bus, etc. </quote>
+            </p>
+            <p xml:id="alalal-gg3346-d1e131">
+               <lb ed="#Be" n="3"/>1. In primo enim libro Sententiarum
+<lb ed="#Be" n="4"/>dividit Magister tractatum sacre 
+Seri<lb break="no" ed="#Be" n="5"/>pture, qui est de rebus et signis : ergo
+<lb ed="#Be" n="6"/>videtur, quod signum non sil res.
+</p>
+            <p xml:id="alalal-gg3346-d1e143">
+               <lb ed="#Be" n="7"/>2. Item, Videtur, quod falsum dicat in
+<lb ed="#Be" n="8"/>hoc quod dicit, ex se : quia sacramentum
+<lb ed="#Be" n="9"/>non facit ex se, sed ex institutione, ut
+<lb ed="#Be" n="10"/>videtur.
+</p>
+            <p xml:id="alalal-gg3346-d1e154">
+               <lb ed="#Be" n="11"/>Sonurio. Magister accipit hic signum
+<lb ed="#Be" n="12"/>prout cadit sub intentione rei : quia,
+<lb ed="#Be" n="13"/>sicut dictum est in primo libro 
+Senrten<lb break="no" ed="#Be" n="14"/>tiarum', quando dividitur tractatus in
+<lb ed="#Be" n="15"/>res et signa, divisio illa potius est per
+<lb ed="#Be" n="16"/>diversos modos rei quam per diversas
+<lb ed="#Be" n="17"/>res, et tantum valet sicut absolutum et
+<lb ed="#Be" n="18"/>relatum ad aliud significandum.
+</p>
+            <p xml:id="alalal-gg3346-d1e174">
+               <lb ed="#Be" n="19"/>Ad aliud dicendum, quod signum 
+fa<lb break="no" ed="#Be" n="20"/>cit ex se, hoc est, ex se signo, sive 
+for<lb break="no" ed="#Be" n="21"/>maliter accepto : hoc enim facit res ex
+<lb ed="#Be" n="22"/>se, quod facit ex sua forma, et quod 
+ca<lb break="no" ed="#Be" n="23"/>dit in sua diffinitione. Et hoc non 
+repu<lb break="no" ed="#Be" n="24"/>gnat sue institutioni : quia signum a Deo
+<lb ed="#Be" n="25"/>et preecipue sacramentale, formam 
+acci<lb break="no" ed="#Be" n="26"/>put ab institutione, licet aptitudinem 
+ha<lb break="no" ed="#Be" n="27"/>beat a natura, ut prius dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="630"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b21641"><!-- l1d25et1 -->
+            <head xml:id="alalal-b21641-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-b21641-d1e101">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="7"/>Expositio Textus.
+</p>
+            <p xml:id="alalal-b21641-d1e108">
+               <lb ed="#Ba" n="8"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="#Ba" n="9"/>quarto capitulo prime partis, ibi, D,
+<lb ed="#Ba" n="10"/>
+               <quote xml:id="alalal-b21641-Qd1e116"> Pater et Filius et Spiritus sanetus sunt
+<lb ed="#Ba" n="11"/>tres persone, id est, sunt tres_id 
+haben<lb break="no" ed="#Ba" n="12"/>les commune quod est persona, etc. </quote>
+            </p>
+            <p xml:id="alalal-b21641-d1e124">
+               <lb ed="#Ba" n="13"/>Isti dicebant, quod persona non 
+signi<lb break="no" ed="#Ba" n="14"/>ficat nisi essentiam, et supponit eamdem,
+<lb ed="#Ba" n="15"/>et connotat distinctionem quandoque
+<lb ed="#Ba" n="16"/>unam, quandoque plures. Unam, sicut
+<lb ed="#Ba" n="17"/>cum dicitur, Pater est forma, id est, per
+<lb ed="#Ba" n="18"/>se unum : ibi enim per ly wnam suppo-
+<cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="19"/>nitur et significatur essentia : et per ly
+<lb ed="#Ba" n="20"/>per se connotatur distinctio. Plures 
+au<lb break="no" ed="#Ba" n="21"/>tem distinctiones, ut cum dicitur, Pater
+<lb ed="#Ba" n="22"/>et Filius sunt persone, id est, unum sunt,
+<lb ed="#Ba" n="23"/>et ad invicem distincti.
+</p>
+            <p xml:id="alalal-b21641-d1e153">
+               <lb ed="#Ba" n="24"/>Sed videtur, quod ex ista opinione 
+se<lb break="no" ed="#Ba" n="25"/>quatur heresis sic : Hac persona est 
+Pa<lb break="no" ed="#Ba" n="26"/>ter : hic secundum istos non fit 
+demon<lb break="no" ed="#Ba" n="27"/>stratio nisi essenti#: et essentlia Patris
+<lb ed="#Ba" n="28"/>est essenuia Filli: ergo persona Patris
+<lb ed="#Ba" n="29"/>est persona Filii, quod falsum est et 
+ha<lb break="no" ed="#Ba" n="30"/>resis : et ideo huic opinioni non est 
+ad<lb break="no" ed="#Ba" n="31"/>herendum. Sed secundum supra dicta,
+<lb ed="#Ba" n="32"/>dicendum quod persona significat 
+sub<lb break="no" ed="#Ba" n="33"/>stantiam suppositam cum proprietate, ut
+<lb ed="#Ba" n="34"/>dicit Dionysius.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

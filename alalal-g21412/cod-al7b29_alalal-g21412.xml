@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="117"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g21412"><!-- l4d6dt1 -->
+            <head xml:id="alalal-g21412-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-g21412-d1e101">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="8"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-g21412-d1e108">
+               <lb ed="#Be" n="9"/>
+               <quote xml:id="alalal-g21412-Qd1e112"> Nunc quibus liceat baptizare 
+adda<lb break="no" ed="#Be" n="10"/>mus, etc. </quote>
+               <lb ed="#Be" n="11"/>In hac ultima parte, de baptismo agit
+<lb ed="#Be" n="12"/>ex parte baptizantis.
+</p>
+            <p xml:id="alalal-g21412-d1e122">
+               <lb ed="#Be" n="13"/>Et dividitur hac distinctio in duas 
+par<lb break="no" ed="#Be" n="14"/>tes : in quarum prima tangit quinque
+<lb ed="#Be" n="15"/>questiones circa baptizantes et 
+baptizan<lb break="no" ed="#Be" n="16"/>dos. In secunda autem parte agit de 
+sa<lb break="no" ed="#Be" n="17"/>cramentalibus, ibi, G, <quote xml:id="alalal-g21412-Qd1e135"> Porro cuncti ad
+<lb ed="#Be" n="18"/>baptismum venientes, etc. </quote> °
+</p>
+            <p xml:id="alalal-g21412-d1e141">
+               <lb ed="#Be" n="19"/>In prima harum (ut dictum est) 
+guin<lb break="no" ed="#Be" n="20"/>que sunt questiones, scilicet de 
+potesta<lb break="no" ed="#Be" n="21"/>te baptizantium. Secunda est, Utrum in
+<lb ed="#Be" n="22"/>matris utero habitum gratiae baptismalis
+<lb ed="#Be" n="23"/>aliquis consequatur? ibi, B, <quote xml:id="alalal-g21412-Qd1e154"> Hoc etiam
+<lb ed="#Be" n="24"/>sciendum est, quod in materno utero,
+<lb ed="#Be" n="25"/>etc. </quote> Tertia est, de corruptione 
+verbo<lb break="no" ed="#Be" n="26"/>rum ex ignorantia lingue, ibi, C, <quote xml:id="alalal-g21412-Qd1e163"> Queri
+<lb ed="#Be" n="27"/>etiam solet, Si corrupte, etc. </quote> Quarta
+<lb ed="#Be" n="28"/>est de hoc quod dubitatur an sit 
+baptis<lb break="no" ed="#Be" n="29"/>mus, ibi, D, <quote xml:id="alalal-g21412-Qd1e172"> Praeterea sciendum est,
+<lb ed="#Be" n="30"/>quod tli de quibus nulla exstant 
+indi<lb break="no" ed="#Be" n="31"/>cia, etc. </quote> Quinta, de jocose baptizatis,
+<lb ed="#Be" n="32"/>ibi, E, <quote xml:id="alalal-g21412-Qd1e182"> Solet etiam quert de illo qui
+<lb ed="#Be" n="33"/>jocans, etc. </quote>
+            </p>
+            <p xml:id="alalal-g21412-d1e189">
+               <lb ed="#Be" n="34"/>Etiam ibi adjunguntur aliqua de 
+inten<lb break="no" ed="#Be" n="35"/>tione baptizantium, et de tempore 
+bap<lb break="no" ed="#Be" n="36"/>tismi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

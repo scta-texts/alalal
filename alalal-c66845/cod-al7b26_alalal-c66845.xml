@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="352"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c66845"><!-- l1d41a8 -->
+            <head xml:id="alalal-c66845-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-c66845-Hd1e101" type="question-title">An prima veritate sint omnia vera quae
+vera sunt ?</head>
+            <p xml:id="alalal-c66845-d1e104">
+               <lb ed="#Bb" n="17"/>ARTICULUS VIII.
+<lb ed="#Bb" n="18"/>An prima veritate sint omnia vera quae
+<lb ed="#Bb" n="19"/>vera sunt ?
+</p>
+            <p xml:id="alalal-c66845-d1e113">
+               <lb ed="#Bb" n="20"/>Tertio queritur, Utrum prima veritate
+<lb ed="#Bb" n="21"/>sint omnia vera quae vera sunt ? Et 
+lo<lb break="no" ed="#Bb" n="22"/>quamur de veritate primo modo dicta.
+</p>
+            <p xml:id="alalal-c66845-d1e122">
+               <lb ed="#Bb" n="23"/>Videtur autem quod sic: quia
+<lb ed="#Bb" n="24"/>1. Dicit Anselmus in libro de Veritate :
+<lb ed="#Bb" n="25"/>
+               <quote xml:id="alalal-c66845-Qd1e130"> An putas aliquid esse aliquando, aut
+<lb ed="#Bb" n="26"/>alicubi, quod non sit in summa veritate,
+<lb ed="#Bb" n="27"/>et quod inde non accepert quod est in
+<lb ed="#Bb" n="28"/>quantum est, aut quod. possit aliud esse
+<lb ed="#Bb" n="29"/>quam ibi est? </quote> Et respondet non esse
+<lb ed="#Bb" n="30"/>putandum.
+</p>
+            <p xml:id="alalal-c66845-d1e145">
+               <lb ed="#Bb" n="31"/>2. Item, Ibidem : <quote xml:id="alalal-c66845-Qd1e149"> Quidquid vereest,
+<lb ed="#Bb" n="32"/>in quantum est, hoc est quod ibi est: et
+<lb ed="#Bb" n="33"/>absolute concludere potes, quoniam 
+om<lb break="no" ed="#Bb" n="34"/>ne quod est, vere est : ideo quoniam non
+<lb ed="#Bb" n="35"/>est aliud, quam quod ibi est. </quote>
+            </p>
+            <p xml:id="alalal-c66845-d1e161">
+               <lb ed="#Bb" n="36"/>3. Item, Nihil est incommautabile nisi
+<lb ed="#Bb" n="37"/>veritas prima: veritas ligni est 
+incom<lb break="no" ed="#Bb" n="38"/>mutabilis : ergo ipsa est veritas prima.
+</p>
+            <p xml:id="alalal-c66845-d1e170">
+               <lb ed="#Bb" n="39"/>4. Item, In eadem veritate est unum
+<lb ed="#Bb" n="40"/>signum in qua alud, quoniam omnia
+<lb ed="#Bb" n="41"/>sunt hoc quod sunt in prima veritate :
+</p>
+            <p xml:id="alalal-c66845-d1e179">
+               <lb ed="#Bb" n="42"/>ergo omnia veritate una vera sunt, ut 
+vi<lb break="no" ed="#Bb" n="43"/>detur.
+</p>
+            <p xml:id="alalal-c66845-d1e186">
+               <lb ed="#Bb" n="44"/>5. Item, Secundum hoc quod sunt in
+<lb ed="#Bb" n="45"/>prima veritate (sicut dicit Anselmus in
+<lb ed="#Bb" n="46"/>Monologio) sunt hoc quod veritas ipsa :
+<lb ed="#Bb" n="47"/>sed ipsa veritas aeterna veritate est vera :
+<lb ed="#Bb" n="48"/>ergo omne signum aeterna veritate est 
+ve<lb break="no" ed="#Bb" n="49"/>rum, ut videtur.
+</p>
+            <p xml:id="alalal-c66845-d1e202">
+               <lb ed="#Bb" n="50"/>SED CONTRA:
+<lb ed="#Bb" n="51"/>1, Veritas signi est in signo, ut forma
+<lb ed="#Bb" n="52"/>in subjecto. Si ergo signum verum est
+<lb ed="#Bb" n="53"/>veritate prima, prima veritas erit forma
+<lb ed="#Bb" n="54"/>multorum signorum, quod hereticum
+<lb ed="#Bb" n="55"/>est.
+</p>
+            <p xml:id="alalal-c66845-d1e219">
+               <lb ed="#Bb" n="56"/>2. Item, In quibus non est una ratio
+<lb ed="#Bb" n="57"/>significandi numero vel specie, 
+impossi<lb break="no" ed="#Bb" n="58"/>bile est unam rectitudinem numero vel
+<lb ed="#Bb" n="59"/>specie esse : ergo impossibile est ipsa 
+ha<lb break="no" ed="#Bb" n="60"/>bere rectitudinem unam : rectitudo au-~
+<lb ed="#Bb" n="61"/>tem est veritas, ut dicit Anselmus : ergo
+<lb ed="#Bb" n="62"/>impossibile est omnia esse una veritate
+<lb ed="#Bb" n="63"/>vera.
+</p>
+            <p xml:id="alalal-c66845-d1e239">
+               <lb ed="#Bb" n="64"/>Sonutio. Anselmus non intendit 
+om<lb break="no" ed="#Bb" n="65"/>nia esse vera una veritate, nisi secundum
+<lb ed="#Bb" n="66"/>quid, scilicet exemplariter, et effective :
+<lb ed="#Bb" n="67"/>et hoc verum est: quia exemplar 
+recti<lb break="no" ed="#Bb" n="68"/>tudinis significand: est unum: et Deus
+<lb ed="#Bb" n="69"/>est causa veritatis ubicumque sit veritas.
+<lb ed="#Bb" n="70"/>Et ideo veritas illa quae est im signis, 
+pot<lb break="no" ed="#Bb" n="71"/>est attendi dupliciter, scilicet secundum
+<lb ed="#Bb" n="72"/>processum ab exemplari in signum: et
+<lb ed="#Bb" n="73"/>sic una est veritas in eo a quo procedit,
+<lb ed="#Bb" n="74"/>sed non una unitate ejus in quod 
+proce<lb break="no" ed="#Bb" n="75"/>dit : sicut linee procedentes a centro ad
+<lb ed="#Bb" n="76"/>circumferentiam uniuntur unitate centri,
+<lb ed="#Bb" n="77"/>sed discernuntur diversitate arcuum in
+<lb ed="#Bb" n="78"/>quos incidunt ex parte circumferentiae :
+<lb ed="#Bb" n="79"/>et ideo formaliter et essentialiter sunt
+<lb ed="#Bb" n="80"/>veritates plures: exemplariter autem et
+<lb ed="#Bb" n="81"/>effective una.
+</p>
+            <p xml:id="alalal-c66845-d1e281">
+               <lb ed="#Bb" n="82"/>Ad avuctoritates Anselmi dicendum,
+<lb ed="#Bb" n="83"/>quod non intelligit res esse primam 
+ve<lb break="no" ed="#Bb" n="84"/>ritatem essentialiter, sed exemplariter:
+<lb ed="#Bb" n="85"/>et sic etiam intelligit res esse in prima
+<lb ed="#Bb" n="86"/>veritate : quoniam ipse loquitur de rebus
+<lb ed="#Bb" n="87"/>que existunt in propriis naturis.
+</p>
+            <p xml:id="alalal-c66845-d1e297">
+               <lb ed="#Bb" n="88"/>Ad aliud dicendum, quod vere 
+incom<lb break="no" ed="#Bb" n="89"/>mutabile non est nisi veritas et essentia
+<pb ed="#Bb" n="353"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>prima quae est Deus : sed 
+incommutabili<lb break="no" ed="#Bb" n="2"/>tas contenti in esse est incommutabilitas 
+<lb ed="#Bb" n="3"/>signi, quia signum existens quod a Deo 
+</p>
+            <p xml:id="alalal-c66845-d1e315">
+               <lb ed="#Bb" n="4"/>in esse continetur, non potest non si- dicta.
+<lb ed="#Bb" n="5"/>gnificare : potest tamen non esse 
+si<lb break="no" ed="#Bb" n="6"/>gnum, et sic non significare.
+</p>
+            <p xml:id="alalal-c66845-d1e324">
+               <lb ed="#Bb" n="7"/>Ad aliud dicendum, quod hoc non est
+<lb ed="#Bb" n="8"/>verum, nisi exemplariter loquendo.
+</p>
+            <p xml:id="alalal-c66845-d1e332">
+               <lb ed="#Bb" n="9"/>Ad uLtimum patet solutio per ante
+<lb ed="#Bb" n="10"/>dicta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

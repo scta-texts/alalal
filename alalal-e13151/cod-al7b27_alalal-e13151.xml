@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="666"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e13151"><!-- l2d42a7 -->
+            <head xml:id="alalal-e13151-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-e13151-Hd1e101" type="question-title">Quid sit tumor ? et, Quomodo 
+accipiantur species tumoris ?</head>
+            <p xml:id="alalal-e13151-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="5"/>ARTICULUS VII.
+<lb ed="#Bc" n="6"/>Quid sit tumor ? et, Quomodo 
+accipian<lb break="no" ed="#Bc" n="7"/>tur species tumoris ?
+</p>
+            <p xml:id="alalal-e13151-d1e115">
+               <lb ed="#Bc" n="8"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="9"/>ibi, 1, circa initium: <quote xml:id="alalal-e13151-Qd1e121"> Cujyus quatuor
+<lb ed="#Bc" n="10"/>sunt species, etc. </quote>
+            </p>
+            <p xml:id="alalal-e13151-d1e127">
+               <lb ed="#Bc" n="11"/>He secundum Gregorium sunt species
+<lb ed="#Bc" n="12"/>tumoris potius quam superbie.
+</p>
+            <p xml:id="alalal-e13151-d1e135">
+               <lb ed="#Bc" n="13"/>Queruntur igitur duo, scilicet quid 
+di<lb break="no" ed="#Bc" n="14"/>catur tumor ? et, Penes quid accipiantur
+<lb ed="#Bc" n="15"/>species iste ?
+</p>
+            <p xml:id="alalal-e13151-d1e144">
+               <lb ed="#Bc" n="16"/>Et dicendum, quod (ut dicit Gregorius)
+<lb ed="#Bc" n="17"/>tumor mentis est obstaculum veritatis :
+<lb ed="#Bc" n="18"/>et dicitur éwmor inflatio presumptionis
+<lb ed="#Bc" n="19"/>ex posse quod habere se credit aliquis.
+<lb ed="#Bc" n="20"/>Et in hoc differt a superbia: quia 
+su<lb break="no" ed="#Bc" n="21"/>perbia est appetitus excellentie sive 
+di<lb break="no" ed="#Bc" n="22"/>gnitatis: tumor autem est fastus, et 
+cau<lb break="no" ed="#Bc" n="23"/>satur ex potestate et dignitate adeptis.
+</p>
+            <p xml:id="alalal-e13151-d1e164">
+               <lb ed="#Bc" n="24"/>Ab sEcunpuM autem dicendum, quod  
+<lb ed="#Bc" n="25"/>proprium posse causatur tribus modis,
+<lb ed="#Bc" n="26"/>scilicet ex innatis, acquisitis, et modo
+</p>
+            <p xml:id="alalal-e13151-d1e173">
+               <lb ed="#Bc" n="27"/>habendi. Si ex innatis: tunc est prima
+<lb ed="#Bc" n="28"/>species, quando credit se habere propriis
+<lb ed="#Bc" n="29"/>viribus. Si est ex acquisitis: tunc est
+<lb ed="#Bc" n="30"/>secunda, quando credit quidem se habere
+<lb ed="#Bc" n="31"/>ex alio, sed non gratis, sed per 
+acquisi<lb break="no" ed="#Bc" n="32"/>tionem meriti quod erat proprium. Si ex
+<lb ed="#Bc" n="33"/>modo habendi: aut qui videtur, et non
+<lb ed="#Bc" n="34"/>est: et tune est tertia species, quando
+<lb ed="#Bc" n="35"/>jactat falso se habere quod non habet.
+<lb ed="#Bc" n="36"/>Aut videtur et est, sed singularis est : et
+<lb ed="#Bc" n="37"/>tunc est quarta species quae est, quando
+</p>
+            <p xml:id="alalal-e13151-d1e199">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="38"/>excellentius omnibus se credit habere
+<lb ed="#Bc" n="39"/>quod habet. Et de his est versus :
+<lb ed="#Bc" n="40"/>
+               <quote xml:id="alalal-e13151-Qd1e209">Ex se, pro meritis; falso, plus omnibus,
+<lb ed="#Bc" n="41"/>inflant.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="557"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d95019"><!-- l2d34a5 -->
+            <head xml:id="alalal-d95019-Hd1e99">Articulus 5</head>
+            <p xml:id="alalal-d95019-d1e101">
+               <pb ed="#Bc" n="557"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS  V.
+<lb ed="#Bc" n="2"/>Utrum malum sit in re bona, vel mala ?
+</p>
+            <p xml:id="alalal-d95019-d1e112">
+               <lb ed="#Bc" n="3"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="4"/>ibi, D, <quote xml:id="alalal-d95019-Qd1e118"> Ostensa origine mali, etc. </quote>
+            </p>
+            <p xml:id="alalal-d95019-d1e121">
+               <lb ed="#Bc" n="5"/>Videtur enim hoc impossibile dicere
+<lb ed="#Bc" n="6"/>tribus modis.
+</p>
+            <p xml:id="alalal-d95019-d1e128">
+               <lb ed="#Bc" n="7"/>In hoc enim quod dicit, quod bonum
+<lb ed="#Bc" n="8"/>est subjectum mali: quia secundum
+<lb ed="#Bc" n="9"/>hoc oppositum est subjectum oppositi,
+<lb ed="#Bc" n="10"/>quod nullo modo esse potest : quia
+</p>
+            <p xml:id="alalal-d95019-d1e140">
+               <lb ed="#Bc" n="11"/>1. Dicit Philosophus, quod subjectum
+<lb ed="#Bc" n="12"/>neutri oppositorum est oppositum. Si
+<lb ed="#Bc" n="13"/>dicas, quod bonum et malum non sunt
+<lb ed="#Bc" n="14"/>contraria, sed opposita, ut privatio et
+<lb ed="#Bc" n="15"/>habitus : tune adhuc est impossibilius :
+<lb ed="#Bc" n="16"/>habitus enim privatus nullo modo est
+<lb ed="#Bc" n="17"/>substratus privationi, quae privat ipso :
+<lb ed="#Bc" n="18"/>ergo bonum non est subjectum mali.
+</p>
+            <p xml:id="alalal-d95019-d1e160">
+               <lb ed="#Bc" n="19"/>2. Item, Bonum et malum 
+opponun<lb break="no" ed="#Bc" n="20"/>tur: aut ergo totum malum opponitur
+<lb ed="#Bc" n="21"/>toti bono, aut parti boni. Si toti 
+bo<lb break="no" ed="#Bc" n="22"/>no: ergo nihil de bono remanet cum
+<lb ed="#Bc" n="23"/>ipso quod malo subjicitur Si aut parti
+<lb ed="#Bc" n="24"/>boni : ergo cum nihil sit bonum, 
+ni<lb break="no" ed="#Bc" n="25"/>si oppositum malo, non totum 
+bo<lb break="no" ed="#Bc" n="26"/>num est bonum, sed pars illa tantum
+<lb ed="#Bc" n="27"/>que opponitur malo, quod falsum est:
+<lb ed="#Bc" n="28"/>ergo nihil remanet de bono quod 
+subji<lb break="no" ed="#Bc" n="29"/>ciatur malo, ut videtur.
+</p>
+            <p xml:id="alalal-d95019-d1e186">
+               <lb ed="#Bc" n="30"/>3. Item, Nihil est subjectum alicujus,
+<lb ed="#Bc" n="31"/>nisi quod natum est suscipere illud :
+<lb ed="#Bc" n="32"/>bonum est subjectum mali : ergo natum
+<lb ed="#Bc" n="33"/>est suscipere illud. Suscipiat ergo : ergo
+<lb ed="#Bc" n="34"/>tunc bonum erit malum, et probabitur
+<lb ed="#Bc" n="35"/>oppositum de opposito, quod secundum
+<lb ed="#Bc" n="36"/>omne genus oppositorum est 
+impossi<lb break="no" ed="#Bc" n="37"/>bile, licet dicatur in ZLittera, et 
+conceda<lb break="no" ed="#Bc" n="38"/>tur.
+</p>
+            <p xml:id="alalal-d95019-d1e208">
+               <lb ed="#Bc" n="39"/>Secundum quod dicit, est quod ma~
+<lb ed="#Bc" n="40"/>lum adimit bonum: et hoc etiam 
+vi<lb break="no" ed="#Bc" n="41"/>detur tmpossibile : quia cum bonum sit
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="42"/>finitum, tot possunt esse mala, quod
+<lb ed="#Bc" n="43"/>totum absumerent bonum : et quod nihil
+<lb ed="#Bc" n="44"/>habet de bono, est non ens: ergo 
+pos<lb break="no" ed="#Bc" n="45"/>sunt ita multiplicari mala in aliquo,
+<lb ed="#Bc" n="46"/>quod ipse efficeretur non ens. Si dicas,
+<lb ed="#Bc" n="47"/>quod bonum habet proprietatem 
+con<lb break="no" ed="#Bc" n="48"/>tinui quod est divisibile in infinitum :
+<lb ed="#Bc" n="49"/>et primum malum tollit aliquotam 
+par<lb break="no" ed="#Bc" n="50"/>tem boni, et secundum non tollit 
+tan<lb break="no" ed="#Bc" n="51"/>tum, sed aliquotam residui, et sic in
+<lb ed="#Bc" n="52"/>infinitum. Et tune est quzstio, Quae sit
+<lb ed="#Bc" n="53"/>ratio, cum secundum malum_ inveniat
+<lb ed="#Bc" n="54"/>bonum magis debile quam primum, 
+ta<lb break="no" ed="#Bc" n="55"/>men secundum tollit minus a quantitate
+<lb ed="#Bc" n="56"/>quam primum? Et non potest inveniri
+<lb ed="#Bc" n="57"/>ratio, etiam a volente fingere.
+</p>
+            <p xml:id="alalal-d95019-d1e254">
+               <lb ed="#Bc" n="58"/>Preterea, In Littera non solvitur sic
+<lb ed="#Bc" n="59"/>ab Augustino: sed quod ideo hoc 
+ac<lb break="no" ed="#Bc" n="60"/>cidit, quod ipsum bonum est naturale.
+<lb ed="#Bc" n="61"/>Et tune quaeritur ratio hujus, Qualiter
+<lb ed="#Bc" n="62"/>bonum ideo non finitur, quia est 
+natu<lb break="no" ed="#Bc" n="63"/>tale ?
+</p>
+            <p xml:id="alalal-d95019-d1e270">
+               <lb ed="#Bc" n="64"/>Tertium quod dicit, est quod in his
+<lb ed="#Bc" n="65"/>contrariis fallit regula Dialecticorum : et
+<lb ed="#Bc" n="66"/>videtur male legisse Augustinus regulas
+<lb ed="#Bc" n="67"/>Dialeciticorum : quia bonum et malum
+<lb ed="#Bc" n="68"/>non sunt contraria secundum eum, sed
+<lb ed="#Bc" n="69"/>opposita, ut privatio et habitus.
+</p>
+            <p xml:id="alalal-d95019-d1e287">
+               <lb ed="#Bc" n="70"/>Preterea, Etiamsi detur, quod 
+oppo<lb break="no" ed="#Bc" n="71"/>nantur ut privatio et habitus, adhuc 
+nul<lb break="no" ed="#Bc" n="72"/>lo modo haberi potest, quod malum sit
+<lb ed="#Bc" n="73"/>in eodem bono quo privat : quia nullus
+<lb ed="#Bc" n="74"/>intellectus capit hoc : quia privatum non
+<lb ed="#Bc" n="75"/>est : subjectum autem privationis et 
+ma<lb break="no" ed="#Bc" n="76"/>li est simpliciter. Ergo Augustinus 
+vi<lb break="no" ed="#Bc" n="77"/>detur hoc male dicere.
+</p>
+            <p xml:id="alalal-d95019-d1e307">
+               <lb ed="#Bc" n="78"/>Solutio. Dicendum ad hoc, quod 
+tri<lb break="no" ed="#Bc" n="79"/>plex est malum, et triplex bonum : et
+<lb ed="#Bc" n="80"/>quia bonum dicitur ut habitus ex quo
+<lb ed="#Bc" n="81"/>cognoscitur privatio, distinguatur prius
+<lb ed="#Bc" n="82"/>bonum : et ex illo habetur distinctio
+<lb ed="#Bc" n="83"/>mali. Dicitur igitur bonum gratia, et
+<lb ed="#Bc" n="84"/>bonum quod convertitur substantialiter
+<lb ed="#Bc" n="85"/>cum ente, et bonum medium quod est
+<lb ed="#Bc" n="86"/>ordinabilitas nature rationalis in 
+gra<lb break="no" ed="#Bc" n="87"/>tiam. Primum bonum est in gratia et
+<lb ed="#Bc" n="88"/>virtute gratum faciente. Secundum con-
+<pb ed="#Bc" n="558"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>sequitur omnem naturam in quantum est
+<lb ed="#Bc" n="2"/>natura. Tertium autem. specialiter est
+<lb ed="#Bc" n="3"/>nature quae capax est gratiz: quia illa
+<lb ed="#Bc" n="4"/>capacitas habet habitudinem naturalem
+<lb ed="#Bc" n="5"/>qua ordinatur ad gratiam : et hoc 
+vo<lb break="no" ed="#Bc" n="6"/>catur a Doctoribus et Sanctis bonum 
+na<lb break="no" ed="#Bc" n="7"/>turale divisibile per peccatum. Unde
+<lb ed="#Bc" n="8"/>illud medium bonum inter gratiam et
+<lb ed="#Bc" n="9"/>naturam, consideratur dupliciter, sicut
+<lb ed="#Bc" n="10"/>omne medium, scilicet a parte 
+substan<lb break="no" ed="#Bc" n="11"/>tia. in qua radicatur, eta parte finis
+<lb ed="#Bc" n="12"/>quem attingit, scilicet gratia. Dico 
+igi<lb break="no" ed="#Bc" n="13"/>tur, quod malum dicitur etiam tribus
+<lb ed="#Bc" n="14"/>modis secundum Dionysium : quia 
+ma<lb break="no" ed="#Bc" n="15"/>lum nature est contra naturam esse ilius
+<lb ed="#Bc" n="16"/>rei cujus est illa natura: et malum 
+cul<lb break="no" ed="#Bc" n="17"/>pe est contra gratiam: et malum 
+ra<lb break="no" ed="#Bc" n="18"/>tionis vel anime est contra bonum 
+na<lb break="no" ed="#Bc" n="19"/>turale, quod est ordinabilitas naturalis
+<lb ed="#Bc" n="20"/>ad gratiam.
+</p>
+            <p xml:id="alalal-d95019-d1e381">
+               <lb ed="#Bc" n="21"/>Dico ergo ad primum illoram trium
+<lb ed="#Bc" n="22"/>que objecta sunt, quod malum culpe de
+<lb ed="#Bc" n="23"/>quo hic loquitur, opponitur in toto bono
+<lb ed="#Bc" n="24"/>gralie, et ideo in toto privat illo, ita
+<lb ed="#Bc" n="25"/>quod nihil manet de ipso cum malo:
+<lb ed="#Bc" n="26"/>sed idem malum culpe in nullo 
+opponi<lb break="no" ed="#Bc" n="27"/>tur bono substantia quod convertitur
+<lb ed="#Bc" n="28"/>cum quolibet ente in quantum est, ef
+<lb ed="#Bc" n="29"/>ideo in nullo privat vel adimit ipsum :
+<lb ed="#Bc" n="30"/>bono autem medio opponitur in illa
+<lb ed="#Bc" n="31"/>parte qua se habet ad gratiam, et non in
+<lb ed="#Bc" n="32"/>illa qua se habet ad substantiam in qua
+<lb ed="#Bc" n="33"/>radicatur : et ideo in illa parte in qua
+<lb ed="#Bc" n="34"/>opponitur ei, privat ipso, et non salvatur
+<lb ed="#Bc" n="35"/>cum ipso: sed in alia parte in gua non
+<lb ed="#Bc" n="36"/>opponitur ei, efficitur subjectum ejus,
+<lb ed="#Bc" n="37"/>sicut subjectum potest habere privatio,
+<lb ed="#Bc" n="38"/>quia ex illa parte relinquitur a 
+privatio<lb break="no" ed="#Bc" n="39"/>ne: et ideo fit, quod medium sequitur
+<lb ed="#Bc" n="40"/>naturam extremorum: et ideo in illa
+<lb ed="#Bc" n="41"/>parte qua attingit gratiam cui opponitur
+<lb ed="#Bc" n="42"/>malum culpa, opponitur ei malum, et
+<lb ed="#Bc" n="43"/>in ea parte qua radicatur in substantia
+<lb ed="#Bc" n="44"/>cui non opponitur, relinquitur a malo,
+<lb ed="#Bc" n="45"/>sicut subjectum a privatione. Dicendum
+<lb ed="#Bc" n="46"/>igitur ad primum, quod non secundum
+<lb ed="#Bc" n="47"/>eamdem rationem subjectum est et 
+op<lb break="no" ed="#Bc" n="48"/>positum, sicut ex dictis patet.
+</p>
+            <p xml:id="alalal-d95019-d1e444">
+               <lb ed="#Bc" n="49"/>Ad aliud dicendum, quod toti bono
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="50"/>gratie opponitur malum, et ideo ea
+<lb ed="#Bc" n="51"/>privat, sed nulli parti substantialis boni,
+<lb ed="#Bc" n="52"/>et ideo nihil de haec privat: sed medio
+<lb ed="#Bc" n="53"/>bono opponitur secundum aliquid, et
+<lb ed="#Bc" n="54"/>quoad hoc privat : et secundum aliquid
+<lb ed="#Bc" n="55"/>non opponitur, et ideo quoad hoc non
+<lb ed="#Bc" n="56"/>privat.
+</p>
+            <p xml:id="alalal-d95019-d1e466">
+               <lb ed="#Bc" n="57"/>Ad aliud dicendum, quod in Litterg
+<lb ed="#Bc" n="58"/>conceditur malum esse bonum : sed non
+<lb ed="#Bc" n="59"/>est idem predicatum et oppositum : guia
+<lb ed="#Bc" n="60"/>bonum quod opponitur malo, est bonum
+<lb ed="#Bc" n="61"/>gratie vel nature, quod est medium ex
+<lb ed="#Bc" n="62"/>ea parte qua attingit bonum gratia,
+<lb ed="#Bc" n="63"/>Quod autem predicatur de malo, est
+<lb ed="#Bc" n="64"/>bonum quod convertitur cum ente, vel
+<lb ed="#Bc" n="65"/>bonum medium secundum id quod 
+ra<lb break="no" ed="#Bc" n="66"/>dicatur in substantia rationali: et ideo
+<lb ed="#Bc" n="67"/>non est oppositio secundum rem, sed 
+se<lb break="no" ed="#Bc" n="68"/>cundum nomen solum.
+</p>
+            <p xml:id="alalal-d95019-d1e495">
+               <lb ed="#Bc" n="69"/>Ad id quod secundo objicitur, 
+dicen<lb break="no" ed="#Bc" n="70"/>dum guod illa solutio ficta est, et. bene
+<lb ed="#Bc" n="71"/>improbata : sed causa est quam _ponit
+<lb ed="#Bc" n="72"/>Augustinus in Lidtera : scilicet quod ex
+<lb ed="#Bc" n="73"/>illa parte ex qua radicatur in substantia,
+<lb ed="#Bc" n="74"/>naturale est sicut substantia: et ideo
+<lb ed="#Bc" n="75"/>cum malurm non opponitur nec privat
+<lb ed="#Bc" n="76"/>ex illa parte, infinite se habet ad 
+bo<lb break="no" ed="#Bc" n="77"/>num : et ideo licet semper elongetur,
+<lb ed="#Bc" n="78"/>tamen non tollitur quin maneat potentia
+<lb ed="#Bc" n="79"/>boni per adjutorium gratice : sed si 
+in<lb break="no" ed="#Bc" n="80"/>finite se haberet ad bonum gratia, tune
+<lb ed="#Bc" n="81"/>procederet objectio.
+</p>
+            <p xml:id="alalal-d95019-d1e527">
+               <lb ed="#Bc" n="82"/>Ad id quod tertio objicitur; dicendum
+<lb ed="#Bc" n="83"/>quod contraria dicuntur dupliciter, 
+scili<lb break="no" ed="#Bc" n="84"/>cet proprie, et large. Proprie sumendo
+<lb ed="#Bc" n="85"/>contraria, sic sunt forme contraria 
+ordi<lb break="no" ed="#Bc" n="86"/>nate ad subjectum unum : et sic 
+utrum<lb break="no" ed="#Bc" n="87"/>que contrariorum est ens in specie 
+per<lb break="no" ed="#Bc" n="88"/>fecta: et hoc modo malum et bonum
+<lb ed="#Bc" n="89"/>non sunt contraria. Large autem sunt
+<lb ed="#Bc" n="90"/>contraria, quae sunt principia 
+contrario<lb break="no" ed="#Bc" n="91"/>rum actuum et babituum : et hoc modo
+<lb ed="#Bc" n="92"/>bonum completum et malum sunt 
+contra<lb break="no" ed="#Bc" n="93"/>ria : quia voluntas completa causa est
+<lb ed="#Bc" n="94"/>actus boni per formam gratia et virtutis,
+<lb ed="#Bc" n="95"/>et diminuta voluntas quae substat 
+pec<lb break="no" ed="#Bc" n="96"/>cato, non potest in illum de se, sed
+<pb ed="#Bc" n="559"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>potest in actum vitii et habitum virtutis.
+<lb ed="#Bc" n="2"/>Et hoc modo sumit Augustinus hic 
+con<lb break="no" ed="#Bc" n="3"/>traria, et quoad hoc verum dicit : et ideo
+<lb ed="#Bc" n="4"/>non simpliciter fallit hic regula 
+Diale<lb break="no" ed="#Bc" n="5"/>cticorum : et ideo glossant quidem, quod
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="6"/>non fallit, sed videtur fallere : et 
+Au<lb break="no" ed="#Bc" n="7"/>gustini non est sententia secundum rem,
+<lb ed="#Bc" n="8"/>sed quae facit querere verum regule 
+in<lb break="no" ed="#Bc" n="9"/>tellectum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

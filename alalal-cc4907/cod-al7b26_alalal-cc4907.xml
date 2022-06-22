@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="23"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-cc4907"><!-- l1d26a12 -->
+            <head xml:id="alalal-cc4907-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-cc4907-Hd1e101" type="question-title">An supposita persona supponitur notio ?</head>
+            <p xml:id="alalal-cc4907-d1e104">
+               <lb ed="#Bb" n="53"/>ARTICULUS XII.
+<lb ed="#Bb" n="54"/>An supposita persona supponitur notio ?
+</p>
+            <p xml:id="alalal-cc4907-d1e111">
+               <lb ed="#Bb" n="55"/>Deinde queritur de hoc quod dicit, ibi,
+<lb ed="#Bb" n="56"/>B, <quote xml:id="alalal-cc4907-Qd1e117"> Notant relationes quae non sunt Deo
+<lb ed="#Bb" n="57"/>accidentales, sed in ipsis personis ab
+<lb ed="#Bb" n="58"/>eterno sunt, etc. </quote>
+            </p>
+            <p xml:id="alalal-cc4907-d1e125">
+               <lb ed="#Bb" n="59"/>1. Videtur enim, quod ex hoc sequatur,
+<lb ed="#Bb" n="60"/>quod supposita persona supponatur 
+no<lb break="no" ed="#Bb" n="61"/>tio : quecumque enim penitus idem sunt
+<lb ed="#Bb" n="62"/>in re, supposilo uno, supponitur et 
+alte<lb break="no" ed="#Bb" n="63"/>rum.
+</p>
+            <p xml:id="alalal-cc4907-d1e139">
+               <lb ed="#Bb" n="64"/>2. Praeterea hoc dicit, quod notio est
+<lb ed="#Bb" n="65"/>substantia, sed immediatius notio 
+ordi<lb break="no" ed="#Bb" n="66"/>natur ad hypostasim quam ad essentiam:
+<lb ed="#Bb" n="67"/>ergo videtur, quod propria et immediata
+<lb ed="#Bb" n="68"/>sit ista notio in persona: sed persona
+<lb ed="#Bb" n="69"/>generat: ergo et notio : et sic videtur,
+<lb ed="#Bb" n="70"/>quod supposita persona supponatur 
+no<lb break="no" ed="#Bb" n="71"/>tio.
+</p>
+            <p xml:id="alalal-cc4907-d1e159">
+               <lb ed="#Bb" n="72"/>3. Item, Non est ita fides determinata
+<lb ed="#Bb" n="73"/>in numero notionum sicut in numero
+<lb ed="#Bb" n="74"/>personarum, et non condemnantur qui
+<lb ed="#Bb" n="75"/>dicunt notiones in divinis nihil esse
+<lb ed="#Bb" n="76"/>preter personas: ergo videtur, quod 
+se<lb break="no" ed="#Bb" n="77"/>cundum fidem Catholicam notiones nihil
+<lb ed="#Bb" n="78"/>sint praeter personas : ergo supposita
+<lb ed="#Bb" n="79"/>persona, supponitur notio.
+</p>
+            <p xml:id="alalal-cc4907-d1e179">
+               <lb ed="#Bb" n="80"/>Sed contra: Quecumque ita se 
+ha<lb break="no" ed="#Bb" n="81"/>bent, quod supposito uno, supponitur 
+re<lb break="no" ed="#Bb" n="82"/>liquum, in illis quidquid attribuitur uni,
+<lb ed="#Bb" n="83"/>attribuitur et alii : sed non sic est de 
+no<lb break="no" ed="#Bb" n="84"/>tione, et persona: quia notio distinguit,
+<lb ed="#Bb" n="85"/>et non distinguitur : persona autem 
+dis<lb break="no" ed="#Bb" n="86"/>tinguitur, et non distinguit ; ergo 
+suppo<lb break="no" ed="#Bb" n="87"/>sita persona, non supponitur notio.
+</p>
+            <p xml:id="alalal-cc4907-d1e199">
+               <lb ed="#Bb" n="88"/>Quod concedimus : dicentes ad primum,
+<lb ed="#Bb" n="89"/>quod licet persona et notio non differant
+<lb ed="#Bb" n="90"/>re, differunt tamen in modo intelligendi:
+<pb ed="#Bb" n="24"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>qui modus realiter significatur, cum 
+di<lb break="no" ed="#Bb" n="2"/>citur, notio distinguit, persona 
+distin<lb break="no" ed="#Bb" n="3"/>guitur: unde nec sufficit ad hoc quod
+<lb ed="#Bb" n="4"/>supposito uno supponatur et reliquum,
+<lb ed="#Bb" n="5"/>identitas rei: sed oportet insuper etiam
+<lb ed="#Bb" n="6"/>adesse hoc, quod quidquid convenit uni,
+<lb ed="#Bb" n="7"/>conveniat et alteri.
+</p>
+            <p xml:id="alalal-cc4907-d1e228">
+               <lb ed="#Bb" n="8"/>Ad aliud dicendum, quod licet notio
+<lb ed="#Bb" n="9"/>sit immediata persone, et persona 
+sub<lb break="no" ed="#Bb" n="10"/>stantiae,  ita quod nullum est medium 
+pre<lb break="no" ed="#Bb" n="11"/>dicatum quo persone participent 
+notio<lb break="no" ed="#Bb" n="12"/>nem vel essentiam, non tamen hoc 
+suf<lb break="no" ed="#Bb" n="13"/>ficit ad hoc quod supposito uno, 
+suppo<lb break="no" ed="#Bb" n="14"/>natur et reliquum: sed oportet unum
+<lb ed="#Bb" n="15"/>immediatum esse ad actum et attributum
+<lb ed="#Bb" n="16"/>alterius : sicut generare est actus 
+perso<lb break="no" ed="#Bb" n="17"/>ne ; et hoc non convenit notioni vel es-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="18"/>sentiae. Et ideo cum sic proceditur : 
+no<lb break="no" ed="#Bb" n="19"/>tio est persona: persona generat: ergo
+<lb ed="#Bb" n="20"/>notio generat : incidit fallacia accidentis :
+<lb ed="#Bb" n="21"/>eo quod sumitur extraneum, quod non
+<lb ed="#Bb" n="22"/>convenit secundum rationem 
+intelli<lb break="no" ed="#Bb" n="23"/>gendi.
+</p>
+            <p xml:id="alalal-cc4907-d1e267">
+               <lb ed="#Bb" n="24"/>Ad aliud dicendum, quod licet 
+notio<lb break="no" ed="#Bb" n="25"/>nes aliqui dicant non esse, hoc referunt
+<lb ed="#Bb" n="26"/>ad hoc secundum quod abstractive 
+si<lb break="no" ed="#Bb" n="27"/>enificantur : sed si dicerent nihil 
+distin<lb break="no" ed="#Bb" n="28"/>guere personas divinas, hoc non esset
+<lb ed="#Bb" n="29"/>Catholicum : et ideo oportet, quod 
+notio<lb break="no" ed="#Bb" n="30"/>nes aliquo modo ponantur vel implicite
+<lb ed="#Bb" n="31"/>vel explicite: et tune non omne quod
+<lb ed="#Bb" n="32"/>convenit notioni, convenit persone : et
+<lb ed="#Bb" n="33"/>ita supposito uno, non supponitur 
+reli<lb break="no" ed="#Bb" n="34"/>quum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

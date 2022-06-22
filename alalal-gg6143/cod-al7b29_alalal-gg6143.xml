@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 16</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 16</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="30"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-gg6143"><!-- l4d1a16 -->
+            <head xml:id="alalal-gg6143-Hd1e99">Articulus 16</head>
+            <head xml:id="alalal-gg6143-Hd1e101" type="question-title">Utrum Testamentorum fuit gravius?</head>
+            <p xml:id="alalal-gg6143-d1e104">
+               <lb ed="#Be" n="34"/>ARTICULUS XVI.
+<lb ed="#Be" n="35"/>Utrum Testamentorum fuit gravius?
+</p>
+            <p xml:id="alalal-gg6143-d1e111">
+               <lb ed="#Be" n="36"/>Sed ad haec incidit questio, quid 
+illo<lb break="no" ed="#Be" n="37"/>rum sit gravius?
+</p>
+            <p xml:id="alalal-gg6143-d1e118">
+               <lb ed="#Be" n="38"/>Videtur autem, quod Novum : quia
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="39"/>magis est difficile relinquere omnia quae
+<lb ed="#Be" n="40"/>sunt in Novo, quam subjicere omnia
+<lb ed="#Be" n="41"/>que sunt in Veteri.
+</p>
+            <p xml:id="alalal-gg6143-d1e132">
+               <lb ed="#Be" n="42"/>Item, Christus multa addidit veteribus,
+<lb ed="#Be" n="43"/>Matth. v, 1 et seq. Quod autem habet
+<lb ed="#Be" n="44"/>tantum et amplius, illud est gravius:
+<lb ed="#Be" n="45"/>ergo Novum est gravius quam Vetus.
+</p>
+            <p xml:id="alalal-gg6143-d1e143">
+               <lb ed="#Be" n="46"/>Item, Vetus cohibet manum, et non
+<lb ed="#Be" n="47"/>animum : Novum autem manum, et
+<lb ed="#Be" n="48"/>animum : magis autem est difficile 
+co<lb break="no" ed="#Be" n="49"/>hibere et manum et animum, quam 
+ma<lb break="no" ed="#Be" n="50"/>num solam: ergo Novum Testamentum
+<lb ed="#Be" n="51"/>est gravius.
+</p>
+            <p xml:id="alalal-gg6143-d1e159">
+               <lb ed="#Be" n="52"/>SED CONTRA:
+<lb ed="#Be" n="53"/>Dicitur, Act. xv, 10: <quote xml:id="alalal-gg6143-Qd1e165">Quid tentatis
+<lb ed="#Be" n="54"/>Deum, imponere gugum super cervices
+<lb ed="#Be" n="55"/>discipulorum, quod neque patres nostri
+<lb ed="#Be" n="56"/>neque nos portare potuimus ?</quote> ergo 
+gra<lb break="no" ed="#Be" n="57"/>vius est quam Novum.
+</p>
+            <p xml:id="alalal-gg6143-d1e177">
+               <lb ed="#Be" n="58"/>Item, Matth. x1, 28 et 30: <quote xml:id="alalal-gg6143-Qd1e181">Venite ad
+<lb ed="#Be" n="59"/>me, omnes qui laboratis, etonerati estis,
+<lb ed="#Be" n="60"/>ef ego reficiam vos. Tollite gugum
+<lb ed="#Be" n="61"/>meum super vos, et discite a me,
+<lb ed="#Be" n="62"/>quia mitis sum et humilis corde: et 
+in<lb break="no" ed="#Be" n="63"/>venietis requiem animabus vestris. 
+Ju<lb break="no" ed="#Be" n="64"/>gum enim meum suave est, et onus
+<lb ed="#Be" n="65"/>meum leve</quote>. Econtra igitur videtur, quod
+<lb ed="#Be" n="66"/>sint aequaliter levia.
+</p>
+            <p xml:id="alalal-gg6143-d1e202">
+               <lb ed="#Be" n="67"/>Solutio. Omnia hujusmodi argumenta
+<lb ed="#Be" n="68"/>leve est determinare : quia sicut vadunt
+<lb ed="#Be" n="69"/>auctoritates etrationes, ita mnunt 
+quam<lb break="no" ed="#Be" n="70"/>dam distinctionem. Sciendum ergo,
+<lb ed="#Be" n="71"/>quod Novum et Vetus possunt 
+conside<lb break="no" ed="#Be" n="72"/>rari, ut typus, et veritas : et sic est
+<lb ed="#Be" n="73"/>unum in alio. Si autem considerentur
+<lb ed="#Be" n="74"/>quoad materiam preceptorum et 
+moti<lb break="no" ed="#Be" n="75"/>vum ad implendum, tunc Vetus est
+<lb ed="#Be" n="76"/>multo gravius : quia plura habet 
+preece<lb break="no" ed="#Be" n="77"/>pta, et timor movet ad implendum ea.
+<lb ed="#Be" n="78"/>Si autem considerentur quoad 
+perfectio<lb break="no" ed="#Be" n="79"/>nem status eorum quae precipiuntur, sic.
+<lb ed="#Be" n="80"/>Novum est magis difficile.
+</p>
+            <p xml:id="alalal-gg6143-d1e235">
+               <lb ed="#Be" n="81"/>Et per hoc jam patet solutio ad 
+om<lb break="no" ed="#Be" n="82"/>nia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="169"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a34196"><!-- l1d4a8 -->
+            <head xml:id="alalal-a34196-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-a34196-Hd1e101" type="question-title">An de Deo potest formari propositio ?</head>
+            <p xml:id="alalal-a34196-d1e104">
+               <cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="30"/>ARTICULUS VIII.
+<lb ed="#Ba" n="31"/>An de Deo potest formari propositio ?
+</p>
+            <p xml:id="alalal-a34196-d1e113">
+               <lb ed="#Ba" n="32"/>Incidit autem hic duplex dubium.
+<lb ed="#Ba" n="33"/>Unum est, si de Deo possit formari 
+pro<lb break="no" ed="#Ba" n="34"/>positio ? Secundum, si aliquo modo 
+pot<lb break="no" ed="#Ba" n="35"/>est formari, utrum essentia debet subjici,
+<lb ed="#Ba" n="36"/>vel pradicari tantum, vel possit 1ecte in
+<lb ed="#Ba" n="37"/>divinis fieri utrumque ?
+</p>
+            <p xml:id="alalal-a34196-d1e129">
+               <lb ed="#Ba" n="38"/>Circa primum objicitur sic:
+<lb ed="#Ba" n="39"/>1. Simplicissimum non habet 
+composi<lb break="no" ed="#Ba" n="40"/>tionem : ergo si ipsum ut compositum
+<lb ed="#Ba" n="41"/>significatur, significatur falso: sed 
+om<lb break="no" ed="#Ba" n="42"/>nis compositio significat ut compositum :
+<pb ed="#Ba" n="170"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ergo non potest fieri propositio habens
+<lb ed="#Ba" n="2"/>compositionem de Deo: et omnis 
+pro<lb break="no" ed="#Ba" n="3"/>positio habet compositionem : etgo nulla
+<lb ed="#Ba" n="4"/>propositio est vera de Deo si sit 
+affirma<lb break="no" ed="#Ba" n="5"/>tiva.
+</p>
+            <p xml:id="alalal-a34196-d1e159">
+               <lb ed="#Ba" n="6"/>2. Item, Dionysius dicit, quod 
+affirma<lb break="no" ed="#Ba" n="7"/>tiones in divinis sunt false, et negative
+<lb ed="#Ba" n="8"/>omnes vere ; ergo videtur, quod omnes
+<lb ed="#Ba" n="9"/>propositiones affirmative de Deo false
+<lb ed="#Ba" n="10"/>sint,
+</p>
+            <p xml:id="alalal-a34196-d1e172">
+               <lb ed="#Ba" n="11"/>3. Si forte dicatur, quod compositio
+<lb ed="#Ba" n="12"/>est in Deo secundum modum significandi
+<lb ed="#Ba" n="13"/>propter nostri intellectus infirmitatem.
+<lb ed="#Ba" n="14"/>Contra : Intellectus per errorem non 
+cu<lb break="no" ed="#Ba" n="15"/>rat suam infirmitatem : sed cum 
+compo<lb break="no" ed="#Ba" n="16"/>nit aliquid in divinis, errat: ergo talibus
+<lb ed="#Ba" n="17"/>propositionibus sua infirmitas non 
+cura<lb break="no" ed="#Ba" n="18"/>tur : ergo non debet uti eis.
+</p>
+            <p xml:id="alalal-a34196-d1e192">
+               <lb ed="#Ba" n="19"/>4. Item, Cassus est intellectus qui
+<lb ed="#Ba" n="20"/>nullo modo potest attribui rei: ergo 
+vi<lb break="no" ed="#Ba" n="21"/>detur, quod talium propositionum sit 
+in<lb break="no" ed="#Ba" n="22"/>tellectus cassus.
+</p>
+            <p xml:id="alalal-a34196-d1e203">
+               <lb ed="#Ba" n="23"/>Solutio. Sicut dicit Augustinus : Deus
+<lb ed="#Ba" n="24"/>admisit humane vocis obsequium, de
+<lb ed="#Ba" n="25"/>quo tamen nihil digne dici potest. Unde
+<lb ed="#Ba" n="26"/>sicut de Deo in temporali loquentes,
+<lb ed="#Ba" n="27"/>verbis cujuslibet temporis utitur : ita de
+<lb ed="#Ba" n="28"/>Deo simplicissimo loquentes, utimur 
+mo<lb break="no" ed="#Ba" n="29"/>do compositionis et modo divisionis in
+<lb ed="#Ba" n="30"/>locutionibus: sed cum in talibus, nota
+<lb ed="#Ba" n="31"/>compositionis quae significatur in verbo,
+<lb ed="#Ba" n="32"/>est, significat identitatem secundum rem,
+<lb ed="#Ba" n="33"/>et non modum inherentie, sicut 
+inhe<lb break="no" ed="#Ba" n="34"/>rentis per se, vel substantialiter, vel per
+<lb ed="#Ba" n="35"/>accidens.
+</p>
+            <p xml:id="alalal-a34196-d1e234">
+               <lb ed="#Ba" n="36"/>Dicendum igitur ad primum, quod licet
+<lb ed="#Ba" n="37"/>Deus sit simplicissimus, tamen multis
+<lb ed="#Ba" n="38"/>modis significatur, sicut supra, in tertia
+<lb ed="#Ba" n="39"/>distinctione, habitum est : et ex illis 
+pot<lb break="no" ed="#Ba" n="40"/>est fieri compositio notans rei identita~
+<lb ed="#Ba" n="41"/>tem.
+</p>
+            <p xml:id="alalal-a34196-d1e250">
+               <lb ed="#Ba" n="42"/>Ad aliud dicendum, quod Dionysius
+<lb ed="#Ba" n="43"/>intelligit de affirmativa significatione 
+in<lb break="no" ed="#Ba" n="44"/>complexorum, quae per nomen plene non
+<lb ed="#Ba" n="45"/>ostendunt quae conveniunt Deo, et non
+<lb ed="#Ba" n="46"/>intelligit de affirmatione compositionis
+<lb ed="#Ba" n="47"/>que nota est identitatis praedicati cum
+<lb ed="#Ba" n="48"/>subjecto.
+</p>
+            <p xml:id="alalal-a34196-d1e269">
+               <lb ed="#Ba" n="49"/>Ad aliud dicendum, quod intellectus aas es
+<lb ed="#Ba" n="50"/>salvatur (alias, significatur) in re 
+quan<lb break="no" ed="#Ba" n="51"/>tum ad hoc quod multis modis Deus 
+sig<lb break="no" ed="#Ba" n="52"/>nificatur. Unde invenit in Deo ea que
+<lb ed="#Ba" n="53"/>multa sunt in rationibus nominum, licet
+<lb ed="#Ba" n="54"/>unum sint in rebus: et quia ratio 
+homi<lb break="no" ed="#Ba" n="55"/>num est vera, est enim ipse vere sapiens,
+<lb ed="#Ba" n="56"/>et potens, et hujusmodi: et ideo non
+<lb ed="#Ba" n="57"/>est cassus, et curatur ab ignorantia, eo
+<lb ed="#Ba" n="58"/>quod non refert in Deum illas 
+composi<lb break="no" ed="#Ba" n="59"/>tiones per modum inherentiae, sed potius
+<lb ed="#Ba" n="60"/>per modum identitatis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

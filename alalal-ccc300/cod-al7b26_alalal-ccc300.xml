@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="3"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ccc300"><!-- l1d26a1 -->
+            <head xml:id="alalal-ccc300-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-ccc300-Hd1e101" type="question-title">Quid sit hypostasis ?</head>
+            <p xml:id="alalal-ccc300-d1e104">
+               <lb ed="#Bb" n="29"/>ARTICULUS I.
+<lb ed="#Bb" n="30"/>Quid sit hypostasis ?
+</p>
+            <p xml:id="alalal-ccc300-d1e111">
+               <lb ed="#Bb" n="31"/>Hic queritur, Quid sit hypostasis, et
+<lb ed="#Bb" n="32"/>utrum sit in divinis eadem ratione qua in
+<lb ed="#Bb" n="33"/>inferioribus, et quomodo se habeat ad
+<lb ed="#Bb" n="34"/>essentiam, et etiam qualiter se habeat ad
+<lb ed="#Bb" n="35"/>personam, et utrum ipsa per intellectum
+<lb ed="#Bb" n="36"/>remaneat, abstracta personalitate a 
+per<lb break="no" ed="#Bb" n="37"/>sona vel non ?
+</p>
+            <p xml:id="alalal-ccc300-d1e129">
+               <lb ed="#Bb" n="38"/>Ad primuM proceditur sic :
+<lb ed="#Bb" n="39"/>1. Hic in Littera dicit Hieronymus,
+<lb ed="#Bb" n="40"/>quod hypostasis, secundum quod dicimus
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="41"/>tres hypostases, est subsistens persona
+<lb ed="#Bb" n="42"/>perfecta : hoc enim colligitur ex Littera.
+</p>
+            <p xml:id="alalal-ccc300-d1e146">
+               <lb ed="#Bb" n="43"/>2. Hoc etiam videtur dicere Boetius in
+<lb ed="#Bb" n="44"/>libro de Duabus naturis in una persona
+<lb ed="#Bb" n="45"/>Christi sic: <quote xml:id="alalal-ccc300-Qd1e154"> Longe significantius nature
+<lb ed="#Bb" n="46"/>rationalis individuam substantiam 
+6nostd<lb break="no" ed="#Bb" n="47"/>sews NOMiIne vocantes. </quote> Ergo secundum
+<lb ed="#Bb" n="48"/>usum Greecorum Sxdcrac¢ est individua
+<lb ed="#Bb" n="49"/>substantia rationalis nature : ergo idem
+<lb ed="#Bb" n="50"/>quod persona. Sed contra: Hypostasis
+<lb ed="#Bb" n="51"/>cadit in diffinittone persone : quia supra
+<lb ed="#Bb" n="52"/>est posita diffinitio persone, quod est
+<lb ed="#Bb" n="53"/>hypostasis distincta proprietate ad 
+digni<lb break="no" ed="#Bb" n="54"/>tatem pertinente.
+</p>
+            <p xml:id="alalal-ccc300-d1e177">
+               <lb ed="#Bb" n="55"/>3. Praterea objicitur fortius, 
+Hypo<lb break="no" ed="#Bb" n="56"/>stasis aut quid absolutum dicit in divinis,
+<lb ed="#Bb" n="57"/>aut respectivum. Si absolutum : ergo 
+di<lb break="no" ed="#Bb" n="58"/>cit essentiam : sed hac non distinguitur :
+<lb ed="#Bb" n="59"/>ergo hypostasis non distinguitur, quod
+<lb ed="#Bb" n="60"/>falsum est: quia etiam secundum 
+San<lb break="no" ed="#Bb" n="61"/>ctos et Magistros hypostasis distinguitur
+<lb ed="#Bb" n="62"/>proprietate. Si autem dicit relationem.
+<lb ed="#Bb" n="63"/>Contra : Relatio in divinis est distinguens:
+<lb ed="#Bb" n="64"/>ergo hypostasis est distinguens, non 
+di<lb break="no" ed="#Bb" n="65"/>stincta, quod iterum est falsum, ut dicit
+<lb ed="#Bb" n="66"/>Magister infra ', quia Pater non dicit
+<lb ed="#Bb" n="67"/>tantum proprietatem, sed hypostasim 
+di<lb break="no" ed="#Bb" n="68"/>stinctam proprietate : ergo videtur, quod
+<lb ed="#Bb" n="69"/>hypostasis nullo modo possit aliquid 
+si<lb break="no" ed="#Bb" n="70"/>gnificare in divinis.
+</p>
+            <p xml:id="alalal-ccc300-d1e214">
+               <lb ed="#Bb" n="71"/>4. Si forte dicas, quod dicit 
+substan<lb break="no" ed="#Bb" n="72"/>tiam primam unde etiam idem est
+<lb ed="#Bb" n="73"/>indotacte apud Graecos, et sebstantia 
+pri<lb break="no" ed="#Bb" n="74"/>ma apud Latinos, ut dicit Boetius. 
+Con<lb break="no" ed="#Bb" n="75"/>TRA : ila substantia prima est ens 
+abso<lb break="no" ed="#Bb" n="76"/>lutum : in nullo autem absoluto 
+distin<lb break="no" ed="#Bb" n="77"/>guuntur Pater et Filius : ergo in 
+hypo<lb break="no" ed="#Bb" n="78"/>stasi non distinguuntur, quod est contra
+<lb ed="#Bb" n="79"/>Sanctos.
+</p>
+            <p xml:id="alalal-ccc300-d1e236">
+               <lb ed="#Bb" n="80"/>3. Item, Si in aliquo substantiali 
+di<lb break="no" ed="#Bb" n="81"/>stinguerentur, aliquid substantialiter esset
+<lb ed="#Bb" n="82"/>in uno, quod non esset in alio, quod
+<lb ed="#Bb" n="83"/>heresis est. -
+</p>
+            <p xml:id="alalal-ccc300-d1e247">
+               <lb ed="#Bb" n="84"/>6. Item, Magis separantur in 
+inferiori<lb break="no" ed="#Bb" n="85"/>bus, quae separantur per totam 
+hyposta<lb break="no" ed="#Bb" n="86"/>sim, quam illa quae per quo est tantum,
+<lb ed="#Bb" n="87"/>vel per quod est tantum separantur. Pro-
+<pb ed="#Bb" n="4"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>BATIO. Sit, quod aliqui uniantur in quo
+<lb ed="#Bb" n="2"/>est, et non in quod est : isti separantur in
+<lb ed="#Bb" n="3"/>parte sue essentiae, et non in toto. Sit
+<lb ed="#Bb" n="4"/>etiam, quod aliqui uniantur in quod est,
+<lb ed="#Bb" n="5"/>et non in quo est: isti etiam non 
+sepa<lb break="no" ed="#Bb" n="6"/>rantur nisi in parte sue essentia. Sed
+<lb ed="#Bb" n="7"/>qui separatas habent hypostases, in toto
+<lb ed="#Bb" n="8"/>separantur. Ergo videtur, quod si alia est
+<lb ed="#Bb" n="9"/>hypostasis Patris et Filii in divinis, quod
+<lb ed="#Bb" n="10"/>haec sit major alietas, quam si essent alii
+<lb ed="#Bb" n="11"/>in natura sola : et hoc argumentum
+<lb ed="#Bb" n="12"/>procedit, si hypostasis dicit substantiam
+<lb ed="#Bb" n="13"/>individuam : ergo videtur, quod Pater et
+<lb ed="#Bb" n="14"/>Filius non distinguantur in hypostasibus,
+<lb ed="#Bb" n="15"/>nisi hypostasis dicat proprietatem solam.
+</p>
+            <p xml:id="alalal-ccc300-d1e295">
+               <lb ed="#Bb" n="16"/>Soxutio. Difficile est hic vitare 
+incon<lb break="no" ed="#Bb" n="17"/>veniens. Potest tamen dici, quod 
+dupli<lb break="no" ed="#Bb" n="18"/>citer potest considerari nomen hypostasis,
+<lb ed="#Bb" n="19"/>scilicet secundum id quod est hypostasis,
+<lb ed="#Bb" n="20"/>et secundum quod significatur pernomen.
+<lb ed="#Bb" n="21"/>Et si consideratur secundum id quod
+<lb ed="#Bb" n="22"/>est hypostasis, tunc verum est quod
+<lb ed="#Bb" n="23"/>idem est quod persona. Si autem 
+consi<lb break="no" ed="#Bb" n="24"/>deretur secundum quod significatur per
+<lb ed="#Bb" n="25"/>nomen, tune dicit distinctum non 
+deter<lb break="no" ed="#Bb" n="26"/>minans rationem distinctionis : persona
+<lb ed="#Bb" n="27"/>autem dicit distinctum determinando 
+ra<lb break="no" ed="#Bb" n="28"/>tionem distinctionis in communi: Pater
+<lb ed="#Bb" n="29"/>autem et Filius dicunt distinctum 
+deter<lb break="no" ed="#Bb" n="30"/>minando rationem distinctionis in 
+spe<lb break="no" ed="#Bb" n="31"/>cle.
+</p>
+            <p xml:id="alalal-ccc300-d1e333">
+               <lb ed="#Bb" n="32"/>DicenpuM igitur ad primum, quod 
+Hie<lb break="no" ed="#Bb" n="33"/>ronymus hic attendit rem, et non 
+nomi<lb break="no" ed="#Bb" n="34"/>nis rationem.
+</p>
+            <p xml:id="alalal-ccc300-d1e342">
+               <lb ed="#Bb" n="35"/>Ad aliud dicendum, quod Boetius 
+lo<lb break="no" ed="#Bb" n="36"/>quitur de usu nominis apud Grecos, cujus
+<lb ed="#Bb" n="37"/>usus ratio assignata est supra distinctione
+<lb ed="#Bb" n="38"/>precedenti .
+</p>
+            <p xml:id="alalal-ccc300-d1e353">
+               <lb ed="#Bb" n="39"/>Ad id quod contra objicitur, dicendum
+<lb ed="#Bb" n="40"/>quod. hypostasis cadit in diffinitione 
+per<lb break="no" ed="#Bb" n="41"/>sone : non quod minus sit secundum
+<lb ed="#Bb" n="42"/>rem, sed quia minus dicit secundum 
+mo<lb break="no" ed="#Bb" n="43"/>dum significandi per nomen.
+</p>
+            <p xml:id="alalal-ccc300-d1e366">
+               <lb ed="#Bb" n="44"/>Ad aliud dicendum, quod hypostasis
+<lb ed="#Bb" n="45"/>dicit suppositum relative : et ideo 
+hypo<lb break="no" ed="#Bb" n="46"/>stasis relativum est et ad alterum : et ideo
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="47"/>in hypostasibus persone non unum, sed
+<lb ed="#Bb" n="48"/>potius in essentia. Et si queratur ratio
+<lb ed="#Bb" n="49"/>hujus, dico sine prejudicio, quod in 
+di<lb break="no" ed="#Bb" n="50"/>vinis aliter est quam in inferioribus: quia
+<lb ed="#Bb" n="51"/>in inferioribus relatio est accidens, et
+<lb ed="#Bb" n="52"/>utriusque naturam servat : et secundum
+<lb ed="#Bb" n="53"/>quod est relatio, est ad alterum : 
+secun<lb break="no" ed="#Bb" n="54"/>dum autem quod est accidens, sic est in
+<lb ed="#Bb" n="55"/>relativo tantum. In divinis autem relatio
+<lb ed="#Bb" n="56"/>est relatio, et non accidens, sed potius
+<lb ed="#Bb" n="57"/>substantia : et ideo ibi non est accidens
+<lb ed="#Bb" n="58"/>relativum, sed ipsum suppositum relativi
+<lb ed="#Bb" n="59"/>realiter seipso relativum : et tamen 
+sub<lb break="no" ed="#Bb" n="60"/>stantia ens per seipsam, hoc modo quo
+<lb ed="#Bb" n="61"/>substantiam dicimus suppositum. Hoc
+<lb ed="#Bb" n="62"/>autem modo substantiam accipiendo, 
+sci<lb break="no" ed="#Bb" n="63"/>licet pro supposito perfecto, quod quis
+<lb ed="#Bb" n="64"/>est, vel aliquis : in divinis persone non
+<lb ed="#Bb" n="65"/>communicant in substantia, sed 
+distin<lb break="no" ed="#Bb" n="66"/>guuntur: et suppositum hoc modo est ad
+<lb ed="#Bb" n="67"/>aliquid, et substantia in se perfecta: et
+<lb ed="#Bb" n="68"/>hac non repugnant in divinis, ut jam 
+os<lb break="no" ed="#Bb" n="69"/>tensum est. Unde bene concedo, quod in
+<lb ed="#Bb" n="70"/>omnibus quae simpliciter absoluta sunt,
+<lb ed="#Bb" n="71"/>conveniunt persone, et sunt unum : ex
+<lb ed="#Bb" n="72"/>hoc tamen non sequitur, quod in 
+hujus<lb break="no" ed="#Bb" n="73"/>modi substantia quae suppositum est,
+<lb ed="#Bb" n="74"/>sint unum: quia non video qualiter ex
+<lb ed="#Bb" n="75"/>hoc. non sequitur heresis Sabellii.
+</p>
+            <p xml:id="alalal-ccc300-d1e440">
+               <lb ed="#Bb" n="76"/>Ad aliud dicendum, quod hoc verum
+<lb ed="#Bb" n="77"/>est, quod id quod dicit hypostasis, dicit
+<lb ed="#Bb" n="78"/>per modum substantiae prime non 
+deter<lb break="no" ed="#Bb" n="79"/>minans proprietatem distinguentem ex
+<lb ed="#Bb" n="80"/>nomine suo : sed haec substantia est 
+sub<lb break="no" ed="#Bb" n="81"/>stantia relativi, licet non dicat eam per
+<lb ed="#Bb" n="82"/>modum relativi vel relationis : et non est
+<lb ed="#Bb" n="83"/>secundum modum intelligendi substantia
+<lb ed="#Bb" n="84"/>que communis est tribus, licet realiter
+<lb ed="#Bb" n="85"/>sit illa : et ideo illa substantia 
+distingui<lb break="no" ed="#Bb" n="86"/>tur.
+</p>
+            <p xml:id="alalal-ccc300-d1e466">
+               <lb ed="#Bb" n="87"/>Et quod objicitur, quod idem secundum
+<lb ed="#Bb" n="88"/>modum intelligendi non potest esse 
+di<lb break="no" ed="#Bb" n="89"/>stinguens et distinctum. Dicendum, quod
+<lb ed="#Bb" n="90"/>hoc verum est: tamen idem re potest
+<lb ed="#Bb" n="91"/>esse distinguens, et distinctum, et non
+<lb ed="#Bb" n="92"/>distinctum : quia essentia et persona et
+<lb ed="#Bb" n="93"/>relatio sunt idem re, et relatio est distin-
+<pb ed="#Bb" n="5"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>guens, et persona distincta, et essentia
+<lb ed="#Bb" n="2"/>non distincta.
+</p>
+            <p xml:id="alalal-ccc300-d1e493">
+               <lb ed="#Bb" n="3"/>Ad aliud dicendum, quod si in aliquo
+<lb ed="#Bb" n="4"/>substantiali simpliciter absoluto 
+distin<lb break="no" ed="#Bb" n="5"/>guerentur persone, tunc verum esset
+<lb ed="#Bb" n="6"/>quod non in omnibus essent unum : sed
+<lb ed="#Bb" n="7"/>substantiale quod est hypostasis, non est
+<lb ed="#Bb" n="8"/>simpliciter absolutum : est enim relatum
+<lb ed="#Bb" n="9"/>per modum absoluti dictum, et ideo non
+<lb ed="#Bb" n="10"/>potest illud impedire unitatem 
+persona<lb break="no" ed="#Bb" n="11"/>rum in essentia.
+</p>
+            <p xml:id="alalal-ccc300-d1e515">
+               <lb ed="#Bb" n="12"/>Ad aliud dicendum, quod in 
+inferiori<lb break="no" ed="#Bb" n="13"/>bus secus est quam in superioribus : quia
+<lb ed="#Bb" n="14"/>hypostases in inferioribus differunt per
+<lb ed="#Bb" n="15"/>materiam et formam et per substantiam
+<lb ed="#Bb" n="16"/>compositam : hypostases autem in 
+supe<lb break="no" ed="#Bb" n="17"/>rioribus distinguuntur per existentia 
+mo<lb break="no" ed="#Bb" n="18"/>dum, ut supra dictum est : et ille modus
+<lb ed="#Bb" n="19"/>existentiae significatur ut relatio, et ut in
+<lb ed="#Bb" n="20"/>relativo : et secundum quod significatur
+<lb ed="#Bb" n="21"/>ut relatio, sic causat in divinis notiones :
+<lb ed="#Bb" n="22"/>secundum autem quod significatur in 
+re<lb break="no" ed="#Bb" n="23"/>lativo, sic est distinctivus hypostasum.
+</p>
+            <p xml:id="alalal-ccc300-d1e544">
+               <lb ed="#Bb" n="24"/>Si autem queras, Unde venit distinctio
+<lb ed="#Bb" n="25"/>hypostasum in quibus sunt relationes,
+<lb ed="#Bb" n="26"/>utrum scilicet ille habeant distinctionem
+<lb ed="#Bb" n="27"/>aliam, quam per relationes, infra in hac
+<lb ed="#Bb" n="28"/>quaestione determinabitur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

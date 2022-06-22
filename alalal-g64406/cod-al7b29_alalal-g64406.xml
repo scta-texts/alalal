@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="316"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g64406"><!-- l4d12a12 -->
+            <head xml:id="alalal-g64406-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-g64406-Hd1e101" type="question-title">An calix possit esse aqua sola, aut 
+vinum solum, aut mixtum ex utroque ?</head>
+            <p xml:id="alalal-g64406-d1e104">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="5"/>ARTICULUS XII.
+<lb ed="#Be" n="6"/>An calix possit esse aqua sola, aut 
+vi<lb break="no" ed="#Be" n="7"/>num solum, aut mixtum ex utroque ?
+</p>
+            <p xml:id="alalal-g64406-d1e115">
+               <lb ed="#Be" n="8"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="9"/>ibi, D, circa medium : <quote xml:id="alalal-g64406-Qd1e121"> Quod ergo 
+su<lb break="no" ed="#Be" n="10"/>pra dictum est non posse vinum solum,
+<lb ed="#Be" n="11"/>etc. </quote> .
+</p>
+            <p xml:id="alalal-g64406-d1e129">
+               <lb ed="#Be" n="12"/>Videtur enim expositio nihil valere,
+<lb ed="#Be" n="13"/>cum dicit: <quote xml:id="alalal-g64406-Qd1e135"> Misi simpliciter fiat, vel
+<lb ed="#Be" n="14"/>ignoranter. </quote> Quia simplicitas vel 
+igno<lb break="no" ed="#Be" n="15"/>rantia sunt dispositiones consecrantis, et
+<lb ed="#Be" n="16"/>non de esse sacramenti: ergo non 
+fa<lb break="no" ed="#Be" n="17"/>ciunt ad hoc quod fiat consecratio, vel
+<lb ed="#Be" n="18"/>non fiat, sed potius quod meritorie vel
+<lb ed="#Be" n="19"/>non meritorie fiat.
+</p>
+            <p xml:id="alalal-g64406-d1e153">
+               <lb ed="#Be" n="20"/>Sotutto. Dicendum, quod posse hoc
+<lb ed="#Be" n="21"/>non est posse sacramenti : sed potius
+<lb ed="#Be" n="22"/>posse juris ex ordinatione Ecclesiae et
+<lb ed="#Be" n="23"/>congruentia sacramenti, ut supra 
+di<lb break="no" ed="#Be" n="24"/>ctum est : et per hoc patet solutio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="105"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e20909"><!-- l3d5a6 -->
+            <head xml:id="alalal-e20909-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-e20909-Hd1e101" type="question-title">Utrum tota Trinitas sit operata 
+susceptionem humane nature ?</head>
+            <p xml:id="alalal-e20909-d1e104">
+               <lb ed="Bd" n="30"/>ARTICULUS VI.
+<lb ed="Bd" n="31"/>Utrum tota Trinitas sit operata 
+suscep<lb break="no" ed="Bd" n="32"/>tionem humane nature ?
+</p>
+            <p xml:id="alalal-e20909-d1e113">
+               <lb ed="Bd" n="33"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="34"/>ibi, A, 82: <quote xml:id="alalal-e20909-Qd1e119"> Cum tota Lrinitas operata
+<lb ed="Bd" n="35"/>sit formationem suscepti hominis, etc. </quote>
+            </p>
+            <p xml:id="alalal-e20909-d1e125">
+               <lb ed="Bd" n="36"/>Hoc infra negabit magister.
+</p>
+            <p xml:id="alalal-e20909-d1e131">
+               <lb ed="Bd" n="37"/>Solutio Dicendum secundum 
+com<lb break="no" ed="Bd" n="38"/>muniter glossantes hujus verbi, suscepti
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="39"/>hominis, id est, humane nature. Vel
+<lb ed="Bd" n="40"/>potest dici secundum preedicta, quod 
+li<lb break="no" ed="Bd" n="41"/>cet homo non susceptus sit, tamen id
+<lb ed="Bd" n="42"/>quod suscipitur, consequitur esse 
+homi<lb break="no" ed="Bd" n="43"/>nis eo quod suscipiendo unit corpus et
+<lb ed="Bd" n="44"/>animam et format et perficit : et ita licet
+<lb ed="Bd" n="45"/>non primo, tamen consequenter homo
+<lb ed="Bd" n="46"/>per susceptionem habetur a Filio Dei, et
+<lb ed="Bd" n="47"/>ipse est ille homo, eo quod unio facta
+<lb ed="Bd" n="48"/>estin hypostasi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="530"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d91174"><!-- l2d32a6 -->
+            <head xml:id="alalal-d91174-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-d91174-Hd1e101" type="question-title">An omnes anime ex creatione aequales ,
+sint ? et, An aliae aliis excellentiores ?</head>
+            <p xml:id="alalal-d91174-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="7"/>ARTICULUS VI.
+<lb ed="#Bc" n="8"/>An omnes anime ex creatione aequales ,
+<lb ed="#Bc" n="9"/>sint ? et, An aliae aliis excellentiores ?
+</p>
+            <p xml:id="alalal-d91174-d1e115">
+               <lb ed="#Bc" n="10"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="11"/>ibi, <quote xml:id="alalal-d91174-Qd1e121"> Illud quoque non incongrue,
+<lb ed="#Bc" n="12"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-d91174-d1e127">
+               <lb ed="#Bc" n="13"/>Videtur enim, quod hujus aequalitatis
+<lb ed="#Bc" n="14"/>animarum nulla possit esse causa:
+<lb ed="#Bc" n="15"/>quia Deus uno modo se habet in 
+cre<lb break="no" ed="#Bc" n="16"/>ando.
+</p>
+            <p xml:id="alalal-d91174-d1e139">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="17"/>Iterum, Diversitas corruptionis non:
+<lb ed="#Bc" n="18"/>est causa diversitatis animarum, sed po
+<lb ed="#Bc" n="19"/>tius e€ converso.
+</p>
+            <p xml:id="alalal-d91174-d1e150">
+               <lb ed="#Bc" n="20"/>Item, Ex hoc non sunt diverse, quia:
+<lb ed="#Bc" n="21"/>sunt ex nihilo : ergo videtur, cum hu-.
+<lb ed="#Bc" n="22"/>jus diversitatis nulla inveniatur causa,
+<lb ed="#Bc" n="23"/>quod anime sint aequales ex creatione, :
+</p>
+            <p xml:id="alalal-d91174-d1e161">
+               <lb ed="#Bc" n="24"/>Soxtutto. Sicut supra dictum est de
+<lb ed="#Bc" n="25"/>Angelis, et in alia Summa de ista quae
+ <lb ed="#Bc" n="26"/>stione , causa diversitatis est sapientia
+<lb ed="#Bc" n="27"/>ordinans creata : et haec licet uno modo
+<lb ed="#Bc" n="28"/>se habeat ad sapientem Deum, non 
+ta<lb break="no" ed="#Bc" n="29"/>men in una ratione explicat ea de 
+qui<lb break="no" ed="#Bc" n="30"/>bus est: et ideo fit. diversitas. Quare
+<lb ed="#Bc" n="31"/>autem unitur corpori, et utrum volun+
+<lb ed="#Bc" n="32"/>tarie vel non, supra expeditum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

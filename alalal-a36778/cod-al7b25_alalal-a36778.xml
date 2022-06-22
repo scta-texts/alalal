@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="183"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a36778"><!-- l1d5dt4 -->
+            <head xml:id="alalal-a36778-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a36778-d1e101">
+               <pb ed="#Ba" n="183"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>DIVISIO TEXTUS.</p>
+            <p xml:id="alalal-a36778-d1e110">
+               <lb ed="#Ba" n="2"/>
+               <quote xml:id="alalal-a36778-Qd1e114"> Praedictis autem videtur contrarium,
+<lb ed="#Ba" n="3"/>etc.</quote>
+               <lb ed="#Ba" n="4"/>Hic objicitur in contrarium: et habet
+<lb ed="#Ba" n="5"/>quatuor partes. In prima objicit, et 
+sol<lb break="no" ed="#Ba" n="6"/>vit per verba Augustini. In secunda
+<lb ed="#Ba" n="7"/>autem probat solutionem, thi, <quote xml:id="alalal-a36778-Qd1e128"> Quod
+<lb ed="#Ba" n="8"/>autem ita intelligi, etc. </quote> In tertia, 
+ob<lb break="no" ed="#Ba" n="9"/>jicit per verba Hilarii, quae specialein 
+ha<lb break="no" ed="#Ba" n="10"/>hent difficultatem, ibi, G, <quote xml:id="alalal-a36778-Qd1e137"> Hue vero
+<lb ed="#Ba" n="11"/>rham id contrarvum, etc. </quote> In quarta,
+<lb ed="#Ba" n="12"/>solvit per verba ejusdem, ibi, H, <quote xml:id="alalal-a36778-Qd1e145"> Sed
+<lb ed="#Ba" n="13"/>quia haecverba sane vult intelligr, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

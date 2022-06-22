@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="773"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h66847"><!-- l4d18a6 -->
+            <head xml:id="alalal-h66847-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-h66847-Hd1e101" type="question-title">An haereticus habens ordinem, etiam
+habeat clavem?</head>
+            <p xml:id="alalal-h66847-d1e104">
+               <lb ed="#Be" n="9"/>ARTICULUS VI.
+<lb ed="#Be" n="10"/>An haereticus habens ordinem, etiam
+<lb ed="#Be" n="11"/>habeat clavem?
+</p>
+            <p xml:id="alalal-h66847-d1e113">
+               <lb ed="#Be" n="12"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="13"/>ibi, B, <quote xml:id="alalal-h66847-Qd1e119"> Certum est, quod Ecclesie
+<lb ed="#Be" n="14"/>utrumque licet, heresis utrumque non
+<lb ed="#Be" n="15"/>habet. </quote>
+            </p>
+            <p xml:id="alalal-h66847-d1e127">
+               <lb ed="#Be" n="16"/>Videtur enim hoc falsum : quia
+<lb ed="#Be" n="17"/>1. In tractatu de Ordine probatur, quod
+<lb ed="#Be" n="18"/>veri ordines sunt etiam qui ab hereticis
+<lb ed="#Be" n="19"/>in forma Ecclesie suscipiuntur: ergo
+<lb ed="#Be" n="20"/>sunt ibi ea quae consequuntur verum 
+or<lb break="no" ed="#Be" n="21"/>dinem : sed claves sunt de 
+consequenti<lb break="no" ed="#Be" n="22"/>bus verum ordinem: ergo videtur, quod
+<lb ed="#Be" n="23"/>heresis habeat claves jurisdictionis.
+</p>
+            <p xml:id="alalal-h66847-d1e148">
+               <lb ed="#Be" n="24"/>2. Adhuc, Verus lapis dicitur, ut 
+ve<lb break="no" ed="#Be" n="25"/>rus homo, et verus asinus, qui habet
+<lb ed="#Be" n="26"/>actum lapidis et hominis et asini: et
+<lb ed="#Be" n="27"/>mortua haec dicuntur, quando carent
+<lb ed="#Be" n="28"/>actibus suis : sed supponatur modo, quod
+<lb ed="#Be" n="29"/>verus Ordo in forma Ecclesie 
+suscipia<lb break="no" ed="#Be" n="30"/>tur inter hereticos: ergo ille ordo habet
+<lb ed="#Be" n="31"/>actum ordinis: sed actus ordinis 
+presby<lb break="no" ed="#Be" n="32"/>teri est actus clavis: ergo videtur, quod
+<lb ed="#Be" n="33"/>habeat actus clavis vel clavium.
+</p>
+            <p xml:id="alalal-h66847-d1e172">
+               <lb ed="#Be" n="34"/>SED CONTRA : .
+<lb ed="#Be" n="35"/>Vadens ad hereticum scienter, peccat
+<lb ed="#Be" n="36"/>mortaliter: ergo non absolvitur: ergo
+<lb ed="#Be" n="37"/>ex parte confitentis non fit in eo actus
+<lb ed="#Be" n="38"/>finalis clavis. Item nec ex parte 
+audien<lb break="no" ed="#Be" n="39"/>tis confessionem : quia ille non habet 
+ju<lb break="no" ed="#Be" n="40"/>risdictionem, et suspensus est, et etiam
+<lb ed="#Be" n="41"/>mortaliter peccat se intromittendo. Ergo
+<lb ed="#Be" n="42"/>ex neutra parte potest ibi salvari actus
+<lb ed="#Be" n="43"/>ordinis : ergo videtur, quod heresis non
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="44"/>habet usum clavium : ergo nec claves, ut
+<lb ed="#Be" n="45"/>videtur, nisi falsas et mortuas: sicut
+<lb ed="#Be" n="46"/>mortuus homo non est homo simpliciter,
+<lb ed="#Be" n="47"/>etsi homo dicatur.
+</p>
+            <p xml:id="alalal-h66847-d1e207">
+               <lb ed="#Be" n="48"/>Responsio. Dicendum in ista 
+que<lb break="no" ed="#Be" n="49"/>stione, quod est potestas clavis ex 
+or<lb break="no" ed="#Be" n="50"/>dine, et est potestas ex jurisdictione:
+<lb ed="#Be" n="51"/>sicut enim supra patuit, omnis actus
+<lb ed="#Be" n="52"/>querit materiam circa quam sit, et illi
+<lb ed="#Be" n="53"/>in clavibus sunt subditi, qui non nisi
+<lb ed="#Be" n="54"/>per jurisdictionem a summo Pontifice
+<lb ed="#Be" n="55"/>descendentem haberi possunt. Dicendum
+<lb ed="#Be" n="56"/>ergo, quod heresis in forma Ecclesia
+<lb ed="#Be" n="57"/>habens ordines, habet claves, secundum
+<lb ed="#Be" n="58"/>quod potestas sumitur ex ordine: sed
+<lb ed="#Be" n="59"/>non habet ex jurisdictione, et ideo 
+exse<lb break="no" ed="#Be" n="60"/>qui nihil omnino potest: et si de facto
+<lb ed="#Be" n="61"/>quidem absolvit, nihil facit omnino: et
+<lb ed="#Be" n="62"/>tamen insuper mortaliter peccaverunt
+<lb ed="#Be" n="63"/>et absolvens, et absolutus, siscienter ad
+<lb ed="#Be" n="64"/>talem accessit : et hoc modo intelligitur
+<lb ed="#Be" n="65"/>hoc quod dictum est in Litéera.
+</p>
+            <p xml:id="alalal-h66847-d1e249">
+               <lb ed="#Be" n="66"/>Ad id quod primo objicitur, dicendum
+<lb ed="#Be" n="67"/>quod Ordinem non consequitur exsecutio
+<lb ed="#Be" n="68"/>clavis, sed. tantum potestas in habente
+<lb ed="#Be" n="69"/>potestatem, sed non potentem agere 
+pro<lb break="no" ed="#Be" n="70"/>pter materiae defectum : quia materia non
+<lb ed="#Be" n="71"/>est homo auditus, sed potius subditus per
+<lb ed="#Be" n="72"/>jurisdictionem a summo Pontifice descen--
+<lb ed="#Be" n="73"/>dentem sibi determinatus: et quoad 
+ul<lb break="no" ed="#Be" n="74"/>timum heresis dicitur in Littera non
+<lb ed="#Be" n="75"/>habere claves: quia exsecutionem non
+<lb ed="#Be" n="76"/>habet.
+</p>
+            <p xml:id="alalal-h66847-d1e275">
+               <lb ed="#Be" n="77"/>Ad aliud dicendum, quod sunt actus
+<lb ed="#Be" n="78"/>essentiales, de quibus hoc verum est
+<lb ed="#Be" n="79"/>quod dicitur in objiciendo, et uli sunt
+<lb ed="#Be" n="80"/>qui consequuntur substantiam, et talem
+<lb ed="#Be" n="81"/>actum bene habet clavis in omni habente
+<lb ed="#Be" n="82"/>ordinem: hic autem actus est. perficere
+<lb ed="#Be" n="83"/>habentem secundum potestatem illam,
+<lb ed="#Be" n="84"/>sicut actus lucis lucere, et actus essentia
+<lb ed="#Be" n="85"/>esse, et est actus scicntiae scientem esse,
+<lb ed="#Be" n="86"/>et potestas clavis polestatem secundum -
+<lb ed="#Be" n="87"/>clavem: sed non est hoc intelligendum
+<lb ed="#Be" n="88"/>de actu, qui est operatio super materiam
+<lb ed="#Be" n="89"/>extra : lapis enim verus, extra 
+etsinum<lb break="no" ed="#Be" n="90"/>quam agit, in aliquid esset, et similiter _
+<lb ed="#Be" n="91"/>homo verus, et hujusmodi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

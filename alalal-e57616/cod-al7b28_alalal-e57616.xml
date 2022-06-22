@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="301"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e57616"><!-- l3d17a2 -->
+            <head xml:id="alalal-e57616-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-e57616-Hd1e101" type="question-title">An in Christo fuerit sensualitas ?</head>
+            <p xml:id="alalal-e57616-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="14"/>ARTICULUS II.
+<lb ed="Bd" n="15"/>An in Christo fuerit sensualitas ?
+</p>
+            <p xml:id="alalal-e57616-d1e113">
+               <lb ed="Bd" n="16"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="17"/>ibi, B, circa initium: <quote xml:id="alalal-e57616-Qd1e119"> Azemana 
+volun<lb break="no" ed="Bd" n="18"/>tas est affectus totius rationis vel affectus
+<lb ed="Bd" n="19"/>sensualitatis. </quote>
+            </p>
+            <p xml:id="alalal-e57616-d1e127">
+               <lb ed="Bd" n="20"/>Queruntur hic quatuor sine quibus
+<lb ed="Bd" n="21"/>iste locus non potest intelligi: quorum
+<lb ed="Bd" n="22"/>primum est, Utrum sensualitas sit vel
+<lb ed="Bd" n="23"/>fuerit in Christo ?
+<lb ed="Bd" n="24"/>Secundo, Utrum sit aliqua voluntas
+<lb ed="Bd" n="25"/>sensualitatis ?
+<lb ed="Bd" n="26"/>Tertio, Utrum voluntas rationis 
+con<lb break="no" ed="Bd" n="27"/>formis fuerit voluntati divine, ut dicit
+<lb ed="Bd" n="28"/>in Littera ?
+<lb ed="Bd" n="29"/>Quarto, de divisione voluntatum 
+Chri<lb break="no" ed="Bd" n="30"/>sti, quas innuit Littera,
+</p>
+            <p xml:id="alalal-e57616-d1e154">
+               <lb ed="Bd" n="31"/>Ad primum sic proceditur :
+<lb ed="Bd" n="32"/>Videtur in Christo non fuisse sensua—
+<lb ed="Bd" n="33"/>litas : quia
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="34"/>i. Dicit <ref xml:id="alalal-e57616-Rd1e167">Augustinus in libro XII de
+<lb ed="Bd" n="35"/>Trinitate</ref>, quod sensualitas est in loco
+<lb ed="Bd" n="36"/>serpentis, in quo incepit primus motus
+<lb ed="Bd" n="37"/>peccati. Cum igitur Christus non habuit
+<lb ed="Bd" n="38"/>aliquem peccati instinctum, videtur in
+<lb ed="Bd" n="39"/>Christo non fuisse sensualitas.
+</p>
+            <p xml:id="alalal-e57616-d1e181">
+               <lb ed="Bd" n="40"/>2. Praeterea, Ad quid esset in ipso ?
+<lb ed="Bd" n="41"/>Meritum enim non ita perficitur tribus
+<lb ed="Bd" n="42"/>gradibus, sensualitatis, inferioris partis
+<lb ed="Bd" n="43"/>rationis, et rationis superioris, 
+quemad<lb break="no" ed="Bd" n="44"/>modum demeritum. Cum ergo ipse non
+<lb ed="Bd" n="45"/>assumpserit nisi ea quae sunt ordinata
+<lb ed="Bd" n="46"/>ad gratiam, et gratia sensualitatem non
+<lb ed="Bd" n="47"/>attingit, videtur quod sensualitatem non
+<lb ed="Bd" n="48"/>assumpserit.
+</p>
+            <p xml:id="alalal-e57616-d1e203">
+               <lb ed="Bd" n="49"/>3. Praeterea, Haec est quae semper
+<lb ed="Bd" n="50"/>pugnat adversus spiritum ; ergo cum in
+<lb ed="Bd" n="51"/>Christo nulla talis pugna fuerit, videtur
+<lb ed="Bd" n="52"/>sensualitatem non habuisse.
+</p>
+            <p xml:id="alalal-e57616-d1e214">
+               <lb ed="Bd" n="53"/>SED CONTRA:
+<lb ed="Bd" n="54"/>Diabolus in Adam sensualitatem non
+<lb ed="Bd" n="55"/>fecit, sed inventam in eo corrupit: ergo
+<lb ed="Bd" n="56"/>cum Christus omnia naturalia nostra 
+as<lb break="no" ed="Bd" n="57"/>sumpserit in corpore et in anima, 
+vide<lb break="no" ed="Bd" n="58"/>tur quod etiam assumpserit 
+sensualita<lb break="no" ed="Bd" n="59"/>tem.
+</p>
+            <p xml:id="alalal-e57616-d1e232">
+               <cb ed="#Bd" n="d"/>
+               <lb ed="Bd" n="60"/>Item, Augustinus : <quote xml:id="alalal-e57616-Qd1e238"> Sensualitas est
+<pb ed="#Bd" n="302"/>
+                  <cb ed="#Bd" n="a"/>
+                  <lb ed="Bd" n="1"/>motus animae, qui intenditur in quinque
+<lb ed="Bd" n="2"/>corporis sensus:</quote> constat autem, quod
+<lb ed="Bd" n="3"/>Christus hujusmodi motum habuit: ergo
+<lb ed="Bd" n="4"/>habuit sensualitatem.
+</p>
+            <p xml:id="alalal-e57616-d1e254">
+               <lb ed="Bd" n="5"/>Solutio Ultimis rationibus 
+consen<lb break="no" ed="Bd" n="6"/>tienduin est, quod Christus habuit 
+sen<lb break="no" ed="Bd" n="7"/>sualitatem, quee est vis anime sensibilis
+<lb ed="Bd" n="8"/>desiderii intenta in ea quae conferunt ad
+<lb ed="Bd" n="9"/>salulem nature, et intenta in ea quae
+<lb ed="Bd" n="10"/>conferunt sensibus ad presentandum.,
+</p>
+            <p xml:id="alalal-e57616-d1e271">
+               <lb ed="Bd" n="11"/>Ad primum autem dicendum, quod 
+Au<lb break="no" ed="Bd" n="12"/>gustinus loquitur de sensualitate non 
+se<lb break="no" ed="Bd" n="13"/>cundum naturam, sed secundum 
+corru<lb break="no" ed="Bd" n="14"/>ptionem quae accidit ex peccato: et cum
+<lb ed="Bd" n="15"/>Christus non accepit pecceatum, non 
+ac<lb break="no" ed="Bd" n="16"/>cepil etiam illam corruptionem.
+</p>
+            <p xml:id="alalal-e57616-d1e287">
+               <lb ed="Bd" n="17"/>Ad aliud dicendum, quod fuit in ipso
+<lb ed="Bd" n="18"/>ad demonstrationem integritatis nature
+<lb ed="Bd" n="19"/>nostre: et ut nostra corrupta 
+sensuali<lb break="no" ed="Bd" n="20"/>tas, per assumiptam suam incorruptam
+<lb ed="Bd" n="21"/>curaretur: quia non est curabile, ut 
+di<lb break="no" ed="Bd" n="22"/>cit Damascenus, nisi quod est 
+assum<lb break="no" ed="Bd" n="23"/>ptibile.
+</p>
+            <p xml:id="alalal-e57616-d1e305">
+               <lb ed="Bd" n="24"/>Ad aliud dicendum, quod non ex sua
+<lb ed="Bd" n="25"/>natura pugnat adversus spiritum, sed in
+<lb ed="Bd" n="26"/>quantum est corrupta peccato: et sic
+<lb ed="Bd" n="27"/>Christus non accepit eam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

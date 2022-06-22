@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="302"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e57837"><!-- l3d17a3 -->
+            <head xml:id="alalal-e57837-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-e57837-Hd1e101" type="question-title">An voluntas aliqua sit sensualitatis ?</head>
+            <p xml:id="alalal-e57837-d1e104">
+               <lb ed="Bd" n="28"/>ARTICULUS III.
+<lb ed="Bd" n="29"/>An voluntas aliqua sit sensualitatis ?
+</p>
+            <p xml:id="alalal-e57837-d1e111">
+               <lb ed="Bd" n="30"/>Secundo quaeritur, Utrum aliqua 
+vo<lb break="no" ed="Bd" n="31"/>luntas sit sensualitatis ?
+</p>
+            <p xml:id="alalal-e57837-d1e118">
+               <lb ed="Bd" n="32"/>Videtur autem, quod non: quia dicit
+<lb ed="Bd" n="33"/>Philosophus in Zopicis, quod omnis 
+vo<lb break="no" ed="Bd" n="34"/>luntas est in ratione.
+</p>
+            <p xml:id="alalal-e57837-d1e128">
+               <lb ed="Bd" n="35"/>Item, Philosophus in III de Anima:
+<lb ed="Bd" n="36"/>
+               <quote xml:id="alalal-e57837-Qd1e134">In rationali voluntas fit, in irrationali
+<lb ed="Bd" n="37"/>autem desiderium et animus. </quote> Ergo 
+vi<lb break="no" ed="Bd" n="38"/>detur, quod nihil sit quod dicit unam
+<lb ed="Bd" n="39"/>voluntatem sensualitatis in Christo
+<lb ed="Bd" n="40"/>fuisse.
+</p>
+            <p xml:id="alalal-e57837-d1e147">
+               <lb ed="Bd" n="41"/>Si forte diceres, quod hoc est animal
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="42"/>secundum proprietatem Graci idiomatis,
+<lb ed="Bd" n="43"/>in quo non dicitur voluntas nisi rationis
+<lb ed="Bd" n="44"/>affectus. Contra : Auguslinus in libro de
+<lb ed="Bd" n="45"/>Trinitaée dicit: <quote xml:id="alalal-e57837-Qd1e162"> Cause voluntaria aut
+<lb ed="Bd" n="46"/>Dei sunt, aut Angelorum, aul hominum,
+<lb ed="Bd" n="47"/>aut quorumcumque animalium, si lamen
+<lb ed="Bd" n="48"/>voluntates appellandi sunt animalium
+<lb ed="Bd" n="49"/>rationis expertium motus illi quibus
+<lb ed="Bd" n="50"/>aliqua faciunt secundum naturam suam,
+<lb ed="Bd" n="51"/>cum quid vel appetunt, vel evitant. </quote>
+[kx hoc patlet, quod abusive sensualitatis
+<lb ed="Bd" n="52"/>divitur voluntas.
+</p>
+            <p xml:id="alalal-e57837-d1e181">
+               <lb ed="Bd" n="53"/>Solutio Dicitur, quod voluntas 
+su<lb break="no" ed="Bd" n="54"/>milur large, et stricte. Stricte non dicitur
+<lb ed="Bd" n="55"/>voluntas, sicut volunt auctoritales, nisi
+<lb ed="Bd" n="56"/>motus et appelitus rationalis. Large
+<lb ed="Bd" n="57"/>etiam dicitur voluntas appetitus 
+sensua<lb break="no" ed="Bd" n="58"/>litatis humane. Sed omnis abusive 
+di<lb break="no" ed="Bd" n="59"/>citur voluntas appetitus brutorum. Unde
+<lb ed="Bd" n="60"/>Joannes Damascenus dicit, quod 
+volun<lb break="no" ed="Bd" n="61"/>tas rationalis est: et si non est 
+rationa<lb break="no" ed="Bd" n="62"/>lis, non est voluntas: voluntas enim 
+di<lb break="no" ed="Bd" n="63"/>cit id quod liberrimum est in anima: et
+<lb ed="Bd" n="64"/>ideo nature sensibili quae magis agitur
+<lb ed="Bd" n="65"/>imperio rationis vel nature instinctu,
+<lb ed="Bd" n="66"/>quam agat, non potest dici proprie 
+vo<lb break="no" ed="Bd" n="67"/>luntas inesse.
+</p>
+            <p xml:id="alalal-e57837-d1e216">
+               <lb ed="Bd" n="68"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

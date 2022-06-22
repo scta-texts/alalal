@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="104"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i21065"><!-- l4d26a6 -->
+            <head xml:id="alalal-i21065-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-i21065-Hd1e101" type="question-title">An in paradiso [uissent nuptiae et 
+matrimonium ?</head>
+            <p xml:id="alalal-i21065-d1e104">
+               <lb ed="#Bf" n="39"/>ARTICULUS VI.
+<lb ed="#Bf" n="40"/>An in paradiso [uissent nuptiae et 
+ma<lb break="no" ed="#Bf" n="41"/>trimonium ?
+</p>
+            <p xml:id="alalal-i21065-d1e113">
+               <lb ed="#Bf" n="42"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bf" n="43"/>B, paulo post intlium : <quote xml:id="alalal-i21065-Qd1e119"> Udi esset thorus
+<cb ed="#Bf" n="b"/>
+                  <lb ed="#Bf" n="44"/>immaculatus, et nuptiae honorabiles,
+<lb ed="#Bf" n="45"/>etc, </quote>
+            </p>
+            <p xml:id="alalal-i21065-d1e129">
+               <lb ed="#Bf" n="46"/>1. Dicit enim Augustinus in libro de
+<lb ed="#Bf" n="47"/>Bono conjugii, quod nuptiae bonum sunt
+<lb ed="#Bf" n="48"/>wortalium : sed in paradiso erant 
+homi<lb break="no" ed="#Bf" n="49"/>nes immortales : ergo non fuissent 
+nup<lb break="no" ed="#Bf" n="50"/>tiae in paradiso.
+</p>
+            <p xml:id="alalal-i21065-d1e143">
+               <lb ed="#Bf" n="51"/>2. Item, Joannes Damascenus dicit
+<lb ed="#Bf" n="52"/>quod si homo non peccasset, immortalis
+<lb ed="#Bf" n="53"/>remansisset : ergo non per nuptias, sed
+<lb ed="#Bf" n="54"/>aliter fuisset propagata natura humana :
+<lb ed="#Bf" n="55"/>ergo falsum est quod dicit Augustinus in
+<lb ed="#Bf" n="56"/>Liitera.
+</p>
+            <p xml:id="alalal-i21065-d1e159">
+               <lb ed="#Bf" n="57"/>3. Item, Secundum omnem naturam,
+<lb ed="#Bf" n="58"/>habens salutem in se perpetuam, 
+num<lb break="no" ed="#Bf" n="59"/>quam querit perpetuariin altero ejusdem
+<lb ed="#Bf" n="60"/>speciei : sed si homo immortalis 
+reman<lb break="no" ed="#Bf" n="61"/>sisset, ipse haberet esse perpetuum 
+sal<lb break="no" ed="#Bf" n="62"/>vatum in seipso : ergo non 
+quereret_per<lb break="no" ed="#Bf" n="63"/>peluari in alio : ergo non fuissent 
+nup<lb break="no" ed="#Bf" n="64"/>ti, quia nuptiae in paradiso non fuissent
+<lb ed="#Bf" n="65"/>nisi propter illud.
+</p>
+            <p xml:id="alalal-i21065-d1e181">
+               <lb ed="#Bf" n="66"/>4, Item, Nihil quierit in alio, quod 
+ha<lb break="no" ed="#Bf" n="67"/>bet nobilius in seipso : sed hane 
+perma<lb break="no" ed="#Bf" n="68"/>nentiam habens in seipso, nobilius habet,
+<lb ed="#Bf" n="69"/>quam qui habet eam in alio: ergo 
+ha<lb break="no" ed="#Bf" n="70"/>bens cam in seipso non querit eam in
+<lb ed="#Bf" n="71"/>alio : sed homo si non peccasset, 
+habuis<lb break="no" ed="#Bf" n="72"/>set eam in seipso : ergo non quesivissct
+<lb ed="#Bf" n="73"/>eam in alio, scilicet in filiis per 
+foecundi<lb break="no" ed="#Bf" n="74"/>tatem.
+</p>
+            <p xml:id="alalal-i21065-d1e203">
+               <lb ed="#Bf" n="75"/>Ix contranivm hujus est, quod
+<lb ed="#Bf" n="76"/>1. Secundam naturam omne illud 
+cu<lb break="no" ed="#Bf" n="77"/>jus tota materia non est intra, 
+multipli<lb break="no" ed="#Bf" n="78"/>cat se per individua, ut materiam inducat
+<lb ed="#Bf" n="79"/>sub formam suam : sed hominis materia
+<lb ed="#Bf" n="80"/>non tota fuit intra : ergo multiplicasset
+<lb ed="#Bf" n="81"/>se per generationem  individuorum.
+<lb ed="#Bf" n="82"/>Pruota constat ex disputatis ab Aristotele
+<lb ed="#Bf" n="83"/>in primo libro de Celo et mundo. 
+Sx<lb break="no" ed="#Bf" n="84"/>cunpa probatur per hoc, quod id quod
+<lb ed="#Bf" n="85"/>totam materiam habet intra, impossibile
+<lb ed="#Bf" n="86"/>est multiplicari per individua : homo 
+au<lb break="no" ed="#Bf" n="87"/>tem est multiplicatus.
+</p>
+            <p xml:id="alalal-i21065-d1e234">
+               <lb ed="#Bf" n="88"/>Si forte dicatur, sicut Damascenus 
+vi<lb break="no" ed="#Bf" n="89"/>detur sentire, quod aliter quam per 
+com<lb break="no" ed="#Bf" n="90"/>mixtionem sexus fuisset facta 
+propaga<lb break="no" ed="#Bf" n="91"/>tio. Contra : Sexus a Domino in 
+para<lb break="no" ed="#Bf" n="92"/>diso discretus creatus est. Cum igitur
+<pb ed="#Bf" n="105"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>omnis sapiens finem determinatum 
+inten<lb break="no" ed="#Bf" n="2"/>dat in opere suo, ipse finem discreti 
+se<lb break="no" ed="#Bf" n="3"/>xus intendit : non est autem nisi 
+com<lb break="no" ed="#Bf" n="4"/>mixtio : masculus enim est qui generat
+<lb ed="#Bf" n="5"/>in alio ex se semine proprio, foemina 
+au<lb break="no" ed="#Bf" n="6"/>tem in se ex alio, ut dicit Philosophus :
+<lb ed="#Bf" n="7"/>ideo videtur, quod tunc commixti 
+fuis<lb break="no" ed="#Bf" n="8"/>sent,
+</p>
+            <p xml:id="alalal-i21065-d1e269">
+               <lb ed="#Bf" n="9"/>2. Item, Per litteram Genes. 1, 20 et
+<lb ed="#Bf" n="10"/>seq., patet quod Heva Ade facta est in
+<lb ed="#Bf" n="11"/>adjutorium : constat autem, quod non in
+<lb ed="#Bf" n="12"/>adjutorium vite, aut operationum : quia
+<lb ed="#Bf" n="13"/>non habuit indigentiam tunc homo, 
+pre<lb break="no" ed="#Bf" n="14"/>cipue cum vir viro magis cooperaretur
+<lb ed="#Bf" n="15"/>ad vitam et operationes, quam mulier
+<lb ed="#Bf" n="16"/>viro : ergo relinquitur, quod facta fuerit
+<lb ed="#Bf" n="17"/>in adjutorium generationis : sed in 
+di<lb break="no" ed="#Bf" n="18"/>verso sexu juvare non potuit, nisi per 
+se<lb break="no" ed="#Bf" n="19"/>xus commixtionem : ergo videtur, quod.
+<lb ed="#Bf" n="20"/>tunc ut nunc quoad hoc fuisset 
+propaga<lb break="no" ed="#Bf" n="21"/>tio.
+</p>
+            <p xml:id="alalal-i21065-d1e301">
+               <lb ed="#Bf" n="22"/>Responsio. Dicendum, quod quoad
+<lb ed="#Bf" n="23"/>commixtionem sexus idem fuisset modus
+<lb ed="#Bf" n="24"/>propagationis tunc, ut nune.
+</p>
+            <p xml:id="alalal-i21065-d1e310">
+               <lb ed="#Bf" n="25"/>Ad primum ergo dicendum, quod 
+di<lb break="no" ed="#Bf" n="26"/>ctum Augustini intelligitur secundum 
+na<lb break="no" ed="#Bf" n="27"/>turam mortalium in statu animali : 
+ho<lb break="no" ed="#Bf" n="28"/>mo enim secundum naturam quidem
+<lb ed="#Bf" n="29"/>semper fuit mortalis etiam in paradiso,
+<lb ed="#Bf" n="30"/>sed per gratiam innocentiae habuit 
+im<lb break="no" ed="#Bf" n="31"/>mortalitatem, ut disputatum invenire
+<lb ed="#Bf" n="32"/>quis potest in fine secundi 
+Sententia<lb break="no" ed="#Bf" n="33"/>rum.
+</p>
+            <p xml:id="alalal-i21065-d1e332">
+               <lb ed="#Bf" n="34"/>Ad aliud dicendum, quod Damascenus
+<lb ed="#Bf" n="35"/>non refert dissimilitudinem ad actum
+<lb ed="#Bf" n="36"/>commixtionis, sed ad conjunctum quod
+<lb ed="#Bf" n="37"/>est corruptio in conceptu, gravitas in
+<lb ed="#Bf" n="38"/>impregnatione, et dolor in partu.
+</p>
+            <p xml:id="alalal-i21065-d1e345">
+               <lb ed="#Bf" n="39"/>Ad aliud dicendum, quod Philosophus
+<lb ed="#Bf" n="40"/>loquitur de incorruptibilibus secundum
+<lb ed="#Bf" n="41"/>naturam : et haec non sunt nisi ea quae
+<lb ed="#Bf" n="42"/>natura elongavit a contrarietate et 
+muta<lb break="no" ed="#Bf" n="43"/>tione : et talis per naturam non fuit 
+ho<lb break="no" ed="#Bf" n="44"/>mo in primo statu, sed ex gratia, ut 
+di<lb break="no" ed="#Bf" n="45"/>ctum est.
+</p>
+            <p xml:id="alalal-i21065-d1e363">
+               <lb ed="#Bf" n="46"/>Per idem patet solutio ad sequens :
+<lb ed="#Bf" n="47"/>verum est enim, quod talia naturaliter
+<lb ed="#Bf" n="48"/>incorruptibilia, non querunt salvari vel
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="49"/>multiplicari secundum speciem, nisi in
+<lb ed="#Bf" n="50"/>individuis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

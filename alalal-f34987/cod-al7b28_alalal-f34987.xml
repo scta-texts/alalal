@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="694"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f34987"><!-- l3d37a7 -->
+            <head xml:id="alalal-f34987-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-f34987-Hd1e101" type="question-title">An observatio sabbati sit cerimonialis
+vel moralis ? et, Quare sabbatum 
+cessavit ? et, An dies dominica successit
+sabbato ? et, Quis sit modus observandi
+sabbatum ? et, Quare usus est novo
+modo loguendi, dicens: Memento ut
+diem sabbati sanctifices ?</head>
+            <p xml:id="alalal-f34987-d1e104">
+               <pb ed="#Bd" n="694"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ARTICULUS VII.
+<lb ed="Bd" n="2"/>An observatio sabbati sit cerimonialis
+<lb ed="Bd" n="3"/>vel moralis ? et, Quare sabbatum 
+ces<lb break="no" ed="Bd" n="4"/>savit ? et, An dies dominica successit
+<lb ed="Bd" n="5"/>sabbato ? et, Quis sit modus observandi
+<lb ed="Bd" n="6"/>sabbatum ? et, Quare usus est novo
+<lb ed="Bd" n="7"/>modo loguendi, dicens: Memento ut
+<lb ed="Bd" n="8"/>diem sabbati sanctifices ?
+</p>
+            <p xml:id="alalal-f34987-d1e128">
+               <lb ed="Bd" n="9"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="10"/>ibi, B, § 3: <quote xml:id="alalal-f34987-Qd1e134"> Memento ut diem, etc. </quote>
+            </p>
+            <p xml:id="alalal-f34987-d1e137">
+               <lb ed="Bd" n="11"/>Et quaeritur, Utrum haec observatio
+<lb ed="Bd" n="12"/>sabbati sit cerimonialis, vel moralis ?
+</p>
+            <p xml:id="alalal-f34987-d1e145">
+               <lb ed="Bd" n="13"/>Videtur autem, quod sit 
+cerimonia<lb break="no" ed="Bd" n="14"/>lis: quia
+  <lb ed="Bd" n="15"/>1. Ita dicitur, Ezechiel. xx, 12: <quote xml:id="alalal-f34987-Qd1e153"
+                      source="http://scta.info/resource/ez20_12@3-20">Sabbata
+<lb ed="Bd" n="16"/>mea dedi eis, ut essent signum inter
+<lb ed="Bd" n="17"/>me et eos</quote>. Cerimonialia autem sunt,
+<lb ed="Bd" n="18"/>quorum usus totus est in signando, ut
+<lb ed="Bd" n="19"/>dicit Magister in libro I Sententiarum':
+<lb ed="Bd" n="20"/>ergo videtur, quod observatio sabbati sit
+<lb ed="Bd" n="21"/>cerimonialis.
+</p>
+            <p xml:id="alalal-f34987-d1e170">
+               <lb ed="Bd" n="22"/>Si forte dicas, quod non totus usus
+<lb ed="Bd" n="23"/>sabbati est in signando. Conrra : 
+Augusti<lb break="no" ed="Bd" n="24"/>nus ita dicit in libro de Decem chordis:
+<lb ed="Bd" n="25"/>
+               <quote xml:id="alalal-f34987-Qd1e180"> Tibi autem dicitur ut observes sabbatum
+<lb ed="Bd" n="26"/>specialiter in spe future quietis, quam
+<lb ed="Bd" n="27"/>tibi promittit Deus: quisquis enim 
+pro<lb break="no" ed="Bd" n="28"/>pter illam quietem agit quidquid potest,
+<lb ed="Bd" n="29"/>quamvis laboriosum videatur quod agit,
+<lb ed="Bd" n="30"/>tamen si ad fidem quietis pramisse 
+re<lb break="no" ed="Bd" n="31"/>fertur illud quod agit, nondum quidem
+<lb ed="Bd" n="32"/>habet sabbatum in re, sed in spe habet. </quote>
+               <lb ed="Bd" n="33"/>Ergo videtur, quod totum sit in signum
+<lb ed="Bd" n="34"/>futuri.
+</p>
+            <p xml:id="alalal-f34987-d1e204">
+               <lb ed="Bd" n="35"/>2. Item, Augustinus in libro 1V super
+<lb ed="Bd" n="36"/>Genesim, tractans illud verbum : 
+Requie<lb break="no" ed="Bd" n="37"/>vit Deus die septimo, etc. ?, dicit sic:
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="38"/>
+               <quote xml:id="alalal-f34987-Qd1e217"> Probabiliter dici potest observandum
+<lb ed="Bd" n="39"/>sabbatum Judeis fuisse praeceptum jp
+<lb ed="Bd" n="40"/>umbra futuri: quae spiritualem requiem
+<lb ed="Bd" n="41"/>figuraret, quam Deus exemplo hujus
+<lb ed="Bd" n="42"/>quietis suis fidelibus bona opera facien.
+<lb ed="Bd" n="43"/>tibus arcana significatione pollicebatur,
+<lb ed="Bd" n="44"/>Cujus quietis et Dominus noster Jesus
+<lb ed="Bd" n="45"/>Christus, qui non nisi quando voluit
+<lb ed="Bd" n="46"/>passus est, etiam sepultura sua mysterium
+<lb ed="Bd" n="47"/>confirmavit. </quote> Ex hoc iterum expresse
+<lb ed="Bd" n="48"/>sumitur, quod observatio sabbati est 
+ce<lb break="no" ed="Bd" n="49"/>rimonialis, et non moralis.
+</p>
+            <p xml:id="alalal-f34987-d1e244">
+               <lb ed="Bd" n="50"/>3. Item, Augustinus, infra in eodem
+<lb ed="Bd" n="51"/>libro: <quote xml:id="alalal-f34987-Qd1e250"> Jam tempore gratiae revelata,
+<lb ed="Bd" n="52"/>observatio illa sabbati quae unius diei 
+vo<lb break="no" ed="Bd" n="53"/>catione figurabatur, ablata est ab 
+obser<lb break="no" ed="Bd" n="54"/>vatione fidelium. In ea quippe gratia
+<lb ed="Bd" n="55"/>perpetuum sabbatum jam observat, qui
+<lb ed="Bd" n="56"/>spe future quietis operatur quidquid boni
+<lb ed="Bd" n="57"/>operatur, nec in ipsis operibus suis quasi
+<lb ed="Bd" n="58"/>habens bonum, quod non acceperit, 
+glo<lb break="no" ed="Bd" n="59"/>riatur: ita enim tamquam diem _ sabbati,
+<lb ed="Bd" n="60"/>hoc est, dominice cessationis in 
+sepultu<lb break="no" ed="Bd" n="61"/>ra suscipiens atque intelligens baptismi
+<lb ed="Bd" n="62"/>sacramentum, quiescit a pristinis 
+operi<lb break="no" ed="Bd" n="63"/>bus suis, ut jamin novitate vite 
+ambu<lb break="no" ed="Bd" n="64"/>lans, Deum in se operari cognoscat, qui
+<lb ed="Bd" n="65"/>simul operatur et quiescit, et creature
+<lb ed="Bd" n="66"/>prebens congruam gubernationem, et
+<lb ed="Bd" n="67"/>apud se habens aeternam 
+tranquillita<lb break="no" ed="Bd" n="68"/>tem. </quote> Ex hoc accipitur idem quod
+<lb ed="Bd" n="69"/>prius.
+</p>
+            <p xml:id="alalal-f34987-d1e292">
+               <lb ed="Bd" n="70"/>Sed contra hoc objicitur: quia
+<lb ed="Bd" n="71"/>1. Nihil venit in eamdem divisionem
+<lb ed="Bd" n="72"/>alicujus, nisi quod cum aliis 
+condividen<lb break="no" ed="Bd" n="73"/>tibus est ejusdem generis : sed 
+observa<lb break="no" ed="Bd" n="74"/>tio sabbati cum aliis moralibus venit
+<lb ed="Bd" n="75"/>in eamdem divisionem: ergo cum 
+eis<lb break="no" ed="Bd" n="76"/>dem est ejusdem generis: cum igitur
+<lb ed="Bd" n="77"/>illa sint de genere moralium, videtur
+<lb ed="Bd" n="78"/>etiam quod observatio sabbati sit de 
+ge<lb break="no" ed="Bd" n="79"/>nere moralium.
+</p>
+            <p xml:id="alalal-f34987-d1e316">
+               <lb ed="Bd" n="80"/>2. Item, Supra habitum est, quod 
+se<lb break="no" ed="Bd" n="81"/>cundum opinionem quorumdam Magi-
+<pb ed="#Bd" n="695"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>strorum haec omnia praecepta ideo 
+loque<lb break="no" ed="Bd" n="2"/>batur Dominus audiente populo, quia
+<lb ed="Bd" n="3"/>erant de lege naturali quae accedit ad
+<lb ed="Bd" n="4"/>communem notitiam omnium: illud 
+au<lb break="no" ed="Bd" n="5"/>tem praeceptum inter alia coram populo
+<lb ed="Bd" n="6"/>loquebatur : ergo est de lege naturali:
+<lb ed="Bd" n="7"/>nihil autem est de lege naturali nisi
+<lb ed="Bd" n="8"/>quod pure est morale: ergo illud 
+pre<lb break="no" ed="Bd" n="9"/>ceptum pure morale est, ut videtur.
+</p>
+            <p xml:id="alalal-f34987-d1e348">
+               <lb ed="Bd" n="10"/>3, ftem, Isa. tvur per totum caput,
+<lb ed="Bd" n="11"/>nihil dicit nisi moralia: et in fine 
+sub<lb break="no" ed="Bd" n="12"/>jungit de sabbato, dicens: Si averteris a
+<lb ed="Bd" n="13"/>sabbato pedem tuum, facere voluntatem
+<lb ed="Bd" n="14"/>tuam in die saneto meo: et vocaveris
+<lb ed="Bd" n="15"/>sabbatum delicatum, etc. '. Ergo 
+vide<lb break="no" ed="Bd" n="16"/>tur, quod etiam istud sit morale.
+</p>
+            <p xml:id="alalal-f34987-d1e366">
+               <lb ed="Bd" n="17"/>4. Item, Omnium antiquorum 
+sen<lb break="no" ed="Bd" n="18"/>tentia est, quod decem praecepta sunt
+<lb ed="Bd" n="19"/>moralia: sed si praeceptum de sabbato
+<lb ed="Bd" n="20"/>non sit morale, non sunt nisi novem:
+<lb ed="Bd" n="21"/>ergo praeceptum de sabbato est de 
+mora<lb break="no" ed="Bd" n="22"/>libus.
+</p>
+            <p xml:id="alalal-f34987-d1e382">
+               <lb ed="Bd" n="23"/>Urrerius quaeritur, Si praeceptum de
+<lb ed="Bd" n="24"/>sabbato est secundum aliquid 
+cerimo<lb break="no" ed="Bd" n="25"/>niale, quare ipsum cessavit ?
+</p>
+            <p xml:id="alalal-f34987-d1e391">
+               <lb ed="Bd" n="26"/>Videtur enim, quod cessare non 
+de<lb break="no" ed="Bd" n="27"/>buit quantum ad diei taxationem: quia
+</p>
+            <p xml:id="alalal-f34987-d1e398">
+               <lb ed="Bd" n="28"/>1. Thurificatio non cessavit, ut dicunt
+<lb ed="Bd" n="29"/>Sancti et Magistri, quia significat id
+<lb ed="Bd" n="30"/>quod semper faciendum est,  scilicet
+<lb ed="Bd" n="31"/>devolionem orationis. Ergo a simili 
+sab<lb break="no" ed="Bd" n="32"/>bati observatio cessare non debuit, quia
+<lb ed="Bd" n="33"/>signat id quod semper faciendum est,
+<lb ed="Bd" n="34"/>scilicet cessare a vitiis et operari bona
+<lb ed="Bd" n="35"/>in spe future quietis, ut accipitur a 
+ver<lb break="no" ed="Bd" n="36"/>bis Augustini prius inductis.
+</p>
+            <p xml:id="alalal-f34987-d1e420">
+               <lb ed="Bd" n="37"/>2. Item, Decimae non cessaverunt,
+<lb ed="Bd" n="38"/>quia signant id quod semper faciendum
+<lb ed="Bd" n="39"/>est, ut dicunt Sancti: ergo nec 
+sabba<lb break="no" ed="Bd" n="40"/>tum.
+</p>
+            <p xml:id="alalal-f34987-d1e432">
+               <lb ed="Bd" n="41"/>Uurerius quaeritur, Utrum dies 
+domi<lb break="no" ed="Bd" n="42"/>nica successit sabbato ?
+</p>
+            <p xml:id="alalal-f34987-d1e439">
+               <lb ed="Bd" n="43"/>Videtur, quod sic: quia
+<lb ed="Bd" n="44"/>1. Similiter in nova lege observatur
+<lb ed="Bd" n="45"/>sicut sabbatum in veteri.
+</p>
+            <p xml:id="alalal-f34987-d1e448">
+               <lb ed="Bd" n="46"/>2. Item, Sancti dicunt, quod patres
+<lb ed="Bd" n="47"/>Veteris Testamenti servicbant 
+hebdo<lb break="no" ed="Bd" n="48"/>madi: patres autem Novi Testamenti
+<lb ed="Bd" n="49"/>serviunl ocdomadi: octava autem dies
+<lb ed="Bd" n="50"/>est dies dominica: ergo videtur, quod
+<lb ed="Bd" n="51"/>mutata septima fuerit in octavam.
+</p>
+            <p xml:id="alalal-f34987-d1e464">
+               <lb ed="Bd" n="52"/>3. Item, Hoc videtur velle 
+Hierony<lb break="no" ed="Bd" n="53"/>mus in Prowmio galeato, ubi dicit, quod
+<lb ed="Bd" n="54"/>Paulus mansit apud Petrum  diebus
+<lb ed="Bd" n="55"/>quindecim : hoc enim mysterio 
+ocdoma<lb break="no" ed="Bd" n="56"/>dis et hebdomadis futurus Gentium 
+pra<lb break="no" ed="Bd" n="57"/>dicator instruendus erat.
+</p>
+            <p xml:id="alalal-f34987-d1e480">
+               <lb ed="Bd" n="58"/>Sed st Hoc concedatur, videtur esse
+<lb ed="Bd" n="59"/>contra: quia septima est de institutione
+<lb ed="Bd" n="60"/>divina : nulla autem institutio divma 
+le<lb break="no" ed="Bd" n="61"/>gitur facta de oclava: in hominis autem
+<lb ed="Bd" n="62"/>ausu non videtur hoc fuisse, quod 
+mu<lb break="no" ed="Bd" n="63"/>taret hoc quod constituit Deus: ergo 
+vi<lb break="no" ed="Bd" n="64"/>detur, quod non mutata sit una
+<lb ed="Bd" n="65"/>aliam.
+</p>
+            <p xml:id="alalal-f34987-d1e500">
+               <lb ed="Bd" n="66"/>Uxrerius iterum quaeritur de modo
+<lb ed="Bd" n="67"/>observandi sabbatum, a quibus 
+operi<lb break="no" ed="Bd" n="68"/>bus sit abstinendum in feriatis diebus ?
+<lb ed="Bd" n="69"/>Et iste articulus est ulilitas istius 
+que<lb break="no" ed="Bd" n="70"/>stionis quoad consilia.
+</p>
+            <p xml:id="alalal-f34987-d1e514">
+               <lb ed="Bd" n="71"/>Et objicitur sic:
+<lb ed="Bd" n="72"/>1. Augustinus dicitin hbro de Decem
+<lb ed="Bd" n="73"/>chordis : <quote xml:id="alalal-f34987-Qd1e522"> Dicitur tibi ut spiritualiter
+<lb ed="Bd" n="74"/>observes sabbatum, non quomodo Judei
+<lb ed="Bd" n="75"/>observant carnali otio: vacare enim 
+vo<lb break="no" ed="Bd" n="76"/>lunt ad nugas atque luxurias suas: 
+me<lb break="no" ed="Bd" n="77"/>lius enim faceret Judeus siin agro suo
+<lb ed="Bd" n="78"/>aliquid atilius faceret, quam in theatro
+<lb ed="Bd" n="79"/>seditiosus existeret: et melius foemine
+<lb ed="Bd" n="80"/>eorum in die sabbati lanam facerent,
+<lb ed="Bd" n="81"/>quam toto die in neomeniis suis 
+impu<lb break="no" ed="Bd" n="82"/>dice saltarent. Tibi autem dicitur ut 
+ob<lb break="no" ed="Bd" n="83"/>serves spiritualiter diem sabbati in spe
+<lb ed="Bd" n="84"/>futures quietis operando. </quote> Ergo videtur,
+<lb ed="Bd" n="85"/>quod sabbatum non violatur nisi per
+<lb ed="Bd" n="86"/>opus quod non potest referri ad aeternam
+<lb ed="Bd" n="87"/>quietem: hoc autem solum peccatum
+<lb ed="Bd" n="88"/>est: ergo alia operando non peccant 
+ho<lb break="no" ed="Bd" n="89"/>mines in feriis Ecclesia.
+</p>
+            <p xml:id="alalal-f34987-d1e560">
+               <lb ed="Bd" n="90"/>2. Item, Sancti dicunt, quod a 
+servili<lb break="no" ed="Bd" n="91"/>bus operibus in feriatis diebus abstinen-
+<pb ed="#Bd" n="696"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>dum est. servilia autem non sunt nisi
+<lb ed="Bd" n="2"/>repugnantia libertati spiritus: haec 
+au<lb break="no" ed="Bd" n="3"/>tem sunt sola peccata: ergo sufficit 
+abs<lb break="no" ed="Bd" n="4"/>tinere ab illis.
+</p>
+            <p xml:id="alalal-f34987-d1e580">
+               <lb ed="Bd" n="5"/>Sed contra sunt decreta Sanctorum et
+<lb ed="Bd" n="6"/>consuetudo Ecclesia, quae pracipit 
+abs<lb break="no" ed="Bd" n="7"/>tinere ab operibus corporalibus, quae
+<lb ed="Bd" n="8"/>non sunt peccata.
+</p>
+            <p xml:id="alalal-f34987-d1e591">
+               <lb ed="Bd" n="9"/>Uxrraivs quaeritur, Quare utitur novo
+<lb ed="Bd" n="10"/>modo loquendi in isto mandato cum 
+di<lb break="no" ed="Bd" n="11"/>cit: Memento ut diem sabbati 
+sanctifi<lb break="no" ed="Bd" n="12"/>ces ? Non enim meminimus nisi 
+praeteri<lb break="no" ed="Bd" n="13"/>torum: cum igitur omnia mandata 
+de<lb break="no" ed="Bd" n="14"/>calogi sint etiam de lege naturali quae
+<lb ed="Bd" n="15"/>precessit scriptam, sicut et praeceptum
+<lb ed="Bd" n="16"/>de sabbato vel plusquam istud, videtur
+<lb ed="Bd" n="17"/>quod in omnibus aliis magis debuit uti
+<lb ed="Bd" n="18"/>verbo memorandi quam in isto : ettamen
+<lb ed="Bd" n="19"/>in nullo aliorum usus est verbo illo.
+</p>
+            <p xml:id="alalal-f34987-d1e617">
+               <lb ed="Bd" n="20"/>Solutio Dicendum sine prejudicio ad
+<lb ed="Bd" n="21"/>primum, quod non dicit, dAfemento ut
+<lb ed="Bd" n="22"/>diem sabbati observes: sed, Memento ut
+<lb ed="Bd" n="23"/>diem sabbati sanctifices. Sanctificatio 
+au<lb break="no" ed="Bd" n="24"/>tem sonat munditiam quietis: et ideo
+<lb ed="Bd" n="25"/>dicendum, quod praeceptum de sabbato
+<lb ed="Bd" n="26"/>sanctificando quoad sanctificationem est
+<lb ed="Bd" n="27"/>morale, et quoad observationis modum
+<lb ed="Bd" n="28"/>fuit cerimoniale. Et ut hoc intelligatur,
+<lb ed="Bd" n="29"/>distnguendum est per hunc modum.
+<lb ed="Bd" n="30"/>Sabbatum quies interpretatur: et 
+secun<lb break="no" ed="Bd" n="31"/>dum rationem et auctoritatem Augustini,
+<lb ed="Bd" n="32"/>quies est post laborem: unde cum labor
+<lb ed="Bd" n="33"/>sit per vitam totam, sicut precipit 
+Ee<lb break="no" ed="Bd" n="34"/>clesiastes, 1x, 10: Quodcumque facere
+<lb ed="Bd" n="35"/>potest manus tua, instanter operare:
+<lb ed="Bd" n="36"/>quies-post hanc vitam erit: ergo est 
+sab<lb break="no" ed="Bd" n="37"/>batum sanctificare idem quod 
+intentio<lb break="no" ed="Bd" n="38"/>nem quietis ab opere abstrahere, et in
+<lb ed="Bd" n="39"/>eterna quiete continue deligere: 
+quem<lb break="no" ed="Bd" n="40"/>admodum Deus dimittens omnia opera
+<lb ed="Bd" n="41"/>sua, quievit in seipso: et hoc 
+prace<lb break="no" ed="Bd" n="42"/>ptum est,quia quicumque per intentionem
+<lb ed="Bd" n="43"/>quiescit in opcre, ille fruitur opere suo,
+<lb ed="Bd" n="44"/>et fruitur utendis, quod est humana 
+per<lb break="no" ed="Bd" n="45"/>versitas. Quod autem ita sit, accipitura
+<lb ed="Bd" n="46"/>duabus auctoritatibus Augustini in 
+h<lb break="no" ed="Bd" n="47"/>bro de Decem chordis: quarum una est
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>haec, <quote xml:id="alalal-f34987-Qd1e684"> Praecipitur tibi ut ad hoc laboreg,
+<lb ed="Bd" n="49"/>ut in futuro requiescas : tu autem ad
+<lb ed="Bd" n="50"/>hoc vis requiescere ut labores, cum ad
+<lb ed="Bd" n="51"/>hoc debeas laborare ut requiescas.
+<lb ed="Bd" n="52"/>Quasi dicat: In praecepto sabbati 
+praci<lb break="no" ed="Bd" n="53"/>pitur tibi ut quies intentionis pergat aq
+<lb ed="Bd" n="54"/>quietem futuram, et non quaerat intentio
+<lb ed="Bd" n="55"/>quietem in opere hujus vite</quote>. Secunda
+<lb ed="Bd" n="56"/>est haec, <quote xml:id="alalal-f34987-Qd1e704">In Spiritu sancto, hoc est,
+<lb ed="Bd" n="57"/>in dono Dei, requies nobis perpetua 
+pro<lb break="no" ed="Bd" n="58"/>mittur, in dono pignus accipimus aeterne
+<lb ed="Bd" n="59"/>quietis, quod erit sabbatum  
+sabbato<lb break="no" ed="Bd" n="60"/>rum. Propter ipsam quielem 
+pertinen<lb break="no" ed="Bd" n="61"/>tem ad donum Spiritus sancti, scilicet ad
+<lb ed="Bd" n="62"/>hance spem, quidquid facimus, si 
+faci<lb break="no" ed="Bd" n="63"/>mus, sabbatum observamus. </quote> Ecce
+<lb ed="Bd" n="64"/>expresse dicit Augustinus quod habitum
+<lb ed="Bd" n="65"/>est: et ideo secundum hoc morale est,
+<lb ed="Bd" n="66"/>et non secundum observationem.
+</p>
+            <p xml:id="alalal-f34987-d1e730">
+               <lb ed="Bd" n="67"/>Ad omnes ergo Augustini auctoritates
+<lb ed="Bd" n="68"/>supra inductas dicendum, quod 
+secun<lb break="no" ed="Bd" n="69"/>dum observationem diei taxate, scilicet
+<lb ed="Bd" n="70"/>septime, signum fuit cerimoniale, 
+secun<lb break="no" ed="Bd" n="71"/>dum sanctificationem autem quletis in
+<lb ed="Bd" n="72"/>intentione morale : et quoad primum
+<lb ed="Bd" n="73"/>intelliguntur auctoritates inductee, quoad
+<lb ed="Bd" n="74"/>secundum autem rationes adducte in
+<lb ed="Bd" n="75"/>oppositum.
+</p>
+            <p xml:id="alalal-f34987-d1e753">
+               <lb ed="Bd" n="76"/>Ad id quod ulterius quaeritur, 
+dicen<lb break="no" ed="Bd" n="77"/>dum quod illud quod fuit in ratione 
+si<lb break="no" ed="Bd" n="78"/>gni, cessavit et cessare debuit : quia non
+<lb ed="Bd" n="79"/>significabat, quod semper faciendum
+<lb ed="Bd" n="80"/>erat ex institutione, sed potius quod 
+ex<lb break="no" ed="Bd" n="81"/>spectandum erat in Christo : quies enim
+<lb ed="Bd" n="82"/>futura in causa habetur in Christo, et in
+<lb ed="Bd" n="83"/>configuratione mortis ejus per 
+baptis<lb break="no" ed="Bd" n="84"/>mum in quo consepelimur Christo, ut
+<lb ed="Bd" n="85"/>simul operemur salutem nostram, et 
+re<lb break="no" ed="Bd" n="86"/>quiescamus cum ipso per intentionem,
+<lb ed="Bd" n="87"/>sicut ipse cum Patre usque modo 
+opera<lb break="no" ed="Bd" n="88"/>tur, et requiescit, sicut patuit ex verbis
+<lb ed="Bd" n="89"/>Augustini supra inductis.
+</p>
+            <p xml:id="alalal-f34987-d1e786">
+               <lb ed="Bd" n="90"/>Ad ILnup autem quod objicitur de 
+thu<lb break="no" ed="Bd" n="91"/>rilicatione et decimis, dicendum quod
+<lb ed="Bd" n="92"/>non est simile : quia thurificatio nihil
+<lb ed="Bd" n="93"/>exspectandum signabat principaliter ex
+<lb ed="Bd" n="94"/>institutione, sed devotionem qua semper
+<lb ed="Bd" n="95"/>et ab omnibus in omni oratione offer-
+<pb ed="#Bd" n="697"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>tur. Decime autem manent propter 
+sus<lb break="no" ed="Bd" n="2"/>tentationem ministrorum Ecclesiae, et
+<lb ed="Bd" n="3"/>non propter hoc ut significent ulterius
+<lb ed="Bd" n="4"/>liberationem ab originali, sicut 
+antiqui<lb break="no" ed="Bd" n="5"/>tus fecerunt, ut supra notatum est de 
+de<lb break="no" ed="Bd" n="6"/>cimatione Christi.
+</p>
+            <p xml:id="alalal-f34987-d1e819">
+               <lb ed="Bd" n="7"/>Ad id autem quod secundo quaeritur
+<lb ed="Bd" n="8"/>ulterius, dicendum quod dominica dies
+<lb ed="Bd" n="9"/>non successit diei sabbati : quia nec dies
+<lb ed="Bd" n="10"/>sabbati fuit in lege veteri de pracepto
+<lb ed="Bd" n="11"/>in quantum morale est, sed potius in
+<lb ed="Bd" n="12"/>quantum cerimoniale, cujus cerimoniae
+<lb ed="Bd" n="13"/>duw sunt cause. Una fuit preostensio
+<lb ed="Bd" n="14"/>quietis illo die in operibus creationis
+<lb ed="Bd" n="15"/>mundi. Alia fuit futura quies per opera
+<lb ed="Bd" n="16"/>recreationis in sepulcro, et hac fuit 
+prin<lb break="no" ed="Bd" n="17"/>cipalior in intentione instituentis : licet
+<lb ed="Bd" n="18"/>prima esset manifestior populo, et ideo
+<lb ed="Bd" n="19"/>rudi populo sepius indicebatur pro 
+ra<lb break="no" ed="Bd" n="20"/>tione observationis. Sed instituit 
+Eccle<lb break="no" ed="Bd" n="21"/>sia diem dominicam tribus de causis, et
+<lb ed="Bd" n="22"/>mutavit sabbatum duabus de causis : et
+<lb ed="Bd" n="23"/>sic erunt quinque.
+</p>
+            <p xml:id="alalal-f34987-d1e858">
+               <lb ed="Bd" n="24"/>Prima autem causa movit Ecclesiam
+<lb ed="Bd" n="25"/>ad instituendum dies aliquos 
+vacatio<lb break="no" ed="Bd" n="26"/>num : et est ista, quia homo 
+circumda<lb break="no" ed="Bd" n="27"/>tus miseria cogitur laborare pro 
+neces<lb break="no" ed="Bd" n="28"/>sariis, et ad hoc etiam invitat cupiditas :
+<lb ed="Bd" n="29"/>labor autem evocat mentem ad _ 
+inten<lb break="no" ed="Bd" n="30"/>dendum circa temporalia : mens autem
+<lb ed="Bd" n="31"/>evocata ad temporalia postponit 
+spiri<lb break="no" ed="Bd" n="32"/>tualha, et postpositis spiritualibus non
+<lb ed="Bd" n="33"/>refert laborem ad spem quietis aeterne,
+<lb ed="Bd" n="34"/>et tunc non observat praeceptum. Unde
+<lb ed="Bd" n="35"/>ad hoc ut homo audiendo solemnia 
+divi<lb break="no" ed="Bd" n="36"/>na, excitetur ad cogitandum de futura
+<lb ed="Bd" n="37"/>quiete, et sic discat currere per 
+intentio<lb break="no" ed="Bd" n="38"/>nem ad illam, etiam quando est in opere,
+<lb ed="Bd" n="39"/>salubriter Ecclesia providit dies festos,
+<lb ed="Bd" n="40"/>quibus verbum Dei proponitur, et 
+so<lb break="no" ed="Bd" n="41"/>lemnius cantatur, et populo pracipitur
+<lb ed="Bd" n="42"/>ab aliis abstinere, ut illa audiat mente.
+</p>
+            <p xml:id="alalal-f34987-d1e902">
+               <lb ed="Bd" n="43"/>Alia causa est quare dies octava ad hoc
+<lb ed="Bd" n="44"/>electa inter alia festa precipua, est hec,
+<lb ed="Bd" n="45"/>que sepe assignatur a Sanctis : quia
+<lb ed="Bd" n="46"/>Dominus die octava surrexit, et quietem
+<lb ed="Bd" n="47"/>beatitudinis illius in corpore et in anima
+<lb ed="Bd" n="48"/>demonstravit, promittens nos sibi post
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>resurrectionem conformandos. Instituit
+<lb ed="Bd" n="50"/>etiam alios festos dies, quando aliquod
+<lb ed="Bd" n="51"/>festum est de Deo vel de Sanctis, unde
+<lb ed="Bd" n="52"/>notabilis memoria de illa quiete facta est
+<lb ed="Bd" n="53"/>populo. .
+</p>
+            <p xml:id="alalal-f34987-d1e931">
+               <lb ed="Bd" n="54"/>Tertia causa est, ut per hoc amoveatu
+<lb ed="Bd" n="55"/>error Gentilium mathematicorum: ili
+<lb ed="Bd" n="56"/>enim considerabant in principils operum
+<lb ed="Bd" n="57"/>suorum dominium hore, et dominium
+<lb ed="Bd" n="58"/>ascendentis signi precipue, et dominium
+<lb ed="Bd" n="59"/>rei pro qua operabantur. Dominus au-,
+<lb ed="Bd" n="60"/>tem hore prime in die octava Sol est :
+<lb ed="Bd" n="61"/>et tune dicebant faustissimam 
+inceptio<lb break="no" ed="Bd" n="62"/>nem omnium operum. Et ut penitus hoc
+<lb ed="Bd" n="63"/>aboleretur, statuit Ecclesia, ut nullus in
+<lb ed="Bd" n="64"/>die illo et precipue in mane aliquid 
+ope<lb break="no" ed="Bd" n="65"/>retur.
+</p>
+            <p xml:id="alalal-f34987-d1e961">
+               <lb ed="Bd" n="66"/>Prima autem causa cessationis 
+sabba<lb break="no" ed="Bd" n="67"/>ti, fuit principalis : quia cessaverat jam
+<lb ed="Bd" n="68"/>res sabbati secundum causam et rem 
+ali<lb break="no" ed="Bd" n="69"/>quo modo, ut dictum est : et adveniente
+<lb ed="Bd" n="70"/>veritate cessare debuit umbra futuri. 
+Se<lb break="no" ed="Bd" n="71"/>cunda causa, ne videatur Ecclesia 
+judai<lb break="no" ed="Bd" n="72"/>zare. Tertia causa fuit, ut error 
+Genti<lb break="no" ed="Bd" n="73"/>lium tolleretur, qui dominum hore 
+ob<lb break="no" ed="Bd" n="74"/>servabant : et illius diei secundum eos
+<lb ed="Bd" n="75"/>prime hore dominus est Saturnus, qui,
+<lb ed="Bd" n="76"/>ut ipsi dicunt, infaustissimam 
+inchoatio<lb break="no" ed="Bd" n="77"/>nem operum habet, propter quod 
+Genti<lb break="no" ed="Bd" n="78"/>les etiam observabant sabbatum. Sed ut
+<lb ed="Bd" n="79"/>hoc tolleretur, statuit Ecclesia illa die
+<lb ed="Bd" n="80"/>esse operandum.
+</p>
+            <p xml:id="alalal-f34987-d1e996">
+               <lb ed="Bd" n="81"/>Ad illud autem quod objicitur, 
+dicen<lb break="no" ed="Bd" n="82"/>dum quod septima dies non habuit 
+in<lb break="no" ed="Bd" n="83"/>stitutionem divinam, eo quod esset de
+<lb ed="Bd" n="84"/>substantia praecepti moralis : sed quia
+<lb ed="Bd" n="85"/>cerimonialia propter signa statuebantur
+<lb ed="Bd" n="86"/>a Domino : et ideo non fuit ex ausu 
+ho<lb break="no" ed="Bd" n="87"/>minis quod mutavit Ecclesia, sed potius
+<lb ed="Bd" n="88"/>ut intellectus veritatis esset, post quem
+<lb ed="Bd" n="89"/>intellectum mortiferum fuisset observare
+<lb ed="Bd" n="90"/>umbras futurorum.
+</p>
+            <p xml:id="alalal-f34987-d1e1020">
+               <lb ed="Bd" n="91"/>Ad id quod tertio ulterius quaeritur,
+<lb ed="Bd" n="92"/>dicendum quod dies feriati observantiam
+<lb ed="Bd" n="93"/>ab utilibus et corporalibus negotiis non
+<lb ed="Bd" n="94"/>habent, nisi ab institutione Ecclesia,
+<lb ed="Bd" n="95"/>dictis de causis: et sic Ecclesia potest
+<lb ed="Bd" n="96"/>obligare subditos. Unde coercendi sunt
+<pb ed="#Bd" n="698"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ab omnibus operibus ab Ecclesia non
+<lb ed="Bd" n="2"/>concessis. Sed verum est, quod minus
+<lb ed="Bd" n="3"/>malum esset negotiari utiliter, quam 
+dis<lb break="no" ed="Bd" n="4"/>solvi in theatris, et potibus vacare : et
+<lb ed="Bd" n="5"/>sacerdotes magis instare deberent ut
+<lb ed="Bd" n="6"/>cessarent a peccatis, quam a bonis 
+operi<lb break="no" ed="Bd" n="7"/>bus corporalibus : tamen ab utrisque
+<lb ed="Bd" n="8"/>abstinendum est, ut dictum est prius.
+</p>
+            <p xml:id="alalal-f34987-d1e1057">
+               <lb ed="Bd" n="9"/>AD ILLupD quod contra objicitur, 
+dicen<lb break="no" ed="Bd" n="10"/>dam quod Augustinus loquitur de com~
+<lb ed="Bd" n="11"/>paratione magis mali ad minus malum :
+<lb ed="Bd" n="12"/>et ideo neutrum indulget.
+</p>
+            <p xml:id="alalal-f34987-d1e1068">
+               <lb ed="Bd" n="13"/>Ad aliud dicendum, quod opera 
+servi<lb break="no" ed="Bd" n="14"/>lia dicuntur, quae faciunt servum 
+pecca<lb break="no" ed="Bd" n="15"/>ti, et sic peccata servilia sunt: vel quae
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="16"/>pertinent ad servitutem pone miserig
+<lb ed="Bd" n="17"/>preesentis, et sic alia opera servilia sunt
+<lb ed="Bd" n="18"/>praeter ea quae exacta sunt potius quam
+<lb ed="Bd" n="19"/>concessa, ut coquere cibos, et alia 
+hujus<lb break="no" ed="Bd" n="20"/>modi.
+</p>
+            <p xml:id="alalal-f34987-d1e1090">
+               <lb ed="Bd" n="21"/>Ad id quod ultimo quaeritur, dicendum
+<lb ed="Bd" n="22"/>quod istud mandatum minus habet de
+<lb ed="Bd" n="23"/>lege naturali quam alia, et ideo 
+infigi<lb break="no" ed="Bd" n="24"/>tur memoriae per illum modum 
+loquen<lb break="no" ed="Bd" n="25"/>di. Alii dicunt, quod illud mandaium
+<lb ed="Bd" n="26"/>ante fuit in observatione : et ideo 
+resu<lb break="no" ed="Bd" n="27"/>mens, non de novo instituens, utitur
+<lb ed="Bd" n="28"/>tali modo loquendi. Sed prima solutio
+<lb ed="Bd" n="29"/>melior est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

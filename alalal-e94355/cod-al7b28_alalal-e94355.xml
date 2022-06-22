@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="489"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e94355"><!-- l3d26a1 -->
+            <head xml:id="alalal-e94355-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-e94355-Hd1e101" type="question-title">An spes sit in genere virtutis ?</head>
+            <p xml:id="alalal-e94355-d1e104">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="26"/>ARTICULUS LI.
+<lb ed="Bd" n="27"/>An spes sit in genere virtutis ?
+</p>
+            <p xml:id="alalal-e94355-d1e113">
+               <lb ed="Bd" n="28"/>Incidunt autem ante Siéferam tres
+<lb ed="Bd" n="29"/>questiones, quarum prima est, an spes
+<lb ed="Bd" n="30"/>sit in genere virtutis ?
+</p>
+            <p xml:id="alalal-e94355-d1e122">
+               <lb ed="Bd" n="31"/>Secundo, supposito quod sit virius,
+<lb ed="Bd" n="32"/>queritur utrum virtus separata ab aliis
+<lb ed="Bd" n="33"/>quibusdam virtutibus, vel conjuncta
+<lb ed="Bd" n="34"/>illis ?
+</p>
+            <p xml:id="alalal-e94355-d1e134">
+               <lb ed="Bd" n="35"/>Tertio quaeritur, In qua vi anime sit
+<lb ed="Bd" n="36"/>spes, et quis sit actus ejus, et objectum,
+<lb ed="Bd" n="37"/>et finis ?
+</p>
+            <p xml:id="alalal-e94355-d1e143">
+               <lb ed="Bd" n="38"/>Ad primum sic proceditur : Videtur
+<lb ed="Bd" n="39"/>quod spes non sit virtus sic :
+</p>
+            <p xml:id="alalal-e94355-d1e150">
+               <pb ed="#Bd" n="490"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>1. Ab Horatio et Tullio et quibusdam
+<lb ed="Bd" n="2"/>aliis Philosophis ponitur spes una 
+qua<lb break="no" ed="Bd" n="3"/>tuor naluralium passionum : nulla autem
+<lb ed="Bd" n="4"/>passio est virtus: ergo spes non est 
+vir<lb break="no" ed="Bd" n="5"/>tus.
+</p>
+            <p xml:id="alalal-e94355-d1e168">
+               <lb ed="Bd" n="6"/>2.Ttem, Omnis virtus determinatum
+<lb ed="Bd" n="7"/>habet actum et objectum: spes autem
+<lb ed="Bd" n="8"/>non habet haec determinata: ergo spes
+<lb ed="Bd" n="9"/>non est virtus. Prima probatur 
+inducen<lb break="no" ed="Bd" n="10"/>do in singulis. Secunpa probatur per
+<lb ed="Bd" n="11"/>hoc, quod exspectare non dicit actum 
+se<lb break="no" ed="Bd" n="12"/>cundum operationem, sed 
+immobilita<lb break="no" ed="Bd" n="13"/>tem potius secundum locum : objectum
+<lb ed="Bd" n="14"/>autem spei est quodcumque bonum 
+ex<lb break="no" ed="Bd" n="15"/>spectatum in futurum: ergo sequitur
+<lb ed="Bd" n="16"/>conclusio, quod non sit virtus.
+</p>
+            <p xml:id="alalal-e94355-d1e194">
+               <lb ed="Bd" n="17"/>3. Item, Philosophus in VI] 
+Physico<lb break="no" ed="Bd" n="18"/>rum ponit rememorationem de praeterito,
+<lb ed="Bd" n="19"/>sicut spes de futuro est: constat autem,
+<lb ed="Bd" n="20"/>quod rememoratio non est virtus : ergo
+<lb ed="Bd" n="21"/>nec spes.
+</p>
+            <p xml:id="alalal-e94355-d1e207">
+               <lb ed="Bd" n="22"/>Item, In numero passionum 
+natura<lb break="no" ed="Bd" n="23"/>lium non opponuntur penes differentiam
+<lb ed="Bd" n="24"/>temporis, sed penes objectum spes et 
+ti<lb break="no" ed="Bd" n="25"/>mor de futuro malo: constat autem,
+<lb ed="Bd" n="26"/>quod timor non est virtus : ergo nec spes,
+<lb ed="Bd" n="27"/>ut videtur,
+</p>
+            <p xml:id="alalal-e94355-d1e224">
+               <lb ed="Bd" n="28"/>4, Item, Augustinus dicit, quod <quote xml:id="alalal-e94355-Qd1e228"> 
+ani<lb break="no" ed="Bd" n="29"/>ma secundum mentem est imago Dei 
+ha<lb break="no" ed="Bd" n="30"/>bens imaginem secundum potentiam 
+in<lb break="no" ed="Bd" n="31"/>telligendi, et similitudinem in potentia
+<lb ed="Bd" n="32"/>diligendi : </quote> ergo videtur, quod mentis
+<lb ed="Bd" n="33"/>non sint nisi duae vires : ergo due 
+virtu<lb break="no" ed="Bd" n="34"/>tes tantum perficientes : sed in potentia
+<lb ed="Bd" n="35"/>cognoscendi Deum perficitur a fide, in
+<lb ed="Bd" n="36"/>potentia autem diligendi a charitate :
+<lb ed="Bd" n="37"/>ergo videtur, quod spes non perficiat 
+se<lb break="no" ed="Bd" n="38"/>cundum ordinem in Deum: ergo non est
+<lb ed="Bd" n="39"/>virtus theologica: et constat quod non
+<lb ed="Bd" n="40"/>cardinalis: ergo nullo modo est virtus.
+</p>
+            <p xml:id="alalal-e94355-d1e257">
+               <lb ed="Bd" n="41"/>Si forte dicas, quod potentia affectiva
+<lb ed="Bd" n="42"/>est bifurcata, et una pars ejus afficit 
+bo<lb break="no" ed="Bd" n="43"/>num, et illam perficit charitas quae 
+dici<lb break="no" ed="Bd" n="44"/>tur concupiscibilis: alia autem pars 
+de<lb break="no" ed="Bd" n="45"/>testatur malum, et illam perficit spes. Hoc
+<lb ed="Bd" n="46"/>nihil omnino videtur esse : quia 
+queli<lb break="no" ed="Bd" n="47"/>bet vis est sui objecti appetitiva, et 
+de<lb break="no" ed="Bd" n="48"/>testativa contrarii: ergo penes haec non
+<lb ed="Bd" n="49"/>accipiuntur duae vires, nec due virtutes.
+</p>
+            <p xml:id="alalal-e94355-d1e279">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>5. Item, Omnis virtus est de diffielli et
+<lb ed="Bd" n="51"/>bono: spes autem non est sic: ergo non
+<lb ed="Bd" n="52"/>est virtus. Propatio medie est: quia 
+ni<lb break="no" ed="Bd" n="53"/>hil difficultatis habet exspectare.
+</p>
+            <p xml:id="alalal-e94355-d1e292">
+               <lb ed="Bd" n="54"/>6. Item, Virtus est bona qualitas 
+men<lb break="no" ed="Bd" n="55"/>tis qua recte vivitur, qua nemo male
+<lb ed="Bd" n="56"/>utitur, quam Deus operatur in nobis sine
+<lb ed="Bd" n="57"/>nobis : haec autem quae dicitur spes non
+<lb ed="Bd" n="58"/>operatur in nobis sine nobis : ergo non
+<lb ed="Bd" n="59"/>est virtus. Propatio media est, quod
+<lb ed="Bd" n="60"/>spes est ex meritis, ut dicit Magister in
+<lb ed="Bd" n="61"/>Littera.
+</p>
+            <p xml:id="alalal-e94355-d1e312">
+               <lb ed="Bd" n="62"/>7. Item, Si aliquid est spes in anima,
+<lb ed="Bd" n="63"/>videtur esse mercenaria, et ita carens 
+ra<lb break="no" ed="Bd" n="64"/>tione meriti, quia exspectat 
+retributio<lb break="no" ed="Bd" n="65"/>nem: cum igitur omnis virtus sit 
+meri<lb break="no" ed="Bd" n="66"/>toria, spes autem non, videtur non esse
+<lb ed="Bd" n="67"/>virtus.
+</p>
+            <p xml:id="alalal-e94355-d1e328">
+               <lb ed="Bd" n="68"/>8. Utterivs videtur non esse virtus
+<lb ed="Bd" n="69"/>theologica. Virtus enim theologica non
+<lb ed="Bd" n="70"/>est medium inter superfluum et 
+diminu<lb break="no" ed="Bd" n="71"/>tum: spes autem est medium inter 
+su<lb break="no" ed="Bd" n="72"/>perfluum et diminutum: ergo non est
+<lb ed="Bd" n="73"/>virtus theologica. Prozpatur autem prima
+<lb ed="Bd" n="74"/>per hoc quod supra habitum est de fide,
+<lb ed="Bd" n="75"/>quod fides innititur prime veritati 
+prop<lb break="no" ed="Bd" n="76"/>ter se, et super omnia : et supra hoc non
+<lb ed="Bd" n="77"/>est cogitare aliquem excessum. Item, De
+<lb ed="Bd" n="78"/>charitate dicit Bernardus in libro de 
+Dik<lb break="no" ed="Bd" n="79"/>gendo Deo: <quote xml:id="alalal-e94355-Qd1e356"> Causa diligendi Deum
+<lb ed="Bd" n="80"/>Deus est, et modus sine modo diligere:
+<lb ed="Bd" n="81"/>ultra quod etiam non est excessus.</quote>
+               <lb ed="Bd" n="82"/>Mepia autem probatur ex hoc, quod 
+ex<lb break="no" ed="Bd" n="83"/>tremum spei in nimis est presumptio, et
+<lb ed="Bd" n="84"/>est vitium : et extremum in defectum est
+<lb ed="Bd" n="85"/>desperatio, et est etiam vitium: ergo
+<lb ed="Bd" n="86"/>spes non est virtus theologica, ut 
+vide<lb break="no" ed="Bd" n="87"/>tur.
+</p>
+            <p xml:id="alalal-e94355-d1e378">
+               <lb ed="Bd" n="88"/>SED CONTRA:
+<lb ed="Bd" n="89"/>1. I ad Corinth. XIII, 13: <quote xml:id="alalal-e94355-Qd1e384">Nunc autem
+<lb ed="Bd" n="90"/>manent fides, spes, et charitas, tria hee:
+<lb ed="Bd" n="91"/>major autem horum est charitas</quote>. 
+Quid<lb break="no" ed="Bd" n="92"/>quid autem connumeratur virtuli, virtus
+<lb ed="Bd" n="93"/>est: hic autem spes ab Apostolo 
+connu<lb break="no" ed="Bd" n="94"/>meratur : ergo est virtus.
+</p>
+            <p xml:id="alalal-e94355-d1e399">
+               <lb ed="Bd" n="95"/>2. Item, Theologice virtutes 
+consum<lb break="no" ed="Bd" n="96"/>mant edificium spirituale : in illo autem
+<lb ed="Bd" n="97"/>fides fundat, ut supra habitum est : 
+cha<lb break="no" ed="Bd" n="98"/>ritas autem. consummat, ut mfra habe-
+</p>
+            <p xml:id="alalal-e94355-d1e410">
+               <pb ed="#Bd" n="491"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>jolutio.
+</p>
+            <p xml:id="alalal-e94355-d1e419">
+               <lb ed="Bd" n="2"/>IN LIT SENTENT. DIST. XXV1, A. ART. 1.
+</p>
+            <p xml:id="alalal-e94355-d1e424">
+               <lb ed="Bd" n="3"/>pitur: ergo spes exigitur ad erigendum :
+<lb ed="Bd" n="4"/>ergo cum in wxdificio nihil edificet, nisi
+<lb ed="Bd" n="5"/>virtus, spes est virtus.
+</p>
+            <p xml:id="alalal-e94355-d1e433">
+               <lb ed="Bd" n="6"/>3. Item, Nihil salvat nisi virtus : spes
+<lb ed="Bd" n="7"/>salvat: ergo spes est virtus. Prima 
+pro<lb break="no" ed="Bd" n="8"/>batur ex hoc, quod nihil salvat nisi quod
+<lb ed="Bd" n="9"/>est in ratione boni meritorii: et tale est
+<lb ed="Bd" n="10"/>virtus. Secunpa scribitur, ad Roman.
+<lb ed="Bd" n="11"/>vi, 24, ubi dicitur: Spe salvi facti 
+su<lb break="no" ed="Bd" n="12"/>MUS .
+</p>
+            <p xml:id="alalal-e94355-d1e452">
+               <lb ed="Bd" n="13"/>Solutio Dicendum, quod spes est 
+vir<lb break="no" ed="Bd" n="14"/>tus theologica, quae perficit secundum
+<lb ed="Bd" n="15"/>ordinem in Deum immediate. In hoc
+<lb ed="Bd" n="16"/>enim differunt theologice a cardinalibus:
+<lb ed="Bd" n="17"/>quia theologice rectitudinis actus 
+termi<lb break="no" ed="Bd" n="18"/>num habent in Deo et finem, ut fides
+<lb ed="Bd" n="19"/>tendit in primam veritatem, spes autem
+<lb ed="Bd" n="20"/>in beatitudinem gloriae increate 
+indefi<lb break="no" ed="Bd" n="21"/>cientis, charitas in bonitatem. Cardinales
+<lb ed="Bd" n="22"/>autem actus terminant in medio, et finem
+<lb ed="Bd" n="23"/>ponunt in Deo: ut temperantia terminat
+<lb ed="Bd" n="24"/>actum in passionibus innatis inter nimis
+<lb ed="Bd" n="25"/>et parum, et finem ponit in Deo, quia 
+fa<lb break="no" ed="Bd" n="26"/>cit hoc propter Deum.
+</p>
+            <p xml:id="alalal-e94355-d1e485">
+               <lb ed="Bd" n="27"/>Ut igitur intelligantur solutiones 
+ob<lb break="no" ed="Bd" n="28"/>jectorum, sciendum quod spes #quivoce
+<lb ed="Bd" n="29"/>dicitur multipliciter, et ex hoc a diversis
+<lb ed="Bd" n="30"/>in diversis ponitur generibus, et diversa
+<lb ed="Bd" n="31"/>ponuntur ei opposita. Quandoque enim
+<lb ed="Bd" n="32"/>est in genere passionis, et hoc modo 
+con<lb break="no" ed="Bd" n="33"/>sideratur a Philosophis: et quia passio
+<lb ed="Bd" n="34"/>est illata anime sensibili: quia sicut 
+di<lb break="no" ed="Bd" n="35"/>cit Philosophus, <quote xml:id="alalal-e94355-Qd1e506"> Omnis delectatio est
+<lb ed="Bd" n="36"/>generatio in sensibilem animam: </quote> ideo
+<lb ed="Bd" n="37"/>tune ponitur ei oppositum in genere 
+pas<lb break="no" ed="Bd" n="38"/>sionis, eo quod oppositorum sit idem 
+ge<lb break="no" ed="Bd" n="39"/>nus: hoc autem oppositum, aut accipitur
+<lb ed="Bd" n="40"/>penes objectum solum, et tunc erit timor
+<lb ed="Bd" n="41"/>secundum quod ipse passio est futuri
+<lb ed="Bd" n="42"/>mah: aut penes differentiam temporis
+<lb ed="Bd" n="43"/>quam consignat, et sic opponitur 
+dele<lb break="no" ed="Bd" n="44"/>ctatio, quae est ex rememoratione, ut dicit
+<lb ed="Bd" n="45"/>Philosophus. Quandoque autem ponitur
+<lb ed="Bd" n="46"/>in genere motus vel acius, ut, ad Roman.
+<lb ed="Bd" n="47"/>vin, 24, ubi dicit Apostolus : Spe salvi
+<lb ed="Bd" n="48"/>jacti sumus. Quandoque autem ponitur
+<lb ed="Bd" n="49"/>pro effectu spei, quem habet in anima,
+<lb ed="Bd" n="50"/>tutatur enim animam et certificat de fu-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="51"/>turis habendis et consequendis, non 
+enti<lb break="no" ed="Bd" n="52"/>bus tantum, ut fides quae dicit etiam
+<lb ed="Bd" n="53"/>esse futura quaedam, sed spes dicit 
+con<lb break="no" ed="Bd" n="54"/>sequi debere: sicut dicit Apostolus, ad
+<lb ed="Bd" n="55"/>Hebr. vr, 18 et 19: <quote xml:id="alalal-e94355-Qd1e555">Confugimus ad 
+te<lb break="no" ed="Bd" n="56"/>nendam propositam spem: quam stcut
+<lb ed="Bd" n="57"/>anchoram habemus anime tutam ae 
+fir<lb break="no" ed="Bd" n="58"/>mam</quote>. Et, ad Roman. v, 4: <quote xml:id="alalal-e94355-Qd1e564">Scientes quod
+<lb ed="Bd" n="59"/>tribulatio patientiam operatur, patientia
+<lb ed="Bd" n="60"/>autem probationem, probatio vero spem</quote>.
+<lb ed="Bd" n="61"/>Ibi Glossa: <quote xml:id="alalal-e94355-Qd1e573"> Id est, certitudinem spei: </quote>
+               <lb ed="Bd" n="62"/>quia, sicut dicit Gregorius : <quote xml:id="alalal-e94355-Qd1e578"> Tanto 
+for<lb break="no" ed="Bd" n="63"/>tior quisquis in Deum surgit, quanto ma~-
+<lb ed="Bd" n="64"/>jora pro nomine illius pertulit. </quote> 
+Quan<lb break="no" ed="Bd" n="65"/>doque etiam ponitur pro re sperata, ut
+<lb ed="Bd" n="66"/>ad Titum, u, 13: <quote xml:id="alalal-e94355-Qd1e589">Exspectantes beatam
+<lb ed="Bd" n="67"/>spem, et adventum glorie magni Dei</quote>,
+<lb ed="Bd" n="68"/>id est, rem speratam, quae est adventus
+<lb ed="Bd" n="69"/>gloria. Sumitur autem quandoque pro
+<lb ed="Bd" n="70"/>virtute theologica, perficiente animam ad.
+<lb ed="Bd" n="71"/>sperandum, et sic de ea queeritur hic :
+<lb ed="Bd" n="72"/>sicut dicit Glossa, ad Titum, u, 13,
+<lb ed="Bd" n="73"/>
+               <quote xml:id="alalal-e94355-Qd1e607"> Exspectamus beatitudinem, quae subest
+<lb ed="Bd" n="74"/>spei virtuti. </quote>
+            </p>
+            <p xml:id="alalal-e94355-d1e613">
+               <lb ed="Bd" n="75"/>Srecunpum hoc igitur dicendum ad 
+pri<lb break="no" ed="Bd" n="76"/>mum, quod equivocatio impedit 
+conclu<lb break="no" ed="Bd" n="77"/>sionem.
+</p>
+            <p xml:id="alalal-e94355-d1e622">
+               <lb ed="Bd" n="78"/>Ad aliud dicendum, quod exspectare
+<lb ed="Bd" n="79"/>non dicit totum actum spei, ut infra 
+pa<lb break="no" ed="Bd" n="80"/>tebit, sed sperare dicit eum, sicul 
+dilige<lb break="no" ed="Bd" n="81"/>re actum dilectionis, et credere actu 
+fi<lb break="no" ed="Bd" n="82"/>dei.
+</p>
+            <p xml:id="alalal-e94355-d1e635">
+               <lb ed="Bd" n="83"/>Ad aliud dicendum, quod in illo 
+pro<lb break="no" ed="Bd" n="84"/>cessu atiam decipit equivocatio, ut prius
+<lb ed="Bd" n="85"/>habitum est in distinctione.
+</p>
+            <p xml:id="alalal-e94355-d1e644">
+               <lb ed="Bd" n="86"/>Ad aliud dicendum, quod prout 
+Augu<lb break="no" ed="Bd" n="87"/>stinus accipit mentem sub potentia 
+afte<lb break="no" ed="Bd" n="88"/>ctiva vel diligendi, multe vires 
+compre<lb break="no" ed="Bd" n="89"/>henduntur, scilicet liberum arbitrium,
+<lb ed="Bd" n="90"/>voluntas, concupiscibilis, et irascibilis. Et
+<lb ed="Bd" n="91"/>tune ad objectum dicendum, quod 
+dete<lb break="no" ed="Bd" n="92"/>stari malum non est irascibilis, secundum
+<lb ed="Bd" n="93"/>quod irascibilis est, sed potius cujuslibet
+<lb ed="Bd" n="94"/>potentiae est fugere malum suum : sed
+<lb ed="Bd" n="95"/>irascibilis est excludere malum pugnans,
+<lb ed="Bd" n="96"/>quod est arduum et difficilimum, et illa~
+<lb ed="Bd" n="97"/>tum est extrinsecus, et est suum 
+insur<lb break="no" ed="Bd" n="98"/>gere in altum finis, et in altum illud quod
+<lb ed="Bd" n="99"/>est ad finem: et secundum quod surgit
+<pb ed="#Bd" n="492"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>in altum finis, sie perficitur spe, ut infra
+<lb ed="Bd" n="2"/>patebit : secundum autem quod surgit in
+<lb ed="Bd" n="3"/>altum quod est ad finem, sic perficitur
+<lb ed="Bd" n="4"/>fortitudine. Et sic patet solutio ad 
+argu<lb break="no" ed="Bd" n="5"/>mentum. Tamen sciendum, quod ratio
+<lb ed="Bd" n="6"/>illa fundatur super falsum : quia quando
+<lb ed="Bd" n="7"/>dicit Augustinus de imagine, loquitur de
+<lb ed="Bd" n="8"/>parte anime suprema, quae per naturales
+<lb ed="Bd" n="9"/>habitus ordinatur in Deum secundum
+<lb ed="Bd" n="10"/>quod est trinus et unus : et haec non 
+per<lb break="no" ed="Bd" n="11"/>ficitur habitibus ordinatis ad opus, nisi
+<lb ed="Bd" n="12"/>accipiatur imago improprie, scilicet prout
+<lb ed="Bd" n="13"/>résultat in viribus inferioribus, et libero
+<lb ed="Bd" n="14"/>arbitrio, et ratione, et voluntate, et in 
+hu<lb break="no" ed="Bd" n="15"/>jusmodi.
+</p>
+            <p xml:id="alalal-e94355-d1e715">
+               <lb ed="Bd" n="16"/>Ad aliud dicendum, quod difficile et
+<lb ed="Bd" n="17"/>bonum circa quod est virtus, differenter
+<lb ed="Bd" n="18"/>determinatur in virtute theologica et 
+con<lb break="no" ed="Bd" n="19"/>suetudinali : in consuetudinali enim 
+de<lb break="no" ed="Bd" n="20"/>terminatur secundum difficultatem et 
+ra<lb break="no" ed="Bd" n="21"/>tionem medii, quod est per 
+equidistan<lb break="no" ed="Bd" n="22"/>tiam in passionibus, vel per rectam 
+ratio<lb break="no" ed="Bd" n="23"/>nem sumptam in rationalibus virtutibus,
+<lb ed="Bd" n="24"/>ut sunt prudentia, et justitia : sed in 
+vir<lb break="no" ed="Bd" n="25"/>tute theologica est difficultas penes 
+ele<lb break="no" ed="Bd" n="26"/>vare animam extra se, et supra se : sicut
+<lb ed="Bd" n="27"/>fides elevat rationem ut abneget se, et
+<lb ed="Bd" n="28"/>supra se tendat in verum quod non scit
+<lb ed="Bd" n="29"/>probare: et spes elevet animam, ut 
+spe<lb break="no" ed="Bd" n="30"/>ret ea de quibus rationis non est 
+persua<lb break="no" ed="Bd" n="31"/>sio, et ab his quae videt, elevetur ad 
+quee<lb break="no" ed="Bd" n="32"/>rendum quae non videt: et charitas 
+ele<lb break="no" ed="Bd" n="33"/>vet, ut postposito amore privati boni, 
+ten<lb break="no" ed="Bd" n="34"/>dat insummum bonum, quod quaeritur
+<lb ed="Bd" n="35"/>fide: et hoc est magis difficile, quam 
+dif<lb break="no" ed="Bd" n="36"/>ficile virtutis civilis: et bonum virtutis
+<lb ed="Bd" n="37"/>theologice est finis, bonum autem civilis
+<lb ed="Bd" n="38"/>est honestum relatum ad finem 
+increa<lb break="no" ed="Bd" n="39"/>tum. Unde patet, quod illa objectio 
+fal<lb break="no" ed="Bd" n="40"/>sum supponit.
+</p>
+            <p xml:id="alalal-e94355-d1e772">
+               <lb ed="Bd" n="41"/>Ad aliud dicendum, quod Deus in 
+no<lb break="no" ed="Bd" n="42"/>bis sine nobis operatur spei habitum, licet
+<lb ed="Bd" n="43"/>non spei actum : et de actu spei 
+intelligi<lb break="no" ed="Bd" n="44"/>tur quando dicitur, quod provenit ex 
+me<lb break="no" ed="Bd" n="45"/>ritis.
+</p>
+            <p xml:id="alalal-e94355-d1e785">
+               <lb ed="Bd" n="46"/>Ad aliud dicendum, quod bona merces
+<lb ed="Bd" n="47"/>est Deus, et non vituperabilis, et hanc
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>mercedem sperat spes: sed temporalis
+<lb ed="Bd" n="49"/>merces pro spirituali, est Jezeatica et
+<lb ed="Bd" n="50"/>leprosa mercimonia’: et de hac non curat
+<lb ed="Bd" n="51"/>spes.
+</p>
+            <p xml:id="alalal-e94355-d1e803">
+               <lb ed="Bd" n="52"/>Ad aliud dicendum, quod spes est vir.
+<lb ed="Bd" n="53"/>tus theologica : et illa quae videntur cir.
+<lb ed="Bd" n="54"/>cumstare, dicendum quod non circum.
+<lb ed="Bd" n="55"/>stant, sed sunt corruptiones conditionun
+<lb ed="Bd" n="56"/>spei: sicut cum spes fit ex largitate Dei, jl.
+<lb ed="Bd" n="57"/>lam negligit desperans : et cum fit ex 
+me<lb break="no" ed="Bd" n="58"/>ritis, illam negligit presumens. Omnis
+<lb ed="Bd" n="59"/>enim mediatio et excessus attenditur se.
+<lb ed="Bd" n="60"/>cundum eamdem materiam quae non est
+<lb ed="Bd" n="61"/>hic : quia non habet materiam hujusmodi,
+<lb ed="Bd" n="62"/>in qua secundum rationem materie sit
+<lb ed="Bd" n="63"/>abundare, et deficere, sicut est in quibus.
+<lb ed="Bd" n="64"/>dam aliis virtutibus consuetudinalibus ;
+<lb ed="Bd" n="65"/>sed potius sicut fides habet oppositam 
+in<lb break="no" ed="Bd" n="66"/>fidelitatem multiplicem ex corruptione 
+di<lb break="no" ed="Bd" n="67"/>versorum quae exigunturad fidem, et 
+cha<lb break="no" ed="Bd" n="68"/>ritas similiter habet oppositum odium et
+<lb ed="Bd" n="69"/>inimicitiam, non tamen determinatur ad
+<lb ed="Bd" n="70"/>medium aliquid : ita et spes : et hoc 
+pa<lb break="no" ed="Bd" n="71"/>tet ex quo ex parte reisperate numquam
+<lb ed="Bd" n="72"/>est nimis : innititur enim super omnia
+<lb ed="Bd" n="73"/>spes bonitati et largitati increatae : et ideo
+<lb ed="Bd" n="74"/>presumens non excedit in spe, sed potius
+<lb ed="Bd" n="75"/>uterque corrumpit secundum aliquid,
+<lb ed="Bd" n="76"/>quod exigitur ad substantiam spei.
+</p>
+            <p xml:id="alalal-e94355-d1e860">
+               <lb ed="Bd" n="77"/>Iterum patet hoc alia ratione : quia
+<lb ed="Bd" n="78"/>medium habet compositionem ex 
+utro<lb break="no" ed="Bd" n="79"/>que extremo, sicut largitas ex 
+prodigali<lb break="no" ed="Bd" n="80"/>tate et avaritia : non autem dicitur 
+spe<lb break="no" ed="Bd" n="81"/>rans qui sperat speranda et non 
+speran<lb break="no" ed="Bd" n="82"/>da, et desperans qui nec speranda nec
+<lb ed="Bd" n="83"/>non speranda sperat, quod falsum est,
+<lb ed="Bd" n="84"/>quia omnes illi sunt circa id quod omnino
+<lb ed="Bd" n="85"/>super omnia sperandum est : sed sperans
+<lb ed="Bd" n="86"/>prout debet, alii autem corrumpendo.
+</p>
+            <p xml:id="alalal-e94355-d1e884">
+               <lb ed="Bd" n="87"/>Iterum alia ratione patet illud: quia si
+<lb ed="Bd" n="88"/>spes esset medium, jam comparata 
+extre<lb break="no" ed="Bd" n="89"/>mis acciperet aliquid de ratione 
+extremo<lb break="no" ed="Bd" n="90"/>rum, sicut fortis secundum Philosophum
+<lb ed="Bd" n="91"/>ad audacem est timidus, et audax ad 
+ti<lb break="no" ed="Bd" n="92"/>midum : sed non spes dicetur sic 
+despe<lb break="no" ed="Bd" n="93"/>ratio ad presumptionem, et prasumptio
+<lb ed="Bd" n="94"/>ad desperationem.
+</p>
+            <p xml:id="alalal-e94355-d1e905">
+               <pb ed="#Bd" n="493"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Et hoc sit dictum contra quosdam, qui
+<lb ed="Bd" n="2"/>dicunt spem esse medium inter 
+despera<lb break="no" ed="Bd" n="3"/>tionem et presumptionem, eo quod ipsi
+<lb ed="Bd" n="4"/>putant in omni virtute esse medium per
+<lb ed="Bd" n="5"/>unam rationem, quod absurdum est, quia
+<lb ed="Bd" n="6"/>nec etiam in consuetudinali (ut dicit 
+Phi<lb break="no" ed="Bd" n="7"/>losophus in V £thicorum) est per unam
+<lb ed="Bd" n="8"/>rationem,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

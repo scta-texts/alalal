@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="203"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e39551"><!-- l3d10a11 -->
+            <head xml:id="alalal-e39551-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-e39551-Hd1e101" type="question-title">Utrum Christus dicatur Filius natura,
+ut Deus ?</head>
+            <p xml:id="alalal-e39551-d1e104">
+               <lb ed="Bd" n="20"/>ARTICULUS XI.
+<lb ed="Bd" n="21"/>Utrum Christus dicatur Filius natura,
+<lb ed="Bd" n="22"/>ut Deus ?
+</p>
+            <p xml:id="alalal-e39551-d1e113">
+               <lb ed="Bd" n="23"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="24"/>ibi, D, <quote xml:id="alalal-e39551-Qd1e119"> Non autem sie dicitur Filius
+<lb ed="Bd" n="25"/>natura, ut dicitur Deus natura. </quote>
+            </p>
+            <p xml:id="alalal-e39551-d1e125">
+               <lb ed="Bd" n="26"/>Hoc enim videtur falsum: quia Deus
+<lb ed="Bd" n="27"/>dicitur natura secundum deitatem : ergo
+<lb ed="Bd" n="28"/>sic dicitur Filius natura, ut Deus natura.
+</p>
+            <p xml:id="alalal-e39551-d1e135">
+               <lb ed="Bd" n="29"/>Ad voc dicendum, quod Magister facit
+<lb ed="Bd" n="30"/>vim in modo: quia quando dicitur Deus
+<lb ed="Bd" n="31"/>natura, ablativus construitur in 
+ha<lb break="no" ed="Bd" n="32"/>bitudine cause formalis. Cum autem
+<lb ed="Bd" n="33"/>dicitur Filius natura, construitur in
+<lb ed="Bd" n="34"/>duphe: habitudine. Si cnim Filius dicitur
+<lb ed="Bd" n="35"/>persona simplex sine assumpta 
+huma<lb break="no" ed="Bd" n="36"/>nitate, tunc ly natura construitur quasi
+<lb ed="Bd" n="37"/>in habitudine cause efficientis, secundum
+<lb ed="Bd" n="38"/>quod Philosophus dicit in quinto prime
+<lb ed="Bd" n="39"/>philosophiae, quod natura est ex qua
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="40"/>pullulans pullulat primum. Si autem
+<lb ed="Bd" n="41"/>Filius sit persona in duabus naturis et
+<lb ed="Bd" n="42"/>tribus substantiis, sicut dicit secunda
+<lb ed="Bd" n="43"/>opinio, tune Filius natura: eo quod est
+<lb ed="Bd" n="44"/>Filius filiatione aeterna quae est secundum
+<lb ed="Bd" n="45"/>naturam divinam : ipse enim persona
+<lb ed="Bd" n="46"/>est wterna personalitate: et hoc mnuit
+<lb ed="Bd" n="47"/>Magister cum dicit: <quote xml:id="alalal-e39551-Qd1e180"> Et tamen dicitur
+<lb ed="Bd" n="48"/>natura vel nature Filius, quia 
+natura<lb break="no" ed="Bd" n="49"/>liter est Filius, eamdem scilicet habens
+<lb ed="Bd" n="50"/>naturam quam ile qui genuit. </quote> Sed
+<lb ed="Bd" n="51"/>in hoc est differentia, quod Christus
+<lb ed="Bd" n="52"/>homo habuit illam naturam per gratiam
+<lb ed="Bd" n="53"/>non adoptionis, sed unionis in esse 
+hy<lb break="no" ed="Bd" n="54"/>postasis et persone quae per naturam
+<lb ed="Bd" n="55"/>Filius est: et ideo filiatio naturalis quasi
+<lb ed="Bd" n="56"/>transit ad hunc hominem, qui per se est
+<lb ed="Bd" n="57"/>in Filio Det: transit autem per unionem
+<lb ed="Bd" n="58"/>factam in hypostasi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

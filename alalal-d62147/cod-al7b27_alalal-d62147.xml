@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="343"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d62147"><!-- l2d20a3 -->
+            <head xml:id="alalal-d62147-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-d62147-Hd1e101" type="question-title">Utrum primi parentes convenissent 
+manente vel corrupta virginitate ?</head>
+            <p xml:id="alalal-d62147-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="45"/>ARTICULUS IIL.
+<lb ed="#Bc" n="46"/>Utrum primi parentes convenissent 
+ma<lb break="no" ed="#Bc" n="47"/>nente vel corrupta virginitate ?
+</p>
+            <p xml:id="alalal-d62147-d1e115">
+               <lb ed="#Bc" n="48"/>Tertio queritur, Utrum convenissent
+<lb ed="#Bc" n="49"/>manente vel corrupta virginitate ?
+</p>
+            <p xml:id="alalal-d62147-d1e122">
+               <lb ed="#Bc" n="50"/>Videtur, quod corrupta : quia
+<lb ed="#Bc" n="51"/>1. Non fit generatio, nisi sit 
+commix<lb break="no" ed="#Bc" n="52"/>tio seminum : talis autem actus in viro,
+<lb ed="#Bc" n="53"/>et talis receptio in muliere non fiunt nisi
+<lb ed="#Bc" n="54"/>vie viri aperiantur ad seminandum, et
+<lb ed="#Bc" n="55"/>mulieris ad recipiendum, et etiam ad 
+se<lb break="no" ed="#Bc" n="56"/>minandum : haec autem aperlio est 
+cor<lb break="no" ed="#Bc" n="57"/>ruptio virginitatis : ergo  virginitatis
+<lb ed="#Bc" n="58"/>corruptio in primo slatu fuisset.
+</p>
+            <p xml:id="alalal-d62147-d1e145">
+               <lb ed="#Bc" n="59"/>2. Item, Si manente virginitate 
+con<lb break="no" ed="#Bc" n="60"/>venissent in primo statu : ergo non 
+fuis<lb break="no" ed="#Bc" n="61"/>set parere in virginitate miraculosum in
+<lb ed="#Bc" n="62"/>Beata Virgine, quod absit : perdita ergo
+<lb ed="#Bc" n="63"/>fuisset virginitas.
+</p>
+            <p xml:id="alalal-d62147-d1e158">
+               <lb ed="#Bc" n="64"/>3. Item, Naturalia non sunt ablata per
+<lb ed="#Bc" n="65"/>peccatum, sed vulnerata: si ergo tunc
+<lb ed="#Bc" n="66"/>hoc eis fuisset naturale, etiam modo 
+ha<lb break="no" ed="#Bc" n="67"/>berent, licet cum majori difficultate.
+</p>
+            <p xml:id="alalal-d62147-d1e169">
+               <lb ed="#Bc" n="68"/>SED CONTRA :
+<lb ed="#Bc" n="69"/>Non corrumpitur virtus, vel status 
+vir<lb break="no" ed="#Bc" n="70"/>tutis nisi per vitium, vel id quod est ex
+<lb ed="#Bc" n="71"/>vilio : sed tune non fuisset vitium, vel 
+ac<lb break="no" ed="#Bc" n="72"/>tus libidinosus ex vitio: ergo non fuissct
+<lb ed="#Bc" n="73"/>corruptio virtutis vel status virtutis : 
+vir<lb break="no" ed="#Bc" n="74"/>ginitas est virtus, vel status virtutis : 
+er<lb break="no" ed="#Bc" n="75"/>go tunc non fuisset corrupta.
+</p>
+            <p xml:id="alalal-d62147-d1e189">
+               <lb ed="#Bc" n="76"/>Solutio. Tales questiones magis sunt
+<lb ed="#Bc" n="77"/>stulte, quam quod diu lJaboretur in eis :
+<lb ed="#Bc" n="78"/>tamen inducuntur hic a quibusdam.
+</p>
+            <p xml:id="alalal-d62147-d1e198">
+               <lb ed="#Bc" n="79"/>Dicendum ergo, quod corruptio 
+vir<lb break="no" ed="#Bc" n="80"/>ginitatis potest dicere violentiam vel 
+in<lb break="no" ed="#Bc" n="81"/>terruptionem meditationis perpetue 
+in<lb break="no" ed="#Bc" n="82"/>tegritatis : et sic non fuisset in primo 
+sta<lb break="no" ed="#Bc" n="83"/>tu : quia nec violentia ibi esse potuit, nec
+<lb ed="#Bc" n="84"/>delectatio suffocans interrumpere potuit
+<lb ed="#Bc" n="85"/>medilationem habitualem perpetue vir-
+</p>
+            <p xml:id="alalal-d62147-d1e216">
+               <pb ed="#Bc" n="344"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ginitatis: sed si corruptio dicit 
+simpli<lb break="no" ed="#Bc" n="2"/>cem portarum propagationis apertionem,
+<lb ed="#Bc" n="3"/>tunc in primo statu corrupta fuisset 
+vir<lb break="no" ed="#Bc" n="4"/>ginitas : et ideo in primo statu majoris
+<lb ed="#Bc" n="5"/>gloria fuit matrimonium, quam 
+virgini<lb break="no" ed="#Bc" n="6"/>tas: quia nullam coitus attulit 
+ignomi<lb break="no" ed="#Bc" n="7"/>hiam, et attulit prolis utilitatem : et
+<lb ed="#Bc" n="8"/>ideo etiam quia in precepto habuerunt
+<lb ed="#Bc" n="9"/>commisceri, quando dictum est eis: 
+Cre<lb break="no" ed="#Bc" n="10"/>sctteet multiplicamini.
+</p>
+            <p xml:id="alalal-d62147-d1e246">
+               <lb ed="#Bc" n="11"/>Et si queritur, Quando istud 
+prece<lb break="no" ed="#Bc" n="12"/>pium fuit relaxatum ? Dicendum quod.
+<lb ed="#Bc" n="13"/>ipsum ex causa datum est: et ideo illa
+<lb ed="#Bc" n="14"/>exstante tenuit, et adhuc teneret, et 
+te<lb break="no" ed="#Bc" n="15"/>nuit ante peccatum : haec autem causa 
+<lb ed="#Bc" n="16"/>fuit paucitas hominum : sed multitudine
+<lb ed="#Bc" n="17"/>facta, et_multis festinantibus ad 
+matri<lb break="no" ed="#Bc" n="18"/>monium, absolvuntur ad frugem 
+melio<lb break="no" ed="#Bc" n="19"/>ris vite convolantes propter melius 
+bo<lb break="no" ed="#Bc" n="20"/>num quod est contra feeditatem quae 
+ad<lb break="no" ed="#Bc" n="21"/>juncta est ad coitum ex peccato.
+</p>
+            <p xml:id="alalal-d62147-d1e272">
+               <lb ed="#Bc" n="22"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

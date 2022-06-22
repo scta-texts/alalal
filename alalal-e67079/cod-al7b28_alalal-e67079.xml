@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="354"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e67079"><!-- l3d20a1 -->
+            <head xml:id="alalal-e67079-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-e67079-Hd1e101" type="question-title">An alius modus liberationis est possibilis
+praeter illum quo liberatum est genus
+humanum ?</head>
+            <p xml:id="alalal-e67079-d1e104">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="33"/>ARTICULUS I.
+<lb ed="Bd" n="34"/>An alius modus liberationis est possibilis
+<lb ed="Bd" n="35"/>praeter illum quo liberatum est genus
+<lb ed="Bd" n="36"/>humanum ?
+</p>
+            <p xml:id="alalal-e67079-d1e117">
+               <lb ed="Bd" n="37"/>Incidit autem hic dubium primo, Si
+<lb ed="Bd" n="38"/>est alius modus possibilis, ut dicit, vel
+<lb ed="Bd" n="39"/>non ? aye
+</p>
+            <p xml:id="alalal-e67079-d1e126">
+               <lb ed="Bd" n="40"/>Et si hoc est verum, quod alius est
+<lb ed="Bd" n="41"/>possibilis : tunc quaeritur secundo, Qua
+<lb ed="Bd" n="42"/>possibilitate sit ille possibilis ?
+</p>
+            <p xml:id="alalal-e67079-d1e136">
+               <lb ed="Bd" n="43"/>Procepitur autem ad primum hoc 
+mo<lb break="no" ed="Bd" n="44"/>do :
+<lb ed="Bd" n="45"/>1. Dicit Anselmus, quod minimum 
+in<lb break="no" ed="Bd" n="46"/>conveniens decentissime justitia Dei
+<lb ed="Bd" n="47"/>est impossibile ; est autem maximum
+<lb ed="Bd" n="48"/>inconveniens injustilia judicii, et 
+praci<lb break="no" ed="Bd" n="49"/>pue coram judice illo a quo non est
+<lb ed="Bd" n="50"/>ad alium appellare : ergo sustinere 
+in<lb break="no" ed="Bd" n="51"/>justitiam impossibilis est Deo: sed 
+pec<lb break="no" ed="Bd" n="52"/>catum sine condigna satisfactione 
+remit<lb break="no" ed="Bd" n="53"/>tere, injustum judicium est: ergo hoc
+<lb ed="Bd" n="54"/>impossibile est Deo. Probatum autem
+<lb ed="Bd" n="55"/>est supra, et adhuc probabitur amplius,
+<lb ed="Bd" n="56"/>non posse facere condignam 
+satisfactio<lb break="no" ed="Bd" n="57"/>nem pro peccato nisi Deum ect hominem :
+<lb ed="Bd" n="58"/>hoc enim dixit Ambrosius in precedenti
+<lb ed="Bd" n="59"/>distinctione : ergo videtur alius modus
+<lb ed="Bd" n="60"/>non fuisse possibilis.
+</p>
+            <p xml:id="alalal-e67079-d1e178">
+               <pb ed="#Bd" n="355"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>2. Item, Congruentia et 
+incongruen<lb break="no" ed="Bd" n="2"/>lia opponuntur: aut igitur in genere
+<lb ed="Bd" n="3"/>nature, aut in generis moris. Constat,
+<lb ed="Bd" n="4"/>prout hic loquitur de eis, quod non 
+op<lb break="no" ed="Bd" n="5"/>ponuntur in genere nature : quia non
+<lb ed="Bd" n="6"/>loquitur de natnris, sed de opere 
+voiur<lb break="no" ed="Bd" n="7"/>tatis, quod est liberatio : ergo 
+opponun<lb break="no" ed="Bd" n="8"/>turin genere moris : ergo si congruum
+<lb ed="Bd" n="9"/>est bonum, oportet quod incongruum sit
+<lb ed="Bd" n="10"/>malum, quia bonum bono non 
+oppo<lb break="no" ed="Bd" n="11"/>nitur : sed Deus vel Filius Dei non
+<lb ed="Bd" n="12"/>potest facere malum: ergo non potest
+<lb ed="Bd" n="13"/>facere incongruum. Si igitur alius 
+mo<lb break="no" ed="Bd" n="14"/>dus non fuit congruus nostra miseriae
+<lb ed="Bd" n="15"/>sanande, alius modus non fuit Deo 
+pos<lb break="no" ed="Bd" n="16"/>sibilis.
+</p>
+            <p xml:id="alalal-e67079-d1e220">
+               <lb ed="Bd" n="17"/>3. Item, Cum queeritur,ut dicit 
+Ansel<lb break="no" ed="Bd" n="18"/>mus, Utrum alio modo liberare 
+pote<lb break="no" ed="Bd" n="19"/>rat genus humanum? non quaeritur 
+mo<lb break="no" ed="Bd" n="20"/>dus ex parte Dei qui omnia potest, sed
+<lb ed="Bd" n="21"/>queritur modus ex parte nostra: 
+er<lb break="no" ed="Bd" n="22"/>go hoc est querere, Si alio modo exire
+<lb ed="Bd" n="23"/>poteramus nos de reatu peccati ? 
+Con<lb break="no" ed="Bd" n="24"/>stat autem, quod non nisi per Deum
+<lb ed="Bd" n="25"/>satisfacientem, qui etiam esset homo, ut
+<lb ed="Bd" n="26"/>probat Anselmus : ergo alius modus non
+<lb ed="Bd" n="27"/>fuit Deo possibilis.
+</p>
+            <p xml:id="alalal-e67079-d1e246">
+               <lb ed="Bd" n="28"/>4. Item, Hoc videntur expresse dicere
+<lb ed="Bd" n="29"/>quaedam auctoritates, quarum una est,
+<lb ed="Bd" n="30"/>ad Titum,u, 11, Glossa super illud, 
+Appa<lb break="no" ed="Bd" n="31"/>ruit gratia, etc., dicit sic: <quote xml:id="alalal-e67079-Qd1e256"> Non essemus
+<lb ed="Bd" n="32"/>participes deitatis ejus, nisi ipse parliceps
+<lb ed="Bd" n="33"/>esset nostra mortalitatis. </quote> Cum igitur
+<lb ed="Bd" n="34"/>non sumus participes, nisi per gratiam
+<lb ed="Bd" n="35"/>reconciliationis, non essemus 
+reconcilia<lb break="no" ed="Bd" n="36"/>ti, nisi in nostra humanitate mortuus
+<lb ed="Bd" n="37"/>esset pro nobis.
+</p>
+            <p xml:id="alalal-e67079-d1e273">
+               <lb ed="Bd" n="38"/>Item, ad Roman. vy, 19, super illud,
+<lb ed="Bd" n="39"/>Sicut enim per inobedientiam untius, etc.,
+<lb ed="Bd" n="40"/>Glossa : <quote xml:id="alalal-e67079-Qd1e281"> Illa fides sana est, qua credimus
+<lb ed="Bd" n="41"/>nullum hominem sive parvule etatis,
+<lb ed="Bd" n="42"/>sive majoris, liberari a contagio mortis
+<lb ed="Bd" n="43"/>antique, et obligatione peccati, quam
+<lb ed="Bd" n="44"/>prima nativitas contraxit, nisi per 
+me<lb break="no" ed="Bd" n="45"/>diatorem unum Dei et hominum, homi-.
+<lb ed="Bd" n="46"/>nem Jesum Christum, cujus saluberrima
+<lb ed="Bd" n="47"/>lide illi facti sunt salvi. </quote>
+            </p>
+            <p xml:id="alalal-e67079-d1e300">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>Item, Anselmus in libro Car Deus
+<lb ed="Bd" n="49"/>homo: <quote xml:id="alalal-e67079-Qd1e308"> Non poterat transire calicem
+<lb ed="Bd" n="50"/>nisi biberet, non quia non posset vilare
+<lb ed="Bd" n="51"/>mortem si vellet, sed (sicut dictum est)
+<lb ed="Bd" n="52"/>impossibile erat aliter salvare mundum.</quote>
+            </p>
+            <p xml:id="alalal-e67079-d1e319">
+               <lb ed="Bd" n="53"/>item, ad Hebr. 10, super illud,
+<lb ed="Bd" n="54"/>
+               <quote xml:id="alalal-e67079-Qd1e325">Auctorem salutis ecoruim per passionem
+<lb ed="Bd" n="55"/>consummare</quote>, etc., Glossa : <quote xml:id="alalal-e67079-Qd1e330"> Nisi Christus
+<lb ed="Bd" n="56"/>moreretur, home non redimeretur : et
+<lb ed="Bd" n="57"/>non redemptus periret, et frustra essent
+<lb ed="Bd" n="58"/>omnia facta. </quote>
+            </p>
+            <p xml:id="alalal-e67079-d1e340">
+               <lb ed="Bd" n="59"/>Ex his et multis aliis videtur concludi,
+<lb ed="Bd" n="60"/>quod non erat alius modus possibilis ad
+<lb ed="Bd" n="61"/>liberandum genus humanum.
+</p>
+            <p xml:id="alalal-e67079-d1e349">
+               <lb ed="Bd" n="62"/>5. Item quidam objiciunt sic: Deus
+<lb ed="Bd" n="63"/>illum modum previderat et 
+pradestina<lb break="no" ed="Bd" n="64"/>verat, quia predestinatio est de omnibus
+<lb ed="Bd" n="65"/>bonis salutaribus: sed quod predestina~
+<lb ed="Bd" n="66"/>tum est, impossibile est non esse : et 
+ne<lb break="no" ed="Bd" n="67"/>cesse esse, et possibile non esse, sunt
+<lb ed="Bd" n="68"/>contradictoriae in quarto et secundo 
+mo<lb break="no" ed="Bd" n="69"/>do modahum.
+</p>
+            <p xml:id="alalal-e67079-d1e369">
+               <lb ed="Bd" n="70"/>G. Item, Fides Patriarcharum credidit
+<lb ed="Bd" n="71"/>hunc modum: fidei autem non potest
+<lb ed="Bd" n="72"/>subesse falsum : ergo necesse fuit esse,
+<lb ed="Bd" n="73"/>hunc modum liberationis : ergo non fuit
+<lb ed="Bd" n="74"/>possibile .esse alium.
+</p>
+            <p xml:id="alalal-e67079-d1e382">
+               <lb ed="Bd" n="75"/>SED CONTRA :
+<lb ed="Bd" n="76"/>Gregorius in Moralibus : <quote xml:id="alalal-e67079-Qd1e388"> Qui nos
+<lb ed="Bd" n="77"/>existere fecit de nihilo, revocare etiam
+<lb ed="Bd" n="78"/>sine morte sua et passione potuit*. </quote>
+            </p>
+            <p xml:id="alalal-e67079-d1e396">
+               <lb ed="Bd" n="79"/>Item, Leo Papa in legenda in ramis
+<lb ed="Bd" n="80"/>palmarum: <quote xml:id="alalal-e67079-Qd1e402"> Omnipotentia Filii Dei
+<lb ed="Bd" n="81"/>que propter eamdem = essentiam est
+<lb ed="Bd" n="82"/>equalis Patri, poluisset genus humanum
+<lb ed="Bd" n="83"/>a diaboli dominio solo imperio sue 
+vo<lb break="no" ed="Bd" n="84"/>luntatis exuere, nisiin divinis operibus
+<lb ed="Bd" n="85"/>maxime congruisset ut nequilie hostilis
+<lb ed="Bd" n="86"/>adversitas de eo quod vicerat 
+vincere<lb break="no" ed="Bd" n="87"/>tur. </quote>
+            </p>
+            <p xml:id="alalal-e67079-d1e422">
+               <lb ed="Bd" n="88"/>Item, <ref xml:id="alalal-e67079-Rd1e426">Augustinus in libro XIII de
+<lb ed="Bd" n="89"/>Trinitate</ref> : <quote xml:id="alalal-e67079-Qd1e431"> Eos itaque qui dicunt, 
+Ita<lb break="no" ed="Bd" n="90"/>ne defuit Deo modus alius quo lberaret
+<lb ed="Bd" n="91"/>homines a miseria mortalitatis hujus, ut
+<lb ed="Bd" n="92"/>unigenitum Filium Deum sibi 
+coeter<lb break="no" ed="Bd" n="93"/>num, hominem fieri vellet, induendo
+<lb ed="Bd" n="94"/>humanam animam et carnem, morta-
+<pb ed="#Bd" n="356"/>
+                  <cb ed="#Bd" n="a"/>
+                  <lb ed="Bd" n="1"/>lemque factum, mortem perpeti : parum
+<lb ed="Bd" n="2"/>est sic refellere, ut istum modum 
+asse<lb break="no" ed="Bd" n="3"/>ramus bonum et divinae congruum 
+di<lb break="no" ed="Bd" n="4"/>gnitatis: verum etiam ut ostendamus
+<lb ed="Bd" n="5"/>non alium modum possibilem Deo 
+de<lb break="no" ed="Bd" n="6"/>fuisse, cujus potestati cuncta aequaliter
+<lb ed="Bd" n="7"/>subjacent, sed sanande nostra miserie
+<lb ed="Bd" n="8"/>convenientiorem modum alium non
+<lb ed="Bd" n="9"/>fuisse '. </quote>
+            </p>
+            <p xml:id="alalal-e67079-d1e469">
+               <lb ed="Bd" n="10"/>Item, Super illud Psalmi xx1,3- £¢
+<lb ed="Bd" n="11"/>non ad insipientiam mihi, dicit Glossa :
+<lb ed="Bd" n="12"/>
+               <quote xml:id="alalal-e67079-Qd1e477"> Ut sapienter genus humanum meo 
+san<lb break="no" ed="Bd" n="13"/>guine liberetur : nullus enim 
+convenien<lb break="no" ed="Bd" n="14"/>ior modus nostre liberationis, quam
+<lb ed="Bd" n="15"/>ut homo qui per superbiam cecidit, per
+<lb ed="Bd" n="16"/>humiltatem resurgat. </quote>
+            </p>
+            <p xml:id="alalal-e67079-d1e489">
+               <lb ed="Bd" n="17"/>Ad hoc sunt etiam rationes non 
+so<lb break="no" ed="Bd" n="18"/>lum probantes, quod alius fuit possibilis,
+<lb ed="Bd" n="19"/>sed etiam quod alius fuit magis 
+con<lb break="no" ed="Bd" n="20"/>gruus.
+</p>
+            <p xml:id="alalal-e67079-d1e500">
+               <lb ed="Bd" n="21"/>1. Dignum enim honore non congruit
+<lb ed="Bd" n="22"/>pati peenas et exsilium. Filius autem fuit
+<lb ed="Bd" n="23"/>omni honore dignus : ergo non debebat
+<lb ed="Bd" n="24"/>sibi hoc ad injuriam facere, ut poenas et
+<lb ed="Bd" n="25"/>exsilium subiret,
+</p>
+            <p xml:id="alalal-e67079-d1e513">
+               <lb ed="Bd" n="26"/>2, Item, Sine satisfactione remittere
+<lb ed="Bd" n="27"/>peccatum fuisset majoris perfectionis :
+<lb ed="Bd" n="28"/>ergo fuisset Deo perfectissimo magis
+<lb ed="Bd" n="29"/>congruus ile modus. Propatio prime
+<lb ed="Bd" n="30"/>est, quod ad hoc nos invitat, ut 
+diliga<lb break="no" ed="Bd" n="31"/>mus inimicos, et ut dimittamus omnibus
+<lb ed="Bd" n="32"/>debentibus nobis, etiam praeter hoc quod
+<lb ed="Bd" n="33"/>exigamus salisfactionem. Si ergo bonum
+<lb ed="Bd" n="34"/>suadet nobis, primo debuit hoc facere in
+<lb ed="Bd" n="35"/>seipso.
+</p>
+            <p xml:id="alalal-e67079-d1e537">
+               <lb ed="Bd" n="36"/>Si dicas, quod seipsum negare non
+<lb ed="Bd" n="37"/>potuit : negasset autem seipsum, si 
+face<lb break="no" ed="Bd" n="38"/>rel contra justitiam suam. Contra: 
+Sic<lb break="no" ed="Bd" n="39"/>ut ipse sua justitia est, ita est ipse sua
+<lb ed="Bd" n="40"/>misericordia quae superexaltat judicium :
+<lb ed="Bd" n="41"/>ergo exigendo tam gravem emendam,
+<lb ed="Bd" n="42"/>videtur venire contra suam 
+misericor<lb break="no" ed="Bd" n="43"/>diam.
+</p>
+            <p xml:id="alalal-e67079-d1e558">
+               <lb ed="Bd" n="44"/>3. Item, Impius judex est qui plus
+<lb ed="Bd" n="45"/>exigit in emenda, quam posset reus 
+fa<lb break="no" ed="Bd" n="46"/>cere: quia ille non quaerit 
+emendatio<lb break="no" ed="Bd" n="47"/>nem rei, sed sitit sanguinem ejus, cum
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>omnis justitia non querat nisi emendare
+<lb ed="Bd" n="49"/>hominem et salvare : ergo si Deus 
+exi<lb break="no" ed="Bd" n="50"/>git talem emendam quam non _posset
+<lb ed="Bd" n="51"/>prestare purus homo vel homo in statu
+<lb ed="Bd" n="52"/>in quem ceciderat, videtur quod non
+<lb ed="Bd" n="53"/>decenter illud exegit, sed impie, sitiendo
+<lb ed="Bd" n="54"/>mortem hominis: ergo cum hoc non
+<lb ed="Bd" n="55"/>sit fas credere de Deo, videtur quod 
+ho<lb break="no" ed="Bd" n="56"/>mo purus per se satisfacere potuit: et
+<lb ed="Bd" n="57"/>sic alius fuit modus Deo possibilis.
+</p>
+            <p xml:id="alalal-e67079-d1e593">
+               <lb ed="Bd" n="58"/>4. Velsi tu dicas, quod homo non
+<lb ed="Bd" n="59"/>fuit in gratia, et ita nihil gratum faccre
+<lb ed="Bd" n="60"/>potuit. Conrra hoc est, qued cum homo
+<lb ed="Bd" n="61"/>facit quod potest, statim dat ei Deus
+<lb ed="Bd" n="62"/>gratiam : sed multi fuerunt qui fecerunt
+<lb ed="Bd" n="63"/>quod potuerunt, et gratiam habuerunt,
+<lb ed="Bd" n="64"/>et sic possibile fuit de omnibus si se 
+pre<lb break="no" ed="Bd" n="65"/>parassent : ergo videtur, quod Deus id
+<lb ed="Bd" n="66"/>quod potuerunt facere, aeceptare debuit.
+</p>
+            <p xml:id="alalal-e67079-d1e615">
+               <lb ed="Bd" n="67"/>5. Item, I Joan. v, 3, dicitur, quod
+<lb ed="Bd" n="68"/>
+               <quote xml:id="alalal-e67079-Qd1e621">mandata ejus gravia non sunt</quote>. Et 
+Hie<lb break="no" ed="Bd" n="69"/>ronymus dicit, quod anathema sit qui
+<lb ed="Bd" n="70"/>dicit Deum precepisse impossibilia. 
+Er<lb break="no" ed="Bd" n="71"/>go numquam exigit ab homine talem
+<lb ed="Bd" n="72"/>emendationis modum, quem non posset
+<lb ed="Bd" n="73"/>explere nisi Deus esset homo. ut 
+vide<lb break="no" ed="Bd" n="74"/>tur.
+</p>
+            <p xml:id="alalal-e67079-d1e637">
+               <lb ed="Bd" n="75"/>Solutio Sine prajudicio dico, quod
+<lb ed="Bd" n="76"/>alius fuit modus possibilis, considerata
+<lb ed="Bd" n="77"/>potestate Dei cui mhil injustum est, ut
+<lb ed="Bd" n="78"/>dicit Anselmus, et nihil impossibile : sed
+<lb ed="Bd" n="79"/>tamen ex parte nostra impossibile fuit
+<lb ed="Bd" n="80"/>nos redimi nisi per Deum et hominem :
+<lb ed="Bd" n="81"/>non quod hoc intendam dicere, quod si
+<lb ed="Bd" n="82"/>Deus nos liberasset quin essemus 
+li<lb break="no" ed="Bd" n="83"/>berati: sed est considerare potentiam
+<lb ed="Bd" n="84"/>liberationis ex parte Dei, et ex parte
+<lb ed="Bd" n="85"/>nostra, et ex parte utriusque simul, 
+sci<lb break="no" ed="Bd" n="86"/>licet Dei et hominis. Ex parte Dei 
+qui<lb break="no" ed="Bd" n="87"/>dem fuit alias modus possibilis : ex 
+par<lb break="no" ed="Bd" n="88"/>te hominis autem videtur mihi alius 
+mo<lb break="no" ed="Bd" n="89"/>dus impossibilis. Si vero ex parte 
+utrius<lb break="no" ed="Bd" n="90"/>que consideretur, id est, nostra possibilitas
+<lb ed="Bd" n="91"/>ad Dei potentiam relata in qua fit 
+quid<lb break="no" ed="Bd" n="92"/>quid ipse vult, fuit alius quidem modus
+<lb ed="Bd" n="93"/>possibilis, sed nullus ita conveniens. Si
+<pb ed="#Bd" n="357"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>enim queratur, Utrum de trunco potest
+<lb ed="Bd" n="2"/>fieri vitulus ? dicimus quod non. Si 
+au<lb break="no" ed="Bd" n="3"/>tem queratur, Utrum Deus de trunco
+<lb ed="Bd" n="4"/>potest facere vitulum ? dicimus quod
+<lb ed="Bd" n="5"/>sic.
+</p>
+            <p xml:id="alalal-e67079-d1e696">
+               <lb ed="Bd" n="6"/>His habitis, planum est respondere 
+ob<lb break="no" ed="Bd" n="7"/>jectis.
+</p>
+            <p xml:id="alalal-e67079-d1e703">
+               <lb ed="Bd" n="8"/>Ad pRIMUM enim dicendum, quod 
+dimit<lb break="no" ed="Bd" n="9"/>tere culpam impunitam dicitur dupliciter,
+<lb ed="Bd" n="10"/>scilicet impunitam, hoc est, sine omni
+<lb ed="Bd" n="11"/>peena : et hoc est impossibile coram 
+ju<lb break="no" ed="Bd" n="12"/>dicio Dei: quia, sicut dicit Anselmus,
+<lb ed="Bd" n="13"/>esset coram Deo impius sicut justus, et
+<lb ed="Bd" n="14"/>placeret Deo peccatum sicut et virtus,
+<lb ed="Bd" n="15"/>quod est impossibile. Vel dimittere 
+pec<lb break="no" ed="Bd" n="16"/>catum sine condigna pena: et hoc est
+<lb ed="Bd" n="17"/>judicis quarentis emendam rei, et hoc
+<lb ed="Bd" n="18"/>modo fuisset, si Deus homini sine 
+mor<lb break="no" ed="Bd" n="19"/>te Fillii peccatum indulsisset : puniverat
+<lb ed="Bd" n="20"/>enim hominem in hac vita, et in 
+purga<lb break="no" ed="Bd" n="21"/>torio amplius punire potuit : et ita nihil
+<lb ed="Bd" n="22"/>indecens ex parte sua ex hoc sequeretur.
+</p>
+            <p xml:id="alalal-e67079-d1e739">
+               <lb ed="Bd" n="23"/>Ad aliud dicendum, quod congruum
+<lb ed="Bd" n="24"/>et incongruum ex parte nostra 
+sumun<lb break="no" ed="Bd" n="25"/>tur, et non ex parte judicii Dei, cui 
+con<lb break="no" ed="Bd" n="26"/>gruum est omne quod facil : quia etiam
+<lb ed="Bd" n="27"/>illud quod videtur incongruum ex 
+con<lb break="no" ed="Bd" n="28"/>trario usu, si Deus faceret, 
+congruissi<lb break="no" ed="Bd" n="29"/>mum esset : unde si parceret a pcena
+<lb ed="Bd" n="30"/>condigna, clementiae deputaretur, 
+dum<lb break="no" ed="Bd" n="31"/>modo justitia pro tanto salvaretur,
+<lb ed="Bd" n="32"/>quod remaneret peccatum ultum poena
+<lb ed="Bd" n="33"/>emendante, non suffocante reum.
+</p>
+            <p xml:id="alalal-e67079-d1e765">
+               <lb ed="Bd" n="34"/>Ad aliud dicendum, quod bene 
+conce<lb break="no" ed="Bd" n="35"/>do, quod si possibiltas ex parte nostra
+<lb ed="Bd" n="36"/>attendatur, ut dict Anselmus, quod non
+<lb ed="Bd" n="37"/>erit justitia nisi restituens ablatum, et
+<lb ed="Bd" n="38"/>satisfaciens offenses : et hoc non potuit
+<lb ed="Bd" n="39"/>esse nisi per Deum et hominem, ut 
+di<lb break="no" ed="Bd" n="40"/>cunt Anselmus et Ambrosius.
+</p>
+            <p xml:id="alalal-e67079-d1e783">
+               <lb ed="Bd" n="41"/>Ad aliud dicenduin, quod omnes ill
+<lb ed="Bd" n="42"/>auctoritates loquuntur de possibilitate
+<lb ed="Bd" n="43"/>congruenti#, et non de potestate Dei in
+<lb ed="Bd" n="44"/>se.
+</p>
+            <p xml:id="alalal-e67079-d1e794">
+               <lb ed="Bd" n="45"/>An atrup dicendum, quod 
+predestina<lb break="no" ed="Bd" n="46"/>tio non imponit necessitatem, sed 
+immu<lb break="no" ed="Bd" n="47"/>tabilitatem facit : et ideo nihil prohibet
+<lb ed="Bd" n="48"/>quin adhuc alius modus sit possibilis, si
+<lb ed="Bd" n="49"/>liberatio in genere et in se considerctur,
+</p>
+            <p xml:id="alalal-e67079-d1e807">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>Av Atiup dicendum, quod fides est de
+<lb ed="Bd" n="51"/>eo quod non erit aliter quam creditur,
+<lb ed="Bd" n="52"/>sed tamen possibile est esse aliter : fides
+<lb ed="Bd" n="53"/>enim et predestinatio bene tollunt 
+ac<lb break="no" ed="Bd" n="54"/>tum immutabilitatis in contrarium, vel
+<lb ed="Bd" n="55"/>in aliud quam sit hoc de quo sunt, sed
+<lb ed="Bd" n="56"/>non tollunt potentiam mutabilitatis : et
+<lb ed="Bd" n="57"/>ideo illa argumenta non cogunt.
+</p>
+            <p xml:id="alalal-e67079-d1e829">
+               <lb ed="Bd" n="58"/>OporTerT ctiain solvere ea quae sunt ad
+<lb ed="Bd" n="59"/>oppositum : quia secundum meam 
+opi<lb break="no" ed="Bd" n="60"/>nionem ex parte nostra attendendo 
+po<lb break="no" ed="Bd" n="61"/>tentiam satisfaciendi, non fuit possibilis
+<lb ed="Bd" n="62"/>alius modus.
+</p>
+            <p xml:id="alalal-e67079-d1e843">
+               <lb ed="Bd" n="63"/>Dico ergo ad primum, quod omnes
+<lb ed="Bd" n="64"/>ille auctoritates loquuntur de potentia
+<lb ed="Bd" n="65"/>Dei liberantis, et non de potentia 
+homi<lb break="no" ed="Bd" n="66"/>nis debentis satisfacere.
+</p>
+            <p xml:id="alalal-e67079-d1e854">
+               <lb ed="Bd" n="67"/>Ad id autem quod objicitur per 
+ratio<lb break="no" ed="Bd" n="68"/>nes, dicendum quod Filium Dei ex 
+bo<lb break="no" ed="Bd" n="69"/>nitate decuit omne signum  dilectionis
+<lb ed="Bd" n="70"/>homini exhibere, quod pertinebat ad 
+sa<lb break="no" ed="Bd" n="71"/>lutem, nisi hoc cederet in injuriam 
+ju<lb break="no" ed="Bd" n="72"/>stitiae vel deitatis : sed non in injuriam
+<lb ed="Bd" n="73"/>fuit deitatis : quia deitas nec passa, nec
+<lb ed="Bd" n="74"/>compassa fuit : sed in humana natura
+<lb ed="Bd" n="75"/>passus est Filius Dei: et in hac deitatem
+<lb ed="Bd" n="76"/>decuit exsilium et mortalitas.
+</p>
+            <p xml:id="alalal-e67079-d1e878">
+               <lb ed="Bd" n="77"/>Ad aliud dicendum, quod alio modo
+<lb ed="Bd" n="78"/>remittere injuriam potuit Deus, sed ex
+<lb ed="Bd" n="79"/>parte hommis remansisset verecundia,
+<lb ed="Bd" n="80"/>scilicet quod homo abstulisset quod non
+<lb ed="Bd" n="81"/>reddidisset. Et si queras, Utrum Deus
+<lb ed="Bd" n="82"/>hance verecundiam auferre potuisset ?
+<lb ed="Bd" n="83"/>Dico sine preejudicio, quod opprobrium
+<lb ed="Bd" n="84"/>quidem auferre potuit : sed tamen 
+veri<lb break="no" ed="Bd" n="85"/>tatem mutare non potuisset : quia contra
+<lb ed="Bd" n="86"/>se fecisset. De praeterito enim verum fuit,
+<lb ed="Bd" n="87"/>quod homo rapuit quae per se exsolvere
+<lb ed="Bd" n="88"/>non potuit : et ideo congruissimum fuit
+<lb ed="Bd" n="89"/>judici clementissimo, ut tale faceret 
+judi<lb break="no" ed="Bd" n="90"/>cium, ut destrueretur peccatum, et 
+ho<lb break="no" ed="Bd" n="91"/>mo tantum vel plus dando quam rapuit,
+<lb ed="Bd" n="92"/>ab opprobrio simul et peccato 
+liberare<lb break="no" ed="Bd" n="93"/>tur.
+</p>
+            <p xml:id="alalal-e67079-d1e917">
+               <lb ed="Bd" n="94"/>Av atiup dicendum, quod plus 
+exi<lb break="no" ed="Bd" n="95"/>gere quam homo possit, dicitur duobus
+<lb ed="Bd" n="96"/>moadis, scilicet simpliciter, et sic sonat
+<lb ed="Bd" n="97"/>extorsioucm . vel de expensis judicis, ut
+<pb ed="#Bd" n="358"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>reus pristinam recipiat dignitatem : et
+<lb ed="Bd" n="2"/>sic exigere plus quam purus homo possit,
+<lb ed="Bd" n="3"/>sonat misericordiam et bonitatem judicis
+<lb ed="Bd" n="4"/>erga nos : et hoc est quod dicit Psalmus
+<lb ed="Bd" n="5"/>cx, 9 : Redemptionem misit Dominus
+<lb ed="Bd" n="6"/>populo suo. Quod enim ulira vires nostras
+<lb ed="Bd" n="7"/>exegit, ad gloriae nostre cumulum fuit :
+<lb ed="Bd" n="8"/>quia aliter semper conscientia teslis 
+veri<lb break="no" ed="Bd" n="9"/>tatis, diceret nos rapuisse, et non solvisse
+<lb ed="Bd" n="10"/>Dei honorem.
+</p>
+            <p xml:id="alalal-e67079-d1e954">
+               <lb ed="Bd" n="11"/>Ad aliud dicendum, quod homo in
+<lb ed="Bd" n="12"/>quantacumque gratia sit, dummodo sit
+<lb ed="Bd" n="13"/>purus homo, non potest satisfacere pro
+<lb ed="Bd" n="14"/>peccato quod in omnem mundum 
+redun<lb break="no" ed="Bd" n="15"/>davit : et hoc sufficienter in pramissis
+<lb ed="Bd" n="16"/>probatum est: nec tamen secundum dicta
+<lb ed="Bd" n="17"/>Sanctorum credo, quod umquam alicui
+<lb ed="Bd" n="18"/>post primum peccatum gratia salutis data
+<lb ed="Bd" n="19"/>sit, nisi in dilectione unigeniti et fide,
+<lb ed="Bd" n="20"/>qui omnes reconciliavit. Non dico, quod
+<lb ed="Bd" n="21"/>non dari potuerit quantum est de 
+poten<lb break="no" ed="Bd" n="22"/>tia Dei. Et sic patet, quod nihil est quod
+<lb ed="Bd" n="23"/>objicit.
+</p>
+            <p xml:id="alalal-e67079-d1e985">
+               <lb ed="Bd" n="24"/>Ad aliud dicendum, quod mandata non
+<lb ed="Bd" n="25"/>sunt gravia habenti charitatem : et hoc
+<lb ed="Bd" n="26"/>ideo quia Filius Dei nobis ea alleviavit,
+<lb ed="Bd" n="27"/>sustinendo pro nobis quod nos sustinere
+<lb ed="Bd" n="28"/>debebamus : quia Dominus posuit in eo
+<lb ed="Bd" n="29"/>iniguilatem omnium nostrum ' : et ideo
+<lb ed="Bd" n="30"/>modo facile est nobis. Unde potest dici,
+<lb ed="Bd" n="31"/>ut prius, quod sic a nobis ad injuriam
+<lb ed="Bd" n="32"/>nostram non exegit impossibile nobis,
+<lb ed="Bd" n="33"/>sed ad gloriam, cum ipse daret 
+Unigeni<lb break="no" ed="Bd" n="34"/>tum per quem factum est possibile, quod
+<lb ed="Bd" n="35"/>ante erat nobis impossibile, licet non Deo
+<lb ed="Bd" n="36"/>cui nihil est difficile.
+</p>
+            <p xml:id="alalal-e67079-d1e1017">
+               <lb ed="Bd" n="37"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

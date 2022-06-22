@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="289"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g58447"><!-- l4d12dt1 -->
+            <head xml:id="alalal-g58447-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-g58447-d1e101">
+               <lb ed="#Be" n="18"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-g58447-d1e106">
+               <lb ed="#Be" n="19"/>
+               <quote xml:id="alalal-g58447-Qd1e110"> Sub alia autem specie tribus, etc. </quote>
+               <lb ed="#Be" n="20"/>In hac distinctione incipit pars illa in
+<lb ed="#Be" n="21"/>qua agitur de transubstantiatione ex par-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="22"/>te eorum quae transmutantur, scilicet
+<lb ed="#Be" n="23"/>substantia panis et vini.
+</p>
+            <p xml:id="alalal-g58447-d1e124">
+               <lb ed="#Be" n="24"/>Et dividitur pars illa in tres partes : in
+<lb ed="#Be" n="25"/>quarum prima tangit causas quare sub
+<lb ed="#Be" n="26"/>alia specie, quam sub propria dedit 
+cor<lb break="no" ed="#Be" n="27"/>pus suum. In secunda autem tangit 
+qua<lb break="no" ed="#Be" n="28"/>le corpus dedit, ibi, D, § 2: <quote xml:id="alalal-g58447-Qd1e137"> Corpus
+<lb ed="#Be" n="29"/>vero tale dedit, quale tunc habuit, etc. </quote>
+               <lb ed="#Be" n="30"/>In tertia vero tangit modum remanendi
+<pb ed="#Be" n="290"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>qui accidentibus competit, ibi, E, <quote xml:id="alalal-g58447-Qd1e150"> St
+<lb ed="#Be" n="2"/>autem queritur de accidentibus, etc. </quote>
+            </p>
+            <p xml:id="alalal-g58447-d1e156">
+               <lb ed="#Be" n="3"/>In prima parte tanguntur ulterius tria :
+<lb ed="#Be" n="4"/>in quorum primo tangit, quare sub alia
+<lb ed="#Be" n="5"/>specie dederit corpus suum. In secunda,
+<lb ed="#Be" n="6"/>tangit causas, quare sub duplici specie,
+<lb ed="#Be" n="7"/>ibi, B, <quote xml:id="alalal-g58447-Qd1e169"> Sed quare sub duplicit specie
+<lb ed="#Be" n="8"/>sumitur, etc. </quote> In tertia autem tangit de
+<lb ed="#Be" n="9"/>aqua admixta, ibi, C, <quote xml:id="alalal-g58447-Qd1e176"> Agua vere 
+ad<lb break="no" ed="#Be" n="10"/>miscenda est, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

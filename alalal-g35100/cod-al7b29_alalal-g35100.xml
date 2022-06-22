@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="179"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g35100"><!-- l4d8a3 -->
+            <head xml:id="alalal-g35100-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-g35100-Hd1e101" type="question-title">Quae sit causa, quare hoc sacramentum
+viaticum dicatur ?</head>
+            <p xml:id="alalal-g35100-d1e104">
+               <lb ed="#Be" n="69"/>ARTICULUS III.
+<lb ed="#Be" n="70"/>Quae sit causa, quare hoc sacramentum
+<lb ed="#Be" n="71"/>viaticum dicatur ?
+</p>
+            <p xml:id="alalal-g35100-d1e113">
+               <lb ed="#Be" n="72"/>Deinde queritur de hoc quod dicitur,
+<lb ed="#Be" n="73"/>ibi, A, circa finem : <quote xml:id="alalal-g35100-Qd1e119"> Unde recte 
+viati<lb break="no" ed="#Be" n="74"/>cum appellatur, etc. </quote> Supra enim
+<lb ed="#Be" n="75"/>dedit ei aliud nomen, scilicet 
+Huchari<lb break="no" ed="#Be" n="76"/>stiam.
+</p>
+            <p xml:id="alalal-g35100-d1e129">
+               <lb ed="#Be" n="77"/>Et queritur ratio horum nominum.
+</p>
+            <p xml:id="alalal-g35100-d1e135">
+               <lb ed="#Be" n="78"/>Et dicendum, quod viaticum dicitur
+<lb ed="#Be" n="79"/>tribus de causis, scilicet, quia viatorum
+<lb ed="#Be" n="80"/>est ad viam preparatio, ut dicitur in
+<lb ed="#Be" n="81"/>Littera. Unde, Ii Reg. xrx, 7 et 8:
+<lb ed="#Be" n="82"/>Surge, comede, grandis enim tibi restat
+<lb ed="#Be" n="83"/>via, dictum est Elie : et comedit, et 
+bi<lb break="no" ed="#Be" n="84"/>bit, et ambulavit in fortitudine cibi 
+il<lb break="no" ed="#Be" n="85"/>lius.., usqguead montem Dei Horeb.
+</p>
+            <p xml:id="alalal-g35100-d1e155">
+               <lb ed="#Be" n="86"/>Secunda ratio est, quia non est 
+sacra<lb break="no" ed="#Be" n="87"/>mentum hoc nisi in via. Et ideo in qua
+<pb ed="#Be" n="180"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>dam Collecta dicit Gregorius: <quote xml:id="alalal-g35100-Qd1e168"> Presta,
+<lb ed="#Be" n="2"/>ut quod nunc in specie rerum gerimus,
+<lb ed="#Be" n="3"/>veritate capiamus. </quote> Et Dionysius in
+<lb ed="#Be" n="4"/>Eccclesiastica hierarchia : <quote xml:id="alalal-g35100-Qd1e177"> Arbitramur
+<lb ed="#Be" n="5"/>Jesu participationis ipsam divinissime
+<lb ed="#Be" n="6"/>Eucharistiae assumptionem esse 
+imagi<lb break="no" ed="#Be" n="7"/>nem }, </quote>
+            </p>
+            <p xml:id="alalal-g35100-d1e187">
+               <lb ed="#Be" n="8"/>Tertia causa est, quia est memoriale
+<lb ed="#Be" n="9"/>quoddam viae Domini transeuntis ad 
+Pas<lb break="no" ed="#Be" n="10"/>sionem pro nobis. Exod. xu, 11 : Est
+<lb ed="#Be" n="11"/>enim phase, (id est, transitus) Domini.
+<lb ed="#Be" n="12"/>Et Dionysius : <quote xml:id="alalal-g35100-Qd1e200"> Divinissima unius et
+<lb ed="#Be" n="13"/>ejusdem panis et vini et calicis 
+commu<lb break="no" ed="#Be" n="14"/>nio et pacifica traditio similem 
+conversa<lb break="no" ed="#Be" n="15"/>tionem eis divinam tamquam similiter
+<lb ed="#Be" n="16"/>edentibus promulgat, et dignissimam
+<lb ed="#Be" n="17"/>cenam et principale symbolum 
+perfe<lb break="no" ed="#Be" n="18"/>ctionis in memoriam sacram ducit. </quote>
+            </p>
+            <p xml:id="alalal-g35100-d1e217">
+               <lb ed="#Be" n="19"/>Eucharistia autem dicitur tribus de
+<lb ed="#Be" n="20"/>causis. Una est, quia continet illum qui
+<lb ed="#Be" n="21"/>est arca et fons omnis gratia. Joan. 1,
+<lb ed="#Be" n="22"/>14: Plenum gratiae et veritatis. Secunda
+<lb ed="#Be" n="23"/>est diversitas utilitatis quam facit 
+sacra<lb break="no" ed="#Be" n="24"/>mentum : et de hoc in prima questione
+<lb ed="#Be" n="25"/>supra habitum est *. Tertia est, quia
+<lb ed="#Be" n="26"/>principalis gratiaee, id est, amoris est
+<lb ed="#Be" n="27"/>sacramentum in hoc quia unit nos capiti
+<lb ed="#Be" n="28"/>Christo, sicut charitas unitiva est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

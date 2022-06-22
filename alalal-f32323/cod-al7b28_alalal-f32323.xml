@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="681"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f32323"><!-- l3d37a2 -->
+            <head xml:id="alalal-f32323-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-f32323-Hd1e101" type="question-title">De distinctione praeceptorum.</head>
+            <p xml:id="alalal-f32323-d1e104">
+               <lb ed="Bd" n="35"/>ARTICULUS II.
+<lb ed="Bd" n="36"/>De distinctione praeceptorum.
+</p>
+            <p xml:id="alalal-f32323-d1e111">
+               <lb ed="Bd" n="37"/>Secundo, Queritur de distinctione 
+pre<lb break="no" ed="Bd" n="38"/>ceptorum et tabularum secundum 
+diver<lb break="no" ed="Bd" n="39"/>sos.
+</p>
+            <p xml:id="alalal-f32323-d1e120">
+               <lb ed="Bd" n="40"/>1. Dicit enim Josephus, quod duae
+<lb ed="Bd" n="41"/>erant tabule, et in utraque earum 
+con<lb break="no" ed="Bd" n="42"/>tinebantur quinque mandata. Gregorius
+<lb ed="Bd" n="43"/>autem quatuor ponit in prima, et sex in
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="44"/>secunda. Augustinus vero tria in una,
+<lb ed="Bd" n="45"/>et septem in alia. Et videtur contrarietas
+<lb ed="Bd" n="46"/>inter eos.
+</p>
+            <p xml:id="alalal-f32323-d1e141">
+               <lb ed="Bd" n="47"/>2. Item, Origenes primum dicit esse
+<lb ed="Bd" n="48"/>mandatum : Non habebis deos alienos
+<lb ed="Bd" n="49"/>propter me. Secundum: Non facies tibi
+<lb ed="Bd" n="50"/>sculptile, nec ullam similitudinem, etc. :
+<lb ed="Bd" n="51"/>et haec duo computat Augustinus pro
+<lb ed="Bd" n="52"/>uno, sicut habetur in ZLiftera. Et hee
+<lb ed="Bd" n="53"/>est iterum quaedam contrarietas.
+</p>
+            <p xml:id="alalal-f32323-d1e159">
+               <lb ed="Bd" n="54"/>Item, Origenes unum dicit esse 
+man<lb break="no" ed="Bd" n="55"/>datum : Non concupisces uxorem proximt
+<lb ed="Bd" n="56"/>tui: et, Non concupisces rem alenam.
+<lb ed="Bd" n="57"/>Et Augustinus dicit haec duo mandata
+<lb ed="Bd" n="58"/>esse. Et ecce iterum quaedam 
+contraric<lb break="no" ed="Bd" n="59"/>tas tertia.
+</p>
+            <p xml:id="alalal-f32323-d1e175">
+               <lb ed="Bd" n="60"/>Praeterea, Videtur <name xml:id="alalal-f32323-Nd1e179">Origenes</name> melius
+<lb ed="Bd" n="61"/>dicere quoad primum: quia, sicut 
+habe<lb break="no" ed="Bd" n="62"/>turin libro de Deo Socratis, tria erant
+<lb ed="Bd" n="63"/>genera deorum, et quaedam erant 
+spiri<lb break="no" ed="Bd" n="64"/>tualia invisibilia genera deorum: quibus
+<lb ed="Bd" n="65"/>nec sculptura poterat fieri, nec 
+simili<lb break="no" ed="Bd" n="66"/>tudo, nec etiam figmentum: et illi 
+vi<lb break="no" ed="Bd" n="67"/>dentur prohiberi cum dicitur: Non erunt
+<lb ed="Bd" n="68"/>dii tibit alii praeter me. Fuerunt autem
+<lb ed="Bd" n="69"/>alii dii secundum duo genera corporum,
+<lb ed="Bd" n="70"/>scilicet coelestium, et terrestrium, quae
+<lb ed="Bd" n="71"/>postea prohibentur cum dicit: Non 
+fa<lb break="no" ed="Bd" n="72"/>cies tibi sculptile, etc. Ergo videtur,
+<lb ed="Bd" n="73"/>quod duo sint mandata, et sic 
+Augusti<lb break="no" ed="Bd" n="74"/>nus male dicit dividendo praecepta.
+</p>
+            <p xml:id="alalal-f32323-d1e212">
+               <lb ed="Bd" n="75"/>3. Item, quoad aliam partem videtur
+<lb ed="Bd" n="76"/>melius distinguere Origenes : quia 
+con<lb break="no" ed="Bd" n="77"/>cupiscentia uxoris et concupiscentia rei
+<lb ed="Bd" n="78"/>non differunt nisi per materiam, ut 
+vide<lb break="no" ed="Bd" n="79"/>tur: sed penes materiam nulla accipitur
+<lb ed="Bd" n="80"/>distinctio: ergo illa quae dicit 
+Augusti<lb break="no" ed="Bd" n="81"/>nus esse duo, videntur esse unum, sicut
+<lb ed="Bd" n="82"/>dicit <name xml:id="alalal-f32323-Nd1e231">Origenes</name>.
+</p>
+            <p xml:id="alalal-f32323-d1e234">
+               <lb ed="Bd" n="83"/>Item, Ulterius quaeritur de 
+contrarie<lb break="no" ed="Bd" n="84"/>tate quae est circa ista mandata. Dicitur
+<lb ed="Bd" n="85"/>enim, Exod. xx, 18, postquam ista 
+man<lb break="no" ed="Bd" n="86"/>data edita sunt, quod cunctus populus
+<lb ed="Bd" n="87"/>videbat voces et lampades, et sonitum
+<lb ed="Bd" n="88"/>buccine, montemque fumantem, etc. :
+<lb ed="Bd" n="89"/>et statim infra, yy. 22 et 23, subjungitur,
+<lb ed="Bd" n="90"/>quod non audierunt nisi unum manda~
+<lb ed="Bd" n="91"/>tum de caelo ab ore Domini, ubi sic di-
+<pb ed="#Bd" n="682"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>cit: Vos vidistis quod de celo locutus
+<lb ed="Bd" n="2"/>sim vobis. Non facietis deos argenteos,
+<lb ed="Bd" n="3"/>nec deos aureos facietis vobis. Ergo 
+vi<lb break="no" ed="Bd" n="4"/>detur esse quaedam contrarietas.
+</p>
+            <p xml:id="alalal-f32323-d1e269">
+               <lb ed="Bd" n="5"/>Si forte tu dicas, quod in secundo
+<lb ed="Bd" n="6"/>loco ubi repetit unum, debet intelligi 
+re<lb break="no" ed="Bd" n="7"/>peti aliud. Contra: Glossa dicit ibidem:
+<lb ed="Bd" n="8"/>
+               <quote xml:id="alalal-f32323-Qd1e279"> Repetit dicta in primo mandato, ut per
+<lb ed="Bd" n="9"/>argentea et aurea, omnia alia idola 
+in<lb break="no" ed="Bd" n="10"/>telligantur </quote>: sicut dicitur in Psalmo cxut,
+<lb ed="Bd" n="11"/>4: Simulacra gentium argentum et 
+au<lb break="no" ed="Bd" n="12"/>rum, etc. Constal autem, quod aliqua
+<lb ed="Bd" n="13"/>causa specialis est, quare repetit dicta in
+<lb ed="Bd" n="14"/>primo mandato, et non in aliis.
+</p>
+            <p xml:id="alalal-f32323-d1e297">
+               <lb ed="Bd" n="15"/>2. Praeterea, Textus videtur dicere
+<lb ed="Bd" n="16"/>primo, quod cunctus populus audivit 
+vo<lb break="no" ed="Bd" n="17"/>ces decem praceptorum. Et Rabbi
+<lb ed="Bd" n="18"/>Moyses dicit, quod populus non audivit
+<lb ed="Bd" n="19"/>nisi unum, scilicet primum: Non erunt
+<lb ed="Bd" n="20"/>tibi dit alient praeter me. Et dicit, quod
+<lb ed="Bd" n="21"/>haec est opinio multorum Doctorum.
+<lb ed="Bd" n="22"/>Hee ergo videtur esse eadem_ 
+contrarie<lb break="no" ed="Bd" n="23"/>tas quae elicitur ex textu.
+</p>
+            <p xml:id="alalal-f32323-d1e319">
+               <lb ed="Bd" n="24"/>Si forte tu dicas, quod illud audire et
+<lb ed="Bd" n="25"/>videre non erat in sensu exteriori 
+tan<lb break="no" ed="Bd" n="26"/>tum, sed in relatione ad sensum 
+interio<lb break="no" ed="Bd" n="27"/>rem, sicut videtur ibidem dicere Glossa
+<lb ed="Bd" n="28"/>Augustini faciens questionem : <quote xml:id="alalal-f32323-Qd1e332"> 
+Quo<lb break="no" ed="Bd" n="29"/>modo populus videbat voces, cum vox
+<lb ed="Bd" n="30"/>sit sensatum auditus, et non visus? </quote>
+               <lb ed="Bd" n="31"/>tune videtur, quod non omnia mandata
+<lb ed="Bd" n="32"/>debuerunt audire: quia non omnia 
+ha<lb break="no" ed="Bd" n="33"/>bent eumdem ordinem ad _ intellectum.
+<lb ed="Bd" n="34"/>Quia novem per se intelligibilia sunt, et
+<lb ed="Bd" n="35"/>unum non cadit per se in intellectu,
+<lb ed="Bd" n="36"/>scilicet de observatione sabbati: ergo 
+vi<lb break="no" ed="Bd" n="37"/>detur, quod illud specialiter debuit ex~
+<lb ed="Bd" n="38"/>primi extra numerum illorum.
+</p>
+            <p xml:id="alalal-f32323-d1e357">
+               <lb ed="Bd" n="39"/>ivem, Judi querunt, Quare potius
+<lb ed="Bd" n="40"/>hec verba decem vel aliqua de illis 
+Do<lb break="no" ed="Bd" n="41"/>minus loquebatur coram populo et 
+au<lb break="no" ed="Bd" n="42"/>diente populo, quam omnia judicialia et
+<lb ed="Bd" n="43"/>cerimonialia et sacramentalia quae 
+se<lb break="no" ed="Bd" n="44"/>quuntur? Non enim potest esse causa
+<lb ed="Bd" n="45"/>illa quam dicunt, quod haec generaliter
+<lb ed="Bd" n="46"/>pertinebant ad omnes : quia etiam illa
+<lb ed="Bd" n="47"/>generaliter tenebantur observare.
+</p>
+            <p xml:id="alalal-f32323-d1e379">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>Utterivs, Queritur circa distinctionem
+<lb ed="Bd" n="49"/>horum mandatorum.
+</p>
+            <p xml:id="alalal-f32323-d1e388">
+               <lb ed="Bd" n="50"/>1. Cum dicatur communiter. quod ista
+<lb ed="Bd" n="51"/>sunt naturalis legis mandata, quare ea
+<lb ed="Bd" n="52"/>que sunt naturalis legis, non eis 
+inse<lb break="no" ed="Bd" n="53"/>runtur, sicut fuit dictum prinio homini:
+<lb ed="Bd" n="54"/>Ex omni ligno paradisi comede, etc. Et
+<lb ed="Bd" n="55"/>iterum, Crescite et multiplicamini, ete.
+</p>
+            <p xml:id="alalal-f32323-d1e404">
+               <lb ed="Bd" n="56"/>Si tu dicas, quod hoc ideo fit, quia
+<lb ed="Bd" n="57"/>ante data erant. Conrraa hoc est, quod
+<lb ed="Bd" n="58"/>secundum hoc etiam praeceptum de 
+sab<lb break="no" ed="Bd" n="59"/>bato non erat repetendum, cum ante
+<lb ed="Bd" n="60"/>datum fuerit.
+</p>
+            <p xml:id="alalal-f32323-d1e418">
+               <lb ed="Bd" n="61"/>Praeterea, Augustinus in libro de 
+De<lb break="no" ed="Bd" n="62"/>cem chordis dicit, decem mandata redire
+<lb ed="Bd" n="63"/>per reductionem in duo mandata 
+dile<lb break="no" ed="Bd" n="64"/>ctionis Dei et proximi: et hac duo 
+ite<lb break="no" ed="Bd" n="65"/>rum reduci in unum mandatum 
+natura<lb break="no" ed="Bd" n="66"/>lis legis, scilicet illud, Quodcumque 
+vul<lb break="no" ed="Bd" n="67"/>tis ut faciant vobis homines, et vos eadem
+<lb ed="Bd" n="68"/>facite illis. Et de ista reductione nihil 
+de<lb break="no" ed="Bd" n="69"/>terminatur hic : et ideo videtur, quod sit
+<lb ed="Bd" n="70"/>diminutio.
+</p>
+            <p xml:id="alalal-f32323-d1e442">
+               <lb ed="Bd" n="71"/>2. Praeterea, Aut ista decem mandata
+<lb ed="Bd" n="72"/>determinantur particulariter, aut 
+univer<lb break="no" ed="Bd" n="73"/>saliter. Si particulariter : tune multo
+<lb ed="Bd" n="74"/>plura esse deberent, quia tune actus 
+cu<lb break="no" ed="Bd" n="75"/>juslibet habebit speciale mandatum 
+affir<lb break="no" ed="Bd" n="76"/>mativum, et actus cujuslibet vitii habebit
+<lb ed="Bd" n="77"/>negativum speciale. Si autem 
+determi<lb break="no" ed="Bd" n="78"/>nantur universaliter : tunc sufficiebat 
+de<lb break="no" ed="Bd" n="79"/>terminare penes id in quod sicut in 
+uni<lb break="no" ed="Bd" n="80"/>versale primum reducuntur,  scilicet,
+<lb ed="Bd" n="81"/>Quodcumque vultis ut faciant vobis 
+ho<lb break="no" ed="Bd" n="82"/>mines, etc.
+</p>
+            <p xml:id="alalal-f32323-d1e471">
+               <lb ed="Bd" n="83"/>Uxrerius quaeritur de diversitate 
+pre<lb break="no" ed="Bd" n="84"/>ceptorum quam dat Magister, scilicet
+<lb ed="Bd" n="85"/>quod quaedam praecepta habent causam
+<lb ed="Bd" n="86"/>ex parte ejus quod precipitur, quaedam
+<lb ed="Bd" n="87"/>ex parte ejus cui precipitur : et illa quae
+<lb ed="Bd" n="88"/>causam habent ex parte rei precept,
+<lb ed="Bd" n="89"/>quaedam habent causam perpetuam, 
+que<lb break="no" ed="Bd" n="90"/>dam temporalem. De hac enim 
+diversi<lb break="no" ed="Bd" n="91"/>tate nihil habetur hic, nec etiam in lege:
+<lb ed="Bd" n="92"/>et sic videtur esse diminutus iste 
+tracta<lb break="no" ed="Bd" n="93"/>tus de praeceptis.
+</p>
+            <p xml:id="alalal-f32323-d1e497">
+               <lb ed="Bd" n="94"/>Ucrserivs quaeritur de alia diversitate
+<pb ed="#Bd" n="683"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>duplici quae in istis mandatis invenitur.
+<lb ed="Bd" n="2"/>Jn prima enim tabula ponuntur tria 
+man<lb break="no" ed="Bd" n="3"/>data, quorum duo prima sunt negativa,
+<lb ed="Bd" n="4"/>et tertium est affirmativum. Preponitur
+<lb ed="Bd" n="5"/>enim ratio primi, cum dicitur : Dominus
+<lb ed="Bd" n="6"/>Deus tuus, Deus unus est: et illa ratio
+<lb ed="Bd" n="7"/>est credibile articuli fidei. Ratio autem
+<lb ed="Bd" n="8"/>secundi accipitur ex poenis quas infliget
+<lb ed="Bd" n="9"/>transgredienti, cum dicit, quod non 
+ha<lb break="no" ed="Bd" n="10"/>bebit insontem eum qui nomen Dei in
+<lb ed="Bd" n="11"/>yanum assumit'. Ratio autem tertii 
+su<lb break="no" ed="Bd" n="12"/>mitur ex praeteritis quae fecit : quia die
+<lb ed="Bd" n="13"/>septimo requievit ab omni opere®. In 
+se<lb break="no" ed="Bd" n="14"/>cundo autem capitulo primum ponitur
+<lb ed="Bd" n="15"/>affirmativum, et non confirmatur nisi per
+<lb ed="Bd" n="16"/>rationem mercedis : et omnia alia sunt
+<lb ed="Bd" n="17"/>negaliva : et non adhibetur alia ratio
+<lb ed="Bd" n="18"/>movens ad modum obligationis eorum.
+</p>
+            <p xml:id="alalal-f32323-d1e545">
+               <lb ed="Bd" n="19"/>Queratur ergo, Unde venit haec 
+di<lb break="no" ed="Bd" n="20"/>versitas ?
+</p>
+            <p xml:id="alalal-f32323-d1e552">
+               <lb ed="Bd" n="21"/>Secunda diversitas est: quia in 
+affir<lb break="no" ed="Bd" n="22"/>mativis invenitur universaliter uti verbis
+<lb ed="Bd" n="23"/>imperativi modi, ut : Alemento ut diem
+<lb ed="Bd" n="24"/>sabbati sanctifices. Honora patrem tuum,
+<lb ed="Bd" n="25"/>etc. In negativis autem universaliter 
+uti<lb break="no" ed="Bd" n="26"/>tur verbis indicativi modi, ut, Non 
+habe<lb break="no" ed="Bd" n="27"/>bis Deos alienos, etc. Kit quaeritur etiam
+<lb ed="Bd" n="28"/>ratio hujus.
+</p>
+            <p xml:id="alalal-f32323-d1e573">
+               <lb ed="Bd" n="29"/>Solutio Dicendum ad primum, quod
+<lb ed="Bd" n="30"/>tabule Testamenti multipliciter 
+conside<lb break="no" ed="Bd" n="31"/>rantur, scilicet in se, et in relatione 
+eo<lb break="no" ed="Bd" n="32"/>rum qu continebantur in eis, et ad ea
+<lb ed="Bd" n="33"/>ad quae ordinabant. In se autem 
+conside<lb break="no" ed="Bd" n="34"/>rat Josephus : et ideo est verum quod
+<lb ed="Bd" n="35"/>ipse dicit, quod utraque continebat 
+quin<lb break="no" ed="Bd" n="36"/>que mandata. Sed secundum ordinem
+<lb ed="Bd" n="37"/>mandatorum quae in Scriptura erant,
+<lb ed="Bd" n="38"/>considerant Origenes et Augustinus. Et
+<lb ed="Bd" n="39"/>quia quatuor vel tria ordinant ad Deum,
+<lb ed="Bd" n="40"/>sex autem vel septem ordinant ad 
+proxi<lb break="no" ed="Bd" n="41"/>mum : ideo tali fine considerato, tria vel
+<lb ed="Bd" n="42"/>quatuor erant in una, et sex vel septem
+<lb ed="Bd" n="43"/>in alia erant. Quia non erat ratio quare
+<lb ed="Bd" n="44"/>dus darentur moraliter loquendo, nisi
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="45"/>ut intelligeretur, quod ad duo 
+ordina<lb break="no" ed="Bd" n="46"/>bant : vel allegorice propter duo 
+Testa<lb break="no" ed="Bd" n="47"/>menta.
+</p>
+            <p xml:id="alalal-f32323-d1e619">
+               <lb ed="Bd" n="48"/>Sed secundum hance solutionem 
+vide<lb break="no" ed="Bd" n="49"/>tur, quod tria deberent esse propter 
+or<lb break="no" ed="Bd" n="50"/>dinem sui adseipsum. Ad hoc dicendum,
+<lb ed="Bd" n="51"/>quod non oportuit, eo quod omnis ordo
+<lb ed="Bd" n="52"/>exigat diversitatem in extremis : sui 
+au<lb break="no" ed="Bd" n="53"/>tem ad se non est diversitas : ergo nec
+<lb ed="Bd" n="54"/>ordo. Vel aliter dicatur (sicut supra 
+ha<lb break="no" ed="Bd" n="55"/>bitum est) quod non datur mandatum
+<lb ed="Bd" n="56"/>dilectionis sui : quia in ordine ad 
+proxi<lb break="no" ed="Bd" n="57"/>mum datur diligenti principalitas 
+diligen<lb break="no" ed="Bd" n="58"/>di seipsum. Ita hic in ordine ad 
+proxi<lb break="no" ed="Bd" n="59"/>mum intelligitur ordo ad seipsum: et
+<lb ed="Bd" n="60"/>ideo tabulam tertiam hoc signantem esse
+<lb ed="Bd" n="61"/>non oportuit.
+</p>
+            <p xml:id="alalal-f32323-d1e652">
+               <lb ed="Bd" n="62"/>Ad aliud dicendum, quod in veritate
+<lb ed="Bd" n="63"/>Augustinus melius distinguit, quam 
+Ori<lb break="no" ed="Bd" n="64"/>genes : quia Origenes non attendit nisi
+<lb ed="Bd" n="65"/>materialem diversitatem, quae potest 
+es<lb break="no" ed="Bd" n="66"/>se inter figmentum sive idolum, et 
+scul<lb break="no" ed="Bd" n="67"/>ptile, et similitudinem : eo quod 
+simili<lb break="no" ed="Bd" n="68"/>tudo dicitur, cui aliquid respondet in 
+re<lb break="no" ed="Bd" n="69"/>rum natura : figmentum autem sive 
+ido<lb break="no" ed="Bd" n="70"/>lum, cui in re nihil respondet, sed 
+ani<lb break="no" ed="Bd" n="71"/>mus confinxit, ut hircocervus vel 
+chime<lb break="no" ed="Bd" n="72"/>ra. Augustinus autem attendit unitatem
+<lb ed="Bd" n="73"/>finis, quae est in similitudine et idolo,
+<lb ed="Bd" n="74"/>scilicet quod utraque statuitur ad cultum,
+<lb ed="Bd" n="75"/>aut ad invocationem : sive sumatur de
+<lb ed="Bd" n="76"/>corporibus, sive de spiritibus immundis
+<lb ed="Bd" n="77"/>creatis, qui mentes hominum in hoc 
+de<lb break="no" ed="Bd" n="78"/>ludunt, quod se faciant coli tamquam
+<lb ed="Bd" n="79"/>deos.
+</p>
+            <p xml:id="alalal-f32323-d1e694">
+               <lb ed="Bd" n="80"/>Ad aliud dicendum, quod in duplici
+<lb ed="Bd" n="81"/>concupiscentia non tantum est diversitas
+<lb ed="Bd" n="82"/>materialis, sed etiam finis : quia ad aliud
+<lb ed="Bd" n="83"/>concupiscitur uxor, et ad aliud res : uxor
+<lb ed="Bd" n="84"/>enim ad coitum et res ad possidendum.
+</p>
+            <p xml:id="alalal-f32323-d1e707">
+               <lb ed="Bd" n="85"/>Et ideo Augustinus melius et subtilius
+<lb ed="Bd" n="86"/>distinguit, quam Origenes.
+</p>
+            <p xml:id="alalal-f32323-d1e714">
+               <lb ed="Bd" n="87"/>Ad aliud sunt diversorum solutiones
+<lb ed="Bd" n="88"/>diverse. Quidam dicunt, quod ideo om-
+<pb ed="#Bd" n="684"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>nia ista dixit coram populo : quia sunt
+<lb ed="Bd" n="2"/>de lege naturali, et unicuique dictabat ea
+<lb ed="Bd" n="3"/>ratio propria.
+</p>
+            <p xml:id="alalal-f32323-d1e733">
+               <lb ed="Bd" n="4"/>Et ad objectum in contrarium, dicunt
+<lb ed="Bd" n="5"/>quod per repetitionem unius intelligun—
+<lb ed="Bd" n="6"/>tur alia repeti debere.
+</p>
+            <p xml:id="alalal-f32323-d1e742">
+               <lb ed="Bd" n="7"/>Ad aliud quod objicitur de sabbato,
+<lb ed="Bd" n="8"/>dicunt quod quantum ad quietem mentis
+<lb ed="Bd" n="9"/>in Deo, et non in creatura, est de lege
+<lb ed="Bd" n="10"/>naturali : sed quantum ad quietem 
+cor<lb break="no" ed="Bd" n="11"/>poralem sabbati, fuit de observatione
+<lb ed="Bd" n="12"/>vulgata apud patres Veteris Testamenti,
+<lb ed="Bd" n="13"/>et notum omnibus ac si esset ex natura :
+<lb ed="Bd" n="14"/>et ideo inter alia aperte dicebatur. Alia
+<lb ed="Bd" n="15"/>autem, scilicet judicialia et cerimonialia
+<lb ed="Bd" n="16"/>indigebant interpretatione humana, et
+<lb ed="Bd" n="17"/>doctrina sapientiorum : et ideo talia 
+pro<lb break="no" ed="Bd" n="18"/>posuit per sapientes et duces plebis. 
+Me<lb break="no" ed="Bd" n="19"/>liores autem Judsorum, sicut Rabbi
+<lb ed="Bd" n="20"/>Moyes, et Rabbi Eliazar, et Rabbi 
+Joan<lb break="no" ed="Bd" n="21"/>na, dixerunt, quod licet ista sint de 
+na<lb break="no" ed="Bd" n="22"/>turali lege, non tamen aequaliter : et ideo
+<lb ed="Bd" n="23"/>audiente populo non dixit nisi unum
+<lb ed="Bd" n="24"/>quod communiter unicuique dictat 
+con<lb break="no" ed="Bd" n="25"/>scientia : quia homines semper consen-—
+<lb ed="Bd" n="26"/>serunt in hoc, quod principium 
+univer<lb break="no" ed="Bd" n="27"/>sitatis non esset nisi unum. Alia autem
+<lb ed="Bd" n="28"/>non ita dictat mens : quia Deus multis
+<lb ed="Bd" n="29"/>nominibus nominatur, et non 
+intelligi<lb break="no" ed="Bd" n="30"/>tur nomen ejus ineffabile. Et similiter de
+<lb ed="Bd" n="31"/>sabbato, et alia quae sunt ad proximum,
+<lb ed="Bd" n="32"/>recipiunt exceptiones in casibus 
+determi<lb break="no" ed="Bd" n="33"/>natis. Kt ideo dicunt, quod in aperto ad
+<lb ed="Bd" n="34"/>conscientias hominum non _ loquebatur
+<lb ed="Bd" n="35"/>nisi unum : et tunc illud quod primo 
+ha<lb break="no" ed="Bd" n="36"/>betur, quod cunctus populus videbat 
+vo<lb break="no" ed="Bd" n="37"/>ces, referendum est ad visum interiorem,
+<lb ed="Bd" n="38"/>ut dicit Augustinus ibidem in Glossa : et
+<lb ed="Bd" n="39"/>non subjungitur in catalogo 
+pracepto<lb break="no" ed="Bd" n="40"/>rum propter omnia precedentia, sed 
+pro<lb break="no" ed="Bd" n="41"/>pter unum soilum quod est primum : et
+<lb ed="Bd" n="42"/>illud etiam secundo repetitur, sicut 
+vide<lb break="no" ed="Bd" n="43"/>tur innuere Glossa.
+</p>
+            <p xml:id="alalal-f32323-d1e825">
+               <lb ed="Bd" n="44"/>Ad aliud dicendum, quod haec potius
+<lb ed="Bd" n="45"/>exprimit, ut dictum est: quia naturalia
+<lb ed="Bd" n="46"/>sunt, et per se accedunt mentibus 
+om<lb break="no" ed="Bd" n="47"/>nium : et hoc non faciunt alia.
+</p>
+            <p xml:id="alalal-f32323-d1e836">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>Ad aliud dicendum, quod illa sunty,
+<lb ed="Bd" n="49"/>naturalis legis, de quibus objicitur 
+se<lb break="no" ed="Bd" n="50"/>cundum quod est ordinativa nature in
+<lb ed="Bd" n="51"/>necessaris ad esse individui, et ad 
+_per<lb break="no" ed="Bd" n="52"/>manentiam speciei : et ilJjarum cura per
+<lb ed="Bd" n="53"/>peccatum non est obnubilata, sed potius
+<lb ed="Bd" n="54"/>augmentata, quia defectus augmentat 
+de<lb break="no" ed="Bd" n="55"/>siderium ad esse: et ideo non oportuit
+<lb ed="Bd" n="56"/>illa determinari per legem_ scriptam 
+ite<lb break="no" ed="Bd" n="57"/>rando, sed tertium mandatum natura,
+<lb ed="Bd" n="58"/>quod non expresse dabatur nature 
+ex<lb break="no" ed="Bd" n="59"/>terius in principio, eo quod esset mens
+<lb ed="Bd" n="60"/>hominis tunc bene instituta, et per 
+se<lb break="no" ed="Bd" n="61"/>ipsum videt in justitia Dei, quid facere
+<lb ed="Bd" n="62"/>Deo et proximo deberet: scriptum 
+ta<lb break="no" ed="Bd" n="63"/>men erat in mente, scilicet, Quidquid
+<lb ed="Bd" n="64"/>vultis ut faciant vobis homines, etc.,
+<lb ed="Bd" n="65"/>illud erat mandatum ordinans in 
+mori<lb break="no" ed="Bd" n="66"/>bus ad Deum et hominem, et ideo 
+pec<lb break="no" ed="Bd" n="67"/>cato erat obnubilatum. Ad hoc autem
+<lb ed="Bd" n="68"/>dabatur lex scripta, ut ad id quod 
+natu<lb break="no" ed="Bd" n="69"/>ra obnubilata peccato difficulter 
+vide<lb break="no" ed="Bd" n="70"/>bat, explicaretur determinatione 
+decalo<lb break="no" ed="Bd" n="71"/>gi. Et ideo in decalogo non ponitur 
+ali<lb break="no" ed="Bd" n="72"/>quid nisi quod est explicatio primi 
+man<lb break="no" ed="Bd" n="73"/>dati nature, quod certum fuit 
+homi<lb break="no" ed="Bd" n="74"/>ni in comparatione ad Deum et ad_ 
+pro<lb break="no" ed="Bd" n="75"/>ximum.
+</p>
+            <p xml:id="alalal-f32323-d1e901">
+               <lb ed="Bd" n="76"/>Per hoc etiam patet solutio ad_ 
+se<lb break="no" ed="Bd" n="77"/>quens : quia hic agitur de mandatis per
+<lb ed="Bd" n="78"/>reductionem ad unum universale 
+pri<lb break="no" ed="Bd" n="79"/>mum, eo quod natura ad particularia ex
+<lb ed="Bd" n="80"/>illo universali non sufficiebat : sed 
+po<lb break="no" ed="Bd" n="81"/>tius lex scripta intendit illud universale
+<lb ed="Bd" n="82"/>explicare per partes, ut sic natura 
+cor<lb break="no" ed="Bd" n="83"/>rupta amplius lumen accipiat in 
+mori<lb break="no" ed="Bd" n="84"/>bus. Duo autem praecepta  dilectionis
+<lb ed="Bd" n="85"/>non sunt, in quae reducitur decalogus,
+<lb ed="Bd" n="86"/>sicutin commune, sed potius sicut in
+<lb ed="Bd" n="87"/>formam et perfectionem operum 
+secun<lb break="no" ed="Bd" n="88"/>dum quod sunt meritoria, sicut sepe
+<lb ed="Bd" n="89"/>ante dictum est.
+</p>
+            <p xml:id="alalal-f32323-d1e934">
+               <lb ed="Bd" n="90"/>Ad aliud dicendum, quod 
+_particulari<lb break="no" ed="Bd" n="91"/>ter determinantur ista mandata : sed tali
+<lb ed="Bd" n="92"/>particulatione ad quam potest pertingere
+<lb ed="Bd" n="93"/>ratio naturalis per naturale ejus. 
+Particu<lb break="no" ed="Bd" n="94"/>latio autem ulterius est studii et juris
+<lb ed="Bd" n="95"/>positivi. Et ideo de tali particulatione
+<lb ed="Bd" n="96"/>non agitur hic : quia illa cadit in multas
+<pb ed="#Bd" n="685"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>differentias secundum diversas causas, et
+<lb ed="Bd" n="2"/>casus.
+</p>
+            <p xml:id="alalal-f32323-d1e961">
+               <lb ed="Bd" n="3"/>Ad id quod ulterius quaeritur de 
+divisio<lb break="no" ed="Bd" n="4"/>ne Magistrorum, dicendum quod ips
+<lb ed="Bd" n="5"/>considerant non id quod precipitur, sed
+</p>
+            <p xml:id="alalal-f32323-d1e970">
+               <lb ed="Bd" n="6"/>olius rationem precepti. Et illa triplex
+<lb ed="Bd" n="7"/>est, sicut dicunt Doctores : quia si ratio
+<lb ed="Bd" n="8"/>est in eo qui precepit, tune est 
+prece<lb break="no" ed="Bd" n="9"/>ptum probationis et experientia utrum
+<lb ed="Bd" n="10"/>obediat, sicut fuit illud quod datum erat
+<lb ed="Bd" n="11"/>Ade, ne comederet de ligno scientie
+<lb ed="Bd" n="12"/>boni et mali. Si autem est ex parte rei
+<lb ed="Bd" n="13"/>precepte: tunc aut habet causam
+<lb ed="Bd" n="14"/>perpetuam, sicut illa quae per se sunt de
+<lb ed="Bd" n="15"/>genere honesti in affirmativis, ut 
+hono<lb break="no" ed="Bd" n="16"/>rare parentes, et credere Deo, et 
+hujus<lb break="no" ed="Bd" n="17"/>modi: et sicut illa quae sunt conjuncta
+<lb ed="Bd" n="18"/>malo inseparabiliter in negativis, ut Non
+<lb ed="Bd" n="19"/>furtum facies. Aut habet causam 
+tempo<lb break="no" ed="Bd" n="20"/>ralem : et tunc non ligat nisi illa causa
+<lb ed="Bd" n="21"/>existente, sicut fuit, Crescife et 
+multi<lb break="no" ed="Bd" n="22"/>plicamini : cujus causa fuit paucitas 
+ho<lb break="no" ed="Bd" n="23"/>minum Deum colentium : et non 
+exi<lb break="no" ed="Bd" n="24"/>stente causa illa deobligantur homines a
+<lb ed="Bd" n="25"/>mandato. Sed hic non determinatur de
+<lb ed="Bd" n="26"/>praeceptis nisi penes ea quibus homo
+<lb ed="Bd" n="27"/>ordinatur ad Deum vel ad proximum in
+<lb ed="Bd" n="28"/>communi, ut infra patebit: et ideo 
+ta<lb break="no" ed="Bd" n="29"/>les differentia non ponuntur hic
+</p>
+            <p xml:id="alalal-f32323-d1e1025">
+               <lb ed="Bd" n="30"/>Ad aliud dicendum, quod tria petit
+<lb ed="Bd" n="31"/>queestio illa, scilicet quare plura sint 
+ne<lb break="no" ed="Bd" n="32"/>gativa quam alfirmativa ?
+</p>
+            <p xml:id="alalal-f32323-d1e1034">
+               <lb ed="Bd" n="33"/>Et, Quare diverso modo verbali 
+uti<lb break="no" ed="Bd" n="34"/>tur in affirmativis et negativis ?
+</p>
+            <p xml:id="alalal-f32323-d1e1041">
+               <lb ed="Bd" n="35"/>Ad primum dicendum, quod decalogus
+<lb ed="Bd" n="36"/>datur secundum statum nature 
+corru<lb break="no" ed="Bd" n="37"/>pte, quae pronior est ad nocendum: et
+<lb ed="Bd" n="38"/>praeterea quia peccare contingit miultis
+<lb ed="Bd" n="39"/>modis, et bene facere uno modo, ideo
+<lb ed="Bd" n="40"/>sunt plures prohibitiones, quam 
+manda<lb break="no" ed="Bd" n="41"/>ta affirmativa.
+</p>
+            <p xml:id="alalal-f32323-d1e1059">
+               <lb ed="Bd" n="42"/>Ad aliud dicendum, quod Deus 
+me<lb break="no" ed="Bd" n="43"/>lius scitur per negationem, quam per
+<lb ed="Bd" n="44"/>affirmationem, et proximus e converso.
+<lb ed="Bd" n="45"/>Cujus ratio dicta est in primo libro 
+Sen<lb break="no" ed="Bd" n="46"/>tentiarum. Et ideo in prima tabula quae
+<lb ed="Bd" n="47"/>ordinat ad Deum, premittuntur ne-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>gativa, et subsequuntur affirmativa. In
+<lb ed="Bd" n="49"/>secunda tabula que ordinat ad 
+proxi<lb break="no" ed="Bd" n="50"/>mum, propter oppositam causam fit e
+<lb ed="Bd" n="51"/>converso. Primum autem mandatum
+<lb ed="Bd" n="52"/>quod pertinet ad fidem, qua veritatis
+<lb ed="Bd" n="53"/>est, oportuit quod haberet rationem 
+in<lb break="no" ed="Bd" n="54"/>telligibilem per modum interpretationis.
+<lb ed="Bd" n="55"/>Sed secundum pertinet ad opus oris :
+<lb ed="Bd" n="56"/>et ideo hoc non coercetur nisi per 
+poe<lb break="no" ed="Bd" n="57"/>nam. Quia autem prohibitio non 
+mere<lb break="no" ed="Bd" n="58"/>tur premium, sed peenam potest habere
+<lb ed="Bd" n="59"/>transgressio : ideo est determinatio per
+<lb ed="Bd" n="60"/>peenam, et non per premium. Tertium
+<lb ed="Bd" n="61"/>autem non habet rationem nisi ostendente
+<lb ed="Bd" n="62"/>finem quietis, ut infra patebit : quia hoc
+<lb ed="Bd" n="63"/>pertinet ad premium. In secunda vero
+<lb ed="Bd" n="64"/>tabula unum solum est affirmativum :
+<lb ed="Bd" n="65"/>quia habet conjunctam remuneralionem
+<lb ed="Bd" n="66"/>propter congruentiam actus. Sicut enim
+<lb ed="Bd" n="67"/>facit aliis, ita congruum est ipsum 
+reci<lb break="no" ed="Bd" n="68"/>pere a Deo. Sed probibitiones ex se non
+<lb ed="Bd" n="69"/>merentur : et ideo talibus non adhibetur
+<lb ed="Bd" n="70"/>premium : peenam autem non 
+commina<lb break="no" ed="Bd" n="71"/>tur, eo quod est manifesta etiam 
+secun<lb break="no" ed="Bd" n="72"/>dum lege humanas.
+</p>
+            <p xml:id="alalal-f32323-d1e1132">
+               <lb ed="Bd" n="73"/>Av auiup dicendum, quod imperium
+<lb ed="Bd" n="74"/>non est super negationem, nisi ita quod
+<lb ed="Bd" n="75"/>sit negatio imperii. Sed quod imperium
+<lb ed="Bd" n="76"/>sit negationis jam nutus, et inclinatio
+<lb ed="Bd" n="77"/>animi super nihil fundaretur: et hoc
+<lb ed="Bd" n="78"/>nullus intendit imperans. Unde sicut 
+ne<lb break="no" ed="Bd" n="79"/>mo imperat sibi, ita etiam nemo imperat,
+<lb ed="Bd" n="80"/>nisi ut aliquid fiat. Et ideo negationibus
+<lb ed="Bd" n="81"/>improprie preponeretur modus 
+impera<lb break="no" ed="Bd" n="82"/>tivus, sicut in affirmationibus: sed 
+indi<lb break="no" ed="Bd" n="83"/>cativis bene interpretantur negationes,
+<lb ed="Bd" n="84"/>sicut et compositiones affirmativis : ct
+<lb ed="Bd" n="85"/>ideo negationes fiunt per indicativum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

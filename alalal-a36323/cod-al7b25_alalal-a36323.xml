@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="180"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a36323"><!-- l1d5a4 -->
+            <head xml:id="alalal-a36323-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-a36323-Hd1e101" type="question-title">An in divinis potest dici, quod Pater sit
+causa Filii?</head>
+            <p xml:id="alalal-a36323-d1e104">
+               <pb ed="#Ba" n="180"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ARTICULUS IV.
+<lb ed="#Ba" n="2"/>An in divinis potest dici, quod Pater sit
+<lb ed="#Ba" n="3"/>causa Filii?
+</p>
+            <p xml:id="alalal-a36323-d1e117">
+               <lb ed="#Ba" n="4"/>Deinde quaeritur de hoc quod dicit in 
+<lb ed="#Ba" n="5"/>tertia ratione: <quote xml:id="alalal-a36323-Qd1e123"> Sed gignenti genitus 
+<lb ed="#Ba" n="6"/>causa est, etc. </quote>
+            </p>
+            <p xml:id="alalal-a36323-d1e129">
+               <lb ed="#Ba" n="7"/>Causa enim non est in divinis: dicit
+<lb ed="#Ba" n="8"/>enim Chrysostomus super Joannem, quod
+<lb ed="#Ba" n="9"/>non est dicendum, quod Pater sit causa
+<lb ed="#Ba" n="10"/>Filii.
+</p>
+            <p xml:id="alalal-a36323-d1e141">
+               <lb ed="#Ba" n="11"/>SED CONTRA:
+<lb ed="#Ba" n="12"/>1. In <ref xml:id="alalal-a36323-Rd1e147">Glossa super Epist. ad Hebreos</ref>,
+<lb ed="#Ba" n="13"/>dicit <ref xml:id="alalal-a36323-Rd1e151">Chrysostomus</ref>, quod <quote xml:id="alalal-a36323-Qd1e154">Pater est causa
+<lb ed="#Ba" n="14"/>Filii</quote>.
+</p>
+            <p xml:id="alalal-a36323-d1e160">
+               <lb ed="#Ba" n="15"/>2. Praeterea, Quare recipitur  ista,
+<lb ed="#Ba" n="16"/>Pater est principium Filii, et non ista,
+<lb ed="#Ba" n="17"/>Pater est causa Filii.</p>
+            <p xml:id="alalal-a36323-d1e169">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="18"/>3. Item, In Littera vult quod Pater
+  <lb ed="#Ba" n="19"/>essentia sit, et sapientia sapiens sit,
+  <lb ed="#Ba" n="20"/>quasi esscntia et sapientia formaliter se
+  <lb ed="#Ba" n="21"/>habeant ad Patrem: quae Porretanus 
+di<lb break="no" ed="#Ba" n="22"/>xit, quod reprehensum fuit, quia sic 
+no<lb break="no" ed="#Ba" n="23"/>tatur in Deo compositio.</p>
+            <p xml:id="alalal-a36323-d1e187">
+               <lb ed="#Ba" n="24"/>Solutio. Dicendum ad primum, quod ie
+  <lb ed="#Ba" n="25"/>non est simpliciter causa, sed quasi
+  <lb ed="#Ba" n="26"/>causa.</p>
+            <p xml:id="alalal-a36323-d1e196">
+               <lb ed="#Ba" n="27"/>Ad aliud dicendum, quod causa ponit Adoy
+<lb ed="#Ba" n="28"/>id quod quasi ex necessitate sequitur
+<lb ed="#Ba" n="29"/>aliud, et cum effectu. precipue efficiens
+<lb ed="#Ba" n="30"/>ponit diversitatem substantia et 
+essen<lb break="no" ed="#Ba" n="31"/>tie : quia non potest idem esse effectum,
+<lb ed="#Ba" n="32"/>et efficiens : sed non sic principium :
+<lb ed="#Ba" n="33"/>dicit enim id quod est re, et tamen 
+ori<lb break="no" ed="#Ba" n="34"/>ginans ipsum in quantum ante ipsum
+<lb ed="#Ba" n="35"/>nihil est, et alia sunt ex ipso.
+</p>
+            <p xml:id="alalal-a36323-d1e218">
+               <lb ed="#Ba" n="36"/>Ad aliud dicendum, quod non 
+nota<lb break="no" ed="#Ba" n="37"/>tur in talibus nisi causa formalis in 
+no<lb break="no" ed="#Ba" n="38"/>mine, et non in re. <name xml:id="alalal-a36323-Nd1e226">Porretanus</name> aulem
+<lb ed="#Ba" n="39"/>posuit in re ipsa.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

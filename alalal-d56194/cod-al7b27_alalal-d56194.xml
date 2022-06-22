@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="311"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d56194"><!-- l2d18a2 -->
+            <head xml:id="alalal-d56194-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-d56194-Hd1e101" type="question-title">Utrum Angeli debuerunt formare corpus
+hominis, vel Deus ? et, Utrum Dei vel
+Angelorum vel hominum bonorum vel
+etiam malorum sit facere miracula ?</head>
+            <p xml:id="alalal-d56194-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="11"/>ARTICULUS II.
+<lb ed="#Bc" n="12"/>Utrum Angeli debuerunt formare corpus
+<lb ed="#Bc" n="13"/>hominis, vel Deus ? et, Utrum Dei vel
+<lb ed="#Bc" n="14"/>Angelorum vel hominum bonorum vel
+<lb ed="#Bc" n="15"/>etiam malorum sit facere miracula ?
+</p>
+            <p xml:id="alalal-d56194-d1e120">
+               <lb ed="#Bc" n="16"/>Deinde quaeritur de secunda parte, ibi,
+<lb ed="#Bc" n="17"/>
+               <quote xml:id="alalal-d56194-Qd1e126"> Solet etiam queri, etc. </quote>
+            </p>
+            <p xml:id="alalal-d56194-d1e129">
+               <lb ed="#Bc" n="18"/>Videtur enim, quod Angeli formare
+<lb ed="#Bc" n="19"/>debuerunt corpus hominis : quia
+</p>
+            <p xml:id="alalal-d56194-d1e137">
+               <lb ed="#Bc" n="20"/>1. Due sunt partes hominis, corpus,
+<lb ed="#Bc" n="21"/>et anima. Similiter due sunt nature 
+spi<lb break="no" ed="#Bc" n="22"/>rituales superiores homine, Deus, et
+<lb ed="#Bc" n="23"/>Angelus. Si igitur dignior pars est creata
+<lb ed="#Bc" n="24"/>a Deo, relinquitur quod indignior pars
+<lb ed="#Bc" n="25"/>formetur ab Angelo.
+</p>
+            <p xml:id="alalal-d56194-d1e153">
+               <lb ed="#Bc" n="26"/>2. Item, Inter miracula deputat 
+Au<lb break="no" ed="#Bc" n="27"/>gustinus, ut habetur in Littera, quod
+<lb ed="#Bc" n="28"/>mulier formata est de costa : Angelorum
+<lb ed="#Bc" n="29"/>autem qui Virtutes dicuntur, est facere
+<lb ed="#Bc" n="30"/>miracula : ergo debuit hoc fieri per 
+An<lb break="no" ed="#Bc" n="31"/>gelos.
+</p>
+            <p xml:id="alalal-d56194-d1e169">
+               <lb ed="#Bc" n="32"/>Gratia hujus queritur, Utrum Dei,
+<lb ed="#Bc" n="33"/>vel Angelorum, vel hominum bonorum
+<lb ed="#Bc" n="34"/>vel malorum sit facere miracula ?
+</p>
+            <p xml:id="alalal-d56194-d1e178">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="35"/>Videtur enim, quod solius Dei :
+<lb ed="#Bc" n="36"/>1. Miraculis enim non subjicitur in
+<lb ed="#Bc" n="37"/>elementis mundi nisi potentia 
+obedien<lb break="no" ed="#Bc" n="38"/>tialis materiae : hoc non est nisi respectu
+<lb ed="#Bc" n="39"/>divine potentia : ergo videtur, quod
+<lb ed="#Bc" n="40"/>miracula non sint nisi respectu divine
+<lb ed="#Bc" n="41"/>potenti#, et non Angelorum, vel 
+quo<lb break="no" ed="#Bc" n="42"/>rumcumque hominum,
+</p>
+            <p xml:id="alalal-d56194-d1e200">
+               <lb ed="#Bc" n="43"/>2. Item, In cursu naturali non potest
+<lb ed="#Bc" n="44"/>esse opus nature perfectum, nisi Deus
+<lb ed="#Bc" n="45"/>sit in natura operans, ut dicunt Sancti :
+<lb ed="#Bc" n="46"/>ergo multo minus in cursu qui super 
+na<lb break="no" ed="#Bc" n="47"/>turam est : ergo videtur, quod miracula
+<lb ed="#Bc" n="48"/>non fiant nisi potentia divina operante. -
+</p>
+            <p xml:id="alalal-d56194-d1e216">
+               <lb ed="#Bc" n="49"/>Sep conrra hoc videtur esse, quod
+<lb ed="#Bc" n="50"/>1. Angelis attribuitur a Sanctis.
+</p>
+            <p xml:id="alalal-d56194-d1e224">
+               <lb ed="#Bc" n="51"/>2. Hem, Ab hoc specialis ordo 
+deno<lb break="no" ed="#Bc" n="52"/>minatur.
+</p>
+            <p xml:id="alalal-d56194-d1e231">
+               <lb ed="#Bc" n="53"/>3. Item, Hominibus attribuitur illud.
+<lb ed="#Bc" n="54"/>Unde, fad Corinth. xu, 10: Aliae 
+opera<lb break="no" ed="#Bc" n="55"/>tio virtutum, id est, miraculorum 
+opera<lb break="no" ed="#Bc" n="56"/>tio.
+</p>
+            <p xml:id="alalal-d56194-d1e242">
+               <lb ed="#Bc" n="57"/>4. Item, Videtur, quod non tantum
+<lb ed="#Bc" n="58"/>boni miracula faciunt, sed etiam mali:
+<lb ed="#Bc" n="59"/>quia dicitur, Matth. vi, 22 : Domine,
+<lb ed="#Bc" n="60"/>Domine, nonne in nomine tuo 
+propheta<lb break="no" ed="#Bc" n="61"/>vimus, et in nomine tuo demonia 
+ejeci<lb break="no" ed="#Bc" n="62"/>mus ?
+</p>
+            <p xml:id="alalal-d56194-d1e258">
+               <lb ed="#Bc" n="63"/>5. Item, Discipuli dixerunt ad 
+Domi<lb break="no" ed="#Bc" n="64"/>num : Magister, vidimus quemdam in
+<lb ed="#Bc" n="65"/>nomine tuo epicientem demonia, qui non
+<pb ed="#Bc" n="312"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>sequitur nos, et prohibuimus eum .
+<lb ed="#Bc" n="2"/>Ergo videtur, quod tam boni quam mali
+<lb ed="#Bc" n="3"/>faciunt miracula.
+</p>
+            <p xml:id="alalal-d56194-d1e278">
+               <lb ed="#Bc" n="4"/>Ratione hujus queeritur, Cujus virtutis
+<lb ed="#Bc" n="5"/>ratione flunt miracula ? ;
+</p>
+            <p xml:id="alalal-d56194-d1e285">
+               <lb ed="#Bc" n="6"/>Videtur autem, quod ratione spei: quia
+<lb ed="#Bc" n="7"/>1. Illa est ardui : et miraculum, ut 
+di<lb break="no" ed="#Bc" n="8"/>cit Augustinus, est arduum et insolitum.
+</p>
+            <p xml:id="alalal-d56194-d1e295">
+               <lb ed="#Bc" n="9"/>2. Item, Spes est exspectatio future
+<lb ed="#Bc" n="10"/>beatitudinis : propter beatitudinem fiunt
+<lb ed="#Bc" n="11"/>miracula : ergo videtur,. quod fiant 
+me<lb break="no" ed="#Bc" n="12"/>rito spei.
+</p>
+            <p xml:id="alalal-d56194-d1e306">
+               <lb ed="#Bc" n="13"/>SED contra videtur, quod merito cha-~
+<lb ed="#Bc" n="14"/>Titatis : quia
+</p>
+            <p xml:id="alalal-d56194-d1e313">
+               <lb ed="#Bc" n="15"/>1. Charitas est perfectissima virtus : 
+er<lb break="no" ed="#Bc" n="16"/>go opera perfectissima debentur ei : sed
+<lb ed="#Bc" n="17"/>talis est haec operatio miraculorum :
+<lb ed="#Bc" n="18"/>ergo charitati debetur operatio 
+miraculo<lb break="no" ed="#Bc" n="19"/>rum.
+</p>
+            <p xml:id="alalal-d56194-d1e326">
+               <lb ed="#Bc" n="20"/>Item, Angeli qui faciunt miracula,
+<lb ed="#Bc" n="21"/>non habent fidem, nec spem, sed 
+chari<lb break="no" ed="#Bc" n="22"/>tatem : cum igitur unius operationis sit
+<lb ed="#Bc" n="23"/>unus habitus, videtur quod in hominibus
+<lb ed="#Bc" n="24"/>etiam operatio miraculorum non debea
+<lb ed="#Bc" n="25"/>tur spei, vel fidei, sed charitati.
+</p>
+            <p xml:id="alalal-d56194-d1e342">
+               <lb ed="#Bc" n="26"/>Sep contra videtur, quod attribuenda
+<lb ed="#Bc" n="27"/>sit fidei : quia
+</p>
+            <p xml:id="alalal-d56194-d1e349">
+               <lb ed="#Bc" n="28"/>1. Ita dicit Dominus : Si habueritis
+<lb ed="#Bc" n="29"/>fidem sieut granum sinapis, dicetis hute
+<lb ed="#Bc" n="30"/>arbori more : Eradicare, et transplantare
+<lb ed="#Bc" n="31"/>in mare : et obediet vobis .
+</p>
+            <p xml:id="alalal-d56194-d1e361">
+               <lb ed="#Bc" n="32"/>Ergo debetur fidei.
+</p>
+            <p xml:id="alalal-d56194-d1e366">
+               <lb ed="#Bc" n="33"/>Item, <quote xml:id="alalal-d56194-Qd1e370">Si potes credere, omnia 
+pos<lb break="no" ed="#Bc" n="34"/>sibilia sunt credenti</quote>.
+</p>
+            <p xml:id="alalal-d56194-d1e376">
+               <lb ed="#Bc" n="35"/>3. Item, I ad Corinth. xu, 2: <quote xml:id="alalal-d56194-Qd1e380">Si 
+ha<lb break="no" ed="#Bc" n="36"/>buero omnem fidem, ita ut montes 
+trans<lb break="no" ed="#Bc" n="37"/>feram</quote>, etc. : ergo ut supra.
+</p>
+            <p xml:id="alalal-d56194-d1e388">
+               <lb ed="#Bc" n="38"/>Si autem hoc concedatur, quaeritur 
+ul<lb break="no" ed="#Bc" n="39"/>terius, Ratione cujus articuli ?
+</p>
+            <p xml:id="alalal-d56194-d1e395">
+               <lb ed="#Bc" n="40"/>Et videtur, quod ratione Incarnationis.
+<lb ed="#Bc" n="41"/>Quia dicit Augustinus quod 
+omnemiracu<lb break="no" ed="#Bc" n="42"/>lum est ad ostendendum illud : ergo 
+vi<lb break="no" ed="#Bc" n="43"/>detur, quod omne miraculum sit virtute
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="44"/>illus : et de hoc est articulus Incarnati;
+<lb ed="#Bc" n="45"/>nis: ergo virtute istius articuli. Istuq
+<lb ed="#Bc" n="46"/>etiam videtur trahi ex Lztéera, ubi dicit:
+<lb ed="#Bc" n="47"/>
+               <quote xml:id="alalal-d56194-Qd1e416"> Omnium igitur quae ad gratiam signi.
+<lb ed="#Bc" n="48"/>ficandam, non naturali motu rerum, seq
+<lb ed="#Bc" n="49"/>mirabiliter facta sunt, abscondite causa
+<lb ed="#Bc" n="50"/>in Deo fuerunt. </quote> Et constat, quod notat
+<lb ed="#Bc" n="51"/>gratiam Incarnationis : ergo virtute 
+arti<lb break="no" ed="#Bc" n="52"/>culi Incarnationis omnia miracula fiunt ;
+<lb ed="#Bc" n="53"/>et adhuc plura possunt adduci de tertio.
+<lb ed="#Bc" n="54"/>et quarto de Trinitate Augustini.
+</p>
+            <p xml:id="alalal-d56194-d1e435">
+               <lb ed="#Bc" n="55"/>Sed contra videtur, quod ratione ga.
+<lb ed="#Bc" n="56"/>pientia fiant: quia miracula rationem sei
+<lb ed="#Bc" n="57"/>divine sapientie ostendunt. Pretendit
+<lb ed="#Bc" n="58"/>enim sapientiam artifex faciendo, quod
+<lb ed="#Bc" n="59"/>omnes curantur: talia autem sunt opera
+<lb ed="#Bc" n="60"/>miraculorum : ergo videtur, quod 
+osten<lb break="no" ed="#Bc" n="61"/>dant sapientiam.
+</p>
+            <p xml:id="alalal-d56194-d1e454">
+               <lb ed="#Bc" n="62"/>Sed videtur iterum, quod fiant ratione
+<lb ed="#Bc" n="63"/>omnipotentie : quia
+</p>
+            <p xml:id="alalal-d56194-d1e461">
+               <lb ed="#Bc" n="64"/>2. Item, Angeli ad Saram, Genes. xviii,
+<lb ed="#Bc" n="65"/>14: <quote xml:id="alalal-d56194-Qd1e467">Numquid Deo quidquam est 
+dif<lb break="no" ed="#Bc" n="66"/>ficile ?</quote> Ergo videtur, quod ratione 
+omni<lb break="no" ed="#Bc" n="67"/>potentia.
+</p>
+            <p xml:id="alalal-d56194-d1e475">
+               <lb ed="#Bc" n="68"/>3. Item, Omnipotentia est legibus 
+po<lb break="no" ed="#Bc" n="69"/>tentie naturalis obviare : hoc autem fit |
+<lb ed="#Bc" n="70"/>in miraculo : ergo fiunt ratione 
+omnipo<lb break="no" ed="#Bc" n="71"/>tentia.
+</p>
+            <p xml:id="alalal-d56194-d1e486">
+               <lb ed="#Bc" n="72"/>Solutio. Dicendum ad primum, quod gy
+<lb ed="#Bc" n="73"/>miraculum facit Deus, Angelus, et homo 4
+<lb ed="#Bc" n="74"/>diversis modis. Deus enim facit 
+auctori<lb break="no" ed="#Bc" n="75"/>tate et prima potentia operante : 
+Ange<lb break="no" ed="#Bc" n="76"/>lus autem per ministerium et prasparando
+<lb ed="#Bc" n="77"/>materiam : et homo per invocationem.
+<lb ed="#Bc" n="78"/>Unde bene conceditur, quod in costa
+<lb ed="#Bc" n="79"/>Ade fecerunt Angeli aliquid, scilicet 
+se<lb break="no" ed="#Bc" n="80"/>parando eam ab Adam, et preparando
+<lb ed="#Bc" n="81"/>eam per dispositiones : sed formare non
+<lb ed="#Bc" n="82"/>poterant, quia formare costam est 
+anima<lb break="no" ed="#Bc" n="83"/>re mulicrem, et hoc non potuit esse nisl
+<lb ed="#Bc" n="84"/>creando sibi animam rationalem: et hoc.
+<lb ed="#Bc" n="85"/>innuitur in textu, ubi dicitur, quod solus
+<pb ed="#Bc" n="313"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Deus potuit formare costam, Angeli 
+au<lb break="no" ed="#Bc" n="2"/>tem ut agricole operantur ad segetes: et
+<lb ed="#Bc" n="3"/>per hoc patetsolutio ad prima duo 
+argu<lb break="no" ed="#Bc" n="4"/>menta, et ad sequentem questionem.
+</p>
+            <p xml:id="alalal-d56194-d1e532">
+               <lb ed="#Bc" n="5"/>Ad aliud dicendum, quod mali 
+homi<lb break="no" ed="#Bc" n="6"/>nes operantur miracula in sanctitate 
+Ec<lb break="no" ed="#Bc" n="7"/>clesiz, licet non in sanctitate persone:
+<lb ed="#Bc" n="8"/>quia Deus ad invocationem horum facit
+<lb ed="#Bc" n="9"/>ea propter fidem Ecclesia confortandam:
+<lb ed="#Bc" n="10"/>et quandoque propter fidem Ecclesie 
+pro<lb break="no" ed="#Bc" n="11"/>bandam, sicut fiet in temporibus 
+Anti<lb break="no" ed="#Bc" n="12"/>christi. .
+</p>
+            <p xml:id="alalal-d56194-d1e552">
+               <lb ed="#Bc" n="13"/>Si autem objicitur, quod erit ejus 
+ope<lb break="no" ed="#Bc" n="14"/>ratio secundum actum Satane in 
+prodi<lb break="no" ed="#Bc" n="15"/>giis et signis mendacibus, ut dicit 
+Apo<lb break="no" ed="#Bc" n="16"/>stolus'. Dicendum, quod mendacia 
+pos<lb break="no" ed="#Bc" n="17"/>sunt esse quoad intentionem, quia per
+<lb ed="#Bc" n="18"/>ea intendit subvertere : licet vera sint
+<lb ed="#Bc" n="19"/>quoad operationem : et forte quedam
+<lb ed="#Bc" n="20"/>erunt prestigiosa, de quibus supra est
+<lb ed="#Bc" n="21"/>habitum.
+</p>
+            <p xml:id="alalal-d56194-d1e575">
+               <lb ed="#Bc" n="22"/>Ad aliud dicendum, quod ille due 
+ra<lb break="no" ed="#Bc" n="23"/>tiones quae inducuntur ad hoc quod so~
+<lb ed="#Bc" n="24"/>lius Dei est facere miracula, non probant
+<lb ed="#Bc" n="25"/>nisi quod suum sit facere auctoritate et
+<lb ed="#Bc" n="26"/>potentia perfecta ad opus ex seipsa : et
+<lb ed="#Bc" n="27"/>hoc bene conceditur : sed Angelus 
+opera<lb break="no" ed="#Bc" n="28"/>tur sub ipso disponendo per ministerium,
+<lb ed="#Bc" n="29"/>et homo per invocationem.
+</p>
+            <p xml:id="alalal-d56194-d1e595">
+               <lb ed="#Bc" n="30"/>Ap Hoc quod ulterius queritur, Cujus
+<lb ed="#Bc" n="31"/>virtutis sit facere miracula ?
+</p>
+            <p xml:id="alalal-d56194-d1e602">
+               <lb ed="#Bc" n="32"/>Dicendum, quod fidei proprie, licet
+<lb ed="#Bc" n="33"/>aliarum sit per modum meriti in 
+com<lb break="no" ed="#Bc" n="34"/>muni: et.hujus ratio est: quia fides est
+<lb ed="#Bc" n="35"/>primo de his quae sunt supra rationem, et
+<lb ed="#Bc" n="36"/>ideo confirmat in aliis per ea quae per
+<lb ed="#Bc" n="37"/>rationem sunt.
+</p>
+            <p xml:id="alalal-d56194-d1e618">
+               <lb ed="#Bc" n="38"/>Item, Sicut fides facit abnegare 
+pro<lb break="no" ed="#Bc" n="39"/>prium posse rationis, ita congruum est
+<lb ed="#Bc" n="40"/>ut operetur in ea posse divinum : et ideo
+<lb ed="#Bc" n="41"/>etiam Philosophi dixerunt, quod 
+Pro<lb break="no" ed="#Bc" n="42"/>pheta surgens fidem verborum suorum
+<lb ed="#Bc" n="43"/>non habet probare nisi per miracula : et
+<lb ed="#Bc" n="44"/>ideo etiam Prophete signa dederunt, 
+sic<lb break="no" ed="#Bc" n="45"/>ut, Isa. vin, 44 : Pete tibi signum.
+</p>
+            <p xml:id="alalal-d56194-d1e638">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="46"/>Ap Hoc ergo quod objicitur de spe,
+<lb ed="#Bc" n="47"/>dicendum quod arduum spei non est 
+ar<lb break="no" ed="#Bc" n="48"/>duum operationis, sed potius quod debeat
+<lb ed="#Bc" n="49"/>compreheodi in beatitudine : miracula
+<lb ed="#Bc" n="50"/>autem magis fiunt ad ostendendam viam
+<lb ed="#Bc" n="51"/>beatitudinis.
+</p>
+            <p xml:id="alalal-d56194-d1e656">
+               <lb ed="#Bc" n="52"/>Ap Atiup dicendum, quod propter 
+bea<lb break="no" ed="#Bc" n="53"/>titudinem omnia fiunt, sicut propter
+<lb ed="#Bc" n="54"/>finem ultimum : sed proximus finis est
+<lb ed="#Bc" n="55"/>fidei confirmatio, sicut habetur, ad Hebr.
+<lb ed="#Bc" n="56"/>II, 4: <quote xml:id="alalal-d56194-Qd1e669">Contestante Deo signis, et 
+porten<lb break="no" ed="#Bc" n="57"/>tis</quote> : et, Marci, xvi, 17 : <quote xml:id="alalal-d56194-Qd1e674">Signa autem eos
+<lb ed="#Bc" n="58"/>gut crediderint, haec sequentur : In 
+nomi<lb break="no" ed="#Bc" n="59"/>ne meo</quote>, etc.
+</p>
+            <p xml:id="alalal-d56194-d1e683">
+               <lb ed="#Bc" n="60"/>Ad id quod objicitur de charitate, 
+di<lb break="no" ed="#Bc" n="61"/>cendum guod secundum perfectionem
+<lb ed="#Bc" n="62"/>informationis meriti charitas est perfectio
+<lb ed="#Bc" n="63"/>virtutum : sed non secundum 
+congruita<lb break="no" ed="#Bc" n="64"/>tem operationis miraculorum.
+</p>
+            <p xml:id="alalal-d56194-d1e696">
+               <lb ed="#Bc" n="65"/>Ad aliud dicendum, quod Angeli 
+ope<lb break="no" ed="#Bc" n="66"/>rantur in ministerio : nos autem 
+queri<lb break="no" ed="#Bc" n="67"/>mus de merito congruiex parte 
+invocan<lb break="no" ed="#Bc" n="68"/>tis : et ideo nihil probat illa objectio.
+</p>
+            <p xml:id="alalal-d56194-d1e707">
+               <lb ed="#Bc" n="69"/>Ad id quod ulterius queritur, Ratione
+<lb ed="#Bc" n="70"/>cujus articuli?
+</p>
+            <p xml:id="alalal-d56194-d1e714">
+               <lb ed="#Bc" n="71"/>Dico, quod ratione omnipotentie 
+pre<lb break="no" ed="#Bc" n="72"/>cipue : quia miraculum praecipue dicit
+<lb ed="#Bc" n="73"/>elevationem supra omnem potentiam
+<lb ed="#Bc" n="74"/>preter divinam.
+</p>
+            <p xml:id="alalal-d56194-d1e725">
+               <lb ed="#Bc" n="75"/>Ap ip quod contra objicitur, dicendum
+<lb ed="#Bc" n="76"/>quod miracula ostendunt opus 
+Incarna<lb break="no" ed="#Bc" n="77"/>tionis, vel gratiam fidei Incarnationis ut
+<lb ed="#Bc" n="78"/>finem, sed non ut potentiam operantem,
+<lb ed="#Bc" n="79"/>sed potius omnipotentiam Dei quae facit
+<lb ed="#Bc" n="80"/>heec et fides: credens enim potentiam,
+<lb ed="#Bc" n="81"/>meretur fieri miracula ad invocationem
+<lb ed="#Bc" n="82"/>credentis : per hoc etiam patet solutio ad
+<lb ed="#Bc" n="83"/>sequens. /
+</p>
+            <p xml:id="alalal-d56194-d1e747">
+               <lb ed="#Bc" n="84"/>Ad id quod objicitur de sapientia, 
+di<lb break="no" ed="#Bc" n="85"/>cendum quod non fiunt sapientia, nec 
+os<lb break="no" ed="#Bc" n="86"/>tendunt sapientiam principaliter, nec 
+ho<lb break="no" ed="#Bc" n="87"/>mines mirantur sapientiam, sed potius
+<lb ed="#Bc" n="88"/>potentiam. Admiratio enim sapientie
+<lb ed="#Bc" n="89"/>excitat ad inquirendum opus et modum
+<lb ed="#Bc" n="90"/>operis : sicut dicit Philosophus in primo
+<lb ed="#Bc" n="91"/>tang, in omni virtute, et signis, et prodigitis men
+<lb ed="#Bc" n="92"/>dacibus, etc.
+</p>
+            <p xml:id="alalal-d56194-d1e770">
+               <pb ed="#Bc" n="314"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Metaphysicorum: <quote xml:id="alalal-d56194-Qd1e778"> Ex admirariet tunc 
+<lb ed="#Bc" n="2"/>et nunc philosophari inceperunt. </quote> Sed 
+<lb ed="#Bc" n="3"/>admiratio potentie desistit ab 
+inquisitio<lb break="no" ed="#Bc" n="4"/>ne, et stupet in seipsa: et illa est admi-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="5"/>ratio miraculorum divinorum, sicut dj
+<lb ed="#Bc" n="6"/>cebatur de Domino : Qualis est hic, quid
+<lb ed="#Bc" n="7"/>venti et mare obediunt ei?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="467"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e90040"><!-- l3d24a9 -->
+            <head xml:id="alalal-e90040-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-e90040-Hd1e101" type="question-title">An idem possit simul esse scitum et
+creditum ?</head>
+            <p xml:id="alalal-e90040-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="14"/>ARTICULUS IX.
+<lb ed="Bd" n="15"/>An idem possit simul esse scitum et
+<lb ed="Bd" n="16"/>creditum ?
+</p>
+            <p xml:id="alalal-e90040-d1e115">
+               <lb ed="Bd" n="17"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="Bd" n="18"/>illo capitulo C, <quote xml:id="alalal-e90040-Qd1e121"> Post haec quaeri solet,
+<lb ed="Bd" n="19"/>Cum fides sit de non apparentibus,
+<lb ed="Bd" n="20"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-e90040-d1e129">
+               <lb ed="Bd" n="21"/>Videtur enim, quod idem possit esse
+<lb ed="Bd" n="22"/>simul scitum et creditum.
+</p>
+            <p xml:id="alalal-e90040-d1e137">
+               <lb ed="Bd" n="23"/>1. Sensibilis enim cognitio inferior est,
+<lb ed="Bd" n="24"/>quam intellectiva : et tamen intellectiva
+<lb ed="Bd" n="25"/>non excludit eam, nec e converso : imo 
+ju<lb break="no" ed="Bd" n="26"/>vateam in multis : ergo videtur, cum
+<lb ed="Bd" n="27"/>fides et scientia sic se habeant, quod una
+<lb ed="Bd" n="28"/>non excludat aliam.
+</p>
+            <p xml:id="alalal-e90040-d1e153">
+               <lb ed="Bd" n="29"/>2. Item, Minus lumen non tollit majus,
+<lb ed="Bd" n="30"/>licet minus videatur quam prius : ergo
+<lb ed="Bd" n="31"/>videtur, quod nec fides scientiam, nec e
+<lb ed="Bd" n="32"/>converso. :
+</p>
+            <p xml:id="alalal-e90040-d1e164">
+               <lb ed="Bd" n="33"/>3. Item, Aliquis Philosophus venit ad
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="34"/>fidem sicut Justinus, Dionysius, Apollo
+<lb ed="Bd" n="35"/>phanes, et alii multi, qui sciverunt per
+<lb ed="Bd" n="36"/>rationes naturales unum Deum esse : si
+<lb ed="Bd" n="37"/>ergo fides evacuat scientiam, oporteret
+<lb ed="Bd" n="38"/>quod obliviscerentur illarum rationum,
+<lb ed="Bd" n="39"/>quod falsum est: ergo scientia et fides
+<lb ed="Bd" n="40"/>possunt esse de eodem.
+</p>
+            <p xml:id="alalal-e90040-d1e186">
+               <lb ed="Bd" n="41"/>4. Item, Nos quotidie querimus 
+ratio<lb break="no" ed="Bd" n="42"/>nes naturales, et non fundatas super 
+prin<lb break="no" ed="Bd" n="43"/>cipalia fidei, et invenimus multas quibus
+<lb ed="Bd" n="44"/>defendi potest fides: constat autem, quod
+<lb ed="Bd" n="45"/>illae generare possunt habitum scientiae :
+<lb ed="Bd" n="46"/>ergo idem potest esse scitum et 
+credi<lb break="no" ed="Bd" n="47"/>tun.
+</p>
+            <p xml:id="alalal-e90040-d1e204">
+               <lb ed="Bd" n="48"/>5. Item, Job, xu, 7, dicit : Interroga
+<lb ed="Bd" n="49"/>jumenta, et docebunt te. Et, Psal. xvm,
+<lb ed="Bd" n="50"/>2: Celi enarrant gloriam Det. Ergo 
+vi<lb break="no" ed="Bd" n="51"/>detur, quod ab ipsis creaturis possint 
+ha<lb break="no" ed="Bd" n="52"/>beri rationes naturales quibus aliquid
+<lb ed="Bd" n="53"/>probatur de Deo.
+</p>
+            <p xml:id="alalal-e90040-d1e220">
+               <lb ed="Bd" n="54"/>6. Item, Exemplum consuevit poni de
+<lb ed="Bd" n="55"/>beata et gloriosa Virgine : quia ipsa 
+ex<lb break="no" ed="Bd" n="56"/>perimento scivit se concepisse sine virili
+<lb ed="Bd" n="57"/>semine de Spiritu sancto, et idem 
+credi<lb break="no" ed="Bd" n="58"/>dit : ergo idem est creditum et scitum.
+</p>
+            <p xml:id="alalal-e90040-d1e234">
+               <lb ed="Bd" n="59"/>Sed conrra objicitur communiter:
+</p>
+            <p xml:id="alalal-e90040-d1e239">
+               <lb ed="Bd" n="60"/>1. Per illud Joan. xiv, 2: Vado parare
+<pb ed="#Bd" n="468"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>vobis locum, ubi dicit Glossa : <quote xml:id="alalal-e90040-Qd1e249"> Eat 
+Do<lb break="no" ed="Bd" n="2"/>minus, ne videatur : lateat, ut credatur.
+<lb ed="Bd" n="3"/>Tune enim paratur locus, si ex fide 
+juva<lb break="no" ed="Bd" n="4"/>tur creditus. Desideretur, ut desideratus
+<lb ed="Bd" n="5"/>habeatur. </quote> Ergo videlur, quod latere
+<lb ed="Bd" n="6"/>rationem facit credere.
+</p>
+            <p xml:id="alalal-e90040-d1e264">
+               <lb ed="Bd" n="7"/>2. Item, Supra est habitum, quod 
+fi<lb break="no" ed="Bd" n="8"/>des est de non apparentibus : ergo non
+<lb ed="Bd" n="9"/>est de scitis, quia scita sunt valde 
+appa<lb break="no" ed="Bd" n="10"/>rentia
+</p>
+            <p xml:id="alalal-e90040-d1e275">
+               <lb ed="Bd" n="11"/>3. Item, Magister Hugo dicit, et 
+habi<lb break="no" ed="Bd" n="12"/>tum est supra, quod <quote xml:id="alalal-e90040-Qd1e281"> scientia est supra
+<lb ed="Bd" n="13"/>fidem : </quote> ergo evacuat eam : quia 
+inuti<lb break="no" ed="Bd" n="14"/>lis est imperfectior habitus, cum habetur
+<lb ed="Bd" n="15"/>perfectus : quia dicit Apostolus, I ad 
+Co<lb break="no" ed="Bd" n="16"/>rinth. xin, 40 : Cum venerit quod 
+perfe<lb break="no" ed="Bd" n="17"/>cium est, evacuabitur quod ex parte
+<lb ed="Bd" n="18"/>est,
+</p>
+            <p xml:id="alalal-e90040-d1e298">
+               <lb ed="Bd" n="19"/>4. Item, In rebus quae sunt sub 
+opinio<lb break="no" ed="Bd" n="20"/>ne, scientia evacuat opinionem : ergo ef
+<lb ed="Bd" n="21"/>fidem.
+</p>
+            <p xml:id="alalal-e90040-d1e307">
+               <lb ed="Bd" n="22"/>5. Item, Objiciunt seculari objectione,
+<lb ed="Bd" n="23"/>quod dilectio Dei propter se cum in cor
+<lb ed="Bd" n="24"/>venerit, evacuat dilectionem Dei propter
+<lb ed="Bd" n="25"/>temporalia : ergo similiter fides cum 
+ve<lb break="no" ed="Bd" n="26"/>nerit, evacuat consensum propter 
+ratio<lb break="no" ed="Bd" n="27"/>nem. ,
+</p>
+            <p xml:id="alalal-e90040-d1e324">
+               <lb ed="Bd" n="28"/>6. Item, Joan. iv, 40: £t mulieri 
+di<lb break="no" ed="Bd" n="29"/>cebant, scilicet Samaritani: Quia am non
+<lb ed="Bd" n="30"/>propter tuam loquelam credimus : ipst
+<lb ed="Bd" n="31"/>enim audivimus, et scimus quia hic est
+<lb ed="Bd" n="32"/>vere salvator mundi. Mulier autem ibi
+<lb ed="Bd" n="33"/>obtinet vicem scientiae quae est per 
+ratio<lb break="no" ed="Bd" n="34"/>nem : ergo scientia per rationem accepta
+<lb ed="Bd" n="35"/>in credibili aliquo, evacuatur per fidem
+<lb ed="Bd" n="36"/>advenientem.
+</p>
+            <p xml:id="alalal-e90040-d1e346">
+               <lb ed="Bd" n="37"/>Solutio Dicendum, quod fides et
+<lb ed="Bd" n="38"/>scientia sunt de eodem, non secundum
+<lb ed="Bd" n="39"/>idem : et ideo unum non evacuat aliud :
+<lb ed="Bd" n="40"/>et ideo concedo rationes primo inductas
+<lb ed="Bd" n="41"/>hoc modo intelligendo : fides autem non
+<lb ed="Bd" n="42"/>assentit propter rationem, sed ratio ibi est
+<lb ed="Bd" n="43"/>sub fide, et similiter scientia.
+</p>
+            <p xml:id="alalal-e90040-d1e364">
+               <lb ed="Bd" n="44"/>Ad primum ergo quod objicitur, 
+dicen<lb break="no" ed="Bd" n="45"/>dum quod vult dicere ibi Glossa, quod
+<lb ed="Bd" n="46"/>assensus Apostolorum magis est 
+merito<lb break="no" ed="Bd" n="47"/>rius si latet quoad visum corporalem : et
+<lb ed="Bd" n="48"/>hoc verum est, quia tanto fides habet ma-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>jus meritum, quanto ratio prebet ei 
+mi<lb break="no" ed="Bd" n="50"/>nus experimentum.
+</p>
+            <p xml:id="alalal-e90040-d1e384">
+               <lb ed="Bd" n="51"/>Ad aliud dicendum, quod hoc modo Ady
+<lb ed="Bd" n="52"/>quo fides est de articulo illo, non potest
+<lb ed="Bd" n="53"/>esse scientia vel ratio de eodem : et 
+qua<lb break="no" ed="Bd" n="54"/>liter hoc sit, seepius jam supra 
+explana<lb break="no" ed="Bd" n="55"/>tum est.
+</p>
+            <p xml:id="alalal-e90040-d1e397">
+               <lb ed="Bd" n="56"/>Ad aliud dicendum, quod Hugo loqui- Adotjs]
+<lb ed="Bd" n="57"/>tur de scientia qué est intellectiva 
+veri<lb break="no" ed="Bd" n="58"/>tatis, quae est visione faciei ad faciem,
+<lb ed="Bd" n="59"/>non de scientia quae est in via ex ratione:
+<lb ed="Bd" n="60"/>quia illa est multo minus certa, quam
+<lb ed="Bd" n="61"/>fides sit : licet de hoc etiam supra aliam
+<lb ed="Bd" n="62"/>dedimus rationem.
+</p>
+            <p xml:id="alalal-e90040-d1e415">
+               <lb ed="Bd" n="63"/>Ad aliud dicendum, quod ut puto 
+fal<lb break="no" ed="Bd" n="64"/>sum est: de hoc enim potest esse opinio
+<lb ed="Bd" n="65"/>et scientia : et praecipue apud diversos,
+<lb ed="Bd" n="66"/>et etiam apud eumdem, licet ipse plus
+<lb ed="Bd" n="67"/>innitatur scientia.
+</p>
+            <p xml:id="alalal-e90040-d1e429">
+               <lb ed="Bd" n="68"/>Ad aliud dicendum, quod non credo Adous
+<lb ed="Bd" n="69"/>eum esse sine mortali peccato, qui Deum
+<lb ed="Bd" n="70"/>diligit tantum propter temporalia. 
+Siau<lb break="no" ed="Bd" n="71"/>tem diligit Deum propter se, et cum eo
+<lb ed="Bd" n="72"/>temporalia non nisi ad usum, non ad
+<lb ed="Bd" n="73"/>fructum : tunc non oportet illam 
+dilectio<lb break="no" ed="Bd" n="74"/>nem evacuari.
+</p>
+            <p xml:id="alalal-e90040-d1e447">
+               <lb ed="Bd" n="75"/>Si autem dicas, quod diligit Deum 
+qui<lb break="no" ed="Bd" n="76"/>dem super omnia, sed tamen temporalia
+<lb ed="Bd" n="77"/>diligit immoderate citra Deum : tune 
+ni<lb break="no" ed="Bd" n="78"/>hil valet simile quod inducitur: quia hee
+<lb ed="Bd" n="79"/>dilectio est tunc veniale peccatum, cujus
+<lb ed="Bd" n="80"/>appetitus absorbetur a charitate perfecta.
+<lb ed="Bd" n="81"/>Scientia autem meritoria est, et nullum
+<lb ed="Bd" n="82"/>omnino peccatum.
+</p>
+            <p xml:id="alalal-e90040-d1e467">
+               <lb ed="Bd" n="83"/>Ad aliud dicendum, quod illa allegoria sao
+<lb ed="Bd" n="84"/>non probat, nisi quod fides non assentit
+<lb ed="Bd" n="85"/>nisi propter rationem: et verum est, et
+<lb ed="Bd" n="86"/>concessum a nobis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

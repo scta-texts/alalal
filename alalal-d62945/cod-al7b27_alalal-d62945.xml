@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="349"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d62945"><!-- l2d20a7 -->
+            <head xml:id="alalal-d62945-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-d62945-Hd1e101" type="question-title">Utrum primi parentes genuissent proles
+fortes, debita quantitate perfectas, et
+seientes ?</head>
+            <p xml:id="alalal-d62945-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="7"/>ARTICULUS VI.
+<lb ed="#Bc" n="8"/>Utrum primi parentes genuissent proles
+<lb ed="#Bc" n="9"/>fortes, debita quantitate perfectas, et
+<lb ed="#Bc" n="10"/>seientes ?
+</p>
+            <p xml:id="alalal-d62945-d1e117">
+               <lb ed="#Bc" n="11"/>Deinde, quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="12"/>ibi, D, <quote xml:id="alalal-d62945-Qd1e123"> Si vero queritur, Quales,
+<lb ed="#Bc" n="13"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-d62945-d1e129">
+               <lb ed="#Bc" n="14"/>Videtur enim opinio Magistri esse
+<lb ed="#Bc" n="15"/>falsa : quia
+</p>
+            <p xml:id="alalal-d62945-d1e137">
+               <lb ed="#Bc" n="16"/>1. Dignior est natura hominis, quam
+<lb ed="#Bc" n="17"/>bruti: ergo irrationabile est, quod hoc
+<lb ed="#Bc" n="18"/>fuisset concessum bruto, quod ambularet
+<lb ed="#Bc" n="19"/>et comederet, et non homini.
+</p>
+            <p xml:id="alalal-d62945-d1e148">
+               <lb ed="#Bc" n="20"/>2. Item, in ultima parte, H, idem dicit
+<lb ed="#Bc" n="21"/>Magister etiam ex parte anime: ergo
+<lb ed="#Bc" n="22"/>fuissent pueri ignorantes : ignorantia
+<lb ed="#Bc" n="23"/>autem poena peccati est? ergo sensissent
+<lb ed="#Bc" n="24"/>penam ante culpam.
+</p>
+            <p xml:id="alalal-d62945-d1e161">
+               <lb ed="#Bc" n="25"/>Solutio. De omnibus his alibi plura
+<lb ed="#Bc" n="26"/>inquisita sunt. Unde hic breviter de hoc
+<lb ed="#Bc" n="27"/>dicendum est, quod mollities 
+membro<lb break="no" ed="#Bc" n="28"/>rum contrariatur ambulationi, et molli-
+<cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="29"/>ties membrorum attestatur nobilissime
+<lb ed="#Bc" n="30"/>complexioni secundum qualitates tactus,
+<lb ed="#Bc" n="31"/>que constituunt subjectum et corpus, et
+<lb ed="#Bc" n="32"/>ideo potius sunt nobilitatis, quam 
+igno<lb break="no" ed="#Bc" n="33"/>bilitatis: et ideo non fuit defectus. Alia
+<lb ed="#Bc" n="34"/>autem animalia terrestrem habent 
+com<lb break="no" ed="#Bc" n="35"/>plexionem, et ideo membra dura et 
+ri<lb break="no" ed="#Bc" n="36"/>gida, et pellem pilosam: et totum hoc est
+<lb ed="#Bc" n="37"/>ignobilitatis : et hoc movit Magister.
+</p>
+            <p xml:id="alalal-d62945-d1e194">
+               <lb ed="#Bc" n="38"/>Ad id quod objicitur de perfectione
+<lb ed="#Bc" n="39"/>secundum animam, dicendum quod non
+<lb ed="#Bc" n="40"/>est naturale, quod molli existente et
+<lb ed="#Bc" n="41"/>fluida complexione cerebri, sit fortis
+<lb ed="#Bc" n="42"/>impressio specierum et fortis 
+conver<lb break="no" ed="#Bc" n="43"/>sio super illas: talis autem fluxus est
+<lb ed="#Bc" n="44"/>in pueris: et ideo dicit Philosophus in
+<lb ed="#Bc" n="45"/>VIE Physicorum, quod <quote xml:id="alalal-d62945-Qd1e213"> sedendo et
+<lb ed="#Bc" n="46"/>quiescendo fit anima sciens et prudens: </quote>
+               <lb ed="#Bc" n="47"/>et refert quietem et sessionem ad motum
+<lb ed="#Bc" n="48"/>fluentis complexionis in diversa. Unde
+<lb ed="#Bc" n="49"/>puto, quod sicut Magister dicit, quod
+<lb ed="#Bc" n="50"/>pueri in etate infantili non habuissent
+<lb ed="#Bc" n="51"/>scientiam secundum actum propter 
+hu<lb break="no" ed="#Bc" n="52"/>miditatem organi, sed tamen 
+habuis<lb break="no" ed="#Bc" n="53"/>sent habitum omnium scibilium per 
+na<lb break="no" ed="#Bc" n="54"/>turam innatam sibi in anima: sicut modo
+<lb ed="#Bc" n="55"/>dicimus de baptizatis parvulis, quod 
+ha<lb break="no" ed="#Bc" n="56"/>bent virtutes in munere, et non in usu:
+<lb ed="#Bc" n="57"/>et hoc non fuisset peena, sed natura.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

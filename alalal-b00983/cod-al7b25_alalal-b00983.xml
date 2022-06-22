@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="517"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b00983"><!-- l1d19a5 -->
+            <head xml:id="alalal-b00983-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-b00983-Hd1e101" type="question-title">Quid significent ista nomina, aequalitas
+et aequalis, stmilitudo et similis : et
+utrum Pater et Filius et Spiritus 
+sanctus possunt dict una aequalitas ?</head>
+            <p xml:id="alalal-b00983-d1e104">
+               <lb ed="#Ba" n="24"/>ARTICULUS V.
+<lb ed="#Ba" n="25"/>Quid significent ista nomina, aequalitas
+<lb ed="#Ba" n="26"/>et aequalis, stmilitudo et similis : et
+<lb ed="#Ba" n="27"/>utrum Pater et Filius et Spiritus 
+san<lb break="no" ed="#Ba" n="28"/>ctus possunt dict una aequalitas ?
+</p>
+            <p xml:id="alalal-b00983-d1e117">
+               <lb ed="#Ba" n="29"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Ba" n="30"/>
+               <quote xml:id="alalal-b00983-Qd1e123"> Ecce breviter assignavit Augustinus in
+<lb ed="#Ba" n="31"/>quo trium personarum consistit 
+equali<lb break="no" ed="#Ba" n="32"/>tas, etc. </quote>
+            </p>
+            <p xml:id="alalal-b00983-d1e131">
+               <lb ed="#Ba" n="33"/>Dubium enim potest esse quid 
+signifi<lb break="no" ed="#Ba" n="34"/>cent ista nomina, aequalitas et aequalis,
+<lb ed="#Ba" n="35"/>et similitudo et similis?
+</p>
+            <p xml:id="alalal-b00983-d1e141">
+               <lb ed="#Ba" n="36"/>Videtur enim, quod notiones : quia
+<lb ed="#Ba" n="37"/>1. Quecumque in divinis notant 
+dis<lb break="no" ed="#Ba" n="38"/>cretionem, significant ea quibus fit illa
+<lb ed="#Ba" n="39"/>discretio , sed ista in divinis 
+signifi<lb break="no" ed="#Ba" n="40"/>cant illa quibus fit illa discretio : hae 
+au<lb break="no" ed="#Ba" n="41"/>tem sunt notiones : ergo ista significant
+<lb ed="#Ba" n="42"/>notiones.
+</p>
+            <p xml:id="alalal-b00983-d1e159">
+               <lb ed="#Ba" n="43"/>2. Item, Hhlarius dicit, quod similitu-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="44"/>do non sibi est: ergo nec aequalitas sibi
+<lb ed="#Ba" n="45"/>est : ergo ista significant personas que
+<lb ed="#Ba" n="46"/>in pluralitate et relatione consistunt.
+</p>
+            <p xml:id="alalal-b00983-d1e172">
+               <lb ed="#Ba" n="47"/>3. Item, Essentialia praedicantur 
+sin<lb break="no" ed="#Ba" n="48"/>gulariter de pluribus in summa : ista 
+au<lb break="no" ed="#Ba" n="49"/>tem de pluribus in summa praedicantur
+<lb ed="#Ba" n="50"/>pluraliter : dicimus enim quod Pater et
+<lb ed="#Ba" n="51"/>Filius et Spiritus sanctus non sunt unus
+<lb ed="#Ba" n="52"/>equalis, sed plures aequales : ergo ista
+<lb ed="#Ba" n="53"/>non significant essentiam, ut videtur.
+</p>
+            <p xml:id="alalal-b00983-d1e190">
+               <lb ed="#Ba" n="54"/>SED CONTRA :
+<lb ed="#Ba" n="55"/>1. Tres persone non sunt unum in
+<lb ed="#Ba" n="56"/>personalitate, quia personalitas unius
+<lb ed="#Ba" n="57"/>non est personalitas alterius : et unum
+<lb ed="#Ba" n="58"/>requiritur ad aequale esse: ergo non
+<lb ed="#Ba" n="59"/>sunt aequales in personalitate : ergo 
+ne<lb break="no" ed="#Ba" n="60"/>cesse est si sunt aequales, quod sint
+<lb ed="#Ba" n="61"/>equales in essentia et essentialibus.
+</p>
+            <p xml:id="alalal-b00983-d1e210">
+               <lb ed="#Ba" n="62"/>2. Item, Notionibus sunt persone 
+ine<lb break="no" ed="#Ba" n="63"/>quales, quia Pater habet tres, Filius
+<lb ed="#Ba" n="64"/>duas, Spiritus sanctus unam: ergo si
+<lb ed="#Ba" n="65"/>sunt aequales, hoc erit in essentia et 
+es<lb break="no" ed="#Ba" n="66"/>sentialibus.
+</p>
+            <p xml:id="alalal-b00983-d1e223">
+               <lb ed="#Ba" n="67"/>3. Item, ‘Triplex ambitus virtualis
+<lb ed="#Ba" n="68"/>quantitatis qui supra determinatus est,
+<lb ed="#Ba" n="69"/>convenit persone gratia essentiae, et
+<lb ed="#Ba" n="70"/>non gratia alicujus persone 
+determina<lb break="no" ed="#Ba" n="71"/>te : ergo videtur, quod aqualis et 
+simi<lb break="no" ed="#Ba" n="72"/>lis dicunt essentiam, et non notionem,
+<lb ed="#Ba" n="73"/>vel personam.
+</p>
+            <p xml:id="alalal-b00983-d1e242">
+               <lb ed="#Ba" n="74"/>Uxrerius quaeritur, Utrum possit dici,
+<lb ed="#Ba" n="75"/>Pater et Filius et Spiritus sanctus sunt
+<lb ed="#Ba" n="76"/>una e#qualitas ?
+</p>
+            <p xml:id="alalal-b00983-d1e251">
+               <lb ed="#Ba" n="77"/>Et videtur quod sic: quia sunt una
+<lb ed="#Ba" n="78"/>essentia quae est aequalitas trium : ergo
+<lb ed="#Ba" n="79"/>videtur, quod sint una aequalitas.
+</p>
+            <p xml:id="alalal-b00983-d1e260">
+               <lb ed="#Ba" n="80"/>Solutio. Dicendum, quod ista nomina
+<lb ed="#Ba" n="81"/>equalis, similis, et similitudo, et 
+aqua<lb break="no" ed="#Ba" n="82"/>htas, in suo intellectu claudunt duo,
+<lb ed="#Ba" n="83"/>scilicet distinctas personas, et unitatem
+<lb ed="#Ba" n="84"/>essentiae : sed quando ut conereta acci~
+<lb ed="#Ba" n="85"/>piuntur, tunc significant personas in
+<lb ed="#Ba" n="86"/>recto, et essentiam in obliquo : et 
+quan<lb break="no" ed="#Ba" n="87"/>do accipiuntur ut abstracta, fit e 
+con<lb break="no" ed="#Ba" n="88"/>verso, quod scilicet significant essentiam
+<lb ed="#Ba" n="89"/>in recto et personas in obliquo: sed 
+ta<lb break="no" ed="#Ba" n="90"/>men retinent semper utrumque: et per
+<pb ed="#Ba" n="518"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>hoc patet solutio fere ad omnia objecta.
+<lb ed="#Ba" n="2"/>Quod autem tla sit, ut dictum est, patet
+<lb ed="#Ba" n="3"/>stexponanturdictionesille : aequales enim
+<lb ed="#Ba" n="4"/>sunt persone unam habentes 
+quantita<lb break="no" ed="#Ba" n="5"/>tem, et sinules persone unam habentes
+<lb ed="#Ba" n="6"/>qualitatem : et patet, quod in hac 
+capo<lb break="no" ed="#Ba" n="7"/>silione persone sunt in recto, et essentia
+<lb ed="#Ba" n="8"/>in obliquo. Si autem abstracta 
+suman<lb break="no" ed="#Ba" n="9"/>tur, conlingit e contrario : quia 
+equali<lb break="no" ed="#Ba" n="10"/>tas cst distinclarum personarum eadem
+<lb ed="#Ba" n="11"/>quantitas, et similitudo est rerum 
+diffe<lb break="no" ed="#Ba" n="12"/>rentium vel personarum cadem qualitas :
+<lb ed="#Ba" n="13"/>ubi essentia est in recto, et persone in
+<lb ed="#Ba" n="14"/>obliquo.
+</p>
+            <p xml:id="alalal-b00983-d1e321">
+               <lb ed="#Ba" n="15"/>Dicendum ergo ad primas rationes,
+<lb ed="#Ba" n="16"/>quod omnia quae concludunt, non 
+con<lb break="no" ed="#Ba" n="17"/>tingunt ex hoc quod tantum significent
+<lb ed="#Ba" n="18"/>notiones vel personas, sed quia 
+signifi<lb break="no" ed="#Ba" n="19"/>cant personas in recto.
+</p>
+            <p xml:id="alalal-b00983-d1e334">
+               <lb ed="#Ba" n="20"/>Ap inna autem quae in contrarium
+<lb ed="#Ba" n="21"/>sunt, non cogunt plus nisi quod essentia
+<lb ed="#Ba" n="22"/>in illis nominibus dicatur im obliquo.
+</p>
+            <p xml:id="alalal-b00983-d1e343">
+               <lb ed="#Ba" n="23"/>Ad aliud dicendum, quod meo judicio
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="24"/>non debet concedi, quod tres sint una
+<lb ed="#Ba" n="25"/>equalitas : quia leet ibi sigmiicetur es~
+<lb ed="#Ba" n="26"/>senlia in recto, tamen etiam persone 
+si<lb break="no" ed="#Ba" n="27"/>gnificantur: et non valet, Sunt id in quo
+<lb ed="#Ba" n="28"/>est aqualitas, sicut essentia, et virtus :
+<lb ed="#Ba" n="29"/>ergo sunt aequalilas : et incidit locus 
+so<lb break="no" ed="#Ba" n="30"/>phisticus accidentis propter diversum
+<lb ed="#Ba" n="31"/>modum significand: in aequalitate, et eo
+<lb ed="#Ba" n="32"/>in quo nolatur illa wqualitas, sive hoc sit
+<lb ed="#Ba" n="33"/>vitus, sive essentia.
+</p>
+            <p xml:id="alalal-b00983-d1e373">
+               <lb ed="#Ba" n="34"/>Nota ergo, quod ista sunt relaltiva 
+in<lb break="no" ed="#Ba" n="35"/>trinsecus, quando proferuntur 
+plurali<lb break="no" ed="#Ba" n="36"/>ter: extrinsecus sunt relativa, quando
+<lb ed="#Ba" n="37"/>peoferuntur singulariter, et exigunt 
+de<lb break="no" ed="#Ba" n="38"/>terminalionem extra, ut, Isti sunt 
+aqua<lb break="no" ed="#Ba" n="39"/>les, relativum est intrinsecus claudens
+<lb ed="#Ba" n="40"/>in se ea quae referuntur ad se, et 
+deter<lb break="no" ed="#Ba" n="41"/>minantur a seipsis intrimsecus : cum 
+au<lb break="no" ed="#Ba" n="42"/>tem dicitur, Fils est aequalis, oportet
+<lb ed="#Ba" n="43"/>addere, Patri et Sprritui sancto, vel 
+am<lb break="no" ed="#Ba" n="44"/>bobus: sunt tamen ita relativa quod
+<lb ed="#Ba" n="45"/>consignificant etiam essentiam in 
+obli<lb break="no" ed="#Ba" n="46"/>quo, ut dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

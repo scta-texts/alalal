@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="16"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-cc3262"><!-- l1d26a8 -->
+            <head xml:id="alalal-cc3262-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-cc3262-Hd1e101" type="question-title">Quid sit notio, et in quo differta
+relatione ?</head>
+            <p xml:id="alalal-cc3262-d1e104">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="45"/>ARTICULUS VIII.
+<lb ed="#Bb" n="46"/>Quid sit notio, et in quo differta
+<lb ed="#Bb" n="47"/>relatione ?
+</p>
+            <p xml:id="alalal-cc3262-d1e115">
+               <lb ed="#Bb" n="48"/>Deinde quaeritur de notione, scilicet
+<lb ed="#Bb" n="49"/>quid sit notio, et in quo differat a 
+rela<lb break="no" ed="#Bb" n="50"/>tione ?
+</p>
+            <p xml:id="alalal-cc3262-d1e124">
+               <lb ed="#Bb" n="51"/>1. Dicit autem Boetius, quod notio est
+<lb ed="#Bb" n="52"/>simplex conceptus mentis : talis autem
+<lb ed="#Bb" n="53"/>non est nisi universale depuratum a 
+ma<lb break="no" ed="#Bb" n="54"/>teria et appenditiis materiae : ergo 
+vide<lb break="no" ed="#Bb" n="55"/>tur, quod notio sit idem quod 
+univer<lb break="no" ed="#Bb" n="56"/>sale.
+</p>
+            <p xml:id="alalal-cc3262-d1e141">
+               <lb ed="#Bb" n="57"/>2. Item, Magister vult, quod notio sit
+<lb ed="#Bb" n="58"/>qua persona cognoscitur : sed relatione
+<lb ed="#Bb" n="59"/>cognoscitur persona: ergo videtur, quod
+<lb ed="#Bb" n="60"/>relatio sit notio.
+</p>
+            <p xml:id="alalal-cc3262-d1e152">
+               <lb ed="#Bb" n="61"/>SED CONTRA :
+<lb ed="#Bb" n="62"/>1. Relativum est cujus esse est aliud se
+<lb ed="#Bb" n="63"/>habere : ergo non diffinite est relatio
+<lb ed="#Bb" n="64"/>unius persone : notio autem datur 
+per<lb break="no" ed="#Bb" n="65"/>sone uni: ergo relatio non est notio.
+</p>
+            <p xml:id="alalal-cc3262-d1e165">
+               <lb ed="#Bb" n="66"/>2. Item, Aliqua est notio quae non est
+<lb ed="#Bb" n="67"/>relatio, sicut igenifus, quod negationem
+<lb ed="#Bb" n="68"/>sonare videtur : ergo videtur, quod non
+<lb ed="#Bb" n="69"/>omnis notio sit relatio in divinis.
+</p>
+            <p xml:id="alalal-cc3262-d1e176">
+               <lb ed="#Bb" n="70"/>3. Item, In inferioribus notio rei non
+<lb ed="#Bb" n="71"/>abstrahitur ab eo quo res est id quod
+<lb ed="#Bb" n="72"/>est : id enim quod est principium fornrale
+<lb ed="#Bb" n="73"/>essendi rem, est etiam principium 
+intel<lb break="no" ed="#Bb" n="74"/>ligendi eam: ergo videtur, quod 
+notio<lb break="no" ed="#Bb" n="75"/>nes in divinis magis debeant sumi a 
+par<lb break="no" ed="#Bb" n="76"/>te essentiae, quam a parte personarum.
+</p>
+            <p xml:id="alalal-cc3262-d1e194">
+               <lb ed="#Bb" n="77"/>Solutio. Dicendum, quod relatio et
+<lb ed="#Bb" n="78"/>notio secundum nominum intentiones
+<lb ed="#Bb" n="79"/>differunt : quia, sicut probat objectio,
+<lb ed="#Bb" n="80"/>notio est quo cognoscitur res: relatio
+<lb ed="#Bb" n="81"/>autem quo refertur ad aliud. Sed tamen
+<lb ed="#Bb" n="82"/>in divinis non accipitur omnino 
+secun<lb break="no" ed="#Bb" n="83"/>dum diffinitionem Boetii : quia in divinis
+<lb ed="#Bb" n="84"/>non est universale. Et praeterea a 
+com<lb break="no" ed="#Bb" n="85"/>muni personarum non accipitur notio
+<lb ed="#Bb" n="86"/>personarum, sed potius a proprio : et hoc
+<pb ed="#Bb" n="17"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>ideo fit, quia commune non est 
+princi<lb break="no" ed="#Bb" n="2"/>pium intelligendi proprium. Unde cum
+<lb ed="#Bb" n="3"/>persone in ratione personarum, 
+cogno<lb break="no" ed="#Bb" n="4"/>scantur propriis suis, oportuit accipere
+<lb ed="#Bb" n="5"/>notiones facientes cognoscere ex parte
+<lb ed="#Bb" n="6"/>propriorum, et non ex parte communis :
+<lb ed="#Bb" n="7"/>et per hoc patet solutio ad primum, et
+<lb ed="#Bb" n="8"/>ultimum.
+</p>
+            <p xml:id="alalal-cc3262-d1e240">
+               <lb ed="#Bb" n="9"/>Ad aliud dicendum, quod relatio et
+<lb ed="#Bb" n="10"/>notio quandoque sunt idem in supposito,
+<lb ed="#Bb" n="11"/>sed tamen secundum nominum 
+intentio<lb break="no" ed="#Bb" n="12"/>nes non suntidem: et ideo secundum
+<lb ed="#Bb" n="13"/>supposita non convertuntur : quia 
+inge<lb break="no" ed="#Bb" n="14"/>neratio non dicit relationem nisi large
+<lb ed="#Bb" n="15"/>loquendo, prout dicit Augustinus infra‘,
+<lb ed="#Bb" n="16"/>quod negatio est in eodem genere cum
+<lb ed="#Bb" n="17"/>sua affirmatione : et per hoc patet solutio
+<lb ed="#Bb" n="18"/>ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

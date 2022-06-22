@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="209"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a41369"><!-- l1d7a3 -->
+            <head xml:id="alalal-a41369-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-a41369-Hd1e101" type="question-title">De quibus et respectu quorum est posse
+divinum, an respectu subjectorum
+tantum ?</head>
+            <p xml:id="alalal-a41369-d1e104">
+               <lb ed="#Ba" n="5"/>ARTICULUS III.
+<lb ed="#Ba" n="6"/>De quibus et respectu quorum est posse
+<lb ed="#Ba" n="7"/>divinum, an respectu subjectorum
+<lb ed="#Ba" n="8"/>tantum ?
+</p>
+            <p xml:id="alalal-a41369-d1e115">
+               <lb ed="#Ba" n="9"/>Tertio quaeritur, Utrum posse et velle
+<lb ed="#Ba" n="10"/>in Deo dicantur tantum respectu eorum
+<lb ed="#Ba" n="11"/>que subjiciuntur potentiae et voluntati,
+<lb ed="#Ba" n="12"/>vel etiam respectu aliorum ?
+</p>
+            <p xml:id="alalal-a41369-d1e126">
+               <lb ed="#Ba" n="13"/>Et circa hoc querenda sunt duo, 
+scili<lb break="no" ed="#Ba" n="14"/>cet de quibus sit posse divinum? Et
+<lb ed="#Ba" n="15"/>trum unica sit poténtia ad posse 
+genera<lb break="no" ed="#Ba" n="16"/>re, et ad posse creare ?
+</p>
+            <p xml:id="alalal-a41369-d1e138">
+               <lb ed="#Ba" n="17"/>1. Videtur autem, quod dicatur respectu
+<lb ed="#Ba" n="18"/>subjectorum tantum : quia ita dicit 
+Au<lb break="no" ed="#Ba" n="19"/>ctor in Litera, quod ideo Filius 
+impo<lb break="no" ed="#Ba" n="20"/>tentior Patre non est: “quia posse et
+<lb ed="#Ba" n="21"/>velle generare Filium non est aliquid 
+eo<lb break="no" ed="#Ba" n="22"/>rum quae subjecta sunt divine potentie :
+<lb ed="#Ba" n="23"/>hoc autem nihil esset si potentia esset
+<lb ed="#Ba" n="24"/>wicujus alterius quam subjectorum :
+<lb ed="#Ba" n="25"/>quia ex hoc non probaretur Filius 
+equa<lb break="no" ed="#Ba" n="26"/>lis Patri in potentia.
+</p>
+            <p xml:id="alalal-a41369-d1e162">
+               <lb ed="#Ba" n="27"/>2. Item, Potentia secundum rationem
+<lb ed="#Ba" n="28"/>sequitur esse potentis : ergo et 
+omnipo<lb break="no" ed="#Ba" n="29"/>tentia sequitur esse omnipotentis : sed
+<lb ed="#Ba" n="30"/>veneratio Filii non sequitur secundum
+<lb ed="#Ba" n="31"/>rationem esse omnipotentis : ergo 
+vide<lb break="no" ed="#Ba" n="32"/>tur, quod omnipotentia Patris non dica~
+<lb ed="#Ba" n="33"/>tur respectu generationis. Hoc etiam 
+vi<lb break="no" ed="#Ba" n="34"/>detur haberi ex Litera: quia dicit. <quote xml:id="alalal-a41369-Qd1e181"> Non
+<lb ed="#Ba" n="35"/>enim ante voluit, vel potuit,quam genuit:
+<lb ed="#Ba" n="36"/>sicut nec ante fuit, quam genuit : quia ab
+<lb ed="#Ba" n="37"/>eterno fuit, et ab aeterno genuit:</quote>ergo una
+<lb ed="#Ba" n="38"/>est potentia trium personarum, sicut una
+<lb ed="#Ba" n="39"/>ost essentia earum. Cum igitur potentia
+<lb ed="#Ba" n="40"/>Filii secundum rationem intelligendi sit
+<lb ed="#Ba" n="41"/>consequens Filium, potentia autem 
+gene<lb break="no" ed="#Ba" n="42"/>randisecundum rationem intelligendi sit
+<lb ed="#Ba" n="43"/>ante Filium, videtur potentia Dei tantum
+<cb ed="#Ba" n="b"/>s
+<lb ed="#Ba" n="44"/>esse respectu subjectorum potentie, et
+<lb ed="#Ba" n="45"/>non respectu generationis.
+</p>
+            <p xml:id="alalal-a41369-d1e211">
+               <lb ed="#Ba" n="46"/>SED CONTRA :
+<lb ed="#Ba" n="47"/>1. Majus est generare Filium quam 
+om<lb break="no" ed="#Ba" n="48"/>nia quae subjiciuntur potentie divine :
+<lb ed="#Ba" n="49"/>ergo penes illud maxime attenditur 
+ro<lb break="no" ed="#Ba" n="50"/>bur potentie : ergo videtur, quod si in
+<lb ed="#Ba" n="51"/>Filio non sit hujusmodi potentia, quod
+<lb ed="#Ba" n="52"/>in maximo robore potentie deficiat a
+<lb ed="#Ba" n="53"/>Patre, et ita non erit omnipotens.
+</p>
+            <p xml:id="alalal-a41369-d1e231">
+               <lb ed="#Ba" n="54"/>2. Item, Ratio principii reducitur ad
+<lb ed="#Ba" n="55"/>rationem potentia : cum igitur Pater sit
+<lb ed="#Ba" n="56"/>principium non de principio, Filius 
+au<lb break="no" ed="#Ba" n="57"/>tem principium de principio, videtur
+<lb ed="#Ba" n="58"/>quod aliquam potentiam habet Pater,
+<lb ed="#Ba" n="59"/>quam non habet Filius.
+</p>
+            <p xml:id="alalal-a41369-d1e247">
+               <lb ed="#Ba" n="60"/>Solutio. Dicendum, quod 
+omnipoten<lb break="no" ed="#Ba" n="61"/>tia Dei attenditur respectu eorum que
+<lb ed="#Ba" n="62"/>extra sunt, et consequuntur posse 
+com<lb break="no" ed="#Ba" n="63"/>mune Paitris et Filii et Spiritus sancti,
+<lb ed="#Ba" n="64"/>sicut dicit Magister in Littera.
+</p>
+            <p xml:id="alalal-a41369-d1e260">
+               <lb ed="#Ba" n="65"/>Ad hoc autem quod objicitur, 
+dicen<lb break="no" ed="#Ba" n="66"/>dum quod generare non est majus 
+ali<lb break="no" ed="#Ba" n="67"/>quid, sed ad aliquid, ut dicit Magister.
+<lb ed="#Ba" n="68"/>Nec Pater ostenditur per hoc esse 
+ali<lb break="no" ed="#Ba" n="69"/>quid, vel potens esse aliquid, sed potius
+<lb ed="#Ba" n="70"/>ad aliquid : tamen bene concedo, quod
+<lb ed="#Ba" n="71"/>generatio Filil major est toto mundo in
+<lb ed="#Ba" n="72"/>infinitum : licet in creatione potentia 
+ap<lb break="no" ed="#Ba" n="73"/>pareat, in generatione autem proprietas :
+<lb ed="#Ba" n="74"/>quia secundum hoc quod est 1b: 
+poten<lb break="no" ed="#Ba" n="75"/>tie non distinguitur Filius a Patre, nec
+<lb ed="#Ba" n="76"/>Spiritus sanctus, nec e converso.
+</p>
+            <p xml:id="alalal-a41369-d1e290">
+               <lb ed="#Ba" n="77"/>Ad aliud dicendum, quod ratio 
+prin<lb break="no" ed="#Ba" n="78"/>cipii duplex est, scilicet ad facere, et hac
+<lb ed="#Ba" n="79"/>reducitur ad rationem potentie : et est
+<lb ed="#Ba" n="80"/>ratio principii non ad facere, sed ad 
+di<lb break="no" ed="#Ba" n="81"/>stinguere et distingui, et haec non 
+redu<lb break="no" ed="#Ba" n="82"/>citur, imo in illa parte non est nisi ad
+<lb ed="#Ba" n="83"/>aliquid, et non aliquid. Ex parte autem
+<lb ed="#Ba" n="84"/>illa quae se tenet cum essentia, habet 
+ra<lb break="no" ed="#Ba" n="85"/>tionem potentie, et sic est communis
+<lb ed="#Ba" n="86"/>tribus personis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

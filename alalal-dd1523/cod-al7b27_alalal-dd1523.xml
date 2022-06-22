@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="11"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-dd1523"><!-- l2d1a3 -->
+            <head xml:id="alalal-dd1523-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-dd1523-Hd1e101" type="question-title">An error Platonis qui posuit tria 
+principia, bene elidatur a Magistro? et, .
+An materia sit aeterna ?</head>
+            <p xml:id="alalal-dd1523-d1e104">
+               <lb ed="#Bc" n="17"/>ARTICULUS III.
+<lb ed="#Bc" n="18"/>An error Platonis qui posuit tria 
+prin<lb break="no" ed="#Bc" n="19"/>cipia, bene elidatur a Magistro? et, .
+<lb ed="#Bc" n="20"/>An materia sit aeterna ?
+</p>
+            <p xml:id="alalal-dd1523-d1e115">
+               <lb ed="#Bc" n="21"/>Deinde quaeritur de hoc quod dicit:
+<lb ed="#Bc" n="22"/>
+               <quote xml:id="alalal-dd1523-Qd1e121"> Plato namque tria esse principia 
+ext<lb break="no" ed="#Bc" n="23"/>stimavit, etc. </quote> —
+</p>
+            <p xml:id="alalal-dd1523-d1e127">
+               <lb ed="#Bc" n="24"/>Hic enim incidit questio de errore
+<lb ed="#Bc" n="25"/>Platonis. Videtur enim Plato non 
+conve<lb break="no" ed="#Bc" n="26"/>nienter posuisse materiam aeternam, nec
+<lb ed="#Bc" n="27"/>exemplar. Et quia error Platonis circa
+<lb ed="#Bc" n="28"/>materiam duo supponit, scilicet, quod
+<lb ed="#Bc" n="29"/>sit aeterna, et quod sit omnium una: 
+ini<lb break="no" ed="#Bc" n="30"/>tio queremus tria, scilicet, Utrum 
+mate<lb break="no" ed="#Bc" n="31"/>ria sit aeterna ?
+<lb ed="#Bc" n="32"/>Et secundo, Utrum sit omnium una?
+<lb ed="#Bc" n="33"/>Et tertio, de exemplaribus quae posuit
+<lb ed="#Bc" n="34"/>Plato.
+</p>
+            <p xml:id="alalal-dd1523-d1e154">
+               <lb ed="#Bc" n="35"/>AD PRIMUM sic proceditur :
+<lb ed="#Bc" n="36"/>1. Omne fieri cum sit accidens, necesse
+<lb ed="#Bc" n="37"/>est fundari in aliquo subjecto : creati est
+<lb ed="#Bc" n="38"/>fieri: ergo creari necesse est fundari in
+<lb ed="#Bc" n="39"/>aliquo subjecto. Sed omnis ratio subjecti
+<lb ed="#Bc" n="40"/>quod subjicitur motui vel mutationi, est
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="41"/>ratio materia : ergo materia 
+presupponi<lb break="no" ed="#Bc" n="42"/>tur ante creari, et ante omne fieri. Quod
+<lb ed="#Bc" n="43"/>autem materia subjiciatur in fieri et 
+mu<lb break="no" ed="#Bc" n="44"/>tari, accipitur a Philosopho in primo de
+<lb ed="#Bc" n="45"/>Generatione et Corruptione, qui dicit,
+<lb ed="#Bc" n="46"/>quod hyle primo et per se est subjectum
+<lb ed="#Bc" n="47"/>generationis, et corruptionis: si igitur
+<lb ed="#Bc" n="48"/>materia semper est posita ante creari,
+<lb ed="#Bc" n="49"/>ipsa numquam est creata.
+</p>
+            <p xml:id="alalal-dd1523-d1e191">
+               <lb ed="#Bc" n="50"/>2. item, Omnis operatio facientis 
+ali<lb break="no" ed="#Bc" n="51"/>quid, terminatur ad hoc aliquid, et 
+num<lb break="no" ed="#Bc" n="52"/>quam ad materiam et formam per se 
+so<lb break="no" ed="#Bc" n="53"/>lam : creatio est actus facientis aliquid:
+<lb ed="#Bc" n="54"/>ergo numquam terminatur ad materiam,
+<lb ed="#Bc" n="55"/>sed ad hoc aliquid quod est compositum.
+<lb ed="#Bc" n="56"/>Prima probatur in VIL prime 
+Philoso<lb break="no" ed="#Bc" n="57"/>phiae multis rationibus: secunda autem
+<lb ed="#Bc" n="58"/>supponitur ex Littera in sequenti 
+capi<lb break="no" ed="#Bc" n="59"/>tulo. Inde sic: Creatio est super hoc 
+ali<lb break="no" ed="#Bc" n="60"/>quid primo: sed omne hoc aliquid 
+com<lb break="no" ed="#Bc" n="61"/>positum est, et presupponit sua 
+compo<lb break="no" ed="#Bc" n="62"/>nentia secundum naturam: ergo 
+mate<lb break="no" ed="#Bc" n="63"/>ria est ante creatum quodlibet, et ante
+<lb ed="#Bc" n="64"/>creationem.
+</p>
+            <p xml:id="alalal-dd1523-d1e226">
+               <lb ed="#Bc" n="65"/>3. Item, Primi agentis est 
+perfectissi<lb break="no" ed="#Bc" n="66"/>mum opus: sed materia est 
+imperfectis<lb break="no" ed="#Bc" n="67"/>simum : ergo necesse est quod non sit
+<lb ed="#Bc" n="68"/>opus primi agentis, sed supponitur ante :
+<lb ed="#Bc" n="69"/>ergo materia est ab aeterno.
+</p>
+            <p xml:id="alalal-dd1523-d1e239">
+               <lb ed="#Bc" n="70"/>4, Ttem, Quidquid est ante omne fieri
+<lb ed="#Bc" n="71"/>et post omne corrumpi, ipsum nec fit nec
+<lb ed="#Bc" n="72"/>corrumpitur : materia est talis: ergo nec
+<lb ed="#Bc" n="73"/>facta est nec corrumpitur. Propatio 
+ma<lb break="no" ed="#Bc" n="74"/>terie, quia prima patet per se: Omne
+<lb ed="#Bc" n="75"/>fieri est ex materia, et omne corrumpi
+<lb ed="#Bc" n="76"/>est in materiam : sed ex quo est fieri est
+<lb ed="#Bc" n="77"/>ante fieri, et in quod est corrumpi est
+<lb ed="#Bc" n="78"/>post corruptionem : ergo materia est ante
+<lb ed="#Bc" n="79"/>omne fieri, et post omne corrumpi: ergo
+<lb ed="#Bc" n="80"/>nec cospit, nec desinit. Et super hanc 
+ra<lb break="no" ed="#Bc" n="81"/>tionem innixi sunt Philosophi.
+</p>
+            <p xml:id="alalal-dd1523-d1e268">
+               <lb ed="#Bc" n="82"/>SED CONTRA:
+<lb ed="#Bc" n="83"/>4. Si-est ab aeterno: aut fuit sub forma,
+<lb ed="#Bc" n="84"/>aut per se solam. Si primo modo: 
+Om<lb break="no" ed="#Bc" n="85"/>ne compositum precedunt sua 
+compo<lb break="no" ed="#Bc" n="86"/>nentia: materia sub forma est 
+composi<lb break="no" ed="#Bc" n="87"/>tum: ergo precedunt ipsum sua 
+com<lb break="no" ed="#Bc" n="88"/>ponentia: ergo est aliquid ante id quod
+<lb ed="#Bc" n="89"/>est aeternum, quod falsum est. Si autem
+<pb ed="#Bc" n="12"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>sine forma fuit. Contra: Sic est tantum
+<lb ed="#Bc" n="2"/>in potentia, et quod tantum in potentia
+<lb ed="#Bc" n="3"/>est, non est: ergo materia prima non
+<lb ed="#Bc" n="4"/>fuit ab wterno.
+</p>
+            <p xml:id="alalal-dd1523-d1e301">
+               <lb ed="#Bc" n="5"/>2. Item, Natura operando perfectior
+<lb ed="#Bc" n="6"/>est quam ars, quia ars dat formam sine
+<lb ed="#Bc" n="7"/>transmutatione materie, et nature cum
+<lb ed="#Bc" n="8"/>transmutatione: ergo cum primum in
+<lb ed="#Bc" n="9"/>potentia operandi vincat utramque, 
+opor<lb break="no" ed="#Bc" n="10"/>tet quod ipsum materiam totam educat
+<lb ed="#Bc" n="11"/>de nihilo.
+</p>
+            <p xml:id="alalal-dd1523-d1e320">
+               <lb ed="#Bc" n="12"/>3. Item, Agens in inferioribus agit per
+<lb ed="#Bc" n="13"/>formam, et habet aliquid de potentia 
+ad<lb break="no" ed="#Bc" n="14"/>mixtum, eo quod ipsum est compositum,
+<lb ed="#Bc" n="15"/>et ideo non potest agere nisi educendo
+<lb ed="#Bc" n="16"/>formam: sed Deus est agens quod est
+<lb ed="#Bc" n="17"/>totum forma, nihil habens de potentia :
+<lb ed="#Bc" n="18"/>ergo ipse aget non tantum formam, sed
+<lb ed="#Bc" n="19"/>etiam materiam.
+</p>
+            <p xml:id="alalal-dd1523-d1e340">
+               <lb ed="#Bc" n="20"/>Soiutio. Dicendum, quod materia non
+<lb ed="#Bc" n="21"/>est aeterna, licet hoc multi Philosophi 
+po<lb break="no" ed="#Bc" n="22"/>suerunt, et rationem eorum infra in 
+opi<lb break="no" ed="#Bc" n="23"/>nionibus eorum magis prosequemur.
+<lb ed="#Bc" n="24"/>Dicenpum ergo ad primum, quod 
+crea<lb break="no" ed="#Bc" n="25"/>tio non dicit actum, vel passionem quae
+ <lb ed="#Bc" n="26"/>media sit inter Deum agentem, et id
+<lb ed="#Bc" n="27"/>quod educitur de non esse : sed potius
+<lb ed="#Bc" n="28"/>relationem consequentem ipsum quod
+<lb ed="#Bc" n="29"/>nunc primo de nihilo est, et ante non
+<lb ed="#Bc" n="30"/>fuit: et tune de plano cessat objectio,
+<lb ed="#Bc" n="31"/>Et hujus hac est ratio : quia perfecti
+<lb ed="#Bc" n="32"/>agentis est agere non actione media, in
+<lb ed="#Bc" n="33"/>qua res prius sit in fieri quam in esse.
+<lb ed="#Bc" n="34"/>Sunt autem alii qui dicunt aliter, scilicet,
+<lb ed="#Bc" n="35"/>quod creari sit fieri, et quod fieri sit 
+acci<lb break="no" ed="#Bc" n="36"/>dens : et tamen non sit aliquid in-aliquo
+<lb ed="#Bc" n="37"/>subjecto, sed est in aliquo ut in causa:
+<lb ed="#Bc" n="38"/>hoc autem ego non intelligo, quod 
+acci<lb break="no" ed="#Bc" n="39"/>dens esse habeat, et non sit in subjecto,
+<lb ed="#Bc" n="40"/>nisi hoc sit divino miraculo. Alii dicunt,
+<lb ed="#Bc" n="41"/>quod creari sit fieri, et}sit simul cum esse,
+<lb ed="#Bc" n="42"/>et sit concreatum ipsi rei create : utrum
+<lb ed="#Bc" n="43"/>autem hoc verum sit, infra queretur. Via
+<lb ed="#Bc" n="44"/>planior est, quod vere creantis nihil aliud
+<lb ed="#Bc" n="45"/>est, quam quod esse faciat rem postquam
+<lb ed="#Bc" n="46"/>non fuit sine mutatione media.
+</p>
+            <p xml:id="alalal-dd1523-d1e401">
+               <lb ed="#Bc" n="47"/>Ad aliud dicendum, quod hoc est 
+ve<lb break="no" ed="#Bc" n="48"/>rum de agente composito, in quo est ali-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="49"/>quid potentie quod non agit, sicut est
+<lb ed="#Bc" n="50"/>natura et artifex: quia in illis non est
+<lb ed="#Bc" n="51"/>principium agendi nisiforma, et ideo non
+<lb ed="#Bc" n="52"/>agunt nisi producendo formam super 
+ma<lb break="no" ed="#Bc" n="53"/>teriam, et ideo actio eorum necessario
+<lb ed="#Bc" n="54"/>terminatur semper ad esse compositi. Sic
+<lb ed="#Bc" n="55"/>autem non est de Creatore in quo nihil
+<lb ed="#Bc" n="56"/>est in potentia, et ideo ipse agit totum
+<lb ed="#Bc" n="57"/>secundum suam voluntatem. Hec autem
+<lb ed="#Bc" n="58"/>responsio obligabit nos infra in 
+questio<lb break="no" ed="#Bc" n="59"/>nibus de erroribus Aristotelis ad 
+diffici<lb break="no" ed="#Bc" n="60"/>liorem questionem : quia ex ipsa 
+vide<lb break="no" ed="#Bc" n="61"/>tur sequi mundi totius aeternitas, ut infra
+<lb ed="#Bc" n="62"/>patebit. ,
+</p>
+            <p xml:id="alalal-dd1523-d1e440">
+               <lb ed="#Bc" n="63"/>Ad aliud dicendum, quod hoc parum
+<lb ed="#Bc" n="64"/>valet, quoniam perfectissimum agens non
+<lb ed="#Bc" n="65"/>agit per necessitatem nature, sed per 
+vo<lb break="no" ed="#Bc" n="66"/>luntatem et sapientiam : sapientie 
+au<lb break="no" ed="#Bc" n="67"/>tem perfectio consistil in ordine 
+secun<lb break="no" ed="#Bc" n="68"/>dum optimum modum universi: et hoc
+<lb ed="#Bc" n="69"/>est facere ens incompletum, quod 
+poten<lb break="no" ed="#Bc" n="70"/>tia sit omnis forma, et actu nulla : quia
+<lb ed="#Bc" n="71"/>aliter referri non posset ad totum 
+univer<lb break="no" ed="#Bc" n="72"/>sum.
+</p>
+            <p xml:id="alalal-dd1523-d1e464">
+               <lb ed="#Bc" n="73"/>Ad aliud dicendum, quod materia non
+<lb ed="#Bc" n="74"/>est ante omne fieri, si fieri dicatur actio
+<lb ed="#Bc" n="75"/>creantis : quia cum illa nihil sit nisi 
+fa<lb break="no" ed="#Bc" n="76"/>cere ex imperio suo rem nunc esse 
+post<lb break="no" ed="#Bc" n="77"/>quam non fuit de ea aliquid nec potentia
+<lb ed="#Bc" n="78"/>nec actu, illud fieri non presupponit sibi
+<lb ed="#Bc" n="79"/>potentiam aliquam : quianec est proprie
+<lb ed="#Bc" n="80"/>fieri, eo quod omne fieri sit inter duos
+<lb ed="#Bc" n="81"/>terminos quorum unus est privatio et
+<lb ed="#Bc" n="82"/>alter forma, et supra subjectum unum
+<lb ed="#Bc" n="83"/>numero sub privatione et forma, sive 
+se<lb break="no" ed="#Bc" n="84"/>cundum esse privationis et forme, sicut
+<lb ed="#Bc" n="85"/>habitum est. Sed ex illa ratione non 
+pot<lb break="no" ed="#Bc" n="86"/>est concludi plus,nisi quod materia prima
+<lb ed="#Bc" n="87"/>non sit ingressa in esse per generationem,
+<lb ed="#Bc" n="88"/>nec egrediatur ab esse per corruptionem,
+<lb ed="#Bc" n="89"/>et hoc quidem verissimum est, et in hoc
+<lb ed="#Bc" n="90"/>sensu probatur materia ingenerabilis a
+<lb ed="#Bc" n="91"/>Philosopho, et conceditur verum esse ab
+<lb ed="#Bc" n="92"/>omnibus intelligentibus veritatem, et in
+<lb ed="#Bc" n="93"/>nullo obviat inceptioni materia per 
+crea<lb break="no" ed="#Bc" n="94"/>tionem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

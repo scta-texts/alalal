@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="588"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b13758"><!-- l1d23dt2 -->
+            <head xml:id="alalal-b13758-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-b13758-d1e101">
+               <lb ed="#Ba" n="11"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-b13758-d1e106">
+               <lb ed="#Ba" n="12"/>Deinde sumenda est secunda pars
+<lb ed="#Ba" n="13"/>istius distinctionis ubi dicit: <quote xml:id="alalal-b13758-Qd1e112"> Ideo oritur
+<lb ed="#Ba" n="14"/>hic questio. </quote>
+            </p>
+            <p xml:id="alalal-b13758-d1e118">
+               <lb ed="#Ba" n="15"/>In hac enim quaeritur communitas
+<lb ed="#Ba" n="16"/>hujus nominis quod est persona.
+</p>
+            <p xml:id="alalal-b13758-d1e125">
+               <lb ed="#Ba" n="17"/>Et dividitur in tres partes. In prima
+<lb ed="#Ba" n="18"/>quaeritur ratio communitatis. In 
+secun<lb break="no" ed="#Ba" n="19"/>da, solvitur questio, quare eadem 
+ra<lb break="no" ed="#Ba" n="20"/>tione communitatis non dicuntur tres
+<lb ed="#Ba" n="21"/>dii, ibi, F, <quote xml:id="alalal-b13758-Qd1e138"> Sed quaeritur, Cum 
+di<lb break="no" ed="#Ba" n="22"/>camus Patrem et Filtum, etc. </quote> In tertia
+<lb ed="#Ba" n="23"/>quaeritur, Quare non dicimus tres 
+essen<lb break="no" ed="#Ba" n="24"/>tias, ibi G, <quote xml:id="alalal-b13758-Qd1e147"> Verum et hie alia emergit
+<lb ed="#Ba" n="25"/>questio, etc. </quote>
+            </p>
+            <p xml:id="alalal-b13758-d1e154">
+               <lb ed="#Ba" n="26"/>Prima pars habet tria capitula : in 
+quo<lb break="no" ed="#Ba" n="27"/>rum primo propomtur questio. In 
+se<lb break="no" ed="#Ba" n="28"/>cundo, solvitur, ibi, <quote xml:id="alalal-b13758-Qd1e162"> Quia volumus,
+<lb ed="#Ba" n="29"/>etc. </quote> Ia tertio, ratio necessitatis hujus
+<lb ed="#Ba" n="30"/>locutionis explanatur universalis, et apud
+<lb ed="#Ba" n="31"/>nos et apud Grecos, ibi, D, <quote xml:id="alalal-b13758-Qd1e172"> Qua 
+neces<lb break="no" ed="#Ba" n="32"/>sitate non solum Latinus, etc. </quote>
+            </p>
+            <p xml:id="alalal-b13758-d1e178">
+               <lb ed="#Ba" n="33"/>Ex hoc patet sententia Litterae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

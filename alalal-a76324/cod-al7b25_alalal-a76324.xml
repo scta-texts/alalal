@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="383"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a76324"><!-- l1d13a9 -->
+            <head xml:id="alalal-a76324-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-a76324-Hd1e101" type="question-title">Utrum non esse ab alio sit notio Patris,
+et utrum Pater et Filius possunt dici
+idem principium Spiritus sancti ?</head>
+            <p xml:id="alalal-a76324-d1e104">
+               <lb ed="#Ba" n="72"/>ARTICULUS IX.
+<lb ed="#Ba" n="73"/>Utrum non esse ab alio sit notio Patris,
+<lb ed="#Ba" n="74"/>et utrum Pater et Filius possunt dici
+<lb ed="#Ba" n="75"/>idem principium Spiritus sancti ?
+</p>
+            <p xml:id="alalal-a76324-d1e115">
+               <lb ed="#Ba" n="76"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="77"/>
+               <quote xml:id="alalal-a76324-Qd1e121"> Pater, inquit, solus non est de alio,
+<lb ed="#Ba" n="78"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-a76324-d1e127">
+               <lb ed="#Ba" n="79"/>1. Si enim non esse ab alio notio est
+<lb ed="#Ba" n="80"/>Patris, videtur etiam per oppositum, esse
+<lb ed="#Ba" n="81"/>ab alio notio esse Filli et Spiritus sancti,
+<lb ed="#Ba" n="82"/>quod falsum est : ergo nec non esse de
+<lb ed="#Ba" n="83"/>alio notio est Patris.
+</p>
+            <p xml:id="alalal-a76324-d1e141">
+               <lb ed="#Ba" n="84"/>2. Item, Sicut Pater est innascibilis,
+<lb ed="#Ba" n="85"/>ita etiam est improcessibilis : ergo 
+vide<lb break="no" ed="#Ba" n="86"/>tur, quod haecdebeat esse notio sua, 
+sic<lb break="no" ed="#Ba" n="87"/>ut innascibilitas.
+</p>
+            <p xml:id="alalal-a76324-d1e152">
+               <lb ed="#Ba" n="88"/>3. Praeterea, Sicut ingenitum esse 
+se<lb break="no" ed="#Ba" n="89"/>cundum unum sensum convenit Patri et
+<lb ed="#Ba" n="90"/>Spiritui sancto : ita improcessibilem esse
+<lb ed="#Ba" n="91"/>convenit Patri et Filio : quare ergo non
+<lb ed="#Ba" n="92"/>ponitur esse una proprietatum Patris et
+<pb ed="#Ba" n="384"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Filii in communi, sicut Hieronymus 
+po<lb break="no" ed="#Ba" n="2"/>nit ingenitum convenire in communi 
+Pa<lb break="no" ed="#Ba" n="3"/>tri et Spiritui sancto ? Si dicas, quod hoc
+<lb ed="#Ba" n="4"/>impedit communitas : quia quod 
+com<lb break="no" ed="#Ba" n="5"/>mune est, non habet intentionem 
+pro<lb break="no" ed="#Ba" n="6"/>prii : quia proprium est quod convenit
+<lb ed="#Ba" n="7"/>uni soli. Hoc nihil est : quia spiratio 
+ac<lb break="no" ed="#Ba" n="8"/>tiva secundum quam Pater et Filius sunt
+<lb ed="#Ba" n="9"/>unum principium Spiritus sancti, 
+com<lb break="no" ed="#Ba" n="10"/>munis est Patri et Filio : et tamen est
+<lb ed="#Ba" n="11"/>notio : ergo ratio communitatis non 
+1m<lb break="no" ed="#Ba" n="12"/>pedit notionis intellectum.
+</p>
+            <p xml:id="alalal-a76324-d1e196">
+               <lb ed="#Ba" n="13"/>Unrerivs quaeritur, Si dicimus Patrem
+<lb ed="#Ba" n="14"/>et Filium per unam notionem esse 
+prin<lb break="no" ed="#Ba" n="15"/>cipium, utrum possimus concedere, quod
+<lb ed="#Ba" n="16"/>sint idem principium ?
+</p>
+            <p xml:id="alalal-a76324-d1e207">
+               <lb ed="#Ba" n="17"/>1. Videtur, quod sic : quia sunt 
+prin<lb break="no" ed="#Ba" n="18"/>cipium : aut ergo sunt idem principium,
+<lb ed="#Ba" n="19"/>aut diversum : quia idem et diversum 
+se<lb break="no" ed="#Ba" n="20"/>quuntur omne ens in quantum ens est :
+<lb ed="#Ba" n="21"/>non autem sunt diversum principium
+<lb ed="#Ba" n="22"/>Spiritus sancti Pater et Filius : ergo sunt
+<lb ed="#Ba" n="23"/>idem.
+</p>
+            <p xml:id="alalal-a76324-d1e225">
+               <lb ed="#Ba" n="24"/>2. Contra :
+<lb ed="#Ba" n="25"/>Supra‘ Magister noluit concedere de
+<lb ed="#Ba" n="26"/>Patre et Filio, quod essent idem Deus,
+<lb ed="#Ba" n="27"/>vel alus Deus: tamen concessit, quod
+<lb ed="#Ba" n="28"/>essent unus Deus : cum ergo non magis
+<lb ed="#Ba" n="29"/>unio sit Patris et Filii in communi 
+no<lb break="no" ed="#Ba" n="30"/>tione qua spirant Spiritum sanctum,
+<lb ed="#Ba" n="31"/>quam in essentia divina, videtur quod
+<lb ed="#Ba" n="32"/>non debeat concedi, quod sint idem 
+prin<lb break="no" ed="#Ba" n="33"/>cipium, vel aliud sive diversum.
+</p>
+            <p xml:id="alalal-a76324-d1e249">
+               <lb ed="#Ba" n="34"/>Solutio. Dicendum ad primo 
+quesi<lb break="no" ed="#Ba" n="35"/>tum, quod ad esse notionis tria 
+exigun<lb break="no" ed="#Ba" n="36"/>tur: quorum unum est principale a quo
+<lb ed="#Ba" n="37"/>etiam notionis vocabulum trahitur, 
+seili<lb break="no" ed="#Ba" n="38"/>cet quod per ipsum innotescat persona,
+<lb ed="#Ba" n="39"/>vel person, cujus est notio, sive quarum
+<lb ed="#Ba" n="40"/>est notio. Secundum autem est, quod 
+so<lb break="no" ed="#Ba" n="41"/>nat aliquam dignitatem : quia 
+perso<lb break="no" ed="#Ba" n="42"/>ne nomen dignitatem sonat, sive 
+natu<lb break="no" ed="#Ba" n="43"/>re, sive officil : communiter autem 
+so<lb break="no" ed="#Ba" n="44"/>nat dignitatem nature : unde individua
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="45"/>aliarum naturarum praeter rationalem
+<lb ed="#Ba" n="46"/>non vocamus personas, ut hoc lignum,
+<lb ed="#Ba" n="47"/>vel hunc lapidem, eo quod non habent
+<lb ed="#Ba" n="48"/>honorem imaginis in qua est similitudo
+<lb ed="#Ba" n="49"/>divinarum personarum. Tertinm est,
+<lb ed="#Ba" n="50"/>quod aliquo modo habeat naturam 
+rela<lb break="no" ed="#Ba" n="51"/>tionis ad aliud : quia aliae proprietates in
+<lb ed="#Ba" n="52"/>divinis esse non possunt, nisi relationes
+<lb ed="#Ba" n="53"/>originis, ut infra probabitur 2.
+</p>
+            <p xml:id="alalal-a76324-d1e298">
+               <lb ed="#Ba" n="54"/>His habitis, facile respondetur objectis.
+</p>
+            <p xml:id="alalal-a76324-d1e303">
+               <lb ed="#Ba" n="55"/>Ap primum enim dicendum, quod est
+<lb ed="#Ba" n="56"/>de alio non pertinet ad dignitatem exse :
+<lb ed="#Ba" n="57"/>et ideo notio esse non potest. Dico 
+au<lb break="no" ed="#Ba" n="58"/>tem -ez se : quia ex modo aliquo 
+super<lb break="no" ed="#Ba" n="59"/>addito, posset notare dignitatem esse ens
+<lb ed="#Ba" n="60"/>de alio,; quod in inferioribus convemt 
+vi<lb break="no" ed="#Ba" n="61"/>libus rebus, ut pilo lumbrico, pediculo :
+<lb ed="#Ba" n="62"/>haecenim sunt exempla Augustini : ergo
+<lb ed="#Ba" n="63"/>ex se non dicit dignitatem in persona :
+<lb ed="#Ba" n="64"/>sed si adderetur esse de alio per 
+genera<lb break="no" ed="#Ba" n="65"/>tionem, tunc generatio dignitatem 
+affer<lb break="no" ed="#Ba" n="66"/>ret ei quam non habet a se : quia 
+geni<lb break="no" ed="#Ba" n="67"/>tus (ut dicit Hilarius) in honore est 
+gene<lb break="no" ed="#Ba" n="68"/>rantis : geniti enim honoris admiratio in
+<lb ed="#Ba" n="69"/>honore generantis est: et hoc habitum
+<lb ed="#Ba" n="70"/>est supra . Non esse autem ab alio de
+<lb ed="#Ba" n="71"/>se dicit dignitatem, et in superioribus,
+<lb ed="#Ba" n="72"/>et inferioribus : quia quod non est ab
+<lb ed="#Ba" n="73"/>alio, eo ipso perfectissimum est et 
+no<lb break="no" ed="#Ba" n="74"/>tissimum : et ideo illud est notio Patris.
+</p>
+            <p xml:id="alalal-a76324-d1e349">
+               <lb ed="#Ba" n="75"/>Ad aliud dicendum, quod 
+innascibili<lb break="no" ed="#Ba" n="76"/>tas est notio quae includit in se 
+impro<lb break="no" ed="#Ba" n="77"/>cessibilitatem ut partem sui: et hoc 
+pa<lb break="no" ed="#Ba" n="78"/>tet ex superiori distinctione posita de hoc
+<lb ed="#Ba" n="79"/>quod est ingenilum secundum quod 
+ne<lb break="no" ed="#Ba" n="80"/>gatio negat genus geniti : quia sic tantum
+<lb ed="#Ba" n="81"/>est notio Patris : tunc enim idem est 
+in<lb break="no" ed="#Ba" n="82"/>nascibilitas quod est non existentia ab
+<lb ed="#Ba" n="83"/>alio : et quod non est ab alio, nec 
+gene<lb break="no" ed="#Ba" n="84"/>rative est ab alio, nec etiam processive
+<lb ed="#Ba" n="85"/>est ab alio. Vel dicatur, si placet, quod
+<lb ed="#Ba" n="86"/>nascibile et processibile se habent sicut
+<lb ed="#Ba" n="87"/>superius et inferius : ergo si advenial 
+ne<lb break="no" ed="#Ba" n="88"/>gatio vel privatio, quod inferius est fit
+<lb ed="#Ba" n="89"/>superius, et e converso : ergo 
+ingenera<lb break="no" ed="#Ba" n="90"/>tio sive innascibilitas est superius ad im-
+<pb ed="#Ba" n="385"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>processibilitatem : et sic in innascibilitate
+<lb ed="#Ba" n="2"/>intelligitur improcessibilitas : et hac est
+<lb ed="#Ba" n="3"/>solutio quoruamdam, et non valet : quia
+<lb ed="#Ba" n="4"/>cum dicitur, quod per negationem 
+mi<lb break="no" ed="#Ba" n="5"/>nus commune efficitur magis commune,
+<lb ed="#Ba" n="6"/>non intelligitur hoc nisi de suppositis de
+<lb ed="#Ba" n="7"/>quibus dicitur, quod hoc de pluribus 
+pot<lb break="no" ed="#Ba" n="8"/>est pradicari quam illud : et non quod
+<lb ed="#Ba" n="9"/>ipsum ponatur in intellectu illius ut
+<lb ed="#Ba" n="10"/>pars : licet enim homo sit pars animalis,
+<lb ed="#Ba" n="11"/>et posito homine ponatur animal : et 
+si<lb break="no" ed="#Ba" n="12"/>militer posito non animali, ponitur non
+<lb ed="#Ba" n="13"/>homo: non tamen est pars quae cadit
+<lb ed="#Ba" n="14"/>essentialiter sub non homine : sicut 
+ho<lb break="no" ed="#Ba" n="15"/>mo sub animali per quod diffinitur.
+</p>
+            <p xml:id="alalal-a76324-d1e423">
+               <lb ed="#Ba" n="16"/>Praeterea, Ego pono objectionem de
+<lb ed="#Ba" n="17"/>inspirabilis, quae posita est de 
+improces<lb break="no" ed="#Ba" n="18"/>sibilis : et tunc non valet solutio eorum:
+<lb ed="#Ba" n="19"/>sed oportet redire ad primam 
+solutio<lb break="no" ed="#Ba" n="20"/>nem.
+</p>
+            <p xml:id="alalal-a76324-d1e436">
+               <lb ed="#Ba" n="21"/>Ad aliud dicendum, quod ingenitum
+<lb ed="#Ba" n="22"/>secundum quod communiter convenit
+<lb ed="#Ba" n="23"/>Patri et Spiritui sancto, secundum 
+in<lb break="no" ed="#Ba" n="24"/>tellectum Hieronymi, non est notio : sic
+<lb ed="#Ba" n="25"/>enim tantum valet quantum non ens ab
+<lb ed="#Ba" n="26"/>alio per generationem, ita quod negatio
+<lb ed="#Ba" n="27"/>respiciat totum conjunctim : et hoc non
+<lb ed="#Ba" n="28"/>est dignitas, quia non est ab alio per 
+ge<lb break="no" ed="#Ba" n="29"/>perationem, quin valde indigne est ab
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="30"/>alio, ut patet in exemplis Augustini, ut
+<lb ed="#Ba" n="31"/>vermis lumbricus est non ab alio per 
+ge<lb break="no" ed="#Ba" n="32"/>nerationem, sed ab alio per 
+putrefactio<lb break="no" ed="#Ba" n="33"/>nem : et ideo nulla est questio ulterius
+<lb ed="#Ba" n="34"/>de processibilis vel inspirabilis.
+</p>
+            <p xml:id="alalal-a76324-d1e471">
+               <lb ed="#Ba" n="35"/>Ad id quod ulterius quaeritur, Utrum
+<lb ed="#Ba" n="36"/>Pater et Filius possint dici idem 
+princi<lb break="no" ed="#Ba" n="37"/>pium Spiritus sancti? Sine prejudicio
+<lb ed="#Ba" n="38"/>dico, quod non: et hoc propter 
+articu<lb break="no" ed="#Ba" n="39"/>lum qui clauditur in intellectu ejus quod
+<lb ed="#Ba" n="40"/>est idem, qui denotat identitatem 
+sup<lb break="no" ed="#Ba" n="41"/>positi et persone : Pater autem et Filius
+<lb ed="#Ba" n="42"/>licet sint unus Deus, non tamen idem
+<lb ed="#Ba" n="43"/>Deus, masculine suscipiendo ly idem : et
+<lb ed="#Ba" n="44"/>similiter licet sint unum principium, non
+<lb ed="#Ba" n="45"/>tamen idem principium : quia non 
+ea<lb break="no" ed="#Ba" n="46"/>dem persona, sed ipsi due persone sunt
+<lb ed="#Ba" n="47"/>unum principium.
+</p>
+            <p xml:id="alalal-a76324-d1e503">
+               <lb ed="#Ba" n="48"/>Ad id quod contra objicitur, 
+respon<lb break="no" ed="#Ba" n="49"/>dendum est ut supra‘, quod nec idem
+<lb ed="#Ba" n="50"/>principium sunt nec diversum : quia 
+di<lb break="no" ed="#Ba" n="51"/>versum exigit alietatem forme quae non
+<lb ed="#Ba" n="52"/>est ibi : idem autem exigit identitatem
+<lb ed="#Ba" n="53"/>persone quae iterum non est ibi : et quod
+<lb ed="#Ba" n="54"/>dicit Philosophus, quod idem et 
+diver<lb break="no" ed="#Ba" n="55"/>sum sequuntur omne ens in quantum
+<lb ed="#Ba" n="56"/>ens, dicendum, quod intelligit de 
+crea<lb break="no" ed="#Ba" n="57"/>tis, et non de personis increatis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="387"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d69553"><!-- l2d22a10 -->
+            <head xml:id="alalal-d69553-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-d69553-Hd1e101" type="question-title">Quotuplex est ignorantia, et quomodo
+dividitur ?</head>
+            <p xml:id="alalal-d69553-d1e104">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="8"/>ARTICULUS X.
+<lb ed="#Bc" n="9"/>Quotuplex est ignorantia, et quomodo
+<lb ed="#Bc" n="10"/>dividitur ?
+</p>
+            <p xml:id="alalal-d69553-d1e115">
+               <lb ed="#Bc" n="11"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="12"/>ibi, K, <quote xml:id="alalal-d69553-Qd1e121"> Est autem ignorantia triplex,
+<lb ed="#Bc" n="13"/>eic. </quote>
+            </p>
+            <p xml:id="alalal-d69553-d1e127">
+               <lb ed="#Bc" n="14"/>Ad intelligentiam hujus loci nota 
+mul<lb break="no" ed="#Bc" n="15"/>tiplicem et perutilem esse divisionem
+<lb ed="#Bc" n="16"/>ignorantie. Quandoque enim dividitur
+<lb ed="#Bc" n="17"/>secundum causam efficientem : ut cum
+<lb ed="#Bc" n="18"/>dividitur in vincibilem, et invincibilem :
+<lb ed="#Bc" n="19"/>et haec divisio est multiplex.
+</p>
+            <p xml:id="alalal-d69553-d1e144">
+               <lb ed="#Bc" n="20"/>Hst enim invineibilis ex natura, et
+<lb ed="#Bc" n="21"/>heec in toto excusat, qualis est in 
+natu<lb break="no" ed="#Bc" n="22"/>raliter stultis, morionibus, et 
+melancho<lb break="no" ed="#Bc" n="23"/>licis. Et est tnvineibilis ex aceidente
+<lb ed="#Bc" n="24"/>que duplex est : quoniam illud accidens,
+<lb ed="#Bc" n="25"/>aut separabile, aut inseparabile. Si 
+sepa<lb break="no" ed="#Bc" n="26"/>rabile.: aut est ex oppilante aliquo vias
+<lb ed="#Bc" n="27"/>spiritus animalis in cerebro, et turbante
+<lb ed="#Bc" n="28"/>organum a quo species accipit ratio : vel
+<lb ed="#Bc" n="29"/>ab accidente infirmitatis inseparabilis et
+<lb ed="#Bc" n="30"/>insanabilis. Et primo modo est in ebrio,
+<cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="31"/>vel eo qui jusquiamum, vel opium, vel
+<lb ed="#Bc" n="32"/>aliquid aliud bibit. Secundo modo est
+<lb ed="#Bc" n="33"/>in infirmo : et sic distinguitur in causa :
+<lb ed="#Bc" n="34"/>quia aut ipse dedit operam, aut non. Si
+<lb ed="#Bc" n="35"/>non, ut si fuit ignarus qualitatis vini, vel
+<lb ed="#Bc" n="36"/>ejus quod sumpsit, tune in toto excusat
+<lb ed="#Bc" n="37"/>eum. Si autem ipse dedit operam : aut
+<lb ed="#Bc" n="38"/>per rem licitam, aut illicitam. Si primo
+<lb ed="#Bc" n="39"/>modo, iterum in toto excusatur etiamsi
+<lb ed="#Bc" n="40"/>aliquid postea male agat. Si autem per
+<lb ed="#Bc" n="41"/>rem illicitam : aut illa fuit veniale 
+pec<lb break="no" ed="#Bc" n="42"/>catum, aut mortale. Si primo modo 
+ad<lb break="no" ed="#Bc" n="43"/>huc excusat in toto. Si secundo modo
+<lb ed="#Bc" n="44"/>non in toto, meo judicio, excusat, sed in
+<lb ed="#Bc" n="45"/>parte : quia tune meretur duplices 
+male<lb break="no" ed="#Bc" n="46"/>dictiones.
+</p>
+            <p xml:id="alalal-d69553-d1e207">
+               <lb ed="#Bc" n="47"/>Si autem est vincibilis : tune dividitur
+<lb ed="#Bc" n="48"/>ulterius penes materiam, in ignorantiam
+<lb ed="#Bc" n="49"/>juris, et facti : et hoc est idem quod
+<lb ed="#Bc" n="50"/>Theologi vocant universalem, et 
+parti<lb break="no" ed="#Bc" n="51"/>cularem : quia jus vocatur hic regule
+<lb ed="#Bc" n="52"/>universales et regentes vitam, vel 
+offi<lb break="no" ed="#Bc" n="53"/>cium. Factum autem, hoc particulare vel
+<lb ed="#Bc" n="54"/>illud, quod contingit etiam sapientem
+<lb ed="#Bc" n="55"/>ignorare : sicut Jacob ignoravit sibi 
+sup<lb break="no" ed="#Bc" n="56"/>positam Liam pro Rachele+ : et ideo in
+<lb ed="#Bc" n="57"/>toto excusatur. Juris autem est duplex :
+<lb ed="#Bc" n="58"/>quia quoddam est jus universale, quod
+<lb ed="#Bc" n="59"/>omnibus imponitur ad sciendum : et
+<pb ed="#Bc" n="388"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>quoddam est particulare, quod non 
+sci<lb break="no" ed="#Bc" n="2"/>tur nisi per studium : et puto, quod 
+pri<lb break="no" ed="#Bc" n="3"/>ma est crassa et supina, non excusans.
+<lb ed="#Bc" n="4"/>Secunda autem excusat, vel a tanto, vel
+<lb ed="#Bc" n="5"/>a toto, si est casus multum difficilis.
+</p>
+            <p xml:id="alalal-d69553-d1e253">
+               <lb ed="#Bc" n="6"/>Hac eadem divisione dicitur 
+ignoran<lb break="no" ed="#Bc" n="7"/>tia affectata, vel simpliciter ignoraniia,
+<lb ed="#Bc" n="8"/>secundum quod conjungitur cum forma
+<lb ed="#Bc" n="9"/>voluntatis, vel separatur ab ea : et 
+quan<lb break="no" ed="#Bc" n="10"/>do est affectata, tunc est peccatum ex
+<lb ed="#Bc" n="11"/>parte affectus : quando autem est 
+sim<lb break="no" ed="#Bc" n="12"/>pliciter ignorantia, tunc est excusans a
+<lb ed="#Bc" n="13"/>tanto, et non a toto. He autem 
+differen<lb break="no" ed="#Bc" n="14"/>tiae : excusans, et non excusans, 
+acci<lb break="no" ed="#Bc" n="15"/>piuntur penes causam finalem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

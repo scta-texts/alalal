@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="286"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c53837"><!-- l1d38a3 -->
+            <head xml:id="alalal-c53837-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-c53837-Hd1e101" type="question-title">An scientia Dei causetur a rebus?</head>
+            <p xml:id="alalal-c53837-d1e104">
+               <pb ed="#Bb" n="286"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>ARTICULUS III.
+<lb ed="#Bb" n="2"/>An scientia Dei causetur a rebus?
+</p>
+            <p xml:id="alalal-c53837-d1e115">
+               <lb ed="#Bb" n="3"/>Postea queritur de hoc quod dicit,
+<lb ed="#Bb" n="4"/>ibi, C, <quote xml:id="alalal-c53837-Qd1e121"> Origenes tamen super epistolam
+<lb ed="#Bb" n="5"/>ad Romanos, etc. </quote>
+            </p>
+            <p xml:id="alalal-c53837-d1e127">
+               <lb ed="#Bb" n="6"/>Hic enim videtur velle Origenes, quod
+<lb ed="#Bb" n="7"/>scientia Dei causetur a rebus : 
+ali<lb break="no" ed="#Bb" n="8"/>ter enim nullam habitudinem notaret
+<lb ed="#Bb" n="9"/>conjunctio causalis quam ponit.
+</p>
+            <p xml:id="alalal-c53837-d1e139">
+               <lb ed="#Bb" n="10"/>Ad hoc etiam opponitur sic:
+<lb ed="#Bb" n="11"/>1. Quidquid est, quod nec in se nec in
+<lb ed="#Bb" n="12"/>aliqua causarum habet immobilitatem,
+<lb ed="#Bb" n="13"/>illud nec in se nec in aliqua causarum
+<lb ed="#Bb" n="14"/>scitur, nisicum est: contingens de 
+futu<lb break="no" ed="#Bb" n="15"/>ro est tale : ergo non scitur, nisi cum
+<lb ed="#Bb" n="16"/>est. Propatur autem prima sic : Detur,
+<lb ed="#Bb" n="17"/>quod habeat immobilitatem in aliqua
+<lb ed="#Bb" n="18"/>causarum : cum ergo causa illa influat
+<lb ed="#Bb" n="19"/>super causatum illud, secundum quod
+<lb ed="#Bb" n="20"/>illud causatum est im ipsa, erit 
+immobi<lb break="no" ed="#Bb" n="21"/>litas etiam in causato : et sic jam non
+<lb ed="#Bb" n="22"/>esset contingens, quod est contra 
+posi<lb break="no" ed="#Bb" n="23"/>tum. Nec est instantia de generatis 
+flori<lb break="no" ed="#Bb" n="24"/>bus et plantis et sole : quia sol 
+secun<lb break="no" ed="#Bb" n="25"/>dum ordinem immobilem non influit 
+su<lb break="no" ed="#Bb" n="26"/>per ea, sed potius secundum diversum
+<lb ed="#Bb" n="27"/>modum : actus enim solis antequam 
+ve<lb break="no" ed="#Bb" n="28"/>niat ad ipsa, permiscetur virtutibus 
+con<lb break="no" ed="#Bb" n="29"/>tingentibus et mutabilibus : et ille 
+in<lb break="no" ed="#Bb" n="30"/>fluunt contingenter : et ideo etiamsi sol
+<lb ed="#Bb" n="31"/>haberet intellectum, non posset scire
+<lb ed="#Bb" n="32"/>causatum nisi causato existente.
+</p>
+            <p xml:id="alalal-c53837-d1e191">
+               <lb ed="#Bb" n="33"/>2. Item, Quecumque sequuntur se in~
+<lb ed="#Bb" n="34"/>vicem necessario, aut ambo sunt ab
+<lb ed="#Bb" n="35"/>eadem causa, aut unum est ab alio:
+<lb ed="#Bb" n="36"/>prescientia autem et prescita res 
+se<lb break="no" ed="#Bb" n="37"/>quuntur se invicem : ergo aut ambo sunt
+<lb ed="#Bb" n="38"/>ab eadem causa, aut unum est ab alio :
+<lb ed="#Bb" n="39"/>non autem ambo sunt ab eadem causa :
+<lb ed="#Bb" n="40"/>ergo unum est ab alio : cum ergo pre-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="41"/>scientia non semper sit causa presciti,
+<lb ed="#Bb" n="42"/>prescitum aliquando erit causa 
+prae<lb break="no" ed="#Bb" n="43"/>scientiae vel scientiae, ut videtur.
+</p>
+            <p xml:id="alalal-c53837-d1e220">
+               <lb ed="#Bb" n="44"/>3. Item, Deus scit me legere, bene 
+se<lb break="no" ed="#Bb" n="45"/>quitur : ergo ego lego. Quero ergo, 
+un<lb break="no" ed="#Bb" n="46"/>de locus? Videtur, quod sit non a 
+cau<lb break="no" ed="#Bb" n="47"/>sa: quia eliam sequitur, Deus scit me
+<lb ed="#Bb" n="48"/>mentiri : ergo ego mentior : et non 
+pot<lb break="no" ed="#Bb" n="49"/>est esse locus a causa: ergo erit ab
+<lb ed="#Bb" n="50"/>effectu, ut videtur : ergo res est causa
+<lb ed="#Bb" n="51"/>scientiae.
+</p>
+            <p xml:id="alalal-c53837-d1e240">
+               <lb ed="#Bb" n="52"/>SED CONTRA :
+<lb ed="#Bb" n="53"/>1. Nobilissima scientia datur Deo :
+<lb ed="#Bb" n="54"/>sed nobilissima est per causam : ergo
+<lb ed="#Bb" n="55"/>sua scientia non est causata ab 
+ali<lb break="no" ed="#Bb" n="56"/>quo.
+</p>
+            <p xml:id="alalal-c53837-d1e253">
+               <lb ed="#Bb" n="57"/>2. Item, Si sua scientia esset causata,
+<lb ed="#Bb" n="58"/>cum sua scientia sit sua essentia, sua
+<lb ed="#Bb" n="59"/>essentia esset causata, quod falsum est.
+</p>
+            <p xml:id="alalal-c53837-d1e262">
+               <lb ed="#Bb" n="60"/>3. Item, Cum sua scientia sit 
+eter<lb break="no" ed="#Bb" n="61"/>na, scitum autem temporale, sequitur
+<lb ed="#Bb" n="62"/>quod in sua scientia temporale esset 
+cau<lb break="no" ed="#Bb" n="63"/>sa aeterni, quod falsum est.
+</p>
+            <p xml:id="alalal-c53837-d1e274">
+               <lb ed="#Bb" n="64"/>4. Item, Non potest dici, quod sit
+<lb ed="#Bb" n="65"/>causa sine qua non : quia etiam illa
+<lb ed="#Bb" n="66"/>nobilior est quam effectus : nihil autem
+<lb ed="#Bb" n="67"/>nobilius est scientia divina.
+</p>
+            <p xml:id="alalal-c53837-d1e285">
+               <lb ed="#Bb" n="68"/>Solutio. Dico, quod Origenes non 
+in<lb break="no" ed="#Bb" n="69"/>tendit de causa rei, sed de causa 
+con<lb break="no" ed="#Bb" n="70"/>sequentiae : et illa sumitur ab effectu ad
+<lb ed="#Bb" n="71"/>causam, sicut e converso.
+</p>
+            <p xml:id="alalal-c53837-d1e296">
+               <lb ed="#Bb" n="72"/>Dicendum ergo ad primum, quod
+<lb ed="#Bb" n="73"/>scientia Dei vincit omnem scientiam :
+<lb ed="#Bb" n="74"/>artifex enim licet preeconcipiat formam
+<lb ed="#Bb" n="75"/>totius operis, et non accipiat ipsam ex
+<lb ed="#Bb" n="76"/>opere, tamen multa incidunt contra opus
+<lb ed="#Bb" n="77"/>ex factura instrumentorum, et 
+inequa<lb break="no" ed="#Bb" n="78"/>litate materiae,  quae ipse non potest 
+cog<lb break="no" ed="#Bb" n="79"/>noscere nisi per effectum : sed summus
+<lb ed="#Bb" n="80"/>artifex in hoc omnem scientiam 
+tran<lb break="no" ed="#Bb" n="81"/>scendit, quod ipse prescit omne quod
+<lb ed="#Bb" n="82"/>faciet, et quidquid illi eveniet ex 
+muta<lb break="no" ed="#Bb" n="83"/>bilitate et defectu causarum secundarum
+<lb ed="#Bb" n="84"/>que opeiantur sub ipso : quia aliter 
+im<lb break="no" ed="#Bb" n="85"/>perfecta esset ejus scientia. Unde patet,
+<lb ed="#Bb" n="86"/>quod simile acceptum de sole et aliis
+<pb ed="#Bb" n="287"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>agentibus non est simile, quia artifex 
+<lb ed="#Bb" n="2"/>non potest scire exitum sui operis in  
+<lb ed="#Bb" n="3"/>actum et eventum ejus : sed Deus scit 
+<lb ed="#Bb" n="4"/>hoc totum propter infinitam potentiam 
+<lb ed="#Bb" n="5"/>in sciendo. 
+</p>
+            <p xml:id="alalal-c53837-d1e346">
+               <lb ed="#Bb" n="6"/>Ad aliud dicendum, quod verum est,
+<lb ed="#Bb" n="7"/>quod illa sequuntur se invicem : sed hoc
+<lb ed="#Bb" n="8"/>est gratia ordinis scientiae ad scitum, et e
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="9"/>converso : et non gratia causalitatis, ut
+<lb ed="#Bb" n="10"/>prius dictum est.
+</p>
+            <p xml:id="alalal-c53837-d1e362">
+               <lb ed="#Bb" n="11"/>Ad aliud dicendum, quod in divinis
+<lb ed="#Bb" n="12"/>locus generaliter est a convertibili, sed
+<lb ed="#Bb" n="13"/>in quibusdam est locus a causa: aliter
+<lb ed="#Bb" n="14"/>enim est in divinis, et aliter in humanis,
+<lb ed="#Bb" n="15"/>propter diversimode dictam scientiam,
+<lb ed="#Bb" n="16"/>ut supra habitum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

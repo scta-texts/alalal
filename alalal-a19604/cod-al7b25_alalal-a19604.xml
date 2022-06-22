@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="99"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a19604"><!-- l1d3a9 -->
+            <head xml:id="alalal-a19604-Hd1e99">Articulus 9</head>
+            <p xml:id="alalal-a19604-d1e101">
+               <pb ed="#Ba" n="99"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ARTICULUS IX.
+</p>
+            <p xml:id="alalal-a19604-d1e110">
+               <lb ed="#Ba" n="2"/>Quod Deus sit summum bonum.
+</p>
+            <p xml:id="alalal-a19604-d1e115">
+               <lb ed="#Ba" n="3"/>
+               <quote xml:id="alalal-a19604-Qd1e119"> Consideraverunt etiam, etc.</quote> Hic 
+inci<lb break="no" ed="#Ba" n="4"/>pil tertia ratio in qua iterum per 
+proprie<lb break="no" ed="#Ba" n="5"/>tates inventas in creatura probat Deum
+<lb ed="#Ba" n="6"/>summum bonum, et per consequens
+<lb ed="#Ba" n="7"/>unum : quia summum bonum non potest
+<lb ed="#Ba" n="8"/>esse nisi unum, ut supra probatum est.
+<lb ed="#Ba" n="9"/>Et fundatur ratio super duas divisiones,
+<lb ed="#Ba" n="10"/>quarum alteram dimittit, eo quod per se
+<lb ed="#Ba" n="11"/>patet, scilicet, divisionem entis in 
+sub<lb break="no" ed="#Ba" n="12"/>stantiam, et accidens : constat enim,
+<lb ed="#Ba" n="13"/>quod melior est substantia quam 
+acci<lb break="no" ed="#Ba" n="14"/>dens, quia accidens non est nisi 
+secun<lb break="no" ed="#Ba" n="15"/>dum guid: nihil autem ita simpliciter
+<lb ed="#Ba" n="16"/>est sicul Deus. Divisio alia est, quod 
+sub<lb break="no" ed="#Ba" n="17"/>stantiarum alia est corporea, alia 
+incor<lb break="no" ed="#Ba" n="18"/>porea quae est spiritus incorporeus, et hic
+<lb ed="#Ba" n="19"/>est qui non est actus et perfectio alicujus
+<lb ed="#Ba" n="20"/>corporis : et constat, quod substantia
+<lb ed="#Ba" n="21"/>spiritualis melior est quam corporea :
+<lb ed="#Ba" n="22"/>cum autem utrumque sit causatum, 
+cau<lb break="no" ed="#Ba" n="23"/>sa melior erit in infinitum quam 
+spiri<lb break="no" ed="#Ba" n="24"/>tus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

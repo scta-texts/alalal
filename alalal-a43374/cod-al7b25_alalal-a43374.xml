@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="219"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a43374"><!-- l1d7a11 -->
+            <head xml:id="alalal-a43374-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-a43374-Hd1e101" type="question-title">Utrum illa sit vera, Filius habet 
+potentiam generandi quam habet Pater?</head>
+            <p xml:id="alalal-a43374-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="13"/>ARTICULUS XI.
+<lb ed="#Ba" n="14"/>Utrum illa sit vera, Filius habet 
+poten<lb break="no" ed="#Ba" n="15"/>tiam generandi quam habet Pater?
+</p>
+            <p xml:id="alalal-a43374-d1e115">
+               <lb ed="#Ba" n="16"/>Deinde quaeritur de illa quam in 
+se<lb break="no" ed="#Ba" n="17"/>cundo capite ponit: et distinguit eam,
+<lb ed="#Ba" n="18"/>hance scilicet, Filius habet potentiam 
+ge<lb break="no" ed="#Ba" n="19"/>nerandi quam habet Pater, etc.
+</p>
+            <p xml:id="alalal-a43374-d1e126">
+               <lb ed="#Ba" n="20"/>Haec enim videtur distinguibilis non
+<lb ed="#Ba" n="21"/>esse, sed absolute falsa: quia in nullo
+<lb ed="#Ba" n="22"/>videtur potentia conjuncta actui, et 
+ra<lb break="no" ed="#Ba" n="23"/>lioni opposite ad actum illum : cum
+<lb ed="#Ba" n="24"/>autem dicitur, potentia generandi, po-
+<cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="25"/>tentia conjuncta est actui: et cum 
+dici<lb break="no" ed="#Ba" n="26"/>tur, Filius habet hane potentiam quam
+  <lb ed="#Ba" n="27"/>Pater, conjungitur relationi Filii et 
+pro<lb break="no" ed="#Ba" n="28"/>prietati, quae repugnat ad actum: ergo
+  <lb ed="#Ba" n="29"/>videtur absolute falsa esse.</p>
+            <p xml:id="alalal-a43374-d1e153">
+               <lb ed="#Ba" n="30"/>Solutio. Dicendum, quod in veritate
+  <lb ed="#Ba" n="31"/>duplex est, sicut dicit Auctor : cum enim
+<lb ed="#Ba" n="32"/>dicitur, Filius habet, per ly <mentioned>habet</mentioned> 
+intelli<lb break="no" ed="#Ba" n="33"/>gitur haec determinatio secundum 
+natu<lb break="no" ed="#Ba" n="34"/>ram, eo quod non habet nisi per 
+natu<lb break="no" ed="#Ba" n="35"/>ram: et sic fit comparatio potentie ad
+<lb ed="#Ba" n="36"/>naturam et ad actum: et secundum 
+pri<lb break="no" ed="#Ba" n="37"/>mam comparationem vera est, 
+secun<lb break="no" ed="#Ba" n="38"/>dum autem secundam falsa est, ut dicit
+<lb ed="#Ba" n="39"/>Magister.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

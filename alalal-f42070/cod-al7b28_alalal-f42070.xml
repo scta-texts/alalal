@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="729"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f42070"><!-- l3d39a1 -->
+            <head xml:id="alalal-f42070-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-f42070-Hd1e101" type="question-title">An Non sumes nomen Deiin vanum ef
+ipsum perjurium sint de praeceptis
+prime vel secunde tabulae ?</head>
+            <p xml:id="alalal-f42070-d1e104">
+               <lb ed="Bd" n="32"/>ARTICULUS PRIMUS.
+<lb ed="Bd" n="33"/>An Non sumes nomen Deiin vanum ef
+<lb ed="Bd" n="34"/>ipsum perjurium sint de praeceptis
+<lb ed="Bd" n="35"/>prime vel secunde tabulae ?
+</p>
+            <p xml:id="alalal-f42070-d1e115">
+               <lb ed="Bd" n="36"/>Incidit autem dubium de 
+introductio<lb break="no" ed="Bd" n="37"/>ne illius partis :
+</p>
+            <p xml:id="alalal-f42070-d1e122">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="38"/>1. Cum enim nomen Dei in vanum
+<lb ed="Bd" n="39"/>invocetur in perjurio, videtur potius 
+de<lb break="no" ed="Bd" n="40"/>buisse determinare sub secundo 
+manda<lb break="no" ed="Bd" n="41"/>to prime tabule quam sub quinto 
+se<lb break="no" ed="Bd" n="42"/>cunde.
+</p>
+            <p xml:id="alalal-f42070-d1e139">
+               <lb ed="Bd" n="43"/>2. Item, In perjurio peccatur in
+<lb ed="Bd" n="44"/>Deum : cum igitur prima tabula ordinet
+<lb ed="Bd" n="45"/>hominem in Deum, videtur quod 
+perju<lb break="no" ed="Bd" n="46"/>rium sub praeceptis prime tabule erat
+<lb ed="Bd" n="47"/>determinandum.
+</p>
+            <p xml:id="alalal-f42070-d1e152">
+               <lb ed="Bd" n="48"/>Solutio Dicendum, quod nemo 
+peje<lb break="no" ed="Bd" n="49"/>rat in intentione peccandi contra Deum,
+<lb ed="Bd" n="50"/>sed ad decipiendum proximum : et ideo
+<lb ed="Bd" n="51"/>perjurium in quantum fit in falso 
+testi<lb break="no" ed="Bd" n="52"/>monio in causis, principalius et 
+fre<lb break="no" ed="Bd" n="53"/>quentius fit contra) proximum, quam
+<lb ed="Bd" n="54"/>contra Deum : et ideo non in prima 
+ta<lb break="no" ed="Bd" n="55"/>bula, sed hic habet determinari.
+</p>
+            <p xml:id="alalal-f42070-d1e172">
+               <lb ed="Bd" n="56"/>Ad aliud autem objecta  dicendum,
+<lb ed="Bd" n="57"/>quod nomen quidem Dei invocatur: et
+<lb ed="Bd" n="58"/>hoe fit intentione decipiendi proximum :
+<lb ed="Bd" n="59"/>et ideo finaliter contra proximum est, et
+<lb ed="Bd" n="60"/>non contra Deum in se, sed potius in
+<lb ed="Bd" n="61"/>membris.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

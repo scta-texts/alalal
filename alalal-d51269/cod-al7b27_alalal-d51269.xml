@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="278"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d51269"><!-- l2d15a6 -->
+            <head xml:id="alalal-d51269-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-d51269-Hd1e101" type="question-title">Quare aeris et aque ornatus fit uno die?
+et, Quare dicitur-reptile? et, Quare
+ignis non pertinet ad ornatum?</head>
+            <p xml:id="alalal-d51269-d1e104">
+               <pb ed="#Bc" n="278"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS VI.
+<lb ed="#Bc" n="2"/>Quare aeris et aque ornatus fit uno die?
+<lb ed="#Bc" n="3"/>et, Quare dicitur-reptile? et, Quare
+<lb ed="#Bc" n="4"/>ignis non pertinet ad ornatum?
+</p>
+            <p xml:id="alalal-d51269-d1e120">
+               <lb ed="#Bc" n="5"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Bc" n="6"/>
+               <quote xml:id="alalal-d51269-Qd1e126"> Dixit etiam Deus: Producant aque
+<lb ed="#Bc" n="7"/>reptile, etc. </quote>
+            </p>
+            <p xml:id="alalal-d51269-d1e132">
+               <lb ed="#Bc" n="8"/>Et queruntur hic duo, scilicet quare
+<lb ed="#Bc" n="9"/>aeris et aque ornatus fit uno die? et,
+<lb ed="#Bc" n="10"/>Quare dicitur reptile ?
+</p>
+            <p xml:id="alalal-d51269-d1e142">
+               <lb ed="#Bc" n="11"/>Ad primum sic proceditur :
+<lb ed="#Bc" n="12"/>1. Duo elementa divisa habere debent
+<lb ed="#Bc" n="13"/>distinctos dies in ornatu: aer et aqua
+<lb ed="#Bc" n="14"/>sunt elementa divisa: ergo duobus 
+die<lb break="no" ed="#Bc" n="15"/>bus debent ornari.
+</p>
+            <p xml:id="alalal-d51269-d1e155">
+               <lb ed="#Bc" n="16"/>2. Item, Aves et pisces quiescunt in
+<lb ed="#Bc" n="17"/>terra : ergo videtur, quod pertineant ad
+<lb ed="#Bc" n="18"/>ornatum terre.
+</p>
+            <p xml:id="alalal-d51269-d1e164">
+               <lb ed="#Bc" n="19"/>Item, Quare ignis non habet ornatum
+<lb ed="#Bc" n="20"/>specialem ?
+</p>
+            <p xml:id="alalal-d51269-d1e171">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="21"/>Solutio. Dicendum, quod aqua et acp
+<lb ed="#Bc" n="22"/>conveniunt in qualitate passiva qua egt.
+<lb ed="#Bc" n="23"/>bumor, et similiter in proprietate per.
+<lb ed="#Bc" n="24"/>spicui : et aves et pisces etiam vicina sunt
+<lb ed="#Bc" n="25"/>in materia : sunt enim aves, ut dicunt,
+<lb ed="#Bc" n="26"/>ex humido vaporabili, quod 
+appropin<lb break="no" ed="#Bc" n="27"/>quat nature aeris : pisces autem ex aquis.
+<lb ed="#Bc" n="28"/>pinguescentibus subtus, et constantibus
+<lb ed="#Bc" n="29"/>per coagulationem: et ideo unius diei
+<lb ed="#Bc" n="30"/>habent ornatum.
+</p>
+            <p xml:id="alalal-d51269-d1e197">
+               <lb ed="#Bc" n="31"/>Ad aliud dicendum, quod locus 
+im<lb break="no" ed="#Bc" n="32"/>mobilitatis numquam assignatur pro or.
+<lb ed="#Bc" n="33"/>natu, sed potius locus motus: loca autem
+<lb ed="#Bc" n="34"/>motus piscium et avium sunt aer etaqua.
+</p>
+            <p xml:id="alalal-d51269-d1e208">
+               <lb ed="#Bc" n="35"/>Ap mw quod secundo quaeritur de 
+rep<lb break="no" ed="#Bc" n="36"/>tilibus, dicitur quod repéile dicitur 
+mul<lb break="no" ed="#Bc" n="37"/>tis modis, ut colligitur ex hbro de 
+Ani<lb break="no" ed="#Bc" n="38"/>malibus, scilicet quia vi pinnarum se ra- .
+<lb ed="#Bc" n="39"/>pit, ut pisces : vel quia vi oris, ut 
+qui<lb break="no" ed="#Bc" n="40"/>dam vermes: vel quia vi costarum, ut™
+<lb ed="#Bc" n="41"/>quidam serpentes : vel quia viannulorum -
+<lb ed="#Bc" n="42"/>quos contrahit et extendit, ut habentia
+<lb ed="#Bc" n="43"/>corpora annulosa: sed primo modo 
+su<lb break="no" ed="#Bc" n="44"/>mitur hic reptile.
+</p>
+            <p xml:id="alalal-d51269-d1e233">
+               <lb ed="#Bc" n="45"/>Ad aliud dicendum, quod ignis habet -
+<lb ed="#Bc" n="46"/>consumptivam qualitatem: et ideo nihil
+<lb ed="#Bc" n="47"/>animatum vivit in illo : falsum est enim —
+<lb ed="#Bc" n="48"/>quod dicunt quidam de salamandra.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

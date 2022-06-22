@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="573"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b10770"><!-- l1d22a4 -->
+            <head xml:id="alalal-b10770-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-b10770-Hd1e101" type="question-title">An hoc nomen, incarnatus, conveniat
+uni persone, vel omnibus ?</head>
+            <p xml:id="alalal-b10770-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="7"/>ARTICULUS IV.
+<lb ed="#Ba" n="8"/>An hoc nomen, incarnatus, conveniat
+<lb ed="#Ba" n="9"/>uni persone, vel omnibus ?
+</p>
+            <p xml:id="alalal-b10770-d1e115">
+               <lb ed="#Ba" n="10"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="11"/>
+               <quote xml:id="alalal-b10770-Qd1e121"> Sunt etiam quaedam nomina quae ex
+<lb ed="#Ba" n="12"/>tempore, etc. </quote>
+            </p>
+            <p xml:id="alalal-b10770-d1e127">
+               <lb ed="#Ba" n="13"/>1. Hoc enim videtur falsum: quia 
+in<lb break="no" ed="#Ba" n="14"/>carnatus si non dicit nisi divinam 
+essen<lb break="no" ed="#Ba" n="15"/>tiam cum effectu in creatura, tunc 
+con<lb break="no" ed="#Ba" n="16"/>venit omnibus simul personis, quod
+<lb ed="#Ba" n="17"/>absurdum est.
+</p>
+            <p xml:id="alalal-b10770-d1e141">
+               <lb ed="#Ba" n="18"/>2. Item, Omne nomen ex tempore Deo
+<lb ed="#Ba" n="19"/>conveniens, dicit divinam essentiam, et
+<lb ed="#Ba" n="20"/>connotat effectum in creatura : hoc vero
+<lb ed="#Ba" n="21"/>nomen, incarnatus, est hujusmodi: ergo
+<lb ed="#Ba" n="22"/>dicit divinam essentiam, et connotat 
+ef<lb break="no" ed="#Ba" n="23"/>fectum in creatura : et sic convenit 
+com<lb break="no" ed="#Ba" n="24"/>muniter omnibus, quod heresis est.
+</p>
+            <p xml:id="alalal-b10770-d1e159">
+               <lb ed="#Ba" n="25"/>Solutio. Dicendum, quod incarnatus
+<lb ed="#Ba" n="26"/>et humanatus, non dicit secundum 
+no<lb break="no" ed="#Ba" n="27"/>men relationem, sed in se claudit 
+relatio<lb break="no" ed="#Ba" n="28"/>nem in supposito : quia suppositum ejus
+<lb ed="#Ba" n="29"/>est Filius per se: et essentia divina non
+<lb ed="#Ba" n="30"/>est incarnata in se, et per se, sed in Filio
+<lb ed="#Ba" n="31"/>et per Filium : et hoc probatum est in
+<lb ed="#Ba" n="32"/>IIE libro"Sententiarum.
+</p>
+            <p xml:id="alalal-b10770-d1e179">
+               <lb ed="#Ba" n="33"/>Ad aliud dicendum, quod cum 
+dici<lb break="no" ed="#Ba" n="34"/>tur, quod omne nomen, etc., intelligitur
+<cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="35"/>de illis nominibus quae active conveniunt
+<lb ed="#Ba" n="36"/>Deo, ut creator, et hujusmodi: sed 
+in<lb break="no" ed="#Ba" n="37"/>carnatus, humanatus, conveniunt 
+rece<lb break="no" ed="#Ba" n="38"/>ptive et unitive : et hoc non convenit
+<lb ed="#Ba" n="39"/>omnibus, sed uni, scilicet Filio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

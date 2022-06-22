@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="425"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e81144"><!-- l3d23a11 -->
+            <head xml:id="alalal-e81144-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-e81144-Hd1e101" type="question-title">Quam diversimode informatur fides a
+propria forma, et gratia, et 
+charitate.</head>
+            <p xml:id="alalal-e81144-d1e104">
+               <lb ed="Bd" n="11"/>ARTICULUS XI.
+<lb ed="Bd" n="12"/>Quam diversimode informatur fides a
+<lb ed="Bd" n="13"/>propria forma, et gratia, et 
+chari<lb break="no" ed="Bd" n="14"/>tate.
+</p>
+            <p xml:id="alalal-e81144-d1e115">
+               <lb ed="Bd" n="15"/>Tertio quaeritur, Qualiter fides 
+diver<lb break="no" ed="Bd" n="16"/>simode informatur a propria forma, ect
+<lb ed="Bd" n="17"/>charitate, et gratia ?
+</p>
+            <p xml:id="alalal-e81144-d1e124">
+               <lb ed="Bd" n="18"/>Non enim est nisi duplex csse, scilicet
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="19"/>substantiale, et accidentale quod est bene
+<lb ed="Bd" n="20"/>esse : ergo videtur, quod non debet esse
+<lb ed="Bd" n="21"/>nisi duplex forma, et non triplex.
+</p>
+            <p xml:id="alalal-e81144-d1e138">
+               <lb ed="Bd" n="22"/>Solutio Dicendum, quod in fide sunt
+<lb ed="Bd" n="23"/>tria, scilicet id quod proprium est fidei :
+<lb ed="Bd" n="24"/>et relatio actus ad meritum, scilicet quod
+<lb ed="Bd" n="25"/>valeal ad vitam aeternam : et relatio fidei
+<lb ed="Bd" n="26"/>ad perfectionem communem, et causam
+<lb ed="Bd" n="27"/>omnium operum nostrorum. Et quoad 
+pri<lb break="no" ed="Bd" n="28"/>mum indiget fides propria forma quae dat
+<lb ed="Bd" n="29"/>esse in specie. Quoad secundum indiget
+<lb ed="Bd" n="30"/>gratia : quia gratia gratum facit habentem,
+<lb ed="Bd" n="31"/>ef opus ejus gratum reddit. Et quoad 
+ter<lb break="no" ed="Bd" n="32"/>tium indigct charitate : quia charitas est
+<lb ed="Bd" n="33"/>vinculum perfectionis : quia omnia opera
+<lb ed="Bd" n="34"/>diriguntur ad summam bonilatem, quae
+<lb ed="Bd" n="35"/>est objectum et finis charitatis. Dicitur
+<lb ed="Bd" n="36"/>autem mater, in quantum quasi 
+impre<lb break="no" ed="Bd" n="37"/>gnatur concipiendo omnes in visceribus :
+<lb ed="Bd" n="38"/>quia charitas qua diligimus Deum, est
+<lb ed="Bd" n="39"/>causa omnium operum et virtutum 
+qui<lb break="no" ed="Bd" n="40"/>bus colimus eum : et sic quodammodo
+<lb ed="Bd" n="41"/>nascuntur omnes a charitate.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

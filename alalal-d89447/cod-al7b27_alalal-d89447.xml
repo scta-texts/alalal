@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="520"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d89447"><!-- l2d32dt -->
+            <head xml:id="alalal-d89447-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-d89447-d1e101">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="18"/>DIVISIO TEXTUS. 
+</p>
+            <p xml:id="alalal-d89447-d1e108">
+               <lb ed="#Bc" n="19"/>
+               <quote xml:id="alalal-d89447-Qd1e112"> Quoniam supra dictum .est 
+pecca<lb break="no" ed="#Bc" n="20"/>tum originale esse vitium, etc. </quote>
+               <lb ed="#Bc" n="21"/>In ista distinctione agitur de peccati
+<lb ed="#Bc" n="22"/>originalis remissione.
+</p>
+            <p xml:id="alalal-d89447-d1e122">
+               <lb ed="#Bc" n="23"/>Et dividitur distinctio in duas partes :
+<lb ed="#Bc" n="24"/>in quarum prima agit de peccati origina~
+<lb ed="#Bc" n="25"/>lis remissione. In secunda autem ponit
+<lb ed="#Bc" n="26"/>quasdam questiones consequentes, quae
+ <lb ed="#Bc" n="27"/>incipit ibi, D, <quote xml:id="alalal-d89447-Qd1e135"> Preterea queri solet,
+<lb ed="#Bc" n="28"/>Utrum concupiscentia quae post, etc. </quote>
+               <lb ed="#Bc" n="29"/>Et sunt quingue, sicut patet in Littera
+<lb ed="#Bc" n="30"/>ibidem per ordinem capitulorum.
+</p>
+            <p xml:id="alalal-d89447-d1e145">
+               <lb ed="#Bc" n="31"/>Prima adhuc habet duas : quia primo
+<lb ed="#Bc" n="32"/>querit de remissione in anima : 
+secun<lb break="no" ed="#Bc" n="33"/>do, de remissione in corpore, ibi, C,
+<lb ed="#Bc" n="34"/>
+               <quote xml:id="alalal-d89447-Qd1e155"> Solet autem hic queri, Utrum et ipsa,
+<lb ed="#Bc" n="35"/>etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

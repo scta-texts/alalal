@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="354"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c67136"><!-- l1d42dt1 -->
+            <head xml:id="alalal-c67136-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-c67136-d1e101">
+               <lb ed="#Bb" n="13"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-c67136-d1e106">
+               <lb ed="#Bb" n="14"/>
+               <quote xml:id="alalal-c67136-Qd1e110"> Nunc de omnipotentia Det agendum
+<lb ed="#Bb" n="15"/>est. </quote>
+            </p>
+            <p xml:id="alalal-c67136-d1e116">
+               <lb ed="#Bb" n="16"/>Hic incipit pars illa quae est de 
+omni<lb break="no" ed="#Bb" n="17"/>potentia.
+</p>
+            <p xml:id="alalal-c67136-d1e123">
+               <lb ed="#Bb" n="18"/>Et habet tres partes secundum 
+tripli<lb break="no" ed="#Bb" n="19"/>cem omnipotentiae considerationem.
+<lb ed="#Bb" n="20"/>Potest enim considerari secundum ea
+<lb ed="#Bb" n="21"/>per quae habet diffiniri: et sic de ea 
+agi<lb break="no" ed="#Bb" n="22"/>tur in ista distinctione. Consideratur
+<lb ed="#Bb" n="23"/>etiam secundum proprietatem quae con-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="24"/>venit ei secundum quod radicatur in 
+es<lb break="no" ed="#Bb" n="25"/>sentia divina, quae est quod limitari et
+<lb ed="#Bb" n="26"/>finir: secundum posse non potest: et sic
+<lb ed="#Bb" n="27"/>de ea agitur in distinctione sequenti
+<lb ed="#Bb" n="28"/>XLUI, ibi, A, <quote xml:id="alalal-c67136-Qd1e151"> Quidam tamen de suo
+<lb ed="#Bb" n="29"/>sensu gloriantes, etc. </quote> Potest etiam 
+con<lb break="no" ed="#Bb" n="30"/>derari secundum modum per quem exit
+<lb ed="#Bb" n="31"/>in opus: et sic de ea agitur in 
+distin<lb break="no" ed="#Bb" n="32"/>ctione XLIV, ibi, A, <quote xml:id="alalal-c67136-Qd1e162"> Nune illud restat
+<lb ed="#Bb" n="33"/>discutiendum, etc. </quote>
+            </p>
+            <p xml:id="alalal-c67136-d1e169">
+               <lb ed="#Bb" n="34"/>haec distinctio dividitur in tres partes.
+<lb ed="#Bb" n="35"/>In prima ponit id ratione cujus dicitur
+<lb ed="#Bb" n="36"/>ommipotentia : quia per illud habet 
+diffi<lb break="no" ed="#Bb" n="37"/>niri. In secunda removet quedam, que
+<lb ed="#Bb" n="38"/>dicunt impotentiam, a potentia divina,
+<lb ed="#Bb" n="39"/>ib, B, <quote xml:id="alalal-c67136-Qd1e184"> Sed gueritur, Quomodo omnia
+<pb ed="#Bb" n="355"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" n="1"/>posse dicatur, etc. </quote> In tertia circa de~
+<lb ed="#Bb" n="2"/>terminata objicit, et solvit, ibi, EH, <quote xml:id="alalal-c67136-Qd1e195"> Hie
+<lb ed="#Bb" n="3"/>ergo diligenter considerantibus, 
+omnipo<lb break="no" ed="#Bb" n="4"/>tentia epus secundum duo apparet, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

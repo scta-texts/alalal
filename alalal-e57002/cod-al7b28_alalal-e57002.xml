@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="297"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e57002"><!-- l3d16a5 -->
+            <head xml:id="alalal-e57002-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-e57002-Hd1e101" type="question-title">Quomodo intelligendum sit quod dicit
+Magister, Christum venisse 
+desursum ?</head>
+            <p xml:id="alalal-e57002-d1e104">
+               <pb ed="#Bd" n="297"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ARTICULUS V.
+<lb ed="Bd" n="2"/>Quomodo intelligendum sit quod dicit
+<lb ed="Bd" n="3"/>Magister, Christum venisse 
+desur<lb break="no" ed="Bd" n="4"/>sum ?
+</p>
+            <p xml:id="alalal-e57002-d1e120">
+               <lb ed="Bd" n="5"/>Deinde quaeritur de his quae habentur
+<lb ed="Bd" n="6"/>in Littera in cap. B, ubi dicit Christum
+<lb ed="Bd" n="7"/>venisse desursum, id est, de altitudine
+<lb ed="Bd" n="8"/>humane nature ante peccatum.
+</p>
+            <p xml:id="alalal-e57002-d1e131">
+               <lb ed="Bd" n="9"/>Ex hoc enim videtur sequi, quod
+<lb ed="Bd" n="10"/>1. Aut materialiter, aut formaliter 
+ve<lb break="no" ed="Bd" n="11"/>nit : non formaliter, quia formam 
+corpo<lb break="no" ed="Bd" n="12"/>ris Ade non habuit : ergo matertaliter,
+<lb ed="Bd" n="13"/>quia secundum naturam habuit 
+impassi<lb break="no" ed="Bd" n="14"/>bile.
+</p>
+            <p xml:id="alalal-e57002-d1e148">
+               <lb ed="Bd" n="15"/>2. Item, Hoc videtur Damascenus 
+di<lb break="no" ed="Bd" n="16"/>cere, qui dixit, quod assumpsit 
+primi<lb break="no" ed="Bd" n="17"/>tias nostra masse : primitiae autem no-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="18"/>strae massae sunt impassibiles: ergo
+<lb ed="Bd" n="19"/>sumpsit corpus impassibile.
+</p>
+            <p xml:id="alalal-e57002-d1e164">
+               <lb ed="Bd" n="20"/>Solutio Secundum habita leve est ad
+<lb ed="Bd" n="21"/>hoc respondere : quia venit de statu illo
+<lb ed="Bd" n="22"/>quoad similitudinem exemplaris, quod in
+<lb ed="Bd" n="23"/>se in illo statu exhibuit : et sic etiam de
+<lb ed="Bd" n="24"/>aliis statibus intelligitur : tamen hoc leve
+<lb ed="Bd" n="25"/>conceditur, quod materiam corporis quae
+<lb ed="Bd" n="26"/>in omni statu una est, licet non uno
+<lb ed="Bd" n="27"/>modo disposita. sumpsit ab Adam : sed
+<lb ed="Bd" n="28"/>hic non quaeritur de materia, cum in
+<lb ed="Bd" n="29"/>Littera dicatur, quod <quote xml:id="alalal-e57002-Qd1e187"> de primo statu
+<lb ed="Bd" n="30"/>sumpsit innocentiam, et peccati 
+immuni<lb break="no" ed="Bd" n="31"/>tatem, </quote> quod idem est.
+</p>
+            <p xml:id="alalal-e57002-d1e195">
+               <lb ed="Bd" n="32"/>Ad aliud dicendum, quod primitiae
+<lb ed="Bd" n="33"/>nostra masse dicuntur propter 
+nobilita<lb break="no" ed="Bd" n="34"/>tem et purgationem vetustatis peccati :
+<lb ed="Bd" n="35"/>sicut etiam supra in proprio loco ubi hoc
+<lb ed="Bd" n="36"/>dictum Damasceni introducitur, 
+expo<lb break="no" ed="Bd" n="37"/>suimus et non dicuntur primitiae, eo
+<lb ed="Bd" n="38"/>quod primum materialiter et in 
+disposi<lb break="no" ed="Bd" n="39"/>tione primi assumpserit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

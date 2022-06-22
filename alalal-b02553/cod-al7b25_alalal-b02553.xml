@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="525"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b02553"><!-- l1d19a10 -->
+            <head xml:id="alalal-b02553-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-b02553-Hd1e101" type="question-title">An omne quod nascitur, nascitur ex 
+duplict genere, scilicet masculo et 
+femina?</head>
+            <p xml:id="alalal-b02553-d1e104">
+               <cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="67"/>ARTICULUS X.
+<lb ed="#Ba" n="68"/>An omne quod nascitur, nascitur ex 
+du<lb break="no" ed="#Ba" n="69"/>plict genere, scilicet masculo et 
+fe<lb break="no" ed="#Ba" n="70"/>mina?
+</p>
+            <p xml:id="alalal-b02553-d1e117">
+               <lb ed="#Ba" n="71"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="#Ba" n="72"/>
+               <quote xml:id="alalal-b02553-Qd1e123"> Non per duplicem convenientium 
+ge<lb break="no" ed="#Ba" n="73"/>nerum conjunctionem, etc. </quote>
+            </p>
+            <p xml:id="alalal-b02553-d1e129">
+               <lb ed="#Ba" n="74"/>Non enim omne quod generatur, 
+ge<lb break="no" ed="#Ba" n="75"/>neratur insitive vel per duplicem 
+conve<lb break="no" ed="#Ba" n="76"/>nientium gerierum conjunctionem.
+</p>
+            <p xml:id="alalal-b02553-d1e139">
+               <lb ed="#Ba" n="77"/>Et Ad hoc dicendum, quod Hilarius
+<lb ed="#Ba" n="78"/>loquitur hic de generatione vivi, sicut
+<pb ed="#Ba" n="526"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>patet in ipso teatu. Vivum autem aut est
+<lb ed="#Ba" n="2"/>sensibile, aut vegetabile. In sensibili 
+au<lb break="no" ed="#Ba" n="3"/>tem in omni eo quod est perfectum, id
+<lb ed="#Ba" n="4"/>est, quod ex se habet producere tale 
+al<lb break="no" ed="#Ba" n="5"/>teram quale est ipsum, necesse est quod
+<lb ed="#Ba" n="6"/>sit duplex genus commixtum, scilicet
+<lb ed="#Ba" n="7"/>masculus et foemina: quia in omni 
+ani<lb break="no" ed="#Ba" n="8"/>mali, ut dicit Philosophus, est mas et
+<lb ed="#Ba" n="9"/>feemina nisi in anguilla in qua numquam
+<lb ed="#Ba" n="10"/>mas et fcemina apparuit: et ideo etiam
+<lb ed="#Ba" n="11"/>piscatores dicunt, quod anguille de 
+su<lb break="no" ed="#Ba" n="12"/>perfluitate aliorum piscium generantur.
+<lb ed="#Ba" n="13"/>Quedam etiam sunt imperfecta quae non
+<lb ed="#Ba" n="14"/>possunt producere tale allerum, qualia
+<lb ed="#Ba" n="15"/>sunt ipsa, quae nascuntur ex 
+putrefactio<lb break="no" ed="#Ba" n="16"/>ne. Vegetabile autem vivum per 
+msiti<lb break="no" ed="#Ba" n="17"/>vam virtutem convalescit, id est, per
+<lb ed="#Ba" n="18"/>vim insitam sibi: et ideo una planta 
+im<lb break="no" ed="#Ba" n="19"/>seritur in alia: quia sicut dicit 
+Philoso<lb break="no" ed="#Ba" n="20"/>phus, planta ubique impregnat et 
+im<lb break="no" ed="#Ba" n="21"/>pregnatur, et istos duos modos hic 
+re<lb break="no" ed="#Ba" n="22"/>movet Hilarius in generatione divina, in
+<lb ed="#Ba" n="23"/>qua vivum nascitur in vivum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

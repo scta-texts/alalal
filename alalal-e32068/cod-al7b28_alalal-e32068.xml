@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="166"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e32068"><!-- l3d8dt2 -->
+            <head xml:id="alalal-e32068-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e32068-d1e101">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="46"/>B. De gemina Christi nativitate, qua bis natus est.
+</p>
+            <p xml:id="alalal-e32068-d1e108">
+               <lb ed="Bd" n="47"/>Queri etiam‘ solel, Utrum debeat dici Christus bis genitus, ut dicitur
+<lb ed="Bd" n="48"/>Dei et bominis Filius ? Ad quod dici potest Christum bis natum esse, 
+duas<lb break="no" ed="Bd" n="49"/>que nalivitates habuisse. Unde Augustinus in lbro de Wide ad Petrum:
+<lb ed="Bd" n="50"/>Paler Deus de sua natura genuit Filium Deum sibi coaequalem et 
+coeter<lb break="no" ed="Bd" n="51"/>num. Idem quoque unigenitus Deus secundo natus est ex Patre semel, ex
+<lb ed="Bd" n="52"/>matre semel. Natus est enim de Patre Dei Verbum: natus est de matre
+<lb ed="Bd" n="53"/>Verbum caro factum. Unus ergo atque idem Dei Filius natus est ante 
+sae<lb break="no" ed="Bd" n="54"/>cula, et nalus in seculo : et utraque nativilas unius est Filii Dei : 
+divi<lb break="no" ed="Bd" n="55"/>na scilicet, et humana. De hocetiam Joannes Damascenus ait : Duas ergo
+<lb ed="Bd" n="56"/>Christi nativitates veneramur : unam ex Patre ante seecula, quae est super
+<lb ed="Bd" n="57"/>causam et rationem et tempus et naturam: et unam, quae in ultimis tem-
+<pb ed="#Bd" n="167"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>poribus propter nos et secundum nos et super nos: propter nos, quia 
+prop<lb break="no" ed="Bd" n="2"/>ter nostram salutem : secundum nos, quia natus est homo ex mulicre, et
+<lb ed="Bd" n="3"/>tempore conceptionis, scilicet novem mensium : super nos, quia non ex
+<lb ed="Bd" n="4"/>semine, sed ex Spiritu sancto et sancta Virgine supra legem 
+concep<lb break="no" ed="Bd" n="5"/>tionis. Ex his manifeste apparet Christi duas esse nativilates, 
+eum<lb break="no" ed="Bd" n="6"/>demque bis natum fore.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="812"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h74855"><!-- l4d19a11 -->
+            <head xml:id="alalal-h74855-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-h74855-Hd1e101" type="question-title">An Episcopus potest absolvere nolentem ?</head>
+            <p xml:id="alalal-h74855-d1e104">
+               <lb ed="#Be" n="76"/>ARTICULUS XI.
+<lb ed="#Be" n="77"/>An Episcopus potest absolvere nolentem ?
+</p>
+            <p xml:id="alalal-h74855-d1e111">
+               <lb ed="#Be" n="78"/>Quarto queritur, Si nolentem 
+subdi<lb break="no" ed="#Be" n="79"/>tum potest absolvere Episcopus vel 
+sa<lb break="no" ed="#Be" n="80"/>cerdos?
+</p>
+            <p xml:id="alalal-h74855-d1e120">
+               <lb ed="#Be" n="81"/>Videtur, quod sic : quia
+<lb ed="#Be" n="82"/>1. Dicit Augustinus, quod <quote xml:id="alalal-h74855-Qd1e126"> multa bona
+<pb ed="#Be" n="813"/>
+                  <cb ed="#Be" n="a"/>
+                  <lb ed="#Be" n="1"/>prestantur invitis : </quote> sed summum 
+bo<lb break="no" ed="#Be" n="2"/>norum in via est absolutio ab 
+excommu<lb break="no" ed="#Be" n="3"/>nicatione : ergo haec potest prestari etiam
+<lb ed="#Be" n="4"/>invito subdito.
+</p>
+            <p xml:id="alalal-h74855-d1e144">
+               <lb ed="#Be" n="5"/>2. Item, Pater carnalis multa facit 
+cir<lb break="no" ed="#Be" n="6"/>ca filium, invito filio: sed sacerdos vel
+<lb ed="#Be" n="7"/>Episcopus, est pater spiritualis: ergo a
+<lb ed="#Be" n="8"/>simili, etc.
+</p>
+            <p xml:id="alalal-h74855-d1e155">
+               <lb ed="#Be" n="9"/>3. Item, Excommunicari potest 
+invi<lb break="no" ed="#Be" n="10"/>tus : cum igitur Ecclesia potentior sit in
+</p>
+            <p xml:id="alalal-h74855-d1e162">
+               <lb ed="#Be" n="11"/>beneficiis, quam in penis, potest absolvi
+<lb ed="#Be" n="12"/>invitus.
+</p>
+            <p xml:id="alalal-h74855-d1e169">
+               <lb ed="#Be" n="13"/>SED CONTRA :
+<lb ed="#Be" n="14"/>Quodcumque solveris super terram
+<lb ed="#Be" n="15"/>erit solutum etin celis': et si non est
+<lb ed="#Be" n="16"/>solutum in celis, non erit solutum in 
+ter<lb break="no" ed="#Be" n="17"/>ris: sed nullus dissentiens absolutioni,
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="18"/>absolvitur in ccelis: ergo nec in terris
+<lb ed="#Be" n="19"/>potest absolvi.
+</p>
+            <p xml:id="alalal-h74855-d1e189">
+               <lb ed="#Be" n="20"/>Resronsio. Dicendum, quod aliquis a
+<lb ed="#Be" n="21"/>vinculo excommunicationis absolvi pot-,
+<lb ed="#Be" n="22"/>est etiam invitus, sed non a vinculo 
+pec<lb break="no" ed="#Be" n="23"/>catorum in confessione.
+</p>
+            <p xml:id="alalal-h74855-d1e200">
+               <lb ed="#Be" n="24"/>Er ap objectum contra, dicimus quod:
+<lb ed="#Be" n="25"/>hoc intelligitur de absolutione quae fit in
+<lb ed="#Be" n="26"/>foro confessionis a peccatis, et non de illa
+<lb ed="#Be" n="27"/>que fit in foro causarum et jurisdictionis
+<lb ed="#Be" n="28"/>ab éxcommunicatione. Vel dicatur, quod
+<lb ed="#Be" n="29"/>etiam a.Deo reputatur absolutus ab 
+ex<lb break="no" ed="#Be" n="30"/>communicatione, licet non reputatur 
+ab<lb break="no" ed="#Be" n="31"/>solutus a peccato : et tunc haec est falsa,
+<lb ed="#Be" n="32"/>que destruit consequens: sed non est 
+ab<lb break="no" ed="#Be" n="33"/>solutus in ceelo, id est, coram Deo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

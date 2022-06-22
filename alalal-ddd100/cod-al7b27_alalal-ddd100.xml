@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prologus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prologus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="1"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ddd100"><!-- l2prol -->
+            <head xml:id="alalal-ddd100-Hd1e99">Prologus</head>
+            <p xml:id="alalal-ddd100-d1e101">
+               <pb ed="#Bc" n="1"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>D. ALBERTI MAGNI,
+<lb ed="#Bc" n="2"/>RATISBONENSIS EPISCOPI, ORDINIS PRADICATORUM,
+<lb ed="#Bc" n="3"/>COMMENTARII
+<lb ed="#Bc" n="4"/>IN SECUNDUM LIBRUM SENTENTIARUM.
+<lb ed="#Bc" n="5"/>PROLOGUS.
+</p>
+            <p xml:id="alalal-ddd100-d1e119">
+               <lb ed="#Bc" n="6"/>Vidi Dominum sedentem super solium excelsum et elevatum : et plena erat. 
+do<lb break="no" ed="#Bc" n="7"/>mus a majestate ejus: et ea quae sub ipso erant replebant templum. Hoc 
+ver<lb break="no" ed="#Bc" n="8"/>bum legitur Isaia, vi, 1! : et trahitur ex ipso materia hujus Libri.
+</p>
+            <p xml:id="alalal-ddd100-d1e128">
+               <lb ed="#Bc" n="9"/>Per hoc enim quod dicitur: <quote xml:id="alalal-ddd100-Qd1e132"> Vidz,</quote> notatur intellectus Auctoris : quia hoc
+<lb ed="#Bc" n="10"/>non potuit nosse, nisi Spiritu docente.
+</p>
+            <p xml:id="alalal-ddd100-d1e137">
+               <lb ed="#Bc" n="11"/>Per hoc autem quod dicitur: <quote xml:id="alalal-ddd100-Qd1e141"> Dominum, </quote> notatur exclusio errorum 
+posito<lb break="no" ed="#Bc" n="12"/>rum in principio hujus Libri in prima distinctione. Per hoc enim 
+significa<lb break="no" ed="#Bc" n="13"/>tur unus Creator et rector mundi: non ut diversi errantes dixerunt universa
+<lb ed="#Bc" n="14"/>et varia esse principia. .
+</p>
+            <p xml:id="alalal-ddd100-d1e151">
+               <lb ed="#Bc" n="15"/>Per hoc autem quod dicitur : <quote xml:id="alalal-ddd100-Qd1e155"> Sedentem super solium excelsum et elevatum, </quote>
+               <lb ed="#Bc" n="16"/>notatur duplex creatura superior. Notatur enim in verbo duplex elevatio
+<lb ed="#Bc" n="17"/>solii, cum dicitur excelsum et elevatum. Unum igitur solium quod est excel-. -
+<lb ed="#Bc" n="18"/>sum, est angelica natura, in qua sicut in solio sedet Dominus: sicut dicit
+<pb ed="#Bc" n="2"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Psalmus Lxxix, 2: Qui sedes super Cherubim. Unde etiam dicitur in ista 
+visio<lb break="no" ed="#Bc" n="2"/>ne, quia Seraphim stabant super iliud'. Et iterum, Thronus tuus, Deus,in s@-
+<lb ed="#Bc" n="3"/>culum seculi®, Hit de hoc excelso solio est prima pars Libri, post partem
+<lb ed="#Bc" n="4"/>prommialem in qua determinatur Creator omnis creature, qui vocatur in 
+prin<lb break="no" ed="#Bc" n="5"/>cipio istius verbi, ut diximus. Aliud solium elevatum, quasi extra materiam et
+<lb ed="#Bc" n="6"/>impressiones corruptibilium et generabilium quae sunt sub sphera lune, 
+leva<lb break="no" ed="#Bc" n="7"/>tum. Ilud enim excelsitudinem non habet ut primum, sed proprie elevationem :
+<lb ed="#Bc" n="8"/>quia ipsum, quod de communiomnium corporum matéria factum a Creatore,
+<lb ed="#Bc" n="9"/>sic in sua forma perfectum est, ut nec loco, nec motu, nec impressione, 
+conve<lb break="no" ed="#Bc" n="10"/>niat cum inferioribus. Et ideo dicitur, Isa.LXvi, 1: Celum sedes mea, terra autem
+<lb ed="#Bc" n="11"/>scabellum pedum meorum. Hoc est etiam quod dicit Philosophus in primo de
+<lb ed="#Bc" n="12"/>Calo ei Mundo, qaod omnes antiqui in hoc conveniunt, quod ccoelum esset 
+se<lb break="no" ed="#Bc" n="13"/>des et habitatio Dei. | | a ae
+</p>
+            <p xml:id="alalal-ddd100-d1e197">
+               <lb ed="#Bc" n="14"/>Per sequens autem verbum: <quote xml:id="alalal-ddd100-Qd1e201"> Plena erat domus amajestate ejus, </quote> accipitur
+<lb ed="#Bc" n="15"/>alia pars visibilis creature, quae est ex materia generabilium et 
+corruptibi<lb break="no" ed="#Bc" n="16"/>lium : quia domus hic mundus est, qui totus repletus est creaturis 
+indicanti<lb break="no" ed="#Bc" n="17"/>bus Dei majestatem, per hoc quod omniaclamant: Ipse fecit nos, et non.ipsi
+<lb ed="#Bc" n="18"/>nos . Et de hac parte tam superiori quam inferiori creature agitur in 
+secun<lb break="no" ed="#Bc" n="19"/>da parte istius tractatus: ut pars procemialis contineat unam distinctionem.
+<lb ed="#Bc" n="20"/>Prima autem pars partis exsecutive, quee est de solio excelso, quod est natura -
+<lb ed="#Bc" n="21"/>angelica, continuatur a secunda distinctione quae incipit ibi, <quote xml:id="alalal-ddd100-Qd1e218"> De angelica
+<lb ed="#Bc" n="22"/>itaque natura, etc., </quote> usque ad duodecimam quae incipit ibi, <quote xml:id="alalal-ddd100-Qd1e223"> Hee de angelicz
+<lb ed="#Bc" n="23"/>nature conditione, etc. </quote> In secunda autem quae ibidem incipit, determinatur de
+<lb ed="#Bc" n="24"/>natura corporali superiori, et inferiori : quae quoad superiorem significatur
+<lb ed="#Bc" n="25"/>per solium excelsum, gquoad inferiorem per majestatem replentem domum, id
+<lb ed="#Bc" n="26"/>est, mundum, et durat usque ad distinctionem decimam sextam qué incipit
+<lb ed="#Bc" n="27"/>ibi, <quote xml:id="alalal-ddd100-Qd1e237"> His excursis, etc. </quote>
+            </p>
+            <p xml:id="alalal-ddd100-d1e240">
+               <lb ed="#Bc" n="28"/>In secunda parte istius verbi notatur tertia pars tractatus. Per hoc enim .
+<lb ed="#Bc" n="29"/>quod dicit: <quote xml:id="alalal-ddd100-Qd1e246"> Ha quae sub ipse erant, etc., </quote> notatur specialis subjectio hominis
+<lb ed="#Bc" n="30"/>ad Deum et status iuferior. Sicut enim dicit Augustinus : <quote xml:id="alalal-ddd100-Qd1e250"> Angelum autem
+<lb ed="#Bc" n="31"/>ereavit Deus prope se, materiam autem corruptibiliumprope nihil, quam etiam
+<lb ed="#Bc" n="32"/>sequitur mundus materiatus ex ipsa :et hominem in medio posuit inter se, et
+<lb ed="#Bc" n="33"/>mundum : ut serviretur ei, et cederet hoc totum ad hominis bonum. </quote>
+            </p>
+            <p xml:id="alalal-ddd100-d1e260">
+               <lb ed="#Bc" n="34"/>Per hoc quod dicit: <quote xml:id="alalal-ddd100-Qd1e264"> Fa quae sub ipso, </quote>-notat statum hominis inferiorem,
+<lb ed="#Bc" n="35"/>et ordinem ad obediendum. Per consignificationem autem temporis in verbo :
+<lb ed="#Bc" n="36"/>
+               <quote xml:id="alalal-ddd100-Qd1e270"> Erant, </quote> notatur imperfectio obedientie, per quam cecidit : quoniam verbum
+<lb ed="#Bc" n="37"/>illud consignificat preeteritum imperfectum, cujus actus non completur ad 
+pree<lb break="no" ed="#Bc" n="38"/>sens, sicut preteriti perfecti. Per <quote xml:id="alalal-ddd100-Qd1e277">femplum </quote> autem notatur paradisus corpora-
+<pb ed="#Bc" n="3"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>lis et spiritualis, in quo sicut in templo ad conversationem sanctitatis et 
+expe<lb break="no" ed="#Bc" n="2"/>rientiee positus erat homo. Dicitur enim templum a templor, aris, quod est verbum
+<lb ed="#Bc" n="3"/>quod non habemus in usu, nisiin suis compositis, ut contemplor. Et hoc est illud
+<lb ed="#Bc" n="4"/>quod in Genesi dicitur : Posudt hominem in paradiso voluptatis, ut operaretur, et
+<lb ed="#Bc" n="5"/>custodiret tllum'. Et exponit Augustinus de opere experientiae, quo in creaturis
+<lb ed="#Bc" n="6"/>utitur Creator.
+</p>
+            <p xml:id="alalal-ddd100-d1e297">
+               <lb ed="#Bc" n="7"/>Per hoc autem quod dicitur : <quote xml:id="alalal-ddd100-Qd1e301"> Replebant, </quote> notatur, generationis propago,
+<lb ed="#Bc" n="8"/>quam in benedictione acceperunt primi parentes, cum dictum est eis: Crescite
+<lb ed="#Bc" n="9"/>et multiplicamini? Et de his agitur a decima sexta distinctione usque in finem
+<lb ed="#Bc" n="10"/>Libri istius.
+</p>
+            <p xml:id="alalal-ddd100-d1e310">
+               <lb ed="#Bc" n="11"/>Et per hoc patet materia, et divisio, et modus agendi.
+</p>
+            <p xml:id="alalal-ddd100-d1e316">
+               <pb ed="#Bc" n="5"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>LIBRI SECUNDI
+<lb ed="#Bc" n="2"/>SENTENTIARUM
+<lb ed="#Bc" n="3"/>PETRI LOMBARDI,
+<lb ed="#Bc" n="4"/>DE RERUM CORPORALIUM ET SPIRITUALIUM CREATIONE ET 
+FOR<lb break="no" ed="#Bc" n="5"/>MATIONE, ALIISQUE PLURIBUS EO PERTINENTIBUS.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

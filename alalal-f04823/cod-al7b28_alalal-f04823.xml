@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="539"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f04823"><!-- l3d28a4 -->
+            <head xml:id="alalal-f04823-Hd1e99">Articulus 4</head>
+            <p xml:id="alalal-f04823-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="47"/>ARTICULUS TY.
+</p>
+            <p xml:id="alalal-f04823-d1e108">
+               <lb ed="Bd" n="48"/>An inter quatuor diligenda, de secundo
+<lb ed="Bd" n="49"/>ef quarto nulla praecepta danda erant ?
+</p>
+            <p xml:id="alalal-f04823-d1e115">
+               <lb ed="Bd" n="50"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="51"/>ibi, A, circa imtium :<quote xml:id="alalal-f04823-Qd1e121"> De secundo et
+<lb ed="Bd" n="52"/>guarto nulla precepla danda eran,
+<lb ed="Bd" n="53"/>elc. </quote>
+            </p>
+            <p xml:id="alalal-f04823-d1e129">
+               <lb ed="Bd" n="54"/>Hoc enim videtur falsum :
+<lb ed="Bd" n="55"/>i. Praeceptum enim ordinans actum
+<lb ed="Bd" n="56"/>alicujus virtutis, debet ipsum 
+universali<lb break="no" ed="Bd" n="57"/>ter ordinare: si ergo praeceptum 
+dilectio<lb break="no" ed="Bd" n="58"/>nis ordinat actum dilectionis, 
+universali<lb break="no" ed="Bd" n="59"/>ter eurm debet ordinare : ergo debet dare
+<lb ed="Bd" n="60"/>praeceptum de dilectione sui, et 
+corpo<lb break="no" ed="Bd" n="61"/>ris.
+</p>
+            <p xml:id="alalal-f04823-d1e150">
+               <lb ed="Bd" n="62"/>2. item, Nihil videtur esse quod dicit
+<lb ed="Bd" n="63"/>in Littera, quod nemo odit se vel 
+car<lb break="no" ed="Bd" n="64"/>nem suam: quia multa odiunt utrumque,
+<lb ed="Bd" n="65"/>ut videtur : quia gui diligtéi tryuitatem,
+<lb ed="Bd" n="66"/>odtl animam suai’.
+</p>
+            <p xml:id="alalal-f04823-d1e163">
+               <lb ed="Bd" n="67"/>3. Item, Posito quod verum sit quod
+<lb ed="Bd" n="68"/>dicit, adhuc non est verum, nisi de 
+natu<lb break="no" ed="Bd" n="69"/>rali amore: et ille non refertur ad 
+nume<lb break="no" ed="Bd" n="70"/>rum diligendorum ex charitate: ergo
+<lb ed="Bd" n="71"/>non debuit dariin praecepto ut 
+diligere<lb break="no" ed="Bd" n="72"/>mus nos ex charitate.
+</p>
+            <p xml:id="alalal-f04823-d1e179">
+               <lb ed="Bd" n="73"/>Solutio Facile est respondere ad hoc
+<lb ed="Bd" n="74"/>per antedicta.
+</p>
+            <p xml:id="alalal-f04823-d1e186">
+               <lb ed="Bd" n="75"/>Ad primum ergo dicendum, quod 
+praz<lb break="no" ed="Bd" n="76"/>ceptum aliter ordinat actum, cum 
+dici<lb break="no" ed="Bd" n="77"/>tur, Diliges proximum tuum sicut 
+teip<lb break="no" ed="Bd" n="78"/>sum : quia in hoc includitur dilectio tui,
+<lb ed="Bd" n="79"/>et datur tibi principalitas.
+</p>
+            <p xml:id="alalal-f04823-d1e199">
+               <lb ed="Bd" n="80"/>Ad aliud dicendum, ut supra in 
+prae<lb break="no" ed="Bd" n="81"/>cedenti distinctione.
+</p>
+            <p xml:id="alalal-f04823-d1e206">
+               <lb ed="Bd" n="82"/>Ad ultimum dicendum, quod per hoc 
+<lb ed="Bd" n="83"/>intelligitur, quod non oportuit speciale
+<lb ed="Bd" n="84"/>praeceptum dari distinctum a praecepto
+<lb ed="Bd" n="85"/>dilectionis proximi : et hoc ideo, quia
+<pb ed="#Bd" n="540"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>natura juvat in gratiam, quia ad idem  
+<lb ed="Bd" n="2"/>inclinant ambo. Cum igitur praeceptum 
+<lb ed="Bd" n="3"/>sit vinculum quoddam ligans per obliga-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="4"/>tionem, non oportuit ibi multiplicari vin.
+<lb ed="Bd" n="5"/>cula, ubi non est necesse.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

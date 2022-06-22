@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 17</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 17</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="540"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b04723"><!-- l1d19a17 -->
+            <head xml:id="alalal-b04723-Hd1e99">Articulus 17</head>
+            <head xml:id="alalal-b04723-Hd1e101" type="question-title">An tres persone differant numero in
+divinis ?</head>
+            <p xml:id="alalal-b04723-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="4"/>ARTICULUS XVII.
+<lb ed="#Ba" n="5"/>An tres persone differant numero in
+<lb ed="#Ba" n="6"/>divinis ?
+</p>
+            <p xml:id="alalal-b04723-d1e115">
+               <lb ed="#Ba" n="7"/>Deinde sumenda est pars in quo solvit
+<lb ed="#Ba" n="8"/>objecta in contrarium, quae incipit ibi, O,
+<lb ed="#Ba" n="9"/>
+               <quote xml:id="alalal-b04723-Qd1e123"> Haec autem quae hic dicuntur, etc. </quote>
+            </p>
+            <p xml:id="alalal-b04723-d1e126">
+               <lb ed="#Ba" n="10"/>Ibi enim incidit questio, Utrum tres
+<lb ed="#Ba" n="11"/>persone differunt numero ?
+</p>
+            <p xml:id="alalal-b04723-d1e134">
+               <lb ed="#Ba" n="12"/>Videtur, quod sic.
+<lb ed="#Ba" n="13"/>1. In numero enim differunt quae sibi
+<lb ed="#Ba" n="14"/>in numero non adjunguntur: sed tres
+<lb ed="#Ba" n="15"/>persone non sibi numero adjunguntur,
+<lb ed="#Ba" n="16"/>sed potius discernuntur ab invicem  ergo
+<lb ed="#Ba" n="17"/>tres persone differunt numero.
+</p>
+            <p xml:id="alalal-b04723-d1e150">
+               <lb ed="#Ba" n="18"/>2. Item, Damascenus dicit quod 
+diffe<lb break="no" ed="#Ba" n="19"/>rentia est causa numeri : sed-tres 
+perso<lb break="no" ed="#Ba" n="20"/>ne differunt : ergo causatur in eis 
+nu<lb break="no" ed="#Ba" n="21"/>merus: ergo differunt numero,
+</p>
+            <p xml:id="alalal-b04723-d1e161">
+               <lb ed="#Ba" n="22"/>3. Item, Aut differunt numero, aut 
+ge<lb break="no" ed="#Ba" n="23"/>nere, aut specie, aut omnino non 
+diffe<lb break="no" ed="#Ba" n="24"/>runt : sed non genere, vel specie, ut 
+pro<lb break="no" ed="#Ba" n="25"/>batum est: ergo relinquitur, quod aut
+<lb ed="#Ba" n="26"/>differunt numero, aut omnino non 
+diffe<lb break="no" ed="#Ba" n="27"/>runt: sed non omnino non differunt,
+<lb ed="#Ba" n="28"/>quia hoc esset error Sabellii : ergo 
+re<lb break="no" ed="#Ba" n="29"/>linquintur, quod differant numero.
+</p>
+            <p xml:id="alalal-b04723-d1e181">
+               <lb ed="#Ba" n="30"/>4. Item, Quibuscumque discerni 
+con<lb break="no" ed="#Ba" n="31"/>venit a se inviceim, illis convenit 
+nume<lb break="no" ed="#Ba" n="32"/>rari: personis autem divinis convenit dis—
+<lb ed="#Ba" n="33"/>cerni: ergo eisdem convenit numerari.
+<lb ed="#Ba" n="34"/>Inde sic: Quibuscumque convenit 
+nu<lb break="no" ed="#Ba" n="35"/>merari, illa differunt numero : personis
+<lb ed="#Ba" n="36"/>divinis convenit numerari: ergo differunt
+<lb ed="#Ba" n="37"/>numero.
+</p>
+            <p xml:id="alalal-b04723-d1e201">
+               <lb ed="#Ba" n="38"/>5. Item, Quibuscumque est 
+applicabi<lb break="no" ed="#Ba" n="39"/>lis numerus quo numeramus, illa 
+diffe<lb break="no" ed="#Ba" n="40"/>runt numero : personis divinis est 
+appli<lb break="no" ed="#Ba" n="41"/>cabilis numerus quo numeramus: ergo
+<lb ed="#Ba" n="42"/>differunt numero. Prosatio minoris. 
+Di<lb break="no" ed="#Ba" n="43"/>cimus enim, una persona, due persone,
+<lb ed="#Ba" n="44"/>tres persone : sed unus, duo, tres, sunt
+<lb ed="#Ba" n="45"/>numerus quo numeramus.
+</p>
+            <p xml:id="alalal-b04723-d1e221">
+               <lb ed="#Ba" n="46"/>SED CONTRA :
+<lb ed="#Ba" n="47"/>1. <ref xml:id="alalal-b04723-Rd1e227">
+                  <name xml:id="alalal-b04723-Nd1e229">Isidorus</name> in libro Etymologiarum</ref>
+               <lb ed="#Ba" n="48"/>dicit, quod numerus dicitur quasi nutus
+<lb ed="#Ba" n="49"/>memeris, id est, divisionis : sed in divinis
+<lb ed="#Ba" n="50"/>non est divisio: ergo non est ibi nutus
+<lb ed="#Ba" n="51"/>divisionis : ergo non est ibi numerus :
+<lb ed="#Ba" n="52"/>ergo nec differre numero.
+</p>
+            <p xml:id="alalal-b04723-d1e245">
+               <lb ed="#Ba" n="53"/>2. Item, Philosophus : In non 
+habenti<lb break="no" ed="#Ba" n="54"/>bus materiam non est numerus, nisi 
+se<lb break="no" ed="#Ba" n="55"/>cundum causam et causatum: sed in
+<lb ed="#Ba" n="56"/>personis divinis non est causa et 
+causa<lb break="no" ed="#Ba" n="57"/>tum, nec materia : ergo non est ibi 
+nu<lb break="no" ed="#Ba" n="58"/>merus: ergo tres persone non differunt
+<lb ed="#Ba" n="59"/>numero.
+</p>
+            <p xml:id="alalal-b04723-d1e263">
+               <lb ed="#Ba" n="60"/>3. Item, Philosophus dicit, quod 
+nu<lb break="no" ed="#Ba" n="61"/>merum cognoscimus divisione continui .
+<lb ed="#Ba" n="62"/>sed in divinis non est hujusmodi divisio :
+<lb ed="#Ba" n="63"/>ergo non est ibi numerus.
+</p>
+            <p xml:id="alalal-b04723-d1e274">
+               <lb ed="#Ba" n="64"/>4. Ttem, Quecumque differunt 
+nu<lb break="no" ed="#Ba" n="65"/>mero, simpliciter sunt plura: sed 
+per<lb break="no" ed="#Ba" n="66"/>sone divine non simpliciter sunt plura,
+<lb ed="#Ba" n="67"/>ut supra probatum est: ergo persone
+<lb ed="#Ba" n="68"/>divine non differunt numero.
+</p>
+            <p xml:id="alalal-b04723-d1e287">
+               <lb ed="#Ba" n="69"/>5. Item, Si Socrates sit musicus, albus,
+<lb ed="#Ba" n="70"/>et citharcedus, ex hoc non dicitur ipse
+<lb ed="#Ba" n="71"/>plura numero, sed potius unum numero
+<lb ed="#Ba" n="72"/>est plures habens proprietates : ergo a
+<lb ed="#Ba" n="73"/>simili cum tres persone sint unus Deus
+<lb ed="#Ba" n="74"/>numero, distinctee amen penes 
+proprie<lb break="no" ed="#Ba" n="75"/>tates quae in divinis persone sunt, non
+<lb ed="#Ba" n="76"/>debent dici differre numero.
+</p>
+            <p xml:id="alalal-b04723-d1e307">
+               <lb ed="#Ba" n="77"/>Sotuno. Dicendum, quod tres persone
+<lb ed="#Ba" n="78"/>non differunt numero qui simpliciter sit
+<lb ed="#Ba" n="79"/>numerus, sed differunt numero relatio-
+<pb ed="#Ba" n="541"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>num vel numero personarum': et hoc
+<lb ed="#Ba" n="2"/>non est simpliciter differre numero :
+<lb ed="#Ba" n="3"/>quia, sicut supra diximus, forma 
+divi<lb break="no" ed="#Ba" n="4"/>dens in quantum dividens est causa 
+nu<lb break="no" ed="#Ba" n="5"/>meri, et ideo ipsa forma substantialis per
+<lb ed="#Ba" n="6"/>causam loquendo est unitas rei. Dico
+<lb ed="#Ba" n="7"/>autem forma substantialis, quia 
+acci<lb break="no" ed="#Ba" n="8"/>dentalis forma non dividit: quod patet
+<lb ed="#Ba" n="9"/>ex hoc quia plures esse possunt in eodem
+<lb ed="#Ba" n="10"/>sine divisione subjecti: sed plures 
+sub<lb break="no" ed="#Ba" n="11"/>stantiales in eodem esse non possunt :
+<lb ed="#Ba" n="12"/>quod sic probatur : Forma substantialis
+<lb ed="#Ba" n="13"/>dicitur, quia facit actu substantiam in
+<lb ed="#Ba" n="14"/>esse et ratione: actu autem et ratione
+<lb ed="#Ba" n="15"/>esse est esse per speciem et naturam
+<lb ed="#Ba" n="16"/>propriam: in natura autem non est nisi
+<lb ed="#Ba" n="17"/>unicum esse unius rei, et unas res que
+<lb ed="#Ba" n="18"/>habet unicum esse: cum ergo 
+unum<lb break="no" ed="#Ba" n="19"/>quodque unum tantum sit, ut dicit 
+Boe<lb break="no" ed="#Ba" n="20"/>tius, unumquodque tantum unum esse
+<lb ed="#Ba" n="21"/>habet : ergo tantum unam, formam 
+sub<lb break="no" ed="#Ba" n="22"/>stantialem quae dat esse illud.
+</p>
+            <p xml:id="alalal-b04723-d1e368">
+               <lb ed="#Ba" n="23"/>Et si objicias de forma generis 
+subal<lb break="no" ed="#Ba" n="24"/>terni et usque ad generalissimum in 
+spe<lb break="no" ed="#Ba" n="25"/>cie, ridiculosa est objectio : quia 
+deter<lb break="no" ed="#Ba" n="26"/>minatum est in alia scientia, quod 
+om<lb break="no" ed="#Ba" n="27"/>nes ille sunt potentia ad ultimam que
+<lb ed="#Ba" n="28"/>est actus. Hac igitur forma substantialis,
+<lb ed="#Ba" n="29"/>quia primus ejus actus est terminare esse
+<lb ed="#Ba" n="30"/>in hoc cujus est forma necessaria, per
+<lb ed="#Ba" n="31"/>consequens dividit ab aliis, et sic causat
+<lb ed="#Ba" n="32"/>unitatem quae principium numeri est,
+<lb ed="#Ba" n="33"/>qua istud aggregatum cum alio invenitur
+<lb ed="#Ba" n="34"/>differre unitate sui ab alio, et sic differre
+<lb ed="#Ba" n="35"/>numero. Jam autem super hac eadem
+<lb ed="#Ba" n="36"/>distinctione ostensum est, quod talis 
+di<lb break="no" ed="#Ba" n="37"/>visio et terminatio non est in personis 
+di<lb break="no" ed="#Ba" n="38"/>vinis : ergo non erit ibi simpliciter 
+nu<lb break="no" ed="#Ba" n="39"/>merus : sed numerus quidam personarum,
+<lb ed="#Ba" n="40"/>scilicet qui est penes distinctionem 
+rela<lb break="no" ed="#Ba" n="41"/>tionum, quibus referuntur persona ad
+<lb ed="#Ba" n="42"/>invicem.
+</p>
+            <p xml:id="alalal-b04723-d1e415">
+               <lb ed="#Ba" n="43"/>Ap Xavucrorirarrs ergo Damasceni 
+ad<lb break="no" ed="#Ba" n="44"/>ductas in Litera satis convenienter 
+sol<lb break="no" ed="#Ba" n="45"/>vit,
+</p>
+            <p xml:id="alalal-b04723-d1e424">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="46"/>Ap i autem quod primo objectum est,
+<lb ed="#Ba" n="47"/>dicendum quod ex illo habetur, quod
+<lb ed="#Ba" n="48"/>tres persone simpliciter differant numero,
+<lb ed="#Ba" n="49"/>sed quod distinguantur tali modo quo
+<lb ed="#Ba" n="50"/>sibi non adjunguntur : et hoc est numero
+<lb ed="#Ba" n="51"/>personarum vel proprietatum, et non
+<lb ed="#Ba" n="52"/>simpliciter : et non proprie dicuntur hee
+<lb ed="#Ba" n="53"/>differre, quia differre est actus 
+differen<lb break="no" ed="#Ba" n="54"/>tie: sed distingui possunt dici, eo quod
+<lb ed="#Ba" n="55"/>distinctio minus dicit quam differre, et
+<lb ed="#Ba" n="56"/>sufficit ei actus relationis.
+</p>
+            <p xml:id="alalal-b04723-d1e453">
+               <lb ed="#Ba" n="57"/>Ad aliud dicendum, quod differentia
+<lb ed="#Ba" n="58"/>est causa numeri: sed non concedendum
+<lb ed="#Ba" n="59"/>est, quod aliqua differentia tres persone
+<lb ed="#Ba" n="60"/>differant : sed potius proprietatibus 
+dis<lb break="no" ed="#Ba" n="61"/>tinguuntur.
+</p>
+            <p xml:id="alalal-b04723-d1e466">
+               <lb ed="#Ba" n="62"/>Ap aniup dicendum, quod nullo 
+illo<lb break="no" ed="#Ba" n="63"/>rum modorum differunt tres persone :
+<lb ed="#Ba" n="64"/>illa enim divisio locum habet in his que
+<lb ed="#Ba" n="65"/>ad se invicem secundum essentiam 
+di<lb break="no" ed="#Ba" n="66"/>viduntur: sed distinguuntur in numero
+<lb ed="#Ba" n="67"/>personarum, ut dictum est: et ideo non
+<lb ed="#Ba" n="68"/>sequitur, quod omnino persone sunt
+<lb ed="#Ba" n="69"/>eadem.
+</p>
+            <p xml:id="alalal-b04723-d1e486">
+               <lb ed="#Ba" n="70"/>Ad aliud dicendum, quod haec
+propo<lb break="no" ed="#Ba" n="71"/>sitio est falsa, Quibuscumque convenit
+<lb ed="#Ba" n="72"/>discerni a se invicem, etc., quia discerni
+<lb ed="#Ba" n="73"/>dicit minus quam differre: et ideo qua
+<lb ed="#Ba" n="74"/>discernuntur, non numerantur nisi 
+se<lb break="no" ed="#Ba" n="75"/>cundum quid.
+</p>
+            <p xml:id="alalal-b04723-d1e502">
+               <lb ed="#Ba" n="76"/>Ad aliud dicendum, quod numerus
+<lb ed="#Ba" n="77"/>quo numeramus abstrahitur a 
+numera<lb break="no" ed="#Ba" n="78"/>tis: et ubi numerata simpliciter divisa
+<lb ed="#Ba" n="79"/>sunt ab invicem suis essentiis, ibi 
+nume<lb break="no" ed="#Ba" n="80"/>rus abstractus habet discretionem 
+omni<lb break="no" ed="#Ba" n="81"/>modam : sed talis numerus non 
+applica<lb break="no" ed="#Ba" n="82"/>tur personis, sed potius numerus 
+pro<lb break="no" ed="#Ba" n="83"/>prietatem vel relationum, quia ille solus
+<lb ed="#Ba" n="84"/>competit personis: et ideo numerus quo
+<lb ed="#Ba" n="85"/>numeramus per prius et posterius, 
+dici<lb break="no" ed="#Ba" n="86"/>tur de numero personarum et numero
+<lb ed="#Ba" n="87"/>creaturarum, et per prius invenitur in
+<lb ed="#Ba" n="88"/>inferioribus, per posterius autem in 
+per<lb break="no" ed="#Ba" n="89"/>sonis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

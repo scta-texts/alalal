@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="306"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e58479"><!-- l3d17a6 -->
+            <head xml:id="alalal-e58479-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-e58479-Hd1e101" type="question-title">Quomodo et cur aliqui seipsos
+interimunt?</head>
+            <p xml:id="alalal-e58479-d1e104">
+               <lb ed="Bd" n="6"/>ARTICULUS VI.
+<lb ed="Bd" n="7"/>Quomodo et cur aliqui seipsos
+<lb ed="Bd" n="8"/>interimunt?
+</p>
+            <p xml:id="alalal-e58479-d1e113">
+               <lb ed="Bd" n="9"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="Bd" n="10"/>Littera, ibi, B, sub finem: <quote xml:id="alalal-e58479-Qd1e119"> ?eliguit
+<lb ed="Bd" n="11"/>affectum infirmitatis, quae nemo vult
+<lb ed="Bd" n="12"/>mori. </quote>
+            </p>
+            <p xml:id="alalal-e58479-d1e127">
+               <lb ed="Bd" n="13"/>Hoc enim instantiam videtur habere
+<lb ed="Bd" n="14"/>in his qui perimunt seipsos :
+</p>
+            <p xml:id="alalal-e58479-d1e135">
+               <lb ed="Bd" n="15"/>1. Quidam ex desiderio immortalitatis,
+<lb ed="Bd" n="16"/>sicut dicit Augustinus in libro I de 
+Civi<lb break="no" ed="Bd" n="17"/>tate Dei, sie: <quote xml:id="alalal-e58479-Qd1e143"> Si hoc magno animo
+<lb ed="Bd" n="18"/>fieri putandum est: cum sibi homo 
+in<lb break="no" ed="Bd" n="19"/>gerit mortem ille potius Cleombrotus
+<lb ed="Bd" n="20"/>in hoc animimagnitudine reperitur
+<cb ed="#Bd" n="b"/>
+                  <lb ed="Bd" n="21"/>quem ferunt lecto Platonis libro, ubi
+<lb ed="Bd" n="22"/>de immortalitate anime disputavit, se
+<lb ed="Bd" n="23"/>precipitem dedisse de muro, atque ita
+<lb ed="Bd" n="24"/>cx hae vita emigrasse ad eam, quam
+<lb ed="Bd" n="25"/>credidit esse meliorem* .</quote> Ergo videtur,
+<lb ed="Bd" n="26"/>quod quidam desiderent mortem.
+</p>
+            <p xml:id="alalal-e58479-d1e168">
+               <lb ed="Bd" n="27"/>2. Item, Quidam praeter spem 
+immor<lb break="no" ed="Bd" n="28"/>talitatis occidunt seipsos, ut Judas: et
+<lb ed="Bd" n="29"/>quidam etiam alii, ut melancholici 
+qui<lb break="no" ed="Bd" n="30"/>dam : ergo videtur, quod falsum sit quod
+<lb ed="Bd" n="31"/>dicit in Ledtera.
+</p>
+            <p xml:id="alalal-e58479-d1e181">
+               <lb ed="Bd" n="32"/>Ad woc dicendum, quod secundum
+<lb ed="Bd" n="33"/>Augustinum et rei veritatem nullus 
+oc<lb break="no" ed="Bd" n="34"/>cidit se ex leedio vite in quantum vita
+<lb ed="Bd" n="35"/>esi: sed aliqui occiderunt se ex 
+ali<lb break="no" ed="Bd" n="36"/>quo quod aceidit sue vite, secundum
+<lb ed="Bd" n="37"/>quod credebant invenire post hance 
+vi<lb break="no" ed="Bd" n="38"/>iam : et aliqui ex verecundia 
+turpitudi<lb break="no" ed="Bd" n="39"/>actus admissi vel admitlendi, at
+<lb ed="Bd" n="40"/>Judas ex turpitudine admissa, et 
+Lucre<lb break="no" ed="Bd" n="41"/>tia ex turpitudine admitienda. 
+Melan<lb break="no" ed="Bd" n="42"/>cholici autem ex tedio tristitia malunt
+<lb ed="Bd" n="43"/>non esse, quam sic esse : et Cleombrotus
+<lb ed="Bd" n="44"/>ex immortalitate quam sperabat se 
+in<lb break="no" ed="Bd" n="45"/>venturum. Sed amor vite, cum vita
+<lb ed="Bd" n="46"/>naturaliter sausertus est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

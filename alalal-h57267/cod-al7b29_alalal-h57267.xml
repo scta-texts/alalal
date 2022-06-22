@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 42</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 42</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="728"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h57267"><!-- l4d17a42 -->
+            <head xml:id="alalal-h57267-Hd1e99">Articulus 42</head>
+            <head xml:id="alalal-h57267-Hd1e101" type="question-title">Utrum, posito quod unus proprius 
+sacerdos habeat plures coadjutores, facta
+confessione uni, teneatur confessus
+confiteri alteri si ille precipiat ?</head>
+            <p xml:id="alalal-h57267-d1e104">
+               <lb ed="#Be" n="69"/>ARTICULUS XLII.
+<lb ed="#Be" n="70"/>Utrum, posito quod unus proprius 
+sacer<lb break="no" ed="#Be" n="71"/>dos habeat plures coadjutores, facta
+<lb ed="#Be" n="72"/>confessione uni, teneatur confessus
+<lb ed="#Be" n="73"/>confiteri alteri si ille precipiat ?
+</p>
+            <p xml:id="alalal-h57267-d1e117">
+               <lb ed="#Be" n="74"/>Quarto queritur, Si sic est, quod unus
+<lb ed="#Be" n="75"/>proprius sacerdos potest habere coadju- °
+<lb ed="#Be" n="76"/>tores, utrum uni facta confessione, 
+tenea<lb break="no" ed="#Be" n="77"/>tur confessus etiam alteri confiteri si ille
+<lb ed="#Be" n="78"/>precipiat ?
+</p>
+            <p xml:id="alalal-h57267-d1e130">
+               <lb ed="#Be" n="79"/>Videtur autem, quod sic :
+<lb ed="#Be" n="80"/>1. Per illud quod habetur diffinitum
+<lb ed="#Be" n="81"/>ab <ref xml:id="alalal-h57267-Rd1e138">Innocentio II in concilio generali</ref>:
+<lb ed="#Be" n="82"/>
+               <quote xml:id="alalal-h57267-Qd1e143"> Si quis autem alieno sacerdoti justa de
+<lb ed="#Be" n="83"/>causa voluerit confiteri sua peccata, 
+li<lb break="no" ed="#Be" n="84"/>centiam prius postulet et obtineat a 
+pro<lb break="no" ed="#Be" n="85"/>prio sacerdote, cum aliter ille ipsum
+<lb ed="#Be" n="86"/>non possit absolvere vel ligare. </quote> Constat
+<lb ed="#Be" n="87"/>enim, quod dando licentiam ut confitea-
+<pb ed="#Be" n="729"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>tur alteri, non excipit eum ab obedientia
+<lb ed="#Be" n="2"/>sua: ergo adhuc tenetur obedire, sicut
+<lb ed="#Be" n="3"/>prius : sed prius tenebatur sibi semel in
+<lb ed="#Be" n="4"/>anno confiteri: ergo et postea si 
+praci<lb break="no" ed="#Be" n="5"/>piat sibi, tenetur facere confessionem.
+</p>
+            <p xml:id="alalal-h57267-d1e173">
+               <lb ed="#Be" n="6"/>2. Item, Esto, quod Episcopus mittat
+<lb ed="#Be" n="7"/>coadjutorem vel etiam Papa: constat,
+<lb ed="#Be" n="8"/>guod subditos per hoc non intendunt 
+ex<lb break="no" ed="#Be" n="9"/>trahere extra curam vel obedientiam
+<lb ed="#Be" n="10"/>propril sacerdotis. Cum igitur ex 
+obe<lb break="no" ed="#Be" n="11"/>dientia teneatur se ei ostendere in 
+con<lb break="no" ed="#Be" n="12"/>fessione, videtur quod si millies aliis
+<lb ed="#Be" n="13"/>confessus sit, adhuc tenetur confiteri illi,
+<lb ed="#Be" n="14"/>si ille praecepit.
+</p>
+            <p xml:id="alalal-h57267-d1e195">
+               <lb ed="#Be" n="15"/>3. Adhuc, Ile qui sacerdos proprius
+<lb ed="#Be" n="16"/>est, tenetur ei ministrare sacramenta :
+<lb ed="#Be" n="17"/>sed sacramentorum ministrationem 
+pre<lb break="no" ed="#Be" n="18"/>cedit absolutio: ergo tenetur eum scire
+<lb ed="#Be" n="19"/>absolutum esse: et hoc non potest scire
+<lb ed="#Be" n="20"/>nisi audiat eum, et signa pcenitentie
+<lb ed="#Be" n="21"/>prius videat: ergo cum hoc non fiat in
+<lb ed="#Be" n="22"/>confessione, ille tenetur ei confiteri si
+<lb ed="#Be" n="23"/>pracipiat.
+</p>
+            <p xml:id="alalal-h57267-d1e217">
+               <lb ed="#Be" n="24"/>4. Adhuc, Videtur quod periculum
+<lb ed="#Be" n="25"/>oriretur si non teneretur: quia multi
+<lb ed="#Be" n="26"/>pretextu latendi possent dicere se esse
+<lb ed="#Be" n="27"/>confessos, et inconfessi permanentes 
+com<lb break="no" ed="#Be" n="28"/>municare : et tunc sacerdos proprius eos
+<lb ed="#Be" n="29"/>arcere non posset: ergo videtur, cum
+<lb ed="#Be" n="30"/>illud quod pro charitate instituitur, non
+<lb ed="#Be" n="31"/>debeat militare contra charitatem, ut 
+di<lb break="no" ed="#Be" n="32"/>cit Bernardus : et pro charitate 
+inducun<lb break="no" ed="#Be" n="33"/>tur adjutores, quod propter hos non 
+ab<lb break="no" ed="#Be" n="34"/>solvitur homo quin oporteat eum 
+confi<lb break="no" ed="#Be" n="35"/>teri proprio sacerdoti si ipse preceperit.
+</p>
+            <p xml:id="alalal-h57267-d1e246">
+               <lb ed="#Be" n="36"/>5. Adhuc, In ordinibus Angelorum 
+li<lb break="no" ed="#Be" n="37"/>cet unus Angelus ab alio alterius ordinis
+<lb ed="#Be" n="38"/>quandogue illuminetur, ut patet per
+<lb ed="#Be" n="39"/>beati Dionysii expositionem Isaiz, vi, 6,
+<lb ed="#Be" n="40"/>ubi dicitur: Volavit ad me unus de 
+Se<lb break="no" ed="#Be" n="41"/>raphim: ubi dicit sanctus Pater, id est,
+<lb ed="#Be" n="42"/>alius quidam de inferioribus vice 
+Sera<lb break="no" ed="#Be" n="43"/>phim, eta Seraphim illuminatus. Licet,
+<lb ed="#Be" n="44"/>inquam, ita sit, non tamen excipitur ab
+<lb ed="#Be" n="45"/>illuminatione proprii superioris, sed 
+ad<lb break="no" ed="#Be" n="46"/>hue, sicut prius, recipit illuminationes
+<lb ed="#Be" n="47"/>etiam ab illo : ergo cum militans Ecclesia
+<lb ed="#Be" n="48"/>descendat a triumphante, videtur quod
+<lb ed="#Be" n="49"/>licet unus homo confiteaturalteri, et ab-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="50"/>solvatur ab alio coadjutore proprii 
+sacer<lb break="no" ed="#Be" n="51"/>dotis, non tamen propter hoc absolvitur
+<lb ed="#Be" n="52"/>a suo proprio sacerdote, quin teneatur
+<lb ed="#Be" n="53"/>confiteri illi si voluerit.
+</p>
+            <p xml:id="alalal-h57267-d1e290">
+               <lb ed="#Be" n="54"/>In conrRARIUM autem hujus objicitur :
+<lb ed="#Be" n="55"/>1. Ponamus enim, quod nesciat 
+pro<lb break="no" ed="#Be" n="56"/>prius sacerdos discernere inter lepram et
+<lb ed="#Be" n="57"/>non lepram: cum igitur Dominus dicat,
+<lb ed="#Be" n="58"/>Luc. v1, 39: <quote xml:id="alalal-h57267-Qd1e303">Numquid potest cecus 
+ce<lb break="no" ed="#Be" n="59"/>cum ducere? Nonne ambo in foveam 
+ca<lb break="no" ed="#Be" n="60"/>dunt ?</quote> videtur, quod ille non tenetur ei
+<lb ed="#Be" n="61"/>confiteri etiamsi preecipiat.
+</p>
+            <p xml:id="alalal-h57267-d1e313">
+               <lb ed="#Be" n="62"/>Si forte tu dicas, quod debet licentiam
+<lb ed="#Be" n="63"/>petere et obtinere. Contra : Ponamus,
+<lb ed="#Be" n="64"/>quod petat et obtinere non possit,
+<lb ed="#Be" n="65"/>sicut multoties contingit: aut tunc 
+obe<lb break="no" ed="#Be" n="66"/>diet proprio sacerdoti, aut non: si 
+obe<lb break="no" ed="#Be" n="67"/>diet, in precipitio erit et periculo, quia
+<lb ed="#Be" n="68"/>czcus est: si non obediet, habetur 
+pro<lb break="no" ed="#Be" n="69"/>positum. ,
+</p>
+            <p xml:id="alalal-h57267-d1e334">
+               <lb ed="#Be" n="70"/>Si forte tu dicas, quod licentiam potest
+<lb ed="#Be" n="71"/>petere a superiori, potest esse quod
+<lb ed="#Be" n="72"/>longe habitet, et non possit accedere ad
+<lb ed="#Be" n="73"/>eum vel propter vie dispendium, vel 
+pe<lb break="no" ed="#Be" n="74"/>riculum: potest etiam esse, quod non
+<lb ed="#Be" n="75"/>vult dare licentiam, nec semper homo in
+<lb ed="#Be" n="76"/>tali casu potest adire curiam : ergo 
+vide<lb break="no" ed="#Be" n="77"/>tur, quod non semper sacerdoti proprio
+<lb ed="#Be" n="78"/>in confessione facienda semper tenetur
+<lb ed="#Be" n="79"/>obedire.
+</p>
+            <p xml:id="alalal-h57267-d1e358">
+               <lb ed="#Be" n="80"/>2. Adhuc, Ponatur, quod sacerdos
+<lb ed="#Be" n="81"/>proprius sit malitiosus, sicut multi sunt,
+<lb ed="#Be" n="82"/>et nitatur in confessione tentare de 
+con<lb break="no" ed="#Be" n="83"/>sensu peccati, sicut sacerdotes plerique
+<lb ed="#Be" n="84"/>faciunt, feeminis comminantes 
+proditio<lb break="no" ed="#Be" n="85"/>nem confessionis, nisi eis consentiant, et
+<lb ed="#Be" n="86"/>intendentes tangere impudice in secreto
+<lb ed="#Be" n="87"/>confessionis, etiam superiores, scilicet
+<lb ed="#Be" n="88"/>Archiepiscopi et Episcopi, faciant 
+simili<lb break="no" ed="#Be" n="89"/>ter, sicut certissime scio, quod in 
+pluri<lb break="no" ed="#Be" n="90"/>bus locis multi faciunt: videtur, quod in
+<lb ed="#Be" n="91"/>talibus licentiam petere est periculosum,
+<lb ed="#Be" n="92"/>quia negabunt, et tunc magis peccant:
+<lb ed="#Be" n="93"/>ergo videtur, quod in tali casu etiam
+<lb ed="#Be" n="94"/>prelato proprio non debet obedire de
+<lb ed="#Be" n="95"/>confessione facienda.
+</p>
+            <p xml:id="alalal-h57267-d1e395">
+               <lb ed="#Be" n="96"/>3. Adhuc, Ponamus, quod sacerdos sit .
+<lb ed="#Be" n="97"/>hereticus occultus, et in confessione 
+ni<lb break="no" ed="#Be" n="98"/>tatur pertrahere ad heresim :.ergo cum
+<pb ed="#Be" n="730"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>hoc maxime vitandum sit, videtur quod
+<lb ed="#Be" n="2"/>in tali casu etiam ex contemptu proprii
+<lb ed="#Be" n="3"/>sacerdotis, potest confiteri alii, et non 
+te<lb break="no" ed="#Be" n="4"/>netur proprio.
+</p>
+            <p xml:id="alalal-h57267-d1e417">
+               <lb ed="#Be" n="5"/>4. Adhuc, Ponamus, quod aliquis qui
+<lb ed="#Be" n="6"/>est parochianus unius, peccet in parochia
+<lb ed="#Be" n="7"/>alterius: constat, quod sacerdos judex
+<lb ed="#Be" n="8"/>quidem est spiritualis : sed ratione delicti
+<lb ed="#Be" n="9"/>efficitur de jurisdictione alterius judicis,
+<lb ed="#Be" n="10"/>qui alias de jurisdictione sua non esset:
+<lb ed="#Be" n="11"/>ergo et iste efficitur in tali casu de 
+juris<lb break="no" ed="#Be" n="12"/>dictione alterius sacerdotis : ille autem
+<lb ed="#Be" n="13"/>quiest de jurisdictione et deliquit, judici
+<lb ed="#Be" n="14"/>ad emendam tenetur : ergo et iste. 
+Emen<lb break="no" ed="#Be" n="15"/>da autem est per confessionem et 
+injun<lb break="no" ed="#Be" n="16"/>ctam poenitentiam : ergo videtur, quod
+<lb ed="#Be" n="17"/>teneatur illi confiteri etiam reclamante
+<lb ed="#Be" n="18"/>proprio sacerdote. :
+</p>
+            <p xml:id="alalal-h57267-d1e450">
+               <lb ed="#Be" n="19"/>3. Adhuc, Ponamus, quod ipse 
+muta<lb break="no" ed="#Be" n="20"/>verit domicilium et in alterius parochia
+<lb ed="#Be" n="21"/>habitet : videtur, quod tunc non teneatur
+<lb ed="#Be" n="22"/>proprio sacerdoti confiteri : quia percipit
+<lb ed="#Be" n="23"/>sacramenta in Ecclesia illius in cujus 
+pa<lb break="no" ed="#Be" n="24"/>rochia habitat : sed ille nosse eum 
+tene<lb break="no" ed="#Be" n="25"/>tur per confessionem: ergo tenetur illi
+<lb ed="#Be" n="26"/>confiteri, et non proprio sacerdoti, ut 
+vi<lb break="no" ed="#Be" n="27"/>detur. .
+</p>
+            <p xml:id="alalal-h57267-d1e472">
+               <lb ed="#Be" n="28"/>6. Adhuc, Ponamus, quod sit 
+vagabun<lb break="no" ed="#Be" n="29"/>dus per terras: ille enim per magnam
+<lb ed="#Be" n="30"/>loci distantiam removetur a proprio 
+sa<lb break="no" ed="#Be" n="31"/>cerdote in cujus parochia est natus: cum_
+<lb ed="#Be" n="32"/>igitur nulli debeat generari difficultas 
+sa<lb break="no" ed="#Be" n="33"/>lutis in sacramentis necessitatis, videtur
+<lb ed="#Be" n="34"/>quod ille omni sacerdoti possit confiteri,
+<lb ed="#Be" n="35"/>et non teneatur alii quantumcumque 
+con<lb break="no" ed="#Be" n="36"/>trarium precipienti. :
+</p>
+            <p xml:id="alalal-h57267-d1e495">
+               <lb ed="#Be" n="37"/>7. Adhuc, Ponamus, quod sit 
+infir<lb break="no" ed="#Be" n="38"/>mus in articulo necessitatis: cum nulli
+<lb ed="#Be" n="39"/>negetur salus, videtur quod ille sine 
+li<lb break="no" ed="#Be" n="40"/>centia sacerdotis proprii possit proximo
+<lb ed="#Be" n="41"/>confiteri quem invenerit : ergo non 
+tene<lb break="no" ed="#Be" n="42"/>tur proprio confiteri, ut videtur.
+</p>
+            <p xml:id="alalal-h57267-d1e511">
+               <lb ed="#Be" n="43"/>8. Generalius autem objicitur de eo
+<lb ed="#Be" n="44"/>sic: Sacramentum baptismi si datur’ ab
+<lb ed="#Be" n="45"/>alio quam a proprio sacerdote, etiam
+<lb ed="#Be" n="46"/>contra obedientiam sacerdotis proprii, in
+<lb ed="#Be" n="47"/>redeunte ad sui sacerdotis obedientiam
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="48"/>non reiteratur: ergo videtur, quod neg
+<lb ed="#Be" n="49"/>poenitentia debet iterari.
+</p>
+            <p xml:id="alalal-h57267-d1e531">
+               <lb ed="#Be" n="50"/>9. Item, Infra dicitur quod nullum
+<lb ed="#Be" n="51"/>sacramentum iteratur supereamdem 
+ma<lb break="no" ed="#Be" n="52"/>teriam: ergo de eodem peccato non de.
+<lb ed="#Be" n="53"/>bet fieri bis confessio: est autem seme]
+<lb ed="#Be" n="54"/>facta coadjutori vel alteri de licentia 
+pro<lb break="no" ed="#Be" n="55"/>prii: ergo non debet iterari: ergo si sibj
+<lb ed="#Be" n="56"/>precipiat confiteri proprius, videtur quod
+<lb ed="#Be" n="57"/>confessus obedire non tenetur nisi 
+volue<lb break="no" ed="#Be" n="58"/>rit.
+</p>
+            <p xml:id="alalal-h57267-d1e553">
+               <lb ed="#Be" n="59"/>10. Item, Confessio, ut supra habitum |
+<lb ed="#Be" n="60"/>est ex verbis Augustini, maxima pcoena
+<lb ed="#Be" n="61"/>est propter verecundiam quam habet 
+ad<lb break="no" ed="#Be" n="62"/>junctam : sed, sicut dicitur, Nahum,1, 9:
+<lb ed="#Be" n="63"/>
+               <quote xml:id="alalal-h57267-Qd1e566">Non consurget duplex tribulatio</quote> : ergo
+<lb ed="#Be" n="64"/>videtur, quod de eodem peccato etiamsi
+<lb ed="#Be" n="65"/>sacerdos proprius precipiat, non oportet
+<lb ed="#Be" n="66"/>bis confessionem facere.
+</p>
+            <p xml:id="alalal-h57267-d1e575">
+               <lb ed="#Be" n="67"/>11. Adhuc, Si Episcopus dat licentiam 
+<lb ed="#Be" n="68"/>clerico ut ab altero ordinetur: et ille 
+or<lb break="no" ed="#Be" n="69"/>dinatus redeat ad ipsum, non potest ei
+<lb ed="#Be" n="70"/>precipere ut etiam a se recipiat ordinem :
+<lb ed="#Be" n="71"/>ergo a simili,si sacerdos det licentiam
+<lb ed="#Be" n="72"/>confitendi alteri, cum redierit,non potest
+<lb ed="#Be" n="73"/>ab eo exigere ut etiam sibi 
+confitea<lb break="no" ed="#Be" n="74"/>tur.
+</p>
+            <p xml:id="alalal-h57267-d1e595">
+               <lb ed="#Be" n="75"/>Adhuc,Dando licentiam utitur potestate
+<lb ed="#Be" n="76"/>quam habet semel in anno: ergo cum
+<lb ed="#Be" n="77"/>sua non teneatur confiteri nisi semel in
+<lb ed="#Be" n="78"/>anno, et sacerdos suus jam usus sit sua
+<lb ed="#Be" n="79"/>potestate quam habuit in eo, videtur
+<lb ed="#Be" n="80"/>quod non potest eum cogere ut 
+confitea<lb break="no" ed="#Be" n="81"/>tur iterum.
+</p>
+            <p xml:id="alalal-h57267-d1e614">
+               <lb ed="#Be" n="82"/>Ulterius queritur de  superioribus
+<lb ed="#Be" n="83"/>prelatis, ut sacerdotibus, Archidiaconis,
+<lb ed="#Be" n="84"/>Episcopis, et hujusmodi, qui sint eorum
+<lb ed="#Be" n="85"/>proprii sacerdotes ?
+</p>
+            <p xml:id="alalal-h57267-d1e625">
+               <lb ed="#Be" n="86"/>Videtur, quod nulli : quia
+<lb ed="#Be" n="87"/>1. In nulla natura motus est motus,.
+<lb ed="#Be" n="88"/>vel quietis quies : ergo nec sacerdotis sa-.
+<lb ed="#Be" n="89"/>cerdos: ergo nulli tenentur confiteri.
+<lb ed="#Be" n="90"/>Item, Alius est gradus superioris et 
+in<lb break="no" ed="#Be" n="91"/>ferioris, et non sunt permiscendi : ergo
+<lb ed="#Be" n="92"/>natura in spiritualibus superior, non 
+de<lb break="no" ed="#Be" n="93"/>scendit sub inferiori: igitur per hoc ad.
+<pb ed="#Be" n="731"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>minus Papa non habebit aliquem 
+confes<lb break="no" ed="#Be" n="2"/>sorem, quod falsum est. ,
+</p>
+            <p xml:id="alalal-h57267-d1e654">
+               <lb ed="#Be" n="3"/>2. Adhuc, Superiores Angeli numquam
+<lb ed="#Be" n="4"/>descendunt propter acceptionem 
+sanctita<lb break="no" ed="#Be" n="5"/>tis sub inferiores: cum “igitur Ecclesia
+<lb ed="#Be" n="6"/>militans descendat a triumphante, nec in
+<lb ed="#Be" n="7"/>militanti hoc debet fieri, ut videtur.
+</p>
+            <p xml:id="alalal-h57267-d1e667">
+               <lb ed="#Be" n="8"/>Responsio. Dicendum sine prejudicio
+<lb ed="#Be" n="9"/>videtur, quod si aliquis de licentia 
+sa<lb break="no" ed="#Be" n="10"/>cerdotis confitetur alicui, quod illo anno
+<lb ed="#Be" n="11"/>nisi periculum infirmitatis incurrat, et
+<lb ed="#Be" n="12"/>aliquid novum confiteri habeat, sacerdoti
+<lb ed="#Be" n="13"/>suo non teneatur confiteri: si autem 
+con<lb break="no" ed="#Be" n="14"/>fiteatur alii coadjutori ordinato ipsi 
+sa<lb break="no" ed="#Be" n="15"/>cerdoti a superiori, et non delicentia 
+sa<lb break="no" ed="#Be" n="16"/>cerdotis, quod ipse tenetur etiam proprio
+<lb ed="#Be" n="17"/>sacerdoti confiteri : nec ille debet ei 
+im<lb break="no" ed="#Be" n="18"/>ponere poenitentiam nisi indicando ei,
+<lb ed="#Be" n="19"/>quod quam citius poterit, se proprio 
+ex<lb break="no" ed="#Be" n="20"/>hibeat sacerdoti, nisi in casibus exceptis
+<lb ed="#Be" n="21"/>qui sunt quinque, ut infra dicetur.
+</p>
+            <p xml:id="alalal-h57267-d1e700">
+               <lb ed="#Be" n="22"/>Ad primum ergo dicendum, quod licet
+<lb ed="#Be" n="23"/>non eximat eum a sua potestate per hoc
+<lb ed="#Be" n="24"/>quod licentiam dat, tamen licentiam 
+dan<lb break="no" ed="#Be" n="25"/>do privatus est sua jurisdictione quoad
+<lb ed="#Be" n="26"/>illum annum. Secus autem esset si alius
+<lb ed="#Be" n="27"/>daret licentiam, scilicet prelatus 
+sacer<lb break="no" ed="#Be" n="28"/>dotis : quia ille nec intenderet impedire
+<lb ed="#Be" n="29"/>jurisdictionem sacerdotis, nec etiam 
+exi<lb break="no" ed="#Be" n="30"/>mere subditum sacerdoti a potestate
+<lb ed="#Be" n="31"/>sua.
+</p>
+            <p xml:id="alalal-h57267-d1e724">
+               <lb ed="#Be" n="32"/>Et per hoc patet solutio ad sequens.
+</p>
+            <p xml:id="alalal-h57267-d1e730">
+               <lb ed="#Be" n="33"/>Ad aliud dicendum, quod sacerdos 
+pro<lb break="no" ed="#Be" n="34"/>prius ministrat sacramenta, et in tali casu
+<lb ed="#Be" n="35"/>quando ipse dat licentiam rationabili de
+<lb ed="#Be" n="36"/>causa, ipse cognoscit pecoris sui vultum
+<lb ed="#Be" n="37"/>per alium fide dignum, et hoc sufficit ad
+<lb ed="#Be" n="38"/>hoc quod ministret ei sacramenta.
+</p>
+            <p xml:id="alalal-h57267-d1e746">
+               <lb ed="#Be" n="39"/>Ad aliud dicendum, quod nullum 
+pe<lb break="no" ed="#Be" n="40"/>riculum oritur ex hoc quod ipsemet dat
+<lb ed="#Be" n="41"/>licentiam, quia scit quibus dat, et ad
+<lb ed="#Be" n="42"/>quos: sed si sufficeret alterius quam 
+pro<lb break="no" ed="#Be" n="43"/>prii sacerdotis licentia, tune posset oriri
+<lb ed="#Be" n="44"/>periculum.,
+</p>
+            <p xml:id="alalal-h57267-d1e762">
+               <lb ed="#Be" n="45"/>Ad aliud dicendum, quod in veritate
+<lb ed="#Be" n="46"/>Angelus inferior non illuminatur nisi a
+<lb ed="#Be" n="47"/>superiori proximo vel remoto: et ita
+<lb ed="#Be" n="48"/>etiam fieri potest in Ecclesia: quia quod
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="49"/>potest sacerdos, potest etiam Episcopus,
+<lb ed="#Be" n="50"/>et multo amplius, et sic de aliis 
+ascen<lb break="no" ed="#Be" n="51"/>dendo. Nec propter hoc excipitur ab 
+obe<lb break="no" ed="#Be" n="52"/>dientia proximi prelati : sed si sacerdos
+<lb ed="#Be" n="53"/>daret licentiam, non subderetur ei illo
+<lb ed="#Be" n="54"/>anno quoad hoc preceptum : sicut etiam
+<lb ed="#Be" n="55"/>postquam semel confessus est sacerdoti,
+<lb ed="#Be" n="56"/>non tenetur iterum confiteri, nec propter
+<lb ed="#Be" n="57"/>hoc eximitur ab obedientia ipsius.
+</p>
+            <p xml:id="alalal-h57267-d1e795">
+               <lb ed="#Be" n="58"/>Et sic patet solutio prime partis 
+ob<lb break="no" ed="#Be" n="59"/>jectionum.
+</p>
+            <p xml:id="alalal-h57267-d1e802">
+               <lb ed="#Be" n="60"/>Hec autem quae dicta sunt, intelligenda
+<lb ed="#Be" n="61"/>sunt de eo tantum qui habet auctoritatem
+<lb ed="#Be" n="62"/>imponendi poenitentias a superiori 
+Epi<lb break="no" ed="#Be" n="63"/>scopo, scilicet vel Legato,vel Papa : quia
+<lb ed="#Be" n="64"/>ad alium eundi non potest dare sacerdos
+<lb ed="#Be" n="65"/>proprius licentiam. Et causa hujus est,
+<lb ed="#Be" n="66"/>quia licet sacerdos posset subditum 
+re<lb break="no" ed="#Be" n="67"/>laxare ut alii confiteatur,non tamen 
+pot<lb break="no" ed="#Be" n="68"/>est transferre jurisdictionem in eum qui
+<lb ed="#Be" n="69"/>habet alas ligatas, sed superior tantum:
+<lb ed="#Be" n="70"/>et ideo licet subditus in tali casu posset
+<lb ed="#Be" n="71"/>alii confiteri, non tamen quilibet alius
+<lb ed="#Be" n="72"/>potest eum audire.
+</p>
+            <p xml:id="alalal-h57267-d1e833">
+               <lb ed="#Be" n="73"/>Ad Ea autem quae objiciuntur in 
+op<lb break="no" ed="#Be" n="74"/>positum, salva meliori sententia, videtur
+<lb ed="#Be" n="75"/>mihi dicendum, quod in quinque 
+casi<lb break="no" ed="#Be" n="76"/>bus, secundum quod Jurisperiti dicunt, 
+<lb ed="#Be" n="77"/>debet querere licentiam alii confitendi
+<lb ed="#Be" n="78"/>quam proprio sacerdoti, scilicet primo,
+<lb ed="#Be" n="79"/>si sacerdos sit deficiens in scientia, vel .
+<lb ed="#Be" n="80"/>etiam malitia impediente confessionem,
+<lb ed="#Be" n="81"/>sicut si sollicitet ad peccatum. Secundo,
+<lb ed="#Be" n="82"/>si peccet in parochia alterius. Tertio, si
+<lb ed="#Be" n="83"/>habitet in parochia alterius. Quarto, si
+<lb ed="#Be" n="84"/>vagatur per longum iter. Quinto, in 
+ar<lb break="no" ed="#Be" n="85"/>ticulo necessitatis. Et in hoc ultimo casu
+<lb ed="#Be" n="86"/>unicuique habenti alas ligatas sive 
+solu<lb break="no" ed="#Be" n="87"/>tas, sive clerico. sive laico confitendum
+<lb ed="#Be" n="88"/>est, dummodo sit fidelis.
+</p>
+            <p xml:id="alalal-h57267-d1e871">
+               <lb ed="#Be" n="89"/>Ad oBjecTuM ergo primum dicendum,
+<lb ed="#Be" n="90"/>quod in tali casu de licentia potest alium
+<lb ed="#Be" n="91"/>querere.
+</p>
+            <p xml:id="alalal-h57267-d1e880">
+               <lb ed="#Be" n="92"/>Ad objectum contra, dicendum quod
+<lb ed="#Be" n="93"/>credi debet obtenta licentia: quia 
+ratio<lb break="no" ed="#Be" n="94"/>nabiliter est obtenta, scilicet quando 
+sa<lb break="no" ed="#Be" n="95"/>cerdos vel prelatus ejus audit et probat
+<lb ed="#Be" n="96"/>causas rationabilies, vel dicitur 
+pro<lb break="no" ed="#Be" n="97"/>basse : tunc enim etiamsi negetur licen~
+<pb ed="#Be" n="732"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>tia, meo judicio, potest et.debet queri
+<lb ed="#Be" n="2"/>alter: quia alias fatuitas judicatur : quia
+<lb ed="#Be" n="3"/>ordinationibus Ecclesie omnibus 
+contra<lb break="no" ed="#Be" n="4"/>dicentibus, possum cavere periculum in
+<lb ed="#Be" n="5"/>corpore, et fatuum esset dicere, quod 
+ali<lb break="no" ed="#Be" n="6"/>quo casu tenerer sequi me volentem
+<lb ed="#Be" n="7"/>precipitare in mente.
+</p>
+            <p xml:id="alalal-h57267-d1e915">
+               <lb ed="#Be" n="8"/>Ad aliud dicendum quod etiam in illo
+<lb ed="#Be" n="9"/>casu quando tentat, debet significari suo
+<lb ed="#Be" n="10"/>superiori, et probabile est, quod 
+com<lb break="no" ed="#Be" n="11"/>pescat eum: si autem non facit, sicut,
+<lb ed="#Be" n="12"/>heu! frequenter fit, tunc debet occulte
+<lb ed="#Be" n="13"/>alii discreto confiteri, ne scandalum 
+ge<lb break="no" ed="#Be" n="14"/>neretur : et hoc dico sine prejudicio 
+sen<lb break="no" ed="#Be" n="15"/>tentiae melioris.
+</p>
+            <p xml:id="alalal-h57267-d1e935">
+               <lb ed="#Be" n="16"/>Ad Hoc quod objicitur de heretico,
+<lb ed="#Be" n="17"/>dicendum videtur, quod nec etiam in 
+ar<lb break="no" ed="#Be" n="18"/>ticulo necessitatis tali confitendum est :
+<lb ed="#Be" n="19"/>sed potius cum dolore sine confessione
+<lb ed="#Be" n="20"/>moriendum, si alius cui confessio fiat,
+<lb ed="#Be" n="21"/>non inveniatur.
+</p>
+            <p xml:id="alalal-h57267-d1e951">
+               <lb ed="#Be" n="22"/>In sequentibus autem quatuor casibus
+<lb ed="#Be" n="23"/>in quatuor objectis, patet solutio per 
+an<lb break="no" ed="#Be" n="24"/>tedicta. :
+</p>
+            <p xml:id="alalal-h57267-d1e960">
+               <lb ed="#Be" n="25"/>Ad Hoc autem quod objicitur 
+genera<lb break="no" ed="#Be" n="26"/>liter, dicendum quod non est simile de
+<lb ed="#Be" n="27"/>baptismo et poenitentia, quia baptismus
+<lb ed="#Be" n="28"/>iterari non potest: et hujus causa 
+supe<lb break="no" ed="#Be" n="29"/>rius sepe notata est. Sed poenitentia 
+tan<lb break="no" ed="#Be" n="30"/>to melior, quanto sepius iteratur in
+<lb ed="#Be" n="31"/>contritione, confessione, et 
+satisfactio<lb break="no" ed="#Be" n="32"/>ne.
+</p>
+            <p xml:id="alalal-h57267-d1e981">
+               <lb ed="#Be" n="33"/>Ad aliud dicendum, quod poenitentia
+<lb ed="#Be" n="34"/>et confessio, secundum quod subsunt
+<lb ed="#Be" n="35"/>clavibus jurisdictionis, sunt consequentes
+<lb ed="#Be" n="36"/>ordinem: et ideo quando fiunt coram
+<lb ed="#Be" n="37"/>non habente jurisdictionem, 
+interpretan<lb break="no" ed="#Be" n="38"/>tur non esse facta: et ideo non bis fit
+<lb ed="#Be" n="39"/>quando iteratur, quia prior non fuit 
+con<lb break="no" ed="#Be" n="40"/>fessio sacramentalis.
+</p>
+            <p xml:id="alalal-h57267-d1e1001">
+               <lb ed="#Be" n="41"/>Ad aliud dicendum, quod illud quod
+<lb ed="#Be" n="42"/>dicitur, Nahum, 1, 9, non intelligitur sic,
+<lb ed="#Be" n="43"/>quod nulla poenitentia duplex fiat pro 
+eo<lb break="no" ed="#Be" n="44"/>dem peccato, cum scriptum sit, Isa. xu,
+<lb ed="#Be" n="45"/>2: <quote xml:id="alalal-h57267-Qd1e1014">Suscepit de manu Domini duplicia
+<lb ed="#Be" n="46"/>pro omnibus peccatis suis</quote> : sed hoc modo
+<lb ed="#Be" n="47"/>intelligitur, si debitam sustinet poenam,
+<lb ed="#Be" n="48"/>quod illam iterare non oportet. Dictum
+<lb ed="#Be" n="49"/>est autem, quod non credimus debitam,
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="50"/>nisi fiat coram sacerdote proprio, nisi
+<lb ed="#Be" n="51"/>in casibus supra assignatis.
+</p>
+            <p xml:id="alalal-h57267-d1e1033">
+               <lb ed="#Be" n="52"/>Ad aliud dicendum, quod non est gj.
+<lb ed="#Be" n="53"/>mile: quia ordo datur bene extra Eccle~
+<lb ed="#Be" n="54"/>siam, tamen in forma Ecclesia, sicut et
+<lb ed="#Be" n="55"/>baptismus : sed non sic est de confessione
+<lb ed="#Be" n="56"/>in qua non imprimitur character, et est
+<lb ed="#Be" n="57"/>ibi actus hominis poenitentis : et ideo non -
+<lb ed="#Be" n="58"/>valet nisi coram ministro proprio, vel
+<lb ed="#Be" n="59"/>eo qui licentia superioris et consensu 
+sa<lb break="no" ed="#Be" n="60"/>cerdotis habet vicem proprii, ut dictum
+<lb ed="#Be" n="61"/>est.
+</p>
+            <p xml:id="alalal-h57267-d1e1057">
+               <lb ed="#Be" n="62"/>Ad 1p quod ulterius queritur, videtur
+<lb ed="#Be" n="63"/>dicendum cum quibusdam Jurisperitis,
+<lb ed="#Be" n="64"/>quod potest sacerdos et Episcopus, et
+<lb ed="#Be" n="65"/>precipue Episcopus, eligere sibi confes-:-
+<lb ed="#Be" n="66"/>sorem quem vult juxta se: quia propter
+<lb ed="#Be" n="67"/>periculum salutis non est sibi hoc 
+ne<lb break="no" ed="#Be" n="68"/>gandum, cum sit difficile pro confessore
+<lb ed="#Be" n="69"/>quo semper ad manum indigent Prelati
+<lb ed="#Be" n="70"/>propter sacramenta quae non nisi mundi
+<lb ed="#Be" n="71"/>tractare possunt, longe discurrere.
+</p>
+            <p xml:id="alalal-h57267-d1e1081">
+               <lb ed="#Be" n="72"/>Ad objectum contra, dicendum quod
+<lb ed="#Be" n="73"/>sicut dicit Philosophus, quod medicus
+<lb ed="#Be" n="74"/>sanat seipsum, non in quantum medicus,
+<lb ed="#Be" n="75"/>sed in quantum laborans: ita etiam 
+sacer<lb break="no" ed="#Be" n="76"/>dotem contingit esse sacerdotis, scilicet
+<lb ed="#Be" n="77"/>in quantum sacerdos est vice subditi in
+<lb ed="#Be" n="78"/>infirmitate peccati, et non in quantum
+<lb ed="#Be" n="79"/>sacerdos existens de gradu altiori. Quod.
+<lb ed="#Be" n="80"/>autem dicit Philosophus, non esse 
+mo<lb break="no" ed="#Be" n="81"/>tum motus, dicendum quod sic 
+intelligi<lb break="no" ed="#Be" n="82"/>tur, quod non est motus ad motum ut
+<lb ed="#Be" n="83"/>generatio ad generationem, etc.: et sic
+<lb ed="#Be" n="84"/>sacerdos non est sacerdotis, sed infirmi
+<lb ed="#Be" n="85"/>peccatoris, cui accidit esse sacerdotem.
+</p>
+            <p xml:id="alalal-h57267-d1e1114">
+               <lb ed="#Be" n="86"/>Ad aliud dicendum, quod hoc 
+negave<lb break="no" ed="#Be" n="87"/>runt quidam antiqui dicentes, superiores
+<lb ed="#Be" n="88"/>ab inferioribus quasdam percipere 
+illumi<lb break="no" ed="#Be" n="89"/>nationes,propter illud Apostoli ad Ephes.
+<lb ed="#Be" n="90"/>ut, 10: Ut innotescat principibus et 
+po<lb break="no" ed="#Be" n="91"/>testatibus in ceelestibus per Ecclesiam,
+<lb ed="#Be" n="92"/>etc. Et de hoc super secundum 
+Sententia<lb break="no" ed="#Be" n="93"/>rum est disputatum. Tamen ego puto,
+<lb ed="#Be" n="94"/>quod verum est sicut dicit objectio. Unde
+<lb ed="#Be" n="95"/>dicendum, quod in superioribus 
+homini<lb break="no" ed="#Be" n="96"/>bus invenitur peccati infirmitas, ratione.
+<lb ed="#Be" n="97"/>cujus indigent quandoque auxilio infe-
+<pb ed="#Be" n="733"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>riorum :.sed non sicest in Angelo: et hoc
+<lb ed="#Be" n="2"/>est quod dicit Apostolus, ad Hebr. v, 2 et
+  <lb ed="#Be" n="3"/>3: <quote xml:id="alalal-h57267-Qd1e1153"
+                      source="http://scta.info/resource/hebr5_2@9-14 http://scta.info/resource/hebr5_3">Quoniam et ipse circumdatus est 
+in<lb break="no" ed="#Be" n="4"/>firmitate, et propterea debet, 
+gquemad<lb break="no" ed="#Be" n="5"/>modum pro populo, ita etiam et pro 
+se<lb break="no" ed="#Be" n="6"/>metipso offerre pro peccatis</quote>. Et loquitur
+<lb ed="#Be" n="7"/>de infirmitate peccati.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

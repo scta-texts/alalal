@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="376"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a74902"><!-- l1d13a4 -->
+            <head xml:id="alalal-a74902-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-a74902-Hd1e101" type="question-title">Utrum Spiritus sanctus a Patre non
+quomodoe natus, sed quomodo datus,
+vel donum : et utrum Filius procedit
+ut donum ?</head>
+            <p xml:id="alalal-a74902-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="35"/>ARTICULUS IV.
+<lb ed="#Ba" n="36"/>Utrum Spiritus sanctus a Patre non
+<lb ed="#Ba" n="37"/>quomodoe natus, sed quomodo datus,
+<lb ed="#Ba" n="38"/>vel donum : et utrum Filius procedit
+<lb ed="#Ba" n="39"/>ut donum ?
+</p>
+            <p xml:id="alalal-a74902-d1e120">
+               <lb ed="#Ba" n="40"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="41"/>
+               <quote xml:id="alalal-a74902-Qd1e126"> Procedit a Patre non quomodo natus,
+<lb ed="#Ba" n="42"/>sed quomodo datus vel donum, etc. </quote>
+            </p>
+            <p xml:id="alalal-a74902-d1e132">
+               <lb ed="#Ba" n="43"/>Hoc enim non videtur verum.
+<lb ed="#Ba" n="44"/>1. Ratio enim dati et doni non videtur
+<lb ed="#Ba" n="45"/>esse ut immediatum processioni vel 
+pro<lb break="no" ed="#Ba" n="46"/>cedenti: sed potius videtur esse 
+conse<lb break="no" ed="#Ba" n="47"/>quens secundum intellectum eum qui
+<lb ed="#Ba" n="48"/>procedit : unaqueque enim res prius est
+<lb ed="#Ba" n="49"/>in se, quam in comparatione ad alterum :
+<lb ed="#Ba" n="50"/>ergo procedensSpiritus sanctus prius est
+<lb ed="#Ba" n="51"/>Spiritus in se, quam sit comparatus ad
+<lb ed="#Ba" n="52"/>alterum : datum autem et donum dicunt
+<lb ed="#Ba" n="53"/>comparationem ad dantem et ad eum cui
+<lb ed="#Ba" n="54"/>datur : ergo videtur, quod ista 
+conse<lb break="no" ed="#Ba" n="55"/>quantur procedentem, et sic mihil dicit
+<lb ed="#Ba" n="56"/>Augustinus:
+</p>
+            <p xml:id="alalal-a74902-d1e166">
+               <lb ed="#Ba" n="57"/>2. Item, Datum et donum est Spiritus
+<lb ed="#Ba" n="58"/>sanctus ex tempore : temporale autem
+<lb ed="#Ba" n="59"/>non est ratio aeterni : ergo cum processio
+<lb ed="#Ba" n="60"/>eterna sit qua procedit Spiritus sanctus,
+<lb ed="#Ba" n="61"/>non videtur procedere ut datum vel 
+do<lb break="no" ed="#Ba" n="62"/>num.
+</p>
+            <p xml:id="alalal-a74902-d1e182">
+               <lb ed="#Ba" n="63"/>Solutio. Dicendum, quod procedit ut
+<lb ed="#Ba" n="64"/>donum : probatum est enim, quod 
+proce<lb break="no" ed="#Ba" n="65"/>dit ut amor gratuitus : ratio autem 
+amo<lb break="no" ed="#Ba" n="66"/>ris gratuiti in eo quod gratuiti, est ratio
+<lb ed="#Ba" n="67"/>prima doni quod donatur : quia quidquid
+<lb ed="#Ba" n="68"/>datur sibi invicem a diligentibus, amor
+<lb ed="#Ba" n="69"/>gratuitus est prius illo et causa illius : et
+<lb ed="#Ba" n="70"/>ideo dicit Augustinus, quod amor qui est
+<lb ed="#Ba" n="71"/>Spiritus sanctus, est donum in quo 
+om<lb break="no" ed="#Ba" n="72"/>nia dona donantur.
+</p>
+            <p xml:id="alalal-a74902-d1e206">
+               <lb ed="#Ba" n="73"/>Av opsectuM autem dicendum, quod in
+<lb ed="#Ba" n="74"/>ista processione aliud est, quam in illa
+<pb ed="#Ba" n="377"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>que est nature ul natura est : quia quod
+<lb ed="#Ba" n="2"/>ibi primum est, hoc hic est adjunctum
+<lb ed="#Ba" n="3"/>per identitatem : unde per se hic 
+proce<lb break="no" ed="#Ba" n="4"/>dit donum amoris, quod tamen perfecta
+<lb ed="#Ba" n="5"/>est persona propter perfectionem nature
+<lb ed="#Ba" n="6"/>divine et identitatem simplicitatis : et hoc
+<lb ed="#Ba" n="7"/>probatum est supra in prima questione
+<lb ed="#Ba" n="8"/>hujus lectionis.
+</p>
+            <p xml:id="alalal-a74902-d1e235">
+               <lb ed="#Ba" n="9"/>Ap vnicp dicendum, quod donum ab
+<lb ed="#Ba" n="10"/>actu donandi dictum convenit Spiritui ex
+<lb ed="#Ba" n="11"/>tempore, sedal: aptitudine dictum 
+conve<lb break="no" ed="#Ba" n="12"/>nit ci ab aeterno.</p>
+            <p xml:id="alalal-a74902-d1e246">
+               <lb ed="#Ba" n="13"/>Sed apxuc non videtur valere 
+Augu<lb break="no" ed="#Ba" n="14"/>stint distinctio : quia etiam Filius 
+proce<lb break="no" ed="#Ba" n="15"/>dit ut donum. prosario. Isa. 1x, 6 : 
+Par<lb break="no" ed="#Ba" n="16"/>vulus enim natus est nobis, et filius 
+da<lb break="no" ed="#Ba" n="17"/>us est nobis. Nihil autem datum est in
+  <lb ed="#Ba" n="18"/>empore nisi quod ab aeterno donabile</p>
+            <p xml:id="alalal-a74902-d1e262">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="19"/>fuit. Ergo Filius ab aeterno processit ut
+<lb ed="#Ba" n="20"/>donabilis.
+</p>
+            <p xml:id="alalal-a74902-d1e272">
+               <lb ed="#Ba" n="21"/>Sorvtio. Dicendum, quod Filius non
+<lb ed="#Ba" n="22"/>procedit ut donum : eo quod ratio 
+gene<lb break="no" ed="#Ba" n="23"/>rationis non dicit rationem primi doni,
+<lb ed="#Ba" n="24"/>sicut amor gratuitus, sed dicit rationem
+<lb ed="#Ba" n="25"/>primi existentis : et ideo Magister infra
+<lb ed="#Ba" n="26"/>dicit ', quod Filus processit ab aeterno,
+<lb ed="#Ba" n="27"/>non ut donum, sed qui dari posset, eo
+<lb ed="#Ba" n="28"/>quod ab altero est : et ideo dantem se, et
+<cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="29"/> mittentem habere poterat. Et ideo 
+obje<lb break="no" ed="#Ba" n="30"/>ctio tenet de Filio quae primo facta est,
+<lb ed="#Ba" n="31"/>et de Spiritu sancto, quod ratio doni
+<lb ed="#Ba" n="32"/>consequitur esse Filii secundum 
+intelle<lb break="no" ed="#Ba" n="33"/>clum : sed ratio doni est de ipsa ratione
+<lb ed="#Ba" n="34"/>processionis Spiritus sancti, ut amor est,
+<lb ed="#Ba" n="35"/>et ab amantibus procedit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

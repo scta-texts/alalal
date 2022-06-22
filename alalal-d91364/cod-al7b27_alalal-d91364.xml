@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="532"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d91364"><!-- l2d33dt -->
+            <head xml:id="alalal-d91364-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-d91364-d1e101">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="11"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-d91364-d1e108">
+               <lb ed="#Bc" n="12"/>
+               <quote xml:id="alalal-d91364-Qd1e112"> Predictis adjiciendum videtur, etc. </quote>
+               <lb ed="#Bc" n="13"/>In hac ultima parte istius tractatus
+<lb ed="#Bc" n="14"/>quinque determinantur. Primo enim 
+ob<lb break="no" ed="#Bc" n="15"/>jicit sophistice probando, quod omnium
+<lb ed="#Bc" n="16"/>precedentium peccata transfunduntur
+<lb ed="#Bc" n="17"/>in parvulos. Secundo, ostendit id 
+opi<lb break="no" ed="#Bc" n="18"/>nando esse dictum, et quod non nisi 
+so<lb break="no" ed="#Bc" n="19"/>lius Adae peccatum contrahunt parvuli,
+<lb ed="#Bc" n="20"/>ibi, D, <quote xml:id="alalal-d91364-Qd1e131"> Quod vero in actuali peccato,
+<lb ed="#Bc" n="21"/>etc.</quote> In tertio querit, Utrum illud 
+pecca<lb break="no" ed="#Bc" n="22"/>tum gravissimum sit, quod nocuit 
+om<lb break="no" ed="#Bc" n="23"/>nibus ? ibi, F, <quote xml:id="alalal-d91364-Qd1e141"> Hic queri solet, etc. </quote>
+               <lb ed="#Bc" n="24"/>In quarto querit, Utrum remissum fuerit
+<lb ed="#Bc" n="25"/>primis parentibus, vel non ? ibi, H, <quote xml:id="alalal-d91364-Qd1e147"> Si
+<lb ed="#Bc" n="26"/>vero queritur, etc. </quote> In quinto et ultimo
+<lb ed="#Bc" n="27"/>solvit auctoritates primo inductas, quibus
+<lb ed="#Bc" n="28"/>probari videbatur omnium  
+preceden<lb break="no" ed="#Bc" n="29"/>tium peccata contrahi in origine, ibi, I,
+<lb ed="#Bc" n="30"/>
+               <quote xml:id="alalal-d91364-Qd1e161"> Et licet peccatis, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

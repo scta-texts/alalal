@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="507"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e98242"><!-- l3d27dt -->
+            <head xml:id="alalal-e98242-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-e98242-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="11"/>DIVISIO TEXTUS.
+<lb ed="Bd" n="12"/>
+               <quote xml:id="alalal-e98242-Qd1e109"> Cum autem Christus fidem et spein
+<lb ed="Bd" n="13"/>non habuerit, ete. </quote>
+            </p>
+            <p xml:id="alalal-e98242-d1e115">
+               <lb ed="Bd" n="14"/>Hic ultimo ponit Magister tractatum
+<lb ed="Bd" n="15"/>de dilectione : non quod indignior sit
+<lb ed="Bd" n="16"/>allis, sed quia nascitur in actu suo ab
+<lb ed="Bd" n="17"/>actibus allarum : et ideo iste 
+generatio<lb break="no" ed="Bd" n="18"/>ne sunt priores.
+</p>
+            <p xml:id="alalal-e98242-d1e128">
+               <lb ed="Bd" n="19"/>Dividitur autem tractatus iste in 
+par<lb break="no" ed="Bd" n="20"/>tes duas : in quarum prima agit de 
+dile<lb break="no" ed="Bd" n="21"/>lectione hominis, qua diligit Deum et
+<lb ed="Bd" n="22"/>proximum. In secunda, de dilectione
+<lb ed="Bd" n="23"/>De, qua diligit nos : et heec incipit in 
+di<lb break="no" ed="Bd" n="24"/>Stinct. XXXII, ibi, A, <quote xml:id="alalal-e98242-Qd1e143"> Premissis ad-
+<cb ed="#Bd" n="c"/>
+                  <lb ed="Bd" n="25"/>jiciendum est de dilectione Dei, qua ipse
+<lb ed="Bd" n="26"/>diligit, etc. </quote>
+            </p>
+            <p xml:id="alalal-e98242-d1e153">
+               <lb ed="Bd" n="27"/>Prior autem adhuc subdividitur in
+<lb ed="Bd" n="28"/>duas : in quarum prima agit de 
+dilectio<lb break="no" ed="Bd" n="29"/>ne secundum substantialia sibi. In 
+se<lb break="no" ed="Bd" n="30"/>cunda autem agit de dilectione in 
+com<lb break="no" ed="Bd" n="31"/>paratione ad diligentem, ubi quaerit, Si
+<lb ed="Bd" n="32"/>charitas semel habita possit amitli? Et
+<lb ed="Bd" n="33"/>hec incipit in distinct. XXXI, ibi, A,
+<lb ed="Bd" n="34"/>
+               <quote xml:id="alalal-e98242-Qd1e172"> Illud quoque non est praetereundum,
+<lb ed="Bd" n="35"/>quod quidam asserunt, etc. </quote>
+            </p>
+            <p xml:id="alalal-e98242-d1e179">
+               <lb ed="Bd" n="36"/>Prior inter has subdividitur in duas
+<lb ed="Bd" n="37"/>ulterius : in quarum prima agit de 
+dile<lb break="no" ed="Bd" n="38"/>ctione per comparationem ad genus quod
+<lb ed="Bd" n="39"/>est virtus, et per comparationem ad
+<lb ed="Bd" n="40"/>actum sibi substantialem, et per 
+compa<lb break="no" ed="Bd" n="41"/>rationem ad modum qui est forma actus.
+<lb ed="Bd" n="42"/>In secunda autem, agit de ipsa per 
+com<lb break="no" ed="Bd" n="43"/>parationem ad objectum quod est 
+diligi<lb break="no" ed="Bd" n="44"/>bile ; et haec incipit in sequenti distinct.
+<pb ed="#Bd" n="508"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>XXVIII, ibi, A, <quote xml:id="alalal-e98242-Qd1e207"> Hic queri potest,
+<lb ed="Bd" n="2"/>Utrum illo mandato dilectionis, etc. </quote>
+            </p>
+            <p xml:id="alalal-e98242-d1e213">
+               <lb ed="Bd" n="3"/>In hac autem distinctione quae 
+conti<lb break="no" ed="Bd" n="4"/>net primam partem, quadrupliciter agit
+<lb ed="Bd" n="5"/>de dilectione. Primo enim agit de ipsa
+<lb ed="Bd" n="6"/>secundum comparationem ad caput 
+no<lb break="no" ed="Bd" n="7"/>strum, qualiter fuit in Christo : et hoc in
+<lb ed="Bd" n="8"/>primo capitulo. Secundo, quaerit de ipsa,
+<lb ed="Bd" n="9"/>Quid sit, et utrum sit una vel plures? et
+<lb ed="Bd" n="10"/>hoc m secundo capitulo, ibi, B, <quote xml:id="alalal-e98242-Qd1e232"> 
+Chari<lb break="no" ed="Bd" n="11"/>tas est dilectio qua diligitur, etc. </quote> Term
+<lb ed="Bd" n="12"/>tio vero, quaerit de modo actus 
+dilectio<lb break="no" ed="Bd" n="13"/>nis, tam in diligendo proximum, quam
+<lb ed="Bd" n="14"/>in diligendo Deum, ibi, D, <quote xml:id="alalal-e98242-Qd1e244"> Conseguwen
+<lb ed="Bd" n="15"/>ter modum utriusque dilections 
+adver<lb break="no" ed="Bd" n="16"/>tamus. </quote> Quarto et ultimo, determinat
+<lb ed="Bd" n="17"/>de praecepto quod respicit actum hujus
+<lb ed="Bd" n="18"/>virtutis, ibi, F, <quote xml:id="alalal-e98242-Qd1e255"> “llud autem 
+prece<lb break="no" ed="Bd" n="19"/>plum non penitus impletur ab homine,
+<lb ed="Bd" n="20"/>elec. </quote>
+            </p>
+            <p xml:id="alalal-e98242-d1e263">
+               <lb ed="Bd" n="21"/>Ex divisione autem et disputatione
+<lb ed="Bd" n="22"/>patebit sententia lectionis istius.
+</p>
+            <p xml:id="alalal-e98242-d1e270">
+               <lb ed="Bd" n="23"/>Praeambulae autem sunt hic 
+questio<lb break="no" ed="Bd" n="24"/>nes tres : quarum prima est, An dilectio
+<lb ed="Bd" n="25"/>sit virtus ?
+<lb ed="Bd" n="26"/>Secunda, Si est virtus, an sit virtus
+<lb ed="Bd" n="27"/>generalis vel specialis ?
+<lb ed="Bd" n="28"/>Tertia, Si sit virtus specialis, utrum
+<lb ed="Bd" n="29"/>sit forma generalis omnis virtutis ? et,
+<lb ed="Bd" n="30"/>Utrum possit fieri ipsa informis ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

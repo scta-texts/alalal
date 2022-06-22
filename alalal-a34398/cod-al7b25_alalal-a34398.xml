@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="170"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a34398"><!-- l1d4a9 -->
+            <head xml:id="alalal-a34398-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-a34398-Hd1e101" type="question-title">An divinis essentia debeat subjici, vel
+praedicari, vel recte possit utrumque
+fieri?</head>
+            <p xml:id="alalal-a34398-d1e104">
+               <lb ed="#Ba" n="61"/>ARTICULUS IX.
+<lb ed="#Ba" n="62"/>An divinis essentia debeat subjici, vel
+<lb ed="#Ba" n="63"/>praedicari, vel recte possit utrumque
+<lb ed="#Ba" n="64"/>fieri?
+</p>
+            <p xml:id="alalal-a34398-d1e115">
+               <lb ed="#Ba" n="65"/>Secundo quaeritur, Si nomina 
+signifi<lb break="no" ed="#Ba" n="66"/>cantia essentiam in divinis possunt 
+sub<lb break="no" ed="#Ba" n="67"/>jici ? Videtur autem, quod non.
+</p>
+            <p xml:id="alalal-a34398-d1e124">
+               <lb ed="#Ba" n="68"/>1. In divinis enim persona est 
+suppo<lb break="no" ed="#Ba" n="69"/>situm, et essentia quasi forma et natura :
+<lb ed="#Ba" n="70"/>cum igitur in propositione praedicatum
+<lb ed="#Ba" n="71"/>se habeat per modum forme, subjectum
+<lb ed="#Ba" n="72"/>autem per modum supposits, non debet
+<lb ed="#Ba" n="73"/>essentia divina subjici, sed praedicari.
+</p>
+            <p xml:id="alalal-a34398-d1e141">
+               <lb ed="#Ba" n="74"/>2. Item, Subjectum est id cui inest,
+<lb ed="#Ba" n="75"/>predicatum autem quod inest : cum 
+au<lb break="no" ed="#Ba" n="76"/>tem essentia insit persone, et non 
+econ<lb break="no" ed="#Ba" n="77"/>tra, videtur iterum debere pradicari, et
+<lb ed="#Ba" n="78"/>non subjici.
+</p>
+            <p xml:id="alalal-a34398-d1e154">
+               <lb ed="#Ba" n="79"/>3. Item, Boetius in libro de Trinittate
+<lb ed="#Ba" n="80"/>dicit, quod simplex forma subjectum
+<lb ed="#Ba" n="81"/>fieri non potest.
+</p>
+            <p xml:id="alalal-a34398-d1e163">
+               <lb ed="#Ba" n="82"/>4, Idem, in libro de Hebdomadibus :
+<lb ed="#Ba" n="83"/>Quod est habere aliquid potest prater
+<lb ed="#Ba" n="84"/>idipsum quod est, esse autem nihil habet
+<lb ed="#Ba" n="85"/>admixtum : sed.id quod est in divinis per
+<lb ed="#Ba" n="86"/>modum quod est, est persona: ergo 
+per<lb break="no" ed="#Ba" n="87"/>sona aliquid habere potest ut inherens
+<lb ed="#Ba" n="88"/>sibi, et sic potest subjicisibi: sed 
+essen<lb break="no" ed="#Ba" n="89"/>tia divina est esse simplex; ergo nihil
+<lb ed="#Ba" n="90"/>potest habere: ergo nulli potest subjici,
+<lb ed="#Ba" n="91"/>ut videtur.
+</p>
+            <p xml:id="alalal-a34398-d1e187">
+               <pb ed="#Ba" n="171"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>SED CONTRA :
+<lb ed="#Ba" n="2"/>1. Quecumque aequalis sunt 
+simplicita<lb break="no" ed="#Ba" n="3"/>lis, aequalis sunt ordinis in subjiciendo et
+<lb ed="#Ba" n="4"/>predicando: persona et essentia 
+equa<lb break="no" ed="#Ba" n="5"/>lis sunt simphiitatis : ergo aequalis sunt
+<lb ed="#Ba" n="6"/>ordinis in subjiciendo et praedicando.
+</p>
+            <p xml:id="alalal-a34398-d1e207">
+               <lb ed="#Ba" n="7"/>2. Praeterea, Quecumque sunt non
+<lb ed="#Ba" n="8"/>habentia se ut superius et inferius, et
+<lb ed="#Ba" n="9"/>non sunt essentialia et substantialia sibi,
+<lb ed="#Ba" n="10"/>wqualiter subjici sibi invicem possunt,
+<lb ed="#Ba" n="11"/>el aequaliter praedicari de se invicem :
+<lb ed="#Ba" n="12"/>essentia divina et persona sic se habent:
+<lb ed="#Ba" n="13"/>ergo aequaliter subjici invicem possunt,
+<lb ed="#Ba" n="14"/>el pradicari de se invicem. 
+Propa<lb break="no" ed="#Ba" n="15"/>rlo prime est : quia superiora essentialia
+<lb ed="#Ba" n="16"/>de inferioribus secundum ordinem 
+natu<lb break="no" ed="#Ba" n="17"/>we praedicantur: essentia autem non est
+<lb ed="#Ba" n="18"/>superius ad personam nec econtra, quia
+<lb ed="#Ba" n="19"/>aliter esset compositio in Deo. Secunda
+<lb ed="#Ba" n="20"/>probatur per simplicttatem persone et
+<lb ed="#Ba" n="21"/>essentia.
+</p>
+            <p xml:id="alalal-a34398-d1e242">
+               <lb ed="#Ba" n="22"/>Solutio. Dicendum, quod in veritate
+<lb ed="#Ba" n="23"/>in divinis utrumque potest subjici alteri,
+<lb ed="#Ba" n="24"/>ot praedicari de altero, sicut probat 
+Ma<lb break="no" ed="#Ba" n="25"/>ister, Licet enim praedicatum sit loco
+<lb ed="#Ba" n="26"/>forme in praedicationibus quae fiunt per
+<lb ed="#Ba" n="27"/>inherentiam et participationem, tamen
+<lb ed="#Ba" n="28"/>in propositionibus notantibus 
+identita<lb break="no" ed="#Ba" n="29"/>tem secus se habet, quia tbi utrumque
+<lb ed="#Ba" n="30"/>est idem alter1, etideo utrumque utrique
+<lb ed="#Ba" n="31"/>subjicitur, et utrumque de utroque 
+prae<lb break="no" ed="#Ba" n="32"/>ilicatur. Per hoc igitur patet solutio ad
+<lb ed="#Ba" n="33"/>duo prima quae bene concludunt de 
+pre<lb break="no" ed="#Ba" n="34"/>iieatione quae fit per modum inherentie.
+</p>
+            <p xml:id="alalal-a34398-d1e274">
+               <lb ed="#Ba" n="35"/>Ad aliud dicendum, quod Boetius 
+in<lb break="no" ed="#Ba" n="36"/>telligit de subjecto rei, non modi 
+predi<lb break="no" ed="#Ba" n="37"/>candi, sicut subjicitur superficies 
+albe<lb break="no" ed="#Ba" n="38"/>din, vel sicut materia subjicitur forma.
+<lb ed="#Ba" n="39"/>Kodem modo etiam intelligitur sequens
+<lb ed="#Ba" n="40"/>auctoritas : quia quod est potest aliquid
+<lb ed="#Ba" n="41"/>habere : sed in divinis non est tale quod
+<lb ed="#Ba" n="42"/>possit esse subjectum ali: praeter se.
+<lb ed="#Ba" n="43"/>Unde hoc intelligitur im his in quibus
+<lb ed="#Ba" n="44"/>differt quod est, et esse sive quo est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

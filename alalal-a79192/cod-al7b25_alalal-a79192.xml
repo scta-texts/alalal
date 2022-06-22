@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 9</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 9</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="397"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a79192"><!-- l1d14a9 -->
+            <head xml:id="alalal-a79192-Hd1e99">Articulus 9</head>
+            <head xml:id="alalal-a79192-Hd1e101" type="question-title">An processio Spiritus sancti gemina dici
+possit, et an sint duae ?</head>
+            <p xml:id="alalal-a79192-d1e104">
+               <lb ed="#Ba" n="30"/>ARTICULUS IX.
+<lb ed="#Ba" n="31"/>An processio Spiritus sancti gemina dici
+<lb ed="#Ba" n="32"/>possit, et an sint duae ?
+</p>
+            <p xml:id="alalal-a79192-d1e113">
+               <lb ed="#Ba" n="33"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Ba" n="34"/>quod <quote xml:id="alalal-a79192-Qd1e119"> gemina est processio Spiritus
+<lb ed="#Ba" n="35"/>sancti : aeterna videlicet, etc. </quote>
+            </p>
+            <p xml:id="alalal-a79192-d1e125">
+               <lb ed="#Ba" n="36"/>1. Videtur enim hoc esse falsum : si
+<lb ed="#Ba" n="37"/>enim gemina est processio : aut eadem est
+<lb ed="#Ba" n="38"/>iterata: aut sunt due processiones, et ideo
+<lb ed="#Ba" n="39"/>gemina dicitur. Constat, quod non primo
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="40"/>modo : quia processio aeterna non potest
+<lb ed="#Ba" n="41"/>iterari. Nec videtur secundo modo esse
+<lb ed="#Ba" n="42"/>verum ; quia temporalis non addit super
+<lb ed="#Ba" n="43"/>eternam nisi effectum connotatum in
+<lb ed="#Ba" n="44"/>tempore vel temporali: ergo videtur
+<lb ed="#Ba" n="45"/>quod non sint due.
+</p>
+            <p xml:id="alalal-a79192-d1e152">
+               <lb ed="#Ba" n="46"/>2. Item, diversum in accidenti non 
+fa<lb break="no" ed="#Ba" n="47"/>cit duo, dummodo subjectum sit unum :
+<lb ed="#Ba" n="48"/>non enim duo sunt, Socrates albus, et
+<lb ed="#Ba" n="49"/>Socrates musicus, sed unum : ergo a 
+si<lb break="no" ed="#Ba" n="50"/>mili cum processio aeterna sit in 
+tempo<lb break="no" ed="#Ba" n="51"/>rali, et nihil plus nisi comparatio ejus ad
+<lb ed="#Ba" n="52"/>hunc effectum ad quem prius non 
+com<lb break="no" ed="#Ba" n="53"/>parabatur, videntur illae processiones
+<lb ed="#Ba" n="54"/>esse una, et non duae.
+</p>
+            <p xml:id="alalal-a79192-d1e174">
+               <lb ed="#Ba" n="55"/>SED CONTRA:
+<lb ed="#Ba" n="56"/>1. Una est externa, et alia temporalis :
+<lb ed="#Ba" n="57"/>et aeternum non est temporale : ergo dux
+<lb ed="#Ba" n="58"/>sunt.
+</p>
+            <p xml:id="alalal-a79192-d1e185">
+               <lb ed="#Ba" n="59"/>2. Item, Una est Spiritus in se, alia in
+<lb ed="#Ba" n="60"/>homine sanctificando: cum ergo hac duo
+<lb ed="#Ba" n="61"/>sunt, erunt hic due processiones.
+</p>
+            <p xml:id="alalal-a79192-d1e194">
+               <lb ed="#Ba" n="62"/>Solutio. Ad hoc dicendum, quod in
+<lb ed="#Ba" n="63"/>veritate secundum substantiam non est
+<lb ed="#Ba" n="64"/>hic processio nisi una Spiritus sancti:
+<lb ed="#Ba" n="65"/>sicut probant prime rationes, nec 
+Magi<lb break="no" ed="#Ba" n="66"/>ster dicit, quod sint due : sed dicit, quod
+<lb ed="#Ba" n="67"/>una est gemina: tamen quia recipit 
+ad<lb break="no" ed="#Ba" n="68"/>ditionem in tempore, ideo quoad hoc 
+di<lb break="no" ed="#Ba" n="69"/>citur geminari.
+</p>
+            <p xml:id="alalal-a79192-d1e214">
+               <lb ed="#Ba" n="70"/>Ad id quod contra hoc objicitur, 
+di<lb break="no" ed="#Ba" n="71"/>cendum quod una non removetur ab
+<lb ed="#Ba" n="72"/>alia gratia ejus quod est processio, sed
+<lb ed="#Ba" n="73"/>gratia additi: unde processio cum 
+effe<lb break="no" ed="#Ba" n="74"/>ctu significata non est processio sine 
+effe<lb break="no" ed="#Ba" n="75"/>ctu significata : non quidem subjecto, quia
+<lb ed="#Ba" n="76"/>subjecto sunt idem : sed ratione diffiniente
+<lb ed="#Ba" n="77"/>utramque ex aeterno anam, et ex 
+tempo<lb break="no" ed="#Ba" n="78"/>rali aliam : gratia enim hujus oppositionis
+<lb ed="#Ba" n="79"/>rationum una removetur ab alia.
+</p>
+            <p xml:id="alalal-a79192-d1e238">
+               <lb ed="#Ba" n="80"/>Ap aniup dicendum, quod hac additio
+<lb ed="#Ba" n="81"/>temporalis est per comparationem ad
+<lb ed="#Ba" n="82"/>hominem sanctificandum, et non 
+diver<lb break="no" ed="#Ba" n="83"/>sificat subjectum, sed rationem tantum
+<lb ed="#Ba" n="84"/>ex addito.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

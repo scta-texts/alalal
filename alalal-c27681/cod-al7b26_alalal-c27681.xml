@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="147"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c27681"><!-- l1d33a5 -->
+            <head xml:id="alalal-c27681-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-c27681-Hd1e101" type="question-title">Utrum relationes divine sunt assistentes,
+sicut dixit <name xml:id="alalal-c27681-Nd1e103">Gilbertus Porretanus</name> ?</head>
+            <p xml:id="alalal-c27681-d1e106">
+               <lb ed="#Bb" n="29"/>ARTICULUS V.
+<lb ed="#Bb" n="30"/>Utrum relationes divine sunt assistentes,
+<lb ed="#Bb" n="31"/>sicut dixit <name xml:id="alalal-c27681-Nd1e114">Gilbertus Porretanus</name> ?
+</p>
+            <p xml:id="alalal-c27681-d1e117">
+               <lb ed="#Bb" n="32"/>Quia vero iste error dicitur fuisse
+<lb ed="#Bb" n="33"/>
+               <name xml:id="alalal-c27681-Nd1e123">Gilberti Porretani</name>, quem tamen, sicut
+<lb ed="#Bb" n="34"/>dicit <ref xml:id="alalal-c27681-Rd1e127">
+                  <name xml:id="alalal-c27681-Nd1e129">sanctus Bernardus</name>, in concilio 
+Re<lb break="no" ed="#Bb" n="35"/>mensi</ref> retractavit et damnavit, consiliis
+<lb ed="#Bb" n="36"/>Episcoporum humiliter acquiescens +:
+<lb ed="#Bb" n="37"/>ideo diligentius considerande sunt iste
+<lb ed="#Bb" n="38"/>rationes.
+</p>
+            <p xml:id="alalal-c27681-d1e142">
+               <lb ed="#Bb" n="39"/>Due ergo quae sunt in isto capitulo,
+<lb ed="#Bb" n="40"/>sunt fundate super hoc quod relationes
+<lb ed="#Bb" n="41"/>sive proprietates in divinis non 
+predi<lb break="no" ed="#Bb" n="42"/>cant aliquid quod insit, sed quod 
+extrin<lb break="no" ed="#Bb" n="43"/>secus in comparatione ad alterum sit
+<lb ed="#Bb" n="44"/>affixum : et hoc probatur duabus 
+rationi<lb break="no" ed="#Bb" n="45"/>bus ducentibus ad impossibile.
+</p>
+            <p xml:id="alalal-c27681-d1e161">
+               <lb ed="#Bb" n="46"/>Prima est hec: Detur, quod 
+proprie<lb break="no" ed="#Bb" n="47"/>tas insit persone: cum igitur nihil insit
+<lb ed="#Bb" n="48"/>persone nisi quod est idem omnino ipsi
+<lb ed="#Bb" n="49"/>persone secundum rem, ipsa proprietas
+<lb ed="#Bb" n="50"/>erit idem omnino cum persona 
+secun<lb break="no" ed="#Bb" n="51"/>dum rem : quidquid autem omnino idem
+<lb ed="#Bb" n="52"/>est determinato, non determinat illud,
+<lb ed="#Bb" n="53"/>sed determinatur cum ipso: ergo 
+pro<lb break="no" ed="#Bb" n="54"/>prietas non determinat personam, sed
+<lb ed="#Bb" n="55"/>determinatur cum ipsa. Et haec est ratio
+<lb ed="#Bb" n="56"/>prima. Sed proprietas determinat perso-
+<pb ed="#Bb" n="148"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>nam: ergo non est idem cum persona:
+<lb ed="#Bb" n="2"/>cum igitur nihil insit persone, nisi quod
+<lb ed="#Bb" n="3"/>est ipsa persona, quia aliter esset 
+compo<lb break="no" ed="#Bb" n="4"/>sila, non potest proprietas inesse 
+per<lb break="no" ed="#Bb" n="5"/>sone: ergo adheret tantum ut 
+extrinse<lb break="no" ed="#Bb" n="6"/>cus affixa.
+</p>
+            <p xml:id="alalal-c27681-d1e205">
+               <lb ed="#Bb" n="7"/>Secunda ratio est etiam ducens ad 
+im<lb break="no" ed="#Bb" n="8"/>possibile, et fundatur super hoc quod non
+<lb ed="#Bb" n="9"/>est idem principium uniendi et 
+distin<lb break="no" ed="#Bb" n="10"/>guendi: sed essentia est quo uniuntur
+<lb ed="#Bb" n="11"/>persone divine: proprietas autem est
+<lb ed="#Bb" n="12"/>essentia, ut tu dicis : ergo proprietas est
+<lb ed="#Bb" n="13"/>quo uniuntur persone: ergo non erit
+<lb ed="#Bb" n="14"/>proprietas distinguens, quod falsum est:
+<lb ed="#Bb" n="15"/>ergo proprietas non est essentia, sed 
+af<lb break="no" ed="#Bb" n="16"/>fixa extrinsecus. Nec potest dici, quod
+<lb ed="#Bb" n="17"/>hic est accidens : quia nihil est ibi 
+extra<lb break="no" ed="#Bb" n="18"/>neum alteri, nec aliquo modo differens
+<lb ed="#Bb" n="19"/>secundum rem. Ex hoc patet super quid
+<lb ed="#Bb" n="20"/>fundantur rationes iste Gilberti.
+</p>
+            <p xml:id="alalal-c27681-d1e238">
+               <lb ed="#Bb" n="21"/>Si autem forte velles dicere, quod
+<lb ed="#Bb" n="22"/>fundamentum istud falsum est, scilicet
+<lb ed="#Bb" n="23"/>quod sint relationes distinguentes affixe
+<lb ed="#Bb" n="24"/>tantum. Contra hoc potest objici per
+<lb ed="#Bb" n="25"/>hunc modum primo: quia Boetius hoc
+<lb ed="#Bb" n="26"/>dicit, quod relationes sunt affixe, et nihil
+<lb ed="#Bb" n="27"/>predicant in relativo : ergo per locum ab
+<lb ed="#Bb" n="28"/>auctoritate ita est. Praterea, probatur
+<lb ed="#Bb" n="29"/>auctoritas hoc modo : Quidquid nulla
+<lb ed="#Bb" n="30"/>mutatione subjecti potest advenire 
+sub<lb break="no" ed="#Bb" n="31"/>jecto, et removeri ab ipso, ex 
+compara<lb break="no" ed="#Bb" n="32"/>tione alterius ad ipsum: ipsum nihil est
+<lb ed="#Bb" n="33"/>in subjecto, sed assistit ei in 
+compara<lb break="no" ed="#Bb" n="34"/>tione ad alterum: taliter advenit relatio
+<lb ed="#Bb" n="35"/>subjecto: ergo assistit in comparatione
+<lb ed="#Bb" n="36"/>ad alterum, et non praedicat aliquid in
+<lb ed="#Bb" n="37"/>subjecto. Propatur autem prima sic :
+<lb ed="#Bb" n="38"/>Detur, quod aliquid adveniat subjecto
+<lb ed="#Bb" n="39"/>quod insit ei sine sui mutatione: ergo
+<lb ed="#Bb" n="40"/>subjectum illud habet quod ante non 
+ha<lb break="no" ed="#Bb" n="41"/>buit: ergo aliter se habet informis, quam
+<lb ed="#Bb" n="42"/>prius, subjecto manente actu ente: ergo
+<lb ed="#Bb" n="43"/>est alteratum : positum autem erat quod
+<lb ed="#Bb" n="44"/>non mutaretur. Secunpa autem probatur
+<lb ed="#Bb" n="45"/>sic: Eodem modo se habente homine,
+<lb ed="#Bb" n="46"/>efficitur ei aliquis modo dexter, modo
+<lb ed="#Bb" n="47"/>sinister: et ista dicuntur relationes, ergo,
+<lb ed="#Bb" n="48"/>etc.
+</p>
+            <p xml:id="alalal-c27681-d1e301">
+               <lb ed="#Bb" n="49"/>Si forte dicas, quod bene probatur ex
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="50"/>hoc quod non insint, sed non quod 
+as<lb break="no" ed="#Bb" n="51"/>sistant ut affixe extrinsecus. Contra:
+<lb ed="#Bb" n="52"/>Quidquid nullo modo est de intrinsecis
+<lb ed="#Bb" n="53"/>essentialiter, vel accidentaliter, et tamen
+<lb ed="#Bb" n="54"/>accipitur in aliquo, alio accepto in alio,
+<lb ed="#Bb" n="55"/>illud necesse est esse assistens 
+extrinse<lb break="no" ed="#Bb" n="56"/>cus : relatio nullo modo est de intrinsecis
+<lb ed="#Bb" n="57"/>essentialiter, vel accidentaliter, et tamen
+<lb ed="#Bb" n="58"/>accipitur in isto, alio quodam accepto in
+<lb ed="#Bb" n="59"/>alio: ergo est affixa, vel assistens, vel
+<lb ed="#Bb" n="60"/>adherens extrinsecus. Prospano prime.
+<lb ed="#Bb" n="61"/>Prima pars prime jam supra probata
+<lb ed="#Bb" n="62"/>est, scilicet quod relatio quantum est de
+<lb ed="#Bb" n="63"/>natura sua, nullo modo est de intrinsecis
+<lb ed="#Bb" n="64"/>essentialiter, vel accidentaliter: quia si
+<lb ed="#Bb" n="65"/>una esset de intrinsecis, omnes essent.
+<lb ed="#Bb" n="66"/>Secunpa autem pars probatur per hanc
+<lb ed="#Bb" n="67"/>regulam relativorum, quod non 
+contin<lb break="no" ed="#Bb" n="68"/>git unum relativorum diffinite accipere
+<lb ed="#Bb" n="69"/>sine reliquo : ergo relatio semper 
+accipi<lb break="no" ed="#Bb" n="70"/>tur inesse isti, aliquo modo extrinsecus
+<lb ed="#Bb" n="71"/>accepto: ergo nihil ponit in isto, sed
+<lb ed="#Bb" n="72"/>potius in alio comparationem illius ad
+<lb ed="#Bb" n="73"/>istum, et in isto comparationem istius
+<lb ed="#Bb" n="74"/>ad alterum. Secunda constat per 
+antece<lb break="no" ed="#Bb" n="75"/>dentia.
+</p>
+            <p xml:id="alalal-c27681-d1e364">
+               <lb ed="#Bb" n="76"/>Si forte velles dicere, quod ista 
+rela<lb break="no" ed="#Bb" n="77"/>tio secundum hoc non sufficit distinctioni
+<lb ed="#Bb" n="78"/>personarum, quia sic in se nihil essent
+<lb ed="#Bb" n="79"/>persone : iterum potest objici de 
+Gil<lb break="no" ed="#Bb" n="80"/>berto sic: Quidquid non distinguitur per
+<lb ed="#Bb" n="81"/>aliquid absolutum, sed per id quod ad
+<lb ed="#Bb" n="82"/>alterum est, tantum illi sufficit distinctio
+<lb ed="#Bb" n="83"/>relativorum : persone divine sic 
+distin<lb break="no" ed="#Bb" n="84"/>guuntur: ergo sufficit eis distinctio 
+re<lb break="no" ed="#Bb" n="85"/>jativorum. Prima est per se nota. 
+Se<lb break="no" ed="#Bb" n="86"/>cunda autem sepius habita est supra ah
+<lb ed="#Bb" n="87"/>Augustino.
+</p>
+            <p xml:id="alalal-c27681-d1e393">
+               <lb ed="#Bb" n="88"/>Hec ergo quantum existimare 
+pos<lb break="no" ed="#Bb" n="89"/>sum, sunt quae magis movebant 
+Gilber<lb break="no" ed="#Bb" n="90"/>tum in prima ratione hic inducta.
+</p>
+            <p xml:id="alalal-c27681-d1e403">
+               <lb ed="#Bb" n="91"/>In secunda autem ratione videtur 
+sup<lb break="no" ed="#Bb" n="92"/>ponere duas propositiones, sine quibus
+<lb ed="#Bb" n="93"/>nihil valet ratio, scilicet quod non idem
+<lb ed="#Bb" n="94"/>sit omnino uniens et distinguens, sed
+<lb ed="#Bb" n="95"/>differunt in aliquo : et quod id quod 
+dici<lb break="no" ed="#Bb" n="96"/>tur secundum intellectum solum, non sit
+<lb ed="#Bb" n="97"/>causa distinctionis rei. Et primam 
+pro<lb break="no" ed="#Bb" n="98"/>positionem vult habere pro per se nota:
+<pb ed="#Bb" n="149"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>quia si tu velles eam improbare, sicut
+<lb ed="#Bb" n="2"/>quidam modernorum laboraverunt, de
+<lb ed="#Bb" n="3"/>facili ostenditur absurditas : ferunt 
+et<lb break="no" ed="#Bb" n="4"/>enim tria nobis exempla, quorum 
+pri<lb break="no" ed="#Bb" n="5"/>mum est, quod differentiae qu in se
+<lb ed="#Bb" n="6"/>diverse sunt, uniuntur tamen in 
+indivi<lb break="no" ed="#Bb" n="7"/>sibili potentia generis: et hoc statim 
+pa<lb break="no" ed="#Bb" n="8"/>tet nihil esse tribus rationibus: quia 
+hi<lb break="no" ed="#Bb" n="9"/>cet genus in natura simplicis universalis
+<lb ed="#Bb" n="10"/>indivisibile sit, tamen potestate 
+divisi<lb break="no" ed="#Bb" n="11"/>bile est : essentia autem quae unit 
+per<lb break="no" ed="#Bb" n="12"/>sonas, nullo modo divisibilis est. 
+Se<lb break="no" ed="#Bb" n="13"/>cunda ratio est, quod differentiae non
+<lb ed="#Bb" n="14"/>sunt unum in genere, nisi potentia entes,
+<lb ed="#Bb" n="15"/>actu autem non: persone autem sunt
+<lb ed="#Bb" n="16"/>secundum actum existentes in una 
+essen<lb break="no" ed="#Bb" n="17"/>tia. Tertia ratio est, quia differentiae 
+ad<lb break="no" ed="#Bb" n="18"/>venientes generi, dividunt ipsum 
+secun<lb break="no" ed="#Bb" n="19"/>dum esse: persone autem advenientes
+<lb ed="#Bb" n="20"/>essentiae, non dividunt ipsam secundum
+<lb ed="#Bb" n="21"/>esse: ergo nihil est quod dicis.
+</p>
+            <p xml:id="alalal-c27681-d1e473">
+               <lb ed="#Bb" n="22"/>Ideo alii dicunt, quod unio ista est
+<lb ed="#Bb" n="23"/>sicut uniuntur radii diversarum 
+stella<lb break="no" ed="#Bb" n="24"/>rum in eodem puncto terre vel aeris:
+<lb ed="#Bb" n="25"/>vel lines terminate ad idem punctum.
+<lb ed="#Bb" n="26"/>Sed hoc nihil est: quia terminari ad idem
+<lb ed="#Bb" n="27"/>punctum non confert unum esse lineis,
+<lb ed="#Bb" n="28"/>nec etiam radiis.
+</p>
+            <p xml:id="alalal-c27681-d1e491">
+               <lb ed="#Bb" n="29"/>Item, Alii queerunt subtiliare, et dicunt
+<lb ed="#Bb" n="30"/>impossibilia sic: Ponamus unam lineam
+<lb ed="#Bb" n="31"/>dividi in duas: iste due lineew simul
+<lb ed="#Bb" n="32"/>sunt: ergo ultima habent simul: ergo in
+<lb ed="#Bb" n="33"/>eodem: ergo terminantur ad idem 
+pun<lb break="no" ed="#Bb" n="34"/>ctum: ergo uniuntur in illo: et tamen
+<lb ed="#Bb" n="35"/>sunt distincte. Vel, sidiceres quod una
+<lb ed="#Bb" n="36"/>terminatur ad aliud punctum quam alia:
+<lb ed="#Bb" n="37"/>ergo punctum contiguum et continuum
+<lb ed="#Bb" n="38"/>et consequenter esset puncto, quod est
+<lb ed="#Bb" n="39"/>reprobatum in principio sexti 
+Physico<lb break="no" ed="#Bb" n="40"/>rum :sed hoc absurdum est. Ex hoc enim
+<lb ed="#Bb" n="41"/>sequuntur multa inconvenientia: Detur
+<lb ed="#Bb" n="42"/>enim lineam sic dividi: ergo due linee
+<lb ed="#Bb" n="43"/>egrediuntur ab eodem puncto in eamdem
+<lb ed="#Bb" n="44"/>partem protracte, quae sunt diverse: et
+<lb ed="#Bb" n="45"/>hoc est contra quartamdecimam 
+propo<lb break="no" ed="#Bb" n="46"/>sitionem primi Euclidis. Ponamus enim,
+<lb ed="#Bb" n="47"/>quod illae duae line antequam ad aliud
+<lb ed="#Bb" n="48"/>punctum protrahantur, secent lineam
+<lb ed="#Bb" n="49"/>tertiam: ergo cum simul sint, nullam fa-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="50"/>cientes latitudinem, angulos circa se 
+po<lb break="no" ed="#Bb" n="51"/>sitos facient rectos, aut wequales duobus
+<lb ed="#Bb" n="52"/>rectis: ergo due lines ille a puncto uno
+<lb ed="#Bb" n="53"/>protracte, duos circa se angulos rectos,
+<lb ed="#Bb" n="54"/>aut duobus rectis aequales facientes, sunt
+<lb ed="#Bb" n="55"/>diverse : et hujus contrarium dicit 
+Theo<lb break="no" ed="#Bb" n="56"/>rema: Si duae recte linea a puncto unius
+<lb ed="#Bb" n="57"/>lineae quam secant, in diversas partes
+<lb ed="#Bb" n="58"/>exierint, quae duos circa se angulos aut
+<lb ed="#Bb" n="59"/>rectos aut duobus rectis aequales 
+fece<lb break="no" ed="#Bb" n="60"/>rint: ille due linee sunt sibi invicem
+<lb ed="#Bb" n="61"/>directe conjuncte, et linea una: et 
+gra<lb break="no" ed="#Bb" n="62"/>lia exempli sit linea divisa A B, secta
+<lb ed="#Bb" n="63"/>autem Cc D.
+</p>
+            <p xml:id="alalal-c27681-d1e572">
+               <lb ed="#Bb" n="64"/>Item, <name xml:id="alalal-c27681-Nd1e576">Gilbertus</name> hoc alio modo 
+de<lb break="no" ed="#Bb" n="65"/>struere posset sic: Linea praedicto modo
+<lb ed="#Bb" n="66"/>dividatur, et tamen ad eadem puncta
+<lb ed="#Bb" n="67"/>concurrat : et protrahatur a puncto primo
+<lb ed="#Bb" n="68"/>ejus alia linea in continuum, et a puncto
+<lb ed="#Bb" n="69"/>illius protrahatur alia divisa, sicut prima
+<lb ed="#Bb" n="70"/>ad terminum prioris lineae divise : ita ut
+<lb ed="#Bb" n="71"/>claudatur triangulus : ergo secundum
+<lb ed="#Bb" n="72"/>hoc a puncto unius linee non divise que
+<lb ed="#Bb" n="73"/>sit ze f, ad idem punctum a protrahi
+<lb ed="#Bb" n="74"/>possunt quatuor linee rect: quod est
+<lb ed="#Bb" n="75"/>impossibile : quia sic linea esset in linea,
+<lb ed="#Bb" n="76"/>et indivisibile in indivisibili.
+</p>
+            <p xml:id="alalal-c27681-d1e605">
+               <lb ed="#Bb" n="77"/>Praeterea, Secundum naturam etiam
+<lb ed="#Bb" n="78"/>probatur: quia sicut inter duo puncta est
+<lb ed="#Bb" n="79"/>linea, ita inter quaslibet duas lineas est 
+su<lb break="no" ed="#Bb" n="80"/>perficies : ergo inter lineas illas 
+contermi<lb break="no" ed="#Bb" n="81"/>nales divisas esset superficies: et duae 
+li<lb break="no" ed="#Bb" n="82"/>new recta continebunt superficiem, quod
+<lb ed="#Bb" n="83"/>est contra ullimam propositionem 
+pri<lb break="no" ed="#Bb" n="84"/>mi Euclidis, quae haec est: Duas lineas
+<lb ed="#Bb" n="85"/>rectas superficiem nullam concludere.
+</p>
+            <p xml:id="alalal-c27681-d1e627">
+               <lb ed="#Bb" n="86"/>Si autem queratur, Quomodo ergo
+<lb ed="#Bb" n="87"/>solvitur impossibile per quod probatur ?
+<lb ed="#Bb" n="88"/>Dicendum est secundum eum, quod 
+h<lb break="no" ed="#Bb" n="89"/>nea ex parte illa quae est terminus, non
+<lb ed="#Bb" n="90"/>est simul: quia terminus cum termino
+<lb ed="#Bb" n="91"/>numquam est simul, eo quod simul esse
+<lb ed="#Bb" n="92"/>est ultima habere in eodem : linea autem
+<lb ed="#Bb" n="93"/>terminus est superficiei, non per hoc
+<lb ed="#Bb" n="94"/>quod terminatur ad punctum, sed 
+secun<lb break="no" ed="#Bb" n="95"/>dum hoc quod est indivisibilis 
+secun<lb break="no" ed="#Bb" n="96"/>dum latitudinem: unde non potest esse
+<lb ed="#Bb" n="97"/>in longitudine simul cum alia linea : sed
+<lb ed="#Bb" n="98"/>ex parte illa qua est terminata, habet
+<pb ed="#Bb" n="150"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>ultimum : et ideo potest esse simul cum
+<lb ed="#Bb" n="2"/>alia: quia due linee terminantur ad
+<lb ed="#Bb" n="3"/>idem punctum, et sunt simul in illo: et
+<lb ed="#Bb" n="4"/>ideo patet, quod falsum assumpsit quando
+<lb ed="#Bb" n="5"/>dixit : Si dividatur linea, quod ille duae
+<lb ed="#Bb" n="6"/>line essent simul per longitudinem:
+<lb ed="#Bb" n="7"/>quia hoc est impossibile : sed potius non
+<lb ed="#Bb" n="8"/>erunt simul, sed intercipient superficiem
+<lb ed="#Bb" n="9"/>finitam si sunt cum tertia, vel infinitam
+<lb ed="#Bb" n="10"/>Si in se accipiantur. His habitis, patet
+<lb ed="#Bb" n="11"/>super quid sustentatus est Guilbertus in
+<lb ed="#Bb" n="12"/>positione prima.
+</p>
+            <p xml:id="alalal-c27681-d1e689">
+               <lb ed="#Bb" n="13"/>Secunda positio sua est hec: Quod
+<lb ed="#Bb" n="14"/>dicitur secundum intellectum solum, non
+<lb ed="#Bb" n="15"/>est causa differentia in re. Et ex hoc vult
+<lb ed="#Bb" n="16"/>habere, quod si proprietas et essentia 
+dif<lb break="no" ed="#Bb" n="17"/>ferunt in modo intelligendi solum, quod
+<lb ed="#Bb" n="18"/>persone distinct non erunt nisi 
+secun<lb break="no" ed="#Bb" n="19"/>dum intellectum: et hoc est haeresis 
+Sa<lb break="no" ed="#Bb" n="20"/>bellii. Progart autem potest per hune
+<lb ed="#Bb" n="21"/>modum: quia illa differentia quae est 
+se<lb break="no" ed="#Bb" n="22"/>cundum modum intelligendi solum, aut
+<lb ed="#Bb" n="23"/>potest poniin re aliquo modo, aut non.
+<lb ed="#Bb" n="24"/>Si non, habeo propositum: quia nihil
+<lb ed="#Bb" n="25"/>facit realiter differre. Si autem potest
+<lb ed="#Bb" n="26"/>poni, ponatur, et tunc erit differentia
+<lb ed="#Bb" n="27"/>realis, et habetur propositum Gilberti,
+<lb ed="#Bb" n="28"/>quia proprietates realiter differunt a 
+di<lb break="no" ed="#Bb" n="29"/>vina essentia.
+</p>
+            <p xml:id="alalal-c27681-d1e728">
+               <lb ed="#Bb" n="30"/>Hoc considerantes quidam 
+moderno<lb break="no" ed="#Bb" n="31"/>rum, dicunt tam peritum virum non 
+er<lb break="no" ed="#Bb" n="32"/>rasse: et inducunt rationes quibus 
+pro<lb break="no" ed="#Bb" n="33"/>bant quod licet diversa opinariin 
+divi<lb break="no" ed="#Bb" n="34"/>nis. Sed quia heresis haec ab ore 
+aucto<lb break="no" ed="#Bb" n="35"/>ris sui in concilio Remensi damnata est:
+<lb ed="#Bb" n="36"/>ideo contra objicitur sic: Relatio aut est
+<lb ed="#Bb" n="37"/>aliquid in relativo, aut nihil. Si dicat,
+<lb ed="#Bb" n="38"/>quod aliquid: ergo in omni relativo est
+<lb ed="#Bb" n="39"/>aliquid, quod vere relativum est: quia
+<lb ed="#Bb" n="40"/>loquor de illis relationibus quae 
+secun<lb break="no" ed="#Bb" n="41"/>dum esse ad aliud sunt in utroque 
+rela<lb break="no" ed="#Bb" n="42"/>tivorum: ergo habetur propositum, quod
+<lb ed="#Bb" n="43"/>relatio inest, non adest. Si autem dicas,
+<lb ed="#Bb" n="44"/>quod nihil. Conrra : aut est aliquid, aut 
+ni<lb break="no" ed="#Bb" n="45"/>hil. Si nihil: ergo nec absolutum, nec
+<lb ed="#Bb" n="46"/>respectivum : ergo persone distincte
+<lb ed="#Bb" n="47"/>proprietatibus, nullo sunt distincta, Si ali-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="48"/>quid esse dicas ; aut erit substantia, aut 
+ac<lb break="no" ed="#Bb" n="49"/>cidens: non substantia: ergo accidens:
+<lb ed="#Bb" n="50"/>ergo inheret alicui, ut subjecto, et sic
+<lb ed="#Bb" n="51"/>oportet ponere quod insit: et cum in 
+di<lb break="no" ed="#Bb" n="52"/>vinis nihil insit secundum accidens,
+<lb ed="#Bb" n="53"/>oportet ponere quod in divinis substantia
+<lb ed="#Bb" n="54"/>et essentia sit quantum ad hoc quod 
+ha<lb break="no" ed="#Bb" n="55"/>bet de natura accidentis, et habeat alium
+<lb ed="#Bb" n="56"/>modum praedicandi quoad hoc quod 
+ad<lb break="no" ed="#Bb" n="57"/>dit super accidens respectum : et hoc est
+<lb ed="#Bb" n="58"/>contra Gilbertum. De hoc supra multum
+<lb ed="#Bb" n="59"/>est disputatum : et ideo illud sufficiat.
+</p>
+            <p xml:id="alalal-c27681-d1e798">
+               <lb ed="#Bb" n="60"/>Sortutio. Plane potest responderi 
+ob<lb break="no" ed="#Bb" n="61"/>jectis Gilberti: dicendo ad primum, quod
+<lb ed="#Bb" n="62"/>hoc est falsum, quod relationes in divinis
+<lb ed="#Bb" n="63"/>non praedicent aliquid quod insit, sed
+<lb ed="#Bb" n="64"/>quod sit affixum in comparatione ad 
+al<lb break="no" ed="#Bb" n="65"/>terum : nisi vis fiat in hoc quod est
+<lb ed="#Bb" n="66"/>inesse, quia prepositio notat diversita~
+<lb ed="#Bb" n="67"/>tem: sed nos accipimus inesse per 
+mo<lb break="no" ed="#Bb" n="68"/>dum intelligendi, et non per diversita—
+<lb ed="#Bb" n="69"/>tem rei: est enim in relatione 
+conside<lb break="no" ed="#Bb" n="70"/>rare naturam accidentis, et secundum
+<lb ed="#Bb" n="71"/>ilam non ponit respectum nisi ad 
+sub<lb break="no" ed="#Bb" n="72"/>stantiam quae est subjectum generum
+<lb ed="#Bb" n="73"/>aliorum : et quoad hoc relatio, sicut alia
+<lb ed="#Bb" n="74"/>genera, mutat modum praedicandi: et
+<lb ed="#Bb" n="75"/>sic ipsa proprietas est persona in qua est,
+<lb ed="#Bb" n="76"/>et per consequens essentia in qua est ipsa
+<lb ed="#Bb" n="77"/>persona. Est etiam in eadem considerare
+<lb ed="#Bb" n="78"/>quod ad alterum est: et sic retinet 
+mo<lb break="no" ed="#Bb" n="79"/>dum praedicandi proprium: et est 
+qui<lb break="no" ed="#Bb" n="80"/>dem tune per id quod est substantia, sed
+<lb ed="#Bb" n="81"/>non praedicat neque significat 
+substan<lb break="no" ed="#Bb" n="82"/>tiam: quia, ut dicit Augustinus, et 
+ha<lb break="no" ed="#Bb" n="83"/>bitum est supra , quod significat sub~
+<lb ed="#Bb" n="84"/>stantiam, non dicitur relative ad 
+alte<lb break="no" ed="#Bb" n="85"/>rum: et hoc attendens solum Boetius,
+<lb ed="#Bb" n="86"/>dicit affixam esse extrinsecus.
+</p>
+            <p xml:id="alalal-c27681-d1e859">
+               <lb ed="#Bb" n="87"/>Ad aliud dicendum, quod proprietas
+<lb ed="#Bb" n="88"/>est idem cum persona quam determinat
+<lb ed="#Bb" n="89"/>quantum ad comparationem subjecti, et
+<lb ed="#Bb" n="90"/>ejus quod inest, ut dictum est jam : quia
+<lb ed="#Bb" n="91"/>autem proprietas in re habuit plus quam
+<lb ed="#Bb" n="92"/>inesse, quia habuit ad alterum esse quod
+<lb ed="#Bb" n="93"/>faciebat ipsam esse relationem, et hoc re-
+<pb ed="#Bb" n="151"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>tinet realiter in divinis: ideo supposita
+<lb ed="#Bb" n="2"/>persona, non supponitur proprietas : et
+<lb ed="#Bb" n="3"/>ideo distinguitur proprietas, et 
+distin<lb break="no" ed="#Bb" n="4"/>guitur hypostasis sive persona. Et si 
+ob<lb break="no" ed="#Bb" n="5"/>jicias : ergo composita est persona, jam
+<lb ed="#Bb" n="6"/>patet nihil esse quod dicis : quia non
+<lb ed="#Bb" n="7"/>componitur in eo quod ad alterum est,
+<lb ed="#Bb" n="8"/>sed in eo quod inest: sed ex illa parte
+<lb ed="#Bb" n="9"/>qua inest, convertitur modus suus 
+pra<lb break="no" ed="#Bb" n="10"/>dicandi in substantiam, et efficitur idem
+<lb ed="#Bb" n="11"/>illi: et ideo non inducit compositionem :
+<lb ed="#Bb" n="12"/>cum tamen realiter significetur esse in
+<lb ed="#Bb" n="13"/>persona, cum dicitur, Pater sua 
+proprie<lb break="no" ed="#Bb" n="14"/>tate distinguitur a Filio : et est notabilis
+<lb ed="#Bb" n="15"/>illa consideratio valde, quod nihil facit
+<lb ed="#Bb" n="16"/>cum alio compositionem, nisi per hoc
+<lb ed="#Bb" n="17"/>quod est inesse, et non per hoc quod est
+<lb ed="#Bb" n="18"/>ad aliud esse. Et ideo dicentes relationes
+<lb ed="#Bb" n="19"/>in substantiam converti quantum ad 
+in<lb break="no" ed="#Bb" n="20"/>esse, et permanere quantum ad aliud es—
+<lb ed="#Bb" n="21"/>se, veritate rei salvant relationes: et 
+ta<lb break="no" ed="#Bb" n="22"/>men nullam inducunt compositionem : et
+<lb ed="#Bb" n="23"/>hoe ignoravit Gilbertus, non considerans
+<lb ed="#Bb" n="24"/>nisi secundum, et non primum.
+</p>
+            <p xml:id="alalal-c27681-d1e933">
+               <lb ed="#Bb" n="25"/>Ad aliud dicendum, quod relationes
+<lb ed="#Bb" n="26"/>non sunt tantum affixe, ut dictum est,
+<lb ed="#Bb" n="27"/>sed entes ipsa substantia.
+</p>
+            <p xml:id="alalal-c27681-d1e942">
+               <lb ed="#Bb" n="28"/>Ad picrum autem Boetii jam 
+respon<lb break="no" ed="#Bb" n="29"/>sum est.
+</p>
+            <p xml:id="alalal-c27681-d1e950">
+               <lb ed="#Bb" n="30"/>Ad aliud dicendum, quod multa sunt
+<lb ed="#Bb" n="31"/>genera relationum ut supra habitum est:
+<lb ed="#Bb" n="32"/>sed relationes quae sunt in divinis 
+secun<lb break="no" ed="#Bb" n="33"/>dum modum existendi faciunt ipsum 
+di<lb break="no" ed="#Bb" n="34"/>stinctum : et ideo ibi habent etiam 
+soli<lb break="no" ed="#Bb" n="35"/>dius esse, quam in inferioribus, ut supra
+<lb ed="#Bb" n="36"/>est ostensum +.
+</p>
+            <p xml:id="alalal-c27681-d1e968">
+               <lb ed="#Bb" n="37"/>Ad id autem quod ulterius objicitur,
+<lb ed="#Bb" n="38"/>dicendum, quod relatio accipitur, altero
+<lb ed="#Bb" n="39"/>quodam quod extra est, accepto : sed 
+re<lb break="no" ed="#Bb" n="40"/>latio per id quod est accidens et in 
+divi<lb break="no" ed="#Bb" n="41"/>nis substantia, non sic accipitur : et ideo
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="42"/>insufficienter consideratur per hoc 
+natu<lb break="no" ed="#Bb" n="43"/>ra relationis.
+</p>
+            <p xml:id="alalal-c27681-d1e988">
+               <lb ed="#Bb" n="44"/>Ad aliud dicendum, quod persone
+<lb ed="#Bb" n="45"/>distinguuntur eo quod ad alterum est:
+<lb ed="#Bb" n="46"/>ita tamen, quod etiam hypostasis que
+<lb ed="#Bb" n="47"/>substantia est, ad alterum sit : haec enim
+<lb ed="#Bb" n="48"/>duo non repugnant in divinis, ut 
+habi<lb break="no" ed="#Bb" n="49"/>tum est supra in questione de hypostasi,
+<lb ed="#Bb" n="50"/>in principio distinctionis XX VI.
+</p>
+            <p xml:id="alalal-c27681-d1e1006">
+               <lb ed="#Bb" n="51"/>Ad id quod ulterius objicitur de 
+sup<lb break="no" ed="#Bb" n="52"/>positionibus, dicendum quod uniens et
+<lb ed="#Bb" n="53"/>distinguens sunt idem secundum rem
+<lb ed="#Bb" n="54"/>quee est substantia, et non sunt idem in
+<lb ed="#Bb" n="55"/>modo praedicandi quem habet relatio ex
+<lb ed="#Bb" n="56"/>illa parte qua non comparatur ad 
+sub<lb break="no" ed="#Bb" n="57"/>stantiam, sed ad extra, ut dictum est:
+<lb ed="#Bb" n="58"/>et ideo patet ex hoc solutio omnium 
+eo<lb break="no" ed="#Bb" n="59"/>rum quae objecta sunt de prima 
+supposi<lb break="no" ed="#Bb" n="60"/>tione.
+</p>
+            <p xml:id="alalal-c27681-d1e1030">
+               <lb ed="#Bb" n="61"/>Ad simiuia autem inducta bene 
+conce<lb break="no" ed="#Bb" n="62"/>do, quod nihil valent : nec enim 
+osten<lb break="no" ed="#Bb" n="63"/>dunt qualiter proprietates et persone
+<lb ed="#Bb" n="64"/>uniantur in uno, nec qualiter sint unum.
+</p>
+            <p xml:id="alalal-c27681-d1e1041">
+               <lb ed="#Bb" n="65"/>Ad id quod objicitur de secunda 
+sup<lb break="no" ed="#Bb" n="66"/>positione, dicendum quod differentia 
+is<lb break="no" ed="#Bb" n="67"/>ta non est itaintellecta quin in re 
+signifi<lb break="no" ed="#Bb" n="68"/>cabilis sit : sed non est significabilis hoc
+<lb ed="#Bb" n="69"/>modo quo non facit differentiam : per id
+<lb ed="#Bb" n="70"/>autem quod est inesse, nullam facit 
+dif<lb break="no" ed="#Bb" n="71"/>ferentiam, ut jam habitum est: ergo ex
+<lb ed="#Bb" n="72"/>parte illa realiter non significatur: sed ex
+<lb ed="#Bb" n="73"/>parte illa qua ad alterum est relative,
+<lb ed="#Bb" n="74"/>possum dicere, quod essentia realiter ad
+<lb ed="#Bb" n="75"/>alterum non est, et persona realiter ad
+<lb ed="#Bb" n="76"/>alterum est : ergo intellectus fundatus in
+<lb ed="#Bb" n="77"/>illo, et aliquid attribuens uni quod non
+<lb ed="#Bb" n="78"/>convenit alteri, non erit cassus et vanus.
+</p>
+            <p xml:id="alalal-c27681-d1e1075">
+               <lb ed="#Bb" n="79"/>Et sic patet solutio ad totam 
+difficulta<lb break="no" ed="#Bb" n="80"/>tem quae objicitur ex positionibus 
+Picta<lb break="no" ed="#Bb" n="81"/>viensis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

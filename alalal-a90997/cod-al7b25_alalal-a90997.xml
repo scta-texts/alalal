@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 13</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 13</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="460"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a90997"><!-- l1d16a13 -->
+            <head xml:id="alalal-a90997-Hd1e99">Articulus 13</head>
+            <head xml:id="alalal-a90997-Hd1e101" type="question-title">An Pater potest dicit major Filio,
+et Filius minor Patre ?</head>
+            <p xml:id="alalal-a90997-d1e104">
+               <pb ed="#Ba" n="460"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ARTICULUS XIII.
+<lb ed="#Ba" n="2"/>An Pater potest dicit major Filio,
+<lb ed="#Ba" n="3"/>et Filius minor Patre ?
+</p>
+            <p xml:id="alalal-a90997-d1e117">
+               <lb ed="#Ba" n="4"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="5"/>
+               <quote xml:id="alalal-a90997-Qd1e123"> Hilarius autem dicere videtur, etc. </quote>
+            </p>
+            <p xml:id="alalal-a90997-d1e126">
+               <lb ed="#Ba" n="6"/>Videtur enim falsum : quia major aut
+<lb ed="#Ba" n="7"/>dicit relationem, aut essentiam. Si 
+rela<lb break="no" ed="#Ba" n="8"/>tionem : tunc correlativum suum erit in
+<lb ed="#Ba" n="9"/>Filio, et ita Filius erit minor. Si autem
+<lb ed="#Ba" n="10"/>dicit essentiam : tunc simpliciter falsum
+<lb ed="#Ba" n="11"/>est quod dicit.
+</p>
+            <p xml:id="alalal-a90997-d1e143">
+               <lb ed="#Ba" n="12"/>Ad hoc quidam dicunt, quod Pater 
+di<lb break="no" ed="#Ba" n="13"/>citur major : quia habet tres notiones,
+<lb ed="#Ba" n="14"/>scilicet innascibilitatem, paternitatem, et
+<lb ed="#Ba" n="15"/>Spirationem : tertia vero harum est in
+<lb ed="#Ba" n="16"/>Patre et Filio, et ideo penes illam non
+<lb ed="#Ba" n="17"/>dicitur major : paternitas autem habet
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="18"/>oppositam relationem qua dicitur Filius
+<lb ed="#Ba" n="19"/>non minor: sed tertia est innascibilitas,
+<lb ed="#Ba" n="20"/>qua scilicet Pater dicitur major: quia
+<lb ed="#Ba" n="21"/>vero in illa naturam habet sibi respon-~
+<lb ed="#Ba" n="22"/>dentem in Filio, ideo Filius ab opposito
+<lb ed="#Ba" n="23"/>respectu non potest dici minor. Sed hoc
+<lb ed="#Ba" n="24"/>nihil est : quia Hilarius hic in Littera
+<lb ed="#Ba" n="25"/>dicit, quod major donans est: sed donans
+<lb ed="#Ba" n="26"/>est paternitate : ergo major est 
+paterni<lb break="no" ed="#Ba" n="27"/>tate.
+</p>
+            <p xml:id="alalal-a90997-d1e182">
+               <lb ed="#Ba" n="28"/>Ideo dicendum, quod auctoritate
+<lb ed="#Ba" n="29"/>generationis major est, et ly major non
+<lb ed="#Ba" n="30"/>dicit nisi auctoritatem principii : sed quia
+<lb ed="#Ba" n="31"/>per rationem relationis in opposito 
+po<lb break="no" ed="#Ba" n="32"/>nitur per naturam aequale per omnia,
+<lb ed="#Ba" n="33"/>ideo non sequitur, quod filius sit minor,
+<lb ed="#Ba" n="34"/>sed aequalis majori: qui enim nascitur,
+<lb ed="#Ba" n="35"/>non procedit in minus, sed aequale 
+natu<lb break="no" ed="#Ba" n="36"/>ra et essentia et per omnia. Et hac est
+<lb ed="#Ba" n="37"/>intentio Hilarii, ut patet consideranti 
+Lit<lb break="no" ed="#Ba" n="38"/>teram capituli. Secus autem esset si 
+re<lb break="no" ed="#Ba" n="39"/>latio Patris importaret excessum sicut
+<lb ed="#Ba" n="40"/>dominus : quia tunc sequitur, quod Filius
+<lb ed="#Ba" n="41"/>esset minor.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

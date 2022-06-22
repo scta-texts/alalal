@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="15"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ii3195"><!-- l4d23a8 -->
+            <head xml:id="alalal-ii3195-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-ii3195-Hd1e101" type="question-title">An Reges debent inungi in scapulis oleo,
+non chrismate, et non in capite ?</head>
+            <p xml:id="alalal-ii3195-d1e104">
+               <lb ed="#Bf" n="6"/>ARTICULUS VIII.
+<lb ed="#Bf" n="7"/>An Reges debent inungi in scapulis oleo,
+<lb ed="#Bf" n="8"/>non chrismate, et non in capite ?
+</p>
+            <p xml:id="alalal-ii3195-d1e113">
+               <lb ed="#Bf" n="9"/>Deinde quaeritur de hoc quod dicit, ibi,
+  <lb ed="#Bf" n="10"/>A, § 2, ante finem : <quote xml:id="alalal-ii3195-Qd1e119"
+                      source="http://scta.info/resource/pl-l4d23c2-d1e112@55-60">Quo capita Regum
+<lb ed="#Bf" n="11"/>et Pontificum unguntur, etc. </quote>
+            </p>
+            <p xml:id="alalal-ii3195-d1e125">
+               <lb ed="#Bf" n="12"/>Contrarium enim est in consuetudine
+<lb ed="#Bf" n="13"/>Feclesiv : quia Reges non chrismate 
+un<lb break="no" ed="#Bf" n="14"/>guntur in capite, sed in scapulis.
+</p>
+            <p xml:id="alalal-ii3195-d1e135">
+               <lb ed="#Bf" n="15"/>Responsio. Dicendum, quod si velimus
+<lb ed="#Bf" n="16"/>sustincre quod dicit : tunc duorum 
+sub<lb break="no" ed="#Bf" n="17"/>stantivorum unum reducitur in 
+adjecti<lb break="no" ed="#Bf" n="18"/>vum alterius, ut sit sensus, quo capita
+<lb ed="#Bf" n="19"/>Regum Pontificum, id est, regalium 
+pon<lb break="no" ed="#Bf" n="20"/>tilicum : quia regale habent sacerdotium :
+<lb ed="#Bf" n="21"/>et tunc verum est quod dicit. Vel 
+possu<lb break="no" ed="#Bf" n="22"/>mus dicere, quod antiquitus in Veteri
+<lb ed="#Bf" n="23"/>Testamento reges habcbhant potestatem
+<lb ed="#Bf" n="24"/>super sacerdotes : quia non erant veri
+<lb ed="#Bf" n="25"/>sacerdotes, sed umbra verorum sacerdo-~
+<lb ed="#Bf" n="26"/>tum : et tunc ungebantur chrismate, et
+<lb ed="#Bf" n="27"/>in capite : modo autem quia sunt 
+mini<lb break="no" ed="#Bf" n="28"/>stri Ecclesia et non indigent gratia ad
+<lb ed="#Bf" n="29"/>spiritualia, eo quod ibi temporalia 
+admi<lb break="no" ed="#Bf" n="30"/>nistrant, non unguntur chrismate, sed
+<lb ed="#Bf" n="31"/>oleo, in quo notatur fama quam habere
+<lb ed="#Bf" n="32"/>debent apud subditos : et in scapulis in
+<lb ed="#Bf" n="33"/>quibus onera portantur, ut recognoscant
+<lb ed="#Bf" n="34"/>se positos esse ad supporlanda onera 
+sub<lb break="no" ed="#Bf" n="35"/>ditoram et Lvelesia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

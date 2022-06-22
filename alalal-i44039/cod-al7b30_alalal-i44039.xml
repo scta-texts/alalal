@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="210"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i44039"><!-- l4d30a1 -->
+            <head xml:id="alalal-i44039-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-i44039-Hd1e101" type="question-title">Quid sit error ?</head>
+            <p xml:id="alalal-i44039-d1e104">
+               <cb ed="#Bf" n="c"/>
+               <lb ed="#Bf" n="36"/>ARTICULUS I.
+<lb ed="#Bf" n="37"/>Quid sit error ?
+</p>
+            <p xml:id="alalal-i44039-d1e113">
+               <lb ed="#Bf" n="38"/>Incidit autem hic questio de errore.
+<lb ed="#Bf" n="39"/>Et queruntur ante Litteram quatuor.
+<lb ed="#Bf" n="40"/>Primum, Quid sit error ?
+<lb ed="#Bf" n="41"/>Secundum, Utrum ex sui natura 
+im<lb break="no" ed="#Bf" n="42"/>pediat matrimonium vel ex alio aliquo ?
+<lb ed="#Bf" n="43"/>Tertium, Quis sit error persone ?
+<lb ed="#Bf" n="44"/>Quartum, de divisione erroris quam
+<lb ed="#Bf" n="45"/>ponit Magister im Littera.
+</p>
+            <p xml:id="alalal-i44039-d1e133">
+               <lb ed="#Bf" n="46"/>Ab primum objicitur sic: Dicit 
+Augu<lb break="no" ed="#Bf" n="47"/>stinus, quod <quote xml:id="alalal-i44039-Qd1e139"> error est cum falsa pro 
+ve<lb break="no" ed="#Bf" n="48"/>ris approbantur : </quote> ergo error ost 
+appro<lb break="no" ed="#Bf" n="49"/>batio falsorum pro veris.
+</p>
+            <p xml:id="alalal-i44039-d1e148">
+               <pb ed="#Bf" n="211"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Videtur autem secundum hoc, quod
+<lb ed="#Bf" n="2"/>error non differat ab ignorantia : quia
+<lb ed="#Bf" n="3"/>1. Ex ignorantia facti falsa pro veris
+<lb ed="#Bf" n="4"/>approbantar : ergo ignorantia et error
+<lb ed="#Bf" n="5"/>suntidem, quod est contra Augustinum
+<lb ed="#Bf" n="6"/>in libro II de Libero arbitrio, ubi dicit,
+<lb ed="#Bf" n="7"/>quod ignorantia est nescentia alicujus 
+fa<lb break="no" ed="#Bf" n="8"/>ciendorum.
+</p>
+            <p xml:id="alalal-i44039-d1e172">
+               <lb ed="#Bf" n="9"/>2. Item, Videtur potius debere poni
+<lb ed="#Bf" n="10"/>isnorantia pro impedimento consensus,
+<lb ed="#Bf" n="11"/>Cum enim consensus debcat esse 
+volunta<lb break="no" ed="#Bf" n="12"/>rius, id quod est contrarium voluntati,
+<lb ed="#Bf" n="13"/>videtur esse contrarium consensui : sed
+<lb ed="#Bf" n="14"/>involuntarium per ignorantiam, est 
+con<lb break="no" ed="#Bf" n="15"/>trarium voluntati : ergo consensul : ergo
+<lb ed="#Bf" n="16"/>videtur, quod istud magis consensum
+<lb ed="#Bf" n="17"/>excludat : ergo magis debet poni pro 
+im<lb break="no" ed="#Bf" n="18"/>pedimento consensus.
+</p>
+            <p xml:id="alalal-i44039-d1e196">
+               <lb ed="#Bf" n="19"/>3. Item Voluntas supponit notitiam
+<lb ed="#Bf" n="20"/>voliti : ergo quod omnino privat notitia
+<lb ed="#Bf" n="21"/>voliti, magis tollit voluntatem quam id
+<lb ed="#Bf" n="22"/>quod relinquit notitiam in parte : sed
+<lb ed="#Bf" n="23"/>ivnorantia tollit in toto, error autem
+<lb ed="#Bf" n="24"/>tantum in parte : ergo videtur, quod
+<lb ed="#Bf" n="25"/>ignorantia plus impediat consensum,
+<lb ed="#Bf" n="26"/>quam error.
+</p>
+            <p xml:id="alalal-i44039-d1e216">
+               <lb ed="#Bf" n="27"/>4. Item, Non dicitur, quod error facti
+<lb ed="#Bf" n="28"/>excuset, sed potius ignorantia facti
+<lb ed="#Bf" n="29"/>quod autem in omnibus excusat, eo quod
+<lb ed="#Bf" n="30"/>non permittit esse voluntarium, illud
+<lb ed="#Bf" n="31"/>magis debet impedire consensum 
+matri<lb break="no" ed="#Bf" n="32"/>monii, quam illud quod non dicitur ibi :
+<lb ed="#Bf" n="33"/>sed ignorantia ab omnibus ponitur 
+excu<lb break="no" ed="#Bf" n="34"/>sare factum : ergo videtur, quod magis
+<lb ed="#Bf" n="35"/>sit ponendum impedimentum, quam
+<lb ed="#Bf" n="36"/>error.
+</p>
+            <p xml:id="alalal-i44039-d1e240">
+               <lb ed="#Bf" n="37"/>Ulterivs quaeritur : quia
+<lb ed="#Bf" n="38"/>1. Dicit Aristoteles, quod 
+involunta<lb break="no" ed="#Bf" n="39"/>rium per ignorantiam, conseguitur 
+ne<lb break="no" ed="#Bf" n="40"/>scientiam singularium, in quibus est actus
+<lb ed="#Bf" n="41"/>ct penitudo in actu: sed errorem non
+<lb ed="#Bf" n="42"/>concomitatur omnis ignorantia 
+particula<lb break="no" ed="#Bf" n="43"/>rium in quibus est actus : ergo videtur,
+<lb ed="#Bf" n="44"/>quod ignorantia magis sit ponenda 
+impe<lb break="no" ed="#Bf" n="45"/>dimentum quam error.
+</p>
+            <p xml:id="alalal-i44039-d1e262">
+               <lb ed="#Bf" n="46"/>2. Item, Videtur quod in omni men-
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="47"/>dacio et deceptione, falsa pro veris 
+ap<lb break="no" ed="#Bf" n="48"/>probantur : ergo videtur, quod in 
+omni<lb break="no" ed="#Bf" n="49"/>bus talibus sit error: ergo omnia talia
+<lb ed="#Bf" n="50"/>essent involuntaria, quod falsum est.
+</p>
+            <p xml:id="alalal-i44039-d1e279">
+               <lb ed="#Bf" n="51"/>Responsio. Dicendum, quod illa 
+diffini<lb break="no" ed="#Bf" n="52"/>tio erroris est bona : error enim non est
+<lb ed="#Bf" n="53"/>ignorantia vel nescientia : quia nescientia
+<lb ed="#Bf" n="54"/>est privatio scientiae cujuscumque rei
+<lb ed="#Bf" n="55"/>speculativie, et ideo non est peccatum :
+<lb ed="#Bf" n="56"/>sed ignorantia est nescientia 
+operando<lb break="no" ed="#Bf" n="57"/>rum quae debent sciri, et ideo peccatum
+<lb ed="#Bf" n="58"/>est : sed error non tollit totam scientiam,
+<lb ed="#Bf" n="59"/>sed quandoque fit ex eo quod 
+supponun<lb break="no" ed="#Bf" n="60"/>tur opposita principiorum, et tunc 
+vo<lb break="no" ed="#Bf" n="61"/>catur a Philosophis ignorantia male 
+dis<lb break="no" ed="#Bf" n="62"/>positionis, et tunc contingit in majori
+<lb ed="#Bf" n="63"/>propositione : quandoque autem 
+contin<lb break="no" ed="#Bf" n="64"/>git in minori propositione, et tunc est 
+er<lb break="no" ed="#Bf" n="65"/>ror qualitatis, vel persone, vel alicujus
+<lb ed="#Bf" n="66"/>alterius enumeratorum in Littera. Et ex
+<lb ed="#Bf" n="67"/>hoc patet, quod error semper 
+prasuppo<lb break="no" ed="#Bf" n="68"/>nit aliquam notitiam ejus circa quod 
+er<lb break="no" ed="#Bf" n="69"/>ratur, scilicet per famam, vel visum, vel
+<lb ed="#Bf" n="70"/>opinionem, sicut dicunt Jurisperiti: et
+<lb ed="#Bf" n="71"/>ideo patet, quod non est privatio pura :
+<lb ed="#Bf" n="72"/>et hoc est quod dicit diffinitio, vera pro
+<lb ed="#Bf" n="73"/>alsis approbare : quia ignorantia vel 
+ne<lb break="no" ed="#Bf" n="74"/>scientia nihil approbatur pro aliquo, sed
+<lb ed="#Bf" n="75"/>simpliciter privatur scientia ab ignorante :
+<lb ed="#Bf" n="76"/>sed error in majori propositione est sicut
+<lb ed="#Bf" n="77"/>error juris, et error in minori est sicut
+<lb ed="#Bf" n="78"/>error facti, sicut error Nicolai, Apocal.
+<lb ed="#Bf" n="79"/>1, 6, qui ideo quod dixit Deus : <quote xml:id="alalal-i44039-Qd1e344">Crescite</quote>,
+<lb ed="#Bf" n="80"/>etc. *, dixit non esse peccatum mulieri
+<lb ed="#Bf" n="81"/>quocumque modo commisceri in sexu
+<lb ed="#Bf" n="82"/>quem Dominus creavit, et cujus 
+commix<lb break="no" ed="#Bf" n="83"/>tionem precepit et fructum benedixit.
+<lb ed="#Bf" n="84"/>Error autem Jacob, Genes. xxix, 23 et
+<lb ed="#Bf" n="85"/>seq., fuit sicut error facti, qui factum ad
+<lb ed="#Bf" n="86"/>non factum revocat.
+</p>
+            <p xml:id="alalal-i44039-d1e362">
+               <lb ed="#Bf" n="87"/>Et per hoc patet solutio ad primum.
+</p>
+            <p xml:id="alalal-i44039-d1e367">
+               <lb ed="#Bf" n="88"/>Ad omnia alia praeter ultimum est una
+<lb ed="#Bf" n="89"/>solutio, quod in ignorantia et nescientia
+<lb ed="#Bf" n="90"/>nullus est omnino consensus : quia de
+<lb ed="#Bf" n="91"/>ignorato nulla est cognitio, et ideo 
+num<lb break="no" ed="#Bf" n="92"/>quam contingit fieri consensum matri-
+<pb ed="#Bf" n="212"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>monii: et ideo non evacuat eum: sed
+<lb ed="#Bf" n="2"/>errans cogitat de co quod secundum quid
+<lb ed="#Bf" n="3"/>novit et non perfecte : et ideo alium pro
+<lb ed="#Bf" n="4"/>eo accipit, sed in eum quem secundum
+<lb ed="#Bf" n="5"/>quid novit, consentit : et ideo evacuat
+<lb ed="#Bf" n="6"/>consensum in istum : licet non 
+simplici<lb break="no" ed="#Bf" n="7"/>ter evacuet consensum in eum qui 
+secun<lb break="no" ed="#Bf" n="8"/>dum quid notus est.
+</p>
+            <p xml:id="alalal-i44039-d1e402">
+               <lb ed="#Bf" n="9"/>Ad tirmum dicendum, quod in omni
+<lb ed="#Bf" n="10"/>mendacio est intentio decipiendi : sed
+<lb ed="#Bf" n="11"/>non decipitur qui mentitur : quia non 
+ap<lb break="no" ed="#Bf" n="12"/>probat quod dicit : sed audiens circa 
+di<lb break="no" ed="#Bf" n="13"/>clum errare et decipi potest: et ideo circa
+<lb ed="#Bf" n="14"/>audientem mendacium bene potest error
+<lb ed="#Bf" n="15"/>allingere.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

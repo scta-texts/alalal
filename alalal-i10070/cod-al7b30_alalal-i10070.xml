@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="46"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i10070"><!-- l4d24a12 -->
+            <head xml:id="alalal-i10070-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-i10070-Hd1e101" type="question-title">Qualiter illius peccati remedia possunt
+acquiri</head>
+            <p xml:id="alalal-i10070-d1e104">
+               <lb ed="#Bf" n="16"/>ARTICULUS XIL.
+<lb ed="#Bf" n="17"/>Qualiter illius peccati remedia possunt
+<lb ed="#Bf" n="18"/>acquiri
+</p>
+            <p xml:id="alalal-i10070-d1e113">
+               <lb ed="#Bf" n="19"/>Sexto queritur, Qualiter illius peccati
+<lb ed="#Bf" n="20"/>remedia acquirantur ?
+</p>
+            <p xml:id="alalal-i10070-d1e120">
+               <lb ed="#Bf" n="21"/>Videtur autem, quod per 
+dispensatio<lb break="no" ed="#Bf" n="22"/>nem : quia
+<lb ed="#Bf" n="23"/>1. Constat, quod qui habet 
+universita<lb break="no" ed="#Bf" n="24"/>tem potestatis, pofestatem habet 
+dispen<lb break="no" ed="#Bf" n="25"/>sandi : sed dispensatio est juris 
+relaxa<lb break="no" ed="#Bf" n="26"/>tio : ergo isti potest relaxari quod de
+<lb ed="#Bf" n="27"/>jure tenetur facere : sed de jure tenetur
+<lb ed="#Bf" n="28"/>esse dignus vita et scientia : ergo hoc
+<lb ed="#Bf" n="29"/>relaxari potest ei.
+</p>
+            <p xml:id="alalal-i10070-d1e143">
+               <lb ed="#Bf" n="30"/>2. Adhuc, Nos videmus hoc tota die
+<lb ed="#Bf" n="31"/>fieri in curia Domini Pape, de qua non
+<lb ed="#Bf" n="32"/>licet presumere, quod aliquid fiat 
+inju<lb break="no" ed="#Bf" n="33"/>stum: ergo videtur, quod per 
+dispensa<lb break="no" ed="#Bf" n="34"/>tionem hoc fieri possit.
+</p>
+            <p xml:id="alalal-i10070-d1e156">
+               <lb ed="#Bf" n="35"/>3. Adhuc, Non est nostrum judicare
+<lb ed="#Bf" n="36"/>de dispensatione : ergo videtur, quod
+<lb ed="#Bf" n="37"/>vel ille cum quo dispensatur omnino
+<lb ed="#Bf" n="38"/>deceptus sit, vel ipse absolvitur a 
+pec<lb break="no" ed="#Bf" n="39"/>cato. ,
+</p>
+            <p xml:id="alalal-i10070-d1e169">
+               <lb ed="#Bf" n="40"/>In contrarium hujus est quod dicit
+<lb ed="#Bf" n="41"/>Bernardus ad Eugenium Papam, quod
+<lb ed="#Bf" n="42"/>si dispensatio careat causa utilitatis pu-
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="43"/>blicae vel necessitatis legitime, 
+dispen<lb break="no" ed="#Bf" n="44"/>satio non dispensatio, sed dissipatio est.
+</p>
+            <p xml:id="alalal-i10070-d1e185">
+               <lb ed="#Bf" n="45"/>Responsio. Dicendum, quod cum 
+indi<lb break="no" ed="#Bf" n="46"/>gno numguam ita dispensari potest, quin
+<lb ed="#Bf" n="47"/>ipse peccet mortaliter quolibet actu 
+ad<lb break="no" ed="#Bf" n="48"/>ministrationis, quamdiu est imdignus.
+<lb ed="#Bf" n="49"/>Dominus enim Papa sicut ipsemet in
+<lb ed="#Bf" n="50"/>quadam Decretali protestatur, 
+unum<lb break="no" ed="#Bf" n="51"/>quemque proprie conscientia quoad
+<lb ed="#Bf" n="52"/>Deum relinguit : sed quandoque, co
+<lb ed="#Bf" n="53"/>quod oportet mala tolerare ne eveniant
+<lb ed="#Bf" n="54"/>pejora, hoc modo dispensat, quod in
+<lb ed="#Bf" n="55"/>judicio hominum cis hoc super quo 
+dis<lb break="no" ed="#Bf" n="56"/>pensatum est, objici non possit.
+</p>
+            <p xml:id="alalal-i10070-d1e214">
+               <lb ed="#Bf" n="57"/>Ad hoc ergo quod primo objicitur,
+<lb ed="#Bf" n="58"/>dicendum quod habet universitatem 
+po<lb break="no" ed="#Bf" n="59"/>testatis super judicia hominum, sed non
+<lb ed="#Bf" n="60"/>super judicium divinum : et hoc est 
+judi<lb break="no" ed="#Bf" n="61"/>cium conscientia.
+</p>
+            <p xml:id="alalal-i10070-d1e227">
+               <lb ed="#Bf" n="62"/>Ad aliud dicendum, quod abusiones
+<lb ed="#Bf" n="63"/>non diminuunt mala, sed agegravant : et
+<lb ed="#Bf" n="64"/>ideo si in talibus dispensationibus 
+pre<lb break="no" ed="#Bf" n="65"/>latus aliquid facit, ipse peccat mortaliter.
+<lb ed="#Bf" n="66"/>Si autem patitur necessitate mali 
+com<lb break="no" ed="#Bf" n="67"/>pulsus ne eveniat pejus, tunc non peccat
+<lb ed="#Bf" n="68"/>mortaliter, sed tunc non dispensat, sed
+<lb ed="#Bf" n="69"/>dissimulat ad tempus donec corrigi
+<lb ed="#Bf" n="70"/>possit.
+</p>
+            <p xml:id="alalal-i10070-d1e250">
+               <lb ed="#Bf" n="71"/>Ad aliud dicendum, quod verum est,
+<lb ed="#Bf" n="72"/>quod non est nostrum ut judices simus :
+<lb ed="#Bf" n="73"/>sed tamen nostrum est ut doctores 
+si<lb break="no" ed="#Bf" n="74"/>mus, et cognoscere speculative, quid
+<lb ed="#Bf" n="75"/>dignum, et quid justum est, et hoc aliis
+<lb ed="#Bf" n="76"/>dicere : unde non cognoscimus per 
+mo<lb break="no" ed="#Bf" n="77"/>dum judicii ut corrigamus vel puniamus :
+<lb ed="#Bf" n="78"/>sed cognoscimus per modum sapientium
+<lb ed="#Bf" n="79"/>in lege Dei, quid legi Dei concordat, et
+<lb ed="#Bf" n="80"/>quid ab ca discordat, a quocumque 
+ho<lb break="no" ed="#Bf" n="81"/>minum agitur sive superiore sive 
+infe<lb break="no" ed="#Bf" n="82"/>riore.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

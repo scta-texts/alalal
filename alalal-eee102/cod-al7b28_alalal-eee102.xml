@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="2"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-eee102"><!-- l3d1dt1 -->
+            <head xml:id="alalal-eee102-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-eee102-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="14"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-eee102-d1e108">
+               <lb ed="Bd" n="15"/>
+               <quote xml:id="alalal-eee102-Qd1e112"> Cum venit igitur plenitudo 
+tempo<lb break="no" ed="Bd" n="16"/>ris, misit Deus Filium suum, factum
+<lb ed="Bd" n="17"/>ex muliere, factum sub lege, ut eos qui
+<lb ed="Bd" n="18"/>sub lege erant redimeret.</quote>
+               <lb ed="Bd" n="19"/>Iste est tertius liber de reparatione
+<lb ed="Bd" n="20"/>generis humani, vel hominis lapsi in his
+<lb ed="Bd" n="21"/>reparantibus quae sunt per modum rerum
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="22"/>et signorum. Et ideo dividitur in duas
+<lb ed="Bd" n="23"/>partes : in quarum prima agitur de 
+re<lb break="no" ed="Bd" n="24"/>paratore et convenientibus ei in eo quod
+<lb ed="Bd" n="25"/>reparator est : quia ipse reparator 
+repa<lb break="no" ed="Bd" n="26"/>rat effective. In secunda autem agitur
+<lb ed="Bd" n="27"/>de dispositionibus quae reparant 
+forma<lb break="no" ed="Bd" n="28"/>liter, ut de virtutibus, et donis, et 
+pre<lb break="no" ed="Bd" n="29"/>ceptis : quia ille dispositiones 
+supponun<lb break="no" ed="Bd" n="30"/>tur in hac doctrina, ut res, et non ut
+<lb ed="Bd" n="31"/>signa. Et haec secunda pars incipit in
+<lb ed="Bd" n="32"/>distinctione XXXIII, ubi dicit : <quote xml:id="alalal-eee102-Qd1e154"> Cum
+<lb ed="Bd" n="33"/>vero, etc. </quote>
+            </p>
+            <p xml:id="alalal-eee102-d1e160">
+               <pb ed="#Bd" n="3"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Prima harum in duas dividitur: in
+<lb ed="Bd" n="2"/>quarum prima agit de his quae perficiunt
+<lb ed="Bd" n="3"/>unionem Filii Dei ad naturam humanam,
+<lb ed="Bd" n="4"/>et e converso. In secunda autem tangit
+<lb ed="Bd" n="5"/>de ipsis proprietatibus quae conveniunt
+<lb ed="Bd" n="6"/>ipsi Christo Filio Dei et filio hominis 
+se<lb break="no" ed="Bd" n="7"/>cundum quod unitus est, et gratia 
+unio<lb break="no" ed="Bd" n="8"/>nis ipsius. Et haec incipit in distinctione
+<lb ed="Bd" n="9"/>VI, ubi dicit: <quote xml:id="alalal-eee102-Qd1e186"> Ex praedictis autem
+<lb ed="Bd" n="10"/>emergit questio, etc. </quote>
+            </p>
+            <p xml:id="alalal-eee102-d1e192">
+               <lb ed="Bd" n="11"/>Et prima harum continens quinque
+<lb ed="Bd" n="12"/>distinctiones, dividitur ulterius in tres
+<lb ed="Bd" n="13"/>partes, secundum quod tria_perficiunt
+<lb ed="Bd" n="14"/>unionem, scilicet, uniens, unitum, et
+<lb ed="Bd" n="15"/>utrumque simul sociatum. Unde in 
+pri<lb break="no" ed="Bd" n="16"/>ma agit de uniente. In secunda, de unito
+<lb ed="Bd" n="17"/>sive assumpto. Et hac incipit in secunda
+<lb ed="Bd" n="18"/>distinctione, ibi, A, <quote xml:id="alalal-eee102-Qd1e211"> Et quia in 
+homi<lb break="no" ed="Bd" n="19"/>ne tota natura humana, etc. </quote> In tertia,
+<lb ed="Bd" n="20"/>agit de utroque simul : et haec incipit in
+<lb ed="Bd" n="21"/>tertia dislinctione, ibi, A, <quote xml:id="alalal-eee102-Qd1e221"> Queritur
+<lb ed="Bd" n="22"/>etiam de carne Verbi, etc. </quote>
+            </p>
+            <p xml:id="alalal-eee102-d1e228">
+               <lb ed="Bd" n="23"/>Prima distinctio dividitur in duas 
+par<lb break="no" ed="Bd" n="24"/>tes: in quarum prima agit de tempore
+<lb ed="Bd" n="25"/>incarnationis, sive unionis ad carnem.
+<lb ed="Bd" n="26"/>In secunda, de uniente alium in 
+per<lb break="no" ed="Bd" n="27"/>sona : et haec incipit in secundo 
+capi<lb break="no" ed="Bd" n="28"/>tulo, ibi, B, <quote xml:id="alalal-eee102-Qd1e243"> Diligenier vero 
+annotan<lb break="no" ed="Bd" n="29"/>dum est, etc. </quote>
+            </p>
+            <p xml:id="alalal-eee102-d1e249">
+               <lb ed="Bd" n="30"/>Et haec ulterius dividitur in duas 
+par<lb break="no" ed="Bd" n="31"/>tes : in quarum prima determinat quare
+<lb ed="Bd" n="32"/>Filius, non Pater, nec Spiritus sanctus
+<lb ed="Bd" n="33"/>sibi carnem univit. In secunda, tangit
+<lb ed="Bd" n="34"/>dubitationem circa hoc, ibi, D, <quote xml:id="alalal-eee102-Qd1e262"> Sed
+<lb ed="Bd" n="35"/>forte aliqui dicent, etc. </quote>
+            </p>
+            <p xml:id="alalal-eee102-d1e268">
+               <lb ed="Bd" n="36"/>Adhuc prior habet duas partes, ita
+<lb ed="Bd" n="37"/>quod in prima probat quod dictum est :
+<lb ed="Bd" n="38"/>in secunda, solvit questionem circa hoc
+<lb ed="Bd" n="39"/>incidentem, ibi, C, <quote xml:id="alalal-eee102-Qd1e278"> Si vero quaeritur. </quote>
+            </p>
+            <p xml:id="alalal-eee102-d1e281">
+               <lb ed="Bd" n="40"/>In primo capitulo tria facit. Primo
+<lb ed="Bd" n="41"/>dicitur, quod cum venit plenitudo 
+tem<lb break="no" ed="Bd" n="42"/>poris misit Deus Filium suum. 
+Secun<lb break="no" ed="Bd" n="43"/>do, explanat quid est temporis 
+plenitu<lb break="no" ed="Bd" n="44"/>do. Tertio, explanat quid est Filium
+<lb ed="Bd" n="45"/>mitti, sicut patet in Littera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

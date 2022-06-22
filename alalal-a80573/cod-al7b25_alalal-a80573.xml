@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 15</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 15</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="404"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a80573"><!-- l1d14a15 -->
+            <head xml:id="alalal-a80573-Hd1e99">Articulus 15</head>
+            <head xml:id="alalal-a80573-Hd1e101" type="question-title">An Spiritu sancto non existente Pater
+potest immittere dilectionem suam ?</head>
+            <p xml:id="alalal-a80573-d1e104">
+               <lb ed="#Ba" n="71"/>ARTICULUS XV.
+<lb ed="#Ba" n="72"/>An Spiritu sancto non existente Pater
+<lb ed="#Ba" n="73"/>potest immittere dilectionem suam ?
+</p>
+            <p xml:id="alalal-a80573-d1e113">
+               <lb ed="#Ba" n="74"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="#Ba" n="75"/>
+               <quote xml:id="alalal-a80573-Qd1e119"> Unus est Spiritus sanctus, qui datus
+<lb ed="#Ba" n="76"/>est omnibus, licet separatis, etc. </quote>
+            </p>
+            <p xml:id="alalal-a80573-d1e125">
+               <lb ed="#Ba" n="77"/>1. Si enim non sit Spiritus sanctus, si
+<lb ed="#Ba" n="78"/>hoc scilicet per impossibile ponatur, 
+ad<lb break="no" ed="#Ba" n="79"/>huc Deus diliget creaturam rationalem,
+<lb ed="#Ba" n="80"/>et suam eis infundet dilectionem : ergo
+<pb ed="#Ba" n="405"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>videtur quod immissio dilectionis non sit
+<lb ed="#Ba" n="2"/>missio Spiritus.
+</p>
+            <p xml:id="alalal-a80573-d1e146">
+               <lb ed="#Ba" n="3"/>2. Praeterea, Ponamus nullam esse
+<lb ed="#Ba" n="4"/>personam eo modo quo fides distinguit
+<lb ed="#Ba" n="5"/>personas : quaero, utrum adhuc Deo
+<lb ed="#Ba" n="6"/>conveniat mitti? Videtur, quod non :
+<lb ed="#Ba" n="7"/>quia mitti est cognosci quod ab alio sit :
+<lb ed="#Ba" n="8"/>tunc autem nullus ab alio erit: ergo 
+vi<lb break="no" ed="#Ba" n="9"/>detur, quod non conveniat ei tunc mitti.</p>
+            <p xml:id="alalal-a80573-d1e164">
+               <lb ed="#Ba" n="10"/>Contra : Adhuc erit perfecte potens
+<lb ed="#Ba" n="11"/>salvare : non autem potest esse salus nisi
+<lb ed="#Ba" n="12"/>per id quod sanctificando revocat 
+aber<lb break="no" ed="#Ba" n="13"/>rantes : ergo videtur cum hoc sit mitti,
+<lb ed="#Ba" n="14"/>quod adhue possit mittere et dare, et
+<lb ed="#Ba" n="15"/>mitti et dari.
+</p>
+            <p xml:id="alalal-a80573-d1e180">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="16"/>Solutio. Dicendum, quod si ponamus
+<lb ed="#Ba" n="17"/>Spiritum sanctum non esse, non erit 
+di<lb break="no" ed="#Ba" n="18"/>lectio in divinis nisi essentialis tantum :
+<lb ed="#Ba" n="19"/>et illa cordibus infunderetur, ut dictum
+<lb ed="#Ba" n="20"/>est : sed hoc non erit missio alicujus,
+<lb ed="#Ba" n="21"/>quod enim non est Filii, patet hoc, quia
+<lb ed="#Ba" n="22"/>non est effectus appropriabilis Filio :
+<lb ed="#Ba" n="23"/>quod autem non Patris, patet, quia Pater
+<lb ed="#Ba" n="24"/>non est ab alio.
+</p>
+            <p xml:id="alalal-a80573-d1e204">
+               <lb ed="#Ba" n="25"/>Ad aliud dicendum, quod si nulla 
+po<lb break="no" ed="#Ba" n="26"/>natur esse persona, non erit aliqua mis~
+<lb ed="#Ba" n="27"/>sio proprie loquendo : sed adhuc Deus
+<lb ed="#Ba" n="28"/>potest dare se in effectu gratiz.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

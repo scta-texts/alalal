@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="57"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a11351"><!-- l1d2a3 -->
+            <head xml:id="alalal-a11351-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-a11351-Hd1e101" type="question-title">Utrum purgatissimis mentibus tantum
+cernatur Deus ?</head>
+            <p xml:id="alalal-a11351-d1e104">
+               <lb ed="#Ba" n="81"/>ARTICULUS II.
+<lb ed="#Ba" n="82"/>Utrum purgatissimis mentibus tantum
+<lb ed="#Ba" n="83"/>cernatur Deus ?
+</p>
+            <p xml:id="alalal-a11351-d1e113">
+               <lb ed="#Ba" n="84"/>Deinde objicitur de hoc quod dicitur:
+<lb ed="#Ba" n="85"/>
+               <quote xml:id="alalal-a11351-Qd1e119"> Quod purgatissimis mentibus 
+cern<lb break="no" ed="#Ba" n="86"/>nitur, etc. </quote>
+            </p>
+            <p xml:id="alalal-a11351-d1e125">
+               <lb ed="#Ba" n="87"/>Purgatissimus cnim animus non est
+<lb ed="#Ba" n="88"/>nisi purgatus a culpa, et a miseria: et
+<lb ed="#Ba" n="89"/>taliter purgati non sunt nisi beati: ergo
+<pb ed="#Ba" n="58"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>frustra nobis mortalibus adhuc traditur
+<lb ed="#Ba" n="2"/>haecdoctrina.
+</p>
+            <p xml:id="alalal-a11351-d1e144">
+               <lb ed="#Ba" n="3"/>Ad hoc dicendum, quod purgatio 
+vo<lb break="no" ed="#Ba" n="4"/>catur secundum naturam eorum a 
+qui<lb break="no" ed="#Ba" n="5"/>bus purgatur mens secundum 
+possibili<lb break="no" ed="#Ba" n="6"/>tatem vie: haec autem sunt ex parte
+<lb ed="#Ba" n="7"/>affectus, et ex parte intellectus. Ex parte
+<lb ed="#Ba" n="8"/>affectus quidem primo peccatum, 
+se<lb break="no" ed="#Ba" n="9"/>cundo pronitas relicta ex peccato, tertio
+<lb ed="#Ba" n="10"/>fomitis incendium, quarto removentur
+<lb ed="#Ba" n="11"/>occasiones peccati ab extrinseco. Ex parte
+<lb ed="#Ba" n="12"/>intellectus autem tollitur prasentia 
+cor<lb break="no" ed="#Ba" n="13"/>poris quae est ad sensum, et secundo
+<lb ed="#Ba" n="14"/>presentia imaginis corporalis ab 
+ima<lb break="no" ed="#Ba" n="15"/>gine, tertio actus imtellectus accipientis
+<lb ed="#Ba" n="16"/>ex phantasmate, quarto actus intellectus
+<lb ed="#Ba" n="17"/>progredientis ex principiis sibi notis 
+se<lb break="no" ed="#Ba" n="18"/>cundum Philosophiam. Ad haecenim
+<lb ed="#Ba" n="19"/>quatuor sequitur, quod elevet se supra
+<lb ed="#Ba" n="20"/>se ad lumen fidei: et tunc cernit Deum
+<lb ed="#Ba" n="21"/>trinum esse et unum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

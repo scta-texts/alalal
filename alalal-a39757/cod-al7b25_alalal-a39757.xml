@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="201"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a39757"><!-- l1d6a3 -->
+            <head xml:id="alalal-a39757-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-a39757-Hd1e101" type="question-title">An auctoritates iste Sanctorum sunt
+vere, qui dicunt quod voluntate 
+genuit Filium ?</head>
+            <p xml:id="alalal-a39757-d1e104">
+               <lb ed="#Ba" n="14"/>ARTICULUS III.
+<lb ed="#Ba" n="15"/>An auctoritates iste Sanctorum sunt
+<lb ed="#Ba" n="16"/>vere, qui dicunt quod voluntate 
+ge<lb break="no" ed="#Ba" n="17"/>nuit Filium ?
+</p>
+            <p xml:id="alalal-a39757-d1e115">
+               <lb ed="#Ba" n="18"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="#Ba" n="19"/>secunda parte, B, <quote xml:id="alalal-a39757-Qd1e121"> Hoc autem facile est
+<lb ed="#Ba" n="20"/>refellere, etc. </quote>
+            </p>
+            <p xml:id="alalal-a39757-d1e127">
+               <lb ed="#Ba" n="21"/>1. Videntur enim quidam Sancti 
+ex<lb break="no" ed="#Ba" n="22"/>presse dicere, quod voluntate genuit : 
+un<lb break="no" ed="#Ba" n="23"/>de Hilarius in libro III de Trinitate : 
+In<lb break="no" ed="#Ba" n="24"/>comprehensibilem et inennarrabilem ante
+<lb ed="#Ba" n="25"/>omne tempus et ante secula unigenitum
+<lb ed="#Ba" n="26"/>ex his quae in se ingenita erant, procreavit
+<lb ed="#Ba" n="27"/>omne quod Deus est percharitatem ejus
+<lb ed="#Ba" n="28"/>atque virtutem ei impertiens: charitas
+<lb ed="#Ba" n="29"/>autem est dispositio voluntatis :ergo 
+vo<lb break="no" ed="#Ba" n="30"/>luntate genuit.
+</p>
+            <p xml:id="alalal-a39757-d1e152">
+               <lb ed="#Ba" n="31"/>2. Item, Hilarius : Ex toto Patre totus
+<lb ed="#Ba" n="32"/>Filius est natus : non aliunde, quia nihil
+<lb ed="#Ba" n="33"/>antequam Filius : nom in parte, quia 
+ple<lb break="no" ed="#Ba" n="34"/>nitudo deitatis in Filio: nec in 
+aliqui<lb break="no" ed="#Ba" n="35"/>bus, quia in omnibus: sed utvoluit qui
+<lb ed="#Ba" n="36"/>potuit, et ut scivit qui genuit.
+</p>
+            <p xml:id="alalal-a39757-d1e168">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="37"/>3. Item, <name xml:id="alalal-a39757-Nd1e174">Origenes</name> : Germen proferens
+<lb ed="#Ba" n="38"/>voluntatis factus est Verbi Pater.
+</p>
+            <p xml:id="alalal-a39757-d1e179">
+               <lb ed="#Ba" n="39"/>4. Item, Ad idem est ratio: dicit enim
+<lb ed="#Ba" n="40"/>Augustinus in libro IX de Trinitate,
+<lb ed="#Ba" n="41"/>quod partum mentis praecedit appetitus
+<lb ed="#Ba" n="42"/>rei querenda, qui postea fit amor 
+cogni<lb break="no" ed="#Ba" n="43"/>te: ergo cum partus divinus sit partus
+<lb ed="#Ba" n="44"/>mentis, quia verbum, videtur quod 
+par<lb break="no" ed="#Ba" n="45"/>tum Filii voluntas antecedens 
+preces<lb break="no" ed="#Ba" n="46"/>serit.
+</p>
+            <p xml:id="alalal-a39757-d1e199">
+               <lb ed="#Ba" n="47"/>5. Item, In omnibus in quibus in idem
+<lb ed="#Ba" n="48"/>opus concurrunt natura et voluntas, 
+vo<lb break="no" ed="#Ba" n="49"/>juntas praecedit opus ut inclinans et 
+mo<lb break="no" ed="#Ba" n="50"/>vens primum: et hoc contingit propter
+<lb ed="#Ba" n="51"/>voluntatis libertatem ; ergo videtur etiam,
+<lb ed="#Ba" n="52"/>quod in Deo opus nature quod est 
+gene<lb break="no" ed="#Ba" n="53"/>ratio, voluntas preveniat ad minus 
+se<lb break="no" ed="#Ba" n="54"/>cundum rationem,
+</p>
+            <p xml:id="alalal-a39757-d1e219">
+               <lb ed="#Ba" n="55"/>6. Praeterea, Sicut differunt moventia,
+<lb ed="#Ba" n="56"/>ita differunt mota : natura autem et 
+vo<lb break="no" ed="#Ba" n="57"/>luntas sunt duo moventia: ergo secun~
+<lb ed="#Ba" n="58"/>dum differentiam eorum est differentia
+<lb ed="#Ba" n="59"/>operum et motuum: sed voluntas 
+nobi<lb break="no" ed="#Ba" n="60"/>lior est natura: ergo nobilius est opus
+<lb ed="#Ba" n="61"/>ejus: ergo cum nobilissimum sit opus
+<lb ed="#Ba" n="62"/>generationis divine, ipsa debet esse 
+pra<lb break="no" ed="#Ba" n="63"/>cedens opus.</p>
+            <p xml:id="alalal-a39757-d1e241">
+               <pb ed="#Ba" n="202"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Sed contra hoc est quod dicit Hilarius
+<lb ed="#Ba" n="2"/>in libro de Synodis : Si quis voluntate
+<lb ed="#Ba" n="3"/>Dei Filium tamquam de creaturis 
+fa<lb break="no" ed="#Ba" n="4"/>ctum dicat, anathema sit.
+</p>
+            <p xml:id="alalal-a39757-d1e258">
+               <lb ed="#Ba" n="5"/>Solutio. Dicendum, quod voluntas
+<lb ed="#Ba" n="6"/>accedens et praecedens non cadit in Deum
+<lb ed="#Ba" n="7"/>respectu generationis Filii : et due 
+au<lb break="no" ed="#Ba" n="8"/>ctoritates Hilarii primo inducte 
+intelli<lb break="no" ed="#Ba" n="9"/>guntur de voluntate concurrente cum
+<lb ed="#Ba" n="10"/>opere sive concomitante opus, ut supra
+<lb ed="#Ba" n="11"/>diximus.
+</p>
+            <p xml:id="alalal-a39757-d1e276">
+               <lb ed="#Ba" n="12"/>Ad aliud dicendum, quod germen 
+vo<lb break="no" ed="#Ba" n="13"/>luntatis vocatur ab Origene in quo 
+pla<lb break="no" ed="#Ba" n="14"/>citum Patris quievit, sicut ipse dixit,
+<lb ed="#Ba" n="15"/>Matth. ur, 17: Me est Filius meus 
+di<lb break="no" ed="#Ba" n="16"/>lectus, in quo mihi complacui.
+</p>
+            <p xml:id="alalal-a39757-d1e289">
+               <lb ed="#Ba" n="17"/>Ap azn dicendum, quod partum 
+men<lb break="no" ed="#Ba" n="18"/>tis praecedit amor, non partus, sed 
+parien<lb break="no" ed="#Ba" n="19"/>di: et hoc est dum que#rit mens quod 
+pa<lb break="no" ed="#Ba" n="20"/>riat: sed amor partus qui perfectus amor
+<lb ed="#Ba" n="21"/>est, sequitur partum secundum rationem :
+<lb ed="#Ba" n="22"/>perfectio autem summa in Deo est : et
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="23"/>ideo rei non est in eo appetitus non 
+ha<lb break="no" ed="#Ba" n="24"/>bite, vel non facte. Unde Augustinus 
+lo<lb break="no" ed="#Ba" n="25"/>quitur ibi de mente creata querente 
+pro<lb break="no" ed="#Ba" n="26"/>pter imperfectionem suae scientiz.
+</p>
+            <p xml:id="alalal-a39757-d1e315">
+               <lb ed="#Ba" n="27"/>Ad aliud dicendum, quod illa ratio 
+te<lb break="no" ed="#Ba" n="28"/>net in rationali natura creata, cujus una
+<lb ed="#Ba" n="29"/>pars melior est alia, et una imperans et
+<lb ed="#Ba" n="30"/>unaimperata. Sic autem non est in 
+divi<lb break="no" ed="#Ba" n="31"/>na natura: et ideo in Deo non praecedit
+<lb ed="#Ba" n="32"/>voluntas naturam.
+</p>
+            <p xml:id="alalal-a39757-d1e331">
+               <lb ed="#Ba" n="33"/>Ad aliud dicendum, quod si ista 
+pre<lb break="no" ed="#Ba" n="34"/>positio generaliter intelhgatur, sicut 
+dil<lb break="no" ed="#Ba" n="35"/>ferunt operantia sic differunt opera,
+<lb ed="#Ba" n="36"/>ipsa est falsa: quia plurium opera nature
+<lb ed="#Ba" n="37"/>meliora sunt operibus voluntatis: in Deo
+<lb ed="#Ba" n="38"/>tamen idem est secundum rem voluntas
+<lb ed="#Ba" n="39"/>et natura: non tamen de quocumque
+<lb ed="#Ba" n="40"/>est unum, de eodem est etiam aliud : quia
+<lb ed="#Ba" n="41"/>differunt in subjectis, et in ratione, sicut
+<lb ed="#Ba" n="42"/>dicit Magister in Litlera. ;
+</p>
+            <p xml:id="alalal-a39757-d1e355">
+               <lb ed="#Ba" n="43"/>Alia autem quae hic dicuntur, 
+mani<lb break="no" ed="#Ba" n="44"/>festa per se sunt.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

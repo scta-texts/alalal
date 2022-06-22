@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="448"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e85828"><!-- l3d24a3 -->
+            <head xml:id="alalal-e85828-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-e85828-Hd1e101" type="question-title">An fides potest esse de rebus praesentibus,
+cum tamen visto evacuat fidem ?</head>
+            <p xml:id="alalal-e85828-d1e104">
+               <lb ed="Bd" n="70"/>ARTICULUS III.
+<lb ed="Bd" n="71"/>An fides potest esse de rebus praesentibus,
+<lb ed="Bd" n="72"/>cum tamen visto evacuat fidem ?
+</p>
+            <p xml:id="alalal-e85828-d1e113">
+               <lb ed="Bd" n="73"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="74"/>ibi, A, sub finem: <quote xml:id="alalal-e85828-Qd1e119"> Alibi dicit 
+Augu<lb break="no" ed="Bd" n="75"/>stinus fidem esse de rebus presentibus,
+<lb ed="Bd" n="76"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-e85828-d1e127">
+               <lb ed="Bd" n="77"/>Ergo videtur, quod visio non 
+eyacua<lb break="no" ed="Bd" n="78"/>bit fidem : quod est contra Apostolum,
+<lb ed="Bd" n="79"/>I ad Corinth. xm, 10 : <quote xml:id="alalal-e85828-Qd1e135">Cum venerit quod
+<lb ed="Bd" n="80"/>perfectum est, evacuabitur quod ex 
+par<lb break="no" ed="Bd" n="81"/>te est</quote>. Constat autem, quod fides sit ex
+<lb ed="Bd" n="82"/>parte, cum sit speculum in aenigmate?.
+</p>
+            <p xml:id="alalal-e85828-d1e146">
+               <lb ed="Bd" n="83"/>Solutio Dicendum, quod vocat fidem
+<pb ed="#Bd" n="449"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>hic genus sive substantiam fidei, quae est
+<lb ed="Bd" n="2"/>visio veritatis haec enim contrahitur
+<lb ed="Bd" n="3"/>ad speculum et enigma, ut ad 
+differen<lb break="no" ed="Bd" n="4"/>tiam constiltutivam, et tune facit visio-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="5"/>nem quae est tola merces, eo quod non
+<lb ed="Bd" n="6"/>est sola visio extrinsecus se spargens 
+su<lb break="no" ed="Bd" n="7"/>per rem, sed potius visio amati et habiti.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

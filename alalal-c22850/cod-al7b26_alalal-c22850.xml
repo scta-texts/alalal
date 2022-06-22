@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="121"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c22850"><!-- l1d32a1 -->
+            <head xml:id="alalal-c22850-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-c22850-Hd1e101" type="question-title">An iste sunt vere, Pater diligit Filium
+Spiritu sancto, et Pater et Filius 
+diligunt se Spiritu sancto ?</head>
+            <p xml:id="alalal-c22850-d1e104">
+               <lb ed="#Bb" n="49"/>ARTICULUS I.
+<lb ed="#Bb" n="50"/>An iste sunt vere, Pater diligit Filium
+<lb ed="#Bb" n="51"/>Spiritu sancto, et Pater et Filius 
+dili<lb break="no" ed="#Bb" n="52"/>gunt se Spiritu sancto ?
+</p>
+            <p xml:id="alalal-c22850-d1e115">
+               <lb ed="#Bb" n="53"/>Incidit autem questio de hac locutione :
+<lb ed="#Bb" n="54"/>Pater diligit Filium Spiritu sancto, vel
+<lb ed="#Bb" n="55"/>Pater et Filius diligunt se Spiritu 
+san<lb break="no" ed="#Bb" n="56"/>cto: quae licet supra disputata sit, tamen
+<lb ed="#Bb" n="57"/>propter diversitatem opinionum, hic
+<lb ed="#Bb" n="58"/>tangenda est aliter quam supra.
+</p>
+            <p xml:id="alalal-c22850-d1e131">
+               <lb ed="#Bb" n="59"/>Videtur autem esse vera: quia,
+<lb ed="#Bb" n="60"/>1.In quadam epistola ad beatum 
+Ber<lb break="no" ed="#Bb" n="61"/>nardum ita dicit <name xml:id="alalal-c22850-Nd1e139">Hugo de sancio Victore</name> :
+<pb ed="#Bb" n="122"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>
+               <quote xml:id="alalal-c22850-Qd1e148"> Si Spiritus sanctus diceretur amor
+<lb ed="#Bb" n="2"/>cordis tui, sicut Spiritus sanctus dicitur
+<lb ed="#Bb" n="3"/>amor Patris et Filii, quis, queso, posset
+<lb ed="#Bb" n="4"/>negare te Spiritu sancto, hoc est, amore
+<lb ed="#Bb" n="5"/>tuo dilgere? </quote> Ergo a simili (sicut etiam
+<lb ed="#Bb" n="6"/>idem intendii) Pater et Filius diligunt se
+<lb ed="#Bb" n="7"/>Spiritu sancto, qui est amor eorum.
+</p>
+            <p xml:id="alalal-c22850-d1e165">
+               <lb ed="#Bb" n="8"/>2. Item, ibidem: <quote xml:id="alalal-c22850-Qd1e169">Si recte diligere 
+di<lb break="no" ed="#Bb" n="9"/>ceris amore qui de te procedit, cur Pater
+<lb ed="#Bb" n="10"/>et Filius non recte dicantur diligere 
+amo<lb break="no" ed="#Bb" n="11"/>re qui ab eis procedit ?</quote> Ergo Pater et
+<lb ed="#Bb" n="12"/>Filius diligunt Spiritu sancto. Unde 
+Ma<lb break="no" ed="#Bb" n="13"/>gister Hugo subdit, ibidem: <quote xml:id="alalal-c22850-Qd1e182"> Heccine
+<lb ed="#Bb" n="14"/>soluta est lla questio, quam insolubilem
+<lb ed="#Bb" n="15"/>putant, quam insolubilem dicunt et 
+scri<lb break="no" ed="#Bb" n="16"/>bunt. </quote> Et videtur hoc dicere propter 
+Au<lb break="no" ed="#Bb" n="17"/>ctorem istius libri in ultimo capitulo 
+is<lb break="no" ed="#Bb" n="18"/>tius distinctionis .
+</p>
+            <p xml:id="alalal-c22850-d1e197">
+               <lb ed="#Bb" n="19"/>3. Item, ibidem: <quote xml:id="alalal-c22850-Qd1e201"> Si Spiritus sanctus
+<lb ed="#Bb" n="20"/>est amor utriusque, cur non Pater 
+dici<lb break="no" ed="#Bb" n="21"/>tur Spiritu sancto, hoc est, suo amore
+<lb ed="#Bb" n="22"/>diligere ? cur etiam Filius non dicitur
+<lb ed="#Bb" n="23"/>recte Spiritu sancto, hoc est, sua 
+dile<lb break="no" ed="#Bb" n="24"/>ctione amare? </quote>
+            </p>
+            <p xml:id="alalal-c22850-d1e215">
+               <lb ed="#Bb" n="25"/>4. iem, ibidem: <quote xml:id="alalal-c22850-Qd1e219"> Animus humanus
+<lb ed="#Bb" n="26"/>amor non est, sed ab ipso amor 
+proce<lb break="no" ed="#Bb" n="27"/>dit : et ideo seipso non diligit, sed amore
+<lb ed="#Bb" n="28"/>quia seipso procedit. Pater vero amor
+<lb ed="#Bb" n="29"/>est, et Spiritus sanctus ejus amor est :
+<lb ed="#Bb" n="30"/>et ideo Pater diligit seipso, diligit et
+<lb ed="#Bb" n="31"/>Spiritu sancto : diligit seipso amore, 
+di<lb break="no" ed="#Bb" n="32"/>ligit suo amore. </quote>
+            </p>
+            <p xml:id="alalal-c22850-d1e238">
+               <lb ed="#Bb" n="33"/>5. Ad hoc sunt etiam auctoritates 
+Au<lb break="no" ed="#Bb" n="34"/>gustini hic, et supra, distinctione X, 
+in<lb break="no" ed="#Bb" n="35"/>duct, et auctoritates Hieronymi, que
+<lb ed="#Bb" n="36"/>supra in Jitlera jacent .
+</p>
+            <p xml:id="alalal-c22850-d1e249">
+               <lb ed="#Bb" n="37"/>6. Hoc etiam videtur per rationem :
+<lb ed="#Bb" n="38"/>quia omni amore aliquis diligit, et 
+ali<lb break="no" ed="#Bb" n="39"/>quid diligitur : sed Spiritus sanctus 
+ve<lb break="no" ed="#Bb" n="40"/>rissime est amor: ergo ipso aliquis 
+dili<lb break="no" ed="#Bb" n="41"/>git, et aliquid diligitur: non est autem
+<lb ed="#Bb" n="42"/>amor, nisi Patris et Filii: ergo Spiritu
+<lb ed="#Bb" n="43"/>sancto diligunt Pater et Filius.
+</p>
+            <p xml:id="alalal-c22850-d1e267">
+               <lb ed="#Bb" n="44"/>7. Item, Sicut Magister Hugo dicit,
+<lb ed="#Bb" n="45"/>quare timetur ista concedi: Pater et Fi-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="46"/>lius diligunt se Spiritu sancto ? Si 
+prop<lb break="no" ed="#Bb" n="47"/>ter hoc quod sequitur, quod sint Spiritu
+<lb ed="#Bb" n="48"/>sancto : hoc non sequitur : quia nec in
+<lb ed="#Bb" n="49"/>inferioribus, nec in aliqua natura, 
+dili<lb break="no" ed="#Bb" n="50"/>gens esse, vel dilectionem accipit ab ipso
+<lb ed="#Bb" n="51"/>amore quo diligit : sed potius diligendo
+<lb ed="#Bb" n="52"/>amor ab ipso procedit, et esse a diligente
+<lb ed="#Bb" n="53"/>accipit : ergo videtur, quod propriissime
+<lb ed="#Bb" n="54"/>concedi debeat.
+</p>
+            <p xml:id="alalal-c22850-d1e297">
+               <lb ed="#Bb" n="55"/>Et si dicas, quod timetur propter 
+si<lb break="no" ed="#Bb" n="56"/>mile: quia sequitur, quod esset sapiens
+<lb ed="#Bb" n="57"/>sapientia genita : hoc nihil est: quia
+<lb ed="#Bb" n="58"/>hoc constat, quod sapientia secundum
+<lb ed="#Bb" n="59"/>modum intelligendi non procedit a 
+sa<lb break="no" ed="#Bb" n="60"/>piente, sed in sapientem a re de qua est
+<lb ed="#Bb" n="61"/>sapientia: dilectio autem omnis a 
+dili<lb break="no" ed="#Bb" n="62"/>gente procedit, sicut etiam supra est
+<lb ed="#Bb" n="63"/>ostensum ?: ergo trepidatur timore, ubi
+<lb ed="#Bb" n="64"/>non est timor , ut videtur.
+</p>
+            <p xml:id="alalal-c22850-d1e321">
+               <lb ed="#Bb" n="65"/>8. Item, Spiritus sanctus est amor et
+<lb ed="#Bb" n="66"/>dilectio non tantum proprie, ut dicit 
+Au<lb break="no" ed="#Bb" n="67"/>gustinus, sed etiam appropriate. Accipia~
+<lb ed="#Bb" n="68"/>mus ergo secundum quod ipse est 
+cha<lb break="no" ed="#Bb" n="69"/>ritas vel amor proprie: quero, si haec
+<lb ed="#Bb" n="70"/>charitas sit perfecta, vel non ? Constat,
+<lb ed="#Bb" n="71"/>quod sic: ergo elicit actum perfectissi-~
+<lb ed="#Bb" n="72"/>mum diligendi : non nisi in eo cujus est
+<lb ed="#Bb" n="73"/>charitas : ergo Spiritus sanctus in Patre
+<lb ed="#Bb" n="74"/>et -Filio dilectionis actum elicit : sicut
+<lb ed="#Bb" n="75"/>ergo tu diligis dilectione virtutem, ita
+<lb ed="#Bb" n="76"/>videtur, quod Pater et Filius diligunt
+<lb ed="#Bb" n="77"/>dilectione quae est Spiritus sanctus.
+</p>
+            <p xml:id="alalal-c22850-d1e352">
+               <lb ed="#Bb" n="78"/>Si forte dicas, quod duplex est 
+chari<lb break="no" ed="#Bb" n="79"/>tas in divinis, scilicet essentialis, et 
+per<lb break="no" ed="#Bb" n="80"/>sonalis. Essentialis facit diligere in Patre
+<lb ed="#Bb" n="81"/>et Filio, personalis autem non. Contra:
+<lb ed="#Bb" n="82"/>Non est imperfectior personalis, quam
+<lb ed="#Bb" n="83"/>essentialis : cum igitur perfectio 
+dile<lb break="no" ed="#Bb" n="84"/>ctionis sit in hoc quod elicit actum, potest
+<lb ed="#Bb" n="85"/>personalis illum actum elicere, sicut 
+es<lb break="no" ed="#Bb" n="86"/>sentialis, ut videtur.
+</p>
+            <p xml:id="alalal-c22850-d1e374">
+               <lb ed="#Bb" n="87"/>9. Item, In imagine sicut notitia 
+dis<lb break="no" ed="#Bb" n="88"/>tinguitur a mente, ita amor ab utraque :
+<lb ed="#Bb" n="89"/>et tamen possum dicere, mens notitia
+<lb ed="#Bb" n="90"/>quam gignit, novit: et amore qui ab ea
+<pb ed="#Bb" n="123"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>procedit, diligit: ergo videtur quod 
+si<lb break="no" ed="#Bb" n="2"/>militer debeat concedi in divinis.
+</p>
+            <p xml:id="alalal-c22850-d1e394">
+               <lb ed="#Bb" n="3"/>10. Item, Pater in verbo suo 
+persona<lb break="no" ed="#Bb" n="4"/>li dicit Filium, et dicit omnia, ut dicit
+<lb ed="#Bb" n="5"/>Anselmus : ergo videtur, quod sicut
+<lb ed="#Bb" n="6"/>verbo dicit omnia, ita possit concedi,
+<lb ed="#Bb" n="7"/>Pater et Filius diligunt Spiritu sancto.
+</p>
+            <p xml:id="alalal-c22850-d1e407">
+               <lb ed="#Bb" n="8"/>Si forte dicas, quod cum dicitur, Pa
+<lb ed="#Bb" n="9"/>ter dicit verbo suo omnia, ly verbum
+<lb ed="#Bb" n="10"/>connotat effectum in creatura, ratione
+<lb ed="#Bb" n="11"/>cujus ipsum potest esse principium 
+di<lb break="no" ed="#Bb" n="12"/>cendi: sed cum dicitur, Pater diligit,
+<lb ed="#Bb" n="13"/>nihil connotatur : et ideo non potest
+<lb ed="#Bb" n="14"/>apponi Spiritu: sancto, quia notaretur
+<lb ed="#Bb" n="15"/>auctoritas et ratio principii respectu 
+sui<lb break="no" ed="#Bb" n="16"/>ipsius. Conrra: Secundum hoc enim
+<lb ed="#Bb" n="17"/>haec erit vera, Pater et Filius diligunt
+<lb ed="#Bb" n="18"/>nos Spiritu sancto : et cum illud diligere
+<lb ed="#Bb" n="19"/>sit esse, sicut et illud quo se invicem
+<lb ed="#Bb" n="20"/>diligunt, videtur sequi idem inconveniens
+<lb ed="#Bb" n="21"/>ex illo et ex isto: ergo videtur, quod
+<lb ed="#Bb" n="22"/>proprie et ab aeterno vera sit illa, Pater
+<lb ed="#Bb" n="23"/>et Filius diligunt se Spiritu sancto.
+</p>
+            <p xml:id="alalal-c22850-d1e445">
+               <lb ed="#Bb" n="24"/>SED CONTRA:
+<lb ed="#Bb" n="25"/>Sr propter hoc dicatur, quod vera est,
+<lb ed="#Bb" n="26"/>sunt multe rationes in oppositum, 
+qua<lb break="no" ed="#Bb" n="27"/>rum una est in Lzétera, scilicel quod
+</p>
+            <p xml:id="alalal-c22850-d1e456">
+               <lb ed="#Bb" n="28"/>1. Diligere est esse: si ergo diligit 
+Spi<lb break="no" ed="#Bb" n="29"/>ritu sancto, ipse est, vel ipsi sunt Spiritu
+<lb ed="#Bb" n="30"/>sancto : et hoc est absurdum. :
+</p>
+            <p xml:id="alalal-c22850-d1e465">
+               <lb ed="#Bb" n="31"/>2. Item, Diligere est velle bonum, et
+<lb ed="#Bb" n="32"/>unum est velle trium, et unum bonum
+<lb ed="#Bb" n="33"/>trium: ergo una dilectio trium: illa autem
+<lb ed="#Bb" n="34"/>non est a Spiritu sancto : ergo non potest
+<lb ed="#Bb" n="35"/>dici, quod diligant se Spiritu sancto.
+</p>
+            <p xml:id="alalal-c22850-d1e478">
+               <lb ed="#Bb" n="36"/>3. Item, Bonitas attribuitur Spiritui
+<lb ed="#Bb" n="37"/>sancto: ergo cum Pater et Filius non sint
+<lb ed="#Bb" n="38"/>boni bonitate Spiritus sancti, videtur
+<lb ed="#Bb" n="39"/>quod a simili non diligant etiam 
+dile<lb break="no" ed="#Bb" n="40"/>ctione quae est Spiritus sanctus.
+</p>
+            <p xml:id="alalal-c22850-d1e491">
+               <lb ed="#Bb" n="41"/>4. Item, In nulla alia notione 
+denomi<lb break="no" ed="#Bb" n="42"/>natur una persona a proprietate alterius:
+<lb ed="#Bb" n="43"/>cum autem dicitur, Pater et Filius 
+dui<lb break="no" ed="#Bb" n="44"/>gunt, etc., ly diligunt determinat Patrem
+<lb ed="#Bb" n="45"/>et Filium, cum sit notio Spiritus sancti:
+<lb ed="#Bb" n="46"/>ergo videtur, quod falso : necesse est ergo,
+<lb ed="#Bb" n="47"/>quod stet essentialiter ly diligunt.
+</p>
+            <p xml:id="alalal-c22850-d1e509">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="48"/>Solutio. Dicendum, quod hic sunt
+<lb ed="#Bb" n="49"/>multe opiniones, sicut colligitur ex 
+scrip<lb break="no" ed="#Bb" n="50"/>tis Doctorum. Sunt quidam qui dicunt
+<lb ed="#Bb" n="51"/>omnes hujusmodi locutiones esse falsas,
+<lb ed="#Bb" n="52"/>et in suo simili retractatas. Unde sicut
+<lb ed="#Bb" n="53"/>Pater non est sapiens sapientia quam 
+ge<lb break="no" ed="#Bb" n="54"/>nuit, ita non diligit dilectione quae ab
+<lb ed="#Bb" n="55"/>ipso procedit. Secundi dicunt, quod est
+<lb ed="#Bb" n="56"/>vera, sed non propria, et reducunt ad
+<lb ed="#Bb" n="57"/>proprielatem : Pater et Filius diligunt,
+<lb ed="#Bb" n="58"/>etc., id est, dilectione quae est 
+essentia<lb break="no" ed="#Bb" n="59"/>liter dicta, sed appropriabilis est Spiritui
+<lb ed="#Bb" n="60"/>sancto. Unde ablativus, Spirifu sancto,
+<lb ed="#Bb" n="61"/>secundum ipsos stat ibi ut proprium,
+<lb ed="#Bb" n="62"/>ratione cujus fit appropriatio sicut
+<lb ed="#Bb" n="63"/>impropria est ista, Pater cognoscit Filio,
+<lb ed="#Bb" n="64"/>quia cognoscit cognitione quae 
+appro<lb break="no" ed="#Bb" n="65"/>priabilis est Filio.
+</p>
+            <p xml:id="alalal-c22850-d1e554">
+               <lb ed="#Bb" n="66"/>Contra has duas opiniones objicitur
+<lb ed="#Bb" n="67"/>sic, quod non tantum Augustinus, sed
+<lb ed="#Bb" n="68"/>et alii Auctores non tantum ponunt hoc
+<lb ed="#Bb" n="69"/>quod Pater et Filius diligunt se Spiritu
+<lb ed="#Bb" n="70"/>sancto, sed etiam multi Philosophi 
+pro<lb break="no" ed="#Bb" n="71"/>bant : et Augustinus rationem inducit
+<lb ed="#Bb" n="72"/>que hic habetur in Littera, et supra .
+</p>
+            <p xml:id="alalal-c22850-d1e572">
+               <lb ed="#Bb" n="73"/>Praeterea, Si secundum 
+appropriatio<lb break="no" ed="#Bb" n="74"/>nem conveniret tantum Spiritui sancto
+<lb ed="#Bb" n="75"/>dilectio qua se diligunt Pater et Filius,
+<lb ed="#Bb" n="76"/>tunc non deberet removeri a Patre et
+<lb ed="#Bb" n="77"/>Filio : dicit autem hic, <quote xml:id="alalal-c22850-Qd1e585"> quod non 
+ali<lb break="no" ed="#Bb" n="78"/>quis duorum est dilectio qua uterque
+<lb ed="#Bb" n="79"/>conjungitur : </quote> et similiter, quod <quote xml:id="alalal-c22850-Qd1e592"> suo
+<lb ed="#Bb" n="80"/>proprio dono servant unitatem, sicut in
+<lb ed="#Bb" n="81"/>vinculo pacis: </quote> ergo quia iste opiniones
+<lb ed="#Bb" n="82"/>directe Sanctorum verbis contrariantur,
+<lb ed="#Bb" n="83"/>ideo plures et doctiores istas opiniones
+<lb ed="#Bb" n="84"/>non tenent.
+</p>
+            <p xml:id="alalal-c22850-d1e606">
+               <lb ed="#Bb" n="85"/>Sunt autem tertii qui sequuntur 
+Simo<lb break="no" ed="#Bb" n="86"/>nem Tornacensem, qui dicunt quod est
+<lb ed="#Bb" n="87"/>vera et propria : sed cum dicitur, Pater
+<lb ed="#Bb" n="88"/>et Filius diligunt se Spiritu sancto, 
+abla<lb break="no" ed="#Bb" n="89"/>tivus construitur in designatione signi,
+<lb ed="#Bb" n="90"/>ut sit sensus, Pater et Filius diliguntse :
+<lb ed="#Bb" n="91"/>et hujus signum est, quod unus Spiritus
+<lb ed="#Bb" n="92"/>ab eis communiter procedit. Contra hos
+<lb ed="#Bb" n="93"/>autem iterum objicitur : Cum dicitur,
+<lb ed="#Bb" n="94"/>isti duo amici diligunt se amore qui ab
+<pb ed="#Bb" n="124"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>eis procedit, construitur ablativus amore
+<lb ed="#Bb" n="2"/>formaliter, et in habitudine cause 
+forma<lb break="no" ed="#Bb" n="3"/>lis : ergo a simili et hic cum dicitur,
+<lb ed="#Bb" n="4"/>Pater et Filius diliguntse Spiritusancto,
+<lb ed="#Bb" n="5"/>vel amore qui est Spiritus sanctus, 
+con<lb break="no" ed="#Bb" n="6"/>struitur in habitudine quasi cause 
+for<lb break="no" ed="#Bb" n="7"/>malis.
+</p>
+            <p xml:id="alalal-c22850-d1e650">
+               <lb ed="#Bb" n="8"/>Ad hoc autem illi dicunt, quod non
+<lb ed="#Bb" n="9"/>est simile in inferioribus et in divinis :
+<lb ed="#Bb" n="10"/>quia in amore -creato secundum 
+intel<lb break="no" ed="#Bb" n="11"/>lectum duo sunt, scilicet quod amor
+<lb ed="#Bb" n="12"/>est, et quod est forma voluntatis non per
+<lb ed="#Bb" n="13"/>se existens. Quantum ad primum 
+proce<lb break="no" ed="#Bb" n="14"/>dit amor in amatum, et quoad hoc tenet
+<lb ed="#Bb" n="15"/>similitudo. Quoad secundum habet 
+habi<lb break="no" ed="#Bb" n="16"/>tudinem forme ad amantem, et quoad
+<lb ed="#Bb" n="17"/>hoc non habet similitudinem, quia 
+Spi<lb break="no" ed="#Bb" n="18"/>ritus sanctus non informat Patrem et
+<lb ed="#Bb" n="19"/>Filium : sed est persona in se et 
+secun<lb break="no" ed="#Bb" n="20"/>dum se una et distincta. Sic autem 
+sol<lb break="no" ed="#Bb" n="21"/>vunt objectionem supra factam, scilicet
+<lb ed="#Bb" n="22"/>quod omni amore aliquis diligit et 
+ali<lb break="no" ed="#Bb" n="23"/>quid diligitur : et si Spiritus sanctus est
+<lb ed="#Bb" n="24"/>amor, quod Pater et Filius diligunt
+<lb ed="#Bb" n="25"/>Spiritu sancto. Dicunt enim, quod 
+intel<lb break="no" ed="#Bb" n="26"/>ligitur de amore qui est forma amantis,
+<lb ed="#Bb" n="27"/>ef amor procedens, sed non de amore
+<lb ed="#Bb" n="28"/>distincto ‘personaliter ab amante : unde
+<lb ed="#Bb" n="29"/>dicunt, quod Spiritu sancto Pater nihil
+<lb ed="#Bb" n="30"/>diligit formaliter. Sic etiam solvunt ad
+<lb ed="#Bb" n="31"/>aliud, scilicet quod charitas si sit 
+perfe<lb break="no" ed="#Bb" n="32"/>cta, elicit actum diligendi in eo cujus
+<lb ed="#Bb" n="33"/>dicitur esse charitas vel dilectio. Dicunt
+<lb ed="#Bb" n="34"/>enim, quod hoc est verum de charitate
+<lb ed="#Bb" n="35"/>que est perfecta ut forma, non de illa
+<lb ed="#Bb" n="36"/>que est perfecta ut persona, hac enim
+<lb ed="#Bb" n="37"/>non diligit Pater et Filius, nisi ut signo
+<lb ed="#Bb" n="38"/>dilectionis, et non formaliter et sic
+<lb ed="#Bb" n="39"/>ergo patet qualiter salvatur opinio 
+Tor<lb break="no" ed="#Bb" n="40"/>nacensis.
+</p>
+            <p xml:id="alalal-c22850-d1e724">
+               <lb ed="#Bb" n="41"/>Sed quarta opinio est Antisiodorensis,
+<lb ed="#Bb" n="42"/>et concedit omnes illas objectiones, 
+di<lb break="no" ed="#Bb" n="43"/>cens quod ablativus construitur in 
+habi<lb break="no" ed="#Bb" n="44"/>tudine cause quasi formalis. Et contra
+<lb ed="#Bb" n="45"/>illius opinionem sic objicitur :
+</p>
+            <p xml:id="alalal-c22850-d1e737">
+               <lb ed="#Bb" n="46"/>1. Omne quod est quasi forma, est 
+quie<lb break="no" ed="#Bb" n="47"/>scens in eo cujus est forma vel quasi
+<lb ed="#Bb" n="48"/>forma, et non habet esse distinctum per
+<lb ed="#Bb" n="49"/>seipsum : ergo si Spiritus sanctus ad
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="50"/>Patrem et Filium diligentem se habet
+<lb ed="#Bb" n="51"/>quasi forma, ipse est quiescens vel quasi
+<lb ed="#Bb" n="52"/>quiescens in Patre et Filio, et non habet
+<lb ed="#Bb" n="53"/>esse distinctum per semetipsum : hoc
+<lb ed="#Bb" n="54"/>autem falsum et hereticum est, quia
+<lb ed="#Bb" n="55"/>Spiritus sanctus est persona distincta ens
+<lb ed="#Bb" n="56"/>per seipsam.
+</p>
+            <p xml:id="alalal-c22850-d1e767">
+               <lb ed="#Bb" n="57"/>2. Item, Si est quasi forma, tune est
+<lb ed="#Bb" n="58"/>quasi perfectio diligentis Patris et 
+dili<lb break="no" ed="#Bb" n="59"/>gentis Filii : ergo diligendi actum Pater
+<lb ed="#Bb" n="60"/>et Filius habent a Spiritu sancto: sicut
+<lb ed="#Bb" n="61"/>actus consequens formam, habetur a 
+for<lb break="no" ed="#Bb" n="62"/>ma cujus est ille actus : et hoc iterum
+<lb ed="#Bb" n="63"/>impossibile est, cum nihil habeant a
+<lb ed="#Bb" n="64"/>Spiritu sancto Pater et Filius.
+</p>
+            <p xml:id="alalal-c22850-d1e787">
+               <lb ed="#Bb" n="65"/>3. Item, Forma secundum rationem
+<lb ed="#Bb" n="66"/>est ante actum illum cujus ipsa est 
+prin<lb break="no" ed="#Bb" n="67"/>cipium : ergo amor est ante diligere
+<lb ed="#Bb" n="68"/>amore : sed hoc falsum est, quia diligendo
+<lb ed="#Bb" n="69"/>procedit amor qui est Spiritus sanctus,
+<lb ed="#Bb" n="70"/>sicut generando procedit Filius : ergo
+<lb ed="#Bb" n="71"/>videtur impossibile, quod construatur in
+<lb ed="#Bb" n="72"/>habitudine quasi cause formalis.
+</p>
+            <p xml:id="alalal-c22850-d1e807">
+               <lb ed="#Bb" n="73"/>Ad hoc autem, salvando illam 
+opinio<lb break="no" ed="#Bb" n="74"/>nem, potest dici, quod est forma interior,
+<lb ed="#Bb" n="75"/>et forma exterior. Interior sicut illa que
+<lb ed="#Bb" n="76"/>confert esse si est substantialis, vel que
+<lb ed="#Bb" n="77"/>confert bene esse vel aliquo modo esse
+<lb ed="#Bb" n="78"/>si est accidentalis. Exterior autem 
+du<lb break="no" ed="#Bb" n="79"/>plex est, scilicet continens et terminans
+<lb ed="#Bb" n="80"/>rem, ut locus : et ad quam fit res ut
+<lb ed="#Bb" n="81"/>paradigma sive exemplar. Et nullo 
+illo<lb break="no" ed="#Bb" n="82"/>rum modorum dicitur ille ablativus 
+con<lb break="no" ed="#Bb" n="83"/>strui in habitudine quasi cause formalis,
+<lb ed="#Bb" n="84"/>sed est quasi forma quae habet actum
+<lb ed="#Bb" n="85"/>forme, et cadit ab actu cause : cum
+<lb ed="#Bb" n="86"/>enim dico, causa formalis, duo dico,
+<lb ed="#Bb" n="87"/>scilicet causalitatem, et hac habet 
+in<lb break="no" ed="#Bb" n="88"/>fluentiam super illud quod est causatum :
+<lb ed="#Bb" n="89"/>et dico insuper formam, et haec habet
+<lb ed="#Bb" n="90"/>multos actus, scilicet dare esse, dare
+<lb ed="#Bb" n="91"/>rationem, terminare, unire : et hoc 
+ul<lb break="no" ed="#Bb" n="92"/>timo actu Spiritus sanctus est quasi forma
+<lb ed="#Bb" n="93"/>Patris et Filii, scilicet quia unit Patrem
+<lb ed="#Bb" n="94"/>et Filium, non effective (hoc enim 
+im<lb break="no" ed="#Bb" n="95"/>possibile est), sed sicut id 1n quo 
+uniun<lb break="no" ed="#Bb" n="96"/>tur, et hoc importatur-per ablativum.
+</p>
+            <p xml:id="alalal-c22850-d1e862">
+               <lb ed="#Bb" n="97"/>Et per hoc patet solutio ad omnia
+<lb ed="#Bb" n="98"/>illa objecta : quia illa accipiuntur ex par-
+<pb ed="#Bb" n="125"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>te forme secundum quod actus habet
+<lb ed="#Bb" n="2"/>alios, et secundum quod causa est, et
+<lb ed="#Bb" n="3"/>non ab actu illo tantum qui est unire in
+<lb ed="#Bb" n="4"/>aliquo.
+</p>
+            <p xml:id="alalal-c22850-d1e882">
+               <lb ed="#Bb" n="5"/>Sed sunt alii qui haec omnia 
+conce<lb break="no" ed="#Bb" n="6"/>dunt, et inducunt quintam opinionem,
+<lb ed="#Bb" n="7"/>scilicet quod in veritate cum dicitur,
+<lb ed="#Bb" n="8"/>Pater et Filius diligunt se Spiritu sancto,
+<lb ed="#Bb" n="9"/>construitur ablativus in ratione effectus,
+<lb ed="#Bb" n="10"/>et non forme, vel signi: et haec videtur
+<lb ed="#Bb" n="11"/>esse opinio Magistri Hugonis de sancto
+<lb ed="#Bb" n="12"/>Victore in epistola de processione Spiritus
+<lb ed="#Bb" n="13"/>sancti ad beatum Bernardum, ubi sic 
+di<lb break="no" ed="#Bb" n="14"/>cit: <quote xml:id="alalal-c22850-Qd1e905"> Quod Pater diligere dicitur Spiritu
+<lb ed="#Bb" n="15"/>sancto, non sic intelligitur,quod Spiritus
+<lb ed="#Bb" n="16"/>sanctus auctor et origo existat dilectionis
+<lb ed="#Bb" n="17"/>que Pater est, et pro arbitrio amat quod
+<lb ed="#Bb" n="18"/>amat : sed quod Pater eam dilectionem
+<lb ed="#Bb" n="19"/>qua Filius diligitur, et Spiritus sanctus
+<lb ed="#Bb" n="20"/>est, spiret et illius auctor et origo existat.
+<lb ed="#Bb" n="21"/>Dicitur ergo Pater Spiritu sancto 
+dilige<lb break="no" ed="#Bb" n="22"/>re : non quod per eum dilectionem 
+ha<lb break="no" ed="#Bb" n="23"/>beat, sed quod exhibeat : non quod ab
+<lb ed="#Bb" n="24"/>eo amorem accipiat, sed quod ipse 
+im<lb break="no" ed="#Bb" n="25"/>pendat. </quote> Et inducit Magister Hugo hoc
+<lb ed="#Bb" n="26"/>quod hic dicunt Hilarius et Augustinus,
+<lb ed="#Bb" n="27"/>quod Pater operatur per Filium non
+<lb ed="#Bb" n="28"/>quod a Filio aliquid accipiat, sed quod
+<lb ed="#Bb" n="29"/>auctor et origo sit potenti operantis in
+<lb ed="#Bb" n="30"/>Filic.
+</p>
+            <p xml:id="alalal-c22850-d1e943">
+               <lb ed="#Bb" n="31"/>Sed contra esse videtur, quod cum 
+di<lb break="no" ed="#Bb" n="32"/>citur, Pater operatur per Filium, vel 
+Fi<lb break="no" ed="#Bb" n="33"/>lio, notatur effectus in creatura in quam
+<lb ed="#Bb" n="34"/>transit opus : cum autem dicitur, Pater
+<lb ed="#Bb" n="35"/>diligit Filium Spiritu sancto, vel e 
+con<lb break="no" ed="#Bb" n="36"/>verso, non notatur aliquis effectus quo
+<lb ed="#Bb" n="37"/>transeat dilectio, sed potius transire 
+si<lb break="no" ed="#Bb" n="38"/>gnificatur in Filium, vel e converso in
+<lb ed="#Bb" n="39"/>Patrem, cum dicitur Filius diligere 
+Pa<lb break="no" ed="#Bb" n="40"/>trem Spiritu sancto. Sed ad hoc dicunt
+<lb ed="#Bb" n="41"/>illi, qui tenent hance opinionem, quod 
+li<lb break="no" ed="#Bb" n="42"/>cet in hac locutione, Pater diligit Filium
+<lb ed="#Bb" n="43"/>Spiritu sancto, ly Aidiwm sit materia
+<lb ed="#Bb" n="44"/>dilectionis in locutione, non tamen sic
+<lb ed="#Bb" n="45"/>est in re, sed potiusly Filizm sicut et ly
+<lb ed="#Bb" n="46"/>Pater dicit substantiam vel personam a
+<lb ed="#Bb" n="47"/>qua egreditur actus : et ideo in re ly
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="48"/>Spiritu sancto est terminus illius actus :
+<lb ed="#Bb" n="49"/>eo quod duplex sit communicabilitas 
+su<lb break="no" ed="#Bb" n="50"/>perioris nature, ut supra dictum est,
+<lb ed="#Bb" n="51"/>scilicet per generationem, et spirationem
+<lb ed="#Bb" n="52"/>que importatur per dilectionem : et ideo
+<lb ed="#Bb" n="53"/>sicut cum dicitur, Pater dicit verbo, 
+no<lb break="no" ed="#Bb" n="54"/>tatur per verbo non ratio dicli ex parte
+<lb ed="#Bb" n="55"/>dicendi, sed potius quasi effectus actus:
+<lb ed="#Bb" n="56"/>Ita cum dicitur, Pater et Filius diligunt
+<lb ed="#Bb" n="57"/>se Spiritu sancto, notatur materia verbi
+<lb ed="#Bb" n="58"/>quasi effectus per ly Spiritu sancto.
+</p>
+            <p xml:id="alalal-c22850-d1e1009">
+               <lb ed="#Bb" n="59"/>Sed quia iste loquendi modus 
+extraneis<lb break="no" ed="#Bb" n="60"/>simus est, ideo puto, quod sicut supra
+<lb ed="#Bb" n="61"/>dictum est', quod ablativus construitur
+<lb ed="#Bb" n="62"/>in habitudine existentis de principio
+<lb ed="#Bb" n="63"/>quod habet actum quasi forme in 
+unien<lb break="no" ed="#Bb" n="64"/>do, et haec opinio tune sexta est, et 
+com<lb break="no" ed="#Bb" n="65"/>plectitur duas, scilicet quartam et 
+quin<lb break="no" ed="#Bb" n="66"/>tam. Et est simile cum dicitur, Pater
+<lb ed="#Bb" n="67"/>dicit omnia verbo: ly verbo enim dicit
+<lb ed="#Bb" n="68"/>existens a principio per actum dicendi,
+<lb ed="#Bb" n="69"/>id est, quasi elffectum dictionis : et 
+insu<lb break="no" ed="#Bb" n="70"/>per dicit rationem eorum quae dicuntur
+<lb ed="#Bb" n="71"/>in verbo, quae tamen non dicuntur in
+<lb ed="#Bb" n="72"/>verbo, nisi dictione verbi. Ita hic 
+dicen<lb break="no" ed="#Bb" n="73"/>dum est, quod Pater et Filius diligunt se,
+<lb ed="#Bb" n="74"/>ita quod ly se teneatur retransitive : tune
+<lb ed="#Bb" n="75"/>enim considerando verbum in quantum
+<lb ed="#Bb" n="76"/>notionale est, principiatum est id quod
+<lb ed="#Bb" n="77"/>supponitur- in re ablativi, et est quasi
+<lb ed="#Bb" n="78"/>effectus Patris et Filii diligentium. Quia
+<lb ed="#Bb" n="79"/>autem considerandus est etiam modus
+<lb ed="#Bb" n="80"/>processionis, quia procedit ut vere amor
+<lb ed="#Bb" n="81"/>connectens, ideo tunc accusativus se 
+ef<lb break="no" ed="#Bb" n="82"/>ficitur materia verbi in quam transit. Et
+<lb ed="#Bb" n="83"/>hoc supra est explanatum?, et alia omnia,
+<lb ed="#Bb" n="84"/>scilicet quid dicat verbum, utrum 
+essen<lb break="no" ed="#Bb" n="85"/>tiam, vel notionem : et si notionem,
+<lb ed="#Bb" n="86"/>quam notionem : et si dicat spirationem,
+<lb ed="#Bb" n="87"/>quare loco ejus non potest poni hoc 
+ver<lb break="no" ed="#Bb" n="88"/>bum spirat, ut diceretur, Pater et Filius
+<lb ed="#Bb" n="89"/>spirant Spiritum sanctum Spiritu. 
+san<lb break="no" ed="#Bb" n="90"/>cto: et cetera plurima quae supra tacta
+<lb ed="#Bb" n="91"/>sunt,
+</p>
+            <p xml:id="alalal-c22850-d1e1083">
+               <lb ed="#Bb" n="92"/>Secunpum hance igitur opinionem que
+<lb ed="#Bb" n="93"/>magis concordat Sanctis, dicendum ad
+<lb ed="#Bb" n="94"/>primum, quod bene concedimus omnes
+<pb ed="#Bb" n="126"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>illas rationes quae probant eam quae 
+si<lb break="no" ed="#Bb" n="2"/>ne dubio a Sanctis ponitur, et 
+proba<lb break="no" ed="#Bb" n="3"/>tur, et exponitur, ut patet ex verbis 
+Ma<lb break="no" ed="#Bb" n="4"/>gistri Hugonis. Sed tamen cavendum
+<lb ed="#Bb" n="5"/>est ne nimis eliciatur ex rationibus 
+il<lb break="no" ed="#Bb" n="6"/>lis. Cum enim objicitur, quod omni eo
+<lb ed="#Bb" n="7"/>quod vere amor est, aliquis aliquid 
+dili<lb break="no" ed="#Bb" n="8"/>git, Dicendum, quod illo sicut forma
+<lb ed="#Bb" n="9"/>quiescente in subjecto, non oportet, 
+sed<lb break="no" ed="#Bb" n="10"/>sicut effectu habente actum quasi forme,
+<lb ed="#Bb" n="11"/>bene convenit in divinis.
+</p>
+            <p xml:id="alalal-c22850-d1e1120">
+               <lb ed="#Bb" n="12"/>Ad aliud dicendum, quod non est 
+con<lb break="no" ed="#Bb" n="13"/>cedendum, quod amor qui est Spiritus,
+<lb ed="#Bb" n="14"/>eliciat actum dilectionis in Patre : illa
+<lb ed="#Bb" n="15"/>enim propositio non tenet, nisi in his
+<lb ed="#Bb" n="16"/>quorum natura ad actum in seipsa est
+<lb ed="#Bb" n="17"/>perfecta, quia illa indigent habitu 
+perfi<lb break="no" ed="#Bb" n="18"/>ciente actum: sed non est ita in 
+divi<lb break="no" ed="#Bb" n="19"/>nis : et ideo amor personalis producitur
+<lb ed="#Bb" n="20"/>actu dilectionis notionalis Patris et Filii,
+<lb ed="#Bb" n="21"/>et secundum rationem intelligendi non
+<lb ed="#Bb" n="22"/>elicit actum illum, sed emanat actu
+<lb ed="#Bb" n="23"/>illo.
+</p>
+            <p xml:id="alalal-c22850-d1e1149">
+               <lb ed="#Bb" n="24"/>Ad aliud dicendum, quod amor 
+es<lb break="no" ed="#Bb" n="25"/>sentialis etiam non proprie elicit in Deo,
+<lb ed="#Bb" n="26"/>sed est idem cum Deo. Quod autem amor
+<lb ed="#Bb" n="27"/>personalis non etiam eliciat, non est ex
+<lb ed="#Bb" n="28"/>imperfectione, sed potius ex perfectione,
+<lb ed="#Bb" n="29"/>quia est persona distincta, et non forma
+<lb ed="#Bb" n="30"/>perficiens potentiam operativam quae est
+<lb ed="#Bb" n="31"/>voluntas.
+</p>
+            <p xml:id="alalal-c22850-d1e1169">
+               <lb ed="#Bb" n="32"/>Ad aliud dicendum, quod non per
+<lb ed="#Bb" n="33"/>omnia est simile de imagine : quia notitia
+<lb ed="#Bb" n="34"/>et amor sunt accidentia: et ideo mens
+<lb ed="#Bb" n="35"/>amat amore qui est forma et accidens.
+<lb ed="#Bb" n="36"/>In divinis autem non sic est : sed 
+que<lb break="no" ed="#Bb" n="37"/>libet persona est distincta, nullo indigens,
+<lb ed="#Bb" n="38"/>hcet unum omnes sint persone in 
+es<lb break="no" ed="#Bb" n="39"/>sentia.
+</p>
+            <p xml:id="alalal-c22850-d1e1189">
+               <lb ed="#Bb" n="40"/>Ad aliud dicendum, quod Pater dicit
+<lb ed="#Bb" n="41"/>verbo, ut supra dictum est: quia 
+con<lb break="no" ed="#Bb" n="42"/>significatum est creatura respectu cujus
+<lb ed="#Bb" n="43"/>verbum est ratio dictionis ex parte rei
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="44"/>dictae, licet non habeat rationem 
+prin<lb break="no" ed="#Bb" n="45"/>cipii ex parte dicentis. Non tamen 
+omni<lb break="no" ed="#Bb" n="46"/>no simile est in dilectione, sicut etiam
+<lb ed="#Bb" n="47"/>tactum est objiciendo in contrarium.
+</p>
+            <p xml:id="alalal-c22850-d1e1212">
+               <lb ed="#Bb" n="48"/>Ad id quod contra objicitur, dicendum
+<lb ed="#Bb" n="49"/>quod licet diligere sit esse, tamen alio
+<lb ed="#Bb" n="50"/>modo significatur, scilicet ut actus
+<lb ed="#Bb" n="51"/>notionalis: nec ablativus habet se ad
+<lb ed="#Bb" n="52"/>verbum ex habitudine eadem qua se habet
+<lb ed="#Bb" n="53"/>ad nominativum precedentem et 
+accusa<lb break="no" ed="#Bb" n="54"/>tivum sequentem: quia ad verbum se
+<lb ed="#Bb" n="55"/>habet ut effectus, vel quasi effectus: ad
+<lb ed="#Bb" n="56"/>extrema autem verbi quae significantur
+<lb ed="#Bb" n="57"/>per respectum ad obliquum, se habet
+<lb ed="#Bb" n="58"/>in habitudine nexus, ut prius dictum est :
+<lb ed="#Bb" n="59"/>et ideo non sequitur, quod sint a 
+Spiri<lb break="no" ed="#Bb" n="60"/>tu sancto: sed sequeretur, si ablativus
+<lb ed="#Bb" n="61"/>construeretur in habitudine cause 
+effi<lb break="no" ed="#Bb" n="62"/>cientis cum verbo.
+</p>
+            <p xml:id="alalal-c22850-d1e1247">
+               <lb ed="#Bb" n="63"/>Ad aliud dicendum, quod una est 
+vo<lb break="no" ed="#Bb" n="64"/>luntas : sed diligere notionale addit 
+su<lb break="no" ed="#Bb" n="65"/>pra voluntatem actum notionalem 
+per<lb break="no" ed="#Bb" n="66"/>sone: unde hoc diligere non est idem
+<lb ed="#Bb" n="67"/>quod velle alicui bonum.
+</p>
+            <p xml:id="alalal-c22850-d1e1260">
+               <lb ed="#Bb" n="68"/>Ad aliud dicendum, quod bonitas 
+attri<lb break="no" ed="#Bb" n="69"/>buitur Spiritui sancto: sed non est actus
+<lb ed="#Bb" n="70"/>notionalis quo Spiritus sanctus 
+signifi<lb break="no" ed="#Bb" n="71"/>catur ut procedens et nectens: et hoc 
+to<lb break="no" ed="#Bb" n="72"/>tum patet supra’.
+</p>
+            <p xml:id="alalal-c22850-d1e1273">
+               <lb ed="#Bb" n="73"/>Ad aliud dicendum, quod hoc verbum,
+<lb ed="#Bb" n="74"/>diligit, non dicit denominationem a 
+pro<lb break="no" ed="#Bb" n="75"/>prietate Spiritus sancti: sed potius, cum
+<lb ed="#Bb" n="76"/>quinque modis significari possit dilectio,
+<lb ed="#Bb" n="77"/>ut habitum est supra, dicit hic actum
+<lb ed="#Bb" n="78"/>notionalem qui est respectu Spiritus
+<lb ed="#Bb" n="79"/>sancti, et non denominat Patrem et 
+Fi<lb break="no" ed="#Bb" n="80"/>lium notio Spiritus sancti, sed potius
+<lb ed="#Bb" n="81"/>dicit communem spirationem, sub alia
+<lb ed="#Bb" n="82"/>tamen ratione dicenda.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

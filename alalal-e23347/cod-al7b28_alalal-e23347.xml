@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="118"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e23347"><!-- l3d6a1 -->
+            <head xml:id="alalal-e23347-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-e23347-Hd1e101" type="question-title">An ista sit concedenda, Filius Dei factus
+est homo?</head>
+            <p xml:id="alalal-e23347-d1e104">
+               <lb ed="Bd" n="30"/>ARTICULUS I.
+<lb ed="Bd" n="31"/>An ista sit concedenda, Filius Dei factus
+<lb ed="Bd" n="32"/>est homo?
+</p>
+            <p xml:id="alalal-e23347-d1e113">
+               <lb ed="Bd" n="33"/>Incidit autem dubium hic circa 
+pri<lb break="no" ed="Bd" n="34"/>mam partem prime distinctionis circa
+<lb ed="Bd" n="35"/>propositionem illam quam Magister dicit
+<lb ed="Bd" n="36"/>ab omnibus concessam, scilicet Deus 
+fa<lb break="no" ed="Bd" n="37"/>ctus est homo, vel Filius Det factus est
+<lb ed="Bd" n="38"/>homo, vel Deus est homo, vel Filius Dei
+<lb ed="Bd" n="39"/>est homo : quia in omnibus illis est ea~
+<lb ed="Bd" n="40"/>dem ratio dubitationis.
+</p>
+            <p xml:id="alalal-e23347-d1e133">
+               <lb ed="Bd" n="41"/>Videtur autem, quod haec sit falsa,
+<lb ed="Bd" n="42"/>Deus factus est homo, vel Filius Dei fa-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="43"/>ctus est homo : quam tamen Magister 
+di<lb break="no" ed="Bd" n="44"/>cit ab omnibus concessam.
+</p>
+            <p xml:id="alalal-e23347-d1e147">
+               <lb ed="Bd" n="45"/>4. Omne enim factum terminus est
+<lb ed="Bd" n="46"/>alicujus fieri quod ponitur cirea hoc
+<lb ed="Bd" n="47"/>quod factum est, vel circa aliquam 
+par<lb break="no" ed="Bd" n="48"/>tem nature ejus. Cum igitur dicitur,
+<lb ed="Bd" n="49"/>Filius Dei factus est homo, factus dicit
+<lb ed="Bd" n="50"/>terminum alicujus fieri quod virtute 
+lo<lb break="no" ed="Bd" n="51"/>culionis ponitur circa Filum Dei vel
+<lb ed="Bd" n="52"/>Deum : nullum autem fierl potest poni
+<lb ed="Bd" n="53"/>circa Deum vel Filium Dei : ergo locutio
+<lb ed="Bd" n="54"/>est falsa.
+</p>
+            <p xml:id="alalal-e23347-d1e171">
+               <lb ed="Bd" n="55"/>Si dicatur, quod non est inconveniens,
+<lb ed="Bd" n="56"/>quod aliquid fieri notetur poni circa 
+Fi<lb break="no" ed="Bd" n="57"/>lium Dei. Contra : Omne quod fit, 
+mu<lb break="no" ed="Bd" n="58"/>tatur et est imperfectum: Deus autem
+<lb ed="Bd" n="59"/>non mutatur, nec est imperfectus ad 
+ali<lb break="no" ed="Bd" n="60"/>quid : ergo non potest poni circa ipsum
+<lb ed="Bd" n="61"/>fieri. Item, Quod fit non est in 
+perma<lb break="no" ed="Bd" n="62"/>nentibus : ergo si Filius Dei fit, ipse non
+<lb ed="Bd" n="63"/>est, quod falsum est.
+</p>
+            <p xml:id="alalal-e23347-d1e193">
+               <lb ed="Bd" n="64"/>2. Item, Cum dicitur, Ferrum factum
+<lb ed="Bd" n="65"/>est cultellus, notatur ferrum fuisse 
+sub<lb break="no" ed="Bd" n="66"/>jectum fieri cultelli, sicut materia : ergo
+<lb ed="Bd" n="67"/>similiter cum dico, Filius Dei factus est
+<lb ed="Bd" n="68"/>homo, notatur virtute locutionis Filius
+<lb ed="Bd" n="69"/>Dei subjici ipsi fieri, sicut materia : et
+<lb ed="Bd" n="70"/>sic sequeretur, quod Filius Dei in 
+homi<lb break="no" ed="Bd" n="71"/>ne Christo esset materialis, et homo 
+for<lb break="no" ed="Bd" n="72"/>malis, quod absurdum est : ergo illa
+<lb ed="Bd" n="73"/>proposito est falsa.
+</p>
+            <p xml:id="alalal-e23347-d1e217">
+               <lb ed="Bd" n="74"/>3. Item, Omne factum est 
+comple<lb break="no" ed="Bd" n="75"/>mentum ejus quod fit, et nullius 
+alte<lb break="no" ed="Bd" n="76"/>rius :igitur si Filius Dei factus est homo,
+<lb ed="Bd" n="77"/>ly homo vocabitur virtute locutionis
+<lb ed="Bd" n="78"/>complementum respectu Filii Dei 
+fien<lb break="no" ed="Bd" n="79"/>tis, quod falsum est : ergo illa proposito
+<lb ed="Bd" n="80"/>non est concedenda, ut videtur.
+</p>
+            <p xml:id="alalal-e23347-d1e235">
+               <lb ed="Bd" n="81"/>Uxrerius quaeritur de hac, Deus est 
+ho<lb break="no" ed="Bd" n="82"/>mo, quam dicit ab omni opinione 
+conces<lb break="no" ed="Bd" n="83"/>sam.
+</p>
+            <p xml:id="alalal-e23347-d1e244">
+               <lb ed="Bd" n="84"/>Videtur enim esse falsa :
+<lb ed="Bd" n="85"/>1. Nibil enim predicatur univoce de
+<lb ed="Bd" n="86"/>Deo et creatura: sed cum dicitur, 
+Pe<lb break="no" ed="Bd" n="87"/>trus est homo, Joannes est homo, 
+pre<lb break="no" ed="Bd" n="88"/>dicatur homo univoce. Non debet ergo
+<lb ed="Bd" n="89"/>hac ratione de Deo predicari : ergo hee
+<lb ed="Bd" n="90"/>est falsa, Deus est homo.
+</p>
+            <p xml:id="alalal-e23347-d1e263">
+               <pb ed="#Bd" n="119"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>2. Item, Si aliquid inest alicui, vel
+<lb ed="Bd" n="2"/>predicatur de aliquo, et non semper 
+in<lb break="no" ed="Bd" n="3"/>fuit, notat factam esse mutationem circa
+<lb ed="Bd" n="4"/>illud: Deus est homo, et non semper
+<lb ed="Bd" n="5"/>fuit homo : ergo ipse mutatus est ex hoc
+<lb ed="Bd" n="6"/>quod ipse homo est: hoc autem falsum
+<lb ed="Bd" n="7"/>est, quia Deus est incommutabilis : 
+er<lb break="no" ed="Bd" n="8"/>go Deus non est homo.
+</p>
+            <p xml:id="alalal-e23347-d1e287">
+               <lb ed="Bd" n="9"/>3. Item, Cum dicitur, Deus est homo :
+<lb ed="Bd" n="10"/>aut predicatur ly homo essentialiter de
+<lb ed="Bd" n="11"/>ly Deus, aut accidentaliter. Si 
+accidenta<lb break="no" ed="Bd" n="12"/>liter. Contra : Dicit Avicenna, Quod in
+<lb ed="Bd" n="13"/>se est substantia, respectu nullius potest
+<lb ed="Bd" n="14"/>esse accidens : ergo a destructione 
+con<lb break="no" ed="Bd" n="15"/>sequentis, si respectu alicujus preedicatur
+<lb ed="Bd" n="16"/>ut accidens, in se non est substantia,
+<lb ed="Bd" n="17"/>qued falsum est : quia homo substantia
+<lb ed="Bd" n="18"/>est : ergo non potest accidentaliter 
+pra<lb break="no" ed="Bd" n="19"/>dicari. Si autem predicatur essentialiter
+<lb ed="Bd" n="20"/>de Deo, de necessitate convenit 
+essentia<lb break="no" ed="Bd" n="21"/>liter omni supposito subjecti, sicut cum
+<lb ed="Bd" n="22"/>dicitur, homo est animal: quia animal
+<lb ed="Bd" n="23"/>preedicatur essentialiter de omni 
+suppo<lb break="no" ed="Bd" n="24"/>sito hominis: ergo quodlibet 
+supposi<lb break="no" ed="Bd" n="25"/>tum Dei essct homo : sed Pater est 
+sup<lb break="no" ed="Bd" n="26"/>positum Dei : ergo Pater est homo.
+<lb ed="Bd" n="27"/>Item, Spiritus sanctus est suppositum
+<lb ed="Bd" n="28"/>Dei : igitur Spiritus sanctus est homo,
+<lb ed="Bd" n="29"/>quod falsum est : ergo hac est falsa,
+<lb ed="Bd" n="30"/>Deus est homo, ex qua illa sequitur, ut
+<lb ed="Bd" n="31"/>videtur.
+</p>
+            <p xml:id="alalal-e23347-d1e339">
+               <lb ed="Bd" n="32"/>4. Item, In Yopicis quatuor genera
+<lb ed="Bd" n="33"/>predicatorum distinguuntur, scilicet 
+ac<lb break="no" ed="Bd" n="34"/>cidentale conversum, et accidentale non
+<lb ed="Bd" n="35"/>conversum, substantiale conversum, et
+<lb ed="Bd" n="36"/>substantiale non conversum. Predicatio
+<lb ed="Bd" n="37"/>autem speciei et differentia reducuntur
+<lb ed="Bd" n="38"/>ad substantiale non conversum.
+</p>
+            <p xml:id="alalal-e23347-d1e357">
+               <lb ed="Bd" n="39"/>Queratur igitur, in quo istorum 
+pre<lb break="no" ed="Bd" n="40"/>dicatorum sit predicatum istius 
+proposi<lb break="no" ed="Bd" n="41"/>tionis, Deus est homo ? Si dicatur, quod
+<lb ed="Bd" n="42"/>in accidentali, aut in non converso,
+<lb ed="Bd" n="43"/>aut in converso. Si primo modo, tunc
+<lb ed="Bd" n="44"/>homo non debet predicari de Deo nisi
+<lb ed="Bd" n="45"/>denominative vel per inesse. Si autem
+<lb ed="Bd" n="46"/>posset fieri denominatio, tunc aut posset
+<lb ed="Bd" n="47"/>dici Deus non esse homo, sed 
+humana<lb break="no" ed="Bd" n="48"/>tus, quod falsum est : aut deberet dici
+<lb ed="Bd" n="49"/>Deo inesse ut accidens, et non deberet
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>dici homo, quod iterum falsum est. Si
+<lb ed="Bd" n="51"/>autem est predicatum accidentale 
+con<lb break="no" ed="Bd" n="52"/>versum. Contra : Ulud conyertitur cum
+<lb ed="Bd" n="53"/>subjecto cum signo distributivo : sicut
+<lb ed="Bd" n="54"/>homo est risibile, possum dicere, omnis
+<lb ed="Bd" n="55"/>homo est risibilis, et omne risibile est
+<lb ed="Bd" n="56"/>homo. Si igitur dicimus sic, Deus est
+<lb ed="Bd" n="57"/>homo, et erit, Omnis homo Deus, quod
+<lb ed="Bd" n="58"/>falsum est : ergo non erit tale 
+pradica<lb break="no" ed="Bd" n="59"/>tum. Praeterea, De tali pradicato dicit™
+<lb ed="Bd" n="60"/>Boetius, quod manat de ipsis principiis
+<lb ed="Bd" n="61"/>essentialibus subjecti: ergo secundum
+<lb ed="Bd" n="62"/>hoc homo manat de principiis sicut 
+pas<lb break="no" ed="Bd" n="63"/>sio Dei, quod absurdissimum est. Si 
+au<lb break="no" ed="Bd" n="64"/>tem est substantiale : aut conversum,
+<lb ed="Bd" n="65"/>aut non conversum. Si conversum : 
+igi<lb break="no" ed="Bd" n="66"/>tur erit homo diffinitio Dei, quod 
+absur<lb break="no" ed="Bd" n="67"/>dum est, Si autem non est conversum,
+<lb ed="Bd" n="68"/>tunc erit genus, vel differentia, vel 
+spe<lb break="no" ed="Bd" n="69"/>cies. Sep conrra: In omnibus talibus
+<lb ed="Bd" n="70"/>preedicatis forma subjecti et forma 
+predi<lb break="no" ed="Bd" n="71"/>cati ponunt et dicunt coherentiam 
+ne<lb break="no" ed="Bd" n="72"/>cessariam et naturalem et inferiorum et
+<lb ed="Bd" n="73"/>superiorum : deitas autem quae est 
+for<lb break="no" ed="Bd" n="74"/>ma subjecti, non ponit talem 
+coheren<lb break="no" ed="Bd" n="75"/>tiam cum forma predicati, sed potius
+<lb ed="Bd" n="76"/>disparationem : ergo non est tale 
+predi<lb break="no" ed="Bd" n="77"/>catum : ergo haec locutio, Deus est 
+ho<lb break="no" ed="Bd" n="78"/>mo, et Deus factus est homo, est falsa, ut
+<lb ed="Bd" n="79"/>videtur.
+</p>
+            <p xml:id="alalal-e23347-d1e451">
+               <lb ed="Bd" n="80"/>5. Item, Cum dicitur, Deus est homo,
+<lb ed="Bd" n="81"/>et cum dicitur, Petrus est homo, 
+que<lb break="no" ed="Bd" n="82"/>cumque universaliter gratia 
+supposito<lb break="no" ed="Bd" n="83"/>rum hominis de homine predicantur,
+<lb ed="Bd" n="84"/>omnia de subjecto dici possunt, ut 
+ho<lb break="no" ed="Bd" n="85"/>mo est risibilis, et substantia, et 
+hujus<lb break="no" ed="Bd" n="86"/>modi, omnia dicuntur de Petro: ergo a
+<lb ed="Bd" n="87"/>simili cum dicitur, Deus est homo, omne
+<lb ed="Bd" n="88"/>quod de predicato universaliter 
+predi<lb break="no" ed="Bd" n="89"/>catur, de subjecto dici potest : sed homo
+<lb ed="Bd" n="90"/>est creatus : ergo Deus est creatus. Item,
+<lb ed="Bd" n="91"/>homo est creatura : ergo Deus est 
+crea<lb break="no" ed="Bd" n="92"/>tura. Nec potest dici, quod hic incidit
+<lb ed="Bd" n="93"/>fallacia accidentis : quia creatura et 
+cre<lb break="no" ed="Bd" n="94"/>atus licet dicant accidens, tamen dicunt
+<lb ed="Bd" n="95"/>accidens inseparabile et propriam 
+pas<lb break="no" ed="Bd" n="96"/>sionem universaliter consequentem 
+ho<lb break="no" ed="Bd" n="97"/>minem: et in talibus non incidit 
+extra<lb break="no" ed="Bd" n="98"/>neum nec fallacia. Si dicatur, quod pas-
+<pb ed="#Bd" n="120"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>sio quidem est exeuntis de nihilo, sed
+<lb ed="Bd" n="2"/>non hominis in quantum homo: hoc
+<lb ed="Bd" n="3"/>non impedit processum : quia cum dico,
+<lb ed="Bd" n="4"/>Petrus est homo, possum ulterius 
+in<lb break="no" ed="Bd" n="5"/>ferre, et homo est vitale, ergo Petrus :
+<lb ed="Bd" n="6"/>et homo est corporeum, ergo Petrus: et
+<lb ed="Bd" n="7"/>tamen ista non consequuntur hominem
+<lb ed="Bd" n="8"/>in quantum homo est, licet sequantur
+<lb ed="Bd" n="9"/>hominem universaliter, licet non solum
+<lb ed="Bd" n="10"/>hominem sequantu;. Si forte dicatur,
+<lb ed="Bd" n="11"/>quod haec est vera, Deus est creatus, et
+<lb ed="Bd" n="12"/>Deus est creatura : hoc nihil est: quia
+<lb ed="Bd" n="13"/>Magister negat eam infra, et dicit esse
+<lb ed="Bd" n="14"/>perfidiam Arii'. Praeterea, Si esset 
+crea<lb break="no" ed="Bd" n="15"/>tus : vel esset creatus a se, vel ab alio.
+<lb ed="Bd" n="16"/>Sia se. Conrra: Omne creans est :
+<lb ed="Bd" n="17"/>omne quod creatur, non est: ergo idem
+<lb ed="Bd" n="18"/>est et non est, quod falsum est. Si 
+au<lb break="no" ed="Bd" n="19"/>tem est creatus ab alio : ergo alius Deus
+<lb ed="Bd" n="20"/>creans est quam ipse, quod improbatum
+<lb ed="Bd" n="21"/>est in primo libro Sententiarum?.
+</p>
+            <p xml:id="alalal-e23347-d1e545">
+               <lb ed="Bd" n="22"/>Item, Cum dicitur, Deus est homo,
+<lb ed="Bd" n="23"/>quanta est illa propositio ?
+</p>
+            <p xml:id="alalal-e23347-d1e553">
+               <lb ed="Bd" n="24"/>Si dicitur, quod indefinita : tune 
+reci<lb break="no" ed="Bd" n="25"/>piet signum universale, vel particulare.
+<lb ed="Bd" n="26"/>Si universale, tune sequitur, quod omnis
+<lb ed="Bd" n="27"/>Deus est incarnatus, quod falsum est,
+<lb ed="Bd" n="28"/>quia Pater incarnatus non est. Si autem
+<lb ed="Bd" n="29"/>non verificatur cum signo universali,
+<lb ed="Bd" n="30"/>tune verificabitur cum signo particular,
+<lb ed="Bd" n="31"/>et subcontraria erit secum vera : quia
+<lb ed="Bd" n="32"/>tunc erit in materia contingenti: ergo
+<lb ed="Bd" n="33"/>istee due erunt simul vere, quidam Deus
+<lb ed="Bd" n="34"/>est homo, quidam Deus non est homo:
+<lb ed="Bd" n="35"/>ergo et iste, Deus est homo, et Deus
+<lb ed="Bd" n="36"/>non est homo, per locum ab 
+equipollen<lb break="no" ed="Bd" n="37"/>tia particulari ad indefinitam.
+</p>
+            <p xml:id="alalal-e23347-d1e586">
+               <lb ed="Bd" n="38"/>Si forte dicatur, quod subjectum 
+re<lb break="no" ed="Bd" n="39"/>stringitur a predicato ad supponendum
+<lb ed="Bd" n="40"/>pro Filio tantum : hoc erit contra artem
+<lb ed="Bd" n="41"/>restrictionum, ubi probatur quod 
+predi<lb break="no" ed="Bd" n="42"/>cata non restringunt sua subjecta : quia
+<lb ed="Bd" n="43"/>aliter uno solo currente vel duobus, vel
+<lb ed="Bd" n="44"/>tribus tantum, haec esset vera, omnis
+<lb ed="Bd" n="45"/>homo currit : quia sensus esset, omnis
+<lb ed="Bd" n="46"/>homo currens currit, quod falsum est :
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="47"/>ergo nihil est-dictum, quod preedicatum
+<lb ed="Bd" n="48"/>restringat subjectum.
+</p>
+            <p xml:id="alalal-e23347-d1e615">
+               <lb ed="Bd" n="49"/>Item, Cum dicitur, Deus est homo, in
+<lb ed="Bd" n="50"/>qua materia est ista propositio ?
+</p>
+            <p xml:id="alalal-e23347-d1e622">
+               <lb ed="Bd" n="51"/>Aut enim erit in naturali, aut 
+impossi<lb break="no" ed="Bd" n="52"/>bili sive remota, aut contingenti. Si in
+<lb ed="Bd" n="53"/>naturali : ergo predicatum semper 
+con<lb break="no" ed="Bd" n="54"/>venit cum subjecto, subjecto existente :
+<lb ed="Bd" n="55"/>ergo ab aeterno fuit heec vera, Deus est
+<lb ed="Bd" n="56"/>homo, quia Deus fuit ab aeterno, quod
+<lb ed="Bd" n="57"/>falsum est. Si autem in materia remota :
+<lb ed="Bd" n="58"/>ergo predicatum non potest coherere
+<lb ed="Bd" n="59"/>subjecto : et significatur coherere : ergo
+<lb ed="Bd" n="60"/>locutio est falsa. Si autem in 
+contingen<lb break="no" ed="Bd" n="61"/>ti, tune potest separari predicatum a
+<lb ed="Bd" n="62"/>subjecto, et idem Deus in persona qui
+<lb ed="Bd" n="63"/>est homo, potest esse non homo : sicut
+<lb ed="Bd" n="64"/>idem in persona Petrus, potest esse 
+al<lb break="no" ed="Bd" n="65"/>bus, et potest non esse albus, quod 
+fal<lb break="no" ed="Bd" n="66"/>sum est: igitur illa locutio simpliciter
+<lb ed="Bd" n="67"/>debet negari.
+</p>
+            <p xml:id="alalal-e23347-d1e661">
+               <lb ed="Bd" n="68"/>Item, Duo sunt modi _ predicandi,
+<lb ed="Bd" n="69"/>scilicet per causam, et per coherentiam
+<lb ed="Bd" n="70"/>predicati cum subjecto. Per causam,
+<lb ed="Bd" n="71"/>sicut cum dicitur, sol calidus. Per 
+cohz<lb break="no" ed="Bd" n="72"/>rentiam sicut dicitur, homo albus.
+</p>
+            <p xml:id="alalal-e23347-d1e674">
+               <lb ed="Bd" n="73"/>Et quaeratur quis istorum modorum
+<lb ed="Bd" n="74"/>sit in hac, cum dicitur, Deus est 
+ho<lb break="no" ed="Bd" n="75"/>mo ? Si per causam, tunc sensus
+<lb ed="Bd" n="76"/>est, Deus est homo, id est, causa 
+homi<lb break="no" ed="Bd" n="77"/>nis: ergo secundum hoc potest dici leo
+<lb ed="Bd" n="78"/>et Angelus: quia est causa Angeli. Si
+<lb ed="Bd" n="79"/>secundo modo, tune humanitas coheret
+<lb ed="Bd" n="80"/>Deo : sed humanitas non est deitas : 
+er<lb break="no" ed="Bd" n="81"/>go forma extranea deitati est in Deo :
+<lb ed="Bd" n="82"/>quod esse non potest : quia sic esset
+<lb ed="Bd" n="83"/>compositus ex disparibus formis : quod
+<lb ed="Bd" n="84"/>est contra Hilarium dicentem : <quote xml:id="alalal-e23347-Qd1e702"> Non ex
+<lb ed="Bd" n="85"/>disparibus est Deus qui spiritus est. </quote>
+            </p>
+            <p xml:id="alalal-e23347-d1e709">
+               <lb ed="Bd" n="86"/>Uxrerivs quaeritur de conversis 
+is<lb break="no" ed="Bd" n="87"/>tarum propositionum, scilicet, homo 
+fa<lb break="no" ed="Bd" n="88"/>ctus est Deus, et, homo est Deus’: has
+<lb ed="Bd" n="89"/>enim conversas concedunt etiam istae
+<lb ed="Bd" n="90"/>opiniones : et ideo de ipsis oportet quee-
+<pb ed="#Bd" n="121"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>rere, antequam ad distinguendum 
+opi<lb break="no" ed="Bd" n="2"/>niones descendamus.
+</p>
+            <p xml:id="alalal-e23347-d1e731">
+               <lb ed="Bd" n="3"/>Queritur enim de hac primo, Homo
+<lb ed="Bd" n="4"/>factus est Deus. Videtur enim, quod sit
+<lb ed="Bd" n="5"/>falsa : quando enim aliquid fit, non est
+<lb ed="Bd" n="6"/>sub eadem forma in suo fieri et in suo
+<lb ed="Bd" n="7"/>facto esse : igitur cum sit in fieri, id est,
+<lb ed="Bd" n="8"/>in unione cum forma hominis, perfecta
+<lb ed="Bd" n="9"/>unione non est sub illa : et sic Christus
+<lb ed="Bd" n="10"/>non fuit homo quando unitus est, quod
+<lb ed="Bd" n="11"/>heresis est, quia hodie est verus homo,
+<lb ed="Bd" n="12"/>et semper fuit ex quo humanam naturam
+<lb ed="Bd" n="13"/>assumpsit.
+</p>
+            <p xml:id="alalal-e23347-d1e757">
+               <lb ed="Bd" n="14"/>Hem, Cum dicitur, Homo factus est
+<lb ed="Bd" n="15"/>Deus, notatur homo preexistere ante
+<lb ed="Bd" n="16"/>ipsum fieri, cujus terminus est factum
+<lb ed="Bd" n="17"/>esse: sicut dico, ferrum factus est 
+cul<lb break="no" ed="Bd" n="18"/>tellus: sed non fuit homo ante unionem:
+<lb ed="Bd" n="19"/>ergo cum hoc notatur, virtute locutionis
+<lb ed="Bd" n="20"/>illius, illa locutio erit falsa.
+</p>
+            <p xml:id="alalal-e23347-d1e775">
+               <lb ed="Bd" n="21"/>Quaeritur etiam de hac, Homo est
+<lb ed="Bd" n="22"/>Deus : aut hoc est virtute unionis, aut
+<lb ed="Bd" n="23"/>virtute coherentiae unionis. Si primo
+<lb ed="Bd" n="24"/>modo. Contra : Plus distant Deus et 
+ho<lb break="no" ed="Bd" n="25"/>mo, quam affirmatio et negatio circa
+<lb ed="Bd" n="26"/>idem : siigitur nulla virtute 
+conjungibi<lb break="no" ed="Bd" n="27"/>lia sunt affirmatio et negatio circa idem,
+<lb ed="Bd" n="28"/>et secundum idem, nulla virtute erunt
+<lb ed="Bd" n="29"/>Deus et homo in eodem, et secundum
+<lb ed="Bd" n="30"/>eamdem hypostasim.
+</p>
+            <p xml:id="alalal-e23347-d1e799">
+               <lb ed="Bd" n="31"/>Si autem dicatur, quod verificatur
+<lb ed="Bd" n="32"/>propositio propter coherentiam 
+termi<lb break="no" ed="Bd" n="33"/>norum, est ridiculum : quia deitas et 
+hu<lb break="no" ed="Bd" n="34"/>manitas sunt disparata.
+</p>
+            <p xml:id="alalal-e23347-d1e810">
+               <lb ed="Bd" n="35"/>Solutio Sine prajudicio propter 
+er<lb break="no" ed="Bd" n="36"/>rores hic se ingerentes oportet 
+responde<lb break="no" ed="Bd" n="37"/>re adargumentationes predictas caute, ut
+<lb ed="Bd" n="38"/>omnino teneatur veritas fidei potius
+<lb ed="Bd" n="39"/>quam Aristoteles princeps 
+Philosopho<lb break="no" ed="Bd" n="40"/>rum : quia non est mirum si aliquid
+<lb ed="Bd" n="41"/>contra artem in se habeat incarnatio,
+<lb ed="Bd" n="42"/>que etiam ingenio per gratiam suffulto
+<lb ed="Bd" n="43"/>investigari non poterat : unde Joannes
+<lb ed="Bd" n="44"/>Baptista dicit : Venit fortior me post me,
+<lb ed="Bd" n="45"/>cujus non sum dignus procumbens sol-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="46"/>vere corrigiam caleeamentorum ejus.
+<lb ed="Bd" n="47"/>
+               <sic>Sslvabimus</sic> tamen artem quantum fieri
+<lb ed="Bd" n="48"/>possibile est.
+</p>
+            <p xml:id="alalal-e23347-d1e848">
+               <lb ed="Bd" n="49"/>Dico ergo, quod haec absque 
+dubita<lb break="no" ed="Bd" n="50"/>tione concedenda est, ut dicit Magister,
+<lb ed="Bd" n="51"/>Deus factus est homo, et Filius Det 
+fa<lb break="no" ed="Bd" n="52"/>ctus est homo: eo quod illa duos sensus
+<lb ed="Bd" n="53"/>habet veritatis. Si enim ly factus 
+deter<lb break="no" ed="Bd" n="54"/>minet ly homo, vera est sub hoc sensu,
+<lb ed="Bd" n="55"/>Deus factus est homo, id est, Deus factus
+<lb ed="Bd" n="56"/>est homo, quifactus est : et haee omnibus
+<lb ed="Bd" n="57"/>statim apparet vera. Si igitur ly /actus 
+re<lb break="no" ed="Bd" n="58"/>feratur extra propositionem ad fieri cujus
+<lb ed="Bd" n="59"/>terminus est factus, ut sit sensus, Deus
+<lb ed="Bd" n="60"/>factus est homo, id est, aliquid factum
+<lb ed="Bd" n="61"/>est quo Deus est homo, quia unio facta
+<lb ed="Bd" n="62"/>est qua Deus est homo: tune iterum vera
+<lb ed="Bd" n="63"/>est, et factum ponit suum fieri circa id
+<lb ed="Bd" n="64"/>quod in unione subjiciebatur Spiritui
+<lb ed="Bd" n="65"/>sancto, et hoc fuit humana natura. Si
+<lb ed="Bd" n="66"/>autem ly factus poneret suum fieri circa
+<lb ed="Bd" n="67"/>Deum, vel Filium Dei, sic non 
+concede<lb break="no" ed="Bd" n="68"/>retur, et in illo sensu procedit objectio.
+<lb ed="Bd" n="69"/>In medio autem sensu videtur explanari
+<lb ed="Bd" n="70"/>in Littera sic: Deus factus est homo, vel
+<lb ed="Bd" n="71"/>coepit esse homo, et non ccepit esse 
+ho<lb break="no" ed="Bd" n="72"/>mo, nisi per hoc quod aliquid factum est
+<lb ed="Bd" n="73"/>per quod ipse tunc fuit homo, et ante hoc
+<lb ed="Bd" n="74"/>non fuit homo. Unde illa locutio cum in
+<lb ed="Bd" n="75"/>duplici sensu verificetur, conceditur ab
+<lb ed="Bd" n="76"/>omni opinione.
+</p>
+            <p xml:id="alalal-e23347-d1e911">
+               <lb ed="Bd" n="77"/>Ad aliud dicendum, quod hoc non est
+<lb ed="Bd" n="78"/>fimile de hac, ferrum fit cultellus : quia
+<lb ed="Bd" n="79"/>ferrum est materia cultelli : quia materia
+<lb ed="Bd" n="80"/>de sui natura subjicitur ipsi fieri : ideo
+<lb ed="Bd" n="81"/>videtur de natura sua fieri poni circa 
+ip<lb break="no" ed="Bd" n="82"/>sum : hoc autem non est ita in ista, Deus
+<lb ed="Bd" n="83"/>factus est homo, vel Filius Dei.
+</p>
+            <p xml:id="alalal-e23347-d1e929">
+               <lb ed="Bd" n="84"/>Ad aliud dicendum eodem modo, quod
+<lb ed="Bd" n="85"/>factum est complementum ejus quod fit,
+<lb ed="Bd" n="86"/>quando feri notatur poni circa ipsum, ut
+<lb ed="Bd" n="87"/>in generatione naturali, vel motu : hic
+<lb ed="Bd" n="88"/>autem non est ita.
+</p>
+            <p xml:id="alalal-e23347-d1e942">
+               <lb ed="Bd" n="89"/>Ad id quod wlterius quaeritur de ista,
+<lb ed="Bd" n="90"/>Deus est homo, dicendum quod nihil
+<lb ed="Bd" n="91"/>predicatur univoce de Deo ut Deus est,
+<pb ed="#Bd" n="122"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>et de creatura ut de creatura : quia bene
+<lb ed="Bd" n="2"/>concedo hoc, quod homo in eadem 
+ra<lb break="no" ed="Bd" n="3"/>tione predicatur de Christo ut de aliis.
+<lb ed="Bd" n="4"/>Et si objicitur per Joannem 
+Damasce<lb break="no" ed="Bd" n="5"/>num, quod in Domino Jesu non est 
+com<lb break="no" ed="Bd" n="6"/>munem speciem invenire, supra 
+solu<lb break="no" ed="Bd" n="7"/>tum est ', ubi illa auctoritas est 
+expla<lb break="no" ed="Bd" n="8"/>nata.
+</p>
+            <p xml:id="alalal-e23347-d1e973">
+               <lb ed="Bd" n="9"/>Ad aliud dicendum, quod illa ratio non
+<lb ed="Bd" n="10"/>procedit : quia non sequitur, si aliquid
+<lb ed="Bd" n="11"/>predicatur de Deo quod non semper
+<lb ed="Bd" n="12"/>predicabatur, quod ipse sit mutatus. Hac
+<lb ed="Bd" n="13"/>enim propositio, Aliquid convenit Deo
+<lb ed="Bd" n="14"/>quod non semper convenit, duas causas
+<lb ed="Bd" n="15"/>veritatis habet : quarum una est, si Deus
+<lb ed="Bd" n="16"/>mutatus est, vera est propositio. Secunda
+<lb ed="Bd" n="17"/>est, si aliquid mutatum est ad ipsum,
+<lb ed="Bd" n="18"/>iterum vera est : et tunc non sequitur,
+<lb ed="Bd" n="19"/>quod ipse sit mutatus, sed quod aliqu'd
+<lb ed="Bd" n="20"/>sit mutatum ad ipsum. Unde in 
+argu<lb break="no" ed="Bd" n="21"/>mentatione illa est peccatum 
+consequen<lb break="no" ed="Bd" n="22"/>tis, et est instantia, Deus est in hacanima
+<lb ed="Bd" n="23"/>creala modo essentialiter, prasentialiter,
+<lb ed="Bd" n="24"/>et polentialiter : et non semper infuit :
+<lb ed="Bd" n="25"/>ergo est mutatus : ita est etiam hic. 
+Pra<lb break="no" ed="Bd" n="26"/>ter hoc sequitur, quod est cum homine
+<lb ed="Bd" n="27"/>Christo per unionem.
+</p>
+            <p xml:id="alalal-e23347-d1e1017">
+               <lb ed="Bd" n="28"/>AD Atiup dicendum, quod cum dicitur,
+<lb ed="Bd" n="29"/>Deus est homo, ly homo predicatur 
+es<lb break="no" ed="Bd" n="30"/>sentialiter. Et ad hoc intelligendum est
+<lb ed="Bd" n="31"/>quiddam, quod cum dicitur, Deus est
+<lb ed="Bd" n="32"/>homo, vel Filius Dei est homo, 
+subjici<lb break="no" ed="Bd" n="33"/>tur iste terminus, Deus, gratia suppositi,
+<lb ed="Bd" n="34"/>et non gratia significati per terminum :
+<lb ed="Bd" n="35"/>et hoc cogente predicato, ut infra 
+pro<lb break="no" ed="Bd" n="36"/>batur : sicut cum dicitur, homo currit,
+<lb ed="Bd" n="37"/>virtute pradicati iste terminus, homo,
+<lb ed="Bd" n="38"/>stat pro supposito cui convenit cursus :
+<lb ed="Bd" n="39"/>ita cum dicitur, Deus est homo, virtute
+<lb ed="Bd" n="40"/>predicati stat iste terminus, homo, pro
+<lb ed="Bd" n="41"/>supposito.
+</p>
+            <p xml:id="alalal-e23347-d1e1051">
+               <lb ed="Bd" n="42"/>Et si objicitur, quod est contra artem,
+<lb ed="Bd" n="43"/>quod predicatum essentiale cogat 
+termi<lb break="no" ed="Bd" n="44"/>num stare pro supposito : quia 
+predica<lb break="no" ed="Bd" n="45"/>tum essentiale notat coherentiam ad 
+si<lb break="no" ed="Bd" n="46"/>gnificatum primo, et ad suppositum per
+<lb ed="Bd" n="47"/>consequens : cum enim dico, Socrates
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>est animal, non dicitur, Socrates est 
+ani<lb break="no" ed="Bd" n="49"/>mal, nisi per hoc quod est homo. Si,
+<lb ed="Bd" n="50"/>inquam, sic objiciatur, respondeo, quod
+<lb ed="Bd" n="51"/>hoc verum est in illis predicatis quae
+<lb ed="Bd" n="52"/>sumuntur a forma totius, quae est 
+ge<lb break="no" ed="Bd" n="53"/>nus, vel species, vel differentia respectu
+<lb ed="Bd" n="54"/>subjecti : hoc autem priedicatum homo,
+<lb ed="Bd" n="55"/>cum dicitur, Deus est homo, non est tale
+<lb ed="Bd" n="56"/>predicatum quod sit essentiale subjecto,
+<lb ed="Bd" n="57"/>eo quod sit genus, species, vel 
+differcn<lb break="no" ed="Bd" n="58"/>tia : sed est essentiale ut factum 
+es<lb break="no" ed="Bd" n="59"/>sentiale per aliud : et ideo cogit 
+subje<lb break="no" ed="Bd" n="60"/>ctum stare pro eo in quo facta est unio,
+<lb ed="Bd" n="61"/>que facit ipsum pradicatum essentiale.
+</p>
+            <p xml:id="alalal-e23347-d1e1099">
+               <lb ed="Bd" n="62"/>Et sic patet quod non sequitur, quod
+<lb ed="Bd" n="63"/>potest stare pro quolibet supposito : imo
+<lb ed="Bd" n="64"/>non appellabit nisi suppositum illud, in
+<lb ed="Bd" n="65"/>quo unio essentialis facta fuit: et tunc
+<lb ed="Bd" n="66"/>non sequitur, ergo Pater est homo, vel
+<lb ed="Bd" n="67"/>Spiritus sanctus est homo.
+</p>
+            <p xml:id="alalal-e23347-d1e1115">
+               <lb ed="Bd" n="68"/>Ad aliud dicendum, quod ipsum 
+re<lb break="no" ed="Bd" n="69"/>ducitur ad predicatum essentiale non
+<lb ed="Bd" n="70"/>conversum, sed ratione jam dicta non
+<lb ed="Bd" n="71"/>potest inferri, Omnis Deus est homo,
+<lb ed="Bd" n="72"/>etiamsi grammatica admitteret hanc,
+<lb ed="Bd" n="73"/>omnis Deus: quia in secunda distinctione
+<lb ed="Bd" n="74"/>libri primi Sententiarum probatum est,
+<lb ed="Bd" n="75"/>quod ly Deus non recipit signum 
+distri<lb break="no" ed="Bd" n="76"/>butivum, vel particularem vel pluralem
+<lb ed="Bd" n="77"/>numerum.
+</p>
+            <p xml:id="alalal-e23347-d1e1139">
+               <lb ed="Bd" n="78"/>Ad aliud dicendum, quod haec est 
+fal<lb break="no" ed="Bd" n="79"/>sa simpliciter dicenda, Deus est creatus,
+<lb ed="Bd" n="80"/>et Deus est creatura, nisi addatur deter—
+<lb ed="Bd" n="81"/>minatio, ut infra docebit Magister. Nec
+<lb ed="Bd" n="82"/>est simile, cum dicitur, Deus est homo :
+<lb ed="Bd" n="83"/>et, Homo est creatura: ergo Deus est
+<lb ed="Bd" n="84"/>creatura. Licet enim homo est creatura,
+<lb ed="Bd" n="85"/>tamen homo de intellectu suo non 
+im<lb break="no" ed="Bd" n="86"/>portat aliquod contrarium  significato
+<lb ed="Bd" n="87"/>hujus termini, Deus : quinimo importat
+<lb ed="Bd" n="88"/>de intellectu suo unibile divine nature
+<lb ed="Bd" n="89"/>et deitati, et per hoc cogit hunc 
+termi<lb break="no" ed="Bd" n="90"/>num, Deus, appellare suppositum Fil,
+<lb ed="Bd" n="91"/>ut dictum est prius : sed iste terminus,
+<lb ed="Bd" n="92"/>eveatus, vel factus, vel creatura, de suo
+<lb ed="Bd" n="93"/>intellectu importat hoc quod est 
+commu<lb break="no" ed="Bd" n="94"/>ne Trinitati : quia facere, et creare sunt
+<pb ed="#Bd" n="123"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>opera essentiae : et ideo respiciunt hunc
+<lb ed="Bd" n="2"/>ierminum, Deus, gratia significati : unde
+<lb ed="Bd" n="3"/>opposite ponuntur circa idem : ideo 
+lo<lb break="no" ed="Bd" n="4"/>cutio est falsa. Nec valet si creaturain
+<lb ed="Bd" n="5"/>esse sequitur universaliter ad hominem
+<lb ed="Bd" n="6"/>esse, quod propter hoc de quo in aliquo
+<lb ed="Bd" n="7"/>casu predicatur homo, predicetur etiam
+<lb ed="Bd" n="8"/>creatura pro factura simpliciter. Et hoc
+<lb ed="Bd" n="9"/>ideo, quia homo non predicatur gratia
+<lb ed="Bd" n="10"/>sui, sed gratia unionis facte : non enim
+<lb ed="Bd" n="11"/>habet iste terminus, homo, a suo 
+signi<lb break="no" ed="Bd" n="12"/>ficato quod sit Deus, sed potius ab 
+unio<lb break="no" ed="Bd" n="13"/>ne facta in hypostasi.
+</p>
+            <p xml:id="alalal-e23347-d1e1211">
+               <lb ed="Bd" n="14"/>Ad aliud dicendum, quod cum dicitur.
+<lb ed="Bd" n="15"/>Deus est homo, non est propositio 
+alicu<lb break="no" ed="Bd" n="16"/>jus quantitatis : et hoc contingit propter
+<lb ed="Bd" n="17"/>naturam hujus termini, Deus, qui nec
+<lb ed="Bd" n="18"/>dicit universale nec singulare. Quod 
+au<lb break="no" ed="Bd" n="19"/>tem universale non dicat, patet: quia
+<lb ed="Bd" n="20"/>universale est in multis per intentionem,
+<lb ed="Bd" n="21"/>et divisum ab illis per esse : Deus 
+au<lb break="no" ed="Bd" n="22"/>tem habet significatum quidem 
+commu<lb break="no" ed="Bd" n="23"/>nicabile pluribus, sed singulare in esse :
+<lb ed="Bd" n="24"/>quia tres persona secundum deitatem 
+ha<lb break="no" ed="Bd" n="25"/>bent idem esse. Quod non sit singularis,
+<lb ed="Bd" n="26"/>patet : quia nullum singulare est 
+commu<lb break="no" ed="Bd" n="27"/>nicabile pluribus, nec re, nec ratione :
+<lb ed="Bd" n="28"/>ergo non potest dici, quod sit alicujus
+<lb ed="Bd" n="29"/>quantitatis propositio : nec indefinita est,
+<lb ed="Bd" n="30"/>et ideo non procedunt rationes de 
+parti<lb break="no" ed="Bd" n="31"/>culari ad infinitam. Ne tamen videamur
+<lb ed="Bd" n="32"/>fugere rationem, dicendum quod hac
+<lb ed="Bd" n="33"/>est vera, Deus est homo : et heec est 
+fal<lb break="no" ed="Bd" n="34"/>sa, Deus non est homo. Sicut enim dicit
+<lb ed="Bd" n="35"/>Boetius, <quote xml:id="alalal-e23347-Qd1e1260"> Talia sunt subjecta, qualia
+<lb ed="Bd" n="36"/>predicata permiserint: </quote> et haec tenet
+<lb ed="Bd" n="37"/>semper quoad hoc quod subjectum 
+cogi<lb break="no" ed="Bd" n="38"/>tur a predicate stare vel pro subjecto,
+<lb ed="Bd" n="39"/>vel pro supposito, vel pro utroque. Cum
+<lb ed="Bd" n="40"/>enim dicitur, homo currit, semper 
+pre<lb break="no" ed="Bd" n="41"/>dicatum cogit subjectum stare pro 
+sup<lb break="no" ed="Bd" n="42"/>posito. Et similiter in negativa, quando
+<lb ed="Bd" n="43"/>dicitur, homo non currit. Ergo similiter
+<lb ed="Bd" n="44"/>cum dicitur, Deus est homo : cum 
+pra<lb break="no" ed="Bd" n="45"/>dicatum non sit essentiale subjecto per
+<lb ed="Bd" n="46"/>naturam, sed per unionem quae facta est
+<lb ed="Bd" n="47"/>in hypostasi, cogit subjectum stare pro
+<lb ed="Bd" n="48"/>supposito in quo facta est illa unio: igi-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>tur si negetur, negabitur ratione ejus—
+<lb ed="Bd" n="50"/>dem hypostasis : quia non respicit aliam
+<lb ed="Bd" n="51"/>nisi lam in qua facta est unio : ergo est
+<lb ed="Bd" n="52"/>ille duae, Deus est homo, et Deus non est
+<lb ed="Bd" n="53"/>homo, non oppouuntur nisi sicut 
+afirma<lb break="no" ed="Bd" n="54"/>tio et negatio circa idem: cum igitur
+<lb ed="Bd" n="55"/>haec sit vera, Deus est homo, haec erit
+<lb ed="Bd" n="56"/>falsa, Deus non est homo.
+</p>
+            <p xml:id="alalal-e23347-d1e1312">
+               <lb ed="Bd" n="57"/>Ad oc autem quod objicitur, quod
+<lb ed="Bd" n="58"/>predicata non restringunt subjecta, 
+Di<lb break="no" ed="Bd" n="59"/>cendum, quod licet non restringant in
+<lb ed="Bd" n="60"/>numero suppositorum, restringunt tamen
+<lb ed="Bd" n="61"/>gratia significati vel suppositi, et cogant
+<lb ed="Bd" n="62"/>stare pro significato vel supposito, sicut
+<lb ed="Bd" n="63"/>patet in his, homo est dignissima 
+creatu<lb break="no" ed="Bd" n="64"/>rarum, et homo est animal, et homo
+<lb ed="Bd" n="65"/>currit : in quibus omnibus subjectum
+<lb ed="Bd" n="66"/>respicilur a praedicato, et propter 
+hujus<lb break="no" ed="Bd" n="67"/>modi respectum cogitur habere 
+persona<lb break="no" ed="Bd" n="68"/>lem vel non personalem supposilionem :
+<lb ed="Bd" n="69"/>et ita est in hac locutione, Deus est 
+ho<lb break="no" ed="Bd" n="70"/>mo, praeter hoc solum quod ex natura
+<lb ed="Bd" n="71"/>significati hoc non habet predicatum 
+is<lb break="no" ed="Bd" n="72"/>ius iocutionis, sed ex unione quae facta
+<lb ed="Bd" n="73"/>est in hypostasi una tanium : et ideo
+<lb ed="Bd" n="74"/>non respicit subjectum nisi lantum
+<lb ed="Bd" n="75"/>gratia illius, et in negativa similiter. Et
+<lb ed="Bd" n="76"/>est simile, sicut si ponamus unum solum
+<lb ed="Bd" n="77"/>esse simum : sicut cum dicitur, homo
+<lb ed="Bd" n="78"/>est simus, vera est locutio, et respicitur
+<lb ed="Bd" n="79"/>subjectum gratia unius ilius, et appellat
+<lb ed="Bd" n="80"/>illum, et pro illo reddit locutionem 
+ve<lb break="no" ed="Bd" n="81"/>ram. Quod verificatur hec, homo non
+<lb ed="Bd" n="82"/>est simus, hoc contingit ideo, quia non
+<lb ed="Bd" n="83"/>restringitur home, et in alic est 
+secun<lb break="no" ed="Bd" n="84"/>dum aliud esse: quod non est in Deo,
+<lb ed="Bd" n="85"/>vel in significato hujustermini, Deus.
+</p>
+            <p xml:id="alalal-e23347-d1e1378">
+               <lb ed="Bd" n="86"/>Ad aliud dicendum, quod cum dicitur,
+<lb ed="Bd" n="87"/>Deus est homo, propositio est in materia
+<lb ed="Bd" n="88"/>naturali : sed dupliciter est aliquid in
+<lb ed="Bd" n="89"/>maieria naturali, scilicet ex coh#rentia
+<lb ed="Bd" n="90"/>naturali terminorum quam habent ex 
+or<lb break="no" ed="Bd" n="91"/>dine suorum significatorum ad invicem,
+<lb ed="Bd" n="92"/>et exalio faciente cohaerere substantialiter
+<lb ed="Bd" n="93"/>qua per naturam sunt ab invicem 
+sepa<lb break="no" ed="Bd" n="94"/>rata, et sic est hic : unde etiam hujus 
+si<lb break="no" ed="Bd" n="95"/>mile in natura inveniri non potest.
+</p>
+            <p xml:id="alalal-e23347-d1e1402">
+               <pb ed="#Bd" n="124"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Ad aliud dicendum, quod non est 
+pre<lb break="no" ed="Bd" n="2"/>dicatio per causam, sed per essentiam,
+<lb ed="Bd" n="3"/>ut dictum est.
+</p>
+            <p xml:id="alalal-e23347-d1e1415">
+               <lb ed="Bd" n="4"/>Ad id quod ulterius quaeritur de 
+con<lb break="no" ed="Bd" n="5"/>versis, scilicet hac, Homo factus est
+<lb ed="Bd" n="6"/>Deus : videtur quibusdam non esse 
+con<lb break="no" ed="Bd" n="7"/>cedenda, eo quod sequi videtur, homo
+<lb ed="Bd" n="8"/>factus est Deus, ergo aliquis homo factus
+<lb ed="Bd" n="9"/>est Deus, vel ergo unus factus est
+<lb ed="Bd" n="10"/>Deus, et ita ambae improbatae sunt in
+<lb ed="Bd" n="11"/>distinctione praecedenti.
+</p>
+            <p xml:id="alalal-e23347-d1e1435">
+               <lb ed="Bd" n="12"/>Sed videtur mihi sine prajudicio 
+lo<lb break="no" ed="Bd" n="13"/>quendo, quod Magister concedit eas, et
+<lb ed="Bd" n="14"/>etiam Augustinus ponit eas : et ideo sub
+<lb ed="Bd" n="15"/>distinclione recipi possunt: homo factus
+<lb ed="Bd" n="16"/>est Deus, ita quod ly factus determinet
+<lb ed="Bd" n="17"/>ly homo, ut sit sensus, homo factus est
+<lb ed="Bd" n="18"/>Deus, id est, homo qui factus est: et in
+<lb ed="Bd" n="19"/>hoc sensu non oportet quod homo 
+pra<lb break="no" ed="Bd" n="20"/>exstiterit, quia suum factum esse cum
+<lb ed="Bd" n="21"/>suo unitum esse fuit simul, et suum fieri
+<lb ed="Bd" n="22"/>cum suo uniri fuit simul. Similiter
+<lb ed="Bd" n="23"/>si ly factus referatur ad aliquod 
+subin<lb break="no" ed="Bd" n="24"/>tellectum extra propositionem, ut sit 
+sen<lb break="no" ed="Bd" n="25"/>sus, factum est quod homo est Deus, id
+<lb ed="Bd" n="26"/>est, aliquid factum est, id est, unio qua
+<lb ed="Bd" n="27"/>homo Deus est, vera erit.
+</p>
+            <p xml:id="alalal-e23347-d1e1472">
+               <lb ed="Bd" n="28"/>Ad primum ergo quod contra objicitur,
+<lb ed="Bd" n="29"/>dicendum quod hoc verum est, quando
+<lb ed="Bd" n="30"/>fieri est successivum : quia tunc factum
+<lb ed="Bd" n="31"/>esse est in termino mutatio : sed non fuit
+<lb ed="Bd" n="32"/>ita in Christo, imo simul factum est 
+to<lb break="no" ed="Bd" n="33"/>tum virtute infinita Spiritus sancti. Vel
+<lb ed="Bd" n="34"/>dicatur, quod si feri distinguatur per in-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="35"/>tellectum a factum esse, tunc fier? non
+<lb ed="Bd" n="36"/>ponit hominem esse, sed potentiam 
+ho<lb break="no" ed="Bd" n="37"/>minis solum quae mutatur ad formam
+<lb ed="Bd" n="38"/>hominis, sed simul habetur unio et 
+ho<lb break="no" ed="Bd" n="39"/>mo ad Deum, etideo utrumque remanet:
+<lb ed="Bd" n="40"/>quia non est unio in terminum, sed 
+po<lb break="no" ed="Bd" n="41"/>tius in singularitatem persone 
+praexi<lb break="no" ed="Bd" n="42"/>stentis.
+</p>
+            <p xml:id="alalal-e23347-d1e1509">
+               <lb ed="Bd" n="43"/>Ad aliud dicendum, quod hoc non est
+<lb ed="Bd" n="44"/>verum : quia ly Aomo non dicitur factus
+<lb ed="Bd" n="45"/>sicut materia, sed potius sicut terminus
+<lb ed="Bd" n="46"/>illius fieri quod importatur per terminum
+<lb ed="Bd" n="47"/>unionis: et illi ex parte assumptionis
+<lb ed="Bd" n="48"/>subjiciebatur natura, et terminata est
+<lb ed="Bd" n="49"/>unio in homine perfecto unito : non iia
+<lb ed="Bd" n="50"/>quod successive factum sit ibi tempore,
+<lb ed="Bd" n="51"/>sed ex parte ordinis naturalis prius est
+<lb ed="Bd" n="52"/>assumere corpus et animam, quam 
+ha<lb break="no" ed="Bd" n="53"/>bere hominem unitum perfectum.
+</p>
+            <p xml:id="alalal-e23347-d1e1536">
+               <lb ed="Bd" n="54"/>Ad id quod ulterius quaeritur de ista,
+<lb ed="Bd" n="55"/>Homo est Deus, dicendum quod illa 
+ab<lb break="no" ed="Bd" n="56"/>solute vera est.
+</p>
+            <p xml:id="alalal-e23347-d1e1545">
+               <lb ed="Bd" n="57"/>Ad objectum autem contra, dicendum
+<lb ed="Bd" n="58"/>quod in aliquo magis distant affirmatio et
+<lb ed="Bd" n="59"/>negatio, in aliquo magis Deus et homo.
+<lb ed="Bd" n="60"/>Si enim attendatur natura oppositionis
+<lb ed="Bd" n="61"/>inter ens et non ens, simpliciter ma is
+<lb ed="Bd" n="62"/>opponuntur affirmatio et negatio quam
+<lb ed="Bd" n="63"/>Deus et homo, et ideo non verificantur
+<lb ed="Bd" n="64"/>simul, nec possunt coujungi : Deus autem
+<lb ed="Bd" n="65"/>et homo bene possunt conjungi. Si 
+au<lb break="no" ed="Bd" n="66"/>tem attendatur proportio dignitatis inter
+<lb ed="Bd" n="67"/>extrema, tunc magis distat Deus a 
+quoli<lb break="no" ed="Bd" n="68"/>bet creato, quam affirmatio et negatio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

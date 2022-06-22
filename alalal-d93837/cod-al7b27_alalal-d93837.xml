@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="548"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d93837"><!-- l2d34a2 -->
+            <head xml:id="alalal-d93837-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-d93837-Hd1e101" type="question-title">Utrum maium habeat causam 
+efficientem vel deficientem ?</head>
+            <p xml:id="alalal-d93837-d1e104">
+               <lb ed="#Bc" n="76"/>ARTICULUS II.
+<lb ed="#Bc" n="77"/>Utrum maium habeat causam 
+efficien<lb break="no" ed="#Bc" n="78"/>tem vel deficientem ?
+</p>
+            <p xml:id="alalal-d93837-d1e113">
+               <lb ed="#Bc" n="79"/>Secundo queritur, Utrum habeat 
+cau<lb break="no" ed="#Bc" n="80"/>sam efficientem vel deficientem ?
+</p>
+            <p xml:id="alalal-d93837-d1e120">
+               <lb ed="#Bc" n="81"/>Videtur autem, quod deficientem :
+<lb ed="#Bc" n="82"/>quia
+<lb ed="#Bc" n="83"/>1. Ut dicit Augustinus, causas mali
+<lb ed="#Bc" n="84"/>efficientes non oportet querere, sed 
+de<lb break="no" ed="#Bc" n="85"/>ficientes.
+</p>
+            <p xml:id="alalal-d93837-d1e134">
+               <lb ed="#Bc" n="86"/>2. Item, Malum (ut jam habitum est)
+<lb ed="#Bc" n="87"/>privatio est. Privatio autem non habet
+<lb ed="#Bc" n="88"/>causam efficientem, sed deficientem
+<lb ed="#Bc" n="89"/>ergo malum similiter.
+</p>
+            <p xml:id="alalal-d93837-d1e145">
+               <lb ed="#Bc" n="90"/>3. Item, Causa efficiens non efficit nisi
+<lb ed="#Bc" n="91"/>duobus modis, scilicet influendo speciem
+<pb ed="#Bc" n="549"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>propriam, aut actu suo eliciendo 
+spe<lb break="no" ed="#Bc" n="2"/>cliem eX co in quod agit. Verbi gratia,
+<lb ed="#Bc" n="3"/>ignis in combustibili influit speciem 
+pro<lb break="no" ed="#Bc" n="4"/>priam, et sol in terra elicit speciem 
+li<lb break="no" ed="#Bc" n="5"/>quationis quae non est propria soli : ergo
+<lb ed="#Bc" n="6"/>si malum habet causam_ efficientem,
+<lb ed="#Bc" n="7"/>oportet quod altero illorum modorum
+<lb ed="#Bc" n="8"/>habeat speciem. Quidquid autem habet
+<lb ed="#Bc" n="9"/>speciem, ipsum est absolute : ergo 
+ma<lb break="no" ed="#Bc" n="10"/>lum est absolute. Sed hoc est falsum, ut
+<lb ed="#Bc" n="11"/>probatum est : ergo malum non habet
+<lb ed="#Bc" n="12"/>causam efficientem, ut videtur.
+</p>
+            <p xml:id="alalal-d93837-d1e182">
+               <lb ed="#Bc" n="13"/>SED CONTRA
+<lb ed="#Bc" n="14"/>1. Omne quod est, aut est causa 
+pri<lb break="no" ed="#Bc" n="15"/>ma, aut causatum a causa prima : 
+ma<lb break="no" ed="#Bc" n="16"/>lum est in actu et habitu : ergo ipsum
+<lb ed="#Bc" n="17"/>est aut causa prima, aut causatum a 
+cau<lb break="no" ed="#Bc" n="18"/>sa prima. Non autem ipsum est causa
+<lb ed="#Bc" n="19"/>prima : ergo est causatum a causa 
+ali<lb break="no" ed="#Bc" n="20"/>qua efficiente.
+</p>
+            <p xml:id="alalal-d93837-d1e202">
+               <lb ed="#Bc" n="21"/>2.Item, Albificator est causa efficiens
+<lb ed="#Bc" n="22"/>albi : ergo et malefactor est causa 
+effi<lb break="no" ed="#Bc" n="23"/>ciens mah : ergo malum habet causam
+<lb ed="#Bc" n="24"/>efficientem.
+</p>
+            <p xml:id="alalal-d93837-d1e213">
+               <lb ed="#Bc" n="25"/>3. Item, Quidquid est in potentia 
+ali<lb break="no" ed="#Bc" n="26"/>cujus, antequam sit, necesse est quod sit
+<lb ed="#Bc" n="27"/>in illo, sicut in potentia cause 
+ocfficien<lb break="no" ed="#Bc" n="28"/>tis vel materialis : malum autem est in
+<lb ed="#Bc" n="29"/>potentia liberi arbitrii antequam fiat :
+<lb ed="#Bc" n="30"/>ergo est in ipso sicut in materia, vel 
+effi<lb break="no" ed="#Bc" n="31"/>ciente : non autem sicut in materia :
+<lb ed="#Bc" n="32"/>ergo sicut in efficiente : ergo habet 
+cau<lb break="no" ed="#Bc" n="33"/>sam efflicientem,
+</p>
+            <p xml:id="alalal-d93837-d1e235">
+               <lb ed="#Bc" n="34"/>Solutio. Ad haec omnia leve est 
+sol<lb break="no" ed="#Bc" n="35"/>vere, si habeantur prehabita in 
+prece<lb break="no" ed="#Bc" n="36"/>denti problemate. Si enim materialiter
+<lb ed="#Bc" n="37"/>aceipiatur malum, hoc est id quod est
+<lb ed="#Bc" n="38"/>malum, tunc malum erit in actu et 
+ha<lb break="no" ed="#Bc" n="39"/>bitu. Actus autem ilie consideratur 
+du<lb break="no" ed="#Bc" n="40"/>pliciter, scilicet in comparatione ad 
+ob<lb break="no" ed="#Bc" n="41"/>jectum, quod est commutabile bonum :
+<lb ed="#Bc" n="42"/>et eodem modo habitus considerari 
+pot<lb break="no" ed="#Bc" n="43"/>estin quantum inclinat in illud : et sic
+<lb ed="#Bc" n="44"/>malum est voluntarium et intentum et
+<lb ed="#Bc" n="45"/>causatum, et habet causam efficientem,
+<lb ed="#Bc" n="46"/>sicut probabitur in distinctione sequenti.
+<lb ed="#Bc" n="47"/>Si autem consideretur malum in eo quod
+<lb ed="#Bc" n="48"/>malum, vel actus vel habitus in quan-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="49"/>tum comparatur ad formalem 
+privatio<lb break="no" ed="#Bc" n="50"/>nem boni: sic malum non est 
+volunta<lb break="no" ed="#Bc" n="51"/>rium, et non intentum, et non fecun~
+<lb ed="#Bc" n="52"/>dum, sed pigrum, ut dicit Dionysius, et
+<lb ed="#Bc" n="53"/>non causaium aliqua causa efficiente :
+<lb ed="#Bc" n="54"/>sed est defectus incidens ex voluntate
+<lb ed="#Bc" n="55"/>deflexa a bono commutabili, et sic 
+egre<lb break="no" ed="#Bc" n="56"/>diente in actum.
+</p>
+            <p xml:id="alalal-d93837-d1e291">
+               <lb ed="#Bc" n="57"/>Et hoc totum habet probari in 
+sequen<lb break="no" ed="#Bc" n="58"/>ti distinctione, in qua queretur, Utrum
+<lb ed="#Bc" n="59"/>omnis actus sit a Deo ? Secundum 
+pri<lb break="no" ed="#Bc" n="60"/>mam intentionem mali rationes 
+proce<lb break="no" ed="#Bc" n="61"/>dunt secundo inducte : et secundam 
+in<lb break="no" ed="#Bc" n="62"/>tentionem ejusdem procedunt rationes
+<lb ed="#Bc" n="63"/>primo inducte.
+</p>
+            <p xml:id="alalal-d93837-d1e309">
+               <lb ed="#Bc" n="64"/>Unde patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

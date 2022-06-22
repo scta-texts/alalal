@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="517"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d89198"><!-- l2d31et -->
+            <head xml:id="alalal-d89198-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-d89198-d1e101">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="14"/>Expositio Textus. 
+</p>
+            <p xml:id="alalal-d89198-d1e108">
+               <lb ed="#Bc" n="15"/>Deinde. quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="16"/>ibi, <quote xml:id="alalal-d89198-Qd1e114"> Sed ad hoc opponitur hoc modo,
+<lb ed="#Bc" n="17"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-d89198-d1e120">
+               <lb ed="#Bc" n="18"/>Videtur enim, quod inobedientia ista
+<lb ed="#Bc" n="19"/>magis debuit esse in ratione, quam in
+<lb ed="#Bc" n="20"/>generativis organis : quia ratio primo
+<lb ed="#Bc" n="21"/>peccavit volendo esse sicut Deus.
+</p>
+            <p xml:id="alalal-d89198-d1e131">
+               <cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="22"/>Item, Videtur quod in nutritiva, quia
+<lb ed="#Bc" n="23"/>illa illicitum gustavit.
+<lb ed="#Bc" n="24"/>Item, In aure, quia serpentem primo
+<lb ed="#Bc" n="25"/>audivit.
+</p>
+            <p xml:id="alalal-d89198-d1e145">
+               <lb ed="#Bc" n="26"/>Sep soLurio ad omnia hujusmodi est,
+<lb ed="#Bc" n="27"/>quod non attenditur, utrum primo fuerit
+<lb ed="#Bc" n="28"/>peccatum in hoc membro vel illo : sed
+<lb ed="#Bc" n="29"/>potius attenditur corruptio nature in
+<lb ed="#Bc" n="30"/>originali : et ideo inobedientia et libido
+<lb ed="#Bc" n="31"/>dominabatur in partu propagationis, ut
+<lb ed="#Bc" n="32"/>sit ipsa inobedientia argumentum, quod
+<lb ed="#Bc" n="33"/>conceptus originali vitio est. corruptus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

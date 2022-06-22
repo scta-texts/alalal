@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="423"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g87864"><!-- l4d14a10 -->
+            <head xml:id="alalal-g87864-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-g87864-Hd1e101" type="question-title">Qualiter poenitentia timore concipiatur ?</head>
+            <p xml:id="alalal-g87864-d1e104">
+               <lb ed="#Be" n="64"/>ARTICULUS X.
+<lb ed="#Be" n="65"/>Qualiter poenitentia timore concipiatur ?
+</p>
+            <p xml:id="alalal-g87864-d1e111">
+               <lb ed="#Be" n="66"/>Secundum queritur, Qualiter 
+poeni<lb break="no" ed="#Be" n="67"/>tentia timore concipiatur ?
+</p>
+            <p xml:id="alalal-g87864-d1e118">
+               <lb ed="#Be" n="68"/>Videtur autem quod non concipiatur :
+<lb ed="#Be" n="69"/>quia omnes virtutes simul dantur per
+<lb ed="#Be" n="70"/>infusionem : ergo nulla concipitur per
+<lb ed="#Be" n="71"/>alam, ut videtur.
+</p>
+            <p xml:id="alalal-g87864-d1e130">
+               <lb ed="#Be" n="72"/>Prerera, Qualiter concipitur potius
+<lb ed="#Be" n="73"/>quam generatur ?
+</p>
+            <p xml:id="alalal-g87864-d1e137">
+               <lb ed="#Be" n="74"/>Unrerius queritur, Si timore, 
+conci<lb break="no" ed="#Be" n="75"/>pitur, quo timore concipiatur ?
+</p>
+            <p xml:id="alalal-g87864-d1e144">
+               <lb ed="#Be" n="76"/>Videtur autem, quod servili : quia ille
+<lb ed="#Be" n="77"/>prius est, et fugit poenam: ergo inducit
+<lb ed="#Be" n="78"/>dolorem de merito vel reatu pcens: et
+<lb ed="#Be" n="79"/>hic est actus poenitentia : ergo concipitur
+<lb ed="#Be" n="80"/>timore servili.
+</p>
+            <p xml:id="alalal-g87864-d1e157">
+               <lb ed="#Be" n="81"/>Contra : Conceptum est intra 
+conci<lb break="no" ed="#Be" n="82"/>piens : ergo poenitentia est intra timorem
+<pb ed="#Be" n="424"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>concipientem, sed poenitentia est cum
+<lb ed="#Be" n="2"/>gratia: ergo timor est gratuitus, quo
+<lb ed="#Be" n="3"/>concipitur poenitentia : sed servilis timor
+<lb ed="#Be" n="4"/>non est gratuitus : ergo non concipitur
+<lb ed="#Be" n="5"/>timore servili, ut videtur, sed initiali.
+</p>
+            <p xml:id="alalal-g87864-d1e179">
+               <lb ed="#Be" n="6"/>Solutio. Dicendum, quod conceptum
+<lb ed="#Be" n="7"/>dicit intus captum, imperfectum : et ideo
+<lb ed="#Be" n="8"/>cum duo sint inter quae movetur 
+pceni<lb break="no" ed="#Be" n="9"/>tens, ut dicit Gregorius, scilicet_spes,
+<lb ed="#Be" n="10"/>et timor : et duo sint in poenitentia, 
+sci<lb break="no" ed="#Be" n="11"/>licet dolor, et gratia informans, quam
+<lb ed="#Be" n="12"/>consequitur gaudium de dolore, ut infra
+<lb ed="#Be" n="13"/>habebitur. Ex parte spei magis se tenent
+<lb ed="#Be" n="14"/>gratia et gaudium quae sunt perfectiva
+<lb ed="#Be" n="15"/>poenitentiae in quantum est meritoria:
+<lb ed="#Be" n="16"/>ex parte aulem timoris magis se tenet
+<lb ed="#Be" n="17"/>dolor qui est materialis in poenitentia, et
+<lb ed="#Be" n="18"/>secundum se imperfectus. Et hoc patet
+<lb ed="#Be" n="19"/>ex hoc quod contritio dolorem commu~
+<lb ed="#Be" n="20"/>nem habet cum attritione : cum tamen
+<lb ed="#Be" n="21"/>attritio sit dolor informis de peceatis : et
+<lb ed="#Be" n="22"/>quia conceptum dicit intus captum 
+im<lb break="no" ed="#Be" n="23"/>perfectum, et ex parte doloris tenet se ad
+<lb ed="#Be" n="24"/>timorem, dicitur magis, quod timore
+<lb ed="#Be" n="25"/>concipitur, quam spe vel alia virtute.
+</p>
+            <p xml:id="alalal-g87864-d1e225">
+               <lb ed="#Be" n="26"/>Ab priwum ergo dicendum, quod licet
+<lb ed="#Be" n="27"/>omnes simul tempore infundantur, 
+ta<lb break="no" ed="#Be" n="28"/>men habent ordinem quemdam 
+secun<lb break="no" ed="#Be" n="29"/>dum naturam acluum ipsarum virtutum,
+<lb ed="#Be" n="30"/>et etiam ex parte subjecti cui 
+infundun<lb break="no" ed="#Be" n="31"/>tur, ut in prescedenti questione 
+determi<lb break="no" ed="#Be" n="32"/>natum est.
+</p>
+            <p xml:id="alalal-g87864-d1e244">
+               <lb ed="#Be" n="33"/>Ad aliud dicendum, quod generari
+<lb ed="#Be" n="34"/>edificationem dicit perfecti : et 
+secun<lb break="no" ed="#Be" n="35"/>dum hoc poenitentia reducitur etiam ad
+<lb ed="#Be" n="36"/>timorem ut ad effectum, ut in se claudit
+<lb ed="#Be" n="37"/>poenitentiam.
+</p>
+            <p xml:id="alalal-g87864-d1e257">
+               <lb ed="#Be" n="38"/>Ad suiup dicendum, quod uterque 
+ti<lb break="no" ed="#Be" n="39"/>mor potest significari cum dicitur, 
+Pe<lb break="no" ed="#Be" n="40"/>nitentiae virtus timore concipitur. Per
+<lb ed="#Be" n="41"/>concipiens autem potest significari 
+efti<lb break="no" ed="#Be" n="42"/>ciens extra, et claudens in se 
+pceniten<lb break="no" ed="#Be" n="43"/>tiam, non simpliciter, sed imperfectam :
+<lb ed="#Be" n="44"/>et hoc est in dolore attritionis.
+</p>
+            <p xml:id="alalal-g87864-d1e275">
+               <lb ed="#Be" n="45"/>Et sic non sequitur quod in contra
+<lb ed="#Be" n="46"/>rium objicitur : quia poenitentia sic ac-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="47"/>cepta est sicut puerperium informe,
+<lb ed="#Be" n="48"/>ideo est sine gratia : et ideo generat ean
+<lb ed="#Be" n="49"/>et claudit in se timor servilis. Si autem
+<lb ed="#Be" n="50"/>intelligatur per concipiens generans intra
+<lb ed="#Be" n="51"/>et claudens poenitentiam habentem fo,.
+<lb ed="#Be" n="52"/>mam gratiew, sicut clauduntur puerperia
+<lb ed="#Be" n="53"/>formata : tune concipiens erit timor jini.
+<lb ed="#Be" n="54"/>tialis : et non valet primum argumen.
+<lb ed="#Be" n="55"/>tum, quia ostensio poene non est causa
+<lb ed="#Be" n="56"/>poenitentiae in eo quod hujusmodi, seq
+<lb ed="#Be" n="57"/>doloris tantum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

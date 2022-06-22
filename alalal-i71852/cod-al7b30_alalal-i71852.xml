@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="343"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i71852"><!-- l4d35dt1 -->
+            <head xml:id="alalal-i71852-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-i71852-d1e101">
+               <lb ed="#Bf" n="19"/>DIVISIO TEXTUS. 
+</p>
+            <p xml:id="alalal-i71852-d1e106">
+               <lb ed="#Bf" n="20"/>
+               <quote xml:id="alalal-i71852-Qd1e110"> Hoc etiam notandum est, quod cum 
+  <lb ed="#Bf" n="21"/>Dominus concedat, etc. </quote>
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="22"/>Habitis impedimentis quibusdam, quae
+<lb ed="#Bf" n="23"/>in ipso jure et natura matrimonium 
+im<lb break="no" ed="#Bf" n="24"/>pediunt contrahendum, et dirimunt 
+con<lb break="no" ed="#Bf" n="25"/>tractum, tangit Magister de 
+separatio<lb break="no" ed="#Bf" n="26"/>ne a thoro, in qua non est separatio
+<lb ed="#Bf" n="27"/>sacramentalis : de qua querit 
+qua<lb break="no" ed="#Bf" n="28"/>tuor.
+</p>
+            <p xml:id="alalal-i71852-d1e133">
+               <pb ed="#Bf" n="344"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Primum est, quod jus utriusque in
+<lb ed="#Bf" n="2"/>separatione ista est equale.
+</p>
+            <p xml:id="alalal-i71852-d1e144">
+               <lb ed="#Bf" n="3"/>Secundum, quod si sunt in simili 
+cri<lb break="no" ed="#Bf" n="4"/>mine, neuter conjugum alium potest 
+di<lb break="no" ed="#Bf" n="5"/>mittere, ibi, B, <quote xml:id="alalal-i71852-Qd1e152"> Si vero quaeritur an
+<lb ed="#Bf" n="6"/>adulter, etc. </quote>
+            </p>
+            <p xml:id="alalal-i71852-d1e159">
+               <lb ed="#Bf" n="7"/>Tertio ostendit, quod dimissus vel 
+di<lb break="no" ed="#Bf" n="8"/>miissa non potest se alteri copulare, dum
+<lb ed="#Bf" n="9"/>vivunt ambo dimittens et dimissa, ibi,
+<lb ed="#Bf" n="10"/>CG, <quote xml:id="alalal-i71852-Qd1e169"> St quis autem fornicationis expers,
+<lb ed="#Bf" n="11"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-i71852-d1e175">
+               <lb ed="#Bf" n="12"/>Quarto et ultimo, ratione convenienti
+<lb ed="#Bf" n="13"/>materiw tangit de his qui se primo 
+pol<lb break="no" ed="#Bf" n="14"/>lucrunt per adulterium, et postea 
+con<lb break="no" ed="#Bf" n="15"/>trahunt matrimonium, ibi, E, <quote xml:id="alalal-i71852-Qd1e185"> Sed hee
+<lb ed="#Bf" n="16"/>omnia intelligenda sunt de illa, etc. </quote>
+            </p>
+            <p xml:id="alalal-i71852-d1e191">
+               <lb ed="#Bf" n="17"/>Et hae de divisione sufficiant.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

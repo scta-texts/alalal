@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="207"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g41102"><!-- l4d8a12 -->
+            <head xml:id="alalal-g41102-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-g41102-Hd1e101" type="question-title">Quid sit sacramentum ? Quid res? et,
+Quid sacramentum et res simul ?</head>
+            <p xml:id="alalal-g41102-d1e104">
+               <pb ed="#Be" n="207"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>ARTICULUS XII.
+<lb ed="#Be" n="2"/>Quid sit sacramentum ? Quid res? et,
+<lb ed="#Be" n="3"/>Quid sacramentum et res simul ?
+</p>
+            <p xml:id="alalal-g41102-d1e117">
+               <lb ed="#Be" n="4"/>Secundo queritur. Quid sit hic 
+sacra<lb break="no" ed="#Be" n="5"/>mentum, et quid res tantum ?
+</p>
+            <p xml:id="alalal-g41102-d1e124">
+               <lb ed="#Be" n="6"/>Videtur autem, quod species visibiles
+<lb ed="#Be" n="7"/>panis et vini non possunt esse 
+sacramen<lb break="no" ed="#Be" n="8"/>tum tantum :
+</p>
+            <p xml:id="alalal-g41102-d1e134">
+               <lb ed="#Be" n="9"/>4. Id enim quod est sacramentum
+<lb ed="#Be" n="10"/>tantum, expressionem signi habet ad id
+<lb ed="#Be" n="11"/>quod est sacramentum et res, et ad id
+<lb ed="#Be" n="12"/>quod est res tantum : sed species panis et
+<lb ed="#Be" n="13"/>vini non videntur habere talem rationem
+<lb ed="#Be" n="14"/>signi: ergo non sunt sacramentum. Pre
+<lb ed="#Be" n="15"/>mA constat ex prius habitis. Srecunpa
+<lb ed="#Be" n="16"/>probatur ex hoc quod panis et vinum
+<lb ed="#Be" n="17"/>sunt corpora homogenia : talia autem
+<lb ed="#Be" n="18"/>non habent similitudinem cum hetero-~
+<lb ed="#Be" n="19"/>genio, sed potius oppositionem 
+quam<lb break="no" ed="#Be" n="20"/>dam : ergo non significabunt istad.
+</p>
+            <p xml:id="alalal-g41102-d1e163">
+               <lb ed="#Be" n="21"/>2. Praeterea, Cum major sit similitudo
+<lb ed="#Be" n="22"/>naturalis ad naturale, quam artificialis
+<lb ed="#Be" n="23"/>ad naturale, videtur quod id quod est 
+si<lb break="no" ed="#Be" n="24"/>gnum corporis Christi veri quod est 
+cor<lb break="no" ed="#Be" n="25"/>pus naturale, debuit esse naturale 
+cor<lb break="no" ed="#Be" n="26"/>pus, et non artificiale: ergo videtur,
+<lb ed="#Be" n="27"/>quod non debet esse species panis cocti
+<lb ed="#Be" n="28"/>et vini expressi.
+</p>
+            <p xml:id="alalal-g41102-d1e183">
+               <lb ed="#Be" n="29"/>3. Item,Dicit Hugo de sancto Victore :
+<lb ed="#Be" n="30"/>
+               <quote xml:id="alalal-g41102-Qd1e189"> Cum unum sit sacramentum, tria sibi
+<lb ed="#Be" n="31"/>discreta proponuntur, species scilicet 
+vi<lb break="no" ed="#Be" n="32"/>sibilis, et virtus corporis, et virtus anime
+<lb ed="#Be" n="33"/>spiritualis : et primum est signum 
+secun<lb break="no" ed="#Be" n="34"/>di : secundum autem causa tertii : 
+ter<lb break="no" ed="#Be" n="35"/>tium autem efiectus secundi, et 
+signa<lb break="no" ed="#Be" n="36"/>tum primi. </quote> Ergo videtur, quod 
+pri<lb break="no" ed="#Be" n="37"/>mum habeat rationem  significandi et
+<lb ed="#Be" n="38"/>respectu secundi, et respectu  tertii.
+<lb ed="#Be" n="39"/>Cum ergo convenientissima debcant
+<lb ed="#Be" n="40"/>esse signa Novi Testamenti, et signa
+<lb ed="#Be" n="41"/>veritatis, videtur quod magis signum
+<lb ed="#Be" n="42"/>debuit poni in heterogenio : quia hetero-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="43"/>genium exprimit compositionem orga~
+<lb ed="#Be" n="44"/>norum in corpore vero, et unitatem
+<lb ed="#Be" n="45"/>diversorum fidelium in corpere mystico,
+<lb ed="#Be" n="46"/>quorum neutrum videtur esse in corpore
+<lb ed="#Be" n="47"/>homogenio.
+</p>
+            <p xml:id="alalal-g41102-d1e232">
+               <lb ed="#Be" n="48"/>Solutio. Dicendum per auctoritatem
+<lb ed="#Be" n="49"/>Damasceni qui dicit, quod quia 
+homini<lb break="no" ed="#Be" n="50"/>bus moris erat aqua lavari, et oleo ungi,
+<lb ed="#Be" n="51"/>conjunxit olco et clementis Spiritus 
+san<lb break="no" ed="#Be" n="52"/>ctigratiam, ut efficeretur sacramentum
+<lb ed="#Be" n="53"/>spiritualiter lavans et spiritualiter 
+un<lb break="no" ed="#Be" n="54"/>gens. Et quia hominibus moris erat uti
+<lb ed="#Be" n="55"/>pane in cibo, et vino in potu, fecit de his
+<lb ed="#Be" n="56"/>corpus et sanguinem suum unitum 
+dei<lb break="no" ed="#Be" n="57"/>tati, et ministravit in cibum spiritualem.
+<lb ed="#Be" n="58"/>Et ideo im aliis non adeo universaliter et
+<lb ed="#Be" n="59"/>convenienter inveniretur ratio 
+significan<lb break="no" ed="#Be" n="60"/>di cibum spiritualem.
+</p>
+            <p xml:id="alalal-g41102-d1e263">
+               <lb ed="#Be" n="61"/>Ad i autem quod objicitur primo,
+<lb ed="#Be" n="62"/>supra etiam objectum et solutum est in
+<lb ed="#Be" n="63"/>questione de forma corporis Christi. Et
+<lb ed="#Be" n="64"/>dicendum, quod duo sunt in pane, 
+scili<lb break="no" ed="#Be" n="65"/>cet ratio cibi, et materia ex qua fit ratio
+<lb ed="#Be" n="66"/>cibi: una est magis in homogenio quam
+<lb ed="#Be" n="67"/>in heterogenio : et guia corpus Christi
+<lb ed="#Be" n="68"/>cibus est universaliter et simpliciter,
+<lb ed="#Be" n="69"/>quoad haec magis convenit homogenium
+<lb ed="#Be" n="70"/>quam heterogenium. Si autem 
+materia<lb break="no" ed="#Be" n="71"/>liter consideretur: tune conficitur ex
+<lb ed="#Be" n="72"/>multis granis discretis, et quoad hoc 
+ha<lb break="no" ed="#Be" n="73"/>bet similitudinem cum opcratione 
+orga<lb break="no" ed="#Be" n="74"/>norum corporis Christi veri, et cum 
+ag<lb break="no" ed="#Be" n="75"/>gregatione fidelium. Et quia utrumque
+<lb ed="#Be" n="76"/>significari oportet in materia 
+Euchari<lb break="no" ed="#Be" n="77"/>stiae, propter hoc oportait habere 
+utrum<lb break="no" ed="#Be" n="78"/>que quodammodo, scilicct heterogenium
+<lb ed="#Be" n="79"/>in materia panis, et homogenium in esse
+<lb ed="#Be" n="80"/>panis confecti, propter unam in toto
+<lb ed="#Be" n="81"/>Christo rationem cibandi : et eadem 
+ra<lb break="no" ed="#Be" n="82"/>tio est de vino.
+</p>
+            <p xml:id="alalal-g41102-d1e313">
+               <lb ed="#Be" n="83"/>Ad Hoc autem quod objicitur de 
+artifi<lb break="no" ed="#Be" n="84"/>ciali, dicendum quod Christus passus
+<lb ed="#Be" n="85"/>et passione nobis excoctus significatur
+<lb ed="#Be" n="86"/>in Eucharistia. In passione autem fuit
+<lb ed="#Be" n="87"/>opus hominis, et quoad hoc habet 
+simi<lb break="no" ed="#Be" n="88"/>litudinem opus artis, qued est opus 
+vo<lb break="no" ed="#Be" n="89"/>luntatis hominis in quo panis se habet ut
+<lb ed="#Be" n="90"/>patiens : et hanc expositionem tangit
+<pb ed="#Be" n="208"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Magister Hugo de sancto Victore in 
+qua<lb break="no" ed="#Be" n="2"/>dam Epistola ad Bernardum de epistola
+<lb ed="#Be" n="3"/>paschali: et ideo Christus dicitur 
+azy<lb break="no" ed="#Be" n="4"/>mus sinceritatis, eo quod est excoctus in
+<lb ed="#Be" n="5"/>innocentia passionis.
+</p>
+            <p xml:id="alalal-g41102-d1e349">
+               <lb ed="#Be" n="6"/>Et per hoc patet solutio et responsio ad
+<lb ed="#Be" n="7"/>totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

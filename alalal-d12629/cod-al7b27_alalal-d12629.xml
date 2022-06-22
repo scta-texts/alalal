@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="66"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d12629"><!-- l2d3a4 -->
+            <head xml:id="alalal-d12629-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-d12629-Hd1e101" type="question-title">An Angelus sit simplex substantia ?</head>
+            <p xml:id="alalal-d12629-d1e104">
+               <lb ed="#Bc" n="20"/>ARTICULUS IV.
+<lb ed="#Bc" n="21"/>An Angelus sit simplex substantia ?
+</p>
+            <p xml:id="alalal-d12629-d1e111">
+               <lb ed="#Bc" n="22"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="#Bc" n="23"/>ibi, A, <quote xml:id="alalal-d12629-Qd1e117"> Et quatuor quidem Angelis
+<lb ed="#Bc" n="24"/>videntur esse attributa, etc. </quote>
+            </p>
+            <p xml:id="alalal-d12629-d1e123">
+               <lb ed="#Bc" n="25"/>Et queruntur quinque : quorum 
+qua<lb break="no" ed="#Bc" n="26"/>tuor sunt de istis per ordinem quae 
+enu<lb break="no" ed="#Bc" n="27"/>merat, quintum autem de omnibus in
+<lb ed="#Bc" n="28"/>communi.
+</p>
+            <p xml:id="alalal-d12629-d1e135">
+               <lb ed="#Bc" n="29"/>Queritur igitur primo, Utrum 
+Ange<lb break="no" ed="#Bc" n="30"/>lus sit simplex substantia ?
+</p>
+            <p xml:id="alalal-d12629-d1e142">
+               <lb ed="#Bc" n="31"/>Videtur autem, quod non:
+<lb ed="#Bc" n="32"/>1. Dicit enim Philosophus : Omne
+<lb ed="#Bc" n="33"/>quod est unum numero, est unum per
+<lb ed="#Bc" n="34"/>materiam : sed Angelus est unum 
+nu<lb break="no" ed="#Bc" n="35"/>mero : ergo est unum per materiam, ut
+<lb ed="#Bc" n="36"/>videtur : nihil autem habet materiam
+<lb ed="#Bc" n="37"/>nisi habeat formam: ergo Angelus est
+<lb ed="#Bc" n="38"/>compositus ex materia et forma.
+</p>
+            <p xml:id="alalal-d12629-d1e162">
+               <lb ed="#Bc" n="39"/>2. Item, Boetius in principio libri de
+<lb ed="#Bc" n="40"/>Trinitate. <quote xml:id="alalal-d12629-Qd1e168">Hoc vere unum est quod nulli
+<lb ed="#Bc" n="41"/>innititur, in quo nullus numerus: </quote> et
+<lb ed="#Bc" n="42"/>intendit hoc de Deo solo: ergo omne
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="43"/>quod est hoc aliquid, in natura dicitur
+<lb ed="#Bc" n="44"/>habere numerum: et ita est 
+composi<lb break="no" ed="#Bc" n="45"/>ium.
+</p>
+            <p xml:id="alalal-d12629-d1e185">
+               <lb ed="#Bc" n="46"/>3. Item, Boetius, ibidem: <quote xml:id="alalal-d12629-Qd1e189"> Simplex
+<lb ed="#Bc" n="47"/>forma subjectum esse non potest : </quote> ergo
+<lb ed="#Bc" n="48"/>si Angelus simplex forma est, subjectum
+<lb ed="#Bc" n="49"/>fieri non potest : sed est subjectum gra.
+<lb ed="#Bc" n="50"/>tie, et scientie, et multorum aliorum :
+<lb ed="#Bc" n="51"/>ergo non est simplex forma : et constat
+<lb ed="#Bc" n="52"/>quod non est simplex materia : ergo ipse
+<lb ed="#Bc" n="53"/>est compositus.
+</p>
+            <p xml:id="alalal-d12629-d1e208">
+               <lb ed="#Bc" n="54"/>4, Item, Boetius, in principio libri de
+<lb ed="#Bc" n="55"/>Hebdomadibus, dicens: <quote xml:id="alalal-d12629-Qd1e214"> Quid est 
+ha<lb break="no" ed="#Bc" n="56"/>bere aliquid praeter id quod ipsum est :
+<lb ed="#Bc" n="57"/>esse vero nihil habet admixtum : </quote> ergo
+<lb ed="#Bc" n="58"/>Angelus non est simplex esse, cum ipse
+<lb ed="#Bc" n="59"/>possit habere aliquid praeter id quod ipse
+<lb ed="#Bc" n="60"/>est : quia ipse non est quidquid habet :
+<lb ed="#Bc" n="61"/>ergo esse in eo aliud est et quod est:
+<lb ed="#Bc" n="62"/>ergo est compositus.
+</p>
+            <p xml:id="alalal-d12629-d1e233">
+               <lb ed="#Bc" n="63"/>5. Item, Boetius, ibidem: <quote xml:id="alalal-d12629-Qd1e237"> Quidquid
+<lb ed="#Bc" n="64"/>est hoc aliquid, aliud habet quo est, et
+<lb ed="#Bc" n="65"/>aliud quo aliquid est: </quote> constat autem
+<lb ed="#Bc" n="66"/>quod Angelus hoc aliquid est : ergo aliud
+<lb ed="#Bc" n="67"/>habet quo est, et aliud quo hoc aliquid
+<lb ed="#Bc" n="68"/>est : ergo est compositus.
+</p>
+            <p xml:id="alalal-d12629-d1e252">
+               <lb ed="#Bc" n="69"/>6. Item, Philosophus, in principio 
+li<lb break="no" ed="#Bc" n="70"/>bri Ide Anima vult, quod materia non
+<lb ed="#Bc" n="71"/>sit hoc aliquid, nec etiam formam, sed
+<lb ed="#Bc" n="72"/>compositum : cum igitur Angelus sit hoc
+<lb ed="#Bc" n="73"/>aliquid, videtur quod Angelus sit 
+com<lb break="no" ed="#Bc" n="74"/>positus.
+</p>
+            <p xml:id="alalal-d12629-d1e268">
+               <lb ed="#Bc" n="75"/>7. Item, In omni eo in quo est 
+accipe<lb break="no" ed="#Bc" n="76"/>re universale secundum naturam, et 
+par<lb break="no" ed="#Bc" n="77"/>ticulare, in ipso est compositio : dicit
+<lb ed="#Bc" n="78"/>enim Philosophus, cum dico, coelum,
+<lb ed="#Bc" n="79"/>dico formam: cum dico, hoc coelum,
+<lb ed="#Bc" n="80"/>dico materiam : cum igitur secundum
+<lb ed="#Bc" n="81"/>naturam sic dicatur Angelus, et hic 
+An<lb break="no" ed="#Bc" n="82"/>gelus, videtur in ipso supponi 
+composi<lb break="no" ed="#Bc" n="83"/>tio.
+</p>
+            <p xml:id="alalal-d12629-d1e290">
+               <lb ed="#Bc" n="84"/>8. Item, Avicenna dicit, quod omnis
+<lb ed="#Bc" n="85"/>forma est de se communis : ergo si 
+indwvi<lb break="no" ed="#Bc" n="86"/>duatur, hoc non est nisi super aliquid
+<lb ed="#Bc" n="87"/>quod est fundamentum esse in quo 
+fun<lb break="no" ed="#Bc" n="88"/>datur: constat autem, quod natura 
+An<lb break="no" ed="#Bc" n="89"/>geli in hoc Angelo est individuata : ergo
+<lb ed="#Bc" n="90"/>est fundamentum supra quod coarctatur:
+<lb ed="#Bc" n="91"/>ergo habet matcriam et formam.
+</p>
+            <p xml:id="alalal-d12629-d1e310">
+               <pb ed="#Bc" n="67"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>9. Ad hoc quidam voluerunt dicere,
+<lb ed="#Bc" n="2"/>quod est compositio ex natura forme
+<lb ed="#Bc" n="3"/>universalis et particularis, sicut dicit 
+Phi<lb break="no" ed="#Bc" n="4"/>losophus de colo, Cum dico, hoc 
+ca<lb break="no" ed="#Bc" n="5"/>lum, dico materiam : cum dico, coelum,
+<lb ed="#Bc" n="6"/>dico formam et hanc vocant 
+compo<lb break="no" ed="#Bc" n="7"/>sitionem logicam. Et est compositio ex
+<lb ed="#Bc" n="8"/>guod est et guo est, et hance vocant
+<lb ed="#Bc" n="9"/>metaphysicam. Et his duabus. 
+composi<lb break="no" ed="#Bc" n="10"/>tionibus dicunt compositum esse 
+Ange<lb break="no" ed="#Bc" n="11"/>lum. Est autem compositio tertia quae
+ <lb ed="#Bc" n="12"/>est exformaet materia, quae est physica
+<lb ed="#Bc" n="13"/>compositio : et hance dicunt Angelo non
+<lb ed="#Bc" n="14"/>convenire.
+</p>
+            <p xml:id="alalal-d12629-d1e347">
+               <lb ed="#Bc" n="15"/>Et mihi videtur mirum si isti quod 
+di<lb break="no" ed="#Bc" n="16"/>cunt, intelligunt : omnis enim 
+composi<lb break="no" ed="#Bc" n="17"/>tio essentialis non subjecti et accidentis
+<lb ed="#Bc" n="18"/>est ex forma aliqua essentiali : illa autem
+<lb ed="#Bc" n="19"/>non potest esse nisi forma totius, vel
+<lb ed="#Bc" n="20"/>partis totius: sicut homo, et hic homo
+<lb ed="#Bc" n="21"/>habet compositionem : est enim 
+univer<lb break="no" ed="#Bc" n="22"/>salis forma consequens totum 
+composi<lb break="no" ed="#Bc" n="23"/>tum, ut dicit Philosophus quidam : et
+<lb ed="#Bc" n="24"/>ideo etiam potest predicari de hoc cujus
+<lb ed="#Bc" n="25"/>est forma: si autem non est talis, tunc
+<lb ed="#Bc" n="26"/>necessario est forma partis : sic forma est
+<lb ed="#Bc" n="27"/>forma nature, et illa est altera pars 
+com<lb break="no" ed="#Bc" n="28"/>positi, et non predicatur de composito :
+<lb ed="#Bc" n="29"/>quoniam, sicut dicit Avicenna, forma
+<lb ed="#Bc" n="30"/>non habet quod predicari potest in 
+quan<lb break="no" ed="#Bc" n="31"/>tum est forma, sed potius in quantum
+<lb ed="#Bc" n="32"/>est totius forma idem quodammodo cum
+<lb ed="#Bc" n="33"/>eo de quo predicetur : ergo videtur,
+<lb ed="#Bc" n="34"/>quod divisio illius compositionis non sit
+<lb ed="#Bc" n="35"/>nisi duplex: quia id quod est, est idem
+<lb ed="#Bc" n="36"/>quod particulare: et quo est sive esse,
+<lb ed="#Bc" n="37"/>est idem cum natura universali.
+</p>
+            <p xml:id="alalal-d12629-d1e399">
+               <lb ed="#Bc" n="38"/>Item, Ego dico sic: Si est ibi forma
+<lb ed="#Bc" n="39"/>totius, oportet quod illa fluat a tote, ergo
+<lb ed="#Bc" n="40"/>presupponit compositionem in eo cujus
+<lb ed="#Bc" n="41"/>est forma, ut videtur.
+</p>
+            <p xml:id="alalal-d12629-d1e411">
+               <lb ed="#Bc" n="42"/>10. Item, Eorum quae sunt in genere,
+<lb ed="#Bc" n="43"/>sunt eadem principia participandi genus
+<lb ed="#Bc" n="44"/>illud : sed Angeli sunt in genere 
+substan<lb break="no" ed="#Bc" n="45"/>tie : ergo participabunt genus per eadem
+<lb ed="#Bc" n="46"/>Principia per quae participant ipsum alie
+<lb ed="#Bc" n="47"/>substantie : hoc autem sunt forma et
+<lb ed="#Bc" n="48"/>materia : ergo Angeli sunt ex materia et
+<lb ed="#Bc" n="49"/>forma, ut videtur.
+</p>
+            <p xml:id="alalal-d12629-d1e431">
+               <lb ed="#Bc" n="50"/>11. Item, Philosophi dicunt, quod 
+om<lb break="no" ed="#Bc" n="51"/>nes intelligentia quae sunt citra causam
+<lb ed="#Bc" n="52"/>primam, sunt composite ex esse 
+possi<lb break="no" ed="#Bc" n="53"/>bili et esse necesse: esse autem 
+possibi<lb break="no" ed="#Bc" n="54"/>le, est esse materie: ergo videtur, quod
+<lb ed="#Bc" n="55"/>sint ex materia et forma.
+</p>
+            <p xml:id="alalal-d12629-d1e447">
+               <lb ed="#Bc" n="56"/>12. Item, In If de Anim dicit 
+Philo<lb break="no" ed="#Bc" n="57"/>sophus, quodin omni natura est 
+poten<lb break="no" ed="#Bc" n="58"/>tia et actus : ergo et in Angelo : potentia
+<lb ed="#Bc" n="59"/>autem et actus sunt forma et materia :
+<lb ed="#Bc" n="60"/>ergo Angelus est ex materia et forma.
+</p>
+            <p xml:id="alalal-d12629-d1e460">
+               <lb ed="#Bc" n="61"/>13. Item, Quidquid convenit multis et
+<lb ed="#Bc" n="62"/>non per se, et convenit alicui per se:
+<lb ed="#Bc" n="63"/>necesse est quod omnibus illis conveniat
+<lb ed="#Bc" n="64"/>gratia illius solius quod est in omnibus
+<lb ed="#Bc" n="65"/>illis : sicut quia habere tres angulos 
+con<lb break="no" ed="#Bc" n="66"/>venit isosceli, isopleuro, scaleno,.et non
+<lb ed="#Bc" n="67"/>per se, et triangulo rectilineo per se,
+<lb ed="#Bc" n="68"/>oportet quod illis conveniat gratia 
+natu<lb break="no" ed="#Bc" n="69"/>re trianguli quae est in illis. Sic substare
+<lb ed="#Bc" n="70"/>convenit multis, quia omnibus 
+substan<lb break="no" ed="#Bc" n="71"/>tiis : et non per se, quia dicit Boetius
+<lb ed="#Bc" n="72"/>quod substantia simplex non potest 
+sub<lb break="no" ed="#Bc" n="73"/>stare.
+</p>
+            <p xml:id="alalal-d12629-d1e491">
+               <lb ed="#Bc" n="74"/>Item, Convenit materia; et per se:
+<lb ed="#Bc" n="75"/>quia non est reducere ad aliquid prius :
+<lb ed="#Bc" n="76"/>ergo omnibus quibus convenit substare
+<lb ed="#Bc" n="77"/>alicui forme, illis convenit gratia 
+mate<lb break="no" ed="#Bc" n="78"/>riae quae est in illis: sed omnibus 
+Ange<lb break="no" ed="#Bc" n="79"/>lis convenit hoc: ergo omnes Angeli
+<lb ed="#Bc" n="80"/>sunt ex materia et forma, ut videtur.
+</p>
+            <p xml:id="alalal-d12629-d1e509">
+               <lb ed="#Bc" n="81"/>SED CONTRA :
+<lb ed="#Bc" n="82"/>1. Dicit Augustinus, quod anima est
+<lb ed="#Bc" n="83"/>simplex substantia : ergo multo magis
+<lb ed="#Bc" n="84"/>Angelus : ergo non est compositus,
+</p>
+            <p xml:id="alalal-d12629-d1e521">
+               <lb ed="#Bc" n="85"/>2. Item, Magister dicit hic, quod 
+sim<lb break="no" ed="#Bc" n="86"/>plicitas essentie est attributum Angeli :
+<lb ed="#Bc" n="87"/>ergo Angelus est simplex, ut videtur.
+</p>
+            <p xml:id="alalal-d12629-d1e530">
+               <lb ed="#Bc" n="88"/>3. Item, Punctum est simplex, et 
+ta<lb break="no" ed="#Bc" n="89"/>men habet positionem in continuo : 
+er<lb break="no" ed="#Bc" n="90"/>go multo magis Angelus est simplex qui
+<lb ed="#Bc" n="91"/>est indivisibilis, ita quod non habet 
+po<lb break="no" ed="#Bc" n="92"/>sitionem.
+</p>
+            <p xml:id="alalal-d12629-d1e543">
+               <lb ed="#Bc" n="93"/>4. Item, Non videntur valere 
+proposi<lb break="no" ed="#Bc" n="94"/>tiones Boetii quibus probatur Angelus
+<lb ed="#Bc" n="95"/>non esse simplex: quia omnis forma
+<lb ed="#Bc" n="96"/>simplex est: et tamen possum dicere,
+<lb ed="#Bc" n="97"/>quod est albedo, et haec albedo. Item,
+<lb ed="#Bc" n="98"/>possum dicere, quod haec albedo est hoc
+<pb ed="#Bc" n="68"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>aliquid, et tamen ipsa est simplex : ergo
+<lb ed="#Bc" n="2"/>hoc aliquid non dicit compositionem :
+<lb ed="#Bc" n="3"/>ergo rationes prius inducte non videntur
+<lb ed="#Bc" n="4"/>valere.
+</p>
+            <p xml:id="alalal-d12629-d1e572">
+               <lb ed="#Bc" n="5"/>Solutio. Mea opinio semper fuit quod
+<lb ed="#Bc" n="6"/>Angelus sit compositus ex partibus 
+es<lb break="no" ed="#Bc" n="7"/>sentialibus, sed non ex materia et forma:
+<lb ed="#Bc" n="8"/>quia non dico materiam esse primum
+<lb ed="#Bc" n="9"/>principium compositionis substantia in
+<lb ed="#Bc" n="10"/>genere, sed substantiae mote : et ideo
+<lb ed="#Bc" n="11"/>ubi non est potentia ad motum, non dico
+<lb ed="#Bc" n="12"/>esse materiam nisi materia valde large
+<lb ed="#Bc" n="13"/>et improprie sumatur : quoniam mihi
+<lb ed="#Bc" n="14"/>videtur, quod Philosophi non loquantur
+<lb ed="#Bc" n="15"/>de materia nisi ipsa sit sub aliqua 
+priva<lb break="no" ed="#Bc" n="16"/>tione. Bene tamen dico, quod si 
+funda<lb break="no" ed="#Bc" n="17"/>mentum vocetur, quod tunc est ex 
+ma<lb break="no" ed="#Bc" n="18"/>teria et forma: quia Philosophus dicit
+<lb ed="#Bc" n="19"/>in VIL prime Philosophie, quod 
+funda<lb break="no" ed="#Bc" n="20"/>mentum non est quantum, neque quale,
+<lb ed="#Bc" n="21"/>neque aliquid aliorum predicamentorum.
+<lb ed="#Bc" n="22"/>Sed Boetius in libro de Duabus naturis
+<lb ed="#Bc" n="23"/>m una persona Christi non sic vocat
+<lb ed="#Bc" n="24"/>materiam, nec etiam Philosophi natura
+<lb ed="#Bc" n="25"/>les, vel Mathematicus hoc modo loquitur
+<lb ed="#Bc" n="26"/>de materia.
+</p>
+            <p xml:id="alalal-d12629-d1e622">
+               <lb ed="#Bc" n="27"/>Sunt tamen quidam dicentes,quod
+<lb ed="#Bc" n="28"/>materia variatur tripliciter, scilicet, quod
+<lb ed="#Bc" n="29"/>quedam determinatur forma substantiali
+<lb ed="#Bc" n="30"/>tantum : et secundum hoc dicimus,
+<lb ed="#Bc" n="31"/>quod materia est pars substantia, 
+quam<lb break="no" ed="#Bc" n="32"/>vis numquam sit in potentia ad 
+substan<lb break="no" ed="#Bc" n="33"/>tiam cujus est pars, ut in rebus 
+perpe<lb break="no" ed="#Bc" n="34"/>tuis : quidam autem est determinata 
+for<lb break="no" ed="#Bc" n="35"/>ma substantiali et quantitate, et numquam
+<lb ed="#Bc" n="36"/>est in potentia ad esse, sed est in 
+poten<lb break="no" ed="#Bc" n="37"/>tia ad ubi, ut in celo: quaedam autem
+<lb ed="#Bc" n="38"/>est determinata forma substantiali et
+<lb ed="#Bc" n="39"/>quantitate et qualitate, ut materia 
+gene<lb break="no" ed="#Bc" n="40"/>rabilium et corruptibilium. Cum igitur
+<lb ed="#Bc" n="41"/>queritur, Utrum sit una materia 
+corru<lb break="no" ed="#Bc" n="42"/>ptibilium, et perpetuorum ? Dicendum
+<lb ed="#Bc" n="43"/>quod non una : quia ita dicit Boetius et
+<lb ed="#Bc" n="44"/>Philosophi omnes : eo quod non dicitur
+<lb ed="#Bc" n="45"/>una ratione subjecti tantum, sed etiam
+<lb ed="#Bc" n="46"/>ratione potentie : et potentia non est
+<lb ed="#Bc" n="47"/>unius rationis in eis. Eodem modo cum
+<lb ed="#Bc" n="48"/>queritur, Utrum sit una materia corpo-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="49"/>ralium et incorporalium creaturarum ?
+<lb ed="#Bc" n="50"/>Dicendum, quod non una: quia licet
+<lb ed="#Bc" n="51"/>fundamentum primum in se sit unum,
+<lb ed="#Bc" n="52"/>tamen materia non est una: quia mate.-
+<lb ed="#Bc" n="53"/>ria nominat potentiam quae non est unius
+<lb ed="#Bc" n="54"/>rationis in eis quae moventur secundum
+<lb ed="#Bc" n="55"/>locum, et quae immobilia sunt secundum
+<lb ed="#Bc" n="56"/>locum, nisi forte diffinitive: et in hance.
+<lb ed="#Bc" n="57"/>opinionem ego bene concordo, et praci-~
+<lb ed="#Bc" n="58"/>pue propter hoc : quia videtur 
+impossi<lb break="no" ed="#Bc" n="59"/>bile, quod aliqua proprietas sit in 
+diver<lb break="no" ed="#Bc" n="60"/>sis quae non gratia alicujus substantia
+<lb ed="#Bc" n="61"/>communis sit in eis : proprietas autem
+<lb ed="#Bc" n="62"/>multis et spiritualibus et corporalibus
+<lb ed="#Bc" n="63"/>communis est substare et sustinere for~
+<lb ed="#Bc" n="64"/>mam : ergo necesse est ponere substantiam.
+<lb ed="#Bc" n="65"/>communem quae sit in eis: et haec meo
+<lb ed="#Bc" n="66"/>judicio non dicetur materia, sed 
+funda<lb break="no" ed="#Bc" n="67"/>mentum. Alia est quae est inducta supra
+<lb ed="#Bc" n="68"/>in objiciendo, quod eorum quae sunt in ~
+<lb ed="#Bc" n="69"/>eodem genere, necesse est esse unam
+<lb ed="#Bc" n="70"/>communem habitudinem ad_ principia
+<lb ed="#Bc" n="71"/>illius generis : constat autem, quod 
+prin<lb break="no" ed="#Bc" n="72"/>cipia indivisibilia generis, subjectum,
+<lb ed="#Bc" n="73"/>sunt fundamentum, et esse forms 
+sub<lb break="no" ed="#Bc" n="74"/>stantialis. Et per hoc patet solutio ad
+<lb ed="#Bc" n="75"/>omnia quae inducuntur: guia non 
+con<lb break="no" ed="#Bc" n="76"/>cludunt de materia simpliciter, sed de
+<lb ed="#Bc" n="77"/>fundamento hoc quod est pars substantia
+<lb ed="#Bc" n="78"/>et fundat esse: quoniam, sicut supra 
+di<lb break="no" ed="#Bc" n="79"/>ximus, materia non dicetur de eis nisi
+<lb ed="#Bc" n="80"/>equivoce, ut patel in ratione potentiz.
+</p>
+            <p xml:id="alalal-d12629-d1e744">
+               <lb ed="#Bc" n="81"/>Ap 1 autem quod contra objicitur, di- a
+<lb ed="#Bc" n="82"/>cendum quod Augustinus loquitur de
+<lb ed="#Bc" n="83"/>simplicitate individuitatis, et non 
+simpli<lb break="no" ed="#Bc" n="84"/>citate ipsius esse quod est hoc aliquid.
+</p>
+            <p xml:id="alalal-d12629-d1e756">
+               <lb ed="#Bc" n="85"/>Ad aliud dicendum, quod Magister ac
+<lb ed="#Bc" n="86"/>vocat simplicitatem elongationem a 
+ma<lb break="no" ed="#Bc" n="87"/>teria et materialitate quae facit 
+ignobilita<lb break="no" ed="#Bc" n="88"/>tem et hebetudinem, et non loquitur de
+<lb ed="#Bc" n="89"/>simplicitate per privationem 
+compositio<lb break="no" ed="#Bc" n="90"/>nis.
+</p>
+            <p xml:id="alalal-d12629-d1e772">
+               <lb ed="#Bc" n="91"/>Ad aliud dicendum, quod punctum est ,
+<lb ed="#Bc" n="92"/>simplex privatione divisionis continui :
+<lb ed="#Bc" n="93"/>sed Angelus illa simplicitate non dicitur
+<lb ed="#Bc" n="94"/>simplex, quia non habet ordinem ad
+<lb ed="#Bc" n="95"/>continuum, sed potius modo preedicto.
+</p>
+            <p xml:id="alalal-d12629-d1e785">
+               <lb ed="#Bc" n="96"/>Ad aliud dicendum, quod si nos 
+lo<lb break="no" ed="#Bc" n="97"/>quamur de hac albedine secundum esse,
+<pb ed="#Bc" n="69"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>tunc non est haec albedo nisi per hoc
+<lb ed="#Bc" n="2"/>quod est in hac materia. Si autem tu 
+lo<lb break="no" ed="#Bc" n="3"/>quaris de hae albedine secundum quod
+<lb ed="#Bc" n="4"/>est forma quaedam terminata consistens
+<lb ed="#Bc" n="5"/>intra suas differentias constituentes 
+ip<lb break="no" ed="#Bc" n="6"/>sam, tune intellectus ejus est absolutus,
+<lb ed="#Bc" n="7"/>ut dicit Avicenna: sed tunc haec albedo
+<lb ed="#Bc" n="8"/>et albedo non dicunt universale et 
+parti<lb break="no" ed="#Bc" n="9"/>culare, sed potius universale ratione 
+dif<lb break="no" ed="#Bc" n="10"/>fereuns, scilicet in se consideratum, et ut
+<lb ed="#Bc" n="11"/>terminatum sub suis differentiis essentia—-
+<lb ed="#Bc" n="12"/>libus. Unde patet quod Boetius verum
+<lb ed="#Bc" n="13"/>dicit, si accipiatur hoc aliquid secundum
+<lb ed="#Bc" n="14"/>esse : et ita intelligitur dictum Boetit.
+</p>
+            <p xml:id="alalal-d12629-d1e827">
+               <lb ed="#Bc" n="15"/>Et ex hoc iterum patet, quod Angelus
+<lb ed="#Bc" n="16"/>cum sit hoc aliquid, sine dubio 
+compo<lb break="no" ed="#Bc" n="17"/>situs est ex fundamento et esse quod 
+fun<lb break="no" ed="#Bc" n="18"/>datur in ipso : et hoc ideo dico, quia
+<lb ed="#Bc" n="19"/>non proprie ponitur potentia nisi forte ad
+<lb ed="#Bc" n="20"/>agere : quia dicit Philosophus, In 
+perpe<lb break="no" ed="#Bc" n="21"/>tuis non differt esse a posse : eo quod 
+ip<lb break="no" ed="#Bc" n="22"/>sum posse numquam fuit sine esse, et
+<lb ed="#Bc" n="23"/>potentia dicitur squivoce in eis ad alia
+<lb ed="#Bc" n="24"/>que sunt in potentia ad ubi vel ad 
+for<lb break="no" ed="#Bc" n="25"/>mam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

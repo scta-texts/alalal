@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="552"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b06826"><!-- l1d20a6 -->
+            <head xml:id="alalal-b06826-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-b06826-Hd1e101" type="question-title">Utrum Deus voluit, sed non potuit : aut
+potuit, sed non voluit creaturas facere
+meliores ?</head>
+            <p xml:id="alalal-b06826-d1e104">
+               <pb ed="#Ba" n="552"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ARTICULUS VI.
+<lb ed="#Ba" n="2"/>Utrum Deus voluit, sed non potuit : aut
+<lb ed="#Ba" n="3"/>potuit, sed non voluit creaturas facere
+<lb ed="#Ba" n="4"/>meliores ?
+</p>
+            <p xml:id="alalal-b06826-d1e120">
+               <lb ed="#Ba" n="5"/>Deinde quaeritur de processu 
+Augu<lb break="no" ed="#Ba" n="6"/>stini quem ponit, ibi, KE, <quote xml:id="alalal-b06826-Qd1e126"> Aué non 
+po<lb break="no" ed="#Ba" n="7"/>tuit, etc. </quote>
+            </p>
+            <p xml:id="alalal-b06826-d1e132">
+               <lb ed="#Ba" n="8"/>Videtur enim instantia esse: quia aut
+<lb ed="#Ba" n="9"/>voluit, et potuit me meliorem facere :
+<lb ed="#Ba" n="10"/>aut voluit, sed non potuit : aut potuit,
+<lb ed="#Ba" n="11"/>et non voluit. Si primo modo : ergo ego
+<lb ed="#Ba" n="12"/>optimus, factus sum, et eadem est ratio
+<lb ed="#Ba" n="13"/>de qualibet creatura. Si voluit, sed non
+<lb ed="#Ba" n="14"/>potuit : ergo impotens. Si potuit, et non
+<lb ed="#Ba" n="15"/>voluit : ergo invidus fuit.
+</p>
+            <p xml:id="alalal-b06826-d1e153">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="16"/>Solutio. Dicendum quod inferior 
+na<lb break="no" ed="#Ba" n="17"/>tura equari Deo non potest, et est opus
+<lb ed="#Ba" n="18"/>voluntatis ejus, et non nature: 
+genera<lb break="no" ed="#Ba" n="19"/>tio autem et processio sunt in eadem
+<lb ed="#Ba" n="20"/>essentia : et ideo aequalitatem participare
+<lb ed="#Ba" n="21"/>possunt Filius et Spiritus sanctus : unde
+<lb ed="#Ba" n="22"/>in illa natura sequitur, et non in 
+infe<lb break="no" ed="#Ba" n="23"/>riori.
+</p>
+            <p xml:id="alalal-b06826-d1e175">
+               <lb ed="#Ba" n="24"/>Si autem objicias, quod secundum hoc
+<lb ed="#Ba" n="25"/>ad minus omnes creaturas debuit facere
+<lb ed="#Ba" n="26"/>in optimo in ea nobilitate cujus 
+percep<lb break="no" ed="#Ba" n="27"/>tibiles erant. Dicendum quod non 
+sequi<lb break="no" ed="#Ba" n="28"/>tur: quia inferior natura respicit suum
+<lb ed="#Ba" n="29"/>principium quod est voluntas et 
+sapien<lb break="no" ed="#Ba" n="30"/>tia ordinans: et ideo exit in gradibus
+<lb ed="#Ba" n="31"/>competentibus decori universi : superior
+<lb ed="#Ba" n="32"/>autem natura huic non subjacet, et ideo
+<lb ed="#Ba" n="33"/>necesse est, quod emanationes ejus sint
+<lb ed="#Ba" n="34"/>secundum aequales personas.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

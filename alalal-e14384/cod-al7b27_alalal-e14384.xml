@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="672"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e14384"><!-- l2d43a2 -->
+            <head xml:id="alalal-e14384-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-e14384-Hd1e101" type="question-title">Quare peccatum in Spiritum sanctum
+dicatur ad mortem ?</head>
+            <p xml:id="alalal-e14384-d1e104">
+               <lb ed="#Bc" n="84"/>ARTICULUS 1.
+<lb ed="#Bc" n="85"/>Quare peccatum in Spiritum sanctum
+<lb ed="#Bc" n="86"/>dicatur ad mortem ?
+</p>
+            <p xml:id="alalal-e14384-d1e113">
+               <lb ed="#Bc" n="87"/>Secundo queritur, Quare dicatur, Est
+<lb ed="#Bc" n="88"/>peccatum ad mortem .
+</p>
+            <p xml:id="alalal-e14384-d1e120">
+               <pb ed="#Bc" n="673"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>1. Et hoc per rationem nominis : quia
+<lb ed="#Bc" n="2"/>mortale est quod facit mori hic morte
+<lb ed="#Bc" n="3"/>culpe, et in futuro morte pene, nisi
+<lb ed="#Bc" n="4"/>per poenitentiam deleatur : tale autem
+<lb ed="#Bc" n="5"/>est quodlibet mortale : ergo omne 
+pec<lb break="no" ed="#Bc" n="6"/>catum est peccatum ad mortem.
+</p>
+            <p xml:id="alalal-e14384-d1e141">
+               <lb ed="#Bc" n="7"/>2. Item, I Joan. v, 16, super illud:
+<lb ed="#Bc" n="8"/>
+               <quote xml:id="alalal-e14384-Qd1e147">Est peccatum ad mortem, non pro illo,</quote>
+               <lb ed="#Bc" n="9"/>etc., dicit Glossa : <quote xml:id="alalal-e14384-Qd1e151"> Peccatum ad 
+mor<lb break="no" ed="#Bc" n="10"/>tem est, quod separat a Deo, sicut mors
+<lb ed="#Bc" n="11"/>separat animam a corpore : </quote> hoc autem
+<lb ed="#Bc" n="12"/>facit omne mortale peccatum : ergo,
+<lb ed="#Bc" n="13"/>etc.
+</p>
+            <p xml:id="alalal-e14384-d1e164">
+               <lb ed="#Bc" n="14"/>3. Item, Ibidem, in alia Glossa :
+<lb ed="#Bc" n="15"/>
+               <quote xml:id="alalal-e14384-Qd1e170"> Peccatum ad mortem est, quod durat
+<lb ed="#Bc" n="16"/>usque in finem: </quote> tale autem est 
+pecca<lb break="no" ed="#Bc" n="17"/>tum veniale et mortale in quo quis finit
+<lb ed="#Bc" n="18"/>vitam sine poenitentia : ergo quodlibet
+<lb ed="#Bc" n="19"/>peccatum mortale et veniale potest esse
+<lb ed="#Bc" n="20"/>in Spiritum sanctum : quod falsum est,
+<lb ed="#Bc" n="21"/>cum in Littera dicatur, quod ipsum est
+<lb ed="#Bc" n="22"/>ceteris gravius et maximum.
+</p>
+            <p xml:id="alalal-e14384-d1e189">
+               <lb ed="#Bc" n="23"/>4, Si autem dicatur peccatum ad 
+mor<lb break="no" ed="#Bc" n="24"/>tem, in quo privatur potentia 
+revivifican<lb break="no" ed="#Bc" n="25"/>di vel redeundi ad vitam : tune videtur,
+<lb ed="#Bc" n="26"/>quod omne peccatum sit peecatum ad
+<lb ed="#Bc" n="27"/>mortem : quia in omni peccato moritali
+<lb ed="#Bc" n="28"/>privatur vita gratie et potentia redeundi
+<lb ed="#Bc" n="29"/>ad gratiam : cum homo sit spiritus 
+va<lb break="no" ed="#Bc" n="30"/>dens per se in peccatum, et non rediens
+<lb ed="#Bc" n="31"/>per se de peccato, videtur quod non sit
+<lb ed="#Bc" n="32"/>ratio quare hoc peccatum specialiter 
+di<lb break="no" ed="#Bc" n="33"/>catur peccatum.
+</p>
+            <p xml:id="alalal-e14384-d1e215">
+               <lb ed="#Bc" n="34"/>Juxta Hoc etiam ulterius queritur,
+<lb ed="#Bc" n="35"/>Quare dicat Joannes, v, 16: Non pro
+<lb ed="#Bc" n="36"/>illo dico ut roget quis ?
+</p>
+            <p xml:id="alalal-e14384-d1e224">
+               <lb ed="#Bc" n="37"/>1. Ita enim in secunda assignatione
+<lb ed="#Bc" n="38"/>Augustini habetur, quod de nemine 
+de<lb break="no" ed="#Bc" n="39"/>sperandum est, dum est in vita, 
+quam<lb break="no" ed="#Bc" n="40"/>diu benignitas Dei ad poenitentiam 
+ad<lb break="no" ed="#Bc" n="41"/>ducit : et pro illo non imprudenter 
+ora<lb break="no" ed="#Bc" n="42"/>tur, de cujus salute non desperatur :
+<lb ed="#Bc" n="43"/>ergo pro eo qui peccat in Spiritum 
+san<lb break="no" ed="#Bc" n="44"/>ctum, debemus orare : ergo male facit
+<lb ed="#Bc" n="45"/>prohibendo orationem. .
+</p>
+            <p xml:id="alalal-e14384-d1e246">
+               <lb ed="#Bc" n="46"/>2. Item, Oratio est ad impetranda 
+ve<lb break="no" ed="#Bc" n="47"/>niam : ubi ergo major necessitas venie,
+<lb ed="#Bc" n="48"/>ibi major est oratio et frequentior : num-
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="49"/>quam autem est tanta necessitas sicut in
+<lb ed="#Bc" n="50"/>maximis peccatis, sicut in peccatis in
+<lb ed="#Bc" n="51"/>Spiritum sanctum :.ergo pro illo 
+maxi<lb break="no" ed="#Bc" n="52"/>me est orandum : non ergo deberet 
+di<lb break="no" ed="#Bc" n="53"/>cere, Non pro illo dico ut roget quis,
+<lb ed="#Bc" n="54"/>sed potius, Dico ut pro illo oret omnis
+<lb ed="#Bc" n="55"/>homo. .
+</p>
+            <p xml:id="alalal-e14384-d1e273">
+               <lb ed="#Bc" n="56"/>Solutio. Dicendum, quod peccatum ad
+<lb ed="#Bc" n="57"/>mortem plus dicit quam peccatum 
+mor<lb break="no" ed="#Bc" n="58"/>tale. Kt ut hoc melius intellgatur, 
+no<lb break="no" ed="#Bc" n="59"/>tandum qued tria sunt in morte 
+corpo<lb break="no" ed="#Bc" n="60"/>rali, et tria respondentia illis in morte
+<lb ed="#Bc" n="61"/>spirituali. Primum est separatio 
+ani<lb break="no" ed="#Bc" n="62"/>me a corpore : quia anima est causa
+<lb ed="#Bc" n="63"/>vite corporis. Secundum est impotentia
+<lb ed="#Bc" n="64"/>ad regressum ad habitum a privatione.
+<lb ed="#Bc" n="65"/>Et tertium est causa morbi vel mortis
+<lb ed="#Bc" n="66"/>in subjecto mortuo repugnans vite. Et
+<lb ed="#Bc" n="67"/>illis respondent tria in morte spiritual.
+<lb ed="#Bc" n="68"/>Et primum fit per actum peccati quod
+<lb ed="#Bc" n="69"/>separat Deum et gratiam ab anima. 
+Se<lb break="no" ed="#Bc" n="70"/>cundum autem est ex defectu liberi 
+arbi<lb break="no" ed="#Bc" n="71"/>tril, quod per se non potest recuperare
+<lb ed="#Bc" n="72"/>gratiam : et haec duo habet omne 
+pecca<lb break="no" ed="#Bc" n="73"/>tum mortale, et pro tanto dicitur 
+pecca<lb break="no" ed="#Bc" n="74"/>tum mortale. Tertium est ex causa 
+mor<lb break="no" ed="#Bc" n="75"/>tis, quae contrariatur disponenti ad vite
+<lb ed="#Bc" n="76"/>influxum ex parte Dei: et sic peccatum
+<lb ed="#Bc" n="77"/>in Spiritum sanctum est ad mortem :
+<lb ed="#Bc" n="78"/>quia causa movens ad illud genus 
+pecca<lb break="no" ed="#Bc" n="79"/>ti, contrariatur bonitati qua movet 
+Spi<lb break="no" ed="#Bc" n="80"/>ritum vivificantem omnia, ad hoc quod
+<lb ed="#Bc" n="81"/>influat vitam : et per hoc fere patet 
+so<lb break="no" ed="#Bc" n="82"/>lutio ad omnia quae quoad primam 
+par<lb break="no" ed="#Bc" n="83"/>tem objecta sunt : quia non est idem
+<lb ed="#Bc" n="84"/>mortale, et ad mortem : quia cum 
+dici<lb break="no" ed="#Bc" n="85"/>tur ad mortem, virtute prepositionis
+<lb ed="#Bc" n="86"/>notatur ordo ad impedimentum 
+influen<lb break="no" ed="#Bc" n="87"/>tis vitam, et causa peccati.
+</p>
+            <p xml:id="alalal-e14384-d1e345">
+               <lb ed="#Bc" n="88"/>Ad aliud autem dicendum, quod 
+Glos<lb break="no" ed="#Bc" n="89"/>se ille vocant peccatum mortale ad
+<lb ed="#Bc" n="90"/>mortem : et loquuntur de separatione
+<lb ed="#Bc" n="91"/>vite, in cujus causa est ordo contrarius
+<lb ed="#Bc" n="92"/>ad id quod inclinat ad vite spiritualis
+<lb ed="#Bc" n="93"/>influxum.
+</p>
+            <p xml:id="alalal-e14384-d1e361">
+               <lb ed="#Bc" n="94"/>Ad aliud dicendum, quod finire vitam
+<lb ed="#Bc" n="95"/>in mortali peccato, dupliciter contingit,
+<lb ed="#Bc" n="96"/>scilicet quoad propositum, et sic est pec-
+<pb ed="#Bc" n="674"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>catum in Spiritum sanctum : et quoad
+<lb ed="#Bc" n="2"/>continuationem in peccato, et sic non est
+<lb ed="#Bc" n="3"/>in Spiritum sanctum : sed hoc est 
+spe<lb break="no" ed="#Bc" n="4"/>ciale quod erat propositum non 
+peeniten<lb break="no" ed="#Bc" n="5"/>di de peccato perpetrato.
+</p>
+            <p xml:id="alalal-e14384-d1e385">
+               <lb ed="#Bc" n="6"/>Ad aliud patet solutio per antedicta.
+</p>
+            <p xml:id="alalal-e14384-d1e390">
+               <lb ed="#Bc" n="7"/>Ap 1 quod ulterius queritur, 
+Quali<lb break="no" ed="#Bc" n="8"/>ter intelligatur, Non pro illo dico ut 
+ro<lb break="no" ed="#Bc" n="9"/>get quis, id est, quicumque ?
+</p>
+            <p xml:id="alalal-e14384-d1e399">
+               <lb ed="#Bc" n="10"/>Dicendum, quod non interdicit 
+om<lb break="no" ed="#Bc" n="11"/>nem orationem, sed significat 
+magnitu<lb break="no" ed="#Bc" n="12"/>dinem criminis, id est, quod non jubet
+<lb ed="#Bc" n="13"/>quemcumque de populo orare : sed 
+ali<lb break="no" ed="#Bc" n="14"/>quis specialis sanctitatis et perfectionis
+<lb ed="#Bc" n="15"/>debet orare pro talibus, quia magnorum
+<lb ed="#Bc" n="16"/>est Orare pro magnis.
+</p>
+            <p xml:id="alalal-e14384-d1e418">
+               <lb ed="#Bc" n="17"/>Si autem objicitur de eo quod 
+Samue<lb break="no" ed="#Bc" n="18"/>li dictum est, Quousque lugeret Saul,
+<lb ed="#Bc" n="19"/>cum Dominus abjecisset eum ? et 
+Jere<lb break="no" ed="#Bc" n="20"/>mig, quod non oraret pro populo ?
+<lb ed="#Bc" n="21"/>ita videtur esse intelligendum, quod 
+nul<lb break="no" ed="#Bc" n="22"/>lus oret, quia omnino nihil valet. 
+Dicen<lb break="no" ed="#Bc" n="23"/>dum, quod nonest ad propositum : quia
+<lb ed="#Bc" n="24"/>nec Saul nec populus peccaverat in
+<lb ed="#Bc" n="25"/>Spiritum sanctum : sed Deus 
+confirma<lb break="no" ed="#Bc" n="26"/>verat sententiam abjectionis Saul, et. 
+cap<lb break="no" ed="#Bc" n="27"/>tivitatis Judeorum, et in hoc noluit 
+au<lb break="no" ed="#Bc" n="28"/>dire Prophetas.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

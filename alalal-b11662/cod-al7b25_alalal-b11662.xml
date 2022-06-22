@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="579"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b11662"><!-- l1d23dt1 -->
+            <head xml:id="alalal-b11662-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-b11662-d1e101">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="7"/>DIVISIO TEXTUS.</p>
+            <p xml:id="alalal-b11662-d1e108">
+               <lb ed="#Ba" n="8"/>
+               <quote xml:id="alalal-b11662-Qd1e112"> Predictis adjiciendum est, quod
+<lb ed="#Ba" n="9"/>cum omnia nomina, etc. </quote>
+               <lb ed="#Ba" n="10"/>Hic agitur de hoc nomine, persona,
+<lb ed="#Ba" n="11"/>quod excipilur a regula quae est in 
+pre<lb break="no" ed="#Ba" n="12"/>cedenti distinctione data de nominibus
+<lb ed="#Ba" n="13"/>substantialibus.
+</p>
+            <p xml:id="alalal-b11662-d1e127">
+               <lb ed="#Ba" n="14"/>Dividitur autem ista pars in tres 
+par<lb break="no" ed="#Ba" n="15"/>tes, secundum quod tria considerantur
+<lb ed="#Ba" n="16"/>in hoc nomine, persona, scilicet 
+signifi<lb break="no" ed="#Ba" n="17"/>catum, de quo quaeritur primo, Utrum
+<lb ed="#Ba" n="18"/>significet substantiam, vel proprietatem ?
+<lb ed="#Ba" n="19"/>Consideratur etiam in eo communitas
+<lb ed="#Ba" n="20"/>praedicationis : et de illa quaeritur in 
+se<lb break="no" ed="#Ba" n="21"/>cunda parte, ibi, CG, <quote xml:id="alalal-b11662-Qd1e146"> Jdeo oritur hic
+<lb ed="#Ba" n="22"/>questio difficilis, etc. </quote> Consideratur
+<lb ed="#Ba" n="23"/>etiam in hoc nomine, persona, discretio
+<lb ed="#Ba" n="24"/>singularitatis : et de hac quaeritur in 
+ter<lb break="no" ed="#Ba" n="25"/>tia, Utrum scilicet diversitas et 
+singula<lb break="no" ed="#Ba" n="26"/>ritas sint in divinis, ibi, I, <quote xml:id="alalal-b11662-Qd1e160"> Jam 
+suff<lb break="no" ed="#Ba" n="27"/>ctenter, ut puto, etc. </quote>
+            </p>
+            <p xml:id="alalal-b11662-d1e166">
+               <lb ed="#Ba" n="28"/>In prima harum partium sunt duo 
+ca<lb break="no" ed="#Ba" n="29"/>pitula : in quorum primo excipitur 
+no<lb break="no" ed="#Ba" n="30"/>men persone a generalitate regula 
+pre<lb break="no" ed="#Ba" n="31"/>habite. In secundo autem probatur, quod
+<lb ed="#Ba" n="32"/>substantiam significat, ibi, B, <quote xml:id="alalal-b11662-Qd1e179"> Quod
+<lb ed="#Ba" n="33"/>autem persona secundum substantiam
+<lb ed="#Ba" n="34"/>dicatur, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

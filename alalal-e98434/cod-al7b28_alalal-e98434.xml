@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="508"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e98434"><!-- l3d27a1 -->
+            <head xml:id="alalal-e98434-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-e98434-Hd1e101" type="question-title">An dilectio sive charitas sit virtus ?</head>
+            <p xml:id="alalal-e98434-d1e104">
+               <lb ed="Bd" n="31"/>ARTICULUS I.
+<lb ed="Bd" n="32"/>An dilectio sive charitas sit virtus ?
+</p>
+            <p xml:id="alalal-e98434-d1e111">
+               <lb ed="Bd" n="33"/>AD rrimaM questionem objicitur sic :
+<lb ed="Bd" n="34"/>1.Id ad quod sufficit sibi natura in
+<lb ed="Bd" n="35"/>se, non oportet ad hoc habere virtutem
+<lb ed="Bd" n="36"/>elevantem : ad diligere autem summum
+<lb ed="Bd" n="37"/>bonum propter se et super omnia, 
+suffi<lb break="no" ed="Bd" n="38"/>cit natura per se : ergo non oportet
+<lb ed="Bd" n="39"/>propter hoc habere virtutem elevantem.
+<lb ed="Bd" n="40"/>Prima probatur ex hoc quod gratia non
+<lb ed="Bd" n="41"/>est Minus ingeniosa quam natura : na-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="42"/>tura autem non abundat superfluis, ut
+<lb ed="Bd" n="43"/>dicit Philosophus : ergo nec gratia,
+<lb ed="Bd" n="44"/>Secunpa autem probatur per multorum
+<lb ed="Bd" n="45"/>opinionem, qui dicunt, quod natura ig
+<lb ed="Bd" n="46"/>Angelo primo et homine primo ad hoc
+<lb ed="Bd" n="47"/>sutlecit.
+</p>
+            <p xml:id="alalal-e98434-d1e148">
+               <lb ed="Bd" n="48"/>2. Item, per <ref xml:id="alalal-e98434-Rd1e152">
+                  <name xml:id="alalal-e98434-Nd1e154">Tullium</name> in libro de 
+Amj<lb break="no" ed="Bd" n="49"/>citia</ref>, qui dicit, quod <quote xml:id="alalal-e98434-Qd1e159"> amici per se 
+dilj<lb break="no" ed="Bd" n="50"/>gendi sunt : </quote> et similiter Aristoteles
+<lb ed="Bd" n="51"/>in Hil Topicorum : <quote xml:id="alalal-e98434-Qd1e166"> Amici omnibus
+<lb ed="Bd" n="52"/>sunt preponendi : </quote> ergo multo magis
+<lb ed="Bd" n="53"/>Deus.
+</p>
+            <p xml:id="alalal-e98434-d1e176">
+               <lb ed="Bd" n="54"/>3. Item, Vires anime in homine sunt
+<lb ed="Bd" n="55"/>proportionate : ergo ad quod sufficit,
+<lb ed="Bd" n="56"/>ratio in cognoscendo, ad hoc sufficit 
+ra<lb break="no" ed="Bd" n="57"/>tio in diligende : ratio autem in primo
+<lb ed="Bd" n="58"/>statu suffecit ad hoc quod cognosceret
+<lb ed="Bd" n="59"/>Deum summe bonum, et propter se 
+di<lb break="no" ed="Bd" n="60"/>hgendum, et super omnia: et ad hog
+<lb ed="Bd" n="61"/>etiam sufficit modo, ut probatur ex dictis
+<lb ed="Bd" n="62"/>multorum Philosophorum : ergo affectio
+<lb ed="Bd" n="63"/>sufficit in diligendo Deum propter se, et
+<lb ed="Bd" n="64"/>super omnia : non ergo oportet ad hoc
+<lb ed="Bd" n="65"/>dare virtutem specialem.
+</p>
+            <p xml:id="alalal-e98434-d1e205">
+               <lb ed="Bd" n="66"/>4, Item, Omnis virtus datur propter
+<lb ed="Bd" n="67"/>difficile et bonum : ergo nulla datur
+<lb ed="Bd" n="68"/>propter dulcissimum et facillimum : et
+<lb ed="Bd" n="69"/>dicit <ref xml:id="alalal-e98434-Rd1e215">Augustinus in libro 
+Confessio<lb break="no" ed="Bd" n="70"/>num</ref>, quod <quote xml:id="alalal-e98434-Qd1e221"> nihil dulcius, quam amare
+<lb ed="Bd" n="71"/>et amari: </quote> ergo ad hoc nulla debuit
+<lb ed="Bd" n="72"/>dari virtus, ut videtur.
+</p>
+            <p xml:id="alalal-e98434-d1e229">
+               <lb ed="Bd" n="73"/>SED CONTRA: Sed
+<lb ed="Bd" n="74"/>1. Animae hominis in statu hominis in
+<lb ed="Bd" n="75"/>quo sumus, viciniora sunt ea quae sunt
+<lb ed="Bd" n="76"/>ad finem, quam finis ipse : ergo facilior
+<lb ed="Bd" n="77"/>eorum cum anima conjunctio, quia 
+vici<lb break="no" ed="Bd" n="78"/>norum major est convenientia : sed 
+in<lb break="no" ed="Bd" n="79"/>indiget virtutibus ordinantibus ipsam in
+<lb ed="Bd" n="80"/>his quae sunt ad finem: ergo multo 
+ma<lb break="no" ed="Bd" n="81"/>gis in ordinantibus ipsam in finem 
+ip<lb break="no" ed="Bd" n="82"/>sum : finis autem est bonum secundum
+<lb ed="Bd" n="83"/>quod bonum : ergo indiget aliqua virtute
+<lb ed="Bd" n="84"/>ordinante ipsam ad id: constat autem,
+<lb ed="Bd" n="85"/>quod miul respicit bonum ut bonum,
+<lb ed="Bd" n="86"/>nisi charilas : ergo charitas est virtus
+<lb ed="Bd" n="87"/>ordinans in bonum quod est finis.
+</p>
+            <p xml:id="alalal-e98434-d1e264">
+               <lb ed="Bd" n="88"/>2. Item, Id quod contrarietatem ha~
+<lb ed="Bd" n="89"/>bet ad vitinm, necessario est virtus :
+<lb ed="Bd" n="90"/>charitas autem contrarietalem habet ad
+<pb ed="#Bd" n="509"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>vitium : ergo necessario est virtus. 
+Pro<lb break="no" ed="Bd" n="2"/>paTur autem prima : quia virtuti nihil
+<lb ed="Bd" n="3"/>opponitur nisi vitium. Sxecunpa autem
+<lb ed="Bd" n="4"/>probatur per hoc quod mutuo se 
+expel<lb break="no" ed="Bd" n="5"/>lunt charitas et vitium ab eodem 
+susce<lb break="no" ed="Bd" n="6"/>plibili.
+</p>
+            <p xml:id="alalal-e98434-d1e290">
+               <lb ed="Bd" n="7"/>3. Item, Cujuscumque actus est 
+meri<lb break="no" ed="Bd" n="8"/>torius vile aeterne, est virtus : sed 
+cha<lb break="no" ed="Bd" n="9"/>ritatis praecipue est actus meritorius vite
+<lb ed="Bd" n="10"/>geterne : ergo charitas est virtus.
+</p>
+            <p xml:id="alalal-e98434-d1e301">
+               <lb ed="Bd" n="11"/>Solutio Dicendum, quod charitas est
+<lb ed="Bd" n="12"/>yirtus, sicut omnes Sancli concorditer
+<lb ed="Bd" n="13"/>testantur, quorum auctoritates induccre
+<lb ed="Bd" n="14"/>dispendium esset.
+</p>
+            <p xml:id="alalal-e98434-d1e313">
+               <lb ed="Bd" n="15"/>Ad primum ergo dicendum, quod 
+na<lb break="no" ed="Bd" n="16"/>tura numquam sufficit, nec suffecit ad
+<lb ed="Bd" n="17"/>actum charitatis : sed ad actum amoris
+<lb ed="Bd" n="18"/>naturalis homini suffecit natura ante
+<lb ed="Bd" n="19"/>peccatum potentius, et post peccatum
+<lb ed="Bd" n="20"/>minus potenter. Quis autem amor ille
+<lb ed="Bd" n="21"/>sit, bene determinat Philosophus in
+<lb ed="Bd" n="22"/>I Lthicorum, ubi probat, quod sicut 
+uni<lb break="no" ed="Bd" n="23"/>cuique inest proprium opus ect actus, ita
+<lb ed="Bd" n="24"/>et homini secundum quod homo : et
+<lb ed="Bd" n="25"/>quod hoc opus non quaeritur in ipso 
+se<lb break="no" ed="Bd" n="26"/>cundum vegetabilem et sensibilem, sed
+<lb ed="Bd" n="27"/>secundum rationalem : hoc autem est
+<lb ed="Bd" n="28"/>eligere et diligere super omnia id quod
+<lb ed="Bd" n="29"/>per se et non in relatione ad alterum est
+<lb ed="Bd" n="30"/>bonum : et hoc ipse quidem probat esse
+<lb ed="Bd" n="31"/>felicitatem. Et verum est, quod est 
+feli<lb break="no" ed="Bd" n="32"/>citas ncreata, quae est summum bonum
+<lb ed="Bd" n="33"/>propter se tantum quesitum, et non 
+ali<lb break="no" ed="Bd" n="34"/>cujus alterius gratia. Si tamen 
+querere<lb break="no" ed="Bd" n="35"/>tur a Philosophis, Utrum hoc quaeritur
+<lb ed="Bd" n="36"/>quia bonum, vel quia sibi bonum ? 
+inve<lb break="no" ed="Bd" n="37"/>niretur, quod quereretur hoc, quia 
+bo<lb break="no" ed="Bd" n="38"/>noum homini. Aliud enim bonum ab
+<lb ed="Bd" n="39"/>ipsis Philosophis non est quesitum, nisi
+<lb ed="Bd" n="40"/>bonum homini secundum civilem vitam.
+<lb ed="Bd" n="41"/>Charitas autem non sic quaerit bonum,
+<lb ed="Bd" n="42"/>sed quod potius absolute bonum est, et
+<lb ed="Bd" n="43"/>causa boni : nec innititur illi propter 
+ra<lb break="no" ed="Bd" n="44"/>tionem, quia probat hoc ratio, qaod 
+op<lb break="no" ed="Bd" n="45"/>positum est, sed quia illud bonum efficit
+<lb ed="Bd" n="46"/>talem dilectionem : unde cum dicitur,
+<lb ed="Bd" n="47"/>Diligere Deum propter se, et super 
+om<lb break="no" ed="Bd" n="48"/>nia, est actus charitatis: ly propier se,
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>non dicit ibt causam unam tantum, sed
+<lb ed="Bd" n="50"/>tres, scilicet quae est ut objectum, et
+<lb ed="Bd" n="51"/>quie est ut efficiens, et quae est ut finis :
+<lb ed="Bd" n="52"/>et in prima et ultima potuit convenire
+<lb ed="Bd" n="53"/>Angelo et homini in primo statu 
+secun<lb break="no" ed="Bd" n="54"/>dum opinionem quorumdam, sed non
+<lb ed="Bd" n="55"/>quoad medium : quia efficit hoc in eis
+<lb ed="Bd" n="56"/>ratio.
+</p>
+            <p xml:id="alalal-e98434-d1e409">
+               <lb ed="Bd" n="57"/>Per hoc patet solutio ad secundum.
+</p>
+            <p xml:id="alalal-e98434-d1e414">
+               <lb ed="Bd" n="58"/>Ad aliud dicendum, quod ratio illa
+<lb ed="Bd" n="59"/>fundatur super falsum : quia licet vires
+<lb ed="Bd" n="60"/>proportionate sunt in ordine, non tamen
+<lb ed="Bd" n="61"/>sunt aequales in posse : practice enim
+<lb ed="Bd" n="62"/>minus possunt, quam cognitive : multa
+<lb ed="Bd" n="63"/>enim cognoscimus, quae operari non
+<lb ed="Bd" n="64"/>possumus : et multa cognoscimus, circa
+<lb ed="Bd" n="65"/>que ut cognoscimus, affici non 
+possu<lb break="no" ed="Bd" n="66"/>mus, nisi elevemur supra posse nostrum
+<lb ed="Bd" n="67"/>a dono Dei dato nobis. Et ita est in 
+dile<lb break="no" ed="Bd" n="68"/>ctione quae est charitas. Non enim 
+pos<lb break="no" ed="Bd" n="69"/>sum per affectum affici in Deum propter
+<lb ed="Bd" n="70"/>se et super omnia liberaliter nullo 
+co<lb break="no" ed="Bd" n="71"/>gente omnino, quamdiu invitor propter
+<lb ed="Bd" n="72"/>rationem convincentem alfectum, ita
+<lb ed="Bd" n="73"/>quod sit faciendum : et ideo non est
+<lb ed="Bd" n="74"/>naturalis nostra dilectio : et etiam si hoc
+<lb ed="Bd" n="75"/>fieri posset, ut quidam dicunt, tamen
+<lb ed="Bd" n="76"/>difficile est etiam hoc credere, quod
+<lb ed="Bd" n="77"/>natura diligat aliquid supra se, nisi in
+<lb ed="Bd" n="78"/>quantum bonum sibi, apud quosdam,
+<lb ed="Bd" n="79"/>qui dicunt, quod natura curva est in se,
+<lb ed="Bd" n="80"/>et dilectione tali non diligit aliquid 
+su<lb break="no" ed="Bd" n="81"/>pra se: et ideo illi distinguunt duplicem
+<lb ed="Bd" n="82"/>dilectionem, scilicet amicitiae et 
+concu<lb break="no" ed="Bd" n="83"/>piscentiae, et dicunt, quod dilectione
+<lb ed="Bd" n="84"/>amicitiae aliquid diligitur propter se, sed
+<lb ed="Bd" n="85"/>non supra se: dilectione autem 
+concu<lb break="no" ed="Bd" n="86"/>piscentiae quae naturalis est, nihil, sed
+<lb ed="Bd" n="87"/>omnia diliguntur ut bona sibi. Tamen
+<lb ed="Bd" n="88"/>quia legitur in libris Philosophorum
+<lb ed="Bd" n="89"/>tantam esse dilectionem honesti, ut etiam
+<lb ed="Bd" n="90"/>fortes periculis se committant, qui tamen
+<lb ed="Bd" n="91"/>charitatem non habent, difficile est 
+dice<lb break="no" ed="Bd" n="92"/>re, quod nemo diligit aliquid supra se,
+<lb ed="Bd" n="93"/>nisi ex charitate : et ideo tunc 
+reverten<lb break="no" ed="Bd" n="94"/>dum est ad priorem solutionem.
+</p>
+            <p xml:id="alalal-e98434-d1e497">
+               <lb ed="Bd" n="95"/>Ad aliud dicendum, quod difficile in
+<lb ed="Bd" n="96"/>theologicis virtutibus non consistit in
+<lb ed="Bd" n="97"/>actu : quia (sicut supra diximus) non uno
+<pb ed="#Bd" n="510"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>modo accipitur difficile et bonum in 
+vir<lb break="no" ed="Bd" n="2"/>tute theologica, et morali, et 
+intellectua<lb break="no" ed="Bd" n="3"/>li: sed in theologica accipitur bonum
+<lb ed="Bd" n="4"/>quod est finis, et difficile quod est sus—
+<lb ed="Bd" n="5"/>tolli supra id quod potest natura, et
+<lb ed="Bd" n="6"/>abnegare naturam : in moral: autem
+<lb ed="Bd" n="7"/>accipitur difficile, quod est tangere 
+me<lb break="no" ed="Bd" n="8"/>dium vel appropinquare illi : in 
+intelle<lb break="no" ed="Bd" n="9"/>ctuah autem difficile quod est circa 
+mc<lb break="no" ed="Bd" n="10"/>dium, quod dicitur recta ratio 
+operabi<lb break="no" ed="Bd" n="11"/>lium : et bonum in utrisque secundum
+<lb ed="Bd" n="12"/>rationem honesti felicitatem respicientis.
+<lb ed="Bd" n="13"/>Hoc autem quod dicit Augustinus 
+intelli<lb break="no" ed="Bd" n="14"/>gitur de dulcedine actus ad objectum, et
+<lb ed="Bd" n="15"/>non de abnegatione nature.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

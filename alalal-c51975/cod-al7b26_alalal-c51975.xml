@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 29</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 29</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="274"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c51975"><!-- l1d37a29 -->
+            <head xml:id="alalal-c51975-Hd1e99">Articulus 29</head>
+            <head xml:id="alalal-c51975-Hd1e101" type="question-title">An Deus faciendo aliquid quod prius
+non fecit, mutetur ?</head>
+            <p xml:id="alalal-c51975-d1e104">
+               <lb ed="#Bb" n="34"/>ARTICULUS XXIX.
+<lb ed="#Bb" n="35"/>An Deus faciendo aliquid quod prius
+<lb ed="#Bb" n="36"/>non fecit, mutetur ?
+</p>
+            <p xml:id="alalal-c51975-d1e113">
+               <lb ed="#Bb" n="37"/>Deinde queritur de hoc dicit : <quote xml:id="alalal-c51975-Qd1e117"> Ad
+<lb ed="#Bb" n="38"/>hoc autem solet opponi, etc. </quote>
+            </p>
+            <p xml:id="alalal-c51975-d1e123">
+               <lb ed="#Bb" n="39"/>Videtur enim mutari Deus per hoc
+<cb ed="#Bb" n="d"/>
+               <lb ed="#Bb" n="40"/>quod facit quod ante non fecit: actio
+<lb ed="#Bb" n="41"/>enim aliquo modo in agente est: et
+<lb ed="#Bb" n="42"/>haec actio hujus rei non ab aeterno fuit.
+</p>
+            <p xml:id="alalal-c51975-d1e137">
+               <lb ed="#Bb" n="43"/>Sed Hoc sepe solutum est: quia
+<lb ed="#Bb" n="44"/>sicut dictum est, in agente est velle ut
+<lb ed="#Bb" n="45"/>hoc modo fiat, et hoc ab aeterno 
+immu<lb break="no" ed="#Bb" n="46"/>tabiliter uno modo permansit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

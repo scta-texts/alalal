@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="763"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h64498"><!-- l4d18a1 -->
+            <head xml:id="alalal-h64498-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-h64498-Hd1e101" type="question-title">An in Ecclesia claves alique sint 
+necessarie ?</head>
+            <p xml:id="alalal-h64498-d1e104">
+               <lb ed="#Be" n="15"/>ARTICULUS I.
+<lb ed="#Be" n="16"/>An in Ecclesia claves alique sint 
+neces<lb break="no" ed="#Be" n="17"/>sarie ?
+</p>
+            <p xml:id="alalal-h64498-d1e113">
+               <lb ed="#Be" n="18"/>Secundum autem haec tria nos etiam
+<lb ed="#Be" n="19"/>queremus de clavibus.
+</p>
+            <p xml:id="alalal-h64498-d1e120">
+               <lb ed="#Be" n="20"/>Primo, super primum capitulum 
+ra<lb break="no" ed="#Be" n="21"/>tione illius verbi quod dicit : <quote xml:id="alalal-h64498-Qd1e126"> Ubi sunt
+<lb ed="#Be" n="22"/>claves tlle, etc., </quote> queremus, An sint
+<lb ed="#Be" n="23"/>claves ?
+</p>
+            <p xml:id="alalal-h64498-d1e135">
+               <lb ed="#Be" n="24"/>Videtur autem, quod non: quia
+<lb ed="#Be" n="25"/>i. Culpa et poena annexe sunt : ergo
+<lb ed="#Be" n="26"/>remittens culpam, necessario absolvit a
+<lb ed="#Be" n="27"/>peena: ergo non sunt necessarie claves:
+<lb ed="#Be" n="28"/>et si non sunt necessaria, non sunt, quia
+<lb ed="#Be" n="29"/>nihil vanum est in operibus gratiae : ergo
+<lb ed="#Be" n="30"/>videtur, quod non sint claves.
+</p>
+            <p xml:id="alalal-h64498-d1e153">
+               <lb ed="#Be" n="31"/>2. Adhuc, Vis contritionis sepe solvit
+<lb ed="#Be" n="32"/>totum ante omneim actum sacerdotis: sed
+<lb ed="#Be" n="33"/>actus sacerdotis sunt in clavibus: ergo
+<lb ed="#Be" n="34"/>non sunt necessarie claves.
+</p>
+            <p xml:id="alalal-h64498-d1e164">
+               <lb ed="#Be" n="35"/>3. Si forte tu velles dicere, quod in
+<lb ed="#Be" n="36"/>contritione relaxetur tota culpa, sed non
+<lb ed="#Be" n="37"/>tota poena: et partem poene dimittat 
+cla<lb break="no" ed="#Be" n="38"/>vis. Contra: Id quod est dimissivum
+<lb ed="#Be" n="39"/>majoris, potest etiam in minus : sed poe~
+<lb ed="#Be" n="40"/>nam aeternam solvit contritio: ergo et
+<lb ed="#Be" n="41"/>temporalem partem poene quae remanet,
+<lb ed="#Be" n="42"/>remittere potest: ergo inutiliter datur
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="43"/>clavis: quia melius fit quod per unum,
+<lb ed="#Be" n="44"/>quam quod fit per duo, dummodo per
+<lb ed="#Be" n="45"/>unum fieri possit, ut vult Philosophus.
+</p>
+            <p xml:id="alalal-h64498-d1e193">
+               <lb ed="#Be" n="46"/>3. Adhuc, Pcene non est debitor 
+ali<lb break="no" ed="#Be" n="47"/>quis nisi ex culpa: si ergo nihil 
+rema<lb break="no" ed="#Be" n="48"/>neat de culpa, nihil videtur remanere
+<lb ed="#Be" n="49"/>de poena: sed post contritionem nihil
+<lb ed="#Be" n="50"/>manet de culpa: ergo nihil manet de
+<lb ed="#Be" n="51"/>pena: ergo inutiliter datur clavis.
+</p>
+            <p xml:id="alalal-h64498-d1e209">
+               <lb ed="#Be" n="52"/>4. Adhuc, Probatur hoc per simile: quia
+<lb ed="#Be" n="53"/>si non fit albedo in aliquo, nisi quae 
+cau<lb break="no" ed="#Be" n="54"/>satur in candore lactis, vel a calido, vel
+<lb ed="#Be" n="55"/>frigido: si nihil remanet de causa 
+albe<lb break="no" ed="#Be" n="56"/>dinis, nihil remanebit de albedine : sed
+<lb ed="#Be" n="57"/>constat, quod nullius poene est iste 
+de<lb break="no" ed="#Be" n="58"/>bitor, nisi ex culpa sicut ex causa: ergo
+<lb ed="#Be" n="59"/>si nihil post contriticnem remanet de
+<lb ed="#Be" n="60"/>culpa, nihil remanet de poena: et inde
+<lb ed="#Be" n="61"/>sequitur ut prius, claves esse inutiles.
+</p>
+            <p xml:id="alalal-h64498-d1e233">
+               <lb ed="#Be" n="62"/>5. Si forte tu velles dicere, sicut dicit
+<lb ed="#Be" n="63"/>Magister Hugo de sancto Victore ad 
+Ber<lb break="no" ed="#Be" n="64"/>nardum querentem istam questionem,
+<lb ed="#Be" n="65"/>quod est multiplex vinculum, quo 
+liga<lb break="no" ed="#Be" n="66"/>tur pececator ex peccato, scilicet 
+obdu<lb break="no" ed="#Be" n="67"/>rationis, captivitatis diabolice, servitutis,
+<lb ed="#Be" n="68"/>que usuras cogit dare mortis aeterne, et
+<lb ed="#Be" n="69"/>obligationis ad confessionem. Et a 
+pri<lb break="no" ed="#Be" n="70"/>mis quidem quatuor absolvit Deus per
+<lb ed="#Be" n="71"/>seipsum, ligando ad quintum, a quo 
+ab<lb break="no" ed="#Be" n="72"/>solvit per sacerdotem ligando ad unum,
+<lb ed="#Be" n="73"/>scilicet poenam expiationis in satisfactione
+<lb ed="#Be" n="74"/>peragendam: dicit enim, quod a vinculo
+<lb ed="#Be" n="75"/>obdurationis solvit per emollitionem 
+cor<lb break="no" ed="#Be" n="76"/>dis ad poenitentiam: a vinculo autem
+<lb ed="#Be" n="77"/>captivitatis diabolice quo tenetur ne per
+<lb ed="#Be" n="78"/>se resurgere possit, absolvit per 
+adjuto<lb break="no" ed="#Be" n="79"/>tium erigentis gratiae prevenientis: a
+<lb ed="#Be" n="80"/>vinculo autem servitutis per adjutorium
+<lb ed="#Be" n="81"/>gratiae cooperantis, qua possit bona
+<lb ed="#Be" n="82"/>operari: a vinculo vero mortis aeterne
+<lb ed="#Be" n="83"/>per absolutionem a reatu pene aeterne.
+<lb ed="#Be" n="84"/>Si, inquam, sic dicas: quero primo,
+<lb ed="#Be" n="85"/>Quid necesse habeat Deus solvere a 
+qua<lb break="no" ed="#Be" n="86"/>tuor dictis vinculis ligando ad quintum ?
+<lb ed="#Be" n="87"/>Cum enim dicatur, Deuter. xxxu, 4:
+<lb ed="#Be" n="88"/>Dei perfecta sunt opera, videtur 
+perfe<lb break="no" ed="#Be" n="89"/>ctius esse Dei opus si in nullo maneret
+<lb ed="#Be" n="90"/>ligatum, quam quod absolvit a quatuor,
+<lb ed="#Be" n="91"/>et ligat ad vinculum quintum.
+</p>
+            <p xml:id="alalal-h64498-d1e302">
+               <pb ed="#Be" n="764"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>6. Adhuc autem videtur esse 
+conditio<lb break="no" ed="#Be" n="2"/>natum opus Dei, in hoc scilicet, quod
+<lb ed="#Be" n="3"/>non absolvit hune, nisi ille obligetur ad
+<lb ed="#Be" n="4"/>confessionem : sed conditio inducit 
+du<lb break="no" ed="#Be" n="5"/>bium et tempus : ergo videtur Dei. opus
+<lb ed="#Be" n="6"/>potius dubietati et temporalitati 
+subja<lb break="no" ed="#Be" n="7"/>cere : et hoc maximum omnis sapiens
+<lb ed="#Be" n="8"/>reputat inconveniens : nullius enim opus
+<lb ed="#Be" n="9"/>certum est, si Dei intemporalis et wterni
+<lb ed="#Be" n="10"/>potius incertum est opus et temporale.
+</p>
+            <p xml:id="alalal-h64498-d1e331">
+               <lb ed="#Be" n="11"/>Si FoRTE propter hoc dicas, quod non
+<lb ed="#Be" n="12"/>sunt claves iste Ecclesia. Contra :
+</p>
+            <p xml:id="alalal-h64498-d1e338">
+               <lb ed="#Be" n="13"/>1. Matth. xvi, 19, dicitur :<quote xml:id="alalal-h64498-Qd1e342"> Tibi dabo
+<lb ed="#Be" n="14"/>claves regni celorum</quote>, etc. Ergo 
+sacerdo<lb break="no" ed="#Be" n="15"/>tes habent claves. :
+</p>
+            <p xml:id="alalal-h64498-d1e350">
+               <lb ed="#Be" n="16"/>2. Adhuc, Aditus paradisi significat
+<lb ed="#Be" n="17"/>aditum ad Ecclesiam : video autem, quod
+<lb ed="#Be" n="18"/>ille aditus reclusus est potestate Angeli
+<lb ed="#Be" n="19"/>ministrantis: ergo et aditus 
+sacramen<lb break="no" ed="#Be" n="20"/>torum Ecclesia recludi debet potestate
+<lb ed="#Be" n="21"/>ministrorum Ecclesie : sed illa potestas
+<lb ed="#Be" n="22"/>dicitur clavis: ergo claves sunt in 
+mini<lb break="no" ed="#Be" n="23"/>stris Ecclesia.
+</p>
+            <p xml:id="alalal-h64498-d1e370">
+               <lb ed="#Be" n="24"/>Multe autem alie auctoritates ad hoc
+<lb ed="#Be" n="25"/>inducuntur in Littera: et ideo haec 
+suf<lb break="no" ed="#Be" n="26"/>ficiant.
+</p>
+            <p xml:id="alalal-h64498-d1e379">
+               <lb ed="#Be" n="27"/>Solutio. Dicendum, quod absque 
+am<lb break="no" ed="#Be" n="28"/>biguitare claves Ecclesie sunt, quas 
+ha<lb break="no" ed="#Be" n="29"/>bet Ecclesia (ut dicit Hieronymus) in suis
+<lb ed="#Be" n="30"/>Episcopis, et sacerdotibus : quibus dignis
+<lb ed="#Be" n="31"/>non solum sacramenta, sed etiam ccelum
+<lb ed="#Be" n="32"/>aperitur, et clauditur indignis.
+</p>
+            <p xml:id="alalal-h64498-d1e396">
+               <lb ed="#Be" n="33"/>De solutione autem objectorum 
+dicen<lb break="no" ed="#Be" n="34"/>dum ad primum quod clavis dupliciter
+<lb ed="#Be" n="35"/>aperit regnum operando ad remotionem
+<lb ed="#Be" n="36"/>peccati impedientis : et unus modus sepe
+<lb ed="#Be" n="37"/>dictus est, et est bonus, scilicet quando
+<lb ed="#Be" n="38"/>conteritur aliquis, dolor suus vim habet
+<lb ed="#Be" n="39"/>a gratia informante, et a voto confitendi
+<lb ed="#Be" n="40"/>et satisfaciendi, quod habet in proposito.
+<lb ed="#Be" n="41"/>Sicut igitur est in medicinis compositis,
+<lb ed="#Be" n="42"/>que totum expellunt morbum, ita tamen
+<lb ed="#Be" n="43"/>quod quelibet simplex medicina ibi 
+po<lb break="no" ed="#Be" n="44"/>sita operatur contra aliquam partem
+<lb ed="#Be" n="45"/>morbi et causam: ita dico quod in 
+pec<lb break="no" ed="#Be" n="46"/>cato est culpa et poena, et est poena 
+eter<lb break="no" ed="#Be" n="47"/>na improportionabilis viribus 
+pceniten<lb break="no" ed="#Be" n="48"/>tis, et acerba pro debito reatus: et gra-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="49"/>tia quidem habet effectum contra 
+cul<lb break="no" ed="#Be" n="50"/>pam, et dolor contra acerbitatem poone :
+<lb ed="#Be" n="51"/>dolor autem passionis Christi contra 
+eter<lb break="no" ed="#Be" n="52"/>nitatem : et votum submittendi se 
+clavi<lb break="no" ed="#Be" n="53"/>bus habentibus vim ex passione, babet
+<lb ed="#Be" n="54"/>solvere improportionem illam, qua 
+ma<lb break="no" ed="#Be" n="55"/>jor est viribus poenitentis : et satisfaciendi
+<lb ed="#Be" n="56"/>votum quandoque solvit totum residuum,
+<lb ed="#Be" n="57"/>quandoque autem solvitur per 
+satisfa<lb break="no" ed="#Be" n="58"/>ctionem sequentem in actu. Unde nihil
+<lb ed="#Be" n="59"/>prohibet operari clavem ante actum sa-~
+<lb ed="#Be" n="60"/>cerdotis extra: sicut et gratia mediatoris
+<lb ed="#Be" n="61"/>operata est antequam esset mediator in
+<lb ed="#Be" n="62"/>natura vera medietate. Alio modo 
+opera<lb break="no" ed="#Be" n="63"/>tur clavis in absolutione confessionis 
+di<lb break="no" ed="#Be" n="64"/>mittendo partem poene debite per 
+gra<lb break="no" ed="#Be" n="65"/>tiam ministerii sacerdotum Christi, quod
+<lb ed="#Be" n="66"/>non est credendum gratia carere, sed 
+po<lb break="no" ed="#Be" n="67"/>ttus per maximam habere gratiam. Licet
+<lb ed="#Be" n="68"/>ergo solvatur poena et culpa in 
+contri<lb break="no" ed="#Be" n="69"/>tione, non tamen fit hoc virtute solius
+<lb ed="#Be" n="70"/>contritionis, sed potius etiam virtute
+<lb ed="#Be" n="71"/>clavium : sicut licet in medicina aliqua
+<lb ed="#Be" n="72"/>solvatur morbus aliquis, non tamen fit
+<lb ed="#Be" n="73"/>hoc virtute unius receptorum in 
+medici<lb break="no" ed="#Be" n="74"/>na, sed virtute cujuslibet solvitur 
+ali<lb break="no" ed="#Be" n="75"/>quid morbi.
+</p>
+            <p xml:id="alalal-h64498-d1e494">
+               <lb ed="#Be" n="76"/>Ad aliud dicendum, quod vis 
+contri<lb break="no" ed="#Be" n="77"/>tionis numquam ita totum solvit, quin
+<lb ed="#Be" n="78"/>effectus sit ibi, ut patet per antedicta : et
+<lb ed="#Be" n="79"/>etiam postea actu tenetur se submittere,
+<lb ed="#Be" n="80"/>quia aliter per contemptum religionis
+<lb ed="#Be" n="81"/>inciperet adeo malignare sicut prius.
+</p>
+            <p xml:id="alalal-h64498-d1e510">
+               <lb ed="#Be" n="82"/>Ad aliud dicendum, quod quandoque
+<lb ed="#Be" n="83"/>tota poena dimittitur in contritione, sed
+<lb ed="#Be" n="84"/>numquam virtute solius contritionis : et
+<lb ed="#Be" n="85"/>ideo ut impleatur votum quod in 
+contri<lb break="no" ed="#Be" n="86"/>tione habuit, et habere tenebatur, postea
+<lb ed="#Be" n="87"/>etiam debet se submittere confessori et
+<lb ed="#Be" n="88"/>satisfactioni: sed verum est quod si 
+sa<lb break="no" ed="#Be" n="89"/>cerdos sciret talem in voto absolutum, non
+<lb ed="#Be" n="90"/>imponeret ei poenitentiam in 
+satisfactio<lb break="no" ed="#Be" n="91"/>nem preteritorum: sed vel nullam 
+im<lb break="no" ed="#Be" n="92"/>poneret, sicut nec Dominus fecit Marie
+<lb ed="#Be" n="93"/>Magdalene: vel si imponeret aliquid,
+<lb ed="#Be" n="94"/>faceret hoc in medicinam futurorum, 
+sic<lb break="no" ed="#Be" n="95"/>ut dantur medicine preservative : quia
+<lb ed="#Be" n="96"/>autem sacerdos hoc scire non potest, ideo
+<lb ed="#Be" n="97"/>omnibus venialibus poenitentiam injungit.
+</p>
+            <p xml:id="alalal-h64498-d1e547">
+               <pb ed="#Be" n="765"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Ad aliud dicendum, quod secus est in
+<lb ed="#Be" n="2"/>effectu et causa conjunctis per naturam, -
+<lb ed="#Be" n="3"/>et causa et effectu conjunctis per 
+volun<lb break="no" ed="#Be" n="4"/>tatem in conversatione hominis: in 
+na<lb break="no" ed="#Be" n="5"/>tura enim propter hoc soluta tota causa,
+<lb ed="#Be" n="6"/>solvitur totus effectus, quia natura agit
+<lb ed="#Be" n="7"/>necessario: et ideo remoto agente, nihil
+<lb ed="#Be" n="8"/>manet de effectu ipsius. Sed in voluntate,
+<lb ed="#Be" n="9"/>quia voluntas deliberativa est, cadit in
+<lb ed="#Be" n="10"/>vituperium et laudem ex opere suo:
+<lb ed="#Be" n="11"/>et ideo transeunte causa, non transit
+<lb ed="#Be" n="12"/>effectus, imo manet: sicut cum culpa
+<lb ed="#Be" n="13"/>transit actu, non transit reatu, imo manet.
+<lb ed="#Be" n="14"/>Et similiter quoad debitum satisfaciendi,
+<lb ed="#Be" n="15"/>bene potest manere post recessum culpa
+<lb ed="#Be" n="16"/>in toto. Unde talia argumenta in moribus
+<lb ed="#Be" n="17"/>etiam civiliter loquendo, nihil valent,
+<lb ed="#Be" n="18"/>sicut jam patuit.
+</p>
+            <p xml:id="alalal-h64498-d1e593">
+               <lb ed="#Be" n="19"/>Ad 1p quod objicitur de Hugone, 
+dicen<lb break="no" ed="#Be" n="20"/>dum quod in veritate illud est tota 
+scien<lb break="no" ed="#Be" n="21"/>tia illius libelli, et intelligitur, non ita
+<lb ed="#Be" n="22"/>quod Dominus sub conditione solvit, sed
+<lb ed="#Be" n="23"/>Dominus simpliciter’ absolvit: tamen
+<lb ed="#Be" n="24"/>quia in contritione votum est. 
+confessio<lb break="no" ed="#Be" n="25"/>nis, et sine illo non esset contritio, 
+prop<lb break="no" ed="#Be" n="26"/>ter hoc tenetur ad confessionem. Et quia
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="27"/>votum conjunctum est absolutioni a 
+qua<lb break="no" ed="#Be" n="28"/>tuor vinculis dictis, ideo dicit Magister
+<lb ed="#Be" n="29"/>Hugo, quod Deus absolvit ligando: sed
+<lb ed="#Be" n="30"/>sacerdos e contra ligat solvendo: ligando
+<lb ed="#Be" n="31"/>enim ad poenitentiam expiationis 
+absol<lb break="no" ed="#Be" n="32"/>vit a voto confessionis, dimittendo 
+par<lb break="no" ed="#Be" n="33"/>tem poenae debite si qua manserit post
+<lb ed="#Be" n="34"/>contritionem. Et per hoc patet, quod in
+<lb ed="#Be" n="35"/>opere Dei secundum quod Dei est, nulla
+<lb ed="#Be" n="36"/>conditio est, nec temporalitas, sed 
+neces<lb break="no" ed="#Be" n="37"/>sitas illius obligationis est ex voto 
+con<lb break="no" ed="#Be" n="38"/>fitendi et satisfaciendi ad arbitrium 
+mi<lb break="no" ed="#Be" n="39"/>nistrorum Ecclesiae, sine quo non potest
+<lb ed="#Be" n="40"/>esse vera contritio.
+</p>
+            <p xml:id="alalal-h64498-d1e645">
+               <lb ed="#Be" n="41"/>Et per hoc patet solutio ad ultimum.
+</p>
+            <p xml:id="alalal-h64498-d1e651">
+               <lb ed="#Be" n="42"/>AD TERTIUM autem iterum dicendum,
+<lb ed="#Be" n="43"/>quod licet in eo sint omnia aeque 
+pos<lb break="no" ed="#Be" n="44"/>sibilia, tamen non omnia sunt nobis
+<lb ed="#Be" n="45"/>geque utilia: utile enim nobis est, ut
+<lb ed="#Be" n="46"/>adstringamur talibus votis  propter
+<lb ed="#Be" n="47"/>erubescentiam et expiationem, quae non
+<lb ed="#Be" n="48"/>tantum valent ad expiationem 
+preterito<lb break="no" ed="#Be" n="49"/>rum, sed etiam ad cautelam futurorum.
+<lb ed="#Be" n="50"/>Et quaecumque sunt nobis magis utilia,
+<lb ed="#Be" n="51"/>haec ordinavit Deus in sacramentis,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

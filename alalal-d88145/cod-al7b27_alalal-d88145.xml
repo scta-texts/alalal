@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="510"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d88145"><!-- l2d31dt -->
+            <head xml:id="alalal-d88145-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-d88145-d1e101">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="7"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-d88145-d1e108">
+               <lb ed="#Bc" n="8"/>
+               <quote xml:id="alalal-d88145-Qd1e112"> Nunc superest investigare, etc. </quote>
+               <lb ed="#Bc" n="9"/>In hac parte Magister determinat,
+<lb ed="#Bc" n="10"/>qualiter peccatum illud propagatur ab
+<lb ed="#Bc" n="11"/>Adam in omnes homines. Et tangit 
+qua<lb break="no" ed="#Bc" n="12"/>tuor circa illud: quorum primum est,
+<lb ed="#Bc" n="13"/>quod elidit errorem eorum. qui dicebant |
+<lb ed="#Bc" n="14"/>animam esse ex traduce:-ideo quia. non
+<lb ed="#Bc" n="15"/>videbant qualiter aliter contraheret 
+ori<lb break="no" ed="#Bc" n="16"/>ginale. Secundum est, quod determinat,
+<lb ed="#Bc" n="17"/>qualiter habitat peccatum in carne, ibi,
+<lb ed="#Bc" n="18"/>C; <quote xml:id="alalal-d88145-Qd1e136"> Caro: enim propter peccatum 
+cor<lb break="no" ed="#Bc" n="19"/>rupta fuit, etc. </quote> In tertia quaeritur
+<lb ed="#Bc" n="20"/>Utrum id quod est in carne, sit culpa vel
+<lb ed="#Bc" n="21"/>poena? ibi, E, <quote xml:id="alalal-d88145-Qd1e145"> Hic quert solet, Utrum
+<lb ed="#Bc" n="22"/>causa peccati originalis, etc. </quote> In quarto
+<lb ed="#Bc" n="23"/>objicit, qualiter anima inficitur in 
+con<lb break="no" ed="#Bc" n="24"/>ceptu, cum nondum infundatur ? ibi, I,
+<lb ed="#Bc" n="25"/>
+               <quote xml:id="alalal-d88145-Qd1e157"> Sed ad hoc opponitur, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

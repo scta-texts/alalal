@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 20</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 20</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="60"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e12056"><!-- l3d3a20 -->
+            <head xml:id="alalal-e12056-Hd1e99">Articulus 20</head>
+            <head xml:id="alalal-e12056-Hd1e101" type="question-title">Quid dicatur, Antiqua conspersio 2</head>
+            <p xml:id="alalal-e12056-d1e104">
+               <pb ed="#Bd" n="60"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ARTICULUS XX.
+<lb ed="Bd" n="2"/>Quid dicatur, Antiqua conspersio 2
+</p>
+            <p xml:id="alalal-e12056-d1e115">
+               <lb ed="Bd" n="3"/>Deinde, Queritur de hoc quod dicit,
+<lb ed="Bd" n="4"/>ibi, A, versus fincem: <quote xml:id="alalal-e12056-Qd1e121"> Antique 
+con<lb break="no" ed="Bd" n="5"/>spersionis, etc. </quote>
+            </p>
+            <p xml:id="alalal-e12056-d1e127">
+               <lb ed="Bd" n="6"/>Hocenim non videtur verum: quia
+<lb ed="Bd" n="7"/>antiqua conspersio est antliqua ab 
+infe<lb break="no" ed="Bd" n="8"/>ctione vitii, sicut innuit Apostolus, I ad
+<lb ed="Bd" n="9"/>Corinth. y, 7, ubi dicit: Mapurgate 
+ve<lb break="no" ed="Bd" n="10"/>tus fermentum, ut sitis nova 
+consper<lb break="no" ed="Bd" n="11"/>sid.
+</p>
+            <p xml:id="alalal-e12056-d1e144">
+               <lb ed="Bd" n="12"/>Resroxsio. Dicendum, quod dicitur
+<lb ed="Bd" n="13"/>antigua propter rugositatem pcenarum,
+<lb ed="Bd" n="14"/>et non culpe: quia culpam non accepit
+<lb ed="Bd" n="15"/>de antiquitate nostra, sed pcenam, ut 
+in<lb break="no" ed="Bd" n="16"/>fra dicet Magister.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

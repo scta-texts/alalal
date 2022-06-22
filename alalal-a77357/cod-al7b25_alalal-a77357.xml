@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="389"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a77357"><!-- l1d14dt1 -->
+            <head xml:id="alalal-a77357-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-a77357-d1e101">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="13"/>DIVISIO TEXTUS.
+<lb ed="#Ba" n="14"/>
+               <quote xml:id="alalal-a77357-Qd1e109"> Praeterea diligenter adnotandum est,
+<lb ed="#Ba" n="15"/>quod gemina est, etc. </quote>
+            </p>
+            <p xml:id="alalal-a77357-d1e115">
+               <lb ed="#Ba" n="16"/>Hic incipit pars illa in qua agitur de 
+pro<lb break="no" ed="#Ba" n="17"/>cessione temporali Spiritus sancti.
+</p>
+            <p xml:id="alalal-a77357-d1e122">
+               <lb ed="#Ba" n="18"/>Et dividitur in tres partes: in quarum
+<lb ed="#Ba" n="19"/>prima determinatur haec processio 
+secun<lb break="no" ed="#Ba" n="20"/>dum comparationem ad mittentem, sive
+<lb ed="#Ba" n="21"/>ad id a quo est. In secunda, 
+determinan<lb break="no" ed="#Ba" n="22"/>tur modi duo, scilicet visibilis et 
+imvisi<lb break="no" ed="#Ba" n="23"/>bilis istius processionis: et haecincipit
+<lb ed="#Ba" n="24"/>in distinctione XVI, 1bi, <quote xml:id="alalal-a77357-Qd1e139"> Nunc de 
+Spi<lb break="no" ed="#Ba" n="25"/>ritu sancto videndum est, etc. </quote> In tertia,
+<lb ed="#Ba" n="26"/>autem determ inatur nomen’ consequens
+<lb ed="#Ba" n="27"/>hance processionem ex parte procedentis
+<lb ed="#Ba" n="28"/>quod est donum et datum: et haecincipit
+<lb ed="#Ba" n="29"/>in distinctione XVII, B, ibi, <quote xml:id="alalal-a77357-Qd1e153"> Praeterea
+<cb ed="#Ba" n="c"/>
+                  <lb ed="#Ba" n="30"/>diligenter considerandum est, cum 
+Spi<lb break="no" ed="#Ba" n="31"/>ritus sanctus dicatur, etc. </quote>
+            </p>
+            <p xml:id="alalal-a77357-d1e163">
+               <lb ed="#Ba" n="32"/>Prima harum subdividitur in duas : in
+<lb ed="#Ba" n="33"/>quarum prima probatur, quod Spiritus
+<lb ed="#Ba" n="34"/>sanctus a Patre et Filio mittitur et datur,
+<lb ed="#Ba" n="35"/>et non ab hominibus. In secunda autem
+<lb ed="#Ba" n="36"/>quaeritur, Utrum a se mittatur et detur,
+<lb ed="#Ba" n="37"/>vel non? et haecincipit in distinctione
+<lb ed="#Ba" n="38"/>XV, ibi, <quote xml:id="alalal-a77357-Qd1e180"> Hie considerandum est, cum
+<lb ed="#Ba" n="39"/>Spiritus sanctus detur hominibus a 
+Pa<lb break="no" ed="#Ba" n="40"/>tre, etc. </quote>
+            </p>
+            <p xml:id="alalal-a77357-d1e189">
+               <lb ed="#Ba" n="41"/>Hec distinctio quae primo occurrit,”
+<lb ed="#Ba" n="42"/>scinditur in duas partes. In prima 
+osten<lb break="no" ed="#Ba" n="43"/>ditur Spiritum mittia Patre et Filio. In
+<lb ed="#Ba" n="44"/>secunda ostenditur eum non mitli nec
+<lb ed="#Ba" n="45"/>dari ab hominibus, ibi, D, <quote xml:id="alalal-a77357-Qd1e202"> Mie 
+queri<lb break="no" ed="#Ba" n="46"/>tur, Utrum et virt sancti dent vel possint
+<lb ed="#Ba" n="47"/>dare, etc. </quote>
+            </p>
+            <p xml:id="alalal-a77357-d1e210">
+               <lb ed="#Ba" n="48"/>In priori sunt tres partes per tria
+<lb ed="#Ba" n="49"/>capitula: in quorum primo ostenditur,
+<lb ed="#Ba" n="50"/>quod gemina est processio Spiritus sancti,
+<pb ed="#Ba" n="390"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>eterna videlicet et temporalis. In 
+se<lb break="no" ed="#Ba" n="2"/>cundo, specialiter agitur de processione
+<lb ed="#Ba" n="3"/>temporali Spiritus sancti, ibi, B, <quote xml:id="alalal-a77357-Qd1e229"> De
+<lb ed="#Ba" n="4"/>temporalt autem processione, etc. </quote> In
+<lb ed="#Ba" n="5"/>tertio ostendilur, quod non tantum dona
+<lb ed="#Ba" n="6"/>ejus, sed etiam ipse Spiritus in 
+tempo<lb break="no" ed="#Ba" n="7"/>rali processione procedit, ibi, C, <quote xml:id="alalal-a77357-Qd1e241"> Sunt
+<lb ed="#Ba" n="8"/>autem aliqui qui dicunt, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

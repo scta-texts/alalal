@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="78"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d15203"><!-- l2d3a11 -->
+            <head xml:id="alalal-d15203-Hd1e99">Articulus 11</head>
+            <p xml:id="alalal-d15203-d1e101">
+               <pb ed="#Bc" n="78"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS XI.
+ <lb ed="#Bc" n="2"/>An omnibus Angelis aequaliter conveniat  
+ <lb ed="#Bc" n="3"/>quod sint immortales ? 
+</p>
+            <p xml:id="alalal-d15203-d1e114">
+               <lb ed="#Bc" n="4"/>Videtur enim non convenire eis #
+qua<lb break="no" ed="#Bc" n="5"/>liter quod sint immortales : quia supra
+<lb ed="#Bc" n="6"/>habitum est, quod immortalitas convenit
+<lb ed="#Bc" n="7"/>eis per gratiam, et non per naturam.
+</p>
+            <p xml:id="alalal-d15203-d1e125">
+               <lb ed="#Bc" n="8"/>Sep ap Hoc solutio est quod per 
+natu<lb break="no" ed="#Bc" n="9"/>ram et gratiam convenit eis : quia gratia
+<lb ed="#Bc" n="10"/>illa ut supra expositum est, est natura.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

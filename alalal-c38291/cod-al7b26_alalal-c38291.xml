@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="205"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c38291"><!-- l1d36dt -->
+            <head xml:id="alalal-c38291-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-c38291-d1e101">
+               <pb ed="#Bb" n="205"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-c38291-d1e110">
+               <lb ed="#Bb" n="2"/>
+               <quote xml:id="alalal-c38291-Qd1e114"> Solet hic queri, Cumomnia 
+dican<lb break="no" ed="#Bb" n="3"/>tur esse in Dei cognitione, etc. </quote>
+               <lb ed="#Bb" n="4"/>Hic incipit pars illain qua queritur,
+<lb ed="#Bb" n="5"/>Utrum idem sit esse in scientia, quod in
+<lb ed="#Bb" n="6"/>essentia Dei, vel in Deo? Et ibi queritur
+<lb ed="#Bb" n="7"/>de diversitate objectorum scientiae 
+di<lb break="no" ed="#Bb" n="8"/>vine.
+</p>
+            <p xml:id="alalal-c38291-d1e131">
+               <lb ed="#Bb" n="9"/>Dividitur autem in tres partes. In
+<lb ed="#Bb" n="10"/>prima tangit, qualiter sit esse in Dei
+<lb ed="#Bb" n="11"/>scientia, vel praescientia. In secunda 
+tan<lb break="no" ed="#Bb" n="12"/>git, qualiter bona et mala a Deo 
+sciun<lb break="no" ed="#Bb" n="13"/>tur, ibi, B, <quote xml:id="alalal-c38291-Qd1e144"> Post praedicta queritur,
+<lb ed="#Bb" n="14"/>etc. </quote> In tertia vero, quia scientia Dei
+<lb ed="#Bb" n="15"/>est causativa rerum, ostendit qualiter
+<lb ed="#Bb" n="16"/>idem est esse in Deo et in scientia Dei,
+<lb ed="#Bb" n="17"/>quod esse ex ipso et per ipsum et in
+<lb ed="#Bb" n="18"/>ipso : et qualiter diversum, ibi, D,
+<lb ed="#Bb" n="19"/>
+               <quote xml:id="alalal-c38291-Qd1e160"> Proinde st diligenter inspiciamus,
+<lb ed="#Bb" n="20"/>etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

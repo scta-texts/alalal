@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="664"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f29043"><!-- l3d36dt1 -->
+            <head xml:id="alalal-f29043-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-f29043-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="16"/>DIVISIO IEXTUS.
+</p>
+            <p xml:id="alalal-f29043-d1e108">
+               <lb ed="Bd" n="17"/>
+               <quote xml:id="alalal-f29043-Qd1e112"> Solet etiam queri, Utrum virtutes  
+<lb ed="Bd" n="18"/>ita sint sibi conjuncte, etc. </quote>
+            </p>
+            <p xml:id="alalal-f29043-d1e118">
+               <lb ed="Bd" n="19"/>Hee distinctio dividitur contra totum 
+<lb ed="Bd" n="20"/>tractatum praecedentem de habitibus 
+in<lb break="no" ed="Bd" n="21"/>fusis: quia hic quaeritur de comparatione 
+<lb ed="Bd" n="22"/>horum habituum ad invicem. 
+</p>
+            <p xml:id="alalal-f29043-d1e129">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="23"/>Et dividitur in tres partes secundum
+<lb ed="Bd" n="24"/>triplicem comparationem: in quarum
+<lb ed="Bd" n="25"/>prima agit de virtutum connexione in
+<lb ed="Bd" n="26"/>subjecto. In secunda quaeritur, Utrum
+<lb ed="Bd" n="27"/>habite simul virtutes ctiam necessario
+<lb ed="Bd" n="28"/>sint pares? et haec incipit, ibi, B, <quote xml:id="alalal-f29043-Qd1e146"> Utrum
+<lb ed="Bd" n="29"/>vero pariter quis omnes possideat, etc. </quote>
+               <lb ed="Bd" n="30"/>In tertia, agit de relatione charitatis ad
+<lb ed="Bd" n="31"/>alias et ad opera praeceptorum, ibi, C,
+<lb ed="Bd" n="32"/>
+               <quote xml:id="alalal-f29043-Qd1e158"> Cumgue duo sint praecepta charitatis,
+<lb ed="Bd" n="33"/>etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

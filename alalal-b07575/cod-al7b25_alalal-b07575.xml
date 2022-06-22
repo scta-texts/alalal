@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="556"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b07575"><!-- l1d21a1 -->
+            <head xml:id="alalal-b07575-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-b07575-Hd1e101" type="question-title">An dictiones exclusive possunt poni in
+divinis ?</head>
+            <p xml:id="alalal-b07575-d1e104">
+               <lb ed="#Ba" n="31"/>ARTICULUS TI,.
+<lb ed="#Ba" n="32"/>An dictiones exclusive possunt poni in
+<lb ed="#Ba" n="33"/>divinis ?
+</p>
+            <p xml:id="alalal-b07575-d1e113">
+               <lb ed="#Ba" n="34"/>Incidit autem hic questio ante 
+Litte<lb break="no" ed="#Ba" n="35"/>ram, Utrum dictiones exclusive possunt
+<lb ed="#Ba" n="36"/>poni in divinis ?
+</p>
+            <p xml:id="alalal-b07575-d1e122">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="37"/>Videtur autem, quod non :
+<lb ed="#Ba" n="38"/>4. Supra enim, in verbis Hilarii 
+di<lb break="no" ed="#Ba" n="39"/>citur quod solitarius non est nobis Deus
+<lb ed="#Ba" n="40"/>confitendus : ergo solitudo non convenit
+<lb ed="#Ba" n="41"/>divinis : cum ergo dictiones exclusive
+<lb ed="#Ba" n="42"/>implicent solitudinem circa ea quibus 
+ad<lb break="no" ed="#Ba" n="43"/>junguntur, videtur quod dictiones le
+<lb ed="#Ba" n="44"/>non competant divinis.
+</p>
+            <p xml:id="alalal-b07575-d1e145">
+               <lb ed="#Ba" n="45"/>2. Item, Supra, in Ambrosii verbis
+<lb ed="#Ba" n="46"/>dicitur, quod Pater per intellectum 
+sem<lb break="no" ed="#Ba" n="47"/>per est in Filo, et Filius in Patre, et 
+Spi<lb break="no" ed="#Ba" n="48"/>ritus sanctus in utroque : si ergo dictio
+<lb ed="#Ba" n="49"/>excludens Filum a Patre, apponatur
+<lb ed="#Ba" n="50"/>alicui personarum, erit implicatio falsi,
+<lb ed="#Ba" n="51"/>et sic locutio falsa : hoc autem facit 
+di<lb break="no" ed="#Ba" n="52"/>ctio exclusiva : ergo videtur quod in 
+di<lb break="no" ed="#Ba" n="53"/>vinis dictiones ill non competant.
+</p>
+            <p xml:id="alalal-b07575-d1e167">
+               <lb ed="#Ba" n="54"/>3. Item, Dictio exclusiva alicui 
+adjun<lb break="no" ed="#Ba" n="55"/>cta excludit alia quae non suntillud : 
+om<lb break="no" ed="#Ba" n="56"/>nis autem exclusio est respectu alicujus
+<lb ed="#Ba" n="57"/>quod participatur ab illo circa quod 
+no<lb break="no" ed="#Ba" n="58"/>tatur exclusio : nihil autem habet Pater
+<lb ed="#Ba" n="59"/>quod non habet Filius et Spiritus 
+san<lb break="no" ed="#Ba" n="60"/>ctus : ergo videtur, quod numquam 
+pos<lb break="no" ed="#Ba" n="61"/>sit dictio notans exclusionem poni circa
+<lb ed="#Ba" n="62"/>aliquam personarum in divinis.
+</p>
+            <p xml:id="alalal-b07575-d1e189">
+               <lb ed="#Ba" n="63"/>4. Item, In Letfera dicit Augustinus,
+<lb ed="#Ba" n="64"/>quod haec est vera, <quote xml:id="alalal-b07575-Qd1e195"> solus Pater est 
+Pa<lb break="no" ed="#Ba" n="65"/>ter, </quote> et quod non notatur solitudo circa
+<lb ed="#Ba" n="66"/>Patrem, sed alii a consortio paternitatis
+<lb ed="#Ba" n="67"/>excluduntur. Queratur ergo, Utrum 
+si<lb break="no" ed="#Ba" n="68"/>militer possit dici, Pater est solus 
+Pa<lb break="no" ed="#Ba" n="69"/>ter? Et videtur, quod sic : quia 
+expositi<lb break="no" ed="#Ba" n="70"/>ve cjus sunt vere, scilicet Pater est 
+Pa<lb break="no" ed="#Ba" n="71"/>ter, et non allus quam Pater est Pater .
+<lb ed="#Ba" n="72"/>ergo Pater est solus Pater. Contra : 
+Pa<lb break="no" ed="#Ba" n="73"/>ter est solus Pater : ergo Pater est 
+Pa<lb break="no" ed="#Ba" n="74"/>ter solus : ergo non est cum Filio et 
+Spi<lb break="no" ed="#Ba" n="75"/>ritu sancto, quod falsum est.
+</p>
+            <p xml:id="alalal-b07575-d1e223">
+               <lb ed="#Ba" n="76"/>5. Item, Haec non est vera, non solus
+<lb ed="#Ba" n="77"/>Pater est Pater. Prosanio. Pater est 
+Pa<lb break="no" ed="#Ba" n="78"/>ter cum Filho existens et cum Spiritu
+<lb ed="#Ba" n="79"/>sancto : ergo non solus Pater est Pater :
+<lb ed="#Ba" n="80"/>ergo ejus contradictoria est falsa, hee
+<lb ed="#Ba" n="81"/>scilicet, solus Pater est Pater: quam 
+ta<lb break="no" ed="#Ba" n="82"/>men in Litera concedit Augustinus.
+</p>
+            <p xml:id="alalal-b07575-d1e241">
+               <lb ed="#Ba" n="83"/>6. Item. quaeritur juxta hoc, Utrum
+<pb ed="#Ba" n="557"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>haecsit vera, Pater est Pater? Videtur,
+<lb ed="#Ba" n="2"/>quod sic : quia Pater est Pater, et non
+<lb ed="#Ba" n="3"/>est aliud a Patre, essentia enim non
+<lb ed="#Ba" n="4"/>est aliud a Patre : ergo Pater est tantum
+<lb ed="#Ba" n="5"/>Pater.
+</p>
+            <p xml:id="alalal-b07575-d1e261">
+               <lb ed="#Ba" n="6"/>Sed conrra : Dicit Augustinus, quod
+<lb ed="#Ba" n="7"/>esse Patrem non est esse Deum : ergo
+<lb ed="#Ba" n="8"/>Pater non est Deus, quod falsum est :
+<lb ed="#Ba" n="9"/>ergo et hec, Pater est tantum Pater. Et
+<lb ed="#Ba" n="10"/>eadem objectio est de hac, Filius est 
+tan<lb break="no" ed="#Ba" n="11"/>tum Filius: et de hac, Spiritus sanctus
+<lb ed="#Ba" n="12"/>est tantum Spiritus sanctus.
+</p>
+            <p xml:id="alalal-b07575-d1e280">
+               <lb ed="#Ba" n="13"/>SoLutio. Dicendum, quod secundum
+<lb ed="#Ba" n="14"/>quod innuit Augustinus hic et Magister,
+<lb ed="#Ba" n="15"/>dictio exclusiva potest pomi circa divina,
+<lb ed="#Ba" n="16"/>et precipue in subjecto, et circa nomen
+<lb ed="#Ba" n="17"/>persone quod est quasi singulare in 
+di<lb break="no" ed="#Ba" n="18"/>vinis, ut Pater, et Filius, et Spiritus 
+san<lb break="no" ed="#Ba" n="19"/>ctus : cum enim secundum Aristotelem,
+<lb ed="#Ba" n="20"/>idem est solus quod est non cum alio:
+<lb ed="#Ba" n="21"/>ly non cum alio dicit privationem 
+asso<lb break="no" ed="#Ba" n="22"/>ciationis : et ideo proprie non convenit
+<lb ed="#Ba" n="23"/>termino in sua suppositione et 
+significa<lb break="no" ed="#Ba" n="24"/>tione importante associationem sicut 
+fa<lb break="no" ed="#Ba" n="25"/>cit omnis terminus communis, ut homo,
+<lb ed="#Ba" n="26"/>asinus, et hujusmodi: unde non proprie
+<lb ed="#Ba" n="27"/>dicitur, solus asinus, vel solus homo.
+<lb ed="#Ba" n="28"/>nisi prius adjungatur termino communi
+<lb ed="#Ba" n="29"/>qui debet esse subjectum hujus dictionis,
+<lb ed="#Ba" n="30"/>solus, quod trahat ipsum ab associatione
+<lb ed="#Ba" n="31"/>communitatis quam importat, ut dicatur,
+<lb ed="#Ba" n="32"/>unus solus homo : sed dictioni singulari
+<lb ed="#Ba" n="33"/>proprie adjungitur, ut cum dicitur, 
+so<lb break="no" ed="#Ba" n="34"/>lus Plato, vel solus Pater : quamdam
+<lb ed="#Ba" n="35"/>enim similitudinem cum propriis in 
+di<lb break="no" ed="#Ba" n="36"/>vinis habent nomina determinatarum
+<lb ed="#Ba" n="37"/>personarum : et ideo potest adjungi 
+di<lb break="no" ed="#Ba" n="38"/>ctio exclusiva ut dicatur, solus Pater vel
+<lb ed="#Ba" n="39"/>solus Filius. Sed tunc quantum pertinet
+<lb ed="#Ba" n="40"/>ad praecedens capitulum, si sequatur
+<lb ed="#Ba" n="41"/>predicatum personale ut dicatur, solus
+<lb ed="#Ba" n="42"/>Pater est Pater, dicendum quod locutio
+<lb ed="#Ba" n="43"/>est triplex : et in duobus sensibus est
+<lb ed="#Ba" n="44"/>vera, et in tertio est falsa. Haec enim 
+di<lb break="no" ed="#Ba" n="45"/>ctio, solus, cum sit adjectivum potest fa-:
+<lb ed="#Ba" n="46"/>cere simpliciter implicationem sue 
+for<lb break="no" ed="#Ba" n="47"/>me circa subjectum quod est suum 
+sub<lb break="no" ed="#Ba" n="48"/>jectum : et tunc notabit solitudinem
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="49"/>circa subjectum, et sic falsa est locutio,
+<lb ed="#Ba" n="50"/>ut probatum est per verba Hilarii : quia
+<lb ed="#Ba" n="51"/>Pater nec solitarius est, nec singularis
+<lb ed="#Ba" n="52"/>est confitendus. Potest etiam dictio 
+ex<lb break="no" ed="#Ba" n="53"/>clusiva sistere in subjecto, et privare 
+as<lb break="no" ed="#Ba" n="54"/>sociationem respectu forme in subjecto :
+<lb ed="#Ba" n="55"/>et tunc sensus est, solus Pater est Pater,
+<lb ed="#Ba" n="56"/>id est, ille qui est Pater ita quod alius
+<lb ed="#Ba" n="57"/>cum eo non est Pater, est Pater. Vel
+<lb ed="#Ba" n="58"/>potest apponi subjecto in comparatione
+<lb ed="#Ba" n="59"/>ad praedicatum, scilicet ut excludat alios
+<lb ed="#Ba" n="60"/>a participatione praedicati : et quia 
+pra<lb break="no" ed="#Ba" n="61"/>dicatum et forma subjecti idem sunt in
+<lb ed="#Ba" n="62"/>locutione in qua idem de se praedicatur,
+<lb ed="#Ba" n="63"/>erit ista locutio in utroque sensu vera :
+<lb ed="#Ba" n="64"/>sed secundus sensus est quem 
+Augusti<lb break="no" ed="#Ba" n="65"/>nus ponit in Litera : et per istam 
+di<lb break="no" ed="#Ba" n="66"/>stinctionem jam fere patet solutio ad 
+to<lb break="no" ed="#Ba" n="67"/>tum quod objectum est.
+</p>
+            <p xml:id="alalal-b07575-d1e404">
+               <lb ed="#Ba" n="68"/>Dicendum enim ad primum, quod 
+Hi<lb break="no" ed="#Ba" n="69"/>larius accipit dictionem exclusivam 
+se<lb break="no" ed="#Ba" n="70"/>cundum quod notat implicationem 
+soli<lb break="no" ed="#Ba" n="71"/>tudinis, et sic non accipit Augustinus.
+</p>
+            <p xml:id="alalal-b07575-d1e415">
+               <lb ed="#Ba" n="72"/>Ad aliud dicendum, quod licet unum
+<lb ed="#Ba" n="73"/>relativorum intelligatur in alio : non 
+ta<lb break="no" ed="#Ba" n="74"/>men sic intelligitur in ipso, quod 
+parti<lb break="no" ed="#Ba" n="75"/>cipet eamdem formam relationis cum
+<lb ed="#Ba" n="76"/>ipso ut ad quod determinatur duo
+<lb ed="#Ba" n="77"/>enim sunt in relativis : unum gratia 
+re<lb break="no" ed="#Ba" n="78"/>lationis, et alterum gratia oppositionis :
+<lb ed="#Ba" n="79"/>gratia relationis unum intelligitur in alio,
+<lb ed="#Ba" n="80"/>gratia oppositionis unum excluditur a
+<lb ed="#Ba" n="81"/>forma alterius : et ideo dictio exclusiva
+<lb ed="#Ba" n="82"/>non excludens primum, sed notans 
+se<lb break="no" ed="#Ba" n="83"/>cundum, scilicet quod cum alio 
+partici<lb break="no" ed="#Ba" n="84"/>pet formam, bene potest poni in divinis,
+<lb ed="#Ba" n="85"/>et non notabit solitudinem.
+</p>
+            <p xml:id="alalal-b07575-d1e448">
+               <lb ed="#Ba" n="86"/>Ad aliud dicendum, quod participatio
+<lb ed="#Ba" n="87"/>in divinis large accipitur, scilicet pro 
+ha<lb break="no" ed="#Ba" n="88"/>bere aliquid quocumque modo, et sic
+<lb ed="#Ba" n="89"/>aliquid participat una persona quod non
+<lb ed="#Ba" n="90"/>participat alia : quia habet suam 
+pro<lb break="no" ed="#Ba" n="91"/>prietatem qua Pater est Pater, et Filius
+<lb ed="#Ba" n="92"/>fihationem.
+</p>
+            <p xml:id="alalal-b07575-d1e466">
+               <lb ed="#Ba" n="93"/>Ad aliud dicendum, quod haec
+conce<lb break="no" ed="#Ba" n="94"/>di potest sicut et prima, Pater est solus
+<lb ed="#Ba" n="95"/>Pater, hoc est, sub eadem distinctione,
+<lb ed="#Ba" n="96"/>et tunc non valet: ergo Pater est Pater
+<lb ed="#Ba" n="97"/>solus : quia quando dictio exclusiva se-
+<pb ed="#Ba" n="558"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>quitur suum subjectum vel praedicatur
+<lb ed="#Ba" n="2"/>de ipso, potest nolare sohtudmem 
+pra<lb break="no" ed="#Ba" n="3"/>dicatam de illo : et quia in pradicato
+<lb ed="#Ba" n="4"/>gratia forme magis venit, melimnalur ad
+<lb ed="#Ba" n="5"/>illum sensum, ut cum dicitur, homo 
+cur<lb break="no" ed="#Ba" n="6"/>rit solus, vel Socrates currit solus, 
+nota<lb break="no" ed="#Ba" n="7"/>tur quod currit solitarius eames alu 
+cur<lb break="no" ed="#Ba" n="8"/>rant : unde cum Pater non sit solitarius,
+<lb ed="#Ba" n="9"/>non est dicendum quod Pater sit Pater
+<lb ed="#Ba" n="10"/>solus : sicut non dicimus, Pater est 
+Pa<lb break="no" ed="#Ba" n="11"/>ter solitarius, vel singularis.
+</p>
+            <p xml:id="alalal-b07575-d1e508">
+               <lb ed="#Ba" n="12"/>Ad aliud dicendum, quod hic, Non
+<lb ed="#Ba" n="13"/>solus Pater est Pater, non est vera nist
+<lb ed="#Ba" n="14"/>maillo sensu in quo ly solws nolat 
+im<lb break="no" ed="#Ba" n="15"/>plicationem solitudims circa Patrem, et
+<lb ed="#Ba" n="16"/>im hoc sensu ejus contradictoria est 
+su<lb break="no" ed="#Ba" n="17"/>pra negata.
+</p>
+            <p xml:id="alalal-b07575-d1e525">
+               <lb ed="#Ba" n="18"/>Ab Atiuv dicendum, quod inec est ab-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="19"/>solute vera, Pater est tantum Pater - s1
+<lb ed="#Ba" n="20"/>enim aliquid cum dicuione exclusiva
+<lb ed="#Ba" n="21"/>pradicatur de aliquo subjecto, non 
+ex<lb break="no" ed="#Ba" n="22"/>cluduntur ab co ca quae in illo pradicato
+éssentialiter siguificantur, ut cum 
+dici<lb break="no" ed="#Ba" n="23"/>tur, Socrates est tantum homo, non 
+se<lb break="no" ed="#Ba" n="24"/>quitur : ergo non est animal : ced 
+se<lb break="no" ed="#Ba" n="25"/>quitur, quod rpse nihil aliud est quam
+<lb ed="#Ba" n="26"/>homo. Ita hic non sequitur, Pater est
+<lb ed="#Ba" n="27"/>tantum Pater, ergo non est Deus, vel
+<lb ed="#Ba" n="28"/>essentia divina.
+</p>
+            <p xml:id="alalal-b07575-d1e554">
+               <lb ed="#Ba" n="29"/>Ab opsecrum autem in contrarium, 
+di<lb break="no" ed="#Ba" n="30"/>cendum quod Augustinus loquitur de 
+ra<lb break="no" ed="#Ba" n="31"/>tione nominis, et non de ratione rei: sic
+<lb ed="#Ba" n="32"/>enim verum est, quod non sapiens est co
+<lb ed="#Ba" n="33"/>quo bonus est : ci tamen secundum rem
+<lb ed="#Ba" n="34"/>idem sunt sapientia et bonitas in Deo,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

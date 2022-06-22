@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="896"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h91230"><!-- l4d22a8 -->
+            <head xml:id="alalal-h91230-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-h91230-Hd1e101" type="question-title">An sacramentum poenitentiae sit unum
+vel plura ?</head>
+            <p xml:id="alalal-h91230-d1e104">
+               <lb ed="#Be" n="27"/>ARTICULUS VIII.
+<lb ed="#Be" n="28"/>An sacramentum poenitentiae sit unum
+<lb ed="#Be" n="29"/>vel plura ?
+</p>
+            <p xml:id="alalal-h91230-d1e113">
+               <lb ed="#Be" n="30"/>Quarto queritur, Utrum istud 
+sacra<lb break="no" ed="#Be" n="31"/>mentum sit unum vel plura ?—
+</p>
+            <p xml:id="alalal-h91230-d1e120">
+               <lb ed="#Be" n="32"/>Videtur autem, quod unum: quia
+<lb ed="#Be" n="33"/>1. Non sunt nisi septem sacramenta
+<lb ed="#Be" n="34"/>nove legis, et istud est unum illorum :
+<lb ed="#Be" n="35"/>ergo est unum : si enim daretur, quod
+<lb ed="#Be" n="36"/>esset plura, sequeretur quod plura quam
+<lb ed="#Be" n="37"/>septem essent sacramenta nove legis.
+</p>
+            <p xml:id="alalal-h91230-d1e137">
+               <lb ed="#Be" n="38"/>2. Adhuc, Duo sunt genera 
+peccato<lb break="no" ed="#Be" n="39"/>rum, scilicet originale, et actuale : et
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="40"/>unum sacramentum, scilicet baptismus
+<lb ed="#Be" n="41"/>ordinatur contra originale : ergo et
+<lb ed="#Be" n="42"/>unum contra actuale : sed hoc est 
+poeni<lb break="no" ed="#Be" n="43"/>tentia : ergo videtur, quod poenitentia
+<lb ed="#Be" n="44"/>non sit nisi unum sacramentum.
+</p>
+            <p xml:id="alalal-h91230-d1e157">
+               <lb ed="#Be" n="45"/>In contrarivum hujus objicitur : quia
+<lb ed="#Be" n="46"/>ubi sunt plura signa et plura signata, ibi
+<lb ed="#Be" n="47"/>sunt plura sacramenta.
+</p>
+            <p xml:id="alalal-h91230-d1e166">
+               <lb ed="#Be" n="48"/>Responsio. Dicendum, quod fere totum 
+<lb ed="#Be" n="49"/>patet per dicta : sacramentum enim 
+po<lb break="no" ed="#Be" n="50"/>nitentiae est unicum sacramentum : et sic
+<lb ed="#Be" n="51"/>dictum est supra Res ejus est unica,
+<lb ed="#Be" n="52"/>scilicet deletio totius peccati actualis in
+<lb ed="#Be" n="53"/>culpa et poena : et ad hanc deletionem
+<lb ed="#Be" n="54"/>ordinatim veniunt tres partes, sicut 
+me<lb break="no" ed="#Be" n="55"/>dicine sunt tres receptiones sigillatim et
+<lb ed="#Be" n="56"/>ordinatim operantes.
+</p>
+            <p xml:id="alalal-h91230-d1e188">
+               <lb ed="#Be" n="57"/>Ad ARGUMENTUM ergo dicendum, quod
+<lb ed="#Be" n="58"/>una res est in communi et unum signum
+<lb ed="#Be" n="59"/>et causa : et tamen non sequitur, si 
+plu<lb break="no" ed="#Be" n="60"/>ra essent quae sunt signa tantum,. quod
+<lb ed="#Be" n="61"/>essent plura sacramenta : et instantia est
+<lb ed="#Be" n="62"/>in Eucharistia, in qua sunt plura signa,
+<lb ed="#Be" n="63"/>nec tamen plura sacramenta : et haec est
+<lb ed="#Be" n="64"/>causa, quia sacramentum contrahit 
+uni<lb break="no" ed="#Be" n="65"/>tatem are, et precipue ab eo quod est
+<lb ed="#Be" n="66"/>res et signum : et hoc unum est in 
+Eu<lb break="no" ed="#Be" n="67"/>charistia : et haec causa propter quid in
+<lb ed="#Be" n="68"/>talibus est, quia unum et idem signabile
+<lb ed="#Be" n="69"/>est signis diversis : et ideo diversitas 
+si<lb break="no" ed="#Be" n="70"/>gnorum non facit unitatem vel 
+diversita<lb break="no" ed="#Be" n="71"/>tem rerum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

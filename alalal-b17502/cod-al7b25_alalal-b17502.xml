@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="608"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b17502"><!-- l1d24a2 -->
+            <head xml:id="alalal-b17502-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-b17502-Hd1e101" type="question-title">Utrum univoce sit numerus in divinis et
+in creatis, et utrum Deus sit magis
+unus quam ipsa unitas ?</head>
+            <p xml:id="alalal-b17502-d1e104">
+               <lb ed="#Ba" n="48"/>ARTICULUS II.
+<lb ed="#Ba" n="49"/>Utrum univoce sit numerus in divinis et
+<lb ed="#Ba" n="50"/>in creatis, et utrum Deus sit magis
+<lb ed="#Ba" n="51"/>unus quam ipsa unitas ?
+</p>
+            <p xml:id="alalal-b17502-d1e115">
+               <lb ed="#Ba" n="52"/>Secundo quaeritur, Utrum univoce sit
+<lb ed="#Ba" n="53"/>numerus in divinis et in creatis?
+</p>
+            <p xml:id="alalal-b17502-d1e122">
+               <lb ed="#Ba" n="54"/>Videtur, quod non : quia
+<lb ed="#Ba" n="55"/>1. Nihil univoce convenit Deo et 
+crea<lb break="no" ed="#Ba" n="56"/>ture : ergo nec numerus,
+</p>
+            <p xml:id="alalal-b17502-d1e132">
+               <lb ed="#Ba" n="57"/>2. Item, Dictum est, quod Deus est
+<lb ed="#Ba" n="58"/>unus unitate quae quadruplici conditione
+<lb ed="#Ba" n="59"/>unitatis constituitur : sed nulla’ creatura
+<lb ed="#Ba" n="60"/>est sic una: ergo non est una ratio sux
+<lb ed="#Ba" n="61"/>unitatis, et inferiorum : ergo nec 
+nume<lb break="no" ed="#Ba" n="62"/>rus.
+</p>
+            <p xml:id="alalal-b17502-d1e148">
+               <lb ed="#Ba" n="63"/>Sed CONTRA :
+<lb ed="#Ba" n="64"/>1. Quecumque dicuntur secundum 
+ma<lb break="no" ed="#Ba" n="65"/>gis et minus, sunt comparabilia : Deus
+<lb ed="#Ba" n="66"/>et creatura dicuntur unum secundum
+<lb ed="#Ba" n="67"/>magis et minus : Deus enim dicitur 
+ma<lb break="no" ed="#Ba" n="68"/>gis unus, et creatura minus : ergo sunt
+<lb ed="#Ba" n="69"/>comparabilia. Inde sic : Quacumque
+<lb ed="#Ba" n="70"/>sunt comparabilia, sunt univoca, ut dicit
+<lb ed="#Ba" n="71"/>Philosophus : Creator et creatura in uno
+<lb ed="#Ba" n="72"/>comparabilia sunt : ergo sunt in eodem
+<lb ed="#Ba" n="73"/>univoca : ergo unum dicitur univoce de
+<lb ed="#Ba" n="74"/>Creatore et de creaturis : ergo et 
+nume<lb break="no" ed="#Ba" n="75"/>rus.
+</p>
+            <p xml:id="alalal-b17502-d1e179">
+               <lb ed="#Ba" n="76"/>2. Item, Bene sequitur, hoc est, et
+<lb ed="#Ba" n="77"/>illud est : et hoc non estillud, nec pars
+<lb ed="#Ba" n="78"/>ilhus, nec totum ejus: ergo sunt duo :
+<lb ed="#Ba" n="79"/>sed Deus est, et lapis est: et Deus non
+<lb ed="#Ba" n="80"/>est lapis, nec totum, nec pars ejus: er~
+<lb ed="#Ba" n="81"/>go Deus et lapis sunt duo : nulla autem
+<lb ed="#Ba" n="82"/>connumerantur nisi in eo in quo sunt
+<lb ed="#Ba" n="83"/>univoca : non enim dicimus asinum, et
+<lb ed="#Ba" n="84"/>hominem esse duos homines, sed duo
+<lb ed="#Ba" n="85"/>animalia, quia sunt univocata in 
+anima<lb break="no" ed="#Ba" n="86"/>li: et lapis et animal sunt due 
+substan<lb break="no" ed="#Ba" n="87"/>tie, vel duo corpora, et sic de aliis : 
+er<lb break="no" ed="#Ba" n="88"/>go Deus et creatura sunt univoca in 
+nu<lb break="no" ed="#Ba" n="89"/>mero.
+</p>
+            <p xml:id="alalal-b17502-d1e212">
+               <pb ed="#Ba" n="609"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>Sed apuvuc contra objicitur :
+<lb ed="#Ba" n="2"/>1. Cum unum sit pars duorum, 
+vide<lb break="no" ed="#Ba" n="3"/>tur ex hoc sequi Deum esse partem 
+is<lb break="no" ed="#Ba" n="4"/>tius numeri, quod falsum est, quia 
+nul<lb break="no" ed="#Ba" n="5"/>lius pars est Deus.
+</p>
+            <p xml:id="alalal-b17502-d1e230">
+               <lb ed="#Ba" n="6"/>2. Item, Cum omnes unitates in 
+nu<lb break="no" ed="#Ba" n="7"/>mero sunt in potentia ad ultimam, 
+cu<lb break="no" ed="#Ba" n="8"/>jus adjectio complet speciem numer, 
+se<lb break="no" ed="#Ba" n="9"/>quitur quod unitas Dei esset in potentia ad
+<lb ed="#Ba" n="10"/>aliam unitatem, qua complet binarium,
+<lb ed="#Ba" n="11"/>vel ternarium, vel quaternarium, et sic
+<lb ed="#Ba" n="12"/>de aliis, quae possunt connumerari Deo:
+<lb ed="#Ba" n="13"/>et hoc abusio est : ergo Deus non 
+pot<lb break="no" ed="#Ba" n="14"/>est connumerari creature.
+</p>
+            <p xml:id="alalal-b17502-d1e252">
+               <lb ed="#Ba" n="15"/>Juxta hoc ulterius quaeritur, Utrum
+<lb ed="#Ba" n="16"/>Deus sit magis unus quam ipsa 
+uni<lb break="no" ed="#Ba" n="17"/>tas?
+</p>
+            <p xml:id="alalal-b17502-d1e262">
+               <lb ed="#Ba" n="18"/>Et videtur quod non : quia
+<lb ed="#Ba" n="19"/>1. In unitate nihil est nisi unitas, et
+<lb ed="#Ba" n="20"/>sic ipsa est simplicissima: ergo Deus
+<lb ed="#Ba" n="21"/>non est magis unus quam unitas.
+</p>
+            <p xml:id="alalal-b17502-d1e273">
+               <lb ed="#Ba" n="22"/>2. Item, Si non esset unitas 
+simplicis<lb break="no" ed="#Ba" n="23"/>sima, tunc esset secundum naturam ali-~
+<lb ed="#Ba" n="24"/>quid ante unitatem : et hoc falsum est :
+<lb ed="#Ba" n="25"/>ergo ipsa est primum : ergo Deus etiam
+<lb ed="#Ba" n="26"/>non potest intelligi, ut videtur, magis
+<lb ed="#Ba" n="27"/>esse unus quam ipsa unitas.
+</p>
+            <p xml:id="alalal-b17502-d1e289">
+               <lb ed="#Ba" n="28"/>SED CONTRA :
+<lb ed="#Ba" n="29"/>1. In omni eo quod est citra primum,
+<lb ed="#Ba" n="30"/>est hocet hoc, ut dicit Boetius : unitas
+<lb ed="#Ba" n="31"/>est citra primum : ergo est hoc et hoc.
+</p>
+            <p xml:id="alalal-b17502-d1e300">
+               <lb ed="#Ba" n="32"/>2. Item, Philosophus in libro Fontis
+<lb ed="#Ba" n="33"/>vue: Primum quod recipit a primo, est
+<lb ed="#Ba" n="34"/>recipiendo duo : quia recipiens et rece~
+<lb ed="#Ba" n="35"/>ptum :ergo cum unitas creata recipiat
+<lb ed="#Ba" n="36"/>esse suum a primo, ipsa erit duo, et non
+<lb ed="#Ba" n="37"/>unum.
+</p>
+            <p xml:id="alalal-b17502-d1e316">
+               <lb ed="#Ba" n="38"/>3. Item, Omnia creantur in numero,
+<lb ed="#Ba" n="39"/>pondere et mensura : ergo et unitas est
+<lb ed="#Ba" n="40"/>in numero quodam essentialiter 
+consti<lb break="no" ed="#Ba" n="41"/>tuente ipsam.
+</p>
+            <p xml:id="alalal-b17502-d1e327">
+               <lb ed="#Ba" n="42"/>Sed hic iterum videtur esse 
+repugnan<lb break="no" ed="#Ba" n="43"/>tia intellectuum, quod unitas sit indivisa,
+<lb ed="#Ba" n="44"/>et quod sit numerus vel duo vel tria.
+</p>
+            <p xml:id="alalal-b17502-d1e337">
+               <lb ed="#Ba" n="45"/>Solutio. Dicendum ad primum, quod
+<lb ed="#Ba" n="46"/>numerus non dicitur univoce, nec etiam
+<lb ed="#Ba" n="47"/>unitas de Creatore et creatura, sicut pro-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>bant prime rationes : sed dicitur 
+equi<lb break="no" ed="#Ba" n="49"/>voce, non quidem e#quivoce per casum
+<lb ed="#Ba" n="50"/>et fortunam, ut canis, et asinus, vas, el
+<lb ed="#Ba" n="51"/>animal : sed aequivocatione analogie ad
+<lb ed="#Ba" n="52"/>unum et non secundum quod ens est
+<lb ed="#Ba" n="53"/>analogum ad substantiam et accidens,
+<lb ed="#Ba" n="54"/>vel sanum ad animal et urinam, vel 
+me<lb break="no" ed="#Ba" n="55"/>dicum ad artificem et clysterem : sed
+<lb ed="#Ba" n="56"/>secundum analogiam causati et 
+exem<lb break="no" ed="#Ba" n="57"/>plati ad causam et exemplar ut prius est
+<lb ed="#Ba" n="58"/>determinatum.
+</p>
+            <p xml:id="alalal-b17502-d1e372">
+               <lb ed="#Ba" n="59"/>Ap 1p autem quod contra objicitur,
+<lb ed="#Ba" n="60"/>dicendum quod si velimus vim facere,
+<lb ed="#Ba" n="61"/>non est comparatio inter Creatorem et
+<lb ed="#Ba" n="62"/>creaturam : quia secundum 
+comparatio<lb break="no" ed="#Ba" n="63"/>nis naturam, quae comparantur 
+secun<lb break="no" ed="#Ba" n="64"/>dum magis et minus, susceptibilia 
+equa<lb break="no" ed="#Ba" n="65"/>litatis sunt: et ideo abusiva est 
+compa<lb break="no" ed="#Ba" n="66"/>ratio, quando dicimus Deus est magis
+<lb ed="#Ba" n="67"/>unus quam creatura, et tantum valet :
+<lb ed="#Ba" n="68"/>Deus est magis unus, quantum Deus
+<lb ed="#Ba" n="69"/>est primo et per se ul causa et exemplar
+<lb ed="#Ba" n="70"/>unum : et creatura minus una, id est, ab
+<lb ed="#Ba" n="71"/>illo et ad illum exemplata et relata, est
+<lb ed="#Ba" n="72"/>unum. Sunt tamen qui dicunt, aequivoca
+<lb ed="#Ba" n="73"/>analoga esse comparabilia : sed hoc non
+<lb ed="#Ba" n="74"/>posset sustineri, si qui contra 
+disputa<lb break="no" ed="#Ba" n="75"/>rent : quia analogia in creatura et 
+Crea<lb break="no" ed="#Ba" n="76"/>tore non est secundum analogiam 
+de<lb break="no" ed="#Ba" n="77"/>terminatam in creaturis, quae tangitur a
+<lb ed="#Ba" n="78"/>Philosopho in IIL prime philosophiae.
+</p>
+            <p xml:id="alalal-b17502-d1e418">
+               <lb ed="#Ba" n="79"/>Ad aliud dicendum, quod non 
+simpli<lb break="no" ed="#Ba" n="80"/>citer connumerari potest Creator 
+crea<lb break="no" ed="#Ba" n="81"/>ture : quia non connumerantur ad 
+con<lb break="no" ed="#Ba" n="82"/>stituendam aliquam speciem numeti,
+<lb ed="#Ba" n="83"/>nisi unitates univoce : et ideo abusiva
+<lb ed="#Ba" n="84"/>est comparatio, cum dicitur, Deus et
+<lb ed="#Ba" n="85"/>lapis sunt duo : et resolvitur in has,
+<lb ed="#Ba" n="86"/>Deus est unus, et ab ipso est lapis unus,
+<lb ed="#Ba" n="87"/>qui non est ipse: et per hoc patet 
+so<lb break="no" ed="#Ba" n="88"/>lutio ad sequentia. Vel dicatur, ut 
+qui<lb break="no" ed="#Ba" n="89"/>dam dicunt, quod numerus accipitur 
+lar<lb break="no" ed="#Ba" n="90"/>ge secundum vulgi considerationem pro
+<lb ed="#Ba" n="91"/>aggregalione constituente unum 
+nume<lb break="no" ed="#Ba" n="92"/>rum : et sic Deus potest connumerari,
+<lb ed="#Ba" n="93"/>sed non proprie.
+</p>
+            <p xml:id="alalal-b17502-d1e453">
+               <lb ed="#Ba" n="94"/>Ad id quod ulterius quaeritur, 
+dicen<lb break="no" ed="#Ba" n="95"/>dum quod Deus est magis unus unitate
+<pb ed="#Ba" n="610"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>creata :et bene concedo, quod in 
+uni<lb break="no" ed="#Ba" n="2"/>gate est hoc et hoc. Prosanio. Unitas
+<lb ed="#Ba" n="3"/>enim est et est principium discretionis,
+<lb ed="#Ba" n="4"/>et constat per se quod non ab eodem 
+ha<lb break="no" ed="#Ba" n="5"/>bet esse, et princrpium discretionis esse :
+<lb ed="#Ba" n="6"/>unde Boetius, Omne quod est, alio esse
+<lb ed="#Ba" n="7"/>participat ut sit, alo vero participat ut
+<lb ed="#Ba" n="8"/>hoc sit.
+</p>
+            <p xml:id="alalal-b17502-d1e482">
+               <lb ed="#Ba" n="9"/>Ab oc autem quod contra hoc posset
+<lb ed="#Ba" n="10"/>objici, quod unuin convertitur cum ente,
+<lb ed="#Ba" n="11"/>infra solvetur, quia hoc non impedit :
+<lb ed="#Ba" n="12"/>quia non quaeritur hic de uno, sed de
+<lb ed="#Ba" n="13"/>unitate quae cum ante nullo modo 
+conver<lb break="no" ed="#Ba" n="14"/>titur, licet unum convertatur. Hoc etiam
+<lb ed="#Ba" n="15"/>modo concedo, quod revipit ut duo ens
+<lb ed="#Ba" n="16"/>ipsa unitas: et hoc modo concedo, quod
+<lb ed="#Ba" n="17"/>habet modum, speciem, et ordinem, ut
+<lb ed="#Ba" n="18"/>determinatum est supra.
+</p>
+            <p xml:id="alalal-b17502-d1e506">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="19"/>Ad id quod contra objicitur, dicendum
+<lb ed="#Ba" n="20"/>quod non est repugnantia intellectuum :
+<lb ed="#Ba" n="21"/>quia ratio unitatis et pluralitatis non
+<lb ed="#Ba" n="22"/>ponuntur circa idem secundum eamdem
+<lb ed="#Ba" n="23"/>rationem : dicitur enim unitas a ratione
+<lb ed="#Ba" n="24"/>indivisibilis in natura discreta 
+permanen<lb break="no" ed="#Ba" n="25"/>tis im partibus, sed dicitur duo vel 
+nu<lb break="no" ed="#Ba" n="26"/>merus in ratione causati et constituti in
+<lb ed="#Ba" n="27"/>specie creature. Differt enim unitas a
+<lb ed="#Ba" n="28"/>puncto, et natura illius differentia est in
+<lb ed="#Ba" n="29"/>unitate : eLiterum est in ca natura 
+reci<lb break="no" ed="#Ba" n="30"/>piensillam differentiam, sicut potentia
+<lb ed="#Ba" n="31"/>recipit actum: ergo est hoc et hoc. Et
+<lb ed="#Ba" n="32"/>per hoc patet solutio ad duo sequentia:
+<lb ed="#Ba" n="33"/>non enim est simpliciter simplex unitas,
+<lb ed="#Ba" n="34"/>nec simpliciter primum, sed simplex et
+<lb ed="#Ba" n="35"/>primum in natura discreti habentis 
+per<lb break="no" ed="#Ba" n="36"/>manentiam in partibus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

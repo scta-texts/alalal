@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="97"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i19529"><!-- l4d26dt1 -->
+            <head xml:id="alalal-i19529-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-i19529-d1e101">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="12"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-i19529-d1e108">
+               <lb ed="#Bf" n="13"/>
+               <quote xml:id="alalal-i19529-Qd1e112"> Cum alia sacramenta post 
+pecca<lb break="no" ed="#Bf" n="14"/>dum, ote. </quote>
+               <lb ed="#Bf" n="15"/>In hac parte quatuor inquirit Auctor
+<lb ed="#Bf" n="16"/>de matrimonio, scilicet primo de causa.
+<lb ed="#Bf" n="17"/>Srcundo, de effectu, scilicet ubi de bonis
+<lb ed="#Bf" n="18"/>matrimonii agit, distinct. XXXI, ibi, A,
+<lb ed="#Bf" n="19"/>
+               <quote xml:id="alalal-i19529-Qd1e128"> Post haec de bonis conjugii, etc. </quote>
+            </p>
+            <p xml:id="alalal-i19529-d1e131">
+               <lb ed="#Bf" n="20"/>Tertio, de statu, distinct. X XXIII, ibi, A,-
+</p>
+            <p xml:id="alalal-i19529-d1e136">
+               <lb ed="#Bf" n="21"/>
+               <quote xml:id="alalal-i19529-Qd1e140"> Queritur hic de antiguis patribus,
+<lb ed="#Bf" n="22"/>vlc. </quote> Quarto, de materia, scilicet quae
+<lb ed="#Bf" n="23"/>persone sint legitime, et quae non,
+<cb ed="#Bf" n="c"/>
+               <lb ed="#Bf" n="24"/>distinct. XXXIV, ibi, A, <quote xml:id="alalal-i19529-Qd1e152"> Nune 
+super<lb break="no" ed="#Bf" n="25"/>est attendere, quae persone sint 
+legi<lb break="no" ed="#Bf" n="26"/>time, etc. </quote>
+            </p>
+            <p xml:id="alalal-i19529-d1e161">
+               <lb ed="#Bf" n="27"/>Circa primum inquiruntur duo. 
+Pri<lb break="no" ed="#Bf" n="28"/>mum est, de causa institutionis 
+matri<lb break="no" ed="#Bf" n="29"/>monii. Secundum est, de causa ipsius
+<lb ed="#Bf" n="30"/>matrimonii secundum se : et hoc 
+tangi<lb break="no" ed="#Bf" n="31"/>tur distinct. XXVI, ibi, A, <quote xml:id="alalal-i19529-Qd1e174">Post hee
+<lb ed="#Bf" n="32"/>advertendum est, etc. </quote>
+            </p>
+            <p xml:id="alalal-i19529-d1e180">
+               <lb ed="#Bf" n="33"/>In ista distinctione tria facit : primo
+<lb ed="#Bf" n="34"/>enim tangit de institutionibus 
+matrimo<lb break="no" ed="#Bf" n="35"/>nii. Quia autem nihil instituit Deus nisi
+<lb ed="#Bf" n="36"/>bonum, ideo in secunda parte reprobat
+<lb ed="#Bf" n="37"/>errorem quorumdam hereticorum 
+dicen<lb break="no" ed="#Bf" n="38"/>tium matrimonium esse malum, ibi, E,
+<lb ed="#Bf" n="39"/>
+               <quote xml:id="alalal-i19529-Qd1e197"> Fuerunt nonnulli heretici, etc. </quote> Quia
+<lb ed="#Bf" n="40"/>vero iterum ex institutione signans est
+<pb ed="#Bf" n="98"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>omne sacramentum, ut dicit Magister
+<lb ed="#Bf" n="2"/>Hugo, ideo in tertia parte ostendit quid
+<lb ed="#Bf" n="3"/>sit res et quid sit signum in hoc 
+sacra<lb break="no" ed="#Bf" n="4"/>mento, ibi, F, <quote xml:id="alalal-i19529-Qd1e214"> Cum ergo conjugium
+<lb ed="#Bf" n="5"/>sacramentum sit, etc. </quote>
+            </p>
+            <p xml:id="alalal-i19529-d1e220">
+               <lb ed="#Bf" n="6"/>Et ex his satis patet Littera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

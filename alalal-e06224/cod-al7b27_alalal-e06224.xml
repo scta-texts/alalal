@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="627"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e06224"><!-- l2d40a2 -->
+            <head xml:id="alalal-e06224-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-e06224-Hd1e101" type="question-title">Utrum omnes actus possint dici 
+indifferentes ?</head>
+            <p xml:id="alalal-e06224-d1e104">
+               <pb ed="#Bc" n="627"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>ARTICULUS II.
+<lb ed="#Bc" n="2"/>Utrum omnes actus possint dici 
+in<lb break="no" ed="#Bc" n="3"/>differentes ?
+</p>
+            <p xml:id="alalal-e06224-d1e117">
+               <lb ed="#Bc" n="4"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="#Bc" n="5"/>prima opinione, ibi, B, circa initium :
+<lb ed="#Bc" n="6"/>
+               <quote xml:id="alalal-e06224-Qd1e125"> Quibusdam ita videtur esse, qui dicunt
+<lb ed="#Bc" n="7"/>omnes actus esse indifferentes,-ete. </quote>
+            </p>
+            <p xml:id="alalal-e06224-d1e131">
+               <lb ed="#Bc" n="8"/>Videtur enim, quod hoc sit impossibile :
+<lb ed="#Bc" n="9"/>1. Numquam enim potest esse 
+indiife<lb break="no" ed="#Bc" n="10"/>rens, quod non potest fieri nisi male:
+<lb ed="#Bc" n="11"/>odire Deum, persequi innocentem, 
+blas<lb break="no" ed="#Bc" n="12"/>phemare Creatorem non potest fieri nisi
+<lb ed="#Bc" n="13"/>male : ergo numquam potest fieri actus
+<lb ed="#Bc" n="14"/>indifferens.
+</p>
+            <p xml:id="alalal-e06224-d1e150">
+               <lb ed="#Bc" n="15"/>2. Item, Augustinus ita dicit in 
+Lit<lb break="no" ed="#Bc" n="16"/>tera, quod quaedam numquam possunt
+<lb ed="#Bc" n="17"/>bene fieri quantumcumque bonam 
+ha<lb break="no" ed="#Bc" n="18"/>beant causam : ergo numquam possunt
+<lb ed="#Bc" n="19"/>fieri nisi male : ergo numquam 
+indiffe<lb break="no" ed="#Bc" n="20"/>renter : quia indifferens est, quod nec
+<lb ed="#Bc" n="21"/>bonum est, nec malum : ergo videtur 
+is<lb break="no" ed="#Bc" n="22"/>ta opinio falsum dicere.
+</p>
+            <p xml:id="alalal-e06224-d1e170">
+               <lb ed="#Bc" n="23"/>SED CONTRA :
+<lb ed="#Bc" n="24"/>Communis actio est a Deo : nullum
+<lb ed="#Bc" n="25"/>malum est a Deo: ergo nullus actus per
+<lb ed="#Bc" n="26"/>se est malus, nec per se bonus: ergo
+<lb ed="#Bc" n="27"/>omnis actus per se est indifferens, ut 
+di<lb break="no" ed="#Bc" n="28"/>cit ista opinio.
+</p>
+            <p xml:id="alalal-e06224-d1e186">
+               <lb ed="#Bc" n="29"/>Juxta hoc ulterius queritur, Utrum
+<lb ed="#Bc" n="30"/>bonum in genere dicat actum 
+indifferen<lb break="no" ed="#Bc" n="31"/>fem?
+</p>
+            <p xml:id="alalal-e06224-d1e195">
+               <lb ed="#Bc" n="32"/>Videtur autem, quod sic : quia 
+bo<lb break="no" ed="#Bc" n="33"/>num in genere, est quod potest bene et
+<lb ed="#Bc" n="34"/>male fieri : indifferens autem est idem:
+<lb ed="#Bc" n="35"/>ergo bonum in genere dicit actum 
+indif<lb break="no" ed="#Bc" n="36"/>ferentem.
+</p>
+            <p xml:id="alalal-e06224-d1e208">
+               <lb ed="#Bc" n="37"/>SED CONTRA :
+<lb ed="#Bc" n="38"/>Bonum in genere, dicit actum super
+<lb ed="#Bc" n="39"/>debitam materiam : constat autem, quod
+<lb ed="#Bc" n="40"/>nuda substantia materie non est debita :
+<lb ed="#Bc" n="41"/>ergo per. aliquam dispositionem efficitur
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="42"/>debita : illa autem facit bonum in 
+gene<lb break="no" ed="#Bc" n="43"/>re, vel malum in genere : ergo ipsa est
+<lb ed="#Bc" n="44"/>in ratione boni vel mali : non ergo in
+<lb ed="#Bc" n="45"/>ratione indifferentis sunt actus boni in
+<lb ed="#Bc" n="46"/>genere, sive bonum in genere non dicit
+<lb ed="#Bc" n="47"/>actionem indifferentem.
+</p>
+            <p xml:id="alalal-e06224-d1e237">
+               <lb ed="#Bc" n="48"/>Solutio. Dicendum, quod indifferens
+<lb ed="#Bc" n="49"/>actio dicitur multis modis. Uno modo
+<lb ed="#Bc" n="50"/>dicitur actio indifferens, quae potest bene
+<lb ed="#Bc" n="51"/>et male fieri et bene informari, cum sit
+<lb ed="#Bc" n="52"/>actio deliberative voluntatis, et de se
+<lb ed="#Bc" n="53"/>sive de sua specie non ordinatur magis
+<lb ed="#Bc" n="54"/>ad unum quam ad alterum : et hoc 
+mo<lb break="no" ed="#Bc" n="55"/>do sumitur indifferens, ut infra patebit,
+<lb ed="#Bc" n="56"/>quando queretur de indifferenti : et hoc
+<lb ed="#Bc" n="57"/>modo proprie sumitur indifferens. 
+Se<lb break="no" ed="#Bc" n="58"/>cundo modo autem dicitur indifferens,
+<lb ed="#Bc" n="59"/>quod per substantiam subjecti non 
+de<lb break="no" ed="#Bc" n="60"/>terminat bonum vel malum quo 
+infor<lb break="no" ed="#Bc" n="61"/>matur vel deformatur.
+</p>
+            <p xml:id="alalal-e06224-d1e271">
+               <lb ed="#Bc" n="62"/>DicrenpuM ergo ad primum, quod cum
+<lb ed="#Bc" n="63"/>dicitur, Hae actio hujus agentis, jam
+<lb ed="#Bc" n="64"/>demonstratur actio sub accidentibus 
+cir<lb break="no" ed="#Bc" n="65"/>cumstantiarum formantium vel 
+defor<lb break="no" ed="#Bc" n="66"/>mantium ipsam : et similiter cum 
+dici<lb break="no" ed="#Bc" n="67"/>tur, Hic agens sub circumstantiis 
+perso<lb break="no" ed="#Bc" n="68"/>ne :et verum est, quod sic accepta non
+<lb ed="#Bc" n="69"/>potest bene fieri : quando autem ista
+<lb ed="#Bc" n="70"/>opinio dicit, quod actio de se est 
+indiffe<lb break="no" ed="#Bc" n="71"/>rens, intelligit de se pro eo quod est de
+<lb ed="#Bc" n="72"/>sua substantia simplici sine 
+circumstan<lb break="no" ed="#Bc" n="73"/>tiis intellecta, ut supra sepe expositum
+<lb ed="#Bc" n="74"/>est.
+</p>
+            <p xml:id="alalal-e06224-d1e302">
+               <lb ed="#Bc" n="75"/>Sunt tamen qui dicunt hane esse
+<lb ed="#Bc" n="76"/>duplicem, haec actio non potest bene
+<lb ed="#Bc" n="77"/>fieri, et hujus hominis actio non potest
+<lb ed="#Bc" n="78"/>bene fieri : ex eo quod potest 
+demon<lb break="no" ed="#Bc" n="79"/>stratio fieri ad oculum, et tune demon-~
+<lb ed="#Bc" n="80"/>stratur substantia agentis et actionis sub
+<lb ed="#Bc" n="81"/>formis formantibus vel deformantibus
+<lb ed="#Bc" n="82"/>eam :et sic dicunt esse veram. Potest
+<lb ed="#Bc" n="83"/>etiam esse demonstratio ad intellectum
+<lb ed="#Bc" n="84"/>de substantia nuda actionis et agentis, et
+<lb ed="#Bc" n="85"/>sic dicunt esse falsam.
+</p>
+            <p xml:id="alalal-e06224-d1e328">
+               <lb ed="#Bc" n="86"/>Ita haec distinctio sine arte esse 
+vide<lb break="no" ed="#Bc" n="87"/>tur per dicta, et patet solutio ad secun—
+<lb ed="#Bc" n="88"/>dum : quia Augustinus de actione 
+loqui<lb break="no" ed="#Bc" n="89"/>tur cum circumstantlis.
+</p>
+            <p xml:id="alalal-e06224-d1e339">
+               <pb ed="#Bc" n="628"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Ad id quod ulterius queritur, 
+dicen<lb break="no" ed="#Bc" n="2"/>dum quod bonum in genere vel malum,
+<lb ed="#Bc" n="3"/>non dicit indifferens, sicut dicit et probat
+<lb ed="#Bc" n="4"/>objectio.
+</p>
+            <p xml:id="alalal-e06224-d1e355">
+               <lb ed="#Bc" n="5"/>Ap i quod videtur hoc probare, 
+dicen<lb break="no" ed="#Bc" n="6"/>dum quod cum dicitur, quod bonum in
+<lb ed="#Bc" n="7"/>genere potest bene et male fieri, ly potest
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="8"/>copulat potentiam dispositam ad alte.
+<lb ed="#Bc" n="9"/>rum : sicut cum dicitur, Indifferens pot.
+<lb ed="#Bc" n="10"/>est bene et male fieri, potentiam remo.
+<lb ed="#Bc" n="11"/>tam tantum : et illa non est propria
+<lb ed="#Bc" n="12"/>ratio indifferentis : sed potius in hoc 
+in<lb break="no" ed="#Bc" n="13"/>differens est, quod nec bonum nec 
+ma<lb break="no" ed="#Bc" n="14"/>lum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 29</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 29</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="262"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a52486"><!-- l1d8a29 -->
+            <head xml:id="alalal-a52486-Hd1e99">Articulus 29</head>
+            <head xml:id="alalal-a52486-Hd1e101" type="question-title">Quomodo Deus aliquid symbolice
+nominatur ?</head>
+            <p xml:id="alalal-a52486-d1e104">
+               <pb ed="#Ba" n="262"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>ARTICULUS XXIX.
+<lb ed="#Ba" n="2"/>Quomodo Deus aliquid symbolice
+<lb ed="#Ba" n="3"/>nominatur ?
+</p>
+            <p xml:id="alalal-a52486-d1e117">
+               <lb ed="#Ba" n="4"/>Deinde quaeritur de hoc quod dicit
+  <lb ed="#Ba" n="5"/>
+               <quote xml:id="alalal-a52486-Qd1e123"> Et quidquid aliud non indigne dici
+  <lb ed="#Ba" n="6"/>videtur, etc. </quote>
+            </p>
+            <p xml:id="alalal-a52486-d1e129">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="7"/>Videtur enim quod symbolice sive per
+<lb ed="#Ba" n="8"/>similitudinem aliquid nominetur Deus,
+<lb ed="#Ba" n="9"/>ut leo, et lapis : quod tamen indigne
+<lb ed="#Ba" n="10"/>convenit ei.
+</p>
+            <p xml:id="alalal-a52486-d1e143">
+               <lb ed="#Ba" n="11"/>Solutio. Augustinus intelligit de his
+<lb ed="#Ba" n="12"/>que secundum rem per prius 
+inveniun<lb break="no" ed="#Ba" n="13"/>tur in Deo, licet nomine imperfecte 
+re<lb break="no" ed="#Ba" n="14"/>presentent ea : et hoc vocat Augustinus
+<lb ed="#Ba" n="15"/>digne dici, quod melius est esse 
+simpli<lb break="no" ed="#Ba" n="16"/>citer unicuique rei quam non esse, eo,
+<lb ed="#Ba" n="17"/>modo quo supra ‘ dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

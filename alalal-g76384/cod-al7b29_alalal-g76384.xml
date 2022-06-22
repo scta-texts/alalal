@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="370"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g76384"><!-- l4d13dt3 -->
+            <head xml:id="alalal-g76384-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-g76384-d1e101">
+               <pb ed="#Be" n="370"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>DIVISIO TEXTUS.
+<lb ed="#Be" n="2"/>
+               <quote xml:id="alalal-g76384-Qd1e111"> Post haec queritur, Si quod gerit 
+sa<lb break="no" ed="#Be" n="3"/>cerdos, proprie dicatur sacrificium vel
+<lb ed="#Be" n="4"/>immolatio ? </quote>
+            </p>
+            <p xml:id="alalal-g76384-d1e119">
+               <lb ed="#Be" n="5"/>Haec est ultima pars hujus tractatus de
+<lb ed="#Be" n="6"/>Eucharistia, in qua agitur de ipsa ex
+<lb ed="#Be" n="7"/>parte consecrantis eam : et hoc est ex 
+par<lb break="no" ed="#Be" n="8"/>te causae efficientis vel quasi efficientis.
+</p>
+            <p xml:id="alalal-g76384-d1e130">
+               <lb ed="#Be" n="9"/>Kit dividitur in'duas partes : in quarum
+<lb ed="#Be" n="10"/>prima agitur de actu sacerdotis quem
+<lb ed="#Be" n="11"/>facit in conficiendo. In secunda, agituar
+<lb ed="#Be" n="12"/>de his quae hoc sacramentum requirit in
+<lb ed="#Be" n="13"/>consecrando, sicut ordinem, et vitam, et
+<lb ed="#Be" n="14"/>intentionem : et incipit ibi, H, <quote xml:id="alalal-g76384-Qd1e145"> Sole
+<lb ed="#Be" n="15"/>autem queri, Utrum pravi sacerdotes,
+<lb ed="#Be" n="16"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-g76384-d1e153">
+               <lb ed="#Be" n="17"/>Adhuc autem prima habet 
+questio<lb break="no" ed="#Be" n="18"/>nes quatuor, quarum tamen du 
+si<lb break="no" ed="#Be" n="19"/>mul tanguntur et determinantur in 
+li<lb break="no" ed="#Be" n="20"/>bro, scilicet quo nomine vocetur actus
+<lb ed="#Be" n="21"/>sacerdotis, et utrum Christus semel vel
+<lb ed="#Be" n="22"/>sepius immoletur ? et de solutione 
+ha<lb break="no" ed="#Be" n="23"/>rum est capitulum primum.
+</p>
+            <p xml:id="alalal-g76384-d1e172">
+               <lb ed="#Be" n="24"/>Secunda questio est de institutione
+<lb ed="#Be" n="25"/>hujus sacramenti: et de hoc est 
+capitu<lb break="no" ed="#Be" n="26"/>lum secundum, quod ibi incipit ibi, G,
+<lb ed="#Be" n="27"/>Si: <quote xml:id="alalal-g76384-Qd1e182"> Institutum est enim hoc 
+sacra<lb break="no" ed="#Be" n="28"/>mentum, etc. </quote>
+            </p>
+            <p xml:id="alalal-g76384-d1e188">
+               <lb ed="#Be" n="29"/>Tertio questio est, Utrum quotidie vel
+<lb ed="#Be" n="30"/>raro celebrandum et communicandum
+<lb ed="#Be" n="31"/>sit ? et de hoc est tertium capitulum
+<lb ed="#Be" n="32"/>quod incipit ibi, G,§ 2: <quote xml:id="alalal-g76384-Qd1e198"> Siautem 
+que<lb break="no" ed="#Be" n="33"/>ratur, Utrum quotidie communicandum
+<lb ed="#Be" n="34"/>Sit, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

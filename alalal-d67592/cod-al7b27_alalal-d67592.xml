@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="375"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d67592"><!-- l2d22a2 -->
+            <head xml:id="alalal-d67592-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-d67592-Hd1e101" type="question-title">Utrum Heva peccavit uno peccato vel
+pluribus ?</head>
+            <p xml:id="alalal-d67592-d1e104">
+               <lb ed="#Bc" n="7"/>ARTICULUS I.
+<lb ed="#Bc" n="8"/>Utrum Heva peccavit uno peccato vel
+<lb ed="#Bc" n="9"/>pluribus ?
+</p>
+            <p xml:id="alalal-d67592-d1e113">
+               <lb ed="#Bc" n="10"/>Secundo queritur, Utrum peccavit uno
+<lb ed="#Bc" n="11"/>peccato vel pluribus ?
+</p>
+            <p xml:id="alalal-d67592-d1e120">
+               <lb ed="#Bc" n="12"/>Videtur autem, quod pluribus: quia
+<lb ed="#Bc" n="13"/>1. Supra, in praecedenti distinctione
+<lb ed="#Bc" n="14"/>habitum est, quod tria peccata fuerunt in
+<lb ed="#Bc" n="15"/>peccato primi hominis, scilicet inanis
+<lb ed="#Bc" n="16"/>gloria, avaritia, et gula.
+</p>
+            <p xml:id="alalal-d67592-d1e134">
+               <lb ed="#Bc" n="17"/>2. Item, Constat, quod ipsa comedit
+<lb ed="#Bc" n="18"/>prohibitum, et superbivit iterum: ergo
+<lb ed="#Bc" n="19"/>pluribus peccavit.
+</p>
+            <p xml:id="alalal-d67592-d1e143">
+               <lb ed="#Bc" n="20"/>Solutio. Dicendum, quod non 
+pluri<lb break="no" ed="#Bc" n="21"/>bus peccatis peccavit: sed si quis vult
+<lb ed="#Bc" n="22"/>proprie dicere, dicet quod peccavit uno
+<lb ed="#Bc" n="23"/>peccato multiplici, scilicet quod unum
+<lb ed="#Bc" n="24"/>fuerit secundum formam et finem 
+vo<lb break="no" ed="#Bc" n="25"/>luntatis, sed multiplex in actibus 
+mate<lb break="no" ed="#Bc" n="26"/>rialibus: et hujus ratio jam sepius 
+ex<lb break="no" ed="#Bc" n="27"/>posita est: et ideo non oportet 
+respon<lb break="no" ed="#Bc" n="28"/>dere objectis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

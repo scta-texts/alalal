@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="717"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f40025"><!-- l3d38a4 -->
+            <head xml:id="alalal-f40025-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-f40025-Hd1e101" type="question-title">An perfectis sit mortale peccatum
+mentiri?</head>
+            <p xml:id="alalal-f40025-d1e104">
+               <lb ed="Bd" n="64"/>ARTICULUS IV.
+<lb ed="Bd" n="65"/>An perfectis sit mortale peccatum
+<lb ed="Bd" n="66"/>mentiri?
+</p>
+            <p xml:id="alalal-f40025-d1e113">
+               <lb ed="Bd" n="67"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="68"/>ibi, A, § 2: <quote xml:id="alalal-f40025-Qd1e119"> Perfectis non convenit
+<lb ed="Bd" n="69"/>mentirt. </quote>
+            </p>
+            <p xml:id="alalal-f40025-d1e125">
+               <lb ed="Bd" n="70"/>Et quaeritur, Utrum perfectis sit 
+mor<lb break="no" ed="Bd" n="71"/>tale mentiri ?
+</p>
+            <p xml:id="alalal-f40025-d1e133">
+               <lb ed="Bd" n="72"/>Videtur autem, quod sic: quia
+<lb ed="Bd" n="73"/>1.In Liltera dicit: <quote xml:id="alalal-f40025-Qd1e139"> Ne pro corpore
+<lb ed="Bd" n="74"/>allerius animam suam occidant: </quote> non
+<lb ed="Bd" n="75"/>autem occiditur anima nisi per 
+pecca<lb break="no" ed="Bd" n="76"/>tum mortale : ergo perfectis est mortale
+<lb ed="Bd" n="77"/>peccatum.
+</p>
+            <p xml:id="alalal-f40025-d1e152">
+               <lb ed="Bd" n="78"/>2.Tiem, Perfectus professus est 
+veri<lb break="no" ed="Bd" n="79"/>tatem interius et exterius ostendere : 
+er<lb break="no" ed="Bd" n="80"/>go si invenitur mentiri, facit contra
+<lb ed="Bd" n="81"/>suam professionem : facere autem 
+con<lb break="no" ed="Bd" n="82"/>tra suam professionem, est mortale 
+pec<lb break="no" ed="Bd" n="83"/>calum : ergo mentiri perfectis est 
+mor<lb break="no" ed="Bd" n="84"/>tale peccatum.
+</p>
+            <p xml:id="alalal-f40025-d1e170">
+               <pb ed="#Bd" n="718"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Item quaeritur, Si Doctor veritatis, ut
+<lb ed="Bd" n="2"/>Magister theologie et Predicator, peccat
+<lb ed="Bd" n="3"/>mortaliter mentiendo ?
+</p>
+            <p xml:id="alalal-f40025-d1e183">
+               <lb ed="Bd" n="4"/>Videtur, quod sic : quia directe facit
+<lb ed="Bd" n="5"/>contra doctrinam veritatis : ergo peccat
+<lb ed="Bd" n="6"/>mortaliter.
+</p>
+            <p xml:id="alalal-f40025-d1e192">
+               <lb ed="Bd" n="7"/>Irem facit contra hoc quod dicit, quia
+<lb ed="Bd" n="8"/>predicat non esse mentiendum et 
+men<lb break="no" ed="Bd" n="9"/>titur : ergo peccat mortaliter.
+</p>
+            <p xml:id="alalal-f40025-d1e201">
+               <lb ed="Bd" n="10"/>Item, Ad hoc sunt multe auctoritates
+<lb ed="Bd" n="11"/>Augustini in libro contra mendacium :
+<lb ed="Bd" n="12"/>quia dicit, quod non convenit mentiri
+<lb ed="Bd" n="13"/>perfectis : non potest autem esse causa
+<lb ed="Bd" n="14"/>quare specialiter nominat perfectos, nisi
+<lb ed="Bd" n="15"/>quia eis est mortale peccatum, et aliis
+<lb ed="Bd" n="16"/>veniale : ergo videtur, quod perfectis
+<lb ed="Bd" n="17"/>sit mortale peccatum .
+</p>
+            <p xml:id="alalal-f40025-d1e222">
+               <lb ed="Bd" n="18"/>SED CONTRA :
+<lb ed="Bd" n="19"/>1. Nulla circumstantia aggravat 
+pec<lb break="no" ed="Bd" n="20"/>catum in infinitum : religiosum mentiri
+<lb ed="Bd" n="21"/>non ponit nisi circumstantiam super
+<lb ed="Bd" n="22"/>mendacium : ergo non aggravat pecca~
+<lb ed="Bd" n="23"/>tum in infinitum : sed in infinitum 
+ag<lb break="no" ed="Bd" n="24"/>gravaret si faceret mortale : ergo non fit
+<lb ed="Bd" n="25"/>mortale per hoc quod mentitur 
+perfe<lb break="no" ed="Bd" n="26"/>clus.
+</p>
+            <p xml:id="alalal-f40025-d1e244">
+               <lb ed="Bd" n="27"/>2. Item, Si propter statum religionis
+<lb ed="Bd" n="28"/>perfectus peccat mortaliter in quo alius
+<lb ed="Bd" n="29"/>peccat venialiter, videtur quod ex statu
+<lb ed="Bd" n="30"/>perfectionis importet detrimentum : hoc
+<lb ed="Bd" n="31"/>autem est inconveniens : ergo perfectus
+<lb ed="Bd" n="32"/>mentiendo non peccat mortaliter.
+</p>
+            <p xml:id="alalal-f40025-d1e260">
+               <lb ed="Bd" n="33"/>Solutio Dicendum, quod mendacium
+<lb ed="Bd" n="34"/>perfecto non est peccatura mortale, si
+<lb ed="Bd" n="35"/>alii est in eadem speciale veniale.
+</p>
+            <p xml:id="alalal-f40025-d1e269">
+               <lb ed="Bd" n="36"/>Ad primum dicendum, quod Augustinus
+<lb ed="Bd" n="37"/>sine dubio loquitur de mendacio 
+officio<lb break="no" ed="Bd" n="38"/>so: sed vocat perditionem anime 
+dispo<lb break="no" ed="Bd" n="39"/>sitionem, et non perditionem realem.
+<lb ed="Bd" n="40"/>Aliter dicunt aliqui, quod aliquis pro 
+vi<lb break="no" ed="Bd" n="41"/>ta propria potest mentiri ex duplici 
+amo<lb break="no" ed="Bd" n="42"/>re vite, scilicet mortali, vel veniali : et
+<lb ed="Bd" n="43"/>similiter potest mentiri pro aliena. Et
+<lb ed="Bd" n="44"/>Augustinus loquitur in casu quando 
+ali<lb break="no" ed="Bd" n="45"/>quis mentitur, vel mendacium provenit
+<lb ed="Bd" n="46"/>eX amore mortali vitae propriae vel 
+alie<lb break="no" ed="Bd" n="47"/>nx. Sed hoc nihil videtur esse, cum 
+di<lb break="no" ed="Bd" n="48"/>cat Gregorius, quod mendacium officio-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>sui in ipso actu conjunctum est pietati.
+<lb ed="Bd" n="50"/>Si autem pietas est causa mendacii, nog
+<lb ed="Bd" n="51"/>procedit ex amore illicito vite venialj
+<lb ed="Bd" n="52"/>vel mortali. Et ideo prima solutio verior
+<lb ed="Bd" n="53"/>esl.
+</p>
+            <p xml:id="alalal-f40025-d1e313">
+               <lb ed="Bd" n="54"/>Ad aliud dicendum, quod peccare
+<lb ed="Bd" n="55"/>contra professionem dicitur dupliciter,
+<lb ed="Bd" n="56"/>scilicet contra substantiam professionis,
+<lb ed="Bd" n="57"/>et contra signum professionis. De syh_
+<lb ed="Bd" n="58"/>stantia professionis non est nisi veritas
+<lb ed="Bd" n="59"/>vite in continentia et obedientia et 
+abre<lb break="no" ed="Bd" n="60"/>nuntiatione proprietatis : et contra hee
+<lb ed="Bd" n="61"/>peccare est mortale. Unde dicit Canon,
+<lb ed="Bd" n="62"/>quod <quote xml:id="alalal-f40025-Qd1e334"> monachus habens obolum, non
+<lb ed="Bd" n="63"/>valet obolum. </quote> Sed contra signa facere
+<lb ed="Bd" n="64"/>contingit dupliciter : directe, et hoc non
+<lb ed="Bd" n="65"/>fit nisi per mortale : vel indirecte, et hoc
+<lb ed="Bd" n="66"/>non fit nisi per veniale mendacium in
+<lb ed="Bd" n="67"/>illis : quia non est professus veritatem
+<lb ed="Bd" n="68"/>dictionis nisi in signo habitus qui signum
+<lb ed="Bd" n="69"/>est veritatis.
+</p>
+            <p xml:id="alalal-f40025-d1e353">
+               <lb ed="Bd" n="70"/>Ad aliud dicendum, quod idem judi.
+<lb ed="Bd" n="71"/>cium puto habendum de Doctore, et 
+Pre<lb break="no" ed="Bd" n="72"/>dicatore, et perfecto.
+</p>
+            <p xml:id="alalal-f40025-d1e363">
+               <lb ed="Bd" n="73"/>Ad id quod objicitur, dicendum quod
+<lb ed="Bd" n="74"/>veritas signi vel dicendi non est veritas
+<lb ed="Bd" n="75"/>doctrine, sed potius veritas docendi: et
+<lb ed="Bd" n="76"/>contra illam non facit mentiens officiose,
+<lb ed="Bd" n="77"/>sed facit aliquid praeter illam.
+</p>
+            <p xml:id="alalal-f40025-d1e376">
+               <lb ed="Bd" n="78"/>Ad aliud dicendum, quod predicat et
+<lb ed="Bd" n="79"/>docet abstinendum esse ab omni peccato
+<lb ed="Bd" n="80"/>mortali et veniali, sed non preedicat quod
+<lb ed="Bd" n="81"/>sit mortale venialiter peccare : et ideo non
+<lb ed="Bd" n="82"/>facit contra id quod docet.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

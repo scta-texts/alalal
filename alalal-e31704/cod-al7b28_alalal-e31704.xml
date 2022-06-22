@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="165"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e31704"><!-- l3d8a2 -->
+            <head xml:id="alalal-e31704-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-e31704-Hd1e101" type="question-title">An in Christo sit tantum una filiatio ?</head>
+            <p xml:id="alalal-e31704-d1e104">
+               <pb ed="#Bd" n="165"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ARTICULUS II.
+<lb ed="Bd" n="2"/>An in Christo sit tantum una filiatio ?
+</p>
+            <p xml:id="alalal-e31704-d1e115">
+               <lb ed="Bd" n="3"/>Deinde quaeritur de hoc quod dicit.
+<lb ed="Bd" n="4"/>ibi, A, civea principium : <quote xml:id="alalal-e31704-Qd1e121"> Neres aliqua
+<lb ed="Bd" n="5"/>filiationis nomen habeat in humanitate,
+<lb ed="Bd" n="6"/>que tllud non teneat in divinitate. </quote>
+            </p>
+            <p xml:id="alalal-e31704-d1e129">
+               <lb ed="Bd" n="7"/>Ex hoc enim accipi videtur, quod una
+<lb ed="Bd" n="8"/>sola filatio sit, quod ctiam multis 
+ratio<lb break="no" ed="Bd" n="9"/>nibus sic probatur :
+</p>
+            <p xml:id="alalal-e31704-d1e139">
+               <lb ed="Bd" n="10"/>i. In divs hypostasibus nulla est
+<lb ed="Bd" n="11"/>proprictas distinguons nisi relatio 
+origi<lb break="no" ed="Bd" n="12"/>nis : ergo nulla est proprietas personalis
+<lb ed="Bd" n="13"/>nisi illa : sed ab una proprietate personali
+<lb ed="Bd" n="14"/>dicitur persona una : cum igitur 
+propric<lb break="no" ed="Bd" n="15"/>tas haec in persona Filii sit filiatio Filii,
+<lb ed="Bd" n="16"/>tanc una persona unam solam habehbit
+<lb ed="Bd" n="17"/>filiationem.
+</p>
+            <p xml:id="alalal-e31704-d1e159">
+               <lb ed="Bd" n="18"/>2. Ttem, Ponamus aliquem generari
+<lb ed="Bd" n="19"/>active a patre, sicut mull: faciunt, et
+<lb ed="Bd" n="20"/>eumdem generar: passive a matre: ex
+<lb ed="Bd" n="21"/>hoc quod iste ahter gencratur a patre, et
+<lb ed="Bd" n="22"/>alter a matre, non fiunt in co diverse
+<lb ed="Bd" n="23"/>ilationes : sed una fillatione respectum
+<lb ed="Bd" n="24"/>ponit ad patrem ut ad gencrans active,
+<lb ed="Bd" n="25"/>et eumdem ad matrem ponit respectum
+<lb ed="Bd" n="26"/>secundum generationem passivam : ergo
+<lb ed="Bd" n="27"/>a simili Vilius diverso modo genitus a
+<lb ed="Bd" n="28"/>Patre oternaliter, et a matre temporaliter
+<lb ed="Bd" n="29"/>non habebit diversas filiationes.
+</p>
+            <p xml:id="alalal-e31704-d1e188">
+               <lb ed="Bd" n="30"/>3. Item, Ponamus unum habere 
+de<lb break="no" ed="Bd" n="31"/>cem filios - una paternitate refertur ad
+<lb ed="Bd" n="32"/>omnes secundum diversum respectum
+<lb ed="Bd" n="33"/>comparatos ad hunc: ergo diversus actus
+<lb ed="Bd" n="34"/>generationis non causat diversitatem 
+ori<lb break="no" ed="Bd" n="35"/>ginis.
+</p>
+            <p xml:id="alalal-e31704-d1e204">
+               <lb ed="Bd" n="36"/>4. Praeterea, In omni natura simile
+<lb ed="Bd" n="37"/>non potest inveniri, quod aliquid 
+secun<lb break="no" ed="Bd" n="38"/>dum camdcm partem etiam a diversis
+<lb ed="Bd" n="39"/>causis duas haheat proprietates ejusdem
+<lb ed="Bd" n="40"/>speciei : non enim due albedines insunt
+<lb ed="Bd" n="41"/>eidem secundum idem, nec due 
+nigredi<lb break="no" ed="Bd" n="42"/>mes etiam a diversis causis inducta, et
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="43"/>similiter in anima non insunt due 
+scien<lb break="no" ed="Bd" n="44"/>tiae ejusdem rationis in eodem, nec due
+<lb ed="Bd" n="45"/>species hominis ad intelugendum 
+homi<lb break="no" ed="Bd" n="46"/>nem, e{ sic est in omnibus: ergo etiam
+<lb ed="Bd" n="47"/>impossibile est intelligere, qualiter hoc
+<lb ed="Bd" n="48"/>possit esse verum,
+</p>
+            <p xml:id="alalal-e31704-d1e237">
+               <lb ed="Bd" n="49"/>5. Si forte dicatur, quod alterius 
+ratio<lb break="no" ed="Bd" n="50"/>nis est filiatio humana, et alterius 
+ratio<lb break="no" ed="Bd" n="51"/>nis fiiatio divina: et ideo sunt due in
+<lb ed="Bd" n="52"/>eodem filiationes. Contra: Filiatio est
+<lb ed="Bd" n="53"/>constituens filium : et quidquid alterius
+<lb ed="Bd" n="54"/>rationis estin abstracto, est etiam alterius
+<lb ed="Bd" n="55"/>in concreto. Ista propositio non habet 
+in<lb break="no" ed="Bd" n="56"/>stantiam. Ergo si filiatio est alterius 
+ratio<lb break="no" ed="Bd" n="57"/>nis, alterrus rationis est filius : sed filius
+<lb ed="Bd" n="58"/>unius rationis, et filius alterius rationis
+<lb ed="Bd" n="59"/>sunt duo filii: ergo Christus est duo filii,
+<lb ed="Bd" n="60"/>quod heresis est.
+</p>
+            <p xml:id="alalal-e31704-d1e266">
+               <lb ed="Bd" n="61"/>6. Item, Aut est sic alterius ralionis,
+<lb ed="Bd" n="62"/>quod sit equivocum illi, vel quod sit per
+<lb ed="Bd" n="63"/>prius et posterius dictum. Si a#
+quivo<lb break="no" ed="Bd" n="64"/>cum: sequitur necessario, quod Christus
+<lb ed="Bd" n="65"/>sit alia et alia ratione filius. Si autem
+<lb ed="Bd" n="66"/>per prius et posterius dictum : cum non
+<lb ed="Bd" n="67"/>possit prius et posterius esse pariter 
+ali<lb break="no" ed="Bd" n="68"/>quidcomimune, et quod nihilest commune
+<lb ed="Bd" n="69"/>Creatori et creature, erit hoc modo 
+filia<lb break="no" ed="Bd" n="70"/>tio quod ista est filiatio imitando illam :
+<lb ed="Bd" n="71"/>ergo non recedit omnino a ratione ejus :
+<lb ed="Bd" n="72"/>igitur duce proprietates hoc modo similes
+<lb ed="Bd" n="73"/>sunt in eodein secundum idem, licet a
+<lb ed="Bd" n="74"/>diversis Causis : quia vero non contingit
+<lb ed="Bd" n="75"/>intelhgi vel imaginari (ponamus enim
+<lb ed="Bd" n="76"/>sapientiam increaiam et sapientiam 
+crea<lb break="no" ed="Bd" n="77"/>tam esse in eodem) adjective : non erit
+<lb ed="Bd" n="78"/>intelligibile, cam non recedant a 
+ratio<lb break="no" ed="Bd" n="79"/>ne una communitatis secundum 
+propor<lb break="no" ed="Bd" n="80"/>tionem ad unum actum.
+</p>
+            <p xml:id="alalal-e31704-d1e313">
+               <lb ed="Bd" n="81"/>7. Praeterea, Ponamus unum 
+magi<lb break="no" ed="Bd" n="82"/>strum hodie habere unum discipulum et
+<lb ed="Bd" n="83"/>cras alium et ita successive usque ad
+<lb ed="Bd" n="84"/>mille, oportebit secundum hoc, quod
+<lb ed="Bd" n="85"/>mille magistri generarentur in ipso,
+<lb ed="Bd" n="86"/>quod absardum est.
+</p>
+            <p xml:id="alalal-e31704-d1e329">
+               <lb ed="Bd" n="87"/>8. Item, Filiatio est proprietas personae
+<lb ed="Bd" n="88"/>secundum quod persona : persona aulem
+<lb ed="Bd" n="89"/>est tantum una, et unius persona ut 
+per<lb break="no" ed="Bd" n="90"/>sona, una est proprietas constitutiva
+<lb ed="Bd" n="91"/>tantum : ergo cum filius sit una persona,
+<pb ed="#Bd" n="166"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>filius non habebit nisi unam filiationem.
+</p>
+            <p xml:id="alalal-e31704-d1e349">
+               <lb ed="Bd" n="2"/>SED CONTRA:
+<lb ed="Bd" n="3"/>1. Generatio est causa relationis : sed in
+<lb ed="Bd" n="4"/>Christo non est una generalio: ergo nec
+<lb ed="Bd" n="5"/>una filiatio.
+</p>
+            <p xml:id="alalal-e31704-d1e360">
+               <lb ed="Bd" n="6"/>2. Praeterea, Filiatio est qua Filius 
+re<lb break="no" ed="Bd" n="7"/>fertur ad aliud : sed aeterna filiatione 
+re<lb break="no" ed="Bd" n="8"/>fertur ad Patrem, et non ad matrem:
+<lb ed="Bd" n="9"/>ergo erit alia relatio ad matrem: ergo
+<lb ed="Bd" n="10"/>alia filiatio.
+</p>
+            <p xml:id="alalal-e31704-d1e373">
+               <lb ed="Bd" n="11"/>Solutio Sine prejudicio dico, quod
+<lb ed="Bd" n="12"/>non est nisiuna filiatio Christi Filii Dei :
+<lb ed="Bd" n="13"/>quia non est intelligibile, qualiter iste
+<lb ed="Bd" n="14"/>due proprietates ejusdem rationis 
+deter<lb break="no" ed="Bd" n="15"/>minarent unam hypostasim : unde 
+con<lb break="no" ed="Bd" n="16"/>cedo priores rationes.
+</p>
+            <p xml:id="alalal-e31704-d1e389">
+               <lb ed="Bd" n="17"/>Ab ip quod contra objicitur, quod 
+ge<lb break="no" ed="Bd" n="18"/>neratio est causa relationis : dicendum,
+<lb ed="Bd" n="19"/>quod hoc verum est, nisi sit relatio 
+ejus<lb break="no" ed="Bd" n="20"/>dem rationis quam causare habet : si
+<lb ed="Bd" n="21"/>enim illa insit, non potest induci super
+<lb ed="Bd" n="22"/>illam alia, sed diversos respectus ejusdem
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="23"/>inducit, scilicet quod pater vel filius 
+re<lb break="no" ed="Bd" n="24"/>spectu alicujus sit pater, respectu cujus
+<lb ed="Bd" n="25"/>non fuit. Sicut si ponamus aliquem esse
+<lb ed="Bd" n="26"/>album : et adveniunt ei cause inducentes
+<lb ed="Bd" n="27"/>albedinem, non inducent ei albedinem
+<lb ed="Bd" n="28"/>aliam, sed facient quod eadem albedo
+<lb ed="Bd" n="29"/>alia de causa etiam habeatur quam prius
+<lb ed="Bd" n="30"/>habebat.
+</p>
+            <p xml:id="alalal-e31704-d1e425">
+               <lb ed="Bd" n="31"/>Ad aliud dicendum, quod filiatio est
+<lb ed="Bd" n="32"/>proprietas causans respectum in 
+relati<lb break="no" ed="Bd" n="33"/>vo, et in eo quod est proprietas non 
+re<lb break="no" ed="Bd" n="34"/>spicit nisi cui inest, et est una : secundum
+<lb ed="Bd" n="35"/>id autem quod causat respectum, non
+<lb ed="Bd" n="36"/>respicit id in quo est sicut in subjecto,
+<lb ed="Bd" n="37"/>sed quaerit determinari extra: et ideo
+<lb ed="Bd" n="38"/>in una proprietate tot multiplicantur
+<lb ed="Bd" n="39"/>respectus, quot habet extra ad quae 
+re<lb break="no" ed="Bd" n="40"/>fertur : et ideo non sequitur, quod si
+<lb ed="Bd" n="41"/>aliquo respectu refertur ad patrem, et
+<lb ed="Bd" n="42"/>alio ad matrem, quod sint diverse 
+pro<lb break="no" ed="Bd" n="43"/>prietates filiationum in ipso. Nec est 
+is<lb break="no" ed="Bd" n="44"/>ta opinio nova, sed etiam scripta in
+<lb ed="Bd" n="45"/>scriptis aliorum Magistrorum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

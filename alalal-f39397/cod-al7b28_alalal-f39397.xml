@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="715"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f39397"><!-- l3d38a2 -->
+            <head xml:id="alalal-f39397-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-f39397-Hd1e101" type="question-title">An mendacium secundum se sit mortale
+peccatum ?</head>
+            <p xml:id="alalal-f39397-d1e104">
+               <lb ed="Bd" n="5"/>ARTICULUS II.
+<lb ed="Bd" n="6"/>An mendacium secundum se sit mortale
+<lb ed="Bd" n="7"/>peccatum ?
+</p>
+            <p xml:id="alalal-f39397-d1e113">
+               <lb ed="Bd" n="8"/>Secundo quaeritur, Utrum mendacium
+<lb ed="Bd" n="9"/>sii mortale peccatum ?
+</p>
+            <p xml:id="alalal-f39397-d1e120">
+               <lb ed="Bd" n="10"/>Videtur autem, quod sic. Sic enim
+<lb ed="Bd" n="11"/>dicit Psalmus v, 7: <quote xml:id="alalal-f39397-Qd1e126">Perdes omnes qut
+<lb ed="Bd" n="12"/>loquuntur mendacium</quote> : non autem 
+per<lb break="no" ed="Bd" n="13"/>ditar homo nisi per mortale peccatum :
+<lb ed="Bd" n="14"/>ergo onine mendacium est mortale 
+pec<lb break="no" ed="Bd" n="15"/>calum.
+</p>
+            <p xml:id="alalal-f39397-d1e140">
+               <lb ed="Bd" n="16"/>2, Item, Os quod mentitur, oecidit
+<lb ed="Bd" n="17"/>animam : et anima non occiditur nisi
+<lb ed="Bd" n="18"/>per mortale peccatum, quia nihil 
+sepa<lb break="no" ed="Bd" n="19"/>rat vitam anime: ab anima nisi mortale :
+<lb ed="Bd" n="20"/>ergo mendacium est peccatum mortale.
+</p>
+            <p xml:id="alalal-f39397-d1e153">
+               <lb ed="Bd" n="21"/>3 Item, Quidquid est contrariam 
+vir<lb break="no" ed="Bd" n="22"/>tuli et perimit virtutem, est mortale
+<lb ed="Bd" n="23"/>peccatum : mendaciuin est contrarium
+<lb ed="Bd" n="24"/>virtuti et peremptivum virtutis ; ergo est
+<lb ed="Bd" n="25"/>morlale peccatum, Propatrur autem 
+pri<lb break="no" ed="Bd" n="26"/>ma per hoc, quod veniale non perimit
+<lb ed="Bd" n="27"/>virtutem in anima. Secunpa autem per
+<lb ed="Bd" n="28"/>hoc, quod veritas est virtus quaedam, ut
+<lb ed="Bd" n="29"/>dicit Aristoteles in secundo Ethicorum,
+<lb ed="Bd" n="30"/>quam sccundum Augustinum perimit
+<lb ed="Bd" n="31"/>mendacium.
+</p>
+            <p xml:id="alalal-f39397-d1e179">
+               <lb ed="Bd" n="32"/>4. Item, Omne peccatum in Spiritum
+<lb ed="Bd" n="33"/>sanctum, est mortale peccatum : sed
+<lb ed="Bd" n="34"/>mendacium est peecatum in Spiritum
+<lb ed="Bd" n="35"/>sanctum : ergo est peecatum mortale.
+<lb ed="Bd" n="36"/>Prima probatur per hoc quod habetur in
+<lb ed="Bd" n="37"/>penultima distinctione secundi libri 
+Sen<lb break="no" ed="Bd" n="38"/>tentiarum, ubi dicitur <quote xml:id="alalal-f39397-Qd1e196">io Spiritum
+<cb ed="#Bd" n="b"/>
+                  <lb ed="Bd" n="39"/>sanctum est ceteris peccatis gravius et
+<lb ed="Bd" n="40"/>abominabilius ?. </quote> Sxecunpa autem per
+<lb ed="Bd" n="41"/>hoc, quod mendacium impugnat 
+verita<lb break="no" ed="Bd" n="42"/>tem agnitam : quia nisi cognosceret 
+ve<lb break="no" ed="Bd" n="43"/>ritatem, non diceret mendacium, sed 
+fal<lb break="no" ed="Bd" n="44"/>sum : ibidem autem dicitur, quod <quote xml:id="alalal-f39397-Qd1e214"> 
+im<lb break="no" ed="Bd" n="45"/>pugnatio veritatis agnites est peccatum
+<lb ed="Bd" n="46"/>in Spiritum sanctum. </quote>
+            </p>
+            <p xml:id="alalal-f39397-d1e222">
+               <lb ed="Bd" n="47"/>5. Item, Qui facit contra 
+conscien<lb break="no" ed="Bd" n="48"/>tiam, edificat ad gehennam : omnis
+<lb ed="Bd" n="49"/>mentiens facit contra conscientiam : 
+er<lb break="no" ed="Bd" n="50"/>go edificat ad gehennam, Pria 
+suppo<lb break="no" ed="Bd" n="51"/>nitur ex Augustino, cujus ipsa est 
+aucto<lb break="no" ed="Bd" n="52"/>ritas. SecunpA autem probatur per hoc,
+<lb ed="Bd" n="53"/>quod nihil scitur in conscientia nisi 
+ve<lb break="no" ed="Bd" n="54"/>rum : et hoc direete contrarium habet
+<lb ed="Bd" n="55"/>mentiri et mendacium. Inde ulterius 
+in<lb break="no" ed="Bd" n="56"/>fertur : <quote xml:id="alalal-f39397-Qd1e245"> Nibil eedificat ad gehennam
+<lb ed="Bd" n="57"/>nisi mortale peccatum, </quote> quia veniale
+<lb ed="Bd" n="58"/>edificat ad purgatorium : ergo 
+menda<lb break="no" ed="Bd" n="59"/>cium est mortale peccatum.
+</p>
+            <p xml:id="alalal-f39397-d1e256">
+               <lb ed="Bd" n="60"/>SeD CONTRA ¢
+<lb ed="Bd" n="61"/>i. in Litera videtur, quod inendacium
+<lb ed="Bd" n="62"/>obstetricum, et Rahab meretricis,
+<lb ed="Bd" n="63"/>propter pietatem fuit veniale. Si autem
+<lb ed="Bd" n="64"/>secundum se esset mortale, per nullum
+<lb ed="Bd" n="65"/>adjunctum fieret veniale. Ergo 
+secun<lb break="no" ed="Bd" n="66"/>dum se non est mortale.
+</p>
+            <p xml:id="alalal-f39397-d1e274">
+               <lb ed="Bd" n="67"/>2, Praeterea, Communiter omnes 
+di<lb break="no" ed="Bd" n="68"/>cunt, quod mendacium officiosum non
+<lb ed="Bd" n="69"/>est mortale : et quod ab omnibus 
+dici<lb break="no" ed="Bd" n="70"/>tur, aut in toto, aut in parte est verum :
+<lb ed="Bd" n="71"/>ergo non omne mendacium secundum se
+<lb ed="Bd" n="72"/>est mortale peccatum.
+</p>
+            <p xml:id="alalal-f39397-d1e291">
+               <lb ed="Bd" n="73"/>Solutio Dicendum, quod non omne
+<lb ed="Bd" n="74"/>mendacium secundum se est mortale
+<lb ed="Bd" n="75"/>peccatum. .
+</p>
+            <p xml:id="alalal-f39397-d1e300">
+               <lb ed="Bd" n="76"/>Ad PRIMUM Ef SECUNDUM ergo 
+dicen<lb break="no" ed="Bd" n="77"/>dum, quod secundum Magistrum in se~
+<lb ed="Bd" n="78"/>cunda parte islius distinctionis, ille due
+<lb ed="Bd" n="79"/>auctoritates primo induct non 
+intelli<lb break="no" ed="Bd" n="80"/>guntur de omni mendacio, sed 
+pernicio<lb break="no" ed="Bd" n="81"/>so tantum. Et hujus solutionis causa est,
+<lb ed="Bd" n="82"/>quod cum mendacium sit formaliter in-
+<pb ed="#Bd" n="716"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>tentio fallendi, et materialiler falsa 
+vo<lb break="no" ed="Bd" n="2"/>cis significatio, ut infra patebit, non 
+dici<lb break="no" ed="Bd" n="3"/>tur intentio fallendi ex aquo de 
+menda<lb break="no" ed="Bd" n="4"/>cio pernicioso, officioso, et jocoso, sed
+<lb ed="Bd" n="5"/>per prius et posterius : et intentio 
+fal<lb break="no" ed="Bd" n="6"/>lendi secundum suam intentionem prima
+<lb ed="Bd" n="7"/>non est nisi in mendacio pernicioso : et
+<lb ed="Bd" n="8"/>hujus ratio infra patebit. Et ideo solum
+<lb ed="Bd" n="9"/>perniciosum secundum se puto esse 
+mor<lb break="no" ed="Bd" n="10"/>tale peccatum : et ita dixerunt omnes
+<lb ed="Bd" n="11"/>antiqui, Prepositivus, et Altisidorensis,
+<lb ed="Bd" n="12"/>et Magistri decretorum, licet rationem
+<lb ed="Bd" n="13"/>dicti sui non assignent.
+</p>
+            <p xml:id="alalal-f39397-d1e350">
+               <lb ed="Bd" n="14"/>Ad tertium dicendum, quod est 
+veri<lb break="no" ed="Bd" n="15"/>tas dicti, et veritas veridici sive veritas
+<lb ed="Bd" n="16"/>habitus, et veritas signi in dicto. 
+Menda<lb break="no" ed="Bd" n="17"/>cium autem secundum se non 
+contra<lb break="no" ed="Bd" n="18"/>riatur veritati habitus in mente, sicut
+<lb ed="Bd" n="19"/>nec primus motus in continente 
+contra<lb break="no" ed="Bd" n="20"/>riatur habitui castitatis in anima, sed 
+ve<lb break="no" ed="Bd" n="21"/>ritati signi quae est in actu dicendi : 
+sic<lb break="no" ed="Bd" n="22"/>ut etiam primus motus in continente
+<lb ed="Bd" n="23"/>contrariatur actui castitatis : et a tali
+<lb ed="Bd" n="24"/>contrarietate et peremptione non est
+<lb ed="Bd" n="25"/>mortale peccatum, sed veniale.
+</p>
+            <p xml:id="alalal-f39397-d1e379">
+               <lb ed="Bd" n="26"/>Ad aliud dicendum, quod 
+menda<lb break="no" ed="Bd" n="27"/>cium in se non est peccatum in 
+Spiri<lb break="no" ed="Bd" n="28"/>tum sanctum : quia tune omne 
+pecca<lb break="no" ed="Bd" n="29"/>tum esset peccatum in Spiritum 
+san<lb break="no" ed="Bd" n="30"/>ctum : aliquod autem peccatum est in
+<lb ed="Bd" n="31"/>Patrem, sicut quod coinmittitur timore,
+<lb ed="Bd" n="32"/>vel hbidine, vel compassione alterius
+<lb ed="Bd" n="33"/>damni vel pene. Quoddam autem est in
+<lb ed="Bd" n="34"/>Filium, sicut quando dicitur, eo quod
+<lb ed="Bd" n="35"/>non reputatur esse peccatum : licet enim
+<lb ed="Bd" n="36"/>tune scienter dicat falsum, non tamen
+<lb ed="Bd" n="37"/>dicit falsum cum conscienlia magne
+<lb ed="Bd" n="38"/>quantitatis peccati sicut est : et tunc
+<lb ed="Bd" n="39"/>procedit ex ignorantia movente ad 
+dicen<lb break="no" ed="Bd" n="40"/>dum.
+</p>
+            <p xml:id="alalal-f39397-d1e414">
+               <lb ed="Bd" n="41"/>Ad id quod objicitur, dicendum quod
+<lb ed="Bd" n="42"/>impugnatio veritatis agnite quae est 
+se<lb break="no" ed="Bd" n="43"/>cundum pietatem, est peccatum in 
+Spi<lb break="no" ed="Bd" n="44"/>ritum sanctum : sed non omne 
+menda<lb break="no" ed="Bd" n="45"/>cium impugnat veritatem illam, nec
+<lb ed="Bd" n="46"/>omne mendacium impugnat veritatem
+<lb ed="Bd" n="47"/>virtutem animi, nec omne mendacium
+<lb ed="Bd" n="48"/>impugnat veritatem doni ex malitia, 
+sic<lb break="no" ed="Bd" n="49"/>ut patet ex pradictis.
+</p>
+            <p xml:id="alalal-f39397-d1e436">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>Av urtimum dicendum, quod menda.
+<lb ed="Bd" n="51"/>clum secundum se non edificat ad 
+ge<lb break="no" ed="Bd" n="52"/>henna, nec est contra conscientiam .
+<lb ed="Bd" n="53"/>sed praeter conscientiam, sicut veniale.
+<lb ed="Bd" n="54"/>et disponil ad gehennam.,
+</p>
+            <p xml:id="alalal-f39397-d1e453">
+               <lb ed="Bd" n="55"/>Ad id quod objicitur de veritate qua
+<lb ed="Bd" n="56"/>scitur, distinguendum est ut supra
+<lb ed="Bd" n="57"/>quia veritas actus in dicto perimitur a
+<lb ed="Bd" n="58"/>mendacio : et illa scitur scientia specu.
+<lb ed="Bd" n="59"/>lativa, et non practica : et contra hance
+<lb ed="Bd" n="60"/>facere non est mortale : sed facere con.
+<lb ed="Bd" n="61"/>tra conscientiam faciendi, id est, quod
+<lb ed="Bd" n="62"/>ex preecepto dictat conscientia esse fa.
+<lb ed="Bd" n="63"/>ciendum, et si fiat contrarium, dictat
+<lb ed="Bd" n="64"/>esse peccatum mortale, illud est facere
+<lb ed="Bd" n="65"/>contra conscientiam directe et edificare
+<lb ed="Bd" n="66"/>ad gehennam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

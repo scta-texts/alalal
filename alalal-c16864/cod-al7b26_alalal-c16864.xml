@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="89"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c16864"><!-- l1d30a2 -->
+            <head xml:id="alalal-c16864-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-c16864-Hd1e101" type="question-title">Utrum ista nomina, creator, dominus,
+rex, etc., praedicent in Deo aliquod 
+accidens ?</head>
+            <p xml:id="alalal-c16864-d1e104">
+               <lb ed="#Bb" n="69"/>ARTICULUS II.
+<lb ed="#Bb" n="70"/>Utrum ista nomina, creator, dominus,
+<lb ed="#Bb" n="71"/>rex, etc., praedicent in Deo aliquod 
+ac<lb break="no" ed="#Bb" n="72"/>cidens ?
+</p>
+            <p xml:id="alalal-c16864-d1e115">
+               <lb ed="#Bb" n="73"/>Deinde queritur de hoc quod dicit:
+<lb ed="#Bb" n="74"/>
+               <quote xml:id="alalal-c16864-Qd1e121"> Relative dicuntur secundum accidens,
+<lb ed="#Bb" n="75"/>non quod accidit Deo, sed quod accidit
+<lb ed="#Bb" n="76"/>creaturis, etc. </quote>
+            </p>
+            <p xml:id="alalal-c16864-d1e129">
+               <lb ed="#Bb" n="77"/>Videtur enim, quod pradicent accidens
+<lb ed="#Bb" n="78"/>quod accidit Deo : quia
+</p>
+            <p xml:id="alalal-c16864-d1e137">
+               <lb ed="#Bb" n="79"/>1. Accidens est, ut dicit Philosophus,
+<lb ed="#Bb" n="80"/>quod contingit eidem inesse et non 
+ines<lb break="no" ed="#Bb" n="81"/>se: sed esse creatorem contingit Deum
+<lb ed="#Bb" n="82"/>esse et non esse: ergo videtur, quod ista
+<lb ed="#Bb" n="83"/>Deo conveniant per accidens.
+</p>
+            <p xml:id="alalal-c16864-d1e150">
+               <lb ed="#Bb" n="84"/>2. Item, Cum dicitur creator vel 
+domi<lb break="no" ed="#Bb" n="85"/>nus, istud accidens habitudinis cause,
+<lb ed="#Bb" n="86"/>vel suppositionis dominii est in aliquo :
+<lb ed="#Bb" n="87"/>aut in Deo, aut in creatura. Si in Deo,
+<lb ed="#Bb" n="88"/>habeo propositum, quod aliquod 
+acci<lb break="no" ed="#Bb" n="89"/>dens est in Deo. Si in creatura: sed
+<lb ed="#Bb" n="90"/>cuicumque convenit habitudo quam 
+im<lb break="no" ed="#Bb" n="91"/>portat hoc nomen creator et quam 
+im<lb break="no" ed="#Bb" n="92"/>portat ly dominus, illiconvenit creatorem
+<pb ed="#Bb" n="90"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>et dominum esse: ergo creatura est 
+crea<lb break="no" ed="#Bb" n="2"/>tor et dominus creature, quod falsum
+<lb ed="#Bb" n="3"/>est: ergo videtur, quod necesse sit quod
+<lb ed="#Bb" n="4"/>ponatur esse in creatore.
+</p>
+            <p xml:id="alalal-c16864-d1e185">
+               <lb ed="#Bb" n="5"/>SED CONTRA:
+<lb ed="#Bb" n="6"/>1. Simplex forma subjectum esse non
+<lb ed="#Bb" n="7"/>potest : Deus autem simplex forma est :
+<lb ed="#Bb" n="8"/>ergo non potest esse subjectum : ergo in
+<lb ed="#Bb" n="9"/>ipso non est accidens.
+</p>
+            <p xml:id="alalal-c16864-d1e198">
+               <lb ed="#Bb" n="10"/>2. Item, Accidens non convenit nisi
+<lb ed="#Bb" n="11"/>composito : ergo si accidens est in Deo,
+<lb ed="#Bb" n="12"/>ipse est compositus: et sequuntur ex
+<lb ed="#Bb" n="13"/>hoc omnia absurda, quae etiam in primo
+<lb ed="#Bb" n="14"/>articulo istius distinctionis conclusa
+<lb ed="#Bb" n="15"/>sunt.
+</p>
+            <p xml:id="alalal-c16864-d1e214">
+               <lb ed="#Bb" n="16"/>Soxrutio. Dicendum, quod ista nomina
+<lb ed="#Bb" n="17"/>non praedicant accidens propria 
+predi<lb break="no" ed="#Bb" n="18"/>catione, sed ex consequenti: dictum est
+<lb ed="#Bb" n="19"/>enim supra, quod preedicant essentiam in
+<lb ed="#Bb" n="20"/>habitudine ad effectum in creatura : unde
+<lb ed="#Bb" n="21"/>illa habitudo addita consequenter ducit in
+<lb ed="#Bb" n="22"/>effectum. Et hoc est accidens quod 
+con<lb break="no" ed="#Bb" n="23"/>sequenter ex relatione eorum 
+intelligi<lb break="no" ed="#Bb" n="24"/>tur, scilicet dependentia creature a Deo
+<lb ed="#Bb" n="25"/>secundum exitum in esse : vel secundum
+<lb ed="#Bb" n="26"/>suppositionem, ut dominus: vel 
+secun<lb break="no" ed="#Bb" n="27"/>dum regnum, ut rex: haec enim 
+depen<lb break="no" ed="#Bb" n="28"/>dentia est in effectu, et non in Deo, licet
+<lb ed="#Bb" n="29"/>significetur in habitudine quadam ad id
+<lb ed="#Bb" n="30"/>quod dependet ad ipsum: et ideo 
+varia<lb break="no" ed="#Bb" n="31"/>tio creature ex non esse in esse adducit
+<lb ed="#Bb" n="32"/>nomen: et ideo dicit Magister, quod
+<lb ed="#Bb" n="33"/>nominat accidens, quia accidit creature,
+<lb ed="#Bb" n="34"/>et non Deo.
+</p>
+            <p xml:id="alalal-c16864-d1e258">
+               <lb ed="#Bb" n="35"/>Ad primum dicendum, quod illud non
+<lb ed="#Bb" n="36"/>convenit Deo inesse, vel non inesse :
+<lb ed="#Bb" n="37"/>quia implicatur ibi quod insit ut 
+acci<lb break="no" ed="#Bb" n="38"/>dens: sed contingit ipsum significari in
+<lb ed="#Bb" n="39"/>habitudine ad id quod aliquando est, et
+<lb ed="#Bb" n="40"/>aliquando non est, propter dependentiam
+<lb ed="#Bb" n="41"/>creati ad ipsum, et propter actum quo
+<lb ed="#Bb" n="42"/>educit in esse: et ex hoc non ipse 
+muta<lb break="no" ed="#Bb" n="43"/>tur qui ab aeterno se habet eodem 
+mo<lb break="no" ed="#Bb" n="44"/>do : sed potius id quod habet se ad ipsum
+<lb ed="#Bb" n="45"/>ad quod ipsum est, ut ad se dependens,
+<lb ed="#Bb" n="46"/>tali nomine nominatur.
+</p>
+            <p xml:id="alalal-c16864-d1e288">
+               <lb ed="#Bb" n="47"/>Ad aliud dicendum, quod ista 
+habitu<lb break="no" ed="#Bb" n="48"/>do est in intellectu nostro, et ponit in
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="49"/>Deo essentiam tali modo significatam,
+<lb ed="#Bb" n="50"/>non tamen ponit aliquid novum : 
+que<lb break="no" ed="#Bb" n="51"/>dam enim relativa sunt, quorum 
+adven<lb break="no" ed="#Bb" n="52"/>tui et recessioni suflicit mutatio alterius
+<lb ed="#Bb" n="53"/>extremorum, ut supra diximus: et si illa
+<lb ed="#Bb" n="54"/>nominantur ab habitudine qua se habent
+<lb ed="#Bb" n="55"/>ad sua correlativa, relatio nihil ponit in
+<lb ed="#Bb" n="56"/>eis nisi habitudinem in ratione sola 
+exi<lb break="no" ed="#Bb" n="57"/>stentem: tamen plus adhuc est hic, quia
+<lb ed="#Bb" n="58"/>actus divinus : qui licet sit essentia, ut
+<lb ed="#Bb" n="59"/>dictum est, tamen non eodem modo 
+si<lb break="no" ed="#Bb" n="60"/>gnificatur, sicut etiam praedestinatio
+<lb ed="#Bb" n="61"/>que non est nisi de futuris propter 
+ha<lb break="no" ed="#Bb" n="62"/>bitudinem importatam per 
+prepositio<lb break="no" ed="#Bb" n="63"/>nem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

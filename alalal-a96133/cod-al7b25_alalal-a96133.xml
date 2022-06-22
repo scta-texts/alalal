@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="491"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a96133"><!-- l1d18a1 -->
+            <head xml:id="alalal-a96133-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-a96133-Hd1e101" type="question-title">Utrum per donum quod est Spiritus
+sanctus, omnia alia dona donantur ?</head>
+            <p xml:id="alalal-a96133-d1e104">
+               <lb ed="#Ba" n="7"/>ARTICULUS I.
+<lb ed="#Ba" n="8"/>Utrum per donum quod est Spiritus
+<lb ed="#Ba" n="9"/>sanctus, omnia alia dona donantur ?
+</p>
+            <p xml:id="alalal-a96133-d1e113">
+               <lb ed="#Ba" n="10"/>Incidit autem hic dubium circa 
+pri<lb break="no" ed="#Ba" n="11"/>mum capitulum, {Utrum per donum
+<lb ed="#Ba" n="12"/>dentur dona ?-
+</p>
+            <p xml:id="alalal-a96133-d1e122">
+               <lb ed="#Ba" n="13"/>Videtur autem, quod non: quia
+<lb ed="#Ba" n="14"/>1. Per motum non fit motus 
+genera<lb break="no" ed="#Ba" n="15"/>liter : quia dicit Philosophus, quod non
+<lb ed="#Ba" n="16"/>est alterationis alteratio, et omnino non
+<lb ed="#Ba" n="17"/>est mutationis mutatio : ergo a simili
+<lb ed="#Ba" n="18"/>etiam per donum non datur donum.
+</p>
+            <p xml:id="alalal-a96133-d1e139">
+               <lb ed="#Ba" n="19"/>2. Item, Videtur, quod hoc abeat in
+<lb ed="#Ba" n="20"/>infinitum : quia si haecest ratio, quod
+<lb ed="#Ba" n="21"/>dantur dona, quia in dono dantur, id
+<lb ed="#Ba" n="22"/>donum necesse est etiam in dono 
+do<lb break="no" ed="#Ba" n="23"/>nari, et sic de aliis: ergo hoc abibit in
+<lb ed="#Ba" n="24"/>infinitum.
+</p>
+            <p xml:id="alalal-a96133-d1e155">
+               <lb ed="#Ba" n="25"/>3. Item, Cum dico, in dono dantur
+<lb ed="#Ba" n="26"/>dona: aut omnia, aut quedam. Si 
+om<lb break="no" ed="#Ba" n="27"/>nia: ergo donum in quo omnia dona
+<lb ed="#Ba" n="28"/>donantur, datur in dono: ergo est 
+do<lb break="no" ed="#Ba" n="29"/>num aliquod praeter omnia dona, quod
+<lb ed="#Ba" n="30"/>falsum est. Si quedam, et non omnia :
+<lb ed="#Ba" n="31"/>ergo illud donum in quo donantur
+<lb ed="#Ba" n="32"/>dona illa, non habet generalem 
+influen<lb break="no" ed="#Ba" n="33"/>tiam super collationem donorum : ergo
+<lb ed="#Ba" n="34"/>non habet rationem causalitatis ad 
+om<lb break="no" ed="#Ba" n="35"/>nia dona, quod est inconveniens, quia
+<lb ed="#Ba" n="36"/>illud donum est Spiritus sanctus.
+</p>
+            <p xml:id="alalal-a96133-d1e184">
+               <lb ed="#Ba" n="37"/>4. Item, Filius est unum de datis 
+no<lb break="no" ed="#Ba" n="38"/>bis. Unde, Isa. 1x, 6: Parvulus enim
+<lb ed="#Ba" n="39"/>natus est nobis, et filius datus est nobis.
+<lb ed="#Ba" n="40"/>Ergo hoc donum,datur in Spiritu sancto.
+<lb ed="#Ba" n="41"/>Dari autem in dono est, quod donum
+<lb ed="#Ba" n="42"/>habeat influentiam cause super illud
+<lb ed="#Ba" n="43"/>quod datur : ergo Spiritus sanctus habet
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="44"/>influentiam cause super Filium, quod
+<lb ed="#Ba" n="45"/>falsum est, ut videtur, quia Spiritus est a
+<lb ed="#Ba" n="46"/>Filio, et non e converso.
+</p>
+            <p xml:id="alalal-a96133-d1e210">
+               <lb ed="#Ba" n="47"/>5. Item, Ponamus per impossibile
+<lb ed="#Ba" n="48"/>Spiritum sanctum non esse: aut adhuc
+<lb ed="#Ba" n="49"/>Pater, et Filius essent aque liberales, ut
+<lb ed="#Ba" n="50"/>prius: aut non Si non: ergo 
+liberali<lb break="no" ed="#Ba" n="51"/>tatem habent a Spiritu sancto : quod
+<lb ed="#Ba" n="52"/>falsum est. Si sic: ergo adhuc dabunt
+<lb ed="#Ba" n="53"/>dona: et nonin hoc dono: ergo videtur,
+<lb ed="#Ba" n="54"/>quod haecnon sit ratio, quod Spiritus
+<lb ed="#Ba" n="55"/>sanctus sit donum in quo alia dona 
+do<lb break="no" ed="#Ba" n="56"/>nantur.
+</p>
+            <p xml:id="alalal-a96133-d1e234">
+               <lb ed="#Ba" n="57"/>Solvtio. Dicendum, quod Spiritus
+<lb ed="#Ba" n="58"/>sanctus est donum in quo alia dona 
+do<lb break="no" ed="#Ba" n="59"/>nantur: et in hoc dono dantur dona. Ht
+<lb ed="#Ba" n="60"/>ratio hujus est, quia quidquid aliquis
+<lb ed="#Ba" n="61"/>alicui gratuilo et liberaliter dat, primo
+<lb ed="#Ba" n="62"/>ante illud dat ei amorem, et in ilo 
+post<lb break="no" ed="#Ba" n="63"/>ea communicat ei de bonis suis, et dat
+<lb ed="#Ba" n="64"/>ei et se, et quidquid dat.
+</p>
+            <p xml:id="alalal-a96133-d1e254">
+               <lb ed="#Ba" n="65"/>Dicendum ergo ad primum, quod non
+<lb ed="#Ba" n="66"/>est alterationis alteratio, hoc est, quod
+<lb ed="#Ba" n="67"/>alteratio sit ad alterationem ut ad 
+termi<lb break="no" ed="#Ba" n="68"/>num motus, quia sic numquam esset
+<lb ed="#Ba" n="69"/>quiescere, et sic etiam non est 
+mutatio<lb break="no" ed="#Ba" n="70"/>nis mutatio : sed frequenter unus motus
+<lb ed="#Ba" n="71"/>causa est alterius, et una alteratio causa
+<lb ed="#Ba" n="72"/>est alterius. Sic dico hic, quod primum
+<lb ed="#Ba" n="73"/>donum causa est omnium aliorum, ut
+<lb ed="#Ba" n="74"/>dictum est : quia in primo dono datur
+<lb ed="#Ba" n="75"/>nobis amor Dei, qui est Spiritus sanctus,
+<lb ed="#Ba" n="76"/>qui donum vocatur ab aeterno.
+</p>
+            <p xml:id="alalal-a96133-d1e284">
+               <lb ed="#Ba" n="77"/>Ad aliud dicendum, quod hoc non
+<lb ed="#Ba" n="78"/>abibit in infinitum : quia sicut in causa
+<lb ed="#Ba" n="79"/>motuum statur in primo motu qui est
+<lb ed="#Ba" n="80"/>causa omnium inferiorum, ita in donis
+<lb ed="#Ba" n="81"/>statur in primo dono quod est causa 
+om<lb break="no" ed="#Ba" n="82"/>nium secundorum.
+</p>
+            <p xml:id="alalal-a96133-d1e300">
+               <lb ed="#Ba" n="83"/>Ad aliud dicendum, quod non omnia
+<lb ed="#Ba" n="84"/>dona donantur in dono alioa se: quia
+<lb ed="#Ba" n="85"/>primum donum datur in seipso: quia
+<lb ed="#Ba" n="86"/>ipsum est amor gratuitus in quo et ipse
+<lb ed="#Ba" n="87"/>et omnia alia secunda dona dantur.
+</p>
+            <p xml:id="alalal-a96133-d1e313">
+               <lb ed="#Ba" n="88"/>Ad hoc autem quod contra objicitur,
+<lb ed="#Ba" n="89"/>dicendum quod donum primum seipso
+<lb ed="#Ba" n="90"/>se influit, non tamen habet causalitatem
+<lb ed="#Ba" n="91"/>respectu sui: quia Spiritus sanctus scip-
+<pb ed="#Ba" n="492"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>so dat se, et mittit se : sed non per hoc
+<lb ed="#Ba" n="2"/>tollitur generatio vel causalitas influendi
+<lb ed="#Ba" n="3"/>super omnia dona creata.
+</p>
+            <p xml:id="alalal-a96133-d1e335">
+               <lb ed="#Ba" n="4"/>Ad aliud dicendum, quod Filius datur
+<lb ed="#Ba" n="5"/>in eo quod natus et factus est: et in eo
+<lb ed="#Ba" n="6"/>quod sic datus est, datus est in hoc dono
+<lb ed="#Ba" n="7"/>quod appropriate est Spiritus sanctus,
+<lb ed="#Ba" n="8"/>sicut Magister determinat in II 
+sen<lb break="no" ed="#Ba" n="9"/>tentiarum : unde, Joan. i, 16: Sie
+<lb ed="#Ba" n="10"/>Deus dilexitt mundum, ut Filium suum
+<lb ed="#Ba" n="11"/>unigenitum daret. Filius autem 
+secun<lb break="no" ed="#Ba" n="12"/>dum aeternam generationem non habet
+<lb ed="#Ba" n="13"/>rationem deni, quia sic non est a Spiritu
+<lb ed="#Ba" n="14"/>sancto : sed temporalis ejus generatio a
+<lb ed="#Ba" n="15"/>Spiritu et in Spiritu sancto est.
+</p>
+            <p xml:id="alalal-a96133-d1e364">
+               <lb ed="#Ba" n="16"/>Ad aliud dicendum, quod. si per im-
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="17"/>possibile ponatur Spiritus sanctus non
+<lb ed="#Ba" n="18"/>esse, sequitur quod Pater et Filius non
+<lb ed="#Ba" n="19"/>mittant et dent amorem personalem, in
+<lb ed="#Ba" n="20"/>quo omnia alia dona dentur : sed 
+sequi<lb break="no" ed="#Ba" n="21"/>tur, quod in amore essentiali dentur 
+do<lb break="no" ed="#Ba" n="22"/>na, cui non convenit mitti, nec 
+procede<lb break="no" ed="#Ba" n="23"/>re temporaliter ab ipsis, sicut nec 
+essen<lb break="no" ed="#Ba" n="24"/>tia convenit. Unde non sequitur, quod
+<lb ed="#Ba" n="25"/>aliquid accipiant a Spiritu  sancto, sed
+<lb ed="#Ba" n="26"/>quod tunc non mittent amorem, nec
+<lb ed="#Ba" n="27"/>procedit amor temporaliter : quia quod
+<lb ed="#Ba" n="28"/>processio temporalis in se claudit 
+wxter<lb break="no" ed="#Ba" n="29"/>nam, hoc est ex proprietate personali
+<lb ed="#Ba" n="30"/>Spiritus, non ex aliquo defectu essentiae
+<lb ed="#Ba" n="31"/>divinae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

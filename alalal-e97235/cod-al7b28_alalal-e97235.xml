@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="502"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e97235"><!-- l3d26a6 -->
+            <head xml:id="alalal-e97235-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-e97235-Hd1e101" type="question-title">An spes sit invisibilium ? et, An fides et
+spes sunt ab invicem distinctae ?</head>
+            <p xml:id="alalal-e97235-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="4"/>ARTICULUS VI.
+<lb ed="Bd" n="5"/>An spes sit invisibilium ? et, An fides et
+<lb ed="Bd" n="6"/>spes sunt ab invicem distinctae ?
+</p>
+            <p xml:id="alalal-e97235-d1e115">
+               <lb ed="Bd" n="7"/>Deinde quaeritur de hoc quod dicit :
+<lb ed="Bd" n="8"/>
+               <quote xml:id="alalal-e97235-Qd1e121"> Et sicut fides, ita et spes est de 
+invisibi<lb break="no" ed="Bd" n="9"/>libus, etc.</quote>
+            </p>
+            <p xml:id="alalal-e97235-d1e127">
+               <lb ed="Bd" n="10"/>1. Quoniam virtutes quarum est 
+obje<lb break="no" ed="Bd" n="11"/>clum unum, sunt virtus una: ergo si
+<lb ed="Bd" n="12"/>fides et spes habent unum _ objectum,
+<lb ed="Bd" n="13"/>tunc sunt una virtus.
+</p>
+            <p xml:id="alalal-e97235-d1e139">
+               <lb ed="Bd" n="14"/>2. Item, Spes non videtur tantum esse
+<lb ed="Bd" n="15"/>de invisibilibus, sed etiam de his quae
+<lb ed="Bd" n="16"/>hic habentur, ut spes gratiae et venie :
+<lb ed="Bd" n="17"/>iste enim species inveniuntur poni a
+<lb ed="Bd" n="18"/>Sanctis.
+</p>
+            <p xml:id="alalal-e97235-d1e152">
+               <lb ed="Bd" n="19"/>Solutio Spes de invisibilibus, non
+<lb ed="Bd" n="20"/>prout sunt invisibilia, sed prout sunt 
+fu<lb break="no" ed="Bd" n="21"/>tura absentia : et ideo in objecto fides et
+<lb ed="Bd" n="22"/>Sspes non conveniunt nisi materialiter :
+<lb ed="Bd" n="23"/>el ideo non oportet, quod virtus una
+<lb ed="Bd" n="24"/>sint.
+</p>
+            <p xml:id="alalal-e97235-d1e168">
+               <lb ed="Bd" n="25"/>Abd axtup dicendum, quod omnis 
+dif<lb break="no" ed="Bd" n="26"/>finitio datur ex fine, et denominatio fit a
+<lb ed="Bd" n="27"/>fine codem modo : et ideo spes proprie
+<lb ed="Bd" n="28"/>est de gloria : et si est venie et gratin,
+<lb ed="Bd" n="29"/>hoe est secundum ordinem ad gloriam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

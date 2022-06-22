@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="52"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-cc9604"><!-- l1d28a1 -->
+            <head xml:id="alalal-cc9604-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-cc9604-Hd1e101" type="question-title">An si ingenitum sit notio, plures sint
+notiones quam quinque ?</head>
+            <p xml:id="alalal-cc9604-d1e104">
+               <lb ed="#Bb" n="57"/>ARTICULUS I.
+<lb ed="#Bb" n="58"/>An si ingenitum sit notio, plures sint
+<lb ed="#Bb" n="59"/>notiones quam quinque ?
+</p>
+            <p xml:id="alalal-cc9604-d1e113">
+               <lb ed="#Bb" n="60"/>Incidunt autem hic duae aliae 
+quaestio<lb break="no" ed="#Bb" n="61"/>nes ante Litteram, scilicet, Si ingenitum
+<lb ed="#Bb" n="62"/>sit notio, utrum sint eadem ratione 
+plu<lb break="no" ed="#Bb" n="63"/>res notiones, quam quinque ?
+</p>
+            <p xml:id="alalal-cc9604-d1e124">
+               <lb ed="#Bb" n="64"/>Et secundo, An ingenitum posset esse
+<lb ed="#Bb" n="65"/>notio, etsi non sint plures notiones,
+<lb ed="#Bb" n="66"/>quam quinque?
+</p>
+            <p xml:id="alalal-cc9604-d1e134">
+               <lb ed="#Bb" n="67"/>Ab primum proceditur sic:
+<lb ed="#Bb" n="68"/>1. Sitam negatio quam affirmatio faciunt
+<lb ed="#Bb" n="69"/>notionem, cum quaelibet persona possit
+<pb ed="#Bb" n="53"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>innotescere quatuor modis, videbuntur
+<lb ed="#Bb" n="2"/>esse duodecim notiones trium 
+persona<lb break="no" ed="#Bb" n="3"/>rum. Propatio. Convenit enim Patri non
+<lb ed="#Bb" n="4"/>esse ab alio per generationem, et non
+<lb ed="#Bb" n="5"/>esse ab alio per spirationem. Similiter
+<lb ed="#Bb" n="6"/>Filio convenit non esse ab alio per 
+spi<lb break="no" ed="#Bb" n="7"/>rationem, et esse ab alio per 
+generatio<lb break="no" ed="#Bb" n="8"/>nem: a quo alius per spirationem, et non
+<lb ed="#Bb" n="9"/>a quo alius per generationem. Similiter
+<lb ed="#Bb" n="10"/>Spiritui sancto convenit esse ab alio per
+<lb ed="#Bb" n="11"/>spirationem, et non esse ab alio per 
+ge<lb break="no" ed="#Bb" n="12"/>nerationem : a quo non est alius per 
+spi<lb break="no" ed="#Bb" n="13"/>rationem, et a quo non alius per 
+ge<lb break="no" ed="#Bb" n="14"/>nerationem. Ergo videtur, quod notiones
+<lb ed="#Bb" n="15"/>sint duodecim, si non esse abalio per
+<lb ed="#Bb" n="16"/>generationem vel spirationem est notio
+<lb ed="#Bb" n="17"/>Patris.
+</p>
+            <p xml:id="alalal-cc9604-d1e184">
+               <lb ed="#Bb" n="18"/>2. Item in prima littera primi capituli
+<lb ed="#Bb" n="19"/>habemus t, quod <quote xml:id="alalal-cc9604-Qd1e190"> differt Pater a Filio
+<lb ed="#Bb" n="20"/>auctoritate generationis, differt etiam
+<lb ed="#Bb" n="21"/>proprietate innascibilitatis. </quote> Ex hoc
+<lb ed="#Bb" n="22"/>concludo duas conclusiones : quarum
+<lb ed="#Bb" n="23"/>prima est, quod per se facere differre
+<lb ed="#Bb" n="24"/>personam a persona est ratio quare 
+po<lb break="no" ed="#Bb" n="25"/>natur in divinis notio et proprietas : cum
+<lb ed="#Bb" n="26"/>ergo differat Pater a Spiritu’ sancto,
+<lb ed="#Bb" n="27"/>quia non est ab alio per spirationem,
+<lb ed="#Bb" n="28"/>oportet quod etiam inspirabilitas sit 
+no<lb break="no" ed="#Bb" n="29"/>tio Patris respectu Spiritus sancti. 
+Se<lb break="no" ed="#Bb" n="30"/>cunda est, quia cum in divinis non sit
+<lb ed="#Bb" n="31"/>differentia nisi penes oppositionem 
+re<lb break="no" ed="#Bb" n="32"/>lationis, si dtffert Pater a Filio 
+innasci<lb break="no" ed="#Bb" n="33"/>bilitate, in Filio est relatio opposita 
+re<lb break="no" ed="#Bb" n="34"/>spondens illt quae est innascibilitas : et
+<lb ed="#Bb" n="35"/>sic Filius habet tres notiones, scilicet 
+in<lb break="no" ed="#Bb" n="36"/>nascibilitatem, filiationem, et 
+spiratio<lb break="no" ed="#Bb" n="37"/>nem activam. Si forte dicas, quod in
+<lb ed="#Bb" n="38"/>Filio sequitur una-ad aliam : quia 
+sequi<lb break="no" ed="#Bb" n="39"/>tur: est Filius: ergo cst natus, sed non
+<lb ed="#Bb" n="40"/>convertitur: genus autem cum specie in
+<lb ed="#Bb" n="41"/>eodem non facit numerum. Hoc nihil
+<lb ed="#Bb" n="42"/>est: quia aliquid innotescit per modum
+<lb ed="#Bb" n="43"/>nati, quod non innotescit per modum
+<lb ed="#Bb" n="44"/>filii, sicut innuit Augustinus in libro TI
+<lb ed="#Bb" n="45"/>istius voluminis 2. Cum ergo hoc sit 
+no<lb break="no" ed="#Bb" n="46"/>tio in divinis, quod innotescere facit,
+<lb ed="#Bb" n="47"/>erit notio Filii nascibilitas.
+</p>
+            <p xml:id="alalal-cc9604-d1e254">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="48"/>3. Item, Relationes in divinis sunt ra—
+<lb ed="#Bb" n="49"/>tiones vel proprietates distinguentes 
+per<lb break="no" ed="#Bb" n="50"/>sonam a persona: ergo quae tales dicunt
+<lb ed="#Bb" n="51"/>oppositiones, et possunt convenire 
+Tri<lb break="no" ed="#Bb" n="52"/>nitati, illa sunt proprietates: sed non
+<lb ed="#Bb" n="53"/>esse ab alio, et esse ab alio, talem 
+ha<lb break="no" ed="#Bb" n="54"/>bent oppositionem in divinis: ergo fa-~
+<lb ed="#Bb" n="55"/>ciunt duas proprietates.
+</p>
+            <p xml:id="alalal-cc9604-d1e276">
+               <lb ed="#Bb" n="56"/>4. Item, Esse ab alio per 
+generatio<lb break="no" ed="#Bb" n="57"/>nem, et non esse ab alio per 
+generatio<lb break="no" ed="#Bb" n="58"/>nem, iterum talem faciunt 
+oppositio<lb break="no" ed="#Bb" n="59"/>nem: ergo illa etiam faciunt duas: et sic
+<lb ed="#Bb" n="60"/>erunt quatuor.
+</p>
+            <p xml:id="alalal-cc9604-d1e289">
+               <lb ed="#Bb" n="61"/>5. Item, Esse ab alio per spirationem,
+<lb ed="#Bb" n="62"/>et non esse ab alio per spirationem 
+fa<lb break="no" ed="#Bb" n="63"/>ciunt etiam duas: et sic erunt sex ad
+<lb ed="#Bb" n="64"/>minus. Si dicas, quod superiori negato,
+<lb ed="#Bb" n="65"/>negatur etiam inferius : et ita non esse
+<lb ed="#Bb" n="66"/>ab alio, negat etiam non esse ab alio per
+<lb ed="#Bb" n="67"/>spirationem, et non esse ab alio per 
+ge<lb break="no" ed="#Bb" n="68"/>nerationem: et sic illa non faciunt 
+notio<lb break="no" ed="#Bb" n="69"/>nes. Hoc nihil videtur esse : quia 
+secun<lb break="no" ed="#Bb" n="70"/>dum hoc non esse ab alio erit notio 
+Pa<lb break="no" ed="#Bb" n="71"/>tris: et hoc a nullo ponitur, sed potius
+<lb ed="#Bb" n="72"/>innascibilitas ponitur sibi notio. Constat
+<lb ed="#Bb" n="73"/>autem, quod una specie emanationis 
+ne<lb break="no" ed="#Bb" n="74"/>gata ab aliquo, non necessario hegatur
+<lb ed="#Bb" n="75"/>alia: unde cum innascibilis vel ingenitus
+<lb ed="#Bb" n="76"/>neget tantum esse ab alio per 
+generatio<lb break="no" ed="#Bb" n="77"/>nem, oportet Patrem adhuc alio modo
+<lb ed="#Bb" n="78"/>innotescere, quo ipse etiam ab alio non
+<lb ed="#Bb" n="79"/>est per spirationem.
+</p>
+            <p xml:id="alalal-cc9604-d1e333">
+               <lb ed="#Bb" n="80"/>6. Praeterea, Secundum hance 
+respon<lb break="no" ed="#Bb" n="81"/>sionem licet superiori negalto, negetur
+<lb ed="#Bb" n="82"/>inferius : non tantum superiori posito 
+po<lb break="no" ed="#Bb" n="83"/>nitur inferius : ergo videtur, quod in
+<lb ed="#Bb" n="84"/>aliis personis debent esse notiones 
+affir<lb break="no" ed="#Bb" n="85"/>mative, scilicet esse abalio: et sic Filio
+<lb ed="#Bb" n="86"/>et Spiritui sancto convenit una notio in
+<lb ed="#Bb" n="87"/>communi.
+</p>
+            <p xml:id="alalal-cc9604-d1e354">
+               <lb ed="#Bb" n="88"/>7. Item, Dicit Boetius, quod sola 
+rela<lb break="no" ed="#Bb" n="89"/>tio multiplicat trinitatem, essentia autem
+<lb ed="#Bb" n="90"/>continet unitatem: ergo inter quae 
+op<lb break="no" ed="#Bb" n="91"/>positio relationis non est, ila erunt idem,
+<lb ed="#Bb" n="92"/>vel in eodem : sed esse ab alio per 
+gene<lb break="no" ed="#Bb" n="93"/>rationem, et esse ab alio per spirationem,
+<lb ed="#Bb" n="94"/>nullam habent oppositionis relationem :
+<pb ed="#Bb" n="54"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>ergo conveniunt eidem: et sic Filius qui
+<lb ed="#Bb" n="2"/>est ab alio per generationem, est etiam
+<lb ed="#Bb" n="3"/>ab alio per spirationem : et similiter 
+Spi<lb break="no" ed="#Bb" n="4"/>ritus sanctus: ergo plures sunt notiones.
+<lb ed="#Bb" n="5"/>8. Item, Una notio est in qua Pater
+<lb ed="#Bb" n="6"/>convenit cum Filio, licet Filius sit a 
+Pa<lb break="no" ed="#Bb" n="7"/>tre: ergo alia notio debet esse in qua 
+Pa<lb break="no" ed="#Bb" n="8"/>ter convenit cum Spiritu sancto et alia
+<lb ed="#Bb" n="9"/>in qua Filius cum Spiritu sancto: aliter
+<lb ed="#Bb" n="10"/>enim non viderentur esse sufficienter
+<lb ed="#Bb" n="11"/>distincti: distinguitur enim Pater solus
+<lb ed="#Bb" n="12"/>a Filio solo, et Filius solus a Spiritu
+<lb ed="#Bb" n="13"/>sancto solo, et Pater et Filius simula
+<lb ed="#Bb" n="14"/>Spiritu sancto solo: ergo et Pater et
+<lb ed="#Bb" n="15"/>Spiritus sanctus simul a Filio solo, et
+<lb ed="#Bb" n="16"/>Filius et Spiritus sanctus simul a Patre
+<lb ed="#Bb" n="17"/>solo: et sic videtur, quod multe debeant
+<lb ed="#Bb" n="18"/>esse notiones, si ali sunt notiones quam
+<lb ed="#Bb" n="19"/>personales, ut Magister dicit hic.
+</p>
+            <p xml:id="alalal-cc9604-d1e417">
+               <lb ed="#Bb" n="20"/>Sotunio. Dicendum, ut supra 
+supposi<lb break="no" ed="#Bb" n="21"/>tum est, quod notiones non sunt nisi
+<lb ed="#Bb" n="22"/>quinque, et relationes quatuor, et 
+pro<lb break="no" ed="#Bb" n="23"/>prietates persone quatuor, et proprieta—
+<lb ed="#Bb" n="24"/>tes personales tres, sicut supra proba~
+<lb ed="#Bb" n="25"/>tum est. Persona enim ut persona, non
+<lb ed="#Bb" n="26"/>innotescit nisi per illud quod sonat 
+na<lb break="no" ed="#Bb" n="27"/>ture dignitatem : aliter enim innotescit
+<lb ed="#Bb" n="28"/>res nature, et aliter innotescit 
+indivi<lb break="no" ed="#Bb" n="29"/>duum, et aliter innotescit persona. Res
+<lb ed="#Bb" n="30"/>enim nature ut res nature per actum et
+<lb ed="#Bb" n="31"/>rationem nature habet dignosci, 
+secun<lb break="no" ed="#Bb" n="32"/>dum quod dicimus, quod res nature
+<lb ed="#Bb" n="33"/>est, quae actu nature producitur, hoc
+<lb ed="#Bb" n="34"/>est, actu quo communicatur natura 
+hy<lb break="no" ed="#Bb" n="35"/>postasibus sive suppositis suis: et ille
+<lb ed="#Bb" n="36"/>actus in divinis est duplex, scilicet 
+gene<lb break="no" ed="#Bb" n="37"/>rare, et spirare : sed per utrumque
+<lb ed="#Bb" n="38"/>actum innotescit res nature dupliciter :
+<lb ed="#Bb" n="39"/>quia res nature est genita, et res 
+natu<lb break="no" ed="#Bb" n="40"/>re est generans : et res nature est 
+spi<lb break="no" ed="#Bb" n="41"/>rata, et res nature est spirans : tamen
+<lb ed="#Bb" n="42"/>non sunt quatuor res nature divine,
+<lb ed="#Bb" n="43"/>quia spirantem esse non habent 
+opposi<lb break="no" ed="#Bb" n="44"/>tionem ad generantem esse, nec ad 
+ge<lb break="no" ed="#Bb" n="45"/>nitum esse : et ideo necessario generans
+<lb ed="#Bb" n="46"/>et genitus sunt unum principium 
+spiran<lb break="no" ed="#Bb" n="47"/>di. Individuum autem proprie non est
+<lb ed="#Bb" n="48"/>in divinis, sed innotescit per individuan-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="49"/>tia. Persona autem non convenit nisi rei
+<lb ed="#Bb" n="50"/>nature dignioris : et ideo persona ut
+<lb ed="#Bb" n="51"/>persona, non innotescit nisi proprietate
+<lb ed="#Bb" n="52"/>dignitatis vel habitudine. ;
+</p>
+            <p xml:id="alalal-cc9604-d1e493">
+               <lb ed="#Bb" n="53"/>Dicimus ergo ad primum, quod non
+<lb ed="#Bb" n="54"/>esse ab alio per generationem, non ponit
+<lb ed="#Bb" n="55"/>absolutam dignitatem secundum 
+ordi<lb break="no" ed="#Bb" n="56"/>nem nature qui est in divinis : et ad hoc
+<lb ed="#Bb" n="57"/>intelligendum, notandum quod in omni
+<lb ed="#Bb" n="58"/>natura in qua ponitur ordo natura quo
+<lb ed="#Bb" n="59"/>alter sit ex altero, et non alter prior 
+al<lb break="no" ed="#Bb" n="60"/>tero, necesse est ponere principium 
+il<lb break="no" ed="#Bb" n="61"/>lius ordinis. Non dico initium : quia
+<lb ed="#Bb" n="62"/>initium magis respicit durationis princi—
+<lb ed="#Bb" n="63"/>pium quam ordinem nature. Ergo si
+<lb ed="#Bb" n="64"/>principium necesse est ponere, oportet
+<lb ed="#Bb" n="65"/>quod illud principium aliqua notione 
+in<lb break="no" ed="#Bb" n="66"/>notescat : principium autem cum non
+<lb ed="#Bb" n="67"/>habeat prius, non potest innotescere per
+<lb ed="#Bb" n="68"/>affirmationem priorem se : ergo necesse
+<lb ed="#Bb" n="69"/>est, quod innotescat per negationem :
+<lb ed="#Bb" n="70"/>ergo innotescet per non esse ab alio 
+se<lb break="no" ed="#Bb" n="71"/>cundum ordinem nature. Utrum autem
+<lb ed="#Bb" n="72"/>nihil ponat, vel aliquid ponat, non esse
+<lb ed="#Bb" n="73"/>ab alio, in ‘sequenti articulo questionis
+<lb ed="#Bb" n="74"/>determinabitur. Ergo patet, quod 
+qua<lb break="no" ed="#Bb" n="75"/>cumque speciali negatione posita, non
+<lb ed="#Bb" n="76"/>innotescet principium totius divinitatis
+<lb ed="#Bb" n="77"/>secundum ordinem nature hoc modo ut
+<lb ed="#Bb" n="78"/>principium : et sic patet, quod non esse
+<lb ed="#Bb" n="79"/>ab alio per generationem, et non esse ab
+<lb ed="#Bb" n="80"/>alio per spirationem, non sunt notiones
+<lb ed="#Bb" n="81"/>Patris, nec possunt esse. Illud autem
+<lb ed="#Bb" n="82"/>idem principium, quod est principium
+<lb ed="#Bb" n="83"/>hujus ordinis nature, oportet quod 
+inno<lb break="no" ed="#Bb" n="84"/>tescat : non dico ex parte posteriori,
+<lb ed="#Bb" n="85"/>quia non est ibi prius et posterius, sed
+<lb ed="#Bb" n="86"/>ex parte illa qua alter est ex ipso : et
+<lb ed="#Bb" n="87"/>hoc secundum genus non ponit dignita—
+<lb ed="#Bb" n="88"/>tem, sed quandoque indignitatem : sed
+<lb ed="#Bb" n="89"/>in specie ponit dignitatem in actu in quo
+<lb ed="#Bb" n="90"/>natura communicatur, sicut est genera-—
+<lb ed="#Bb" n="91"/>tio, et sicut est spiratio : ergo ab illa
+<lb ed="#Bb" n="92"/>parte erunt notiones Patris, paternitas,
+<lb ed="#Bb" n="93"/>et spiratio activa. Sed supposito eodem
+<lb ed="#Bb" n="94"/>ordine nature, id quod est a principio
+<lb ed="#Bb" n="95"/>secundum generalem modum essendi ab
+<lb ed="#Bb" n="96"/>alio, non innotescit ut persona, sed in
+<lb ed="#Bb" n="97"/>speciali modo in quo virtute specific
+<pb ed="#Bb" n="55"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>differentiae ostenditur sibi dari natura 
+di<lb break="no" ed="#Bb" n="2"/>gnior : et illi actus sunt generatio, et
+<lb ed="#Bb" n="3"/>spiratio : ergo esse ab alio per 
+genera<lb break="no" ed="#Bb" n="4"/>tionem, et esse ab alio per spirationem
+<lb ed="#Bb" n="5"/>sunt notiones Filu et Spiritus sancti :
+<lb ed="#Bb" n="6"/>sicut in inferioribus esse ab homine non
+<lb ed="#Bb" n="7"/>communicat naturam dignam ad 
+consti<lb break="no" ed="#Bb" n="8"/>tuendam personam, quia ab homine est
+<lb ed="#Bb" n="9"/>quandoque res indigna : sed esse ab 
+ho<lb break="no" ed="#Bb" n="10"/>mine per generationem hominis naturam
+<lb ed="#Bb" n="11"/>communicantem. Non esse autem ab
+<lb ed="#Bb" n="12"/>alio per generationem, et non esse ab
+<lb ed="#Bb" n="13"/>alio per spirationem (sicut jam probatum
+<lb ed="#Bb" n="14"/>est) non constituunt, nec innotescere fa—
+<lb ed="#Bb" n="15"/>ciunt aliquam nature dignitatem. Et sic
+<lb ed="#Bb" n="16"/>patet quare non duodecim, sed tantum
+<lb ed="#Bb" n="17"/>quinque esse possunt notiones persone
+<lb ed="#Bb" n="18"/>ul persone.
+</p>
+            <p xml:id="alalal-cc9604-d1e636">
+               <lb ed="#Bb" n="19"/>Ad aliud dicendum, quod differentia
+<lb ed="#Bb" n="20"/>distinctionis non simpliciter facit 
+notio<lb break="no" ed="#Bb" n="21"/>nem persone, sed differentia 
+distinctio<lb break="no" ed="#Bb" n="22"/>nis persons ut persone. Principium 
+au<lb break="no" ed="#Bb" n="23"/>tem non de principio per modum 
+perso<lb break="no" ed="#Bb" n="24"/>nae potest innotescere tribus modis, 
+sci<lb break="no" ed="#Bb" n="25"/>licet ad ante per negationem : et bene
+<lb ed="#Bb" n="26"/>concedo, quod tngenitus non dicit ibi
+<lb ed="#Bb" n="27"/>negationem emanationis specialis, sed
+<lb ed="#Bb" n="28"/>generalis non esse ab alio: cujus ratio
+<lb ed="#Bb" n="29"/>supra determinata est  : et sic cessat
+<lb ed="#Bb" n="30"/>prima questio. Alio modo innotescit
+<lb ed="#Bb" n="31"/>respectu eorum quibus est principium,
+<lb ed="#Bb" n="32"/>et una notione ad unum, et alia ad
+<lb ed="#Bb" n="33"/>alium, secundum quod sunt duo actus
+<lb ed="#Bb" n="34"/>communicationis nature digne, scilicet
+<lb ed="#Bb" n="35"/>generatio, et spirafio : et hoc supra 
+de<lb break="no" ed="#Bb" n="36"/>terminatum est.
+</p>
+            <p xml:id="alalal-cc9604-d1e678">
+               <lb ed="#Bb" n="37"/>Ad aliud questionem patet jam 
+so<lb break="no" ed="#Bb" n="38"/>lutio : quia nascibilitas, vel esse ab alio,
+<lb ed="#Bb" n="39"/>de se non dicit notionem persone ut 
+per<lb break="no" ed="#Bb" n="40"/>sone : quia non omne quod nascitur de
+<lb ed="#Bb" n="41"/>aliquo, accipit naturam dignitatis ab eo :
+<lb ed="#Bb" n="42"/>nec omne quod est ab aliquo, accipit
+<lb ed="#Bb" n="43"/>naturam dignitatis : sed omne quod 
+na<lb break="no" ed="#Bb" n="44"/>turaliter filius est, naturam dignitatis
+<lb ed="#Bb" n="45"/>generantis accipit. Sic etiam vis 
+spirati<lb break="no" ed="#Bb" n="46"/>va nihil nisi sibi simile in natura produ-
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="47"/>cit. Et ideo nascibilitas non est notio :
+<lb ed="#Bb" n="48"/>et per hoc patet solutio ad sequens.
+</p>
+            <p xml:id="alalal-cc9604-d1e709">
+               <lb ed="#Bb" n="49"/>Ad aliud dicendum, quod non esse ab
+<lb ed="#Bb" n="50"/>alio idem est quod esse ingenitum, ut
+<lb ed="#Bb" n="51"/>supra probatum est: et ideo ille sex
+<lb ed="#Bb" n="52"/>revertuntur ad quinque : quia non esse
+<lb ed="#Bb" n="53"/>ab alio per generationem, non ponit 
+ra<lb break="no" ed="#Bb" n="54"/>tionem principii in ordine nature : nec
+<lb ed="#Bb" n="55"/>etiam non esse ab alio per spirationem :
+<lb ed="#Bb" n="56"/>sed non esse ab alio simpliciter. Et ideo
+<lb ed="#Bb" n="57"/>non possunt esse notiones alicujus : non
+<lb ed="#Bb" n="58"/>enim dicunt rationem principii in ordine
+<lb ed="#Bb" n="59"/>nature, nec rationem acceptionis 
+natu<lb break="no" ed="#Bb" n="60"/>re digne, quemadmodum generatio et
+<lb ed="#Bb" n="61"/>spiratio.
+</p>
+            <p xml:id="alalal-cc9604-d1e741">
+               <lb ed="#Bb" n="62"/>Ad aliud dicendum, quod 
+innascibili<lb break="no" ed="#Bb" n="63"/>tas secundum quod soli Patri convenit,
+<lb ed="#Bb" n="64"/>et non Spiritui sancto, est idem quod
+<lb ed="#Bb" n="65"/>non esse ab alio, hoc modo quo non esse
+<lb ed="#Bb" n="66"/>ab alio facit innotescere principium 
+to<lb break="no" ed="#Bb" n="67"/>tius divinitatis.
+</p>
+            <p xml:id="alalal-cc9604-d1e757">
+               <lb ed="#Bb" n="68"/>Ad aliud patet solutio per dicta, et
+<lb ed="#Bb" n="69"/>similiter ad sequens.
+</p>
+            <p xml:id="alalal-cc9604-d1e764">
+               <lb ed="#Bb" n="70"/>Ad aliud dicendum, quod licet 
+gene<lb break="no" ed="#Bb" n="71"/>rari et spirari non opponantur relative,
+<lb ed="#Bb" n="72"/>tamen spiratus et genitus relative 
+oppo<lb break="no" ed="#Bb" n="73"/>nuntur : quia hoc bene concedo 
+secun<lb break="no" ed="#Bb" n="74"/>dum supra dicta, quod Greci errant,
+<lb ed="#Bb" n="75"/>et ideo qualiter ipsi Spiritum sanctum
+<lb ed="#Bb" n="76"/>a Filio distinguant, non laboro hic 
+de<lb break="no" ed="#Bb" n="77"/>terminare : quia videtur mihi 
+impossi<lb break="no" ed="#Bb" n="78"/>bile esse quod unus non sit alius, si inter
+<lb ed="#Bb" n="79"/>eos non est oppositio relationis, sicut
+<lb ed="#Bb" n="80"/>supra est determinatum : et ideo Pater
+<lb ed="#Bb" n="81"/>et Filius sunt unum in spirando, et 
+Spi<lb break="no" ed="#Bb" n="82"/>ritus sanctus distinguitur ab utroque.
+</p>
+            <p xml:id="alalal-cc9604-d1e795">
+               <lb ed="#Bb" n="83"/>Ad aliud dicendum, quod non potest
+<lb ed="#Bb" n="84"/>esse notio in qua Pater conveniat cum
+<lb ed="#Bb" n="85"/>Spiritu sancto, et alia in qua Filius 
+con<lb break="no" ed="#Bb" n="86"/>veniat cum Spiritu sancto : quia illa in
+<lb ed="#Bb" n="87"/>qua Pater communicaret Spiritui 
+san<lb break="no" ed="#Bb" n="88"/>cto, notaretur ordo nature, et sic 
+opor<lb break="no" ed="#Bb" n="89"/>teret a Patre et Spiritu sancto esse
+<lb ed="#Bb" n="90"/>quemdam quartum, quod supra 
+impro<lb break="no" ed="#Bb" n="91"/>batum est, et sic fieret multitudo in 
+infi<lb break="no" ed="#Bb" n="92"/>nitum : et similiter alium oporteret esse
+<pb ed="#Bb" n="56"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>secundum illam notionem in qua 
+conve<lb break="no" ed="#Bb" n="2"/>niret Filius cum Spiritu sancto : et sic
+<lb ed="#Bb" n="3"/>duo essent procedentes a Spiritu sancto.
+</p>
+            <p xml:id="alalal-cc9604-d1e830">
+               <lb ed="#Bb" n="4"/>Praeterea, Illa in qua Pater conveniret
+<lb ed="#Bb" n="5"/>cum Spiritu sancto non haberet 
+opposi<lb break="no" ed="#Bb" n="6"/>tionem ad Filium: ergo in illa 
+conveni<lb break="no" ed="#Bb" n="7"/>ret cum eis et Filius : ergo illa notio jam
+<lb ed="#Bb" n="8"/>conveniret tribus, et sic esset communis
+<lb ed="#Bb" n="9"/>tribus : et nihil est eis commune nisi 
+es<lb break="no" ed="#Bb" n="10"/>sentia : ergo illa notio jam diceretur 
+se<lb break="no" ed="#Bb" n="11"/>cundum essentiam de ipsis : et ideo illa
+<lb ed="#Bb" n="12"/>argumentatio non procedit. Unde patet,
+<lb ed="#Bb" n="13"/>quod innascibilitas est notio, et quod
+<lb ed="#Bb" n="14"/>non sint nisi quinque notiones.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="418"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g86675"><!-- l4d14a7 -->
+            <head xml:id="alalal-g86675-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-g86675-Hd1e101" type="question-title">An poenitentia sit charitas vel alia
+virtus ?</head>
+            <p xml:id="alalal-g86675-d1e104">
+               <lb ed="#Be" n="80"/>ARTICULUS VII.
+<lb ed="#Be" n="81"/>An poenitentia sit charitas vel alia
+<lb ed="#Be" n="82"/>virtus ?
+</p>
+            <p xml:id="alalal-g86675-d1e113">
+               <lb ed="#Be" n="83"/>Secundo queritur, An sit charitas, vel
+<lb ed="#Be" n="84"/>alia virtus, vel aliqua species ejus ?
+</p>
+            <p xml:id="alalal-g86675-d1e120">
+               <lb ed="#Be" n="85"/>1. Ad hoc enim quidam objiciunt, 
+li<lb break="no" ed="#Be" n="86"/>cet parum habeat apparentia : sicul dicit
+<lb ed="#Be" n="87"/>Augustinus super illud Psalminxxix, 17°
+<lb ed="#Be" n="88"/>Incensa igni et suffossa, Glossa : <quote xml:id="alalal-g86675-Qd1e130"> Omne
+<lb ed="#Be" n="89"/>peccatum oritur ex amore male suadente,
+<lb ed="#Be" n="90"/>et etiam timor : ex amore enim fit, quae
+<lb ed="#Be" n="91"/>timet sibi. </quote> Ergo in opposilo similiter
+<pb ed="#Be" n="419"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>erit, quod omne odium provenit ex
+<lb ed="#Be" n="2"/>amore boni : ergo odium hoc propter
+<lb ed="#Be" n="3"/>peccatum perpetratum provenit ex amore
+<lb ed="#Be" n="4"/>Doni, et precipue boni summi : et hic
+<lb ed="#Be" n="5"/>est charitas : ergo primum in poenitentia
+<lb ed="#Be" n="6"/>est charitas. A principio autem motivo
+<lb ed="#Be" n="7"/>debet trahi ad speciem ipse actus: quia
+<lb ed="#Be" n="8"/>illud informat actum, quod primo movet
+<lb ed="#Be" n="9"/>potentiam : ergo poenitentia erit charitatis
+<lb ed="#Be" n="10"/>actus, ut videtur : ergo habitualis 
+poeni<lb break="no" ed="#Be" n="11"/>tentia est charitas.
+</p>
+            <p xml:id="alalal-g86675-d1e170">
+               <lb ed="#Be" n="12"/>3. Item, Amor boni wuniversaliter in
+<lb ed="#Be" n="13"/>eoncupiscibili est : sed ex illo procedit
+<lb ed="#Be" n="14"/>odium mali : ergo et odium mali est in
+<lb ed="#Be" n="15"/>concupiscibili : et prima perfectio 
+concu<lb break="no" ed="#Be" n="16"/>piscibilis est charitas : ergo primus amor
+<lb ed="#Be" n="17"/>boni et odium mali sunt charitatis : et
+<lb ed="#Be" n="18"/>hec sunt poenitentiae : ergo poenitentia
+<lb ed="#Be" n="19"/>est charitas.
+</p>
+            <p xml:id="alalal-g86675-d1e190">
+               <lb ed="#Be" n="20"/>Sed contra videtur, quod
+<lb ed="#Be" n="21"/>1. Sit patientia per idquod infra 
+habe<lb break="no" ed="#Be" n="22"/>tur ex verbis Chrysostomi : Perfecta
+<lb ed="#Be" n="23"/>poenitentia cogit peccatorem omnia 
+liben<lb break="no" ed="#Be" n="24"/>ter susiimere : <!--</quote>--> sed sustinere est 
+patien<lb break="no" ed="#Be" n="25"/>tiae : ergo poenitentia est patientia.
+</p>
+            <p xml:id="alalal-g86675-d1e208">
+               <lb ed="#Be" n="26"/>2. Unrerius videtur, quod sit 
+tempe<lb break="no" ed="#Be" n="27"/>rantia. Dicit enim Hilarius in libro Hi de
+<lb ed="#Be" n="28"/>Trinitate :<quote xml:id="alalal-g86675-Qd1e216"> Ula est perfecta 
+compunctio<lb break="no" ed="#Be" n="29"/>nis affectio, quae omnes a se carnalium
+<lb ed="#Be" n="30"/>desideriorum affectus repellit?. </quote>
+            </p>
+            <p xml:id="alalal-g86675-d1e224">
+               <lb ed="#Be" n="31"/>3. Unrertus videtur, quod sit 
+pruden<lb break="no" ed="#Be" n="32"/>tia. Luc. vi, 21, super illud : Beati qui
+<lb ed="#Be" n="33"/>nunc fietis,etc., Glossa : <quote xml:id="alalal-g86675-Qd1e232"> Ecce 
+pruden<lb break="no" ed="#Be" n="34"/>tia qua attenditur quam misera haec 
+ter<lb break="no" ed="#Be" n="35"/>rena, et quam beata celestia. </quote> Lugere
+<lb ed="#Be" n="36"/>autem est poenitentia : ergo et 
+poeniten<lb break="no" ed="#Be" n="37"/>tia est prudentia.
+</p>
+            <p xml:id="alalal-g86675-d1e245">
+               <lb ed="#Be" n="38"/>SoLurio. Ad hoc et omnia hujusmodi
+<lb ed="#Be" n="39"/>dicendum, quod poenitentia non est 
+cha<lb break="no" ed="#Be" n="40"/>ritas : sed aliud est esse actum virtulis
+<lb ed="#Be" n="41"/>alicujus naturaliter, sive per se elicitive,
+<lb ed="#Be" n="42"/>ut dicunt Magistri, eo quod talem actum
+<lb ed="#Be" n="43"/>per modum nature cujusdam active 
+eli<lb break="no" ed="#Be" n="44"/>cit : sicut calidum elicit ex se calefacere.
+<lb ed="#Be" n="45"/>Et aliud etiam per imperium aliquod
+<lb ed="#Be" n="46"/>esse aliquem actum alicujus virtutis : et
+<lb ed="#Be" n="47"/>
+               <lb ed="#Be" n="48"/>
+               <sic>unc</sic> actus ille habet aliquid de ratione
+<lb ed="#Be" n="49"/>virtutis imperantis. Et aliud est esse 
+ac<lb break="no" ed="#Be" n="50"/>tum aliquem alicujus virtutis sicut 
+pro<lb break="no" ed="#Be" n="51"/>moventis et expedientis per adjutorium
+<lb ed="#Be" n="52"/>aliquod ad actum : quia, sicut dicit beatus
+<lb ed="#Be" n="53"/>Gregorius, virtutes vocant se invicem ad
+<lb ed="#Be" n="54"/>convivia et adjutoria. Omnes autem hic
+<lb ed="#Be" n="55"/>inductee objectiones non probant actum
+<lb ed="#Be" n="56"/>poenitentiae esse hujus vel illius virtutis,
+<lb ed="#Be" n="57"/>nisi per modum adjutorii.
+</p>
+            <p xml:id="alalal-g86675-d1e293">
+               <lb ed="#Be" n="58"/>SED TAMEN sciendum, quod duo prima
+<lb ed="#Be" n="59"/>argumenta nihil omnino valent. Quod
+<lb ed="#Be" n="60"/>enim primo objicitur ibi, quod omnis 
+ti<lb break="no" ed="#Be" n="61"/>mor ex amore est : hoc plane verum est:
+<lb ed="#Be" n="62"/>sed ille amor est habitualis placentia sui,
+<lb ed="#Be" n="63"/>qui dicitur esse radix vitii, non vitium
+<lb ed="#Be" n="64"/>aliquod in specie vel genere 
+determina<lb break="no" ed="#Be" n="65"/>tum. Similiter cum dicitur, quod odium
+<lb ed="#Be" n="66"/>mali procedit ex amore boni, ille amor
+<lb ed="#Be" n="67"/>non est charitas vel alia virtus, sed 
+ha<lb break="no" ed="#Be" n="68"/>bitualis placentia et boni naturalis, 
+se<lb break="no" ed="#Be" n="69"/>cundum quod generaliter sumitur 
+pro<lb break="no" ed="#Be" n="70"/>positio. Si autem particulariter sumatur,
+<lb ed="#Be" n="71"/>eo quod quandoque odium peccati ex
+<lb ed="#Be" n="72"/>charitate Dei est, quando oditur 
+pecca<lb break="no" ed="#Be" n="73"/>tum in quantum Deo dilecto est 
+contra<lb break="no" ed="#Be" n="74"/>rium : tune erit actus ille per imperium
+<lb ed="#Be" n="75"/>charitatis. Et forma arguendi non valet :
+<lb ed="#Be" n="76"/>quia procedit ex omnibus particularibus.
+</p>
+            <p xml:id="alalal-g86675-d1e338">
+               <lb ed="#Be" n="77"/>Ad aliud dicendum, guod haec est 
+fal<lb break="no" ed="#Be" n="78"/>sa, amor boni universaliter est in 
+concu<lb break="no" ed="#Be" n="79"/>piscibili : sive enim ly universaliter 
+de<lb break="no" ed="#Be" n="80"/>terminet ly dont : ut sit sensus, amor
+<lb ed="#Be" n="81"/>boni universaliter sumpti, est in 
+concu<lb break="no" ed="#Be" n="82"/>piscibili : sive distributionem ponat circa
+<lb ed="#Be" n="83"/>ly amor, et determinet compositionem,
+<lb ed="#Be" n="84"/>falsa est propositio : particulare enim est
+<lb ed="#Be" n="85"/>bonum, quod amat ex concupiscibili, 
+sic<lb break="no" ed="#Be" n="86"/>ut sciunt omnes qui jam alibi didicerunt,
+<lb ed="#Be" n="87"/>quod concupiscibilis est sensibilis anime
+<lb ed="#Be" n="88"/>pars. Similiter bonum est aliquid 
+unius<lb break="no" ed="#Be" n="89"/>cujusque objecti quod amat potentia :
+<lb ed="#Be" n="90"/>sicut et concupiscibilis amat suum 
+bo<lb break="no" ed="#Be" n="91"/>num. Unde per omnem modum falsa est
+<lb ed="#Be" n="92"/>proposito.
+</p>
+            <p xml:id="alalal-g86675-d1e375">
+               <lb ed="#Be" n="93"/>Si autem dicatur, quod bonum 
+sim<lb break="no" ed="#Be" n="94"/>pliciter amatur a concupiscibili, et ab
+<pb ed="#Be" n="420"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>aliis bonum sui et secundum quid, 
+ad<lb break="no" ed="#Be" n="2"/>hue falsa est proposito, si consentimus,
+<lb ed="#Be" n="3"/>quod concupiscibilis est pars sensibilis
+<lb ed="#Be" n="4"/>anime: sicut concorditer pronuntiant
+<lb ed="#Be" n="5"/>omnes auctoritates tam Sanctorum,
+<lb ed="#Be" n="6"/>quam Philosophorum. Si autem dicamus
+<lb ed="#Be" n="7"/>propositionem intelligi de concupiscibili
+<lb ed="#Be" n="8"/>humana quam dicunt quidam esse partem
+<lb ed="#Be" n="9"/>anime rationalis: tunc nihil valet -ad
+<lb ed="#Be" n="10"/>propositum : quia, sicut prius ostensum
+<lb ed="#Be" n="11"/>est, ille amor non universaliter est 
+cha<lb break="no" ed="#Be" n="12"/>ritas: et si sit quandoque charitas, tune
+<lb ed="#Be" n="13"/>actus poenitentiae erit per imperium 
+tan<lb break="no" ed="#Be" n="14"/>tum charitatis, et non essentialiter. Et
+<lb ed="#Be" n="15"/>forma arguendi ex paribus non valet.
+</p>
+            <p xml:id="alalal-g86675-d1e419">
+               <lb ed="#Be" n="16"/>Ad aliud dicendum, quod sustinere
+<lb ed="#Be" n="17"/>aquivoce sumitur de patientia et 
+pceni<lb break="no" ed="#Be" n="18"/>tentia: patientia enim est in periculis, et
+<lb ed="#Be" n="19"/>pressuris illatis per violentiam ab 
+extrin<lb break="no" ed="#Be" n="20"/>seco: sed in poenitentia est sustinentia
+<lb ed="#Be" n="21"/>doloris assumpta voluntarie: unde
+<lb ed="#Be" n="22"/>objectio non valet
+</p>
+            <p xml:id="alalal-g86675-d1e437">
+               <lb ed="#Be" n="23"/>AD ALIUD Sic enduxt, quod ila objectio
+<lb ed="#Be" n="24"/>non probat, nisi quod temperantia per
+<lb ed="#Be" n="25"/>modum advenientis promovet 
+pceniten<lb break="no" ed="#Be" n="26"/>tiam: et eodem modo procedit id quod
+<lb ed="#Be" n="27"/>ultimo inducitur de prudentia: et tales
+<lb ed="#Be" n="28"/>adaptationes Sanctorum, similitudines
+<lb ed="#Be" n="29"/>quasdam, et non proprietates conside~
+<lb ed="#Be" n="30"/>rant: et valde parum probant de 
+pro<lb break="no" ed="#Be" n="31"/>posito.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

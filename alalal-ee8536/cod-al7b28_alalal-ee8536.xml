@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="44"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-ee8536"><!-- l3d3a3 -->
+            <head xml:id="alalal-ee8536-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-ee8536-Hd1e101" type="question-title">An Beata Virgo sanctificata sit in utero,
+vel ante uterum ?</head>
+            <p xml:id="alalal-ee8536-d1e104">
+               <lb ed="Bd" n="72"/>ARTICULUS III.
+<lb ed="Bd" n="73"/>An Beata Virgo sanctificata sit in utero,
+<lb ed="Bd" n="74"/>vel ante uterum ?
+</p>
+            <p xml:id="alalal-ee8536-d1e113">
+               <lb ed="Bd" n="75"/>
+               <quote xml:id="alalal-ee8536-Qd1e117"> Mariam toiam quoque Spiritus 
+san<lb break="no" ed="Bd" n="76"/>ctus, etc, </quote>
+               <pb ed="#Bd" n="45"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>In isto capitulo quatuor dicuntur. 
+Pri<lb break="no" ed="Bd" n="2"/>mun estde sanctificatione gloriose 
+Vir<lb break="no" ed="Bd" n="3"/>ginis. Secundum est de modo 
+conceptio<lb break="no" ed="Bd" n="4"/>nis ejus, ibi, <quote xml:id="alalal-ee8536-Qd1e135"> Potentiam guogue 
+gene<lb break="no" ed="Bd" n="5"/>yandi, etc.</quote> Tertium est, ex quo, ut
+<lb ed="Bd" n="6"/>yidetur, corpus Christi formatum fuit,
+<lb ed="Bd" n="7"/>ib, <quote xml:id="alalal-ee8536-Qd1e145"> Tune obumébravié ipsam Det, etc. </quote>
+               <lb ed="Bd" n="8"/>Quartum est, quid coneepit, quia verum
+<lb ed="Bd" n="9"/>corpus et animam: et ideo error 
+Mani<lb break="no" ed="Bd" n="10"/>chei convincitur, ibi, <quote xml:id="alalal-ee8536-Qd1e153"> Care animata
+<lb ed="Bd" n="11"/>pationalique et intellectu, etc. </quote>
+            </p>
+            <p xml:id="alalal-ee8536-d1e159">
+               <lb ed="Bd" n="12"/>Circa primum horum, incidit questio
+<lb ed="Bd" n="13"/>de sanctificatione Beate Virginis. Et
+<lb ed="Bd" n="14"/>queruntur breviter octo, secilicet, An
+<lb ed="Bd" n="15"/>sanctilicata fuerit in ulero, vel ante 
+ute<lb break="no" ed="Bd" n="16"/>rum ?
+<lb ed="Bd" n="17"/>Secundo, An in utero ante 
+animatio<lb break="no" ed="Bd" n="18"/>nem, vel post?
+<lb ed="Bd" n="19"/>Tertio, An post animationem, vel ante
+<lb ed="Bd" n="20"/>nativitatem, vel post ?
+<lb ed="Bd" n="21"/>Quarto, Quanta fuit sanctificatio ejus
+<lb ed="Bd" n="22"/>in utero ?
+<lb ed="Bd" n="23"/>Quinto, Quid addidit, sanctificatio ex
+<lb ed="Bd" n="24"/>preventu in eam Spiritus sancti, et ex
+<lb ed="Bd" n="25"/>inhabitalione Filu ?
+<lb ed="Bd" n="26"/>Sexto, de doctrina sanctificationis ejus,
+<lb ed="Bd" n="27"/>et Jeremie et Joannis, qui etiam 
+sancti<lb break="no" ed="Bd" n="28"/>ficati sunt in utero.
+<lb ed="Bd" n="29"/>Septimo, Utrum gratia 
+sanctificatio<lb break="no" ed="Bd" n="30"/>nis in utera conlirmet sanctificatos, et
+<lb ed="Bd" n="31"/>precipue utrum confirmaverit ipsam, ila
+<lb ed="Bd" n="32"/>quod postea peccare non potuertt ?
+<lb ed="Bd" n="33"/>Octavo et ultimo, In quo differt gratia
+<lb ed="Bd" n="34"/>sanclilicalionis in utero a gratia 
+sancti<lb break="no" ed="Bd" n="35"/>ficationis quae est in sacramentis? et,
+<lb ed="Bd" n="36"/>Utrum sanctilicati in utero ad sacramenta
+<lb ed="Bd" n="37"/>teneantur ?
+</p>
+            <p xml:id="alalal-ee8536-d1e219">
+               <lb ed="Bd" n="38"/>Ad primum proceditur sic :
+<lb ed="Bd" n="39"/>1. Dicit Apostolus, quod omnes in
+<lb ed="Bd" n="40"/>Adam peccaverunt ', qui fuit forma 
+pre<lb break="no" ed="Bd" n="41"/>varicationis ommium: cum ergo Deus
+<lb ed="Bd" n="42"/>pronior sit ad miserendum quem ad
+<lb ed="Bd" n="43"/>condemnandum, omnes in Adam vel
+<lb ed="Bd" n="44"/>aliqui satisfacere potuerunt, et quidquid
+<lb ed="Bd" n="45"/>
+               <lb ed="Bd" n="46"/>concedi potuit, concedebatur matri quae
+<lb ed="Bd" n="47"/>gratia plena fuit: ergo Christus ei hoc
+<lb ed="Bd" n="48"/>concessit.
+</p>
+            <p xml:id="alalal-ee8536-d1e245">
+               <lb ed="Bd" n="49"/>2. Item, Anselmus: <quote xml:id="alalal-ee8536-Qd1e249"> Decebat ut Virgo
+<lb ed="Bd" n="50"/>ula quam Deus Filto quem corde 
+gem<lb break="no" ed="Bd" n="51"/>tum ut seipsum diligit, matrem 
+prepa<lb break="no" ed="Bd" n="52"/>ravit, ea puritate niteret qua major sub
+<lb ed="Bd" n="53"/>Deo nequit intelligi : </quote> sed habuisse 
+ori<lb break="no" ed="Bd" n="54"/>ginale et amisisse, non est major puritas
+<lb ed="Bd" n="55"/>que sub Deo intelligi potest, quia major
+<lb ed="Bd" n="56"/>intelligitur numquam habuisse: ergo
+<lb ed="Bd" n="57"/>hoe concessum est matri, cur 
+concedeba<lb break="no" ed="Bd" n="58"/>tur quidquid concedi potest : quod 
+acci<lb break="no" ed="Bd" n="59"/>pitur ex verbo quod in Til Reg. un, 20,
+<lb ed="Bd" n="60"/>Salomon dixit malri: Pele, mater mea :
+<lb ed="Bd" n="61"/>neque enim fas est ut avertam faciem
+<lb ed="Bd" n="62"/>suam, scilicet me quidquid denegare
+<lb ed="Bd" n="63"/>tibi.
+</p>
+            <p xml:id="alalal-ee8536-d1e283">
+               <lb ed="Bd" n="64"/>3. Item, Ecclesia cantat, quod Heva fuit
+<lb ed="Bd" n="65"/>via mortis, et Beata Virgo via vite :
+<lb ed="Bd" n="66"/>ergo sicut illa mortis, ita ista vile : sed
+<lb ed="Bd" n="67"/>illa mortis fuit existentibus in lumbis :
+<lb ed="Bd" n="68"/>ergo ista via vite existens et existentibus
+<lb ed="Bd" n="69"/>in lumbis.
+</p>
+            <p xml:id="alalal-ee8536-d1e299">
+               <lb ed="Bd" n="70"/>SED CONTRA :
+<lb ed="Bd" n="71"/>1. Augustinus: <quote xml:id="alalal-ee8536-Qd1e305"> Non potest bene esse
+<lb ed="Bd" n="72"/>qui non est: </quote> sed sanclifigalum esse,
+<lb ed="Bd" n="73"/>est bene esse : ergo non convenit non
+<lb ed="Bd" n="74"/>existenti.
+</p>
+            <p xml:id="alalal-ee8536-d1e315">
+               <lb ed="Bd" n="75"/>2. Preterca, <quote xml:id="alalal-ee8536-Qd1e319"> Quidquid erat in 
+lum<lb break="no" ed="Bd" n="76"/>bis ut peccato non obnoxium, erat me~
+<lb ed="Bd" n="77"/>dicina vulneris, </quote> ut dicit Augustinus:
+<lb ed="Bd" n="78"/>ergo si Virgo [uissetin lumbis, ut peccato
+<lb ed="Bd" n="79"/>non obnoxia, fuisset medicina vulneris :
+<lb ed="Bd" n="80"/>sed una eflicaci medicina habita, alia 
+su<lb break="no" ed="Bd" n="81"/>perfluit : ergo superflua esset incarnatio
+<lb ed="Bd" n="82"/>Christi.
+</p>
+            <p xml:id="alalal-ee8536-d1e338">
+               <lb ed="Bd" n="83"/>3. Preetera, In Ecclesia non est nisi
+<lb ed="Bd" n="84"/>caput et membra. capit: convenit 
+redi<lb break="no" ed="Bd" n="85"/>mere tantum : ergo membris convenit 
+re<lb break="no" ed="Bd" n="86"/>cimi. Cum igitur Beata Virgo fuerit 
+mem<lb break="no" ed="Bd" n="87"/>brum, sic ips: convenit redimi : sed dicit
+<lb ed="Bd" n="88"/>Augustinus, quod cuicumque convenit
+<lb ed="Bd" n="89"/>redimi, in lumbis Patrum est ut 
+ob<lb break="no" ed="Bd" n="90"/>noxium peccato: ergo Beata Virgo in
+<lb ed="Bd" n="91"/>lumbis Patrum non poterat sanctificari,
+</p>
+            <p xml:id="alalal-ee8536-d1e361">
+               <pb ed="#Bd" n="46"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Solutio Dicimus, quod tribus de
+<lb ed="Bd" n="2"/>causis Beata Virgo, et quilibet alins non
+<lb ed="Bd" n="3"/>potest sanctificari in parentibus : 
+qua<lb break="no" ed="Bd" n="4"/>rum una est, quod gratia sanctificationis
+<lb ed="Bd" n="5"/>non habet ortum a parentibus, et ideo
+<lb ed="Bd" n="6"/>in eis transfundi non potest: sed 
+pecca<lb break="no" ed="Bd" n="7"/>tum habet ortum, et ideo transfunditur
+<lb ed="Bd" n="8"/>propagatione naturae.
+</p>
+            <p xml:id="alalal-ee8536-d1e385">
+               <lb ed="Bd" n="9"/>Et per hoc patet solutio ad primum et
+<lb ed="Bd" n="10"/>ad tertium.
+</p>
+            <p xml:id="alalal-ee8536-d1e392">
+               <lb ed="Bd" n="11"/>Secunda causa: Ut dicit Augustinus,
+<lb ed="Bd" n="12"/>ex libidine in propagatione tamquam filia
+<lb ed="Bd" n="13"/>peccati innascitur causa peccati in 
+car<lb break="no" ed="Bd" n="14"/>ne: et hoc idem dicit Augustinus. 
+Li<lb break="no" ed="Bd" n="15"/>bido autem haec non est separabilis
+<lb ed="Bd" n="16"/>a concupiscentia mixtionis seminum,
+<lb ed="Bd" n="17"/>et ideo innascitur peccatum : et ideo
+<lb ed="Bd" n="18"/>quia Virgo Beata per hanc legem 
+concu<lb break="no" ed="Bd" n="19"/>piscentiae fuit in Inmbis Patrum, quia
+<lb ed="Bd" n="20"/>futura erat venire in uterum matris sue,
+<lb ed="Bd" n="21"/>non habuit in illis possibilitatem ad 
+gra<lb break="no" ed="Bd" n="22"/>liam.
+</p>
+            <p xml:id="alalal-ee8536-d1e421">
+               <lb ed="Bd" n="23"/>Tertia causa est, quia caro non est
+<lb ed="Bd" n="24"/>particeps gratiae gratum facicntis nisi per
+<lb ed="Bd" n="25"/>animam distinctam: et ideo in lumbis
+<lb ed="Bd" n="26"/>Patrum nemo fuit secundum animam
+<lb ed="Bd" n="27"/>susceptibilis gratia.
+</p>
+            <p xml:id="alalal-ee8536-d1e434">
+               <lb ed="Bd" n="28"/>Ad id quod objicitur de Anselmo, 
+di<lb break="no" ed="Bd" n="29"/>cendum, quod illa puritas non 
+intelligi<lb break="no" ed="Bd" n="30"/>tur per comparationem ad ante, sed ad
+<lb ed="Bd" n="31"/>post. Habetur enim originale per 
+compa<lb break="no" ed="Bd" n="32"/>rationem ad ante unde contrahitur, et
+<lb ed="Bd" n="33"/>per comparationem ad post, quia ad
+<lb ed="Bd" n="34"/>malum inclinat. Christus autem Deus
+<lb ed="Bd" n="35"/>homo non habuit secundum 
+compara<lb break="no" ed="Bd" n="36"/>tionem ad ante, nec ad post: unde sub
+<lb ed="Bd" n="37"/>illa est puritas quae ad ante habet 
+origi<lb break="no" ed="Bd" n="38"/>nale, quia contraxit: sed non ad post,
+<lb ed="Bd" n="39"/>quia post legem concupiscentiae ad 
+ma<lb break="no" ed="Bd" n="40"/>lum inclinare non potuit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

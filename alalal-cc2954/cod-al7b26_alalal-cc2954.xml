@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="15"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-cc2954"><!-- l1d26a7 -->
+            <head xml:id="alalal-cc2954-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-cc2954-Hd1e101" type="question-title">Utrum relatio sola multiplicet
+Trinitatem ?</head>
+            <p xml:id="alalal-cc2954-d1e104">
+               <lb ed="#Bb" n="22"/>ARTICULUS VII.
+<lb ed="#Bb" n="23"/>Utrum relatio sola multiplicet
+<lb ed="#Bb" n="24"/>Trinitatem ?
+</p>
+            <p xml:id="alalal-cc2954-d1e113">
+               <lb ed="#Bb" n="25"/>Secundo queritur, Utrum relatio sola
+<lb ed="#Bb" n="26"/>multiplicet Trinitatem ?
+</p>
+            <p xml:id="alalal-cc2954-d1e120">
+               <lb ed="#Bb" n="27"/>Videtur, quod non: quia
+<lb ed="#Bb" n="28"/>1. Summe perfectionis sunt persone
+<lb ed="#Bb" n="29"/>divine : relatio autem inter entia non
+<lb ed="#Bb" n="30"/>est summe perfectum ens, sed potius
+<lb ed="#Bb" n="31"/>minus quolibet alio ente habens de ente :
+<lb ed="#Bb" n="32"/>ergo videtur, quod relatio non debeat
+<lb ed="#Bb" n="33"/>distinguere Trinitatem.
+</p>
+            <p xml:id="alalal-cc2954-d1e139">
+               <lb ed="#Bb" n="34"/>2. Item, Ens cujus esse est ad alterum,
+<lb ed="#Bb" n="35"/>posterius est ente cujus esse est ad 
+se<lb break="no" ed="#Bb" n="36"/>ipsum. Prospatio. Dato quod nihil sit ad
+<lb ed="#Bb" n="37"/>seipsum, nihil erit ad alterum: sed non
+<lb ed="#Bb" n="38"/>convertitur : ergo ens in seipso prius est
+<lb ed="#Bb" n="39"/>ente ad alterum: sed ente primo debet
+<lb ed="#Bb" n="40"/>distingui primum omnium, si aliquo 
+en<lb break="no" ed="#Bb" n="41"/>te distinguitur : cum ergo persone sint
+<lb ed="#Bb" n="42"/>in primo, videtur quod ente absoluto 
+de<lb break="no" ed="#Bb" n="43"/>beant distingui.
+</p>
+            <p xml:id="alalal-cc2954-d1e163">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="44"/>3. Item, Substantia non causatur ab
+<lb ed="#Bb" n="45"/>ente quod ad ipsam reducitur ut ad 
+sub<lb break="no" ed="#Bb" n="46"/>jectum, sed potius causat ipsum : sed
+<lb ed="#Bb" n="47"/>relatio in divinis reducitur ad personam
+<lb ed="#Bb" n="48"/>sicut cujus est : ergo non distinguit eam,
+<lb ed="#Bb" n="49"/>nec facit secundum modum intelligendi
+<lb ed="#Bb" n="50"/>in esse personali.
+</p>
+            <p xml:id="alalal-cc2954-d1e183">
+               <lb ed="#Bb" n="51"/>Item, Si relatio multiplicat Trinitatem,
+<lb ed="#Bb" n="52"/>ut dicit Boetius, multiplicat eam per
+<lb ed="#Bb" n="53"/>esse quod habet : non habet autem nis
+<lb ed="#Bb" n="54"/>esse respectivum : ergo non dat ei nisi
+<lb ed="#Bb" n="55"/>esse respectivum : per hoc autem non est
+<lb ed="#Bb" n="56"/>substantialiter : ergo persone divine non
+<lb ed="#Bb" n="57"/>erunt substantialiter subsistentes, quod
+<lb ed="#Bb" n="58"/>est heresis Sabellii : ergo videtur, quod
+<lb ed="#Bb" n="59"/>non sola relatione distinguatur Trinitas.
+</p>
+            <p xml:id="alalal-cc2954-d1e205">
+               <lb ed="#Bb" n="60"/>SED CONTRA :
+<lb ed="#Bb" n="61"/>1. Entium aliud est substantia, aliud
+<lb ed="#Bb" n="62"/>accidens : et substantia verius est quam
+<lb ed="#Bb" n="63"/>accidens.
+</p>
+            <p xml:id="alalal-cc2954-d1e216">
+               <lb ed="#Bb" n="64"/>Item, Accidentium aliud est ens 
+abso<lb break="no" ed="#Bb" n="65"/>lutum, et aliud ens respectivum : et 
+re<lb break="no" ed="#Bb" n="66"/>spectivum minus est quam absolutum :
+<lb ed="#Bb" n="67"/>quia innascitur et aufertur sine mutatione
+<lb ed="#Bb" n="68"/>aliqua subjecti, sicut patet ex Boetio:
+<lb ed="#Bb" n="69"/>puer enim qui nascitur, per annum 
+se<lb break="no" ed="#Bb" n="70"/>cundum diversitatem sui incrementi, in
+<lb ed="#Bb" n="71"/>multis faciet similitudinem, disparitatem,
+<lb ed="#Bb" n="72"/>equalitatem, inequalitatem, quae ullo
+<lb ed="#Bb" n="73"/>modo mutantur secundum illud genus
+<lb ed="#Bb" n="74"/>mutationis : ergo relatio minime habet
+<lb ed="#Bb" n="75"/>de ente : ergo sua multiplicatio maxime
+<lb ed="#Bb" n="76"/>competit multiplicationi simplicissimi :
+<lb ed="#Bb" n="77"/>hoc autem est Deus: ergo inter omnia
+<lb ed="#Bb" n="78"/>predicamenta nihil ita convenienter 
+mul<lb break="no" ed="#Bb" n="79"/>tiplicat Trinitatem sicut relatio.
+</p>
+            <p xml:id="alalal-cc2954-d1e253">
+               <lb ed="#Bb" n="80"/>2. Item, Avicenna in prima 
+Philoso<lb break="no" ed="#Bb" n="81"/>phia dicit, quod relationis appositio 
+ni<lb break="no" ed="#Bb" n="82"/>hil facit compositum.
+</p>
+            <p xml:id="alalal-cc2954-d1e263">
+               <lb ed="#Bb" n="83"/>3. Item, Detur aliquod simplex, sicut
+<lb ed="#Bb" n="84"/>est Deus, illud habet relationem primi ad
+<lb ed="#Bb" n="85"/>secunda, et relationem cause, et multas
+<lb ed="#Bb" n="86"/>alias relaliones.
+</p>
+            <p xml:id="alalal-cc2954-d1e274">
+               <lb ed="#Bb" n="87"/>4. Item, Hoc patet in unitate et 
+pun<lb break="no" ed="#Bb" n="88"/>cto : quae licet simplicia sint, tamen sunt
+<lb ed="#Bb" n="89"/>in eis diverse rationes relationum : ergo
+<lb ed="#Bb" n="90"/>relatio nihil reddit compositum : ergo
+<lb ed="#Bb" n="91"/>sua multiplicatio maxime competit 
+sim<lb break="no" ed="#Bb" n="92"/>plicissimo.
+</p>
+            <p xml:id="alalal-cc2954-d1e290">
+               <pb ed="#Bb" n="16"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>5. Item, Inter relationes quaedam sunt
+<lb ed="#Bb" n="2"/>simpliciores aliis : quedam enim 
+imme<lb break="no" ed="#Bb" n="3"/>diate sunt relativis, ut ille quae sunt 
+se<lb break="no" ed="#Bb" n="4"/>cundum modum originis, ut causa 
+re<lb break="no" ed="#Bb" n="5"/>fertur ad causatum, et e converso: sed
+<lb ed="#Bb" n="6"/>non sic similis, et aequalis : quia ille
+<lb ed="#Bb" n="7"/>fundantur super ens absolutum, sicut 
+su<lb break="no" ed="#Bb" n="8"/>per qualitatem : et eodem modo 
+diffe<lb break="no" ed="#Bb" n="9"/>rens sunt dissimilis, et ineequalis : 
+er<lb break="no" ed="#Bb" n="10"/>go cum relationes originis super nihil
+<lb ed="#Bb" n="11"/>fundentur, nisi super ipsum existens,
+<lb ed="#Bb" n="12"/>simpliciores sunt aliis: ergo ille maxime
+<lb ed="#Bb" n="13"/>competunt personis divinis propter 
+sum<lb break="no" ed="#Bb" n="14"/>mam simplicitatem.
+</p>
+            <p xml:id="alalal-cc2954-d1e327">
+               <lb ed="#Bb" n="15"/>Er noc est concedendum, quod in 
+nu<lb break="no" ed="#Bb" n="16"/>mero generum nihil ita competit sicut
+<lb ed="#Bb" n="17"/>relatio, et in speciebus relationis nihil
+<lb ed="#Bb" n="18"/>ita competit sicut relatio originis, qua
+<lb ed="#Bb" n="19"/>alius est ab alio, et per hoc distin~
+<lb ed="#Bb" n="20"/>guitur ab eo.
+</p>
+            <p xml:id="alalal-cc2954-d1e343">
+               <lb ed="#Bb" n="21"/>DicenpuM ergo ad primum, quod 
+quid<lb break="no" ed="#Bb" n="22"/>quid est in divinis, est perfectissimum :
+<lb ed="#Bb" n="23"/>cum enim praedicationes inferiorum in
+<lb ed="#Bb" n="24"/>divina referimus, omnia imperfecta reji~
+<lb ed="#Bb" n="25"/>cimus : et ideo quod relatio est ens 
+im<lb break="no" ed="#Bb" n="26"/>perfectum, non refertur ad superiora,
+<lb ed="#Bb" n="27"/>sed potius quod est non varians in 
+essen<lb break="no" ed="#Bb" n="28"/>tia simplicissimum, et ipsum est 
+perfectis<lb break="no" ed="#Bb" n="29"/>simum in quantum est in divinis, licet
+<lb ed="#Bb" n="30"/>imperfectum sit in se.
+</p>
+            <p xml:id="alalal-cc2954-d1e367">
+               <lb ed="#Bb" n="31"/>Ad aliud diceidum, quod hoc est 
+ve<lb break="no" ed="#Bb" n="32"/>rum, ubi esse ad alterum est ut natura
+<lb ed="#Bb" n="33"/>accidentis : hoc autem non est in divinis,
+<lb ed="#Bb" n="34"/>sicut prius habitum est: imo relatio in
+<lb ed="#Bb" n="35"/>illa parte accipit substantiae 
+pradicatio<lb break="no" ed="#Bb" n="36"/>nem.
+</p>
+            <p xml:id="alalal-cc2954-d1e384">
+               <lb ed="#Bb" n="37"/>Ad aliud dicendum, quod _ oportet
+<lb ed="#Bb" n="38"/>concedere quod dicit Augustinus, quod in
+<lb ed="#Bb" n="39"/>omnibus Pater et Filius sunt unum,
+<lb ed="#Bb" n="40"/>preter id quod ad alterum est: tamen
+<lb ed="#Bb" n="41"/>illud esse ad alterum complectitur illud
+<lb ed="#Bb" n="42"/>quod est esse verum suppositum, et 
+ve<lb break="no" ed="#Bb" n="43"/>ram esse personam : quia haec in divinis
+<lb ed="#Bb" n="44"/>non repugnant.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

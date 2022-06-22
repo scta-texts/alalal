@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="196"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a38768"><!-- l1d6a1 -->
+            <head xml:id="alalal-a38768-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-a38768-Hd1e101" type="question-title">An Deus genuerit Filium ex necessitate,
+et voluntate ?</head>
+            <p xml:id="alalal-a38768-d1e104">
+               <lb ed="#Ba" n="33"/>ARTICULUS I.
+<lb ed="#Ba" n="34"/>An Deus genuerit Filium ex necessitate,
+<lb ed="#Ba" n="35"/>et voluntate ?
+</p>
+            <p xml:id="alalal-a38768-d1e113">
+               <lb ed="#Ba" n="36"/>Incidit autem hic quaestio de ista 
+divi<lb break="no" ed="#Ba" n="37"/>sione:
+</p>
+            <p xml:id="alalal-a38768-d1e120">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="38"/>1. Videtur autem, quod necessitate 
+Fi<lb break="no" ed="#Ba" n="39"/>lum genuerit : quod enim impossibile est
+<lb ed="#Ba" n="40"/>non esse, necesse est esse : Deum habere
+<lb ed="#Ba" n="41"/>Filium impossibile est non esse: ergo
+<lb ed="#Ba" n="42"/>necesse est esse,
+</p>
+            <p xml:id="alalal-a38768-d1e137">
+               <lb ed="#Ba" n="43"/>2. Item, Quidquid nulla parte sua est
+<lb ed="#Ba" n="44"/>contingens et possibile, ipsum in toto in
+<lb ed="#Ba" n="45"/>essentia et actu est necesse: Deus Pater
+<lb ed="#Ba" n="46"/>in nullo subjicitur contingenti et 
+possi<lb break="no" ed="#Ba" n="47"/>bili: ergo in toto est necesse : ergo ipse
+<lb ed="#Ba" n="48"/>est necessarium principium generationis
+<lb ed="#Ba" n="49"/>Filii.
+</p>
+            <p xml:id="alalal-a38768-d1e155">
+               <lb ed="#Ba" n="50"/>3. Item, Idem est posse et esse in 
+eter<lb break="no" ed="#Ba" n="51"/>nis: sed necessarium est Deum posse 
+gi<lb break="no" ed="#Ba" n="52"/>enere Filium : ergo necesse est Deum
+<lb ed="#Ba" n="53"/>genuisse Filium: et idem est in aeternis
+<lb ed="#Ba" n="54"/>genuisse et generare : ergo Deus Pater de
+<lb ed="#Ba" n="55"/>necessitate generat vel generavit Filium.
+</p>
+            <p xml:id="alalal-a38768-d1e171">
+               <lb ed="#Ba" n="56"/>4, Praeterea, Omnipotenti detrahere
+<lb ed="#Ba" n="57"/>maximum posse est impossibile : 
+maxi<lb break="no" ed="#Ba" n="58"/>mum autem posse est generare talem
+<lb ed="#Ba" n="59"/>alterum qualis ipse est: ergo hoc posse
+<lb ed="#Ba" n="60"/>impossibile est detrahere a Deo : ergo 
+ne<lb break="no" ed="#Ba" n="61"/>cesse est ponere in ipso: ergo ex 
+necessi<lb break="no" ed="#Ba" n="62"/>tate genuit Filium.
+</p>
+            <p xml:id="alalal-a38768-d1e189">
+               <lb ed="#Ba" n="63"/>5.Item, Natura existente communica~
+<lb ed="#Ba" n="64"/>bili, et nihil prohibente eam 
+communi<lb break="no" ed="#Ba" n="65"/>cari, impossibile est tollere 
+communi<lb break="no" ed="#Ba" n="66"/>cationem sui: sed natura divina 
+commu<lb break="no" ed="#Ba" n="67"/>nicabilis est, et nihil prohibet 
+communi<lb break="no" ed="#Ba" n="68"/>cationem fieri, ut supra dictuin est et 
+pro<lb break="no" ed="#Ba" n="69"/>batum est: ergo impossibile est non fieri
+<lb ed="#Ba" n="70"/>communicationem : ergo necesse fuit ge~-
+<lb ed="#Ba" n="71"/>nerare Filium: quia per generationem
+<lb ed="#Ba" n="72"/>fit nature communicatio.
+</p>
+            <p xml:id="alalal-a38768-d1e213">
+               <lb ed="#Ba" n="73"/>6. Item, Dicit Philosophus, quod ea
+<lb ed="#Ba" n="74"/>qua fiunt : aut semper, sicut necessaria,
+<lb ed="#Ba" n="75"/>aut frequenter, aut raro: sed naturalia
+<lb ed="#Ba" n="76"/>fiunt semper, aut frequenter, sed in 
+ne<lb break="no" ed="#Ba" n="77"/>cessariis fiunt semper: infra autem 
+ha<lb break="no" ed="#Ba" n="78"/>bebitur ‘, quod Deus Pater semper 
+ge<lb break="no" ed="#Ba" n="79"/>nuit Filium : ergo necessario genuit 
+Fi<lb break="no" ed="#Ba" n="80"/>lium.
+</p>
+            <p xml:id="alalal-a38768-d1e233">
+               <lb ed="#Ba" n="81"/>7. Item, Dionysius in libro de Divinis
+<lb ed="#Ba" n="82"/>nominibus: Solus fons supersubstantialis
+<lb ed="#Ba" n="83"/>Deitatis est Pater, nec Filius est Pater,
+<lb ed="#Ba" n="84"/>nec Pater Filius, custodientibus hymnis
+<pb ed="#Ba" n="197"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>propria religione unicuique 
+thearchica<lb break="no" ed="#Ba" n="2"/>rum personarum '. Cum igitur fontem
+<lb ed="#Ba" n="3"/>necesse sit fluere, Pater ex necessitate
+<lb ed="#Ba" n="4"/>genuit Filium.
+</p>
+            <p xml:id="alalal-a38768-d1e258">
+               <lb ed="#Ba" n="5"/>8. Item, In eodem, infra: Pater 
+qui<lb break="no" ed="#Ba" n="6"/>dem est fontana deitas: Filius autem et
+<lb ed="#Ba" n="7"/>Spiritus sanctus deigene deitatis, si ita
+<lb ed="#Ba" n="8"/>oportet dicere, pullulationes divine, et
+<lb ed="#Ba" n="9"/>nicut flores, et supersubstantialia lumina a
+<lb ed="#Ba" n="10"/>sanclis eloquiis accepimus. Ex hoc 
+ha<lb break="no" ed="#Ba" n="11"/>hetur, quod cum Pater sit deitas fontana,
+<lb ed="#Ba" n="12"/>impossibile est eum non fundere et 
+gene<lb break="no" ed="#Ba" n="13"/>rave Filium.
+</p>
+            <p xml:id="alalal-a38768-d1e280">
+               <lb ed="#Ba" n="14"/>Eodem modo videtur posse probari alia
+<lb ed="#Ba" n="15"/>pars, scilicet quod voluntate genuit 
+Fi<lb break="no" ed="#Ba" n="16"/>lium sic :
+</p>
+            <p xml:id="alalal-a38768-d1e289">
+               <lb ed="#Ba" n="17"/>1. Deus vult omne bonum: ergo maxime
+<lb ed="#Ba" n="18"/>honum maxime vult: sed optimum est
+<lb ed="#Ba" n="19"/>producere Filium, et producere Spiritum
+<lb ed="#Ba" n="20"/>sanclum ; ergo hoc maxime vult: ergo
+<lb ed="#Ba" n="21"/>voluntate genuit ipsum.
+</p>
+            <p xml:id="alalal-a38768-d1e302">
+               <lb ed="#Ba" n="22"/>2. Item, In omnipotente omne opus
+<lb ed="#Ba" n="23"/>subjacet voluntati: ergo cum generare
+<lb ed="#Ba" n="24"/>(ut dicit Damascenus) sit opus nature,
+<lb ed="#Ba" n="25"/>hoc in ipso subjacebit voluntati : ergo 
+vo<lb break="no" ed="#Ba" n="26"/>luntate genuit eum.
+</p>
+            <p xml:id="alalal-a38768-d1e315">
+               <lb ed="#Ba" n="27"/>3. Item, Aut genuit eum voluntate,
+<lb ed="#Ba" n="28"/>aut genuit eum non voluntate : si 
+volun<lb break="no" ed="#Ba" n="29"/>tute, habeo propositum : si non genuit
+<lb ed="#Ba" n="30"/>um voluntate, et genuit: ergo genuit
+<lb ed="#Ba" n="31"/>contra voluntatem, vel praeter 
+volunta<lb break="no" ed="#Ba" n="32"/>tem ; quorum utrumque absurdum est :
+<lb ed="#Ba" n="33"/>ergo voluntate genuit Filium.
+</p>
+            <p xml:id="alalal-a38768-d1e333">
+               <lb ed="#Ba" n="34"/>4. Item, In omnibus generantibus in
+<lb ed="#Ba" n="35"/>quibus est propositum, primum inclinans
+<lb ed="#Ba" n="36"/>ad generationem est voluntas : ergo
+<lb ed="#Ba" n="37"/>et in Deo : ergo et voluntate genuit.
+</p>
+            <p xml:id="alalal-a38768-d1e345">
+               <lb ed="#Ba" n="38"/>3. Item, Quidquid fit non voluntate
+<lb ed="#Ba" n="39"/>ejus qui habet voluntatem, non est
+<lb ed="#Ba" n="40"/>laudabile : ergo si Pater non voluntate
+<lb ed="#Ba" n="41"/>genuit Filium, Pater in generatione Filii
+<lb ed="#Ba" n="42"/>non est laudabilis, quod absurdum est :
+<lb ed="#Ba" n="43"/>ergo, etc.
+</p>
+            <p xml:id="alalal-a38768-d1e361">
+               <lb ed="#Ba" n="44"/>6. Item, Augustinus dicit infra : Si
+  <lb ed="#Ba" n="45"/>potuit gignere Filium, et noluit : ergo
+  <lb ed="#Ba" n="46"/>invidus : sed invidus non fuit : ergo
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="47"/>potuit, et voluit : ergo voluntate 
+ge<lb break="no" ed="#Ba" n="48"/>nuit.
+</p>
+            <p xml:id="alalal-a38768-d1e377">
+               <lb ed="#Ba" n="49"/>7. Item, Pater dicens Verbum, genuit
+<lb ed="#Ba" n="50"/>Filium : sed dicere semper est in 
+volun<lb break="no" ed="#Ba" n="51"/>tate dicentis : ergo generare semper est
+<lb ed="#Ba" n="52"/>in voluntate generantis : ergo semper
+<lb ed="#Ba" n="53"/>voluntate genuit.
+</p>
+            <p xml:id="alalal-a38768-d1e390">
+               <lb ed="#Ba" n="54"/>In contrarium objicitur sic primo quod sia contra
+<lb ed="#Ba" n="55"/>non ex necessitate.
+</p>
+            <p xml:id="alalal-a38768-d1e397">
+               <lb ed="#Ba" n="56"/>1. Omnis necessitas ad aliquem actum
+<lb ed="#Ba" n="57"/>est a potentia fortioris intrinseci, vel 
+ex<lb break="no" ed="#Ba" n="58"/>trinseci : Deus Pater non habet aliquid
+<lb ed="#Ba" n="59"/>fortius se : ergo non generat ex necessi--
+<lb ed="#Ba" n="60"/>tate. Secunda supponitur a ‘fide. Prima
+<lb ed="#Ba" n="61"/>probatur ex hoc quod si est necessitas
+<lb ed="#Ba" n="62"/>nature, est a forma, quae potentior est in
+<lb ed="#Ba" n="63"/>re agente per necessitatem quam 
+mate<lb break="no" ed="#Ba" n="64"/>ria, Si autem est necessitas ab 
+extrinse<lb break="no" ed="#Ba" n="65"/>co, tunc est cogens fortius : sicut 
+acci<lb break="no" ed="#Ba" n="66"/>pit in coactione violentia.
+</p>
+            <p xml:id="alalal-a38768-d1e423">
+               <lb ed="#Ba" n="67"/>2. Item, In omnibus his in quibus est
+<lb ed="#Ba" n="68"/>natura et voluntas, secundum debitum
+<lb ed="#Ba" n="69"/>ordinem natura subjacet voluntali : in
+<lb ed="#Ba" n="70"/>Deo autem natura est et voluntas : ergo et
+<lb ed="#Ba" n="71"/>in eo natura subjacet voluntati : quod
+<lb ed="#Ba" n="72"/>autem subjacet voluntati, dicit 
+Augusti<lb break="no" ed="#Ba" n="73"/>hus non esse necessarium : ergo in Deo
+<lb ed="#Ba" n="74"/>nihil est necessarium : ergo nec 
+genera<lb break="no" ed="#Ba" n="75"/>tio Filii nec aliud opus, ut videtur. 
+Pri<lb break="no" ed="#Ba" n="76"/>ma probatur ex perverso ordine in 
+no<lb break="no" ed="#Ba" n="77"/>bis : quia per peccatum accipit quod 
+po<lb break="no" ed="#Ba" n="78"/>tentie naturales voluntati et rationi non
+<lb ed="#Ba" n="79"/>subjacent. Secunda probatur per hoo
+<lb ed="#Ba" n="80"/>quod summus ordo est in Deo.
+</p>
+            <p xml:id="alalal-a38768-d1e457">
+               <lb ed="#Ba" n="81"/>Contra alteram partem sic objicitur,
+<lb ed="#Ba" n="82"/>scilicet quod non voluntate genuit :
+</p>
+            <p xml:id="alalal-a38768-d1e464">
+               <lb ed="#Ba" n="83"/>1. Damascenus in duobus locis dicit,
+<lb ed="#Ba" n="84"/>quod creatio est opus voluntatis, genera~
+<lb ed="#Ba" n="85"/>tio autem opus nature  : ergo non 
+vo<lb break="no" ed="#Ba" n="86"/>luntate genuit.
+</p>
+            <p xml:id="alalal-a38768-d1e475">
+               <lb ed="#Ba" n="87"/>2. Item, Voluntate fieri dicuntur in
+<lb ed="#Ba" n="88"/>quibus principalis motor est voluntas :
+<lb ed="#Ba" n="89"/>sed in omni generatione principalis 
+mo<lb break="no" ed="#Ba" n="90"/>tor est natura : ergo generatio non fit
+<lb ed="#Ba" n="91"/>voluntate.
+</p>
+            <p xml:id="alalal-a38768-d1e488">
+               <lb ed="#Ba" n="92"/>3. Item, Voluntas est ad volita : volita
+<lb ed="#Ba" n="93"/>autem sunt exteriora de quibus est ap-
+<pb ed="#Ba" n="198"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>prehensio in ratione boni : generatio
+<lb ed="#Ba" n="2"/>Filii non sic est de exterioribus: : ergo
+<lb ed="#Ba" n="3"/>non fit voluntate.
+</p>
+            <p xml:id="alalal-a38768-d1e506">
+               <lb ed="#Ba" n="4"/>4. Preeterea, In hominibus sic est quod
+<lb ed="#Ba" n="5"/>generatio hominum non dicit opus 
+vo<lb break="no" ed="#Ba" n="6"/>luntatis, sed potius opera mechanica
+<lb ed="#Ba" n="7"/>que sunt super materiam aliam : ergo
+<lb ed="#Ba" n="8"/>neque in divinis ita dici debet.
+</p>
+            <p xml:id="alalal-a38768-d1e519">
+               <lb ed="#Ba" n="9"/>1. Solutio. Dicendum secundum Hila.
+<lb ed="#Ba" n="10"/>rium in auctoritatibus supra inductis ',
+<lb ed="#Ba" n="11"/>quod <quote xml:id="alalal-a38768-Qd1e527"> intelligentia dictorum ex causis est
+<lb ed="#Ba" n="12"/>assumenda dicendi : quia non sermont
+<lb ed="#Ba" n="13"/>res, sed rei sermo subjectus est : </quote> et ideo
+<lb ed="#Ba" n="14"/>non omnis necessitas hic negetur, nec 
+om<lb break="no" ed="#Ba" n="15"/>nis voluntas : sed necessitas et voluntas
+<lb ed="#Ba" n="16"/>secundum intentionem hereticorum, que
+<lb ed="#Ba" n="17"/>est necessitas violentia, et coactionis ab
+<lb ed="#Ba" n="18"/>agente contra voluntatem intrinsecus vel
+<lb ed="#Ba" n="19"/>extrinsecus : sicut jam patebit, cum 
+dis<lb break="no" ed="#Ba" n="20"/>tinguetur necessarium : talem enim 
+ne<lb break="no" ed="#Ba" n="21"/>cessitatem non recipit divina generatio,
+<lb ed="#Ba" n="22"/>nec Deus : quia dicit Philosophus in
+<lb ed="#Ba" n="23"/>IV prime Philosophie : Si fuerunt res
+<lb ed="#Ba" n="24"/>simplices et wterne et immobiles, nulla
+<lb ed="#Ba" n="25"/>earum erit violentia, neque contra 
+natu<lb break="no" ed="#Ba" n="26"/>ram. Patet igitur quod talis necessitas
+<lb ed="#Ba" n="27"/>violentiae non cadit in Deum. 
+Volunta<lb break="no" ed="#Ba" n="28"/>tem autem dicebant in Deo esse acceden-_
+<lb ed="#Ba" n="29"/>tem, ut dicit Augustinus, vel 
+anteceden<lb break="no" ed="#Ba" n="30"/>tem, quae cst de re antequam sit ipsa res,
+<lb ed="#Ba" n="31"/>et quae quandoque est apud volentem, et
+<lb ed="#Ba" n="32"/>quandoque non: unde si talis esset 
+vo<lb break="no" ed="#Ba" n="33"/>luntas in Deo, et Pater esset mutabilis
+<lb ed="#Ba" n="34"/>qui quandoque unum vellet, et 
+quando<lb break="no" ed="#Ba" n="35"/>que aliud : et Filius non esset aeternus,
+<lb ed="#Ba" n="36"/>cujus generationem voluntas paterna 
+an<lb break="no" ed="#Ba" n="37"/>tecessisset, sicut rerum creationem 
+pre<lb break="no" ed="#Ba" n="38"/>venerat. Dicendum ergo secundum 
+Phi<lb break="no" ed="#Ba" n="39"/>losophum in IV prime Philosophie,
+<lb ed="#Ba" n="40"/>quod necessarium dicitur respective, ct
+<lb ed="#Ba" n="41"/>absolute. Respective autem dicitur 
+re<lb break="no" ed="#Ba" n="42"/>spectu finis intenti, aut respectu 
+efficien<lb break="no" ed="#Ba" n="43"/>tis cogentis. Respectu finis duobus 
+mo<lb break="no" ed="#Ba" n="44"/>dis, scilicet respectu esse, et respectu
+<lb ed="#Ba" n="45"/>bene esse : sicut necessarium est ad
+<lb ed="#Ba" n="46"/>esse, sinc quo impossibile est habere
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="47"/>aut conservare esse, sicut anhelitus et
+<lb ed="#Ba" n="48"/>nutrimentum in animalibus : respectu
+<lb ed="#Ba" n="49"/>bene esse, sine quo non _habetur finis
+<lb ed="#Ba" n="50"/>inlentus in bene esse, sicut acceptio
+<lb ed="#Ba" n="51"/>debiti ab Atheniense cive non habetur
+<lb ed="#Ba" n="52"/>nisi navigctur Athenas : est ergo 
+ne<lb break="no" ed="#Ba" n="53"/>cessaria navigatio ad Athenas ad ac~
+<lb ed="#Ba" n="54"/>ceptionem debiti. Respectu autem esse
+<lb ed="#Ba" n="55"/>efficientis, similiter est duobus modis,
+<lb ed="#Ba" n="56"/>scilicet respectu agentis extra, et 
+respe<lb break="no" ed="#Ba" n="57"/>ctu agentis intra. Respectu agentis 
+ex<lb break="no" ed="#Ba" n="58"/>tra, sicul Dionysius dixit, quod 
+necessa<lb break="no" ed="#Ba" n="59"/>rium est contristans, et violentia est
+<lb ed="#Ba" n="60"/>aliqua necessitas : et quidam Philoso-_
+<lb ed="#Ba" n="61"/>phus Ariotas dixit, Violentia de 
+neces<lb break="no" ed="#Ba" n="62"/>silate cogit me ut haec faciam. Respectu
+<lb ed="#Ba" n="63"/>aulemn cogentis intra, sicut dicitur, III
+<lb ed="#Ba" n="64"/>Esdre, iu, 12, quod super omnia 
+vin<lb break="no" ed="#Ba" n="65"/>cul verias : quia cogit consensum : ct
+<lb ed="#Ba" n="66"/>hoe modo dicit Philosophus, quod 
+ne<lb break="no" ed="#Ba" n="67"/>cessilas non permiltit opinantem ad 
+ve<lb break="no" ed="#Ba" n="68"/>rum revert, et mutarl a sua opinione.
+<lb ed="#Ba" n="69"/>Absolute autem necessarium est (ut dicit
+<lb ed="#Ba" n="70"/>Philosophus) quod impossibile est ut sit
+<lb ed="#Ba" n="71"/>alio modo et hoc tribus modis est,
+<lb ed="#Ba" n="72"/>scilicet per se, et per aliud, et 
+composi<lb break="no" ed="#Ba" n="73"/>tum ex utroque : per se, sicut principia :
+<lb ed="#Ba" n="74"/>per aliud, sicut conclusio determinata :
+<lb ed="#Ba" n="75"/>ex utroque, sicut syllogismus. Et 
+simi<lb break="no" ed="#Ba" n="76"/>liter est in ente incomplexo. Unde dicit
+<lb ed="#Ba" n="77"/>Philosophus, quod necessarium absolute
+<lb ed="#Ba" n="78"/>et per se non cst nisi unum simplex 
+pri<lb break="no" ed="#Ba" n="79"/>mum : omnia enim alia composita ex suis
+<lb ed="#Ba" n="80"/>componentibus trahunt necessitatem, et
+<lb ed="#Ba" n="81"/>componentia ab efliciente primo : et ideo
+<lb ed="#Ba" n="82"/>possibilia sunt secundum illa a quibus
+<lb ed="#Ba" n="83"/>habent necessitatem : quia prius per 
+in<lb break="no" ed="#Ba" n="84"/>tellectum in illis sunt in potentia quam
+<lb ed="#Ba" n="85"/>in necessitate. Secundum igitur hane
+<lb ed="#Ba" n="86"/>divisionem dicemus, quod solus Deus est
+<lb ed="#Ba" n="87"/>necessarium primum. Sunt autem multi
+<lb ed="#Ba" n="88"/>alii modi in quibus non salyatur ratio
+<lb ed="#Ba" n="89"/>necessitatis msi aequivoce . sicut utile
+<lb ed="#Ba" n="90"/>necessarium consuevimus dicere, et 
+ex<lb break="no" ed="#Ba" n="91"/>pediens necessarium.
+</p>
+            <p xml:id="alalal-a38768-d1e707">
+               <lb ed="#Ba" n="92"/>His habitis, facile est respondere ad
+<lb ed="#Ba" n="93"/>illam partem objectorum quae sunt de
+<pb ed="#Ba" n="199"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>necessario : omnes enim ille rationes et
+<lb ed="#Ba" n="2"/>auetoritates Dionysii adducte, plane 
+lo<lb break="no" ed="#Ba" n="3"/>quuntur de necessario simplici et 
+abso<lb break="no" ed="#Ba" n="4"/>lute, quod precipue est Deus : et hac
+<lb ed="#Ba" n="5"/>necessitate generat Filium : neque 
+se<lb break="no" ed="#Ba" n="6"/>quitur aliquod inconveniens in ipso.
+</p>
+            <p xml:id="alalal-a38768-d1e731">
+               <lb ed="#Ba" n="7"/>Eodem modo distinguimus multiplicem
+<lb ed="#Ba" n="8"/>voluntatem secundo modo. Est enim 
+vo<lb break="no" ed="#Ba" n="9"/>luntas potentia volens, et est motor 
+alia<lb break="no" ed="#Ba" n="10"/>rum potestatum quae sunt in volente,
+<lb ed="#Ba" n="11"/>sicut voluntas voliti extra, sicut cibi, vel
+<lb ed="#Ba" n="12"/>potus, vel alterius, et hoc modo 
+volun<lb break="no" ed="#Ba" n="13"/>tatis opus est creatura : quia illud est
+<lb ed="#Ba" n="14"/>extra Deum. Secundum autem quod 
+vo<lb break="no" ed="#Ba" n="15"/>luntas est quasi motor aliarum 
+potesta<lb break="no" ed="#Ba" n="16"/>tum, ut cum dicitur, volo intelligere,
+<lb ed="#Ba" n="17"/>volo ambulare, potest intelligi secundum
+<lb ed="#Ba" n="18"/>Magistrum haectripliciter, seilicet 
+ante<lb break="no" ed="#Ba" n="19"/>cedens qua est quasi disponens 
+vo<lb break="no" ed="#Ba" n="20"/>lentem : et est voluntas ista 
+praemedita<lb break="no" ed="#Ba" n="21"/>fionis de opere qualiter fieri debeat, ut
+<lb ed="#Ba" n="22"/>arcarius praemeditatur in qua parte 
+ma<lb break="no" ed="#Ba" n="23"/>terie arce faciat fundum, et in qua 
+oper<lb break="no" ed="#Ba" n="24"/>culum, et in qua parietem. Est etiam
+<lb ed="#Ba" n="25"/>voluntas accedens : et haec duobus modis,
+<lb ed="#Ba" n="26"/>scilicet accedens operi, et accedens 
+vo<lb break="no" ed="#Ba" n="27"/>Jenti : accedens oper: est quae immediate
+<lb ed="#Ba" n="28"/>precedit opus, sicut est voluntas ad 
+ope<lb break="no" ed="#Ba" n="29"/>randum, ut percutiendi cum dolabro, et
+<lb ed="#Ba" n="30"/>hujusmodi : accedens volenti est quam
+<lb ed="#Ba" n="31"/>non habuit semper, sed accedit ei ex
+<lb ed="#Ba" n="32"/>nova apprehensione alicujus apprehensi
+<lb ed="#Ba" n="33"/>moventis voluntatem. Tertia est voluntas
+<lb ed="#Ba" n="34"/>operi concurrens, quae dicitur 
+concomi<lb break="no" ed="#Ba" n="35"/>tans : et ista voluntate Pater genuit 
+Fi<lb break="no" ed="#Ba" n="36"/>lium, quia voluit generationem : et de
+<lb ed="#Ba" n="37"/>ista ultima procedunt rationes inducte
+<lb ed="#Ba" n="38"/>ad hoc’quod voluntate genuit Filium, ut
+<lb ed="#Ba" n="39"/>patet singulas inspicienti.
+</p>
+            <p xml:id="alalal-a38768-d1e805">
+               <lb ed="#Ba" n="40"/>Iuta auTeM rationes quae inducuntur
+<lb ed="#Ba" n="41"/>ad probandum, quod non necessario 
+ge<lb break="no" ed="#Ba" n="42"/>nuit Filium, sequuntur de necessario per
+<lb ed="#Ba" n="43"/>coactionem : et hoc necessarium in Deum
+<lb ed="#Ba" n="44"/>cadere non potest, ut dictum est,
+</p>
+            <p xml:id="alalal-a38768-d1e818">
+               <lb ed="#Ba" n="45"/>Similiter aliae rationes quae inducuntur
+<lb ed="#Ba" n="46"/>ad hoc quod non voluntate genuit, 
+acci<lb break="no" ed="#Ba" n="47"/>piuntur de voluntate exteriorum : prima
+<lb ed="#Ba" n="48"/>et secunda et tertia de voluntate prece-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="49"/>dente, secundum quas non est 
+volun<lb break="no" ed="#Ba" n="50"/>tatis opus generatio divina, ut dictum
+<lb ed="#Ba" n="51"/>est.
+</p>
+            <p xml:id="alalal-a38768-d1e838">
+               <lb ed="#Ba" n="52"/>Et sic patet solutio, ad omnia alia
+<lb ed="#Ba" n="53"/>objecta simul.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

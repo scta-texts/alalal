@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="99"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c18633"><!-- l1d31dt -->
+            <head xml:id="alalal-c18633-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-c18633-d1e101">
+               <pb ed="#Bb" n="99"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>DIVISIO TEXTUS.
+<lb ed="#Bb" n="2"/>
+               <quote xml:id="alalal-c18633-Qd1e111"> Praeterea considerarit oportet, cum
+<lb ed="#Bb" n="3"/>tres persone, etc. </quote>
+            </p>
+            <p xml:id="alalal-c18633-d1e117">
+               <lb ed="#Bb" n="4"/>Hic incipit pars illa, in qua Magister
+<lb ed="#Bb" n="5"/>tangit non propria, sed appropriata. Et
+<lb ed="#Bb" n="6"/>continetur tota in ista distinctione, que
+<lb ed="#Bb" n="7"/>dividitur in tres partes : in quarum prima
+<lb ed="#Bb" n="8"/>Magister tangit quid significent 
+hujusmo<lb break="no" ed="#Bb" n="9"/>di dictiones, similis, aequalis, penes quas
+<lb ed="#Bb" n="10"/>quedam appropriata sumuntur. In 
+se<lb break="no" ed="#Bb" n="11"/>cunda tangit tria appropriata personis
+<lb ed="#Bb" n="12"/>secundum assignationem Hilarii, ibi, C,
+<lb ed="#Bb" n="13"/>
+               <quote xml:id="alalal-c18633-Qd1e140"> Non est igitur hic pretermitiendum,
+<lb ed="#Bb" n="14"/>quod vir tllustris, etc.</quote> In tertia tangit
+<lb ed="#Bb" n="15"/>appropriala secundum assignationem
+<lb ed="#Bb" n="16"/>Augustini, ibi, G, <quote xml:id="alalal-c18633-Qd1e150"> Lud etiam sciri
+<lb ed="#Bb" n="17"/>oportet, etc. </quote>
+            </p>
+            <p xml:id="alalal-c18633-d1e156">
+               <lb ed="#Bb" n="18"/>Ipse autem Magister in Litlera dividit
+<lb ed="#Bb" n="19"/>primam partem in duas:in quarum prima
+<lb ed="#Bb" n="20"/>querit, Utrum similis, aequalis, et 
+hujus<lb break="no" ed="#Bb" n="21"/>modi, relative vel secundum essentiam
+<lb ed="#Bb" n="22"/>dicantur ? In secunda autem determinat
+<lb ed="#Bb" n="23"/>quid significet similitudo, et aequalitas,
+<lb ed="#Bb" n="24"/>ibi, B, <quote xml:id="alalal-c18633-Qd1e173"> Hoc idem etiam dicimus de 
+si<lb break="no" ed="#Bb" n="25"/>militudine, etc. </quote>
+            </p>
+            <p xml:id="alalal-c18633-d1e179">
+               <lb ed="#Bb" n="26"/>Et per hoc patet sententia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

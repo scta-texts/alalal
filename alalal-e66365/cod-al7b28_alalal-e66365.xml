@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="349"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e66365"><!-- l3d19a10 -->
+            <head xml:id="alalal-e66365-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-e66365-Hd1e101" type="question-title">An Christus sit mediator inter Deum</head>
+            <p xml:id="alalal-e66365-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="25"/>ARTICULUS X.
+<lb ed="Bd" n="26"/>An Christus sit mediator inter Deum
+</p>
+            <p xml:id="alalal-e66365-d1e113">
+               <lb ed="Bd" n="27"/>Deinde quaeritur de altera parte ubi
+  <lb ed="Bd" n="28"/>dicitur, 1pL, Pl <quote xml:id="alalal-e66365-Qd1e119"> Gue sodus dicitur 
+me<lb break="no" ed="Bd" n="29"/>diator, etc </quote>
+            </p>
+            <p xml:id="alalal-e66365-d1e125">
+               <lb ed="Bd" n="30"/>i. Si enim dicitur Christus secundum
+  <lb ed="Bd" n="31"/>humanam naturani mediator, videtur
+  <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="32"/>potius dici extremum, quam medium :
+<lb ed="Bd" n="33"/>quia homo est extremum.
+</p>
+            <p xml:id="alalal-e66365-d1e139">
+               <lb ed="Bd" n="34"/>2. Item, Mediuin numquam habet in
+<lb ed="Bd" n="35"/>se actu utruamque extremorum: sed
+<lb ed="Bd" n="36"/>Christus est verus Deus, et verus homo:
+<lb ed="Bd" n="37"/>ergo ipse non medius inter Deum et 
+ho<lb break="no" ed="Bd" n="38"/>minem.
+</p>
+            <p xml:id="alalal-e66365-d1e152">
+               <lb ed="Bd" n="39"/>3. Item, Tpse videlur sibi contradiccre
+<lb ed="Bd" n="40"/>in Littera. Primo enim dicit, quod 
+Chri<lb break="no" ed="Bd" n="41"/>stus esi mediator ratione humane 
+natu<lb break="no" ed="Bd" n="42"/>rae tantum : et postea cirea linem 
+secun<lb break="no" ed="Bd" n="43"/>di capituli loquens de haereticis, dicit :
+<lb ed="Bd" n="44"/>
+               <quote xml:id="alalal-e66365-Qd1e167"> Si ergo Christus secundum vos, o 
+hae<lb break="no" ed="Bd" n="45"/>retici, unam tantum habet naturam, 
+un<lb break="no" ed="Bd" n="46"/>de medtus crit ? et nisi ita sit me-
+<pb ed="#Bd" n="350"/>
+                  <cb ed="#Bd" n="a"/>
+                  <lb ed="Bd" n="1"/>dius ut Deus sit propter 
+humanita<lb break="no" ed="Bd" n="2"/>tis naturam. </quote> Ergo videtur, quod
+<lb ed="Bd" n="3"/>propter conjunctionem utriusque 
+natu<lb break="no" ed="Bd" n="4"/>re medius sit. Et hic dicit, quod propter
+<lb ed="Bd" n="5"/>humanam tantum. Ergo sibi contrarius
+<lb ed="Bd" n="6"/>est.
+</p>
+            <p xml:id="alalal-e66365-d1e192">
+               <lb ed="Bd" n="7"/>4. Si medium dicitur participatione
+<lb ed="Bd" n="8"/>extremorum, tunc medium erit eque
+<lb ed="Bd" n="9"/>distans ab utroque extremo: ergo non
+<lb ed="Bd" n="10"/>erit actus medii unum extremum 
+conjun<lb break="no" ed="Bd" n="11"/>gere cum altero : ergo actus mediatoris
+<lb ed="Bd" n="12"/>non erit reconciliare hominem Deo, ut
+<lb ed="Bd" n="13"/>videtur,
+</p>
+            <p xml:id="alalal-e66365-d1e210">
+               <lb ed="Bd" n="14"/>5. Item, Cum inveniatur in alio 
+con<lb break="no" ed="Bd" n="15"/>venientia cum utroque extremo : ut 
+de<lb break="no" ed="Bd" n="16"/>mon, qui immortalis est cum Deo, et
+<lb ed="Bd" n="17"/>miser nobiscum, numquid ipse mediator
+<lb ed="Bd" n="18"/>erit inter nos et Deum ? Videtur quod
+<lb ed="Bd" n="19"/>sic : quia convenit cum utroque 
+extre<lb break="no" ed="Bd" n="20"/>morum.
+</p>
+            <p xml:id="alalal-e66365-d1e228">
+               <lb ed="Bd" n="21"/>6. Item, Angelus bonus qui est 
+creatu<lb break="no" ed="Bd" n="22"/>ra nobiscum, immortalis autem et bonus
+<lb ed="Bd" n="23"/>cum Deo, videtur esse medius inter nos
+<lb ed="Bd" n="24"/>et Deum: ergo esse mediatorem non
+<lb ed="Bd" n="25"/>tantum convenit Christo, ut videtur.
+</p>
+            <p xml:id="alalal-e66365-d1e241">
+               <lb ed="Bd" n="26"/>Solutio ad haec omnia fere est per
+<lb ed="Bd" n="27"/>guamdam auctoritatem Augustini in 
+h<lb break="no" ed="Bd" n="28"/>bro IX de Civitate Dei, quae quidem 
+lon<lb break="no" ed="Bd" n="29"/>ga est, sed bona : ubi dicit sic, <quote xml:id="alalal-e66365-Qd1e251"> 
+Media<lb break="no" ed="Bd" n="30"/>torem inter nos et Deum, et 
+mortalita<lb break="no" ed="Bd" n="31"/>tem habere oportuit transeuntem, et 
+be<lb break="no" ed="Bd" n="32"/>atitudinem permanentem: ut per id
+<lb ed="Bd" n="33"/>quod transit, congruenter morituris, et
+<lb ed="Bd" n="34"/>ad id quod permanet, transferret ex 
+mor<lb break="no" ed="Bd" n="35"/>tuis. Boni igitur Angeli inter miseros
+<lb ed="Bd" n="36"/>mortales et beatos et immortales medii
+<lb ed="Bd" n="37"/>esse non possunt: quia ibi quoque et
+<lb ed="Bd" n="38"/>beati et immortales sunt. Possunt autem
+<lb ed="Bd" n="39"/>esse medii Angeli mali, quia immortales
+<lb ed="Bd" n="40"/>sunt cum illis, miseri cum istis. His 
+con<lb break="no" ed="Bd" n="41"/>trarius est mediator bonus, qui adversus
+<lb ed="Bd" n="42"/>corum immortalitaltem et miseriam, et
+<lb ed="Bd" n="43"/>inortalis esse ad tempus voluit, et beatus
+<lb ed="Bd" n="44"/>in ewternitate persistere potuit. Ac sic
+<cb ed="#Bd" n="b"/>
+                  <lb ed="Bd" n="45"/>eos et immortales superbos et miseros
+<lb ed="Bd" n="46"/>noxios, ne per immortalitatis jactantiam
+<lb ed="Bd" n="47"/>seducerent ad miseriam, et sus mortis
+<lb ed="Bd" n="48"/>humilitate, et sue beatitudinis 
+benigni<lb break="no" ed="Bd" n="49"/>tate destruxit in eis, quorum corda per
+<lb ed="Bd" n="50"/>suam fidem mandans, ab illorum 
+im<lb break="no" ed="Bd" n="51"/>mundissima dammnatione liberavit 2. </quote>
+               <lb ed="Bd" n="52"/>Ex hoc patet, quod nec Angelus bonus,
+<lb ed="Bd" n="53"/>nec Angelus malus mediator est: quia
+<lb ed="Bd" n="54"/>Angelus bonus nobiscum non convenit,
+<lb ed="Bd" n="55"/>sed Angelus malus, licet convenit, tamen
+<lb ed="Bd" n="56"/>actum mediatoris in conjungendo beatis
+<lb ed="Bd" n="57"/>non habet, sed potius actum seductoris,
+<lb ed="Bd" n="58"/>Unde ibidem infra dicit Angustinus :
+<lb ed="Bd" n="59"/>
+               <quote xml:id="alalal-e66365-Qd1e321"> Ad hoc quippese interponit medius
+<lb ed="Bd" n="60"/>immortalis et miser, ut ad 
+immortalita<lb break="no" ed="Bd" n="61"/>tem beatam transire non sinat, quoniam
+<lb ed="Bd" n="62"/>persistit quod impedit, scilicet ipsa 
+mi<lb break="no" ed="Bd" n="63"/>seria. Ad hoc autem se interponit 
+mor<lb break="no" ed="Bd" n="64"/>talis et beatus, ut mortalitate transacta,
+<lb ed="Bd" n="65"/>et ex mortuis faceret immortales, quod in
+<lb ed="Bd" n="66"/>se resurgendo monstravit, et ex miseris
+<lb ed="Bd" n="67"/>beatos, unde numquam ipse discessit. </quote>
+               <lb ed="Bd" n="68"/>Ex hoc accipitur, quod illud medium est
+<lb ed="Bd" n="69"/>medium, quod est ut via in extremum, et
+<lb ed="Bd" n="70"/>medium conjunctionis, et non per #
+equi<lb break="no" ed="Bd" n="71"/>distantiam ab utroque.
+</p>
+            <p xml:id="alalal-e66365-d1e352">
+               <lb ed="Bd" n="72"/>Dicendum ergo ad primum, quod 
+Chri<lb break="no" ed="Bd" n="73"/>stus in quantum homo, convenit cum
+<lb ed="Bd" n="74"/>extremo : et ex virtute unionis habet 
+ali<lb break="no" ed="Bd" n="75"/>quid in quo convenit cum alio, scilicet
+<lb ed="Bd" n="76"/>justitiam et gratiae plenitudinem : quia
+<lb ed="Bd" n="77"/>sine illa non esset medium conjungens,
+<lb ed="Bd" n="78"/>sed distans, et faciens distare, sicut 
+an<lb break="no" ed="Bd" n="79"/>gelus malus : convenit autem cum 
+ho<lb break="no" ed="Bd" n="80"/>mine per mortalitatem, quae est via per
+<lb ed="Bd" n="81"/>solutionem pretii. Et sic utrumque est
+<lb ed="Bd" n="82"/>medians, scilicet id in quo convenit
+<lb ed="Bd" n="83"/>cum homine, quia mortalitas transiens
+<lb ed="Bd" n="84"/>in immortalitatem, et id in quo 
+conve<lb break="no" ed="Bd" n="85"/>nit cum Deo, quod plenitudo gratia est
+<lb ed="Bd" n="86"/>de qua omnes accepimus gratiam pro
+<lb ed="Bd" n="87"/>gratia. Unde non dicitur hic medium
+<lb ed="Bd" n="88"/>per respectum ad naturam, sed potius
+<lb ed="Bd" n="89"/>ad nature sic unite proprietates duas, in
+<pb ed="#Bd" n="351"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>quarum altera convenit cum uno 
+extre<lb break="no" ed="Bd" n="2"/>mo, et in altera cum reliquo, et in 
+utra<lb break="no" ed="Bd" n="3"/>que est via infcriori extremo in superius
+<lb ed="Bd" n="4"/>extremum.
+</p>
+            <p xml:id="alalal-e66365-d1e407">
+               <lb ed="Bd" n="5"/>Ad aliud dicendum, quod est medium
+<lb ed="Bd" n="6"/>per abnegationem et commixtionem : et
+<lb ed="Bd" n="7"/>tale non habet in se extrema, sed illud
+<lb ed="Bd" n="8"/>quod est ita medium, quod habeat 
+ac<lb break="no" ed="Bd" n="9"/>tum mediatoris, qui est unire inferius
+<lb ed="Bd" n="10"/>extremum superior: : sed Christus est
+<lb ed="Bd" n="11"/>ita medium, qued ipse est mediator, et
+<lb ed="Bd" n="12"/>conjungens unum cum altero: et ideo
+<lb ed="Bd" n="13"/>oportet in se habere extrema actu.
+</p>
+            <p xml:id="alalal-e66365-d1e429">
+               <lb ed="Bd" n="14"/>Ad aliud dicendum, quod ipse non
+<lb ed="Bd" n="15"/>est sibi contrarius : quia medium sonat
+<lb ed="Bd" n="16"/>inferioritatem : Christus autem 
+secun<lb break="no" ed="Bd" n="17"/>dum hoc quod Verbum est, non est 
+infe<lb break="no" ed="Bd" n="18"/>rior Patre, sed aequalis : tamen unio 
+Ver<lb break="no" ed="Bd" n="19"/>bi exigitur ad esse mediatorem : quia
+<lb ed="Bd" n="20"/>unum extremum habet ille per naturam,
+<lb ed="Bd" n="21"/>scilicet immortalitatem . et aliud per
+<lb ed="Bd" n="22"/>unionem ad divinam naturam, licet 
+ta<lb break="no" ed="Bd" n="23"/>men insit humane nature secundum
+<lb ed="Bd" n="24"/>gratiae plenitudinem, guia datus est ei
+<lb ed="Bd" n="25"/>spirtlus non ad mensuram, et quia 
+ces<lb break="no" ed="Bd" n="26"/>sante unione humana natura non haberet
+<lb ed="Bd" n="27"/>illam plenitudinem gratie# : et ideo 
+Au<lb break="no" ed="Bd" n="28"/>gustinus loguitur contra hereticos, 
+di<lb break="no" ed="Bd" n="29"/>cens, quod non esset mediator, nisi 
+ha<lb break="no" ed="Bd" n="30"/>beret utrainque naturam : non quod 
+gra<lb break="no" ed="Bd" n="31"/>lia utrusque mediator sit: sed quia ut
+<lb ed="Bd" n="32"/>esse possit mediator in altera natura,
+<lb ed="Bd" n="33"/>quae via est in ipso ad reliquam, utra-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="34"/>que exigitur. Quod autem ita sit, 
+accipi<lb break="no" ed="Bd" n="35"/>tur ab Augustino, qui sic dicit in libro
+<lb ed="Bd" n="36"/>IX de Civitate Dei : <quote xml:id="alalal-e66365-Qd1e483"> Nec ob hoc 
+me<lb break="no" ed="Bd" n="37"/>diator est, quia Verbum : maxime 
+quip<lb break="no" ed="Bd" n="38"/>pe immortale, et maxime beatum 
+Ver<lb break="no" ed="Bd" n="39"/>bum longe est a mortalibus miseriis :
+<lb ed="Bd" n="40"/>sed mediator per quod homo, eo ipso
+<lb ed="Bd" n="41"/>ostendens utique ad illud non solum
+<lb ed="Bd" n="42"/>beatum, verum etiam beatificum 
+bo<lb break="no" ed="Bd" n="43"/>num non oportere queri alios 
+media<lb break="no" ed="Bd" n="44"/>tores, per quos arbitramur nobis 
+perven<lb break="no" ed="Bd" n="45"/>tionis gradus esse moliendos : quia 
+bea<lb break="no" ed="Bd" n="46"/>tus et beatificus Deus, factus particeps
+<lb ed="Bd" n="47"/>humanitatis nostre, compendium 
+pre<lb break="no" ed="Bd" n="48"/>buit participande divinitatis sue’. </quote>
+            </p>
+            <p xml:id="alalal-e66365-d1e513">
+               <lb ed="Bd" n="49"/>Ad aliud dicendum, quod medium
+<lb ed="Bd" n="50"/>quod est mediator et via (ut ita dicam)
+<lb ed="Bd" n="51"/>non ila dicitur per aeque distantiam :
+<lb ed="Bd" n="52"/>quia hoc oppositionem habet cum 
+utro<lb break="no" ed="Bd" n="53"/>que extremorum.
+</p>
+            <p xml:id="alalal-e66365-d1e526">
+               <lb ed="Bd" n="54"/>Ad aliud dicendum, quod demon 
+ha<lb break="no" ed="Bd" n="55"/>bet quamdam convenientiam cum 
+utro<lb break="no" ed="Bd" n="56"/>que : sed immortalilas sua non est vera
+<lb ed="Bd" n="57"/>immortalitas : et ideo non convenit nisi
+<lb ed="Bd" n="58"/>secundum quid. Praeterea, Ipse non est
+<lb ed="Bd" n="59"/>via, sed potius abductio: et ideo non
+<lb ed="Bd" n="60"/>convenit ei mediare.
+</p>
+            <p xml:id="alalal-e66365-d1e544">
+               <lb ed="Bd" n="61"/>Ad aliud dicendum, quod Angelus 
+bo<lb break="no" ed="Bd" n="62"/>nus non convenit : quia hoc quod est
+<lb ed="Bd" n="63"/>esse creaturam, non est convenientia
+<lb ed="Bd" n="64"/>sufficiens. Praeterea, Mediare inter
+<lb ed="Bd" n="65"/>Deum, hominem reconciliando non 
+po<lb break="no" ed="Bd" n="66"/>tuit, sicut prius habitum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

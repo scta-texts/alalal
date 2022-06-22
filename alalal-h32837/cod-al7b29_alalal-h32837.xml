@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 36</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 36</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="620"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h32837"><!-- l4d16a36 -->
+            <head xml:id="alalal-h32837-Hd1e99">Articulus 36</head>
+            <head xml:id="alalal-h32837-Hd1e101" type="question-title">An oporteat confessionem esse integram?</head>
+            <p xml:id="alalal-h32837-d1e104">
+               <lb ed="#Be" n="80"/>ARTICULUS XXXVI.
+<lb ed="#Be" n="81"/>An oporteat confessionem esse integram?
+</p>
+            <p xml:id="alalal-h32837-d1e111">
+               <lb ed="#Be" n="82"/>Deinde per praecedentes de 
+eleemosy<lb break="no" ed="#Be" n="83"/>na * questiones habitas, omnia patent
+<lb ed="#Be" n="84"/>usque ad illum locum, ibi, A, § 2, ubi
+<lb ed="#Be" n="85"/>dicit : <quote xml:id="alalal-h32837-Qd1e121"> Caveat ne ductus verecundia 
+di<lb break="no" ed="#Be" n="86"/>vidat apud se confessionem, etc. </quote>
+            </p>
+            <p xml:id="alalal-h32837-d1e127">
+               <lb ed="#Be" n="87"/>Queritur enim hic de integritate 
+con<lb break="no" ed="#Be" n="88"/>fessionis.
+</p>
+            <p xml:id="alalal-h32837-d1e135">
+               <pb ed="#Be" n="621"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Et videtur, quod non oportet eam esse
+<lb ed="#Be" n="2"/>integram :
+<lb ed="#Be" n="3"/>1. Confessio enim est propter judicium
+<lb ed="#Be" n="4"/>eccati : aequale autem vel etiam melius
+<lb ed="#Be" n="5"/>judicium fit de peccato quando una uni
+<lb ed="#Be" n="6"/>pars propalatur, et alii alia pars, quia
+<quote xml:id="alalal-h32837-Qd1e154">Pluribus intentus minor est ad singula sen-
+[sus.</quote>
+               <lb ed="#Be" n="7"/>Cum igitur divisio valeat ad melius 
+ju<lb break="no" ed="#Be" n="8"/>dicium peccati, videtur quod melior sit
+<lb ed="#Be" n="9"/>confessio divisa, quam integra.
+</p>
+            <p xml:id="alalal-h32837-d1e164">
+               <lb ed="#Be" n="10"/>2. Item, Nullum est periculum in 
+pe<lb break="no" ed="#Be" n="11"/>nitentia : quia si unusquisque injungit
+<lb ed="#Be" n="12"/>competentem poenitentiam de his quae
+<lb ed="#Be" n="13"/>audivit, collecta| simul poenitentia 
+om<lb break="no" ed="#Be" n="14"/>nibus erit competens et condigna : ergo
+<lb ed="#Be" n="15"/>ipsa delet peccatum, licet sit divisa.’
+</p>
+            <p xml:id="alalal-h32837-d1e180">
+               <lb ed="#Be" n="16"/>3. Si forte tu dicas, quod sicut in
+<lb ed="#Be" n="17"/>Littera dicitur, propter verecundiam hoc
+<lb ed="#Be" n="18"/>fit : quia magis verecundatur coram uno
+<lb ed="#Be" n="19"/>dicere omnia, quam divisim coram 
+mul<lb break="no" ed="#Be" n="20"/>tis. Contra : Verecundia accidit confes—
+<lb ed="#Be" n="21"/>sioni : propter accidens autem non 
+de<lb break="no" ed="#Be" n="22"/>bet variari res in substantia : ergo 
+prop<lb break="no" ed="#Be" n="23"/>ter verecundiam non potest esse, quod
+<lb ed="#Be" n="24"/>non sit confessio divisa, dummodo alias
+<lb ed="#Be" n="25"/>confessio sit.
+</p>
+            <p xml:id="alalal-h32837-d1e204">
+               <lb ed="#Be" n="26"/>4. Item, Si propter verecundiam hoc
+<lb ed="#Be" n="27"/>fit: tune etiam alia majorem 
+verecun<lb break="no" ed="#Be" n="28"/>diam inducentia debent precipi 
+confi<lb break="no" ed="#Be" n="29"/>tenti. Constat autem, quod coram uno
+<lb ed="#Be" n="30"/>sacerdote multo magis verecundatur,
+<lb ed="#Be" n="31"/>quam coram alio : ergo videtur, quod
+<lb ed="#Be" n="32"/>sibi precipi debeat, quod illi confiteatur
+<lb ed="#Be" n="33"/>coram quo maxime verecundatur, quod
+<lb ed="#Be" n="34"/>falsum est : ergo verecundia non est
+<lb ed="#Be" n="35"/>causa.
+</p>
+            <p xml:id="alalal-h32837-d1e228">
+               <lb ed="#Be" n="36"/>5. Item, Possibile est aliquem 
+confes<lb break="no" ed="#Be" n="37"/>sionem dividere non ex causa quae 
+assi<lb break="no" ed="#Be" n="38"/>gnatur in Littera, scilicet ut per 
+hypo<lb break="no" ed="#Be" n="39"/>crisim se laudet : quia potest aliquis hoc
+<lb ed="#Be" n="40"/>facere ex ignorantia, vel ex quantitate
+<lb ed="#Be" n="41"/>contritionis : quia vult, quod plures 
+plu<lb break="no" ed="#Be" n="42"/>ra injungant, et sic melius satisfaciat :
+<lb ed="#Be" n="43"/>ergo videtur, quod tune talis possit 
+divi<lb break="no" ed="#Be" n="44"/>dere confessionem.
+</p>
+            <p xml:id="alalal-h32837-d1e250">
+               <lb ed="#Be" n="45"/>6. Item, Videtur multis esse impossi-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="46"/>bile quod dicit. Dicit enim Psalmus
+<lb ed="#Be" n="47"/>xvi, 13: <quote xml:id="alalal-h32837-Qd1e260">Delicta quis intelligit? Ab
+<lb ed="#Be" n="48"/>occultis meis munda me.</quote> Ponamus ergo,
+<lb ed="#Be" n="49"/>quod aliquis in confessione sua 
+quorum<lb break="no" ed="#Be" n="50"/>dam sit oblitus, quae libenter 
+confitere<lb break="no" ed="#Be" n="51"/>tur, siin memoria haheret : et postquam
+<lb ed="#Be" n="52"/>omnia quae in memoria habuit, 
+confes<lb break="no" ed="#Be" n="53"/>sus est: et recedat ab eo sacerdos, vel e
+<lb ed="#Be" n="54"/>converso ipse a sacerdote, ita ut ad eum
+<lb ed="#Be" n="55"/>aecedere opportune non possit :et tunc
+<lb ed="#Be" n="56"/>recordetur aliquorum quae non est 
+con<lb break="no" ed="#Be" n="57"/>fessus : tunc igitur quero, an confessio
+<lb ed="#Be" n="58"/>prius facta valuit, an non? Si valuit :
+<lb ed="#Be" n="59"/>ergo eam iterare non tenetur : ergo ea
+<lb ed="#Be" n="60"/>que habet in memoria et prius non 
+ha<lb break="no" ed="#Be" n="61"/>buit, potest alii dicere : ergo divisa 
+con<lb break="no" ed="#Be" n="62"/>fessio valet. Si autem non valuit : ergo
+<lb ed="#Be" n="63"/>ex recordatione nulla confessio valet, in
+<lb ed="#Be" n="64"/>qua non dicuntur omnia etiam oblita,
+<lb ed="#Be" n="65"/>quod est fere omnes homines damnare,
+<lb ed="#Be" n="66"/>et ideo hoc est absurdum.
+</p>
+            <p xml:id="alalal-h32837-d1e306">
+               <lb ed="#Be" n="67"/>6. Si forte tu dicas, quod valuit : sed
+<lb ed="#Be" n="68"/>statim ut recordatur plurium, incipit non
+<lb ed="#Be" n="69"/>valere, nisi illa quorum recordatur, et
+<lb ed="#Be" n="70"/>etiam prius dicta, uni alicui confiteatur.
+<lb ed="#Be" n="71"/>Contra : Id quod non conjungitur alicui
+<lb ed="#Be" n="72"/>in tempore nec in essentia, videtur quod
+<lb ed="#Be" n="73"/>non destruat ipsum : sequens autem 
+re<lb break="no" ed="#Be" n="74"/>cordatio peccatorum prehabite confessio.
+<lb ed="#Be" n="75"/>ni non conjungitur : ergo non destruit
+<lb ed="#Be" n="76"/>eam: ergo si ante hoc valuit, et postea
+<lb ed="#Be" n="77"/>valet, ut videtur. .
+</p>
+            <p xml:id="alalal-h32837-d1e332">
+               <lb ed="#Be" n="78"/>8. Si dicas, quod haec ratio non valet :
+<lb ed="#Be" n="79"/>quia sequens peccatum prius facta bona
+<lb ed="#Be" n="80"/>mortificat, quibus tamen non 
+conjungi<lb break="no" ed="#Be" n="81"/>tur essentialiter vel in tempore, sed in
+<lb ed="#Be" n="82"/>eodem subjecto tantum. Contra : Quod
+<lb ed="#Be" n="83"/>sequens peccatum mortificat prius facta
+<lb ed="#Be" n="84"/>bona, contingit propter contrarictatem
+<lb ed="#Be" n="85"/>culpxe et gratiae: sed prior confessio et
+<lb ed="#Be" n="86"/>sequens recordatio non habent 
+hujusmo<lb break="no" ed="#Be" n="87"/>di contrarietatem : ergo unum non 
+de<lb break="no" ed="#Be" n="88"/>struit aliud.
+</p>
+            <p xml:id="alalal-h32837-d1e358">
+               <lb ed="#Be" n="89"/>Item, Si ex sequenti recordatione illa
+<lb ed="#Be" n="90"/>obligatur ad confessionem praeceden~
+<lb ed="#Be" n="91"/>tium : queratur, unde hoc contingit?
+<lb ed="#Be" n="92"/>Non enim hoc contingere posset, nisi
+<lb ed="#Be" n="93"/>quia prius facta confessio non valuit,
+<lb ed="#Be" n="94"/>vel modo non valet ex quo plurium
+<pb ed="#Be" n="622"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>recordatur. Si prius non valuit : ergo
+<lb ed="#Be" n="2"/>pars ista poenitentia deficit : ergo deficit
+<lb ed="#Be" n="3"/>vera poenitentia : sed nulla nisi vera
+<lb ed="#Be" n="4"/>poenitentia deletiva est peccati : ergo
+<lb ed="#Be" n="5"/>prius non erat in eo deletum peccatum,
+<lb ed="#Be" n="6"/>quod falsum est : quia potest esse, quod
+<lb ed="#Be" n="7"/>omnia deleta sunt, et ea quae prius 
+con<lb break="no" ed="#Be" n="8"/>fessus est, et ea quorum postea 
+recor<lb break="no" ed="#Be" n="9"/>datus est. Si autem prius valuit, et modo
+<lb ed="#Be" n="10"/>non valet : videtur quod sit ex 
+contra<lb break="no" ed="#Be" n="11"/>rietate sequentis recordationis ad 
+confes<lb break="no" ed="#Be" n="12"/>sionem : sed sequens recordatio bonum
+<lb ed="#Be" n="13"/>quoddam est, et prehabita confessio 
+bo<lb break="no" ed="#Be" n="14"/>num quoddam : ergo bonum 
+contraria<lb break="no" ed="#Be" n="15"/>tur bono, quod est absurdum.
+</p>
+            <p xml:id="alalal-h32837-d1e410">
+               <lb ed="#Be" n="16"/>Utrertws queritur, Utrum _ posito,
+<lb ed="#Be" n="17"/>quod poenitentiam prius injunctam 
+per<lb break="no" ed="#Be" n="18"/>fecerit, et postea aliquorum recordatus
+<lb ed="#Be" n="19"/>sit, teneatur iterato totum confiteri, aut
+<lb ed="#Be" n="20"/>non ?
+</p>
+            <p xml:id="alalal-h32837-d1e423">
+               <lb ed="#Be" n="21"/>1. Si sic, cum confessio non sit nisi pro~
+<lb ed="#Be" n="22"/>pter poenitentiam de toto: ergo bis 
+pu<lb break="no" ed="#Be" n="23"/>nitur propter illud peccatum : quod fal -
+<lb ed="#Be" n="24"/>sum est: quoniam non consurgit duplex
+<lb ed="#Be" n="25"/>tribulatio, ut supra habitum est. Si non :
+<lb ed="#Be" n="26"/>ergo non recipiet poenitentiam nisi de
+<lb ed="#Be" n="27"/>parte : sed non tenetur confiteri nisi 
+pro<lb break="no" ed="#Be" n="28"/>pter poenitentiae taxationem : ergo 
+confi<lb break="no" ed="#Be" n="29"/>teri non tenetur nisi partem illam 
+pec<lb break="no" ed="#Be" n="30"/>catorum pro quibus non recipit 
+poeniten<lb break="no" ed="#Be" n="31"/>tiam : ergo potest dividere confessionem,
+<lb ed="#Be" n="32"/>quod est contra Litteram.
+</p>
+            <p xml:id="alalal-h32837-d1e452">
+               <lb ed="#Be" n="33"/>2. Item, Ex hoc videtur generari 
+que<lb break="no" ed="#Be" n="34"/>dam perplexitas : vix enim est aliquis qui
+<lb ed="#Be" n="35"/>simul recordetur omnium peccatorum.
+<lb ed="#Be" n="36"/>Ponamus ergo aliquem successive per
+<lb ed="#Be" n="37"/>centum vices vel plures semper post 
+tem<lb break="no" ed="#Be" n="38"/>poris alicujus intervallum recolere 
+ali<lb break="no" ed="#Be" n="39"/>qua quae non fuit confessus, et ipsum
+<lb ed="#Be" n="40"/>semper transire de loco ad locum, ubi
+<lb ed="#Be" n="41"/>ejusdem confessoris opportunitatem 
+ha<lb break="no" ed="#Be" n="42"/>bere non potest: iste igitur semper a
+<lb ed="#Be" n="43"/>principio tenetur repetere confessionem
+<lb ed="#Be" n="44"/>suam: ergo vix umquam quiescet 
+secu<lb break="no" ed="#Be" n="45"/>rus de conscientia, quod sit bene 
+confes<lb break="no" ed="#Be" n="46"/>sus: et hoc difficile est dicere : ergo 
+vide<lb break="no" ed="#Be" n="47"/>tur, quod in aliquo casu dividi possit
+<lb ed="#Be" n="48"/>confessio.
+</p>
+            <p xml:id="alalal-h32837-d1e490">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="49"/>Sed contra hoc objicitur: quia
+<lb ed="#Be" n="50"/>1. Si dividatur confessio, nullus 
+sa<lb break="no" ed="#Be" n="51"/>cerdotum audientium sciet totam Morbi
+<lb ed="#Be" n="52"/>quantitatem : ergo isti nulla injungetur
+<lb ed="#Be" n="53"/>debita satisfactio: ergo non valet talis
+<lb ed="#Be" n="54"/>confessio.
+</p>
+            <p xml:id="alalal-h32837-d1e508">
+               <lb ed="#Be" n="55"/>2. Item, Peenitentia injuncta est per
+<lb ed="#Be" n="56"/>modum medicine contra consuetudinem
+<lb ed="#Be" n="57"/>veteris peccati : sed divisa confessione
+<lb ed="#Be" n="58"/>nullus sufficienter scit. consuetudinem :
+<lb ed="#Be" n="59"/>ergo nullus sufficienter scit occurrere
+<lb ed="#Be" n="60"/>morbo peccati: ergo talis confessio non
+<lb ed="#Be" n="61"/>valet.
+</p>
+            <p xml:id="alalal-h32837-d1e526">
+               <lb ed="#Be" n="62"/>3. Item, In medicina corporali si 
+ali<lb break="no" ed="#Be" n="63"/>quis eger laboret ex diversis generibus
+<lb ed="#Be" n="64"/>egritudinum, et unam sciret unus, et
+<lb ed="#Be" n="65"/>aliam alius medicus, contingit periclitari
+<lb ed="#Be" n="66"/>egrotum: quia unus medicus non 
+opera<lb break="no" ed="#Be" n="67"/>retur nisi contra unam egriludinem, et
+<lb ed="#Be" n="68"/>tune aggravaretur forte alia: ergo simile
+<lb ed="#Be" n="69"/>est in egritudinibus spiritualibus: ergo
+<lb ed="#Be" n="70"/>unus sacerdos qui medicus spiritualis est,
+<lb ed="#Be" n="71"/>debet scire omnes morbos.
+</p>
+            <p xml:id="alalal-h32837-d1e550">
+               <lb ed="#Be" n="72"/>Solutio. Dicendum, quod confessio
+<lb ed="#Be" n="73"/>divisa ex industria, nihil valet, ut dicitur
+<lb ed="#Be" n="74"/>in Littera, sed potius nocet: quia 
+accu<lb break="no" ed="#Be" n="75"/>mulat peccatum simulationis, ut dicitur
+<lb ed="#Be" n="76"/>in Litera: et hujus causae propriissime
+<lb ed="#Be" n="77"/>tacte sunt in objectionibus ultimo 
+indu<lb break="no" ed="#Be" n="78"/>ctis : et non est eas difficile colligere in
+<lb ed="#Be" n="79"/>tres secundum numerum eorum quae 
+ob<lb break="no" ed="#Be" n="80"/>jecta sunt.
+</p>
+            <p xml:id="alalal-h32837-d1e572">
+               <lb ed="#Be" n="81"/>Dicendum ergo ad primum, quod 
+judi<lb break="no" ed="#Be" n="82"/>cium peccati duplex est, scilicet 
+judi<lb break="no" ed="#Be" n="83"/>cium peccati quid sit peccatum, et 
+judi<lb break="no" ed="#Be" n="84"/>cium proportionis totius pcecati ad 
+con<lb break="no" ed="#Be" n="85"/>dignam poenitentiam. Et judicium 
+pri<lb break="no" ed="#Be" n="86"/>mum est in confitente procedens ex 
+audi<lb break="no" ed="#Be" n="87"/>tu: et de hoc tantum verum est quod
+<lb ed="#Be" n="88"/>objicitur. Sed est judicium secundum,
+<lb ed="#Be" n="89"/>quod est magis substantiale confessioni,
+<lb ed="#Be" n="90"/>et hoc non potest fieri ab aliquo, nisi
+<lb ed="#Be" n="91"/>totam quantitatem peccati simul 
+au<lb break="no" ed="#Be" n="92"/>diat: et si plures, ita quod singuli totum
+<lb ed="#Be" n="93"/>audiant, tune verum est quod melius fit
+<lb ed="#Be" n="94"/>a pluribus quam ab uno: sed tamen 
+im<lb break="no" ed="#Be" n="95"/>possibile est fieri a pluribus, quorum 
+sin<lb break="no" ed="#Be" n="96"/>guli nesciunt totam peccati quantitatem.
+</p>
+            <p xml:id="alalal-h32837-d1e609">
+               <pb ed="#Be" n="623"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>Ad Attup dicendum, quod sacerdos
+<lb ed="#Be" n="2"/>cum teneatur poenitentem. periclitantem
+<lb ed="#Be" n="3"/>corrigere, per opera justitiae intendit in
+<lb ed="#Be" n="4"/>contrarium assuescere : et ideo 
+impossi<lb break="no" ed="#Be" n="5"/>pile est hoc, nisi sciat totam 
+consuetudi<lb break="no" ed="#Be" n="6"/>nem veterem. Sed questio illa procedit
+<lb ed="#Be" n="7"/>ac si in poenitentia divisim singulis 
+pec<lb break="no" ed="#Be" n="8"/>catis imponeretur satisfactio : et hoc non
+<lb ed="#Be" n="9"/>est verum.
+</p>
+            <p xml:id="alalal-h32837-d1e636">
+               <lb ed="#Be" n="10"/>Ad id quod objicitur de verecundia,
+<lb ed="#Be" n="11"/>dicendum quod duplex est verecundia :
+<lb ed="#Be" n="12"/>quedam est passio corporalis quae 
+consi<lb break="no" ed="#Be" n="13"/>stit in rubore corporis, et haec 
+accidenta<lb break="no" ed="#Be" n="14"/>lis est confessioni. Est etiam rationalis
+<lb ed="#Be" n="15"/>yerecundia, quae est confusio quedam
+<lb ed="#Be" n="16"/>sui in magnitudine delicti: de qua 
+  dici<lb break="no" ed="#Be" n="17"/>tur, ad Roman. vi, 21: <quote xml:id="alalal-h32837-Qd1e655"
+                      source="http://scta.info/resource/rom6_21@1-9">Quem ergo 
+fru<lb break="no" ed="#Be" n="18"/>clum habuistis tunc in illis in quibus
+<lb ed="#Be" n="19"/>nune erubescitis ?</quote> Et haec substantialis
+<lb ed="#Be" n="20"/>est confessioni, ut dicitur in Littera.
+</p>
+            <p xml:id="alalal-h32837-d1e665">
+               <lb ed="#Be" n="21"/>Ad aliud dicendum, quod verecundia
+<lb ed="#Be" n="22"/>major facit ad bene esse confessionis :
+<lb ed="#Be" n="23"/>et quia preceptum non est de meliori
+<lb ed="#Be" n="24"/>bono, sed de necessario tantum: ideo
+<lb ed="#Be" n="25"/>non preecipitur illud.
+</p>
+            <p xml:id="alalal-h32837-d1e678">
+               <lb ed="#Be" n="26"/>Ad aliud dicendum, quod licet 
+con<lb break="no" ed="#Be" n="27"/>fessio separabilis sit ab illa verecundia
+<lb ed="#Be" n="28"/>que passio est corporalis, non tamen ab
+<lb ed="#Be" n="29"/>illa quae estconfusio mentis interior cum
+<lb ed="#Be" n="30"/>detestatione peccati. .
+</p>
+            <p xml:id="alalal-h32837-d1e691">
+               <lb ed="#Be" n="31"/>Ad aliud dicendum, quod illa talis 
+con<lb break="no" ed="#Be" n="32"/>fessio valet et valuit, quia de omnibus
+<lb ed="#Be" n="33"/>est qua erant in memoria: et tamen 
+te<lb break="no" ed="#Be" n="34"/>netur repetere propter illud quod postea
+<lb ed="#Be" n="35"/>ad memoriam revocavit. Non enim 
+se<lb break="no" ed="#Be" n="36"/>quitur, si valet, quod non teneatur 
+repe<lb break="no" ed="#Be" n="37"/>tere : quia valuit pro statu in quo tunc
+<lb ed="#Be" n="38"/>fuit et per se. Quod autem repetitur, hoc
+<lb ed="#Be" n="39"/>est ratione alterius status, et per 
+acci<lb break="no" ed="#Be" n="40"/>dens : quia quod postea reducitur ad 
+me<lb break="no" ed="#Be" n="41"/>moriam, facit eam non esse de omni 
+pec<lb break="no" ed="#Be" n="42"/>cato recordato, nec integrari.
+</p>
+            <p xml:id="alalal-h32837-d1e720">
+               <lb ed="#Be" n="43"/>Ad aliud dicendum, quod licet 
+recor<lb break="no" ed="#Be" n="44"/>datio actu non conjungatur pracedenti
+<lb ed="#Be" n="45"/>confessioni, tamen id quod recordatum
+<lb ed="#Be" n="46"/>est, facit eam imperfectam : quia ipsum
+<lb ed="#Be" n="47"/>est pars eorum quae confiteri debent, et
+<lb ed="#Be" n="48"/>deest confessioni : omne autem illud 
+im<lb break="no" ed="#Be" n="49"/>perfectum est, ut dicit Philosophus, cui
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="50"/>de essentialibus aliquid deest: et ideo
+<lb ed="#Be" n="51"/>confessio praecedens est imperfecta, quia
+<lb ed="#Be" n="52"/>non est de omnibus recordatis.
+</p>
+            <p xml:id="alalal-h32837-d1e746">
+               <lb ed="#Be" n="53"/>Ad aliud dicendum, quod non oportet
+<lb ed="#Be" n="54"/>quod id quod ostendit aliquid esse 
+im<lb break="no" ed="#Be" n="55"/>perfectum, sit ei contrarium: sed bene
+<lb ed="#Be" n="56"/>verum est, quod id quod destruit.aliud,
+<lb ed="#Be" n="57"/>per se contrarium est illi: sed non 
+de<lb break="no" ed="#Be" n="58"/>struit recordatio posterior prehabitam
+<lb ed="#Be" n="59"/>confessionem : quia illa valuit, et valet,
+<lb ed="#Be" n="60"/>si suppleatur ei id quod deest. Quod 
+au<lb break="no" ed="#Be" n="61"/>tem hoc verum sit, sic patet, quia pars
+<lb ed="#Be" n="62"/>subtracta non est contraria toti: et 
+ta<lb break="no" ed="#Be" n="63"/>men quando apparet subtracta, ostendit
+<lb ed="#Be" n="64"/>totum esse imperfectum, et perfici si 
+ad<lb break="no" ed="#Be" n="65"/>datur. ,
+</p>
+            <p xml:id="alalal-h32837-d1e778">
+               <lb ed="#Be" n="66"/>Ad aliud dicendum, quod si 
+peeniten<lb break="no" ed="#Be" n="67"/>tiam prius injunctam implevit, hoc 
+ip<lb break="no" ed="#Be" n="68"/>sum cum peccatis. debet dicere sacerdoti
+<lb ed="#Be" n="69"/>secundo si non potest habere sacerdotem
+<lb ed="#Be" n="70"/>primum, vel tertio si nec primum nec 
+se<lb break="no" ed="#Be" n="71"/>cundum habere potuerit, et sic deinceps :
+<lb ed="#Be" n="72"/>et tunc ipse non injunget poenttentiam
+<lb ed="#Be" n="73"/>pro prius dictis, nisi pro tanto in 
+quan<lb break="no" ed="#Be" n="74"/>tum nunc dictum manifestat sibi 
+pe<lb break="no" ed="#Be" n="75"/>riculum consuetudinis in aliquo 
+pec<lb break="no" ed="#Be" n="76"/>cato, quod periculum alius sacerdos 
+in<lb break="no" ed="#Be" n="77"/>telligere non potuit, eo quod non totam
+<lb ed="#Be" n="78"/>cognovit quantitatem peccati.
+</p>
+            <p xml:id="alalal-h32837-d1e809">
+               <lb ed="#Be" n="79"/>Ex hoc ulterius patet, quod non 
+con<lb break="no" ed="#Be" n="80"/>surgit duplex tribulatio et tamen tenetur
+<lb ed="#Be" n="81"/>iterato confiteri.
+</p>
+            <p xml:id="alalal-h32837-d1e818">
+               <lb ed="#Be" n="82"/>Ad aliud dicendum, quod nulla 
+gene<lb break="no" ed="#Be" n="83"/>ratur perplexitas, quia non tenetur 
+con<lb break="no" ed="#Be" n="84"/>fiteri nisi recordata : et hoc de facili 
+pot<lb break="no" ed="#Be" n="85"/>est facere : et si aliqua preterita revocet
+<lb ed="#Be" n="86"/>menti, illa dicat eidem, vel si alii, 
+repe<lb break="no" ed="#Be" n="87"/>tat priora : et hoc non est difficile, cum
+<lb ed="#Be" n="88"/>sint in memoria. Si autem non vult 
+tan<lb break="no" ed="#Be" n="89"/>tum studere in discussionem sui, ut 
+si<lb break="no" ed="#Be" n="90"/>mul omnia quae potest comprehendat,
+<lb ed="#Be" n="91"/>puto quod damnabiliter negligens est,
+<lb ed="#Be" n="92"/>necsufficientem sue salutis habet curam.
+</p>
+            <p xml:id="alalal-h32837-d1e844">
+               <lb ed="#Be" n="93"/>Hioe autem quidam aliter 
+determina<lb break="no" ed="#Be" n="94"/>verunt dicentes, quod sufficit cum 
+recor<lb break="no" ed="#Be" n="95"/>dato dicere priora in generibus 
+singulo<lb break="no" ed="#Be" n="96"/>rum, et non oportet ea exprimi in 
+sin<lb break="no" ed="#Be" n="97"/>eulis generum : sed hoc reputo esse con-
+<pb ed="#Be" n="624"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>trarium dictis Sanctorum et 
+presumptuo<lb break="no" ed="#Be" n="2"/>sum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 20</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 20</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="500"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h05065"><!-- l4d15a20 -->
+            <head xml:id="alalal-h05065-Hd1e99">Articulus 20</head>
+            <head xml:id="alalal-h05065-Hd1e101" type="question-title">An eleemosyna potest esse sine 
+compasstone, vel compassio sit et 
+substantialis ?</head>
+            <p xml:id="alalal-h05065-d1e104">
+               <lb ed="#Be" n="80"/>ARTICULUS XX.
+<lb ed="#Be" n="81"/>An eleemosyna potest esse sine 
+compas<lb break="no" ed="#Be" n="82"/>stone, vel compassio sit et 
+substan<lb break="no" ed="#Be" n="83"/>tialis ?
+</p>
+            <p xml:id="alalal-h05065-d1e115">
+               <lb ed="#Be" n="84"/>Sexto queritur, Utrum eleemosyna
+<lb ed="#Be" n="85"/>possit esse sine compassione, vel 
+com<lb break="no" ed="#Be" n="86"/>passio sit ei substantialis ?
+</p>
+            <p xml:id="alalal-h05065-d1e124">
+               <lb ed="#Be" n="87"/>Videtur autem, quod ei sit 
+substantia<lb break="no" ed="#Be" n="88"/>lis : quia miseratio non est nisi opus 
+mi<lb break="no" ed="#Be" n="89"/>sericordia : sed opus miserationis est
+<lb ed="#Be" n="90"/>eleemosyna, ut patet in nominis interpre
+<pb ed="#Be" n="501"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>tatione et distinctione supra posita : ergo
+<lb ed="#Be" n="2"/>eleemosyna non est sine misericordia :
+<lb ed="#Be" n="3"/>sed misericordie substantialis, et 
+com<lb break="no" ed="#Be" n="4"/>passio, ut exipsa diffinitione patet : ergo
+<lb ed="#Be" n="5"/>eleemosyne substantialis est compassio.
+</p>
+            <p xml:id="alalal-h05065-d1e151">
+               <lb ed="#Be" n="6"/>SzD CONTRA:
+<lb ed="#Be" n="7"/>Multi sunt qui non compatiuntur 
+mi<lb break="no" ed="#Be" n="8"/>sero, et tamen dant propter Deum : ergo
+<lb ed="#Be" n="9"/>non semper eleemosyna est ex 
+compas<lb break="no" ed="#Be" n="10"/>sione : ergo non est ei substantialis.
+</p>
+            <p xml:id="alalal-h05065-d1e164">
+               <lb ed="#Be" n="11"/>Solutio. Dicendum, quod sicut de 
+do<lb break="no" ed="#Be" n="12"/>lore poenitentia dictum est supra, quod
+<lb ed="#Be" n="13"/>duplex est, scilicet sensibilis, et rationa~
+<lb ed="#Be" n="14"/>lis : ita etiam videtur dicendum de 
+com<lb break="no" ed="#Be" n="15"/>passione : voluntas enim compatiendi,
+<lb ed="#Be" n="16"/>compassio spiritualis est, eo quod ex
+<lb ed="#Be" n="17"/>complexione aliquis passionem 
+sensibi<lb break="no" ed="#Be" n="18"/>lem vix sentire potest intuendo miserias
+<lb ed="#Be" n="19"/>proximi: et ex tali compassione semper
+<lb ed="#Be" n="20"/>procedit eleemosyna.
+</p>
+            <p xml:id="alalal-h05065-d1e188">
+               <lb ed="#Be" n="21"/>Et per hoc patet solutio : quia 
+argu<lb break="no" ed="#Be" n="22"/>mentum factum in contrarium procedit
+<lb ed="#Be" n="23"/>de compassione sensibili.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

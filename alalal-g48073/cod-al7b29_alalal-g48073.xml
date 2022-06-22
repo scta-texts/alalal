@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 12</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 12</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="238"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g48073"><!-- l4d9a12 -->
+            <head xml:id="alalal-g48073-Hd1e99">Articulus 12</head>
+            <head xml:id="alalal-g48073-Hd1e101" type="question-title">An indigne sumens corpus Christe id
+efficiat, ut malum fiat quod accipit?</head>
+            <p xml:id="alalal-g48073-d1e104">
+               <lb ed="#Be" n="8"/>ARTICULUS XII.
+<lb ed="#Be" n="9"/>An indigne sumens corpus Christe id
+<lb ed="#Be" n="10"/>efficiat, ut malum fiat quod accipit?
+</p>
+            <p xml:id="alalal-g48073-d1e113">
+               <lb ed="#Be" n="11"/>Deinde queritur de hoc quod dicit, ibi,
+<lb ed="#Be" n="12"/>B, circa medium: <quote xml:id="alalal-g48073-Qd1e119"> Aece enim factum
+<lb ed="#Be" n="13"/>est malum, dum male. accipilur bonum,
+<lb ed="#Be" n="14"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-g48073-d1e127">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="15"/>Statim enim contrarium dicit in fine
+<lb ed="#Be" n="16"/>ejusdem capituli: <quote xml:id="alalal-g48073-Qd1e135"> Indigne quis sumens
+<lb ed="#Be" n="17"/>corpus Christi, non efficit ut quia 
+ma<lb break="no" ed="#Be" n="18"/>lus est, malum sit quod accipit. </quote>
+            </p>
+            <p xml:id="alalal-g48073-d1e144">
+               <lb ed="#Be" n="19"/>Solutio. Dicendum, quod malum ex
+<lb ed="#Be" n="20"/>se dicitur multipliciter, scilicet 
+formali<lb break="no" ed="#Be" n="21"/>ter, et sic intelligitur secunda auctoritas:
+<lb ed="#Be" n="22"/>quia sic corpus Christi non potest esse
+<lb ed="#Be" n="23"/>malum, sed semper est bonum. Dicitur
+<lb ed="#Be" n="24"/>etiam malum effective: et hoc dupliciter,
+<lb ed="#Be" n="25"/>scilicet ut causa per se, vel ut causa per
+<lb ed="#Be" n="26"/>accidens: et neutro istorum modorum
+<lb ed="#Be" n="27"/>corpus Christi dicitur malum : quia nec
+<lb ed="#Be" n="28"/>est causa mali per se, nec per accidens.
+<lb ed="#Be" n="29"/>Secundo modo dicitur malum occasio
+<lb ed="#Be" n="30"/>mali, sicut lux presens dicitur occasio
+<lb ed="#Be" n="31"/>lesionis infirmi oculi: et ita corpus
+<lb ed="#Be" n="32"/>Christi est bonum, et occasio est mali ei
+<lb ed="#Be" n="33"/>qui indigne sumit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

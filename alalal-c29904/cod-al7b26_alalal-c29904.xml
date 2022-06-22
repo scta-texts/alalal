@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="162"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c29904"><!-- l1d34dt -->
+            <head xml:id="alalal-c29904-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-c29904-d1e101">
+               <pb ed="#Bb" n="162"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-c29904-d1e110">
+               <lb ed="#Bb" n="2"/>
+               <quote xml:id="alalal-c29904-Qd1e114"> Praedictis autem adyiciendum est,
+<lb ed="#Bb" n="3"/>quod quidam perversi sensus homines,
+<lb ed="#Bb" n="4"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-c29904-d1e122">
+               <lb ed="#Bb" n="5"/>Hic incipit secunda pars, in qua fit
+<lb ed="#Bb" n="6"/>comparatio persone ad essentiam, utrum
+<lb ed="#Bb" n="7"/>scilicet sint idem vel diversa ?
+</p>
+            <p xml:id="alalal-c29904-d1e131">
+               <lb ed="#Bb" n="8"/>Et dividitur in quatuor partes : in
+<lb ed="#Bb" n="9"/>quarum prima ostendit Magister non
+<lb ed="#Bb" n="10"/>esse diversitatem inter personam et 
+na<lb break="no" ed="#Bb" n="11"/>turam. In secunda autem ponit rationem
+<lb ed="#Bb" n="12"/>qualiter potentia, sapientia, bonitas, 
+ap<lb break="no" ed="#Bb" n="13"/>propriantur tribus personis, ibi, F, <quote xml:id="alalal-c29904-Qd1e146"> &amp;z
+<lb ed="#Bb" n="14"/>predictis constat, etc. </quote> In tertia autem
+<lb ed="#Bb" n="15"/>ponit rationem hujus nominis 6poosstos,
+<lb ed="#Bb" n="16"/>ibi, I, <quote xml:id="alalal-c29904-Qd1e155"> Mte non est pretermittendum,
+<lb ed="#Bb" n="17"/>etc. </quote> In quarta et ultima ponit 
+ratio<lb break="no" ed="#Bb" n="18"/>nem translative dictorum de Deo, et 
+po<lb break="no" ed="#Bb" n="19"/>nit epilogum istius tractatus de 
+Trini<lb break="no" ed="#Bb" n="20"/>tate.
+</p>
+            <p xml:id="alalal-c29904-d1e169">
+               <lb ed="#Bb" n="21"/>Prima harum dividitur in duas. In
+<lb ed="#Bb" n="22"/>prima, ostendit personam esse essentiam.
+<lb ed="#Bb" n="23"/>In secunda, ponit rationem quare 
+dicun<lb break="no" ed="#Bb" n="24"/>tur tres persone unius essentiae, et non
+<lb ed="#Bb" n="25"/>unius Dei, ibi, E, <quote xml:id="alalal-c29904-Qd1e182"> Hie considerandum
+<lb ed="#Bb" n="26"/>est, cum Deus sit, etc. </quote>
+            </p>
+            <p xml:id="alalal-c29904-d1e188">
+               <lb ed="#Bb" n="27"/>In prima parte sunt tria, scilicet 
+que<lb break="no" ed="#Bb" n="28"/>stionis probatio, et ad eamdem 
+solven<lb break="no" ed="#Bb" n="29"/>dam erroris per auctoritatem Hilarii 
+in<lb break="no" ed="#Bb" n="30"/>troductio, ibi, § 2 cap. A, <quote xml:id="alalal-c29904-Qd1e198"> Idque 
+testi<lb break="no" ed="#Bb" n="31"/>monio Hilarti, ete. </quote> Tertio, ponitur 
+ejus<lb break="no" ed="#Bb" n="32"/>dem auctoritatis solutio, et veritatis 
+osten<lb break="no" ed="#Bb" n="33"/>sio, ibi, B, <quote xml:id="alalal-c29904-Qd1e208"> Hoc quidam dicunt non 
+in<lb break="no" ed="#Bb" n="34"/>telligentes, etc. </quote>
+            </p>
+            <p xml:id="alalal-c29904-d1e214">
+               <lb ed="#Bb" n="35"/>Et ex his patet sententia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 13</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 13</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="143"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g27405"><!-- l4d6a13 -->
+            <head xml:id="alalal-g27405-Hd1e99">Articulus 13</head>
+            <head xml:id="alalal-g27405-Hd1e101" type="question-title">An venientes ad baptismum, fidem 
+debent profiteri ? et, An illa professio sit
+volum ?</head>
+            <p xml:id="alalal-g27405-d1e104">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="25"/>ARTICULUS XIII.
+<lb ed="#Be" n="26"/>An venientes ad baptismum, fidem 
+de<lb break="no" ed="#Be" n="27"/>bent profiteri ? et, An illa professio sit
+<lb ed="#Be" n="28"/>volum ?
+</p>
+            <p xml:id="alalal-g27405-d1e117">
+               <lb ed="#Be" n="29"/>Deinde queritur de hoc quod dicitur,
+<lb ed="#Be" n="30"/>ibi, G. <quote xml:id="alalal-g27405-Qd1e123"> Porro cunctiad baplismum 
+ve<lb break="no" ed="#Be" n="31"/>nientes, fidem suam profiteri debent,
+<lb ed="#Be" n="32"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-g27405-d1e131">
+               <cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="33"/>Ex hoc enim videtur esse votum 
+spon<lb break="no" ed="#Be" n="34"/>sio, quae fitin baptismo : quia votum est
+<lb ed="#Be" n="35"/>spontanea promissio melioris boni, 
+de<lb break="no" ed="#Be" n="36"/>liberatione et obligatione firmata : sed
+<lb ed="#Be" n="37"/>constat, quod peccans contra votum,
+<lb ed="#Be" n="38"/>peccat dupliciter uno peccato, quia 
+ac<lb break="no" ed="#Be" n="39"/>tum illicitum committit, et quia contra
+<lb ed="#Be" n="40"/>votum facit : ergo videtur, quod omnis
+<lb ed="#Be" n="41"/>baptizatus peccando post baptismum, 
+du<lb break="no" ed="#Be" n="42"/>pliciter peceat : ergo baptizatus 
+condem<lb break="no" ed="#Be" n="43"/>nationem suam deteriorem facit.
+</p>
+            <p xml:id="alalal-g27405-d1e161">
+               <lb ed="#Be" n="44"/>Solutio. Dicendum, guod non est 
+vo<lb break="no" ed="#Be" n="45"/>tum nisi valde gencraliter et improprie
+<pb ed="#Be" n="144"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>sumendo : quia votum est conceptio 
+me<lb break="no" ed="#Be" n="2"/>lioris conditionis boni, et promissio 
+de<lb break="no" ed="#Be" n="3"/>liberata obligatione firmata : non autem
+<lb ed="#Be" n="4"/>dicitur melius bonum nisi consilii, non
+<lb ed="#Be" n="5"/>precepti : baptizandus autem non 
+pro<lb break="no" ed="#Be" n="6"/>mittit nisi bonum precepti, ad quod
+<lb ed="#Be" n="7"/>tantum obligatus est : et ideo non est
+<lb ed="#Be" n="8"/>votum proprie.
+</p>
+            <p xml:id="alalal-g27405-d1e190">
+               <lb ed="#Be" n="9"/>Et sic patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

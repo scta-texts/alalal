@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="616"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f19313"><!-- l3d34a1 -->
+            <head xml:id="alalal-f19313-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-f19313-Hd1e101" type="question-title">An dona sunt virtutes ?</head>
+            <p xml:id="alalal-f19313-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="35"/>ARTICULUS I.
+<lb ed="Bd" n="36"/>An dona sunt virtutes ?
+</p>
+            <p xml:id="alalal-f19313-d1e113">
+               <lb ed="Bd" n="37"/>Circa haec autem quaeremus quinque.
+<lb ed="Bd" n="38"/>Primo, An sint virtutes ?
+<lb ed="Bd" n="39"/>Secundo, quomodo perficiunt animam,
+<lb ed="Bd" n="40"/>et ad quid ?
+<lb ed="Bd" n="41"/>Tertio, de numero ipsorum.
+<lb ed="Bd" n="42"/>Quarto, de ordine et combinatione
+<lb ed="Bd" n="43"/>quam habent duo, et duo.
+<lb ed="Bd" n="44"/>Quinto, Utrum sint in Angelis et
+<lb ed="Bd" n="45"/>Christo ?
+</p>
+            <p xml:id="alalal-f19313-d1e135">
+               <lb ed="Bd" n="46"/>Ad print proceditur sic :
+</p>
+            <p xml:id="alalal-f19313-d1e141">
+               <lb ed="Bd" n="47"/>1. Super illud Job. 1, 2: Nadi sent e
+<lb ed="Bd" n="48"/>septem filii, etc., dicit Gregorius : <quote xml:id="alalal-f19313-Qd1e147"> Per
+<lb ed="Bd" n="49"/>septem filios septem virtutes 
+intelligun<lb break="no" ed="Bd" n="50"/>tur, sapientia, intellectus, etc. </quote> Ergo
+<lb ed="Bd" n="51"/>dona sunt virtutes.
+</p>
+            <p xml:id="alalal-f19313-d1e157">
+               <lb ed="Bd" n="52"/>2. Item, thidem, <quote xml:id="alalal-f19313-Qd1e161"> Contra singula ten-
+<pb ed="#Bd" n="617"/>
+                  <cb ed="#Bd" n="a"/>
+                  <lb ed="Bd" n="1"/>tamenta, mentem Spiritus sanctus 
+se<lb break="no" ed="Bd" n="2"/>ptem virtutibus imbuit : contra stultitiam
+<lb ed="Bd" n="3"/>sapientia, contra hebetudinem intellectu,
+<lb ed="Bd" n="4"/>etc. </quote> Ergo dona sunt virtutes.
+</p>
+            <p xml:id="alalal-f19313-d1e178">
+               <lb ed="Bd" n="5"/>3, Hem, Hh habitus qui vere virtutes
+<lb ed="Bd" n="6"/>sunt, a Sanctis dora dicuntur : unde
+<lb ed="Bd" n="7"/>Glessa super tiud Apostol, Tad Corinth.
+<lb ed="Bd" n="8"/>xiv, L. dicit: Sectaminit charitatem, qua
+<lb ed="Bd" n="9"/>major in omnibus donis non est.
+</p>
+            <p xml:id="alalal-f19313-d1e191">
+               <lb ed="Bd" n="10"/>Similiter, Jacob. 1, 17, super illad :
+<lb ed="Bd" n="11"/>Qmne donum perfectum, dicit Glessa 
+ge<lb break="no" ed="Bd" n="12"/>neraliter, quod dona sunt gratuita : ergo
+<lb ed="Bd" n="13"/>yidetar, quod generale nomen sit donum,
+<lb ed="Bd" n="14"/>et converlatur cum virtute.
+</p>
+            <p xml:id="alalal-f19313-d1e204">
+               <lb ed="Bd" n="15"/>4. Item, Charitas dicitur etiam primum
+<lb ed="Bd" n="16"/>domum, in quo omnia dona donantur :
+<lb ed="Bd" n="17"/>et hoc probat Magister in libro I 
+Senten<lb break="no" ed="Bd" n="18"/>tiarum', Krgo videtur,quod dona in nullo
+<lb ed="Bd" n="19"/>distinguantur a virtutibus.
+</p>
+            <p xml:id="alalal-f19313-d1e217">
+               <lb ed="Bd" n="20"/>5. Item, Septem diffiniuntur virtutes
+<lb ed="Bd" n="21"/>diffinitione generali, quae convenit 
+theo<lb break="no" ed="Bd" n="22"/>logicis et cardinalibus : talis diffinitio
+<lb ed="Bd" n="23"/>eliam invenitur convenire donis,  sicut
+<lb ed="Bd" n="24"/>est, quod virtus est dispositio perfecti
+<lb ed="Bd" n="25"/>ad optimum : et sicut est, quod virtus est
+<lb ed="Bd" n="26"/>quae bonum facit habentem et opts ejus
+<lb ed="Bd" n="27"/>bonum reddit : et sicut est, quod virtus
+<lb ed="Bd" n="28"/>est in difficiibus optimorum operativa :
+<lb ed="Bd" n="29"/>et sicut est, quod virtus est altimum 
+po<lb break="no" ed="Bd" n="30"/>tentiae in re cujus virtus est. Omnes iste
+<lb ed="Bd" n="31"/>conveniunt etiam donis: et sicut illa,
+<lb ed="Bd" n="32"/>virtus est bona qualitas mentis qua recte
+<lb ed="Bd" n="33"/>vivilur, qua nemo male utitur, quam
+<lb ed="Bd" n="34"/>Deus operatur in nobis. Ergo videtur,
+<lb ed="Bd" n="35"/>quod dona sint virtutes.
+</p>
+            <p xml:id="alalal-f19313-d1e255">
+               <lb ed="Bd" n="36"/>Siforte dicere velles, gaod dona dicunt
+<lb ed="Bd" n="37"/>aliquid perfectius, quam virtutes: hoc
+<lb ed="Bd" n="38"/>non videtur verum.
+</p>
+            <p xml:id="alalal-f19313-d1e264">
+               <lb ed="Bd" n="39"/>i. Macrobius enim supra Somniem
+<lb ed="Bd" n="40"/>Seipionis dividit virtutem in purgatoriam,
+<lb ed="Bd" n="41"/>el purgati animi, et exemplarem : et est
+<lb ed="Bd" n="42"/>una perfectior alia, nec tamen amittit ex
+<lb ed="Bd" n="43"/>hoc virtutis nomen et rationem : ergo
+<lb ed="Bd" n="44"/>nec ista perfectio aliam rationem 
+secun<lb break="no" ed="Bd" n="45"/>dum nomen dabit donis.
+</p>
+            <p xml:id="alalal-f19313-d1e282">
+               <lb ed="Bd" n="46"/>2. item, Magis et minus non variant
+<lb ed="Bd" n="47"/>Speciem ; veritat: autem prime innititur
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>per consensum fides, et intellectus, et
+<lb ed="Bd" n="49"/>sapientia. Similiter ad operabilia per 
+ra<lb break="no" ed="Bd" n="50"/>tiones operabilium illuminat prudentia,
+<lb ed="Bd" n="51"/>scientia, et consilium, nisi quod unum
+<lb ed="Bd" n="52"/>plus et alterum minus : ergo videtur,
+<lb ed="Bd" n="53"/>quod nulla differentia sit secundum 
+ra<lb break="no" ed="Bd" n="54"/>tionem speciei inter virtutes et dona.
+</p>
+            <p xml:id="alalal-f19313-d1e306">
+               <lb ed="Bd" n="55"/>3. Praeterea, Lioe ipsum, quod dona
+<lb ed="Bd" n="56"/>sint perfectiora virtutibus, et ita differant
+<lb ed="Bd" n="57"/>ab eis, videtur falsum : quia dicit 
+Philo<lb break="no" ed="Bd" n="58"/>sophus, quod virtus est ulfimum 
+poten<lb break="no" ed="Bd" n="59"/>tiae in re: post ullimum autem non est
+<lb ed="Bd" n="60"/>aliquid sumere : ergo non est perfectio
+<lb ed="Bd" n="61"/>amplior quam virtus, ut videtur.
+</p>
+            <p xml:id="alalal-f19313-d1e324">
+               <lb ed="Bd" n="62"/>Si autem velles dicere, quod est 
+diffe<lb break="no" ed="Bd" n="63"/>rentia quantum ad nomen: hoc iterum
+<lb ed="Bd" n="64"/>videtur falsum, Philosophus enim dicit
+<lb ed="Bd" n="65"/>in Fopicis, et Boctius similiter in suis
+<lb ed="Bd" n="66"/>Topicis, quod donum est datio irredibilis :
+<lb ed="Bd" n="67"/>et haec cadem ratio convenit virtuli sicut
+<lb ed="Bd" n="68"/>donis: ergo non distinguuntur quoad hoc,
+<lb ed="Bd" n="69"/>ut videtur.
+</p>
+            <p xml:id="alalal-f19313-d1e344">
+               <lb ed="Bd" n="70"/>Ad hoc inveniuntur Doctores habere
+<lb ed="Bd" n="71"/>quinque opiniones. Quidam enim dicunt,
+<lb ed="Bd" n="72"/>quod virtutes et dona non differunt nisi
+<lb ed="Bd" n="73"/>secundum rationem, et non secundum
+<lb ed="Bd" n="74"/>substantialem aliquam diffinitionem et
+<lb ed="Bd" n="75"/>differentiam : sed accidentalem 
+dilferen<lb break="no" ed="Bd" n="76"/>tiam dant istam, quod virtutes sint 
+prin<lb break="no" ed="Bd" n="77"/>cipaliter ad agendum, et ideo diffmiuntur
+<lb ed="Bd" n="78"/>per actus, et habent proprias operationes :
+<lb ed="Bd" n="79"/>sed dona sunt ad resistendum 
+tentationi<lb break="no" ed="Bd" n="80"/>bus quae impugnant vitam virtutis jam
+<lb ed="Bd" n="81"/>habite. Quod autem non sit conveniens
+<lb ed="Bd" n="82"/>Ulud dictum, statim apparet : quia 
+forti<lb break="no" ed="Bd" n="83"/>tudo est ad impugnandum in difficili et
+<lb ed="Bd" n="84"/>tentatione. Similiter dicitur communiter,
+<lb ed="Bd" n="85"/>quod charilas minima resistere potest 
+cui<lb break="no" ed="Bd" n="86"/>cumque tentationi. Et, I Petr. v, 8et 9:
+<lb ed="Bd" n="87"/>Adversarius vester diabolus circuit, 
+que<lb break="no" ed="Bd" n="88"/>rens quem devoret : cut resistite fortes in
+<lb ed="Bd" n="89"/>fide. Et, ad Ephes. vi, 16: fi omnibus
+<lb ed="Bd" n="90"/>sumentes scutum frdei, in guo possitis
+<lb ed="Bd" n="91"/>omnia tela nequissimi ignea exstinguere.
+<lb ed="Bd" n="92"/>Ergo patet per hoc, quod hoc etiam 
+prin<lb break="no" ed="Bd" n="93"/>cipalius convenit virtuti, quam dono : et
+<lb ed="Bd" n="94"/>ideo non est conveniens dictum istorum.
+</p>
+            <p xml:id="alalal-f19313-d1e402">
+               <pb ed="#Bd" n="618"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Item, Alii voluerunt emendare per 
+sub<lb break="no" ed="Bd" n="2"/>tilitatem dictum, et dixerunt, quod duo
+<lb ed="Bd" n="3"/>sunt in libero arbitrio, ratio, et voluntas:
+<lb ed="Bd" n="4"/>et virlus principaliter est in voluntate,
+<lb ed="Bd" n="5"/>secundario in ratione : donum autem e
+<lb ed="Bd" n="6"/>contrario principaliter in ratione, 
+secun<lb break="no" ed="Bd" n="7"/>dario in voluntate. Hujus autem 
+assigna<lb break="no" ed="Bd" n="8"/>tionis sus talem adhibent rationem, quod
+<lb ed="Bd" n="9"/>inter virtutes non est nisi una quae sit in
+<lb ed="Bd" n="10"/>ralione : et inter dona, quatuor ponuntur
+<lb ed="Bd" n="11"/>inratione, scilicel sapientia, intellectus,
+<lb ed="Bd" n="12"/>consilium, et scientia, Sed patet 
+ridicu<lb break="no" ed="Bd" n="13"/>lum esse, quia duc virtutes sunt in 
+ra<lb break="no" ed="Bd" n="14"/>tione, scilicet fides, et prudentia. Item,
+<lb ed="Bd" n="15"/>Ridiculum est dicere, quod ideo dona
+<lb ed="Bd" n="16"/>principalius sunt in ratione, quia plura
+<lb ed="Bd" n="17"/>sunt ex eis in ratione. Jam enim 
+sequere<lb break="no" ed="Bd" n="18"/>tur, quod principalius essentin irascibili,
+<lb ed="Bd" n="19"/>quam in concupiscibili : quia duo sunt in
+<lb ed="Bd" n="20"/>irascibili, scilicet timor, et fortitudo : et
+<lb ed="Bd" n="21"/>unum est in concupiscibili, scilicet 
+pie<lb break="no" ed="Bd" n="22"/>tas. Item, Falsum est de cardinalibus :
+<lb ed="Bd" n="23"/>quia due sunt in ratione, scilicet 
+praden<lb break="no" ed="Bd" n="24"/>tia, et justitia. Cum enim justilia 
+consi<lb break="no" ed="Bd" n="25"/>stat in ordinatione ad alterum, et omnis
+<lb ed="Bd" n="26"/>ordo rationts est, sic erit Justitia 
+necessa<lb break="no" ed="Bd" n="27"/>r10 Mm ratione.
+</p>
+            <p xml:id="alalal-f19313-d1e467">
+               <lb ed="Bd" n="28"/>Ideo tertii veniunt et dicunt, quod
+<lb ed="Bd" n="29"/>dona dicuntur per comparationem ad.
+<lb ed="Bd" n="30"/>Deum dantem, et ideo sunt in superiori
+<lb ed="Bd" n="31"/>parte rationis : virtutes autem respiciunt
+<lb ed="Bd" n="32"/>opera specialia qua sunt super materias
+<lb ed="Bd" n="33"/>speciales, et ideo sunt in inferiori parte
+<lb ed="Bd" n="34"/>anime vel rationis. Et hoc iterum nihil
+<lb ed="Bd" n="35"/>est : quia super illud : Signatum est 
+su<lb break="no" ed="Bd" n="36"/>per nos lumen ', etc., dicit Glossa, quod
+<lb ed="Bd" n="37"/>triples est imago, creationis, 
+recreatio<lb break="no" ed="Bd" n="38"/>nis, et similitudinis. Et imago 
+recreatio<lb break="no" ed="Bd" n="39"/>nis est, per quam perificitur imago 
+simi<lb break="no" ed="Bd" n="40"/>liladinis et creationis : et illa est fides,
+<lb ed="Bd" n="41"/>spes, et charitas. Cum igitur secundum
+<lb ed="Bd" n="42"/>Augustinum, imago sit in anima 
+secun<lb break="no" ed="Bd" n="43"/>dum eam partem qua nihil excellentius
+<lb ed="Bd" n="44"/>habet, videbitur quod fides, spes, et 
+cha<lb break="no" ed="Bd" n="45"/>ritas sint in altissimo anime, et ita non
+<lb ed="Bd" n="46"/>erunt dona altius in paribus anime,
+<lb ed="Bd" n="47"/>quam virtutes. Item, Quam altitudinem
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>animae dicit timor? Nullam penitus.
+<lb ed="Bd" n="49"/>Unde nihil est quod dicunt.
+</p>
+            <p xml:id="alalal-f19313-d1e519">
+               <lb ed="Bd" n="50"/>Ideo sunt quarli qui magnam partem
+<lb ed="Bd" n="51"/>multitudinis habent sequentem : quia
+<lb ed="Bd" n="52"/>valde celebris fuit et est haec opinig
+<lb ed="Bd" n="53"/>apud multos, quod virtutes sunt ad agen.
+<lb ed="Bd" n="54"/>dum recte secundum vitam quae unicuj_
+<lb ed="Bd" n="55"/>que sufficit secundum se, et ad sustinen.
+<lb ed="Bd" n="56"/>dum passiones sive innatas sive illatas.
+<lb ed="Bd" n="57"/>Sed dona sunt in adjutorium 
+potentia<lb break="no" ed="Bd" n="58"/>rum anime, ut patiamur conformiter
+<lb ed="Bd" n="59"/>Christo : et hoc probant satis 
+rationabj<lb break="no" ed="Bd" n="60"/>liter sic : Ad hoc quod Christus pateretur
+<lb ed="Bd" n="61"/>tria exigebantur, quorum primum est ti.
+<lb ed="Bd" n="62"/>mor reverentica ad Patrem mittentem
+<lb ed="Bd" n="63"/>ipsum et tradentein pro redemptione 
+ge<lb break="no" ed="Bd" n="64"/>neris humani: et ex illa replet eum 
+spi<lb break="no" ed="Bd" n="65"/>reius timoris Domint. Secundum autem
+<lb ed="Bd" n="66"/>erat, quod hoc faceret amore ad 
+homi<lb break="no" ed="Bd" n="67"/>nes, quia pro hominibus salvandis 
+patie<lb break="no" ed="Bd" n="68"/>batur, et ibi accessit donum  pieéatis.
+<lb ed="Bd" n="69"/>Tertium autem erat ut olferret se 
+passio<lb break="no" ed="Bd" n="70"/>nibus viriliter et intrepide: et ex illa
+<lb ed="Bd" n="71"/>parte venit donum /orteledinis. Alia 
+au<lb break="no" ed="Bd" n="72"/>tem dona concomitantur hee, sicut 
+scien<lb break="no" ed="Bd" n="73"/>tia pietatem, consilium forlitudinem, 
+in<lb break="no" ed="Bd" n="74"/>tellectus autem et sapientia intentionem
+<lb ed="Bd" n="75"/>patientis in Deum. Et huic opinioni 
+con<lb break="no" ed="Bd" n="76"/>trarium non est quod objicitur, nisi hoc
+<lb ed="Bd" n="77"/>solum quod, ut videtur, rationabiliter
+<lb ed="Bd" n="78"/>solvi non potest, scilicet quod. dona data
+<lb ed="Bd" n="79"/>fuissent, etiam Christo non incarnato et
+<lb ed="Bd" n="80"/>passo, ut si homo non peccasset: ergo
+<lb ed="Bd" n="81"/>hac non est substantialis differentia 
+do<lb break="no" ed="Bd" n="82"/>norum et virtutum, sed polius 
+acciden<lb break="no" ed="Bd" n="83"/>talis secundum statum peccati.
+</p>
+            <p xml:id="alalal-f19313-d1e595">
+               <lb ed="Bd" n="84"/>ideo quinti dicunt, quod virtutcs sunt
+<lb ed="Bd" n="85"/>ad agendum simpliciter: sed dona sunt
+<lb ed="Bd" n="86"/>expeditiones virtutum, et sunt ad 
+agen<lb break="no" ed="Bd" n="87"/>dum expedite: et hac opinio quandoque
+<lb ed="Bd" n="88"/>habuit multos defensores propter verbum
+<lb ed="Bd" n="89"/>Gregorii qui dicit, quod <quote xml:id="alalal-f19313-Qd1e610"> dona data sunt
+<lb ed="Bd" n="90"/>in adjutorium virtulum contra 
+defe<lb break="no" ed="Bd" n="91"/>ctum. </quote> Sed hoc iterum patet non esse
+<lb ed="Bd" n="92"/>verum : quia
+</p>
+            <p xml:id="alalal-f19313-d1e620">
+               <lb ed="Bd" n="93"/>I. Dicit Philosophus insecundo 
+Ethico<lb break="no" ed="Bd" n="94"/>rum, quod signum oportet accipere ha-
+<pb ed="#Bd" n="619"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>pitum fientem in opere delectationem.
+<lb ed="Bd" n="2"/>Non enim justus et castus est, qui 
+ope<lb break="no" ed="Bd" n="3"/>ralur Justa et casta, sed potius qui hee
+<lb ed="Bd" n="4"/>operalur, et hoc ipso gaudet : gaudens
+<lb ed="Bd" n="5"/>autem in opere, non habet difficultatem :
+<lb ed="Bd" n="6"/>ergo non indiget adjutorio ulteriori.
+</p>
+            <p xml:id="alalal-f19313-d1e644">
+               <lb ed="Bd" n="7"/>2. Item, Quid est dictu, quod virtus
+<lb ed="Bd" n="8"/>que est habitus perfectus et perficiens ad
+<lb ed="Bd" n="9"/>opus, indigeret ulterius alio perficiente
+<lb ed="Bd" n="10"/>ipsam ? sic enim esset perfectio 
+perfectio<lb break="no" ed="Bd" n="11"/>nis, et sic de aliis perfectionibus 
+opor<lb break="no" ed="Bd" n="12"/>teret habere multas.
+</p>
+            <p xml:id="alalal-f19313-d1e661">
+               <lb ed="Bd" n="13"/>Si propter hoc diceretur, quod in 
+ve<lb break="no" ed="Bd" n="14"/>yilate dona sunt viriutes, et non 
+diffe<lb break="no" ed="Bd" n="15"/>runt ab eis. Conrra:
+</p>
+            <p xml:id="alalal-f19313-d1e670">
+               <lb ed="Bd" n="16"/>1. Virtuset donumnon sunt ejusdem
+<lb ed="Bd" n="17"/>diffnitionis: ergo non sunt ejusdem
+<lb ed="Bd" n="18"/>natures: quod patet, quia consilium
+<lb ed="Bd" n="19"/>nulla virtus est : et similiter nec scientia,
+<lb ed="Bd" n="20"/>nec sapientia.
+</p>
+            <p xml:id="alalal-f19313-d1e683">
+               <lb ed="Bd" n="21"/>2. Item, Matth. vi, 9, super Pater
+<lb ed="Bd" n="22"/>noster, dicit Glossa : <quote xml:id="alalal-f19313-Qd1e689"> In precibus est ut
+<lb ed="Bd" n="23"/>impetrentur dona, in donis ut operemur
+<lb ed="Bd" n="24"/>mandata. </quote> De operatione beatitudines
+<lb ed="Bd" n="25"/>sequuntur. Ergo dona prece 
+impctran<lb break="no" ed="Bd" n="26"/>tur: sed non virlus, quia oportet habere
+<lb ed="Bd" n="27"/>virtutes antequam preces exaudiantur:
+<lb ed="Bd" n="28"/>ergo dona non sunt virtutes.
+</p>
+            <p xml:id="alalal-f19313-d1e706">
+               <lb ed="Bd" n="29"/>3. Item, ibidem, alia Glossa: <quote xml:id="alalal-f19313-Qd1e710"> 
+Preci<lb break="no" ed="Bd" n="30"/>bus laborandum est, ut dona 
+percipia<lb break="no" ed="Bd" n="31"/>mus. </quote> Et idem ex hoc sequitur. Sed 
+ta<lb break="no" ed="Bd" n="32"/>men hac ipsa Glossa difficultatem habet :
+<lb ed="Bd" n="33"/>quia habita una parte gratie# habentur
+<lb ed="Bd" n="34"/>omnes: et ita dona habentur antequam
+<lb ed="Bd" n="35"/>exaudiatur oratio, sicut et virtutes. Unde
+<lb ed="Bd" n="36"/>videtur, quod per illas Glossas nihil 
+pro<lb break="no" ed="Bd" n="37"/>batur.
+</p>
+            <p xml:id="alalal-f19313-d1e731">
+               <lb ed="Bd" n="38"/>Solutio Sine prejudicio consentio in
+<lb ed="Bd" n="39"/>ultimam opinionem quae fundatur super
+<lb ed="Bd" n="40"/>verbum Gregorii, quia Gregorius plus de
+<lb ed="Bd" n="41"/>donis locutus est, quam aliquis alius 
+san<lb break="no" ed="Bd" n="42"/>clus. Et ideo quidam Doctor tenet illam
+<lb ed="Bd" n="43"/>Opinionem : et est bona, licet a 
+quibus<lb break="no" ed="Bd" n="44"/>dam improbantibus cam non bene 
+ex<lb break="no" ed="Bd" n="45"/>planata sit. Dicit enim Gregorius 
+ex<lb break="no" ed="Bd" n="46"/>presse, quod <quote xml:id="alalal-f19313-Qd1e752"> dona dala sunt in 
+adjuto<lb break="no" ed="Bd" n="47"/>num virtutum. </quote> Et ad hoc 
+intelligen<lb break="no" ed="Bd" n="48"/>dum, netandum quod quoddam impedi-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="49"/>mentum est virtutis ad actum proprium :
+<lb ed="Bd" n="50"/>et hoc non habet nisi per accidens ex
+<lb ed="Bd" n="51"/>aliqua dispositione subjecti sui: et hoc
+<lb ed="Bd" n="52"/>ipsa virtus convalescens in usu operis
+<lb ed="Bd" n="53"/>per se excludit. Etde hoc dicit Bernardus
+<lb ed="Bd" n="54"/>in primo libro de Consideratione ad Eu~
+<lb ed="Bd" n="55"/>genium : <quote xml:id="alalal-f19313-Qd1e777">Nihil adeo difficile, quod 
+con<lb break="no" ed="Bd" n="56"/>suetudo facile non faciat. </quote> Et hoc 
+pre<lb break="no" ed="Bd" n="57"/>cipue in consuetudinalibus est verum, de
+<lb ed="Bd" n="58"/>quibus inducil Philosophus, quod innali
+<lb ed="Bd" n="59"/>sumus eas suscipere : perficere autem est
+<lb ed="Bd" n="60"/>ab assuetudine. Aliud autem 
+impedimen<lb break="no" ed="Bd" n="61"/>tum est potentiae ex imperfectione 
+habi<lb break="no" ed="Bd" n="62"/>tus, quod est quasi e contrario primo
+<lb ed="Bd" n="63"/>impedimento, sicut potentia nostri 
+in<lb break="no" ed="Bd" n="64"/>tellectus est in verum primum, et ad
+<lb ed="Bd" n="65"/>hoc non perficit virtus nisi imperfecte,
+<lb ed="Bd" n="66"/>scilicet in speculo et aenigmate, et ideo
+<lb ed="Bd" n="67"/>evacuabitur : et ideo indigetpotentia alio
+<lb ed="Bd" n="68"/>habitu altius juvante in illud, et ex
+<lb ed="Bd" n="69"/>parte illa tamquam secunda perfectio, et
+<lb ed="Bd" n="70"/>altius infunditur donum. Quod qualiter
+<lb ed="Bd" n="71"/>sit, insequenti articulo magis 
+explanabi<lb break="no" ed="Bd" n="72"/>tur. Et hoc modo intelligitur, quod dona
+<lb ed="Bd" n="73"/>data sunt in adjutorium virtutum vel
+<lb ed="Bd" n="74"/>potentiarum.
+</p>
+            <p xml:id="alalal-f19313-d1e822">
+               <lb ed="Bd" n="75"/>Ad omNiA quae primo objiciuntur ad
+<lb ed="Bd" n="76"/>probandum quod donum est virtus, est
+<lb ed="Bd" n="77"/>solutio una, scilicet quod virtus dicitur
+<lb ed="Bd" n="78"/>dupliciter, scilicet large, etstricte, Siricte
+<lb ed="Bd" n="79"/>tunc virtus erit prima perfectio virium
+<lb ed="Bd" n="80"/>anime ad actus vite ordinate ad finem,
+<lb ed="Bd" n="81"/>vel id quod est ad finem: sicut virtus
+<lb ed="Bd" n="82"/>theologica est in finem, virtus autem 
+po<lb break="no" ed="Bd" n="83"/>litica est in id quod habemus ad usum,
+<lb ed="Bd" n="84"/>quod est ad finem : et hoc modo donum
+<lb ed="Bd" n="85"/>cum sil secunda perfectio ad altiorem
+<lb ed="Bd" n="86"/>actum quarumdam virtutum, non est
+<lb ed="Bd" n="87"/>virtus, sed discretus habitus a virtuie.
+<lb ed="Bd" n="88"/>Large accipitur virtus pro habitu 
+perfi<lb break="no" ed="Bd" n="89"/>ciente ad actum secundum  rationem
+<lb ed="Bd" n="90"/>boni. Sic virtus est donum, et beatitudo,
+<lb ed="Bd" n="91"/>similiter et fructus de quibus mentio erit
+<lb ed="Bd" n="92"/>posterius. Quod autem videtur 
+Grego<lb break="no" ed="Bd" n="93"/>rius dicere, quod dona data sunt contra
+<lb ed="Bd" n="94"/>defectum in quem incidimus ex peccato.
+<lb ed="Bd" n="95"/>Respondeo, quod hoc dictum est per 
+ac<lb break="no" ed="Bd" n="96"/>cidens, de dono scilicet ratione status
+<lb ed="Bd" n="97"/>hominis cui dantur dona. Aliter enim non
+<pb ed="#Bd" n="620"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>essent dona in Angelis et in Christo.
+</p>
+            <p xml:id="alalal-f19313-d1e882">
+               <lb ed="Bd" n="2"/>Ad id autem quod ultimo objicitur,
+<lb ed="Bd" n="3"/>quod precibus impetrantur dona, 
+dicen<lb break="no" ed="Bd" n="4"/>dum quod nos conecdimus 
+conclusio<lb break="no" ed="Bd" n="5"/>nem: famen argumentatio non procedit
+<lb ed="Bd" n="6"/>secundum intentionem Glosse, quia
+<lb ed="Bd" n="7"/>Glossa intelligitur de impetratione usus
+<lb ed="Bd" n="8"/>doni, non habitus: quia omnia simul
+<lb ed="Bd" n="9"/>cum virtulibus infunduntur.
+</p>
+            <p xml:id="alalal-f19313-d1e902">
+               <lb ed="Bd" n="10"/>Ad illud autem quod objicitur contra
+<lb ed="Bd" n="11"/>opinionem istam ultimo, dicendum quod
+<lb ed="Bd" n="12"/>virtus gaudet in sua operatione, sed hoc
+<lb ed="Bd" n="13"/>non est nisi quantum ad amotionem 
+im<lb break="no" ed="Bd" n="14"/>pedimenti quod habet in subjecto: et
+<lb ed="Bd" n="15"/>contra hoc non datur donum, sed potius
+<lb ed="Bd" n="16"/>contra hoc quod virtus habet ex se, ut
+<lb ed="Bd" n="17"/>fides ex hoc quod est in speculo et 
+enig<lb break="no" ed="Bd" n="18"/>mate, et prudentia ex hoc quod est per
+<lb ed="Bd" n="19"/>rationes humani juris, quod nebulis 
+er<lb break="no" ed="Bd" n="20"/>rorum est involutum: et haec omnia 
+dis<lb break="no" ed="Bd" n="21"/>cutienda sunt in articulo sequenti.
+</p>
+            <p xml:id="alalal-f19313-d1e931">
+               <lb ed="Bd" n="22"/>Ad aliuddicendum, qued hoc non est
+<lb ed="Bd" n="23"/>inconveniens, quod post unam perfectio~
+<lb ed="Bd" n="24"/>nem sit alia in eodem, dummodo non
+<lb ed="Bd" n="25"/>sint ejusdem rationis : sicut opinio et
+<lb ed="Bd" n="26"/>scientia de eodem, et amb manent, 
+li<lb break="no" ed="Bd" n="27"/>cet quidam hoc negent: non enim 
+ha<lb break="no" ed="Bd" n="28"/>bendo scientiam, propter hoc amitto
+<lb ed="Bd" n="29"/>opipionem per signa, cum adhuc per
+<lb ed="Bd" n="30"/>signa possum procedere quando volo.
+<lb ed="Bd" n="31"/>Ita videns veritatem in lumine 
+intelle<lb break="no" ed="Bd" n="32"/>clus, non amittit fidem propter hoc. Et
+<lb ed="Bd" n="33"/>ideo hoc non est inconveniens.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

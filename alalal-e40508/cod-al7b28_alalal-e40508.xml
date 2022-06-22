@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 16</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 16</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="208"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e40508"><!-- l3d10a16 -->
+            <head xml:id="alalal-e40508-Hd1e99">Articulus 16</head>
+            <head xml:id="alalal-e40508-Hd1e101" type="question-title">An filius equivoce dicatur filius 
+origine et adoptione ?</head>
+            <p xml:id="alalal-e40508-d1e104">
+               <lb ed="Bd" n="28"/>ARTICULUS XVI.
+<lb ed="Bd" n="29"/>An filius equivoce dicatur filius 
+origi<lb break="no" ed="Bd" n="30"/>ne et adoptione ?
+</p>
+            <p xml:id="alalal-e40508-d1e113">
+               <lb ed="Bd" n="31"/>Deinde quaeritur de hoc quod dicit,
+<lb ed="Bd" n="32"/>ibi, EK, circa finem : <quote xml:id="alalal-e40508-Qd1e119"> Hie enim verus et
+<lb ed="Bd" n="33"/>proprius est Filius origine, non 
+adoptio<lb break="no" ed="Bd" n="34"/>ne. </quote>
+            </p>
+            <p xml:id="alalal-e40508-d1e127">
+               <lb ed="Bd" n="35"/>Ex hoc enim videtur, quod aequivoce
+<lb ed="Bd" n="36"/>dicatur filius adoptione, et origine : et
+<lb ed="Bd" n="37"/>pater dicatur equivoce de patre vero, et
+<lb ed="Bd" n="38"/>adoptivo. Quod etiam alia ratione 
+pro<lb break="no" ed="Bd" n="39"/>batur : pater enim a generatione pater
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="40"/>est, et filius a nativitate filius: sed non
+<lb ed="Bd" n="41"/>est unius rationis generatio, et unius
+<lb ed="Bd" n="42"/>rationis nativitas in naturali 
+generatio<lb break="no" ed="Bd" n="43"/>ne et adoptione : ergo non est unius ra~
+<lb ed="Bd" n="44"/>tionis pater vel filius utrobique.
+</p>
+            <p xml:id="alalal-e40508-d1e154">
+               <lb ed="Bd" n="45"/>SED CONTRA
+<lb ed="Bd" n="46"/>Apostolus infert, Sz filii, et heredes :
+<lb ed="Bd" n="47"/>heredes quidem Dei, coheredes autem
+<lb ed="Bd" n="48"/>Christi*. Que illatio non valeret, nisi
+<lb ed="Bd" n="49"/>haberet aliquid de ratione filiationis sue.
+</p>
+            <p xml:id="alalal-e40508-d1e167">
+               <lb ed="Bd" n="50"/>2. Item, ad Roman. vin, 29 : Ques
+<lb ed="Bd" n="51"/>prescivit, et predestinavit conformes
+<lb ed="Bd" n="52"/>fiert imaginis Filu sat. Et ibidem, Ut
+<lb ed="Bd" n="53"/>sit ipse primogenitus in multis fratribus.
+<lb ed="Bd" n="54"/>Ergo si conformes sumus imaginis Filii,
+<lb ed="Bd" n="55"/>non equivoce dicimur fii : et si ipse
+<lb ed="Bd" n="56"/>primogenitus dicitur, generationi nostre
+<lb ed="Bd" n="57"/>connumeratur sua : et ita non est 
+equi<lb break="no" ed="Bd" n="58"/>vocum. Similiter accipitur hoc ex illo
+<lb ed="Bd" n="59"/>verbo: Vade ad fratres meos, et dic eis:
+<lb ed="Bd" n="60"/>Ascendo ad Patrem meum et Patrem 
+ve<lb break="no" ed="Bd" n="61"/>strum, Deum meum et Deum vestrum 2.
+<lb ed="Bd" n="62"/>Non enim diceret, /fratres, si omnino
+<lb ed="Bd" n="63"/>generatio esset aquivoca.
+</p>
+            <p xml:id="alalal-e40508-d1e200">
+               <lb ed="Bd" n="64"/>Solutio Dicendum, quod ista non
+<lb ed="Bd" n="65"/>sunt unius rationis : sed per prius et 
+po<lb break="no" ed="Bd" n="66"/>sterius sunt dicta : Christus enim vere
+<lb ed="Bd" n="67"/>filius est, ad cujus similitudinem nos 
+su<lb break="no" ed="Bd" n="68"/>mus filii: et non accipitur similitudo in
+<lb ed="Bd" n="69"/>actu generationis, ut procedit cbjectio
+<lb ed="Bd" n="70"/>prima, sed ad natum, et ad jus nati. Ad
+<lb ed="Bd" n="71"/>natum quia ipse est nobis exemplum, cui
+<lb ed="Bd" n="72"/>assimilamur in quantum possumus, ut
+<lb ed="Bd" n="73"/>simus ei conformes. Et hoc imetendit
+<lb ed="Bd" n="74"/>Apostolus, quando dixit ad Romanos,
+<lb ed="Bd" n="75"/>vin, 47. Cum enim dixerat: Si autem
+<lb ed="Bd" n="76"/>filii, et heredes: heredes quidem Pei,
+<lb ed="Bd" n="77"/>coheredes autem Christi : statim 
+sub<lb break="no" ed="Bd" n="78"/>junxit : Si tamen compatimur, ut et
+<lb ed="Bd" n="79"/>conglorificemur. Quasi diceret : Si in vita
+<lb ed="Bd" n="80"/>similes fuerimus Filio. Ad jus autem
+<lb ed="Bd" n="81"/>nati sumitur similitudo in perceptione
+<lb ed="Bd" n="82"/>hereditatis.
+</p>
+            <p xml:id="alalal-e40508-d1e244">
+               <lb ed="Bd" n="83"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

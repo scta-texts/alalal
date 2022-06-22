@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio et Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio et Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="127"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i25816"><!-- l4d27dtet -->
+            <head xml:id="alalal-i25816-Hd1e99">Divisio et Expositio Textus</head>
+            <p xml:id="alalal-i25816-d1e101">
+               <pb ed="#Bf" n="127"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Divisio et Expositio Textus.
+</p>
+            <p xml:id="alalal-i25816-d1e110">
+               <lb ed="#Bf" n="2"/>
+               <quote xml:id="alalal-i25816-Qd1e114"> Post haec advertendum est quid sit
+<lb ed="#Bf" n="3"/>conjugium, etc. </quote>
+               <lb ed="#Bf" n="4"/>In hac distinctione tria dicuntur. 
+Pra<lb break="no" ed="#Bf" n="5"/>libat enim primo de his de quibus dicit.
+<lb ed="#Bf" n="6"/>Ieinde, quid sit matrimonium aperit, ibi,
+<lb ed="#Bf" n="7"/>Bb, <quote xml:id="alalal-i25816-Qd1e128"> Sunt ergo, etc. </quote> Tertio, dicit de
+<lb ed="#Bf" n="8"/>consensu qui est causa efficiens 
+nuptia<lb break="no" ed="#Bf" n="9"/>rum, ibi, G, <quote xml:id="alalal-i25816-Qd1e134"> Bfficiens autem causa. </quote>
+            </p>
+            <p xml:id="alalal-i25816-d1e137">
+               <lb ed="#Bf" n="10"/>Incidit autem questio de hoc quod 
+di<lb break="no" ed="#Bf" n="11"/>eit, ibi, B, <quote xml:id="alalal-i25816-Qd1e143"> Sunt ergo nuptiae vel 
+matri<lb break="no" ed="#Bf" n="12"/>monium, etc. </quote>
+            </p>
+            <p xml:id="alalal-i25816-d1e149">
+               <lb ed="#Bf" n="13"/>Videtur enim peccare duo nomina 
+po<lb break="no" ed="#Bf" n="14"/>nens uni diffinito: nominantes enim 
+se<lb break="no" ed="#Bf" n="15"/>cundum aliquid nominant: ergo 
+impo<lb break="no" ed="#Bf" n="16"/>nentes diversa nomina, aliquid diversum
+<lb ed="#Bf" n="17"/>nominant : ergo unica diffinitio non 
+re<lb break="no" ed="#Bf" n="18"/>spondet nominibus duobus.
+</p>
+            <p xml:id="alalal-i25816-d1e166">
+               <lb ed="#Bf" n="19"/>Ad hoc dicendum, quod ipse attendit
+<lb ed="#Bf" n="20"/>camdem rem secundum diversas 
+proprie<lb break="no" ed="#Bf" n="21"/>tales. Dicuntur enim neptiae ab actu 
+ma<lb break="no" ed="#Bf" n="22"/>trimonii: matrimonium autem dicitur a
+<lb ed="#Bf" n="23"/>bonis, quia mulier conjuncta viro munia
+<lb ed="#Bf" n="24"/>habet matris in effusione prolis, et 
+alio<lb break="no" ed="#Bf" n="25"/>rum operum in quibus communicat viro.
+</p>
+            <p xml:id="alalal-i25816-d1e184">
+               <lb ed="#Bf" n="26"/>Sed nunc queritur, Quare non dicitur
+<lb ed="#Bf" n="27"/>patrimonium ?
+</p>
+            <p xml:id="alalal-i25816-d1e191">
+               <lb ed="#Bf" n="28"/>Et dicendum, quod vinculum 
+matri<lb break="no" ed="#Bf" n="29"/>monii magis onerat matrem, hoc est,
+<lb ed="#Bf" n="30"/>cam quae efficitur mater, quia in dolore
+<lb ed="#Bf" n="31"/>profert et nutrit: et ideo magis est munia
+<lb ed="#Bf" n="32"/>matris, quam patris.
+</p>
+            <p xml:id="alalal-i25816-d1e204">
+               <lb ed="#Bf" n="33"/>Ad id autem quod objicitur, quod una
+<lb ed="#Bf" n="34"/>diffinitio sequitur duo nomina, dicendum
+<lb ed="#Bf" n="35"/>quod est diffinitio rei potius quam 
+illa<lb break="no" ed="#Bf" n="36"/>rum proprietatum a quibus nomina sunt
+<lb ed="#Bf" n="37"/>imposita. Vel dicatur, quod proprictas
+<lb ed="#Bf" n="38"/>qua nuptiae dicuntur nupéie, est ad illam
+<lb ed="#Bf" n="39"/>qua dicitur mafrimonium : et ideo 
+utrum<lb break="no" ed="#Bf" n="40"/>que nomen respondet diffinitioni: unum
+<lb ed="#Bf" n="41"/>in differentiis remotis, alterum autem in
+<lb ed="#Bf" n="42"/>propinguis et ultimis: cum enim 
+diffini<lb break="no" ed="#Bf" n="43"/>fiones necesse sit incipere a generalissi-
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="44"/>mis, continent tam differentias remotas
+<lb ed="#Bf" n="45"/>quam propinquas.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

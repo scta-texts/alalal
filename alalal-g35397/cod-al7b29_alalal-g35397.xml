@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diviso Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Diviso Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="181"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g35397"><!-- l4d8dt2 -->
+            <head xml:id="alalal-g35397-Hd1e99">Diviso Textus</head>
+            <p xml:id="alalal-g35397-d1e101">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="9"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-g35397-d1e108">
+               <lb ed="#Be" n="10"/>
+               <quote xml:id="alalal-g35397-Qd1e112"> Hic etiam alia consideranda 
+occur<lb break="no" ed="#Be" n="11"/>runt quatuor, etc. </quote>
+               <lb ed="#Be" n="12"/>Haec pars dividitur per Magistrum in
+<lb ed="#Be" n="13"/>tres partes : in quarum prima agitur de
+<lb ed="#Be" n="14"/>substantialibus sacramento, quae ante
+<lb ed="#Be" n="15"/>omnia consideranda sunt. In secunda,
+<lb ed="#Be" n="16"/>agit de sacramento ex parte suscipientis,
+<lb ed="#Be" n="17"/>que incipit in distinct. IX, ibi, A, <quote xml:id="alalal-g35397-Qd1e130"> £¢
+<lb ed="#Be" n="18"/>sicuét due sunt res istius sacramenti,
+<lb ed="#Be" n="19"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-g35397-d1e138">
+               <lb ed="#Be" n="20"/>In tertia autem agit de sacramento ex
+<lb ed="#Be" n="21"/>parte celebrantis, ibi scilicet distinct.
+<lb ed="#Be" n="22"/>XT, ibi, F, <quote xml:id="alalal-g35397-Qd1e146"> Post haec queritur, si
+<lb ed="#Be" n="23"/>guod gertt sacerdos, etc. </quote>
+            </p>
+            <p xml:id="alalal-g35397-d1e152">
+               <lb ed="#Be" n="24"/>Residua autem pars illius distinctionis
+<lb ed="#Be" n="25"/>a Magistro dividitur in quatuor partes :
+<lb ed="#Be" n="26"/>in quarum prima agit de institutione :
+<lb ed="#Be" n="27"/>in secunda, de forma, ibi, C, <quote xml:id="alalal-g35397-Qd1e162"> Horma
+<lb ed="#Be" n="28"/>vero, etc. </quote>. In tertia, quid sit res et 
+sa<lb break="no" ed="#Be" n="29"/>cramentum ?ibi, D, $4: <quote xml:id="alalal-g35397-Qd1e170"> Nunc quid ibi
+<lb ed="#Be" n="30"/>sacramentum sit, etc. </quote> In quarta vero,
+<cb ed="#Be" n="c"/>
+               <lb ed="#Be" n="31"/>tangit quod primo enumerat, scilicet
+<lb ed="#Be" n="32"/>sacramentum quod refertur ad species
+<lb ed="#Be" n="33"/>materiales hujus sacramenti, quae sunt
+<lb ed="#Be" n="34"/>species panis et vini, ibi, D, § 2: <quote xml:id="alalal-g35397-Qd1e186"> 
+Por<lb break="no" ed="#Be" n="35"/>ro illa species visibilis, sacramentum
+<lb ed="#Be" n="36"/>est, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="155"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a31321"><!-- l1d4a1 -->
+            <head xml:id="alalal-a31321-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-a31321-Hd1e101" type="question-title">An Deus genuit se Deum, an alium
+Deum ?</head>
+            <p xml:id="alalal-a31321-d1e104">
+               <lb ed="#Ba" n="83"/>ARTICULUS I.
+<lb ed="#Ba" n="84"/>An Deus genuit se Deum, an alium
+<lb ed="#Ba" n="85"/>Deum ?
+</p>
+            <p xml:id="alalal-a31321-d1e113">
+               <lb ed="#Ba" n="86"/>Prima argumentatio est ista : Deus 
+ge<lb break="no" ed="#Ba" n="87"/>nuit Deum: aut ergo genuit se Deum,
+<lb ed="#Ba" n="88"/>aut alium Deum : si se Deum : ergo
+<lb ed="#Ba" n="89"/>idem in persona generat, et generatur :
+<lb ed="#Ba" n="90"/>si alium Deum : ergo est alius Deus
+<lb ed="#Ba" n="91"/>quam Deus generans : ergo generans et
+<pb ed="#Ba" n="156"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>genitus non sunt idem Deus, quod 
+fal<lb break="no" ed="#Ba" n="2"/>sum est.
+</p>
+            <p xml:id="alalal-a31321-d1e137">
+               <lb ed="#Ba" n="3"/>Ad hoc solvendum dicit Magister, quod
+<lb ed="#Ba" n="4"/>neutrum est concedendum. Et videtur
+<lb ed="#Ba" n="5"/>esse sua ralio : quia cum hoc pronomen
+<lb ed="#Ba" n="6"/>se sit relalivum reciprocum, ipsum 
+sup<lb break="no" ed="#Ba" n="7"/>ponit et refert suppositum verbi : 
+suppo<lb break="no" ed="#Ba" n="8"/>situm autem verbi est persona Patris :
+<lb ed="#Ba" n="9"/>ct hoc nomen, Deus, per verbum 
+copu<lb break="no" ed="#Ba" n="10"/>Jans actum notionalem, trahitur ad 
+sup<lb break="no" ed="#Ba" n="11"/>ponendum pro persona Patris, et illa non
+<lb ed="#Ba" n="12"/>est genita : sed hoc relativum, alizs, est
+<lb ed="#Ba" n="13"/>relativum diversitatis, et terminum 
+ad<lb break="no" ed="#Ba" n="14"/>junctum sibi respicit gratia forme : et cum
+<lb ed="#Ba" n="15"/>adjungitur huic nomini, Deus, gratia 
+di<lb break="no" ed="#Ba" n="16"/>vinitatis notabit diversilatem : et cum
+<lb ed="#Ba" n="17"/>non sit diversitas deitatis inter Patrem et
+<lb ed="#Ba" n="18"/>Filium, dicit Magister hane non esse 
+re<lb break="no" ed="#Ba" n="19"/>cipiendam : Deus genuit alium Deum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

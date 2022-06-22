@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="485"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h01226"><!-- l4d15a11 -->
+            <head xml:id="alalal-h01226-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-h01226-Hd1e101" type="question-title">An oporteat quemlibet satisfacere qui
+deliquit ?</head>
+            <p xml:id="alalal-h01226-d1e104">
+               <lb ed="#Be" n="25"/>ARTICULUS XI.
+<lb ed="#Be" n="26"/>An oporteat quemlibet satisfacere qui
+<lb ed="#Be" n="27"/>deliquit ?
+</p>
+            <p xml:id="alalal-h01226-d1e113">
+               <lb ed="#Be" n="28"/>Deinde queritur de haec quod dicit,
+<lb ed="#Be" n="29"/>ibi, C, §2: <quote xml:id="alalal-h01226-Qd1e119"> Est enim satisfactio 
+peni<lb break="no" ed="#Be" n="30"/>feniie, ué ait Augusiinus, peccatorum
+<lb ed="#Be" n="31"/>causas excidere, etc. </quote>
+            </p>
+            <p xml:id="alalal-h01226-d1e127">
+               <lb ed="#Be" n="32"/>Et queruntur hic tria, scilicet an 
+con<lb break="no" ed="#Be" n="33"/>veniat satisfacere ?
+<lb ed="#Be" n="34"/>Secundo, De diffinitione satisfactionis
+<lb ed="#Be" n="35"/>hic posita.
+<lb ed="#Be" n="36"/>Tertio, Qualiter opus satisfactionis 
+dif<lb break="no" ed="#Be" n="37"/>tab allis partibus poenitentia, scilicet
+<lb ed="#Be" n="38"/>opere confessionis, et campunctionis ?
+</p>
+            <p xml:id="alalal-h01226-d1e146">
+               <lb ed="#Be" n="39"/>Ad primum sic proceditur :
+<lb ed="#Be" n="40"/>1. Satisfacere mensuratur ad aliud ad
+<lb ed="#Be" n="41"/>quod terminatur satisfactio : quod patet :
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="42"/>quia hic qui satisfacit leso, mensurat
+<lb ed="#Be" n="43"/>hoc quod facit ad quantitatem lesionis
+<lb ed="#Be" n="44"/>quam intulit, et similiter ille qui 
+satisfa<lb break="no" ed="#Be" n="45"/>cit damnificato. Ht eodem modo qui 
+sa<lb break="no" ed="#Be" n="46"/>tisfacit Creatori. Ergo satisfacere non est,
+<lb ed="#Be" n="47"/>nisi quale impendatur damno vel 
+le<lb break="no" ed="#Be" n="48"/>sioni : sed nullus potest aequale 
+impen<lb break="no" ed="#Be" n="49"/>dere lesioni, et ingratitudini Dei quam
+<lb ed="#Be" n="50"/>infert peccando: ergo nullus potest 
+sa<lb break="no" ed="#Be" n="51"/>tisfacere.
+</p>
+            <p xml:id="alalal-h01226-d1e179">
+               <lb ed="#Be" n="52"/>2. Item, Magis tenetur satisfacere qui
+<lb ed="#Be" n="53"/>ledit majestatem regis vel principis,
+<lb ed="#Be" n="54"/>quam qui ledit aequalem sibi : ergo in
+<lb ed="#Be" n="55"/>infinitum magis tenetur qui offendit 
+in<lb break="no" ed="#Be" n="56"/>finite altiorem majestatem, quam sit 
+re<lb break="no" ed="#Be" n="57"/>gis vel principis : sed quilibet peccans
+<lb ed="#Be" n="58"/>mortaliter, offendit infinite alliorem 
+ma<lb break="no" ed="#Be" n="59"/>jestatem, quam sit regis vel principis :
+<lb ed="#Be" n="60"/>ergo in infinitum tenetur : sed constat,
+<lb ed="#Be" n="61"/>quod non potest solvere infinitum : ergo
+<lb ed="#Be" n="62"/>non potest satisfacere.
+</p>
+            <p xml:id="alalal-h01226-d1e205">
+               <lb ed="#Be" n="63"/>3. Ttem, Isa. uxiv, 6: Quasi pannus
+<lb ed="#Be" n="64"/>menstruate universe sustitiae nosire.
+<lb ed="#Be" n="65"/>Ergo non sunt satisfactoriae : et non 
+pos<lb break="no" ed="#Be" n="66"/>suimus aliter satisfacere nisi operibus 
+ju<lb break="no" ed="#Be" n="67"/>stitiae : ergo cum illa non hebeamus, 
+vi<lb break="no" ed="#Be" n="68"/>detur quod satisfacere non possumus.
+</p>
+            <p xml:id="alalal-h01226-d1e221">
+               <lb ed="#Be" n="69"/>4, Item, Si aliquis duas habet rationes
+<lb ed="#Be" n="70"/>debiti, scilicet quod sit servus qui nihil
+<lb ed="#Be" n="71"/>potest possidere nisi nomine et jure 
+do<lb break="no" ed="#Be" n="72"/>mini, et ita contraxerit mutuum ab 
+eo<lb break="no" ed="#Be" n="73"/>dem, vel alio : sitotum quod habet debet
+<lb ed="#Be" n="74"/>solvere pro una debiti ratione, non 
+pot<lb break="no" ed="#Be" n="75"/>est aliud solvere debitum: sed sic est de
+<lb ed="#Be" n="76"/>quolibet homine: quia ipse ex conditione
+<lb ed="#Be" n="77"/>nature debet Dec quidauid est, et 
+quid<lb break="no" ed="#Be" n="78"/>quid potest : ergo pro peecatis non hahet
+<lb ed="#Be" n="79"/>quod reddat: sed omnis satisfaciens 
+ali<lb break="no" ed="#Be" n="80"/>quid reddere debet: ergo nullum 
+homi<lb break="no" ed="#Be" n="81"/>nem contingit satisfacere pro peccatis.
+</p>
+            <p xml:id="alalal-h01226-d1e252">
+               <lb ed="#Be" n="82"/>SED CONTRA
+<lb ed="#Be" n="83"/>4. Osee, xiv, 3: <quote xml:id="alalal-h01226-Qd1e258">Omnem aufer 
+iniguila<lb break="no" ed="#Be" n="84"/>iemt, accipe bonum : et reddemus viluie
+<lb ed="#Be" n="85"/>labiorum nostrorum.</quote> Ergo contingit 
+red<lb break="no" ed="#Be" n="86"/>di : ergo satisfacere.
+</p>
+            <p xml:id="alalal-h01226-d1e268">
+               <lb ed="#Be" n="87"/>2. Item, Matth. xvm, 26: <quote xml:id="alalal-h01226-Qd1e272">Patientiam
+<lb ed="#Be" n="88"/>habein me, et omnia reddam tibi.</quote>
+            </p>
+            <p xml:id="alalal-h01226-d1e279">
+               <lb ed="#Be" n="89"/>Souurio. Dicendum, quod duplex est
+<pb ed="#Be" n="486"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>satisfactio, scilicet secundum esequale 
+ju<lb break="no" ed="#Be" n="2"/>ris, et secundum arbitrium ejus cui facta
+<lb ed="#Be" n="3"/>est injuria. De prima satisfactione non
+<lb ed="#Be" n="4"/>contingit satisfacere Deo ab aliqua 
+crea<lb break="no" ed="#Be" n="5"/>tura pura: sed de secunda contingit,
+<lb ed="#Be" n="6"/>quia contingit Deo solvere pro peccato
+<lb ed="#Be" n="7"/>quod exigita nobis. Unde, Michee, v1,
+<lb ed="#Be" n="8"/>6: Quid dignum offeram Domino, etc. ?
+<lb ed="#Be" n="9"/>Et sequitur, ¥. 8 : Indicabo tibi, o 
+ho<lb break="no" ed="#Be" n="10"/>mo, quid sit bonum, et quid, etc.
+</p>
+            <p xml:id="alalal-h01226-d1e310">
+               <lb ed="#Be" n="11"/>Et per hoc patet solutio ad duas 
+ra<lb break="no" ed="#Be" n="12"/>tiones primo inductas, quae procedunt
+<lb ed="#Be" n="13"/>ac si satisfactio pro peccatis sit 
+secun<lb break="no" ed="#Be" n="14"/>dum aequale juris quod mensurat inter
+<lb ed="#Be" n="15"/>damnum illatum, sive inter injuriam 
+pa<lb break="no" ed="#Be" n="16"/>tientis et agentis.
+</p>
+            <p xml:id="alalal-h01226-d1e326">
+               <lb ed="#Be" n="17"/>Ad aliud dicendum, quod justitiae 
+no<lb break="no" ed="#Be" n="18"/>stre dupliciter considerantur, scilicet in
+<lb ed="#Be" n="19"/>comparatione ad nos, et in comparatione
+<lb ed="#Be" n="20"/>ad gratiam informantem quam habemus
+<lb ed="#Be" n="21"/>a Deo. Et primo modo humiliando dicit
+<lb ed="#Be" n="22"/>Isaias, tx1v, 6, quod universe justitia
+<lb ed="#Be" n="23"/>nostre sunt sicut pannus menstruate,
+<lb ed="#Be" n="24"/>quia multi sunt defectus nostri. Secundo
+<lb ed="#Be" n="25"/>autem modo considerata opera nostra
+<lb ed="#Be" n="26"/>sunt Deo accepta.
+</p>
+            <p xml:id="alalal-h01226-d1e350">
+               <lb ed="#Be" n="27"/>Ad aliud dicendum, quod licet totum
+<lb ed="#Be" n="28"/>debeamus quod sumus et possumus 
+ra<lb break="no" ed="#Be" n="29"/>tione conditionis, non tamen totum hoc
+<lb ed="#Be" n="30"/>exigit Deus a nobis quod debemus jure
+<lb ed="#Be" n="31"/>stricto : et ideo secundum suum arbi-
+</p>
+            <p xml:id="alalal-h01226-d1e363">
+               <lb ed="#Be" n="32"/>trium possumus satisfacere etiam de 
+pec<lb break="no" ed="#Be" n="33"/>catis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

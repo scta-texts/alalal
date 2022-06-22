@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="605"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b16706"><!-- l1d24a1 -->
+            <head xml:id="alalal-b16706-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-b16706-Hd1e101" type="question-title">An numerus sit in divinis ?</head>
+            <p xml:id="alalal-b16706-d1e104">
+               <lb ed="#Ba" n="7"/>ARTICULUS I.
+<lb ed="#Ba" n="8"/>An numerus sit in divinis ?
+</p>
+            <p xml:id="alalal-b16706-d1e111">
+               <lb ed="#Ba" n="9"/>Hic ante Litteram oportet querere
+<lb ed="#Ba" n="10"/>duo, scilicet an numerus sit in divinis ?
+<lb ed="#Ba" n="11"/>Et, utrum univoce sit in divinis et in
+<lb ed="#Ba" n="12"/>creaturis ?
+</p>
+            <p xml:id="alalal-b16706-d1e122">
+               <lb ed="#Ba" n="13"/>Circa primum proceditur sic :
+<lb ed="#Ba" n="14"/>1. Dicit <name xml:id="alalal-b16706-Nd1e128">Isidorus</name>, quod numerus 
+dici<lb break="no" ed="#Ba" n="15"/>tur quasi nutus memeris, id est, 
+divisio<lb break="no" ed="#Ba" n="16"/>nis : nulla autem divisio est in divinis,
+<lb ed="#Ba" n="17"/>quia Pater est in Fillo, et e converso :
+<lb ed="#Ba" n="18"/>Spiritus sanctus in utroque, et e 
+conver<lb break="no" ed="#Ba" n="19"/>so: ergo nullus numerus.
+</p>
+            <p xml:id="alalal-b16706-d1e143">
+               <lb ed="#Ba" n="20"/>2. Item, Boetius in libro de Trinitate :
+<lb ed="#Ba" n="21"/>
+               <quote xml:id="alalal-b16706-Qd1e149"> Hoc vere unum est quod nulli nitilur, in
+<lb ed="#Ba" n="22"/>quo nullus numerus. </quote> Etintelligit de 
+di<lb break="no" ed="#Ba" n="23"/>vinis : ergo in divinis nullus est 
+nume<lb break="no" ed="#Ba" n="24"/>rus.
+</p>
+            <p xml:id="alalal-b16706-d1e159">
+               <lb ed="#Ba" n="25"/>3. Item, A quocumque removetur 
+ge<lb break="no" ed="#Ba" n="26"/>nus, et species : sed in Deo non est
+<lb ed="#Ba" n="27"/>quantitas : ergo nec est species 
+quantita<lb break="no" ed="#Ba" n="28"/>tis quae est numerus.
+</p>
+            <p xml:id="alalal-b16706-d1e170">
+               <lb ed="#Ba" n="29"/>4. Item, Numerus, ut dicit 
+Philoso<lb break="no" ed="#Ba" n="30"/>phus in X prime philosophiae, est 
+mul<lb break="no" ed="#Ba" n="31"/>titudo mensurata per unum: sed Deus
+<lb ed="#Ba" n="32"/>simpliciter immensus est: ergo in ipso
+<lb ed="#Ba" n="33"/>nullus numerus est,
+</p>
+            <p xml:id="alalal-b16706-d1e183">
+               <lb ed="#Ba" n="34"/>5. Item, Sive accipiamus numerum
+<lb ed="#Ba" n="35"/>mathematice, sive secundum quod est in
+<lb ed="#Ba" n="36"/>re numerata, videtur Deo non competere
+<lb ed="#Ba" n="37"/>numerus : numerus enim mathematicus,
+<lb ed="#Ba" n="38"/>sive quo humeramus, ut dicit Boetius in
+<lb ed="#Ba" n="39"/>libro de Trinttate, fit iteratione ejusdem
+<lb ed="#Ba" n="40"/>unitatis, sua aggregatione totum 
+nume<lb break="no" ed="#Ba" n="41"/>rum constituentis : sed in illa aggrega-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="42"/>tione totum est majus qualibet parte : in
+<lb ed="#Ba" n="43"/>Deo autem nihil tale est: ergo Deo hu-~
+<lb ed="#Ba" n="44"/>jusmodi numerus non competit. Si 
+au<lb break="no" ed="#Ba" n="45"/>tem numerus in re numerata accipiatur,
+<lb ed="#Ba" n="46"/>idem est esse in numero quod est esse in
+<lb ed="#Ba" n="47"/>mensura suae quantitatis discrete : hoc
+<lb ed="#Ba" n="48"/>autem Deo iterum non convenit, ut
+<lb ed="#Ba" n="49"/>probat Magister hic : ergo in Deo non
+<lb ed="#Ba" n="50"/>est numerus.
+</p>
+            <p xml:id="alalal-b16706-d1e225">
+               <lb ed="#Ba" n="51"/>Sed CONTRA :
+<lb ed="#Ba" n="52"/>1. Unitas est potentia omnis numerus:
+<lb ed="#Ba" n="53"/>Deus autem, ut dicit Boetius 
+absolutis<lb break="no" ed="#Ba" n="54"/>sime est unus, ita ut videatur esse 
+pri<lb break="no" ed="#Ba" n="55"/>mum unum : ergoin eo est potentia 
+om<lb break="no" ed="#Ba" n="56"/>nis numerus.
+</p>
+            <p xml:id="alalal-b16706-d1e241">
+               <lb ed="#Ba" n="57"/>2. Item, Philosophus in X prime 
+phi<lb break="no" ed="#Ba" n="58"/>losophiae vult, quod simplicissimum in
+<lb ed="#Ba" n="59"/>quolibet genere est primum unum 
+men<lb break="no" ed="#Ba" n="60"/>surans omnia alia quae sunt ejusdem 
+ge<lb break="no" ed="#Ba" n="61"/>neris : sed Deus simplicissimum est in
+<lb ed="#Ba" n="62"/>genere substantia : ergo ipse est 
+pri<lb break="no" ed="#Ba" n="63"/>mum unum quo omnia alia 
+mensuran<lb break="no" ed="#Ba" n="64"/>tur.
+</p>
+            <p xml:id="alalal-b16706-d1e262">
+               <lb ed="#Ba" n="65"/>Item, Philosophus, ibidem : In 
+sub<lb break="no" ed="#Ba" n="66"/>stantia necesse est ut simuliter sit unum :
+<lb ed="#Ba" n="67"/>hoc enim consimile est in omnibus. Et
+<lb ed="#Ba" n="68"/>ibi dicit commentum haecverba: Unum
+<lb ed="#Ba" n="69"/>in substantiis est quod est principium
+<lb ed="#Ba" n="70"/>esse earum, et principium numeri earum
+<lb ed="#Ba" n="71"/>quod existit in substantiis : et intendit,
+<lb ed="#Ba" n="72"/>cum huic fuerit junctum quod declaratum
+<lb ed="#Ba" n="73"/>est in libro Physicorum, scilicet quod
+<lb ed="#Ba" n="74"/>primus motor sive prima causa est 
+indi<lb break="no" ed="#Ba" n="75"/>visibilis et impartibilis non habens 
+ma<lb break="no" ed="#Ba" n="76"/>gnitudinem penitus, hoc esse primum
+<lb ed="#Ba" n="77"/>motorem absolutum ab omni materia : et
+<lb ed="#Ba" n="78"/>declarabitur post, quod hoc non solum
+<lb ed="#Ba" n="79"/>est principium tamquam motor, sed
+<lb ed="#Ba" n="80"/>tamquam forma et finis: et tunc 
+decla<lb break="no" ed="#Ba" n="81"/>rabitur, quod illud est unum de quo
+<lb ed="#Ba" n="82"/>probatum est, quod est principium 
+sub<lb break="no" ed="#Ba" n="83"/>stantie : sicut illud est declaratum quod
+<lb ed="#Ba" n="84"/>est actus ultimus cui non admiscetur
+<lb ed="#Ba" n="85"/>potentia omnino.
+</p>
+            <p xml:id="alalal-b16706-d1e310">
+               <lb ed="#Ba" n="86"/>3. Item, Philosophus, ibidem : Illud
+<lb ed="#Ba" n="87"/>enim quod non dividitur, dicitur unum,
+<lb ed="#Ba" n="88"/>secundum quod non dividitur : Deus 
+au<lb break="no" ed="#Ba" n="89"/>tem maxime est indivisibilis : ergo 
+ma<lb break="no" ed="#Ba" n="90"/>xime unus : ergo convenit ei esse unum :
+<pb ed="#Ba" n="606"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>et hoc potentia numerus, et mensura 
+nu<lb break="no" ed="#Ba" n="2"/>meri est : ergo, etc.
+</p>
+            <p xml:id="alalal-b16706-d1e332">
+               <lb ed="#Ba" n="3"/>4. Praeterea, Nos dicimus, quod est
+<lb ed="#Ba" n="4"/>unus, Deuter. vi, 4: Audi, Israel, etc. :
+<lb ed="#Ba" n="5"/>et dicimus, quod est tres persone, I Joan.
+<lb ed="#Ba" n="6"/>v, 1: Tres sunt qui testimonium dant
+<lb ed="#Ba" n="7"/>in celo. Ergo est in eo numerus 
+poten<lb break="no" ed="#Ba" n="8"/>tia, et pumerus actualis, ut videtur.
+</p>
+            <p xml:id="alalal-b16706-d1e348">
+               <lb ed="#Ba" n="9"/>Sorvrio. Hic oportet distinguere, quod
+<lb ed="#Ba" n="10"/>numerus multipliciter consideratur. Est
+<lb ed="#Ba" n="11"/>enim numerus discrete quantitatis qui
+<lb ed="#Ba" n="12"/>est ageregatio unitatum, ita quod facit in
+<lb ed="#Ba" n="13"/>eo discretionem defectus continuationis
+<lb ed="#Ba" n="14"/>inter unitalem et unitatem, ut dicit 
+Phi<lb break="no" ed="#Ba" n="15"/>losophus : si enim esset continuatio inter
+<lb ed="#Ba" n="16"/>unitatem et unitatem, sicut inter 
+pun<lb break="no" ed="#Ba" n="17"/>ctum et punctum in linea, non esset 
+dis<lb break="no" ed="#Ba" n="18"/>creta quantitas. Et ex illa ratione 
+vide<lb break="no" ed="#Ba" n="19"/>tur procedere Magister in Zittera : quia
+<lb ed="#Ba" n="20"/>sine dubio nulla talis discretio separans
+<lb ed="#Ba" n="21"/>unum ab alio est vel potest esse in divinis,
+<lb ed="#Ba" n="22"/>ubi Pater est in Filio, et Filius in Patre.
+</p>
+            <p xml:id="alalal-b16706-d1e381">
+               <lb ed="#Ba" n="23"/>Aliter accipitur numerus ex parte rei
+<lb ed="#Ba" n="24"/>numerate : quia illa secundum quod 
+ac<lb break="no" ed="#Ba" n="25"/>cipit rationem unius quod potentia est
+<lb ed="#Ba" n="26"/>humerus, ila accipit rationem numeri :
+<lb ed="#Ba" n="27"/>accipit autem rationem unius a forma,
+<lb ed="#Ba" n="28"/>non secundum quod forma est, sed 
+se<lb break="no" ed="#Ba" n="29"/>cundum quod terminat id cui dat esse :
+<lb ed="#Ba" n="30"/>sunt enim tres actus forme sive ejus quo
+<lb ed="#Ba" n="31"/>res est id quod est. Primus est dare esse.
+<lb ed="#Ba" n="32"/>Secundus autem dare rationem nature.
+<lb ed="#Ba" n="33"/>Et tertius est terminare : et ab isto 
+ulti<lb break="no" ed="#Ba" n="34"/>mo actu forme est ratio unius : quia per
+<lb ed="#Ba" n="35"/>hoc efficitur in se indivisa, et ab aliis
+<lb ed="#Ba" n="36"/>divisa : et haec est ejus diffinitio : et hoc
+<lb ed="#Ba" n="37"/>intendit Philosophus, quando dixit, quod
+<lb ed="#Ba" n="38"/>id quod non dividitur, dicitur unum 
+se<lb break="no" ed="#Ba" n="39"/>cundum quod non dividilur. Hoc modo
+<lb ed="#Ba" n="40"/>bene dicimus, quod hac res est una, hec
+<lb ed="#Ba" n="41"/>res et ila sunt due : et hoc modo bene
+<lb ed="#Ba" n="42"/>dicimus, quod Deus est unus : sed non
+<lb ed="#Ba" n="43"/>possumus personaliter hoc modo dicere,
+<lb ed="#Ba" n="44"/>quod Pater est unus, et Pater et Filius
+<lb ed="#Ba" n="45"/>sunt duo, cum non sint a se invicem per
+<lb ed="#Ba" n="46"/>esse et formam divisi : hoc modo iterum
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="47"/>bene dicit Magister, quod in personis non
+<lb ed="#Ba" n="48"/>est numerus.
+</p>
+            <p xml:id="alalal-b16706-d1e442">
+               <lb ed="#Ba" n="49"/>Tertio modo dicimus nemerum, id
+<lb ed="#Ba" n="50"/>quod exit per similitudinem numerans
+<lb ed="#Ba" n="51"/>potentiam unius : et hoc dupliciter, 
+sci<lb break="no" ed="#Ba" n="52"/>licet secundum materiam, et secundum
+<lb ed="#Ba" n="53"/>formam. Secundum materiam : sicut 
+di<lb break="no" ed="#Ba" n="54"/>cimus decem ulnas esse numerum 
+quan<lb break="no" ed="#Ba" n="55"/>titatis panni, quia ulna decies iteratur in
+<lb ed="#Ba" n="56"/>panni quantitate : et hoc modo dicimus
+<lb ed="#Ba" n="57"/>lineam esse decem partes aliquotas. 
+Se<lb break="no" ed="#Ba" n="58"/>cundum formam autem, precipue in
+<lb ed="#Ba" n="59"/>exemplari : sicut dicimus ea quae facta
+<lb ed="#Ba" n="60"/>sunt, et sunt, et fient, esse numerum
+<lb ed="#Ba" n="61"/>exemplarium divinorum : et hoc unum
+<lb ed="#Ba" n="62"/>dicitur mensura per modum principii ad
+<lb ed="#Ba" n="63"/>esse, et per modum forme exemplaris. ut
+<lb ed="#Ba" n="64"/>prima causa est unum numerans causata,
+<lb ed="#Ba" n="65"/>non quod iteretur in illis, vel quod sua
+<lb ed="#Ba" n="66"/>iteratio sit quantitas illorum, ut quidam
+<lb ed="#Ba" n="67"/>male intellexerunt, sed quod 
+uniuscujus<lb break="no" ed="#Ba" n="68"/>que forma per relationem ad ipsum et
+<lb ed="#Ba" n="69"/>exemplar sit unum, et omnes forme
+<lb ed="#Ba" n="70"/>exemplares faciunt multitudinem. Hoc
+<lb ed="#Ba" n="71"/>modo dicimus solum Deum unum, qui
+<lb ed="#Ba" n="72"/>est principium et exemplar totius 
+multi<lb break="no" ed="#Ba" n="73"/>tudinis creaturarum : et hoc unum non
+<lb ed="#Ba" n="74"/>est potentia multa sui iteratione, sed 
+po<lb break="no" ed="#Ba" n="75"/>tentia effectuum et exemplatorum 
+mul<lb break="no" ed="#Ba" n="76"/>torum : et haec est intentio Philosophi in
+<lb ed="#Ba" n="77"/>auctoritate supra posita, et intentio
+<lb ed="#Ba" n="78"/>Commentatoris. Et hoc est quod dicit
+<lb ed="#Ba" n="79"/>Dionysius in libro de Divinis nominibus :
+<lb ed="#Ba" n="80"/>
+               <quote xml:id="alalal-b16706-Qd1e513"> Theologia totam thearchiam sicut 
+om<lb break="no" ed="#Ba" n="81"/>nium causam laudat unius nominatione.
+<lb ed="#Ba" n="82"/>Et unus Deus Pater, et unus Dominus
+<lb ed="#Ba" n="83"/>Jesus Christus, et unus et idem Spiritus
+<lb ed="#Ba" n="84"/>propter excedentem totius divinitatis
+<lb ed="#Ba" n="85"/>simplicitatem, in qua omnia singulariter
+<lb ed="#Ba" n="86"/>congregata sunt et superunita, et 
+pre<lb break="no" ed="#Ba" n="87"/>sunt supersubstantialiter. Propter quod
+<lb ed="#Ba" n="88"/>et omnia ad ipsam juste revertuntur et
+<lb ed="#Ba" n="89"/>reponuntur, a qua, et ex qua, et per
+<lb ed="#Ba" n="90"/>quam, et in qua, et ad quam, omnia
+<lb ed="#Ba" n="91"/>sunt, et coordinata sunt, et manent, et
+<lb ed="#Ba" n="92"/>continentur et adimplentur et 
+convertun<lb break="no" ed="#Ba" n="93"/>tur. </quote> hoc autem modo etiam dicit <name xml:id="alalal-b16706-Nd1e544">Al-
+<pb ed="#Ba" n="607"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" n="1"/>gazel</name> in sua Metaphysica, in tertia 
+divi<lb break="no" ed="#Ba" n="2"/>sione entis, sic : Primo modo dicitur
+<lb ed="#Ba" n="3"/>unum verissime ilud unum singulare
+<lb ed="#Ba" n="4"/>significatum, im quo non est multitudo,
+<lb ed="#Ba" n="5"/>nec impotentia, nec etiam in effectu, ut
+<lb ed="#Ba" n="6"/>essentia Creatoris : quoniam Deus non
+<lb ed="#Ba" n="7"/>dividitur in effectu, nec est receptibilis
+<lb ed="#Ba" n="8"/>divisionis . expers igitur est maltitudinis
+<lb ed="#Ba" n="9"/>in esse et potentia et effectu, cujus
+<lb ed="#Ba" n="10"/>noinen excelsum est : ipse igitur vere
+<lb ed="#Ba" n="11"/>unus est
+</p>
+            <p xml:id="alalal-b16706-d1e577">
+               <lb ed="#Ba" n="12"/>Quarto modo dicitur namerus ex parte
+<lb ed="#Ba" n="13"/>rei numerate secundum quid et non 
+sim<lb break="no" ed="#Ba" n="14"/>plieiter, scilicet causata pluralitas a 
+di<lb break="no" ed="#Ba" n="15"/>stinguente quocumque modo sicut
+<lb ed="#Ba" n="16"/>etiam dicimus punclum continuans in
+<lb ed="#Ba" n="17"/>medio esse duo, eo quod ut duobus 
+uti<lb break="no" ed="#Ba" n="18"/>mur uno, scilicet in ratione finis et 
+prin<lb break="no" ed="#Ba" n="19"/>cipn, et dicimus centrum in circulo esse
+<lb ed="#Ba" n="20"/>multum in ratione linearum exeuntium
+<lb ed="#Ba" n="21"/>ab ipso ad circumferentiam : et hoc modo
+<lb ed="#Ba" n="22"/>dicimus personam unam distinctam sua
+<lb ed="#Ba" n="23"/>proprietate originis, et duas personas
+<lb ed="#Ba" n="24"/>plures distinctas tal: originis proprietate :
+<lb ed="#Ba" n="25"/>et hoc modo solo numerus positive cadit
+<lb ed="#Ba" n="26"/>1p divinis : et in hac numeri 
+considera<lb break="no" ed="#Ba" n="27"/>tione diminutus est Magister : quia iste
+<lb ed="#Ba" n="28"/>numerus non est simpliciter numerus, sed
+<lb ed="#Ba" n="29"/>secundum quid, quem effective facit 
+pro<lb break="no" ed="#Ba" n="30"/>prietas distinguens et determinans : 
+nu<lb break="no" ed="#Ba" n="31"/>meratum autem illo numero persona est,
+<lb ed="#Ba" n="32"/>sicut diximus supra '.
+</p>
+            <p xml:id="alalal-b16706-d1e625">
+               <lb ed="#Ba" n="33"/>Dicenypum ergo ad primum, quod 
+se<lb break="no" ed="#Ba" n="34"/>cundum illam Isidori rationem, numerus
+<lb ed="#Ba" n="35"/>non cadit in personis, nisi divesio large
+<lb ed="#Ba" n="36"/>accipiatur pro disfinctie : et unus tunc
+<lb ed="#Ba" n="37"/>non dicit distinctionem sensus vel oculi
+<lb ed="#Ba" n="38"/>ad rem demonstratam, sed potius distin -
+<lb ed="#Ba" n="39"/>clionem intellectus.
+</p>
+            <p xml:id="alalal-b16706-d1e643">
+               <lb ed="#Ba" n="40"/>Ad aliud dicendum, quod Boctius 
+lo<lb break="no" ed="#Ba" n="41"/>quitur de wno secundum rationem 
+nomi<lb break="no" ed="#Ba" n="42"/>nis : quiaillud est unum quod est 
+indivi<lb break="no" ed="#Ba" n="43"/>sum in se, et divisum ab alio : precipue
+<lb ed="#Ba" n="44"/>autem indivisum est quod nec actu nec
+<lb ed="#Ba" n="45"/>potentia divisibile est, nec capax 
+multi<lb break="no" ed="#Ba" n="46"/>tudinis : et huic adbue additur tertia 
+con<lb break="no" ed="#Ba" n="47"/>ditio, quod est maxime unum indivisibile
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>potentia et actu, et cujus natura non est
+<lb ed="#Ba" n="49"/>alrud in ipso quam natura unitatis. Et
+<lb ed="#Ba" n="50"/>additur quarta quae adhuc magis facit
+<lb ed="#Ba" n="51"/>unum, scilicet quod non sit iterabile ut
+<lb ed="#Ba" n="52"/>nec divisione sui nec aggregatione capax
+<lb ed="#Ba" n="53"/>sit multitudinis : et istis quatuor 
+condi<lb break="no" ed="#Ba" n="54"/>tionibus in unum conjunctis nihil est
+<lb ed="#Ba" n="55"/>unum nisi solus Deus. Primo enim modo
+<lb ed="#Ba" n="56"/>esL unum, quod unam habet formam se
+<lb ed="#Ba" n="57"/>terminantem. Secundo modo unum est
+<lb ed="#Ba" n="58"/>punctum : sed alud est in eo natura 
+pun<lb break="no" ed="#Ba" n="59"/>cli, aliud natura unitatis ; quia punctum
+<lb ed="#Ba" n="60"/>est substantia habens positionem in 
+con<lb break="no" ed="#Ba" n="61"/>tinuo, cum sit in ratione primi et ultimi
+<lb ed="#Ba" n="62"/>et medi. Tertio modo est unum unitas
+<lb ed="#Ba" n="63"/>ipsa : quia unitas seipsa est una 
+indivisi<lb break="no" ed="#Ba" n="64"/>bilis potentia et actu: sed aggregabilis
+<lb ed="#Ba" n="65"/>est alii im constitutione numen. Quarto
+<lb ed="#Ba" n="66"/>autem modo est Deus indivisibilis 
+poten<lb break="no" ed="#Ba" n="67"/>tia et aclu, non aliam habens unitatis
+<lb ed="#Ba" n="68"/>naturam quam seipsum, et non 
+aggrega<lb break="no" ed="#Ba" n="69"/>bilis aliiad multitudinem constituendam:
+<lb ed="#Ba" n="70"/>sed si est principium multitudinis, hoc
+<lb ed="#Ba" n="71"/>erit effective et exemplariter, ut dictum
+<lb ed="#Ba" n="72"/>est : et ita intelligit Boetius. Hoc autem
+<lb ed="#Ba" n="73"/>modo non querimus numerum in 
+perso<lb break="no" ed="#Ba" n="74"/>nis.
+</p>
+            <p xml:id="alalal-b16706-d1e724">
+               <lb ed="#Ba" n="75"/>Ad aliud dicendum, quod non 
+sequi<lb break="no" ed="#Ba" n="76"/>tur hoc argumentum : et ratio assignata
+<lb ed="#Ba" n="77"/>est supra , quia quandoque species 
+refer<lb break="no" ed="#Ba" n="78"/>tur in divima non propter naturam 
+gene<lb break="no" ed="#Ba" n="79"/>ris quae est in ipsa, sed propter naturam
+<lb ed="#Ba" n="80"/>differentia  quam addit supra genus. 
+Un<lb break="no" ed="#Ba" n="81"/>de Augustinus dicit, quod est sine 
+quan<lb break="no" ed="#Ba" n="82"/>titate magnus, etc. Et similiter dico, quod
+<lb ed="#Ba" n="83"/>persone numerantur et tamen non
+<lb ed="#Ba" n="84"/>ponitur quantitas numeri circa ipsas, quia
+<lb ed="#Ba" n="85"/>numerantur quodam numero, et non 
+nu<lb break="no" ed="#Ba" n="86"/>mero qui simpliciter numerus est.
+</p>
+            <p xml:id="alalal-b16706-d1e753">
+               <lb ed="#Ba" n="87"/>Ab atiup dicendum, quod secundum
+<lb ed="#Ba" n="88"/>illam rationem numeri, numerus non 
+ca<lb break="no" ed="#Ba" n="89"/>dit in divinis, ut prius est habitum.
+</p>
+            <p xml:id="alalal-b16706-d1e762">
+               <lb ed="#Ba" n="90"/>Ad aliud dicendum, quod in numero
+<lb ed="#Ba" n="91"/>qui ponit quantitatem circa numeratum,
+<lb ed="#Ba" n="92"/>veruin est hoc quod totum est majus sua
+<lb ed="#Ba" n="93"/>parte : sed numerus personarum nullam
+<lb ed="#Ba" n="94"/>ponit quantitatem : et ideo ibi non se-
+<pb ed="#Ba" n="608"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>quitur, quod duo sint majores uno, vel
+<lb ed="#Ba" n="2"/>tres majus aliquid vel aliquid plus quam
+<lb ed="#Ba" n="3"/>unus : et hoc etiam supra probatum est,
+<lb ed="#Ba" n="4"/>scilicet distinctione XVIII.
+</p>
+            <p xml:id="alalal-b16706-d1e789">
+               <lb ed="#Ba" n="5"/>Ap EA quae objiciuntur ad alteram 
+par<lb break="no" ed="#Ba" n="6"/>tem, dicendum ad primum, quod Deus
+<lb ed="#Ba" n="7"/>est verissime unum essentialiter : sed non
+<lb ed="#Ba" n="8"/>convenit ei potentia esse numerum, nisi
+<lb ed="#Ba" n="9"/>effective et formaliter, ut dictum est.
+</p>
+            <p xml:id="alalal-b16706-d1e802">
+               <lb ed="#Ba" n="10"/>Ad aliud dicendum, quod duplex est
+<lb ed="#Ba" n="11"/>mensura : una scilicet certificans 
+quanti<lb break="no" ed="#Ba" n="12"/>tatem : et illa incipit vel ab indivisibili
+<lb ed="#Ba" n="13"/>simpliciter, vel ab indivisibili secundum
+<lb ed="#Ba" n="14"/>placitum, eo quod illud est quantitatis
+<lb ed="#Ba" n="15"/>certe. Ab indivisibili simpliciter : sicut
+<lb ed="#Ba" n="16"/>unitas est indivisibile, et sua iteratio 
+cer<lb break="no" ed="#Ba" n="17"/>tificat discretam quantitatem. Ab indivi-~
+<lb ed="#Ba" n="18"/>sibili secundum placitum : sicut in 
+pon<lb break="no" ed="#Ba" n="19"/>deribus vel liquidis vel siccis vel 
+conti<lb break="no" ed="#Ba" n="20"/>nuis dicitur certificans ratione sui marca
+<lb ed="#Ba" n="21"/>una, modius, palmus, et alia hujusmodi,
+<lb ed="#Ba" n="22"/>in quibus ponimus primam quantitatem
+<lb ed="#Ba" n="23"/>notam. Alia est mensura nature alicujus
+<lb ed="#Ba" n="24"/>generis, et haecfit per relationem 
+om<lb break="no" ed="#Ba" n="25"/>nium illorum quae sunt in genere illo :
+<lb ed="#Ba" n="26"/>ideo addit quod illam naturam habet
+<lb ed="#Ba" n="27"/>simplicissime, et est causa esse nature
+<lb ed="#Ba" n="28"/>illius in aliis : et sic motus mensurantur
+<lb ed="#Ba" n="29"/>primo motu, et numeri uno numero et
+<lb ed="#Ba" n="30"/>non unitate, et creature Creatore, et 
+om<lb break="no" ed="#Ba" n="31"/>nes substantiae una prima substantia : et
+<lb ed="#Ba" n="32"/>magis est una substantia quae magis 
+ac<lb break="no" ed="#Ba" n="33"/>cedit ad primam substantiam, et minus
+<lb ed="#Ba" n="34"/>una quae magis distat. Et hoc modo dicit
+<lb ed="#Ba" n="35"/>Philosophus, quod intelligentia est una,
+<lb ed="#Ba" n="36"/>et non dividitur participando 
+multitudi<lb break="no" ed="#Ba" n="37"/>nem bonitatum prime cause, sed magis
+<lb ed="#Ba" n="38"/>unitur : quia participando plures 
+boni<lb break="no" ed="#Ba" n="39"/>tates magis accedit ad unum : et hoc 
+mo<lb break="no" ed="#Ba" n="40"/>do dicit Dionysius, quod radius divinus
+<lb ed="#Ba" n="41"/>ut vivifica virtus nos replet, et convertit
+<lb ed="#Ba" n="42"/>ad aggregantis Patris unitatem et 
+detfi<lb break="no" ed="#Ba" n="43"/>cam supersimplicitatem.
+</p>
+            <p xml:id="alalal-b16706-d1e878">
+               <lb ed="#Ba" n="44"/>Ad aliud dicendum, quod bene 
+conce<lb break="no" ed="#Ba" n="45"/>dimus, quod Deus maxime unus est, et
+<lb ed="#Ba" n="46"/>hoc modo quo diximus.
+</p>
+            <p xml:id="alalal-b16706-d1e887">
+               <lb ed="#Ba" n="47"/>Ad aliud patet solutio per ante dicta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

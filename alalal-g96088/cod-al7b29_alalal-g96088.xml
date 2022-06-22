@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 31</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 31</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="460"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g96088"><!-- l4d14a31 -->
+            <head xml:id="alalal-g96088-Hd1e99">Articulus 31</head>
+            <head xml:id="alalal-g96088-Hd1e101" type="question-title">An sit aliquod summum malum ?</head>
+            <p xml:id="alalal-g96088-d1e104">
+               <lb ed="#Be" n="22"/>ARTICULUS XXXI.
+<lb ed="#Be" n="23"/>An sit aliquod summum malum ?
+</p>
+            <p xml:id="alalal-g96088-d1e111">
+               <lb ed="#Be" n="24"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="25"/>ibi, D, § 1, sub finem: <quote xml:id="alalal-g96088-Qd1e117"> Etiamsi ad
+<lb ed="#Be" n="26"/>summum quis perveniat malorum,
+<lb ed="#Be" n="27"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-g96088-d1e125">
+               <lb ed="#Be" n="28"/>Videtur, quod non sit aliquod 
+sum<lb break="no" ed="#Be" n="29"/>mum malum :
+<lb ed="#Be" n="30"/>1.Cum enim malum sit privatio boni,
+<lb ed="#Be" n="31"/>non potest esse aliquid summum malum
+<lb ed="#Be" n="32"/>nisi quod universaliter est bono 
+priva<lb break="no" ed="#Be" n="33"/>tum : bonum autem cum non sit in 
+Ze<lb break="no" ed="#Be" n="34"/>nere, ut dicit Philosophus, convertitur
+<lb ed="#Be" n="35"/>cumente:ergo etiam est ente 
+priva<lb break="no" ed="#Be" n="36"/>tum : sed privatum ente non est: ergo
+<lb ed="#Be" n="37"/>summum malum non est.
+</p>
+            <p xml:id="alalal-g96088-d1e150">
+               <lb ed="#Be" n="38"/>2. Item, In his quae per accessum et
+<lb ed="#Be" n="39"/>per recessum ab uno et ad unum recipiunt
+<lb ed="#Be" n="40"/>intensionem, non est devenire ad hoc
+<lb ed="#Be" n="41"/>summum : sed malum intenditur per
+<lb ed="#Be" n="42"/>recessum a bono : ergo non est in ipso
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="43"/>devenire ad aliquod summum : ergo non
+<lb ed="#Be" n="44"/>est aliquid summum malum. Prosatio
+<lb ed="#Be" n="45"/>prime : In quibus non ponitur 
+termi<lb break="no" ed="#Be" n="46"/>nus ad quem sed tantum a quo, 
+infi<lb break="no" ed="#Be" n="47"/>nitus est motus, eo quod motus non
+<lb ed="#Be" n="48"/>finitur nisi quando est in moto esse, et
+<lb ed="#Be" n="49"/>hoe est in termino ad quem: sed in
+<lb ed="#Be" n="50"/>comparationibus quae sunt secundum 
+re<lb break="no" ed="#Be" n="51"/>cessum ab uno, et non secundum acces~
+<lb ed="#Be" n="52"/>sum ad aliquid, non ponitur terminus
+<lb ed="#Be" n="53"/>ad quem : ergo infinita est recessio 
+se<lb break="no" ed="#Be" n="54"/>cundum potestatem : sed omne summum
+<lb ed="#Be" n="55"/>ponit terminum : ergo in talibus nullum,
+<lb ed="#Be" n="56"/>est summum.
+</p>
+            <p xml:id="alalal-g96088-d1e196">
+               <lb ed="#Be" n="57"/>3. Item, Si aliquid esset summum 
+ma<lb break="no" ed="#Be" n="58"/>lum illud esset contrarium summo bono :
+<lb ed="#Be" n="59"/>ergo tantum posset in malo, quantum
+<lb ed="#Be" n="60"/>summum bonum in bono: sed summum
+<lb ed="#Be" n="61"/>bonum potest constituere omne ens : 
+er<lb break="no" ed="#Be" n="62"/>go suinmum malum destrueret omne
+<lb ed="#Be" n="63"/>ens : sed hoc est falsum : patet ergo
+<lb ed="#Be" n="64"/>quod nihil est summum mnolum.
+</p>
+            <p xml:id="alalal-g96088-d1e216">
+               <lb ed="#Be" n="65"/>Soxutio. Dicendum, quod nihil est
+<lb ed="#Be" n="66"/>summe malum absolute : sed secundum
+<lb ed="#Be" n="67"/>actum est aliquid ita malum, quod nihil
+<lb ed="#Be" n="68"/>in actu pejus : et hoc notat Magister hic
+<lb ed="#Be" n="69"/>et Joannes Chrysostomus.
+</p>
+            <p xml:id="alalal-g96088-d1e229">
+               <lb ed="#Be" n="70"/>Summum autem malum est duplex,
+<lb ed="#Be" n="71"/>scilicet simpliciter, et secundum statum.
+<lb ed="#Be" n="72"/>Simpliciter, ut demon quo non est
+<lb ed="#Be" n="73"/>aliquid pejus. Secundum statum autem
+<lb ed="#Be" n="74"/>adhuc dupliciter scilicet comparando 
+sta<lb break="no" ed="#Be" n="75"/>tum ad statum: et sic summe mali sunt
+<lb ed="#Be" n="76"/>damnati. Vel comparando statum unius
+<lb ed="#Be" n="77"/>persone ad statum alterius persone in
+<lb ed="#Be" n="78"/>statu vite, et sic dicimus obstinatos et
+<lb ed="#Be" n="79"/>impeenitentes summe malos. Et de 
+tali<lb break="no" ed="#Be" n="80"/>bus loquitur hic <name xml:id="alalal-g96088-Nd1e255">Chrysostomus</name>.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

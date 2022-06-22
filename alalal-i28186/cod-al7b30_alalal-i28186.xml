@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="137"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i28186"><!-- l4d27a5 -->
+            <head xml:id="alalal-i28186-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-i28186-Hd1e101" type="question-title">An talis consensus semper efficiat 
+matrimonium ?</head>
+            <p xml:id="alalal-i28186-d1e104">
+               <lb ed="#Bf" n="5"/>ARTICULUS V.
+<lb ed="#Bf" n="6"/>An talis consensus semper efficiat 
+ma<lb break="no" ed="#Bf" n="7"/>trimonium ?
+</p>
+            <p xml:id="alalal-i28186-d1e113">
+               <lb ed="#Bf" n="8"/>Secundo queritur, Utrum consensus
+<lb ed="#Bf" n="9"/>talis semper efficiat matrimonium vel
+<lb ed="#Bf" n="10"/>non ?
+</p>
+            <p xml:id="alalal-i28186-d1e122">
+               <lb ed="#Bf" n="11"/>Videtur autem, quod non: quia
+<lb ed="#Bf" n="12"/>1. Dicit Magister Hugo : <quote xml:id="alalal-i28186-Qd1e128"> Arbitror,
+<lb ed="#Bf" n="13"/>quod sufficiebat in antiquo tempore 
+pa<lb break="no" ed="#Bf" n="14"/>trum ad contrahendum conjugium 
+alter<lb break="no" ed="#Bf" n="15"/>na viri et mulieris in rebus necessariis
+<lb ed="#Bf" n="16"/>providentia, et de solvendo carnis debito
+<lb ed="#Bf" n="17"/>consensus : ita tamen, quod mulier 
+pro<lb break="no" ed="#Bf" n="18"/>mittebat se fidem thori viro servaturam,
+<lb ed="#Bf" n="19"/>vir autem quandoque poterat aliam 
+du<lb break="no" ed="#Bf" n="20"/>cere, et dato libello repudii uxorem 
+di<lb break="no" ed="#Bf" n="21"/>mittere. </quote> Ergo videtur, quod vir tune
+<lb ed="#Bf" n="22"/>non tenebatur consentire.
+</p>
+            <p xml:id="alalal-i28186-d1e154">
+               <lb ed="#Bf" n="23"/>2. Item, Si verba de presenti fuerunt,
+<lb ed="#Bf" n="24"/>Accipio te in meum: cum meus non
+<lb ed="#Bf" n="25"/>possit esse qui alterius est, videtur quod
+<lb ed="#Bf" n="26"/>mulier non possit hoc dicere, quae 
+con<lb break="no" ed="#Bf" n="27"/>jungitur uni qui plures habet : ergo non
+<lb ed="#Bf" n="28"/>potest in eum consentire : ergo videtur,
+<lb ed="#Bf" n="29"/>quod tunc consensus matrimonium non
+<lb ed="#Bf" n="30"/>fecit.
+</p>
+            <p xml:id="alalal-i28186-d1e174">
+               <lb ed="#Bf" n="31"/>3. Item, Meus non est, qui potest me
+<lb ed="#Bf" n="32"/>dimittere : sed tunc potuit dimittere dato
+<lb ed="#Bf" n="33"/>libello repudii : ergo videtur, quod non
+<lb ed="#Bf" n="34"/>suus : ergo nec fuerat ibi consensus, quia
+<lb ed="#Bf" n="35"/>consensus facit suum. Et hec quandoque
+<lb ed="#Bf" n="36"/>fuit opinio Hugonis de sancto Victore.
+</p>
+            <p xml:id="alalal-i28186-d1e190">
+               <lb ed="#Bf" n="37"/>In contrarium hujus objicitur : quia
+<lb ed="#Bf" n="38"/>4. Dicitur, Genes. xxiv, 57: Vocemus
+<lb ed="#Bf" n="39"/>puellam, et queramus ipsius 
+volunta<lb break="no" ed="#Bf" n="40"/>tem: et querebatur consensus puelle :
+<lb ed="#Bf" n="41"/>non querebatur autem nisi propter 
+ma<lb break="no" ed="#Bf" n="42"/>trimonium : igitur consensus de presenti,
+<lb ed="#Bf" n="43"/>et tunc fecit matrimonium.
+</p>
+            <p xml:id="alalal-i28186-d1e208">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="44"/>2. Item, Quid faceret matrimonium
+<lb ed="#Bf" n="45"/>nisi consensus ? Constat autem quod illa
+<lb ed="#Bf" n="46"/>que matrimonialiter conjuncta est, 
+co<lb break="no" ed="#Bf" n="47"/>gnoscitur ut sua: sed suam non potest
+<lb ed="#Bf" n="48"/>aliquid facere nisi consensus: ergo 
+vide<lb break="no" ed="#Bf" n="49"/>tur, quod etiam tunc consensus fecit 
+ma<lb break="no" ed="#Bf" n="50"/>trimonium.
+</p>
+            <p xml:id="alalal-i28186-d1e228">
+               <lb ed="#Bf" n="51"/>Responsio. Videtur mihi sine 
+prajudi<lb break="no" ed="#Bf" n="52"/>cio, quod etiam tunc matrimonium fecit
+<lb ed="#Bf" n="53"/>consensus per verba de presenti 
+expres<lb break="no" ed="#Bf" n="54"/>sus. Et dico, quod vir polest esse suus
+<lb ed="#Bf" n="55"/>mulieris dupliciter, scilicet simpliciter in
+<lb ed="#Bf" n="56"/>omnibus: et sic alii copjugi non posset:
+<lb ed="#Bf" n="57"/>et hoc modo suus estin Novo Testamento
+<lb ed="#Bf" n="58"/>in quo una est unius. Alio modo poterat
+<lb ed="#Bf" n="59"/>esse suus in opere generationis: et hoc
+<lb ed="#Bf" n="60"/>modo unus potest esse plurium, sicut 
+di<lb break="no" ed="#Bf" n="61"/>cit Aristoteles in IV prime philosophie,
+<lb ed="#Bf" n="62"/>quod unus multas implet. Et consensus
+<lb ed="#Bf" n="63"/>Veteris Testamenti quando dicebatur,
+<lb ed="#Bf" n="64"/>Accipio te in meam, sic intelligebatur,
+<lb ed="#Bf" n="65"/>et ille erat consensus qui tunc effecit
+<lb ed="#Bf" n="66"/>matrimonium : et est causa ila quae 
+di<lb break="no" ed="#Bf" n="67"/>eta est, scilicet paucitas Deo servientium,
+<lb ed="#Bf" n="68"/>et multitudo eorum qui ad idololatriam
+<lb ed="#Bf" n="69"/>pertrahebant, quando adhuc non erat
+<lb ed="#Bf" n="70"/>tempus feecunditatis spiritualis.
+</p>
+            <p xml:id="alalal-i28186-d1e274">
+               <lb ed="#Bf" n="71"/>Ad primum ergo dicendum, quod au~
+<lb ed="#Bf" n="72"/>ctoritas inducta intelligitur, quod non
+<lb ed="#Bf" n="73"/>omnino consenticbant ut modo.
+</p>
+            <p xml:id="alalal-i28186-d1e284">
+               <lb ed="#Bf" n="74"/>Ad aliud dicendum, quod jam dictus
+<lb ed="#Bf" n="75"/>est verborum sensus quando dicebant,
+<lb ed="#Bf" n="76"/>Accipio te in meum. Et per iJlam 
+exposi<lb break="no" ed="#Bf" n="77"/>tionem distinctionis prehabite patet 
+so<lb break="no" ed="#Bf" n="78"/>lutio ad argumentum illud.
+</p>
+            <p xml:id="alalal-i28186-d1e297">
+               <lb ed="#Bf" n="79"/>Ad tertium dicendum, quod sicut dicit
+<lb ed="#Bf" n="80"/>Dominus, Matth. v, 34 et xix, 7, libellus
+<lb ed="#Bf" n="81"/>repudii dabatur propter duritiam, et ideo
+<lb ed="#Bf" n="82"/>preter jus matrimonii fuit: et ideo 
+di<lb break="no" ed="#Bf" n="83"/>missa adhuce per jus fuit sua.
+</p>
+            <p xml:id="alalal-i28186-d1e310">
+               <lb ed="#Bf" n="84"/>Utrum autem hujusmodi dimissio 
+im<lb break="no" ed="#Bf" n="85"/>putaretur tunc vel non, infra erit in 
+quees<lb break="no" ed="#Bf" n="86"/>tione.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="631"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b21788"><!-- l1d25dt2 -->
+            <head xml:id="alalal-b21788-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-b21788-d1e101">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="12"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-b21788-d1e108">
+               <lb ed="#Ba" n="13"/>Deine accipe secundam partem 
+di<lb break="no" ed="#Ba" n="14"/>stinctionis quae incipit ibi, E, <quote xml:id="alalal-b21788-Qd1e114"> Sciendum
+<lb ed="#Ba" n="15"/>est ergo, quod hoc nomen, etc. </quote>
+            </p>
+            <p xml:id="alalal-b21788-d1e120">
+               <lb ed="#Ba" n="16"/>Hec enim pars dividitur in tres : in
+<lb ed="#Ba" n="17"/>quarum prima tangit Magister 
+significa<lb break="no" ed="#Ba" n="18"/>tum hujus nominis, persona, secundum
+<lb ed="#Ba" n="19"/>suam opinionem. In secunda autem 
+ex<lb break="no" ed="#Ba" n="20"/>positiones auctoritatum in quibus 
+po<lb break="no" ed="#Ba" n="21"/>nuntur dictiones numerales, vel 
+distin<lb break="no" ed="#Ba" n="22"/>ctionem notantes cum hoc nomine, 
+per<lb break="no" ed="#Ba" n="23"/>sona, secundum istam opinionem, ibi, J,
+<lb ed="#Ba" n="24"/>
+               <quote xml:id="alalal-b21788-Qd1e141"> Nunc inspiciamus, Utrum secundum
+<lb ed="#Ba" n="25"/>eamdem ratianem, etc. </quote> In tertia probat,
+<lb ed="#Ba" n="26"/>quod persona in divinis facit triplicem
+<lb ed="#Ba" n="27"/>intelligentiam, ibi, L, in fine: <quote xml:id="alalal-b21788-Qd1e151"> Ex 
+pre<lb break="no" ed="#Ba" n="28"/>dictis colligitur, etc. </quote>
+            </p>
+            <p xml:id="alalal-b21788-d1e157">
+               <lb ed="#Ba" n="29"/>In prima harum sunt quatuor capitula,
+<lb ed="#Ba" n="30"/>in quorum primo ponit opinionem, quod
+<lb ed="#Ba" n="31"/>significat substantiam et hypostasim. In
+<lb ed="#Ba" n="32"/>secundo adhibet probationem, ibi, F,
+<lb ed="#Ba" n="33"/>
+               <quote xml:id="alalal-b21788-Qd1e170"> Ethic sensus adjuvatur, etc. </quote> In 
+ter<lb break="no" ed="#Ba" n="34"/>tio respondet questioni hereticorum 
+fa<lb break="no" ed="#Ba" n="35"/>cte per quid res, secundum opinionem
+<lb ed="#Ba" n="36"/>illam, ibi, G, <quote xml:id="alalal-b21788-Qd1e178"> Ad hoc autem quod ilh
+<lb ed="#Ba" n="37"/>dicunt, etc, </quote> In quarto excusat quod
+<lb ed="#Ba" n="38"/>dixerat tres res, ibi, If, <quote xml:id="alalal-b21788-Qd1e186"> Non autem fe
+<lb ed="#Ba" n="39"/>moveat, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

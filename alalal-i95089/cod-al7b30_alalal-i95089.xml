@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="458"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i95089"><!-- l4d41a5 -->
+            <head xml:id="alalal-i95089-Hd1e99">Articulus 5</head>
+            <head xml:id="alalal-i95089-Hd1e101" type="question-title">Anin equalibus gradibus prohibetur et
+admittitur affinitas sicut 
+consanguinilas ?</head>
+            <p xml:id="alalal-i95089-d1e104">
+               <lb ed="#Bf" n="34"/>ARTICULUS V.
+<lb ed="#Bf" n="35"/>Anin equalibus gradibus prohibetur et
+<lb ed="#Bf" n="36"/>admittitur affinitas sicut 
+consangui<lb break="no" ed="#Bf" n="37"/>nilas ?
+</p>
+            <p xml:id="alalal-i95089-d1e115">
+               <lb ed="#Bf" n="38"/>Deinde quaeritur de hoc quod dicit 
+Ju<lb break="no" ed="#Bf" n="39"/>lius Papa, ibi, A, post medium: <quote xml:id="alalal-i95089-Qd1e121"> 
+Nud<lb break="no" ed="#Bf" n="40"/>lum in ulroque seru permittimus, etc. </quote>
+            </p>
+            <p xml:id="alalal-i95089-d1e127">
+               <lb ed="#Bf" n="41"/>Videtur enim hoc esse inconvenicns:
+<lb ed="#Bf" n="42"/>quia:
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="43"/>1. Affinitas minus vinculum est, quam
+<lb ed="#Bf" n="44"/>consanguinitas : ergo paucioribus gradi-~
+<lb ed="#Bf" n="45"/>bus debet finiri: ergo videtur, quod 
+an<lb break="no" ed="#Bf" n="46"/>tiquitus non debuit poni usque ad_ 
+septi<lb break="no" ed="#Bf" n="47"/>mum, nec modo usque ad quartum 
+in<lb break="no" ed="#Bf" n="48"/>clusive.
+</p>
+            <p xml:id="alalal-i95089-d1e150">
+               <lb ed="#Bf" n="49"/>2. Item, Ponamus quod aliquis in una
+<lb ed="#Bf" n="50"/>parte consanguineus vel affinis sit in
+<lb ed="#Bf" n="51"/>quinto, et in alia parte in secundo, et
+<lb ed="#Bf" n="52"/>queramus, Utrum illi conjungi possint ?
+<lb ed="#Bf" n="53"/>Videtur,quod non : quiasecundus gradus
+<lb ed="#Bf" n="54"/>est prohibitus : sed bene sequitur, isti in
+<lb ed="#Bf" n="55"/>una parte sunt in secundo : ergo sunt in
+<lb ed="#Bf" n="56"/>secundo : ergo non possunt contrahere.
+</p>
+            <p xml:id="alalal-i95089-d1e170">
+               <lb ed="#Bf" n="57"/>In conrrarium hujus est consuetudo
+<lb ed="#Bf" n="58"/>Eeclesie.
+</p>
+            <p xml:id="alalal-i95089-d1e177">
+               <lb ed="#Bf" n="59"/>Ad primum motivum dicendum est,
+<lb ed="#Bf" n="60"/>quod in equalibus gradibus antiquitus et
+<lb ed="#Bf" n="61"/>modo prohibetur, et concedilur 
+consan<lb break="no" ed="#Bf" n="62"/>guinitas et affinitas.
+</p>
+            <p xml:id="alalal-i95089-d1e188">
+               <lb ed="#Bf" n="63"/>Ad objectum autem dicendum, quod
+<lb ed="#Bf" n="64"/>revera minus vinculum = est affinitas,
+<lb ed="#Bf" n="65"/>quam consanguinitas : sed tamen propter
+<lb ed="#Bf" n="66"/>mixturam sanguinis quae fit, non potest
+<lb ed="#Bf" n="67"/>esse presumpta diruptio illius mixture,
+<lb ed="#Bf" n="68"/>nisi in codem gradu in quo 
+consanguini<lb break="no" ed="#Bf" n="69"/>tas ipsa est direpta. Si tamen placeret
+<lb ed="#Bf" n="70"/>Ecclesiae ad pauciores gradus ponere tam
+<lb ed="#Bf" n="71"/>in consanguinitate, quam et praecipue in
+<lb ed="#Bf" n="72"/>affinitate, viderctur mihi, quod satis
+<lb ed="#Bf" n="73"/>congrue hoc posset facere.
+</p>
+            <p xml:id="alalal-i95089-d1e214">
+               <lb ed="#Bf" n="74"/>Ad aliud dicendum, quod in 
+computa<lb break="no" ed="#Bf" n="75"/>tione consanguinitatis et aflinitatis 
+stan<lb break="no" ed="#Bf" n="76"/>dum est ulteriori gradui: et hujus causa
+<lb ed="#Bf" n="77"/>est, yuia nullus gradus est nisi a trunco
+<lb ed="#Bf" n="78"/>causatus : et ideo nullius persone est 
+re<lb break="no" ed="#Bf" n="79"/>spectus ad aliam tam in consanguinitate,
+<lb ed="#Bf" n="80"/>quam in affinitate nisi per truncum :
+<lb ed="#Bf" n="81"/>unde gui distat a trunco in quinto, a
+<lb ed="#Bf" n="82"/>quolibet descendentium in altera linea
+<lb ed="#Bf" n="83"/>distat in quinto vel amplius. Et cum
+<lb ed="#Bf" n="84"/>dicitur, quod isti sunt in una parte in
+<lb ed="#Bf" n="85"/>secundo, intelligitur in secundo non a se,
+<lb ed="#Bf" n="86"/>sed a trunco : et ideo inter se distant
+<lb ed="#Bf" n="87"/>amplius, quam etiam in quinto : et ideo
+<lb ed="#Bf" n="88"/>contrahere possunt, quia quintus a
+<lb ed="#Bf" n="89"/>trunco gradus est concessus.
+</p>
+            <p xml:id="alalal-i95089-d1e251">
+               <lb ed="#Bf" n="90"/>Et per hoc patet solutio ad objectum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

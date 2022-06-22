@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 21</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 21</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="442"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e84681"><!-- l3d23a21 -->
+            <head xml:id="alalal-e84681-Hd1e99">Articulus 21</head>
+            <head xml:id="alalal-e84681-Hd1e101" type="question-title">An credere quod est actus fidei, 
+naturaliter precedit sperare ? </head>
+            <p xml:id="alalal-e84681-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="15"/>ARTICULUS XXI.
+<lb ed="Bd" n="16"/>An credere quod est actus fidei, 
+natura<lb break="no" ed="Bd" n="17"/>liter precedit sperare ? 
+</p>
+            <p xml:id="alalal-e84681-d1e115">
+               <lb ed="Bd" n="18"/>Deinde quaeritur de hoc quod dicit in
+<lb ed="Bd" n="19"/>ultimo capitulo, ibi, I, circa initium: 
+<lb ed="Bd" n="20"/>
+               <quote xml:id="alalal-e84681-Qd1e123"> Ideoque credere, quod est actus fidet,
+<lb ed="Bd" n="21"/>naturaliter precedit sperare, etc. </quote>
+               <lb ed="Bd" n="22"/>Hujus enim contrarium habetur
+</p>
+            <p xml:id="alalal-e84681-d1e131">
+               <lb ed="Bd" n="23"/>1. Super Psalmum xxxvi, 1: Noli
+<lb ed="Bd" n="24"/>aemulari, ubi dicit Glossa: <quote xml:id="alalal-e84681-Qd1e137"> Spes est 
+<lb ed="Bd" n="25"/>introitus ad fidem. </quote>
+            </p>
+            <p xml:id="alalal-e84681-d1e144">
+               <lb ed="Bd" n="26"/>2. Item, Supra habitum est, quod 
+<lb ed="Bd" n="27"/>charitas est mater et forma omnium 
+vir<lb break="no" ed="Bd" n="28"/>tutum : et hoc iterum a Magistro dicitur 
+<lb ed="Bd" n="29"/>hic : ergo falsum est, quod fides sit 
+pri<lb break="no" ed="Bd" n="30"/>ma.
+</p>
+            <p xml:id="alalal-e84681-d1e157">
+               <lb ed="Bd" n="31"/>3. Item, Una virtute habita, habentur
+<lb ed="Bd" n="32"/>omnes : ergo nulla est prior alia. 
+</p>
+            <p xml:id="alalal-e84681-d1e164">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="33"/>4. Item, Prius est recedere a malo,
+<lb ed="Bd" n="34"/>quam facere bonum : sed timor facit 
+re<lb break="no" ed="Bd" n="35"/>cedere a malo, fides autem docet accedere
+<lb ed="Bd" n="36"/>ad bonum, et accedit ipsa ad verum quod
+<lb ed="Bd" n="37"/>est bonum : ergo timor est prius.
+</p>
+            <p xml:id="alalal-e84681-d1e180">
+               <lb ed="Bd" n="38"/>5. Item, Hoc videtur dicere 
+Eicclesiasti<lb break="no" ed="Bd" n="39"/>cus, 1, 27: Timor Domini expellit 
+pec<lb break="no" ed="Bd" n="40"/>catum. Nam qui sine timore est, non 
+pot<lb break="no" ed="Bd" n="41"/>erit justificari.
+</p>
+            <p xml:id="alalal-e84681-d1e191">
+               <lb ed="Bd" n="42"/>Solutio Dicendum meo judicio, quod
+<lb ed="Bd" n="43"/>naturaliter precedit fides vel actus fidei,
+<lb ed="Bd" n="44"/>sicut dicit Magister hic: quia nisi fides
+<lb ed="Bd" n="45"/>malum ostendat, non fugiet timor ipsum.
+<lb ed="Bd" n="46"/>Similiter nisi fides bonum ostendat, non
+<lb ed="Bd" n="47"/>appetet ipsum amor. Licet igitur 
+tempo<lb break="no" ed="Bd" n="48"/>re simul sint, tamen natura precedit
+<lb ed="Bd" n="49"/>fides, ut jam dictumest : quia ipsa 
+se<lb break="no" ed="Bd" n="50"/>cundum rationem est ante motum 
+homi<lb break="no" ed="Bd" n="51"/>nis ad justitiam.
+</p>
+            <p xml:id="alalal-e84681-d1e215">
+               <lb ed="Bd" n="52"/>Si autem consideramus justificationem,
+<lb ed="Bd" n="53"/>secundum quod est motus quidam : tunc
+<lb ed="Bd" n="54"/>dicemus, quod in illo motu est terminus
+<lb ed="Bd" n="55"/>a quo, et terminus ad quem: et per
+<lb ed="Bd" n="56"/>comparationem ad terminum a quo, id
+<pb ed="#Bd" n="443"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>est, a peccato quod ordinat ad peenam,
+<lb ed="Bd" n="2"/>primus motor est timor: per 
+compara<lb break="no" ed="Bd" n="3"/>tionem autem ad terminum ad quem,
+<lb ed="Bd" n="4"/>primum quidem disponens ipsum mobile,
+<lb ed="Bd" n="5"/>est spes elevans, ut moveatur ex 
+pre<lb break="no" ed="Bd" n="6"/>suppositione consequendi veniam : amor
+<lb ed="Bd" n="7"/>autem est primum movens. Et sic nihil
+<lb ed="Bd" n="8"/>prohibet diversa esse prima in 
+justifica<lb break="no" ed="Bd" n="9"/>tione. Sed tamen semper fides erit prior
+<lb ed="Bd" n="10"/>omnibus naturaliter : quia ipsa per ra-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="11"/>tionem intelligendi est ante motum 
+to<lb break="no" ed="Bd" n="12"/>tum, ostendens a quo, et ad quid 
+movea<lb break="no" ed="Bd" n="13"/>tur, et quomodo.
+</p>
+            <p xml:id="alalal-e84681-d1e264">
+               <lb ed="Bd" n="14"/>Et per hoc patet solutio ad totum
+<lb ed="Bd" n="15"/>praeter Glossam de Psalmo xxxvi, 1. Et
+<lb ed="Bd" n="16"/>ad illam dicendum, quod fides non 
+acci<lb break="no" ed="Bd" n="17"/>pitur ibi pro habitu quo creditur, sed pro
+<lb ed="Bd" n="18"/>credito ipso, et hoc est aeternum bonum,
+<lb ed="Bd" n="19"/>in quod introducit spes, quia ipsa est 
+ex<lb break="no" ed="Bd" n="20"/>spectatio sterni boni.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="335"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e63558"><!-- l3d19a1 -->
+            <head xml:id="alalal-e63558-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-e63558-Hd1e101" type="question-title">Utrum justificatio nostra a peccato sit
+opus passionis Christi?</head>
+            <p xml:id="alalal-e63558-d1e104">
+               <lb ed="Bd" n="18"/>ARTICULUS I.
+<lb ed="Bd" n="19"/>Utrum justificatio nostra a peccato sit
+<lb ed="Bd" n="20"/>opus passionis Christi?
+</p>
+            <p xml:id="alalal-e63558-d1e113">
+               <lb ed="Bd" n="21"/>Primo igitur incidit hic quaestio,
+<lb ed="Bd" n="22"/>Utrum justificatio nostra a peccato, sit
+<lb ed="Bd" n="23"/>opus passionis Christi, vel non?
+</p>
+            <p xml:id="alalal-e63558-d1e122">
+               <lb ed="Bd" n="24"/>Videtur enim, quod non:
+<lb ed="Bd" n="25"/>i. Passio enim Christi corporalis fuit :
+<lb ed="Bd" n="26"/>ergo non altingebat animas nostras :
+<lb ed="Bd" n="27"/>quod autem non tangit, non agit, ut dicit
+<lb ed="Bd" n="28"/>Philosophus : ergo non egit nos 
+justifi<lb break="no" ed="Bd" n="29"/>cando.
+</p>
+            <p xml:id="alalal-e63558-d1e139">
+               <lb ed="Bd" n="30"/>2. Item, Justificans quemlibet, est 
+con<lb break="no" ed="Bd" n="31"/>junctum cuilibet : passio autem Christi
+<lb ed="Bd" n="32"/>non est conjuncta cuilibet : ergo non est
+<lb ed="Bd" n="33"/>justificans querulibet.
+</p>
+            <p xml:id="alalal-e63558-d1e150">
+               <lb ed="Bd" n="34"/>3. Item, Pati Christo non conveniebat,
+<lb ed="Bd" n="35"/>nisi secundum naturam humanam : sic
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="36"/>autem non est ab eo justificans gratia:
+<lb ed="Bd" n="37"/>ergo passio Christi non justificat, ut 
+vi<lb break="no" ed="Bd" n="38"/>detur.
+</p>
+            <p xml:id="alalal-e63558-d1e166">
+               <lb ed="Bd" n="39"/>4. Praeterea, Videtur justilicatio nostra
+<lb ed="Bd" n="40"/>ad resurrectionem pertinere, ut ad 
+cau<lb break="no" ed="Bd" n="41"/>sam : et ita dicit Apostolus : Zraditus est
+<lb ed="Bd" n="42"/>propter delicta nostra, et resurrexit
+<lb ed="Bd" n="43"/>propter justificationem nostram.
+</p>
+            <p xml:id="alalal-e63558-d1e179">
+               <lb ed="Bd" n="44"/>Praeterea, Justilia justificat animam :
+<lb ed="Bd" n="45"/>ergo majorem convenientiam habet cum
+<lb ed="Bd" n="46"/>resurrectione, quam cum morte : ergo
+<lb ed="Bd" n="47"/>magis causatur a resurrectione, quam a
+<lb ed="Bd" n="48"/>morte.
+</p>
+            <p xml:id="alalal-e63558-d1e192">
+               <lb ed="Bd" n="49"/>5. Item, Si causa est mors Christi,
+<lb ed="Bd" n="50"/>hoc erit per modum sacramenti : 
+sacra<lb break="no" ed="Bd" n="51"/>mentum autem gerit similitudinem ejus
+<lb ed="Bd" n="52"/>cujus est causa : cum igitur mors Christi
+<lb ed="Bd" n="53"/>nullam habeat similitudinem cum 
+justi<lb break="no" ed="Bd" n="54"/>ficatione, sed potius resurrectio, 
+videbi<lb break="no" ed="Bd" n="55"/>tur potius resurrectio esse causa 
+justifi<lb break="no" ed="Bd" n="56"/>cationis, quam mors vel passio.
+</p>
+            <p xml:id="alalal-e63558-d1e212">
+               <lb ed="Bd" n="57"/>Quon si concedatur, in contrarium 
+ob<lb break="no" ed="Bd" n="58"/>jicitar :
+</p>
+            <p xml:id="alalal-e63558-d1e220">
+               <lb ed="Bd" n="59"/>1. Zachar. ux, 14 : <quote xml:id="alalal-e63558-Qd1e224">Tu quoque in
+<lb ed="Bd" n="60"/>sanguine testamenti tui emisti vinetos
+<lb ed="Bd" n="61"/>tuos de lacu, mw quo non est aqua.</quote>
+               <lb ed="Bd" n="62"/>Ergo redemptio facta est per sanguinem,
+</p>
+            <p xml:id="alalal-e63558-d1e234">
+               <lb ed="Bd" n="63"/>2. Item, In Canone, <quote xml:id="alalal-e63558-Qd1e238"> Hic est enim
+<lb ed="Bd" n="64"/>Calix sanguinis mei, novi et aeterni 
+te<lb break="no" ed="Bd" n="65"/>stamenti : mysterium fidei: qui pro 
+vo<lb break="no" ed="Bd" n="66"/>bis et pro multis effundetur in 
+remissio<lb break="no" ed="Bd" n="67"/>nem peccatorum. </quote> Ergo in sanguinis 
+ef<lb break="no" ed="Bd" n="68"/>fusione per mortem facta est solutio 
+pec<lb break="no" ed="Bd" n="69"/>call.
+</p>
+            <p xml:id="alalal-e63558-d1e254">
+               <lb ed="Bd" n="70"/>3. Item, Ad Hlebr. ix, 22 : <quote xml:id="alalal-e63558-Qd1e258">Omnia
+<lb ed="Bd" n="71"/>pene in sanguine secundum legem
+<lb ed="Bd" n="72"/>mundantur, c&amp; sine sanguinis effusione
+<lb ed="Bd" n="73"/>non fit remissio</quote>.
+</p>
+            <p xml:id="alalal-e63558-d1e268">
+               <lb ed="Bd" n="74"/>4. Item, Ibidem, ad Hebr. 1x, 14:
+<lb ed="Bd" n="75"/>
+               <quote xml:id="alalal-e63558-Qd1e274">Sanguis Christi... emundabit 
+conscien<lb break="no" ed="Bd" n="76"/>tiam nostram ab operibus mortuis, ad
+<lb ed="Bd" n="77"/>serviendum Deo viventi.</quote>
+            </p>
+            <p xml:id="alalal-e63558-d1e282">
+               <lb ed="Bd" n="78"/>3. Item, <name xml:id="alalal-e63558-Nd1e286">Bernardus</name> : <quote xml:id="alalal-e63558-Qd1e288"> Sana me, 
+Do<lb break="no" ed="Bd" n="79"/>mine, et sanabor : salvum me fac, et
+<lb ed="Bd" n="80"/>salvus ero. Verumtamen sanctus tuus
+<lb ed="Bd" n="81"/>non sum, nisi sanguis tuus interpellat
+<lb ed="Bd" n="82"/>pro me. </quote>
+            </p>
+            <p xml:id="alalal-e63558-d1e300">
+               <pb ed="#Bd" n="336"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>6. Item, Joan. 1, 29 : <quote xml:id="alalal-e63558-Qd1e308">Ecce Agnus Det,
+<lb ed="Bd" n="2"/>ecce qui tollit peccatum mundi</quote>. Agnus
+<lb ed="Bd" n="3"/>autem non tollit peccatum nisi lavando
+<lb ed="Bd" n="4"/>in sanguine, sicut habetur, Apocal. 1, 3:
+<lb ed="Bd" n="5"/>
+               <quote xml:id="alalal-e63558-Qd1e320">Dilexit nos, et lavit nos a peccatis no~-
+<lb ed="Bd" n="6"/>stris in sanguine suo.</quote>
+            </p>
+            <p xml:id="alalal-e63558-d1e327">
+               <lb ed="Bd" n="7"/>7. Item, Ambrosius supra praecedenti
+<lb ed="Bd" n="8"/>capitulo, <quote xml:id="alalal-e63558-Qd1e333"> Tantum fuit peccatum 
+no<lb break="no" ed="Bd" n="9"/>strum ut salvari non possemus, nisi uni-—
+<lb ed="Bd" n="10"/>genitus Dei Filius pro nobis moreretur,
+<lb ed="Bd" n="11"/>debitoribus mortis. </quote>
+            </p>
+            <p xml:id="alalal-e63558-d1e343">
+               <lb ed="Bd" n="12"/>8. Item, Joan. ur, 16 : <quote xml:id="alalal-e63558-Qd1e347">Sic Deus 
+dile<lb break="no" ed="Bd" n="13"/>rit mundum, ut Filium suum 
+unigent<lb break="no" ed="Bd" n="14"/>tum daret : ut omnis qui credit in eum
+<lb ed="Bd" n="15"/>non pereat, sed habeat vitam aeternam.</quote>
+            </p>
+            <p xml:id="alalal-e63558-d1e357">
+               <lb ed="Bd" n="16"/>9. Praeterea, Resurrectio sua nihil 
+vi<lb break="no" ed="Bd" n="17"/>detur facere ad justificationcm : quia
+<lb ed="Bd" n="18"/>tune non erat Christus in statu 
+morien<lb break="no" ed="Bd" n="19"/>di: ergo nec sibi nec nobis meruit : sed
+<lb ed="Bd" n="20"/>potius id quod meruit, recepit in premio
+<lb ed="Bd" n="21"/>gloria sive stole corporis.
+</p>
+            <p xml:id="alalal-e63558-d1e373">
+               <lb ed="Bd" n="22"/>Sed apnuc videtur, quod justificatio
+<lb ed="Bd" n="23"/>neutrius istorum sit, sed potius 
+charita<lb break="no" ed="Bd" n="24"/>tis et gratiae : sicut etiam videtur innui
+<lb ed="Bd" n="25"/>in Littera : quia omnis mutatio est per
+<lb ed="Bd" n="26"/>contrarium : si igifur in nobis debeat
+<lb ed="Bd" n="27"/>fieri transitus a peccato, et a delectatio—
+<lb ed="Bd" n="28"/>ne peccati, oportet quod hoc fiat per
+<lb ed="Bd" n="29"/>contrarium : hoc autem sunt vitutes :
+<lb ed="Bd" n="30"/>ergo justificatio debetur virtutibus, et
+<lb ed="Bd" n="31"/>non passioni, vel resurrectioni.
+</p>
+            <p xml:id="alalal-e63558-d1e397">
+               <lb ed="Bd" n="32"/>1. Prarerea, Quid est quod Magister
+<lb ed="Bd" n="33"/>videtur dicere, quod justificat nos : quia
+<lb ed="Bd" n="34"/>nos videntes charitatem suam erga nos,
+<lb ed="Bd" n="35"/>movemur ad diligendum, et ita charitate
+<lb ed="Bd" n="36"/>justificamur ? sic enim mors sua non fuit
+<lb ed="Bd" n="37"/>nisi per accidens ad justificationem 
+ad<lb break="no" ed="Bd" n="38"/>juvans : et si sine ipsa charitatem 
+ha<lb break="no" ed="Bd" n="39"/>buissemus, sufficienter fuissemus 
+justifi<lb break="no" ed="Bd" n="40"/>cati: et hoc falsum est: quia 
+quantum<lb break="no" ed="Bd" n="41"/>cumque dilexissemus eum, nisi debitum
+<lb ed="Bd" n="42"/>solvisset pro nobis, redempti non 
+fuisse<lb break="no" ed="Bd" n="43"/>mus.
+</p>
+            <p xml:id="alalal-e63558-d1e426">
+               <lb ed="Bd" n="44"/>2. Praeterea, Secundum hoc etiam
+<lb ed="Bd" n="45"/>martyres justificarent nos a peccatis :
+<lb ed="Bd" n="46"/>quia nos videntes eos pati pro fide,
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="47"/>accendimur charitate erga Deum, qui
+<lb ed="Bd" n="48"/>dat eis ita constanter pati: et illa 
+chari<lb break="no" ed="Bd" n="49"/>tate justificamur : et sic parum vel nihil
+<lb ed="Bd" n="50"/>fecisset nobis Christus.
+</p>
+            <p xml:id="alalal-e63558-d1e447">
+               <lb ed="Bd" n="51"/>3. Item, Secundum hoc tantum 
+va<lb break="no" ed="Bd" n="52"/>luissent nobis, vel plus, beneficia a Deo
+<lb ed="Bd" n="53"/>collata, ut esse, vivere, et intelligere, et
+<lb ed="Bd" n="54"/>divitias dare, et hujusmodi, quantum
+<lb ed="Bd" n="55"/>passio Christi : quia ex eis etiam 
+accen<lb break="no" ed="Bd" n="56"/>dimur ad diligendum Deum, qua 
+chari<lb break="no" ed="Bd" n="57"/>tate postea justificamur.
+</p>
+            <p xml:id="alalal-e63558-d1e465">
+               <lb ed="Bd" n="58"/>4. Prarerza, Magister in Litfera 
+tan<lb break="no" ed="Bd" n="59"/>git adhuc causam quae est ex fide, eo
+<lb ed="Bd" n="60"/>quod posuit eum Deus propitiatorem per
+<lb ed="Bd" n="61"/>fidem in sanguine suo, ut olim 
+adspi<lb break="no" ed="Bd" n="62"/>cientes ad serpentem erectum in palo,
+<lb ed="Bd" n="63"/>etc.. Constat autem, quod multi sunt
+<lb ed="Bd" n="64"/>articuli praeter articulum passionis : ergo
+<lb ed="Bd" n="65"/>si per fidem passionis justificamur, cum
+<lb ed="Bd" n="66"/>sit major fides credere Deum esse 
+tri<lb break="no" ed="Bd" n="67"/>num et unum, quam Christum credere
+<lb ed="Bd" n="68"/>passum : tantum valuit nobis ad 
+justifi<lb break="no" ed="Bd" n="69"/>cationem, quod Deus est trinus et unus,
+<lb ed="Bd" n="70"/>sicut quod ipse est passus : hoc autem
+<lb ed="Bd" n="71"/>falsum est : ergo nulla est causa quam
+<lb ed="Bd" n="72"/>ponit Magister.
+</p>
+            <p xml:id="alalal-e63558-d1e500">
+               <lb ed="Bd" n="73"/>5. lrem, Christus docuit nos 
+humilita<lb break="no" ed="Bd" n="74"/>tem et mansuetudinem, sine quibus (ut
+<lb ed="Bd" n="75"/>dicit Augustinus in hbro de Virginitate)
+<lb ed="Bd" n="76"/>non sanamur : sicut ipse dicit, Matth. xu,
+<lb ed="Bd" n="77"/>29 : Discife a me, quia mitis sum et
+<lb ed="Bd" n="78"/>humilis corde. Quare ad remissionem
+<lb ed="Bd" n="79"/>peccati per mortem Christi non 
+con<lb break="no" ed="Bd" n="80"/>junguntur ille virtutes, sicut charitas, et
+<lb ed="Bd" n="81"/>fides ?
+</p>
+            <p xml:id="alalal-e63558-d1e522">
+               <lb ed="Bd" n="82"/>Item, Magister in Littera tangit 
+ter<lb break="no" ed="Bd" n="83"/>tium -modum, dicens ex verbis 
+Augu<lb break="no" ed="Bd" n="84"/>stini, quod morte sua uno sacrificio 
+ve<lb break="no" ed="Bd" n="85"/>rissimo, quidquid erat culparum 
+dele<lb break="no" ed="Bd" n="86"/>vil:ergo videtur, quod ipse justificavit
+<lb ed="Bd" n="87"/>nos offerendo sacrificium pro nobis : et
+<lb ed="Bd" n="88"/>sic non videtur justificasse accendendo
+<lb ed="Bd" n="89"/>ad charitatem, et illuminando per fidem.
+</p>
+            <p xml:id="alalal-e63558-d1e542">
+               <lb ed="Bd" n="90"/>Solutio Dicendum, quod justificatio
+<lb ed="Bd" n="91"/>consideratur dupliciter, scilicet in 
+gene<lb break="no" ed="Bd" n="92"/>re, prout refertur ad totam naturam
+<pb ed="#Bd" n="337"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>damnatam in Adam : et in particulari,
+<lb ed="Bd" n="2"/>prout scilicet valet illi vel ilh qui 
+justifi<lb break="no" ed="Bd" n="3"/>catur in particulari.
+</p>
+            <p xml:id="alalal-e63558-d1e562">
+               <lb ed="Bd" n="4"/>Item, in relatione ad causam potest
+<lb ed="Bd" n="5"/>considerari quatuor modis, scilicet in 
+re<lb break="no" ed="Bd" n="6"/>latione ad causam  efficientem, vel in
+<lb ed="Bd" n="7"/>relalione ad causam meritoriam, vel in
+<lb ed="Bd" n="8"/>relatione ad causam sacramentalem, vel
+<lb ed="Bd" n="9"/>in relatione ad causam formalem. Et 
+ad<lb break="no" ed="Bd" n="10"/>huc in relatione ad causam meritloriam,
+<lb ed="Bd" n="11"/>duobus modis, scilicet meriloriam de
+<lb ed="Bd" n="12"/>congruo, et meritoriam de condigno. 
+Si<lb break="no" ed="Bd" n="13"/>militer ad causam sacramentalem, 
+duo<lb break="no" ed="Bd" n="14"/>bus modis, scilicet qua est causa et 
+si<lb break="no" ed="Bd" n="15"/>gnum ex parte justificantis, vel qua est
+<lb ed="Bd" n="16"/>causa et signum ex parte suscipientis.
+</p>
+            <p xml:id="alalal-e63558-d1e594">
+               <lb ed="Bd" n="17"/>Hac habita distinctione facile est 
+de<lb break="no" ed="Bd" n="18"/>terminare totum. Dico enim, quod 
+ju<lb break="no" ed="Bd" n="19"/>stificatio nature ad causam meritoriam
+<lb ed="Bd" n="20"/>relata, quae est meritoria secundum 
+con<lb break="no" ed="Bd" n="21"/>dignum, refertur ad passionem Christi :
+<lb ed="Bd" n="22"/>quia meruit nobis solutionem a peccato,
+<lb ed="Bd" n="23"/>ad quam sequitur justificatio. Relata 
+au<lb break="no" ed="Bd" n="24"/>iem ad causam meritoriam ex congruo,
+<lb ed="Bd" n="25"/>refertur ad merita Sanctorum justilicatio
+<lb ed="Bd" n="26"/>particularis, non generalis qua respicit
+<lb ed="Bd" n="27"/>natures debitum ex Adam, quod solum
+<lb ed="Bd" n="28"/>solvere potuit Christus. Relata ad 
+cau<lb break="no" ed="Bd" n="29"/>sum elficientem, refertur ad  solum
+<lb ed="Bd" n="30"/>Deum, qui solus efficienter delet peccata,
+<lb ed="Bd" n="31"/>et efficil justiliam. Relata vero ad 
+cau<lb break="no" ed="Bd" n="32"/>sam formalem, utraque justilicatio fit
+<lb ed="Bd" n="33"/>per gratiam et virtutes. Relata autem ad
+<lb ed="Bd" n="34"/>causam sacramentalem, quae causa est et
+<lb ed="Bd" n="35"/>signum eX parte suscipientis, secundum
+<lb ed="Bd" n="36"/>debitum originalis refertur ad 
+baptis<lb break="no" ed="Bd" n="37"/>mum, secundum debitum actualis 
+refer<lb break="no" ed="Bd" n="38"/>tur ad pcenitentiam, si est post baptis—
+<lb ed="Bd" n="39"/>mum. Relata autem ad causam 
+sacra<lb break="no" ed="Bd" n="40"/>mentalem ed parte justificantis, refertur
+<lb ed="Bd" n="41"/>al Deum cl hominem, resurgendo, 
+vi<lb break="no" ed="Bd" n="42"/>fam anime et corporis in se 
+praesi<lb break="no" ed="Bd" n="43"/>gnantem.
+</p>
+            <p xml:id="alalal-e63558-d1e655">
+               <lb ed="Bd" n="44"/>Unde jam planum est solvere ad 
+to<lb break="no" ed="Bd" n="45"/>tum.
+</p>
+            <p xml:id="alalal-e63558-d1e662">
+               <lb ed="Bd" n="46"/>Ad primuM ergo dicendum, quod 
+pas<lb break="no" ed="Bd" n="47"/>sio Christi corporalis et spiritualis fuit,
+<lb ed="Bd" n="48"/>el divina et humana. Corporalis, quia
+<lb ed="Bd" n="49"/>vulnera fuerunt in corpore. Spiritualis,
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="50"/>quia dolor erat in anima et spiritu. 
+Hu<lb break="no" ed="Bd" n="51"/>mana fuit, quia homo erat qui 
+patieba<lb break="no" ed="Bd" n="52"/>tur. Divina autem, quia verus Deus 
+pa<lb break="no" ed="Bd" n="53"/>tiebatur. Tangere autem est duobus 
+mo<lb break="no" ed="Bd" n="54"/>dis, seilicet per substantiam, et per
+<lb ed="Bd" n="55"/>effectum : et hoc secundo modo letigit
+<lb ed="Bd" n="56"/>nos, et egit in nos. Si autem queratur,
+<lb ed="Bd" n="57"/>Quid effectum hunc continet a Christo
+<lb ed="Bd" n="58"/>in animas justificatas, infra in hac cadem
+<lb ed="Bd" n="59"/>solutione patebit.
+</p>
+            <p xml:id="alalal-e63558-d1e697">
+               <lb ed="Bd" n="60"/>Ad aliud dicendum, quod passio 
+Chri<lb break="no" ed="Bd" n="61"/>sti per aliquid in justificato spiritualiter
+<lb ed="Bd" n="62"/>conjungitur cuilibet quoad effectum et
+<lb ed="Bd" n="63"/>virtutem passionis, scilicet fide, et 
+cha<lb break="no" ed="Bd" n="64"/>ritate : et ideo objectio procedit ex 
+fal<lb break="no" ed="Bd" n="65"/>sis,
+</p>
+            <p xml:id="alalal-e63558-d1e713">
+               <lb ed="Bd" n="66"/>Ad aliud dicendum, quod licet pati
+<lb ed="Bd" n="67"/>conveniat ei secundum humanam 
+natu<lb break="no" ed="Bd" n="68"/>ram, non tamen patiens homo tantum,
+<lb ed="Bd" n="69"/>sed etiam Deus . et ex illa parte profluit
+<lb ed="Bd" n="70"/>gratia sanctificans in passione in omnes
+<lb ed="Bd" n="71"/>justificatos.
+</p>
+            <p xml:id="alalal-e63558-d1e729">
+               <lb ed="Bd" n="72"/>Ad aliud dicendum, quod ad 
+resurre<lb break="no" ed="Bd" n="73"/>clionem pertinet modo quo dictum est,
+<lb ed="Bd" n="74"/>exemplariter, et sacramentaliter
+<lb ed="Bd" n="75"/>dammodo.
+</p>
+            <p xml:id="alalal-e63558-d1e741">
+               <lb ed="Bd" n="76"/>Ad aliud dicendum, quod mors 
+Chri<lb break="no" ed="Bd" n="77"/>sli causa est per modum oblationis 
+sa<lb break="no" ed="Bd" n="78"/>crificit meritorii : et hoc modo dicitur
+<lb ed="Bd" n="79"/>sacramentum nostre justificationis, 
+lar<lb break="no" ed="Bd" n="80"/>ge sumpto sacramento pro sacro secreto,
+<lb ed="Bd" n="81"/>et non pro similitudine et causa. Vel,
+<lb ed="Bd" n="82"/>potest dici (uf quidam dicunt) quod due
+<lb ed="Bd" n="83"/>sunt partes justitiae, scilicet amotio mali,
+<lb ed="Bd" n="84"/>et adeptio boni. Kt passio per mortem
+<lb ed="Bd" n="85"/>ponit similitudinem ad ablationem 
+pec<lb break="no" ed="Bd" n="86"/>eati quia sicul mors separat a vita
+<lb ed="Bd" n="87"/>mortali animali, ita justificatio separat a
+<lb ed="Bd" n="88"/>mortali vita peceati, in qua animaliter ut
+<lb ed="Bd" n="89"/>bruta viximus. Resurrectio autem ponit
+<lb ed="Bd" n="90"/>similitudinem ad justificationem ex parte
+<lb ed="Bd" n="91"/>alterius termini, scilicet adeptionis vile
+<lb ed="Bd" n="92"/>et justitiae : et hoc videtur velle 
+Aposto<lb break="no" ed="Bd" n="93"/>lus, dicens ad Roman. vi, 4: <quote xml:id="alalal-e63558-Qd1e782">Consepulti
+<lb ed="Bd" n="94"/>sumus cum illo per baptismum in 
+mor<lb break="no" ed="Bd" n="95"/>te, ut quomodo Christus surrexit a 
+mor<lb break="no" ed="Bd" n="96"/>tuis per gloriam Patris, ita et nos in
+<lb ed="Bd" n="97"/>novitate vite ambulemus. Et alibi, Exi--
+<lb ed="Bd" n="98"/>stamate vos mortuos quidem esse peccato,
+<pb ed="#Bd" n="338"/>
+                  <cb ed="#Bd" n="a"/>
+                  <lb ed="Bd" n="1"/>viventes autem Deo, in Christo Jesu 
+Do<lb break="no" ed="Bd" n="2"/>mine nostro</quote>.
+</p>
+            <p xml:id="alalal-e63558-d1e805">
+               <lb ed="Bd" n="3"/>Ad omnia sequentia quibus probatur
+<lb ed="Bd" n="4"/>passio Christi esse causa nostra 
+justifi<lb break="no" ed="Bd" n="5"/>cationis, jam patet solutio per 
+distin<lb break="no" ed="Bd" n="6"/>ctionem ante habitam.
+</p>
+            <p xml:id="alalal-e63558-d1e816">
+               <lb ed="Bd" n="7"/>Ad id autem quod ulterius objicitur de
+<lb ed="Bd" n="8"/>causis a Magistro inductis ex parte 
+cha<lb break="no" ed="Bd" n="9"/>ritatis et fidei, dicendum quod Magister
+<lb ed="Bd" n="10"/>tribus modis ostendit, quod passio 
+Chri<lb break="no" ed="Bd" n="11"/>sti justificat : sed justificatio 
+considera<lb break="no" ed="Bd" n="12"/>tur duobus modis, scilicet quoad 
+suffi<lb break="no" ed="Bd" n="13"/>cientiam : et sic sola una causa justificat,
+<lb ed="Bd" n="14"/>scilicet oblatione salutaris sacrificii pro
+<lb ed="Bd" n="15"/>nobis. Consideratur etiam quoad 
+effi<lb break="no" ed="Bd" n="16"/>cientiam : et sic oportet adesse fidem et
+<lb ed="Bd" n="17"/>charitatem : non enim effluet nobis 
+effe<lb break="no" ed="Bd" n="18"/>clus passionis, nisi fuerinius de corpore
+<lb ed="Bd" n="19"/>mystico patientis. Hoc autem non potest
+<lb ed="Bd" n="20"/>facere nisi charitas : et ideo Magister 
+im<lb break="no" ed="Bd" n="21"/>ducit de charitate, ut considerata 
+chari<lb break="no" ed="Bd" n="22"/>tate sua erga nos, uniamur patienti per
+<lb ed="Bd" n="23"/>charitatem, quia sanguis suus non habet
+<lb ed="Bd" n="24"/>effectum extra corpus suum mysticum.
+<lb ed="Bd" n="25"/>Quia autem a capite fluit sacramentum
+<lb ed="Bd" n="26"/>redemptionis, ideo oportet adspiciendo
+<lb ed="Bd" n="27"/>attendere ad caput: et ad hoc clevat
+<lb ed="Bd" n="28"/>oculos fides. Et sic patet qualiter 
+ratio<lb break="no" ed="Bd" n="29"/>nabiliter procedit Magister in Litfera.
+</p>
+            <p xml:id="alalal-e63558-d1e868">
+               <lb ed="Bd" n="30"/>Ad ergo quod contra hoc objicitur,
+<lb ed="Bd" n="31"/>dicendum quod non est per accidens :
+<lb ed="Bd" n="32"/>quia charitas non facit sufficientiam, nec
+<lb ed="Bd" n="33"/>ponit fontem salutis : sed facit 
+efficien<lb break="no" ed="Bd" n="34"/>tiam, et unit nos fonti salutis : ut in suo
+<lb ed="Bd" n="35"/>corpore existentes, hauriamus de 
+fonti<lb break="no" ed="Bd" n="36"/>bus Salvatoris, et confiteamur Domino.
+</p>
+            <p xml:id="alalal-e63558-d1e886">
+               <lb ed="Bd" n="37"/>Ad aliud dicendum, quod martyres
+<lb ed="Bd" n="38"/>licet accendant nos ad charitatem, non
+<lb ed="Bd" n="39"/>tamen illa charitas prout sic 
+considera<lb break="no" ed="Bd" n="40"/>tur, unit nos patientibus eis, sed potius
+<lb ed="Bd" n="41"/>Christo patienti.
+</p>
+            <p xml:id="alalal-e63558-d1e899">
+               <lb ed="Bd" n="42"/>Ad aliud dicendum, quod beneficia
+<lb ed="Bd" n="43"/>sunt adminicula charitatis : non tamen
+<lb ed="Bd" n="44"/>influitur eis in nos unda salutis lavantis
+<lb ed="Bd" n="45"/>nos, sicut per passionem fit.
+</p>
+            <p xml:id="alalal-e63558-d1e911">
+               <lb ed="Bd" n="46"/>Ad aliud dicendum, quod in omni ar-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="47"/>ticulo ponitur in nobis fons 
+justificatio<lb break="no" ed="Bd" n="48"/>nis, licet fides quoad omnem articulum
+<lb ed="Bd" n="49"/>purificet disponendo ad justificationem :
+<lb ed="Bd" n="50"/>et ideo illa objectio non procedit.
+</p>
+            <p xml:id="alalal-e63558-d1e927">
+               <lb ed="Bd" n="51"/>Ad aliud dicendum, quod cetere 
+vir<lb break="no" ed="Bd" n="52"/>tutes non sunt attingentes Deum, sicut
+<lb ed="Bd" n="53"/>iste due : et de cardinalibus patet, quod
+<lb ed="Bd" n="54"/>actus illarum sunt in his quae sunt ad
+<lb ed="Bd" n="55"/>finem, et non immediate in finem. De
+<lb ed="Bd" n="56"/>spe autem patet : quia licet ipsa sit 
+re<lb break="no" ed="Bd" n="57"/>spectu finis, tamen est exspectando, non
+<lb ed="Bd" n="58"/>habendo, vel uniendo. Fides autem 
+at<lb break="no" ed="Bd" n="59"/>tingit qualitercumque veritatem articuli
+<lb ed="Bd" n="60"/>divini: et charitas unit per amorem : et
+<lb ed="Bd" n="61"/>ideo aliw virtutes formaliter quidem 
+ju<lb break="no" ed="Bd" n="62"/>stificant, sed non ita per actus suos
+<lb ed="Bd" n="63"/>uniunt ipsi justificanti, ut charitas, et
+<lb ed="Bd" n="64"/>fides.
+</p>
+            <p xml:id="alalal-e63558-d1e960">
+               <lb ed="Bd" n="65"/>Et sic patet solutio ad totum,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

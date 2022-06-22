@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="210"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i43981"><!-- l4d30dt1 -->
+            <head xml:id="alalal-i43981-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-i43981-d1e101">
+               <cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="20"/>DIVISIO TEXTUS.
+<lb ed="#Bf" n="21"/>
+               <quote xml:id="alalal-i43981-Qd1e109"> Nec solum coactio impedit, etc. </quote> Hic
+<lb ed="#Bf" n="22"/>agitur de impedimento erroris.
+</p>
+            <p xml:id="alalal-i43981-d1e114">
+               <lb ed="#Bf" n="23"/>Dividitur autem in tres partes. In 
+pri<lb break="no" ed="#Bf" n="24"/>ina agit, de errore persone qui evacuat
+<lb ed="#Bf" n="25"/>consensum. In secunda, de conjugio 
+bea<lb break="no" ed="#Bf" n="26"/>tae Virginis, ibi, B, <quote xml:id="alalal-i43981-Qd1e124"> Praemissis aliquid
+<lb ed="#Bf" n="27"/>addendum est, etc. </quote> In tertia, agit de
+<lb ed="#Bf" n="28"/>causis secundariis matrimonii, ibi, C,
+<lb ed="#Bf" n="29"/>
+               <quote xml:id="alalal-i43981-Qd1e134"> Expositio quae sit efficiens causa 
+ma<lb break="no" ed="#Bf" n="30"/>trimonit, etc. </quote>
+            </p>
+            <p xml:id="alalal-i43981-d1e140">
+               <lb ed="#Bf" n="31"/>Adhuc prima subdividitur in duas. In
+<lb ed="#Bf" n="32"/>prima tangit quis error matrimonii 
+con<lb break="no" ed="#Bf" n="33"/>sensum evacuet, et quis non. In secunda,
+<lb ed="#Bf" n="34"/>objicit contra hoc, ibi, A, $2: <quote xml:id="alalal-i43981-Qd1e150"> Sed
+<lb ed="#Bf" n="35"/>objicitur de Jacob qui pro Rachel, etc. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

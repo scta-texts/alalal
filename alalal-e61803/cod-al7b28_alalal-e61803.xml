@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="325"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e61803"><!-- l3d18a10 -->
+            <head xml:id="alalal-e61803-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-e61803-Hd1e101" type="question-title">An Christus in eadem forma qua 
+crucifixus est, sit exaltatus ?</head>
+            <p xml:id="alalal-e61803-d1e104">
+               <lb ed="Bd" n="28"/>ARTICULUS X.
+<lb ed="Bd" n="29"/>An Christus in eadem forma qua 
+cruci<lb break="no" ed="Bd" n="30"/>fixus est, sit exaltatus ?
+</p>
+            <p xml:id="alalal-e61803-d1e113">
+               <lb ed="Bd" n="31"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="Bd" n="32"/>C, <quote xml:id="alalal-e61803-Qd1e119"> In qguaenim forma crucificus est,
+<lb ed="Bd" n="33"/>in ea exaltatus est. </quote>
+            </p>
+            <p xml:id="alalal-e61803-d1e125">
+               <lb ed="Bd" n="34"/>Videtur, quod humanitati non 
+debea<lb break="no" ed="Bd" n="35"/>tur exaltatio : quia
+</p>
+            <p xml:id="alalal-e61803-d1e133">
+               <lb ed="Bd" n="36"/>1. Exaltatio est ad sedem Dei ad 
+aque<lb break="no" ed="Bd" n="37"/>litatem Patris : hac autem non competit
+<lb ed="Bd" n="38"/>forme secundum quam minor est Patre:
+<lb ed="Bd" n="39"/>et haec est humanitas : ergo humanilati
+<lb ed="Bd" n="40"/>non debetur exaltatio.
+</p>
+            <p xml:id="alalal-e61803-d1e146">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="41"/>2. Item, Illi debetur exaltatio, cui
+<lb ed="Bd" n="42"/>flectitur omne genu celestium, 
+terre<lb break="no" ed="Bd" n="43"/>strium, et infernorum: sed hoc est 
+dei<lb break="no" ed="Bd" n="44"/>tas : ergo exaltatio illa de qua loquitur
+<lb ed="Bd" n="45"/>Apostolus, est deitatis.
+</p>
+            <p xml:id="alalal-e61803-d1e162">
+               <lb ed="Bd" n="46"/>3. Item, In verbis Apostoli* ista se 
+con<lb break="no" ed="Bd" n="47"/>sequuntur : Exaltavit illum, et donavit
+<lb ed="Bd" n="48"/>wllt nomen quod est super omne nomen, ut
+<lb ed="Bd" n="49"/>innomine Jesu omne genu flectatur 
+cele<lb break="no" ed="Bd" n="50"/>stium, terestrium, et infernorum, et om~
+<lb ed="Bd" n="51"/>nis lingua confiteatur ei: ergo videtur,
+<lb ed="Bd" n="52"/>quod ad idem in Christo referantur :
+<lb ed="Bd" n="53"/>nomen autem refertur ad deitatem : ergo
+<lb ed="Bd" n="54"/>et exaltatio.
+</p>
+            <p xml:id="alalal-e61803-d1e184">
+               <lb ed="Bd" n="55"/>SED CONTRA:
+<lb ed="Bd" n="56"/>1. Humilitati debetur exaltatio:: deitas
+<lb ed="Bd" n="57"/>autem humiliari non potest: ergo non
+<lb ed="Bd" n="58"/>exaltabitur.
+</p>
+            <p xml:id="alalal-e61803-d1e195">
+               <lb ed="Bd" n="59"/>2. Praeterea, In Litfera dicitur 
+oppo<lb break="no" ed="Bd" n="60"/>situm in verbis Sanctorum, ut patet 
+m<lb break="no" ed="Bd" n="61"/>spicienti.
+</p>
+            <p xml:id="alalal-e61803-d1e204">
+               <lb ed="Bd" n="62"/>Solutio Dicendum, quod _ exaltatio
+<lb ed="Bd" n="63"/>debetur persone in natura humana, et
+<lb ed="Bd" n="64"/>etiam nature humane : sed persone in
+<lb ed="Bd" n="65"/>natura humana debectur ad sedem Patris
+<lb ed="Bd" n="66"/>ad aequalitatem, quam licet ab aeterno 
+ha<lb break="no" ed="Bd" n="67"/>buit, non tamen habuit in natura 
+infe<lb break="no" ed="Bd" n="68"/>riori existens : nature autem debetur ad
+<lb ed="Bd" n="69"/>potiora Patris bona. Et per hoc patet
+<lb ed="Bd" n="70"/>solutio ad primum, et ad secundum.
+</p>
+            <p xml:id="alalal-e61803-d1e227">
+               <lb ed="Bd" n="71"/>Ad Tertium dicendum, quod non 
+opor<lb break="no" ed="Bd" n="72"/>tet, quod ideo referantur ad idem, quia
+<lb ed="Bd" n="73"/>Apostolus illa quatuor conjungit : sed 
+re<lb break="no" ed="Bd" n="74"/>feruntur ad eumdem in persona, gratia
+<lb ed="Bd" n="75"/>diversorum quae sunt in ipso,
+</p>
+            <p xml:id="alalal-e61803-d1e240">
+               <lb ed="Bd" n="76"/>Et si quaeritur, Gratia quorum hee
+<lb ed="Bd" n="77"/>quatuor ei attribuuntur ?
+</p>
+            <p xml:id="alalal-e61803-d1e247">
+               <lb ed="Bd" n="78"/>Dico, quod persona est in Christo, et
+<lb ed="Bd" n="79"/>utraque natura, et opus redemptionis, et
+<lb ed="Bd" n="80"/>effectus. Et persone quidem omnia 
+de<lb break="no" ed="Bd" n="81"/>bentur, tamen gratia nature humane,
+<lb ed="Bd" n="82"/>in qua et cujus acceptione semetipsum
+<lb ed="Bd" n="83"/>exinantvit, formam servi acciptiens,
+<lb ed="Bd" n="84"/>debetur ei per oppositum exaltatio. Gratia
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="85"/>autem nature divine debelur ei nomen
+<lb ed="Bd" n="86"/>guod est super omne nomen : sed gratia
+<lb ed="Bd" n="87"/>redemptionis qua ipse judicatus et 
+bias<lb break="no" ed="Bd" n="88"/>phematus est et derisus, debetur ce: per
+<lb ed="Bd" n="89"/>oppositum preconium commis lingue, ut
+<lb ed="Bd" n="90"/>omnis lingua confiteatur quia Deminus
+<lb ed="Bd" n="91"/>Jesus Christus in gloria est Dei Patris.
+<lb ed="Bd" n="92"/>Sed gratia effectus liberationis eorum
+<lb ed="Bd" n="93"/>qui suntin terra et in limbo, et restau—
+<lb ed="Bd" n="94"/>rationis ruine ccelestis, in gratiarum 
+ac<lb break="no" ed="Bd" n="95"/>tionem debetur ei, wt tn nomine Jesu
+<lb ed="Bd" n="96"/>omne genu flectatur caelestium, 
+terre<lb break="no" ed="Bd" n="97"/>strium, etinfernorum . coelestium, quia
+<lb ed="Bd" n="98"/>ruinam restauravit : terrestrium. quia
+<lb ed="Bd" n="99"/>redemit a reatu originalis : infernorum,
+<lb ed="Bd" n="100"/>quia inde eos qui ibi erant extraxit.
+</p>
+            <p xml:id="alalal-e61803-d1e302">
+               <lb ed="Bd" n="101"/>Si Forte aliquis quaerat, Cum hoc 
+no<lb break="no" ed="Bd" n="102"/>men quod debetur ei ex gratia divinitatis
+<lb ed="Bd" n="103"/>sit Deus et manifestatio deitatis sue,
+<lb ed="Bd" n="104"/>quare dicat Apostolus, U¢ in nomine Jesu
+<lb ed="Bd" n="105"/>emne genu flectatur ?
+</p>
+            <p xml:id="alalal-e61803-d1e315">
+               <cb ed="#Bd" n="d"/>
+               <lb ed="Bd" n="106"/>Dicendum, quod Jesus Christus sunt
+<lb ed="Bd" n="107"/>nomina ¢xprimentia personam 
+incarna<lb break="no" ed="Bd" n="108"/>fam: et ideo non sunt super omne no~
+<lb ed="Bd" n="109"/>men, sed nobis sunt veneranda per 
+ge<lb break="no" ed="Bd" n="110"/>nuflexionem . quia ostendunt nobis na~
+<lb ed="Bd" n="111"/>turam in qua factum est opus 
+redemp<lb break="no" ed="Bd" n="112"/>tionis pro nobis. Et Jesus quidem 
+nomi<lb break="no" ed="Bd" n="113"/>nal personam secundum comparationem
+<lb ed="Bd" n="114"/>in earnem . quia Jesus dicitur Salvator,
+<lb ed="Bd" n="115"/>et salvare convenit Christo per divinam
+<lb ed="Bd" n="116"/>naiuram : unde Angelus dixit : <quote xml:id="alalal-e61803-Qd1e343">Vocabis
+<lb ed="Bd" n="117"/>nomen ejus Jesum : ipse enim salvum
+<lb ed="Bd" n="118"/>factet populum suum a peccatis eorum</quote>,
+<lb ed="Bd" n="119"/>Quod licet secundum habitum ei ab 
+eter<lb break="no" ed="Bd" n="120"/>no conveniat, tamen secundum actum
+<lb ed="Bd" n="121"/>salvandi, non convenit ei, nisi in natura
+<lb ed="Bd" n="122"/>humana assumpta. Christus autem 
+dici<lb break="no" ed="Bd" n="123"/>tur unctus, quod sonat passive 
+unctio<lb break="no" ed="Bd" n="124"/>nem : et ideo nominat humanam 
+natu<lb break="no" ed="Bd" n="125"/>ram sociatam in divinam : quia humanae
+<lb ed="Bd" n="126"/>est ungi, et illius est ungere.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

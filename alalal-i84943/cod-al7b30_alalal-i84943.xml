@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="406"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i84943"><!-- l4d38a8 -->
+            <head xml:id="alalal-i84943-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-i84943-Hd1e101" type="question-title">An transgressio volt communis faciat
+speciale peccatum ?</head>
+            <p xml:id="alalal-i84943-d1e104">
+               <lb ed="#Bf" n="38"/>ARTICULUS VIII.
+<lb ed="#Bf" n="39"/>An transgressio volt communis faciat
+<lb ed="#Bf" n="40"/>speciale peccatum ?
+</p>
+            <p xml:id="alalal-i84943-d1e113">
+               <lb ed="#Bf" n="41"/>Secundo queritur, Utrum transgressio
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="42"/>voti communis faciat speciale peccatum ?
+</p>
+            <p xml:id="alalal-i84943-d1e122">
+               <lb ed="#Bf" n="43"/>Videtur autem, quod sic: quia
+<lb ed="#Bf" n="44"/>1. Omnis corruptio boni speciale est
+<lb ed="#Bf" n="45"/>peccatum : sed votum commune est 
+bo<lb break="no" ed="#Bf" n="46"/>num: ergo corruptio ipsius est speciale
+<lb ed="#Bf" n="47"/>peccatum : sed transgressio est corruptio
+<lb ed="#Bf" n="48"/>ipsius : ergo est speciale peccatum.
+</p>
+            <p xml:id="alalal-i84943-d1e139">
+               <lb ed="#Bf" n="49"/>2. Ttem, Sicut dicit <ref xml:id="alalal-i84943-Rd1e143">Apostolus, ad
+<lb ed="#Bf" n="50"/>Roman. vu, 7 et seq.,</ref> et Glossa ibidem,
+<lb ed="#Bf" n="51"/>per legem scriptam peccatum factum est
+<lb ed="#Bf" n="52"/>transgressio : ergo a simili per votum
+<lb ed="#Bf" n="53"/>appositum mandato, peccatum fit 
+pra<lb break="no" ed="#Bf" n="54"/>varicatio voti : ergo corruptio voli 
+spe<lb break="no" ed="#Bf" n="55"/>cialem facit deformitatem.
+</p>
+            <p xml:id="alalal-i84943-d1e160">
+               <lb ed="#Bf" n="56"/>3. Item, Speciale votum si 
+corrum<lb break="no" ed="#Bf" n="57"/>patur, apostasia reputatur et est: ergo et
+<lb ed="#Bf" n="58"/>volum commune corruptum generat
+<lb ed="#Bf" n="59"/>apostasiam : sed apostasia unum est de
+<lb ed="#Bf" n="60"/>miaximis peccatis : ergo voli communis
+<lb ed="#Bf" n="61"/>corruptio est speciale peccatum.
+</p>
+            <p xml:id="alalal-i84943-d1e176">
+               <lb ed="#Bf" n="62"/>4, Item, Detestabilius est transgredi
+<lb ed="#Bf" n="63"/>hoe ad quod tenentur omnes, quam id ad
+<lb ed="#Bf" n="64"/>quod tenentur pauci: sed ad commune
+<lb ed="#Bf" n="65"/>tenentur omnes, ut dicitur in Lidfera, ad
+<lb ed="#Bf" n="66"/>singulare autem pauci qui se sponte 
+obli<lb break="no" ed="#Bf" n="67"/>gaverunt: ergo detestabilius est 
+trans<lb break="no" ed="#Bf" n="68"/>gredi votum commune, quam 
+pro<lb break="no" ed="#Bf" n="69"/>prium : sed transgressio singularis 
+spe<lb break="no" ed="#Bf" n="70"/>cialis facit deformitatem : ergo et 
+trans<lb break="no" ed="#Bf" n="71"/>gressio volicommunis, et multo amplius.
+</p>
+            <p xml:id="alalal-i84943-d1e200">
+               <lb ed="#Bf" n="72"/>In contrAriUM est: quia secundum hoc
+<lb ed="#Bf" n="73"/>omnis homo quolibet peccato peccaret
+<lb ed="#Bf" n="74"/>dupliciter vel tripliciter: quia contra 
+bo<lb break="no" ed="#Bf" n="75"/>num moris peccat ipso actu deformi, et
+<lb ed="#Bf" n="76"/>contra preceptum divinum per 
+inobe<lb break="no" ed="#Bf" n="77"/>dicntiam legis prohibentis peecatum, et
+<lb ed="#Bf" n="78"/>contra volum et aposlasiam: ergo pro
+<lb ed="#Bf" n="79"/>quolibet peccato esset triplex injungenda.
+<lb ed="#Bf" n="80"/>penitentia, quod falsum est.
+</p>
+            <p xml:id="alalal-i84943-d1e222">
+               <lb ed="#Bf" n="81"/>Resvonsio. Hoc ullimum est 
+conce<lb break="no" ed="#Bf" n="82"/>dendum, et dicendum quod non sunt in
+<lb ed="#Bf" n="83"/>peccato tria, sed unum in triplici 
+defor<lb break="no" ed="#Bf" n="84"/>mitate: et hoc peccatum vocavit 
+Prepo<lb break="no" ed="#Bf" n="85"/>sitivus unum peccatum triplex, vel unum
+<lb ed="#Bf" n="86"/>duplex siduplicem habuit deformitatem :
+<lb ed="#Bf" n="87"/>unde non est injungenda peenitentia nisi
+<lb ed="#Bf" n="88"/>pro uno, et monendus, quod subdatur
+<lb ed="#Bf" n="89"/>precepto, et recordetur voti: et nulla
+<pb ed="#Bf" n="407"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>alia peenitentia specialis est injungenda.
+</p>
+            <p xml:id="alalal-i84943-d1e251">
+               <lb ed="#Bf" n="2"/>Ad primum ergo dicendum, quod 
+quan<lb break="no" ed="#Bf" n="3"/>do voti transgressio separata est a 
+pra<lb break="no" ed="#Bf" n="4"/>cepti transgressione, et ab eo quod est
+<lb ed="#Bf" n="5"/>per se peccatum, tunc tenet illa objectio :
+<lb ed="#Bf" n="6"/>sicut est in singulari voto de sine proprio
+<lb ed="#Bf" n="7"/>vivere : habere enim proprium non est
+<lb ed="#Bf" n="8"/>peccatum nec contra legem Dei: et ideo
+<lb ed="#Bf" n="9"/>si devoveatur, erit proprietas peccatum,
+<lb ed="#Bf" n="10"/>quod non est nisi contra volum: et tune
+<lb ed="#Bf" n="11"/>apostasia voti est speciale peccatum. Sed
+<lb ed="#Bf" n="12"/>non est sic in voto communi, quod 
+sem<lb break="no" ed="#Bf" n="13"/>per adjunctum est bono per se et 
+prece<lb break="no" ed="#Bf" n="14"/>pto : et ideo apostasia nullum facit 
+pec<lb break="no" ed="#Bf" n="15"/>catum speciale, licet aliquam rationem
+<lb ed="#Bf" n="16"/>deformitatis aflerat in actu peccati quae
+<lb ed="#Bf" n="17"/>sine ipsa non esset.
+</p>
+            <p xml:id="alalal-i84943-d1e289">
+               <lb ed="#Bf" n="18"/>Ad aliud dicendum, quod illud nihil
+<lb ed="#Bf" n="19"/>probat, nisi quod faciat aliquam 
+defor<lb break="no" ed="#Bf" n="20"/>mitatem specialem in actu: et hoc 
+con<lb break="no" ed="#Bf" n="21"/>cedendum est. Sed non quelibet 
+specia<lb break="no" ed="#Bf" n="22"/>lis deformitas facit speciale peccatum :
+<lb ed="#Bf" n="23"/>quia corruptio cujuslibet circumstantiae
+<lb ed="#Bf" n="24"/>facit specialem deformitatem, non tamen
+<lb ed="#Bf" n="25"/>speciale peccatum.,
+</p>
+            <p xml:id="alalal-i84943-d1e309">
+               <lb ed="#Bf" n="26"/>Ad aliud dicendum, quod non est 
+si<lb break="no" ed="#Bf" n="27"/>mile : quia yolum speciale est circa
+<lb ed="#Bf" n="28"/>actum separatum ab actu qui cadit sub
+<lb ed="#Bf" n="29"/>precepto, sed non volum commune, ut
+<lb ed="#Bf" n="30"/>patet ex preedictis.
+</p>
+            <p xml:id="alalal-i84943-d1e322">
+               <lb ed="#Bf" n="31"/>Ad aliud dicendum, quod 
+detestabili<lb break="no" ed="#Bf" n="32"/>tas peccati ex duobus attenditur, scilicet
+<lb ed="#Bf" n="33"/>ex vinculo obligante ad aliquid 
+facien<lb break="no" ed="#Bf" n="34"/>dum, vel ex statu obligati. Et si primo
+<lb ed="#Bf" n="35"/>modo attenditur detestabilitas peccati,
+<lb ed="#Bf" n="36"/>detestabilius est transgredi commune,
+<lb ed="#Bf" n="37"/>quam singulare: quia tria sunt ligantia
+<lb ed="#Bf" n="38"/>ad illud, scilicet per se bonum, 
+pracep<lb break="no" ed="#Bf" n="39"/>tum, et votum. Si autem secundo modo
+<lb ed="#Bf" n="40"/>attenditur ; tunc detestabilius est 
+trans<lb break="no" ed="#Bf" n="41"/>gredi singulare, quia quanto altior 
+sta<lb break="no" ed="#Bf" n="42"/>tus, tanto turpior casus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

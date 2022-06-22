@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="352"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d63321"><!-- l2d21dt -->
+            <head xml:id="alalal-d63321-Hd1e99">Divisio Textus</head>
+            <p xml:id="alalal-d63321-d1e101">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" n="15"/>DIVISIO TEXTUS.
+</p>
+            <p xml:id="alalal-d63321-d1e108">
+               <lb ed="#Bc" n="16"/>
+               <quote xml:id="alalal-d63321-Qd1e112"> Videns quoque diabolus, etc. </quote>
+               <lb ed="#Bc" n="17"/>Hic igitur de casu hominis. Et dividitur
+<lb ed="#Bc" n="18"/>secundum ea quae sunt in omni casu, 
+sci<lb break="no" ed="#Bc" n="19"/>licet causa casus, eta quo cadit. Et de hoc
+<lb ed="#Bc" n="20"/>agitur in distinclione XXIV, ibi, A,
+<lb ed="#Bc" n="21"/>
+               <quote xml:id="alalal-d63321-Qd1e125"> Nune diligenter investigari, etc. </quote> In
+<lb ed="#Bc" n="22"/>distinctione autem XXX determinat, in
+<cb ed="#Bc" n="c"/>
+               <lb ed="#Bc" n="23"/>quid cecidit, ibi, A, <quote xml:id="alalal-d63321-Qd1e134"> In supertoribus
+<lb ed="#Bc" n="24"/>wnsinuatum est, etc. </quote>
+            </p>
+            <p xml:id="alalal-d63321-d1e140">
+               <lb ed="#Bc" n="25"/>Prima pars subdividitur in tres : in 
+qua<lb break="no" ed="#Bc" n="26"/>rum prima quaeritur causa casus ex parte
+<lb ed="#Bc" n="27"/>tentatoris et tentationis : et de hoc est ista
+<lb ed="#Bc" n="28"/>distinctio. In secunda, quaeritur causa
+<lb ed="#Bc" n="29"/>ex parte primi peccati in homine: et de
+<lb ed="#Bc" n="30"/>hoe est sequens distinctio XXII, ibi, A,
+<lb ed="#Bc" n="31"/>
+               <quote xml:id="alalal-d63321-Qd1e157"> Hic videtur diligenter investigandum,
+<lb ed="#Bc" n="32"/>etc. </quote> In tertia, quaerit causam ex parte
+<lb ed="#Bc" n="33"/>Dei permiitentis casum et de hoe
+<lb ed="#Bc" n="34"/>in distinctione XXIII, bi, A, <quote xml:id="alalal-d63321-Qd1e166"> 
+Preter<lb break="no" ed="#Bc" n="35"/>ea, Queri solet, etc. </quote>
+            </p>
+            <p xml:id="alalal-d63321-d1e172">
+               <pb ed="#Bc" n="353"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Hec distinctio habet quatuor partes:
+<lb ed="#Bc" n="2"/>in quarum prima describit adventum et
+<lb ed="#Bc" n="3"/>speciem tentatoris : in secunda, modum
+<lb ed="#Bc" n="4"/>et progressum tentationis, ibi, C, <quote xml:id="alalal-d63321-Qd1e187"> 
+Len<lb break="no" ed="#Bc" n="5"/>tatio autem, etc. </quote> In tertia, tangit 
+cau<lb break="no" ed="#Bc" n="6"/>gam quare hominis peccatum est 
+reme<lb break="no" ed="#Bc" n="7"/>diabile, et. non Angeli, ibi, F, <quote xml:id="alalal-d63321-Qd1e196"> 
+Preter<lb break="no" ed="#Bc" n="8"/>ea angelica natura, etc. </quote> In quarta,
+<lb ed="#Bc" n="9"/>tangit ex incidenti, quod dicto mulieris
+<lb ed="#Bc" n="10"/>probatur, non soli viro datum esse 
+man<lb break="no" ed="#Bc" n="11"/>datum, sed etiam mulieri, ibi, G, <quote xml:id="alalal-d63321-Qd1e208"> f/lud
+<lb ed="#Bc" n="12"/>etiam notandum, etc. </quote>
+            </p>
+            <p xml:id="alalal-d63321-d1e215">
+               <lb ed="#Bc" n="13"/>Et per haec patet sententia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

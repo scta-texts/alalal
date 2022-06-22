@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 18</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 18</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="298"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a59918"><!-- l1d9a18 -->
+            <head xml:id="alalal-a59918-Hd1e99">Articulus 18</head>
+            <head xml:id="alalal-a59918-Hd1e101" type="question-title">An generatio Filia Patre sit finita,
+vel infinita ?</head>
+            <p xml:id="alalal-a59918-d1e104">
+               <cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="31"/>ARTICULUS XVIII.
+<lb ed="#Ba" n="32"/>An generatio Filia Patre sit finita,
+<lb ed="#Ba" n="33"/>vel infinita ?
+</p>
+            <p xml:id="alalal-a59918-d1e115">
+               <lb ed="#Ba" n="34"/>Incidit autem hic questio in 
+prin<lb break="no" ed="#Ba" n="35"/>cipio, Utrum generatio Filii a Patre sit
+<lb ed="#Ba" n="36"/>finita, vel infinita ?
+</p>
+            <p xml:id="alalal-a59918-d1e124">
+               <lb ed="#Ba" n="37"/>1. Videtur autem, quod infinita ; quia
+<lb ed="#Ba" n="38"/>in aeternitate nihil aliter se habet: ergo
+<lb ed="#Ba" n="39"/>si Pater genuit, verum est quod adhuc
+<lb ed="#Ba" n="40"/>generatur : generatio autem que# 
+sem<lb break="no" ed="#Ba" n="41"/>per est in actu generalionis, numquam
+<lb ed="#Ba" n="42"/>finitur: ergo videtur, quod generatio
+<lb ed="#Ba" n="43"/>Filii a Patre infinita sit.
+</p>
+            <p xml:id="alalal-a59918-d1e143">
+               <lb ed="#Ba" n="44"/>2. Item, Quidquid est in Deo, non 
+fini<lb break="no" ed="#Ba" n="45"/>tur duratione, vel loco, vel intellectu :
+<lb ed="#Ba" n="46"/>generatio divina est in Deo : ergo nullo
+<lb ed="#Ba" n="47"/>horum finitur : ergo videtur, quod 
+sem<lb break="no" ed="#Ba" n="48"/>per generatur.
+</p>
+            <p xml:id="alalal-a59918-d1e156">
+               <lb ed="#Ba" n="49"/>SED CONTRA :
+<lb ed="#Ba" n="50"/>1. Quidquid semper est in generari,
+<lb ed="#Ba" n="51"/>numquam est in genitum esse : ergo si
+<lb ed="#Ba" n="52"/>Filius semper est in generam, numquam
+<lb ed="#Ba" n="53"/>est in genitum esse, quod falsum est,
+<pb ed="#Ba" n="299"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>quia non esset filius nisi esset 
+geni<lb break="no" ed="#Ba" n="2"/>tus.
+</p>
+            <p xml:id="alalal-a59918-d1e178">
+               <lb ed="#Ba" n="3"/>2. Item, Quidquid semper est in 
+gene<lb break="no" ed="#Ba" n="4"/>rari, numquam est completum per 
+gene<lb break="no" ed="#Ba" n="5"/>rationem : ergo si Filius semper est in
+<lb ed="#Ba" n="6"/>generari, Filius numquam est perfectus
+<lb ed="#Ba" n="7"/>et completus per generalionem, quod
+<lb ed="#Ba" n="8"/>iterum falsum est : ergo generatio ejus
+<lb ed="#Ba" n="9"/>non est infinita.
+</p>
+            <p xml:id="alalal-a59918-d1e196">
+               <lb ed="#Ba" n="10"/>Si dicas, quod idem est in generari et
+<lb ed="#Ba" n="11"/>genitum esse. Contra : Aut ergo simul
+<lb ed="#Ba" n="12"/>sunt duratione generari et genitum esse,
+<lb ed="#Ba" n="13"/>sed non natura: aut simul natura, et 
+tem<lb break="no" ed="#Ba" n="14"/>pore. Si primo modo: ergo generari est
+<lb ed="#Ba" n="15"/>prius natura quam genitum esse : sedin
+<lb ed="#Ba" n="16"/>omnibus talibus prius infert posterius, et
+<lb ed="#Ba" n="17"/>non convertitur : non enim sequitur in
+<lb ed="#Ba" n="18"/>millesimum annum, si genitum est, ergo
+<lb ed="#Ba" n="19"/>generatur : sed sequitur bene, si 
+gene<lb break="no" ed="#Ba" n="20"/>ratur, ergo genitum est : ergo cum 
+mo<lb break="no" ed="#Ba" n="21"/>do verum sit, quod Filius est genitus,
+<lb ed="#Ba" n="22"/>non est verum quod generatur: quod
+<lb ed="#Ba" n="23"/>falsum est, cum recipiat fides hujusmodi
+<lb ed="#Ba" n="24"/>locutiones, Filius semper generatur : ut
+<lb ed="#Ba" n="25"/>hic probat Magister.
+</p>
+            <p xml:id="alalal-a59918-d1e233">
+               <lb ed="#Ba" n="26"/>Si dicas quod generatio Filii est finita
+<lb ed="#Ba" n="27"/>ad genitum esse. Videtur falsum esse :
+<lb ed="#Ba" n="28"/>quia tunc aliquando fuitincompleta, et in
+<lb ed="#Ba" n="29"/>genitum esse facta est completa.
+</p>
+            <p xml:id="alalal-a59918-d1e244">
+               <lb ed="#Ba" n="30"/>Praeterea, Quandoque fuit in generari,
+<lb ed="#Ba" n="31"/>quandoque autem in genitum esse, et
+<lb ed="#Ba" n="32"/>ita variatio est in aeternitate, quod stare
+<lb ed="#Ba" n="33"/>cum prehabitis non potest.
+</p>
+            <p xml:id="alalal-a59918-d1e256">
+               <lb ed="#Ba" n="34"/>ITem, Estne concedendum saltem 
+se<lb break="no" ed="#Ba" n="35"/>cundum intellectum, quod generari est
+<lb ed="#Ba" n="36"/>ante genitum esse ? Videtur quod sic:
+<lb ed="#Ba" n="37"/>cum Filius non accipiat esse quod est,
+<lb ed="#Ba" n="38"/>nisi per generationem : ergo generatio,
+<lb ed="#Ba" n="39"/>ut videtur, est ante..Si hoc datur :
+<lb ed="#Ba" n="40"/>Contra est intellectus aeternitatis, qui
+<lb ed="#Ba" n="41"/>eternum ponit totum esse simul.
+</p>
+            <p xml:id="alalal-a59918-d1e276">
+               <lb ed="#Ba" n="42"/>Solutio, Dicendum, quod ista 
+que<lb break="no" ed="#Ba" n="43"/>stio in divinis non habet locum : quia
+<lb ed="#Ba" n="44"/>nec ibi est finitum, nec infinitum. 
+Infini<lb break="no" ed="#Ba" n="45"/>tum non est: quia illud est 
+imperfectis<lb break="no" ed="#Ba" n="46"/>simum, cujus partes accipienti semper
+<lb ed="#Ba" n="47"/>est aliquid extra accipere: et ideo etiam
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="48"/>in naturalibus mathematicis infinitum
+<lb ed="#Ba" n="49"/>non est nisi in co quod est finitum actu,
+<lb ed="#Ba" n="50"/>et in potentia in illo et non actu:
+<lb ed="#Ba" n="51"/>infinitum enim quod iteratione sive 
+re<lb break="no" ed="#Ba" n="52"/>generatione ejusdem motus circuli sine
+<lb ed="#Ba" n="53"/>quietis interpositione est infinitum, non
+<lb ed="#Ba" n="54"/>potest ibi esse : quia non iteratur 
+sem<lb break="no" ed="#Ba" n="55"/>per eadem generatio sine quiete, sicut
+<lb ed="#Ba" n="56"/>motus circuli infinitus dicitur 
+regenera<lb break="no" ed="#Ba" n="57"/>tione quantum ad principia naturalia :
+<lb ed="#Ba" n="58"/>unde nullo modo est ibi infinitum sic
+<lb ed="#Ba" n="59"/>acceptum, nisi hoc modo quo supra 
+di<lb break="no" ed="#Ba" n="60"/>cltum est, quod infinitum est non 
+fini<lb break="no" ed="#Ba" n="61"/>tum, vel mensuratum tempore, loco,
+<lb ed="#Ba" n="62"/>vel potestate comprehendentis 
+intelle<lb break="no" ed="#Ba" n="63"/>ctus. Finitum etiam non est ibi: quia
+<lb ed="#Ba" n="64"/>finitum dicitur, vel quod attingit 
+com<lb break="no" ed="#Ba" n="65"/>plementum post motum, quando scilicet
+<lb ed="#Ba" n="66"/>post moveri est in motum esse : et sic
+<lb ed="#Ba" n="67"/>non potest esse in divinis penitus 
+immu<lb break="no" ed="#Ba" n="68"/>tabilibus. Alio modo dicitur finitum
+<lb ed="#Ba" n="69"/>contentum intra fines terminantes ipsum
+<lb ed="#Ba" n="70"/>intra, vel extra : sicut res terminatur ad
+<lb ed="#Ba" n="71"/>formam et figuram suam, vel ad 
+essen<lb break="no" ed="#Ba" n="72"/>tiam suam, extra quam de re nihil
+<lb ed="#Ba" n="73"/>est. Extra autem sicut res terminatur ad
+<lb ed="#Ba" n="74"/>locum. Et neutrum illorum competit
+<lb ed="#Ba" n="75"/>divinis : quia Deo non constituitur 
+ter<lb break="no" ed="#Ba" n="76"/>minus su essentiae : licet ipse sibi 
+fini<lb break="no" ed="#Ba" n="77"/>tus sit, tamen non finitur ad aliquid 
+cre<lb break="no" ed="#Ba" n="78"/>atum : cum semper sit non inclusus,
+<lb ed="#Ba" n="79"/>sed extra incomparabiliter. Unde 
+dici<lb break="no" ed="#Ba" n="80"/>mus, quod generatio divina nec finita
+<lb ed="#Ba" n="81"/>est, nec infinita est, sed simplex. Simplex
+<lb ed="#Ba" n="82"/>enim, ut dicit Philosophus, nec 
+fini<lb break="no" ed="#Ba" n="83"/>tum, nec infinitum est.
+</p>
+            <p xml:id="alalal-a59918-d1e372">
+               <lb ed="#Ba" n="84"/>Nec hoc esset dicendum quod 
+genera<lb break="no" ed="#Ba" n="85"/>ri differat a genitum esse: quia jam
+<lb ed="#Ba" n="86"/>supra probatum est, quod est fieri 
+ali<lb break="no" ed="#Ba" n="87"/>quod ancedens Filium, nec actio aliqua
+<lb ed="#Ba" n="88"/>inter Patrem et Filium, per quam exeat
+<lb ed="#Ba" n="89"/>Filius a Patre : sed generatio dicit 
+ratio<lb break="no" ed="#Ba" n="90"/>nem per quam Filius est a Patre : unde
+<lb ed="#Ba" n="91"/>generatio active intellecta idem est quod
+<lb ed="#Ba" n="92"/>paternitas vel Pater, licet differant in
+<lb ed="#Ba" n="93"/>modo significandi. Similiter, generatio
+<lb ed="#Ba" n="94"/>passive accepta, idem est quod Filius
+<lb ed="#Ba" n="95"/>differens in modo intelligendi tantum.
+<lb ed="#Ba" n="96"/>Et ideo nihil est quod quaeritur, Utrum
+<pb ed="#Ba" n="300"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>generari et genitum esse simul sint
+<lb ed="#Ba" n="2"/>tempore, et natura: vel natura prius
+<lb ed="#Ba" n="3"/>unum alio, sed non tempore? Quia
+<lb ed="#Ba" n="4"/>neutro modo sunt. Idem enim sibi
+<lb ed="#Ba" n="5"/>non est simul secum, eo quod 
+simul<lb break="no" ed="#Ba" n="6"/>tas sit diversorum, quae sunt in loco
+<lb ed="#Ba" n="7"/>vel tempore uno: sed generar: et 
+gene<lb break="no" ed="#Ba" n="8"/>ratio et Filius in divinis et genitum esse
+<lb ed="#Ba" n="9"/>sunt idem, aliter tamen significatum :
+<lb ed="#Ba" n="10"/>et ideo non est ibi, nec prius natura,
+<lb ed="#Ba" n="11"/>nec wternitate, nec spatio. Sed cum 
+di<lb break="no" ed="#Ba" n="12"/>citur, Filius generatur a Patre, 
+signiti<lb break="no" ed="#Ba" n="13"/>catur modus quo Filius est a Patre. Gum
+<lb ed="#Ba" n="14"/>autem dicitur generatio, significatur ratio
+<lb ed="#Ba" n="15"/>illtus existentiae qua est a Patre. Cum
+<lb ed="#Ba" n="16"/>dicitur, Filius genitus, significatur 
+mo<lb break="no" ed="#Ba" n="17"/>dus quo est in Filio id quod Patris est.
+<lb ed="#Ba" n="18"/>Cum dicitur, Hides, significatur 
+deter<lb break="no" ed="#Ba" n="19"/>minatio habentis principium in 
+compa<lb break="no" ed="#Ba" n="20"/>ratione respectus ad principium illud.
+<lb ed="#Ba" n="21"/>Et quia omnes isti modi sunt ejusdem
+<lb ed="#Ba" n="22"/>in significando ipsum diversimode, ex
+<lb ed="#Ba" n="23"/>ideo fides admisit omnia verba temporis
+<lb ed="#Ba" n="24"/>exprimentis modum talis existentie . et
+<lb ed="#Ba" n="25"/>per hoc patet solutio ad totum : non
+<lb ed="#Ba" n="26"/>enim pono ibi fieri, vel actum, inter
+<lb ed="#Ba" n="27"/>Patrem et Fihum : sed verbum 
+impor<lb break="no" ed="#Ba" n="28"/>tans actum generationis in humanis,
+<lb ed="#Ba" n="29"/>quando transfertur in divina, 
+abstra<lb break="no" ed="#Ba" n="30"/>hitur ab agere vel pati et tempore, et
+<lb ed="#Ba" n="31"/>retinet tantum rationem actus sui, que
+<lb ed="#Ba" n="32"/>ratio in divinis dicit notionem hoc vel
+<lb ed="#Ba" n="33"/>illo modo significatam: et ideo totum
+<lb ed="#Ba" n="34"/>quod ibiest, perfectum est, nihil in fieri,
+<lb ed="#Ba" n="35"/>nihil in factum esse : sed Fili 
+demon<lb break="no" ed="#Ba" n="36"/>stratio a Patre, perfect: a perfecto, et
+<lb ed="#Ba" n="37"/>unius ab uno.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

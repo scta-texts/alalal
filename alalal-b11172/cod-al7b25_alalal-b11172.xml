@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 6</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 6</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="575"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-b11172"><!-- l1d22a6 -->
+            <head xml:id="alalal-b11172-Hd1e99">Articulus 6</head>
+            <head xml:id="alalal-b11172-Hd1e101" type="question-title">An quatuor regulae de divinis nominibus
+a Magistro sunt bene assignatae ?</head>
+            <p xml:id="alalal-b11172-d1e104">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="21"/>ARTICULUS VI.
+<lb ed="#Ba" n="22"/>An quatuor regulae de divinis nominibus
+<lb ed="#Ba" n="23"/>a Magistro sunt bene assignatae ?
+</p>
+            <p xml:id="alalal-b11172-d1e115">
+               <lb ed="#Ba" n="24"/>Deinde quaeritur de regulis quas ponit
+<lb ed="#Ba" n="25"/>in illa parte qua incipit, ibi, E, <quote xml:id="alalal-b11172-Qd1e121"> 
+Scien<lb break="no" ed="#Ba" n="26"/>dum est ergo, etc. </quote>
+            </p>
+            <p xml:id="alalal-b11172-d1e127">
+               <lb ed="#Ba" n="27"/>Ibi enim colliguntur quatuor regule
+<lb ed="#Ba" n="28"/>quas dat : quarum prima est, quod ila
+<lb ed="#Ba" n="29"/>que proprie ad singulas pertinent 
+per<lb break="no" ed="#Ba" n="30"/>sonas, relative ad invicem dicuntur.
+Se<lb break="no" ed="#Ba" n="31"/>cunda est, quae unitatem significant, ad
+<lb ed="#Ba" n="32"/>se dicuntur et substantialiter. Tertia est,
+<lb ed="#Ba" n="33"/>Que substantialiter dicuntur, de omnibus
+<lb ed="#Ba" n="34"/>sigillatim praedicantur, et de omnibus
+  <cb ed="#Ba" n="c"/>
+               <lb ed="#Ba" n="35"/>simul singulariter praedicantur, et non
+  <lb ed="#Ba" n="36"/>pluraliter. Quarta est, quae relative 
+di<lb break="no" ed="#Ba" n="37"/>cuntur, non substantialiter dicuntur.</p>
+            <p xml:id="alalal-b11172-d1e157">
+               <lb ed="#Ba" n="38"/>1. Contra prima objicitur : Hoc 
+no<lb break="no" ed="#Ba" n="39"/>men, persona, pertinet ad singulas 
+per<lb break="no" ed="#Ba" n="40"/>sonas, et tamen non relative dicitur :
+<lb ed="#Ba" n="41"/>ergo regula illa non est universalis.
+</p>
+            <p xml:id="alalal-b11172-d1e168">
+               <lb ed="#Ba" n="42"/>2. Secunde instatur per similis et
+<lb ed="#Ba" n="43"/>equalis et idem, quae relative dicuntur,
+<lb ed="#Ba" n="44"/>et tamen substantiam significant.
+</p>
+            <p xml:id="alalal-b11172-d1e177">
+               <lb ed="#Ba" n="45"/>3. Item, tertiae instatur per hoc 
+no<lb break="no" ed="#Ba" n="46"/>men, persona, quod, ut infra dicet, 
+sub<lb break="no" ed="#Ba" n="47"/>stantiam significat, et tamen pluraliter
+<lb ed="#Ba" n="48"/>de eis in summa praedicatur.
+</p>
+            <p xml:id="alalal-b11172-d1e188">
+               <lb ed="#Ba" n="49"/>4, Quarte instatur per hoc quod 
+om<lb break="no" ed="#Ba" n="50"/>ne quod praedicatur, praedicatur per 
+ac<lb break="no" ed="#Ba" n="51"/>cidens, aut per substantiam : sed in 
+di<lb break="no" ed="#Ba" n="52"/>vinis non est accidens : ergo substantia :
+<lb ed="#Ba" n="53"/>ergo relatio quae praedicatur in divinis,
+<pb ed="#Ba" n="576"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>predicatur per substantiam : et sic 
+fal<lb break="no" ed="#Ba" n="2"/>sum est quod dicit.
+</p>
+            <p xml:id="alalal-b11172-d1e210">
+               <lb ed="#Ba" n="3"/>SoLuno. Dicendum, quod persona non
+<lb ed="#Ba" n="4"/>dicit relationem in se determinatam, sed
+<lb ed="#Ba" n="5"/>in quadam communitate proportionis, ut
+<lb ed="#Ba" n="6"/>infra dicetur. Vel dicatur, quod persona
+<lb ed="#Ba" n="7"/>dicitur relative in supposito: licet non
+<lb ed="#Ba" n="8"/>dicat relationem in modo significandi per
+<lb ed="#Ba" n="9"/>nomen.
+</p>
+            <p xml:id="alalal-b11172-d1e228">
+               <lb ed="#Ba" n="10"/>Ad aliud dicendum, quod similis, et
+<lb ed="#Ba" n="11"/>equalis, in se claudunt relationem, et id
+<lb ed="#Ba" n="12"/>in quo uniuntur et parificantur : et ideo
+<lb ed="#Ba" n="13"/>talia significant in concreto essentiam in
+<lb ed="#Ba" n="14"/>obliquo, et personas in recto : et quando
+<lb ed="#Ba" n="15"/>abstracte significantur, contingit e 
+con<lb break="no" ed="#Ba" n="16"/>verso, ut supra determinatum est‘.
+</p>
+            <p xml:id="alalal-b11172-d1e247">
+               <lb ed="#Ba" n="17"/>Ad aliud dicendum est, quod persona
+<lb ed="#Ba" n="18"/>dicit relationem in supposito, licet in
+<lb ed="#Ba" n="19"/>modo significandi non importet, sed 
+sub<lb break="no" ed="#Ba" n="20"/>stantiam.
+</p>
+            <p xml:id="alalal-b11172-d1e258">
+               <lb ed="#Ba" n="21"/>Ad aliud potest dici, quod in divinis
+<lb ed="#Ba" n="22"/>non est accidens, quia quoad naturam
+<lb ed="#Ba" n="23"/>predicamenti relationis non retinet in
+<lb ed="#Ba" n="24"/>divinis modum praedicandi relatio: sed
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="25"/>quoad modum quem addit, scilicet ad
+<lb ed="#Ba" n="26"/>alterum esse, et quoad hoc oppositionem
+<lb ed="#Ba" n="27"/>habet ad substantialia, quae non ad 
+alte<lb break="no" ed="#Ba" n="28"/>rum sed ad se praedicantur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

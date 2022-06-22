@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="222"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c41867"><!-- l1d36a10 -->
+            <head xml:id="alalal-c41867-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-c41867-Hd1e101" type="question-title">An idem sunt esse in Deo, et ex Deo,
+et per ipsum : et in ipso esse, vivere,
+et moveri ?</head>
+            <p xml:id="alalal-c41867-d1e104">
+               <pb ed="#Bb" n="222"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>ARTICULUS X.
+<lb ed="#Bb" n="2"/>An idem sunt esse in Deo, et ex Deo,
+<lb ed="#Bb" n="3"/>et per ipsum : et in ipso esse, vivere,
+<lb ed="#Bb" n="4"/>et moveri ?
+</p>
+            <p xml:id="alalal-c41867-d1e120">
+               <lb ed="#Bb" n="5"/>Deinde queritur de hoc quod dicit :
+<lb ed="#Bb" n="6"/>
+               <quote xml:id="alalal-c41867-Qd1e126"> Proinde si diligenter inspiciamus, etc.</quote>
+            </p>
+            <p xml:id="alalal-c41867-d1e129">
+               <lb ed="#Bb" n="7"/>Videtur enim, quod hoc non sit 
+ve<lb break="no" ed="#Bb" n="8"/>rum : quia
+<lb ed="#Bb" n="9"/>1. <ref xml:id="alalal-c41867-Rd1e137">Glossa exponit ad Roman. x1, 36:
+<lb ed="#Bb" n="10"/>
+                  <quote xml:id="alalal-c41867-Qd1e141" type="incipit">Ex ipso, et per ipsum, et in ipso</quote>
+               </ref>, prout
+<lb ed="#Bb" n="11"/>competit personis actualiter causantibus
+<lb ed="#Bb" n="12"/>creaturam. Unde dicit, quod ¢m ipso 
+at<lb break="no" ed="#Bb" n="13"/>tribuitur Spiritui sancto propter 
+bonita<lb break="no" ed="#Bb" n="14"/>tem continentem. Cum autem dicitur,
+<lb ed="#Bb" n="15"/>Omnia sunt in Deo :hoc non dicitur 
+ra<lb break="no" ed="#Bb" n="16"/>tione continentiae qua sunt creature actu
+<lb ed="#Bb" n="17"/>existentes, sed ratione idee qua ab
+<lb ed="#Bb" n="18"/>aeterno sunt in Deo: ergo videtur 
+equi<lb break="no" ed="#Bb" n="19"/>voce sumi ly in: et ita non est idem 
+di<lb break="no" ed="#Bb" n="20"/>cere.
+</p>
+            <p xml:id="alalal-c41867-d1e169">
+               <lb ed="#Bb" n="21"/>2. Item, Act. xv, 28, dicit, quod in
+<lb ed="#Bb" n="22"/>ipso vivimus, et movemur, et sumus,.
+<lb ed="#Bb" n="23"/>Ergo cum ab aeterno sumus in ipso, ab
+<lb ed="#Bb" n="24"/>eterno movemur et vivimus in ipso,
+<lb ed="#Bb" n="25"/>quod falsum est.
+</p>
+            <p xml:id="alalal-c41867-d1e182">
+               <lb ed="#Bb" n="26"/>3. Item, Si dicimur ab aeterno vila in
+<lb ed="#Bb" n="27"/>ipso, quia in ipso vivimus : tune videtur,
+<lb ed="#Bb" n="28"/>quod ab aeterno dicamur motus in ipso,
+<lb ed="#Bb" n="29"/>quia in ipso movemur : et essentialiter
+<lb ed="#Bb" n="30"/>in ipso, quia in ipso sumus, quod falsum
+<lb ed="#Bb" n="31"/>est: ergo videtur quod non sint idem
+<lb ed="#Bb" n="32"/>haec tria, scilicet esse in Deo, et esse ex
+<lb ed="#Bb" n="33"/>ipso, et per ipsum, et in ipso esse, 
+vive<lb break="no" ed="#Bb" n="34"/>re, et moveri.
+</p>
+            <p xml:id="alalal-c41867-d1e204">
+               <lb ed="#Bb" n="35"/>Joan. 1, 3 et 4: Omnia per ipsum facta sunt,
+<lb ed="#Bb" n="36"/>et sine ipso factum est nihil quod factum est.
+<lb ed="#Bb" n="37"/>In ipso vita era, et vita erat lux hominum, etc.
+</p>
+            <p xml:id="alalal-c41867-d1e213">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="38"/>Solutio. Dicendum, quod in parte 
+si<lb break="no" ed="#Bb" n="39"/>gnificationis idem est esse in Deo et in
+<lb ed="#Bb" n="40"/>ipso, prout enumeratur cum ez ipso, et
+<lb ed="#Bb" n="41"/>per ipsum: esse enim in Deo dicit duo
+<lb ed="#Bb" n="42"/>secundum rationem intelligentia, scilicet
+<lb ed="#Bb" n="43"/>habere ideam, et esse Deum auctorem
+<lb ed="#Bb" n="44"/>ideati illius idee : et quoad hoc ultimum
+<lb ed="#Bb" n="45"/>accipitur ly <mentioned>in</mentioned>.
+</p>
+            <p xml:id="alalal-c41867-d1e237">
+               <lb ed="#Bb" n="46"/>Eodem modo ad aliud dicendum, quod
+<lb ed="#Bb" n="47"/>Deus in comparatione ad creata, 
+accipi<lb break="no" ed="#Bb" n="48"/>tur tribus modis, quorum quilibet in se
+<lb ed="#Bb" n="49"/>supponit precedentem. Primus est esse
+<lb ed="#Bb" n="50"/>in Deo, ut in causa tantum. Secundus est
+<lb ed="#Bb" n="51"/>esse in Deo, ut in causa actualiter 
+cau<lb break="no" ed="#Bb" n="52"/>sante. Tertius est esse in Deo, ut causa
+<lb ed="#Bb" n="53"/>actualiter causante et regente et 
+conti<lb break="no" ed="#Bb" n="54"/>nente. Et primus modus non ponit 
+crea<lb break="no" ed="#Bb" n="55"/>turam esse : sed secundus ponit crea—
+<lb ed="#Bb" n="56"/>turam esse nunc primo : tertius autem
+<lb ed="#Bb" n="57"/>supponit existentem in perfectione. Unde
+<lb ed="#Bb" n="58"/>primo modo dicitur, Quod factum est, in
+<lb ed="#Bb" n="59"/>ipso vita erat et luxt. Secundo modo,
+<lb ed="#Bb" n="60"/>Fix ipso, et per ipsum, et in ipso sunt
+<lb ed="#Bb" n="61"/>omnia®. Tertio modo dicitur, In ipso
+<lb ed="#Bb" n="62"/>vivimus, et movemur, et sumus . Et sic
+<lb ed="#Bb" n="63"/>patet qualiter isti modi enumerati hic
+<lb ed="#Bb" n="64"/>differunt.
+</p>
+            <p xml:id="alalal-c41867-d1e281">
+               <lb ed="#Bb" n="65"/>Ad aliud dicendum, quod haec est 
+fal<lb break="no" ed="#Bb" n="66"/>sa, quod in ipso vita dicamur, quia in
+<lb ed="#Bb" n="67"/>ipso vivimus : sed potius cum omnis 
+sub<lb break="no" ed="#Bb" n="68"/>stantia dividatur in tria, scilicet esse,
+<lb ed="#Bb" n="69"/>posse, et operari, illa tria tanguntur
+<lb ed="#Bb" n="70"/>esse in Deo regente et continente, cum
+<lb ed="#Bb" n="71"/>dicitur : Vivimus secundum potentiam
+<lb ed="#Bb" n="72"/>vite, et movemur in opere, et sumus
+<lb ed="#Bb" n="73"/>secundum essentiam : ex ipso autem 
+di<lb break="no" ed="#Bb" n="74"/>citur propter potentiam Patris, per
+<lb ed="#Bb" n="75"/>ipsum propter sapientiam Filii, et in
+<lb ed="#Bb" n="76"/>ipso propter bonitatem Spiritus sancti.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

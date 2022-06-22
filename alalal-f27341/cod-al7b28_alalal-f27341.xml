@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 11</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 11</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="656"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f27341"><!-- l3d35a11 -->
+            <head xml:id="alalal-f27341-Hd1e99">Articulus 11</head>
+            <head xml:id="alalal-f27341-Hd1e101" type="question-title">Qualiter intellectus habeat se ad 
+contemplationem ?</head>
+            <p xml:id="alalal-f27341-d1e104">
+               <lb ed="Bd" n="63"/>ARTICULUS XI.
+<lb ed="Bd" n="64"/>Qualiter intellectus habeat se ad 
+contem<lb break="no" ed="Bd" n="65"/>plationem ?
+</p>
+            <p xml:id="alalal-f27341-d1e113">
+               <lb ed="Bd" n="66"/>Ulterius quaeritur, Qualiter se habeat
+<lb ed="Bd" n="67"/>ad fidem et contemplationem : quorum
+<lb ed="Bd" n="68"/>unum jam habitum est. Sed qualiter 
+ha<lb break="no" ed="Bd" n="69"/>beat se ad contemplationem est 
+inqui<lb break="no" ed="Bd" n="70"/>rendum ?
+</p>
+            <p xml:id="alalal-f27341-d1e126">
+               <lb ed="Bd" n="71"/>Videtur autem, quod precedat fidem
+<lb ed="Bd" n="72"/>et contemplationem : quia intellectus nec
+<lb ed="Bd" n="73"/>assentit nec contemplatur : ergo videtur,
+<lb ed="Bd" n="74"/>quod intellectus precedat et fidem et
+<lb ed="Bd" n="75"/>contemplationem.
+</p>
+            <p xml:id="alalal-f27341-d1e140">
+               <lb ed="Bd" n="76"/>Sed contra hoc videtur esse quod dicit Se™
+<lb ed="Bd" n="77"/>Isaias : Nisi credideritis, non 
+intellige<lb break="no" ed="Bd" n="78"/>tis! : ergo fides precedit intellectum.
+</p>
+            <p xml:id="alalal-f27341-d1e149">
+               <lb ed="Bd" n="79"/>Solutio Dicendum, quod est quidam
+<lb ed="Bd" n="80"/>intellectus de hoc quod dicitur per 
+ser<lb break="no" ed="Bd" n="81"/>monem : et iste non est donum, sed 
+pre<lb break="no" ed="Bd" n="82"/>cedit fidem et contemplationem : et est
+<lb ed="Bd" n="83"/>quidam intellectus intuens in lumine 
+ac<lb break="no" ed="Bd" n="84"/>cepto a Deo, quod lumen est gratum 
+fa<lb break="no" ed="Bd" n="85"/>ciens, et hoc est donum, et est nobilior
+<pb ed="#Bd" n="657"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>perfectio intellectus nostri quam fides vel
+<lb ed="Bd" n="2"/>contemplatio : et ideo secundum viam
+<lb ed="Bd" n="3"/>generationis actus, licet non habitus, 
+se<lb break="no" ed="Bd" n="4"/>quitur fidem et contemplationem. Dico
+<lb ed="Bd" n="5"/>autem non secundum viam generationis
+<lb ed="Bd" n="6"/>habitus: quia habitus simul infunduntur,
+<lb ed="Bd" n="7"/>sed non actus, sed potius actus 
+conse<lb break="no" ed="Bd" n="8"/>quuntur se.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

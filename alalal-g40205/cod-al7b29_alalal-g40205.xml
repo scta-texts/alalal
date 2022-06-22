@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="202"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g40205"><!-- l4d8a10 -->
+            <head xml:id="alalal-g40205-Hd1e99">Articulus 10</head>
+            <head xml:id="alalal-g40205-Hd1e101" type="question-title">An hoc sacramentum post prandium 
+celebreturi ? et, Quae comestio sive 
+potatio arceant a perceptione 
+sacramentt ?</head>
+            <p xml:id="alalal-g40205-d1e104">
+               <lb ed="#Be" n="28"/>ARTICULUS X.
+<lb ed="#Be" n="29"/>An hoc sacramentum post prandium 
+ce<lb break="no" ed="#Be" n="30"/>lebreturi ? et, Quae comestio sive 
+po<lb break="no" ed="#Be" n="31"/>tatio arceant a perceptione 
+sacra<lb break="no" ed="#Be" n="32"/>mentt ?
+</p>
+            <p xml:id="alalal-g40205-d1e117">
+               <lb ed="#Be" n="33"/>Sed adhuc ulterius queritur, Utrum
+<lb ed="#Be" n="34"/>post prandium possit celebrari hoc 
+sa<lb break="no" ed="#Be" n="35"/>cramentum ?
+</p>
+            <p xml:id="alalal-g40205-d1e126">
+               <lb ed="#Be" n="36"/>Videtur autem, quod non: quia dicit
+<lb ed="#Be" n="37"/>Apostolus, IT ad Corinth. x1, 20 et 24:
+<lb ed="#Be" n="38"/>Jam non est Dominicam cenam 
+mandu<lb break="no" ed="#Be" n="39"/>care : unusquigque enim suam cenam 
+pre<lb break="no" ed="#Be" n="40"/>sumit ad manducandum. Aliud autem
+<lb ed="#Be" n="41"/>non est manducare, et aliud non debet
+<lb ed="#Be" n="42"/>manducari : quod enim non est 
+mandu<lb break="no" ed="#Be" n="43"/>care, non contingit manducare : et hoc
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="44"/>ideo, quia non conficitur, vel quia non
+<lb ed="#Be" n="45"/>est presto ad manducandum: ergo 
+vi<lb break="no" ed="#Be" n="46"/>detur, quod non conficitur post 
+pran<lb break="no" ed="#Be" n="47"/>dium.
+</p>
+            <p xml:id="alalal-g40205-d1e158">
+               <lb ed="#Be" n="48"/>Sed contra hoc est: quia ad 
+sacra<lb break="no" ed="#Be" n="49"/>mentum non exigitur nisi forma et 
+ma<lb break="no" ed="#Be" n="50"/>teria, et ex parte conficientis ordo et 
+in<lb break="no" ed="#Be" n="51"/>tentio: ergo istis suppositis, videtur
+<lb ed="#Be" n="52"/>quod sacramentum conficiatur : ergo
+<lb ed="#Be" n="53"/>post prandium et ante prandium 
+confici<lb break="no" ed="#Be" n="54"/>tur, ut videtur.
+</p>
+            <p xml:id="alalal-g40205-d1e176">
+               <lb ed="#Be" n="55"/>Urerivus queritur, Quae comestio 
+ar<lb break="no" ed="#Be" n="56"/>ceat a perceplione corporis et sanguinis
+<lb ed="#Be" n="57"/>Domini ?
+</p>
+            <p xml:id="alalal-g40205-d1e185">
+               <lb ed="#Be" n="58"/>Dicunt enim medici, quod quedam
+<lb ed="#Be" n="59"/>sunt medicina et non cibus, et quedam
+<lb ed="#Be" n="60"/>cibus et non medicina, quaedam autem
+<lb ed="#Be" n="61"/>cibus et medicina simul : queratur ergo
+<lb ed="#Be" n="62"/>si aliquis sumeret ea quae sunt medicina
+<lb ed="#Be" n="63"/>et non cibus, quae potius exhauriunt 
+cor<lb break="no" ed="#Be" n="64"/>pus quam convertantur in corpus, utrum
+<lb ed="#Be" n="65"/>ille possit sumere corpus Domini ?
+</p>
+            <p xml:id="alalal-g40205-d1e205">
+               <lb ed="#Be" n="66"/>Et videtur quod sic : quia
+<lb ed="#Be" n="67"/>1. Non sumpsit cibum : et nihil aliud
+<lb ed="#Be" n="68"/>impediebat eum: ergo ex talibus non
+<lb ed="#Be" n="69"/>impeditur, ut videtur.
+</p>
+            <p xml:id="alalal-g40205-d1e216">
+               <lb ed="#Be" n="70"/>2. Item, Talia, ut dicunt, non solvunt
+<lb ed="#Be" n="71"/>jejunium : ergo non impediunt 
+celebratio<lb break="no" ed="#Be" n="72"/>nem vel communionem.
+</p>
+            <p xml:id="alalal-g40205-d1e225">
+               <lb ed="#Be" n="73"/>SED CONTRA :
+<lb ed="#Be" n="74"/>Ex talibus bene provocantur fumi et
+<lb ed="#Be" n="75"/>vapores ad cerebrum: ergo impediunt
+<lb ed="#Be" n="76"/>rationem a discretione et judicio debito
+<lb ed="#Be" n="77"/>huic cibo : ergo videtur, quod impediant
+<lb ed="#Be" n="78"/>a celebratione et communione.
+</p>
+            <p xml:id="alalal-g40205-d1e242">
+               <lb ed="#Be" n="79"/>Utrerius queritur de  potantibus
+<lb ed="#Be" n="80"/>aquam, utrum ipsi acelebratione et 
+com<lb break="no" ed="#Be" n="81"/>munione arceantur ?
+</p>
+            <p xml:id="alalal-g40205-d1e251">
+               <lb ed="#Be" n="82"/>Videtur quod non: quia
+<lb ed="#Be" n="83"/>1. Simpliciter aqua non nutrit: ergo
+<lb ed="#Be" n="84"/>jejunium non solvit, nec impedit 
+cele<lb break="no" ed="#Be" n="85"/>brationem. .
+</p>
+            <p xml:id="alalal-g40205-d1e262">
+               <lb ed="#Be" n="86"/>2. Item, Hoc dicunt quidam Doctores
+<lb ed="#Be" n="87"/>juris in suis apparatibus, quod non 
+im<lb break="no" ed="#Be" n="88"/>pediat a celebratione potus aque.
+</p>
+            <p xml:id="alalal-g40205-d1e271">
+               <lb ed="#Be" n="89"/>SED CONTRA :
+<lb ed="#Be" n="90"/>Licet aqua in quantum hujusmodi non
+<pb ed="#Be" n="203"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>nutriat, famen per actum humidi 
+vehicu<lb break="no" ed="#Be" n="2"/>lum est cibi: aut ergo vehit cibum 
+com<lb break="no" ed="#Be" n="3"/>mixta cibo, aut non. Si non commixta :
+<lb ed="#Be" n="4"/>ergo aqua pura flueret et reflueret ad
+<lb ed="#Be" n="5"/>membra, et super illam cibus, quod 
+fal<lb break="no" ed="#Be" n="6"/>sum est et absurdum : ergo vehit cibum
+<lb ed="#Be" n="7"/>commixta ei: commixta autem cibo 
+con<lb break="no" ed="#Be" n="8"/>vertitur ad membra et corpus 
+substantia<lb break="no" ed="#Be" n="9"/>liter : ergo aqua nutrit : ergo solvit 
+je<lb break="no" ed="#Be" n="10"/>junium, et impedit a celebratione et 
+com<lb break="no" ed="#Be" n="11"/>munione, ut videtur.
+</p>
+            <p xml:id="alalal-g40205-d1e306">
+               <lb ed="#Be" n="12"/>Soturio. Sine prejudicio sententiz
+<lb ed="#Be" n="13"/>majorum dicendum videtur mihi ad 
+pri<lb break="no" ed="#Be" n="14"/>mum, quod si aliquis habens ordinem
+<lb ed="#Be" n="15"/>et intentionem servando formam et 
+ma<lb break="no" ed="#Be" n="16"/>teriam hujus sacramenti, conficit post
+<lb ed="#Be" n="17"/>prandium quod confectum est: sed 
+pec<lb break="no" ed="#Be" n="18"/>cat mortaliter veniens contra Ecclesie
+<lb ed="#Be" n="19"/>Catholice et Apostolice institutionem.
+</p>
+            <p xml:id="alalal-g40205-d1e326">
+               <lb ed="#Be" n="20"/>Ad id autem quod contra objicitur,
+<lb ed="#Be" n="21"/>dicendum videtur, quod Apostolus dicit
+<lb ed="#Be" n="22"/>ibi, non est, id est, non debet: et non in
+<lb ed="#Be" n="23"/>eo sensu quod non esset si conficeretur.
+</p>
+            <p xml:id="alalal-g40205-d1e338">
+               <lb ed="#Be" n="24"/>Ad 1p autem quod ulterius queritur,
+<lb ed="#Be" n="25"/>dicendum quod meo judicio omnis cibus
+<lb ed="#Be" n="26"/>quem communiter et usualiter cibum 
+vo<lb break="no" ed="#Be" n="27"/>camus, hoc est, qui transit in ventrem,
+<lb ed="#Be" n="28"/>etsi non convertatur ad corpus, impedit
+<lb ed="#Be" n="29"/>celebrationem. .
+</p>
+            <p xml:id="alalal-g40205-d1e354">
+               <lb ed="#Be" n="30"/>Ad 1p quod contra objicitur, dicendum
+<lb ed="#Be" n="31"/>quod non est tantum institutum propter
+<lb ed="#Be" n="32"/>refectionem, quia refectio nullum malum
+<lb ed="#Be" n="33"/>est: sed etiam propter corporis vitium
+<lb ed="#Be" n="34"/>et anime turbationem, quae tanti -
+sacra<lb break="no" ed="#Be" n="35"/>menti perceptioni non congruit : corpus
+<lb ed="#Be" n="36"/>autem et vires anima magis quandoque
+<lb ed="#Be" n="37"/>turbantur in eo quod est medicina ct
+<lb ed="#Be" n="38"/>non cibus, quam in eo quod est cibus:
+<lb ed="#Be" n="39"/>et ideo post susceptionem talium non est
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="40"/>celebrandum sacramentum : infirmi 
+ta<lb break="no" ed="#Be" n="41"/>men quibus non est lex posita, possunt
+<lb ed="#Be" n="42"/>in hora necessitatis sumere, sive post
+<lb ed="#Be" n="43"/>prandium, sive ante prandium,
+</p>
+            <p xml:id="alalal-g40205-d1e389">
+               <lb ed="#Be" n="44"/>Ad Auiup dicendum, quod aliud est de
+<lb ed="#Be" n="45"/>jejunio: quia hoc fit ad corporis 
+affli<lb break="no" ed="#Be" n="46"/>ctionem : et ideo turbatio sensuum 
+jeju<lb break="no" ed="#Be" n="47"/>nio non contrariatur : et ideo conceditur
+<lb ed="#Be" n="48"/>a quibusdam, quod talia jejunium non
+<lb ed="#Be" n="49"/>solvant.
+</p>
+            <p xml:id="alalal-g40205-d1e405">
+               <lb ed="#Be" n="50"/>Ad 1p quod ulterius queritur de potu
+<lb ed="#Be" n="51"/>aque, dicendum mihi videtur, quod non
+<lb ed="#Be" n="52"/>est celebrandum post aque potum : quia
+<lb ed="#Be" n="53"/>materialiter etiam convertitur in cibum,
+<lb ed="#Be" n="54"/>et multiplicat fumos ad caput.
+</p>
+            <p xml:id="alalal-g40205-d1e418">
+               <lb ed="#Be" n="55"/>Ad 1p autem quod contra objicitur, 
+di<lb break="no" ed="#Be" n="56"/>cendum quod simplex aqua manens 
+sim<lb break="no" ed="#Be" n="57"/>plex, non nutrit : sed per calorem 
+dige<lb break="no" ed="#Be" n="58"/>stivum commiscetur cibo qui est in 
+sto<lb break="no" ed="#Be" n="59"/>macho: et tunc nutrit, sicut ostendunt
+<lb ed="#Be" n="60"/>opera rusticorum qui miscent eam fimo
+<lb ed="#Be" n="61"/>quando volunt irrigare plantas: et tunc,
+<lb ed="#Be" n="62"/>sicut Philosophus dicit, incipit sic 
+im<lb break="no" ed="#Be" n="63"/>mixta esse nutrimento. Et quod in plantis
+<lb ed="#Be" n="64"/>fit extra per artificium, in homine fit
+<lb ed="#Be" n="65"/>intra per naturam melius commiscentem.
+</p>
+            <p xml:id="alalal-g40205-d1e444">
+               <lb ed="#Be" n="66"/>Ad aliud dicendum, quod aliud est 
+je<lb break="no" ed="#Be" n="67"/>junium simplex, aliud jejunium solita
+<lb ed="#Be" n="68"/>reputatione Ecclesia : aqua enim absque
+<lb ed="#Be" n="69"/>dubio solvit jejunium simplex : sed quia
+<lb ed="#Be" n="70"/>juvamentum ejus est modicum, ideo ab
+<lb ed="#Be" n="71"/>Ecclesia non solvi jejunium ex potu aque
+<lb ed="#Be" n="72"/>reputatur. ,
+</p>
+            <p xml:id="alalal-g40205-d1e463">
+               <lb ed="#Be" n="73"/>Ad aliud dicendum, quod Jurisperiti
+<lb ed="#Be" n="74"/>non habent loqui de hoc, sed potius
+<lb ed="#Be" n="75"/>Physicus vel Medicus: sed Theologus
+<lb ed="#Be" n="76"/>hoc accipiens a Medico habet 
+determi<lb break="no" ed="#Be" n="77"/>nare, utrum conficiendum sit post potum
+<lb ed="#Be" n="78"/>aque vel non. oo
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

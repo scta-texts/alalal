@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 8</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 8</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="700"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-f36146"><!-- l3d37a8 -->
+            <head xml:id="alalal-f36146-Hd1e99">Articulus 8</head>
+            <head xml:id="alalal-f36146-Hd1e101" type="question-title">An potius dandum est mandatum filiis
+de honore parentum, quam parentibus
+de honore filiorum ?</head>
+            <p xml:id="alalal-f36146-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="6"/>ARTICULUS VIII.
+<lb ed="Bd" n="7"/>An potius dandum est mandatum filiis
+<lb ed="Bd" n="8"/>de honore parentum, quam parentibus
+<lb ed="Bd" n="9"/>de honore filiorum ?
+</p>
+            <p xml:id="alalal-f36146-d1e117">
+               <lb ed="Bd" n="10"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="Bd" n="11"/>C,§ 4: <quote xml:id="alalal-f36146-Qd1e123"> In secunda tabula septem
+<lb ed="Bd" n="12"/>erant mandata. </quote>
+            </p>
+            <p xml:id="alalal-f36146-d1e129">
+               <lb ed="Bd" n="13"/>Objicitur enim contra primum 
+man<lb break="no" ed="Bd" n="14"/>datum : quia videtur debere parentibus
+<lb ed="Bd" n="15"/>potius injungere curam filiorum, quam
+<lb ed="Bd" n="16"/>e converso, cum dicit Apostolus, IT ad
+<lb ed="Bd" n="17"/>Corinth. xu, 144: <quote xml:id="alalal-f36146-Qd1e142">Non enim debent filit
+<lb ed="Bd" n="18"/>parentibus thesaurirare, sed parentes 
+<lb ed="Bd" n="19"/>filii</quote>
+            </p>
+            <p xml:id="alalal-f36146-d1e151">
+               <lb ed="Bd" n="20"/>Item quaeritur,
+<lb ed="Bd" n="21"/>1.Cum nomine parentum intelligatur
+<lb ed="Bd" n="22"/>quilibet proximus ut dixit Augustinus,
+<lb ed="Bd" n="23"/>quare non potius posuit nomen proximi,
+<lb ed="Bd" n="24"/>quam nomen parentis, ut dixisset: 
+Ho<lb break="no" ed="Bd" n="25"/>nora proximum ?
+</p>
+            <p xml:id="alalal-f36146-d1e167">
+               <lb ed="Bd" n="26"/>2. Item, Cum in Aonore hic 
+intelliga<lb break="no" ed="Bd" n="27"/>tur debita reverentia, et procuratio 
+ne<lb break="no" ed="Bd" n="28"/>cessariorum, videtur quod potius debet
+<lb ed="Bd" n="29"/>dicere: Subveni proximo, quam, 
+Ho<lb break="no" ed="Bd" n="30"/>nora parentes.
+</p>
+            <p xml:id="alalal-f36146-d1e180">
+               <lb ed="Bd" n="31"/>Uxrerivs quaeritur de promissione quae
+<lb ed="Bd" n="32"/>fitin mandato, cum dicitur: Ué sis 
+lon<lb break="no" ed="Bd" n="33"/>gevus super terram. Aut enim 
+intelligi<lb break="no" ed="Bd" n="34"/>tur de longevitate vite illius, vel de 
+lon<lb break="no" ed="Bd" n="35"/>gevitate vite alterius. Si primo modo,
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="36"/>videtur habere instantiam : quia multi
+<lb ed="Bd" n="37"/>parentes honorant, qui propter hoc non
+<lb ed="Bd" n="38"/>sunt longevi super terram. Si secundo
+<lb ed="Bd" n="39"/>modo, tunc nihil videtur esse dictum:
+<lb ed="Bd" n="40"/>quia illa longeevitas non datur uni operi
+<lb ed="Bd" n="41"/>bono in specie, sed omnibus, vel cuilibet:
+<lb ed="Bd" n="42"/>et ita videtur, quod irrationabilis huic
+<lb ed="Bd" n="43"/>mandato talis fit promissio.
+</p>
+            <p xml:id="alalal-f36146-d1e213">
+               <lb ed="Bd" n="44"/>Solutio Dicendum, quod crescente
+<lb ed="Bd" n="45"/>virtute in filiis, decrescit virtus in 
+paren<lb break="no" ed="Bd" n="46"/>tibus secundum naturam, et decrescenti
+<lb ed="Bd" n="47"/>virtuti debetur subsidium: et ideo 
+Do<lb break="no" ed="Bd" n="48"/>minus precepit ut filii parentes 
+honora<lb break="no" ed="Bd" n="49"/>rent. EK converso autem non erat opus:
+<lb ed="Bd" n="50"/>quia natura illud cogit, eo quod status
+<lb ed="Bd" n="51"/>ascendit a radice in ramos, et non e 
+con<lb break="no" ed="Bd" n="52"/>verso.
+</p>
+            <p xml:id="alalal-f36146-d1e235">
+               <cb ed="#Bd" n="d"/>
+               <lb ed="Bd" n="53"/>Ad aliud dicendum, quod nomine 
+pa<lb break="no" ed="Bd" n="54"/>rentis intelligitur quilibet proximus, ut
+<lb ed="Bd" n="55"/>objectum est, et supra probatum est in
+<lb ed="Bd" n="56"/>questione de charitate: sed Dominus
+<lb ed="Bd" n="57"/>simulin uno praecepto affirmativo intendit
+<lb ed="Bd" n="58"/>et intimare charitatem proximi, et 
+ordi<lb break="no" ed="Bd" n="59"/>nem ejusdem. Ordo autem non 
+insinua<lb break="no" ed="Bd" n="60"/>retur per nomen prozimi, quia illud non
+<lb ed="Bd" n="61"/>exprimit nisi objectum charitatis : sed per
+<lb ed="Bd" n="62"/>nomen parentis insinuatur, quia illud
+<lb ed="Bd" n="63"/>exprimit et objectum dilectionis et 
+cha<lb break="no" ed="Bd" n="64"/>ritatis et gradus. Alia etiam ratio potest
+<lb ed="Bd" n="65"/>esse hec: quia charilas est perfectio 
+na<lb break="no" ed="Bd" n="66"/>ture : et ut hoc ostendatur, ponit ibi
+<lb ed="Bd" n="67"/>nomen, ad quod simul movetur natura
+<lb ed="Bd" n="68"/>et charitas. Sed prima ratio melior est.
+</p>
+            <p xml:id="alalal-f36146-d1e274">
+               <lb ed="Bd" n="69"/>Ad aliud dicendum, quod subvenire
+<lb ed="Bd" n="70"/>in necessariis non est generalis actus
+<lb ed="Bd" n="71"/>precepti : quia non tenet nisi in casu,
+<lb ed="Bd" n="72"/>scilicet si proximus indiget, et si nos
+<pb ed="#Bd" n="701"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>habemus facultatem : sed imago Dei 
+ho<lb break="no" ed="Bd" n="2"/>noranda invenitur in omni proximo, et
+<lb ed="Bd" n="3"/>ab omni proximo, et semper potest 
+exhi<lb break="no" ed="Bd" n="4"/>peri, et quilibet habet ad hunc actum 
+fa<lb break="no" ed="Bd" n="5"/>cultatem : et ideo potius posuit, Honora
+<lb ed="Bd" n="6"/>quam subveni : licet etiam subventionem
+<lb ed="Bd" n="7"/>intelligat in casu pro tempore et loco.
+</p>
+            <p xml:id="alalal-f36146-d1e306">
+               <lb ed="Bd" n="8"/>Et nota, quod de aliis de quibus hic
+<lb ed="Bd" n="9"/>potest queri,.quando scilicet, et ex quo
+<lb ed="Bd" n="10"/>debemus subvenire parenti, et in 
+qui<lb break="no" ed="Bd" n="11"/>bus preponere parentes aliis proximis,
+<lb ed="Bd" n="12"/>supra habitum est in queestione de 
+ordi<lb break="no" ed="Bd" n="13"/>ne charitatis: quia illa questio tota 
+ca<lb break="no" ed="Bd" n="14"/>dit sub isto mandato.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

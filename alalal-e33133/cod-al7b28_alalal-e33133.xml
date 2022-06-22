@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="172"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e33133"><!-- l3d9a3 -->
+            <head xml:id="alalal-e33133-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-e33133-Hd1e101" type="question-title">Latria cugus principalium virtutum sit
+species ?</head>
+            <p xml:id="alalal-e33133-d1e104">
+               <lb ed="Bd" n="35"/>ARTICULUS III.
+<lb ed="Bd" n="36"/>Latria cugus principalium virtutum sit
+<lb ed="Bd" n="37"/>species ?
+</p>
+            <p xml:id="alalal-e33133-d1e113">
+               <lb ed="Bd" n="38"/>Tertio quaeritur, cujus principalium
+<lb ed="Bd" n="39"/>virtutum est species ?
+<lb ed="Bd" n="40"/>Et videtur, quod fidei : quia
+<lb ed="Bd" n="41"/>1. Fides determinat Deum et 
+remune<lb break="no" ed="Bd" n="42"/>ratorem colendum. Dicit enim Aposto-
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="43"/>lus, ad Hebr. xi, 6 : <quote xml:id="alalal-e33133-Qd1e130">Credere oportet 
+ac<lb break="no" ed="Bd" n="44"/>cedentem ad Deum quia est, et 
+inguiren<lb break="no" ed="Bd" n="45"/>tibus se remunerator sit.</quote>
+            </p>
+            <p xml:id="alalal-e33133-d1e138">
+               <lb ed="Bd" n="46"/>2. Item, Videtur, quod prudentiae :
+<lb ed="Bd" n="47"/>quia prudentia invenit colendum.
+</p>
+            <p xml:id="alalal-e33133-d1e146">
+               <lb ed="Bd" n="48"/>SED VIDETUR, sicut omnes dicunt, quod
+<lb ed="Bd" n="49"/>sit justitia.
+</p>
+            <p xml:id="alalal-e33133-d1e153">
+               <lb ed="Bd" n="50"/>1. Cum enim dicitur cultus Deo debitus,
+<lb ed="Bd" n="51"/>in nomine debiti ratio justitia 
+determi<lb break="no" ed="Bd" n="52"/>natur : ergo latria est justitiae species.
+</p>
+            <p xml:id="alalal-e33133-d1e162">
+               <lb ed="Bd" n="53"/>2. Item, Justitia ordinat ad 
+superio<lb break="no" ed="Bd" n="54"/>rem : latria autem Deo superioriin 
+quau<lb break="no" ed="Bd" n="55"/>tum superior est, exhibetur: ergo 
+perti<lb break="no" ed="Bd" n="56"/>net ad justitiam.
+</p>
+            <p xml:id="alalal-e33133-d1e173">
+               <lb ed="Bd" n="57"/>SED CONTRA :
+<lb ed="Bd" n="58"/>Justitia reddit debitum, quia 
+debi<lb break="no" ed="Bd" n="59"/>tum ; cultus autem ex liberalitate 
+impen<lb break="no" ed="Bd" n="60"/>ditur, quia aliter nom esset meritorius :
+<lb ed="Bd" n="61"/>ergo videtur, quod non sit debitus: ergo
+<lb ed="Bd" n="62"/>non ordinatur sub justitia.
+</p>
+            <p xml:id="alalal-e33133-d1e189">
+               <lb ed="Bd" n="63"/>Solutio Dicendum cum Tullio, quod
+<lb ed="Bd" n="64"/>est pars justitia, et cadit in partem 
+ju<lb break="no" ed="Bd" n="65"/>slitia quae est religio : ita enim dicit 
+Tul<lb break="no" ed="Bd" n="66"/>lus in fine prime /?hetorice, ubi ponit
+<lb ed="Bd" n="67"/>religionem partem Justitia : quia religio
+<lb ed="Bd" n="68"/>est quae superiori cuidam nature quam
+<lb ed="Bd" n="69"/>divinam vocant curam cerimoniamque 
+af<lb break="no" ed="Bd" n="70"/>fert. Constat autem, quod ipse curam 
+vo<lb break="no" ed="Bd" n="71"/>cat rationem debitam, et cerimoniam 
+cul<lb break="no" ed="Bd" n="72"/>tum : quia cerimonia vel pietas est 
+mu<lb break="no" ed="Bd" n="73"/>nia Cereris, et transsumptum est ad aha
+<lb ed="Bd" n="74"/>obsequia deorum, in quibus colebantur.
+<lb ed="Bd" n="75"/>Hic autem sumitur ad cullum superioris
+<lb ed="Bd" n="76"/>natures quae divina est. Unde sub illa 
+lo<lb break="no" ed="Bd" n="77"/>catur latria: et si exhibetur idolo, crit
+<lb ed="Bd" n="78"/>idololatria.
+</p>
+            <p xml:id="alalal-e33133-d1e226">
+               <lb ed="Bd" n="79"/>DicenpuM ergo ad primum, quod licet
+<lb ed="Bd" n="80"/>fides ostendat quid colendum, tamen
+<lb ed="Bd" n="81"/>non movet ad colendum, ut proprius 
+ha<lb break="no" ed="Bd" n="82"/>bitus hujus actus: sed potius movet ad
+<lb ed="Bd" n="83"/>credendum.
+</p>
+            <p xml:id="alalal-e33133-d1e240">
+               <lb ed="Bd" n="84"/>Ad aliud dicendum, quod prudentia
+<lb ed="Bd" n="85"/>non attendit debitum, sed potius 
+ratio<lb break="no" ed="Bd" n="86"/>nem eligibilis ad opus. Dicit enim 
+Au<lb break="no" ed="Bd" n="87"/>gustinus in libro de Aloribus Ecclesiae,
+<lb ed="Bd" n="88"/>quod prudentia est amor ea a quibus 
+ad<lb break="no" ed="Bd" n="89"/>juvatur, ab his a quibus impeditur, sa-
+<pb ed="#Bd" n="173"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>gaciter eligens : et licet quandoque idem
+<lb ed="Bd" n="2"/>sit electum et opus et debitum, tamen
+<lb ed="Bd" n="3"/>alia ratio est eligibilis in quantum 
+hu<lb break="no" ed="Bd" n="4"/>jusmodi, et alia ratio debiti efiam in eo
+<lb ed="Bd" n="5"/>quod hujusmodi : et per illas rationes
+<lb ed="Bd" n="6"/>distinguuntur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

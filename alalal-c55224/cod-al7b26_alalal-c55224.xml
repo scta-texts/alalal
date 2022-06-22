@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="294"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c55224"><!-- l1d39a2 -->
+            <head xml:id="alalal-c55224-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-c55224-Hd1e101" type="question-title">An Deus simul et eodem sciat et 
+intelligat multa ?</head>
+            <p xml:id="alalal-c55224-d1e104">
+               <lb ed="#Bb" n="13"/>ARTICULUS II.
+<lb ed="#Bb" n="14"/>An Deus simul et eodem sciat et 
+intel<lb break="no" ed="#Bb" n="15"/>ligat multa ?
+</p>
+            <p xml:id="alalal-c55224-d1e113">
+               <lb ed="#Bb" n="16"/>Deinde queritur de hoc quod dicit,
+    <lb ed="#Bb" n="17"/>ibi, A, circa medium : <quote xml:id="alalal-c55224-Qd1e119"> Unusquisque
+<lb ed="#Bb" n="18"/>eorum simul videt, etc. </quote>
+            </p>
+            <p xml:id="alalal-c55224-d1e125">
+               <lb ed="#Bb" n="19"/>Ex his videntur sequi duo, scilicet
+<lb ed="#Bb" n="20"/>quod simul et eodem sciat Deus multa
+<lb ed="#Bb" n="21"/>et intelligat multa, et quod ipse sciat
+<lb ed="#Bb" n="22"/>mutabilia immutabiliter.
+</p>
+            <p xml:id="alalal-c55224-d1e137">
+               <lb ed="#Bb" n="23"/>Contra primum objicitur sic :
+<lb ed="#Bb" n="24"/>1. Dicit Philosophus : Scire plura 
+pos<lb break="no" ed="#Bb" n="25"/>sumus, intelligere vero minime: ergo
+<lb ed="#Bb" n="26"/>videtur, quod unus intellectus secundum
+<lb ed="#Bb" n="27"/>actum non sit nisi unius.
+</p>
+            <p xml:id="alalal-c55224-d1e150">
+               <lb ed="#Bb" n="28"/>2. Item, Impossibile est unum actum
+<lb ed="#Bb" n="29"/>ad diversos terminos simul et semel 
+ter<lb break="no" ed="#Bb" n="30"/>minari : sed intelligere est actus unus :
+<lb ed="#Bb" n="31"/>ergo simul et semel terminari non 
+pot<lb break="no" ed="#Bb" n="32"/>est ad diversos terminos. Nec videtur
+<lb ed="#Bb" n="33"/>hoc etiam intelligi posse : quia nihil 
+si<lb break="no" ed="#Bb" n="34"/>milium invenitur : una enim linea in
+<lb ed="#Bb" n="35"/>una parte non potest terminari ad 
+di<lb break="no" ed="#Bb" n="36"/>versa puncta: ergo nec potest intelligi,
+<lb ed="#Bb" n="37"/>qualiter possibile sit fieri : ergo videtur,
+<lb ed="#Bb" n="38"/>quod necessarium sit intellectum 
+trans<lb break="no" ed="#Bb" n="39"/>ire inde huc et hine illuc, cujus 
+con<lb break="no" ed="#Bb" n="40"/>trarium dicitur in Litéera.
+</p>
+            <p xml:id="alalal-c55224-d1e181">
+               <lb ed="#Bb" n="41"/>SED CONTRA :
+<lb ed="#Bb" n="42"/>Jacob. 1,17, dicitur, Apud quem non
+<cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" n="43"/>esl transmutatio, nec vicissitudinis 
+ob<lb break="no" ed="#Bb" n="44"/>umbratio : ergo nulla vicissitudo est in
+<lb ed="#Bb" n="45"/>intellectu Dei, nec potest esse: ergo
+<lb ed="#Bb" n="46"/>intelligit uno et eodem maulta et simul ''
+<lb ed="#Bb" n="47"/>et secundum actum : quia supra 
+proba<lb break="no" ed="#Bb" n="48"/>tum est, quod suus intellectus est 
+sem<lb break="no" ed="#Bb" n="49"/>per in actu.
+</p>
+            <p xml:id="alalal-c55224-d1e205">
+               <lb ed="#Bb" n="50"/>Solutio. Dicendum, quod nullus 
+trans<lb break="no" ed="#Bb" n="51"/>itus est in intellectu Dei, sicut probat
+<lb ed="#Bb" n="52"/>ultima ratio: sed se intelligit uno et
+<lb ed="#Bb" n="53"/>eodem modo habente esse quod est et
+<lb ed="#Bb" n="54"/>simul.
+</p>
+            <p xml:id="alalal-c55224-d1e218">
+               <lb ed="#Bb" n="55"/>Ad primum et secundum objecta, di- ;
+<lb ed="#Bb" n="56"/>cendum quod hoc verum est in 
+omni<lb break="no" ed="#Bb" n="57"/>bus illis in quibus actus differunt ab
+<lb ed="#Bb" n="58"/>essentia agentis : sed non ita in Deo:
+<lb ed="#Bb" n="59"/>unde suus actus qui est intelligere, est
+<lb ed="#Bb" n="60"/>essentia sua: et sicut sua essentia est
+<lb ed="#Bb" n="61"/>species et causa omnium, uno modo se
+<lb ed="#Bb" n="62"/>habens, ita etiam suus actus : et ideo
+<lb ed="#Bb" n="63"/>non valent similia inducta : sed tamen
+<lb ed="#Bb" n="64"/>illud est expressius de centro et lineis
+<lb ed="#Bb" n="65"/>egredientibus ab ipso, sicut supra 
+ex<lb break="no" ed="#Bb" n="66"/>posuimus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

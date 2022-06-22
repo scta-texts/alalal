@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="139"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e27160"><!-- l3d6et2 -->
+            <head xml:id="alalal-e27160-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-e27160-d1e101">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="14"/>Expositio Textus.
+</p>
+            <p xml:id="alalal-e27160-d1e108">
+               <lb ed="Bd" n="15"/>
+               <quote xml:id="alalal-e27160-Qd1e112"> Sunt etiam alii, qui in 
+incarnatio<lb break="no" ed="Bd" n="16"/>ne, etc. </quote>
+            </p>
+            <p xml:id="alalal-e27160-d1e118">
+               <lb ed="Bd" n="17"/>Hee est tertia opinio, quae jam non
+<lb ed="Bd" n="18"/>est opinio, sed error manifestus et 
+con<lb break="no" ed="Bd" n="19"/>demnatus per Papam Alexandrum.
+</p>
+            <p xml:id="alalal-e27160-d1e127">
+               <lb ed="Bd" n="20"/>Et dividitur tractatus illius erroris in
+<lb ed="Bd" n="21"/>duas partes, sicut et praecedentium 
+opi<lb break="no" ed="Bd" n="22"/>nionum. Primo enim ponit capitulum in
+<lb ed="Bd" n="23"/>quo sunt due positiones. Secundo, 
+indu<lb break="no" ed="Bd" n="24"/>cuntur auctoritates quae videntur hoc 
+di<lb break="no" ed="Bd" n="25"/>cere, licet non dicant.
+</p>
+            <p xml:id="alalal-e27160-d1e144">
+               <lb ed="Bd" n="26"/>Ex primo capitulo trahunt septem 
+po<lb break="no" ed="Bd" n="27"/>sitiones hujus erroris, quae omnes false
+<lb ed="Bd" n="28"/>sunt. Prima est, quod cum duplex sit
+<lb ed="Bd" n="29"/>unio naturalis, scilicet anime ad 
+car<lb break="no" ed="Bd" n="30"/>nem, et carnis et anime cum deitate,
+<lb ed="Bd" n="31"/>quod in Christo neutra illarum  fecit
+<lb ed="Bd" n="32"/>unum aliquod : nec enim anima et caro
+<lb ed="Bd" n="33"/>fecerunt unum hominem unita, nec 
+na<lb break="no" ed="Bd" n="34"/>tura hominis et Filius Dei fecerunt unam
+<lb ed="Bd" n="35"/>personam unita : et hoc est in principio
+<lb ed="Bd" n="36"/>capituli, ibi, F, <quote xml:id="alalal-e27160-Qd1e170"> Sunt etiam alii, gui in
+<lb ed="Bd" n="37"/>incarnatione Verbi, etc. </quote>
+            </p>
+            <p xml:id="alalal-e27160-d1e176">
+               <cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="38"/>Secunda positio est, quod his duobus
+<lb ed="Bd" n="39"/>secundum veritatem acceptis non est
+<lb ed="Bd" n="40"/>usus Christus ut unum sibi faceret, sed
+<lb ed="Bd" n="41"/>potius ut indumento, ut mortalium oculis
+<lb ed="Bd" n="42"/>visibilis in eis appareret : et hac 
+accipi<lb break="no" ed="Bd" n="43"/>tur, ibi, <quote xml:id="alalal-e27160-Qd1e193"> Zlla duo, scilicef animam et
+<lb ed="Bd" n="44"/>carnem, Verbi persone vel nature unita
+<lb ed="Bd" n="45"/>esse atunt. </quote>
+            </p>
+            <p xml:id="alalal-e27160-d1e201">
+               <lb ed="Bd" n="46"/>Tertia est, quod non est unum factus
+<lb ed="Bd" n="47"/>cum homine in veritate : sed ideo vere
+<lb ed="Bd" n="48"/>factus dicitur, licet non sit vere homo :
+<lb ed="Bd" n="49"/>quia veram carnem et animam pro 
+in<lb break="no" ed="Bd" n="50"/>dumento accepit : et haec extrahitur ab
+<lb ed="Bd" n="51"/>illo : <quote xml:id="alalal-e27160-Qd1e216"> Qui ideo dicitur factus verus 
+ho<lb break="no" ed="Bd" n="52"/>mo, etc. </quote>
+            </p>
+            <p xml:id="alalal-e27160-d1e222">
+               <lb ed="Bd" n="53"/>Quarta est, quod haec non in singula—
+<lb ed="Bd" n="54"/>ritatem vel aliquid ex eis constitutum
+<lb ed="Bd" n="55"/>accepit : sed dicitur accepisse, quia illis
+<lb ed="Bd" n="56"/>duobus pro indumento acceptis non est
+<lb ed="Bd" n="57"/>auctus numerus personarum : et hec
+<lb ed="Bd" n="58"/>trahitur inde: <quote xml:id="alalal-e27160-Qd1e237"> Quae duo etiam in 
+sin<lb break="no" ed="Bd" n="59"/>gularitatem, ete. </quote>
+            </p>
+            <p xml:id="alalal-e27160-d1e243">
+               <lb ed="Bd" n="60"/>Quinta est, quod persona nulla 
+com<lb break="no" ed="Bd" n="61"/>positione facta est composita : non enim
+<lb ed="Bd" n="62"/>haec sibi univit : sed dicitur facta 
+com<lb break="no" ed="Bd" n="63"/>posita, quia usum hujus indumenti 
+ac<lb break="no" ed="Bd" n="64"/>cepit : et hac accipitur, ibi, <quote xml:id="alalal-e27160-Qd1e256"> &amp;¢ guia
+<lb ed="Bd" n="65"/>ipsa persona Verbi, quae prius erai sine
+<lb ed="Bd" n="66"/>indumento, etc. </quote>
+            </p>
+            <p xml:id="alalal-e27160-d1e264">
+               <pb ed="#Bd" n="140"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Sexta est, quod Deus non 
+essentiali<lb break="no" ed="Bd" n="2"/>ter, hoc est, secundum esse, factus est
+<lb ed="Bd" n="3"/>homo, vel Filius Dei homo dicitur, sed
+<lb ed="Bd" n="4"/>secundum habitum hominis : et hec
+<lb ed="Bd" n="5"/>inde elicitur : <quote xml:id="alalal-e27160-Qd1e281"> Accipiendo enim 
+homi<lb break="no" ed="Bd" n="6"/>nem dictus est Deus, etc., </quote> et vocant
+<lb ed="Bd" n="7"/>esse hominem habere humanam 
+natu<lb break="no" ed="Bd" n="8"/>ram, non quod unione anime et carnis
+<lb ed="Bd" n="9"/>factus sit ex illa natura homo, sicut 
+pa<lb break="no" ed="Bd" n="10"/>tet in secunda opinione.
+</p>
+            <p xml:id="alalal-e27160-d1e297">
+               <lb ed="Bd" n="11"/>Septima et ultima est causa dicti sui:
+<lb ed="Bd" n="12"/>quia videtur eis inconveniens ut Deus
+<lb ed="Bd" n="13"/>secundum esse creature possit uniri :
+<lb ed="Bd" n="14"/>quia si esset infirmiori creature unitus,
+<lb ed="Bd" n="15"/>tunc sequeretur, quod ipse secundum
+<lb ed="Bd" n="16"/>esse esset illa creatura: et dant 
+exem<lb break="no" ed="Bd" n="17"/>plum de sexu muliebri : et haec accipitur
+<lb ed="Bd" n="18"/>in fine capituli, ibi, <quote xml:id="alalal-e27160-Qd1e316"> Nam si 
+essentiali<lb break="no" ed="Bd" n="19"/>ter, inquiunt illi,.Deus est homo, etc. </quote>
+            </p>
+            <p xml:id="alalal-e27160-d1e322">
+               <lb ed="Bd" n="20"/>Ex his dictis ulterius duae positiones
+<lb ed="Bd" n="21"/>aliae sequuntur : quarum prima _ est,
+<lb ed="Bd" n="22"/>quod hoc sit dici Christum esse 
+homi<lb break="no" ed="Bd" n="23"/>nem, quod est habere humanam naturam
+<lb ed="Bd" n="24"/>non unitam. Da enim, quod unitam :
+<lb ed="Bd" n="25"/>hoe erit contra positionem primam. 
+Si<lb break="no" ed="Bd" n="26"/>militer da, quod essentialiter : hoc erit
+<lb ed="Bd" n="27"/>contra positionem septimam. Ergo 
+relin<lb break="no" ed="Bd" n="28"/>quitur ipsum dici hominem, eo quod
+<lb ed="Bd" n="29"/>veram naturam humanam non unitam
+<lb ed="Bd" n="30"/>unione naturali haberet. Secunda est,
+<lb ed="Bd" n="31"/>quod quia in triduo hac non unita 
+ha<lb break="no" ed="Bd" n="32"/>buit, quod in triduo fuerit homo: et
+<lb ed="Bd" n="33"/>propter hoc ultimum, quia Magister hoc
+<lb ed="Bd" n="34"/>infra concedit, inculpatur Magister, quod
+<lb ed="Bd" n="35"/>fuerit de hac opinione. ;
+</p>
+            <p xml:id="alalal-e27160-d1e359">
+               <lb ed="Bd" n="36"/>Qua vero iste error novellus est, et
+<lb ed="Bd" n="37"/>nullus contra eum disputavit : nos 
+pone<lb break="no" ed="Bd" n="38"/>mus aliquas rationes contra positiones
+<lb ed="Bd" n="39"/>istas.
+</p>
+            <p xml:id="alalal-e27160-d1e370">
+               <lb ed="Bd" n="40"/>Sunt autem tres conrrRA PRIMAM : quia
+<lb ed="Bd" n="41"/>corpus hominis non sentit nec vivit vita
+<lb ed="Bd" n="42"/>nature, per hoc quod conjungitur 
+ani<lb break="no" ed="Bd" n="43"/>me quacumque conjunctione : sed per
+<lb ed="Bd" n="44"/>hoc quod conjungitur ei ut perfectioni
+<lb ed="Bd" n="45"/>et actui: aut igitur Christi corpus nec
+<lb ed="Bd" n="46"/>sentiit, nec vixit vita naturali et naturali
+<lb ed="Bd" n="47"/>sensu : aut oportuit, qued corpori esset
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="48"/>unita anima ut actus potentiae vel 
+mate<lb break="no" ed="Bd" n="49"/>riae proprie.
+</p>
+            <p xml:id="alalal-e27160-d1e396">
+               <lb ed="Bd" n="50"/>Inde sic proceditur : Quecumque duo
+<lb ed="Bd" n="51"/>naturali conjunctione conjunguutur ut
+<lb ed="Bd" n="52"/>materia et forma, constituunt tertium
+<lb ed="Bd" n="53"/>quod neutrum illorum est : anima 
+Chri<lb break="no" ed="Bd" n="54"/>sti et corpus, ut probatum est, sic 
+con<lb break="no" ed="Bd" n="55"/>junguntur : ergo constituunt tertium
+<lb ed="Bd" n="56"/>quod neutrum illorum est: hoc autem
+<lb ed="Bd" n="57"/>non est nisi homo: ergo constituunt hunc
+<lb ed="Bd" n="58"/>hominem, quod prima positio negat.
+</p>
+            <p xml:id="alalal-e27160-d1e418">
+               <lb ed="Bd" n="59"/>Item, Haec positio est expresse 
+here<lb break="no" ed="Bd" n="60"/>sis Pelagii. Unde Cassianus in sexto 
+con<lb break="no" ed="Bd" n="61"/>tra Nestorium : <quote xml:id="alalal-e27160-Qd1e426"> Pelagiane heresis
+<lb ed="Bd" n="62"/>scelus solitarium hominem ex Virgine
+<lb ed="Bd" n="63"/>natum asserens, eruditorem tamen dixit
+<lb ed="Bd" n="64"/>humani generis magis quam 
+redempto<lb break="no" ed="Bd" n="65"/>rem fuisse : quia non redemptionem 
+ho<lb break="no" ed="Bd" n="66"/>minibus, sed vivendi dedit exemplum.
+<lb ed="Bd" n="67"/>Si igitur nulla unio facta est ad Verbum,
+<lb ed="Bd" n="68"/>sed tantum oculis sic apparuit, necesse
+<lb ed="Bd" n="69"/>est quod Virgo solum hominem genuerit
+<lb ed="Bd" n="70"/>vel minus quam hominem, si tantum
+<lb ed="Bd" n="71"/>genuit partem hominis quae est corpus. </quote>
+            </p>
+            <p xml:id="alalal-e27160-d1e452">
+               <lb ed="Bd" n="72"/>Item, tertio : quia ex hoc sequitur,
+<lb ed="Bd" n="73"/>quod Christus numquam fuerit homo,
+<lb ed="Bd" n="74"/>sicut natura humana quae est corpus
+<lb ed="Bd" n="75"/>numquam fuit, nec est, nec erit homo.
+<lb ed="Bd" n="76"/>Filius Dei numquam habuit nisi naturam
+<lb ed="Bd" n="77"/>sine duplici unione de qua dictum est :
+<lb ed="Bd" n="78"/>ergo Christus numquam vere fuit homo:
+<lb ed="Bd" n="79"/>patet ergo, quod prima posirio falsa est.
+</p>
+            <p xml:id="alalal-e27160-d1e472">
+               <lb ed="Bd" n="80"/>Secunda probatur falsa hoc modo:
+</p>
+            <p xml:id="alalal-e27160-d1e477">
+               <lb ed="Bd" n="81"/>Si his duobus secundum veritatem 
+ac<lb break="no" ed="Bd" n="82"/>ceptis usus est tantum, ut mortalium
+<lb ed="Bd" n="83"/>oculis appareret : tune et hoc quod 
+ocu<lb break="no" ed="Bd" n="84"/>lis mortalium non appareret superflue
+<lb ed="Bd" n="85"/>utebatur : sed anima mortalium oculis
+<lb ed="Bd" n="86"/>non apparet : ergo ipsam superflue 
+as<lb break="no" ed="Bd" n="87"/>sumpsit.
+</p>
+            <p xml:id="alalal-e27160-d1e495">
+               <lb ed="Bd" n="88"/>Item, Quidquid assumitur sine unione
+<lb ed="Bd" n="89"/>ad assumentem, peracto officio propter
+<lb ed="Bd" n="90"/>quod assumitur, deponitur : et hc 
+pro<lb break="no" ed="Bd" n="91"/>batur et de columba in qua apparuit
+<lb ed="Bd" n="92"/>Spiritus sanctus, et per vocem in qua
+<lb ed="Bd" n="93"/>apparuit Pater, et per omnes 
+creatu<lb break="no" ed="Bd" n="94"/>ras assumptas in apparitionibus Veteris
+<lb ed="Bd" n="95"/>Testamenti : ergo si Filius Dei 
+ma<lb break="no" ed="Bd" n="96"/>nens naturam talem assumpsit tantum
+<pb ed="#Bd" n="141"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>ad apparitionem, peracta apparitione 
+de<lb break="no" ed="Bd" n="2"/>posuit : ergo ineadem natura quam 
+as<lb break="no" ed="Bd" n="3"/>sumpsit non resurrexit : hoc autem qui
+<lb ed="Bd" n="4"/>dicit et sentit, ab Augustino in 
+expositro<lb break="no" ed="Bd" n="5"/>ne concilii anathematizalur : ergo hoc
+<lb ed="Bd" n="6"/>etiam est heresis.
+</p>
+            <p xml:id="alalal-e27160-d1e534">
+               <lb ed="Bd" n="7"/>CONTRA TERTIAM SIC :
+<lb ed="Bd" n="8"/>Christus non est natus nec passus nisi
+<lb ed="Bd" n="9"/>ex unione. Aut ex unione cum natura,
+<lb ed="Bd" n="10"/>aut cum hypostasi nature humane. Non
+<lb ed="Bd" n="11"/>ex unione cum natura : quia natura 
+ma<lb break="no" ed="Bd" n="12"/>net distincta, et natura divina nec nata
+<lb ed="Bd" n="13"/>est, nec passa est. Si ergo essentialiter
+<lb ed="Bd" n="14"/>non est unitus in hypostasi, ipse nullo
+<lb ed="Bd" n="15"/>modo essentialiter vere est passus, nec
+<lb ed="Bd" n="16"/>natus, nec aliquid aliorum.
+</p>
+            <p xml:id="alalal-e27160-d1e558">
+               <lb ed="Bd" n="17"/>CONTRA QUARTAM :
+<lb ed="Bd" n="18"/>Dei Filius non accepit naturam hanc
+<lb ed="Bd" n="19"/>in singularitatem nature nec persone,
+<lb ed="Bd" n="20"/>ut dicit ista positio : ergo assumptum
+<lb ed="Bd" n="21"/>nullam habuit singularitatem cum 
+assu<lb break="no" ed="Bd" n="22"/>mente : ergo nullo modo cum eo fuit
+<lb ed="Bd" n="23"/>unum : ergo quod dicitur de uno, non
+<lb ed="Bd" n="24"/>dicitur de alio : et hoc est contra 
+Augu<lb break="no" ed="Bd" n="25"/>stinum. Et eodem modo leve est contra
+<lb ed="Bd" n="26"/>alios disputare qui cum illis conveniunt.
+</p>
+            <p xml:id="alalal-e27160-d1e583">
+               <lb ed="Bd" n="27"/>Auctoritates autem inducte pro hac 
+opi<lb break="no" ed="Bd" n="28"/>nione etiam non videntur aliquid facere
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="29"/>nisi in duobus locis, scilicet ubi adaptat
+<lb ed="Bd" n="30"/>Augustinus quartum genus habitus, et
+<lb ed="Bd" n="31"/>dicit quod accidit vel accedit, quod 
+m<lb break="no" ed="Bd" n="32"/>ventus est ut homo non sibi, sed ab 
+ho<lb break="no" ed="Bd" n="33"/>minibus : sed haec explanat Augustinus,
+<lb ed="Bd" n="34"/>quia facit vim in hoc quod est inventus :
+<lb ed="Bd" n="35"/>non enim se invenit, licet vere homo
+<lb ed="Bd" n="36"/>fuerit, quia semper sibi notus fuit : sed
+<lb ed="Bd" n="37"/>alii cognoscentes eum invenerunt in 
+hu<lb break="no" ed="Bd" n="38"/>manis conversari. Et dicit Augustinus,
+<lb ed="Bd" n="39"/>quod accidit hoc in simili inducto : non
+<lb ed="Bd" n="40"/>tamen accidit Christo humana natura, 
+li<lb break="no" ed="Bd" n="41"/>cet quidam dicant eam vergi in accidens :
+<lb ed="Bd" n="42"/>sed haec ego non presumo dicere de 
+ve<lb break="no" ed="Bd" n="43"/>ritate incarnationis. Secundum est in
+<lb ed="Bd" n="44"/>medio ejusdem capituli G, ubi dicit,
+<lb ed="Bd" n="45"/>
+               <quote xml:id="alalal-e27160-Qd1e628"> Non ergo oportet intelligi mutatum
+<lb ed="Bd" n="46"/>esse Verbum, etc. </quote> Sed etiam omnis
+<lb ed="Bd" n="47"/>homo confitetur, quod Verbum non est
+<lb ed="Bd" n="48"/>mutatum, sicut supra dictum est: sed
+<lb ed="Bd" n="49"/>hoc quod dicit ut habitum assumpsisse,
+<lb ed="Bd" n="50"/>Augustinus corrigit id in quo simile non
+<lb ed="Bd" n="51"/>sufficiens est, cum dicit :<quote xml:id="alalal-e27160-Qd1e644"> Quamvis illa
+<lb ed="Bd" n="52"/>susceptio ineffabiliter susceptum 
+susci<lb break="no" ed="Bd" n="53"/>pientt copularet, id est, uniret. </quote>
+            </p>
+            <p xml:id="alalal-e27160-d1e652">
+               <lb ed="Bd" n="54"/>Ex his possunt etiam alia plane 
+glos<lb break="no" ed="Bd" n="55"/>sari.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 7</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 7</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-al7b26">Paris 1894, v. 26</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="351"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-c66658"><!-- l1d41a7 -->
+            <head xml:id="alalal-c66658-Hd1e99">Articulus 7</head>
+            <head xml:id="alalal-c66658-Hd1e101" type="question-title">Utrum enuntiabilia semper sint vera ?</head>
+            <p xml:id="alalal-c66658-d1e104">
+               <lb ed="#Bb" n="40"/>ARTICULUS VI.
+<lb ed="#Bb" n="41"/>Utrum enuntiabilia semper sint vera ?
+</p>
+            <p xml:id="alalal-c66658-d1e111">
+               <lb ed="#Bb" n="42"/>Secundo queritur, Utrum enuntiabilia
+<lb ed="#Bb" n="43"/>semper sint vera?
+</p>
+            <p xml:id="alalal-c66658-d1e118">
+               <lb ed="#Bb" n="44"/>Videtur, quod non: quia
+<lb ed="#Bb" n="45"/>1. Ex eo quod res est vel non est, 
+ora<lb break="no" ed="#Bb" n="46"/>tio vera vel falsa est: ergo non semper
+<lb ed="#Bb" n="47"/>est vera propositio, vel enuntiabile, quod
+<lb ed="#Bb" n="48"/>aliquando est verum.
+</p>
+            <p xml:id="alalal-c66658-d1e132">
+               <lb ed="#Bb" n="49"/>2. Item, Secundum hoc nihil diceret
+<lb ed="#Bb" n="50"/>Aristoteles, quando dicit orationem 
+se<lb break="no" ed="#Bb" n="51"/>cundum rei mutationem susceptbilem
+<lb ed="#Bb" n="52"/>esse contrariorum.
+</p>
+            <p xml:id="alalal-c66658-d1e143">
+               <lb ed="#Bb" n="53"/>Sed rationes Anselmi sunt contra hoc.
+<lb ed="#Bb" n="54"/>Est enim veritas, rectitudo sola mente
+<lb ed="#Bb" n="55"/>perceptibilis, scilicet quando res facit
+<lb ed="#Bb" n="56"/>hoe, quod ut faciat accepit a prima 
+veri<lb break="no" ed="#Bb" n="57"/>tate : utsignum me sedere, sive quod ego
+<lb ed="#Bb" n="58"/>sedeo, hoc significat, sive ego sedeam,
+<lb ed="#Bb" n="59"/>sive non: ergo videtur, quod 
+quocum<lb break="no" ed="#Bb" n="60"/>que modo varietur res, ipsum semper
+<lb ed="#Bb" n="61"/>in significando servat rectitudinem sola
+<lb ed="#Bb" n="62"/>mente perceptibilem : ergo semper 
+ser<lb break="no" ed="#Bb" n="63"/>vat veritatem : ergo quod semel est 
+ve<lb break="no" ed="#Bb" n="64"/>rum, semper est verum, quia eadem 
+ra<lb break="no" ed="#Bb" n="65"/>tio est de omnibus aliis.
+</p>
+            <p xml:id="alalal-c66658-d1e174">
+               <lb ed="#Bb" n="66"/>SoLutio. Secundum Anselmum 
+opor<lb break="no" ed="#Bb" n="67"/>tet distinguere, quod in signis est 
+du<lb break="no" ed="#Bb" n="68"/>plex rectitudo, scilicet facere hoc, quod
+<lb ed="#Bb" n="69"/>ut faciat accepit a prima veritate, et 
+fa<lb break="no" ed="#Bb" n="70"/>cere hoc propter quod illud accepit a
+<lb ed="#Bb" n="71"/>prima veritate: sicut hac oratio, me 
+se<lb break="no" ed="#Bb" n="72"/>dere, accepit a prima veritate, ut 
+signi<lb break="no" ed="#Bb" n="73"/>ficet me sedere, sive sedeam, sive non:
+<lb ed="#Bb" n="74"/>et accepit propter hoc, ut significet me
+<lb ed="#Bb" n="75"/>sedere, dum sedeo: et non significet,
+<lb ed="#Bb" n="76"/>dum non sedeo : quia quodlibet signum
+<lb ed="#Bb" n="77"/>accepit significare propter hoc, ut 
+signi<lb break="no" ed="#Bb" n="78"/>ficet quod est esse, et quod non est, non
+<lb ed="#Bb" n="79"/>esse . et non quod significet esse quod
+<lb ed="#Bb" n="80"/>non est, vel e converso,
+</p>
+            <p xml:id="alalal-c66658-d1e209">
+               <lb ed="#Bb" n="81"/>Dicendum ergo, quod prima veritas est
+<lb ed="#Bb" n="82"/>in signo, secundum rectitudinem quam
+<lb ed="#Bb" n="83"/>habet in significando: sed secunda est
+<lb ed="#Bb" n="84"/>in ipso, secundum quod equatur ei res
+<lb ed="#Bb" n="85"/>significata: et sic in secunda supponitur
+<lb ed="#Bb" n="86"/>duplex rectitudo, scilicet signi, et rei :
+<lb ed="#Bb" n="87"/>in prima autem tantum altera. Primam
+<lb ed="#Bb" n="88"/>autem habet signum in eo quod signum
+<lb ed="#Bb" n="89"/>est : et ideo illa inseparabilis est ab ipso.
+<lb ed="#Bb" n="90"/>Secundam autem habet, in quantum 
+ada<lb break="no" ed="#Bb" n="91"/>quatum est re cujus signum est; et ideo
+<pb ed="#Bb" n="352"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" n="1"/>illa mutabilis, sicut res efficitur : tamen
+<lb ed="#Bb" n="2"/>secundum Anselmum qui subtiliter 
+con<lb break="no" ed="#Bb" n="3"/>siderat, curvitas magis est ex defectu rei,
+<lb ed="#Bb" n="4"/>quam signi: et ideo dicit Anselmus,
+<lb ed="#Bb" n="5"/>quod veritas est inseparabilis a signo:
+<lb ed="#Bb" n="6"/>sicut comburere vel calefacere est 
+inse<lb break="no" ed="#Bb" n="7"/>parabile ab igne.
+</p>
+            <p xml:id="alalal-c66658-d1e255">
+               <lb ed="#Bb" n="8"/>His habitis, planum est respondere ad
+<lb ed="#Bb" n="9"/>objecta.
+</p>
+            <p xml:id="alalal-c66658-d1e262">
+               <lb ed="#Bb" n="10"/>Ad prima enim duo dicendum, quod
+<lb ed="#Bb" n="11"/>procedunt de secunda veritate quae 
+cau<lb break="no" ed="#Bb" n="12"/>satur a re adequata cum signo, et bene
+<lb ed="#Bb" n="13"/>conceditur, quod illa mutabilis est.
+</p>
+            <p xml:id="alalal-c66658-d1e274">
+               <lb ed="#Bb" n="14"/>Ad Ea quae in contrarium objiciuntur,
+<lb ed="#Bb" n="15"/>dicendum quod omnia procedunt 
+secun<lb break="no" ed="#Bb" n="16"/>dum primo modo dictam veritatem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

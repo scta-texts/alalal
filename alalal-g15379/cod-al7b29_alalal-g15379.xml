@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="80"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g15379"><!-- l4d4a1 -->
+            <head xml:id="alalal-g15379-Hd1e99">Articulus 1</head>
+            <head xml:id="alalal-g15379-Hd1e101" type="question-title">An in parvulis qui recipiunt rem et 
+sacramentum, sit aequalis effectus 
+baptismi ?</head>
+            <p xml:id="alalal-g15379-d1e104">
+               <lb ed="#Be" n="25"/>ARTICULUS I.
+<lb ed="#Be" n="26"/>An in parvulis qui recipiunt rem et 
+sa<lb break="no" ed="#Be" n="27"/>cramentum, sit aequalis effectus 
+bap<lb break="no" ed="#Be" n="28"/>tismi ?
+</p>
+            <p xml:id="alalal-g15379-d1e115">
+               <lb ed="#Be" n="29"/>Queritur tamen primo circa primam
+<lb ed="#Be" n="30"/>partem questionis, Utrum in parvulis
+<lb ed="#Be" n="31"/>qui recipiunt rem et sacramentum, sit 
+ef<lb break="no" ed="#Be" n="32"/>fectus baptismi aequalis ?
+</p>
+            <p xml:id="alalal-g15379-d1e126">
+               <lb ed="#Be" n="33"/>Et videtur quod sic : quia
+<lb ed="#Be" n="34"/>1. Dicit Philosophus, <quote xml:id="alalal-g15379-Qd1e132"> Causa una 
+eo<lb break="no" ed="#Be" n="35"/>dem modo se habens, facit unum : </quote> sed
+<lb ed="#Be" n="36"/>baptismus est causa una, et eodem modo
+<lb ed="#Be" n="37"/>se habens : ergo facit unum.
+</p>
+            <p xml:id="alalal-g15379-d1e143">
+               <lb ed="#Be" n="38"/>2. Item, Una passio Christi operatur in
+<lb ed="#Be" n="39"/>baptismo, sive suscipiatur ab hoc, sive ab
+<lb ed="#Be" n="40"/>illo : ergo videtur, quod aequaliter.
+</p>
+            <p xml:id="alalal-g15379-d1e152">
+               <lb ed="#Be" n="41"/>3. Item, Fides aliena operatur in om-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="42"/>nibus parvulis ad justificationem :
+<lb ed="#Be" n="43"/>videtur, quod aequaliter.
+</p>
+            <p xml:id="alalal-g15379-d1e163">
+               <lb ed="#Be" n="44"/>Sed contra hoc videtur esse, quod
+<lb ed="#Be" n="45"/>1. Secundum naturalia, Angeli 
+gratui<lb break="no" ed="#Be" n="46"/>ta etiam differenter acceperint, ut dicit
+<lb ed="#Be" n="47"/>Magister in libro II Sententiarum : ergo
+<lb ed="#Be" n="48"/>videtur, quod similiter et parvuli: ergo
+<lb ed="#Be" n="49"/>non receperunt aequalem gratiam.
+</p>
+            <p xml:id="alalal-g15379-d1e179">
+               <lb ed="#Be" n="50"/>2. Item, Nos videmus cum adolescunt,
+<lb ed="#Be" n="51"/>quod non aequaliter dispositi sunt ad 
+ac<lb break="no" ed="#Be" n="52"/>tus. Cum ergo actus sint ex habitibus,
+<lb ed="#Be" n="53"/>videtur quod nec habitus aequaliter 
+ac<lb break="no" ed="#Be" n="54"/>ceperunt.
+</p>
+            <p xml:id="alalal-g15379-d1e192">
+               <lb ed="#Be" n="55"/>3. Item, Quidam accipiunt gratiam
+<lb ed="#Be" n="56"/>finaliter in baptismo : alii autem non, ut
+<lb ed="#Be" n="57"/>praesciti: ergo videtur, quod inaequalis
+<lb ed="#Be" n="58"/>sit effectus baptismi in omnibus 
+parvu<lb break="no" ed="#Be" n="59"/>lis.
+</p>
+            <p xml:id="alalal-g15379-d1e205">
+               <lb ed="#Be" n="60"/>Solutio. Dicendum, quod aequalis est
+<lb ed="#Be" n="61"/>effectus baptismi in omnibus parvulis, ut
+<lb ed="#Be" n="62"/>probant prime objectiones: sed non
+<lb ed="#Be" n="63"/>sic se habet in adultis, ut infra 
+probabi<lb break="no" ed="#Be" n="64"/>tur.
+</p>
+            <p xml:id="alalal-g15379-d1e219">
+               <lb ed="#Be" n="65"/>Ad primum autem quod contra 
+objici<lb break="no" ed="#Be" n="66"/>tur, dicendum quod non est simile de
+<lb ed="#Be" n="67"/>Angelis: quia illi multorum judicio 
+se<lb break="no" ed="#Be" n="68"/>cundum differentiam ordinum differunt
+<lb ed="#Be" n="69"/>specie, sed parvuli sunt in specie una :
+<lb ed="#Be" n="70"/>nec hominibus datur quantitas gratia,
+<lb ed="#Be" n="71"/>secundum proportionem naturalium, sed
+<lb ed="#Be" n="72"/>potius secundum modum preparationis,
+<lb ed="#Be" n="73"/>et hic aequalis est cum parvulis, quia non
+<lb ed="#Be" n="74"/>habent preparationem nisi ex merito
+<lb ed="#Be" n="75"/>Christi, et illa aequaliter exhibetur 
+omni<lb break="no" ed="#Be" n="76"/>bus.
+</p>
+            <p xml:id="alalal-g15379-d1e248">
+               <lb ed="#Be" n="77"/>Ad aliud dicendum, quod differens
+<lb ed="#Be" n="78"/>usus est, non ex difformitate habitus,
+<lb ed="#Be" n="79"/>sed potius ex difformitate liberi arbitrii.
+</p>
+            <p xml:id="alalal-g15379-d1e257">
+               <lb ed="#Be" n="80"/>Ad aliud dicendum, quod finalem 
+ha<lb break="no" ed="#Be" n="81"/>bere gratiam, vel: secundum presentem
+<lb ed="#Be" n="82"/>justitiam non dicunt gratiae quantitatem,
+<lb ed="#Be" n="83"/>sed qualitatem : et ideo in illo argumento 
+<lb ed="#Be" n="84"/>mutatur quid in quale.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

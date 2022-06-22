@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bf" n="cod-al7b30">Paris 1894, v. 30</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bf" n="329"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-i69334"><!-- l4d34a3 -->
+            <head xml:id="alalal-i69334-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-i69334-Hd1e101" type="question-title">Quare hoc solum sacramentum habet
+impedimenta ?</head>
+            <p xml:id="alalal-i69334-d1e104">
+               <lb ed="#Bf" n="80"/>ARTICULUS III.
+<lb ed="#Bf" n="81"/>Quare hoc solum sacramentum habet
+<lb ed="#Bf" n="82"/>impedimenta ?
+</p>
+            <p xml:id="alalal-i69334-d1e113">
+               <lb ed="#Bf" n="83"/>Tertio queritur, Quare hoc solum 
+sa<lb break="no" ed="#Bf" n="84"/>cramentum habet impedimenta ?
+</p>
+            <p xml:id="alalal-i69334-d1e120">
+               <lb ed="#Bf" n="85"/>Videtur enim, quod non solum debeat
+<lb ed="#Bf" n="86"/>habere : quia etiam pcenitentia dependet
+<lb ed="#Bf" n="87"/>a voluntate et actu nostro: et tamen 
+im<lb break="no" ed="#Bf" n="88"/>pedimenta nulla ponuntur ei: ergo 
+vi<lb break="no" ed="#Bf" n="89"/>detur, quod nec isti.
+</p>
+            <p xml:id="alalal-i69334-d1e134">
+               <pb ed="#Bf" n="330"/>
+               <cb ed="#Bf" n="a"/>
+               <lb ed="#Bf" n="1"/>Responsio. Dicendum est ad hoc, quod
+<lb ed="#Bf" n="2"/>duplex causa est quare alia non habent
+<lb ed="#Bf" n="3"/>impedimenta : quarum una est, quod
+<lb ed="#Bf" n="4"/>consistunt circa unum hominem 
+simpli<lb break="no" ed="#Bf" n="5"/>cem, et ille ex alio impediri non potest.
+<lb ed="#Bf" n="6"/>Alia causa est quia circa actus spirituales
+<lb ed="#Bf" n="7"/>sunt, quos solus Deus operatur in nobis
+<lb ed="#Bf" n="8"/>sine nobis, in quibus ipse nullum potest
+<lb ed="#Bf" n="9"/>habere impedimentum : quia nihil est
+<cb ed="#Bf" n="b"/>
+               <lb ed="#Bf" n="10"/>fortius ipso quod impediat ipsum. 
+Utruin<lb break="no" ed="#Bf" n="11"/>que autem horum deficit in matrimonio :
+<lb ed="#Bf" n="12"/>quia a duorum dependet voluntatibus, et
+<lb ed="#Bf" n="13"/>duobus agentibus: et ‘consistit ejus 
+con<lb break="no" ed="#Bf" n="14"/>summatio in actu corporali : et ideo
+<lb ed="#Bf" n="15"/>multiplex potest habere impedimentum.
+</p>
+            <p xml:id="alalal-i69334-d1e176">
+               <lb ed="#Bf" n="16"/>Et per hoc patet, quod non est simile
+<lb ed="#Bf" n="17"/>de pcenitentia, quod inductum est pro
+<lb ed="#Bf" n="18"/>simili.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

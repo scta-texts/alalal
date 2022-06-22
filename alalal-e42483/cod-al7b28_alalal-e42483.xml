@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 4</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 4</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="219"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e42483"><!-- l3d11a4 -->
+            <head xml:id="alalal-e42483-Hd1e99">Articulus 4</head>
+            <head xml:id="alalal-e42483-Hd1e101" type="question-title">Quid intelligit Magister per 
+argumentationem tropicam ?</head>
+            <p xml:id="alalal-e42483-d1e104">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="20"/>ARTICULUS IV.
+<lb ed="Bd" n="21"/>Quid intelligit Magister per 
+argumenta<lb break="no" ed="Bd" n="22"/>tionem tropicam ?
+</p>
+            <p xml:id="alalal-e42483-d1e115">
+               <lb ed="Bd" n="23"/>Deinde quaeritur de argumentatione
+<lb ed="Bd" n="24"/>quam dicit Magister esse ex tropicis, ibi,
+<lb ed="Bd" n="25"/>B, §4: <quote xml:id="alalal-e42483-Qd1e123"> Sed ex tropicis locutionibus,
+<lb ed="Bd" n="26"/>etc. </quote>
+            </p>
+            <p xml:id="alalal-e42483-d1e129">
+               <lb ed="Bd" n="27"/>Si enim tropus est figuralis sermo,
+<lb ed="Bd" n="28"/>videtur esse ex figurativis 
+propositioni<lb break="no" ed="Bd" n="29"/>bus ista, Christus secundum quod homo
+<lb ed="Bd" n="30"/>est creatura, vel rationalis, vel 
+irratio<lb break="no" ed="Bd" n="31"/>nalis, etc. : imo non videtur esse 
+pecca<lb break="no" ed="Bd" n="32"/>tum, nisi quod in conclusione non 
+repe<lb break="no" ed="Bd" n="33"/>titur reduplicatio sic, Christus secundum
+<lb ed="Bd" n="34"/>quod homo est creatura: quia haec est
+<cb ed="#Bd" n="c"/>
+               <lb ed="Bd" n="35"/>conclusio intenta, et debet sic 
+argumen<lb break="no" ed="Bd" n="36"/>tari, Christus secundum quod homo est
+<lb ed="Bd" n="37"/>creatura : quia haec est conclusio intenta,
+<lb ed="Bd" n="38"/>et debet sic argumentari, Christus 
+se<lb break="no" ed="Bd" n="39"/>cundum quod homo est rationalis 
+crea<lb break="no" ed="Bd" n="40"/>tura: sed rationalis creatura est 
+crea<lb break="no" ed="Bd" n="41"/>tura: ergo Christus est creatura. Tunc
+<lb ed="Bd" n="42"/>patet, quod hic non est peccatum ex
+<lb ed="Bd" n="43"/>tropo aliquo, sed tantum ex hoc quod
+<lb ed="Bd" n="44"/>non repetitur reduplicatio in 
+conclu<lb break="no" ed="Bd" n="45"/>sione.
+</p>
+            <p xml:id="alalal-e42483-d1e176">
+               <lb ed="Bd" n="46"/>Responsio ad hoc est, quod 
+impro<lb break="no" ed="Bd" n="47"/>priam vocat Magister tropicam: quia in
+<lb ed="Bd" n="48"/>veritate id quod nature per se est, 
+pra<lb break="no" ed="Bd" n="49"/>dicari de persona non debet simpliciter :
+<lb ed="Bd" n="50"/>et si fiat, fit improprie.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

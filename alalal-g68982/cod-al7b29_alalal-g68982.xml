@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="336"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-g68982"><!-- l4d13a2 -->
+            <head xml:id="alalal-g68982-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-g68982-Hd1e101" type="question-title">An fractio predicta sit in corpore 
+Christi, aut in formis tantum ?</head>
+            <p xml:id="alalal-g68982-d1e104">
+               <lb ed="#Be" n="15"/>ARTICULUS II.
+<lb ed="#Be" n="16"/>An fractio predicta sit in corpore 
+Chri<lb break="no" ed="#Be" n="17"/>sti, aut in formis tantum ?
+</p>
+            <p xml:id="alalal-g68982-d1e113">
+               <lb ed="#Be" n="18"/>Deinde queritur de hoc quod dicit,
+<lb ed="#Be" n="19"/>ibi, A, circa initium : <quote xml:id="alalal-g68982-Qd1e119"> Sed econtra, cum
+<lb ed="#Be" n="20"/>ipsum corpus incorruptibile sit, etc. </quote>
+            </p>
+            <p xml:id="alalal-g68982-d1e125">
+               <lb ed="#Be" n="21"/>Videtur enim hoc nihil impedire 
+fra<lb break="no" ed="#Be" n="22"/>ctionem : quia
+<lb ed="#Be" n="23"/>1. Comestio magis corrumpit quam
+<lb ed="#Be" n="24"/>fractio : et tamen conceditur, quod 
+cor<lb break="no" ed="#Be" n="25"/>pus Christi comedatur : ergo etiam 
+con<lb break="no" ed="#Be" n="26"/>cedi debet, quod corpus Christi 
+frangi<lb break="no" ed="#Be" n="27"/>tur.
+</p>
+            <p xml:id="alalal-g68982-d1e144">
+               <lb ed="#Be" n="28"/>2. Item, De quocumque probatur 
+spe<lb break="no" ed="#Be" n="29"/>cies, et genus: sed quidquid comeditur,
+<lb ed="#Be" n="30"/>attritu dentium masticando frangitur :
+<lb ed="#Be" n="31"/>ergo si corpus Christi comeditur, corpus
+<lb ed="#Be" n="32"/>Christi frangitur.
+</p>
+            <p xml:id="alalal-g68982-d1e157">
+               <lb ed="#Be" n="33"/>3. Item, Hoc sacramentum est 
+memo<lb break="no" ed="#Be" n="34"/>riale passionis : sed in passione veraciter
+<lb ed="#Be" n="35"/>fuit corpus Christi divisum clavis et 
+lan<lb break="no" ed="#Be" n="36"/>cea: ergo fractum: ergo sacramentum
+<lb ed="#Be" n="37"/>non expresse representabit, nisi etiam
+<lb ed="#Be" n="38"/>in sacramento sic dividatur : ergo 
+fra<lb break="no" ed="#Be" n="39"/>ctio verissime est in corpore Christi.
+</p>
+            <p xml:id="alalal-g68982-d1e175">
+               <lb ed="#Be" n="40"/>4. Ttem, Alia quaedam videmus 
+impos<lb break="no" ed="#Be" n="41"/>sibilia secundum naturam esse in 
+sacra<lb break="no" ed="#Be" n="42"/>mento : sicut unum numero circumscri-
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="43"/>ptum corpus esse in diversis locis, et 
+ac<lb break="no" ed="#Be" n="44"/>cidens esse sine subjecto, et corpus 
+inani<lb break="no" ed="#Be" n="45"/>matum grossum transsubstantiari in 
+cor<lb break="no" ed="#Be" n="46"/>pus animatum divinum gloriosum : 
+qua<lb break="no" ed="#Be" n="47"/>ro ergo, Quare illa esse in sacramento
+<lb ed="#Be" n="48"/>conceduntur, sed non quod est 
+incorru<lb break="no" ed="#Be" n="49"/>ptibile simul frangatur?
+</p>
+            <p xml:id="alalal-g68982-d1e201">
+               <lb ed="#Be" n="50"/>Sotvutio. Dicendum, quod absque 
+du<lb break="no" ed="#Be" n="51"/>bio fractio non est in corpore Christi, sed
+<lb ed="#Be" n="52"/>potius in formis tantum.
+</p>
+            <p xml:id="alalal-g68982-d1e210">
+               <lb ed="#Be" n="53"/>Ad pRimuM autem dicendum, quod com:
+<lb ed="#Be" n="54"/>estio multa importat, scilicet 
+divisio<lb break="no" ed="#Be" n="55"/>nem cibi per dentes, et trajectionem in
+<lb ed="#Be" n="56"/>corpus, et digestionem, et 
+incorporatio<lb break="no" ed="#Be" n="57"/>nem, sive unionem. Et tamen passive
+<lb ed="#Be" n="58"/>conceditur, quod corpus Christi 
+comedi<lb break="no" ed="#Be" n="59"/>tur ratione illius quod est trajicere in
+<lb ed="#Be" n="60"/>corpus, quia verum corpus Christi 
+traji<lb break="no" ed="#Be" n="61"/>citur sub speciebus sacramenti in corpus
+<lb ed="#Be" n="62"/>nostrum : sed divisio per dentes refertur
+<lb ed="#Be" n="63"/>ad speciem : digestio autem non est ibi:
+<lb ed="#Be" n="64"/>quia non cadit in secessum, et unio sive
+<lb ed="#Be" n="65"/>incorporatio spiritualis passive convenit
+<lb ed="#Be" n="66"/>comedenti, ut supra ostensum est, et ita
+<lb ed="#Be" n="67"/>patet quod comestio non ponit 
+fractio<lb break="no" ed="#Be" n="68"/>nem.
+</p>
+            <p xml:id="alalal-g68982-d1e247">
+               <lb ed="#Be" n="69"/>Ad aliud patet solutio, quod comestio
+<lb ed="#Be" n="70"/>non est species fractionis ratione 
+traje<lb break="no" ed="#Be" n="71"/>ctionis in corpus, sed ratione attritionis
+<lb ed="#Be" n="72"/>per dentes, et illa non refertur ad corpus
+<lb ed="#Be" n="73"/>Christi.
+</p>
+            <p xml:id="alalal-g68982-d1e261">
+               <lb ed="#Be" n="74"/>Ad aliud dicendum, quod passio 
+re<lb break="no" ed="#Be" n="75"/>presentatur in sacramento secundum
+<lb ed="#Be" n="76"/>quod est effectiva redemptionis et 
+solu<lb break="no" ed="#Be" n="77"/>tiva pretii : et hoc patet ex ipso actu 
+im<lb break="no" ed="#Be" n="78"/>molationis in quod offerimus 
+sacramen<lb break="no" ed="#Be" n="79"/>tum quod Christus pro nobis in ara 
+cru<lb break="no" ed="#Be" n="80"/>cis obtulit: non autem representantur
+<lb ed="#Be" n="81"/>particulares poene inflicte, et ideo non
+<lb ed="#Be" n="82"/>esset conveniens dividi corpus Christi.
+</p>
+            <p xml:id="alalal-g68982-d1e283">
+               <lb ed="#Be" n="83"/>Ad aliud dicendum, quod contraria
+<lb ed="#Be" n="84"/>simul, vel ex quibus directe sequuntur
+<lb ed="#Be" n="85"/>disposita per affirmationem et 
+negatio<lb break="no" ed="#Be" n="86"/>nem, numquam ponuntur esse simul :
+<lb ed="#Be" n="87"/>quia hoc fieri non potest. Cum autem
+<lb ed="#Be" n="88"/>dicitur, quod est simul in pluribus locis,
+<lb ed="#Be" n="89"/>hoc dicitur ratione consecrationis quae fit
+<lb ed="#Be" n="90"/>in pluribus locis, et ex hoc non sequitur
+<pb ed="#Be" n="337"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>aliquod oppositum illi: et sic de aliis
+<lb ed="#Be" n="2"/>inductis. Sed si concederetur frangi, cum
+<lb ed="#Be" n="3"/>frangi sit corrumpi quoddam, oporteret
+<lb ed="#Be" n="4"/>per locum a specie concedere, quod 
+cor<lb break="no" ed="#Be" n="5"/>rumperetur : et per hoc quod est 
+incor<lb break="no" ed="#Be" n="6"/>ruptibile, habet quod non corrumpitur :
+<lb ed="#Be" n="7"/>ergo simul corrumperetur, et non 
+cor<lb break="no" ed="#Be" n="8"/>rumperetur : quod est simul opposita per
+<lb ed="#Be" n="9"/>affirmationem et negationem esse vera,
+<lb ed="#Be" n="10"/>quod lieri non potest.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

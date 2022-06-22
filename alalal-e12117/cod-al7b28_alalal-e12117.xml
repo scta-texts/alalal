@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 21</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 21</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="60"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e12117"><!-- l3d3a21 -->
+            <head xml:id="alalal-e12117-Hd1e99">Articulus 21</head>
+            <head xml:id="alalal-e12117-Hd1e101" type="question-title">Quomodo intelligitur quod dicitur, Non
+seminans, sed per Spiritum sanctum
+creans ?</head>
+            <p xml:id="alalal-e12117-d1e104">
+               <lb ed="Bd" n="17"/>ARTICULUS XXI.
+<lb ed="Bd" n="18"/>Quomodo intelligitur quod dicitur, Non
+<lb ed="Bd" n="19"/>seminans, sed per Spiritum sanctum
+<lb ed="Bd" n="20"/>creans ?
+</p>
+            <p xml:id="alalal-e12117-d1e115">
+               <lb ed="Bd" n="21"/>Deinde quaeritur de hoc quod dicit, ibi,
+<lb ed="Bd" n="22"/>A, versus finem: <quote xml:id="alalal-e12117-Qd1e121"> Non seminans, sed
+<lb ed="Bd" n="23"/>per Spiritum sanctum creans, etc. </quote>
+            </p>
+            <p xml:id="alalal-e12117-d1e127">
+               <lb ed="Bd" n="24"/>Cum enim creare sitde nihilo aliquid
+<lb ed="Bd" n="25"/>facere, non videtur Christo convenire,
+<lb ed="Bd" n="26"/>qui non de nihilo, sed de aliquo materia~
+<lb ed="Bd" n="27"/>liter factus est, quia de sanguine 
+glorio<lb break="no" ed="Bd" n="28"/>swe Virginis.
+</p>
+            <p xml:id="alalal-e12117-d1e141">
+               <lb ed="Bd" n="29"/>Solutio Dicendum, quod creare duo
+<lb ed="Bd" n="30"/>importat, scilicet quod sit immediatum
+<lb ed="Bd" n="31"/>opus Dei, et ideo dicit creans : sed 
+al<lb break="no" ed="Bd" n="32"/>teruinm non habet, et ideo alia Lettera in
+<lb ed="Bd" n="33"/>originali habet.<quote xml:id="alalal-e12117-Qd1e154"> Sed per Spiritum 
+san<lb break="no" ed="Bd" n="34"/>ctum conditive. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

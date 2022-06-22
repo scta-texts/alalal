@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 3</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 3</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-al7b25">Paris 1894, v. 25</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="447"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-a88560"><!-- l1d16a3 -->
+            <head xml:id="alalal-a88560-Hd1e99">Articulus 3</head>
+            <head xml:id="alalal-a88560-Hd1e101" type="question-title">Utrum missio sit gratiae gratum facientis,
+vel gratiae gratis date ?</head>
+            <p xml:id="alalal-a88560-d1e104">
+               <lb ed="#Ba" n="21"/>ARTICULUS III.
+<lb ed="#Ba" n="22"/>Utrum missio sit gratiae gratum facientis,
+<lb ed="#Ba" n="23"/>vel gratiae gratis date ?
+</p>
+            <p xml:id="alalal-a88560-d1e113">
+               <lb ed="#Ba" n="24"/>Tertio quaeritur, Utrum ista sit missio
+<lb ed="#Ba" n="25"/>gratiae gratum facientis vel gratis data ?
+</p>
+            <p xml:id="alalal-a88560-d1e120">
+               <lb ed="#Ba" n="26"/>1. Videtur autem, quod gratis data,
+<lb ed="#Ba" n="27"/>quia exterius: nihil autem exterius extra
+<lb ed="#Ba" n="28"/>hominem est gratia gratum faciens : ergo
+<lb ed="#Ba" n="29"/>videtur, quod haecmissio non sit gratie
+<lb ed="#Ba" n="30"/>gratum facientis.
+</p>
+            <p xml:id="alalal-a88560-d1e134">
+               <lb ed="#Ba" n="31"/>2. Item, Dicit Aristoteles in 1V 
+AMeteo<lb break="no" ed="#Ba" n="32"/>rorum, quod per esse apertum judicamus
+<lb ed="#Ba" n="33"/>de occulto. Ergo per actum istius 
+missio<lb break="no" ed="#Ba" n="34"/>nis judicamus cujus gratiae causa sit : sed
+<lb ed="#Ba" n="35"/>actus ejus est lingue, prophetie et 
+hu<lb break="no" ed="#Ba" n="36"/>jusmodi, quae omnia non dicunt nisi
+<lb ed="#Ba" n="37"/>actum gratie gratis date : ergo illa 
+mis<lb break="no" ed="#Ba" n="38"/>sio est ad actum gratie gratis date.
+</p>
+            <p xml:id="alalal-a88560-d1e154">
+               <lb ed="#Ba" n="39"/>3. Item, Missio invisibilis est ad actum
+<lb ed="#Ba" n="40"/>gratie gratum facientis, ut supra proba-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="41"/>tum est: cum ergo superfluum sit duos
+<lb ed="#Ba" n="42"/>habere modosad idem perficiendum, 
+pra<lb break="no" ed="#Ba" n="43"/>cipue apud perfectum operantem, missio
+<lb ed="#Ba" n="44"/>visibilis non erit ad eamdem gratiam :
+<lb ed="#Ba" n="45"/>igitur erit ad gratiam gratis datam.
+</p>
+            <p xml:id="alalal-a88560-d1e174">
+               <lb ed="#Ba" n="46"/>4. Item, Missio Filii est ad gratiam
+<lb ed="#Ba" n="47"/>gratis datam, quia ad illuminationem 
+in<lb break="no" ed="#Ba" n="48"/>tellectus in revelatione, et prophetia,
+<lb ed="#Ba" n="49"/>scientia, et hujusmodi : ergo magis 
+mis<lb break="no" ed="#Ba" n="50"/>sio Spiritus sancti potest esse ad gratiam
+<lb ed="#Ba" n="51"/>gratis datam ; et non est interior ad
+<lb ed="#Ba" n="52"/>illam : ergo exterior.
+</p>
+            <p xml:id="alalal-a88560-d1e192">
+               <lb ed="#Ba" n="53"/>SED CONTRA :
+<lb ed="#Ba" n="54"/>1. A partibus sufficienter enumeratis
+<lb ed="#Ba" n="55"/>probatur, quod haec missio numquam 
+ex<lb break="no" ed="#Ba" n="56"/>hibita est nisi ad plenitudinem 
+redun<lb break="no" ed="#Ba" n="57"/>dantie in gratia gratum faciente 
+demon<lb break="no" ed="#Ba" n="58"/>strandam: quia exhibita est tribus 
+mo<lb break="no" ed="#Ba" n="59"/>dis, flatu, igne, columba: et patet in 
+sin<lb break="no" ed="#Ba" n="60"/>gulis, qualiter ostendebat Spiritus 
+redun<lb break="no" ed="#Ba" n="61"/>dantiam gratia, sicut infra ostendetur,
+<lb ed="#Ba" n="62"/>quando ostendetur sufficientia numeri
+<lb ed="#Ba" n="63"/>istarum missionum: ergo manifestum
+<lb ed="#Ba" n="64"/>est, quod non ostendit gratiam gratis
+<lb ed="#Ba" n="65"/>datam.
+</p>
+            <p xml:id="alalal-a88560-d1e223">
+               <lb ed="#Ba" n="66"/>2. Item, Non diceretur Spiritus 
+mis<lb break="no" ed="#Ba" n="67"/>sus, si tantum daretur donum ejus, ul 
+su<lb break="no" ed="#Ba" n="68"/>pra habitum est : ergo Spiritus tunc 
+dici<lb break="no" ed="#Ba" n="69"/>tur missus, quando ostenditur per donum
+<lb ed="#Ba" n="70"/>inhabitare per gratiam : sed non inhabitat
+<lb ed="#Ba" n="71"/>per donum gratie gratis date : dicit enim
+<lb ed="#Ba" n="72"/>auctoritas, quod in solis Sanctis est per
+<lb ed="#Ba" n="73"/>habitantem gratiam': in multis autem
+<lb ed="#Ba" n="74"/>est per actum gratie gratis dale qui non
+<lb ed="#Ba" n="75"/>sunt sancti : ergo ipse non mittitur, nec
+<lb ed="#Ba" n="76"/>visibiliter, nec invisibiliter, nisi per 
+gra<lb break="no" ed="#Ba" n="77"/>tiam gratum facientem.
+</p>
+            <p xml:id="alalal-a88560-d1e252">
+               <lb ed="#Ba" n="78"/>3. Item, In Littera habemus ab 
+Augu<lb break="no" ed="#Ba" n="79"/>stino, quod per illas creaturas visibiles
+<lb ed="#Ba" n="80"/>ostendebatur, quod Spiritus sanctus in
+<lb ed="#Ba" n="81"/>illis erat ad quos mittebantur creature
+<lb ed="#Ba" n="82"/>ille : et nos videmus, quod in omnibus
+<lb ed="#Ba" n="83"/>illis abundantia redundantie fuerit, ad
+<lb ed="#Ba" n="84"/>quos talis missio facta est.
+</p>
+            <p xml:id="alalal-a88560-d1e271">
+               <lb ed="#Ba" n="85"/>Sotvrio. Dicendum, quod in veritate
+<lb ed="#Ba" n="86"/>ista missio redundantis gratie est osten-
+<pb ed="#Ba" n="448"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" n="1"/>siva, et penes modum redundanti# 
+mul<lb break="no" ed="#Ba" n="2"/>tiplicatur, ut postea patebit.
+</p>
+            <p xml:id="alalal-a88560-d1e287">
+               <lb ed="#Ba" n="3"/>Ab primum ergo dicendum, quod non
+<lb ed="#Ba" n="4"/>est ita exterius, quod non sit interius :
+<lb ed="#Ba" n="5"/>quia modus visibilis missionis est 
+osten<lb break="no" ed="#Ba" n="6"/>sivus invisibilis Spiritus missi 
+invisibili<lb break="no" ed="#Ba" n="7"/>ter: et ideo fructus missionis est intus,
+<lb ed="#Ba" n="8"/>licet motus visibilis speciei sit extra.
+</p>
+            <p xml:id="alalal-a88560-d1e303">
+               <lb ed="#Ba" n="9"/>Ad aliud dicendum, quod per rem
+<lb ed="#Ba" n="10"/>manifestam dupliciter est judicare, 
+scili<lb break="no" ed="#Ba" n="11"/>cet ul judicium immediate cause habea~
+<lb ed="#Ba" n="12"/>tur per effectum apertum, et sicut causa
+<lb ed="#Ba" n="13"/>cause vel ratio cause per effectum 
+ha<lb break="no" ed="#Ba" n="14"/>betur: verbi gratia, videndo apertum
+<lb ed="#Ba" n="15"/>actum prophetiae vel linguarum in actu,
+<lb ed="#Ba" n="16"/>statim accipitur habitus qui est causa
+<lb ed="#Ba" n="17"/>bujus actus, ut immediatus ei, et hic est
+<lb ed="#Ba" n="18"/>habitus gratie gratis date. Ulterius 
+au<lb break="no" ed="#Ba" n="19"/>tem considerando tempus actus, et 
+mo<lb break="no" ed="#Ba" n="20"/>dum actus, scilicet quod est ad fidei 
+pro<lb break="no" ed="#Ba" n="21"/>pagationem, et tempus novell Ecclesia,
+<lb ed="#Ba" n="22"/>cognosco quod in illis est Spiritus 
+redun<lb break="no" ed="#Ba" n="23"/>dans in aliquos per gratiam gratum 
+fa<lb break="no" ed="#Ba" n="24"/>cientem : sicut etiam in naturis videndo
+<lb ed="#Ba" n="25"/>motum, cognosco movens et rationem
+<lb ed="#Ba" n="26"/>moventis tunc potius quam alio tempore,
+<lb ed="#Ba" n="27"/>et sic potius quam aliter.
+</p>
+            <p xml:id="alalal-a88560-d1e347">
+               <lb ed="#Ba" n="28"/>Ad aliud dicendum, quod ad idem ut
+<lb ed="#Ba" n="29"/>idem superfluerent duo modi: sed ad
+<lb ed="#Ba" n="30"/>idem ut aliter se habens, non 
+super<lb break="no" ed="#Ba" n="31"/>fluunt : quia unus est ad gratia 
+inspira<lb break="no" ed="#Ba" n="32"/>tionem sive receptionem vel augmentum,
+<lb ed="#Ba" n="33"/>alius autem ad redundantiam ejusdem
+<lb ed="#Ba" n="34"/>ostendendam.
+</p>
+            <p xml:id="alalal-a88560-d1e365">
+               <lb ed="#Ba" n="35"/>Ad aliud diceandum, quod secundum
+<lb ed="#Ba" n="36"/>quosdam Filius non mittitur nisi in 
+gra<lb break="no" ed="#Ba" n="37"/>tia gratis data. Dicunt enim, quod si est
+<lb ed="#Ba" n="38"/>gratum faciens, quod refertur ad 
+missio<lb break="no" ed="#Ba" n="39"/>nem Spiritus sancti. Sed hoc supra 
+im<lb break="no" ed="#Ba" n="40"/>probatum est. Unde dico, quod haecest
+<lb ed="#Ba" n="41"/>falsa, quod Filius mittatur in gratia 
+gra<lb break="no" ed="#Ba" n="42"/>tis data: quia uno misso, omnes tres
+<lb ed="#Ba" n="43"/>veniunt et inhabitant, licet per illum 
+effe<lb break="no" ed="#Ba" n="44"/>ctum omnes tres non dicantur mitti.
+</p>
+            <p xml:id="alalal-a88560-d1e389">
+               <lb ed="#Ba" n="45"/>Si autem aliquis objiciat contra hoc
+<lb ed="#Ba" n="46"/>quod dictum est, quod super multitudi-
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" n="47"/>nem audientium verbum visibiliter 
+ceci<lb break="no" ed="#Ba" n="48"/>dit Spiritus‘: sednon legitur, quod in
+<lb ed="#Ba" n="49"/>omnibus ilis redundaverit. 
+Responden<lb break="no" ed="#Ba" n="50"/>dum est,quod casus super multitudinem
+<lb ed="#Ba" n="51"/>ostendit redundantiam in praedicante
+<lb ed="#Ba" n="52"/>fidem noyellam, et ex parte ejus super
+<lb ed="#Ba" n="53"/>quem cadit, habet rationem foment fidei
+<lb ed="#Ba" n="54"/>novelle, sicut supra diximus: et ideo
+<lb ed="#Ba" n="55"/>etiam non exprimitur quo signo cecidit
+<lb ed="#Ba" n="56"/>Spiritus super eos, sed tantum, quod in
+<lb ed="#Ba" n="57"/>signo visibili apparuit, quod indicabat
+<lb ed="#Ba" n="58"/>redundantiam in Apostolis : modo autem
+<lb ed="#Ba" n="59"/>non est in Ecclesia illis de causis que
+<lb ed="#Ba" n="60"/>dicta sunt.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

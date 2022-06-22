@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-al7b27">Paris 1894, v. 27</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="274"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-d50590"><!-- l2d15a2 -->
+            <head xml:id="alalal-d50590-Hd1e99">Articulus 2</head>
+            <head xml:id="alalal-d50590-Hd1e101" type="question-title">Quare Sol et Luna dicuntur magna 
+luminaria? et, An Luna facta sit plena,
+vel prima, scilicet in incensione.</head>
+            <p xml:id="alalal-d50590-d1e104">
+               <lb ed="#Bc" n="66"/>ARTICULUS II.
+<lb ed="#Bc" n="67"/>Quare Sol et Luna dicuntur magna 
+lu<lb break="no" ed="#Bc" n="68"/>minaria? et, An Luna facta sit plena,
+<lb ed="#Bc" n="69"/>vel prima, scilicet in incensione.
+</p>
+            <p xml:id="alalal-d50590-d1e115">
+               <lb ed="#Bc" n="70"/>Secundo queritur, Quare Sol et Luna
+<lb ed="#Bc" n="71"/>dicuntur magna luminaria ?
+</p>
+            <p xml:id="alalal-d50590-d1e122">
+               <lb ed="#Bc" n="72"/>Quod enim Sol dicatur magnus, hoc
+<lb ed="#Bc" n="73"/>non habet questionem: quia Sol ma-
+<lb ed="#Bc" n="74"/>genus est quantitate, et lumine: sed Luna
+<lb ed="#Bc" n="75"/>parva est quantitate, licet sit prope, et
+<lb ed="#Bc" n="76"/>ideo videatur major quibusdam aliis
+<lb ed="#Bc" n="77"/>stellis, et parva est Iumine: ergo 
+vide<lb break="no" ed="#Bc" n="78"/>tur, quod male dicatur magna.
+</p>
+            <p xml:id="alalal-d50590-d1e141">
+               <pb ed="#Bc" n="275"/>
+               <cb ed="#Bc" n="a"/>
+               <lb ed="#Bc" n="1"/>Iterum, Queritur de Luna, Utrum
+<lb ed="#Bc" n="2"/>facta sit plena vel prima, scilicet in 
+in<lb break="no" ed="#Bc" n="3"/>censione.
+</p>
+            <p xml:id="alalal-d50590-d1e154">
+               <lb ed="#Bc" n="4"/>Si autem prima: tune est imperfecta:
+<lb ed="#Bc" n="5"/>ergo fecit Deus aliquod imperfectum. Si
+<lb ed="#Bc" n="6"/>plena : tunc videlur fallere alia translatio,
+<lb ed="#Bc" n="7"/>que dicit quod fecit lunam in 
+inchoa<lb break="no" ed="#Bc" n="8"/>tione noctis: non enim in inchoatione
+<lb ed="#Bc" n="9"/>noctis primo apparet, cum sit nova.
+</p>
+            <p xml:id="alalal-d50590-d1e170">
+               <lb ed="#Bc" n="10"/>Solutio. De quantitatibus luminarium
+<lb ed="#Bc" n="11"/>diversa scribuntur a Philosophis: sed in
+<lb ed="#Bc" n="12"/>hoc concordant, quod sol multo major
+<lb ed="#Bc" n="13"/>est terra: quod probatur per umbram
+<lb ed="#Bc" n="14"/>terre qui tendit in acutum vel conum,
+<lb ed="#Bc" n="15"/>quod non esset si aequalis vel major sole
+<lb ed="#Bc" n="16"/>esset terra. Quod autem tendit in conum
+<lb ed="#Bc" n="17"/>umbra terre, patet ex hoc: quia aliter
+<lb ed="#Bc" n="18"/>eclipsaret omni nocte multas stellarum
+<lb ed="#Bc" n="19"/>fixarum: quia si aequalis esset soli vel
+<lb ed="#Bc" n="20"/>major, numquam finiretur umbra, sed in
+<lb ed="#Bc" n="21"/>infinitum, vel usque ad stellas fixas 
+um<lb break="no" ed="#Bc" n="22"/>bra projiceretur. Luna autem magna 
+di<lb break="no" ed="#Bc" n="23"/>citur in effectu, licet non sit magna 
+quan<lb break="no" ed="#Bc" n="24"/>titate, et ideo a Philosopho dicitur 
+se<lb break="no" ed="#Bc" n="25"/>cundus sol: habet autem praecipue mo~
+<lb ed="#Bc" n="26"/>vere terrena, et praecipue humana, eo
+<lb ed="#Bc" n="27"/>quod est vicinior,
+</p>
+            <p xml:id="alalal-d50590-d1e212">
+               <lb ed="#Bc" n="28"/>Ad aliud dicendum, quod utraque 
+qui<lb break="no" ed="#Bc" n="29"/>dam dixerunt. Si autem dicitur nova
+<lb ed="#Bc" n="30"/>facta : tune non sequitur id quod 
+objici<lb break="no" ed="#Bc" n="31"/>tur: quia perfectio sua naluralis est, ut
+<lb ed="#Bc" n="32"/>accipiat incrementa luminis secundum
+<lb ed="#Bc" n="33"/>distantiam a sole: unde imperfecta non
+<lb ed="#Bc" n="34"/>dicitur, quando habet id quod per 
+sub<lb break="no" ed="#Bc" n="35"/>stantiam debet habere.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

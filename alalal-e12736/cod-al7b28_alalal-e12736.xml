@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Textus</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Textus</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="64"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e12736"><!-- l3d3et1 -->
+            <head xml:id="alalal-e12736-Hd1e99">Expositio Textus</head>
+            <p xml:id="alalal-e12736-d1e101">
+               <pb ed="#Bd" n="64"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Expositio Textus.
+</p>
+            <p xml:id="alalal-e12736-d1e110">
+               <lb ed="Bd" n="2"/>His habitis, veniendum est ad Lilteram
+<lb ed="Bd" n="3"/>hujus partis, et sumendum est illud quod
+<lb ed="Bd" n="4"/>dicit, ibi, C, <quote xml:id="alalal-e12736-Qd1e118"> Quia ea decimatione 
+sic<lb break="no" ed="Bd" n="5"/>ut Abraham minor Melchisedech 
+osten<lb break="no" ed="Bd" n="6"/>ditur, etc. : </quote> et qua minoritate ?
+</p>
+            <p xml:id="alalal-e12736-d1e126">
+               <lb ed="Bd" n="7"/>Et dicitur, quod imperfect 
+benedi<lb break="no" ed="Bd" n="8"/>ctionis et indigenti#, quam 
+imperfectio<lb break="no" ed="Bd" n="9"/>nem oblatione decime et retentione 
+no<lb break="no" ed="Bd" n="10"/>vem significavit: cum enim decrmum
+<lb ed="Bd" n="11"/>Melchisedech accepit denarium, apud
+<lb ed="Bd" n="12"/>Abraham non remansit: et ideo 
+perle<lb break="no" ed="Bd" n="13"/>ctio apud Melchisedech fuit et non apud
+<lb ed="Bd" n="14"/>Abraham, quod significavil decimam
+<lb ed="Bd" n="15"/>removendo: et ideo per  sacerdotium
+<lb ed="Bd" n="16"/>Melchisedech, et non filiorum Abraham,
+<lb ed="Bd" n="17"/>perfectio benedictionis et redemptionis
+<lb ed="Bd" n="18"/>fuit significata. Cum autem Melchisedech
+<lb ed="Bd" n="19"/>typum sacerdotii Christi exhibuit in 
+ob<lb break="no" ed="Bd" n="20"/>latione panis et vini, sacerdotium 
+Chri<lb break="no" ed="Bd" n="21"/>sti est perfectum et liberans: et 
+Abra<lb break="no" ed="Bd" n="22"/>ham imperfectum et indigens hberatore.
+</p>
+            <p xml:id="alalal-e12736-d1e163">
+               <lb ed="Bd" n="23"/>Deinde accipe illud ante finem 
+capi<lb break="no" ed="Bd" n="24"/>tuli: <quote xml:id="alalal-e12736-Qd1e169"> Secundum rationem quippe 
+il<lb break="no" ed="Bd" n="25"/>lam seminalem, elc. </quote> Ratio seminalis
+<lb ed="Bd" n="26"/>est ratio qua seminatur posteritas : et
+<lb ed="Bd" n="27"/>illa ratio est vis concupiscentiae, et 
+com<lb break="no" ed="Bd" n="28"/>mixtio sexuum, ut patet in omnibus.
+</p>
+            <p xml:id="alalal-e12736-d1e183">
+               <lb ed="Bd" n="29"/>Post haec accipe illud, in fine capituli:
+<lb ed="Bd" n="30"/>
+               <quote xml:id="alalal-e12736-Qd1e189"> Invisibilem coneupiscentiam. </quote> Hee
+<lb ed="Bd" n="31"/>concupiscentia dicitur invisibidis, quia in
+<lb ed="Bd" n="32"/>proprietatibus visibilis corporis seminati
+<lb ed="Bd" n="33"/>non apparet, sed per rationem carnis 
+pu<lb break="no" ed="Bd" n="34"/>ene adversus spiritum apparet.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

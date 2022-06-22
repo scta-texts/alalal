@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bd" n="cod-al7b28">Paris 1894, v. 28</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bd" n="292"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-e56008"><!-- l3d16a2 -->
+            <head xml:id="alalal-e56008-Hd1e99">Articulus 2</head>
+            <p xml:id="alalal-e56008-d1e101">
+               <lb ed="Bd" n="32"/>ARTICULUS II.
+</p>
+            <p xml:id="alalal-e56008-d1e106">
+               <lb ed="Bd" n="33"/>An passio Christi omnes passiones 
+San<lb break="no" ed="Bd" n="34"/>ctorum excesserit ?
+</p>
+            <p xml:id="alalal-e56008-d1e113">
+               <lb ed="Bd" n="35"/>Secundo quaeritur, Utrum passio sua
+<lb ed="Bd" n="36"/>omnes passiones excesserit ?
+</p>
+            <p xml:id="alalal-e56008-d1e120">
+               <lb ed="Bd" n="37"/>Videtur quod non: quia
+<lb ed="Bd" n="38"/>1. Multi Sancti et diutius, et plura
+<lb ed="Bd" n="39"/>multa tormentorum genera et acerbiora
+<lb ed="Bd" n="40"/>quantum est de genere pcenx 
+sustinue<lb break="no" ed="Bd" n="41"/>runt : sicut Laurentius, Vincentius, qui
+<cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="42"/>tribus diebus et noctibus versabantur in
+<lb ed="Bd" n="43"/>peenis : ergo videtur, quod sua pcoena non
+<lb ed="Bd" n="44"/>omnes peenas excesserit.
+</p>
+            <p xml:id="alalal-e56008-d1e143">
+               <lb ed="Bd" n="45"/>2. Item, Videtur quod sua peena 
+mini<lb break="no" ed="Bd" n="46"/>ma fuit inter omnes qui mortem 
+sense<lb break="no" ed="Bd" n="47"/>runt, Charitas enim cupit dissolvi, et
+<lb ed="Bd" n="48"/>esse cum Christo '. Cum igitur ipse 
+ma<lb break="no" ed="Bd" n="49"/>xime charitatis fuerit, ipse maxime hoc
+<lb ed="Bd" n="50"/>concupivit. In adeptione autem concupiti
+<lb ed="Bd" n="51"/>non est poena : ergo ipse minime est 
+pu<lb break="no" ed="Bd" n="52"/>nitus in sensu doloris.
+</p>
+            <p xml:id="alalal-e56008-d1e163">
+               <lb ed="Bd" n="53"/>3. Item, Recompensatio magis dilecti
+<lb ed="Bd" n="54"/>minuit dolorem in amissione ejus quod
+<lb ed="Bd" n="55"/>diligitur minus : in morte autem Christi
+<lb ed="Bd" n="56"/>recompensabatur sibi vita per magis 
+di<lb break="no" ed="Bd" n="57"/>iectum, quod fuit humani generis 
+redem<lb break="no" ed="Bd" n="58"/>ptio : ergo dolor minuebatur in 
+amissio<lb break="no" ed="Bd" n="59"/>ne minoris, scilicet vite : ergo minimus
+<lb ed="Bd" n="60"/>fuit dolor ejus.
+</p>
+            <p xml:id="alalal-e56008-d1e183">
+               <lb ed="Bd" n="61"/>4. Item, Spes resurrectionis dolorem
+<lb ed="Bd" n="62"/>minuit mortis in Sanctis: ergo multo
+<lb ed="Bd" n="63"/>magis in eo qui scivit se resurrecturum :
+<lb ed="Bd" n="64"/>sed Christus scivit hoc de se, sicut dicit
+<lb ed="Bd" n="65"/>Psalmus xv, 10 et 11 : Non dabis 
+san<lb break="no" ed="Bd" n="66"/>elum tuum videre corrupltionem. Notas
+<lb ed="Bd" n="67"/>mihi fecisti vias vite, adimplebis me,
+<lb ed="Bd" n="68"/>etc. : ergo minime doluit.
+</p>
+            <p xml:id="alalal-e56008-d1e203">
+               <lb ed="Bd" n="69"/>5. Hoc etiam videtur sensisse 
+Augusti<lb break="no" ed="Bd" n="70"/>nus super Psalmum c1,2: Domine, exaudi,
+<lb ed="Bd" n="71"/>sic dicens : <quote xml:id="alalal-e56008-Qd1e211"> Non vere timebat Dominus,
+<lb ed="Bd" n="72"/>tertia die resurrecturus. </quote>
+            </p>
+            <p xml:id="alalal-e56008-d1e217">
+               <lb ed="Bd" n="73"/>G. Ulterius videtur, quod etiam in 
+quo<lb break="no" ed="Bd" n="74"/>libet peccatore dum peccat, major debet
+<lb ed="Bd" n="75"/>esse dolor, quam in ipso : quia major
+<lb ed="Bd" n="76"/>dolor est in separatione a meliori : sed
+<lb ed="Bd" n="77"/>Deus melior est quam vita naturalis
+<lb ed="Bd" n="78"/>Christi: igitur magis dolet anima in 
+sepa<lb break="no" ed="Bd" n="79"/>ratione a Deo, quam Christus doluerit in
+<lb ed="Bd" n="80"/>morte, ut videtur.
+</p>
+            <p xml:id="alalal-e56008-d1e237">
+               <lb ed="Bd" n="81"/>SED CONTRA :
+<lb ed="Bd" n="82"/>1. Dicit Aristoteles, quod magis dolent
+<lb ed="Bd" n="83"/>juvenes in morle, quam senes, propter
+<lb ed="Bd" n="84"/>nobilitatem complexionis : sed speciosus
+<lb ed="Bd" n="85"/>forma pre filtis hominum ?, pre 
+omni<lb break="no" ed="Bd" n="86"/>bus delicatissime fuit complexionis :
+<lb ed="Bd" n="87"/>ergo pre omnibus torquebatur 
+pa<lb break="no" ed="Bd" n="88"/>tiendo.
+</p>
+            <p xml:id="alalal-e56008-d1e258">
+               <pb ed="#Bd" n="293"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>Si dicas, quod non fuit delicatissime
+<lb ed="Bd" n="2"/>complexionis. Contra : Secundum 
+natu<lb break="no" ed="Bd" n="3"/>ram forme necesse est, quod disponatur
+<lb ed="Bd" n="4"/>maieria, ut dicunt omnes auctores : 
+igi<lb break="no" ed="Bd" n="5"/>tur anima nobilissima secundum 
+natu<lb break="no" ed="Bd" n="6"/>ran, nobilissimam exigit complexionem :
+<lb ed="Bd" n="7"/>sed Christus nob lissimam habuit animam
+<lb ed="Bd" n="8"/>secundum naturam : ergo nobilissimam
+<lb ed="Bd" n="9"/>habuit complexionem. Ex hoc ulterius
+<lb ed="Bd" n="10"/>concludo, quod quanto magis medium et
+<lb ed="Bd" n="11"/>organum tactus accedit ad medium, 
+tan<lb break="no" ed="Bd" n="12"/>to efficacius sentit excellentias : sed in
+<lb ed="Bd" n="13"/>Christo maxime accessit ad medium, ut
+<lb ed="Bd" n="14"/>jam probatum est : ergo ipse multo 
+ma<lb break="no" ed="Bd" n="15"/>gis sensit excellentias etiam parum a 
+tem<lb break="no" ed="Bd" n="16"/>peramento recedentes, quam alius : et
+<lb ed="Bd" n="17"/>secundum sensum contrarii est dolor.
+</p>
+            <p xml:id="alalal-e56008-d1e302">
+               <lb ed="Bd" n="18"/>2. Item, In IV Fthicorwm dicit 
+Philo<lb break="no" ed="Bd" n="19"/>sophus, quod fortis magis tristatur et 
+do<lb break="no" ed="Bd" n="20"/>let in morte uno modo, quam non fortis,
+<lb ed="Bd" n="21"/>et reddit rationem dicens, in quantum
+<lb ed="Bd" n="22"/>melioribus privatur bonis sciens : et hoc
+<lb ed="Bd" n="23"/>est, in quantum virtutem habet omnium:
+<lb ed="Bd" n="24"/>ergo quanto vita virtuosior, tanto magis
+<lb ed="Bd" n="25"/>est dilecta ab anima bene disposita : sed
+<lb ed="Bd" n="26"/>quante magis dilecta, tanto major dolor
+<lb ed="Bd" n="27"/>in separatione. Cum igitur vita Christi
+<lb ed="Bd" n="28"/>summe bona fuerit, ut ejus cui spiritus
+<lb ed="Bd" n="29"/>datus est non ad mensuram, oportuit
+<lb ed="Bd" n="30"/>quod ipse summe in morte doluerit.
+</p>
+            <p xml:id="alalal-e56008-d1e333">
+               <lb ed="Bd" n="31"/>Siforte dicas, quod Philosophus non
+<lb ed="Bd" n="32"/>dicat verum, quia Sanclis contradicit 
+di<lb break="no" ed="Bd" n="33"/>centibus quod perfecta charitas cupit 
+dis<lb break="no" ed="Bd" n="34"/>solvi : quia dicebat Apostolus, ad Philip.
+<lb ed="Bd" n="35"/>1, 23: Desiderium habens dissolvi, et
+<lb ed="Bd" n="36"/>esse cum Christo. Kt Augustinus, quod
+<lb ed="Bd" n="37"/>Sancti vitam habent in patientia, et 
+mor<lb break="no" ed="Bd" n="38"/>tem in desiderio. Et Job, ut, 22: 
+Gaz<lb break="no" ed="Bd" n="39"/>dent vehementer, cum invenerint 
+sepul<lb break="no" ed="Bd" n="40"/>crum. Quid dices ad Augustinum in 
+li<lb break="no" ed="Bd" n="41"/>bro IX de Civitate Dei, ubi dicit sic:
+<lb ed="Bd" n="42"/>
+               <quote xml:id="alalal-e56008-Qd1e361"> Aulus Gellius in libris quibus titulus
+<lb ed="Bd" n="43"/>est, Noctinm Alticarum, scribit quod cum
+<lb ed="Bd" n="44"/>quidam Philosophus pallesceret in 
+tem<lb break="no" ed="Bd" n="45"/>pestate maris, luxuriosus quidam non
+<lb ed="Bd" n="46"/>timens insultabat ei : at ille protulit re-
+<cb ed="#Bd" n="b"/>
+                  <lb ed="Bd" n="47"/>sponsium <name xml:id="alalal-e56008-Nd1e376">Aristippi</name> in re simili dicentis,
+<lb ed="Bd" n="48"/>illum pro anima nequissimi nebulonis
+<lb ed="Bd" n="49"/>merito non fuisse sollicitum :se autem
+<lb ed="Bd" n="50"/>pro Aristippi anima timere debuisse. </quote>
+               <lb ed="Bd" n="51"/>Ergo Augustinus confirmat quod dicit
+<lb ed="Bd" n="52"/>Aristoteles.
+</p>
+            <p xml:id="alalal-e56008-d1e390">
+               <lb ed="Bd" n="53"/>3. Item, Augustinus in libro II de 
+Ci<lb break="no" ed="Bd" n="54"/>vitate Dei, dicit, quod sana ratio etiam
+<lb ed="Bd" n="55"/>exemplis anteponenda est. Cum igitur
+<lb ed="Bd" n="56"/>sana ratio sit, quod bonum est dilectum,
+<lb ed="Bd" n="57"/>et optimum magis dilectum, et vita 
+Chri<lb break="no" ed="Bd" n="58"/>sti naturalis magis fuit bona et melior
+<lb ed="Bd" n="59"/>quam omnium aliorum vita: ergo fuit
+<lb ed="Bd" n="60"/>dilecta pre omnibus aliis : sicut et ipse
+<lb ed="Bd" n="61"/>dixit : Dedi dilectam animam meam in
+<lb ed="Bd" n="62"/>manus intmicorum ejus?, id est, vitami :
+<lb ed="Bd" n="63"/>quia animam quae fuit spiritus 
+ratio<lb break="no" ed="Bd" n="64"/>nalis, numquam in manibus habuerunt
+<lb ed="Bd" n="65"/>inimici.
+</p>
+            <p xml:id="alalal-e56008-d1e421">
+               <lb ed="Bd" n="66"/>4. Ilem, Cum sana ratio sit in 
+separa<lb break="no" ed="Bd" n="67"/>tione magis dilecti et per naturam 
+con<lb break="no" ed="Bd" n="68"/>juncti, majorem esse dolorem : sequitur
+<lb ed="Bd" n="69"/>adhuc, quod Christus maxime in morte
+<lb ed="Bd" n="70"/>doluerit.
+</p>
+            <p xml:id="alalal-e56008-d1e434">
+               <lb ed="Bd" n="71"/>5. Item, Sensus intemperantiae minoris
+<lb ed="Bd" n="72"/>in aliquo membro majorem temperantiam
+<lb ed="Bd" n="73"/>indicat ejusdem. In manibus autem et
+<lb ed="Bd" n="74"/>pedibus statim sentitur intemperantia :
+<lb ed="Bd" n="75"/>calere enim incipiunt manus et pedes,
+<lb ed="Bd" n="76"/>etiam cum intemperantia tam modica
+<lb ed="Bd" n="77"/>est, ut alias in corpore non sentiatur.
+<lb ed="Bd" n="78"/>Ergo manus et pedes majoris sunt 
+tem<lb break="no" ed="Bd" n="79"/>peramenti. Ergo pati in illis majoris crit
+<lb ed="Bd" n="80"/>pene, quam pati in aliis : Christus 
+au<lb break="no" ed="Bd" n="81"/>tem passus est in illis: ergo ex hoc etiam
+<lb ed="Bd" n="82"/>erat in ipso aggravatio doloris. Hujus
+<lb ed="Bd" n="83"/>etiam signum est, quod cum querimus
+<lb ed="Bd" n="84"/>discernere per tactum, porrigimus ma-—
+<lb ed="Bd" n="85"/>nus potius quam aliam partem 
+corpo<lb break="no" ed="Bd" n="86"/>ris.
+</p>
+            <p xml:id="alalal-e56008-d1e472">
+               <lb ed="Bd" n="87"/>6. Item, Thren.1, 12: <quote xml:id="alalal-e56008-Qd1e476">Ovos omnes qui
+<lb ed="Bd" n="88"/>transitis per viam, attendite, et videte si
+<lb ed="Bd" n="89"/>est dolor sicut dolor meus</quote>. Item, de ipso
+<lb ed="Bd" n="90"/>dicit Psalmus : <quote xml:id="alalal-e56008-Qd1e485">Repleta est malis anima
+<lb ed="Bd" n="91"/>mea</quote>. Item, Cantatur de eo tempore
+<lb ed="Bd" n="92"/>passionis, Thren. mi, 15 : <quote xml:id="alalal-e56008-Qd1e493">Replevit me
+<pb ed="#Bd" n="294"/>
+                  <cb ed="#Bd" n="a"/>
+                  <lb ed="Bd" n="1"/>amaritudinibus, inebriavit me ab 
+syn<lb break="no" ed="Bd" n="2"/>thio.</quote>
+            </p>
+            <p xml:id="alalal-e56008-d1e505">
+               <lb ed="Bd" n="3"/>Solutio Concedo de plano, quod 
+Chri<lb break="no" ed="Bd" n="4"/>stus magis et acerbius quidem passus est,
+<lb ed="Bd" n="5"/>quam aliquis hominum umquam pati
+<lb ed="Bd" n="6"/>potuerit vel passus est : et hoc tribus de
+<lb ed="Bd" n="7"/>causis.
+</p>
+            <p xml:id="alalal-e56008-d1e518">
+               <lb ed="Bd" n="8"/>Prima est, uteo magis ad gratias sibi
+<lb ed="Bd" n="9"/>teneamur. Unde Bernardus: <quote xml:id="alalal-e56008-Qd1e524"> Multum
+<lb ed="Bd" n="10"/>difficultatis assumpsit quo te multe 
+di<lb break="no" ed="Bd" n="11"/>lectionis debitorem constitueret, 
+admo<lb break="no" ed="Bd" n="12"/>neretque ad gratiarum actiones difficultas
+<lb ed="Bd" n="13"/>redemptionis, quem minus devotum 
+effe<lb break="no" ed="Bd" n="14"/>cerat conditionis facilitas. </quote>
+            </p>
+            <p xml:id="alalal-e56008-d1e538">
+               <lb ed="Bd" n="15"/>Secunda causa est bonitas et innocentia
+<lb ed="Bd" n="16"/>vite : non enim verum est quod dicunt
+<lb ed="Bd" n="17"/>quidam, quod patiens pro suis peccatis
+<lb ed="Bd" n="18"/>magis affligitur : quia ille ex conscientia
+<lb ed="Bd" n="19"/>peccatorum indignatur, et magis spernit
+<lb ed="Bd" n="20"/>vitam : innocens autem nihil invenit in
+<lb ed="Bd" n="21"/>vita quare debeat eam spernere. Et si
+<lb ed="Bd" n="22"/>objicis, quod moriens pro delictis 
+eter<lb break="no" ed="Bd" n="23"/>nam timet mortem, et ideo dupliciter 
+tor<lb break="no" ed="Bd" n="24"/>quetur : hoc nihil est : quia nos non
+<lb ed="Bd" n="25"/>loquimur de eo quod est per accidens,
+<lb ed="Bd" n="26"/>sed de eo quod est per se : tortura autem
+<lb ed="Bd" n="27"/>illa per accidens est, scilicel in quantum
+<lb ed="Bd" n="28"/>per vitam istam liberatur a morte anime.
+<lb ed="Bd" n="29"/>Unde patet, quod illi falsum dicunt tam
+<lb ed="Bd" n="30"/>ab auctoritate Aristotelis et Augustini,
+<lb ed="Bd" n="31"/>quam etiam per rationem superius 
+in<lb break="no" ed="Bd" n="32"/>ductam. Hoe etiam ex verbis latronis 
+ac<lb break="no" ed="Bd" n="33"/>cipitur, cum latro ad Jatronem dixit: £%
+<lb ed="Bd" n="34"/>nos quidem digne, nam digna fuctis 
+re<lb break="no" ed="Bd" n="35"/>eipimus : hic vero nihil mali gessit '.
+</p>
+            <p xml:id="alalal-e56008-d1e586">
+               <lb ed="Bd" n="36"/>Tertia causa fuit ex corporis 
+nobilissi<lb break="no" ed="Bd" n="37"/>macomplexione, tam in toto, quam etiam
+<lb ed="Bd" n="38"/>in membris in quibus patiebatur, ut 
+pro<lb break="no" ed="Bd" n="39"/>bant objectiones.
+</p>
+            <p xml:id="alalal-e56008-d1e597">
+               <lb ed="Bd" n="40"/>Ad primum ergo quod objicitur de 
+Mar<lb break="no" ed="Bd" n="41"/>tyribus, dicendum quod non idem est
+<lb ed="Bd" n="42"/>plura et diutius pati, et acerbius sentire
+<lb ed="Bd" n="43"/>dolorem : et Sancti quidem plura et
+<lb ed="Bd" n="44"/>diutius pati potuerunt, nullus tamen
+<lb ed="Bd" n="45"/>eorum ita acerbe ut ipse sensit 
+dolo<lb break="no" ed="Bd" n="46"/>rem,
+</p>
+            <p xml:id="alalal-e56008-d1e616">
+               <cb ed="#Bd" n="b"/>
+               <lb ed="Bd" n="47"/>Ad aliud dicendum, quod charitas Chri.
+<lb ed="Bd" n="48"/>sti non diminuit sensum doloris, sed 
+do<lb break="no" ed="Bd" n="49"/>loris reputationem. In Sanctis autem aliis
+<lb ed="Bd" n="50"/>diminuit utrumque, et sensum, et 
+repu<lb break="no" ed="Bd" n="51"/>tationem : quia ipsi viatores fuerunt : et
+<lb ed="Bd" n="52"/>cum afficiebantur circa superiora, trahe~
+<lb ed="Bd" n="53"/>batur anima a corpore, et minus sensit ;
+<lb ed="Bd" n="54"/>sed Christus utrumque fuil simul, et 
+via<lb break="no" ed="Bd" n="55"/>tor, et comprehensor, et unius actus non
+<lb ed="Bd" n="56"/>retraxit ab actu alterius.
+</p>
+            <p xml:id="alalal-e56008-d1e642">
+               <lb ed="Bd" n="57"/>Ad aliud dicendum evudem modo, quod
+<lb ed="Bd" n="58"/>premium fecit non reputari vitam, id est,
+<lb ed="Bd" n="59"/>minus reputari : non quod minus valeret,
+<lb ed="Bd" n="60"/>ut dicit Anselmus, quia in infinitum plus
+<lb ed="Bd" n="61"/>valuit quam totum genus humanum
+<lb ed="Bd" n="62"/>aliter enim non fuisset sufficienter 
+recom<lb break="no" ed="Bd" n="63"/>pensatio facta per mortem Christi : sed
+<lb ed="Bd" n="64"/>quia amore hominum mortem elegit, non
+<lb ed="Bd" n="65"/>simpliciter abjiciendo vitam meliorem
+<lb ed="Bd" n="66"/>quam omnes homines essent: sed 
+post<lb break="no" ed="Bd" n="67"/>ponendo ad tempus ut omnibus 
+recupera<lb break="no" ed="Bd" n="68"/>ret : et haec reputatio fuit charitalis, et
+<lb ed="Bd" n="69"/>non secundum valorem.
+</p>
+            <p xml:id="alalal-e56008-d1e673">
+               <lb ed="Bd" n="70"/>Ad aliuddicendum, quod Dominus 
+sci<lb break="no" ed="Bd" n="71"/>vit se tertia die resurrecturum : si cnim
+<lb ed="Bd" n="72"/>Dominus in morte simpliciter 
+remansis<lb break="no" ed="Bd" n="73"/>set, tune nec nobis valuisset : et ipse
+<lb ed="Bd" n="74"/>etiam impipienter lecisset, meliorem vitam
+<lb ed="Bd" n="75"/>suam pro nobis in aeternum amittendo :
+<lb ed="Bd" n="76"/>sed ista prescientia resurrectionis in
+<lb ed="Bd" n="77"/>Christo non abstulit passionis sensum : et
+<lb ed="Bd" n="78"/>ideo illa objectio non probat nisi de 
+re<lb break="no" ed="Bd" n="79"/>putatione minori, et non de sensu vel 
+ex<lb break="no" ed="Bd" n="80"/>perientia acerbitatis.
+</p>
+            <p xml:id="alalal-e56008-d1e699">
+               <lb ed="Bd" n="81"/>Ad woc quod objicilur de separations a
+<lb ed="Bd" n="82"/>Deo per peccatum, vel ctiam per 
+condem<lb break="no" ed="Bd" n="83"/>nationem aeternam in die judicii, dico
+<lb ed="Bd" n="84"/>quod nulla est objectio illa : quia peena
+<lb ed="Bd" n="85"/>zquivoce sumitur, Separatio enim a Deo
+<lb ed="Bd" n="86"/>non est inferens sensum, sed damnum.
+<lb ed="Bd" n="87"/>Si dicas, quod sentit anima damnum
+<lb ed="Bd" n="88"/>suum : hoc nihil est : quia sentire 
+dam<lb break="no" ed="Bd" n="89"/>num est sentire privationem : sicut 
+vide<lb break="no" ed="Bd" n="90"/>re tenebras, et audire silentium : et ideo
+<lb ed="Bd" n="91"/>magis in infinitum damnum est in 
+perdi<lb break="no" ed="Bd" n="92"/>tione Dei, quam vite, si daninum 
+priva<lb break="no" ed="Bd" n="93"/>tum attendas, id est, damnificatio-
+<pb ed="#Bd" n="295"/>
+               <cb ed="#Bd" n="a"/>
+               <lb ed="Bd" n="1"/>neu: tuam vel illius: sed non est major
+<lb ed="Bd" n="2"/>sensus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

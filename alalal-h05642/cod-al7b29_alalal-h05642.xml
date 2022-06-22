@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 22</title>
+            <author ref="#Albert">Albertus Magnus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 22</title>
+               <date when="2022-06-21">June 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Be" n="cod-al7b29">Paris 1894, v. 29</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Be" n="503"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="alalal-h05642"><!-- l4d15a22 -->
+            <head xml:id="alalal-h05642-Hd1e99">Articulus 22</head>
+            <head xml:id="alalal-h05642-Hd1e101" type="question-title">De eleemosynis spiritualibus. </head>
+            <p xml:id="alalal-h05642-d1e104">
+               <lb ed="#Be" n="20"/>ARTICULUS XXII.
+<lb ed="#Be" n="21"/>De eleemosynis spiritualibus. 
+</p>
+            <p xml:id="alalal-h05642-d1e111">
+               <lb ed="#Be" n="22"/>Secundo, Queritur de spiritualibus
+<lb ed="#Be" n="23"/>eleemosynis.
+</p>
+            <p xml:id="alalal-h05642-d1e118">
+               <lb ed="#Be" n="24"/>Videtur enim, quod docere non sit
+<lb ed="#Be" n="25"/>eleemosyna :
+<lb ed="#Be" n="26"/>1. Non enim ordinantur eleemosyne
+<lb ed="#Be" n="27"/>contra naturam : sed natura omnes 
+pro<lb break="no" ed="#Be" n="28"/>ducit ignorantes : ergo videtur,quod 
+con<lb break="no" ed="#Be" n="29"/>tra ignorantiam nulla ordinetur 
+eleemo<lb break="no" ed="#Be" n="30"/>syna.
+</p>
+            <p xml:id="alalal-h05642-d1e137">
+               <lb ed="#Be" n="31"/>2. Item, Si docere eleemosyna est, ut
+<lb ed="#Be" n="32"/>videtur dicére Magister in Litfera, 
+vide<lb break="no" ed="#Be" n="33"/>tur quod sapiens sive instructus 
+oblige<lb break="no" ed="#Be" n="34"/>tur ad illam : ergo pro tempore et loco
+<lb ed="#Be" n="35"/>tenetur subvenire : sed hoc est tempus
+<lb ed="#Be" n="36"/>ignorantiae, scilicet quando ille ignorat
+<lb ed="#Be" n="37"/>et est preesens : ergo videtur, quod 
+om<lb break="no" ed="#Be" n="38"/>nem talem tenetur docere instructus:
+<lb ed="#Be" n="39"/>ergo si non docet, peccat mortaliter, 
+sic<lb break="no" ed="#Be" n="40"/>ut st non dat cibum esurienti in tempore
+<lb ed="#Be" n="41"/>necessitatis : et hoc est grave dicere.
+</p>
+            <p xml:id="alalal-h05642-d1e163">
+               <cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="42"/>3. Item, Objicitur de hoc quod dicit :
+<lb ed="#Be" n="43"/>
+               <quote xml:id="alalal-h05642-Qd1e171"> Dimittimus quod in nobis quisque 
+pec<lb break="no" ed="#Be" n="44"/>cavit. </quote> Hoc enim preceptum esse 
+vide<lb break="no" ed="#Be" n="45"/>tur in precepto dilectionis inimicorum :
+<lb ed="#Be" n="46"/>ergo hic est actus charitatis : ergo 
+mise<lb break="no" ed="#Be" n="47"/>ricordie : ergo non eleemosyne : quia
+<lb ed="#Be" n="48"/>in Litiera innuit, quod eleemosynam dat
+<lb ed="#Be" n="49"/>qui misericordiam prestat: et sine 
+mi<lb break="no" ed="#Be" n="50"/>sericordia non est eleemosyna.
+</p>
+            <p xml:id="alalal-h05642-d1e190">
+               <lb ed="#Be" n="51"/>4. Item, Consilium quod datur alicui,
+<lb ed="#Be" n="52"/>videtur quod reducatur ad doctrinam
+<lb ed="#Be" n="53"/>ignorantis, quia omnis consilium 
+que<lb break="no" ed="#Be" n="54"/>rens ignorat : ergo videtur, quod 
+super<lb break="no" ed="#Be" n="55"/>flue ponitur inter opera 
+eleemosyna<lb break="no" ed="#Be" n="56"/>rum.
+</p>
+            <p xml:id="alalal-h05642-d1e206">
+               <lb ed="#Be" n="57"/>5. Item, Ista opera non videntur esse
+<lb ed="#Be" n="58"/>misericordiae, sed potius charitatis in
+<lb ed="#Be" n="59"/>proximum per effectum tendentis : sicut
+<lb ed="#Be" n="60"/>enim dicitur, I ad Corinth. x11, 5: 
+  <quote xml:id="alalal-h05642-Qd1e216"
+                      source="http://scta.info/resource/Icor13_5@4-8">Cha<lb break="no" ed="#Be" n="61"/>ritas non quaerit quae sua sunt</quote>.
+</p>
+            <p xml:id="alalal-h05642-d1e222">
+               <lb ed="#Be" n="62"/>6. Item, Inter opera misericordiae 
+cor<lb break="no" ed="#Be" n="63"/>poralia quaedam sunt qué juvant post
+<lb ed="#Be" n="64"/>mortem : et cum anima maneat 
+nobi<lb break="no" ed="#Be" n="65"/>lius post mortem, quam corpus, videtur
+<lb ed="#Be" n="66"/>quod ad hoc debet esse opus spirituale
+<lb ed="#Be" n="67"/>quod fiat homini post mortem : ergo 
+in<lb break="no" ed="#Be" n="68"/>sufficienter enumerantur, ut videtur.
+</p>
+            <p xml:id="alalal-h05642-d1e240">
+               <lb ed="#Be" n="69"/>7. Item, Justitiae opus videtur 
+remit<lb break="no" ed="#Be" n="70"/>tere, sicut patet, Matth. vi, 45, ubi dicit :
+<lb ed="#Be" n="71"/>
+               <quote xml:id="alalal-h05642-Qd1e248">Si non dimiseritis hominibus, nee Pater
+<lb ed="#Be" n="72"/>vester dimittet vobis peccata vestra</quote>.
+</p>
+            <p xml:id="alalal-h05642-d1e255">
+               <lb ed="#Be" n="73"/>Sotutro. Dicendum, quod in veritate
+<lb ed="#Be" n="74"/>sunt eleemosyne spirituales septem,
+<lb ed="#Be" n="75"/>sicut dicitur communiter, contra 
+defe<lb break="no" ed="#Be" n="76"/>ctum spiritus ordinate. Aut enim ille
+<lb ed="#Be" n="77"/>defectus est culpe, aut poene. Si culpe :
+<lb ed="#Be" n="78"/>aut in se solo, aut in te peccatur per
+<lb ed="#Be" n="79"/>illationem injurie. Si in te -peccatur,
+<lb ed="#Be" n="80"/>contra hoc ordinatur sustinere patienter
+<lb ed="#Be" n="81"/>et remittere: quia duo sunt in injuria
+<lb ed="#Be" n="82"/>illata, scilicet culpa, et haec exigit 
+re<lb break="no" ed="#Be" n="83"/>missionem : et poena illata, et heo exigit
+<lb ed="#Be" n="84"/>sustinentiam, ne per seipsum judicet. Si
+<lb ed="#Be" n="85"/>autem est in se solo:
+<lb ed="#Be" n="86"/>emendationis, aut sine spe tali. Si primo
+<lb ed="#Be" n="87"/>modo, tunc habet locum castigatio : si
+<pb ed="#Be" n="504"/>
+               <cb ed="#Be" n="a"/>
+               <lb ed="#Be" n="1"/>secundo modo, tunc-habet locum oratio
+<lb ed="#Be" n="2"/>ad Deum, ut ipse suppleat quod deficit
+<lb ed="#Be" n="3"/>in auxilio humano. Si autem est 
+defe<lb break="no" ed="#Be" n="4"/>ctus pene: aut est secundum 
+intelle<lb break="no" ed="#Be" n="5"/>ctum, aut secundum affectum. Si est 
+se<lb break="no" ed="#Be" n="6"/>cundum affectum, sic est tristitia, vel
+<lb ed="#Be" n="7"/>metus qui ad idem ordinatur : et tunc
+<lb ed="#Be" n="8"/>indiget consolatione. Si autem secundum
+<lb ed="#Be" n="9"/>intellectum : aut secundum quod ipse
+<lb ed="#Be" n="10"/>est speculativus, et tunc est ignorans,
+<lb ed="#Be" n="11"/>et indiget doctrina : aut secundum quod
+<lb ed="#Be" n="12"/>est practicus, et tunc deficit in scientia
+<lb ed="#Be" n="13"/>agendorum: cujus subventio erit per
+<lb ed="#Be" n="14"/>consilium. Et sic patet, quod septem
+<lb ed="#Be" n="15"/>sunt eleemosyne spirituales.
+</p>
+            <p xml:id="alalal-h05642-d1e327">
+               <lb ed="#Be" n="16"/>Ad wergo quod primo objicitur, 
+di<lb break="no" ed="#Be" n="17"/>cendum quod ignorantia non est natura
+<lb ed="#Be" n="18"/>hominis instituti, sed damnati: et ideo
+<lb ed="#Be" n="19"/>defectus est in homine.
+</p>
+            <p xml:id="alalal-h05642-d1e338">
+               <lb ed="#Be" n="20"/>Ad aliud dicendum, quod licet 
+gene<lb break="no" ed="#Be" n="21"/>raliter ignorantia sit quidam defectus,
+<lb ed="#Be" n="22"/>est tamen ignorantia quedam, sicut 
+eo<lb break="no" ed="#Be" n="23"/>rum sine quibus non est salus, 
+periculo<lb break="no" ed="#Be" n="24"/>sa: et in talibus puto, quod instructus 
+te<lb break="no" ed="#Be" n="25"/>netur docere alios non doctos: et 
+pro<lb break="no" ed="#Be" n="26"/>pter hoc ponuntur plebi sacerdotes, qui
+<lb ed="#Be" n="27"/>in talibus instruant : et ideo sapiens 
+in<lb break="no" ed="#Be" n="28"/>structus presumit probabiliter alios esse
+<lb ed="#Be" n="29"/>qui succurrant ex debito, etiamsi ipse
+<lb ed="#Be" n="30"/>non doceat : et ideo non peccat 
+mortali<lb break="no" ed="#Be" n="31"/>ter, quia non instat tempus necessitatis.
+</p>
+            <p xml:id="alalal-h05642-d1e367">
+               <lb ed="#Be" n="32"/>Ad aliud dicendum, quod nihil 
+prohi<lb break="no" ed="#Be" n="33"/>bet unum opus esse plurium virtutum,
+<lb ed="#Be" n="34"/>secundum quod diversi fines movent in
+<lb ed="#Be" n="35"/>eo : unde bene concedo, quod remittere
+<lb ed="#Be" n="36"/>potest esse opus justitiae, et charitatis,
+<lb ed="#Be" n="37"/>et misericordiae : sed misericordie erit
+<lb ed="#Be" n="38"/>proprie sicut elicientis, et aliarum ut 
+im<lb break="no" ed="#Be" n="39"/>perantium : et hoc ideo fit quia 
+ordina<lb break="no" ed="#Be" n="40"/>tur ad sublevationem miserie quae est
+<lb ed="#Be" n="41"/>culpa in proximum : et tale opus elicit
+<lb ed="#Be" n="42"/>misericordia ex compassione proximi
+<lb ed="#Be" n="43"/>procedens.
+</p>
+            <p xml:id="alalal-h05642-d1e396">
+               <lb ed="#Be" n="44"/>Ad aliud dicendum, quod differunt
+<lb ed="#Be" n="45"/>doctrina et consilium : quia doctrina est
+<lb ed="#Be" n="46"/>de quolibet ignorato : pracipue tamen
+<lb ed="#Be" n="47"/>debet esse de his quae ad salutem 
+perti<lb break="no" ed="#Be" n="48"/>nent: ut quaedam sacre Scripture, et
+<lb ed="#Be" n="49"/>fidei articuli : sed consilium quaeritur in
+<cb ed="#Be" n="b"/>
+               <lb ed="#Be" n="50"/>dubiis agibilibus per nos, ut probatur in
+<lb ed="#Be" n="51"/>II Ethicorum.
+</p>
+            <p xml:id="alalal-h05642-d1e418">
+               <lb ed="#Be" n="52"/>Ad aliud patet responsio per antedj.
+<lb ed="#Be" n="53"/>cta.
+</p>
+            <p xml:id="alalal-h05642-d1e426">
+               <lb ed="#Be" n="54"/>Ad aliud dicendum, quod anima ma.
+<lb ed="#Be" n="55"/>net viva post mortem : et ideo quedam
+<lb ed="#Be" n="56"/>de his quae juvant eam dum est in 
+  cor<lb break="no" ed="#Be" n="57"/>pore, sufficiunt eam juvare post 
+  mor<lb break="no" ed="#Be" n="58"/>tem : non autem ita est de corpore : et
+<lb ed="#Be" n="59"/>ideo non oportet ad hoc opus spirituale
+<lb ed="#Be" n="60"/>esse quo specialiter juvetur anima post
+<lb ed="#Be" n="61"/>mortem.
+</p>
+            <p xml:id="alalal-h05642-d1e446">
+               <lb ed="#Be" n="62"/>Ad aliud dicendum, ut prius habitum
+<lb ed="#Be" n="63"/>est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>
