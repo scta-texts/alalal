@@ -1,0 +1,94 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-11T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "e7ab68f102a7c4b1875f8236f0285505a147825c",
+    "generation_method": "hierarchical"
+  },
+  "alalal-c47141-d1e104": {
+    "summary": "Rubric of Article 15: whether infants belong to the temple of God.",
+    "claims": [],
+    "concepts": [
+      "infants",
+      "temple of God"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "alalal-c47141-Hd1e101"
+      ]
+    }
+  },
+  "alalal-c47141-d1e113": {
+    "summary": "Introduces the question on Lombard's statement that infants belong to the temple of God.",
+    "claims": [],
+    "concepts": [
+      "infants",
+      "temple of God"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "alalal-c47141-Hd1e101"
+      ]
+    }
+  },
+  "alalal-c47141-d1e122": {
+    "summary": "Objection: infants do not seem to belong to God's temple, since they do not know him.",
+    "claims": [],
+    "concepts": [
+      "knowledge of God"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "alalal-c47141-d1e113"
+      ]
+    }
+  },
+  "alalal-c47141-d1e132": {
+    "summary": "Reply: infants belong to the temple through the sacrament, not by the use of grace but by its habit; Lombard calls this the gift of the Holy Spirit rather than its use, since use requires the exercise of free choice.",
+    "claims": [
+      "Baptised infants are God's temple by the habit of grace received through the sacrament, though they cannot yet use it."
+    ],
+    "concepts": [
+      "habit vs use of grace",
+      "infant baptism",
+      "free choice"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "alalal-c47141-d1e122"
+      ]
+    }
+  },
+  "alalal-c47141": {
+    "summary": "Article 15 asks whether infants, who do not know God, belong to his temple, as Lombard says. Albert answers that they do through the sacrament: they have the habit of grace, the gift of the Holy Spirit, though not its use, which requires the exercise of free choice.",
+    "claims": [
+      "Baptised infants are God's temple through the habit of grace, though they lack its use."
+    ],
+    "concepts": [
+      "infant baptism",
+      "habit vs use of grace",
+      "indwelling",
+      "free choice"
+    ],
+    "_metadata": {
+      "level": "articulus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "alalal-c47141-d1e104",
+        "alalal-c47141-d1e113",
+        "alalal-c47141-d1e122",
+        "alalal-c47141-d1e132"
+      ]
+    }
+  }
+}

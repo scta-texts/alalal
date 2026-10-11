@@ -1,0 +1,92 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-11T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "e7ab68f102a7c4b1875f8236f0285505a147825c",
+    "generation_method": "hierarchical"
+  },
+  "alalal-c51975-d1e104": {
+    "summary": "Rubric of Article 29: whether God changes by doing something he did not do before.",
+    "claims": [],
+    "concepts": [
+      "divine immutability",
+      "new action"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "alalal-c51975-Hd1e101"
+      ]
+    }
+  },
+  "alalal-c51975-d1e113": {
+    "summary": "Introduces the question on Lombard's text 'Ad hoc autem solet opponi'.",
+    "claims": [],
+    "concepts": [
+      "divine immutability"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "alalal-c51975-Hd1e101"
+      ]
+    }
+  },
+  "alalal-c51975-d1e123": {
+    "summary": "Objection: God seems to change by doing what he did not do before, since action is in some way in the agent, and this action was not from eternity.",
+    "claims": [],
+    "concepts": [
+      "action in the agent",
+      "temporal action"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "alalal-c51975-d1e113"
+      ]
+    }
+  },
+  "alalal-c51975-d1e137": {
+    "summary": "Reply: as often resolved, what is in the agent is the willing that the thing come about in this way, and this has remained unchangeably the same from eternity.",
+    "claims": [
+      "God's new effects come from an eternal, unchanging will, so God does not change."
+    ],
+    "concepts": [
+      "eternal will",
+      "divine immutability"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "alalal-c51975-d1e123"
+      ]
+    }
+  },
+  "alalal-c51975": {
+    "summary": "Article 29 answers the objection that God changes by beginning to do what he did not do before. Albert replies that what is in the divine agent is the eternal willing that the thing come about in a certain way, which remains unchangeably the same; the novelty lies in the effect, not in God.",
+    "claims": [
+      "God does not change by producing new effects, since his will to produce them is eternal and unchanging."
+    ],
+    "concepts": [
+      "divine immutability",
+      "eternal will",
+      "temporal effects"
+    ],
+    "_metadata": {
+      "level": "articulus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "alalal-c51975-d1e104",
+        "alalal-c51975-d1e113",
+        "alalal-c51975-d1e123",
+        "alalal-c51975-d1e137"
+      ]
+    }
+  }
+}
